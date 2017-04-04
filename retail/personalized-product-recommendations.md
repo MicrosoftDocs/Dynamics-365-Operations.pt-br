@@ -41,14 +41,14 @@ As recomendações de produto são habilitadas para os seguintes cenários POS. 
 
 [proddetails![(]. /media/proddetails.png)](. /media/proddetails.png)
 
-1.  ** ** Da transação:
+2.  ** ** Da transação:
 
 -   O mecanismo de recomendação sugere itens com base em lista inteira de itens na cesta.
 -   Se o associar de armazenamento adicionar um cliente à transação, o mecanismo de recomendação fornece recomendações pessoais com o histórico de transações de cliente e a lista de itens na cesta.
 
 ** Nota ** exibir recomendações ** ** transação na página, fornecedor precisa atualizar o layout de tela em dynamics 365 para as operações. ** Recomendações ** controle deve ser soltado ** ** transação sobre a página. [![(transactionscreenmultipleproductslargemessengersbag-5]. /media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](. /media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-1.  ** Detalhes de clientes ** página em:
+3.  ** Detalhes de clientes ** página em:
     -   O mecanismo de recomendação sugere itens com base em ID de usuário e os itens na lista de objetivos pretendidos de cliente.
 
 [customerdetailsrecommendations![(]. /media/customerdetailsrecommendations.png)](. /media/customerdetailsrecommendations.png)
