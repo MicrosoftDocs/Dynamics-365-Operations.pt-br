@@ -33,9 +33,8 @@ Você pode usar os tipos de documentos a seguir para gerenciar o estoque da sua 
 
 ## <a name="purchase-orders"></a>Ordens de compra
 As ordens de compra são criadas na matriz. Se um depósito de varejo é incluído no cabeçalho de compra, a ordem pode ser armazenado no armazenamento usando o retail moderno (MPOS) ou a retail do nuvem no Microsoft Dynamics 365 para operações de varejo. Após a especificação das quantidades recebidas na loja, é possível salvá-las localmente para a modificação adicional. Como alternativa, as quantidades podem ser confirmadas e enviadas para a matriz. Na matriz, que as quantidades foram recebidas na loja são exibidas em dynamics 365 para operações, em ** receber agora ** campos na ordem de compra.
-Ordens de transferência
----------------
 
+## <a name="transfer-orders"></a>Ordens de transferência
 Uma ordem de transferência pode especificar que uma loja específica é um local de onde os itens podem ser enviados. Nesse caso, a ordem de transferência é exibido no armazenamento de uma solicitação de separação em MPOS ou em do nuvem POS. Após a separação das quantidades solicitadas, elas são confirmadas e enviadas à matriz. Na matriz, que as quantidades foram separadas na loja são exibidas em dynamics 365 para operações, em ** remeter agora ** campos na ordem de transferência. Uma ordem de transferência pode especificar que uma loja específica é um local para onde os itens podem ser enviados. Nesse caso, a ordem de transferência é exibido no armazenamento de uma solicitação de remessa em MPOS ou em do nuvem POS. Após a especificação das quantidades recebidas na loja, é possível salvá-las localmente para a modificação adicional. Como alternativa, as quantidades podem ser confirmadas e enviadas para a matriz. Na matriz, que as quantidades foram recebidas na loja são exibidas em dynamics 365 para operações, em ** receber agora ** campos na ordem de transferência.
 
 ## <a name="stock-counts"></a>Contagens de estoque
