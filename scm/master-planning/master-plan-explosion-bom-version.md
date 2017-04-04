@@ -1,0 +1,48 @@
+---
+title: "Explosão de uma versão de BOM"
+description: "Este artigo explica um cenário de planejamento mestre que envolve o detalhamento de uma versão de (BOM) de lista de materiais."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: ReqTransExplosion
+audience: Application User
+ms.reviewer: YuyuScheller
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 19211
+ms.assetid: fe08c2e6-9cc5-4e34-bbb2-cd07843403b5
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: roxanad
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
+ms.openlocfilehash: 6461a07f8c8f02f584e5ef70b21ebaf04f29b57b
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="explosion-of-a-bom-version"></a>Explosão de uma versão de BOM
+
+Este artigo explica um cenário de planejamento mestre que envolve o detalhamento de uma versão de (BOM) de lista de materiais.
+
+Um detalhamento da demanda de uma versão da lista de materiais (BOM) cria uma demanda para cada item de linha da BOM em um site específico e, possivelmente, em um depósito específico. Em uma BOM específica do site, um determinado depósito pode ser definido para cada linha de BOM. Além disso, para cada linha de BOM, as configurações de dimensão do item determinam se o depósito é necessário. A demanda resultante para cada item de linha de BOM se torna, então, o ponto de partida para detalhamento de demanda adicional. Este cenário de planejamento mestre envolve estas condições:
+
+-   A dimensão do site é obrigatória e deve ser inserida na transação de demanda.
+-   A dimensão do site é consistente. Portanto, o site para demanda de nível inferior é o mesmo site na transação de demanda inicial.
+
+A ilustração a seguir mostra como ocorre o processo de detalhamento da demanda do planejamento mestre. ![Explosão de demanda usando a versão da BOM](./media/multisitedemandexplosionscenariousingbomversion.gif)
+
+<a name="see-also"></a>Consulte também
+--------
+
+[Planejamento mestre - como a BOM é determinada] (master-plan-bom-version-determined.md)
+
+[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+
+

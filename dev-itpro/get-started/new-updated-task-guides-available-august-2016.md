@@ -1,0 +1,106 @@
+---
+title: Novas guias ou atualizados a tarefa (em agosto de 2016)
+description: "Este tópico lista os novos ou guias atualizados de tarefa que foram liberados todos os idiomas) para a biblioteca APQC unificada Microsoft (em agosto de 2016 - para Microsoft Dynamics AX. Nenhuma nova biblioteca Introdução foi lançada."
+author: josaw1
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+audience: Application User, IT Pro
+ms.search.scope: Operations, Platform
+ms.custom: 252754
+ms.assetid: 11a72e4a-7899-42be-b180-a0f4b86d88f1
+ms.search.region: global
+ms.author: josaw
+ms.search.validFrom: 2016-08-30
+ms.dyn365.ops.version: Platform update 2
+translationtype: Human Translation
+ms.sourcegitcommit: 8904a5d19d5f1a65e411694f4858a4b61a69bd53
+ms.openlocfilehash: ae2977a9592472b4b92ed55e5970caf80c81d3de
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="new-or-updated-task-guides-august-2016"></a>Novas guias ou atualizados a tarefa (em agosto de 2016)
+
+Este tópico lista os novos ou guias atualizados de tarefa que foram liberados todos os idiomas) para a biblioteca APQC unificada Microsoft (em agosto de 2016 - para Microsoft Dynamics AX. Nenhuma nova biblioteca Introdução foi lançada.
+
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[] () código (guias em agosto de 2016 - todos os idiomas) na biblioteca APQC unificada para Microsoft Dynamics AX
+---------------------------------------------------------------------------------------------------
+
+(Em agosto de 2016 - todos os idiomas) a biblioteca APQC unificada contém as guias a tarefa que destinam-se ser usados para obter ajuda com atualizações 2 de preparo do Microsoft Dynamics AX (em agosto de 2016), dynamics AX a atualização do aplicativo de maio de 2016, e o Microsoft Dynamics AX a versão de fevereiro de 2016. Para obter mais informações sobre essas versões, consulte [novidades ou alterado] (que é new-changed.md -). Versões encontradas guias de tarefas disponíveis na biblioteca. Para obter mais informações sobre como conectar o sistema de ajuda em uma biblioteca de guia de tarefas, consulte Get [] iniciado a ajuda (help-overview.md).
+
+### <a name="data-access"></a>Acesso a dados
+
+| Linha de BPM           | País/região |
+|--------------------|----------------|
+| Criar um trabalho em lotes | Global         |
+
+### <a name="inventory"></a>Estoque
+
+| Linha de BPM                                | País/região |
+|-----------------------------------------|----------------|
+| Verificar a disponibilidade do estoque         | Global         |
+| Configurar um perfil de visão geral de entradas de item | Global         |
+
+### <a name="inventory-management"></a>Gerenciamento de estoque
+
+| Linha de BPM              | País/região |
+|-----------------------|----------------|
+| Configurar ordens de qualidade | Global         |
+
+### <a name="procurement"></a>Compras
+
+| Linha de BPM                                          | País/região |
+|---------------------------------------------------|----------------|
+| Criar itens suplementares para uma ordem de compra   | Global         |
+| Criar uma ordem de compra com um agendamento de entrega  | Global         |
+| Criar uma ordem de compra de devolução                    | Global         |
+| Criar uma ordem de compra repetida                    | Global         |
+| Grave o recibo dos bens na ordem de compra | Global         |
+
+### <a name="resource-and-activities"></a>Recursos e atividades
+
+| Linha de BPM                                                | País/região |
+|---------------------------------------------------------|----------------|
+| Ativar uma versão de fluxo de produção                      | Global         |
+| Crie uma regra kanban para atividades múltiplas            | Global         |
+| Criar uma regra kanban de evento da linha Kanban          | Global         |
+| Criar uma regra kanban de evento de estoque mínimo        | Global         |
+| Use o diário de estoque de segurança para atualizar a cobertura mínima | Global         |
+
+### <a name="supplier-relationship-management"></a>Gerenciamento de relacionamento com o fornecedor
+
+| Linha de BPM                                                           | País/região |
+|--------------------------------------------------------------------|----------------|
+| Aprovar vendedores para categorias específicas da obtenção                | Global         |
+| Criar um catálogo de compras                                       | Global         |
+| Criar uma requisição que use um RFQ                              | Global         |
+| Criar um método de avaliação para RFQs                                   | Global         |
+| Crie uma conta bancária de fornecedor                                       | Global         |
+| Criar uma política de compras                                         | Global         |
+| Criar tipos de solicitação e critérios de avaliação para RFQs            | Global         |
+| Configurando permissões para encomendar produtos em nome de qualquer outra pessoa | Global         |
+| Configurar políticas para hierarquias de categoria de compras               | Global         |
+
+### <a name="warehouse-and-transportation"></a>Depósito e transporte
+
+| Linha de BPM                                                                    | País/região |
+|-----------------------------------------------------------------------------|----------------|
+| Configurar um item de menu do dispositivo móvel para concluir o trabalho do tipo Ordem de compra | Global         |
+
+
+
+<a name="see-also"></a>Consulte também
+--------
+
+[Novas guias da tarefa ()] em fevereiro de 2016(new-task-guides-available-february-2016.md)
+
+[Novas guias ou atualizados a tarefa ()] em maio de 2016(new-updated-task-guides-available-may-2016.md)
+
+[Novas guias ou atualizados a tarefa ()] em novembro de 2016(new-task-guides-november-2016.md)
+
+

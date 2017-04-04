@@ -1,0 +1,88 @@
+---
+title: "Relatar BOMs como Concluídas"
+description: "Este artigo fornece informações sobre relatar BOMs como Concluídas."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: BOMReportFinish, BOMReportFinishMax
+audience: Application User
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 53251
+ms.assetid: 510d05a3-0073-438d-b0c4-b6a6df1882ea
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: johanho
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
+ms.openlocfilehash: 318c88f88277a8300b1fcda5056a9a92c9a81eae
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="report-boms-as-finished"></a>Relatar BOMs como Concluídas
+
+Este artigo fornece informações sobre relatar BOMs como Concluídas.
+
+As páginas **Relatar como concluído** e **Relatório de conclusão máx.** são usadas para relatar BOMs (listas de materiais) como concluídas. Conceitualmente, o processo para relatar uma BOM como concluída é igual ao processo para relatar uma ordem de produção como concluída. Esse processo pode ser usado em, por exemplo, processos simples de montagem, onde os recursos mais avançados de ordens de produção não são necessários. A página **Relatar como concluído** permite relatar várias BOMs como concluídas em um lote. ** Relatório máximo como concluído ** permite relatar a página somente uma BOM como concluída por vez. ** Relatar como concluído ** a página está disponível de um item de menu em gerenciamento de estoque, além ambas as páginas estão disponíveis como itens de menu ** produtos lançados ** na página.
+
+## <a name="report-as-finished-page"></a>Página Relatar como concluído
+Se você abrir a página **Relatar como concluído** de um produto liberado,, a página sugere que você relate a quantidade padrão de estoque como concluída. Por padrão, a versão da BOM ativa será mostrada, mas é possível alterar a versão da BOM se houver outras versões aprovadas. A página também permite que você exclua registros e crie novos registros para produtos liberados que devem ser relatados como concluídos Para usar uma consulta para selecionar produtos, clique no item de menu **Selecionar**. Você pode confirmar manualmente relatar como concluído para os produtos selecionados ao clicar em **OK**. Como alternativa, você pode configurar o processo para executar em um lote. Quando o processo relatar como concluído for confirmado, o sistema gerará um diário de BOM, onde o lançamento para estoque será processado. Esse diário consiste em um item de linha para o produto concluído e uma linha de item para cada linha da BOM. É possível controlar se o diário será lançado automaticamente ou se será mantido aberto para ajustes adicionais.
+
+## <a name="max-report-as-finished-page"></a>Máx. relatório de conclusão a página
+Na página **Relatório de conclusão máx.**, cada linha da BOM indica o número de unidades do produto que podem ser relatadas como concluídas. Esse cálculo se baseia no estoque físico disponível de cada linha de material. No exemplo a seguir, uma peça do número de item FG consome duas peças da matéria-prima RM10 e uma peça da matéria-prima RM20. Como existem apenas 10 peças RM10 disponíveis, a quantidade máxima de FG que pode ser relatada como concluída é de cinco peças. Esse valor é mostrado no campo **Relatório de conclusão máx.**
+
+| Nível | Nº do item | Quantidade | Disponível | Máx. Relatório de conclusão |
+|-------|-------------|----------|---------|-------------------------|
+| 0     | FG          |  1       | 0       | 5                       |
+| 1     | RM10        | -2       | 10      | 5                       |
+| 1     | RM20        | -1       |  8      | 8                       |
+
+## <a name="boms-that-have-multiple-levels"></a>BOMs com vários níveis
+Quando uma BOM tiver vários níveis, você poderá controlar como os materiais são contabilizados em todos os níveis usando o campo **Detalhamento**. Esse campo está disponível na página **Relatar como concluído** e na página **Relatório de conclusão máx.** As opções a seguir estão disponíveis:
+
+-   **Nunca** – as BOMs subjacentes não são detalhadas quando há escassez de material.
+-   **Sempre** – todas as BOMs subjacentes são totalmente detalhadas. Portanto, qualquer estoque disponível para itens de componentes semiconcluídos não será usado.
+-   **Escassez** – as BOMs subjacentes só serão detalhadas se a quantidade total do material desejado não estiver disponível.
+
+### <a name="example"></a>Exemplo
+
+Neste exemplo, três peças do produto concluído (número de item FG) estão prontas para ser relatadas como concluídas. Há uma BOM de dois níveis, como mostrado aqui.
+
+| Nível | Nº do item | Quantidade da linha de BOM | Disponível |
+|-------|-------------|-------------------|---------|
+| 0     | FG          |                   |         |
+| 1     | COMP        | 1                 | 2       |
+| 1     | RM          | 1                 |         |
+
+As tabelas a seguir mostram como a configuração do campo **Detalhamento** afeta o modo como as linhas do diário de BOM são geradas. **Detalhamento: Nunca**
+
+| Nível | Nº do item | Quantidade |
+|-------|-------------|----------|
+| 0     | FG          | 3        |
+| 1     | COMP        | -3       |
+
+Como a tabela mostra acima, somente os comp (s) do número de item serão considerados deduzido no diário. O RM de número de item, que é parte externa de san francisco (s), não é detalhado a linha de diário, e a de duas partes comp (s) não é considerado disponível. **Detalhamento: Sempre**
+
+| Nível | Nº do item | Quantidade |
+|-------|-------------|----------|
+| 0     | FG          | 3        |
+| 1     | RM          | -3       |
+
+Neste caso, o número de item COMP é detalhado até sua matéria-prima, número de item RM. As duas peças de COMP não são consideradas na quantidade a ser consumida por RM. **Detalhamento: Escassez**
+
+| Nível | Nº do item | Quantidade |
+|-------|-------------|----------|
+| 0     | FG          | 3        |
+| 1     | COMP        | -2       |
+| 1     | RM          | -1       |
+
+Neste caso, as duas peças disponíveis do número de item COMP são consideradas. No entanto, como três peças do número de item FG são necessárias, uma peça do número de item RM também será necessária para criar a peça adicional de COMP.
+
+

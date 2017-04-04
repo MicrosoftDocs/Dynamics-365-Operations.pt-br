@@ -1,0 +1,63 @@
+---
+title: "Planejamento mestre o planejamento da cobertura de site, depósito não obrigatório"
+description: "Este tópico descreve como um item com o conjunto de dimensões do local da cobertura é planejado."
+author: YuyuScheller
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
+audience: Application User
+ms.reviewer: YuyuScheller
+ms.search.scope: AX 7.0.0, Operations, Core
+ms.custom: 2474
+ms.assetid: 316da918-67ae-43c5-baea-00ae559e29b0
+ms.search.region: Global
+ms.search.industry: Manufacturing
+ms.author: roxanad
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
+ms.openlocfilehash: 28607f0fc8db99c9fc8e96b4514763b8cf589dd8
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Planejamento mestre o planejamento da cobertura de site, depósito não obrigatório
+
+Este tópico descreve como um item com o conjunto de dimensões do local da cobertura é planejado.
+
+Este cenário de planejamento mestre envolve estas condições:
+
+-   A dimensão de estoque é definida como obrigatória e deve ser inserida na transação de demanda.
+-   A dimensão do depósito não está definida como obrigatória. O depósito pode ser conhecido, mas não é usado no cálculo do planejamento mestre.
+-   A dimensão do site está definida como planejamento de cobertura.
+-   A dimensão do depósito não está definida como planejamento de cobertura. Assim, a oferta e a demanda são agregadas por site (e talvez outras dimensões de cobertura planejada também).
+
+O gráfico a seguir ilustra como o planejamento mestre ocorre. Os parâmetros referidos no gráfico, e as respectivas localizações, são estes:
+-   A cobertura de item é definida para o item. Clique ** produtos gerenciamento &gt; de informações&gt; sobre produtos liberou ** produto. Selecione o item, e em ** planejar &gt; a cobertura de item **.
+-   As relações de reabastecimento são definidas para o depósito. Clique ** depósitos &gt; de divisão &gt; de estoque a configuração &gt; de gerenciamento de estoque. ** Na guia **Planejamento mestre**, consulte o grupo de campos **Depósito principal** .
+-   O tipo de ordem padrão é definido como Produção, Ordem de compra ou Kanban. Clique ** produtos gerenciamento &gt; de informações&gt; sobre produtos liberou ** produto. Selecione o item, clique em planejamento &gt; ** configurações de ordem padrão. ** No formulário **Configurações de ordem padrão**, veja o campo **Tipo de ordem padrão**.
+
+![Demanda para cobertura de site, depósito não obrigatório    ](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
+
+
+
+<a name="see-also"></a>Consulte também
+--------
+
+[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+
+[Planejamento mestre - cobertura de site, depósito obrigatório](master-plan-site-coverage-warehouse-mandatory.md)
+
+[Planejamento mestre - cobertura de site e depósito, depósito não obrigatório](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+
+[Planejamento mestre - cobertura de site e depósito, depósito obrigatório](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+
+[Planejamento mestre - como a BOM é determinada] (master-plan-bom-version-determined.md)
+
+

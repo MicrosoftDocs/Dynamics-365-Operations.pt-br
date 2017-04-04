@@ -1,0 +1,60 @@
+---
+title: "Espaço de trabalho de faturamento de colaboração do fornecedor"
+description: "Este tópico explica como podem exibir faturas de fornecedor e enviar notas fiscais de colaboração de fornecedor que ao espaço de trabalho."
+author: twheeloc
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+audience: Application User
+ms.search.scope: Operations, Core
+ms.custom: 221534
+ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
+ms.search.region: Global
+ms.author: abruer
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+translationtype: Human Translation
+ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
+ms.openlocfilehash: 822e621f22f8af63b2a827dcc50a6b0ac68d3e21
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="vendor-collaboration-invoicing-workspace"></a>Espaço de trabalho de faturamento de colaboração do fornecedor
+
+Este tópico explica como podem exibir faturas de fornecedor e enviar notas fiscais de colaboração de fornecedor que ao espaço de trabalho.
+
+**Faturamento de colaboração de fornecedor** O espaço de trabalho pode ser usado para exibir informações de nota fiscal de fornecedor e enviar notas fiscais ao Microsoft Dynamics 365 para as operações usando recursos de fluxo de trabalho.
+Espaço de trabalho de faturamento de colaboração do fornecedor
+----------------------------------------
+
+### <a name="summary-tiles"></a>Blocos do resumo
+
+Os blocos **Resumo** darão uma visão geral de notas fiscais do fornecedor selecionado. Você pode exibir faturas pelo estado.
+-   Faturas de rascunho não foram enviadas ao fluxo de trabalho.
+-   As notas fiscais enviadas, aprovadas não são as notas fiscais que enviou o fornecedor, mas não foram lançados em dynamics 365 para as operações.
+-   Aprovado, faturas não pagas são aquelas lançadas no Dynamics 365 for Operations, mas ainda não foram pagas por completo.
+-   As notas fiscais pagas são as que foram totalmente paga em dynamics 365 para as operações.
+
+Clique em um quadro abrirá uma exibição filtrada da página **Lista de notas fiscais**.
+### <a name="tabular-lists"></a>Listas tabulares
+
+Na seção **Listas Tabular **, o status do faturamento está dividido de formas semelhantes como o resumo organiza lado a lado: Rascunho, e listas enviadas não aprovadas. Quando o estado de rascunho, uma nota fiscal pode ser enviada ao fluxo de trabalho ou ser excluída. A lista tabular a última é um padrão para notas fiscais. Você pode filtrar como você pesquisa, para permitir uma pesquisa mais rápido.
+Página Todas faturas de fornecedor
+-----------------------------
+
+Você pode exibir todas as notas fiscais de fornecedores e não lançadas ** fiscais de fornecedor de colaboração ** na página de listagem. Você pode usar esta página de listagem para exibir o status de pagamento de notas fiscais. Os status de pagamento inclui Não feito, e parcialmente pagas totalmente paga.
+Criar uma nova fatura a partir de uma ordem de compra
+--------------------------------------------
+
+Você pode criar uma nova nota fiscal do fornecedor selecionando **Novo** a ação **Faturamento de colaboração de fornecedor** no espaço de trabalho. A ordem de compra e o número de nota fiscal devem ser fornecidos pelo fornecedor. Por padrão, todas as linhas de ordem de compra de fornecedores aparecerão em nova nota fiscal. A quantidade e as informações de custo podem ser editadas antes de enviar a nota fiscal de fornecedor para o fluxo de trabalho. Você pode anexar arquivos, notas, imagens e URLs a uma nota fiscal antes enviá-la.
+
+
+
+Para obter mais informações, consulte colaborando [com fornecedores usando o portal] de fornecedor (/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
+
+
