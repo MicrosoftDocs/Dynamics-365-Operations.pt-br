@@ -48,10 +48,10 @@ Use os tipos de trabalho para trabalhos semelhantes agrupar categorias. Os tipos
 ## <a name="job-functions"></a>Funções de trabalho
 Os junções de trabalho descrevem categorias funcionais de alto nível e relacionados direitos de alto nível. As funções de trabalho não são necessárias. Você pode usar essas funções de trabalho, com tipos de trabalho, para filtrar planos de remuneração para trabalhos específicos. Você associa funções de trabalho e os tipos de trabalho a planos de remuneração configurando regras de eligibilidade ** regras de eligibilidade ** na página. Poderá anexar um conjunto de níveis a um plano de remuneração que se aplicam à determinada combinação de um tipo e de uma função de trabalho de trabalho definido com uma regra de qualificação. (Esses recursos se aplicam a planos de remuneração fixa e os planos de remuneração variáveis.) Entretanto, se você planeja usar outras funções de trabalho quando você agrupa qualificação configurada para o gerenciamento de remuneração, você deve configurar funções de trabalho antes de trabalho configuradas. A tabela mostra exemplos de funções de trabalho.
 
-| Trabalho           | Função de trabalho      |
-|---------------|-------------------|
-| Gerente de vendas | Gerente de nível médio |
-| Contador    | Profissionais     |
+| Trabalho           | Função de trabalho         |
+|---------------|----------------------|
+| Gerente de vendas | Gerente de nível médio    |
+| Contador    | Profissionais        |
 
 Você mantém funções de trabalho usando ** funções de trabalho ** a página. ** ** Funções de trabalho na página, insira um código de identificação e uma breve descrição da função de trabalho.
 

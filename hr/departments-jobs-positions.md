@@ -56,10 +56,6 @@ Um trabalho é um conjunto de tarefas e responsabilidades exigidas de uma pessoa
 Você pode criar tarefas de trabalho que descrevem as tarefas básicas que devem ser realizadas por um trabalhador em um cargo desse trabalho. A mesma tarefa de trabalho pode ser adicionada a vários trabalhos, e os cargos desses trabalhos herdarão as tarefas de trabalho. Exemplos de tarefas de trabalho são listados na tabela a seguir.
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Trabalho</th>
