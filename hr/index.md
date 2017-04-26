@@ -98,3 +98,5 @@ Você pode desenvolver e administrar questionários para coletar informações q
 -   [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md)
 
 
+
+

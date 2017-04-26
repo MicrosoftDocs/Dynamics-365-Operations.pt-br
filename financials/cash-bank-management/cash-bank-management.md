@@ -27,6 +27,9 @@ ms.lasthandoff: 04/12/2017
 
 # <a name="cash-and-bank-management-home-page"></a>Página inicial de gerenciamento de caixa e bancos
 
+[!include[banner](../includes/banner.md)]
+
+
 Você pode usar o Gerenciamento de caixa e de bancos para manter as contas bancárias e os instrumentos financeiros da entidade legal associados a essas contas bancárias. 
 
 Esses instrumentos incluem guias de depósito, cheques, letras de câmbio e notas promissórias. Você também pode reconciliar extratos bancários e imprimir dados bancários em relatórios padrão.
@@ -69,4 +72,6 @@ Esses instrumentos incluem guias de depósito, cheques, letras de câmbio e nota
 -   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
 -   [Cenário: Usar um pagamento de cliente para liquidar várias faturas que se estendem por vários períodos de desconto](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
 
