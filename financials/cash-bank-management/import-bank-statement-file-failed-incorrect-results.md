@@ -1,6 +1,6 @@
 ---
 title: "Solução de problemas de importação do arquivo de extrato bancário"
-description: "É importante que o arquivo de extrato bancário de banco o layout o Microsoft Dynamics 365 de operações oferece suporte. Devido a padrões restritos de extratos bancários, a maioria das integrações funcionarão corretamente. No entanto, algumas vezes, o arquivo de extrato bancário não é importado ou apresenta resultados incorretos. Normalmente, esses problemas são causados por pequenas diferenças no arquivo de extrato bancário. Este artigo explica como corrigir essas diferenças e resolver os problemas."
+description: "É importante que o arquivo de extrato bancário do banco corresponda ao layout ao qual o Microsoft Dynamics 365 for Operations oferece suporte. Devido a padrões restritos de extratos bancários, a maioria das integrações funcionarão corretamente. No entanto, algumas vezes, o arquivo de extrato bancário não é importado ou apresenta resultados incorretos. Normalmente, esses problemas são causados por pequenas diferenças no arquivo de extrato bancário. Este artigo explica como corrigir essas diferenças e resolver os problemas."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bank-statement-file-import-troubleshooting"></a>Solução de problemas de importação do arquivo de extrato bancário
 
-É importante que o arquivo de extrato bancário de banco o layout o Microsoft Dynamics 365 de operações oferece suporte. Devido a padrões restritos de extratos bancários, a maioria das integrações funcionarão corretamente. No entanto, algumas vezes, o arquivo de extrato bancário não é importado ou apresenta resultados incorretos. Normalmente, esses problemas são causados por pequenas diferenças no arquivo de extrato bancário. Este artigo explica como corrigir essas diferenças e resolver os problemas.
+[!include[banner](../includes/banner.md)]
+
+
+É importante que o arquivo de extrato bancário do banco corresponda ao layout ao qual o Microsoft Dynamics 365 for Operations oferece suporte. Devido a padrões restritos de extratos bancários, a maioria das integrações funcionarão corretamente. No entanto, algumas vezes, o arquivo de extrato bancário não é importado ou apresenta resultados incorretos. Normalmente, esses problemas são causados por pequenas diferenças no arquivo de extrato bancário. Este artigo explica como corrigir essas diferenças e resolver os problemas.
 
 <a name="what-is-the-error"></a>Qual é o erro?
 ------------------
@@ -34,16 +37,16 @@ ms.lasthandoff: 03/31/2017
 Após tentar importar um arquivo de extrato bancário, acesse o histórico de trabalho de gerenciamento de dados e os detalhes da execução para localizar o erro. O erro pode ajudar indicando o extrato, o saldo ou a linha do extrato. Entretanto, é improvável que você receba informações suficientes para identificar o campo ou o elemento que está causando o problema.
 
 ## <a name="what-are-the-differences"></a>Quais são as diferenças?
-Compare a definição de leiaute do banco ao Microsoft Dynamics 365 para a definição de importação das operações, além observar quaisquer diferenças nos campos e os elementos. Compare o arquivo de extrato bancário relacionado o dynamics 365 de exemplo para o arquivo de operações. Nos arquivos ISO20022, todas as diferenças devem ser fáceis de ver.
+Compare a definição de layout do arquivo bancário com a definição de importação do Microsoft Dynamics 365 for Operations e observe todas as diferenças nos campos e nos elementos. Compare o arquivo de extrato bancário ao arquivo de amostra relacionado do Dynamics 365 for Operations. Nos arquivos ISO20022, todas as diferenças devem ser fáceis de ver.
 
 ## <a name="transformations"></a>Transformações
 Normalmente, a alteração deve ser feita em uma das três transformações. Cada transformação é gravada em um padrão específico.
 
 | Nome do recurso                                         | Nome do arquivo                          |
 |-------------------------------------------------------|------------------------------------|
-| BankStmtImport\_\_BAI2CSV xslt para o\_BAI2XML\_            | BAI2CSV-to-BAI2XML.xslt            |
-| BankStmtImport\_\_ISO20022XML xslt para o\_de reconciliação do\_ | ISO20022XML-to-Reconciliation.xslt |
-| BankStmtImport\_\_MT940TXT xslt para o\_MT940XML\_          | MT940TXT-to-MT940XML.xslt          |
+| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt            | BAI2CSV-to-BAI2XML.xslt            |
+| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt | ISO20022XML-to-Reconciliation.xslt |
+| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt          | MT940TXT-to-MT940XML.xslt          |
 
 ## <a name="debugging-transformations"></a>Depurando transformações
 ### <a name="adjust-the-bai2-and-mt940-files"></a>Ajustar os arquivos BAI2 e MT940
@@ -68,7 +71,7 @@ Para obter mais informações, consulte <https://msdn.microsoft.com/en-us/librar
 5.  Defina a entrada para o local do arquivo de extrato bancário.
 6.  Defina um local e um nome de arquivo como saída.
 7.  Definia os pontos de quebra necessários.
-8.  No menu, clique ** XML ** &gt; ** inicie a depuração XSLT **.
+8.  No menu, clique em **XML** &gt; **Iniciar Depuração XSLT**.
 
 ### <a name="format-the-xslt-output"></a>Formatar a saída XSLT
 
@@ -76,7 +79,7 @@ Quando a transformação é executada, ela cria um arquivo de saída que você p
 
 ### <a name="adjust-the-transformation"></a>Ajustar a transformação
 
-Ajuste a transformação para obter o campo ou elemento apropriado no arquivo de extrato bancário. Mapear neste campo ou elemento o dynamics apropriado 365 para o elemento de operações.
+Ajuste a transformação para obter o campo ou elemento apropriado no arquivo de extrato bancário. Em seguida, mapeie esse campo ou elemento ao elemento apropriado do Dynamics 365 for Operations.
 
 ### <a name="debitcredit-indicator"></a>Indicador de débito/crédito
 
@@ -87,7 +90,7 @@ Ajuste a transformação para obter o campo ou elemento apropriado no arquivo de
 -   Modelo MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Exemplos de formatos de extrato bancário e layouts técnicos
-A tabela a seguir lista exemplos das definições de layout técnico de arquivos de importação avançada de reconciliação bancária e de três arquivos de exemplo de extrato bancário relacionados. Podem baixar arquivos de exemplo e layouts técnicos aqui: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+A tabela a seguir lista exemplos das definições de layout técnico de arquivos de importação avançada de reconciliação bancária e de três arquivos de exemplo de extrato bancário relacionados. Você pode baixar arquivos de exemplo e layouts técnicos aqui: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 
 | Definição do layout técnico                             | Arquivo de exemplo de extrato bancário          |
@@ -95,6 +98,8 @@ A tabela a seguir lista exemplos das definições de layout técnico de arquivos
 | DynamicsAXMT940Layout                                   | MT940StatementExample                |
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+
+
 
 
 

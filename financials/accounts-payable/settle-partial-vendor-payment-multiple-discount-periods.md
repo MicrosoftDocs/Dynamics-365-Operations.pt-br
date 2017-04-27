@@ -1,5 +1,5 @@
 ---
-title: "Liquidar um pagamento parcial de fornecedor que possui vários períodos de desconto"
+title: "Liquidar um pagamento parcial de fornecedor com vários períodos de desconto"
 description: "Este artigo mostra um cenário em que vários pagamentos parciais são feitos para um fornecedor que oferece vários descontos à vista."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Liquidar um pagamento parcial de fornecedor que possui vários períodos de desconto
+# <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Liquidar um pagamento parcial de fornecedor com vários períodos de desconto
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo mostra um cenário em que vários pagamentos parciais são feitos para um fornecedor que oferece vários descontos à vista. 
 
 O fornecedor 3054 oferece à Fabrikam um desconto à vista de 2 por cento se uma fatura for paga em cinco dias e um desconto à vista de 1 por cento se uma fatura for paga em 14 dias.
 
 ## <a name="invoice"></a>Fatura
-abril o 28 de junho, cria uma nota fiscal para 1,000.00 para o fornecedor 3054. Alice pode exibir essa transação na página **Transações do fornecedor**.
+Em 28 de junho, Amanda cria uma fatura de 1.000,00 para o fornecedor 3054. Alice pode exibir essa transação na página **Transações do fornecedor**.
 
 | Comprovante   | Data      | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo   | Moeda |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
@@ -48,7 +51,7 @@ As datas e valores de desconto à vista a seguir estão disponíveis para esta f
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="payment-on-july-2"></a>Pagamento em 2 de julho
-abril o 2 de julho, deseja pagar 300.00 nessa nota fiscal. Criar um único pagamento usando ** diário de pagamentos ** a página em contas a pagar. Ela adiciona uma linha para o fornecedor 3054 e insere um valor de pagamento de **300,00**. April então abre a página **Liquidar transações**, dessa forma, ela pode marcar a fatura que será liquidada. Ela atualiza o valor no campo **Valor para liquidar** para **300,00** e observa que o valor do campo **Valor do desconto à vista a ser obtido** foi alterado para **6,12**. Como este pagamento é feito no primeiro período de desconto, um desconto de 2 por cento é obtido.
+Em 2 de julho, Alice deseja pagar 300,00 da fatura. Ela cria um pagamento único usando a página **Diário de pagamento** em Contas a pagar. Ela adiciona uma linha para o fornecedor 3054 e insere um valor de pagamento de **300,00**. April então abre a página **Liquidar transações**, dessa forma, ela pode marcar a fatura que será liquidada. Ela atualiza o valor no campo **Valor para liquidar** para **300,00** e observa que o valor do campo **Valor do desconto à vista a ser obtido** foi alterado para **6,12**. Como este pagamento é feito no primeiro período de desconto, um desconto de 2 por cento é obtido.
 
 | Marcar | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor na moeda da transação | Moeda | Valor para liquidar |
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -134,6 +137,8 @@ Em 20 de julho, April cria um pagamento final de 200,00. Nenhum desconto é obti
 | APP-10061  | 12/7/2015 |         | 495.00                               |                                       | 0,00    | USD      |
 | DISC-10061 | 12/7/2015 |         | 5,00                                 |                                       | 0,00    | USD      |
 | APP-10062  | 20/07/2015 |         | 200,00                               |                                       | 0,00    | USD      |
+
+
 
 
 

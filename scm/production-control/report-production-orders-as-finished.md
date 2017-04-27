@@ -1,6 +1,6 @@
 ---
 title: "Relatar ordens de produção como concluídas"
-description: "Relatar como concluído é um estágio da produção. Este estágio, um produto acabado é relatado e transferidas da ordem de produção ao estoque."
+description: "Relatar como concluído é um estágio da produção. Nesta fase, um produto acabado é reportado e movido da ordem de produção para o inventário."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="report-production-orders-as-finished"></a>Relatar ordens de produção como concluídas
 
-Relatar como concluído é um estágio da produção. Este estágio, um produto acabado é relatado e transferidas da ordem de produção ao estoque.
+[!include[banner](../includes/banner.md)]
+
+
+Relatar como concluído é um estágio da produção. Nesta fase, um produto acabado é reportado e movido da ordem de produção para o inventário.
 
 Quando uma quantidade das mercadorias acabadas é informada como concluída em uma ordem de produção, ela é atualizada como disponível no estoque. As quantidades parciais da quantidade da ordem originalmente planejada podem ser informadas como concluídas. Também é possível relatar as quantidades de erro com um motivo de erro associado ao relatar quantidades como concluídas. Quando a ordem de produção atingir o estágio Informado como concluído, isso indicará que nenhuma outra quantidade será informada na ordem de produção.
 As características a seguir também estão associadas ao processo **Informar como concluído**:
@@ -44,5 +47,7 @@ A quantidade é informada no local de saída. O trabalho de depósito é então 
 
 ## <a name="set-a-production-order-to-reporting-as-finished"></a>Definir uma ordem de produção como Informada como concluída
 Você pode definir uma ordem de produção como **Informar como concluída** por meio da função de atualização da ordem de produção padrão ou por meio dos diários de roteiros e dos diários de ficha de trabalho ou por meio do diário **Informar como concluído**. Você também pode atualizar o estágio para **Informar como concluído** por meio das páginas de terminal de ficha de trabalho e de dispositivo de ficha de trabalho quando informa no último trabalho da ordem de produção. Por fim, você pode habilitar a opção **Informar como concluído** como um processo para a solução de dispositivo portátil para depósito.  
+
+
 
 

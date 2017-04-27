@@ -1,6 +1,6 @@
 ---
 title: "Definições de lançamento"
-description: "Este artigo oferece exemplos para mostrar como as definições de lançamento são usadas para ônus de ordem de compra e de orçamento. apropriações"
+description: "Este artigo oferece exemplos que mostram como as definições de lançamento são usadas para ônus de ordem de compra e apropriações de orçamento."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="posting-definition-examples"></a>Exemplos de definições de lançamento
 
-Este artigo oferece exemplos para mostrar como as definições de lançamento são usadas para ônus de ordem de compra e de orçamento. apropriações
+[!include[banner](../includes/banner.md)]
+
+
+Este artigo oferece exemplos que mostram como as definições de lançamento são usadas para ônus de ordem de compra e apropriações de orçamento.
 
 Antes que você leu este tópico, você deve estar familiarizado com as definições de lançamento e as definições de lançamento da transação. Para obter informações, consulte [Definições de lançamento](posting-definitions.md). Os exemplos a seguir podem ser configurados na página **Definições de lançamento**. Cada exemplo contém estas seções:
 
@@ -39,7 +42,7 @@ Antes que você leu este tópico, você deve estar familiarizado com as definiç
 
 Quando ocorre uma correspondência entre as contas e os valores de dimensão no painel de **Fazer a correspondência de critérios** para a definição de lançamento e as contas e os valores de dimensão na transação, as entradas do razão são geradas com base no painel **Entradas geradas** para a definição de lançamento. 
 > [!NOTE]
-> Associar uma definição de lançamento com um tipo de transação específica, use ** definições de lançamento de transação ** a página. Depois que você associa uma definição de lançamento com um tipo de transação e a marca ** definições de lançamento de uso ** ** parâmetros de contabilidade ** na página, todas as transações de tipo de transação selecionado devem usar definições de lançamento.
+> Para associar uma definição de lançamento a um tipo de transação específico, use a página **Definições de lançamento da transação**. Depois de associar uma definição de lançamento a um tipo de transação e selecionar **Usar definições de lançamento** na página **Parâmetros da contabilidade**, todas as transações do tipo de transação selecionado devem usar as definições de lançamento.
 
 ## <a name="example-purchase-order-encumbrances"></a>exemplo: Ônus da ordem de compra
 Ao habilitar o processamento de ônus selecionando **Habilitar processo de ônus** na página **Parâmetros da contabilidade** as definições de lançamento devem ser usadas para registrar ônus na contabilidade para todas as contas que devem ser reservadas. Na maioria dos casos, todas as contas de despesas estão reservados no balanço. 
@@ -80,7 +83,7 @@ As entradas do razão geradas são criadas para registrar os ônus.
 | 300143-OU\_1-OU\_3566-Training | 250,00 |        |         |
 | 300144-OU\_1-OU\_3566-Training |        | 250,00 |         |
 
-Neste exemplo, qualquer conta que está parte da estrutura de conta - L&P coincidir com os critérios de definição de lançamento. Portanto, quando 606500-OU\_1-OU\_3566-Training é avaliado, são geradas as entradas criadas para as contas definidas ** entradas gerados ** no painel da definição de lançamento.
+Neste exemplo, qualquer conta que está parte da estrutura de conta - L&P coincidir com os critérios de definição de lançamento. Portanto, quando 606500-OU\_1-OU\_3566-Training é avaliado, as entradas geradas são criadas para as contas que são definidas no painel de **Entradas geradas** para a definição de lançamento.
 
 ## <a name="example-budget-appropriations"></a>habilitar apropriações do orçamento
 Quando você habilita a apropriação do orçamento selecionando **Habilitar apropriação do orçamento** na página **Parâmetros da contabilidade**, as definições de lançamento devem ser usadas para registrar entradas de registro de orçamento na contabilidade. Quando uma configuração de controle de orçamento estiver ativa e habilitada, as definições de lançamento e as definições de lançamento da transação poderão ser usadas para oferecer suporte à gravação de entradas de apropriações, revisões, transferências, projetos, ativos fixos e previsão de suprimento e demanda para a contabilidade. 
@@ -121,7 +124,9 @@ As entradas do razão geradas são criadas para registrar o orçamento original 
 | 300145-OU\_1-OU\_3566-Training |        | 250,00 |         |
 | 300146-OU\_1-OU\_3566-Training | 250,00 |        |         |
 
-Neste exemplo, qualquer conta que está parte da estrutura de conta - L&P coincidir com os critérios de definição de lançamento. Portanto, quando 606400-OU\_1-OU\_3566-Training é avaliado, entradas de razão geradas serão criadas.
+Neste exemplo, qualquer conta que está parte da estrutura de conta - L&P coincidir com os critérios de definição de lançamento. Portanto, quando 606400-OU\_1-OU\_3566-Training é avaliado, as entradas do razão geradas são criadas.
+
+
 
 
 

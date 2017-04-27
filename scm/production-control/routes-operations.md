@@ -1,6 +1,6 @@
 ---
 title: "Roteiros e operações"
-description: "Este tópico fornece informações sobre roteiros e operações. Um roteiro definir o processo do roteiro ou uma grade de produto. Descreve cada estágio (operação) no processo de produção e ordem em que as etapas devem ser executadas em. Para cada etapa, roteiro também define os recursos necessários de operações, o tempo de configuração necessários e execução, e como os custos devem ser calculados."
+description: "Este tópico fornece informações sobre roteiros e operações. Um roteiro define o processo para produção de um produto ou grade de produto. Ele descreve cada estágio (operação) no processo de produção e a ordem em que essas etapas devem ser executadas. Para cada etapa, o roteiro também define os recursos de operações necessários, os tempos de configuração e execução necessários, e como o custo deve ser calculado."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,214 +28,219 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="routes-and-operations"></a>Roteiros e operações
 
-Este tópico fornece informações sobre roteiros e operações. Um roteiro definir o processo do roteiro ou uma grade de produto. Descreve cada estágio (operação) no processo de produção e ordem em que as etapas devem ser executadas em. Para cada etapa, roteiro também define os recursos necessários de operações, o tempo de configuração necessários e execução, e como os custos devem ser calculados.
+[!include[banner](../includes/banner.md)]
+
+
+Este tópico fornece informações sobre roteiros e operações. Um roteiro define o processo para produção de um produto ou grade de produto. Ele descreve cada estágio (operação) no processo de produção e a ordem em que essas etapas devem ser executadas. Para cada etapa, o roteiro também define os recursos de operações necessários, os tempos de configuração e execução necessários, e como o custo deve ser calculado.
 
 <a name="overview"></a>Visão Geral
 --------
 
-Um roteiro descreve a ordem das operações que é necessário para produzir um produto ou grade de produto. Para cada operação, roteiro também define os recursos de operações necessário, o tempo necessário para configurar e executar a operação, e como os custos devem ser calculados. Você pode usar o mesmo roteiro para gerar vários produtos, ou definir um roteiro exclusivo para cada produto ou grade de produto. Você mesmo poderá ter mais roteiros para os mesmos produto. Nesse caso, o roteiro usada varia, dependendo fatoras como quantidade que deve ser gerada. A definição de um roteiro em Microsoft Dynamics 365 para operações consiste em quatro elementos separados que descrevem, juntos, o processo de produção:
+Um roteiro descreve a ordem de operações necessárias para produzir um produto ou grade de produto. Para cada operação, o roteiro também define os recursos de operações necessários, o tempo necessário para configurar e realizar a operação, e como o custo deve ser calculado. Você pode usar o mesmo roteiro para produzir vários produtos, ou você pode definir um roteiro exclusivo para cada produto ou grade de produto. Você pode ainda ter vários roteiros para o mesmo produto. Nesse caso, o roteiro utilizado varia de acordo com fatores tais como a quantidade que deve ser produzida. A definição de um roteiro no Microsoft Dynamics 365 para Operações consiste em quatro elementos distintos que, juntos, descrevem o processo de produção:
 
--   ** O roteiro ** um roteiro – define a estrutura do processo de produção. Ou seja define a ordem das operações.
--   ** ** A operação – uma operação identifica uma etapa chamado em um roteiro, como ** assembly **. A mesma operação podem ocorrer como mais roteiros e podem ter números de operações diferentes.
--   ** O relação de operação ** – uma relação de operação define as propriedades operacionais de uma operação, como o tempo de configuração e o tempo de execução, categorias de custo previsto, parâmetros de consumo, e requisitos de recursos. A relação de operação habilita operacionais as propriedades de uma operação para variar, dependendo do que a operação é usada dentro ou produtos produzidos.
--   ** A versão de roteiro ** – uma versão de roteiro no roteiro usada para produzir um produto ou grade de produto. As versões de roteiros habilitam roteiros a ser reutilizadas por um produto ou alteradas pelo tempo. Também permitem roteiros diferentes a serem usadas para produzir os mesmos produto. Nesse caso, o roteiro usado depende de fatoras como local ou a quantidade que devem ser geradas.
+-   **Roteiro** – Um roteiro define a estrutura do processo de produção. Em outras palavras, ele define a ordem de operações.
+-   **Operação** – Uma operação identifica uma etapa nomeada no roteiro, tal como **Montagem**. A mesma operação pode ocorrer em múltiplos roteiros e pode ter diferentes números de operação.
+-   **Relação de operação** – Uma relação de operação define as propriedades operacionais de uma operação, tais como os tempos de configuração e execução, categorias de custo, parâmetros de consumo e requisitos de recursos. A relação de operação permite que as propriedades operacionais de uma operação varie, de acordo com o roteiro em que a operação é usada ou com os produtos que estão sendo produzidos.
+-   **Versão do roteiro** – Uma versão do roteiro define o roteiro usado para produzir um produto ou grade de produto. As versões de roteiros permitem que os roteiros sejam reutilizados em diferentes produtos ou modificados com o passar do tempo. Elas também permitem que diferentes roteiros sejam utilizados para produzir o mesmo produto. Nesse caso, o roteiro utilizado varia de acordo com fatores tais como a localização ou a quantidade que deve ser produzida.
 
 ## <a name="routes"></a>Roteiros
-Um roteiro descreve a ordem de operações usadas para produzir um produto ou grade de produto. Cada operação é atribuído um número de operação e uma operação de sucessor. O formulário ordem das operações uma rede roteiro que pode ser representada por um gráfico direcionado com um ou mais pontos inicial e uma única empresa. Em dynamics 365 para operações, roteiros diferem com o tipo de estrutura. Os dois tipos de roteiros são roteiros e simples redes de roteiro. Os parâmetros de controle de produção, você pode especificar se apenas roteiros simples podem ser usadas, ou se as mais complexas redes de roteiro podem ser usadas.
+Um roteiro descreve a ordem de operações usadas para produzir um produto ou grade de produto. Cada operação recebe um número de operação e uma operação sucessora. A ordem de operações forma uma rede de roteiros que pode ser representada por um gráfico direcionado que possui um ou mais pontos de início e um único ponto de término. No Dynamics 365 para Operações, roteiros diferem com base no tipo de estrutura. Os dois tipos de roteiros são roteiros simples e redes de roteiros. Nos parâmetros de Controle de produção, você pode especificar se apenas roteiros simples podem ser usados, ou se redes de roteiros mais complexas podem ser usadas.
 
 ### <a name="simple-routes"></a>Roteiros simples
 
-Um roteiro simples será sequencial, e só houver um ponto de partida para o roteiro.  
+Um roteiro simples é sequencial, e existe apenas um ponto de início para o roteiro.  
 
-[roteiro simples![(]. /media/routes-and-operations-1-simple-route.png)](. /media/routes-and-operations-1-simple-route.png)  
+[![Roteiro simples](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Se você habilitar apenas roteiros simples em parâmetros de controle de produção, o dynamics 365 para operações gera automaticamente os números de operações (10, 20, 30, etc) quando você define o roteiro.
+Se você habilitar apenas roteiros simples nos parâmetros de Controle de produção, o Dynamics 365 para Operações gera automaticamente os números de operações (10, 20, 30, e assim por diante) quando você define o roteiro.
 
-### <a name="route-networks"></a>Redes de roteiro
+### <a name="route-networks"></a>Redes de roteiros
 
-Se você habilitar as mais complexas redes de roteiro nos parâmetros de controle de produção, você pode definir roteiros com vários pontos inicial e as operações que podem ser executados em paralelo.  
+Se você habilitar as redes de roteiros mais complexas nos parâmetros de Controle de produção, você pode definir roteiros com múltiplos pontos de início e operações que podem acontecer em paralelo.  
 
-[![Route network](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
+[![Rede de roteiros](./media/routes-and-operations-2-route-network.png)](./media/routes-and-operations-2-route-network.png)  
 
 **Observações:**
 
--   Cada operação pode ter somente uma sucessor, operação de roteiro e de todas deve terminar em uma única operação.
--   Não há garantia qual várias operações com a mesma operação de sucessor (operações por exemplo, 30 e 40 na ilustração anterior) serão executadas realmente em paralelo. A disponibilidade de capacidade e recursos podem ser colocadas restrições na forma como as operações são planejadas.
--   Você não pode usar 0 (zero) como o número de operação. O número que será reservado e usado para especificar que a última operação no roteiro não tenha nenhuma operação de sucessor.
+-   Cada operação pode ter apenas uma operação sucessora, e todo o roteiro deve terminar em uma única operação.
+-   Não há garantia de que múltiplas operações que possuam a mesma operação sucessora (por exemplo, as operações 30 e 40 na ilustração anterior) serão executadas em paralelo. A disponibilidade e a capacidade de recursos pode colocar restrições no modo como as operações são agendadas.
+-   Você não pode usar 0 (zero) como número de operação. Esse número é reservado e utilizado para especificar que a última operação do roteiro não possui uma operação sucessora.
 
 ### <a name="parallel-operations"></a>Operações paralelas
 
-Ocasionalmente, uma combinação de vários recursos de operações que têm características diferentes é necessária para executar uma operação. Por exemplo, uma operação pode exigir de montagem, uma máquina e uma ferramenta, um trabalhador para cada dois computadores vigiem a operação. Esse exemplo puder ser modelado usando operações paralelas, na qual uma operação é designada como a operação principal e as outras serão secundário.  
+Eventualmente, é necessária uma combinação de vários recursos de operações que têm características diferentes para realizar uma operação. Por exemplo, uma operação de montagem pode precisar de uma máquina, uma ferramenta e um trabalhador para cada duas máquinas, para supervisionar a operação. Esse exemplo pode ser modelado usando operações paralelas, onde uma operação é designada como operação primária e as demais como secundárias.  
 
-[roteiro![com operações primárias e secundárias. (]/media/routes-and-operations-3-parallel-operations.png)](. /media/routes-and-operations-3-parallel-operations.png)  
+[![Roteiro que possui operações primária e secundárias](./media/routes-and-operations-3-parallel-operations.png)](./media/routes-and-operations-3-parallel-operations.png)  
 
-Normalmente, a operação principal representa o recurso de afunilamento dita e o tempo de execução das operações secundárias. Entretanto, durante o plano que envolva a capacidade finita, os recursos que estão agendados para a operação principal e operações secundárias esteja disponível com a capacidade livre ao mesmo tempo.  
+Normalmente, a operação primária representa o gargalo de recursos e impõe o tempo de execução para as operações secundárias. No entanto, durante o agendamento que envolve capacidade finita, os recursos agendados para ambas as operações primária e secundárias devem estar disponíveis e ter capacidade livre ao mesmo tempo.  
 
-A operação principal e operações secundárias devem ter a mesma operação número 30 (na ilustração anterior).  
+Tanto a operação primária como as secundárias devem possuir o mesmo número de operação (30 na ilustração anterior).  
 
-No exemplo acima, a necessidade de recursos para a operação principal (30) no computador, enquanto os requisitos de recursos para as operações secundárias ('30 e 30 ") são a ferramenta e o trabalhador. Ajuda da carga de cinquenta- porcentagem garantem o trabalhador planejado pode vigiar dois computadores ao mesmo tempo.
+No exemplo anterior, o requisito de recurso para a operação primária (30) é a máquina, enquanto os requisitos de recursos para as operações secundárias (30' e 30'') são a ferramenta e o o trabalhador. Uma carga de cinquenta por cento ajuda a garantir que o trabalhador agendado possa supervisionar duas máquinas ao mesmo tempo.
 
 ### <a name="approval-of-routes"></a>Aprovação de roteiros
 
-Um roteiro deve ser aprovada para ser usada no planejamento ou no processo de fabricação. Aprovação indica que a criação de roteiros for concluído. Os produtos lançados mesma ou grade liberada de produto podem ter mais roteiros aprovadas. Normalmente, a aprovação de um roteiro ocorre quando a primeira versão de roteiro é aprovada. Porém, algumas em cenários comerciais, aprovação de roteiro e a versão de roteiro são atividades separadas que podem envolver proprietários diferentes de processo.  
+Um roteiro deve ser aprovado antes que possa ser usado no planejamento ou processo de fabricação. A aprovação indica que a criação do roteiro foi concluída. O mesmo produto lançado ou grade de produto lançada pode ter diversos roteiros aprovados. Normalmente, a aprovação de um roteiro acontece quando a primeira versão relevante do roteiro é aprovada. Porém, em alguns cenários comerciais, a aprovação do roteiro e da versão do roteiro são atividades distintas que podem envolver diferentes donos de processos.  
 
-Cada roteiro pode ser aprovada ou reprovado separadamente. Entretanto, para que, quando um roteiro for reprovada, todas as versões de roteiro relacionadas também são reprovada. Os parâmetros de controle de produção, você pode especificar se os roteiros podem ser reprovada, e se os roteiros aprovadas podem ser alteradas.  
+Cada roteiro pode ser aprovado ou reprovado separadamente. No entanto observe que, quando um roteiro é reprovado, todas as versões de roteiro relacionadas também são reprovadas. Nos parâmetros de Controle de produção, você pode especificar se os roteiros podem ser reprovados, e se os roteiros aprovados podem ser alterados.  
 
-Se você deve manter um log que registros quem aprova cada roteiro, você poderá solicitar assinaturas eletrônicas para aprovação de roteiro. Os usuários que terão em confirmar sua identidade usando [] assinatura eletrônica (/dynamics365/operations/organization-administration/electronic-signature-overview).
+Caso precise manter um registro sobre quem aprova cada roteiro, você pode solicitar assinaturas eletrônicas para aprovação de roteiros. Os usuários terão que confirmar suas identidades utilizando uma [assinatura eletrônica](/dynamics365/operations/organization-administration/electronic-signature-overview).
 
 ## <a name="operations"></a>Operações
-Uma operação é uma etapa no processo de produção. Em dynamics 365 para operações, cada operação tiver uma ID e uma descrição simples. As tabelas a seguir mostram típicos exemplos de operações de uma loja de construção mecânica.
+Uma operação é uma etapa no processo de produção. No Dynamics 365 para Operações, cada operação possui uma ID e uma descrição simples. As tabelas a seguir mostram exemplos típicos de operações em uma oficina mecânica.
 
 | Operação  | descrição        |
 |------------|--------------------|
-| PipeCut    | Corte de pipe       |
-| TIGweld    | Soldadura de TIG        |
-| JigAssy    | Montagem de gabarito       |
+| PipeCut    | Corte de tubos       |
+| TIGweld    | Solda TIG        |
+| JigAssy    | Gabarito de montagem       |
 | Inspeção | Inspeção de qualidade |
 
-As propriedades operacionais de operação, como o tempo de configuração e o tempo de execução, requisitos de recursos, informações de custo, e cálculo de consumo, especificadas na relação de operação. (Para obter mais informações sobre as relações de operação, consulte a seção a seguir.)
+As propriedades operacionais da operação, tais como os tempos de configuração e execução, os requisitos de recursos, as informações de custo e o cálculo de consumo são especificadas na relação de operação. (Para obter mais informações sobre relações de operações, consulte a próxima seção.)
 
 ## <a name="operation-relations"></a>Relações de operação
 As seguintes propriedades operacionais de uma operação são mantidas na relação de operação:
 
 -   Categorias de custo
 -   Parâmetros de consumo
--   Tempo de processamento
+-   Tempos de processamento
 -   Quantidades de processamento
 -   Requisitos de recursos
--   Notas e instruções
+-   Observações e instruções
 
-Você pode definir várias relações de operação para a mesma operação. Entretanto, todos relação de operação é específica a uma operação, armazenar as propriedades que são específicas a um roteiro, a um produto, liberados ou um conjunto de produtos lançados relacionados a um grupo de itens. Portanto, a mesma operação pode ser usada em mais roteiros com propriedades operacionais diferentes. Além disso, você pode facilmente mais manter os dados mestres se você usa operações padrão que têm as mesmas propriedades operacionais, independentemente de roteiro usada de produto e que são gerados. O escopo de relação de operação definido por ** código de item, ** ** relação de itens, ** ** código de roteiro ** ** e relação de roteiros ** propriedades, conforme mostrado na tabela.
+Você pode definir várias relações de operação para a mesma operação. No entanto, cada relação de operação é específica para uma operação, e armazena propriedades que são específicas de um roteiro, produto lançado ou um conjunto de produtos lançados relacionados a um grupo de itens. Portanto, a mesma operação pode ser usada em diversos roteiros com propriedades operacionais diferentes. Além disso, você pode preservar seus dados mestre com mais facilidade se usar operações padrão que possuam as mesmas propriedades operacionais, independentemente do roteiro utilizado e do produto produzido. O escopo da relação de operação é definido pelas propriedades **Código do item**, **Relação do item**, **Código do roteiro** e **Relação do roteiro**, como mostrado na tabela a seguir.
 
-| Código do item | Relação de item         | Código de roteiro | Relação de roteiro   | Escopo de relações de operação                                                                                                                                                                                                                                                                              |
+| Código do item | Relação de item         | Código de roteiro | Relação de roteiro   | Escopo da relação de operação                                                                                                                                                                                                                                                                              |
 |-----------|-----------------------|------------|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tabela     | &lt;ID do Item&gt;       | Roteiro      | &lt;ID do roteiro&gt; | As propriedades operacionais da operação quando usar em ID de roteiro do=de roteiro em ** número&lt;de roteiro **&gt; gerar os produtos lançados onde ** número ** ID&lt;de item do=&gt;.                                                                                                                        |
-| Tabela     | &lt;ID do Item&gt;       | Todas        |                  | As propriedades operacionais padrão da operação quando usar para gerar os produtos lançados onde ** número ** ID&lt;de item do=&gt;. Ou seja essas propriedades operacionais se aplicam quando não houver relação específica roteiros da operação dos produtos lançados.                                     |
-| Agrupar     | &lt;ID de grupo de itens&gt; | Roteiro      | &lt;ID do roteiro&gt; | As propriedades operacionais da operação quando usar roteiro onde ** número de roteiro ** a ID&lt;de roteiro do=&gt; liberou produzir o produto ao ID de grupo &lt;de itens do grupo de&gt;itens, a menos que haja uma relação específica roteiros da operação dos produtos lançados.                         |
-| Agrupar     | &lt;ID de grupo de itens&gt; | Todas        |                  | As propriedades operacionais padrão da operação quando usar para gerar os produtos lançados associado à ID de grupo &lt;de itens do grupo de&gt;itens, a menos que uma relação de operação específico mais necessário.                                                                                                  |
-| Todas       |                       | Roteiro      | &lt;ID do roteiro&gt; | As propriedades operacionais padrão de operação quando usar roteiro onde ** número de roteiro ** ID&lt;de roteiro do=&gt;. Ou seja essas propriedades operacionais se aplicam quando não houver relação de operação para esse roteiro específicas para produtos lançados ou ao grupo de itens associado. |
-| Todas       |                       | Todas        |                  | As propriedades operacionais padrão de uma operação. Essas propriedades operacionais se aplicam quando uma relação mais específica da operação não existe.                                                                                                                                                                |
+| Tabela     | &lt;ID do Item&gt;       | Roteiro      | &lt;ID do roteiro&gt; | As propriedades operacionais de uma operação, quando é utilizada no roteiro onde **Número do roteiro**=&lt;ID do roteiro&gt; para produzir o produto lançado, onde **Número do item**=&lt;ID do item&gt;.                                                                                                                        |
+| Tabela     | &lt;ID do Item&gt;       | Todas        |                  | As propriedades operacionais padrão de uma operação, quando usada para produzir o produto lançado onde **Número do item**=&lt;ID do item&gt;. Em outras palavras, essas propriedades operacionais se aplicam quando não existe uma relação de operação para um roteiro específico, para o produto lançado.                                     |
+| Agrupar     | &lt;ID do grupo de itens&gt; | Roteiro      | &lt;ID do roteiro&gt; | As propriedades operacionais de uma operação, quando é usada em um roteiro onde **Número do roteiro**=&lt;ID do roteiro&gt; para produzir produtos lançados associados ao grupo de itens &lt;ID do grupo de itens&gt;, a menos que exista uma relação de operação de roteiro específico para o produto lançado.                         |
+| Agrupar     | &lt;ID do grupo de itens&gt; | Todas        |                  | As propriedades operacionais padrão de uma operação, quando é usada para produzir produtos lançados associados ao grupo de itens &lt;ID do grupo de itens&gt;, a menos que exista uma relação de operação mais específica.                                                                                                  |
+| Todas       |                       | Roteiro      | &lt;ID do roteiro&gt; | As propriedades operacionais padrão de operação, quando é usada em um roteiro onde **Número do roteiro**=&lt;ID do roteiro&gt;. Em outras palavras, essas propriedades operacionais se aplicam quando não existe uma relação de operação para esse roteiro, que é específico para o produto lançado ou para seu grupo de itens associado. |
+| Todas       |                       | Todas        |                  | As propriedades operacionais padrão de uma operação. Essas propriedades operacionais se aplicam quando não existe uma relação de operação mais específica.                                                                                                                                                                |
 
-Você também pode especificar se uma relação de operação é específica a um site. Assim, as propriedades operacionais de uma operação podem variar, dependendo do local (isto é, o site) em que a operação é executada. Para produtos configurados, é possível especificar propriedades operacionais diferentes para cada configuração de produto.  
+Você também pode especificar se uma relação de operação é específica a um local. Assim, as propriedades operacionais de uma operação podem variar, de acordo com a localização (isto é, o local) onde a operação é executada. Para produtos configurados, também é possível especificar propriedades operacionais diferentes para cada configuração do produto.  
 
-As relações de operação apresentam lotes a flexibilidade ao definir suas roteiros. Adicionalmente, a capacidade de definir os padrões propriedades reduz o valor dos dados mestre que você deve manter. Entretanto, essa flexibilidade também significa que esteja ciente o contexto que você alterar uma relação de operação em.  
+As relações de operações oferecem muita flexibilidade ao definir seus roteiros. Adicionalmente, a capacidade de definir propriedades padrão ajuda a reduzir a quantidade de dados mestre que você deve manter. No entanto, essa flexibilidade também significa que você deve estar ciente sobre o contexto no qual uma operação é modificada.  
 
-** Observação: ** Porque as propriedades operacionais armazenado em relações de operação por operação por roteiro, todas as ocorrências a mesma operação (por exemplo, montagem) têm os mesmos tempo de instalação, tempo de execução, requisitos de recursos, etc. Portanto, se duas ocorrências de uma operação deve ocorrer no mesmo roteiro mas que o tempo de entrega diferente, você deve criar duas operações diferentes, como Assembly1 e Assembly2.
+**Observação:** Pelo fato das propriedades operacionais serem armazenadas nas relações de operações por operação, por roteiro, todas as ocorrências da mesma operação (por exemplo, Montagem) possuem os mesmos tempo de configuração, tempo de execução, requisitos de recursos, e assim por diante. Portanto, se duas ocorrências de uma operação devem acontecer no mesmo roteiro mas possuem tempos de execução diferentes, você deve criar duas operações distintas, por exemplo Montagem1 e Montagem2.
 
-### <a name="modifying-product-specific-routes"></a>Roteiros específicos de produtos de alteração
+### <a name="modifying-product-specific-routes"></a>Modificando roteiros de produtos específicos
 
-Quando você abre ** roteiro ** o página ** detalhes lançados de produto ** de página, as versões de roteiro associadas com os produtos lançados selecionados serão mostradas. Neste contexto, para cada operação, o dynamics 365 para operações mostra as propriedades operacionais de relação de operação do melhor corresponde a versão de roteiro. Você observará a lista de operações inclui ** código de item e ** ** código de roteiro ** propriedades da relação de operação. Portanto, você pode determinar qual a relação de operação é mostrada.  
+Ao abrir a página **Roteiro** através da página **Detalhes do produto lançado**, as versões de roteiro associadas ao produto lançado selecionado são exibidas. Neste contexto, para cada operação, o Dynamics 365 para Operações mostra as propriedades operacionais da relação de operação que mais se corresponde à versão do roteiro. Você irá perceber que a lista de operações inclui as propriedades **Código do item** e **Código do roteiro** da relação de operação. Portanto, você pode determinar qual relação de operação é exibida.  
 
-** Roteiro ** na página, você pode modificar as propriedades operacionais de operação, como o tempo de entrega ou categorias de custo previsto. As alterações são armazenadas na relação de operação específicas ao roteiro e os produtos lançados que são referidos na versão de roteiro atual. Se a relação de operação que será mostrada não é específico ao roteiro e os produtos lançados, antes que as alterações sejam armazenadas, o sistema cria uma cópia da relação de operação. Este centro de *is* de impressão a roteiro e os produtos lançados. Portanto, as alterações não afetarão outros roteiros ou produtos lançados. Para verificar se a relação da operação está sendo alterado ** roteiro ** na página, o aspecto ** o código de item e ** ** o código de roteiro ** campos.  
+Na página **Roteiro**, você pode modificar as propriedades operacionais da operação, como o tempo de execução ou as categorias de custo. As alterações são armazenadas na relação de operação específica ao roteiro e ao produto lançado referenciados na versão atual do roteiro. Se a relação de operação exibida não é específica ao roteiro e ao produto lançado, antes que as alterações sejam armazenadas, o sistema cria uma cópia da relação de operação. Essa cópia *é* específica ao roteiro e ao produto lançado. Portanto, suas alterações não afetarão outros roteiros ou produtos lançados. Para verificar qual relação de operação está sendo modificada na página **Roteiro**, observe os campos **Código do item** e **Código do roteiro**.  
 
-Você também pode criar manualmente uma operação que seja específico a um roteiro a um produto e liberados usando ** relação de impressão e de edição ** a função.  
+Também é possível criar manualmente uma operação específica a um roteiro e a um produto lançado utilizando a função **Copiar e editar relação**.  
 
-** Observação: ** Se você adicionar uma nova operação a um roteiro ** roteiro ** na página, uma relação de operação será criada apenas aos produtos lançados atual. Portanto, se o roteiro também é usada para gerar outros produtos lançados, nenhuma relação de operação aplicável existirá desses produtos lançados, roteiro e pode não ser usada para os produtos lançados.
+**Observação:** Se você adicionar uma nova operação em um roteiro na página **Roteiro**, uma relação de operação é criada apenas para o produto lançado atual. Portanto, se o roteiro também é usado para produzir outros produtos, não existirá uma relação de operação aplicável para esses produtos e o roteiro não poderá mais ser utilizado para esses produtos.
 
-### <a name="maintaining-operation-relations-per-route"></a>Relações mantendo a operação por roteiro
+### <a name="maintaining-operation-relations-per-route"></a>Mantendo as relações de operações por roteiro
 
-Quando você abre ** roteiro detalha ** o página ** roteiros ** página de listagem, uma lista de todas as relações de operação que se aplicam ao roteiro selecionada será exibida. Portanto, você pode facilmente verificar quais propriedades operacionais são usadas de produto. Você pode alterar os valores de propriedade padrão e valores de propriedade do produto.  
+Ao abrir a página **Detalhes do roteiro** através da página de lista **Roteiros**, uma lista com todas as relações de operações que se aplicam ao roteiro selecionado é exibida. Portanto, você pode facilmente verificar quais propriedades operacionais são usadas para cada produto. Você pode alterar ambos os valores de propriedade padrão e os valores de propriedade específicos ao produto.  
 
-Se você adicionar uma nova relação de operação ** roteiro detalha ** na página, ** código de roteiro ** o campo é definido automaticamente ** ** roteiro, e ** relação de roteiros ** o campo é definido como o número de roteiro de roteiro atual.
+Se você adicionar uma nova relação de operação na página **Detalhes do roteiro**, o campo **Código do roteiro** é automaticamente definido como **Roteiro**, e o campo **Relação do roteiro** é definido como o número de roteiro do roteiro atual.
 
-### <a name="maintaining-operation-relations-per-operation"></a>Relações mantendo a operação por operação
+### <a name="maintaining-operation-relations-per-operation"></a>Mantendo as relações de operações por operação
 
-** Operações ** de página, é possível abrir ** relações de operação ** a página. Nesta página, você poderá alterar todas as relações de operação para uma operação específica. Você mesmo poderá alterar as relações de operação que contêm valores padrão.  
+Na página **Operações**, você pode abrir a página **Relações de operações**. Nesta página, você pode alterar todas as relações de operações para uma operação específica. Você pode até modificar relações de operações que contêm valores padrão.  
 
-Se sua empresa usar operações padrão, e se os parâmetros operacionais forem iguais em todos os processos, produtos e ** relações de operação ** o página fornece uma maneira conveniente de manter as propriedades operacionais padrão das operações.
+Se sua empresa utiliza operações padrão, e se os parâmetros operacionais são os mesmos para todos os produtos e processos, a página **Relações de operações** oferece um modo conveniente para preservar as propriedades operacionais padrão dessas operações.
 
-### <a name="applying-operation-relations"></a>Aplicando relações de operação
+### <a name="applying-operation-relations"></a>Aplicando relações de operações
 
-Em alguns casos, o dynamics 365 para operações devem localizar as propriedades operacionais de uma operação. Por exemplo, quando uma ordem de compra é criada, as propriedades operacionais de cada operação devem ser copiadas das relações de operação para o roteiro de produção. Nessas situações, o dynamics 365 operações pesquisa para as relações de operação correspondentes da combinação mais específica a combinação menos específica.  
+Em alguns casos, o Dynamics 365 para Operações deve encontrar as propriedades operacionais para uma operação. Por exemplo, quando uma ordem de compra é criada, as propriedades operacionais de cada operação devem ser copiadas das relações de operações para o roteiro de produção. Nessas situações, o Dynamics 365 para Operações busca as relações de operações relevantes desde a combinação mais específica até a menos específica.  
 
-Quando o dynamics 365 para pesquisas de operações para o parceiro mais relevante na operação de um produto, liberados uma relação de operação que corresponda ID do item de produto for liberado preferida sobre uma relação de operação que corresponda a ID de grupo. Por sua vez, a relação de operação que corresponda a ID de grupo de itens é preferível padrão sobre a relação de operação. A pesquisa for feita na seguinte ordem:
+Quando o Dynamics 365 para Operações busca a relação de operação mais relevante para um produto lançado, uma relação de operação com o mesmo ID do item do produto lançado tem a preferência contra uma relação de operação com o mesmo ID do grupo de itens. Por sua vez, uma relação de operação com o mesmo ID do grupo de itens é preferida ao invés da relação de operação padrão. A busca é realizada na seguinte ordem:
 
-1.  ** Código de item **=** tabela ** ** e relação de itens ** ID&lt;de item do=&gt;
-2.  ** Código de item ** **=grupo ** ** e relação de itens ** ID&lt;de grupo de itens do=&gt;
-3.  ** Código de item tudo **=** **
-4.  ** Código de roteiro **=** roteiro ** ** e relação de roteiros ** ID&lt;de roteiro do=&gt;
-5.  ** Código de roteiro **=** tudo **
-6.  ** Configuração ** ID&lt;=configuração do=&gt;
-7.  **Configuration**=
-8.  ** Site ** ID&lt;do site do=&gt;
-9.  **Site**=
+1.  **Código do item**=**Tabela** e **Relação de item**=&lt;ID do item&gt;
+2.  **Código do item**=**Grupo** e **Relação de item**=&lt;ID do grupo de itens&gt;
+3.  **Código do item**=**Todos**
+4.  **Código do roteiro**=**Roteiro** e **Relação de roteiro**=&lt;ID do roteiro&gt;
+5.  **Código do roteiro**=**Todos**
+6.  **Configuração**=&lt;ID da configuração&gt;
+7.  **Configuração**=
+8.  **Local**=&lt;ID do local&gt;
+9.  **Local**=
 
-Portanto, uma operação seja usada apenas uma vez para cada roteiro. Se a operação ocorre várias vezes no mesmo roteiro, todas as ocorrências da operação terá a mesma relação de operação, e você não poderá ter propriedades diferentes (por exemplo, tempo de execução) para cada ocorrência.
+Portanto, uma operação deve ser usada apenas uma vez em cada roteiro. Se a operação ocorre várias vezes no mesmo roteiro, todas as ocorrências dessa operação terão a mesma relação de operação, e não será possível ter propriedades diferentes (por exemplo, tempos de execução) para cada ocorrência.
 
 ## <a name="route-versions"></a>Versões de roteiro
-As versões de roteiro são usadas para acomodar variações na produção de produtos ou fornecer maior controle sobre o processo de produção. Defina o roteiro deve ser usada quando um determinado produto ou liberou a variante de produto for liberado gerada. Você pode usar restrições estas para definir que o roteiro é usada para um produto liberadas:
+As versões de roteiro são usadas para acomodar variações na produção de produtos ou proporcionar maior controle sobre o processo de produção. Elas definem qual roteiro deve ser usado quando um produto específico ou grade de produto específica é produzido(a). Você pode usar as seguintes restrições para definir qual roteiro é usado para um produto lançado:
 
--   Dimensões de produtos (, tamanho, cor, estilo e configuração)
+-   Dimensões do produto (tamanho, cor, estilo ou configuração)
 -   Quantidade de produção
--   Site de produção
--   Datas de produção
+-   Local de produção
+-   Data de produção
 
-Quando estiver gerando produtos em um site específico, uma quantidade específica, ou um período específico, você pode designar uma versão de roteiro específica como a versão de roteiro padrão. Entretanto, para que apenas um roteiro ativo será permitida produto liberados dados e um conjunto específico de restrições.  
+Quando estiver produzindo o produto em um local específico, com uma quantidade específica, ou em um período específico, você pode designar uma versão de roteiro específica como a versão de roteiro padrão. No entanto, observe que é permitido apenas um roteiro ativo para um certo produto lançado e um certo conjunto de restrições.  
 
-Os parâmetros de controle de produção, você pode exigir que o período de validade de uma versão de roteiro seja especificado sempre.
+Nos parâmetros de Controle de produção, você pode solicitar que o prazo de validade de uma versão do roteiro sempre esteja especificado.
 
-### <a name="approval-of-route-versions"></a>Aprovação de versões de roteiro
+### <a name="approval-of-route-versions"></a>Aprovação de versões do roteiro
 
-Antes que uma versão de roteiro pode ser usada no planejamento ou no processo de fabricação, deve ser aprovada. Quando você aprova uma versão de roteiro, você também pode aprovar o roteiro relacionadas. Entretanto, para que uma versão de roteiro pode ser aprovada somente se o roteiro relacionadas também é aprovada.
+Antes que uma versão do roteiro possa ser utilizada no planejamento ou no processo de fabricação, ela deve ser aprovada. Quando uma versão do roteiro é aprovada, também é possível aprovar o roteiro relacionado. No entanto, observe que uma versão do roteiro somente pode ser aprovada se o roteiro relacionado também for aprovado.
 
-### <a name="activating-the-default-route-version"></a>Ativando a versão de roteiro padrão
+### <a name="activating-the-default-route-version"></a>Ativando a versão do roteiro padrão
 
-Quando você ativa uma versão de roteiro, você designa-a como a versão de roteiro padrão em que o planejamento mestre usará, ou que será usada para criar ordens de produção. Você só pode ter uma versão de roteiro ativa para um conjunto específico de restrições (por exemplo, período, site, ou quantidade.) Se a versão que você está tentando ativar conflitos com uma versão que esteja ativa, você receberá uma mensagem de erro. Para impedir a ativação ambígua, é necessário em desativar a versão em conflito ou alterar as restrições (normalmente o período) na versão de roteiro.
+Ao ativar uma versão do roteiro, ela é designada como a versão do roteiro padrão que o planejamento mestre irá usar, ou que será utilizada para criar ordens de produção. Você pode ter apenas uma versão de roteiro ativa para um certo conjunto de restrições (por exemplo, período, local ou quantidade). Se a versão que estiver tentando ativar apresentar conflito com uma versão que esteja ativa, você receberá uma mensagem de erro. Para prevenir uma ativação ambígua, você deve desativar a versão que causa conflito ou modificar as restrições (geralmente o período) na versão do roteiro.
 
 ### <a name="electronic-signatures"></a>Assinaturas eletrônicas
 
-Se você deve manter um log que registros que aprovar e ativar cada versão de roteiro, você poderá solicitar assinaturas eletrônicas para estas tarefas. Os usuários que aprovam e ativar versões de roteiros que terão em confirmar sua identidade usando [] assinatura eletrônica (/dynamics365/operations/organization-administration/electronic-signature-overview).
+Caso precise manter um registro sobre quem aprova e ativa cada versão do roteiro, você pode solicitar assinaturas eletrônicas para essas tarefas. Os usuários que aprovam e ativam versões de roteiros terão que confirmar suas identidades usando uma [assinatura eletrônica](/dynamics365/operations/organization-administration/electronic-signature-overview).
 
-### <a name="product-change-that-uses-case-management"></a>Alteração de produto usando gerenciamento case
+### <a name="product-change-that-uses-case-management"></a>Alteração de produto utilizando gerenciamento de caso
 
-Exemplos de alteração de produto para a aprovação e a ativação de novas ou alteradas roteiros e versões de roteiro apresentam uma maneira fácil ver uma visão geral das restrições da versão de roteiro. Você também pode aprovar e ativar todos os roteiros relacionadas a uma alteração específica em uma operação e documentar os resultados em exemplos de alteração de produto.
+O caso de alteração de produto para aprovação ou ativação de roteiros ou versões de roteiros novos ou modificados oferece uma maneira fácil para visualizar um resumo das restrições da versão do roteiro. Você também pode aprovar e ativar todos os roteiros relacionadas a uma alteração específica em uma operação e documentar os resultados no caso de alteração de produto.
 
-## <a name="maintaining-routes"></a>Roteiros de manutenção
-Dependendo das suas necessidades comerciais, você pode reduzir o poder esforço necessário para manter as definições de processo.
+## <a name="maintaining-routes"></a>Mantendo roteiros
+Dependendo das suas necessidades comerciais, você poderá reduzir o esforço necessário para manter suas definições de processo.
 
-### <a name="making-routes-independent-of-resources"></a>Nota fiscal sem roteiros de recursos
+### <a name="making-routes-independent-of-resources"></a>Tornar os roteiros independentes dos recursos
 
-Em vários sistemas, o recurso de operações ou o grupo de recursos que devem realizar uma operação devem ser especificados no roteiro. Entretanto, em dynamics 365 para operações, você pode definir um conjunto de requisições que um recurso de operações deve atender para ser qualificado para a operação. Portanto, o recurso de operações ou o grupo de recursos específicos que devem ser usados não precisam ser definido quando a operação está programada realmente. Essa funcionalidade é especialmente útil quando você tiver vários funcionários ou máquinas que podem ser a mesma operação.  
+Em vários sistemas, o recurso de operações ou grupo de recursos que deve realizar uma operação deve ser especificado no roteiro. No entanto, no Dynamics 365 para Operações, você pode definir um conjunto de requisitos que um recurso de operações deve satisfazer para se tornar aplicável à operação. Portanto, o recurso de operações ou grupo de recursos específicos que devem ser usados não precisam ser determinados até que a operação esteja de fato agendada. Essa funcionalidade é especialmente útil quando existem muitos trabalhadores ou máquinas capazes de realizar a mesma operação.  
 
-Por exemplo, especificar que uma operação requer um recurso de operações de computador ** ** digita que tem a carimbando ** ** um recurso toneladas de 20. O mecanismo de planejamento resolverá nesses requisitos a um recurso de operações ou a um grupo de recursos específicos quando a operação está programada. Como é possível apenas especificar esses requisitos em vez de associar a um computador específico, você terá muito mais flexível. Adicionalmente, manutenção será mais fácil quando os recursos são movidos ou os recursos novos são adicionados.  
+Por exemplo, você especifica que uma operação necessita de um recurso de operação do tipo **Máquina** com uma capacidade de **Estampagem** de 20 toneladas. O mecanismo de planejamento irá então resolver os requisitos para um recurso de operações ou grupo de recursos específico assim que a operação for agendada. Como é possível apenas especificar esses requisitos em vez de associar a operação a uma máquina específica, você terá muito mais flexibilidade. Adicionalmente, a manutenção será mais fácil quando os recursos forem movidos ou novos recursos forem adicionados.  
 
-Para obter mais informações sobre os vários tipos de requisitos de recursos e usá-los como, consulte requisitos de recursos de operações e recursos [] do recurso (resource-capabilities.md).
+Para obter mais informações sobre os diversos tipos de requisitos de recurso e como utilizá-los, consulte Requisitos de recurso de operações e [Capacidades de recurso](resource-capabilities.md).
 
-### <a name="sharing-routes-across-sites"></a>O compartilhamento roteiros entre sites
+### <a name="sharing-routes-across-sites"></a>Compartilhando roteiros entre locais
 
-Se você gera os mesmos produto em mais de um site de produção e, se as etapas para produzir os produtos forem iguais em todos os locais, você pode criar um roteiro normalmente compartilhada usada em todas sites de produção. Para criar um roteiro compartilhada, não especificar um site no próprio. Entretanto, você ainda deve criar uma versão de roteiro que o roteiro compartilhada associe com os produtos em cada site.  
+Se você produz o mesmo produto em mais de um local de produção, e se as etapas para a produção do produto são as mesmas em todos os locais, é possível criar um roteiro compartilhado utilizado em todos os locais de produção. Para criar um roteiro compartilhado, não especifique um local no roteiro. No entanto, você deve ainda criar uma versão do roteiro que associa o roteiro compartilhado com o produto para cada local.  
 
-Você também deve garantir que os requisitos de recursos para cada operação no roteiro não chamam para recursos de operações ou grupos de recursos específicos, mas é expresso vez em termos das características dos recursos necessários. O mecanismo de planejamento pode atribuir os recursos de operações apropriados de local que a produção será planejada sobre. Por exemplo, se houver pequenas diferenças o tempo de execução, ou se o tempo de configuração para uma determinada operação são específicos do site, você pode especificar essas informações adicionais adicionando uma relação de operação para esse site.  
+Você também deve garantir que os requisitos de recurso para cada operação no roteiro não solicitem recursos de operações ou grupos de recursos específicos, mas que estejam expressos em termos das característica dos recursos necessários. O mecanismo de planejamento poderá então atribuir os recursos de operações apropriados a partir do local em que a produção está agendada. Por exemplo, se existem pequenas diferenças no tempo de execução, ou se o tempo de configuração para uma certa operação é específico para cada local, você pode especificar essa informação adicionando uma relação de operação adicional para aquele local.  
 
-Para tomar vantagem total de benefícios compartilhadas de roteiros, você também pode usar o recurso consumo da lista de materiais correspondente (BOM). Quando você define o sinalizador para o consumo de recursos EM a linha de BOM, o depósito no local e as matérias-primas que devem ser consumidas for inferido do recurso de operações que a operação está programada. sobre Portanto, o depósito e o local não devem ser determinados até que a produção seja efetivamente programada. Assim, você pode fazer a BOM e o roteiro independentemente do local físico produtos onde são gerados.
+Para desfrutar de todas as vantagens dos roteiros compartilhados, você deve usar também o consumo de recurso na lista de materiais (BOM) correspondente. Quando você define a referência para o consumo de recurso na linha da BOM, o depósito e o local de onde as matérias-primas devem ser consumidas são inferidos a partir do recurso de operações em que a operação está agendada. Portanto, o depósito e o local não precisam ser determinados até que a produção esteja de fato agendada. Assim, você pode fazer com que tanto a BOM quanto o roteiro sejam independentes em relação ao local físico onde o produto é produzido.
 
-### <a name="standard-operation-relations"></a>Relações de operação padrão
+### <a name="standard-operation-relations"></a>Relações de operações padrão
 
-Se sua empresa usar estandardizadas operações na produção, além se houver nenhuma quase variação no tempo de instalação, tempo de execução, cálculo de consumo, cálculo de custo estimado, etc, é possível aproveitar a padrões de criar relações de operação para as operações. Nesse caso, não crie criar relações de operação que são específicas para qualquer roteiro ou produtos lançados.  
+Se sua empresa usa operações padronizadas ao longo da produção, e se existe pouca ou nenhuma variação no tempo de configuração, tempo de execução, cálculo de consumo, cálculo de custo, e assim por diante, você pode se beneficiar ao criar relações de operações padrão para todas as operações. Nesse caso, evite criar relações de operações específicas para algum roteiro ou produto lançado.  
 
-Se também expressa requisitos de recursos em termos de habilidades e recursos, fazer roteiros site suas independentes, poderá ajudar a manter a manutenção em curso dos processos ao mínimo.  
+Se você também expressar requisitos de recurso em termos de habilidades e capacidades, e tornar seus roteiros independentes em relação ao local, é possível manter a manutenção contínua do seu processo comercial em um nível mínimo.  
 
-Quando você usa esta abordagem, ** relações de operação ** o página se tornar o alvo principal para o tempo de execução e mantendo outras propriedades.
+Ao utilizar essa abordagem, a página **Relações de operações** se torna seu principal destino para manter os tempos de execução e outras propriedades.
 
-### <a name="resource-specific-process-times"></a>tempo Recurso- específicos de processo
+### <a name="resource-specific-process-times"></a>Tempos de processo específicos para cada recurso
 
-Se você não especificar um recurso de operações ou um grupo de recursos como parte dos requisitos de recursos para uma operação, os recursos aplicáveis podem operar em velocidades diferentes. Portanto, o tempo necessário para processar uma operação poderá variar. Para resolver esse problema, você pode usar ** fórmula ** coloca na relação de operação para especificar como o tempo de processo é calculado. As opções a seguir estão disponíveis:
+Se você não especificar um recurso de operações ou um grupo de recursos como parte dos requisitos de recurso para uma operação, os recursos aplicáveis podem operar em velocidades diferentes. Portanto, o tempo necessário para processar uma operação poderá variar. Para solucionar esse problema, você pode usar o campo **Fórmula** na relação de operação para especificar como o tempo de processo é calculado. As opções a seguir estão disponíveis:
 
--   ** O padrão ** – (opção padrão) o cálculo usa somente os campos da relação de operação e multiplicar o tempo de entrega especificado pela quantidade da ordem.
--   ** Capacidade ** – o cálculo incluirá ** capacidade ** campo de recursos de operações. Portanto, o tempo é recurso- dependente. O valor especificado no recurso de operações é capacidade por hora. Esse valor é multiplicado pela quantidade da ordem e fatora ** ** o valor da relação de operação.
--   ** O lote – ** uma capacidade de lotes são calculados usando as informações de relação de operação. O número de lotes e, assim, os tempos de processamento podem ser calculados com base na ordem.
--   ** O lote de recurso ** – esta opção é basicamente idêntico ** lote ** a opção. Entretanto, o cálculo incluirá ** capacidade de lote ** campo de recursos de operações. Portanto, o tempo é recurso- dependente.
+-   **Padrão** – (Opção padrão) O cálculo utiliza apenas os campos da relação de operação e multiplica o tempo de execução pela quantidade da ordem.
+-   **Capacidade** – O cálculo inclui o campo **Capacidade** do recurso de operações. Portanto, o tempo depende do recurso. O valor especificado no recurso de operações é a capacidade por hora. Esse valor é multiplicado pela quantidade da ordem e pelo valor **Fator** da relação de operações.
+-   **Lote** – Uma capacidade de lote é calculada utilizando informação da relação de operações. O número de lotes e, consequentemente, o tempo de processo podem então ser calculados com base na quantidade da ordem.
+-   **Lote de recursos** – Essa opção é basicamente a mesma opção que **Lote**. No entanto, o cálculo inclui o campo **Capacidade de lote** do recurso de operações. Portanto, o tempo depende do recurso.
 
 
 <a name="see-also"></a>Consulte também
 --------
 
-[Bills of materials and formulas](bill-of-material-bom.md)
+[Lista de materiais e fórmulas](bill-of-material-bom.md)
 
-[Cost categories used in production routing](../cost-management/cost-categories-used-production-routings.md)
+[Categorias de custo utilizadas no roteiro de produção](../cost-management/cost-categories-used-production-routings.md)
 
-[Resource capabilities](resource-capabilities.md)
+[Capacidades de recurso](resource-capabilities.md)
 
-[Electronic signature overview](/dynamics365/operations/organization-administration/electronic-signature-overview)
+[Resumo da assinatura eletrônica](/dynamics365/operations/organization-administration/electronic-signature-overview)
+
+
 
 

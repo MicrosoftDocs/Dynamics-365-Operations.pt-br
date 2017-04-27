@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Contrapartidas padrão para diários de fatura de fornecedor e diários de aprovação de fatura
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 As contrapartidas padrão são usadas nas seguintes páginas de diário de fatura de fornecedor:
@@ -92,6 +95,8 @@ Use a tabela a seguir para ajudar a decidir onde você deve atribuir contas padr
 </tr>
 </tbody>
 </table>
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-free-text-invoices"></a>Distribuições contábeis e entradas no diário-razão auxiliar para faturas de texto livre
 
+[!include[banner](../includes/banner.md)]
+
+
 As distribuições contábeis são usadas para definir como um valor será contabilizado, assim como a receita, os impostos ou os encargos serão contabilizados em uma fatura de texto livre. Cada valor que deve ser contabilizado terá uma ou mais distribuições contábeis quando a fatura de texto livre for lançada no diário.
 
 <a name="accounting-distributions"></a>Distribuições contábeis
@@ -35,7 +38,7 @@ As distribuições contábeis são usadas para definir como um valor será conta
 
 Você pode usar os botões a seguir na página Fatura de texto livre para exibir e, possivelmente, alterar as distribuições contábeis de cada valor da fatura de texto livre.
 
--   ** Distribuir valores ** — exibem e alteram distribuições contábeis para uma linha individual e todas as linhas filhos, como cobranças impostos. Também é possível exibir e modificar as distribuições contábeis para a linha filho diretamente da página Transações de imposto ou Transações de encargos.
+-   **Distribuir valores**—Exibir e modificar as distribuições contábeis para uma linha individual e todas as linhas filho, como impostos ou encargos. Também é possível exibir e modificar as distribuições contábeis para a linha filho diretamente da página Transações de imposto ou Transações de encargos.
     -   Modifique os valores do cabeçalho da fatura de texto livre, como encargos ou valores de arredondamento de moeda.
     -   Modifique os valores da linha da fatura de texto livre.
 -   **Exibir distribuições** - Exibir as distribuições contábeis para todas as linhas do documento. Você não pode alterar as distribuições contábeis nesse modo de exibição.
@@ -132,5 +135,7 @@ As distribuições contábeis de impostos não podem ser criadas até que os imp
 
 ## <a name="subledger-journals-for-free-text-invoices"></a>Diário-razão auxiliar de faturas de texto livre
 Você pode exibir a entrada contábil total da fatura antes de lançar uma fatura de texto livre, incluindo débitos e créditos, para verificar se a fatura está sendo lançada nas contas corretas. Esta exibição de entrada contábil total é chamada de diário-razão auxiliar. Se a entrada no diário-razão auxiliar estiver incorreta quando você exibi-la antes de lançar em diário a fatura de texto livre, não será possível alterar a entrada no diário-razão auxiliar. Em vez de isso, você deve alterar as distribuições contábeis ou o perfil de lançamento. As distribuições contábeis são usadas para definir um lado de entrada contábil, de débito ou de crédito. A entrada de conta no diário-razão auxiliar de compensação é criada a partir dos perfis de lançamento, como a conta de cliente ou imposto.
+
+
 
 

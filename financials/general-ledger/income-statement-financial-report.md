@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="income-statement-financial-report"></a>Relatório financeiro do demonstrativo de renda
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve o relatório padrão para declarações de imposto. Também mostra os blocos de construção associados a este relatório. 
 
 <a name="default-income-statement-report"></a>Relatório do demonstrativo de renda padrão
@@ -61,10 +64,12 @@ As definições da coluna contêm diferentes tipos de colunas para fornecer nív
 <a name="see-also"></a>Consulte também
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Relatórios financeiros](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Exibir relatórios financeiros](view-financial-reports.md)
 
-Blog financeiro [] de Reportign de dinâmica (http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Blog de Relatório Financeiro do Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

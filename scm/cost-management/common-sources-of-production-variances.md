@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="common-sources-of-production-variances"></a>Fontes comuns de variações de produção
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo aborda várias fontes típicas de cada tipo de variação de produção. 
 
 Veja a seguir algumas origens típicas de uma variação **tamanho de lote**:
@@ -57,6 +60,8 @@ Veja a seguir algumas origens típicas de uma variação **substituição de pro
 -   Você adicionar manualmente uma operação à BOM de roteiro de produção e relata aquela operação como consumida.
 -   Quando você cria a ordem de produção, você seleciona uma versão da BOM diferente daquela usada no cálculo do custo padrão.
 -   Quando você cria a ordem de produção, você seleciona a versão de roteiro diferente daquela usada no cálculo do custo padrão.
+
+
 
 
 

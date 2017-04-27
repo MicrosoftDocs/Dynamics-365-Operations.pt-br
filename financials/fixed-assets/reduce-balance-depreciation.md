@@ -1,9 +1,9 @@
 ---
-title: "Reduz a depreciação de saldo"
+title: "Reduzir depreciação de saldo"
 description: "Este artigo fornece uma visão geral do método de saldo de reduzir a depreciação."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reduce-balance-depreciation"></a>Reduz a depreciação de saldo
+# <a name="reduce-balance-depreciation"></a>Reduzir depreciação de saldo
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo fornece uma visão geral do método de saldo de reduzir a depreciação.
 
@@ -57,7 +60,7 @@ Por exemplo, se você selecionar Anual, a depreciação anual é lançada apenas
 
 ### <a name="fiscal"></a>fiscal
 
-Caso você selecione Fiscal no campo Ano de depreciação, será usado o método de depreciação linear. Ele é calculado com base no ano fiscal, definido na página Calendários fiscais para o calendário fiscal selecionado na página Razão. Por exemplo, o ano fiscal do 1º de julho ao 30 de junho, a depreciação. parte o 1º de julho O ano fiscal pode ter mais ou menos do que 12 meses. A depreciação é ajustada para cada período fiscal. A duração do próximo ano fiscal baseia-se nos períodos fiscais configurados quando você cria um novo ano fiscal na página Calendários fiscais.
+Caso você selecione Fiscal no campo Ano de depreciação, será usado o método de depreciação linear. Ele é calculado com base no ano fiscal, definido na página Calendários fiscais para o calendário fiscal selecionado na página Razão. Por exemplo, no ano fiscal entre 1 de julho e 30 de junho, o cálculo da depreciação começa em 1 de julho. O ano fiscal pode ter mais ou menos do que 12 meses. A depreciação é ajustada para cada período fiscal. A duração do próximo ano fiscal baseia-se nos períodos fiscais configurados quando você cria um novo ano fiscal na página Calendários fiscais.
 
 
 Se você selecionar Fiscal, as opções a seguir estarão disponíveis no campo Frequência do período:
@@ -73,12 +76,14 @@ Usando o método Reduzindo saldo, 30 por cento da base de depreciação (valor l
 
 | Período | Cálculo do valor de depreciação anual | Valor líquido contábil no final do ano |
 |--------|-------------------------------------------|---------------------------------------|
-| Ano 1 | (11,000 - 1,000) \* 30% = 3,000           | (11.000 - 1.000) - 3.000 = 7.000      |
-| Ano 2 | (7,000 - 1,000) \* 30% = 1,800            | (7.000 -1.800) = 5.200                |
-| Ano 3 | (5,200 - 1,000) \* 30% = 1,260            | (5.200 - 1.260) = 3.940               |
+| Ano 1 | (11.000 - 1.000) \* 30% = 3.000           | (11.000 - 1.000) - 3.000 = 7.000      |
+| Ano 2 | (7.000 - 1.000) \* 30% = 1.800            | (7.000 -1.800) = 5.200                |
+| Ano 3 | (5.200 - 1.000) \* 30% = 1.260            | (5.200 - 1.260) = 3.940               |
 
  
 -
+
+
 
 
 

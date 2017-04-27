@@ -1,5 +1,5 @@
 ---
-title: "Balanced diários da contabilidade interunidade"
+title: Entradas balanceadas para a contabilidade interunidade
 description: "Este artigo mostra como um diário é automaticamente balanceado quando uma dimensão financeira de balanceamento estiver marcada na página do razão."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="balanced-journals-for-interunit-accounting"></a>Balanced diários da contabilidade interunidade
+# <a name="balanced-journals-for-interunit-accounting"></a>Entradas balanceadas para a contabilidade interunidade
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo mostra como um diário é automaticamente balanceado quando uma dimensão financeira de balanceamento estiver marcada na página do razão. 
 
@@ -34,9 +37,9 @@ Se as entradas de conta não estiverem equilibradas no nível dos valores de dim
 
 |                      |           |
 |----------------------|-----------|
-| 6100 – MSP – OU o\_256 | 100.00 DR |
-| 6100 – NY – OU o\_249  | 100.00 DR |
-| 2100 – MSP – OU o\_256 | 200.00 CR |
+| 6100 – MSP – OU\_256 | 100.00 DR |
+| 6100 – NY – OU\_249  | 100.00 DR |
+| 2100 – MSP – OU\_256 | 200.00 CR |
 
 Neste caso, os seguintes saldos são determinados:
 
@@ -47,8 +50,10 @@ No entanto, as seguintes entradas contábeis são criadas automaticamente para c
 
 |                                   |           |
 |-----------------------------------|-----------|
-| (Débito) de Interunit – MSP – OU o\_256 | 100.00 DR |
-| (Crédito) de Interunit – NY – OU o\_249 | 100.00 CR |
+| (Interunidade - débito) – OU\_256 | 100.00 DR |
+| (Interunidade - Crédito) – NY – OU\_249 | 100.00 CR |
+
+
 
 
 

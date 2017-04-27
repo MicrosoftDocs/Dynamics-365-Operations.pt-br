@@ -36,9 +36,9 @@ Nem todas as páginas têm descrições de campo. Pretendemos fornecer descriç�
 Se você tiver acesso ao ambiente de desenvolvimento do Dynamics 365 for Operations, poderá adicionar suas próprias novas descrições aos campos e personalizar as descrições existentes. Por exemplo, você pode adicionar informações específicas da empresa para uma descrição de campo. Para mais informações, consulte [Personalizar campo de ajuda](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Consulte as descrições na interface de usuário
-Você pode exibir descrições de campo focalizando sobre um campo. Se nenhuma descrição estiver disponível, você verá o nome do campo quando passar o mouse no campo. Nota (: Na versão 7.0.0, as descrições dos campos podem ser exibidas apenas ** ** descrições de campo na página.) A ilustração a seguir mostra a descrição do campo que aparece quando você ** focos de itens sobre bloqueio durante a contagem ** o campo. 
+Você pode exibir descrições de campo focalizando sobre um campo. Se nenhuma descrição estiver disponível, você verá o nome do campo quando passar o mouse no campo. (Nota: Na versão 7.0.0, as descrições dos campos só podem ser visualizadas na página **Descrições do campo**.) A ilustração a seguir mostra a descrição do campo que aparece quando você passa o cursor do mouse sobre o campo **Bloquear itens durante a contagem**. 
 
-[exemplo![de uma descrição do campo] (. /media/field-description.png)](. /media/field-description.png)
+[![Exemplo de uma descrição de campo](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>Use a página Descrições de campo para exibir e exportar ajuda de campo
 A página **Descrições de campos** permite exibir e exportar descrições de campos. Você pode ver, uma de cada vez, as descrições que estão disponíveis para uma página.
@@ -73,7 +73,7 @@ Há várias maneiras de se pesquisar uma página no campo **Selecionar uma pági
     -   Se houver mais de uma correspondência exata, não há descrições mostradas. Você deve abrir a lista suspensa e selecionar a página que você deseja.
     -   Se o nome que você digitou é parte do nome de uma outra página, você verá as descrições da sua página. No entanto, se você abrir a lista suspensa, você verá outras páginas que contêm esse nome.
 
-Por exemplo, nenhuma descrição é mostrada quando você digita ** contagem ** em **** selecione um campo de **** de página. Você abre a lista suspensa, e vê que há duas páginas que têm o nome de **Contagem** e diversas páginas que contêm a palavra "Contagem" no nome. Se você escolher a página que tem o mesmo nome da AOT **InventJournalCount**, as descrições dos campos dessa página serão mostradas. No entanto, ao abrir o menu suspenso novamente, você verá que a lista agora exibe todas as páginas que contêm “InventJournalCount” como parte do nome da página da AOT.
+Por exemplo, não há descrições mostradas quando você digitar **Contagem** no campo ****Selecionar uma página****. Você abre a lista suspensa, e vê que há duas páginas que têm o nome de **Contagem** e diversas páginas que contêm a palavra "Contagem" no nome. Se você escolher a página que tem o mesmo nome da AOT **InventJournalCount**, as descrições dos campos dessa página serão mostradas. No entanto, ao abrir o menu suspenso novamente, você verá que a lista agora exibe todas as páginas que contêm “InventJournalCount” como parte do nome da página da AOT.
 
 ## <a name="troubleshooting"></a>Solução de problemas
 Esta seção oferece informações para ajudá-lo a solucionar problemas que possam surgir durante o uso da página Descrições dos campos.

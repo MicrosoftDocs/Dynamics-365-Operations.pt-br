@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="direct-deliveries"></a>Entregas diretas
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre entregas diretas. As entregas diretas são enviadas diretamente do fornecedor para o cliente.
 
 As entregas diretas economizam o tempo de entrega e reduzem os custos associados à manutenção de estoque porque você não retém os produtos no depósito antes de remetê-los ao cliente.  
@@ -49,5 +52,7 @@ Se você tentar excluir uma linha de ordem de venda que tenha o tipo de entrega 
 
 ## <a name="warehouse"></a>Depósito
 Quando você cria uma entrega direta, os itens vendidos nunca chegam fisicamente no depósito. No entanto, você ainda deve especificar um depósito na linha da ordem de venda. De forma similar, os requisitos de separação podem ser especificados no grupo de modelos de item para o item. No entanto, como os itens nunca chegam fisicamente no depósito, esses requisitos são ignorados quando a ordem de venda é uma entrega direta.
+
+
 
 

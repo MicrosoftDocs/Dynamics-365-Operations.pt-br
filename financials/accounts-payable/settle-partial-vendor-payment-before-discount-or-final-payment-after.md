@@ -1,5 +1,5 @@
 ---
-title: "Liquidar um pagamento parcial fornecedor antes da data do desconto com um pagamento final após a data de desconto"
+title: "Liquidar um pagamento parcial de fornecedor antes da data do desconto com um pagamento final posterior à data do desconto"
 description: "Este artigo mostra um cenário na qual vários pagamentos parciais são feitos, alguns no período de desconto à vista e outro fora do período de desconto à vista."
 author: twheeloc
 manager: AnnBe
@@ -26,21 +26,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidar um pagamento parcial fornecedor antes da data do desconto com um pagamento final após a data de desconto
+# <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidar um pagamento parcial de fornecedor antes da data do desconto com um pagamento final posterior à data do desconto
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo mostra um cenário na qual vários pagamentos parciais são feitos, alguns no período de desconto à vista e outro fora do período de desconto à vista.
 
-Fabrikam compra bens de fornecedor 3057. A Fabrikam recebe um desconto à vista de 1 por cento se a fatura é pago em 14 dias. As faturas devem ser pagas em 30 dias. O fornecedor também permite que a Fabrikam obtenha descontos à vista em pagamentos parciais. Parâmetros de pagamento estão localizados ** parâmetros de contas a pagar ** na página.
+A Fabrikam compra produtos do fornecedor 3057. A Fabrikam recebe um desconto à vista de 1 por cento se a fatura for paga em 14 dias. As faturas devem ser pagas em 30 dias. O fornecedor também permite que a Fabrikam obtenha descontos à vista em pagamentos parciais. Os parâmetros de pagamento estão localizados na página **Parâmetros de contas a pagar**.
 
 ## <a name="invoice-on-june-25"></a>Fatura em 25 de junho
-abril o 25 de junho, insere e lança uma nota fiscal para 1,000.00 para o fornecedor 3057. Alice pode exibir essa transação na página **Transações do fornecedor**.
+Em 25 de junho, Amanda insere e lança uma fatura de 1.000,00 para o fornecedor 3057. Alice pode exibir essa transação na página **Transações do fornecedor**.
 
 | Comprovante   | Tipo de transação | Data      | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo   | Moeda |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
 | Inv-10020 | Fatura          | 25/6/2015 | 10020   |                                      | 1.000,00                              | -1.000,00 | USD      |
 
 ## <a name="partial-payment-on-july-2"></a>Pagamento parcial em 2 de julho
-Em 2 de julho, Alice deseja liquidar 300.00 da fatura. O pagamento está qualificado para um desconto, pois a Fabrikam obtém descontos em pagamentos parciais. Consequentemente, April paga 297,00 e tem um desconto de 3,00. Criar um diário de pagamento e insira uma linha para o fornecedor 3057. Então abre ** transações de acordo ** a página, de modo que possa marcar a nota fiscal para pagamento.
+Em 2 de julho, Alice deseja liquidar 300.00 da fatura. O pagamento está qualificado para um desconto, pois a Fabrikam obtém descontos em pagamentos parciais. Consequentemente, April paga 297,00 e tem um desconto de 3,00. Ela cria um diário de pagamento e insere uma linha para o fornecedor 3057. Ela então abre a página **Liquidar transações**, dessa forma, ela pode marcar a fatura para liquidação.
 
 | Marcar     | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -91,7 +94,7 @@ April lança o pagamento. Quando ela abre a página **Transações do fornecedor
 | APP-10021  | Pagamento          | 15/7/2015 |         | 700.00                               |                                       | 0,00    | USD      |
 
 ## <a name="remaining-payment-on-july-15-use-cash-discount--always"></a>Pagamento restante em 15 de julho, Usar desconto à vista = Sempre
-Se o fornecedor deixa abril executar um desconto está pagando mesmo que após a data de desconto, poderá alterar valor ** desconto à vista ** o uso no campo sempre ** **. ** Calcular descontos à vista para pagamentos parciais ** a configuração é substituída, e o desconto será obtido. O valor do pagamento é de 693,00, e o desconto equivale aos 7,00 restantes.
+Se o fornecedor permitir que April obtenha um desconto, mesmo que ela esteja pagando após a data de desconto, ela poderá alterar o valor no campo **Usar desconto à vista** para **Sempre**. A configuração **Calcular descontos em dinheiro para pagamentos parciais** é substituída, e o desconto é tomado. O valor do pagamento é de 693,00, e o desconto equivale aos 7,00 restantes.
 
 | Marcar     | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------------|---------------------------------------|----------|------------------|
@@ -116,6 +119,8 @@ April lança o pagamento. Quando ela abre a página **Transações do fornecedor
 | DISC-10020 | Desconto à vista    | 01/07/2015  |         | 3,00                                 |                                       | 0,00    | USD      |
 | APP-10021  | Pagamento          | 15/7/2015 |         | 693.00                               |                                       | 0,00    | USD      |
 | DISC-10021 | Desconto à vista    | 15/7/2015 |         | 7:00                                 |                                       | 0,00    | USD      |
+
+
 
 
 

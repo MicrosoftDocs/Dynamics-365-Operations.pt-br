@@ -1,5 +1,5 @@
 ---
-title: "Reverter o status da ordem de produção"
+title: "Reverter status de ordem de produção"
 description: "Este tópico descreve como reverter o status da ordem de produção."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reverse-the-production-order-status"></a>Reverter o status da ordem de produção
+# <a name="reverse-the-production-order-status"></a>Reverter status de ordem de produção
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico descreve como reverter o status da ordem de produção. 
 
@@ -49,5 +52,7 @@ Quando você reverte o status de uma ordem de produção de **Liberado** para **
 
 ## <a name="from-started-to-released"></a>De Iniciado para Liberado
 Quando você reverte o status de uma ordem de produção de **Iniciado** para **Liberado**, todos os itens que foram reportados como concluídos são revertidos. Caso o material tenha sido separado, ou se as entregas de entrada e de saída tiverem sido feitas para a produção, essas configurações também são revertidas. O campo **Status pendente** nas linhas BOM da ordem de produção é alterado de **Finalizado** para **Consumo de material**. Se a hora foi registrada, ou se as quantidades foram relatadas como concluídas para as operações no roteiro de produção, essas configurações serão revertidas. O campo **Status pendente** é alterado de **Finalizado** para **Consumo de roteiros** na rota de produção. As configurações de todos os itens são lançadas como em andamento ou o trabalho em andamento são revertidas. Na página **Detalhes da ordem de produção**, os campos que mostram uma quantidade que foi iniciada ou reportada como finalizada são redefinidos. As datas dessas transações também são redefinidas.
+
+
 
 

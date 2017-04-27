@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Efeitos de depreciação em reversões
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo discute implicações potenciais para reverter uma transação de ativo fixo. 
 
 Você pode reverter transações de ativo fixo e transações associadas a um ativo fixo. Você também pode revogar uma transação revertida. 
@@ -90,6 +93,8 @@ A depreciação é subestimada em 16,95 (983,62 - 966,67).
 <a name="see-also"></a>Consulte também
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Depreciação de ativo fixo](fixed-asset-depreciation.md)
+
+
 
 

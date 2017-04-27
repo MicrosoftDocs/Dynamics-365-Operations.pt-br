@@ -86,5 +86,5 @@ A opção **Relatório financeiro** é a solução. As hierarquias da organizaç
 Ao usar a opção **Exportar saldos da empresa** para expandir uma instância e usando a opção **Consolidar com importação** em outra instância, é possível consolidar os dados.
 
 
-Para obter mais informações, consulte revalution [de moeda em uma empresa consolidada (] \ \ \ finanicials contabilidade empresa).
+Para obter mais informações, consulte [Reavaliação atual em uma empresa de consolidação](\finanicials\general-ledger\currency-revaluation-consolidation-company).
 

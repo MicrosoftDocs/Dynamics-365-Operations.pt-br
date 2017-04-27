@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>Atualizar custos padrão para um novo item fabricado
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo oferece diretrizes para a atualização de custos padrão para um novo item fabricado. 
 
 As diretrizes a seguir pressupõem o uso de uma abordagem de duas versões para atualizar os custos padrão. Nessa abordagem, uma versão de custo contém os primeiros custos padrão originalmente definidos para o período de congelamento, e a segunda versão de custo contém as atualizações incrementais que pertencem aos novos itens fabricados. As atualizações incrementais são inseridas como registros de custo na segunda versão de custo e, eventualmente, são habilitadas. A abordagem de duas versões requer que você defina uma segunda versão de custo. Veja as diretrizes para a definição desta versão de avaliação de custo:
@@ -47,6 +50,8 @@ Para adicionar novos itens de fabricação por todo o período de congelamento, 
 5.  Use a página **Configuração de versão de avaliação de custo** para alterar o sinalizador de bloqueio para permitir a ativação dos registros de custos pendentes na segunda versão de avaliação de custo.
 6.  Use a página **Preços ativos** (aberta da página **Manutenção de versão de avaliação de custo**) para habilitar todos os registros de custos pendentes na segunda versão de avaliação de custo. Você também pode habilitar os registros de custo pendente para itens individuais clicando no botão **Ativar** na página **Preço de item**.
 7.  Use a página **Configuração de versão de avaliação de custo** para alterar os sinalizadores de bloqueio incluídos na segunda versão de avaliação de custo para impedir a manutenção adicional de dados. As diretivas de bloqueio impedem a entrada de novos custos pendentes e a ativação de custos pendentes.
+
+
 
 
 

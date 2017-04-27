@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Insira a conta e as combinações de dimensões (controle segmentado de entradas)
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve como inserir a conta e as combinações de dimensões ou contas contábeis. A experiência de entrada é também conhecida como o controle segmentado de entrada.
 
-Os usuários insiram combinações de conta e dimensão em várias páginas, como páginas para diários gerais, orçamento e, definições de lançamento. A conta válida e as combinações de dimensão dependem das estruturas de conta que são atribuídas ao razão e as regras avançadas que são atribuídas às estruturas da conta. Quando os usuários inserirem uma combinação, podem digitar manualmente os valores ou sofisticados, que tem as vantagens de experiência de pesquisa. Quando você especifica no campo, você poderá iniciar para digitar e pesquisará o valor e a descrição. Por exemplo, se você digitar 180 ela pesquisará algum valor que inicie com essa combinação numérica. Ou é possível digitar dinheiro pesquisará e qualquer valor que tenha uma descrição que inicie com dinheiro. Você também pode usar uma curinga, como à vista \*ou \*180 para consultar se o valor ou a descrição contêm os critérios de pesquisa. 
+Os usuários inserem as combinações de conta e dimensão em várias páginas como páginas para diários gerais, orçamento e definições de lançamentos. A conta válida e as combinações de dimensão dependem das estruturas de conta que são atribuídas ao razão e as regras avançadas que são atribuídas às estruturas da conta. Quando os usuários inserem combinações, eles podem digitar manualmente os valores ou aproveitar uma experiência rica de pesquisa. Quando entrar no campo, você poderá começar a digitar e pesquisar o valor e a descrição. Por exemplo, se você digitar 180 será pesquisado qualquer valor que inicie com essa combinação numérica. Ou é possível digitar Dinheiro e será pesquisado qualquer valor que tenha uma descrição que começa com Pagamento à vista. Você também pode usar um curinga, como \*Pagamento à vista ou \*180 para pesquisar se o valor ou descrição contém os critérios de pesquisa. 
 
 A tabela a seguir descreve os atalhos de teclado que podem ser usados quando a pesquisa estiver fechada.
 
@@ -108,5 +111,7 @@ A tabela a seguir descreve os atalhos de teclado que podem ser usados quando a p
 </table>
 
  
+
+
 
 

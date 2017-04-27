@@ -1,5 +1,5 @@
 ---
-title: "Use a rápida exportação/importação"
+title: "Utilizar importação/exportação rápida"
 description: "A finalidade da Importação/Exportação Rápida é permitir que você realize a importação ou exportação em menos etapas."
 author: margoc
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Execute a ferramenta de transferência de dados de teste (beta) do dynamics AX (AX 2012)
+# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>Execute a ferramenta de transferência de dados de teste (beta) para Dynamics AX (AX 2012)
+
+[!include[banner](../../includes/banner.md)]
+
 
 A finalidade da Importação/Exportação Rápida é permitir que você realize a importação ou exportação em menos etapas.
 
@@ -36,5 +39,7 @@ Adicionamos o recurso Importação/Exportação Rápida para permitir que os usu
 -   Não é necessário criar um grupo de processamento para utilizar a importação/exportação rápida, ele será criado automaticamente pelo sistema durante a execução do trabalho de importação ou exportação. Você também pode escolher manter o histórico de dados importados pela importação/exportação rápida.
 
   Observe que a Importação/Exportação Rápida presume que você esteja familiarizado com os conceitos de DIXF.
+
+
 
 

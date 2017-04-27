@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="balance-sheet-financial-reports"></a>Relatórios financeiros de balanço
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve os relatórios padrão para balanços. Também mostra os blocos de construção associados a esses relatórios. 
 
 <a name="default-balance-sheet-reports"></a>Relatórios do balanço padrão
@@ -72,10 +75,12 @@ As definições da coluna contêm diferentes tipos de colunas para fornecer nív
 <a name="see-also"></a>Consulte também
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Relatórios financeiros](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Exibir relatórios financeiros](view-financial-reports.md)
 
-Blog [] de relatórios financeiros de dinâmica (http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Blog de Relatório Financeiro do Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

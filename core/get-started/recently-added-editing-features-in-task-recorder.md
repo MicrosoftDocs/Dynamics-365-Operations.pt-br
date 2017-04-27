@@ -1,6 +1,6 @@
 ---
-title: Adicionado recentemente editando recursos do task recorder
-description: "Se usar o gravador de tarefas para criar as guias da tarefa, você pode editar seus arquivos usando mais eficientemente a funcionalidade descrita neste wiki."
+title: "Recursos de edição adicionados recentemente ao gravados de tarefas"
+description: "Se usar o gravador de tarefas para criar as guias de tarefa, você poderá editar seus arquivos de forma mais eficiente usando a funcionalidade descrita neste wiki."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,66 +25,66 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recently-added-editing-features-in-task-recorder"></a>Adicionado recentemente editando recursos do task recorder
+# <a name="recently-added-editing-features-in-task-recorder"></a>Recursos de edição adicionados recentemente ao gravados de tarefas
 
-Se usar o gravador de tarefas para criar as guias da tarefa, você pode editar seus arquivos usando mais eficientemente a funcionalidade descrita neste wiki.
+Se usar o gravador de tarefas para criar as guias de tarefa, você poderá editar seus arquivos de forma mais eficiente usando a funcionalidade descrita neste wiki.
 
-Esses recursos disponíveis ** gravação &gt; de edição do &gt; task recorder configurações ** no menu.
+Esses recursos estão disponíveis no menu **Configurações &gt; Gravador de tarefas &gt; Editar gravação**.
 
--   Etapas de inserção sem registrar novamente o arquivo completo.
--   Mova as etapas em uma tarefa sem registrar novamente o arquivo completo.
--   Recolher campos de nome e a descrição do registro.
+-   Inserção etapas sem registrar novamente o arquivo completo.
+-   Mova as etapas em uma subtarefa sem registrar novamente o arquivo completo.
+-   Recolher campos de nome e descrição da gravação.
 
-## <a name="insert-steps-without-rerecording-the-entire-file"></a>Inserir etapas sem registro inteiro novamente o arquivo
-Agora você pode adicionar uma etapa em qualquer lugar em uma guia de tarefa sem executar ou voltar registrar novamente o arquivo completo.
+## <a name="insert-steps-without-rerecording-the-entire-file"></a>Inserir etapas sem registrar novamente o arquivo completo
+Agora você pode adicionar uma etapa em qualquer lugar em uma guia de tarefa sem ter de rodar novamente ou gravar novamente o arquivo inteiro.
 
-1.  Selecione a etapa após o qual você deseja que a nova etapa a ser inserida. Verifique se a etapa está realçada.
+1.  Selecione a etapa após a qual você deseja que a nova etapa seja inserida. Verifique se a etapa está realçada.
 
-Do task recorder insira uma etapa, você deve ter o aberto correto de página. A página está correto a página em que a nova etapa ocorre. O task recorder tiver um mecanismo que determina à página está ativo, e desabilite se a funcionalidade a página atual não estará aberto. 
+Para que o gravador de tarefas insira uma etapa, você deve ter a página correta aberta. A página correta é a página na qual a nova etapa ocorre. O gravador de tarefas tem um mecanismo que determina qual é a página ativa, e desabilitará a funcionalidade se a página correta não estiver aberta. 
 
-[![(tg1]. /media/tg1.png)](. /media/tg1.png) 
+[![tg1](./media/tg1.png)](./media/tg1.png) 
 
 
-Quando você está na página, correto ** etapa de inserção ** torna-se disponível.
+Quando estiver na página correta, **Inserir etapa** torna-se disponível.
 
-[![(tg2]. /media/tg2-231x300.png)](. /media/tg2.png)
+[![tg2](./media/tg2-231x300.png)](./media/tg2.png)
 
-2. Clique ** etapa de inserção **.
+2. Clique em **Inserir etapa**.
 
-Quando você clicar ** etapa de inserção **, alternância do task recorder ao modo de registro. Qualquer ação recolhida interface do usuário agora será registrada e adicionada funcionando como etapas.
+Quando clicar em **Inserir etapa**, o gravador de tarefas muda para o modo de gravação. Qualquer ação realizada na IU agora será gravada e adicionada no lugar como etapas.
 
-3. Clique ** ** interrompida.
+3. Clique em **Parar**.
 
-Você pode repetir o processo, adicionando quantas etapas ou movendo quantas as tarefas quando necessário (consulte a seguir para as tarefas.)
+Você pode repetir o processo, adicionando quantas etapas ou movendo quantas tarefas forem necessário (consulte subtarefas abaixo).
 
-4. Quando tiver feito que editar a guia da tarefa, clique ** edição feita **, e escolha uma das opções salvar ou publicar o guia de tarefa.
+4. Quando tiver terminado a edição da guia de tarefas, clique em **Finalizar edição** e depois escolha uma das opções para salvar ou publicar o guia de tarefas.
 
-## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Mova etapas em uma subtarefa sem registro inteiro novamente o arquivo
-Você pode mover as etapas em uma tarefa sem executar ou voltar registrar novamente o arquivo completo. Você também pode mover a etapa do a tarefa ou etapa das tarefa final se desejar agrupar bloco existente de etapas.
+## <a name="move-steps-under-a-subtask-without-rerecording-the-entire-file"></a>Mova as etapas em uma subtarefa sem registrar novamente o arquivo completo
+Você pode mover as etapas em uma subtarefa sem rodar novamente ou registrar novamente o arquivo completo. Você também pode mover a etapa da subtarefa ou a etapa de subtarefa final se desejar agrupar um bloco de etapas existente.
 
-1.  Selecione a etapa ou as etapas da tarefa que deseja mover. Verifique se a etapa está realçada.
-2.  Clicar as reticências, clique em mover ** ** após a etapa.
+1.  Selecione a etapa ou a etapa de subtarefa que deseja mover. Verifique se a etapa está realçada.
+2.  Clique nas reticências e depois em **Mover etapa para frente**.
 
-[![(tg3]. /media/tg3.png)](. /media/tg3.png)
+[![tg3](./media/tg3.png)](./media/tg3.png)
 
-3. Selecione a etapa ou as etapas da tarefa que deseja mover para a próxima etapa ou as etapas da tarefa. O task recorder moverá a etapa.
+3. Selecione a etapa ou as etapas de subtarefa que deseja mover para a próxima etapa ou etapas de subtarefa. O gravador de tarefas moverá a etapa.
 
-4. Mover para a etapa das tarefas de fechamento, selecione, nas reticências, clique em mover ** ** após a etapa, e selecione a etapa após os quais a etapa das tarefa final sejam.
+4. Para mover a etapa de subtarefa final, selecione-a, clique nas reticências, clique em **Mover etapa para frente** e depois selecione a etapa para frente onde deseja que a etapa de subtarefa final esteja.
 
-Se a primeira etapa na guia de tarefa para estar em uma tarefa, crie as uma etapa do objeto como a segunda etapa, mover e na primeira etapa nela. Você pode adicionar ou mova quantas etapas ou as tarefas quando necessário.
+Se quiser que a primeira etapa no guia de tarefas esteja dentro de uma subtarefa, crie uma etapa de subtarefa como a segunda etapa, e depois mova a primeira tarefa nela. Você pode adicionar ou mover quantas etapas ou subtarefas forem necessário.
 
-5. Quando tiver feito que editar a guia da tarefa, clique ** edição feita **, e escolha uma das opções salvar ou publicar o guia de tarefa.
+5. Quando tiver terminado a edição da guia de tarefas, clique em **Finalizar edição** e depois escolha uma das opções para salvar ou publicar o guia de tarefas.
 
-## <a name="collapse-recording-name-and-description"></a>Descrição de nome e recolher de registro
-Você pode expandir e recolher ** nome de gravação e ** ** descrição de gravação ** campos. Quando esses campos são, acrescida tirados em etapas serão visíveis no painel de edição do task recorder. 
+## <a name="collapse-recording-name-and-description"></a>Recolher nome e descrição de gravação
+Você pode expandir e recolher os campos **Nome de registro** e **Descrição de registro**. Quando esses campos são recolhidos, mais etapas ficarão visíveis no painel de edição do gravador de tarefas. 
 
-[![(tg4]. /media/tg4-300x252.png)](. /media/tg4.png)  
+[![tg4](./media/tg4-300x252.png)](./media/tg4.png)  
 
 <a name="see-also"></a>Consulte também
 --------
 
 [Criar documentação ou treinamento utilizando Gravações de tarefas](/dynamics365/operations/dev-itpro/user-interface/task-recorder)
 
-[Referência rápida] do task recorder (/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
+[Referência rápida ao gravador de tarefas](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
 
 

@@ -28,23 +28,26 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="order-promising"></a>Promessa de ordem
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo oferece informações sobre promessas de ordem. As promessas de ordem ajudam você a prometer, com segurança, datas de entrega aos clientes e lhe fornece flexibilidade para que possa atender a essas datas.
 
 A promessa da ordem calcula as datas de entrega e recebimento mais próximas, e se baseia no método de controle de data de entrega e nos dias de transporte. Você pode escolher entre quatro métodos controle de data de entrega:
 
--   ** Prazo de entrega de vendas ** – o prazo de entrega das vendas é o tempo entre a criação de ordens de venda e a remessa de itens. O cálculo de data de entrega baseia-se em um número de dias, e não considera a disponibilidade de estoque, a demanda conhecidas, a fonte ou planejadas.
--   ** ATP (disponível para promessa) ** o ATP é a quantidade de um item que está disponível e pode ser prometida para um cliente em uma data específica. O cálculo de ATP inclui o estoque não confirmado, prazos de entrega, recebimentos planejados, e saídas.
+-   **Prazo de entrega das vendas** – Prazo de entrega das vendas é o tempo entre a criação da ordem de venda e a remessa dos itens. O cálculo de data de entrega baseia-se em um número padrão de dias, e não considera a disponibilidade de estoque, a demanda conhecida, ou o fornecimento planejado.
+-   **ATP (disponível para promessa)** – ATP é a quantidade de um item que está disponível e pode ser prometida a um cliente em uma data específica. O cálculo de ATP inclui o estoque não confirmado, prazos de entrega, recebimentos planejados, e saídas.
 -   **Margem de saída + ATP **– A data de remessa é igual a data de ATP mais a margem de saída do item. A margem de saída é o tempo necessário para preparar os itens para remessa.
 -   **CTP (capacidade de comprometimento) **– A disponibilidade é calculada com o detalhamento.
 
 ## <a name="atp-calculations"></a>Cálculos de ATP
-A quantidade ATP é calculada usando “ATP cumulativo com look-ahead o método”. A principal vantagem desse método de cálculo ATP é que ele pode lidar casos em que a soma de saídas entre recebimentos é maior do que o último recebimento (por exemplo, quando a quantidade de um recebimento anterior deve ser usado para atender uma necessidade.) O “ATP cumulativo com o método de cálculo com look-ahead” inclui todas as saídas até que a quantidade cumulativa para receber excede a quantidade cumulativa para emissão. Sendo assim, esse método de cálculo de ATP avalia se qualquer quantidade de um período anterior pode ser usada em um período posterior.  
+A quantidade de ATP é calculada usando o método “ATP cumulativo com look-ahead”. A principal vantagem desse cálculo de ATP é que ele pode lidar com casos nos quais a soma de saídas entre recebimentos é maior do que o último recebimento (por exemplo, quando se faz necessário usar uma quantidade de um recebimento anterior para atender a uma necessidade). O método de cálculo “ATP cumulativo com look-ahead” inclui todas as saídas até que a quantidade cumulativa para receber exceda a quantidade cumulativa para emissão. Sendo assim, esse método de cálculo de ATP avalia se qualquer quantidade de um período anterior pode ser usada em um período posterior.  
 
 A quantidade ATP é o saldo de estoque não confirmado no primeiro período. Geralmente, ela é calculada para cada período no qual um recebimento é planejado. O programa calcula o período ATP em dias e calcula a data atual como a primeira data para a quantidade ATP. No primeiro período, ATP inclui o estoque disponível menos ordens de cliente que estão vencidas ou atrasadas.  
 
 O ATP é calculado através da seguinte fórmula:  
 
-O ATP = o ATP para o período anterior + passam recebimento para o período atual – as saídas para o período atual – a quantidade de saída líquida para cada período futuro até que o período em que a soma de recebimentos para todos os períodos futuros, até e incluindo o período futuro, exceder a soma de saídas até e incluindo o período futuro.  
+ATP = ATP do período anterior + Recibos do período atual – Problemas do período atual – Quantidade líquida de saída para cada período futuro até que o período em que a soma de recibos de todos os períodos futuros, até e incluindo o período futuro, seja maior que a soma de saídas, até e incluindo o período futuro.  
 
 Quando não houver mais saídas ou emissões a serem consideradas, a quantidade ATP para as seguintes datas é a mesma que a última quantidade ATP calculada.  
 
@@ -66,8 +69,10 @@ O cliente liga e solicita 150 peças do mesmo produto. Ao verificar a disponibil
 
 Crie uma linha de ordem de venda para o produto e insira **150** como quantidade.  
 
-Como o método de controle da data de entrega é ATP, os dados ATP são calculados para localizar a data de remessa mais próxima possível. Com base nas configurações, ordem de compra e ordem de venda que estão atrasadas, a quantidade ATP resultante para a data atual é 0. Amanhã, quando a ordem de compra atrasado deve ser recebida, a quantidade ATP é calculado como (mais de 0 nesse caso, calculado como 125). Entretanto, em 10 dias, quando a ordem de compra adicional de 100 partes deve ser recebida, a quantidade ATP se torna mais de 150.  
+Como o método de controle da data de entrega é ATP, os dados ATP são calculados para localizar a data de remessa mais próxima possível. Com base nas configurações, são consideradas ordem de compra e ordem de venda que estão atrasadas e a quantidade ATP resultante para a data atual é 0. Amanhã, quando a ordem de compra atrasada tiver que ser recebida, a quantidade ATP é calculada como mais de 0 (nesse caso, calculada como 125). Entretanto, em 10 dias, quando a ordem de compra adicional de 100 peças tiver que ser recebida, a quantidade ATP se tornará mais de 150.  
 
-Portanto, a data de remessa estiver definida como 10 dias, com base no cálculo ATP. Sendo assim, você informa ao cliente que a quantidade solicitada pode ser entregue em 10 dias, a contar de hoje.
+Portanto, a data de remessa é definida para 10 dias, a contar de hoje, com base no cálculo ATP. Sendo assim, você informa ao cliente que a quantidade solicitada pode ser entregue em 10 dias, a contar de hoje.
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Números de série da registradora em processo de vendas"
+title: "Registrar números de série no processo de vendas"
 description: "Estes artigos explicam como você pode registrar números de série em guias de remessa ou em faturas durante o processo de vendas. Essa funcionalidade será útil se uma empresa quiser capturar números de série para fins de serviço e de garantia, e não precisa manter os números de série no estoque do recebimento até a saída."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="register-serial-numbers-in-the-sales-process"></a>Números de série da registradora em processo de vendas
+# <a name="register-serial-numbers-in-the-sales-process"></a>Registrar números de série no processo de vendas
+
+[!include[banner](../includes/banner.md)]
+
 
 Estes artigos explicam como você pode registrar números de série em guias de remessa ou em faturas durante o processo de vendas. Essa funcionalidade será útil se uma empresa quiser capturar números de série para fins de serviço e de garantia, e não precisa manter os números de série no estoque do recebimento até a saída.
 
@@ -65,7 +68,7 @@ Sim, você pode executar uma consulta na linha do diário da guia de remessa ou 
 ## <a name="can-i-view-the-serialized-items-that-i-have-on-hand"></a>Posso exibir os itens serializados que tenho disponível?
 Não, não é possível exibir os itens serializados disponíveis, pois os números de série não são registrados para itens até que eles sejam vendidos.
 
-## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Registrar que posso números de série para itens de catchweight?
+## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Posso registrar números de série para itens de peso variável?
 Não, você não pode registrar números de série para itens de peso variável durante o processo de venda. Além disso, se um produto for configurado como um item de peso variável, você não poderá atribuir o produto a um grupo de dimensões de rastreamento configurado para usar números de série apenas durante o processo de venda.
 Posso registrar números de série no retail POS?
 ------------------------------------------------
@@ -76,6 +79,8 @@ Sim, o Retail POS solicitará a inserção de um número de série quando o usu�
 Essa funcionalidade está disponível em todas as funções que podem atualizar as guias de remessa e as faturas de venda. Os seguintes impostos permitem que trabalhadores corrijam números de série e registrem entradas em branco para números de série que não podem ser lidos ou verificados:
 -   Manter correções de número de série
 -   Manter registro de números de série ilegíveis
+
+
 
 
 

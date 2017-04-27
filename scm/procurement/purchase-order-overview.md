@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-order-overview"></a>Visão geral de ordem de compra
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações gerais sobre as ordens de compra (POs) e links para artigos adicionais que estão relacionados aos diversos estágios que passa de uma OC.
 
 Uma ordem de compra (OC) é um documento que representa um contrato com um fornecedor para comprar mercadorias ou serviços. O documento também ajuda a manter o controle dos recebimentos de produtos que são feitos em direção a ordem e, posteriormente, estatísticas de notas fiscais de fornecedor que o fornecedor cobra em direção a ordem.  
 
-A página **Ordens de compra** contém uma visão geral das ordens disponíveis e permite que você modifique as ordens. Ao abrir um pedido de compra, você pode selecionar a exibição **Cabeçalho**, que contém informações que são especificadas somente uma vez para cada ordem de compra, como os detalhes do fornecedor. Como alternativa, você pode selecionar a exibição **Linhas**, onde você pode modificar linhas de ordem. Normalmente, você alternará insira essas duas exibições como alterar a posição. Encargos não estão relacionados diretamente ** ** ordens de compra na página, mas são acessados nos menus no cabeçalho e as linhas de ordem.  
+A página **Ordens de compra** contém uma visão geral das ordens disponíveis e permite que você modifique as ordens. Ao abrir um pedido de compra, você pode selecionar a exibição **Cabeçalho**, que contém informações que são especificadas somente uma vez para cada ordem de compra, como os detalhes do fornecedor. Como alternativa, você pode selecionar a exibição **Linhas**, onde você pode modificar linhas de ordem. Normalmente, você alternará entre essas duas exibições conforme altera as OCs. Encargos não estão relacionados diretamente a página **Ordens de compra**, mas são acessados nos menus no cabeçalho e nas linhas de ordem.  
 
 Há vários relatórios onde você pode exibir informações sobre POs, guias de remessa e notas fiscais de fornecedor. Esses relatórios são encontrados nos módulos **Aquisição e fornecimento** e **Contas a pagar**.  
 
-Os espaços de trabalho **Preparação da ordem de compra** e **Recebimento e acompanhamento da ordem de compra** permitem que você exiba listas de POs em vários estados para o qual você progrediu. Eles também fornecem um resumo das ações que devem ser seguidas. O espaço de trabalho **Preparação da ordem de compra** se concentra na criação de ordem de compra e revisão, processamento do pedido e até a aprovação e confirmação com o fornecedor. ** Recebimento e acompanhamento de ordem de compra ** o espaço de trabalho é centrado sobre processar o recebimento de mercadorias ou serviços na posição. Inclui as listas que oferecem a introspecção os recebimentos que estão vencidos, logo ou que serão pagas a entrega por fornecedor. Estes espaços de trabalho não são usados para executar as atividades de recebimento relacionadas feitas no depósito. Essas atividades são executadas usando páginas nos módulos **Gerenciamento de estoque** e **Gerenciamento de depósito**. Processamento de faturas do fornecedor deve ser feito usando o espaço de trabalho **Entrada de fatura de fornecedor** e pagamentos devem ser feitos usando o espaço de trabalho **Pagamentos de fornecedor**.  
+Os espaços de trabalho **Preparação da ordem de compra** e **Recebimento e acompanhamento da ordem de compra** permitem que você exiba listas de POs em vários estados para o qual você progrediu. Eles também fornecem um resumo das ações que devem ser seguidas. O espaço de trabalho **Preparação da ordem de compra** se concentra na criação de ordem de compra e revisão, processamento do pedido e até a aprovação e confirmação com o fornecedor. O espaço de trabalho **Recebimento e acompanhamento da ordem de compra** tem como foco processamento do recebimento de materiais ou serviços contra OCs. Inclui as listas que oferecem informações sobre os recebimentos vencidos ou que vencerão futuramente por conta de entrega do fornecedor. Estes espaços de trabalho não são usados para executar as atividades de recebimento relacionadas feitas no depósito. Essas atividades são executadas usando páginas nos módulos **Gerenciamento de estoque** e **Gerenciamento de depósito**. Processamento de faturas do fornecedor deve ser feito usando o espaço de trabalho **Entrada de fatura de fornecedor** e pagamentos devem ser feitos usando o espaço de trabalho **Pagamentos de fornecedor**.  
 
 Os artigos a seguir fornecem uma visão geral sobre os vários estágios pelos quais uma OC passa por:
 
@@ -45,7 +48,7 @@ Os artigos a seguir fornecem uma visão geral sobre os vários estágios pelos q
 -   [Visão geral das faturas de fornecedor](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
 
 ## <a name="types-of-purchase-orders"></a>Tipos de ordens de compra
-Há três tipos de posição. Quando você cria um OC, especifique o tipo. Você pode configurar um tipo de ordem padrão para novas ordens na página **Parâmetros de compras**.
+Existem três tipos de ordens de compra. Quando você cria uma OC, você deve especificar o tipo. Você pode configurar um tipo de ordem padrão para novas ordens na página **Parâmetros de compras**.
 
 | Tipo de OC        | Descrição                                                                                                                                                                                                                                                                           |
 |----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -80,12 +83,14 @@ O campo **Status de aprovação** é usado quando uma ordem de compra passa por 
 <a name="see-also"></a>Consulte também
 --------
 
-[Purchase order creation](purchase-order-creation.md)
+[Criação de ordem de compra](purchase-order-creation.md)
 
 [Confirmação e aprovação da ordem de compra](purchase-order-approval-confirmation.md)
 
 [Recebimento de produtos contra ordens de compra](product-receipt-against-purchase-orders.md)
 
 [Visão geral das faturas de fornecedor](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

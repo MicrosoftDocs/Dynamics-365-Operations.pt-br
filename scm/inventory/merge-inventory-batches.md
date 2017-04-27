@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="merge-inventory-batches"></a>Mesclar lotes de estoque
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre como consolidar dois ou mais lotes de estoque em um lote mesclado. 
 
 Quando você mescla lotes, os cálculos podem ajudar a otimizar as características e os atributos de lote do lote mesclado. Depois de selecionar os lotes de origem, você poderá examinar e alterar o lote mesclado antes de lançá-lo. Você também pode transferir a mesclagem de lote para um diário de estoque para aprovação. O estoque pode ser reservado ou lançado diretamente desse diário de estoque. Quando você lança um lote mesclado, o estoque é ajustado para os lotes de origem e o lote mesclado.
@@ -48,7 +51,7 @@ Sim, há alguns aspectos que você deve configurar antes que seja possível usar
 <tbody>
 <tr class="odd">
 <td>Nomes de diário, estoque</td>
-<td>É necessário criar o nome de diário a ser usado por padrão quando você lança mesclagens de lote em diários de estoque. Opcional, mas recomendado: é possível especificar que as reservas sejam feitas automaticamente quando a mesclagem de lote é transferida para o diário de estoque. Caso contrário, haverá o risco de que o estoque disponível seja alterado após os detalhes de mesclagem de lote serem configurados e o diário for lançado. Para habilitar reservas automáticas para o diário, nome no <strong>Automático</strong>  <strong><strong>Reserva</strong></strong> campo.</td>
+<td>É necessário criar o nome de diário a ser usado por padrão quando você lança mesclagens de lote em diários de estoque. Opcional, mas recomendado: é possível especificar que as reservas sejam feitas automaticamente quando a mesclagem de lote é transferida para o diário de estoque. Caso contrário, haverá o risco de que o estoque disponível seja alterado após os detalhes de mesclagem de lote serem configurados e o diário for lançado. Para habilitar as reservas automáticas para o nome do diário, selecione <strong>Automática</strong> no campo <strong><strong>Reserva</strong></strong>.</td>
 </tr>
 <tr class="even">
 <td>Parâmetros de gerenciamento de estoque e depósito</td>
@@ -134,9 +137,11 @@ O lançamento trabalha de duas maneiras, dependendo se você usar um processo de
 -   **Transferir para diário** - transfere os detalhes da mesclagem de lotes para um novo diário de estoque. Se você tiver configurado reservas automáticas, as quantidades nos lotes de origem serão reservadas. Os detalhes da mesclagem de lotes não podem ser alterados. Para modificar a mesclagem de lotes, exclua o diário. O diário pode ser usado como uma tarefa que outro funcionário deverá executar posteriormente. A reserva da quantidade do lote para a linha do diário é protegida. Essa alocação permite que um planejador de qualidade ou um gerente de depósito crie tarefas para os funcionários.
 -   **Lançar a mesclagem de lote** – lança a mesclagem de lotes diretamente. Essa ação pode ser executada depois que a mesclagem física ocorrer.
 
-É possível aprovar o diário de estoque para a mesclagem de lotes da página de listagem **Todas as mesclagens de lotes**. Clique ** diário ** &gt; ** ** lançar. Depois que um diário é lançado, não será possível alterar os detalhes do lote mesclado. Após transferir uma mesclagem de lotes a um diário de estoque, será possível modificar os detalhes somente se o diário for excluído.
+É possível aprovar o diário de estoque para a mesclagem de lotes da página de listagem **Todas as mesclagens de lotes**. Clique em **Diário** &gt; **Lançar**. Depois que um diário é lançado, não será possível alterar os detalhes do lote mesclado. Após transferir uma mesclagem de lotes a um diário de estoque, será possível modificar os detalhes somente se o diário for excluído.
 
-## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Após a mesclei um item de catchweight, por que não pode eu consulte o catchweight no diário de estoque?
+## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Após mesclar um item de peso variável, por que eu não consigo ver as informações de peso variável no diário de estoque?
 Você pode mesclar lotes de itens de peso variável da mesma maneira que todos os outros itens. Entretanto, as informações de peso variável não aparecem no diário de estoque. Recomendamos que você verifique as informações de peso variável antes de transferir a mesclagem de lotes para o diário de estoque.
+
+
 
 

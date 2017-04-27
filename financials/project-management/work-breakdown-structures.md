@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="work-breakdown-structures"></a>Estruturas de detalhamento de trabalho
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Estruturas de detalhamento de trabalho Uma estrutura de detalhamento de trabalho (WBS) é uma descrição do trabalho que será feito para um projeto. É uma hierarquia de tarefas que representa a compreensão da equipe do projeto da composição do trabalho, e do tamanho, custo, e duração de cada componente ou tarefa. Uma WBS tem três fins principais:
@@ -39,17 +42,17 @@ O nível de detalhe em uma WBS depende do nível de precisão exigido em estimat
 
 Por outro lado, os projetos em setores como mídia e propaganda, software, e infraestrutura de TI tendem a ser de um tipo único, e a produtividade é relativa à experiência e competência do indivíduo que está executando a tarefa. Consequentemente, essas indústrias utilizam uma WBS para obter uma aproximação do tamanho de um projeto, ao invés de acompanhar o progresso do projeto em detalhes. 
 
-Construir uma WBS é um processo intensivo que geralmente é feito durante um longo período de tempo, e que requer colaborações e informações de diversas pessoas. Este tópico descreve como você pode usar aprimoramentos de WBS no Microsoft Dynamics 365 para as operações cumpram seus requisitos de estimativas e rastreamento.
+Construir uma WBS é um processo intensivo que geralmente é feito durante um longo período de tempo, e que requer colaborações e informações de diversas pessoas. Este tópico descreve como você pode usar aprimoramentos de WBS no Microsoft Dynamics 365 for Operations para atender os requisitos de estimativas e acompanhamento.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Pré-requisitos para criação de uma WBS
 Para criar uma WBS, você deve ser capaz de criar um plano de trabalho e estimar os custos de trabalho.
 
 ### <a name="prerequisites-for-creating-a-work-schedule"></a>Pré-requisitos para criação de um plano de trabalho
 
-Para usar recursos completas de planejamento de recursos de WBS, preencha o seguinte: de instalação
+Para usar todas as funcionalidades de programação dos recursos da WBS, complete as etapas a seguir:
 
 1.  Configurar um calendário padrão e um calendário do projeto:
-    1.  ** Clique em gerenciamento e contabilidade de projeto ** &gt; ** de instalação ** &gt; ** ** plano. No campo **Calendário de trabalho padrão**, especifique um calendário padrão. Esse será o calendário de trabalho padrão para qualquer projeto novo criado.
+    1.  Clique em **Gerenciamento de projetos e contabilidade** &gt; **Configuração** &gt; **Planejamento**. No campo **Calendário de trabalho padrão**, especifique um calendário padrão. Esse será o calendário de trabalho padrão para qualquer projeto novo criado.
     2.  Você pode alterar o calendário padrão para um projeto específico. Clique na página detalhes do projeto e, na Guia Rápida **Equipe de projeto e planejamento**, atualize o campo **Calendário de planejamento** selecionando outro calendário.
 
 2.  Configure dias úteis padrões e horas de trabalho. O calendário definido como calendário de trabalho para o projeto será usado na WBS para determinar as seguintes informações:
@@ -57,13 +60,13 @@ Para usar recursos completas de planejamento de recursos de WBS, preencha o segu
 -   Dias úteis e feriados
 -   O número de horas de trabalho em um dia
 
-Para configurar os dias úteis e as horas de trabalho para um calendário, ou criar um novo calendário, clique em administração ** organizacional ** &gt; ** a comum ** &gt; ** ** calendários.
+Para configurar os dias úteis e as horas de trabalho em um calendário, ou para criar um novo calendário **Administração da organização** &gt; **Comum** &gt; **Calendários**.
 
 ### <a name="prerequisites-for-estimating-the-cost-of-work"></a>Pré-requisitos para estimar os custos de trabalho
 
 Para usar todas as funcionalidades da estimativa de custo da WBS, você deve configurar os preços de custo e venda para os funcionários, categorias de trabalho, despesas e taxas, e itens.
 
--   Para configurar o preço de custo e de venda de trabalho, despesas, e as categorias de taxa, clique ** gerenciamento e contabilidade de projeto ** &gt; ** de instalação ** &gt; ** ** preços.
+-   Para configurar as categorias de preços de custo e venda do trabalho, despesa, e taxa, clique em **Gerenciamento de projetos e contabilidade** &gt; **Configuração** &gt; **Preços**.
 -   Para configurar os preços de custo e venda dos itens, utilize a página **Contratos comerciais **para cada item na página de listagem **Produtos liberados** em Gerenciamento de informações sobre produtos.
 
 ## <a name="creating-a-wbs"></a>Criando uma WBS
@@ -73,11 +76,11 @@ Criar uma WBS envolve três atividades:
 2.  **Plano de trabalho** – Estimar o tempo necessário para completar uma tarefa, definir interdependências da tarefa, e selecionar as datas de início e fim das tarefas.
 3.  **Previsão de custos** – Estimar custos para cada tarefa.
 
-As seções a seguir discutem como recursos de WBS podem ajudar em cada uma dessas atividades.
+As seções a seguir discutem como as funcionalidades da WBS podem ajudar em cada uma dessas atividades.
 
 ### <a name="work-decomposition"></a>Decomposição do trabalho
 
-Criar um fracionamento ou decomposição do trabalho é geralmente a primeira etapa do processo de criação de uma WBS. A funcionalidade de WBS suporta as seguintes construções básicas para divisão ou decomposição de trabalho. 
+Criar um fracionamento ou decomposição do trabalho é geralmente a primeira etapa do processo de criação de uma WBS. A funcionalidade da WBS suporta as seguintes construções básicas para fracionamento e decomposição do trabalho. 
 
 **Tarefa raiz do projeto** A tarefa raiz do projeto é a tarefa de resumo de nível mais alto para um projeto. Todas as outras tarefas do projeto são criadas abaixo dela. O nome da tarefa raiz está sempre definida com o nome do projeto. O esforço, datas, e duração do nó raiz resumem os valores das tarefas abaixo da tarefa raiz. Você não pode alterar as propriedades do nó raiz ou excluí-lo.
 
@@ -94,7 +97,7 @@ No momento, você não pode personalizar o sistema de numeração da WBS.
 **Recuar tarefa** Quando você recua uma tarefa, ela se torna um filho da tarefa que a precede. O número WBS da nova tarefa filha é automaticamente recalculado com base no número WBS da sua nova tarefa mãe. A tarefa mãe é agora uma tarefa de resumo ou acolhedora, e portanto se torna uma acumuladora de suas tarefas componentes. 
 
 > [!NOTE] 
-> Quando você recuar tarefas em uma tarefa que é um nó folha antes da operação, o recuo de tarefas de resumo perdesse recém-criada sua própria, datas e esforço, número de recursos. Ela usa agora um resumo dos valores das suas novas tarefas componentes. 
+> Quando você recua tarefas sob uma tarefa que era um nó folha antes da operação de recuo, a recém-criada tarefa de resumo perde suas próprias datas, esforço, e número de recursos. Ela usa agora um resumo dos valores das suas novas tarefas componentes. 
 
 **Recuar tarefa à esquerda** Quando você recua uma tarefa à esquerda, ela deixa de ser uma tarefa componente da sua tarefa mãe. O número WBS dessa tarefa é recalculado automaticamente para refletir o novo nível da tarefa dentro da hierarquia. O esforço, o custo, e as datas da sua tarefa mãe anterior são recalculados para excluir aquela tarefa. 
 
@@ -102,10 +105,10 @@ No momento, você não pode personalizar o sistema de numeração da WBS.
 
 ### <a name="schedule-estimation"></a>Estimativa de planejamento
 
-Estimativa de planejamento é, geralmente, a segunda etapa da criação de uma WBS. Como prática recomendada, você deve concluir a estimativa do planejamento depois de criar as tarefas. ** Estrutura de detalhamento de trabalho ** no Microsoft Dynamics a página 365 da operação tiver duas seções. O painel superior é destinado à estimativa de planejamento, e o painel inferior inclui uma aba **Custos e receitas estimados** que você pode utilizar na estimativa de custos. 
+Estimativa de planejamento é, geralmente, a segunda etapa da criação de uma WBS. Como prática recomendada, você deve concluir a estimativa do planejamento depois de criar as tarefas. A página **Estrutura de detalhamento de trabalho** no Microsoft Dynamics 365 for Operations tem duas seções. O painel superior é destinado à estimativa de planejamento, e o painel inferior inclui uma aba **Custos e receitas estimados** que você pode utilizar na estimativa de custos. 
 **Dependências da tarefa** Em uma WBS, você pode criar uma relação de antecessor entre tarefas. Ao atribuir tarefas de antecessor a uma tarefa, aquela tarefa só poderá ser iniciada depois que todas suas tarefas de antecessor forem completadas. A data planejada de início da tarefa é automaticamente definida como a data mais distante entre todas suas antecessores. 
 
-** Planejamento de tarefa no Microsoft Dynamics 365 para operações ** os seguintes fatoras determinam o planejamento de tarefas de folha nó:
+**Planejamento de tarefa no Microsoft Dynamics 365 for Operations** Os seguintes fatores determinam o planejamento das tarefas do nó folha:
 
 -   Predecessores
 -   Esforço
@@ -114,27 +117,27 @@ Estimativa de planejamento é, geralmente, a segunda etapa da criação de uma W
 
 A data de início de uma tarefa do nó folha que não tem antecessoras é automaticamente definida como a data de início do planejamento do projeto. A duração de uma tarefa do nó folha é sempre calculada como o número de dias úteis entre suas datas de início e término. 
 
-O plano de **** solicita o **** quando a suporte automático de programação for ativada, as seguintes regras se aplica ao planejamento de tarefa para tarefas de folha nó:
+****Regras de planejamento**** Quando a assistência automática de planejamento é ativada, as seguintes regras se aplicam ao planejamento de tarefas do nó folha:
 
 -   As datas de início e término de uma tarefa devem ser dias úteis, de acordo com o calendário de planejamento do projeto.
 -   A data de início de uma tarefa que contém antecessoras é automaticamente definida como a data de término mais distante entre suas antecessoras.
 -   O esforço para uma tarefa é calculado automaticamente da seguinte maneira:
 
-Número de × × de duração do número de pessoas de horas em um dia útil padrão em calendário de projeto. 
+Número de pessoas × Duração × Número de horas em um dia de trabalho padrão no calendário do projeto. 
 
-Em alguns casos, você pode querer afastar-se essas regras. Você pode desligar o planejamento automático para impedir que o Microsoft Dynamics 365 para operações ou corrija automaticamente define as propriedades de tarefas de folha nó. Quando você insere informações sobre uma tarefa que pode causar uma violação de alguma regra de planejamento, um ícone de erro de planejamento é exibido na tarefa. Se você não deseja que os erros de planejamento sejam exibidos, clique em **Erros de planejamento são exibidos** para desativar esse recurso. 
+Em alguns casos, você pode querer afastar-se essas regras. É possível desativar o planejamento automático para evitar que o Microsoft Dynamics 365 for Operations defina ou corrija automaticamente alguma propriedade das tarefas do nó folha. Quando você insere informações sobre uma tarefa que pode causar uma violação de alguma regra de planejamento, um ícone de erro de planejamento é exibido na tarefa. Se você não deseja que os erros de planejamento sejam exibidos, clique em **Erros de planejamento são exibidos** para desativar esse recurso. 
 
 > [!NOTE] 
-> Os valores de uma tarefa de resumo ou o contêiner continuará a ser calculado como a soma dos valores das tarefas constitutivas, independentemente da suporte automático de planejamento está girada de ligar/desligar. 
+> Os valores de uma tarefa de resumo ou acolhedora continuam a ser calculados como a soma dos valores das tarefas componentes, independentemente da assistência automática de planejamento estar ativada ou desativada. 
 
 **Corrigindo erros de planejamento** Quando a assistência automática de planejamento está ativada, é pouco provável que ocorram erros de planejamento. Entretanto, se você desativar a assistência automática de planejamento e então ativá-la novamente mais tarde, ícones de erro de planejamento podem aparecer no WBS. 
 
 **Corrigindo erros de planejamento por tarefa** Quando você clica duas vezes no ícone de erro de planejamento de uma tarefa específica, uma caixa de diálogo exibe todos os erros de planejamento daquela tarefa. Você pode decidir quais erros de planejamento corrigir para a tarefa. 
 
-** Corrigindo todos os erros de plano ** se quiser que o Microsoft Dynamics 365 para operações para corrigir os erros de plano em WBS, no painel de ações, clique ** corrigir discrepâncias ** de planejamento. 
+**Corrigindo todos os erros de planejamento** Se você deseja que o Microsoft Dynamics 365 for Operations corrija todos os erros de planejamento na WBS, no Painel de Ação, clique em **Corrigir todas as discrepâncias de planejamento**. 
 
 > [!NOTE] 
-> Esse recurso pode causar alterações a WBS significativas. Erros são corrigidos de acordo com a seguinte ordem:
+> Este recurso pode causar alterações significativas na WBS. Erros são corrigidos de acordo com a seguinte ordem:
 
 1.  O esforço estimado em todas as tarefas é modificado para que seja igual à capacidade definida no calendário do projeto.
 2.  A data de início de cada tarefa é modificada para que a tarefa inicie depois que todas suas tarefas antecessoras forem concluídas.
@@ -145,7 +148,7 @@ Em alguns casos, você pode querer afastar-se essas regras. Você pode desligar 
 Como mencionado anteriormente neste documento, você insere a estimativa de custo para cada tarefa do nó folha utilizando a aba **Custos e receitas estimados** no painel inferior da página **Estrutura de detalhamento de trabalho**. 
 
 > [!NOTE] 
-> Você não pode alterar o custo previsto para uma tarefa de resumo ou o contêiner. A estimativa de custo de uma tarefa de resumo é igual à soma das estimativas de custos de suas tarefas do nó folha. O custo total estimado para cada tarefa é calculado como a soma das quantias de custo estimado para os seguintes tipos de transação:
+> Não é possível alterar a estimativa de custo de uma tarefa de resumo ou acolhedora. A estimativa de custo de uma tarefa de resumo é igual à soma das estimativas de custos de suas tarefas do nó folha. O custo total estimado para cada tarefa é calculado como a soma das quantias de custo estimado para os seguintes tipos de transação:
 
 -   Trabalho
 -   Item ou material
@@ -161,12 +164,12 @@ Quando você estimar os custos do trabalho, e as despesas de cada etapa, você d
 
 **Estimando despesas e custo de materiais** A aba **Custos e receitas estimados** também permite que você estime as despesas e o custo dos materiais para uma tarefa, se necessário. 
 
-O preço de custo e de venda para cada linha de trabalho ou de previsão de despesas for baseado em de instalação definida para cada uma das tabelas preço ** gerenciamento e contabilidade de projeto ** &gt; ** em de instalação ** &gt; ** preço **. Para os itens, os preços de custo e venda são adicionados, por padrão, dos contratos comercial ou de item na página de listagem **Produtos lançados** em Gerenciamento de informações sobre produtos.
+O custo e o preço de venda de cada linha de estimativa de mão-de-obra ou despesa baseiam-se na configuração definida para cada categoria nas tabelas de preços em **Gerenciamento de projetos e contabilidade** &gt; **Configuração** &gt; **Definição de preços**. Para os itens, os preços de custo e venda são adicionados, por padrão, dos contratos comercial ou de item na página de listagem **Produtos lançados** em Gerenciamento de informações sobre produtos.
 
 ## <a name="tracking-progress-on-the-wbs"></a>Acompanhando progresso na WBS
 Algumas indústrias acompanham o andamento de um projeto em relação a uma WBS a um nível muito granular, enquanto outras acompanham o progresso a um nível superior da WBS. Esta seção descreve como você pode utilizar o acompanhamento da WBS para os seus requisitos de projeto. 
 
-Microsoft Dynamics 365 para operações tem três exibições do WBS de projeto: exibição da exibição, planejamento de rastreamento de esforço, e custos que acompanham a exibição.
+O Microsoft Dynamics 365 for Operations tem três exibições para a WBS de um projeto: a Exibição de planejamento, a Exibição do rastreamento do esforço, e a Exibição do rastreamento do custo.
 
 ### <a name="planning-view"></a>Exibição de Planejamento
 
@@ -177,7 +180,7 @@ A Exibição de planejamento exibe a estimativa planejada ou de referência da a
 A Exibição do rastreamento do esforço exibe o acompanhamento do progresso para tarefas na WBS. Compara as horas reais de esforço acumuladas de uma tarefa às horas de esforço planejadas. As seguintes fórmulas fornecem os valores na Exibição do rastreamento do esforço:
 
 -   Porcentagem de progresso = Esforço real até o momento ÷ Esforço planejado para a tarefa
--   Compromisso pendente (também conhecido como o \[Avaliação-à- completo etc.\]) = esforço planejada – esforço real até
+-   Esforço restante (também conhecido como Estimativa para conclusão \[ETC\]) = Esforço planejado – Esforço real até o momento
 -   Estimativa quando concluído (EAC) = Esforço restante + Esforço real até o momento
 -   Variação de esforço projetada = Esforço planejado – EAC
 
@@ -188,7 +191,7 @@ A Exibição do rastreamento do esforço exibe uma projeção da variação do e
 
 **Nova projeção de esforço do gerente de projeto** Ocasionalmente, o gerente de projeto ou outra pessoa que esteja acompanhando o progresso de um projeto terá que revisar as estimativas originais em uma tarefa. A tarefa pode estar progredindo mais rápido ou mais devagar do que aquilo que foi originalmente antecipado, por diversas razões. Por exemplo, o escopo foi reduzido, ou os funcionários têm menos experiência do que o originalmente planejado. Projeções são a percepção de estimativas do gerente de projeto, com base no status atual de um projeto. No geral, você não deve alterar os números de referência, pois a referência de um projeto representa um documento publicado sobre a agenda do projeto e a estimativa de custos com o qual todas as partes interessadas concordaram. 
 
-Há duas formas que os gerentes de projeto podem alterar o trabalho em tarefas:
+Existem duas maneiras em que os gerentes de projetos podem modificar o esforço em tarefas:
 
 -   Modificar o esforço restante que está automaticamente configurado para atualizar o esforço restante real na tarefa.
 -   Modificar a porcentagem de progresso que está automaticamente configurada para atualizar o progresso verdadeiro na tarefa.
@@ -222,7 +225,7 @@ A Exibição do rastreamento do custo exibe uma projeção da variação de cust
 **Nova projeção de custo do gerente de projeto** Gerentes de projeto devem usar o CTC para revisar a estimativa de custo original em uma tarefa. O gerente de projeto pode alterar o valor do CTC para o custo necessário para concluir a tarefa. Se você alterar o valor do CTC, o CTC, a EAC e a porcentagem de custo consumido da tarefa, além da variação de custo projetada para uma tarefa, são recalculados. A EAC, a ETC e a porcentagem de custo consumido nas tarefas de resumo também são recalculadas, e suas variações de custo projetadas são atualizadas. 
 
 > [!NOTE] 
-> Quando você revisa o trabalho para uma tarefa de WBS na exibição de rastreamento de esforço, o CTC de tarefa, o EAC, a porcentagem de custo consumido, e a variação de custo serão recalculados projetada todos na exibição de custo previsto de rastreamento. No entanto, as revisões de custo não afetam os valores na Exibição do rastreamento do esforço, pois o custo por tipo de transação (mão de obra, material ou despesa) ou categoria de projeto não são revisados. 
+> Quando você revisa o esforço de uma tarefa da WBS na Exibição do rastreamento do esforço, o CTC, a EAC e a porcentagem de custo consumido da tarefa, assim como a variação de custo projetada, são todos recalculados na Exibição do rastreamento do custo. No entanto, as revisões de custo não afetam os valores na Exibição do rastreamento do esforço, pois o custo por tipo de transação (mão de obra, material ou despesa) ou categoria de projeto não são revisados. 
 
 **Revisão de projeção para custos nas tarefas de resumo** Você pode revisar os custos nas tarefas de resumo, e os cálculos ocorrem automaticamente na seguinte ordem:
 
@@ -236,24 +239,24 @@ Clique em **Expandir ao nível** na Exibição do rastreamento do custo para def
 
 ### <a name="earned-value-management"></a>Gerenciamento de valores obtidos
 
-Você pode usar o método (EVM) do valor ganho para controlar o andamento de um projeto. Você pode visualizar métricas de valor obtido na Central de Funções do gerente de projeto. O componente gráfico do valor obtido mostra os valores cíclicos do valor planejado e do custo real. O valor obtido a partir da data atual é mostrado como um ponto. Os dados cíclicos para valor obtido não estão disponíveis no momento. 
+Você pode usar o método de valor obtido (EVM) para acompanhar o progresso de um projeto. Você pode visualizar métricas de valor obtido na Central de Funções do gerente de projeto. O componente gráfico do valor obtido mostra os valores cíclicos do valor planejado e do custo real. O valor obtido a partir da data atual é mostrado como um ponto. Os dados cíclicos para valor obtido não estão disponíveis no momento. 
 
 A fase de tempo no gráfico de valor obtido é exibida por semana ou por mês. Esta seção descreve os três pilares do EVM: valor planejado, valor obtido e custo real. 
 
 **Valor planejado** A teoria do EVM afirma que o gráfico do valor planejado representa a taxa com a qual a equipe de projeto planejou obter valor no projeto. 
 
-Microsoft Dynamics 365 usa operações para o 0:100 que obtêm a regra quando gerará o valor planejado. Sob essa regra, o valor da tarefa é lançado na tarefa a partir da sua data final. Nenhum valor é lançado até que a tarefa esteja 100 por cento completa. 
+O Microsoft Dynamics 365 for Operations usa a regra de ganho 0:100 quando traça o valor planejado. Sob essa regra, o valor da tarefa é lançado na tarefa a partir da sua data final. Nenhum valor é lançado até que a tarefa esteja 100 por cento completa. 
 
 Em Gerenciamento de projetos e contabilidade, insira a data final dos nós folha e o custo planejado para eles. Quando o gráfico do valor planejado é exibido por semana, o valor planejado é resumido por semana em todas as tarefas do nó folha durante a duração do projeto. 
 
 **Valor obtido** A teoria do EVM afirma que o gráfico do valor obtido representa a taxa em que a equipe de projeto está realmente obtendo valor no projeto. 
 
-Microsoft Dynamics 365 usar operações para o 0:100 que obtêm a regra quando o valor ganho de lotes. Sob essa regra, o valor da tarefa é lançado na tarefa a partir da sua data final. Nenhum valor é lançado até que a tarefa esteja 100 por cento completa. 
+O Microsoft Dynamics 365 for Operations usa a regra de ganho 0:100 quando traça o valor ganho. Sob essa regra, o valor da tarefa é lançado na tarefa a partir da sua data final. Nenhum valor é lançado até que a tarefa esteja 100 por cento completa. 
 
 Quando o valor obtido é calculado, a porcentagem do progresso de cada tarefa é considerada. Sob a regra de ganho 0:100, apenas as tarefas que são concluídas em um período especificado são consideradas no cálculo de valor obtido a partir do final daquele período. O valor obtido no projeto é calculado para todas as tarefas que foram concluídas quando o gráfico for criado. 
 
 > [!NOTE] 
-> Atualmente, o sistema para o rastreamento de WBS não tem as estruturas de porcentagens para armazenar dados históricos do progresso em cada tarefa. Consequentemente, o valor obtido pode ser informado somente a partir da hora em que o cubo é processado. Processe o cubo regularmente para atualizar os dados de valor obtido mostrados na Central de Funções. 
+> Atualmente, o sistema de rastreamento da WBS não possui estrutura de dados para armazenar o histórico de porcentagens de progresso em cada tarefa. Consequentemente, o valor obtido pode ser informado somente a partir da hora em que o cubo é processado. Processe o cubo regularmente para atualizar os dados de valor obtido mostrados na Central de Funções. 
 
 **Custo real** A teoria do EVM afirma que o gráfico do custo real representa a taxa em que o dinheiro está sendo gasto no projeto. 
 
@@ -273,7 +276,7 @@ Se o custo real gasto durante um período é maior que o valor obtido, gastou-se
 
 Se o custo real gasto durante um período é menor que o valor obtido, ganhou-se mais dinheiro do que foi gasto. Consequentemente, o projeto está dentro do orçamento.
 
-## <a name="wbs-templates"></a>Modelos da WBS
+## <a name="wbs-templates"></a>Modelos de WBS
 Você pode usar a funcionalidade de modelos de WBS para criar modelos padrão de projetos. Se os projetos que sua empresa oferece envolvem muito trabalho repetitivo, você deve considerar a criação de um modelo de WBS. 
 
 Você pode criar um modelo de WBS a partir da WBS de um projeto existente, de modo que o conhecimento e as práticas adquiridos durante o planejamento daquele projeto possam ser reutilizados em projetos similares no futuro. No entanto, às vezes, pode não fazer sentido salvar toda a WBS como um modelo. Consequentemente, você também pode criar modelos a partir de partes da WBS para um projeto.
@@ -313,5 +316,7 @@ Esforço = Número de recursos × Duração × Número de horas em um dia útil 
 Você pode corrigir erros de plano ao mesmo tempo clicando **Corrigir erros de plano**. 
 
 Como alternativa, você pode corrigir erros de planejamento individualmente clicando no ícone de aviso de cada tarefa.
+
+
 
 

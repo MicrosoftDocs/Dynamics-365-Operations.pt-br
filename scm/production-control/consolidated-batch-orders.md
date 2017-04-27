@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consolidated-batch-orders"></a>Ordens de lote consolidadas
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve o conceito das ordens de lotes consolidados.
 
 Um item a granel produzido é considerado um item principal, enquanto um item embalado é considerado um item secundário. A relação entre o item a granel e o item embalado é expressa em uma conversão do item a granel. Essa conversão do item a granel é definida no próprio item a granel.  
@@ -41,6 +44,8 @@ Uma ordem de lote consolidada pode conter qualquer combinação das seguintes or
 -   Várias ordens a granel e várias ordens embaladas
 -   Várias ordens a granel e uma única ordem embalada
 -   Somente ordens embaladas
+
+
 
 
 

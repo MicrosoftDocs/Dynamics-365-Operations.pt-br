@@ -1,6 +1,6 @@
 ---
-title: "Home page de contabilização de custo previsto"
-description: "Este tópico fornece uma lista de tópicos da ajuda e outros recursos disponíveis para a contabilidade de custo previsto."
+title: "Pagina inicial de contabilização de custos"
+description: "Este tópico oferece uma lista de tópicos de ajuda e outros recursos disponíveis para contabilização de custos."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-accounting-home-page"></a>Home page de contabilização de custo previsto
+# <a name="cost-accounting-home-page"></a>Pagina inicial de contabilização de custos
 
-Este tópico fornece uma lista de tópicos da ajuda e outros recursos disponíveis para a contabilidade de custo previsto.
+[!include[banner](../includes/banner.md)]
 
-O módulo contabilização de custo previsto permite que você faça o seguinte:
 
--   Defina dimensões de elemento de custo previsto, importar membros da dimensão do elemento de custo previsto, além mapear dimensões de elemento de custo previsto.
--   Defina dimensões de objeto de custo e membros de custo previsto de dimensão de objeto de importação.
+Este tópico oferece uma lista de tópicos de ajuda e outros recursos disponíveis para contabilização de custos.
+
+O módulo Contabilização de custos permite:
+
+-   Definir dimensões de elemento de custo, importar membros de dimensões de elemento de custo e mapear dimensões de elemento de custo.
+-   Definir dimensões de objeto de custo e importar membros de dimensões de objeto de custo.
 -   Definir ou importar dimensões estatísticas.
 -   Criar modelos de provedor de medidas estatísticas.
 -   Criar razões de contabilização de custos.
@@ -46,29 +49,31 @@ O módulo contabilização de custo previsto permite que você faça o seguinte:
 
 ## <a name="get-started"></a>Introdução
 
-Os laboratórios a trabalharem pela contabilização de custos fornecem previsto as etapas básicas para configurar o Microsoft Dynamics 365 para operações – contabilidade de custo estimado para executar a análise de custos reais. Também fornece uma série de procedimentos que podem ser realizadas na ordem que aparece.
+Estes laboratórios de contabilização de custos fornecem as etapas básicas para configurar o Microsoft Dynamics 365 for Operations – Contabilização de custos para realização da análise de custos reais. Também fornecem uma série de procedimentos que você pode concluir na ordem em que aparecem.
 
--   [Get iniciado a contabilização de custo previsto] (https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (o white paper e requer uma conta CustomerSource)
+-   [Introdução à contabilização de custos](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (white paper e requer uma conta CustomerSource)
 
-Para entender como é possível usar a contabilização de custo dos trabalho diário, você deve entender os conceitos.
+Para entender como usar a contabilização de custos em seu trabalho diário, você deve entender estes conceitos.
 
--   [Key terms in Cost accounting](terms-cost-accounting.md)
--   [Elementos de custo previsto e dimensões] de elementos de custo previsto (cost-elements.md)
--   [Map different cost element dimension members to a common set of cost element dimension members](map-cost-elements-dimension-members.md)
--   [Criar elementos de custo previsto] (http://ax.help.dynamics.com/en/wiki/create-cost-elements/) (guia de tarefa)
--   [Cost object dimensions](cost-objects.md)
--   [Criar objetos de custo previsto] (http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (guia de tarefas)
+-   [Principais termos em contabilização de custos](terms-cost-accounting.md)
+-   [Elementos de custo e dimensões de elemento de custo](cost-elements.md)
+-   [Mapear membros diferentes de dimensões do elemento de custo com um conjunto comum de membros de de dimensões do elemento de custo](map-cost-elements-dimension-members.md)
+-   [Criar elementos de custo](http://ax.help.dynamics.com/en/wiki/create-cost-elements/) (guia de tarefas)
+-   [Dimensões de objeto de custo](cost-objects.md)
+-   [Criar objetos de custos](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (guia de tarefas)
 
-## <a name="cost-control-mobile-workspace"></a>O espaço de trabalho do celular de controle de custo
-Com espaço de trabalho móvel controle de custos, gerentes de centro de custo podem consultar o desempenho de centro de custos a qualquer momento e em qualquer lugar.
+## <a name="cost-control-mobile-workspace"></a>Espaço de trabalho móvel de controle de custos
+Com o espaço de trabalho móvel de controle de custos, os gerentes de centro de custo podem ver o desempenho do centro de custo a qualquer momento e em qualquer lugar.
 
--   [Cost control mobile workspace](cost-controlling-mobile-workspace.md)
+-   [Espaço de trabalho móvel de controle de custos](cost-controlling-mobile-workspace.md)
 
-## <a name="cost-accounting-analysis-power-bi-content"></a>Conteúdo de O power BI de teste da contabilização de custo previsto
-O conteúdo de O power BI Microsoft de teste da contabilização de custo previsto é adequado para controladores de custo estimado ou alguém responsável para executar o controle de custo de uma organização. Inclui métricas principal, como custo, magnitude, e taxa de custo para custos reais, custos de orçamento por, e por custos flexíveis. Usa dados de transações de contabilização de custo estimado no Microsoft Dynamics 365 para operações e uma visão agregada de custo para a organização inteira em uma moeda de relatório. Os gerentes podem filtrar dados por objetos de custo estimado para executar o controle de custo das unidades organizacionais, mesmo que a organização pode ter várias entidades legais.
+## <a name="cost-accounting-analysis-power-bi-content"></a>Conteúdo do Power BI Análise de contabilização de custos
+O conteúdo do Microsoft Power BI Análise de contabilização de custos destina-se a controladores de custo ou qualquer pessoa responsável por realizar o controle de custos de uma organização. Ele inclui as principais métricas, como custo, magnitude e taxa de custo por custo real, custo de orçamento e custo de orçamento flexível. Usa dados de transação de contabilização de custos no Microsoft Dynamics 365 for Operations e fornece uma visão agregada dos custos de toda a organização em uma moeda de relatório. Os gerentes podem filtrar os dados por objetos de custo para realizar o controle de custos de suas unidades organizacionais, mesmo que a organização possa ter várias entidades legais.
 
--   [] Conteúdo (contabilidade de O power BI de teste da contabilização de custo estimado em /dynamics365/operations/dev-itpro/analytics/cost ARA - análise-conteúdo- bloquear)
--   [Segurança configurada para o conteúdo] de O power BI de teste da contabilização de custo previsto (/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+-   [Conteúdo do Power BI Análise de contabilização de custos](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [Configurar segurança para a análise de contabilidade de custos e conteúdo do Power BI](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+
+
 
 
 

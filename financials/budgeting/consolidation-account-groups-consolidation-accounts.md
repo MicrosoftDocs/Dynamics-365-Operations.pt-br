@@ -1,6 +1,6 @@
 ---
-title: "Grupos da consolidação e contas adicionais de consolidação"
-description: "Este tópico fornece informações sobre grupos da consolidação e contas adicionais de consolidação, e explica como são usadas no Microsoft Dynamics 365 para as operações."
+title: "Grupos de contas de consolidação e contas adicionais de consolidação"
+description: "Este tópico fornece informações sobre grupos de contas de consolidação e contas adicionais de consolidação e explica como eles são usados no Microsoft Dynamics 365 for Operations."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,27 +24,32 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Grupos da consolidação e contas adicionais de consolidação
+# <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>Grupos de contas de consolidação e contas adicionais de consolidação
 
-Este tópico fornece informações sobre grupos da consolidação e contas adicionais de consolidação, e explica como são usadas no Microsoft Dynamics 365 para as operações.
+[!include[banner](../includes/banner.md)]
+
+
+Este tópico fornece informações sobre grupos de contas de consolidação e contas adicionais de consolidação e explica como eles são usados no Microsoft Dynamics 365 for Operations.
 
 <a name="consolidation-account-groups"></a>Grupos de contas de consolidação
 ----------------------------
 
-Os grupos da consolidação permitem criar grupos de contas que você deseja utilizar para consolidar os dados. O mais geral, um grupo de contas de consolidação representa um plano de contas é mapeado obrigatório pelo governo ou contas a um grupo definido por sedes empresarial. Você pode encontrar grupos da consolidação ** de instalação ** em área ** consolidações ** de módulo. Quando você adicionar um novo grupo, insira um identificador exclusivo para o grupo de conta e um nome.
+Grupos de contas de consolidação permitem que você crie grupos das contas que deseja usar para consolidar dados. Frequentemente, um grupo de contas de consolidação representa um plano de contas exigido pelo governo ou mapeia contas para um grupo definido pela matriz da companhia. Você pode encontrar grupos de conta de consolidação na área **Configuração** do módulo **Consolidações**. Ao adicionar um novo grupo, você insere um identificador exclusivo para o grupo de conta e um nome.
 
 ## <a name="additional-consolidation-accounts"></a>Contas de consolidação adicionais
-Contas adicionais de consolidação permitem atribuir uma conta de um plano de contas existente para um grupo de contas da consolidação. Você poderá especificar um valor e um nome de conta da consolidação. 
+Contas de consolidação adicionais permitem atribuir uma conta de um plano de contas existente a um grupo de contas de consolidação. Você pode então especificar um valor e um nome de conta de consolidação. 
 
-Você pode localizar contas adicionais de consolidação ** de instalação ** em área ** consolidações ** de módulo. Quando você cria uma nova conta de consolidação, você deve especificar as seguintes informações:
+Você pode encontrar contas de consolidação adicionais na área **Configuração** do módulo **Consolidações**. Ao criar uma conta de consolidação, você deve especificar as seguintes informações:
 
--   ** A conta principal ** – este campo está uma pesquisa que mostra todas as contas principais com base no plano de contas que você selecionou na página. Quando você seleciona uma conta, o nome é automaticamente inserido com ** nome de conta principal ** no campo.
--   ** Grupo de contas de consolidação ** – use este campo para especificar o grupo para atribuir a conta. Se consolidar de duas formas diferentes, você deve adicionar a mesma conta para todos os quatro grupos da consolidação.
--   ** Conta de consolidação ** – insira o valor da conta da consolidação. Este valor não precisará ser uma conta de um plano de contas. Pode ser qualquer valor que você exigir.
--   ** Nome da consolidação ** – insira o nome de conta conforme deseja que seja exibo em consultas e relatórios.
--   ** O nível de SAT ** – este campo é usado para declarar demonstrativos de conta para as autoridades fiscais mexicanas. 
+-   **Conta principal** – Este campo é uma pesquisa que mostra todas as contas principais com base no plano de contas selecionado por você na página. Ao selecionar uma conta, o nome é automaticamente inserido no campo **Nome da conta principal**.
+-   **Grupo de contas de consolidação** – Use esse campo para especificar o grupo ao qual a conta será atribuída. Se houver consolidação de duas formas diferentes, você deve adicionar a mesma conta a todos os quatro grupos de contas de consolidação.
+-   **Conta de consolidação** – Insira o valor da conta de consolidação. Não é preciso que esse valor seja uma conta de um plano de contas. Pode ser qualquer valor que você solicitar.
+-   **Nome da conta de consolidação** – Insira o nome da conta da forma como ele deve ser exibido nas consultas e nos relatórios.
+-   **Nível SAT** – Este campo é usado para declarar demonstrativos de conta às autoridades fiscais mexicanas. 
 
-Quando terminar de criar os grupos da consolidação e contas adicionais de consolidação, você pode selecionar o grupo no processo de consolidação online.
+Após ter concluído a criação de seus grupos de contas de consolidação e contas de consolidação adicionais, você poderá selecionar o grupo no Processo de consolidação online.
+
+
 
 
 

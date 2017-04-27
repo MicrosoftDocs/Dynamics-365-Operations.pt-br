@@ -1,6 +1,6 @@
 ---
 title: Criar e gerenciar atributos.
-description: "Este artigo descreve atributos no Microsoft Dynamics 365 para as operações. Os atributos permitem descrever um produto e suas características em campos definidos pelo usuário."
+description: "Este artigo descreve atributos no Microsoft Dynamics 365 for Operations. Os atributos permitem descrever um produto e suas características em campos definidos pelo usuário."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-and-manage-attributes"></a>Criar e gerenciar atributos.
 
-Este artigo descreve atributos no Microsoft Dynamics 365 para as operações. Os atributos permitem descrever um produto e suas características em campos definidos pelo usuário.
+Este artigo descreve atributos no Microsoft Dynamics 365 for Operations. Os atributos permitem descrever um produto e suas características em campos definidos pelo usuário.
 
 Os atributos permitem descrever um produto e suas características em campos definidos pelo usuário. Por exemplo, você pode especificar o tamanho de memória do produto e a capacidade de disco rígido, e indicar se o produto é compatível com Energy Star. Os atributos podem ser associados a várias entidades de varejo, como categorias de produto e canais de varejo; os valores padrão podem ser definidos para eles. Os produtos herdam atributos e valores padrão para esses atributos quando eles são associados às categorias de produto ou aos canais de varejo. Os valores padrão podem ser substituídos no nível do produto individual, no nível de canal de varejo ou em um catálogo de varejo.
 
@@ -130,49 +130,49 @@ Garantia de Tubo de Projeção
 
 **12**
 
-\# de tubos de projeção
+\# de Tubos de Projeção
 
 **1**–**5**
 
 **3**
 
 ## <a name="attribute-type"></a>Tipo de atributo
-  [atributo-corrigir- cópia do![(]. /media/attributes-fixed-copy.png)](. Os atributos em /media/attributes-fixed-copy.png) baseados em tipos de atributo. Os tipos de atributos identificam o tipo de dados que podem ser inseridos para um atributo específico. Atualmente, o Microsoft Dynamics 365 operações oferece suporte para os seguintes tipos de atributos:
+  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) Atributos se baseiam em tipos de atributos. Os tipos de atributos identificam o tipo de dados que podem ser inseridos para um atributo específico. Atualmente, o Microsoft Dynamics 365 for Operations dá suporte aos seguintes tipos de atributos:
 
 -   **Moeda** – Este tipo de atributo dá suporte a valores de moeda. Ele pode ser limitado (isto é, ele pode dar suporte a um intervalo de valores), ou pode ser deixado aberto.
 -   **Data/Hora** – Este tipo de atributo dá suporte a valores de data e hora. Ele pode ser limitado (isto é, ele pode dar suporte a um intervalo de valores), ou pode ser deixado aberto.
 -   **Decimal** – Este tipo de atributo dá suporte a valores numéricos que incluem casas decimais. Ele também dá suporte a unidades de medida. Ele pode ser limitado (isto é, ele pode dar suporte a um intervalo de valores), ou pode ser deixado aberto.
 -   **Inteiro** – Este tipo de atributo dá suporte a valores numéricos. Ele também dá suporte a unidades de medida. Ele pode ser limitado (isto é, ele pode dar suporte a um intervalo de valores), ou pode ser deixado aberto.
 -   **Texto** – Este tipo de atributo dá suporte a valores de texto. Ele também dá suporte a um conjunto predefinido de valores possíveis (enumeração).
--   ** Booleano ** – este tipo de atributo suporta valores binários ** (true **/** falso **).
+-   **Booliano** – Este tipo de atributo dá suporte a valores binários (**true**/**false**).
 -   **Referência**.
 
 ## <a name="attribute"></a>Atributo
-  [![(createandmanageattribute-8]. /media/createandmanageattribute-8.png)](. /media/createandmanageattribute-8.png) Além do nome, nome amigável, a descrição, e o texto de ajuda, um ou mais dos tipos de informações pode ser capturado atributo para um:
+  [![createandmanageattribute-8](./media/createandmanageattribute-8.png)](./media/createandmanageattribute-8.png) Além de nome, nome amigável, descrição e texto da ajuda, um ou mais dos seguintes tipos de informações podem ser capturados de um atributo:
 
 -   Valor padrão
 -   Atribua metadados, como metadados que indicam se o atributo pode ser pesquisado, refinado ou classificado
 
 ## <a name="attribute-group"></a>Grupo de atributos
-  [![(createandmanageattribute-10]. /media/createandmanageattribute-10.png)](. /media/createandmanageattribute-10.png) Depois que os atributos são definidos, podem ser agrupados em grupos de atributos. Os grupos de atributos fornecem agrupamentos de atributos individuais, e podem ser atribuídos a categorias de varejo ou canais de varejo.
+  [![createandmanageattribute-10](./media/createandmanageattribute-10.png)](./media/createandmanageattribute-10.png) Após definidos, os atributos podem ser agrupados em grupos de atributos. Os grupos de atributos fornecem agrupamentos de atributos individuais, e podem ser atribuídos a categorias de varejo ou canais de varejo.
 
 ## <a name="assigning-attribute-groups-to-retail-categories"></a>Como atribuir grupos de atributos a categorias de varejo
-  [![(createandmanageattribute-12]. /media/createandmanageattribute-12.png)](. /media/createandmanageattribute-12.png) Um ou mais grupos de atributos pode ser associado aos nós de categoria na hierarquia da categoria de produtos de varejo. Quando produtos são categorizados, eles herdam os atributos que são incluídos nos grupos de atributos.
+  [![createandmanageattribute-12](./media/createandmanageattribute-12.png)](./media/createandmanageattribute-12.png) Um ou mais grupos de atributos podem ser associados a nós de categoria na hierarquia de categorias de produto de varejo. Quando produtos são categorizados, eles herdam os atributos que são incluídos nos grupos de atributos.
 
 ## <a name="assigning-attribute-groups-to-retail-stores"></a>Como atribuir grupos de atributos a lojas de varejo
-  [![(createandmanageattribute-13-1024x576]. /media/createandmanageattribute-13-1024x576.png)](. /media/createandmanageattribute-13-1024x576.png) Um ou mais grupos de atributos pode ser associado a uma ou mais lojas na hierarquia das lojas. Quando produtos são enriquecidos para lojas de varejo específicas, eles herdam os atributos que são incluídos nos grupos de atributos.
+  [![createandmanageattribute-13-1024x576](./media/createandmanageattribute-13-1024x576.png)](./media/createandmanageattribute-13-1024x576.png) Um ou mais grupos de atributos podem ser associados a uma ou mais lojas de varejo na hierarquia de lojas de varejo. Quando produtos são enriquecidos para lojas de varejo específicas, eles herdam os atributos que são incluídos nos grupos de atributos.
 
 ## <a name="overriding-attribute-values"></a>Substituição de valores de atributo
 ### <a name="at-the-product-level"></a>Em nível de produto
 
-  [![(createandmanageattribute-14-1024x576]. /media/createandmanageattribute-14-1024x576.png)](. /media/createandmanageattribute-14-1024x576.png) Os valores padrão de atributos pode ser substituído a nível de produtos (isto é, para produtos individuais.)
+  [![createandmanageattribute-14-1024x576](./media/createandmanageattribute-14-1024x576.png)](./media/createandmanageattribute-14-1024x576.png) Os valores padrão de atributos podem ser substituídos no nível de produto (isto é, para produtos individuais).
 
 ### <a name="in-a-retail-catalog"></a>Em um catálogo de varejo
 
-  [![(createandmanageattribute-2]. /media/createandmanageattribute-2.png)](. /media/createandmanageattribute-2.png) Os valores padrão de atributos pode substituir para produtos individuais nos catálogos específicos que são destinados para canais de varejo de específico.
+  [![createandmanageattribute-2](./media/createandmanageattribute-2.png)](./media/createandmanageattribute-2.png) Os valores padrão de atributos podem ser substituídos para produtos individuais em catálogos específicos que são destinados a canais de varejo específicos.
 
 ### <a name="at-the-retail-channel-level"></a>Em nível de canal de varejo
 
-  [![(createandmanageattribute-1]. /media/createandmanageattribute-1.jpg)](. /media/createandmanageattribute-1.jpg) Os valores padrão de atributos pode substituir para produtos individuais nos catálogos específicos que são destinados para canais de varejo de específico.
+  [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) Os valores padrão de atributos podem ser substituídos para produtos individuais em catálogos específicos que são destinados a canais de varejo específicos.
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Configurar uma etapa de aprovação a um fluxo de trabalho"
+title: "Configurar uma etapa de aprovação em um fluxo de trabalho"
 description: "Este tópico explica como configurar as propriedades de uma etapa de aprovação."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-approval-step-in-a-workflow"></a>Configurar uma etapa de aprovação a um fluxo de trabalho
+# <a name="configure-an-approval-step-in-a-workflow"></a>Configurar uma etapa de aprovação em um fluxo de trabalho
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico explica como configurar as propriedades de uma etapa de aprovação.
 
@@ -124,10 +127,10 @@ Siga estas etapas para especificar a quem a etapa de aprovação deve ser atribu
     </tr>
     <tr class="even">
     <td>Usuário</td>
-    <td>Microsoft Dynamics 365 de usuários específico de operações</td>
+    <td>Especificar usuários do Microsoft Dynamics 365 for Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li><strong>Usuários disponíveis</strong> A lista inclui qualquer dynamics 365 para usuários das operações. Selecione os usuários aos quais deseja atribuir a etapa e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais deseja atribuir a etapa e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -229,10 +232,10 @@ Se um usuário não executar nenhuma ação em um documento no tempo alocado, o 
     </tr>
     <tr class="odd">
     <td>Usuário</td>
-    <td>Dynamics específica 365 para usuários de operações</td>
+    <td>Especificar usuários do Dynamics 365 for Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li><strong>Usuários disponíveis</strong> A lista inclui qualquer dynamics 365 para usuários das operações. Selecione os usuários aos quais o documento será escalonado e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais o documento será escalonado e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -247,6 +250,8 @@ Se um usuário não executar nenhuma ação em um documento no tempo alocado, o 
 
 5.  Repita as etapas de 3 a 4 para cada usuário que deve ser adicionado ao caminho de escalonamento. Você pode alterar a ordem dos usuários.
 6.  Se os usuários no caminho de escalonamento não responderem no tempo alocado, o sistema executará uma ação no documento automaticamente. Para especificar a ação que o sistema executará, selecione a linha **Ação** e, na guia **Encerrar ação**, selecione uma ação.
+
+
 
 
 

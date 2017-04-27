@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opções avançadas de formatação no relatório financeiro
 
+[!include[banner](../includes/banner.md)]
+
+
 Quando você cria um relatório no relatório financeiro, funções adicionais de formatação são disponibilizadas, incluindo filtros de dimensões, restrições de colunas e unidades de relatório, linhas não imprimíveis, e instruções IF/THEN/ELSE nos cálculos. 
 
 A tabela a seguir explica as funções avançadas de formatação disponíveis quando você cria relatórios.
@@ -54,7 +57,7 @@ O posicionamento de célula avançado, ou *forçamento*, envolve o posicionament
 2.  Na guia **Configurações**, em **Prioridade de cálculo**, selecione **Executar primeiro o cálculo de coluna e depois de linha**.
 
 ## <a name="designing-the-report"></a>Criação do relatório
-Ao criar um relatório, você deve primeiro criar todas as linhas de detalhes para garantir que os valores sejam recebidos conforme esperado. Adicione as substituições de formato **NP** (sem impressão) para suprimir o detalhamento que inclui os valores finais. **Importante:** Quando você usa o código de formato **CAL** na definição de linha, não pode fazer uma busca detalhada em detalhes da transação. Forçar, fórmulas usando o seguinte formato: &lt;=&gt;a coluna de destino&lt;originário o código&gt;&lt;de column.row separa&gt; todos os posicionamentos adicionais para uma linha por uma vírgula e um espaço. Este é um exemplo: D=C.190, E=C.100
+Ao criar um relatório, você deve primeiro criar todas as linhas de detalhes para garantir que os valores sejam recebidos conforme esperado. Adicione as substituições de formato **NP** (sem impressão) para suprimir o detalhamento que inclui os valores finais. **Importante:** Quando você usa o código de formato **CAL** na definição de linha, não pode fazer uma busca detalhada em detalhes da transação. Para forçar, as fórmulas usam o seguinte formato: &lt;coluna de destino&gt;=&lt;coluna de origem&gt;.&lt;código da linha&gt; Separe todos os posicionamentos adicionais em uma linha com vírgula e espaço. Este é um exemplo: D=C.190, E=C.100
 
 ## <a name="examples-of-advanced-formatting-options"></a>Exemplos de opções de formatação avançada
 Os exemplos a seguir mostram como formatar a definição de linha e a definição de coluna para forçar um relatório básico de fluxo de caixa (exemplo 1) e um relatório estatístico (exemplo 2).
@@ -65,7 +68,7 @@ A tabela a seguir mostra um exemplo de uma definição de linha que usa o força
 
 | Código da Linha | Descrição                      | Código de Formato | Fórmulas/Linhas/Unidades Relacionadas | Substituição de Formato | Saldo Normal | Controle de Impressão | Restrição de Coluna | Modificador da Linha               | Link para Dimensões Financeiras |
 |----------|----------------------------------|-------------|-----------------------------|-----------------|----------------|---------------|--------------------|----------------------------|------------------------------|
-| 100      | Dinheiro no Início do Período (NP) |             |                             |                 |                |               |                    | Modificador de conta = \[/BB\] | +Segment2 = \[\]1100         |
+| 100      | Dinheiro no Início do Período (NP) |             |                             |                 |                |               |                    | Modificador da Conta = \[/BB\] | +Segment2 = \[1100\]         |
 | 130      | Dinheiro no Início do Período      | CAL         | C=C.100,F=D.100             |                 |                |               |                    |                            |                              |
 | 160      |                                  |             |                             |                 |                |               |                    |                            |                              |
 | 190      |                                  |             |                             |                 |                |               |                    |                            |                              |
@@ -95,8 +98,8 @@ A tabela a seguir mostra um exemplo de uma definição de linha que usa o força
 | 100      | Números de funcionários - EUA            | CAL         | 4                               | \#\#\#0.;($\#\#\#0.) |                |               |                    |              |                                            |
 | 115      | Número de funcionários - Internacional | CAL         | 11                              | \#\#\#0.;($\#\#\#0.) |                |               |                    |              |                                            |
 | 130      |                           |             |                                 |                      |                |               |                    |              |                                            |
-| 190      | Vendas dos EUA.                  |             |                                 |                      | C              |               |                    |              | +Segment2 = \[41,\*\]Segment3 \[00 =\]    |
-| 220      | Vendas internacionais       |             |                                 |                      | C              |               |                    |              | +Segment2 = \[41\*\], 01:99 do\]Segment3 = \[ |
+| 190      | Vendas dos EUA.                  |             |                                 |                      | C              |               |                    |              | +Segment2 = \[41\*\], Segment3 = \[00\]    |
+| 220      | Vendas internacionais       |             |                                 |                      | C              |               |                    |              | +Segment2 = \[41\*\], Segment3 = \[01:99\] |
 | 250      |                           |             |                                 |                      |                |               |                    |              |                                            |
 | 280      |                           |             |                                 |                      |                |               |                    |              |                                            |
 | 310      | Vendas dos EUA.                  | CAL         | D=C.190,E=C.100,F=(C.100/C.190) |                      |                |               |                    |              |                                            |
@@ -171,11 +174,11 @@ A célula **Restrição de Coluna** em uma definição de linha tem várias fina
 -   A célula pode especificar a coluna dos valores a serem classificados.
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Uso de uma fórmula de cálculo em uma definição linha
-Uma definição da fórmula de cálculo pode incluir ** ** **+,-,\*** ** **, e ** ** operadores/, além ** **. instruções IF/THEN/ELSE Além disso, um cálculo pode envolver células individuais e valores absolutos (números reais que são incluídos na fórmula). A fórmula pode conter até 1.024 caracteres. Os cálculos não podem ser aplicados em linhas contendo células do tipo **Link para Dimensões Financeiras** (FD). No entanto, você pode incluir cálculos em linhas consecutivas, suprimir a impressão dessas linhas e totalizar as linhas de cálculo.
+Uma fórmula de cálculo em uma definição de linha pode incluir os operadores **+**, **-**, **\*** e **/** e as instruções **IF/THEN/ELSE**. Além disso, um cálculo pode envolver células individuais e valores absolutos (números reais que são incluídos na fórmula). A fórmula pode conter até 1.024 caracteres. Os cálculos não podem ser aplicados em linhas contendo células do tipo **Link para Dimensões Financeiras** (FD). No entanto, você pode incluir cálculos em linhas consecutivas, suprimir a impressão dessas linhas e totalizar as linhas de cálculo.
 
 ### <a name="operators-in-a-calculation-formula"></a>Operadores em uma fórmula de cálculo
 
-Uma fórmula de cálculo usa operadores mais complexos do que uma fórmula de total de linha. Entretanto, você pode usar ** ** **\*e/** os operadores com os operadores adicionais para multiplicar (\*) e para dividir (/) os valores. Para usar um intervalo ou uma soma em uma fórmula de cálculo, você deve usar uma arroba (@) na frente do código de linha, a menos que esteja usando uma coluna na definição de linha. Por exemplo, para adicionar o valor da linha 100 ao valor da linha 330, é possível usar a fórmula do total da linha 100+330 ** ** ou ela **@100+@330**. **Observação:** Você deve usar uma arroba (@) antes de cada código de linha usado em uma fórmula de cálculo. Caso contrário, o número é lido como um valor absoluto. Por exemplo, a fórmula +330 ** **@100adiciona BRL 330 ao valor na linha 100. Quando você faz referência a uma coluna em uma fórmula de cálculo, o sinal de arroba (@) não é necessário.
+Uma fórmula de cálculo usa operadores mais complexos do que uma fórmula de total de linha. No entanto, você pode usar os operadores **\*** e **/** com os operadores adicionais para multiplicar (\*) e dividir (/) valores. Para usar um intervalo ou uma soma em uma fórmula de cálculo, você deve usar uma arroba (@) na frente do código de linha, a menos que esteja usando uma coluna na definição de linha. Por exemplo, para adicionar o valor da linha 100 ao valor da linha 330, você pode usar a fórmula do total de linha **100+330** ou a fórmula de cálculo **@100+@330**. **Observação:** Você deve usar uma arroba (@) antes de cada código de linha usado em uma fórmula de cálculo. Caso contrário, o número é lido como um valor absoluto. Por exemplo, a fórmula **@100+330** adiciona US$ 330 ao valor na linha 100. Quando você faz referência a uma coluna em uma fórmula de cálculo, o sinal de arroba (@) não é necessário.
 
 ### <a name="create-a-calculation-formula"></a>Criar uma fórmula de cálculo
 
@@ -185,15 +188,15 @@ Uma fórmula de cálculo usa operadores mais complexos do que uma fórmula de to
 
 ### <a name="example-of-a-calculation-formula-for-specific-rows"></a>Exemplo de uma fórmula de cálculo para linhas específicas
 
-Neste exemplo, a fórmula de cálculo **@100+@330** significa que o valor da linha 100 será adicionado ao valor na linha 330. A fórmula de total de linha ** ** 340+370 adiciona o valor na linha 340 ao valor na linha 370. (O valor da linha 370 é o valor da fórmula de cálculo.)
+Neste exemplo, a fórmula de cálculo **@100+@330** significa que o valor da linha 100 é adicionado ao valor da linha 330. A fórmula do total de linha **340+370** adiciona o valor da linha 340 ao valor da linha 370. (O valor da linha 370 é o valor da fórmula de cálculo.)
 
 | Código de Linha | Descrição                 | Código de Formato | Fórmulas/Linhas/Unidades Relacionadas | Controle de Impressão | Modificador da Linha | Link para Dimensões Financeiras |
 |----------|-----------------------------|-------------|----------------------------|---------------|--------------|------------------------------|
-| 340      | Dinheiro no Início do Período |             |                            | NP            | BB           | +conta= 1100:1110\]do\[       |
+| 340      | Dinheiro no Início do Período |             |                            | NP            | BB           | +Account=\[1100:1110\]       |
 | 370      | Dinheiro no Início do Ano   | CAL         | @100+@330                  | NP            |              |                              |
 | 400      | Dinheiro no Início do Período | TOT         | 340+370                    |               |              |                              |
 
-Quando a linha em uma definição de linha tem um código de formato **CAL**, e você insere um cálculo matemático na célula **Fórmulas/Linhas/Unidades Relacionadas**, também deve inserir a letra da coluna e da linha associadas no relatório. Por exemplo, insira ** A.120 ** para representar a coluna, A linha 120. Alternativamente, você pode usar o sinal de arroba (@) para indicar todas as colunas. Por exemplo, insira@120** ** para representar todas as colunas na linha 120. Qualquer cálculo matemático que não tenha uma letra de coluna ou um sinal de arroba (@) deve ser um número real. ** Observação: ** Se você usar um código de linha de rótulo para fazer referência a uma linha, você deve usar um período.) como separador entre a letra de coluna e um rótulo (por exemplo, A.GROSS **\_MARGIN/A.SALES **). Se você usar um sinal de arroba (@), um separador não é necessário (por exemplo,@GROSS** **\_MARGIN/@SALES).
+Quando a linha em uma definição de linha tem um código de formato **CAL**, e você insere um cálculo matemático na célula **Fórmulas/Linhas/Unidades Relacionadas**, também deve inserir a letra da coluna e da linha associadas no relatório. Por exemplo, insira **A.120** para representar a coluna A, linha 120. Outra alternativa é usar um arroba (@) para indicar todas as colunas. Por exemplo, insira **@120** para representar todas as colunas da linha 120. Qualquer cálculo matemático sem uma letra de coluna ou um arroba (@) é considerado como um número real. **Observação:** Se você usar um código da linha de rótulo para referenciar uma linha, use um ponto (.) como separador entre a letra da coluna e o rótulo (por exemplo, **A.GROSS\_MARGIN/A.SALES**). Se você usa um arroba (a), um separador não é necessário (por exemplo, **@GROSS\_MARGIN/@SALES**).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Exemplo de uma fórmula de cálculo para uma coluna específica
 
@@ -201,7 +204,7 @@ Neste exemplo, a fórmula de cálculo **E=C.340** significa que o cálculo na c�
 
 | Código de Linha | Descrição                 | Código de Formato | Fórmulas/Linhas/Unidades Relacionadas | Controle de Impressão | Modificador da Linha | Link para Dimensões Financeiras |
 |----------|-----------------------------|-------------|----------------------------|---------------|--------------|------------------------------|
-| 340      | Dinheiro no Início do Período |             |                            | NP            | BB           | +conta= 1100:1110\]do\[       |
+| 340      | Dinheiro no Início do Período |             |                            | NP            | BB           | +Account=\[1100:1110\]       |
 | 370      | Dinheiro no Início do Ano   | CAL         | E=C.340                    | NP            |              |                              |
 | 400      | Dinheiro no Início do Período | TOT         | 340+370                    |               |              |                              |
 
@@ -210,7 +213,7 @@ Neste exemplo, a fórmula de cálculo **E=C.340** significa que o cálculo na c�
 Quando você muda um número ou cálculo em uma coluna de uma linha específica, mas não deseja afetar outras colunas do relatório, pode especificar **CAL** (cálculo) na coluna **Código de Formato** da definição de linha.
 
 -   Para executar um cálculo em todas as colunas do relatório (**FD**), não insira uma atribuição de coluna.
--   Para restringir uma fórmula em colunas específicas, insira a letra de coluna, um sinal de igualdade ** ** (=), e a fórmula.
+-   Para restringir uma fórmula a colunas específicas, insira a letra da coluna, um sinal de igual (**=**) e a fórmula.
 -   Você pode especificar várias colunas. Quando você usa um arroba (@) com posicionamento específico de coluna, o arroba (@) está relacionado à linha.
 -   Você pode inserir várias fórmulas de coluna em uma linha. Separe as fórmulas usando vírgulas.
 
@@ -220,46 +223,48 @@ Quando você muda um número ou cálculo em uma coluna de uma linha específica,
 |------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | @130\*.75              | Para cada coluna, o valor da linha 130 é multiplicado por 0,75. O resultado é colocado na linha atual de cada coluna. |
 | B=@130\*.75            | O mesmo cálculo é executado apenas na coluna B.                                                                      |
-| A, B, C= (@100/@130\*.75) | A= (A.100/A.130) B=\*.75 (B.100/B.130) C=\*.75 (C.100/C.130\*.75)                                                           |
+| A,B,C=(@100/@130)\*.75 | A=(A.100/A.130)\*.75 B=(B.100/B.130)\*.75 C=(C.100/C.130)\*.75                                                           |
 
 ### <a name="ifthenelse-statements-in-a-row-definition"></a>Instruções IF/THEN/ELSE em uma definição de linha
 
-As instruções **IF/THEN/ELSE** podem ser adicionadas a qualquer cálculo válido e usadas com o formato **CAL**. Você insere fórmulas de cálculo **IF/THEN/ELSE** na célula na coluna **Fórmulas/Linhas/Unidades Relacionadas**. ** IF/THEN/ELSE ** fórmulas de cálculo usa o seguinte formato: IF &lt;a fórmula OUTRA verdadeira&gt; ou &lt;falsa&gt; de demonstrativo THEN &lt;fórmula&gt; ** fórmula &lt;OUTRA&gt;** parte do demonstrativo é opcional.
+As instruções **IF/THEN/ELSE** podem ser adicionadas a qualquer cálculo válido e usadas com o formato **CAL**. Você insere fórmulas de cálculo **IF/THEN/ELSE** na célula na coluna **Fórmulas/Linhas/Unidades Relacionadas**. As fórmulas de cálculo **IF/THEN/ELSE** usam o seguinte formato: If &lt;instrução true/false&gt; THEN &lt;fórmula&gt; ELSE &lt;fórmula&gt; A parte **ELSE &lt;fórmula&gt;** da instrução é opcional.
 
 #### <a name="if-statements"></a>Instruções IF
 
 A instrução que vem após a instrução **IF** pode ser qualquer instrução avaliada como verdadeira ou falsa. A instrução que vem após a instrução **IF** pode envolver uma avaliação simples, ou pode ser uma instrução complexa contendo várias expressões. Eis alguns exemplos:
 
--   ** IF A.2000&gt;** (avaliação simples)
--   ** IF A.2000&gt;AND, 000 A.20010&lt;** (instrução complexa)
--   ** IF A.20010000&gt;OR ((A.340/B.1200\*2) &lt;1200)** (Instrução complexa que contém vários expressões)
+-   **IF A.200&gt;0** (avaliação simples)
+-   **IF A.200&gt;0 AND A.200&lt;10,000** (instrução complexa)
+-   **IF A.200&gt;10000 OR ((A.340/B.1200)\*2 &lt;1200)** (Instrução complexa que contém várias expressões)
 
 O termo **Periods** em uma instrução **IF** representa o número de pontos do relatório. Este termo costuma ser usado para calcular uma média até a data. Por exemplo, quando você executa um relatório para o período 7 YTD, a instrução **B.150/Periods** significa que o valor da linha 150 da coluna B é dividido por 7.
 
 #### <a name="then-and-else-formulas"></a>Fórmulas THEN e ELSE
 
-As fórmulas **THEN** e **ELSE** podem ser qualquer cálculo válido, desde atribuições de valor muito simples até fórmulas complexas. Por exemplo, a instrução IF A.2000&gt;** THEN A=B.200 ** mídia, “se o valor na célula em A coluna A de A linha 200 é maior que 0 (zero), o campo valor de célula na coluna B da linha 200 na coluna A De A linha atual”. A instrução **IF/THEN** precedente coloca um valor em uma coluna da linha atual. No entanto, você também pode usar um arroba (@) em avaliações true/false ou a fórmula para representar todas as colunas. Estes são outros exemplos que são descritos nas seguintes seções:
+As fórmulas **THEN** e **ELSE** podem ser qualquer cálculo válido, desde atribuições de valor muito simples até fórmulas complexas. Por exemplo, a instrução **IF A.200&gt;0 THEN A=B.200** significa “Se o valor na célula na coluna A da linha 200 for maior que 0 (zero), coloque o valor da célula na coluna B da linha 200 na célula da coluna A da linha atual”. A instrução **IF/THEN** precedente coloca um valor em uma coluna da linha atual. No entanto, você também pode usar um arroba (@) em avaliações true/false ou a fórmula para representar todas as colunas. Estes são outros exemplos que são descritos nas seguintes seções:
 
--   ** IF A.200 &gt;0 ** THEN B.200: Se o valor na célula A.200 For positivo, o valor da célula B.200 Será colocado em cada coluna da linha atual.
--   ** IF A.200 &gt;THEN 0 ** @200: Se o valor na célula A.200 For positivo, o valor da cada coluna na linha 200 será colocado na coluna correspondente na linha atual.
--   ** IF @200&gt;0 THEN ** @200: Se o valor na linha 200 da coluna atual for positivo, o valor da linha 200 será colocado na mesma coluna na linha atual.
+-   **IF A.200 &gt;0 THEN B.200**: se o valor na célula A.200 for positivo, o valor da célula B.200 será colocado em cada coluna da linha atual.
+-   **IF A.200 &gt;0 THEN @200**: se o valor na célula A.200 for positivo, o valor de cada coluna da linha 200 será colocado na coluna correspondente na linha atual.
+-   **IF @200 &gt;0 THEN @200**: se o valor da linha 200 da coluna atual for positivo, o valor da linha 200 será colocado na mesma coluna na linha atual.
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Restrição de um cálculo a uma unidade de relatório em uma definição de linha
 
-Para restringir um cálculo a uma única unidade organizacional em uma hierarquia organizacional, de forma que o valor resultante não seja acumulado em uma unidade de alto nível, você pode usar **@Unit** o código ** fórmulas/linhas/unidades relacionadas ** na célula na definição de linha. **@Unit** o código é listado na coluna B da hierarquia organizacional, nome ** ** de unidade. Quando você usa **@Unit** o código, os valores não estão acumulados, mas o cálculo é avaliado em todos os níveis de hierarquia organizacional. **Observação:** Para usar esta função, uma árvore de relatório deve ser associada à definição de linha. A linha de cálculo pode se referir a uma linha de cálculo ou a uma linha de dados financeiros. O cálculo é registrado na célula **Fórmulas/Linhas/Unidades Relacionadas** da definição de linha e da restrição de tipo de dados financeiros. O cálculo deve usar um cálculo condicional que inicie com ** ** construção IF @Unit. For exemplo a seguir: IF @Unit(SALES) THEN @100 ELSE 0 este cálculo inclui o valor da linha 100 em cada coluna do relatório, mas somente na unidade de vendas. Se várias unidades são denominadas SALES, o valor aparece em cada uma dessas unidades. Além disso, a linha 100 pode ser uma linha de dados financeiros e pode ser definida como não impressa. Nesse caso, o valor será impedido de aparecer em todas as unidades na árvore. Você também pode limitar o valor a uma única coluna do relatório, como a coluna H, usando uma restrição de coluna para imprimir o valor somente nessa coluna do relatório. Você pode incluir combinações **OR** em uma instrução **IF**. For exemplo a seguir: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100 poderá especificar uma unidade em uma restrição de tipo em uma das seguintes maneiras:
+Para restringir um cálculo a uma única unidade de relatório em uma árvore de relatório, de forma que o valor resultante não seja acumulado para uma unidade de alto nível, você pode usar o código **@Unit** na célula **Fórmulas/Linhas/Unidades Relacionadas** na definição de linha. O código **@Unit** é listado na coluna B da árvore de relatório **Nome da Unidade**. Quando você usa o código **@Unit**, os valores não são acumulados, mas o cálculo é avaliado em todos os níveis da árvore de relatório. **Observação:** Para usar esta função, uma árvore de relatório deve ser associada à definição de linha. A linha de cálculo pode se referir a uma linha de cálculo ou a uma linha de dados financeiros. O cálculo é registrado na célula **Fórmulas/Linhas/Unidades Relacionadas** da definição de linha e da restrição de tipo de dados financeiros. O cálculo deve usar um cálculo condicional que inicie com uma construção **IF @Unit**. Este é um exemplo: IF @Unit(SALES) THEN @100 ELSE 0. Este cálculo inclui o valor da linha 100 em cada coluna do relatório, mas somente para a unidade SALES. Se várias unidades são denominadas SALES, o valor aparece em cada uma dessas unidades. Além disso, a linha 100 pode ser uma linha de dados financeiros e pode ser definida como não impressa. Nesse caso, o valor será impedido de aparecer em todas as unidades na árvore. Você também pode limitar o valor a uma única coluna do relatório, como a coluna H, usando uma restrição de coluna para imprimir o valor somente nessa coluna do relatório. Você pode incluir combinações **OR** em uma instrução **IF**. Este é um exemplo: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100. Você pode especificar uma unidade em uma restrição de tipo de cálculo de uma destas maneiras:
 
--   Inserir um nome de unidade para incluir unidades que coincidam. Por exemplo, IF ** @Unit(VENDAS) ** habilita o cálculo para qualquer unidade que é denominada SALES, mesmo se houver várias unidades SALES na hierarquia organizacional.
--   Insira a empresa e o nome da unidade para restringir o cálculo a unidades específicas em uma empresa específica. Por exemplo, IF ** entre @Unit(ACME: VENDAS **) para restringir o cálculo a unidades SALES na empresa ACME.
--   Insira o código completo da hierarquia da árvore de relatório para restringir o cálculo a uma unidade específica. Por exemplo, IF ** entre @Unit(SUMMARY^ACME^WEST COAST^SALES) **. **Observação:** Para localizar o código completo da hierarquia, clique com o botão direito do mouse na definição da árvore de relatório e selecione **Copiar Identificador da Unidade de Relatório (código H)**.
+-   Inserir um nome de unidade para incluir unidades que coincidam. Por exemplo, **IF @Unit(SALES)** permite que o cálculo para cada unidade seja chamado de SALES, mesmo que existam várias unidades SALES na árvore de relatório.
+-   Insira a empresa e o nome da unidade para restringir o cálculo a unidades específicas em uma empresa específica. Por exemplo, insira **IF @Unit(ACME:SALES**) para restringir o cálculo a unidades SALES na empresa ACME.
+-   Insira o código completo da hierarquia da árvore de relatório para restringir o cálculo a uma unidade específica. Por exemplo, insira **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**. **Observação:** Para localizar o código completo da hierarquia, clique com o botão direito do mouse na definição da árvore de relatório e selecione **Copiar Identificador da Unidade de Relatório (código H)**.
 
 #### <a name="restrict-a-calculation-to-a-reporting-unit"></a>Restrição de um cálculo para uma unidade de relatório
 
 1.  No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
 2.  Clique duas vezes na célula **Código de Formato** e selecione **CAL**.
-3.  ** Clique em fórmulas/linhas/unidades relacionadas ** a célula, e digite o cálculo condicional que inicie com ** ** construção IF @Unit.
+3.  Clique na célula **Fórmulas/Linhas/Unidades Relacionadas** e insira um cálculo condicional que inicie com uma construção **IF @Unit**.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>Instruções IF/THEN/ELSE em uma definição de coluna
 
-Uma instrução **IF/THEN/ELSE** permite que o cálculo dependa dos resultados de qualquer outra coluna. Você pode consultar outras colunas, mas não pode referenciar uma célula de relatório na instrução **IF**. Qualquer cálculo deve ser aplicado à coluna inteira. Por exemplo, a instrução IF B100&gt;** THEN B ELSE C\*1.25 ** mídia, “se o valor na coluna B for maior que 100, o campo valor da coluna B em CALC ** ** coluna. Se o valor na coluna B não for maior que 100, multiplique o valor da coluna C por 1,25. E coloque o resultado na coluna **CALC**”. Siga sempre a instrução **IF** com uma instrução lógica que possa ser avaliado como verdadeira ou falsa. As fórmulas que você usa para as instruções **THEN** e **ELSE** pode conter referências a qualquer número de colunas, e essas fórmulas podem ter o nível de complexidade desejado. **Observação:** Você não pode inserir os resultados de um cálculo em outra coluna. Os resultados devem estar na coluna que contém a fórmula.
+Uma instrução **IF/THEN/ELSE** permite que o cálculo dependa dos resultados de qualquer outra coluna. Você pode consultar outras colunas, mas não pode referenciar uma célula de relatório na instrução **IF**. Qualquer cálculo deve ser aplicado à coluna inteira. Por exemplo, a instrução **IF B&gt;100 THEN B ELSE C\*1.25** significa “Se o valor na coluna B for maior que 100, coloque o valor da coluna B na coluna **CALC**. Se o valor na coluna B não for maior que 100, multiplique o valor da coluna C por 1,25. E coloque o resultado na coluna **CALC**”. Siga sempre a instrução **IF** com uma instrução lógica que possa ser avaliado como verdadeira ou falsa. As fórmulas que você usa para as instruções **THEN** e **ELSE** pode conter referências a qualquer número de colunas, e essas fórmulas podem ter o nível de complexidade desejado. **Observação:** Você não pode inserir os resultados de um cálculo em outra coluna. Os resultados devem estar na coluna que contém a fórmula.
+
+
 
 

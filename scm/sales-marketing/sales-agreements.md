@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-agreements"></a>Contratos de venda
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre contratos de venda. Um contrato de venda é um contrato que confirma que o cliente pode comprar produtos em uma determinada quantidade ou valor por um período em troca de preços especiais e descontos.
 
 Um contrato de venda é um contrato que confirma que o cliente compra produtos ao longo do tempo em uma quantidade específica ou para um valor específico, em troca de preços promocionais especiais, descontos especiais, e outras condições especiais, como o pagamento e condições de entrega. Os preços e os descontos do contrato de venda substituem os preços e os descontos que declarados em qualquer contrato comercial que possa existir.  
@@ -36,7 +39,7 @@ O período de validade de um contrato de venda é definido pelos campos **Data d
 
 Você pode criar uma ordem de venda diretamente de um contrato de venda usando a ação **Liberar ordem**. Como alternativa, você pode selecionar um contrato de venda efetivo quando estiver fazendo pedidos (consulte a seção “Aplicando contratos de venda no processo de ordem” deste artigo).  
 
-** Observação: ** Em versões anteriores, contratos de venda foram indicados como ordens de venda amplas.
+**Observação:** Em versões anteriores, os contratos de venda são conhecidos como ordens de venda amplas.
 
 ## <a name="commitment-types"></a>Tipos de compromisso
 Cada linha de um contrato de venda expressa um compromisso de vender algo. Geralmente, há duas categorias de compromisso:
@@ -98,16 +101,18 @@ Se você criou (liberou) uma ordem de venda com um contrato de venda, determinad
 | Quantidade                                                          | Se você especificar uma quantidade que excede a quantidade especificada em uma linha de contrato de venda onde a caixa de seleção **Imposição de valor máx.** está marcada, uma caixa de mensagem solicitará que você salve a quantidade alterada. Clique em **Sim** para remover o link para a linha de contrato de venda e recalcular o preço. Clique em **Não** para remover o link para a linha de contrato de venda sem recalcular o preço.                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>Devolvendo um item encomendado de um contrato de venda
-Quando um cliente devolve um produto que são solicitados a um contrato de venda 365, Microsoft Dynamics para operações pode localizar e atualizar automaticamente o compromisso relacionadas de acordo de venda refletir a alteração na quantidade ou o valor. Ao criar uma ordem de devolução com base na ordem de venda original que é vinculada a um contrato de venda, você estabelece uma relação entre o compromisso do contrato de venda, a linha da ordem de venda e a fatura da ordem de devolução.  
+Quando um cliente devolve um produto que foi solicitado de um contrato de venda, o Microsoft Dynamics 365 for Operations pode localizar e atualizar automaticamente o compromisso do contrato de venda para refletir a mudança na quantidade ou no valor. Ao criar uma ordem de devolução com base na ordem de venda original que é vinculada a um contrato de venda, você estabelece uma relação entre o compromisso do contrato de venda, a linha da ordem de venda e a fatura da ordem de devolução.  
 
 Se não quiser deduzir a quantidade de item devolvido do compromisso do contrato de venda, você poderá usar o controle **Remover link** na **Ordem de devolução** para remover o link entre a ordem de devolução e o compromisso do contrato de venda. Se tiver que restabelecer o link posteriormente, clique **Criar link**.  
 
 **Observação:** Uma ordem de devolução pode ser vinculada somente a um contrato de venda. Se o cliente devolver vários produtos que foram solicitados de vários contratos de venda, você deverá criar uma nova ordem de devolução para cada produto e criar um link para o contrato de venda correspondente.
 
 ## <a name="automatic-search-for-sales-agreements"></a>Pesquisa automática por contratos de venda
-Em algumas situações nas ordens de venda são criados como indiretamente, quando você cria uma nota ou ordens de venda intercompanhia de crédito, você poderá controlar se o Microsoft Dynamics 365 para pesquisas operações automaticamente de contratos de venda aplicável.
+Em algumas situações em que as ordens de venda são criadas indiretamente, como quando você cria uma nota de crédito ou ordens de venda intercompanhia, é possível controlar se o Microsoft Dynamics 365 for Operations pesquisa automaticamente contratos de venda qualificados.
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>Dimensões financeiras nos contratos de venda
 Você pode copiar as dimensões financeiras para os cabeçalhos de documento ou para as linhas individuais de um contrato de venda. Você pode alterar as dimensões no cabeçalho do contrato ou em uma linha do contrato a qualquer momento. Nesse caso, as dimensões são copiadas automaticamente para o cabeçalho de liberação ou a linha de liberação das ordens de liberação.
+
+
 
 

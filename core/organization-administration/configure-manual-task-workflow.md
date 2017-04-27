@@ -1,5 +1,5 @@
 ---
-title: Configurar uma tarefa manual para um fluxo de trabalho
+title: Configurar uma tarefa manual em um fluxo de trabalho
 description: "Este tópico explica como configurar as propriedades de uma tarefa manual."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-task-in-a-workflow"></a>Configurar uma tarefa manual para um fluxo de trabalho
+# <a name="configure-a-manual-task-in-a-workflow"></a>Configurar uma tarefa manual em um fluxo de trabalho
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico explica como configurar as propriedades de uma tarefa manual.
 
@@ -124,10 +127,10 @@ Siga estas etapas para especificar a quem a tarefa manual deve ser atribuída.
     </tr>
     <tr class="even">
     <td>Usuário</td>
-    <td>Microsoft Dynamics 365 de usuários específico de operações</td>
+    <td>Especificar usuários do Microsoft Dynamics 365 for Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li><strong>Usuários disponíveis</strong> A lista inclui qualquer dynamics 365 para usuários das operações. Selecione os usuários aos quais deseja atribuir a tarefa e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais deseja atribuir a tarefa e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -146,7 +149,7 @@ Siga estas etapas para especificar a quem a tarefa manual deve ser atribuída.
     <li>Na lista <strong>Nome da fila</strong>, selecione <strong>Fila condicional</strong>.</li>
     </ol></li>
     </ol>
-    <strong>Observação:</strong> esta opção é usada apenas para alguns fluxos de trabalho, como gerenciamento case.</td>
+    <strong>Observação:</strong> esta opção é usada apenas para alguns fluxos de trabalho, como Gerenciamento de casos.</td>
     </tr>
     </tbody>
     </table>
@@ -214,10 +217,10 @@ Se um usuário não concluir a tarefa manual no tempo alocado, a tarefa vencerá
     </tr>
     <tr class="odd">
     <td>Usuário</td>
-    <td>Dynamics específica 365 para usuários de operações</td>
+    <td>Especificar usuários do Dynamics 365 for Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li><strong>Usuários disponíveis</strong> A lista inclui qualquer dynamics 365 para usuários das operações. Selecione os usuários aos quais escalonar a tarefa e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais escalonar a tarefa e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -234,7 +237,7 @@ Se um usuário não concluir a tarefa manual no tempo alocado, a tarefa vencerá
 6.  Se os usuários no caminho de escalonamento não concluírem a tarefa no tempo alocado, o sistema executará uma ação na tarefa. Para especificar a ação que o sistema executará, selecione a linha **Ação** e, na guia **Encerrar ação**, selecione uma ação.
 
 ## <a name="specify-when-the-system-automatically-acts-on-the-task"></a>Especificar quando o sistema deve executar automaticamente uma ação na tarefa
-Você pode configurar o sistema para executar uma ação na tarefa manual se condições específicas forem atendidas. Por exemplo, uma tarefa requer que um membro do departamento de relatórios de despesas revise os recibos que são enviados com um relatório de despesas. De acordo com a diretiva da empresa, essa tarefa deve ser feita se a quantidade total do relatório de despesas é mais de BRL 100. Nesse cenário, você pode configurar o sistema para marcar automaticamente a tarefa como concluir ** ** quando o valor total ser menor que 100. Siga estas etapas para especificar quando o sistema executará uma ação na tarefa manual.
+Você pode configurar o sistema para executar uma ação na tarefa manual se condições específicas forem atendidas. Por exemplo, uma tarefa requer que um membro do departamento de relatórios de despesas revise os recibos que são enviados com um relatório de despesas. De acordo com a política da empresa, essa tarefa deverá ser executada se o valor total do relatório de despesas for superior a US$ 100. Nesse cenário, você pode configurar o sistema para marcar automaticamente a tarefa como **Concluída** quando o valor total for inferior a 100. Siga estas etapas para especificar quando o sistema executará uma ação na tarefa manual.
 
 1.  No painel esquerdo, clique em **Ações automáticas**.
 2.  Marque a caixa de seleção **Habilitar ações automáticas**.
@@ -308,10 +311,10 @@ Você poderá enviar notificações às pessoas quando uma tarefa manual for del
     </tr>
     <tr class="odd">
     <td>Usuário</td>
-    <td>Dynamics específica 365 para usuários de operações</td>
+    <td>Especificar usuários do Dynamics 365 for Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li><strong>Usuários disponíveis</strong> A lista inclui qualquer dynamics 365 para usuários das operações. Selecione os usuários aos quais enviar notificações e mova- os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais enviar notificações e mova- os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -325,8 +328,8 @@ Siga estas etapas se a tarefa manual tiver que ser concluída em um horário esp
 1.  No painel esquerdo, clique em **Configurações avançadas**.
 2.  Marque a caixa de seleção **Definir um limite de tempo para o elemento de fluxo de trabalho**.
 3.  No campo **Duração**, especifique quando a tarefa deve ser concluída. Selecione uma das seguintes opções:
-    -   ** Horas ** – insira o número de horas em que a tarefa deve ser concluída. Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.
-    -   ** Dias ** – insira o número de dias em que a tarefa deve ser concluída. Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.
+    -   **Horas** – Insira o número de Horas em que a tarefa deve ser concluída. Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.
+    -   **Dias** – Insira o número de dias em que a tarefa deve ser concluída. Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.
     -   **Semanas** – Insira o número de semanas em que a tarefa deve ser concluída.
     -   **Meses** – Selecione o dia e a semana até quando a tarefa deve ser concluída. Por exemplo, você talvez queira que a tarefa seja concluída até a sexta-feira da terceira semana do mês.
     -   **Anos** – Selecione o dia, a semana e o mês até quando a tarefa deve ser concluída. Por exemplo, talvez você queira que a tarefa seja concluída até a sexta-feira da terceira semana de dezembro.
@@ -343,6 +346,8 @@ Quando a tarefa manual for atribuída a um usuário, este deverá executar uma a
 5.  Marque a caixa de seleção **Delegar** se o usuário puder atribuir a tarefa a outro usuário.
 6.  Marque a caixa de seleção **Reatribuir** se o usuário puder reatribuir a tarefa a outro usuário na fila de itens de trabalho.
 7.  Marque a caixa de seleção **Liberar** se o usuário puder reatribuir a tarefa na fila de itens de trabalho. Assim, outro usuário poderá concluir a tarefa.
+
+
 
 
 

@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="production-setup-requirements"></a>Requisitos da configuração da produção
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre os requisitos de instalação antes que você possa trabalhar com controle de produção. 
 
-Controle de produção é integrado a recursos em outros módulos. Esta interconectividade permite que você altere as ordens de produção e garante que sejam atualizadas automaticamente em todos os outros processos e cálculos relacionados no sistema. Os processos de configuração a seguir são listados na ordem em que devem ser concluídos.
+O controle de produção é integrado a recursos em outros módulos. Esta interconectividade permite que você altere as ordens de produção e garante que sejam atualizadas automaticamente em todos os outros processos e cálculos relacionados no sistema. Os processos de configuração a seguir são listados na ordem em que devem ser concluídos.
 
 ## <a name="required-baseline-setup-in-other-modules"></a>Configuração de linha de base necessária em outros módulos
 As informações em outros módulos devem ser configuradas antes que você possa trabalhar com Controle de produção. Esta configuração inclui as seguintes tarefas:
@@ -52,7 +55,7 @@ Antes de usar Controle de produção, abra Administração da organização e cr
 4.  **Recursos** – configure os recursos de operações para definir os recursos usados para completar o processo de produção e para planejar a capacidade.
 
 ## <a name="required-production-parameters-setup"></a>Configuração dos parâmetros de produção necessários
-** Parâmetros de controle de produção – os parâmetros básicos ** de instalação de produção para definir como o sistema trata e processar ordens de produção. Defina como as ordens de produção são criadas, estimadas, agendadas e consumidas. Você também pode selecionar que tipo de comentário você deseja e como a contabilização de custos é concluída.
+**Parâmetros de controle de produção** - configure parâmetros de produção básicos para definir como o sistema processa e lida com as ordens de produção. Defina como as ordens de produção são criadas, estimadas, agendadas e consumidas. Você também pode selecionar que tipo de comentário você deseja e como a contabilização de custos é concluída.
 
 ## <a name="required-journal-name-identification"></a>Identificação de nome do diário necessário
 **Nomes de diários de produção** – especifique os nomes de diário de produção usados para registrar e lançar transações.
@@ -76,6 +79,8 @@ Se você estiver trabalhando com roteiros, as operações deverão ser definidas
 1.  **Grupos de produção** - configure grupos de produção para estabelecer relações entre a ordem de produção e as contas contábeis. As contas contábeis são usadas para lançar ou para agrupar ordens para relatório.
 2.  **Pools de produção** - crie pools de produção para agrupar ordens de produção para processar ordens de produção urgentes ou para excluir e lançar grupos de ordens.
 3.  **Propriedades** – defina as propriedades para criar atributos especiais que podem ser atribuídos aos recursos para controlar a ordem das produções. Esses atributos estão conectados ao modelo de horário de trabalho.
+
+
 
 
 

@@ -118,7 +118,7 @@ eGiro é baseado no padrão internacional da UN EDIFACT CREMUL(mensagem de aviso
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Motivo para a depreciação       | Os formatos de pagamento não são mais usados.                                                     |
-| Substituída por outro recurso? | Não. O formato é substituído pela ISO 20022 formatos de importação do demonstrativo em versões futuras. |
+| Substituída por outro recurso? | Não. O formato será substituído pela ISO 20022 formatos de importação do demonstrativo nas versões futuras. |
 | Módulos afetados             | Contas a Receber                                                                       |
 
 ### <a name="external-inventory-for-poland"></a>Para o estoque externo Polônia
@@ -138,7 +138,7 @@ Uma ferramenta para configurar coleções de dados para contabilidade e relatór
 |                              |                                                                                          |
 |------------------------------|------------------------------------------------------------------------------------------|
 | Motivo para a depreciação       | Uso restrito                                                                            |
-| Substituída por outro recurso? | Não. A ferramenta será substituída eletrônicas por configurações de relatório em versões futuras. |
+| Substituída por outro recurso? | Não. A ferramenta será substituída por configurações de relatório eletrônico em versões futuras. |
 | Módulos afetados             | Contabilidade                                                                           |
 
 ### <a name="import-of-customer-payment-transactions-for-finland"></a>Importação de transações de pagamento de cliente para Finlândia
@@ -148,7 +148,7 @@ Você pode selecionar um formato de importação para pagamentos finlandeses que
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Motivo para a depreciação       | Os formatos de pagamento não são mais usados.                                                     |
-| Substituída por outro recurso? | Não. O formato é substituído pela ISO 20022 formatos de importação do demonstrativo em versões futuras. |
+| Substituída por outro recurso? | Não. O formato será substituído pela ISO 20022 formatos de importação do demonstrativo nas versões futuras. |
 | Módulos afetados             | Contas a Receber                                                                       |
 
 ### <a name="import-of-payment-transactions-into-a-general-ledger-journal-for-finland"></a>Importação de transações de pagamento em um diário-razão para Finlândia
@@ -158,7 +158,7 @@ Um formato que é específico para a Finlândia para importar transações de co
 |                              |                                                                                           |
 |------------------------------|-------------------------------------------------------------------------------------------|
 | Motivo para a depreciação       | Os formatos de pagamento não são mais usados.                                                     |
-| Substituída por outro recurso? | Não. O formato é substituído pela ISO 20022 formatos de importação do demonstrativo em versões futuras. |
+| Substituída por outro recurso? | Não. O formato será substituído pela ISO 20022 formatos de importação do demonstrativo nas versões futuras. |
 | Módulos afetados             | Contas a Receber                                                                       |
 
 ### <a name="integration-with-isabel-synchronized-cis-for-belgium"></a>Integração com Isabel sincronizada (CIS) para Bélgica
@@ -218,7 +218,7 @@ Os formatos Telehansa e TeleTeenus são usados para importação de pagamento ba
 |                              |                                                                                            |
 |------------------------------|--------------------------------------------------------------------------------------------|
 | Motivo para a depreciação       | Os formatos de pagamento não são mais usados.                                                    |
-| Substituída por outro recurso? | Não. Os formatos serão substituídos pela ISO 20022 formatos de importação do demonstrativo em versões futuras. |
+| Substituída por outro recurso? | Não. Os formatos são substituídos pelos formatos de importação de demonstrativo da ISO 20022 em versões futuras. |
 | Módulos afetados             | Contas a Receber                                                                        |
 
 ### <a name="performance-management-goal-workflow"></a>Fluxo de trabalho de meta de gerenciamento de desempenho
@@ -228,7 +228,7 @@ Gerenciamento de desempenho incluir o gerenciamento e a integração de meta com
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
 | Motivo para a depreciação       | Gerenciamento de desempenho é remodelado, e o número de páginas da meta foi reduzido para simplificar o processo.                 |
-| Substituída por outro recurso? | Não. Metas são visíveis a gerentes através do portal de auto-atendimento para gerente, e podem ser alterados e exibido pelo gerente. |
+| Substituída por outro recurso? | Não. Metas são visíveis a gerentes através do portal de autoatendimento para gerente e podem ser alteradas e exibidas pelo gerente. |
 | Módulos afetados             | Gerenciamento de capital humano                                                                                                 |
 
 ### <a name="postgirot-and-postgirot-utland-payment-formats-for-sweden"></a>Formatos de pagamento Postgirot e Utland Postgirot para Suécia
@@ -241,19 +241,19 @@ Formatos de pagamento Postgirot e Utland Postgirot para Suécia.
 | Substituída por outro recurso? | Sim, formato de pagamento de transferência de crédito ISO20022 para Suécia |
 | Módulos afetados             | Contas a Pagar                                        |
 
-### <a name="radio-frequency-identifier"></a>Identificador de radiofreqüência
+### <a name="radio-frequency-identifier"></a>Identificador de radiofrequência
 
 RFID (identificação de radiofrequência) é uma tecnologia de coleta de dados que usa etiquetas eletrônicas para armazenar dados de identificação e um leitor fora da linha de visão para capturar os dados de identificação.
 
 |                              |                                               |
 |------------------------------|-----------------------------------------------|
-| Motivo para a depreciação       | O uso de cliente e um conjunto limitado de recurso. |
+| Motivo para a depreciação       | Baixa utilização do cliente um conjunto de recursos limitado. |
 | Substituída por outro recurso? | Não                                            |
 | Módulos afetados             | Gerenciamento de estoque                          |
 
 ### <a name="report-about-state-invoices-numbering-for-latvia"></a>Relatório da numeração de notas fiscais de estado para Letônia
 
-A legislação de Letão fornece regras específicas sobre como as notas fiscais de vendas devem ser numeradas. O recurso permite atribuir números das notas fiscais de vendas, com base no usuário ou o grupo de usuários. Poderá gerar um relatório ou um arquivo XML. Você também pode imprimir um relatório sobre os números de nota fiscal que são usadas.
+A legislação de Letão fornece regras específicas sobre como as notas fiscais de vendas devem ser numeradas. A funcionalidade permite atribuir números das faturas de vendas específicos, com base no usuário ou no grupo de usuários. Você pode salvar e gerar um relatório ou um arquivo XML. Você também pode imprimir um relatório sobre os números de nota fiscal que são usadas.
 
 |                              |                                                                                                                          |
 |------------------------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -312,7 +312,7 @@ Um fluxo de trabalho para gerenciar a criação das metas de funcionários for u
 
 ### <a name="aif-axd-and-axbc-integrations"></a>Integrações de AIF, AxD e AxBC
 
-Na Estrutura de Integração de Aplicativos (AIF), os dados podem ser trocados com sistemas externos através da lógica comercial que é exposta como serviços. O Dynamics AX inclui os serviços baseados em documentos e o .NET Business Connector (AxBC.) Um documento é criado usando XML. O XML inclui informações do cabeçalho que são adicionadas para criar uma *mensagem* que pode ser transferida para dentro ou fora do Dynamics AX. Os exemplos de documentos incluem ordens de venda e ordens de compra. No entanto, quase todas as entidades, como um cliente, podem ser representadas por um documento. Serviços baseados em documentos usando ** classes &lt;de *** de *Document&gt;Axd.
+Na Estrutura de Integração de Aplicativos (AIF), os dados podem ser trocados com sistemas externos através da lógica comercial que é exposta como serviços. O Dynamics AX inclui os serviços baseados em documentos e o .NET Business Connector (AxBC.) Um documento é criado usando XML. O XML inclui informações do cabeçalho que são adicionadas para criar uma *mensagem* que pode ser transferida para dentro ou fora do Dynamics AX. Os exemplos de documentos incluem ordens de venda e ordens de compra. No entanto, quase todas as entidades, como um cliente, podem ser representadas por um documento. Os serviços baseados em documentos usam as classes **Axd &lt;*Documento*&gt;**.
 
 |                              |                                                                                                                                                                                                          |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -347,7 +347,7 @@ Demonstrativo de imposto federal para impostos ICMS
 |                              |                                                                                                                       |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | Motivo para a depreciação       | Esta declaração não é aplicável uma maior em alguns estados brasileiros.                                                     |
-| Substituída por outro recurso? | Não. Os usuários podem usar a ferramenta de relatório eletrônica genérica para configurar se necessário o demonstrativo em situações específicas. |
+| Substituída por outro recurso? | Não. Os usuários podem usar a ferramenta de relatório eletrônica genérica para configurar o demonstrativo, se necessário, em situações específicas. |
 | Módulos afetados             | Livros fiscais                                                                                                          |
 
 ### <a name="brazilian-scan-contingency-mode-for-nf-e"></a>Modo de contingência SCAN brasileiro para NF-e
@@ -631,7 +631,7 @@ Informações da Folha de Pagamento em Recursos Humanos
 |                              |                                                                                                                                                                                                                                                                                                                              |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Motivo para a depreciação       | Essa funcionalidade foi substituída pelas páginas de folha de pagamento e Recursos humanos central.                                                                                                                                                                                                                                              |
-| Substituída por outro recurso? | **Benefícios**, **Ganhos** e outras páginas relacionadas que estavam anteriormente na Folha de Pagamento dos EUA agora fazem parte da configuração de Recursos humanos central para ajudar a suportar o processamento da folha de pagamento externa. Essa funcionalidade é acessada usando ** recursos humanos 1 ** &gt; ** a folha de pagamento ** chave de configuração. |
+| Substituída por outro recurso? | **Benefícios**, **Ganhos** e outras páginas relacionadas que estavam anteriormente na Folha de Pagamento dos EUA agora fazem parte da configuração de Recursos humanos central para ajudar a suportar o processamento da folha de pagamento externa. Essa funcionalidade é acessada usando a chave de configuração **Recursos Humanos 1** &gt; **Folha de Pagamento**. |
 | Módulos afetados             | Recursos Humanos, Folha de Pagamento                                                                                                                                                                                                                                                                                                     |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>Bloqueio privado de diários de gerenciamento de estoque e depósito
@@ -698,12 +698,12 @@ Os serviços de sites permitem criar os sites que estendem seus processos comerc
 | Substituída por outro recurso? | Não                                                                                                                                       |
 | Módulos afetados             | Recrutamento de RH, gerenciamento dos casos, solicitação de cotação, registro de fornecedor                                                                  |
 
-### <a name="ssas-demand-forecasting-strategy"></a>Estratégia de previsão de SSAS de demanda
+### <a name="ssas-demand-forecasting-strategy"></a>Estratégia de previsão de demanda SSAS
 
 |                              |                                                                              |
 |------------------------------|------------------------------------------------------------------------------|
-| Motivo para a depreciação       | O design de recurso talvez não haja em novo arquitetura do nuvem. |
-| Substituída por outro recurso? | Máquina de Azure que sabe a estratégia de previsões de demanda                           |
+| Motivo para a depreciação       | O design de recurso não pode ser suportado na nova arquitetura de nuvem. |
+| Substituída por outro recurso? | Estratégia de previsão de demanda do Aprendizado de Máquina do Azure                           |
 | Módulos afetados             | Planejamento                                                                     |
 
 ### <a name="travel-requisitions"></a>Requisições de viagem

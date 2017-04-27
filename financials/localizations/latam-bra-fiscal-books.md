@@ -1,6 +1,6 @@
 ---
-title: Livros fiscais para O Brasil
-description: "Este tópico fornece informações sobre livros fiscais. Os livros fiscais é um dos três os projetos que compõem o sistema público de contabilidade de Empresas (). APRESSADO Podem ajudá-lo consolidar a livros fiscais e legais em arquivos eletrônicos para atender os requisitos do SPED."
+title: Livros fiscais para o Brasil
+description: "Este tópico fornece informações sobre livros fiscais. Os livros fiscais trata-se de um dos três os projetos que compõem o SPED (Public Digital Bookkeeping System). Eles podem ajudá-lo consolidar livros fiscais e estatutários em arquivos eletrônicos para atender aos requisitos do SPED."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,14 +25,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="fiscal-books-for-brazil"></a>Livros fiscais para O Brasil
+# <a name="fiscal-books-for-brazil"></a>Livros fiscais para o Brasil
 
-Este tópico fornece informações sobre livros fiscais. Os livros fiscais é um dos três os projetos que compõem o sistema público de contabilidade de Empresas (). APRESSADO Podem ajudá-lo consolidar a livros fiscais e legais em arquivos eletrônicos para atender os requisitos do SPED. 
+[!include[banner](../includes/banner.md)]
 
-O sistema público de contabilidade de Empresas, ou o Sistema Público de Escrituração Digital (SPED) fornecem informações detalhadas sobre as notas fiscais relacionadas serviços e os bens, os cálculos de lucros, operações logísticas, e transações financeiras. O SPED divide-se em três projetos: documentos eletrônicos, livros, livros fiscais e contábeis. Os livros fiscais podem ajudá-lo consolidar a livros fiscais e legais em arquivos eletrônicos para atender os requisitos do SPED. Eis os livros fiscais:
 
--   SPED fiscal – ICMS/IPI de impostos
-    -   Apuração de imposto ICMS, de, ICMS-ST e IPI
+Este tópico fornece informações sobre livros fiscais. Os livros fiscais trata-se de um dos três os projetos que compõem o SPED (Public Digital Bookkeeping System). Eles podem ajudá-lo consolidar livros fiscais e estatutários em arquivos eletrônicos para atender aos requisitos do SPED. 
+
+O SPED (Public Digital Bookkeeping System) ou Sistema Público de Escrituração Digital fornece informações detalhadas sobre os documentos fiscais que estão relacionados a serviços e mercadorias, cálculos de lucros, operações logísticas e transações financeiras. O SPED é dividido em três projetos: documentos eletrônicos, livros fiscais e livros contábeis. Eles podem ajudá-lo consolidar livros fiscais e estatutários em arquivos eletrônicos para atender aos requisitos do SPED. Aqui estão os livros fiscais:
+
+-   SPED fiscal – Impostos ICMS/IPI
+    -   Apuração de imposto ICMS, ICMS-ST e IPI
     -   Relatório de apuração de impostos
     -   Geração do arquivo de texto fiscal SPED
 -   SPED fiscal – Ajustes
@@ -40,16 +43,18 @@ O sistema público de contabilidade de Empresas, ou o Sistema Público de Escrit
     -   Processo de apuração de impostos
     -   Geração do arquivo de texto fiscal SPED
 -   Relatório de livros fiscais
--   Controle CIAP (– Credito ICMS do Ativo Permanente ou fixo, controle de crédito de SPED fiscal ativa)
+-   SPED – CIAP (Controle de Crédito de ICMS do Ativo Permanente ou controle de crédito de imposto de ativo fixo)
 
 ## <a name="additional-resources"></a>Recursos adicionais
--   [] Notas fiscais de IMPOSTO ICMS (latam-bra-icms-tax-fiscal-documents.md)            
--   [Notas fiscais de importação (latam-bra-import-fiscal-documents.md])
--   [A importação e verifica documentos XML de NF-e] e arquivos de DANFE (latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
--   [Fiscal documents](latam-bra-fiscal-documents-fiscal-document-framework.md)    
--   [] Espaços reservados de Texto de nota fiscal (latam-bra-fiscal-document-text-placeholders.md)
--   Notas fiscais complementares [] de compra (latam-bra-purchase-complementary-fiscal-documents.md)    
--   [Referenced fiscal documents](latam-bra-referenced-fiscal-documents.md)            
--   Notas fiscais complementares [] de venda (latam-bra-sales-complementary-fiscal-documents.md)
--   [Documento fiscal eletrônico] de serviço (latam-bra-service-electronic-fiscal-document.md)    
+-   [Notas fiscais de transferência ou apropriação de imposto ICMS](latam-bra-icms-tax-fiscal-documents.md)            
+-   [Notas fiscais de importação](latam-bra-import-fiscal-documents.md)
+-   [Importar e verificar os documentos XML da NF-e e os arquivos de DANFE](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+-   [Notas fiscais](latam-bra-fiscal-documents-fiscal-document-framework.md)    
+-   [Espaços reservados de texto de nota fiscal](latam-bra-fiscal-document-text-placeholders.md)
+-   [Notas fiscais de compra complementares](latam-bra-purchase-complementary-fiscal-documents.md)    
+-   [Notas fiscais referenciadas](latam-bra-referenced-fiscal-documents.md)            
+-   [Notas fiscais complementares de venda](latam-bra-sales-complementary-fiscal-documents.md)
+-   [Nota fiscal eletrônica para serviços](latam-bra-service-electronic-fiscal-document.md)    
+
+
 

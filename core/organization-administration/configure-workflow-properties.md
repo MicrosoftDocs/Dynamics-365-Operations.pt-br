@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-the-properties-of-a-workflow"></a>Configurar as propriedades de um fluxo de trabalho
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tópico explica como configurar as várias propriedades de um fluxo de trabalho.
 
 Para configurar as propriedades de um fluxo de trabalho, abra o fluxo de trabalho no editor. Clique na tela do editor de fluxo de trabalho e clique em **Propriedades** para abrir a página **Propriedades**. Em seguida, use os procedimentos a seguir para configurar as várias propriedades do fluxo de trabalho.
@@ -147,10 +150,10 @@ Quando um documento é enviado para processamento, é criada uma instância do f
     </tr>
     <tr class="odd">
     <td>Usuário</td>
-    <td>Dynamics específica 365 para usuários de operações</td>
+    <td>Especificar usuários do Dynamics 365 for Operations</td>
     <td><ol>
     <li>Na guia <strong>Destinatário</strong>, clique em <strong>Usuário</strong>.</li>
-    <li><strong>Usuário</strong> Na guia, <strong>Usuários disponíveis</strong> a lista inclui qualquer dynamics 365 para usuários das operações. Selecione os usuários aos quais enviar notificações e mova- os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>Na guia <strong>Usuário</strong>, a lista <strong>Usuários disponíveis</strong> inclui todos os usuários do Dynamics 365 for Operations. Selecione os usuários aos quais enviar notificações e mova- os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -165,6 +168,8 @@ Para inserir comentários sobre as alterações feitas no fluxo de trabalho, sig
 2.  No campo **Inserir comentários sobre o fluxo de trabalho**, insira seus comentários.
 3.  Revise seus comentários. Depois que você adicionar comentários, não poderá modificá-los.
 4.  Clique em **Adicionar** para adicionar comentários à área **Histórico de comentários**.
+
+
 
 
 

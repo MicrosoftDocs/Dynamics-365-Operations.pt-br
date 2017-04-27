@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-card-setup-authorization-and-capture"></a>Configuração, autorização, e captura de cartão de crédito
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo oferece uma visão geral de autorização de cartão de crédito no Microsoft Dynamics AX. Ele inclui informações sobre como configurar o serviço de pagamento, adicionar um cartão de crédito a uma ordem de venda e anular uma autorização.
 
 <a name="setting-up-the-credit-card-payment-service"></a>Configuração do serviço de pagamento com cartão de crédito
@@ -55,7 +58,7 @@ Você pode solicitar o número de verificação do cartão, às vezes chamado de
 
 ### <a name="address-verification"></a>Verificação de endereço
 
-As informações de verificação de endereço são sempre enviadas ao provedor de pagamento. Você pode decidir como informações são necessárias para que uma transação seja aceita. Verifique verifique com seu provedor aceita para determinar se essas informações. Estas são as opções de verificação de endereço:
+As informações de verificação de endereço são sempre enviadas ao provedor de pagamento. Você pode decidir quais informações são necessárias para que uma transação seja aceita. Verifique com seu fornecedor para determinar se ele aceita essas informações. Estas são as opções de verificação de endereço:
 -   **Sempre aceitar transação** – aceite a transação, independentemente dos resultados de verificação de endereço.
 -   **Titular da conta** – compare o nome do titular do cartão na transação com as informações da empresa de cartão de crédito.
 -   **Endereço de cobrança** – compare o nome e o endereço de cobrança do titular do cartão para a transação com as informações da empresa de cartão de crédito.
@@ -68,10 +71,12 @@ Para cada tipo de cartão de crédito compatível, você pode especificar o nív
 -   **Nível 3** – transfira todas as informações de Nível 2, além das informações de linha da ordem.
 
 ## <a name="partial-payments"></a>Pagamentos parciais
-Se você enviar parte de uma ordem, o valor da ordem parcial será capturado, e a autorização correspondente ao valor da ordem total, será fechada. Uma nova permissão é enviada em para o valor restante de ordem que não foi enviado.
+Se você enviar parte de uma ordem, o valor da ordem parcial será capturado, e a autorização correspondente ao valor da ordem total, será fechada. Uma nova autorização será enviada para o valor restante da ordem que ainda não foi remetida.
 
 ## <a name="voiding-an-authorization"></a>Anulando uma autorização 
 Para anular uma autorização de cartão de crédito, você pode alterar o método de pagamento para outro método que não tenha um tipo de Cartão de crédito.
+
+
 
 
 

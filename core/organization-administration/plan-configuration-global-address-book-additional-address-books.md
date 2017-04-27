@@ -1,6 +1,6 @@
 ---
-title: "Configurar catálogos de endereços globais"
-description: "Este item e descreve as considerações decisões que faça durante o processo de planejamento, antes configurado e configurar o catálogo de endereços global e os catálogos de endereços adicionais no Microsoft Dynamics 365 para as operações. Algumas das alterações exigem que você confirme as alterações que foram feitas para outras áreas do produto, como a hierarquia organizacional."
+title: "Configurar catálogo de endereços global"
+description: "Este artigo descreve as considerações e as alterações que você deve fazer durante o processo de planejamento, antes de definir e configurar o catálogo de endereços global e todos os catálogos de endereços adicionais no Microsoft Dynamics 365 for Operations. Algumas das alterações exigem que você confirme as alterações que foram feitas para outras áreas do produto, como a hierarquia organizacional."
 author: kfend
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-global-address-books"></a>Configurar catálogos de endereços globais
+# <a name="configure-global-address-books"></a>Configurar catálogo de endereços global
 
-Este item e descreve as considerações decisões que faça durante o processo de planejamento, antes configurado e configurar o catálogo de endereços global e os catálogos de endereços adicionais no Microsoft Dynamics 365 para as operações. Algumas das alterações exigem que você confirme as alterações que foram feitas para outras áreas do produto, como a hierarquia organizacional.
+[!include[banner](../includes/banner.md)]
+
+
+Este artigo descreve as considerações e as alterações que você deve fazer durante o processo de planejamento, antes de definir e configurar o catálogo de endereços global e todos os catálogos de endereços adicionais no Microsoft Dynamics 365 for Operations. Algumas das alterações exigem que você confirme as alterações que foram feitas para outras áreas do produto, como a hierarquia organizacional.
 
 <a name="global-address-book"></a>Catálogo de endereços global
 -------------------
@@ -61,6 +64,8 @@ Após criar o catálogo de endereços global, você pode criar catálogos de end
 Você pode criar catálogos de endereços a qualquer momento, e também poderá definir parâmetros de segurança para eles sempre que desejar. Não é necessário definir privilégios de segurança para um catálogo de endereços, mas se não o fizer, todos os funcionários da organização poderão visualizar todos os registros de participante no catálogo de endereços. Você pode definir privilégios de segurança para registros de participante no catálogo de endereços. Os privilégios de segurança são baseados em equipes. Esta abordagem garante que somente os trabalhadores de uma equipe com acesso a um catálogo de endereços podem visualizar os registros de participante nesse catálogo de endereços. Você deve selecionar as equipes que têm acesso a cada catálogo de endereços. Para cada catálogo de endereços, você pode definir os privilégios de segurança que permitem ou negam o acesso a equipes específicas. Se você conceder a uma equipe privilégios a um catálogo de endereços, todos os membros da equipe poderão visualizar os registros do catálogo de endereços. Se você não conceder a uma equipe acesso a um catálogo de endereços, os membros dessa equipe não poderão visualizar o catálogo de endereços nem seu conteúdo. **Decisão:**
 
 -   Quais equipes devem ter acesso a todos os novos catálogo de endereços que serão criados?
+
+
 
 
 

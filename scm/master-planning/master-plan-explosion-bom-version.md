@@ -1,6 +1,6 @@
 ---
-title: "Explosão de uma versão de BOM"
-description: "Este artigo explica um cenário de planejamento mestre que envolve o detalhamento de uma versão de (BOM) de lista de materiais."
+title: "Detalhamento de uma versão da BOM"
+description: "Este artigo explica um cenário de planejamento mestre que envolve detalhamento de uma versão da lista de materiais (BOM)."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="explosion-of-a-bom-version"></a>Explosão de uma versão de BOM
+# <a name="explosion-of-a-bom-version"></a>Detalhamento de uma versão da BOM
 
-Este artigo explica um cenário de planejamento mestre que envolve o detalhamento de uma versão de (BOM) de lista de materiais.
+[!include[banner](../includes/banner.md)]
+
+
+Este artigo explica um cenário de planejamento mestre que envolve detalhamento de uma versão da lista de materiais (BOM).
 
 Um detalhamento da demanda de uma versão da lista de materiais (BOM) cria uma demanda para cada item de linha da BOM em um site específico e, possivelmente, em um depósito específico. Em uma BOM específica do site, um determinado depósito pode ser definido para cada linha de BOM. Além disso, para cada linha de BOM, as configurações de dimensão do item determinam se o depósito é necessário. A demanda resultante para cada item de linha de BOM se torna, então, o ponto de partida para detalhamento de demanda adicional. Este cenário de planejamento mestre envolve estas condições:
 
@@ -41,8 +44,10 @@ A ilustração a seguir mostra como ocorre o processo de detalhamento da demanda
 <a name="see-also"></a>Consulte também
 --------
 
-[Planejamento mestre - como a BOM é determinada] (master-plan-bom-version-determined.md)
+[Planejamento mestre – como a versão da BOM é determinada](master-plan-bom-version-determined.md)
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[Planejamento mestre e funcionalidade multissite](master-plan-multisite-functionality.md)
+
+
 
 

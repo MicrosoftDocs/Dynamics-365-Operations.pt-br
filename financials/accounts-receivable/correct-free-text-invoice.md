@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="correct-a-free-text-invoice"></a>Corrigir uma fatura de texto livre
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo explica como corrigir uma nota fiscal de texto livre que foi lançada e emiti-la novamente como uma nota fiscal corrigida.
 
-Para corrigir um texto livre fature que já foi lançado, abra a nota fiscal de texto livre. ** Fatura ** na página, selecione ** cancelar **, e marque ** corrija a fatura **. Selecione um código de motivo, adicione comentários, e selecione a data para a nova fatura corrigida. Você pode modificar a fatura corrigida e lançá-la. 
+Para corrigir uma fatura de texto livre que já foi lançada, abra a fatura de texto livre lançada. Na página **Fatura**, selecione **Cancelamento** e, em seguida, selecione **Corrigir fatura**. Selecione um código de motivo, adicione comentários, e selecione a data para a nova fatura corrigida. Você pode modificar a fatura corrigida e lançá-la. 
 
 Ao lançar a fatura corrigida, uma fatura de cancelamento será criada para um valor de crédito que é igual ao valor da fatura original. Sendo assim, o saldo combinado da fatura original e da fatura de cancelamento é igual a 0 (zero). A fatura de cancelamento é liquidada com relação à fatura original. 
 
@@ -43,9 +46,11 @@ Depois de lançar a fatura corrigida, você terá três faturas:
 Você pode identificar faturas de correção e cancelamento de duas maneiras:
 
 -   A página **Todas as faturas de texto livre** inclui uma coluna de **Correção**, onde você pode ver quais faturas são faturas de cancelamento e faturas corrigidas.
--   O cabeçalho de nota fiscal de texto livre mostra o status da fatura ** cancelando “número da\]\[” ** ou ** nota fiscal corrigida “número da\]\[” **.
+-   O cabeçalho da fatura de texto livre exibe um status de **Fatura de cancelamento '\[número da fatura\]'** ou **Fatura corrigida '\[número da fatura\]'**.
 
 > [!NOTE]
-> Esse recurso estará disponível se ** correção de nota fiscal de texto livre ** a chave de configuração estiver selecionada.
+> Este recurso está disponível somente se a chave de configuração **Correção de fatura de texto livre** estiver selecionada.
+
+
 
 

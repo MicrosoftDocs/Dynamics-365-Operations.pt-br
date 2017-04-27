@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="advanced-bank-reconciliation-overview"></a>Visão geral da reconciliação bancária avançada
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve o fluxo do processo de reconciliação avançado do banco. O recurso avançado de reconciliação bancária permite que você importe os extratos bancários que podem ser reconciliados automaticamente nas transações bancárias.
 
 O recurso de reconciliação bancária avançada permite que você importe extratos bancários. O extrato bancário importado pode ser reconciliado automaticamente nas transações bancárias. Veja as etapas do fluxo de reconciliação bancária avançada.
@@ -38,13 +41,15 @@ O recurso de reconciliação bancária avançada permite que você importe extra
     -   A funcionalidade pode se estendida para qualquer formato.
 
 2.  Configure uma sequência numérica para a reconciliação bancária avançada e defina as regras de correspondência da reconciliação bancária.
-    -   Uma regra de correspondência da reconciliação é um conjunto de critérios usados para filtrar linhas de extrato bancário e Microsoft Dynamics 365 para operações deposita linhas de transação durante o processo de reconciliação. Dependendo prática comercial, você pode configurar mais de uma regra de correspondência e automatizar otimizar o processo de reconciliação.
+    -   Uma regra de correspondência de reconciliação é um conjunto de critérios usados para filtrar as linhas do extrato bancário e as linhas de transação bancária no Microsoft Dynamics 365 for Operations durante o processo de reconciliação. Dependendo da prática empresarial, você pode configurar mais de uma regra de correspondência para automatizar e otimizar o processo de reconciliação.
 
-3.  Reconciliar extratos bancários com dynamics 365 para transações bancárias de operações.
+3.  Reconciliar extratos bancários com as transações do Dynamics 365 for Operations.
     -   Executar a correspondência e a criação automática de diários de reconciliação.
-    -   Exiba os extratos bancários e o dynamics 365 para as transações bancárias de operações lado-a-lado.
-    -   Lançar automaticamente o dynamics de 365 transações bancárias operações se aparece no extrato bancário e não aparece em dynamics 365 para as operações.
+    -   Visualizar extratos bancários e as transações bancárias do Dynamics 365 for Operations lado a lado.
+    -   Lance automaticamente as transações bancárias do Dynamics 365 for Operations se forem exibidas no extrato bancário, mas não forem exibidas no Dynamics 365 for Operations.
     -   Gere um demonstrativo da reconciliação.
+
+
 
 
 

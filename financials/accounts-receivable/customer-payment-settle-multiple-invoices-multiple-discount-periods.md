@@ -1,5 +1,5 @@
 ---
-title: "Use um pagamento de cliente para liquidar várias notas fiscais que medem vários períodos de desconto"
+title: "Usar um pagamento de cliente para liquidar várias faturas que se estendem por vários períodos de desconto"
 description: "Este artigo mostra como várias faturas são pagas quando cada fatura se qualifica para um desconto à vista. Os cenários neste artigo realçam como os descontos à vista efetuados podem variar, dependendo de quando o pagamento é efetuado."
 author: twheeloc
 manager: AnnBe
@@ -26,18 +26,21 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Use um pagamento de cliente para liquidar várias notas fiscais que medem vários períodos de desconto
+# <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Usar um pagamento de cliente para liquidar várias faturas que se estendem por vários períodos de desconto
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo mostra como várias faturas são pagas quando cada fatura se qualifica para um desconto à vista. Os cenários neste artigo realçam como os descontos à vista efetuados podem variar, dependendo de quando o pagamento é efetuado.
 
-Fabrikam vende mercadorias para o cliente 4032. Fabrikam oferece um desconto à vista de 1 por cento se a fatura é pago em 14 dias. A Fabrikam também oferece descontos à vista para pagamentos parciais. Os parâmetros de settement estão localizados ** parâmetros de contas a receber ** na página.
+A Fabrikam vende produtos para o cliente 4032. Oferece um desconto à vista de 1 por cento se a fatura for paga em 14 dias. A Fabrikam também oferece descontos à vista para pagamentos parciais. Os parâmetros de pagamento estão localizados na página **Parâmetros de contas a pagar**.
 
 ## <a name="invoices"></a>Faturas
 O cliente 4032 possui três faturas que totalizam 3.000,00:
 
--   Fature FTI-10040, de 1,000.00, foi inserido o 15 de maio. Esta nota fiscal foi qualificado para um desconto à vista de 1 por cento se pago em 14 dias.
--   Fature FTI-10041, de 1,000.00, foi inserido o 25 de junho. Esta nota fiscal foi qualificado para um desconto à vista de 1 por cento se pago em 14 dias.
--   Fature FTI-10042, de 1,000.00, foi inserido o 25 de junho. Esta nota fiscal foi qualificado para um desconto à vista de 2 por cento se pago em cinco dias e um desconto de 1 por cento se pago em 14 dias.
+-   A fatura FTI-10040, de 1.000,00, foi inserida em 15 de maio. Essa fatura estará qualificada para um desconto à vista de 1% se for paga em 14 dias.
+-   A fatura FTI-10041, de 1.000,00, foi inserida em 25 de junho. Essa fatura estará qualificada para um desconto à vista de 1% se for paga em 14 dias.
+-   A fatura FTI-10042, de 1.000,00, foi inserida em 25 de junho. Essa fatura estará qualificada para um desconto à vista de 2% se for paga em cinco dias e um desconto de 1% se for paga em 14 dias.
 
 ## <a name="settle-all-invoices-on-june-29"></a>Liquidar todas as faturas em 29 de junho
 Se Arnie criasse um diário de pagamento para liquidar totalmente essas faturas em 29 de junho, o pagamento seria de 2.970,00. O total de todos os valores de desconto seria de 30,00. Arnie cria um pagamento para o cliente 4032 e então abre a página **Liquidar transações**. Na página **Liquidar transações** Arnie marca as três linhas da fatura para o pagamento:
@@ -76,7 +79,7 @@ O cliente 4032 pode pagar um valor parcial, como a metade de cada fatura. Arnie 
 | Selecionado                 | Normal            | FTI-10041 | 4032    | 25/6/2015 | 25/7/2015 | 10041   | 1.000,00                             |                                       | USD      | 495.00           |
 | Selecionado e destacado | Normal            | FTI-10042 | 4032    | 25/6/2015 | 25/7/2015 | 10042   | 1.000,00                             |                                       | USD      | 490,00           |
 
-Arnie possível inserir manualmente o valor de pagamento 1,485.00 antes que abre ** transações de acordo ** a página. Se Arnie inserir manualmente o valor de pagamento e marca em três todas as transações, mas nem ajusta o valor em ** acordo ** o valor de cada transação, recebe a próxima mensagem quando ele fecha a página:
+Arnie também pode inserir manualmente o valor do pagamento de 1.485,00 antes de abrir a página **Transações de liquidação**. Se Arnie inserir manualmente o valor do pagamento e, em seguida, marcar todas as três transações, mas não ajustar o valor no campo **Valor a ser liquidado** para cada transação, ele receberá a seguinte mensagem quando fechar a página:
 
 > O valor total de transações marcadas é diferente do valor do diário. Alterar o valor do diário?
 
@@ -95,6 +98,8 @@ Alberto exibe as informações na página **Transações do cliente**.
 | FTI-10042  | Fatura          | 25/6/2015 | 10042   | 1.000,00                             |                                       | 505,10   | USD      |
 | ARP-10040  | Pagamento          | 29/6/2015 |         |                                      | 1.485,00                              | 0,00     | USD      |
 | DISC-10040 | Desconto à vista    | 29/6/2015 |         |                                      | 9.90                                  | 0,00     | USD      |
+
+
 
 
 

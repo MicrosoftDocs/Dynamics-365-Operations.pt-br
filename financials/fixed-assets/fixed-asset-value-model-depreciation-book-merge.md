@@ -1,6 +1,6 @@
 ---
 title: "Ativos fixo, incluindo modelo de valor e registros de depreciações"
-description: "Em versões anteriores, houve dois conceitos de ativos fixos - métodos e registros de depreciação. No Microsoft Dynamics 365 para a versão 1611 de operações, a funcionalidade de método de depreciação e a funcionalidade do registro de depreciações foram mescladas em um único conceito que é conhecido como um registro."
+description: "Em versões anteriores, havia dois conceitos de avaliação para ativos fixos: modelos de valor e registros de depreciações. No Microsoft Dynamics 365 for Operations versão 1611, as funcionalidades de método de depreciação e de registro de depreciação foram mescladas em um único conceito que é conhecido como um registro."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>Ativos fixo, incluindo modelo de valor e registros de depreciações
 
-Em versões anteriores, houve dois conceitos de ativos fixos - métodos e registros de depreciação. No Microsoft Dynamics 365 para a versão 1611 de operações, a funcionalidade de método de depreciação e a funcionalidade do registro de depreciações foram mescladas em um único conceito que é conhecido como um registro.
+[!include[banner](../includes/banner.md)]
 
-A funcionalidade de novo livro baseia-se em uma funcionalidade anterior de método de depreciação também inclui mas toda a funcionalidade que foi fornecida anteriormente somente em registros de depreciações. [o![como mesclar o método de depreciação e a funcionalidade do registro de depreciações (]. /media/fixed-assets.png)](. /media/fixed-assets.png) Mesclagem devido a essa, agora você pode usar um conjunto único de páginas, de, consultas e de relatórios para o toda fixo processos de ativos. As tabelas deste tópico descrevem funcionalidades anterior de registros de depreciações, valor e modelos com a nova funcionalidade para registros.
+
+Em versões anteriores, havia dois conceitos de avaliação para ativos fixos: modelos de valor e registros de depreciações. No Microsoft Dynamics 365 for Operations versão 1611, as funcionalidades de método de depreciação e de registro de depreciação foram mescladas em um único conceito que é conhecido como um registro.
+
+A funcionalidade de novo livro baseia-se em uma funcionalidade anterior de método de depreciação também inclui mas toda a funcionalidade que foi fornecida anteriormente somente em registros de depreciações. [![Registro como mesclagem da funcionalidade de método de depreciação e de registro de depreciação](./media/fixed-assets.png)](./media/fixed-assets.png) Em decorrência desta mesclagem, agora você pode usar um conjunto de páginas único, consultas e relatórios para todos os seus processos de ativo fixo. As tabelas deste tópico descrevem funcionalidades anterior de registros de depreciações, valor e modelos com a nova funcionalidade para registros.
 
 ## <a name="setup"></a>Instalação
 Por padrão, lançar registros da contabilização (GL) e fixo sub-razão de ativo. Os registros têm uma nova opção **Lançar à contabilidade** que leva você a desabilitar os lançamentos ao GL e postar apenas na sub-razão de ativo fixo. Essa funcionalidade é parecido com o comportamento anterior de postagem de livros de depreciação. A configuração de nomes de diário possui um nível de lançamento que é chamado nenhum. Este nível de lançamento foi adicionado especificamente para transações de ativo fixo. Para lançar transações para os ativos que não são de GL, você deverá usar um nome a com o nível de lançamento definido **Não**.
@@ -66,5 +69,7 @@ Consultas e relatórios suportam todos os registros. Informa que não estiver na
 
 ## <a name="upgrade"></a>Atualizar
 O processo de atualização moverá suas configurações existentes e todas as transações existentes para a nova estrutura de registro. Os métodos de depreciação são permanecerá como momento, como um registro que lançar na contabilidade. Entretanto, os registros de depreciação serão movidos para um registro que tenha a opção **Lançar na contabilidade** definida como **Não**. Os nomes de diário de registro de depreciações serão movidos a um nome de diário da contabilidade com o nível de lançamento definido **Não**.
+
+
 
 

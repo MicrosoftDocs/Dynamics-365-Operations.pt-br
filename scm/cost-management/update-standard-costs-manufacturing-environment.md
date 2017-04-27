@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>Atualizar custos padrão em um ambiente de fabricação
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece a orientação sobre como atualizar custos padrão em um ambiente de fabricação. 
 
 As atualização podem refletir novos itens, categorias de custo ou fórmulas de cálculo de custo indireto. Também podem refletir correções e alterações de custo. O tipo de atualização afeta as etapas que você deve completar para atualizar os custos padrão, como ilustrado nos seguintes casos:
@@ -43,5 +46,7 @@ As atualização podem refletir novos itens, categorias de custo ou fórmulas de
 -   Calcule os custos para um novo item fabricado com base na BOM aprovada e ativa, assim como nas informações de roteiro.
 
 Cada caso requer considerações sobre como atualizar custos padrão.
+
+
 
 

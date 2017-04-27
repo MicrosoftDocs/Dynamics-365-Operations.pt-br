@@ -1,5 +1,5 @@
 ---
-title: "Organizar sua força de trabalho usando departamentos, trabalhos, posições e"
+title: "Organizando sua força de trabalho usando departamentos, trabalhos e posições"
 description: "Departamentos, trabalhos e cargos são elementos organizacionais mantidos dentro da área de Recursos Humanos. Este tópico descreve informações conceituais sobre esses elementos."
 author: rschloma
 manager: AnnBe
@@ -26,22 +26,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Organizar sua força de trabalho usando departamentos, trabalhos, posições e
+# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>Organizando sua força de trabalho usando departamentos, trabalhos e posições
+
+[!include[banner](includes/banner.md)]
+
 
 Departamentos, trabalhos e cargos são elementos organizacionais mantidos dentro da área de Recursos Humanos. Este tópico descreve informações conceituais sobre esses elementos. 
 
 O exemplo a seguir é usado para ilustrar os conceitos descritos neste tópico.
 
-|**Departamento**|**Position**|**Job**|
+|**Departamento**|**Posição**|**Trabalho**|
 |---|---|---|
 |**Vendas**|Gerente de vendas (Leste)|Gerente de vendas|
 |**Vendas**|Gerente de vendas (Oeste)|Gerente de vendas|
 |**Vendas**|Gerente de vendas (Central)|Gerente de vendas|
-|**Accounting**|Supervisor de contabilidade|Gerente de contabilidade|
-|**Accounting**|Contabilidade A|Contador|
-|**Human resources**|Gerente de RH (Leste)|Gerente de RH|
-|**Human resources**|Gerente de RH (Oeste)|Gerente de RH|
-|**Human resources**|Gerente de RH (Central)|Gerente de RH|
+|**Contabilidade**|Supervisor de contabilidade|Gerente de contabilidade|
+|**Contabilidade**|Contabilidade A|Contador|
+|**Recursos Humanos**|Gerente de RH (Leste)|Gerente de RH|
+|**Recursos Humanos**|Gerente de RH (Oeste)|Gerente de RH|
+|**Recursos Humanos**|Gerente de RH (Central)|Gerente de RH|
 
  
  <a name="departments"></a>Departamentos
@@ -79,7 +82,7 @@ Você pode criar tarefas de trabalho que descrevem as tarefas básicas que devem
 
 ### <a name="job-functions"></a>Funções de trabalho
 
-As funções de trabalho são como tarefas de trabalho. Uma função de trabalho descreve uma ou várias tarefas, obrigações ou responsabilidades atribuídas a um trabalho. As funções de trabalho podem ser atribuídas a trabalhos e usadas para definir e implementar regras de qualificação para planos de remuneração. Exemplos de funções de trabalho são listados na tabela.
+As funções de trabalho são como tarefas de trabalho. Uma função de trabalho descreve uma ou várias tarefas, obrigações ou responsabilidades atribuídas a um trabalho. As funções de trabalho podem ser atribuídas a trabalhos e usadas para definir e implementar regras de qualificação para planos de remuneração. Exemplos de funções de trabalho são listados na tabela a seguir.
 
 | Trabalho           | Função de trabalho                                                |
 |---------------|-------------------------------------------------------------|
@@ -101,7 +104,7 @@ Use as áreas de responsabilidade para indicar as funções de trabalho, os proc
 <a name="positions"></a>Cargos
 ----------
 
-Os cargos são um elemento importante do nível inferior de uma hierarquia organizacional. Um cargo é uma instância individual de um trabalho. Por exemplo, a posição, “venda (gerenciador leste,”) é apenas uma posições associada ao trabalho, do gerenciador “vendas”. Posições existem em um departamento e atribuídas a funcionários.
+Os cargos são um elemento importante do nível inferior de uma hierarquia organizacional. Um cargo é uma instância individual de um trabalho. Por exemplo, a posição, "Gerente de vendas (Leste)", é apenas uma das posições associada ao cargo, "Gerente de vendas". As posições existem em um departamento e atribuídas aos funcionários.
 ### <a name="position-creation-and-maintenance"></a>Criação e manutenção de cargos
 
 -   Você pode exibir um histórico de alterações do sistema relacionadas a cargos em uma página de listagem de acesso fácil.
@@ -161,6 +164,8 @@ Para alguns registros, é possível especificar futuras alterações no registro
 </table>
 
 Você pode modificar as informações mencionadas na tabela anterior para um cargo ou um trabalho e especificar uma data em que as modificações feitas no cargo ou no trabalho entrarão em vigor. Por exemplo, um cargo só pode ser atribuído a um trabalhador, mas Sanjay Patel, que está atribuído ao cargo Contador-A, sairá em duas semanas. Joe Healy substituirá Sanjay Patel quando ele sair. Mesmo que Sanjay ainda esteja atribuído ao cargo, você poderá atribuir Joe Healy ao mesmo cargo de forma que a atribuição entre em vigor somente após o último dia de Sanjay.
+
+
 
 
 

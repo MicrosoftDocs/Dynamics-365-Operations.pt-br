@@ -1,5 +1,5 @@
 ---
-title: "Roteiros de transporte de fretes de plano a vários paradas"
+title: "Planejar rotas de transporte de frete com várias paradas"
 description: "Este artigo descreve os vários elementos que você usa para planejar rotas de transporte no Microsoft Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Roteiros de transporte de fretes de plano a vários paradas
+# <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planejar rotas de transporte de frete com várias paradas
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo descreve os vários elementos que você usa para planejar rotas de transporte no Microsoft Dynamics AX.
 
@@ -48,5 +51,7 @@ Uma rota programada é um plano de rota predefinida que tem uma agenda para as d
 
 ## <a name="load-building-workbench"></a>Bancada de criação de carga
 A Bancada de trabalho de criação de carga utiliza os endereços de clientes e datas de entrega de ordens de venda e as rotas agendadas que estão disponíveis para propor uma carga. Por padrão, os valores do roteiro são inseridos sobre a bancada de trabalho. No entanto, você pode selecionar uma data "de" que é anterior à data "de" no roteiro. Quando uma carga é proposta, o endereço de entrega e a data de entrega de todas as ordens de venda são verificadas. Se o código postal do endereço de entrega corresponde ao código postal de um hub no plano de rota e a data de entrega está dentro do intervalo selecionado nos critérios, a ordem de venda é proposta para o carregamento. A capacidade de carregar modelo também é considerada. Apenas uma carga é proposta ao mesmo tempo. Se você tiver uma ordem de venda que não será incluída, você terá que usar um modelo de carga diferente (por exemplo, um modelo de carga de um caminhão ou contêiner) ou planejar uma entrega extra.
+
+
 
 

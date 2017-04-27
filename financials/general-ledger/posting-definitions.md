@@ -59,5 +59,5 @@ As seguintes limitações se aplicam quando você cria links em definições de 
 -   Você pode atribuir uma definição de lançamento a qualquer tipo de transação, mas o tipo de transação deve estar no mesmo módulo que a definição de lançamento. Use a página **Definições de lançamento de transação** para ver em qual módulo está um tipo de transação.
 
 
-Para obter mais informações, consulte exemplo [] definições de lançamento (/general-ledger/example-posting-definitions.md). 
+Para obter mais informações, consulte [Exemplos de definição de lançamento](/general-ledger/example-posting-definitions.md). 
 

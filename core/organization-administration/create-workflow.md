@@ -26,15 +26,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-workflow"></a>Criar um fluxo de trabalho
 
+[!include[banner](../includes/banner.md)]
+
+
 Estes tópicos explicam como criar um fluxo de trabalho.
 
 <a name="open-the-workflow-editor"></a>Abrir o editor de fluxo de trabalho
 ------------------------
 
-Microsoft Dynamics 365 para o módulo de operações que você está trabalhando determina os tipos de fluxo de trabalho que você pode criar. Siga estas etapas para selecionar o tipo de fluxo de trabalho a ser criado e para abrir o editor de fluxo de trabalho.
+O módulo do Microsoft Dynamics 365 for Operations no qual você está trabalhando determina os tipos de fluxo de trabalho que você pode criar. Siga estas etapas para selecionar o tipo de fluxo de trabalho a ser criado e para abrir o editor de fluxo de trabalho.
 
 1.  Vá para o módulo para o qual deseja criar um novo fluxo de trabalho. Por exemplo, para criar um fluxo de trabalho para requisições de compra, clique em **Compras e fornecimento**.
-2.  Clique ** de instalação ** &gt; ** fluxos de trabalho do\] do nome do módulo\[**.
+2.  Clique em **Configuração** &gt; **\[nome do módulo\] fluxos de trabalho**.
 3.  Na página de listagem que aparece, no Painel de ação, clique em **Novo**.
 4.  Na página **Criar fluxo de trabalho**, selecione o tipo de fluxo de trabalho para criar, e então clique em **Criar fluxo de trabalho**. O editor de fluxo de trabalho aparece. Agora você pode usar os procedimentos a seguir para criar o fluxo de trabalho.
 
@@ -75,6 +78,8 @@ Quando estiver pronto para salvar e ativar o fluxo de trabalho, siga estas etapa
 3.  Se todos os erros e avisos foram resolvidos, a página **Ativar fluxo de trabalho** será exibido. Selecione uma das seguintes opções:
     -   Para ativar a versão de fluxo de trabalho, clique em **Ativar a nova versão**. Quando um fluxo de trabalho estiver ativo, os usuários poderão enviar documentos a ele para processamento.
     -   Se não quiser ativar a versão, clique em **Não ativar a nova versão**. É possível ativar o fluxo de trabalho posteriormente.
+
+
 
 
 

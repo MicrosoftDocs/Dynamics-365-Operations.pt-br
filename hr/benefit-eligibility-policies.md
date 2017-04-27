@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="benefit-eligibility-policies"></a>Políticas de qualificação para benefícios
 
-Este tópico fornece informações sobre as diretivas de qualificação do benefício, que o ajudam a definir quem tiver direito para benefícios específicos.
+[!include[banner](includes/banner.md)]
+
+
+Este tópico fornece informações sobre as diretivas de qualificação de benefício, o que ajuda a definir quem está qualificado para benefícios específicos.
 
 Quando você cria benefícios, você decide qual deles estarão disponíveis para quais funcionários. A tabela a seguir mostra exemplos de benefícios que você pode disponibilizar para funcionários específicos.
 
@@ -38,7 +41,7 @@ Quando você cria benefícios, você decide qual deles estarão disponíveis par
 | Telefone celular     | Equipe de vendas, executivos         |
 | Estacionamento   | Executivos                      |
 
-Os componentes a seguir são usadas em para criar diretivas de qualificação:
+Os seguintes componentes são usados para criar políticas de qualificação:
 
 -   Tipos de regra de política
 -   Políticas de qualificação para benefícios
@@ -51,5 +54,7 @@ Você define o escopo da regra na política. Por exemplo, se você criar um tipo
 --------
 
 [Definir e gerenciar um programa de benefício](manage-benefit-program.md)
+
+
 
 

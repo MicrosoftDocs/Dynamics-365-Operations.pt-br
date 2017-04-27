@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reimburse-customers"></a>Reembolsar clientes
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo explica como criar transações de reembolso para um grupo de clientes. Se um cliente tiver um saldo de crédito, é possível reembolsar o cliente para o valor do saldo. 
 
 A tabela a seguir mostra os pré-requisitos que devem estar funcionando antes de começar.
@@ -47,6 +50,8 @@ Ao criar transações de reembolso, uma fatura de fornecedor é criada para o va
     Os valores de crédito são transferidos para as contas de fornecedor dos clientes e processados como pagamentos normais. Se um cliente não tiver uma conta de fornecedor, uma conta de fornecedor ocasional será criada automaticamente para o cliente.
 3.  Para visualizar as transações do reembolso que foram criados, use a página **Reembolso**.
 4.  Em Contas a pagar, crie um pagamento para as faturas de fornecedor que foram criadas pelo processo de reembolso.
+
+
 
 
 

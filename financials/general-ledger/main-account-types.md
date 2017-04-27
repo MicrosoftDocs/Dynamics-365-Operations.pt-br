@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="main-account-types"></a>Tipos de conta principal
 
+[!include[banner](../includes/banner.md)]
+
+
 Os tipos de conta principais determinam como uma conta principal é usada no gráfico de contas.
 
 Você deve selecionar um tipo de conta principal quando criar uma conta principal na página Contas principais - plano de contas.
@@ -35,6 +38,8 @@ Você deve selecionar um tipo de conta principal quando criar uma conta principa
 -   Balanço, Ativo, Passivo e Capital Próprio – essas contas principais são usadas como contas de transação para o registro dos valores que uma entidade tem ou deve.
 -   Total – essas contas são usadas para adicionar intervalos de conta. Configure o tipo de conta principal Total usando a página Intervalo de contas, que exibe o total dos saldos do grupo para todos os intervalos de contas. Acesse a página Intervalo de contas clicando em Totais na guia Geral assim que tiver selecionado um tipo de conta Total.
 -   Relatórios – essas contas principais são usadas para o relatório de demonstrativo financeiro somente para o Brasil.
+
+
 
 
 

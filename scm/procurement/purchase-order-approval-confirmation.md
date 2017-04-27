@@ -1,5 +1,5 @@
 ---
-title: "Ordens de compra e confirmar de aprovação"
+title: Aprovar e confirmar ordens de compra
 description: "Este artigo descreve os status de uma ordem de compra (OC) passa após ela ter sido criada e o efeito de habilitar o gerenciamento de alterações no PDV."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="approve-and-confirm-purchase-orders"></a>Ordens de compra e confirmar de aprovação
+# <a name="approve-and-confirm-purchase-orders"></a>Aprovar e confirmar ordens de compra
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo descreve os status de uma ordem de compra (OC) passa após ela ter sido criada e o efeito de habilitar o gerenciamento de alterações no PDV.
 
@@ -73,12 +76,14 @@ Depois que um pedido foi confirmado, você não poderá excluí-lo. No entanto, 
 <a name="see-also"></a>Consulte também
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Visão geral de ordem de compra](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Criação de ordem de compra](purchase-order-creation.md)
 
 [Recebimento de produtos contra ordens de compra](product-receipt-against-purchase-orders.md)
 
 [Visão geral das faturas de fornecedor](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

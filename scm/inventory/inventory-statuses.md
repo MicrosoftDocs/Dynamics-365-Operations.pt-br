@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-statuses"></a>Status do estoque
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve como você pode usar o status de estoque para categorizar e manter o controle de estoque.
 
 Você pode usar status de estoque para categorizar o estoque. Em seguida, você pode iniciar ações apropriadas, como o trabalho de reabastecimento ou de abastecimento. 
@@ -47,5 +50,7 @@ Para o trabalho de saída, use itens com status de estoque disponível. Se você
 Depois de configurar um status de estoque, você pode definir o status de estoque padrão para um local, item e depósito. Você também pode definir um status padrão de venda, transferência e ordens de compra. O status padrão para ordens de venda e a ordem de transferência de saída não pode ter a opção **Bloqueio de estoque** definida como **Sim**. O status de estoque que é herdado das configurações padrão em um site, depósito, item, ordem de compra, ordem de transferência ou ordem de vendas pode ser alterado usando o dispositivo móvel ou na ordem de compra, na ordem de venda ou na linha da ordem de transferência. 
 
 Para planejar a cobertura de itens com um status de estoque disponível, selecione a opção **Plano de cobertura por dimensão** para uma dimensão de armazenamento na página **Grupos de dimensão de armazenamento**. Quando você abre o assistente **Cobertura de item **, os itens com um status disponível aparecem na página **Status**. Para criar configurações de cobertura para esses itens, selecione a ID do status de estoque para os status de estoque disponíveis. Com base nas configurações de cobertura, você pode calcular os requisitos dos itens e fazer a previsão de fornecimento e demanda de itens disponíveis durante o planejamento mestre. Não é possível criar uma configuração de cobertura de item com um status de estoque bloqueado. Como alternativa, use a página **Cobertura do item** para criar ou modificar os parâmetros de cobertura do item.
+
+
 
 

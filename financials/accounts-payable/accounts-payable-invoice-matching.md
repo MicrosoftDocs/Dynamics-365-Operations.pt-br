@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-invoice-matching"></a>Conciliação de faturas de contas a pagar
 
+[!include[banner](../includes/banner.md)]
+
+
 A conciliação de faturas de contas a pagar é o processo de conciliar as informações da fatura do fornecedor e do recebimento do produto.
 
 Ao conciliar documentos, as diferenças entre esses documentos são chamadas discrepâncias de conciliação. As discrepâncias de conciliação são comparadas com as tolerâncias especificadas. Se uma discrepância de conciliação exceder a porcentagem ou valor de tolerância, os ícones de variação na correspondência são exibidos na página Fatura de fornecedor e na página Histórico de fatura e detalhes de conciliação. 
@@ -48,9 +51,9 @@ Você pode usar os seguintes tipos de conciliação de faturas de contas a pagar
 
 A conciliação dupla e a conciliação tripla conciliam as informações de preço pelo preço da unidade. Você também pode configurar essas políticas de conciliação para informações de preço de conciliação pelo preço total.
 -   Conciliação de preço líquido unitário - Concilia as informações de preço para conciliações duplas ou triplas comparando o preço líquido unitário para cada linha na fatura com o preço líquido unitário na ordem de compra. O preço líquido unitário é determinado pela seguinte fórmula: Valor líquido da linha / Quantidade da linha
--   Conciliação dos totais de preço - Concilia as informações de preço para conciliações duplas ou triplas comparando o valor líquido (total do preço) para cada linha na fatura com o valor líquido na ordem de compra. O valor líquido é determinado por esta fórmula: (Quantidade de linhas do \* de preço unitário) + encargos linha - descontos
+-   Conciliação dos totais de preço - Concilia as informações de preço para conciliações duplas ou triplas comparando o valor líquido (total do preço) para cada linha na fatura com o valor líquido na ordem de compra. O valor líquido é determinado pela seguinte fórmula: (Preço unitário \* Quantidade da linha) + Encargos da linha - Descontos da linha
 
-Normalmente, os cálculos de conciliação de fatura são executados automaticamente quando você edita as faturas de fornecedor na página Fatura de fornecedor. Como alternativa, a conciliação de faturas pode ser executada sob demanda, conforme necessário. Conciliação de notas fiscais em demanda é controlada para a entidade legal automaticamente por status de cabeçalho de nota fiscal de atualização na página de parâmetros de contas a pagar no guia de validação da nota fiscal. A conciliação de faturas também pode ser executada como parte de um processo de revisão da fatura. Você pode exibir os resultados da conciliação de faturas na página Fatura de fornecedor e nas páginas de conciliação de faturas relacionadas.
+Normalmente, os cálculos de conciliação de fatura são executados automaticamente quando você edita as faturas de fornecedor na página Fatura de fornecedor. Como alternativa, a conciliação de faturas pode ser executada sob demanda, conforme necessário. A conciliação de faturas sob demanda é controlada para a entidade legal pela função Atualizar automaticamente o status do cabeçalho da fatura para na página Parâmetros de contas a pagar na guia Validação de fatura. A conciliação de faturas também pode ser executada como parte de um processo de revisão da fatura. Você pode exibir os resultados da conciliação de faturas na página Fatura de fornecedor e nas páginas de conciliação de faturas relacionadas.
 
 ## <a name="invoice-totals-matching"></a>Conciliação de totais de fatura
 Você pode usar a conciliação de totais de fatura para ajudar a garantir que os valores totais da fatura não desviem dos valores esperados em um valor maior do que a variação aceitável. Seis totais são comparados na página Detalhes da conciliação de totais de fatura, conforme mostrado na tabela. Se a tolerância permitida para conciliação de totais da fatura for 20%, a porcentagem de variação de 100% para o valor do desconto total é considerada uma discrepância na conciliação.
@@ -165,7 +168,7 @@ Os mesmos valores de linha são comparados na página Detalhes da conciliação 
 A conciliação tripla é controlada para a entidade legal no campo Política de conciliação de linha na página Parâmetros de contas a pagar. Dependendo da seleção no campo Permitir a substituição da política de conciliação, você pode selecionar a conciliação tripla para um fornecedor, item ou combinação de item e fornecedor específica na página Política de conciliação, e para uma ordem de compra específica na página Ordem de compra.
 
 ## <a name="charges-matching"></a>Conciliação de encargos
-Você pode usar a conciliação de encargos para ajudar a garantir que os valores de encargos não desviem dos valores esperados em um valor maior do que a porcentagem aceitável. Os valores totais para cada encargos com que se aplica à nota fiscal e a ordem de compra é comparado em valores de comparação - nota fiscal: página, como mostra a tabela a seguir. Se a tolerância permitida para o código de encargos é 25%, a porcentagem de variação de 99.999.999.999,99% para o código de encargos de licença é considerada uma discrepância na conciliação.
+Você pode usar a conciliação de encargos para ajudar a garantir que os valores de encargos não desviem dos valores esperados em um valor maior do que a porcentagem aceitável. Os valores totais para cada código de encargos que se aplicam à fatura e ordem de compra são comparados na página Comparar valores de encargos - Fatura: como mostra a tabela a seguir. Se a tolerância permitida para o código de encargos é 25%, a porcentagem de variação de 99.999.999.999,99% para o código de encargos de licença é considerada uma discrepância na conciliação.
 
 > [!NOTE] 
 > Uma porcentagem de variação de 99.999.999.999,99% significa que o valor esperado com base na ordem de compra é zero e o valor real na fatura é um valor positivo. 
@@ -188,7 +191,9 @@ Geralmente, as faturas de fornecedores se baseiam nos recebimentos de produtos, 
 -   Insira os valores da fatura que não foram incluídos na ordem de compra original, para que as informações da fatura sejam conciliadas com a fatura que você recebeu do fornecedor. Você pode comparar os encargos de ordens de compra com os encargos de faturas. Se necessário, é possível adicionar encargos às faturas e alocá-los nas linhas de fatura.
 -   Exiba e aprove discrepâncias na conciliação de preços entre o preço unitário líquido da fatura e o preço unitário líquido da ordem de compra. Você pode configurar percentuais de tolerância de preços para entidades legais, fornecedores e itens. Se o preço da linha da fatura do fornecedor não estiver dentro da tolerância de preço aceitável, você poderá salvar a fatura até que seja aprovada para lançamento ou até receber uma correção do fornecedor.
 
-Para obter mais informações, consulte [políticas de conciliação triplas] three-way-matching-policies.md ().
+Para obter mais informações, consulte [Políticas de conciliação tripla](three-way-matching-policies.md).
+
+
 
 
 

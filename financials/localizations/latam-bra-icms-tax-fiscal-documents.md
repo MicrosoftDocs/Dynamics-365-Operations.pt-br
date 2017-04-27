@@ -1,6 +1,6 @@
 ---
-title: Notas fiscais de IMPOSTO ICMS para O Brasil
-description: "Este tópico explica o conceito de notas fiscais de vendas e descreve os requisitos para gerá-los."
+title: "Notas fiscais de transferência ou apropriação de imposto ICMS para o Brasil"
+description: "Este tópico explica o conceito de notas fiscais de transferência ou apropriação de imposto e descreve os requisitos para gerá-las."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,107 +25,112 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="icms-tax-fiscal-documents-for-brazil"></a>Notas fiscais de IMPOSTO ICMS para O Brasil
+# <a name="icms-tax-fiscal-documents-for-brazil"></a>Notas fiscais de transferência ou apropriação de imposto ICMS para o Brasil
 
-Este tópico explica o conceito de notas fiscais de vendas e descreve os requisitos para gerá-los.
+[!include[banner](../includes/banner.md)]
 
-Em O Brasil, alguns tipos de notas fiscais não têm efeito sobre fornecedores, em clientes, ou nos saldos de estoque. Normalmente, a finalidade das notas fiscais é habilitar entidades legais para especificar ajustes de impostos para transferi-las, entre outros, subsidiárias ou de onde recuperar impostos (recebíveis impostos) em prestações para um período. Para registrar essas operações na entidade legal, as notas fiscais específicos devem ser produzidos que afetam a contabilidade e relatórios de livros fiscais.
 
-## <a name="imposto-sobre-circulao-de-mercadorias-e-servios-icms-tax-transfers-between-subsidiaries"></a>Transferências do imposto sobre Circulação de Mercadorias e o de Imposto ICMS (entre subsidiárias)
-Este tipo de impostos é considerado um imposto recuperáveis e as regulamentações de imposto de renda corporativo não permitem que os impostos ICMS são deduzidos. Portanto, os créditos acumulados ICMS não podem ser usados para diminuir o valor tributável para avaliação de imposto sobre rendimento corporativos (IRPJ e CSSL). Os modos de acumular créditos de ICMS incluem:
+Este tópico explica o conceito de notas fiscais de transferência ou apropriação de imposto e descreve os requisitos para gerá-las.
 
--   Exportação – de isenção de imposto ICMS
+No Brasil, alguns tipos de notas fiscais não têm efeito em fornecedores, clientes ou saldos de estoque. Normalmente, a finalidade dessas notas fiscais é habilitar entidades legais para especificar ajustes de impostos para transferi-las, entre outras subsidiárias, ou recuperar impostos (imposto a receber) em prestações durante um período. Para registrar essas operações na entidade legal, notas fiscais específicas devem ser geradas que afetam o relatório de Contabilidade e os livros fiscais.
+
+## <a name="imposto-sobre-circulao-de-mercadorias-e-servios-icms-tax-transfers-between-subsidiaries"></a>Transferências do Imposto sobre Circulação de Mercadorias e Serviços (ICMS) entre subsidiárias
+Este tipo de impostos é considerado um imposto recuperável e as regulamentações de imposto de renda corporativo não permitem que o imposto ICMS seja deduzido. Portanto, os créditos acumulados do ICMS não podem ser usados para diminuir o valor tributável para avaliação de impostos sobre rendimento corporativo (IRPJ e CSSL). Os modos de acumular créditos de ICMS incluem:
+
+-   Exportação – isenção de ICMS
 -   Diferimentos
--   Reduzida taxa
+-   Taxa reduzida
 -   Créditos presumidos
 
-Há várias opções para o gerenciamento dos créditos acumulados ICMS são usados quando o saldo devido resultante é maior de crédito acumulado débito. O crédito de imposto ICMS acumulado pode ser transferido nestas situações:
+Há várias opções para gerenciar como os créditos acumulados de ICMS são usados quando o saldo devido resultante é maior que o débito/crédito acumulado. O crédito de imposto ICMS acumulado pode ser transferido nestas situações:
 
--   Transferir o crédito de ICMS para outras subsidiárias com o maior volume de transações que o ICMS vence. Isso se aplica apenas às subsidiárias localizados no estado.
--   Transferir o crédito de ICMS para pagar contas de fornecedor em operações de compra por material bruto e secundário, os pacotes de equipamento e, por um equipamento industrial.
--   Transferir o crédito de ICMS para outras subsidiárias. Até as 30 por cento de cada ativo fixo a operação do ativo que é direcionada para ativos fixos permanentes podem ser transferidas.
--   Pagamento de aquisição de chassi do caminhão novo mecanismo, com ou combustível, feito por estabelecimento rodoviário de transporte.
--   Transferir o crédito de ICMS de uma empresa que fabrique álcool etílico a empresa que cooperativa centraliza vendas. Até 30 dos impostos sobre vendas cobrados na remessa desse produto podem ser transferidas.
+-   Transferir o crédito de ICMS para outras subsidiárias que têm um maior volume de transações onde o ICMS é devido. Isso se aplica apenas às subsidiárias localizadas no mesmo estado.
+-   Transferir o crédito de ICMS para pagar contas de fornecedor em operações de compra por material bruto e secundário, pacotes de equipamento e, equipamento industrial.
+-   Transferir o crédito de ICMS para outras subsidiárias. Até 30% de cada operação de ativo fixo que é destinada para ativos fixos permanentes pode ser transferido.
+-   Pagamento de aquisição de chassi do caminhão com novo motor, ou combustível, feito pelo estabelecimento de transporte rodoviário.
+-   Transferir o crédito de ICMS de uma empresa que fabrique álcool etílico a empresa que cooperativa centraliza vendas. Até 30 dos impostos cobrados na remessa desse produto podem ser transferidos.
 -   Transferir o crédito de ICMS para o estabelecimento industrial de óleo bruto.
 
-Nessas situações, o valor que uma empresa que pode ser acumulado de imposto ICMS depende de regras específicas liquidadas pelo governo. O valor não é aplicável sempre a 100 do valor acumulado de IMPOSTO ICMS. Os créditos de ICMS são transferidos emitir uma nota fiscal que é conhecido como um documento fiscal de imposto. Esse documento deve incluir informações específicas que reflete a operação. O TIN possível emitir um eletrônica de nota fiscal de nota fiscal eletrônica (NF-e) transferir o crédito de imposto ICMS acumulado de outra subsidiária.
+Nessas situações, o valor que uma empresa pode obter do ICMS acumulado depende de regras específicas estabelecidas pelo governo. O valor não é aplicável sempre a 100% do valor de ICMS acumulado. Os créditos de ICMS são transferidos pela emissão de uma nota fiscal que é conhecida como nota fiscal de transferência ou apropriação de imposto. Esse documento deve incluir informações específicas que refletem a operação. O contribuinte também pode emitir uma nota fiscal eletrônica (NF-e) para transferir o crédito de ICMS acumulado para outra subsidiária.
 
-## <a name="recovering-icms-tax-in-installments"></a>Recuperando impostos ICMS em prestações
-De acordo com a lei brasileira nenhum 102/2000, no 1º de janeiro de 2001, os créditos de ICMS decorrentes de compra ativos fixos usados especificamente em atividades relacionadas tributação de ICMS 1/48 podem ser valores por mês. Portanto, o crédito de ICMS não puder ser totalmente recuperado quando registros de usuário a compra. Em vez disso, o crédito de ICMS será recuperado em prestações 48 pelo tempo. Veja a seguir um exemplo:
+## <a name="recovering-icms-tax-in-installments"></a>Recuperando ICMS em parcelas
+De acordo com a lei brasileira nº 102/2000, a partir de 1º de janeiro de 2001, os créditos de ICMS decorrentes da compra de ativos fixos que são usados especificamente na atividade relacionada à tributação do ICMS pode ser apropriados em 1/48 por mês. Portanto, o crédito de ICMS não pode ser completamente recuperado quando o usuário registra a compra. Em vez disso, o crédito de ICMS deve ser recuperado em 48 parcelas ao longo do tempo. Veja a seguir um exemplo:
 
 -   Valor de aquisição de ativo: R$ 100.000, 00
--   Valor dos impostos ICMS: R$ 12.000, 00
--   Cálculo de IVA recuperável com a finalidade de distribuição em contas de ativos atuais e de longo prazo receber:
-    -   Ativos atuais:
+-   Valor do ICMS: R$ 12.000,00
+-   Cálculo de IVA recuperável com a finalidade de distribuição em contas de ativos atuais e de contas a receber a long prazo:
+    -   Ativo atual:
         1.  R$ 12.000, 00 ÷ 48 meses = R$ 250,00
-        2.  R$ 250,00 × de 12 meses (1 ano) = R$ 3.000, 00
-    -   Ativo de longo prazo:
+        2.  R$ 250,00 × 12 meses (1 ano) = R$ 3.000, 00
+    -   Ativo a longo prazo:
         1.  R$ 12.000, 00 ÷ 48 meses = R$ 250,00
-        2.  R$ 250,00 × de 36 meses (1 ano) = R$ 9.000, 00
+        2.  R$ 250,00 × 36 meses (1 ano) = R$ 9.000, 00
 
-No Microsoft Dynamics 365 para operações, as entradas serão os seguintes:
+No Microsoft Dynamics 365 for Operations, as entradas são as seguintes:
 
-** Compra - ativa ** ** dinâmica fixa de 365 para operações: Nota fiscal de compra de ativo de recebimento **
+**Compra de Ativo Fixo** **Dynamics 365 for Operations: Fatura de Compra do Ativo de Recebimento**
 
-** Ajuste de imposto ICMS ano ** ** dynamics 365 para operações: Voucher manual de diário ** ** (R$ 12.000, 00/48) prestações \* 12 (meses) **
+**Ajuste de ICMS do ano** **Dynamics 365 for Operations: Comprovante de Diário manual** **(R$ 12.000,00 / 48 installments) \* 12 (meses)**
 
-ICMS recuperável ** prazo ** (conta diferida)
+ICMS recuperável **longo prazo** (conta diferida)
 
-*R$ 12.000, 00 D*
+*R$ 12.000,00 D*
 
-ICMS recuperável ** curto prazo ** (conta diferida)
+ICMS recuperável **curto prazo** (conta diferida)
 
-R$ 3.000, 00 D
+R$ 3.000,00 D
 
 Ativo Fixo
 
 R$ 88.000, 00 C
 
-Recoverable ICMS long term (deferred account)
+ICMS recuperável, longo prazo (conta diferida)
 
-*R$ C* 3.000, 00
+*R$ 3.000,00 C*
 
-** Ativo longo prazo (** adiada conta de saldo): R$ 9.000, 00
+**Saldo de Ativo de longo prazo** (conta diferida): R$ 9.000,00
 
-** Ajuste de imposto ICMS de mês ** ** dynamics 365 para operações: Emitir uma nota fiscal de imposto de entrada **
+**Ajuste de ICMS do mês** **Dynamics 365 for Operations: Emissão de uma Nota fiscal de entrada**
 
-Conta de imposto recuperável ICMS
+Conta de ICMS recuperável
 
-D DE R$ 250,00
+R$ 250,00 D
 
-Recoverable ICMS short term (deferred account)
+ICMS recuperável curto prazo (conta diferida)
 
-*R$ C* 250,00
+*R$ 250,00 C*
 
-** Todos afeta ** notas fiscais na página, você pode fazer o seguinte:
+Na página **Todas notas fiscais de transferência ou apropriação de imposto**, você pode fazer o seguinte:
 
--   Crie e lance uma nota fiscal de IMPOSTO ICMS para transferir o valor de IMPOSTO ICMS a um cliente ou fornecedor, ou de onde recuperar o valor dos impostos ICMS em prestações para compra de ativos fixos por uma entidade legal.
+-   Criar e lançar uma nota fiscal de transferência ou apropriação de imposto para transferir o valor de ICMS a um cliente ou fornecedor, ou para recuperar o valor do imposto ICMS em prestações para compra de ativos fixos por uma entidade legal.
 -   Adicionar texto da nota fiscal a uma nota fiscal de transferência ou apropriação de imposto ICMS.
--   Exiba as transações de comprovante que são relacionados a um documento fiscal de IMPOSTO ICMS ** ** transações de comprovante na página.
--   Cancelar uma nota fiscal de transferência ou apropriação de imposto ICMS lançada e gerar uma transação de comprovante cancelada. O valor da nota fiscal da transação do comprovante cancelado é o mesmo que o valor de nota fiscal original, mas o valor de faturamento for negativo.
--   Lance a nota fiscal e exiba cancelada, o original e as transações de comprovante canceladas ** ** transações de comprovante na página.
--   Imprimir um documento fiscal de IMPOSTO ICMS contabilidade. O texto de rodapé configurado ** configuração de gerenciamento de impressão em ** página não serão impressos em notas fiscais de IMPOSTO ICMS.
+-   Exibir as transações de comprovante que estão relacionadas a uma nota fiscal de transferência ou apropriação de imposto ICMS na página **Transações de comprovante**.
+-   Cancelar uma nota fiscal de transferência ou apropriação de imposto ICMS lançada e gerar uma transação de comprovante cancelada. O valor da fatura da transação do comprovante cancelado é igual ao valor da fatura original, mas o valor da fatura é negativo.
+-   Lançar a fatura cancelada e exibir as transações de comprovante originais e canceladas na página **Transações de comprovante**.
+-   Imprimir uma nota fiscal de transferência ou apropriação de imposto ICMS da Contabilidade. O texto do rodapé configurado na página **Configuração de gerenciamento de impressão** não é impresso nas notas fiscais de transferência ou apropriação de imposto ICMS.
 
-Quando um documento fiscal novo de impostos é criado, as seguintes opções estão disponíveis:
+Quando uma nova nota fiscal de transferência ou apropriação de imposto é criada, as seguintes opções ficam disponíveis:
 
 -   Transferência de imposto ICMS
--   Serviço de ICMS para utilizar crédito de ativos das correções (CIAP)
+-   Parcela de ICMS para utilizar o crédito de ativos fixos (CIAP)
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Os seguintes pré-requisitos devem ser configurados para criar e lançar notas fiscais de imposto. Os parâmetros determinam como os dados serão exibidos em notas fiscais, e todas são necessárias. Parâmetros ausentes podem causar inconsistências ou validações incorretas durante o processo de postagem.
+Os seguintes pré-requisitos devem ser configurados antes de você criar e lançar notas fiscais de transferência ou apropriação de imposto. Os parâmetros determinam como os dados serão exibidos em notas fiscais, e todos são necessários. Parâmetros ausentes podem causar inconsistências ou validações incorretas durante o processo de lançamento.
 
--   ** Brasileiros parâmetros: ** Defina o item, além ** ** ** PIS e COFINS ** os códigos de impostos usado para esses tipos de notas fiscais.
--   ** Grupos de postagem do razão em contabilização **: ** Definir condições curtos ** imposto a receber da conta contábil.
+-   **Parâmetros brasileiros:** Defina o item e os códigos de imposto **PIS** e **COFINS** que são usados para esses tipos de documentos fiscais.
+-   **Grupos de lançamento contábil na Contabilidade**: Define a conta contábil **Imposto a receber a curto prazo**.
 
 ## <a name="example"></a>Exemplo
-** Notas fiscais de saída **
+**Notas fiscais de saída**
 
--   Saída de documento fiscal para transferência de crédito de ICMS para outras entidades legais, matriz/subsidiária a mesma empresa/organização destinadas para a compensação do saldo de débito de ICMS (CFOP: 5.601 e 5.602)
+-   Notas fiscais de saída para transferência de crédito de ICMS de outras entidades legais, subsidiárias/afiliadas ad mesma empresa/organização destinadas para a compensação do saldo de débito de ICMS (CFOP: 5.601 e 5.602)
 
-** Notas fiscais de entrada **
+**Notas fiscais de entrada**
 
--   Notas fiscais de entrada para transferência de crédito de ICMS de outras entidades legais, subsidiárias e afiliadas a mesma empresa/organização destinadas para a compensação do saldo de débito de ICMS (CFOP: 1.601 e 1.602)
--   Notas fiscais de entrada para utilizar 1/48 de crédito de ICMS (CFOP: (1.604)) CIAP
+-   Notas fiscais de entrada para transferência de crédito de ICMS de outras entidades legais, subsidiárias/afiliadas ad mesma empresa/organização destinadas para a compensação do saldo de débito de ICMS (CFOP: 1.601 e 1.602)
+-   Notas fiscais de entrada para utilizar 1/48 de crédito de ICMS (CFOP: 1.604) (CIAP)
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Visão geral de gerenciamento de qualidade"
+title: "Visão geral do gerenciamento de qualidade"
 description: "Este artigo descreve como você pode usar o gerenciamento de qualidade no Microsoft Dynamics 365 for Operations para ajudar a melhorar a qualidade do produto na sua cadeia de suprimentos."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="quality-management-overview"></a>Visão geral de gerenciamento de qualidade
+# <a name="quality-management-overview"></a>Visão geral do gerenciamento de qualidade
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo descreve como você pode usar o gerenciamento de qualidade no Microsoft Dynamics 365 for Operations para ajudar a melhorar a qualidade do produto na sua cadeia de suprimentos.
 
@@ -344,7 +347,7 @@ A tabela a seguir fornece mais informações sobre como as ordens de qualidade p
 </tr>
 <tr class="even">
 <td>Resultados do teste de variável</td>
-<td>Use esta página para configurar, editar e exibir os possíveis resultados de teste de uma variável de teste associada a um teste qualitativo. Para cada resultado, você atribui um status de <strong>aprovado</strong> ou <strong>reprovado</strong>. Você deve definir uma variável e seus resultados para cada teste qualitativo definido na página <strong>Testes</strong>. (Para testes qualitativos, o tipo de teste for definido <strong>Opção</strong>  <strong>Testes</strong> na página.) Use <strong>Grupos de teste</strong> a página para atribuir uma variável de teste e o resultado padrão a um teste qualitativo individual.</td>
+<td>Use esta página para configurar, editar e exibir os possíveis resultados de teste de uma variável de teste associada a um teste qualitativo. Para cada resultado, você atribui um status de <strong>aprovado</strong> ou <strong>reprovado</strong>. Você deve definir uma variável e seus resultados para cada teste qualitativo definido na página <strong>Testes</strong>. (Para testes qualitativos, o tipo de teste é definido como <strong>Opção</strong> na página <strong>Testes</strong>.) Use os <strong>Grupos de testes</strong> para atribuir uma variável de teste e o resultado padrão a um teste qualitativo individual.</td>
 <td>Uma fábrica que produz biscoitos usa um teste de inspeção para o produto acabado. Esse teste de inspeção tem várias variáveis. Uma variável é sabor, e os possíveis resultados para essa variável são: bom e ruim. Uma segunda variável é cor, e os possíveis resultados são: muito escuro, muito claro e correto. Um status de <strong>aprovado</strong> ou <strong>reprovado</strong> é atribuído a cada resultado. Durante o teste de inspeção de cada variável, o inspetor informa o resultado do teste selecionando um dos resultados.</td>
 </tr>
 </tbody>
@@ -355,8 +358,10 @@ A tabela a seguir fornece mais informações sobre como as ordens de qualidade p
 <a name="see-also"></a>Consulte também
 --------
 
-[Quality management processes](quality-management-processes.md)
+[Processos de gerenciamento de qualidade](quality-management-processes.md)
 
 [Habilitando o gerenciamento de não conformidade](enable-nonconformance-management.md)
+
+
 
 

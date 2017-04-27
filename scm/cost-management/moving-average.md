@@ -68,14 +68,14 @@ Com a média móvel, o custo do produto é determinado pelo recebimento da compr
 3.  Crie uma ordem de venda para uma quantidade de 1 e preço unitário de R$ 10,00.
 4.  Crie uma fatura de compra para uma quantidade de 2 e preço unitário de R$ 12,00.
 
-A diferença no preço unitário, R$ 2,00, será lançada na conta Diferença de preço da média de movimentos quando a fatura de compra for lançada. O motivo é que dois produto foram comprados a um custo de R$ 20,00. Um dos produtos foi vendido por um preço unitário de R$ 10,00. A nota fiscal de compra foi lançada ao preço unitário de 12.00 com uma quantidade de 2. O preço unitário de produto não pode ser lançado em 14.00.
+A diferença no preço unitário, R$ 2,00, será lançada na conta Diferença de preço da média de movimentos quando a fatura de compra for lançada. O motivo é que dois produto foram comprados a um custo de R$ 20,00. Um dos produtos foi vendido por um preço unitário de R$ 10,00. A fatura de compra foi lançada ao preço unitário de 12,00 com uma quantidade de 2. O preço unitário de produto não pode ser lançado em 14,00.
 
 ## <a name="moving-average-product-and-inventory-adjustment"></a>Produtos de média móvel e ajuste de estoque
 Se precisar ajustar o custo da média móvel de um produto, os ajustes de estoque são autorizados a partir da data de hoje. Não é possível realizar um ajuste de estoque de datas anteriores para corrigir o custo da média móvel de um produto. Você não pode propagar os custos em transações subsequentes. Neste exemplo, o custo da média móvel será ajustado para um produto.
 1.  Selecione o produto para o qual você deseja ajustar o custo de média móvel.
-    | **Note**                                                                                    |
+    | **Observação**                                                                                    |
     |---------------------------------------------------------------------------------------------|
-    | ** Reavaliação para a média móvel ** o página examina o estoque disponível de um produto. |
+    | A página **Reavaliação da média de movimentos** examina o estoque disponível de um produto. |
 
     O produto selecionado tem uma quantidade lançada de 1, um valor lançado de R$ 12,00, um custo unitário lançado de R$ 12,00 e um custo unitário de R$ 12,00.
 2.  Atualize o campo **Custo unitário** para 16,00. O sistema calcula os campos restantes.
@@ -88,7 +88,7 @@ Se precisar ajustar o custo da média móvel de um produto, os ajustes de estoqu
 Na página **Liquidações do comprovante**, você pode ver um ajuste de 4.00 lançado na conta Reavaliação de custos da média de movimentos.
 
 ## <a name="moving-average-with-production"></a>Média móvel com produção
-A média móvel suporta itens produzidos. Se planejar usar a média móvel em um ambiente de produção, ** custo estimado de uso ** o controle deslizante ** parâmetros de controle de produção ** o página deve ser selcted. Isso significa que o preço de custo que é calculado durante a previsão é usado, em vez do preço de custo real de cálculo de BOM.
+A média móvel suporta itens produzidos. Se você pretende usar a média móvel em um ambiente de produção, o controle deslizante **Usar preço de custo previsto** na página **Parâmetros de controle de produção** deverá ser selecionado. Isso significa que o preço de custo que é calculado durante a previsão é usado, em vez do preço de custo real de cálculo de BOM.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Média móvel com transação de datas anteriores
 Os custos da média móveis atuais são atribuídos às transações de datas anteriores e a quantidade física do produto é atualizada, mas o custo da média móvel do produto não é afetado. Neste exemplo de média móvel, uma transação de data antiga para um produto de média móvel é lançada.

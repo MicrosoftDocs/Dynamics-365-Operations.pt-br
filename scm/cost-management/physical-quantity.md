@@ -1,5 +1,5 @@
 ---
-title: Valores de estoque
+title: Valores de objeto de estoque
 description: "Este artigo fornece informações sobre como os valores de um objeto do estoque são calculados."
 author: YuyuScheller
 manager: AnnBe
@@ -27,14 +27,14 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="inventory-object-values"></a>Valores de estoque
+# <a name="inventory-object-values"></a>Valores de objeto de estoque
 
 Este artigo fornece informações sobre como os valores de um objeto do estoque são calculados. 
 
-Uma nova funcionalidade que é chamada ** quantidade física ** permite que os valores de um objeto de estoque específico. Um objeto de custo representa o nível da entidade onde a contabilidade de estoque é executada. Para obter mais informações sobre os objetos de custo, consulte [Objetos de custo](cost-object.md). Para ver os valores de estoque específico um objeto, clique ** quantidade física ** ** objeto de custo previsto ** na página. É aqui como o valor de um objeto de estoque é calculado: Objeto de estoque. Objeto de valor igual de custo. Objeto de estoque médio × do custo unitário. Quantidade ao exemplo a seguir mostra como os valores de um objeto de estoque e um objeto de custo previsto são calculados. Dois eventos de recebimento de produtos são registrados para o item A:
+Uma nova funcionalidade chamada de **quantidade física** permite visualizar os valores de um objeto de estoque específico. Um objeto de custo representa o nível da entidade onde a contabilidade de estoque é executada. Para obter mais informações sobre os objetos de custo, consulte [Objetos de custo](cost-object.md). Para visualizar os valores de um objeto de estoque específico, clique em **Quantidade física** na página **Objeto de custo**. Veja como o valor de um objeto de estoque é calculado: Objeto de estoque.Valor = Custo do objeto.Custo médio por unidade × Objeto do estoque.Quantidade. O exemplo a seguir mostra como os valores de um objeto de estoque e um objeto de custo são calculados. Dois eventos de recebimento de produtos são registrados para o item A:
 
--   Recebimento de produtos: 1 Quantidade = 100. pcs, valor = $1,000.00, local = 1, =11 depósito, lote não. = B1
--   Recebimento de produtos: 2 Quantidade = 50. pcs, valor = $800.00, local = 1, =11 depósito, lote não. B2 =
+-   Recebimento de produtos 1: Quantidade = 100 pcs., Valor = $1.000,00, Local = 1, Depósito = 11, Nº do lote = B1
+-   Recebimento de produtos 2 = Quantidade = 50 pcs., Valor = $800,00, Local = 1, Depósito = 11, Nº do lote = B2
 
 A tabela a seguir mostra o resultado do cálculo para um objeto de custo. Você pode exibir o resultado na página **Objeto de custo**.
 
@@ -130,10 +130,10 @@ A tabela a seguir mostra o resultado do cálculo para um objeto de estoque. Voc�
 <a name="see-also"></a>Consulte também
 --------
 
-[Cost objects](cost-object.md)
+[Objetos de custo](cost-object.md)
 
-[Cost entries](cost-entries.md)
+[Entradas de custo](cost-entries.md)
 
-[Novidades e alterado no Microsoft Dynamics AX (/dynamics365/operations/dev-itpro/get-started/what] é alterado) - novo-
+[Novidades e alterações no Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
 

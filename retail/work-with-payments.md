@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="payment-methods-in-a-call-center"></a>Métodos de pagamento em um call center
 
+[!include[banner](includes/banner.md)]
+
+
 Este tópico aborda os métodos de pagamento diferentes que você pode usar em um call center no varejo e comércio.
 
 Os métodos de pagamento usados em outros canais em Varejo e no comércio no Microsoft Dynamics AX, como à vista, cheques, cartões de crédito e cartões-presente, também podem ser usados em call centers. Depois de configurar um método de pagamento para um call center, ele aparecerá como uma das opções na seção **Pagamentos** do formulário **Ordens de venda** para usuários de call center. Além disso, você pode configurar cupons para oferecer descontos para clientes quando eles fazem um pedido no call center da sua organização. Os cupons podem ser um desconto de valor fixo ou uma porcentagem do preço de um item ou do total da ordem. Por exemplo, um valor base de cupom pode oferecer aos clientes um desconto de R$75,00 quando o cliente gasta R$750,00 ou mais. Você pode criar diferentes tipos de cupons, configurar cupons de pai/filho e copiar ou anular um cupom. Use as opções na tabela a seguir para criar cupons.
@@ -43,6 +46,8 @@ Se você enviar um pagamento com cartão de crédito na página **Ordens de vend
 
 -   Suspensões de seleção permitem que o pessoal de finanças de ordens de processo coloquem em retidos, pois há uma verificação usada como o método de pagamento e ela mantêm o valor de limite que foi excedido. A suspensão pode ser lançada manualmente ou automaticamente expirar no final do período configurado.
 -   Você pode definir limites acima do reembolso que são emitidos por meio de cheque e o cartão de crédito deve ser aprovado manualmente. Qualquer reembolso que exceda o valor de limite é adicionado à fila de aprovação. Depois de aprovar o reembolso, a ordem de venda de devolução pode ser faturada.
+
+
 
 
 

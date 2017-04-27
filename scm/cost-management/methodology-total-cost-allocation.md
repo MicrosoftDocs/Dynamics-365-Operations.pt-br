@@ -32,7 +32,7 @@ Este artigo oferece diretrizes para usar a alocação de custo total (TCA). A TC
 
 A alocação de custo total (TCA) é um método de cálculo de custos entre o item de fórmula principal para uma ordem de lote e os coprodutos definidos para a fórmula. Esse método é dinâmico. Ele calcula os custos como uma média ponderada entre as quantidades relatadas como concluídas para o item de fórmula e os coprodutos. Quando a TCA é usada, não é necessário examinar as alocações de custo para cada ordem de lotes. Se a TCA não for usada, o cálculo da fórmula usa a funcionalidade existente.
 
-## <a name="using-tca-for-coproducts"></a>Usando o TCA para coproducts
+## <a name="using-tca-for-coproducts"></a>Usando TCA para coprodutos
 Veja algumas das diretrizes para usar TCA para coprodutos:
 
 -   Se você definir o controle deslizante **Alocação de custo total** como **Sim** para uma versão da fórmula, os coprodutos deverão ter um preço de custo maior do que 0 (zero). O valor pode ser obtido da versão de custo ativa para ao mesmo site, ou para o primeiro site para uma fórmula não específica de site. Essa condição é validada quando a fórmula é aprovada.
@@ -46,7 +46,7 @@ Veja algumas das diretrizes para usar TCA para coprodutos:
 -   Quando uma ordem de lotes é criada manualmente ou uma ordem de lote planejada é confirmada, o valor do controle deslizante **Alocação de Custo Total** para a versão da fórmula é copiada para a ordem de lotes. No entanto, você pode alterar essa configuração na ordem de lotes. Se o controle deslizante **Alocação Total de Custo** for definido como **Não** para a versão da fórmula e então alterado para **Sim** para a ordem de lotes, o método de alocação de custo para cada linha definido como **Manual** será alterado para **TCA**. Uma alocação de custo **Nenhuma** permanecerá inalterada. Se o controle deslizante **Alocação Total de Custo** for definido como **Sim** para a versão da fórmula e então alterado para **Não** para a ordem de lotes, o método de alocação de custo para cada coproduto do tipo **Produção** será alterado para **Manual**. Qualquer porcentagem prevista de alocação de custos permanece inalterada.
 -   A página **Alocação de custo de coproduto** mostra a porcentagem calculada de alocação de custo. Você pode abrir essa página da página **Ordem de lotes**. Essas informações são úteis quando os produtos e as quantidades relatados são diferentes das quantidades agendadas ou iniciadas na ordem de lotes. Quando o custo for concluído, essas novas alocações de porcentagem de TCA serão mostradas na página **Alocação de custo de coproduto**.
 
-## <a name="calculating-the-burden-for-byproducts"></a>Calculando a carga para byproducts
+## <a name="calculating-the-burden-for-byproducts"></a>Como calcular o custo indireto de subprodutos
 O campo **Alocação de custo de subproduto** na página **Coprodutos** é um campo enumerador usado apenas para subprodutos. Para coprodutos, o valor deste campo é sempre **Nenhum**. Para linhas de subproduto, esse campo determina como o valor de custo para a linha de subprodutos será adicionado aos custos totais de produção. As opções a seguir estão disponíveis:
 
 -   **Nenhum**: nenhum valor é adicionado aos custos totais de produção para essa linha de subproduto.

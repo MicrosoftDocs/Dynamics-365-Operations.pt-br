@@ -1,5 +1,5 @@
 ---
-title: "Visão geral de notas fiscais de fornecedor"
+title: "Visão geral das faturas de fornecedor"
 description: "Este artigo fornece informações gerais sobre notas fiscais de fornecedor. As notas fiscais de fornecedor são solicitações para pagamento dos produtos e serviços recebidos. As notas fiscais do fornecedor podem representar uma conta para serviços em andamento, ou podem se basear em ordens de compra para itens específicos e serviços."
 author: twheeloc
 manager: AnnBe
@@ -25,20 +25,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-invoices-overview"></a>Visão geral de notas fiscais de fornecedor
+# <a name="vendor-invoices-overview"></a>Visão geral das faturas de fornecedor
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo fornece informações gerais sobre notas fiscais de fornecedor. As notas fiscais de fornecedor são solicitações para pagamento dos produtos e serviços recebidos. As notas fiscais do fornecedor podem representar uma conta para serviços em andamento, ou podem se basear em ordens de compra para itens específicos e serviços. 
 
 <a name="vendor-invoices"></a>Faturas de fornecedor
 ---------------
 
-Uma fatura de fornecedor de uma ordem de compra é uma fatura que é gerada quando produtos ou serviços são recebidos de acordo com uma ordem de compra que foi criada com um fornecedor. A nota fiscal do fornecedor contém um cabeçalho, e uma ou mais linhas para itens ou serviços. Uma nota fiscal de fornecedor concluir o ciclo da ordem de compra para o recebimento de produtos a nota fiscal de fornecedor. 
+Uma fatura de fornecedor de uma ordem de compra é uma fatura que é gerada quando produtos ou serviços são recebidos de acordo com uma ordem de compra que foi criada com um fornecedor. A fatura do fornecedor contém um cabeçalho e uma ou mais linhas para itens ou serviços. Uma fatura do fornecedor completa o ciclo da ordem de compra para a nota fiscal do fornecedor. 
 
 Embora algumas faturas de fornecedor estejam associadas a uma ordem de compra, as faturas de fornecedor também podem conter linhas que não correspondem às linhas da ordem de compra. Você também pode criar faturas de fornecedor que não estão associadas com qualquer ordem de compra. Essas faturas de fornecedor podem representar serviços em andamento, como uma conta de serviço público, e não é necessário fazer referência a uma ordem de compra ao adicioná-las. 
 
 Há várias formas de inserir uma fatura de fornecedor:
 
--   O registro de nota fiscal de fornecedor que permite inserir as notas fiscais que não fazem referência um ordem de compra, de forma que você pode acumular despesas. Usando o diário de aprovação de nota fiscal de fornecedor, você pode selecionar essas notas fiscais e lançá-las o saldo de fornecedor para reverter acúmulo.
+-   O registro de fatura do fornecedor permite que você insira rapidamente faturas que não fazem referência a uma ordem de compra, para que você possa acumular a despesa. Ao usar o diário de aprovação de fatura do fornecedor, você pode selecionar essas faturas e publicá-las no saldo do fornecedor para reverter a provisão.
 -   O diário de faturas de fornecedor permite inserir rapidamente faturas que não fazem referência a uma ordem de compra, em uma única etapa.
 -   Junto com o grupo de faturas de fornecedor, o registro de fatura de fornecedor permite inserir rapidamente faturas para aumentar a despesa. Você pode abrir as ordens de compra associadas ao lançar a fatura com base na conta de despesas.
 -   As páginas **Faturas de fornecedor em aberto** e **Faturas de fornecedor pendentes** permitem criar faturas de fornecedor a partir de ordens de compra confirmadas.
@@ -57,7 +60,7 @@ Ao abrir uma fatura de fornecedor de uma ordem de compra relacionada, as linhas 
 Se a entidade legal utiliza a conciliação de faturas, você pode exibir os resultados da conciliação de quantidade na coluna **Conciliação de quantidade de recebimento de produtos**. Você também pode usar o comando do menu **Detalhes de conciliação** na guia **Revisão** para exibir os resultados da conciliação de quantidade.
 
 ## <a name="adding-a-line-that-wasnt-on-the-purchase-order"></a>Adicionar uma linha que não estava na ordem de compra
-Você pode adicionar uma nova linha que não está em ordem de compra para a nota fiscal de fornecedor. Você deve selecionar um número de item ou uma categoria de compras. Você pode adicionar quantidades, preços e valores na linha. A linha será incluída somente nas políticas de conciliação para os totais de fatura.
+Você pode adicionar uma nova linha que não estava na ordem de compra para a fatura do fornecedor. Você deve selecionar um número de item ou categoria de suprimento. Você pode adicionar quantidades, preços e valores na linha. A linha será incluída somente nas políticas de conciliação para os totais de fatura.
 
 ## <a name="submitting-a-vendor-invoice-for-review"></a>Enviando uma fatura de fornecedor para revisão
 Sua organização pode usar os fluxos de trabalho para gerenciar o processo de revisão para faturas de fornecedores. A revisão de fluxo de trabalho poderá ser necessária para o cabeçalho ou a linha da fatura, ou ambos. Os controles do fluxo de trabalho se aplicam ao cabeçalho ou linha, dependendo de onde o foco estiver ao clicar no controle. Em vez do botão **Lançar**, você verá o botão **Enviar** que você pode usar para enviar a fatura de fornecedor com o processo de revisão.
@@ -74,6 +77,8 @@ Esta opção pressupõe que pelo menos um recebimento de produtos tenha sido lan
 ## <a name="working-with-multiple-invoices"></a>Trabalhando com diversas faturas
 
 Você pode trabalhar com várias faturas e lançá-las ao mesmo tempo. Se você precisar criar várias faturas, use a página **Faturas de fornecedor pendentes**. Se você precisar lançar e imprimir várias faturas de fornecedor, use a página do diário de aprovação de faturas. Se você estiver usando o diário de aprovação de fatura, pelo menos um recebimento de produtos deve ser lançado para a ordem de compra, e uma fatura para a ordem de compra deve ser lançada em um registro de fatura. As informações financeiras para a fatura vêm da fatura que foi lançada no registro.
+
+
 
 
 

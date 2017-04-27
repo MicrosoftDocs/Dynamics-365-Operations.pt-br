@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-generate-positive-pay-files"></a>Configurar e gerar arquivos de pagamento positivo
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo explica como configurar o pagamento positivo e gerar arquivos de pagamento positivo. 
 
 Configure o pagamento positivo para gerar uma lista eletrônica de cheques que é fornecida ao banco. Então, quando o cheque é apresentado ao banco, o banco o compara à lista de cheques. Se o cheque corresponder a um cheque na lista, o banco o liberará. Se o cheque não corresponder a um cheque na lista, o banco o reterá para revisão.
 
 ## <a name="security-for-positive-pay-files"></a>Segurança para arquivos de pagamento positivo
-Os arquivos de pagamento positivo podem conter dados sigilosos sobre o credor e valores de cheque. Portanto, certifique-se de usar medidas de segurança apropriadas a partir do momento em que os arquivos são geradas até o momento em que são recebidos pelo banco. Os arquivos de pagamento positivo são baixados para o local especificado pelo navegador. Porque positivos os arquivos de pagamento podem conter dados sigilosos, é importante que somente usuários autorizados têm acesso para gerar e exibir estas informações no Microsoft Dynamics 365 para as operações. Use a tabela a seguir para ajudar a determinar os privilégios necessários.
+Os arquivos de pagamento positivo podem conter dados sigilosos sobre o credor e valores de cheque. Portanto, certifique-se de usar medidas de segurança apropriadas a partir do momento em que os arquivos são geradas até o momento em que são recebidos pelo banco. Os arquivos de pagamento positivo são baixados para o local especificado pelo navegador. Como os arquivos de pagamento positivo podem conter dados sigilosos, é importante que somente os usuários autorizados tenham acesso para gerar e exibir as informações no Microsoft Dynamics 365 for Operations. Use a tabela a seguir para ajudar a determinar os privilégios necessários.
 
 <table>
 <colgroup>
@@ -156,5 +159,7 @@ Depois que os cheques listados em um arquivo de pagamento positivo forem pagos, 
 
 ## <a name="recall-a-positive-pay-file"></a>Cancelar um arquivo de pagamento positivo
 Se você tiver de alterar um arquivo de pagamento positivo, poderá cancelá-lo. Na página **Resumo do arquivo de pagamento positivo**, selecione um arquivo de pagamento positivo com o status **Criado** e selecione a ação **Cancelar**. Para cada cheque no arquivo de pagamento positivo, o campo que indica se esse cheque foi incluído em um arquivo de pagamento positivo será redefinido. Em seguida, você poderá criar um novo arquivo de pagamento positivo que inclua o cheque cancelado.
+
+
 
 

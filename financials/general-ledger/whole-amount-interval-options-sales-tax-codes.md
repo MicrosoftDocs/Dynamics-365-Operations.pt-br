@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>Opções de cálculo de intervalo e valor total para códigos de imposto
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo explica as opções para o campo Método de cálculo em códigos de imposto e como o imposto é calculado para intervalos e valores inteiros.
 
 Você pode configurar um código de imposto a ser calculado com base em um valor inteiro ou em um intervalo de valores. Na página Códigos de imposto, use o campo Método de cálculo na Guia Rápida Cálculo para selecionar como calcular um código de imposto.
@@ -56,10 +59,10 @@ O imposto é calculado sobre o valor tributável total.
 
 | Valor tributável (preço) | Cálculo    | Imposto |
 |------------------------|----------------|-----------|
-| 35,00                  | 35.00 \* 0.30  | R$ 10,50     |
-| 50,00                  | 50.00 \* 0.30  | 15,00     |
-| 85,00                  | 85.00 \* 0.20  | 17,00     |
-| 305,00                 | 305.00 \* 0.10 | 30,50     |
+| 35,00                  | 35,00 \* 0,30  | R$ 10,50     |
+| 50,00                  | 50,00 \* 0,30  | 15,00     |
+| 85,00                  | 85,00 \* 0,20  | 17,00     |
+| 305,00                 | 305,00 \* 0,10 | 30,50     |
 
 ## <a name="example-interval-method-of-calculation"></a>Exemplo: método de cálculo de intervalo
 Na página Valores, as taxas de imposto são configuradas nos intervalos a seguir:
@@ -75,14 +78,16 @@ O imposto sobre vendas é a soma dos valores de imposto calculados para cada int
 
 | Valor tributável (preço) | Cálculo                                                               | Imposto |
 |------------------------|---------------------------------------------------------------------------|-----------|
-| 35,00                  | 35.00 \* 0.30                                                             | R$ 10,50     |
-| 50,00                  | 50.00 \* 0.30                                                             | 15,00     |
-| 85,00                  | (50.00 \* 0.30 = 15.00) + (35.00 \* 0.20 = 7.00)                          | 22,00     |
-| 305,00                 | (50.00 \* 0.30 = 15.00) + (50.00 \* 0.20 = 10.00) + (205 \* 0.10 = 20.50) | 45,50     |
+| 35,00                  | 35,00 \* 0,30                                                             | R$ 10,50     |
+| 50,00                  | 50,00 \* 0,30                                                             | 15,00     |
+| 85,00                  | (50,00 \* 0,30 = 15,00) + (35,00 \* 0,20 = 7,00)                          | 22,00     |
+| 305,00                 | (50,00 \* 0,30 = 15,00) + (50,00 \* 0,20 = 10,00) + (205 \* 0,10 = 20,50) | 45,50     |
 
  
 
-Para obter mais informações, consulte [determinando taxas de imposto de venda com base nos campos marginais] de base e do método de cálculo (marginal-base-field.md).
+Para obter mais informações, consulte [Determinando as alíquotas de imposto com base nos campos Base marginal e Método de cálculo](marginal-base-field.md).
+
+
 
 
 

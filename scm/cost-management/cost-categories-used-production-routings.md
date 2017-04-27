@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="cost-categories-used-in-production-routing"></a>Categorias de custo usadas em roteiros de produção
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo oferece informações sobre as categorias de custo que se aplicam aos ambientes de fabricação que usam o roteiro.
 
 As categorias de custo se aplicam aos ambientes de fabricação que usam roteiro. Elas são atribuídas aos recursos de operações e às operações de roteiro para definir custos por hora e segmentar as contribuições de custo nos custos calculados de um item fabricado. Os grupos de custos atribuídos a categorias de custo classificam as contribuições de custo de fabricação com base nos recursos de operações e no tipo de atividade, como tempo de preparação e de execução. A especificidade das atribuições de grupo de custos permite que uma sobrecarga de fabricação seja calculada com base nas informações de roteiro. 
@@ -51,5 +54,7 @@ O registro de custo para uma categoria de custo pode ser específico ao site ou 
 Uma operação de roteiro geralmente herda as categorias de custo atribuídas ao recurso de operações ou à operação principal. Quando uma ordem de produção é criada, as operações de roteiro no roteiro de produção refletem a versão do roteiro selecionada. Você pode substituir as categorias de custo que são atribuídas às operações no roteiro de produção. 
 
 Alguns tipos de trabalho de produção podem ser aplicados a estimativas de tempo de projeto e a relatórios. Nesse caso, uma categoria de custo é necessária para fins de produção e de projeto. Você deve definir outras informações relacionadas ao projeto quando uma categoria de custo é sinalizada para uso em projetos.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Visão geral do processo de NF-e para O Brasil"
-description: "Este tópico fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de NF-e () para registrar a movimentação de itens e de serviço entre duas partes."
+title: "Visão geral do processo de NF-e para o Brasil"
+description: "Este tópico fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="nf-e-process-overview-for-brazil"></a>Visão geral do processo de NF-e para O Brasil
+# <a name="nf-e-process-overview-for-brazil"></a>Visão geral do processo de NF-e para o Brasil
 
-Este tópico fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de NF-e () para registrar a movimentação de itens e de serviço entre duas partes.
+[!include[banner](../includes/banner.md)]
 
-Você pode usar uma Nota fiscal eletrônica de NF-e () para registrar a movimentação de itens e de serviço entre duas partes. Você pode gerar uma NF-e de qualquer uma das seguintes notas fiscais:
+
+Este tópico fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes.
+
+Você pode usar uma Nota Fiscal eletrônica (NF-e) para registrar a movimentação de itens e serviços entre dois participantes. Você pode gerar uma NF-e de qualquer uma das seguintes notas fiscais:
 
 -   Ordens de venda
 -   Ordens de compra para fornecedores não contribuinte
@@ -37,25 +40,27 @@ Você pode usar uma Nota fiscal eletrônica de NF-e () para registrar a moviment
 -   Notas fiscais de transferência ou apropriação de imposto
 -   Faturas de texto livre
 
-Antes de gerar um NF-e, você deve concluir as seguintes tarefas:
+Antes de gerar uma NF-e, você deve concluir as seguintes tarefas:
 
 -   Configure serviços da Web, códigos de rejeição e esquemas para um domínio.
--   Para cada, estabelecimento fiscal configurar um certificado, um ambiente, versões de NF-e, uma autoridade, modelo, a validação de esquemas, e um modo de contingência de NF-e o. Além disso, configure a impressão do auxiliar fiscal eletrônica de Documento Nota a Dinamarca (DANFE), assim o DANFE é impressa automaticamente após aprovação de NF-e.
+-   Para cada estabelecimento fiscal configure um ambiente, uma versão de NF-e, uma autoridade, um modelo, validação de esquema e um modo de contingência para NF-e. Além disso, configure a impressão automática do Documento auxiliar da Nota fiscal eletrônica (DANFE), de forma que o DANFE seja impresso automaticamente após a aprovação da NF-e.
 -   Configure os serviços da Web relacionados a uma autoridade fiscal.
 -   Configure um tipo de documento fiscal para uma NF-e.
 
 Depois que você gera uma NF-e, pode enviar a NF-e assinada digitalmente para a Secretaria da Fazenda (SEFAZ) em uma mensagem XML. Os itens poderão ser entregues depois que a NF-e for aprovada eletronicamente pela SEFAZ. O processo da NF-e inclui as seguintes etapas:
 
-1.  O estabelecimento fiscal lançar uma nota fiscal com um tipo de documento fiscal configurado para o modelo de documento fiscal 55 para gerar um NF-e.
-2.  O processo da exportação ou importação de NF-e detecta a nota fiscal lançada para o modelo de documento fiscal 55 e gera uma mensagem no formato XML. Uma mensagem XML separada é gerada para cada NF-e. As mensagens XML é passado. a SEFAZ
-3.  A SEFAZ processa a mensagem XML e retorna um protocolo e um status para cada NF-e. O status e o protocolo de NF-e são atribuídos no NF-e usado no processo da exportação ou importação de NF-e. O status que é retornado pode ser aprovada ** **, ** negada ** **, rejeitado ** **, cancelado ** **, não fixável rejeitado **, ** ** ou rejeitado. Esta informação é usada para atualizar o status de nota fiscal no Microsoft Dynamics 365 para as operações.
+1.  O estabelecimento fiscal lança uma nota fiscal usando um tipo de nota fiscal que é configurado para o modelo de nota fiscal 55 para gerar uma NF-e.
+2.  O processo de exportação ou de importação detecta a nota fiscal lançada para o modelo de nota fiscal 55 e gera uma mensagem XML no formato especificado. Uma mensagem XML separada é gerada para cada NF-e. A mensagem XML é transmitida à SEFAZ.
+3.  A SEFAZ processa a mensagem XML e retorna um protocolo e um status para cada NF-e. O status da NF-e e o protocolo são então atribuídos à NF-e que é usada no processo de exportação ou importação de NF-e. O status que é retornado pode ser **Aprovado**, **Negado**, **Rejeitado**, **Cancelado**, **Rejeitado sem correção** ou **Rejeitado**. Esta informação é usada para atualizar o status da nota fiscal no Microsoft Dynamics 365 for Operations.
 
-Depois que o status de NF-e for recebido de SEFAZ, execute as tarefas a seguir, dependendo do status:
+Depois que o status da NF-e for recebido da SEFAZ, você poderá executar as seguintes tarefas, dependendo do status:
 
--   Se a NF-e for aprovada, você poderá imprimir o DANFE. Alternativamente, se imprimir ** o DANFE quando o NF-e é aprovado ** a opção selecionada ** NF-e federal ** em FastTab ** estabelecimentos fiscais ** de página, o DANFE é impressa automaticamente.
+-   Se a NF-e for aprovada, você poderá imprimir o DANFE. Como alternativa, se a opção **Imprimir DANFE quando NF-e for aprovada** for selecionada na FastTab **NF-e federal** da página **Estabelecimentos fiscais**, o DANFE será impresso automaticamente.
 -   Se a NF-e for negada, será necessário cancelá-la.
--   Se o NF-e é anulada e pode ser fixo, você pode corrigir informações incorretas, clique em enviar novamente ** ** ** NF-e federal ** ** na guia nota fiscal ** de página para reenviar o NF-e a SEFAZ.
--   Se o NF-e é anulada e não pode ser fixo, você deve cancelar o NF-e rejeitado que rejeitou o número. O processo da exportação ou importação de NF-e detecta a nota fiscal que é lançado e marcada para o descarte, e gera uma mensagem XML do formato especificado para o número de NF-e rejeitado. Esta mensagem XML é passado na SEFAZ, e o status de nota fiscal definido é como ** ** rejeitado.
+-   Se a NF-e for rejeitada e puder ser corrigida, você poderá corrigir as informações incorretas e depois poderá clicar em **Reenviar** na guia **NF-e federal** da página **Documento fiscal** para reenviar a NF-e à SEFAZ.
+-   Se a NF-e for rejeitada e não puder ser corrigida, você deverá cancelar a NF-e descartada que tem o número descartado. O processo de exportação ou de importação da NF-e detecta a nota fiscal lançada e marcada para descarte e então gera uma mensagem XML no formato especificado para o número da NF-e descartada. Esta mensagem XML é transmitida à SEFAZ, e o status da nota fiscal é definido é como **Rejeitado**
+
+
 
 
 

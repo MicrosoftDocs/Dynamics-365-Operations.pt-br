@@ -29,9 +29,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="dimension-based-product-configuration"></a>Configuração de produto baseada em dimensão
 
+[!include[banner](../includes/banner.md)]
+
+
 A configuração do produto com base na dimensão representa uma solução simples para criação de diversas variantes de produtos de um único produto mestre e sua lista de materiais.
 
-a configuração de produção com base é uma das três tecnologias internos de configuração de produto. As duas outras tecnologias são variações pré-definidas e configuração baseada em restrições. As três tecnologias usam um produto mestre como ponto de partida e permitem que o usuário crie várias variantes de produto para um produto mestre.
+A configuração de produto baseada em dimensão é uma das três tecnologias de configuração de produto internas. As duas outras tecnologias são variações pré-definidas e configuração baseada em restrições. As três tecnologias usam um produto mestre como ponto de partida e permitem que o usuário crie várias variantes de produto para um produto mestre.
 
 ## <a name="key-concepts"></a>Conceitos principais
 A configuração de produto baseada em dimensão baseia-se nos seguintes conceitos principais:
@@ -68,10 +71,12 @@ O roteiro de configuração determina a sequência dos grupos de configurações
 As regras de configuração representam um mecanismo para assegurar que um produto incluído em um grupo de configuração em uma BOM garanta uma inclusão ou uma exclusão de um produto em um grupo de configurações diferentes na mesma BOM.
 
 ## <a name="product-modeling-process"></a>Processo de modelagem do produto
-A sequência natural para compilar um modelo de produto para um produto baseado em dimensão começa com a definição dos grupos de configuração relevantes. É importante garantir que todos os produtos que serão usados na BOM tenham sido liberados para a empresa para a qual o modelo de produto foi criado. Com os blocos de construção em vigor, o usuário poderá criar a BOM e atribuir grupos de configuração a todas as linhas relevantes da BOM. Quando a BOM está concluído, um roteiro de configuração pode ser definida encomendando os grupos de configuração na sequência apropriada. associação\_282671 "id= de legenda\[" width= " " alignnone de align=” 1187 "\][baseado![processo de modelagem de produto (]. /media/dimension-based-product-modeling-process-v1.png)](. processo baseado\[/caption\] se houver alguns produtos grupos de configuração diferentes que deve ou não deve ser usado junto, você a modelagem de produto em /media/dimension-based-product-modeling-process-v1.png) pode criar regras de configuração garante que esses relacionamentos de produto. Após a BOM ser vinculada a um produto mestre baseado em dimensão por meio de uma versão da BOM e ambos serem aprovados e ativados, será possível criar configurações de produto e inserir um nome para cada configuração. As configurações podem ser definidas antes que qualquer transação seja gerada ou possa ser feita quando houver necessidade de uma determinada configuração.
+A sequência natural para compilar um modelo de produto para um produto baseado em dimensão começa com a definição dos grupos de configuração relevantes. É importante garantir que todos os produtos que serão usados na BOM tenham sido liberados para a empresa para a qual o modelo de produto foi criado. Com esses blocos de construção em vigor, o usuário poderá criar a BOM e atribuir grupos de configuração a todas as linhas relevantes da BOM. Quando a BOM estiver concluída, um roteiro de configuração poderá ser definido para o pedido de grupos de configuração na sequência apropriada. \[caption id="attachment\_282671" align="alignnone" width="1187"\][![Processo de modelagem de produto baseado em dimensão](./media/dimension-based-product-modeling-process-v1.png)](./media/dimension-based-product-modeling-process-v1.png) Processo de modelagem de produto baseado em dimensão\[/caption\] Se houver alguns produtos de grupos de configuração diferentes que devem ou não ser usados em conjunto, é possível criar regras de configuração que impõem esses relacionamentos de produtos. Após a BOM ser vinculada a um produto mestre baseado em dimensão por meio de uma versão da BOM e ambos serem aprovados e ativados, será possível criar configurações de produto e inserir um nome para cada configuração. As configurações podem ser definidas antes que qualquer transação seja gerada ou possa ser feita quando houver necessidade de uma determinada configuração.
 
 ### <a name="suggested-use"></a>Uso sugerido
 
 A tecnologia de configuração baseada em dimensão é melhor usada para produtos com variabilidade limitada e a combinação de estilo, cor, tamanho e configuração das dimensões do produto não for adequada para identificar uma variante de produto específica. Um exemplo poderia ser uma bicicleta com altura de quadro, tamanho de roda, tipos de freio, e embreagem diferente.
+
+
 
 

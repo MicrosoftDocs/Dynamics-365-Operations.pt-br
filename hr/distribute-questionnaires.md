@@ -1,6 +1,6 @@
 ---
 title: "Distribuir e concluir um questionário"
-description: "Este tópico explica como distribuir questionários que você criar, assim estão disponíveis a pessoa ou o grupo de pessoas que os concluirão."
+description: "Este tópico explica como distribuir os questionários criados por você, de modo que sejam disponibilizados para a pessoa ou grupo de pessoas que os preencherão."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Distribuir e concluir um questionário
 
-Este tópico explica como distribuir questionários que você criar, assim estão disponíveis a pessoa ou o grupo de pessoas que os concluirão. 
+Este tópico explica como distribuir os questionários criados por você, de modo que sejam disponibilizados para a pessoa ou grupo de pessoas que os preencherão. 
 
 Há várias formas de distribuir um questionário:
 
@@ -38,7 +38,7 @@ Há várias formas de distribuir um questionário:
 -   Criar uma agenda. O questionário poderá estar disponível para vários contatos.
 
 ## <a name="marking-a-questionnaire-as-active"></a>Marcar um questionário como ativo
-Definindo Sim ** do campo ativo ** ** ** ** questionários ** na página, faça o questionário disponível para todos os funcionários que foram concluídas. Os respondentes poderão preencher o questionário várias vezes. Essa funcionalidade será útil se deseja cobrar comentários contínuos com o ano. Por exemplo, você pode fazer um questionário que os funcionários usam para fornecer feedback sobre o serviço de almoço no bar.
+Configurando o campo **Ativo** como **Sim** na página **Questionários**, você disponibiliza o questionário para todos os funcionários preencherem. Os respondentes poderão preencher o questionário várias vezes. Essa funcionalidade será útil se você quiser obter feedback contínuo durante todo o ano. Por exemplo, você pode fazer um questionário que os funcionários usam para fornecer feedback sobre o serviço de almoço no bar.
 
 ## <a name="questionnaire-groups"></a>Grupos de questionários
 Você pode configurar grupos de questionário e incluir os participantes para os quais um questionário deve ser distribuído. 
@@ -48,7 +48,7 @@ Você pode criar grupos de questionário das seguintes páginas:
 -   **Grupos de questionários **– Somente os indivíduos em um grupo de questionário podem preencher um questionário selecionado. Por exemplo, se o público-alvo é prestadores de serviço, você pode criar um grupo de questionário que é específico para esses entrevistados.
 -   **Membros do grupo de questionário** – Você pode adicionar pessoas aos grupos de questionários.
 
-Para atribuir um grupo de questionário a um questionário, questionários ** ** na página, clique ** ** direitos de usuário. Depois que o questionário foi salvo como ativos fixos, os membros do grupo de questionário podem preencher o questionário. Essa funcionalidade será útil se desejar testar um questionário em um grupo de pessoas para que você selecione o role para fora a um grupo ou maior, se desejar definir alvos de um questionário a audiência muito específica.
+Para atribuir um grupo de questionários a um questionário, na página **Questionário**, clique em **Direitos do usuário**. Depois que o questionário foi salvo como ativo, os membros do grupo de questionário podem preencher o questionário. Essa funcionalidade será útil se você quiser testar um questionário em um grupo seleto de pessoas antes de enviá-lo para um grupo maior, ou se você quiser direcionar um questionário para um público muito específico.
 
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Sessões de respostas planejadas em um questionário
 As sessões de respostas planejadas são os questionários para os quais você criou e selecionou os participantes. 
@@ -82,24 +82,24 @@ Você pode especificar tipos de plano para um plano de questionário na página 
 
 É possível usar tipos de referência para inserir critérios para os entrevistados que você pode selecionar ao planejar um questionário. 
 
-Use a página **Tipos de referência** para configurar os tipos de referência para um questionário. Cada tipo de referência correspondente em uma tabela no Microsoft Dynamics 365 para as operações. A o criar planos de questionários, você pode especificar os registros individuais na tabela ou um intervalo de registros ao qual o questionário será associado. 
+Use a página **Tipos de referência** para configurar os tipos de referência para um questionário. Cada tipo de referência corresponde a uma tabela do Microsoft Dynamics 365 for Operations. A o criar planos de questionários, você pode especificar os registros individuais na tabela ou um intervalo de registros ao qual o questionário será associado. 
 
 Por exemplo, se você selecionar a tabela Cursos, poderá decidir qual curso específico para o qual será o questionário. Ao configurar uma referência para a tabela Cursos, alguns campos e botões na página **Cursos** se tornam disponíveis.
 
 ### <a name="questionnaire-schedules"></a>Agendas de questionários
 
-Você pode usar agendas de questionário para gerar várias sessões de resposta planejadas para um grupo de usuários, com base em um tipo de referência. Criar uma agenda ** agendas de questionário ** na página. Selecione o tipo de planejamento para categorizar a agenda, selecione também o tipo de referência que deve ser usado para consultar o sistema para usuários específicos. Por exemplo, se definir o tipo de referência cursos tabela, selecione um curso específico ** ** referência no campo. 
+Você pode usar agendas de questionário para gerar várias sessões de resposta planejadas para um grupo de usuários, com base em um tipo de referência. Criar uma agenda na página **Agendas de questionários**. Selecione o tipo de planejamento para categorizar a agenda e também selecione o tipo de referência que deve ser usado para consultar o sistema para usuários específicos. Por exemplo, se definir o tipo de referência para a tabela Cursos, você pode selecionar um curso específico no campo **Referência**. 
 
-Clique em **Detalhes de instalação** para selecionar o questionário e outros critérios. Por exemplo, especifique o nome do instrutor como um critério se o questionário será uma estimativa do instrutor. Depois de concluir inserir detalhes de instalação, o sistema gera sessões de respostas planejadas para os usuários incluídos na consulta. 
+Clique em **Detalhes de instalação** para selecionar o questionário e outros critérios. Por exemplo, especifique o nome do instrutor como um critério, se o questionário for uma avaliação do instrutor. Depois que terminar de inserir os detalhes de instalação, o sistema gera sessões de respostas planejadas para os usuários incluídos na consulta. 
 
 Clique em **Sessões de respostas planejadas** para exibir as sessões de respostas para a agenda. Você poderá criar manualmente sessões de respostas planejadas adicionais ou excluir as sessões de respostas planejadas que não foram atendidas. 
 
-Clique ** funções ** &gt; ** Início ** disponibilizar o questionário disponível para usuários em sessões de respostas planejadas relacionadas. Clique em **Respostas** para exibir as respostas concluídas do questionário. Como opção, você pode copiar as configurações de agenda do questionário, as sessões de respostas planejadas, e as respostas para uma nova agenda de questionário.
+Clique em **Funções** &gt; **Início** para disponibilizar o questionário aos usuários em sessões de respostas planejadas relacionadas. Clique em **Respostas** para exibir as respostas concluídas do questionário. Como opção, você pode copiar as configurações de agenda do questionário, as sessões de respostas planejadas, e as respostas para uma nova agenda de questionário.
 
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Notificando participantes sobre os questionários que estão disponíveis para eles
 Quando você distribuir um questionário, será necessário notificar os entrevistados que há questionários disponíveis para eles. 
 
-** Observação: ** Os respondentes devem ser usuários no Microsoft Dynamics 365 para as operações concluam um questionário.
+**Observação:** Os entrevistados devem ser usuários do Microsoft Dynamics 365 for Operations para preencher um questionário.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Notificando os participantes sobre uma sessão de respostas planejadas
 
@@ -107,7 +107,7 @@ Se você usar uma sessão de resposta planejadas, você deve notificar a pessoa 
 
 ### <a name="notifying-respondents-about-a-scheduling"></a>Notificando participantes sobre um planejamento
 
-Use a página **Agendas de questionário** para preparar e enviar um email a todos os entrevistados atribuídos ao questionário. Insira o texto do email na guia **Email para o autoatendimento para funcionários**. Depois que o plano foi iniciada, clique em funções ** ** &gt; ** o email de push ** para gerar e enviar o email para respondentes. Os respondentes poderão então conectar ao site e preencher o questionário. 
+Use a página **Agendas de questionário** para preparar e enviar um email a todos os entrevistados atribuídos ao questionário. Insira o texto do email na guia **Email para o autoatendimento para funcionários**. Depois que a agenda for iniciada, clique em **Funções** &gt; **Enviar email** para gerar e enviar o e-mail aos entrevistados. Os entrevistados poderão efetuar logon no site e preencher o questionário. 
 
 **Observação:** Antes que você possa usar a funcionalidade de email, o administrador de TI deve inserir as configurações de email na página **Parâmetros de email**.
 
@@ -119,7 +119,7 @@ Use a página **Agendas de questionário** para preparar e enviar um email a tod
 ## <a name="completing-questionnaires"></a>Preenchendo questionários
 Após criar e distribuir um questionário, este poderá ser preenchido por entrevistados selecionados. Você pode preencher os questionários disponíveis para você em dois locais:
 
--   No painel de navegação, clique ** questionários ** &gt; ** distribua ** &gt; ** ** preencher um questionário.
+-   No painel de navegação, clique em **Questionários** &gt; **Distribuir** &gt; **Preencher um questionário**.
 -   No autoatendimento do funcionário, clique em **Questionários a serem concluídos**.
 
 Os questionários podem ficar disponíveis para usuários específicos, grupos de usuários ou todas as pessoas de uma rede.
@@ -131,6 +131,6 @@ Os questionários podem ficar disponíveis para usuários específicos, grupos d
 
 [Usando questionários](questionnaires.md)
 
-[Exibição e avaliação dos resultados de questionários (evaluate-questionnaire-results.md])
+[Exibindo e avaliando os resultados dos questionários](evaluate-questionnaire-results.md)
 
 

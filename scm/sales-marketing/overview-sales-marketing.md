@@ -26,23 +26,26 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-and-marketing"></a>Vendas e marketing
 
+[!include[banner](../includes/banner.md)]
+
+
 Você pode usar Vendas e marketing para obter, armazenar e usar vários tipos de dados no fluxo de vendas. Esses dados incluem a iniciativa de venda original, a ação de acompanhamento futuro e as vendas adicionais.
 
 <a name="marketing"></a>Marketing
 ---------
 
-Você usa campanhas e atividades de marketing para encontrar e criar relacionamentos com clientes potenciais, para que as interações iniciais possam desenvolver relacionamentos de vendas. O fluxo de processo a seguir ilustra o processo comercial do marketing. [![processo![apresentar o mercado (]. /media/marketing01.jpg)](. /media/marketing01.jpg)
+Você usa campanhas e atividades de marketing para encontrar e criar relacionamentos com clientes potenciais, para que as interações iniciais possam desenvolver relacionamentos de vendas. O fluxo de processo a seguir ilustra o processo comercial do marketing. [![Processo comercial para Marketing](./media/marketing01.jpg)](./media/marketing01.jpg)
 
 ### <a name="relationships"></a>Relacionamentos
 
-Em vendas e marketing, as interações iniciais com clientes potenciais podem ocorrer em diversas situações. Por exemplo, você pode encontrar um cliente em potencial enquanto você estiver participando de uma feira de negócios ou você pode ter um cliente potencial possível com um cliente após sua organização realizar uma campanha de emails em massa. É muito importante que você compreenda o fluxo da entidade da parte antes que se torne um cliente. O gráfico a seguir mostra o fluxo de relações de entidades como um cliente potencial torna-se um cliente real. [![(SalesandMarketing01]. /media/salesandmarketing01.jpg)](. /media/salesandmarketing01.jpg)
+Em vendas e marketing, as interações iniciais com clientes potenciais podem ocorrer em diversas situações. Por exemplo, você pode encontrar um cliente em potencial enquanto você estiver participando de uma feira de negócios ou você pode ter um cliente potencial possível com um cliente após sua organização realizar uma campanha de emails em massa. É muito importante que você compreenda o fluxo da entidade da parte antes que se torne um cliente. O gráfico a seguir mostra o fluxo de relações de entidades como um cliente potencial torna-se um cliente real. [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
 
 ### <a name="campaigns"></a>Campanhas
 
-Uma campanha tem como alvo os contatos de clientes potenciais, clientes potenciais, oportunidades e clientes que foram selecionados para participar da campanha. No Microsoft Dynamics 365 para operações, você pode criar vários tipos de campanhas, como telemarketing, a correspondência, as campanhas por email, maximizar o potencial do cliente. Como sua campanha progride e você recebe respostas positivas, você pode começar o processo de vendas com os destinatários que responderam positivamente a campanha.
+Uma campanha tem como alvo os contatos de clientes potenciais, clientes potenciais, oportunidades e clientes que foram selecionados para participar da campanha. No Microsoft Dynamics 365 for Operations, você pode criar vários tipos de campanhas, como telemarketing, endereçamento e campanhas de e-mail, para maximizar seu cliente potencial. Como sua campanha progride e você recebe respostas positivas, você pode começar o processo de vendas com os destinatários que responderam positivamente a campanha.
 
 ## <a name="sales"></a>Venda
-Você pode usar a funcionalidade de venda para criar cotações de venda e vendas cruzadas para clientes novos e existentes, criar ordens de venda e criar notas fiscais de venda para clientes. O fluxo de processo a seguir ilustra o processo comercial de vendas. [![processo![vendas (para]. /media/sales01.jpg)](. /media/sales01.jpg)
+Você pode usar a funcionalidade de venda para criar cotações de venda e vendas cruzadas para clientes novos e existentes, criar ordens de venda e criar notas fiscais de venda para clientes. O fluxo de processo a seguir ilustra o processo comercial de vendas. [![Processo empresarial para vendas](./media/sales01.jpg)](./media/sales01.jpg)
 
 ### <a name="sales-quotations"></a>Cotações de venda
 
@@ -50,7 +53,7 @@ Criar cotações de venda para apresentar aos clientes uma oferta de mercadorias
 
 ### <a name="up-sellcross-sell"></a>Venda adicional/venda cruzada
 
-Vendas diretas e vendas cruzadas são técnicas para vender produtos quando uma ordem é inserida para um cliente. Na venda, outro produto é sugerido em vez do produto atual. Na venda cruzada, outro produto é sugerido além do produto atual. Quando você produtos configurados lista, você poderá criar regras específicas indicar quando um produto devem ser sugeridas como um produto entre venda ou de acima- venda.
+Vendas diretas e vendas cruzadas são técnicas para vender produtos quando uma ordem é inserida para um cliente. Na venda, outro produto é sugerido em vez do produto atual. Na venda cruzada, outro produto é sugerido além do produto atual. Quando você configurar listas de produtos, você pode criar regras específicas para indicar quando um produto deve ser sugerido como um produto de vendas cruzadas ou agregadas.
 
 ### <a name="sales-orders"></a>Ordens de venda
 
@@ -117,5 +120,7 @@ Uma fatura de texto livre é uma fatura que não está associada a uma ordem de 
 #### <a name="pro-forma-invoice"></a>Fatura pro forma
 
 Uma nota fiscal pro forma é uma nota fiscal preparada como uma previsão dos valores da nota fiscal real antes de a nota fiscal ser lançada. Você pode imprimir uma nota fiscal pro forma de uma nota fiscal de cliente ou de uma nota fiscal de texto livre.
+
+
 
 

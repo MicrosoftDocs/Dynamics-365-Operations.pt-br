@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling"></a>Plano de operações
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tópico fornece informações sobre agendamento de operações. Você pode usar o plano de operações para fornecer uma estimativa geral do processo de produção ao longo do tempo.
 
 Você pode planejar a produção no nível de operação e o nível do profissional. Diferente do agendamento de trabalho, o agendamento de operações não expande as operações para a rota de produção em trabalhos. Se desejar incluir mais detalhes no agendamento, como informações sobre a capacidade atual, você pode executar o agendamento de trabalho após a execução de agendamento de operações. Você também pode executar um agendamento de trabalho apenas. O agendamento de trabalho é o plano de trabalhos individuais no chão de fábrica e normalmente ocorre em uma prazo imediato ou a curto prazo.
@@ -76,5 +79,7 @@ Se você estiver trabalhando com material finitos, o agendamento também depende
 --------
 
 [Opções de agendamento de operação](operation-scheduling-options.md)
+
+
 
 

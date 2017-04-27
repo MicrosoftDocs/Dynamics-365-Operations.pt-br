@@ -33,7 +33,7 @@ Quando você cria uma ordem de compra (OC), informações gerais sobre a ordem i
 
 Você também pode criar POs copiando linhas de outro documento de ordem de compra ou uma ordem de venda. Nesse caso, você pode inverter o sinal do estoque, como você inverte o sinal em uma nota fiscal para indicar crédito.  
 
-Embora você possa criar manualmente POs, elas geralmente são geradas de outros processos. As ordens podem ser criadas automaticamente com base em outros documentos, como requisições. Alternativamente, podem ser criados como parte do processo de planejamento mestre à posição planejada. Se usar contratos de compra, posição pode ser criada ** ordem de liberação ** por ação. Existem também mais avançados métodos para criar automaticamente uma ordem de compra. Por exemplo, ordens podem ser criadas quando você usa a entrega ou direta cadeias de ordem intercompanhia.
+Embora você possa criar manualmente POs, elas geralmente são geradas de outros processos. As ordens podem ser criadas automaticamente com base em outros documentos, como requisições. Alternativamente, podem ser criados como parte do processo de planejamento mestre através das ordens de compra planejadas. Se usar contratos de compra, as ordens de compra podem ser criadas pela ação **Liberar ordem**. Existem também mais avançados métodos para criar automaticamente uma ordem de compra. Por exemplo, ordens podem ser criadas quando você usa a entrega ou direta cadeias de ordem intercompanhia.
 
 ## <a name="creating-a-purchase-order-header"></a>Criar o cabeçalho da ordem de compra
 Quando você cria uma nova ordem de compra, uma caixa de diálogo será exibida, onde você pode inserir as informações mais comuns para o cabeçalho da ordem de compra. Quando você clica em **OK** para fechar a caixa de diálogo, a ordem é criada e, em seguida, você pode especificar informações adicionais no cabeçalho.  
@@ -84,7 +84,7 @@ Talvez seja necessário atrasar a conclusão de uma ordem de compra. Por exemplo
 <a name="see-also"></a>Consulte também
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Visão geral de ordem de compra](purchase-order-overview.md)
 
 [Confirmação e aprovação da ordem de compra](purchase-order-approval-confirmation.md)
 

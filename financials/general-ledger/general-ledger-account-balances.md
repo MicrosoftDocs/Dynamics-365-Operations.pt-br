@@ -1,6 +1,6 @@
 ---
 title: "Saldo da conta contábil"
-description: "Este artigo explica duas maneiras de exibir os saldos de conta contábil - a página de listagem do balancete e relatórios financeiros. Também discute como atualizar os saldos do conjunto de dimensões."
+description: "Este artigo explica duas maneiras de exibir os saldos da conta contábil - a página de listagem do balancete e os relatórios financeiros. Também discute como atualizar os saldos do conjunto de dimensões."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-ledger-account-balances"></a>Saldo da conta contábil
 
-Este artigo explica duas maneiras de exibir os saldos de conta contábil - a página de listagem do balancete e relatórios financeiros. Também discute como atualizar os saldos do conjunto de dimensões.
+[!include[banner](../includes/banner.md)]
+
+
+Este artigo explica duas maneiras de exibir os saldos da conta contábil - a página de listagem do balancete e os relatórios financeiros. Também discute como atualizar os saldos do conjunto de dimensões.
 
 Há diversas formas que os usuários possam exibir saldos na contabilidade. São algumas das opções mais comuns:
 
@@ -46,6 +49,8 @@ Quando um usuário altera os parâmetros, os saldos serão atualizados. O usuár
 
 Os usuários podem fazer busca detalhada em saldos para exibir as transações que compõem o saldo.    
 
-Para obter mais informações, consulte [] relatórios financeiros de exibição (view-financial-reports.md).
+Para obter mais informações, consulte [Exibir relatórios financeiros](view-financial-reports.md).
+
+
 
 

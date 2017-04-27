@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consignment"></a>Consignação
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tópico explica como usar os processos de estoque de entrada de consignação.
 
-Estoque em consignação é o estoque a que pertence a um fornecedor, mas está armazenado em seu site. Quando estiver pronto para consumir ou usar o estoque, você obterá sobre a propriedade de estoque. Esse tópico contém informações sobre como recebidas fisicamente no estoque disponível de possuído sem criar transações de contabilização, como iniciar um processo de produção no estoque de possuído pode ser fisicamente reservado. e como alterar a propriedade de matérias-primas para processar o consumo como parte do processo de ordem de produção. Há também quaisquer informações sobre como monitorar fornecedores podem o consumo do estoque usando a interface de colaboração de fornecedor. Para obter informações sobre como habilitar e configurar processos de entrada de consignação, [Configuração de consignação](set-up-consignment.md).
+Estoque em consignação é o estoque a que pertence a um fornecedor, mas está armazenado em seu site. Quando estiver pronto para consumir ou usar o estoque, você obterá sobre a propriedade de estoque. Este tópico inclui informações sobre como receber fisicamente o estoque de propriedade do fornecedor disponível sem a necessidade de criar transações de contabilidade, como iniciar um processo de produção no qual o estoque de propriedade do fornecedor possa ser fisicamente reservado e como alterar a propriedade de matérias-primas para processar o consumo como parte do processo de ordem de produção. Há também quaisquer informações sobre como monitorar fornecedores podem o consumo do estoque usando a interface de colaboração de fornecedor. Para obter informações sobre como habilitar e configurar processos de entrada de consignação, [Configuração de consignação](set-up-consignment.md).
 
 ## <a name="overview-of-the-consignment-process"></a>Visão geral do processo de consignação
 Neste cenário de exemplo, a empresa USMF tem um acordo de consignação com fornecedores US-104 da matéria-prima M9211CI.
@@ -57,9 +60,9 @@ Neste cenário de exemplo, a empresa USMF tem um acordo de consignação com for
 O fornecedor, US-104, pode monitorar as atualizações com a página **Estoque em consignação disponível**.
 
 ## <a name="consignment-replenishment-orders"></a>Ordens de reabastecimento de consignação
-Uma ordem de reabastecimento de consignação é um documento utilizado para pedir e controlar de quantidades de produtos de um fornecedor tem entregue dentro de um determinado intervalo de datas criar transações de estoque encomendadas. Geralmente, isso será baseado na previsão e a demanda real de produto específico. O estoque que está prestes a ser recebida na ordem de reabastecimento de consignação restante a propriedade do fornecedor. Apenas uma posse de produto à atualização física do recebimento é registrada e portanto nenhuma atualização da transação da contabilização ocorre. A dimensão **Proprietário** usada para separar as informações sobre a qual a ação pertence por fornecedor e que pertence por entidade legal de recebimento. As linhas de ordem de reabastecimento de remessa têm ** ordem aberta ** status como a quantidade total das linhas não foi recebida ou não foi cancelada. Quando a quantidade total foi recebida ou cancelada, o status será alterado para concluído. ** ** O estoque físico disponível relacionado a uma ordem de reabastecimento de consignação pode ser registrado por meio de um processo de registro assim como um processo de atualização do recebimento de produtos. O registro pode ser criado como parte do processo de entrada de item manualmente ou atualizando as linhas. Quando o processo de atualização do recebimento de produtos é usado, é feito um registro no diário do recebimento de produtos, que pode ser usado para confirmar o recebimento de mercadorias a fornecedores. 
+Uma ordem de reabastecimento de consignação é um documento utilizado para pedir e controlar de quantidades de produtos de um fornecedor tem entregue dentro de um determinado intervalo de datas criar transações de estoque encomendadas. Geralmente, isso será baseado na previsão e a demanda real de produto específico. O estoque que está prestes a ser recebida na ordem de reabastecimento de consignação restante a propriedade do fornecedor. Apenas uma posse de produto à atualização física do recebimento é registrada e portanto nenhuma atualização da transação da contabilização ocorre. A dimensão **Proprietário** usada para separar as informações sobre a qual a ação pertence por fornecedor e que pertence por entidade legal de recebimento. As linhas da ordem de reabastecimento de consignação terão um status **Ordem em aberto** até a quantidade total das linhas ter sido sido recebida ou cancelada. Quando a quantidade total tiver sido recebida ou cancelada, o status será alterado para **Concluído**. O estoque físico disponível relacionado a uma ordem de reabastecimento de consignação pode ser registrado por meio de um processo de registro assim como um processo de atualização do recebimento de produtos. O registro pode ser criado como parte do processo de entrada de item manualmente ou atualizando as linhas. Quando o processo de atualização do recebimento de produtos é usado, é feito um registro no diário do recebimento de produtos, que pode ser usado para confirmar o recebimento de mercadorias a fornecedores. 
 
-[remessa-reabastecimento- ordem![(]. /media/consignment-replenishment-order.png)](. /media/consignment-replenishment-order.png)
+[![consignment-replenishment-order](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
 ## <a name="inventory-ownership-change-journal"></a>Diário de alteração de propriedade de estoque
 O processo de alteração do proprietário do inventário do fornecedor para receber a entidade legal é feito usando um diário de alteração de proprietário de Estoque. Nenhuma transação de estoque foi criada para o diário. Apenas as transações de estoque criadas são aquelas relacionadas a um diário lançado. Onde o jornal foi lançado:
@@ -69,14 +72,16 @@ O processo de alteração do proprietário do inventário do fornecedor para rec
 
 Não é possível atualizar a quantidade nas linhas de ordem de consignação de compra depois que a ordem foi criada. 
 
-[estoque-propriedade-alteração- diário do![(]. /media/inventory-ownership-change-journal.png)](. /media/inventory-ownership-change-journal.png)
+[![inventory-ownership-change-journal](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
 ## <a name="vendor-collaboration-in-consignment-processes"></a>Colaboração de fornecedor em processos de consignação
 A interface de colaboração de fornecedor tiver três páginas relacionadas o processo de entrada de consignação:
 
--   ** Ordens de compra ** ** que consomem o estoque ** de remessa - ordem de compra detalhado mostra informações relacionadas à alteração de propriedade do processo de remessa.
+-   **Ordens de compra** **que consomem o estoque em consignação** - Mostra informações detalhadas de ordem de compra relacionadas à alteração de propriedade do processo de consignação.
 -   **Bens recebidos de estoque de consignação** - Mostra informações sobre os itens e as quantidades que têm os recebimentos de produtos atualizados durante a propriedade alteram o processo.
 -   **Estoque disponível de consignação** - Mostra informações sobre os itens de consignação que são esperadas, entregar e os itens que estão fisicamente disponíveis no site de cliente.
+
+
 
 
 

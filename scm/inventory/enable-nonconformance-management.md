@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="nonconformance-management"></a>Gerenciamento de não conformidade
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo de instalação básico descreve o que é necessário para usar não conformidades. A configuração adicional é necessária se desejar usar ordens de qualidade. 
 
 Para habilitar o gerenciamento de não conformidade, siga estas etapas:
@@ -34,7 +37,7 @@ Para habilitar o gerenciamento de não conformidade, siga estas etapas:
 1.  Defina os parâmetros de gerenciamento de estoque e de depósito relacionados a não conformidades:
     -   Defina a opção **Usar gerenciamento de qualidade** como **Sim**.
     -   No campo **Preço por hora**, insira um preço de mão de obra por hora na moeda local. O preço por hora é usado para calcular o custo de operações relacionadas à não conformidade. O preço por hora e os custos calculados fornecem informações de referência para uma não conformidade. Eles não interagem com outra funcionalidade.
-    -   Use ** gerenciamento de qualidade ** ** a guia configuração de página em ** relatório para definir o tipo de documento a ser impresso. Você pode imprimir um relatório de não conformidade, a etiqueta de não conformidade, um relatório de correção. É possível definir mais de um registro para imprimir tipos de documento diferentes em um relatório ou para imprimir anotações internas e externas. Talvez você ache útil usar a página **Tipo de documento** para definir um tipo de documento exclusivo para uma não conformidade e um tipo de documento exclusivo para correções. Por exemplo, desejar inserir anotações sobre uma não conformidade usando o tipo de documento exclusivo de não conformidades. Nesse caso, identifique o tipo de documento exclusivo nas opções do relatório.
+    -   Use a guia **Gerenciamento de qualidade** na página **Configuração de relatório** para definir o tipo de documento a ser impresso. Você pode imprimir um relatório de não conformidade, uma etiqueta de não conformidade ou um relatório de correção. É possível definir mais de um registro para imprimir tipos de documento diferentes em um relatório ou para imprimir anotações internas e externas. Talvez você ache útil usar a página **Tipo de documento** para definir um tipo de documento exclusivo para uma não conformidade e um tipo de documento exclusivo para correções. Por exemplo, desejar inserir anotações sobre uma não conformidade usando o tipo de documento exclusivo de não conformidades. Nesse caso, identifique o tipo de documento exclusivo nas opções do relatório.
     -   Habilite as sequências numéricas para a não conformidade e as referências de correção.
 
 2.  Habilite a aprovação do usuário de não conformidades. Use o campo **Nome** na página **Usuários** para atribuir um funcionário a cada usuário que deva aprovar uma não conformidade. O sistema usa os funcionários que alteram o status de uma não conformidade para controlar o histórico de não conformidade. Os usuários não poderão aprovar uma não conformidade a menos que tenham um identificador de funcionário atribuído.
@@ -49,8 +52,10 @@ Para habilitar o gerenciamento de não conformidade, siga estas etapas:
 
 [Criar e processar uma não conformidade (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
 
-[Quality management processes](quality-management-processes.md)
+[Processos de gerenciamento de qualidade](quality-management-processes.md)
 
-[Pré-requisitos configurados para gerenciamento de não-conformidade (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+[Configurar pré-requisitos do gerenciamento de não conformidade (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+
+
 
 

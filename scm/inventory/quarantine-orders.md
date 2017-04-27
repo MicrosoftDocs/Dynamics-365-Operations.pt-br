@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="quarantine-orders"></a>Ordens de quarentena
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve como as ordens de quarentena são usadas para bloquear o estoque. 
 
-As ordens de quarentena podem ser usadas para bloquear o estoque. Por exemplo, talvez você deseje quarentena itens por motivos de controle de qualidade. Quarentena estoque que será transferido para um depósito de quarentena. **Observação:** se você estiver usando processos avançados de gerenciamento de depósito (em Gerenciamento de depósito), o processamento da ordem de quarentena será usado somente para devolver ordens de venda.
+As ordens de quarentena podem ser usadas para bloquear o estoque. Por exemplo, talvez você deseje quarentena itens por motivos de controle de qualidade. Estoque que ficou em quarentena transferido para um depósito de quarentena. **Observação:** se você estiver usando processos avançados de gerenciamento de depósito (em Gerenciamento de depósito), o processamento da ordem de quarentena será usado somente para devolver ordens de venda.
 
-## <a name="quarantine-onhand-inventory-items"></a>Quarentena estoque de itens de lacuna
+## <a name="quarantine-onhand-inventory-items"></a>Itens de estoque disponíveis em quarentena
 Ao colocar itens em quarentena, você pode criar ordens de quarentena manualmente ou configurar o sistema para criar automaticamente ordens de quarentena durante o processamento de entrada. Para criar automaticamente ordens de quarentena, selecione a opção **Gerenciamento de quarentena** na guia **Políticas de estoque** na página **Grupos de modelos de item**. Você também deve especificar um depósito de quarentena padrão no campo **Depósito de quarentena** para os depósitos de recebimento. Quando o estoque fisicamente disponível for registrado em uma ordem de compra ou em uma ordem de produção, os itens em quarentena serão automaticamente movidos para um depósito de quarentena no Microsoft Dynamics 365 for Operations. Esse movimento ocorre porque o status da ordem de quarentena é alterado para **Iniciado**. Quando você cria ordens de quarentena manualmente, o item não precisa ser configurado para gerenciamento de quarentena no grupo de modelos do item associado. Para esse processo, você deve especificar o estoque disponível que deve estar em quarentena e o depósito de quarentena que deve ser usado. Você pode usar os status da ordem de quarentena para ajudar a planejar o processo.
 
 ## <a name="quarantine-order-statuses"></a>Status da ordem de quarentena
@@ -64,6 +67,8 @@ Como parte do processo da ordem de quarentena, você pode sucatear o estoque. Ao
 <a name="see-also"></a>Consulte também
 --------
 
-[Inventory blocking](inventory-blocking.md)
+[Bloqueio de estoque](inventory-blocking.md)
+
+
 
 

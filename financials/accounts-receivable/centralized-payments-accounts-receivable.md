@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-receivable"></a>Pagamentos centralizados para Contas a receber
 
+[!include[banner](../includes/banner.md)]
+
+
 As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal única que trate todos os pagamentos. Consequentemente, a mesma transação não precisa ser inserida em várias entidade legais. Este artigo fornece exemplos que mostram como a postagem de pagamentos centralizados é feita em vários cenários.
 
 As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal que trate todos os pagamentos. Consequentemente, a mesma transação não precisa ser inserida em várias entidade legais. Além disso, a organização economiza tempo, pois os processos para propostas de pagamento, liquidações e transações de edição abertas e fechadas para os pagamentos centralizados são simplificados. 
 
-Em uma organização de pagamentos centralizados, existem muitas entidades legais para operações, e cada entidade operante gerencia as próprias informações de faturas a receber. As liquidações para todas as entidades legais operacionais são recebidos por uma única pessoa jurídica, que é conhecida como a entidade legal de pagamento. Durante o processo de liquidação, as transações a vencer ou vencidas aplicáveis são geradas. Você pode especificar qual entidade legal da organização recebe as transações de ganho ou perda realizada e como são tratadas as transações com desconto à vista relacionadas a um pagamento centralizado. 
+Em uma organização de pagamentos centralizados, existem muitas entidades legais para operações, e cada entidade operante gerencia as próprias informações de faturas a receber. Os pagamentos para todas as entidades legais operantes são recebidos por uma única entidade legal, conhecida como entidade legal de pagamento. Durante o processo de liquidação, as transações a vencer ou vencidas aplicáveis são geradas. Você pode especificar qual entidade legal da organização recebe as transações de ganho ou perda realizada e como são tratadas as transações com desconto à vista relacionadas a um pagamento centralizado. 
 
 Os exemplos a seguir ilustram como o lançamento é tratado em vários cenários. Esta configuração é presumida para todos esses exemplos:
 
@@ -66,14 +69,14 @@ A Fabrikam recebe um pagamento de 600,00 na conta de cliente da Fabrikam 4000, a
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste
 
-**Fabrikam posting**
+**Lançamento da Fabrikam**
 
 | Conta                         | Valor do débito | Valor do crédito |
 |---------------------------------|--------------|---------------|
 | Contas a receber (Fabrikam)  | 600,00       |               |
 | Devido à Fabrikam Leste (Fabrikam) |              | 600,00        |
 
-**Fabrikam East posting**
+**Lançamento da Fabrikam Leste**
 
 | Conta                             | Valor do débito | Valor do crédito |
 |-------------------------------------|--------------|---------------|
@@ -81,7 +84,7 @@ A Fabrikam recebe um pagamento de 600,00 na conta de cliente da Fabrikam 4000, a
 | Contas a receber (Fabrikam Leste) |              | 600,00        |
 
 ## <a name="example-2-customer-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>Exemplo 2: Pagamento da fatura ao cliente de outra entidade legal com desconto à vista
-A Fabrikam recebe um pagamento de 580,00 na conta de cliente da Fabrikam 4000, a Northwind Traders. A Fabrikam leste tem uma nota fiscal em aberto para o cliente 4000. A nota fiscal tem um desconto à vista de 20,00 disponível. O pagamento é liquidado com faturas em aberto da Fabrikam Leste. O desconto à vista é lançado para a entidade legal da fatura, a Fabrikam leste.
+A Fabrikam recebe um pagamento de 580,00 na conta de cliente da Fabrikam 4000, a Northwind Traders. A Fabrikam Leste tem uma nota fiscal em aberto para o cliente 4000. A nota fiscal tem um desconto à vista de 20,00 disponível. O pagamento é liquidado com faturas em aberto da Fabrikam Leste. O desconto à vista é lançado para a entidade legal da fatura, a Fabrikam leste.
 
 ### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-customer-4000"></a>A fatura é lançada na Fabrikam Leste para o cliente 4000 da Fabrikam Leste
 
@@ -99,14 +102,14 @@ A Fabrikam recebe um pagamento de 580,00 na conta de cliente da Fabrikam 4000, a
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste
 
-**Fabrikam posting**
+**Lançamento da Fabrikam**
 
 | Conta                         | Valor do débito | Valor do crédito |
 |---------------------------------|--------------|---------------|
 | Contas a receber (Fabrikam)  | 580,00       |               |
 | Devido à Fabrikam Leste (Fabrikam) |              | 580,00        |
 
-**Fabrikam East posting**
+**Lançamento da Fabrikam Leste**
 
 | Conta                             | Valor do débito | Valor do crédito |
 |-------------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ A Fabrikam recebe um pagamento de 600,00 euros (EUR) para o cliente 4000 da Fabr
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste
 
-**Fabrikam posting**
+**Lançamento da Fabrikam**
 
 | Conta                         | Valor do débito            | Valor do crédito           |
 |---------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ A Fabrikam recebe um pagamento de 600,00 euros (EUR) para o cliente 4000 da Fabr
 | Devido à Fabrikam Leste (Fabrikam) | 0,00 EUR / 12,90 BRL    |                         |
 | Ganho realizado (Fabrikam)        |                         | 0,00 EUR / 12,90 BRL    |
 
-**Fabrikam East posting**
+**Lançamento da Fabrikam Leste**
 
 | Conta                             | Valor do débito            | Valor do crédito           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ A Fabrikam lança um pagamento para o cliente 4000 da Fabrikam, a Northwind Trad
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste
 
-**Fabrikam posting**
+**Lançamento da Fabrikam**
 
 | Conta                         | Valor do débito            | Valor do crédito           |
 |---------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ A Fabrikam lança um pagamento para o cliente 4000 da Fabrikam, a Northwind Trad
 | Devido à Fabrikam Leste (Fabrikam) | 0,00 EUR / 13,46 BRL    |                         |
 | Ganho realizado (Fabrikam)        |                         | 0,00 EUR / 13,46 BRL    |
 
-**Fabrikam East posting**
+**Lançamento da Fabrikam Leste**
 
 | Conta                             | Valor do débito            | Valor do crédito           |
 |-------------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ A Fabrikam lança um pagamento para o cliente 4000 da Fabrikam, a Northwind Trad
 | Contas a receber (Fabrikam Leste) |                         | 12,00 EUR / 14,47 BRL   |
 
 ## <a name="example-5-customer-credit-note-with-primary-payment"></a>Exemplo 5: nota de crédito do cliente com pagamento principal
-A Fabrikam recebe um pagamento de 75,00 do cliente 4000, a Northwind Traders. O pagamento é liquidado com uma nota fiscal em aberto para o cliente 10000 da Fabrikam Oeste e uma nota de crédito aberta para o cliente 4000 da Fabrikam Leste. O pagamento está selecionado como o principal ** transações de acordo ** na página.
+A Fabrikam recebe um pagamento de 75,00 do cliente 4000, a Northwind Traders. O pagamento é liquidado com uma nota fiscal em aberto para o cliente 10000 da Fabrikam Oeste e uma nota de crédito aberta para o cliente 4000 da Fabrikam Leste. O pagamento não é selecionado como pagamento principal na página **Liquidar transações**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>A fatura é lançada na Fabrikam Oeste para o cliente 10000
 
@@ -224,7 +227,7 @@ A Fabrikam recebe um pagamento de 75,00 do cliente 4000, a Northwind Traders. O 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Oeste e a nota de crédito da Fabrikam Leste
 
-**Fabrikam posting**
+**Lançamento da Fabrikam**
 
 | Conta                           | Valor do débito | Valor do crédito |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ A Fabrikam recebe um pagamento de 75,00 do cliente 4000, a Northwind Traders. O 
 | Contas a receber (Fabrikam)    | 100,00       |               |
 | Devido à Fabrikam Oeste (Fabrikam)   |              | 100,00        |
 
-**Fabrikam East posting**
+**Lançamento da Fabrikam Leste**
 
 | Conta                             | Valor do débito | Valor do crédito |
 |-------------------------------------|--------------|---------------|
 | Contas a receber (Fabrikam Leste) | 25,00        |               |
 | Devido à Fabrikam (Fabrikam Leste)     |              | 25,00         |
 
-**Fabrikam West posting**
+**Lançamento da Fabrikam Oeste**
 
 | Conta                             | Valor do débito | Valor do crédito |
 |-------------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ A Fabrikam recebe um pagamento de 75,00 do cliente 4000, a Northwind Traders. O 
 | Contas a receber (Fabrikam Oeste) |              | 100,00        |
 
 ## <a name="example-6-customer-credit-note-without-primary-payment"></a>Exemplo 6: nota de crédito do cliente sem pagamento principal
-A Fabrikam recebe um pagamento de 75,00 do cliente 4000, a Northwind Traders. O pagamento é liquidado com uma nota fiscal em aberto para o cliente 10000 da Fabrikam Oeste e uma nota de crédito aberta para o cliente 4000 da Fabrikam Leste. O pagamento não está selecionado como o principal ** transações de acordo ** na página.
+A Fabrikam recebe um pagamento de 75,00 do cliente 4000, a Northwind Traders. O pagamento é liquidado com uma nota fiscal em aberto para o cliente 10000 da Fabrikam Oeste e uma nota de crédito aberta para o cliente 4000 da Fabrikam Leste. O pagamento não é selecionado como pagamento principal na página **Liquidar transações**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-customer-10000"></a>A fatura é lançada na Fabrikam Oeste para o cliente 10000
 
@@ -273,21 +276,21 @@ A Fabrikam recebe um pagamento de 75,00 do cliente 4000, a Northwind Traders. O 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Oeste e a nota de crédito da Fabrikam Leste
 
-**Fabrikam posting**
+**Lançamento da Fabrikam**
 
 | Conta                         | Valor do débito | Valor do crédito |
 |---------------------------------|--------------|---------------|
 | Contas a receber (Fabrikam)  | 75,00        |               |
 | Devido à Fabrikam Oeste (Fabrikam) |              | 75,00         |
 
-**Fabrikam East posting**
+**Lançamento da Fabrikam Leste**
 
 | Conta                              | Valor do débito | Valor do crédito |
 |--------------------------------------|--------------|---------------|
 | Contas a receber (Fabrikam Leste)  | 25,00        |               |
 | Devido à Fabrikam Oeste (Fabrikam Leste) |              | 25,00         |
 
-**Fabrikam West posting**
+**Lançamento da Fabrikam Oeste**
 
 | Conta                                | Valor do débito | Valor do crédito |
 |----------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ A Fabrikam recebe um pagamento de 75,00 do cliente 4000, a Northwind Traders. O 
 | Contas a receber (Fabrikam Oeste)    |              | 75,00         |
 | Devido pela Fabrikam Leste (Fabrikam Oeste) | 25,00        |               |
 | Contas a receber (Fabrikam Oeste)    |              | 25,00         |
+
+
 
 
 

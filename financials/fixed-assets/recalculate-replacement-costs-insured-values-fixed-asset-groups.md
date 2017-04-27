@@ -1,5 +1,5 @@
 ---
-title: Calcular novamente custos e valores segurados para grupos de ativos fixos
+title: Recalcular os custos e valores segurados para grupos de ativos fixos
 description: "Este processo explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos."
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Calcular novamente custos e valores segurados para grupos de ativos fixos
+# <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Recalcular os custos e valores segurados para grupos de ativos fixos
+
+[!include[banner](../includes/banner.md)]
+
 
 Este processo explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos.
 
@@ -38,18 +41,18 @@ Para recalcular custos de substituição e valores segurados para grupos de ativ
 
 Ao usar o formulário Atualizar custos de substituição e valores segurados para recalcular o custo de substituição e o valor segurado para os ativos, as seguintes fórmulas são usadas:
 
--   \[(fatora de custo de substituição do grupo de ativos fixos/100) + 1 o custo de substituição de um ativo existente\] \*
--   \[(fatora do valor segurado do grupo de ativos fixos/100) + 1 existente valor segurado do ativo\] \*
+-   \[(Fator de substituição de custo de um grupo de ativos/ 100) + 1\] \* O custo de substituição existente de um ativo
+-   \[(Fator de valor segurado de um grupo de ativos/ 100) + 1\] \* O valor segurado existente de um ativo
 
 > [!NOTE] 
 > Quando você usar o formulário Atualizar custos de substituição e valores segurados, tanto o custo de substituição quanto o valor segurado serão atualizados para os ativos selecionados; não é possível especificar que apenas um valor será atualizado. Para deixar um valor inalterado e atualizar o outro valor, insira 0 (zero) como fator no formulário Grupos de ativos fixos. Um fator igual a zero ou em branco faz com que o cálculo seja ignorado na atualização. O valor contábil e o valor líquido contábil de ativos fixos não são afetados pela atualização periódica. 
 
 ## <a name="how-to-use-a-date-to-select-which-items-to-update"></a>Como usar a data para selecionar quais itens devem ser atualizados
-Por padrão, o processo de atualização atualiza os ativos selecionados que não foram atualizados na dia atual, mas que podem ter sido atualizados em dias anteriores. Por exemplo, &lt; a data atual significa “antes de hoje”. Você pode alterar a data no custo de substituição de atualização e os valores segurados formulário clicando no botão selecionar. O critérios de data especificado é comparado a data da última atualização periódica para o ativo (o campo Última atualização periódica de valor/custo no formulário Ativos fixos). Cada vez que você atualiza com êxito o custo de substituição ou o valor segurado para um ativo fixo, o campo Última atualização periódica de valor/custo é automaticamente atualizado com a data atual. 
+Por padrão, o processo de atualização atualiza os ativos selecionados que não foram atualizados na dia atual, mas que podem ter sido atualizados em dias anteriores. Por exemplo, &lt; data atual significa “antes de hoje”. Você pode alterar a data em Atualizar custos de substituição e o formulário de valores segurados clicando no botão Selecionar. O critérios de data especificado é comparado a data da última atualização periódica para o ativo (o campo Última atualização periódica de valor/custo no formulário Ativos fixos). Cada vez que você atualiza com êxito o custo de substituição ou o valor segurado para um ativo fixo, o campo Última atualização periódica de valor/custo é automaticamente atualizado com a data atual. 
 
 Exemplo 
 
-Você atualizou o custo de substituição dos grupos de Veículos, Móveis de escritório e Edifícios em 5 por cento ontem e agora esses ativos são considerados como atualizados com exatidão. Para excluir esses ativos ao atualizar todos ativos fixos hoje, você insere uma data no campo periódico última de atualização/valor de custo que é anterior a ontem (&lt; data do dia anterior), porque a última atualização para os veículos, móveis de escritório, e grupos de compilações ocorreram fora do critério de data inserido.
+Você atualizou o custo de substituição dos grupos de Veículos, Móveis de escritório e Edifícios em 5 por cento ontem e agora esses ativos são considerados como atualizados com exatidão. Para excluir esses ativos ao atualizar todos os outros ativos fixos hoje, você insere uma data no campo Última atualização periódica de valor/custo, que é anterior a ontem (&lt; data de ontem) porque a última atualização periódica para os grupos Veículos, Móveis de Escritório e Edifícios ocorreu fora do critério de data inserido.
 
 ## <a name="cumulative-effect-of-each-update"></a>Efeito cumulativo de cada atualização
 Cada atualização tem um efeito cumulativo. Portanto, você deve planejar suas atualizações com cuidado. Por exemplo, se você aumentar todos os ativos em 3 por cento na terça e, em seguida, aumentar o dos móveis de escritório em 4 por cento na sexta, os móveis de escritório aumentarão em um total de 7,12 por cento.
@@ -72,6 +75,8 @@ No dia seguinte, seu gerente informa que os computadores diminuíram em 8 por ce
 
 > [!NOTE]  
 > Não é possível reverter o fator -10 ao inserir um fator de 10 positivo (ou um fator de 2, a diferença entre -10 e -8), porque as valores não serão calculados como você tem intenção. 
+
+
 
 
 

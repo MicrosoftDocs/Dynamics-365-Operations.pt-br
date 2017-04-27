@@ -1,6 +1,6 @@
 ---
-title: Notas fiscais e estrutura de documento fiscal para O Brasil
-description: "Este tópico descreve notas fiscais para O Brasil."
+title: Notas fiscais e suas estruturas para o Brasil
+description: "Este tópico descreve as notas fiscais do Brasil."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="fiscal-documents-and-fiscal-document-framework-for-brazil"></a>Notas fiscais e estrutura de documento fiscal para O Brasil
+# <a name="fiscal-documents-and-fiscal-document-framework-for-brazil"></a>Notas fiscais e suas estruturas para o Brasil
 
-Este tópico descreve notas fiscais para O Brasil.
+[!include[banner](../includes/banner.md)]
+
+
+Este tópico descreve as notas fiscais do Brasil.
 
 <a name="overview"></a>Visão Geral
 --------
@@ -36,34 +39,36 @@ Nota fiscal é um documento legal que registra a transferência de propriedade d
 -   Nota fiscal impressa – a nota fiscal é impressa em papel.
 -   Nota fiscal eletrônica – uma nota fiscal digital é emitida e recebida em formato eletrônico. Uma nota fiscal eletrônica pode ser uma NF-e (nota fiscal eletrônica) federal, que é gerada para itens e relatada no nível estadual ou federal pode ser uma NF-e municipal, que é gerada para serviços e relatada no nível municipal.
 
-Todas as notas fiscais emitidas ou recebidas por um estabelecimento fiscal devem ser relatadas no nível de autoridade federal, estadual ou municipal. As notas fiscais devem ser relatadas em formatos específicos, como relatório fiscal do SPED (Sistema Público de Escrituração Digital) ou livros fiscais, PIS/COFINS (Programa de Integração Social/Contribuição para o Financiamento da Seguridade Social) do SPED ou SINTEGRA (Sistema Integrado de Informações sobre Operações Interestaduais com Mercadorias e Serviços). A estrutura da nota fiscal é usada para garantir que todos os documentos fiscais lançados estejam em conformidade com uma estrutura específica, independentemente do processo que é usado para gerar o documento fiscal. Examine as notas fiscais lançadas ** todas as notas fiscais ** na página de listagem. Examine as transações do documento, as vendas lançadas, os encargos lançados, as notas fiscais referenciadas, e o texto de documento fiscal para uma nota fiscal lançada. A estrutura da nota fiscal também garante que todas as informações relacionadas usem o formato correto. Informações relacionadas inclui:
+Todas as notas fiscais emitidas ou recebidas por um estabelecimento fiscal devem ser relatadas no nível de autoridade federal, estadual ou municipal. As notas fiscais devem ser relatadas em formatos específicos, como relatório fiscal do SPED (Sistema Público de Escrituração Digital) ou livros fiscais, PIS/COFINS (Programa de Integração Social/Contribuição para o Financiamento da Seguridade Social) do SPED ou SINTEGRA (Sistema Integrado de Informações sobre Operações Interestaduais com Mercadorias e Serviços). A estrutura da nota fiscal é usada para garantir que todos os documentos fiscais lançados estejam em conformidade com uma estrutura específica, independentemente do processo que é usado para gerar o documento fiscal. Você pode revisar as notas fiscais lançadas na página de listagem **Todas as notas fiscais**. Você pode verificar as transações de nota fiscal, os impostos lançados, os encargos lançados, os documentos fiscais referenciados e o texto da nota fiscal de uma nota fiscal lançada. A estrutura da nota fiscal também garante que todas as informações relacionadas usem o formato correto. As informações relacionadas incluem:
 -   Relações entre notas fiscais e seus documentos de origem.
--   O Texto de nota fiscal, processos referenciados, referências fiscais, notas fiscais e prestações, lançou impostos, encargos e lançou.
+-   Texto da nota fiscal, processos referenciados, referências fiscais, faturas e prestações, imposto lançado e encargos lançados.
 
-## <a name="view-and-print-fiscal-documents"></a>Exiba e notas fiscais de impressão
-Você pode exibir e imprimir os documentos das páginas dos seguintes:
--   ** Notas fiscais de &gt; contas a receber ** ** ** &gt; ** todas as notas fiscais **
--   ** Contas a pagar ** &gt; ** notas fiscais ** &gt; ** todas as notas fiscais **
--   ** Contabilidade ** &gt; ** pesquisa relatórios e ** &gt; ** notas fiscais ** &gt; ** todas as notas fiscais **
--   ** Gerenciamento de estoque ** &gt; ** ordens de entrada ** &gt; ** todas as notas fiscais **
--   ** Gerenciamento de estoque ** &gt; ** ordens de saída ** &gt; ** todas as notas fiscais **
--   ** Gerenciamento e contabilidade de projeto ** &gt; ** documento fiscal ** &gt; ** todas as notas fiscais **
--   ** Livros fiscais ** &gt; ** ** período do registro
+## <a name="view-and-print-fiscal-documents"></a>Exibir e imprimir as notas fiscais.
+Você pode exibir e imprimir todas as notas fiscais das seguintes páginas:
+-   **Contas a receber** &gt; **Notas fiscais** &gt; **Todas as notas fiscais**
+-   **Contas a pagar** &gt; **Notas fiscais** &gt; **Todas as notas fiscais**
+-   **Contabilidade** &gt; **Consulta e relatórios** &gt; **Notas fiscais** &gt; **Todas as notas fiscais**
+-   **Gerenciamento de estoque** &gt; **Ordens de entradas** &gt; **Todas as notas fiscais**
+-   **Gerenciamento de estoque** &gt; **Ordens de saída** &gt; **Todas as notas fiscais**
+-   **Gerenciamento e contabilidade de projeto** &gt; **Nota fiscal** &gt; **Todas as notas fiscais**
+-   **Livros fiscais** &gt; **Período de escrituração**
 
 ## <a name="actions"></a>Ações
-Depois que uma nota fiscal for lançado, o usuário pode ver as informações a seguir.
+Depois que uma nota fiscal for lançada, o usuário poderá ver as informações a seguir.
 
-| ** Botão ** de ação                 | **Description**                                                                                                                                                                                                                                                                                                                                                      |
+| **Botão de ação**                 | **Descrição**                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Complementary fiscal document** | ** Compre o documento fiscal complementar ** na página ou ** documento fiscal ** complementar de venda na página criar um documento fiscal complementar de compra ou venda. ** Compre o documento fiscal ** complementar ou página ** documento fiscal complementar vendas ** página é determinado por tipo de documento fiscal (fornecedor ou cliente) selecionado. |
-| **Totals**                        | Exiba os totais da nota fiscal.                                                                                                                                                                                                                                                                                                                             |
-| **Voucher**                       | Exiba as transações de comprovante para a nota fiscal.                                                                                                                                                                                                                                                                                                               |
-| **Charges**                       | Exiba os encargos para a nota fiscal.                                                                                                                                                                                                                                                                                                                            |
-| **Imposto sobre vendas**              | Exibir as vendas lançadas para a nota fiscal.                                                                                                                                                                                                                                                                                                                   |
-| **Original document**             | Exiba a transação lançada na nota fiscal é gerada para.                                                                                                                                                                                                                                                                                               |
-| **Fiscal document texts**         | Exiba os textos do documento que estão associados à nota fiscal.                                                                                                                                                                                                                                                                                             |
-| **Fiscal reference**              | Exiba referências fiscais associadas à nota fiscal.                                                                                                                                                                                                                                                                                                 |
-| **Import declaration**            | Exiba informações de declaração de importação para a nota fiscal.                                                                                                                                                                                                                                                                                                     |
+| **Nota fiscal complementar** | Na página **Nota fiscal complementar de compra** ou na página **Nota fiscal complementar de venda** você pode criar uma nota fiscal complementar de compra ou de venda. A página **Nota fiscal complementar de compra** ou a página **Nota fiscal complementar de venda** é determinada pelo tipo de nota fiscal (fornecedor ou cliente) selecionada. |
+| **Totais**                        | Exibe os totais da nota fiscal.                                                                                                                                                                                                                                                                                                                             |
+| **Comprovante**                       | Exibe as transações do comprovante da nota fiscal.                                                                                                                                                                                                                                                                                                               |
+| **Encargos**                       | Exibe os encargos da nota fiscal.                                                                                                                                                                                                                                                                                                                            |
+| **Imposto sobre vendas**              | Exibe o impostos sobre vendas lançado para a nota fiscal.                                                                                                                                                                                                                                                                                                                   |
+| **Documento original**             | Exibe a transação lançada na qual a nota fiscal é gerada.                                                                                                                                                                                                                                                                                               |
+| **Textos das notas fiscais**         | Exibe os textos das notas fiscais associados à nota fiscal.                                                                                                                                                                                                                                                                                             |
+| **Referência fiscal**              | Exibe as referências fiscais associadas à nota fiscal.                                                                                                                                                                                                                                                                                                 |
+| **Declaração de importação**            | Exibe informações de declaração de importação para a nota fiscal.                                                                                                                                                                                                                                                                                                     |
+
+
 
 
 

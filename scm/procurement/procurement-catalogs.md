@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="procurement-catalogs"></a>Catálogos de compras
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve, em um alto nível, como os profissionais de compras podem configurar e manter os catálogos de aquisições. Os catálogos de compras definem os itens e os serviços que os funcionários da empresa podem solicitar para uso interno.
 
 Os profissionais de compra podem criar e manter catálogos de itens e serviços que podem ser comprados para uso interno em uma organização. Depois que os catálogos são configurados, os funcionários da empresa podem criar requisições de compra a partir deles. Os catálogos podem ser usados para aplicar as políticas de compras, de modo que os funcionários possam solicitar somente os itens e os serviços que permitidos para a entidade legal de compra. Ao criar um catálogo de compras, você deverá considerar as seguintes tarefas:
 
 -   Configurar a hierarquia de categorias de compras antes de criar o catálogo.
--   Determine quais produtos você deseja que seus funcionários consigam solicitar. Você pode mostrar ou ocultar produto específico em um nó de catálogo, ou você pode mostrar ou ocultar todos os produtos em um nó.
+-   Determine quais produtos você deseja que seus funcionários consigam solicitar. Você pode mostrar ou ocultar produtos específicos em um nó de catálogo, ou você pode mostrar ou ocultar todos os produtos em um nó.
 -   Determine quantos catálogos de compras são necessários. Acesso a um catálogo de compras é determinado pela regra de políticas do catálogo que você configurar para a entidade legal e a unidade operacional a que um funcionário está atribuído.
 
 Vários fatores determinam os produtos que os funcionários podem solicitar e as categorias de compras que podem ser usadas ao criar requisições de compra:
@@ -52,7 +55,7 @@ A tabela a seguir descreve as tarefas que devem ser concluídas antes que o prof
 ## <a name="setting-up-a-catalog"></a>Configurando um catálogo
 Depois que os pré-requisitos forem atendidos, você pode configurar catálogos. Você pode criar um catálogo que sua organização inteira usa ou vários catálogos que as diversas divisões de sua organização usam. Se você criar um catálogo para a organização inteira, o acesso ao catálogo será controlado pelas regras da política de compras.  
 
-O catálogo define quais produtos estão disponíveis quando as requisições de compra são criadas, mas você pode usar as regras da política de acesso de categoria para aplicar restrições adicionais. Como os nós de um catálogo são categorias de compras, eles podem ser suprimidos por uma regra da política de acesso de categoria. Nesse caso, os produtos nessa categoria não estão disponíveis para que os funcionários devem usar em requisições. Definir regras de diretiva de acesso da categoria de compras ** diretivas ** na página. A tabela a seguir descreve as tabelas que devem ser concluídas para configurar um catálogo.
+O catálogo define quais produtos estão disponíveis quando as requisições de compra são criadas, mas você pode usar as regras da política de acesso de categoria para aplicar restrições adicionais. Como os nós de um catálogo são categorias de compras, eles podem ser suprimidos por uma regra da política de acesso de categoria. Nesse caso, os produtos nessa categoria não estão disponíveis para os funcionários usarem em requisições. Você define regras de diretiva de acesso da categoria de compras na página **Políticas de compra**. A tabela a seguir descreve as tabelas que devem ser concluídas para configurar um catálogo.
 
 | Tarefa                                                   | Função             | Descrição                                                                                                                                                                                                                                                                                                                  |
 |--------------------------------------------------------|------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -70,6 +73,8 @@ As atualizações são publicadas de forma automática ou manual, dependendo da 
 <a name="see-also"></a>Consulte também
 --------
 
-[Configurado uma hierarquia de categorias de compras (guia de tarefas)](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+[Configurar uma hierarquia de categorias de compras (guia de tarefas)](http://ax.help.dynamics.com/en/wiki/set-up-a-procurement-category-hierarchy/)
+
+
 
 

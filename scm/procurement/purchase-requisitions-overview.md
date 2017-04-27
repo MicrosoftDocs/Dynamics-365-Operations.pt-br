@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-overview"></a>Visualização geral da requisição de compra
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve o fluxo de trabalho de requisição de compra e os diferentes status que uma requisição de compra pode ter.
 
 Dependendo da configuração da sua organização, você poderá criar requisições de compra para os produtos consumidos pela organização. Uma requisição de compra é um documento interno que autoriza o departamento de Compras a comprar produtos.  
@@ -48,7 +51,7 @@ Quando você cria uma requisição de compra, um status é atribuído à ela. Um
 
 O diagrama a seguir mostra os status que são atribuídos a uma requisição de compra e a uma linha da requisição de compra à medida que elas passam pelo processo de fluxo de trabalho.  
 
-[![Purchase requisition header and line statuses](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![Status do cabeçalho e da linha da requisição de compra](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>Cabeçalho da requisição de compra e relacionamentos de status da linha
 
@@ -77,7 +80,7 @@ O status geral de uma requisição de compra é determinado pelo status das linh
 <td>Se o fluxo de trabalho tiver sido configurado para encaminhar as linhas da requisição de compra aos revisores individuais, cada linha poderá ter um status <strong>Em revisão</strong> ou <strong>Rejeitado</strong>. O status da requisição de compra será atualizado quando o processo de revisão estiver concluído para todas as linhas da requisição de compra, e quando não houver mais etapas de revisão restantes para a requisição de compra.
 <ul>
 <li><strong>Em revisão</strong> – as linhas da requisição de compra foram enviadas para a revisão. Quando o processo de fluxo de trabalho estiver concluído para uma linha da requisição de compra, o status da linha permanecerá <strong>Em revisão</strong> até que todas as linhas da requisição de compra sejam revisadas.</li>
-<li><strong>Anulada</strong> – Uma linha de requisição de compra foi rejeitada. As linhas de requisição de compra serão rejeitadas que podem ser alteradas e reenviado.</li>
+<li><strong>Rejeitado</strong> – Uma linha de requisição de compra foi rejeitada. As linhas da requisição de compra que são rejeitadas podem ser modificadas e reenviadas.</li>
 </ul>
 Se você reenviar uma linha da requisição de compra que foi rejeitada, o processo de revisão será iniciado novamente para todas as linhas na requisição de compra que ainda estão em revisão. <strong>Observação:</strong> é possível cancelar uma requisição de compra que já foi enviada. Quando você cancela uma requisição de compra, todas as outras linhas da requisição de compra também são canceladas. As linhas da requisição de compra que foram canceladas podem ser excluídas.</td>
 </tr>
@@ -133,7 +136,7 @@ Se você reenviar uma linha da requisição de compra que foi rejeitada, o proce
 Você pode distribuir os custos de um produto incluso em uma requisição de compra para várias contas financeiras. Se a organização usar dimensões, como centros de custos e departamentos, você pode distribuir os custos de um produto para as dimensões em contas financeiras.
 
 ## <a name="requisition-purposes"></a>Finalidades da requisição
-As finalidades da requisição tornam mais flexível o processo de atendimento à demanda da requisição. Quando você criar uma requisição, poderá atribuir um destes dois objetivos: consumo ou reabastecimento. Dependendo da finalidade de requisição e a instalação da organização, demanda de requisição pode ser atendida por uma ordem de compra, por ordem de transferência, por ordem de produção, ou um kanban.  
+As finalidades da requisição tornam mais flexível o processo de atendimento à demanda da requisição. Quando você criar uma requisição, poderá atribuir um destes dois objetivos: consumo ou reabastecimento. Dependendo do objetivo da requisição e de como a sua organização está configurada, a demanda da requisição pode ser cumprida por uma ordem de compra, por ordem de transferência, por uma ordem de produção ou por um kanban.  
 
 Nas políticas de compras, você pode controlar os objetivos da requisição que estão disponíveis quando uma requisição é criada para sua organização.
 
@@ -152,7 +155,7 @@ Para usar as requisições de compra com a finalidade de reabastecimento, você 
 ## <a name="purchase-requisitions-and-requests-for-quotation"></a>Requisições de compra e solicitações de cotação
 Em alguns casos, você deve iniciar um processo de solicitação de cotação (RFQ) para identificar o fornecedor e o preço dos produtos solicitados em uma requisição de compra. Uma RFQ poderá ser gerada quando a requisição de compra estiver em revisão. Quando você aceita um lance, as informações sobre o fornecedor, o preço e assim por diante, são transferidas para a requisição.  
 
-Você pode colocar um usuário coloca de requisição selecionando ** ** em espera a caixa de seleção ** detalhes da requisição ** na página. Processamento de requisição de compra pode continuar somente depois que você remover o bloqueio desmarcando a caixa de seleção.  
+Você pode colocar uma requisição de compra em espera selecionando a caixa de seleção **Em espera** na página **Detalhes da requisição de compra**. Processamento da requisição de compra pode continuar somente depois que você remover o bloqueio desmarcando a caixa de seleção.  
 
 **Observação:** em Compras eletrônicas, a RFQ da sua requisição de compra pode permitir que os fornecedores adicionem linhas alternativas. Nesse caso, sua requisição de compra refletirá as alternativas aprovadas.
 
@@ -178,7 +181,7 @@ Para criar uma ordem de compra para as linhas da requisição de compra não qua
 
 O processo de consolidação de demanda se inicia quando uma requisição de compra é aprovada em um fluxo de trabalho e, se o controle de orçamento estiver configurado para sua organização, quando as reservas de orçamento e os pré-ônus são registrados. O diagrama a seguir mostra o fluxo de processo para consolidação de demanda.  
 
-[fluxo de processo do![para consolidação de demanda (]. /media/demand-consolidation.gif)](. /media/demand-consolidation.gif)  
+[![Fluxo do processo para consolidação de demanda](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 Para consolidar linhas de requisição de compra aprovadas, siga estas etapas:
 
@@ -192,8 +195,10 @@ Para consolidar linhas de requisição de compra aprovadas, siga estas etapas:
 <a name="see-also"></a>Consulte também
 --------
 
-[Crie uma requisição para consumo (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Criar uma requisição para consumo (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
-[Purchase requisition workflow](purchase-requisitions-workflow.md)
+[Fluxo de trabalho de requisição de compra](purchase-requisitions-workflow.md)
+
+
 
 

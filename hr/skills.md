@@ -39,18 +39,18 @@ Os exemplos das habilidades que você pode rastrear incluem o seguinte:
 Antes de atribuir uma habilidade a uma pessoa ou a um trabalho, criar uma pesquisa de mapeamento de habilidades ou criar um perfil de habilidades, você deve inserir informações sobre as habilidades na página **Habilidades**. Para cada habilidade, você pode selecionar um tipo de habilidade e um modelo de classificação.
 
 ## <a name="rating-models"></a>Modelos de classificação
-Os modelos de classificação ajudam a avaliar o nível real de habilidades de uma pessoa, o nível que ela deveria atingir ou o nível de habilidades necessário para um trabalho. É possível inserir até 10 níveis para um modelo de avaliação.  Cada nível em um modelo de classificação é atribuído um fatora.  O valor de fatora será usado para normalizar contagens as habilidades que usam diferentes modelos de classificação.  O fatora deve ser um número entre 0-9 e cada nível deve ter um fatora exclusivo.  Os níveis com valores de fator mais altos têm mais peso em um modelo de avaliação.
+Os modelos de classificação ajudam a avaliar o nível real de habilidades de uma pessoa, o nível que ela deveria atingir ou o nível de habilidades necessário para um trabalho. É possível inserir até 10 níveis para um modelo de avaliação.  Cada nível em um modelo de classificação é atribuído um fator.  O valor do fator será usado para normalizar pontuações das habilidades que usam diferentes modelos de avaliação.  O fator deve ser um número de 0 a 9, e cada nível deve ter um fator exclusivo.  Os níveis com valores de fator mais altos têm mais peso em um modelo de avaliação.
 
 ## <a name="specify-job-skills"></a>Especifique as habilidades de trabalho
-Quando você insere informações sobre um trabalho, você pode especificar as habilidades que a pessoa se tem para executar o trabalho necessários para o trabalho.  Além você pode especificar o nível desejado para cada habilidade também o nível de importância da habilidade. Diferentes trabalhos podem exigir diferentes níveis de importância para a mesma habilidade.
+Ao inserir informações sobre um trabalho, você pode especificar as habilidades que uma pessoa deve ter para que ela realize o trabalho.  Além disso, você pode especificar o nível desejado para cada habilidade, bem como o nível de importância da habilidade. Diferentes trabalhos podem exigir diferentes níveis de importância para a mesma habilidade.
 
 ## <a name="enter-skills-for-workers-applicants-or-contacts"></a>Insira habilidades para funcionários, candidatos ou contatos
 Você pode inserir habilidades alvo ou habilidades reais para funcionários, candidatos ou contatos. Uma habilidade alvo é uma habilidade que uma pessoa planeja obter. Uma habilidade real é uma habilidade que uma pessoa tem atualmente.
 
 ## <a name="skill-mapping-and-skill-mapping-profiles"></a> Mapeamento de habilidades e perfis de mapeamento de habilidades
-Você pode criar uma pesquisa de mapeamento de habilidades para localizar um trabalhador, ou um candidato, uma pessoa de contato que seja qualificada para executar um tipo específico de tarefa. as pesquisas de mapeamento de habilidades olham através de formação educacional, habilidades, certificados, experiência de posições de confiança e de projeto e os resultados retornarão que correspondem aos critérios inseridos.  Por exemplo, pode ser útil saber que funcionários de sua organização ganharam o CPA.
+Você pode criar uma pesquisa de mapeamento de habilidades para encontrar um trabalhador, solicitante ou pessoa de contato qualificada para executar um tipo específico de tarefa. Pesquisas de mapeamento de habilidades buscam habilidades, educação, certificados, posições de confiança e experiência de projeto e retornam resultados que correspondem aos critérios inseridos.  Por exemplo, pode ser útil saber quais os trabalhadores da sua organização obtiveram o CPA.
 
-os perfis de mapeamento de habilidades permitem que você encontra funcionários atuais ou candidatos qualificações que atendem diretamente às necessidades comerciais.  Por exemplo, você pode criar um perfil de mapeamento de habilidades para uma vaga aberta na organização. Criando um perfil para um trabalho específico e copiando as habilidades, formação educacional e certificados desse trabalho para o perfil, é possível pesquisar rapidamente trabalhadores, candidatos e pessoas de contato que correspondem a um ou mais dos critérios inseridos no perfil e exibir uma lista dos candidatos cujas as habilidades mais correspondem às habilidades necessárias para o trabalho.
+Os perfis de mapeamento de habilidades permitem que você encontre funcionários atuais ou candidatos com qualificações que correspondam diretamente às necessidades do negócio.  Por exemplo, você pode criar um perfil de mapeamento de habilidades para uma posição aberta na sua organização. Criando um perfil para um trabalho específico e copiando as habilidades, formação educacional e certificados desse trabalho para o perfil, é possível pesquisar rapidamente trabalhadores, candidatos e pessoas de contato que correspondem a um ou mais dos critérios inseridos no perfil e exibir uma lista dos candidatos cujas as habilidades mais correspondem às habilidades necessárias para o trabalho.
 
 <table>
 <thead>
@@ -79,6 +79,6 @@ Você pode criar uma análise de perfil de habilidades para exibir uma lista de 
 <a name="see-also"></a>Consulte também
 --------
 
-[Human resources](index.md)
+[Recursos humanos](index.md)
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-sheets"></a>Folhas de custos
 
+[!include[banner](../includes/banner.md)]
+
+
 A configuração da folha de custos envolve dois objetivos. Como primeiro objetivo, você define o formato para exibir as informações de custo de bens vendidos sobre um item manufaturado ou ordem de produção. A exibição formatada é nomeada folha de custos. Como segundo objetivo, você define a base para calcular custos indiretos. A configuração de folha de custo cria no recurso de grupo de custo para exibir informações e para as fórmulas de cálculo de custo indireto. Os dois objetivos da configuração de folha de custos são descritos neste artigo. 
 
 Uma folha de custos é a exibição de informações formatada sobre o custo de bens vendidos sobre um item manufaturado ou uma ordem de produção. Ao configurar uma folha de custos, você define o formato das informações e também define a base para calcular custos indiretos. A configuração de folha de custos cria recursos do grupo de custo para exibir informações e para as fórmulas que são usadas para calcular custo indireto. Aqui há mais informações sobre os dois objetivos da configuração da folha de custos:
@@ -43,6 +46,8 @@ Duas políticas de bloqueio para uma versão de avaliação de custo determinam 
 Após definir o formato de folha de custos e os cálculos para os custos indiretos, você deverá executar uma etapa separada para validar e salvar as informações. A folha de custos representa um formato de toda a empresa para exibir consistentemente as informações de custos de produtos vendidos. 
 
 A folha de custos é exibida como parte da página **Calcular custo do item**. A folha de custos pode ser exibida para um registro de custo calculado do item manufaturado na página **Preço de item** ou para um registro de cálculo específico da ordem na página **Resultados de cálculo de BOM**. Ela também pode ser exibida como parte da página **Cálculo de preço** de uma ordem de produção.
+
+
 
 
 

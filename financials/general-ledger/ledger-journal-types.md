@@ -1,6 +1,6 @@
 ---
 title: "Tipos de diário-razão"
-description: "Este artigo descreve os tipos de diário que você pode configurar para diários financeiros. Use a página de nomes de diário para configurar diários que você pode usar em todo o Microsoft Dynamics 365 para as operações."
+description: "Este artigo descreve os tipos de diário que você pode configurar para diários financeiros. Use a página de nomes de diário para configurar os diários que você pode usar em todo o Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="ledger-journal-types"></a>Tipos de diário-razão
 
-Este artigo descreve os tipos de diário que você pode configurar para diários financeiros. Use a página de nomes de diário para configurar diários que você pode usar em todo o Microsoft Dynamics 365 para as operações.
+[!include[banner](../includes/banner.md)]
+
+
+Este artigo descreve os tipos de diário que você pode configurar para diários financeiros. Use a página de nomes de diário para configurar os diários que você pode usar em todo o Microsoft Dynamics 365 for Operations.
 
 | Tipo de diário                      | Finalidade                                                                                                                                                                                                                                                                                                                                                     | Inserir transações nesta página                                |
 |-----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------|
@@ -55,11 +58,13 @@ Este artigo descreve os tipos de diário que você pode configurar para diários
 | Remessa bancária de fornecedor            | Criar um arquivo de remessa de nota promissória que possa ser enviado para o banco da sua organização.                                                                                                                                                                                                                                                                      | Diário de remessas                                             |
 | Pagamento de fornecedor               | Criar transações de pagamento do fornecedor.                                                                                                                                                                                                                                                                                                                    | Diário de pagamentos                                                |
 | Nota promissória emitida para fornecedor       | Emitir notas promissórias do fornecedor como um método de pagamento. Para usar esse tipo de diário, desmarque a opção **Criar e lançar o diário emitido automaticamente ao lançar faturas** na página **Métodos de pagamento - fornecedores**.                                                                                                                                          | Emitir diário de notas promissórias                                   |
-| Grupo de notas fiscais de fornecedor. lançamento | Criar transações de fatura de fornecedor que ainda não tenham sido lançadas em uma conta de entrada temporária.                                                                                                                                                                                                                                                             | Grupo de faturas de fornecedor excluindo detalhes de lançamento                  |
+| Grupo de faturas de fornecedor excl. lançamento | Criar transações de fatura de fornecedor que ainda não tenham sido lançadas em uma conta de entrada temporária.                                                                                                                                                                                                                                                             | Grupo de faturas de fornecedor excluindo detalhes de lançamento                  |
 | Grupo de faturas de fornecedor               | Criar transações de grupo de fatura de fornecedor.                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Registro de fatura de fornecedor          | Lance faturas de fornecedor que estejam em um diário.                                                                                                                                                                                                                                                                                                                 | Diário de faturas                                                |
 | Nota promissória reemitida por fornecedor     | Reemitir uma nota promissória que foi liquidada anteriormente pelo banco da sua organização.                                                                                                                                                                                                                                                                      | Reemitir diário de notas promissórias                                 |
 | Nota promissória liquidada por fornecedor     | Criar transações de nota promissória liquidada pelo fornecedor.                                                                                                                                                                                                                                                                                                          | Liquidar diário de notas promissórias                                 |
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Conteúdo de O power BI de vendas e de desempenho de lucratividade"
-description: "Este tópico descreve o que está incluído em dynamics 365 operações - para blocos de conteúdo de vendas e de desempenho da lucratividade do power BI Microsoft. Explica como acessar os relatórios incluídas no bloco de conteúdo e fornece informações sobre o modelo de dados e as entidades que são usados para construir o bloco de conteúdo."
+title: "Conteúdo de Power BI de desempenho de lucratividade e vendas"
+description: "Este tópico descreve o que está incluso no Dynamics 365 para Operações - Pacote de conteúdo de desempenho de lucratividade e vendas para o Microsoft Power BI. Ele explica como acessar os relatórios incluídos no pacote de conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,84 +24,84 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Conteúdo de O power BI de vendas e de desempenho de lucratividade
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Conteúdo de Power BI de desempenho de lucratividade e vendas
 
-Este tópico descreve o que está incluído em dynamics 365 operações - para blocos de conteúdo de vendas e de desempenho da lucratividade do power BI Microsoft. Explica como acessar os relatórios incluídas no bloco de conteúdo e fornece informações sobre o modelo de dados e as entidades que são usados para construir o bloco de conteúdo.
+Este tópico descreve o que está incluso no Dynamics 365 para Operações - Pacote de conteúdo de desempenho de lucratividade e vendas para o Microsoft Power BI. Ele explica como acessar os relatórios incluídos no pacote de conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
 
 <a name="overview"></a>Visão Geral
 --------
 
-Esse bloco de conteúdo foi criado para aos gerentes de venda monitorem métricas chave de venda de receita, lucro bruto, e margens de benefício. Usa os dados transacionais de vendas do 365 para operações, e uma visão agregada de valores comerciais de venda e uma divisão de desempenho de vendas para clientes e produtos. Realçando alterações na receita e o crescimento de lucros no tempo, relatórios pode ser usado para alertar gerentes sobre tendências positivas e negativos para clientes individuais e produtos. A categoria e gerentes regionais localizar-o-9&z útil ter os gráficos que comparam a receita e a lucratividade de categorias e de cliente de produtos diferentes entre si agrupa se escolher retardatários e tracejados. Um relatório que plote abrangente receita de cliente individual na margem de lucro oferece a gerentes de uma conta como dados- voltada afinar os esforços de vendas e marketing perfil do respectivo cada cliente. Bloco de conteúdo de vendas e de desempenho de lucratividade habilita gerentes de venda para analisar pelo desempenho de vendas:
+Este pacote de conteúdo foi criado para os gerentes de vendas monitorarem as principais métricas de venda de receita, lucro bruto, e margens de lucro. Ele usa os dados transacionais de vendas do Dynamics 365 para Operações e fornece uma visão agregada das imagens de vendas de toda a empresa e um detalhamento do desempenho das vendas para clientes e produtos. Ao realçar as alterações no crescimento da receita e do lucro no decorrer do tempo, os relatórios podem ser usados para alertar os gerentes sobre tendências positivas e negativas para clientes e produtos individuais. Os gerentes regionais e de categoria acharão útil ter gráficos que comparam a receita e a lucratividade de diferentes categorias de produtos e grupos de clientes entre si para destacar os retardatários e líderes. Um relatório abrangente que destaca a receita individual do cliente em relação à margem de lucro oferece aos gerentes de conta uma fundação baseada em dados para afinar seus esforços de marketing e vendas com cada perfil respectivo do cliente. O pacote de conteúdo de desempenho de lucratividade e vendas permite que os gerentes de vendas analisam o desempenho das vendas por:
 
--   Receita, anual (por grupo de clientes e do indivíduo de clientes, por categorias de venda, e para produtos individuais e por geografias)
--   Alteração de receita, ano (por ano após regiões do cliente e de venda por categorias)
+-   Receita, anual (por grupo de clientes e clientes individuais, por categorias de venda, por produtos individuais e por geografias)
+-   Alteração de receita, ano a ano (por regiões de cliente e categorias de venda)
 
-A lucratividade podem ser analisados por:
+A lucratividade pode ser analisada por:
 
--   Lucro bruto e margem de lucro (categorias por grupos de clientes e de venda de produtos)
--   Alteração lucro bruto, ano após ano
--   Lucratividade de cliente (por receita na margem bruta)
+-   Lucro bruto e margem de lucro (por grupos de clientes e categorias de venda de produtos)
+-   Alteração de lucro bruto, ano após ano
+-   Lucratividade de cliente (por receita versus margem bruta)
 
-## <a name="accessing-the-content-pack"></a>Acessando o bloco de conteúdo
-Bloco de conteúdo do power BI de vendas e de desempenho de lucratividade for publicado como um ativo de implementação do ciclo de vida de serviço a (LCS) e pode ser acessado do 365 para as operações. Para obter mais informações sobre como acessar e iniciar relatórios de O power BI, consulte [conteúdo de O power BI em LCS Microsoft e seus parceiros (power-bi-content-microsoft-partners.md]).
+## <a name="accessing-the-content-pack"></a>Acessando o pacote de conteúdo
+O pacote de conteúdo do Power BI para desempenho de lucratividade e vendas é publicado como um ativo de implementação no Lifecycle Services (LCS) e pode ser acessado pelo Dynamics 365 para Operações. Para obter mais informações sobre como acessar e iniciar os relatórios do Power BI, consulte [conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md).
 
-## <a name="metrics-included-in-the-content-pack"></a>Medidor incluído no bloco de conteúdo
-Bloco de conteúdo inclui um relatório que consiste em um conjunto de metro visualizado como gráficos, caixas, e tabelas. A seguinte tabela fornece uma visão geral de visualisations no bloco de conteúdo.
+## <a name="metrics-included-in-the-content-pack"></a>Medidor incluído no pacote de conteúdo
+O pacote de conteúdo inclui um relatório que consiste de um conjunto de métricas visualizadas como gráficos, blocos e tabelas. A tabela a seguir fornece uma visão geral das visualizações no pacote de conteúdo.
 
 |                        |                                            |                                                         |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
-| ** ** Página de relatório        | **Charts**                                 | ** Quadros **                                               |
-| Receita por cliente    | Clientes de 10 melhores por receita                | Receita total                                           |
+| **Página de relatório**        | **Gráficos**                                 | **Blocos**                                               |
+| Receita por cliente    | 10 melhores clientes por receita                | Receita total                                           |
 |                        | Receita total por grupo de clientes            | Crescimento de receita de YOY                                      |
-|                        | Receita de média cliente por grupo de clientes | Margem bruta                                            |
-|                        | Receita e lucro bruto por grupo de clientes   |                                                         |
-| Subproduto de receita     | Receita e lucro bruto por categoria de vendas   | Total do produto \#                                    |
-|                        | Produtos a parte superior 10 por receita                 | Número total de produto ativos e percentual total |
-|                        | Receita total de venda por categoria            | Número na conta receita de 80%           |
-| Receita do período\*    | Receita por mês                           | Crescimento de receita de YOY                                      |
-|                        | Variação à direita de receita, YOY             | Crescimento % de receita de YOY                                    |
+|                        | Receita média do cliente por grupo de clientes | Margem bruta                                            |
+|                        | Receite e lucro bruto por grupo de clientes   |                                                         |
+| Receita por produto     | Receita e lucro bruto por categoria de vendas   | Total \# de produtos                                    |
+|                        | 10 melhores produtos por receita                 | Número total de produtos ativos e percentual do total |
+|                        | Receita total por categoria de vendas            | Número da contabilidade de produtos para receita de 80%           |
+| Receita por período\*    | Receita por mês                           | Crescimento de receita de YOY                                      |
+|                        | Variação de receita à direita, YOY             | % de crescimento de receita de YOY                                    |
 |                        | Variação total de vendas por região do cliente    |                                                         |
-| Receita por local    | Receita por cidade de vendas                      |                                                         |
-|                        | Crescimento % de receita de YOY                       |                                                         |
+| Receita por localização    | Receita de vendas por cidade                      |                                                         |
+|                        | % de crescimento de receita de YOY                       |                                                         |
 |                        | Receita de vendas por região                    |                                                         |
-| Lucratividade de cliente | Margem bruta a receita, por cliente   | Lucro bruto, margem bruta, crescimento de receita de YOY          |
-| Análise de lucratividade | Receita e lucro bruto do mês          |                                                         |
-|                        | Clientes de 15 melhores margem bruta por           |                                                         |
+| Lucratividade de cliente | Margem bruta versus receita, por cliente   | Lucro bruto, margem bruta, crescimento de receita de YOY          |
+| Análise de lucratividade | Receita e lucro bruto por mês          |                                                         |
+|                        | 15 melhores clientes por margem bruta           |                                                         |
 |                        | Lucro bruto por mês, YOY                 |                                                         |
 
-receita\* esta e no ano passado e crescimento, por categoria de vendas.
+\* Receita este ano e último ano, e crescimento por categoria de vendas.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
-O dynamics 365 para dados de operações é usado para popular o relatório no bloco de conteúdo de vendas e de desempenho de lucratividade. Isso é apresentada como as medições agregadas que forem preparadas na entidade, um base de dados Microsoft SQL otimizada para análise. Ler mais sobre ela em [blog integração do POWER BI com o armazenamento de entidade em dynamics] (https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Medidas agregadas esse bloco de conteúdo são o subconjunto de medições que estavam agregadas disponíveis no cubo de vendas no dynamics AX 2012 e o AX 2012 R3. Para preparar as medições de cubo agregadas na entidade é necessário deployable fazê-las. Para obter mais informações, consulte o procedimento sobre como preparar medições agregadas na entidade em [blog integração do POWER BI com o armazenamento de entidade em dynamics] (https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). Estas medições agregação de chave de entidade linhas de nota fiscal são usadas como base de blocos de conteúdo.
+Os dados do Dynamics 365 para Operações são usados para preencher o relatório no pacote de conteúdo de desempenho de lucratividade e vendas. Isso é representado como medições agregadas que são preparadas na loja Entidade, que é um banco de dados Microsoft SQL otimizado para análise. Leia mais sobre isso no blog [integração do Power BI com a loja Entidade no Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). As medidas agregadas neste pacote de conteúdo são o subconjunto de medidas agregadas que estavam disponíveis no Sales Cubo no Dynamics AX 2012 e AX 2012 R3. Para preparar as medidas agregadas do cubo na loja Entidade, você devem torná-las implementáveis. Para obter mais informações, consulte o procedimento sobre como preparar medidas agregadas na loja Entidade no blog [integração do Power BI com a loja Entidade no Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). As principais medidas agregadas a seguir da entidade Linhas de fatura são usadas como base do pacote de conteúdo.
 
 |               |                                              |                                                 |                                              |                                          |
 |---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|------------------------------------------|
-| **Entity**    | ** Medições agregadas principais **               | ** Fonte de dados para dynamics 365 para operações ** | **Field**                                    | **Description**                          |
-| Linhas da fatura | Receita                                      | CustInvoiceTrans                                | SUM (LineAmountMST)                           | Valor em moeda contábil            |
-|               | Custo dos produtos vendidos                           | InventTrans                                     | SUM (CostAmountPosted + CostAmountAdjustment) | Valor de custo previsto + ajuste                 |
-|               | Valor de linha de comissão contábil – a moeda | CustInvoiceTrans                                | SUM (CommissAmountMST)                        | Valor da comissão em moeda contábil |
+| **Entidade**    | **Principais medidas agregadas**               | **Fonte de dados para o Dynamics 365 para Operações** | **Campo**                                    | **Descrição**                          |
+| Linhas da fatura | Receita                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Valor em moeda contábil            |
+|               | Custo dos produtos vendidos                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Valor de custo + ajuste                 |
+|               | Valor da linha de comissão - moeda contábil | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Valor de comissão na moeda contábil |
 
-A tabela mostra medições agregadas de linhas principais entidade de nota fiscal são usadas para criar diversas medidas calculadas no conjunto de dados de conteúdo do bloco.
+A tabela a seguir mostra as principais medidas agregadas da entidade de linhas de fatura que são usadas para criar diversas medidas calculadas no conjunto de dados do pacote de conteúdo.
 
 |                   |                                                                                                  |
 |-------------------|--------------------------------------------------------------------------------------------------|
-| **Measure**       | ** Calculado como **                                                                                |
-| Lucro bruto      | (Receita – SUM COGS – comissão impostos – (valor incluídos na linha de nota fiscal de cliente))          |
-| Margem bruta      | SUM (lucro bruto (/receita - vendas incluídos na linha (valor da nota fiscal de cliente)))             |
-| Receita no ano passado | Receita no ano passado CALCULA = (SUM 'receita (\]), SAMEPERIODLASTYEAR de lines'entity_PLACEHOLDER \ [data de faturamento (\]\[datas) |
+| **Medição**       | **Calculado como**                                                                                |
+| Lucro bruto      | SUM(Receita – COGS – Comissão – Imposto (incluído no valor de linha de fatura de cliente))          |
+| Margem bruta      | SUM(Lucro bruto / (Receita - Imposto (incluído no valor de linha de fatura de cliente)))             |
+| Receita no ano passado | Receita no ano passado = CALCULATE(SUM('Linhas de fatura'\[Receita\]), SAMEPERIODLASTYEAR(Datas\[Data\]) |
 
-As seguintes dimensões principais em ** cubo vendas ** são usadas como os filtros para cortar medições agregadas para obter a granularidade maior e uma introspecções analíticas mais profundas.
+As principais dimensões a seguir **Cubo de vendas** são usadas como filtros para cortar as medidas agregadas para obter uma granularidade maior e uma introspecção analítica mais profunda.
 
 |                  |                                                      |
 |------------------|------------------------------------------------------|
-| **Entity**       | ** Exemplos de atributos **                           |
+| **Entidade**       | **Exemplos de atributos**                           |
 | Clientes        | Grupos de clientes, regiões do cliente, endereço, indústria |
-| Produtos         | Número do produto, nome do produto, nome de item       |
-| Categorias de vendas | Nomes de categoria de vendas                                 |
+| Produtos         | Número do produto, nome do produto, nome do grupo de item       |
+| Categorias de vendas | Nomes de categoria de venda                                 |
 | Entidades legais   | Nomes de entidade legal                                   |
 | Datas            | Datas                                                |
 
-Por padrão, o bloco de conteúdo exibe dados o ano civil atual, mas você pode abrir a seção de filtros e de relatório alterar o filtro de data. Você também pode alterar o filtro de empresa.
+Por padrão, o pacote de conteúdo exibe dados para o ano civil atual, mas você pode abrir a seção de filtros de relatório e alterar o filtro de data. Você também pode alterar o filtro da empresa.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 Estes são alguns links úteis relacionados às entidades e ao desenvolvimento de conteúdo do Power BI:

@@ -46,12 +46,12 @@ Além dos relatórios financeiros, você pode usar os relatórios do razão a se
 
 -   **Demonstrativo de dimensão** – Este relatório mostra as transações por dia e por conta e também as opções para mostrar transações por dimensão e período.
 -   **Lista de transações do razão** – Este relatório mostra transações nas concorrências de transação, conta e relatórios de uma conta.
--   ** O diário de impressão ** – esse relatório mostra o resultado de um diário lançado. Você pode executar o relatório por número de lote do diário ou por tipo de diário, ou adicione campos adicionais.
+-   **Diário de impressão** – esse relatório mostra o resultado de um diário lançado. Você pode executar o relatório por número de lote de diário ou tipo de diário ou adicionar campos adicionais.
 -   **Transações lançadas pelo diário** – Este relatório mostra as transações que foram lançadas em um diário, agrupadas por comprovante.
 -   **Lista de transações por data** – Este relatório mostra todas as transações por data, com o número do diário, o comprovante e a conta contábil. Também mostra as transações da transação, na contabilidade e as moedas de relatório.
 -   **Origem de transação** – Este relatório de transação mostra a conta por diário e por transação, conta e moeda do relatório. Também mostra cada linha do diário usado como uma compensação.
 
 
-Para obter mais informações, consulte [] saldos de conta contábil (general-ledger-account-balances.md), [explorador de origem] contabilidade financeiros (\ \ \ contas a pagar) [Explorer e o relatório financeiro (financial-reporting-getting-started.md])
+Para obter mais informações, consulte [Saldo da conta contábil](general-ledger-account-balances.md), [Gerenciador de fontes contábeis](\financials\accounts-payable\accounting-source-explorer) e [Relatórios financeiros](financial-reporting-getting-started.md)
 
 

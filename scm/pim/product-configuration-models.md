@@ -1,6 +1,6 @@
 ---
-title: "A configuração dos modelos de produto a visão geral"
-description: "Esse item define condições e os conceitos que são relevantes a configuração de produtos. Modelos de configuração de produto permitem criar uma estrutura de produtos genéricas que pode ser usada para definir várias variantes de produto para um único produto."
+title: "Visão geral dos modelos de configuração de produto"
+description: "Esse artigo define condições e conceitos que são relevantes para configuração de produtos. Modelos de configuração de produto permitem criar uma estrutura de produtos genérica que pode ser usada para definir diversas variantes de produto para um único produto."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-configuration-models-overview"></a>A configuração dos modelos de produto a visão geral
+# <a name="product-configuration-models-overview"></a>Visão geral dos modelos de configuração de produto
 
-Esse item define condições e os conceitos que são relevantes a configuração de produtos. Modelos de configuração de produto permitem criar uma estrutura de produtos genéricas que pode ser usada para definir várias variantes de produto para um único produto.
+Esse artigo define condições e conceitos que são relevantes para configuração de produtos. Modelos de configuração de produto permitem criar uma estrutura de produtos genérica que pode ser usada para definir diversas variantes de produto para um único produto.
 
 Os modelos de produto são criados para representar a estrutura de produtos genérica. Depois de definir um modelo de configuração de produto, será possível configurar uma variante de produto distinta que tenha uma lista de materiais (BOM) exclusiva e um roteiro exclusivo. Os modelos de configuração de produto usam limitações declarativas e cálculos obrigatórios para tratar as relações e as limitações entre variantes de produto diferentes. É possível configurar itens em ordens de venda, cotações de venda, ordens de compra e, em ordens de produção. A tabela a seguir descreve os termos e os conceitos baseados em restrição de tabela.
 <table>
@@ -69,16 +69,16 @@ Também é possível especificar uma condição para os atributos. Se a condiç�
 <li><strong>Texto</strong> com ou sem uma lista fixa</li>
 <li><strong>Booleano</strong></li>
 </ul>
-Se o tipo de atributo for <strong>Booliano</strong>, <strong>Inteiro</strong> com um intervalo ou <strong>Texto</strong> com uma lista fixa, o conjunto de valores estará disponível quando um modelo de configuração do produto for configurado. <strong>Observação:</strong> O agente de resolução de configuração de produto reconhece somente os seguintes tipos de atributos: <strong>Booleano</strong>com uma lista, <strong>Texto</strong> fixa, e <strong>Inteiro</strong> com um intervalo. Portanto, somente esses tipos de atributo podem ser usados nas restrições e condições de expressão.</td>
+Se o tipo de atributo for <strong>Booliano</strong>, <strong>Inteiro</strong> com um intervalo ou <strong>Texto</strong> com uma lista fixa, o conjunto de valores estará disponível quando um modelo de configuração do produto for configurado. <strong>Observação:</strong> o Agente de solução de configuração de produto reconhece somente os seguintes tipos de atributo: <strong>Booliano</strong>, <strong>Texto</strong> com uma lista fixa e <strong>Inteiro</strong> com um intervalo. Portanto, somente esses tipos de atributo podem ser usados nas restrições e condições de expressão.</td>
 </tr>
 <tr class="even">
 <td>Restrições</td>
 <td>As restrições descrevem as restrições de configuração do modelo de produto. As restrições são usadas para garantir que somente os valores válidos sejam selecionados quando um produto estiver sendo configurado. As restrições podem ser restrições de expressão ou restrições de tabela:
 <ul>
 <li>As restrições de expressão podem ser usadas somente para o componente ao qual estão associadas. As restrições de expressão para um componente pode fazer referência a atributos dos subcomponentes do componente. O Agente de solução de configuração do produto é usado para resolver as restrições, e é necessário usar a sintaxe do agente de solução ao gravar as restrições. Para obter mais informações, consulte o link de wiki sobre restrições de expressão e restrições de tabela.</li>
-<li>As restrições de tabela devem ser definidas antes que possam ser aplicadas a um componente em um modelo de configuração de produto. As restrições de tabela podem ser definidos pelo usuário ou por definidas. Uma restrição de tabela definida pelo usuário é um tipo de matriz que pode ser usada para descrever o conjunto de combinações para os valores de atributo que são definidos pelos tipos de atributo. Por exemplo, se forem produzidos alto-falantes, a matriz para uma restrição de tabela definida pelo usuário poderá ter colunas para o acabamento e para a grade do alto-falante.</li>
+<li>As restrições de tabela devem ser definidas antes que possam ser aplicadas a um componente em um modelo de configuração de produto. As restrições de tabela podem ser definidas pelo usuário ou pelo sistema. Uma restrição de tabela definida pelo usuário é um tipo de matriz que pode ser usada para descrever o conjunto de combinações para os valores de atributo que são definidos pelos tipos de atributo. Por exemplo, se forem produzidos alto-falantes, a matriz para uma restrição de tabela definida pelo usuário poderá ter colunas para o acabamento e para a grade do alto-falante.</li>
 </ul>
-<strong>Exemplo</strong> Os alto-falantes estão disponíveis em quatro acabamentos: Preto, Carvalho, Jacarandá, e Branco. Os alto-falante podem ter uma de três grades planejamento: Preto, Metal, ou branco. O business preto está disponível para todas as grades, mas os outros mãos são limitados às grades específicas. A tabela a seguir mostra um exemplo das informações exibidas na guia <strong>Combinações permitidas</strong> na página <strong>Editar restrição de tabela</strong>.
+<strong>Exemplo</strong> Os alto-falantes estão disponíveis em quatro acabamentos: Preto, Carvalho, Jacarandá, e Branco. Os alto-falantes podem ter uma de três grades de planejamento: Preto, Metal ou Branco. O acabamento preto está disponível para todas as grades, mas os outros acabamentos são limitados a grades específicas. A tabela a seguir mostra um exemplo das informações exibidas na guia <strong>Combinações permitidas</strong> na página <strong>Editar restrição de tabela</strong>.
 <table>
 <thead>
 <tr class="header">
@@ -117,11 +117,11 @@ Se o tipo de atributo for <strong>Booliano</strong>, <strong>Inteiro</strong> co
 </tr>
 </tbody>
 </table>
-Uma restrição definida pela tabela representa um mapeamento insira um tipo de atributo e um campo em uma dynamics 365 para a tabela de operações. Uma restrição sistema da tabela definida vincula dinamicamente o tipo de atributo no campo. O link habilita o atributo em um modelo de configuração de produto para refletir os dados do campo em dynamics 365 para a tabela de operações.</td>
+Uma restrição de tabela definida pelo sistema representa um mapeamento entre um tipo de atributo e um campo em uma tabela do Microsoft Dynamics 365 for Operations. Uma restrição de tabela definida pelo sistema vincula dinamicamente o tipo de atributo ao campo. O link habilita o atributo em um modelo de configuração de produto para refletir os dados do campo na tabela do Microsoft Dynamics 365 for Operations.</td>
 </tr>
 <tr class="odd">
 <td>Cálculos</td>
-<td>Cálculos representam um manuais suplementam as restrições. Você pode usar um cálculo para executar operações aritméticas em atributos e <strong>Inteiro</strong> tipos, e as operações que envolvem lógicas atributos com uma lista fixa e <strong>Booleano</strong> os tipos. Um cálculo tem um atributo de destino que reterá o resultado da expressão de cálculo. A expressão de cálculo é criada usando o editor de expressões.</td>
+<td>Os cálculos representam um suplemento para as restrições. Você pode usar um cálculo para executar operações aritméticas em atributos dos tipos <strong>Decimal</strong> e <strong>Inteiro</strong> ou operações lógicas que envolvam atributos dos tipos <strong>Texto</strong> com uma lista fixa e <strong>Booliano</strong>. Um cálculo tem um atributo de destino que reterá o resultado da expressão de cálculo. A expressão de cálculo é criada usando o editor de expressões.</td>
 </tr>
 <tr class="even">
 <td>Subcomponentes</td>

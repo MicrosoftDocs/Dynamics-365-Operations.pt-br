@@ -1,6 +1,6 @@
 ---
 title: "Processamento do diário geral"
-description: "Este artigos descrevem os recursos do Microsoft Dynamics 365 para as operações que podem ajudar a facilitar processar geral de diário, e também que podem ajudar a garantir que os dados corretos estão capturados e o controle interno não for o compromisso."
+description: "Este artigos descrevem os recursos do Microsoft Dynamics 365 for Operations que podem ajudar a facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,32 +28,35 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="general-journal-processing"></a>Processamento do diário geral
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigos descrevem os recursos do Microsoft Dynamics AX que podem ajudar a facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido.  
 
 Nomes de diário
 
-Uma das áreas mais importantes para a configuração de nomes de diário. Convém definir nomes do diário para cada objetivo, como ajuste intercompanhia, acumulado, e o de correção de erros. Você pode personalizar cada nome de diário para ajudar a tornar a entrada de dados para cada objetivo fácil e seguro. 
+Uma das áreas mais importantes para a configuração é nomes de diário. Convém definir nomes do diário específicos para cada objetivo, como ajuste intercompanhia, acumulado e correção de erro. Você pode personalizar cada nome de diário para ajudar a tornar a entrada de dados fácil e segura para cada objetivo. 
 
 Na página **Nomes de diário**, você pode configurar os seguintes elementos:
 
--   **Aprovação do fluxo de trabalho** – Para aumentar o controle interno, defina fluxos de trabalho do diário que estabeleçam limites de materialidade para as etapas de análise e aprovação, com base em critérios como o valor de débito total. Você fluxos de trabalho configuradas para os diários gerais ** fluxos de trabalho da contabilidade ** na página.
+-   **Aprovação do fluxo de trabalho** – Para aumentar o controle interno, defina fluxos de trabalho do diário que estabeleçam limites de materialidade para as etapas de análise e aprovação, com base em critérios como o valor de débito total. Você configura fluxos de trabalho para os diários gerais na página **Fluxos de trabalho de contabilidade**.
 -   **Valores padrão** – Selecione valores padrão para contrapartidas, moeda e dimensões financeiras.
 -   **Controle de diário** – Você pode configurar restrições da empresa e o tipo de conta, e também os valores do segmento. 
 
 **Exemplos**
 
-Um nome de diário pode ser usado somente para ajustes. Nesse caso, você pode especificar qual apenas o tipo de conta **Razão** é válido em todas as empresas. [tipos de conta de controle de diário do![(]. /media/journal-control-account-types1.png)](. /media/journal-control-account-types1.png)
+Um nome de diário pode ser usado somente para ajustes. Nesse caso, você pode especificar qual apenas o tipo de conta **Razão** é válido em todas as empresas. [![Tipos de contas de controle de diário](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
-Um nome de diário pode ser usado somente para um segmento específico ou para um intervalo de contas principais. [segmento de controle de diário do![(]. /media/journal-control-segment1.png)](. /media/journal-control-segment1.png)
+Um nome de diário pode ser usado somente para um segmento específico ou para um intervalo de contas principais. [![Segmento de controle de diário](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 A opção **Estorno automático** está disponível em diários gerais. Por exemplo, você tem um ajuste de competência em que o documento real ainda não foi processado, conforme mostrado na ilustração.
-[diário geral![que reverter (]. /media/general-journal-reversing1.png)](. /media/general-journal-reversing1.png) 
+[![Processamento do Diário geral](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-O manuais suplementam o Microsoft Excel para entrada de diário fornece um nível adicional de automação e facilita a entrada de dados. A ação **Abrir linhas no Excel ** está disponível nas páginas **Diário geral** e **Comprovante de diário**. 
+O suplemento do Microsoft Excel para a entrada de diário fornece um nível adicional de automação e facilita a entrada de dados. A ação **Abrir linhas no Excel ** está disponível nas páginas **Diário geral** e **Comprovante de diário**. 
 
 Na página **Diários periódicos**, você pode configurar diários de devolução para automatizar o processamento do diário. 
 
-Você pode usar modelos de comprovante a qualquer momento. ** Diários gerais ** na página, e salvar ** ** ** modelo de comprovante ** selecione as ações são localizadas ** ** comprovante de diário na página, abaixo ** funções ** comprovante para a linha.
+Você pode usar modelos de comprovante a qualquer momento. Na página **Diários gerais**, as ações **Salvar** e **Selecionar modelo de comprovante** estão na página **Comprovante de diário**, em **Funções** para as linhas do comprovante.
 
 ## <a name="related-setup"></a>Configuração relacionada
 A configuração a seguir não é específica de diários gerais, mas ajudará a garantir que a entrada de dados seja fácil e com dados corretos.
@@ -78,6 +81,7 @@ A configuração da conta principal fornece várias opções para o processament
 
 As estruturas de contabilidade e as estruturas de regras avançadas são muito importantes para garantir que os dados necessários para relatórios financeiros e rastreamento de desempenho sejam capturados durante o processamento do diário geral e em qualquer outra documentação. As estruturas de contabilidade e as estruturas de regras avançadas permitem personalizar a experiência da entrada de dados. Você pode permitir a entrada de dados somente para as dimensões financeiras que são relevantes para cada situação, e também pode forçar a exigência de captura de dados obrigatórios e corretos.
 
-Para obter mais informações, consulte: [planejamento Plano de contas (plan-chart-of-accounts.md]). 
+Para obter mais informações, consulte [Planejamento: Plano de contas](plan-chart-of-accounts.md). 
+
 
 

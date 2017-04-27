@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a>Criar um departamento e associá-lo à hierarquia de departamentos
 
+[!include[banner](includes/banner.md)]
+
+
 Um departamento é uma unidade operacional que representa uma categoria ou uma área funcional de uma organização. Um departamento é responsável por uma área específica da organização, como vendas, contabilidade ou recursos humanos. Você pode usar departamentos para relatar áreas funcionais. Os departamentos podem ter a responsabilidade de lucros e perdas.
 
-Um departamento pode incluir um grupo de centros de custo. As posições podem ser atribuídas aos departamentos. Para criar um departamento, clique em recursos humanos ** ** &gt; ** departamentos ** &gt; ** ** departamento. A tabela a seguir descreve os campos disponíveis.
+Um departamento pode incluir um grupo de centros de custo. As posições podem ser atribuídas aos departamentos. Para criar um departamento, clique em **Recursos Humanos** &gt; **Departamentos** &gt; **Departamento**. A tabela a seguir descreve os campos disponíveis.
 
 | Campo               | Descrição                                                                                                                                                                                                       |
 |---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -46,12 +49,14 @@ Um departamento pode incluir um grupo de centros de custo. As posições podem s
 
 Para adicionar um departamento à hierarquia de departamentos, siga estas etapas.
 
-1.  Clique ** recursos humanos ** &gt; ** departamentos ** &gt; ** hierarquia ** de departamento.
+1.  Clique em **Recursos Humanos** &gt; **Departamentos** &gt; **Hierarquia de departamentos**.
 2.  Clique em **Editar** e selecione a organização em que o departamento deve estar.
 3.  Clique em**Inserir** e selecione **Departamento** na lista.
 4.  Na lista de departamentos exibido, selecione o departamento a ser adicionado à hierarquia.
-5.  Salve as alterações. Você receberá uma mensagem que uma versão de rascunho de hierarquias foi criada.
-6.  Quando você estará pronto, clique ** publicar ** o designer de hierarquia. Você pode inserir uma data efetiva que indica quando a hierarquia será publicado. Por exemplo, para adicionar um novo departamento no início do próximo ano civil, defina a data efetiva para 1º de janeiro do novo ano civil. As alterações na hierarquia entrarão em vigor nessa data.
+5.  Salve as alterações. Você receberá uma mensagem informando que uma versão de rascunho da hierarquia foi criada.
+6.  Quando você estiver pronto, clique em **Publicar** no designer da hierarquia. Você pode inserir uma data efetiva que indique quando a hierarquia deve ser publicada. Por exemplo, para adicionar um novo departamento no início do próximo ano civil, defina a data efetiva para 1º de janeiro do novo ano civil. As alterações na hierarquia entrarão em vigor nessa data.
+
+
 
 
 

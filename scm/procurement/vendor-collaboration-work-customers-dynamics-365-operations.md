@@ -27,14 +27,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-collaboration-with-customers"></a>Colaboração do fornecedor com clientes
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com OCs e para monitorar o estoque em consignação no Dynamics 365 for Operations.
 
-Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com clientes no Microsoft Dynamics 365 for Operations. Inclui informações sobre como monitorar e responder ordens de compra, e como monitorar o estoque de remessa. Também é possível usar a colaboração de fornecedor para trabalhar com notas fiscais. Para obter mais informações, consulte [colaboração de fornecedor que ao espaço de trabalho] (/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com clientes no Microsoft Dynamics 365 for Operations. Inclui informações sobre como monitorar e responder a ordens de compra e como monitorar inventário de remessa. Também é possível usar colaboração de fornecedores para trabalhar com faturas. Para obter mais informações, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
 
 ## <a name="working-with-purchase-orders"></a>Trabalhando com ordens de compra
 O espaço de trabalho **Confirmação de ordem de compra** permite que você responda a OCs enviadas para sua revisão. Ele também permite exibir informações sobre OCs que estão esperando uma ação do cliente e OCs que já foram confirmadas, mas ainda estão abertas. Há três listas no espaço de trabalho **Confirmação de ordem de compra**:
 
--   ** Ordens de compra para revisão ** - a lista mostra a posição que lhe foram enviados e ficam aguardando uma resposta de você. Depois que você responda, o PC desaparece de lista. Se o cliente enviar uma nova versão da OC antes de você responder à versão anterior, apenas a versão mais recente será exibida.
+-   **Ordens de compra para revisão** – essa lista mostra as OCs que foram enviadas para sua resposta. Depois de responder, a PO desaparece da lista. Se o cliente enviar uma nova versão da OC antes de você responder à versão anterior, apenas a versão mais recente será exibida.
 -   **Aguardando ação do cliente** – essa lista mostra as OCs que você respondeu, mas que ainda não foram confirmadas pelo cliente. Se você aceitou a OC, pode monitorá-la nessa lista até que o status mude para **Confirmada**. Se você rejeitou a OC ou aceitou-a com alterações, monitore a OC aqui até que o cliente envie uma nova versão.
 -   **Ordens de compra confirmadas em aberto** – essa lista contém todas as OCs de sua conta com status de **Confirmada**. Quando produtos ou serviços são totalmente recebidos com relação à OC, ela desaparece da lista.
 
@@ -47,7 +50,7 @@ A lista a seguir mostra as quatro páginas que você pode usar para trabalhar co
 
 ### <a name="responding-to-purchase-orders"></a>Respondendo a ordens de compra
 
-Ordens de compra que o cliente o enviou para revisão são visíveis ** confirmação de ordem de compra ** o espaço de trabalho e ** ordens de compra para revisão ** na página. Depois que você abre um OC, você pode escolher aceitá-lo, ou para rejeitá-lo, aceitá-lo com as alterações. Podem haver anexos no cabeçalho da OC ou nas linhas individuais. Também é possível anexar informações sobre sua resposta no cabeçalho da OC ou nas linhas individuais. Por exemplo, você pode sugerir um item substituto para uma das linhas. Você pode visualizar e imprimir a OC como um arquivo PDF usando a opção **Visualizar/Imprimir**. Oculte ou mostre as seguintes colunas de dimensão usando a ação **Exibir dimensões**: Local, Depósito, Cor, Tamanho, Estilo, Configuração. Se você usar alterações com ** aceitar ** a opção, você poderá aceitar ou rejeitar linhas individuais. Você também pode fazer alterações nas seguintes linhas:
+As ordens de compra que o cliente enviou para revisão estão visíveis no espaço de trabalho **Confirmação da ordem de compra** e na página **Ordens de compra para revisão**. Depois de abrir um pedido, pode optar por aceitá-lo, rejeitá-lo ou aceitá-lo com alterações. Podem haver anexos no cabeçalho da OC ou nas linhas individuais. Também é possível anexar informações sobre sua resposta no cabeçalho da OC ou nas linhas individuais. Por exemplo, você pode sugerir um item substituto para uma das linhas. Você pode visualizar e imprimir a OC como um arquivo PDF usando a opção **Visualizar/Imprimir**. Oculte ou mostre as seguintes colunas de dimensão usando a ação **Exibir dimensões**: Local, Depósito, Cor, Tamanho, Estilo, Configuração. Se você usar a opção **Aceitar com alterações**, você pode aceitar ou rejeitar linhas individuais. Você também pode fazer as seguintes alterações em linhas:
 
 -   Alterar datas ou quantidades. Se você quiser atualizar a data de entrega confirmada em todas as linhas, use a opção **Atualizar data de entrega** no cabeçalho da OC.
 -   Dividir linhas para datas de entrega ou quantidades diferentes.
@@ -58,7 +61,7 @@ Você não pode alterar informações de preço ou encargos, mas pode sugerir al
 ## <a name="monitoring-consignment-inventory"></a>Monitorando o estoque em consignação
 Se você estiver usando o estoque em consignação, poderá usar a interface de colaboração do fornecedor para exibir informações nas seguintes páginas:
 
--   ** Ordens de compra que consomem o estoque ** de remessa - ordens de compra do estoque de remessa são gerados quando o cliente tem a propriedade do estoque. Essas ordens de compra de consignação são exibidas somente na página**Ordens de compra que consomem o estoque em consignação**. Elas não estão incluídas na página **Todas as ordens de compra confirmadas**.
+-   **Ordens de compra que consomem o estoque de consignação** - As ordens de compra para inventário de remessa são geradas quando o cliente toma a propriedade do inventário. Essas ordens de compra de consignação são exibidas somente na página**Ordens de compra que consomem o estoque em consignação**. Elas não estão incluídas na página **Todas as ordens de compra confirmadas**.
 -   **Produtos recebidos de estoque em consignação** – essa página lista todas as transações em que a propriedade dos produtos é transferida para a empresa que está consumindo o estoque. Use essas informações para faturar o cliente.
 -   **Estoque em consignação disponível** – essa página mostra o estoque em consignação disponível de propriedade da sua empresa que está disponível no depósito do cliente.
 
@@ -67,5 +70,7 @@ Se você estiver usando o estoque em consignação, poderá usar a interface de 
 --------
 
 [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md)
+
+
 
 

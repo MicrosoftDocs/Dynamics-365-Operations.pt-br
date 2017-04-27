@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>Cartas de crédito e coleções de importações
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações gerais sobre letras de crédito e de conjuntos de importação. Ambos tipos de documento bancário são frequentemente usados para compra e venda de mercadorias entre as fronteiras internacionais.
 
 <a name="letters-of-credit"></a>Cartas de crédito
 -----------------
 
-As letras de crédito são usadas para transações e internacionais garantia da ajuda que os pagamentos serão feitos. Uma letra de crédito é um contrato que é emitida por um banco, em que o banco e garantir o pagamento em nome de um comprador, desde que as condições de contrato entre o comprador e o vendedor são atendidas. Uma letra de crédito também é conhecida como um documentável crédito (DC).
+As cartas de crédito são usadas para transações internacionais e ajudam a garantir que os pagamentos sejam feitos. Uma carta de crédito é um contrato emitido por um banco, no qual o banco garante o pagamento em nome de um comprador, desde que as condições do contrato entre o comprador e o vendedor sejam atendidas. Uma carta de crédito também é conhecida como um crédito documentário (DC).
 
 Para uma carta de crédito de importação, a entidade legal é o comprador ou o candidato da carta de crédito. Para uma carta de crédito de exportação, a entidade legal é o vendedor ou o beneficiário da carta de crédito. Os participantes a seguir estão envolvidos em uma carta de crédito:
 
@@ -50,5 +53,7 @@ Uma nota de crédito pode ser **revogável** ou **irrevogável**. A natureza de 
 Uma coleção de importação é um contrato entre o banco e o exportador (vendedor), em que o banco concorda em entregar a documentação de remessa ao importador internacional (comprador). O banco deve entregar a documentação de remessa após o recebimento do pagamento em dinheiro das mercadorias enviadas ou no recebimento de uma ordem de pagamento assinada mediante o pagamento. 
 
 Uma coleção de importação garante o vendedor será pago quando o comprador recolhe os documentos de remessa para receber as mercadorias importadas.
+
+
 
 

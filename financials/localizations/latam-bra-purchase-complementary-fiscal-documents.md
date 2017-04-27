@@ -1,6 +1,6 @@
 ---
-title: Notas fiscais complementares de compra para O Brasil
-description: "Este tópico descreve o conceito de uma nota complementar de compra da localização brasileira."
+title: Notas fiscais de compra complementares do Brasil
+description: "Este tópico descreve o conceito de uma fatura complementar de compras da localização brasileira."
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,37 +25,42 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="purchase-complementary-fiscal-documents-for-brazil"></a>Notas fiscais complementares de compra para O Brasil
+# <a name="purchase-complementary-fiscal-documents-for-brazil"></a>Notas fiscais de compra complementares do Brasil
 
-Este tópico descreve o conceito de uma nota complementar de compra da localização brasileira.
+[!include[banner](../includes/banner.md)]
+
+
+Este tópico descreve o conceito de uma fatura complementar de compras da localização brasileira.
 
 <a name="overview"></a>Visão Geral
 --------
 
-De acordo com as normas fiscais em O Brasil, uma nota fiscal específica que é conhecido como uma fatura complementar (complementar de Nota fiscal) é recebida ou emitida para fins de correção. Por exemplo, se os preços de mercadorias ou serviços da nota fiscal original foram registrados incorretamente, nota de complemento é necessário para corrigir o erro. Notas fiscais complementares são aplicáveis somente se a diferença for positiva. Ou seja são aplicados apenas se os preços atuais ou valores de impostos estão mais de preços afeta originais ou valores. Porque as notas fiscais deste tipo são consideradas complementos fiscais de vendas originais, as notas fiscais não precisam ser canceladas. As empresas são obrigadas emitir ou receber notas fiscais complementares pelos seguintes motivos:
+De acordo com as normas fiscais do Brasil, uma nota fiscal específica que é conhecida como nota fiscal complementar é recebida ou emitida para fins de correção. Por exemplo, se os preços de mercadorias ou serviços da nota fiscal original foram registrados incorretamente, uma nota fiscal complementar é necessária para corrigir o erro. Notas fiscais complementares aplicam-se somente se a diferença for positiva. Em outras palavras, aplicam-se somente se os preços ou valores de impostos atuais forem maiores que os preços ou valores dos impostos originais. Porque as notas fiscais deste tipo são consideradas complementos das notas fiscais originais, as notas fiscais originais não devem ser canceladas. As empresas são obrigadas emitir ou receber as faturas complementares para os seguintes motivos:
 
--   Erro no preço de mercadorias ou serviços
--   Erro na quantidade de bens ou serviços
--   Erro em porcentagem
--   Erro no cálculo de impostos
+-   Erro no preços de mercadorias ou serviços
+-   Erro na quantidade de mercadorias ou serviços
+-   Erro em porcentagem de imposto
+-   Erro no cálculo do imposto
 
 ## <a name="purchase-complementary-fiscal-document"></a>Nota fiscal complementar de compra
-Você pode criar uma nota fiscal de compra de complemento para ajustar uma nota fiscal de compra que é gerado por um preço incorreto, um valor incorreto de Produtos Industrializados de sobre Impostos (IPI,) ou um valor incorreto de Circulação de Mercadorias e o de Imposto ICMS (). Uma nota fiscal complementar de compra é emitida para ajustar somente uma diferença positiva. Por exemplo, um documento fiscal complementar de compra será gerado se o preço de um item em nota fiscal de compra original está incorreto e, se o preço atual do item é mais do preço que está registrada em nota fiscal de compra original. É possível criar uma nota fiscal complementar de compra para ajustar um erro no preço ou quantidade de itens ou serviços, a porcentagem de imposto, ou o cálculo de imposto. A nota fiscal complementar de compra é uma nota fiscal de compra que complementa a nota fiscal de compra original. Todas as informações, exceto informações sobre, encargos é atualizada de documento fiscal de compra original. Você não pode adicionar linhas a ou excluir linhas de um documento fiscal complementar de compra. Os seguintes tipos de notas fiscais complementares de compra estão disponíveis:
+Você pode criar uma nota fiscal complementar de compra para ajustar uma nota fiscal de compra que foi gerada por um preço incorreto, um valor de IPI (Imposto sobre Produtos Industrializados) incorreto ou um valor de ICMS (Imposto sobre Circulação de Mercadorias e Serviços) incorreto. Uma nota fiscal complementar de compra é emitida para ajustar somente uma diferença positiva. Por exemplo, uma nota fiscal complementar de compra é gerada se o preço de um item na nota fiscal de compra original estiver incorreto, e se o preço correto para o item for maior do que o preço registrado na nota fiscal de compra original. É possível criar uma nota fiscal complementar de compra para ajustar um erro no preço ou quantidade de itens ou serviços, a porcentagem de imposto, ou o cálculo de imposto. A nota fiscal complementar de compra é uma nota fiscal de compra que complementa a nota fiscal de compra original. Todas as informações, exceto informações sobre encargos, são atualizadas a partir da nota fiscal de compra original. Não é possível adicionar ou excluir as linhas de uma nota fiscal complementar de compra. Os seguintes tipos de notas fiscais complementares de compra estão disponíveis:
 
--   ** O preço ** – esse tipo de documento fiscal de complemento é criado para ajustar o preço incorreto para um documento fiscal. O preço atual deve ser maior do que o preço que está registrada em nota fiscal original. A diferença de preço será cobrada do fornecedor.
--   ** IPI ** – esse tipo de documento fiscal de complemento é criado para ajustar incorreto um valor de IMPOSTO IPI para um documento fiscal. A diferença de imposto IPI será cobrada do fornecedor.
--   ** ICMS ** – esse tipo de documento fiscal de complemento é criado para ajustar o valor incorreto tributário de ICMS para um documento fiscal. A diferença de ICMS é recebida pela entidade legal e paga às autoridades fiscais.
+-   **Preço** – Este tipo de nota fiscal complementar é criado para ajustar um preço incorreto para uma nota fiscal. O preço atual deve ser maior que o preço registrado na nota fiscal original. A diferença de preço será cobrada do fornecedor.
+-   **IPI** – Este tipo de nota fiscal complementar é criado para ajustar um preço incorreto para um valor de IPI de uma nota fiscal. A diferença de imposto IPI será cobrada do fornecedor.
+-   **ICMS** – Este tipo de nota fiscal complementar é criado para ajustar um preço incorreto para um valor de ICMS de uma nota fiscal. A diferença de ICMS é recebida pela entidade legal e paga às autoridades fiscais.
 
-Você pode criar um documento fiscal complementar ICMS somente se os grupos de impostos selecionado para a nota fiscal de compra de complemento incluem IMPOSTO ICMS. Também, crie um documento fiscal complementar IPI somente se os grupos de impostos selecionado para a nota fiscal de compra de complemento incluem IPI. Por exemplo, se você criar um documento fiscal complementar IPI, mas os grupos de impostos existentes não tenha o tipo de imposto IPI, selecione um grupo que tenha um imposto IPI. Você pode cancelar e consultar um documento fiscal complementar de compra que será lançado todos ** notas fiscais complementares de compra ** na página.
+Você pode criar uma nota fiscal complementar de ICMS somente se os grupos de impostos selecionados para a nota fiscal complementar de compra incluir os códigos do ICMS. Da mesma forma, você pode criar uma nota fiscal complementar de IPI somente se os grupos de impostos selecionados para a nota fiscal complementar de compra incluir os códigos do IPI. Por exemplo, se você criar uma nota fiscal complementar de IPI, mas os grupos de impostos existentes não tiverem o tipo de imposto IPI, selecione um grupo de impostos que tenha um código de IPI. Você pode cancelar e consultar uma nota fiscal complementar de compra que foi lançada na página **Todas as notas fiscais complementares de venda**.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Para criar e lançar a nota fiscal complementar de compra, os seguintes parâmetros devem ser configurados ** parâmetros brasileiros ** página em:
+Antes de criar ou lançar notas fiscais complementares de compra, os seguintes parâmetros devem ser configurados na página **Parâmetros brasileiros**:
 
--   ** Documento fiscal complementar ** – especificar texto fonte padrão de documento fiscal.
--   ** Código de impostos para COFINS ** – especifique o código de impostos usado para valor de cálculo de impostos COFINS.
--   ** Código de impostos para PIS ** – especifique o código de impostos usado para valor de cálculo de OS impostos PIS.
+-   **Nota fiscal complementar** – – Especifica o texto fonte padrão de nota fiscal.
+-   **Código de impostos para COFINS** – especifique o código de impostos usado para valor de cálculo do COFINS.
+-   **Código de impostos para PIS** – Especifique o código de impostos usado para valor de cálculo do PIS.
 
 ## <a name="examples"></a>Exemplos
-[exemplo![que mostra uma nota fiscal original com notas fiscais complementares de compra por um dos três tipos (]. /media/purchcomplementary-1024x349.png)](. /media/purchcomplementary.png)
+[![Exemplos que mostram uma nota fiscal original junto com notas fiscais complementares de compras de cada um dos três tipos](./media/purchcomplementary-1024x349.png)](./media/purchcomplementary.png)
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-resources"></a>Recursos de operações
 
+[!include[banner](../includes/banner.md)]
+
+
 Os recursos de operações executam as atividades de um projeto ou um processo de produção. Podem ser de diferentes tipos e podem ter diferentes recursos. 
 
 <a name="operations-resources"></a>Recursos de operações
@@ -36,7 +39,7 @@ Os recursos de operações executam as atividades de um projeto ou um processo d
 Os recursos de operações são as máquinas, as ferramentas, os trabalhadores, as instalações, as áreas físicas ou fornecedores que executam as atividades de um projeto ou um processo de produção. Podem ser de diferentes tipos e podem ter diferentes recursos.
 
 -   **Fornecedor** – Um recurso externo que executa as atividades do projeto ou operações de produção. Um exemplo é um subcontratado. Vinculando recursos de fornecedor para uma conta de fornecedor, você pode gerar compras para subcontratados, com base nas linhas da lista de materiais (BOM) ou nas linhas de produção.
--   **Recursos humanos** – Um projeto ou trabalhador de produção que execute uma atividade, independentemente ou como um operador de uma ferramenta ou de uma máquina. Se estiver usando a funcionalidade recursos humanos, poderá vincular recursos humanos para um trabalhador. O mecanismo de planejamento pode alocar os recursos, com base nas competências que são definidas para o trabalhador correspondente.
+-   **Recursos humanos** – Um projeto ou trabalhador de produção que execute uma atividade, independentemente ou como um operador de uma ferramenta ou de uma máquina. Se você estiver usando a funcionalidade Recursos humanos, você pode vincular recursos humanos a um trabalhador. O mecanismo de planejamento pode alocar os recursos, com base nas competências que são definidas para o trabalhador correspondente.
 -   **Máquina** – Uma máquina ou outro equipamento de produção necessário na produção.
 -   **Ferramenta** – Um instrumento ou um dispositivo que normalmente é usado junto com outro recurso para executar uma atividade em um projeto ou na produção.
 -   **Local** – Uma localização física de um tamanho específico que é necessária para executar uma atividade. Um exemplo é uma área de montagem.
@@ -80,5 +83,7 @@ Quando um grupo de recursos é usado como uma célula de trabalho de lean manufa
 
 ## <a name="costing-resources"></a>Recursos de avaliação de custo
 Ao definir uma atividade, como uma operação de roteiro ou uma previsão de horas do projeto, você pode especificar o requisito para um recurso de operações ou um grupo de recursos específicos. No entanto, você também pode especificar o requisito para um recurso de operações de um tipo específico, ou um recurso de operações com um recurso específico ou uma competência. Por esse motivo, a atribuição de recursos real não será feita até que a atividade esteja agendada e houver capacidade reservada. Consequentemente, em uma operação de roteiro, você pode especificar se a previsão e o cálculo de BOM devem se basear em um recurso específico de operações. Este recurso de operações é referido como o recurso de avaliação de custo. Também é possível transferir categorias de custo e tempo de operação do recurso de avaliação de custo à atividade. Quando a operação for agendada, a previsão e o cálculo de BOM são feitos usando o recurso de operações que é programado realmente.
+
+
 
 

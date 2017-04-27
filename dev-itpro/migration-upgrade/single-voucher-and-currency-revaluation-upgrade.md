@@ -1,6 +1,6 @@
 ---
-title: "Atualização de reavaliação de única comprovante e do Microsoft Dynamics 365 para a versão 1611 de operações"
-description: "Algumas organizações enter em diários que contenham uma única comprovante com mais de um cliente ou fornecedor, e também desempenham contas a receber ou de reavaliação de moeda estrangeira contas a pagar processo. Este tópico descreve as etapas que as organizações deve controlar quando aberto ao Microsoft Dynamics 365 para a versão 1611 de operações."
+title: "Atualização de revalorização de vouchers e moedas para Microsoft Dynamics 365 for Operations versão 1611"
+description: "Algumas organizações inserem diários que contêm um único comprovante que possui mais de um cliente ou fornecedor e também executam o processo de reavaliação de Contas a Receber ou Contas a Pagar. Este tópico descreve as etapas que essas organizações devem seguir ao atualizar para o Microsoft Dynamics 365 for Operations versão 1611."
 author: twheeloc
 manager: AnnBe
 ms.date: 2016-12-28 16 - 04 - 17
@@ -24,15 +24,15 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>Atualização de reavaliação de única comprovante e do Microsoft Dynamics 365 para a versão 1611 de operações
+# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>Atualização de revalorização de vouchers e moedas para Microsoft Dynamics 365 for Operations versão 1611
 
-Algumas organizações enter em diários que contenham uma única comprovante com mais de um cliente ou fornecedor, e também desempenham contas a receber ou de reavaliação de moeda estrangeira contas a pagar processo. Este tópico descreve as etapas que as organizações deve controlar quando aberto ao Microsoft Dynamics 365 para a versão 1611 de operações.
+Algumas organizações inserem diários que contêm um único comprovante que possui mais de um cliente ou fornecedor e também executam o processo de reavaliação de Contas a Receber ou Contas a Pagar. Este tópico descreve as etapas que essas organizações devem seguir ao atualizar para o Microsoft Dynamics 365 for Operations versão 1611.
 
-Rastrear estas etapas na atualização ao Microsoft Dynamics 365 para a versão 1611 de operações.
+Siga estas etapas quando você atualizar para Microsoft Dynamics 365 for Operations versão 1611.
 
-1.  Antes de atualizar o dynamics 365 para operações, execute os processos de reavaliação de moeda estrangeira para contas a receber e contas a pagar. ** Definir o campo método ** ** ** data de nota fiscal. Uma transação de reavaliação é criada inverta reavaliação de moeda estrangeira a última vez. Portanto, as transações abertas serão avaliadas contábil na moeda original.
-2.  Atualizar o dynamics 365 para a versão 1611 de operações.
-3.  Executar contas a receber e a reavaliação de moeda estrangeira contas a pagar processos novamente. Esse horário, definem ** ** o campo método ** ** padrão. Uma nova transação de reavaliação criado é baseada nas taxas de câmbio atuais. Esta transação registra o lucro não realizado/perdas e a conta resumo correta.
+1.  Antes de atualizar para o Dynamics 365 for Operations, execute os processos de reavaliação de moeda estrangeira para Contas a receber e Contas a pagar. Defina o campo **Método** para **Data da fatura**. É criada uma transação de reavaliação que reverte a última reavaliação de moeda estrangeira. Portanto, as transações em aberto são avaliadas em sua moeda de contabilização original.
+2.  Atualize para o Dynamics 365 for Operations versão 1611.
+3.  Execute novamente os processos de reavaliação de contas a receber e contas a pagar. Agora, defina o campo **Método** para **Padrão**. É criada uma nova transação de reavaliação baseada nas taxas de câmbio atuais. Essa transação registra o ganho/perda não realizado e a conta de razão contábil correta.
 
 
 

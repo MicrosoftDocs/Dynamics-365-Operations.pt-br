@@ -1,6 +1,6 @@
 ---
 title: "Pesquisa de navegação"
-description: "Este artigo explica como usar a funcionalidade de pesquisa para navegar para páginas no Microsoft Dynamics 365 para as operações."
+description: "Este artigo explica como usar a funcionalidade de pesquisa para navegar para páginas no Microsoft Dynamics 365 for Operations."
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,25 +26,30 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="navigation-search"></a>Pesquisa de navegação
 
-Este artigo explica como usar a funcionalidade de pesquisa para navegar para páginas no Microsoft Dynamics 365 para as operações.
+[!include[banner](../includes/banner.md)]
 
-O dynamics 365 de operações fornece funcionalidade para uma vasto leque indústrias e medidores verticais. O aplicativo inclui várias áreas e de páginas para ajudá-lo a executar várias tarefas. Para localizar rapidamente páginas que você precisará concluir as tarefas, use a funcionalidade de pesquisa de navegação. Para usar esse recurso, clique no ícone **Pesquisa** para exibir a caixa **Pesquisa**. Você poderá então digitar uma ou mais palavras na caixa. O sistema pesquisa instantaneamente as páginas relevantes no aplicativo que correspondem à palavra que você inseriu. Por exemplo, você pode digitar a “fatura de fornecedor” como entrada e, em seguida, o sistema exibe os resultados que correspondem a essa entrada. **Observação:** A caixa **Pesquisa** ajuda você a encontrar e navegar para páginas. Ela não ajuda você a encontrar dados ou ações específicos. 
 
-[Pesquisar- caixa![(]. /media/search-box.png)](. /media/search-box.png) Que a funcionalidade de pesquisa de navegação também serve como uma grande de forma que você navegue em rapidamente para uma página específica. Por exemplo, se você for um funcionário de contas a pagar que usa frequentemente ** diário de pagamentos ** a página, insira “diário” o pagamento na caixa de pesquisa. Como é uma entrada - correspondência exata do título da página, a página está listado na parte superior de resultados da pesquisa, e pode rapidamente para que seja possível navegar até ele. 
+Este artigo explica como usar a funcionalidade de pesquisa para navegar para páginas no Microsoft Dynamics 365 for Operations.
 
-[pesquisar-para-pagamento- diário do![(]. /media/searching-for-payment-journal.png)](. /media/searching-for-payment-journal.png) 
+O Microsoft Dynamics 365 for Operations fornece recursos para um vasto leque de indústrias e segmentos verticais. O aplicativo inclui várias áreas e páginas para ajudá-lo a executar várias tarefas. Para localizar rapidamente páginas que você precisa para concluir as tarefas, use a funcionalidade de pesquisa de navegação. Para usar esse recurso, clique no ícone **Pesquisa** para exibir a caixa **Pesquisa**. Você poderá então digitar uma ou mais palavras na caixa. O sistema pesquisa instantaneamente as páginas relevantes no aplicativo que correspondem à palavra que você inseriu. Por exemplo, você pode digitar a “fatura de fornecedor” como entrada e, em seguida, o sistema exibe os resultados que correspondem a essa entrada. **Observação:** A caixa **Pesquisa** ajuda você a encontrar e navegar para páginas. Ela não ajuda você a encontrar dados ou ações específicos. 
 
-A lista de resultados de busca exibe o título da página para o caminho de navegação. Isso ajuda a torná-lo ciente do local da página no aplicativo. Ele também ajuda você a diferenciar entre duas ou mais páginas semelhantes nos resultados. Ao pesquisar por uma página, sua entrada é feita em relação ao título da página, bem como seu diretório de navegação. Por exemplo, se você inserir “receber” em ** ** pesquisar a caixa, serão exibidos os resultados para as páginas disponíveis para você na área de contas a receber--mesmo que títulos de página não inclua a palavra “receber.” 
+[![search-box](./media/search-box.png)](./media/search-box.png) O recurso de pesquisa de navegação também serve como uma ótima forma de navegar rapidamente até uma determinada página. Por exemplo, se você for um funcionário de contas a pagar que usa frequentemente a página **Diário de pagamentos**, você pode inserir "diário de pagamentos" na caixa de pesquisa. Como a entrada é uma correspondência exata do título da página, a página é listada no topo dos resultados de pesquisa e você pode navegar rapidamente para ela. 
 
-[Pesquisar-para --![Word- receber (]. /media/search-for-the-word-receivable.png)](. /media/search-for-the-word-receivable.png) 
+[![searching-for-payment-journal](./media/searching-for-payment-journal.png)](./media/searching-for-payment-journal.png) 
 
-De uma perspectiva de administração e segurança, das superfícies funcionalidade de pesquisa de navegação somente:
+A lista de resultados de pesquisa exibe o título da página, bem como o diretório de navegação. Isso ajuda a torná-lo ciente do local da página no aplicativo. Ele também ajuda você a diferenciar entre duas ou mais páginas semelhantes nos resultados. Ao pesquisar por uma página, sua entrada é feita em relação ao título da página, bem como seu diretório de navegação. Por exemplo, se você digitar "a receber" na caixa de pesquisa** **, você verá os resultados das páginas disponíveis para você na área de contas a receber, mesmo que os títulos de página não incluam a palavra "a receber". 
+
+[![search-for-the-word-receivable](./media/search-for-the-word-receivable.png)](./media/search-for-the-word-receivable.png) 
+
+De uma perspectiva de administração e segurança, o recurso de pesquisa de navegação revela apenas:
 
 -   Páginas que estão habilitadas na configuração atual (usando chaves de configuração).
 -   Pagina às quais o usuário tem acesso com base na função de usuário
 
 A lista de resultados de pesquisa é limitada a 10 itens. Se você não encontrar o que está procurando nos resultados, você deve tentar refinar ou atualizar a entrada. De uma perspectiva de desenvolvimento, é muito fácil tirar proveito do recurso de pesquisa de navegação, pois não há praticamente nenhum atraso entre a implantação dos itens de menu e a capacidade aparecer nos resultados da pesquisa. À medida que os itens de menu são vinculados ao painel de navegação ou painel de controle, eles se tornam automaticamente pesquisáveis. O recurso de pesquisa de navegação também inclui um recurso muito solicitado para usuários avançados: a capacidade de navegar rapidamente até uma página com base no nome do formulário técnico. Muitos usuários estão familiarizados de tal forma com o sistema que sabem os nomes exatos dos formulários com os quais trabalham. Se você for um desses usuários, você pode inserir **formulário:** seguido do nome do formulário que você está procurando. Por exemplo, se você inserir **formulário: vendinvoice**, os resultados da pesquisa mostrarão todas as páginas onde o nome do formulário começa com **vendinvoice**. 
 
-[Pesquisar-para- formulário -vendinvoice - vendinvoice![(]. /media/search-for-form-vendinvoice.png)](. /media/search-for-form-vendinvoice.png)
+[![search-for-form-vendinvoice](./media/search-for-form-vendinvoice.png)](./media/search-for-form-vendinvoice.png)
+
+
 
 

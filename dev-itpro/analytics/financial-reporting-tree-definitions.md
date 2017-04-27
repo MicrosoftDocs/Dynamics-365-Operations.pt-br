@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definições da árvore de relatórios em relatórios financeiros
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre definições da árvore de relatório. Uma relatório definição de árvore é um componente de relatório ou bloco de construção, que ajuda a definir a estrutura e a hierarquia de sua organização.
 
 O relatório financeiro dá suporte ao relatório flexível, tornando fácil fazer alterações à medida que a estrutura de negócios muda. Relatórios são criados a partir de vários componentes, ou blocos de construção. Um desses blocos de construção é uma definição de árvore de relatórios. Uma relatório de definição de árvore ajuda a definir a estrutura e a hierarquia de sua organização. Você pode criar hierarquias em várias dimensões com base nas relações dimensionais nos dados financeiros. Ele fornece informações no nível de unidade de geração de relatórios e no nível de resumo para todas as unidades na árvore. As definições de árvore de relatórios podem ser combinadas com as definições de coluna e as definições de relatório para criar um grupo do bloco de construção que possa ser usado por várias empresas. Uma unidade de relatório é usada para cada caixa em um organograma. Uma unidade do relatório pode ser um departamento individual dos dados financeiros, ou pode ser uma unidade de resumo de nível superior que combina informações de outras unidades de relatório. Para obter uma definição de relatório que inclua uma árvore de relatório, um relatório é gerado para cada unidade de relatório e para o nível de resumo. Todos esses relatórios usam as definições de linhas e colunas que são especificadas na definição de relatório, a menos que a definição de relatório especifique a árvore de relatório da definição de linha que deve ser usada. As definições de linhas e colunas são componentes importantes no design e funcionalidade de relatórios financeiros. As árvores de relatório aumentam a potência dos componentes e dão suporte a relatórios flexíveis à medida que a estrutura muda. Relatórios financeiros não baseados no uso de uma árvore de relatório usam apenas alguns recursos do relatório financeiro. Você pode usar várias definições de árvore de relatório com as mesmas definições de linhas e colunas para exibir os dados da organização de várias formas.
@@ -49,7 +52,7 @@ A definição da árvore de relatório contém as colunas descritas na tabela a 
 
 | Coluna da árvore de relatório | descrição|
 |---|---|
-| Empresa               | O nome da empresa para a unidade de relatório. **@ANY** o valor, que geralmente é atribuído apenas ao nível resumido, permite que a hierarquia organizacional seja usada em todas as empresas. Todas as ramificações pai têm uma empresa atribuída a elas.|
+| Empresa               | O nome da empresa para a unidade de relatório. O valor **@ANY**, que geralmente é atribuído apenas ao nível de resumo, habilita a árvore de relatório a ser usada para todas as empresas. Todas as ramificações pai têm uma empresa atribuída a elas.|
 | Nome da Unidade             | O código que identifica esta unidade de relatório na árvore gráfica do relatório. Certifique-se de estabelecer um sistema de codificação exclusivo que é consistente e que seja fácil de entender. |
 | Descrição da Unidade      | O título da unidade de relatório aparece no cabeçalho ou rodapé do relatório se você insere **UnitDesc** como um código na guia **Cabeçalhos e Rodapés** da definição de relatório. O título aparece na descrição da linha do relatório se você insere **UnitDesc** na célula **Descrição** de definição da linha.|
 | Dimensões            | Uma unidade de relatório que obtém informações diretamente dos dados financeiros. Ela define o posicionamento e os comprimentos lógicos da conta e os segmentos relacionados. Cada linha de unidade de relatório deve ter uma dimensão nesta coluna. Você também pode colocar uma dimensão em uma linha de resumo de unidade (por exemplo, para as despesas que estão diretamente relacionadas a essa unidade). Se você inserir uma dimensão em uma linha da unidade de resumo, as contas usadas em unidades pai não deverão ser usadas em unidades filho. Caso contrário, os valores podem ser duplicados.|
@@ -58,15 +61,15 @@ A definição da árvore de relatório contém as colunas descritas na tabela a 
 | Link externo         | O link de linha a ser usado para esta unidade de relatório. Os links de linhas são definidos para a definição de linha para identificar os relatórios para vínculo.|
 | Arquivo externo         | O caminho do arquivo da planilha de relatórios financeiro para extrair dados de.|
 | Opções de Página          | Esta coluna controla se os detalhes para a unidade de relatório são suprimidos quando o relatório é visualizado ou impresso.|
-| % Acumulado              | A porcentagem da unidade de relatório que deve ser alocada para a unidade pai. A porcentagem inserida nesta coluna se aplica a cada linha da definição de linha antes de o valor da linha ser adicionado ao relatório pai. Por exemplo, se uma unidade filho deve ser dividida uniformemente entre dois departamentos, os valores em cada linha seriam multiplicados por 50% antes do valor ser adicionado ao relatório do departamento. Uma unidade de relatório não pode ter duas unidades pai. Para alocar os valores de uma unidade de relatório em duas unidades pai, crie outra unidade de relatório com a mesma dimensão para acumular os 50% adicionais. Digite os percentuais inteiros sem um ponto decimal. Por exemplo, **25** representa a alocação de 25% para o pai. Se você incluir um ponto decimal (**25**), porcentagem de 0,25 é alocada para o pai. Para usar porcentagem a menos de 1 por cento, use ** permita o rollup &lt;1% ** a opção na definição de relatório. Esta é uma opção da guia **Opções Adicionais** na caixa de diálogo **Configurações de Relatório**. Acesse essa caixa de diálogo do botão **Outros** na guia **Configurações** da definição de relatório. |
+| % Acumulado              | A porcentagem da unidade de relatório que deve ser alocada para a unidade pai. A porcentagem inserida nesta coluna se aplica a cada linha da definição de linha antes de o valor da linha ser adicionado ao relatório pai. Por exemplo, se uma unidade filho deve ser dividida uniformemente entre dois departamentos, os valores em cada linha seriam multiplicados por 50% antes do valor ser adicionado ao relatório do departamento. Uma unidade de relatório não pode ter duas unidades pai. Para alocar os valores de uma unidade de relatório em duas unidades pai, crie outra unidade de relatório com a mesma dimensão para acumular os 50% adicionais. Digite os percentuais inteiros sem um ponto decimal. Por exemplo, **25** representa a alocação de 25% para o pai. Se você incluir um ponto decimal (**25**), porcentagem de 0,25 é alocada para o pai. Para usar uma porcentagem menor do que 1%, use a opção **Permitir Acúmulo &lt;1%** na definição de relatório. Esta é uma opção da guia **Opções Adicionais** na caixa de diálogo **Configurações de Relatório**. Acesse essa caixa de diálogo do botão **Outros** na guia **Configurações** da definição de relatório. |
 | Segurança de Unidade         | As restrições do acesso de usuários e grupos às informações da unidade de relatório.|
 | Texto Adicional       | O texto que é incluído no relatório.|
 
 Para criar uma definição de árvore de relatório, siga estas etapas.
 
 1.  Abra o Designer de Relatórios.
-2.  Clique ** Arquivo ** &gt; ** ** &gt; ** nova definição de hierarquia organizacional. **
-3.  Clique ** edição ** &gt; ** inserir unidades organizacionais de dimensões. **
+2.  Clique em **Arquivo** &gt; **Novo** &gt; **Definição de Árvore de Relatório**.
+3.  Clique em **Editar** &gt; **Inserir Unidades de Relatório de Dimensões**.
 4.  Na caixa de diálogo **Inserir Unidades de Relatório de Dimensões**, marque a caixa de seleção para cada dimensão a ser incluída na árvore de relatório. A caixa de diálogo **Inserir Unidades de Relatório de Dimensões** contém as seções a seguir.
 
     | Seção                          | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -85,7 +88,7 @@ Para criar uma definição de árvore de relatório, siga estas etapas.
 
 9.  Para cada dimensão na área **Hierarquia e intervalos de segmento**, repita a etapa 7 a 8.
 10. Ao concluir a definição de como as unidades de relatório são trazidas para a nova árvore de relatório, clique em **OK**.
-11. Clique ** Arquivo ** &gt; ** ** salvar para salvar a hierarquia organizacional. Insira um nome exclusivo e uma descrição da árvore de relatório. Clique em **OK**.
+11. Clique em **Arquivo** &gt; **Salvar** para salvar a árvore de relatório. Insira um nome exclusivo e uma descrição da árvore de relatório. Clique em **OK**.
 
 ### <a name="open-an-existing-reporting-tree-definition"></a>Abrir uma definição de árvore de relatório existente
 
@@ -121,7 +124,7 @@ Você pode reorganizar a estrutura organizacional de uma definição de árvore 
 1.  No Designer de Relatórios, abra a definição de árvore de relatório a ser modificada.
 2.  Na exibição gráfica da definição de árvore de relatório, selecione uma unidade de relatório.
 3.  Arraste a unidade para uma nova posição. De forma alternativa, clique com o botão direito do mouse na unidade e selecione **Promover Unidade de Relatório** ou **Rebaixar Unidade de Relatório**.
-4.  Clique ** Arquivo ** &gt; ** ** salvar para salvar as alterações.
+4.  Clique em **Arquivo** &gt; **Salvar** para salvar as alterações.
 
 ### <a name="add-text-about-a-reporting-unit"></a> Adicionar texto sobre uma unidade de relatório
 
@@ -181,15 +184,15 @@ Aqui está a estrutura das unidades de relatório na árvore de relatórios a se
 -   As unidades de relatório de detalhe de nível inferior (Vendas locais, vendas de auto, serviços do cliente e operações) representam departamentos nos dados financeiros. Essas unidades de relatório estão na área sombreada do diagrama.
 -   As unidades de resumo de nível superior resumem informações das unidades de detalhes.
 
-[![(ContosoEntertainmentSummaryReportStructure]. /media/contosoentertainmentsummaryreportstructure.png)](. /media/contosoentertainmentsummaryreportstructure.png)
+[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>Estrutura da unidade de relatório - Exemplo 2
 
-O diagrama a seguir mostra uma árvore de relatório que exibe uma estrutura organizacional que é dividida pela função de negócios. [summaryofallunitscontoso![(]. /media/summaryofallunitscontoso.png)](. /media/summaryofallunitscontoso.png)
+O diagrama a seguir mostra uma árvore de relatório que exibe uma estrutura organizacional que é dividida pela função de negócios. [![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>Exemplo da caixa de diálogo Inserir Unidades de Relatório de Dimensões
 
-Neste exemplo, a caixa de diálogo **Inserir Unidades de Relatório de Dimensões** contém as informações a seguir. Para este exemplo, os resultados retornarão a combinação de unidades de negócios, departamentos e centros de custo. [![(InsertReportingUnits]. /media/insertreportingunits.png)](. /media/insertreportingunits.png) A definição resultante da hierarquia organizacional é classificada por unidade de negócios, depois por centro de custo e, depois por departamento. A dimensão à quinta unidade organizacional é ** unidade de negócios \[= 001\], centro de custos =\[\], departamento = \[022,\]** e identifica uma unidade organizacional para as contas específicas para a unidade de negócios 001 e o departamento 022. [![(ReportingTree]. /media/reportingtree-1024x646.png)](. /media/reportingtree.png)
+Neste exemplo, a caixa de diálogo **Inserir Unidades de Relatório de Dimensões** contém as informações a seguir. Para este exemplo, os resultados retornarão a combinação de unidades de negócios, departamentos e centros de custo. [![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png) A definição de árvore de relatório resultante é classificada por unidade de negócios, pelo centro de custo e, em seguida, por departamento. A dimensão da quinta unidade de relatório é **Unidade de negócios = \[001\], Centro de custos =\[\], Departamento = \[022\]**, e identifica uma unidade de emissão de relatórios para contas que são específicas da unidade de negócios 001 e do departamento 022. [![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>Exemplos de acúmulo de dados
 
@@ -197,14 +200,16 @@ Os exemplos a seguir mostram informações possíveis usadas em uma definição 
 
 #### <a name="example-1"></a>Exemplo 1
 
-[![(MutliCompanyRollUp]. /media/mutlicompanyrollup.png)](. /media/mutlicompanyrollup.png)
+[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>Exemplo 2
 
-[![(CrossCompanyDepartmentRollUp]. /media/crosscompanydepartmentrollup.png)](. /media/crosscompanydepartmentrollup.png)
+[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 # <a name="see-also"></a>Consulte também
 
-[Financial reporting](financial-reporting-intro.md)
+[Relatórios financeiros](financial-reporting-intro.md)
+
+
 
 

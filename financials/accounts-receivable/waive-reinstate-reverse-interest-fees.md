@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="waive-reinstate-or-reverse-interest-fees"></a>Renunciar, restabelecer ou estornar taxas de juros
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo explica como cancelar, reestabelecer, e reverter cobranças de juros e taxas.
 
 Você pode usar os botões na guia **Coletar** da página de listagem **Todos os clientes** para renunciar, estornar ou restabelecer encargos:
@@ -43,7 +46,7 @@ Todas essas ações mudam uma nota de juros. Uma nota de juros é um documento c
 | Estornar notas de juros completas. –ou– Estornar transações de juros selecionadas que fazem parte das notas de juros. **Observação:** Não é possível estornar uma taxa. Mas você pode estornar uma nota de juros completa que inclua uma taxa. | Os encargos são não mais devidos pelo cliente. No entanto, os encargos tornam-se devidos novamente se você recalcular os juros. | O processo é igual ao processo de renunciar notas de juros ou transações de juros selecionadas. Uma nota de crédito, ou fatura de ajuste, será criada para o cliente. Essa nota de crédito é usada para liquidar automaticamente a nota de juros. Você pode usar um processo diferente para recalcular juros e criar uma nova nota de juros.                                                                                                                                                                                                                                                                                                                                                                                              |
 
 > [!NOTE] 
-> Você também pode usar um processo separado para dar baixa dívidas perdidas. Esse processo marca todas as transações do cliente para liquidação, em vez de renunciar apenas os encargos que fazem parte de notas de juros.
+> Você também pode usar um processo separado para dar baixa em dívidas inválidas. Esse processo marca todas as transações do cliente para liquidação, em vez de renunciar apenas os encargos que fazem parte de notas de juros.
 
 ## <a name="adjust-interest-for-invoices"></a>Ajustar juros para faturas
 Além de ajustar notas de juros, você pode remover os encargos de juros em faturas usando um dos processos a seguir. Os dois processos também fazem ajustes às notas de juros relacionadas.
@@ -89,5 +92,7 @@ Você pode reverter transações de juros usando o botão **Juros da transação
 Você pode exibir o histórico detalhado de ajustes feitos para notas de juros, como o usuário que lançou o ajuste, o tipo de ajuste, o valor e quando o ajuste foi inserido. Por exemplo, você pode optar por exibir os ajustes anteriores que foram inseridos para uma nota de juros antes de criar uma nova nota de juros. 
 
 Você pode reverter transações de juros usando o botão **Histórico** na guia **Coletar** da página **Cliente**.
+
+
 
 

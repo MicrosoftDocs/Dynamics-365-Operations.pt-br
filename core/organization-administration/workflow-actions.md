@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-actions"></a>Ações de fluxo de trabalho
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo explica as ações que cada participante em um processo de aprovação de fluxo de trabalho pode executar.
 
-Um fluxo de trabalho pode envolver vários grupos de pessoas: o originador, os destinatários de tarefa, os tomadores de decisão, e os aprovadores. Por exemplo, no fluxo de trabalho de relatório de despesas a seguir, Samuel é o originador; os membros da fila são os destinatários de tarefa; Mateus é um tomador de decisão e Fábio, Manuela e Ana são os aprovadores.   [fluxo de trabalho\_WithManualDecision![(]. /media/workflow_withmanualdecision.gif)](. /media/workflow_withmanualdecision.gif) As seções a seguir explicam as ações de fluxo de trabalho a cada grupo pode executar.
+Um fluxo de trabalho pode envolver vários grupos de pessoas: o originador, os destinatários de tarefa, os tomadores de decisão, e os aprovadores. Por exemplo, no fluxo de trabalho de relatório de despesas a seguir, Samuel é o originador; os membros da fila são os destinatários de tarefa; Mateus é um tomador de decisão e Fábio, Manuela e Ana são os aprovadores.   [![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) As seções a seguir explicam as ações de fluxo de trabalho que cada grupo pode executar.
 
 ## <a name="actions-that-an-originator-can-perform"></a>Ações que um originador pode executar
 O originador inicia uma instância de fluxo de trabalho enviando um documento para processamento. Por exemplo, para que Samuel possa enviar o relatório de despesas, ele deverá clicar no botão **Enviar** na página**Relatório de despesas** para enviar o relatório de despesas.
@@ -63,7 +66,7 @@ Ocasionalmente, um membro de uma fila de itens de trabalho pode aceitar uma tare
 ## <a name="actions-that-a-decision-maker-can-perform"></a>Ações que um tomador de decisões pode executar
 Geralmente, um documento é atribuído a um tomador de decisões porque há uma pergunta deve ser respondida pelo tomador de decisões. A resposta para a pergunta normalmente é **Sim** ou **Não**, ou **Verdadeiro** ou **Falso**. Se o tomador de decisões não selecionar uma dessas opções, ele poderá delegar a decisão.
 
-### <a name="choice-1-or-choice-2"></a>opção 1 opção 2\]\]\[ou do \[
+### <a name="choice-1-or-choice-2"></a>\[Escolha 1\] ou \[Escolha 2\]
 
 Um tomador de decisões deve responder a uma pergunta que esteja relacionada ao documento. A resposta para a pergunta normalmente é **Sim** ou **Não**, ou **Verdadeiro** ou **Falso**. A resposta que o tomador de decisões seleciona determina a ramificação do fluxo de trabalho usada para processar o documento. Por exemplo, suponha que o relatório de despesas de Samuel seja atribuído a Mateus. Mateus deve decidir se as informações no documento precisam de uma ligação ao gerente de Samuel. Se Mateus decidir que uma ligação é necessária, o relatório de despesas será atribuído a Yara, que deve ligar para o gerente do Samuel. Se Mateus decidir que uma ligação não é necessária, o relatório de despesas será atribuído a Fábio para aprovação.
 
@@ -89,5 +92,7 @@ Quando um aprovador delega um documento, o documento é atribuído a outro usuá
 ### <a name="request-change"></a>Solicitar Alteração
 
 Quando um aprovador solicita uma alteração em um documento, o documento é enviado de volta para o originador. Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de R$ 12,000, que é atribuído a Manuela. Se Suzana solicitar uma alteração, o relatório de despesas é enviado de volta para Samuel. Samuel poderá reenviar o relatório de despesas. Ele pode fazer as alterações solicitadas primeiro ou pode reenviar a versão original do relatório de despesas. Se Samuel reenviar o relatório de despesas, ele será enviado a Fábio para aprovação, pois Fábio é o primeiro aprovador do processo de aprovação.
+
+
 
 

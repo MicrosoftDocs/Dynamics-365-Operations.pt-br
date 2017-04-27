@@ -1,9 +1,9 @@
 ---
-title: "Ativos fixos de instalação"
+title: Configurar ativos fixos
 description: "Este tópico fornece uma visão geral da configuração do módulo de ativos fixos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-fixed-assets"></a>Ativos fixos de instalação
+# <a name="set-up-fixed-assets"></a>Configurar ativos fixos
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico fornece uma visão geral da configuração do módulo de ativos fixos.
 
@@ -62,14 +65,16 @@ Você também pode definir provisões de depreciação especial, ou depreciaçã
 ## <a name="fixed-asset-parameters"></a>Parâmetros do ativo fixo
 A última etapa será atualizar os parâmetros de ativo fixo.
 
-O campo Limite de capitalização determina se os ativos são depreciados. Se uma linha de compra for selecionada como ativo, mas não atender ao limite de capitalização especificado, um ativo fixo ainda é criada ou atualizada, mas a opção de cálculo é definido como não. Portanto, o ativo não é depreciado automaticamente como parte das propostas de depreciação.
+O campo Limite de capitalização determina se os ativos são depreciados. Se uma linha de compra for selecionada como ativo, mas não atender ao limite de capitalização especificado, um ativo fixo ainda é criada ou atualizada, mas Calcule a depreciação a opção é definida em Não. Portanto, o ativo não é depreciado automaticamente como parte das propostas de depreciação.
 
 Uma opção importante é Criar automaticamente valores de ajuste da depreciação com alienação. Quando você definir esta opção como Sim, a depreciação de ativo seja ajustado automaticamente, com base nas configurações de depreciação no momento de alienação de ativo. Outra opção permite deduzir descontos à vista do valor de aquisição quando você adquire ativos fixos usando uma nota fiscal de fornecedor.
 
-Na Guia Rápida Ordens de compra, você pode configurar como deseja que os ativos sejam criados como parte do processo de compra. A primeira opção é Permitir a aquisição de ativos de Compras. Se você definir esta opção como Sim, a aquisição de ativo quando a nota fiscal ocorre é lançada. Se você definir esta opção ao não, você ainda pode colocar um ativo em uma ordem de compra (PO) e a nota fiscal, mas a aquisição não será lançado. A postagem deve ser inserido como uma etapa separada do diário de ativos fixos. O ativo de criação na opção de postagem de recebimento de produtos ou de nota fiscal permite criar um novo ativo “acima - voa -” durante a postagem, de forma que não seja necessário estabelecer um ativo fixo antes da transação. A última opção, Cheque para a criação de ativos fixos durante a entrada linha se aplica, somente as requisições de compra.
+Na Guia Rápida Ordens de compra, você pode configurar como deseja que os ativos sejam criados como parte do processo de compra. A primeira opção é Permitir a aquisição de ativos de Compras. Se você definir esta opção como Sim, a aquisição de ativo quando a nota fiscal ocorre é lançada. Se você definir esta opção como Não, você ainda pode colocar um ativo em uma ordem de compra (PO) e a nota fiscal, mas a aquisição não será lançado. A postagem deve ser inserido como uma etapa separada do diário de ativos fixos. A opção Crie o ativo durante o recebimento de produtos ou fatura a postagem permite criar um novo ativo “no transporte” durante a postagem, de modo que não tenha que ser liquidada um ativo fixo antes da transação. A última opção, Cheque para a criação de ativos fixos durante a entrada linha se aplica, somente as requisições de compra.
 
 Você pode configurar códigos razão que são necessários para alterações em um ativo fixo ou para transações de ativo fixo específicas.
 
 Finalmente, na guia Sequências numéricas, defina sequências numéricas para ativos fixos. A sequência numérica de ativos pode ser substituída pelo ativo fixo, a sequência numérica de grupo de ativo fixo se tiver sido especificada.
+
+
 
 

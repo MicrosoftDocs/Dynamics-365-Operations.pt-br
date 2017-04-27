@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-depreciation"></a>Depreciação de ativo fixo
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo oferece uma visão geral da depreciações de ativos fixos.
 
 Depreciação é uma transação periódica que normalmente reduz o valor do ativo fixo no balanço e é cobrada como uma despesa em uma conta de lucros e perdas. Portanto, uma conta principal é geralmente usada para creditar a depreciação periódica no balanço. Contrapartida é uma conta na parte de lucros e perdas do plano de contas.
@@ -51,6 +54,8 @@ Cada livro tiver um calendário usado quando depreciar ativos fixos. O método u
 
 Você pode criar calendários compartilhados usando a página **Calendários fiscais** na Contabilidade.
 
-Para obter mais informações, consulte [métodos e as convenções] depreciation-methods-conventions.md ().
+Para obter mais informações, consulte [Métodos e convenções de depreciação](depreciation-methods-conventions.md).
+
+
 
 

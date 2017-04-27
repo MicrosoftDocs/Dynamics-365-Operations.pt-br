@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="150-percent-reducing-balance-depreciation"></a>depreciação com declínio de 150%
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece uma visão geral do método de saldo de reduzem de 150 de porcentagem de depreciação.
 
 Ao configurar um perfil de depreciação de ativos fixos e selecionar **declínio de 150%** no campo **Método** na página **Perfis de depreciação**, os ativos fixos que são atribuídos ao perfil de depreciação são depreciados pela mesma porcentagem em cada período de depreciação. Essa porcentagem é calculada com base na vida útil do ativo. Por exemplo, se um ativo tiver uma vida útil de cinco anos, será calculada uma porcentagem de 30% (150% ÷ 5). 
@@ -56,7 +59,7 @@ Se você selecionar **Calendário** como o ano de depreciação, as seguintes op
 
 Se você selecionar **Fiscal** no campo **Ano de depreciação**, a depreciação com declínio de 150% será calculada com base no ano fiscal especificado para o registro de depreciação, ou para o calendário fiscal selecionado na página **Razão**. Os calendários fiscais são configurados na página **Calendários fiscais**. 
 
-Por exemplo, o ano fiscal do 1º de julho ao 30 de junho, a depreciação. parte o 1º de julho O ano fiscal pode ter mais ou menos do que 12 meses. A depreciação é ajustada para cada período fiscal. A duração do próximo ano fiscal será determinada pela configuração de períodos na página **Calendários fiscais**. 
+Por exemplo, no ano fiscal entre 1 de julho e 30 de junho, o cálculo da depreciação começa em 1 de julho. O ano fiscal pode ter mais ou menos do que 12 meses. A depreciação é ajustada para cada período fiscal. A duração do próximo ano fiscal será determinada pela configuração de períodos na página **Calendários fiscais**. 
 
 Se você selecionar **Fiscal** como o ano de depreciação, as opções a seguir ficarão disponíveis no campo **Frequência do período**:
 
@@ -81,6 +84,8 @@ O método por declínio de 150% divide 150% pelos anos de vida útil. Essa porce
 | Ano 3 | 4.900 × 30% = 1.470                           | 5.900 – 1.470 = 4.430  | 4.900 – 1.470 = 3.430                 |
 
 > [!NOTE]
-> Geralmente, quando o valor que é calculado usando 150% os métodos de depreciação de saldo decrescente se tornar menor que o valor que será calculado usando ao método linear, há uma conversão para linear da vida útil restante.
+> Normalmente, quando o valor que é calculado usando o método de depreciação por declínio de 150% se torna menor do que o valor que será calculado usando o método linear, há uma conversão para o método linear método para a vida restante.
+
+
 
 

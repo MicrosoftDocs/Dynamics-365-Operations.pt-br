@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="derived-books"></a>Registros derivados
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo oferece uma visão geral da funcionalidade de registro derivado.
 
-A finalidade de livros derivados é de simplificar a postagem formulário transações de registro de ativos que estão planejadas para intervalos regulares.  Escolher um registro como o principal. Esse geralmente é o registro usado para depreciação contábil. Você o associa a outros registros configurados para lançar transações nos mesmos intervalos do registro principal. Os registros do imposto costumam ser definidos como sendo registros derivados. 
+A finalidade dos registros de depreciações derivados é simplificar o lançamento de transações do registro de ativo fixo planejadas para intervalos regulares.  Você escolhe um registro como o principal. Esse geralmente é o registro usado para depreciação contábil. Você o associa a outros registros configurados para lançar transações nos mesmos intervalos do registro principal. Os registros do imposto costumam ser definidos como sendo registros derivados. 
 
 As transações mais comuns a serem definidas para o lançamento nos registros derivados são aquisições, ajustes de aquisição e alienações. 
 
@@ -42,6 +45,8 @@ Quando a transação é lançada, uma transação de aquisição é gerada e lan
 > [!NOTE]                                                                                                                               
 > Os registros definidos para o lançamento das transações em intervalos que não sejam os do registro principal devem ser anexados ao ativo fixo como registros separados, e não derivados.  
 
-Para obter mais informações, consulte [postagem com livros derivados (post-derived-value-models.md]).
+Para obter mais informações, consulte [Lançar com registros de depreciações derivados](post-derived-value-models.md).
+
+
 
 

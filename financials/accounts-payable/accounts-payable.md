@@ -1,6 +1,6 @@
 ---
 title: Home page de Contas a pagar
-description: "Este tópico fornece uma visão geral de contas a pagar."
+description: "Este tópico oferece uma visão geral de contas a pagar."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,8 +27,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-payable-home-page"></a>Home page de Contas a pagar
 
-Este tópico fornece uma visão geral de contas a pagar.
+[!include[banner](../includes/banner.md)]
 
-Você pode inserir faturas de fornecedor manualmente ou recebê-las eletronicamente por uma entidade de dados. Depois que as notas fiscais sejam inseridas ou recebidas, você pode revisar e aprovar as notas fiscais usando um diário de aprovação de nota fiscal ou nota fiscal de fornecedor ** ** a página. Você pode usar a conciliação de faturas, as políticas de faturas de fornecedor e o fluxo de trabalho para automatizar o processo de revisão de modo que as faturas que atendam a certos critérios sejam aprovadas automaticamente, e as faturas restantes sejam sinalizadas para revisão por um usuário autorizado.
+
+Este tópico oferece uma visão geral de contas a pagar. 
+
+Você pode inserir faturas de fornecedor manualmente ou recebê-las eletronicamente por uma entidade de dados. Depois que as faturas são lançadas ou recebidas, você pode revisar e aprovar as faturas usando um diário de aprovação de faturas ou a página **Fatura de fornecedor**. Você pode usar a conciliação de faturas, as políticas de faturas de fornecedor e o fluxo de trabalho para automatizar o processo de revisão de modo que as faturas que atendam a certos critérios sejam aprovadas automaticamente, e as faturas restantes sejam sinalizadas para revisão por um usuário autorizado.
+
+
 
 

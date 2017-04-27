@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="factor-depreciation"></a>Depreciação por fator
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo oferece uma visão geral do método de depreciação por fator.
 
 Fatores são as porcentagens usadas na depreciação de ativos. Quando você configura um perfil de depreciação de ativo fixo e seleciona **Fator** no campo **Método** na página **Perfis de depreciação**, é possível configurar depreciação progressiva, digressiva ou linear:
@@ -39,14 +42,14 @@ Fatores são as porcentagens usadas na depreciação de ativos. Quando você con
 As regras e os exemplos a seguir indicam como é possível definir fatores para cada tipo de depreciação. 
 
 > [!NOTE] 
-> Quando você seleciona fatora ** ** em ** método ** campo, fatora ** ** o campo intervalo e ** ** o campo é exibido.
+> Quando você seleciona **Fator** no campo **Método**, os campos **Fator** e **Intervalo** são exibidos.
 
 ## <a name="progressive-depreciation"></a>Depreciação progressiva
 O valor no campo **Fator** é maior que **50**.
 
 ### <a name="example"></a>Exemplo
 
-O preço de aquisição é 100,000, o fatora é 70, a vida útil é de 10 anos, a depreciação começa o 1º de janeiro. Os valores de depreciação e os valores líquidos contábeis são mostrados apenas durante os seis primeiros anos de vida útil.
+O preço de aquisição é 100.000, o fator é 70, a vida útil é 10 anos e a depreciação começa em 1º de janeiro. Os valores de depreciação e os valores líquidos contábeis são mostrados apenas durante os seis primeiros anos de vida útil.
 
 | Ano | Período      | Valor de depreciação | Valor líquido contábil |
 |------|-------------|---------------------|-----------------------|
@@ -62,7 +65,7 @@ O valor do campo **Fator** é menor do que **50**.
 
 ### <a name="example"></a>Exemplo
 
-O preço de aquisição é 100,000, o fatora é 20, a vida útil é de 10 anos, a depreciação começa o 1º de janeiro. Os valores de depreciação e os valores líquidos contábeis são mostrados apenas durante os seis primeiros anos de vida útil.
+O preço de aquisição é 100.000, o fator é 20, a vida útil é 10 anos e a depreciação começa em 1º de janeiro. Os valores de depreciação e os valores líquidos contábeis são mostrados apenas durante os seis primeiros anos de vida útil.
 
 | Ano | Período      | Valor de depreciação | Valor líquido contábil |
 |------|-------------|---------------------|-----------------------|
@@ -75,5 +78,7 @@ O preço de aquisição é 100,000, o fatora é 20, a vida útil é de 10 anos, 
 
 ## <a name="straight-line-depreciation"></a>Depreciação linear
 O valor no campo **Fator** é igual a **50**. Nesse caso, a depreciação é a mesma em todos os períodos, e devem ser consideradas as implicações de valores que você especificou em outros campos, conforme descrito em [Depreciação linear com base na vida útil](straight-line-service-life-depreciation.md).
+
+
 
 

@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="warehouse-work-policies"></a>Políticas de trabalho de depósito
 
+[!include[banner](../includes/banner.md)]
+
+
 Uma nova política de trabalho de depósito foi introduzida no Microsoft Dynamics AX 7.0.1 (atualização de maio de 2016). Esta política de trabalho controla se o trabalho de depósito é criado para os processos de depósito na fabricação.
 
-Esta política de trabalho controla se o trabalho de depósito é criado para os processos de depósito na fabricação. Você pode configurar a política de trabalho usando uma combinação de **tipos de ordem de trabalho**, **localização de estoque** e um **produto**. Por exemplo, os produtos L0101 são relatados como concluídos no local 001 de saída. O item concluído é consumido posteriormente em outra ordem de produção no local 001 de saída. Nesse caso, você pode definir uma diretiva de trabalho para impedir que os trabalhos do colocar- Ausente concluído mercadorias são criados quando você informar os produtos L0101 como concluídas para o local 001 de saída. A política de trabalho é uma entidade individual que pode ser descrita pelas seguintes informações:
+Esta política de trabalho controla se o trabalho de depósito é criado para os processos de depósito na fabricação. Você pode configurar a política de trabalho usando uma combinação de **tipos de ordem de trabalho**, **localização de estoque** e um **produto**. Por exemplo, o produto L0101 é reportado como terminado para o local de saída 001. O bem acabado é posteriormente consumido noutra ordem de produção no local de saída 001. Nesse caso, você pode configurar uma política de trabalho para impedir que o trabalho para produtos terminados colocados de lado seja criado quando você relata o produto L0101 como concluído para o local de saída 001. A política de trabalho é uma entidade individual que pode ser descrita pelas seguintes informações:
 
 -   **Nome da política de trabalho **(o identificador exclusivo da política de trabalho)
 -   **Tipos de ordem de trabalho **e** Método de criação de trabalho**
@@ -55,7 +58,7 @@ Você pode selecionar um produto ao qual a política de trabalho seja aplicável
 ## <a name="example"></a>Exemplo
 No exemplo a seguir, há duas ordens de produção, PRD-001 e PRD-00*2*. A ordem de produção PRD-001 tem uma operação que é chamada **Montagem**, em que o produto SC1 está sendo relatado como acabado para a localização O1. A ordem de produção PRD-002 tem uma operação que é chamada **Pintura** e consome o produto SC1 da localização O1. A ordem de produção PRD-002 também consome a matéria-prima RM1 da localização O1. A RM1 é armazenada na localização BULK-001 e será separada para a localização O1 pelo trabalho de depósito para a separação de matéria-prima. O trabalho de separação será gerado quando a produção PRD-002 for liberada. 
 
-[![Warehouse work policies](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
+[![Políticas de trabalho de depósito](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
 
 Quando você planejar configurar uma política de trabalho de depósito para este cenário, considere as seguintes informações:
 
@@ -66,11 +69,11 @@ Veja um exemplo da política de trabalho que você pode configurar com base nest
 
 |                                         |                                                       |
 |-----------------------------------------|-------------------------------------------------------|
-|**Work policy name**<br>                 |**Work order types**<br>                               |
-| Nenhum `colocado 01 à frente                    |- Mercadoria concluída colocado à frente<br>                           |
-|                                         |**Locations**<br>                                      |
+|**Nome da política de trabalho**<br>                 |**Tipos de ordem de trabalho**<br>                               |
+| Nenhum armazenamento de 01                    |- Armazenamento de mercadorias acabadas<br>                           |
+|                                         |**Localizações**<br>                                      |
 |                                         |- O1   |                                               |
-|                                         |**Products** <br>                                      |
+|                                         |**Produtos** <br>                                      |
 |                                         |- SC1                                                  |
 
 Os procedimentos a seguir fornecem instruções passo a passo sobre como configurar a política de trabalho de depósito para este cenário. Uma configuração de exemplo mostrando como relatar uma ordem de produção como acabada para uma localização que não seja controlada por placa de licença também é descrita.
@@ -244,5 +247,7 @@ ETAPAS (25)
 </tr>
 </tbody>
 </table>
+
+
 
 

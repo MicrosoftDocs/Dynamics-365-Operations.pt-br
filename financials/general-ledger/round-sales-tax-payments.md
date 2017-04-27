@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-payments-and-rounding-rules"></a>Pagamentos de imposto e regras de arredondamento
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo explica como a configuração de regra de arredondamento funciona em Autoridades de imposto e o arredondamento do saldo de imposto durante o trabalho Liquidar e lançar imposto.
 
-Periodicamente, o imposto deve ser informado e pago às autoridades fiscais. Isso pode ser feito no processo de vendas de acordo e lançar na página de imposto. Os impostos para um período serão liquidados contra as contas de impostos e o saldo de imposto sobre vendas será lançado na conta de pagamento de imposto. O saldo do imposto, que é lançado na conta de liquidação do imposto, pode ser arredondado conforme exigido pelas autoridades fiscais para configurar uma regra de arredondamento na página Impostos. 
+Periodicamente, o imposto deve ser informado e pago às autoridades fiscais. Isso pode ser feito executando o processo de pagamento de liquidação e pós-venda na página de imposto de vendas. O imposto sobre vendas de um período será liquidado contra as contas de imposto sobre vendas e o saldo do imposto sobre vendas será lançado na conta de liquidação de imposto de vendas. O saldo do imposto, que é lançado na conta de liquidação do imposto, pode ser arredondado conforme exigido pelas autoridades fiscais para configurar uma regra de arredondamento na página Impostos. 
 
 A diferença de arredondamento é lançada na conta de arredondamento de Impostos que é selecionada no campo Contas para transações automáticas na Contabilidade.
 
@@ -42,10 +45,10 @@ O imposto total para um período mostra um saldo de crédito de -98.765,43. A en
 
 A entidade legal quer usar um método de arredondamento que arredonda para o valor mais perto de 1,00. O usuário responsável pela contabilização do imposto conclua as etapas a seguir.
 
-1.  Autoridades fiscais &gt; dos impostos &gt; de consumo &gt; de impostos do retail
+1.  Clique em Imposto &gt; Impostos indiretos &gt; Imposto &gt; Autoridades do imposto
 2.  Na Guia Rápida Geral, selecione Normal no campo Forma de arredondamento.
 3.  No campo Arredondamento, digite 1,00.
-4.  Na época de pagar os impostos à autoridade fiscal, abra a página Liquidar e lançar imposto. (Imposto de acordo &gt; e &gt; lançar &gt; impostos das declarações de impostos do retail.)
+4.  Na época de pagar os impostos à autoridade fiscal, abra a página Liquidar e lançar imposto. (Clique em Imposto &gt; Declarações &gt; Imposto &gt; Liquidar e lançar imposto.)
 5.  Na conta de liquidação do imposto, o valor da obrigação fiscal de 98.765.43 foi arredondado para 98.765.
 
 A tabela a seguir mostra como um valor 98.765,43 é arredondado usando cada método de arredondamento que está disponível no campo Forma de arredondamento na página Autoridades do imposto.
@@ -61,6 +64,8 @@ A tabela a seguir mostra como um valor 98.765,43 é arredondado usando cada mét
 > [!NOTE]                                                                                  
 > Se você selecionar Vantagem própria, o arredondamento será sempre em benefício da entidade legal. 
 
-Para obter mais informações, consulte visão geral [] de imposto (indirect-taxes-overview.md). 
+Para obter mais informações, consulte o [Visão geral de impostos sobre vendas](indirect-taxes-overview.md). 
+
+
 
 

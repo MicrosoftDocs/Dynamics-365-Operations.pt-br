@@ -1,6 +1,6 @@
 ---
-title: "Acúmulo de custo previsto do projeto em recibos de compra"
-description: "Este tópico descreve como os custos acumulados de projeto a partir de compra podem ser rastreados no Microsoft Dynamics 365 para as operações."
+title: Despesas de custo de projeto sobre recebimentos de compra
+description: "Este tópico descreve como os custos acumulados de projeto a partir de compra podem ser rastreados no Microsoft Dynamics 365 for Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,59 +24,64 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="project-cost-accrual-on-purchase-receipts"></a>Acúmulo de custo previsto do projeto em recibos de compra
+# <a name="project-cost-accrual-on-purchase-receipts"></a>Despesas de custo de projeto sobre recebimentos de compra
 
-Este tópico descreve como os custos acumulados de projeto a partir de compra podem ser rastreados no Microsoft Dynamics 365 para as operações. 
+[!include[banner](../includes/banner.md)]
 
-As notas fiscais para um projeto chegam em geral após o produto e serviços é entregue, que podem ter um impacto significativo para indicadores chave de desempenho (KPIs) da chave projeto. É importante acompanhar poder essas transações em relatórios financeiros e de projeto.
 
-O cenário a seguir ilustra exemplo deste. 
+Este tópico descreve como os custos acumulados de projeto a partir de compra podem ser rastreados no Microsoft Dynamics 365 for Operations. 
 
-Consulte de A Contoso começou um novo projeto de implantação do nuvem. Uma ordem de compra está criada comprar um computador para o projeto. O computador $1500 custará e serviços da instalação custarão $150. O fornecedor e entregue instalou o computador a nota fiscal, mas ainda não tiver atingido consulte de A Contoso. O gerente de projeto gostaria consulte a projeto da competência de custo previsto de $1650 antes da fatura obtenha entregue. Esses custos devem também ser refletidos nos demonstrativos financeiros de fechamento de mês empresarial. 
+As notas fiscais de um projeto geralmente chegam após as mercadorias e os serviços serem entregues, podendo ter um impacto significativo nos indicadores de desempenho principais do projeto (KPIs). É importante poder acompanhar essas transações em relatórios financeiros e de projeto.
 
-Os custos acumulados precisam ser registradas em nível financeiro e o nível do para fins de relatório. Em dynamics 365 para operações, a atualização financeira de recebimento de produtos pode serem rastreadas para categorias de item e de itens. 
+O cenário de exemplo a seguir ilustra isto. 
 
-Para itens, ** parâmetros de contas a pagar ** na página, selecione ** lançar recebimentos de produtos no razão ** a opção.
-[![(accruals1]. /media/accruals1-1024x409.png)](. /media/accruals1.png) 
+A Consultoria da Contoso iniciou um novo projeto de implantação de nuvem. Uma ordem de compra é criada para comprar um computador para o projeto. O computador custará US$ 1.500 e os serviços de instalação custarão US$ 150. O fornecedor entregou e instalou o computador, mas as faturas ainda não chegaram à Consultoria da Contoso. O gerente de projeto gostaria de ver as despesas de custo de projeto de US$ 1.650 antes da fatura ser entregue. Esse custo também deve ser refletido nos demonstrativos financeiros finais do mês da empresa. 
 
-Para categorias de compras, ** regras de diretiva de categoria ** na página, selecione ** compras ** diretivas, e selecione ** aumentam as despesas de compra em recibo ** para cada categoria de compras.
-[![(accruals2]. /media/accruals2-1024x569.png)](. /media/accruals2.png) 
+Os custos acumulados precisam ser registradas em nível financeiro e em nível de projeto para fins de relatório. No Dynamics 365 for Operations, a atualização financeira do recibo do produto pode ser rastreada para categorias de item e compra. 
 
-** Despesas de compra faturadas e un- ** ** competência de compra ** contas ** configuração de postagem ** serão usadas em quando comprovantes relacionadas ao recebimento de produtos são lançadas.
-[![(accruals3]. /media/accruals3-1024x429.png)](. /media/accruals3.png) 
+Para itens, na página **Parâmetros de contas a pagar**, selecione a opção **Lançar recibos de produto ao razão**.
+[![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
 
-Com esse mesmo deixe-nos cenário, consulte como lançar um recebimento de produtos afetará a contabilidade e as informações sobre o projeto. 
+Para categorias de compras, na página **Regra de política de categoria**, selecione políticas de **Compras** e depois selecione **Despesas de compras acumuladas no recebimento** para cada categoria de compra.
+[![accruals2](./media/accruals2-1024x569.png)](./media/accruals2.png) 
 
-** Etapa 1: ** Crie e confirme uma nova ordem de compra do projeto registre a compra de um computador para $1500 e de serviço de instalação para $150.
-[![(accruals4]. /media/accruals4-1024x497.png)](. /media/accruals4.png) 
+As contas **Despesa de compra não faturada** e **Despesa de compra** na **Configuração de lançamento** serão usadas quando os comprovantes relacionados ao recibo do produto forem lançados.
+[![accruals3](./media/accruals3-1024x429.png)](./media/accruals3.png) 
+
+Com esse mesmo cenário, vejamos como o lançamento de recibo de produto impactará as informações de contabilidade e projeto. 
+
+**Etapa 1:** Criar e confirmar uma nova ordem de compra do projeto para registrar a compra de um computador por US$ 1.500 e serviços de instalação por US$ 150.
+[![accruals4](./media/accruals4-1024x497.png)](./media/accruals4.png) 
 
 Quando a ordem de compra for confirmada, as transações do custo comprometido são criadas para o projeto. 
-[![(accruals5]. /media/accruals5-1024x219.png)](. /media/accruals5.png) 
+[![accruals5](./media/accruals5-1024x219.png)](./media/accruals5.png) 
 
 > [!NOTE]
-> As transações do custo comprometido terão ** origem da transação definido ** campo ** ** ordem de compra. Criar e confirmar uma ordem de compra não cria transações para um projeto. 
+> As transações do custo comprometido terão o campo **Origem da transação** definido para **Ordem de compra**. Criar e confirmar uma ordem de compra não cria transações para um projeto. 
 
-** Etapa 2: ** O produto e serviços e entregue é um recebimento de produtos é registrado. 
+**Etapa 2:** Mercadorias e serviços são entregues e um recibo de produto é registrado. 
 
-Lançar um recebimento de produtos gera e lança um comprovante no razão. O comprovante debitará despesa de compra, a conta un- faturada, e a conta de competência de compra de crédito. 
-[![(accruals6]. /media/accruals6-1024x214.png)](. /media/accruals6.png)
+Lançar um recebimento de produtos gerará e lançará um comprovante no razão. O comprovante debitará as despesas de compra, conta não faturada e conta de despesas de compra em crédito. 
+[![accruals6](./media/accruals6-1024x214.png)](./media/accruals6.png)
 
 > [!NOTE]
-> Lançar um recebimento de produtos usados a configuração de postagem de produtos e categorias de compras, não a configuração de postagem das categorias de projeto. Para refletir corretamente o impacto financeiro de competências de compra, essa configuração precisa ser. de serem 
+> Lançar um recibo de produtos usará a configuração de lançamento de categorias de compra e produtos, e não a configuração de lançamento das categorias de projeto. Para refletir corretamente o impacto financeiro das despesas de compra, essa configuração precisar estar alinhada. 
 
-É possível mapear categorias de compras para projetar categorias ** ** categoria de compras na página.
-[![(accruals7]. /media/accruals7-1024x390.png)](. /media/accruals7.png)
+É possível mapear categorias de compras para projetar categorias na página **Categoria de compra**.
+[![accruals7](./media/accruals7-1024x390.png)](./media/accruals7.png)
 
-** Etapa 3: ** Crie uma nota fiscal de fornecedor de rascunho. 
+**Etapa 3:** Criar um rascunho da fatura de fornecedor. 
 
-Em dynamics 365 para operações, lançar um recebimento de produtos não afeta informações sobre o projeto. Como uma solução alternativa, você pode gerar uma nota fiscal de fornecedor de rascunho mesmo depois lançar o recebimento de compra. Ir ** ** ordem de compra para &gt; a página guia ** fiscal ** &gt; ** geram ** &gt; ** fatura **. Isso cria um documento de nota fiscal pendente que atualize informações sobre o projeto. 
+No Microsoft Dynamics 365 for Operations, lançar um recibo de produto não impactará nas informações de projeto. Como uma solução alternativa, você pode gerar um rascunho de fatura de fornecedor logo após o lançamento do recebimento de compra. Vá para a página **Ordem de compra** &gt; **Guia de fatura** &gt; **Gerar** &gt; **Fatura**. Essa ação cria um documento de fatura pendente que atualiza as informações do projeto. 
 
-Criar uma nota fiscal de fornecedor de rascunho geradas durante transações de projeto. 
-[![(accruals8]. /media/accruals8-1024x225.png)](. /media/accruals8.png) 
+Criar um rascunho da fatura de fornecedor gerará transações de projeto pendentes. 
+[![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png) 
 
-** Custo comprometido ** na página, registros criados na etapa 1 serão fechadas e novos recordes serão criados para refletir o compromisso de custo previsto que vêm da nota fiscal de fornecedor pendente. ** Origem da transação ** o campo para o custo comprometido será definida ** ** nota fiscal de fornecedor.
-[![(accruals9]. /media/accruals9-1024x200.png)](. /media/accruals9.png)
+Na página **Custo comprometido**, registros criados na etapa 1 serão fechados e novos registros serão criados para refletir o custo comprometido proveniente de fatura de fornecedor pendente. O campo **Origem da transação** do custo comprometido será definido como **Fatura de fornecedor**.
+[![accruals9](./media/accruals9-1024x200.png)](./media/accruals9.png)
 
-A nota fiscal permanecerá fornecedor de um estado pendente até que a nota fiscal de fornecedor real chegue.
+A fatura do fornecedor permanecerá em um estado pendente até que a fatura de fornecedor real chegue.
+
+
 
 

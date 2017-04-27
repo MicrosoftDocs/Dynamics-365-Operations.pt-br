@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-customer-invoice"></a>Criar uma fatura de cliente
 
+[!include[banner](../includes/banner.md)]
 
 
-Uma **fatura de cliente para uma ordem de venda** é uma nota que está relacionada a uma venda, e que uma organização fornece a um cliente. Esse tipo de fatura de cliente é criado com base em uma ordem de venda, que inclui linhas de ordem e números de item. Os números de item são especificados e lançados no razão. Os entrada no diário-razão auxiliar não estão disponíveis para uma fatura de cliente para uma ordem de venda. 
+
+
+Uma **fatura de cliente para uma ordem de venda** é uma nota que está relacionada a uma venda, e que uma organização fornece a um cliente. Esse tipo de fatura de cliente é criado com base em uma ordem de venda, que inclui linhas de ordem e números de item. Os números de item são especificados e lançados no razão. As entradas no diário-razão auxiliar não estão disponíveis para uma fatura de cliente de uma ordem de venda. 
 
 Uma **fatura de texto livre** não está relacionada a uma ordem de venda. Ela contém linhas de ordem que incluem contas contábeis, descrições de texto livre e um valor de venda que você insere. Não é possível inserir um número de item neste tipo de fatura. Você deverá inserir as informações apropriadas de impostos sobre vendas. Uma conta principal para a venda é indicada em cada linha da fatura, que você pode distribuir para diversas contas contáveis clicando em **Distribuir valores** na página **Fatura de texto livre**. Além disso, o saldo do cliente é lançado na conta resumo do perfil de lançamento usado para a fatura de texto livre.
 
@@ -55,7 +58,7 @@ Exiba o status da ordem de venda na página de listagem **Todas as ordens de ven
 ## <a name="consolidate-sales-orders-or-packing-slips-for-posting"></a>Consolidar ordens de venda ou guias de remessa para lançamento
 Use este processo quando uma ou mais ordens de venda estiverem prontas para serem faturadas, e você desejar consolidá-las em uma única fatura. 
 
-Você pode selecionar várias faturas na página de listagem **Ordem de venda** e, em seguida, usar a função **Gerar faturas** para consolidá-las. ** Fatura de postagem ** na página, é possível modificar ** ordem resumida ** configuração para resumir por número da ordem (onde houver várias guias de remessa para uma única ordem de venda) ou por conta de nota fiscal (onde houver várias ordens de venda para uma única conta de nota fiscal). Use ** organizar ** botão consolidar ordens de venda em várias notas fiscais, baseada ** ordem resumida ** as configurações.
+Você pode selecionar várias faturas na página de listagem **Ordem de venda** e, em seguida, usar a função **Gerar faturas** para consolidá-las. Na página **Lançamento de fatura**, você pode alterar a configuração **Ordem resumida** para resumir por número de ordem (onde houver diversas guias de remessa para uma única ordem de venda) ou por valor de fatura (onde houver diversas ordens de venda para uma única conta de fatura). Use o botão **Organizar** para consolidar as ordens de venda em faturas únicas, com base nas configurações de **Ordem resumida**.
 
 ## <a name="additional-settings-that-change-the-posting-behavior"></a>Configurações adicionais que alteram o comportamento dos lançamentos
 Os seguintes campos alteram o comportamento do processo de lançamento.
@@ -123,8 +126,8 @@ Os seguintes campos alteram o comportamento do processo de lançamento.
 <td>Verificar limite de crédito</td>
 <td>Selecione as informações que devem ser analisadas quando uma verificação de limite de crédito for realizada.
 <ul>
-<li><strong>None</strong> – There is no requirement for the credit limit check.</li>
-<li><strong>Balance</strong> – The credit limit is checked against the customer balance.</li>
+<li><strong>Nenhum</strong> – não existem requisitos para a verificação do limite de crédito.</li>
+<li><strong>Saldo</strong> – o limite de crédito é comparado ao saldo do cliente.</li>
 <li><strong>Saldo + guia de remessa ou recebimento de produtos</strong> – O limite de crédito é verificado em relação ao saldo do cliente e entregas.</li>
 <li><strong>Saldo+tudo</strong> – o limite de crédito é verificado em relação ao saldo do cliente, entregas e ordens abertas.</li>
 </ul></td>
@@ -150,6 +153,8 @@ Os seguintes campos alteram o comportamento do processo de lançamento.
 </tr>
 </tbody>
 </table>
+
+
 
 
 

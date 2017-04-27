@@ -1,6 +1,6 @@
 ---
-title: "Os cálculos da configuração do FAQ produtos"
-description: "Este artigo para cálculos descreve a configuração dos modelos de produto e explica como usar cálculos com restrições."
+title: "Perguntas frequentes sobre cálculos para modelos de configuração de produto"
+description: "Este artigo descreve os cálculos para os modelos de configuração de produto e explica como usar os cálculos com restrições."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="calculations-for-product-configuration-models-faq"></a>Os cálculos da configuração do FAQ produtos
+# <a name="calculations-for-product-configuration-models-faq"></a>Perguntas frequentes sobre cálculos para modelos de configuração de produto
 
-Este artigo para cálculos descreve a configuração dos modelos de produto e explica como usar cálculos com restrições.
+[!include[banner](../includes/banner.md)]
+
+
+Este artigo descreve os cálculos para os modelos de configuração de produto e explica como usar os cálculos com restrições.
 
 Os cálculos podem ser usados para operações aritméticas ou lógicas. Eles complementam restrições de expressão e restrições em modelos de configuração do produto. Você pode definir cálculos na página **Detalhes do modelo de configuração de produto baseado em restrições** e depois criar expressões para os cálculos no editor de expressões. Para obter mais informações, consulte Criar cálculos.
 
@@ -45,9 +48,9 @@ Um atributo de destino é um atributo que recebe o resultado da expressão de c�
 
 Na expressão a seguir, o atributo de destino é uma medição de toalha de mesa:  
 
-** Expressão: ** Se\[decimalAttribute1 &lt;=\], decimalAttribute2 verdadeiro, false  
+**Expressão:** If\[decimalAttribute1 &lt;= decimalAttribute2, True, False\]  
 
-** DecimalAttribute1 ** é a extensão de tabela, e decimalAttribute2 ** ** é a extensão de toalha de mesa. A expressão retornará o valor **True** para o atributo de destino se **decimalAttribute2** for maior ou igual a **decimalAttribute1**. Caso contrário, a expressão retornará um valor **False**. Portanto, a medição da toalha de mesa será aceitável se o comprimento da toalha de mesa for igual ou maior que o tamanho da mesa.
+**DecimalAttribute1** é o comprimento da tabela e **decimalAttribute2** é o comprimento da toalha de mesa. A expressão retornará o valor **True** para o atributo de destino se **decimalAttribute2** for maior ou igual a **decimalAttribute1**. Caso contrário, a expressão retornará um valor **False**. Portanto, a medição da toalha de mesa será aceitável se o comprimento da toalha de mesa for igual ou maior que o tamanho da mesa.
 
 ## <a name="what-attribute-types-can-be-set-to-target-attributes"></a>Quais tipos de atributo que podem ser definidos para atributos de destino?
 Todos os tipos de atributo com o suporte do configurador de produtos podem ser definidos para os atributos de destino exceto para o texto sem uma lista fixa.
@@ -57,11 +60,11 @@ Não, o valor de destino não pode restringir os valores dos atributos de entrad
 
 ### <a name="example"></a>Exemplo
 
-Na expressão, o destino para o cálculo será a um comprimento de um período de fornecimento, e o valor de uma cor inserida é:  
+Na expressão a seguir, o destino do cálculo é o comprimento de um cabo de alimentação e o valor de entrada é uma cor:  
 
-** Expressão: ** \[caso == “cor verde” 1.5, 1.0,\]  
+**Expressão:** \[If Color == "Verde", 1,5, 1,0\]  
 
-Ao configurar o item, o comprimento de cabo de fornecimento é definido ** ** 1.5 se você especificar ** verde ** como o valor de atributo de cor. Se outra cor for especificada, o tamanho será definido como **1,0**. No entanto, em decorrência dos cálculos serem unidirecionais, o cálculo não definirá o valor do atributo de cor como **Verde** quando você especificar um tamanho **1,5**.
+Quando você configura o item, o comprimento do cabo de alimentação é definido como **1,5** se você especificar **Verde** como o valor do atributo cor. Se outra cor for especificada, o tamanho será definido como **1,0**. No entanto, em decorrência dos cálculos serem unidirecionais, o cálculo não definirá o valor do atributo de cor como **Verde** quando você especificar um tamanho **1,5**.
 
 ## <a name="what-happens-if-a-calculation-has-a-target-attribute-of-the-integer-type-but-a-calculation-generates-a-decimal-number"></a>O que acontece se um cálculo tiver um atributo de destino do tipo inteiro mas um cálculo gerar um número decimal?
 Se um atributo de destino for o tipo inteiro, mas um cálculo gerar um número decimal, somente a parte inteira do resultado calculado será retornada. A parte decimal é removida e o resultado não é arredondado. Por exemplo, um resultado 12,70 é mostrado como 12.
@@ -72,16 +75,16 @@ Os cálculos ocorrem quando um valor tiver sido fornecido para todos os atributo
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>Posso substituir o valor calculado para o atributo de destino?
 É possível substituir o valor que é calculado para o atributo de destino a menos que o atributo de destino esteja definido como oculto ou somente leitura.
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Como defino um atributo de destino como oculto ou de somente leitura?
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Como defino um atributo de destino como oculto ou somente leitura?
 Para definir um atributo como oculto ou somente leitura, siga estas etapas.
 
-1.  Clique ** gerenciamento de informações sobre produtos ** &gt; ** comum ** &gt; ** a configuração dos modelos de produto. **
+1.  Clique em **Gerenciamento de informações do produto** &gt; **Comum** &gt; **Modelos de configuração do produto**.
 2.  Selecione um modelo de configuração do produto e, no Painel de Ação, clique em **Editar**.
 3.  Na página **Detalhes do modelo de configuração do produto baseada em restrições**, selecione o atributo a ser usado como um atributo de destino.
 4.  Na Guia Rápida **Atributos**, selecione **Oculto** ou **Somente leitura**.
 
 ## <a name="can-a-calculation-overwrite-the-values-that-i-set"></a>Um cálculo pode substituir os valores que eu defini?
-Não. Os valores definidos quando você configurar um produto são os valores usados. O cálculo que ocorre quando os valores de entrada em um cálculo são alterados não pode substituir os valores fornecidos para um atributo específico.
+Não. Os valores definidos quando você configura um produto são os valores que serão usados. O cálculo que ocorre quando os valores de entrada em um cálculo são alterados não pode substituir os valores fornecidos para um atributo específico.
 
 ## <a name="what-happens-if-i-remove-an-input-value-in-a-calculation"></a>Que ocorre se um valor de entrada for removido em um cálculo?
 Se um valor de entrada for removido em um cálculo, o valor do atributo de destino também será removido.
@@ -93,13 +96,15 @@ A mensagem é mostrada quando um cálculo inclui um erro ou quando uma contradi�
 -   Há um conflito entre estes dois elementos:
     -   Os valores disponíveis para um atributo e que são limitados por uma restrição
     -   Um valor gerado por um cálculo
--   Os valores que são retornados pelo cálculo estão fora de domínio de atributos. Um exemplo é um número inteiro \[1..10\] que é calculado a 0.
+-   Os valores que são retornados pelo cálculo estão fora de domínio de atributos. Um exemplo é um número inteiro de \[1..10\] calculado em 0.
 
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>Por que recebo uma mensagem de erro mesmo quando valido com êxito meu modelo de produto?
 Os cálculos não são incluídos na validação. É necessário testar o modelo de configuração do produto para localizar erros nos cálculos. Para testar um modelo de configuração do produto, siga estas etapas.
 
-1.  Clique ** gerenciamento de informações sobre produtos ** &gt; ** comum ** &gt; ** a configuração dos modelos de produto. **
+1.  Clique em **Gerenciamento de informações do produto** &gt; **Comum** &gt; **Modelos de configuração do produto**.
 2.  Selecione um modelo de configuração do produto e, no Painel de Ação, no grupo **Executar**, clique em **Testar**.
+
+
 
 
 

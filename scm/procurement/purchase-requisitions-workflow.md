@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-workflow"></a>fluxo de trabalho de requisição de compra
 
+[!include[banner](../includes/banner.md)]
+
+
 O processo de fluxo de trabalho move requisições de compra pelo processo de revisão, de um status de Rascunho para um status final de Aprovado. Quando uma requisição de compra é enviada para revisão, o processo de fluxo de trabalho é iniciado. Após a aprovação de uma requisição de compra, uma ordem de compra pode ser gerada para as linhas de requisição de compra e enviadas ao fornecedor para o preenchimento da ordem.
 
 Antes que uma requisição de compra possa ser enviada para revisão, você deve configurar um fluxo de trabalho. O processo de fluxo de trabalho podem incluir uma ou mais etapas de revisão em qualquer ordem. O processo de fluxo de trabalho também pode ser configurado para ignorar as tarefas de revisão e para aprovar automaticamente a requisição de compra. Você pode configurar o fluxo de trabalho para encaminhar a requisição de compra como um único documento, ou pode encaminhar as linhas de requisição de compra individuais para os revisores apropriados. Você também pode criar um cenário onde a requisição de compra é encaminhada como um único documento para alguns revisores e as linhas de requisição de compra selecionadas são encaminhadas para outros revisores.  
@@ -106,12 +109,14 @@ Para usar um dos revisores de despesas que você configura em um fluxo de trabal
 <a name="see-also"></a>Consulte também
 --------
 
-[Crie uma requisição para consumo (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Criar uma requisição para consumo (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
 [Definir fluxos de trabalho de processos de negócios para requisições de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Procurement and sourcing workflows](procurement-sourcing-workflows.md)
+[Fluxos de trabalho de compras e fornecimento](procurement-sourcing-workflows.md)
 
-[Purchase requisition overview](purchase-requisitions-overview.md)
+[Visão geral de requisição de compra](purchase-requisitions-overview.md)
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-invoicing"></a>Faturamento de projeto
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece uma visão geral do projeto que fatura por tempo e projetos de preço fixo material. Contém informações sobre propostas de nota fiscal (nota fiscal preliminar), controle de notas fiscais, faturamento por conta, faturamento de fornecedor e notas de crédito.
 
 O tipo de projeto determina qual procedimento de faturamento deve ser aplicado. Apenas os dois tipos de projeto externos, por tempo e material e de preço fixo, podem ser faturados. Os projetos por tempo e material e de preço fixo são sempre anexados a um contrato de projeto.
@@ -103,7 +106,7 @@ Por exemplo, é possível configurar a seguinte agenda de cobrança:
 Quando os pagamentos em etapa estiverem prontos para serem faturados, use o procedimento de faturamento de valores da conta.
 
 ## <a name="vendor-invoicing"></a>Faturamento de fornecedor
-Quando você solicitar um item de um fornecedor e atribuir o item a um projeto, a propriedade selecionada para uma linha de ordem de compra para um item determina se o item comprado será faturado para um cliente. Se você configurar propriedades de linha padrão, ele é exibido para o item na ordem de compra (detalhes &gt; da linha projetos &gt; a propriedade.) Há duas maneiras de alterar a propriedade da linha:
+Quando você solicitar um item de um fornecedor e atribuir o item a um projeto, a propriedade selecionada para uma linha de ordem de compra para um item determina se o item comprado será faturado para um cliente. Se você configurar as propriedades de linha, elas serão exibidas para o item na linha de ordem de compra (Detalhes da linha &gt; Projeto &gt; Propriedade da linha). Há duas maneiras de alterar a propriedade da linha:
 
 -   Fature o cliente do projeto para o item: Defina a propriedade da linha do item como um valor passível de cobrança na ordem de compra, e fature o cliente usando o método de faturamento de projeto correto.
 -   Não fature o cliente do projeto para o item: Não selecione a propriedade de linha **Passível de cobrança** na linha da ordem de compra para o item. Você pode faturar a ordem de compra e não será necessário tomar mais ações.
@@ -118,5 +121,7 @@ O mesmo documento pode incluir transações selecionadas para crédito, transaç
 Para creditar um valor faturado, primeiro selecione o valor faturado a ser creditado e, em seguida, crie uma nota de crédito. Crie uma nota de crédito seguindo o mesmo procedimento usado para gerar uma fatura de cliente. 
 
 Você pode criar uma fatura com um valor negativo, que se torna uma fatura classificada como nota de crédito. Para criar e imprimir uma nota de crédito, você deve selecionar as transações lançadas anteriormente para uma fatura de cliente e, em seguida, modificar as transações. Com exceção das entidades legais cujo endereço principal é a Alemanha, o cabeçalho da fatura é "fatura corretiva".
+
+
 
 

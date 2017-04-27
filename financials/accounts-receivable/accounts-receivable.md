@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounts-receivable-home-page"></a>Home page de Contas a receber
 
-Use Contas a receber para rastrear faturas de clientes e entrada de pagamentos.
+[!include[banner](../includes/banner.md)]
+
+
+Use Contas a receber para rastrear faturas de clientes e entrada de pagamentos. 
 
 Você pode criar faturas de cliente com base em ordens de venda ou guias de remessa. Você também pode inserir faturas de texto livre que não estão relacionadas a ordens de venda. Você pode receber pagamentos usando diversos tipos de pagamento diferentes. Eles incluem letras de câmbio, pagamento à vista, cheques, cartões de crédito e pagamentos eletrônicos. Se sua organização incluir várias entidades legais, você poderá usar pagamentos centralizados para registrar pagamentos em uma única entidade legal em nome das outras entidades legais.
+
+
 
 
 

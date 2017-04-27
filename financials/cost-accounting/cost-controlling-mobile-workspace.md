@@ -1,6 +1,6 @@
 ---
-title: "O espaço de trabalho móvel de controle de custo estimado para Microsoft Dynamics 365 para o descritivo de operações"
-description: "Com espaço de trabalho móvel de controle de custo previsto, gerentes de centro de custo podem consultar o desempenho de centro de custos a qualquer momento e em qualquer lugar."
+title: "Espaço de trabalho móvel de controle de custos para o aplicativo do Microsoft Dynamics 365 for Operations"
+description: "Com o espaço de trabalho móvel de controle de custos, os gerentes de centro de custo podem ver o desempenho do centro de custo a qualquer momento e em qualquer lugar."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-01-12 16 - 53 - 04
@@ -24,89 +24,89 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-controlling-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>O espaço de trabalho móvel de controle de custo estimado para Microsoft Dynamics 365 para o descritivo de operações
+# <a name="cost-controlling-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Espaço de trabalho móvel de controle de custos para o aplicativo do Microsoft Dynamics 365 for Operations
 
-Com espaço de trabalho móvel de controle de custo previsto, gerentes de centro de custo podem consultar o desempenho de centro de custos a qualquer momento e em qualquer lugar. 
+Com o espaço de trabalho móvel de controle de custos, os gerentes de centro de custo podem ver o desempenho do centro de custo a qualquer momento e em qualquer lugar. 
 
 <a name="prerequisites"></a>Pré-requisitos
 -------------
 
 | Pré-requisito                                                         | descrição                                                                                                                                                                   |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Leia sobre o Microsoft Dynamics 365 para o preparo de celular de operações | [Dynamics 365 para a plataforma móvel] operações (/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dynamics 365 for Operations                                          | Verifique se está usando um ambiente com Microsoft Dynamics 365 para a versão 1611 de operações e o Microsoft Dynamics para atualização 3 de preparo operações (). em novembro de 2016 |
-| 3215650 KB de Hotfix                                                    | Instalar o hotfix para habilitar espaços de trabalho fornecidos no Microsoft Dynamics 365 para as operações.                                                                       |
-| Dispositivo móvel que tem o dynamics 365 para o descritivo instalado de operações | Baixe o dynamics 365 para o descritivo de operações do armazenamento móvel descritivo.                                                                                                      |
+| Leia sobre a plataforma móvel do Microsoft Dynamics 365 for Operations | [Plataforma móvel do Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
+| Dynamics 365 for Operations                                          | Verifique se você está usando um ambiente com a versão 1611 do Microsoft Dynamics 365 for Operations e a atualização 3 da plataforma do Microsoft Dynamics for Operations (novembro de 2016). |
+| Hotfix KB 3215650                                                    | Instale o hotfix para habilitar os espaços de trabalho que são fornecidos no Microsoft Dynamics 365 for Operations.                                                                       |
+| Dispositivo móvel com o Dynamics 365 for Operations instalado | Baixe o aplicativo do Dynamics 365 for Operations na sua loja de aplicativos móveis.                                                                                                      |
 
 ## <a name="introduction"></a>Introdução
-O espaço de trabalho móvel de controle de custo previsto fornece uma exibição instantânea de desempenho atual centros de custos comparar custos reais com os custos orçados. Você pode fazer busca detalhada nos elementos status previsto de custo individuais.
+O espaço de trabalho móvel de controle de custos fornece uma exibição instantânea do desempenho atual dos centros de custo comparando custos reais com os custos orçados. Você pode fazer uma busca detalhada nos status de elementos de custo individuais.
 
 ### <a name="example"></a>Exemplo
 
-Um funcionário receber um convite para uma internacional. conferência A organização que terá cobrir todas despesas de viagem. O funcionário pede sua comedoiro se possível. a assistir conferência O gerenciador abre rapidamente o espaço de trabalho móvel de controle de custo estimado no telefone móvel para consultar se tiver o orçamento para o funcionário. a assistir conferência
+Um funcionário recebe um convite para uma conferência internacional. A organização terá que cobrir todas as despesas da viagem. O funcionário pergunta a seu gerente se pode participar da conferência. O gerente abre rapidamente o espaço de trabalho móvel de controle de custos no seu telefone móvel para ver se dispõe do orçamento para que o funcionário possa ir à conferência.
 
 ### <a name="data-security"></a>Segurança de dados
 
-Os dados no espaço de trabalho de controle de custo previsto são protegidos por suas credenciais. É permitido apenas a gerente do centro de custos consulte dados para seu próprio centro de custos. A segurança em nível de acesso será gerenciada no módulo de contabilização de custo previsto. Contadores de custo define a configuração móvel de controle de custo previsto do espaço de trabalho no módulo contabilização de custo previsto. Depois do espaço de trabalho for publicado Microsoft Dynamics 365 para o descritivo de operações, está disponível em dynamics 365 do celular descritivo de operações. Isso garante que os gerentes de centro de custos na organização olhem dados no mesmo formato.
+Os dados no espaço de trabalho de controle de custos são protegidos pelas credenciais do usuário. Um gerente de centro de custo só pode ver dados de seu próprio centro de custo. A segurança de nível de acesso é gerenciada dentro do módulo de contabilização de custos. Os contadores definem a configuração do espaço de trabalho móvel de controle de custos no módulo de contabilização de custos. Após a publicação do espaço de trabalho no aplicativo do Microsoft Dynamics 365 for Operations, ele fica disponível no aplicativo móvel do Dynamics 365 for Operations. Com isso, todos os gerentes de centro de custo na organização podem ver os dados no mesmo formato.
 
-### <a name="actions-views-and-links"></a>Exibições, ações, e links
+### <a name="actions-views-and-links"></a>Ações, exibições e links
 
-O espaço de trabalho móvel de controle de custo previsto para dynamics 365 para o descritivo de operações fornece as seguintes ações, e links, exibições:
+O espaço de trabalho móvel de controle de custos para o aplicativo do Dynamics 365 for Operations fornece estas ações, exibições e links:
 
 -   Ações 
-    -   ** Selecione configurações ** escolher um layout.
-    -   ** Selecione custo objetos ** para escolher os centros de custo em que você deseja filtrar dados. ** Observação: ** A lista será exibida conforme o acesso concedido no módulo contabilização de custo previsto.
+    -   Selecione **Configurações** para escolher um layout.
+    -   Selecione **Objetos de custo** para escolher centros de custo nos quais você deseja filtrar dados. **Observação:** a lista é exibida de acordo com o acesso concedido no módulo de contabilização de custos.
 
 <!-- -->
 
--   Com base em selecionados abaixo ** ações ** e o que é configurado no módulo contabilização de custo previsto, você pode exibir as seguintes informações em cartões. Observe que o valor é exibido no mesmo formato: Real, orçamento, variação, e variação %. 
-    -   Real versus orçamento o período (atual)
-    -   O orçamento real vs revisado período (atual)
-    -   O orçamento real vs (período anterior)
-    -   O orçamento real vs revisado (período anterior)
-    -   O orçamento real vs (ano até)
-    -   O orçamento real vs revisado (ano até)
+-   Com base no que é selecionado em **Ações** e no que é configurado no módulo de contabilização de custos, você pode exibir as seguintes informações nos cartões. Observe que o valor é exibido no mesmo formato: real, orçamento, variação e variação em %. 
+    -   Real vs. orçamento (período atual)
+    -   Real vs. orçamento revisado (período atual)
+    -   Real vs. orçamento (período anterior)
+    -   Real vs. orçamento revisado (período anterior)
+    -   Real vs. orçamento (ano até a data)
+    -   Real vs. orçamento revisado (ano até a data)
 
 <!-- -->
 
 -   Links
     -   Detalhes do período atual.
     -   Detalhes do período anterior.
-    -   Detalhes ano até.
+    -   Detalhes do ano até a data.
 
-Quando você seleciona um de links, as fichas por elementos de custo previsto será exibido. O valor em cartões é exibido neste formato: Real, orçamento, variação de orçamento, variação de porcentagem revisou orçamento, o orçamento, a variação revisada de orçamento, a variação de orçamento revisada %.  [![que controla (]. /media/cost-controlling.png)](. /media/cost-controlling.png)
+Quando você seleciona um dos links, um cartão por elemento de custo é exibido. O valor nos cartões é exibido no seguinte formato: real, orçamento, variação de orçamento, variação de orçamento em %, orçamento revisado, variação do orçamento revisado e variação de orçamento revisado em %.  [![cost-controlling](./media/cost-controlling.png)](./media/cost-controlling.png)
 
 ## <a name="get-started"></a>Introdução
-Rastrear essas etapas para introdução descritivo móvel usando o controle de custos no dispositivo móvel.
+Siga estas etapas para começar a usar o aplicativo móvel de controle de custos no seu dispositivo móvel.
 
-1.  No armazenamento móvel descritivo, baixar e instalar o Microsoft Dynamics 365 para o descritivo de operações.
-2.  Inicie a descritivo no dispositivo.
-3.  Insira a URL do 365.
-4.  Insira a empresa para conectar-se. Por exemplo, insira USMF ** **.
-5.  A primeira vez que que se conectar, será solicitado para o nome de usuário e a senha para o Microsoft Dynamics 365 para a conta de operações. Insira suas credenciais. Depois que se conectar, verá espaços de trabalho disponíveis para sua empresa.
+1.  Na sua loja de aplicativos móveis, baixe e instale o aplicativo do Microsoft Dynamics 365 for operations.
+2.  Inicie o aplicativo no seu dispositivo.
+3.  Insira sua URL do Dynamics 365.
+4.  Insira a empresa à qual deseja se conectar. Por exemplo, insira **USMF**.
+5.  No primeiro acesso, são solicitados nome de usuário e senha da sua conta do Microsoft Dynamics 365 for Operations. Insira suas credenciais. Após se conectar, você verá os espaços de trabalho da sua empresa.
 
-Exibir espaços de trabalho do celular descritivo, primeiramente publicar espaços de trabalho o dynamics desejados para o 365 descritivo de operações.
+Para exibir os espaços de trabalho no seu aplicativo móvel, primeiro você deve publicar os espaços de trabalho desejados para o aplicativo do Dynamics 365 for Operations.
 
-1.  Dynamics 365 Inicial para as operações.
-2.  Ir ** administração de sistema ** &gt; ** de instalação ** &gt; ** ** parâmetros do sistema.
-3.  Selecione ** gerenciamento descritivo móvel **.
-4.  Selecione o espaço de trabalho ** custo o controle ** publicar a plataforma móvel.
-5.  ** Publicar selecione o espaço de trabalho. **
-6.  Atualizar o dispositivo para consultar espaços de trabalho publicados.
+1.  Inicie o Dynamics 365 for Operations.
+2.  Vá para **Administração do sistema** &gt; **Configuração** &gt; **Parâmetros do sistema**.
+3.  Selecione o **Gerenciar aplicativo móvel**.
+4.  Selecione o espaço de trabalho **Controle de custo** para publicar a plataforma móvel.
+5.  Selecione **Publicar espaço de trabalho**.
+6.  Atualize seu dispositivo para ver os espaços de trabalho publicados.
 
-## <a name="view-the-performance-of-your-cost-center"></a>Exibir desempenho do centro de custo
-1.  No dispositivo móvel, selecione custo ** o controle ** o espaço de trabalho.
-2.  ** Selecionar o controle de custo ** objeto.
-3.  Clique ** ** ações.
-4.  Clique ** ** selecione configuração para selecionar um layout de controle de custo previsto.
-5.  Click **Done**.
-6.  Clique ** ** ações.
-7.  Clique ** objeto de custo previsto selecione ** selecione os centros de custos ao qual foi concedido acesso.
-8.  Click **Done**.
-9.  Exibir desempenho total do centro de custos.
-10. Clique ** detalhes para o período atual. **
-11. Exibir desempenho elementos de custo previsto individuais.
-12. Também é possível pesquisar para elementos de custo previsto específicos.
+## <a name="view-the-performance-of-your-cost-center"></a>Exibir o desempenho do seu centro de custo
+1.  No seu dispositivo móvel, selecione o espaço de trabalho **Controle de custo**.
+2.  Selecione **Controle de objeto de custo**.
+3.  Clique em **Ações**.
+4.  Clique em **Selecionar configuração** para selecionar um layout de controle de custos.
+5.  Clique em **Concluído**.
+6.  Clique em **Ações**.
+7.  Clique em **Selecionar objeto de custo** para selecionar os centros de custo aos quais você tem acesso.
+8.  Clique em **Concluído**.
+9.  Exiba o desempenho geral do seu centro de custo.
+10. Clique em **Detalhes do período atual**.
+11. Exiba o desempenho dos elementos de custo individuais.
+12. Você também pode pesquisar elementos de custo específicos.
 
 
 

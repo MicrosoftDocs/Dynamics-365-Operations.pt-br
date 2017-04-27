@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Conciliação de faturas e ordens de compra intercompanhia
 
+[!include[banner](../includes/banner.md)]
+
+
 A entidade legal da compra envolvida em uma transação de comércio intercompanhia pode ser configurada para usar a conciliação de faturas de contas a pagar. Nesse caso, os requisitos de lançamento para o comércio intercompanhia e a conciliação de faturas de contas a pagar devem ser atendidos para que as faturas de fornecedor intercompanhia sejam lançadas.
 
 Os exemplos neste tópico usam a seguinte configuração de comércio intercompanhia:
@@ -35,8 +38,8 @@ Os exemplos neste tópico usam a seguinte configuração de comércio intercompa
 -   Fabrikam Vendas é a entidade legal de venda.
 -   O cliente 4020 existe na Fabrikam Vendas.
 -   O fornecedor 3024 existe na Fabrikam Compras.
--   Na Fabrikam Compras, informações intercompanhia for especificada para o fornecedor 3024. A Fabrikam vendas são especificadas como empresa do cliente, e o cliente 4020 especificado como conta do cliente que corresponde à entidade legal de compra da Fabrikam.
--   Na Fabrikam vendas, informações intercompanhia estiver especificado para o cliente 4020. A compra da Fabrikam é especificada como a empresa do fornecedor, e o fornecedor 3024 especificado como conta de fornecedor que corresponde à entidade legal de A Fabrikam vendas.
+-   Na Fabrikam Compras, informações intercompanhias são especificadas para o fornecedor 3024. A Fabrikam Vendas é especificada como empresa do cliente, e o cliente 4020 é especificado como conta do cliente que corresponde à entidade legal da Fabrikam Purchase.
+-   Na Fabrikam Vendas, as informações intercompanhias são especificadas para o cliente 4020. A Fabrikam Compras é especificada como empresa do fornecedor, e o fornecedor 3024 é especificado como conta do fornecedor que corresponde à entidade legal da Fabrikam Vendas.
 
 Os exemplos usam a seguinte configuração de conciliação de faturas de contas a pagar para a Fabrikam Compras:
 -   Na página Parâmetros de contas a pagar, a opção Habilitar validação da conciliação de faturas está selecionada.
@@ -45,7 +48,7 @@ Os exemplos usam a seguinte configuração de conciliação de faturas de contas
 
 ## <a name="example-price-matching-and-intercompany-trade"></a>Exemplo: Conciliação de preço e comércio intercompanhia
 Os valores líquidos para a fatura de fornecedor intercompanhia e a fatura de cliente intercompanhia devem ser iguais. Esse requisito substitui as aprovações de conciliação de faturas ou os percentuais de tolerância de preços aplicáveis. Por exemplo, siga estas etapas.
-1.  Na Fabrikam Compras, crie uma ordem de venda OV888 para o cliente 4020. A ordem de compra intercompanhia OCIC222 é criada automaticamente para o fornecedor 3024 na Fabrikam Compras, e a ordem de venda OVIC888 é criada automaticamente na Fabrikam vendas.
+1.  Na Fabrikam Compras, crie a ordem de venda SO888 para o cliente 4020. A ordem de compra intercompanhia ICPO222 é criada automaticamente para o fornecedor 3024 na Fabrikam Compras e a ordem de venda ICSO888 é criada automaticamente na Fabrikam Sales.
 2.  Na Fabrikan Vendas, registre que os itens foram recebidos e lance uma guia de remessa. O status de OVIC888 muda para Entregue. O status de OCIC222 muda para Recebido.
 3.  Na Fabrikan Vendas, realize uma atualização de fatura para OVIC888. O preço unitário é 0,45 e 100 itens são atualizados.
 4.  Na Fabrikam Compras, crie uma fatura para OCIC222. Acidentalmente você altera o preço líquido de 45,00 para 54,00. Um ícone é exibido para indicar que o preço excede a tolerância de preço permitida de 2%.
@@ -60,10 +63,12 @@ Este exemplo usa a seguinte configuração adicional de conciliação de faturas
 -   A quantidade disponível do item B-R14 é 0 (zero).
 
 Por exemplo, siga estas etapas.
-1.  Na Fabrikam Compras, crie uma ordem de venda OV999 para o cliente 4020. A ordem contém um item de linha: 100 baterias (item B-R14) ao preço unitário de 1.00 cada. A ordem de compra intercompanhia OCIC333 é criada automaticamente na Fabrikam Compras para o fornecedor 3024, e a ordem de venda OVIC999 é criada automaticamente na Fabrikam Vendas.
+1.  Na Fabrikam Compras, crie uma ordem de venda SO999 para o cliente 4020. A ordem contém um item de linha: 100 baterias (item B-R14) ao preço unitário de 1,00 cada. A ordem de compra intercompanhia OCIC333 é criada automaticamente na Fabrikam Compras para o fornecedor 3024, e a ordem de venda OVIC999 é criada automaticamente na Fabrikam Vendas.
 2.  Na Fabrikam Vendas, realize uma atualização de fatura para OVIC999. O lançamento não foi feito com êxito, pois o item está esgotado e ainda não foi recebido. Portanto, as informações financeiras não podem ser atualizadas.
 3.  Na Fabrikam Vendas, registre que os itens foram recebidos e lance uma guia de remessa para OVIC999. Um recebimento de produtos para a OCIC333 é lançado automaticamente na Fabrikam Compras. Na Fabrikam Compras, a quantidade recebida do item B-R14 muda para 100.
 4.  Na Fabrikam Vendas, realize uma atualização de fatura para OVIC999. O lançamento foi feito com êxito nas duas entidades legais. Na Fabrikam Compras, a quantidade comprada do item B-R14 muda para 100.
+
+
 
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-posting-profiles"></a>Perfis de lançamentos de fornecedores
 
+[!include[banner](../includes/banner.md)]
+
+
 Os perfis de lançamentos que controlam o lançamento de transações de fornecedor na contabilidade.
 
 <a name="vendor-posting-profiles"></a>Perfis de lançamentos de fornecedores
@@ -146,6 +149,8 @@ Especifique os seguintes valores para configurar o perfil de lançamento:
 | **Liquidação** | Selecione esta opção para habilitar a liquidação automática de transações que possuem este perfil de lançamento. Se esta opção for desmarcada, você deverá liquidar manualmente as transações usando a página Liquidar transações em aberto. |
 | **Cancelamento**     | Selecione esta opção se você deseja ser capaz de cancelar as transações que possuem este perfil de lançamento.                                                                                                               |
 | **Fechar**      | Selecione um perfil de lançamento para o qual alternar quando as transações que tiverem este perfil de lançamento forem fechadas. Uma transação é considerada fechada quando tiver sido integralmente liquidada.                                       |
+
+
 
 
 

@@ -54,9 +54,9 @@ Se você selecionar **Calendário** como o ano de depreciação, as seguintes op
 
 ### <a name="fiscal"></a>fiscal
 
-Se você selecionar **Fiscal** no campo **Ano de depreciação**, a depreciação com declínio de 175% será calculada com base no ano fiscal especificado para o registro de depreciação, ou para o calendário fiscal selecionado na página **Razão**. Os calendários fiscais são configurados na página **Calendários fiscais**. Para obter mais informações, consulte, [calendários fiscais, anos e períodos fiscais.] financeiros (\ \ orçamento \ fiscal-calendars-fiscal-years-periods.md).
+Se você selecionar **Fiscal** no campo **Ano de depreciação**, a depreciação com declínio de 175% será calculada com base no ano fiscal especificado para o registro de depreciação, ou para o calendário fiscal selecionado na página **Razão**. Os calendários fiscais são configurados na página **Calendários fiscais**. Para obter mais informações, consulte [Calendários fiscais, anos fiscais e períodos.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md)
 
-Por exemplo, o ano fiscal do 1º de julho ao 30 de junho, a depreciação. parte o 1º de julho O ano fiscal pode ter mais ou menos do que 12 meses. A depreciação é ajustada automaticamente para cada período fiscal e a duração do próximo ano fiscal é determinada pela configuração de períodos na página **Calendários fiscais**. 
+Por exemplo, no ano fiscal entre 1 de julho e 30 de junho, o cálculo da depreciação começa em 1 de julho. O ano fiscal pode ter mais ou menos do que 12 meses. A depreciação é ajustada automaticamente para cada período fiscal e a duração do próximo ano fiscal é determinada pela configuração de períodos na página **Calendários fiscais**. 
 
 Se você selecionar **Fiscal** como o ano de depreciação, as opções a seguir ficarão disponíveis no campo **Frequência do período**:
 
@@ -81,6 +81,6 @@ O método de depreciação por declínio de 175% divide 175% pelos anos de vida 
 | Ano 3 | 4.225 × 35% = 1.478,75                        | 5.225 – 1.478,75 = 3.746,25 | 4.225 – 1.478,75 = 2.746,25           |
 
 > [!NOTE] 
-> Geralmente, quando o valor que é calculado usando 175% os métodos de depreciação de saldo decrescente se tornar menor que o valor que será calculado usando ao método linear, há uma conversão para linear da vida útil restante.
+> Normalmente, quando o valor que é calculado usando o método de depreciação por declínio de 175% se torna menor do que o valor que será calculado usando o método linear, há uma conversão para o método linear método para a vida restante.
 
 

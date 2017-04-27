@@ -1,5 +1,5 @@
 ---
-title: "Trabalhos de depósito usando controle de modelos de posição e diretivas de localização"
+title: "Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização"
 description: "Este artigo descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho será executado no depósito."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Trabalhos de depósito usando controle de modelos de posição e diretivas de localização
+# <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho será executado no depósito.
 
@@ -40,7 +43,7 @@ As configurações na definição do cabeçalho de trabalho podem ser usadas par
 
 As linhas de trabalho representam as tarefas físicas são necessárias para processar o trabalho. Por exemplo, em um processo de saída do depósito, talvez haja uma linha de trabalho para coletar os itens no depósito e uma outra linha para colocar esses itens em uma área de preparo. Assim, poderia haver mais uma linha para coletar os itens na área de preparo, e outra linha para alocar os itens dentro do caminhão, como parte do processo de carregamento. Você pode definir um *código de diretiva *nas linhas de modelo de trabalho. Um código de diretiva é vinculado a uma diretiva de local e, portanto, ajuda a garantir que o trabalho de depósito será processado no local correto do depósito. 
 
-Você pode configurar uma consulta para determinar quando um modelo de trabalho específico será usado. Por exemplo, você pode definir uma limitação de modo que um determinado modelo só possa ser usado para trabalhos em um depósito específico. Como alternativa, você poderia ter vários modelos usados para criar trabalho para processamento de ordens de venda de saída, dependendo da origem da venda. O sistema usará ** número de sequência ** de determinar aos modelos de posição disponíveis são avaliados em. Portanto, se você tem uma consulta muito específicas para um modelo de trabalho específico, você deve fornecer baixo um número de sequência. Então, essa consulta será avaliada antes de outras mais genéricas. 
+Você pode configurar uma consulta para determinar quando um modelo de trabalho específico será usado. Por exemplo, você pode definir uma limitação de modo que um determinado modelo só possa ser usado para trabalhos em um depósito específico. Como alternativa, você poderia ter vários modelos usados para criar trabalho para processamento de ordens de venda de saída, dependendo da origem da venda. O sistema usa o campo **Número sequencial** para determinar a ordem em que os modelos de trabalho disponíveis serão avaliados. Portanto, se você tiver uma consulta muito específica para um determinado modelo de trabalho, atribua um número sequencial baixo a ela. Então, essa consulta será avaliada antes de outras mais genéricas. 
 
 Para interromper ou pausar um processo de trabalho, use a configuração **Parar trabalho** na linha de trabalho. Nesse caso, o trabalhador que está executando o trabalho não será solicitado a realizar a próxima etapa da linha de trabalho. Para avançar para a próxima etapa, esse ou outro trabalhador deve selecionar o trabalho novamente. Você também pode separar as tarefas em uma frente de trabalho usando uma *ID de classe de trabalho *diferente nas linhas do modelo de trabalho.
 
@@ -53,12 +56,14 @@ Assim como nos modelos de trabalho, você pode configurar uma consulta para dete
 
 Linhas das diretivas definem local restrições adicionais no aplicativo do local que encontra regras. Você pode especificar uma quantidade mínima e máxima ao qual a diretiva deve ser aplicada; você pode especificar ainda que a diretiva se refere a uma unidade específica do estoque. Por exemplo, se a unidade de medida for paletes, os itens em paletes poderão ser colocados em um local específico. Você também pode especificar se a quantidade pode ser dividida entre vários locais. Como o cabeçalho diretivo localização, de cada linha da localização diretiva tiver um número de sequência que determina a ordem em que as linhas sejam avaliadas. 
 
-As diretivas da localização com o nível de detalhes adicionais: *diretiva de ações da localização*. Você pode definir várias ações de diretiva de localização para cada linha. Uma vez mais, um número de sequência é usado para determinar a ordem em que as ações serão avaliadas em. Nesse nível, você pode configurar para definir uma consulta como localizar o melhor local no depósito. Você também pode usar configurações de **estratégia **predefinidas para encontrar um local ideal.
+As diretivas da localização com o nível de detalhes adicionais: *diretiva de ações da localização*. Você pode definir várias ações de diretiva de localização para cada linha. Mais uma vez, um número sequencial é usado para determinar a ordem em que as ações serão avaliadas. Nesse nível, você pode configurar uma consulta para definir como encontrar o melhor local no depósito. Você também pode usar configurações de **estratégia **predefinidas para encontrar um local ideal.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Exemplo do uso de diretivas de localização
 
 Neste exemplo, consideraremos um processo de ordem de compra em que a diretiva de localização deve encontrar capacidade livre em um depósito para itens do estoque que acabaram de ser registrados na doca de recebimento. Primeiro, queremos tentar localizar a capacidade livre no depósito consolidando o estoque disponível existente. Se a consolidação não for possível, procuraremos identificar um local vazio. 
 
 Nesse cenário, devemos definir duas ações de diretiva de localização. A primeira ação na sequência deve usar a estratégia **Consolidar** e a segunda deve usar a estratégia **Local vazio sem trabalho de entrada**. A menos que definamos uma terceira ação para lidar com um cenário de estouro de capacidade, dois resultados serão possíveis quando não houver mais capacidade no depósito: o trabalho pode ser criado mesmo que nenhum local seja definido ou o processo de criação de trabalho pode falhar. O resultado é determinado pela configuração na página **Falhas na diretiva de localização**, na qual você pode decidir se selecionará a opção **Parar de trabalhar em falha de diretiva de localização** para cada tipo de ordem de trabalho.
+
+
 
 

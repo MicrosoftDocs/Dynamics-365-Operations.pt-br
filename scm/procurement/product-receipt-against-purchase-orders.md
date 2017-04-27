@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>Recebimento de produtos contra ordens de compra
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve as diversas opções para registrar produtos como recebido.
 
 Recebimento de produtos é o processo de gravação que produtos foram pedidos foram recebidos, para que as linhas de pedido (PO) de compra podem ser processadas para faturamento. Em alguns casos, produtos passam por pré-registro, onde as informações adicionais do fornecedor são registradas antes que os produtos sejam recebidos. Quando os produtos chegam, primeiro são marcados como **Registrados**. Os produtos, em seguida, podem passar por outros processos, como gerenciamento de qualidade, antes de finalmente estarem marcados como **Recebido**.
@@ -52,19 +55,21 @@ Você já pode selecionar várias ordens e recebimento de processo em todas as o
 
 POs podem ser criados a partir de uma ordem de venda onde a opção **Entrega direta** foi selecionada. Quando a entrega direta é usada, os produtos nunca chegam no depósito mas são entregues diretamente do fornecedor ao cliente. Nesse caso, o recebimento é geralmente registrado diretamente no pedido de compra. O recebimento pode ser feito automaticamente, tais como a integração da electronic data interchange (EDI) com o fornecedor. Como alternativa, se a ordem de compra for uma ordem de compra intercompanhia, o Microsoft Dynamics 365 for Operations automatiza o recebimento de ordem de venda intercompanhia quando ocorre de remessa. Quando a entrega direta é usada, produtos ainda são contabilizados como estoque, mesmo que eles não cheguem fisicamente no depósito. Portanto, o recebimento de produtos é registrado no pedido de compra, a ordem de venda é automaticamente atualizada com uma guia de remessa, para que a alteração geral no estoque seja 0 (zero). Em cenários de entrega direta, você não deve exigir pré-registro. Se você estiver usando os depósitos que estão habilitados para o gerenciamento de depósito, contorne a necessidade de registro de matrícula, especificando um depósito virtual em vez disso. Especificar este depósito no campo **Depósito de entrega direta** no produto. 
 
-Após o recebimento de produtos foi processado em OC, o status do PC estiver definido como ** recebido ** para indicar que a nota fiscal pode ser processada da ordem. Você pode revisar os detalhes sobre os produtos que já foram recebidos usando a página **Diários de recebimento de produto**.  
+Após o recebimento do produto ser processado no pedido de compra, o status do pedido de compra é definido como **Recebido** para indicar que a fatura pode ser processada para a ordem. Você pode revisar os detalhes sobre os produtos que já foram recebidos usando a página **Diários de recebimento de produto**.  
 
 Você pode acessar esta página a partir do grupo de ação **Recebimento** na página **Ordem de compra**. As informações nos diários incluem detalhes sobre as quantidades, datas e dimensões.
 
 <a name="see-also"></a>Consulte também
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[Visão geral de ordem de compra](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[Criação de ordem de compra](purchase-order-creation.md)
 
 [Confirmação e aprovação da ordem de compra](purchase-order-approval-confirmation.md)
 
 [Visão geral das faturas de fornecedor](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

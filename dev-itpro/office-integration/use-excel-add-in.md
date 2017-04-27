@@ -1,6 +1,6 @@
 ---
-title: Use manuais suplementam o Excel
-description: "Este tópico explica como os dados de entidade em aberto no Microsoft Excel e, depois, exibe, edita e atualiza os dados usando o manuais suplementam o Microsoft Dynamics para O Office Excel. Para abrir os dados da entidade, poderá começar Excel ou o Microsoft Dynamics 365 para as operações."
+title: Utilizar o suplemento do Excel
+description: "Este tópico explica como abrir dados da entidade no Microsoft Excel, e então visualizar, atualizar e editar os dados usando o suplemento do Microsoft Dynamics Office para Excel. Para abrir os dados da entidade, você pode começar pelo Excel ou pelo Microsoft Dynamics 365 para Operações."
 author: ChrisGarty
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,69 +24,69 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-the-excel-add-in"></a>Use manuais suplementam o Excel
+# <a name="use-the-excel-add-in"></a>Utilizar o suplemento do Excel
 
-Este tópico explica como os dados de entidade em aberto no Microsoft Excel e, depois, exibe, edita e atualiza os dados usando o manuais suplementam o Microsoft Dynamics para O Office Excel. Para abrir os dados da entidade, poderá começar Excel ou o Microsoft Dynamics 365 para as operações.
+Este tópico explica como abrir dados da entidade no Microsoft Excel, e então visualizar, atualizar e editar os dados usando o suplemento do Microsoft Dynamics Office para Excel. Para abrir os dados da entidade, você pode começar pelo Excel ou pelo Microsoft Dynamics 365 para Operações.
 
-Abrindo dados de entidade no Microsoft Excel, é possível com rapidez e facilidade para exibir e editar os dados usando o manuais suplementam o Microsoft Dynamics para O Office Excel. Este manuais suplementam requer Microsoft Excel 2016. ** Observação: ** Se o inquilino do Active Directory do Microsoft Azure AD (de Azure) for configurado para usar Active Directory Federation Services (FS AD), será necessário garantir que a atualização de maio de 2016 foi aplicada, assim o Excel manuais suplementam possa corretamente o assinar em.
+Ao abrir os dados da entidade no Microsoft Excel, é possível visualizar e editar facilmente os dados utilizando o suplemento do Microsoft Dynamics Office para Excel. Este suplemento requer o Microsoft Excel 2016. **Observação:** Se o seu inquilino do Microsoft Azure Active Directory (Azure AD) está configurado para usar o Active Directory Federation Services (AD FS), você deve garantir que a atualização de maio de 2016 foi instalada, para que o suplemento do Excel consiga realizar seu login corretamente.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Dados entidade aberta Excel a partir de operações para dynamics 365
-1.  Em uma página no Microsoft Dynamics 365 para operações, clique em abrir ** Microsoft Office **. Se a fonte de dados raiz (tabela) para a página é igual à fonte de dados de todas as entidades, standard raiz ** aberto Excel ** opções é gerada para a página. ** Aberto Excel ** opções pode ser encontrado em páginas frequentemente usados, como todas ** fornecedores ** e ** ** todos os clientes.
-2.  Clicar ** abra Excel ** padrão, e abra a pasta de trabalho que é gerada. Essa pasta de trabalho tem vinculativa informações para a entidade, um ponteiro a seu ambiente, e um ponteiro manuais suplementam o Excel.
-3.  Excel, clique ** habilitar edição ** para habilitar manuais suplementam o Excel para obtê-las. Executa manuais suplementam o Excel em um painel do lado direito janela Excel.
-4.  Se você estiver executando o Excel manuais suplementam pela primeira vez, clique confie ** este manuais suplementam **.
-5.  Se você for solicitado a conexão, clique ** conectar **, e conecte em usando as mesmas credenciais usado para conectar o dynamics 365 para as operações. Manuais suplementam o Excel do contexto anterior de logon do Internet Explorer e assinar-o-&z automaticamente dentro, se possível. Portanto, verifique o nome de usuário no canto superior direito de manuais suplementam Excel.
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Abrir dados da entidade no Excel ao iniciar pelo Dynamics 365 para Operações
+1.  Em uma página no Microsoft Dynamics 365 para Operações, clique em **Abrir no Microsoft Office**. Se a fonte de dados raiz (tabela) da página for a mesma que a fonte de dados raiz de qualquer entidade, opções **Abrir no Excel** padrões são geradas para a página. Opções **Abrir no Excel** podem ser encontradas em páginas frequentemente usadas, como **Todos os fornecedores** e **Todos os clientes**.
+2.  Clique em uma opção **Abrir no Excel**, e abra a pasta de trabalho gerada. Essa pasta de trabalho possui informações obrigatórias da entidade, um indicador para seu ambiente e um indicador para o suplemento do Excel.
+3.  No Excel, clique em **Habilitar edição** para permitir que o suplemento do Excel seja executado. O suplemento do Excel funciona em um painel do lado direito da janela do Excel.
+4.  Caso esteja executando o suplemento do Excel pela primeira vez, clique em **Confiar nesse Suplemento**.
+5.  Se estiver preparado para fazer o login, clique em **Iniciar sessão**, e então faça o login utilizando as mesmas credenciais usadas no login do Dynamics 365 para Operações. O suplemento do Excel usará um contexto de entrada anterior do Internet Explorer e conectará você automaticamente, se possível. Portanto, verifique o nome de usuário no canto superior direito do suplemento do Excel.
 
-Manuais suplementam o Excel leia os dados automaticamente para a entidade selecionada. Observe que não haverá dados na pasta de trabalho o Excel manuais suplementam a leitura em.
+O suplemento do Excel lê automaticamente os dados da entidade selecionada. Observe que não haverá dados na pasta de trabalho até que o suplemento do Excel realize a leitura.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Dados entidade aberta Excel a partir Excel
-1.  Excel, em ** inserção ** guia, ** suplementos ** no grupo, clique ** armazenamento ** para abrir o armazenamento de O Office.
-2.  No armazenamento de O Office, pesquisar em palavra-chave “>o”, e clique em adicionar ** ** próximo de manuais suplementam ** Dynamics ao Microsoft Office (** manuais suplementam o Excel).
-3.  Se você estiver executando o Excel manuais suplementam pela primeira vez, clique confie ** este manuais suplementam ** para habilitar manuais suplementam o Excel para obtê-las. Executa manuais suplementam o Excel em um painel do lado direito janela Excel.
-4.  Clique ** adicionar informações de servidor ** para abrir opções ** ** o painel.
-5.  Copiar o navegador a URL de sua dynamics 365 de destino para operações cita como exemplo, em colar-lo ** URL do servidor ** campo, exclua todos e depois após o nome do host (por exemplo, ** de exclusão/? cmp=usmf&mi=CustTableListPage **). URL resultante ter apenas o nome do host (por exemplo, ** https://xxx.dynamics.com**).
-6.  Clique em OK ** **, clique em Sim ** ** para confirmar a alteração. Os os é Excel e os metadados de cargas. ** Design ** o botão está disponível. Se tiver manuais suplementam o Excel a applet ** ** grade de carga, não estão conectados como o usuário provavelmente correto. Para obter mais informações, consulte “os applet carga do botão é exibido na seção “canal de solução de problemas” este tópico.
-7.  Clique ** ** Design. Manuais suplementam o Excel recupera metadados entidade.
-8.  Clique ** adicionar ** a tabela. Uma lista das entidades aparece. As entidades são listadas no nome “-” rotular o formato.
-9.  Selecione uma entidade na lista, como cliente - ** ** clientes, e clique em Avançar ** **.
-10. Para adicionar um campo ** campos disponíveis ** ** a lista de campos selecionados ** lista, clique no campo, e clique em adicionar. ** ** Alternativamente, clique duas vezes no campo.
-11. Depois que você adicionar os campos desejados ** campos selecionados ** a lista, verifique se está o cursor no local correto na planilha (por exemplo, A1 de célula), além clicar-se em ** ** feito. Clique em ** feito ** para sair do designer.
-12. Clique ** atualização ** para recebimento em um conjunto de dados.
+## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>Abrir dados da entidade no Excel ao iniciar pelo Excel
+1.  No Excel, na guia **Inserir**, no grupo **Suplementos**, clique em **Loja** para abrir a Loja do Office.
+2.  Na Loja do Office, busque com a palavra "Dynamics" e clique em **Adicionar** próximo a **Suplemento do Microsoft Dynamics Office** (o suplemento do Excel).
+3.  Caso esteja executando o suplemento do Excel pela primeira vez, clique em **Confiar nesse suplemento** para permitir que o suplemento funcione. O suplemento do Excel funciona em um painel do lado direito da janela do Excel.
+4.  Clique em **Adicionar informações do servidor** para abrir o painel **Opções**.
+5.  Copie a URL da instância desejada do Dynamics 365 para Operações, cole no campo **URL do servidor**, e em seguida apague tudo após o nome do host (por exemplo, apague **/?cmp=usmf&mi=CustTableListPage**). A URL resultante deve ter apenas o nome do host (por exemplo, **https://xxx.dynamics.com**).
+6.  Clique em **OK**, e em seguida clique em **Sim** para confirmar a alteração. O suplemento do Excel reinicia e carrega os metadados. O botão **Design** agora está disponível. Se o suplemento do Excel possuir um botão **Carregar applets**, você provavelmente não está conectado como o usuário correto. Para obter mais informações, consulte "O botão Carregar applets está aparecendo" na seção "Solução de Problemas" desse tópico.
+7.  Clique em **Design**. O suplemento do Excel recupera metadados da entidade.
+8.  Clique em **Adicionar tabela**. Uma lista de entidades aparece. As entidades são listadas no formato "Nome - Rótulo".
+9.  Selecione uma entidade da lista, como **Cliente - Clientes**, e em seguida clique em **Próximo**.
+10. Para adicionar um campo da lista **Campos disponíveis** à lista **Campos selecionados**, clique no campo, e então clique em **Adicionar**. Alternativamente, clique duas vezes no campo.
+11. Após adicionar os campos desejados à lista **Campos selecionados**, verifique se o cursor está no lugar correto na planilha (por exemplo, célula A1), e em seguida clique em **Concluído**. Então clique em **Concluído** para sair do criador.
+12. Clique em **Atualizar** para puxar um conjunto de dados.
 
-## <a name="view-and-update-entity-data-in-excel"></a>Dados de entidade de exibição e do Excel
-Depois do Excel manuais suplementam lê dados de entidade na pasta de trabalho, poderá atualizar os dados a qualquer hora clicando ** atualização ** manuais suplementam o Excel.
+## <a name="view-and-update-entity-data-in-excel"></a>Visualizar e atualizar dados da entidade no Excel
+Depois que o suplemento do Excel realizar a leitura dos dados da entidade para a planilha, é possível atualizar os dados a qualquer momento clicando em **Atualizar** no suplemento.
 
-## <a name="edit-entity-data-in-excel"></a>Dados entidade editar Excel
-Você pode alterar os dados da entidade que requer e publica em separado clicando ** publicar ** manuais suplementam o Excel. Para editar um registro, selecionar uma célula na planilha, e depois alterar o valor da célula. Para adicionar um novo registro, rastrear uma dessas etapas:
+## <a name="edit-entity-data-in-excel"></a>Editar dados da entidade no Excel
+É possível alterar os dados da entidade conforme necessário e então publicá-los novamente clicando em **Publicar** no suplemento do Excel. Para editar um registro, selecione uma célula na planilha e então altere o valor da célula. Para adicionar um novo registro, siga uma dessas etapas:
 
--   Clique em qualquer lugar na planilha, e clique em novo ** ** manuais suplementam o Excel.
--   Clique na última linha planilha, e pressionar na chave de guia o cursor se move fora de coluna a última dessa linha e uma nova linha for criada.
--   Clique na linha da planilha, e inicie para inserir dados em uma célula. Ao mover o foco fora da célula, expandir a planilha para incluir a nova linha.
+-   Clique em qualquer lugar na planilha, e em seguida clique em **Novo** no suplemento do Excel.
+-   Clique na última linha da planilha, e em seguida pressione a tecla Tab até que o cursor se mova além da última coluna dessa linha e uma nova linha seja criada.
+-   Clique na linha imediatamente abaixo da planilha, e comece a inserir dados em uma célula. Ao mover o foco para fora da célula, a planilha se expande para incluir a nova linha.
 
-Para excluir um registro, rastrear uma dessas etapas:
+Para excluir um registro, siga uma dessas etapas:
 
--   Clique no número de linha ao lado da linha da planilha para excluir, clique em excluir ** **.
--   Clique com o botão direito do mouse na linha da planilha para excluir, clique em excluir ** ** &gt; ** ** linhas da tabela.
+-   Clique com o botão direito no número da linha ao lado da linha da planilha a ser excluída, e em seguida clique em **Excluir**.
+-   Clique com o botão direito na linha da planilha a ser excluída, e em seguida clique em **Excluir** &gt; **Linhas da tabela**.
 
 ## <a name="add-or-remove-columns"></a>Adicionar ou remover colunas
-Você pode usar o designer ajustar colunas adicionada automaticamente a planilha.
+Você pode usar o criador para ajustar as colunas que são automaticamente adicionadas à planilha.
 
-1.  Inicie o designer de fonte de dados manuais suplementam Excel ** opções clicando ** botão (o símbolo de engrenagem) e selecionando ** habilitar o design ** a caixa de seleção.
-2.  Clique ** Design ** manuais suplementam o Excel. Todas as fontes de dados são listadas.
-3.  Próximas a fonte de dados, clique ** edição ** o botão (o símbolo de lápis).
-4.  Ajuste a lista em ** campos selecionados ** listam como você precisa:
-    -   Para adicionar um campo ** campos disponíveis ** ** a lista de campos selecionados ** lista, clique no campo, e clique em adicionar. ** ** Alternativamente, clique duas vezes no campo.
-    -   Para remover um campo de ** campos selecionados ** lista, clique no campo, e clique em remover ** **. Alternativamente, clique duas vezes no campo.
-    -   Para alterar a ordem dos campos, clique no campos selecionados ** ** lista, e em ** ** ** acima ou abaixo **.
+1.  Inicie o criador de fonte de dados do suplemento do Excel clicando no botão **Opções** (o botão da engrenagem) e selecionando a caixa **Habilitar design**.
+2.  Clique em **Design** no suplemento do Excel. Todas as fontes de dados são listadas.
+3.  Ao lado da fonte de dados, clique no botão **Editar** (o símbolo de lápis).
+4.  Ajuste essa lista com a lista de **Campos selecionados** conforme necessário:
+    -   Para adicionar um campo da lista **Campos disponíveis** à lista **Campos selecionados**, clique no campo, e então clique em **Adicionar**. Alternativamente, clique duas vezes no campo.
+    -   Para remover um campo da lista **Campos selecionados**, clique no campo, e em seguida clique em **Remover**. Alternativamente, clique duas vezes no campo.
+    -   Para alterar a ordem dos campos, clique no campo na lista **Campos selecionados**, e em seguida clique em **Para cima** ou **Para baixo**.
 
-5.  Aplique as alterações à fonte de dados clicando ** ** atualização. Clique em ** feito ** para sair do designer. Se você adicionou um campo (coluna), clique ** atualização ** para recebimento em um conjunto atualizado de dados.
+5.  Aplique suas alterações à fonte de dados clicando em **Atualizar**. Então clique em **Concluído** para sair do criador. Se você adicionou um campo (coluna), clique em **Atualizar** para puxar um conjunto de dados atualizados.
 
-## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Troubleshooting
-Há alguns saídas que podem ser feitos em algumas fáceis etapas.
+## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Solução de problemas
+Existem alguns problemas que podem ser resolvidos através de algumas etapas simples.
 
--   ** O botão de applet de carga é exibido. ** Se tiver manuais suplementam o Excel a applet ** de carga ** grade após o logon, não estão conectados como o usuário provavelmente correto. Para resolver esse problema, verifique o nome do usuário atual aparece no canto superior direito de manuais suplementam Excel. Se um nome de usuário incorreto aparece, clique desconectar-lo, e assinar-lo na parte traseira em.
--   ** Você receberá uma mensagem “proibida”. ** Se receber uma mensagem “proibida” quando manuais suplementam o Excel e metadados, a conta que está conectada ao Excel manuais suplementam não tiver permissão para usar o serviço, a instância ou, o base de dados de destino. Para resolver esse problema, verifique o nome do usuário atual aparece no canto superior direito de manuais suplementam Excel. Se um nome de usuário incorreto aparece, clique desconectar-lo, e assinar-lo na parte traseira em.
--   ** Uma página da Web em branco é mostrado sobre Excel. ** Se uma página da Web em branco abre durante o processo de logon, conta requer AD FS, mas a versão De que está executando manuais suplementam o suficiente recente não é cobrado a caixa de diálogo de logon. Para resolver esse problema, atualização Da versão usada. Para atualizar a versão Excel quando você está em uma empresa que foi adiado no canal, use ferramenta [] de implementação de O Office (https://technet.microsoft.com/library/jj219422.aspx) [movimento de canal adiado o canal atual] (https://technet.microsoft.com/library/mt455210.aspx).
+-   **O botão Carregar applets está aparecendo.** Se o suplemento do Excel possui um botão **Carregar applets** depois do login, você provavelmente não está conectado como o usuário correto. Para resolver esse problema, verifique se o nome de usuário correto aparece no canto superior direito do suplemento do Excel. Caso um nome de usuário incorreto apareça, clique nele, finalize a sessão, e em seguida faça o login novamente.
+-   **Você recebe uma mensagem "Proibido".** Se receber uma mensagem "Proibido" enquanto o suplemento do Excel estiver carregando metadados, a conta conectada no suplemento não possui permissão para usar o serviço, estância ou base de dados escolhida. Para resolver esse problema, verifique se o nome de usuário correto aparece no canto superior direito do suplemento do Excel. Caso um nome de usuário incorreto apareça, clique nele, finalize a sessão, e em seguida faça o login novamente.
+-   **Uma página da Web em branco é exibida sobre o Excel.** Se uma página da Web em branco abre durante o processo de logon, a conta requer AD FS, mas a versão do Excel que está executando o suplemento não é recente o suficiente para carregar a caixa de diálogo do logon. Para resolver esse problema, atualize a versão do Excel utilizada. Para atualizar a versão do Excel em uma empresa que está no canal diferido, utilize a [ferramenta de implantação do Office](https://technet.microsoft.com/library/jj219422.aspx) para [mover do canal diferido para o canal atual](https://technet.microsoft.com/library/mt455210.aspx).
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Configure e gerencie imagens para retail POS o moderno
-description: "Este artigo explica as etapas envolvidas em configuração e gerenciamento cria imagem para várias entidades que são exibidas no retail moderno POS (MPOS)."
+title: Configurar e gerenciar imagens para Retail Modern POS
+description: "Este artigo explica as etapas envolvidas na configuração e no gerenciamento de imagens para as diversas entidades que aparecem no Retail Modern POS (MPOS)."
 author: MargoC
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.region: global
@@ -25,66 +25,69 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Configure e gerencie imagens para retail POS o moderno
+# <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Configurar e gerenciar imagens para Retail Modern POS
 
-Este artigo explica as etapas envolvidas em configuração e gerenciamento cria imagem para várias entidades que são exibidas no retail moderno POS (MPOS).
+[!include[banner](includes/banner.md)]
+
+
+Este artigo explica as etapas envolvidas na configuração e no gerenciamento de imagens para as diversas entidades que aparecem no Retail Modern POS (MPOS).
 
 <a name="setting-up-the-media-base-url-and-defining-media-templates-to-configure-the-format-for-image-urls"></a>Configuração da URL de base da mídia e definição de modelos de mídia para configurar o formato de URLs de imagem
 -------------------------------------------------------------------------------------------------
 
-Imagens exibidas no retail moderno POS (MPOS) devem ser hospedadas externamente, Microsoft Dynamics 365 externa - operações de varejo. Em geral, elas são hospedadas em um sistema de gerenciamento de conteúdo, em uma rede de entrega de conteúdo CDN) ou em um servidor de mídia. O MPOS pesquisa e exibe as imagens das entidades apropriadas, como produtos e catálogos, acessando a URL de destino. Para obter essas imagens hospedadas externamente, o MPOS requer o formato de URL correto para as imagens. Você pode configurar o formato de URL exigido para as imagens configurando o valor **URL base da mídia **no perfil do canal e usando a funcionalidade **Definir modelo de mídia **para cada entidade. Também é possível substituir o formato padrão da URL para um subconjunto de entidades usando a funcionalidade **Editar no Excel**. ** Nota importante: ** Na versão atual do 365 para operações, você não pode configurar o formato da URL ** ** imagem usando XML de atributos para MPOS ** padrão ** o grupo de atributos para entidades. Se você estiver familiarizado com o Microsoft Dynamics AX 2012 R3 e estiver usando agora a versão atual do 365 para operações, garanta que você usar sempre a novo ** defina o modelo da mídia ** funcionalidade para configurar imagens. Não use nem modifique o atributo **Imagem** no grupo de atributos **Padrão** para qualquer entidade, incluindo produtos. As alterações feitas diretamente no grupo de atributos **Padrão** para imagens não serão refletidas. Esta opção será desabilitada em uma versão futura. Nos procedimentos a seguir, as imagens são configuradas para a entidade do catálogo como um exemplo. Esses procedimentos ajudarão a garantir que o caminho correto de destino da imagem seja definido implicitamente para todas as imagens de catálogo que usam um caminho comum. Por exemplo, se você configurou um servidor de mídia ou um CDN externamente, e deseja que as imagens apareçam no MPOS para um armazenamento, a funcionalidade **Definir modelo de mídia** ajuda a definir o caminho em que o MPOS pode pesquisar e recuperar as imagens. **Observação:** Neste exemplo de dados de demonstração, o servidor de mídia é implantado no Retail Server. Entretanto, você pode ter qualquer lugar no dynamics 365 de fora para operações.
+As imagens que aparecem no Retail Modern POS (MPOS) devem ser hospedadas externamente, fora do Microsoft Dynamics 365 for Operations - Retail. Em geral, elas são hospedadas em um sistema de gerenciamento de conteúdo, em uma rede de entrega de conteúdo CDN) ou em um servidor de mídia. O MPOS pesquisa e exibe as imagens das entidades apropriadas, como produtos e catálogos, acessando a URL de destino. Para obter essas imagens hospedadas externamente, o MPOS requer o formato de URL correto para as imagens. Você pode configurar o formato de URL exigido para as imagens configurando o valor **URL base da mídia **no perfil do canal e usando a funcionalidade **Definir modelo de mídia **para cada entidade. Também é possível substituir o formato padrão da URL para um subconjunto de entidades usando a funcionalidade **Editar no Excel**. **Nota importante:** Na versão atual do Dynamics 365 for Operations, você não pode mais configurar o formato da URL usando o atributo XML **Imagem** para MPOS no grupo de atributos **Padrão** para entidades. Se você estiver familiarizado com o Microsoft Dynamics AX 2012 R3 e estiver usando a versão atual do Dynamics 365 for Operations, procure sempre usar a nova funcionalidade **Definir modelo de mídia** para configurar imagens. Não use nem modifique o atributo **Imagem** no grupo de atributos **Padrão** para qualquer entidade, incluindo produtos. As alterações feitas diretamente no grupo de atributos **Padrão** para imagens não serão refletidas. Esta opção será desabilitada em uma versão futura. Nos procedimentos a seguir, as imagens são configuradas para a entidade do catálogo como um exemplo. Esses procedimentos ajudarão a garantir que o caminho correto de destino da imagem seja definido implicitamente para todas as imagens de catálogo que usam um caminho comum. Por exemplo, se você configurou um servidor de mídia ou um CDN externamente, e deseja que as imagens apareçam no MPOS para um armazenamento, a funcionalidade **Definir modelo de mídia** ajuda a definir o caminho em que o MPOS pode pesquisar e recuperar as imagens. **Observação:** Neste exemplo de dados de demonstração, o servidor de mídia é implantado no Retail Server. No entanto, ele pode estar em qualquer lugar fora do Dynamics 365 for Operations.
 
 ### <a name="set-up-the-media-base-url-for-a-channel"></a>Configurar a URL base da mídia para um canal
 
-1.  Abra o dynamics 365 para o portal da sede corporativa de operações.
-2.  Clique ** varejo e comércio ** &gt; ** configuração de canal ** &gt; ** perfis de canal **. [![(channel-profile1]. /media/channel-profile1.png)](. /media/channel-profile1.png)
-3.  No perfil do canal que a loja usa para o MPOS, atualize o campo **URL base da mídia** com a URL base do servidor de mídia ou CDN. A URL de base será a primeira parte da URL é compartilhado por todas as pastas de imagem de entidades diferentes. [![(channel-profile2]. /media/channel-profile2.png)](. /media/channel-profile2.png)
+1.  Abra o portal HQ do Dynamics 365 for Operations.
+2.  Clique em **Varejo e comércio** &gt; **Configuração de canal** &gt; **Perfis de canal**. [![channel-profile1](./media/channel-profile1.png)](./media/channel-profile1.png)
+3.  No perfil do canal que a loja usa para o MPOS, atualize o campo **URL base da mídia** com a URL base do servidor de mídia ou CDN. A URL base é a primeira parte da URL que é compartilhada por todas as pastas de imagem de entidades diferente.[![channel-profile2](./media/channel-profile2.png)](./media/channel-profile2.png)
 
 ### <a name="define-the-media-template-for-an-entity"></a>Definir o modelo da mídia para uma entidade
 
-1.  Clique ** varejo e comércio ** &gt; ** gerenciamento de catálogo ** &gt; ** imagens de catálogo **.
+1.  Clique em **Varejo e comércio** &gt; **Gerenciamento de catálogo** &gt; **Imagens de catálogo**.
 2.  Na página **Imagens de catálogo**, no Painel de Ação, clique em **Definir modelo da mídia**. Na caixa de diálogo **Definir modelo da mídia**, no campo **Entidade**, selecione **Catálogo** por padrão.
 3.  Na Guia Rápida **Caminho da mídia**, insira o caminho restante do local da imagem. O caminho da mídia dá suporte a **LanguageID** como uma variável. Por exemplo, para os dados de demonstração, você pode criar uma pasta **Catálogos** para todas as imagens de catálogo na URL base da mídia do servidor da mídia (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer). Você pode ter uma pasta para cada idioma, como en-US ou fr-FR, e copiar as imagens apropriados em cada pasta. Se você não tiver imagens diferentes para vários idiomas, poderá omitir a variável **LanguageID** da estrutura da pasta e apontar diretamente para a pasta Catálogos que contém as imagens do catálogo. **Observação:** A versão atual do Dynamics AX oferece suporte ao token **{LanguageId}** para as entidades Catálogo, Produto e Categoria. (O token **{LanguageID}** não tem suporte para as entidades Cliente e Trabalhador, de acordo com o padrão existente em vigor desde o Microsoft Dynamics AX 6.x).
 4.  Para imagens, o formato do nome de arquivo é codificado no nome do catálogo e não pode ser alterado. Então, renomeie as imagens para que tenham nomes apropriados do catálogo, ajudando a garantir que o MPOS trate-as corretamente.
 5.  No campo **Extensão do Arquivo**, selecione a extensão de nome de arquivo esperada, dependendo do tipo de imagens que você tem. Por exemplo, para os dados de demonstração, as imagens de catálogo são definidas para a extensão .jpg. (Os arquivos de imagem também são renomeados para que tenham nomes de catálogo.)
-6.  Click **OK**.
+6.  Clique em **OK**.
 7.  Para validar que o modelo de mídia para imagens foi salvo corretamente, na página **Imagens de catálogo**, clique novamente em **Definir modelo de mídia**. Para validar o modelo sem fechar a caixa de diálogo **Definir modelo de mídia**, você pode usar a Guia Rápida **Gerenciar URLs de Imagens para o Excel**. Verifique a aparência da URL de imagem, e se a URL está de acordo com o padrão de modelo citado anteriormente. A caixa de diálogo **Definir modelo de mídia** definiu o caminho da imagem implicitamente para todas as imagens de catálogo que usam este caminho comum da URL. Este caminho da URL se aplica a todas as imagens de catálogo, a menos que elas sejam substituídas. A primeira parte do caminho da imagem é obtida da URL base da mídia que foi definida no perfil do canal. A parte restante do caminho é obtida do caminho que foi definido no modelo de mídia. As duas partes são concatenadas para fornecer a URL completa do local da imagem. Por exemplo, um catálogo nos dados de demonstração é chamado de Fabrikam Base Catalog. Assim, o nome da imagem deve ser Fabrikam Base Catalog.jpg para que use o nome do catálogo e a extensão de nome de arquivo .jpg que é configurada no modelo. Nesse caso, após a concatenação, a URL será https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer/Catalogs/en-US/Fabrikam Base Catalog.jpg.
 8.  Execute os trabalho de sincronização para enviar por push o novo modelo ao banco de dados do canal, de forma que o MPOS possa usar o modelo para acessar as imagens.
-9.  Para atualizar o modelo da mídia de imagens de catálogo o lado de canal, garanta executar ** guia os trabalhos 1150 ** ** TI varejista ** &gt; ** de cronograma ** de distribuição. [![(catalog1]. /media/catalog1.png)](. /media/catalog1.png)
+9.  Para atualizar o modelo de mídia para imagens de catálogo no lado do canal, execute o **Trabalho do catálogo 1150** em **TI de varejo** &gt; **Agenda de distribuição**.[![catalog1](./media/catalog1.png)](./media/catalog1.png)
 
 ## <a name="previewing-an-image-from-the-entity-level"></a>Visualização de uma imagem em nível de entidade
-1.  Na página do item da entidade na matriz, você pode visualizar a imagem que usa a URL de imagem derivada do modelo da mídia. Para este exemplo, vai o catálogo apropriado e, depois, no painel de ações, clique ** mídia ** &gt; ** imagens **. Use a lista suspensa para selecionar diferentes lojas que possam ter perfis de canal diferentes.
+1.  Na página do item da entidade na matriz, você pode visualizar a imagem que usa a URL de imagem derivada do modelo da mídia. Neste exemplo, vá para o catálogo apropriado e, depois, no Painel de Ação, clique em **Mídia** &gt; **Imagens**. Use a lista suspensa para selecionar diferentes lojas que possam ter perfis de canal diferentes.
 2.  Para editar ou remover o modelo de mídia implícito, retorne à caixa de diálogo **Definir modelo de mídia** da página **Imagens do catálogo**.
 3.  Você pode usar os botões **Adicionar** e **Remover** para alterar manualmente o caminho que se baseia no modelo implícito e é usado para uma imagem específica. Para obter mais informações, consulte a seção “Substituição do modelo da mídia para itens da entidade”, mais adiante neste artigo.
-4.  Depois de concluir visualize uma foto e fazer quaisquer alterações que podem exigir, comece a instância de MPOS para o repositório apropriado, e ver se as imagens de catálogo serão mostradas. [![(catalog4]. /media/catalog4.png)](. /media/catalog4.png)
+4.  Ao concluir a visualização de uma imagem e fazer as alterações necessárias, inicie a instância do MPOS para a loja adequada, e verifique se as imagens de catálogo são exibidas.[![catalog4](./media/catalog4.png)](./media/catalog4.png)
 
-**Observação:** Você pode usar o mesmo procedimento para todas as cinco entidades com suporte: Trabalhador, Cliente, Catálogo, Categoria e Produtos. “Produtos do Catálogo” (produtos que são definidos em nível de catálogo) e “Produtos do Canal” (produtos que são definidos em nível de canal) usam o modelo da mídia que é definido para a entidade Produtos. No modelo de mídia Produtos, você pode selecionar o número de imagens do produto para mostrar por produto. Também pode definir a imagem padrão para um produto específico. Dessa forma, você pode evitar imagens em branco no MPOS, e ajudar a controlar a imagem que é usada como a imagem padrão para um item de produto. No exemplo a seguir, cada produto tem cinco imagens, e a primeira imagem é definida como a imagem padrão. As variantes de produtos são tratadas da mesma forma que os produtos mestre. O nome de arquivo do arquivo de imagem deve se basear no número do produto. Há também caracteres de escape enquanto o nome de arquivo é gerado. Portanto, convém verificar o nome do arquivo usando a seção **Gerenciar URLs de Imagem para o Excel**. [pancadas![(]. /media/prods.png)](. /media/prods.png)  
+**Observação:** Você pode usar o mesmo procedimento para todas as cinco entidades com suporte: Trabalhador, Cliente, Catálogo, Categoria e Produtos. “Produtos do Catálogo” (produtos que são definidos em nível de catálogo) e “Produtos do Canal” (produtos que são definidos em nível de canal) usam o modelo da mídia que é definido para a entidade Produtos. No modelo de mídia Produtos, você pode selecionar o número de imagens do produto para mostrar por produto. Também pode definir a imagem padrão para um produto específico. Dessa forma, você pode evitar imagens em branco no MPOS, e ajudar a controlar a imagem que é usada como a imagem padrão para um item de produto. No exemplo a seguir, cada produto tem cinco imagens, e a primeira imagem é definida como a imagem padrão. As variantes de produtos são tratadas da mesma forma que os produtos mestre. O nome de arquivo do arquivo de imagem deve se basear no número do produto. Há também caracteres de escape enquanto o nome de arquivo é gerado. Portanto, convém verificar o nome do arquivo usando a seção **Gerenciar URLs de Imagem para o Excel**. [![prods](./media/prods.png)](./media/prods.png)  
 
 ## <a name="synchronization-jobs-to-send-a-media-template-to-the-channel-side"></a>Trabalhos de sincronização para enviar um modelo de mídia ao lado do canal
-Para todas as entidades cinco suportados (trabalhador, cliente, catálogo, categoria, produto) e, sempre que você atualiza ** defina o modelo da mídia ** a caixa de diálogo para configurar uma imagem, execute o catálogo (1150) ** TI varejista ** &gt; ** de cronograma ** de distribuição. Esse trabalho permite que o modelo de mídia atualizado seja sincronizado para o canal e usado pelo MPOS. Executar o trabalho do catálogo (1150) após fazer uma das seguintes alterações:
+Para as cinco entidades com suporte (Trabalhador, Cliente, Catálogo, Categoria e Produtos), sempre que você atualizar a caixa de diálogo **Definir modelo de mídia** para configurar uma imagem, verifique se executou o trabalho de catálogo (1150) de **TI de Varejo** &gt; **Agenda de distribuição**. Esse trabalho permite que o modelo de mídia atualizado seja sincronizado para o canal e usado pelo MPOS. Executar o trabalho do catálogo (1150) após fazer uma das seguintes alterações:
 
--   Atualizar o modelo da mídia de imagem de catálogo ** de imagens de catálogo ** &gt; ** define o método da mídia. **
--   Atualizar o modelo da mídia de imagem de funcionário ** de imagens de funcionário ** &gt; ** define o método da mídia. **
--   Atualizar o modelo da mídia de imagem de clientes ** imagem de clientes ** &gt; ** define o método da mídia. **
--   Atualizar o modelo da mídia de imagem de produtos de imagens ** de produtos ** &gt; ** define o método da mídia. **
--   Atualizar o modelo da mídia de imagem de categoria ** de imagens de categoria ** &gt; ** define o método da mídia. ** Você também deve publicar o canal.
+-   Você atualiza o modelo de mídia de imagem do catálogo de **Imagens do catálogo** &gt; **Definir modelo de mídia**.
+-   Você atualiza o modelo de mídia de imagem do funcionário de **Imagens do funcionário** &gt; **Definir modelo de mídia**.
+-   Você atualiza o modelo de mídia de imagem do cliente de **Imagem do cliente** &gt; **Definir modelo de mídia**.
+-   Você atualiza o modelo de mídia de imagem do produto de **Imagens do produto** &gt; **Definir modelo de mídia**.
+-   Você atualiza o modelo de mídia de imagem da categoria de **Imagens da categoria** &gt; **Definir modelo de mídia**. Você também deve publicar o canal.
 
 ## <a name="overwriting-the-media-template-for-entity-items"></a>Substituição do modelo de mídia para itens da entidade
 Como vimos na seção anterior, o modelo da mídia para determinada entidade dá suporte apenas a um caminho comum. Este campo se baseia na URL base da mídia que é configurada e no caminho da mídia que é definido. Mas, em muitos casos, um varejista quer usar imagens de fontes diferentes para um subconjunto de itens em uma entidade. Por exemplo, uma loja usa o servidor de mídia auto-hospedada para um conjunto de imagens do catálogo, mas usa URLs do CDN para outro conjunto. Para substituir as URLs de imagem que se baseiam em um modelo da mídia para imagens da entidade em nível de entidade, você pode usar a funcionalidade Editar no Excel e Edição manual da página **Visualização**.
 
 ### <a name="overwrite-by-using-edit-in-excel"></a>Substituir usando Editar no Excel
 
-1.  Clique ** varejo e comércio ** &gt; ** gerenciamento de catálogo ** &gt; ** imagens de catálogo **.
+1.  Clique em **Varejo e comércio** &gt; **Gerenciamento de catálogo** &gt; **Imagens de catálogo**.
 2.  Na página **Imagens de catálogo**, clique em **Definir modelo da mídia**. Na caixa de diálogo **Definir modelo da mídia**, no campo **Entidade**, selecione **Catálogo**.
 3.  Na Guia Rápida **Caminho da mídia**, observe o local da imagem.
-4.  Na Guia Rápida **Gerenciar URLs de Imagem para o Excel**, clique em **Gerar**. **Importante:** Sempre que o modelo de mídia for alterado, clique em **Gerar** para poder usar a funcionalidade Editar no Excel. [![(excel1]. /media/excel1.jpg)](. /media/excel1.jpg) Agora você verá uma visualização de URL de imagem que foram geradas com base no modelo ao último de mídia. [![(excel2]. /media/excel2.png)](. /media/excel2.png) ** observação: ** As urls gerados para o uso Do caminho e as convenções de mídia de modelo definido. Essas convenções incluem as convenções para nomes de arquivo. A expectativa é que você configure as imagens físicas fora do Dynamics AX, e que as imagens possam ser recuperadas das URLs que derivam do modelo da mídia definido antes. Você pode substituir essas URLs derivadas usando a funcionalidade Editar no Excel.
+4.  Na Guia Rápida **Gerenciar URLs de Imagem para o Excel**, clique em **Gerar**. **Importante:** Sempre que o modelo de mídia for alterado, clique em **Gerar** para poder usar a funcionalidade Editar no Excel. [![excel1](./media/excel1.jpg)](./media/excel1.jpg) Agora você tem uma visualização das URLs de imagem que foram geradas com base no último modelo de mídia salvo. [![excel2](./media/excel2.png)](./media/excel2.png) **Observação:** As URLs que são geradas para o Excel usam o caminho e as convenções do modelo da mídia que é definido. Essas convenções incluem as convenções para nomes de arquivo. A expectativa é que você configure as imagens físicas fora do Dynamics AX, e que as imagens possam ser recuperadas das URLs que derivam do modelo da mídia definido antes. Você pode substituir essas URLs derivadas usando a funcionalidade Editar no Excel.
 5.  Clique em **Editar no Excel**.
 6.  Depois que a planilha do Microsoft Excel for aberta, clique em **Habilitar edição** quando for solicitado.
-7.  Quando for solicitado, clique em **Confiar neste suplemento** no painel direito, e aguarde até o suplemento concluir a instalação. [confiança![(este manuais suplementam]. /media/excel4.jpg)](. /media/excel4.jpg)
-8.  Se você for solicitado a entrar, insira as credenciais usadas para entrar na matriz. [prompt de logon do![(]. /media/excel5.png)](. /media/excel5.png)
+7.  Quando for solicitado, clique em **Confiar neste suplemento** no painel direito, e aguarde até o suplemento concluir a instalação. [![Confiar neste suplemento](./media/excel4.jpg)](./media/excel4.jpg)
+8.  Se você for solicitado a entrar, insira as credenciais usadas para entrar na matriz. [![Prompt de entrada](./media/excel5.png)](./media/excel5.png)
 9.  Após entrar, você verá a lista de URLs de imagem para as várias entradas de catálogo.
 10. Você edita, adiciona e remove as URLs de imagem para vários itens da entidade.
-11. Para todas as entidades, exceto Produtos, você pode substituir as URLs da imagem. Modifique a URL de imagem existente para que ela use a nova URL de destino da imagem, e atualize o nome do arquivo com o novo nome de arquivo para o arquivo de imagem. O nome de arquivo deve ser exclusivo para ajudar a garantir que o registro seja exclusivo. [![substitui as urls de Excel (imagem]. /media/excel6.jpg)](. /media/excel6.jpg) ** observação: ** Quando você substituir URL de imagem para entidades de produto usando a edição da funcionalidade no excel ou página de entidade, MPOS sempre mostra todos as urls de imagem da mídia de modelo com as urls substituídos de imagem.
+11. Para todas as entidades, exceto Produtos, você pode substituir as URLs da imagem. Modifique a URL de imagem existente para que ela use a nova URL de destino da imagem, e atualize o nome do arquivo com o novo nome de arquivo para o arquivo de imagem. O nome de arquivo deve ser exclusivo para ajudar a garantir que o registro seja exclusivo. [![Substituir as URLs de imagem no Excel](./media/excel6.jpg)](./media/excel6.jpg) **Observação:** Quando você substitui URLs de imagem para entidades Produtos usando a funcionalidade Editar no Excel ou na página do item da entidade, o MPOS sempre mostra todas as URLs de imagem do modelo da mídia, junto com as URLs de imagem substituídas.
 12. Ao terminar de fazer as alterações, clique em **Publicar no Excel** para criar uma nova entrada de associação explícita.
 13. Retorne à matriz e clique em **OK**.
 14. Execute os trabalhos de sincronização apropriados para a entidade, e verifique a visualização na página de entidade ou no MPOS.
@@ -101,13 +104,13 @@ Somente os registros de URL de imagem substituídos podem ser excluídos. Depois
 
 Para todas as entidades, exceto Produtos, você pode substituir a URL de imagem para determinado item de entidade em nível de item de entidade na página **Visualização**. Para Produtos, você pode usar a página de entidade "Produtos do Catálogo". Este exemplo mostra como substituir uma imagem do catálogo.
 
-1.  Clique ** catálogos ** &gt; ** mídia ** &gt; ** imagens **, e selecione a imagem do catálogo para atualizar.
+1.  Clique em **Catálogos** &gt; **Mídia** &gt; **Imagens**, e selecione a imagem do catálogo a ser atualizada.
 2.  Clique em **Adicionar** e insira a URL de imagem para substituir a URL do modelo da mídia.
 3.  Se você deseja que esta imagem apareça no MPOS do catálogo, defina-a como a imagem padrão.
-4.  Clique em **OK**. A URL de imagem é atualizada para esta imagem do catálogo e uma exibição é mostrada. [![(preview3]. /media/preview3.png)](. /media/preview3.png)
+4.  Clique em **OK**. A URL de imagem é atualizada para esta imagem do catálogo e uma exibição é mostrada. [![preview3](./media/preview3.png)](./media/preview3.png)
 5.  Também é possível verificar a visualização de imagem para todas as URLs de imagem substituídas na página da galeria **Imagens de catálogo**.
 
-** [![(preview-4]. /media/preview-4.png)](. Nota de /media/preview-4.png): ** O momento, a não mostrará galeria visualizações de imagem a URL de imagem do modelo da mídia. Para as entidades Catálogo, Trabalhador, Cliente e Categoria, se o usuário fornece explicitamente uma URL através desta página, é recomendável indicar a imagem que é padrão, pois os clientes do Retail Server mostram apenas uma imagem por Catálogo, Cliente, Trabalhador e Categoria. Se o usuário não especifica uma imagem padrão, o sistema determina a imagem padrão e a envia ao chamador de serviço de varejo (MPOS ou comércio eletrônico).
+**[![preview-4](./media/preview-4.png)](./media/preview-4.png)Observação:** No momento, a galeria não mostra visualizações de imagem para URLs de imagem do modelo da mídia. Para as entidades Catálogo, Trabalhador, Cliente e Categoria, se o usuário fornece explicitamente uma URL através desta página, é recomendável indicar a imagem que é padrão, pois os clientes do Retail Server mostram apenas uma imagem por Catálogo, Cliente, Trabalhador e Categoria. Se o usuário não especifica uma imagem padrão, o sistema determina a imagem padrão e a envia ao chamador de serviço de varejo (MPOS ou comércio eletrônico).
 
 ### <a name="overwrite-the-image-url-for-catalog-product-images-from-the-preview-page"></a>Substituir a URL de imagem para imagens de produto do catálogo da página Visualização
 
@@ -119,7 +122,7 @@ Para substituir URLs de imagem para imagens de produto do catálogo, use a pági
 4.  Clique em **Adicionar** e substitua a URL da imagem por uma nova URL.
 5.  Clique em **OK**. Agora você vê a visualização da nova imagem e pode defini-la como a imagem padrão.
 
-** [![(cat3]. /media/cat3.png)](. Nota de /media/cat3.png): ** Após a associação de imagem de categoria, você deve publicar o canal e executar o canal ajudar a garantir que as alterações estão publicadas no base de dados do canal.
+**[![cat3](./media/cat3.png)](./media/cat3.png)Observação:** Após a associação da imagem de categoria, você deve publicar o canal e executar o trabalho do canal para ajudar a garantir que as alterações sejam publicadas no banco de dados do canal.
 
 ## <a name="setting-up-images-to-appear-in-offline-mode-for-mpos"></a>Configuração de imagens para aparecerem no modo Offline do MPOS
 O MPOS pode ser executado no modo Online (quando o MPOS está conectado ao Retail Server) ou no modo Offline (quando não há Retail Server ou conectividade de rede, e as transações são armazenadas em um banco de dados offline local). Quando o MPOS é executado no modo Offline, ele não pode obter imagens do servidor de imagem externo para exibir do Retail Server, pois a conectividade do Retail Server foi perdida. No entanto, você ainda pode configurar imagens para que sejam mostradas quando o MPOS é executado no modo Offline.
@@ -128,13 +131,13 @@ O MPOS pode ser executado no modo Online (quando o MPOS está conectado ao Retai
 
 As imagens de produto que devem ser usadas no modo Offline podem ser configuradas carregando a imagem física necessária na imagem do produto base.
 
-1.  Clique ** gerenciamento de informações sobre produtos ** &gt; ** produtos ** &gt; ** ** produto.
+1.  Clique em **Gerenciamento de informações do produto** &gt; **Produtos** &gt; **Produtos**.
 2.  Selecione o produto para definir a imagem offline.
 3.  Clique em **Editar** e na seta no canto direito para mostrar o painel direito.
 4.  Na Guia Rápida **Imagem do produto**, clique em **Alterar imagem** e carregue a imagem física a ser usada para o produto selecionado no modo Offline.
 5.  Salve e feche a página.
 6.  Enquanto o MPOS estiver no modo Online, execute o trabalho Catálogo na matriz, para verificar se os dados foram enviados pelo menos uma vez ao banco de dados offline.
-7.  Coloque o MPOS no modo Offline. Você deve ver a imagem que carregou para o produto específico na matriz. [![(offline1]. /media/offline1.png)](. /media/offline1.png)
+7.  Coloque o MPOS no modo Offline. Você deve ver a imagem que carregou para o produto específico na matriz. [![offline1](./media/offline1.png)](./media/offline1.png)
 
  
 
@@ -142,12 +145,14 @@ As imagens de produto que devem ser usadas no modo Offline podem ser configurada
 
 As imagens de catálogo, categoria, funcionário e cliente que devem ser usadas no modo Offline podem ser configuradas adicionando o link de destino da imagem necessária à galeria, e definindo a imagem como a imagem padrão da entidade selecionada.
 
-1.  Ir para catálogo, em seguida, no painel de ações, clique ** mídia ** &gt; ** imagens **.
+1.  Vá para o catálogo e, no Painel de Ação, clique em **Mídia** &gt; **Imagens**.
 2.  Siga as etapas na seção "**Substituição da página Visualização em nível de entidade**" para adicionar a URL externa de imagem.
 3.  Marque esta imagem como a imagem padrão do catálogo, marcando a caixa de seleção em relação à imagem listada na grade.
 4.  Execute o trabalho de Catálogo. Esta imagem será usada como a imagem Offline deste catálogo no MPOS.
 5.  Siga um processo semelhante para outras entidades, como Categoria, Funcionário e Cliente.
 
-[![(offline2]. /media/offline2.png)](. /media/offline2.png)    
+[![offline2](./media/offline2.png)](./media/offline2.png)    
+
+
 
 

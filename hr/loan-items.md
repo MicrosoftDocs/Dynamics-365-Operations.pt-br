@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-items-lent-to-workers"></a>Gerenciar itens emprestados a trabalhadores
 
+[!include[banner](includes/banner.md)]
+
+
 Os itens de empréstimo são registros que ajudam os gerentes a rastrear os itens físicos que sua empresa empresta aos trabalhadores. 
 
 Os pontos a seguir são exemplos de itens que uma empresa pode emprestar aos trabalhadores:
@@ -39,7 +42,7 @@ Cada item físico deve ter um item de empréstimo correspondente. Cada registro 
 
 Ao emprestar um item, insira a data que ele foi emprestado e a data de devolução planejada. Quando o item for devolvido, insira a data real da devolução.
 
-Os funcionários podem exibir os registros de itens que lhes foram emprestados que usam o espaço de trabalho de auto-atendimento para funcionários. Também podem editar os registros existentes ou insira novos itens de empréstimo, se itens físicos recebidas adicionais.  O fluxo de trabalho poderá ser configurado para as alterações a novos ou existentes itens de empréstimo a um processo de aprovação. 
+Os funcionários podem exibir os registros dos itens que foram emprestados a eles usando o espaço de trabalho de autoatendimento para funcionários. Eles também podem editar os registros existentes ou inserir novos itens de empréstimo, se receberem itens físicos adicionais.  O fluxo de trabalho poderá ser configurado para rotear as alterações a itens de empréstimo novos ou existentes por meio de um processo de aprovação. 
 
 Os gerentes podem exibir itens emprestados para seus subordinados diretos. Eles também podem ter permissão para adicionar novos itens de empréstimo em nome dos funcionários.
 
@@ -52,6 +55,8 @@ Se um item for danificado ou extraviado, insira um registro de devolução fict�
 <a name="see-also"></a>Consulte também
 --------
 
-[Human resources](index.md)
+[Recursos humanos](index.md)
+
+
 
 

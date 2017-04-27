@@ -101,7 +101,7 @@ Você pode salvar um grupo do bloco de construção existente usando um novo nom
 
 ### <a name="export-a-building-block-group"></a> Exportar um grupo do bloco de construção
 
-Você pode exportar um grupo de bloco de construção ou blocos de construção específicos de relatório em um grupo de bloco de construção. Você pode usar o grupo exportado de blocos de construção de um backup. Você também poderá copiar os dados exportados entre grupos de blocos de construção ou o dynamics 365 de instalações de operações. O designer de relatório inclui os estilos de fonte e conjuntos de dimensões referenciados com o grupo de bloco de construção.
+Você pode exportar um grupo de bloco de construção ou blocos de construção específicos de relatório em um grupo de bloco de construção. Você pode usar o grupo exportado de blocos de construção como um backup. Você também poderá copiar os dados exportados entre grupos de blocos de construção ou instalações do Dynamics 365 for Operations. O designer de relatórios tem os estilos de fontes referenciados e os conjuntos de dimensões junto com o grupo do bloco de construção.
 1.  No Designer de Relatórios, no menu **Empresa**, clique em **Grupos do Bloco de Construção**.
 2.  Na caixa de diálogo **Grupos do Bloco de Construção**, selecione o grupo do bloco de construção para exportação. Depois, clique em **Exportar**.
 3.  Na caixa de diálogo **Exportar**, selecione as definições de relatório para exportação:

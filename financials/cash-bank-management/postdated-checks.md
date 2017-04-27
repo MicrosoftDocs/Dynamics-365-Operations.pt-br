@@ -1,6 +1,6 @@
 ---
 title: "Cheques pós-datados"
-description: "Este artigo fornece informações sobre o suporte pós-datado para fazer check-in Microsoft Dynamics 365 para as operações. Cheques pré-datados são cheques emitidos com a finalidade de fazer e receber pagamentos em uma data futura. Consequentemente, a verificação não pode ser descontada até a data especificada."
+description: "Este artigo fornece informações sobre o suporte para cheques pré-datados no Microsoft Dynamics 365 for Operations. Cheques pré-datados são cheques emitidos com a finalidade de fazer e receber pagamentos em uma data futura. Consequentemente, a verificação não pode ser descontada até a data especificada."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="postdated-checks"></a>Cheques pós-datados
 
-Este artigo fornece informações sobre o suporte pós-datado para fazer check-in Microsoft Dynamics 365 para as operações. Cheques pré-datados são cheques emitidos com a finalidade de fazer e receber pagamentos em uma data futura. Consequentemente, a verificação não pode ser descontada até a data especificada.
+[!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 para operações suporta o ciclo completo de gerenciamento pós-datado para fazer check-in contas a receber e contas a pagar, conforme mostrado na tabela.
+
+Este artigo fornece informações sobre o suporte para cheques pré-datados no Microsoft Dynamics 365 for Operations. Cheques pré-datados são cheques emitidos com a finalidade de fazer e receber pagamentos em uma data futura. Consequentemente, a verificação não pode ser descontada até a data especificada.
+
+O Microsoft Dynamics 365 for Operations oferece suporte ao ciclo completo de gerenciamento de cheques pré-datados em contas a receber e em contas a pagar, como mostra a tabela a seguir.
 <table>
 <colgroup>
 <col width="50%" />
@@ -48,14 +51,14 @@ Microsoft Dynamics 365 para operações suporta o ciclo completo de gerenciament
 </tr>
 <tr class="even">
 <td>Registrar e lançar um cheque pós-datado de um fornecedor</td>
-<td>Registrar os detalhes de um cheque pós-datado da saída para um fornecedor. Quando o pagamento é lançado, a responsabilidade é reconhecida fornecedor, mas ela não ainda será crédito. Em vez disso, uma conta de compensação é usada com essa finalidade.</td>
+<td>Registrar os detalhes de um cheque pós-datado da saída para um fornecedor. Quando o pagamento é lançado, a responsabilidade do fornecedor é reconhecida, mas a conta bancária ainda não é crédito. Em vez disso, uma conta de compensação é usada com essa finalidade.</td>
 </tr>
 <tr class="odd">
 <td>Registrar e lançar um cheque pré-datado para um cliente</td>
-<td>Registre os detalhes de um cheque pré-datado recebido de um cliente. Quando o pagamento for lançado, o cliente é crédito receber, mas ela não ainda débito. Em vez disso, uma conta de compensação é usada com essa finalidade.</td>
+<td>Registre os detalhes de um cheque pré-datado recebido de um cliente. Quando o pagamento é lançado, o recebível do cliente é crédito, mas a conta bancária ainda não é débito. Em vez disso, uma conta de compensação é usada com essa finalidade.</td>
 </tr>
 <tr class="even">
-<td>Registrar e lançar uma verificação pós-datada substituição de um cliente ou fornecedor</td>
+<td>Registrar e lançar um cheque pós-datado de substituição de um cliente ou um fornecedor</td>
 <td>
 Se o cheque original para um fornecedor ou um cliente for perdido ou danificado, você poderá emitir um cheque pré-datado de substituição. Quando você registra os detalhes do cheque, fornece uma referência ao cheque original e indica se o novo cheque é uma substituição do original. Também é possível lançar o cheque de substituição.</td>
 </tr>
@@ -69,17 +72,19 @@ Se o cheque original para um fornecedor ou um cliente for perdido ou danificado,
 </tr>
 <tr class="odd">
 <td>Cancelar um cheque pós-datado de um fornecedor</td>
-<td>Você pode cancelar lançado pós-datado fazer check-in estas situações: - A verificação for devolvida para o banco.
-- A verificação é aplicada a uma fatura incorreta.
-- Um pagamento em dinheiro é feito no cheque.
+<td>Você pode cancelar um cheque pós-datado lançado nestas situações: - O cheque é devolvido pelo banco.
+- O cheque é aplicado a uma fatura incorreta.
+- Um pagamento à vista é feito no cheque.
 </td>
 </tr>
 <tr class="even">
-<td>Pagamento de interrupção para um cheque pós-datada</td>
-<td>Você pode suspender o pagamento de um cheque pós-datado emitido para um fornecedor, por razões como fundos insuficientes, alterações nas condições do contrato com o fornecedor, fornecimento de mercadorias defeituosos pelo fornecedor ou devolução de mercadorias ao fornecedor. Você poderá parar de pagamento só nos cheques que não desmarcaram.</td>
+<td>Parar pagamento de um cheque pós-datado</td>
+<td>Você pode suspender o pagamento de um cheque pós-datado emitido para um fornecedor, por razões como fundos insuficientes, alterações nas condições do contrato com o fornecedor, fornecimento de mercadorias defeituosos pelo fornecedor ou devolução de mercadorias ao fornecedor. Você pode suspender o pagamento somente de cheques não desmarcados.</td>
 </tr>
 </tbody>
 </table>
+
+
 
 
 

@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="job-scheduling"></a>Planejamento de trabalho
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre o plano de trabalho, que é um formulário mais detalhado de programação do plano de operações. Você pode usar o agendamento de trabalho para agendar trabalhos individuais ou ordens de fábrica e para controlar o ambiente de manufatura.
 
 Você pode usar o agendamento de trabalho para agendar trabalhos individuais ou ordens de fábrica e para controlar o ambiente de manufatura. O agendamento de trabalho divide cada operação em suas tarefas ou trabalhos individuais. Esses trabalhos são então atribuídos aos recursos de operações que vão executá-los. O agendamento de trabalho também permite sincronizar todos os trabalhos que são referenciados pelo trabalho selecionado. Você pode especificar uma data e hora de início ou de término para o trabalho e depois executar o agendamento. A hora especificada pode ser de início ou de término, dependendo da direção do agendamento. Essa funcionalidade é útil quando, por exemplo, um trabalho deve ser executado somente em um computador de cada vez ou quando você quiser otimizar o trabalho executado para cada recurso.
@@ -39,7 +42,7 @@ O processo de agendamento de trabalho inclui as seguintes tarefas:
 -   Dividir as operações em trabalhos.
 -   Planejar trabalhos baseados nas datas e horas dos recursos que são especificados para a operação relacionada.
 -   Calcular as horas de início e de término de cada trabalho. Você pode usar a capacidade finita para garantir que não haja sobreposição de horas.
--   Determinar quais recursos no grupo de recursos executarão o trabalho. Esta tarefa exige que um grupo de recursos especificado para uma operação. O agendamento de trabalho seleciona os recursos ou grupos de recursos com base no prazo de entrega mais curto e também considera qualquer reserva anterior dos recursos.
+-   Determinar quais recursos no grupo de recursos executarão o trabalho. Esta tarefa exige que um grupo de recursos seja especificado para uma operação. O agendamento de trabalho seleciona os recursos ou grupos de recursos com base no prazo de entrega mais curto e também considera qualquer reserva anterior dos recursos.
 -   Explorar operações em trabalhos quando você executar o agendamento de trabalho. Os trabalhos são planejados por data e hora de acordo com a ordem especificada pelo roteiro de produção. A configuração da operação determina os trabalhos que serão detalhados durante o processo de agendamento. O grupo de roteiros que é atribuído à operação controla se os trabalhos serão gerados. Um trabalho só é gerado se tem uma duração específica. Por exemplo, um trabalho de tempo de transporte será gerado se o tempo de transporte foi especificado para a operação selecionada.
 
 ## <a name="scheduling-direction"></a>Direção do plano
@@ -73,5 +76,7 @@ Os recursos são atribuídos aos trabalhos por meio do agendamento de trabalho. 
 
 ## <a name="resource-efficiency"></a>Eficiência de recursos
 O agendamento de trabalho considera as porcentagens de eficiência que são especificadas para os recursos. As porcentagens de eficiência reduzem ou aumentam o tempo reservado para o recurso. Dessa forma, o prazo de entrega também aumenta ou diminui. A fórmula a seguir é usada usada para o cálculo: Hora de agendamento= Hora × 100 ÷ Porcentagem de eficiência Nesta fórmula, *Hora* inclui o tempo de execução e o tempo de preparação.
+
+
 
 

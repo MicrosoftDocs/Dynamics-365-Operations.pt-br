@@ -102,7 +102,7 @@ Há duas maneiras de agendar a criação recorrente de um trabalho de contagem c
 
 ### <a name="create-cycle-counting-work-based-on-threshold-parameters-for-items"></a>Crie o trabalho de contagem cíclica com base nos parâmetros de limite para os itens
 
-O trabalho de contagem cíclica pode ser criado quando o número de itens cai abaixo de um valor limite específico em um local. Por exemplo, houver 60 itens em uma localização com um limite da contagem cíclica de 40. Durante uma transação de ordem de venda, 25 itens serão separados de local e o campo em uma localização de preparo. Como a nova contagem de itens de 35 é menor do que a quantidade limite, o trabalho de contagem cíclica é criado automaticamente para o local.
+O trabalho de contagem cíclica pode ser criado quando o número de itens cai abaixo de um valor limite específico em um local. Por exemplo, há 60 itens em um local com um limite de contagem cíclica de 40. Durante uma transação de ordem de venda, 25 itens serão separados no local e colocados no local de preparo. Como a nova contagem de itens de 35 é menor do que a quantidade limite, o trabalho de contagem cíclica é criado automaticamente para o local.
 
 ### <a name="schedule-cycle-counting-work"></a>Agendar trabalho de contagem cíclica
 
@@ -129,7 +129,7 @@ O exemplo a seguir mostra como você pode executar a contagem cíclica de ponto 
 ## <a name="resolve-cycle-counting-differences"></a>Resolver diferenças de contagem cíclica
 Uma diferença de contagem cíclica ocorrerá nos cenários a seguir se a opção **É um supervisor de contagem cíclica** estiver definida como **Não** para uma ID de usuário de trabalho:
 
--   O valor contado não está nos limites de desvio especificados nos campos **Limite máximo da porcentagem** ou **Limite máximo da quantidade** na página **Usuários de trabalho**. Por exemplo, a quantidade disponível de estoque em uma localização for 50, o limite de desvio para o usuário de trabalho é 10. Se o usuário de trabalho insira um valor que não está entre 40 e 60, uma diferença ocorre.
+-   O valor contado não está nos limites de desvio especificados nos campos **Limite máximo da porcentagem** ou **Limite máximo da quantidade** na página **Usuários de trabalho**. Por exemplo, a quantidade de estoque disponível em um local é 50 e o limite de desvio para o usuário de trabalho é 10. Se o usuário de trabalho inserir um valor que não esteja entre 40 e 60, uma diferença ocorre.
 -   O valor contado difere da quantidade de estoque disponível e não há limites de desvio definidos.
 
 Você pode ajustar as diferenças no valor contado e aceitar o valor contado na página **Revisão de contagem de ciclo pendente** na página. Você pode verificar a contagem modificada da quantidade do item na página **Disponível por local**. O valor contado será rejeitado se a diferença não puder ser aprovada.

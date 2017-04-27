@@ -1,5 +1,5 @@
 ---
-title: Materiais de embalagem e taxas
+title: Taxas e materiais de embalagem
 description: "As taxas de material de embalagem são pagas a uma empresa de reciclagem em determinados intervalos. Um valor é pago por unidade de peso para cada material com o qual a unidade de embalagem é feita. As taxas de material de embalagem são calculadas e relatadas, mas nenhuma transação do razão é lançada, pois essas taxas não são consideradas como taxas que devam ser pagas a uma autoridade."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="packing-materials-and-fees"></a>Materiais de embalagem e taxas
+# <a name="packing-materials-and-fees"></a>Taxas e materiais de embalagem
+
+[!include[banner](../includes/banner.md)]
+
 
 As taxas de material de embalagem são pagas a uma empresa de reciclagem em determinados intervalos. Um valor é pago por unidade de peso para cada material com o qual a unidade de embalagem é feita. As taxas de material de embalagem são calculadas e relatadas, mas nenhuma transação do razão é lançada, pois essas taxas não são consideradas como taxas que devam ser pagas a uma autoridade.
 
@@ -52,7 +55,7 @@ Quando você cria uma linha de ordem de venda, o sistema verifica se as unidades
 ## <a name="packing-units-on-purchase-order-lines"></a>Unidades de embalagem nas linhas da ordem de compra
 As transações de material de embalagem para uma linha de ordem de compra não são criadas pelo sistema. Crie transações para as linhas da ordem de compra faturada manualmente na página **Transações de material de embalagem**.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Números de licença de instalação de packagingmaterialfee de cliente
+## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Configurar os números de licença das taxas de material de embalagem do cliente
 Se as taxas de material de embalagem forem pagas pelos clientes, especifique os números de licença dessas taxas na página**Clientes**. Quando um número de licença é atribuído a um cliente, as taxas de material de embalagem são calculadas automaticamente quando as ordens de venda são faturadas. Após o faturamento, a caixa de seleção **Calcular taxa** é desmarcada na página **Transações de material de embalagem**, pois você não precisa calcular e imprimir um relatório. Você pode imprimir os pesos do material de embalagem na fatura e informar aos clientes que eles estão pagando as taxas. 
 
 Se as taxas de material de embalagem forem pagas pela sua empresa, não especifique os números de licença dos clientes. Após o faturamento, a caixa de seleção **Calcular taxa** é marcada na página **Transações de material de embalagem**. Isso indica que as taxas são calculadas quando um relatório é criado. Você pode imprimir os pesos na fatura e indicar que sua empresa paga as taxas.
@@ -60,6 +63,8 @@ Se as taxas de material de embalagem forem pagas pela sua empresa, não especifi
 ## <a name="print-packaging-material-weights-on-invoices"></a>Imprimir os pesos do material de embalagem nas notas fiscais
 Você pode imprimir os pesos do material de embalagem na fatura e indicar quem está pagando as taxas de material de embalagem. Os pesos são resumidos por código de embalagem.
  
+
+
 
 
 

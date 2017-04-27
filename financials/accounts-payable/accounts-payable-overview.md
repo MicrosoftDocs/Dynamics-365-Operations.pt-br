@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-accounts-payable"></a>Configurar contas a pagar
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve as páginas que você usa para configurar a funcionalidade básica e opcionais de contas a pagar no Microsoft Dynamics AX. Também mostra as etapas de configuração que devem ser concluídas antes de começar a configurar as contas a pagar.
 
 <a name="prerequisites-for-accounts-payable-setup"></a>Pré-requisitos para a configuração de contas a pagar
@@ -40,7 +43,7 @@ Antes de poder configurar contas a pagar, é necessário concluir a seguinte con
     -   Se você planeja executar ajustes cambiais, configure os códigos de moeda na página Moedas, configure os tipos de taxa de câmbio na página Tipos de taxa de câmbio, e configure as taxas de câmbio de moeda na página Taxas de câmbio de moeda.
 -   No Gerenciamento de caixa e bancos, configure as contas bancárias a serem usadas com os métodos de pagamento.
 
-## <a name="setup-pages-for-accounts-payable"></a>Páginas de instalação para contas a pagar
+## <a name="setup-pages-for-accounts-payable"></a>Páginas de configuração de contas a pagar
 
 Use as páginas a seguir para configurar a funcionalidade básica de Contas a pagar para cada entidade legal. As páginas são listadas na ordem de configuração recomendada. Para simplificar o processo de configuração, você pode criar modelos a partir dos primeiros registros criados. Em um modelo, os valores são normalmente inseridos em vários campos para refletir os recursos que a organização quer implementar para um determinado tipo de fornecedor.
 1.  Na página Condições de pagamento, defina as condições de pagamento que você atribui às ordens de venda, ordens de compra, clientes, e fornecedores, e que determinam as datas de validade de fatura.
@@ -56,10 +59,10 @@ Além da funcionalidade básica, a sessão de contas a pagar possui outras funci
 
 As páginas de configuração adicional são organizados por funcionalidade.
 
-**Policies**
+**Políticas**
 -   Na página Política de fatura de fornecedor, configure as políticas de fatura de fornecedor.
 
-**Invoice matching**
+**Conciliação de fatura**
 
 -   Na página Tolerâncias dos totais de fatura, configure as tolerâncias para os totais de faturas.
 -   Na página Política de conciliação, configure as políticas de conciliação dupla e tripla.
@@ -68,39 +71,39 @@ As páginas de configuração adicional são organizados por funcionalidade.
 -   Na página Grupos de tolerância de preços de fornecedor, configure os grupos de tolerância para os preços de fornecedor.
 -   Na página Tolerâncias de encargos, configure as tolerâncias para encargos.
 
-**Workflow**
+**Fluxo de trabalho**
 
 -   Na página Fluxos de trabalho de contas a pagar, defina as configurações de fluxo de trabalho para aprovações de diários e requisições de compra.
 
-**Reasons**
+**Motivos**
 
 -   Na página Motivos de fornecedor, configure os códigos de motivo.
 
-**Charges**
+**Encargos**
 
 -   Na página Código de encargos, configure os códigos para os encargos que são usados em ordens de compra.
--   Na página do grupo de encargos de fornecedores, crie e mantenha grupos de encargos diversos para fornecedores.
+-   Na página Grupo de encargos de fornecedor, crie e mantenha grupos de encargos para fornecedores.
 -   Na página Grupos de encargos de item , crie e mantenha grupos de encargos para itens.
 -   Na página Encargos automáticos , defina os encargos que são atribuídos automaticamente às ordens.
 
-**Supplementary items**
+**Itens suplementares**
 
 -   Na página Grupos de itens complementares - Fornecedor , crie e mantenha grupos de itens complementadores para fornecedores.
 -   Na página Grupos de itens complementares - Estoque , crie e mantenha grupos de itens complementadores para itens.
 
-**Distribution**
+**Distribuição**
 
 -   Na página Condições de entrega , crie e mantenha as condições para uma transferência de item do vendedor para o comprador.
 -   Na página Modos de entrega , crie e mantenha os métodos de transporte usados quando uma ordem é entregue do vendedor ao comprador.
 -   Na página Códigos de destino , crie e mantenha identificadores e descrições para os destinos de entrega.
 
-**Forms**
+**Formulários**
 
 -   Na página Notas do formulário , crie o texto padrão que aparece em diversas páginas.
 -   Na página Parâmetros de classificação de formulário , configure a ordem de classificação para requisições, listas de recebimento, guias de remessa, e faturas.
 -   Na página Gerenciamento de impressão , configure as informações de gerenciamento de impressão para documentos originais e cópias de páginas.
 
-**Payments**
+**Pagamentos**
 
 -   Na página Descontos à vista , configure e gerencie as condições para a obtenção de descontos à vista. Os códigos de desconto à vista estão associados a fornecedores e são aplicados a ordens de compra.
 -   Na página Planos de pagamento , configure os planos de pagamento usados para gerenciar pagamentos a prestação para fornecedores.
@@ -108,17 +111,17 @@ As páginas de configuração adicional são organizados por funcionalidade.
 -   Na página Taxa de pagamento , crie e mantenha as taxas de pagamento que estão associadas aos fornecedores.
 -   Na página Instrução de pagamento , crie e mantenha as instruções de pagamento.
 
-**Statistics**
+**Estatísticas**
 
 -   Na página Definições do período de classificação por vencimento , configure intervalos definidos pelo usuário para analisar a distribuição de vencimentos de contas de fornecedores.
 -   Na página Linha de negócio , crie os códigos de linha de negócio (LOB) que são atribuídos aos fornecedores.
 
 **Imposto 1099**
 
--   ** 1099 Campos ** na página, verificar e atualizar os valores mínimos que devem ser declarados ao IRS Service (IRS), com base nos requisitos mais recentes do IRS.
+-   Na página **Campos 1099**, verifique e atualize os valores mínimos que devem ser informados à Administração Fiscal (IRS), com base nos requisitos mais recentes da IRS.
 
-## <a name="optional-setup-for-other-modules"></a>** De instalação opcional de outros módulos **
-**Organization administration**
+## <a name="optional-setup-for-other-modules"></a>**Configuração opcional para outros módulos**
+**Administração da organização**
 
 -   Na página Sequências numéricas , configure os grupos de sequência numérica para números de fatura.
 -   Nas páginas a seguir, configure as informações de endereço:
@@ -126,7 +129,7 @@ As páginas de configuração adicional são organizados por funcionalidade.
     -   Códigos NAF
     -   Importar CEPs
 
-**General ledger**
+**Contabilidade**
 
 -   Na página Dimensões financeiras , configure as dimensões financeiras.
 -   Nas páginas a seguir, configure as informações de imposto:
@@ -139,9 +142,10 @@ As páginas de configuração adicional são organizados por funcionalidade.
     -   Autoridades do imposto
     -   Períodos de liquidação de imposto
 
-**Cash and bank management**
+**Gerenciamento de caixa e bancos**
 
 -   Na página Códigos de finalidade de pagamento, configure o código de finalidade do banco central.
+
 
 
 

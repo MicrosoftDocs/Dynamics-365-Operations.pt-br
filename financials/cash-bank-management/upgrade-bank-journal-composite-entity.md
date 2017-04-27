@@ -1,5 +1,5 @@
 ---
-title: "Atualizar a entidade de composição operações bancárias diárias"
+title: "Atualizar a entidade composta do diário de banco"
 description: Siga as etapas abaixo para adicionar um campo adicional de BankTransactionType a BankJournalEntity composto.
 author: twheeloc
 manager: AnnBe
@@ -24,20 +24,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-the-bank-journal-composite-entity"></a>Atualizar a entidade de composição operações bancárias diárias
+# <a name="update-the-bank-journal-composite-entity"></a>Atualizar a entidade composta do diário de banco
+
+[!include[banner](../includes/banner.md)]
+
 
 Siga as etapas abaixo para adicionar um campo adicional de BankTransactionType a BankJournalEntity composto.
 
 Siga as etapas abaixo para adicionar um campo adicional de BankTransactionType a BankJournalEntity composto.
 
 1.  Compilar e sincronize as entidades compostas o próximo diário bancárias, entidades, preparar e tabelas:
-    -   Entidade composta BankJournalEntity\\
-    -   Entidade BankJournalHeaderEntity\\
-    -   Entidade BankJournalLineEntity\\
+    -   Entidade Composta\\BankJournalEntity
+    -   Entidade\\BankJournalHeaderEntity
+    -   Entidade\\BankJournalLineEntity
     -   Tabela\\BankJournalHeaderStaging
     -   Tabela\\BankJournalLineStaging
 
-2.  Projetos de dados\\de gerenciamento de dados
+2.  Gerenciamento de dados\\projetos de dados
     -   O tipo **Transação bancária **expõe o layout **Dados de origem **.
         -   Formato de dados fonte = elemento XML
         -   Nome da entidade = Diário bancário
@@ -49,6 +52,8 @@ Siga as etapas abaixo para adicionar um campo adicional de BankTransactionType a
             -   Verifique se o tipo de transação bancária está mapeado de origem para se preparar.
 
 3.  Importe o novo demonstrativo.
+
+
 
 
 

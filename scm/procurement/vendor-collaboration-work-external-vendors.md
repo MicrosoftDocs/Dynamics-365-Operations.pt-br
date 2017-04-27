@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboração de fornecedores com fornecedores externos
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tópico descreve como os agentes de compras podem colaborar com os fornecedores externos na troca de informações sobre ordens de compra e estoque de consignação.
 
 O módulo **Colaboração do fornecedor** é destinado a fornecedores que não tenham integração EDI (Troca de dados eletrônica) com o Microsoft Dynamics 365 for Operations. Ele permite que os fornecedores trabalhem com ordens de compra, faturas e informações de estoque de consignação. Este tópico descreve como você pode colaborar com fornecedores externos que estiverem usando a interface de colaboração do fornecedor para trabalhar com OCs e estoque de consignação. Ele também descreve como habilitar um fornecedor específico para usar a colaboração do fornecedor e como definir as informações que todos os fornecedores verão ao responderem a uma OC. Para saber mais sobre o que os fornecedores externos podem fazer na interface de colaboração do fornecedor, consulte [Colaboração do fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
@@ -64,11 +67,11 @@ Se você quiser compartilhar as informações de preço, como preço unitário, 
 ## <a name="work-with-pos-when-using-vendor-collaboration"></a>Trabalhar com OCs ao usar a colaboração do fornecedor
 ### <a name="sending-a-po-to-the-vendor"></a>Enviando uma OC ao fornecedor
 
-As ordens de compra são preparadas no Dynamics 365 for Operations. Quando o PC tiver um status de aprovado ** **, você enviar o fornecedor usando ** para enviar confirmação ** a ação ** ** ordem de compra na página. O status da OC mudará para **Em Revisão externa**. Depois que a OC for enviada, o fornecedor poderá vê-la na página **Ordens de compra para revisão** na interface de colaboração do fornecedor, onde ele poderá aceitar, rejeitar ou sugerir alterações à ordem. O fornecedor também pode adicionar comentários para comunicar informações como as alterações na OC. Para chamar a atenção do fornecedor para a nova OC, você também pode usar o sistema de gerenciamento de impressão para enviar a OC por email.
+As ordens de compra são preparadas no Dynamics 365 for Operations. Quando a OC tiver um status de **Aprovada**, você a enviará ao fornecedor usando a ação **Enviar para confirmação **na página **Ordem de compra**. O status da OC mudará para **Em Revisão externa**. Depois que a OC for enviada, o fornecedor poderá vê-la na página **Ordens de compra para revisão** na interface de colaboração do fornecedor, onde ele poderá aceitar, rejeitar ou sugerir alterações à ordem. O fornecedor também pode adicionar comentários para comunicar informações como as alterações na OC. Para chamar a atenção do fornecedor para a nova OC, você também pode usar o sistema de gerenciamento de impressão para enviar a OC por email.
 
 ### <a name="confirmation-and-acceptance-of-the-po-by-the-vendor"></a>Confirmação e aceitação da OC pelo fornecedor
 
-Quando um fornecedor aceitar uma ordem de compra, a OC poderá ser confirmada automaticamente ou precisará ser confirmada manualmente. Isto dependerá ** ativação fornecedor ** o campo é definido ** ativo (o PC conexão é confirmado **) para o fornecedor ou, ** ativo (o PC a não for confirmado **).  
+Quando um fornecedor aceitar uma ordem de compra, a OC poderá ser confirmada automaticamente ou precisará ser confirmada manualmente. Isso vai depender se o campo **Ativação de fornecedor **estiver definido como **Ativo (a OC é confirmada automaticamente)** para o fornecedor ou como **Ativo (a OC não é confirmada automaticamente)**.  
 
 A tabela a seguir mostra a troca comum de informações, dependendo de como o fornecedor responde quando você envia uma OC para confirmação.
 
@@ -95,19 +98,19 @@ A tabela a seguir mostra a troca comum de informações, dependendo de como o fo
 <td>A resposta do fornecedor é registrada como <strong>Rejeitada</strong> e o status da OC permanece <strong>Em Revisão Externa</strong>. A rejeição é recebida junto com as anotações do fornecedor.</td>
 </tr>
 <tr class="odd">
-<td>O fornecedor <strong>aceitar a ordem com as alterações</strong>. As alterações são sugeridas em nível de linha. É possível aceitar ou rejeitar linhas individuais. Outras alterações possíveis incluem:
+<td>O fornecedor <strong>aceita a ordem com alterações</strong>. As alterações são sugeridas em nível de linha. É possível aceitar ou rejeitar linhas individuais. Outras alterações possíveis incluem:
 <ul>
 <li>Alterar datas ou quantidades.</li>
 <li>Dividir linhas para datas de entrega ou quantidades diferentes.</li>
 <li>Substituir um item.</li>
 </ul>
 As informações de preço e os encargos não podem ser alterados pelo fornecedor. Sugestões de alterações a esses itens podem ser feitas usando-se anotações.</td>
-<td>A resposta do fornecedor está <strong>Aceita alterações com</strong>registrada como, <strong></strong> e o status do PC falta <strong>A revisão externo</strong>.</td>
+<td>A resposta do fornecedor é registrada como <strong>Aceito com alterações</strong>, <strong></strong> mas o status da OC permanece <strong>Em Revisão externa</strong>.</td>
 </tr>
 </tbody>
 </table>
 
-Você pode usar ** ordem de compra a preparação ** ** ** o espaço de trabalho a monitorar a posição o fornecedor tiver respondido. O espaço de trabalho contém duas de lista que contenha ordens de compra com um status ** a revisão externo **:
+Você pode usar o espaço de trabalho de preparação de **Ordem de compra** **** para monitorar quais OCs o fornecedor respondeu. Este espaço de trabalho contém duas listas que contêm pedidos com um status de **Em Revisão Externa**:
 
 -   Em revisão externa, ação necessária.
 -   Em revisão externa, aguardando resposta do fornecedor.
@@ -125,7 +128,7 @@ Quando você cancela uma OC, o status é alterado para **Aprovada**. Você deve 
 Você pode adicionar anexos, como arquivos, imagens e anotações, à OC usando o sistema de gerenciamento de documentos. Os anexos adicionados com a restrição de tipo **Externo** aparecerão para o fornecedor quando você enviar a OC a ele.
 
 ## <a name="purchase-order-statuses-and-versions"></a>Status e versões da ordem de compra
-Esta seção descreve os diferentes status que uma OC pode ter até o momento em que seja confirmada e em que momento as novas versões da OC são disponibilizadas ao fornecedor. Existem, diferenças nessa caso você use o gerenciamento de alterações para ordens de compra. 
+Esta seção descreve os diferentes status que uma OC pode ter até o momento em que seja confirmada e em que momento as novas versões da OC são disponibilizadas ao fornecedor. Há diferenças nesses casos, dependendo se você usa o gerenciamento de alterações para ordens de compra. 
 
 ### <a name="versions-and-statuses-if-you-dont-use-change-management"></a>Versões e status se você não usar o gerenciamento de alterações
 
@@ -168,6 +171,8 @@ Se você estiver usando o estoque de consignação, os fornecedores poderão usa
 -   **Ordens de compra que consomem o estoque de consignação** – ordens de compra para o estoque de consignação são geradas quando a propriedade do estoque é alterada do fornecedor para a sua empresa. Um recebimento de produto é lançado ao mesmo tempo. Essas ordens de compra de consignação são exibidas somente na página**Ordens de compra que consomem o estoque em consignação**. Elas não estão incluídas na página **Todas as ordens de compra confirmadas**, no módulo **Colaboração do fornecedor**.
 -   **Produtos recebidos de estoque de consignação** – esta página lista todas as transações em que a propriedade dos produtos é transferida do fornecedor para a sua empresa. Os fornecedores podem usar essas informações para faturar o cliente.
 -   **Estoque de consignação disponível** – esta página mostra o estoque de consignação disponível de propriedade do fornecedor que foi recebido em seu depósito.
+
+
 
 
 

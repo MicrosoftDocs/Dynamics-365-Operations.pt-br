@@ -1,5 +1,5 @@
 ---
-title: "Visão geral de fabricação tendenciosa"
+title: "Visão geral de Lean manufacturing"
 description: "Este artigo fornece uma visão geral e uma descrição dos recursos de lean manufacturing em Microsoft Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="lean-manufacturing-overview"></a>Visão geral de fabricação tendenciosa
+# <a name="lean-manufacturing-overview"></a>Visão geral de Lean manufacturing
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo fornece uma visão geral e uma descrição dos recursos de lean manufacturing em Microsoft Dynamics AX.
 
@@ -37,7 +40,7 @@ O lean manufacturing oferece ferramentas que você pode usar para modelar as ope
 -   Monitore e mantenha trabalhos kanban.
 
 A arquitetura de lean manufacturing no Microsoft Dynamics AX 7 consiste no fluxo de produção, em atividades e em regras kanban. Essas estruturas estão totalmente integradas aos processos do Microsoft Dynamics AX 7. Você pode usar o lean manufacturing em um ambiente de fabricação de modo misto que combina várias estratégias de fontes, produção e de fornecimento. Essas estratégias incluem ordens de produção, ordens de lote para indústrias de processamento, ordens de compra e de transferência.
-| **Importante **                                                                                                                                                                                                                                                                |
+| **Importante**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Você pode usar o Microsoft Dynamics AX 7 para oferecer suporte à implementação de lean manufacturing com kanbans. No entanto uma implementação bem sucedida de princípios Lean dependem dos processos internos de negócios que você usa, além do ambiente e das condições reais de produção. |
 
@@ -49,13 +52,13 @@ Para criar um fundamento de lean manufacturing, modele o processo de fabricaçã
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a>Usando kanban para sinalizar requisitos de demanda
 Um sistema de recebimento gera bens somente quando eles são necessários. Esta prática reduz o tempo de entrega e o estoque em excesso. Você pode usar kanban para planejar, rastrear e processar os requisitos baseados em fluxos de produção. Para criar uma estrutura de kanban, crie as regras kanban que são definidas com a criação do kanban e como os requisitos são preenchidos. Você pode criar dois tipos de regras kanban. As regras de fabricação criam trabalhos kanban de processamento e as regras kanban de retirada criam trabalhos kanban de transferência. Você pode configurar as estratégias de reabastecimento a seguir:
--   **Quantidade fixa** as regras kanban estão relacionadas a um número fixo de unidades de manuseio, o que significa que os números de kanban ativos são constantes. Sempre que todos os produtos de um kanban consumidos e as unidades de manuseio é esvaziadas manualmente, um novo kanban o mesmo tipo é criado. Ao criar regras de kanban de quantidade fixa, é possível calcular as quantidades de kanban ideais e as quantidades de produto que são usadas. O cálculo só levará em conta a previsão, a demanda real de ordens em aberto, o prazo de entrega para reabastecer itens e as demandas históricas.
+-   **Quantidade fixa** as regras kanban estão relacionadas a um número fixo de unidades de manuseio, o que significa que os números de kanban ativos são constantes. Sempre que todos os produtos de um kanban são consumidos e as unidades de manuseio de material são esvaziadas manualmente, um novo kanban do mesmo tipo é criado. Ao criar regras de kanban de quantidade fixa, é possível calcular as quantidades de kanban ideais e as quantidades de produto que são usadas. O cálculo só levará em conta a previsão, a demanda real de ordens em aberto, o prazo de entrega para reabastecer itens e as demandas históricas.
 -   As regras kanban **agendadas** reabastecem os requisitos calculados pelo planejamento mestre. O planejamento mestre gera os kanbans planejados que podem ser confirmados para kanbans.
 -   As regras kanban de **evento** reabastecem os requisitos originados das linhas da ordem de venda, das linhas da BOM de produção, das linhas de kanban ou das configurações de estoque mínimo. Quando os kanban de evento são gerados, eles serão vinculados à requisição da origem.
 
 Quando os kanban são criados, um ou vários trabalhos kanban são gerados com base nas atividades do fluxo kanban definidas nas regras kanban.
 
-## <a name="monitoring-and-maintaining-kanban-jobs"></a> Monitoramento e manutenção de trabalhos kanban
+## <a name="monitoring-and-maintaining-kanban-jobs"></a>Monitoramento e manutenção de trabalhos kanban
 O lean manufacturing oferece visibilidade no status atual das atividades de fabricação e logística que são governadas por regras kanban. Como resultado, você pode planejar e priorizar as seguintes tarefas:
 
 -   Obtenha uma visão geral da programação atual de trabalhos kanban.
@@ -76,6 +79,8 @@ Os trabalhos kanban são totalmente integrados com processos atuais para transa�
 Além de isso, o lean manufacturing oferece suporte para os processos de compra e de faturamento para serviços que são referidos como atividades subcontratadas.
 -   Você pode atribuir linhas e serviços do contrato de compra para atividades subcontratadas.
 -   Você pode criar ordens de compra e avisos de recebimento periódicos para dar suporte a compra e ao faturamento de serviços.
+
+
 
 
 

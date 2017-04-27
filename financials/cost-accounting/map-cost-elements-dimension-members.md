@@ -1,5 +1,5 @@
 ---
-title: "Mapear membros diferentes de dimensões do elemento de custo estimado na comum definida de membros da dimensão"
+title: "Mapear membros diferentes de dimensões do elemento de custo para um conjunto comum de membros da dimensão"
 description: "Mapeando membros diferentes de dimensões do elemento de custo estimado na comum conjunto de elementos de custo previsto dimensões membros, você mesclam dados em um formato comum para fins de análise."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Mapear membros diferentes de dimensões do elemento de custo estimado na comum definida de membros da dimensão
+# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>Mapear membros diferentes de dimensões do elemento de custo para um conjunto comum de membros da dimensão
 
 Mapeando membros diferentes de dimensões do elemento de custo estimado na comum conjunto de elementos de custo previsto dimensões membros, você mesclam dados em um formato comum para fins de análise.
 
@@ -38,10 +38,10 @@ O exemplo a seguir mostra como é, como controlador de custo previsto, pode cria
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------|-------------------------------------------------------------------------|
 | Membros importados dimensão de elemento de custo previsto plano de contas dos EUA | Membros importados dimensão de elemento de custo previsto do gráfico de contas Francês. | Mapeamento de membros franceses e dos EUA e dimensão de elemento de custo previsto a um conjunto comuns |
 | 5001: vendas                                                           | 5001: Vendas e propaganda                                               | 5000: Vendas e propaganda                                             |
-| 5030: Publicidade                                                     | 6390: Compra de estoque\*                                                    | 7000: Limpeza de despesas                                                 |
+| 5030: Publicidade                                                     | 6390: Compra de estoque*\*                                                    | 7000: Limpeza de despesas                                                 |
 | 7001: Limpeza de despesas                                               | 7001: Despesa de viagens                                                      | 7001: Despesa de viagens                                                   |
 
-\*o membro francês dimensão de elemento de custo previsto de compra de estoque não é mapeado.
+\***O membro francês dimensão de elemento de custo previsto de compra de estoque não é mapeado.
 
 ## <a name="currency-conversion"></a>Conversão de moeda
 Vários gráficos de contas usado podem ser definidos para usar moedas diferentes. Nesse caso, verifique especifique uma conversão de moedas, de modo que os dados de custo previsto são processados usando a moeda correta, como definido no razão da contabilização de custo estimado nos membros da dimensão do elemento de custo previsto são usados. No exemplo acima, se os dólares americanos (USD) são usados no razão da contabilização de custo previsto, você deve criar uma conversão de moeda USD em euro (EUR) para processar transações dos membros mapeados dimensão de elemento de custo previsto.

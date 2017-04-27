@@ -1,5 +1,5 @@
 ---
-title: "Obtenha um desconto à vista fora do período de desconto à vista"
+title: "Obter um desconto à vista fora do período de desconto à vista"
 description: "Este artigo oferece dois cenários que mostram como um desconto à vista pode ser obtido mesmo se o pagamento for feito fora do período de desconto à vista."
 author: twheeloc
 manager: AnnBe
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Obtenha um desconto à vista fora do período de desconto à vista
+# <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>Obter um desconto à vista fora do período de desconto à vista
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo oferece dois cenários que mostram como um desconto à vista pode ser obtido mesmo se o pagamento for feito fora do período de desconto à vista.
 
-abril o 28 de junho, cria uma nota fiscal para 2,000.00 para o fornecedor 3052. A nota fiscal tem um desconto à vista de 1 por cento se a fatura é pago em 14 dias.
+Em 28 de junho, Amanda cria uma fatura de 2.000,00 para o fornecedor 3052. A fatura tem desconto à vista de 1 por cento se a fatura for paga em 14 dias.
 
 ## <a name="use-cash-discount-option--always"></a>Opção Usar desconto à vista = Sempre
 Amanda cria um pagamento em 1º de julho, que é posterior à data do desconto. Alice abre a página **Liquidar transações** para exibir as transações que podem ser liquidadas. 
 
-Alice marca a fatura para pagamento. Nenhum desconto à vista é obtido, pois o pagamento é feito após a data do desconto. Entretanto, o fornecedor tenha aprovação de abril para executar qualquer forma do desconto. Portanto, altera abril ** o valor de desconto à vista ** uso no campo sempre ** **.
+Alice marca a fatura para pagamento. Nenhum desconto à vista é obtido, pois o pagamento é feito após a data do desconto. Entretanto, o fornecedor deu a aprovação à Amanda para fazer o desconto em dinheiro de qualquer maneira. Sendo assim, Amanda altera o valor no campo **Usar desconto à vista** para **Sempre**.
 
 | Marcar     | Usar desconto à vista | Comprovante   | Conta | Data do desconto à vista | Data de conclusão  | Fatura | Valor na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|-----------|---------|--------------------|-----------|---------|--------------------------------|----------|------------------|
@@ -85,6 +88,8 @@ As informações do desconto aparecem na parte inferior da página **Liquidar tr
 | Usar desconto à vista            | Normal    |
 | Desconto à vista obtido          | 0,00      |
 | Valor do desconto à vista a ser obtido | -5,05     |
+
+
 
 
 

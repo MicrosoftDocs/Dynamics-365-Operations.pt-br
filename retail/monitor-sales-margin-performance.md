@@ -1,6 +1,6 @@
 ---
 title: Monitorar o desempenho de vendas e margem
-description: "Você pode monitorar vendas e desempenho margem em tempo real usando o Microsoft Dynamics 365 para as operações."
+description: "Você pode monitorar o desempenho de vendas e de margem em tempo real usando o Microsoft Dynamics 365 for Operations."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 85123
 ms.assetid: ddd15820-c3e6-4607-819e-8cef744ce9c9
 ms.search.region: global
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="monitor-sales-and-margin-performance"></a>Monitorar o desempenho de vendas e margem
 
-Você pode monitorar vendas e desempenho margem em tempo real usando o Microsoft Dynamics 365 para as operações.
+[!include[banner](includes/banner.md)]
 
-Como parte do 365 para operações, os usuários poderão monitorar vendas e desempenho margem em tempo real pelos diferentes níveis de hierarquia organizacional para as seguintes dimensões:
+
+Você pode monitorar o desempenho de vendas e de margem em tempo real usando o Microsoft Dynamics 365 for Operations.
+
+Como parte do Microsoft Dynamics 365 for Operations, os usuários poderão monitorar o desempenho de vendas e de margem em tempo real em diferentes níveis da hierarquia da organização para as seguintes dimensões:
 
 -   Produtos
 -   Categorias
@@ -42,8 +45,10 @@ Como parte do 365 para operações, os usuários poderão monitorar vendas e des
 
 Além disso, dois relatórios exclusivos que se aproveitam da estruturação da grade hierárquica permitem que os usuários monitorem o desempenho de vendas e de margem ao fazerem uma busca detalhada no nó superior da categoria de nós folha na hierarquia de categorias de produto de varejo padrão. Os usuários também podem fazer busca detalhada da unidade operacional superior para um canal individual na hierarquia da organização definida como a hierarquia da organização padrão para fins de hierarquia de relatórios de varejo. Você pode abrir os relatórios de qualquer um dos seguintes locais:
 
--   ** Gerenciamento de chão ** dynamics 365 do espaço de trabalho para operações &gt; ** varejo e comércio ** &gt; ** canais ** &gt; ** gerenciamento de chão ** &gt; ** ** relatórios
--   ** Categoria de produtos e gerenciamento ** dynamics 365 do espaço de trabalho para operações &gt; ** varejo e comércio ** &gt; ** produtos e categorias ** &gt; ** gerenciamento de chão ** &gt; ** ** relatórios
--   ** Gerenciamento de preços e descontos ** dynamics 365 do espaço de trabalho para operações &gt; ** varejo e comércio ** &gt; ** definição de preços e descontos ** &gt; ** gerenciamento de chão ** &gt; ** ** relatórios
--   ** Consultas e relatórios ** dynamics 365 da seção para operações &gt; ** varejo e comércio ** &gt; ** consultas e relatórios ** &gt; ** relatórios de vendas **
+-   **Gerenciamento de loja de varejo** espaço de trabalho do Microsoft Dynamics 365 for Operations &gt; **Varejo e comércio** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios**
+-   **Gerenciamento de categorias e produtos** espaço de trabalho do Microsoft Dynamics 365 for Operations &gt; **Varejo e comércio** &gt; **Produto e categorias** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios**
+-   **Gerenciamento de preços e descontos** espaço de trabalho do Microsoft Dynamics 365 for Operations &gt; **Varejo e comércio** &gt; **Preços e descontos** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios**
+-   **Consultas e relatórios** seção Microsoft Dynamics 365 for Operations &gt; **Varejo e comércio** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas**
+
+
 

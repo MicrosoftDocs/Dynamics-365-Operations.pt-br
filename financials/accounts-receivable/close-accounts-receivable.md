@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="close-accounts-receivable"></a>Fechar contas a receber
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 A tabela a seguir lista as páginas que suportam o processo comercial de processamento de fechamento de Contas a receber.
 
 > [!NOTE] 
-> Para abrir páginas em qualquer tabela, você deverá inserir informações ou especificar configurações de parâmetro.
+> Para abrir algumas páginas na tabela, é necessário inserir informações ou especificar as configurações de parâmetro.
 
-** Tarefa componente de processo comercial **                   
+**Tarefa do componente do processo comercial**                   
 
 Fechar períodos na contabilidade
 
@@ -43,21 +46,23 @@ Fechar períodos na contabilidade
 |Confirmar ordem de venda                   | Atualizar ordens de venda.                                                                       |
 |Reavaliação de moeda estrangeira          | Gerar transações que atualizam o valor de transações de cliente abertas em moedas estrangeiras.                                                                                                                         |
 | Diário                              | Lançar faturas, pagamentos e notas promissórias.                                             |
-| Comprovante de diário                      | -   **Payment journal** – Generate, process, and post payments.
+| Comprovante de diário                      | -   **Diário de pagamentos** – gerar, processar e lançar pagamentos.
                                          -   **Draw bill of exchange journal** – Post bills of exchange.
                                          -   **Protest bill of exchange journal** – Post protested bills of exchange.
                                          -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
                                          -   **Remittance journal** – Post remittances.
                                          -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-_=_ Postagem da guia de remessa                 _=_ Guias de remessa de atualização para ordens de venda.                                                     _=_ _=_ Nota fiscal de texto livre de lançar               _=_ Lançar notas fiscais de texto livre.                                                                   _=_ _=_ Lançar a nota fiscal                      _=_ Lançar notas fiscais para ordens de venda.                                                            _=_ _=_ Lista de separação de postagem                 _=_Listas de separação para atualização de ordens de venda.                                                      |
+| Lançamento de guia de remessa                 | Atualizar guias de remessa para ordens de venda.                                                     | | Lançar fatura de texto livre               | Lançar notas fiscais de texto livre.                                                                   | | Lançando fatura                      | Lançar notas fiscais para ordens de venda.                                                            | | Lançando lista de separação                 | Atualizar listas de separação para ordens de venda.                                                      |
 
-** Tarefa componente de processo comercial **   
+**Tarefa do componente do processo comercial**   
 
 Criar e enviar a lista de vendas da UE
 
 | Nome da página                            | Utilização                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
 |Lista de vendas da UE                         | Relatar vendas da União Europeia (EU) para a autoridade fiscal para fins de declaração do imposto sobre valor agregado (IVA).                                                                                                                           |
+
+
 
 
 

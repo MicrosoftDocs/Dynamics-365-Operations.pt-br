@@ -1,5 +1,5 @@
 ---
-title: "FAQ relacionada com bens de tradução"
+title: "Perguntas frequentes sobre transações relacionadas ao produto"
 description: "Este tópico descreve como gerenciar traduções para produtos, valores de dimensão de produto e atributos de produto."
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-related-translations-faq"></a>FAQ relacionada com bens de tradução
+# <a name="product-related-translations-faq"></a>Perguntas frequentes sobre transações relacionadas ao produto
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico descreve como gerenciar traduções para produtos, valores de dimensão de produto e atributos de produto. 
 
@@ -43,27 +46,27 @@ Você pode traduzir as informações relacionadas ao produto para qualquer idiom
 ## <a name="where-can-i-view-the-translated-information"></a>Onde eu pode exibir as informações traduzidas?
 Você pode exibir traduções de informações relacionadas ao produto em qualquer documento de origem externo, como uma fatura, que use um idioma onde as traduções estejam disponíveis.
 
-## <a name="how-do-i-create-translations-for-productrelated-information"></a>Como posso crio traduções para informações productrelated?
+## <a name="how-do-i-create-translations-for-productrelated-information"></a>Como posso criar traduções para informações relacionadas ao produto?
 Para criar traduções para um produto, siga estas etapas:
-1.  Clique ** gerenciamento de informações sobre produtos ** &gt; ** comum ** &gt; ** produtos lançados **.
-2.  Marque um produto, o painel e em ações, ** idiomas ** no grupo, clique ** traduções **.
-3.  Na página **Conversão de texto**, no campo **Idioma**, selecione um idioma. Para adicionar mais idiomas, expanda ** idioma ** campos, e clique em OK ** **.
+1.  Clique em **Gerenciamento de informações do produto** &gt; **Comum** &gt; **Produtos liberados**.
+2.  Selecione um produto, e no Painel de ação, grupo **Idiomas**, clique em **Traduções**.
+3.  Na página **Conversão de texto**, no campo **Idioma**, selecione um idioma. Para adicionar mais idiomas, expanda o campo **Idioma**, e clique em **OK**.
 4.  No grupo **Texto traduzido**, insira traduções nos campos **Descrição** e **Nome do produto**.
 
 Para criar traduções para atributos de produto, siga estas etapas:
-1.  Clique ** gerenciamento de informações sobre produtos ** &gt; ** comum ** &gt; ** produtos lançados **.
+1.  Clique em **Gerenciamento de informações do produto** &gt; **Comum** &gt; **Produtos liberados**.
 2.  Em **Configuração**, clique em **Atributos** e, em seguida **Atributos**.
 3.  Na página **Atributos**, clique em **Traduzir**.
-4.  Na página **Conversão de texto**, no campo **Idioma**, selecione um idioma. Para adicionar mais idiomas, expanda ** idioma ** campos, e clique em OK ** **.
+4.  Na página **Conversão de texto**, no campo **Idioma**, selecione um idioma. Para adicionar mais idiomas, expanda o campo **Idioma**, e clique em **OK**.
 5.  No grupo **Texto traduzido**, insira traduções nos campos **Descrição** e **Nome do produto** e **Texto de ajuda**.
 
 Para criar traduções para valores de dimensão de produto, siga estas etapas:
-1.  Clique ** gerenciamento de informações sobre produtos ** &gt; ** comum ** &gt; ** produtos lançados **.
+1.  Clique em **Gerenciamento de informações do produto** &gt; **Comum** &gt; **Produtos liberados**.
 2.  Selecione um produto e clique em **Dimensões do produto**.
 3.  Selecione um dos links para as dimensões do produto: **Configurações**, **Tamanhos**, **Cores** ou **Estilo**.
 4.  Selecione um valor de dimensão e clique em **Traduzir**.
-5.  Na página **Conversão de texto**, no campo **Idioma**, selecione um idioma. Para adicionar mais idiomas, expanda ** idioma ** campos, e clique em OK ** **.
-6.  ** Texto traduzido ** em grupo, insira traduções ** ** em nome e descrição ** ** em campos.
+5.  Na página **Conversão de texto**, no campo **Idioma**, selecione um idioma. Para adicionar mais idiomas, expanda o campo **Idioma**, e clique em **OK**.
+6.  No grupo **Texto traduzido**, insira as traduções nos campos **Nome** e **Descrição**.
 
 ## <a name="can-the-names-of-product-variants-be-translated"></a>Os nomes de variantes de produto podem ser traduzidos?
 As variantes de produto se baseiam nas dimensões de um produto lançado. Os nomes de variante de produto se baseiam em uma combinação de valores de dimensão. Quando os valores de dimensão associados a uma variante de produto são traduzidos, o nome da variante de produto aparece na versão traduzida.  
@@ -76,23 +79,23 @@ Seu produto é uma camiseta que é vendida em diferentes tamanhos e cores e os n
 -   Valores de dimensão de tamanho: Pequeno, Médio, Grande
 -   Valores de dimensão de cor: Vermelho, Verde, Preto
 
-O nome de uma grade de produtos baseada na dimensão avaliar pequena e vermelho **\#é 3: Pequena: ** Vermelho.  
+O nome de uma variante de produto baseada nos valores de dimensão Pequeno e Vermelho é **\#3:Small:Red**.  
 
-Um cliente deseja comprar algumas camisetas pequenas e vermelhas e o nome da camiseta deverá aparecer em francês na fatura. Você faz a tradução valores de dimensão, pequeno, vermelho e o francês, e no nome da grade de produtos é **\#3: Pequena: ** Vermelho.
+Um cliente deseja comprar algumas camisetas pequenas e vermelhas e o nome da camiseta deverá aparecer em francês na fatura. Você traduz os valores de dimensão, Pequeno e Vermelho, para o francês e o nome da variante de produto é **\#3:Petit:Rouge**.
 <table>
 <colgroup>
 <col width="100%" />
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>Tip</strong></th>
+<th><strong>Dica</strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Para definir o idioma preferencial de um cliente, siga estas etapas:
 <ol>  
-<li>Clique <strong>Vendas e marketing</strong> &gt; <strong>Comum</strong> &gt; <strong>Clientes</strong> &gt; <strong>Tudo</strong><strong>clientes</strong>.</li>
+<li>Clique em <strong>Vendas e publicidade</strong> &gt; <strong>Comum</strong> &gt; <strong>Clientes</strong> &gt; <strong>Todos</strong> <strong>clientes</strong>.</li>
 <li>Clique duas vezes em uma conta de cliente para abrir a página <strong>Clientes</strong>. Na guia <strong>Geral</strong>, no campo <strong>Idioma</strong>, selecione <strong>idioma</strong>.</li>
 </ol></td>
 </tr>
@@ -105,23 +108,25 @@ Se não houver traduções disponíveis no idioma preferencial do cliente, os no
 ## <a name="can-i-manage-translations-for-a-series-of-dimension-values-at-the-same-time"></a>Posso gerenciar traduções para uma série de valores de dimensão ao mesmo tempo?
 Os valores de dimensão são específicos de produtos e você pode gerenciar as traduções para os valores de dimensão para cada produto. No entanto, se você criar um grupo de valores de dimensão e criar traduções para os valores do grupo de valores, será mais fácil gerenciar as traduções.   
 
-**Example**  
+**Exemplo**  
 
 Sua empresa produz camisetas em estilos diferentes, cada estilo disponível nos tamanhos Pequeno, Médio e Grande. Os tamanhos são reunidos em um grupo de valores de dimensão. Quando um novo estilo de camiseta for adicionado, você poderá associá-lo ao grupo do valores de dimensão usado para tamanhos, de forma que todos os tamanhos estejam disponíveis para o produto. Você também pode adicionar ou alterar traduções para os tamanhos no grupo de valores de dimensão a qualquer momento.  
 
 Um valor de dimensão associado a um produto por meio de um grupo de variantes de dimensão deve ser mantido do grupo de variantes de produto.   
 Para criar um grupo de valores de dimensão, siga estas etapas:
-1.  Clique ** gerenciamento de informações sobre produtos ** &gt; ** de instalação ** &gt; ** grupos ** de grade.
+1.  Clique em **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Grupos de grades**.
 2.  Selecione **Tamanho** **grupos**, **Grupos de cores** ou **Grupos de estilo**.
-3.  O clique ** novo **, e insira com um nome para o grupo ** tamanho ** ** em grupo ** **, grupo de cores **, ** ou grupo de estilos ** campo. Clique em **Tamanhos**, **Cores** ou **Estilos** para criar linhas para os grupos.
-4.  ** ** ** Tamanho em linhas, grupo ** ** cor ** ** grupo ** ** linhas ** **, ou um grupo de estilos linhas ** página, clique em novo ** **, e crie os tamanhos, as cores, e estilos para grupos.
+3.  Clique em **Novo**, e então insira um nome para o grupo no grupo **Tamanho** ****, **Grupo de cores**, ou **Grupo de estilos**. Clique em **Tamanhos**, **Cores** ou **Estilos** para criar linhas para os grupos.
+4.  Na página **Tamanho** **grupo** linhas, **Cor** **grupo** **linhas**, ou **Linhas do grupo de estilo**, clique em **Novo**, e depois criar os tamanhos, cores e estilos para os grupos.
 
 Para gerenciar traduções para valores em um grupo de valores de dimensão, siga estas etapas:
 1.  Siga as etapas no procedimento anterior para criar um grupo de valores de dimensão para abrir a página **Linhas de grupo de tamanhos**, **Linhas do grupo de cores** ou **Linhas de grupo de estilos**.
-2.  Clique em **Tradução do texto**. ** Em conversão de texto **, text página ** traduzido ** em grupo, insira traduções ** ** em nome e descrição ** ** em campos.
+2.  Clique em **Tradução do texto**. Na página **Tradução de texto**, no grupo **Texto traduzido**, insira as traduções nos campos **Nome** e **Descrição**.
 
-## <a name="when-can-translations-of-productrelated-information-be-managed"></a>Quando possível traduções de informações productrelated ser gerenciadas?
+## <a name="when-can-translations-of-productrelated-information-be-managed"></a>Quando as traduções de informações relacionadas ao produto podem ser gerenciadas?
 As traduções de informações relacionadas ao produto podem ser gerenciadas em qualquer ocasião. Quando as traduções são atualizadas para um valor de dimensão associado a um produto, as informações sobre o produto são atualizadas, independentemente de o produto ter ou não transações.
+
+
 
 
 

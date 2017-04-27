@@ -1,5 +1,5 @@
 ---
-title: "Dynamics 365 para o glossário de operações"
+title: "Glossário do Dynamics 365 for Operations"
 description: "O glossário do Microsoft Dynamics 365 for Operations define termos e conceitos chave no produto Microsoft Dynamics 365 for Operations."
 author: tonyafehr
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 para o glossário de operações
+# <a name="dynamics-365-for-operations-glossary"></a>Glossário do Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
 
 O glossário do Microsoft Dynamics 365 for Operations define termos e conceitos chave no produto Microsoft Dynamics 365 for Operations. 
 
@@ -249,7 +252,7 @@ O veículo usado para implantação no UAT (Teste de Aceitação do Usuário) e 
 
 Uma ferramenta do Visual Studio usada para criar, atualizar e inspecionar os elementos de modelo.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**. \ \ dimensões financeiras com a configuração base **
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\dimensões financeiras\configuração baseada em dimensão**
 
 Uma tecnologia de configuração usada para criar variantes de produto selecionando valores de dimensões do produto.
 
@@ -499,7 +502,7 @@ Uma parte de um produto.
 
 ###### <a name="product-dimension"></a>**dimensão do produto**
 
-Tamanho, cor, ou os atributos de produto de configuração que é usada. \ \ com dimensões financeiras com a configuração.
+Os atributos de tamanho, cor ou configuração do produto que são usados para ..\dimensões financeiras\configuração baseada em dimensão.
 
 ###### <a name="product-family"></a>**família de produtos**
 
@@ -697,7 +700,7 @@ Uma unidade operacional que controla um ou mais fluxos de produção.
 
 Um método de modelar produtos mestre e de procurar configurações da variante de produto.
 
-###### <a name="vat-value-added-tax"></a>** IVA (imposto sobre valor agregado) **
+###### <a name="vat-value-added-tax"></a>**IVA (imposto sobre valor agregado)**
 
 Um imposto sobre produtos em cada etapa da produção com base no valor agregado durante a etapa.
 
@@ -722,5 +725,7 @@ Uma pessoa que assume a função de um funcionário ou de um prestador de servi�
 ###### <a name="workspace"></a>**espaço de trabalho**
 
 Uma página que fornece uma visão geral de uma das atividades executada pelo usuário. A página usa blocos, listas e gráficos para exibir o trabalho pendente e os dados relacionados de várias fontes, além de exibir as tarefas frequentes relacionadas a esses dados. Os blocos mostrados na seção de resumo do espaço de trabalho também são exibidos na seção relacionada no painel.
+
+
 
 

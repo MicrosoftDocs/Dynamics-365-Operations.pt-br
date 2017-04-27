@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="audit-policy-violations-and-cases"></a>Auditar violações de política e casos
 
+[!include[banner](../includes/banner.md)]
+
+
 O artigo explica como os casos de auditoria são gerados de violações de regras de diretiva de auditoria. Também inclui informações sobre as diversas maneiras das políticas de auditoria usarem o intervalo de datas de seleção de documento.
 
 <a name="how-audit-cases-are-generated"></a>Como os casos de auditoria são gerados
@@ -39,10 +42,10 @@ As políticas de auditoria são executadas em modo de lotes. Quando você execut
 
 Cada regra de política avalia um conjunto de documentos. A regra de política seleciona documentos que estão no intervalo de datas de seleção de documento e que correspondem aos critérios especificados. Por exemplo, uma regra de política pode selecionar os relatórios de despesas com refeições acima de 50,00. Outra regras de política podem selecionar faturas de fornecedor que podem ser pagas para um fornecedor específico. Para cada documento selecionado na definição, uma violação é gerada. Essa violação é um registro de que um documento específico, como uma fatura 12345, não atende às regras de política. 
 
-Vários registros de violação de auditoria são agrupados e associados a casos de auditoria. Por padrão, os casos de cada política de auditoria são agrupados por regra de política de auditoria. Se você preferir, selecione outros critérios de agrupamento ao usar a página **Critérios de agrupamento de caso**. Por exemplo, pode agrupas cabeçalhos de despesas por ID e por notas fiscais de fornecedor de projeto por conta de fornecedor. Nesse caso, todas as violações de cabeçalho de despesa com a mesma ID de projeto serão agrupadas mesmo engradado em, e todas as notas fiscais de fornecedor com a mesma conta de fornecedor serão agrupadas no mesmo engradado. 
+Vários registros de violação de auditoria são agrupados e associados a casos de auditoria. Por padrão, os casos de cada política de auditoria são agrupados por regra de política de auditoria. Se você preferir, selecione outros critérios de agrupamento ao usar a página **Critérios de agrupamento de caso**. Por exemplo, você pode agrupar os cabeçalhos de despesas pela ID do projeto e faturas por conta do fornecedor. Nesse caso, todas as violações do cabeçalho de despesas que têm a mesma ID do projeto serão agrupadas nos mesmos caso e todas as faturas de fornecedores que têm a mesma conta de fornecedor serão agrupadas no mesmo caso. 
 
 > [!NOTE]
-> Para as regras de diretiva de auditoria baseadas em ** duplicados ** tipo de consulta, as violações não são agrupadas por regras de diretiva ou os critérios especificados ** engradado que agrupam ** critérios na página. Em vez de isso, são agrupados pelos critérios criados na regra de política de auditoria. Por exemplo, se uma regra de política avaliar relatórios de despesas em busca de despesas duplicadas de mesmo valor, ID do mercado e data, todas as despesas que têm os mesmos valores nesses campos seriam um caso. As despesas que têm valores diferentes serão um caso separado.
+> Para as regras de política com base em um tipo de consulta **Duplicar**, as violações não são agrupadas por regra de política ou pelo critério especificado na página **Critérios de agrupamento de caso**. Em vez de isso, são agrupados pelos critérios criados na regra de política de auditoria. Por exemplo, se uma regra de política avaliar relatórios de despesas em busca de despesas duplicadas de mesmo valor, ID do mercado e data, todas as despesas que têm os mesmos valores nesses campos seriam um caso. As despesas que têm valores diferentes serão um caso separado.
 
 Depois que os casos de auditoria foram gerados, serão processados usando os processos típicos do gerenciamento dos casos.
 
@@ -56,6 +59,8 @@ Veja aqui outras formas que a política de auditoria usa o intervalo de datas da
 -   Para as regras de política se baseiam em um tipo de consulta **Pesquisa da lista**, a política avalia documentos para entidades monitoradas em vigor no último dia do intervalo de datas de seleção de documento.
 
 
-Para obter mais informações, consulte [] regras de diretiva de auditoria (audit-policy-rules.md)
+Para obter mais informações, consulte [Auditar regras da política](audit-policy-rules.md)
+
+
 
 

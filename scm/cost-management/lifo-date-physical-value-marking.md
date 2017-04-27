@@ -55,16 +55,16 @@ O novo preço de custo médio reflete a média de transações atualizadas finan
 -   As transações de estoque são representadas por setas verticais.
 -   Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
 -   Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
--   Acima (ou abaixo) de cada seta vertical, o valor de transação de estoque é especificado no formato Quantity@Unitprice.
+-   Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantity@Unitprice.
 -   Um valor de transação de estoque entre parênteses indica que a transação de estoque é lançada fisicamente no estoque.
 -   Um valor de transação de estoque que não estiver entre parênteses indica que a transação de estoque é lançada financeiramente no estoque.
 -   Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
+-   Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
 -   Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta *Fechamento de Estoque*.
 -   As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
 
 ## <a name="lifo-date-with-the-include-physical-value-option"></a>Data UEPS com a opção Incluir valor físico
-Você pode marcar a caixa de seleção **Incluir valor físico** de um item na página **Grupos de modelo do item**. Nesse caso, o sistema usa transações físicas e financeiras financeiro para calcular o preço de custo médio estimado em execução. Quando aplicável, o sistema também fará ajustes para a transação de saída atualizada fisicamente. Quando a caixa de seleção **Incluir valor físico** for desmarcada, o fechamento de estoque que usa o modelo de estoque de Data UEPS liquidará somente transações que são atualizadas financeiramente. Nesse exemplo, o grupo de modelo de item não está marcado para incluir o valor físico. A ilustração a seguir mostra estas transações:
+Você pode marcar a caixa de seleção **Incluir valor físico** de um item na página **Grupos de modelo do item**. Neste caso, o sistema usará as transações de recebimento físico e financeiro para calcular o preço de custo médio. Quando aplicável, o sistema também fará ajustes para a transação de saída atualizada fisicamente. Quando a caixa de seleção **Incluir valor físico** for desmarcada, o fechamento de estoque que usa o modelo de estoque de Data UEPS liquidará somente transações que são atualizadas financeiramente. Nesse exemplo, o grupo de modelo de item não está marcado para incluir o valor físico. A ilustração a seguir mostra estas transações:
 
 -   1a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
 -   1b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
@@ -82,16 +82,16 @@ O novo preço de custo médio reflete a média de transações atualizadas finan
 -   As transações de estoque são representadas por setas verticais.
 -   Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
 -   Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
--   Acima (ou abaixo) de cada seta vertical, o valor de transação de estoque é especificado no formato Quantity@Unitprice.
+-   Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantity@Unitprice.
 -   Um valor de transação de estoque entre parênteses indica que a transação de estoque é lançada fisicamente no estoque.
 -   Um valor de transação de estoque que não estiver entre parênteses indica que a transação de estoque é lançada financeiramente no estoque.
 -   Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
+-   Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
 -   Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta *Fechamento de Estoque*.
 -   As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
 
 ## <a name="lifo-date-with-marking"></a>Data UEPS com marcação
-A marcação é um processo que permite vincular, ou marcar, uma transação de saída para uma transação de recebimento. A marcação pode ocorrer antes ou depois que a transação for lançada. É possível usar a marcação quando você desejar verificar o custo exato do estoque quando a transação é lançada ou quando o fechamento de estoque é executado. Por exemplo, o departamento de Atendimento ao Cliente aceitou uma ordem urgente de um cliente importante. Como esta é uma ordem urgente, você terá de pagar mais por esse item para atender às solicitações do cliente. É necessário garantir que o custo desse item de estoque seja refletido na margem ou no custo dos produtos vendidos (COGS) para essa fatura de ordem de venda. Quando a ordem de compra é lançada, o estoque é recebido ao custo de BRL 120,00. Se esse documento de ordem de vendas for marcado para a ordem de compra antes da guia de remessa ou a fatura ser lançada, o COGS será BRL 120,00, não o custo médio atual para o item. Se a guia de remessa de ordem de vendas ou a fatura for lançada antes que a marcação ocorra, os COGS serão lançados no preço de custo médio. Antes que fechamento de estoque seja executado, essas duas transações ainda podem ser marcadas uma para a outra. Por exemplo, uma transação de recebimento é marcada para uma transação de saída. Nesse caso, o método de custo definido no grupo modelo do item será esquecido, e o sistema como essas transações entre si. É possível marcar uma transação de saída para um recebimento antes que a transação seja lançada. Você pode fazer isso em uma linha da ordem de venda na página **Detalhes da ordem de venda**. Você pode exibir as transações de recebimento abertas na página **Marcação**. É possível marcar uma transação de saída para um recebimento depois que a transação for lançada. Você pode corresponder ou marcar uma transação de saída para uma transação de recebimento aberta para um item inventariado de um diário de ajuste de estoque lançado. A ilustração a seguir mostra essas transações:
+A marcação é um processo que permite vincular ou marcar uma transação de saída para uma transação de recebimento. A marcação pode ocorrer antes ou depois que a transação for lançada. É possível usar a marcação quando você desejar verificar o custo exato do estoque quando a transação é lançada ou quando o fechamento de estoque é executado. Por exemplo, o departamento de Atendimento ao Cliente aceitou uma ordem urgente de um cliente importante. Como esta é uma ordem urgente, você terá de pagar mais por esse item para atender às solicitações do cliente. É necessário garantir que o custo desse item de estoque seja refletido na margem ou no custo dos produtos vendidos (COGS) para essa fatura de ordem de venda. Quando a ordem de compra é lançada, o estoque é recebido ao custo de BRL 120,00. Se esse documento de ordem de vendas for marcado para a ordem de compra antes da guia de remessa ou a fatura ser lançada, o COGS será BRL 120,00, não o custo médio atual para o item. Se a guia de remessa de ordem de vendas ou a fatura for lançada antes que a marcação ocorra, os COGS serão lançados no preço de custo médio. Antes que fechamento de estoque seja executado, essas duas transações ainda podem ser marcadas uma para a outra. Por exemplo, uma transação de recebimento é marcada para uma transação de saída. Neste caso, o método de avaliação definido no grupo de modelo de item do item será desconsiderado e o sistema liquidará essas transações entre si. É possível marcar uma transação de saída para um recebimento antes que a transação seja lançada. Você pode fazer isso em uma linha da ordem de venda na página **Detalhes da ordem de venda**. Você pode exibir as transações de recebimento abertas na página **Marcação**. É possível marcar uma transação de saída para um recebimento depois que a transação for lançada. Você pode corresponder ou marcar uma transação de saída para uma transação de recebimento aberta para um item inventariado de um diário de ajuste de estoque lançado. A ilustração a seguir mostra essas transações:
 
 -   1a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
 -   1b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.
@@ -110,11 +110,11 @@ O novo preço de custo médio reflete a média das transações atualizadas fina
 -   As transações de estoque são representadas por setas verticais.
 -   Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
 -   Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
--   Acima (ou abaixo) de cada seta vertical, o valor de transação de estoque é especificado no formato Quantity@Unitprice.
+-   Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantity@Unitprice.
 -   Um valor de transação de estoque entre parênteses indica que a transação de estoque é lançada fisicamente no estoque.
 -   Um valor de transação de estoque que não estiver entre parênteses indica que a transação de estoque é lançada financeiramente no estoque.
 -   Cada nova transação de recebimento ou saída é designada por uma nova etiqueta.
--   Each vertical arrow is labeled with a sequential identifier, such as *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
+-   Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
 -   Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta *Fechamento de Estoque*.
 -   As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
 

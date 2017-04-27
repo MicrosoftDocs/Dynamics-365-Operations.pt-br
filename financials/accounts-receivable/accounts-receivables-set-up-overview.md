@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Configurar cobranças e crédito em contas a receber
 
+[!include[banner](../includes/banner.md)]
+
+
 Configurar Contas a receber e Crédito e cobranças para rastrear faturas e pagamentos recebidos dos clientes.
 
 É possível definir clientes, grupos de clientes, perfis de lançamentos, várias opções de pagamento, notas de juros, cartas de cobrança, comissões, parâmetros referentes a clientes, encargos, entregas e destinos, letras de câmbio e outros tipos de informações de cobranças e crédito em contas a receber.
 A tabela a seguir lista as páginas que dão suporte à configuração e à manutenção de cobranças e crédito em contas a receber. As entradas da tabela estão organizadas por tarefa e, depois, por ordem alfabética do nome da página.
 
-| ! [Nota] (“https://i-technet.sec.s-msft.com/areas/global/content/clear.gif”) nota ** nota **          |
+| ![Observação](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Observação")**Observação**          |
 |--------------------------------------------------------------------------------------------------|
 | Algumas páginas na tabela a seguir exigem informações ou configurações de parâmetros para que seja possível navegar até eles. |
 
@@ -98,14 +101,16 @@ A tabela a seguir lista as páginas que dão suporte à configuração e à manu
 |                                                      | Contatos de cliente e configurações de email | Configure os contatos para clientes com seus endereços de email. Esses endereços aparecerão na página Cobranças e serão usados para criar os emails que são encaminhados aos clientes. Configure também um contato padrão de cobrança para cada cliente que aparecerá primeiro na página Cobranças. |
 |                                                      | Grupos de clientes                       | Configure pools de clientes, que são consultas que definem um grupo de contas de clientes que podem ser exibidos e gerenciados para cobranças ou processos de classificação por vencimento.                                                                                                                           |
 |                                                      | Perfil de lançamentos do cliente             | Configurar os perfis que controlam o lançamento de transações de cliente na contabilidade.                                                                                                                                                                                      |
-|                                                      | Códigos de motivo do cliente                | Códigos de motivos de instalação do cliente.                                                                                                                                                                                                                                                    |
-|                                                      | Códigos de motivo de amortização de cliente      | Códigos de motivos de instalação de amortização de clientes que será usado para transações de amortização.                                                                                                                                                                                             |
+|                                                      | Códigos de motivo do cliente                | Configure os códigos de motivo de cliente.                                                                                                                                                                                                                                                    |
+|                                                      | Códigos de motivo de baixa de cliente      | Configure os códigos de motivos de dar baixa em dedução de cliente que serão usados para transações de baixa contábil.                                                                                                                                                                                             |
 |                                                      | Configuração de formulário                           | Definir os parâmetros de nota de formulário para cotações, confirmações, listas de separação, guias de remessa, faturas de cliente, faturas de texto livre e notas de juros.                                                                                                                               |
 |                                                      | Interesse                             | Configurar e gerenciar códigos de juros.                                                                                                                                                                                                                                                 |
-|                                                      | NSF de informações.                     | Configurar informações de NSF na conta bancária que será usada quando um pagamento é marcado como uma transação de NSF na página Cobranças.                                                                                                                                              |
+|                                                      | Informações NSF.                     | Configurar informações de NSF na conta bancária que será usada quando um pagamento é marcado como uma transação de NSF na página Cobranças.                                                                                                                                              |
 |                                                      | Informações do vendedor              | Configure o endereço de email para vendedores. Esses endereços serão exibidos na página Cobranças e você pode usá-los para enviar emails para um vendedor dessa página.                                                                                                                |
 
  
-Para obter mais informações, consulte e cobranças [crédito em contas a receber (collections-credit-accounts-receivable.md]).
+Para obter mais informações, consulte [Crédito e cobranças em Contas a receber](collections-credit-accounts-receivable.md).
+
+
 
 

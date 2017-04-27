@@ -1,6 +1,6 @@
 ---
 title: "Restrições de tabela definidas pelo sistema e pelo usuário"
-description: "Este artigo explica os dois tipos de restrições de tabela para componentes de um modelo de configuração do produto - definido pelo usuário e por definido. As restrições de tabela representam matrizes das combinações de atributos permitidos, onde cada linha define um conjunto de possíveis valores de atributo."
+description: "Este artigo explica os dois tipos de restrições de tabela definidas pelo usuário e pelo sistema para os componentes de um modelo de configuração de produto: definido pelo usuário e definido pelo sistema. As restrições de tabela representam matrizes das combinações de atributos permitidos, onde cada linha define um conjunto de possíveis valores de atributo."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>Restrições de tabela definidas pelo sistema e pelo usuário
 
-Este artigo explica os dois tipos de restrições de tabela para componentes de um modelo de configuração do produto - definido pelo usuário e por definido. As restrições de tabela representam matrizes das combinações de atributos permitidos, onde cada linha define um conjunto de possíveis valores de atributo.
+[!include[banner](../includes/banner.md)]
+
+
+Este artigo explica os dois tipos de restrições de tabela definidas pelo usuário e pelo sistema para os componentes de um modelo de configuração de produto: definido pelo usuário e definido pelo sistema. As restrições de tabela representam matrizes das combinações de atributos permitidos, onde cada linha define um conjunto de possíveis valores de atributo.
 
 As restrições de tabela representam matrizes de combinações de atributos que são permitidas para componentes de um modelo de configuração do produto. Cada linha na tabela define um conjunto de valores de atributo possíveis. É possível declarar dois tipos de restrições em um modelo de configuração de produto:
 
@@ -57,11 +60,13 @@ Uma restrição de tabela definida pelo sistema cria um mapeamento dinâmicos en
 
 Ao criar uma restrição de tabela definida pelo sistema, selecione uma tabela, se preferir, defina a consulta a ser usada e, em seguida, associe os tipos de atributos aos campos da tabela selecionada. Os tipos dos campos devem corresponder aos tipos dos tipos de atributo.  
 
-Antes que uma restrição da tabela pode executar o efeito em um modelo de configuração de produto, a restrição de tabela deve ser incluída em uma restrição em um dos componentes do modelo. O procedimento será criar uma nova restrição, selecione o tipo de restrição de tabela, e selecione definição restrição de tabela a ser usada. Por fim, todos os campos na tabela de restrição devem ser mapeados para atributos no modelo de configuração do produto.
+Antes que uma restrição de tabela possa ter efeito em um modelo de configuração de produto, a restrição de tabela deve ser incluída em uma restrição em um dos componentes do modelo. O procedimento é criar uma nova restrição, selecionar o tipo de restrição de tabela e, em seguida, selecionar a definição de restrição de tabela a ser usada. Por fim, todos os campos na tabela de restrição devem ser mapeados para atributos no modelo de configuração do produto.
 
 <a name="see-also"></a>Consulte também
 --------
 
 [Principais conceitos em modelos de configuração de produtos](product-configuration-models.md)
+
+
 
 

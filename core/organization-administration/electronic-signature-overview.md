@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="electronic-signature-overview"></a>Visão geral das assinaturas eletrônicas
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo oferece uma visão geral de assinaturas eletrônicas e descreve como elas podem ser usadas no Microsoft Dynamics 365 for Operations.
 
 <a name="what-is-an-electronic-signature"></a>O que é uma assinatura eletrônica?
@@ -35,7 +38,7 @@ Este artigo oferece uma visão geral de assinaturas eletrônicas e descreve como
 Uma assinatura eletrônica confirma a identidade de uma pessoa que está prestes a iniciar ou aprovar um processo de computação. Em algumas indústrias, uma assinatura eletrônica tem o mesmo valor legal que a assinatura manuscrita. As assinaturas eletrônicas são um requisito de regulamentações de conformidade para diversos setores regulamentados, como as indústrias farmacêutica, alimentícia, aeroespacial e de defesa. Também são necessárias para a conformidade com as regulamentações de 21 CFR Parte 11, emitidas pela FDA (agência de vigilância sanitária dos Estados Unidos). **Nota:** Uma assinatura eletrônica por si só não é o mesmo que uma assinatura digital. Uma assinatura eletrônica é simplesmente um substituto para uma assinatura manuscrita, ao passo que uma assinatura digital fornece medidas de segurança adicionais. Uma assinatura digital pode ajudar a identificar se outro usuário ou processo adulterou os dados. Uma assinatura digital também pode ser verificada e essa verificação não pode ser refutada pelo proprietário do certificado usado para assinar os dados. Conforme descrito abaixo, as assinaturas eletrônicas no Microsoft Dynamics 365 for Operations têm a funcionalidade interna de assinatura digital.
 
 ## <a name="electronic-signatures-in-dynamics-365-for-operations"></a>Assinaturas eletrônicas no Microsoft Dynamics 365 for Operations
-No Microsoft Dynamics 365 for Operations, você pode usar assinaturas eletrônicas para processos comerciais críticos. Alguns processos têm recursos internos de assinatura eletrônica. Você também pode criar requisitos de assinatura personalizados para qualquer tabela e campo de banco de dados. As assinaturas eletrônicas têm uma funcionalidade interna de assinatura digital. Cada usuário que assina documentos deve obter um certificado criptográfico válido. Quando um documento é assinado, a chave privada associada ao certificado é validada. O Dynamics 365 for Operations registra as informações de assinatura eletrônica em um log para fornecer uma trilha de auditoria. Para configurar assinaturas eletrônicas, consulte [assinaturas eletrônicas configuradas (guia de tarefas)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
+No Microsoft Dynamics 365 for Operations, você pode usar assinaturas eletrônicas para processos comerciais críticos. Alguns processos têm recursos internos de assinatura eletrônica. Você também pode criar requisitos de assinatura personalizados para qualquer tabela e campo de banco de dados. As assinaturas eletrônicas têm uma funcionalidade interna de assinatura digital. Cada usuário que assina documentos deve obter um certificado criptográfico válido. Quando um documento é assinado, a chave privada associada ao certificado é validada. O Dynamics 365 for Operations registra as informações de assinatura eletrônica em um log para fornecer uma trilha de auditoria. Para configurar as assinaturas eletrônicas, consulte [Configurar assinaturas eletrônicas (Guia de tarefas)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Usuários que precisam de acesso para assinaturas eletrônicas
 Normalmente, três tipos de usuários requerem o acesso de segurança para assinaturas eletrônicas: administradores de assinatura eletrônica, signatários e auditores de assinatura eletrônica.
@@ -78,6 +81,8 @@ A página **Assinar documento** é exibida quando você faz uma alteração que 
 1.  Na página **Opções**, na guia **Contas**, clique em **Designar aprovação**.
 2.  No campo **ID de usuário aprovador**, selecione a ID do usuário que deve assinar as alterações de outro usuário.
 3.  No campo **Atribuir para ID de usuário**, selecione a ID do usuário cujas alterações devem ser assinadas.
+
+
 
 
 

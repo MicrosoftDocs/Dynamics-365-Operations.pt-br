@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Reconciliar extratos bancários utilizando a reconciliação bancária avançada
 
+[!include[banner](../includes/banner.md)]
+
+
 O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 for Operations. Este tópico descreve o processo de reconciliação.  
 
 <a name="import-an-electronic-bank-statement"></a>Importar um extrato bancário eletrônico
@@ -74,7 +77,7 @@ Existem três maneiras de corresponder ou reconciliar transações do extrato ba
 -   Corresponder as transações com uma transação de extrato bancário de estorno.
 -   Marcar as transações como **Novo**, de modo que possam ser lançadas posteriormente como uma transação bancária no Dynamics 365 for Operations.
 
-Manualmente transações para corresponder, selecione as transações ** transações do extrato bancário ** na grade, selecione as transações correspondentes ** transações bancárias ** de operações na grade, clique em. ** ** correspondência As transações selecionadas são movidas das grades superiores, para transações não correspondidas, para as grades inferiores, que representam as transações correspondidas. Além disso, os valores totais correspondidos e não correspondidos são atualizados. É possível obter combinações de transações um para um, várias para um e várias para várias. As correspondências devem seguir as regras para as diferenças de data permitidas e mapeamento do tipo de transação. Essas regras são definidas na página **Parâmetros de gerenciamento de banco e caixa**.
+Para combinar as transações manualmente, selecione as transações na grade **Transações do extrato bancário**, selecione as transações correspondentes na grade **Transações bancárias do Operations** e clique em **Corresponder**. As transações selecionadas são movidas das grades superiores, para transações não correspondidas, para as grades inferiores, que representam as transações correspondidas. Além disso, os valores totais correspondidos e não correspondidos são atualizados. É possível obter combinações de transações um para um, várias para um e várias para várias. As correspondências devem seguir as regras para as diferenças de data permitidas e mapeamento do tipo de transação. Essas regras são definidas na página **Parâmetros de gerenciamento de banco e caixa**.
 
 Poderão ocorrer diferenças mínimas na sua reconciliação. É possível combinar uma única transação do extrato bancário e uma única transação bancária do Operations que possuem diferenças mínimas, caso essas diferenças estejam dentro do valor tolerado definido no campo **Diferença mínima permitida** na conta bancária. O valor é mostrado no campo **Valor da correção** na transação bancária do Operations correspondente. Quando a reconciliação bancária é marcada como reconciliado, correções são lançadas automaticamente usando a conta principal definido no tipo de transação associado bancárias. Correções não são suportadas para **Cheque** e **Depósito** tipos de documento. 
 
@@ -90,5 +93,7 @@ Assim que todas as linhas do extrato forem processadas, você deve marcar a Plan
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Lançar novas transações associadas à reconciliação
 As transações do extrato bancário que foram marcados como **Nova** na planilha de reconciliação são lançadas na página **Extrato bancário**. Na página **Extrato bancário**, selecione a ID do extrato para exibir os detalhes do extrato. No menu **Contabilidade**, é possível usar as opções **Exibir distribuições** e **Exibir contabilidade** para exibir os detalhes por trás das novas transações e as entradas contábeis associadas. Selecione a opção **Lançar** para lançar as linhas do extrato bancário marcadas como **Nova** à contabilidade. É importante observar que o lançamento só pode ser concluído uma única vez por extrato bancário.
+
+
 
 

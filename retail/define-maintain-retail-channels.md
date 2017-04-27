@@ -1,6 +1,6 @@
 ---
 title: Definir e manter canais de varejo
-description: "Este formulário fornece uma visão geral do processo para configurar os armazenamentos almofariz, físicas que são referidos como lojas no Microsoft Dynamics 365 para as operações. Inclui informações sobre as tarefas que devem ser concluídas antes e depois de você configurar uma loja de varejo."
+description: "Este artigo fornece uma visão geral do processo para configurar as lojas tradicionais, que são referidas como lojas de varejo no Microsoft Dynamics 365 for Operations. Inclui informações sobre as tarefas que devem ser concluídas antes e depois de você configurar uma loja de varejo."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16481
 ms.assetid: 14496d96-1c72-43ce-a2e7-8467bab4ae46
 ms.search.region: Global
@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="define-and-maintain-retail-channels"></a>Definir e manter canais de varejo
 
-Este formulário fornece uma visão geral do processo para configurar os armazenamentos almofariz, físicas que são referidos como lojas no Microsoft Dynamics 365 para as operações. Inclui informações sobre as tarefas que devem ser concluídas antes e depois de você configurar uma loja de varejo.
+[!include[banner](includes/banner.md)]
 
-Varejo e comércio em dynamics 365 para canais de varejo de suporte de operações, por exemplo, lojas online call center, lojas e físicas. No varejo e comércio, uma loja física é chamada de loja de varejo. Cada loja de varejo pode ter seus próprios métodos de pagamento, grupos de preços, terminais de pontos de venda (PDV), contas de receita e despesa e equipe. Você deve configurar todos esses elementos para uma loja de varejo antes de criá-la. Depois de criar a loja de varejo, você atribui os produtos que deseja que a loja contenha. Você também atribui funcionários, registradoras e clientes à loja. Por fim, você adiciona a nova loja a uma hierarquia da organização.
+
+Este artigo fornece uma visão geral do processo para configurar as lojas tradicionais, que são referidas como lojas de varejo no Microsoft Dynamics 365 for Operations. Inclui informações sobre as tarefas que devem ser concluídas antes e depois de você configurar uma loja de varejo.
+
+O recurso Varejo e comércio no Dynamics 365 for Operations oferece suporte a vários canais de varejo, como lojas online, lojas físicas e call centers. No varejo e comércio, uma loja física é chamada de loja de varejo. Cada loja de varejo pode ter seus próprios métodos de pagamento, grupos de preços, terminais de pontos de venda (PDV), contas de receita e despesa e equipe. Você deve configurar todos esses elementos para uma loja de varejo antes de criá-la. Depois de criar a loja de varejo, você atribui os produtos que deseja que a loja contenha. Você também atribui funcionários, registradoras e clientes à loja. Por fim, você adiciona a nova loja a uma hierarquia da organização.
 
 ## <a name="setting-up-retail-stores"></a>Configurando lojas de varejo
-Antes de configurar uma loja em dynamics 365 para as operações, você deve concluir algumas tarefas necessárias. É possível criar a loja de varejo e adicionar detalhes.
+Antes de configurar uma loja de varejo no Dynamics 365 for Operations, você deve concluir algumas tarefas necessárias. É possível criar a loja de varejo e adicionar detalhes.
 
 ### <a name="prerequisites"></a>Pré-requisitos
 
@@ -49,7 +52,7 @@ Você deve concluir as seguintes tarefas antes de poder configurar uma loja de v
 8.  Configurar produtos de varejo. Como parte desta tarefa, você também pode configurar hierarquias de produtos de varejo, variantes de produto, e classificações de produtos.
 9.  Configurar grupos de preços de produtos.
 10. Configure preços de produtos de varejo. Como parte desta tarefa, você também pode configurar ajustes de preço, descontos, e períodos de desconto.
-11. Configurar membros da equipe. ** Observação: ** Também deve atribuir permissões apropriadas a funcionários, para poderem conectar e realizar tarefas usando o dynamics 365 para operações do varejista sistema POS.
+11. Configurar membros da equipe. **Observação:** Você também deve atribuir permissões apropriadas para trabalhadores, de modo que eles possam se conectar e executar as tarefas usando o Microsoft Dynamics 365 for Operations para o sistema Retail POS.
 12. Configure os perfis do Retail POS a serem atribuídos à loja. Essa tarefa inclui várias tarefas como configurar registros, perfis offline e formatos e perfis de recebimento.
 
 Examine todas as tarefas incluídas no pré-requisito, e conclua apenas as tarefas que se aplicam a você.
@@ -77,5 +80,7 @@ Depois de inserir os detalhes da loja de varejo, conclua estas tarefas para envi
 
 ## <a name="organization-hierarchies"></a>Hierarquias da organização
 O Retail usa hierarquias organizacionais no Microsoft Dynamics AX para estruturar os canais de varejo. As hierarquias da organização representam os relacionamentos entre as organizações que compõem sua empresa. Ao configurar lojas, você pode adicioná-las a uma hierarquia da organização. As lojas compartilham dados usados para classificações, reabastecimento e relatórios.
+
+
 
 

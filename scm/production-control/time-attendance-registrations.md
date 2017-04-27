@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="time-and-attendance-registration"></a>Registro de Horário e presença
 
+[!include[banner](../includes/banner.md)]
+
+
 Os trabalhadores de registro de tempo podem inserir diferentes tipos de registros de tempo, por exemplo, registro de entrada e de saída em atividades indiretas e registro de ausência. Este artigo descreve os registros, o cálculo, a aprovação e o uso do fluxo de trabalho para adicionar a estrutura e a aprovação automatizada ao processo de aprovação de folhas de ponto. 
 
 <a name="registrations"></a>Registros
@@ -62,7 +65,7 @@ Depois da instalação, os trabalhadores podem inserir diferentes tipos de regis
 -   As atividades indiretas, que são atividades não produtivas nas quais um trabalhador pode se envolver durante um dia útil. Exemplos dessas atividades são reuniões ou limpeza do espaço de trabalho.
 -   Hora extra, que pode ser registrada como horas extras, horário flexível ou hora extra.
 
-## <a name="adding-clockout-registrations"></a>Adicionando registros de clockout
+## <a name="adding-clockout-registrations"></a>Adicionando registros de saída
 Se um trabalhador esquecer de registrar a saída no fim do dia de trabalho, o registro ausente poderá ser adicionado, executando um trabalho em lote. O sistema comparará a hora de entrada e a hora de saída, de acordo com o perfil do trabalhador associado, e inserirá automaticamente o registro de saída ausente para corresponder à hora final do perfil. Ambos os registros de entrada e de saída são essenciais para o cálculo e a aprovação subsequentes dos registros de horas antes que possam ser transferidos para a folha de pagamento.
 
 ## <a name="calculating-registrations"></a>Calculando registros
@@ -113,6 +116,8 @@ Os trabalhadores com tarefas de trabalho não requerem comentário imediato, com
 -   Consumo de tempo
 -   Taxas do projeto
 -   Itens do projeto
+
+
 
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Visão geral da liquidação para pagamentos centralizados
 
+[!include[banner](../includes/banner.md)]
+
+
 As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal que trate todos os pagamentos. Isso elimina a necessidade de inserir a mesma transação em várias entidades legais e poupa tempo ao simplificar o processo de proposta de pagamento, o processo de liquidação, a edição de transações abertas e a edição de transações fechadas para pagamentos centralizados. 
 
 Quando o pagamento de um cliente ou fornecedor é inserido em uma entidade legal e liquidado com uma fatura inserida em outra entidade legal, as transações aplicáveis de liquidação, a vencer e vencidas são geradas automaticamente para cada entidade legal. Um registro de liquidação é criado para cada combinação de nota fiscal e pagamento na transação. Cada registro de liquidação é atribuído um novo número de comprovante, que é baseado na série de sequência numérica do comprovante de pagamento especificado na página **Parâmetros de contas a receber** para clientes e na página **Parâmetros de contas a pagar** para fornecedores. 
@@ -108,6 +111,8 @@ Para pagamentos de fornecedores, as transações a vencer e vencidas na entidade
 
 ## <a name="withholding-tax"></a>Imposto retido na fonte
 A conta de fornecedor associada à fatura é usada para determinar se o imposto retido na fonte deve ser calculado. Se ele se aplicar, será calculado na entidade legal que associada à fatura. Se a entidade legal usa moedas diferentes, a taxa de câmbio da entidade legal associadas à fatura é usada.
+
+
 
 
 

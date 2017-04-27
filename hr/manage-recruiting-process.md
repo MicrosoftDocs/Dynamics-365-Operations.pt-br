@@ -28,28 +28,31 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-a-recruiting-process"></a>Gerenciar um processo de recrutamento
 
-Este tópico descreve um conceito que os recrutas podem usar para controlar as etapas de um processo de recrutamento, incluindo esforços para anunciar posições abertas e para recrutar candidatos candidatos, o rastreamento do candidato e de informações, a entrevista de aplicativos, e marque um ou mais candidatos para preencher as posições abertas na organização.
+[!include[banner](includes/banner.md)]
+
+
+Este tópico descreve um conceito que os recrutadores podem usar para controlar as etapas em um processo de recrutamento, incluindo os esforços para anunciar posições em aberto e para recrutar candidatos, rastrear informações sobre o candidato e sobre a solicitação de emprego, entrevistar candidatos e selecionar um ou mais candidatos para preencher as vagas em sua organização.
 
 <a name="overview"></a>Visão Geral
 --------
 
-Os projetos de recrutamento podem ajudar você a organizar as etapas que concluirá ao preencher posições em aberto em uma entidade legal. Candidato é a pessoa que se aplique de emprego a sua empresa.  Um aplicativo é a expressão de um candidato de juros de emprego por uma empresa e podem ser a ela um projeto de recrutamento expressar juros sobre a abertura específica.  Um único candidato pode ter várias solicitações de emprego na mesma entidade legal ou entre várias empresas na organização.
+Os projetos de recrutamento podem ajudar você a organizar as etapas que concluirá ao preencher posições em aberto em uma entidade legal. Um candidato é a pessoa que se candidata a um emprego em sua empresa.  Uma solicitação de emprego é uma expressão de interesse do candidato que está sendo empregado por uma empresa e pode ser vinculado a um projeto de recrutamento para expressar interesse em uma determinada vaga.  Um único candidato pode ter várias solicitações de emprego na mesma entidade legal ou entre várias empresas na organização.
 
 <a name="recruitment-projects"></a>Projetos de recrutamento
 --------------------
 
-Os projetos de recrutamento permitem que os recrutas acompanha o progresso para preencher uma ou várias posições abertas.  O projeto de recrutamento ao departamento e o trabalho para o qual ou mais posições está aberto. Os projetos de recrutamento também acompanham as seguintes informações para posições em aberto:
+Os projetos de recrutamento permitem que os recrutadores acompanhem o progresso de preenchimento de uma ou mais posições abertas.  O projeto de recrutamento identifica o departamento e o cargo para o qual estão abertas uma ou mais posições. Os projetos de recrutamento também acompanham as seguintes informações para posições em aberto:
 -   O número específico de posições em aberto
 -   O gerente de contratação e um contato alternativo para a posição.
 -   A data em que a requisição foi aprovada
 -   O prazo final da solicitação de emprego
 -   A data inicial estimada
 
-O projeto de recrutamento contém o **Anúncio** usado no **Autoatendimento para funcionários** para anunciar a vaga. Para exibir a vaga para funcionários, o projeto de recrutamento deverá ter um **Anúncio de emprego**, o campo ** Exibir no autoatendimento para funcionários** deve ser definido como Sim, **Prazo final para solicitação de emprego** deve ser definido como uma data futura e o projeto de recrutamento deve ter um **Status do projeto** Iniciado. A tabela a seguir lista o status do projeto de recrutamento possíveis e sua descrição.
+O projeto de recrutamento contém o **Anúncio** usado no **Autoatendimento para funcionários** para anunciar a vaga. Para exibir a vaga para funcionários, o projeto de recrutamento deverá ter um **Anúncio de emprego**, o campo ** Exibir no autoatendimento para funcionários** deve ser definido como Sim, **Prazo final para solicitação de emprego** deve ser definido como uma data futura e o projeto de recrutamento deve ter um **Status do projeto** Iniciado. A tabela a seguir lista os status de possíveis projetos de recrutamento e sua descrição.
 
-| **Status**    | **Indicates that…**                                                                  |
+| **Status**    | **Indica que...**                                                                  |
 |-----------|------------------------------------------------------------------------------------------|
-| Agendado | Os esforços de recrutamento estão sendo preparados.  Recrutar não foi iniciada ainda para o projeto. |
+| Agendado | Os esforços de recrutamento estão sendo preparados.  O recrutamento ainda não foi iniciado para este projeto. |
 | Iniciado   | As solicitações de emprego estão sendo aceitas para as vagas neste projeto.                    |
 | Concluído  | Todas as vagas para este projeto foram preenchidas.                                          |
 | Cancelada  | O recrutamento foi cancelado para este projeto.                                           |
@@ -59,7 +62,7 @@ Os recrutadores também podem registrar a **Mídia** usada para anunciar a vaga 
 <a name="applicants"></a>Candidatos
 ----------
 
-Candidato é a pessoa que se aplica a um trabalho em sua empresa.  Candidatos são compartilhados entre todas as entidades legais em sua organização que fornece a você uma grande de grupo talento para pesquisar de. Você pode manter as competências, as referências, as solicitações de acomodação e as informações pessoais dos candidatos. Quando você criar um registro do candidato, um registro para o candidato é criado no catálogo de endereços global. Você pode usar a página **Candidato** para atualizar as seguintes informações do catálogo de endereços global para os candidatos:
+Um candidato é a pessoa que se candidata a um cargo em sua empresa.  Os candidatos são compartilhados entre todas as entidades legais em sua organização, oferecendo a você a oportunidade de pesquisar em um grande grupo de talentos. Você pode manter as competências, as referências, as solicitações de acomodação e as informações pessoais dos candidatos. Quando você criar um registro do candidato, um registro para o candidato é criado no catálogo de endereços global. Você pode usar a página **Candidato** para atualizar as seguintes informações do catálogo de endereços global para os candidatos:
 -   Informações de endereço
 -   Informações de contato
 -   Informações de identificação
@@ -67,7 +70,7 @@ Candidato é a pessoa que se aplica a um trabalho em sua empresa.  Candidatos s�
 -   Informações pessoais
 
 ## <a name="applications"></a>Aplicativos
-Você pode registrar informações das solicitações de emprego recebidas na página **Candidato**. A solicitação está a expressão de juros do candidato em uma oportunidade de emprego na organização.  Para criar uma solicitação de emprego, o candidato já deve constar como um candidato ou uma pessoa no sistema.
+Você pode registrar informações das solicitações de emprego recebidas na página **Candidato**. A solicitação de emprego é uma expressão do candidato de interesse em uma vaga de trabalho em sua organização.  Para criar uma solicitação de emprego, o candidato já deve existir como um candidato ou como uma pessoa no sistema.
 As solicitações de emprego enviadas por candidatos na rede foram enviadas em resposta a um anúncio de um cargo ou são solicitações não requeridas. Solicitações requeridas são associadas automaticamente ao projeto de recrutamento para o qual o anúncio de emprego foi criado. Solicitações de emprego não requeridas são associadas ao projeto de recrutamento especificado na área **Recrutamento** da página **Parâmetros de recursos humanos**.
 ### <a name="application-status"></a>Status da solicitação de emprego
 
@@ -84,7 +87,7 @@ O status da solicitação de emprego indica quando uma solicitação está em pr
 
 ### <a name="correspondence-actions"></a>Ações de correspondência
 
-Uma ação de correspondência da **Solicitação de emprego** determina o modelo de documento ou de email que você usa para se comunicar com o candidato que enviou a solicitação. Você pode associar ** indicadores de solicitação ** com ações de correspondência para que você use valores das páginas do aplicativo, do candidato, a entrevista, e de projeto de recrutamento em suas comunicações com candidatos.  ** Modelos de email de solicitação ** podem ser criadas para as ações de correspondência para enviar email rapidamente candidatos que têm uma solicitação a determinada combinação de ação de status e de correspondência. Por exemplo, você pode enviar um email de confirmação a todas as solicitações de emprego com ** ** o status recebido e a ação de correspondência ** ** de recebimento.  Após enviado o email, você tem a opção para atualizar automaticamente o status de aplicativos.
+Uma ação de correspondência da **Solicitação de emprego** determina o modelo de documento ou de email que você usa para se comunicar com o candidato que enviou a solicitação. Você pode associar **Indicadores de solicitação de emprego** a ações de correspondência para permitir que você use os valores das páginas Solicitação de emprego, Candidato, Entrevista e Projeto de recrutamento em suas comunicações com os candidatos.  **Modelos de email de solicitação de emprego** podem ser criados para as ações de correspondência para enviar emails rapidamente para os candidatos de uma solicitação de emprego com uma determinada combinação de status e de ação de correspondência. Por exemplo, você pode enviar um email de confirmação a todas as solicitações de emprego com **Status** de Recebido e a **Ação de correspondência** de Recebido.  Após enviar o email, você tem a opção de atualizar automaticamente o status dos aplicativos.
 
 ## <a name="application-routing"></a>Roteamento da solicitação de emprego
 
@@ -92,7 +95,7 @@ Se uma solicitação de emprego deve ser revisada por vários trabalhadores, voc
 
 ## <a name="interviews"></a>Entrevistas
 
-** O candidato entrevista ** pode ser programada ** de aplicativos ** página.  Use ** enviar informações reunião ** botão para enviar um arquivo de calendário com informações de planejamento da entrevista para o candidato e o entrevistador.
+As **Entrevistas de candidatos** podem ser agendadas na página **Aplicativos**.  Use o botão **Enviar informações de reunião** para enviar um arquivo do calendário com informações da agenda da entrevista para o candidato e o entrevistador.
 
 ## <a name="skill-mapping"></a>Mapeamento de habilidades
 
@@ -100,7 +103,9 @@ Se uma solicitação de emprego deve ser revisada por vários trabalhadores, voc
 
 ## <a name="hiring-applicants"></a>Candidatos de contratação
 
-Use a página **Solicitações de emprego** para contratar um candidato. Quando você contratar um candidato, o registro de solicitação de emprego terá o status **Empregado** e o registro pessoal no catálogo de endereços global do candidato será associado ao registro do novo trabalhador. As alterações nas informações do catálogo de endereços global para o registro de novos funcionários também são exibidos no registro do candidato. Isso pode ajudar a reduzir a entrada de dados se o novo trabalhador nunca se aplica para um trabalho diferentes em sua empresa.  Para contratar um trabalhador existente em uma nova posição, clique ** posição altere ** ** o status do aplicativo soltam-se ** para baixo para iniciar o processo de transferência.
+Use a página **Solicitações de emprego** para contratar um candidato. Quando você contratar um candidato, o registro de solicitação de emprego terá o status **Empregado** e o registro pessoal no catálogo de endereços global do candidato será associado ao registro do novo trabalhador. As alterações nas informações do catálogo de endereços global para o registro de novos funcionários também são exibidos no registro do candidato. Isso pode ajudar a reduzir a entrada de dados se o novo trabalhador se candidatar a um trabalho diferente dentro de sua empresa.  Para contratar um trabalhador existente em uma nova posição, clique em **Alterar posição** na lista suspensa **Status da solicitação de emprego** para iniciar o processo de transferência.
+
+
 
 
 

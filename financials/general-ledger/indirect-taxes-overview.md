@@ -28,18 +28,21 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-overview"></a>Visão geral de imposto
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece uma visão geral do sistema de imposto. Explica os elementos da configuração do imposto sobre vendas e como trabalham em conjunto.
 
 <a name="overview"></a>Visão Geral
 --------
 
-A estrutura da suporte vários tipos de impostos de consumo, como imposto sobre vendas, imposto sobre valor agregado (VAT), imposto de bens e serviços) (GST, taxas unidade- baseadas, e retenção de imposto. Os impostos são calculados durante documentados e transações de compra e vendas. Periodicamente, devem ser relatados e paga às autoridades fiscais. 
+A estrutura de imposto dá suporte a muitos tipos de impostos indiretos, como imposto sobre vendas, imposto sobre valor agregado (VAT), imposto de bens e serviços (GST), taxas com base em unidades e retenção de imposto. Estes impostos são calculados e documentados as transações de compra e vendas. Periodicamente, eles devem ser reportados e pagos às autoridades do imposto. 
 
 O diagrama a seguir mostra as entidades da configuração de imposto e a forma como estão relacionadas.
 
-[![(TaxOverview]. /media/taxoverview1-300x209.jpg)](. /media/taxoverview1.jpg) 
+[![TaxOverview](./media/taxoverview1-300x209.jpg)](./media/taxoverview1.jpg) 
 
-Para cada código de imposto que uma empresa deve conta, um código de imposto deve ser definido. Um código de imposto sobre vendas armazena as taxas de imposto e as regras de cálculo do imposto sobre vendas. 
+Para cada imposto que uma empresa deve ser responsável, deve ser definido um código de imposto. Um código de imposto sobre vendas armazena as taxas de imposto e as regras de cálculo do imposto sobre vendas. 
 
 Cada código de imposto sobre vendas deve ser vinculado a um período de liquidação de impostos sobre vendas. Os períodos de liquidação de impostos sobre vendas definem os intervalos nos quais o imposto sobre vendas deve ser reportado e pago à autoridade de imposto sobre vendas. Cada período de liquidação de imposto sobre vendas deve ser atribuído a uma autoridade de imposto sobre vendas. Uma autoridade de imposto sobre vendas representa a entidade à qual o imposto sobre vendas é reportado e pago. Ela também define o layout do relatório de imposto sobre vendas. As autoridades de imposto sobre vendas podem estar relacionadas a contas de fornecedor. 
 
@@ -69,17 +72,17 @@ Em cada transação (linhas de documento de compra/venda, diários, e assim por 
 Em cada transação, você pode pesquisar o imposto sobre vendas calculado abrindo a página **Transação de imposto**. Você pode pesquisar os impostos sobre vendas para uma linha do documento ou para o documento todo. Para certos documentos (por exemplo, faturas de fornecedor e diários gerais), você pode ajustar o imposto sobre vendas calculado se o documento original mostrar os valores de desvio.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Liquidação e relatório de imposto sobre vendas
-O imposto sobre vendas deve ser reportado e pago às autoridades fiscais em intervalos regulares (mensal, trimestral, e assim por diante). Microsoft Dynamics 365 de operações fornece funcionalidade que permite liquidar impostos para o intervalo e deslocará os saldos a conta pagamento de impostos, como especificado nos grupos de postagem do razão. Você pode acessar essa funcionalidade ** imposto de acordo e lançar ** na página. Especifique o período de liquidação do imposto que o imposto deve ser liquidado para. 
+O imposto sobre vendas deve ser reportado e pago às autoridades fiscais em intervalos regulares (mensal, trimestral, e assim por diante). O Microsoft Dynamics 365 for Operations fornece uma funcionalidade que permite liquidar as contas de imposto para o intervalo e compensar os saldos da conta de liquidação de impostos, conforme especificado nos grupos de lançamentos contábeis. Você pode acessar essa funcionalidade na página **Liquidar e lançar imposto**. Especifique o período de liquidação do imposto no qual o imposto deve ser liquidado. 
 
 Após os impostos sobre vendas serem pagos, o saldo na conta de liquidação de impostos sobre vendas deve ser equilibrado em relação à conta bancária. Se a autoridade fiscal que estiver especificada no período de liquidação de imposto estiver relacionada a uma conta de fornecedor, o saldo do imposto será lançado como uma fatura de fornecedor aberta e poderá ser incluído na proposta de pagamento regular.
 
 ## <a name="conditional-sales-tax"></a>Imposto condicional
 O imposto condicional é um imposto que é pago proporcionalmente ao valor real que é pago em uma fatura. Por outro lado, o imposto padrão é calculados no momento do faturamento. O imposto condicional deve ser pago à autoridade de imposto quando o pagamento é lançado, e não quando a fatura é lançada. Quando a fatura é lançada, a transação deve ser informada no relatório do registro de imposto. No entanto, a transação deve ser excluída do relatório de pagamento de imposto. 
 
-Se você marcar a caixa de seleção de imposto condicional em parâmetros de contabilidade formulário, nenhum imposto sobre vendas pode ser deduzido até você paga a nota fiscal. Essa é uma exigência legal em alguns países/regiões.
+Se você marcar a caixa de seleção Imposto condicional no formulário Parâmetros da Contabilidade, nenhum imposto poderá ser deduzido até que você pague a fatura. Essa é uma exigência legal em alguns países/regiões.
 
 > [!NOTE]
-> Quando você seleciona a caixa de seleção de imposto condicional, você deve configurar códigos de imposto e grupos de impostos e, também cria grupos de postagem do razão, de suporte à funcionalidade. |
+> Quando marcar a caixa de seleção Imposto condicional, você deverá configurar códigos de imposto e grupos de imposto, além de criar grupos de lançamento do razão, para oferecer suporte à funcionalidade. |
 
 ###  <a name="example"></a>Exemplo
 
@@ -90,5 +93,7 @@ Você liquida impostos mensalmente. No dia 15 de junho, você cria uma fatura de
 Você normalmente tem de liquidar e pagar 2.500 à autoridade fiscal quando a fatura é lançada em junho, mesmo que não tenha recebido o pagamento do cliente. 
 
 Entretanto, usando o imposto condicional, você liquida a dívida com a autoridade fiscal quando recebe o pagamento do cliente em 30 de julho.
+
+
 
 

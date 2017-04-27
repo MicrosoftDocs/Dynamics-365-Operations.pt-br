@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-forecasts-and-budgets"></a>Previsões e orçamentos de projeto
 
+[!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 de operações fornece duas maneiras de gerenciar e controlar os projetos: previsões de projeto e orçamentos de projeto. 
+
+
+O Microsoft Dynamics 365 for Operations fornece duas maneiras de gerenciar e controlar os projetos: previsões de projeto e orçamentos de projeto. 
 
 Use a previsão de projeto se sua organização tiver uma perspectiva operacional e focar em receitas e custos derivados de transações específicas. Use o orçamento de projeto se a sua organização for mais focada nos valores financeiros. 
 
@@ -45,9 +48,9 @@ Cada método tem suas vantagens. É necessário considerar os seguintes pontos a
 | **Variáveis de transação ** | Ao inserir transações de previsão, é possível usar cada atributo que existe para uma transação real. Isso permite fornecer mais detalhes sobre a previsão. Por exemplo, você pode inserir detalhes de quantidades, trabalhadores, itens ou propriedades de linha.         | Ao inserir os detalhes do orçamento, é possível apenas usar valores, categorias, e atividades.                                                                                    |
 | **Segurança **              | A previsão é baseada nas transações que você insere nos formulários de previsão, e não envolve um mecanismo de controle de processos. Qualquer trabalhador com permissões para acessar um formulário de previsão pode revisar as informações sem aprovação.                                        | O orçamento utiliza o sistema de fluxo de trabalho, o qual permite gerenciar alterações e manter um histórico das revisões.                                                       |
 | **Tipos de entrada **           | As entradas de transação de previsão são baseadas em número de unidades e custos e preços da unidade de vendas.                                                                                                                                                       | Os detalhes do orçamento são baseados em valores que são divididos entre custos e receitas.                                                                                        |
-| **Forecast models**       | Como cada previsão deve estar associada a um modelo, você pode criar vários modelos de previsão e também configurar submodelos.                                                                                                                               | O orçamento do projeto limita os modelos de previsão usados para fazer o orçamento. Menos modelos de previsão podem ajudar a aumentar a consistência nas projeções.                           |
+| **Modelos de previsão**       | Como cada previsão deve estar associada a um modelo, você pode criar vários modelos de previsão e também configurar submodelos.                                                                                                                               | O orçamento do projeto limita os modelos de previsão usados para fazer o orçamento. Menos modelos de previsão podem ajudar a aumentar a consistência nas projeções.                           |
 | **Excedentes de custo **         | Você só pode permitir ou recusar a entrada de transações que causarão um excedente de custo.                                                                                                                                                                | O orçamento do projeto fornece opções adicionais de controle para os usuários. Você pode permitir avisos e excedentes.                                                                   |
-| **Control**               | O controle de previsão é executado usando a redução de previsão. Os valores reais são subtraídos dos saldos da transação de previsão sem trilha de auditoria. Isso pode dificultar o rastreamento de onde as transações reais ocorreram.                   | No controle de orçamento de projeto, os valores reais são subtraídos dos valores do orçamento restante. Isso proporciona uma trilha de auditoria clara.                                   |
+| **Controle**               | O controle de previsão é executado usando a redução de previsão. Os valores reais são subtraídos dos saldos da transação de previsão sem trilha de auditoria. Isso pode dificultar o rastreamento de onde as transações reais ocorreram.                   | No controle de orçamento de projeto, os valores reais são subtraídos dos valores do orçamento restante. Isso proporciona uma trilha de auditoria clara.                                   |
 
 ## <a name="project-forecasts"></a>Previsões de projeto
 Quando a previsão de projeto é usada, será possível inserir as transações de previsão em formulários de previsão para cada tipo de transação. Cada atributo que está disponível para uma transação real pode ser usado para uma transação de previsão—por exemplo, lucratividade de linha, atributos de linha, trabalhadores ou descrições. Você também pode projetar quanto tempo depois de incorrer em um custo que você vai faturar um cliente. 
@@ -62,7 +65,7 @@ Os modelos de previsão podem usar a redução de previsão como mecanismo de co
 
 Você pode revisar, copiar, excluir, ou transferir previsões de projeto para um orçamento da contabilidade. No entanto, não há controle de processo. Qualquer trabalhador com permissão para um formulário de previsão pode fazer revisões sem revisar.
 
--   ** Revisão ** – você poderá revisar uma transação de previsão nos mesmos formulários em que as entradas foram feitas originais.
+-   **Revisar** – Você pode fazer revisões em uma transação de previsão nos mesmos formulários em que as entradas originais foram feitas.
 -   **Copiar ou excluir** – Ao copiar transações de previsão, você copia as linhas de transação de um modelo de previsão para outro. Quando você exclui uma previsão, exclui as transações de previsão de um modelo de previsão. Para delimitar as transações de previsão que são copiadas ou excluídas, selecione os tipos de transação específicos e as datas. Isso permite copiar ou excluir somente partes específicas de uma previsão.
 -   **Transferir** – Quando você transfere uma previsão de projeto para um orçamento de contabilidade, transfere as transações de previsão de um modelo de previsão para um modelo de orçamento de contabilidade. É possível substituir qualquer transação transferida anteriormente no orçamento de contabilidade para a qual você transferir a previsão de projeto.
 
@@ -78,6 +81,8 @@ Os orçamentos do projeto são associados automaticamente a dois modelos de prev
 ## <a name="forecast-models"></a>Modelos de previsão
 Os modelos de previsão tem uma hierarquia de uma única camada. Isso significa que uma previsão de projeto deve estar associada a um modelo de previsão.
 
-Se você usar a previsão de projeto, você pode identificar modelos como submodelos. É possível criar previsões por departamento, por período, ou por região. Por exemplo, você pode criar um modelo de previsão para um ano e, em seguida, criar submodelos para as previsões das regiões nordeste, sudeste, noroeste e sudoeste enviadas pelos chefes regionais. Selecionando diferentes opções disponíveis nos relatórios, você pode exibir informações de previsão por total ou submodelo. por
+Se você usar a previsão de projeto, pode identificar modelos como submodelos. Você pode então criar previsões por departamento, período de tempo ou região. Por exemplo, você pode criar um modelo de previsão para um ano e, em seguida, criar submodelos para as previsões das regiões nordeste, sudeste, noroeste e sudoeste enviadas pelos chefes regionais. Ao selecionar opções diferentes nos relatórios disponíveis, você pode ver informações pela previsão total ou por submodelo.
+
+
 
 

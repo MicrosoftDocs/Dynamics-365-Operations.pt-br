@@ -45,7 +45,7 @@ Uma definição de linha é um componente de relatório ou bloco de construção
 Uma definição de linha pode conter até 20.000 linhas de dimensão financeira e pode incluir as seguintes informações:
 
 -   O texto descritivo que confere significado ao relatório ao criar títulos, linhas e espaços na seção, como **Pagamento à vista** ou **Receita total**
--   Vincular a dados financeiros, que podem incluir valores de dimensão no Microsoft Dynamics 365 para operações ** observação: ** Você pode configurar uma definição de linha para receber dados do sistema de dimensão financeira sempre que o relatório é gerado.
+-   Links para dados financeiros, que podem incluir valores de dimensão no Microsoft Dynamics 365 for Operations **Observação:** Você pode configurar uma definição de linha para puxar dados do sistema de dimensões financeiras sempre que o relatório é gerado.
 -   Os totais de linhas e as fórmulas que se baseiam nos dados financeiros vinculados
 
 Geralmente, cada linha em uma definição de linha contém um dos seguintes tipos de informações:
@@ -64,7 +64,7 @@ Uma dimensão é uma interseção de dados e valores. Você pode agrupar dados e
 
 | Opção                | Descrição                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Dimensão             | O padrão que identifica a dimensão a ser adicionada à definição de linha. Esse padrão contém um E comercial (&) ou um símbolo de cerquilha (\#) para cada posição nas dimensões. Em geral, use E comerciais para a dimensão Conta principal e sinais numéricos para outras dimensões. |
+| Dimensão             | O padrão que identifica a dimensão a ser adicionada à definição de linha. Este padrão contém um E comercial (&) ou sinal numérico (\#) para cada posição nas dimensões. Em geral, use E comerciais para a dimensão Conta principal e sinais numéricos para outras dimensões. |
 | Início do Intervalo de Dimensões | O primeiro valor desta dimensão a ser adicionado à definição de linha.                                                                                                                                                                                                                 |
 | Final do Intervalo de Dimensões   | O último valor desta dimensão a ser adicionado à definição de linha.                                                                                                                                                                                                                  |
 
@@ -73,9 +73,9 @@ Para adicionar dimensões a uma definição de linha, siga as etapas a seguir.
 1.  No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
 2.  No menu **Editar**, clique em **Inserir Linhas de Dimensões**.
 3.  Na caixa de diálogo **Inserir Linhas de Dimensões **, na linha **Dimensões**, selecione a célula da dimensão a ser transferida para a definição de linha e clique em **Todos &&&**.
-4.  Para limitar a definição de linha a um intervalo específico de valores de dimensões, digite o valor de dimensão inicial na célula ** Início do Intervalo de Dimensões **, e digite o valor de dimensão final na célula **Final do Intervalo de Dimensões**. Para incluir todos os valores da dimensão selecionada, deixe essas células vazias. ** Observação: ** Os caracteres curinga (ou\* ?) nos intervalos de dimensão não podem retornar todos os resultados que você deseja, dependendo de como o Base de dados de ERP agrupa os dados.
+4.  Para limitar a definição de linha a um intervalo específico de valores de dimensões, digite o valor de dimensão inicial na célula ** Início do Intervalo de Dimensões **, e digite o valor de dimensão final na célula **Final do Intervalo de Dimensões**. Para incluir todos os valores da dimensão selecionada, deixe essas células vazias. **Observação:** Os caracteres curinga (\* ou ?) em intervalos de dimensão não podem retornar todos os resultados desejados, dependendo de como o banco de dados ERP agrupa dados.
 5.  No campo **Código de linha inicial** para especificar o código de linha para o primeiro valor de dimensão a ser adicionado à definição de linha.
-6.  No campo **Incrementar cada linha em** para especificar o intervalo entre os códigos de linha consecutivos. Por exemplo, se o primeiro código de linha for 100, e o valor de incremento for 30, as primeiras novas linhas têm os códigos 100, 130, 160, 190, e 220. Use um valor de incremento que forneça espaço suficiente linhas de formato e de fórmula de inserção em novo.
+6.  No campo **Incrementar cada linha em** para especificar o intervalo entre os códigos de linha consecutivos. Por exemplo, se o primeiro código de linha é 100 e o valor de incremento é 30, as primeiras novas linhas têm os códigos 100, 130, 160, 190 e 220. Use um valor de incremento que forneça espaço suficiente para inserir novas linhas de formato e fórmula.
 7.  Clique em **OK**. Para cada uma dos valores de dimensão selecionados, uma linha é adicionada a definição da linha.
 
 ## <a name="adjust-rounding-in-a-row-definition"></a> Ajustar arredondamento em uma definição de linha
@@ -146,7 +146,7 @@ A formatação que é especificada na definição de coluna substitui a formata�
 
 1.  No Designer de Relatórios, abra a definição de linha a ser modificada.
 2.  Selecione as células para formatar. Para selecionar várias células, mantenha pressionada a tecla CTRL enquanto seleciona a célula.
-3.  Clique no botão na barra de ferramentas do formato a ser aplicado. Por exemplo, para recuar uma linha, selecione a linha, clique em ** recuo de aumento **! Diminuir recuo [] (https://i-technet.sec.s-msft.com/dynimg/IC679497.gif “recuo de aumento aumento”) na barra de ferramentas.
+3.  Clique no botão na barra de ferramentas do formato a ser aplicado. Por exemplo, para recuar uma linha, selecione a linha e clique em **Aumentar recuo** ![Aumentar recuo](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "Aumentar recuo") na barra de ferramentas.
 
 ### <a name="adjust-columns-while-you-design-reports"></a>Ajuste colunas ao criar relatórios
 
@@ -173,6 +173,6 @@ Para facilitar a exibição das colunas em que estiver trabalhando na definiçã
 <a name="see-also"></a>Consulte também
 --------
 
-[Relatórios financeiros para o Microsoft Dynamics 365 para operações (financial-reporting-intro.md])
+[Relatório financeiro para o Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

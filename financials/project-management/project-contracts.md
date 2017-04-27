@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-contracts"></a>Contratos do projeto
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve e fornece exemplos de contratos de projeto que você pode criar para vários tipos de projetos e fontes de financiamento, e como você pode gerenciar contratos e enviar faturas a clientes do projeto no Microsoft Dynamics 365 for Operations.
 
 O tipo de projeto que você cria para um contrato de projeto determina o método de faturamento que é usado para os clientes de projeto. Você pode modificar um contrato de projeto e o projeto relacionado, mas não é possível alterar o tipo de projeto. 
@@ -80,7 +83,7 @@ A tabela a seguir fornece cenários para gerenciar a alocação de financiamento
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Scenario</strong></td>
+<td><strong>Cenário</strong></td>
 <td><strong>Fonte de financiamento </strong></td>
 <td><strong>Porcentagem de alocação </strong></td>
 <td><strong>Prioridade de alocação </strong></td>
@@ -192,7 +195,7 @@ A tabela a seguir examina esse cenário detalhadamente.
 <tbody>
 <tr class="odd">
 <td><strong>Foco </strong></td>
-<td><strong>Details</strong></td>
+<td><strong>Detalhes</strong></td>
 </tr>
 <tr class="even">
 <td>Regras de financiamento</td>
@@ -220,7 +223,7 @@ A tabela a seguir examina esse cenário detalhadamente.
 </tr>
 <tr class="odd">
 <td>Transação 2</td>
-<td><strong>Valor da transação:</strong> 5,000.00<strong>Financiamento:</strong> For paga de acordo com as regras três.<strong>Regra 1</strong>
+<td><strong>Valor da transação:</strong> 5.000,00<strong>Financiamento:</strong> A transação é paga de acordo com todas as três regras.<strong>Regra 1</strong>
 <ul>
 <li>Fonte de financiamento 2: 450,00</li>
 <li>Fonte de financiamento 3: 450,00</li>
@@ -339,5 +342,7 @@ Quando você configura o contrato de projeto, você concorda em cobrar o cliente
 -   Você cria uma fatura de cliente no final de cada mês do calendário durante o projeto.
 
 Durante o primeiro mês, um total de 800 horas são registradas pelos consultores no projeto. O custo dos materiais de escritório cobrados no projeto é de 2.000. Sendo assim, no final do mês, você cria uma fatura para 122.000, calculado como 800 horas a 150 por hora mais 2.000 para suprimentos de escritório.
+
+
 
 

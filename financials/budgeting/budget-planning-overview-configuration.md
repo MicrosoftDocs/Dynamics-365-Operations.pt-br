@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-overview"></a>Visão geral do planejamento de orçamento
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo apresenta planejamento de orçamento e contém informações para ajudar a configurar o planejamento de orçamento e a definir os processos de planejamento de orçamento.
 
 <a name="overview-of-budget-planning"></a>Visão geral do planejamento de orçamento
@@ -34,7 +37,7 @@ Este artigo apresenta planejamento de orçamento e contém informações para aj
 
 Você realizará o planejamento do orçamento ao preparar os orçamentos que serão implementados por uma organização. Uma organização pode configurar o planejamento de orçamento e, em seguida, definir os processos de planejamento de orçamento para atender às políticas, procedimentos e aos requisitos para preparação do orçamento. 
 
-Quando você insere os conceitos e a terminologia que serão usados no Microsoft Dynamics 365 para operações, será mais fácil para implementar o planejamento de orçamento na organização.
+Quando você compreende os conceitos e a terminologia usados no Microsoft Dynamics 365 for Operations, será mais fácil implementar o plano de orçamento na sua organização.
 
 ### <a name="key-terms"></a>Condições principais
 
@@ -44,7 +47,7 @@ Quando você insere os conceitos e a terminologia que serão usados no Microsoft
 -   **Estágios do plano de orçamento** – Os estágios de planejamento de orçamento definem as etapas que o plano de orçamento seguem desde sua criação até sua aprovação. Os estágios do planejamento de orçamento são organizados em fluxos de trabalho do planejamento de orçamento.
 -   **Fluxos de trabalho do planejamento do orçamento** – Os fluxos de trabalho do planejamento de orçamento consiste em estágios do planejamento do orçamento e o define. Os fluxos de trabalho do planejamento de orçamento são associados aos fluxos de trabalho do orçamento. Os fluxos de trabalho de orçamento são os processos automatizados e manuais que movem os planos de orçamento nos estágios de planejamento do orçamento.
 
-[terminologia de planejamento de orçamento do![(]. /media/budgetplanning-terms-1024x504.png)](. /media/budgetplanning-terms.png)
+[![Terminologia do planejamento do orçamento](./media/budgetplanning-terms-1024x504.png)](./media/budgetplanning-terms.png)
 
 ### <a name="common-tasks"></a>Tarefas comuns
 
@@ -55,7 +58,7 @@ Você pode usar o planejamento de orçamento para realizar estas tarefas:
 -   Em seguida, Encaminhe os planos do orçamento, com planilhas, documentos de justificativa e outros anexos, para revisão e aprovação.
 -   Consolidar vários planos de orçamento de um nível mais baixo da organização em um único plano de orçamento pai em um nível mais alto da organização. Também é possível desenvolver um único plano de orçamento em um nível mais alto da organização e alocar o orçamento para os níveis mais baixos da organização.
 
-Planejamento de orçamento é integrado com outro Microsoft Dynamics 365 para os módulos de operações. Consequentemente, você poderá exibir as informações de orçamento anteriores, despesa atuais, ativos fixos e recursos humanos. Como o plano do orçamento também é integrado ao Microsoft Excel e ao Microsoft Word, é possível usar esses programas para trabalhar com os dados do planejamento do orçamento. Por exemplo, um gerente de orçamento pode importar a solicitação de orçamento de um cenário do plano de orçamento na planilha do Excel. Os dados podem ser analisados, atualizados e representados em gráfico na planilha e, em seguida, publicados de volta nas linhas do plano de orçamento.
+O planejamento de orçamento é integrado a outros módulos do Microsoft Dynamics 365 for Operations. Consequentemente, você poderá exibir as informações de orçamento anteriores, despesa atuais, ativos fixos e recursos humanos. Como o plano do orçamento também é integrado ao Microsoft Excel e ao Microsoft Word, é possível usar esses programas para trabalhar com os dados do planejamento do orçamento. Por exemplo, um gerente de orçamento pode importar a solicitação de orçamento de um cenário do plano de orçamento na planilha do Excel. Os dados podem ser analisados, atualizados e representados em gráfico na planilha e, em seguida, publicados de volta nas linhas do plano de orçamento.
 
 ## <a name="configuring-budget-planning"></a>Configurando o planejamento de orçamento
 A página **Configuração do planejamento do orçamento** contém a maioria das configurações exigidas para configurar um plano de orçamento. As seções a seguir descrevem alguns fatores que devem ser considerados ao configurar o planejamento do orçamento. Depois de concluir a configuração, configure os processos do plano do orçamento.
@@ -64,11 +67,11 @@ A página **Configuração do planejamento do orçamento** contém a maioria das
 
 A primeira etapa opcional, mas recomendada, é criar um esquema que mostra o procedimento da organização para formular um orçamento. Você pode usar o método que desejar para criar este esquema. A ilustração a seguir mostra um exemplo genérico, em que os fluxos de trabalho do plano de orçamento separados são criados para níveis diferentes da organização. Os estágios são definidos em cada fluxo de trabalho e os cenários específicos são atribuídos a cada estágio para reter os dados do orçamento. As tarefas são realizadas para mover os dados de um estágio para o outro. Por exemplo, os valores podem ser alocados ou agregados em contas diferentes, aprovações diferentes ou outras revisões. Neste exemplo, o texto em itálico indica um cenário que não é editável durante o estágio, ou dados que são históricos ou foram aprovados em uma fase anterior e não devem ser alterados. 
 
-[orçamento![que planeja o esquema (genérica]. /media/budgetplanninggenericschema-300x145.png)](. /media/budgetplanninggenericschema.png) 
+[![Esquema genérico do plano de orçamento](./media/budgetplanninggenericschema-300x145.png)](./media/budgetplanninggenericschema.png) 
 
-No exemplo, sedes corporativas as estimam os valores iniciais de linha base de orçamento e distribuem-nos departamentos de vendas. Os departamentos de vendas estimam e envia a previsão para a matriz, onde o gerente poderá agregá-la e ajustá-la. Além disso, o gerente de orçamento envia os valores de orçamento ajustados ao CFO para revisão, ajustes finais e aprovação. 
+No seguinte exemplo, a matriz corporativa estima os valores da linha de base do orçamento inicial e os distribui para os departamentos de vendas. Os departamentos de vendas estimam e envia a previsão para a matriz, onde o gerente poderá agregá-la e ajustá-la. Além disso, o gerente de orçamento envia os valores de orçamento ajustados ao CFO para revisão, ajustes finais e aprovação. 
 
-[exemplo do esquema de planejamento de orçamento do![(]. /media/budgetplanningexampleschema-300x145.png)](. /media/budgetplanningexampleschema.png)
+[![Exemplo do esquema do plano de orçamento](./media/budgetplanningexampleschema-300x145.png)](./media/budgetplanningexampleschema.png)
 
 ###  <a name="organization-hierarchy-for-budget-planning"></a>Hierarquia organizacional para o plano do orçamento
 
@@ -84,17 +87,17 @@ O plano do orçamento pode seguir um dos dois modelos para definir permissões d
 
 Os fluxos de trabalho do plano de orçamento são usados com fluxos de trabalho de orçamento para gerenciar a criação e a evolução dos planos de orçamento.
 
-Um fluxo de trabalho do planejamento de orçamento consiste em um conjunto de estágios ordenados pelos quais um plano de orçamento se move. Cada fluxo de trabalho do plano do orçamento está associado ao fluxo de trabalho do orçamento. Os fluxos de trabalho de orçamento são os tipos de fluxo de trabalho usados em todo o Microsoft Dynamics 365 para as operações. O fluxo de trabalho do orçamento encaminha os planos de orçamento, com planilhas, justificações e anexos, por meio da sua organização para revisão e aprovação. 
+Um fluxo de trabalho do planejamento de orçamento consiste em um conjunto de estágios ordenados pelos quais um plano de orçamento se move. Cada fluxo de trabalho do plano do orçamento está associado ao fluxo de trabalho do orçamento. Os fluxos de trabalho de orçamento são um dos tipos do fluxo de trabalho que são usados em todo o Microsoft Dynamics 365 for Operations. O fluxo de trabalho do orçamento encaminha os planos de orçamento, com planilhas, justificações e anexos, por meio da sua organização para revisão e aprovação. 
 
 Você cria o fluxo de trabalho do planejamento na seção **Estágios do fluxo de trabalho** da página **Configuração do plano de orçamento**. Nele, é possível selecionar os estágios e o fluxo de trabalho do orçamento que será usado e definir configurações adicionais. 
 
 Uma boa prática é criar um fluxo de trabalho do planejamento de orçamento para cada nível da hierarquia do orçamento. Em seguida, atribua um fluxo de trabalho do orçamento que contém os elementos que correspondem aos estágios no fluxo de trabalho do orçamento. No esquema do exemplo que aparece neste artigo, um fluxo de trabalho do planejamento de orçamento será criado para os departamentos de venda e outro deve ser criado para a matriz. Um fluxo de trabalho de orçamento move os planos de orçamento pelos estágios. 
 
-Você cria o fluxo de trabalho do orçamento para o plano na página **Fluxos de trabalho do orçamento**. O processo é parecido com o processo para criar fluxos outros de trabalho no Microsoft Dynamics 365 para as operações. A ilustração a seguir mostra um exemplo de um fluxo de trabalho da matriz. 
+Você cria o fluxo de trabalho do orçamento para o plano na página **Fluxos de trabalho do orçamento**. O processo se parece com o processo para criar outros fluxos de trabalho no Microsoft Dynamics 365 for Operations. A ilustração a seguir mostra um exemplo de um fluxo de trabalho da matriz. 
 
-[fluxo de trabalho![orçamento do![para o planejamento de orçamento (]. /media/budgetingworkflowforbudgetplanning-300x300.png)](. /media/budgetingworkflowforbudgetplanning.png) 
+[![Fluxo de trabalho do orçamento para o plano do orçamento](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 
-O fluxo de trabalho contém elementos à alocação nos departamentos de venda e agregação das submissões, a revisão pelo gerente de orçamento, a aprovação por CFO, e as transições de estágio entre cada estágio. 
+O fluxo de trabalho inclui elementos para a alocação para departamentos de vendas e agregações de seus envios, revisão pelo gerente de orçamentos, aprovação do chefe do departamento financeiro e as transições entre os estágios. 
 
 Atribua o fluxo de trabalho do orçamento a cada fluxo de trabalho do planejamento do orçamento na seção **Estágios do fluxo de trabalho** da página **Configuração do planejamento do orçamento**.
 
@@ -112,8 +115,8 @@ No plano do orçamento, você pode alocar os valores ou quantidades nas linhas d
 
 Os planos de agendamento alocam linhas do plano de orçamento durante o processamento do fluxo de trabalho. Você pode executar alocações ao usar um dos métodos a seguir na lista **Método de alocação**:
 
--   **Alocar entre períodos** - É possível usar uma chave de alocação para alocar as linhas do plano de orçamento do cenário do plano orçamento de origem entre períodos no cenário de destino. ** Observação: ** Antes de atribuir por períodos, você deve configurar chaves de alocação de período na página de **** categorias de alocação de período de ****.
--   **Alocar para dimensões** – As linhas do plano de orçamento são alocadas desde o cenário do plano de orçamento de origem nas dimensões financeiras do cenário de destino. ** Observação: ** Antes de atribuir as dimensões, você deve configurar condições de alocação de orçamento na página de **** as condições de alocação de orçamento de ****.
+-   **Alocar entre períodos** - É possível usar uma chave de alocação para alocar as linhas do plano de orçamento do cenário do plano orçamento de origem entre períodos no cenário de destino. **Observação:** Antes que você possa alocar nos períodos, você deve definir chaves de alocação do período na página ****Categorias de alocação do período****.
+-   **Alocar para dimensões** – As linhas do plano de orçamento são alocadas desde o cenário do plano de orçamento de origem nas dimensões financeiras do cenário de destino. **Observação:** Antes que você possa alocar para dimensões, é necessário configurar condições de alocação de orçamento na página ****Condições de alocação de orçamento****.
 -   **Agregar** – As linhas do plano do orçamento são agregadas a partir do cenário do plano de orçamento de origem são associadas aos planos de orçamento para o cenário de destino no plano de orçamento pai.
 -   **Distribuir** – As linhas do plano de orçamento são distribuídas desde o cenário do plano de orçamento de origem no plano de orçamento principal para o cenário de destino nos planos de orçamento associados.
 -   **Usar regras de alocação do razão** – As linhas do plano de orçamento são distribuídas a partir do cenário do plano de orçamento de origem para o cenário de destino, com base na regra de alocação do razão selecionada.
@@ -123,15 +126,15 @@ Os planos de agendamento alocam linhas do plano de orçamento durante o processa
 
 As alocações do estágio são usadas para alocar automaticamente as linhas do plano de orçamento durante o processamento do fluxo de trabalho. Quando as alocações do estágio são usadas, as linhas do plano de orçamento no destino podem ser criadas e modificadas sem a intervenção do preparador ou do revisor do plano de orçamento para criar as linhas.
 
-Ao configurar uma alocação de estágio, você associa o fluxo de trabalho e o estágio do planejamento de orçamento à agenda de alocação. O fluxo de trabalho de planejamento de orçamento deve ser associado a um fluxo de trabalho de orçamento a tarefa que usa automatizada **** de fluxo de trabalho de alocação de remessa de planejamento de orçamento de ****. Quando o fluxo de trabalho atingir o estágio especificado, a alocação ocorrerá automaticamente. Essa tarefa automatizada pode ser usada para criar linhas do plano de orçamento em um novo cenário. 
+Ao configurar uma alocação de estágio, você associa o fluxo de trabalho e o estágio do planejamento de orçamento à agenda de alocação. O fluxo de trabalho do planejamento de orçamento deve estar associado a um fluxo de trabalho de orçamento que usa a tarefa de fluxo de trabalho automatizada ****Alocação do estágio de plano do orçamento****. Quando o fluxo de trabalho atingir o estágio especificado, a alocação ocorrerá automaticamente. Essa tarefa automatizada pode ser usada para criar linhas do plano de orçamento em um novo cenário. 
 
 No esquema do exemplo anteriormente exibido neste artigo, uma alocação será executada para transferir valores de um plano de orçamento e os cenários no estágio da linha de base da matriz para outro plano de orçamento e os cenários no estágio Estimativa do departamento de vendas. A ilustração a seguir mostra a seção relevante do esquema de exemplo.
 
-[alocação de remessa do![(]. /media/stageallocation-204x300.png)](. /media/stageallocation.png) 
+[![Alocação do estágio](./media/stageallocation-204x300.png)](./media/stageallocation.png) 
 
-Adicionalmente, o esquema do exemplo, uma agregada é feita planos e de orçamento nos cenários de estágio enviado de departamento de vendas a um plano principal no estágio de acúmulo da matriz. A ilustração a seguir mostra a seção relevante do esquema de exemplo.
+Além disso, no esquema de exemplo, uma agregação é feita de planos e os cenários de orçamento no estágio Enviado para departamento de vendas para um plano principal na fase Acúmulo da matriz. A ilustração a seguir mostra a seção relevante do esquema de exemplo.
 
-[![Aggregation](./media/aggregation-109x300.png)](./media/aggregation.png)
+[![Agregação](./media/aggregation-109x300.png)](./media/aggregation.png)
 
 ### <a name="priorities"></a>Prioridades
 
@@ -149,9 +152,9 @@ Além das colunas para valores de orçamento, é possível definir colunas para 
 
 Para o esquema de exemplo, é necessário criar colunas para Vendas, Contratos e Previsões de PY (a ilustração a seguir mostra a seção relevante do esquema). Em seguida, você poderá dividir um desses cenários em colunas separadas para cada trimestre do ano fiscal, de modo que o gerente do departamento de vendas possa inserir os valores de previsão de cada período de maneira precisa.
 
-[![Columns](./media/columns.png)](./media/columns.png) 
+[![Colunas](./media/columns.png)](./media/columns.png) 
 
-Você designa também se cada elemento do layout (coluna) é editável, e está disponível em qualquer modelo de planilha que seja criado para o layout. Para o esquema de exemplo, no layout usado para a fase de previsão, as colunas da previsão são editáveis, enquanto as colunas de vendas e contratos de PY são somente leitura.
+Você também pode designar se cada elemento de layout (coluna) é editável e se está disponível no modelo que é criado para o layout. Para o esquema de exemplo, no layout usado para a fase de previsão, as colunas da previsão são editáveis, enquanto as colunas de vendas e contratos de PY são somente leitura.
 
 ### <a name="templates"></a>Modelos
 
@@ -160,7 +163,7 @@ Na seção **Layouts** da página **Configuração de planejamento de orçamento
 É possível gerar, visualizar ou carregar um modelo para cada layout. Quando um modelo é gerado, o layout está bloqueado e não pode ser editado. O bloqueio ajuda a garantir que o formato do modelo corresponde ao layout do plano de orçamento e inclui os mesmos dados. Depois que um modelo é gerado, pode ser exibido e editado. Por exemplo, você pode adicionar gráficos ao modelo ou personalizar sua aparência.
 
 > [!NOTE] 
-> O modelo deve ser salvo em um local em que o usuário tem acesso, de modo que possa ser carregado para layout após editar está concluído. Dessa maneira, o modelo será usado com planos de orçamento que usam o layout.
+> O modelo deve ser salvo em um local ao qual o usuário tem acesso, de modo que possa ser carregado para o layout após a conclusão da edição. Dessa maneira, o modelo será usado com planos de orçamento que usam o layout.
 
 ### <a name="descriptions"></a>Descrições
 
@@ -184,6 +187,8 @@ No menu **Ações**, você também pode criar um novo processo ao copiar um proc
 
 Outro comando útil no menu **Ações** é **Visualizar processo do orçamento**. Este comando exibe graficamente os planos de orçamento em um processo, junto com os dados relevantes, como o status do fluxo de trabalho de planos, resumos pelo valor e por unidade, e navegação de único clique para os planos do orçamento.
 
-[![Budget planning process status](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+[![Status de processo de planejamento de orçamento](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
+
+
 
 

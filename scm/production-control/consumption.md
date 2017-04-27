@@ -1,5 +1,5 @@
 ---
-title: Calcule o consumo material
+title: Calcular o consumo de materiais
 description: "Este artigo oferece informações sobre as diversas opções relacionadas ao cálculo do consumo de material."
 author: YuyuScheller
 manager: AnnBe
@@ -27,22 +27,25 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="calculate-material-consumption"></a>Calcule o consumo material
+# <a name="calculate-material-consumption"></a>Calcular o consumo de materiais
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo oferece informações sobre as diversas opções relacionadas ao cálculo do consumo de material. 
 
 As opções a seguir relacionadas ao cálculo de consumo de materiais estão disponíveis nas guias **Configuração** e **Consumo em etapas** na Guia Rápida **Detalhes da linha** da página **Lista de materiais**.
 
 ## <a name="variable-and-constant-consumption"></a>Consumo variável e constante
-** O consumo for ** campo, selecione se o consumo deverá ser calculado como uma quantidade constante ou um valor variável. ** Constante ** selecione se uma quantidade ou um volume fixo são necessários para a produção, independentemente da quantidade que é gerada. Selecione **Variável**, que é a configuração padrão, se o valor do material necessário nas mercadorias concluídas for proporcional ao número de mercadorias concluídas produzidas.
+No campo **O consumo é**, você pode selecionar se o consumo deve ser calculado como uma quantidade constante ou uma quantidade variável Selecione **Constante** se um volume ou uma quantidade fixa for necessário para a produção, independentemente da quantidade produzida. Selecione **Variável**, que é a configuração padrão, se o valor do material necessário nas mercadorias concluídas for proporcional ao número de mercadorias concluídas produzidas.
 
 ## <a name="calculating-consumption-from-a-formula"></a>Cálculo de consumo usando uma fórmula
 No campo **Fórmula**, você pode configurar diversas fórmulas para calcular o consumo de materiais. Se você usar o valor padrão, **Padrão**, o consumo não será calculado com uma fórmula. As seguintes fórmulas funcionam junto com os campos **Altura**, **Largura**, **Profundidade**, **Densidade** e **Constante**:
 
--   Constante do \*
--   Constante \* largura do \*
--   Constante do \* de profundidade \* largura do \*
--   Profundidade (/razão \* largura do \* de altura constante do \* )
+-   Altura \* constante
+-   Altura \* largura \* constante
+-   Altura \* largura \* profundidade \* constante
+-   (Altura \* largura \* profundidade / densidade) \* constante
 
 ## <a name="rounding-up-and-multiples"></a>Arredondamento e múltiplos
 Juntos, os campos **Arredondamento** e **Múltiplos** permitem que você arredonde o valor de consumo de materiais. Por exemplo, você pode arredondar o valor de acordo com a unidade de manuseio em que a matéria-prima é separada para a produção. As seguintes opções estão disponíveis no campo **Arredondamento**: **Quantidade**, **Medida** e **Consumo**.
@@ -53,7 +56,7 @@ Se você selecionar **Quantidade** como o mecanismo de arredondamento, a quantid
 
 ### <a name="measurement"></a>Medida
 
-Normalmente, você selecionará **Medida** como o mecanismo de arredondamento quando a matéria-prima tiver dimensões específicas. Por exemplo, uma peça de tubo de metal de dois metros é necessária para uma mercadoria concluída, e o tubo de metal é armazenado em comprimentos de 4,5 metros. Nesse caso, o mecanismo de arredondamento de **Medida** pode ser usado para calcular quantos tubos de metal são necessários para produzir um número específico de peças da mercadoria concluída. Para este exemplo, a fórmula ** ** o campo é definido ** constante do \* de altura. ** ** Altura ** o campo é definido ** ** 2 para indicar o comprimento de tubo necessário para o item concluído. O campo **Múltiplo** é definido como **4,5** para indicar que o tubo será separado em comprimentos de 4,5 metros. Este é o cálculo:
+Normalmente, você selecionará **Medida** como o mecanismo de arredondamento quando a matéria-prima tiver dimensões específicas. Por exemplo, uma peça de tubo de metal de dois metros é necessária para uma mercadoria concluída, e o tubo de metal é armazenado em comprimentos de 4,5 metros. Nesse caso, o mecanismo de arredondamento de **Medida** pode ser usado para calcular quantos tubos de metal são necessários para produzir um número específico de peças da mercadoria concluída. Para esse exemplo, o campo **Fórmula** é definido como **Altura \* Constante**. O campo **Altura** definido como **2** para indicar o comprimento do tubo exigido para a mercadoria concluída. O campo **Múltiplo** é definido como **4,5** para indicar que o tubo será separado em comprimentos de 4,5 metros. Este é o cálculo:
 
 1.  Número de múltiplos necessários para 10 peças da mercadoria concluída: 10 ÷ 2 = 5 peças
 2.  Consumo total: 4,5 × 5 = 22,5 metros de tubo de metal
@@ -78,5 +81,7 @@ O consumo em etapas é usado para calcular o consumo constante em intervalos de 
 | 200,00      | 40,0000  |
 
 A quantidade da lista de materiais (BOM) é 1, a quantidade de produção é 110. A fórmula para o consumo é De séries (Quantidade) = Consume. Como a quantidade de produção é 110, ela recai na "série A partir de 100". Portanto, a quantidade é 20.
+
+
 
 

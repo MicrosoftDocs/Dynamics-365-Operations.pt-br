@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="three-way-matching-policies"></a>Políticas de conciliação tripla
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo oferece exemplos da conciliação tripla.
 
 <a name="example-three-way-matching-for-items"></a>exemplo: conciliação tripla para itens
@@ -62,7 +65,7 @@ As políticas de conciliação de faturas neste exemplo ajudam as pessoas nas fu
 1.  Sammy, um funcionário no departamento de remessa na Fabrikam recebe, a quantidade total de computadores que são enviados da Contoso. Inserir uma quantidade de 5 em um recebimento de produtos. Como a ordem de compra foi totalmente recebida, o status da ordem de compra será alterado para Recebida.
 2.  Abril, coordenada de contas a pagar, na Fabrikam insere e verifica a fatura que é enviada por Contoso. Verifica as seguintes informações:
     -   Para os itens que exigem a conciliação tripla, a quantidade na linha da fatura corresponde à quantidade que foi recebida. A quantidade recebida é indicado no recibo de bens que corresponde à fatura.
-    -   Para os itens que necessitam correspondência em bidirecional ou tripartido, preços de linha da nota fiscal estão dentro de tolerâncias definidas no Microsoft Dynamics 365 para Operations.This incluem os seguintes tipos de correspondência de preço:
+    -   Para os itens que exigem a política de conciliação dupla ou tripla, os preços na linha da fatura estão dentro das tolerâncias definidas no Microsoft Dynamics 365 for Operations. Isso inclui os seguintes tipos de conciliação de preço:
         -   Correspondência de preço unitário líquido – O preço unitário líquido da linha da fatura corresponde ao preço unitário líquido da linha da ordem de compra, na porcentagem de tolerância. Em este exemplo, a tolerância de preço líquido da unidade é +8%.
         -   Preços totais de correspondência – O valor líquido em correspondências da linha da fatura o valor líquido da linha da ordem de compra, na porcentagem de tolerância, o valor ou a porcentagem e o valor. Em este exemplo, os totais de preços que correspondem a tolerância são +15%.
 
@@ -75,7 +78,7 @@ A fatura em papel da Contoso contém as seguintes informações.
 | Imposto                         |          |            | 0,00       |
 | Total                       |          |            | 44.500,00  |
 
-No Microsoft Dynamics 365 para operações, a nota fiscal incluir as seguintes informações.
+No Microsoft Dynamics 365 for Operations, a linha da fatura inclui as informações a seguir.
 
 | Nº de itens                 | Quantidade | Preço unitário | Valor líquido da linha | Política de conciliação    | Correspondência de quantidade de recebimento de produtos | Conciliação de preço | Conciliação de total de preço |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -111,7 +114,7 @@ As políticas de conciliação de faturas neste exemplo ajudam as pessoas nas fu
 1.  Os itens chegarem. Sammy, um funcionário no departamento de recebimento de divisão Malásia da Fabrikam, é interrompido e não lançar o recebimento de produtos imediatamente.
 2.  Abril, coordenada de contas a pagar, na Fabrikam insere e verifica a fatura que é enviada por Contoso. Verifica as seguintes informações:
     -   Para os itens que exigem a conciliação tripla, a quantidade na linha da fatura corresponde à quantidade que foi recebida. A quantidade recebida é indicado no recibo de bens que corresponde à fatura.
-    -   Para os itens que necessitam correspondência em bidirecional ou tripartido, preços de linha da nota fiscal estão dentro de tolerâncias definidas no Microsoft Dynamics 365 para as operações. Isso inclui os seguintes tipos de correspondência de preço:
+    -   Para os itens que exigem em bidirecional ou a conciliação tripla, os preços da linha da fatura estão dentro de tolerâncias definidas no Microsoft Dynamics 365 for Operations. Isso inclui os seguintes tipos de correspondência de preço:
         -   Correspondência de preço unitário líquido – O preço unitário líquido da linha da fatura corresponde ao preço unitário líquido da linha da ordem de compra, na porcentagem de tolerância. Em este exemplo, a tolerância de preço líquido da unidade é +2%.
         -   Preços totais de correspondência – O valor líquido em correspondências da linha da fatura o valor líquido da linha da ordem de compra, na porcentagem de tolerância, o valor ou a porcentagem e o valor. Em este exemplo, os totais de preços que correspondem a tolerância são +10%.
 
@@ -124,7 +127,7 @@ A fatura em papel da Contoso contém as seguintes informações.
 | Unidade USB             | 200      | 10,05      | 2.010,00   |
 | Total da fatura         |          |            | 7.092,00   |
 
-No Microsoft Dynamics 365 para operações, a nota fiscal incluir as seguintes informações.
+No Microsoft Dynamics 365 for Operations, a linha da fatura inclui as informações a seguir.
 
 | Nº de itens           | Quantidade | Preço unitário | Valor líquido da linha | Política de conciliação    | Correspondência de quantidade de recebimento de produtos | Conciliação de preço | Conciliação de total de preço |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -140,6 +143,8 @@ Observe os seguintes itens:
 Se a aprovação for necessária para o qual as faturas são lançadas com discrepâncias de conciliação de faturas, a opção Aprovar lançamento com discrepâncias de conciliação na página Detalhes de conciliação de faturas deve ser selecionada antes da fatura pode ser lançada com erros de conciliação de preço e erros na conciliação de quantidade. Se a aprovação não é necessária, o processamento da fatura pode continuar se não houver nenhum outro erro de lançamento.
 
 
-Para obter mais informações, consulte [] conciliação de notas fiscais de contas a pagar (accounts-payable-invoice-matching.md).
+Para obter mais informações, consulte [Conciliação de faturas de Contas a pagar](accounts-payable-invoice-matching.md).
+
+
 
 

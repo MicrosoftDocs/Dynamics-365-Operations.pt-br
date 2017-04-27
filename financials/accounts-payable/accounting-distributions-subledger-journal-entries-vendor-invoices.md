@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Distribuições contábeis e entradas no diário-razão auxiliar para faturas de fornecedor
 
+[!include[banner](../includes/banner.md)]
+
+
 As distribuições contábeis são usadas para definir como um valor será contabilizado, por exemplo, como a receita, os impostos ou os encargos serão contabilizados em uma fatura de fornecedor. Cada valor a ser contabilizado quando a fatura de fornecedor é lançada no diário terá uma ou várias distribuições contábeis. 
 
 <a name="accounting-distributions"></a>Distribuições contábeis 
@@ -244,6 +247,8 @@ As distribuições contábeis de impostos não podem ser criadas até que os imp
 Antes de lançar uma fatura de fornecedor, você pode exibir a entrada contábil total da fatura, incluindo débitos e créditos, para verificar se a fatura está sendo lançada nas contas corretas. Esta exibição de entrada contábil total é chamada de diário-razão auxiliar. 
 
 Se a entrada no diário-razão auxiliar estiver incorreta quando você a visualizar antes de lançar a fatura de fornecedor no diário, não será possível alterá-la. Em vez de isso, você deve alterar as distribuições contábeis ou o perfil de lançamento. As distribuições contábeis são usadas para definir um lado de entrada contábil, de débito ou de crédito. A entrada de conta no diário-razão auxiliar de compensação é criada por perfis de lançamento, como a conta de fornecedor ou imposto.
+
+
 
 
 

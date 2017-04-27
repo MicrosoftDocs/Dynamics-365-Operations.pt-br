@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="customer-payments-for-a-partial-amount"></a>Pagamentos de cliente de uma quantidade parcial
 
+[!include[banner](../includes/banner.md)]
+
+
 Às vezes, os clientes fazem um pagamento inferior ao valor de uma fatura. Este artigo descreve as diversas opções para controlar essa situação. As opções disponíveis dependerão dos seus requisitos empresariais e da sua configuração.
 
 <a name="partial-payment-with-no-discount"></a>Pagamento parcial sem desconto
@@ -38,12 +41,12 @@ Os clientes podem fazer um pagamento parcial porque eles simplesmente não têm 
 Você pode oferecer aos clientes um desconto à vista por pagarem uma fatura antes da data de vencimento. Por exemplo, você insere uma fatura de 100,00 que especifica um desconto à vista de 2% caso a fatura seja paga em 10 dias. As condições da data de vencimento serão de 30 dias. Se você recebe um pagamento de 98,00 em 10 dias, insere o pagamento de 98,00. Em seguida, quando a fatura for marcada para liquidação, o desconto à vista será automaticamente obtido.
 
 ## <a name="partial-payments-with-cash-discounts"></a>Pagamentos parciais com descontos à vista
-Quando os clientes fazem um pagamento parcial, talvez planejem fazer um pagamento parcial adicional para liquidar completamente a fatura. Para obter um desconto à vista para um pagamento parcial, você deve definir Sim ** calcular descontos à vista para pagamentos parciais ** padrão ** ** ** parâmetros de contas a receber ** na página. 
+Quando os clientes fazem um pagamento parcial, talvez planejem fazer um pagamento parcial adicional para liquidar completamente a fatura. Para obter um desconto à vista para um pagamento parcial, você deve definir a opção **Calcular descontos à vista para pagamentos parciais** como **Sim** na página **Parâmetros de contas a receber**. 
 
 Por exemplo, você oferece um desconto à vista de 2% caso a fatura seja paga em até 10 dias após a emissão. Uma fatura é lançada para 100,00. Se você receber um pagamento de 49,00 dentro de 10 dias, insere um crédito de 49,00 em um diário de pagamento. Quando você liquida o pagamento parcial na página **Liquidar transações**, **1,00** aparecerá no campo **Valor do desconto à vista a ser obtido**. O valor do desconto é lançado em uma conta de desconto à vista. 
 
 > [!NOTE] 
-> Se você inserir o pagamento parcial e deixar o valor da nota fiscal total ** valor no acordo, ** ** campo valor do desconto à vista levar ** o campo é recalculado automaticamente quando você lança as transações.
+> Se você inserir um pagamento parcial e deixar o valor total da fatura no campo **Valor para liquidar**, o campo **Valor do desconto à vista** a ser obtido será automaticamente recalculado quando as transações forem lançadas.
 
 ## <a name="credit-notes-with-discounts"></a>Notas de crédito com descontos
 Se os clientes devolverem alguns dos itens em uma fatura, você poderá emitir uma nota de crédito. Se um desconto à vista tiver sido obtido na fatura original, a nota de crédito para o cliente deverá ser líquida do desconto à vista obtido pelo cliente. Se a opção **Calcular descontos à vista para notas de crédito** estiver definida como **Sim** na página **Parâmetros de contas a receber**, o desconto será calculado automaticamente para a nota de crédito. 
@@ -54,6 +57,8 @@ Por exemplo, você ofereceu condições de pagamento que especificam um desconto
 Quando os clientes fizerem um pagamento, poderá haver um valor muito pequeno que ainda deverá ser liquidado. Por exemplo, você emite a fatura do cliente no valor de 1.000,00 e ele paga 999,90. Se o valor restante for menor do que o valor especificado para pagamentos a maior ou para pagamentos a menor na página** Parâmetros de contas a receber**, a diferença será automaticamente lançada em uma conta conta contábil de pagamento a maior/a menor.
 
 ## <a name="full-settlement"></a>Liquidação completa
-Os clientes podem fazer um pagamento parcial em que o valor restante não é pago mas forem superiores do valor de menor especificado ** parâmetros de contas a pagar ** na página. Se você deseja marcar a nota fiscal como totalmente liquidada, você pode usar ** pagamento completo ** a opção ** transação de acordo ** na página. (Você pode habilitar a funcionalidade completa de liquidação usando uma chave de configuração). Por exemplo, uma fatura é lançada para 1.000,00 e o cliente faz um pagamento de 990,00. Você concordou o cliente não precisa pagar os 10.00 restantes. Depois que você marca a nota fiscal para pagamento, você também pode marcar selecione ** ** pagamento completo. A fatura será considerada totalmente liquidada. A diferença de 10,00 é lançada em uma conta de desconto à vista, como um valor de desconto à vista adicional.
+Os clientes podem fazer um pagamento parcial onde o valor restante não será pago, mas é maior do que o valor de pagamento a menor especificado na página **Parâmetros de contas a pagar**. Se você quiser marcar a fatura como totalmente liquidada, poderá usar a opção **Liquidação total** na página **Liquidar transação**. (Você pode habilitar a funcionalidade completa de liquidação usando uma chave de configuração). Por exemplo, uma fatura é lançada para 1.000,00 e o cliente faz um pagamento de 990,00. Você concordou que o cliente não precisa pagar os 10,00 restantes. Depois de marcar a fatura para liquidação, você também poderá marcar **Liquidação total**. A fatura será considerada totalmente liquidada. A diferença de 10,00 é lançada em uma conta de desconto à vista, como um valor de desconto à vista adicional.
+
+
 
 

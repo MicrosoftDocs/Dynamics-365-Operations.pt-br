@@ -1,6 +1,6 @@
 ---
-title: "Conteúdo de recrutamento de O power BI"
-description: "Este tópico descreve o dynamics 365 para operações - conteúdo de recrutamento de O power BI. Explica como acessar os relatórios que são incluídos no bloco de conteúdo, além fornece informações sobre o modelo de dados e as entidades usados para construir o bloco de conteúdo."
+title: "Recrutamento de conteúdo do Power BI"
+description: "Este tópico descreve o Microsoft Dynamics 365 for Operations - Recrutando Conteúdo do Power BI. Ele explica como acessar os relatórios incluídos no pacote de conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,49 +24,52 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="recruiting-power-bi-content"></a>Conteúdo de recrutamento de O power BI
+# <a name="recruiting-power-bi-content"></a>Recrutamento de conteúdo do Power BI
 
-Este tópico descreve o dynamics 365 para operações - conteúdo de recrutamento de O power BI. Explica como acessar os relatórios que são incluídos no bloco de conteúdo, além fornece informações sobre o modelo de dados e as entidades usados para construir o bloco de conteúdo.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>Acessando o bloco de conteúdo
+
+Este tópico descreve o Microsoft Dynamics 365 for Operations - Recrutando Conteúdo do Power BI. Ele explica como acessar os relatórios incluídos no pacote de conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
+
+<a name="accessing-the-content-pack"></a>Acessando o pacote de conteúdo
 --------------------------
 
-Você pode encontrar o bloco de conteúdo de recrutamento na biblioteca de ativos compartilhados em serviços (LCS) do Microsoft Dynamics lifecycle. Para obter mais informações sobre como o download do bloco de conteúdo e o seu alocação Microsoft Dynamics 365 de dados, consulte operações [conteúdo de O power BI em LCS Microsoft e seus parceiros (power-bi-content-microsoft-partners.md]).
+Você pode encontrar o pacote de conteúdo do Recrutamento na biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e conectá-lo a seus dados do Microsoft Dynamics 365 for Operations, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md).
 
-## <a name="reports-that-are-included-in-the-content-pack"></a>Relata incluído no bloco de conteúdo
-Após conectou bloco de conteúdo ao 365 para dados de operações, os relatórios aos dados da organização. Se nunca você usou o power BI Microsoft antes, você pode saber mais sobre ela em [guiado aprendizado a página do power] de BI (https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Os relatórios que são incluídos no bloco de conteúdo já os gráficos e tabelas que contêm informações adicionais. A tabela a seguir descreve os relatórios.
+## <a name="reports-that-are-included-in-the-content-pack"></a>Relatórios incluídos no pacote de conteúdo
+Após a conexão do pacote de conteúdo aos dados do Dynamics 365 for Operations, os relatórios mostrarão os dados da sua organização. Se você nunca usou o Microsoft Power BI antes, você pode saber mais sobre ele na página [Aprendizado guiado para Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Os relatórios incluídos no pacote de conteúdo têm gráficos e tabelas que contêm informações adicionais. A tabela a seguir descreve os relatórios.
 
 | Relatório                       | Conteúdo                                                                                               |
 |------------------------------|--------------------------------------------------------------------------------------------------------|
-| Análise do candidato           | Candidatos por trabalho, para origens do candidato, por candidatos por local, e pelo número total de candidatos           |
-| Status do candidato             | Candidatos por tipo e, por status e status do candidato                                                    |
-| De candidato demográficos       | Candidatos por idade e por sexo, candidatos e por nível e por status educacionais                             |
-| Análise de recrutamento          | Margem líquida de arrendamento, dias médio a contratação, percentual de empréstimos incorretos, e custo de recrutamento                    |
-| Análise de projeto de recrutamento | Número de projetos de recrutamento, de aberturas por projeto de recrutamento, candidatos e do projeto de recrutamento |
+| Análise do candidato           | Candidatos por trabalho, fontes por candidato, candidatos por local e número total de candidatos           |
+| Status do candidato             | Candidatos por tipo, por status e status do candidato                                                    |
+| Demográficos do candidato       | Candidatos por idade e por sexo, candidatos por nível e por status educacionais                             |
+| Análise de recrutamento          | Margem líquida de arrendamento, média de dias para contratar, porcentagem de contratações ruins e custos de recrutamento                    |
+| Análise de projeto de recrutamento | Número de projetos de recrutamento, aberturas para projeto de recrutamento e candidatos por projeto de recrutamento |
 
-Você pode filtrar os gráficos e os quadros nesses relatórios, gráficos e fixa e os quadros para o painel. Para obter mais informações sobre como filtragem e fixar-se o power BI, consulte para [criar e configurar um painel] (https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
-O dynamics 365 para dados de operações é usado para preencher os relatórios no bloco de conteúdo de recrutamento. A tabela a seguir mostra as entidades do bloco de conteúdo será baseado.
+Os dados do Microsoft Dynamics 365 for Operations são usados para preencher os relatórios no pacote de conteúdo do recrutamento. A seguinte tabela mostra as entidades nas quais o pacote de conteúdo foi baseado.
 
 | Entidade                          | Conteúdo                                                         | Relações com outras entidades                                                                                                                                                                                                                 |
 |---------------------------------|------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Candidato de recrutamento do\_           | Candidatos, candidatos contratados, taxa de contratação de redes, e custos          | \_de recrutamento ApplicantName de recrutamento a empresa\_que\_CalendarOffset recrutamento Recuriting\_\_data de recrutamento que os GeographicLocation recrutamento demográficos\_que recrutam\_que recrutam mídia\_que recrutam\_RecruitmentProject                                |
-| \_ApplicantName de recrutamento       | , Nome e sobrenome, nome completo do candidato                   | Candidato de recrutamento do\_que EmployedApplicant recrutamento\_que\_TerminatedApplicant recrutamento                                                                                                                                                               |
-| \_CalendarOffset de recrutamento      | Compensação do calendário a fatia de relatórios                                | Candidato de recrutamento do\_que EmployedApplicant recrutamento\_que\_TerminatedApplicant recrutamento                                                                                                                                                               |
-| Empresa de recrutamento do\_             | Empresas para filtrar de relatórios                                   | Candidato de recrutamento do\_que EmployedApplicant recrutamento\_que\_TerminatedApplicant recrutamento                                                                                                                                                               |
-| Data de recrutamento do\_                | , Semanas dias, meses, anos e                                   | Candidato de recrutamento do\_que EmployedApplicant recrutamento\_que\_TerminatedApplicant recrutamento                                                                                                                                                               |
-| Demográficos de recrutamento do\_        | Data de nascimento, de, gênero de origem, étnica e estado civil         | Candidato de recrutamento do\_que EmployedApplicant recrutamento\_que\_TerminatedApplicant recrutamento                                                                                                                                                               |
-| \_EmployedApplicant de recrutamento   | Candidato, desempenho, data inicial, tipo e do candidato           | Empresa de recrutamento do\_que\_CalendarOffset recrutamento de recrutamento a data do\_que\_GeographicLocation recrutamento de recrutar\_que ApplicantName recrutamento o\_que recrutamento o desempenho do\_de recrutar\_que recrutam mídia\_que recrutam\_RecruitmentProject          |
-| Aplicativo de recrutamento do\_          | Data inicial, data final, e data de transição                        | Candidato de recrutamento do\_que EmployedApplicant recrutamento\_que\_TerminatedApplicant recrutamento                                                                                                                                                               |
-| \_GeographicLocation de recrutamento  | Cidade, CEP, região, estado ou província e                 | Candidato de recrutamento do\_que EmployedApplicant recrutamento\_que\_TerminatedApplicant recrutamento                                                                                                                                                               |
-| Trabalhos de recrutamento do\_                 | Função, tipo, título e                                        | Candidato de recrutamento do\_que EmployedApplicant recrutamento\_que\_TerminatedApplicant recrutamento                                                                                                                                                               |
-| Mídia de recrutamento do\_               | Origem de candidatos                                             | Candidato de recrutamento do\_que EmployedApplicant recrutamento\_que\_TerminatedApplicant recrutamento                                                                                                                                                               |
-| Desempenho de recrutamento do\_         | Classificação, descrição, e modelo de classificação                            | Candidato de recrutamento do\_que EmployedApplicant recrutamento\_que\_TerminatedApplicant recrutamento                                                                                                                                                               |
-| \_RecruitmentProject de recrutamento  | Descrição do projeto, status do projeto, e aberturas                | Candidato de recrutamento do\_que EmployedApplicant recrutamento\_que\_TerminatedApplicant recrutamento                                                                                                                                                               |
-| \_TerminatedApplicant de recrutamento | Candidatos finalizados, o desempenho, e a data de demissão | Empresa de recrutamento do\_que\_CalendarOffset recrutamento de recrutamento a data do\_que\_GeographicLocation recrutamento de recrutar o desempenho do\_que o recrutamento demográficos\_que recrutam o\_que recrutamento mídia\_que recrutam\_RecruitmentProject que\_ApplicantName recrutamento |
+| Recruiting\_Applicant           | Candidatos, candidatos contratados, taxa de contratação de redes e custos          | Recruiting\_ApplicantName Recruiting\_Company Recruiting\_CalendarOffset Recuriting\_Date Recruiting\_GeographicLocation Recruiting\_Demographics Recruiting\_Job Recruiting\_Media Recruiting\_RecruitmentProject                                |
+| Recruiting\_ApplicantName       | Primeiro nome do candidato, sobrenome e nome completo                   | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_CalendarOffset      | Compensações de calendário para dividir relatórios                                | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_Company             | Empresas para filtrar relatórios                                   | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_Date                | Dias, semanas, meses e anos                                   | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_Demographics        | Data de nascimento, gênero, origem étnica e estado civil         | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_EmployedApplicant   | Candidato, desempenho, data inicial e tipo de candidato           | Recruiting\_Company Recruiting\_CalendarOffset Recruiting\_Date Recruiting\_GeographicLocation Recruiting\_ApplicantName Recruiting\_Employment Recruiting\_Performance Recruiting\_Job Recruiting\_Media Recruiting\_RecruitmentProject          |
+| Recruiting\_Employment          | Data inicial, data final e data de transição                        | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_GeographicLocation  | Cidade, região, CEP e estado ou província                 | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_Job                 | Função, tipo e título                                        | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_Media               | Fonte de candidatos                                             | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_Performance         | Classificação, descrição e modelo de classificação                            | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_RecruitmentProject  | Descrição do projeto, status do projeto e aberturas                | Recruiting\_Applicant Recruiting\_EmployedApplicant Recruiting\_TerminatedApplicant                                                                                                                                                               |
+| Recruiting\_TerminatedApplicant | Candidatos finalizados, desempenho e data de demissão | Recruiting\_Company Recruiting\_CalendarOffset Recruiting\_Date Recruiting\_GeographicLocation Recruiting\_Performance Recruiting\_Demographics Recruiting\_Employment Recruiting\_Media Recruiting\_RecruitmentProject Recruiting\_ApplicantName |
 
-Essas entidades foram usadas para criar medidas calculadas. Essas medidas calculadas são usadas para calcular os principais indicadores chave de desempenho (KPIs) e relatórios usados no bloco de conteúdo. Se desejar incluir cálculos adicionais nos relatórios e o painel, você pode alterar e baixar o arquivo de Recruiting.pbix de LCS. Esse arquivo é o modelo de dados padrão usado para criar blocos do conteúdo. Depois de feitas alterações, você pode criar um bloco e um painel de conteúdo organizacional que contém as informações que você adicionou.
+Essas entidades foram usadas para criar medidas calculadas. Essas medidas calculadas são então usadas para calcular os KPIs (indicadores chave de desempenho) e os relatórios usados no pacote de conteúdo. Para incluir cálculos adicionais nos seus relatórios e painel, você pode baixar e modificar o arquivo Recruiting.pbix do LCS. Esse arquivo de trabalho é o modelo de dados padrão usado para criar o pacote de conteúdo. Após a realização de modificações, poderá criar um painel e pacote de conteúdo organizacional contendo as informações adicionadas.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 Estes são alguns links úteis relacionados às entidades e ao desenvolvimento de conteúdo do Power BI:
@@ -75,6 +78,8 @@ Estes são alguns links úteis relacionados às entidades e ao desenvolvimento d
 -   [Criando pacotes de conteúdo organizacionais](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Modelagem de dados por meio do Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Adicionando blocos do Power BI aos espaços de trabalho](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
+
+
 
 
 

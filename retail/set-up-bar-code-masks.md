@@ -1,6 +1,6 @@
 ---
 title: "Configurar máscaras de código de barras"
-description: "Este tópico descreve como configurar caracteres de máscara de código de barras, máscaras de código de barras, e como atribuir máscaras de código de barras a códigos de barras."
+description: "Este tópico descreve como configurar caracteres de máscara de código de barras, máscaras de código de barras e como atribuir máscaras de código de barras a códigos de barras."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
@@ -27,57 +27,62 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-bar-code-masks"></a>Configurar máscaras de código de barras
 
-Este tópico descreve como configurar caracteres de máscara de código de barras, máscaras de código de barras, e como atribuir máscaras de código de barras a códigos de barras.
+[!include[banner](includes/banner.md)]
+
+
+Este tópico descreve como configurar caracteres de máscara de código de barras, máscaras de código de barras e como atribuir máscaras de código de barras a códigos de barras.
 
 <a name="set-up-bar-code-mask-characters"></a>Configurar caracteres da máscara do código de barras
 -------------------------------
 
-Máscaras de código de barras são usados para criar códigos de barras e para identificar rapidamente os códigos de barras que são digitalizados de venda (POS). As máscaras são compreendidas de caracteres que atuam como espaços reservados que indiquem o formato dos códigos de barras que será criado. Para configurar uma máscara de código de barras, você precisará configurar caracteres de máscara de código de barras. Ir ** varejo e comércio ** &gt; ** gerenciamento de estoque ** &gt; ** códigos de barras e rótulos ** &gt; ** caracteres de máscara. ** ** ** Clique em novo para criar caracteres de máscara de código de barras. Os caracteres de máscara podem ser criados para indicar os seguintes dados do código de barras.
+As máscaras de código de barras são usadas para criar códigos de barras e identificar rapidamente códigos de barras que são digitalizados para o ponto de venda (POS). As máscaras são compostas de caracteres que atuam como espaços reservados que indicam o formato dos códigos de barras que serão criados. Para configurar uma máscara de código de barras, é necessário configurar caracteres de máscara de código de barras. Vá para **Varejo e comércio** &gt; **Gerenciamento de estoque** &gt; **Códigos de barras e etiquetas** &gt; **Caracteres de máscara**. Clique em **Novo** para criar caracteres de máscara de código. Os caracteres de máscara podem ser criados para indicar os seguintes dados de código de barras.
 
 |                      |                                                                                                                 |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|
-| **Field**            | **Description**                                                                                                 |
-| **Product**          | O espaço reservado para a ID de produto.                                                                                     |
-| **Any number**       | Usado para especificar um número gerado codificado rígido em códigos de barras.                                                  |
-| **Check digit**      | Indica que o formato de código de barras em uma máscara de código de barras usado um dígito de verificação para garantir a validade de um código de barras. |
-| **Size digit**       | Indica o tamanho em um código de barras criado para uma grade de produtos que incluam o tamanho.                                 |
-| **Color digit**      | Indica a cor em um código de barras criado para uma grade de produtos que inclui cor.                               |
-| **Style digit**      | Indica o estilo em um código de barras criado para uma grade de produtos com um estilo.                             |
-| **EAN license code** | O espaço reservado para a licença EAN emitida para códigos de licença EAN.                                                       |
-| **Preço**            | Indica o preço para códigos de barras inseridos preço.                                                                   |
-| **Quantity**         | Indica a quantidade em peso aleatório quantidade/códigos de barras inseridos.                                                |
-| **Employee**         | Indica o segmento de código de barras para o número de identificação de funcionário usado para fazer o logon POS de código de barras.                                  |
-| **Customer**         | Indica o segmento de ID de cliente.                                                                                  |
-| ** ** Entrada de dados       | *Not entanto implemented.*                                                                                          |
-| **Discount code**    | Indica o código de desconto para um código de barras usado para adicionar um desconto para uma transação de venda de ponto             |
-| **Vale-presente**        | Indica o número de vale-presente ao emitir ou ao por pagar vale-presente.                                               |
-| **Loyalty card**     | Adicionar um cliente de fidelidade a transação, e pode ser usado ao pagar por fidelidade.                             |
+| **Campo**            | **Descrição**                                                                                                 |
+| **Produto**          | O espaço reservado para a ID de produto.                                                                                     |
+| **Qualquer número**       | Usado para especificar um número que será codificado em códigos de barras.                                                  |
+| **Dígito de verificação**      | Indica que o formato de código de barras em uma máscara de código de barras usa um dígito de verificação para garantir a validade de um código de barras. |
+| **Dígito de tamanho**       | Indica o tamanho em um código de barras criado para uma variante de produto que inclui tamanho.                                 |
+| **Dígito de cor**      | Indica a cor em um código de barras criado para uma variante de produto que inclui cor.                               |
+| **Dígito de estilo**      | Indica o estilo em um código de barras criado para uma variante de produto que inclui um estilo.                             |
+| **Código de licença EAN** | O espaço reservado para a licença EAN emitida para códigos de licença EAN.                                                       |
+| **Preço**            | Indica o preço para códigos de barras de preço embutidos.                                                                   |
+| **Quantidade**         | Indica a quantidade em códigos de barra embutidos de quantidade/peso aleatório.                                                |
+| **Funcionário**         | Indica o segmento de código de barras para o número de identificação de funcionário usado para fazer o logon no POS de código de barras.                                  |
+| **Cliente**         | Indica o segmento de ID do cliente.                                                                                  |
+| **Entrada de dados**       | *Ainda não implementado.*                                                                                          |
+| **Código de desconto**    | Indica código de desconto para um código de barras usado para adicionar um desconto a uma transação de ponto de venda             |
+| **Vale-presente**        | Indica um número de vale-presente ao emitir ou pagar por cartão de presente.                                               |
+| **Cartão-fidelidade**     | Adiciona um cliente de fidelidade à transação e pode ser usado ao pagar por lealdade                             |
 
-## <a name="define-bar-code-masks"></a>Defina máscaras de código de barras
-Depois dos caracteres de máscara de código de barras são especificados para necessárias máscaras de código de barras, vai ** varejo e comércio ** &gt; ** gerenciamento de estoque ** &gt; ** códigos de barras e rotulam ** &gt; ** configuração de máscara de código de barras **. Nesta página, é possível definir as máscaras de código de barras que usam os caracteres especificados anteriormente. As máscaras de código de barras será usada para gerar códigos de barras e também identificar ajudarão aos códigos de barras digitalizados no POS.
+## <a name="define-bar-code-masks"></a>Definir máscaras de código de barras
+Depois que os caracteres de máscara de código de barras forem especificados para as máscaras de código de barras necessárias, vá para **Varejo e comércio** &gt; **Gerenciamento de estoque** &gt; **Códigos de barras e rótulos** &gt; **Configuração de máscara de código de barras**. Nesta página, é possível definir as máscaras de código de barras que usam os caracteres especificados anteriormente. Essas máscaras de código de barras serão usadas ao gerar códigos de barras e também ajudarão a identificar códigos de barras digitalizados no POS.
 
-1.  ** ** Clique em novo para criar uma nova a máscara de código de barras.
-2.  Insira valores em ** ID da máscara e ** ** descrição ** sobre campos, e selecione uma máscara de código de barras em tipo ** ** o campo.
-3.  ** Geral ** na seção, selecione um valor em ** de código de barras padrão ** campo, e especifique o prefixo de código de barras, se um é necessário.
-4.  ** Segmento de máscara de código de barras ** na seção, adicione os segmentos de código de barras que serão usadas no código de barras a ser criado.
+1.  Clique em **Novo** para criar uma nova máscara de código de barras.
+2.  Insira valores nos campos **ID da máscara** e **Descrição**, e selecione uma máscara de código de barras no campo **Tipo**.
+3.  Na seção **Geral**, selecione um valor no campo **Código de barras padrão** e depois especifique o prefixo do código de barras, se for necessário uma nova máscara de código de barras.
+4.  Na seção **Segmento de máscara de código de barras**, adicione os segmentos de código de barras que serão usados no código de barras a ser criado.
 
-Como exemplo, criar uma máscara de código de barras com a ID “produtos” máscara, você faria o seguinte:
+Como exemplo, crie uma máscara de código de barras com a ID de máscara “Produto", fazendo o seguinte:
 
-1.  Criar novo máscara de código de barras e selecione o tipo “produtos”.
-2.  Marque um padrão de código de barras, por exemplo, “39.” Código
-3.  Forneça um prefixo a ser usado para identificar facilmente o código de barras. Por exemplo, “22 ".
-4.  Adicionar um segmento de máscara. O segmento de máscara de produtos “” será selecionado.
-5.  Forneça um comprimento do segmento de produto, por exemplo, “10 ". O período deve corresponder o tamanho de uma ID de produto comumente usado na loja. A máscara será exibida como uma visualização ** geral ** na seção abaixo ** ** máscara.
+1.  Crie uma nova máscara de código de barras e selecione o tipo "Produto".
+2.  Selecione um código de barras padrão, por exemplo, "Código 39".
+3.  Forneça um prefixo a ser usado para identificar facilmente o código de barras. Por exemplo, "22".
+4.  Adicione um segmento de máscara. O segmento de máscara "Produto" será selecionado.
+5.  Forneça um comprimento do segmento de produto, por exemplo, “10 ". O período deve corresponder o tamanho de uma ID de produto comumente usado na loja. A máscara será exibida como uma visualização na seção **Geral** em **Máscara**.
 
-## <a name="assign-bar-code-masks-to-bar-codes"></a>Máscaras de código de barras de atribuir códigos de barras
-As máscaras de códigos de barras devem ser atribuídas para códigos de barras para poderem ser usadas. Continuando com o exemplo anterior, a alocação da máscara de código de barras para um código de barras, faça o seguinte:
+## <a name="assign-bar-code-masks-to-bar-codes"></a>Atribua máscaras de código de barras aos códigos de barras
+As máscaras dos códigos de barras devem ser atribuídas aos códigos de barras antes de poderem ser utilizadas. Continuando com o exemplo anterior, para atribuir a máscara de código de barras a um código de barras, faça o seguinte:
 
-1.  Ir ** administração organizacional ** &gt; ** de instalação ** &gt; ** ** códigos de barras. ** ** Clique em novo para criar um novo código de barras.
-2.  Insira valores em ** código de barras ** ** configuração ** e ** de instalação ** em campos.
-3.  ** ** Em geral, a seção em ** tipo de código de barras ** campo, selecione o Código “39”. ** Máscara ** ** em ID ** campo, selecione a máscara de produtos “” criada anteriormente.
-4.  ** ** Tamanho em, insira “12 ".
-5.  Click **Save**.
+1.  Vá para **Administração de organização** &gt; **Configuração** &gt; **Códigos de barras**. Clique em **Novo** para criar um novo código de barras.
+2.  Insira os valores nos campos **Código de barras** **configuração** e **Configuração**.
+3.  Na seção **Geral**, no campo **Tipo de código de barras**, selecione "Código 39". No campo **Máscara** **ID**, selecione a máscara de "Produto" criada anteriormente.
+4.  Em **Tamanho**, digite "12".
+5.  Clique em **Salvar**.
 
-A máscara de código de barras pode então ser usada para criar códigos de barras para produto. As etapas acima são exemplos de como criar máscaras de código de barras para produto, mas também ilustram como criar máscaras de código de barras para os outros tipos suporte de código de barras. As máscaras, os tipos, e os tamanhos de código de barras devem ser ajustados para uso em seu ambiente específico.
+A máscara de código de barras agora pode ser usada para criar códigos de barras para produtos. As etapas acima são exemplos de como criar máscaras de código de barras para produtos, mas também ilustram como criar máscaras de código de barras para qualquer um dos outros tipos de códigos de barras suportados. As máscaras, tipos e comprimentos de código de barras devem ser ajustados para uso em seu ambiente específico.
+
+
 
 

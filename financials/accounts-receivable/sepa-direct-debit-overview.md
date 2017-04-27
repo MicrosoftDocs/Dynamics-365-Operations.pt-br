@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sepa-direct-debit-overview"></a>visão geral do débito direto do SEPA
 
+[!include[banner](../includes/banner.md)]
+
+
 A Área Única de Pagamentos em Euros (SEPA) é configurada pela Comissão Europeia e dita que todos os pagamentos eletrônicos são considerados como domésticos, independentemente do país/região onde o indivíduo, a empresa ou a organização e o banco estão localizados. Não há diferença entre pagamentos nacionais e internacionais. A SEPA inclui os 28 países membros da União Europeia (EU), além de Islândia, Liechtenstein, Noruega, Suíça, Mônaco e São Marinho. A SEPA ajuda a formar um mercado único para transações de pagamento na Área Econômica Europeia (EEA). Por fim, espera-se que a SEPA reduza o número de formatos de pagamento com que bancos, empresas e indivíduos devem trabalhar.   
 
-<a name="what-is-the-goal-of-sepa-direct-debits"></a>O meta de débitos diretos do SEPA?
+<a name="what-is-the-goal-of-sepa-direct-debits"></a>Qual é o objetivo dos débitos diretos da SEPA?
 ---------------------------------------
 
-Débito direto do SEPA permite a um credor colete fundos de conta bancária de um cliente, desde que uma carta de assinado ordem foi concedida o credor por cliente. O cliente assina um mandato que autoriza o credor a cobrar um pagamento e instruir o banco do cliente a pagar a cobrança. 
+Um débito direto da SEPA permite que um credor colete fundos da conta bancária de um cliente, desde que um mandato assinado tenha sido concedido pelo cliente ao credor. O cliente assina um mandato que autoriza o credor a cobrar um pagamento e instruir o banco do cliente a pagar a cobrança. 
 
 Os débitos diretos da SEPA criar, pela primeira vez, um instrumento de pagamento que pode ser usado para débitos diretos nacionais ou internacionais em euro em todos os 32 países/regiões da SEPA. 
 
@@ -60,7 +63,7 @@ O Esquema de Débito Direto B2B da SEPA se aplica a transações business-to-bus
 Sim. Você pode usar o esquema COR1 para cartas da ordem de débito direto SEPA na Áustria, na Bélgica, na Alemanha, na França, na Itália, na Espanha e nos Países Baixos. O esquema oferece um período mais curto de pré-notificação para a coleta de débito direto do credor.
 
 ## <a name="what-are-international-bank-account-numbers-iban-and-bank-identifier-codes-bic"></a>O que são os Números de Conta Bancária Internacional (IBAN) e os Códigos Identificadores Bancários (BIC)?
-O Número de Conta Bancária Internacional (IBAN) e o Código Identificador Bancário (BIC) são usados para identificar todas as contas dos 32 países/regiões da SEPA. Entre em BIC no campo código SWIFT e IBAN no campo de. IBAN Ambos os campos estão localizados na Guia Rápida Identificação adicional na guia Conta bancária na página Contas bancárias. Isso é verdadeiro para a conta bancária do credor e para a conta bancária do cliente.
+O Número de Conta Bancária Internacional (IBAN) e o Código Identificador Bancário (BIC) são usados para identificar todas as contas dos 32 países/regiões da SEPA. Insira o BIC no campo Código SWIFT e o IBAN no campo IBAN. Ambos os campos estão localizados na Guia Rápida Identificação adicional na guia Conta bancária na página Contas bancárias. Isso é verdadeiro para a conta bancária do credor e para a conta bancária do cliente.
 
 ## <a name="where-do-i-enter-creditor-identifiers-direct-debit-ids"></a>Onde insiro os identificadores do credor (IDs de débito direto)?
 Na SEPA, cada credor é identificado por um identificador do credor exclusivo. Esse identificador permite que o cliente e o banco do cliente filtrem cada débito direto e então processem ou rejeitem o débito direto de acordo com as instruções do cliente. Os credores devem solicitar esse identificador por meio de seus bancos. Insira esse identificador no campo ID de débito direto da conta bancária da entidade legal.
@@ -69,7 +72,7 @@ Na SEPA, cada credor é identificado por um identificador do credor exclusivo. E
 O cliente assina um mandato que autoriza o credor a cobrar um pagamento e instruir o banco do cliente a pagar a cobrança. O cliente pode emitir o mandato em formulário de papel ou eletronicamente. Por padrão, o mandato vence 36 meses após a última vez em que o débito direto foi iniciado.
 
 ## <a name="where-do-i-specify-the-sepa-direct-debit-file-format-iso-20022"></a>Onde eu especifico o formato de arquivo de Débito Direto da SEPA (ISO 20022)?
-Os formatos de dados da SEPA se baseiam nos padrões de mensagem ISO 20022. Você verificará a caixa de seleção eletrônica genérica selecionará de relatórios e o formato de débito direto do SEPA como uma configuração de formato de exportação quando você configurar métodos a receber do pagamento. Use esse método de pagamento ao gerar um arquivo de pagamento em um diário de pagamentos do cliente.
+Os formatos de dados da SEPA se baseiam nos padrões de mensagem ISO 20022. Você marcará a caixa de seleção Relatório eletrônico genérico e selecionará o formato de débito direto de SEPA como uma configuração de formato de exportação ao configurar métodos de pagamento de contas a pagar. Use esse método de pagamento ao gerar um arquivo de pagamento em um diário de pagamentos do cliente.
 
 ## <a name="in-what-file-formats-can-i-generate-sepa-direct-debit-payment-files"></a>Em quais formatos de arquivo posso gerar arquivos de pagamento de débito direito de SEPA?
 Você pode gerar arquivos de pagamento eletrônico para os débitos diretos da SEPA nos seguintes formatos:
@@ -78,6 +81,8 @@ Você pode gerar arquivos de pagamento eletrônico para os débitos diretos da S
 
 ## <a name="how-do-refunds-and-returns-work-with-sepa-direct-debits"></a>Como os reembolsos e devoluções funcionam com débitos diretos da SEPA?
 Em ambos os esquemas de Débito Direto da SEPA, os clientes têm determinados direitos a reembolsos. O cliente pode cancelar todas as transações autorizadas durante um período de oito semanas após a data de vencimento, sem que seja necessário dar um motivo. No caso das transações não autorizadas, o período é estendido a 13 meses após a data de vencimento. Os estornos de todos os pagamentos feitos são executados manualmente usando o botão Cancelar pagamento na página Transações de cliente.
+
+
 
 
 

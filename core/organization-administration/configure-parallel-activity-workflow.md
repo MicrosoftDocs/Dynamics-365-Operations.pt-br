@@ -1,5 +1,5 @@
 ---
-title: Configurar uma atividade em paralelo um fluxo de trabalho
+title: Configurar uma atividade paralela em um fluxo de trabalho
 description: Para configurar uma atividade paralela, execute estes procedimentos no editor de fluxo de trabalho.
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-parallel-activity-in-a-workflow"></a>Configurar uma atividade em paralelo um fluxo de trabalho
+# <a name="configure-a-parallel-activity-in-a-workflow"></a>Configurar uma atividade paralela em um fluxo de trabalho
 
 Para configurar uma atividade paralela, execute estes procedimentos no editor de fluxo de trabalho.
 
@@ -32,7 +32,7 @@ Uma atividade paralela consiste em ramificações do fluxo de trabalho que são 
 
 ## <a name="name-a-parallel-activity"></a>Forneça um nome à atividade paralela.
 Siga estas etapas para inserir um nome para a atividade paralela.
-1.  Clique com o botão direito em paralelo, a atividade e clique em propriedades ** ** para abrir ** propriedades ** o formulário.
+1.  Clique com o botão direito do mouse na atividade paralela e clique em **Propriedades** para abrir o formulário **Propriedades**.
 2.  No painel esquerdo, clique em **Configurações Básicas**.
 3.  No campo **Nome**, insira um nome exclusivo para a atividade paralela.
 4.  Clique em **Fechar**.

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="price-simulation"></a>Simulação de preço
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre a simulação de preço para cotações. A simulação de preço ajuda a avaliar o efeito de deduções no preço de venda futuro durante o processo de cotação, para que você confirme a um preço específico.
 
 Uma simulação de preço para uma cotação mostra um novo valor total, com base em um novo preço proposto. Uma simulação de preço também pode mostrar um novo valor para uma linha específica criada em uma cotação existente. Você pode inserir uma simulação de preço e aplicá-la posteriormente. Opcionalmente, você pode usar a cotação original sem uma simulação de preço, fazer mais alterações enquanto trabalha no processo de vendas com seu cliente.  
@@ -50,7 +53,7 @@ Para garantir que os descontos e preços sejam calculados corretamente, tenha cu
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Tipos de desconto em contratos comerciais
 
-Os contratos comerciais no Microsoft Dynamics 365 para operações podem ter quatro tipos de descontos. Esses descontos podem ser configurados para diferentes grupos de itens, de clientes ou de preços e podem ser limitados por data. Para evitar erros de cálculo, considere contratos comerciais ao executar simulações de preço. Os quatro tipos de descontos nos contratos comerciais são os seguintes:
+Os contratos comerciais no Microsoft Dynamics 365 for Operations podem ter quatro tipos de descontos de preço. Esses descontos podem ser configurados para diferentes grupos de itens, de clientes ou de preços e podem ser limitados por data. Para evitar erros de cálculo, considere contratos comerciais ao executar simulações de preço. Os quatro tipos de descontos nos contratos comerciais são os seguintes:
 
 -   **Preço de venda** – Os preços de venda separados podem ser especificadas para itens. Quando as linhas da cotação forem criadas, o programa pesquisará pelo preço de venda correto para um item e o transferirá para as linhas de cotação. Portanto, um acordo comercial com esse tipo de desconto não afeta a simulação de preço. O preço de venda da linha de cotação reflete o contrato comercial.
 -   **Desconto de linha** – Descontos especiais são especificados para itens, dependendo do valor encomendado. Os valores da linha são tipicamente reduzidos pelo desconto de linha antes da execução de uma simulação de preço. Portanto, um acordo comercial com esse tipo de desconto afeta a simulação de preço.
@@ -79,7 +82,7 @@ A tabela a seguir mostra as linhas de cotação.
 | Valor de venda em USD         | (10 × 15,32) + (12 × 13,75)          | 318,20   |
 | Valor de custo em USD          | (10 × 9,52) + (12 × 7,48)            | 184,96   |
 | Margem de contribuição em USD | 318,20 – 184,96                      | 133,24   |
-| Índice de contribuição         | (\[318.20 – 184.96\] ÷ 318.20) × 100 | 41,87%   |
+| Índice de contribuição         | (\[318,20 – 184,96\] ÷ 318,20) × 100 | 41,87%   |
 
 Você executa uma simulação de preços e aplica um desconto total de 15 por cento em toda a cotação ou no cabeçalho da cotação. A tabela a seguir mostra os novos totais da cotação após a execução da simulação de preço.
 
@@ -89,11 +92,11 @@ Você executa uma simulação de preços e aplica um desconto total de 15 por ce
 | Valor de venda antigo em USD                               | (10 × 15,32) + (12 × 13,75)               | 318,20   |
 | Valor de custo antigo em USD                                | (10 × 9,52) + (12 × 7,48)                 | 184,96   |
 | Margem de contribuição antiga em USD                       | 318,20 – 184,96                           | 133,24   |
-| Índice de contribuição antigo                               | (\[318.20 – (10 × 9.52)\] ÷ 318.20) × 100 | 41,87%   |
+| Índice de contribuição antigo                               | (\[318,20 – (10 × 9,52)\] ÷ 318,20) × 100 | 41,87%   |
 | Simulação de preços com 15% de desconto total em USD | (15 × 318,2) ÷ 100                        | 47,73    |
 | Novo valor de venda em USD                               | 318,20 – 47,73                            | 270,47   |
 | Nova margem de contribuição em USD                       | 270,47 – 184,96                           | 85,51    |
-| Novo índice de contribuição                               | \[(270.47 – 184.96) ÷ 270.47\] × 100      | 31,61%   |
+| Novo índice de contribuição                               | \[(270,47 – 184,96) ÷ 270,47\] × 100      | 31,61%   |
 
 ### <a name="price-simulation-for-single-line-items"></a>Simulação de preços para itens de única linha
 
@@ -113,12 +116,12 @@ A tabela a seguir mostra as linhas de cotação.
 | Valor de custo em USD de BR-14          | 12 × 7,48                            | 89,76    |
 | Margem de contribuição em USD de BR-12 | 153,20 – 95,20                       | 58,00    |
 | Margem de contribuição em USD de BR-14 | 165,00 – 89,76                       | 75,24    |
-| Índice de contribuição em USD de BR-12  | \[(153.20 – 95.20) ÷ 153.20\] × 100  | 37,86    |
-| Índice de contribuição em USD de BR-14  | \[(165.00 – 89.76) ÷ 165.00\] × 100  | 45,60    |
+| Índice de contribuição em USD de BR-12  | \[(153,20 – 95,20) ÷ 153,20\] × 100  | 37,86    |
+| Índice de contribuição em USD de BR-14  | \[(165,00 – 89,76) ÷ 165,00\] × 100  | 45,60    |
 | Valor de venda total em USD             | (10 × 15,32) + (12 × 13,75)          | 318,20   |
 | Valor de custo total em USD              | (10 × 9,52) + (12 × 7,48)            | 184,96   |
 | Margem de contribuição total em USD     | 318,20 – 184,96                      | 133,24   |
-| Índice de contribuição total             | \[(318.20 – 184.96) ÷ 318.20\] × 100 | 41,87%   |
+| Índice de contribuição total             | \[(318,20 – 184,96) ÷ 318,20\] × 100 | 41,87%   |
 
 Você executa uma simulação de preços e aplica um desconto total de 10 por cento em unidades BR-12. A tabela a seguir mostra os novos totais da cotação após a execução da simulação de preço para o item de única linha.
 
@@ -133,13 +136,15 @@ Você executa uma simulação de preços e aplica um desconto total de 10 por ce
 | Valor de custo em USD de BR-14                       | 12 × 7,48                               | 89,76    |
 | Nova margem de contribuição em USD de BR-12          | 137,88 – 95,20                          | 42,68    |
 | Margem de contribuição em USD de BR-14              | 165,00 – 89,76                          | 75,24    |
-| Novo índice de contribuição em USD de BR-12           | \[(137.88 – 95.20) ÷ 137.88\] × 100     | 30,95    |
-| Índice de contribuição em USD de BR-14               | \[(165.00 – 89.76) ÷ 165.00\] × 100     | 45,60    |
-| Novo valor total de venda em USD                      | \[(10 × 15.32) – 15.32\] + (12 × 13.75) | 302,88   |
+| Novo índice de contribuição em USD de BR-12           | \[(137,88 – 95,20) ÷ 137,88\] × 100     | 30,95    |
+| Índice de contribuição em USD de BR-14               | \[(165,00 – 89,76) ÷ 165,00\] × 100     | 45,60    |
+| Novo valor total de venda em USD                      | \[(10 × 15,32) – 15,32\] + (12 × 13,75) | 302,88   |
 | Valor de custo total em USD                           | (10 × 9,52) + (12 × 7,48)               | 184,96   |
 | Nova margem de contribuição total em USD              | 302,88 – 184,96                         | 117,92   |
-| Novo índice total de contribuição                      | \[(302.88 – 184.96) ÷ 302.88\] × 100    | 38,93%   |
+| Novo índice total de contribuição                      | \[(302,88 – 184,96) ÷ 302,88\] × 100    | 38,93%   |
 
 A simulação de preço afeta somente a linha na qual ela é aplicada e reduz o total dessa linha.
+
+
 
 

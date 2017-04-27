@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-vendor-accounts"></a>Configurar contas de fornecedor
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tópico descreve os tipos de informações que você deve especificar quando cria uma nova conta de fornecedor.
 
 Ao criar uma conta de fornecedor, insira informações sobre o fornecedor. Essas informações são usadas para inserir dados automaticamente nos documentos e rastrear as atividades que envolvem o fornecedor. Por exemplo, você pode configurar as seguintes informações para um fornecedor:
@@ -40,7 +43,7 @@ Ao criar uma conta de fornecedor, insira informações sobre o fornecedor. Essas
 -   Configurar informações sobre imposto, entrega, fatura e pagamento para o fornecedor. Por padrão, essas configurações são copiadas em novos documentos que você cria para o fornecedor.
 -   Configurar as dimensões financeiras padrão usadas para lançar transações automaticamente com o fornecedor nas contas financeiras.
 
-Para agilizar o processo de criação de contas de fornecedor, você pode criar modelos. Para criar um modelo, em ** ** fornecedor página no painel, ações, clique em opções ** ** &gt; ** ** informações de registro. Em seguida, clique em **Modelo de contas da empresa**. Os modelos de contas da empresa são compartilhados com outros usuários.  
+Para agilizar o processo de criação de contas de fornecedor, você pode criar modelos. Para criar um modelo, na página **Fornecedor**, no painel de ação, clique em **Opções** &gt; **Informações sobre registro**. Em seguida, clique em **Modelo de contas da empresa**. Os modelos de contas da empresa são compartilhados com outros usuários.  
 
 Você também pode criar um modelo de usuário para seu próprio uso. Você não pode excluir um fornecedor associado com outros registros, como contatos ou produto.
 
@@ -56,7 +59,7 @@ Para cada fornecedor, você pode definir vários endereços, sendo cada um deles
 ## <a name="vendor-contacts"></a>Contatos de fornecedor
 Você pode armazenar os contatos de um fornecedor. Esses contatos poderão, então, ser usados em documentos como ordens de compra ou RFQs (solicitações de cotação).  
 
-Para adicionar contatos para um fornecedor, em todas ** fornecedores **, página em ** fornecedor ** guia, ** ** configuração do grupo, clique ** contatos ** &gt; ** adicionar contatos **.  
+Para adicionar contatos a um fornecedor, na página **Todos os fornecedores**, na guia **Fornecedor**, no grupo **Configurar**, clique em **Contatos** &gt; **Adicionar contatos**.  
 
 Você pode criar contatos de fornecedor a partir do zero. Se desejar, você pode copiar detalhes de outra pessoa que já esteja registrada no Microsoft Dynamics 365 for Operations e editar as informações conforme necessário.  
 
@@ -64,7 +67,7 @@ Você pode criar contatos de fornecedor a partir do zero. Se desejar, você pode
 
 Você não poderá excluir um registro pessoal de contato quando o contato for referenciado em um documento. Em vez disso, poderá desativar o contato.  
 
-Você pode adicionar contatos do fornecedor a seus contatos pessoais no Microsoft Office de 365. Entretanto, primeiro configure a sincronização entre o dynamics 365 para operações e Office 365 na sincronização de troca Server e Microsoft em assistente de instalação do Microsoft Outlook.
+Você pode adicionar contatos de fornecedor para seus contatos pessoais no Microsoft Office 365. Entretanto, primeiro configure a sincronização entre o Dynamics 365 for Operations e o Office 365 na sincronização do Microsoft Exchange Server e no assistente de instalação do Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Fornecedores em entidades legais diferentes
 Se um fornecedor estiver registrado para apenas uma entidade legal em sua organização, e outras entidades legais precisarem registrar o mesmo fornecedor, use a página **Adicionar fornecedor a outra entidade legal** para configurar o fornecedor de modo que ele faça negócios com outra entidade legal. Você deve selecionar um grupo de fornecedores, uma moeda e um status de suspensão para o fornecedor na entidade legal selecionada.  
@@ -101,5 +104,7 @@ Se você precisar fazer pagamentos para uma conta bancária de fornecedor, poder
 Você pode especificar as contas padrão que aparecerão automaticamente nos diários de fatura do fornecedor especificado. Essa funcionalidade poderá ser útil se você normalmente pagar pelos mesmos tipos de itens ou serviços dos mesmos fornecedores ao longo do tempo. Ao especificar uma conta padrão, você poderá inserir entradas no diário de fatura com rapidez e eficiência. As contas padrão que você especificar não são usadas para ordens de compra, ou para faturas de fornecedor inseridas na página **Fatura de fornecedor**.  
 
 Selecione contas padrão na página **Configuração de conta padrão**, que você pode abrir na guia **Fatura** no registro de fornecedor. As contas selecionadas aqui aparecem na lista de contas filtrada para a conta de fornecedor quando você insere uma entrada de diário. Você pode definir uma das contas como conta padrão.
+
+
 
 

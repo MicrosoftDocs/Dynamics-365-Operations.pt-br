@@ -1,5 +1,5 @@
 ---
-title: "Descontos à vista de manuseio de pagamentos"
+title: "Manuseio de descontos à vista para pagamentos a maior"
 description: "Este artigo fornece os cenários que mostram como um pagamento é manuseado quando o cliente leva um desconto à vista, mas também paga em excesso."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Descontos à vista de manuseio de pagamentos
+# <a name="handling-cash-discounts-for-overpayments"></a>Manuseio de descontos à vista para pagamentos a maior
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo fornece os cenários que mostram como um pagamento é manuseado quando o cliente leva um desconto à vista, mas também paga em excesso. 
 
@@ -133,6 +136,8 @@ O valor do desconto à vista é reduzido de 10,50 para 10,00. O pagamento e a fa
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
 | Desconto à vista (o campo **Conta principal para descontos do cliente** na página **Descontos à vista**) | R$ 10,50        |               |
 | Contas a Receber                                                                              |              | R$ 10,50         |
+
+
 
 
 

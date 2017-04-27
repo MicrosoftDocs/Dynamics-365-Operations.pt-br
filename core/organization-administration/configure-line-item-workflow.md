@@ -26,11 +26,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-a-line-item-workflow"></a>Configurar um fluxo de trabalho de item de linha
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tópico explica como configurar um elemento do fluxo de trabalho de item de linha.
 
 Para configurar um elemento do fluxo de trabalho de item de linha, no editor de fluxo de trabalho, clique com o botão direito do mouse no elemento **Propriedades** e clique em **Propriedades** para abrir a página. Então use os procedimentos a seguir para configurar as propriedades de elemento do fluxo de trabalho de item de linha.
 
-## <a name="name-the-lineitem-workflow-element"></a>Nomear o elemento do fluxo de trabalho de lineitem
+## <a name="name-the-lineitem-workflow-element"></a>Forneça um nome ao elemento do fluxo de trabalho de item de linha.
 Siga estas etapas para inserir um nome para o elemento do fluxo de trabalho de item de linha.
 
 1.  No painel esquerdo, clique em **Configurações Básicas**.
@@ -50,6 +53,8 @@ Siga estas etapas para especificar se o mesmo fluxo de trabalho será usado para
     6.  Para verificar se o conjunto de condições que você inseriu está configurado corretamente, clique em **Teste**. Na página **Testar condição de fluxo de trabalho**, na área **Validar condição**, selecione um registro e clique em **Teste**. O sistema avaliará o registro para determinar se ele atende às condições definidas. Clique em **OK** ou **Cancelar** para retornar à página **Propriedades**.
 
     Na guia **Fluxo de trabalho**, selecione o fluxo de trabalho no fluxo de trabalho a ser usado para processar as linhas de item que atenderem o conjunto de condições definidas.
+
+
 
 
 

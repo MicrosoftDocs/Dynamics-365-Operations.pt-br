@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="audit-policy-rules"></a>Auditar regras da política
 
+[!include[banner](../includes/banner.md)]
+
+
 Você pode usar as políticas para avaliar relatórios de despesas, faturas de fornecedor e ordens de compra para garantir que eles estejam em conformidade com as regras de política criadas. Todas as regras associadas a uma política de auditoria são executadas em modo de lotes de acordo com uma agenda especificada.  Cada regra de política é uma instância de um tipo de regra de política. Para cada tipo de regra de política, somente uma regra de política pode ficar ativa de cada vez. 
 
 <a name="queries-and-query-types"></a>Consultas e tipos de consulta
@@ -97,5 +100,7 @@ Todas as regras de política para uma política de auditoria específica compart
 --------
 
 [Auditar violações de política e casos](audit-policy-violations-cases.md)
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accruals-overview"></a>Visão geral das competências
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve competências, e fornece informações sobre como configurá-las e criar transações.
 
 As competências são usadas em regime de competência para rastrear a receita que é reconhecida no período em que é gerada, não quando o pagamento é recebido e para rastrear as despesas (custo) que são reconhecidas quando ocorrem, não quando o pagamento é efetuado.
@@ -41,6 +44,8 @@ Os esquemas das competências são usados para configurar a receita e os custos 
 Depois que você determina quais contas usar, é possível especificar como o número do comprovante é criado quando as transações de competência são criadas. Você também pode especificar com que frequência as transações ocorrerão, o número de vezes em que as transações são criadas e quando as transações são lançadas. Depois que o esquema de competência foi criado, é possível usá-lo em qualquer um dos diários usando a função de competências do razão.
 
 ## <a name="ledger-accruals"></a>Competências do razão
-Quando você insere um diário, é possível clicar em **Competências do razão** no menu **Funções**. Em seguida, quando você seleciona o esquema de competência, você verá o valor base do diário que será dividido durante o período, conforme determinado pelo esquema de competência. Por exemplo, se você pagar o seguro de um funcionário para o ano inteiro em janeiro, e o valor é 12,000, você deve confirmar as despesas cada mês. Você pode selecionar a data inicial. Você também pode especificar se o valor que é acumulado é baseado na conta ou na conta de compensação. Depois que você fizer as seleções, clique ** ** transações para exibir todas as transações criadas com o esquema de competência. Por exemplo, se você difunde os 12,000 em despesas do seguro sobre o ano, será exibido 1,000 para cada mês. Depois de lançar o diário, você pode exibir as transações usando ** transações de comprovante ** a página de consulta. Se um esquema de competência podem não ser aplicado (por exemplo, quando uma nota fiscal de ordem de venda ou uma nota fiscal de ordem de compra forem), ela poderá creditar o valor pago antecipadamente e debitar o valor de despesas. Você pode selecionar **Contrapartida** ao aplicar o esquema de competência.
+Quando você insere um diário, é possível clicar em **Competências do razão** no menu **Funções**. Em seguida, quando você seleciona o esquema de competência, você verá o valor base do diário que será dividido durante o período, conforme determinado pelo esquema de competência. Por exemplo, se você pagar o seguro de um funcionário para todo o ano em janeiro e o valor for 12.000, você deve reconhecer as despesas todos os meses. Você pode selecionar a data de início. Você também pode especificar se o valor que é acumulado é baseado na conta ou na conta de compensação. Depois das seleções, clique em **Transações** para exibir todas as transações que foram criadas com base no esquema de competência. Por exemplo, se você tiver 12.000 em despesas de seguro durante o ano, você verá 1.000 para cada mês. Depois de lançar o diário, você pode exibir as transações usando a página de consulta **Transações de comprovante**. Se não for possível aplicar um esquema de competência (por exemplo, quando uma fatura de ordem de venda ou uma fatura de ordem de compra for envolvida), você pode creditar o valor pago antecipadamente e debitar o valor de despesas. Você pode selecionar **Contrapartida** ao aplicar o esquema de competência.
+
+
 
 

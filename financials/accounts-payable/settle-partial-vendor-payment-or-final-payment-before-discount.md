@@ -1,5 +1,5 @@
 ---
-title: Liquidar um pagamento parcial de fornecedor e do pagamento final antes da data do desconto
+title: Liquidar um pagamento parcial de fornecedor e liquidar o pagamento final em sua totalidade antes da data do desconto
 description: "Este artigo mostra um cenário no qual os pagamentos parciais são feitos para uma nota fiscal de fornecedor, e um desconto à vista será obtido."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidar um pagamento parcial de fornecedor e do pagamento final antes da data do desconto
+# <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidar um pagamento parcial de fornecedor e liquidar o pagamento final em sua totalidade antes da data do desconto
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo mostra um cenário no qual os pagamentos parciais são feitos para uma nota fiscal de fornecedor, e um desconto à vista será obtido.
 
-Fabrikam compra bens de fornecedor 3064. O fornecedor da Fabrikam um desconto à vista de 1 por cento se a fatura é pago em 14 dias. As faturas devem ser pagas em 30 dias. O fornecedor também permite que a Fabrikam obtenha descontos à vista em pagamentos parciais. Parâmetros de pagamento estão localizados ** parâmetros de contas a pagar ** na página. Em 25 de junho, Amanda insere uma fatura de 1.000,00 para o fornecedor 3064.
+A Fabrikam compra produtos do fornecedor 3064. O fornecedor oferece à Fabrikam um desconto à vista de 1% se uma fatura for paga em 14 dias. As faturas devem ser pagas em 30 dias. O fornecedor também permite que a Fabrikam obtenha descontos à vista em pagamentos parciais. Os parâmetros de pagamento estão localizados na página **Parâmetros de contas a pagar**. Em 25 de junho, Amanda insere uma fatura de 1.000,00 para o fornecedor 3064.
 
 ## <a name="vendor-invoice-on-june-25"></a>Fatura de fornecedor em 25 de junho
-abril o 25 de junho, insere e lança uma nota fiscal para 1,000.00 para o fornecedor 3064. Alice pode exibir essa transação na página **Transações do fornecedor**.
+Em 25 de junho, Amanda insere e lança uma fatura de 1.000,00 para o fornecedor 3064. Alice pode exibir essa transação na página **Transações do fornecedor**.
 
 | Comprovante   | Data      | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo   | Moeda |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
@@ -63,7 +66,7 @@ Alice clica na guia **Desconto à vista** para exibir o valor do desconto.
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="partial-payment-on-july-1-by-using-the-settle-transactions-page"></a>Pagamento parcial em 1º de julho usando a página Liquidar transações
-Alice pode criar um diário de pagamento para esse pagamento abrindo a página **Diário de pagamento** em Contas a pagar. Cria um novo diário e inserir uma linha para o fornecedor 3064. Então abre ** transações de acordo ** a página, de modo que possa marcar a nota fiscal para pagamento. Alice marca a fatura e altera o valor do campo **Valor a ser liquidado** para **-500,00**. Ela vê que o valor do campo **Valor do desconto à vista** é **-10,00** para a fatura total e que o valor do campo **Valor do desconto a vista a ser obtido** é **-5,05**. Consequentemente, Amanda está liquidando -505,05 desta fatura.
+Alice pode criar um diário de pagamento para esse pagamento abrindo a página **Diário de pagamento** em Contas a pagar. Ela cria um novo diário e insere uma linha para o fornecedor 3064. Ela então abre a página **Liquidar transações**, dessa forma, ela pode marcar a fatura para liquidação. Alice marca a fatura e altera o valor do campo **Valor a ser liquidado** para **-500,00**. Ela vê que o valor do campo **Valor do desconto à vista** é **-10,00** para a fatura total e que o valor do campo **Valor do desconto a vista a ser obtido** é **-5,05**. Consequentemente, Amanda está liquidando -505,05 desta fatura.
 
 | Marcar     | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -95,7 +98,7 @@ As informações do desconto aparecem na parte inferior da página **Liquidar tr
 | Desconto à vista obtido          | 0,00      |
 | Valor do desconto à vista a ser obtido | -5,00     |
 
-Alice fecha a página **Liquidar transações**. Uma linha de pagamento para 495,00 é criada no diário, e Amanda lança o diário. abril pode examinar as transações de fornecedores ** ** transações de fornecedor na página. Consulta a nota fiscal tem um saldo de -500.00. Ela também vê um pagamento de 495,00 e um desconto à vista de 5,00.
+Alice fecha a página **Liquidar transações**. Uma linha de pagamento para 495,00 é criada no diário, e Amanda lança o diário. Amanda pode rever as transações do fornecedor na página **Transações do fornecedor**. Ela vê que a fatura tem um saldo de -500,00. Ela também vê um pagamento de 495,00 e um desconto à vista de 5,00.
 
 | Comprovante    | Tipo de transação | Data      | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo | Moeda |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|---------|----------|
@@ -136,6 +139,8 @@ Alice lança o diário de pagamento e analisa e as transações do fornecedor na
 | DISC-10010 | Desconto à vista    | 01/07/2015  |         | 5,00                                 |                                       | 0,00    | USD      |
 | APP-10011  | Pagamento          | 8/7/2015  |         | 495.00                               |                                       | 0,00    | USD      |
 | DISC-10011 | Desconto à vista    | 8/7/2015  |         | 5,00                                 |                                       | 0,00    | USD      |
+
+
 
 
 

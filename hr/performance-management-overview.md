@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="performance-management-overview"></a>Visão geral do gerenciamento de desempenho
 
+[!include[banner](includes/banner.md)]
+
+
 O processo de gerenciamento de desempenho permite que os funcionários documentem e discutam seu desempenho com os gerentes. Por sua vez, os gerentes podem fornecer comentários e orientações aos funcionários.  
 
 Conforme mostrado no diagrama a seguir, há três páginas que ajudam você a gerenciar o processo:
@@ -34,7 +37,7 @@ Conforme mostrado no diagrama a seguir, há três páginas que ajudam você a ge
 -   Metas
 -   Avaliação dos resultados
 
-O diagrama a seguir mostra como os componentes principais do gerenciamento de desempenho estão relacionados entre si. [visão geral do processo de desempenho do![(]. /media/hcm_performanceoverviewdiagram-300x189.png)](. /media/hcm_performanceoverviewdiagram.png)    
+O diagrama a seguir mostra como os componentes principais do gerenciamento de desempenho estão relacionados entre si. [![Visão geral do processo de desempenho](./media/hcm_performanceoverviewdiagram-300x189.png)](./media/hcm_performanceoverviewdiagram.png)    
 
 ## <a name="performance-journal"></a>Diário de desempenho
 Sendo um funcionário, antes da revisão, você geralmente reúne informações sobre atividades ou eventos que contribuíram para o seu sucesso durante o período de revisão. O diário de desempenho é o lugar em que você pode documentar essas atividades e eventos. Além disso, você pode criar atividades futuras que devem ser concluídas para ajudar a atingir uma meta, atender aos requisitos de um plano de desenvolvimento ou cumprir um compromisso de desempenho. Os diários de desempenho não são exigidos para criar metas ou revisões de desempenho. 
@@ -132,7 +135,7 @@ Você pode usar o fluxo de trabalho de revisão do trabalhador para controlar a 
 O fluxo de trabalho de revisão do trabalhador tem dois elementos:
 
 1.  Aprovar revisão. Adicione este elemento para controlar a alteração do status de **Em andamento** para **Pronto para Revisão**. Altere a atribuição para usar a hierarquia administrativa em que o nível de gerente de Employee.line seja = 1.
-2.  Revisão final. Adicionar esse elemento para controlar a alteração de status de aprontam ** se a revisão ** ** revisão ** final. Modificar a atribuição usar a hierarquia administrativa onde o nível do gerente de Employee.line = 1 se desejar que o gerente para aprovar a revisão final. Altere a atribuição para Fluxo de trabalho do usuário se você quiser que o funcionário aprove-a. Se quiser que o gerente e o funcionário aprovem a revisão, adicione as duas etapas ao fluxo de trabalho e faça a atribuição apropriada para cada etapa na ordem que você quiser que as aprovações sigam.
+2.  Revisão final. Adicione este elemento para controlar a alteração do status de **Pronto para Revisão** para **Revisão Final**. Modifica a atribuição para usar a hierarquia administrativa onde o nível do gerente de Employee.line = 1 se desejar que o gerente aprove a revisão final. Altere a atribuição para Fluxo de trabalho do usuário se você quiser que o funcionário aprove-a. Se quiser que o gerente e o funcionário aprovem a revisão, adicione as duas etapas ao fluxo de trabalho e faça a atribuição apropriada para cada etapa na ordem que você quiser que as aprovações sigam.
 
 ## <a name="setup"></a>Instalação
 Há três páginas que ajudam você a definir as informações necessárias para concluir o processo de desempenho: a página de **medidas**, a página de **Tipos de origem do diário de desempenho** a página de **tipos de revisão**.
@@ -148,5 +151,7 @@ Os tipos de origem do diário de desempenho descrevem de onde os diários de des
 ### <a name="review-types"></a>Tipos de revisão
 
 Os tipos de revisão de desempenho ajudam você a controlar o comportamento de uma revisão. Você pode habilitar ou desabilitar o fluxo de trabalho para uma revisão. Se a revisão não usar o fluxo de trabalho, você poderá definir o status padrão que será usado quando a revisão for criada. Também pode decidir se o funcionário, o gerente ou ambos são necessários para a aprovação da revisão.
+
+
 
 

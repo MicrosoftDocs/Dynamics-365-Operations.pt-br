@@ -1,5 +1,5 @@
 ---
-title: Configurar uma tarefa automatizada um fluxo de trabalho
+title: Configurar uma tarefa automatizada em um fluxo de trabalho
 description: "Este tópico explica como configurar as propriedades de uma tarefa automatizada."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-automated-task-in-a-workflow"></a>Configurar uma tarefa automatizada um fluxo de trabalho
+# <a name="configure-an-automated-task-in-a-workflow"></a>Configurar uma tarefa automatizada em um fluxo de trabalho
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico explica como configurar as propriedades de uma tarefa automatizada.
 
@@ -92,16 +95,18 @@ Siga estas etapas para inserir um nome para a tarefa automatizada.
     </tr>
     <tr class="odd">
     <td>Usuário</td>
-    <td>Microsoft Dynamics 365 de usuários específico de operações</td>
+    <td>Especificar usuários do Microsoft Dynamics 365 for Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li><strong>Usuários disponíveis</strong> A lista inclui qualquer dynamics 365 para usuários das operações. Selecione os usuários aos quais enviar notificações e mova- os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais enviar notificações e mova- os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
 8.  Repita as etapas de 3 a 7 para cada evento selecionado na etapa 2.
+
+
 
 
 

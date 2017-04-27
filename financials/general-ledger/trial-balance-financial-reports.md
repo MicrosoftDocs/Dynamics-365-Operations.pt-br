@@ -1,6 +1,6 @@
 ---
 title: "Relatórios financeiros de balancete"
-description: "Este artigo descreve os relatórios padrão para balancetes. Também mostra os blocos de construção associados a esses relatórios e como você pode alterar os relatórios para se adequar as suas necessidades comerciais."
+description: "Este artigo descreve os relatórios padrão para saldos de teste. Ele também descreve os blocos de construção que estão associados a esses relatórios e como você pode modificar os relatórios para atender às suas necessidades de negócios."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="trial-balance-financial-reports"></a>Relatórios financeiros de balancete
 
-Este artigo descreve os relatórios padrão para balancetes. Também mostra os blocos de construção associados a esses relatórios e como você pode alterar os relatórios para se adequar as suas necessidades comerciais. 
+[!include[banner](../includes/banner.md)]
+
+
+Este artigo descreve os relatórios padrão para saldos de teste. Ele também descreve os blocos de construção que estão associados a esses relatórios e como você pode modificar os relatórios para atender às suas necessidades de negócios. 
 
 <a name="default-trial-balance-reports"></a>Relatórios do balancete padrão
 -----------------------------
@@ -51,7 +54,7 @@ Os relatórios financeiros de balancete usam os seguintes blocos de construção
 
 ### <a name="row-definition"></a>Definição de linha
 
-A definição de linha, balancete – padrão, contendo uma linha única que recebe em todas as contas principais. Consequentemente, qualquer pessoa pode gerar o relatório sem fazer modificações. Ao visualizar o relatório, você navega na linha única para ver os detalhes sobre cada conta. É possível modificar a definição da linha para que inclua mais detalhes. Para modificar a definição da linha Balancete – Padrão para que inclua linhas para todas as contas, siga as etapas.
+A definição de linha, balancete - padrão, contém uma única linha que puxa todas as contas principais. Consequentemente, qualquer pessoa pode gerar o relatório sem fazer modificações. Ao visualizar o relatório, você navega na linha única para ver os detalhes sobre cada conta. É possível modificar a definição da linha para que inclua mais detalhes. Para modificar a definição da linha Balancete – Padrão para que inclua linhas para todas as contas, siga as etapas.
 
 1.  Clique em **Editar**, e clique em **Inserir linhas nas dimensões**. O comando **Inserir linhas para dimensões** permite escolher as dimensões desejadas em sua definição de linha. Para esta definição da linha, você utilizará **Conta principal**.
 2.  Verifique se **Conta principal** contém todos os E comerciais (&) e clique em **OK**.
@@ -100,10 +103,12 @@ Cada relatório do balancete usa uma definição da coluna diferente. Essas defi
 <a name="see-also"></a>Consulte também
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[Relatórios financeiros](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[Exibir relatórios financeiros](view-financial-reports.md)
 
-Blog [] de relatórios financeiros de dinâmica (http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Blog de Relatório Financeiro do Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

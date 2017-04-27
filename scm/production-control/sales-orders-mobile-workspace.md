@@ -1,6 +1,6 @@
 ---
-title: "O espaço de trabalho móvel de ordens de venda do Microsoft Dynamics 365 para o descritivo de operações"
-description: "Com as ordens de venda o espaço de trabalho, celular poderá ficar atualizado nas ordens de venda em qualquer lugar e a qualquer momento."
+title: "Espaço de trabalho móvel de ordens de venda para o aplicativo do Microsoft Dynamics 365 for Operations"
+description: "Com o espaço de trabalho móvel de ordens de vendas, você pode se manter atualizado em suas ordens de vendas em qualquer lugar e a qualquer momento."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,93 +25,93 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>O espaço de trabalho móvel de ordens de venda do Microsoft Dynamics 365 para o descritivo de operações
+# <a name="sales-orders-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Espaço de trabalho móvel de ordens de venda para o aplicativo do Microsoft Dynamics 365 for Operations
 
-Com as ordens de venda o espaço de trabalho, celular poderá ficar atualizado nas ordens de venda em qualquer lugar e a qualquer momento. 
+Com o espaço de trabalho móvel de ordens de vendas, você pode se manter atualizado em suas ordens de vendas em qualquer lugar e a qualquer momento. 
 
 <a name="prerequisites"></a>Pré-requisitos
 -------------
 
 | Pré-requisito                                                         | descrição                                                                                                                                                                   |
 |----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Leia sobre o Microsoft Dynamics 365 para o preparo de celular de operações | [Dynamics 365 para a plataforma móvel] operações (/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dynamics 365 for Operations                                          | Verifique se está usando um ambiente com Microsoft Dynamics 365 para a versão 1611 de operações e o Microsoft Dynamics para atualização 3 de preparo operações (). em novembro de 2016 |
-| 3215650 KB de Hotfix                                                    | Instalar o hotfix para habilitar espaços de trabalho fornecidos no Microsoft Dynamics 365 para as operações.                                                                       |
-| Dispositivo móvel que tem o dynamics 365 para o descritivo instalado de operações | Baixe o dynamics 365 para o descritivo de operações do armazenamento móvel descritivo.                                                                                                      |
+| Leia sobre a plataforma móvel do Microsoft Dynamics 365 for Operations | [Plataforma móvel do Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
+| Dynamics 365 for Operations                                          | Verifique se você está usando um ambiente com a versão 1611 do Microsoft Dynamics 365 for Operations e a atualização 3 da plataforma do Microsoft Dynamics for Operations (novembro de 2016). |
+| Hotfix KB 3215650                                                    | Instale o hotfix para habilitar os espaços de trabalho que são fornecidos no Microsoft Dynamics 365 for Operations.                                                                       |
+| Dispositivo móvel com o Dynamics 365 for Operations instalado | Baixe o aplicativo do Dynamics 365 for Operations na sua loja de aplicativos móveis.                                                                                                      |
 
 ## <a name="overview"></a>Visão Geral
-O espaço de trabalho móvel acessa o dynamics 365 para o aplicativo de operações e permite exibir informações detalhadas sobre cada status da ordem de venda, como, ordens, informações de contato do cliente, e informações de contato de compradores de ordem. O espaço de trabalho móvel fornece uma exibição instantânea de ordens de venda. Você pode exibir ordens de venda por cliente, ou exiba todas as ordens de venda, ou exiba informações sobre uma ordem de venda específica. O espaço de trabalho fornece duas exibições móvel para ajudar a analisar as ordens de venda detalhados.
+Esta área de trabalho móvel acessa o aplicativo do Dynamics 365 for Operations e permite exibir informações detalhadas sobre cada ordem de cliente, como status do pedido, informações de contato do cliente e informações de contato do comprador de pedidos. O espaço de trabalho móvel fornece uma visualização instantânea das ordens de venda. Você pode exibir pedidos de vendas por cliente, exibir todas as ordens do cliente ou exibir informações sobre uma ordem de cliente específica. O espaço de trabalho móvel oferece duas visualizações para ajudá-lo a analisar as ordens de venda em profundidade.
 
-### <a name="view-all-sales-orders"></a>Exiba todas as ordens de venda
+### <a name="view-all-sales-orders"></a>Exibir todas as ordens de venda
 
-Essa exibição lista todas as ordens de venda.
+Essa exibição lista todas as ordens do cliente.
 
--   Use um dos filtros selecione as ordens de venda que deseja exibir.
-    -   Procure pela ordem de venda
-    -   Pesquisar por conta de cliente
-    -   Pesquisar o nome de cliente
-    -   Consultar por status
-    -   Consultar por status da versão
-    -   Pesquisar de data e hora criadas
+-   Use um dos seguintes filtros para selecionar as ordens de vendas que deseja exibir.
+    -   Pesquisar por ordem de cliente
+    -   Pesquisa por conta de cliente
+    -   Pesquisa por nome de cliente
+    -   Pesquisar por status
+    -   Pesquisar por status de lançamento
+    -   Procurar por data e hora de criação
 
 <!-- -->
 
--   Após selecionar ordens de venda, você pode exibir os detalhes de ordens específicas. Especificamente, você pode exibir:
+-   Depois de selecionar as ordens do cliente, você pode visualizar os detalhes de ordens específicas. Especificamente, você pode visualizar:
     -   Informações de nome e endereço do cliente
-    -   Diferentes datas de ordem de venda, como a data de remessa solicitada e data de remessa confirmada
-    -   Informações de contato de compradores de ordem
+    -   Diferentes datas de ordem de venda, como data de envio solicitada e data de envio confirmada
+    -   Informações para contato do comprador de pedidos
     -   Informações de contato do cliente
     -   Linhas da ordem
-    -   Remessas para mostrar como e quando uma ordem de venda foi enviada
+    -   Envios que mostram como e quando uma ordem do cliente foi enviada
 
-### <a name="view-orders-for-a-customer-"></a>Ordens de exibição para um cliente ** **
+### <a name="view-orders-for-a-customer-"></a>Ver encomendas de um cliente
 
-Essa exibição lista ordens de venda por cliente.
+Essa exibição lista ordens de vendas por cliente.
 
--   Use um dos filtros exibir ordens para um cliente.
+-   Essa exibição lista ordens de vendas por cliente.
     -   Pesquisar por nome
     -   Pesquisar por conta
 
 <!-- -->
 
--   Após selecionar um cliente, você pode exibir:
-    -   Nome e grupo de cliente
+-   Depois de selecionar um cliente, é possível exibir:
+    -   Nome e grupo do cliente
     -   Informações de contato do cliente
-    -   Ordens de venda e detalhes do cliente sobre ordens de venda:
+    -   Ordens de vendas do cliente e detalhes sobre as ordens de venda:
         -   Informações de nome e endereço do cliente
-        -   Diferentes datas de ordem de venda
-        -   Informações de contato de compradores de ordem
+        -   Diferentes datas de pedidos de vendas
+        -   Informações para contato do comprador de pedidos
         -   Informações de contato do cliente
         -   Linhas da ordem
-        -   Remessas para mostrar como e quando as ordens de venda foram enviados
+        -   Envios que mostram como e quando uma ordem de venda foi enviada
 
 ## <a name="get-started"></a>Introdução
-Rastrear essas etapas para introdução usando o espaço de trabalho móvel de ordens de venda no dispositivo móvel.
+Siga estas etapas para começar a usar o espaço de trabalho móvel de ordens de vendas em seu dispositivo móvel.
 
-1.  No armazenamento móvel descritivo, baixar e instalar o Microsoft Dynamics 365 para o descritivo de operações.
-2.  Inicie a descritivo no dispositivo.
-3.  Insira a URL do 365.
-4.  Insira a empresa para conectar-se. Por exemplo, insira USMF ** **.
-5.  A primeira vez que que se conectar, será solicitado para o nome de usuário e a senha para o Microsoft Dynamics 365 para a conta de operações. Insira suas credenciais. Depois que se conectar, verá espaços de trabalho disponíveis para sua empresa.
+1.  Na sua loja de aplicativos móveis, baixe e instale o aplicativo do Microsoft Dynamics 365 for Operations.
+2.  Inicie o aplicativo no seu dispositivo.
+3.  Insira sua URL do Dynamics 365.
+4.  Insira a empresa à qual deseja se conectar. Por exemplo, insira **USMF**.
+5.  No primeiro acesso, são solicitados nome de usuário e senha da sua conta do Microsoft Dynamics 365 for Operations. Insira suas credenciais. Após se conectar, você verá os espaços de trabalho da sua empresa.
 
-Exibir espaços de trabalho do celular descritivo, primeiramente publicar espaços de trabalho o dynamics desejados para o 365 descritivo de operações.
+Para exibir os espaços de trabalho no seu aplicativo móvel, primeiro você deve publicar os espaços de trabalho desejados para o aplicativo do Dynamics 365 for Operations.
 
-1.  Dynamics 365 Inicial para as operações.
-2.  Ir ** administração de sistema ** &gt; ** de instalação ** &gt; ** ** parâmetros do sistema.
-3.  Selecione ** gerenciamento descritivo móvel **.
+1.  Inicie o Dynamics 365 for Operations.
+2.  Vá para **Administração do sistema** &gt; **Configuração** &gt; **Parâmetros do sistema**.
+3.  Selecione o **Gerenciar aplicativo móvel**.
 4.  Selecione o espaço de trabalho para publicar a plataforma móvel.
-5.  ** Publicar selecione o espaço de trabalho. **
-6.  Atualizar o dispositivo para consultar espaços de trabalho publicados.
+5.  Selecione **Publicar espaço de trabalho**.
+6.  Atualize seu dispositivo para ver os espaços de trabalho publicados.
 
-## <a name="view-information-about-sales-orders-for-a-customer"></a>Exiba informações sobre ordens de venda para um cliente
-1.  No dispositivo móvel, selecione ** ordens de venda ** o espaço de trabalho.
-2.  ** Selecione ordens de exibição ** um cliente.
-3.  Usar conta ** ** ** ou nome de cliente ** informações do cliente necessário.
+## <a name="view-information-about-sales-orders-for-a-customer"></a>Exibir informações sobre ordens de venda para um cliente específico
+1.  No seu dispositivo móvel, selecione o espaço de trabalho **Ordens de vendas**.
+2.  Selecione **Exibir ordens para um cliente**.
+3.  Use as informações **Conta **ou **Nome do cliente **para localizar o cliente desejado.
 4.  Selecione o cliente.
-5.  ** Selecione informações de contato ou ** ** ** ordens de venda.
-6.  ** Se ordens de venda ** for selecionado, uma lista de ordens de venda para o cliente será exibida.
-7.  Selecione ** ** ordem de venda.
-8.  Aqui você pode exibir informações sobre linhas de ordem de venda, remessas, informações de contato do cliente, e informações de contato de compradores de ordem.
+5.  Selecione **Informações de contato** ou **Ordens de venda**.
+6.  Se **Ordens de venda** for selecionado, será exibido uma lista de ordens de vendas para o cliente.
+7.  Selecione **Ordem de venda**.
+8.  Aqui você pode exibir informações sobre linhas de ordens de vendas, remessas, informações de contato do cliente e informações de tomador da ordem.
 
 
 

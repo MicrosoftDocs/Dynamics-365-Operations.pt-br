@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-integration"></a>Integração de ativos fixos
 
+[!include[banner](../includes/banner.md)]
+
+
 Ativos fixos podem ser integrados à Contabilidade, ao Gerenciamento de estoque, a Contas a receber e a Contas a pagar. Você também pode configurar os Ativos fixos para que sejam integrados às ordens de compra.
 
 <a name="general-ledger"></a>Contabilidade
@@ -82,7 +85,7 @@ A integração de cada linha da ordem é ativada na guia **Ativos fixos** da **G
 ## <a name="project-management-and-accounting"></a>Gerenciamento de projetos e de contabilidade
 É possível associar um projeto com um ativo que é afetado pelo projeto. Também é possível associar cada fase, tarefa ou subprojeto a um ativo diferente. Um ativo pode ser associado a cada registro do projeto. Você criar a associação ao inserir um número de ativo fixo no campo Número de **ativo fixo** na página **Projetos**. O tipo de projeto deve ser **Interno** ou de **Custo**. 
 
-Também é possível usar a página **Projetos** para exibir os detalhes sobre os ativos associados aos projetos. Para exibir o registro de ativo fixo, clique no link do ativo na Guia Rápida **Configuração** para abrir a página **Ativos fixos**. ** Clique em todos projetos ** &gt; ** projetos ** para exibir os projetos associados ao ativo fixo. 
+Também é possível usar a página **Projetos** para exibir os detalhes sobre os ativos associados aos projetos. Para exibir o registro de ativo fixo, clique no link do ativo na Guia Rápida **Configuração** para abrir a página **Ativos fixos**. Em seguida, clique em **Projetos** &gt; **Todos os projetos** para exibir os projetos que estão associados ao ativo fixo. 
 
 É possível associar tipicamente ativos fixos a projetos quando os projetos estão relacionados com trabalho, manutenção ou melhorias para o ativo. Quando o projeto é concluído, um ajuste de valorização para o ativo não será criado automaticamente. Portanto, você deverá criar o ajuste de valorização manualmente, se for necessário. 
 
@@ -90,6 +93,8 @@ Para excluir a associação entre um projeto e um ativo, desmarque o campo **Nú
 
 Também é possível designar um ativo fixo que você está criando ou fabricando como parte de um projeto estimado. No fim de um projeto previsto, você pode lançar automaticamente uma transação de aquisição de ativo.
 
-Para obter mais informações, consulte [adquirir ativos com a aquisição (acquire-assets-procurement.md])
+Para obter mais informações, consulte [Adquirir ativos por meio de compras](acquire-assets-procurement.md).
+
+
 
 

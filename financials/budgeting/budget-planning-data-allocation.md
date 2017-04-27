@@ -1,6 +1,6 @@
 ---
 title: "Alocação de dados do planejamento de orçamento"
-description: "Este artigo descreve os diversos métodos de alocação disponíveis no Microsoft Dynamics 365 para operações e como podem ser usadas."
+description: "Este artigo descreve os vários métodos de alocação disponíveis no Microsoft Dynamics 365 for Operations e como podem ser usados."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-data-allocation"></a>Alocação de dados do planejamento de orçamento
 
-Este artigo descreve os diversos métodos de alocação disponíveis no Microsoft Dynamics 365 para operações e como podem ser usadas.  
+[!include[banner](../includes/banner.md)]
+
+
+Este artigo descreve os vários métodos de alocação disponíveis no Microsoft Dynamics 365 for Operations e como podem ser usados.  
 
 Você pode distribuir os dados em um plano de orçamento de várias formas para retratar com precisão os valores projetados.
 
 ## <a name="allocation-methods"></a>Métodos de alocação
 Três métodos de alocação (alocar entre períodos, Alocar para dimensões e Usar regras de alocação do razão) podem criar linhas de plano de orçamento baseadas nas linhas do mesmo plano de orçamento. Outros três métodos (Agregar, Distribuir e Copiar do plano de orçamento) podem criar linhas do plano de orçamento em outros planos de orçamento. Para todos os seis métodos de alocação, você especifica o cenário de destino. O cenário de destino pode ser igual ao cenário de origem ou diferente do cenário de origem. Além disso, você pode especificar se novas linhas são anexadas ao plano de orçamento, ou substituir as linhas atuais no plano de orçamento.
 
-[![(AllocateAcrossPeriods]. /media/allocateacrossperiods-300x259.png)](. /media/allocateacrossperiods.png
-) ** alocar por períodos ** – uma categoria de alocação de período é usado para atribuir as linhas de plano de orçamento do plano do cenário de origem de orçamento em períodos do cenário de destino. O valor de origem é atribuído a várias linhas no cenário de destino, com base na porcentagem e na data definidas na categoria de alocação de período.         
+[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+**Alocar entre períodos** – uma categoria de alocação de período é usada para alocar as linhas do plano de orçamento do cenário do plano de orçamento de origem entre períodos no cenário de destino. O valor de origem é atribuído a várias linhas no cenário de destino, com base na porcentagem e na data definidas na categoria de alocação de período.         
 
 [![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **Alocar para dimensões** – As linhas do plano de orçamento são alocadas do cenário de planejamento de orçamento de origem para uma ou mais linhas no cenário de destino, com base nas porcentagens e dimensões financeiras que são definidas em uma condição de alocação de orçamento selecionada.           
@@ -56,9 +59,9 @@ Três métodos de alocação (alocar entre períodos, Alocar para dimensões e U
 ## <a name="using-allocation-methods-in-a-budget-plan"></a>Uso de métodos de alocação em um plano de orçamento
 Para executar alocações na página do plano de orçamento, selecione as linhas para alocação e clique em **Alocar orçamento**.
 
-[![(AllocateBudgetButton]. /media/allocatebudgetbutton-300x84.png)](. /media/allocatebudgetbutton.png) 
+[![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
-Em seguida, selecionar um método de alocação. Os campos restantes são definidos com base no método selecionado. Esses campos incluem a origem e o destino dos dados do plano de orçamento, e uma opção que permite multiplicar a origem por um fator especificado quando os valores de destino são criados, para simplificar o ajuste em massa. Também é possível definir a opção **Acrescentar ao plano**. Selecione **Não** para substituir as linhas existentes do plano de orçamento, ou selecione **Sim** para reter as linhas existentes do plano de orçamento e adicionar novas linhas aos valores alocados.
+Em seguida, selecione um método de alocação. Os campos restantes são definidos com base no método selecionado. Esses campos incluem a origem e o destino dos dados do plano de orçamento, e uma opção que permite multiplicar a origem por um fator especificado quando os valores de destino são criados, para simplificar o ajuste em massa. Também é possível definir a opção **Acrescentar ao plano**. Selecione **Não** para substituir as linhas existentes do plano de orçamento, ou selecione **Sim** para reter as linhas existentes do plano de orçamento e adicionar novas linhas aos valores alocados.
 
 ## <a name="automating-allocations-during-a-workflow"></a>Automatização de alocações durante um fluxo de trabalho
 Um recurso avançado permite que as alocações sejam executadas automaticamente, como parte de um fluxo de trabalho do planejamento de orçamento. Como um plano de orçamento se move no fluxo de trabalho, as tarefas automatizadas podem invocar uma alocação em uma fase específica de planejamento de orçamento. 
@@ -69,6 +72,8 @@ Em seguida, crie uma alocação de fase na página **Configuração de planejame
 
 Por fim, adicione uma tarefa automatizada para alocação de fase de planejamento de orçamento na fase de fluxo de trabalho desejada. No exemplo a seguir, duas alocações de fase de planejamento de orçamento (delineadas em vermelho) foram inseridas no fluxo de trabalho.
 
-[![(BudgetPlanningStageAllocations]. /media/budgetplanningstageallocations-300x300.png)](. /media/budgetplanningstageallocations.png)
+[![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+
+
 
 

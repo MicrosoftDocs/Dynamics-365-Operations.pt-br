@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Liquidar um pagamento parcial de cliente com descontos em notas de crédito
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo mostra um cenário onde um desconto à vista é aplicado a uma nota de crédito quando a fatura original também tinha um desconto à vista. 
 
-A Fabrikam permite que os clientes tenham descontos à vista em pagamentos parciais e também em notas de crédito (memorandos de crédito). Um desconto à vista pode ser obtido em uma nota de crédito quando a nota de crédito for emitida para uma fatura que o cliente obteve em um desconto à vista. Em vez de fornecer um crédito para o valor total, você pode creditar o saldo do cliente para um valor que exclui a porcentagem de desconto à vista que o cliente obteve. Parâmetros de pagamento estão localizados ** parâmetros de contas a receber ** na página.
+A Fabrikam permite que os clientes tenham descontos à vista em pagamentos parciais e também em notas de crédito (memorandos de crédito). Um desconto à vista pode ser obtido em uma nota de crédito quando a nota de crédito for emitida para uma fatura que o cliente obteve em um desconto à vista. Em vez de fornecer um crédito para o valor total, você pode creditar o saldo do cliente para um valor que exclui a porcentagem de desconto à vista que o cliente obteve. Os parâmetros de pagamento estão localizados na página **Parâmetros de contas a receber**.
 
 ## <a name="invoice-and-credit-note"></a>Fatura e nota de crédito
 O cliente 4035 possui uma fatura de 1.000,00 e uma nota de crédito de 100,00. Cada documento terá um desconto de 1%, se for pago em 14 dias. Arnie pode exibir as informações na página **Transações do cliente**.
@@ -59,5 +62,7 @@ As informações do desconto aparecem na parte inferior da página **Liquidar tr
 | Valor do desconto à vista a ser obtido | -1.00     |
 
 A liquidação será de 100,00 e incluirá um pagamento de 99,00 e um desconto de 1,00.
+
+
 
 

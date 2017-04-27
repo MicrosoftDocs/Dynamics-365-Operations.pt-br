@@ -1,6 +1,6 @@
 ---
-title: "Segurança de instalação para o conteúdo de O power BI de teste da contabilização de custo previsto"
-description: "Este tópico explica como você pode propagar a segurança em nível de acesso na contabilização de custo previsto para segurança em nível de linha do power BI Microsoft. Este recurso ajuda a garantia que os usuários verão apenas dados de O power BI que será concedido acesso."
+title: "Configurar segurança para a análise de contabilidade de custos e conteúdo do Power BI"
+description: "Este tópico explica como você pode propagar a segurança de nível de acesso em Contabilidade de custos para a segurança em nível de linha no Microsoft Power BI. Essa funcionalidade ajuda a garantir que os usuários vejam apenas os dados do Power BI aos quais eles têm acesso."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,38 +24,43 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Segurança de instalação para o conteúdo de O power BI de teste da contabilização de custo previsto
+# <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Configurar segurança para a análise de contabilidade de custos e conteúdo do Power BI
 
-Este tópico explica como você pode propagar a segurança em nível de acesso na contabilização de custo previsto para segurança em nível de linha do power BI Microsoft. Este recurso ajuda a garantia que os usuários verão apenas dados de O power BI que será concedido acesso.
+[!include[banner](../includes/banner.md)]
+
+
+Este tópico explica como você pode propagar a segurança de nível de acesso em Contabilidade de custos para a segurança em nível de linha no Microsoft Power BI. Essa funcionalidade ajuda a garantir que os usuários vejam apenas os dados do Power BI aos quais eles têm acesso.
 
 <a name="overview"></a>Visão Geral
 --------
 
-** Análise de contabilização de custo previsto ** o conteúdo de O power BI Microsoft usa a segurança em nível de linha de O power BI para limitar o acesso de usuário. A segurança é baseada em hierarquia organizacional de nível de acesso que é configurada nos parâmetros de contabilidade de custo previsto. Para obter mais informações sobre o teste ** de contabilização de custo previsto põe conteúdo ** de BI, consulte [] conteúdo (contabilização de custo previsto do power BI de teste da contabilização de custo previsto analysis-content-pack.md -).
+O conteúdo de **Análise de contabilidade de custo** do Microsoft Power BI usa a segurança a nível de linha do Power BI para limitar o acesso do usuário. A segurança é baseada na hierarquia organizacional de nível de acesso que é configurada nos parâmetros de contabilidade de custo previsto. Para obter mais informações sobre o conteúdo de **Análise de contabilidade de custo** do Power BI, consulte [Conteúdo de análise de contabilidade de custo do Power BI](cost-accounting-analysis-content-pack.md).
 
 ## <a name="setup"></a>Instalação
-De propagar a segurança em nível de acesso de BI, pelo proprietário de conteúdo do power BI deve rastrear essas etapas. ** Observação: ** O usuário que publica ** análise de contabilização de custo previsto ** o conteúdo de O power BI automaticamente se o proprietário. Apenas um proprietário pode configurar a segurança do power BI. Adicionalmente, até que o proprietário adicione outros usuários em PowerBI.com ninguém, a não ser que o proprietário possa ver dados em todos ** análise de contabilização de custo previsto põe conteúdo ** de BI.
+Para propagar a segurança de nível de acesso ao Power BI, o proprietário do conteúdo do Power BI deve seguir estas etapas. **Observação:** O usuário que publica conteúdo de **Análise de contabilidade de custos** do Power BI se torna automaticamente o proprietário. Somente um proprietário pode configurar segurança no Power BI. Além disso, até que um proprietário adicione outros usuários no PowerBI.com, ninguém, exceto o proprietário, pode visualizar os dados no conteúdo de **Análise de contabilidade de custos** do Power BI.
 
-1.  Publicar o arquivo de definição para por BI.
-2.  Conectar-se PowerBI.com.
-3.  Localizar o conjunto de dados para análise ** de contabilização de custo previsto põem ** o conteúdo de BI.
+1.  Publicar o arquivo de definição no Power BI.
+2.  Entrar no PowerBI.com.
+3.  Localize o conjunto de dados para o conteúdo de **Análise de contabilidade de custos** do Power BI.
 4.  Abra a página de segurança. 
 
-    [![que abre a página (https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)]] de segurança (https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)
+    [![Abrindo a página de segurança](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)
 
-5.  ** Controlador de custo previsto de objeto ** a função é criada anteriormente. Adicione outros membros que são parte do nível de acesso da contabilização de custo previsto hierarquia organizacional. 
+5.  A função **Controlador de objeto de custo** já está criada. Adicione outros membros que fazem parte da hierarquia organizacional do nível de acesso da contabilidade de custos. 
 
-    [![que adiciona membros] (https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png) (https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)]
+    [![Adicionando membros](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)
 
-Os usuários que são adicionados ** controlador de custo previsto da função ** verão apenas os dados que são autorizadas consulte, conforme a definição no nível de acesso da contabilização de custo previsto hierarquia organizacional. ** Observação: ** A segurança em nível de linha se aplica para caixas e relatórios no Microsoft Dynamics 365 para as transações inseridas de O power BI.
+Os usuários que forem adicionados à função **Controlador de objeto de custo** verão apenas os dados que eles estão autorizados a ver, de acordo com a definição na hierarquia organizacional de nível de acesso da contabilidade de custos. **Observação:** A segurança em nível de linha aplica-se a blocos e relatórios no Microsoft Dynamics 365 for Operations que são incorporados pelo Power BI.
 
 ## <a name="updating-security"></a>Atualizando a segurança
-Se as atualizações são feitas para segurança de nível de acesso na contabilização de custo previsto, além deseja o power BI para refletir as atualizações, você deve atualizar a entidade que a loja para ** análise de contabilização de custo previsto põe conteúdo ** de BI. Depois de concluir a atualização da entidade do 365 para operações, você deve atualizar os artefatos em PowerBI.com. Para obter mais informações sobre como fazer uma atualização da entidade, consulte armazenamento [] entidade (power-bi-integration-entity-store.md#update-entity-store de atualização). O proprietário ** análise de contabilização de custo previsto ** de conteúdo do power BI também deve fazer uma atualização da entidade se os novos usuários são concedidos acesso a hierarquia organizacional. Adicionalmente, o proprietário deve adicionar os novos usuários ** controlador de custo previsto de objeto ** a função em PowerBI.com, para que a segurança em nível de linha seja aplicada para eles.
+Se forem feitas atualizações na segurança de nível de acesso na Contabilidade de custos e você desejar que o Power BI reflita essas atualizações, você deve atualizar o conteúdo de **Análise de contabilidade de custos** do Power BI. Depois de concluir a atualização de armazenamento de entidade do Dynamics 365 for Operations, você deve atualizar os artefatos no PowerBI.com. Para obter mais informações sobre como fazer uma atualização de armazenamento de entidade, consulte [Atualizar armazenamento da entidade](power-bi-integration-entity-store.md#update-entity-store). O proprietário do conteúdo de **Análise de contabilidade de custos** do Power BI também deve fazer uma atualização de armazenamento de entidade se novos usuários tiverem acesso concedido à hierarquia organizacional. Além disso, o proprietário deve adicionar os novos usuários à função **Controlador do objeto de custo** em PowerBI.com, de modo que a segurança em nível de linha seja aplicada a eles.
 
-## <a name="disabling-security"></a>Desabilita a segurança
-Estamos supondo que a empresa quer restringir o acesso a dados. Se, por algum motivo, os parâmetros de segurança estão desabilitados quando você executar a contabilização de custo previsto, o proprietário deve adicionar usuários ** contador de custo previsto ** a função do power BI vez. Se você altera a segurança de um estado habilitado em um estado de enfermos, é recomendável remover usuários ** controlador de custo previsto ** de objetos de função. E vice-versa se você registrar permite a segurança. Os usuários podem pertencer as funções. Acesso é comum a união das duas funções. Em caso de ** análise de contabilização de custo previsto põe conteúdo ** de BI, os usuários que tiverem acesso comum ter acesso a dados ilimitado. Se seu meta é aplicar acesso restrito, os usuários serão atribuídos apenas ** custo o controlador de objeto ** a função. Essas atualizações em nível de linha de segurança são efetivadas imediatamente. Os usuários devem afetados atualizar seus browsers.
+## <a name="disabling-security"></a>Desabilitando a segurança
+Suponhamos que sua organização deseja restringir o acesso aos dados. Se, por algum motivo, os parâmetros de segurança estiverem desativados quando você executar Contabilidade de custos, o proprietário deverá adicionar usuários à função **Contador de custos** do Power BI. Se você alterar a segurança de um estado ativado para um estado desativado, é uma boa ideia remover usuários da função **Controlador de objetos de custo**. E vice-versa se você reativar a segurança. Os usuários podem pertencer a ambas funções. O acesso conjunto é a união de ambas as funções. No caso do conteúdo de **Análise de contabilidade de custos** do Power BI, os usuários que têm acesso conjunto têm acesso a dados sem restrições. Se o seu objetivo é aplicar acesso restrito, os usuários devem ser atribuídos somente à função **Controlador de objetos de custo**. Essas atualizações em nível de linha de segurança são efetivadas imediatamente. Os usuários devem afetados atualizam seus navegadores.
 
 ## <a name="additional-resources"></a>Recursos adicionais
-Para saber mais sobre segurança em nível de linha de O power BI [, consulte gerenciar a segurança no modelo em] do power BI (https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+Para saber mais sobre a segurança em nível de linha do Power BI, consulte [Gerenciar a segurança do seu modelo no Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-admin-rls/#manage-security-on-your-model).
+
+
 
 

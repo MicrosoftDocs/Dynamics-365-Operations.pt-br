@@ -1,5 +1,5 @@
 ---
-title: Alocar hora para trabalho em um pacote de trabalho
+title: Alocar tempo para trabalhos em um pacote de trabalhos
 description: "Em Execução de fabricação, você pode agrupar trabalhos. Você poderá iniciar vários trabalhos ao mesmo tempo na página Lista de trabalhos."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Alocar hora para trabalho em um pacote de trabalho
+# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Alocar tempo para trabalhos em um pacote de trabalhos
+
+[!include[banner](../includes/banner.md)]
+
 
 Em Execução de fabricação, você pode agrupar trabalhos. Você poderá iniciar vários trabalhos ao mesmo tempo na página Lista de trabalhos.
 
@@ -107,5 +110,7 @@ Considere os três trabalhos executados por um trabalhador com um salário por h
 | Trabalho 3 | (3,33 ÷ 5) × BRL 12,00                 | USD 8,00                | 5 horas        | USD 40,00         |
 
 O custo corrigido por hora e o tempo de trabalho são lançados em um diário de produção. **Observação:** se você selecionar a opção **Categoria de custo** na guia **Geral** da página **Padrões da ordem de produção**, o tempo real de cada trabalho será transferido para um diário de produção em que os custos serão aplicados à categoria de custo do trabalho específico.
+
+
 
 

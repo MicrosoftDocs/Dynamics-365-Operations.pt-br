@@ -1,6 +1,6 @@
 ---
 title: "Regras de eliminação"
-description: "Este tópico oferece informações sobre regras de eliminação e as opções mais sobre relatar para eliminações."
+description: "Este tópico fornece informações sobre regras de eliminação e as diversas opções para relatórios sobre eliminações."
 author: RobinARH
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="elimination-rules"></a>Regras de eliminação
 
-Este tópico oferece informações sobre regras de eliminação e as opções mais sobre relatar para eliminações.
+[!include[banner](../includes/banner.md)]
 
-As transações de eliminação são necessárias quando uma entidade legal pai faz negócios com uma ou mais entidades legais subsidiárias e usa relatórios financeiros consolidados. Os demonstrativos financeiros consolidados devem incluir somente transações que ocorrem entre a organização consolidada e outras entidades fora das organizações. Portanto, as transações entre entidades legais que são parte da mesma organização devem ser removidas ou eliminadas, contabilidade, o que delass não aparecerão nos relatórios financeiros. Há várias formas de relatar eliminações:
+
+Este tópico fornece informações sobre regras de eliminação e as diversas opções para relatórios sobre eliminações.
+
+As transações de eliminação são necessárias quando uma entidade legal pai faz negócios com uma ou mais entidades legais subsidiárias e usa relatórios financeiros consolidados. Os demonstrativos financeiros consolidados devem incluir somente transações que ocorrem entre a organização consolidada e outras entidades fora das organizações. Portanto, as transações entre as entidade legais que fazem parte da mesma organização devem ser removidas, ou eliminadas, da contabilidade, de forma que não apareçam em relatórios financeiros. Há várias formas de relatar eliminações:
 
 -   Uma regra de eliminação pode ser criada e processadas em uma empresa de consolidação ou de eliminação.
 -   Os relatórios financeiros podem ser usados para mostrar as contas e dimensões de eliminações em uma linha ou em uma coluna específica.
@@ -129,27 +132,29 @@ A pessoa jurídica, A pessoa jurídica, parâmetros widgets a outra entidade leg
 Todas essas transações criam transações intercompanhia lançadas em contas a vencer ou vencidas. Em adição, essas transações podem incluir valores de marcação se o valor de venda intercompanhia não for igual ao custo dos produtor que são vendidos.
 
 ## <a name="set-up-elimination-rules"></a>Configurar regras de eliminação
-Ao configurar regras de eliminação em dynamics 365 para operações, recomendamos que você criar uma dimensão financeira especificamente para fins de eliminação. A maioria de clientes ele parceiro comercial ou algo semelhante. Se você decidir não usar uma dimensão financeira, verifique ter contas principais que são específicas para transações intercompanhia apenas. 
+Ao configurar regras de eliminação no Dynamics 365 for Operations, recomendamos que você crie uma dimensão financeira especificamente para fins de eliminação. A maioria dos clientes a nomeia como Parceiro comercial ou algo semelhante. Se optar por não usar uma dimensão financeira, certifique-se de ter contas principais específicas para transações intercompanhia apenas. 
 
-O de instalação para eliminações é encontrado na área de instalação do módulo de consolidações. Depois de digitar uma descrição para a regra, escolha a empresa à qual o diário de eliminação será lançada. Essa será a empresa que ** uso para o processo de eliminação financeiro ** selecione a configuração da entidade legal. 
+A configuração das eliminações é encontrada na área Configuração do módulo Consolidações. Depois de digitar uma descrição para a regra, escolha a empresa na qual o diário de eliminação será lançado. Esta empresa deve ter a opção **Usar para o processo de eliminação financeira** selecionada na configuração da entidade legal. 
 
-Você pode definir uma data em que a regra de eliminação se tornam efetivas e quando é expirada, se necessário. Defina ativos ** ** ** Sim ** se desejar estar disponível no processo de proposta de eliminação. Selecione um nome de diário de com um tipo ** ** eliminação.
+Você pode definir uma data em que a regra de eliminação se torna efetiva e é expirada, se necessário. Defina **Ativo** como **Sim** se quiser que ele fique disponível no processo da proposta de eliminação. Selecione um nome de diário com o tipo **Eliminação**.
 
-Depois de definir os princípios, você poderá definir regras de processamento em reais ** ** linhas. Há duas opções das eliminações, eliminando o valor líquido de modificação ou definir um valor fixo. 
+Depois de definir os princípios, você poderá definir regras de processamento em reais **Linhas**. Há duas opções das eliminações, eliminar o valor líquido de modificação ou definir um valor fixo. 
 
-Selecione a conta de origem. Você pode usar um asterisco (\*) como uma curingas. Por exemplo, 1\* deve selecionar todas as contas que começam com um 1 como uma fonte de dados da alocação. 
+Selecione a conta de origem. Você pode usar asterisco (\*) como curinga. Por exemplo, 1\* selecionaria todas as contas que começam com 1 como a fonte de dados da alocação. 
 
-Depois selecionado as contas de origem, ** especificação de conta ** determina a conta da empresa de destino que será usada. ** Origem ** selecione se quiser usar a mesma conta principal definida ** ** origem da conta. Se selecionar ** ** definido pelo usuário, você deve especificar uma conta de destino. 
+Depois de selecionar as contas de origem, a **Especificação da conta** determina a conta da empresa de destino que é usada. Selecione **Origem** se quiser usar a mesma conta principal definida na conta de **Origem**. Se você selecionar **Definido pelo usuário**, deverá especificar a conta de destino. 
 
-O ato de especificação da dimensão da mesma maneira. Se selecionar ** ** origem, usará as mesmas dimensões na empresa de destino que a empresa de origem. Se selecionar ** ** definido pelo usuário, você precisará especificar as dimensões na empresa de destino clicando ** dimensões de destino ** o item de menu. 
+A especificação da dimensão atua da mesma maneira. Se você selecionar **Origem**, ela usará as mesmas dimensões da empresa de destino na empresa de origem. Se você selecionar **Definido pelo usuário**, será necessário especificar as dimensões da empresa de destino, clicando no item de menu **Dimensões de destino**. 
 
 Selecione as dimensões de origem e as dimensões financeiras e os valores usados como a fonte de eliminação.
 
 ## <a name="process-elimination-transactions"></a>Processar transações de eliminação
-Há duas maneiras de processar transações de eliminação, durante o processo de consolidação online ou criando um diário e executar uma eliminação da proposta de eliminação suzana. Esta seção centra-se sobre a criação de diário e de execução o processo de eliminação. 
+Há duas maneiras de processar transações de eliminação, durante o processo de consolidação online ou criando um diário de eliminação e executando o processo de proposta de eliminação. Esta seção concentra-se na criação do diário e na execução do processo de eliminação. 
 
-Uma empresa definida como uma empresa de eliminação, selecione ** ** diário de eliminação no módulo de consolidações. Depois selecionado o nome de diário, clique ** ** linhas. Você pode executar a proposta selecionando ** propostas ** o menu e selecionando ** ** proposta de eliminação.
+Em uma empresa definida como empresa de eliminação, selecione **Diário de eliminação** no módulo Consolidações. Depois de selecionado o nome do diário, clique em **Linhas**. Você pode executar a proposta selecionando o menu **Propostas** e depois selecionando a **Proposta de eliminação**.
 
-Selecione a empresa que é a origem de dados consolidados, e escolha a regra que deseja processar. Insira uma data inicial para iniciar a pesquisa dos valores de eliminação, e fim a encerrar a data de pesquisa para valores de eliminação. ** Data de postagem de GL ** o campo é a data usada para lançar o diário na contabilidade. Após clicar ** OK **, examine os valores e lançar o diário.
+Selecione a empresa que é a origem de dados consolidados e escolha a regra que deseja processar. Insira uma data de início para iniciar a pesquisa dos valores de eliminação e a data de término para encerrar a data de pesquisa para valores de eliminação. O campo **Data de lançamento GL** é a data usada para lançar o diário na contabilidade. Após clicar em **OK**, você pode revisar os valores e lançar no diário.
+
+
 
 

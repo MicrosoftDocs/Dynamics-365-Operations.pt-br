@@ -1,6 +1,6 @@
 ---
-title: "Relatórios financeiros de exibição e design"
-description: "Este artigo fornece os anos que entram você com a exibição e de criação de relatórios financeiros para o Microsoft Dynamics 365 para as operações. Relatórios financeiros consiste de uma experiência de exibição no dynamics 365 para operações e clique- uma vez que o designer de relatórios que permite criar e editar os relatórios financeiros."
+title: "Exibição e criação de relatórios financeiros"
+description: "Este artigo fornece exercícios que o conduzem pela exibição e criação de relatórios financeiros do Microsoft Dynamics 365 for Operations. Os relatórios financeiros consistem de uma experiência de exibição no Dynamics 365 for Operations e o criador de relatórios de clique único que permite que você crie e edite relatórios financeiros."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="view-and-design-financial-reports"></a>Relatórios financeiros de exibição e design
+# <a name="view-and-design-financial-reports"></a>Exibição e criação de relatórios financeiros
 
-Este artigo fornece os anos que entram você com a exibição e de criação de relatórios financeiros para o Microsoft Dynamics 365 para as operações. Relatórios financeiros consiste de uma experiência de exibição no dynamics 365 para operações e clique- uma vez que o designer de relatórios que permite criar e editar os relatórios financeiros.  
+[!include[banner](../includes/banner.md)]
+
+
+Este artigo fornece exercícios que o conduzem pela exibição e criação de relatórios financeiros do Microsoft Dynamics 365 for Operations. Os relatórios financeiros consistem de uma experiência de exibição no Dynamics 365 for Operations e o criador de relatórios de clique único que permite que você crie e edite relatórios financeiros.  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>Ano 1: Gerenciar e explorar um relatório financeiro padrão
 -----------------------------------------------------------
@@ -45,7 +48,7 @@ Para este ano, você estará gerando e explorando um relatório padrão. Este re
 3.  Salve a configuração da dimensão. Em seguida, geraremos um relatório e exploraremos os dados no relatório.
 4.  Vá para **Relatórios financeiros** em **Consultas e relatórios** na contabilidade.
 5.  Selecione a linha do relatório chamado **Detalhe de contabilidade – Padrão.**
-6.  Selecione **Editar.** Observação: Você será solicitado a baixar clique- após designer de relatórios e a inserir. Use para inserir suas credenciais.
+6.  Selecione **Editar.** Nota: Será solicitado que você baixe o criador de relatórios de clique único e faça logon. Use suas credenciais para fazer logon.
 7.  Altere o ano de base para 2012 e selecione **Gerar**. Quando um relatório é gerado do criador de relatórios, ele será aberto em uma nova guia do navegador. Você pode explorar o relatório na nova guia do navegador ou ir para a guia do seu navegador original e abrir o relatório ao selecionar na lista **Relatórios financeiros**.
 8.  No relatório aberto, selecione um dos valores para ser detalhado no detalhe da conta do relatório.
 9.  Nos detalhes da conta, selecione uma conta com dados e **detalhe o nível de transação do relatório**. No nível da transação do relatório, você pode ver as propriedades (atributos) que estão incluídas na criação do relatório. Dependendo da transação e da conta, alguns ou todos os atributos podem ser exibidos.
@@ -55,7 +58,7 @@ Para este ano, você estará gerando e explorando um relatório padrão. Este re
 13. Selecione **Opções do relatório**.
 14. Selecione **Adicionar um filtro de dimensão** e escolha **Unidade de negócios**.
 15. Digite 001 no campo e selecione **OK**. Agora, o relatório só exibe os dados para a Unidade de negócios 001. Esta é uma visualização personalizada do relatório e não está disponível para outras pessoas.
-16. Feche o relatório filtrado. Relatórios financeiros podem ser exibidos em todas a moeda que é adicionada o dynamics 365 para as operações.
+16. Feche o relatório filtrado. Os relatórios financeiros podem ser exibidos em qualquer moeda que foi adicionada ao Dynamics 365 for Operations.
 17. Selecione **Moeda** e selecione **EUR.** E novo relatório é exibido em Euro. Agora, todos os códigos ou símbolos de moeda incluídos na criação do relatórios são exibidos na moeda aplicada. Se nenhum símbolo de moeda for definido, o símbolo da moeda não será exibido.
 18. Feche o relatório **Detalhes de contabilidade**.
 19. Feche o **Criador de relatórios**.
@@ -66,7 +69,7 @@ Neste exercício, você modificará um relatório padrão existente. Você atual
 1.  Vá para **Relatórios financeiros** em Consultas e relatórios na contabilidade.
 2.  Selecione a linha para o relatório chamado **Resumo do balanço – Padrão**
 3.  Selecione **Editar**. O **Resumo do balancete resumida – Padrão** será aberto no criador de relatórios
-4.  Selecione **Arquivo** e **Salvar como** e nomeie o relatório Balancete detalhado com Atributos. Observação: Um novo relatório é criada qualquer momento em que o designer de relatórios, na lista de relatórios é atualizado financeiramente em dynamics 365 para as operações.
+4.  Selecione **Arquivo** e **Salvar como** e nomeie o relatório Balancete detalhado com Atributos. Nota: Sempre que um novo relatório é criado no criador de relatórios, a lista de relatórios financeiros é atualizada no Dynamics 365 for Operations.
 5.  Na definição do relatório, selecione o ícone de definição da linha para abrir a **definição da linha Balancete - Padrão**.
 6.  Salvar a definição da linha como **Balancete detalhado com atributos**
 7.  Com o cursor na linha 50, selecione **Editar** e **Inserir linhas nas dimensões**. As linhas de inserção de dimensões permite escolher quais dimensões deseja de ter na definição de linha. Para este ano, vamos criar a definição da linha usando a conta principal.
@@ -96,7 +99,7 @@ Neste exercício, você modificará um relatório padrão existente. Você atual
 25. Feche o relatório **Balancete detalhado com atributos **.
 26. Feche o **Criador de relatórios**.
 
-## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Ano 3: Criar um relatório multidimensional usando uma hierarquia organizacional
+## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Exercício 3: Criar um relatório multidimensional usando uma árvore de relatórios
 Para este ano, você modificará um relatório padrão existente. Você criará uma árvore de relatórios e adicionará a uma definição de relatórios para produzir um demonstrativo do centro de custo/entrada por divisão. Depois de concluir as atualizações, você gerará um demonstrativo do centro de custo e da entrada por divisão e explorará o relatório usando a árvore de relatórios. Nós iniciaremos na lista de relatórios financeiros.
 
 1.  Vá para **Relatórios financeiros** em Consultas e relatórios na contabilidade.
@@ -138,7 +141,7 @@ Para este ano, você modificará um relatório padrão existente. Você adiciona
 1.  Vá para **Relatórios financeiros** em Consultas e relatórios na contabilidade.
 2.  Selecione a linha para o relatório chamado **Balancete e Demonstrativo de renda lado a lado - Padrão**
 3.  Selecione **Editar**. **Balanço e demonstrativo de renda lado a lado – Padrão** será aberto no criador de relatórios.
-4.  Selecione ** Arquivo ** &gt; ** salvar como ** e nomeie o relatório ** balanço consolidada e demonstrativo de rendimentos lado-a-lado **.
+4.  Selecione **Arquivo** &gt; **Salvar como** e nomeie o relatório **Balanço consolidado e o demonstrativo de renda lado a lado**.
 5.  Alterar o ano base para 2012.
 6.  Clique no menu suspenso de árvore e selecione **Hierarquias da organização**.
 7.  Clique no menu suspenso de árvore e selecione **Retenções da Contoso.**
@@ -151,7 +154,7 @@ Para este ano, você modificará um relatório padrão existente. Você adiciona
 14. Fechar **Balanço consolidado e o demonstrativo de renda lado a lado**.
 15. Feche o **Criador de relatórios**.
 
-## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Ano 5: Criar um relatório do lado a lado departamental
+## <a name="exercise-5-create-a-sidebyside-departmental-report"></a>Exercício 5: Criar relatório do departamento lado a lado
 Neste exercício, você criará um novo relatório. O relatório é um demonstrativo de rendimentos dos departamentos lado a lado. Você usará uma definição de linha existente, mas criará uma nova definição de relatório e uma nova definição de coluna que usa filtros de dimensão. Nós iniciaremos na lista de relatórios financeiros.
 
 1.  Vá para **Relatórios financeiros** em Consultas e relatórios na contabilidade.
@@ -179,8 +182,10 @@ Neste exercício, você criará um novo relatório. O relatório é um demonstra
 18. **Salve** suas alterações e **gere**. Depois que a geração do relatório for concluída e ele for aberto, é possível explorar o relatório.
 
 ## <a name="additional-resources"></a>Recursos adicionais
-Relatório financeiro [] (financeiros contabilidade \ \ 
-\ financial-reporting-getting-started.md) [] relatórios financeiros (financeiros contabilidade \ \ 
-\ view-financial-reports.md de exibição) [] blog de relatórios financeiros de dinâmica (http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Relatório financeiro](\financials\general-ledger\financial-reporting-getting-started.md) 
+[Exibir relatórios financeiros](\financials\general-ledger\view-financial-reports.md) 
+[Blog de Relatório Financeiro do Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

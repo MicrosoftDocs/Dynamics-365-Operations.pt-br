@@ -1,6 +1,6 @@
 ---
 title: "Exibir e avaliar os resultados de um questionário"
-description: "Este tópico explica como você pode exibir e classificar os resultados de questionários que os participantes preenchem."
+description: "Este tópico explica como você pode exibir e avaliar os resultados dos questionários que os entrevistados concluem."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Exibir e avaliar os resultados de um questionário
 
-Este tópico explica como você pode exibir e classificar os resultados de questionários que os participantes preenchem. 
+Este tópico explica como você pode exibir e avaliar os resultados dos questionários que os entrevistados concluem. 
 
 Depois que os entrevistados preencherem um questionário, você poderá exibir e avaliar os resultados do questionário das seguintes maneiras:
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-locations"></a>Localizações de estoque
 
+[!include[banner](../includes/banner.md)]
+
+
 As localizações de estoque são usadas com o depósito básico (WMS I) para determinar onde os itens serão armazenados e onde os itens serão separados em um depósito WMS I.
 
 Este tópico se aplica aos recursos do módulo Gerenciamento de estoque. Não se aplica aos recursos do módulo de Gerenciamento de depósito.
@@ -64,6 +67,8 @@ Manter localizações de estoque por meio do formulário do depósito
 <a name="see-also"></a>Consulte também
 --------
 
-[Criar um novo layout de depósito (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+[Criar um layout de depósito (Guia de tarefas)](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+
+
 
 

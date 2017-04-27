@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="resolve-discrepancies-during-invoice-totals-matching"></a>Resolver discrepâncias durante a conciliação de totais de faturas
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Um tipo de validação de conciliação de faturas é a conciliação de totais de faturas. Para especificar que o sistema deve executar a conciliação de totais de faturas, na página **Parâmetros de contas a pagar**, na guia **Validação de fatura**, defina a opção **Conciliar totais de fatura** como **Sim**. 
@@ -39,6 +42,8 @@ Após identificar uma discrepância, talvez você precise contatar o fornecedor 
 -   Aceitar a diferença de preço e lançar a fatura com discrepâncias de conciliação. O sistema pode ser configurado para exigir aprovação antes de lançar se há discrepâncias de conciliação. Nesse caso, você deve aprovar a discrepância da conciliação e pode inserir um comentário de aprovação. Você pode optar por lançar a fatura.
 -   Revisar o valor da fatura para o valor esperado e lançar a fatura.
 -   Solicitar um crédito completo de uma nova fatura corrigida do fornecedor.
+
+
 
 
 

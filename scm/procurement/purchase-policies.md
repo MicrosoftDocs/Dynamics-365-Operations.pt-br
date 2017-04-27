@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchasing-policies"></a>Políticas de compra
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre diretivas de compras. Uma política de compra é um conjunto de regras que controlam o processo da requisição. As políticas de compra ajudam administradores de compras a implementar sua estratégia de compras criando uma estrutura de política alinhada às necessidades de compras estratégicas da organização.
 
 Uma política de compras consiste em um conjunto de regras de política. Quando você define uma regra de política, primeiro seleciona um tipo de regra. Então, você cria uma regra para o tipo de regra definindo as configurações, a data de início e a data de término da regra.  
@@ -41,13 +44,13 @@ Dependendo da forma como as políticas de compras são configuradas, várias reg
 
 ### <a name="example-1-simple-purchasing-policy-configuration"></a>Exemplo 1: Configuração de política de compras simples
 
-As organizações que estão de diretivas compras de instalação de lata e menos complexo pequena por entidade legal, e podem usar apenas a hierarquia organizacional de empresas.  
+As organizações pequenas e menos complexas podem configurar políticas de compras por entidade legal e podem usar somente a Hierarquia da organização de empresas.  
 
 Para a Fabrikam, uma pequena empresa, as necessidades de compras variam pouco na organização. As regras de compras variam somente entre as entidades legais da organização. Por exemplo, os funcionários da Fabrikam no Canadá e os funcionários da Fabrikam nos EUA compram mercadorias e serviços de catálogos diferentes e de fornecedores diferentes. Portanto, a Fabrikam configura suas políticas de compras no nível da entidade legal.  
 
-A Fabrikam cria duas políticas de compras. A diretiva aplica-se à sua entidade legal E dos EUA., 1111. B de diretiva aplica-se à entidade legal canadense, 2222. Quando um funcionário na entidade legal 1111 cria uma requisição de compra, as regras de diretivas são derivadas de A diretiva. por exemplo, o catálogo de produtos do funcionário especificados consulta em regras de diretiva do catálogo para A diretiva.  
+A Fabrikam cria duas políticas de compras. A política A aplica-se a sua entidade legal dos EUA, 1111. A política B aplica-se a sua entidade legal do Canadá, 2222. Quando um funcionário na entidade legal 1111 cria uma requisição de compra, as regras de diretivas são derivadas da diretiva A. Por exemplo, o catálogo de produtos do funcionário especificado consulta as regras de diretiva do catálogo da diretiva A.  
 
-Quando um funcionário na entidade legal 2222 cria uma requisição de compra, as regras de diretivas são derivadas B de diretiva.  
+Quando um funcionário na entidade legal 2222 cria uma requisição de compra, as regras de diretivas são derivadas da diretiva B.  
 
 **Observação:** Se um funcionário da entidade legal 1111 comprar um item em nome de um funcionário da pessoa jurídica 2222, as regras de política especificadas para a entidade legal 2222 (que é, as regras de política da política B), serão aplicadas.
 
@@ -117,7 +120,7 @@ A regra de controle de reabastecimento é uma regra opcional que define os campo
 
 ### <a name="purchase-order-creation-and-demand-consolidation-rule"></a>Criação de ordem de compra e regra de consolidação de demanda
 
-A regra de consolidação de criação e a demanda de ordem de compra definido regras de diretiva ser usado quando uma ordem de compra será gerado a partir de uma requisição de compra aprovada. Ao criar regras desse tipo, você poderá definir opções em várias guias:
+A regra de consolidação de criação e a demanda de ordem de compra define as regras de diretiva a serem usadas quando uma ordem de compra é gerada a partir de uma requisição de compra aprovada. Ao criar regras desse tipo, você poderá definir opções em várias guias:
 
 -   Na guia **Divisão da ordem de compra**, você pode definir critérios para dividir linhas de requisição de compra em ordens de compra separadas.
 -   Na guia **Transferência de preço/desconto**, você pode definir quando recalcular o contrato de preço quando uma ordem de compra é criada:
@@ -126,7 +129,7 @@ A regra de consolidação de criação e a demanda de ordem de compra definido r
 
     Você também pode permitir que o solicitante altere o método de preço e a transferência de desconto para linhas de requisição de compra individuais, independentemente da regra de transferência de preço/desconto definida. Selecione a opção **Permitir substituição manual por linha da requisição de compra** caso você queira habilitar essa capacidade.
 -   Na guia **Transferência da descrição do item** você poderá transferir a descrição do item da requisição quando ela se originar de uma RFQ.
--   Na guia **Tolerância de Preço**, você define as regras de tolerância de preços que serão usadas para rotear requisições de compra aprovadas anteriores ao processo de revisão quando o preço de um item de catálogo de compras aumentar. Defina o valor máximo que o valor líquido em um item de linha em uma requisição de compra pode aumentar entre a hora quando a requisição de compra é aprovada e a hora quando a ordem de compra é criada. O valor líquido é calculado usando a seguinte fórmula: (unidade de preço do\] de ÷ × de quantidade do\[(desconto unitário) + encargos diversos de compra) linhas de requisição de compra de 100 ÷ (100 × – desconto) a porcentagem que excede a tolerância de preços de definir é retido para processamento manual. As regras que você configura na guia **Processamento de erros** determinam como as linhas de requisição de compra são processadas.
+-   Na guia **Tolerância de Preço**, você define as regras de tolerância de preços que serão usadas para rotear requisições de compra aprovadas anteriores ao processo de revisão quando o preço de um item de catálogo de compras aumentar. Defina o valor máximo que o valor líquido em um item de linha em uma requisição de compra pode aumentar entre a hora quando a requisição de compra é aprovada e a hora quando a ordem de compra é criada. O valor líquido é calculado usando a seguinte fórmula: (\[Quantidade x (Preço unitário – Desconto) ÷ Preço unitário\] + Encargos diversos de compra) x (100 - Porcentagem do desconto) ÷ 100. As linhas da requisição de compra que excederem a tolerância de preço definida serão mantidas para o processamento manual. As regras que você configura na guia **Processamento de erros** determinam como as linhas de requisição de compra são processadas.
 -   Na guia **Processamento de erros**, você pode configurar a regra de processamento aplicada a uma requisição de compra se a validação falhar durante a criação da ordem de compra por causa de um erro do fornecedor ou a um erro de tolerância de preços. Selecione uma das seguintes opções:
     -   **Nenhuma ação** – as linhas de requisição de compra permanecem na página **Liberar requisições de compra aprovadas**. O status das linhas de requisição de compra permanece como **Aprovada**. Entretanto, os erros devem ser resolvidos antes que uma ordem de compra possa ser gerada para as linhas de requisição de compra.
     -   **Cancelar a linha da requisição de compra** – as linhas da requisição de compra são canceladas. O solicitante pode criar uma nova requisição de compra para as linhas canceladas se ainda quiser solicitar os itens de linha.
@@ -141,6 +144,8 @@ A regra de consolidação de criação e a demanda de ordem de compra definido r
     -   **Não permitir a consolidação de demanda** – nenhuma linha de requisição de compra aprovada estará qualificada para a consolidação de demanda. Essa opção é selecionada por padrão e se aplica somente às linhas de requisição de compra que exigem processamento manual para a criação da ordem de compra.
     -   **Sempre permitir a consolidação de demanda** – todas as linhas de requisição de compra aprovadas estarão qualificadas para a consolidação de demanda. **Observação:** se você selecionar a opção **Sempre permitir consolidação de demanda** na guia **Consolidação de demanda**, mas se selecionar a opção **Criar automaticamente ordens de compra** na guia**Criação manual da ordem de compra**, todas as requisições de compra serão mantidas para processamento manual.
     -   **Permitir a consolidação de demanda sob estas condições** – defina os critérios que determinam se as linhas de requisição de compra aprovadas estão qualificadas para a consolidação de demanda. Para cada tipo de linha de requisição de compra, você pode definir os critérios por categoria de compras e fornecedor. Se você selecionar **Permitir consolidação de demanda sob estas condições**, poderá definir os critérios por categoria de compras e fornecedor para cada tipo de linha de requisição de compra. Quando você seleciona uma categoria de compras, todas as subcategorias dessa categoria de compras também são selecionadas. Se você selecionar a opção **Todas** para um tipo de linha específica, todas as linhas de requisição de compra daquele tipo de linha estarão qualificadas para consolidação de demanda.
+
+
 
 
 

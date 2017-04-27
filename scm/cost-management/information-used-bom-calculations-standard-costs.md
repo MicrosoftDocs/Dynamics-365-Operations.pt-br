@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bom-calculations-with-standard-costs"></a>Cálculos de BOM com custos padrão
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 As informações sobre o item comprado usado no cálculo de BOM de custo padrão incluem as seguintes:
@@ -78,6 +81,8 @@ As informações da versão de custo usadas em um cálculo de BOM de custo padr�
 -   Conteúdo da versão de custo deve incluir custos − o conteúdo deve incluir custos. Opcionalmente, ele pode incluir preços de venda a fim de calcular os preços de venda sugeridos para itens fabricados.
 
 Várias fontes de informações podem ser especificadas ao iniciar um cálculo de BOM. Isso inclui o site, a data do cálculo e a versão de custo.
+
+
 
 
 

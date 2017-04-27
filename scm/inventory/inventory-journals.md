@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-journals"></a>Diários de estoque
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve como você pode usar diários de estoque para lançar vários tipos de transações de estoque físico. 
 
 Os diários de estoque no Microsoft Dynamics 365 for Operations são usados para lançar transações de estoque físico de vários tipos, como lançamento de saídas e recebimentos, movimentos de estoque, criação de listas de materiais (BOMs), e reconciliação de estoque físico. Todos esses diários de estoque são usados de forma semelhante, mas são divididos em tipos diferentes.
@@ -72,7 +75,7 @@ Os diários de entrada de produção trabalham como os diários de entrada de it
 
 ### <a name="counting"></a>Contando
 
-Os diários de contagem permitem corrigir o estoque disponível registrado para os itens ou grupos de itens e, em seguida, lançar a contagem física atual, de modo que você possa fazer os ajustes necessários para reconciliar as diferenças. Você pode associar políticas de contagem com os grupos de contagem para ajudar os itens do grupo que têm diversas características, de modo que os itens possam ser incluídos em um diário de contagem. Por exemplo, você pode configurar grupos de contagem para itens com uma frequência específica, ou para contar itens quando o estoque ficar em um nível específico. Para obter informações sobre como definir grupos de contagem, consulte definir processos [de contagem de estoque (guia de tarefas)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
+Os diários de contagem permitem corrigir o estoque disponível registrado para os itens ou grupos de itens e, em seguida, lançar a contagem física atual, de modo que você possa fazer os ajustes necessários para reconciliar as diferenças. Você pode associar políticas de contagem com os grupos de contagem para ajudar os itens do grupo que têm diversas características, de modo que os itens possam ser incluídos em um diário de contagem. Por exemplo, você pode configurar grupos de contagem para itens com uma frequência específica, ou para contar itens quando o estoque ficar em um nível específico. Para obter informações sobre como definir grupos de contagem, consulte [Definir processos de contagem de estoque (Guia de tarefas)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
 
 ### <a name="tag-counting"></a>Contagem de etiquetas
 
@@ -89,5 +92,7 @@ Um diário só pode ser acessado por um usuário de cada vez. Se vários usuári
 
 ## <a name="posting-journal-lines"></a>Lançando linhas de diário
 Você pode lançar as linhas de diário que você cria a qualquer momento até que você tenha bloqueado um item de transações adicionais. Os dados que você insere em um diário permanecem nele mesmo que ele seja fechado sem lançar as linhas.
+
+
 
 

@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-multiple-discount-periods"></a>Liquidar um pagamento parcial de cliente com vários períodos de desconto
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo mostra como os pagamentos parciais de cliente são liquidados quando há vários períodos de desconto.
 
-A Fabrikam oferece ao cliente 4031 dois períodos de desconto para pagamento à vista. O cliente receberá um desconto à vista de 2% se a fatura for paga em cinco dias, e um desconto à vista de 1% se a fatura for paga em 14 dias. A Fabrikam também oferece descontos à vista para pagamentos parciais. Parâmetros de pagamento estão localizados ** parâmetros de contas a receber ** na página.
+A Fabrikam oferece ao cliente 4031 dois períodos de desconto para pagamento à vista. O cliente receberá um desconto à vista de 2% se a fatura for paga em cinco dias, e um desconto à vista de 1% se a fatura for paga em 14 dias. A Fabrikam também oferece descontos à vista para pagamentos parciais. Os parâmetros de pagamento estão localizados na página **Parâmetros de contas a receber**.
 
 ## <a name="invoice"></a>Fatura
-O 25 de junho, Arnie insere e lança uma nota fiscal para 1,000.00 para o cliente 4031. Examina quando descontos à vista para a fatura, Arnie verá que o cliente 4031 recebe um desconto de 20.00 se a nota fiscal é paga daqui até o 30 de junho. Se a nota fiscal é paga daqui até o 9 de julho, o cliente recebe um desconto de 10.00.
+Em 25 de junho, Amanda insere e lança uma fatura de 1.000,00 para o cliente 4031. Quando ele revisa os descontos em dinheiro para essa fatura, Arnie vê que o cliente 4031 recebe um desconto de 20,00 se a fatura for paga até 30 de junho. Se a fatura for paga até 9 de julho, o cliente recebe um desconto de 10,00.
 
 | Data do desconto à vista | Valor de desconto à vista | Valor na moeda da transação |
 |--------------------|----------------------|--------------------------------|
@@ -92,6 +95,8 @@ O saldo da fatura agora é de 0,00. Alberto exibe as informações na página **
 | DISC-10030 |  Desconto à vista   | 28/6/2015 |         |                                      | 6,00                                  | 0,00    | USD      |
 | ARP-10031  |  Pagamento         | 8/7/2015  |         |                                      | 693.00                                | 0,00    | USD      |
 | DISC-1031  |  Desconto à vista   | 8/7/2015  |         |                                      | 7:00                                  | 0,00    | USD      |
+
+
 
 
 

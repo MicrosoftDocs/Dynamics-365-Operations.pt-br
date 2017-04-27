@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-financial-reports"></a>Exibir relatórios financeiros
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve como visualizar e explorar relatórios financeiros no Microsoft Dynamics AX. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem.
 
 <a name="financial-reporting-overview"></a>Visão geral de relatórios financeiros
@@ -48,7 +51,7 @@ Você pode alterar a data do relatório, aplicar filtros de atributo e dimensão
 
 -   Para alterar o período base e o ano base de um relatório, selecione um período base e um ano base, e clique em **OK**.
 -   Para aplicar filtros de atributo em um relatório, selecione **Adicionar um filtro de atributo**. Selecione o atributo, digite o valor do atributo, e clique em **OK**. Por exemplo, se você selecionar o atributo **Categoria da Conta**, insira **VENDAS** como valor de atributo. Para remover um filtro de atributo, clique em **Limpar**.
--   Para aplicar filtros de dimensão para um relatório, selecione adicionar ** um filtro de dimensão. ** Selecione a dimensão, e digite a ID de dimensão ou selecione a dimensão na lista. Para remover um filtro de dimensão, clique em **Limpar**.
+-   Para aplicar filtros de dimensão em um relatório, selecione **Adicionar um filtro de dimensão**. Selecione a dimensão e, em seguida, digite o ID de dimensão ou selecione a dimensão na lista. Para remover um filtro de dimensão, clique em **Limpar**.
 -   Para alterar o cenário em um relatório **Real versus orçamento**, selecione um novo cenário, e clique em **OK**. Se o cenário selecionado for para um ano diferente, lembre de atualizar o ano base. Por exemplo, se o cenário atual é para FY2015, e você selecionou um novo cenário que é para FY2016, você deve alterar o ano base para **2016**.
 
 Quando você clica em **OK**, todas as opções selecionadas serão aplicadas ao relatório. Se você decidir que não deseja aplicar as opções selecionadas, clique em **Cancelar**.
@@ -66,7 +69,7 @@ Um relatório financeiro pode ser exibido em qualquer moeda a qualquer momento. 
 Um relatório financeiro pode conter linhas de detalhe e de resumo. Linhas de detalhe são linhas que contêm contas principais ou dimensões. Linhas de resumo são linhas de descrição, de total e de cálculo. Para exibir apenas as linhas de resumo de um relatório, clique em **Mostrar**, e então clique em **Apenas linhas de resumo**. O relatório é recolhido e passa a exibir somente as linhas de resumo. Para exibir as linhas de detalhe juntamente com as linhas de resumo, clique em **Mostrar**, e então clique novamente em **Apenas linhas de resumo**.
 
 ## <a name="open-a-financial-report-from-a-previous-month"></a>Abrir um relatório financeiro de um mês anterior
-Você pode visualizar relatórios do mês atual ou de meses anteriores sem gerar novamente o relatório. Para abrir o relatório para um mês anterior, clique ** apresentação **, e em relatórios ** ** anteriores. Uma lista dos meses anteriores que o relatório foi gerado para aparecer. Expanda o mês para o qual visualizar o relatório, selecione a data, e então clique em **OK**. A relatório do mês anterior é exibido. Para retornar ao relatório do mês atual, clique em **Cancelar**.
+Você pode visualizar relatórios do mês atual ou de meses anteriores sem gerar novamente o relatório. Para abrir o relatório para um mês anterior, clique em **Mostrar** e, em seguida, clique em **Relatórios anteriores**. Aparece uma lista dos meses anteriores em que o relatório foi gerado. Expanda o mês para o qual visualizar o relatório, selecione a data, e então clique em **OK**. A relatório do mês anterior é exibido. Para retornar ao relatório do mês atual, clique em **Cancelar**.
 
 ## <a name="print-a-financial-report"></a>Imprimir um relatório financeiro
 Para imprimir um relatório financeiro, no Painel de Ação, clique em **Imprimir**, e então siga uma ou mais dessas etapas para definir as opções de impressão:
@@ -85,5 +88,7 @@ Para exportar um relatório financeiro, no Painel de Ação, clique em **Exporta
 --------
 
 [Relatório financeiro do Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+
+
 
 

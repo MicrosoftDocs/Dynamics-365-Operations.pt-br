@@ -1,6 +1,6 @@
 ---
-title: "O espaço de trabalho móvel de colaboração de fornecedor do Microsoft Dynamics 365 para o descritivo de operações"
-description: "Com espaço de trabalho de colaboração móvel do fornecedor, os fornecedores podem ficar atualizados em ordens de compra que lhes foram enviados para aprovação e exibem informações sobre novas ordens de compra e atualizados e contatos."
+title: "Colaboração de fornecedor móvel disponível em estoque para o aplicativo Microsoft Dynamics 365 for Operations"
+description: "Com a área de trabalho móvel de colaboração do fornecedor, os fornecedores podem manter-se atualizados sobre os pedidos que foram enviados a eles para aprovação e exibir informações sobre pedidos e contatos novos e atualizados."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-01-12 16 - 36 - 37
@@ -24,9 +24,9 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-collaboration-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>O espaço de trabalho móvel de colaboração de fornecedor do Microsoft Dynamics 365 para o descritivo de operações
+# <a name="vendor-collaboration-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Colaboração de fornecedor móvel disponível em estoque para o aplicativo Microsoft Dynamics 365 for Operations
 
-Com espaço de trabalho de colaboração móvel do fornecedor, os fornecedores podem ficar atualizados em ordens de compra que lhes foram enviados para aprovação e exibem informações sobre novas ordens de compra e atualizados e contatos.
+Com a área de trabalho móvel de colaboração do fornecedor, os fornecedores podem manter-se atualizados sobre os pedidos que foram enviados a eles para aprovação e exibir informações sobre pedidos e contatos novos e atualizados.
 
 <a name="prerequisites"></a>Pré-requisitos
 -------------
@@ -44,115 +44,115 @@ Com espaço de trabalho de colaboração móvel do fornecedor, os fornecedores p
 </thead>
 <tbody>
 <tr class="odd">
-<td>Leia sobre o Microsoft Dynamics 365 para o preparo de celular de operações</td>
-<td><a href="/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">Dynamics 365 para o preparo de celular de operações</a></td>
+<td>Leia sobre a plataforma móvel do Microsoft Dynamics 365 for Operations</td>
+<td><a href="/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">Plataforma móvel do Microsoft Dynamics 365 for Operations</a></td>
 </tr>
 <tr class="even">
 <td>Dynamics 365 for Operations</td>
-<td>Verifique se está usando um ambiente com Microsoft Dynamics 365 para a versão 1611 de operações e o Microsoft Dynamics para atualização 3 de preparo operações (). em novembro de 2016</td>
+<td>Verifique se você está usando um ambiente com a versão 1611 do Microsoft Dynamics 365 for Operations e a atualização 3 da plataforma do Microsoft Dynamics for Operations (novembro de 2016).</td>
 </tr>
 <tr class="odd">
-<td><span style="color: #000000;">Dispositivo móvel que tem o dynamics 365 para o descritivo instalado de operações</span></td>
-<td><span style="color: #000000;">Baixe o dynamics 365 para o descritivo de operações do armazenamento móvel descritivo.</span></td>
+<td><span style="color: #000000;">Dispositivo móvel com o Dynamics 365 for Operations instalado</span></td>
+<td><span style="color: #000000;">Baixe o aplicativo do Dynamics 365 for Operations na sua loja de aplicativos móveis.</span></td>
 </tr>
 <tr class="even">
-<td>3215650 KB de Hotfix</td>
-<td>Instalar o hotfix para habilitar espaços de trabalho fornecidos em dynamics 365 para as operações.</td>
+<td>Hotfix KB 3215650</td>
+<td>Instale o hotfix para habilitar os espaços de trabalho que são fornecidos no Dynamics 365 for Operations.</td>
 </tr>
 <tr class="odd">
-<td><span style="color: #ff0000;"><span style="color: #000000;">3216943 KB de Hotfix</span></span></td>
-<td>Instalar o hotfix para habilitar o espaço de trabalho do celular de colaboração de fornecedor.</td>
+<td><span style="color: #ff0000;"><span style="color: #000000;">Hotfix KB 3216943</span> </span></td>
+<td>Instale o hotfix para habilitar o espaço de trabalho do celular de colaboração de fornecedor.</td>
 </tr>
 <tr class="even">
-<td>O usuário o fornecedor deverá ter acesso à interface da Web de colaboração de fornecedor em dynamics 365 para operações e configurados um usuário de colaboração de fornecedor.</td>
-<td>Rastrear as etapas descritas nos tópicos seguintes para configurar e trabalhar com a interface da Web de colaboração de fornecedor.
+<td>O usuário do fornecedor deve ter acesso à interface da Web de colaboração do fornecedor no Dynamics 365 for Operations e configurar um usuário de colaboração do fornecedor.</td>
+<td>Siga as etapas descritas nos tópicos a seguir para configurar e trabalhar com a interface da Web de colaboração do fornecedor.
 <ul>
-<li><a href="vendor-collaboration-work-external-vendors.md">Use a colaboração de fornecedor para trabalhar com fornecedores externos</a></li>
+<li><a href="vendor-collaboration-work-external-vendors.md">Use a colaboração do fornecedor para trabalhar com fornecedores externos</a></li>
 <li><a href="manage-vendor-collaboration-users.md">Gerenciar usuários de colaboração do fornecedor</a></li>
 <li><a href="set-up-maintain-vendor-collaboration.md">Configurar e manter colaboração de fornecedor</a></li>
-<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Use a colaboração de fornecedor para trabalhar com os clientes em dynamics 365 para operações</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">Usar colaboração de fornecedores para trabalhar com clientes no Dynamics 365 for Operations</a></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="overview"></a>Visão Geral
-O espaço de trabalho de colaboração móvel do fornecedores mantém informados sobre novas ordens de compra para que possam exibir e responder ordens de compra em dynamics para o 365 clientes web de operações.  
+O espaço de trabalho móvel de colaboração de fornecedor mantém os fornecedores informados sobre novas ordens de compra para que eles possam ver e responder a ordens de compra no cliente da Web do Dynamics 365 for Operations.  
 
-** Observação: ** O espaço de trabalho móvel deve ser usado como manuais suplementam interface da Web para a colaboração de fornecedor, mas não uma substituição.  
+**Observação:** O espaço de trabalho móvel deve ser usado como um suplemento para a interface da Web de colaboração do fornecedor, mas não como uma substituição.  
 
-Com espaço de trabalho de colaboração móvel do fornecedor, os fornecedores podem exibir as ordens de compra que são enviados para aprovação. Exibe informações de ordem de compra, como produto, quantidade, e datas de entrega solicitada. O preço está disponível, dependendo da configuração de cada fornecedor.  
+Com a área de trabalho móvel de colaboração de fornecedor, seus fornecedores podem exibir novas ordens de compra enviadas para aprovação. Ele exibe informações sobre pedidos, como produtos, quantidade e datas de remessa solicitadas. As informações de preço estão disponíveis, dependendo da configuração de cada fornecedor.  
 
-Quando um usuário fizer logon como um fornecedor, que outras ordens de compra foram respondidos, ou as ordens de compra ainda estão aguardando a ação do cliente. O fornecedor pode ter sugerido outra data de entrega que não foi concordada ainda ao cliente para que a ordem de compra está aguardando a ação do cliente. O fornecedor também verá uma lista de ordens de compra que forem confirmados mas que ainda.  
+Quando um usuário faz logon como um fornecedor, ele vê quais pedidos de compra foram respondidos ou quais pedidos de compra ainda aguardam ação do cliente. O fornecedor pode ter sugerido outra data de entrega que ainda não foi acordada com o cliente para que o pedido esteja aguardando a ação do cliente. O fornecedor também verá uma lista de pedidos confirmados, mas ainda não entregues.  
 
-Responda a ordem de compra, o fornecedor tem que o uso da interface Web para a colaboração de fornecedor disponíveis em dynamics para o 365 clientes web de operações. Isso também é o local onde o fornecedor obterão mais informações sobre a ordem, como anexos de documentos, o endereço de entrega, por linha e os encargos ao fornecedor.  
+Para responder a uma ordem de compra, o fornecedor deve usar a interface da Web de colaboração do fornecedor que está disponível no cliente da Web do Dynamics 365 for Operations. Isso também é onde o fornecedor obterá mais informações sobre a ordem, como anexos de documentos, endereço de entrega por linha e taxas associadas ao fornecedor.  
 
-Com uma função de segurança especial, o fornecedor pode exibir as pessoas de contato são registradas para uma conta de fornecedor. Com a mesma função de segurança, o fornecedor pode exibir o status de qualquer solicitação de usuário que é enviada.  
+Com um papel de segurança especial, o fornecedor pode ver quais pessoas de contato estão registradas para uma conta de fornecedor. Com a mesma função de segurança, o fornecedor pode visualizar o status de qualquer solicitação de usuário que tenha sido enviada.  
 
-Criar novos contatos e enviar solicitações novas do usuário deve ser realizadas na interface de colaboração de fornecedor disponíveis em dynamics para o 365 clientes web de operações.  
+A criação de novos contatos e o envio de novas solicitações de usuário devem ser feitas na interface de colaboração do fornecedor que está disponível no cliente da Web Dynamics 365 for Operations.  
 
-Com espaço de trabalho móvel, o fornecedor pode:
+Com o espaço de trabalho móvel, o fornecedor pode:
 
--   Ordens de compra de exibição enviados para o fornecedor.
--   Ordens de compra de exibição que respondeu ao fornecedor e está aguardando a ação do cliente.
--   Exibir ordens de compra que estão no estado confirmado e fim não foram recebidos.
--   Exiba informações da pessoa de contato registrada para a conta de fornecedor (necessário uma função de segurança adicionais.)
--   Exibir informações e para rastrear o status de uma solicitação de usuário por fornecedor (enviada requer uma função de segurança adicionais.)
+-   Ver novos pedidos enviados ao fornecedor.
+-   Ver ordens de compra que o fornecedor respondeu e está aguardando ação do cliente.
+-   Ver pedidos que estão em um estado confirmado e não foram totalmente recebidos.
+-   Exibir informações de pessoa de contato que está registrado para a conta do fornecedor (requer uma função de segurança adicional).
+-   Visualize informações e siga o status de uma solicitação de usuário enviada pelo fornecedor (requer uma função de segurança adicional).
 
 ## <a name="get-started"></a>Introdução
-Para obter iniciado no dispositivo móvel:
+Para começar em seu dispositivo móvel:
 
-1.  No armazenamento móvel descritivo, baixar e instalar o Microsoft Dynamics 365 para o descritivo de operações.
-2.  Inicie a descritivo no dispositivo.
-3.  Insira a URL do 365.
-4.  Insira a empresa para conectar-se. Por exemplo, insira USMF ** **.
-5.  A primeira vez que que se conectar, será solicitado para o nome de usuário e a senha para o Microsoft Dynamics 365 para a conta de operações. 
+1.  Na sua loja de aplicativos móveis, baixe e instale o aplicativo do Microsoft Dynamics 365 for Operations.
+2.  Inicie o aplicativo no seu dispositivo.
+3.  Insira sua URL do Dynamics 365.
+4.  Insira a empresa à qual deseja se conectar. Por exemplo, insira **USMF**.
+5.  No primeiro acesso, são solicitados nome de usuário e senha da sua conta do Microsoft Dynamics 365 for Operations. 
 
-Depois que você insere descritivo, nenhum espaço de trabalho estará visível. Exibir espaços de trabalho do celular descritivo, primeiramente publicar espaços de trabalho o dynamics desejados para o 365 descritivo de operações. Você precisa permissão de administração de sistema publicar o espaço de trabalho.
+Depois de fazer o login no aplicativo, nenhum espaço de trabalho é visível. Para exibir os espaços de trabalho no seu aplicativo móvel, primeiro você deve publicar os espaços de trabalho desejados para o aplicativo do Dynamics 365 for Operations. É necessário permissão do administrador do sistema para publicar a área de trabalho.
 
-1.  Dynamics 365 Inicial para as operações.
-2.  Ir ** administração de sistema ** &gt; ** de instalação ** &gt; ** ** parâmetros do sistema.
-3.  Selecione ** gerenciamento descritivo móvel **.
-4.  Selecione o espaço de trabalho ** colaboração fornecedor ** publicar a plataforma móvel.
-5.  ** Publicar selecione o espaço de trabalho. **
-6.  Atualizar o dispositivo para consultar espaços de trabalho publicados.
-7.  ** Colaboração selecionar fornecedor ** o espaço de trabalho. Você a próxima página.
+1.  Inicie o Dynamics 365 for Operations.
+2.  Vá para **Administração do sistema** &gt; **Configuração** &gt; **Parâmetros do sistema**.
+3.  Selecione o **Gerenciar aplicativo móvel**.
+4.  Selecione o espaço de trabalho **Colaboração de fornecedor** para publicar na plataforma móvel.
+5.  Selecione **Publicar espaço de trabalho**.
+6.  Atualize seu dispositivo para ver os espaços de trabalho publicados.
+7.  Selecione o espaço de trabalho **Colaboração de fornecedor**. Você verá a próxima página.
 
-[fornecedor-colaboração-celular- descritivo![(]. /media/vendor-collaboration-mobile-app.png)](. /media/vendor-collaboration-mobile-app.png)
+[![vendor-collaboration-mobile-app](./media/vendor-collaboration-mobile-app.png)](./media/vendor-collaboration-mobile-app.png)
 
 ## <a name="contacts"></a>Contatos
-** Contatos ** o página permite ver todos os contatos que foram configurados para a conta de fornecedor. Mostra o nome da pessoa de contato, email principal, apelidos e de usuários, se disponível. Também mostra se a conta de usuário da pessoa de contato ativa. Quando você seleciona um contato, é possível ver os detalhes de contato, como entidades legais que a pessoa é um contato de, e informações de contato como número de telefone ou um endereço de email a outro.
+A página **Contatos** permite ver todos os contatos que foram configurados para a conta do fornecedor. Ele mostra o nome da pessoa de contato, o e-mail principal e o alias do usuário, se disponível. Também mostra se a conta de usuário da pessoa de contato está ativa. Quando você seleciona um contato, você vê os detalhes do contato, como para quais entidades legais a pessoa é um contato, e as informações de contato, como número de telefone ou um endereço de e-mail diferente.
 
 ## <a name="user-requests"></a>Solicitações do usuário
-** Solicitações de usuário ** o página permite ver todas as solicitações de usuário que enviou através da interface da Web de colaboração de fornecedor e rastrear status. Quando você seleciona uma solicitação de usuário, você pode ver o que foi solicitado, adicionar ou neutraliza um usuário, alterar a consulta e segurança, funções de segurança que foi solicitada para o usuário.
+A página **Solicitações de usuário** permite ver todas as solicitações de usuário enviadas por meio da interface da Web de colaboração do fornecedor e acompanhar o status. Quando você seleciona uma solicitação de usuário, você pode ver o que foi solicitado, adicionar ou desativar um usuário, alterar a segurança e ver quais funções de segurança foram solicitadas para o usuário.
 
-## <a name="purchase-orders-ready-for-review"></a>Ordens de produção prontas para revisão
-** Ordens de produção prontas para revisão ** o página permite que todas as ordens de compra que foram enviados por cliente e ter ser atendido. Você pode exibir informações sobre a ordem selecionada, como ao produto foram solicitados e quando entregar. O preço está disponível apenas se for configurada para o fornecedor.  
+## <a name="purchase-orders-ready-for-review"></a>Ordens de compra prontas para revisão
+A página **Ordens de compra prontas para revisão** permite que você veja todos os pedidos que foram enviados pelo cliente e não foram respondidos. Você pode exibir informações selecionadas sobre a ordem, como quais produtos foram solicitados e quando entregar. As informações de preço só estão disponíveis se estiverem configuradas para o fornecedor.  
 
-Você veja se a ordem de compra tiver notas ou todos. Para abrir anexos, você precisará usar a colaboração de fornecedor em clientes web. ** Selecione linha de ordem de compra ** para ver todas as linhas com detalhes. Lembre-se que para cada linha, um indicador mostrará se houver um ou notas anexos ou se houver um endereço de entrega que é diferente do que é exibido no cabeçalho.  
+Você pode ver se o pedido tem notas ou anexos. Para abrir anexos, você precisa usar a colaboração do fornecedor no cliente da Web. Selecione **Linha de ordem de compra** para ver todas as linhas com detalhes. Note que para cada linha, um indicador irá mostrar se há notas ou anexos ou se há um endereço de entrega que é diferente do que é mostrado no cabeçalho.  
 
-Responda à ordem de compra, você deve usar a web client de colaboração de fornecedor.
+Para responder à ordem de compra, você deve usar o cliente da Web de colaboração do fornecedor.
 
 ## <a name="awaiting-customer-action"></a>Aguardando ação do cliente
-** Aguardando ação de clientes ** permite localizar a página ordens de compra a que você, alguém ou na empresa também que tem acesso a colaboração de fornecedor, responderam. Ordens de compra só estão visíveis nesta lista se o cliente precisa executar uma destas ações na ordem de compra.
+A página **Aguardando ação de clientes** permite que você encontre ordens de compra que você, ou alguém de sua empresa que também tem acesso à colaboração do fornecedor, tenha respondido. As ordens de compra só são visíveis nesta lista se o cliente precisar executar uma das seguintes ações na ordem de compra.
 
--   Se a ordem de compra foi rejeitado, cliente ou precisaria atualizar a ordem de remessa e enviado novamente, ou cancele a ordem e envie-o novamente. Quando a ordem de compra é enviado novamente, desaparecerá ** aguardando ação de clientes ** de página.
--   Se a ordem de compra foi aceita alterações com, cliente precisaria atualizar a ordem original e de enviá-lo novamente para revisão, atualizar ou de acordo com as alterações e confirme-a imediatamente. Em ambos os casos, a ordem de compra desaparecerá ** aguardando ação de clientes ** de página.
--   Se a ordem de compra foi aceita e aparece ** aguardando ação ** de cliente na página, é como a ordem de compra não foi confirmada automaticamente quando a aceitação foi feita. Estiver aguardando um agente de compras para alterar a ordem para confirmado. Normalmente, a ordem de compra será considerado como um contrato entre o cliente e fornecedor assim o fornecedor aceitasse a ordem. Mova a ordem de compra ao estado confirmado é uma formalidade.
+-   Se a ordem de compra foi rejeitada, o cliente precisaria atualizar a ordem enviada e enviá-la novamente, ou cancelar a ordem e reenviá-la. Quando o pedido for enviado novamente, ele desaparecerá da página **Aguardando ação de clientes**.
+-   Se a ordem de compra foi aceita com alterações, o cliente precisaria atualizar a ordem original e reenviá-la para revisão ou atualizá-la de acordo com as alterações e confirmá-la imediatamente. Em ambos os casos, a ordem de compra desaparecerá da página **Aguardando ação de clientes**.
+-   Se a ordem de compra foi aceita e aparece na página **Aguardando ação de clientes**, é porque o pedido não foi confirmado automaticamente quando a aceitação foi feita. Ele está aguardando que um agente de compras altere a ordem para Confirmado. Normalmente, o pedido será considerado como um acordo entre o cliente e o vendedor assim que o fornecedor aceitar a ordem. Mover a ordem de compra para o estado Confirmado seria uma formalidade.
 
-Marcando a ordem de compra, os detalhes são exibidos sobre a resposta. Você pode ver detalhes da linha e a resposta para cada linha. A linha de status a seguir mostra que recebeu respostas.
+Ao selecionar a ordem de compra, detalhes adicionais aparecem sobre a resposta. Você pode ver os detalhes da linha e resposta para cada linha. O status da linha mostra quais das respostas a seguir foram dadas.
 
 -   Aceito
 -   Rejeitada
 -   Aceito com alterações
--   Substituto substituído/
+-   Substituído / Substituto
 -   Separação no plano/linha do plano
 
-Observe que mostra um indicador ** ** =yes/no entregues, usado para indicar que as linhas não serão entregues. Isso pode ocorrer porque a linha foi rejeitada, substituído ou em linhas original não deve ser entregues, ou uma linha que é dividida em várias linhas do plano e a linha original não deverá ser entregue como solicitado na ordem recebidas.  
+Observe que um indicador mostra **Entregando**=sim/não, que é usado para indicar que as linhas não serão entregues. Isso pode ser porque a linha foi rejeitada ou substituída onde as linhas originais não devem ser entregues, ou uma linha que foi dividida em várias linhas de agendamento e a linha original não deve ser entregue conforme solicitado na ordem recebida.  
 
-Todas as alterações feitas na linha da resposta são exibidas, exceto as observações de anexos cobrados, que você pode perceber usando a interface da Web de colaboração de fornecedor.
+Todas as alterações feitas na resposta da linha de pedido são exibidas, exceto para as notas e anexos enviados, que você pode ver usando a interface da Web de colaboração do fornecedor.
 
-## <a name="open-confirmed-orders"></a>Abra confirmados ordens
-Quando a ordem de compra for confirmada pelo cliente, que significa que a ordem de compra será alterado para o estado confirmado, aparecerá confirmado a ordem em aberto. Ficará na lista até seja registrado como recebida pelo cliente.
+## <a name="open-confirmed-orders"></a>Abrir ordens confirmadas
+Quando a ordem de compra é confirmada pelo cliente, o que significa que a ordem de compra foi alterada para o estado Confirmado, ela aparecerá na ordem confirmada aberta. Ela permanecerá na lista até que seja registrado como recebido pelo cliente.
 
 

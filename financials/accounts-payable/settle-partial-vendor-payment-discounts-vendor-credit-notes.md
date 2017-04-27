@@ -1,5 +1,5 @@
 ---
-title: "Liquidar um pagamento parcial de fornecedor com descontos em notas de crédito do fornecedor"
+title: "Liquidar um pagamento parcial de fornecedor com descontos em notas de crédito de fornecedor"
 description: "Este artigo aborda um cenário onde um memorando de crédito é liquidado com relação a uma nota fiscal."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Liquidar um pagamento parcial de fornecedor com descontos em notas de crédito do fornecedor
+# <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Liquidar um pagamento parcial de fornecedor com descontos em notas de crédito de fornecedor
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo aborda um cenário onde um memorando de crédito é liquidado com relação a uma nota fiscal.
 
 Os fornecedores da Fabrikam fornecem descontos à vista em notas de crédito. O fornecedor 3050 permite que a Fabrikam obtenha um desconto à vista de 1% se uma fatura for paga em 14 dias.
 
 ## <a name="invoice-and-credit-memo"></a>Fatura e nota de crédito
-abril o 29 de junho, cria uma nota fiscal para 1,000.00 para o fornecedor 3050. O 2 de julho, cria uma nota de crédito de 200.00. Na página **Fornecedores**, Alice abre a página **Liquidar transações**. Ela pode usar a página **Liquidar transações** para marcar a nota de crédito e a fatura para liquidação. Um desconto de 2,00 é calculado na nota de crédito. Portanto, o valor total da nota de crédito é reduzido para 198,00.
+Em 29 de junho, Amanda cria uma fatura de 1.000,00 para o fornecedor 3050. Em 2 de julho, ela cria uma nota de crédito de 200,00. Na página **Fornecedores**, Alice abre a página **Liquidar transações**. Ela pode usar a página **Liquidar transações** para marcar a nota de crédito e a fatura para liquidação. Um desconto de 2,00 é calculado na nota de crédito. Portanto, o valor total da nota de crédito é reduzido para 198,00.
 
 | Marcar                     | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor na moeda da transação | Moeda | Valor para liquidar |
 |--------------------------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -65,6 +68,8 @@ Alice pode examinar as transações de fornecedor na página **Transações de f
 | Inv-10071  |                  | 2/7/2015  | CR10071 | 200,00                               |                                       | 0,00    | USD      |
 | DISC-10071 |  Desconto à vista   | 2/7/2015  |         | 2,00                                 |                                       | 0,00    | USD      |
 | DISC-10071 |  Desconto à vista   | 2/7/2015  |         |                                      | 2,00                                  | 0,00    | USD      |
+
+
 
 
 

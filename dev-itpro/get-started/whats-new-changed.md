@@ -41,23 +41,23 @@ Para fazer a atualização para a versão mais recente, consulte [Processo de in
 <thead>
 <tr class="header">
 <th><strong>Liberar</strong></th>
-<th><strong><strong>Version</strong></strong></th>
-<th><strong><strong>Build number</strong></strong></th>
-<th><strong><strong>Availability</strong></strong></th>
+<th><strong><strong>Versão</strong></strong></th>
+<th><strong><strong>Número da compilação</strong></strong></th>
+<th><strong><strong>Disponibilidade</strong></strong></th>
 <th><strong><strong>Para saber mais</strong></strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Plataforma do Microsoft Dynamics 365 for Operations</td>
-<td>Plataforma de atualizações 4</td>
+<td>Atualização 4 de plataforma</td>
 <td>7.0.4425.16160</td>
-<td>Em fevereiro de 2017</td>
+<td>2017 de fevereiro</td>
 <td><ol>
-<li>Vá <a href="https://roadmap.dynamics.com/">Mapa rodoviário de dynamics 365</a>.</li>
-<li>Selecione <strong>Novidades</strong> a guia.</li>
-<li><strong>Aplicativos</strong> Na seção, selecionar <strong>Dynamics 365 para operações</strong>.</li>
-<li><strong>Áreas</strong> Na seção, selecionar <strong>Plataforma do nuvem</strong>.</li>
+<li>Vá <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a>.</li>
+<li>Selecione a guia <strong>Novidades</strong>.</li>
+<li>Na seção <strong>Aplicativos</strong>, selecione <strong>Dynamics 365 for Operations</strong>.</li>
+<li>Na seção <strong>Áreas</strong>, selecione <strong>Plataforma do nuvem</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">

@@ -1,6 +1,6 @@
 ---
 title: "Listas de materiais e fórmulas"
-description: "Este artigo fornece informações sobre as listas de materiais (BOMs) e fórmulas, que fazem parte central de definição de produto e grades de produto. BOMs e fórmulas especificam materiais ou os ingredientes necessários para um produto específico. As fórmulas também especifique co-produtos e subprodutos recebidos no contexto específico de produção."
+description: "Este artigo fornece informações sobre listas de materiais (BOMs) e fórmulas, as quais são uma parte central da definição de produtos e grades de produtos. BOMs e fórmulas especificam os materiais ou ingredientes necessários para um produto específico. As fórmulas também especificam coprodutos e subprodutos recebidos em um contexto de produção específico."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Listas de materiais e fórmulas
 
-Este artigo fornece informações sobre as listas de materiais (BOMs) e fórmulas, que fazem parte central de definição de produto e grades de produto. BOMs e fórmulas especificam materiais ou os ingredientes necessários para um produto específico. As fórmulas também especifique co-produtos e subprodutos recebidos no contexto específico de produção. 
+[!include[banner](../includes/banner.md)]
+
+
+Este artigo fornece informações sobre listas de materiais (BOMs) e fórmulas, as quais são uma parte central da definição de produtos e grades de produtos. BOMs e fórmulas especificam os materiais ou ingredientes necessários para um produto específico. As fórmulas também especificam coprodutos e subprodutos recebidos em um contexto de produção específico. 
 
 <a name="bills-of-materials"></a>Listas de Materiais
 ------------------
@@ -38,7 +41,7 @@ Uma lista de materiais (BOM) define os componentes necessários para produzir um
 
 Quando combinada com um roteiro ou um fluxo de produção que descreve as operações e os recursos necessários para construir um produto, a BOM forma a base para o cálculo dos custos estimados do produto.  
 
-Uma BOM é uma entidade individual que é descrita por seguintes informações:
+Uma BOM é uma entidade individual descrita pelas seguintes informações:
 
 -   ID da BOM
 -   Nome de BOM
@@ -49,7 +52,7 @@ Uma única BOM descreve um nível único que é identificado por um ID exclusivo
 
 ### <a name="formulas-co-products-and-by-products"></a>Fórmulas, coprodutos e subprodutos
 
-Uma fórmula é um subtipo de BOM que é tipicamente usado na manufatura de processo. Além dos componentes e ingredientes, uma fórmula descreve coprodutos e subprodutos. A versão atual, a definição de co-produtos e subprodutos para fórmula requerem a versão da fórmula. Uma fórmula é geralmente definida para um produto acabado específico (uma fórmula ou um item de planejamento) definido na versão da fórmula.
+Uma fórmula é um subtipo de BOM que é tipicamente usado na manufatura de processo. Além dos componentes e ingredientes, uma fórmula descreve coprodutos e subprodutos. Na versão real, a definição de coprodutos e subprodutos da fórmula exigem a versão da fórmula. Uma fórmula é tipicamente definida para um produto específico acabado (uma fórmula ou item de planejamento) que está definido na versão da fórmula.
 
 ### <a name="boms-in-the-product-lifecycle"></a>BOMs no ciclo de vida do produto
 
@@ -61,7 +64,7 @@ No ciclo de vida do produto, vários tipos de BOM podem ser criados por diversos
 -   **BOM de Produção** – Esta é a BOM utilizada para uma produção específica. Uma BOM de produção deve levar em consideração os recursos que realmente são usados para produzir o produto. Quando uma ordem de produção, ordem de lote, ou kanban são criados, os vários níveis de BOMs representados por fantasmas são arrastados para um nível e distribuídos pelas operações para a ordem.
 -   **BOM de Custo** – Esta BOM é usada para calcular o custo estimado de um produto. Por exemplo, você pode usar uma BOM de custo quando o custo padrão é utilizado ou quando o custo planejado estimado de um certo produto é calculado. BOMs de custo podem se referir a uma mistura específica de materiais e recursos que está prestes a ser utilizada. Consequentemente, você pode usar a BOM de custo para criar um custo estimado representativo para um período e ajudar a evitar variações ao longo do tempo.
 
-Os tipos de BOM usado realmente uma implementação dependem de implementação, e também de cenários e requisitos comerciais. Em implementações simples, uma BOM de planejamento, uma BOM de produção, e uma BOM de custo podem ser modeladas como uma única BOM. Em ambientes que possuem alterações frequentes de engenharia e múltiplos roteiros alternativos, um conjunto maior de tipos de BOMs provavelmente será necessário.
+Os tipos de BOM que são realmente utilizados em uma implementação depende da implementação, e também dos cenários e requisitos comerciais. Em implementações simples, uma BOM de planejamento, uma BOM de produção, e uma BOM de custo podem ser modeladas como uma única BOM. Em ambientes que possuem alterações frequentes de engenharia e múltiplos roteiros alternativos, um conjunto maior de tipos de BOMs provavelmente será necessário.
 
 ### <a name="approval-of-boms-and-formulas"></a>Aprovação de BOMs e fórmulas
 
@@ -78,7 +81,7 @@ Antes que uma versão da BOM possa ser usada no processo de planejamento ou fabr
 
 ### <a name="activation-of-the-default-bom-or-formula-version"></a>Ativação da versão padrão da BOM ou da fórmula
 
-Para definir uma BOM ou fórmula específica como a versão padrão da BOM ou da fórmula que será usada pelo planejamento mestre ou utilizada na criação de ordens de produção, você deve ativar a versão. Quando uma versão, será ativada a exclusividade de liberação para restrições determinadas (por exemplo, período, site, quantidade) ou será marcada. Você receberá uma mensagem de erro se a versão que você está tentando ativar conflitos com uma versão que esteja ativa. Você deve então desativar a versão conflitante ou modificar as restrições da versão (geralmente o período) para evitar uma ativação ambígua.
+Para definir uma BOM ou fórmula específica como a versão padrão da BOM ou da fórmula que será usada pelo planejamento mestre ou utilizada na criação de ordens de produção, você deve ativar a versão. Quando uma versão é ativada, a exclusividade da versão para as restrições determinadas (por exemplo, período, local, ou quantidade) é verificada. Você receberá uma mensagem de erro se a versão que está tentando ativar entrar em conflito com uma versão que já está ativa. Você deve então desativar a versão conflitante ou modificar as restrições da versão (geralmente o período) para evitar uma ativação ambígua.
 
 ### <a name="product-change-with-case-management"></a>Alteração de produto com gerenciamento de caso
 
@@ -114,5 +117,7 @@ Selecione o tipo de linha** Fornecimento vinculado** quando desejar criar uma su
 Selecione o tipo de linha **Fornecedor** se o processo de produção utiliza um subempreiteiro, e você desejar que uma subprodução ou ordem de compra seja criada automaticamente para o subempreiteiro.  
 
 **Observação sobre operações terceirizadas em uma BOM:** O serviço ou trabalho executado pelo subempreiteiro deve ser criado como item de serviço rastreado no estoque. Você deve anexar o item de serviço ao item pai como uma linha da BOM. O roteiro deverá conter uma operação atribuída ao recurso de operações do subcontratado.
+
+
 
 

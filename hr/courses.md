@@ -1,5 +1,5 @@
 ---
-title: "Treinamentos de instalação"
+title: Configurar cursos de treinamento
 description: "Os administradores e gerentes de recursos humanos podem usar os recursos dos cursos para manter informações sobre o treinamento que é oferecido aos funcionários."
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-training-courses"></a>Treinamentos de instalação
+# <a name="set-up-training-courses"></a>Configurar cursos de treinamento
+
+[!include[banner](includes/banner.md)]
+
 
 Os administradores e gerentes de recursos humanos podem usar os recursos dos cursos para manter informações sobre o treinamento que é oferecido aos funcionários.
 
@@ -85,7 +88,7 @@ Para cada curso, você pode concluir as tarefas a seguir.
 -   Recomendar hotéis aos participantes do curso
 -   Criar uma descrição do curso, que pode ser anunciada no Autoatendimento para funcionários
 
-  >** Nota ** você pode excluir somente se um curso ninguém se registrado para ele. 
+  >**Observação:** você pode excluir um curso somente se ninguém estiver registrado nele. 
     
 ## <a name="course-statuses"></a>Status do curso
 A tabela a seguir lista os possíveis status do curso e as ações que poderão ser concluídas quando o curso tiver um status específico.
@@ -132,7 +135,9 @@ Os participantes de curso são funcionários, candidatos ou pessoas de contato q
 <a name="workflow"></a>Fluxo de trabalho
 --------
 
-Os funcionários com registro para um curso em ** auto-atendimento para funcionário ** de página podem ter seu registro roteado com o fluxo de trabalho para aprovação.  Um fluxo de trabalho poderá ser atribuído a um curso ** ** geral em FastTab ** cursos ** na página.
+Os funcionários que se registrarem em um curso na página **Autoatendimento para funcionários** podem ter seu registro roteado com o fluxo de trabalho para aprovação.  Um fluxo de trabalho pode ser atribuído a um curso na Guia Rápida **Geral** na página **Cursos**.
+
+
 
 
 

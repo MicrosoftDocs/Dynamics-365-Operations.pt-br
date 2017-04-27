@@ -1,6 +1,6 @@
 ---
 title: "Crédito e cobranças em Contas a receber"
-description: "Informações receber coleções de contas será gerenciada em uma exibição central usando o Microsoft Dynamics 365 para a página de conjuntos de operações. Os gerentes de crédito e cobranças podem usar essa visão central para gerenciar cobranças. Os agentes de cobranças podem iniciar o processo de cobranças a partir das listas de clientes que são geradas usando critérios de cobrança predefinidos ou da página Clientes."
+description: "A informações de cobranças de contas a receber são gerenciadas em uma exibição central por meio da página Cobranças do Microsoft Dynamics 365 for Operations. Os gerentes de crédito e cobranças podem usar essa visão central para gerenciar cobranças. Os agentes de cobranças podem iniciar o processo de cobranças a partir das listas de clientes que são geradas usando critérios de cobrança predefinidos ou da página Clientes."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Crédito e cobranças em Contas a receber
 
-Informações receber coleções de contas será gerenciada em uma exibição central usando o Microsoft Dynamics 365 para a página de conjuntos de operações. Os gerentes de crédito e cobranças podem usar essa visão central para gerenciar cobranças. Os agentes de cobranças podem iniciar o processo de cobranças a partir das listas de clientes que são geradas usando critérios de cobrança predefinidos ou da página Clientes.
+[!include[banner](../includes/banner.md)]
+
+
+A informações de cobranças de contas a receber são gerenciadas em uma exibição central por meio da página Cobranças do Microsoft Dynamics 365 for Operations. Os gerentes de crédito e cobranças podem usar essa visão central para gerenciar cobranças. Os agentes de cobranças podem iniciar o processo de cobranças a partir das listas de clientes que são geradas usando critérios de cobrança predefinidos ou da página Clientes.
 
 Antes de começar a configurar ou trabalhar com cobranças, você deve entender os seguintes conceitos:
 -   Os instantâneos de classificação por vencimento de clientes contêm informações classificadas por vencimento do saldo em um ponto no tempo
@@ -55,9 +58,9 @@ Para cada período de classificação por vencimento na definição do período 
 Os grupos de clientes são consultas que definem um grupo de registros de clientes que podem ser exibidos e gerenciados para cobranças ou processos de classificação por vencimento. Use os grupos de clientes para filtrar informações nas página de listagem Saldos classificados por vencimento, Atividades de cobrança e Casos de cobrança. Você também usa grupos de clientes para filtrar as contas de clientes que são incluídas quando os instantâneos de classificação por vencimento são criados.
 
 ## <a name="collections-agents"></a>Agentes de cobranças
-Por padrão, o Microsoft Dynamics 365 para usuários de operações pode exibir todas as informações do cliente em páginas de lista de conjuntos. Você pode usar registros de agente de cobranças para determinar os grupos de clientes que estão disponíveis para filtrar as informações nas páginas de lista de cobranças e na página Cobranças. 
+Por padrão, os usuários do Microsoft Dynamics 365 for Operations podem exibir todas as informações do cliente nas páginas de lista de cobranças. Você pode usar registros de agente de cobranças para determinar os grupos de clientes que estão disponíveis para filtrar as informações nas páginas de lista de cobranças e na página Cobranças. 
 
-Um agente de cobranças é a pessoa que trabalha com clientes para ter certeza de que os pagamentos serão cobrados em tempo hábil. No Microsoft Dynamics 365 para operações, os agentes de cobranças são os funcionários atribuídos a usuários na página do usuário.
+Um agente de cobranças é a pessoa que trabalha com clientes para ter certeza de que os pagamentos serão cobrados em tempo hábil. No Microsoft Dynamics 365 for Operations, os agentes de cobranças são os funcionários atribuídos a usuários na página Configuração do usuário.
 
 ## <a name="collections-list-pages"></a> Páginas de listagem Cobranças 
 As seguintes páginas de lista ajudam você a organizar as informações de cobrança.
@@ -67,7 +70,7 @@ As seguintes páginas de lista ajudam você a organizar as informações de cobr
 
 > [!NOTE]
 > Um instantâneo de classificação por vencimento deve ser criado para que você possa exibir as informações nessas páginas de lista. As informações são exibidas somente para os clientes para os quais um instantâneo de classificação por vencimento tiver sido criado. Os registros mostrados na página de listagem podem ser ainda mais filtrados, da seguinte maneira:
-<li>Por padrão, o Microsoft Dynamics 365 para operações do usuário tem acesso a todos os clientes que têm um instantâneo de classificação por vencimento.</li>
+<li>Por padrão, um usuário do Microsoft Dynamics 365 for Operations tem acesso a todos os clientes com um instantâneo de classificação por vencimento.</li>
 <li>Se os grupos de clientes existem, um usuário deve ser configurado como um agente de cobranças para usar os grupos para filtrar as informações nas páginas de lista de cobranças. As informações são limitadas aos clientes incluídos no grupo de clientes selecionado.</li>
 <li>Se um usuário estiver configurado como um agente de cobranças, apenas os grupos selecionados para esse agente de cobranças estarão disponíveis na página de lista. Se o botão de alternância Permitir que o agente exiba todos os grupos de clientes estiver selecionado na página Agente de cobranças do agente de cobranças, todos os grupos estarão disponíveis para esse agente.</li>
 
@@ -75,7 +78,7 @@ As seguintes páginas de lista ajudam você a organizar as informações de cobr
 ## <a name="collections-page"></a> Página Cobranças
 Use a página Cobranças para exibir, gerenciar e adotar uma ação nas informações, atividades e casos de cobranças para um cliente. 
 
-Exemplos do painel superior exibe para o cliente selecionado. O painel central exibe transações do cliente. O painel inferior exibe atividades para o cliente. Você pode criar casos de cobranças para controlar as informações de cobranças para uma ou mais transações e atividades. As informações nos painéis superior e inferior podem ser filtradas por caso. 
+O painel superior exibe as ocorrências do cliente selecionado. O painel central exibe as transações do cliente selecionado. O painel inferior exibe atividades para o cliente. Você pode criar casos de cobranças para controlar as informações de cobranças para uma ou mais transações e atividades. As informações nos painéis superior e inferior podem ser filtradas por caso. 
 
 Os Quadros de Fatos exibem saldos classificados por vencimento e informações de limite de crédito para o cliente selecionado. Essas informações ficam armazenadas no instantâneo de classificação por vencimento. Se necessário, você pode atualizar o instantâneo de classificação por vencimento com informações atuais. 
 
@@ -86,7 +89,7 @@ Você pode renunciar, reaplicar ou reverter notas de juros completas, ou taxas e
 
 Esses ajustes afetam somente as notas de juros e os juros e as taxas que elas incluem. Use as etapas descritas na seção “Criar transações de baixa em uma etapa” para dar baixa de todos os encargos devidos por um cliente.
 
-## <a name="create-writeoff-transactions"></a>Criar transações de amortização
+## <a name="create-writeoff-transactions"></a>Criar transações de baixa
 Você pode dar baixa em dívidas perdidas ao clicar em Dar baixa no formulário Cobranças e nas páginas de listagem Saldos classificados por vencimento., Clientes e Faturas de cliente abertas. 
 
 Quando você dá baixa nas transações de um cliente, todas as transações correspondentes são marcadas automaticamente para liquidação. O valor da baixa depende do valor líquido das transações marcadas. A transação de baixa é criada em um diário geral e pode conter até três tipos de linhas de diário.
@@ -100,6 +103,8 @@ Processar pagamento de insuficiência de fundos (NSF)
 --------------------------------------------
 
 Você pode processar pagamentos NSF ao clicar em Pagamento NSF na página Cobranças. Quando você clica nesse botão, o pagamento é cancelado. Se uma taxa de NSF for aplica ao cliente, uma transação de encargo será criada em um diário de pagamento. O valor da taxa é baseado nas configurações de encargos automáticos. Os encargos automáticas que se aplicam aos pagamentos NSF são especificados pelo grupo de encargos selecionado na página Contas bancárias para a conta bancária afetada.
+
+
 
 
 

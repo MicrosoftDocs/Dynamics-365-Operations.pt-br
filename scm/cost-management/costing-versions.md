@@ -28,6 +28,9 @@ ms.lasthandoff: 03/29/2017
 
 # <a name="costing-versions"></a>Versões de custos
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre versões de custos, como mantê-las e os tipos de dados que podem estar incluídos nelas. A finalidade principal de uma versão de custo é conter registros de custo sobre itens, categorias de custo e fórmulas de cálculo para custos indiretos.
 
 Uma versão de custo pode servir a um ou mais finalidades, dependendo dos dados contidos na versão de custo. A finalidade principal de uma versão de custo é conter registros de custo sobre itens, categorias de custo e fórmulas de cálculo para custos indiretos. Uma versão de custo pode conter um conjunto de registros de custo padrão ou um conjunto de registros de custo planejado com base no tipo de custo atribuído à versão de custo.
@@ -63,5 +66,7 @@ O principal motivo para habilitar os dados de preço de compra é definir regist
 Para habilitar o conteúdo de preço de compra, você primeiro define um grupo de cálculos de BOM que contenha um modelo de preço de custo para o preço de compra do item e atribui o grupo de cálculos de BOM aos itens comprados. Você deve usar um modelo de preço de custo para o grupo de cálculos de BOM ao executar cálculos de BOM que usem custos planejados para calcular o preço de venda de itens fabricados. 
 
 Os registros de preço de compra de itens também são usados para informações de referência. Alterando o status do registro de preço de compra de um item de **Pendente** para **Ativo**, você pode atualizar o preço de compra base do item. No entanto, o preço de compra base não é específico para o lugar e pode ser substituído manualmente. O preço de compra base do item é usado como o preço de compra padrão nas ordens de compra.
+
+
 
 

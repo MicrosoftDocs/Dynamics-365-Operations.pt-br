@@ -1,5 +1,5 @@
 ---
-title: "Lançar com livros derivados"
+title: "Lançar com registros de depreciações derivados"
 description: Este artigo descreve como usar registros de registros derivadas.
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="post-with-derived-books"></a>Lançar com livros derivados
+# <a name="post-with-derived-books"></a>Lançar com registros de depreciações derivados
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo descreve como usar registros de registros derivadas.
 
@@ -49,11 +52,13 @@ As informações a seguir descrevem como configurar transações de aquisição 
 
 Em seguida, os registros poderão ser anexados a ativos fixos específicos. 
 
-Quando uma aquisição é lançada para um ativo com registro VM 1, a aquisição é lançada não só em VM 1, mas também no livro derivado VM 2. O status de ambos corrigidos - os registros de ativos são atualizados para abrir.
+Quando uma aquisição for lançada para um ativo fixo com o livro VM 1, a aquisição não será lançada somente em VM 1, mas também no registro do livro derivado VM 2. O status dos livros de ativo fixo é atualizado para Aberto.
 
 > [!NOTE]                                                                                                         
 > Se você não usar registros derivados, será necessário lançar a aquisição do ativo fixo tanto para o método VM 1 como para o registro VM 2.
 
-Para obter mais informações, consulte o white [] derivados (derived-books.md)
+Para obter mais informações, consulte [Registros derivados](derived-books.md).
+
+
 
 

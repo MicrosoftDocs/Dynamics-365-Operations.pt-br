@@ -1,6 +1,6 @@
 ---
-title: Novas guias da tarefa (em fevereiro de 2016)
-description: "Wiki este lista as guias da tarefa que foram liberados para as bibliotecas de BPM Microsoft em fevereiro de 2016.  Bibliotecas as que foram publicadas (inclui em fevereiro de 2016) APQC a biblioteca unificada obter para Microsoft Dynamics 365 para operações, e (iniciada). em fevereiro de 2016"
+title: Novos guias de tarefas (fevereiro de 2016)
+description: "Este wiki lista os Guias de tarefa que foram lançados nas bibliotecas do Microsoft BPM a partir de fevereiro de 2016.  As bibliotecas que foram publicadas incluem a (fevereiro de 2016) Biblioteca Unificada APQC para Microsoft Dynamics 365 for Operations e (fevereiro de 2016) Introdução."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-task-guides-february-2016"></a>Novas guias da tarefa (em fevereiro de 2016)
+# <a name="new-task-guides-february-2016"></a>Novos guias de tarefas (fevereiro de 2016)
 
-Wiki este lista as guias da tarefa que foram liberados para as bibliotecas de BPM Microsoft em fevereiro de 2016.  Bibliotecas as que foram publicadas (inclui em fevereiro de 2016) APQC a biblioteca unificada obter para Microsoft Dynamics 365 para operações, e (iniciada). em fevereiro de 2016
+Este wiki lista os Guias de tarefa que foram lançados nas bibliotecas do Microsoft BPM a partir de fevereiro de 2016.  As bibliotecas que foram publicadas incluem a (fevereiro de 2016) Biblioteca Unificada APQC para Microsoft Dynamics 365 for Operations e (fevereiro de 2016) Introdução.
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Código (guias em fevereiro de 2016) na biblioteca APQC unificada para Microsoft Dynamics 365 para operações
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Guias de tarefas na (fevereiro de 2016) Biblioteca Unificada APQC para Microsoft Dynamics 365 for Operations
 ---------------------------------------------------------------------------------
 
-(Em fevereiro de 2016) a biblioteca APQC unificada contém as guias a tarefa que destinam-se ser usados para obter ajuda com o dynamics 365 para a versão de 7.0.0 operações. Se precisar versões localizadas essas guias da tarefa, estarão disponíveis (em maio de 2016) na biblioteca APQC unificada para Microsoft Dynamics 365 para as operações. Para obter mais informações sobre como conectar o sistema de ajuda em uma biblioteca de guia de tarefas, consulte Get [] iniciado a ajuda (help-overview.md).
+A (fevereiro de 2016) Biblioteca Unificada APQC contém os Guias de tarefas que devem ser usados para obter ajuda em relação ao Microsoft Dynamics 365 for Operations versão 7.0.0. Se você precisar de versões localizadas desses Guias de tarefas, eles estão disponíveis na (maio de 2016) Biblioteca Unificada APQC para Microsoft Dynamics 365 for Operations. Para obter mais informações sobre como conectar o sistema de ajuda à uma biblioteca de Guias de tarefas, consulte [Introdução à ajuda](help-overview.md).
 
 ### <a name="accounts-payable"></a>Contas a Pagar
 
@@ -531,7 +531,7 @@ Wiki este lista as guias da tarefa que foram liberados para as bibliotecas de BP
 | Adicionar cálculo ao modelo de configuração de produto    | Global             |
 | Aprovar um modelo de configuração de produto                 | Global             |
 | Completar a instalação básica de um produto mestre lançado | Global             |
-| Crie A. \ \ dimensões financeiras com baseadas produtos mestres               | Global             |
+| Criar um ..\dimensões financeiras\produto mestre baseado em dimensão               | Global             |
 | Criar uma hierarquia de classificação de produto          | Global             |
 | Criar um modelo de configuração de produtos                  | Global             |
 | Criar um produto mestre                               | Global             |
@@ -544,7 +544,7 @@ Wiki este lista as guias da tarefa que foram liberados para as bibliotecas de BP
 | Manter BOM de um modelo de configuração de produtos        | Global             |
 | Manter roteiro de um modelo de produto                    | Global             |
 | Gerenciar produtos liberados                              | Global             |
-| A versão. \ \ dimensões financeiras com baseadas produtos mestres              | Global             |
+| Lançar um ..\dimensões financeiras\produto mestre baseado em dimensão              | Global             |
 | Transferir dados para modelos de produto                      | Global             |
 
  
@@ -718,10 +718,10 @@ Wiki este lista as guias da tarefa que foram liberados para as bibliotecas de BP
 <a name="see-also"></a>Consulte também
 --------
 
-[Novas guias ou atualizados a tarefa ()] em maio de 2016(new-updated-task-guides-available-may-2016.md)
+[Guias de tarefas novos ou atualizados (maio de 2016)](new-updated-task-guides-available-may-2016.md)
 
-[Novas guias ou atualizados a tarefa ()] em agosto de 2016(new-updated-task-guides-available-august-2016.md)
+[Guias de tarefas novos ou atualizados (agosto de 2016)](new-updated-task-guides-available-august-2016.md)
 
-[Novas guias ou atualizados a tarefa ()] em novembro de 2016(new-task-guides-november-2016.md)
+[Guias de tarefas novos ou atualizados (novembro de 2016)](new-task-guides-november-2016.md)
 
 

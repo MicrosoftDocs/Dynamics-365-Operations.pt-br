@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16212
 ms.assetid: c9d1b9df-82e8-4b3a-a13c-166df8b9718e
 ms.search.region: global
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-a-call-center-catalog"></a>Crie um catálogo de call center
 
+[!include[banner](includes/banner.md)]
+
+
 Este artigo oferece uma visão geral do processo para a criação de um catálogo para um call center. 
 
-Em um call center, você pode usar catálogos de produtos para identificar os produtos que deseja oferecer para os clientes. Os call centers usam normalmente catálogos impressos. O design e produção de um catálogo impressão são tratados fora do Microsoft Dynamics 365 para as operações. Entretanto, você pode criar e armazenar um formulário digital de um catálogo varejo e no comércio em dynamics 365 para as operações usando os mesmos formulários que você usa para configurar de catálogos online. Antes de criar um catálogo, você deve configurar classificações de produtos e atribuir as classificações a um call center. Então, você pode adicionar produtos ao catálogo selecionando produtos desses sortimentos. Depois que o produtos tiverem sido adicionados ao catálogo, e o catálogo estiver concluído, você deve validar o catálogo para verificar os dados. Em seguida, é necessário enviar o catálogo para revisão e aprovação. Depois que o catálogo for aprovado, ele poderá ser publicado. Quando um catálogo de call center é criado, você pode fazer um instantâneo dos dados do catálogo no momento em que o catálogo é publicado. Essa funcionalidade do instantâneo permite acessar uma versão específica do catálogo, mesmo se ele for alterado e atualizado posteriormente. Catálogos de call center também podem ser configurados para incluir os seguintes recursos opcionais.
+Em um call center, você pode usar catálogos de produtos para identificar os produtos que deseja oferecer para os clientes. Os call centers usam normalmente catálogos impressos. O design e a produção de um catálogo impresso são tratados fora do Microsoft Dynamics 365 for Operations. No entanto, você pode criar e armazenar um formulário digital de um catálogo em Varejo e comércio no Dynamics 365 for Operations usando os mesmos formulários que você usa para configurar catálogos de varejo online. Antes de criar um catálogo, você deve configurar classificações de produtos e atribuir as classificações a um call center. Então, você pode adicionar produtos ao catálogo selecionando produtos desses sortimentos. Depois que o produtos tiverem sido adicionados ao catálogo, e o catálogo estiver concluído, você deve validar o catálogo para verificar os dados. Em seguida, é necessário enviar o catálogo para revisão e aprovação. Depois que o catálogo for aprovado, ele poderá ser publicado. Quando um catálogo de call center é criado, você pode fazer um instantâneo dos dados do catálogo no momento em que o catálogo é publicado. Essa funcionalidade do instantâneo permite acessar uma versão específica do catálogo, mesmo se ele for alterado e atualizado posteriormente. Catálogos de call center também podem ser configurados para incluir os seguintes recursos opcionais.
 
 -   **Códigos de fonte** – Códigos usados para rastrear a resposta do cliente para endereçamentos específicos de catálogo.
 -   **Produtos liberados** – Produtos que estão inclusos em uma ordem do cliente sem encargos adicionais. Esses produtos são adicionados automaticamente à ordem automaticamente quando o código de origem do catálogo é inserido na ordem.
@@ -62,11 +65,13 @@ Depois que um catálogo for validado, você poderá enviá-lo para revisão e ap
 ## <a name="optional-add-source-codes-free-products-and-scripts"></a>Opcional: adicione códigos fonte, produtos gratuitos e scripts
 Você também pode adicionar os seguintes itens a um catálogo do call center. Esses itens são opcionais.
 
--   **Códigos-fonte** podem ser usados pelas empresas que fornecem catálogo impressos para rastrear a resposta do cliente para catálogos específicos. O código-fonte geralmente serão impressos no verso de um catálogo e inserção na ordem de venda quando um cliente fizer uma compra. Para adicionar um ao código-fonte catálogo, primeiro crie um mercado-alvo. O mercado-alvo é mapeado geralmente a uma lista de endereçamento ou não alugada.
+-   **Códigos-fonte** podem ser usados pelas empresas que fornecem catálogo impressos para rastrear a resposta do cliente para catálogos específicos. Os códigos-fonte geralmente são impressos no verso de um catálogo e são inseridos na ordem de venda quando um cliente faz uma compra. Para adicionar um código-fonte ao catálogo, primeiro você deve criar um mercado de destino. O mercado de destino geralmente é mapeado para uma lista de endereçamento própria ou alugada.
 -   **Produtos gratuitos** são os itens promocionais que estão incluídos gratuitamente à ordem do cliente quando o catálogo é referenciado.
 -   **Scripts** podem ser usados para orientar as interações do trabalhador com clientes no contexto de um catálogo ou de um produto em um catálogo.
 
 ## <a name="publish-the-catalog"></a>Publicar o catálogo
 Publicando um catálogo para um call center, você finaliza as informações sobre o produto no catálogo. A publicação também indica que o catálogo está pronto para quaisquer ações adicionais que você deseja realizar. Por exemplo, você pode criar um catálogo impresso. Você pode publicar os catálogos manualmente ou usar um processo em lote para publicar de acordo com uma agenda. Antes de publicar um catálogo, ele deve ser validado e aprovado. Para alterar o catálogo depois que é for publicado, você pode retirar o catálogo então republicá-lo.
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "A ordem de produção padrão em execução de fabricação"
+title: "Padrões de ordem de produção na execução de fabricação"
 description: 
 author: YuyuScheller
 manager: AnnBe
@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="production-order-defaults-in-manufacturing-execution"></a>A ordem de produção padrão em execução de fabricação
+# <a name="production-order-defaults-in-manufacturing-execution"></a>Padrões de ordem de produção na execução de fabricação
+
+[!include[banner](../includes/banner.md)]
 
 
 
-É necessário considerar cuidadosamente ** todas as configurações de ordem padrão de produção ** de página antes de iniciar de trabalhadores fazer registros em trabalhos de produção. Se sua empresa usa a funcionalidade multissite, você pode configurar diferentes padrão para ordens de produção para cada site. Os padrões de ordem para a integração com Controle de produção são configurados na página **Padrões da ordem de produção**:
+
+É necessário considerar cuidadosamente todas as configurações na página **Padrões de ordem de produção** antes dos trabalhadores começarem a criar registros nos trabalhos de produção. Se sua empresa usar a funcionalidade multissite, você pode desejar configurar padrões diferentes para ordens de produção para cada site. Os padrões de ordem para a integração com Controle de produção são configurados na página **Padrões da ordem de produção**:
 
 -   **Geral** – padrões da ordem geral para trabalhos de produção na execução de Fabricação.
 -   **Início** – os padrões da ordem usados quando trabalhos ou operações de produção são iniciados.
@@ -68,6 +71,8 @@ O consumo de materiais durante o processo Relatar como concluído de uma ordem d
 -   **Princípio de liberação** – quando uma ordem de produção é relatada como concluída, as quantidades de materiais serão consumidas de acordo com o princípio de liberação definido nas linhas da BOM de produção. Somente as linhas de material em que o princípio de liberação está definido como **Fim** serão consumidas.
 -   **Sempre** – as quantidades de materiais proporcionais à quantidade relatada como concluída sempre serão consumidas.
 -   **Nunca** – as quantidades de materiais nunca serão consumidas.
+
+
 
 
 

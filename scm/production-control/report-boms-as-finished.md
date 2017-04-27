@@ -1,6 +1,6 @@
 ---
-title: "Relatar BOMs como Concluídas"
-description: "Este artigo fornece informações sobre relatar BOMs como Concluídas."
+title: "Relatar BOMs como concluídas"
+description: "Este artigo fornece informações sobre relatar BOMs como concluídas."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="report-boms-as-finished"></a>Relatar BOMs como Concluídas
+# <a name="report-boms-as-finished"></a>Relatar BOMs como concluídas
 
-Este artigo fornece informações sobre relatar BOMs como Concluídas.
+[!include[banner](../includes/banner.md)]
 
-As páginas **Relatar como concluído** e **Relatório de conclusão máx.** são usadas para relatar BOMs (listas de materiais) como concluídas. Conceitualmente, o processo para relatar uma BOM como concluída é igual ao processo para relatar uma ordem de produção como concluída. Esse processo pode ser usado em, por exemplo, processos simples de montagem, onde os recursos mais avançados de ordens de produção não são necessários. A página **Relatar como concluído** permite relatar várias BOMs como concluídas em um lote. ** Relatório máximo como concluído ** permite relatar a página somente uma BOM como concluída por vez. ** Relatar como concluído ** a página está disponível de um item de menu em gerenciamento de estoque, além ambas as páginas estão disponíveis como itens de menu ** produtos lançados ** na página.
+
+Este artigo fornece informações sobre relatar BOMs como concluídas.
+
+As páginas **Relatar como concluído** e **Relatório de conclusão máx.** são usadas para relatar BOMs (listas de materiais) como concluídas. Conceitualmente, o processo para relatar uma BOM como concluída é igual ao processo para relatar uma ordem de produção como concluída. Esse processo pode ser usado em, por exemplo, processos simples de montagem, onde os recursos mais avançados de ordens de produção não são necessários. A página **Relatar como concluído** permite relatar várias BOMs como concluídas em um lote. A página **Relatório máximo como concluído** permite que você relate apenas uma BOM como concluída de cada vez. A página **Relatar como concluído** está disponível a partir de um item de menu no Gerenciamento de estoques e ambas as páginas estão disponíveis como itens de menu na página **Produtos lançados**.
 
 ## <a name="report-as-finished-page"></a>Página Relatar como concluído
 Se você abrir a página **Relatar como concluído** de um produto liberado,, a página sugere que você relate a quantidade padrão de estoque como concluída. Por padrão, a versão da BOM ativa será mostrada, mas é possível alterar a versão da BOM se houver outras versões aprovadas. A página também permite que você exclua registros e crie novos registros para produtos liberados que devem ser relatados como concluídos Para usar uma consulta para selecionar produtos, clique no item de menu **Selecionar**. Você pode confirmar manualmente relatar como concluído para os produtos selecionados ao clicar em **OK**. Como alternativa, você pode configurar o processo para executar em um lote. Quando o processo relatar como concluído for confirmado, o sistema gerará um diário de BOM, onde o lançamento para estoque será processado. Esse diário consiste em um item de linha para o produto concluído e uma linha de item para cada linha da BOM. É possível controlar se o diário será lançado automaticamente ou se será mantido aberto para ajustes adicionais.
 
-## <a name="max-report-as-finished-page"></a>Máx. relatório de conclusão a página
+## <a name="max-report-as-finished-page"></a>Máx. reportar página como concluída
 Na página **Relatório de conclusão máx.**, cada linha da BOM indica o número de unidades do produto que podem ser relatadas como concluídas. Esse cálculo se baseia no estoque físico disponível de cada linha de material. No exemplo a seguir, uma peça do número de item FG consome duas peças da matéria-prima RM10 e uma peça da matéria-prima RM20. Como existem apenas 10 peças RM10 disponíveis, a quantidade máxima de FG que pode ser relatada como concluída é de cinco peças. Esse valor é mostrado no campo **Relatório de conclusão máx.**
 
 | Nível | Nº do item | Quantidade | Disponível | Máx. Relatório de conclusão |
@@ -68,7 +71,7 @@ As tabelas a seguir mostram como a configuração do campo **Detalhamento** afet
 | 0     | FG          | 3        |
 | 1     | COMP        | -3       |
 
-Como a tabela mostra acima, somente os comp (s) do número de item serão considerados deduzido no diário. O RM de número de item, que é parte externa de san francisco (s), não é detalhado a linha de diário, e a de duas partes comp (s) não é considerado disponível. **Detalhamento: Sempre**
+Como mostra a tabela anterior, apenas o número de item COMP é considerado deduzido no diário. O número de item RM, que faz parte do COMP, não é detalhado na linha do diário, e as duas peças em mãos do COMP não são consideradas. **Detalhamento: Sempre**
 
 | Nível | Nº do item | Quantidade |
 |-------|-------------|----------|
@@ -84,5 +87,7 @@ Neste caso, o número de item COMP é detalhado até sua matéria-prima, número
 | 1     | RM          | -1       |
 
 Neste caso, as duas peças disponíveis do número de item COMP são consideradas. No entanto, como três peças do número de item FG são necessárias, uma peça do número de item RM também será necessária para criar a peça adicional de COMP.
+
+
 
 

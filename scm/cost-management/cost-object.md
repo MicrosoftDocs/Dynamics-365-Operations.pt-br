@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-objects"></a>Objetos de custo
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre os objetos de custos, e explica como os custos e quantidades serão acumulados. Um objeto de custo é uma entidade para os quais os custos e as quantidades são acumulados. Uma entidade de custo prevista do objeto pode ser um produto ou variantes de produto, como grades para o estilo e cor.  
 
 <a name="cost-objects"></a>Objetos de custo
@@ -65,19 +68,21 @@ A tabela a seguir mostra o que é um objeto de custo e o que é um objeto de est
     -   Quantidade lançada
 -   O campo **Custo unitário médio** é um campo calculado. O valor é calculado dividindo o valor **Valor** pelo valor **Quantidade**.
 
-** Observação: ** ** Incluir valor físico ** o parâmetro não tem efeito em cálculos acima.
+**Observação:** O parâmetro **Incluir valor físico** não tem efeito nos cálculos precedentes.
 
 <a name="see-also"></a>Consulte também
 --------
 
-[Product dimension group](https://technet.microsoft.com/en-us/library/aa499382.aspx)
+[Grupo de dimensões do produto](https://technet.microsoft.com/en-us/library/aa499382.aspx)
 
-[Storage dimension group](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[Grupo de dimensões de armazenamento](https://technet.microsoft.com/en-us/library/hh209317.aspx)
 
-[Tracking dimension group](https://technet.microsoft.com/en-us/library/hh209465.aspx)
+[Grupo de dimensões de rastreamento](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[Novidades ou alterado no Microsoft Dynamics AX (/dynamics365/operations/dev-itpro/get-started/what] é alterado) - novo-
+[Novidades ou alterações no Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
-[Cost entries](cost-entries.md)
+[Entradas de custo](cost-entries.md)
+
+
 
 

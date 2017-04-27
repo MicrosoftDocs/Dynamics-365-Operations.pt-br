@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="replenishment"></a>Reabastecimento
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve as estratégias de reabastecimento que estão disponíveis para os depósitos que usam a funcionalidade que está disponível no gerenciamento de depósito.
 
 Este artigo descreve as estratégias de reabastecimento que estão disponíveis para os depósitos que usam a funcionalidade que está disponível no gerenciamento de depósito. As informações não se aplicam à solução de armazenamento disponível no Gerenciamento de estoque. Três estratégias de reabastecimento estão disponíveis:
@@ -67,6 +70,8 @@ Carregar o reabastecimento por demanda soma a demanda por várias cargas e cria 
 | Perfis de localização       | Perfis de local são necessários para criar locais.                                                                                                                                                                                       |
 | Diretivas de localização     | Diretivas locais são necessárias para orientar o trabalho para os locais onde o reabastecimento é necessário e para os locais de onde o estoque é originário.                                                                                     |
 | Modelos do trabalho          | Modelos de trabalho do tipo **Reabastecimento** são necessários para criar o trabalho de reabastecimento para que o estoque possa ser movido para os locais desejados.                                                                                           |
+
+
 
 
 

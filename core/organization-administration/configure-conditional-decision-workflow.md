@@ -1,5 +1,5 @@
 ---
-title: "Configurar uma decisão condicional um fluxo de trabalho"
+title: "Configurar uma decisão condicional em um fluxo de trabalho"
 description: "Use os procedimentos a seguir para configurar as propriedades da decisão condicional."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-conditional-decision-in-a-workflow"></a>Configurar uma decisão condicional um fluxo de trabalho
+# <a name="configure-a-conditional-decision-in-a-workflow"></a>Configurar uma decisão condicional em um fluxo de trabalho
+
+[!include[banner](../includes/banner.md)]
+
 
 Use os procedimentos a seguir para configurar as propriedades da decisão condicional.
 
@@ -38,7 +41,7 @@ Siga estas etapas para inserir um nome para a decisão condicional.
 ## <a name="set-conditions"></a>Definir condições
 O sistema determina qual ramificação é usada para avaliar o documento enviado para determinar se ele atende às condições específicas.
 1.  No painel esquerdo, clique em **Configurações Básicas**.
-2.  Click **Add condition**.
+2.  Clique em **Adicionar condição**.
 3.  Insira uma condição.
 4.  Insira condições adicionais, se forem necessárias.
 5.  Para verificar se as condições inseridas foram configuradas corretamente, execute as etapas a seguir:
@@ -46,6 +49,8 @@ O sistema determina qual ramificação é usada para avaliar o documento enviado
     2.  Selecione um registro na área **Validar condição** do formulário.
     3.  Clique em **Teste**. O sistema avaliará o registro para determinar se ele atende às condições definidas.
     4.  Clique em **OK** ou em **Cancelar** para retornar ao formulário **Propriedades**.
+
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: Planejar o plano de contas
+title: Planejar seu plano de contas
 description: "Este artigo fornece informações as quais o ajudarão a planejar o gráfico para sua organização."
 author: RobinARH
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="plan-your-chart-of-accounts"></a>Planejar o plano de contas
+# <a name="plan-your-chart-of-accounts"></a>Planejar seu plano de contas
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo fornece informações as quais o ajudarão a planejar o gráfico para sua organização.
 
@@ -34,7 +37,7 @@ Para rastrear e manter as informações financeiras em uma organização, você 
 
 O plano de contas é uma lista estruturada das contas da contabilidade de uma entidade legal. A lista é utilizada para preparar relatórios financeiros para autoridades e proprietários. As contas são agrupadas em tipos de contas e então agregadas em categorias maiores. No nível mais amplo, as contas são agrupadas como receitas e custos (contas operacionais), ativos e passivos (contas de saldo). 
 
-Um plano de contas pode ser compartilhado e usado por todas as entidades legais em uma organização. O plano de contas usado por uma entidade legal definido ** razão ** na página. 
+Um plano de contas pode ser compartilhado e usado por todas as entidades legais em uma organização. O plano de contas usado por uma entidade legal é definido na página **Razão**. 
 
 Veja alguns dos fatores que você deve considerar ao planejar a estrutura do plano de contas para sua organização:
 
@@ -48,10 +51,12 @@ Crie o plano de contas na página **Plano de contas**. As contas principais pode
 
 Use a página **Configurar estruturas de conta** para criar estruturas de conta. As estruturas de conta definem as combinações válidas. As combinações, juntamente com as contas principais, formam um plano de contas. 
 
-**Legal entity overrides** 
+**Substituições de entidade legal** 
 
-Nem todas as contas principais são válidos para todas as entidades legais algumas só podem ser relevantes para um período específico. Neste cenário, a seção Substituições da entidade legal pode ser usada para identificar para quais empresas a conta principal deve ser suspensa, quem é o proprietário e há quanto tempo a dimensão está ativa. As substituições no nível compartilhado não podem ser mais restritivas do que as substituições no nível da entidade legal.
+Nem todas as contas principais são válidas para todas as entidades legais e algumas podem ser relevantes apenas por um período específico. Neste cenário, a seção Substituições da entidade legal pode ser usada para identificar para quais empresas a conta principal deve ser suspensa, quem é o proprietário e há quanto tempo a dimensão está ativa. As substituições no nível compartilhado não podem ser mais restritivas do que as substituições no nível da entidade legal.
 
-Para obter mais informações, consulte dimensões financeiras [] financial-dimensions.md ().
+Para obter mais informações, consulte [Dimensões financeiras](financial-dimensions.md).
+
+
 
 

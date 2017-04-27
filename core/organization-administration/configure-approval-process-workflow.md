@@ -1,5 +1,5 @@
 ---
-title: "Configurar um processo de aprovação no fluxo de trabalho"
+title: "Configurar um processo de aprovação em um fluxo de trabalho"
 description: "Use os procedimentos a seguir para configurar as propriedades do processo de aprovação."
 author: sericks007
 manager: AnnBe
@@ -24,11 +24,11 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-approval-process-in-a-workflow"></a>Configurar um processo de aprovação no fluxo de trabalho
+# <a name="configure-an-approval-process-in-a-workflow"></a>Configurar um processo de aprovação em um fluxo de trabalho
 
 Use os procedimentos a seguir para configurar as propriedades do processo de aprovação.
 
-Para configurar uma aprovação, no editor de fluxo de trabalho, clique com o botão direito no elemento de aprovação, clique em propriedades ** ** para abrir ** propriedades ** o formulário.
+Para configurar um processo de aprovação, no editor de fluxo de trabalho, clique com o botão direito do mouse no elemento de aprovação e depois clique em **Propriedades** para abrir o formulário **Propriedades**.
 Nomear o processo de aprovação
 -------------------------
 
@@ -40,7 +40,7 @@ Siga estas etapas para inserir um nome para o processo de aprovação.
 Você pode configurar o sistema para executar automaticamente uma ação no documento se condições específicas forem atendidas. Por exemplo, o sistema pode aprovar os relatórios de despesas que tenham valores totais inferiores a USD 100. Siga estas etapas para especificar quando o sistema deve executar uma ação no documento.
 1.  No painel esquerdo, clique em **Ações automáticas**.
 2.  Marque a caixa de seleção **Habilitar ações automáticas**.
-3.  Click **Add condition**.
+3.  Clique em **Adicionar condição**.
 4.  Insira uma condição.
 5.  Insira outras condições, se necessário.
 6.  Para verificar se as condições inseridas foram configuradas corretamente, execute as etapas a seguir:
@@ -112,11 +112,11 @@ Você poderá enviar notificações às pessoas quando um documento tiver sido a
     </ol></td>
     </tr>
     <tr class="odd">
-    <td><strong>User</strong></td>
-    <td>Microsoft Dynamics 365 de usuários específico de operações</td>
+    <td><strong>Usuário</strong></td>
+    <td>Especificar usuários do Microsoft Dynamics 365 for Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li><strong>Usuários disponíveis</strong>: a lista inclui todos o Microsoft Dynamics 365 para usuários das operações. Selecione os usuários aos quais enviar notificações e mova- os para a lista: <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais enviar notificações e mova- os para a lista: <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

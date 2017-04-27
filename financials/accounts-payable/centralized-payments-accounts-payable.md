@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="centralized-payments-for-accounts-payable"></a>Pagamentos centralizados para Contas a pagar
 
+[!include[banner](../includes/banner.md)]
+
+
 As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal única que trate todos os pagamentos. Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais. Este artigo fornece exemplos que mostram como a postagem de pagamentos centralizados é feita em vários cenários.
 
 As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal que trate todos os pagamentos. Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais. Além disso, a organização economiza tempo, já que o processo de pagamento é simplificado.
@@ -66,14 +69,14 @@ A Fabrikam Leste tem uma fatura em aberto para a conta de fornecedor 100, Fourth
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste
 
-**Fabrikam posting**
+**Lançamento da Fabrikam**
 
 | Conta                           | Valor do débito | Valor do crédito |
 |-----------------------------------|--------------|---------------|
 | Devido pela Fabrikam Leste (Fabrikam) | 600,00       |               |
 | Contas a pagar (Fabrikam)       |              | 600,00        |
 
-**Fabrikam East posting**
+**Lançamento da Fabrikam Leste**
 
 | Conta                          | Valor do débito | Valor do crédito |
 |----------------------------------|--------------|---------------|
@@ -99,14 +102,14 @@ A Fabrikam Leste tem uma fatura em aberto para o fornecedor 100, Fourth Coffee. 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste
 
-**Fabrikam posting**
+**Lançamento da Fabrikam**
 
 | Conta                           | Valor do débito | Valor do crédito |
 |-----------------------------------|--------------|---------------|
 | Devido pela Fabrikam Leste (Fabrikam) | 580,00       |               |
 | Contas a pagar (Fabrikam)       |              | 580,00        |
 
-**Fabrikam East posting**
+**Lançamento da Fabrikam Leste**
 
 | Conta                          | Valor do débito | Valor do crédito |
 |----------------------------------|--------------|---------------|
@@ -137,7 +140,7 @@ A Fabrikam Leste tem uma fatura em aberto para o fornecedor 100, Fourth Coffee. 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste
 
-**Fabrikam posting**
+**Lançamento da Fabrikam**
 
 | Conta                           | Valor do débito            | Valor do crédito           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -146,7 +149,7 @@ A Fabrikam Leste tem uma fatura em aberto para o fornecedor 100, Fourth Coffee. 
 | Perda realizada (Fabrikam)          | 0,00 EUR / 12,90 BRL    |                         |
 | Devido pela Fabrikam Leste (Fabrikam) |                         | 0,00 EUR / 12,90 BRL    |
 
-**Fabrikam East posting**
+**Lançamento da Fabrikam Leste**
 
 | Conta                          | Valor do débito            | Valor do crédito           |
 |----------------------------------|-------------------------|-------------------------|
@@ -178,7 +181,7 @@ A Fabrikam Leste tem uma fatura em aberto para o fornecedor 100, Fourth Coffee. 
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste
 
-**Fabrikam posting**
+**Lançamento da Fabrikam**
 
 | Conta                           | Valor do débito            | Valor do crédito           |
 |-----------------------------------|-------------------------|-------------------------|
@@ -187,7 +190,7 @@ A Fabrikam Leste tem uma fatura em aberto para o fornecedor 100, Fourth Coffee. 
 | Perda realizada (Fabrikam)          | 0,00 EUR / 12,66 BRL    |                         |
 | Devido pela Fabrikam Leste (Fabrikam) |                         | 0,00 EUR / 12,66 BRL    |
 
-**Fabrikam East posting**
+**Lançamento da Fabrikam Leste**
 
 | Conta                          | Valor do débito            | Valor do crédito           |
 |----------------------------------|-------------------------|-------------------------|
@@ -199,7 +202,7 @@ A Fabrikam Leste tem uma fatura em aberto para o fornecedor 100, Fourth Coffee. 
 | Desconto à vista (Fabrikam Leste)    |                         | 11,28 EUR / 13,61 BRL   |
 
 ## <a name="example-5-vendor-credit-note-with-primary-payment"></a>Exemplo 5: nota de crédito do fornecedor com pagamento principal
-A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee. O pagamento é liquidado com uma nota fiscal em aberto para o fornecedor 3004 da Fabrikam Oeste e uma nota de crédito aberta para o fornecedor 100 da Fabrikam Leste. O pagamento está selecionado como o principal ** transações de acordo ** na página.
+A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee. O pagamento é liquidado com uma nota fiscal em aberto para o fornecedor 3004 da Fabrikam Oeste e uma nota de crédito aberta para o fornecedor 100 da Fabrikam Leste. O pagamento não é selecionado como pagamento principal na página **Liquidar transações**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>A fatura é lançada na Fabrikam Oeste para o fornecedor 3004
 
@@ -224,7 +227,7 @@ A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee. O p
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Oeste e a nota de crédito da Fabrikam Leste
 
-**Fabrikam posting**
+**Lançamento da Fabrikam**
 
 | Conta                           | Valor do débito | Valor do crédito |
 |-----------------------------------|--------------|---------------|
@@ -233,14 +236,14 @@ A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee. O p
 | Devido pela Fabrikam Oeste (Fabrikam) | 100,00       |               |
 | Contas a pagar (Fabrikam)       |              | 100,00        |
 
-**Fabrikam East posting**
+**Lançamento da Fabrikam Leste**
 
 | Conta                           | Valor do débito | Valor do crédito |
 |-----------------------------------|--------------|---------------|
 | Devido pela Fabrikam (Fabrikam Leste) | 25,00        |               |
 | Contas a pagar (Fabrikam Leste)  |              | 25,00         |
 
-**Fabrikam West posting**
+**Lançamento da Fabrikam Oeste**
 
 | Conta                          | Valor do débito | Valor do crédito |
 |----------------------------------|--------------|---------------|
@@ -248,7 +251,7 @@ A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee. O p
 | Devido à Fabrikam (Fabrikam Oeste)  |              | 100,00        |
 
 ## <a name="example-6-vendor-credit-note-without-primary-payment"></a>Exemplo 6: nota de crédito do fornecedor sem o pagamento principal
-A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee. O pagamento é liquidado com uma nota fiscal em aberto para o fornecedor 3004 da Fabrikam Oeste e uma nota de crédito aberta para o fornecedor 100 da Fabrikam Leste. O pagamento não está selecionado como o principal ** transações de acordo ** na página.
+A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee. O pagamento é liquidado com uma nota fiscal em aberto para o fornecedor 3004 da Fabrikam Oeste e uma nota de crédito aberta para o fornecedor 100 da Fabrikam Leste. O pagamento não é selecionado como pagamento principal na página **Liquidar transações**.
 
 ### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>A fatura é lançada na Fabrikam Oeste para o fornecedor 3004
 
@@ -273,21 +276,21 @@ A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee. O p
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Oeste e a nota de crédito da Fabrikam Leste
 
-**Fabrikam posting**
+**Lançamento da Fabrikam**
 
 | Conta                           | Valor do débito | Valor do crédito |
 |-----------------------------------|--------------|---------------|
 | Devido pela Fabrikam Oeste (Fabrikam) | 75,00        |               |
 | Contas a pagar (Fabrikam)       |              | 75,00         |
 
-**Fabrikam East posting**
+**Lançamento da Fabrikam Leste**
 
 | Conta                                | Valor do débito | Valor do crédito |
 |----------------------------------------|--------------|---------------|
 | Devido pela Fabrikam Oeste (Fabrikam Leste) | 25,00        |               |
 | Contas a pagar (Fabrikam Leste)       |              | 25,00         |
 
-**Fabrikam West posting**
+**Lançamento da Fabrikam Oeste**
 
 | Conta                              | Valor do débito | Valor do crédito |
 |--------------------------------------|--------------|---------------|
@@ -295,6 +298,8 @@ A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee. O p
 | Devido à Fabrikam (Fabrikam Oeste)      |              | 75,00         |
 | Contas a pagar (Fabrikam Oeste)     | 25,00        |               |
 | Devido à Fabrikam Leste (Fabrikam Oeste) |              | 25,00         |
+
+
 
 
 

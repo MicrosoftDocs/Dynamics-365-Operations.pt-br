@@ -1,6 +1,6 @@
 ---
-title: "Determine a versão de BOM"
-description: "Durante o detalhamento da demanda, se um item tiver um tipo de ordem padrão de produção, o mecanismo de planejamento localizará uma versão de BOM com base no site."
+title: "Determinar a versão da BOM"
+description: "Durante um detalhamento da demanda, se um item tiver um tipo de ordem padrão, o mecanismo de planejamento localizará uma versão da BOM válida com base no site."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="determine-the-bom-version"></a>Determine a versão de BOM
+# <a name="determine-the-bom-version"></a>Determinar a versão da BOM
 
-Durante o detalhamento da demanda, se um item tiver um tipo de ordem padrão de produção, o mecanismo de planejamento localizará uma versão de BOM com base no site. 
+[!include[banner](../includes/banner.md)]
+
+
+Durante um detalhamento da demanda, se um item tiver um tipo de ordem padrão, o mecanismo de planejamento localizará uma versão da BOM válida com base no site. 
 
 A dimensão do site é sempre conhecida e é declarada na transação de demanda. O processo a seguir é usado para determinar a versão da BOM a ser usada:
 
@@ -38,6 +41,8 @@ A dimensão do site é sempre conhecida e é declarada na transação de demanda
 -   Se não houver uma versão da BOM geral para uso, o detalhamento da demanda para nesse ponto.
 
 Uma versão da BOM válida, específica a um site ou geral, deve preencher os critérios necessários de data e quantidade.
+
+
 
 
 

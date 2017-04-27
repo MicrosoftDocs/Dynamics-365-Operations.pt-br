@@ -1,5 +1,5 @@
 ---
-title: Reservar mesmo lote para uma ordem de venda
+title: Reservar o mesmo lote para uma ordem de venda
 description: "Este artigo explica como configurar um produto para permitir a reserva de estoque em relação a um único lote de estoque."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reserve-the-same-batch-for-a-sales-order"></a>Reservar mesmo lote para uma ordem de venda
+# <a name="reserve-the-same-batch-for-a-sales-order"></a>Reservar o mesmo lote para uma ordem de venda
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo explica como configurar um produto para permitir a reserva de estoque em relação a um único lote de estoque.
 
@@ -42,6 +45,8 @@ Ao reservar estoque para um produto em uma linha da ordem de venda configurada p
 -   O código de disposição do lote tem **Bloquear reserva** da venda sinalizado como **Bloqueado**.
 -   O lote expirou com base na data de vencimento e nos dias comercializáveis aplicáveis do cliente. O item ainda poderá ser considerado para reserva se o grupo de modelos de item for controlado pela data FEFO (primeiro a vencer, primeiro a sair) e se a data de validade for selecionada como critério de separação.
 -   O lote não tem dias restantes de validade suficientes com base na data de vencimento e na data de validade, mais os dias comercializáveis do cliente.
+
+
 
 
 

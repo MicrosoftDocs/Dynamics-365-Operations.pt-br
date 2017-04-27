@@ -1,5 +1,5 @@
 ---
-title: "Solicitações de cotações (RFQs)"
+title: "Solicitação de cotação (RFQs)"
 description: "Este artigo oferece uma visão geral de RFQs, que as organizações emitem quando devem adquirir itens ou serviços, e desejam receber ofertas competitivas de vários fornecedores. Em uma RFQ, você solicita que os fornecedores forneçam preços e prazos de entrega das quantidades do item que você especificar. Você também pode solicitar que os fornecedores especifiquem caso haja encargos incidentais, como custos de remessa, ou quaisquer descontos para grandes pedidos ou pagamento antecipado da fatura do fornecedor."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="request-for-quotations-rfqs"></a>Solicitações de cotações (RFQs)
+# <a name="request-for-quotations-rfqs"></a>Solicitação de cotação (RFQs)
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo oferece uma visão geral de RFQs, que as organizações emitem quando devem adquirir itens ou serviços, e desejam receber ofertas competitivas de vários fornecedores. Em uma RFQ, você solicita que os fornecedores forneçam preços e prazos de entrega das quantidades do item que você especificar. Você também pode solicitar que os fornecedores especifiquem caso haja encargos incidentais, como custos de remessa, ou quaisquer descontos para grandes pedidos ou pagamento antecipado da fatura do fornecedor.
 
@@ -37,9 +40,9 @@ O processo de RFQ (solicitação de cotação) cobre as seguintes tarefas:
 
 A ilustração a seguir fornece uma visão geral do processo de RFQ.  
 
-[processo de solicitação de cotação (![]. /media/rfq-process-458x1024.jpg)](. /media/rfq-process.jpg)  
+[![Processo de solicitação de cotação](./media/rfq-process-458x1024.jpg)](./media/rfq-process.jpg)  
 
-Você pode criar uma solicitação de cotação a partir das ordens planejadas, de uma requisição de compra ou uma entrada manual. A RFQ que você cria é chamada de exemplo de RFQ e esse é o documento base que você usa para emitir uma RFQ a cada fornecedor. Depois que prepara exemplos de RFQ e adicionar fornecedores, clique ** envio ** em exemplos de RFQ, e um diário de cotação serão gerados para cada fornecedor que enviou à cotação. Você pode definir as configurações de gerenciamento de impressão para a ação de push para imprimir um relatório para cada fornecedor em um arquivo morto ou envie um relatório o endereço de email de cada fornecedor. Além disso, o diário de RFQ de cada fornecedor pode ser usado para gerar um relatório que você pode enviar ou reenviar a um fornecedor posteriormente. Você também pode configurar a ação Enviar para gerar uma folha de respostas que o fornecedor possa preencher.  
+Você pode criar uma solicitação de cotação a partir das ordens planejadas, de uma requisição de compra ou uma entrada manual. A RFQ que você cria é chamada de exemplo de RFQ e esse é o documento base que você usa para emitir uma RFQ a cada fornecedor. Depois de preparar o caso de RFQ e adicionar fornecedores, clique em **Enviar** no caso RFQ, e um diário RFQ é gerado para cada fornecedor que você enviou a RFQ. Você pode configurar as configurações de gerenciamento de impressão para a ação Enviar para imprimir um relatório para cada fornecedor em um arquivo ou enviar um relatório para o endereço de e-mail de cada fornecedor. Além disso, o diário de RFQ de cada fornecedor pode ser usado para gerar um relatório que você pode enviar ou reenviar a um fornecedor posteriormente. Você também pode configurar a ação Enviar para gerar uma folha de respostas que o fornecedor possa preencher.  
 
 Se você precisar alterar uma RFQ depois que a enviar, poderá reenviar a RFQ aos fornecedores quando terminar.  
 
@@ -49,18 +52,18 @@ Se uma segunda iteração de uma resposta for necessária para um fornecedor esp
 
 Se você adicionou critérios de pontuação para seu exemplo de RFQ, a resposta de RFQ terá um painel de pontuação no qual você poderá inserir as contagens. As pontuações totais aparecerão quando você comparar as respostas na página **Comparar respostas **, na qual você também pode comparar outros dados de resposta, como preço da linha, data de entrega e preço total.  
 
-Após decidir sobre uma oferta ou ofertas parciais, você poderá aceitá-las e rejeitar o restante. Os diários de aceitação, os diários de rejeição e os relatórios correspondentes são gerados. Eles serão impressos, enviados arquivados, e de acordo com as configurações de gerenciamento de impressão. Quando você aceita uma oferta ou cota linhas específicas em uma oferta, um contrato de compra ou ordem de compra é produzido, ou uma requisição de compra é atualizada, dependendo do tipo de compra das rfqs. Você pode criar um contrato comercial que pode ser usado posteriormente para qualquer uma das respostas, independentemente de você ter aceitado ou rejeitado as respostas.  
+Após decidir sobre uma oferta ou ofertas parciais, você poderá aceitá-las e rejeitar o restante. Os diários de aceitação, os diários de rejeição e os relatórios correspondentes são gerados. Eles serão impressos, enviados arquivados, e de acordo com as configurações de gerenciamento de impressão. Quando você aceita uma oferta ou linhas específicas de uma oferta, um contrato de compra ou ordem de compra é gerado, ou uma requisição de compra é atualizada, dependendo do tipo de compra da RFQ. Você pode criar um contrato comercial que pode ser usado posteriormente para qualquer uma das respostas, independentemente de você ter aceitado ou rejeitado as respostas.  
 
 O status de uma RFQ é exibido no cabeçalho da RFQ e depende do status das linhas da RFQ. O status indica o quanto você processou a RFQ. Cada RFQ tem dois valores para o status: o mais baixo e o mais alto. O status mais baixo é a fase menos avançada de qualquer linha na RFQ, e o status mais alto é a fase mais avançada de qualquer linha na RFQ. Por exemplo, se o estágio menos avançado de uma RFQ for para uma linha que foi criada, o status mais baixo da RFQ será **Criado**. Se o estágio mais avançado da RFQ for para uma linha que foi enviada para fornecedores, o status mais alto da RFQ será **Enviado**. O status é atualizado automaticamente ao processar uma RFQ.  
 
 É possível exibir os status mais alto e o mais baixo de um cabeçalho de RFQ na página **Todas as solicitações de cotação**. É possível exibir os status mais alto e o mais baixo de uma linha de RFQ na guia **Linhas** na página **Solicitação de cotação**.  
 
-É aqui a sequência de status das rfqs processamento:
+A sequência de status para processar RFQs é a seguinte:
 
 1.  **Criado**
-2.  **Sent**
-3.  **Received**
-4.  ** Aceito **/** cancelado **/** rejeitado **
+2.  **Enviado**
+3.  **Recebido**
+4.  **Aceito**/**Cancelado**/**Rejeitado**
 
 Os status serão descritos em mais detalhes nas seções posteriores deste artigo.
 
@@ -72,7 +75,7 @@ Antes de criar um exemplo de RFQ, é necessário configurar as informações de 
 -   Informações de entrega e condições de pagamento
 -   Os campos que devem ser incluídos na resposta à RFQ
 
-Você pode substituir esses valores para um exemplo específico de RFQ. Você também deve configurar o processo de aditamento. Como parte desta configuração, você poderá ativar o bloqueio do campo. Quando o bloqueio do campo for ativado, um profissional de aquisição que deseja alterar uma RFQ deve clicar primeiro em **Criar** na seção **Aditamento** da guia **Cotação**. Depois que a cotação foi atualizado com a alteração, o profissional de compras deverá concluir o processo clicando ** finalizar **. ** ** A ação de finalização gera uma mensagem de email que eletrônico notificar os fornecedores da RFQ alterado. Você seleciona o modelo para a notificação de email enviada aos fornecedores na página **Parâmetros de compras**. Quando um modelo for criado, ele poderá conter os seguintes tokens de substituição:
+Você pode substituir esses valores para um exemplo específico de RFQ. Você também deve configurar o processo de aditamento. Como parte desta configuração, você poderá ativar o bloqueio do campo. Quando o bloqueio do campo for ativado, um profissional de aquisição que deseja alterar uma RFQ deve clicar primeiro em **Criar** na seção **Aditamento** da guia **Cotação**. Depois que a RFQ for atualizada com o aditamento, o profissional de aquisição deve concluir o processo clicando em **Finalizar**.** **A ação Finalizar gera uma mensagem de email que notifica os fornecedores sobre a RFQ alterada. Você seleciona o modelo para a notificação de email enviada aos fornecedores na página **Parâmetros de compras**. Quando um modelo for criado, ele poderá conter os seguintes tokens de substituição:
 
 -   %Motivo do retorno do lance%
 -   %Motivo do aditamento%
@@ -124,7 +127,7 @@ A tabela a seguir mostra como o status de RFQ é alterado quando você cria uma 
 
 |                                    |                              |                                                 |                            |                             |
 |------------------------------------|------------------------------|-------------------------------------------------|----------------------------|-----------------------------|
-| **Action**                         | **Lowest RFQ header status** | **Highest RFQ header status**                   | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Ação**                         | **Status mais baixo de cabeçalho de RFQ ** | **Status mais alto de cabeçalho de RFQ **                   | **Status mais baixo de linha de RFQ ** | **Status mais alto de linha de RFQ ** |
 | Crie o cabeçalho da RFQ e alinhe-o.    | Criada em                      | Criada em                                         | Criada em                    | Criada em                     |
 | Envie a RFQ para um fornecedor específico. | Enviada                         | Enviada                                            | Enviada                       | Enviada                        |
 | Adicione outro fornecedor.                | Criada em                      | Enviada (a RFQ foi enviada a apenas um fornecedor). | Criado em                    | Enviada                        |
@@ -146,7 +149,7 @@ Se um questionário estiver anexado ao caso de RFQ, você deverá inserir manual
 
 Se você tiver que inserir linhas alternativas, e o exemplo de RFQ permitir isso, na Guia Rápida **Linhas de cotação de compra**, clique em **Adicionar linha**. Em seguida, insira informações sobre o produto, como o número do item ou a categoria de compras, quantidade, preço e desconto.  
 
-Se você inseriu uma resposta mas requer uma nova oferta de fornecedor, você pode reenviar a cotação. Isso gera um novo diário e relatar-o-&z utilizada para solicitar alterações de fornecedor.  
+Se você inseriu uma resposta mas requer uma nova oferta de fornecedor, você pode reenviar a cotação. Isso irá gerar um novo diário e relatório que você pode usar para solicitar alterações do fornecedor.  
 
 Você pode ver uma visão geral de todas as RFQs e seus status de resposta na página **Acompanhamento da solicitação de cotação**.  
 
@@ -154,7 +157,7 @@ A tabela a seguir mostra como o status da RFQ é alterado, conforme você recebe
 
 |                                                |                       |                        |                              |                               |                            |                             |
 |------------------------------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**                                     | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Ação**                                     | **Status mais baixo da oferta ** | **Status mais alto da oferta ** | **Status mais baixo de cabeçalho de RFQ ** | **Status mais alto de cabeçalho de RFQ ** | **Status mais baixo de linha de RFQ ** | **Status mais alto de linha de RFQ ** |
 | Registre a oferta de um fornecedor e a salve.        | Enviada                  | Recebido               | Enviada                         | Recebido                      | Enviada                       | Recebido                    |
 | Registre a segunda oferta de um fornecedor e a salve. | Recebido              | Recebido               | Recebido                     | Recebido                      | Recebido                   | Recebido                    |
 
@@ -183,9 +186,11 @@ A tabela a seguir mostra como o status de RFQ é alterado, à medida que você a
 
 |                         |                       |                        |                              |                               |                            |                             |
 |-------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Action**              | **Lowest bid status** | **Highest bid status** | **Lowest RFQ header status** | **Highest RFQ header status** | **Lowest RFQ line status** | **Highest RFQ line status** |
+| **Ação**              | **Status mais baixo da oferta ** | **Status mais alto da oferta ** | **Status mais baixo de cabeçalho de RFQ ** | **Status mais alto de cabeçalho de RFQ ** | **Status mais baixo de linha de RFQ ** | **Status mais alto de linha de RFQ ** |
 | Aceite uma das ofertas. | Recebido              | Aceito               | Recebido                     | Aceito                      | Recebido                   | Aceito                    |
 | Rejeite as outras ofertas.  | Rejeitada              | Aceito               | Rejeitada                     | Aceito                      | Rejeitada                   | Aceito                    |
+
+
 
 
 

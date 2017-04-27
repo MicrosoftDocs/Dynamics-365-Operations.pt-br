@@ -1,5 +1,5 @@
 ---
-title: Liquidar um pagamento parcial de cliente e do pagamento final antes da data do desconto
+title: Liquidar um pagamento parcial de cliente e liquidar o pagamento final em sua totalidade antes da data do desconto
 description: "Este artigo oferece os cenários que mostram como registrar pagamentos parciais para um cliente e executar descontos à vista no período de desconto à vista."
 author: twheeloc
 manager: AnnBe
@@ -26,14 +26,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidar um pagamento parcial de cliente e do pagamento final antes da data do desconto
+# <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidar um pagamento parcial de cliente e liquidar o pagamento final em sua totalidade antes da data do desconto
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo oferece os cenários que mostram como registrar pagamentos parciais para um cliente e executar descontos à vista no período de desconto à vista.
 
-Fabrikam vende mercadorias para o cliente 4028. Fabrikam oferece um desconto à vista de 1 por cento se a fatura é pago em 14 dias. As faturas devem ser pagas em 30 dias. A Fabrikam também oferece descontos à vista para pagamentos parciais. Parâmetros de pagamento estão localizados ** parâmetros de contas a receber ** na página.
+A Fabrikam vende produtos para o cliente 4028. Oferece um desconto à vista de 1 por cento se a fatura for paga em 14 dias. As faturas devem ser pagas em 30 dias. A Fabrikam também oferece descontos à vista para pagamentos parciais. Os parâmetros de pagamento estão localizados na página **Parâmetros de contas a receber**.
 
 ## <a name="customer-invoice"></a>Fatura de cliente
-O 25 de junho, Arnie insere e lança uma nota fiscal para 1,000.00 para o cliente 4028. Alberto pode exibir esta transação na página** Transações do cliente**.
+Em 25 de junho, Amanda insere e lança uma fatura de 1.000,00 para o cliente 4028. Alberto pode exibir esta transação na página** Transações do cliente**.
 
 | Comprovante   | Tipo de transação | Data      | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo  | Moeda |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -63,14 +66,14 @@ Alberto clica na guia **Desconto à vista** para exibir o valor do desconto.
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
 ## <a name="partial-payment-by-using-the-enter-customer-payments-page"></a>Pagamento parcial usando a página Inserir pagamentos do cliente
-O cliente 4028 enviar um pagamento de 500.00 o 1º de julho. Para inserir o pagamento, Arnie não clica ** ** linhas. Em vez disso, ele registra o pagamento criando um novo diário de pagamentos e depois abre a página **Inserir pagamentos de clientes**. Ele insere as informações de pagamento e marca a fatura inserida. Quando Alberto insere **500,00** como o valor, também insere **500,00** no campo **Valor a ser pago** na grade. Como a Fabrikam permite um desconto à vista em pagamentos parciais, ele vê que um desconto à vista parcial de 5,.05 também será obtido. O cálculo desse desconto é 500,00 ÷ 0,99 × 0,01 = 5,05. (Nesse cálculo, 500,00 é dividido por 0,99, porque há um desconto de 1%. Consequentemente, o cliente paga 99% da fatura. O resultado é então multiplicado pela porcentagem de desconto, que é de 1%, ou 0,01. Se o cliente assume o desconto total de 10.00, o valor que deve ser liquidado será 990.00.) Informações de desconto exibida na grade na parte inferior ** inserir pagamentos de clientes ** de página.
+O cliente 4028 envia um pagamento de 500,00 o 1 de julho. Para inserir o pagamento, Arnie não clica em **Linhas**. Em vez disso, ele registra o pagamento criando um novo diário de pagamentos e depois abre a página **Inserir pagamentos de clientes**. Ele insere as informações de pagamento e marca a fatura inserida. Quando Alberto insere **500,00** como o valor, também insere **500,00** no campo **Valor a ser pago** na grade. Como a Fabrikam permite um desconto à vista em pagamentos parciais, ele vê que um desconto à vista parcial de 5,.05 também será obtido. O cálculo desse desconto é 500,00 ÷ 0,99 × 0,01 = 5,05. (Nesse cálculo, 500,00 é dividido por 0,99, porque há um desconto de 1%. Consequentemente, o cliente paga 99% da fatura. O resultado é então multiplicado pela porcentagem de desconto, que é de 1%, ou 0,01. Se o cliente receber o desconto total de 10,00, o montante que deve ser liquidado será de 990,00.) Informações de desconto aparece na grade na parte inferior da página **Inserir pagamentos de cliente**.
 
 | Valor do desconto à vista a ser obtido | Desconto à vista obtido | Valor a ser pago |
 |------------------------------|---------------------|---------------|
 | 5,05                         | 0,00                | 500,00        |
 
 ## <a name="partial-payment-by-using-the-journal-lines"></a>Pagamento parcial usando as linhas do diário
-Em vez de abrir a página **Inserir pagamentos de clientes** no diário de pagamento, Alberto poderá clicar em **Linhas** para inserir um pagamento. O diário de pagamento é exibida, em Arnie pode inserir uma linha para o cliente 4028. Arnie então abre a página **Liquidar transações**, dessa forma, ele pode marcar a fatura para liquidação. Alberto marca a fatura e altera o valor do campo **Valor a ser liquidado** para **500,00**. Novamente, ele vê que o valor do campo **Valor do desconto à vista** é **10,00** para a fatura total e que o valor do campo **Valor do desconto a vista a ser obtido** é **5,05**. Consequentemente, Arnie está liquidando 505,05 desta fatura.
+Em vez de abrir a página **Inserir pagamentos de clientes** no diário de pagamento, Alberto poderá clicar em **Linhas** para inserir um pagamento. O diário de pagamento é exibido, onde Arnie pode inserir uma linha para o cliente 4028. Arnie então abre a página **Liquidar transações**, dessa forma, ele pode marcar a fatura para liquidação. Alberto marca a fatura e altera o valor do campo **Valor a ser liquidado** para **500,00**. Novamente, ele vê que o valor do campo **Valor do desconto à vista** é **10,00** para a fatura total e que o valor do campo **Valor do desconto a vista a ser obtido** é **5,05**. Consequentemente, Arnie está liquidando 505,05 desta fatura.
 
 | Marcar     | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
@@ -143,6 +146,8 @@ Alberto lança esse diário e analisa e as transações do cliente na página **
 | DISC-10010 | Desconto à vista    | 01/07/2015  |         |                                      | 5,00                                  | 0,00    | USD      |
 | ARP-10011  | Pagamento          | 8/7/2015  |         |                                      | 495,00                                | 0,00    | USD      |
 | DISC-10011 | Desconto à vista    | 8/7/2015  |         |                                      | 5,00                                  | 0,00    | USD      |
+
+
 
 
 

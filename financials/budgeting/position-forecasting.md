@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="position-forecasting"></a>Previsão de posição
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 As despesas relacionadas a trabalhadores costumam constituir uma grande proporção dos custos de uma organização. A previsão de posição permite planejar as despesas e incluí-las no planejamento de orçamentos.
 
 ## <a name="position-forecasting-in-budget-planning"></a>Previsão de posição no planejamento de orçamento
 
-[parte superior do gráfico do![(]. /media/graphic-top.png)](. /media/graphic-top.png) 
+[![Parte superior do gráfico](./media/graphic-top.png)](./media/graphic-top.png) 
 
-A posição de previsão usa três componentes principais para fornecer valores exatos de orçamento para despesas de posição. Esses valores podem ser trazidos para um plano de orçamento para cálculos de orçamento. 
+A previsão de posição usa três componentes principais para fornecer valores de orçamento exatos para despesas de posições. Esses valores podem ser trazidos para um plano de orçamento para cálculos de orçamento. 
 
 O componente principal é a **posição de previsão**, que representa todos os dados de custo relacionados a uma única posição. Você pode criar várias versões de uma posição de previsão ao atribuir um cenário diferente do plano de orçamento para cada versão. Várias versões permitem uma abordagem iterativa para orçamentos e permitem comparar cenários de teste de hipóteses. Cada posição de previsão tem uma posição correspondente em Recursos Humanos.
 
@@ -45,14 +48,14 @@ Um **grupo de remuneração** é um componente de configuração opcional que é
 
 ### <a name="position-forecasting-processes"></a>Processos de previsão de posição
 
-[![(graphic1b]. /media/graphic1b.png)](. /media/graphic1b.png) 
+[![graphic1b](./media/graphic1b.png)](./media/graphic1b.png) 
 
-Em um processo típico da previsão da posição, crie primeiro os componentes de instalação (elementos de custo previsto de orçamento e os grupos de remuneração). As posições de previsão são geradas com base em posições existentes. É possível fazer ajustes. Por exemplo, você pode adicionar ou finalizar posições, mudar taxas de pagamento e custos de benefício, e adicionar aumentos de salário. Você pode criar várias versões de uma posição de previsão para facilitar comparações entre diferentes cenários de orçamento. Em seguida, você pode incluir as posições de previsão em planos de orçamento e incluir os custos das posições de previsão como linhas do plano de orçamento.
+Em um processo típico de previsão da posição, crie primeiro os componentes de configuração (elementos de custo de orçamento e grupos de remuneração). As posições de previsão são geradas com base em posições existentes. É possível fazer ajustes. Por exemplo, você pode adicionar ou finalizar posições, mudar taxas de pagamento e custos de benefício, e adicionar aumentos de salário. Você pode criar várias versões de uma posição de previsão para facilitar comparações entre diferentes cenários de orçamento. Em seguida, você pode incluir as posições de previsão em planos de orçamento e incluir os custos das posições de previsão como linhas do plano de orçamento.
 
 Você pode criar versões adicionais da posição de previsão à medida que planos de orçamento são revisados. Essas novas versões fornecem a base das revisões.
 
 ## <a name="position-forecasting-setup"></a>Configuração da previsão de posição
-[![(graphic2]. /media/graphic2-1024x327.png)](. /media/graphic2.png)
+[![graphic2](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>Elementos de custo do orçamento
 
@@ -64,9 +67,9 @@ O cálculo do valor de custo do elemento de custo de orçamento usa datas efetiv
 
 Se o elemento de custo se baseia em uma porcentagem, você deve especificar os elementos de custo de orçamento usados como a base do cálculo.
 
-**Example** 
+**Exemplo** 
 
-A organização de Jodi apresentar uma bonificação de treinamento 5 do salário base de um funcionário. Jodi deseja criar um elemento de custo de orçamento para esse custo. Ela cria um novo elemento de custo de orçamento e atribui o tipo de custo de orçamento **Benefício**.
+A organização de Jodi oferece uma bonificação de treinamento de 5% do pagamento base de um funcionário. Jodi deseja criar um elemento de custo de orçamento para esse custo. Ela cria um novo elemento de custo de orçamento e atribui o tipo de custo de orçamento **Benefício**.
 
 Jodi não quer que os gerentes mudem o valor do benefício. Então, ela seleciona **Não permitir alterações de custo** no campo **Substituição da previsão de posição**. A organização deseja que esse custo seja atribuído uniformemente a cada mês. Então, a Jodi seleciona **Trimestral** no campo **Método de alocação**. 
 
@@ -82,18 +85,18 @@ Uma função básica de grupos de remuneração é atribuir um conjunto de eleme
 
 Os grupos de remuneração também podem determinar as taxas de ganhos para uma posição de previsão. Você configura um grupo para usar com base no salário por hora ou por ano para calcular os ganhos da posição de previsão. Na guia **Tabelas de taxa de remuneração**, uma grade de compensação de taxas de pagamento determina os ganhos que são adicionados a uma posição de previsão, com base em nível e etapa atribuídos. Essas grades podem ser baseadas em grades de remuneração existentes em Recursos Humanos. Como alternativa, você pode criar novas grades de remuneração para o planejamento de orçamento. 
 
-As datas efetivas e as datas de vencimento nas tabelas de taxa de remuneração permitem alterar as taxas de pagamento em qualquer data. Este recurso é útil quando uma unidade de negociação negocia um aumento global em um ciclo orçamentário. Nesse caso, você alterar a data de vencimento de tabela existente ao dia antes da data de alteração de taxa e adicionar uma nova tabela de taxa que comece na nova data. Quando você criar uma nova tabela de taxa, se selecionar ** criar uma nova grade de remuneração existente de uma grade **, selecionar uma tabela existente de taxa de recursos humanos. Na tabela de taxa que é criada, a opção **Alteração em Massa** permite aplicar uma porcentagem ou um aumento/redução de valor fixo a todas as taxas da grade. 
+As datas efetivas e as datas de vencimento nas tabelas de taxa de remuneração permitem alterar as taxas de pagamento em qualquer data. Este recurso é útil quando uma unidade de negociação negocia um aumento global em um ciclo orçamentário. Nesse caso, você altera a data de vencimento da tabela existente do dia antes da data de alteração de taxa e adiciona uma nova tabela de taxa que comece na nova data. Quando você cria uma nova tabela de taxa, se selecionar **Criar uma nova grade de remuneração a partir de uma grade existente**, você pode selecionar uma tabela existente de taxa de recursos humanos. Na tabela de taxa que é criada, a opção **Alteração em Massa** permite aplicar uma porcentagem ou um aumento/redução de valor fixo a todas as taxas da grade. 
 
 Os campos **Agenda de aumentos** e **Data do aumento** no grupo de remuneração são usados quando você precisa criar aumentos de pagamento pois as posições passam de uma etapa à seguinte. Um aumento de pagamento anual é um cenário típico. A agenda de aumentos determina se a data de aniversário de posições ou uma única data comum é usada para o aumento da etapa. A agenda de aumentos se aplica a todas as previsões de posições no grupo de remuneração. 
 
 O elemento de custo de ganho selecionado no grupo de remuneração é usado quando você cria os ganhos para as previsões de posições no grupo, incluindo o pagamento base e todos os aumentos de etapa. O campo **Plano de remuneração fixa** vincula o grupo de remuneração a um plano de remuneração fixa em Recursos humanos. Esse link pode atribuir as informações de remuneração fixa de um trabalhador a uma previsão de posição, e pode tornar o planejamento de orçamento mais preciso. Lembre-se de que a estrutura da grade de compensação (os níveis e as etapas) para o grupo de remuneração deve corresponder à estrutura do plano de remuneração fixa. Caso contrário, o sistema não pode vincular corretamente o grupo de remuneração e o plano de remuneração fixa.
 
 ## <a name="creating-forecast-positions"></a>Como criar previsões de posições
-[![(graphic3]. /media/graphic3-1024x327.png)](. /media/graphic3.png)
+[![graphic3](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Como criar previsões de posições para posições existentes
 
-O planejamento para o mais exato de orçamento, você pode criar posições de previsão com detalhes posições existentes no Microsoft Dynamics 365 para operações, independentemente da posição for preenchida preenchida atualmente ou não. 
+Para obter o planejamento de orçamento mais preciso, você pode criar previsões de posições usando detalhes das posições existentes no Microsoft Dynamics 365 for Operations, esteja a posição preenchida ou não no momento. 
 
 A função **Adicionar posições existentes** exibe todas as posições para uma organização. Ao definir a data **A partir de**, você pode mudar a lista de posições para que ela contenha as posições que existiam em uma data anterior ou posterior, que é mais comum (por exemplo, o início do próximo ciclo orçamentário). Selecione um cenário de processamento de planejamento e de plano do orçamento, selecione posições na lista e clique em **OK** para criar previsões de posições para as posições selecionadas. Observe que você pode criar apenas uma previsão de posição para cada posição existente em cenário de processamento de planejamento de orçamento. No entanto, você pode criar versões adicionais, atribuindo cenários diferentes do plano de orçamento. 
 
@@ -105,9 +108,9 @@ Quando a opção **Atribuir um grupo de remuneração** está definida como **Si
 
 A configuração da opção **Atribua um grupo de remuneração** tem precedência sobre a configuração **Atribuição do elemento de custo de orçamento**. As duas configurações podem ser usadas ao mesmo tempo. 
 
-[![(graphic4]. /media/graphic4.png)](. /media/graphic4.png) 
+[![graphic4](./media/graphic4.png)](./media/graphic4.png) 
 
-Outra opção for atribuir uma data de aniversário. A data selecionada (data inicial ajustada, data inicial do trabalhador, data inicial de emprego ou data de tempo de serviço) do trabalhador atribuído está definida como a data de aniversário da previsão de posição, e é usada para informações e quando aumentos de pagamento são gerados.
+Outra opção é atribuir uma data de aniversário. A data selecionada (data inicial ajustada, data inicial do trabalhador, data inicial de emprego ou data de tempo de serviço) do trabalhador atribuído está definida como a data de aniversário da previsão de posição, e é usada para informações e quando aumentos de pagamento são gerados.
 
 ### <a name="creating-new-forecast-positions"></a>Como criar novas previsões de posições
 
@@ -118,7 +121,7 @@ Quando uma previsão de posição for selecionada, selecione **Copiar a previsã
 Você também pode criar uma previsão de posição totalmente nova. Selecione um trabalho existente, e também o cenário de processamento de planejamento do orçamento e de plano de orçamento. Você pode adicionar outros detalhes a serem adicionados. Mais uma vez, uma nova posição é criada em Recursos humanos ao mesmo tempo.
 
 ## <a name="working-with-forecast-positions"></a>Trabalho com previsões de posições
-[![(graphic5]. /media/graphic5-1024x327.png)](. /media/graphic5.png)
+[![graphic5](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Várias versões de uma previsão de posição
 
@@ -138,9 +141,9 @@ Por exemplo, uma linha do elemento de custo de orçamento desde 1º de janeiro d
 
 As linhas de elementos de custo de orçamento devem ser recalculadas quando o valor FTE é alterado na previsão de posição. As linhas também devem ser recalculadas quando as datas de ativação ou s datas de aposentadoria são modificadas. As alterações nessas datas podem causar uma atualização das datas inicial e final do elemento de custo de orçamento, que devem estar no intervalo de datas da previsão de posição. Quando é necessário um recálculo, o botão **Recalcular** fica disponível e a mensagem “Requer cálculo” é exibida. O recálculo é necessário também se você adiciona ou remove um elemento de custo de orçamento.
 
-**Example** 
+**Exemplo** 
 
-A organização estiver considerando duas opções para reduzir os custos de uma posição do contador. Uma opção é encerrar a parte da posição até o final do ano. A outra opção é alterar a posição para metade do ano inteiro. Brad criou uma previsão de posição para a posição de contador existente em um cenário da linha de base. Ele copia esta previsão de posição da linha de base no cenário A, define a data de aposentadoria como 31 de maio e recalcula. Brad copia a previsão de posição da linha de base no cenário B, altera o valor de FTE para **0,50** e recalcula. Agora Brad tem três versões, cada qual com o total de custo alinhado com suas opções.
+A organização está considerando duas opções para reduzir o custo de uma posição de contador. Uma opção é encerrar a parte da posição até o final do ano. A outra opção é alterar a posição para metade do ano inteiro. Brad criou uma previsão de posição para a posição de contador existente em um cenário da linha de base. Ele copia esta previsão de posição da linha de base no cenário A, define a data de aposentadoria como 31 de maio e recalcula. Brad copia a previsão de posição da linha de base no cenário B, altera o valor de FTE para **0,50** e recalcula. Agora Brad tem três versões, cada qual com o total de custo alinhado com suas opções.
 
 #### <a name="assigning-a-compensation-group"></a>Atribuição de um grupo de remuneração
 
@@ -160,9 +163,9 @@ Se você clicar em **Gerar aumentos** uma segunda vez, o processo será executad
 
 As atualizações para previsão de posições também ocorrem em outras áreas, como o elemento de custo de orçamento e as páginas de configuração do grupo de remuneração. Você também pode modificar as previsões de posições usando o processo de atualização em massa. 
 
-Duas opções estarão disponíveis ** de orçamento o elemento de custo previsto ** na página de configuração: ** Adicionar cargos e posições ** ** ** de atualização. A opção **Adicionar a posições** adiciona o elemento de custo de orçamento às previsões de posições selecionadas. Se o elemento já estiver atribuído a uma previsão de posição, essa previsão de posição será ignorada. A opção **Atualizar posições** aplica os valores atuais (a conta principal, a porcentagem, o valor anual e assim por diante) nas previsões de posições selecionadas. 
+Há duas opções disponíveis na página de configuração **Elemento de custo de orçamento**: **Adicionar a posições** e **Atualizar posições**. A opção **Adicionar a posições** adiciona o elemento de custo de orçamento às previsões de posições selecionadas. Se o elemento já estiver atribuído a uma previsão de posição, essa previsão de posição será ignorada. A opção **Atualizar posições** aplica os valores atuais (a conta principal, a porcentagem, o valor anual e assim por diante) nas previsões de posições selecionadas. 
 
-Cada processo tem uma página semelhante onde você pode selecionar previsões de posições. A página **Adicionar a posições** mostra todas as previsões de posições disponíveis para seleção, enquanto a página **Atualizar posições** mostra apenas as previsões de posições que já têm o elemento de custo de orçamento atribuído. ** (Portanto, posições de atualização ** o página lhe fornece uma maneira de atender que previsse posições já tem o elemento de custo previsto associado.) Mover posições de previsão de uma grade superior à grade inferior inclui-las na atualização. 
+Cada processo tem uma página semelhante onde você pode selecionar previsões de posições. A página **Adicionar a posições** mostra todas as previsões de posições disponíveis para seleção, enquanto a página **Atualizar posições** mostra apenas as previsões de posições que já têm o elemento de custo de orçamento atribuído. (Portanto, a página **Atualizar posições** oferece uma forma de encontrar quais posições de previsão já têm o elemento de custo vinculado.) Você move as posições de previsão de uma grade superior a uma inferior para incluí-las na atualização. 
 
 Observe que a função **Alterar datas** na guia **Cálculo de custo** altera imediatamente as datas inicial e final do elemento de custo de orçamento nas previsões de posições. Nenhuma opção de seleção está disponível. 
 
@@ -174,9 +177,9 @@ O processo de recálculo é usado automaticamente em qualquer previsão de posi�
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Como trazer previsões de posições para planos de orçamento
 
-[![(graphic6]. /media/graphic6-1024x327.png)](. /media/graphic6.png)
+[![graphic6](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
-A finalidade de criar e modificar de posições de previsão é adicionar-las a planos de orçamento, para que planos de orçamento serão incluídas os valores de orçamento os mais precisos. Há dois métodos para adicionar previsões de posições a planos de orçamento. Você pode usar um processo de geração ou um processo de seleção no plano de orçamento.
+A finalidade de criar e modificar previsões de posições é adicioná-las a planos de orçamento, de modo que esses planos incluam os valores de orçamento mais precisos. Há dois métodos para adicionar previsões de posições a planos de orçamento. Você pode usar um processo de geração ou um processo de seleção no plano de orçamento.
 
 ### <a name="generating-a-budget-plan-from-forecast-positions"></a>Como gerar um plano de orçamento a partir de previsões de posições
 
@@ -215,5 +218,7 @@ Para o processo de geração e o processo de seleção, a data inicial na linha 
 As linhas do plano de orçamento mostram a origem dos valores de orçamento (o número da previsão de posição), mas não estão vinculadas. Portanto, as alterações na previsão de posição não são mostradas na linha do plano de orçamento, e as alterações na linha do plano de orçamento são mostradas na previsão de posição. Se você alterar uma previsão de posição e desejar que as atualizações sejam incluídas em um plano de orçamento, traga a previsão de posição para o plano novamente. No entanto, lembre-se de que esse processo remove todas as linhas onde essa previsão de posição é atribuída. Consequentemente, quaisquer alterações feitas nessas linhas são removidas. 
 
 Para ver em que planos de orçamento uma previsão de posição foi incluída, você pode gerar o relatório **Previsão de posições por plano de orçamento**. Como alternativa, na previsão de posição, você pode abrir o Quadro de Fatos **Planos de orçamento associados** para exibir os planos.
+
+
 
 

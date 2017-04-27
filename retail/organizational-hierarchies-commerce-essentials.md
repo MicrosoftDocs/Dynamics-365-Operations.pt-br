@@ -1,6 +1,6 @@
 ---
-title: "Organizações e hierarquias organizacionais (fundamentos de comércio)"
-description: "Fundamentos os de comércio têm três tipos de organizações internas que você pode definir para ajudar uma organização a atingir um processo comercial ou a atingir uma meta."
+title: "Organizações e hierarquias da organização (fundamentos de comércio)"
+description: "Os fundamentos do comércio têm três tipos de organizações internas que você pode definir para ajudar uma organização a atingir um processo comercial ou a atingir uma meta."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 21251
 ms.assetid: 2bfc6bfe-784b-42e8-8bf0-116e9f0a558e
 ms.search.region: global
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organizações e hierarquias organizacionais (fundamentos de comércio)
+# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>Organizações e hierarquias da organização (fundamentos de comércio)
 
-Fundamentos os de comércio têm três tipos de organizações internas que você pode definir para ajudar uma organização a atingir um processo comercial ou a atingir uma meta. 
+[!include[banner](includes/banner.md)]
+
+
+Os fundamentos do comércio têm três tipos de organizações internas que você pode definir para ajudar uma organização a atingir um processo comercial ou a atingir uma meta. 
 
 Uma organização é um grupo da pessoas que trabalha em conjunto para realizar um processo comercial ou para atingir uma meta. Uma hierarquia organizacional representa os relacionamentos entre as unidades de negócios que compõem sua organização.
 
@@ -68,6 +71,8 @@ A tabela a seguir descreve os cenários de Fundamentos comerciais em que as hier
 | Gerenciar o reabastecimento de varejo                                                    | Agrupar as lojas para reabastecer o estoque com base nas regras de reabastecimento.                                                                                                                                                                                                                                          | Reabastecimento de varejo |
 | Relatar dados para as lojas                                                         | Agrupar lojas para a geração de relatórios.                                                                                                                                                                                                                                                                                | Relatório de varejo     |
 | Lançar estoque, calcular demonstrativos, ou lançar demonstrativos para um grupo de lojas | Criar um grupo de lojas que podem ser atribuídas a um trabalho em lotes. Ao definir um trabalho em lotes para lançar estoque, calcular demonstrativos, ou lançar demonstrativos, é possível especificar a hierarquia à qual o trabalho se aplica. Quando as lojas são adicionados ou removidos da hierarquia, não é necessário alterar o trabalho em lotes. | Lançamento do Retail POS   |
+
+
 
 
 

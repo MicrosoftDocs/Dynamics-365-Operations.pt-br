@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manage-warehouse-workers"></a>Gerenciar trabalhadores do depósito
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve como você pode usar o Microsoft Dynamics AX para controlar e monitorar o trabalho realizado por funcionários em seus depósitos.
 
 Se você estiver usando a funcionalidade no Gerenciamento de depósito, todas as operações do trabalhador do depósito serão referenciadas como *trabalho*. Trabalhos como separação, movimentação e contagem de estoque disponível são registrados por meio de dispositivos móveis. Para que um trabalhador do depósito possa executar um trabalho, ele deve estar associado a um trabalhador do departamento de recursos humanos. Cada conta de **Trabalhador** pode ter vários usuários de trabalho de depósito associados a ela. Esses usuários podem trabalhar em depósitos diferentes e podem ter diferentes níveis de acesso aos vários menus de dispositivos móveis. Considere os usuários de trabalho de depósito como vários logons do trabalhador selecionado. Cada usuário de trabalho tem um depósito padrão; e os fluxos de trabalho específicos são expostos pelos itens de menus que estão disponíveis para esse usuário de trabalho. 
@@ -51,6 +54,8 @@ A análise do tempo utilizado para processar itens de trabalho pode ajudar a mel
 
 -   **Mão de obra por usuário** – Este relatório mostra a produtividade do trabalhador com base no tempo real em comparação com o tempo previsto.
 -   **Mão de obra por tipo de transação de trabalho** – Você pode usar este relatório para investigar ineficiências em processos específicos do depósito. Por exemplo, você observa que as separações de ordens de transferência estão demorando mais nesta semana do que nas semanas anteriores. Você então pode usar essas informações para futuras investigações.
+
+
 
 
 

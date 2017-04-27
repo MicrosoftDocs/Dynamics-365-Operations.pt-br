@@ -46,7 +46,7 @@ Na página **Projetos de contratação em massa**, selecione o projeto "SummerIn
 
 Depois de selecionar estudantes para contratá-los para posições de estágio, insira as informações de cada um nos **Detalhes da posição** para a posição para os quais eles estão sendo contratados. Depois de inserir todos os detalhes da posição, selecione a posição na página Projetos de contratação em massa e clique em **Contratar**. Um registro de posições será criado para cada cargo e um registro de funcionário será criado e o atribuiu a posição correta para cada pessoa que você contrata.
 
-## <a name="masshire-project-statuses"></a>Status do projeto de Masshire
+## <a name="masshire-project-statuses"></a>Status do projeto de contratação em massa
 um projeto de contratação em massa pode ter os seguintes status.
 -   Criado em
 -   Abertas

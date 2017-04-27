@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Contas de lançamento de aquisição de ativo fixo
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo explica como configurar a contabilidade para lançar a aquisição de ativos.
 
 As contas usadas para lançamento de aquisições de ativo fixo podem variar dependendo do método usado para a aquisição do ativo. Na página Perfis de lançamentos de ativo fixo, na guia Contas contábeis, selecione Aquisição e Ajuste de aquisição para configurar as contas de ativo fixo para lançamento no razão. 
@@ -40,6 +43,8 @@ Quando Diário de fatura ou Ordens de compra em Contas a pagar são usados para 
 
 Para aquisições lançadas usando o Diário de estoque para ativos fixos em Contabilidade, o ativo fixo não será trazido de origens externas, mas transferido do estoque da própria empresa. Assim, a contrapartida é uma conta de saída de estoque para o item de estoque em Gerenciamento de estoque.
 
-Para obter mais informações, consulte [adquirir ativos com compras] acquire-assets-procurement.md ().
+Para obter mais informações, consulte [Adquirir ativos por meio de compras](acquire-assets-procurement.md).
+
+
 
 

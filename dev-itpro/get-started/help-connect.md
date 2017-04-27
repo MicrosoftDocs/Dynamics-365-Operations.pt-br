@@ -28,18 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="connect-the-help-system"></a>Conectar o sistema de Ajuda
 
-Este tópico descreve os componentes do sistema de ajuda do Microsoft Dynamics 365 para as operações. Fornece uma visão geral de como conectar esses componentes e um resumo como criar a ajuda personalizado. 
+Este tópico descreve os componentes do sistema de Ajuda do Microsoft Dynamics 365 for Operations. Ele fornece uma visão geral de como conectar esses componentes e um resumo de como criar a ajuda personalizada. 
 
 <a name="help-architecture"></a>Arquitetura de ajuda
 -----------------
 
-A ilustração a seguir mostra as partes do 365 para o sistema de ajuda de operações. O sistema de ajuda de produto de artigos recebe dynamics 365 para o site de operações em https://docs.microsoft.com, bem como a tarefa guia armazenado no Modelador de processo de negócios em serviços (LCS) do ciclo de vida. 
-** Observação: ** Recursos relacionados no diagrama a um asterisco (\*) são planejadas, mas ainda não estão disponíveis. [![Help architecture](./media/help-architecture.png)](./media/help-architecture.png)
+A ilustração a seguir mostra as partes do sistema de Ajuda do Microsoft Dynamics 365 for Operations. O sistema de Ajuda do produto traz artigos do site do Dynamics 365 for Operations em https://docs.microsoft.com, bem como guias de tarefa armazenados no Business Process Modeler no Lifecycle Services (LCS). 
+**Observação:** Os recursos listados no diagrama com um asterisco (\*) estão planejados, mas ainda não estão disponíveis. [![Arquitetura de ajuda](./media/help-architecture.png)](./media/help-architecture.png)
 
-## <a name="connecting-the-help-system"></a>Conectando o sistema de ajuda
-Usando ** parâmetros de sistema ** a página, os administradores de sistema conectam partes do sistema de ajuda para uma implementação. [os parâmetros do sistema![com as configurações da ajuda (]. /media/system-parameters_ops-1024x437.png)](. /media/system-parameters_ops.png) ** ** Parâmetros do sistema na página, acompanham estas etapas:
+## <a name="connecting-the-help-system"></a>Conectando o sistema de Ajuda
+Usando a página de **Parâmetros do Sistema**, os administradores de sistema conectam as partes do sistema de Ajuda para uma implementação. [![Formulário de parâmetros do sistema com configurações de ajuda](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Na página **Parâmetros do sistema**, siga estas etapas:
 
-1.  ** Importante: ** A primeira vez que você abre ** ajuda ** o guia, é necessário conectar serviços do ciclo de vida. Verifique no link no meio do formulário, a conexão espere, feche a caixa de diálogo, clique em OK ** ** para obter ** ** parâmetros do sistema para a página. [! Conectar-se a LCS []. (/media/connect-to-lcs-crop-1024x365.png “Conectam a LCS”)](. /media/connect-to-lcs-crop.png)
+1.  **Importante:** A primeira vez que você abrir a guia da **Ajuda**, é necessário conectar serviços do ciclo de vida. Certifique-se de clicar no link no meio do formulário, aguarda a conexão, feche a caixa de diálogo e, em seguida, clique em **OK** para ir para a página **Parâmetros do Sistema**.[![Conectar-se ao LCS](./media/connect-to-lcs-crop-1024x365.png "Conectar-se ao LCS")](./media/connect-to-lcs-crop.png)
 2.  Selecione o projeto do Lifecycle Services para se conectar.
 3.  Selecione as bibliotecas do BPM (dentro do projeto selecionado) para recuperar gravações de tarefas delas.
 4.  Defina a ordem de exibição das bibliotecas do BPM. Isso determina a ordem em que as gravações de tarefas das bibliotecas irão aparecer no painel de **Ajuda**.
@@ -48,23 +48,23 @@ Após completar essas etapas, você pode abrir o painel de **Ajuda** e clicar na
 
 ### <a name="showing-translated-task-guides"></a>Exibindo guias de tarefa traduzidos
 
-As guias da tarefa foram enviados principalmente na biblioteca APQC unificada de maio de 2016 e, na biblioteca de Guia de saída. No Microsoft Dynamics 365 for Operations, para ver a ajuda da guia de tarefas localizadas, certifique-se de que você está conectado à biblioteca de maio. O idioma que uma guia de tarefas é controlado em aparece para cada usuário por configurações de idioma em opções ** ** &gt; ** preferências **. **Observação:** Embora muitos guias de tarefa tem sido traduzidos, agora o cliente Dynamics 365 for Operations não está mostrando os nomes de guia tarefa traduzidos. Além disso, somente guias de tarefa que foram liberados em fevereiro de 2016 disponíveis na conversão na biblioteca de maio. Lançaremos uma biblioteca atualizada com traduções adicionais.
+Guias de tarefa traduzidas foram fornecidas primeiro na Biblioteca Unificada de APQC de maio de 2016, e na biblioteca Introdução. No Microsoft Dynamics 365 for Operations, para ver a ajuda da guia de tarefas localizadas, certifique-se de que você está conectado à biblioteca de maio. O idioma que aparece em uma guia de tarefas é controlado para cada usuário pelas configurações de Idioma em **Opções** &gt; **Preferências**. **Observação:** Embora muitos guias de tarefa tem sido traduzidos, agora o cliente Dynamics 365 for Operations não está mostrando os nomes de guia tarefa traduzidos. Além disso, somente as guias de tarefas que foram lançadas em fevereiro de 2016 estão disponíveis em tradução na biblioteca de maio. Lançaremos uma biblioteca atualizada com traduções adicionais.
 
 -   Se uma guia de tarefa foi traduzida, quando você abrir esse guia de tarefa, todo o texto do guia de tarefa será exibido no idioma selecionado.
 -   Se uma guia de tarefa ainda não foi traduzida, quando você abrir esse guia de tarefa, apenas umas partes do texto (o texto dos controles) aparecerá em seu idioma selecionado.
 
 ## <a name="creating-custom-help"></a>Criando ajuda personalizada
-Você pode criar ajuda personalizada para sua implementação do Dynamics 365 for Operations criando registros de tarefa que refletem sua implementação, e salvando-os em uma biblioteca de processo comercial de LCS. Para parceiros, se você promover uma biblioteca como sendo uma biblioteca corporativa, e incluí-la em uma solução, ela estará disponível para os clientes. Você também pode fazer uma cópia da biblioteca global unificada de APQC e, em seguida, abrir a cópia, abrir os registros de tarefa a partir dela, modificá-los, e salvar os registros com suas alterações. Para obter mais informações, consulte [como criar uma tarefa que registros para usar como documentação ou que treina (]. /user-interface/task-recorder.md).
+Você pode criar ajuda personalizada para sua implementação do Dynamics 365 for Operations criando registros de tarefa que refletem sua implementação, e salvando-os em uma biblioteca de processo comercial de LCS. Para parceiros, se você promover uma biblioteca como sendo uma biblioteca corporativa, e incluí-la em uma solução, ela estará disponível para os clientes. Você também pode fazer uma cópia da biblioteca global unificada de APQC e, em seguida, abrir a cópia, abrir os registros de tarefa a partir dela, modificá-los, e salvar os registros com suas alterações. Para obter mais informações [Como criar um registro de tarefa para usar como documentação ou treinamento](../user-interface/task-recorder.md).
 
 <a name="see-also"></a>Consulte também
 --------
 
-[Help overview](help-overview.md)
+[Visão geral da ajuda](help-overview.md)
 
-[Visão geral do task recorder (]. /user-interface/task-recorder.md)
+[Visão geral do Gravador de tarefas](../user-interface/task-recorder.md)
 
 [Como criar um registro de tarefa para usar como documentação ou treinamento](../user-interface/task-recorder-training-docs.md)
 
-[Criando novas bibliotecas de treinamento para dynamics 365 para operações em serviços do ciclo de vida usando o task recorder link (externa)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
+[Criar novas bibliotecas de treinamento para o Dynamics 365 for Operations nos serviços de ciclo de vida usando o Gravador de Tarefas (link externo)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
 
 

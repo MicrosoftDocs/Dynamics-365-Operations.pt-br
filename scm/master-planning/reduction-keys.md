@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reduction-keys"></a>Chaves de redução
 
+[!include[banner](../includes/banner.md)]
+
+
 Estes artigos oferecem exemplos que mostram como configurar uma chave de redução. Eles incluem informações sobre as diversas configurações da chave de redução e os resultados de cada uma delas. Você pode usar uma chave de redução para definir como reduzir os requisitos de previsão.
 
 <a name="example-1-percent---reduction-key-forecast-reduction-principle"></a>Exemplo 1: Porcentagem - princípio de redução de previsão da chave de redução
@@ -58,7 +61,7 @@ Se você executar o plano de previsão em 1º de janeiro, os requisitos de previ
 | Abril                | 750                       |
 | Maio até dezembro | 1.000                     |
 
-## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Exemplo 2: Princípio de redução de previsão chave de redução das transações
+## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>Exemplo 2: Transações - princípio de redução de previsão da chave de redução
 Este exemplo mostra como as ordens reais que ocorrem durante os períodos definidos pela chave de redução reduzem requisitos de previsão de demanda.
 
 -   Na página **Planos mestres**, no campo **Princípio de redução**, selecione **Transações - chave de redução**.
@@ -82,7 +85,7 @@ Se você usar a mesma previsão de demanda de 1.000 peças por mês, as quantida
 | Abril                | 881                       |
 | Maio até dezembro | 1.000                     |
 
-## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Exemplo 3: Princípio dinâmico de redução de previsão do período de transações
+## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Exemplo 3: Transações - princípio de redução de previsão do período dinâmico
 Na maioria dos casos, os sistemas são configurados de forma que as transações reduzam a previsão de demanda nos períodos de previsão específicos: semanas, meses, e assim por diante. Os períodos são definidos na chave de redução. No entanto, o tempo entre duas linhas de previsão de demanda também pode *implicar* em um período.
 
 1.  Crie uma previsão de demanda para as seguintes datas e quantidades.
@@ -129,6 +132,8 @@ Aqui está um resumo de **Transações - redução de período** dinâmico:
 <a name="see-also"></a>Consulte também
 --------
 
-[Master plans](master-plans.md)
+[Planejamentos mestres](master-plans.md)
+
+
 
 

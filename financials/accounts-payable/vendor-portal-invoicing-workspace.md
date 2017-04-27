@@ -43,11 +43,11 @@ Os blocos **Resumo** darão uma visão geral de notas fiscais do fornecedor sele
 Clique em um quadro abrirá uma exibição filtrada da página **Lista de notas fiscais**.
 ### <a name="tabular-lists"></a>Listas tabulares
 
-Na seção **Listas Tabular **, o status do faturamento está dividido de formas semelhantes como o resumo organiza lado a lado: Rascunho, e listas enviadas não aprovadas. Quando o estado de rascunho, uma nota fiscal pode ser enviada ao fluxo de trabalho ou ser excluída. A lista tabular a última é um padrão para notas fiscais. Você pode filtrar como você pesquisa, para permitir uma pesquisa mais rápido.
+Na seção **Listas Tabular **, o status do faturamento está dividido de formas semelhantes como o resumo organiza lado a lado: Rascunho, e listas enviadas não aprovadas. Quando o estado de rascunho, uma nota fiscal pode ser enviada ao fluxo de trabalho ou ser excluída. A última lista tabular é uma opção para encontrar faturas. Você pode filtrar enquanto pesquisa, para permitir pesquisas mais rápidas.
 Página Todas faturas de fornecedor
 -----------------------------
 
-Você pode exibir todas as notas fiscais de fornecedores e não lançadas ** fiscais de fornecedor de colaboração ** na página de listagem. Você pode usar esta página de listagem para exibir o status de pagamento de notas fiscais. Os status de pagamento inclui Não feito, e parcialmente pagas totalmente paga.
+É possível exibir todas as faturas de fornecedor lançadas na página de listagem **Faturas de colaboração do fornecedor**. Você pode usar esta página de lista para visualizar o status de pagamento das faturas. Os status de pagamento inclui Não feito, e parcialmente pagas totalmente paga.
 Criar uma nova fatura a partir de uma ordem de compra
 --------------------------------------------
 
@@ -55,6 +55,6 @@ Você pode criar uma nova nota fiscal do fornecedor selecionando **Novo** a aç�
 
 
 
-Para obter mais informações, consulte colaborando [com fornecedores usando o portal] de fornecedor (/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
+Para obter mais informações, consulte [Colaborar com fornecedores usando o portal de fornecedores](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
 
 

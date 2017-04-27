@@ -1,5 +1,5 @@
 ---
-title: "Importação avançado de reconciliação bancária MT940 atualização – de entidade composta de dados"
+title: "Importação MT940 de reconciliação bancária avançada – Atualização de entidade de dados composta"
 description: "Necessidades de uma sequência numérica de ser adicionada à entidade de extrato bancário para oferecer suporte ao formato MT940."
 author: twheeloc
 manager: AnnBe
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Importação avançado de reconciliação bancária MT940 atualização – de entidade composta de dados
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>Importação MT940 de reconciliação bancária avançada – Atualização de entidade de dados composta
+
+[!include[banner](../includes/banner.md)]
+
 
 Necessidades de uma sequência numérica de ser adicionada à entidade de extrato bancário para oferecer suporte ao formato MT940. 
 
 Siga as etapas abaixo para adicionar a entidade de extrato bancário para oferecer suporte ao formato MT940.
 
 1.  Compilar e sincronizar o seguinte:
-    -   Entidade composta BankStatementImportEntity\\
-    -   Entidade BankStatementBalanceEntity\\
-    -   Entidade BankStatementDocumentEntity\\
-    -   Entidade BankStatementEntity\\
-    -   Entidade BankStatementLineEntity\\
-    -   \\apresenta BankStatementStaging
+    -   Entidade composta\\BankStatementImportEntity
+    -   Entidade\\BankStatementBalanceEntity
+    -   Entidade\\BankStatementDocumentEntity
+    -   Entidade\\BankStatementEntity
+    -   Entidade\\BankStatementLineEntity
+    -   Tabelas\\BankStatementStaging
 
-2.  Projetos de dados\\de gerenciamento de dados.
+2.  Projetos de dados\\gerenciamento de dados.
     1.  Projetos de importação de carga MT940
         1.  Alterar XSLT.
             -   Clique em **Exibir mapa**.
@@ -58,6 +61,8 @@ Siga as etapas abaixo para adicionar a entidade de extrato bancário para oferec
                 -   Verifique se **SequenceNumber** está mapeado de origem para se preparar.
 
 3.  Importe o novo demonstrativo.
+
+
 
 
 

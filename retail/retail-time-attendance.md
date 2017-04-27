@@ -1,6 +1,6 @@
 ---
 title: "Hora e presença no Retail"
-description: "Este tópico descreve os cenários que são aceitos para gerenciamento de tempo e presença no Microsoft Dynamics 365 para operações de varejo."
+description: "Este tópico descreve os cenários com suporte para o Gerenciamento de horário e presença no in Microsoft Dynamics 365 for Operations - Varejo."
 author: MargoC
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 62813
 ms.assetid: 821994a6-cd29-45a3-a526-ce204064f080
 ms.search.region: global
@@ -27,12 +27,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="retail-time-and-attendance"></a>Hora e presença no Retail
 
-Este tópico descreve os cenários que são aceitos para gerenciamento de tempo e presença no Microsoft Dynamics 365 para operações de varejo. 
+[!include[banner](includes/banner.md)]
 
-<a name="manage-worker-setup-and-scheduling"></a>Gerenciar de instalação de trabalho e o plano
+
+Este tópico descreve os cenários com suporte para o Gerenciamento de horário e presença no in Microsoft Dynamics 365 for Operations - Varejo. 
+
+<a name="manage-worker-setup-and-scheduling"></a>Gerenciar configuração e planejamento do trabalhador
 ----------------------------------
 
-### <a name="initial-configuration"></a>Configuração inicial de 
+### <a name="initial-configuration"></a>Configuração inicial
 
 -   Execute o assistente de configuração.
 -   Registre os trabalhadores como trabalhadores com registro de horas.
@@ -45,8 +48,8 @@ Para obter informações sobre as etapas de configuração, consulte <https://te
 
 ### <a name="retail-specific-configuration"></a>Configuração do Retail
 
--   Habilite um perfil de funcionalidade do relógio de ponto, para os funcionários para os quais você deseja habilitar registros de horas. Clique ** funcionalidade POS analisa ** &gt; ** funções ** &gt; ** registros de tempo POS ** &gt; ** habilitar ** registros de tempo.
--   Configure grupos permissões de PDV (ponto de venda) para habilitar a permissão Exibir entradas do relógio de ponto. Essa permissão permite que um usuário exiba os registros do relógio de ponto de outros trabalhadores na loja (e em qualquer outra loja à qual o usuário esteja associado via catálogo de endereços). Convém habilitar essa permissão para uma função gerente, mas não para uma função caixa. Clique ** grupos de permissão POS ** &gt; ** exibir entradas do relógio de ponto **.
+-   Habilite um perfil de funcionalidade do relógio de ponto, para os funcionários para os quais você deseja habilitar registros de horas. Clique em **Perfis de funcionalidade de PDV** &gt; **Funções** &gt; **Registros de horas do PDV** &gt; **Habilitar registros de horário**.
+-   Configure grupos permissões de PDV (ponto de venda) para habilitar a permissão Exibir entradas do relógio de ponto. Essa permissão permite que um usuário exiba os registros do relógio de ponto de outros trabalhadores na loja (e em qualquer outra loja à qual o usuário esteja associado via catálogo de endereços). Convém habilitar essa permissão para uma função gerente, mas não para uma função caixa. Clique em **Grupos de permissões de PDV** &gt; **Exibir entradas do relógio de ponto**.
 
 ## <a name="register-time"></a>Hora de registro
 ### <a name="cashier-and-non-cashier-time-registrations"></a>Registros de horas para caixa e não caixa
@@ -96,7 +99,7 @@ Para obter informações sobre as etapas de configuração, consulte <https://te
     </tbody>
     </table>
 
-    [![(TimeClockStates]. /media/timeclockstates.png)](. /media/timeclockstates.png)
+    [![TimeClockStates](./media/timeclockstates.png)](./media/timeclockstates.png)
 -   Exiba a mensagem de confirmação e valide que o tempo da atividade atual está correto.
 -   Livro de registros:
     -   Clique em **Livro de registros** para exibir a atividade do relógio de ponto.
@@ -106,9 +109,9 @@ Para obter informações sobre as etapas de configuração, consulte <https://te
 <!-- -->
 
 -   Fusos horários diferentes:
-    -   Se você exibir as horas de um local diferente (para o livro de registros do caixa ou usando **Exibir entradas do relógio de ponto** em um cenário do gerente) e esse local estiver em um fuso horário diferente, os registros de horas exibidos serão convertidos em seu fuso horário local. Por exemplo, você é um gerente para duas lojas em um, Arizona e outro em Nevada. Um caixa registra a entrada em 9:00 (. em Arizona. Nesse momento, são 8h em Nevada. Portanto, se você estiver na loja de Nevada e observar os registros de horas, verá o registro marcando 8h.
+    -   Se você exibir as horas de um local diferente (para o livro de registros do caixa ou usando **Exibir entradas do relógio de ponto** em um cenário do gerente) e esse local estiver em um fuso horário diferente, os registros de horas exibidos serão convertidos em seu fuso horário local. Por exemplo, você é gerente de duas lojas, uma no Arizona e outra em Nevada. Um caixa registra a entrada às 9:00 A.M. no Arizona. Nesse momento, são 8h em Nevada. Portanto, se você estiver na loja de Nevada e observar os registros de horas, verá o registro marcando 8h.
 
-## <a name="view-worker-time-registrations"></a>Registros de trabalho de tempo de exibição
+## <a name="view-worker-time-registrations"></a>Exibir registros de tempo de funcionário
 ### <a name="view-worker-time-registrations-and-filter-by-store-or-activity-type"></a>Exibir registros de horas do trabalhador e filtrar por tipo de loja ou atividade
 
 No PDV:
@@ -117,8 +120,8 @@ No PDV:
 -   Você verá atividades de registro do relógio de ponto de todos os trabalhadores atribuídos às mesmas lojas às quais você está atribuído.
 -   Você pode usar os filtros de loja e tipo de atividade para filtrar os registros de horas.
 
-## <a name="process-and-manage-time-registrations"></a>Processar e gerenciar registros de tempo
-Uma dynamics 365 para operações - o usuário de varejo rastreia o fluxo de trabalho para o cálculo, aprovação, e registros de tempo de transferência para folha de pagamento.
+## <a name="process-and-manage-time-registrations"></a>Processar e gerenciar registros de tempos
+Um usuário do Dynamics 365 for Operations - Varejo segue o fluxo de trabalho para calcular, aprovar e transferir registros de horas para a folha de pagamento.
 
 ### <a name="primary-operations"></a>Operações principais
 
@@ -132,5 +135,7 @@ Uma dynamics 365 para operações - o usuário de varejo rastreia o fluxo de tra
 -   Registrar ausência
 
 Para obter mais informações sobre como processar registros de horas e presença, consulte <https://technet.microsoft.com/en-us/library/aa573180.aspx>.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: Configurar os componentes de um trabalho
-description: "Este tópico descreve elementos conceituais que um trabalho podem incluir e oferece exemplos de como é possível usar os elementos na sua organização."
+title: Configurando os componentes de um trabalho
+description: "Este tópico descreve os elementos conceituais que um trabalho pode incluir e fornece exemplos de como você pode usar esses elementos na sua organização."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,38 +25,41 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="setting-up-the-components-of-a-job"></a>Configurar os componentes de um trabalho
+# <a name="setting-up-the-components-of-a-job"></a>Configurando os componentes de um trabalho
 
-Este tópico descreve elementos conceituais que um trabalho podem incluir e oferece exemplos de como é possível usar os elementos na sua organização. 
+[!include[banner](includes/banner.md)]
 
-Para criar trabalhos, você deve configurar as informações de referência. Você pode criar um trabalho que estejam apenas um nome. Entretanto, incluindo informações adicionais, como um cargo, você oferece valores padrão para as posições atribuídas ao trabalho. Adicionalmente, algumas das informações inseridas podem ser usadas para filtrar planos de remuneração para trabalhos específicos. Se quiser configurar qualificação que você pode usar para filtrar planos de remuneração a um trabalho específico, você deve configurar funções de trabalho e o trabalho antes digitem trabalho configurados. Tendo esses valores padrão disponíveis, você obterá tempo quando você adiciona posições ao trabalho. 
 
-Alguns detalhes do trabalho, como o cargo, tipo, e são funções, data efetiva. Se você criar um cargo atual mas não somar esses detalhes posteriormente, e até olhar nos trabalhos na data de criação, elas não aparecerão detalhes. Portanto, você deve criar algumas dessas informações de referência para que a variação. Essa maneira, você pode adicionar informações a novos trabalhos quando você cria os.
+Este tópico descreve os elementos conceituais que um trabalho pode incluir e fornece exemplos de como você pode usar esses elementos na sua organização. 
 
-## <a name="job-titles"></a>Cargos
+Antes de você poder criar trabalhos, você deve configurar algumas informações de referência. Você pode criar um trabalho com apenas um nome. No entanto, ao incluir informações adicionais, como título do trabalho, você fornece valores padrão para as posições atribuídas ao trabalho. Além disso, algumas das informações inseridas por você podem ser usadas para filtrar planos de remuneração para trabalhos específicos. Se deseja configurar a qualificação que pode ser usada para filtrar planos de remuneração para um trabalho específico, você deve configurar funções e tipos de trabalho antes de configurar os trabalhos. Com esses valores padrão disponíveis, você economizará tempo ao adicionar posições ao trabalho. 
+
+Alguns detalhes de trabalho, como o título, tipo e função do trabalho, são de data efetiva. Se você criar um trabalho hoje mas não adicionar esses detalhes posteriormente e verificar o trabalho a partir da data de criação, esses detalhes não aparecerão. Portanto, você deve criar algumas dessas informações de referência antes de solicitá-las. Dessa forma, você pode adicionar as informações a novos trabalhos ao criá-los.
+
+## <a name="job-titles"></a>Títulos de trabalho
 Antes de criar trabalhos, você deve configurar cargos para esses trabalhos. As posições herdam cargos dos trabalhos com os quais essas posições estão associadas. 
 
-Manter cargos usando ** títulos ** a página, que pode ser aberto com a função de pesquisa. ** Títulos ** na página, insira títulos que você planeja usar para os trabalhos.
+Manter títulos de trabalho usando a página **Títulos**, que você pode abrir por meio da função Pesquisar. Na página **Títulos **, insira os títulos que você planeja usar em seus trabalhos.
 
 ## <a name="job-types"></a>Tipos de trabalho
-Use os tipos de trabalho para trabalhos semelhantes agrupar categorias. Os tipos de trabalho não são necessários. Entretanto, se planeja usar tipos de trabalho ao configurar regras de qualificação para o gerenciamento de remuneração, você deve configurar tipos de trabalho antes de configurar os trabalhos. Exemplos de tipos de trabalho são e completo a partir de meio expediente, pagamento ou trabalho e por hora. Você mantém tipos de trabalho usando ** ** tipos de trabalho a página. ** ** Tipos de trabalho na página, insira um nome e uma breve descrição do tipo de trabalho. ** O status de isenção ** campo, selecione uma das seguintes opções indicar o status de isenção (FLSA) da FLSA justo de padrões justos de trabalhos com esse tipo de trabalho:
+Você usa tipos de trabalho para agrupar trabalhos semelhantes em categorias. Tipos de trabalhos não são necessários. Entretanto, se planeja usar tipos de trabalho ao configurar regras de qualificação para o gerenciamento de remuneração, você deve configurar tipos de trabalho antes de configurar os trabalhos. Alguns exemplos de tipos de trabalho são horário integral e meio período ou salário e pagamento por hora. Você mantém tipos de trabalho usando a página **Tipos de trabalho**. Na página **Tipos de trabalho**, insira um nome e uma breve descrição para o tipo de trabalho. No campo **Status de isenção**, selecione uma das seguintes opções para indicar o status de isenção de trabalhos FLSA (Lei de Padrões Justos de Trabalho) que tem esse tipo de trabalho.
 
--   ** ** – Trabalhos isentas são isentos de hora extra na FLSA.
--   ** ** – os trabalhos não isentos não estiverem isentas de hora extra na FLSA.
--   ** Não aplicável – ** cobertura da FLSA não é aplicável.
+-   **Isenção** – Os trabalhos estão isentos de horas extras de acordo com a FLSA.
+-   **Não isento** – Os trabalhos não estão isentos de horas extras de acordo com a FLSA.
+-   **Não se aplica** – A cobertura da FLSA não é aplicável.
 
 ## <a name="job-functions"></a>Funções de trabalho
-Os junções de trabalho descrevem categorias funcionais de alto nível e relacionados direitos de alto nível. As funções de trabalho não são necessárias. Você pode usar essas funções de trabalho, com tipos de trabalho, para filtrar planos de remuneração para trabalhos específicos. Você associa funções de trabalho e os tipos de trabalho a planos de remuneração configurando regras de eligibilidade ** regras de eligibilidade ** na página. Poderá anexar um conjunto de níveis a um plano de remuneração que se aplicam à determinada combinação de um tipo e de uma função de trabalho de trabalho definido com uma regra de qualificação. (Esses recursos se aplicam a planos de remuneração fixa e os planos de remuneração variáveis.) Entretanto, se você planeja usar outras funções de trabalho quando você agrupa qualificação configurada para o gerenciamento de remuneração, você deve configurar funções de trabalho antes de trabalho configuradas. A tabela mostra exemplos de funções de trabalho.
+Junções de trabalho descrevem categorias funcionais de alto nível e direitos de alto nível relacionados. Junções de trabalho não são necessárias. Você pode usar essas funções, juntamente com tipos de trabalho, a fim de filtrar planos de remuneração para trabalhos específicos. Para associar funções e tipos de trabalho a planos de remuneração, configure regras de qualificação na página **Regras de qualificação**. Você então pode associar ao plano de remuneração um conjunto de níveis aplicáveis à combinação específica de tipo/função de trabalho definida por meio de uma regra de qualificação. (Esses recursos se aplicam aos planos de remuneração fixos e variáveis.) No entanto, se planeja usar funções de trabalho ao configurar regras de qualificação para o gerenciamento de remuneração, você deve configurar funções de trabalho antes de configurar os trabalhos. A tabela a seguir mostra alguns exemplos de funções de trabalho.
 
 | Trabalho           | Função de trabalho         |
 |---------------|----------------------|
 | Gerente de vendas | Gerente de nível médio    |
 | Contador    | Profissionais        |
 
-Você mantém funções de trabalho usando ** funções de trabalho ** a página. ** ** Funções de trabalho na página, insira um código de identificação e uma breve descrição da função de trabalho.
+Você mantém funções de trabalho usando a página **Funções de trabalho**. Na página **Funções de trabalho**, insira um código de identificação e uma breve descrição para a função de trabalho.
 
 ## <a name="job-tasks"></a>Tarefas do trabalho
-As tarefas de trabalho descrevem as tarefas básicas quais o trabalhador que esteja em uma posição para o trabalho deve terminar. A mesma tarefa do trabalho pode ser adicionada aos vários trabalhos, e cargos dos trabalhos que usam essas tarefas de trabalho. A tabela mostra exemplos de tarefas de trabalho.
+Tarefas de trabalho descrevem as tarefas básicas que devem ser realizadas por um trabalhador em um cargo desse trabalho. A mesma tarefa de trabalho pode ser adicionada a vários trabalhos e posições para os trabalhos que usam essas tarefas de trabalho. A tabela a seguir mostra alguns exemplos de tarefas de trabalho.
 
 <table>
 <thead>
@@ -69,20 +72,22 @@ As tarefas de trabalho descrevem as tarefas básicas quais o trabalhador que est
 <tr class="odd">
 <td>Gerente de vendas</td>
 <td><ul>
-<li><strong>Perf-revisão</strong> Produção – leia o profissional vendedor de cada.</li>
-<li><strong>Abs-revisão</strong> – Aprove ou rejeite solicitações ou registros de ausências vendedor de cada.</li>
+<li><strong>Avaliação de desempenho</strong> – Avaliar o desempenho profissional de cada vendedor.</li>
+<li><strong>Avaliação de ausências</strong> – Aprovar ou rejeitar as solicitações ou os registros de ausência de cada vendedor.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Contador</td>
-<td><strong>Fin-relatório</strong> Relatórios financeiros – semanais atuais a chief financial officer.</td>
+<td><strong>Relatório financeiro</strong> – Apresentar relatórios financeiros semanais para o diretor financeiro.</td>
 </tr>
 </tbody>
 </table>
 
-Você mantém tarefas de trabalho usando ** tarefas de trabalho ** a página. ** ** Tarefas de trabalho na página, insira um nome e descrição para a tarefa de trabalho. ** O campo nota ** opcionalmente, você pode inserir informações adicionais. As notas podem ser atualizadas para um trabalho específico sem alterar notas inseridos aqui.
+Você mantém tarefas de trabalho usando a página **Tarefas de trabalho**. Na página **Tarefas de trabalho**, insira um nome e uma descrição para a tarefa de trabalho. No campo **Observação**, você tem a opção de inserir informações adicionais. As observações podem ser atualizadas para um trabalho específico sem a necessidade de alteração das observações que você inseriu aqui.
 
 ## <a name="areas-of-responsibility"></a>Áreas de responsabilidade
-Use áreas de responsabilidade indicar as funções de trabalho, os processos, os produtos que um trabalhador que está em um cargo para um trabalho é responsável. Por exemplo, para trabalho que fossem nomeados contador “”, uma área de responsabilidade poderia ser “relatório financeiro para Aos produtos.” Você mantém áreas de responsabilidade ** usando áreas de responsabilidade ** a página, que você pode encontrar usando a função de pesquisa. ** Áreas de responsabilidade ** na página, insira um nome e uma descrição da responsabilidade. ** O campo nota ** opcionalmente, você pode inserir informações adicionais. As notas podem ser atualizadas para um trabalho específico sem alterar notas inseridos aqui.
+Use as áreas de responsabilidade para indicar as funções de trabalho, os processos e os produtos pelos quais um trabalhador é responsável em um cargo do trabalho. Por exemplo, para um trabalho denominado "Contador", uma área de responsabilidade pode ser "Relatório financeiro do produto A". Você mantém áreas de responsabilidade usando a página **Áreas de responsabilidade**, que você pode encontrar por meio da função Pesquisar. Na página **Áreas de responsabilidade**, insira um nome e uma descrição para a responsabilidade. No campo **Observação**, você tem a opção de inserir informações adicionais. As observações podem ser atualizadas para um trabalho específico sem a necessidade de alteração das observações que você inseriu aqui.
+
+
 
 

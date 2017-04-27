@@ -1,5 +1,5 @@
 ---
-title: Notas fiscais complementares de vendas para O Brasil
+title: Notas fiscais complementares de vendas para o Brasil
 description: "Este tópico descreve a fatura complementar de vendas da localização brasileira."
 author: ShylaThompson
 manager: AnnBe
@@ -25,36 +25,41 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-complementary-fiscal-documents-for-brazil"></a>Notas fiscais complementares de vendas para O Brasil
+# <a name="sales-complementary-fiscal-documents-for-brazil"></a>Notas fiscais complementares de vendas para o Brasil
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico descreve a fatura complementar de vendas da localização brasileira.
 
 <a name="overview"></a>Visão Geral
 --------
 
-De acordo com as normas fiscais em O Brasil, uma nota fiscal específica que é conhecido como uma fatura complementar (complementar de Nota fiscal) é recebida ou emitida para fins de correção. Por exemplo, se os preços de mercadorias ou serviços da nota fiscal original foram registrados incorretamente, nota de complemento é necessário para corrigir o erro. Notas fiscais complementares aplicam-se somente se a diferença for positiva. Ou seja aplicam-se somente se os preços atuais ou valores de impostos estão mais de preço originais ou taxam-se valores. Porque as notas fiscais deste tipo são consideradas complementos fiscais de vendas originais, as notas fiscais não precisam ser canceladas. As empresas são obrigadas emitir ou receber a fatura complementar para os seguintes motivos:
+De acordo com as normas fiscais do Brasil, uma nota fiscal específica que é conhecida como nota fiscal complementar é recebida ou emitida para fins de correção. Por exemplo, se os preços de mercadorias ou serviços da nota fiscal original foram registrados incorretamente, uma nota fiscal complementar é necessária para corrigir o erro. Faturas complementares aplicam-se somente se a diferença for positiva. Ou seja aplicam-se somente se os preços ou valores de impostos atuais forem maiores que os preços ou valores dos impostos originais. Porque as notas fiscais deste tipo são consideradas complementos das notas fiscais originais, as notas fiscais originais não devem ser canceladas. As empresas são obrigadas emitir ou receber a fatura complementar para os seguintes motivos:
 
--   Erro no preço de mercadorias ou serviços
+-   Erro no preços de mercadorias ou serviços
 -   Erro na quantidade de bens ou serviços
--   Erro em porcentagem
+-   Erro em porcentagem de imposto
 
 ## <a name="sales-complementary-fiscal-document"></a>Nota fiscal complementar de venda
-Você deve criar um documento fiscal complementar de venda para ajustar uma nota fiscal de vendas gerado para um preço incorreto, um valor incorreto de Produtos Industrializados de sobre Impostos (IPI,) ou um valor incorreto de Circulação de Mercadorias e o de Imposto ICMS (). Um documento fiscal complementar de venda é emitido somente para ajustar uma diferença positiva. Por exemplo, um documento fiscal complementar de venda será gerado se o preço de um item em nota fiscal do cliente original está incorreto e, se o preço atual do item é mais do preço que está registrada em nota fiscal do cliente original. É possível criar uma nota fiscal complementar de vendas para ajustar um erro no preço ou quantidade de itens ou serviços, porcentagem de imposto, ou o cálculo de imposto. A nota fiscal complementar de vendas é uma nota fiscal de vendas que complementa a nota fiscal de vendas original. Todas as informações, exceto informações sobre, encargos é atualizada de documento fiscal de venda originais. Você não pode adicionar linhas a ou excluir linhas de um documento fiscal complementar de vendas. Os seguintes tipos de notas fiscais complementares de venda estão disponíveis:
+Você deve criar uma nota fiscal complementar de venda para ajustar uma nota fiscal de venda que foi gerada por um preço ou valor incorreto de IPI (imposto sobre produtos industrializados), ou de ICMS (Imposto sobre Circulação de Mercadorias e Serviços). Uma nota fiscal complementar de venda é emitida para ajustar somente uma diferença positiva. Por exemplo, uma nota fiscal complementar de venda é gerada se o preço de um item na nota fiscal original do cliente estiver incorreto, e se o preço correto do item for maior do que o preço registrado na nota fiscal original do cliente. É possível criar uma nota fiscal complementar de vendas para ajustar um erro no preço ou quantidade de itens ou serviços, porcentagem de imposto, ou o cálculo de imposto. A nota fiscal complementar de vendas é uma nota fiscal de vendas que complementa a nota fiscal de vendas original. Todas as informações, exceto informações para os encargos, são atualizadas a partir da nota fiscal de vendas original. Não é possível adicionar ou excluir as linhas de uma nota fiscal complementar de venda. Os seguintes tipos de notas fiscais complementares de venda estão disponíveis:
 
--   ** O preço ** – esse tipo de documento fiscal de complemento é criado para ajustar o preço incorreto para um documento fiscal. O preço atual deve ser maior do que o preço que está registrada em nota fiscal original. A diferença de preço é cobrada do cliente.
--   ** IPI ** – esse tipo de documento fiscal de complemento é criado para ajustar incorreto um valor de IMPOSTO IPI para um documento fiscal. A diferença de imposto IPI é cobrada do cliente.
--   ** ICMS ** – esse tipo de documento fiscal de complemento é criado para ajustar o valor incorreto tributário de ICMS para um documento fiscal. A diferença de ICMS é recebida pela entidade legal e paga às autoridades fiscais.
+-   **Preço** – Este tipo de nota fiscal complementar é criado para ajustar um preço incorreto para uma nota fiscal. O preço atual deve ser maior que o preço registrado na nota fiscal original. A diferença de preço é cobrada do cliente.
+-   **IPI** – Este tipo de nota fiscal complementar é criado para ajustar um preço incorreto para um valor de IPI de uma nota fiscal. A diferença de imposto IPI é cobrada do cliente.
+-   **ICMS** – Este tipo de nota fiscal complementar é criado para ajustar um preço incorreto para um valor de ICMS de uma nota fiscal. A diferença de ICMS é recebida pela entidade legal e paga às autoridades fiscais.
 
-Você pode criar um documento fiscal complementar ICMS somente se os grupos de impostos selecionado para o documento fiscal complementar de vendas incluindo IMPOSTO ICMS. Também, crie um documento fiscal complementar IPI somente se os grupos de impostos selecionado para o documento fiscal complementar de vendas incluindo IMPOSTO IPI. Por exemplo, se você criar um documento fiscal complementar IPI, mas os grupos de impostos existentes não tenha o tipo de imposto IPI, selecione um grupo que tenha um imposto IPI. Você pode cancelar e consultar um documento fiscal complementar de vendas que é lançado ** todas as notas fiscais complementares ** de venda na página.
+Você pode criar uma nota fiscal complementar de ICMS somente se os grupos de impostos selecionados para a nota fiscal complementar de venda incluir os códigos do ICMS. Da mesma forma, você pode criar uma nota fiscal complementar de IPI somente se os grupos de impostos selecionados para a nota fiscal complementar de venda incluir os códigos do IPI. Por exemplo, se você criar uma nota fiscal complementar de IPI, mas os grupos de impostos existentes não tiverem o tipo de imposto IPI, selecione um grupo de impostos que tenha um código de IPI. Você pode cancelar e consultar uma nota fiscal complementar de venda que foi lançada na página **Todas as notas fiscais complementares de venda**.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Antes de criar ou lançar notas fiscais complementares vendas, os seguintes parâmetros devem ser configurados ** parâmetros brasileiros ** página em:
+Antes de criar ou lançar notas fiscais complementares de venda, os seguintes parâmetros devem ser configurados na página **Parâmetros brasileiros**.
 
--   ** Documento fiscal complementar ** – especificar texto fonte padrão de documento fiscal.
--   ** Código de impostos para COFINS ** – especifique o código de impostos usado para valor social de cálculo de impostos de Contribuição para o Financiamento a Dinamarca (Seguraridade COFINS).
--   ** Código de impostos para PIS ** – especifique o código de impostos usado para valor de cálculo de impostos do Programa de Integração Social (PIS).
+-   **Nota fiscal complementar** – – Especifica o texto fonte padrão de nota fiscal.
+-   **Código de impostos para COFINS** – Especifique o código de impostos usado para valor de cálculo do imposto COFINS (Contribuição para o Financiamento da Seguraridade Social).
+-   **Código de impostos para PIS** – especifique o código de impostos usado para valor de cálculo do PIS (Programa de Integração Social).
 
 ## <a name="examples"></a>Exemplos
-[exemplos do![de uma nota fiscal original e de um notas fiscais complementares de venda de cada um dos três tipos (]. /media/salescomplementary-1024x409.png)](. /media/salescomplementary.png)
+[![Exemplos de uma fatura original e de notas fiscais complementares de vendas de cada um dos três tipos](./media/salescomplementary-1024x409.png)](./media/salescomplementary.png)
+
+
 
 

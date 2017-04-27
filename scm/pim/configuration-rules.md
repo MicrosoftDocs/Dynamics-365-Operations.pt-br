@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configuration-rules"></a>Regras de configuração
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo oferece informações gerais sobre as regras de configuração. As regras de configuração definem as relações entre os itens em uma lista de materiais (BOM) de produtos que usam a tecnologia de configuração baseada em dimensão.
 
 As regras de configuração ficam disponíveis quando você define modelos de configuração baseada em dimensão. As regras de configuração são usadas para aplicar ou proibir combinações específicas do item em uma lista de materiais (BOM). Depois que uma BOM for criada e os itens relevantes forem atribuídos aos seus respectivos grupos de configuração, uma ou mais regras de configuração poderão ser definidas. Se dois itens pertencem, o operador **Select** será usado para garantir a inclusão. Se dois itens forem mutuamente exclusivos, o operador, **Cancelar seleção** será usado para garantir a exclusão.  
@@ -42,5 +45,7 @@ As configurações existentes não são afetadas pelas alterações subsequentes
 --------
 
 [Configuração de produto baseada em dimensão](dimension-based-product-configuration.md)
+
+
 
 

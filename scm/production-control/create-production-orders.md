@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-production-orders"></a>Criar ordens de produção
 
+[!include[banner](../includes/banner.md)]
+
+
 Ao criar uma ordem de produção, você inicia uma solicitação para iniciar a fabricação de um item. A ordem de produção contém informações sobre o que será produzido, a quantidade a ser produzida e a data de conclusão planejada. Também contém informações sobre quais materiais consumir e qual processo seguir para produzir o item.
 
 Uma ordem de produção passa pelos estágios do ciclo de vida de produção. Quando uma ordem é criada, ela recebe o status **Criada**. Quando uma ordem é concluída, recebe o status **Encerrada**. Uma configuração de parâmetro em cada estágio permite que um usuário configure cada etapa. A configuração pode ser configurada para um único usuário ou para todos.
@@ -40,6 +43,8 @@ Uma ordem de produção pode ser criada nestes cenários:
 -   Criada pela execução do planejamento mestre com base na demanda de materiais.
 -   Criada diretamente de uma linha da ordem de venda ou quando uma ordem de produção de nível superior é criada e prevista (fornecimento vinculado).
 -   Criada manualmente.
+
+
 
 
 

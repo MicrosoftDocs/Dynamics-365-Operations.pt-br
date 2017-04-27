@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="maintain-planned-orders"></a>Manter ordens planejadas
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo oferece informações sobre como gerenciar ordens planejadas. Descreve como é possível atualizar o status de ordens planejadas, confirmá-las e filtrar ordens planejadas com o mesmo status como uma ordem planejada selecionada.
 
 Você pode gerenciar ordens planejados no espaço de trabalho **Planejamento mestre**, na lista **Ordem planejada** ou nas listas **Ordens de produção planejadas**, **Ordens de compra planejadas** e **Transferência planejada**. Você pode usar o campo **Status** para ajudar a acompanhar seu progresso. Os seguintes valores são usados:
@@ -48,6 +51,8 @@ Ao ser confirmada, uma ordem planejada é movida para a seção de ordens do mó
 <a name="see-also"></a>Consulte também
 --------
 
-[Master plans](master-plans.md)
+[Planejamentos mestres](master-plans.md)
+
+
 
 

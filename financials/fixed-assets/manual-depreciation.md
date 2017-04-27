@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="manual-depreciation"></a>Depreciação manual
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece uma visão geral do método de depreciação manual.
 
 Quando um perfil de depreciação do ativo fixo é configurado e você seleciona **Manual** no campo **Método** da página **Perfis de depreciação**, a depreciação de ativos fixos atribuídos a esse perfil de depreciação é determinada pela porcentagem informada para cada intervalo do ano de calendário. Os intervalos para os quais você configura porcentagens são lançados de acordo com o valor selecionado no campo **Frequência de período** da Guia Rápida **Geral** na página **Perfis de depreciação**. Estes são os valores que você pode selecionar:
@@ -63,13 +66,15 @@ Se você selecionar **Mensal** no campo** Frequência do período**, configurar�
 | Janeiro  | (11.000 – 1.000) × 10% = 1.000 |
 | Fevereiro | (11.000 – 1.000) × 50% = 5.000 |
 
-Se selecionar ** semestral ** na frequência de período de **** ** ** campo, é configurado dois intervalos manuais de planejamento. A tabela a seguir mostra os valores de depreciação para esses dois intervalos.
+Se você selecionar **Semestral** no campo ****Frequência do período**, você configurará dois intervalos manuais de planejamento. A tabela a seguir mostra os valores de depreciação para esses dois intervalos.
 
 | Intervalo    | Valor de depreciação            |
 |-------------|--------------------------------|
 | 30 de junho     | (11.000 – 1.000) × 10% = 1.000 |
 | 31 de dezembro | (11.000 – 1.000) × 50% = 5.000 |
 
-O total de porcentagens para todos os intervalos não precisa ser 100. Entretanto, você receberá uma mensagem se o valor cumulativo ** ** porcentagem no campo ** fixo no perfil de depreciação de ativo agenda ** o página não ** ** é 100.
+O total de porcentagens para todos os intervalos não precisa ser 100. Entretanto, você receberá uma mensagem se o valor no campo **Porcentagem cumulativa** na página **Planos de perfil de depreciação de ativo fixo** não for **100**.
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: Planos mestres
-description: "Use vários planos mestres suportar trabalhando as operações diárias da empresa, simular diferentes estratégias de planejamento que você deseja monitorar, implementação e uma diretiva da empresa, como uma diretiva sobre o desempenho ou a satisfação de cliente interno."
+description: "Use diversos planos mestre para oferecer suporte a operações de produção diárias da empresa, simular diferentes estratégias de planejamento que deseja monitorar e implementar uma política corporativa, por exemplo, com relação ao desempenho interno ou à satisfação do cliente."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="master-plans"></a>Planos mestres
 
-Use vários planos mestres suportar trabalhando as operações diárias da empresa, simular diferentes estratégias de planejamento que você deseja monitorar, implementação e uma diretiva da empresa, como uma diretiva sobre o desempenho ou a satisfação de cliente interno. 
+[!include[banner](../includes/banner.md)]
+
+
+Use diversos planos mestre para oferecer suporte a operações de produção diárias da empresa, simular diferentes estratégias de planejamento que deseja monitorar e implementar uma política corporativa, por exemplo, com relação ao desempenho interno ou à satisfação do cliente. 
 
 Você pode configurar planos mestres na página **Planos mestres**.
 
@@ -50,8 +53,10 @@ Também é possível configurar o início do plano dinâmico para ser atualizado
 
 [Configurações de cobertura](coverage-settings.md)
 
-[Separando o planejamento tático e operativo para o planejamento mestre (http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)]
+[Separando planejamento tático e operador para agendamento mestre](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
 
-[Planejamento mestre: Use uma static e um plano mestre dinâmico ou use um plano?] (https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+[Planejamento mestre: Usar um Plano Mestre estático e dinâmico ou usar um plano?](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+
+
 
 

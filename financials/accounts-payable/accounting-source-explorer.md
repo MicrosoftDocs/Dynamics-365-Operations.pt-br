@@ -27,15 +27,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="accounting-source-explorer"></a>Gerenciador de fontes contábeis
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre o explorador de origem da contabilidade, que pode ser usado para análise detalhada das informações de origem, além das entradas contábeis da contabilidade.
 
-O explorador de origem contábil é uma nova página que mostra informações de origem. Você pode usar o explorador de origem da contabilidade como uma ferramenta autônomo ou além analisar os detalhes de escriturações de contabilidade. Por exemplo, você pode usar o explorador de origem de contabilização para obter informações mais detalhadas da origem de um saldo em saldo de trilha ou para uma transação de comprovante. Você pode usar o recurso Exportar para Ms Excel para dividir as informações no Microsoft Excel (por exemplo, em uma Tabela Dinâmica ou em um relatório de Tabela Dinâmica).
+O explorador de origem contábil é uma nova página que mostra informações de origem. Você pode usar o explorador de origem contábil como uma ferramenta independente ou analisar os detalhes das entradas de contas contábeis. Por exemplo, você pode usar o explorador de origem contábil para obter as informações mais detalhadas da origem para um saldo no rastreamento de saldos ou para uma transação do voucher. Você pode usar o recurso Exportar para Ms Excel para dividir as informações no Microsoft Excel (por exemplo, em uma Tabela Dinâmica ou em um relatório de Tabela Dinâmica).
 
 O explorador de origem contábil sempre exibe o valor total por conta contábil como é exibido pela contabilidade (por exemplo, no balancete). Como no Balancete, é possível exibir segmentos nas colunas separadas. Selecione o conjunto de dimensões financeiras apropriado. 
 
 É possível usar os parâmetros para definir um intervalo de datas para análise. Esta funcionalidade também se assemelha à funcionalidade no Balancete.
 
-Para todos os documentos usando a estrutura do documento, origem de informações adicionais explicando mostra de explorador de origem, com base em distribuições contábeis e, se aplicável, em distribuições contábeis de projeto. Essas informações incluem o valor monetário de tipo, o projeto, a atividade, a categoria e, a propriedade. Veja alguns exemplos da análise que você pode fazer:
+Para todos os documentos que usam estrutura do documento de origem, o explorador da origem contábil exibe informações adicionais, com base nas distribuições contábeis e, se aplicável, em distribuições contábeis do projeto Essas informações incluem o tipo de valor monetário, projeto, atividade, categoria e a linha de propriedade. Veja alguns exemplos da análise que você pode fazer:
 
 -   Variações entre ordens de compra e faturas de fornecedor, pois cada variação é representada por um tipo de valor monetário, como a variação de encargo
 -   Horas faturáveis versus horas não faturáveis e despesas por projeto, unidade de negócios e conta principal
@@ -46,5 +49,7 @@ Para documentos de origem que usam o conceito das identidades de referência do 
 -   Descontos por fornecedor, produtos, departamento
 
 Para esses documentos, também é possível navegar no documento de origem real do explorador de origem contábil.
+
+
 
 

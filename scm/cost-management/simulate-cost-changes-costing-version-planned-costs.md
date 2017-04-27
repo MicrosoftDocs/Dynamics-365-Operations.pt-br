@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Simular alterações de custo usando uma versão de custo para custos planejados
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo explica como você pode simular os efeitos de alterações de custo nos custos calculados de um item fabricado usando uma versão de custo separada para custos planejados.
 
 Você pode simular os efeitos de alterações de custo nos custos calculados de um item fabricado usando uma versão de custo separada para custos planejados. Use a versão de custo separada para inserir registros de custos pendentes que refletem alterações de custo incrementais e para calcular o impacto de custo em itens fabricados. Como o princípio de fallback de custos ativos será usado em cálculos de BOM (lista de materiais), somente as alterações de custo incrementais devem ser inseridas.
@@ -54,5 +57,7 @@ Os cenários a seguir ilustram o uso da simulação de versão de custo para sim
 -   Simule a alteração de custo em uma fórmula de cálculo de custo indireto. Por exemplo, a alteração de custo pode refletir um aumento ou uma redução esperada dos custos gerais indiretos de fabricação. Para definir a alteração em uma fórmula de cálculo de custo indireto, use a página **Configuração de folha de custo** para inserir um registro de custo pendente na simulação de versão de custo e para validar e salvar a alteração.
 
 Depois de inserir as alterações de custo simuladas, calcule os custos para os itens fabricados afetados pelas alterações de custo. Use a página **Cálculo** para a simulação de versão de custo e identifique os itens fabricados selecionados que serão afetados pelas alterações de custo. Os cálculos de BOM se aplicam a todos os itens fabricados a menos que você identifique os itens selecionados. Como alternativa, é possível usar a opção de cálculo de BOM para as atualizações usadas. Exiba os registros de custo na versão de avaliação de custo de simulação para analisar como as alterações de custo simuladas afetaram os custos dos itens fabricados selecionados. Use a página **Preço de item** e a página **Calcular custo de item** para ver e analisar os custos.
+
+
 
 

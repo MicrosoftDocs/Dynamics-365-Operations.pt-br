@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-credit-and-collections"></a>Configurar crédito e cobranças
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo explica como configurar a funcionalidade das coleções.
 
 <a name="set-up-aging-period-definitions"></a>Configurar definições de período de classificação por vencimento
@@ -46,7 +49,7 @@ Se várias pessoas de sua organização fizerem cobrança, você poderá configu
 ## <a name="set-up-a-collections-case-category"></a>Configurar uma categoria de caso de cobrança
 Se você usa casos para organizar seu trabalho de cobrança, configure uma categoria de caso que tenha o tipo de categoria **Cobranças**. Essa configuração só será obrigatória caso você queira usar a funcionalidade da página **Cobranças**.
 
-## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Nomes de instalação do diário (pagamento, amortização, e NSF)
+## <a name="set-up-journal-names-settlement-writeoff-and-nsf"></a>Configurar os nomes de diário (liquidação, baixa e NSF)
 Configure os nomes dos diários usados quando as transações forem processadas na página **Cobranças**. Esse processamento inclui a liquidação de uma transação, dar baixa em uma transação e o processamento de um pagamento NSF (insuficiência de fundos).
 
 | Descrição | Tipo de diário     |
@@ -55,7 +58,7 @@ Configure os nomes dos diários usados quando as transações forem processadas 
 | Baixa contábil   | Diariamente            |
 | NSF         | Pagamento de cliente |
 
-## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Configurar um código de motivo para amortização de transações
+## <a name="set-up-a-reason-code-for-writeoff-transactions"></a>Configurar um código de motivo para transações de baixa
 Configure o código de motivo padrão usado ao dar baixa em transações na página **Cobranças**. Você pode alterar o código durante o processo de baixa.
 
 ## <a name="set-up-a-folder-for-email-attachments-and-create-email-templates"></a>Configurar uma pasta para anexos de email e criar modelos de email
@@ -67,7 +70,7 @@ Configure os parâmetros de contas a receber que aparecem na guia **Cobranças**
 ## <a name="optional-set-up-collections-agents"></a>Opcional: configurar agentes de cobranças
 Se várias pessoas de sua organização fizerem cobrança, você poderá configurar agentes de cobrança. Um agente de cobrança é um trabalhador que está configurado como um usuário na página **Relações de usuário**. Você pode atribuir os grupos de clientes (consultas de cliente) a agentes de cobranças para ajudar os agentes a organizar seu trabalho. Os agentes de cobranças são adicionados à equipe selecionada na página **Parâmetros de contas a receber**. Se uma equipe não estiver selecionada nessa página, uma nova equipe chamada **Cobranças** será criada automaticamente e os agentes de cobranças serão adicionados à equipe.
 
-## <a name="set-up-a-writeoff-account"></a>Configurar uma conta de amortização
+## <a name="set-up-a-writeoff-account"></a>Configurar uma conta de baixa
 Configure uma conta de baixa que será usada para a entrada de baixas da contabilidade quando uma transação for baixada. Essa conta é armazenada no perfil de lançamentos do cliente.
 
 ## <a name="set-up-nsf-information-for-bank-accounts"></a>Configurar informações de NSF para contas bancárias
@@ -82,11 +85,13 @@ Configure endereços de email para contatos de cliente se você deseja enviar me
 Na Guia Rápida **Crédito e Cobranças** para um cliente, no campo **Contato de cobranças**, selecione a pessoa na organização do cliente que trabalha com o agente de cobranças. Essa pessoa é usada como o contato padrão na página **Cobranças** e as mensagens de email são enviadas para ela. 
 
 > [!NOTE] 
-> Se um contato de conjuntos não for especificado para o cliente, o contato principal do cliente é usado. Se um contato principal não for especificado, as mensagens de email serão enviadas para o primeiro endereço listado na página **Contatos**.
+> Se um contato de cobranças não for especificado para um cliente, o contato principal do cliente será usado. Se um contato principal não for especificado, as mensagens de email serão enviadas para o primeiro endereço listado na página **Contatos**.
 
 ## <a name="set-up-email-settings-for-salespeople"></a>Definir configurações de email para vendedores
 Configure endereços de email para vendedores se quiser enviar mensagens de email para eles da página **Cobranças**. Configure um endereço de email para cada representante de vendas em cada grupo de vendas por comissão. O representante de vendas que tiver a opção **Contato** selecionada será o vendedor padrão para quem as mensagens de email serão enviadas. 
 
 Se um representante de vendas não for especificado, o vendedor principal da organização do cliente será usado. Se um vendedor principal não for especificado, as mensagens de email serão enviados para o primeiro vendedor listado no formulário.
+
+
 
 

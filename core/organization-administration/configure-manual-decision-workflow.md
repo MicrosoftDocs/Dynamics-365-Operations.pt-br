@@ -1,5 +1,5 @@
 ---
-title: "Configurar uma decisão manual para um fluxo de trabalho"
+title: "Configurar uma decisão manual em um fluxo de trabalho"
 description: "Este tópico explica como configurar as propriedades de uma decisão manual."
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-decision-in-a-workflow"></a>Configurar uma decisão manual para um fluxo de trabalho
+# <a name="configure-a-manual-decision-in-a-workflow"></a>Configurar uma decisão manual em um fluxo de trabalho
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico explica como configurar as propriedades de uma decisão manual.
 
@@ -95,8 +98,8 @@ Você pode enviar notificações às pessoas quando uma decisão é tomada, dele
 
 1.  No painel esquerdo, clique em **Notificações**.
 2.  Marque a caixa de seleção ao lado dos eventos para os quais as notificações devem ser enviadas:
-    -   ** a opção 1\]\[** – o usuário atribuído selecionou ** opção 1\]\[**.
-    -   ** a opção 2\]\[** – o usuário atribuído selecionou ** opção 2\]\[**.
+    -   **\[Opção 1\]** – O usuário atribuído selecionou **\[Opção 1\]**.
+    -   **\[Opção 2\]** – O usuário atribuído selecionou **\[Opção 2\]**.
     -   **Delegar** – O usuário atribuído atribuiu a decisão a outro usuário.
     -   **Escalonar** – O usuário atribuído não tomou a decisão no tempo alocado.
 
@@ -148,10 +151,10 @@ Você pode enviar notificações às pessoas quando uma decisão é tomada, dele
     </tr>
     <tr class="odd">
     <td>Usuário</td>
-    <td>Microsoft Dynamics 365 de usuários específico de operações</td>
+    <td>Especificar usuários do Microsoft Dynamics 365 for Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li><strong>Usuários disponíveis</strong> A lista inclui qualquer dynamics 365 para usuários das operações. Selecione os usuários aos quais enviar notificações e mova- os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais enviar notificações e mova- os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -213,10 +216,10 @@ Siga estas etapas para especificar a quem uma decisão manual deve ser atribuíd
     </tr>
     <tr class="even">
     <td>Usuário</td>
-    <td>Dynamics específica 365 para usuários de operações</td>
+    <td>Especificar usuários do Dynamics 365 for Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li><strong>Usuários disponíveis</strong> A lista inclui qualquer dynamics 365 para usuários das operações. Selecione os usuários aos quais deseja atribuir a decisão e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais deseja atribuir a decisão e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -235,7 +238,7 @@ Siga estas etapas para especificar a quem uma decisão manual deve ser atribuíd
     <li>Na lista <strong>Nome da fila</strong>, selecione <strong>Fila condicional</strong>.</li>
     </ol></li>
     </ol>
-    <strong>Observação:</strong> esta opção é usada apenas para alguns fluxos de trabalho, como gerenciamento case.</td>
+    <strong>Observação:</strong> esta opção é usada apenas para alguns fluxos de trabalho, como Gerenciamento de casos.</td>
     </tr>
     </tbody>
     </table>
@@ -258,9 +261,9 @@ Se um usuário não tomar a decisão no tempo alocado, a decisão vencerá. Uma 
     |----------|----------------------------|
     | 1        | Atribuir a: Denise           |
     | 2        | Atribuir a: Eduardo            |
-    | 3        | Medição definitiva: opção 1\]\[ |
+    | 3        | Ação final: \[Opção 1\] |
 
-    Neste exemplo, o sistema atribui a decisão vencida à Denise. Se a Denise não tomar a decisão no tempo alocado, o sistema a atribuirá a Eduardo. Se eduardo não faz a decisão em tempo distribuídos, o sistema selecionará ** opção 1\]\[** como decisão.
+    Neste exemplo, o sistema atribui a decisão vencida à Denise. Se a Denise não tomar a decisão no tempo alocado, o sistema a atribuirá a Eduardo. Se Eduardo não tomar a decisão no tempo alocado, o sistema selecionará **\[Opção 1\]** como decisão.
 3.  Para adicionar um usuário ao caminho de escalonamento, clique em **Adicionar escalonamento**. Selecione uma das opções na tabela a seguir e execute as etapas adicionais dessa opção antes de passar para a etapa 4.
     <table>
     <colgroup>
@@ -303,10 +306,10 @@ Se um usuário não tomar a decisão no tempo alocado, a decisão vencerá. Uma 
     </tr>
     <tr class="odd">
     <td>Usuário</td>
-    <td>Dynamics específica 365 para usuários de operações</td>
+    <td>Especificar usuários do Dynamics 365 for Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li><strong>Usuários disponíveis</strong> A lista inclui qualquer dynamics 365 para usuários das operações. Selecione os usuários aos quais a decisão será escalonada e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais a decisão será escalonada e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -335,6 +338,8 @@ Siga estas etapas caso a decisão deva ser tomada em um horário específico. **
     -   **Anos** – Selecione o dia, a semana e o mês até quando a decisão deve ser tomada. Por exemplo, você talvez queira que a decisão seja tomada até a sexta-feira da terceira semana de dezembro.
 
 4.  Se o limite de tempo for excedido, o sistema tomará a decisão. Na lista **Ação**, selecione a opção que o sistema deve selecionar.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Do espaço de trabalho disponível móvel para Microsoft Dynamics 365 para o descritivo de operações"
-description: "Ajuda disponível móveis do espaço de trabalho de estoque que obtêm introspecções móveis o estoque disponível e reservado a qualquer momento e em qualquer lugar."
+title: "Espaço de trabalho móvel disponível em estoque para o aplicativo Microsoft Dynamics 365 for Operations"
+description: "O espaço de trabalho móvel disponível em estoque o ajuda a obter informações móveis para estoque reservado e disponível a qualquer hora e em qualquer lugar."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,72 +25,72 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Do espaço de trabalho disponível móvel para Microsoft Dynamics 365 para o descritivo de operações
+# <a name="inventory-on-hand-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Espaço de trabalho móvel disponível em estoque para o aplicativo Microsoft Dynamics 365 for Operations
 
-Ajuda disponível móveis do espaço de trabalho de estoque que obtêm introspecções móveis o estoque disponível e reservado a qualquer momento e em qualquer lugar. 
+O espaço de trabalho móvel disponível em estoque o ajuda a obter informações móveis para estoque reservado e disponível a qualquer hora e em qualquer lugar. 
 
 <a name="prerequisites"></a>Pré-requisitos
 -------------
 
 | Pré-requisito                                                         | descrição                                                                                                                                        |
 |----------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
-| Leia sobre o Microsoft Dynamics 365 para o preparo de celular de operações | [Dynamics 365 para a plataforma móvel] operações (/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
-| Dynamics 365 for Operations                                          | Um ambiente com Microsoft Dynamics 365 para a versão 1611 de operações e o Microsoft Dynamics para atualização 3 de preparo operações (em novembro de 2016) |
-| 3215650 KB de Hotfix                                                    | Instalar o hotfix para habilitar espaços de trabalho fornecidos no Microsoft Dynamics 365 para as operações.                                       |
-| Dispositivo móvel que tem o dynamics 365 para o descritivo instalado de operações | Baixe o dynamics 365 para o descritivo de operações do armazenamento móvel descritivo.                                                                           |
+| Leia sobre a plataforma móvel do Microsoft Dynamics 365 for Operations | [Plataforma móvel do Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                   |
+| Dynamics 365 for Operations                                          | Um ambiente com a versão 1611 do Microsoft Dynamics 365 for Operations e a atualização 3 da plataforma do Microsoft Dynamics for Operations (novembro de 2016) |
+| Hotfix KB 3215650                                                    | Instale o hotfix para habilitar os espaços de trabalho que são fornecidos no Microsoft Dynamics 365 for Operations.                                       |
+| Dispositivo móvel com o Dynamics 365 for Operations instalado | Baixe o aplicativo do Dynamics 365 for Operations na sua loja de aplicativos móveis.                                                                           |
 
 ## <a name="introduction"></a>Introdução
-Geralmente, as empresas devem mais remessas e vários recebimentos estoque de cada dia. Os movimentos alteram constantemente o status disponível de estoque. O espaço de trabalho disponível móvel permite estoque ver o status disponível de estoque entre empresas, para que você possa obter as introspecções as mais recentes em dados de estoque no dispositivo móvel de sua escolha. Independentemente de você trabalhar no depósito, em compras, vendas, na fabricação, ou o management, com ou outras funções, você pode acessar os dados disponíveis de estoque a qualquer momento e em qualquer lugar. O espaço de trabalho móvel fornece uma exibição instantânea do status disponível através de recursos, além permite exibir o estoque disponível pelas instalações, reservas atuais, materiais e de estoque unreserved. Se você inserir números de item para ver o estoque disponível, e executar uma pesquisa filtrada disponível para produtos ou grades. Especificamente, espaço de trabalho fornece móvel esses recursos:
+Geralmente, as empresas têm várias remessas e vários recebimentos de estoque a cada dia. Esses movimentos alteram constantemente o status disponível do estoque. O espaço de trabalho móvel disponível permite ver o status disponível em estoque entre empresas, para que você possa obter as informações mais recentes sobre dados de estoque no dispositivo móvel de sua escolha. Independentemente de trabalhar no depósito, em compras, em vendas, na fabricação, ou no gerenciamento, ou ter outras funções, você pode acessar os dados disponíveis de estoque a qualquer momento e em qualquer lugar. O espaço de trabalho móvel fornece uma exibição instantânea do status disponível através de recursos, e permite exibir o estoque disponível pelas instalações, reservas atuais de materiais e de estoque disponível não reservado. Também é possível inserir números de item para consultar o estoque disponível, e executar uma pesquisa filtrada de produtos ou variantes disponíveis. Especificamente, espaço de trabalho móvel fornece esses recursos:
 
--   Você pode pesquisar o número ou o nome do produto subproduto para encontrar produtos para exibir o status disponível de estoque em.
--   Para produtos selecionados, você pode exibir as seguintes informações:
+-   Você pode pesquisar por número ou o nome de produto para encontrar produtos para exibir o status disponível do estoque.
+-   Para produtos selecionados, é possível exibir as seguintes informações:
     -   Estoque disponível por site
     -   Estoque disponível por depósito
-    -   Estoque disponível por localização
-    -   Estoque disponível por lote (para produto lote- controlados)
+    -   Estoque disponível por local
+    -   Estoque disponível por lote (para produtos controlados por lote)
     -   Estoque disponível por status de estoque
 
 <!-- -->
 
--   O estoque do produto for mostrado disponível das seguintes maneiras:
-    -   O estoque físico (esta exibição representa a quantidade total.)
-    -   Reservado pela esta exibição (representa o valor permitido.)
-    -   O quantidade física disponível (esta exibição representa o valor disponível que não possui nenhuma reserva.)
+-   O estoque disponível do produto é mostrado das seguintes maneiras:
+    -   Por estoque físico (esta exibição representa o valor total.)
+    -   Por reserva física (esta exibição representa o valor reservado.)
+    -   Por físico disponível (Esta exibição representa o valor disponível que não tem reservas).
 
 ## <a name="get-started"></a>Introdução
-Para obter iniciado no dispositivo móvel:
+Para começar em seu dispositivo móvel:
 
-1.  Do repositório móvel descritivo, baixar e instalar o Microsoft Dynamics 365 para o descritivo de operações.
-2.  Inicie a descritivo no dispositivo.
-3.  Insira a URL do 365.
-4.  Insira a empresa para conectar-se. Por exemplo, insira USMF ** **.
-5.  A primeira vez que que se conectar, será solicitado para o nome de usuário e a senha para o Microsoft Dynamics 365 para a conta de operações. Insira suas credenciais. Depois que se conectar, verá espaços de trabalho disponíveis para sua empresa.
+1.  Na sua loja de aplicativos móveis, baixe e instale o aplicativo do Microsoft Dynamics 365 for operations.
+2.  Inicie o aplicativo no seu dispositivo.
+3.  Insira sua URL do Dynamics 365.
+4.  Insira a empresa à qual deseja se conectar. Por exemplo, insira **USMF**.
+5.  No primeiro acesso, são solicitados nome de usuário e senha da sua conta do Microsoft Dynamics 365 for Operations. Insira suas credenciais. Após se conectar, você verá os espaços de trabalho da sua empresa.
 
-Exibir espaços de trabalho do celular descritivo, primeiramente publicar espaços de trabalho o dynamics desejados para o 365 descritivo de operações.
+Para exibir os espaços de trabalho no seu aplicativo móvel, primeiro você deve publicar os espaços de trabalho desejados para o aplicativo do Dynamics 365 for Operations.
 
-1.  Dynamics 365 Inicial para as operações.
-2.  Ir ** administração de sistema ** &gt; ** de instalação ** &gt; ** ** parâmetros do sistema.
-3.  Selecione ** gerenciamento descritivo móvel **.
+1.  Inicie o Dynamics 365 for Operations.
+2.  Vá para **Administração do sistema** &gt; **Configuração** &gt; **Parâmetros do sistema**.
+3.  Selecione o **Gerenciar aplicativo móvel**.
 4.  Selecione o espaço de trabalho para publicar a plataforma móvel.
-5.  ** Publicar selecione o espaço de trabalho. **
-6.  Atualizar o dispositivo para consultar espaços de trabalho publicados.
+5.  Selecione **Publicar espaço de trabalho**.
+6.  Atualize seu dispositivo para ver os espaços de trabalho publicados.
 
-## <a name="view-the-onhand-inventory-for-a-product"></a>Exiba o estoque para um produto lacuna
-1.  No dispositivo móvel, selecione ** estoque disponível ** o espaço de trabalho.
-2.  Selecione ** disponível verificar a existência ** um item. Você verá uma lista de produtos que estão carregados seu descritivo para uso offline. Por padrão, 50 itens são cobrados, mas você pode alterar esse número. Para obter mais informações, consulte o manual anteriormente leitura.
-3.  Se o item não estiver na lista, selecione mais ** pesquisar ** para fazer uma busca online em dynamics 365 para as operações. Pesquisar o número ou subproduto, alterne para um subproduto nome de pesquisa.
-4.  Selecione um produto. Se o item tiver uma imagem, será mostrada a imagem.
-5.  Selecione uma das seguintes opções exibe o status de estoque:
-    -   Exiba disponível por site
-    -   Exiba disponível por depósito
-    -   Exiba disponível por localização
-    -   Exiba por lote disponível (para produto lote- controlados)
-    -   Exiba por status disponível de estoque
+## <a name="view-the-onhand-inventory-for-a-product"></a>Exiba o estoque disponível para um produto
+1.  No seu dispositivo móvel, selecione o espaço de trabalho **Disponível em estoque**.
+2.  Selecione **Verificar estoque disponível de um item**. Você verá uma lista de produtos que estão carregados para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas você pode alterar esse número. Para obter mais informações, consulte o manual de pré-leitura.
+3.  Se o item não estiver na lista, selecione **Pesquisar mais** para fazer uma pesquisa online no Dynamics 365 for Operations. Pesquise por número de produto ou alterne para uma pesquisa por nome de produto.
+4.  Selecione um produto. Se o item tiver uma imagem, ela será mostrada.
+5.  Selecione uma das seguintes opções para exibir o status do estoque disponível:
+    -   Exibir estoque por site
+    -   Exibir estoque disponível por depósito
+    -   Exibir estoque disponível por local
+    -   Exibir estoque disponível por lote (para produtos controlados por lote)
+    -   Exibir estoque disponível por status do estoque
 
-    O estoque do produto for mostrado disponível das seguintes maneiras:
-    -   O estoque físico (esta exibição representa a quantidade total.)
-    -   Reservado pela esta exibição (representa o valor permitido.)
-    -   O quantidade física disponível (esta exibição representa o valor disponível que não possui nenhuma reserva.)
+    O estoque disponível do produto é mostrado das seguintes maneiras:
+    -   Por estoque físico (esta exibição representa o valor total.)
+    -   Por reserva física (esta exibição representa o valor reservado.)
+    -   Por físico disponível (Esta exibição representa o valor disponível que não tem reservas).
 
 
 

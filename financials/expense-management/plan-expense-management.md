@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-expense-management"></a>Configurar gerenciamento de despesas
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve as considerações e as alterações que você deve fazer durante o processo de planejamento, antes de configurar o gerenciamento de Despesa no Microsoft Dynamics AX. Na área de gerenciamento de despesas, é possível armazenar informações sobre métodos de pagamento, requisições de viagem, relatórios de despesas, as diretivas, dentre outras coisas. 
 
 Como muitas das decisões que você toma ao planejar sua configuração do gerenciamento de despesas são baseadas na hierarquia da sua organização e na estrutura financeira, você deve consultar os documentos de planejamento para essas áreas.
@@ -133,6 +136,8 @@ Você pode criar políticas de relatório de despesas de modo que sua organizaç
 -   Quando a política expira?
 -   Qual é a regra de política?
 -   Qual é o resultado da regra de política?
+
+
 
 
 

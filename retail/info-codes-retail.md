@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="info-codes"></a>Códigos de informação
 
+[!include[banner](includes/banner.md)]
+
+
 Este artigo oferece uma visão geral sobre códigos informativos, grupos de códigos informativos e como usá-los.
 
 Os códigos de informações fornecem uma maneira de capturar dados em um registro de ponto de venda (PDV). E possível usar códigos de informações para alertar o caixa a inserir informações durante várias ações no PDV, como vendas de item, devolução de itens ou seleção de clientes. Os caixas podem selecionar a entrada de uma lista ou inseri-la como um código, número, data ou texto. É possível atribuir códigos de informações a ações de loja predefinidas, a itens de varejo, a métodos de pagamento, a clientes ou a atividades específicas do ponto de venda. É possível usar os códigos de informações para fazer o seguinte:
@@ -38,7 +41,7 @@ Os códigos de informações fornecem uma maneira de capturar dados em um regist
 -   Solicitar ao caixa para inserir um valor ou selecionar em uma lista de subcódigos quando a caixa registradora for aberta sem realizar uma operação de vendas.
 
 ## <a name="info-codes-group-in-retail-and-commerce"></a>Grupo de códigos informativos no varejo e no comércio
-Em dynamics 365 - venda para operações de varejo, você pode criar grupos de códigos informativos. Os grupos de códigos de informações adicionam flexibilidade, permitindo a definição de códigos de informações e seu uso de maneiras mais versáteis. É possível usar grupos de códigos de informações das seguintes maneiras:
+No Microsoft Dynamics 365 for Operations - Varejo, você pode criar grupos de códigos informativos. Os grupos de códigos de informações adicionam flexibilidade, permitindo a definição de códigos de informações e seu uso de maneiras mais versáteis. É possível usar grupos de códigos de informações das seguintes maneiras:
 -   Definir os códigos de informações e os reutilizar facilmente. Os códigos de informações incluídos em grupos de códigos de informações não têm dependência predefinida de outros códigos de informações. É possível incluir o mesmo código de informações em vários grupos de códigos de informações e usar a priorização para apresentar os mesmos códigos de informações na ordem em que fará sentido em qualquer situação específica.
 -   Vincular códigos de informações para outros códigos de informações ou grupos de códigos de informações para coletar informações sobre um produto ou uma transação, sem ter que definir um código separado de informações ou código de informações vinculado para cada cenário.
 
@@ -47,6 +50,8 @@ Em dynamics 365 - venda para operações de varejo, você pode criar grupos de c
 
  
 -
+
+
 
 
 

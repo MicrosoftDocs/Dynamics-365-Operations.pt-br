@@ -1,6 +1,6 @@
 ---
 title: "Criar planos de remuneração variável"
-description: "A remuneração variável compõe o pagamento irregular de um funcionário, como bônus ou prêmios de estoque. Este tópico descreve os componentes a serem configurados para usar a remuneração variável e inserir um funcionário em um plano de remuneração variável."
+description: "A remuneração variável compõe o pagamento irregular de um funcionário, como bônus ou prêmios de estoque. Este tópico descreve os componentes que devem ser configurados antes de usar uma remuneração variável e inscrever um funcionário em um plano de remuneração variável."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="create-variable-compensation-plans"></a>Criar planos de remuneração variável
 
+[!include[banner](includes/banner.md)]
+
+
 A remuneração variável compõe o pagamento irregular de um funcionário, como bônus ou prêmios de estoque. Este artigo descreve os componentes que devem ser configurados antes de usar uma remuneração variável e inscrever um funcionário em um plano de remuneração variável.
 
 O cálculo de valores de remuneração variável para os funcionários pode se basear em vários fatores, como o desempenho do funcionário, o nível de remuneração de um funcionário e o desempenho do departamento.
@@ -39,22 +42,22 @@ Os **Tipos de remuneração variável **é um componente necessário. Os tipos d
 
 ### <a name="describe-vesting-rules"></a>Descrever regras de titularidade
 
-Como alternativa, as empresas podem configurar **regras de titularidade**. Investindo regras descrevem como prêmio variável deve ser atribuída com o tempo. Por exemplo, uma regra de benefício proporcional diferido poderia indicar que o funcionário receberá 25 por cento do prêmio total para cada ano quatro próximos anos. Investindo as regras são informacionais.
+Como alternativa, as empresas podem configurar **regras de titularidade**. Regras de benefício proporcional diferido descrevem como o prêmio variável deve ser alocado com o tempo. Por exemplo, uma regra de benefício proporcional diferido pode indicar que o funcionário receberá 25% do seu prêmio total a cada ano nos próximos quatro anos. Regras de benefício proporcional diferido são apenas informações.
 
 ## <a name="variable-compensation-plans"></a>Planos de remuneração variável
-O **plano de remuneração variável** contém as regras, os métodos de cálculos e os valores padrão para o cálculo da remuneração variável para os funcionários inscritos. Quando você cria um plano de remuneração variável, você deve definir o tipo de compensação variável. O tipo de compensação variável determina se o sistema calculará um valor monetário ou número de unidades do prêmio. Você também deve definir o método de cálculo:
+O **plano de remuneração variável** contém as regras, os métodos de cálculos e os valores padrão para o cálculo da remuneração variável para os funcionários inscritos. Ao criar um plano de remuneração variável, você deve definir o tipo de remuneração variável. O tipo de remuneração variável determina se o sistema calcula um valor monetário ou um número de unidades como prêmio. Você também deve definir o método de cálculo:
 
--   ** ** O ponto – o cálculo do prêmio se baseia variável a partir em remuneração fixa que o funcionário recebeu em uma data específica. A data será especificada no evento de processo aos novos valores de compensação são processados.
--   **Composição** – O valor de um prêmio é calculado para cada taxa de pagamento exclusiva de remuneração fixa que o funcionário recebeu entre a data de início do ciclo e a data final do ciclo do evento de processo. As taxas são adicionadas juntas para determinar no prêmio final. Por exemplo, durante o ciclo, transferido um funcionário a uma posição diferente que tem uma taxa de pagamento diferente. Nesse caso, o prêmio variável será ajustado para o período de tempo em que o funcionário recebeu cada taxa de pagamento.
+-   **Pontual** – O cálculo do prêmio variável é baseado na remuneração fixa que o funcionário recebeu em uma data específica. A data é especificada no evento de processo quando novos valores de remuneração são processados.
+-   **Composição** – O valor de um prêmio é calculado para cada taxa de pagamento exclusiva de remuneração fixa que o funcionário recebeu entre a data de início do ciclo e a data final do ciclo do evento de processo. As taxas são então adicionadas conjuntamente para determinar o prêmio final. Por exemplo, durante o ciclo, um funcionário transferido para uma posição diferente que recebeu uma taxa de pagamento diferente. Nesse caso, o prêmio variável será ajustado para o período de tempo em que o funcionário recebeu cada taxa de pagamento.
 
 O valor do prêmio variável pode ser baseado em um percentual do salário base normal do funcionário ou um número de unidades definido.
 
--   Selecione a opção **Porcentagem de base** para inserir uma porcentagem padrão e especifique se a base deve ser a taxa de pagamento fixa do funcionário ou o ponto de controle para o nível de remuneração. O nível de remuneração é definido no trabalho do funcionário. Os pontos de referência da estrutura de remuneração pode ser definido como o ponto de controle no plano de remuneração fixa. O sistema usará a remuneração em nível de fá-la-á funcionário e remissão recíproca ao ponto de controle a ser listado no plano de remuneração fixa do funcionário para o valor do ponto de controle para o nível de remuneração de um funcionário. O valor do ponto de controle será usado em vez de taxa de pagamento fixa do funcionário como base para a concessão.
--   Selecione a opção** Número de unidades** para inserir um número de unidades padrão, o valor de cada unidade e na moeda do valor unitário se o plano de remuneração não for em dinheiro (por exemplo, 200 unidades do estoque, que são avaliadas em 40 reais) ou apenas o número de unidades caso o plano de remuneração seja um para um prêmio em dinheiro. Para um prêmio em dinheiro, o funcionário receberá o número de unidades especificado na moeda usada para o plano de remuneração fixa (por exemplo, 500 unidades de USD 1). O controle de relacionamento um para um deve ser usado para indicar se há um mapeamento linear direta entre o número de unidades e o valor da unidade. Quando você cria um plano de remuneração variável para um plano a previsão de estoque usando o número de unidades, esta opção estará bloqueada automaticamente ** Sim **, e o valor unitário for ** ** 1.0000.
+-   Selecione a opção **Porcentagem de base** para inserir uma porcentagem padrão e especifique se a base deve ser a taxa de pagamento fixa do funcionário ou o ponto de controle para o nível de remuneração. O nível de remuneração é definido no trabalho do funcionário. Um dos pontos de referência da estrutura de remuneração pode ser definido como o ponto de controle no plano de remuneração fixa. O sistema usará o nível de remuneração no trabalho do funcionário e estabelecerá uma referência cruzada com o ponto de controle listado no plano de remuneração fixa do funcionário para localizar o valor do ponto de controle do nível de remuneração de um funcionário. O valor de ponto de controle será usado no lugar da taxa de pagamento fixo do funcionário como base do prêmio.
+-   Selecione a opção** Número de unidades** para inserir um número de unidades padrão, o valor de cada unidade e na moeda do valor unitário se o plano de remuneração não for em dinheiro (por exemplo, 200 unidades do estoque, que são avaliadas em 40 reais) ou apenas o número de unidades caso o plano de remuneração seja um para um prêmio em dinheiro. Para um prêmio em dinheiro, o funcionário receberá o número especificado de unidades da moeda usada para o plano de remuneração fixa (por exemplo, 500 unidades de 1 real). O controle de relação de um para um pode ser usado para indicar se há um mapeamento de um para um entre o número de unidades e o valor da unidade. Ao criar um plano de remuneração variável para um plano com pagamentos em dinheiro usando o número de unidades, essa opção é automaticamente bloqueada como **Sim**, e a unidade de valor é **1.0000**.
 
-** Regra de contratação ** configuração permite especificar se todos os funcionários devem receber o mesmo, independentemente aumento de datas em que foram contratados (** regra de contratação ** ** ** = nenhum), ou se os funcionários devem receber uma porcentagem de prêmio baseado no comprimento do emprego durante o ciclo (** regra de contratação ** = ** porcentagem **). 
+A configuração **Regra de contratação** permite especificar se todos os funcionários devem receber o mesmo aumento, independentemente da data em que foram contratados (**Regra de contratação** = **Nenhum**), ou se os funcionários devem receber uma porcentagem de prêmio que se baseia no período de contratação durante o ciclo (**Regra de contratação** = **Percentual**). 
 
-** Força de alavanca ** permite ajustar o prêmio do funcionário, com base no desempenho de departamento de funcionário. Métricas de desempenho pode ser definido para cada departamento ** departamentos ** na página, formulários relacionados abaixo ** ** &gt; ** remuneração ** &gt; ** ** desempenho. A concessão que os funcionários desse departamento recebem depende de depreciação ** porcentagem da meta atingida ** campos, para indicar o desempenho de departamento:
+O **Aproveitamento** permite que você ajuste o prêmio de um funcionário com base no desempenho do departamento do funcionário. As métricas de desempenho podem ser definidas para cada departamento na página **Departamentos**, em **Formulários relacionados** &gt; **Remuneração** &gt; **Desempenho**. O prêmio que os funcionários nesse departamento recebem depende do valor do campo **Porcentagem da meta alcançada**, que indica o desempenho do departamento:
 
 -   Se o desempenho do departamento for 100, o prêmio dos funcionários no departamento será fatorado pela porcentagem que é definida no campo** Pagamento em 100%**.
 -   Se o desempenho do departamento tiver mais de 100, o sistema adicionará a porcentagem definida no campo **1% sobre o objetivo** para a porcentagem que é definida no campo **Pagamento em 100%** até que o valor que é definido no campo **Maior pagamento permitido** seja atingido.
@@ -62,11 +65,11 @@ O valor do prêmio variável pode ser baseado em um percentual do salário base 
 
 Você pode definir** níveis de tolerância** em percentuais de limite, de forma que uma mensagem de aviso seja exibida se a aproveitamento fizer com que a porcentagem esteja fora da porcentagem do limite. 
 
-Por padrão, o sistema procura o departamento que é definido na posição do funcionário. Entretanto, o prêmio para alguns funcionários pode depender do desempenho de vários departamentos. Nesse caso, os vários departamentos e a porcentagem de prêmio atribuída ao desempenho de cada departamento podem ser definidos no registro de funcionário em remuneração variável. Para obter informações, consulte “a seção de registro remuneração variável que rastreia”. 
+Por padrão, o sistema procura o departamento definido na posição do funcionário. No entanto, o prêmio de alguns funcionários pode depender do desempenho de vários departamentos. Neste caso, os vários departamentos e a porcentagem do prêmio alocada ao desempenho de cada departamento podem ser definidos na inscrição de remuneração variável do funcionário. Para obter mais informações, consulte a seção “Inscrição de remuneração variável”. 
 
 O aproveitamento será usado somente se **Pagamento por desempenho** estiver selecionado quando o processo de remuneração for executado. 
 
-** Substituições níveis ** a guia porcentagem permite substituir o padrão ou o número de unidades do prêmio, com base em um nível de remuneração do funcionário. ** Se permitir substituições ** de níveis será definido como Sim ** ** para os funcionários que estão inscritos no plano de remuneração variável, o sistema são o nível de trabalho de um funcionário, e procura-o na tabela de substituições níveis para determinar a porcentagem ou o número de unidades do nível. Se o nível não for encontrado na tabela das substituições, a porcentagem ou o número de unidades padrão geral ** ** de guia serão usadas. A porcentagem e o número de unidades podem ser substituídos no registro de funcionário no plano de remuneração variável.
+A guia **Substituições de níveis** permite que você substitua a porcentagem padrão do prêmio ou o número de unidades, com base no nível de remuneração do funcionário. Se **Habilitar substituições nos níveis** for definido como **Sim** para os funcionários que estão inscritos no plano de remuneração variável, o sistema obtém o nível do trabalho de um funcionário e procura-o na tabela de substituições para determinar a porcentagem ou o número de unidades para o nível. Se o nível não for encontrado na tabela de substituições, a porcentagem ou o número de unidades padrão na guia **General** serão usadas. A porcentagem e o número de unidades também podem ser substituídos na inscrição de funcionários no plano de remuneração variável.
 
 ## <a name="variable-compensation-enrollment"></a>Inscrição em remuneração variável
 ### <a name="determine-who-is-eligible-for-the-plan"></a>Determina quem está qualificado para o plano
@@ -80,7 +83,7 @@ Quando você estiver pronto para realizar a inscrição dos funcionários em um 
     -   Os campos **Função** e **Tipo de trabalho** na guia **Classificação do trabalho**
     -   O campo **Nível** na guia **Remuneração**
 -   Na página **Posições**: os campos **Departamento** e **Região de remuneração**.
--   ** Funcionários ** página em: Informações sobre associações de trabalhadores associada às associações de trabalhadores de funcionário abaixo ** informações &gt; pessoais ** ** ** na guia do **** de ****
+-   Na página **Funcionários**: as informações sobre as associações de funcionários que estão associadas ao funcionário em **Informações pessoais** &gt; **Associações de funcionários** na guia ****Funcionário****
 
 ### <a name="enable-enrollment-for-the-variable-compensation-plan"></a>Habilitar a inscrição para o plano de remuneração variável.
 
@@ -88,19 +91,21 @@ Na página **Planos de remuneração variável**, defina a opção **Habilitar i
 
 ### <a name="enroll-the-employee"></a>Inscrever o funcionário.
 
-Agora, você pode inscrever funcionários no plano de remuneração variável. Para inscrever um funcionário, vá para a página **Funcionários** e selecione o funcionário. Em seguida, no painel de ações, clique ** remuneração ** &gt; ** inscrição do plano variável **. 
+Agora, você pode inscrever funcionários no plano de remuneração variável. Para inscrever um funcionário, vá para a página **Funcionários** e selecione o funcionário. Em seguida, no Painel de Ação, clique em **Remuneração** &gt; **Inscrição do plano variável**. 
 
-**Nota:** **Inscrição** deve estar definido como **Sim** no plano de remuneração variável. ** Plano ** o campo mostra apenas planos que o funcionário está qualificado para, com base em regras de eligibilidade configuradas para os planos. Se uma regra de qualificação não estiver definida para um plano, nenhum funcionário tiver direito para o plano. 
+**Nota:** **Inscrição** deve estar definido como **Sim** no plano de remuneração variável. O campo **Plano** mostra somente os planos para os quais o funcionário estiver qualificado com base nas regras de qualificação que estão configuradas para esses planos. Se nenhuma regra de qualificação for configurada para um plano, nenhum funcionário será qualificado para o plano. 
 
-Verifique se ** data efetiva ** o campo está definida corretamente. Se o plano de remuneração variável usa ** composição ** o método de cálculo, a data de efetivação de registro pode ser considerada durante o cálculo do prêmio do funcionário. 
+Verifique se o campo **Data efetiva** está definido corretamente. Se o plano de remuneração variável usa o método de cálculo **Composição**, a data efetiva de registro pode ser considerada durante o cálculo do prêmio do funcionário. 
 
-Você pode usar ** substituições ** guia para substituir valores específicos do funcionário. Por exemplo, se ** regra de contratação ** será definido ** porcentagem ** o plano, e de admissão diferente deve ser usado no cálculo de porcentagem de contratação de funcionário, você pode definir a data de admissão ** contratar a data da regra ** no campo. É possível substituir ** porcentagem de prêmio ** ** o valor ou número de unidades ** o valor para um funcionário específico, dependendo das configurações de plano. Esses valores são fatorados ainda por regra de contratação, por fatoras de desempenho, e por outras configurações do plano. 
+Você pode usar a guia **Substituições** para substituir os valores específicos para o funcionário. Por exemplo, se a **Regra de contratação** estiver definida como **Percentual** no plano e uma data de contratação diferente deve ser usado durante o cálculo da porcentagem de contratação do funcionário, você pode definir a data de contratação no campo **Data da regra de contratação**. Também é possível substituir o valor **Porcentagem do prêmio** ou o valor **Número de unidades** para um funcionário específico, dependendo das configurações do plano. Esses valores ainda são fatorados pela regra de contratação, por fatores de desempenho e por outras configurações do plano. 
 
-** Substituições organizacionais ** são usadas para basear o prêmio de um funcionário no desempenho de um ou vários departamentos. O percentual alocado entre departamentos devem totalizar 100. O desempenho individual do funcionário é considerado também. Essas configurações são usadas apenas se ** pagamento por desempenho ** é selecionado quando o processo de remuneração será executado.
+**Substituições da organização** são usadas para basear o prêmio de um funcionário no desempenho de um ou vários departamentos. A porcentagem que está alocada entre departamentos deve totalizar 100 por cento. O desempenho individual do funcionário também é considerado. Essas configurações são usadas apenas se o **Pagamento por desempenho** estiver selecionado quando o processo de remuneração é executado.
 
 <a name="see-also"></a>Consulte também
 --------
 
 [Planos de remuneração](compensation-plans.md)
+
+
 
 

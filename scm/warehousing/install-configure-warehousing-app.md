@@ -1,6 +1,6 @@
 ---
-title: "Instalar e configurar o Microsoft Dynamics 365 para operações &#8211; Armazenamento"
-description: "Este tópico descreve como instalar e configurar o Microsoft Dynamics 365 para operações do armazenamento."
+title: "Instalação e configuração do Microsoft Dynamics 365 for Operations &#8211; Warehousing"
+description: "Este tópico descreve como instalar e configurar o Microsoft Dynamics 365 for Operations - Warehousing."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-04-04
@@ -26,78 +26,78 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="install-and-configure-microsoft-dynamics-365-for-operations-8211-warehousing"></a>Instalar e configurar o Microsoft Dynamics 365 para operações &#8211; Armazenamento
+# <a name="install-and-configure-microsoft-dynamics-365-for-operations-8211-warehousing"></a>Instalação e configuração do Microsoft Dynamics 365 for Operations &#8211; Warehousing
 
-Este tópico descreve como instalar e configurar o Microsoft Dynamics 365 para operações do armazenamento.
+Este tópico descreve como instalar e configurar o Microsoft Dynamics 365 for Operations - Warehousing.
 
-Dynamics 365 para operações - id é um aplicativo disponível em Play Google Store e no Windows Store. Para a versão atual do Microsoft Dynamics 365 para operações, este descritivo é fornecido como um componente autônomo, que significa a auto- implantação dispositivos usados para tarefas de depósito. Para usar o descritivo no dynamics 365 do ambiente de operações, você deve baixar o dispositivo em cada descritivo e configurá-lo para conectar-se ao 365 para o ambiente de operações. Este tópico descreve como instalar o descritivo em seus dispositivos. Também explica como configurar o descritivo para conectar-se ao 365 para o ambiente de operações.
+Dynamics 365 for Operations - Warehousing é um aplicativo disponível na Play Google Store e na Windows Store. Para a versão atual do Microsoft Dynamics 365 for Operations, este aplicativo é fornecido como um componente autônomo, o que significa a auto-implantação de dispositivos usados para tarefas de depósito. Para usar o aplicativo em seu ambiente do Dynamics 365 for Operations, você deve baixar o aplicativo em cada dispositivo e configurá-lo para conectar-se ao ambiente do Dynamics 365 for Operations. Este tópico descreve como instalar o aplicativo em seus dispositivos. Também explica como configurar o aplicativo para conectar-se ao ambiente do Dynamics 365 for Operations.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-O descritivo disponível em Android e sistemas operacionais Windows. Para usar esse descritivo, você deve ter um dos sistemas operacionais suportados instalados em seus dispositivos. Você também pode ter uma das seguintes versões suportadas do 365 para as operações. Use as informações na seguinte tabela para avaliar se o ambiente do hardware e o software está pronto para oferecer a instalação.
+O aplicativo está disponível em sistemas operacionais Android e Windows. Para usar este aplicativo, você deve ter um dos sistemas operacionais suportados instalados em seus dispositivos. Você também deve ter uma das seguintes versões suportadas do Dynamics 365 for Operations. Use as informações na seguinte tabela para avaliar se o ambiente do hardware e o software está pronto para oferecer suporte à instalação.
 
 | Plataforma                    | Versão                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Android                     | 4.4, 5.0, 6.0                                                                                                                                                               |
 | Windows (UWP)               | Windows 10 (todas as versões)                                                                                                                                                   |
-| Dynamics 365 for Operations | Microsoft Dynamics 365 para a versão 1611 de operações - ou 7.0/7.0.1 versão de dados dynamics AX no Microsoft Dynamics e de preparo do Microsoft Dynamics AX 2 KB atualização com 3210014 de hotfix |
+| Dynamics 365 for Operations | Microsoft Dynamics 365 for Operations versão 1611 ou Microsoft Dynamics Dynamics AX versão 7.0/7.0.1 e Microsoft Dynamics AX, atualização da plataforma 2 com hotfix KB 3210014 |
 
-## <a name="get-the-app"></a>Obter o descritivo
--   O Windows (-) [UWP dynamics 365 para operações do armazenamento em Windows Store] (https://www.microsoft.com/store/apps/9p1bffd5tstm)
--   - Android [dynamics 365 para operações - armazena em que Play Google Store] (https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
+## <a name="get-the-app"></a>Obter o aplicativo
+-   Windows (UWP) - [Dynamics 365 for Operations - Warehousing na Windows Store](https://www.microsoft.com/store/apps/9p1bffd5tstm)
+-   Android - [Dynamics 365 for Operations - Warehousing na Google Play Store](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
-## <a name="create-a-web-service-application-in-active-directory"></a>Crie uma solicitação de serviço da Web em O active Directory
-Para habilitar o descritivo para interagir com dinâmica específica servidor 365 para operações, registre uma ordem de serviço da Web em Azure Active Directory para dynamics 365 do inquilino operações. Por motivo de segurança, recomendamos que você cria uma ordem de serviço da Web para cada dispositivo que você usa. Para criar uma solicitação de serviço da Web em Azure Active Directory (AD de Azure), complete as seguintes etapas:
+## <a name="create-a-web-service-application-in-active-directory"></a>Criar um aplicativo de serviços da Web no Active Directory
+Para habilitar o aplicativo para interagir com o servidor específico do Dynamics 365 for Operations, registro o aplicativo de serviço da Web em um Azure Active Directory para o locatário do Dynamics 365 for Operations. Por motivo de segurança, recomendamos que você crie um aplicativo de serviço da Web para cada dispositivo que você usar. Para criar um aplicativo de serviço da Web no Azure Active Directory (Azure AD), conclua as seguintes etapas:
 
-1.  Em um navegador, vá< para> https://manage.windowsazure.com.
-2.  Insira o nome e a senha do usuário que tem acesso à subscrição de Azure.
-3.  No portal de Azure, no painel esquerdo de navegação, clicar ** ** o Active Directory. []. (/media/wh-01-active-directory-example.png) [![(wh-01-ative-directory-example]. /media/wh-01-active-directory-example.png)](. /media/wh-01-active-directory-example.png)
-4.  Na grade, selecione a instância do active Directory que é usada por dynamics 365 para as operações.
-5.  Na barra de ferramentas superior, clique ** aplicativos **. [![(wh-02-ative-directory-applications]. /media/wh-02-active-directory-applications-1024x197.png)](. /media/wh-02-active-directory-applications.png)
-6.  No painel inferior, clique em adicionar. ** ** ** Adicionar aplicativo ** inicia o assistente.
-7.  Insira um nome para a solicitação e selecione ** aplicativo Web e/ou API de Web **. [![(wh-03-ative-directory-add-application]. /media/wh-03-active-directory-add-application.png)](. /media/wh-03-active-directory-add-application.png)
-8.  Insira o sinal- URL, que é a URL de aplicativo no inquilino, a URL de operações raiz. Sinal- URL não estiver sendo usado atualmente ativamente autenticar descritivo no, mas é um campo obrigatório. Insira a URL no mesmo campo de ID de URI descritivo. [![(wh-04-ad-add-properties]. /media/wh-04-ad-add-properties.png)](. /media/wh-04-ad-add-properties.png)
-9.  ** Vá configurar ** a guia. [![(wh-05-ad-configure-app]. /media/wh-05-ad-configure-app.png)](. /media/wh-05-ad-configure-app.png)
-10. Rolar para baixo até que você consulte ** permissões a outros aplicativos ** a seção. Clique ** adicionar o aplicativo. ** [![(wh-06-ad-app-add-permissions]. /media/wh-06-ad-app-add-permissions.png)](. /media/wh-06-ad-app-add-permissions.png)
-11. Selecione ** Microsoft Dynamics ERP ** na lista. ** Clique em verificação concluída no canto ** botão direito da página. [![(wh-07-ad-select-permissions]. /media/wh-07-ad-select-permissions.png)](. /media/wh-07-ad-select-permissions.png)
-12. ** Em permissões delegados ** lista, selecione as caixas de seleção. Click **Save**. [![(wh-08-ad-delegate-permissions]. /media/wh-08-ad-delegate-permissions.png)](. /media/wh-08-ad-delegate-permissions.png)
-13. Faça uma nota das seguintes informações:
-    -   ** ID de cliente ** - porque o acúmulo da página, verá ** ID de cliente ** exibido.
-    -   ** A chave ** - ** chaves ** na seção, cria uma chave selecionando a duração, copia e a chave. Esta chave será referida posteriormente como ** confidencialidade ** de cliente.
+1.  Em um navegador da Web, vá para <https://manage.windowsazure.com>.
+2.  Insira o nome e a senha do usuário que tem acesso à assinatura do Azure.
+3.  No Portal do Azure, no painel de navegação esquerdo, clique em **Active Directory**.[](./media/wh-01-active-directory-example.png)[![wh-01-active-directory-example](./media/wh-01-active-directory-example.png)](./media/wh-01-active-directory-example.png)
+4.  Na grade, selecione a instância do Active Directory que é usada pelo Dynamics 365 for Operations.
+5.  Na barra de ferramentas superior, clique em **Aplicativos**. [![wh-02-active-directory-applications](./media/wh-02-active-directory-applications-1024x197.png)](./media/wh-02-active-directory-applications.png)
+6.  No painel inferior, clique em **Adicionar**. O assistente **Adicionar aplicativo** é iniciado.
+7.  Insira um nome para o aplicativo e selecione **Aplicativo da Web e/ou API da Web**. [![wh-03-active-directory-add-application](./media/wh-03-active-directory-add-application.png)](./media/wh-03-active-directory-add-application.png)
+8.  Insira o URL de sign-on, que o o URL do aplicativo em seu locatário, o URL raiz das operações. O URL de sign-on atualmente não está sendo usado ativamente na autenticação do aplicativo, mas é um campo obrigatório. Insira a mesma URL no campo URI da ID do Aplicativo. [![wh-04-ad-add-properties](./media/wh-04-ad-add-properties.png)](./media/wh-04-ad-add-properties.png)
+9.  Vá até a guia **Configurar**. [![wh-05-ad-configure-app](./media/wh-05-ad-configure-app.png)](./media/wh-05-ad-configure-app.png)
+10. Role para baixo até ver a seção **Permissões para outros aplicativos**. Clique em **Adicionar aplicativo**. [![wh-06-ad-app-add-permissions](./media/wh-06-ad-app-add-permissions.png)](./media/wh-06-ad-app-add-permissions.png)
+11. Selecione **Microsoft Dynamics ERP** na lista. Clique no botão **Verificação concluída** no canto direito da página. [![wh-07-ad-select-permissions](./media/wh-07-ad-select-permissions.png)](./media/wh-07-ad-select-permissions.png)
+12. Na lista **Delegar Permissões**, marque todas as caixas de seleção. Clique em **Salvar**. [![wh-08-ad-delegate-permissions](./media/wh-08-ad-delegate-permissions.png)](./media/wh-08-ad-delegate-permissions.png)
+13. Anote as seguintes informações:
+    -   **ID do Cliente** - Conforme rola pela página, você verá o **ID do Cliente**.
+    -   **Chave** - Na seção **Chaves**, crie uma chave, selecionando a duração e copie a chave. Esta chave será mencionada posteriormente como **Segredo do cliente**.
 
-## <a name="create-and-configure-a-user-account-in-dynamics-365-for-operations"></a>Criar e configurar uma conta de usuário em dynamics 365 para operações
-Para habilitar o dynamics 365 para as operações que usa seu aplicativo de AD de Azure, você precisará concluir as etapas de configuração:
+## <a name="create-and-configure-a-user-account-in-dynamics-365-for-operations"></a>Criar e configurar uma conta de usuário no Dynamics 365 for Operations
+Para habilitar o Dynamics 365 for Operations para usar o aplicativo Azure AD, é necessário concluir as seguintes etapas de configuração:
 
-1.  Crie uma nova conta de usuário em Azure Active Directory para dynamics 365 do inquilino operações. A finalidade dessa conta de usuário for acessar o serviço específico de personalizado descritivo de armazenamento, que o dynamics 365 para o servidor de expõe operações. Após concluir a etapa, você terá as suas credenciais de WMDP, que consistem em um endereço de email de WMDP e uma senha de WMDP. Para saber sobre as etapas básicas para adicionar usuários ao de Azure AD dinâmica e 365 para operações, consulte este tutorial: [Se inscrever para Microsoft Dynamics 365 para assinatura] operações (/dynamics365/operations/dev-itpro/sign-up-preview-subscription).
-2.  Crie uma dynamics 365 para o usuário de operações que correspondem às credenciais do usuário de armazenamento descritivo.
-    1.  Em dynamics 365 para operações, vai ** administração de sistema ** &gt; ** a comum ** &gt; ** ** usuários.
-    2.  Criar um novo usuário.
-    3.  Atribua o usuário de dispositivo móvel depósito, conforme mostrado a seguir de captura de tela. [![(wh-09-add-user-security-role]. /media/wh-09-add-user-security-role.png)](. /media/wh-09-add-user-security-role.png)
+1.  Criar uma nova conta de usuário no Azure Active Directory para o locatário do Dynamics 365 for Operations. A finalidade dessa conta de usuário é acessar o serviço personalizado específico do aplicativo warehousing, que o servidor do Dynamics 365 for Operations expõe. Após concluir esta etapa, você terá as credenciais do usuário de WMDP, que consiste em um endereço de email e senha do WMDP. Para obter mais informações sobre as etapas básicas para adicionar usuários ao Azure AD e Dynamics 365 for Operations, consulte este tutorial: [Inscrever-se para uma assinatura do Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/sign-up-preview-subscription).
+2.  Crie um usuário do Dynamics 365 for Operations que corresponda às credenciais do usuário do aplicativo warehousing.
+    1.  No Dynamics 365 for Operations, vá para **Administração do sistema** &gt; **Comum** &gt; **Usuários**.
+    2.  Crie um novo usuário.
+    3.  Atribua o usuário do dispositivo móvel do Warehouse, conforme mostrado na seguinte captura de tela. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
-3.  Associe a solicitação de Azure Active Directory com o usuário de armazenamento de descritivo.
-    1.  Em dynamics 365 para operações, vá ** administração de sistema ** &gt; ** de instalação ** &gt; ** aplicativos de Azure ** o Active Directory.
+3.  Associe o aplicativo Azure Active Directory ao usuário do aplicativo Warehousing.
+    1.  No Dynamics 365 for Operations, vá para **Administração do sistema** &gt; **Configurar** &gt; **aplicativos Azure Active Directory**.
     2.  Crie uma nova linha.
-    3.  ** Insira o ID de cliente (** obtido na seção a último), insira um nome e o nome, selecione o usuário anteriormente criado. Recomendamos que você marcar todos os dispositivos de forma que você possa facilmente remover o acesso ao 365 para operações dessa página caso que serão perdidos. [![(wh-10-ad-applications-form]. /media/wh-10-ad-applications-form.png)](. /media/wh-10-ad-applications-form.png)
+    3.  Insira o **ID do Cliente** (obtido na última seção), forneça um nome e selecione o usuário criado anteriormente. Recomendamos que você marque todos os dispositivos, de forma que você possa remover facilmente o acesso ao Dynamics 365 for Operations desta página, em caso de perda. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
 
-## <a name="configure-the-application"></a>Configure o aplicativo
-Configure o dispositivo em descritivo para conectar o dynamics 365 para o servidor de operações com o aplicativo de AD de Azure. Para isso, siga estas etapas.
+## <a name="configure-the-application"></a>Configurar o aplicativo
+É necessário configurar o aplicativo no dispositivo para conectar-se ao servidor Dynamics 365 for Operations através do aplicativo Azure AD. Para fazer isso, conclua as seguintes etapas.
 
-1.  Em descritivo, vá ** configurações de conexão. **
-2.  Desmarcar ** modo de demonstração ** o campo. [![(wh-11-app-connection-settings-demo-mode]. /media/wh-11-app-connection-settings-demo-mode-169x300.png)](. /media/wh-11-app-connection-settings-demo-mode.png)
-3.  Insira as seguintes informações: ** - ID de cliente ativa de diretório de Azure ** - ID de cliente será obtido na etapa 13 em “cria um aplicativo de serviço da Web em O active Directory”. - ** A confidencialidade de cliente ativa de diretório de Azure ** - a confidencialidade de clientes é obtida na etapa 13 em “cria um aplicativo de serviço da Web em O active Directory”. - ** O recurso ativo de diretório de Azure ** o recurso de diretório de AD de Azure descreve o dynamics 365 para a URL raiz operações. ** Nota **: Este campo não termina com um caractere de barra (/). - ** Inquilino ativo de diretório de Azure ** - do inquilino AD de diretório de Azure usado ao dynamics 365 para o servidor de operações: https://login.windows.net/your-AD-tenant-ID&lt;&gt;. Por exemplo: https://login.windows.net/contosooperations.onmicrosoft.com. 
-** Nota **: Este campo não termina com um caractere de barra (/). - ** Empresa ** - insira a entidade legal em dynamics 365 para as operações em que a solicitação de emprego se conectar. [![(wh-12-app-connection-settings]. /media/wh-12-app-connection-settings-169x300.png)](. /media/wh-12-app-connection-settings.png)
-4.  Selecione ** ** botão voltar no canto superior esquerdo de aplicativo. O aplicativo conectará agora a sua dynamics 365 para o servidor de operações e a tela de logon para o trabalhador de depósito será exibido. [![(wh-13-log-in-screen]. /media/wh-13-log-in-screen-180x300.png)](. /media/wh-13-log-in-screen.png)
+1.  No aplicativo, vá para **Configurações da conexão**.
+2.  Desmarque o campo **Modo de demonstração**. [![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
+3.  Insira as seguintes informações: - **ID do Cliente do Azure Active Directory** - O ID do cliente é obtido na etapa 13 em "Criar um aplicativo de serviços da Web no Active Directory". - **Segredo do cliente do Azure Active Directory** - O segredo do cliente é obtido na etapa 13 em "Criar um aplicativo de serviços da Web no Active Directory". - **Recurso do Azure Active directory** - O recurso do Azure AD directory mostra o URL raiz do Dynamics 365 for Operations. **Nota**: Este campo não termina com um caractere de barra (/). - **Locatário do Azure Active directory** - O locatário do Azure AD directory usado com o servidor do Dynamics 365 for Operations: https://login.windows.net/&lt;your-AD-tenant-ID&gt;. Por exemplo: https://login.windows.net/contosooperations.onmicrosoft.com. 
+**Nota**: Este campo não termina com um caractere de barra (/). - **Empresa** - Insira a entidade legal no Dynamics 365 for Operations para a qual você quer conectar o aplicativo. [![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
+4.  Selecione o botão **Voltar** no canto superior esquerdo do aplicativo. O aplicativo agora conectará seu servidor do Dynamics 365 for Operations e a tela de logon do trabalhador do Warehouse será exibida. [![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
 
 ## <a name="remove-access-for-a-device"></a>Remover acesso de um dispositivo
-Em caso de um dispositivo perdidas ou compromisso, remova acesso o dynamics 365 para operações do dispositivo. Estas etapas descrevem o processo recomendado para remover acesso.
+Em caso de perda ou comprometimento do dispositivo, será necessário remover o acesso do dispositivo ao Dynamics 365 for Operations. Estas etapas a seguir descrevem o processo recomendado para remover o acesso.
 
-1.  Em dynamics 365 para operações, vá ** administração de sistema ** &gt; ** de instalação ** &gt; ** aplicativos de Azure ** o Active Directory.
-2.  Excluir a linha que corresponde o dispositivo a que você deseja remover acesso. ** Nota abaixo de ID de cliente ** usado para o dispositivo removido.
-3.  Conectar o portal de Azure< clássico em https://manage.windowsazure.com>.
-4.  Clicar ** Active Directory ** o ícone no menu esquerdo, e clique no diretório.
-5.  No menu superior, clique ** aplicativos **, e no aplicativo que deseja configurar. ** Início rápido ** o página aparecerá com logon único e outras informações de configuração.
-6.  Clicar ** configurar ** guia, para rolar baixo e garantir que ** ** ID de cliente do aplicativo seja igual ao da etapa 2 nesta seção.
-7.  Clicar ** ** botão excluir na barra de comandos.
-8.  Clique Sim ** ** na mensagem de confirmação.
+1.  No Dynamics 365 for Operations, vá para **Administração do sistema** &gt; **Configurar** &gt; **aplicativos Azure Active Directory**.
+2.  Exclua a linha que corresponde ao dispositivo para o qual você deseja remover o acesso. Anote o **ID do Cliente** usado para o dispositivo removido.
+3.  Conecte-se ao portal do Azure em <https://manage.windowsazure.com>.
+4.  Clique no ícone **Active Directory** no menu esquerdo e, em seguida, clique no diretório desejado.
+5.  No menu superior, clique em **Aplicativos** e, em seguida, clique no aplicativo que você deseja configurar. A página **Início Rápido** será exibida com informações sobre sign-on único e outras configurações.
+6.  Clique na guia **Configurar**, role para baixo e certifique-se de que o **ID do Cliente** do aplicativo é igual ao da etapa 2 desta seção.
+7.  Clique no botão **Excluir** na barra de comandos.
+8.  Clique em **Sim** na mensagem de confirmação.
 
 
 

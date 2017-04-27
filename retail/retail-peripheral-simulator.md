@@ -1,6 +1,6 @@
 ---
-title: Retail peripheral simulator
-description: "Este tópico descreve a ferramenta periférica de simulador que é fornecida com Microsoft Dynamics 365 para operações de varejo."
+title: "Simulador periférico de varejo"
+description: "Este tópico descreve a ferramenta de simulação periférica fornecida com o Microsoft Dynamics 365 para Operações - Varejo."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 266544
 ms.assetid: 16f31e70-15fc-441e-9727-e6a31c3a48f5
 ms.search.region: global
@@ -25,50 +25,53 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="retail-peripheral-simulator"></a>Retail peripheral simulator
+# <a name="retail-peripheral-simulator"></a>Simulador periférico de varejo
 
-Este tópico descreve a ferramenta periférica de simulador que é fornecida com Microsoft Dynamics 365 para operações de varejo.
+[!include[banner](includes/banner.md)]
+
+
+Este tópico descreve a ferramenta de simulação periférica fornecida com o Microsoft Dynamics 365 para Operações - Varejo.
 
 <a name="overview"></a>Visão Geral
 --------
 
-Microsoft Dynamics 365 para o simulador operações - periférico de varejo é uma ferramenta que ajuda você teste, configurado, e solucionem problemas os dispositivos periféricos usados em ambientes de varejo. Você pode usar o simulador periférico para simplificar os testes de periféricos varejistas, e para isolar os problemas associados causados por quanto de dispositivo ou de instalação funcionando errado incorretos. O simulador periférico inclui um programa de área de trabalho que caracterize versões virtuais de dispositivos do dynamics 365 para retail - operações oferece suporte. Uma seção de cada dispositivo virtual mostra a interação entre o dispositivo e de venda manager (POS). Você também pode usá-las para fornecer a entrada válida para vários cenários POS. O simulador periférico suporta a interação entre o retail e estes dispositivos virtuais:
+O simulador periférico do Microsoft Dynamics 365 para Operações - Varejo é uma ferramenta que ajuda você a configurar, testar e solucionar problemas de dispositivos periféricos usados em ambientes de varejo. Você pode usar o simulador periférico para agilizar os testes com periféricos de varejo, e para isolar problemas causados por configurações incorretas ou por drivers de dispositivo que apresentem mau funcionamento. O simulador periférico inclui um programa que contém versões virtuais de dispositivos suportados pelo Dynamics 365 para Operações - Varejo. Uma seção para cada dispositivo virtual mostra a interação entre o dispositivo e o ponto de venda (PDV) do varejo. Você também pode usá-las para fornecer entradas válidas para vários cenários de PDV. O simulador periférico suporta interações entre o PDV e os seguintes dispositivos virtuais:
 
--   ** Impressora ** – o simulador pode mostrar periférico recebimentos configurados para impressora POS.
--   ** Linha exibição ** – você pode configurar a exibição virtual para mostrar a atividade física em uma linha.
--   ** Leitor de tarja magnética (MSR) ** – enviar eventos simulados de tarja magnética no retail simulador de periférico.
--   ** Gaveta ** – é possível simular uma físico gaveta de dinheiro.
--   ** Gaveta – 2 ** configurando uma segunda gaveta de dinheiro em simulador periférico, é possível simular os cenários que envolvem um único registro POS tenha duas turno ativos.
--   ** O scanner ** o scanner de código de barras que o simulador virtual periférico suporta pode emitir eventos do scanner de código de barras.
--   ** A escala ** – uma escala virtual permite simular a interação de itens pesados com o retail.
--   ** Teclado (PIN) do número de identificação pessoal ** – é possível simular operações de teclado do PIN. ** Observação: ** Terá suporte para implementar uma físico teclado do PIN em connector de pagamento.
--   ** A captura de subscrição ** – o simulador inclui periférico virtual um dispositivo de assinaturas de configurar para solicitar assinaturas necessárias para algumas propostas, como pagamentos de conta de cliente.
+-   **Impressora** – O simulador periférico pode exibir recibos configurados para uma impressora de PDV.
+-   **Display de linhas** – Você pode configurar um display de linhas virtual para exibir as atividades em um display de linhas físico.
+-   **Leitor de tarja magnética (LTM)** – Você pode enviar eventos simulados de tarja magnética para o PDV através do simulador periférico.
+-   **Gaveta** – Você pode simular uma gaveta de dinheiro física.
+-   **Gaveta 2** – Ao configurar uma segunda gaveta de dinheiro no simulador periférico, é possível simular cenários que envolvam um único registrador de PDV com dois turnos ativos.
+-   **Scanner** – O leitor de código de barras virtual suportado pelo simulador periférico pode emitir eventos de leitura de códigos de barras.
+-   **Balança** – Uma balança virtual permite que você simule a interação de itens pesados com o PDV.
+-   **Número de identificação pessoal (PIN)** – Você pode simular operações em um teclado de PIN. **Observação:** Você deve implementar o suporte para um teclado de PIN físico através do conector de pagamento.
+-   **Captura de assinatura** – O simulador periférico inclui um dispositivo virtual de captura de assinatura que pode ser configurado para solicitar assinaturas necessárias para algumas propostas, como pagamentos de conta de cliente.
 
-Você também pode usar o simulador periférico para simular os eventos de cunha do teclado que se originam de um scanner de código de barras e um LTM. O simulador de peripheral virtual suporta especificamente a fixação e a incorporação de objeto para dispositivos de POS (OPOS.)
+Você também pode usar o simulador periférico para simular eventos via teclado originados de um leitor de código de barras e LTM. O simulador periférico virtual suporta especificamente a Conexão e Integração de Objetos para dispositivos de PDV (OPOS) de Varejo.
 
-## <a name="key-scenarios"></a>Cenários principais
+## <a name="key-scenarios"></a>Cenários chave
 ### <a name="troubleshooting"></a>Solução de problemas
 
-Você pode usar o simulador periférico para solucionar problemas a configuração do dispositivo. Se você não tiver o simulador periférico ou segundo um dispositivo da mesma classe, pode ser difícil determinar onde saídas derivadas. Porém, quando você tem simulador periférico, você pode configurar dispositivos virtuais, executando o mesmo código caminhos e a lógica comercial usados para dispositivos físicas. A perspectiva de simulador, periférico a principal diferença entre dispositivos virtuais e físicas dispositivos é o objeto de serviço, ou motorista do dispositivo. Para dispositivos físicas, o objeto de serviço é fornecido pelo fabricante do dispositivo. Em contraste, para o simulador periférico, os objetos de serviço são fornecidos como parte de simulador periférico. Quando o simulador periférico está funcionando apropriadamente, se um dispositivo não funciona corretamente depois que o nome do dispositivo no perfil de hardware é alterado para nome de um dispositivo real, você pode assumir que há um problema com o objeto de serviço que o informou fabricante.
+Você pode usar o simulador periférico para solucionar problemas na configuração do dispositivo. Se você não tiver o simulador periférico ou um outro dispositivo da mesma classe, pode ser difícil determinar a origem dos problemas. Por outro lado, tendo o simulador periférico você pode configurar dispositivos virtuais e executar os mesmos caminhos de código e lógica comercial utilizados em dispositivos físicos. Do ponto de vista do simulador periférico, a principal diferença entre dispositivos virtuais e físicos é o objeto de serviço, ou o driver do dispositivo. Para dispositivos físicos, o objeto de serviço é fornecido pelo fabricante do dispositivo. Por outro lado, para o simulador periférico, os objetos de serviço são fornecidos como parte do próprio simulador. Quando o simulador periférico está funcionando corretamente, se um dispositivo não funciona corretamente depois que o nome do dispositivo é alterado no perfil de hardware para o nome de um dispositivo real, você pode assumir que há um problema com o objeto de serviço que o fabricante forneceu.
 
 ### <a name="training"></a>Treinamento
 
-Você pode usar o simulador periférico para adicionar a uma camada realista treinamento de caixa quando uma configuração de seu hardware físico não estiver disponível. Quando o simulador periférico incluído em cenários de treinamento, o caixa poderá mais eficiente interaja com o retail a fornecer entrada como verificações de código de barras de produto e passares de vale-presente, observando e recebimentos que são impressas para uma determinada transação.
+Você pode usar o simulador periférico para adicionar uma camada realista ao treinamento de caixa quando uma configuração de hardware físico não estiver disponível. Quando o simulador periférico é incluído em cenários de treinamento, o caixa pode interagir de modo mais eficiente com o PDV fornecendo entradas como leituras de código de barras do produto e troca de cartões de presente, e também observando qual recibo é impresso para cada transação específica.
 
 ### <a name="testing"></a>Testando
 
-Você pode usar o simulador periférico para testar códigos de barras de produto, formatos de recebimento, etc, sem precisar implantar físico hardware em um ambiente virtual. Porque físico hardware não é necessária, e você não precisará implantar o POS em uma a estação de hardware ou físico em um computador, mais rápido possível testar as alterações feitas no back.
+Você pode usar o simulador periférico para testar códigos de barras de produtos, formatos de recibos, e assim por diante, sem a necessidade de implantar hardware físico em um ambiente virtual. Uma vez que não é necessário hardware físico, e você não precisa implantar um cliente PDV em uma estação de hardware ou computador físico, você pode testar mudanças realizadas no back office de maneira mais rápida.
 
 ## <a name="set-up-the-peripheral-simulator"></a>Configurar o simulador periférico
 ### <a name="set-up-a-hardware-profile"></a>Configurar um perfil de hardware
 
-1.  Para configurar o simulador periférico, vá ** varejo e comércio ** &gt; ** configuração de canal ** &gt; ** configuração POS ** &gt; ** POS analisa ** &gt; ** ** perfis de hardware.
-2.  Para criar um novo perfil, clique em novo. ** **
-3.  Insira valores em ** número do perfil e ** ** descrição ** em campos.
-4.  Use a tabela a seguir para configurar os dispositivos virtuais que deve ser testada. Aqui está uma explicação das colunas na tabela:
-    -   ** O dispositivo ** – esta coluna indica o nome de FastTab que expandir para configurar o dispositivo.
-    -   ** O tipo de dispositivo ** – esta coluna indica o valor selecionado no campo que é rotulado com o nome do dispositivo.
-    -   ** O nome do dispositivo ** – esta coluna indica o valor exato inserido para o nome do dispositivo. ** Importante: ** Nomes de dispositivo que é fornecida aqui são necessários, pois a estação de hardware usa esses nomes específicos para abordar os dispositivos. Se você não usa esses nomes específicos, o dispositivo não será útil.
+1.  Para configurar o simulador periférico, vá para **Comércio e Varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**.
+2.  Para criar um novo perfil, clique em **Novo**.
+3.  Insira valores nos campos **Número do perfil** e **Descrição**.
+4.  Use a tabela a seguir para configurar os dispositivos virtuais que devem ser testados. Esta é uma explicação sobre as colunas da tabela:
+    -   **Dispositivo** – Essa coluna fornece o nome da Guia Rápida que você utiliza para configurar o dispositivo.
+    -   **Tipo de dispositivo** – Essa coluna fornece o valor que você seleciona no campo rotulado com o nome do dispositivo.
+    -   **Nome do dispositivo** – Essa coluna fornece o valor exato inserido para o nome do dispositivo. **Importante:** Os nomes dos dispositivos fornecidos aqui são necessários, pois a estação de hardware usa esses nomes específicos para dirigir-se aos dispositivos. Se você não usar esses nomes específicos, o dispositivo não será utilizável.
 
     | Dispositivo            | Tipo de dispositivo | Nome do dispositivo              |
     |-------------------|-------------|--------------------------|
@@ -82,121 +85,123 @@ Você pode usar o simulador periférico para testar códigos de barras de produt
     | Teclado do PIN           | OPOS        | MockOPOSPinPad           |
     | Assinatura | OPOS        | MockOPOSSignatureCapture |
 
-** Observação: ** Nenhum de instalação específico no perfil de hardware é exigido simular eventos de cunha de teclado do scanner de código de barras e de LTM.
+**Observação:** Nenhuma configuração específica no perfil de hardware é exigida para simular eventos via teclado do leitor de código de barras e LTM.
 
-### <a name="assign-the-hardware-profile-to-a-register"></a>Atribuir um perfil de hardware a um registro
+### <a name="assign-the-hardware-profile-to-a-register"></a>Atribuir o perfil de hardware a uma registradora
 
-1.  Depois que o perfil de hardware é criado, vai ** varejo e comércio ** &gt; ** a configuração de canal ** &gt; ** configuração POS ** &gt; ** ** registros.
-2.  ** O registros POS ** lista, clique no link ** número de registradora ** campo para que o registro deve usar o simulador periférico.
+1.  Assim que o perfil de hardware for criado, vá para **Comércio e varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Registradoras**.
+2.  Na lista **Registradoras de PDV**, clique no link do campo **Número da registradora** referente a registradora que deve usar o simulador periférico.
 3.  Clique em **Editar**.
-4.  ** Em perfis **, na seção ** perfil de hardware ** campo, selecione o perfil de hardware que você criou para periféricos virtuais.
-5.  Click **Save**.
+4.  Na seção **Perfis**, no campo **Perfil de hardware**, selecione o perfil de hardware criado para periféricos virtuais.
+5.  Clique em **Salvar**.
 
-### <a name="synchronize-changes-to-the-channel-database"></a>Sincronizar alterações no base de dados de canal
+### <a name="synchronize-changes-to-the-channel-database"></a>Sincronizar alterações na base de dados do canal
 
-1.  Ir ** varejo e comércio ** ** &gt; varejo específicas TI ** &gt; ** o plano ** de distribuição.
-2.  Selecione 1090 ** ** a agenda de distribuição.
-3.  Clique ** execução agora ** para sincronizar alterações ao retail.
+1.  Vá para **Comércio e varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
+2.  Selecione a agenda de distribuição **1090**.
+3.  Clique em **Executar agora** para sincronizar alterações no PDV.
 
-Depois que dados são sincronizados, o novo perfil de hardware e alterações no registro são disponíveis no base de dados do canal.
+Assim que os dados forem sincronizados, o novo perfil de hardware e as alterações na registradora estarão disponíveis na base de dados do canal.
 
 ## <a name="install-the-peripheral-simulator"></a>Instalar o simulador periférico
-1.  Ir ** varejo e comércio ** &gt; ** a configuração de canal ** &gt; ** configuração POS ** &gt; ** perfis POS ** &gt; ** ** perfis de hardware.
-2.  Clique em download ** **, e em PeripheralSimulator ** **. ** Observação: ** Será necessário desativar bloqueador de pop-ups antes de simulador baixe o periférico.
-3.  Após o download é concluído, abra ** downloads ** a pasta, clique duas vezes VirtualPeripherals.msi ** ** para iniciar o installer.
-4.  Instalar o simulador periférico usando as configurações padrão.
+1.  Vá para **Comércio e varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**.
+2.  Clique em **Baixar**, e em seguida clique em **PeripheralSimulator**. **Observação:** Você deve desativar o bloqueio de pop-ups antes de baixar o simulador periférico.
+3.  Assim que terminar de baixar, abra a pasta **Downloads**, e clique duas vezes no **VirtualPeripherals.msi** para iniciar o instalador.
+4.  Instale o simulador periférico utilizando as configurações padrão.
 
-Além do simulador periférico, instale-o objetos comuns de controle de serviços de consultoria de Monroe. Se não, o simulador periférico não funcionará corretamente. Para baixar os objetos comuns de controle, vá< para> http://monroecs.com/oposccos_current.htm.
+Além do simulador periférico, você deve instalar os objetos de controle usuais da Monroe Consulting Services. Caso contrário, o simulador periférico não funcionará corretamente. Para baixar os objetos de controle usuais, vá para <http://monroecs.com/oposccos_current.htm>.
 
-## <a name="using-the-peripheral-simulator"></a>Usando o simulador periférico
-Para iniciar o simulador, clique em Iniciar periféricos ** ** no computador, tipo simulador ** periférico varejista **, e marque o descritivo quando ele aparece nos resultados da pesquisa. Depois que você iniciar o simulador periférico, clique no nome do dispositivo para consultar dispositivos suporte. Dispositivos eles serão listados como guias no lado esquerdo da janela. Para exibir um dispositivo específico, clique na guia do dispositivo.
+## <a name="using-the-peripheral-simulator"></a>Utilizando o simulador periférico
+Para iniciar o simulador periférico, clique em **Iniciar** no seu computador, digite **Simulador periférico de varejo**, e selecione o aplicativo quando ele aparecer nos resultados da busca. Depois que iniciar o simulador periférico, clique em um nome de dispositivo para consultar os dispositivos suportados. Esses dispositivos estarão listados como abas no lado esquerdo da janela. Para exibir um dispositivo específico, clique na aba do dispositivo desejado.
 
-### <a name="line-display-capabilities"></a>Recursos exibição de linha
+### <a name="line-display-capabilities"></a>Recursos do display de linhas
 
-A exibição da linha é o primeiro dispositivo que é listado em simulador periférico. Quando a linha exiba virtual é configurada, mostra linhas de item como são digitalizados a transação POS. Além das linhas de item, a exibição mostra o total devido quando uma proposta é selecionada no POS. Também mostra o saldo devido se for inserida uma proposta mas ainda um saldo devido para a transação. Quando o retail não estiver sendo usado, uma mensagem poderá ser exibida para indicar que até está fechado. Configure a mensagem ** linha ** exibição em FastTab o perfil de hardware.
+O display de linhas é o primeiro dispositivo listado no simulador periférico. Quando o display de linhas virtual é configurado, ele exibe itens assim que são escaneados durante a transação no PDV. Além dos itens, o display exibe o total devido quando uma proposta é selecionada no PDV. Ele também exibe o saldo devido caso uma proposta seja inserida mas ainda exista um saldo devido para a transação. Quando o PDV não está sendo usado, uma mensagem pode ser exibida para indicar que o caixa está fechado. Você deve configurar a mensagem na Guia Rápida **Display de linhas** no perfil de hardware.
 
 ### <a name="cash-drawer-capabilities"></a>Recursos da gaveta de dinheiro
 
-A caixa registradora seja segundo dispositivo que é listado em simulador periférico. Quando o perfil de hardware é configurado para usar gavetas virtuais de dinheiro, o retail abre a gaveta de dinheiro para o deslocamento ativo em resposta a operações de gaveta como declarações de meios, e para que o caixa possa fazer a alteração e depositar o caixa durante transações de pague-e-pegue padrão. As gavetas virtuais de caixa com os rótulos ** gaveta ** principal e secundário ** ** gaveta. Os rótulos representam gaveta gaveta 2 e o perfil de hardware, respectivamente. Quando a gaveta é fechada, uma imagem da caixa registradora fechadas será exibida, e o botão na gaveta de dinheiro fechadas é rotulado ** abrir gaveta **. Se você clicar neste botão, imagem é para substituir uma imagem de uma abrir gaveta de dinheiro para indicar que agora a gaveta é aberta. O botão em abrir gaveta de dinheiro é rotulado ** próximo ** gaveta. Várias operações no retail POS podem ocasionar a gaveta de dinheiro para abrir. A maioria de operações não podem continuar quando a caixa registradora seja aberta. Exceções são alguns procedimentos de fechamento do dia. Se o usuário do retail receberá uma mensagem de erro que indica que uma operação não pode ser realizada quando a caixa registradora seja aberta, o usuário deve fechar a gaveta virtual ou físico de dinheiro para continuar. Se um caixa registradora está marcada como ** compartilhado ** o perfil de hardware, o sistema não verifica a gaveta é fechada antes de uma operação. A operação ocorre como de costume, mesmo se a caixa registradora está aberta. Esse comportamento suporta os cenários nas gavetas de caixa são compartilhadas entre imobiliários, agentes e onde usar um associar uma caixa registradora quando outro associar realizar tarefas não relacionados em seu próprio dispositivo POS. Altera que é feito na gaveta de caixa não é auto-explicativo até turno atual está fechada e uma nova será aberta. turnos
+A gaveta de dinheiro é o segundo dispositivo listado no simulador periférico. Quando o perfil de hardware é configurado para usar gavetas de dinheiro virtuais, o PDV abre a gaveta de dinheiro do turno ativo em resposta a operações da gaveta como declarações de propostas, para que o caixa possa alterar ou depositar dinheiro durante transações padrão de "cash-and-carry". As gavetas de dinheiro virtuais possuem os rótulos **Gaveta principal** e **Gaveta secundária**. Esses rótulos representam, respectivamente, a Gaveta e a Gaveta 2 no perfil de hardware. Quando uma gaveta é fechada, uma imagem de uma gaveta de dinheiro fechada é exibida, e o botão na gaveta de dinheiro fechada recebe o rótulo **Abrir gaveta**. Se você clicar neste botão, a imagem é substituída pela imagem de uma gaveta de dinheiro aberta para indicar que agora a gaveta está aberta. O botão da gaveta de dinheiro aberta recebe o rótulo **Fechar gaveta**. Diversas operações no PDV podem fazer com que a gaveta de dinheiro abra. A maioria das operações não pode continuar enquanto a gaveta de dinheiro estiver aberta. As exceções são alguns procedimentos de final do dia. Se o usuário do PDV receber uma mensagem de erro dizendo que uma operação não pode ser realizada enquanto a gaveta de dinheiro estiver aberta, o usuário deve fechar a gaveta de dinheiro física ou virtual para proceder. Se uma gaveta de dinheiro está marcada como **Compartilhada** no perfil de hardware, o sistema não verifica se a gaveta está fechada antes de uma operação. A operação continua como de costume, mesmo que a gaveta de dinheiro esteja aberta. Esse comportamento suporta cenários onde gavetas de dinheiro são compartilhadas entre associados de vendas, e onde um associado utiliza uma gaveta de dinheiro enquanto outro associado realiza tarefas não relacionadas em seu próprio dispositivo de PDV. As alterações realizadas na gaveta de dinheiro não são evidentes até que o turno atual seja encerrado e um novo turno comece.
 
-### <a name="msr-capabilities"></a>Recursos de LTM
+### <a name="msr-capabilities"></a>Recursos LTM
 
-O simulador periférico oferece suporte robusto para operações virtuais de LTM trabalhando em modo OPOS ou em modo de cunha de teclado. O modo OPOS requer que o ltm é configurada no perfil de hardware para trabalhar como um dispositivo OPOS. Eventos de dados de cunha de teclado de enviar o modo de cunha de teclado apenas ao Microsoft Windows. Além das diferenças em de instalação, os modos de cunha OPOS e teclado de diferentes das seguintes maneiras:
+O simulador periférico oferece suporte robusto para operações virtuais de LTM trabalhando tanto em modo OPOS como em modo via teclado. O modo OPOS requer que o LTM seja configurado no perfil de hardware para trabalhar como um dispositivo OPOS. O modo via teclado apenas envia eventos de dados via teclado ao Microsoft Windows. Além das diferenças na configuração, os modos OPOS e via teclado diferem nos seguintes aspectos:
 
--   O cliente POS habilita dispositivos OPOS para LTM cenários específicos, como os cenários de dados permitem de tarja magnética para a fidelidade ou o vale-presente.
--   Em modo de cunha do teclado, dados periféricos de cunha de teclado de enviar ao campo de simulador ativa quando dados são enviados. Esse comportamento é parecido com o comportamento que ocorre se os dados são inseridos usando um teclado. Para usar o ltm como uma cunha do teclado, o usuário deve alternar de varejo o retail MPOS) moderno (para verificar se os dados forem recebidos no campo atual. Portanto, você pode configurar um atraso, para que o usuário tem tempo para assegurar que os dados estarão enviados para o campo atual.
+-   O cliente PDV habilita dispositivos LTM no modo OPOS em cenários específicos, como cenários que permitam a entrada de dados de cartões presente ou fidelidade.
+-   No modo via teclado, o simulador periférico envia dados via teclado ao campo ativo no momento em que o dado é enviado. Esse comportamento é semelhante ao comportamento que ocorre se os dados são inseridos usando um teclado. Para usar o LTM no modo via teclado, o usuário deve mudar para PDV de Varejo Moderno (MPOS) para garantir que os dados sejam recebidos nos campos corretos. Portanto, você pode configurar um atraso, para que o usuário tenha tempo para garantir que os dados serão enviados aos campos corretos.
 
-#### <a name="testing-gift-and-payment-card-swipes"></a>Passagens de cartão de presentes e pagamento de testes
+#### <a name="testing-gift-and-payment-card-swipes"></a>Testando passagens de cartão de pagamento e cartão presente
 
-O LTM virtual que a simulador fornece periférico também permite configurar dados específicos de LTM a cenários de teste para passagens de cartão de presentes e pagamento. Para criar um cartão, clique no botão do sinal de adição (** **+), selecione o tipo de cartão. Depois especifique o número do cartão ou acompanhar os dados que devem ser enviados ao retail, juntamente com o mês de vencimento e o ano do cartão que você está definindo. O valor selecionado ** tipo de cartão ** o campo é somente um rótulo que pode ser mapeado para um cartão. Este rótulo facilita identificar cartões quando são simulador gasto por periférico. Você pode selecionar as fichas configurados em simulador periférico usando os botões de seta para a esquerda (&lt;****) e a seta para a direita (&gt;****) acima de imagem de cartão. Você pode editar e para excluir usando fichas ** ** ** edição e exclusão ** botões ao lado de sinal de adição (+) ** ** botão.
+O LTM virtual que a simulador periférico fornece também permite configurar dados específicos de LTM para testar cenários de passagens de cartões de pagamento ou de presente. Para criar um cartão, clique no botão com o sinal de mais (**+**), e selecione o tipo de cartão. Depois especifique o número do cartão ou rastreie dados que deveriam ser enviados ao PDV, junto com a data de validade do cartão que está sendo definido. O valor selecionado no campo **Tipo de cartão** é apenas um rótulo que pode ser mapeado a um cartão. Este rótulo facilita a identificação de cartões quando são passados através do simulador periférico. Você pode selecionar cartões que foram configurados no simulador periférico utilizando os botões das setas esquerda (**&lt;**) e direita (**&gt;**) acima da imagem do cartão. Você pode editar e deletar cartões utilizando os botões **Editar** e **Deletar** próximos ao botão com o sinal de mais (**+**).
 
 ### <a name="pin-pad"></a>Teclado do PIN
 
-Você pode configurar o simulador de teclado do PIN para simular um teclado do PIN OPOS. Quando uma transação de (EFT) de transferência eletrônica de fundos é executada no retail e requer o PIN, a estação de hardware liga o dispositivo PIN para solicitar a entrada do PIN. Para trabalhar, o teclado do PIN em simulador periférico requer suporte connector de pagamento de TEF.
+Você pode configurar o simulador de teclado de PIN para simular um teclado de PIN OPOS. Quando uma transação de transferência eletrônica de fundos (TEF) é realizada no PDV e solicita a entrada do PIN, a estação de hardware aciona o dispositivo PIN para se preparar para a entrada do PIN. Para funcionar, o teclado de PIN no simulador periférico precisa de suporte ao conector de pagamento TEF.
 
 ### <a name="printer"></a>Impressora
 
-A impressora de peripheral virtual mostra apenas como recebimentos são impressos POS. Se uma operação de impressão gera vários recebimentos, poderá rolar nos recebimentos.
+A impressora periférica virtual apenas exibe recibos assim que eles são impressos no PDV. Se uma operação de impressão produz múltiplos recibos, você pode percorrer todos eles.
 
-#### <a name="configure-receipt-printing"></a>Configure a impressão de recibo
+#### <a name="configure-receipt-printing"></a>Configurar a impressão de recibos
 
-1.  Ir ** varejo e comércio ** &gt; ** a configuração de canal ** &gt; ** configuração POS ** &gt; ** perfis POS ** &gt; ** ** perfis de hardware.
-2.  Selecione o perfil de hardware que você criou para periféricos virtuais.
-3.  ** ** Impressora, clique em FastTab ** ** edição.
-4.  ** O recibo ID do perfil ** campo, selecione um perfil de recibo.
-5.  Click **Save**.
+1.  Vá para **Comércio e varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**.
+2.  Selecione o perfil de hardware criado para periféricos virtuais.
+3.  Na Guia Rápida **Impressora**, clique em **Editar**.
+4.  No campo **ID de perfil do recibo**, selecione um perfil de recibo.
+5.  Clique em **Salvar**.
 
 ### <a name="scale"></a>Balança
 
-Quando um produto de escala serão adicionadas à transação POS e, em uma balança é configurada, o POS recupera o peso da escala. Na escala virtual e físico, produtos ou o peso deve ser especificado antes que o produto foram adicionadas à transação. Antes de adicionar produtos escala da transação, vá para simulador escala em periférico, e usar o sinal de adição (** **+) e os botões do sinal de menos (–) ** ** ajustar o peso da balança deve relatar. Você também pode inserir o peso desejado diretamente ** ** valor atual do campo. Você pode ajustar as unidades de peso da balança com o sinal de adição (** **+), ** **, edição e exclusão ** ** botões. Assim, as unidades podem ser especificadas com base em produtos que estão da localidade na balança é usada.
+Quando um produto de balança é adicionado à transação do PDV, e existe uma balança configurada, o PDV obtém o peso através da balança. Para ambas as balanças virtual e física, o produto ou peso deve ser especificado antes que o produto seja adicionado à transação. Antes de adicionar o produto de balança à transação, vá até a balança no simulador periférico e use os botões com sinais de mais (**+**) e menos (**–**) para ajustar o peso que a balança deve apresentar. Você também pode inserir o peso desejado diretamente no campo **Valor atual**. Você pode ajustar as unidades de peso da balança usando o sinal de mais (**+**), e os botões **Editar** e **Deletar**. Dessa maneira, as unidades podem ser especificadas com base nos produtos que estão sendo pesados e no local em que a balança é usada.
 
 #### <a name="configure-a-scale-product"></a>Configurar um produto de balança
 
-1.  Ir ** varejo e ** ** comércio ** &gt; ** produtos e categorias ** &gt; ** produtos lançados por categoria **.
+1.  Vá para **Comércio e** **varejo** &gt; **Produtos e categorias** &gt; **Produtos lançados por categoria**.
 2.  Abra o registro do produto.
-3.  Selecione o produto para pesar.
-4.  ** ** Varejo em FastTab, definir ** produto de escala ** a opção de ** nenhum ** a ** Sim **.
+3.  Selecione o produto a ser pesado.
+4.  Na Guia Rápida **Varejo**, defina a opção **Produto de balança** de **Não** para **Sim**.
 
-#### <a name="synchronize-changes-to-the-channel-database"></a>Sincronizar alterações no base de dados de canal
+#### <a name="synchronize-changes-to-the-channel-database"></a>Sincronizar alterações na base de dados do canal
 
-1.  Ir ** varejo e comércio ** ** &gt; varejo específicas TI ** &gt; ** o plano ** de distribuição.
-2.  Selecione 1040 ** ** a agenda de distribuição.
-3.  Clique ** execução agora ** para sincronizar alterações ao retail.
+1.  Vá para **Comércio e varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
+2.  Selecione a agenda de distribuição **1040**.
+3.  Clique em **Executar agora** para sincronizar alterações no PDV.
 
-Depois que os dados forem sincronizadas, quando um produto de escala serão adicionadas à transação POS, o pos verifica a escala para peso.
+Assim que os dados são sincronizados, quando um produto de balança é adicionado à transação de PDV, o PDV verifica a balança para obter o peso.
 
 ### <a name="signature-capture"></a>Assinatura
 
-Virtual o dispositivo de assinaturas solicita a fornecer uma subscrição em teclado virtual de assinaturas quando a proposta utilizada exige uma assinatura. O usuário poderá aceitar a subscrição para mostra no POS. O caixa poderá aceitar a subscrição. A subscrição em é salva com a proposta e sincronizada o back office com outros dados de transação.
+O dispositivo de captura de assinatura virtual solicita ao usuário que forneça uma assinatura no tapete de captura de assinatura virtual sempre que a proposta usada requerer uma assinatura. O usuário poderá aceitar a assinatura para exibi-la no PDV. O caixa poderá então aceitar a assinatura. A assinatura é então salva junto com a proposta e é sincronizada no back office junto com outros dados da transação.
 
 #### <a name="set-up-a-tender-to-require-a-signature"></a>Configurar uma proposta para exigir uma assinatura
 
-1.  Ir ** varejo e comércio ** &gt; ** canais ** &gt; ** lojas ** &gt; ** ** todas as lojas.
+1.  Vá para **Comércio e varejo** &gt; **Canais** &gt; **Lojas de varejo** &gt; **Todas as lojas de varejo**.
 2.  Selecione a loja.
 3.  Clique em **Editar**.
-4.  ** ** Clique em configuração e, em seguida, ** configuração ** na seção, clique ** ** métodos de pagamento.
+4.  Clique em **Configurar**, e então, na seção **Configurar**, clique em **Métodos de pagamento**.
 5.  Clique em **Editar**.
-6.  Selecione o método de pagamento que exige uma assinatura.
-7.  ** ** Em geral, a seção em captura ** assinatura **, define ** use o dispositivo de assinaturas ** a opção ** Sim **.
-8.  ** Valor mínimo de assinaturas ** no campo, insira o valor mínimo que deve acionar a captura de subscrição.
+6.  Selecione o método de pagamento que requer uma assinatura.
+7.  Na seção **Geral**, em **Captura de assinatura**, defina a opção **Utilizar dispositivo de captura de assinatura** para **Sim**.
+8.  No campo **Quantidade mínima para captura de assinatura**, insira a quantidade mínima que deve acionar a captura de assinatura.
 
-#### <a name="synchronize-changes-to-the-channel-database"></a>Sincronizar alterações no base de dados de canal
+#### <a name="synchronize-changes-to-the-channel-database"></a>Sincronizar alterações na base de dados do canal
 
-1.  Ir ** varejo e comércio ** ** &gt; varejo específicas TI ** &gt; ** o plano ** de distribuição.
-2.  Selecione 1070 ** ** a agenda de distribuição.
-3.  Clique ** execução agora ** para sincronizar alterações ao retail.
+1.  Vá para **Comércio e varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
+2.  Selecione a agenda de distribuição **1070**.
+3.  Clique em **Executar agora** para sincronizar alterações no PDV.
 
-Depois que os dados forem sincronizadas, a proposta é usada que exige uma assinatura, o valor atende o limite de assinatura, os avisos POS para uma subscrição em virtual dispositivo de assinaturas.
+Assim que os dados forem sincronizados, quando uma proposta que requer assinatura é usada, e a quantia atinge o limite de assinatura, o PDV solicita uma assinatura no dispositivo de captura de assinatura virtual.
 
-## <a name="additional-configuration"></a>Configuração adicional
-Você pode editar o arquivo de configuração de simulador mais periférico apropriadamente os cenários a rua que está sendo testada. Você pode encontrar o arquivo de configuração em: Carquivos de programas\\\\(x86) Microsoft Dynamics 365\\70 VirtualPeripherals\\\\Microsoft.Dynamics.Commerce.VirtualPeripherals.Client.exe.config. O arquivo de definição define as unidades disponíveis para testar a escala, tipos de cartão disponíveis para teste, o código de barras digita. Por exemplo, alterar os valores de texto do arquivo de configuração, você pode adicionar um novo tipo ou unidade de medida de cartão que possam ser selecionados em tempo de execução. Os novos valores aparecerão depois que o descritivo é reiniciado.
+## <a name="additional-configuration"></a>Configurações adicionais
+Você pode editar o arquivo de configurações do simulador periférico para melhor adaptá-lo aos cenários que deseja testar. Você pode encontrar o arquivo de configuração em C:\\Program Files (x86)\\Microsoft Dynamics 365\\70\\VirtualPeripherals\\Microsoft.Dynamics.Commerce.VirtualPeripherals.Client.exe.config. O arquivo de configuração define as unidades disponíveis para teste na balança, os tipos de cartões disponíveis para teste e os tipos de códigos de barras. Por exemplo, ao modificar os valores de texto no arquivo de configuração, você pode adicionar um novo tipo de cartão ou unidade de medida que pode ser selecionado no momento da execução. Os novos valores aparecerão depois que o aplicativo for reiniciado.
 
 ## <a name="troubleshooting"></a>Solução de problemas
-As atividades do simulador periférico são registradas no simulador periférico. Você pode encontrar o log em: Carquivos de programas\\\\(x86) Microsoft Dynamics 365\\70 VirtualPeripherals\\\\Microsoft.Dynamics.Commerce.VirtualPeripherals.Client.exe.config. De simulador problemas periféricos relatórios também o log de eventos de O Windows, em que você pode acessar ** aplicativo e serviços registram em log ** &gt; ** Microsoft ** &gt; ** DynamicsAX **. Se alterações feitas ao perfil de hardware ou para outras áreas não são evidentes quando você usa MPOS ou o simulador periférico, verifique trabalhos do agendador distribuição usado para sincronizar os dados no base de dados do canal. Se alterações forem sincronizadas mas ainda não foram evidentes no POS, reinicie o cliente do POS. As alterações nas gavetas configurados de caixa não são efetivos até uma nova turno está criada. Portanto, se você fizer alterações nas gavetas de caixa, verifique se você fecha sempre turno existente para testar a nova configuração da gaveta de dinheiro. Ocasionalmente, o motorista de um fabricante é instalado após objetos comuns de controle de serviços de consultoria, Monroe do driver pode fazer com os objetos comuns de controle parem de funcionar corretamente. Nesse caso, você deve reinstalar objetos comuns de controle.
+As atividades do simulador periférico são registradas dentro do simulador periférico. Você pode encontrar o registro em C:\\Program Files (x86)\\Microsoft Dynamics 365\\70\\VirtualPeripherals\\Microsoft.Dynamics.Commerce.VirtualPeripherals.Client.exe.config. O simulador periférico também relata problemas ao registro de eventos do Windows, que pode ser acessado em **Registros de Aplicativos e Serviços** &gt; **Microsoft** &gt; **DynamicsAX**. Se as alterações feitas no perfil de hardware ou em outras áreas não estão evidentes ao utilizar o MPOS ou o simulador periférico, verifique os trabalhos do programador de distribuição que você utilizava para sincronizar dados à base de dados do canal. Se as alterações foram sincronizadas mas ainda não estão evidentes no PDV, reinicie o cliente PDV. As alterações nas gavetas de dinheiro configuradas não se tornam efetivas até que um novo turno seja criado. Portanto, se você fizer alterações nas gavetas de dinheiro, certifique-se de sempre fechar o turno existente para testar a nova configuração da gaveta de dinheiro. Eventualmente, se um driver do fabricante é instalado depois dos objetos de controle usuais da Monroe Consulting Services, o driver pode fazer com que os objetos de controle usuais parem de funcionar corretamente. Nesse caso, você deve reinstalar os objetos de controle usuais.
 
 <a name="see-also"></a>Consulte também
 --------
 
-[Visão geral varejista] de periféricos (retail-peripherals-overview.md)
+[Visão geral sobre os periféricos de varejo](retail-peripherals-overview.md)
+
+
 
 

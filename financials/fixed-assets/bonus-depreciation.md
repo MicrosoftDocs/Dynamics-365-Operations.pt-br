@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bonus-depreciation"></a>Depreciação extra
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece uma visão geral da funcionalidade de depreciações bônus.
 
 Com a depreciação extra, você pode obter valores de depreciação extra durante o primeiro ano em que o ativo é disponibilizado e depreciado. A depreciação extra será obtida antes de qualquer outro cálculo de depreciação. Portanto, é aconselhável usar a depreciação extra com registros que lançar à funcionalidade de contabilização está desabilitado. Você pode usar a opção **Transações de exclusão não lançadas na contabilidade** para excluir transações de histórico dos registros ainda não lançados na contabilidade. Você poderá então acomodar a depreciação extra posteriormente no ciclo de vida de ativo excluindo as transações de depreciação que foram lançadas anteriormente. 
@@ -61,5 +64,7 @@ Quando a depreciação extra for calculada usando o processo de proposta, uma tr
 É possível criar um número ilimitado de registros de depreciação extra. Depois de atribuí-los ao registro de depreciações de grupo de ativos, eles serão aplicados ao registro de depreciações de ativo. 
 
 A depreciação extra é inserida como uma porcentagem ou um valor fixo. Quando você lançar propostas de depreciação, as transações de depreciação extra serão lançadas no registro de depreciações como transações separadas das transações de depreciação.
+
+
 
 

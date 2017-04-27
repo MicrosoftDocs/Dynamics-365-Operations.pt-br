@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-methods-and-conventions"></a>Métodos e convenções de depreciação
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo oferece uma visão geral das convenções de depreciação e os métodos de depreciação com suporte no Microsoft Dynamics AX.
 
 Você pode selecionar vários métodos de depreciação e convenções. A finalidade dos métodos é alocar o valor depreciável do ativo fixo em períodos fiscais. O valor depreciável do ativo fixo é o preço de aquisição, reduzido por um valor de sucata, se houver. 
@@ -66,26 +69,27 @@ Você pode selecionar um dos seguintes métodos de depreciação.
 <a name="see-also"></a>Consulte também
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[Depreciação de ativo fixo](fixed-asset-depreciation.md)
 
-[Straight line service life depreciation](Straight-line-service-life-depreciation.md)
+[Depreciação de vida útil linear](Straight-line-service-life-depreciation.md)
 
-[Reducing balance depreciation](reduce-balance-depreciation.md)
+[Depreciação por declínio](reduce-balance-depreciation.md)
 
-[Manual depreciation](manual-depreciation.md)
+[Depreciação manual](manual-depreciation.md)
 
-[Factor depreciation](factor-depreciation.md)
+[Depreciação por fator](factor-depreciation.md)
 
-[Consumption depreciation](consumption-depreciation.md)
+[Depreciação de consumo](consumption-depreciation.md)
 
-[Straight line life remaining depreciation](straight-line-life-remaining-depreciation.md)
+[Depreciação da vida útil linear restante](straight-line-life-remaining-depreciation.md)
 
-[125 por cento de redução a depreciação] de saldo (125 percent-reducing-balance-depreciation.md)
+[depreciação com declínio de 125%](125-percent-reducing-balance-depreciation.md)
 
-[150 por cento de redução a depreciação] de saldo (150 percent-reducing-balance-depreciation.md)
+[depreciação com declínio de 150%](150-percent-reducing-balance-depreciation.md)
 
-[175 por cento de redução a depreciação] de saldo (175 percent-reducing-balance-depreciation.md)
+[depreciação com declínio de 175%](175-percent-reducing-balance-depreciation.md)
 
-[200 percent reducing balance depreciation](200-percent-reducing-balance-depreciation.md)
+[depreciação com declínio de 200%](200-percent-reducing-balance-depreciation.md)
+
 
 

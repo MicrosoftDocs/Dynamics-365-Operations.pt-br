@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="consumption-depreciation"></a>Depreciação de consumo
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece uma visão geral do Método de consumo de depreciação.
 
 Se você configurar um perfil de depreciação para ativos fixos e selecionar **Consumo** no campo **Método** na página **Perfis de depreciação**, os ativos fixos são atribuídos ao perfil de depreciação com base em sua utilização. Você não precisa definir porcentagens e intervalos na página **Perfis de depreciação**. Depois de criar um período de depreciação que utiliza o método de consumo, você pode configurar o método de várias maneiras.
@@ -64,5 +67,7 @@ O seguinte fator da depreciação de consumo está definido para o dia 31 de jan
 -   A quantidade prevista do ativo fixo é 2.000.
 
 A proposta de depreciação em 31 de janeiro é a seguinte: Quantidade estimada × Porcentagem × Depreciação de unidade 2.000 × 0,10 × 1,5 = 300
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "Põe a home page DE BI"
-description: "Este tópico lista recursos para ajudá-lo usar o power BI com dynamics 365 para as operações."
+title: "Página inicial do Power BI"
+description: "Este tópico lista recursos para ajudá-lo a usar o Power BI com Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,51 +24,56 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="power-bi-home-page"></a>Põe a home page DE BI
+# <a name="power-bi-home-page"></a>Página inicial do Power BI
 
-Este tópico lista recursos para ajudá-lo usar o power BI com dynamics 365 para as operações.
+[!include[banner](../includes/banner.md)]
 
-<a name="power-bi-content-for-dynamics-365-for-operations"></a>Conteúdo de O power BI para dynamics 365 para operações
+
+Este tópico lista recursos para ajudá-lo a usar o Power BI com Microsoft Dynamics 365 for Operations.
+
+<a name="power-bi-content-for-dynamics-365-for-operations"></a>Conteúdo do Power BI para Microsoft Dynamics 365 for Operations
 ------------------------------------------------
 
-| **Feature area**                  | ** Conteúdo de O power BI **                          | ** Onde localizar o conteúdo de O power BI **                                                                                                                                                                                         | ** Saber mais **                                                                                                                                                               |
+| **Área de recursos**                  | **Conteúdo do Power BI**                          | **Onde localizar o conteúdo do Power BI**                                                                                                                                                                                         | **Saber mais**                                                                                                                                                               |
 |-----------------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Gerenciamento financeiro              | Desempenho financeiro                         | O Microsoft Dynamics lifecycle de serviço a esta versão ((LCS) de blocos de conteúdo suporta o dynamics 365 para a versão 1611 de operações.) PowerBI.com (essa versão de blocos de conteúdo suporta Microsoft Dynamics 365 para as operações e 7.0.1 7.0.) | [] Conteúdo de O power BI de desempenho financeiro (financial-performance-power-bi-content-pack.md)                                               |
-|                                   | Gerenciamento de cobranças e de crédito             | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| Gerenciamento de capital humano          | Relatórios de recrutamento                            | LCS                                                                                                                                                                                                                            | [Conteúdo de recrutamento] de O power BI (recruiting-analysis-power-bi-content-pack.md)                                                       |
-|                                   | Competências do funcionário e relatórios de desenvolvimento | LCS                                                                                                                                                                                                                            | [Competências do funcionário e conteúdo] de O power BI de desenvolvimento (employee-competencies-and-development-analysis-power-bi-content-pack.md) |
-|                                   | Relatórios organizacional de treinamento               | LCS                                                                                                                                                                                                                            | [Conteúdo organizacionais] de O power BI de treinamento (organizational-training-analysis-power-bi-content-pack.md)                             |
-|                                   | Medidor de força de trabalho                             | LCS                                                                                                                                                                                                                            | [] Conteúdo de O power BI metro da força de trabalho (workforce-analysis-power-bi-content-pack.md)                                                 |
-|                                   | Relatórios de remuneração e os benefícios             | LCS                                                                                                                                                                                                                            | [] Conteúdo de O power BI de remuneração e os benefícios (compensation-and-benefits-analysis-power-bi-content-pack.md)                         |
+| Gerenciamento financeiro              | Desempenho financeiro                         | Microsoft Dynamics Lifecycle Services (LCS) (Essa versão de pacote de conteúdo oferece suporte ao Microsoft Dynamics 365 for Operations, versão 1611.) PowerBI.com (Essa versão de pacote de conteúdo oferece suporte ao Microsoft Dynamics 365 for Operations 7.0 e 7.0.1.) | [Conteúdo de desempenho financeiro para Power BI](financial-performance-power-bi-content-pack.md)                                               |
+|                                   | Gerenciamento de crédito e cobranças             | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+| Gerenciamento de capital humano          | Relatórios de recrutamento                            | LCS                                                                                                                                                                                                                            | [Recrutamento de conteúdo do Power BI](recruiting-analysis-power-bi-content-pack.md)                                                       |
+|                                   | Competências do funcionário e relatórios de desenvolvimento | LCS                                                                                                                                                                                                                            | [Conteúdo de Competências e Desenvolvimento de Funcionários do Power BI](employee-competencies-and-development-analysis-power-bi-content-pack.md) |
+|                                   | Relatórios de treinamento organizacional               | LCS                                                                                                                                                                                                                            | [Conteúdo do Power BI de treinamento organizacional](organizational-training-analysis-power-bi-content-pack.md)                             |
+|                                   | Métricas de força de trabalho                             | LCS                                                                                                                                                                                                                            | [Conteúdo do Power BI de métricas de força de trabalho](workforce-analysis-power-bi-content-pack.md)                                                 |
+|                                   | Relatórios de remuneração e benefícios             | LCS                                                                                                                                                                                                                            | [Conteúdo de Power BI Remuneração e Benefícios](compensation-and-benefits-analysis-power-bi-content-pack.md)                         |
 | Gerenciamento e contabilidade de projeto | Gerente de prática                              | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| Varejo e comércio               | Desempenho de varejo de canal                    | PowerBI.com                                                                                                                                                                                                                    | [Venda varejo ao conteúdo] de O power BI de desempenho de canal (retail-channel-performance-dashboard-power-bi-data.md)                 |
-| Gerenciamento da cadeia de fornecedores           | Gerenciamento de custo                               | PowerBI.com                                                                                                                                                                                                                    |  [] Conteúdo de O power BI de gerenciamento de custos (cost-management-content-pack.md)                                                          |
-|                                   | Vendas e desempenho de lucratividade           | LCS                                                                                                                                                                                                                            | [] Conteúdo de O power BI de vendas e de desempenho de lucratividade (sales-profitability-performance-content-pack.md)          |
-|                                   | Análise de custos da compra                       | LCS                                                                                                                                                                                                                            | [] Conteúdo de O power BI de teste de produção de compra (purchase-content-pack-for-power-bi.md)                                                 |
-|                                   | Análise de contabilização de custo previsto                      | LCS                                                                                                                                                                                                                            | [] Conteúdo (contabilização de custo previsto do power BI de teste da contabilização de custo previsto analysis-content-pack.md -)                                         |
+| Varejo e comércio               | Desempenho do canal de varejo                    | PowerBI.com                                                                                                                                                                                                                    | [Conteúdo de desempenho dos canais de venda para Power BI](retail-channel-performance-dashboard-power-bi-data.md)                 |
+| Gerenciamento da cadeia de fornecedores           | Gerenciamento de custo                               | PowerBI.com                                                                                                                                                                                                                    |  [Conteúdo do Power BI de gerenciamento de custo](cost-management-content-pack.md)                                                          |
+|                                   | Vendas e desempenho de lucratividade           | LCS                                                                                                                                                                                                                            | [Conteúdo de Power BI de desempenho de lucratividade e vendas](sales-profitability-performance-content-pack.md)          |
+|                                   | Análise de gastos de compra                       | LCS                                                                                                                                                                                                                            | [Conteúdo do Power BI de análise de gasto em compras](purchase-content-pack-for-power-bi.md)                                                 |
+|                                   | Análise de contabilidade de custo                      | LCS                                                                                                                                                                                                                            | [Conteúdo do Power BI Análise de contabilização de custos](cost-accounting-analysis-content-pack.md)                                         |
 |                                   | Desempenho de depósito                         | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
 |                                   | Desempenho de produção                        | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
 
-## <a name="access-power-bi-content-from-lcs"></a>Conteúdo de O power BI de acesso de LCS
-Para obter informações sobre como o download do power BI satisfaça-o e conectar-l dados da sua organização, consulte [conteúdo de O power BI em LCS Microsoft e seus parceiros (power-bi-content-microsoft-partners.md]).
+## <a name="access-power-bi-content-from-lcs"></a>Acessar conteúdo do Power BI do LCS
+Para obter informações sobre como baixar conteúdo do Power BI e conectá-lo a seus dados organizacionais, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md).
 
-## <a name="access-power-bi-content-from-powerbicom"></a>Acessar o conteúdo de O power BI de PowerBI.com
-1.  Conectar [] PowerBI.com (https://www.powerbi.com/).
-2.  Clique ** ** obter dados.
-3.  ** Serviços ** em caixa, clique ** obter **.
-4.  Selecione o bloco de conteúdo que você deseja, e clique em obter. ** **
-5.  Insira a URL de sua dynamics 365 do ambiente de operações. URL deve estar no formato https://YourAOSTenant.cloudax.dynamics.com**&lt;&gt;. ** Click **Next**.
-6.  Selecione oAuth2 ** ** como o método de autenticação, clique em conexão. ** **
-7.  Quando for solicitado, insira uma conta do Microsoft Office de 365 que tenha permissão para acessar seu dynamics 365 do ambiente de operações.
-8.  Após conectou, o processo de importação começa automaticamente. Quando concluída a importação, os relatórios que são incluídos no bloco de conteúdo serão exibidas no painel de navegação. Selecione um relatório para exibir os dados importados.
+## <a name="access-power-bi-content-from-powerbicom"></a>Acessar conteúdo do Power BI do PowerBI.com
+1.  Entrar no [PowerBI.com](https://www.powerbi.com/).
+2.  Clique em **Obter dados**.
+3.  Na caixa **Serviços**, clique em **Obter**.
+4.  Selecione o pacote de conteúdo que deseja e clique em **Obter**.
+5.  Insira a URL de sei ambiente do Microsoft Dynamics 365 for Operations. A URL deve estar no formato **https://&lt;YourAOSTenant&gt;.cloudax.dynamics.com**. Clique em **Avançar**.
+6.  Selecione **oAuth2** como o método de autenticação e clique em **Entrar**.
+7.  Quando for solicitado, insira uma conta do Microsoft Office 365 que tenha permissão para acessar seu ambiente do Microsoft Dynamics 365 for Operations.
+8.  Depois de entrar, o processo importante é iniciado automaticamente. Quando a importação é concluída, os relatórios incluídos no pacote de conteúdo aparecem no painel de navegação. Selecione um relatório para exibir seus dados importados.
 
-## <a name="learn-more-about-the-power-bi-integration"></a>Saiba mais sobre a integração do POWER BI
--   [Power BI integration](power-bi-integration.md)
--   [Visão geral de integração do power BI com armazenamento] entidade (power-bi-integration-entity-store.md)
--   [O autor e distribuir relatórios de O power BI com armazenamento] entidade (author-distribute-power-bi-reports.md)
--   [O power BI PIN relata a espaços de trabalho (pin-power-bi-reports.md])
--   [Conteúdo de O power BI em LCS Microsoft e seus parceiros (power-bi-content-microsoft-partners.md])
+## <a name="learn-more-about-the-power-bi-integration"></a>Saiba mais sobre a integração do Power BI
+-   [Integração do Power BI](power-bi-integration.md)
+-   [Visão geral da integração do Power BI com loja Entidade](power-bi-integration-entity-store.md)
+-   [Relatórios do Power BI de autor e distribuição com loja Entidade](author-distribute-power-bi-reports.md)
+-   [Fixe os relatórios do Power BI aos espaços de trabalho](pin-power-bi-reports.md)
+-   [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md)
 -   [Usar uma configuração de relatório eletrônico para fornecer o Power BI com dados do Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+
 
 
 

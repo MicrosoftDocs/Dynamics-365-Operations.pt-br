@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="straight-line-service-life-depreciation"></a>Depreciação de vida útil linear
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo oferece uma visão geral do Método de depreciação linear com base na vida útil.
 
 Quando você configura um perfil de depreciação de ativo fixo e seleciona Vida útil linear no campo Método, na página Perfis de depreciação, os ativos com esse perfil de depreciação atribuído serão depreciados com base na vida útil total do ativo. Esse geralmente é o mesmo valor de depreciação em cada período de depreciação. 
@@ -57,7 +60,7 @@ Por exemplo, se você selecionar Anual, a depreciação anual é lançada apenas
 
 Caso você selecione Fiscal no campo Ano de depreciação, será usada a depreciação linear com base na vida útil. Ela é calculada com base no ano fiscal, que é definido pelo calendário fiscal que é especificado para o registro de depreciação, ou pelo calendário fiscal selecionado na página Razão. Os calendários fiscais são configurados na página Calendários fiscais.
 
-Por exemplo, o ano fiscal do 1º de julho ao 30 de junho, a depreciação. parte o 1º de julho O ano fiscal pode ter mais ou menos do que 12 meses. A depreciação é ajustada automaticamente para cada período fiscal. A duração do próximo ano fiscal baseia-se nos períodos fiscais configurados quando você cria um novo ano fiscal no formulário Calendários fiscais. 
+Por exemplo, no ano fiscal entre 1 de julho e 30 de junho, o cálculo da depreciação começa em 1 de julho. O ano fiscal pode ter mais ou menos do que 12 meses. A depreciação é ajustada automaticamente para cada período fiscal. A duração do próximo ano fiscal baseia-se nos períodos fiscais configurados quando você cria um novo ano fiscal no formulário Calendários fiscais. 
 
 Se você selecionar Fiscal, as opções a seguir estarão disponíveis no campo Frequência do período:
 -   Anual lança o valor total da depreciação calculada para o ano fiscal como um valor no último dia do ano fiscal.
@@ -98,9 +101,11 @@ A vida útil do ajuste de aquisição é igual a do ativo fixo e começa no mome
 | Ano 3 | 14.000 / 5 = 2.800                        | 10.200 - 2.800 = 7.400                |
 | Ano 4 | 14.000 / 5 = 2.800                        | 7.400 - 2.800 = 4.600                 |
 | Ano 5 | 14.000 / 5 = 2.800                        | 4.600 - 2.800 = 1.800                 |
-| Ano 6 | 800 Restantes\*                           | 1.800 – 800 = 1.000                   |
+| Ano 6 | Restante 800*\*                           | 1.800 – 800 = 1.000                   |
 
-\*quando o valor restante é menor que o valor de depreciação, somente o valor restante menos o valor residual será obtido.
+\**Como o valor restante é menor que o valor de depreciação, somente o valor restante menos o valor residual será obtido.
+
+
 
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="positive-pay-overview"></a>Visão geral de pagamento positivo
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo oferece informações sobre o pagamento positivo, usado para gerar uma lista eletrônica de cheques que pode ser apresentada a um banco. 
 
 O pagamento positivo é usado para gerar uma lista eletrônica de cheques que pode ser apresentada a um banco. Os arquivos de pagamento positivo podem ajudar os bancos a impedir fraudes com cheques. Você configura o pagamento positivo para gerar uma lista eletrônica de cheques todas as vezes que cheques forem impressos. Em seguida, quando um cheque é apresentado ao banco, o banco compara o cheque à lista de cheques emitidos anteriormente. Se o cheque corresponder a um cheque na lista, o banco o liberará. Se o cheque não corresponder a um cheque na lista, o banco o reterá para revisão.
@@ -38,10 +41,12 @@ Os arquivos de pagamento positivo são criados usando entidades de dados. Antes 
 
 Para cada conta bancária que você deseja gerar as informações de pagamento positivo, é necessário atribuir o formato de pagamento positivo. Depois de gerar pagamentos, você poderá gerar um arquivo de pagamento positivo para uma única entidade legal e uma única conta bancária. Como alternativa, você pode gerar arquivos de pagamento positivo para várias entidades legais e contas bancárias ao mesmo tempo. 
 
-Depois que os cheques listados em um arquivo de pagamento positivo forem pagos, você receberá um número de confirmação do banco. Você poderá confirmar positivo o arquivo de pagamento do Microsoft Dynamics 365 para as operações. 
+Depois que os cheques listados em um arquivo de pagamento positivo forem pagos, você receberá um número de confirmação do banco. Então, será possível confirmar o arquivo de pagamento positivo no Microsoft Dynamics 365 for Operations. 
 
 Se você tiver de alterar um arquivo de pagamento positivo, poderá cancelá-lo. Em seguida, para cada cheque no arquivo de pagamento positivo, o campo que indica se esse cheque foi incluído em um arquivo de pagamento positivo será redefinido.
 
-Para obter mais informações, consulte [configurado e gerencia os arquivos de pagamento] positivos (setup-generate-positive-pay-files.md).
+Para obter mais informações, consulte [Configurar e gerar arquivos de pagamento positivo](set-up-generate-positive-pay-files.md).
+
+
 
 

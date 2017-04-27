@@ -1,6 +1,6 @@
 ---
-title: Configurar nomes de campo descritivo de armazenar descritivo no
-description: "Este tópico descreve como configurar e definir nomes e prioridades descritivo do campo de depósito em dynamics 365 para as operações."
+title: "Configurar nomes de campo de aplicativo no aplicativo de depósito"
+description: "Este tópico descreve como definir e configurar os nomes e prioridades de campo do aplicativo de depósito no Dynamics 365 for Operations."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-app-field-names-in-warehousing-app"></a>Configurar nomes de campo descritivo de armazenar descritivo no
+# <a name="configure-app-field-names-in-warehousing-app"></a>Configurar nomes de campo de aplicativo no aplicativo de depósito
 
-Este tópico descreve como configurar e definir nomes e prioridades descritivo do campo de depósito em dynamics 365 para as operações. 
+[!include[banner](../includes/banner.md)]
 
-** Observação: ** Este tópico se aplica aos recursos de gerenciamento de depósito. Não se aplica a recursos em gerenciamento de estoque. Dynamics 365 para operações - id é um aplicativo de usar para executar tarefas de depósito. Você pode configurar e definir nomes de campo usado em descritivo, bem como definir a prioridade em que nomes de campo devem ser atribuídos. Este tópico explica como configurar e definir esses nomes e prioridades descritivo de campo do depósito, e como são usadas em dynamics 365 para operações do armazenamento. Para informações sobre como configurar a conexão ao dynamics 365 para as operações do armazenamento, consulte o tutorial [a instalação e a configuração dinâmica 365 para operações - para armazenar] install-configure-warehousing-app.md ().
 
-<a name="configure-warehouse-app-field-names"></a>Configurar nomes de campo de descritivo de depósito
+Este tópico descreve como definir e configurar os nomes e prioridades de campo do aplicativo de depósito no Dynamics 365 for Operations. 
+
+**Observação:** este tópico se aplica aos recursos do Gerenciamento de depósito. Ele não se aplica aos recursos do Gerenciamento de estoque. Dynamics 365 for Operations - O Depósito é um aplicativo que você pode usar para realizar tarefas de depósito. Você pode definir e configurar os nomes de campo usados no aplicativo, bem como configurar a prioridade à qual os nomes de campo devem ser atribuídos. Este tópico explica como definir e configurar esses nomes e prioridades de campo do aplicativo de depósito e como eles são usados no Dynamics 365 for Operations - Depósito. Para obter informações detalhadas sobre como configurar a conexão com o Dynamics 365 for Operations - Depósito, consulte o tutorial [Instale e configure o Dynamics 365 for Operations - Depósito](install-configure-warehousing-app.md).
+
+<a name="configure-warehouse-app-field-names"></a>Configurar nomes de campo do aplicativo de depósito
 ===================================
 
-Quando você usa o dynamics 365 para operações - para armazenar no dispositivo móvel, você pode configurar como os metadados serão exibidos no dispositivo em ** nomes de campo de depósito ** descritivo de página. Uma nova empresa em dynamics 365 para operações, selecione ** criar de instalação ** padrão para gerar os nomes de campos que serão usados os fluxos de trabalho do dispositivo móvel depósito, e atribuir um modo de entrada preferenciais e um tipo de entrada. Após você gerou todos os nomes de campo, pode selecionar as seguintes opções de entrada.
+Ao usar o Dynamics 365 for Operations - Depósito no seu dispositivo, você pode configurar como os metadados devem ser exibidos no seu dispositivo na página **Nomes de campo de aplicativo de depósito**. Em uma nova companhia no Dynamics 365 for Operations, selecione **Criar configuração padrão** para gerar todos os nomes de campo que serão usados nos fluxos de trabalho do dispositivo móvel de depósito e depois atribuir um modo e tipo de saída preferenciais para eles. Após a criação de todos os nomes de campo, você pode selecionar as seguintes opções de saída.
 
 <table>
 <colgroup>
@@ -51,25 +54,25 @@ Quando você usa o dynamics 365 para operações - para armazenar no dispositivo
 <tbody>
 <tr class="odd">
 <td>Modo de entrada preferencial</td>
-<td>Essa opção define se um campo de exploração ou um campo de entrada manual de entrada devem ser mostrados para o nome do campo selecionado. Isso é útil distinguir campos caso os códigos de barras são usados para o campo. <strong>Observação:</strong> Para nomes de campo ao modo de entrada preferido definido como <strong>Digitalizando</strong>, insira as informações manualmente se o código de barras for danificado ou ilegível.</td>
+<td>Essa opção define se um campo de digitalização ou um campo de saída de entrada manual deve ser mostrado para o nome de campo selecionado. Isso é útil para diferenciar campos, o que dependerá da utilidade dos códigos de barras para o campo. <strong>Observação:</strong> para nomes de campo com modo de saída preferencial definido como <strong>Digitalizando</strong>, você pode inserir informações manualmente se o código de barras for ilegível ou estiver danificado.</td>
 </tr>
 <tr class="even">
 <td>Tipo de Entrada</td>
-<td>Essa opção define o tipo de entrada deve ser usado para o nome do campo selecionado. Quatro opções estão disponíveis:
+<td>Essa opção define qual tipo de saída deve ser usado para o nome do campo selecionado. Quatro opções estão disponíveis:
 <ul>
-<li><strong>Seleção</strong> - contém uma lista de opções de. Nomes de campo para essa opção não é editável.</li>
-<li><strong>Data</strong>nomes de campo do - como data especificados mostrarão um formato de data rótulo com o. Isso ajuda trabalhadores de depósito para ver em que linha para inserir a data. Nomes de campo para essa opção não é editável.</li>
-<li><strong>Alpha</strong> - se selecionado, o teclado de dispositivo será usado ao inserir as informações manualmente em descritivo. A experiência do teclado pode ser alterada conforme o dispositivo for usado.</li>
-<li><strong>Numérico</strong> - para nomes de campo que usam apenas a entrada numérica, selecione esta opção exibe um teclado numérico numérico personalizado com campo de entrada do teclado em vez do dispositivo.</li>
+<li><strong>Seleção</strong> - Contém uma lista de opções para escolha. Nomes de campo com essa opção não são editáveis.</li>
+<li><strong>Data</strong> - Nomes de campo especificados como data mostrarão um formato de data com o rótulo. Com isso, os trabalhadores de depósito podem ver em qual formato inserir a data. Nomes de campo com essa opção não são editáveis.</li>
+<li><strong>Alfa</strong> - Se selecionado, o teclado do dispositivo será usado na inserção manual de informações no aplicativo. A experiência de teclado pode ser alterada dependendo de qual dispositivo é usado.</li>
+<li><strong>Numérico</strong> - Para nomes de campo que usam apenas saída numérica, você pode selecionar essa opção para exibir um teclado numérico personalizado com o campo de saída em vez do teclado do dispositivo.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a>Configurar a prioridade do descritivo de depósito
+<a name="configure-warehouse-app-field-priority"></a>Configurar a prioridade de campo do aplicativo de depósito
 ======================================
 
-** O a prioridade do descritivo ** na página, é possível inserir nomes de campos de prioridade em grupos diferentes. Isso possibilita decidir quais informações devem ser exibidas no task page principal quando os funcionários do depósito realizam tarefas usando o descritivo. Se clicar ** criar de instalação padrão **, um conjunto padrão de grupos de prioridade será gerado. É possível criar tantos necessário como grupos de prioridade, mas apenas três grupos de prioridade serão mostrados no task page. Quando o dynamics 365 para operações envia metadados para descritivo, atribuídos a cada campo prioridade relativo dependendo do grupo de prioridade, o descritivo exibirá os primeiros três grupos de prioridade contidos nos metadados no task page. O resto de metadados estourando será exibido em páginas secundário detalhes. A tabela mostra um exemplo de cinco grupos de prioridade.
+Na página **Prioridade de campo de aplicativo de depósito**, você pode colocar nomes de campo em grupos de prioridade diferentes. Com isso, é possível decidir quais informações devem ser exibidas na página de tarefa principal quando os trabalhadores de depósito realizam tarefas usando o aplicativo. Se clicar em **Criar configuração padrão**, um conjunto padrão de grupos de prioridades será gerado. É possível criar tantos grupos de prioridade quantos forem necessários, mas apenas três grupos de prioridades serão mostrados na página de tarefas. Ao enviar os metadados ao aplicativo, o Dynamics 365 for Operations atribuirá a cada campo uma prioridade relativa de acordo com seu grupo de prioridades, e o aplicativo exibirá os primeiros três grupos de prioridades contidos nos metadados na página de tarefas. O resto dos metadados transbordantes serão exibidos em uma página de detalhes secundária. A tabela a seguir mostra um exemplo de cinco grupos de prioridades.
 
 <table>
 <colgroup>
@@ -78,7 +81,7 @@ Quando você usa o dynamics 365 para operações - para armazenar no dispositivo
 </colgroup>
 <thead>
 <tr class="header">
-<th>Grupo de prioridade</th>
+<th>Grupo de prioridades</th>
 <th>Campos atribuídos</th>
 </tr>
 </thead>
@@ -123,25 +126,27 @@ Quando você usa o dynamics 365 para operações - para armazenar no dispositivo
 </tbody>
 </table>
 
-Por exemplo, quando um trabalhador depósito executar uma tarefa em um dispositivo móvel, se os metadados que serão exibidos em descritivo consistem nestes campos:
+Por exemplo, quando um trabalhador de depósito está realizando uma tarefa em um dispositivo móvel, se os metadados que serão exibidos no aplicativo consistirem nos seguintes campos:
 
 -   Item
 -   Quantidade
 -   Unidade de medida
 -   Descrição do item
--   Tamanho e o local
+-   Tamanho e local
 
-Com base na configuração de prioridade do descritivo de depósito na tabela anterior, as seguintes linhas 3 de informações serão exibidas no task page:
+Com base na prioridade de campo do aplicativo de depósito configurada na tabela acima, as 3 linhas de informação a seguir serão exibidas na página de tarefas:
 
 -   Linha 1: Item, quantidade, unidade de medida
--   Linha 2: Descrição do item
--   Linha 3: Tamanho
+-   Linha 2: descrição do item
+-   Linha 3: tamanho
 
-Os metadados restantes, por exemplo, local, não serão exibidos no task page, mas serão exibidos em páginas detalhes. Para saber mais e veja exemplos de interface de usuário, consulte a postagem de blog [que anuncia o dynamics 365 para operações - para armazenar] (https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
+Os metadados restantes, como Local, não serão exibidos na página de tarefas, mas o serão em uma página de detalhes. Para saber mais e ver exemplos da interface do usuário, consulte a postagem do blog [Anúncio do Dynamics 365 for Operations - Depósito](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
 <a name="see-also"></a>Consulte também
 --------
 
-[Instalar e configurar o Microsoft Dynamics 365 para operações – para armazenar] (install-configure-warehousing-app.md)
+[Instale e configure o Microsoft Dynamics 365 for Operations – Depósito](install-configure-warehousing-app.md)
+
+
 
 

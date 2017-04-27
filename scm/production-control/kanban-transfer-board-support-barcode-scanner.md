@@ -1,5 +1,5 @@
 ---
-title: "Suporte diretoria de transferência para do kanban scanner de código de barras"
+title: "Suporte do quadro de transferência kanban para os scanners de código de barras"
 description: "O Quadro de transferência do kanban oferece suporte à entrada de scanner de um scanner de código de barras de widget para Selecionar, Iniciar, Concluir e Esvaziar um trabalho kanban."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Suporte diretoria de transferência para do kanban scanner de código de barras
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Suporte do quadro de transferência kanban para os scanners de código de barras
+
+[!include[banner](../includes/banner.md)]
+
 
 O Quadro de transferência do kanban oferece suporte à entrada de scanner de um scanner de código de barras de widget para Selecionar, Iniciar, Concluir e Esvaziar um trabalho kanban.
 
@@ -46,13 +49,13 @@ Na Guia Rápida **Registro do scanner** você pode selecionar o modo do registro
 <a name="registration-mode-select"></a>Seleção do Modo de registro
 ------------------------
 
-Quando você usa um leitor de código de barras para selecionar um trabalho, o modo de exibição do quadro kanban alterações. Desse modo, as seguintes condições se aplicam:
+Quando você usa um leitor de código de barras para selecionar um trabalho, o modo de exibição do quadro kanban é alterado. Desse modo, as seguintes condições se aplicam:
 
 -   Somente o trabalho kanban verificado é exibido.
 -   Os detalhes do trabalho selecionado são exibidos na Guia Rápida **Detalhes**.
 -   A Guia Rápida **Mensagens** exibe mensagens somente do trabalho selecionado.
 -   Você pode alterar o status do trabalho usando as funções disponíveis no Painel de Ações. O quadro de transferência kanban continuará a exibir somente um único trabalho durante esse tempo.
--   Você pode atualizar as informações na lista de trabalho manualmente clicando ** ** atualização (Shift+F5) no painel de ações. Depois de atualizar as informações, os resultados completos sobre o filtro de trabalho serão exibidos mais uma vez.
+-   Você pode atualizar as informações da lista de trabalhos manualmente, clicando em **Atualizar** (Shift+F5) no Painel de Ação. Depois de atualizar as informações, os resultados completos sobre o filtro de trabalho serão exibidos mais uma vez.
 
 ## <a name="job-status-and-possible-actions"></a>Status do trabalho e ações possíveis
 O status do trabalho selecionado e o status de todos os trabalhos vinculados para kanbans de eventos, determinam se você pode processar o trabalho ainda mais. A tabela a seguir exibe informações sobre esses status e tarefas:
@@ -185,6 +188,8 @@ O status do trabalho selecionado e o status de todos os trabalhos vinculados par
 </tr>
 </tbody>
 </table>
+
+
 
 
 

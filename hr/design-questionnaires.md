@@ -92,9 +92,9 @@ Os códigos de sequência numérica que são usados para organizar perguntas e r
 É preciso definir todos os parâmetros antes de começar a criar seus dados. Você pode alterar as configurações de parâmetros de questionário a qualquer momento.
 
 ## <a name="questionnaire-components"></a>Componentes do questionário
-Questionários compõem três principais elementos: grupos de respostas que contêm as respostas para perguntas de seleção múltipla, perguntas, e o questionário em si. Opcionalmente você pode agrupar as perguntas de um questionário em grupos de resultados. Os grupos de resultados permitem categorizar perguntas e fornecer uma análise mais detalhada do questionário. 
+Os questionários compõem três principais elementos: grupos de respostas que contêm as respostas para questões de múltipla escolha, perguntas e o questionário em si. Se preferir, você pode agrupar as perguntas de um questionário em grupos de resultados. Os grupos de resultados permitem categorizar perguntas e fornecer uma análise mais detalhada do questionário. 
 
-[![(QuestionnaireComponents]. /media/questionnairecomponents-1024x615.png)](. /media/questionnairecomponents.png)
+[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
 ### <a name="answer-groups-and-answers"></a>Grupos de respostas e respostas
 
@@ -235,6 +235,6 @@ Como alternativa, você pode definir um questionário para que se um participant
 
 [Distribuindo e preenchendo questionários](distribute-questionnaires.md)
 
-[Exibição e avaliação dos resultados de questionários (evaluate-questionnaire-results.md])
+[Exibindo e avaliando os resultados dos questionários](evaluate-questionnaire-results.md)
 
 

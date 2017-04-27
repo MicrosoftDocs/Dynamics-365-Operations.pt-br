@@ -1,6 +1,6 @@
 ---
-title: "Visão geral do sistema de fluxo de trabalho"
-description: "Este artigo descreve o sistema fluxo de trabalho no Microsoft Dynamics 365 para as operações."
+title: "Visão geral do sistema do fluxo de trabalho"
+description: Este artigo descreve o sistema de fluxo de trabalho no Microsoft Dynamics 365 for Operations.
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,9 +24,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="workflow-system-overview"></a>Visão geral do sistema de fluxo de trabalho
+# <a name="workflow-system-overview"></a>Visão geral do sistema do fluxo de trabalho
 
-Este artigo descreve o sistema fluxo de trabalho no Microsoft Dynamics 365 para as operações.
+[!include[banner](../includes/banner.md)]
+
+
+Este artigo descreve o sistema de fluxo de trabalho no Microsoft Dynamics 365 for Operations.
 
 <a name="what-is-workflow"></a>O que é um fluxo de trabalho?
 -----------------
@@ -34,7 +37,7 @@ Este artigo descreve o sistema fluxo de trabalho no Microsoft Dynamics 365 para 
 O termo *fluxo de trabalho* pode ser definido de duas maneiras: como um sistema e como um processo comercial.
 ### <a name="workflow-is-a-system"></a>O fluxo de trabalho é um sistema
 
-O fluxo de trabalho é um sistema que estejam instalados com dynamics 365 para operações e as execuções do aplicativo (AOS) objetem o servidor. O sistema de fluxo de trabalho fornece uma funcionalidade que você pode usar para criar fluxos de trabalho individuais ou processos comerciais.
+O fluxo de trabalho é um sistema instalado com o Microsoft Dynamics 365 for Operations e que é executado no AOS (Servidor de Objetos de Aplicativo). O sistema de fluxo de trabalho fornece uma funcionalidade que você pode usar para criar fluxos de trabalho individuais ou processos comerciais.
 
 ### <a name="workflow-is-a-business-process"></a>O fluxo de trabalho é um processo comercial
 
@@ -46,6 +49,7 @@ O uso do sistema de fluxo de trabalho em sua organização traz vários benefíc
 -   **Processos consistentes** – você pode definir como documentos específicos, como requisições de compra e relatórios de despesas, são processados. Ao usar esse sistema, você garante que os documentos sejam processados e aprovados de maneira consistente e eficiente.
 -   **Visibilidade do processo** – você pode rastrear o status, o histórico e as métricas de desempenho de instâncias do fluxo de trabalho. Isso ajuda a determinar se alterações devem ser feitas no fluxo de trabalho para aumentar a eficiência.
 -   **Lista de trabalho centralizada** – os usuários podem exibir uma lista de trabalho centralizada que exibe as tarefas e aprovações de fluxo de trabalho que são atribuídas a elas.
+
 
 
 

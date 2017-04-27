@@ -1,5 +1,5 @@
 ---
-title: "Dispositivos móveis de instalação para o depósito"
+title: "Configurar dispositivos móveis para trabalho de depósito"
 description: "Este artigo descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel."
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Dispositivos móveis de instalação para o depósito
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móveis para trabalho de depósito
 
 Este artigo descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel.
 
@@ -35,7 +35,7 @@ Este artigo descreve como configurar os itens de menu que os trabalhadores de de
 -   Criar o trabalho a ser executado por meio de outro processo. Por exemplo, o recebimento de um item para uma ordem de compra pode criar trabalho de armazenamento para outro trabalhador.
 -   Executar o trabalho que foi criado por outro processo (trabalho existente), como o trabalho de armazenamento que foi criado quando um item foi recebido para uma ordem de compra.
 
-Para criar um item de menu para uma atividade ou consulta, definir ** modo ** o campo adjective ** ** indireto. ** Código uma lista de opções de atividade ** torna-se então disponíveis, de forma que você pode selecionar o tipo de consulta ou de atividade que o item de menu é para. Para criar um item de menu para gerar trabalho de depósito, definir ** modo ** o campo trabalho ** **. Uma lista ** processo de criação de trabalho passará ** de opções em disponível. Para criar um item de menu para processar o trabalho de depósito existente, defina o campo **Modo** como **Trabalho** e, em seguida, defina a opção **Usar trabalho existente** como **Sim**. ** Observação: ** Campos adicionais podem estar disponíveis para itens de menu, dependendo do que você selecionar para o item de menu, e se o item de menu usado para executar trabalhos existentes. Para obter informações sobre as seleções adicionais de campo, consulte a seção “opções adicionais do item de menu” posteriormente neste artigo.
+Para criar um item de menu para uma atividade ou uma consulta, defina o campo **Modo** como **Indireto**. Uma lista opções do **Código de atividade** torna-se disponível, de forma que você possa selecionar o tipo de consulta ou atividade do item de menu. Para criar um item de menu para gerar o trabalho de depósito, defina o campo **Modo** como **Trabalho**. Uma lista de opções do **Processo de criação de trabalho**, em seguida, fica disponível. Para criar um item de menu para processar o trabalho de depósito existente, defina o campo **Modo** como **Trabalho** e, em seguida, defina a opção **Usar trabalho existente** como **Sim**. **Observação:** Os campos adicionais podem estar disponíveis para itens de menu, dependendo do modo que você selecionar para o item de menu, e se o item de menu é usado para executar o trabalho existente. Para obter informações sobre as seleções de campo adicionais, consulte a seção “Opções de item de menu adicionais” posteriormente neste artigo.
 
 ## <a name="configure-menu-items-for-activities-and-inquiries"></a>Configurar itens de menu para atividades e consultas
 Se o campo **Modo** de um item de menu for definido como **Indireto**, você poderá criar um item de menu para executar uma atividade ou uma consulta geral que não cria o trabalho. Os exemplos incluem reimpressão de rótulos de matrícula e uma consulta sobre os itens em um local. A tabela a seguir lista as opções disponíveis.
@@ -190,7 +190,7 @@ Você pode configurar um item de menu que cria trabalho para outro trabalhador, 
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Configure itens de menu para processar o trabalho existente
-Além de configurar itens de menu para criar o trabalho de depósito, você pode configurar itens de menu para processar o trabalho que já foi criado. Defina o campo **Modo** como **Trabalho** e selecione a opção **Usar trabalho existente**. Algumas são opções adicionais disponíveis em ** ** na guia geral. Você pode controlar o acesso ao item de menu a uma ou mais de classes trabalho ** classe de trabalho em FastTab **. As classes de trabalho definem o trabalho que o item de menu pode processar. A classe de trabalho também pode ser usada para conceder acesso às funções de usuário específico ou ao processamento separado para tipos diferentes de operações. A tabela a seguir descreve as opções disponíveis.
+Além de configurar itens de menu para criar o trabalho de depósito, você pode configurar itens de menu para processar o trabalho que já foi criado. Defina o campo **Modo** como **Trabalho** e selecione a opção **Usar trabalho existente**. Algumas opções adicionais então ficam disponíveis na guia **Geral**. Você pode controlar o acesso ao item de menu atribuindo uma ou mais classes de trabalho na Guia Rápida **Classe de trabalho**. As classes de trabalho definem o trabalho que o item de menu pode processar. A classe de trabalho também pode ser usada para conceder acesso às funções de usuário específico ou ao processamento separado para tipos diferentes de operações. A tabela a seguir descreve as opções disponíveis.
 
 <table>
 
@@ -210,7 +210,7 @@ Além de configurar itens de menu para criar o trabalho de depósito, você pode
 </tr>
 <tr class="even">
 <td>Sistema direcionado</td>
-<td>Microsoft Dynamics 365 controla operações para o tipo de trabalho atribuídos a um trabalhador e a ordem que o trabalhador executa os trabalhos em. Quando você selecionar esta opção, clique <strong>trabalhos por direcionados</strong> em sobre o painel de ações para <strong>ordem de classificação por direcionado</strong> abrir a página, onde poderá configurar critérios de classificação do trabalho. Os critérios de classificação controlam a ordem que o trabalhador executa os trabalhos em. Você pode adicionar o número como critérios como necessário.</td>
+<td>O Microsoft Dynamics 365 for Operations controla o tipo de trabalho que é atribuído a um trabalhador e a ordem na qual o trabalhador executa o trabalho. Ao selecionar essa opção, você pode clicar em <strong>Trabalho direcionado pelo sistema</strong> no Painel de Ação para abrir a página <strong>Ordem de classificação direcionada pelo sistema</strong>, na qual você pode configurar critérios de classificação para o trabalho. Os critérios de classificação controlam a ordem na qual o trabalhador executa o trabalho. Você pode adicionar quantos critérios forem necessários.</td>
 </tr>
 <tr class="odd">
 <td>Usuário direcionado</td>
@@ -230,7 +230,7 @@ Além de configurar itens de menu para criar o trabalho de depósito, você pode
 </tr>
 <tr class="even">
 <td>Usuário validado direcionado</td>
-<td>O trabalhador selecionará o trabalho a ser executado quando o trabalho estiver associado a uma entidade maior, como uma carga ou uma remessa. O trabalhador determinará a ordem em que os itens serão separados em. Se você selecionar essa opção, estes campos serão obrigatórios:
+<td>O trabalhador selecionará o trabalho a ser executado quando o trabalho estiver associado a uma entidade maior, como uma carga ou uma remessa. O trabalhador determina a ordem na qual os itens são separados. Se você selecionar essa opção, estes campos serão obrigatórios:
 <ul>
 <li><strong>Campo Direcionado do Usuário Validado</strong> – Selecione o campo que o trabalhador pesquisa para agrupar o trabalho.</li>
 <li><strong>Etiqueta Direcionada do Usuário Validado</strong> – Insira o texto que informará ao trabalhador sobre o que verificar quando o trabalho de separação for agrupado pelo sistema.</li>
@@ -271,7 +271,7 @@ A seguinte tabela descreve as opções.
 </tr>
 <tr class="even">
 <td>Ancoragem</td>
-<td>Selecione esta opção para permitir que os trabalhadores especifiquem um local que substituirá o local de preparo ou de carga sugerido. Todo o trabalho de armazenamento restante será direcionado para o novo local. Esta opção é útil quando, por exemplo, um trabalhador tiver de armazenar itens da ordem 1 em um local de preparo da Doca 1, mas não consegue porque uma carga anterior ainda não liberou o local. Em vez de esperar pela localização de doca de preparo para 1, se disponível o trabalhador pode decidir usar a localização de preparo para a doca 2. Nesse caso, o trabalhador substitui o local de preparo sugerida. O local de armazenamento de todos os itens restantes da ordem de trabalho é, em seguida, atualizado para o local de preparo da Doca 2. Se selecionar esta opção, você deverá definir o campo <strong>Ancorar em</strong>.</td>
+<td>Selecione esta opção para permitir que os trabalhadores especifiquem um local que substituirá o local de preparo ou de carga sugerido. Todo o trabalho de armazenamento restante será direcionado para o novo local. Esta opção é útil quando, por exemplo, um trabalhador tiver de armazenar itens da ordem 1 em um local de preparo da Doca 1, mas não consegue porque uma carga anterior ainda não liberou o local. Em vez de aguardar que o local de preparo da Doca 1 fique disponível, o trabalhador decide usar o local de preparo da Doca 2. Nesse caso, ele substitui o local de preparo sugerido. O local de armazenamento de todos os itens restantes da ordem de trabalho é, em seguida, atualizado para o local de preparo da Doca 2. Se selecionar esta opção, você deverá definir o campo <strong>Ancorar em</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Ancorar em</td>
@@ -380,7 +380,7 @@ A seguinte tabela descreve as opções.
 </tr>
 <tr class="odd">
 <td>Código do modelo de trabalho</td>
-<td>Selecione o modelo de trabalho que criará o trabalho para um processo. Por exemplo, se você receber um item para uma ordem de compra, o colocar- Ausente será gerado com base no modelo de trabalho. Se você não selecionar um modelo de trabalho, o Microsoft Dynamics 365 operações para atribuir um modelo, com base em critérios de consulta. Para obter mais informações sobre modelos de trabalho, consulte <a href="control-warehouse-location-directives.md">Controlando o trabalho do depósito com modelos de trabalho e diretivas de localização</a>.</td>
+<td>Selecione o modelo de trabalho que criará o trabalho para um processo. Por exemplo, se você receber um item para uma ordem de compra, o trabalho de armazenamento será gerado com base no modelo de trabalho. Se você não selecionar um modelo de trabalho, o Microsoft Dynamics 365 for Operations atribui um modelo, com base nos critérios de consulta. Para obter mais informações sobre modelos de trabalho, consulte <a href="control-warehouse-location-directives.md">Controlando o trabalho do depósito com modelos de trabalho e diretivas de localização</a>.</td>
 </tr>
 </tbody>
 </table>
@@ -409,8 +409,8 @@ A tabela a seguir descreve os vários tipos de trabalho que você pode usar em c
 
 [Configurações de exibição de dispositivo móvel de depósito](change-warehouse-mobile-device-displays.md)
 
-[Configurado um menu de dispositivo móvel para concluir o trabalho da ordem de compra do tipo (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
+[Configurar um item de menu do dispositivo móvel para concluir o trabalho do tipo Ordem de compra (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
-[Configurado um menu de dispositivo móvel para registrar itens recebidos (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Configurar um item de menu do dispositivo móvel para registrar itens recebidos (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
 
 

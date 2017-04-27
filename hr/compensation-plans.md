@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="compensation-plans"></a>Planos de remuneração
 
+[!include[banner](includes/banner.md)]
+
+
 Os gerentes de remuneração e de benefícios que podem usar o gerenciamento de remuneração para manter e processar planos de compensação fixos e variáveis para os funcionários da organização.
 
 ### <a name="introduction"></a>Introdução
 
-O gerenciamento de remuneração for usada para controlar a entrega de pagamento de base e prêmios. Os aumentos corrigidos de pagamento base e de mérito de um funcionário são controladas pelos planos de remuneração fixa. O pagamento de incentivos, como pagamentos de bônus, prêmios por desempenho, opções de ação e concessões, além de prêmios únicos, são controlados por meio de planos de remuneração variável. 
+O gerenciamento de remuneração é usado para controlar o pagamento do salário base e de prêmios. Os aumentos no salário base fixo e nos prêmios de um funcionário são controlados por meio de planos de remuneração fixos. O pagamento de incentivos, como pagamentos de bônus, prêmios por desempenho, opções de ação e concessões, além de prêmios únicos, são controlados por meio de planos de remuneração variável. 
 
 Os funcionários podem estar inscritos em um ou mais planos de ambos os tipos. Um funcionário deve atender aos requisitos a seguir para serem qualificados para a inscrição em um plano de remuneração:
 -   O funcionário deve ter uma atribuição de posição ativa.
@@ -54,7 +57,7 @@ A tabela a seguir lista os componentes do processo de remuneração que podem in
 <td>As ações de remuneração fixa têm duas finalidades:
 <ul>
 <li>As ações podem especificar o tipo de informação que deve ser registrada quando a remuneração de um funcionário é alterada. Por exemplo, você pode exigir que o motivo para uma alteração, como uma promoção ou um rebaixamento, seja registrado.</li>
-<li>Ações pode garantir que o cálculo seja aplicado aos planos de remuneração fixa são processados.  Por exemplo, as ações de capital próprio do tipo compararão funcionários pagam ponto de referência no nível mínimo por funcionário e garantir que o funcionário é pago pelo menos obter o mínimo.</li>
+<li>Ações que podem garantir que o cálculo seja aplicado quando os planos de remuneração fixa são processados.  Por exemplo, as ações do tipo Capital próprio irão comparar o pagamento dos funcionários com o ponto de referência mínimo para o nível do funcionário, e garantirão que o funcionário esteja recebendo pelo menos o mínimo.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -83,7 +86,7 @@ A tabela a seguir lista os componentes do processo de remuneração que podem in
 </tr>
 <tr class="even">
 <td>Frequências de pagamento</td>
-<td>As frequências de pagamento são usadas para definir o período durante o qual a remuneração é especificada.  Por exemplo, a ajuda da frequência de pagamento se você insere o valor de compensação especificado como ganhos anual de uma taxa de pagamento por hora. As frequências de pagamento também são usadas para configurar fatoras de conversão para os valores de compensação de converter de mensal, semanal de, por quinzena e as frequências de pagamento por hora para uma frequência de pagamento anual.</td>
+<td>As frequências de pagamento são usadas para definir o período de tempo durante o qual a remuneração é especificada.  Por exemplo, a ajuda da frequência de pagamento ajuda você a compreender se o valor de remuneração é especificado como um salário anual versos taxa de pagamento por hora. As frequências de pagamento também são usadas para configurar fatores de conversão para converter valores de remuneração de frequências de pagamento por hora, mensal, semanal, quinzenal para uma frequência de pagamento anual.</td>
 </tr>
 <tr class="odd">
 <td>Regiões de remuneração</td>
@@ -107,7 +110,7 @@ A tabela a seguir lista os componentes do processo de remuneração que podem in
 </tr>
 <tr class="even">
 <td>Grades de remuneração</td>
-<td>As grades de compensação contêm a estrutura de remuneração.  Grades de remuneração poderão ser usadas por um ou mais planos de remuneração.</td>
+<td>As grades de remuneração contêm a estrutura de remuneração.  As grades de remuneração podem ser usadas por um ou mais planos de remuneração.</td>
 </tr>
 <tr class="odd">
 <td>Planos de desempenho</td>
@@ -126,9 +129,11 @@ Um evento de processo calcula as informações de remuneração de um determinad
 <a name="compensation-events"></a>Eventos de remuneração
 -------------------
 
-Sempre que um evento de processo é executado, um evento de remuneração será criado.  Eventos de remuneração contêm os resultados do processo de remuneração para cada funcionário incluídas nesse processo de evento.  Quando os cálculos serão corretos, você pode cobrar o evento de remuneração para atualizar os registros de remuneração de funcionários que são afetados pelo evento de processo.
+Toda vez que um processo de evento é executado, um evento de remuneração é criado.  Quando os cálculos estão corretos, você pode carregar o evento de remuneração para atualizar os registros de remuneração para os funcionários afetados pelo evento de processo.  Quando os cálculos estão corretos, você pode carregar o evento de remuneração para atualizar os registros de remuneração para os funcionários afetados pelo evento de processo.
 
 ## <a name="recommendations"></a>Recomendações
 Depois de executar um evento de processo, você pode recomendar ajustes no aumento de um funcionário por mérito ou no valor do prêmio, com base nas diretrizes calculadas do evento de processo. Para fazer recomendações para funcionários, você deve habilitar as recomendações quando configurar planos de remuneração ou quando configurar o evento de processo.
+
+
 
 

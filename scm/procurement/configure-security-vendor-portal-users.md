@@ -1,6 +1,6 @@
 ---
-title: "Segurança do usuário do fornecedor"
-description: "Este artigo explica como configurar a segurança para fornecedores externos que usam o Portal do fornecedor. Essas informações só se aplicam a versões &amp; de fevereiro de 2016 em maio de 2016 de O dynamics AX."
+title: "Segurança de usuário do portal do fornecedor"
+description: "Este artigo explica como configurar a segurança para fornecedores externos que usam o Portal do fornecedor. Estas informações só se aplicam a versões de fevereiro de 2016 &amp; maio de 2016 do Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-portal-user-security"></a>Segurança do usuário do fornecedor
+# <a name="vendor-portal-user-security"></a>Segurança de usuário do portal do fornecedor
 
-Este artigo explica como configurar a segurança para fornecedores externos que usam o Portal do fornecedor. Essas informações só se aplicam a versões &amp; de fevereiro de 2016 em maio de 2016 de O dynamics AX.
+[!include[banner](../includes/banner.md)]
 
-A funcionalidade do fornecedor foi substituída por funcionalidade estendida de colaboração de fornecedor em dynamics 365 para a versão 1611 de operações. Para obter mais informações sobre segurança de configuração para a colaboração de fornecedor, consulte [configurado e mantenha a colaboração] de fornecedor (setup-maintain-vendor-collaboration.md). O portal do fornecedor expõe um conjunto limitado de informações sobre ordens de compra (POs) para fornecedores externos. É importante que você configure corretamente as permissões do usuário para o portal do fornecedor no Microsoft Dynamics AX, de modo que os fornecedores não tenham acesso não intencional a informações adicionais sobre a instalação do Dynamics AX. **Importante:** Diferente dos outros usuários, os fornecedores externos não devem ter a função **SystemUser**. A função **SystemUser** concede acesso a um conjunto de privilégios que não são adequados para usuários externos.
+
+Este artigo explica como configurar a segurança para fornecedores externos que usam o Portal do fornecedor. Estas informações só se aplicam a versões de fevereiro de 2016 &amp; maio de 2016 do Dynamics AX.
+
+A funcionalidade de portal do fornecedor foi substituída por uma funcionalidade estendida de colaboração do fornecedor na versão 1611 do Dynamics 365 for Operations. Para obter mais informações sobre como configurar a segurança para a colaboração de fornecedor, consulte [Instalação e manutenção da colaboração de fornecedor](set-up-maintain-vendor-collaboration.md). O portal do fornecedor expõe um conjunto limitado de informações sobre ordens de compra (POs) para fornecedores externos. É importante que você configure corretamente as permissões do usuário para o portal do fornecedor no Microsoft Dynamics AX, de modo que os fornecedores não tenham acesso não intencional a informações adicionais sobre a instalação do Dynamics AX. **Importante:** Diferente dos outros usuários, os fornecedores externos não devem ter a função **SystemUser**. A função **SystemUser** concede acesso a um conjunto de privilégios que não são adequados para usuários externos.
 
 ## <a name="setting-up-a-vendor-portal-user"></a>Configurando um usuário do portal do fornecedor
 Antes de criar uma conta de usuário para alguém que usará o portal do fornecedor, configure o fornecedor para permitir a colaboração do portal do fornecedor. Use o campo **Colaboração da ordem de compra** na guia **Geral** da página **Fornecedores**. Os fornecedores externos que usam o portal do fornecedor devem ter a seguinte configuração:
@@ -44,6 +47,8 @@ Se a mesma pessoa precisar de acesso ao portal do fornecedor em várias contas d
 <a name="see-also"></a>Consulte também
 --------
 
-[Vendor collaboration](collaborate-vendors-vendor-portal.md)
+[Colaboração do fornecedor](collaborate-vendors-vendor-portal.md)
+
+
 
 

@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="delays"></a>Atrasos
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre as datas em atraso no planejamento mestre. Uma data posterior é uma data de vencimento realista que uma transação recebe se a data de preenchimento mais recente que o planejamento mestre calcula é posterior a data solicitada.
 
 O planejamento mestre pode calcular a data de término de vigência mais antiga para uma transação com base nos prazos de entrega, na disponibilidade material, na disponibilidade de capacidade e em vários parâmetros de planejamento. 
@@ -41,11 +44,13 @@ Você pode configurar como os atrasos são calculados para um grupo de cobertura
 
 Na página **Parâmetros de planejamento mestre**, você pode definir a hora de início para o cálculo de atrasos. Se uma ordem for atendida após esse horário, um atraso de um dia será adicionado à data de atraso da ordem. 
 
-** Observação: ** Em versões anteriores, os atrasos calculados eram conhecidas como o messages* de *futures recente, a data foi conhecida como o date* de *futures, e uma transação for posterior conhecida como a transação de *a que foi set* futuro.
+**Observação:** em versões anteriores, os atrasos calculados eram conhecidos como *mensagens futuras*, a data atrasada era conhecida como as *datas futuras* e uma transação atrasada foi mencionada como *uma transação definida no futuro*.
 
 <a name="see-also"></a>Consulte também
 --------
 
 [Configurações de cobertura](coverage-settings.md)
+
+
 
 

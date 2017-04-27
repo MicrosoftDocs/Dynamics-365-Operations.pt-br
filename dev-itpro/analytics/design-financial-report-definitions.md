@@ -89,6 +89,6 @@ A tabela a seguir descreve as guias em uma definição de relatório e como as i
 <a name="see-also"></a>Consulte também
 --------
 
-[Relatórios financeiros para o Microsoft Dynamics 365 para operações (financial-reporting-intro.md])
+[Relatório financeiro para o Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

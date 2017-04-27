@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-blocking"></a>Bloqueio de estoque
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo oferece uma visão geral do bloqueio de estoque, que faz parte do processo de inspeção de qualidade no Microsoft Dynamics AX. Você pode usar o bloqueio de estoque para evitar que os itens sejam processados ou consumidos.
 
 Você pode bloquear itens de estoque das seguintes maneiras:
@@ -53,7 +56,7 @@ No exemplo a seguir, uma ordem de qualidade será gerada quando uma guia de reme
 | Uma associação de qualidade especifica que uma ordem de qualidade deverá ser gerada quando uma guia de remessa de ordem de compra for lançada. A configuração de amostragem do item da ordem de qualidade especifica que 10% da quantidade na linha de ordem de compra serão inspecionados. Além disso, por causa da opção **Bloqueio total** selecionada na configuração da amostragem de item, a quantidade total da linha de ordem de compra deverá ser bloqueada durante a inspeção, independentemente da quantidade que será enviada para inspeção. | A guia de remessa é lançada. | Uma ordem de qualidade é gerada. Dez por cento da quantidade da ordem de compra para o item serão enviados para inspeção. A quantidade total da linha de ordem de compra é bloqueada. |
 
 ## <a name="blocking-items-by-using-inventory-status-blocking"></a>Bloqueando itens ao usar um bloqueio de status de estoque
-Você pode especificar que o status de estoque estão bloqueando status usando ** bloqueio de estoque ** o parâmetro ** ** status de estoque na página.  Você não pode usar status de estoque como status de bloqueio para ordens de produção, ordens de venda, ordens de transferência, transações de saída ou integrações de projeto. Para o trabalho de saída, use itens com status de estoque disponível. Se os itens tiverem um status **Quebrado** e se o planejamento mestre for executado nesses itens, os itens serão considerados ausentes e o estoque será reabastecido automaticamente.
+Você pode especificar quais status de estoque estão bloqueando os status usando o parâmetro **Bloqueio de estoque** na página **Status de estoque**. Você não pode usar status de estoque como status de bloqueio para ordens de produção, ordens de venda, ordens de transferência, transações de saída ou integrações de projeto. Para o trabalho de saída, use itens com status de estoque disponível. Se os itens tiverem um status **Quebrado** e se o planejamento mestre for executado nesses itens, os itens serão considerados ausentes e o estoque será reabastecido automaticamente.
 
 
 
@@ -62,8 +65,10 @@ Você pode especificar que o status de estoque estão bloqueando status usando *
 
 [Criar e manter um bloqueio de estoque (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
 
-[Quality management processes](quality-management-processes.md)
+[Processos de gerenciamento de qualidade](quality-management-processes.md)
 
-Inspecionar [a qualidade de mercadorias (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[Inspecionar a qualidade de mercadorias (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+
+
 
 

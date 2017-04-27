@@ -49,18 +49,18 @@ você pode agrupar definições de relatório para gerar vários relatórios ao 
 ### <a name="create-a-report-group"></a>Criar um grupo de relatórios
 
 1.  No Designer de Relatórios, clique em **Grupos de Relatórios** no painel de navegação.
-2.  ** ** No menu Arquivo, clique em novo ** ** &gt; ** a definição de relatório ** para abrir um novo grupo de relatórios na janela do visualizador. Alternativamente, clique ** grupo de relatório ** o botão! [] Grupo de relatórios (https://i-technet.sec.s-msft.com/dynimg/IC679515.gif “grupo” relatório) na barra de ferramentas.
+2.  No menu **Arquivo**, clique em **Novo** &gt; **Definição de grupo de relatório** para abrir um novo grupo de relatório na janela de visualização. Como alternativa, clique no botão **Grupo de relatório** ![Grupo de relatório](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Grupo de relatório") na barra de ferramentas.
 3.  Clique na guia **Grupo de Relatório**. Para substituir as informações nas definições de relatório individuais para a geração deste relatório, marque a caixa de seleção **Substituir a empresa, os detalhes e as configurações de data das definições de relatório individuais**. As informações de nome da empresa, nível de detalhe, configurações provisórias e data são preenchidas automaticamente, mas você ainda pode fazer atualizações.
 4.  Marque a caixa de seleção **Incluir todas as moedas de relatório** se desejar que os vários relatórios gerados exibam essas moedas. Você pode acessar diversas exibições clicando no botão **Moeda** no Visualizador Web quando você exibir o relatório.
 5.  No campo **Relatórios no grupo**, clique em **Adicionar** para selecionar os relatórios a serem incluídos no grupo Relatório. Para selecionar vários relatórios na caixa de diálogo **Adicionar**, mantenha pressionada a tecla CTRL enquanto seleciona relatórios. Quando terminar de selecionar os relatórios, clique em **OK**.
-6.  Clique ** Arquivo ** &gt; ** ** salvar para salvar o grupo de relatório.
+6.  Clique em **Arquivo** &gt; **Salvar** para salvar o novo grupo de relatório.
 
 ### <a name="modify-a-report-group"></a>Modificar um grupo de relatório
 
 1.  No Designer de Relatórios, clique em **Grupos de Relatórios** no painel de navegação.
 2.  Clique duas vezes no grupo de relatórios a ser modificado.
 3.  Clique na guia **Grupo de Relatório** e faça as alterações desejadas.
-4.  ** ** No menu Arquivo, clique em salvar ** ** para salvar o grupo de relatório alterar, como alternativa, clica ** salvar ** o botão! [] Salvar (“https://i-technet.sec.s-msft.com/dynimg/IC679516.gif”) salvar na barra de ferramentas.
+4.  No menu **Arquivo**, clique em **Salvar** para salvar o grupo de relatório modificado. Como alternativa, clique no botão **Salvar** ![Salvar](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "Salvar") na barra de ferramentas.
 
 **Nota:** Se você agendou relatórios a serem gerados em intervalos definidos, pode substituir essas configurações e gerar logo um relatório.
 
@@ -68,7 +68,7 @@ você pode agrupar definições de relatório para gerar vários relatórios ao 
 
 1.  No Designer de Relatórios, clique em **Grupos de Relatórios** no painel de navegação.
 2.  Abra o grupo de relatórios a ser gerado.
-3.  ** Clique em gerar relatório ** o botão! Gerar relatório [] (https://i-technet.sec.s-msft.com/dynimg/IC679517.gif “gera o relatório”) para gerar relatórios.
+3.  Clique no botão **Gerar relatório** ![Gerar relatório](https://i-technet.sec.s-msft.com/dynimg/IC679517.gif "Gerar relatório") para gerar relatórios.
 
 ### <a name="delete-a-report-group"></a>Excluir um grupo de relatório
 
@@ -104,8 +104,8 @@ A tabela a seguir descreve os controles na guia **Grupo de relatórios**.
 <td>Especifique o nível de detalhamento que os relatórios incluem.
 <ul>
 <li><strong>Financeiro</strong>− Um relatório de resumo de alto nível. Você não pode fazer uma busca detalhada em contas e dimensões, exceto naquelas contas e dimensões que foram adicionadas pela árvore do relatório.</li>
-<li><strong>Financeiro &amp; Conta</strong> De − O relatório que contém um resumo de alto nível e detalhes da conta.</li>
-<li><strong>Financeiro, conta, &amp; Transação</strong> De − O relatório que contém um resumo de alto nível e detalhes de transação.</li>
+<li><strong>Financeiro &amp; Conta</strong> − Um relatório que contém detalhes de resumo e conta de alto nível.</li>
+<li><strong>Financeiro, Conta &amp; Transação</strong> − Um relatório que contém detalhes de resumo e transação de alto nível.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -154,6 +154,6 @@ Somente as configurações do Período Base Padrão são salvas com a definiçã
 <a name="see-also"></a>Consulte também
 --------
 
-[Relatórios financeiros para o Microsoft Dynamics 365 para operações (financial-reporting-intro.md])
+[Relatório financeiro para o Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
 
 

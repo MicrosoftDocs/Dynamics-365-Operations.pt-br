@@ -1,6 +1,6 @@
 ---
 title: Atalhos de teclado
-description: "Os atalhos de teclado a seguir são utilizados no Microsoft Dynamics 365 para as operações."
+description: "Os atalhos de teclado a seguir são utilizados no Microsoft Dynamics 365 for Operations."
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="keyboard-shortcuts"></a>Atalhos de teclado
 
-Os atalhos de teclado a seguir são utilizados no Microsoft Dynamics 365 para as operações. 
+[!include[banner](../includes/banner.md)]
+
+
+Os atalhos de teclado a seguir são utilizados no Microsoft Dynamics 365 for Operations. 
 
 **Observação:** As teclas de atalho descritas aqui referem-se ao layout de teclado dos Estados Unidos. As teclas de outros layouts de teclado podem não corresponder exatamente às teclas do teclado dos EUA.
 
@@ -40,7 +43,7 @@ Os atalhos de teclado a seguir são utilizados no Microsoft Dynamics 365 para as
 | Mover para a opção próxima/anterior em um menu            | Seta para Cima/Seta para Baixo            |
 | Fechar uma guia no painel de ações ou em um menu          | Esc                              |
 | Simular um clique com o botão direito do mouse                            | Shift+F10                        |
-| Abra o dynamics 365 para o menu de contexto de operações | Ctrl+F10                         |
+| Abra o menu de contexto do Dynamics 365 for Operations. | Ctrl+F10                         |
 | Executar o botão padrão em um formulário/caixa de diálogo       | Alt+Enter                        |
 | Clicar em um botão ou um quadro                            | Enter ou Espaço                   |
 | Exibir informações de atualização para um bloco de contagem         | Alt+Seta para cima                     |
@@ -64,7 +67,7 @@ Os atalhos de teclado a seguir são utilizados no Microsoft Dynamics 365 para as
 | Abra o painel Quadro de Fatos (ou mova o foco para o painel do Quadro de Fatos, se ele já estiver aberto) | Ctrl+F2                                   |
 | Fechar o painel de Quadro de Fatos (com foco no painel de Quadro de Fatos)                         | Esc                                       |
 | Mover para o Quadro de Fatos anterior/próximo (com foco no painel do Quadro de Fatos)              | Alt+Shift+Seta para Baixo/Alt+Shift+Seta para Cima |
-| Mover &lt;para nth&gt;Quadro de dados (com foco no painel de Fatos de Quadro)                | Em&gt; Alt+n&lt;&gt; (&lt;= 1-9)           |
+| Mover para o Quadro de Fatos &lt;n&gt;th (com foco no painel do Quadro de Fatos)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Expandir um Quadro de Fatos (com foco no cabeçalho do Quadro de Fatos)                             | Espaço ou Enter                            |
 | Recolher o Quadro de Fatos atual                                                    | Alt+0                                     |
 
@@ -111,8 +114,8 @@ Os atalhos de teclado a seguir são utilizados no Microsoft Dynamics 365 para as
 | Mover para o campo anterior/próximo                     | Tab / Shift+Tab                              |
 | Mover para a guia anterior/próxima                       | Alt+Shift+Seta para a Direita/Alt+Shift+Seta para a Esquerda |
 | Mover para a Guia Rápida anterior/próxima                   | Alt+Shift+Seta para Baixo/Alt+Shift+Seta para Cima    |
-| Mover &lt;para nth&gt;FastTab                     | Em&gt; Alt+n&lt;&gt; (&lt;= 1-9)              |
-| Mover &lt;para nth&gt;guia                         | Em&gt; Alt+Shift+n&lt;&gt; (&lt;= 1-9)        |
+| Mover para a &lt;n&gt;th Guia Rápida                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Mover para a &lt;n&gt;th guia                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Expandir uma Guia Rápida (com foco no cabeçalho da Guia Rápida) | Espaço ou Enter                               |
 | Recolher a Guia Rápida atual                        | Alt+0                                        |
 | Alternar para exibição em grade                                 | Ctrl+Shift+G                                 |
@@ -152,7 +155,7 @@ Os atalhos de teclado a seguir são utilizados no Microsoft Dynamics 365 para as
 | Abrir a pesquisa, caixa de combinação, seletor de data, caixa de diálogo suspensa           | Alt+Seta para baixo                |
 | Fechar a pesquisa, caixa de combinação, seletor de data, caixa de diálogo suspensa          | Esc                           |
 | Mover o foco para uma pesquisa (quando a pesquisa já estiver aberta) | Alt+Seta para baixo                |
-| Abre a exibição avançado de controle                        | Alt+Seta para cima                  |
+| Abra a exibição avançada de controle                        | Alt+Seta para cima                  |
 | Selecionar o texto no campo atual.                           | Ctrl+A                        |
 | Entrar/sair da área de texto com um controle do editor de HTML        | Alt+Seta para Baixo/Alt+Seta para Cima |
 
@@ -174,18 +177,18 @@ Os atalhos de teclado a seguir são utilizados no Microsoft Dynamics 365 para as
 | Ir para o painel                                                       | Alt+Shift+Home  |
 | Ir para a barra de navegação                                                  | Alt+Shift+F1    |
 | Ir para o painel de navegação                                                 | Alt+F1          |
-| Favorite/un-favorite formulário (com um foco em um formulário no painel de navegação) | Shift+F         |
+| Marcar/desmarcar formulário como favorito (com foco em um formulário no painel de navegação) | Shift+F         |
 | Ir para o seletor da empresa                                                  | Ctrl+Shift+O    |
 | Ir para a pesquisa de navegação                                                   | Ctrl+/ ou Alt+G |
-| Abrem o painel da ajuda                                                        | Ctrl+?          |
-| O trace parser abrem de rastreamento                                                     | Alt+Shift+T     |
+| Abra o painel de ajuda                                                        | Ctrl+?          |
+| Abrir o analisador de rastreamento                                                     | Alt+Shift+T     |
 
  
 
 ## <a name="segmented-entry-shortcuts"></a>Atalhos segmentados de entrada
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **To do this**                                                                                                          | **Press**                        |
+| **Para fazer isso**                                                                                                          | **Pressione**                        |
 | Abrir a lista suspensa (quando a lista suspensa estiver fechada)                                                             | Alt+Seta para baixo                   |
 | Mover o foco para o campo de entrada do segmento atual na lista suspensa (quando a lista suspensa já estiver aberta) | Alt+Seta para baixo                   |
 | Fechar a lista suspensa                                                                                                | Alt+Seta para cima                     |
@@ -199,5 +202,7 @@ Os atalhos de teclado a seguir são utilizados no Microsoft Dynamics 365 para as
 | Mover para o topo/parte inferior da pesquisa                                                                                    | Início/Fim                       |
 
  
+
+
 
 

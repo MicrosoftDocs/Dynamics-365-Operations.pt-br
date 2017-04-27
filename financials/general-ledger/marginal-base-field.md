@@ -1,5 +1,5 @@
 ---
-title: "Taxas de imposto com base em base e os métodos marginais de cálculo"
+title: "Determinando as alíquotas de imposto com base nos campos Base marginal e Métodos de cálculo"
 description: "Este artigo explica como os valores com base no método de cálculo marginais dos campos determinam as taxas de impostos sobre vendas e as transações de compra."
 author: twheeloc
 manager: AnnBe
@@ -26,13 +26,16 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Taxas de imposto com base em base e os métodos marginais de cálculo
+# <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Determinando as alíquotas de imposto com base nos campos Base marginal e Métodos de cálculo
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo explica como os valores com base no método de cálculo marginais dos campos determinam as taxas de impostos sobre vendas e as transações de compra.
 
 A Base marginal na Guia Rápida Cálculo na página de códigos Imposto determina qual valor será usado para separar as alíquotas apropriadas das taxas na página Valores de código de imposto. O tipo de valor no campo Base marginal em combinação com o método no campo Método de cálculo determina a lógica para encontrar as alíquotas corretas para uma transação. 
 
-As diversas combinações de valores nesses campos produzem cálculos de imposto muito diferentes, como mostram os exemplos a seguir. Os exemplos usam os mesmos valores de intervalo de imposto, configurados para cada código de imposto na página Valores de códigos de imposto. Para abrir essa página, clique em valores de código de imposto &gt; na página de código de imposto.
+As diversas combinações de valores nesses campos produzem cálculos de imposto muito diferentes, como mostram os exemplos a seguir. Os exemplos usam os mesmos valores de intervalo de imposto, configurados para cada código de imposto na página Valores de códigos de imposto. Para abrir essa página, clique em Código do imposto &gt; Valores na página Códigos de imposto.
 
 > [!Important]                                                                                                                  
 > Se a Base marginal em um ou mais dos seus códigos de imposto se basear em valores ou em unidades de linha, o valor do campo Método de cálculo da página Parâmetros de contabilidade deverá ser definido como Linha. |
@@ -53,9 +56,9 @@ As taxas de impostos são configuradas nos intervalos a seguir.
 > [!NOTE]                                                                                                             
 > O limite superior de zero (0) no último intervalo significa que todos os valores que ultrapassam 100 são incluídos no intervalo.
 
-Base marginal: ** Valor líquido por linha ** 
+Base marginal: **Valor líquido por linha** 
 
-Método de cálculo: ** Intervalo ** 
+Método de cálculo: **Intervalo** 
 
 Você compra oito luminárias que custam 25,00 cada. 
 
@@ -67,9 +70,9 @@ Imposto total = 50 x 30% + 50 x 20% + 100 x 10% = 15 + 10 + 10 = 35,00.
 
 Valor total da fatura = 200,00 + 35,00 = 235,00 
 
-**Variation** 
+**Variação** 
 
-Se a nota fiscal tiver duas linhas com quatro itens em cada linha, o valor líquido de cada linha for 100.00 e os impostos são calculados desta maneira: 
+Se a fatura tiver duas linhas com quatro itens em cada, o valor líquido em cada linha será 100,00, e o imposto será calculado da seguinte forma: 
 
 Linha 1 do imposto = 50 x 30% + 50 x 20% = 15 + 10 = 25,00. 
 
@@ -92,9 +95,9 @@ As taxas de impostos são configuradas nos intervalos a seguir.
 | 50 - 100           | 20%      |
 | 100 - 0 (&gt; 100) | 10%      |
 
-Base marginal: ** Valor líquido por unidade ** 
+Base marginal: **Valor líquido por unidade** 
 
-Método de cálculo: ** Valor inteiro ** 
+Método de cálculo: **Valor total** 
 
 Você compra oito luminárias que custam 25,00 cada. 
 
@@ -116,9 +119,9 @@ As taxas de impostos são configuradas nos intervalos a seguir.
 | 50 - 100          | 20%      |
 | 100 -0 (&gt; 100) | 10%      |
 
-Base marginal: ** Valor líquido do saldo de nota fiscal ** 
+Base marginal: **Valor líquido do saldo de fatura** 
 
-Método de cálculo: ** Intervalo ** uma nota fiscal de venda tiver 2 linhas com 4 lâmpadas em linhas para cada 25.00 cada. O valor líquido do saldo da fatura é 4 x 25,00 + 4 x 25,00 = 200,00. O imposto é calculado da seguinte maneira: Total de impostos = 50 x 0,30 + 50 x 0,20 + 100 x 0,10 = 15 + 10 + 10 = 35,00 Valor total da fatura = 200,00 + 35,00 = 235,00
+Método de cálculo: **Intervalo** Uma fatura de venda tem duas linhas com quatro lâmpadas em cada linha por 25,00 cada. O valor líquido do saldo da fatura é 4 x 25,00 + 4 x 25,00 = 200,00. O imposto é calculado da seguinte maneira: Total de impostos = 50 x 0,30 + 50 x 0,20 + 100 x 0,10 = 15 + 10 + 10 = 35,00 Valor total da fatura = 200,00 + 35,00 = 235,00
 
 ## <a name="gross-amount-per-line"></a>Valor bruto por linha
 
@@ -137,11 +140,11 @@ As taxas de impostos são configuradas nos intervalos a seguir.
 | 50 - 100           | 20%      |
 | 100 - 0 (&gt; 100) | 10%      |
 
-Base marginal: **Valor bruto por linha** Método de cálculo: **Intervalo** Adicionalmente, há um outro código de imposto calculado para um imposto especial de 5,00 sobre cada luminária. O imposto é somado ao valor líquido antes do cálculo do imposto sobre vendas. Você compra oito luminárias que custam 25,00 cada. O valor líquido da linha da fatura é 200,00. O valor bruto da linha da fatura é 8 x 25,00 + 8 x 5,00 = 240,00. Os impostos são calculados desta maneira: Imposto sobre vendas total = 50 x 0.30 + 50 x 0.20 + 140 x 0.10 = 20 + impostos + 14 = 39.00 total = 5.00 x 8 = 40.00 valores de nota fiscal total = 200.00 + 39.00 + 40.00 = 279.00
+Base marginal: **Valor bruto por linha** Método de cálculo: **Intervalo** Adicionalmente, há um outro código de imposto calculado para um imposto especial de 5,00 sobre cada luminária. O imposto é somado ao valor líquido antes do cálculo do imposto sobre vendas. Você compra oito luminárias que custam 25,00 cada. O valor líquido da linha da fatura é 200,00. O valor bruto da linha da fatura é 8 x 25,00 + 8 x 5,00 = 240,00. O imposto é calculado da seguinte maneira: Total de impostos = 50 x 0,30 + 50 x 0,20 + 140 x 0,10 = 15 + 20 + 14 = 39,00 Total de impostos especiais = 5,00 x 8 = 40,00 Valor total da fatura = 200,00 + 39,00 + 40,00 = 279,00
 
-**Variation** 
+**Variação** 
 
-Se a nota fiscal for criada com 2 linhas de nota fiscal com 4 itens em cada linha, o valor líquido por linha da nota fiscal é 100.00. O valor bruto (incluindo o imposto especial de 4 x 5,00) por linha da fatura será 120,00, e os impostos são criados como se segue: Linha da fatura de imposto 1 = 50 x 0,30 + 50 x 0,20 + 20 x 0,.10 = 15 + 10 + 2 = 27,00 Linha da fatura de imposto 2 = 50 x 0,30 + 50 x 0,20 + 20 x 0,10 = 15 + 10 + 2 = 27,00 Total de impostos = 27,00 = 27,00 + 54,00 Total de impostos especiais = 5,00 x 8 = 40,00 Valor total da fatura = 200,00 + 54,00 + 40,00 = 294,00
+Se a fatura for criada com duas linhas de fatura com 4 itens em cada linha, o valor líquido por linha da fatura será 100,00. O valor bruto (incluindo o imposto especial de 4 x 5,00) por linha da fatura será 120,00, e os impostos são criados como se segue: Linha da fatura de imposto 1 = 50 x 0,30 + 50 x 0,20 + 20 x 0,.10 = 15 + 10 + 2 = 27,00 Linha da fatura de imposto 2 = 50 x 0,30 + 50 x 0,20 + 20 x 0,10 = 15 + 10 + 2 = 27,00 Total de impostos = 27,00 = 27,00 + 54,00 Total de impostos especiais = 5,00 x 8 = 40,00 Valor total da fatura = 200,00 + 54,00 + 40,00 = 294,00
 
 ## <a name="gross-amount-per-unit"></a>Valor bruto por unidade
 
@@ -162,11 +165,11 @@ As taxas de impostos são configuradas nos intervalos a seguir.
 
 Base marginal: **Valor bruto por unidade** Há um imposto especial de 5,00 sobre cada luminária. O imposto é somado ao valor líquido antes do cálculo do imposto sobre vendas. Você compra oito luminárias que custam 25,00 cada. O valor bruto por unidade é 30,00. O imposto é calculado da seguinte maneira: Imposto por unidade = 30 x 30% = 9,00 Total de impostos = 9,00 x 8 = 72,00 Total de impostos especiais = 5,00 x 8 = 40,00 Valor total da fatura = 200,00 + 72,00 + 40,00 = 312,00
 
-## <a name="invoice-total-incl-other-sales-tax-amounts"></a> Total da fatura incluindo outros valores de imposto
+## <a name="invoice-total-incl-other-sales-tax-amounts"></a>Total da fatura incluindo outros valores de imposto
 
 Selecione essa opção para determinar as taxas de imposto no valor total da fatura, incluindo outros impostos.
 > [!NOTE]
-> Em um grupo de impostos sobre vendas, você pode ter um código de imposto com essa seleção no campo base marginal
+> Em um grupo de impostos, você só pode ter um código de imposto com essa seleção no campo Base marginal.
 
 ### <a name="example"></a>Exemplo
 
@@ -178,9 +181,11 @@ As taxas de impostos são configuradas nos intervalos a seguir.
 | 50 - 100           | 20%      |
 | 100 - 0 (&gt; 100) | 10%      |
 
-Base marginal: ** Total de nota fiscal incluindo outros valores de imposto ** método de cálculo: ** Intervalo **   
+Base marginal: **Total de fatura incluindo outros valores de imposto** Método de cálculo: **Intervalo**   
 Há um imposto especial de 5,00 sobre cada luminária. O imposto é somado ao valor líquido antes do cálculo do imposto sobre vendas. Você compra oito luminárias que custam 25,00 cada. O valor líquido da fatura é 200,00. O valor bruto da fatura é 200,00 + (8 x 5,00) = 240,00. O imposto é calculado da seguinte maneira: Total de impostos = 50 x 0,30 + 50 x 0,20 + 140 x 0,10 = 15 + 10 + 14 = 39,00 Total de impostos especiais = 5,00 x 8 = 40,00 Valor total da fatura = 200,00 + 39,00 + 40,00 = 279,00
 
-Para obter mais informações, consulte opções [depreciação e de cálculo inteiros do intervalo para os códigos de impostos whole-amount-interval-options-sales-tax-codes.md] (e) [métodos de cálculo de impostos no campo] de origem (sales-tax-calculation-methods-origin-field.md).
+Para obter mais informações, consulte [Opções de cálculo de intervalo e valor total para códigos de imposto](whole-amount-interval-options-sales-tax-codes.md) e [Métodos de cálculo de imposto no campo Origem](sales-tax-calculation-methods-origin-field.md).
+
+
 
 

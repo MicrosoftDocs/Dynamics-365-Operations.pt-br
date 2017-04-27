@@ -1,6 +1,6 @@
 ---
-title: "Home &amp; page de relatório de BI"
-description: "Este tópico lista os recursos &amp; de relatório DE BI disponíveis no Microsoft Dynamics 365 para as operações."
+title: "Home page de BI &amp; relatórios"
+description: "Este tópico lista os recursos de BI &amp; relatórios disponíveis no Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,26 +24,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>Home &amp; page de relatório de BI
+# <a name="bi-amp-reporting-home-page"></a>Home page de BI &amp; relatórios
 
-Este tópico lista os recursos &amp; de relatório DE BI disponíveis no Microsoft Dynamics 365 para as operações.
+[!include[banner](../includes/banner.md)]
+
+
+Este tópico lista os recursos de BI &amp; relatórios disponíveis no Microsoft Dynamics 365 for Operations. 
 
 <a name="working-with-aggregate-data"></a>Trabalhando com dados agregados
 ---------------------------
 
--   [Analytics](analytics.md)
+-   [Análise](analytics.md)
 -   [Os modelos agregados de tempo real na memória substituem os cubos SSAS](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
--   [Modelagem e sobre dados de utilização (model-aggregate-data.md])
--   [Migrar cubo atualizado vendas R3 do dynamics AX 2012 ao armazenamento de entidade (]. \ \ migrate-upgraded-cube-entity-store.md atualização)
+-   [Criando e usando dados agregados](model-aggregate-data.md)
+-   [Migrar um cubo de vendas atualizado do Dynamics AX 2012 R3 para o repositório de entidades](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
-## <a name="self-service-reporting"></a>Relatório de serviço do próprio
--   [Power BI integration](power-bi-integration.md)
+## <a name="self-service-reporting"></a>Relatório de autoatendimento
+-   [Integração do Power BI](power-bi-integration.md)
 -   [Configurar a integração do Power BI em espaços de trabalho](configure-power-bi-integration.md)
 -   [Criar um relatório de Power BI usando dados do Microsoft Dynamics 365 for Operations](create-powerbi-report-data.md)
--   [Criar um relatório do power BI e um painel create-powerbi-report-dashboard.md] ()
--   [Venda varejo ao conteúdo] de O power BI de desempenho de canal (retail-channel-performance-dashboard-power-bi-data.md)
--   [] Conteúdo de O power BI de desempenho financeiro (financial-performance-power-bi-content-pack.md)
--   [] Conteúdo de O power BI de vendas e de desempenho de lucratividade (sales-profitability-performance-content-pack.md)
+-   [Criar um relatório e um painel do relatório de Power BI](create-powerbi-report-dashboard.md)
+-   [Conteúdo de desempenho dos canais de venda para Power BI](retail-channel-performance-dashboard-power-bi-data.md)
+-   [Conteúdo de desempenho financeiro para Power BI](financial-performance-power-bi-content-pack.md)
+-   [Conteúdo de Power BI de desempenho de lucratividade e vendas](sales-profitability-performance-content-pack.md)
 -   [Usar uma configuração de relatório eletrônico para fornecer o Power BI com dados do Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Compilando experiências analíticas inseridas no cliente do Dynamics 365 for Operations
@@ -95,6 +98,8 @@ Este tópico lista os recursos &amp; de relatório DE BI disponíveis no Microso
 -   [O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 5: Modificar e faça o formato)](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/) (Guia de tarefas)
 -   [ER Gerar documentos eletrônicos para pagamentos usando uma configuração de formato](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/) (Guia de tarefas)
 -   [ER Atualize seu formato adotando uma nova versão com base nesse formato](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/) (Guia de tarefas)
+
+
 
 
 

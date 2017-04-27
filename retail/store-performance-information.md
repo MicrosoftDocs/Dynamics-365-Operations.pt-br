@@ -1,6 +1,6 @@
 ---
 title: Analisar desempenho da loja
-description: "Este artigo explica como você pode usar a análise de memória e de tempo real para acessar, explorar, e se aprofundar sobre o desempenho do armazenamento, com base no Microsoft Dynamics 365 para dados de operações."
+description: "Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho do armazenamento, com base nos dados do Microsoft Dynamics 365 for Operations."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 57811
 ms.assetid: 495a66f0-491a-4688-842d-51c33c37676f
 ms.search.region: global
@@ -27,13 +27,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="analyze-store-performance"></a>Analisar desempenho da loja
 
-Este artigo explica como você pode usar a análise de memória e de tempo real para acessar, explorar, e se aprofundar sobre o desempenho do armazenamento, com base no Microsoft Dynamics 365 para dados de operações. 
+[!include[banner](includes/banner.md)]
 
-Como parte do 365 para operações, os usuários podem estudar o desempenho do armazenamento em tempo real pelos diferentes níveis de hierarquia organizacional em um período selecionado com a saída de caixa ** resumo de canal ** relatam de quaisquer dos seguintes locais:
 
--   ** Gerenciamento de chão ** dynamics 365 do espaço de trabalho para operações &gt; ** varejo e comércio ** &gt; ** canais ** &gt; ** gerenciamento de chão ** &gt; ** relatórios ** &gt; ** relatório de resumo de canal **
--   ** Financeiros de fábrica ** dynamics 365 do espaço de trabalho para operações &gt; ** varejo e comércio ** &gt; ** canais ** &gt; ** financeiros de fábrica ** &gt; ** relatórios ** &gt; ** relatório de resumo de canal **
--   ** Consultas e relatórios ** dynamics 365 da seção para operações &gt; ** varejo e comércio ** &gt; ** consultas e relatórios ** &gt; ** relatórios de vendas ** &gt; ** relatório de resumo de canal **
+Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho do armazenamento, com base nos dados do Microsoft Dynamics 365 for Operations. 
+
+Como parte do Dynamics 365 for Operations, os usuários podem estudar o desempenho da loja em tempo real nos diferentes níveis da hierarquia organizacional durante um período selecionado, abrindo o relatório predefinido **Resumo do canal** em qualquer um deste locais:
+
+-   **Gerenciamento de loja de varejo** espaço de trabalho do Dynamics 365 for Operations &gt; **Varejo e comércio** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de resumo de canal**
+-   **Finanças da loja de varejo** espaço de trabalho do Dynamics 365 for Operations &gt; **Varejo e comércio** &gt; **Canais** &gt; **Finanças da loja de varejo** &gt; **Relatórios** &gt; **Relatório de resumo de canal**
+-   **Consultas e relatórios** seção do Microsoft Dynamics 365 for Operations &gt; **Varejo e comércio** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de resumo de canal**
 
 Este relatório apresenta um instantâneo dos seguintes resumos como parte do desempenho da loja:
 
@@ -42,4 +45,6 @@ Este relatório apresenta um instantâneo dos seguintes resumos como parte do de
 -   Resumo do imposto
 -   Resumo de substituições de preço
 -   Resumo de descontos
+
+
 

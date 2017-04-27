@@ -1,6 +1,6 @@
 ---
 title: "Questionários"
-description: "Este tópico fornece informações gerais sobre questionários e, vincular-la a informações mais detalhadas. Um questionário é um conjunto de perguntas que é usado para coletar informações para diversas finalidades. Você pode projetar, criar, distribuir e preencher questionários e, em seguida, analisar os resultados."
+description: "Este tópico fornece informações gerais sobre questionários e leva a informações mais detalhadas. Um questionário é um conjunto de perguntas que é usado para coletar informações para diversas finalidades. Você pode projetar, criar, distribuir e preencher questionários e, em seguida, analisar os resultados."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="questionnaires"></a>Questionários
 
-Este tópico fornece informações gerais sobre questionários e, vincular-la a informações mais detalhadas. Um questionário é um conjunto de perguntas que é usado para coletar informações para diversas finalidades. Você pode projetar, criar, distribuir e preencher questionários e, em seguida, analisar os resultados. 
+[!include[banner](includes/banner.md)]
 
-Você pode personalizar um questionário de acordo os requisitos mais específicos usando os recursos disponíveis no Microsoft Dynamics 365 para as operações. Eis alguns exemplos de como os questionários podem ser usados:
+
+Este tópico fornece informações gerais sobre questionários e leva a informações mais detalhadas. Um questionário é um conjunto de perguntas que é usado para coletar informações para diversas finalidades. Você pode projetar, criar, distribuir e preencher questionários e, em seguida, analisar os resultados. 
+
+Você pode personalizar um questionário de acordo com as suas necessidades específicas usando diversos recursos disponíveis no Microsoft Dynamics 365 for Operations. Eis alguns exemplos de como os questionários podem ser usados:
 
 -   Testar as habilidades profissionais de funcionários e candidatos.
 -   Avaliar se os participantes do curso aprenderam o material do curso.
@@ -42,9 +45,9 @@ A tabela a seguir fornece links para informações sobre as tarefas do question�
 
 | Tópico| descrição|
 |------|------------|
-| [Design a questionnaire](design-questionnaires.md)  | Este artigo fornece informações sobre como criar um questionário. O processo de criação envolve a configuração de pré-requisitos, respostas e perguntas, e a combinação destes em um questionário. |
-| [Distribute and complete a questionnaire](distribute-questionnaires.md)  | Este artigo fornece informações sobre como distribuir um questionário aos participantes e como preencher questionários.                                                                       |
-| [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md) | Este artigo fornece informações sobre como avaliar resultados de questionários preenchidos.                                                                                        |
+| [Criar um questionário](design-questionnaires.md)  | Este artigo fornece informações sobre como criar um questionário. O processo de criação envolve a configuração de pré-requisitos, respostas e perguntas, e a combinação destes em um questionário. |
+| [Distribuir e concluir um questionário](distribute-questionnaires.md)  | Este artigo fornece informações sobre como distribuir um questionário aos participantes e como preencher questionários.                                                                       |
+| [Exibir e avaliar os resultados de um questionário](evaluate-questionnaire-results.md) | Este artigo fornece informações sobre como avaliar resultados de questionários preenchidos.                                                                                        |
 
 
 
@@ -55,6 +58,8 @@ A tabela a seguir fornece links para informações sobre as tarefas do question�
 
 [Distribuindo e preenchendo questionários](distribute-questionnaires.md)
 
-[Exibição e avaliação dos resultados de questionários (evaluate-questionnaire-results.md])
+[Exibindo e avaliando os resultados dos questionários](evaluate-questionnaire-results.md)
+
+
 
 

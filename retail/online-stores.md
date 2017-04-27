@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16161
 ms.assetid: 646d560c-f856-4701-b4ca-44e357ef09b8
 ms.search.region: Global
@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 ---
 
 # <a name="online-store-overview"></a>Visão geral da loja online
+
+[!include[banner](includes/banner.md)]
+
 
 Este artigo oferece informações sobre armazenamentos online de Retail e como configurá-los no Microsoft Dynamics 365 for Operations.
 
@@ -50,5 +53,7 @@ Antes de criar uma loja online, você deve definir a hierarquia de navegação d
 
 ## <a name="organization-hierarchies"></a>Hierarquias da organização
 As hierarquias da organização são usadas para estruturar canais de varejo. As hierarquias da organização representam os relacionamentos entre as organizações que compõem sua empresa. Ao configurar lojas online, você pode adicioná-las a uma hierarquia da organização. Então, as lojas compartilham os dados usados para classificações, reabastecimento e relatórios. Ao criar uma hierarquia da organização, você atribui uma finalidade a ela. A finalidade indica como a hierarquia é usada na estrutura de negócios. Você pode criar uma hierarquia da organização para as operações da sua loja, e usar essa hierarquia para classificações, reabastecimento e relatórios. Como alternativa, você pode criar uma hierarquia da organização separada para cada finalidade. Você também pode criar várias hierarquias com a mesma finalidade e atribuir um canal separado a cada uma delas. Se você pretende publicar catálogos de produtos de varejo na loja online, deve, no mínimo, adicionar a loja online a uma hierarquia da organização para classificações. Os produtos de um catálogo são selecionados das classificações atribuídas à loja online. Quando o catálogo é publicado, o processo de publicação compara as datas efetivas da classificação atribuída à loja online com os produtos incluídos no catálogo para determinar quais produtos devem ser disponibilizados na loja online.
+
+
 
 

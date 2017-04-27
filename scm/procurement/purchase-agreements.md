@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-agreements"></a>Contratos de compra
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre contratos de compras. Um contrato de compra é um contrato que compromete uma organização a comprar uma quantidade ou um valor especificado usando várias ordens de compra ao longo do tempo. Em troca desse compromisso, o comprador obtém preços e descontos especiais. 
 
 Os contratos de compra podem ser aplicados a uma quantidade específica de um produto, a um valor de moeda específico de um produto ou a um valor de moeda específico dos produtos em uma categoria de compras. Os preços e os descontos do contrato de compra substituem os preços e os descontos que são especificados em qualquer contrato comercial existente.  
@@ -70,7 +73,7 @@ A área **Contrato** mostra a quantidade total ou o valor total da linha para a 
 Você pode acessar as linhas da OC e as linhas da fatura que contribuem para o cálculo de atendimento ao selecionar a ação **Informações relacionadas** nas linhas ou no cabeçalho de um contrato de compra.
 
 ## <a name="confirmations-and-version-history-for-purchase-agreements"></a>Histórico de versões e confirmações para contratos de compra
-Quando você confirma um contrato de compra, a versão atual do contrato é armazenada em uma tabela histórica. Ao alterar o contrato de compra, você o confirma novamente para armazenar outra versão do contrato de compra no histórico. Se não confirmar um contrato de compra, você ainda poderá usá-lo para criar a posição. Entretanto, as informações do histórico para o contrato de compra não fica armazenada. É possível visualizar ou imprimir todas as versões do contrato. Você pode compartilhar as revisões com seu fornecedor para obter aprovação.
+Quando você confirma um contrato de compra, a versão atual do contrato é armazenada em uma tabela histórica. Ao alterar o contrato de compra, você o confirma novamente para armazenar outra versão do contrato de compra no histórico. Se não confirmar um contrato de compra, você ainda poderá usá-lo para criar ordens de pagamento. No entanto, as informações do histórico do contrato de compra não são armazenadas. É possível visualizar ou imprimir todas as versões do contrato. Você pode compartilhar as revisões com seu fornecedor para obter aprovação.
 
 ## <a name="applying-purchase-agreements-in-the-ordering-process"></a>Aplicando contratos de compra no processo de ordem
 Quando você cria uma OC, pode aplicar um contrato de compra a ela. As informações sobre as condições do contrato, como as condições de pagamento, as condições de entrega e endereço de entrega, são copiadas para o cabeçalho da OC. Se a OC contiver uma ou mais linhas produtos ou categorias especificados no contrato de compra, os preços e os descontos do contrato de compra serão usados para essas linhas. O valor ou a quantidade na linha da ordem contribui para o atendimento ao compromisso no contrato de compra. A mesma OC pode incluir linhas que não estejam relacionadas a um contrato de compra e linhas com um compromisso para um contrato de compra.  
@@ -91,8 +94,10 @@ Você pode copiar as dimensões financeiras para os cabeçalhos de documento ou 
 <a name="see-also"></a>Consulte também
 --------
 
-[Criar um acordo de compra (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
+[Criar um novo contrato de compra (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
 
-[Criar uma ordem de compra de um contrato de compra (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+[Criar uma ordem de liberação de compra de um contrato de compra (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+
+
 
 

@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Configurar taxas de juros para um código de juros
 
+[!include[banner](../includes/banner.md)]
+
+
 Os códigos de juros contêm configurações que determinam quando os juros são cobrados e como são calculados em contas vencidas.
 
 Você pode configurar um único código de juros e aplicá-lo a vários perfis de lançamentos do cliente, códigos de cobrança ou às linhas da fatura específicas. Quando os detalhes do código de juros são alterados, todos os recursos que usam o código implementarão automaticamente as alterações nas novas transações. Para cada código de juros, você pode configurar dois tipos de taxas:
@@ -44,17 +47,17 @@ Você pode configurar taxas de juros para calcular um percentual especificado.
 
 -   O valor dos juros se aplica a todas as moedas.
 -   Os limites do valor de juros opcional podem ser inseridos.
--   ** Porcentagem ** é selecionado ** ** em ** calcula os juros baseiam ** campo em ** configura códigos de juros ** página.
+-   **Percentagem** é selecionado** **no campo **Calcular juros com base em** na página **Configurar códigos de juros**.
 
-Por exemplo, para configurar um código que avaliem juros juros de 5 por cento cada dois meses que o pagamento da nota fiscal ultrapassar a data de vencimento da transação, você incorporariam 2 ** calcula os juros cada ** no campo e selecione ** ** mês.
+Por exemplo, para configurar um código de juros que avalie 5% de juros para cada dois meses, se o pagamento da fatura exceder a data de vencimento da transação, digite 2 no campo **Calcular juros a cada** e selecione **Mês**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Taxas de juros baseadas em valores
 Você pode configurar taxas de juros que calculam um valor por moeda específico.
 -   Um valor de juros é especificado para cada moeda no código de juros.
 -   Os limites do valor de juros opcional podem ser inseridos.
--   ** ** Valor é selecionado em ** calcula os juros baseiam ** campo em ** configura códigos de juros ** página.
+-   **Valor **é selecionado no campo **Calcular juros com base em** na página **Configurar códigos de juros**.
 
-Por exemplo, para configurar um código que avaliem juros juros de 25.00 para cada 20 dias em que o pagamento da nota fiscal ultrapassar a data de vencimento da transação, você incorporariam 20 ** calcula os juros cada ** no campo e selecione ** ** dia.
+Por exemplo, para configurar um código de juros que avalie juros de 25,00 para cada 20 dias que o pagamento da fatura excede a data de vencimento da transação, insira 20 no campo **Calcular juros a cada** e selecione **Dia**.
 
 ## <a name="interest-rates-based-on-ranges"></a>Taxas de juros baseadas em intervalos
 Você pode configurar taxas de juros que varia de acordo com o valor vencido, o número de dias ou de meses que o valor está atrasado.
@@ -67,13 +70,13 @@ Você configura um código de juros que avalia juros uma vez a cada três meses 
 | **Nome do campo**                  | **Valor do campo** |
 |---------------------------------|-----------------|
 | **Código de juros**               | 3M%ByAmt        |
-| **Calcular juros a cada**    | 3/Month         |
+| **Calcular juros a cada**    | 3/Mês         |
 | **Juros por intervalo**           | Valor          |
 | **Calcular juros baseados em** | Porcentagem      |
 
 Configure as informações do intervalo conforme as informações a seguir.
 
-| **From value** | **Interest value** |
+| **Do valor** | **Valor dos juros** |
 |----------------|--------------------|
 | 0              | 1                  |
 | 1,001          | 2                  |
@@ -94,7 +97,7 @@ Você configura um código de juros que avalia juros uma vez a cada 15 dias que 
 
 Configure as informações do intervalo conforme as informações a seguir.
 
-| **From value** | **Interest value** |
+| **Do valor** | **Valor dos juros** |
 |----------------|--------------------|
 | 0              | 10                 |
 | 61             | 15                 |
@@ -109,13 +112,13 @@ Você configura um código de juros que avalia juros uma vez a cada mês que o p
 | **Nome do campo**                  | **Valor do campo** |
 |---------------------------------|-----------------|
 | **Código de juros**               | 1M%ByMth        |
-| **Calcular juros a cada**    | 1/Month         |
+| **Calcular juros a cada**    | 1/mês         |
 | **Juros por intervalo**           | Meses          |
 | **Calcular juros baseados em** | Porcentagem      |
 
 Configure as informações do intervalo conforme as informações a seguir.
 
-| **From value** | **Interest value** |
+| **Do valor** | **Valor dos juros** |
 |----------------|--------------------|
 | 0              | 1.5                |
 | 4              | 2                  |
@@ -125,5 +128,7 @@ Configure as informações do intervalo conforme as informações a seguir.
 Os códigos de juros possuem data efetiva. Se desejar alterar a taxa de juros, você pode criar uma **nova versão** que entrará em vigor a partir de uma data futura.
 
 Para exibir versões diferentes, você pode usar a opção de menu **A partir da data** para selecionar a data de fechamento. Você também pode selecionar **Exibir todos os registros** para exibir todos os códigos de juros na página.
+
+
 
 

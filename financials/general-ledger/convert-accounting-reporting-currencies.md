@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Convertendo a contabilidade ou as moedas de relatório
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 Uma empresa que deve alterar a moeda contábil ou moeda de relatório apresenta duas opções. A primeira opção é criar uma nova empresa e iniciar a atualização. A segunda opção é executar a contabilidade e o processo de conversão da moeda de relatório. Este é um processo muito longo que modifica cada transação no sistema. Alguma configuração também é necessária antes do processo ser executado.
@@ -72,6 +75,8 @@ Depois da conversão de moeda, você deverá gerar todos os relatórios de recon
 -   Se a conversão da moeda contábil do razão causar diferenças de arredondamento, essas diferenças não serão lançadas usando o comprovante onde a diferença de arredondamento ocorreu. Em vez disso, as diferenças serão lançadas usando o comprovante que foi inserido para lançamentos de conversão. Após a conversão, todos os relatórios que efetuam a verificação por comprovante e data incluirão essas diferenças de arredondamento. Esse comportamento está correto e pode ser ignorado.
 -   Se os relatórios de reconciliação de cliente e de fornecedor exibirem um valor de diferença na linha de total, e não houver nenhum valor de diferença antes da conversão, esse valor de diferença deverá ser lançado. A conta é a conta resumo para os clientes e fornecedores. A contrapartida é a conta contábil para a perda por conversão ou o lucro de conversão.
 
-Quando todos os diários de transação do razão tiverem sido excluídos, você poderá lançar as transações do razão no diário. Clique ** contabilidade ** &gt; ** periódico ** &gt; ** diários ** &gt; ** se lançando ** em diário. Você pode reavaliar os valores de moeda estrangeira depois da conversão de moeda, se a reavaliação for necessária. Você reavalia os valores de moeda estrangeira selecionando **Padrão** no campo **Método** da reavaliação.
+Quando todos os diários de transação do razão tiverem sido excluídos, você poderá lançar as transações do razão no diário. Clique em **Contabilidade** &gt; **Periódico** &gt; **Diários** &gt; **Lançamento em diário**. Você pode reavaliar os valores de moeda estrangeira depois da conversão de moeda, se a reavaliação for necessária. Você reavalia os valores de moeda estrangeira selecionando **Padrão** no campo **Método** da reavaliação.
+
+
 
 

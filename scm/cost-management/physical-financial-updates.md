@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="physical-and-financial-updates"></a>Atualizações físicas e financeiras
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tópico fornece uma visão geral dos tipos de transação que aumentam ou diminuem quantidades em estoque. 
 
-As transações de estoque podem ser atualizadas financeiramente e atualizado no Microsoft Dynamics 365 para as operações. Alguns dos tipos de transações físicas e financeiras aumentam as quantidades em estoque, enquanto outras diminuem a quantidade.
+As transações de estoque podem ser atualizadas de forma física e financeira no Microsoft Dynamics 365 for Operations. Alguns dos tipos de transações físicas e financeiras aumentam as quantidades em estoque, enquanto outras diminuem a quantidade.
 
 ## <a name="physical-increases"></a>Aumentos físicos
 Quando uma transação física é lançada, o status do registro da transação é **Recebido**. As transações a seguir são consideradas aumentos físicos:
@@ -49,10 +52,10 @@ Quando uma transação de recebimento financeiro é lançada, o status do regist
 -   Diários de estoque de quantidade positiva, como movimento, lucros e perdas, contagem, lista de materiais e transferência
 
 ## <a name="transactions-that-increase-quantity"></a>Transações que aumentam a quantidade
-As transações que aumentam a quantidade são lançadas ao preço de custo médio. O dynamics 365 para operações calcula um preço de custo médio estimado em execução com base no custo de cada uma dessas transações para cada dimensão de estoque sendo rastreadas financeiramente. Para obter informações sobre os preços de custo médio, consulte [Preço de custo médio](running-average-cost-price.md).
+As transações que aumentam a quantidade são lançadas ao preço de custo médio. O Microsoft Dynamics 365 for Operations calcula um preço de custo médio baseado no custo de cada uma dessas transações para cada dimensão de estoque rastreada financeiramente. Para obter informações sobre os preços de custo médio, consulte [Preço de custo médio](running-average-cost-price.md).
 
 ## <a name="transactions-that-decrease-quantity"></a>Transações que diminuem a quantidade
-O dynamics 365 para as operações usando o preço de custo médio em execução previsto calculado quando uma transação que diminui a quantidade é lançada, independentemente do modelo de estoque associado a esse estoque. A transação que diminui a quantidade não deve ter sido marcada anteriormente para outra transação antes do lançamento. Se o estoque físico disponível for negativo, o dynamics 365 para as operações usando o custo de estoque definidos para o item ** ** item na página. **Observação:** se a funcionalidade multissite estiver habilitada, esse custo será o custo de estoque definido para um site na página **Configurações da ordem padrão**.
+O Microsoft Dynamics 365 for Operations usa o preço de custo médio calculado quando uma transação que diminui a quantidade é lançada, independentemente do modelo de estoque associado a esse estoque. A transação que diminui a quantidade não deve ter sido marcada anteriormente para outra transação antes do lançamento. Se o estoque disponível físico ficar negativo, o Microsoft Dynamics 365 for Operations usará o custo de estoque definido para o item na página **Item**. **Observação:** se a funcionalidade multissite estiver habilitada, esse custo será o custo de estoque definido para um site na página **Configurações da ordem padrão**.
 
 ## <a name="physical-issues-vs-financial-issues"></a>Saídas físicas versus saídas financeiras
 Quando uma transação física de saída é lançada, o status do registro da transação é **Deduzido**. As transações a seguir são consideradas saídas físicas:
@@ -69,5 +72,7 @@ Quando uma transação financeira é lançada, o status do registro da transaç�
 -   Diários de estoque de quantidade negativa, como movimento, lucros e perdas, contagem, lista de materiais e transferência
 
 As transações que diminuem a quantidade são lançadas ao preço de custo médio. Portanto, o procedimento de fechamento de estoque é necessário para liquidar transações de saída para transações de recebimento com base no modelo de estoque atribuído a cada item.
+
+
 
 

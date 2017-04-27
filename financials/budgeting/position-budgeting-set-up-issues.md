@@ -1,5 +1,5 @@
 ---
-title: "Solução de problemas de orçamento de posição"
+title: "Solução de problemas para orçamento de posição"
 description: "Este artigo oferece respostas para as perguntas que você pode ter ao configurar o orçamento de posições. Aborda as perguntas mais frequentes sobre como criar elementos de custos de orçamento, grupos de remuneração, e grades de remuneração."
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="position-budgeting-troubleshooting"></a>Solução de problemas de orçamento de posição
+# <a name="position-budgeting-troubleshooting"></a>Solução de problemas para orçamento de posição
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo oferece respostas para as perguntas que você pode ter ao configurar o orçamento de posições. Aborda as perguntas mais frequentes sobre como criar elementos de custos de orçamento, grupos de remuneração, e grades de remuneração. 
 
@@ -58,6 +61,8 @@ As datas na linha do elemento de custo da posição de previsão devem estar nos
 -   As datas de ativação e de aposentadoria da posição.
 -   As datas de ativação e de vencimento do elemento de custo de orçamento.
 -   As datas de início e fim do ciclo orçamentário associado ao processo de planejamento de orçamento da posição de previsão.
+
+
 
 
 

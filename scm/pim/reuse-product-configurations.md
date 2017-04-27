@@ -1,5 +1,5 @@
 ---
-title: "Reutilizar configurações de produtos"
+title: "Usar novamente configurações de produto"
 description: "Você pode especificar se deseja reutilizar automaticamente uma configuração existente para um produto. Então, quando o usuário concluir uma sessão de configuração, o sistema verifica se já existe uma configuração correspondente às seleções do usuário. Se uma configuração correspondente for encontrada, a ID de configuração, a lista de materiais (BOM) correspondente e o roteiro serão reutilizados."
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reuse-product-configurations"></a>Reutilizar configurações de produtos
+# <a name="reuse-product-configurations"></a>Usar novamente configurações de produto
+
+[!include[banner](../includes/banner.md)]
+
 
 Você pode especificar se deseja reutilizar automaticamente uma configuração existente para um produto. Então, quando o usuário concluir uma sessão de configuração, o sistema verifica se já existe uma configuração correspondente às seleções do usuário. Se uma configuração correspondente for encontrada, a ID de configuração, a lista de materiais (BOM) correspondente e o roteiro serão reutilizados.
 
@@ -41,5 +44,7 @@ Para habilitar as configurações a ser reutilizadas, você deve especificar as 
 
 ## <a name="resetting-configuration-reuse"></a>Redefinir reutilização da configuração
 Quando você redefine a reutilização de configuração, as configurações criadas anteriormente são consideradas não. Talvez seja conveniente redefinir a reutilização de configuração se a BOM ou o roteiro foram alterados, mas nenhum atributo relacionada foi alterado. Você redefine a reutilização de configuração **Geral** em FastTab do componente.
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>Configurar e processar notas ficais recorrentes
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo explica como configurar e processar notas fiscais recorrentes. Você pode usar notas fiscais recorrentes se você deve cobrar clientes para a mesma quantidade regularmente.
 
 <a name="create-a-recurring-free-text-invoice-template"></a>Criar um modelo de fatura de texto livre recorrente
@@ -61,5 +64,7 @@ Imprimir faturas de texto livre recorrentes
 ----------------------------------
 
 Depois que as faturas recorrentes são lançadas, você pode imprimir as faturas da página de listagem de faturas de texto livre. Você pode imprimir as faturas selecionadas ou pode selecionar um intervalo de faturas para imprimir.
+
+
 
 

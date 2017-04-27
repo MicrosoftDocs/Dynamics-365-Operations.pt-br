@@ -1,5 +1,5 @@
 ---
-title: "Sintaxe avançado de filtragem e consulta"
+title: "Opções avançadas de filtragem e sintaxe de consulta"
 description: "Este artigo descreve a filtragem e as opções de consulta disponíveis quando você usa o operador &quot;correspondências&quot; na caixa de diálogo Filtro/Classificação Avançado."
 author: jasongre
 manager: AnnBe
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-filtering-and-query-syntax"></a>Sintaxe avançado de filtragem e consulta
+# <a name="advanced-filtering-and-query-syntax"></a>Opções avançadas de filtragem e sintaxe de consulta
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo descreve a filtragem e as opções de consulta disponíveis quando você usa o operador "correspondências" na caixa de diálogo Filtro/Classificação Avançado.
 
-<a name="advanced-query-syntax"></a>Sintaxe de consulta Avançado
+<a name="advanced-query-syntax"></a>Sintaxe de consulta avançada
 ---------------------
 
 <table>
@@ -52,79 +55,79 @@ Este artigo descreve a filtragem e as opções de consulta disponíveis quando v
 <td><em>valor</em></td>
 <td>Igual ao valor inserido que é inserido</td>
 <td>Digite o valor para encontrar.</td>
-<td><strong>Smith</strong> Smith&quot;localiza &quot;.</td>
+<td><strong>Smith</strong> localiza &quot;Smith&quot;.</td>
 </tr>
 <tr class="even">
 <td>!<em>valor</em> (ponto de exclamação)</td>
 <td>Diferente do valor que é inserido</td>
 <td>Digite um ponto de exclamação e o valor a ser excluído.</td>
-<td><strong>! Smith</strong> localiza todos os valores exceto &quot;Smith&quot;.</td>
+<td><strong>!Smith</strong> localiza todos os valores, exceto &quot;Smith&quot;.</td>
 </tr>
 <tr class="odd">
 <td><em>-valor de</em>.<em>valor até</em> (dois pontos finais)</td>
 <td>Entre os dois valores que são separados por dois pontos finais</td>
 <td>Digite o Valor - de, os dois pontos finais e o Valor - até.</td>
-<td><strong>1..10</strong> localiza todos os valores de 1 a 10. Entretanto, em um campo de string, <strong>A.C</strong> localiza todos os valores que começam com &quot;A&quot; e &quot;B&quot;, e os valores exatamente iguais &quot;que estão à C&quot;. por exemplo, essa consulta o não &quot;localizarão CA.&quot; Para localizar todos os valores &quot;com &quot;da* C*&quot;, digite.</td>
+<td><strong>1..10</strong> localiza todos os valores de 1 a 10. No entanto, em um campo da cadeia de caracteres, <strong>A..C</strong> localiza todos os valores que começam com &quot;A&quot; e &quot;B&quot;, que são exatamente iguais a &quot;C&quot;. Por exemplo, esta consulta não encontrará &quot;Ca&quot;. Para localizar todos os valores de &quot;A*&quot; a &quot;C*&quot;, digite <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>valor</em> (dois pontos finais)</td>
 <td>Menor ou igual ao valor inserido.</td>
 <td>Digite os dois pontos finais e, em seguida, o valor.</td>
-<td><strong>. .1000</strong> localiza todos os números que seja menor ou igual a 1000, como &quot;100&quot;, &quot;999.95&quot;, e &quot;1,000&quot;.</td>
+<td><strong>..1000</strong> localiza todos os números menores ou iguais a 1000, como &quot;100&quot;, &quot;999,95&quot; e &quot;1.000&quot;.</td>
 </tr>
 <tr class="odd">
 <td><em>valor</em>.. (dois pontos finais)</td>
 <td>Maior ou igual ao valor inserido.</td>
 <td>Digite o valor e, em seguida, dois pontos.</td>
-<td><strong>1000..</strong> localiza todos os números que for maior ou igual a 1000, como &quot;1,000&quot;, &quot;1,000.01&quot;, e &quot;1,000,000&quot;.</td>
+<td><strong>1000..</strong> localiza todos os números maiores ou iguais a 1000, como &quot;1.000&quot;, &quot;1.000,01&quot; e &quot;1.000.000&quot;.</td>
 </tr>
 <tr class="even">
-<td>&gt;<em>valor</em> (maior que o sinal)</td>
+<td>&gt;<em>valor</em> (sinal maior que)</td>
 <td>Maior que o valor inserido</td>
-<td>Digite uma maior que assinam (<strong>&gt;</strong>) e o valor.</td>
-<td><strong>&gt;1000</strong> localiza todos os números que for maior que 1000, como &quot;1000.01&quot;, &quot;20,000&quot;, e &quot;1,000,000&quot;.</td>
+<td>Digite um sinal maior que (<strong>&gt;</strong>) e o valor.</td>
+<td><strong>&gt;1000</strong> localiza todos os números maiores ou iguais a 1000, como &quot;1000,01&quot;, &quot;20.000&quot; e &quot;1.000.000&quot;.</td>
 </tr>
 <tr class="odd">
-<td>&lt;<em>valor</em> (menor que o sinal)</td>
+<td>&lt;<em>valor</em> (sinal menor que)</td>
 <td>Menor que o valor inserido</td>
-<td>Digite menor que assinam (<strong>&lt;</strong>) e o valor.</td>
-<td><strong>&lt;1000</strong> localiza todos os números que seja menor de 1000, como &quot;999.99&quot;, &quot;1&quot;, e &quot;-200&quot;.</td>
+<td>Digite um sinal de menor que (<strong>&lt;</strong>) e o valor.</td>
+<td><strong>&lt;1000</strong> localiza todo número menor que 1000, como &quot;999,99&quot;, &quot;1&quot; e &quot;-200&quot;.</td>
 </tr>
 <tr class="even">
 <td><em>valor</em>* (asterisco)</td>
 <td>Iniciando a partir do valor que é inserido</td>
-<td>Digite o valor inicial e um asterisco (<strong>*</strong>).</td>
-<td><strong>S*</strong> localiza todas as strings que inicie com &quot;p&quot;, como &quot;, &quot;Stockholm&quot;Sydney&quot;San&quot;Francisco, e &quot;.</td>
+<td>Digite o valor inicial e, em seguida, um asterisco (<strong>*</strong>).</td>
+<td><strong>S*</strong> localiza todas as sequências de caracteres que começam com &quot;S&quot;, como &quot;Stockholm&quot;, &quot;Sydney&quot; e &quot;San Francisco&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>value</em> (asterisk)</td>
+<td>*<em>valor</em> (asterisco)</td>
 <td>Terminando com o valor inserido.</td>
 <td>Digite um asterisco e, em seguida, o valor final.</td>
-<td><strong>*east</strong> localiza todas as strings que terminar com &quot;leste&quot;, como &quot;o nordeste&quot; e &quot;o sudeste&quot;.</td>
+<td><strong>*east</strong> localiza todas as cadeias de caracteres que terminam com &quot;east&quot; como &quot;Northeast&quot; e &quot;Southeast&quot;.</td>
 </tr>
 <tr class="even">
 <td>*<em>valor</em>* (asterisco)</td>
 <td>Contendo o valor inserido</td>
 <td>Digite um asterisco, um valor e outro asterisco.</td>
-<td><strong>*th*</strong> localiza todas as strings que contenha th&quot;, como &quot;o nordeste&quot; e &quot;o sudeste&quot;.</td>
+<td><strong>*th*</strong> localiza todas as cadeias que contenham &quot;th&quot;, como &quot;Northeast&quot; e &quot;Southeast&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? (ponto de interrogação)</td>
 <td>Tendo um ou mais caracteres desconhecidos</td>
 <td>Digite um ponto de interrogação na posição de caracteres desconhecidos do valor.</td>
-<td><strong>Sm? th</strong> Smith&quot; localiza &quot;Smyth&quot;e &quot;.</td>
+<td><strong>Sm?th</strong> localiza &quot;Smith&quot; e &quot;Smyth&quot;.</td>
 </tr>
 <tr class="even">
 <td><em>valor</em>,<em>valor</em> (vírgula)</td>
 <td>Correspondendo aos valores separados por vírgulas</td>
 <td>Digite todos os critérios, e separe-os usando vírgulas.</td>
-<td><strong>A, D, F, G</strong> localiza exatamente &quot;10&quot;localiza&quot;exatamente &quot;da,&quot;D, &quot;F&quot;<strong>10, 20, 30, 100</strong> de, e &quot;. G, 20, 30, 100&quot;.</td>
+<td><strong>A, D, F, G</strong> localiza exatamente &quot;A&quot;, &quot;D&quot;, &quot;F&quot; e &quot;G&quot;. <strong>10, 20, 30, 100</strong> localiza exatamente &quot;10, 20, 30, 100&quot;.</td>
 </tr>
 <tr class="odd">
 <td>(<span class="code">Instrução SQL</span>) (instrução SQL entre parênteses)</td>
 <td>Correspondendo a uma consulta definida</td>
 <td>Digite uma consulta como instrução SQL entre parênteses.</td>
-<td><strong><span class="code">(fonte de dados. Fieldname! = &quot;A&quot;)</span></strong></td>
+<td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
 <td>Q</td>
@@ -137,7 +140,7 @@ Este artigo descreve a filtragem e as opções de consulta disponíveis quando v
 <td>Correspondendo o valor ou o intervalo de valores especificados pelos parâmetros do método <strong>SysQueryRangeUtil</strong></td>
 <td>Digite um método <strong>SysQueryRangeUtil</strong> com parâmetros que especificam o valor ou o intervalo de valores.</td>
 <td><ol>
-<li>Clique <strong>Contas a receber</strong> &gt; <strong>Notas fiscais</strong> &gt; <strong>Notas fiscais de cliente em aberto</strong>.</li>
+<li>Clique em <strong>Contas a receber</strong> &gt; <strong>Faturas</strong> &gt; <strong>Abrir faturas de cliente</strong>.</li>
 <li>Pressione Ctrl+Shift+F3 para abrir a página <strong>Consulta</strong>.</li>
 <li>Na guia <strong>Intervalo</strong>, clique em <strong>Adicionar</strong>.</li>
 <li>No campo <strong>Tabela</strong>, selecione <strong>Transações de cliente abertas</strong>.</li>
@@ -228,6 +231,8 @@ Consulte a tabela na seção a seguir para obter detalhes adicionais sobre os m�
 </tr>
 </tbody>
 </table>
+
+
 
 
 

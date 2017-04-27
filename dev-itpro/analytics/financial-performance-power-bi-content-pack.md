@@ -1,6 +1,6 @@
 ---
-title: "Conteúdo de O power BI de desempenho financeiro"
-description: "Este tópico descreve Microsoft Dynamics 365 para o bloco de conteúdo do desempenho financeiro das operações do power BI Microsoft. Descreve o painel e relatórios que são incluídos no bloco de conteúdo, além fornece informações sobre o modelo de dados e as entidades usados para construir o bloco de conteúdo."
+title: "Conteúdo de desempenho financeiro para Power BI"
+description: "Este tópico descreve o pacote de conteúdo Desempenho financeiro do Microsoft Dynamics 365 for Operations para Microsoft Power BI. Ele descreve o painel e os relatórios incluídos no pacote de conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o pacote de conteúdo."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,23 +24,26 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>Conteúdo de O power BI de desempenho financeiro
+# <a name="financial-performance-power-bi-content"></a>Conteúdo de desempenho financeiro para Power BI
 
-Este tópico descreve Microsoft Dynamics 365 para o bloco de conteúdo do desempenho financeiro das operações do power BI Microsoft. Descreve o painel e relatórios que são incluídos no bloco de conteúdo, além fornece informações sobre o modelo de dados e as entidades usados para construir o bloco de conteúdo.
+[!include[banner](../includes/banner.md)]
 
-<a name="accessing-the-content-pack"></a>Acessando o bloco de conteúdo
+
+Este tópico descreve o pacote de conteúdo Desempenho financeiro do Microsoft Dynamics 365 for Operations para Microsoft Power BI. Ele descreve o painel e os relatórios incluídos no pacote de conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o pacote de conteúdo.
+
+<a name="accessing-the-content-pack"></a>Acessando o pacote de conteúdo
 --------------------------
 
-Duas versões do bloco de conteúdo do desempenho financeiro estão disponíveis. Uma versão está disponível serviços (LCS) do Microsoft Dynamics lifecycle, e outros está disponível em PowerBI.com.
+Duas versões do pacote de conteúdo do desempenho financeiro estão disponíveis. Uma versão está disponível no Microsoft Dynamics Lifecycle Services (LCS) e a outra no PowerBI.com.
 
--   ** Versão disponível em LCS: ** O bloco de conteúdo do desempenho financeiro disponível em LCS suporta Microsoft Dynamics 365 para a versão 1611 de operações. Você pode encontrar o bloco de conteúdo na biblioteca de ativo compartilhado em LCS. Para obter mais informações sobre como o download do bloco de conteúdo e o seu alocação Microsoft Dynamics 365 de dados, consulte operações [conteúdo de O power BI em LCS Microsoft e seus parceiros (power-bi-content-microsoft-partners.md]).
--   ** Versão que está disponível em PowerBI.com: ** O bloco de conteúdo do desempenho financeiro que está disponível em PowerBI.com suporta versões 7.0 e 7.0.1 Microsoft Dynamics AX. Para obter mais informações sobre como conectar e cobrar sua dynamics 365 de dados, consulte operações [conteúdo de O power BI de acesso de power-bi-home-page.md] (PowerBI.com).
+-   **Versão que está disponível no LCS:** O pacote de conteúdo de Desempenho financeiro que está disponível no LCS suporta Microsoft Dynamics 365 for Operations, versão 1611. Você pode encontrar o pacote de conteúdo na biblioteca de ativo compartilhado no LCS. Para obter mais informações sobre como baixar o pacote de conteúdo e conectá-lo a seus dados do Microsoft Dynamics 365 for Operations, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md).
+-   **Versão que está disponível no PowerBI.com:** O pacote de conteúdo de Desempenho financeiro que está disponível no PowerBI.com suporta Microsoft Dynamics AX, versões 7.0 e 7.0.1. Para obter mais informações sobre como conectar e carregar os dados do Dynamics 365 for Operations, consulte [Acessar o conteúdo do Power BI em PowerBI.com](power-bi-home-page.md).
 
-## <a name="main-account-setup"></a>Configuração de conta principal
-Como organizações desejam responsabilidades e valores de receita para exibir como os valores positivos em relatórios, o de instalação contas principais em dynamics 365 para operações é importante. Para que as listas principais aparece como os valores positivos, o tipo de conta principal deve ser definido ** responsabilidade ** ou ** ** receita. Quando esses tipos de conta são usados, relatórios através de O power BI Microsoft inverterá os sinais e mostra os valores como o valor positivo.
+## <a name="main-account-setup"></a>Configuração da conta principal
+Como as organizações querem que os valores de passivos e receitas apareçam como valores positivos nos relatórios, é importante a instalação de contas principais no Dynamics 365 for Operations. Para que as contas principais apareçam como os valores positivos, o tipo de conta principal deve ser definido como **Passivo** ou **Receita**. Quando esses tipos de conta são usados, os relatórios através do Microsoft Power BI reverterão os sinais e mostrarão os valores como positivos.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-content-pack"></a>O painel e relatórios que são incluídos no bloco de conteúdo
-Após ter conectado o pacote de conteúdo aos dados do Dynamics 365 for Operations, o painel e os relatórios mostram os dados financeiros. Se nunca você usou o power BI antes, você pode saber mais sobre ela em [guiado aprendizado a página do power] de BI (https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). O painel contém blocos de dados resumidos baseados em relatórios subjacentes. Cada bloco contém informações resumidas sobre o ano atual em todas as empresas de uma organização. Eis alguns caixas:
+## <a name="dashboard-and-reports-that-are-included-in-the-content-pack"></a>Painéis e relatórios incluídos no pacote de conteúdo
+Após ter conectado o pacote de conteúdo aos dados do Dynamics 365 for Operations, o painel e os relatórios mostram os dados financeiros. Se você nunca usou o Power BI antes, você poderá saber mais sobre ele na página [Aprendizado guiado para Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). O painel contém blocos de dados resumidos baseados em relatórios subjacentes. Cada bloco contém informações resumidas sobre o ano atual em todas as empresas de uma organização. Estes são alguns dos blocos:
 
 -   Pagamento à vista
 -   Receita total neste ano
@@ -56,13 +59,13 @@ Após ter conectado o pacote de conteúdo aos dados do Dynamics 365 for Operatio
 -   Margem de lucro deste ano
 -   Despesas reais vs orçadas – Todas as empresas
 
-Cada quadro é voltado para um relatório de suporte. Esses relatórios contêm gráficos e tabelas que fornecem mais informações. A tabela a seguir descreve os relatórios.
+Cada bloco é respaldado por um relatório de suporte. Esses relatórios contêm gráficos e tabelas que fornecem mais informações. A tabela a seguir descreve os relatórios.
 
 | Relatório                      | As informações contidas no relatório                                                                                                                                                                                                                                                                                                          |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Análise de pagamento à vista               | Dinheiro por entidade legal, dinheiro trimestre, dinheiro total, e dinheiro por conta ** observação: ** ** Dinheiro trimestre ** o relatório não inclui os saldos inicial no total para o primeiro trimestre. Mostra o total de novas transações lançadas em cada trimestre.                                                                                |
+| Análise de pagamento à vista               | Pagamento à vista por entidade legal, pagamento à vista por trimestre, pagamento à vista total e pagamento à vista por conta **Observação:** O relatório **Pagamento à vista por trimestre** não inclui os saldos inicial no total do primeiro trimestre. Ele mostra o total de novas transações lançadas em cada trimestre.                                                                                |
 | Análise de índice atual      | Índice atual por entidade legal, índice atual por trimestre, e saldos dos ativos e passivos atuais                                                                                                                                                                                                                              |
-| Análise de índice de liquidez        | Índice rápido por entidade legal, taxas rápido trimestre, e saldos para o caixa, contas a receber, e passivos atuais                                                                                                                                                                                                                      |
+| Análise de índice de liquidez        | Índice de liquidez por entidade legal, índice de liquidez por trimestre, e saldos de pagamento à vista, contas a receber e passivos atuais                                                                                                                                                                                                                      |
 | Análise de custo dos produtos vendidos | COGS (custo dos produtos vendidos) por entidade legal, COGS deste ano e do ano passado por trimestre, COGS em relação às vendas por entidade legal, COGS total e porcentagem do COGS em relação às vendas                                                                                                                                                                                   |
 | Análise de capital de trabalho    | Capital de trabalho por entidade legal, capital de trabalho por trimestre, ativos atuais, passivos atuais e capital de trabalho total                                                                                                                                                                                                                   |
 | Análise de ativos e dívidas     | Retorno sobre ativos totais e dívida em relação aos ativos totais por entidade legal, dívida em relação aos ativos totais e retorno sobre ativos totais do último trimestre até esta data, ativos e passivos                                                                                                                                                                                     |
@@ -71,17 +74,17 @@ Cada quadro é voltado para um relatório de suporte. Esses relatórios contêm 
 | Análise de lucros           | Lucros reais e do orçamento EBIT (antes dos juros e dos impostos) por entidade legal, EBIT deste ano e do ano passado, porcentagem das despesas em relação à receita, e despesas reais e do orçamento em relação à receita                                                                                                                                                          |
 | Análise de receita            | Receita total, receita total real e do orçamento por entidade legal, receita total deste ano e do ano passado, variação do orçamento de receitas por entidade legal e receita total deste e do último período                                                                                                                                                 |
 | Análise de despesas            | Total de despesas, total de despesas reais e de orçamento por entidade legal, total de despesas reais e de orçamento por trimestre, total de despesas reais por categoria de conta e taxa de despesas operacionais                                                                                                                                                                 |
-| Análise de receita faturada     | Totais contas a receber, contas a receber totais por entidade legal, contas a receber no total, o trimestre e saldos de contas de contas a receber ** observação: ** Os relatórios não incluem saldos iniciais das contas contábeis de contas a receber. Mostra o total de novas transações que são lançadas em contas a receber. |
+| Análise de receita faturada     | Total de contas a receber, total de contas a receber por entidade legal, total de contas a receber por trimestre e saldos de contas a receber **Observação:** Os relatórios não incluem saldos iniciais das contas contábeis de contas a receber. Mostram o total de novas transações que são lançadas em Contas a receber. |
 
 Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixados no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
-Os dados que preenchem o painel e relatórios no conteúdo do desempenho financeiro são empacotam o dynamics 365 para dados de operações. Estas entidades foram usadas como base de blocos de conteúdo: ** Entidades agregadas ** de dados
+Os dados que preenchem o painel e os relatórios no pacote de conteúdo Desempenho financeiro são os dados do Dynamics 365 for Operations. As entidades a seguir foram usadas como base do pacote de conteúdo: **Entidades de dados agregadas**
 
--   ** GeneralLedgerActivities ** – esta entidade agrega saldos contábil por categoria de conta.
--   ** BudgetActivities ** – esta entidade agrega saldos de orçamento por categoria de conta.
+-   **GeneralLedgerActivities** – esta entidade agrega saldos contábeis por categoria de conta.
+-   **BudgetActivities** – esta entidade agrega saldos contábeis por categoria de conta.
 
-**Data entities**
+**Entidades de dados**
 
 -   FiscalCalendars
 -   MainAccounts
@@ -89,7 +92,7 @@ Os dados que preenchem o painel e relatórios no conteúdo do desempenho finance
 -   Razões
 -   ChartofAccounts
 
-Essas entidades foram usadas para criar medidas calculadas no modelo de dados. As medidas calculadas são usadas para calcular os principais indicadores chave de desempenho (KPIs) e relatórios usados no bloco de conteúdo. Por padrão, o pacote de conteúdo possui dados dos três últimos anos e do ano futuro. Para incluir cálculos adicionais nos relatórios e no painel, você pode modificar a [pasta de trabalho do Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Essa pasta de trabalho é o modelo de dados padrão usado para criar o pacote de conteúdo. Depois que você terminar a marcação das modificações, poderá criar um painel e pacote de conteúdo organizacional contendo as informações adicionadas.
+Essas entidades foram usadas para criar medidas calculadas no modelo de dados. As medidas calculadas são então usadas para calcular os KPIs (indicadores chave de desempenho) e os relatórios usados no pacote de conteúdo. Por padrão, o pacote de conteúdo possui dados dos três últimos anos e do ano futuro. Para incluir cálculos adicionais nos relatórios e no painel, você pode modificar a [pasta de trabalho do Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Essa pasta de trabalho é o modelo de dados padrão usado para criar o pacote de conteúdo. Depois que você terminar a marcação das modificações, poderá criar um painel e pacote de conteúdo organizacional contendo as informações adicionadas.
 
 ## <a name="additional-resources"></a>Recursos adicionais
 Estes são alguns links úteis relacionados às entidades e ao desenvolvimento de conteúdo do Power BI:
@@ -98,6 +101,8 @@ Estes são alguns links úteis relacionados às entidades e ao desenvolvimento d
 -   [Criando pacotes de conteúdo organizacionais](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Modelagem de dados por meio do Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Adicionando blocos do Power BI aos espaços de trabalho](configure-power-bi-integration.md)
+
+
 
 
 

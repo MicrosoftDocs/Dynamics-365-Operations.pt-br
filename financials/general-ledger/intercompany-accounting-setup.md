@@ -1,6 +1,6 @@
 ---
 title: "Configuração de contabilidade intercompanhia"
-description: "Este tópico explica como configurar a contabilidade intercompanhia de forma que você possa usar diários intercompanhia para alocações contábil e diários financeiros, como diários, diários de notas fiscais do fornecedor, e os diários de pagamento."
+description: "Este tópico explica como configurar a contabilidade intercompanhia, de forma que você possa usar diários intercompanhia para alocações do razão e diários financeiros, como diários, diários de fatura de fornecedor e diários de pagamento."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,23 +27,28 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="intercompany-accounting-setup"></a>Configuração de contabilidade intercompanhia
 
-Este tópico explica como configurar a contabilidade intercompanhia de forma que você possa usar diários intercompanhia para alocações contábil e diários financeiros, como diários, diários de notas fiscais do fornecedor, e os diários de pagamento.
+[!include[banner](../includes/banner.md)]
 
-Diários intercompanhia podem ser criados em vários cenários, como para diários, diários de notas fiscais de fornecedor, alocações contábeis, e pagamentos centralizados. Para habilitar estes cenários, você deve configurar a contabilidade intercompanhia.
 
-## <a name="define-main-accounts"></a>Defina contas principais
-Primeiro, você deve criar as contas principais intercompanhia que serão usadas para as entradas Devido para e Devido por. É recomendável usar contas principais exclusivas para cada empresa, para simplificar a reconciliação e alienação de lançamentos contábeis intercompanhia. Se estiver usando um parceiro comercial ou uma dimensão opostos para identificar o participante intercompanhia, defina esta dimensão como uma dimensão principal fixa na conta definida na contabilidade intercompanhia. Quando você configurou as listas principais, você deve definir o balanço ** tipo de conta do principal ** ** ** ** contas principais ** na página.
+Este tópico explica como configurar a contabilidade intercompanhia, de forma que você possa usar diários intercompanhia para alocações do razão e diários financeiros, como diários, diários de fatura de fornecedor e diários de pagamento.
 
-## <a name="define-journal-names"></a>Defina nomes de diário
-Em seguida, você deve definir um nome do diário. ** O definir o tipo de diário ** de campo ** ** ** ** nomes de diário na página. É recomendável usar um nome de diário específico para contabilidade intercompanhia.
+Os diários intercompanhia podem ser criados em vários cenários, como para diários, diários de fatura de fornecedor, alocações do razão e pagamentos centralizados. Para habilitar estes cenários, você deve configurar a contabilidade intercompanhia.
 
-## <a name="define-intercompany-accounting-setup"></a>Defina a configuração de contabilidade intercompanhia
-** Contabilidade intercompanhia ** a página é usado para criar os pares de entidades legais a determinadas transações si. A configuração de contabilidade intercompanhia for compartilhada, para que a configuração está visível em de todas as entidades legais. Ao criar um novo controle a entidade legal, garanta que você saiba da entidade legal definida como empresa de origem com a empresa de destino. Ao inserir transações intercompanhia, a transação determina qual entidade legal é iniciando ou origem da transação. Por exemplo, a contabilização intercompanhia é configurado para USMF (origem) e USSI (destino). Se um usuário for ativo em USSI e insere uma transação intercompanhia com USMF, a transação não será lançada como a contabilização intercompanhia é definida apenas para USMF o originador. Se uma ou outra empresa podem se originar uma transação, será preciso criar um segundo controle a entidade legal do recíproco de instalação. 
+## <a name="define-main-accounts"></a>Definição de contas principais
+Primeiro, você deve criar as contas principais intercompanhia que serão usadas para as entradas Devido para e Devido por. É recomendável usar contas principais exclusivas para cada empresa, para simplificar a reconciliação e alienação de lançamentos contábeis intercompanhia. Se estiver usando um parceiro comercial ou uma dimensão equivalente para identificar o participante intercompanhia, você poderá definir essa dimensão como uma dimensão fixa na conta principal que é definida na contabilidade intercompanhia. Ao configurar as contas principais, é necessário definir o campo, **Tipo de conta principal** como **Balanço** na página **Contas principais**.
 
-** Selecione a conta de débito de vencimento (e) ** ** conta de crédito devido (a) ** a fonte a entidade legal e de destino. Defina que ** o nome de diário ** será usado quando a transação é criada na empresa de destino. O diário da empresa de origem é conhecido como já selecionados pelo usuário ao criar a transação intercompanhia. 
+## <a name="define-journal-names"></a>Definição de nomes de diário
+Em seguida, você deve definir um nome do diário. Defina o campo **Tipo de diário** como **Diário** na página **Nomes de diário**. É recomendável usar um nome de diário específico para contabilidade intercompanhia.
 
-Finalmente, selecione qual entidade legal receberá os valores de apoio contabilização, como o desconto à vista ou lucros realizados e perdas para pagamentos centralizados. 
+## <a name="define-intercompany-accounting-setup"></a>Definição de configuração de contabilidade intercompanhia
+A página **Contabilidade intercompanhia** é usada para criar os pares de entidades legais que podem realizar transações entre si. A configuração de contabilidade intercompanhia for compartilhada, para que a configuração fique visível em de todas as entidades legais. Ao criar um novo par de entidade legal, certifique-se de qual entidade legal é definida como empresa de origem e empresa de destino. Ao inserir transações intercompanhia, a transação determina qual entidade legal está iniciando ou originando a transação. Por exemplo, a contabilidade intercompanhia é configurada para USMF (origem) e USSI (destino). Se um usuário estiver ativo no USSI e inserir uma transação intercompanhia com USMF, a transação não será lançada porque a contabilidade intercompanhia somente é definida para USMF sendo o originador. Se uma empresa puder originar uma transação, será preciso criar um segundo par de entidade legal da instalação recíproca. 
 
-Uma relação recíproco pode ser facilmente configurado ** contabilidade intercompanhia ** na página criar usando ** o relacionamento recíproco ** o botão depois que os controle a entidade legal é criado. Quando o controle recíproco é criado, as informações para a empresa de destino será copiada para a empresa de origem e vice-versa. O diário definido para a empresa de destino permanecerá. A maioria de organizações usam a mesma convenção de nomenclatura para os nomes de diário, para que o nome de diário é o mesmo. Se o nome são diferentes, um aviso parecerá no campo para notificá-lo o diário não existe e um diário diferente pode ser selecionado.
+Selecione a **Conta de débito (Devido por)** e **Conta de crédito (Devido para** para a entidade legal de origem e de destino. Defina qual **Nome de diário** será usado quando a transação for criada na empresa de destino. O diário da empresa de origem é conhecido, pois foi selecionado pelo usuário ao criar a transação intercompanhia. 
+
+Por fim, selecione qual entidade legal receberá os valores contábeis para suporte, como o desconto à vista ou ganhos/perdas realizados para pagamentos centralizados. 
+
+Um relacionamento recíproco pode ser configurado facilmente na página **Contabilidade intercompanhia** usando o botão **Criar relacionamento recíproco** depois que o primeiro par de entidade legal for criado. Quando o par recíproco for criado, as informações da empresa de destino serão copiadas para a empresa de origem e vice-versa. O diário definido para a empresa de destino permanecerá. A maioria de organizações usa a mesma convenção de nomenclatura para os nomes de diário, de forma que o nome do diário seja igual. Se o nome do diário for diferente, um aviso aparecerá no campo para notificá-lo de que o diário não existe e um diário diferente poderá ser selecionado.
+
+
 
 

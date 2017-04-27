@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>Comprovante único com vários registros de cliente ou de fornecedor
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tópico fornece uma visão geral do que acontece quando você lança um único comprovante com vários registros de cliente ou de fornecedor. Esta funcionalidade será descontinuada em versões futuras do Microsoft Dynamics 365 for Operations, consequentemente, não recomendamos usar este método de lançamento devido ao impacto da contabilidade no processamento da liquidação. 
 
 Alguns exemplos comuns em que um comprovante é usado para vários clientes ou fornecedores incluem a transferência de saldo entre clientes e a remuneração de saldos entre clientes e fornecedores na mesma organização. 
@@ -91,10 +94,10 @@ Se o usuário estiver descontente com a alocação do desconto à vista em todas
 
 |             |                  |              |                 |           |            |                 |                    |
 |-------------|------------------|--------------|-----------------|-----------|------------|-----------------|--------------------|
-| **Comprovante** | **Tipo de conta** | **Conta**  | **Descrição** | **Débito** | **Crédito** | **Offset type** | **Offset account** |
-| GNJL001     | Fornecedor           | 1001         | INV1            |           | 100,00     | Razão          | &lt;em branco&gt;      |
-| GNJL001     | Razão           | 606300-001-- | INV1            |   50,00   |            | Razão          | &lt;em branco&gt;      |
-| GNJL001     | Razão           | 606300-002-- | INV1            |   50,00   |            | Razão          | &lt;em branco&gt;      |
+| **Comprovante** | **Tipo de conta** | **Conta**  | **Descrição** | **Débito** | **Crédito** | **Tipo de compensação** | **Contrapartida** |
+| GNJL001     | Fornecedor           | 1001         | INV1            |           | 100,00     | Razão          | &lt;em branco&gt;:      |
+| GNJL001     | Razão           | 606300-001-- | INV1            |   50,00   |            | Razão          | &lt;em branco&gt;:      |
+| GNJL001     | Razão           | 606300-002-- | INV1            |   50,00   |            | Razão          | &lt;em branco&gt;:      |
 | GNJL002     | Fornecedor           | 1001         | INV2            |           | 200,00     | Razão          | 606300-003--       |
 | GNJL003     | Fornecedor           | 1001         | INV3            |           | 300,00     | Razão          | 606300-004--       |
 
@@ -248,5 +251,7 @@ Para evitar problemas indesejados com futuros pagamentos para esta transação, 
 | 002         | Fornecedor           | 1001        |                 |  75,00    |            | Razão          | 999999---          |
 
  
+
+
 
 

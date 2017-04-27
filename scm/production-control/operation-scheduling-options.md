@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling-options"></a>Opções de plano de operações
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tópico descreve as opções para o plano de operações. Você pode usar o plano de operações para fornecer uma estimativa geral do processo de produção ao longo do tempo.
 
 O plano de operações calcula as seguintes informações de uma ordem de produção:
@@ -128,6 +131,8 @@ Você pode salvar os valores atuais como valores padrão. Há duas opções:
 <a name="see-also"></a>Consulte também
 --------
 
-[Operations scheduling](operations-scheduling.md)
+[Plano de operações](operations-scheduling.md)
+
+
 
 

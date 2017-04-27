@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Remover exceções de dados históricos de transação ao calcular uma previsão de demanda
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve como excluir exceções dos dados históricos que são usados para calcular uma previsão de demanda. Ao excluir as exceções, você pode aumentar a precisão de previsão.
 
-Você pode excluir outliers para aumentar a exatidão de previsão. Esta é uma tarefa opcional. Veja uma visão geral do processo:
+Você pode excluir exceções para melhorar a precisão de previsão. Esta é uma tarefa opcional. Veja uma visão geral do processo:
 
-1.  Clique ** planejamento mestre ** &gt; ** de instalação ** &gt; ** previsão de demanda ** &gt; ** remoção de Outlier ** para abrir ** remoção de Outlier ** a página, onde você pode usar uma consulta para selecionar as transações para excluir.
+1.  Clique em **Planejamento mestre** &gt; **Configuração** &gt; **Previsão de demanda** &gt; **Remoção de exceção** para abrir a página **Remoção de exceção** na qual você pode usar uma consulta para selecionar as transações a serem excluídas.
 2.  Selecione a empresa à qual a consulta se aplica. Insira um nome e uma descrição. O campo **Data da consulta** é automaticamente definido como a data atual.
 3.  Marque a caixa de seleção **Ativa** para excluir as transações que foram localizadas pela consulta nos dados históricos. Essa configuração entrará em vigor quando você criar uma previsão estatística.
 4.  Na página **Consulta de remoção de exceção**, você pode adicionar, remover e selecionar os critérios que definem quais transações serão excluídas quando a previsão estatística for calculada. Por exemplo, selecione um item ou uma transação de ordem específica a ser excluída.
@@ -43,8 +46,10 @@ Você pode excluir outliers para aumentar a exatidão de previsão. Esta é uma 
 <a name="see-also"></a>Consulte também
 --------
 
-[Introduction to demand forecasting](introduction-demand-forecasting.md)
+[Introdução à previsão de demanda](introduction-demand-forecasting.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[Monitorando a precisão da previsão](monitor-forecast-accuracy.md)
+
+
 
 

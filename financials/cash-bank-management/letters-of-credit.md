@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="letters-of-credit"></a>Cartas de crédito
 
+[!include[banner](../includes/banner.md)]
+
+
 As cartas de crédito são documentos bancários que, normalmente, são usados para compra e venda de mercadorias entre as fronteiras internacionais. 
 
 As cartas de crédito são usadas para transações internacionais, a fim de assegurar que os pagamentos sejam feitos. Uma carta de crédito é um contrato emitido por um banco, no qual o banco garante o pagamento em nome do comprador, se as condições do contrato entre o comprador e o vendedor forem atendidas. Observe que uma carta de crédito também é conhecida como um crédito documentário (DC). 
@@ -41,5 +44,7 @@ Para uma carta de crédito de importação, a entidade legal é o comprador ou o
 A carta de crédito inclui uma descrição das mercadorias, todos os documentos necessários, a data de remessa e a data de vencimento após a qual o pagamento não será feito. O banco emissor coleta uma margem para a carta de crédito. 
 
 Uma nota de crédito pode ser revogável ou irrevogável. A natureza de uma nota de crédito pode ser transferível, não transferível, ou renovável. Em geral, uma carta de crédito é um contrato irrevogável e confirmado do pagamento que será feito a um beneficiário específico, mediante o envio de documentos de remessa completos e precisos.
+
+
 
 

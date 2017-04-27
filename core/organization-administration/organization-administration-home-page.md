@@ -1,6 +1,6 @@
 ---
 title: "Home page de Administração da organização"
-description: "Pontos desse tópico a recursos que ajudarão a usar o Microsoft Dynamics 365 para as operações na organização."
+description: "Este tópico aponta a recursos que ajudarão você a usar o Microsoft Dynamics 365 for Operations em sua organização."
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,56 +26,61 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="organization-administration-home-page"></a>Home page de Administração da organização
 
-Pontos desse tópico a recursos que ajudarão a usar o Microsoft Dynamics 365 para as operações na organização.
+[!include[banner](../includes/banner.md)]
+
+
+Este tópico aponta a recursos que ajudarão você a usar o Microsoft Dynamics 365 for Operations em sua organização.
 
 <a name="number-sequences"></a>Sequências numéricas
 ----------------
 
--   [Number sequence overview](number-sequence-overview.md)
--   [Sequências numéricas configuradas usando um assistente] (http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (guia de tarefas)
--   [Sequências numéricas configuradas um relatório individual] (http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (guia de tarefas)
+-   [Visão geral da sequência numérica](number-sequence-overview.md)
+-   [Configurar sequências numéricas usando um assistente](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (Guia de tarefas)
+-   [Configurar sequências numéricas em uma base individual](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (Guia de tarefas)
 
 ## <a name="address-books"></a>Catálogos de endereços
--   [Address books](qa-address-books.md)
--   [Visão geral: Catálogo de endereços global (overview-global-address-book.md])
--   [Planejando o catálogo de endereços global e o catálogo de endereços (plan-configuration-global-address-book-additional-address-books.md adicional])
+-   [Catálogos de endereços](qa-address-books.md)
+-   [Visão geral: Catálogo de endereços global](overview-global-address-book.md)
+-   [Planejando a configuração do catálogo de endereços global e catálogo de endereços adicional](plan-configuration-global-address-book-additional-address-books.md)
 
 ## <a name="workflow"></a>Fluxo de Trabalho
--   [Overview of the workflow system](overview-workflow-system.md)
--   [Workflow system architecture](workflow-system-architecture.md)
--   [Workflow elements](workflow-elements.md)
--   [Workflow actions](workflow-actions.md)
+-   [Visão geral do sistema do fluxo de trabalho](overview-workflow-system.md)
+-   [Arquitetura do sistema de fluxo de trabalho](workflow-system-architecture.md)
+-   [Elementos do fluxo de trabalho](workflow-elements.md)
+-   [Ações de fluxo de trabalho](workflow-actions.md)
 -   [Criar um fluxo de trabalho](create-workflow.md)
--   [Configure the properties of a workflow](configure-workflow-properties.md)
+-   [Configurar as propriedades de um fluxo de trabalho](configure-workflow-properties.md)
 -   [Configurar uma tarefa manual](configure-manual-task-workflow.md)
 -   [Configurar uma tarefa automatizada](configure-automated-task-workflow.md)
--   [Configure an approval process](configure-approval-process-workflow.md)
+-   [Configurar um processo de aprovação](configure-approval-process-workflow.md)
 -   [Configurar uma etapa de aprovação](configure-approval-step-workflow.md)
 -   [Configurar uma decisão manual](configure-manual-decision-workflow.md)
 -   [Configurar uma decisão condicional](configure-conditional-decision-workflow.md)
 -   [Configurar uma atividade paralela](configure-parallel-activity-workflow.md)
 -   [Configurar uma ramificação paralela](configure-parallel-branch-workflow.md)
--   Configurar um elemento [] de fluxo de trabalho de item de linha (configure-line-item-workflow.md)
+-   [Configurar um elemento de fluxo de trabalho de item de linha](configure-line-item-workflow.md)
 
 ## <a name="case-management"></a>Gerenciamento de casos
--   [Planejamento: Configuração] cenário (plan-case-management.md)
--   Exemplos [] do cenário (cases.md)
+-   [Planejamento: Configuração de caso](plan-case-management.md)
+-   [Exemplos de gerenciamento de casos](cases.md)
 
 ## <a name="electronic-signatures"></a>Assinaturas eletrônicas
--   [Electronic signature overview](electronic-signature-overview.md)
--   [] Configuradas assinaturas eletrônicas (http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (guia de tarefas)
+-   [Visão geral das assinaturas eletrônicas](electronic-signature-overview.md)
+-   [Configurar assinaturas eletrônicas](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (Guia de tarefas)
 
 ## <a name="organizations"></a>Organizações
--   [Organizations and organizational hierarchies](organizations-organizational-hierarchies.md)
--   [Plan the organizational hierarchy](plan-organizational-hierarchy.md)
--   Criar uma unidade [] operacional (http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (guia de tarefas)
--   [Crie uma hierarquia organizacional] (http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (guia de tarefas)
--   [Crie uma entidade legal] (http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (guia de tarefa)
+-   [Organizações e hierarquias da organização](organizations-organizational-hierarchies.md)
+-   [Planejar a hierarquia organizacional](plan-organizational-hierarchy.md)
+-   [Criar uma unidade operacional](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (Guia de tarefas)
+-   [Criar uma hierarquia da organização](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (Guia de tarefas)
+-   [Criar uma entidade legal](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (Guia de tarefas)
 
 ## <a name="general-administration"></a>Administração geral
--   [Alterar a faixa ou o logotipo] (http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (guia de tarefa)
--   [About date/time data and time zones](date-time-zones.md)
--   [Record templates](record-templates.md)
+-   [Alterar a faixa ou o logotipo](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (Guia de tarefas)
+-   [Sobre dados de data/hora e fusos horários](date-time-zones.md)
+-   [Modelos de registro](record-templates.md)
+
+
 
 
 

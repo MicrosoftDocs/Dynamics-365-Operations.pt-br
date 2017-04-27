@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="customer-posting-profiles"></a>Perfis de lançamentos de cliente
 
+[!include[banner](../includes/banner.md)]
+
+
 Perfis de postagem de cliente controlam o lançamento de transações de cliente na contabilidade.
 
 <a name="customer-posting-profiles"></a>Perfis de lançamentos de cliente
 -------------------------
 
-Os perfis de lançamento de cliente permitem que você atribua configurações de documento e de contas de contabilidade a todos os clientes, um grupo de clientes ou um único cliente. Essas configurações são usadas quando você cria ordens de venda, texto livre, notas em dinheiro, cartas de cobrança, e notas de juros. Para algumas transações, você pode selecionar um perfil de lançamento diferente dos perfis de lançamento configurados para as transações nesta página e que seja prioritário. 
+Os perfis de lançamento de cliente permitem que você atribua configurações de documento e de contas de contabilidade a todos os clientes, um grupo de clientes ou um único cliente. Essas configurações serão usadas ao criar ordens de venda, faturas de texto livre, pagamentos em dinheiro, cartas de cobrança e notas de juros. Para algumas transações, você pode selecionar um perfil de lançamento diferente dos perfis de lançamento configurados para as transações nesta página e que seja prioritário. 
 
 O perfil de lançamento padrão é definido na Guia Rápida Razão e Imposto na página Parâmetros de contas a receber. O perfil de lançamento padrão é incluído automaticamente no cabeçalho dos novos documentos onde você pode alterá-lo para um perfil de lançamento diferente, se necessário.
 
@@ -126,7 +129,7 @@ Se desejar que todas as transações de clientes tenham o mesmo perfil de lança
 
 ### 
 
-### <a name="table-restrictions"></a>**Table restrictions**
+### <a name="table-restrictions"></a>**Restrições da tabela**
 
 Para as transações com o perfil de lançamento selecionado, especifique se as transações serão automaticamente liquidadas, os juros calculados, e as cartas de cobrança emitidas. Também é possível selecionar a conta usada quando transações com o perfil de lançamento selecionado forem fechadas.
 
@@ -138,6 +141,8 @@ Especifique os seguintes valores para configurar o perfil de lançamento:
 | **Interesse**          | Selecione esta alternância se os juros precisarem ser calculados sobre saldos em aberto para contas de cliente que usam este perfil. Se esta alternância for desmarcada, os juros não serão calculados para esses clientes.                                           |
 | **Carta de cobrança** | Selecione esta alternância se as cartas de cobrança precisarem ser geradas para contas de cliente que usam este perfil. Se esta alternância for desmarcada, as cartas de cobrança não serão geradas para esses clientes.                                                 |
 | **Fechar**             | Selecione um perfil de lançamento para o qual alternar quando as transações que tiverem este perfil de lançamento forem fechadas. Uma transação é considerada fechada quando tiver sido integralmente liquidada.                                                                           |
+
+
 
 
 

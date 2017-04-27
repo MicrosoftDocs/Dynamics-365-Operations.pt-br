@@ -28,13 +28,16 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="build-a-product-configuration-model"></a>Criar um modelo de configuração de produto
 
+[!include[banner](../includes/banner.md)]
+
+
 A necessidade de configurar produtos para atender aos requisitos especiais está se tornando regra, e não exceção, em relações entre negócios e de negócio para consumidor.
 
 Um fabricante que ofereça suporte a cenários configure para solicitar tem a oportunidade atentar às necessidades do cliente. Além disso, ao armazenar mercadorias semiacabadas na forma de componentes genéricos em vez de produtos acabados, o fabricante pode reduzir o capital vinculado ao estoque.  
 
 Um movimento com êxito de uma configuração de fabricação-a-estoque para uma configuração de configure para solicitar requer uma análise cuidadosa das estruturas de produtos, a identificação das famílias de produtos e a criação de componentes. Para reduzir o número de partes e minimizar o número de mercadorias que estão em andamento, é muito importante que você compreenda as interfaces do produto, e que planeje a reusabilidade.  
 
-Há diversos princípios de modelagem de configuração de produto, como a modelagem baseada em regras, baseada em dimensão e baseada em restrição. Os estudos mostram que a metodologia baseada em restrição pode reduzir em 50% o número de linhas de código em modelos em comparação a outros princípios de modelagem. Então, essa metodologia pode reduzir o custo total de propriedade (TCO). Movendo-se de um modelo baseado em regras com base no código X++ a um modelo baseado restrição-, não requer uma licença de desenvolvedor para manter modelos de produtos.
+Há diversos princípios de modelagem de configuração de produto, como a modelagem baseada em regras, baseada em dimensão e baseada em restrição. Os estudos mostram que a metodologia baseada em restrição pode reduzir em 50% o número de linhas de código em modelos em comparação a outros princípios de modelagem. Então, essa metodologia pode reduzir o custo total de propriedade (TCO). Ao mover de um modelo baseado em regras com base no código X++ para um modelo baseado em restrição, você não requer mais uma licença do desenvolvedor para manter modelos de produto.
 
 ## <a name="product-configuration"></a>Configuração do produto
 O período de industrialização resultou em grandes conquistas na geração de produtos de alta qualidade e sofisticados, a preços acessíveis. As economias de escala tornaram possível para a maioria das pessoas no mundo industrializado comprar carros, TVs, aparelhos eletrodomésticos e outros bens que muitos consideram uma parte necessária da vida quotidiana.  
@@ -64,11 +67,11 @@ O uso de um modelo de configuração do produto baseado em restrição implica q
 
 ### <a name="table-constraints"></a>Restrições de tabela
 
-As restrições de tabela podem ser definidos pelo usuário ou pelo estoque.  
+As restrições de tabela podem ser definidas pelo usuário ou pelo sistema.  
 
 Uma restrição de tabela definida pelo usuário é criada pelo usuário. O usuário seleciona uma combinação dos tipos de atributo para representar as colunas da tabela e insere valores dos domínios dos tipos de atributo selecionados para formar as linhas na restrição de tabela.  
 
-Uma restrição sistema da tabela definida será definida no Microsoft Dynamics 365 para a tabela de operações usará como referência e selecionar campos nesta tabela para formar as colunas da restrição. As linhas da restrição de tabela são as linhas do 365 para a tabela de operações que estejam presentes em tempo de preparação.  
+Uma restrição de tabela definida pelo sistema é definida selecionando a tabela do Microsoft Dynamics 365 for Operations a ser usada como referência e os campos dessa tabela para formar as colunas na restrição. As linhas de restrição da tabela são as linhas da tabela do Dynamics 365 for Operations que estão presentes no período de configuração.  
 
 Uma restrição de tabela é incluída em um modelo de configuração do produto, referenciando a definição de restrição de tabela e mapeando os atributos relevantes no modelo para as colunas na restrição da tabela.
 
@@ -103,7 +106,7 @@ Finalmente, a validação pode ser feita para que um modelo de configuração do
 
 ### <a name="testing"></a>Testando
 
-Testar um modelo for semelhante a executar uma sessão de configuração real. O usuário pode andar em páginas de configuração e verifique se a estrutura modelo suporte o processo de configuração. O usuário pode verificar se os valores de atributos estão corretos, e se as descrições de atributos orientam o usuário para selecionar os valores corretos. Finalmente, depois que uma sessão de teste é concluída, o sistema tenta criar a BOM e o roteiro que corresponde aos valores de atributo selecionados, e apresenta uma mensagem de erro se algo dá errado.
+Testar um modelo é semelhante a executar uma sessão de configuração real. O usuário pode percorrer as páginas de configuração e verificar se a estrutura do modelo dá suporte ao processo de configuração. O usuário pode verificar se os valores de atributos estão corretos, e se as descrições de atributos orientam o usuário para selecionar os valores corretos. Finalmente, depois que uma sessão de teste é concluída, o sistema tenta criar a BOM e o roteiro que corresponde aos valores de atributo selecionados, e apresenta uma mensagem de erro se algo dá errado.
 
 ### <a name="the-configuration-page"></a>A página de configuração
 
@@ -129,17 +132,17 @@ Se o produto for vendido em diferentes países/regiões, as traduções poderão
 A última e mais importante etapa no processo de finalização é criar uma versão do modelo de configuração do produto. A versão representa o relacionamento entre o produto mestre, que pode ser selecionado para configuração em uma ordem ou em uma linha da cotação, e o modelo de configuração do produto. Uma versão deve ser aprovada e ativada antes de ser usada em uma sessão de configuração.
 
 ## <a name="extending-a-product-configuration-model-through-the-api"></a>Extensão de um modelo de configuração do produto através da API
-Uma API (interface de programação de aplicativos) dedicada foi implementada, de modo que parceiros e outras pessoas com uma licença de desenvolvedor possam estender os recursos de um modelo de configuração do produto. A finalidade principal é liquidar um mecanismo que deixasse parceiros e clientes usando o configurador de produto existente migrassem o código inserido em modelos do configurador de produtos da API. Dessa forma, eles podem migrar os modelos do Configurador de Produtos para uma configuração de produto. No entanto, os novos clientes e parceiros também podem aproveitar o uso da API para estender modelos de configuração de novos produtos.
+Uma API (interface de programação de aplicativos) dedicada foi implementada, de modo que parceiros e outras pessoas com uma licença de desenvolvedor possam estender os recursos de um modelo de configuração do produto. O objetivo principal foi estabelecer um mecanismo que permita a parceiros e clientes que usam o configurador de produtos existente migrar o código inserido em modelos do Configurador de Produtos para a API. Dessa forma, eles podem migrar os modelos do Configurador de Produtos para uma configuração de produto. No entanto, os novos clientes e parceiros também podem aproveitar o uso da API para estender modelos de configuração de novos produtos.
 
 ### <a name="pcadaptor-class"></a>Classe PCAdaptor
 
-A API foi implementada usando um conjunto de classes **PCAdaptor** que expõem a estrutura de dados dos modelos de configuração de produtos. ** Uma instância de classe PCAdaptor ** deve ser criada para cada método que será estendido. Depois de uma sessão de configuração é concluída, o sistema verificará para uma instância dessa classe e execuções ele está localizado.  
+A API foi implementada usando um conjunto de classes **PCAdaptor** que expõem a estrutura de dados dos modelos de configuração de produtos. Uma instância da classe **PCAdaptor** deve ser criada para cada modelo que será estendido. Após a conclusão de uma sessão de configuração, o sistema verifica se há uma instância dessa classe e executa-a quando localizada.  
 
 O diagrama de fluxo a seguir esboça o processo.  
 
-[diagrama de fluxo![(]. /media/product_configuration_2.png)](. /media/product_configuration_2.png)  
+[![Diagrama de fluxo](./media/product_configuration_2.png)](./media/product_configuration_2.png)  
 
-Diagrama de fluxo API de configuração de produto
+Diagrama de fluxo da API de configuração do produto
 
 ## <a name="product-configuration"></a>Configuração do produto
 A configuração de produto pode ser executada dos seguintes locais:
@@ -155,5 +158,7 @@ A finalidade da configuração é criar uma variante diferente do produto que at
 ### <a name="multiple-sites-and-intercompany"></a>Vários sites e intercompanhia
 
 Se a configuração for feita em um site, ou mesmo em uma empresa, isso será diferente do site ou da empresa onde ocorre a produção. A BOM e o roteiro serão criados e colocado no site do fornecedor na empresa fornecedora. A variante de produto será liberada em todas as empresas que participam da cadeia de suprimentos.
+
+
 
 

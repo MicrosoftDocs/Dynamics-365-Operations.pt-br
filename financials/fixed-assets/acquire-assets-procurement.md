@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="acquire-assets-through-procurement"></a>Adquirir ativos por meio de compras
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo descreve como configurar a integração entre Ativos fixos e Contas a pagar para criar automaticamente ativos fixos de ordens ou faturas de fornecedor ou lançar automaticamente transações de ajuste de aquisições para ativos fixos.
 
  Os seguintes métodos estão disponíveis para integrar Ativos fixos e Contas a pagar, e você deve usar o mesmo método para todos os ativos fixos:
@@ -103,6 +106,8 @@ A seguir, encontram-se as variações para esse cenário:
 -   Se for recebida somente uma quantidade parcial, não será criada nenhuma aquisição de ativo para a primeira fatura de fornecedor por causa das restrições do grupo de usuários. A única forma que uma aquisição pode ser lançada para a segunda fatura de fornecedor que completa a quantidade encomendada é se uma transação de aquisição já foi inserida para a primeira fatura de fornecedor e você for membro do grupo de usuários que tem permissão para lançar aquisições.
 
 
-Para obter mais informações, consulte [] integração de ativos fixos (fixed-asset-integration.md).
+Para obter mais informações, consulte [Integração de ativos fixos](fixed-asset-integration.md).
+
+
 
 

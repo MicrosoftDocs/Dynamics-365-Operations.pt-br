@@ -1,6 +1,6 @@
 ---
 title: Home page de Ativos fixos
-description: "Ativos fixos são itens de valor, como edifícios, os veículos, terrenos, e equipamentos, que são propriedade de uma pessoa ou uma organização."
+description: "Ativos fixos são itens de valor, por exemplo, imóveis, veículos, terrenos e equipamentos, que são propriedade de uma pessoa ou organização."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-assets-home-page"></a>Home page de Ativos fixos
 
-Ativos fixos são itens de valor, como edifícios, os veículos, terrenos, e equipamentos, que são propriedade de uma pessoa ou uma organização.
+[!include[banner](../includes/banner.md)]
+
+
+Ativos fixos são itens de valor, por exemplo, imóveis, veículos, terrenos e equipamentos, que são propriedade de uma pessoa ou organização. 
 
 É possível configurar e inserir informações de aquisição para ativos fixos e, em seguida, gerenciá-los, depreciando-os e definindo um limite de capitalização para determinar a depreciação. Você pode calcular os ajustes dos ativos fixos e também aliená-los. Quando você usa a Contabilidade com Ativos fixos, você pode exibir o valor atual de todos os ativos fixos. A forma como os ativos fixos são manipulados deve corresponder aos padrões internacionais de contabilidade e à legislação de contabilidade de cada país/região. Entre as necessidades pode haver regras para o registro de transações de aquisição e de alienação, depreciação, durações, valorização e desvalorização dos ativos fixos. A funcionalidade de ativo fixo incorpora muitos desses padrões e regras.
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Gerenciamento de gaveta de pagamento e à vista"
-description: "Este artigo explica como configurar e usar os dois tipos de ponto de venda manager (POS) compensa - compartilhado e autônoma. Turnos compartilhados podem ser usados por vários usuários em vários locais, enquanto os turnos autônomos podem ser usados por somente um trabalhador por vez."
+description: "Este artigo explica como configurar e usar os dois tipos de ponto de varejo de turnos de venda (POS): compartilhado e autônomo. Turnos compartilhados podem ser usados por vários usuários em vários locais, enquanto os turnos autônomos podem ser usados por somente um trabalhador por vez."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
@@ -27,26 +27,29 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="shift-and-cash-drawer-management"></a>Gerenciamento de gaveta de pagamento e à vista
 
-Este artigo explica como configurar e usar os dois tipos de ponto de venda manager (POS) compensa - compartilhado e autônoma. Turnos compartilhados podem ser usados por vários usuários em vários locais, enquanto os turnos autônomos podem ser usados por somente um trabalhador por vez.
+[!include[banner](includes/banner.md)]
+
+
+Este artigo explica como configurar e usar os dois tipos de ponto de varejo de turnos de venda (POS): compartilhado e autônomo. Turnos compartilhados podem ser usados por vários usuários em vários locais, enquanto os turnos autônomos podem ser usados por somente um trabalhador por vez.
 
 Há dois tipos de ponto de varejo de turnos de venda (POS): independente e compartilhado. Turnos autônomos podem ser usados por somente um trabalhador por vez. Turnos compartilhados podem ser usados por vários usuários em vários locais. Portanto, eles efetivamente criam um turno único para vários trabalhadores em uma loja.
 
-## <a name="standalone-shifts"></a>Turno autônomos
+## <a name="standalone-shifts"></a>Turnos autônomos
 Turnos autônomos são usados em um cenário de POS tradicional, fixo, onde o dinheiro é reconciliado independente de cada registradora de POS. Por exemplo, em uma configuração de supermercado, normalmente existem diversos terminais de PDV fixos, e um caixa é atribuído a cada terminal. Nesse caso, cada registradora provavelmente usará um turno autônomo e o caixa é responsável pela gaveta ou físico à vista no registrador. Um turno autônomo engloba todas as atividades na registradora durante o turno de trabalho da caixa. Atividades podem incluir o valor de abertura depositado da gaveta do caixa, toda remoção e adição de pagamento à vista por meio de operações como descartes de banco e entrada de flutuação e a declaração de meio de pagamento no fim do turno.
 
 ### <a name="set-up-a-stand-alone-shift"></a>Configurar um turno autônomo
 
 Um turno autônomo é designado no nível da gaveta de dinheiro. Este procedimento explica como configurar um turno autônomo em uma registradora de POS.
 
-1.  Clique ** varejo e comércio ** &gt; ** configuração de canal ** &gt; ** configuração POS ** &gt; ** perfis POS ** &gt; ** ** perfis de hardware.
+1.  Clique em **Varejo e comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**.
 2.  Selecione o perfil de hardware a ser usado para o turno autônomo.
 3.  Na Guia Rápida **Caixa**, confirme que a opção **Caixa registradora de turno compartilhado** está definida para **Não**.
-4.  Click **Save**.
-5.  Clique ** varejo e comércio ** &gt; ** configuração de canal ** &gt; ** configuração POS ** &gt; ** ** registros.
+4.  Clique em **Salvar**.
+5.  Clique em **Varejo e comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Registradoras**.
 6.  Selecione o registro que exige uma mudança autônoma e, em seguida, clique em **Editar**.
 7.  No campo **Perfil de Hardware**, selecione o perfil de hardware que você selecionou na etapa 2.
-8.  Click **Save**.
-9.  Clique ** varejo e comércio ** &gt; ** TI varejista ** &gt; ** ** agenda de distribuição.
+8.  Clique em **Salvar**.
+9.  Clique em **Varejo e comércio** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
 10. Selecione a agenda de distribuição **1090** e clique **Executar agora** para sincronizar as alterações para o PDV.
 
 ### <a name="use-a-stand-alone-shift"></a>Usar um turno autônomo
@@ -62,19 +65,19 @@ Um turno autônomo é designado no nível da gaveta de dinheiro. Este procedimen
 **Observação:** outras operações estão disponíveis durante o turno, dependendo de processos de negócios que estão em vigor. As operações **Depósito no Cofre**, **Depósito Bancário** e **Remoção de meio de pagamento** podem ser usadas para remover o dinheiro da gaveta do caixa durante o dia ou antes do turno ser encerrado. Se uma gaveta fica insuficiente de dinheiro, a operação **Entrada de flutuação** pode ser usada para adicionar dinheiro à gaveta.
 
 ## <a name="shared-shifts"></a>Turnos compartilhados
-Uma mudança compartilhada é usada em um ambiente onde vários caixas compartilham uma registradora ou um conjunto de registradoras durante o dia de trabalho. Normalmente, uma mudança compartilhada é usada em ambientes móveis de POS. Em um ambiente móvel, cada caixa não é responsável por uma única caixa registradora. Em vez disso, todas as caixas devem ser capazes de uma venda de meio de pagamento e adicionar dinheiro a qualquer caixa registradora aos quais assemelham-se. Nesse cenário, as registradoras são compartilhadas entre os caixas que estão incluídas em um turno compartilhado. Todas as registradoras em um turno compartilhado estão incluídas no mesmo turno para atividades que estão relacionadas ao gerenciamento de pagamento à vista para essa mudança. Portanto, o valor inicial para a mudança deve incluir a soma de todo dinheiro em todos os as registradoras que são incluídas durante a mudança compartilhada. Da mesma forma, a declaração de meios de pagamento será a soma de todo dinheiro em todos os as registradoras que são incluídas durante a mudança compartilhada. ** Observação: ** Somente um turno compartilhada pode ser aberta por vez em cada loja. Turnos compartilhados e autônomos podem ser usados no mesmo armazenamento.
+Uma mudança compartilhada é usada em um ambiente onde vários caixas compartilham uma registradora ou um conjunto de registradoras durante o dia de trabalho. Normalmente, uma mudança compartilhada é usada em ambientes móveis de POS. Em um ambiente móvel, cada caixa não é responsável por uma única caixa registradora. Em vez disso, todas as caixas devem ser capazes de uma venda de meio de pagamento e adicionar dinheiro a qualquer caixa registradora aos quais assemelham-se. Nesse cenário, as registradoras são compartilhadas entre os caixas que estão incluídas em um turno compartilhado. Todas as registradoras em um turno compartilhado estão incluídas no mesmo turno para atividades que estão relacionadas ao gerenciamento de pagamento à vista para essa mudança. Portanto, o valor inicial para a mudança deve incluir a soma de todo dinheiro em todos os as registradoras que são incluídas durante a mudança compartilhada. Da mesma forma, a declaração de meios de pagamento será a soma de todo dinheiro em todos os as registradoras que são incluídas durante a mudança compartilhada. **Observação:** Apenas um turno compartilhado pode ser aberto por vez em cada loja. Turnos compartilhados e autônomos podem ser usados no mesmo armazenamento.
 
 ### <a name="set-up-a-shared-shift"></a>Definir um turno compartilhado
 
-1.  Clique ** varejo e comércio ** &gt; ** configuração de canal ** &gt; ** configuração POS ** &gt; ** perfis POS ** &gt; ** ** perfis de hardware.
+1.  Clique em **Varejo e comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**.
 2.  Selecione o perfil de hardware a ser usado para o turno compartilhado.
 3.  Na Guia Rápida **Caixa**, confirme que a opção **Caixa registradora de turno compartilhado** está definida para **Sim**.
-4.  Click **Save**.
-5.  Clique ** varejo e comércio ** &gt; ** configuração de canal ** &gt; ** configuração POS ** &gt; ** ** registros.
+4.  Clique em **Salvar**.
+5.  Clique em **Varejo e comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Registradoras**.
 6.  Selecione o registro que exige uma mudança compartilhada e, em seguida, clique em **Editar**.
 7.  No campo **Perfil de Hardware**, selecione o perfil de hardware que você selecionou na etapa 2.
-8.  Click **Save**.
-9.  Clique ** varejo e comércio ** &gt; ** TI varejista ** &gt; ** ** agenda de distribuição.
+8.  Clique em **Salvar**.
+9.  Clique em **Varejo e comércio** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
 10. Selecione a agenda de distribuição **1090** e clique **Executar agora** para sincronizar as alterações para o PDV.
 
 ### <a name="use-a-shared-shift"></a>Use um turno compartilhado
@@ -93,6 +96,8 @@ Uma mudança compartilhada é usada em um ambiente onde vários caixas compartil
 8.  Depois que você remover o dinheiro da última caixa registradora, conte o dinheiro de todas as gavetas de dinheiro.
 9.  Use a operação **Declarar meio de pagamento** para declarar a quantidade total de dinheiro de todas as as registradoras que são incluídos durante a mudança compartilhada.
 10. Use a operação **Fechar turno** para fechar o turno compartilhado.
+
+
 
 
 

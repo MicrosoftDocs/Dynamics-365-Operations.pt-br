@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="address-books"></a>Catálogos de endereços
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 <a name="how-do-i-check-for-duplicate-records"></a>Como procurar por registros duplicados?
@@ -53,7 +56,7 @@ Você pode atualizar o nome de um registro de participante e os endereços assoc
 ## <a name="can-i-merge-two-or-more-party-records-into-one-record"></a>Posso mesclar dois ou mais registros de participante em um registro?
 Às vezes, você pode querer mesclar dois ou mais registros de participante em um único registro. Isso poderá ocorrer se você criar um ou mais registros de participante duplicados, proposital ou acidentalmente. Ao mesclar registros de participante, selecione um registro a ser mantido As informações dos outros registros serão mescladas neste registro. Por exemplo, você descobre que as informações sobre a Fabrikam estão armazenadas em três registros de participante, denominados A, B e C. Você decide manter o registro de participante A. Sendo assim, as informações armazenadas nos registros B e C serão mescladas no registro A. Há algumas situações onde você não pode mesclar os registros de participante:
 
--   Não é possível mesclar os registros associados à mesma função de participante, como um cliente ou um fornecedor, na mesma entidade legal. Por exemplo, Ao participante estiver associado a um cliente na entidade legal 123, e a parte B é associado a outro cliente na entidade legal 123. Esses registros do participante não podem ser mesclados, pois se foram mesclados mesclado, o registro do participante será associado a vários clientes na mesma entidade legal, e este não será permitido. No entanto, os registros poderão ser mesclados se o participante B for associado a um fornecedor na entidade legal 123 ou a um cliente em outra entidade legal.
+-   Não é possível mesclar os registros associados à mesma função de participante, como um cliente ou um fornecedor, na mesma entidade legal. Por exemplo, o participante A está associado a um cliente na entidade legal 123, e o participante B está associado com um cliente diferente na entidade legal 123. Esses registros de participante não podem ser unidos, porque se eles forem unidos, o registro de participante unido seria associado a clientes múltiplos na mesma entidade legal, e isso não é permitido. No entanto, os registros poderão ser mesclados se o participante B for associado a um fornecedor na entidade legal 123 ou a um cliente em outra entidade legal.
 -   Não é possível mesclar registros de organização de participante internos na mesma entidade legal ou unidade operacional.
 
 ## <a name="should-i-create-a-party-record-in-the-global-address-book-or-in-another-place-such-as-the-customer-or-vendor-page"></a>Devo que criar um registro de participante no catálogo de endereços global ou em outro local, como na página de cliente ou fornecedor?
@@ -64,5 +67,7 @@ Você pode inserir registros de participante no catálogo de endereços global o
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>Posso traduzir as informações de endereço para os registros de participante?
 Você pode configurar traduções de informações de endereço para que as informações apareçam em seu idioma de usuário (idioma do sistema) no Microsoft Dynamics 365 for Operations, mas em outro idioma em documentos como, por exemplo, ordens de venda. Você pode inserir traduções para nomes de países/regiões, endereços e sequências de nomes. Por exemplo, o idioma do sistema é dinamarquês e você cria uma ordem de venda para um cliente na França. Nesse caso, você pode exibir o registro de cliente em dinamarquês no programa, e exibir as informações de endereço em francês na ordem de venda impressa. Ao configurar as traduções, você deve inserir uma tradução para cada item na lista. Os itens para os quais você não inserir uma tradução aparecerão no idioma do sistema. Por exemplo, o idioma do sistema é dinamarquês e você envia um documento para um cliente na Espanha. Se você não inseriu traduções de espanhol (ESP) para informações de endereço, elas serão exibidas em dinamarquês no seu sistema e no documento impresso.
+
+
 
 

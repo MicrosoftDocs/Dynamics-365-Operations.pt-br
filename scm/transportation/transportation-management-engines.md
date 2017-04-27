@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="transportation-management-engines"></a>Mecanismos de gerenciamento de transporte
 
+[!include[banner](../includes/banner.md)]
+
+
 Os mecanismos de gerenciamento de transporte definem a lógica usada para gerar e processar taxas de transporte no Gerenciamento de transporte. 
 
 Um mecanismo de gerenciamento de transporte calcula tarefas, como a taxa de transporte da transportadora. O sistema do mecanismo permite alterar as estratégias de cálculo no tempo de execução com base nos dados no Microsoft Dynamics 365 for Operations. Um mecanismo de gerenciamento de transporte é semelhante a um plug-in relacionado a um contrato de transportadora específico.
@@ -58,7 +61,7 @@ Um mecanismo de gerenciamento de transporte exige que você configure os dados d
 Na maioria dos casos, você pode clicar no botão **Parâmetros** nos formulários de configuração do mecanismo de gerenciamento de transporte para configurar os dados de inicialização. **Exemplo de configuração de um mecanismo de taxa que faz referência a um mecanismo de quilometragem** O exemplo a seguir mostra a configuração necessária para um mecanismo de taxa com base no tipo de mecanismo .NET Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine e as referências a um mecanismo de quilometragem.
 | Parâmetro             | Descrição                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | O tipo do .NET que interpretará os dados da atribuição de base da taxa para um esquema específico. A sintaxe de parâmetro consiste em dois segmentos limitados por uma barra (vertical|). O primeiro segmento contém o nome do assembly que define o tipo de atribuidor. O segundo segmento define o nome totalmente qualificado do tipo de atribuidor. Isso inclui o namespace do tipo. |
+| *RateBaseAssigner*    | O tipo do .NET que interpretará os dados da atribuição de base da taxa para um esquema específico. A sintaxe do valor de parâmetro consiste em dois segmentos limitados por uma barra vertical (|). O primeiro segmento contém o nome do assembly que define o tipo de atribuidor. O segundo segmento define o nome totalmente qualificado do tipo de atribuidor. Isso inclui o namespace do tipo. |
 | *MileageEngineCode*   | Código do mecanismo de quilometragem que identifica o registro do mecanismo de quilometragem no banco de dados do Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                                             |
 | *ApportionmentEngine* | Código do mecanismo genérico que identifica o mecanismo de quilometragem no banco de dados do Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                                              |
 
@@ -87,7 +90,7 @@ Os metadados para os mecanismos de gerenciamento de transporte são configurados
 | **Mecanismo de tempo em trânsito** e **Mecanismo de quilometragem** | Recupera os metadados diretamente do formulário de configuração do mecanismo de quilometragem.                                                                                                                                                                                                                                                                                                                                                                                  |
 
   **Exemplo de metadados para um mecanismo de taxa** O mecanismo de gerenciamento de transporte requer a identificação do endereço de origem, destino do estado e o país/região, e a hora inicial e a empresa de remessa. Usando esses requisitos, os metadados se pareceriam com os dados na tabela a seguir. A tabela também inclui informações sobre qual tipo de dados de entrada é necessário.
--   Defina essa informações dentro ** gerenciamento de transporte ** &gt; ** de instalação ** ** tipo de taxa ** base na página.
+-   Defina esta informação em **Gerenciamento de transporte** &gt; **Configuração** na página **Tipo base da taxa**.
 
 | Seqüência | Nome                          | Tipo de Campo | Tipo de dados | Tipo de pesquisa    | Obrigatório |
 |----------|-------------------------------|------------|-----------|----------------|-----------|
@@ -96,6 +99,8 @@ Os metadados para os mecanismos de gerenciamento de transporte são configurados
 | 3        | CEP de destino | Atribuição | Cadeia de caracteres    | CEP    | Selecionada  |
 | 4        | CEP final de destino   | Atribuição | Cadeia de caracteres    | CEP    | Selecionada  |
 | 5        | País/região de destino           | Atribuição | Cadeia de caracteres    | País/região |           |
+
+
 
 
 
