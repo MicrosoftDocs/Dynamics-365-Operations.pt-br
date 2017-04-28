@@ -1,6 +1,6 @@
 ---
 title: Recursos humanos
-description: "Recursos humanos simplificam muitas tarefas de rotina de manutenção de registros e automatizam vários processos relacionados ao pessoal de sua organização. Ele também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão. Essas áreas incluem o recrutamento e a retenção do funcionário, a administração de benefícios, treinamento, previsões de resultados e gerenciamento de alterações."
+description: "O módulo de Recursos humanos simplifica muitas tarefas de manutenção de registros e automatiza vários processos relacionados ao recrutamento de sua organização. Também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão. Essas áreas incluem recrutamento e retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações."
 author: rschloma
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,77 +25,77 @@ ms.lasthandoff: 04/12/2017
 
 ---
 
-# <a name="welcome-to-human-resources"></a>Bem-vindo aos recursos humanos
+# <a name="welcome-to-human-resources"></a>Bem-vindo a recursos humanos
 
 [!include[banner](includes/banner.md)]
 
-Recursos humanos simplificam muitas tarefas de rotina de manutenção de registros e automatizam vários processos relacionados ao pessoal de sua organização. Ele também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão. Essas áreas incluem o recrutamento e a retenção do funcionário, a administração de benefícios, treinamento, previsões de resultados e gerenciamento de alterações.
+O módulo de Recursos humanos simplifica muitas tarefas de manutenção de registros e automatiza vários processos relacionados ao recrutamento de sua organização. Também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão. Essas áreas incluem recrutamento e retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações.
 
-É possível usar o módulo Recursos Humanos para concluir estas tarefas:
+Você pode usar Recursos humanos para realizas estas tarefas:
 
-> + Administrar estruturas organizacionais.
-> + Manter informações abrangentes do trabalhador desde a contratação até a demissão.
-> + Definir e administrar planos de benefícios, inscrever trabalhadores, atribuir a cobertura de dependentes e designar os beneficiários.
-> + Estabelecer e monitorar as políticas de ausência.
-> + Implementar e rastrear o gerenciamento de tempo com base no perfil e gerar informações de pagamento para exportar para um sistema de folha de pagamento.
-> + Gerenciar competências do trabalhador.
-> + Revisar as metas do trabalhador do desempenho e de implementação.
-> + Configurar, entregar e analisar os cursos de treinamento que incluem agendas, sessões e rastreamentos.
-> + Recrutar trabalhadores e rastrear candidatos.
+> + Administrar estruturas da organização.
+> + Manter informações abrangentes sobre os trabalhadores da contratação à aposentadoria.
+> + Definir e administrar planos de benefícios, registrar trabalhadores, atribuir cobertura de dependentes e designar beneficiários.
+> + Estabelecer e monitorar políticas de ausência.
+> + Implementar e acompanhar o gerenciamento de tempo baseado em perfil e gerar informações de pagamento para exportação para um sistema de folha de pagamentos.
+> + Gerenciar competências de trabalhador.
+> + Avaliar o desempenho e implementar metas do trabalhador.
+> + Configurar, entregar e analisar cursos de treinamento que incluem agendas, sessões e acompanhamentos.
+> + Recrutar trabalhadores e acompanhar candidatos.
 
 <a name="develop-a-human-resources-strategy"></a>Desenvolver uma estratégia de recursos humanos
 ---------------------------------------------------------
 
-Como trabalhar com recursos humanos, poderá decidir como estruturar sua organização, usando elementos, tais como departamentos, trabalhos e posições. Eles estão entre os elementos básicos que você vai configurar em recursos humanos. Funcionários individuais são atribuídos a posições que estão associadas aos trabalhos.
+Ao trabalhar com Recursos humanos, você decide como estruturar sua organização usando elementos, como departamentos, trabalhos e posições. Esses estão entre os elementos fundamentais que você irá configurar em Recursos humanos. Funcionários individuais são atribuídos a posições associadas a trabalhos.
 
--   [Organizar sua força de trabalho com departamentos, trabalhos e posições](departments-jobs-positions.md)
--   [Configurar parâmetros de RH específicos da empresa](set-up-company-specific-hr-parameters.md)
+-   [Organizar sua força de trabalho usando departamentos, trabalhos e posições](departments-jobs-positions.md)
+-   [Configurar parâmetros de RH específicos à empresa](set-up-company-specific-hr-parameters.md)
 -   [Configurar parâmetros de RH entre entidades legais](set-up-hr-parameters-across-legal-entities.md) 
 
-## <a name="recruit-hire-and-motivate-employees"></a>Recrutamento, contratação e motivação dos funcionários
+## <a name="recruit-hire-and-motivate-employees"></a>Recrutar, contratar e motivar funcionários
 
-Projetos de recrutamento gerenciam conteúdo usado nos anúncios de cargos e podem ajudá-lo a gerenciar aplicativos para oportunidades de emprego. Você pode usá-los para rastrear respostas dos lançamentos de trabalho para um projeto de recrutamento específico, ou especificar candidatos e atualizar o status de cargos em aberto. Você pode também contratar candidato único ou gerenciar "projetos de contratação em massa", que facilitam a contratação de vários funcionários, por exemplo, para atender às necessidades de negócio sazonal.
+Os projetos de recrutamento gerenciam o conteúdo usado em anúncios para posições em aberto e podem ajudar você a gerenciar solicitações de emprego para vagas em aberto. Você pode usá-los para acompanhar respostas a ofertas de trabalho de um projeto de recrutamento específico ou de candidatos específicos e atualizar o status de posições em aberto. Você também pode contratar candidatos individuais ou gerenciar "projetos de contratação em massa" que facilitam a contratação de vários trabalhadores, por exemplo, para atender a necessidades sazonais dos negócios.
 
--   [Manage a recruiting process](manage-recruiting-process.md)
--   [Mass hire projects](mass-hire-projects.md) 
+-   [Gerenciar um processo de recrutamento](manage-recruiting-process.md)
+-   [Projetos de contratação em massa](mass-hire-projects.md) 
 
-Depois que você contratou a equipe, você pode configurar planos para compensar o gerenciamento de forma eficaz e igual, bem como gerenciar itens, como computadores ou telefones, que sua organização presta aos seus funcionários. Você pode criar planos de remuneração fixa e variável, bem como definir regras que aplicam o plano de remuneração para atender aos critérios do plano.
+Depois de contratar pessoal, você pode configurar planos para gerenciar a remuneração de maneira efetiva e imparcial, bem como gerenciar itens, como computadores ou telefones, que sua organização empresta a seus funcionários. Você pode criar planos de remuneração fixa e variável, bem como definir regras que se apliquem ao plano de remuneração para atender aos critérios desse plano.
 
 -   [Planos de remuneração](compensation-plans.md)
--   [Criar planos de remuneração fixa.](create-fixed-compensation-plans.md)
+-   [Criar planos de remuneração fixa](create-fixed-compensation-plans.md)
 -   [Criar planos de remuneração variável](create-variable-compensation-plans.md)
 
 ## <a name="develop-and-train-employees"></a>Desenvolver e treinar funcionários
 
-Para ajudar seus funcionários a alcançar seus objetivos de carreira enquanto fornecer essenciais precisa que você pode definir metas, crie avaliações de desempenho e controlar seus comentários para ajudar os funcionários a desenvolver as habilidades necessárias, você também pode configurar instrutores, tipos de curso, cursos, descrições de cursos, agendas, faixas e sessões antes de atribuir um instrutor a um curso ou registrar uma pessoa em um curso. Os instrutores já devem existir, como trabalhadores, candidatos ou contatos.
+Para ajudar seus funcionários a atingirem seus objetivos de carreira e, ao mesmo tempo, atender às necessidades críticas dos negócios, crie avaliações e acompanhe os comentários. Para ajudar os funcionários a desenvolverem as habilidades necessárias, você também pode definir instrutores, tipos de curso, cursos, descrições de cursos, agendas e sessões antes de atribuir um instrutor a um curso ou inscrever alguém em um curso. Os instrutores já devem existir como trabalhadores, candidatos ou contatos.
 
 -   [Gerenciamento de desempenho](performance-management-overview.md)
--   [Alinhar as habilidades da força de trabalho e necessidades de negócios](skills.md)
--   [Administer training through courses](courses.md)
+-   [Alinhar habilidades da força de trabalho e necessidades dos negócios](skills.md)
+-   [Administrar treinamento por meio de cursos](courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>Criar e manter benefícios
 
-Além de sua equipe com salários, salários e bônus de compensação, você pode desenvolver programas de benefícios, como seguro de saúde e planos de aposentadoria. Você também pode gerenciar benefícios como programas de empréstimo, em que sua empresa empresta itens, como computadores ou telefones aos seus funcionários.
+Além de remunerar sua equipe com salários e bônus, você pode desenvolver programas de benefícios, como seguro de saúde e planos de aposentadoria. Você também pode gerenciar benefícios, como programas de empréstimo, nos quais sua empresa empresta itens, como computadores ou telefones, a seus funcionários.
 
 -   [Gerenciar um programa de benefícios](manage-benefit-program.md)
--   [Benefit eligibility policies](benefit-eligibility-policies.md)
--   [Manage items lent to workers](loan-items.md)
+-   [Políticas de qualificação para benefícios](benefit-eligibility-policies.md)
+-   [Gerenciar itens emprestados aos trabalhadores](loan-items.md)
 
-## <a name="maintain-workplace-safety-and-compliance"></a>Manter a conformidade e a segurança do local de trabalho
+## <a name="maintain-workplace-safety-and-compliance"></a>Manter a segurança e a conformidade do local de trabalho
 
-O Microsoft Dynamics AX pode ajudá-lo a manter um ambiente de trabalho seguro que está de acordo com a legislação aplicável, incluindo o Ato dos americanos com deficiências e imigração e leis de naturalização, entre outros. Por exemplo, é possível gerenciar os requisitos físicos para trabalhos específicos, bem como rastrear solicitações das acomodações que podem ajudar sua organização a otimizar as habilidades de sua assinatura de obra.
+O Microsoft Dynamics AX pode ajudar você a manter um ambiente de trabalho seguro em conformidade com a legislação aplicável, incluindo a Lei de Americanos Portadores de Deficiências e as leis de imigração e naturalização, entre outras. Por exemplo, você pode gerenciar os requisitos físicos de trabalhos específicos, bem como acompanhar solicitações para acomodações que podem ajudar sua organização a otimizar as habilidades de sua força de trabalho.
 
--   [Verificação de emprego I-9 do formulário](localizations/noam-usa-form-i-9-verification.md)
--   [Cumprir os americanos com deficiências Act](localizations/noam-usa-comply-ada.md)
+-   [Verificação do formulário I-9 de emprego](localizations/noam-usa-form-i-9-verification.md)
+-   [Seguir a Lei de Americanos Portadores de Deficiências](localizations/noam-usa-comply-ada.md)
 
-## <a name="gather-information-using-questionnaires"></a>Juntar informações usando questionários
+## <a name="gather-information-using-questionnaires"></a>Coletar informações por meio de questionários
 
-Você pode desenvolver e administrar questionários para coletar informações que são usadas por uma variedade de objetivos. O recurso de questionário permite projetar e criar questionários. Quando um questionário estiver pronto, você o distribui amplamente ou para um conjunto específico de participantes para conclusão. Depois que os entrevistados fornecem as respostas, você pode revisar e analisar os resultados.
+Você pode criar e administrar questionários para coletar informações usadas para vários objetivos. O recurso Questionário permite projetar e criar questionários. Quando um questionário está pronto, você o distribui de forma ampla ou para um conjunto específico de entrevistados para preenchimento. Depois que os entrevistados fornecerem as respostas, você poderá rever e analisar os resultados.
 
--   [Questionnaires](questionnaires.md)
--   [Design a questionnaire](design-questionnaires.md)
--   [Distribute and complete a questionnaire](distribute-questionnaires.md)
--   [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md)
+-   [Questionários](questionnaires.md)
+-   [Criar um questionário](design-questionnaires.md)
+-   [Distribuir e preencher um questionário](distribute-questionnaires.md)
+-   [Exibir e avaliar os resultados de um questionário](evaluate-questionnaire-results.md)
 
 
 

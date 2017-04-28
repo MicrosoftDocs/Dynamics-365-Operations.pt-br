@@ -1,6 +1,6 @@
 ---
 title: Home page de varejo
-description: "Home page de 365 Dynamics para operações – de varejo"
+description: "Home page do Microsoft Dynamics 365 for Operations – Retail"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,67 +29,67 @@ ms.lasthandoff: 04/12/2017
 
 [!include[banner](includes/banner.md)]
 
-Dynamics 365 para operações – varejo oferece um completo experiência, com um total de compras e diferenciar solução de omni channel modernos, móveis e globais. Recursos de ponta a ponta, de ponto moderno de soluções de software de venda (POS), as operações de loja, mercadorias, comércio eletrônico, call center, marketing e atendimento ao cliente, a cadeia de fornecimento, finanças e muito mais, podem ser implantados de modo que faz mais sentido para sua empresa.
+O Dynamics 365 for Operations – Retail oferece uma experiência completa de compras, com uma solução simples e diferenciada de omnicanal moderna, móvel e global. As funcionalidades completas, desde soluções de software de PDV (ponto de venda), operações de loja, merchandising, comércio eletrônico, call center, marketing e atendimento a clientes até cadeia de fornecedores, finanças e muito mais, podem ser implantadas da maneira que faça mais sentido para seus negócios.
 
-Esta página pontos a recursos que lhe ajudarão usam Microsoft Dynamics 365 para operações - varejo com mais eficiência. No painel à esquerda, selecione uma área de recurso para aprender mais sobre ele. 
+Esta página aponta para recursos que ajudarão você a usar o Microsoft Dynamics 365 for Operations - Retail de maneira mais efetiva. No painel à esquerda, escolha uma área de recursos para saber mais a respeito. 
 
-## <a name="set-up-retail-channels"></a>Configurar os canais de varejo
-Ao configurar a sua experiência de varejo, poderá decidir como definir e configurar sua loja de tijolos e o cimento (chamado *de loja de varejo* no Dynamics 365 para operações) e operações da loja online. 
+## <a name="set-up-retail-channels"></a>Configurar canais de varejo
+Ao configurar sua experiência de varejo, você decidirá como definir e configurar sua loja física (chamada de *loja de varejo* no Dynamics 365 for Operations) e operações de loja online. 
 
-Cada loja pode ter seus próprios métodos de pagamento, grupos de preços, POS soluções, contas de renda, contas de despesas e equipe. Depois de criar sua loja de varejo, atribua os produtos que você deseja que o armazenamento para executar. Você também atribui funcionários, registradoras e clientes à loja. Por fim, você adiciona a nova loja a uma hierarquia da organização.
+Cada loja de varejo pode ter seus próprios métodos de pagamento, grupos de preços, soluções de PDV, contas de receita, contas de despesas e equipe. Depois de criar sua loja de varejo, você atribui os produtos que quer que a loja mantenha. Você também atribui funcionários, registradoras e clientes à loja. Finalmente, você adiciona a nova loja para uma hierarquia da organização.
 
-Quando você cria sua loja online, você deve configurar componentes como classificações, atributos, métodos de pagamento e métodos de transporte. Você também pode definir preços, promoções, descontos e condições de remessa específicas da loja online.
+Ao criar sua loja online, você deve configurar componentes, como sortimentos, atributos, métodos de pagamento e métodos de remessa. Você também pode definir preços, promoções, descontos e termos de remessa específicos à loja online.
 
--   [Define os canais de varejo](define-maintain-retail-channels.md)
--   [Online store overview](online-stores.md)
+-   [Definir canais de varejo](define-maintain-retail-channels.md)
+-   [Visão geral de loja online](online-stores.md)
 
 ## <a name="set-up-a-call-center"></a>Configurar um call center
-Você pode configurar um call center como um tipo de canal de varejo. Em um call center, os trabalhadores pegam as ordens de clientes pelo telefone e criam ordens de venda. Para ajudar seus funcionários a receber pedidos e lidar com o atendimento ao cliente em todo o processo de preenchimento da ordem, você pode configurar uma ordem de venda que conterá, como preços serão controlada e quais dados sobre clientes, produtos e preços podem ser acessados. Para cada centro de atendimento, você também pode configurar usuários, métodos de pagamento, grupos de preços, dimensões financeiras e modos de entrega.
+Você pode configurar um call center como um tipo de canal de varejo. Em um call center, os trabalhadores recebem ordens de clientes pelo telefone e criam ordens de venda. Para ajudar seus trabalhadores a receberem ordens e a manusear o SAC durante o processo de preenchimento da ordem, você pode configurar o que uma ordem de venda deve conter, como os preços serão controlados e quais dados sobre clientes, produtos e preços podem ser acessados. Para cada call center, você também pode configurar usuários, métodos de pagamento, grupos de preços, dimensões financeiras e modos de entrega.
 
--   [Call center functionality](call-center-functionality.md)
--   [Create call center catalogs](create-call-center-catalogs.md)
+-   [Funcionalidade do call center](call-center-functionality.md)
+-   [Criar catálogos do call center](create-call-center-catalogs.md)
 
-## <a name="define-your-pos-and-mpos-solutions"></a>Definir suas soluções de POS e os MPOS
-Varejo modernos POS (MPOS) é um aplicativo de ponto de venda para telefones, tablets e PCs. Equipe de vendas pode processar transações de venda, pedidos de clientes e executar as operações diárias e gerenciamento de estoque com dispositivos móveis em qualquer lugar no armazenamento, bem como em registros de PC. Nuvem POS é um POS e baseada em navegador. 
+## <a name="define-your-pos-and-mpos-solutions"></a>Definir suas soluções de PDV e do MPOS
+O Retail Modern POS (MPOS) é um aplicativo de ponto de venda para PCs, tablets e telefones. A equipe de vendas pode processar transações de vendas, ordens de clientes e executar operações diárias e gerenciamento do estoque com dispositivos móveis em qualquer lugar na loja, bem como nas registradoras baseadas em PCs. O PDV em nuvem é um PDV baseado em navegador. 
 
-Existem vários componentes que você configurará para definir os relacionamentos entre um armazenamento, o PDV ou canais na loja e os periféricos de varejo que registra ou canais usam para processar transações. Você também irá definir as características de uma instância específica de POS, incluindo o perfil de hardware ou instalação de periféricos de varejo que será usado com o registro e o armazenamento do registro é mapeado para a experiência visual para o usuário que faz logon em que se registrar.
+Há vários componentes que você irá configurar para definir as relacionamentos entre uma loja, as registradoras dos PDVs ou os canais da loja e os periféricos do varejo que essas registradoras ou canais usam para processar transações. Você também definirá as características de uma instância específica do PDV incluindo o perfil ou a configuração do hardware para periféricos de varejo que serão usados na registradora, a loja para a qual a registradora está mapeada e a experiência visual do usuário que faz logon naquela registradora.
 
--   [Definir e manter os clientes do canal, registradoras e estações de hardware](define-maintain-channel-clients-registers-hw-stations.md)
--   [Configurar e instalar os MPOS](retail-modern-pos-device-activation.md)
--   [Funcionalidade offline do PDV](pos-offline-functionality.md)
+-   [Definir e manter clientes de canal, registradoras e estações de hardware](define-maintain-channel-clients-registers-hw-stations.md)
+-   [Configurar e instalar o MPOS](retail-modern-pos-device-activation.md)
+-   [Funcionalidade de PDV offline](pos-offline-functionality.md)
 
-## <a name="set-up-a-customer-loyalty-program"></a>Configurar um programa de fidelidade do cliente
-Você pode configurar o programa de fidelidade para que os clientes ganhem pontos com base em critérios específicos e os pontos podem ser calculados de várias maneiras. O programa de fidelidade pode ser simples ou complexas e aplicar entre as entidades legais em qualquer canal de varejo.
--   [Configurar um programa de fidelidade do cliente](set-up-customer-loyalty-program.md)
+## <a name="set-up-a-customer-loyalty-program"></a>Configurar um programa de fidelidade de clientes
+Você pode configurar seu programa de fidelidade para que os clientes ganhem pontos com base em critérios específicos, e os pontos possam ser calculados de várias maneiras. Seu programa de fidelidade pode ser simples ou complexo e ser aplicado entre suas entidades legais em qualquer canal de varejo.
+-   [Configurar um programa de fidelidade de clientes](set-up-customer-loyalty-program.md)
 
-## <a name="set-up-discounts-and-price-adjustments"></a>Configurar ajustes de preços e descontos
-Você pode fazer ajustes de preço para produtos e também pode configurar descontos aplicados a um item de linha ou uma transação no PDV, em uma ordem de venda do call center ou em um pedido on-line. 
--   [Price adjustments and discounts](price-adjustments-discounts.md)
--   [Define channel-specific discounts](define-channel-specific-discounts.md)
+## <a name="set-up-discounts-and-price-adjustments"></a>Configurar descontos e ajustes de preço
+Você pode fazer ajustes de preços nos produtos e também configurar descontos para serem aplicados a um item de linha ou uma transação no PDV, em uma ordem de venda do call center ou em uma ordem online. 
+-   [Ajustes de preços e descontos](price-adjustments-discounts.md)
+-   [Definir descontos específicos ao canal](define-channel-specific-discounts.md)
 -   [Determinar a combinação ideal de descontos sobrepostos](optimal-combination-overlapping-discounts.md)
 
 ## <a name="set-up-retail-products"></a>Configurar produtos de varejo
-Antes que você possa oferecer produtos à venda em seus canais de varejo, você precisará criar e configurar os produtos do Dynamics 365 para operações. É possível criar os produtos, definir as propriedades e os atributos dos produtos, bem como atribuir os produtos a hierarquias de categoria de varejo. Para disponibilizar os produtos aos seus canais de varejo e adicioná-los a uma classificação ativa, então você irá liberar os produtos para as entidades legais em que estão disponíveis.
--   [Set up retail products](set-up-retail-products.md)
+Para poder oferecer produtos para venda em seus canais de varejo, você precisa criar e configurar os produtos no Dynamics 365 for Operations. Você pode criar os produtos, definir as propriedades e os atributos dos produtos e atribuir os produtos a hierarquias de categoria de varejo. Para tornar os produtos disponíveis em seus canais de varejo e adicioná-los a um sortimento ativo, você liberará os produtos para as entidades legais nas quais eles estão disponíveis.
+-   [Configurar produtos de varejo](set-up-retail-products.md)
 
 ## <a name="monitor-and-analyze-performance"></a>Monitorar e analisar o desempenho
-Usando seu 365 Dynamics para dados de operações, você pode analisar o desempenho do armazenamento, lucratividade de clientes e produtos, tendências de vendas e muito mais.
--   [Assess customer and product profitability](assess-customer-product-profitability.md)
--   [Analyze store performance](store-performance-information.md)
+Usando os dados do Dynamics 365 for Operations, você pode analisar o desempenho da loja, a lucratividade dos clientes e dos produtos, as tendências de vendas e muito mais.
+-   [Avaliar a lucratividade dos clientes e dos produtos](assess-customer-product-profitability.md)
+-   [Analisar o desempenho da loja](store-performance-information.md)
 
 ## <a name="customize-and-administer-retail-environments"></a>Personalizar e administrar ambientes de varejo
-Se você precisa personalizar seu ambiente, ou se você está atarefado com implantação e manutenção do sistema, verifique o desenvolvedor e conteúdo específico de varejo do administrador de sistema, bem como o conteúdo mais geral para Microsoft Dynamics 365 para operações. 
--   [Dynamics 365 para operações - varejo para desenvolvedores e profissionais de TI](dev-itpro/dev-retail-home-page.md)
--   [Microsoft Dynamics 365 para operações para desenvolvedores e profissionais de TI](/dynamics365/operations/dev-itpro/dev-tools/developer-home-page)
+Se você for o responsável por personalizar seu ambiente ou por implantar e manter seu sistema, confira o conteúdo para desenvolvedores e administradores de sistema específicos ao varejo, bem como o conteúdo mais geral do Microsoft Dynamics 365 for Operations. 
+-   [Dynamics 365 for Operations - Retail para profissionais de TI e desenvolvedores](dev-itpro/dev-retail-home-page.md)
+-   [Microsoft Dynamics 365 for Operations para profissionais de TI e desenvolvedores](/dynamics365/operations/dev-itpro/dev-tools/developer-home-page)
 
 ## <a name="additional-resources"></a>Recursos adicionais
-### <a name="whats-new-and-in-development"></a>O que há de novo e em desenvolvimento
-Vá para o <a href="https://roadmap.dynamics.com/">Dynamics 365 roteiro</a> para ver quais novos recursos são liberados e o que os novos recursos estão em desenvolvimento. 
+### <a name="whats-new-and-in-development"></a>Novidades e o que está em desenvolvimento
+Visite o <a href="https://roadmap.dynamics.com/">Dynamics 365 Roadmap</a> para conferir os novos recursos liberados e os novos recursos em desenvolvimento. 
 
 ### <a name="blogs"></a>Blogs
-Você pode encontrar outras informações sobre Microsoft Dynamics 365, notícias e opiniões para operações - varejo e outras soluções da <a href="https://community.dynamics.com/b/msftdynamicsblog">Microsoft Dynamics 365 blog</a>.
+Você pode encontrar opiniões, notícias e outras informações sobre o Microsoft Dynamics 365 for Operations - Retail e outras soluções no <a href="https://community.dynamics.com/b/msftdynamicsblog">Microsoft Dynamics 365 blog</a>.
 
-Há muitos tópicos sobre varejo no <a href="https://blogs.msdn.microsoft.com/dax/">blog da equipe do produto Microsoft Dynamics AX</a>. Dentre essas postagens foram escritos para a versão anterior do Dynamics 365 para operações, mas os mesmos conceitos se aplicam, e os procedimentos são semelhantes na versão atual.
+Há muitos tópicos sobre varejo no <a href="https://blogs.msdn.microsoft.com/dax/">blog da equipe do produto Microsoft Dynamics AX</a>. Algumas dessas postagens foram escritas para a versão anterior do Dynamics 365 for Operations, mas os mesmos conceitos ainda se aplicam, e os procedimentos são semelhantes na versão atual.
 
-O <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Blog da comunidade do Microsoft Dynamics Operations parceiro</a> fornece Microsoft Dynamics aos parceiros um único recurso para aprender sobre novidades e tendências em operações de MBS.
+O <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">blog da comunidade de parceiros do Microsoft Dynamics Operations</a> fornece aos parceiros Microsoft Dynamics um recurso único para saber as novidades e as tendências em Operações do MBS.
 
