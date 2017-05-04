@@ -1,0 +1,64 @@
+---
+title: Configurar uma loja online
+description: "Este artigo fornece links para tópicos que ajudarão você a configurar e gerenciar centralmente uma loja online no Microsoft Dynamics 365 for Operations."
+author: kfend
+manager: AnnBe
+ms.date: 04/04/2017
+ms.topic: article
+ms.prod: 
+ms.service: Dynamics365Operations
+ms.technology: 
+audience: Application User, IT Pro
+ms.search.scope: AX 7.0.0, Operations, Retail
+ms.custom: 31541
+ms.assetid: 7a25f9b4-a0bb-4e8c-95c0-c0799ec0620d
+ms.search.region: Global
+ms.author: meeram
+ms.search.validFrom: 2016-02-28
+ms.dyn365.ops.version: AX 7.0.0
+translationtype: Human Translation
+ms.sourcegitcommit: 29938d962db42a521dd8dc03b8e45e0e34410e4d
+ms.openlocfilehash: 4da710b57d03621fdf9abbf5a9598859e1e9aafd
+ms.lasthandoff: 03/31/2017
+
+
+---
+
+# <a name="configure-an-online-store"></a>Configurar uma loja online
+
+[!include[banner](../includes/banner.md)]
+
+
+Este artigo fornece links para tópicos que ajudarão você a configurar e gerenciar centralmente uma loja online no Microsoft Dynamics 365 for Operations.
+
+Os tópicos listados na seguinte tabela ajudam você a configurar o Dynamics 365 for Operations - Componente de varejo e lojas online de varejo no cliente do Dynamics 365 for Operations.
+
+## <a name="configure-an-online-store"></a>Configurar uma loja online
+| Tarefa                                                | Detalhes                                                                                                                                                                                                                                                                                                                                                   | Tópicos                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+|-----------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Configure os componentes de varejo.                        | Configure e mantenha as informações de operações de varejo. Essas informações incluem lojas, impostos, produtos, vales-presentes, promoções e descontos.                                                                                                                                                                                                          | [Configurando e mantendo o varejo](https://technet.microsoft.com/en-us/library/hh597201.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012)                                                                                                                                                                                                                                                                                          |
+| Configure uma hierarquia de navegação de canal de varejo.    | Crie uma hierarquia de categoria de navegação de canal de varejo para configurar uma estrutura de categoria para os produtos que você oferece por meio de uma loja online. Defina a hierarquia de categoria e atribua os produtos, os grupos de atributos de produto e os valores de atributo às categorias. Em seguida, atribua a hierarquia de categoria a uma loja online.                            | [Configurar uma hierarquia de varejo](https://technet.microsoft.com/en-us/library/hh580593.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012) [Configurar atributos e tipos de atributo](https://technet.microsoft.com/en-us/library/hh227548.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012) [Configurar grupos de atributo de varejo](https://technet.microsoft.com/en-us/library/jj728713.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012) |
+| Adicione a loja online à hierarquia da organização. | Antes que seja possível atribuir as classificações de produtos ou preencher as ordens para a loja online que foi criada, ou gerar os relatórios que incluem as informações dessa loja, é necessário atribuir a loja a uma ou várias hierarquias da organização. No mínimo, atribua a loja online a uma hierarquia da organização que inclua as classificações de produtos. | [Configurar uma loja online](https://technet.microsoft.com/en-us/library/jj682095.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012)                                                                                                                                                                                                                                                                                                     |
+| Adicione modos de entrega à loja online.          | Selecione os métodos de entrega que são ofertas de loja online.                                                                                                                                                                                                                                                                                                 | [Configurar uma loja online](https://technet.microsoft.com/en-us/library/jj682095.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012)                                                                                                                                                                                                                                                                                                     |
+| Mapeie atributos e adicione metadados.                   | Selecione as opções que indicam como os atributos de cada produto de canal ou de categoria devem se comportar na loja online no site do Microsoft SharePoint.                                                                                                                                                                                              | [Configurar uma loja online](https://technet.microsoft.com/en-us/library/jj682095.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012)                                                                                                                                                                                                                                                                                                     |
+
+## <a name="configure-online-store-products"></a>Configurar produtos de loja online
+| Tarefa                                 | Detalhes                                                                                                                                           | Tópicos                                                                                                                                                                                                                                                                            |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Adicione sortimentos à loja online. | Adicione as classificações que incluem os produtos oferecidos por você em uma loja online.                                                                  | [Configurar uma loja online](https://technet.microsoft.com/en-us/library/jj682095.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012)                                                                                                                                              |
+| Gerencie os catálogos.                     | Use catálogos de produtos para identificar os produtos que deseja oferecer em suas lojas.                                                              | [Principais tarefas: criar catálogos de produtos de varejo](https://technet.microsoft.com/en-us/library/jj728712.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012)                                                                                                                           |
+| Gerencie os preços.                       | Configure e use os grupos de preços, que são o vínculo central entre preços e descontos e canais, catálogos, afiliações e programas de fidelidade. | [Configurando preços usando grupos de preços](https://technet.microsoft.com/en-us/library/hh597169.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012) [Configurando impostos](https://technet.microsoft.com/en-us/library/hh580571.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012) |
+| Gerencie os descontos.                    | Configure e gerencie ajustes de preço e quatro tipos de descontos.                                                                                  | [Configurando ajustes de preço e desconto](https://technet.microsoft.com/en-us/library/hh597114.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012)                                                                                                                          |
+| Gerencie os encargos de remessa.             | Configure e gerencie os encargos de remessa específicos para a loja online.                                                                     | [Configurar os encargos de remessa para as lojas online](https://technet.microsoft.com/en-us/library/jj728714.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012)                                                                                                                           |
+| Gerencie os modos de entrega.            | Gerencie os modos de entrega que a loja online oferece.                                                                                        | [Configurar os modos de entrega](https://technet.microsoft.com/en-us/library/jj728719.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012)                                                                                                                                            |
+
+## <a name="set-up-data-exchange-between-dynamics-365-for-operations-and-the-online-store"></a>Configurar troca de dados entre o Dynamics 365 for Operations e a loja online
+| Tarefa                                 | Detalhes                                                                                                                               | Tópicos                                                                                                                                                                                                                                                                                  |
+|--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Configure os perfis de integração do canal. | Os perfis habilitam os componentes de varejo para que haja comunicação entre eles. Configure os perfis antes de definir as configurações de troca de dados. | [Configurar um perfil do Real-time Service](https://technet.microsoft.com/en-us/library/hh580631.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012) [Configurar um perfil do canal](https://technet.microsoft.com/en-us/library/jj677402.aspx) (Conteúdo TechNet para o Microsoft Dynamics AX 2012) |
+
+ 
+
+
+
+
