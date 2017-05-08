@@ -60,3 +60,15 @@
 #### [Perguntas frequentes sobre atualizações de dados de folha de pagamento](localizations/noam-usa-payroll-data-updates.md)
 #### [Gerar relatórios de folha de pagamento](localizations/noam-usa-generate-payroll-reports.md)
 
+# [Finanças](/dynamics365/operations/financials/index)
+
+# [Varejo](/dynamics365/operations/retail/index)
+
+# [Gerenciamento da cadeia de fornecedores](/dynamics365/operations/supply-chain/index)
+
+# [Desenvolvedor e administrador](/dynamics365/operations/dev-itpro/index)
+
+# Outros recursos
+## [Glossário do Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/human-resources/toc.json)
+## [Novidades ou alterações](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/human-resources/toc.json)
+
