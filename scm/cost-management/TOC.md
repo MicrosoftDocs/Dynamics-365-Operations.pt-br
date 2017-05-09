@@ -22,10 +22,14 @@
 ## [Data de média ponderada](weighted-average-date.md)
 ## [Média ponderada com valor físico e marcação](weighted-average-physical-value-marking.md)
 # Avaliação de custo de fabricação
+## [Amortizar custos constantes para um item fabricado](amortize-constant-costs-manufactured-item.md)
+## [Custos de fluxo inverso](backflush-costing.md)
+## [Cálculos de BOM](bom-calculations.md)
 ## [Grupo de cálculo de BOM](bom-calculation-groups.md)
 ## [Fontes comuns de variação de produção](common-sources-of-production-variances.md)
 ## [Categoria de custo usada no roteiro de produção](cost-categories-used-production-routings.md)
-## [Categoria de custo usada no controle da produção e na contabilidade do gerenciamento do projetos](cost-categories-used-production-control-project-management-accounting.md)
+## [Categoria de custo usada no controle da produção e na contabilidade do gerenciamento de projeto](cost-categories-used-production-control-project-management-accounting.md)
+## [Exibir encargos para um item fabricado](charges-manufactured-item.md)
 ## [Análise de custo de ordem de produção](production-order-cost-analysis.md)
 ## [Estimativa de custo de ordem de produção](production-order-cost-estimation.md)
 ## [Lançamento de produção](production-posting.md)
@@ -39,5 +43,6 @@
 ## [Atualizar custo padrão em um ambiente de fabricação](update-standard-costs-manufacturing-environment.md)
 ## [Atualizar custo padrão para um novo item fabricado](update-standard-costs-new-manufactured-item.md)
 ## [Atualizar custo padrão em um ambiente de não fabricação](update-standard-costs-non-manufacturing-environment.md)
+
 
 

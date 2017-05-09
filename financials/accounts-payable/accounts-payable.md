@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 00f022da597b1de2454e93123de31731c6a65962
-ms.openlocfilehash: c0febeaf790fd9d2281f0e98089eb557ca1f7cec
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: 8bdfc9b29da86460e8f47760cf8afc051ea923fb
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 03/31/2017
 
 Este tópico oferece uma visão geral de contas a pagar. 
 
-Você pode inserir faturas de fornecedor manualmente ou recebê-las eletronicamente por uma entidade de dados. Depois que as faturas são lançadas ou recebidas, você pode revisar e aprovar as faturas usando um diário de aprovação de faturas ou a página **Fatura de fornecedor**. Você pode usar a conciliação de faturas, as políticas de faturas de fornecedor e o fluxo de trabalho para automatizar o processo de revisão de modo que as faturas que atendam a certos critérios sejam aprovadas automaticamente, e as faturas restantes sejam sinalizadas para revisão por um usuário autorizado.
+Você pode inserir faturas de fornecedor manualmente ou recebê-las eletronicamente por uma entidade de dados. Depois que as faturas são lançadas ou recebidas, você pode revisar e aprovar as faturas usando um diário de aprovação de faturas ou a página **Fatura de fornecedor**. Você pode usar a conciliação de faturas, as políticas de faturas de fornecedor e o fluxo de trabalho para automatizar o processo de revisão, para que as faturas que atenderem a certos critérios sejam aprovadas automaticamente, e as faturas restantes sejam sinalizadas para revisão por um usuário autorizado.
 
 
 
