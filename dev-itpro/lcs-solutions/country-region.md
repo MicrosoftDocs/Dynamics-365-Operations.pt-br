@@ -17,31 +17,42 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: b77b61089c359127a7404437c29ef63a01416779
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 4a3ecb4cb643d63333666f8d5d49760caacc4e58
+ms.openlocfilehash: e14d0836ee16db4fba9ef49df9a49564aa4c0402
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Recursos de localização e regulatórios
 
-O Microsoft Dynamics 365 for Operations inclui funcionalidade para alguns regulamentos e processos específicos ao país/região. Essa funcionalidade é habilitada com base no endereço principal da entidade legal ativa. Este tópico inclui listas de recursos que podem ajudar você a aprender mais sobre funcionalidades específicas ao país/região. 
+[!include[banner](../includes/banner.md)]
 
-## <a name="developer-and-isv-information"></a>Informações para desenvolvedores e ISVs
-Os recursos a seguir fornecem informações que podem ajudar desenvolvedores e ISVs que estão criando personalizações específicas ao país/região.
+
+O Microsoft Dynamics 365 for Operations inclui funcionalidade para o país/regiões documentadas no [guia Disponibilidade de produtos](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Essa funcionalidade é habilitada com base no endereço principal da entidade legal ativa. 
+
+Este tópico inclui listas de recursos que podem ajudar você a aprender mais sobre funcionalidades específicas ao país/região. 
+
+## <a name="developing-localized-solutions"></a>Desenvolvendo soluções localizadas
+Os recursos a seguir fornecem orientação e informações que podem ajudar desenvolvedores e ISVs que estão criando personalizações específicas de um país/região, ou que estão criando uma solução para um país sem suporte da Microsoft.
 -   [Modelos de localização separada](separate-localization-models.md)
 -   [Aplicar contexto de país/região](apply-country-context.md)
 -   [Certificações regulatórias](regulatory-certifications.md)
 -   [Classificar recursos de localização](classify-localization-features.md)
 -   [Códigos de país - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates"></a>Atualizações de localização
+## <a name="localization-updates-and-communication"></a>Atualizações e comunicação de localização
 Os recursos a seguir fornecem informações sobre recursos planejados e novas localizações. 
--   [Portal de localização](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC)
+
+### <a name="localization-updates"></a>Atualizações de localização
+-   [Portal de localização](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (atualizado semanalmente)
+-   [Pesquisa de problema de LCS](../lifecycle-services/issue-search-lcs.md) (atualizada diariamente)
+
+### <a name="communication-and-alerts"></a>Comunicação e alertas
 -   [Observação regulatória e comunicação de atualização regulatória](regulatory-watch-communication.md)
--   [Informar a Microsoft sobre alertas de regulamentação e acompanhar o status de recursos regulatórios](submit-localization-alerts.md)
+-   [Informar a Microsoft sobre alertas de regulamentação de país/região e acompanhar o status de recursos regulatórios](submit-localization-alerts.md)
 
 ## <a name="electronic-reporting"></a>Relatório eletrônico
 A ferramenta ER (Relatório eletrônico) permite configurar formatos de documentos eletrônicos de acordo com os requisitos legais de vários países/regiões. O ER permite gerenciar esses formatos durante seu ciclo de vida. Para obter mais informações, confira um dos tópicos a seguir:
@@ -51,9 +62,17 @@ A ferramenta ER (Relatório eletrônico) permite configurar formatos de document
 -   [Estender a lista de funções de Relatório eletrônico](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [Destinos de Relatório eletrônico](../analytics/electronic-reporting-destinations.md)
 -   [Baixar configurações de Relatório eletrônico do Lifecycle Services](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [Configurar Relatório eletrônico com o Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Configurar Relatório eletrônico para efetuar pull de dados no Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="countryregion-specific-help-topics"></a>Tópicos da Ajuda específicos ao país/região
+## <a name="task-guides"></a>Guias de tarefas
+Os guias de tarefas estão disponíveis no painel da ajuda de produtos e oferecem etapas detalhadas de processos de negócios essenciais. Você pode abrir um guia de tarefas para ler as etapas de um processo de negócios, ou pode executar um guia de tarefas para seguir as etapas de um processo de negócios e inserir dados.
+
+Para localizar os guias de tarefas, navegue até uma página no Microsoft Dynamics 365 for Operations e clique em Ajuda. Os guias de tarefas que usam a página são listados no painel de ajuda. Você também pode usar o painel de ajuda para procurar guias de tarefas por título.
+
+Para saber mais, consulte [Guias de tarefas](/dynamics365/operations/dev-itpro/get-started/help-overview#task-guides).
+
+
+## <a name="countryregion-specific-help-topics"></a>Tópicos de ajuda específicos de país/região
 As seções a seguir listam os recursos por país/região.
 
 ### <a name="australia"></a>Austrália
@@ -62,17 +81,17 @@ As seções a seguir listam os recursos por país/região.
 -   [Demonstrativo de atividades comerciais ](/dynamics365/operations/financials/localizations/apac-aus-business-activity-statement)
 -   [Depreciação de grupo de valor baixo](/dynamics365/operations/financials/localizations/apac-aus-low-value-pool-depreciation)
 
-
 ### <a name="austria"></a>Áustria
 
+-   [Depreciação semestral](/dynamics365/operations/financials/localizations/emea-aut-half-year-depreciation)
 -   [Taxas de material de embalagem](/dynamics365/operations/financials/localizations/emea-aut-packing-material-fee-calculation)
--   [Instrução de IVA](/dynamics365/operations/financials/localizations/emea-aut-vat-statement-details)
+-   [Demonstrativo de IVA](/dynamics365/operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>Bélgica
 
 -   [Extrato bancário CODA](/dynamics365/operations/financials/localizations/emea-bel-coda-bank-statement-import)
+-   [Declaração de imposto Intervat](/dynamics365/operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [Configuração de relatório PRODCOM](/dynamics365/operations/financials/localizations/emea-bel-prodcom-report)
-
 
 ### <a name="brazil"></a>Brasil
 
@@ -93,7 +112,6 @@ As seções a seguir listam os recursos por país/região.
 -   [Pagamentos de impostos](/dynamics365/operations/financials/localizations/latam-bra-tax-payments)
 -   [Impostos](/dynamics365/operations/financials/localizations/latam-bra-calculate-taxes)
 
-
 ### <a name="china"></a>China
 -   [Comparação de lista de materiais](/dynamics365/operations/financials/localizations/apac-chn-bom-comparison)
 -   [Comprovantes chineses](/dynamics365/operations/financials/localizations/apac-chn-vouchers)
@@ -105,12 +123,14 @@ As seções a seguir listam os recursos por país/região.
 -   [Lançar contas principais de estoque por site](/dynamics365/operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site)
 -   [Exibir valores de débito e crédito de contas contábeis](/dynamics365/operations/financials/localizations/apac-chn-negative-debits-credits)
 
-
 ### <a name="the-czech-republic"></a>A República Tcheca
+
+-   [Desconto à vista na nota de crédito](/dynamics365/operations/financials/localizations/emea-cze-credit-note-cash-discount)
 -   [Arredondamento de depreciações](/dynamics365/operations/financials/localizations/emea-cze-depreciation-rounding)
--       [Depreciação semestral de alienação de ativo fixo da República Tcheca](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
-    -   [Suspensão de depreciação (feriados)](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
-    -   [Métodos de depreciação de ativo fixo da República Tcheca](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+-   [Depreciação semestral de alienação de ativo fixo da República Tcheca](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
+-   [Suspensão de depreciação (feriados)](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
+-   [Métodos de depreciação de ativo fixo da República Tcheca](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+
 -   [Lançar a pré-aquisição de um ativo fixo](/dynamics365/operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [Instrução de IVA da República Tcheca](/dynamics365/operations/financials/localizations/emea-cze-vat-statement-details)
 -   [Dividir períodos em diários periódicos](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
@@ -127,7 +147,8 @@ As seções a seguir listam os recursos por país/região.
 -   [Editar IDs de fatura em ordens de venda](/dynamics365/operations/financials/localizations/emea-edit-invoice-id-sales-orders)
 -   [Certificados de entrada da UE](/dynamics365/operations/financials/localizations/emea-entry-certificates)
 -   [Relatórios da lista de vendas da UE](/dynamics365/operations/financials/localizations/emea-eu-sales-list)
--   [Formatos de arquivo de métodos de pagamento](/dynamics365/operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
+-   [Ajustes cambiais](/dynamics365/operations/financials/localizations/emea-exchange-rate-adjustments)
+-   [Formatos de arquivo para métodos de pagamento](/dynamics365/operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 -   [Alienação de ativos fixos da Estônia e da Lituânia](/dynamics365/operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 -   [Intrastat](/dynamics365/operations/financials/localizations/emea-intrastat)
 -   [Numeração de faturas e guias de remessa da Letônia e da Lituânia](/dynamics365/operations/financials/localizations/emea-invoices-packing-slips-numbering)
@@ -143,11 +164,9 @@ As seções a seguir listam os recursos por país/região.
 -   [Configurar assinantes de formulários impressos](/dynamics365/operations/financials/localizations/emea-set-up-signers-for-printing-forms)
 -   [Dividir períodos em diários periódicos](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
 -   [Atualizar como os valores são exibidos em relatórios e documentos](/dynamics365/operations/financials/localizations/emea-amount-printing-forms)
-
+-   [Taxas de câmbio de IVA](/dynamics365/operations/financials/localizations/emea-vat-exchange-rate)
 -   [Relatório IVA da Europa](/dynamics365/operations/financials/localizations/emea-vat-reporting)
-
 -   [Exibir transações sobre liquidação](/dynamics365/operations/financials/localizations/emea-transactions-settlement-form)
-
 
 ### <a name="france"></a>França
 -   [Fatura cronológica e números de comprovantes](/dynamics365/operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -164,26 +183,28 @@ As seções a seguir listam os recursos por país/região.
    -   [Titres de recette](/dynamics365/operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [Suspensões de pagamento de fatura de fornecedor](/dynamics365/operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
 
-
 ### <a name="germany"></a>Alemanha
 -   [Depreciação adicional de aquisição](/dynamics365/operations/financials/localizations/emea-deu-additional-acquisition-depreciation)
 -   [Arquivo de auditoria alemão (GDPdU/GoBD)](/dynamics365/operations/financials/localizations/emea-deu-gdpdu-audit-data-export)
 -   [Relatório de lista de diários alemão](/dynamics365/operations/financials/localizations/emea-deu-journal-list-report)
--   [Imprimir um rótulo separado para memorandos de crédito originários de vendas (Guia de Tarefas)](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
+-   [Imprimir um rótulo separado para memorandos de crédito originários de vendas](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
 
 ### <a name="hungary"></a>Hungria
 
+-   [Métodos de depreciação de ativos fixos](/dynamics365/operations/financials/localizations/emea-hun-fixed-assets-depreciation-methods)    
+-   [Mover um ativo fixo para estoque](/dynamics365/operations/financials/localizations/emea-hun-fixed-asset-to-inventory)
 -   [Ativos fixos de baixo custo](/dynamics365/operations/financials/localizations/emea-hun-low-cost-fixed-assets)
 
 ### <a name="italy"></a>Itália
 
 -   [Relatório italiano de lista de bloqueios](/dynamics365/operations/financials/localizations/emea-ita-black-list-report)
--   [Detalhes de instruções de IVA](/dynamics365/operations/financials/localizations/emea-ita-vat-statements-details)
+-   [Detalhes de demonstrativos de IVA](/dynamics365/operations/financials/localizations/emea-ita-vat-statements-details)
 -   [Data da competência de transações](/dynamics365/operations/financials/localizations/emea-ita-competence-date)
 -   [Depreciação manual de ativos fixos](/dynamics365/operations/financials/localizations/emea-ita-depreciation-of-fixed-assets)
 -   [Verificação da data da guia de remessa em faturas da Itália](/dynamics365/operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [Registros de imposto da Itália](/dynamics365/operations/financials/localizations/emea-ita-fiscal-books)
 -   [Dividir pagamento de faturas emitidas para a Administração Pública](/dynamics365/operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
+-   [Imposto retido na fonte](/dynamics365/operations/financials/localizations/emea-ita-withholding tax)
 
 ### <a name="japan"></a>Japão
 
@@ -240,6 +261,9 @@ As seções a seguir listam os recursos por país/região.
 -   [Duplicar numeração de faturas de venda](/dynamics365/operations/financials/localizations/emea-pol-sales-invoice-duplicates-numbering)
 -   [Depreciação de ativos fixos](/dynamics365/operations/financials/localizations/emea-pol-fixed-assets-depreciation)
 -   [Alienação de ativos fixos](/dynamics365/operations/financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension)
+-   [Embalagem retornável](/dynamics365/operations/financials/localizations/emea-pol-returnable-packages)
+-   [Relatórios de imposto](/dynamics365/operations/financials/localizations/emea-pol-sales-tax-reports)
+-   [Arquivo de auditoria padrão (SAF)](/dynamics365/operations/financials/localizations/emea-pol-standard-audit-file-saf)
 -   [Demonstrativo de giro e saldos](/dynamics365/operations/financials/localizations/emea-pol-turnover-balances-statement)
 
 ### <a name="saudi-arabia"></a>Arábia Saudita
@@ -252,15 +276,16 @@ As seções a seguir listam os recursos por país/região.
 
 ### <a name="spain"></a>Espanha
 
-
--   [Opções de letra de câmbio espanhola](/dynamics365/operations/financials/localizations/emea-esp-spanish-bill-of-exchange-options)
+-   [Opções de letra de câmbio espanhola](/dynamics365/operations/financials/localizations/emea-esp-bill-of-exchange-options)
 -   [O desconto à vista é aplicado no parâmetro de fatura](/dynamics365/operations/financials/localizations/emea-esp-cash-discount-applied-invoice)
--   [Usar dados fiscais da conta da fatura](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
+-   [Imposto condicional](/dynamics365/operations/financials/localizations/emea-esp-conditional-sales-tax)
 -   [Grupos de reavaliação de ativo fixo](/dynamics365/operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
+-   [IVA da UE](/dynamics365/operations/financials/localizations/emea-esp-intra-community-vat)
 -   [Clientes ocasionais](/dynamics365/operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
 -   [Opções de nota promissória espanhola](/dynamics365/operations/financials/localizations/emea-esp-promissory-note-options)
 -   [Ciclos de vendas e compras](/dynamics365/operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [Entradas especiais e folhas de abertura](/dynamics365/operations/financials/localizations/emea-esp-opening-sheets-spain)
+-   [Usar dados fiscais da conta da fatura](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
 
 ### <a name="sweden"></a>Suécia
 
@@ -286,4 +311,7 @@ As seções a seguir listam os recursos por país/região.
 -   [Relatório 1099 do exercício](/dynamics365/operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [Folha de pagamento](/dynamics365/operations/human-resources/localizations/noam-usa-payroll)
 -   [Setor público](/dynamics365/operations/financials/public-sector/public-sector-functionality)
+
+
+
 

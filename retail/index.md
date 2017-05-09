@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: 0d00f33ce8059acd877d1c177e3def0b5f0b73b1
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a8385e7103b74be33fd79c1143e481ad8edca31c
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -34,11 +35,9 @@ O Dynamics 365 for Operations – Retail oferece uma experiência completa de co
 Esta página aponta para recursos que ajudarão você a usar o Microsoft Dynamics 365 for Operations - Retail de maneira mais efetiva. No painel à esquerda, escolha uma área de recursos para saber mais a respeito. 
 
 ## <a name="set-up-retail-channels"></a>Configurar canais de varejo
-Ao configurar sua experiência de varejo, você decidirá como definir e configurar sua loja física (chamada de *loja de varejo* no Dynamics 365 for Operations) e operações de loja online. 
+Ao configurar sua experiência de varejo, você decidirá como definir e configurar suas lojas -- loja física, loja online e call center. 
 
-Cada loja de varejo pode ter seus próprios métodos de pagamento, grupos de preços, soluções de PDV, contas de receita, contas de despesas e equipe. Depois de criar sua loja de varejo, você atribui os produtos que quer que a loja mantenha. Você também atribui funcionários, registradoras e clientes à loja. Finalmente, você adiciona a nova loja para uma hierarquia da organização.
-
-Ao criar sua loja online, você deve configurar componentes, como sortimentos, atributos, métodos de pagamento e métodos de remessa. Você também pode definir preços, promoções, descontos e termos de remessa específicos à loja online.
+Cada loja de varejo pode ter seus próprios métodos de pagamento, métodos de entrega, grupos de preços, contas de receita/despesa, registros e equipe. Depois de criar sua loja de varejo, você cria um sortimento de produtos a serem mantidos pela loja. Você também pode definir os preços e os descontos específicos da loja que são aplicáveis aos produtos disponíveis na loja.
 
 -   [Definir canais de varejo](define-maintain-retail-channels.md)
 -   [Visão geral de loja online](online-stores.md)
@@ -49,10 +48,10 @@ Você pode configurar um call center como um tipo de canal de varejo. Em um call
 -   [Funcionalidade do call center](call-center-functionality.md)
 -   [Criar catálogos do call center](create-call-center-catalogs.md)
 
-## <a name="define-your-pos-and-mpos-solutions"></a>Definir suas soluções de PDV e do MPOS
-O Retail Modern POS (MPOS) é um aplicativo de ponto de venda para PCs, tablets e telefones. A equipe de vendas pode processar transações de vendas, ordens de clientes e executar operações diárias e gerenciamento do estoque com dispositivos móveis em qualquer lugar na loja, bem como nas registradoras baseadas em PCs. O PDV em nuvem é um PDV baseado em navegador. 
+## <a name="define-your-pos-solutions"></a>Definir suas soluções de PDV
+O Retail Modern POS (MPOS) é um aplicativo de ponto de venda para PCs, tablets e telefones. A equipe de vendas pode processar transações de vendas e ordens de clientes, executar atividades de depoimentos de clientes, executar operações diárias e gerenciamento do estoque com dispositivos móveis em qualquer lugar na loja, bem como nas registradoras baseadas em PCs. O PDV em Nuvem é um PDV baseado em navegador que pode ser iniciado em qualquer navegador padrão. 
 
-Há vários componentes que você irá configurar para definir as relacionamentos entre uma loja, as registradoras dos PDVs ou os canais da loja e os periféricos do varejo que essas registradoras ou canais usam para processar transações. Você também definirá as características de uma instância específica do PDV incluindo o perfil ou a configuração do hardware para periféricos de varejo que serão usados na registradora, a loja para a qual a registradora está mapeada e a experiência visual do usuário que faz logon naquela registradora.
+Há vários componentes que você irá configurar para definir os relacionamentos entre uma loja, as registradoras de PDV da loja e os periféricos do varejo que essas registradoras usam para processar transações. Você também definirá as características de uma instância específica do PDV incluindo o perfil ou a configuração do hardware para periféricos de varejo que serão usados na registradora, a loja para a qual a registradora é mapeada, a experiência visual do usuário que faz logon nessa registradora e as funcionalidades habilitadas na registradora. Você também definirá se a registradora pode operar em um estado desconectado ou offline.
 
 -   [Definir e manter clientes de canal, registradoras e estações de hardware](define-maintain-channel-clients-registers-hw-stations.md)
 -   [Configurar e instalar o MPOS](retail-modern-pos-device-activation.md)
@@ -92,4 +91,6 @@ Você pode encontrar opiniões, notícias e outras informações sobre o Microso
 Há muitos tópicos sobre varejo no <a href="https://blogs.msdn.microsoft.com/dax/">blog da equipe do produto Microsoft Dynamics AX</a>. Algumas dessas postagens foram escritas para a versão anterior do Dynamics 365 for Operations, mas os mesmos conceitos ainda se aplicam, e os procedimentos são semelhantes na versão atual.
 
 O <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">blog da comunidade de parceiros do Microsoft Dynamics Operations</a> fornece aos parceiros Microsoft Dynamics um recurso único para saber as novidades e as tendências em Operações do MBS.
+
+
 
