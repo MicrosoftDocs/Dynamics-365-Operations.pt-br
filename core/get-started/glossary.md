@@ -1,6 +1,6 @@
 ---
 title: "Glossário do Dynamics 365 for Operations"
-description: "O glossário do Microsoft Dynamics 365 for Operations define termos e conceitos chave no produto Microsoft Dynamics 365 for Operations."
+description: "O glossário do Microsoft Dynamics 365 for Operations traz definições dos principais termos e conceitos do produto Microsoft Dynamics 365 for Operations."
 author: tonyafehr
 manager: AnnBe
 ms.date: 04/04/2017
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0d8af341c8020f756f1a736f6f74402e992d6e16
-ms.openlocfilehash: c6372e366db6abc7b586c2f1185ecd44bbf28502
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: dd9f65e045367aeba081d026da53894679ee7ed0
+ms.contentlocale: pt-br
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -30,7 +31,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-O glossário do Microsoft Dynamics 365 for Operations define termos e conceitos chave no produto Microsoft Dynamics 365 for Operations. 
+O glossário do Microsoft Dynamics 365 for Operations traz definições dos principais termos e conceitos do produto Microsoft Dynamics 365 for Operations. 
 
 ### <a name="a"></a>**A**
 
@@ -40,11 +41,11 @@ Um diário que é usado para registrar as consequências financeiras de eventos 
 
 ###### <a name="accounting-rule"></a>**regra contábil**
 
-Uma regra em um sistema contábil que controla os princípios, os métodos, e os procedimentos para classificar, registrar e relatar as consequências financeiras de eventos contábeis.
+Uma regra em um sistema contábil que controla os princípios, métodos e procedimentos de classificação, registro e relatório das consequências financeiras de eventos contábeis.
 
 ###### <a name="ach-automated-clearing-house"></a>**ACH (Câmara de Compensação Automática)**
 
-Um sistema de transferência eletrônica de fundos disponível nos Estados Unidos que facilita a transferência de fundos entre as contas bancárias do participante credor e do participante devedor.
+Um sistema de transferência eletrônica de fundos disponível nos Estados Unidos que facilita a transferência de fundos entre as contas bancárias do participante recebedor e do participante bancário originador.
 
 ###### <a name="actual-quantity"></a>**quantidade real**
 
@@ -52,7 +53,7 @@ A quantidade medida que entra ou sai de uma atividade.
 
 ###### <a name="address-verification-service"></a>**serviço de verificação de endereço**
 
-O serviço que é fornecido por uma processadora de cartão de crédito que valida que o endereço de cobrança fornecido pelo titular do cartão corresponde às informações no arquivo com o banco emissor.
+O serviço fornecido por um processador de cartão de crédito que valida se o endereço de cobrança fornecido pelo titular do cartão corresponde às informações armazenadas no banco emissor.
 
 ###### <a name="adjusted-unit-price"></a>**preço unitário ajustado**
 
@@ -94,7 +95,7 @@ Uma data recomendada para obter a qualidade ou característica ótima de um prod
 
 ###### <a name="best-before-period"></a>**período de validade**
 
-O período no qual obter a qualidade ou característica ótima de um produto.
+O período no qual obter a qualidade ou característica ideal de um produto.
 
 ###### <a name="bill-of-exchange"></a>**letra de câmbio**
 
@@ -110,11 +111,11 @@ A ação de colocar um documento ou um produto em espera.
 
 ###### <a name="budget-control"></a>**controle de orçamento**
 
-Uma prática de autorizar despesas somente quando os fundos de orçamento puderem ser reservados para atender os compromissos de pagamento futuros.
+Uma prática de autorizar despesas somente quando os fundos orçamentários puderem ser reservados para atender os compromissos de pagamento futuros.
 
-###### <a name="budget-control-dimension"></a>**dimensão de controle do orçamento**
+###### <a name="budget-control-dimension"></a>**dimensão de controle de orçamento**
 
-Uma combinação de valores de dimensões financeiras ativas usada para alocar fundos de orçamento para pagar atividades planejadas.
+Uma combinação de valores de dimensões financeiras ativas usada para alocar fundos orçamentários para pagar atividades planejadas.
 
 ###### <a name="budget-control-rule"></a>**regra de controle de orçamento**
 
@@ -126,33 +127,33 @@ Um período especificado como um número de períodos do calendário fiscal. O p
 
 ###### <a name="budget-group"></a>**grupo orçamentário**
 
-Um conjunto de valores de dimensões financeiras em uma hierarquia de dimensão de orçamento que é usada para calcular os fundos de orçamento agregados alocados a valores de dimensão financeira subordinadores, somando os fundos de orçamento alocados para os valores de dimensão financeira subordinados.
+Um conjunto de valores de dimensões financeiras em uma hierarquia de dimensões de orçamento que é usado para calcular os fundos de orçamento agregados alocados a valores de dimensão financeira subordinadores somando os fundos de orçamento alocados aos valores de dimensão financeira subordinados.
 
 ###### <a name="budget-model"></a>**modelo de orçamento**
 
-Uma estrutura de planejamento usada para planejar alocações e despesas de fundo de orçamento.
+Uma estrutura de planejamento usada para agendar alocações e despesas de fundo de orçamento.
 
-###### <a name="bulk-item"></a>**item em massa**
+###### <a name="bulk-item"></a>**item a granel**
 
 Uma entrada item de fórmula em uma atividade de entrega de produtos.
 
-###### <a name="bundle"></a>**grupo**
+###### <a name="bundle"></a>**pacote**
 
 A combinação de um número de produtos para venda como uma unidade.
 
 ###### <a name="business-unit"></a>**unidade de negócios**
 
-Uma unidade operacional semiautônoma criada para atender aos objetivos estratégicos de negócios.
+Uma unidade operacional semiautônoma é criada para atender aos objetivos estratégicos de negócios.
 
 ### <a name="c"></a>**C**
 
 ###### <a name="capacity-load"></a>**capacidade máxima**
 
-O valor máximo do trabalho planejado que um centro de trabalho pode realizar no nível de capacidade necessário.
+O valor máximo do trabalho agendado que um centro de trabalho pode realizar em um nível de capacidade necessário.
 
 ###### <a name="capacity-planning"></a>**planejamento de capacidade**
 
-Um procedimento para determinar os requisitos de capacidade do recurso que atendem à demanda de saída futura durante períodos específicos.
+Um procedimento para determinar os requisitos de capacidade do recurso que atendam à demanda de saída futura durante períodos específicos.
 
 ###### <a name="carry-forward-budget"></a>**orçamento mantido para uso futuro**
 
@@ -160,7 +161,7 @@ O orçamento transferido de um ano fiscal para o próximo e reservado para orden
 
 ###### <a name="cash-generating-unit"></a>**unidade geradora de caixa**
 
-O menor grupo de ativos classificáveis que gera pagamento à vista independentemente de outros ativos em uma organização. Esses grupos de ativos são usados para calcular as perdas do prejuízo que serão incorridas.
+O menor grupo de ativos classificáveis que gera pagamento à vista independentemente de outros ativos em uma organização. Esses grupos de ativos são usados para medir as perdas do prejuízo que serão incorridas.
 
 ###### <a name="catch-weight"></a>**peso variável**
 
@@ -172,7 +173,7 @@ Uma lista de contas principais.
 
 ###### <a name="cogs-cost-of-goods-sold"></a>**COGS (custo dos produtos vendidos)**
 
-Uma categoria contábil usada para somar as consequências financeiras de produtos de manufatura e de estoque de transporte.
+Uma categoria contábil usada para somar as consequências financeiras de produtos de manufatura e de manutenção de estoque.
 
 ###### <a name="commodity-pricing"></a>**definição de preços de mercadorias**
 
@@ -186,21 +187,21 @@ Um documento de origem que documenta mais de uma ordem referenciada.
 
 Uma função assumida por uma pessoa que participa de um relacionamento de prestador de serviço-empregador com uma entidade legal.
 
-###### <a name="co-product"></a>**co-produto**
+###### <a name="co-product"></a>**coproduto**
 
 Um item produzido em conjunto com outro item.
 
-###### <a name="cost-center"></a>**centro de custo**
+###### <a name="cost-center"></a>**centro de custos**
 
 Uma unidade operacional cujos gerentes são responsáveis pelas despesas orçadas e reais.
 
 ###### <a name="cost-of-goods-sold"></a>**custo dos produtos vendidos**
 
-Uma categoria contábil usada para somar as consequências financeiras de produtos de manufatura e de estoque de transporte.
+Uma categoria contábil usada para somar as consequências financeiras de produtos de manufatura e de manutenção de estoque.
 
 ###### <a name="cost-variance"></a>**variação de custo**
 
-A diferença entre um custo previsto e um real.
+A diferença entre um custo previsto e um custo real.
 
 ###### <a name="costing"></a>**avaliação de custo**
 
@@ -216,13 +217,13 @@ Um identificador alfanumérico que representa uma unidade monetária.
 
 ###### <a name="cycle-time"></a>**tempo de ciclo**
 
-O tempo levado para concluir uma atividade.
+O tempo decorrido para concluir uma atividade.
 
 ### <a name="d"></a>**D**
 
 ###### <a name="dashboard"></a>**painel**
 
-A página inicial típica do Microsoft Dynamics 365 for Operations. No painel, os usuários veem uma seção para cada espaço de trabalho aos quais têm acesso. Cada seção exibe os blocos das seções de resumo no espaço de trabalho relacionado. O painel consiste em um nome e nas seções com blocos.
+A página inicial típica do Dynamics 365 for Operations. No painel, os usuários veem uma seção para cada espaço de trabalho ao qual têm acesso. Cada seção exibe os blocos das seções de resumo no espaço de trabalho relacionado. O painel consiste em um nome e nas seções com blocos.
 
 ###### <a name="data-entity"></a>**entidade de dados**
 
@@ -254,7 +255,7 @@ Uma ferramenta do Visual Studio usada para criar, atualizar e inspecionar os ele
 
 ###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\dimensões financeiras\configuração baseada em dimensão**
 
-Uma tecnologia de configuração usada para criar variantes de produto selecionando valores de dimensões do produto.
+Uma tecnologia de configuração usada para criar grades de produto selecionando valores de dimensões do produto.
 
 ###### <a name="distinct-product"></a>**produto distinto**
 
@@ -270,7 +271,7 @@ Um serviço de aplicativo para armazenar e manusear os documentos de uma organiz
 
 ###### <a name="duty"></a>**direitos**
 
-Em o modelo de segurança, um conjunto de privilégios de acesso ao aplicativo que são necessários para que um usuário realize suas responsabilidades.
+No modelo de segurança, um conjunto de privilégios de acesso ao aplicativo que são necessários para que um usuário cumpra suas responsabilidades.
 
 ### <a name="e"></a>**E**
 
@@ -280,21 +281,21 @@ Um sistema conectado para transferir fundos de uma conta bancária para outra.
 
 ###### <a name="event"></a>**evento**
 
-Um evento deixa uma classe ou um objeto notificar outras classes ou objetos quando algo interessante ocorrer.
+Um evento deixa uma classe ou um objeto notificar outras classes ou objetos quando algo interessante ocorre.
 
 ###### <a name="epe-every-product-every"></a>**ciclo EPE (Every Product Every)**
 
 Um conceito lean usado para estabelecer um ciclo de produção normal de repetição.
 
-###### <a name="extension"></a>**extensão **
+###### <a name="extension"></a>**ramal**
 
 Personalização de um aplicativo ao adicionar funcionalidade ao código existente.
 
-### <a name="f"></a>**S**
+### <a name="f"></a>**F**
 
 ###### <a name="financial-dimension"></a>**dimensão financeira**
 
-Um classificador de dados financeiros criado a partir dos participantes, localizações, produtos e atividades de uma organização, e usado para relatórios de gerenciamento.
+Um classificador de dados financeiros criado a partir de participantes, localizações, produtos e atividades de uma organização e usado para relatórios de gerenciamento.
 
 ###### <a name="financial-dimension-value"></a>**valor de dimensão financeira**
 
@@ -314,7 +315,7 @@ Uma moeda que tem uma taxa de câmbio fixa em relação a outra moeda.
 
 ###### <a name="fixed-quantity-kanban"></a>**kanban de quantidade fixa**
 
-Um tipo de kanban usado quando o número de kanbans atribuídos a uma regra kanban for constante.
+Um tipo de kanban usado quando o número de kanbans atribuídos a uma regra kanban é constante.
 
 ###### <a name="flexible-authentication"></a>**autenticação flexível**
 
@@ -346,9 +347,9 @@ Um imposto sobre valor agregado arrecadado em alguns países/regiões.
 
 ###### <a name="intercompany"></a>**intercompanhia**
 
-Ocorrência entre ou relacionando duas ou mais entidades legais que fazem parte da mesma organização que consolida as contas de todas as entidades legais.
+Ocorrência entre ou relacionada a duas ou mais entidades legais que fazem parte da mesma organização e que consolida as contas de todas as entidades legais.
 
-###### <a name="invoice-matching"></a>**conciliação de faturas**
+###### <a name="invoice-matching"></a>**conciliação de fatura**
 
 Uma prática de corresponder preços e quantidades de produto da fatura de fornecedor às ordens de compra e aos recebimentos de produtos.
 
@@ -356,7 +357,7 @@ Uma prática de corresponder preços e quantidades de produto da fatura de forne
 
 Um agrupamento da família de produtos usado para agendamento de previsão e de demanda.
 
-###### <a name="item-relation"></a>**relação de itens**
+###### <a name="item-relation"></a>**relação de item**
 
 Uma referência ao grupo de alocação de itens ou ao item e suas dimensões de produto em uma regra kanban.
 
@@ -384,45 +385,45 @@ O número de requisitos de itens que são levados em um kanban com base em uma r
 
 ###### <a name="kanban-rule"></a>**regra kanban**
 
-Uma regra em um sistema de fabricação de lean manufacturing que cumpre as políticas de planejamento e de reabastecimento de materiais, controlando como as atividades de processo e de transferência são coordenadas nos fluxos de produção.
+Uma regra em um sistema de lean manufacturing que cumpre as políticas de planejamento e de reabastecimento de materiais, controlando como as atividades de processo e de transferência são coordenadas nos fluxos de produção.
 
-### <a name="l"></a>**P**
+### <a name="l"></a>**L**
 
 ###### <a name="lean-manufacturing"></a>**lean manufacturing**
 
-Uma filosofia na qual as operações de fabricação promove fluxos de produção de lean e atividades de negócios.
+Uma filosofia na qual as operações de fabricação promovem fluxos de produção e atividades de negócios lean.
 
-###### <a name="lean-schedule-group"></a>**grupo de agendamento de lean**
+###### <a name="lean-schedule-group"></a>**grupo de agendamento de lean manufacturing**
 
 Uma forma de agregar itens para produção, por exemplo, com base em um grupo de configuração, grupo de remessa ou grupo de transporte.
 
 ###### <a name="ledger-account"></a>**conta contábil**
 
-Um classificador criado a partir da combinação de valores da conta principal e outros valores de dimensão financeira listados em um plano de contas e usados para classificar as consequências financeiras da atividade econômica.
+Um classificador criado a partir da combinação do valor da conta principal e de outros valores da dimensão financeira listados em um plano de contas e usado para classificar as consequências financeiras da atividade econômica.
 
 ###### <a name="license-code"></a>**código de licença**
 
-Uma chave alfanumérica que concede ao participante o direito de usar o software ou componentes do software como prescrito em termos do contrato de licença, e que ativa ou desativa os módulos, os recursos e as funções do software.
+Uma chave alfanumérica que concede ao participante o direito de usar o software ou componentes do software como prescrito em termos do contrato de licença, e que ativa e desativa os módulos, os recursos e as funções do software.
 
 ###### <a name="liquidity"></a>**liquidez**
 
 A capacidade de um participante de usar os ativos atuais para liquidar passivos atuais.
 
-### <a name="m"></a>**S**
+### <a name="m"></a>**M**
 
 ###### <a name="manufacturing-overhead-based-on-material"></a>**custos indiretos de fabricação baseados em material**
 
-Os custos indiretos de fabricação são expressos como fórmulas de cálculo de custo indireto em uma porcentagem de sobretaxa. Um grupo de custo que é atribuído a componentes materiais age como a base para uma fórmula de cálculo. As fórmulas de cálculo podem ser definidas para produtos individuais ou grupos de itens atribuídos a produtos, a fim de oferecer maior flexibilidade no cálculo dos custos indiretos de fabricação baseados em material.
+Os custos indiretos de fabricação são expressos como fórmulas de cálculo de custo indireto em uma porcentagem de sobretaxa. Um grupo de custos que é atribuído a componentes materiais age como a base para uma fórmula de cálculo. As fórmulas de cálculo podem ser definidas para produtos individuais ou para grupos de itens atribuídos a produtos, visando oferecer maior flexibilidade ao calcular custos indiretos de fabricação com base no material.
 
-###### <a name="master-scheduling"></a>**planejamento mestre**
+###### <a name="master-scheduling"></a>**agendamento do planejamento mestre**
 
-O processo para gerar um calendário para conciliar a oferta com demanda.
+O processo para gerar uma tabela de horários para conciliar a oferta com a demanda.
 
 ###### <a name="model"></a>**modelo**
 
-Um módulo contém elementos de código e metadados de referência. Ele é criado e inspecionado no Visual Studio.
+Um modelo contém elementos de código e metadados de referência. Ele é criado e inspecionado no Visual Studio.
 
-###### <a name="model-element"></a>**elemento de modelo**
+###### <a name="model-element"></a>**elemento do modelo**
 
 Um modelo é um grupo de elementos (arquivos de origem e metadados) que constitui uma solução de software distribuível. O modelo é um conceito de tempo de design.
 
@@ -430,7 +431,7 @@ Um modelo é um grupo de elementos (arquivos de origem e metadados) que constitu
 
 ###### <a name="nbv-net-book-value"></a>**NBV (valor líquido contábil)**
 
-O valor de um ativo fixo calculado como a diferença entre o custo original do ativo fixo, menos suas depreciações acumuladas.
+O valor de um ativo fixo calculado como a diferença entre o custo original do ativo fixo menos suas depreciações acumuladas.
 
 ### <a name="o"></a>**O**
 
@@ -440,9 +441,9 @@ Uma permissão para criar, ler, atualizar, excluir ou executar operação em um 
 
 ###### <a name="operating-unit"></a>**unidade operacional**
 
-Uma organização que divide o controle de recursos econômicos e processos operacionais entre pessoas com a obrigação de maximizar o uso de recursos escassos, de melhorar os processos e de explicar seu desempenho.
+Uma organização que divide o controle de recursos econômicos e processos operacionais entre pessoas com a obrigação de maximizar o uso de recursos escassos, melhorar os processos e explicar seu desempenho.
 
-###### <a name="output-product"></a>**produtos de saída**
+###### <a name="output-product"></a>**produto de saída**
 
 Os produtos físicos que resultam de uma atividade.
 
@@ -454,7 +455,7 @@ Um método de personalização do código-fonte por meio do fornecimento de um n
 
 ###### <a name="package"></a>**pacote**
 
-Um pacote é uma unidade compilável e implantável de um ou mais modelos.
+Um pacote é uma unidade compatível e implantável de um ou mais modelos.
 
 ###### <a name="party"></a>**participante**
 
@@ -474,15 +475,15 @@ Um evento de fluxo de recursos que sinaliza a demanda de um produto.
 
 ###### <a name="phantom-item"></a>**item fantasma**
 
-Um item que é produzido, mas não armazenado.
+Um item que é produzido, mas não estocado.
 
 ###### <a name="planned-intercompany-demand"></a>**planejamento de demanda intercompanhia**
 
-Demanda prevista de um produto por uma entidade legal que assume a função de um fornecedor. A demanda planejada é gerada pela demanda planejada do produto de uma entidade legal de downstream.
+Demanda prevista de um produto por uma entidade legal que assume a função de um fornecedor. O planejamento da demanda é gerado pelo planejamento da demanda do produto de uma entidade legal de downstream.
 
 ###### <a name="post"></a>**lançar**
 
-Registrar o valor monetário de um evento econômico em uma conta específica, ou resumir e reclassificar entradas de conta de diários gerais e de subsidiárias em entradas da conta contábil geral e de subsidiária.
+Registrar o valor monetário de um evento econômico em uma conta específica, ou resumir e reclassificar entradas de contas de diários gerais e de subsidiárias em entradas de contas contábeis gerais e de subsidiárias.
 
 ###### <a name="preparer"></a>**preparador**
 
@@ -494,9 +495,9 @@ Uma ou mais permissões que um usuário precisa para executar uma tarefa.
 
 ###### <a name="procurement-catalog"></a>**catálogo de compras**
 
-Uma listagem das ofertas de produtos que são agrupadas por categoria de compras. Um catálogo de compras é usado para solicitar produtos para uso interno por uma organização.
+Uma listagem de ofertas de produtos que são agrupadas por categoria de compras. Um catálogo de compras é usado para solicitar produtos para uso interno por uma organização.
 
-###### <a name="product-component"></a>**componente do produto**
+###### <a name="product-component"></a>**componente de produto**
 
 Uma parte de um produto.
 
@@ -506,23 +507,23 @@ Os atributos de tamanho, cor ou configuração do produto que são usados para .
 
 ###### <a name="product-family"></a>**família de produtos**
 
-Um agrupamento exclusivo de itens, serviços ou direitos que participam das mesmas atividades de produção ou de entrega ou que são oferecidos aos mesmos segmentos de mercado. No Microsoft Dynamics 365 for Operations, o agrupamento é representado usando uma chave de alocação de previsões.
+Um agrupamento exclusivo de itens, serviços ou direitos que participam das mesmas atividades de produção ou de entrega, ou que são oferecidos aos mesmos segmentos de mercado. No Dynamics 365 for Operations, o agrupamento é representado usando uma chave de alocação de previsões.
 
 ###### <a name="product-master"></a>**produto mestre**
 
-Uma representação padrão ou funcional do produto que é a base para configurar variantes de produto.
+Uma representação padrão ou funcional do produto que é a base para configurar grades de produto.
 
 ###### <a name="product-receipt"></a>**recebimento de produtos**
 
 Um documento de origem que documenta o recebimento de produtos encomendados, de produtos devolvidos ou de produtos recebidos em consignação.
 
-###### <a name="product-variant"></a>**variante de produto**
+###### <a name="product-variant"></a>**grade de produto**
 
 Uma configuração de um produto mestre.
 
 ###### <a name="production-flow"></a>**fluxo de produção**
 
-Um processo de produção criado usando os princípios Lean.
+Um processo de produção criado com base nos princípios de Lean manufacturing.
 
 ###### <a name="production-flow-model"></a>**modelo de fluxo de produção**
 
@@ -554,7 +555,7 @@ Um documento de origem que documenta uma oferta para comprar uma quantidade de p
 
 ###### <a name="purchase-requisition"></a>**requisição de compra**
 
-Um documento de origem que documenta solicitações de produtos de modo que elas possam ser enviadas para revisão e ser usadas para autorizar a compra por uma organização compradora.
+Um documento de origem que documenta solicitações de produtos de modo que elas possam ser enviadas para revisão e usadas para autorizar a compra por uma organização compradora.
 
 ### <a name="q"></a>**Q**
 
@@ -562,7 +563,7 @@ Um documento de origem que documenta solicitações de produtos de modo que elas
 
 A diferença entre a quantidade encomendada de um produto e a quantidade recebida do produto quando não são esperados outros recebimentos.
 
-### <a name="r"></a>**AT**
+### <a name="r"></a>**R**
 
 ###### <a name="receipt-advice"></a>**aviso de recebimento**
 
@@ -600,7 +601,7 @@ Um produto cuja distribuição é limitada ou restrita por um órgão governamen
 
 ###### <a name="sales-agreement"></a>**contrato de venda**
 
-Um documento de origem que documenta um contrato entre dois ou mais participantes com base em um entendimento de que o participante vendedor se compromete a vender uma quantidade ou valor específicos do produto em um período, em troca de preços e descontos favoráveis.
+Um documento de origem que documenta um contrato entre dois ou mais participantes com base em um entendimento de que o participante vendedor se compromete a vender uma quantidade ou valor específico do produto em um período, em troca de preços e descontos favoráveis.
 
 ###### <a name="sales-agreement-policy"></a>**política de contrato de venda**
 
@@ -616,35 +617,35 @@ Um documento de origem que documenta uma oferta para fornecer uma quantidade de 
 
 ###### <a name="security-role"></a>**função de segurança**
 
-Um conjunto definido de privilégios de acesso ao aplicativo. A função de segurança atribuída a um usuário determina quais tarefas o usuário pode executar e as partes da interface do usuário o usuário pode exibir. Todos os usuários devem ser atribuídos pelo menos uma função de segurança para acessar o sistema.
+Um conjunto definido de privilégios de acesso ao aplicativo. A função de segurança atribuída a um usuário determina quais tarefas o usuário pode executar e as partes da interface de usuário que o usuário pode exibir. Todos os usuários devem receber pelo menos uma função de segurança para acessar o sistema.
 
 ###### <a name="segregation-of-duties"></a>**diferenciação de direitos**
 
-O princípio de design usado para reduzir o risco de fraude, irregularidades e erros que separa o registro, verificação, autorização, custódia de ativos e direitos de revisão periódicas das pessoas que participam, documentam ou registram as consequências financeiras das transações econômicas.
+O princípio de design usado para reduzir o risco de fraude, irregularidades e erros que separa o registro, verificação, autorização, custódia de ativos e direitos de revisão periódica das pessoas que participam, documentam ou registram as consequências financeiras das transações econômicas.
 
-###### <a name="sequencing"></a>**seqüenciamento**
+###### <a name="sequencing"></a>**sequenciamento**
 
 A ordem em que os trabalhos são processados ou as operações são realizadas em uma instalação de manufatura para alcançar os objetivos.
 
 ###### <a name="shared-asset"></a>**ativo compartilhado**
 
-Um ativo usado por mais de uma unidade geradora de caixa (CGU). Um exemplo é um centro de distribuição que seja usado para armazenar itens antes de serem transportados para mercados diferentes que compartilham o mesmo centro de distribuição.
+Um ativo usado por mais de uma unidade geradora de caixa (CGU). Um exemplo é um centro de distribuição que seja usado para armazenar itens antes de serem transportados para mercados diferentes que compartilhem o mesmo centro de distribuição.
 
 ###### <a name="single-use-kanban"></a>**kanban de uso único**
 
-Um tipo de kanban que é usado com uma regra kanban de quantidade fixa para atender a uma demanda excepcionalmente alta. Um kanban de uso único não aciona um novo kanban quando é rejeitado.
+Um tipo de kanban que é usado com uma regra kanban de quantidade fixa para atender a uma demanda excepcionalmente alta. Um kanban de uso único não aciona um novo kanban quando é descartado.
 
 ###### <a name="smart-rounding"></a>**arredondamento inteligente**
 
-Uma prática de marketing de usar os números ímpares que são marginalmente menores que o número arredondado mais próximo para definir preços.
+Uma prática de marketing para usar números ímpares que são marginalmente menores do que o número arredondado mais próximo para definir preços.
 
-###### <a name="source-requirement"></a>**requisição da origem**
+###### <a name="source-requirement"></a>**requisição de origem**
 
 A quantidade de produto documentada em uma linha do documento de origem que cria uma requisição de vinculação.
 
 ###### <a name="statistical-baseline-forecast"></a>**previsão estatística**
 
-Uma estimativa de demanda futura que é criada aplicando-se um algoritmo de previsão nos dados históricos de transação.
+Uma estimativa de demanda futura que é criada aplicando-se um algoritmo de previsão a dados históricos de transação.
 
 ###### <a name="supermarket"></a>**supermercado**
 
@@ -654,19 +655,19 @@ Uma localização de estoque just-in-time com capacidade finita e que é usada p
 
 Uma dimensão financeira mapeada para uma tabela ou uma exibição no banco de dados que representa um tipo de entidade, e cujos valores estão no domínio de um atributo desse tipo de entidade.
 
-### <a name="t"></a>**Q**
+### <a name="t"></a>**T**
 
 ###### <a name="takt-time"></a>**takt time**
 
 O tempo necessário para produzir uma unidade de um produto.
 
-###### <a name="task-guide"></a>**Guias de tarefas**
+###### <a name="task-guide"></a>**Guia de tarefas**
 
-Uma experiência guiada e controlada pelas etapas de gravação de uma tarefa. O Guia de tarefas conduz o usuário pela experiência registrada. Todos os comportamentos de segurança, dados e solicitação de emprego são iguais, independentemente do uso de um Guia de tarefas. O Guia de tarefas usa a mesma instrumentação que o Gravador de tarefas para saber quando um usuário concluiu a etapa pretendida, para que o usuário possa executar a próxima etapa no processo de gravação.
+Uma experiência guiada e controlada pelas etapas da gravação de tarefas. O Guia de tarefas conduz o usuário pela experiência registrada. Todos os comportamentos de segurança, dados e solicitação de emprego são iguais com ou sem o uso de um Guia de tarefas. O Guia de tarefas usa a mesma instrumentação que o Gravador de tarefas para saber quando um usuário concluiu a etapa pretendida, para que o usuário possa executar a próxima etapa no processo de gravação.
 
-###### <a name="task-recorder"></a>**Gravador de Tarefas**
+###### <a name="task-recorder"></a>**Gravador de tarefas**
 
-Uma ferramenta pré-instalada no Microsoft Dynamics 365 for Operations. Durante a gravação, ela grava todos os eventos que o usuário insere na interface do usuário do Dynamics 365 for Operations executada no servidor, incluindo valores adicionados, configurações alteradas, dados removidos etc.
+Uma ferramenta pré-instalada no Dynamics 365 for Operations. Durante a gravação, ela grava todos os eventos que o usuário insere na interface do usuário do Dynamics 365 for Operations e que são executados no servidor, incluindo valores adicionados, configurações alteradas, dados removidos etc.
 
 ###### <a name="task-recording"></a>**Gravação de tarefas**
 
@@ -682,7 +683,7 @@ A quantidade de um ou mais itens que são transferidos ou que podem ser transfer
 
 ###### <a name="two-way-matching-policy"></a>**política de conciliação dupla**
 
-Uma política de conciliação que requer que um ou mais preços de fatura de fornecedor correspondam a um ou mais os preços da ordem de compra.
+Uma política de conciliação que requer que um ou mais preços de fatura de fornecedor correspondam a um ou mais preços da ordem de compra.
 
 ### <a name="u"></a>**U**
 
@@ -696,9 +697,9 @@ Uma dimensão financeira mapeada para uma lista de valores definida pelo usuári
 
 Uma unidade operacional que controla um ou mais fluxos de produção.
 
-###### <a name="variant-configuration-technology"></a>**tecnologia de configuração de variante**
+###### <a name="variant-configuration-technology"></a>**tecnologia de configuração de grade**
 
-Um método de modelar produtos mestre e de procurar configurações da variante de produto.
+Um método de modelar produtos mestres e de procurar configurações da grade de produto.
 
 ###### <a name="vat-value-added-tax"></a>**IVA (imposto sobre valor agregado)**
 
@@ -712,7 +713,7 @@ Uma listagem das ofertas de produto disponíveis para comprar de um fornecedor.
 
 Um documento de origem que documenta uma solicitação de pagamento de fornecedor. Uma fatura de fornecedor pode fazer referência a uma ou mais ordens de compra. Quando a fatura do fornecedor é autorizada, um pagamento pode ser feito ao fornecedor.
 
-### <a name="w"></a>**Q**
+### <a name="w"></a>**W**
 
 ###### <a name="work-cell"></a>**célula de trabalho**
 
@@ -724,7 +725,7 @@ Uma pessoa que assume a função de um funcionário ou de um prestador de servi�
 
 ###### <a name="workspace"></a>**espaço de trabalho**
 
-Uma página que fornece uma visão geral de uma das atividades executada pelo usuário. A página usa blocos, listas e gráficos para exibir o trabalho pendente e os dados relacionados de várias fontes, além de exibir as tarefas frequentes relacionadas a esses dados. Os blocos mostrados na seção de resumo do espaço de trabalho também são exibidos na seção relacionada no painel.
+Uma página que fornece uma visão geral de uma das atividades executadas pelo usuário. A página usa blocos, listas e gráficos para exibir o trabalho pendente e os dados relacionados de várias fontes, além de tarefas frequentes relativas a esses dados. Os blocos mostrados na seção de resumo do espaço de trabalho também são exibidos na seção relacionada no painel.
 
 
 
