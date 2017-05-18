@@ -1,6 +1,6 @@
 ---
 title: Novos guias de tarefas (fevereiro de 2016)
-description: "Este wiki lista os Guias de tarefa que foram lançados nas bibliotecas do Microsoft BPM a partir de fevereiro de 2016.  As bibliotecas que foram publicadas incluem a (fevereiro de 2016) Biblioteca Unificada APQC para Microsoft Dynamics 365 for Operations e (fevereiro de 2016) Introdução."
+description: "Este tópico lista os Guias de tarefa que foram lançados nas bibliotecas do Microsoft BPM a partir de fevereiro de 2016.  As bibliotecas que foram publicadas incluem a (fevereiro de 2016) Biblioteca Unificada APQC para Microsoft Dynamics 365 for Operations e (fevereiro de 2016) Introdução."
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -16,17 +16,21 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 6462951cba3c289368887a037d4b71187f4523df
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d9e6620c1f4c808646e6f5c3b9f5b607c64c51df
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="new-task-guides-february-2016"></a>Novos guias de tarefas (fevereiro de 2016)
 
-Este wiki lista os Guias de tarefa que foram lançados nas bibliotecas do Microsoft BPM a partir de fevereiro de 2016.  As bibliotecas que foram publicadas incluem a (fevereiro de 2016) Biblioteca Unificada APQC para Microsoft Dynamics 365 for Operations e (fevereiro de 2016) Introdução.
+[!include[banner](../includes/banner.md)]
+
+
+Este tópico lista os Guias de tarefa que foram lançados nas bibliotecas do Microsoft BPM a partir de fevereiro de 2016.  As bibliotecas que foram publicadas incluem a (fevereiro de 2016) Biblioteca Unificada APQC para Microsoft Dynamics 365 for Operations e (fevereiro de 2016) Introdução.
 
 <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Guias de tarefas na (fevereiro de 2016) Biblioteca Unificada APQC para Microsoft Dynamics 365 for Operations
 ---------------------------------------------------------------------------------
@@ -723,5 +727,7 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os Guias de tarefas que 
 [Guias de tarefas novos ou atualizados (agosto de 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Guias de tarefas novos ou atualizados (novembro de 2016)](new-task-guides-november-2016.md)
+
+
 
 

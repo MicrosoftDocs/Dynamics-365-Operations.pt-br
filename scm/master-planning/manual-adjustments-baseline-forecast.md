@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 24caafcd01875f04cf3ae5299aadcf9b38ac0e15
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 38725d4d873a3b39eb3916c3f616826f8a266b60
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ A página **Previsão de demanda ajustada** inclui uma grade com a seguinte estr
 ## <a name="forecast-aggregation-and-deaggregation"></a>Agregação e desagregação de previsão
 O subtítulo da página mostra o nível da agregação de previsão. 
 
-Por exemplo, se o subtítulo da página for **Empresa/Site/Chave de alocação/Número do item/Cor/Tamanho/Configuração/Estilo**, não haverá agregação de previsão, e a previsão aparecerá no nível do item e em suas dimensões. Para alterar a agregação, use a página** Alterar as dimensões de previsão**, que pode ser aberta no menu do aplicativo. 
+Por exemplo, se o subtítulo da página for **Empresa/Site/Chave de alocação/Número do item/Cor/Tamanho/Configuração/Estilo**, não haverá agregação de previsão, e a previsão aparecerá no nível do item e em suas dimensões. Para alterar a agregação, use a página**Alterar as dimensões de previsão**, que pode ser aberta no menu do aplicativo. 
 
 Para modificar a previsão, clique em qualquer uma das células disponíveis e digite o valor de previsão ajustado. A célula editada fica imediatamente em negrito para indicar que a previsão mostrada não é a previsão que o serviço de previsão de demanda criou, mas foi ajustada manualmente. 
 
@@ -58,7 +59,7 @@ Quando o ajuste da quantidade prevista é feito em um nível agregado, o sistema
 Você também pode fazer ajustes manuais na página **Linhas de previsão de demanda**, modificando o valor **Quantidade total** ou as células **Quantidade** na grade de desagregação.
 
 ## <a name="viewing-details-of-the-forecast"></a>Exibindo os detalhes da previsão
-Você pode abrir a página** Detalhes de previsão de demanda** para exibir mais informações sobre a previsão. 
+Você pode abrir a página**Detalhes de previsão de demanda** para exibir mais informações sobre a previsão. 
 
 A página **Detalhes de previsão de demanda** mostra as seguintes informações em gráficos e tabelas:
 

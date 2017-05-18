@@ -1,9 +1,9 @@
 ---
-title: "Exemplos - diários gerados durante o processo de devolução de pagamento eletrônico para o Brasil"
+title: "Diários gerados durante o processo de devolução de pagamento eletrônico do Brasil"
 description: "Esse tópico mostra como os diários de pagamentos são gerados quando você importa e lança o arquivo de retorno para pagamentos eletrônicos. As linhas de pagamento aprovadas no arquivo de retorno podem ser lançadas em um diário ou em vários diários."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 2017-02-03 16 - 41 - 43
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: a8ec7a2bdb0efe79cab21c2493ef9397bdb6a2b8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e20712abae4fd0d7076fb68f95cadf1675c77761
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="examples----journals-generated-during-the-electronic-payment-return-process-for-brazil"></a>Exemplos - diários gerados durante o processo de devolução de pagamento eletrônico para o Brasil
+# <a name="journals-generated-during-the-electronic-payment-return-process-for-brazil"></a>Diários gerados durante o processo de devolução de pagamento eletrônico do Brasil
+
+[!include[banner](../includes/banner.md)]
+
 
 Esse tópico mostra como os diários de pagamentos são gerados quando você importa e lança o arquivo de retorno para pagamentos eletrônicos. As linhas de pagamento aprovadas no arquivo de retorno podem ser lançadas em um diário ou em vários diários.
 
@@ -67,6 +71,8 @@ Ao lançar as linhas de pagamento aprovadas, as três linhas de pagamento são l
 | 002            | 1            | 5 de janeiro, 2013  | Aprovada | 1.000  |
 | 003            | 1            | 1 de janeiro, 2013  | Aprovada | 3.000  |
 | 004            | 1            | 3 de janeiro, 2013  | Aprovada | 4.000  |
+
+
 
 
 

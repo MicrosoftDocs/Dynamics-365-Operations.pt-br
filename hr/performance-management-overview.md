@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 81b5c9056001b26c33b2b42a95711ff5b50243e6
-ms.openlocfilehash: 4bd934091c80ab9a4d244499d2bce2c4646c3e99
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 769680aff8c018bc042ffce98ee50a9760a65fcf
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -126,7 +127,7 @@ Você pode anexar um documento à uma revisão na seção **Anexos** da página 
 Você pode usar o fluxo de trabalho de revisão do trabalhador para controlar a aprovação de uma revisão. Você também pode optar por ignorar o fluxo de trabalho automatizado e alterar manualmente o status da revisão, que permite criar documentos mais simples, como uma revisão individual, sem precisar usar o processo de fluxo de trabalho. O acesso a uma revisão é controlado pelo status dela.
 
 1.  Quando a revisão é criada, ela é definida como **Não iniciada**. A revisão é editável por qualquer pessoa.
-2.  Assim que o funcionário pressionar o botão **Iniciar revisão**, a revisão será definida como** Em andamento**. O funcionário então começa a adicionar conteúdo. A partir daí, o gerente não poderá mais exibir o documento de revisão.
+2.  Assim que o funcionário pressionar o botão **Iniciar revisão**, a revisão será definida como**Em andamento**. O funcionário então começa a adicionar conteúdo. A partir daí, o gerente não poderá mais exibir o documento de revisão.
 3.  O funcionário altera o status para **Pronto para Revisão**.
 4.  O gerente pode adicionar comentários e classificações. Neste momento, somente o gerente poderá ver a revisão.
 5.  O gerente altera o status para **Revisão Final**, para que o gerente e o funcionário possam ver a revisão e conversar sobre ela. Você pode especificar nos parâmetros se a revisão pode ou não ser editada a partir desse ponto. Esta etapa também é opcional se o gerente deseja apenas compartilhar a revisão com funcionário e marcá-la como **Concluída** quando terminarem.

@@ -1,9 +1,9 @@
 ---
 title: "Relatório financeiro para o Dynamics 365 for Operations"
 description: "Os relatórios financeiros para o Microsoft Dynamics 365 for Operations permitem que profissionais de finanças e negócios criem, mantenham, implementem e visualizem demonstrativos financeiros. Ela vai além do tradicionais restrições de emissão de relatórios para ajudá-lo a projetar com eficiência vários tipos de relatórios."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 31 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 519b3d3fb53b20d0014c97bcb1b9b21802a376d6
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fee79dad870bfbf8852198c7e825cfaa95a8d10b
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="financial-reporting-for-dynamics-365-for-operations"></a>Relatório financeiro para o Dynamics 365 for Operations
+
+[!include[banner](../includes/banner.md)]
+
 
 Os relatórios financeiros para o Microsoft Dynamics 365 for Operations permitem que profissionais de finanças e negócios criem, mantenham, implementem e visualizem demonstrativos financeiros. Ela vai além do tradicionais restrições de emissão de relatórios para ajudá-lo a projetar com eficiência vários tipos de relatórios.
 
@@ -36,15 +40,14 @@ Os componentes a seguir do relatório financeiro facilitam a criação, exibiç�
 | Componente        | Funções                                                                                                                                                                                                                                                                           | Informações adicionais                                                                          |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
 | Designer de Relatórios  | A criação dos blocos de construção do relatório que podem ser combinados para definir e gerar um relatório. O assistente de relatório orienta usuários menos experientes no processo de design. Os usuários avançados podem criar novos blocos de construção de relatório ou mudar blocos de construção existentes para atender aos seus requisitos. |                                                                                                 |
-| Visualizador Web       | Exibir relatórios financeiros em um navegador da Web. O Visualizador da Web não exige que os componentes do servidor de relatório financeiro estejam instalados.                                                                                                                                                        | [Visualizador Web](financial-reporter-designer-web-client.md)            |
-| Agendas de relatórios | Agende um relatório único ou um grupo de relatórios para que ele seja gerado em uma base regular.                                                                                                                                                                                          | [Gerar um relatório](/dynamics365/operations/financials/general-ledger/generate-financial-report) |
+| Agendas de relatórios | Agende um relatório único ou um grupo de relatórios para que ele seja gerado em uma base regular.                                                                                                                                                                                          | [Gerar um relatório financeiro](generate-financial-report.md) |
 
 ## <a name="features"></a>Recursos
 <table>
 <thead>
 <tr class="header">
 <th>Recurso</th>
-<th>Descrição</th>
+<th>descrição</th>
 </tr>
 </thead>
 <tbody>
@@ -78,13 +81,15 @@ Os componentes a seguir do relatório financeiro facilitam a criação, exibiç�
 <li>Adicione filtros de dimensão para limitar o conteúdo do relatório para uma dimensão específica ou uma combinação de dimensões.</li>
 <li>Adicione filtros de atributo para limitar o conteúdo do relatório para um atributo específico ou uma combinação de atributos.</li>
 </ul>
-Para obter mais informações, consulte a seção “Componentes interativos e recursos de navegação” em <a href="https://technet.microsoft.com/en-us/library/dn469079.aspx">Interface do visualizador da área de trabalho</a>.</td>
+</td>
 </tr>
 </tbody>
 </table>
 
 #<a name="see-also"></a>Consulte também
+[Gerar um relatório financeiro](generate-financial-report.md)
 
-[Gerar um relatório financeiro] ((dynamics365\operations\financials\general-ledger\generate-financial-report)
+
+
 
 

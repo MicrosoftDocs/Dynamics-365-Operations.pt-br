@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9f4d7fdd8cfa7a540fce219f6ae4792e57dfbe44
-ms.openlocfilehash: f849b98cac88d182875aca88aaf04cd3575ed99f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5ee2d132f0b23ceec2a79ee6b0ee33862d6a0518
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ Alguns exemplos de limitações incluem o seguinte:
 
 Para criar uma dimensão financeira definida pelo usuário, no campo Usar valores de, selecione &lt; Dimensão personalizada &gt;. Você também pode especificar uma máscara de conta para limitar o valor e o tipo de informação que é possível inserir para valores de dimensão. Você pode inserir os caracteres que permanecem iguais para cada valor de dimensão, como letras ou um hífen. Você também pode inserir sinais numéricos (\#) e o E comercial (&) como espaços reservados para as letras e números que mudarão sempre que um valor de dimensão for criado. Use um sinal numérico (\#) como um espaço reservado para um número e um e comercial (&) como um espaço reservado para uma letra. 
 
-**Exemplo ** 
+**Exemplo** 
 
 Para limitar o valor de dimensão às letras CC e a três números, insira CC-\#\#\# como a máscara de formato. Esse campo só está disponível quando você seleciona &lt; Dimensão personalizada &gt; no campo Usar valores de. 
 

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 96d0ae3be15c792b04eae901577b160d1532801c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e0648d7f89b3e3a1f8fee6501ceb7443be16aa1a
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -59,7 +60,7 @@ A tabela a seguir mostra como a depreciação é calculada para cada intervalo.
 | 2                | (11.000 – 1.000) × 50% = 5.000                | 5.000 (10.000 – 5.000)                    |
 | 3                | (11.000 – 1.000) × 8% = 800                   | 4.200 (5.000 – 800)                       |
 
-Se você selecionar **Mensal** no campo** Frequência do período**, configurará 12 intervalos manuais de planejamento. A tabela a seguir mostra os valores de depreciação para os dois primeiros intervalos.
+Se você selecionar **Mensal** no campo**Frequência do período**, configurará 12 intervalos manuais de planejamento. A tabela a seguir mostra os valores de depreciação para os dois primeiros intervalos.
 
 | Intervalo | Valor de depreciação            |
 |----------|--------------------------------|

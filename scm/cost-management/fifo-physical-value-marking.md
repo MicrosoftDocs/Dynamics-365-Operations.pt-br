@@ -3,7 +3,7 @@ title: "PEPS com marcação e valor físico"
 description: "Primeiro a entrar, Primeiro a sair (PEPS) é um modelo de estoque em que os primeiros recebimentos obtidos são emitidos primeiro. As saídas atualizadas financeiramente do estoque são liquidadas contra os primeiros recebimentos atualizados financeiramente no estoque, com base na data financeira da transação de estoque."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 18 - 57 - 00
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8e3d189fc4dbc5c747a3473d3a221c739c323050
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b0be852bde33e8dfc82ceb42dd98be10537f318d
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="fifo-with-physical-value-and-marking"></a>PEPS com marcação e valor físico
+
+[!include[banner](../includes/banner.md)]
+
 
 Primeiro a entrar, Primeiro a sair (PEPS) é um modelo de estoque em que os primeiros recebimentos obtidos são emitidos primeiro. As saídas atualizadas financeiramente do estoque são liquidadas contra os primeiros recebimentos atualizados financeiramente no estoque, com base na data financeira da transação de estoque. 
 
@@ -50,7 +54,9 @@ Neste exemplo, o grupo de modelo de item não está marcado para incluir o valor
 -   5b. Saída financeira de estoque para uma quantidade de 1 a um preço de custo de BRL 20,00 cada (média ponderada de transações atualizadas financeiramente).
 -   6. O fechamento de estoque é executado. Com base no método PEPS, a primeira saída atualizada financeiramente será liquidada no primeiro recebimento atualizado financeiramente. Um ajuste de BRL –10,00 será feito na transação de saída.
 
-O novo preço de custo médio reflete a média de transações atualizadas financeiramente. As ilustrações a seguir mostram os efeitos do modelo de estoque PEPS nesta série de transações quando a opção **Incluir valor físico** não é usada. ![PEPS sem Incluir Valor Físico](./media/fifowithoutincludephysicalvalue.gif) **Chave para o diagrama**
+O novo preço de custo médio reflete a média de transações atualizadas financeiramente. As ilustrações a seguir mostram os efeitos do modelo de estoque PEPS nesta série de transações quando a opção **Incluir valor físico** não é usada. ![PEPS sem Incluir Valor Físico](./media/fifowithoutincludephysicalvalue.gif) 
+
+**Chave para o diagrama**
 
 -   As transações de estoque são representadas por setas verticais.
 -   Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
@@ -78,7 +84,9 @@ Se a caixa de seleção **Incluir valor físico** for marcada para um item na p�
 -   6a. Saída física de estoque para uma quantidade de 1 ao preço de custo de BRL 21,25 cada.
 -   7. O fechamento de estoque é executado. Com base no método de PEPS, a primeira transação de saída financeira será ajustada ou liquidada no primeiro recebimento atualizado, seja este financeiro ou físico.
 
-A transação 5b será liquidada na transação de recebimento 1b. Haverá um ajuste de BRL –11,25 para essa transação de saída. O novo preço de custo médio reflete a média das transações atualizadas financeira e fisicamente, em BRL 27,50. A ilustração a seguir mostra os efeitos do modelo de estoque PEPS nesta série de transações quando a opção **Incluir valor físico** é usada. ![PEPS com Incluir Valor Físico](./media/fifowithincludephysicalvalue.gif) **Chave para o diagrama**
+A transação 5b será liquidada na transação de recebimento 1b. Haverá um ajuste de BRL –11,25 para essa transação de saída. O novo preço de custo médio reflete a média das transações atualizadas financeira e fisicamente, em BRL 27,50. A ilustração a seguir mostra os efeitos do modelo de estoque PEPS nesta série de transações quando a opção **Incluir valor físico** é usada. ![PEPS com Incluir Valor Físico](./media/fifowithincludephysicalvalue.gif) 
+
+**Chave para o diagrama**
 
 -   As transações de estoque são representadas por setas verticais.
 -   Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
@@ -106,7 +114,9 @@ A marcação é um processo que permite vincular ou marcar uma transação de sa
 -   6a. Saída física de estoque para uma quantidade de 1 ao preço de custo de BRL 21,25 cada.
 -   7. O fechamento de estoque é executado. Como as transações PEPS atualizadas financeiramente são marcadas para um recebimento existente, essas transações são liquidadas uma para a outra e nenhum ajuste é feito.
 
-O novo preço de custo médio reflete a média das transações atualizadas financeira e fisicamente, em BRL 27,50. A ilustração a seguir mostra os efeitos do modelo de estoque PEPS nesta série de transações quando a marcação entre saídas e recebimentos é usada. ![PEPS com Marcação](./media/fifowithmarking.gif) **Chave para o diagrama**
+O novo preço de custo médio reflete a média das transações atualizadas financeira e fisicamente, em BRL 27,50. A ilustração a seguir mostra os efeitos do modelo de estoque PEPS nesta série de transações quando a marcação entre saídas e recebimentos é usada. ![PEPS com Marcação](./media/fifowithmarking.gif) 
+
+**Chave para o diagrama**
 
 -   As transações de estoque são representadas por setas verticais.
 -   Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
@@ -118,6 +128,8 @@ O novo preço de custo médio reflete a média das transações atualizadas fina
 -   Cada seta vertical é rotulada com um identificador sequencial, como *1a*. Os identificadores indicam a ordem de lançamentos de transação de estoque na linha do tempo.
 -   Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta *Fechamento de Estoque*.
 -   As liquidações executadas pelo fechamento de estoque são representadas por linhas tracejadas diagonais de um recebimento para uma saída.
+
+
 
 
 

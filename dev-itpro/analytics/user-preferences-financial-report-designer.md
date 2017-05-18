@@ -1,16 +1,16 @@
 ---
 title: "Preferências do usuário no designer de relatório financeiro"
 description: "Este artigo explica como definir as preferências do usuário para personalizar as interações do usuário no designer de relatório financeiro e controlar a experiência de logon inicial. Você também pode controlar como relatórios individuais, biblioteca de relatórios e os locais de arquivo padrão são exibidos."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-02-04 19 - 44 - 33
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 31161
 ms.assetid: 59da4854-0f8c-4021-acd1-b303c06f4a34
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 371c095e925ba833216263eed6595e749acc6ab7
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1e7f0665feb24d56fc931052a46f88e7b872aaf1
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="user-preferences-in-financial-report-designer"></a>Preferências do usuário no designer de relatório financeiro
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo explica como definir as preferências do usuário para personalizar as interações do usuário no designer de relatório financeiro e controlar a experiência de logon inicial. Você também pode controlar como relatórios individuais, biblioteca de relatórios e os locais de arquivo padrão são exibidos. 
 
@@ -39,20 +43,16 @@ Este artigo explica como definir as preferências do usuário para personalizar 
 
 ## <a name="options-dialog-box-options"></a>Opções da caixa de diálogo Opções
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Opção do usuário</th>
-<th>Descrição</th>
+<th>descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Na inicialização</td>
-<td>Selecione o que você vê quando os Relatórios de gerenciamento são iniciados. Selecione uma das seguintes opções:
+<td>Selecione o que você vê quando Designer de Relatórios é iniciado. Selecione uma das seguintes opções:
 <ul>
 <li><strong>Carregar último relatório carregado</strong> – Abre o último relatório visualizado.</li>
 <li><strong>Mostrar a janela Abrir</strong> – Abre a janela <strong>Abrir</strong>. A janela <strong>Abrir</strong> fornece uma janela de pesquisa que você pode usar para localizar rapidamente os blocos de construção.</li>
@@ -60,7 +60,7 @@ Este artigo explica como definir as preferências do usuário para personalizar 
 </ul></td>
 </tr>
 <tr class="even">
-<td>Exibir confirmação antes de sair do Management Reporter</td>
+<td>Exibir confirmação antes de sair do Designer de Relatórios</td>
 <td>Selecione se deseja receber uma mensagem de aviso quando você sair do aplicativo. Esta mensagem ajuda a garantir que você não saia do programa sem querer.</td>
 </tr>
 <tr class="odd">
@@ -79,6 +79,8 @@ Este artigo explica como definir as preferências do usuário para personalizar 
 <a name="see-also"></a>Consulte também
 --------
 
-[Relatório financeiro do Microsoft Dynamics ERP](financial-reporting-intro.md)
+[Relatórios financeiros](financial-reporting-intro.md)
+
+
 
 

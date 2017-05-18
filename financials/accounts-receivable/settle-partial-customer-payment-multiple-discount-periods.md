@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 9da48c7861f48ec2a154ac12616149d1208346cf
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 31c3354590935b40ecadd3a2fb380f4f103eb2b7
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -44,14 +45,14 @@ Em 25 de junho, Amanda insere e lança uma fatura de 1.000,00 para o cliente 403
 | 9/7/2015           | 10.00                | 990,00                         |
 | 25/7/2015          | 0,00                 | 1.000,00                       |
 
-Alberto pode exibir esta transação na página** Transações do cliente**.
+Alberto pode exibir esta transação na página**Transações do cliente**.
 
 | Comprovante   | Tipo de transação | Data      | Fatura | Valor em débito na moeda da transação | Valor em crédito na moeda da transação | Saldo  | Moeda |
 |-----------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
 | FTI-10030 | Fatura          | 25/6/2015 | 10030   | 1.000,00                             |                                       | 1.000,00 | USD      |
 
 ## <a name="partial-payment-before-the-cash-discount-date"></a>Pagamento parcial antes da data de desconto à vista
-Em 28 de junho, o Cliente 4031 faz um pagamento parcial de 294,00. Como 28 de junho está no período de desconto à vista, o cliente obtém um desconto de 6,00. Na página **Liquidar**, o valor de ** Valor do desconto à vista** é 20,00 e o valor de **Valor do desconto a ser obtido** é 6,00.
+Em 28 de junho, o Cliente 4031 faz um pagamento parcial de 294,00. Como 28 de junho está no período de desconto à vista, o cliente obtém um desconto de 6,00. Na página **Liquidar**, o valor de **Valor do desconto à vista** é 20,00 e o valor de **Valor do desconto a ser obtido** é 6,00.
 
 | Marcar     | Usar desconto à vista | Comprovante   | Conta | Data      | Data de conclusão  | Fatura | Valor na moeda da transação | Moeda | Valor para liquidar |
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|

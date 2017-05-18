@@ -253,7 +253,7 @@ O veículo usado para implantação no UAT (Teste de Aceitação do Usuário) e 
 
 Uma ferramenta do Visual Studio usada para criar, atualizar e inspecionar os elementos de modelo.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\dimensões financeiras\configuração baseada em dimensão**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**configuração do produto baseada em dimensão**
 
 Uma tecnologia de configuração usada para criar grades de produto selecionando valores de dimensões do produto.
 
@@ -503,7 +503,7 @@ Uma parte de um produto.
 
 ###### <a name="product-dimension"></a>**dimensão do produto**
 
-Os atributos de tamanho, cor ou configuração do produto que são usados para ..\dimensões financeiras\configuração baseada em dimensão.
+Os atributos de tamanho, cor ou configuração do produto que são usados para configuração do produto baseada em dimensão.
 
 ###### <a name="product-family"></a>**família de produtos**
 

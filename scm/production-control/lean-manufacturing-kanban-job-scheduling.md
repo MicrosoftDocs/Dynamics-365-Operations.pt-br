@@ -3,7 +3,7 @@ title: Agendamento do trabalho kanban para lean manufacturing
 description: "Este artigo fornece informações sobre o controle visual sobre a programação de trabalhos kanban e várias formas agendar trabalhos kanban."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 02 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,22 +18,28 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 062cbbc8a4fd3b4dc738f24ee0606a3741736377
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 019974b96985748c82641b73e40a3131d5b27232
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Agendamento do trabalho kanban para lean manufacturing
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre o controle visual sobre a programação de trabalhos kanban e várias formas agendar trabalhos kanban.  
 
 A página **Agendamento de trabalhos kanban** fornece controle visual das agendas de células de trabalho de lean manufacturing. Ela oferece uma visão geral de todos os trabalhos kanban e fornece vários recursos de filtragem. Nesta página, você pode mover para todas as outras páginas relacionadas à configuração e execução do kanban.
 
 ## <a name="automatic-scheduling-of-kanban-jobs"></a>Agendamento automático de trabalhos kanban
-O planejamento pode ser disparado automaticamente se você definir o parâmetro **Quantidade planejamento automático** na regra kanban. Se você definir **Quantidade de planejamento automático** como **1**, cada trabalho kanban será planejado imediatamente quando for criado. O resultado é uma série de operações por ordem de chegada. Se você definir **Quantidade de planejamento automático** com um valor maior que 1, os trabalhos kanban serão agrupados antes de serem planejados. Este conceito permite a redução de tamanhos do kanban abaixo dos tamanhos reais do lote econômico. Por exemplo, o tamanho de lote econômico para um item específico (ou a família de itens) é 30. Em vez de criar os kanbans que usam a quantidade de produto 30, você pode configurar a regra kanban, de forma que ela tenha uma quantidade de produtos igual a 10 e um valor de **3** para **Quantidade de planejamento automático **. Embora o planejamento automático agende os trabalhos kanban para a célula de trabalho somente quando existem três trabalhos não planejados, é totalmente transparente para o planejador e o supervisor de chão de fábrica que dois trabalhos não planejados podem estar aguardando execução. O planejador ou gerente de chão de fábrica pode executar esses dois trabalhos na produção, planejando-os manualmente ou criando kanbans adicionais.
+O planejamento pode ser disparado automaticamente se você definir o parâmetro **Quantidade planejamento automático** na regra kanban. Se você definir **Quantidade de planejamento automático** como **1**, cada trabalho kanban será planejado imediatamente quando for criado. O resultado é uma série de operações por ordem de chegada. Se você definir **Quantidade de planejamento automático** com um valor maior que 1, os trabalhos kanban serão agrupados antes de serem planejados. 
+
+Este conceito permite a redução de tamanhos do kanban abaixo dos tamanhos reais do lote econômico. Por exemplo, o tamanho de lote econômico para um item específico (ou a família de itens) é 30. Em vez de criar os kanbans que usam a quantidade de produto 30, você pode configurar a regra kanban, de forma que ela tenha uma quantidade de produtos igual a 10 e um valor de **3** para **Quantidade de planejamento automático**. Embora o planejamento automático agende os trabalhos kanban para a célula de trabalho somente quando existem três trabalhos não planejados, é totalmente transparente para o planejador e o supervisor de chão de fábrica que dois trabalhos não planejados podem estar aguardando execução. O planejador ou gerente de chão de fábrica pode executar esses dois trabalhos na produção, planejando-os manualmente ou criando kanbans adicionais.
 
 ## <a name="manual-scheduling"></a>Agendamento manual
 Para o agendamento manual, o Microsoft Dynamics AX 2012 apresenta o quadro de agendamento kanban. O agendamento manual pode ser combinado com o agendamento automático. O quadro de agendamento kanban permite que você planeje e cancele o planejamento de trabalhos, mova-os em sequência ou mova-os de período para período. Os trabalhos se baseiam em uma regra kanban onde o valor de **Planejamento automático** é maior que **0** e pode ser definido manualmente como não planejado. No entanto, esses trabalhos serão replanejados quando o próximo evento de planejamento automático ocorrer (isto é, quando um novo kanban for criado). As seguintes opções estão disponíveis para o agendamento manual:
@@ -66,5 +72,7 @@ A página de listagem **Agendamento do trabalho kanban** contém um Quadro de Fa
 
 <a name="see-also"></a>Consulte também
 --------
+
+
 
 

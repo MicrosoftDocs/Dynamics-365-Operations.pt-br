@@ -3,7 +3,7 @@ title: "Método de alocação de custo total"
 description: "Este artigo oferece diretrizes para usar a alocação de custo total (TCA). A TCA é um método de cálculo de custos entre o item de fórmula principal para uma ordem de lote e os coprodutos definidos para a fórmula."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c26dcc5a8caa461bce90f931bb5c584f1816526b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a5c5788a3145dd6cabeed097d25a03a243577b8f
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="total-cost-allocation-method"></a>Método de alocação de custo total
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo oferece diretrizes para usar a alocação de custo total (TCA). A TCA é um método de cálculo de custos entre o item de fórmula principal para uma ordem de lote e os coprodutos definidos para a fórmula.
 
@@ -36,6 +40,11 @@ A alocação de custo total (TCA) é um método de cálculo de custos entre o it
 Veja algumas das diretrizes para usar TCA para coprodutos:
 
 -   Se você definir o controle deslizante **Alocação de custo total** como **Sim** para uma versão da fórmula, os coprodutos deverão ter um preço de custo maior do que 0 (zero). O valor pode ser obtido da versão de custo ativa para ao mesmo site, ou para o primeiro site para uma fórmula não específica de site. Essa condição é validada quando a fórmula é aprovada.
+
+    -   Não será necessário digitar manualmente porcentagens de alocação de custos para coprodutos. Em vez disso, o sistema cria automaticamente a porcentagem de alocação de custo previsto como média de preços de custo ativos de coprodutos. 
+    -   Você não precisa inserir custos padrão para itens de custo não padrão que são coprodutos. Há dois tipos de versões de avaliação de custo no sistema:custo padrão e custo planejado 
+    -   Se um item não estiver avaliado pelo método de avaliação de custo padrão, recomendamos usar um preço de custo ativo na versão de custo planejado. Esse preço é usado para estimativa de custo, por exemplo, cálculo de BOM, estimativa de custo de produção e preço de fallback no processo de avaliação de estoque. 
+
 -   Se você definir o controle deslizante **Alocação de Custo Total** como **Sim** para a versão da fórmula e as condições a seguir forem verdadeiras, o método de alocação de custo será **TCA** e a porcentagem de alocação de custo prevista permanecerá inalterada:
     -   Você adicionou coprodutos.
     -   Você usou um método diferente de alocação de custos para os coprodutos.
@@ -53,6 +62,8 @@ O campo **Alocação de custo de subproduto** na página **Coprodutos** é um ca
 -   **Percentual**: o valor de custo é calculado como uma porcentagem do custo total de matérias-primas que são consumidas na produção. A porcentagem usada para o cálculo é inserida no campo.
 -   **Por série**: o valor de custo é calculado como um valor pelo tamanho de lote padrão da ordem de produção. Esse valor é independente da quantidade relatada na produção. O valor usado para o cálculo é inserido no campo.
 -   **Por quantidade** ─ o valor de custo é calculado como um valor por quantidade relatada do item de fórmula na produção. O valor usado para o cálculo é inserido no campo.
+
+
 
 
 

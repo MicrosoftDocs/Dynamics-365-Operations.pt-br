@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 68cac68e1ea3db35b44c91f2c1901abf2aa521be
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4b79b21c6c4ceebfd24225643d099a2e2789d303
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ Várias configurações determinam como as agendas de produção são calculadas
 
 A direção do plano é fundamental para o processo de planejamento. A produção pode ser agendada para frente ou para trás a partir de qualquer data, dependendo dos requisitos de tempo e de agendamento.
 
--   **Planejamento antecipado **– você pode agendar uma produção para iniciar o mais rápido possível. A produção pode ser iniciada hoje, amanhã ou em qualquer data futura específica. A produção é agendada para iniciar na primeira data possível e é adiantada no tempo até a primeira data final possível.
+-   **Planejamento antecipado**– você pode agendar uma produção para iniciar o mais rápido possível. A produção pode ser iniciada hoje, amanhã ou em qualquer data futura específica. A produção é agendada para iniciar na primeira data possível e é adiantada no tempo até a primeira data final possível.
 -   **Planejamento regressivo** – você pode agendar uma produção para iniciar o mais tarde possível. A agenda é baseada na data em que a produção deve ser concluída e faz a contagem regressiva até a última data possível em que a produção pode ser iniciada sem que o prazo final seja perdido.
 
 As opções a seguir estão disponíveis:
@@ -98,7 +99,7 @@ Quando as referências dependem das ordens de produção, elas também são conh
 
 ### <a name="synchronize-references"></a>Sincronizar referências
 
-Você pode sincronizar as referências com a ordem de produção. Se essa opção for selecionada, as datas das subproduções serão movidas e alinhadas quando forem feitas alterações na agenda da ordem de produção. Se uma ordem de produção tiver uma ou mais subproduções, talvez você queira agendar as subproduções junto com a produção principal. Nesse caso, a produção principal não poderá ser iniciada até que as subproduções relacionadas não sejam concluídas. Portanto, marque esta caixa de seleção se o agendamento de subproduções deve ser baseado nas horas inicial e final da produção principal. Você poderá marcar esta caixa de seleção somente se a caixa de seleção** Referências de plano** também estiver marcada.
+Você pode sincronizar as referências com a ordem de produção. Se essa opção for selecionada, as datas das subproduções serão movidas e alinhadas quando forem feitas alterações na agenda da ordem de produção. Se uma ordem de produção tiver uma ou mais subproduções, talvez você queira agendar as subproduções junto com a produção principal. Nesse caso, a produção principal não poderá ser iniciada até que as subproduções relacionadas não sejam concluídas. Portanto, marque esta caixa de seleção se o agendamento de subproduções deve ser baseado nas horas inicial e final da produção principal. Você poderá marcar esta caixa de seleção somente se a caixa de seleção**Referências de plano** também estiver marcada.
 
 ## <a name="cancellation"></a>Cancelamento
 ### <a name="cancel-queue-time"></a>Cancelar tempo de espera

@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 288605570462c2e7659a894731c12933410d7636
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7e6a3c25dd97d242e28bff319c75a64718c39f55
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -128,7 +129,7 @@ Você pode reorganizar a estrutura organizacional de uma definição de árvore 
 
 ### <a name="add-text-about-a-reporting-unit"></a> Adicionar texto sobre uma unidade de relatório
 
-Uma entrada de texto adicional é uma cadeia de texto estático, com até 255 caracteres, que adiciona informações à definição de árvore de relatório. Por exemplo, o texto adicional pode ser uma descrição de pequena empresa. Você pode criar até dez entradas de texto adicional para cada unidade de relatório em uma definição de árvore de relatório. O texto adicional aparece no relatório para a unidade de relatório à qual o texto é atribuído. Você pode adicionar entradas de texto da coluna ** Descrição** da definição de linha e da guia **Cabeçalhos e Rodapés** na definição de relatório.
+Uma entrada de texto adicional é uma cadeia de texto estático, com até 255 caracteres, que adiciona informações à definição de árvore de relatório. Por exemplo, o texto adicional pode ser uma descrição de pequena empresa. Você pode criar até dez entradas de texto adicional para cada unidade de relatório em uma definição de árvore de relatório. O texto adicional aparece no relatório para a unidade de relatório à qual o texto é atribuído. Você pode adicionar entradas de texto da coluna **Descrição** da definição de linha e da guia **Cabeçalhos e Rodapés** na definição de relatório.
 
 1.  No Designer de Relatórios, abra a definição de árvore de relatório a ser modificada.
 2.  Clique duas vezes na célula **Texto Adicional** para a linha de unidade de relatório.

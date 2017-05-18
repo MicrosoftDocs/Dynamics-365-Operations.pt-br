@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: d585ae0716a4bd9c3531e8639cd7c6b3cab780ac
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c8947f9335b3a2de83ab00bad1043ee14d35f2c8
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -57,8 +58,8 @@ As configurações gerais para a colaboração do fornecedor no Dynamics 365 for
 
 Antes que as contas de usuário possam ser criadas para um fornecedor externo, você deve configurar a conta de fornecedor para permitir que ele use a colaboração do fornecedor. Para fazer isso, defina o campo **Ativação de colaboração** como ativo na guia **Geral**, na página **Fornecedores**. Há duas opções que podem ser escolhidas:
 
--   **Ativo (a OC é confirmada automaticamente) **– as ordens de compra são confirmadas automaticamente quando o fornecedor as aceita sem alterações.
--   **Ativo (a OC não é confirmada automaticamente) **– as ordens de compra precisam ser confirmadas manualmente por sua organização depois que o fornecedor aceitá-las.
+-   **Ativo (a OC é confirmada automaticamente)**– as ordens de compra são confirmadas automaticamente quando o fornecedor as aceita sem alterações.
+-   **Ativo (a OC não é confirmada automaticamente)**– as ordens de compra precisam ser confirmadas manualmente por sua organização depois que o fornecedor aceitá-las.
 
 ### <a name="decide-whether-you-want-the-vendor-to-see-price-information"></a>Decida se você deseja que o fornecedor veja as informações de preço.
 
@@ -142,7 +143,7 @@ A tabela a seguir mostra um exemplo das alterações de status e versão pelas q
 | O fornecedor envia uma resposta **Aceito com alterações**.                  | O status ainda é **Em Revisão externa**.                                                                                                                  |
 | Você faz algumas alterações que são solicitadas pelo fornecedor.                  | O status é alterado para **Aprovada**.                                                                                                                        |
 | Você envia a nova versão da OC ao fornecedor.                        | Uma nova versão é registrada na interface de colaboração do fornecedor e o status é alterado para **Em Revisão externa**.                                      |
-| O fornecedor aceita a nova versão da OC.                            | O status ainda é **Em Revisão externa **a menos que a conta do fornecedor seja configurada para definir automaticamente a OC para um estado **Confirmado** ao aceitá-la. |
+| O fornecedor aceita a nova versão da OC.                            | O status ainda é **Em Revisão externa**a menos que a conta do fornecedor seja configurada para definir automaticamente a OC para um estado **Confirmado** ao aceitá-la. |
 
 Os fornecedores não precisam confirmar a OC usando a interface de colaboração do fornecedor. Eles também podem enviar uma mensagem de email ou comunicar a aceitação de uma OC por meio de outro canais. É possível confirmar a ordem manualmente no Dynamics 365 for Operations. Se fizer isso, você receberá um aviso de que a ordem está sendo confirmada mesmo que não haja nenhuma resposta do fornecedor. A OC aparecerá no histórico de confirmação como uma ordem confirmada aberta que não tem nenhuma resposta. O fornecedor não terá mais a opção de confirmar ou rejeitar a OC.  
 

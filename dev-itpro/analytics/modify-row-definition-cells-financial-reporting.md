@@ -1,16 +1,16 @@
 ---
 title: "Modificar células de definição de linha"
 description: "Este artigo descreve as informações que são necessárias para cada célula em uma definição de linha em um relatório financeiro e explica como inserir essas informações."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-07 16 - 09 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: b61364c9055e5c5a63592c7f05551d0c145924b9
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 82a0b8c52a816a7fc608e90866bd564392f9c8d4
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Modificar células de definição de linha
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo descreve as informações que são necessárias para cada célula em uma definição de linha em um relatório financeiro e explica como inserir essas informações. 
 
@@ -38,7 +42,9 @@ Em definições de linha, os números ou rótulos na célula **Código da Linha*
 
 Um código da linha é necessário para todas as linhas. Você pode misturar códigos de linha numéricos, alfanuméricos e não definidos (vazios) em uma definição de linha. O código de linha pode ser qualquer inteiro positivo (abaixo de 100.000.000) ou um rótulo descritivo que identifica essa linha. Um rótulo descritivo deve seguir estas regras:
 
--   O rótulo deve começar com um caractere alfabético (de a até z ou de A até Z), e pode ser qualquer combinação de letras e números com até 16 caracteres. **Observação:** Um rótulo pode incluir o caractere sublinhado (\_), mas outros caracteres especiais são permitidos.
+-   O rótulo deve começar com um caractere alfabético (de a até z ou de A até Z), e pode ser qualquer combinação de letras e números com até 16 caracteres. 
+    > [!NOTE]
+    > Um rótulo pode incluir o caractere sublinhado (\_), mas outros caracteres especiais não são permitidos.
 -   O rótulo não pode usar as seguintes palavras reservadas: AND, OR, IF, THEN, ELSE, PERIODS, TO, BASEROW, UNIT, NULL, CPO ou RPO.
 
 Os seguintes exemplos são códigos de linha válidos:
@@ -56,10 +62,14 @@ Os seguintes exemplos são códigos de linha válidos:
 
 1.  No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
 2.  No menu **Editar**, clique em **Renumerar Linhas**.
-3.  Na caixa de diálogo **Renumerar Linhas**, especifique novos valores para o código de linha inicial e o incremento do código de linha. É possível redefinir os códigos numéricos de linha para valores equidistantes. No entanto, o designer de relatórios renumera somente códigos de linha que começam com os números (por exemplo, 130 ou 246). Ele não renumera códigos de linha que começam com letras (por exemplo, INCOME\_93 ou TP0693). **Observação:** Quando você renumera códigos de linha, o designer de relatórios atualiza automaticamente as referências **TOT** e **CAL**. Por exemplo, se uma linha **TOT** se refere a um intervalo que começa com o código de linha 100, e você renumera linhas, começando por 90, a referência inicial **TOT** muda de 100 para 90.
+3.  Na caixa de diálogo **Renumerar Linhas**, especifique novos valores para o código de linha inicial e o incremento do código de linha. É possível redefinir os códigos numéricos de linha para valores equidistantes. No entanto, o designer de relatórios renumera somente códigos de linha que começam com os números (por exemplo, 130 ou 246). Ele não renumera códigos de linha que começam com letras (por exemplo, INCOME\_93 ou TP0693). 
+> [!NOTE]
+> Quando você renumera códigos de linha, o designer de relatórios atualiza automaticamente as referências **TOT** e **CAL**. Por exemplo, se uma linha **TOT** se refere a um intervalo que começa com o código de linha 100, e você renumera linhas, começando por 90, a referência inicial **TOT** muda de 100 para 90.
 
 ## <a name="add-a-description"></a>Adicionar uma descrição
-A célula de descrição fornece a descrição dos dados financeiros na linha do relatório, como “Receita” ou “Rendimento Líquido.” O texto na célula **Descrição** aparece no relatório exatamente quando você o insere na definição de linha. **Observação:** A largura da coluna de descrição no relatório é definida na definição de coluna. Se o texto na coluna **Descrição** da definição de linha for longo, verifique a largura da coluna **DESC**. Quando você usa a caixa de diálogo **Inserir linhas de**, os valores na coluna **Descrição** são os valores de segmento ou de dimensão dos dados financeiros. Você pode inserir linhas para adicionar texto descritivo, como um título de seção ou um total de seção, e para adicionar formatação, como uma linha antes de uma linha total. Se o relatório inclui uma árvore de relatório, você pode incluir o texto adicional que é definido para as unidades de relatório na árvore de relatório. Você também pode limitar o texto adicional a uma unidade de relatório específica.
+A célula de descrição fornece a descrição dos dados financeiros na linha do relatório, como “Receita” ou “Rendimento Líquido.” O texto na célula **Descrição** aparece no relatório exatamente quando você o insere na definição de linha. 
+> [!NOTE]
+> A largura da coluna de descrição no relatório é definida na definição da coluna. Se o texto na coluna **Descrição** da definição de linha for longo, verifique a largura da coluna **DESC**. Quando você usa a caixa de diálogo **Inserir linhas de**, os valores na coluna **Descrição** são os valores de segmento ou de dimensão dos dados financeiros. Você pode inserir linhas para adicionar texto descritivo, como um título de seção ou um total de seção, e para adicionar formatação, como uma linha antes de uma linha total. Se o relatório inclui uma árvore de relatório, você pode incluir o texto adicional que é definido para as unidades de relatório na árvore de relatório. Você também pode limitar o texto adicional a uma unidade de relatório específica.
 
 ### <a name="add-the-description-for-a-line-on-a-report"></a>Adicionar a descrição para uma linha em um relatório
 
@@ -81,7 +91,9 @@ A célula de descrição fornece a descrição dos dados financeiros na linha do
 4.  No campo **Selecione uma unidade de relatório para restrição**, expanda ou recolha a árvore de relatório, e selecione uma unidade de relatório.
 
 ## <a name="add-a-format-code"></a>Adicionar um código de formato
-A célula **Código de Formato** oferece uma seleção de opções pré-formatadas para o conteúdo dessa linha. Se a célula **Código de Formato** estiver em branco, a linha será interpretada como uma linha de detalhes de dados financeiros. **Observação:** Se um relatório contém linhas de formatação sem valor que estão relacionadas a linhas de valor que foram suprimidas (por exemplo, devido a saldo zero), você pode usar a coluna **Fórmulas/Linhas/Unidades Relacionadas** para impedir que as linhas de título e formato sejam impressas.
+A célula **Código de Formato** oferece uma seleção de opções pré-formatadas para o conteúdo dessa linha. Se a célula **Código de Formato** estiver em branco, a linha será interpretada como uma linha de detalhes de dados financeiros. 
+> [!NOTE]
+> Se um relatório contiver linhas de formatação sem valor que estão relacionadas a linhas de valor que foram suprimidas (por exemplo, devido a saldo zero), você pode usar a coluna **Fórmulas/Linhas/Unidades Relacionadas** para impedir que as linhas de título e formato sejam impressas.
 
 ### <a name="add-a-format-code-to-a-report-row"></a>Adicionar um código de formato a uma linha de relatório
 
@@ -140,7 +152,9 @@ Ao criar uma fórmula de total de linha, você deve usar códigos de linha para 
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Relacionar uma linha de formato a uma linha de valor
 
-Na coluna **Código de Formato** em uma definição de linha, os códigos de formato **DES**, **LFT**, **RGT**, **CEN**, **---**e **===** aplicam formatação a linhas sem valor. Para impedir que esta formatação seja impressa quando as linhas de valor relacionado forem suprimidas (por exemplo, porque as linhas de valor contêm valores zero ou nenhuma atividade no período), você deve relacionar as linhas de formato às linhas de valor correspondente. Essa funcionalidade é útil quando você deseja evitar que cabeçalhos ou formatação relativos a subtotais sejam impressos quando não há detalhes para impressão no período. **Observação:** Você também pode evitar que as linhas de valor detalhadas sejam impressa desmarcando a opção para exibir linhas sem valores. Esta opção está localizada na guia **Configurações** da definição de relatório. Por padrão, as contas de detalhes da transação com um saldo zero ou sem atividade do período são suprimidas em relatórios. Para mostrar essas contas de detalhes da transação, marque a caixa de seleção **Exibir linhas sem valores** na guia **Configurações** da definição de relatório.
+Na coluna **Código de Formato** em uma definição de linha, os códigos de formato **DES**, **LFT**, **RGT**, **CEN**, **---**e **===** aplicam formatação a linhas sem valor. Para impedir que esta formatação seja impressa quando as linhas de valor relacionado forem suprimidas (por exemplo, porque as linhas de valor contêm valores zero ou nenhuma atividade no período), você deve relacionar as linhas de formato às linhas de valor correspondente. Essa funcionalidade é útil quando você deseja evitar que cabeçalhos ou formatação relativos a subtotais sejam impressos quando não há detalhes para impressão no período. 
+    > [!NOTE]
+    >  You can also prevent the detailed amount rows from being printed by clearing the option to display rows without amounts. This option is located on the **Settings** tab of the report definition. By default, transaction detail accounts that have a zero balance or no period activity are suppressed in reports. To show these transaction detail accounts, select the **Display rows without an amounts** check box on the **Settings** tab of the report definition.
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Relacionar uma linha de formato a uma linha de valor
 
@@ -196,7 +210,9 @@ Os códigos de classificação classificam contas ou valores, classificam um rel
 1.  No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
 2.  Clique duas vezes na célula **Código do Formato** e selecione um código de classificação.
 3.  Na célula **Fórmulas/Linhas/Unidades Relacionadas**, especifique o intervalo de códigos de linha para classificação. Para especificar um intervalo, insira o primeiro código de linha, dois-pontos (:) e o último código de linha. Por exemplo, insira **160:490** para especificar que o intervalo é da linha 160 até a linha 490.
-4.  Na célula **Restrição de Coluna**, insira a letra da coluna do relatório a ser usada para a classificação. **Observação:** Inclua apenas as linhas de valor em um cálculo de classificação.
+4.  Na célula **Restrição de Coluna**, insira a letra da coluna do relatório a ser usada para a classificação. 
+    > [!NOTE]
+    > Inclua apenas as linhas de valor em um cálculo de classificação.
 
 ### <a name="examples-of-ascending-and-descending-column-values"></a>Exemplos de valores de coluna crescentes e decrescentes
 
@@ -220,255 +236,24 @@ No exemplo a seguir, os valores na coluna D do relatório serão classificados e
 
 Este é um exemplo do relatório que é gerado.
 
-**Análise de Variação (Classificada pela Variação)**
+|||||||||
+|---|---|---|---|---|---|---|
+|**Análise de Variação (Classificada pela Variação)**|||||||
 
-**Regiões de Pequim e Atlanta**
+|**Regiões de Pequim e Atlanta**|||||||
 
-**Para os Sete Meses que Terminam em 31 de julho de 2013**
+|**Para os Sete Meses que Terminam em 31 de julho de 2013**|||||||
 
-**Julho**
+||**Julho**|**Até a presente data**|||||
 
-**YTD**
+||**Real**|**Orçamento**|**Variação**|**Real**|**Orçamento**|**Variação**|
 
-**Real**
+|**Classificado pela Variação Mensal em Ordem Crescente**|||||||
 
-**Orçamento**
+|COGS|873,872|236,144|(637,728)|4,864,274|1,590,315|(3,273,959)|
 
-**Variação**
-
-**Real**
-
-**Orçamento**
-
-**Variação**
-
-**Classificado pela Variação Mensal em Ordem Crescente**
-
-COGS
-
-873.872
-
-236.144
-
-(637.728)
-
-4.864.274
-
-1.590.315
-
-(3.273.959)
-
-Salários
-
-97.624
-
-65.573
-
-(32.051)
-
-653.884
-
-441.664
-
-(212.220)
-
-Descontos nas Vendas
-
-36.383
-
-24.152
-
-(12.231)
-
-241.562
-
-162.670
-
-(78.892)
-
-Devoluções de Vendas
-
-10.917
-
-7.246
-
-(3.671)
-
-62.809
-
-48.803
-
-(14.006)
-
-Despesas de Aluguel
-
-12.052
-
-9.019
-
-(3.033)
-
-80.444
-
-60.748
-
-(19.696)
-
-Despesas de Escritório
-
-5.023
-
-3.291
-
-(1.732)
-
-33.420
-
-22.098
-
-(11.322)
-
-Despesas de Viagem
-
-7.656
-
-7.641
-
-(15)
-
-51.062
-
-51.469
-
-407
-
-Venda
-
-1.240.119
-
-410.389
-
-829.730
-
-7.139.288
-
-2.764.549
-
-4.374.739
-
-**Classificado pela Variação Absoluta até a presente data em Ordem Decrescente**
-
-Venda
-
-1.240.119
-
-410.389
-
-829.730
-
-7.139.288
-
-2.764.549
-
-4.374.739
-
-Despesas de Viagem
-
-7.656
-
-7.641
-
-(15)
-
-51.062
-
-51.469
-
-407
-
-Despesas de Escritório
-
-5.023
-
-3.291
-
-(1.732)
-
-33.420
-
-22.098
-
-(11.322)
-
-Devoluções de Vendas
-
-10.917
-
-7.246
-
-(3.671)
-
-62.809
-
-48.803
-
-(14.006)
-
-Despesas de Aluguel
-
-12.052
-
-9.019
-
-(3.033)
-
-80.444
-
-60.748
-
-(19.696)
-
-Descontos nas Vendas
-
-36.383
-
-24.152
-
-(12.231)
-
-241.562
-
-162.670
-
-(78.892)
-
-Salários
-
-97.624
-
-65.573
-
-(32.051)
-
-653.884
-
-441.664
-
-(212.220)
-
-COGS
-
-873.872
-
-236.144
-
-(637.728)
-
-4.864.274
-
-1.590.315
-
-(3.273.959)
+|Salários e Remunerações|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |Descontos nas Vendas|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Devoluções de Vendas|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Despesas de Aluguel|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Despesas de Aluguel|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Despesas de Viagem|7,656|7,641|(15)|51,062|51,469|407| |Vendas|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |**Classificado pela Variação Absoluta até a presente data em Ordem Decrescente**|||||||
+|Sales|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |Despesas de Viagem|7,656|7,641|(15)|51,062|51,469|407| |Despesas de Escritório|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Devoluções de Vendas|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Despesas de Aluguel|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Descontos nas Vendas|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Salários e Remunerações|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |COGS|873,872|236,144|(637,728)|4,864,274|1,590,315|(3,273,959)|
 
 ## <a name="specify-a-format-override-cell"></a>Especificar uma Célula de Substituição de Formato
 A célula **Substituição de Formato** especifica a formatação que é usada para a linha quando o relatório é impresso. Essa formatação substitui a formatação especificada na definição de coluna e na definição de relatório. Por padrão, a formatação especificada nessas definições é a moeda. Se uma linha do relatório listar o número de ativos, como o número de imóveis, e outra linha listar o valor monetário desses ativos, você poderá substituir a formatação de moeda e inserir a formatação numérica da linha que especifique o número de imóveis. Especifique essas informações na caixa de diálogo **Substituição de Formato**. As opções disponíveis dependem da categoria de formato selecionada. A área **Exemplo** da caixa de diálogo mostra os formatos de exemplo. As seguintes categorias de formato estão disponíveis:
@@ -492,7 +277,9 @@ A formatação de moeda se aplica a um valor fiscal e inclui o símbolo de moeda
 -   **Símbolo de moeda** – O símbolo de moeda para o relatório. Esse valor substitui a configuração **Opções Regionais** para as informações da empresa.
 -   **Números negativos** – Os números negativos podem ter um sinal de subtração (-), podem aparecer entre parênteses ou ter um triângulo (∆).
 -   **Casas decimais** – O número de dígitos que aparecem após o ponto decimal.
--   **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. **Observação:** Em caso de supressão da impressão para os valores zero ou nenhuma atividade no período, este texto será suprimido.
+-   **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. 
+    > [!NOTE]
+    >  Em caso de supressão da impressão de valores zero ou nenhuma atividade no período, este texto será suprimido.
 
 ### <a name="numeric-formatting"></a>Formatação numérica
 
@@ -500,7 +287,9 @@ A formatação numérica se aplica a qualquer valor e não inclui um símbolo de
 
 -   **Números negativos** – Os números negativos podem ter um sinal de subtração (-), podem aparecer entre parênteses ou ter um triângulo (∆).
 -   **Casas decimais** – O número de dígitos que aparecem após o ponto decimal.
--   **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. **Observação:** Em caso de supressão da impressão para os valores zero ou nenhuma atividade no período, este texto será suprimido.
+-   **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. 
+    > [!NOTE]
+    >  Em caso de supressão da impressão de valores zero ou nenhuma atividade no período, este texto será suprimido.
 
 ### <a name="percentage-formatting"></a>Formatação de porcentagem
 
@@ -508,14 +297,18 @@ A formatação de porcentagem inclui o sinal de porcentagem (%). As opções a s
 
 -   **Números negativos** – Os números negativos podem ter um sinal de subtração (-), podem aparecer entre parênteses ou ter um triângulo (∆).
 -   **Casas decimais** – O número de dígitos a serem exibidos após o ponto decimal.
--   **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. **Observação:** Em caso de supressão da impressão para os valores zero ou nenhuma atividade no período, este texto será suprimido.
+-   **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. 
+    > [!NOTE]
+    >  Em caso de supressão da impressão de valores zero ou nenhuma atividade no período, este texto será suprimido.
 
 ### <a name="custom-formatting"></a>Formatação personalizada
 
 Use a categoria de formatação personalizada para criar uma substituição de formato personalizada. As opções a seguir estão disponíveis:
 
 -   **Tipo** – O formato personalizado.
--   **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. **Observação:** Em caso de supressão da impressão para os valores zero ou nenhuma atividade no período, este texto será suprimido.
+-   **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. 
+    > [!NOTE]
+    >  Em caso de supressão da impressão de valores zero ou nenhuma atividade no período, este texto será suprimido.
 
 O tipo deve representar o valor positivo e o valor negativo. Normalmente, você insere um formato semelhante que diferencia valores positivos e negativos. Por exemplo, para especificar que os valores positivos e negativos têm duas casas decimais, mas os valores negativos aparecem entre parênteses, insira **0,00;(0,00)**. A tabela a seguir mostra a formatos personalizadas que podem ser usados para controlar o formato dos valores. Todos os exemplos começam pelo valor 1234.56.
 
@@ -570,14 +363,18 @@ Quando você seleciona uma conta específica, o designer de relatórios costuma 
 
 ### <a name="book-code-modifiers"></a>Modificadores de código do livro
 
-Você pode limitar uma linha a um código de livro existente. A definição de coluna deve incluir pelo menos uma coluna **FD** que tem um código de livro. **Observação:** A restrição do código de livro para uma linha substitui as restrições de códigos de livro na definição de coluna para essa linha.
+Você pode limitar uma linha a um código de livro existente. A definição de coluna deve incluir pelo menos uma coluna **FD** que tem um código de livro. 
+> [!NOTE]
+> A restrição do código de livro para uma linha substitui as restrições de códigos de livro na definição de coluna para essa linha.
 
 ### <a name="account-and-transaction-attributes"></a>Atributos de contas e transações
 
 Alguns sistemas contábeis dão suporte a atributos de conta e atributos de transação nos dados financeiros. Esses atributos funcionam como segmentos de conta virtual, e podem conter informações adicionais sobre a conta ou a transação. Essas informações adicionais podem ser IDs de contas, IDs de lotes, CEPs ou outros atributos. Se o sistema contábil dá suporte a atributos, você pode usar atributos de conta ou atributos de transação como modificadores da linha na definição de linha. Para obter informações sobre como substituir as informações de linha, consulte a seção “Substituir uma definição de coluna” anteriormente neste artigo.
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>Especificar uma célula Link para Dimensões Financeiras
-A célula **Link para Dimensões Financeiras** contém links para os dados financeiros que devem ser incluídos em cada linha de um relatório. Esta célula contém valores de dimensão, mas você pode especificar células em uma planilha do Microsoft Excel ou, além disso, valores de segmento ou valores de dimensão. Para abrir a caixa de diálogo **Dimensões**, clique duas vezes na célula **Link para Dimensões Financeiras**. **Observação:** O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema ERP do Microsoft Dynamics que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Para especificar informações sobre uma linha que já esteja na definição de linha, adicione as informações na célula **Link para Dimensões Financeiras**. Para adicionar novas linhas que sejam vinculadas aos dados financeiros, use a caixa de diálogo **Inserir Linhas de** para criar novas linhas na definição de relatório. O título da coluna muda de acordo com a configuração da coluna, como mostra a tabela a seguir.
+A célula **Link para Dimensões Financeiras** contém links para os dados financeiros que devem ser incluídos em cada linha de um relatório. Esta célula contém valores de dimensão, mas você pode especificar células em uma planilha do Microsoft Excel ou, além disso, valores de segmento ou valores de dimensão. Para abrir a caixa de diálogo **Dimensões**, clique duas vezes na célula **Link para Dimensões Financeiras**. 
+> [!NOTE]
+> O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema Microsoft Dynamics ERP que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Para especificar informações sobre uma linha que já esteja na definição de linha, adicione as informações na célula **Link para Dimensões Financeiras**. Para adicionar novas linhas que sejam vinculadas aos dados financeiros, use a caixa de diálogo **Inserir Linhas de** para criar novas linhas na definição de relatório. O título da coluna muda de acordo com a configuração da coluna, como mostra a tabela a seguir.
 
 | Tipo de link selecionado       | A descrição da coluna Link muda para esta |
 |----------------------------------|----------------------------------------------------|
@@ -606,21 +403,27 @@ Por padrão, o designer de relatórios não imprime linhas sem um saldo correspo
 3.  No menu **Arquivo**, clique em **Salvar** para salvar as alterações.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Usar caracteres curinga e intervalos em uma definição de linha
-Ao inserir um valor de segmento natural na caixa de diálogo **Dimensões**, você pode colocar um caractere curinga (? ou \*) em uma posição de um segmento. O Criador de relatórios extrai todos os valores das posições definidas sem considerar os caracteres curinga. Por exemplo, a definição de linha contém somente valores de segmento natural, e os segmentos naturais têm quatro caracteres. Inserindo **6???** em uma linha, você instrui o desenvolvedor de relatório para incluir todas as contas que têm um valor de segmento natural que inicia com 6. Se você inserir **6\***, os mesmos resultados são devolvidos, mas os resultados também incluem valores de largura variável como **60** e **600000**. O designer de relatórios substitui cada caractere curinga (?) pelo intervalo completo dos valores possíveis, que incluem letras e caracteres especiais. Por exemplo, no intervalo de **12?0** até **12?4**, o caractere curinga em **12?0** é substituído pelo menor valor no conjunto de caracteres, e o caractere curinga em **12?4** é substituído pelo maior valor no conjunto de caracteres. **Observação:** Você deve evitar usar caracteres curinga para as contas inicial e final nos intervalos. Se você usar caracteres curinga na conta inicial ou final, poderá receber resultados inesperados.
+Ao inserir um valor de segmento natural na caixa de diálogo **Dimensões**, você pode colocar um caractere curinga (? ou \*) em uma posição de um segmento. O Criador de relatórios extrai todos os valores das posições definidas sem considerar os caracteres curinga. Por exemplo, a definição de linha contém somente valores de segmento natural, e os segmentos naturais têm quatro caracteres. Inserindo **6???** em uma linha, você instrui o desenvolvedor de relatório para incluir todas as contas que têm um valor de segmento natural que inicia com 6. Se você inserir **6\***, os mesmos resultados são devolvidos, mas os resultados também incluem valores de largura variável como **60** e **600000**. O designer de relatórios substitui cada caractere curinga (?) pelo intervalo completo dos valores possíveis, que incluem letras e caracteres especiais. Por exemplo, no intervalo de **12?0** até **12?4**, o caractere curinga em **12?0** é substituído pelo menor valor no conjunto de caracteres, e o caractere curinga em **12?4** é substituído pelo maior valor no conjunto de caracteres. 
+> [!NOTE]
+> Você deve evitar usar caracteres curinga para as contas inicial e final nos intervalos. Se você usar caracteres curinga na conta inicial ou final, poderá receber resultados inesperados.
 
 ### <a name="single-segment-or-single-dimension-ranges"></a>Intervalos de um único segmento ou de uma única dimensão
 
-Você pode especificar um intervalo de valores de segmento ou de valores de dimensão. A vantagem de especificar um intervalo é não precisar atualizar a definição de linha sempre que um novo valor de segmento ou valor de dimensão é adicionado aos dados financeiros. Por exemplo, o intervalo **+Account=\[6100:6900\]** recebe os valores da conta 6100 até 6900 para o valor da linha. Quando um intervalo inclui um caractere curinga (?), o designer de relatórios não avalia o intervalo caractere por caractere. As extremidades inferior e superior do intervalo são determinadas. Depois, os valores finais e todos os valores entre eles são incluídos. **Observação:** O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema ERP do Microsoft Dynamics que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Você pode adicionar um E comercial (&) somente quando cria automaticamente definições de linha usando a caixa de diálogo **Inserir Linhas de Dimensões**.
+Você pode especificar um intervalo de valores de segmento ou de valores de dimensão. A vantagem de especificar um intervalo é não precisar atualizar a definição de linha sempre que um novo valor de segmento ou valor de dimensão é adicionado aos dados financeiros. Por exemplo, o intervalo **+Account=\[6100:6900\]** recebe os valores da conta 6100 até 6900 para o valor da linha. Quando um intervalo inclui um caractere curinga (?), o designer de relatórios não avalia o intervalo caractere por caractere. As extremidades inferior e superior do intervalo são determinadas. Depois, os valores finais e todos os valores entre eles são incluídos. 
+> [!NOTE]
+> O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema Microsoft Dynamics ERP que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Você pode adicionar um E comercial (&) somente quando cria automaticamente definições de linha usando a caixa de diálogo **Inserir Linhas de Dimensões**.
 
 ### <a name="multiple-segment-or-multiple-dimension-ranges"></a>Intervalos de vários segmentos ou de várias dimensões
 
-Quando você insere um intervalo usando várias combinações de valores de dimensão, a comparação de intervalo em um base ..\dimensões financeiras\dimensão por dimensão. A comparação de intervalo não pode ser feita caractere por caractere ou com base em segmento parcial. Por exemplo, o intervalo **+Account=\[5000:6000\], Department=\[1000:2000\], Cost center=\[00\]** inclui apenas as contas que correspondem a cada segmento. Neste cenário, a primeira dimensão deve estar no intervalo de 5000 a 6000, a segunda dimensão deve estar no intervalo de 1000 até 2000, e a última deve ser 00. Por exemplo, **+Account=\[5100\], Department=\[1100\], Cost center=\[01\]** não está incluído no relatório porque o último segmento está fora da variação especificada. Se um valor de segmento incluir espaços, coloque esse valor entre colchetes (\[ \]). Os seguintes valores são válidos para um segmento de quatro caracteres: **\[ 234\], \[123 \], \[1 34\]**. Os valores de dimensão devem ser colocados entre colchetes (\[ \]), e o designer de relatórios adiciona esses colchetes para você. Quando um intervalo de vários segmentos ou de várias dimensões contém caracteres curingas (? ou \*), as extremidades inferior e superior do intervalo de segmento múltiplo completo ou dimensão múltipla são determinadas. Depois, os valores finais e todos os valores entre eles são incluídos. Se tiver um grande intervalo, como o intervalo de todas as contas de 40000 a 99999, procure especificar uma conta inicial e uma conta final válidas, sempre que possível. **Observação:** O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema ERP do Microsoft Dynamics que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Você pode adicionar um E comercial (&) somente quando cria automaticamente definições de linha usando a caixa de diálogo **Inserir Linhas de Dimensões**.
+Quando você insere um intervalo usando várias combinações de valores de dimensão, a comparação de intervalo em um base ..\dimensões financeiras\dimensão por dimensão. A comparação de intervalo não pode ser feita caractere por caractere ou com base em segmento parcial. Por exemplo, o intervalo **+Account=\[5000:6000\], Department=\[1000:2000\], Cost center=\[00\]** inclui apenas as contas que correspondem a cada segmento. Neste cenário, a primeira dimensão deve estar no intervalo de 5000 a 6000, a segunda dimensão deve estar no intervalo de 1000 até 2000, e a última deve ser 00. Por exemplo, **+Account=\[5100\], Department=\[1100\], Cost center=\[01\]** não está incluído no relatório porque o último segmento está fora da variação especificada. Se um valor de segmento incluir espaços, coloque esse valor entre colchetes (\[ \]). Os seguintes valores são válidos para um segmento de quatro caracteres: **\[ 234\], \[123 \], \[1 34\]**. Os valores de dimensão devem ser colocados entre colchetes (\[ \]), e o designer de relatórios adiciona esses colchetes para você. Quando um intervalo de vários segmentos ou de várias dimensões contém caracteres curingas (? ou \*), as extremidades inferior e superior do intervalo de segmento múltiplo completo ou dimensão múltipla são determinadas. Depois, os valores finais e todos os valores entre eles são incluídos. Se tiver um grande intervalo, como o intervalo de todas as contas de 40000 a 99999, procure especificar uma conta inicial e uma conta final válidas, sempre que possível. 
+> [!NOTE]
+> O Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema Microsoft Dynamics ERP que incluam qualquer um dos seguintes caracteres reservados: &, \*, \[, \], {, ou }. Você pode adicionar um E comercial (&) somente quando cria automaticamente definições de linha usando a caixa de diálogo **Inserir Linhas de Dimensões**.
 
 ## <a name="add-or-subtract-from-other-accounts-in-a-row-definition"></a>Adicionar ou subtrair de outras contas em uma definição de linha
 Para adicionar ou subtrair os valores monetários em uma conta dos valores monetários em outra conta, você pode usar o sinal de adição (+) e o sinal de subtração (-) na célula **Link para Dimensões Financeiras**. A tabela a seguir mostra formatos aceitáveis para adicionar e subtrair links para dados financeiros.
 
-| Operação                                                                               | Usar este formato                                                                                              |
-|-----------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
+| Operação  | Usar este formato  |
+|------------|-----------------|
 | Adicionar duas contas totalmente qualificadas                                                       | +Division=\[000\], Account=\[1205\], Department=\[00\]+Division=\[100\], Account=\[1205\], Department=\[00\] |
 | Adicionar dois valores de segmento.                                                                 | +Account=\[1205\]+Account=\[1210\]                                                                           |
 | Adicionar valores de segmento que incluam caracteres curinga.                                    | +Account=\[120?+Account=\[11??\]                                                                             |
@@ -634,7 +437,9 @@ Para adicionar ou subtrair os valores monetários em uma conta dos valores monet
 | Subtrair um intervalo de valores de segmento.                                                     | -Account=\[1200:1205\]                                                                                       |
 | Subtrair um intervalo de valores de segmento que incluam caracteres curinga.                    | -Account=\[120?:130?\]                                                                                       |
 
-Embora você possa mudar as contas diretamente, também pode usar a caixa de diálogo **Dimensões** para aplicar a formatação correta aos links de dados financeiros. Qualquer um dos valores podem incluir caracteres curinga (? ou \*). No entanto, o Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema ERP do Microsoft Dynamics que incluam os seguintes caracteres reservados: &, \*, \[, \], {, ou }. **Observação:** Para subtrair valores, você deve colocar esses valores entre parênteses. Por exemplo, se você insere **450?-(4509)**, ele é exibido como **+Account=\[4509\]-Account=\[450?\]**, e você está orientando o designer de relatórios a subtrair o valor do segmento de conta 4509 do valor de qualquer segmento de conta que inicie com 450.
+Embora você possa mudar as contas diretamente, também pode usar a caixa de diálogo **Dimensões** para aplicar a formatação correta aos links de dados financeiros. Qualquer um dos valores podem incluir caracteres curinga (? ou \*). No entanto, o Designer de Relatórios não pode selecionar contas, dimensões ou campos do sistema ERP do Microsoft Dynamics que incluam os seguintes caracteres reservados: &, \*, \[, \], {, ou }. 
+> [!NOTE]
+> Para subtrair valores, você deve colocar esses valores entre parênteses. Por exemplo, se você insere **450?-(4509)**, ele é exibido como **+Account=\[4509\]-Account=\[450?\]**, e você está orientando o designer de relatórios a subtrair o valor do segmento de conta 4509 do valor de qualquer segmento de conta que inicie com 450.
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>Adicionar ou subtrair contas de outras contas
 
@@ -648,7 +453,8 @@ Embora você possa mudar as contas diretamente, também pode usar a caixa de di�
 
 4.  Repita as etapas 2 a 3 para adicionar mais operações.
 
-**Observação:** O operador se aplica a todas as dimensões na linha.
+> [!NOTE]
+> O operador se aplica a todas as dimensões na linha.
 
 ## <a name="description-of-the-dimensions-dialog-box"></a>Descrição da caixa de diálogo Dimensões.
 A tabela a seguir descreve os campos na caixa de diálogo **Dimensões**.
@@ -680,7 +486,9 @@ Um conjunto de valores de dimensão é um grupo nomeado de valores de dimensão.
 2.  No menu **Editar**, clique em **Gerenciar Conjuntos de Valores de Dimensão**.
 3.  Na caixa de diálogo **Gerenciar Conjuntos de Valores de Dimensão**, no campo **Dimensão**, selecione o tipo de dimensão.
 4.  Na lista, selecione o conjunto de valores de dimensão a ser atualizado, e clique em **Modificar**.
-5.  Na caixa de diálogo **Modificar**, modifique os valores da fórmula a ser incluída no conjunto. **Observação:** Se você adicionar novas contas ou dimensões, verifique se mudou os conjuntos existentes de valores de dimensão para incorporar as alterações.
+5.  Na caixa de diálogo **Modificar**, modifique os valores da fórmula a ser incluída no conjunto. 
+    > [!NOTE]
+    >  Se você adicionar novas contas ou dimensões, verifique se mudou os conjuntos existentes de valores de dimensão para incorporar as alterações.
 6.  Clique duas vezes na célula, e selecione o operador apropriado, a conta **De** e a conta **Até**.
 7.  Clique em **OK** para fechar a caixa de diálogo **Modificar** e salvar as alterações.
 
@@ -703,6 +511,8 @@ Um conjunto de valores de dimensão é um grupo nomeado de valores de dimensão.
 <a name="see-also"></a>Consulte também
 --------
 
-[Relatório financeiro para o Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
+[Relatórios financeiros](financial-reporting-intro.md)
+
+
 
 

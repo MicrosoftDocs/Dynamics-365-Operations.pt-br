@@ -18,10 +18,11 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: b3e8174d07c9b9fd4210486c369c640fe07c49eb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: abe9212372fb7429d68c1fb6b32ec1d15c20a6d7
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -67,7 +68,7 @@ Observe que as entidades de negócios (por exemplo, transações de pagamento e 
 -   Ele suporta parâmetros de entrada do usuário que podem ser definidos como fontes para um modelo de dados quando alguns dados devem ser especificados em tempo de execução.
 -   Ele oferece suporte a transformação dos dados do Dynamics 365 for Operations em grupos necessários, filtragem, classificação e soma de dados, além de acrescentar com lógica calculada, campos que são criados por meio de fórmulas do Microsoft Excel (para obter mais detalhes, consulte [Designer de fórmulas no relatório eletrônico](general-electronic-reporting-formula-designer.md)).
 
-[![Excel-like formula editor](./media/pic-formula-1024x615.png)](./media/pic-formula.png) Um componente do modelo de dados é criado para cada domínio comercial a ser usado como uma fonte de dados unificados para relatórios que isolam relatórios da implementação física de fontes de dados do Dynamics 365 for Operations e representa conceitos de negócios e funcionalidades específicas de domínio em um formato que torna o design inicial e a manutenção de formatos de relatórios mais eficazes.
+[![Editor de fórmulas do Excel](./media/pic-formula-1024x615.png)](./media/pic-formula.png) Um componente do modelo de dados é criado para cada domínio comercial a ser usado como uma fonte de dados unificados para relatórios que isolam relatórios da implementação física de fontes de dados do Dynamics 365 for Operations e representa conceitos de negócios e funcionalidades específicas de domínio em um formato que torna o design inicial e a manutenção de formatos de relatórios mais eficazes.
 
 #### <a name="format-components"></a>Componentes de formato
 
@@ -104,7 +105,7 @@ As versões com status** CONCLUÍDO** ou **COMPARTILHADO** estão disponíveis p
 
 #### <a name="component-date-effectivity"></a>Efetivação de data de componente
 
-Versão do componente ER com efetivação de data. A data** Efetiva a partir de **pode ser definida para que um componente ER especifique a data em que esse componente entra em vigor para os processos de relatório. A data da sessão do Dynamics 365 for Operations é usada para definir se um componente é válido para execução. Se mais de uma versão é válida para uma data específica, a última versão é usada para processos de relatório.
+Versão do componente ER com efetivação de data. A data**Efetiva a partir de**pode ser definida para que um componente ER especifique a data em que esse componente entra em vigor para os processos de relatório. A data da sessão do Dynamics 365 for Operations é usada para definir se um componente é válido para execução. Se mais de uma versão é válida para uma data específica, a última versão é usada para processos de relatório.
 
 #### <a name="component-access"></a>Acesso ao componente
 
@@ -112,7 +113,7 @@ O acesso aos componentes no formato ER depende da definição de códigos de pa�
 
 #### <a name="configuration"></a>Configuração
 
-A configuração de ER é o wrapper de determinado componente ER: **Modelo de dados** ou **Formato**. Uma configuração pode incluir versões diferentes de determinado componente ER. Cada configuração é marcada como propriedade de um fornecedor de configuração específico. A versão **RASCUNHO** de um componente de uma configuração pode ser editada quando o proprietário de uma configuração for selecionado como o provedor ativo nas configurações ER do Dynamics 365 for Operations. Cada configuração de modelo contém um componente do **Modelo de dados**. Uma nova configuração de formato pode ser originada (derivada) de uma configuração de modelo de dados específico. A configuração de formato criada será apresentada na árvore de configuração como um filho da configuração do modelo de dados original. A configuração de formato criada contém um componente de **Formato **. O componente **Modelo de dados** da configuração original de modelo será inserido automaticamente no componente **Formato** da configuração de formato filho criada como uma fonte de dados padrão. Uma configuração de ER é compartilhada para empresas do Dynamics 365 for Operations.
+A configuração de ER é o wrapper de determinado componente ER: **Modelo de dados** ou **Formato**. Uma configuração pode incluir versões diferentes de determinado componente ER. Cada configuração é marcada como propriedade de um fornecedor de configuração específico. A versão **RASCUNHO** de um componente de uma configuração pode ser editada quando o proprietário de uma configuração for selecionado como o provedor ativo nas configurações ER do Dynamics 365 for Operations. Cada configuração de modelo contém um componente do **Modelo de dados**. Uma nova configuração de formato pode ser originada (derivada) de uma configuração de modelo de dados específico. A configuração de formato criada será apresentada na árvore de configuração como um filho da configuração do modelo de dados original. A configuração de formato criada contém um componente de **Formato**. O componente **Modelo de dados** da configuração original de modelo será inserido automaticamente no componente **Formato** da configuração de formato filho criada como uma fonte de dados padrão. Uma configuração de ER é compartilhada para empresas do Dynamics 365 for Operations.
 
 #### <a name="provider"></a>Provedor
 
@@ -154,7 +155,7 @@ Designer de formato ER pode ser usado para criar um determinado documento eletr�
 
 ### <a name="storing-a-designed-format-component-in-a-format-configuration"></a>Armazenamento do componente do formato designado na configuração de formato
 
-O ER pode armazenar um formato designado com os mapeamentos de dados configurados como uma configuração de formato da instância atual do Dynamics 365 for Operations. A ilustração anterior mostra um exemplo desse tipo de configuração de formato (**BACS (Reino Unido)**, que é um filho da configuração **Modelo de pagamento **). Para se familiarizar com os detalhes deste cenário, rode o guia de tarefa **ER Projetar formato de domínio específico** (parte do processo de negócio **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
+O ER pode armazenar um formato designado com os mapeamentos de dados configurados como uma configuração de formato da instância atual do Dynamics 365 for Operations. A ilustração anterior mostra um exemplo desse tipo de configuração de formato (**BACS (Reino Unido)**, que é um filho da configuração **Modelo de pagamento**). Para se familiarizar com os detalhes deste cenário, rode o guia de tarefa **ER Projetar formato de domínio específico** (parte do processo de negócio **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
 
 ### <a name="configuring-dynamics-365-for-operations-to-start-to-use-a-created-format-internally"></a>Configuração do Dynamics 365 for Operations para começar a usar o formato criado internamente
 
@@ -169,11 +170,11 @@ Execute a guia de tarefa **ER Usar formato para gerar documento eletrônico para
 ## <a name="handling-er-components"></a>Manusear componentes ER
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>Como publicar o componente de ER no LCS para oferecê-lo externamente (localização)
 
-O proprietário de um componente criado é capaz de usar o ER para publicar a versão concluída de um componente de ER (modelo ou formato) para o LCS. Um repositório do tipo **Projeto de LCS **do provedor atual de configuração de ER é necessário para isso. Quando o status da versão concluída de um componente mudar de **CONCLUÍDO** para **COMPARTILHADO**, esta versão será publicada no LCS. Quando um componente for publicado no LCS, o proprietário desse componente se tornará um prestador do serviço para dar suporte a esse componente. Por exemplo, se esse componente de formato for designado para gerar um documento eletrônico legalmente necessário (por exemplo, de acordo com o cenário de localização), esse serviço assumirá para manter esse formato compatível com as alterações legislativas e emitir novas versões deles sempre que as novas exigências legislativas precisarem de suporte. Para se familiarizar com os detalhes deste cenário, rode o guia de tarefa **Carregamento ER de uma configuração no Lifecycle Services** (parte do processo de negócio **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
+O proprietário de um componente criado é capaz de usar o ER para publicar a versão concluída de um componente de ER (modelo ou formato) para o LCS. Um repositório do tipo **Projeto de LCS**do provedor atual de configuração de ER é necessário para isso. Quando o status da versão concluída de um componente mudar de **CONCLUÍDO** para **COMPARTILHADO**, esta versão será publicada no LCS. Quando um componente for publicado no LCS, o proprietário desse componente se tornará um prestador do serviço para dar suporte a esse componente. Por exemplo, se esse componente de formato for designado para gerar um documento eletrônico legalmente necessário (por exemplo, de acordo com o cenário de localização), esse serviço assumirá para manter esse formato compatível com as alterações legislativas e emitir novas versões deles sempre que as novas exigências legislativas precisarem de suporte. Para se familiarizar com os detalhes deste cenário, rode o guia de tarefa **Carregamento ER de uma configuração no Lifecycle Services** (parte do processo de negócio **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
 
 ### <a name="importing-an-er-component-from-lcs-to-use-it-internally"></a>Importação do componente de ER do LCS para usá-lo internamente
 
-ER permite importar componentes ER de LCS para a instância atual do Dynamics 365 for Operations. Um repositório do tipo **Projeto de LCS **é necessário para isso. Quando um componente de ER for importado do LCS para a instância atual do Dynamics 365 for Operations, o proprietário dessa instância se tornará um consumidor do serviço que é fornecido pelo proprietário (autor) de um componente importado. Por exemplo, se esse componente de formato for designado para gerar um documento eletrônico específico a partir do Dynamics 365 for Operations em um formato específico de certo país/região (cenário de localização), supõem-se que o consumo deste serviço terá a capacidade de obter as atualizações desse formato para mantê-la compatível com as exigências legislativas. Para se familiarizar com os detalhes deste cenário, rode o guia de tarefa **Importar ER de uma configuração no Lifecycle Services** (parte do processo de negócio **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
+ER permite importar componentes ER de LCS para a instância atual do Dynamics 365 for Operations. Um repositório do tipo **Projeto de LCS**é necessário para isso. Quando um componente de ER for importado do LCS para a instância atual do Dynamics 365 for Operations, o proprietário dessa instância se tornará um consumidor do serviço que é fornecido pelo proprietário (autor) de um componente importado. Por exemplo, se esse componente de formato for designado para gerar um documento eletrônico específico a partir do Dynamics 365 for Operations em um formato específico de certo país/região (cenário de localização), supõem-se que o consumo deste serviço terá a capacidade de obter as atualizações desse formato para mantê-la compatível com as exigências legislativas. Para se familiarizar com os detalhes deste cenário, rode o guia de tarefa **Importar ER de uma configuração no Lifecycle Services** (parte do processo de negócio **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
 
 ### <a name="building-a-format-selecting-another-format-as-a-base-customization"></a>Como criar um formato selecionando outro formato como base (personalização)
 

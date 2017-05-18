@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: fabaacbc7187b38a1745c2139a9eb7760f2be987
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a0a105ade7e47d7c554d62ee112ed03437bb7521
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -54,10 +55,10 @@ Use o designer de layout de formulário para criar graficamente o layout do docu
 5.  Depois que a instalação for concluída, insira seu nome de usuário e senha do Microsoft Dynamics 365 for Operations, e clique em **Entrar** para iniciar o designer.
 6.  Depois que suas credenciais forem validadas e o designer for iniciado, você poderá começar a criar o formato de recibo ou modificar um formato existente.
 7.  Para criar os elementos do formulário, selecione a seção **Cabeçalho**, **Linhas** ou **Rodapé** e arraste um elemento dessa seção para o espaço de trabalho. A maioria dos elementos contém variáveis que são preenchidas automaticamente com dados do banco de dados. Outros elementos, como **Texto**, permitem imprimir texto personalizado no recibo. **Observação:** você pode especificar por quantas linhas cada seção se estenderá ajustando o número no canto inferior direito dessa seção. Para facilitar a modificação de uma seção, aumente sua altura arrastando a barra de dimensionamento na parte inferior da seção. A altura da seção no espaço de trabalho não afeta o número de linhas no recibo real.
-8.  Após arrastar um elemento para o espaço de trabalho, defina as propriedades da parte no painel **Informações do objeto **na parte inferior da página. Especifique uma ou mais das seguintes configurações:
+8.  Após arrastar um elemento para o espaço de trabalho, defina as propriedades da parte no painel **Informações do objeto**na parte inferior da página. Especifique uma ou mais das seguintes configurações:
     -   **Alinhar** – defina o alinhamento do campo à **Esquerda** ou à **Direita**.
     -   **Caractere de preenchimento** – Especifique o caractere de espaço em branco. Por padrão, um espaço em branco é usado, mas você pode inserir qualquer caractere.
-    -   **Prefixo** – Insira o valor que aparece no início do campo. Essa configuração se aplica apenas à seção **Linhas **do layout.
+    -   **Prefixo** – Insira o valor que aparece no início do campo. Essa configuração se aplica apenas à seção **Linhas**do layout.
     -   **Caracteres** – Especifique o número máximo de caracteres que o campo poderá conter se o elemento tiver uma variável. Se o texto no campo for maior do que o número de caracteres que você especificar, o texto será truncado para se ajustar ao campo.
     -   **Variável** – Esta caixa de seleção será marcada automaticamente se o elemento contiver uma variável e não puder ser personalizado.
     -   **Tipo de fonte** – Defina o estilo de fonte como **Normal** ou **Negrito**. As letras em negrito usam duas vezes mais espaço que as letras normais. Portanto, alguns caracteres podem ser truncados.

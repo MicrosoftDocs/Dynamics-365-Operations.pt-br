@@ -3,7 +3,7 @@ title: "Contagem cíclica"
 description: "Este artigo descreve como você pode usar a contagem cíclica com a solução de armazenamento disponível no Gerenciamento de depósito. Este artigo não se aplica à solução de armazenamento disponível no Gerenciamento de estoque."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-18 11 - 46 - 20
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: ffc1523d53732616d77511f39b72efc8f97744eb
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 387d114936567fc471cdcafcb2e93c1704db7ead
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cycle-counting"></a>Contagem cíclica
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo descreve como você pode usar a contagem cíclica com a solução de armazenamento disponível no Gerenciamento de depósito. Este artigo não se aplica à solução de armazenamento disponível no Gerenciamento de estoque.
 
@@ -39,7 +43,6 @@ A ilustração a seguir mostra o processo de contagem cíclica. ![Fluxo de proce
 
 ## <a name="cycle-counting-prerequisites"></a>Pré-requisitos da contagem cíclica
 A tabela a seguir mostra os pré-requisitos que devem estar funcionando antes que você possa usar a contagem cíclica.
-
 <table>
 <colgroup>
 <col width="50%" />
@@ -82,7 +85,7 @@ A tabela a seguir mostra os pré-requisitos que devem estar funcionando antes qu
 <li>Agrupamento de contagens cíclicas</li>
 <li>Contagem cíclica pontual</li>
 </ul>
-Para obter mais informações, consulte <a href="configure-mobile-devices-warehouse">Configurar dispositivos móveis para trabalho de depósito</a>.</li>
+</li>
 <li>Configurar um menu para o dispositivo móvel.</li>
 <li>Crie uma conta de usuário de trabalho e atribua um menu do dispositivo móvel para a ID do usuário de trabalho.</li>
 </ul></td>
@@ -133,6 +136,9 @@ Uma diferença de contagem cíclica ocorrerá nos cenários a seguir se a opçã
 -   O valor contado difere da quantidade de estoque disponível e não há limites de desvio definidos.
 
 Você pode ajustar as diferenças no valor contado e aceitar o valor contado na página **Revisão de contagem de ciclo pendente** na página. Você pode verificar a contagem modificada da quantidade do item na página **Disponível por local**. O valor contado será rejeitado se a diferença não puder ser aprovada.
+
+# <a name="see-also"></a>Consulte também
+[Configurar dispositivos móveis para trabalho de depósito](configure-mobile-devices-warehouse.md)
 
 
 

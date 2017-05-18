@@ -3,7 +3,7 @@ title: "Conteúdo do Power BI de análise de gasto em compras"
 description: "Este tópico descreve o que está incluído no pacote de conteúdo de analise de gasto em compras para Microsoft Power BI. Ele explica como acessar os relatórios incluídos no pacote de conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o pacote de conteúdo."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-12-30 09 - 40 - 51
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 8cb928cbf1316e63a8c7de833587168cd36a455c
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d392b88942f4b7d7365b000df1cd69809060b910
+ms.openlocfilehash: e39b1677038037cd91cfad8d104d0130bc20fb9b
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="purchase-spend-analysis-power-bi-content"></a>Conteúdo do Power BI de análise de gasto em compras
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico descreve o que está incluído no pacote de conteúdo de analise de gasto em compras para Microsoft Power BI. Ele explica como acessar os relatórios incluídos no pacote de conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o pacote de conteúdo.
 
@@ -38,6 +42,7 @@ O bloco de conteúdo de teste de gasto em compras do Microsoft Power BI foi cria
 
 ## <a name="accessing-the-content-pack"></a>Acessando o pacote de conteúdo
 O pacote de conteúdo da análise de gastos de compra é publicado como um ativo de implementação no Microsoft Dynamics Lifecycle Services (LCS) e pode ser acessado pelo Microsoft Dynamics 365 for Operations. Para obter mais informações sobre como acessar e iniciar os relatórios do Power BI, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md).
+Observação: KB 4011327 é um pré-requisito para o conteúdo do Power BI. Após entrar no Lifecycle Services, você pode acessar a Base de Dados de Conhecimento: https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="metrics-that-are-included-in-the-content-pack"></a>Métricas incluídas no pacote de conteúdo
 O pacote de conteúdo da análise de gastos de compra inclui um relatório que consiste em um grupo de métricas. Estas métricas são visualizadas como gráficos, blocos e tabelas. A tabela a seguir fornece uma visão geral das visualizações no pacote de conteúdo.
@@ -129,7 +134,7 @@ O pacote de conteúdo da análise de gastos de compra inclui um relatório que c
 \* Compras este ano e no ano passado e crescimento por categoria de compra
 
 ## <a name="data-model-and-entities"></a>Modelo de dados e entidades
-Os dados do Microsoft Dynamics 365 for Operations são usados para o relatório no pacote de conteúdo de análise de gasto em compras. Esses dados são representados como medições agregadas que são preparadas na loja Entidade, que é um banco de dados Microsoft SQL otimizado para análise. Para obter mais informações sobre a loja Entidade, consulte a postagem do blog [Integração do Power BI com Loja de entidade no Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). As medidas agregadas neste pacote de conteúdo são o subconjunto de medidas agregadas que estavam disponíveis no Cubo de Compras no Microsoft Dynamics AX 2012 e Microsoft Dynamics 365 for Operations 2012 R3. Para preparar as medidas agregadas do cubo na loja Entidade, você deve torná-las implementáveis. Para obter mais informações, consulte o procedimento sobre como preparar medidas agregadas na loja Entidade na postagem do blog [Integração do Power BI com a loja Entidade no Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). As principais medidas agregadas a seguir estão disponíveis diretamente nas entidade de linhas de fatura e são usadas como base do pacote de conteúdo.
+Os dados do Microsoft Dynamics 365 for Operations são usados para o relatório no pacote de conteúdo de análise de gasto em compras. Esses dados são representados como medições agregadas que são preparadas na loja Entidade, que é um banco de dados Microsoft SQL otimizado para análise. Para obter mais informações sobre a loja Entidade, consulte a postagem do blog [Integração do Power BI com Loja de entidade no Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). As medidas agregadas neste pacote de conteúdo são o subconjunto de medidas agregadas que estavam disponíveis no Cubo de Compras no Microsoft Dynamics AX 2012 e no Microsoft Dynamics AX 2012 R3. Para preparar as medidas agregadas do cubo na loja Entidade, você deve torná-las implementáveis. Para obter mais informações, consulte o procedimento sobre como preparar medidas agregadas na loja Entidade na postagem do blog [Integração do Power BI com a loja Entidade no Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). As principais medidas agregadas a seguir estão disponíveis diretamente nas entidade de linhas de fatura e são usadas como base do pacote de conteúdo.
 
 | Entidade        | Principais medidas agregadas | Fonte de dados para o Dynamics 365 para Operações | Campo              | descrição                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
@@ -162,6 +167,8 @@ Estes são alguns links úteis relacionados às entidades e ao desenvolvimento d
 -   [Criando pacotes de conteúdo organizacionais](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Modelagem de dados por meio do Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Adicionando blocos do Power BI aos espaços de trabalho](configure-power-bi-integration.md)
+
+
 
 
 

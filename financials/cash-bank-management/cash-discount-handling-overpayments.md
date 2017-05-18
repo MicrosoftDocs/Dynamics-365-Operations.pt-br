@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 451273a8ee98f7033795182e754f76aca3788f47
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 6379f63a367dab51fa3ed6465ed8422a44ef7a7a
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Uma fatura será considerada liquidada quando o valor do pagamento for maior do 
 | R$ 105,00        | R$ 10,50                   | R$ 94,50                                               | R$ 95,00                             |
 
 ## <a name="cash-discount-administration--specific"></a>Opção de administração do desconto à vista = Específico
-Quando **Específico** for selecionado no campo **Administração de descontos à vista** na página **Contas para transações automáticas**, o desconto à vista total será obtido. O valor do pagamento a maior é lançado em uma conta contábil da diferença de desconto à vista ou permanece um saldo da conta de cliente. O comportamento depende do fato de o valor do pagamento excedente estar entre 0,00 e o valor inserido no campo ** Pagamento máximo a maior/a menor** ou se o valor do pagamento a maior for maior do que o valor de **Pagamento máximo a maior/a menor**.
+Quando **Específico** for selecionado no campo **Administração de descontos à vista** na página **Contas para transações automáticas**, o desconto à vista total será obtido. O valor do pagamento a maior é lançado em uma conta contábil da diferença de desconto à vista ou permanece um saldo da conta de cliente. O comportamento depende do fato de o valor do pagamento excedente estar entre 0,00 e o valor inserido no campo **Pagamento máximo a maior/a menor** ou se o valor do pagamento a maior for maior do que o valor de **Pagamento máximo a maior/a menor**.
 
 ### <a name="scenario-1"></a>Cenário 1
 

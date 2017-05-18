@@ -1,16 +1,16 @@
 ---
 title: "Interface do Designer de Relatórios"
 description: "Este artigo explica como navegar através do Designer de relatórios e como usar as diversas opções para atender a necessidades específicas."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-07 18 - 50 - 10
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 59041
 ms.assetid: 054de5b0-8618-4195-be12-f031b4bb4d74
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 58c56aca6f339a5ec13703605334dd45b208ab2c
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3a82d877b2fb87eef6f2b16d528ed42debbb2874
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="report-designer-interface"></a>Interface do Designer de Relatórios
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo explica como navegar através do Designer de relatórios e como usar as diversas opções para atender a necessidades específicas. 
 
@@ -159,7 +163,7 @@ O menu **Ajuda** está disponível para todos os usuários e inclui os comandos 
 
 | Comando | descrição                                                  |
 |---------|--------------------------------------------------------------|
-| Ajuda    | Abra a página de wiki de Ajuda do Dynamics 365 for Operations para relatórios financeiros. |
+| Ajuda    | Abra a página do tópico de ajuda do Dynamics 365 for Operations para relatórios financeiros. |
 |         |                                                              |
 
 ## <a name="report-designer-toolbar-buttons"></a>Botões da barra de ferramentas do Designer de Relatórios
@@ -225,8 +229,10 @@ A barra de ferramentas do designer de relatórios fornece acesso rápido aos com
 <a name="see-also"></a>Consulte também
 --------
 
-[Relatório financeiro do Microsoft Dynamics ERP](financial-reporting-intro.md)
+[Relatórios financeiros](financial-reporting-intro.md)
 
-[Gerar um relatório financeiro](\financials\general-ledger\generate-financial-report.md)
+[Gerar um relatório financeiro](generate-financial-report.md)
+
+
 
 

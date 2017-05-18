@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: 38bce4a843f0db575c8d1ba08b7dc2ece8366663
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d2e1ff40f5735f69a3fcdf3a85335f157e1a1a6f
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -66,21 +67,21 @@ Se você estiver criando uma nova gravação de tarefa ou baseando sua gravaçã
 
 Este é o painel de edição que é exibido quando você adiciona uma anotação durante a criação da gravação. Insira uma nota de título na caixa **Título**. 
 
-[![screen1](./media/screen1.png)](./media/screen1.png) 
+[![tela1](./media/screen1.png)](./media/screen1.png) 
 
 É assim que a anotação de título se parece na "bolha" no guia de tarefas. 
 
-[![screen2](./media/screen2.png)](./media/screen2.png)
+[![tela2](./media/screen2.png)](./media/screen2.png)
 
 -   **Observações:** Uma anotação de observação aparecerá depois do texto da etapa que o gravador de tarefas gera automaticamente. No guia de tarefa isso será visível apenas se o usuário clicar no link **Mostrar mais** na bolha da guia de tarefa. Utilize este tipo de anotação para descrever qualquer coisa que um usuário precisa saber para concluir a etapa.
 
 Este é o painel de edição que é exibido quando você adiciona uma anotação durante a criação da gravação. Insira notas de título na caixa **Notas**. 
 
-[![screen3](./media/screen3.png)](./media/screen3.png) 
+[![tela3](./media/screen3.png)](./media/screen3.png) 
 
 É assim que as anotações de título se parece na "bolha" no guia de tarefas.
 
-[![screen4](./media/screen4.png)](./media/screen4.png)
+[![tela4](./media/screen4.png)](./media/screen4.png)
 
 -   **Etapa de informações**: Essas anotações são criadas clicando com o botão direito do mouse em um controle ou em qualquer lugar em um formulário &lt; **Registrador de tarefas** &lt; **Adicionar etapa de informações. **As etapas de informações aparecem como um passo numerado no ponto em que você o insere, mesmo que nenhuma ação tenha sido registrada na interface do usuário. Você pode adicionar uma etapa informativa de nível de formulário ou uma etapa informativa associada a um controle. Quando uma etapa informativa está associada a um formulário, a "bolha" do guia de tarefa irá aparecer em algum lugar do formulário, sem um ponteiro, quando o guia de tarefa for executado. Quando uma etapa de informação é associada a um controle, a guia de tarefas "bolha" aponta para o controle quando o guia de tarefas é reproduzido. No painel de Ajuda, uma anotação de passo de informações será exibida como uma etapa numerada com qualquer texto digitado. Utilize etapas informativas para preparar o usuário para as próximas etapas, para descrever etapas que devem ser feitas fora do Dynamics 365 for Operations, ou para fazer referência a outras gravações (embora não seja possível criar hiperlinks nas anotações).
 

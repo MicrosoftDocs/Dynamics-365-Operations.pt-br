@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: bcf59ea8862280675c9fb711d2aab1e8dff18806
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0285103ef30ebf8322f2bf60941b07c7496e9c70
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Exibir e avaliar os resultados de um questionário
+
+[!include[banner](includes/banner.md)]
+
 
 Este tópico explica como você pode exibir e avaliar os resultados dos questionários que os entrevistados concluem. 
 
@@ -56,7 +60,8 @@ Na página **Respostas**, você pode exibir detalhes sobre respostas, pontos gan
 -   **Relatório de respostas** – Este relatório mostra as respostas que o participante selecionou para cada pergunta do questionário.
 -   **Respostas incorretas** – Este relatório mostra informações relacionadas às respostas incorretas que o participante selecionou.
 
-**Observação:** O relatório de **Resultados** está disponível somente se você usar grupos de resultados do questionário, e se você selecionou **Página de resultados** na página **Questionários**. O relatório de **Respostas** e o relatório de **Respostas incorretas** só estarão disponíveis se você selecionou **Relatório de respostas** na página **Questionários**.
+> **Observação**
+>   O relatório **Resultados** está disponível somente se você usar grupos de resultados do questionário, e se você selecionou a **Página de resultados** na página **Questionários**. O relatório de **Respostas** e o relatório de **Respostas incorretas** só estarão disponíveis se você selecionou **Relatório de respostas** na página **Questionários**.
 
 ## <a name="questionnaire-statistics"></a>Estatísticas do questionário
 Você pode usar as estatísticas do questionário para analisar os resultados de um questionário preenchido, com base nos cálculos definidos por você. Para definir os cálculos, você deve concluir as seguintes tarefas:
@@ -79,5 +84,7 @@ As configurações que você define são salvas e podem ser usadas para recalcul
 [Usando questionários](questionnaires.md)
 
 [Distribuindo e preenchendo questionários](distribute-questionnaires.md)
+
+
 
 

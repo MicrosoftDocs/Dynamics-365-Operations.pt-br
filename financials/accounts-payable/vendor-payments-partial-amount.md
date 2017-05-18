@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 4d243e6a9a68b69a6b32748344fc606ff3f2d965
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: eeed8bc4ad0fc24b04055e26bb33c2c56856c52b
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -49,7 +50,7 @@ Por exemplo, você recebe um desconto à vista de 2% caso a fatura seja paga em 
 ## <a name="credit-notes-with-cash-discounts"></a>Notas de crédito com descontos à vista
 Você poderia devolver alguns dos itens em uma fatura e receberia uma nota de crédito. Se um desconto à vista tiver sido retirado da fatura original, você poderá subtrair o valor do desconto e receber um reembolso do valor correto. Se a opção **Calcular descontos em dinheiro para notas de crédito** estiver definida como **Sim** na página **Parâmetros de contas a pagar**, o desconto é calculado automaticamente para a nota de crédito. 
 
-Por exemplo, você recebe um desconto à vista de 2% caso a fatura seja paga em até 10 dias após a emissão. Uma fatura de 100,00 é lançada. Se você devolver a mercadoria e receber uma nota de crédito, poderá inserir a nota de crédito para o valor total da fatura original, 100,00, juntamente com o desconto de 2% que também é definido na nota de crédito.  Quando você exibe a nota de crédito na página **Liquidar transações**,** 98,00** aparece no campo **Valor para liquidar** e **-2,00** aparece no campo **Valor do desconto à vista**. O valor do desconto é lançado em uma conta de desconto à vista.
+Por exemplo, você recebe um desconto à vista de 2% caso a fatura seja paga em até 10 dias após a emissão. Uma fatura de 100,00 é lançada. Se você devolver a mercadoria e receber uma nota de crédito, poderá inserir a nota de crédito para o valor total da fatura original, 100,00, juntamente com o desconto de 2% que também é definido na nota de crédito.  Quando você exibe a nota de crédito na página **Liquidar transações**,**98,00** aparece no campo **Valor para liquidar** e **-2,00** aparece no campo **Valor do desconto à vista**. O valor do desconto é lançado em uma conta de desconto à vista.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Valores de pagamento a maior/a menor
 Você pode fazer um pagamento parcial em que o valor a ser liquidado é muito pequeno. Por exemplo, a fatura de fornecedor é de 1.000,00 e você paga 999,90. Se o valor restante for menor do que o valor especificado para pagamentos a maior ou para pagamentos a menor na página **Parâmetros de contas a pagar**, a diferença será automaticamente lançada em uma conta conta contábil de pagamento a maior/a menor.

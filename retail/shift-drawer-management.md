@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 09c7fce1fa83d6a8d6391db667b7260d2a199390
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: bca8431e88ea73060c75774ae55611f95016e9a1
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -88,7 +89,7 @@ Uma mudança compartilhada é usada em um ambiente onde vários caixas compartil
 4.  Selecione **Criar um novo turno**.
 5.  Selecione **Declarar Valor Inicial**.
 6.  Insira o valor inicial de todas as registradoras na loja que fazem parte do turno compartilhado e, em seguida, clique em **Salvar**.
-    -   Para adicionar a parte do valor inicial para cada registradora subsequente, use a operação **Selecionar estação de hardware **para ativar a estação de hardware.
+    -   Para adicionar a parte do valor inicial para cada registradora subsequente, use a operação **Selecionar estação de hardware**para ativar a estação de hardware.
     -   Para adicionar uma gaveta a uma registradora específica, use a operação **Abrir gaveta**.
     -   Continue até que todas as registradoras em mudança compartilhada tenham sua parte do valor inicial.
 

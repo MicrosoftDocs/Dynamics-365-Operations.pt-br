@@ -3,7 +3,7 @@ title: "Nota fiscal eletrônica para serviços do Brasil"
 description: "Este tópico oferece uma visão geral da nota fiscal eletrônica de serviço."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,19 +17,24 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: 51f3a4495396f9144dddad48bf83989860118b98
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ed6631a256452253314f683587a0bf2ddf8a0985
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="electronic-fiscal-document-for-services"></a>Nota fiscal eletrônica para serviços
 
+[!include[banner](../includes/banner.md)]
+
+
 Este tópico oferece uma visão geral da nota fiscal eletrônica de serviço.
 
-Quando uma nota fiscal for sobre serviços no Brasil, regras diferentes serão aplicadas a uma nota fiscal eletrônica comum. O modelo de uma nota fiscal de serviços no Brasil é SE e inclui os impostos ISS, PIS e COFINS.[ ](https://msdynamics.blob.core.windows.net/media/2017/02/ServiceFiscalDocument.jpg)
+Quando uma nota fiscal for sobre serviços no Brasil, regras diferentes serão aplicadas a uma nota fiscal eletrônica comum. O modelo de uma nota fiscal de serviços no Brasil é SE e inclui os impostos ISS, PIS e COFINS. 
+[![Documento fiscal de serviço](./media/ServiceFiscalDocument.png)](./media/ServiceFiscalDocument.png) 
 
 ## <a name="recibo-provisorio-de-servicos-rps-document"></a>Documento RPS (Recibo Provisório de Serviços)
 Quando uma empresa emite uma nota fiscal de serviço, dependendo da cidade na qual a fatura foi emitida, alguma regras e formatos podem ser aplicados. Por exemplo, na cidade de São Paulo, a nota fiscal de serviço é emitida como uma fatura de serviço temporária ou RPS. Esse documento torna-se uma nota fiscal eletrônica de serviço oficial quando ele é aprovado pela autoridade fiscal da cidade. Depois de aprovada, a empresa emite uma nota fiscal eletrônica de serviço oficial.
@@ -96,5 +101,7 @@ Na página **Importar arquivo RPS**, insira as seguintes informações:
 -   **Tipo de documento fiscal** - Selecione o tipo de documento fiscal para a nota fiscal eletrônica de serviços.
 
 Quando você importa uma nota fiscal eletrônica para serviços, as informações sobre essa nota fiscal, como a data de importação de RPS, o número da nota fiscal, a data da nota fiscal e o número de validação, são atualizadas com base no grupo do layout de arquivo de retorno especificado no campo **Grupo de layouts de arquivo de retorno** na página **Tipos de documento fiscal**.
+
+
 
 

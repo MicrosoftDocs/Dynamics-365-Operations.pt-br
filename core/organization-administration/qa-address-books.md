@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 444ffcc8a14650085e24d0ea0d7f725e9d324d69
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f3d34f9ee0c9db97e79b8577d006b198f9a5cb29
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -41,8 +42,8 @@ Você pode verificar registros duplicados diretamente na página de listagem **C
 ## <a name="can-i-bulk-add-or-delete-party-records-from-an-address-book"></a>Posso adicionar ou excluir registros de participante em massa a partir de um catálogo de endereços?
 Sim, você pode adicionar vários registros de participante em um catálogo de endereços e também remover vários registros de participante.
 
--   Para adicionar vários registros de participante a um catálogo de endereços, na página de listagem **Catálogo de endereços global **, selecione os participantes na lista. Em seguida, no Painel de Ação, na guia **Participante **, no grupo **Manter **, clique em **Atribuir participantes**. Selecione os catálogos de endereços aos quais adicionar os registros de participantes selecionados e clique em **OK**. Todos os registros de participantes selecionados são adicionados aos catálogos de endereços selecionados.
--   Para remover vários registros de participante de um catálogo de endereços, na página de listagem **Catálogo de endereços global **, selecione os participantes na lista. Em seguida, no Painel de Ação, na guia **Participante **, no grupo **Manter **, clique em **Remover participantes**. Selecione os catálogos de endereços dos quais deseja remover os participantes e clique em **OK**. Todos os registros de participantes selecionados são removidos dos catálogos de endereços selecionados.
+-   Para adicionar vários registros de participante a um catálogo de endereços, na página de listagem **Catálogo de endereços global**, selecione os participantes na lista. Em seguida, no Painel de Ação, na guia **Participante**, no grupo **Manter**, clique em **Atribuir participantes**. Selecione os catálogos de endereços aos quais adicionar os registros de participantes selecionados e clique em **OK**. Todos os registros de participantes selecionados são adicionados aos catálogos de endereços selecionados.
+-   Para remover vários registros de participante de um catálogo de endereços, na página de listagem **Catálogo de endereços global**, selecione os participantes na lista. Em seguida, no Painel de Ação, na guia **Participante**, no grupo **Manter**, clique em **Remover participantes**. Selecione os catálogos de endereços dos quais deseja remover os participantes e clique em **OK**. Todos os registros de participantes selecionados são removidos dos catálogos de endereços selecionados.
 
 ## <a name="can-i-change-the-party-type-of-a-record-or-do-i-have-to-delete-the-old-record-and-create-a-new-one"></a>Posso alterar o tipo de participante de um registro, ou preciso excluir o registro antigo e criar um novo?
 Ocasionalmente, pode ser necessário alterar o tipo de participante de um registro de pessoa para organização ou de organização para pessoa. Por exemplo, Nancy é parte da equipe de vendas da Fabrikam U.K. Em uma feira profissional em Londres, ela encontra seis novos clientes potenciais. Nancy cria um registro de cliente potencial participante para cada um deles. Quando Nancy salva os registros, cada registro é criado também no catálogo de endereços global. A Fabrikam definiu o tipo padrão de participante como organização, mas dois dos novos clientes potenciais devem ter um tipo de registro de pessoa. Portanto, quando Nancy retornar de feira profissional, deverá alterar o tipo de participante dos dois registros de clientes potenciais. Para alterar um registro de participante de um tipo para outro, primeiro você deve criar um novo registro de participante do tipo correto no catálogo de endereços global. Associe o registro de participante antigo a esse novo registro. Depois de fazer a nova associação de participante, exclua o registro de participante original que tem o tipo de registro incorreto.

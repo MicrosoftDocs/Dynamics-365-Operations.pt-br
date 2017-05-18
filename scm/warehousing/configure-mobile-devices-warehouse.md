@@ -3,7 +3,7 @@ title: "Configurar dispositivos móveis para trabalho de depósito"
 description: "Este artigo descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 34d7b246d74d1546b54494944903d160e31f7678
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a964587fa5dd48f0ed4e9f2c67fb52e5071ac98d
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móveis para trabalho de depósito
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel.
 
@@ -315,7 +319,7 @@ A seguinte tabela descreve as opções.
 </tr>
 <tr class="even">
 <td>Exibir status do estoque</td>
-<td>Marque essa opção para exibir o status de itens em estoque. Para obter mais informações, consulte <a href="/inventory/inventory-statuses.md">Vantagens de usar status de estoque</a>. Essa opção está disponível para todos os itens de menu que usam trabalho existente, exceto a contagem cíclica.</td>
+<td>Marque essa opção para exibir o status de itens em estoque. Essa opção está disponível para todos os itens de menu que usam trabalho existente, exceto a contagem cíclica.</td>
 </tr>
 <tr class="odd">
 <td>Exibir resumo de tela de separação</td>
@@ -411,6 +415,8 @@ A tabela a seguir descreve os vários tipos de trabalho que você pode usar em c
 
 [Configurar um item de menu do dispositivo móvel para concluir o trabalho do tipo Ordem de compra (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
-[Configurar um item de menu do dispositivo móvel para registrar itens recebidos (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Configurar um item de menu de dispositivo móvel para registrar itens recebidos (guia de tarefa)](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[Vantagens em usar status de estoque](../inventory/inventory-statuses.md)
+
 
 

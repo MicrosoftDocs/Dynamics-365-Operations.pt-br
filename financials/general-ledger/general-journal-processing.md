@@ -3,7 +3,7 @@ title: "Processamento do diário geral"
 description: "Este artigos descrevem os recursos do Microsoft Dynamics 365 for Operations que podem ajudar a facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ef99caf4570969d2b920cec8b53669ce2094965
-ms.openlocfilehash: 50cd203025be8857de943e458fc32315e494fb7a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c020566928cecc15bd7de504164f5adbf34eda44
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -31,7 +32,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigos descrevem os recursos do Microsoft Dynamics AX que podem ajudar a facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido.  
+Este artigos descrevem os recursos do Microsoft Dynamics 365 for Operations que podem ajudar a facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido.  
 
 Nomes de diário
 
@@ -52,7 +53,7 @@ Um nome de diário pode ser usado somente para um segmento específico ou para u
 A opção **Estorno automático** está disponível em diários gerais. Por exemplo, você tem um ajuste de competência em que o documento real ainda não foi processado, conforme mostrado na ilustração.
 [![Processamento do Diário geral](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-O suplemento do Microsoft Excel para a entrada de diário fornece um nível adicional de automação e facilita a entrada de dados. A ação **Abrir linhas no Excel ** está disponível nas páginas **Diário geral** e **Comprovante de diário**. 
+O suplemento do Microsoft Excel para a entrada de diário fornece um nível adicional de automação e facilita a entrada de dados. A ação **Abrir linhas no Excel** está disponível nas páginas **Diário geral** e **Comprovante de diário**. 
 
 Na página **Diários periódicos**, você pode configurar diários de devolução para automatizar o processamento do diário. 
 
@@ -82,6 +83,7 @@ A configuração da conta principal fornece várias opções para o processament
 As estruturas de contabilidade e as estruturas de regras avançadas são muito importantes para garantir que os dados necessários para relatórios financeiros e rastreamento de desempenho sejam capturados durante o processamento do diário geral e em qualquer outra documentação. As estruturas de contabilidade e as estruturas de regras avançadas permitem personalizar a experiência da entrada de dados. Você pode permitir a entrada de dados somente para as dimensões financeiras que são relevantes para cada situação, e também pode forçar a exigência de captura de dados obrigatórios e corretos.
 
 Para obter mais informações, consulte [Planejamento: Plano de contas](plan-chart-of-accounts.md). 
+
 
 
 

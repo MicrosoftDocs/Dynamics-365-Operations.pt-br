@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 1bc458d58834be1e2e9b602619f76424b3bb449b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 62dcc8a9b17ad044ac63080a94593a5f6ae2f182
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -48,14 +49,14 @@ Um **grupo de remuneração** é um componente de configuração opcional que é
 
 ### <a name="position-forecasting-processes"></a>Processos de previsão de posição
 
-[![graphic1b](./media/graphic1b.png)](./media/graphic1b.png) 
+[![gráfico1b](./media/graphic1b.png)](./media/graphic1b.png) 
 
 Em um processo típico de previsão da posição, crie primeiro os componentes de configuração (elementos de custo de orçamento e grupos de remuneração). As posições de previsão são geradas com base em posições existentes. É possível fazer ajustes. Por exemplo, você pode adicionar ou finalizar posições, mudar taxas de pagamento e custos de benefício, e adicionar aumentos de salário. Você pode criar várias versões de uma posição de previsão para facilitar comparações entre diferentes cenários de orçamento. Em seguida, você pode incluir as posições de previsão em planos de orçamento e incluir os custos das posições de previsão como linhas do plano de orçamento.
 
 Você pode criar versões adicionais da posição de previsão à medida que planos de orçamento são revisados. Essas novas versões fornecem a base das revisões.
 
 ## <a name="position-forecasting-setup"></a>Configuração da previsão de posição
-[![graphic2](./media/graphic2-1024x327.png)](./media/graphic2.png)
+[![gráfico2](./media/graphic2-1024x327.png)](./media/graphic2.png)
 
 ### <a name="budget-cost-elements"></a>Elementos de custo do orçamento
 
@@ -92,7 +93,7 @@ Os campos **Agenda de aumentos** e **Data do aumento** no grupo de remuneração
 O elemento de custo de ganho selecionado no grupo de remuneração é usado quando você cria os ganhos para as previsões de posições no grupo, incluindo o pagamento base e todos os aumentos de etapa. O campo **Plano de remuneração fixa** vincula o grupo de remuneração a um plano de remuneração fixa em Recursos humanos. Esse link pode atribuir as informações de remuneração fixa de um trabalhador a uma previsão de posição, e pode tornar o planejamento de orçamento mais preciso. Lembre-se de que a estrutura da grade de compensação (os níveis e as etapas) para o grupo de remuneração deve corresponder à estrutura do plano de remuneração fixa. Caso contrário, o sistema não pode vincular corretamente o grupo de remuneração e o plano de remuneração fixa.
 
 ## <a name="creating-forecast-positions"></a>Como criar previsões de posições
-[![graphic3](./media/graphic3-1024x327.png)](./media/graphic3.png)
+[![gráfico3](./media/graphic3-1024x327.png)](./media/graphic3.png)
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Como criar previsões de posições para posições existentes
 
@@ -108,7 +109,7 @@ Quando a opção **Atribuir um grupo de remuneração** está definida como **Si
 
 A configuração da opção **Atribua um grupo de remuneração** tem precedência sobre a configuração **Atribuição do elemento de custo de orçamento**. As duas configurações podem ser usadas ao mesmo tempo. 
 
-[![graphic4](./media/graphic4.png)](./media/graphic4.png) 
+[![gráfico4](./media/graphic4.png)](./media/graphic4.png) 
 
 Outra opção é atribuir uma data de aniversário. A data selecionada (data inicial ajustada, data inicial do trabalhador, data inicial de emprego ou data de tempo de serviço) do trabalhador atribuído está definida como a data de aniversário da previsão de posição, e é usada para informações e quando aumentos de pagamento são gerados.
 
@@ -121,7 +122,7 @@ Quando uma previsão de posição for selecionada, selecione **Copiar a previsã
 Você também pode criar uma previsão de posição totalmente nova. Selecione um trabalho existente, e também o cenário de processamento de planejamento do orçamento e de plano de orçamento. Você pode adicionar outros detalhes a serem adicionados. Mais uma vez, uma nova posição é criada em Recursos humanos ao mesmo tempo.
 
 ## <a name="working-with-forecast-positions"></a>Trabalho com previsões de posições
-[![graphic5](./media/graphic5-1024x327.png)](./media/graphic5.png)
+[![gráfico5](./media/graphic5-1024x327.png)](./media/graphic5.png)
 
 ### <a name="multiple-versions-of-a-forecast-position"></a>Várias versões de uma previsão de posição
 
@@ -177,7 +178,7 @@ O processo de recálculo é usado automaticamente em qualquer previsão de posi�
 
 ## <a name="bringing-forecast-positions-into-budget-plans"></a>Como trazer previsões de posições para planos de orçamento
 
-[![graphic6](./media/graphic6-1024x327.png)](./media/graphic6.png)
+[![gráfico6](./media/graphic6-1024x327.png)](./media/graphic6.png)
 
 A finalidade de criar e modificar previsões de posições é adicioná-las a planos de orçamento, de modo que esses planos incluam os valores de orçamento mais precisos. Há dois métodos para adicionar previsões de posições a planos de orçamento. Você pode usar um processo de geração ou um processo de seleção no plano de orçamento.
 

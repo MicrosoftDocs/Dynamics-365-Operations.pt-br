@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 2f14e9227ef56f428d18999aa7b52254580cdfa4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d37531eb746324c6ddb9ca363f2bde1dfd84a197
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,11 +56,11 @@ Depois que o modelo é criado, você deve atribuir o modelo aos clientes que voc
 Um cliente pode ter vários modelos que têm frequências diferentes.
 
 ## <a name="generate-the-recurring-invoices"></a>Gerar as faturas recorrentes
-Na página **Faturas recorrentes **, há uma tarefa que processa modelos da fatura recorrente. Especifique a data da fatura e o modelo para gerar faturas. As faturas serão geradas e atribuídas a um único número de identificação de recorrência para cada grupo de faturas que é processado.
+Na página **Faturas recorrentes**, há uma tarefa que processa modelos da fatura recorrente. Especifique a data da fatura e o modelo para gerar faturas. As faturas serão geradas e atribuídas a um único número de identificação de recorrência para cada grupo de faturas que é processado.
 Lançar faturas de texto livre recorrentes
 ---------------------------------
 
-Depois que as faturas recorrentes são geradas, as IDs de recorrência da fatura aparecem em uma tarefa de lançamentos na página **Faturas recorrentes **. Você pode exibir todas as faturas para um ID de recorrência se você clicar no link. Durante a revisão de faturas para o ID de recorrência, você pode excluir faturas individuais. As configurações de recorrência do cliente serão redefinidas para esse modelo, de modo que possa ser gerado novamente depois. Você pode lançar uma, muitas ou todas as faturas para uma ID de recorrência. Se os fluxos de trabalho estiverem habilitados, você deverá clicar em **Enviar** antes de lançar as faturas.
+Depois que as faturas recorrentes são geradas, as IDs de recorrência da fatura aparecem em uma tarefa de lançamentos na página **Faturas recorrentes**. Você pode exibir todas as faturas para um ID de recorrência se você clicar no link. Durante a revisão de faturas para o ID de recorrência, você pode excluir faturas individuais. As configurações de recorrência do cliente serão redefinidas para esse modelo, de modo que possa ser gerado novamente depois. Você pode lançar uma, muitas ou todas as faturas para uma ID de recorrência. Se os fluxos de trabalho estiverem habilitados, você deverá clicar em **Enviar** antes de lançar as faturas.
 Imprimir faturas de texto livre recorrentes
 ----------------------------------
 

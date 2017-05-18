@@ -3,7 +3,7 @@ title: Funcionalidade de Designer de BOM
 description: "Este artigo descreve como você pode usar a página do designer de BOM para criar e trabalhar com estruturas de árvore para listas de materiais (BOMs). Você pode clicar em Configurar para selecionar diferentes configurações e especificar quais informações aparecem nas linhas da árvore."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-08 21 - 09 - 22
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 2c98039c9fa8179408394f9f66b9fca0f8cad3fe
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ff482c183276a99a3c9a632d41d9121bf77befbf
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="bom-designer-functionality"></a>Funcionalidade de Designer de BOM
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo descreve como você pode usar a página do designer de BOM para criar e trabalhar com estruturas de árvore para listas de materiais (BOMs). Você pode clicar em Configurar para selecionar diferentes configurações e especificar quais informações aparecem nas linhas da árvore.
 
@@ -95,7 +99,7 @@ O filtro aplicado para que a BOM e o roteiro sejam exibidos no cabeçalho do Des
 Quando você usa o Designer de BOM para revisar ou editar BOMs que consistem em um ou mais níveis de fantasmas, o roteiro associado ao item superior normalmente se estende pela hierarquia completa da BOM. Para simplificar a visão geral, você pode bloquear o roteiro de nível superior na exibição ao clicar em **Exibir** &gt; **Bloquear roteiro**. Para desbloquear o roteiro, clique em **Exibir** &gt; **Desbloquear roteiro**.
 
 ## <a name="adding-and-editing-boms-and-bom-lines"></a>Adicionar e editar BOMs e linhas de BOM
-Use as funções **Linhas de BOM** ou **BOM** para alterar as linhas de BOM ou a BOM. Quando você seleciona um nó na árvore, o tipo de nó determina as funções disponíveis.
+Use as funções **Linhas de BOM**ou **BOM** para alterar as linhas de BOM ou a BOM. Quando você seleciona um nó na árvore, o tipo de nó determina as funções disponíveis.
 
 | Função                            | descrição                                                                                               | Tipo de nó e condições                                                                                                                                                                                                                                                                       |
 |-------------------------------------|-----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -115,6 +119,8 @@ Clique em **Configuração** para personalizar as informações mostradas no mod
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | BOM         | Use as caixas de seleção para marcar os critérios mostrados na estrutura de árvore. O Designer de BOM exibe os critérios selecionados na parte inferior das duas guias. |
 | Roteiro       | Use as caixas de seleção para marcar os critérios mostrados nos roteiros.                                                                                    |
+
+
 
 
 

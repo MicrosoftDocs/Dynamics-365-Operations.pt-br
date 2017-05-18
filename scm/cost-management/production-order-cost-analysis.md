@@ -3,7 +3,7 @@ title: "Análise de custo da ordem de produção"
 description: "Este artigo oferece informações sobre a análise de custo que você pode fazer para as ordens de produção concluídas e atuais. Você pode analisar os custos estimados e os custos reais usando a página Cálculo de preço ou o relatório Estimativas de custo e avaliações de custo. É possível visualizar as informações sobre os custos estimados e reais (incluindo a quantidade) para cada item de componente, operação de roteiro e custo indireto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-04-11 13 - 25 - 42
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f931432f6dc919d448ed690a1deae3d64bebe455
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: acb8e49ed86d3e22ba8e343280f77c0644f057c6
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="production-order-cost-analysis"></a>Análise de custo da ordem de produção
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo oferece informações sobre a análise de custo que você pode fazer para as ordens de produção concluídas e atuais. Você pode analisar os custos estimados e os custos reais usando a página Cálculo de preço ou o relatório Estimativas de custo e avaliações de custo. É possível visualizar as informações sobre os custos estimados e reais (incluindo a quantidade) para cada item de componente, operação de roteiro e custo indireto.
 
@@ -40,21 +44,27 @@ As variações refletem uma comparação das atividades de produção relatadas 
 -   Variação do preço de produção
 -   Variação de substituição de produção
 
-O diagrama a seguir mostra as quatro variações consideradas para a diferença entre os custos reais de uma ordem de produção e os custos calculados na registro de custo do item quando a ordem de produção é finalizada. ![As variações que contam para as diferenças em uma ordem de produção concluída](./media/control.jpg) Você pode analisar as variações de produção usando a página **Variação** ou o relatório **Variação de produto**. Use as opções de exibição para exibir as variações detalhadas por item e por recurso de operações ou por grupo de custos. A política de divisão de custos nos parâmetros de estoque determina se as variações serão monitoradas por grupo de custos. Você também pode usar as opções de exibição **única**, **multi** e **total** para exibir variações resumidas. As informações sobre as variações detalhadas podem ajudar a compreender a origem de cada variação. Para prever as variações antes de finalizar uma ordem de produção, analise as informações detalhadas fornecidas no relatório **Estimativas de custo e avaliações de custo**.
+O diagrama a seguir mostra as quatro variações consideradas para a diferença entre os custos reais de uma ordem de produção e os custos calculados na registro de custo do item quando a ordem de produção é finalizada. 
+
+![Variações que são consideradas diferenças em uma ordem de produção concluída](./media/control.jpg) 
+
+Você poderá analisar as variações de produção usando a página **Variação** ou o relatório **Variação de produção**. Use as opções de exibição para exibir as variações detalhadas por item e por recurso de operações ou por grupo de custos. A política de divisão de custos nos parâmetros de estoque determina se as variações serão monitoradas por grupo de custos. Você também pode usar as opções de exibição **única**, **multi** e **total** para exibir variações resumidas. As informações sobre as variações detalhadas podem ajudar a compreender a origem de cada variação. Para prever as variações antes de finalizar uma ordem de produção, analise as informações detalhadas fornecidas no relatório **Estimativas de custo e avaliações de custo**.
 
 ## <a name="cost-analysis-for-current-production-orders"></a>Análise de custo para ordens de produção atuais
-Relatórios separados fornecem informações sobre cada tipo de transação. Use esses relatórios para analisar custos para atividades de produção relatadas. As informações são exibidas somente para ordens de produção atuais com o status **Iniciada** ou** Relatada como concluída**.
+Relatórios separados fornecem informações sobre cada tipo de transação. Use esses relatórios para analisar custos para atividades de produção relatadas. As informações são exibidas somente para ordens de produção atuais com o status **Iniciada** ou**Relatada como concluída**.
 
--   **Materiais em andamento **− esse relatório lista as transações de lista de separação relatadas contra as ordens de produção atuais a partir da data de transação especificada. O relatório indica a quantidade de um componente emitida e o valor de custo para cada transação. Use os critérios de seleção de um único item do componente. Por exemplo, você pode imprimir informações sobre a quantidade emitida do componente contra as ordens de produção aplicáveis. A quantidade emitida não é atualizada pelas quantidades relatadas como concluídas para o item principal. Portanto, a quantidade real de matérias-primas em processamento poderá ser exagerada.
--   **Trabalho em andamento **− esse relatório lista as transações de roteiro (ou transações de trabalho) relatadas contra as ordens de produção atuais a partir da data de transação especificada. O relatório indica as horas, o valor e a quantidade (quantidade sem erros e quantidade com erros) relatados para cada transação. Também inclui informações como o número da operação, a ID da operação e o recurso de operações. Adicionalmente, esse relatório mostra o valor e o tempo totais de todas as transações em relação à ordem de produção e a quantidade relatada como concluída.
--   **Custos indiretos em andamento **− esse relatório lista os custos indiretos que foram incorridos conta ordens de produção. Esses dados são feitos com base no consumo de operações de roteiro e de componentes a partir de uma data de transação especificada. Esse relatório indica o tipo de custo indireto (sobretaxa ou taxa), o código da folha de custos para o custo indireto e o valor do custo para cada transação. Esse relatório não fornece informações sobre o cartão de roteiro ou a transação da lista de separação que gerou o custo indireto.
--   **Avaliação de custo de produção em andamento **− o relatório lista o consumo combinado de materiais, operações de roteiro e custo indireto contra as ordens de produção a partir de uma data de transação específica.
--   **Itens concluídos em andamento **− o relatório lista ordens de produção atuais e as transações relatadas como concluídas a partir da data de transação especificada.
+-   **Materiais em andamento**− esse relatório lista as transações de lista de separação relatadas contra as ordens de produção atuais a partir da data de transação especificada. O relatório indica a quantidade de um componente emitida e o valor de custo para cada transação. Use os critérios de seleção de um único item do componente. Por exemplo, você pode imprimir informações sobre a quantidade emitida do componente contra as ordens de produção aplicáveis. A quantidade emitida não é atualizada pelas quantidades relatadas como concluídas para o item principal. Portanto, a quantidade real de matérias-primas em processamento poderá ser exagerada.
+-   **Trabalho em andamento**− esse relatório lista as transações de roteiro (ou transações de trabalho) relatadas contra as ordens de produção atuais a partir da data de transação especificada. O relatório indica as horas, o valor e a quantidade (quantidade sem erros e quantidade com erros) relatados para cada transação. Também inclui informações como o número da operação, a ID da operação e o recurso de operações. Adicionalmente, esse relatório mostra o valor e o tempo totais de todas as transações em relação à ordem de produção e a quantidade relatada como concluída.
+-   **Custos indiretos em andamento**− esse relatório lista os custos indiretos que foram incorridos conta ordens de produção. Esses dados são feitos com base no consumo de operações de roteiro e de componentes a partir de uma data de transação especificada. Esse relatório indica o tipo de custo indireto (sobretaxa ou taxa), o código da folha de custos para o custo indireto e o valor do custo para cada transação. Esse relatório não fornece informações sobre o cartão de roteiro ou a transação da lista de separação que gerou o custo indireto.
+-   **Avaliação de custo de produção em andamento**− o relatório lista o consumo combinado de materiais, operações de roteiro e custo indireto contra as ordens de produção a partir de uma data de transação específica.
+-   **Itens concluídos em andamento**− o relatório lista ordens de produção atuais e as transações relatadas como concluídas a partir da data de transação especificada.
 
 
 <a name="see-also"></a>Consulte também
 --------
 
 [Fontes comuns de variações de produção](common-sources-of-production-variances.md)
+
+
 
 

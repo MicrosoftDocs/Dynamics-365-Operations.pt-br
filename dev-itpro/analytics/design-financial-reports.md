@@ -1,7 +1,7 @@
 ---
 title: "Exibição e criação de relatórios financeiros"
-description: "Este artigo fornece exercícios que o conduzem pela exibição e criação de relatórios financeiros do Microsoft Dynamics 365 for Operations. Os relatórios financeiros consistem de uma experiência de exibição no Dynamics 365 for Operations e o criador de relatórios de clique único que permite que você crie e edite relatórios financeiros."
-author: twheeloc
+description: "Este artigo fornece exercícios que o conduzem pela exibição e criação de relatórios financeiros do Microsoft Dynamics 365 for Operations."
+author: jcart1106
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3319fa0a919ca5e2737319f5cdc4190cf32d59b6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: 635e9e90c63330b3d8b0cc46f16a36fa44ef915d
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -96,7 +97,7 @@ Neste exercício, você modificará um relatório padrão existente. Você atual
 22. Na definição de relatório **Balancete detalhado com atributos**, selecione Balancete detalhado com atributos para as definições da linha e de coluna.
 23. Alterar o ano base para **2012.**
 24. **Salvar** a definição de relatório e **gerar**. Depois de concluir a geração dos relatórios e de abri-los, é possível explorar o relatório, como foi feito no primeiro ano. Fazer busca detalhada em contas diferentes para ver como os atributos adicionais serão exibidos.
-25. Feche o relatório **Balancete detalhado com atributos **.
+25. Feche o relatório **Balancete detalhado com atributos**.
 26. Feche o **Criador de relatórios**.
 
 ## <a name="exercise-3-create-a-multidimensional-report-using-a-reporting-tree"></a>Exercício 3: Criar um relatório multidimensional usando uma árvore de relatórios
@@ -165,7 +166,7 @@ Neste exercício, você criará um novo relatório. O relatório é um demonstra
 6.  Clique duas vezes no campo **Filtro da dimensão**.
 7.  Na janela **Dimensão**, clique duas vezes na coluna **Departamento**.
 8.  Na seção Individual ou intervalo da caixa de diálogo, clique no campo de **reticências** para o campo **De** para exibir uma lista de departamentos.
-9.  Selecione o departamento **022**, **Vendas e marketing** e clique em** OK**.
+9.  Selecione o departamento **022**, **Vendas e marketing** e clique em **OK**.
 10. Repita as etapas de 5 para 8 para os departamentos 23-25.
 11. Na linha **Cabeçalho 2** para todas as colunas FD, digite as descrições do departamento a seguir:
     -   Coluna B – Vendas e Marketing
@@ -182,8 +183,8 @@ Neste exercício, você criará um novo relatório. O relatório é um demonstra
 18. **Salve** suas alterações e **gere**. Depois que a geração do relatório for concluída e ele for aberto, é possível explorar o relatório.
 
 ## <a name="additional-resources"></a>Recursos adicionais
-[Relatório financeiro](\financials\general-ledger\financial-reporting-getting-started.md) 
-[Exibir relatórios financeiros](\financials\general-ledger\view-financial-reports.md) 
+[Relatório financeiro](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
+[Exibir relatórios financeiros](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
 [Blog de Relatório Financeiro do Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

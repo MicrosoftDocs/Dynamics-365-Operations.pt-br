@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f82033798dbe603c0f2e2c92f91d28985c12b3b4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 144a1adbff74aef468dd4b2c9f69bf479a5ec671
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,7 +41,7 @@ Nas empresas que usam Horário e presença, os trabalhadores devem registrar o h
 -   Trabalhadores, que são obrigados a registrar tempo e presença em intervalos regulares, por exemplo, diariamente, semanalmente ou quinzenalmente.
 -   Os supervisores, os gerentes e os responsáveis pela folha de pagamento que calculam, aprovam e transferem registros do trabalhador para processamento adicional.
 
-| **Nota **                                                                                                                                                                                                                                                    |
+| **Nota**                                                                                                                                                                                                                                                    |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Se você executar Horário e presença juntos com a execução da Fabricação, todos os registros em projetos, atividades de projeto, atividades indiretas, códigos de ausência e hora extra, e o horário flexível serão registrados e usados para calcular a folha de pagamento nos dois módulos. |
 
@@ -53,7 +54,7 @@ Depois da instalação, os trabalhadores podem inserir diferentes tipos de regis
 -   Tempo e consumo de itens em trabalhos de produção.
 -   Tempo usado em uma máquina no chão de fábrica, se a máquina tiver sido definida como um recurso.
 
-| **Nota **                                                                                                                                                                                                                      |
+| **Nota**                                                                                                                                                                                                                      |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Um trabalhador pode ser atribuído automaticamente aos registros de horas que são feitos em uma máquina específica no chão de fábrica, se o trabalhador optar por trabalhar como assistente para a máquina quando ele iniciar o trabalho de produção. |
 
@@ -82,7 +83,7 @@ Da mesma forma que você atribui um grupo de cálculo ao trabalhador de registro
 -   Adicionar gratificações manuais.
 -   Digitar informações adicionais sobre registros de ausência.
 
-| **Nota **                                                                                                                                                                             |
+| **Nota**                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Caso tenha sido calculada para trabalhadores específicos, a hora extra pode ser alocada para trabalhos específicos durante o dia. Isso é relevante se o custo de trabalho for calculado com base no pagamento do trabalhador. |
 
@@ -102,7 +103,7 @@ Após a aprovação dos registros é possível transferi-los para um trabalho de
 ## <a name="reversing-transferred-registrations"></a>Revertendo registros transferidos
 A tarefa de reverter transações - revertendo-as de volta - pode ser realizada até o momento em que a transferência de pagamento do período da folha de pagamento é executada. Isso significa que os dados da folha de pagamento foram transferidos para um arquivo externo. Quando revertidos, todos os registros são retirados e todas as transações lançadas em ordens ou projetos de produção são compensadas e neutralizadas.
 
-| **Nota **                                                 |
+| **Nota**                                                 |
 |----------------------------------------------------------|
 | O arquivo externo pode ser importado para um sistema de folha de pagamento. |
 

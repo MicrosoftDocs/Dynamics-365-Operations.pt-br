@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7c5986dbce88a1cb704dddfc2afbcf2ac8c4b0dd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2a39054e5736c1162634cf9b1dd3f7e0c0c4ec16
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -104,7 +105,7 @@ Não é necessário definir configurações de revisor de despesas. Você poder�
 
 Você pode configurar os revisores de despesa na página **Revisores das despesas de requisições de compra**. Crie uma configuração de revisor de despesas e insira valores para cada entidade legal na sua organização. Para as requisições atribuídas a um projeto, você pode especificar a função responsável por rever as requisições: Gerente do projeto, Controlador do projeto ou Gerente de vendas do projeto. As despesas serão encaminhadas ao usuário atribuído para essa função especificada. Você também poderá encaminhar a despesa ao proprietário da dimensão financeira marcando a opção apropriada da dimensão financeira na guia **Distribuições de organização**.  
 
-Para usar um dos revisores de despesas que você configura em um fluxo de trabalho, você deverá definir a opção **Tipo de participante** como** Participantes de despesas** nas propriedades** Atribuição** para o elemento de fluxo de trabalho relevante.
+Para usar um dos revisores de despesas que você configura em um fluxo de trabalho, você deverá definir a opção **Tipo de participante** como**Participantes de despesas** nas propriedades**Atribuição** para o elemento de fluxo de trabalho relevante.
 
 <a name="see-also"></a>Consulte também
 --------

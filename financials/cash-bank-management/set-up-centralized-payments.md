@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 44d51807cd6bb64ae2c4bef58d8a445417ffa3a9
-ms.openlocfilehash: 815282422a6d7b8eef7d0628cf10b715449e1d1d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 474453e7f33526bc7bebc60ef68f560d489a1841
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -52,10 +53,10 @@ Se você pagar um fornecedor de uma entidade legal e desejar selecionar faturas 
 Quando você cria um pagamento em uma entidade legal que liquida faturas em outras entidades legais, as IDs dos perfis de lançamento devem ser iguais nas duas entidades legais. Para ajudar a garantir que os pagamentos foram criados corretamente, em cada entidade legal da fatura, configure um perfil de lançamento que corresponda aos perfis de lançamento que são usados na entidade legal do pagamento. Alterne para a primeira entidade legal da fatura e, na página **Perfis de lançamento de fornecedor**, você pode criar um novo perfil de lançamento ou editar um perfil de lançamento existente. As seleções feitas para o perfil de lançamento na entidade legal da fatura não precisam corresponder à configuração do perfil de lançamento na entidade legal do pagamento.
 
 ## <a name="set-up-methods-of-payment-for-centralized-payments"></a>Configurar métodos de pagamento para pagamentos centralizados
-Quando você cria um pagamento em uma entidade legal que liquida faturas em outras entidades legais, o método das IDs de pagamento deve ser igual nas duas entidades legais. Para ajudar a garantir que os pagamentos foram criados corretamente, em cada entidade legal da fatura, configure um método de pagamento que corresponde aos métodos de pagamentos que são usados na entidade legal do pagamento. Alterne para a primeira entidade legal da fatura e, na página **Métodos de pagamento **, você pode criar um novo método de pagamento ou editar um método de pagamento existente. As seleções para o método de pagamento na entidade legal da fatura não precisam corresponder à configuração do método de pagamento na entidade legal do pagamento.
+Quando você cria um pagamento em uma entidade legal que liquida faturas em outras entidades legais, o método das IDs de pagamento deve ser igual nas duas entidades legais. Para ajudar a garantir que os pagamentos foram criados corretamente, em cada entidade legal da fatura, configure um método de pagamento que corresponde aos métodos de pagamentos que são usados na entidade legal do pagamento. Alterne para a primeira entidade legal da fatura e, na página **Métodos de pagamento**, você pode criar um novo método de pagamento ou editar um método de pagamento existente. As seleções para o método de pagamento na entidade legal da fatura não precisam corresponder à configuração do método de pagamento na entidade legal do pagamento.
 
 ## <a name="set-up-default-descriptions"></a>Configurar descrições padrão
-É possível definir as descrições padrão para comprovantes de liquidação intercompanhia. A descrição padrão é incluída nas transações a vencer e vencidas durante o processo de liquidação entre empresas. Na página **Descrições padrão**, você pode criar novas descrições para **Liquidação do cliente intercompanhia **and **Liquidação do fornecedor intercompanhia** ao selecionar um idioma ao inserir texto.
+É possível definir as descrições padrão para comprovantes de liquidação intercompanhia. A descrição padrão é incluída nas transações a vencer e vencidas durante o processo de liquidação entre empresas. Na página **Descrições padrão**, você pode criar novas descrições para **Liquidação do cliente intercompanhia**and **Liquidação do fornecedor intercompanhia** ao selecionar um idioma ao inserir texto.
 
 
 
