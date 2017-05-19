@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c0c918b94fe96d123bb6c25c42fe168a026cd8a9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 36b307870f2427cc43a189e92cbd8c30f6ddb0c1
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,7 +40,7 @@ Para gerar uma previsão de demanda, vá para **Planejamento mestre &gt; Previs�
 
 A classificação de previsão pode ser selecionada no momento da geração da previsão. Os valores disponíveis são: Dia, Semana e Mês. 
 
-O número de classificações para as quais serão geradas uma previsão é definido no campo** Horizonte de previsão**. 
+O número de classificações para as quais serão geradas uma previsão é definido no campo**Horizonte de previsão**. 
 
 Quando a estratégia de previsão é definida para **Copiar sobre demanda histórica**, o fim do horizonte histórico é ignorado. O sistema copia o número de classificações especificado no campo **Horizonte de previsão** para a demanda de previsão, começando pela data definida no campo **Data inicial** em **Horizonte histórico**. Copiando a demanda histórica de uma determinada data em diante, os planejadores de produção podem planejar o próximo trimestre de duas maneiras:
 

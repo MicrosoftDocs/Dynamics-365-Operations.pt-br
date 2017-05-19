@@ -3,7 +3,7 @@ title: "Processar alocações"
 description: "Este artigo fornece informações sobre alocações, as opções para processamento no Microsoft Dynamics 365 for Operations, e como podem ser usadas no planejamento de orçamento. As alocações são usadas para distribuir valores nas várias combinações da conta contábil. Ajuda a garantir que as despesas ou a receita sejam carregadas ao objeto correto na contabilidade."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,21 +18,25 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9f4d7fdd8cfa7a540fce219f6ae4792e57dfbe44
-ms.openlocfilehash: 37f4df5d0b79208a8c565bc9101ddde193a6ef5b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f66414beeacafdbbe3b6f7bcba8481096636e025
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="process-allocations"></a>Processar alocações
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre alocações, as opções para processamento no Microsoft Dynamics 365 for Operations, e como podem ser usadas no planejamento de orçamento. As alocações são usadas para distribuir valores nas várias combinações da conta contábil. Ajuda a garantir que as despesas ou a receita sejam carregadas ao objeto correto na contabilidade.
 
 O Microsoft Dynamics 365 for Operations fornece os seguintes recursos para dar suporte a esse processo:
 
--   Alocar valores de transações manualmente usando a ação dividida em distribuições contábeis, ou aplicando modelos padrão de dimensão financeira para um documento. Para obter mais informações, consulte [Distribuições contábeis.](\accounts-payable\accounting-distributions.md)
+-   Alocar valores de transações manualmente usando a ação dividida em distribuições contábeis, ou aplicando modelos padrão de dimensão financeira para um documento. Para obter mais informações, consulte [Distribuições contábeis.](../accounts-payable/accounting-distributions.md)
 -   Alocar automaticamente os valores das transações com base nas condições de alocação definidas na lista principal individual. As entradas da conta de alocação serão geradas para cada diário com base na porcentagem e na conta contábil de destino sempre que uma entrada contábil atender aos critérios definidos como a conta contábil de origem.
 -   Alocar automaticamente os saldos ou valores fixos do razão com base nas regras de alocação do razão. As regras de alocação do razão são processadas periodicamente usando diários de alocação. 
 
@@ -42,6 +46,8 @@ As regras de alocação do razão podem ser usadas para planos de orçamento. Qu
 
 > [!NOTE]
 > Você não pode usar as regras de alocação do razão intercompanhia para o planejamento de orçamento.
+
+
 
 
 

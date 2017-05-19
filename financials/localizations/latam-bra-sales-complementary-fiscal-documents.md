@@ -17,10 +17,11 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: b03583cab0412721bc8eb5d6bf4ab7680d173319
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f473a03c461d19a5743047760b7cb355dd5a7c7d
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---

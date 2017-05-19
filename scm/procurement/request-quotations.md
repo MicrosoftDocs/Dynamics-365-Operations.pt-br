@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: d70b4ae0a6b177508021ee72481333cf6f265069
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 20ad50ab5c2dddf4fe07ebb5bb940954c0408f8d
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -48,9 +49,9 @@ Se você precisar alterar uma RFQ depois que a enviar, poderá reenviar a RFQ ao
 
 Ao receber ofertas, você deverá incorporá-las na página **Respostas da solicitação de cotação**. Se você selecionar a opção **Copiar dados para resposta**, os dados como a quantidade e as datas dos exemplos da RFQ serão copiados na resposta. É possível alterar esses dados para refletir a oferta do fornecedor.  
 
-Se uma segunda iteração de uma resposta for necessária para um fornecedor específico, clique em **Retornar **na página** Resposta à solicitação de cotação**. A ação Retornar gera um novo diário e um relatório que serão impressos, arquivados e enviados de acordo com as configurações de gerenciamento de impressão.  
+Se uma segunda iteração de uma resposta for necessária para um fornecedor específico, clique em **Retornar**na página**Resposta à solicitação de cotação**. A ação Retornar gera um novo diário e um relatório que serão impressos, arquivados e enviados de acordo com as configurações de gerenciamento de impressão.  
 
-Se você adicionou critérios de pontuação para seu exemplo de RFQ, a resposta de RFQ terá um painel de pontuação no qual você poderá inserir as contagens. As pontuações totais aparecerão quando você comparar as respostas na página **Comparar respostas **, na qual você também pode comparar outros dados de resposta, como preço da linha, data de entrega e preço total.  
+Se você adicionou critérios de pontuação para seu exemplo de RFQ, a resposta de RFQ terá um painel de pontuação no qual você poderá inserir as contagens. As pontuações totais aparecerão quando você comparar as respostas na página **Comparar respostas**, na qual você também pode comparar outros dados de resposta, como preço da linha, data de entrega e preço total.  
 
 Após decidir sobre uma oferta ou ofertas parciais, você poderá aceitá-las e rejeitar o restante. Os diários de aceitação, os diários de rejeição e os relatórios correspondentes são gerados. Eles serão impressos, enviados arquivados, e de acordo com as configurações de gerenciamento de impressão. Quando você aceita uma oferta ou linhas específicas de uma oferta, um contrato de compra ou ordem de compra é gerado, ou uma requisição de compra é atualizada, dependendo do tipo de compra da RFQ. Você pode criar um contrato comercial que pode ser usado posteriormente para qualquer uma das respostas, independentemente de você ter aceitado ou rejeitado as respostas.  
 
@@ -107,7 +108,7 @@ Se o tipo da RFQ for **Contrato de compra**:
 -   A RFQ é usada para um contrato para comprar uma quantidade ou um valor específico de produtos durante um período. Você deve selecionar o intervalo de datas que se aplica ao contrato de compra e o nome da pessoa que gerencia o contrato de compra.
 -   Quando você aceita uma oferta, um contrato de compra é gerado.
 
-Você pode criar uma RFQ a partir de uma requisição de compra somente se o status da requisição de compra for **Em revisão **e estiver atribuído para executar a próxima tarefa de fluxo de trabalho. As linhas da requisição de compra são atualizadas automaticamente conforme você aceita linhas de resposta de RFQ (ofertas) que você recebeu dos fornecedores. Você não pode concluir, rejeitar, aprovar ou executar nenhuma outra ação na requisição de compra, enquanto a RFQ estiver em andamento.  
+Você pode criar uma RFQ a partir de uma requisição de compra somente se o status da requisição de compra for **Em revisão**e estiver atribuído para executar a próxima tarefa de fluxo de trabalho. As linhas da requisição de compra são atualizadas automaticamente conforme você aceita linhas de resposta de RFQ (ofertas) que você recebeu dos fornecedores. Você não pode concluir, rejeitar, aprovar ou executar nenhuma outra ação na requisição de compra, enquanto a RFQ estiver em andamento.  
 
 Quando você cria uma RFQ, é possível selecionar um tipo específico da solicitação. O tipo de solicitação determina o conjunto de critérios de pontuação que é usado para pontuar as respostas à RFQ.  
 
@@ -127,7 +128,7 @@ A tabela a seguir mostra como o status de RFQ é alterado quando você cria uma 
 
 |                                    |                              |                                                 |                            |                             |
 |------------------------------------|------------------------------|-------------------------------------------------|----------------------------|-----------------------------|
-| **Ação**                         | **Status mais baixo de cabeçalho de RFQ ** | **Status mais alto de cabeçalho de RFQ **                   | **Status mais baixo de linha de RFQ ** | **Status mais alto de linha de RFQ ** |
+| **Ação**                         | **Status mais baixo de cabeçalho de RFQ** | **Status mais alto de cabeçalho de RFQ**                   | **Status mais baixo de linha de RFQ** | **Status mais alto de linha de RFQ** |
 | Crie o cabeçalho da RFQ e alinhe-o.    | Criada em                      | Criada em                                         | Criada em                    | Criada em                     |
 | Envie a RFQ para um fornecedor específico. | Enviada                         | Enviada                                            | Enviada                       | Enviada                        |
 | Adicione outro fornecedor.                | Criada em                      | Enviada (a RFQ foi enviada a apenas um fornecedor). | Criado em                    | Enviada                        |
@@ -157,7 +158,7 @@ A tabela a seguir mostra como o status da RFQ é alterado, conforme você recebe
 
 |                                                |                       |                        |                              |                               |                            |                             |
 |------------------------------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Ação**                                     | **Status mais baixo da oferta ** | **Status mais alto da oferta ** | **Status mais baixo de cabeçalho de RFQ ** | **Status mais alto de cabeçalho de RFQ ** | **Status mais baixo de linha de RFQ ** | **Status mais alto de linha de RFQ ** |
+| **Ação**                                     | **Status mais baixo da oferta** | **Status mais alto da oferta** | **Status mais baixo de cabeçalho de RFQ** | **Status mais alto de cabeçalho de RFQ** | **Status mais baixo de linha de RFQ** | **Status mais alto de linha de RFQ** |
 | Registre a oferta de um fornecedor e a salve.        | Enviada                  | Recebido               | Enviada                         | Recebido                      | Enviada                       | Recebido                    |
 | Registre a segunda oferta de um fornecedor e a salve. | Recebido              | Recebido               | Recebido                     | Recebido                      | Recebido                   | Recebido                    |
 
@@ -186,7 +187,7 @@ A tabela a seguir mostra como o status de RFQ é alterado, à medida que você a
 
 |                         |                       |                        |                              |                               |                            |                             |
 |-------------------------|-----------------------|------------------------|------------------------------|-------------------------------|----------------------------|-----------------------------|
-| **Ação**              | **Status mais baixo da oferta ** | **Status mais alto da oferta ** | **Status mais baixo de cabeçalho de RFQ ** | **Status mais alto de cabeçalho de RFQ ** | **Status mais baixo de linha de RFQ ** | **Status mais alto de linha de RFQ ** |
+| **Ação**              | **Status mais baixo da oferta** | **Status mais alto da oferta** | **Status mais baixo de cabeçalho de RFQ** | **Status mais alto de cabeçalho de RFQ** | **Status mais baixo de linha de RFQ** | **Status mais alto de linha de RFQ** |
 | Aceite uma das ofertas. | Recebido              | Aceito               | Recebido                     | Aceito                      | Recebido                   | Aceito                    |
 | Rejeite as outras ofertas.  | Rejeitada              | Aceito               | Rejeitada                     | Aceito                      | Rejeitada                   | Aceito                    |
 

@@ -3,7 +3,7 @@ title: "Visão geral da transferência de crédito SEPA"
 description: "Este artigo fornece informações gerais sobre as transferências de crédito ISO 20022, que incluem transferências de crédito da Área Única de Pagamentos em Euros (SEPA) e quaisquer outros pagamentos eletrônicos para fornecedores. Uma transferência de crédito de SEPA é um tipo específico de pagamento de uma empresa ou pessoa para outra empresa ou pessoa. O tópico também explica como configurar e transmitir um arquivo de pagamento de transferência de crédito."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 848df5e3898f37284d7746c59bff8b38d35ac883
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f7adaf2f3a14d2c0e094314f0b36b5d4bdb0a65c
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a>Visão geral da transferência de crédito SEPA
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo fornece informações gerais sobre as transferências de crédito ISO 20022, que incluem transferências de crédito da Área Única de Pagamentos em Euros (SEPA) e quaisquer outros pagamentos eletrônicos para fornecedores. Uma transferência de crédito de SEPA é um tipo específico de pagamento de uma empresa ou pessoa para outra empresa ou pessoa. O tópico também explica como configurar e transmitir um arquivo de pagamento de transferência de crédito.
 
@@ -55,7 +59,7 @@ O formato de pagamento de transferência de crédito para países europeus é im
 Você sempre deve ir para a biblioteca de ativos compartilhados nos serviços do Microsoft Dynamics Lifecycle (LCS) e exibir a lista mais atualizada de arquivos disponíveis que possuem um tipo de ativo de **Configuração GER**. A seção a seguir, "O que eu tenho que configurar?", fornece um link para o tópico que explica como criar uma loja de LCS para revisar as configurações disponíveis e as configurações de importação.
 
 ## <a name="what-do-i-have-to-set-up"></a>O que eu tenho que configurar?
--   Antes de criar arquivos de transferência de crédito, pelo menos uma configuração ativa da transferência de crédito deve ser importada para suas configurações eletrônicas. Para obter instruções, consulte [Baixar configurações do Relatório eletrônico no Lifecycle Services](https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Antes de criar arquivos de transferência de crédito, pelo menos uma configuração ativa da transferência de crédito deve ser importada para suas configurações eletrônicas. Para obter instruções, consulte [Baixar configurações do Relatório eletrônico no Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
 -   Quando você configurar os métodos de pagamento de Contas a pagar, marque a caixa de seleção **Relatório eletrônico genérico**e selecione o formato de transferência de crédito apropriado (por exemplo, **Transferência de crédito ISO 20022 (AT)**) como uma configuração de formato de exportação.
 -   Você também deve configurar a entidade legal e as informações de conta bancária no Dynamics 365 para Operações.
 -   Os números de conta bancária, IBANs e, ocasionalmente, códigos SWIFT (BICs) ou outras IDs são necessários para criar pagamentos de transferência de crédito válidos. Portanto, você deve configurá-los para a conta bancária de fornecedor e a conta bancária da organização que está solicitando a transferência.
@@ -121,5 +125,7 @@ O Número de Conta Bancária Internacional (IBAN) e o Código Identificador Banc
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Como transmitir um arquivo de pagamento para o banco?
 Ao gerar pagamentos, o arquivo de pagamento é gerado, e será solicitado que você salve-o de seu navegador web em qualquer lugar disponível. A próxima etapa é enviar o arquivo XML para o banco. Esse processo é diferente de banco para banco. Siga as instruções do banco para enviar arquivos ao banco para processamento.
+
+
 
 

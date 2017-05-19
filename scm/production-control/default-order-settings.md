@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 60abaa69debd891b2fe2dd98184c0dab50b0bf9f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 26ad7fb0e9371b8e1d45d61f2348241c6aca16b9
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -90,7 +91,7 @@ As regras de configurações de ordem padrão têm classificações. Quanto mais
 
 ### <a name="default-order-settings-for-released-products"></a>Configurações de ordem padrão para produtos liberados
 
-Para produtos liberados distintos, você pode definir configurações gerais da ordem ou configurações específicas da ordem. As configurações gerais da ordem terão sempre a classificação zero. Se você definir novas configurações de ordem de venda, de compra e de estoque juntas simultaneamente, é recomendável que você use a **Exibição de detalhes** na página **Configurações de ordem padrão **. Para alternar para a exibição de detalhes, vá para o Painel de Ação **Opções** &gt; **Opções de página** &gt; **Alterar exibição** &gt; **Exibição de detalhes**.
+Para produtos liberados distintos, você pode definir configurações gerais da ordem ou configurações específicas da ordem. As configurações gerais da ordem terão sempre a classificação zero. Se você definir novas configurações de ordem de venda, de compra e de estoque juntas simultaneamente, é recomendável que você use a **Exibição de detalhes** na página **Configurações de ordem padrão**. Para alternar para a exibição de detalhes, vá para o Painel de Ação **Opções** &gt; **Opções de página** &gt; **Alterar exibição** &gt; **Exibição de detalhes**.
 
 ### <a name="site-specific-order-settings"></a>Configurações de Ordem Específicas do Local
 
@@ -149,9 +150,9 @@ Como regra geral, regras específicas e regras para as dimensões que sejam mais
 
 A regra com classificação zero serve como uma rede de segurança. Se nenhuma outra regra for aplicada, as configurações de ordem padrão da regra zero serão usadas. 
 
-Como o número de classificação é muito importante, no Painel de Ação **Configurações de ordem padrão **, há funções para mover uma regra para cima ou para baixo e para renumerar as regras, de forma que estejam sempre em incrementos de 10. 
+Como o número de classificação é muito importante, no Painel de Ação **Configurações de ordem padrão**, há funções para mover uma regra para cima ou para baixo e para renumerar as regras, de forma que estejam sempre em incrementos de 10. 
 
-O número de regras criadas para um produto liberado pode ser variado. Para compreender melhor o que cada regra substitui e porque ela é necessária, recomendamos usar a **Exibição de grade** na página** Configurações de ordem padrão**. Você pode habilitar a exibição de grade acessando o Painel de Ação **Opções** &gt; **Opções de página** &gt; **Alterar exibição** &gt; **Exibição de grade**. O número de colunas exibidas na grade pode ser bastante significativo, principalmente para as guias vendas e estoque. Para limitar o número de colunas mostradas na grade, os grupos de colunas podem ser ocultados ou exibidos usando-se os botões no menu **Configurações de ordem padrão** &gt; **Exibição por coluna**.
+O número de regras criadas para um produto liberado pode ser variado. Para compreender melhor o que cada regra substitui e porque ela é necessária, recomendamos usar a **Exibição de grade** na página**Configurações de ordem padrão**. Você pode habilitar a exibição de grade acessando o Painel de Ação **Opções** &gt; **Opções de página** &gt; **Alterar exibição** &gt; **Exibição de grade**. O número de colunas exibidas na grade pode ser bastante significativo, principalmente para as guias vendas e estoque. Para limitar o número de colunas mostradas na grade, os grupos de colunas podem ser ocultados ou exibidos usando-se os botões no menu **Configurações de ordem padrão** &gt; **Exibição por coluna**.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Configurações específicas da ordem para grades de produtos liberadas
 

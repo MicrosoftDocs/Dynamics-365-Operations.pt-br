@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 1a9bf1067d0f6e0e139ef13d939d2f0e9bf2126b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8dd5cc110e83e1b10db233547b0ac2081cc6c380
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ Este artigo explica como configurar a funcionalidade das coleções.
 Configure uma definição de período de classificação por vencimento. Uma definição de período de classificação por vencimento define as colunas que aparecem nas páginas de listagem **Saldos classificados por vencimento**, **Atividades de cobranças** e **Casos de cobranças**. Também define os períodos que aparecem na página **Cobranças**. Se um grupo de clientes for configurado, a definição do período de classificação por vencimento para o grupo será usada. Se nenhum grupo for configurado, a definição do período de classificação por vencimento padrão especificada na página **Parâmetros de contas a receber** será usada. Se nenhuma definição do período de classificação por vencimento padrão for especificada, será usada a primeira definição do período de classificação por vencimento na página **Definições do período de classificação por vencimento**.
 
 ## <a name="create-an-aging-snapshot"></a>Criar um instantâneo de classificação por vencimento
-Crie registros instantâneos de classificação por vencimento para todos os clientes ou para os clientes de um grupo. As informações do instantâneo de classificação por vencimento aparecem na página de listagem** Saldos classificados por vencimento** e na página **Cobranças**. Você deve criar um instantâneo de classificação por vencimento antes de usar a página de listagem. A página de listagem mostra informações somente para os clientes para os quais um instantâneo de classificação por vencimento foi criado.
+Crie registros instantâneos de classificação por vencimento para todos os clientes ou para os clientes de um grupo. As informações do instantâneo de classificação por vencimento aparecem na página de listagem**Saldos classificados por vencimento** e na página **Cobranças**. Você deve criar um instantâneo de classificação por vencimento antes de usar a página de listagem. A página de listagem mostra informações somente para os clientes para os quais um instantâneo de classificação por vencimento foi criado.
 
 ## <a name="optional-set-up-customer-pools"></a>Opcional: configurar grupos de clientes
 Você pode configurar grupos de clientes para representar grupos de clientes. Você pode usar grupos de clientes como filtros para as informações do cliente que aparecem nas páginas de listagem **Cobranças**, na página **Cobranças** ou quando você cria instantâneos de classificação por vencimento.

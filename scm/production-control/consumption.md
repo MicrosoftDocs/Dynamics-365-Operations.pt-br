@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 2225707329c67a30d9234bef5282d49834ea042a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: dad6d4ec3788ae73386d582433a8585602e1290e
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -65,7 +66,7 @@ Presume-se que 0,5 metro de tubo será sucateado para cada cinco peças de tubo 
 
 ### <a name="consumption"></a>Consumo
 
-Normalmente, você seleciona** Consumo** como o mecanismo de arredondamento quando a matéria-prima deve ser separada em quantidades inteiras de uma unidade de manuseio específica do produto. Por exemplo, 2 ml de tinta são usados para produzir uma peça de uma mercadoria concluída, e a tinta é escolhida em latas de 25 litros. Nesse caso, o mecanismo de arredondamento de **Consumo** pode ser usado para arredondar o consumo para números inteiros de 25 litros. Veja o cálculo para a quantidade de tinta necessária caso 180 peças da mercadoria concluída tenham de ser produzidas:
+Normalmente, você seleciona**Consumo** como o mecanismo de arredondamento quando a matéria-prima deve ser separada em quantidades inteiras de uma unidade de manuseio específica do produto. Por exemplo, 2 ml de tinta são usados para produzir uma peça de uma mercadoria concluída, e a tinta é escolhida em latas de 25 litros. Nesse caso, o mecanismo de arredondamento de **Consumo** pode ser usado para arredondar o consumo para números inteiros de 25 litros. Veja o cálculo para a quantidade de tinta necessária caso 180 peças da mercadoria concluída tenham de ser produzidas:
 
 1.  A tinta necessária, excluindo a sucata: 180 × 2 = 360 ml.
 2.  Número de latas: 360 ÷ 25 = 14,4, que é arredondado para 15

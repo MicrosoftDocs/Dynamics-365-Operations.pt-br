@@ -3,7 +3,7 @@ title: Requisitos do sistema
 description: "Este tópico lista os requisitos do sistema para a versão atual do Microsoft Dynamics 365 for Operations."
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: 9220c093d3f6d6700127c93651db4083be300311
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 86053196a3aad6b7b5d7830860e1af347dd969d8
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="system-requirements"></a>Requisitos do sistema
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico lista os requisitos do sistema para a versão atual do Microsoft Dynamics 365 for Operations.
 
@@ -43,6 +47,8 @@ Para localizar a versão mais recente de cada navegador, vá para o site do fabr
 -   Para capturar imagens geradas a partir do Gravador de Tarefas e incluí-las em documentos do Microsoft Word, você deve ter uma extensão do Chrome instalada. <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
 -   O editor de fluxo de trabalho é iniciado como um aplicativo ClickOnce. Somente o Microsoft Edge e o Internet Explorer (em uma versão com suporte do Microsoft Windows) suportam aplicativos ClickOnce. O aplicativo Editor de fluxo de trabalho ClickOnce requer um sistema operacional compatível com 64 bits.
 -   O Report Designer for Financial Reporting é iniciado como um aplicativo ClickOnce. Ele requer um sistema operacional compatível com 64 bits. Se estiver usando o Chrome, instale uma extensão de ClickOnce para baixar o cliente de designer de relatórios. Se estiver usando o Chrome com o modo de navegação anônima, verifique se a extensão ClickOnce também está ativada para o modo de navegação anônima.
+-   Para visualizar os arquivos PDF, recomendamos que você use navegadores modernos como Microsoft Edge (última versão liberada publicamente) no Windows 10 ou Google Chrome (última versão liberada publicamente) no Windows 10, Windows 8.1, Windows 8, Windows 7 ou tablet Google Nexus 10.
+
 
 ### <a name="supported-web-browsers-for-retail-cloud-pos"></a>Navegadores da web suportados para o Retail Cloud POS
 
@@ -117,11 +123,13 @@ O computador deve atender a todos os requisitos do sistema para instalar e usar 
 -   Pelo menos 10 GB de espaço livre (o banco de dados de canal pode exigir uma grande quantidade de espaço.)
 
 ## <a name="requirements-for-development-on-local-vms"></a>Requisitos do desenvolvimento em VMs locais
-Para obter informações sobre os requisitos de desenvolvimento em máquinas virtuais locais (VMs), consulte [VM em execução no local](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises).
+Para obter informações sobre os requisitos de desenvolvimento em máquinas virtuais locais (VMs), consulte [VM em execução no local](../dev-tools/access-instances.md).
 
 <a name="see-also"></a>Consulte também
 --------
 
 [Obter uma cópia de avaliação do Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
+
+
 
 

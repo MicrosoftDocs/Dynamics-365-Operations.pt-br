@@ -3,7 +3,7 @@ title: Recursos preteridos
 description: "Este tópico descreve os recursos que já foram removidos, ou seja planejada para a remoção, do 365 para as operações. Também lista os recursos que são substituídos em versões do Dynamics AX 7.0."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -15,16 +15,20 @@ ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
-ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: e9ba7239b9ff8b9b97c9dabc06fb2c68760d19d4
-ms.lasthandoff: 03/31/2017
+ms.dyn365.ops.version: Platform update 6
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8fbfc8c91c836eb9922f2bf1165ec887d8a0bc8e
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="deprecated-features"></a>Recursos preteridos
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico descreve os recursos que já foram removidos, ou seja planejada para a remoção, do 365 para as operações. Também lista os recursos que são substituídos em versões do Dynamics AX 7.0.
 
@@ -472,7 +476,17 @@ As partições de dados fornecem uma divisão lógica de dados no banco de dados
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
 | Motivo para a depreciação       | A experiência do cliente do Dynamics AX foi remodelada para melhorar a usabilidade entre várias plataformas e dispositivos.                      |
 | Substituída por outro recurso? | O novo cliente Web baseia-se nos metadados do Formulário da área de trabalho e no modelo de programação que foi modificado para fornecer uma plataforma avançada da Web. |
-| Módulos afetados             | Tudo                                                                                                                                    |
+| Módulos afetados             | Todas                                                                                                                                    |
+
+### <a name="direct-database-connection"></a>Conexão direta do banco de dados
+
+No Dynamics AX 2012 R3, o Retail Modern POS pode conectar-se diretamente ao BD do canal de modo semelhante ao PDV Empresarial. Isso ocorre além do método padrão de comunicação do Retail Modern POS comunicar-se com o Retail Server.  
+
+|                              |                                                                                         |
+|------------------------------|-----------------------------------------------------------------------------------------|
+| Motivo para a depreciação       | A conectividade direta do base de dados exigiu protocolos de segurança inferior e foi usada principalmente para atingir os níveis mais altos de desempenho. Devido aos aprimoramentos de desempenho e segurança que ocorreram no Dynamics 365 for Operations, essa funcionalidade causa agora mais problemas do que resolve. |
+| Substituída por outro recurso? | Não. Apenas a comunicação padrão do Retail Server é suportada agora.    |
+| Módulos afetados             | BD de Canal/Retail Modern POS                                    |
 
 ### <a name="dutch-swift-mt940"></a>SWIFT MT940 holandês
 
@@ -664,6 +678,16 @@ Este recurso permite que você altere o nome de uma das três dimensões padrão
 | Substituída por outro recurso? | Não                                                                            |
 | Módulos afetados             | Gerenciamento de informações do produto                                                |
 
+### <a name="retail-server-connectivity-using-http"></a>Conectividade do Retail Server usando HTTP
+
+No Dynamics AX 2012 R3, o Retail Server pode funcionar usando a comunicação HTTP (não segura). Isso ocorre além da comunicação padrão que usa HTTPS.
+
+|                              |                                                                               |
+|------------------------------|-------------------------------------------------------------------------------|
+| Motivo para a depreciação       | Devido aos requisitos de segurança, apenas a comunicação protegida usando o TLS 1.2 (ou superior, conforme disponível) é suportada agora. O instalador de autoatendimento configurará automaticamente o computador para esta comunicação. |
+| Substituída por outro recurso? | Não. Apenas a comunicação HTTPS padrão é suportada agora.                                                                           |
+| Módulos afetados             | Retail Server                                                |
+
 ### <a name="role-center-pages"></a>Páginas do Centro de Funções
 
 |                              |                                                                                                                                                                          |
@@ -784,6 +808,8 @@ Informações da Folha de Pagamento em Recursos Humanos
 | Motivo para a depreciação       | Esta funcionalidade foi substituída por outro recurso.                                    |
 | Substituída por outro recurso? | Management Reporter (rotulado **Relatório financeiro** na versão atual do Dynamics AX) |
 | Módulos afetados             | Contabilidade                                                                              |
+
+
 
 
 

@@ -1,16 +1,16 @@
 ---
 title: "Definições de coluna nos relatórios financeiros"
 description: "Este artigo fornece informações sobre definições de coluna. Uma definição de coluna é um componente de relatório, ou um bloco de construção, que define o conteúdo das colunas em um relatório. Assim como as definições de linha, as definições básicas de coluna podem ser usadas em vários relatórios."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-08-09 21 - 27 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: af336db81f659d80248aa4ab1fbba96ed1ff48c2
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Definições de coluna nos relatórios financeiros
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo fornece informações sobre definições de coluna. Uma definição de coluna é um componente de relatório, ou um bloco de construção, que define o conteúdo das colunas em um relatório. Assim como as definições de linha, as definições básicas de coluna podem ser usadas em vários relatórios.
 
@@ -150,7 +154,7 @@ Você pode usar a caixa de diálogo **Cabeçalho da coluna** para adicionar, mod
 
 1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
 2.  Selecione uma célula na linha de cabeçalho.
-3.  No menu **Editar**, clique em **Inserir linha**. A nova linha é inserida acima da linha que você selecionou na etapa 2. **Observação: **se houver quatro ou mais linhas de cabeçalhos em um relatório, os cabeçalhos se sobreporão quando o relatório for exportado para uma planilha do Excel. Para exibir todos os cabeçalhos no relatório, aumente a margem superior da definição de relatório.
+3.  No menu **Editar**, clique em **Inserir linha**. A nova linha é inserida acima da linha que você selecionou na etapa 2. **Observação:**se houver quatro ou mais linhas de cabeçalhos em um relatório, os cabeçalhos se sobreporão quando o relatório for exportado para uma planilha do Excel. Para exibir todos os cabeçalhos no relatório, aumente a margem superior da definição de relatório.
 
 ### <a name="delete-a-column-header-row"></a>Excluir uma linha de cabeçalho de coluna
 
@@ -320,9 +324,9 @@ A célula **Controle de impressão** pode conter códigos que ajustam a exibiç�
 4.  Selecione uma opção no campo **Opções de impressão condicionais**. Por padrão, **(nenhuma)** está selecionada. Você pode selecionar somente um código de impressão condicional de cada vez.
 5.  Clique em **OK**.
 
-**Dica:** também é possível inserir os códigos de impressão diretamente na célula **Controle de Impressão**. Separe vários códigos de controle de impressão com vírgula.
+> [!TIP]
+> Também é possível inserir os códigos de impressão diretamente na célula **Controle de Impressão**. Separe vários códigos de controle de impressão com vírgula.
 
-### 
 
 ## <a name="column-types"></a>Tipos de coluna
 O tipo de informações que cada coluna em um relatório inclui é especificado pelo valor na linha **Tipo de coluna** na definição de coluna. Cada definição de coluna deve conter pelo menos uma coluna de descrição (**DESC**) e uma coluna de valor (**FD**, **WKS** ou **CALC**). **Observação:** os códigos do tipo de coluna não se aplicam a todos os sistemas de contabilidade. Se selecionar um tipo que não é válido para seu sistema de contabilidade, essa coluna ficará em branco no relatório.
@@ -507,7 +511,8 @@ Um relatório de várias moedas pode exibir valores na moeda natural (local), na
 -   **Exibição da moeda** – Especifique o tipo de moeda (natural, funcional ou de relatório) na qual as transações são exibidas. Às vezes, essa funcionalidade é chamada de "conversão de moeda". A conversão de moeda consiste na capacidade de relatar valores da contabilidade em uma moeda que pode não ser a moeda funcional da companhia ou a moeda na qual a transação foi inserida.
 -   **Filtro de moeda** – Especifique um filtro de moeda. Apenas as transações inseridas na moeda selecionada são mostradas no relatório.
 
-**Observação:** para criar relatórios que usam várias moedas, você deve selecionar a caixa de seleção **Incluir todas as moedas de relatório** na guia **Relatório** da definição de relatório. Para determinar a moeda funcional de uma empresa, siga estas etapas:
+> [!NOTE]
+> Para criar relatórios que usam várias moedas, você deve selecionar a caixa de seleção **Incluir todas as moedas de relatório** na guia **Relatório** da definição de relatório. Para determinar a moeda funcional de uma empresa, siga estas etapas:
 
 1.  No Designer de Relatórios, no menu **Empresa**, clique em **Empresas**.
 2.  Na caixa de diálogo **Empresas**, selecione uma empresa e depois clique em **Exibir**.
@@ -516,10 +521,11 @@ Um relatório de várias moedas pode exibir valores na moeda natural (local), na
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Especificar a moeda em um relatório de várias moedas
 
 1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
-2.  Clique duas vezes na célula ** Exibição da moeda** na coluna **FD** apropriada e depois selecione a opção de exibição das informações da moeda: **Moeda natural/de origem**, **Moeda funcional das informações da empresa** e moeda do relatório.
+2.  Clique duas vezes na célula **Exibição da moeda** na coluna **FD** apropriada e depois selecione a opção de exibição das informações da moeda: **Moeda natural/de origem**, **Moeda funcional das informações da empresa** e moeda do relatório.
 3.  Clique duas vezes na célula **Filtro de moeda** na coluna **FD** apropriada e depois selecione o código de moeda adequado na lista. Apenas as transações inseridas nessa moeda serão mostradas no relatório.
 
-**Observação:** as opções descritas aqui podem variar, dependendo do sistema ERP. Para obter mais informações, consulte [Documentação do sistema ERP da Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
+> [!NOTE]
+> As opções descritas aqui podem variar, dependendo do sistema ERP. Para obter mais informações, consulte [Documentação do sistema ERP da Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
 ### <a name="example-for-currency-display-and-currency-filter-cells"></a>Exemplo de células Exibição de moeda e Filtro de moeda
 
@@ -572,7 +578,7 @@ Você pode indicar uma célula de relatório específica inserindo a letra de um
 
 #### <a name="multiply-or-divide-a-column-by-a-base-row"></a>Multiplicar ou dividir uma coluna por uma linha base
 
-Você pode criar uma coluna que exibe todos os valores em uma coluna especificada como uma porcentagem de um número base. Sendo assim, você pode mostrar as relações entre linhas, como uma porcentagem de uma linha de vendas ou uma porcentagem de uma linha de despesas totais. Para multiplicar ou dividir cada linha em uma coluna especifica por uma linha base, insira a coluna que será usada no cálculo e depois insira **\*BASEROW** ou **/BASEROW**. Por exemplo, insira **C\*BASEROW** ou **C/BASEROW**. ** Observação:** ao usar um cálculo de linha base em uma definição de coluna, certifique-se de que a definição de cada linha usada com essa definição de coluna contém pelo menos uma linha base para cálculos.
+Você pode criar uma coluna que exibe todos os valores em uma coluna especificada como uma porcentagem de um número base. Sendo assim, você pode mostrar as relações entre linhas, como uma porcentagem de uma linha de vendas ou uma porcentagem de uma linha de despesas totais. Para multiplicar ou dividir cada linha em uma coluna especifica por uma linha base, insira a coluna que será usada no cálculo e depois insira **\*BASEROW** ou **/BASEROW**. Por exemplo, insira **C\*BASEROW** ou **C/BASEROW**. **Observação:** ao usar um cálculo de linha base em uma definição de coluna, certifique-se de que a definição de cada linha usada com essa definição de coluna contém pelo menos uma linha base para cálculos.
 
 #### <a name="divide-the-amount-in-a-column-by-the-number-of-periods"></a>Dividir o valor em uma coluna pelo número de períodos
 
@@ -584,5 +590,7 @@ Você pode dividir o valor em uma coluna por um número de períodos especificad
 [Definições de linha no relatório financeiro](row-definitions-financial-reporting.md)
 
 [Opções avançadas de formatação no relatório financeiro](advanced-formatting-options-financial-reporting.md)
+
+
 
 

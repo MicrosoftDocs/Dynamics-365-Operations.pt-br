@@ -19,10 +19,11 @@ ms.search.industry: Retail
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8854ab94a71cc363bcd073d2df47bc01a243b6cd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 43cb4ed2ca77592fc23100fd74cb2bfa23c17f47
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -49,7 +50,7 @@ Os valores das dimensões do produto como Tamanho, Cor e Estilo podem ser criado
 -   Clique em **Gerenciamento de informações do produto** &gt; **Produtos liberados**. Selecione um produto mestre. No **Painel de Ação**, clique em **Produto**. No grupo de **Produto mestre**, clique em **Dimensões do produto**.
 
 O número de variantes que você pode criar para um item é limitado pelo número de possíveis combinações de dimensão do produto.
-| **Dica **                                                                                                                                              |
+| **Dica**                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Quando você usa um produto, por exemplo, em uma linha de ordem, você seleciona as dimensões do produto para identificar a variante do produto com a qual você deseja trabalhar. |
 

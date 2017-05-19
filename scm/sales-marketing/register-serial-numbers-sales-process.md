@@ -19,10 +19,11 @@ ms.search.industry: Distribution
 ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: ec2907129e68f39e6e5f56f0617b7599598312d2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: de1d8bc2fa1080e549cb8c33657ad0f373644d38
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ A configuração do grupo de dimensões de rastreamento atribuiu ao produto dete
 Você pode criar faturas e guias de remessa parciais para ordens de venda e registrar somente os números de série para os itens que essas faturas e guias de remessa incluem. Se desejar criar uma fatura parcial e tiver mais de uma guia de remessa para a fatura, você pode incluir números de série de mais de uma guia de remessa. No entanto, só pode haver uma guia de remessa que não inclua todos os números de série. Por exemplo, se você tiver três guias de remessa e cada uma incluir dois itens serializados, não poderá criar uma fatura parcial para um item por guia de remessa.
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>O que fazer quando um número de série não for legível?
-Se um número de série não puder ser lido ou digitalizado, você poderá criar uma linha em branco para o item, clicando em **Não está legível **na página **Números de série**. Se o número de série se tornar disponível posteriormente, você poderá atualizar a fatura ou a guia de remessa. Para obter mais informações, consulte a próxima seção, “Posso corrigir ou alterar os números de série que registrei para uma ordem de venda”?
+Se um número de série não puder ser lido ou digitalizado, você poderá criar uma linha em branco para o item, clicando em **Não está legível**na página **Números de série**. Se o número de série se tornar disponível posteriormente, você poderá atualizar a fatura ou a guia de remessa. Para obter mais informações, consulte a próxima seção, “Posso corrigir ou alterar os números de série que registrei para uma ordem de venda”?
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Posso corrigir ou alterar os números de série registrados para uma ordem de venda?
 Sim, você pode corrigir números de série se as seguintes condições forem atendidas:

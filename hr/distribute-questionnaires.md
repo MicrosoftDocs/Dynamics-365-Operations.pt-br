@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: 8e09c6b042d557e3b2d608fb5e278169fc3c1d88
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4a5e6164f8aea2d4a6a063966c10f33a5e1f0cdd
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="distribute-and-complete-a-questionnaire"></a>Distribuir e concluir um questionário
+
+[!include[banner](includes/banner.md)]
+
 
 Este tópico explica como distribuir os questionários criados por você, de modo que sejam disponibilizados para a pessoa ou grupo de pessoas que os preencherão. 
 
@@ -45,7 +49,7 @@ Você pode configurar grupos de questionário e incluir os participantes para os
 
 Você pode criar grupos de questionário das seguintes páginas:
 
--   **Grupos de questionários **– Somente os indivíduos em um grupo de questionário podem preencher um questionário selecionado. Por exemplo, se o público-alvo é prestadores de serviço, você pode criar um grupo de questionário que é específico para esses entrevistados.
+-   **Grupos de questionários**– Somente os indivíduos em um grupo de questionário podem preencher um questionário selecionado. Por exemplo, se o público-alvo é prestadores de serviço, você pode criar um grupo de questionário que é específico para esses entrevistados.
 -   **Membros do grupo de questionário** – Você pode adicionar pessoas aos grupos de questionários.
 
 Para atribuir um grupo de questionários a um questionário, na página **Questionário**, clique em **Direitos do usuário**. Depois que o questionário foi salvo como ativo, os membros do grupo de questionário podem preencher o questionário. Essa funcionalidade será útil se você quiser testar um questionário em um grupo seleto de pessoas antes de enviá-lo para um grupo maior, ou se você quiser direcionar um questionário para um público muito específico.
@@ -53,7 +57,8 @@ Para atribuir um grupo de questionários a um questionário, na página **Questi
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>Sessões de respostas planejadas em um questionário
 As sessões de respostas planejadas são os questionários para os quais você criou e selecionou os participantes. 
 
-**Observação:** Antes de configurar sessões de respostas planejadas, você deve criar um questionário. 
+> **Observação**
+>   Antes de configurar sessões de respostas planejadas, você deve criar um questionário. 
 
 N página **Sessão de respostas planejadas**, é possível criar uma sessão de resposta planejada para um funcionário individual. A lista na página exibe todos os questionários planejados. 
 
@@ -99,7 +104,8 @@ Clique em **Funções** &gt; **Início** para disponibilizar o questionário aos
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>Notificando participantes sobre os questionários que estão disponíveis para eles
 Quando você distribuir um questionário, será necessário notificar os entrevistados que há questionários disponíveis para eles. 
 
-**Observação:** Os entrevistados devem ser usuários do Microsoft Dynamics 365 for Operations para preencher um questionário.
+> **Observação**
+>   Os entrevistados devem ser usuários do Microsoft Dynamics 365 for Operations para preencher um questionário.
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>Notificando os participantes sobre uma sessão de respostas planejadas
 
@@ -109,12 +115,14 @@ Se você usar uma sessão de resposta planejadas, você deve notificar a pessoa 
 
 Use a página **Agendas de questionário** para preparar e enviar um email a todos os entrevistados atribuídos ao questionário. Insira o texto do email na guia **Email para o autoatendimento para funcionários**. Depois que a agenda for iniciada, clique em **Funções** &gt; **Enviar email** para gerar e enviar o e-mail aos entrevistados. Os entrevistados poderão efetuar logon no site e preencher o questionário. 
 
-**Observação:** Antes que você possa usar a funcionalidade de email, o administrador de TI deve inserir as configurações de email na página **Parâmetros de email**.
+> **Observação**
+>   Antes que você possa usar a funcionalidade de email, o administrador de TI deve inserir as configurações de email na página **Parâmetros de e-mail**.
 
 ## <a name="ending-a-scheduled-questionnaire"></a>Finalizando um questionário planejado
 É possível encerrar um questionário planejado depois que todos os participantes concluírem as sessões de resposta atribuídas a eles. Depois que um questionário planejado for concluído, não será possível copiar as configurações para um novo agendamento. 
 
-**Observação:** Caso um ou mais participantes não tenham preenchido o questionário e você ainda queira encerrar o agendamento, você deve primeiro excluir os participantes relevantes da lista na página **Sessão de respostas planejadas**. Em seguida, será possível encerrar a agenda.
+> **Observação**
+>   Caso um ou mais entrevistados não tenham preenchido o questionário, mas você ainda queira encerrar o agendamento, você deve primeiro excluir esses entrevistados da lista na página **Sessão de respostas planejadas**. Em seguida, será possível encerrar a agenda.
 
 ## <a name="completing-questionnaires"></a>Preenchendo questionários
 Após criar e distribuir um questionário, este poderá ser preenchido por entrevistados selecionados. Você pode preencher os questionários disponíveis para você em dois locais:
@@ -132,5 +140,7 @@ Os questionários podem ficar disponíveis para usuários específicos, grupos d
 [Usando questionários](questionnaires.md)
 
 [Exibindo e avaliando os resultados dos questionários](evaluate-questionnaire-results.md)
+
+
 
 

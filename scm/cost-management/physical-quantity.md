@@ -3,7 +3,7 @@ title: Valores de objeto de estoque
 description: "Este artigo fornece informações sobre como os valores de um objeto do estoque são calculados."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-07 09 - 09 - 05
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,19 +19,31 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 7a0a2af2094e3e5be757d3dd82255769677b96ea
-ms.openlocfilehash: 8898d5d91ffb4f73ea68f1251e1a99440e81bcd4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d177903e3c79226e90a1f2eb3d55e3c670446a44
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="inventory-object-values"></a>Valores de objeto de estoque
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre como os valores de um objeto do estoque são calculados. 
 
-Uma nova funcionalidade chamada de **quantidade física** permite visualizar os valores de um objeto de estoque específico. Um objeto de custo representa o nível da entidade onde a contabilidade de estoque é executada. Para obter mais informações sobre os objetos de custo, consulte [Objetos de custo](cost-object.md). Para visualizar os valores de um objeto de estoque específico, clique em **Quantidade física** na página **Objeto de custo**. Veja como o valor de um objeto de estoque é calculado: Objeto de estoque.Valor = Custo do objeto.Custo médio por unidade × Objeto do estoque.Quantidade. O exemplo a seguir mostra como os valores de um objeto de estoque e um objeto de custo são calculados. Dois eventos de recebimento de produtos são registrados para o item A:
+Uma nova funcionalidade chamada de **quantidade física**permite visualizar os valores de um objeto de estoque específico. 
+
+Um objeto de custo representa o nível da entidade onde a contabilidade de estoque é executada. Para obter mais informações sobre os objetos de custo, consulte [Objetos de custo](cost-object.md). 
+
+Para visualizar os valores de um objeto de estoque específico, clique em **Quantidade física** na página **Objeto de custo**. Veja aqui como o valor de um objeto de estoque é calculado: 
+
+Objeto de estoque. Valor = Objeto de custo. Custo unitário médio x Objeto de estoque.Quantidade 
+
+Os exemplos a seguir mostram como os valores de um objeto de estoque e de um objeto de custo são calculados. Dois eventos de recebimento de produtos são registrados para o item A:
 
 -   Recebimento de produtos 1: Quantidade = 100 pcs., Valor = $1.000,00, Local = 1, Depósito = 11, Nº do lote = B1
 -   Recebimento de produtos 2 = Quantidade = 50 pcs., Valor = $800,00, Local = 1, Depósito = 11, Nº do lote = B2
@@ -135,5 +147,7 @@ A tabela a seguir mostra o resultado do cálculo para um objeto de estoque. Voc�
 [Entradas de custo](cost-entries.md)
 
 [Novidades e alterações no Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+
+
 
 

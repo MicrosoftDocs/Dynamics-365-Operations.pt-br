@@ -3,7 +3,7 @@ title: "Configurar um processo de aprovação em um fluxo de trabalho"
 description: "Use os procedimentos a seguir para configurar as propriedades do processo de aprovação."
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 579e393ef64bc5ad72d129ac08ac215c524d5c55
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 99decd86602e7537af6393c6d28c262f20ca1f00
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Configurar um processo de aprovação em um fluxo de trabalho
+
+[!include[banner](../includes/banner.md)]
+
 
 Use os procedimentos a seguir para configurar as propriedades do processo de aprovação.
 
@@ -132,7 +136,7 @@ Você pode designar um aprovador final para cenários nos quais o aprovador for 
 
 ## <a name="set-a-time-limit"></a>Definir um limite de tempo
 Siga estas etapas se o processo de aprovação tiver que ser concluído em um horário específico.
-| **Nota **                                                                                                                                                |
+| **Nota**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | As opções selecionadas aqui substituirão as que você selecionar nas guias **Atribuição** e **Escalonamento** de cada etapa de aprovação. |
 
@@ -155,13 +159,15 @@ Quando um documento for atribuído a um usuário para aprovação, o usuário de
 4.  Marque a caixa de seleção **Solicitar alteração** se o usuário puder solicitar alterações no documento.
 5.  Marque a caixa de seleção **Delegar** se o usuário puder atribuir o documento a outro usuário para aprovação.
 
-**Nota**: **Habilitar ações de lista de trabalho no portal empresarial ** A caixa de seleção foi substituído.
+**Nota**: **Habilitar ações de lista de trabalho no portal empresarial** A caixa de seleção foi substituído.
 
 ## <a name="configure-the-approval-steps"></a>Configurar as etapas de aprovação
 Um processo de aprovação consiste em etapas de aprovação. Conclua o procedimento a seguir para adicionar etapas ao processo de aprovação e configurar as etapas.
 1.  No editor de fluxo de trabalho, clique duas vezes no processo de aprovação. O editor de fluxo de trabalho exibe as etapas do processo de aprovação.
 2.  Para adicionar uma etapa de aprovação, arraste-a da área **Elementos de fluxo de trabalho** para a tela.
-3.  Para configurar uma etapa de aprovação, consulte [Configurar uma etapa de aprovação](http://axhelp.dynamics.com/en/wiki/configure-an-approval-step/).
+3.  Para configurar uma etapa de aprovação, consulte [Configurar uma etapa de aprovação](configure-approval-step-workflow.md).
+
+
 
 
 

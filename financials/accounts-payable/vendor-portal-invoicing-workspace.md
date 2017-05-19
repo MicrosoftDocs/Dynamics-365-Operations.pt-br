@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 822e621f22f8af63b2a827dcc50a6b0ac68d3e21
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 7aebcdf0578d931d326420b42e2b220407049bc6
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="vendor-collaboration-invoicing-workspace"></a>Espaço de trabalho de faturamento de colaboração do fornecedor
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico explica como podem exibir faturas de fornecedor e enviar notas fiscais de colaboração de fornecedor que ao espaço de trabalho.
 
@@ -43,7 +47,7 @@ Os blocos **Resumo** darão uma visão geral de notas fiscais do fornecedor sele
 Clique em um quadro abrirá uma exibição filtrada da página **Lista de notas fiscais**.
 ### <a name="tabular-lists"></a>Listas tabulares
 
-Na seção **Listas Tabular **, o status do faturamento está dividido de formas semelhantes como o resumo organiza lado a lado: Rascunho, e listas enviadas não aprovadas. Quando o estado de rascunho, uma nota fiscal pode ser enviada ao fluxo de trabalho ou ser excluída. A última lista tabular é uma opção para encontrar faturas. Você pode filtrar enquanto pesquisa, para permitir pesquisas mais rápidas.
+Na seção **Listas Tabular**, o status do faturamento está dividido de formas semelhantes como o resumo organiza lado a lado: Rascunho, e listas enviadas não aprovadas. Quando o estado de rascunho, uma nota fiscal pode ser enviada ao fluxo de trabalho ou ser excluída. A última lista tabular é uma opção para encontrar faturas. Você pode filtrar enquanto pesquisa, para permitir pesquisas mais rápidas.
 Página Todas faturas de fornecedor
 -----------------------------
 
@@ -55,6 +59,8 @@ Você pode criar uma nova nota fiscal do fornecedor selecionando **Novo** a aç�
 
 
 
-Para obter mais informações, consulte [Colaborar com fornecedores usando o portal de fornecedores](/dynamics365/operations/scm/procurement/collaborate-vendors-vendor-portal)
+Para obter mais informações, consulte [Colaborar com fornecedores usando o portal de fornecedores](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+
+
 
 

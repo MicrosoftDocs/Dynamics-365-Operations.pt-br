@@ -3,7 +3,7 @@ title: Entradas de custo
 description: "Este artigo fornece informações sobre entradas de custo previsto e quando foram criadas. Uma entrada de custo estimada é um registro que marca a quantidade e os custos de um determinado evento."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,15 +19,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 55f5ee731c40acc40e8fe20c24d4ed707fe2c81a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 341251119304456a89b02c7a8d4af941ea21196d
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cost-entries"></a>Entradas de custo
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo fornece informações sobre entradas de custo previsto e quando foram criadas. Uma entrada de custo estimada é um registro que marca a quantidade e os custos de um determinado evento.
 
@@ -53,17 +57,22 @@ A nova página de **Entradas de custo** permite exibir e controlar os registros 
 -   Alguns dias após o evento de fatura ser registrado, o custo aumenta para BRL 11,00. Portanto, o valor total é de BRL 1.100,00. Um segundo comprovante é criado para esclarecer a diferença de 100 reais.
 -   Alguns dias depois, um encargo diverso de 15,00 reais para cobrir o custo de transporte é registrado na ordem de compra.
 
-| Comprovante | Data       | Referência      | Número | ID do lote  | Lote de referência | ID do lote devolvido | Quantidade | Valor  |
-|---------|------------|----------------|--------|---------|---------------|---------------|----------|---------|
-| 00001   | 01/01/2015 | Ordem de Compra | 100001 | 0000101 |               |               | 100,00   | 1.000,00 |
-| 00002   | 20/01/2015 | Ordem de Compra | 100001 | 0000101 |               |               |          | 100,00  |
-| 00003   | 31/01/2015 | Ajuste     | 100001 | 0000101 |               |               |          | 15,00   |
+| Comprovante | Data       | Demonstrativo      | Número | ID do lote  | Quantidade | Valor  |
+|---------|------------|----------------|--------|---------|---------------|----|
+| 00001   | 01/01/2015 | Ordem de Compra | 100001 | 0000101 | 100,00   | 1.000,00 |
+| 00002   | 20/01/2015 | Ordem de Compra | 100001 | 0000101 |          | 100,00  |
+| 00003   | 31/01/2015 | Ajuste     | 100001 | 0000101 |          | 15,00   |
 
-A página **Entradas de custo** permite a filtragem por ID de documento e data de documento. **Observação:** As entradas de custo estão disponíveis somente para os [objetos de custo](cost-object.md) ou produtos liberados.
+A página **Entradas de custo** permite a filtragem por ID de documento e data de documento. 
+
+> [!NOTE]
+> As entradas de custo estão disponíveis somente para [objetos de custo](cost-object.md) ou produtos liberados.
 
 <a name="see-also"></a>Consulte também
 --------
 
 [Objetos de custo](cost-object.md)
+
+
 
 

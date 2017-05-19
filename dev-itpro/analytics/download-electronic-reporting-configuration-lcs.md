@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 9dca5dec846670da25926826f59d7bce0fa0dcea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e2f3a352ca70472de838271fdedfede575cb839d
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>Baixar configurações do Relatório eletrônico no Lifecycle Services
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico explica como baixar configurações do ER (Relatório eletrônico) do Microsoft Dynamics Lifecycle Services (LCS).
 
@@ -43,9 +47,10 @@ Este tutorial conduz você pelo processo de download da versão mais recente das
     1.  Clique em **Adicionar** para adicionar um novo repositório.
     2.  Selecione **LCS** como tipo de repositório.
     3.  Clique em **Criar repositório**.
-    4.  Insira um nome e uma descrição para o repositório.
-    5.  Clique em **OK** para confirmar a nova entrada do repositório.
-    6.  Na grade, selecione o novo repositório do tipo **LCS**.
+    4. Se solicitado, siga as instruções de autorização.
+    5.  Insira um nome e uma descrição para o repositório.
+    6.  Clique em **OK** para confirmar a nova entrada do repositório.
+    7.  Na grade, selecione o novo repositório do tipo **LCS**.
 
 6.  Clique em **Abrir** para exibir a lista de configurações de ER para o repositório selecionado. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  Na árvore de configurações, no painel esquerdo, selecione a configuração de ER necessária.
@@ -58,5 +63,7 @@ Este tutorial conduz você pelo processo de download da versão mais recente das
 --------
 
 [Visão geral do relatório eletrônico](general-electronic-reporting.md)
+
+
 
 

@@ -3,7 +3,7 @@ title: Criar ordens de compra
 description: "Este artigo descreve o processo e as opções quando você criar manualmente uma ordem de compra."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: de8fa93bfc0119d6f9433fb4215c326abdda2899
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b87e4be4541ce5a33b3f6ed0ffe3b08f6447d293
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="create-purchase-orders"></a>Criar ordens de compra
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo descreve o processo e as opções quando você criar manualmente uma ordem de compra.
 
@@ -66,7 +70,7 @@ Uma linha de OC está sendo usada para devolver um produto ao fornecedor que ter
 Encargos podem ser adicionados automaticamente à linhas da PO, se encargos automáticos foram configurados para o fornecedor ou grupo de encargos do fornecedor, e para o item ou grupo de encargos do item. No entanto, geralmente, encargos são adicionados manualmente no nível da linha da ordem. Para adicionar um encargo, abra a página **Manter encargos** usando a ação **Manter encargos** sobre o menu **Finanças** na exibição **Linhas**. A vantagem de adicionar encargos diretamente no nível da linha da ordem é que o encargo pode ser alocado como um custo de estoque. Para definir os códigos de encargo ao custo do produto de conta, use a opção de débito **Item**. Esses tipos de encargos devem ser alocados do cabeçalho da ordem de compra para as linhas antes que a ordem possa ser confirmada. Por exemplo, você talvez queira alocar encargos com base na quantidade em cada linha. A categoria de custo também afeta como os encargos serão contabilizados. Por exemplo, encargos fixos especificam um valor fixo e porcentagem de encargos calculados como uma porcentagem do valor líquido para a linha da ordem. POs podem ser atribuídos a uma carga e a carga pode incluir uma estimativa da despesa esperada para o custo de transporte. Você pode alocar essa despesa de carga antes das linhas de ordem de compra.
 
 ## <a name="purchase-order-actions"></a>Ações da ordem de compra
-Depois de adicionar o cabeçalho e as linhas para a ordem de compra, você geralmente deve concluir etapas adicionais antes que a ordem esteja pronta para ser confirmada. Como tantas opções estão disponíveis, talvez seja útil usar [Pesquisa de ação](/dynamics365/operations/action-search) para localizar o item de menu relevantes.  
+Depois de adicionar o cabeçalho e as linhas para a ordem de compra, você geralmente deve concluir etapas adicionais antes que a ordem esteja pronta para ser confirmada. Como tantas opções estão disponíveis, talvez seja útil usar [Pesquisa de ação](/dynamics365/operations/get-started/action-search) para localizar o item de menu relevantes.  
 
 Você pode configurar produtos na ordem para que eles tenham itens suplementares. Itens suplementares são produtos que devem ou podem ser comprados em conjunto com outros produtos. Produtos suplementares podem ser adicionados gratuitamente como os que acompanham os produtos ou você poderá optar por adicioná-los à ordem ou não. Você pode revisar os itens suplementares após cada linha de ordem adicionada. No entanto, você provavelmente achará mais conveniente revisar e adicionar itens suplementares relevantes para todas as linhas da ordem, usando a página **Itens suplementares**, que pode ser aberta no painel de ação.  
 
@@ -91,5 +95,7 @@ Talvez seja necessário atrasar a conclusão de uma ordem de compra. Por exemplo
 [Recebimento de produtos contra ordens de compra](product-receipt-against-purchase-orders.md)
 
 [Visão geral das faturas de fornecedor](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

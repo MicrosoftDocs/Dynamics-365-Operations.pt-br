@@ -18,10 +18,11 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7c0bc5b5d86956336012096c11d0d7621abab1f9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d8296dd0347a325a9ff3bd06f558d161ab4030dc
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,7 +38,7 @@ Os pesos e as taxas dos materiais de embalagem são calculados para as linhas de
 
 Você pode definir uma ou mais unidades de embalagem para um item, um grupo de itens de embalagem ou para todos os itens. Uma unidade de embalagem consiste em materiais de embalagem, seus pesos, além do número de itens incluídos na unidade de embalagem. Um código de material de embalagem é atribuído a cada tipo de material de embalagem definido. Com base no código de material de embalagem, você pode especificar um preço para um período específico. A taxa de material de embalagem é calculada com base nessas informações.
 
-| **Nota **                                                                                                                                             |
+| **Nota**                                                                                                                                             |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Mesmo que sua empresa não pague taxas de material de embalagem, você poderá usar a funcionalidade para calcular estatísticas de pesos dos materiais de embalagem. |
 

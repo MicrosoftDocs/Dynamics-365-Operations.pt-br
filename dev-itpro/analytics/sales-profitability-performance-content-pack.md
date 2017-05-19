@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 3e6b48768bb8e69d46f1555d9300f3b878b01ff1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35d34f9a356f8a041f2abf0aa8d6c3a6d9ca4a46
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a>Conteúdo de Power BI de desempenho de lucratividade e vendas
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico descreve o que está incluso no Dynamics 365 para Operações - Pacote de conteúdo de desempenho de lucratividade e vendas para o Microsoft Power BI. Ele explica como acessar os relatórios incluídos no pacote de conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
 
@@ -44,6 +48,7 @@ A lucratividade pode ser analisada por:
 
 ## <a name="accessing-the-content-pack"></a>Acessando o pacote de conteúdo
 O pacote de conteúdo do Power BI para desempenho de lucratividade e vendas é publicado como um ativo de implementação no Lifecycle Services (LCS) e pode ser acessado pelo Dynamics 365 para Operações. Para obter mais informações sobre como acessar e iniciar os relatórios do Power BI, consulte [conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md).
+**Observação:** KB 4011327 é um pré-requisito para o conteúdo do Power BI. Após entrar no Lifecycle Services, você pode acessar a Base de Dados de Conhecimento: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
 
 ## <a name="metrics-included-in-the-content-pack"></a>Medidor incluído no pacote de conteúdo
 O pacote de conteúdo inclui um relatório que consiste de um conjunto de métricas visualizadas como gráficos, blocos e tabelas. A tabela a seguir fornece uma visão geral das visualizações no pacote de conteúdo.
@@ -110,6 +115,8 @@ Estes são alguns links úteis relacionados às entidades e ao desenvolvimento d
 -   [Criando pacotes de conteúdo organizacionais](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [Modelagem de dados por meio do Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [Adicionando blocos do Power BI aos espaços de trabalho](configure-power-bi-integration.md)
+
+
 
 
 

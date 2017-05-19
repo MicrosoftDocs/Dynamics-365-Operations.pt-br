@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 8965c193839002776b3c61036b23b54625c974a4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 734bf8a5cd71d218942e1a57fbb6af8fef4dc998
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,10 +40,10 @@ Qualquer tipo de personalização feita por um usuário no Microsoft Dynamics 36
 ## <a name="systemwide-options-for-the-current-user"></a>Opções no nível do sistema para o usuário atual
 Na barra de navegação, você encontrará a imagem de uma engrenagem, que é o botão de menu **Configurações**. Ao abrir o menu **Configurações**, você verá uma série de opções. Selecionar **Opções** abrirá a página **Opções** do usuário. Você verá quatro guias de opções: **Visual**, **Preferências**, **Conta** e **Fluxo de trabalho**.
 
--   **Visual: **use-a para escolher um tema de cor e o tamanho padrão dos elementos nas páginas.
+-   **Visual:** use-a para escolher um tema de cor e o tamanho padrão dos elementos nas páginas.
 -   **Preferências:** Aqui você pode escolher padrões cada vez que abrir o Microsoft Dynamics 365 for Operations, incluindo a empresa, a página inicial e o modo exibição/edição padrão (que determina se uma página será bloqueada para exibição ou aberta para edição cada vez que for aberta). Você também encontrará opções de idioma, fuso horário, data, hora e formato de número. Por fim, esta página contém preferências diversas que variarão de acordo com a versão.
--   **Conta: **fornece a ID do usuário e outras opções relacionadas à conta.
--   **Fluxo de trabalho: **aqui é possível escolher opções relacionadas ao fluxo de trabalho.
+-   **Conta:**fornece a ID do usuário e outras opções relacionadas à conta.
+-   **Fluxo de trabalho:**aqui é possível escolher opções relacionadas ao fluxo de trabalho.
 
 ## <a name="implicit-personalizations"></a>Personalizações implícitas
 As personalizações implícitas são aquelas que você executa ao interagir com alguns controles que reconhecem seu estado de visibilidade atual. 
@@ -106,7 +107,7 @@ Alguns espaços de trabalho contém os blocos de contagem (blocos com números n
 Geralmente, o painel é a primeira página que você vê quando abre o Microsoft Dynamics 365 for Operations. Você pode personalizar o painel para renomear os blocos de navegação do espaço de trabalho, exibir somente os blocos desejados, renomear os blocos ou organizar os blocos na ordem em que você preferir consultá-los. Para personalizar o painel, selecione qualquer bloco e clique com o botão direito do mouse para abrir um menu de contexto. No menu de contexto, selecione **Personalizar**. Se o bloco selecionado for o que você deseja ocultar, renomear ou ignorar, faça essa alteração diretamente na janela Propriedade exibida. Para organizar os blocos, selecione **Personalizar este formulário** na janela Propriedade para abrir a barra de ferramentas Personalização. Você pode usar a ferramenta Mover para organizar os blocos.
 
 ## <a name="administration-of-personalization"></a>Administração de personalização
-É possível personalizar uma página e compartilhá-la com outros usuários; para isso, basta exportar a página personalizada e solicitar a outros usuários que naveguem até a página personalizada e importem o arquivo de personalização que você criou. Se um usuário tiver privilégios de administrador, ele também poderá gerenciar personalizações para outros usuários na página **Configuração da Personalização**. Navegue até a página b. Na página **Personalização**, você encontrará duas guias: **Sistema** e ** Usuários**. 
+É possível personalizar uma página e compartilhá-la com outros usuários; para isso, basta exportar a página personalizada e solicitar a outros usuários que naveguem até a página personalizada e importem o arquivo de personalização que você criou. Se um usuário tiver privilégios de administrador, ele também poderá gerenciar personalizações para outros usuários na página **Configuração da Personalização**. Navegue até a página b. Na página **Personalização**, você encontrará duas guias: **Sistema** e **Usuários**. 
 
 **Sistema:** aqui é possível desabilitar ou "desativar" temporariamente todas as personalizações do sistema. Isso não exclui as personalizações, apenas redefine todos os formulários para seu estado padrão. Mais tarde, você poderá habilitar novamente a personalização para que todas as personalizações sejam reaplicadas aos formulários de cada usuário. Também é possível excluir todas as personalizações de todos os usuários. Observe que, quando você exclui as personalizações, não há como reabilitar automaticamente as personalizações do sistema. Antes de executar essa etapa, verifique se você exportou as personalizações que talvez deseje importar posteriormente. 
 

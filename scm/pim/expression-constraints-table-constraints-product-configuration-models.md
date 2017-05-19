@@ -3,7 +3,7 @@ title: "Restrições de expressão e restrições de tabela nos modelos de confi
 description: "Este tópico descreve o uso de restrições de expressão e de tabela. As restrições controlam os valores de atributo que podem ser selecionados quando você configura produtos para uma ordem de venda, cotação de venda, ordem de compra, ou uma ordem de produção. É possível usar restrições de expressão ou de tabela, dependendo de como você preferir criar as restrições."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 08 - 06
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 1fe8a0d90a3f707fa7b0fea0310c819ce5040a42
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1a08f537d87178973b3ce90bcb60b891bef1141e
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Restrições de expressão e restrições de tabela nos modelos de configuração do produto
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico descreve o uso de restrições de expressão e de tabela. As restrições controlam os valores de atributo que podem ser selecionados quando você configura produtos para uma ordem de venda, cotação de venda, ordem de compra, ou uma ordem de produção. É possível usar restrições de expressão ou de tabela, dependendo de como você preferir criar as restrições. 
 
@@ -40,7 +44,7 @@ As restrições de tabela listam as combinações de valores que são permitidas
 
 ### <a name="example-of-a-table-constraint"></a>Exemplo de uma restrição de tabela
 
-Este exemplo mostra como você pode limitar a configuração de um orador para especificar partes frontais e acabamentos do gabinete. A primeira tabela mostra as partes frontais e acabamentos dos gabinetes que geralmente estão disponíveis para a configuração. Os valores são definidos para os tipos de atributos **Acabamento do gabinete **e **Grade frontal**.
+Este exemplo mostra como você pode limitar a configuração de um orador para especificar partes frontais e acabamentos do gabinete. A primeira tabela mostra as partes frontais e acabamentos dos gabinetes que geralmente estão disponíveis para a configuração. Os valores são definidos para os tipos de atributos **Acabamento do gabinete**e **Grade frontal**.
 
 | Tipo de atributo | Valores                      |
 |----------------|-----------------------------|
@@ -84,7 +88,7 @@ Quando você configura um produto usando as seguintes configurações de restri�
 (Cor == "Preto" & (tamanho == "30" | tamanho == "50")) | (cor == "Vermelho" & tamanho = "20")
 
 ## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a>Devo usar operadores ou notação de infixo quando escrevo restrições de expressão?
-É possível gravar uma restrição de expressão usando os operadores de prefixo disponíveis ou usando a notação de infixo. Para os operadores **Mín.**, **Máx.** e **Abs **, você não pode usar a notação de infixo. Estes operadores estão incluídos como operadores padrão na maioria das linguagens de programação.
+É possível gravar uma restrição de expressão usando os operadores de prefixo disponíveis ou usando a notação de infixo. Para os operadores **Mín.**, **Máx.** e **Abs**, você não pode usar a notação de infixo. Estes operadores estão incluídos como operadores padrão na maioria das linguagens de programação.
 
 ## <a name="what-operators-and-infix-notation-can-i-use-when-i-write-expression-constraints"></a>Quais operadores e notação de infixo posso usar ao gravar restrições de expressão?
 As tabelas a seguir listam os operadores e as notações de infixo que você pode usar ao criar uma restrição de expressão para um componente em um modelo de configuração de produto. Os exemplos da primeira tabela mostram como gravar uma expressão usando os operadores ou a notação de infixo.
@@ -248,5 +252,7 @@ Não é possível usar palavras-chave reservadas como nomes de atributos, compon
 [Criar uma restrição de expressão (Guia de tarefas)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
 [Adicionar cálculo ao modelo de configuração de produto (Guia de tarefas)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+
+
 
 

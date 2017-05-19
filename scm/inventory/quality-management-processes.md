@@ -3,7 +3,7 @@ title: Processos de gerenciamento de qualidade
 description: "Este artigo fornece informações sobre o processo de gerenciamento de qualidade para produtos que não estão em conformidade. E descreve como usar a funcionalidade de controle de qualidade, como definir e manter não conformidades, e como lidar com correções."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-10-30 12 - 53 - 17
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 2deec6d262e87daf4704ce21ce64546f9c9d638b
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3523a89768bc3aee2aab250ee134128fcc3eeeef
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="quality-management-processes"></a>Processos de gerenciamento de qualidade
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo fornece informações sobre o processo de gerenciamento de qualidade para produtos que não estão em conformidade. E descreve como usar a funcionalidade de controle de qualidade, como definir e manter não conformidades, e como lidar com correções.
 
@@ -52,7 +56,9 @@ Os testes de produto geralmente são chamados de controle de qualidade e usam or
 -   Registre os resultados do teste em uma ordem de qualidade, valide os resultados do teste em relação ao AQL e imprima um certificado de análise que exiba os resultados do teste.
 
 ## <a name="nonconformance"></a>Não conformidade
-Uma não conformidade descreve um item com um problema de qualidade.** **O processo de não conformidade permite criar uma ordem de não conformidade que descreve uma quantidade de material não conforme, a origem do problema, o tipo de problema e as notas explicativas. Você pode definir uma classificação de tipos de problema para facilitar a análise de materiais não conformes. Você também pode imprimir uma marca de não conformidade e um relatório de não conformidade para orientar a disposição de materiais não conformes. Por exemplo, a etiqueta e o relatório podem indicar uma condição **Inutilizável** ou **Uso restrito**. A tabela a seguir lista os seis tipos padrão de não conformidade e descreve as informações que devem ser registradas para cada tipo.
+Uma não conformidade descreve um item com um problema de qualidade. O processo de não conformidade permite que você crie uma ordem de não conformidade que descreve uma quantidade de material de não conformidade, a origem do problema, o tipo de problema e as notas explicativas. Você pode definir uma classificação de tipos de problema para facilitar a análise de materiais não conformes. Você também pode imprimir uma marca de não conformidade e um relatório de não conformidade para orientar a disposição de materiais não conformes. Por exemplo, a etiqueta e o relatório podem indicar uma condição **Inutilizável** ou **Uso restrito**. 
+
+A tabela a seguir lista os seis tipos padrão de não conformidade e descreve as informações que devem ser registradas para cada tipo.
 
 | Tipo de não conformidade   | Informações de origem                                                                                                                                                                                                                          |
 |-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -72,10 +78,16 @@ Você pode inserir comentários para uma não conformidade ao anexar um document
 O relatório de não conformidade exibe o número, o item, e o tipo de problema da não conformidade. Dependendo da política de configuração de relatório, o relatório também pode exibir anotações relacionadas sobre a não conformidade. A etiqueta de não conformidade exibe informações semelhantes, além de incluir a zona e o tipo de quarentena (como **Uso restrito** ou **Inutilizável**) atribuídos à não conformidade para ajudar a orientar a disposição do material defeituoso.
 
 ## <a name="approved-nonconformance"></a>Não conformidade aprovada
-Opcionalmente, você pode definir uma ou mais operações relacionadas para uma não conformidade aprovada. Uma operação relacionada descreve o trabalho que deve ser executado, e contém uma lista de operações de qualidade definidas por você e texto descritivo sobre o motivo do trabalho. Depois de definir uma operação, você pode definir os encargos diversos, os itens e horas de mão-de-obra de folha de ponto necessários para realizar o trabalho. Os custos calculados são mostrados para a operação relacionada e os custos calculados totais são mostrados para a não conformidade. Os custos calculados e os detalhes subjacentes (sobre itens, horas de trabalho, encargos diversos) representam informações de referência e são usados somente em função de gerenciamento de qualidade. Você pode, opcionalmente, criar uma ordem de qualidade de uma não conformidade fazendo, primeiro, uma consulta sobre ordens de qualidade e, depois, criando a nova ordem de qualidade. Por exemplo, uma ordem de qualidade poderia identificar a necessidade de testar (ou de repetir testes) o material defeituoso. A ordem de qualidade recém-criada exibe o link para a não conformidade original. Você pode vincular uma não conformidade a outra e criar uma nova não conformidade a partir de uma existente. Por exemplo, o link pode refletir a interconexão entre os problemas de qualidade.
+Opcionalmente, você pode definir uma ou mais operações relacionadas para uma não conformidade aprovada. Uma operação relacionada descreve o trabalho que deve ser executado, e contém uma lista de operações de qualidade definidas por você e texto descritivo sobre o motivo do trabalho. Depois de definir uma operação, você pode definir os encargos diversos, os itens e horas de mão-de-obra de folha de ponto necessários para realizar o trabalho. Os custos calculados são mostrados para a operação relacionada e os custos calculados totais são mostrados para a não conformidade. Os custos calculados e os detalhes subjacentes (sobre itens, horas de trabalho, encargos diversos) representam informações de referência e são usados somente em função de gerenciamento de qualidade. 
+
+Você pode, opcionalmente, criar uma ordem de qualidade de uma não conformidade fazendo, primeiro, uma consulta sobre ordens de qualidade e, depois, criando a nova ordem de qualidade. Por exemplo, uma ordem de qualidade poderia identificar a necessidade de testar (ou de repetir testes) o material defeituoso. A ordem de qualidade recém-criada exibe o link para a não conformidade original. 
+
+Você pode vincular uma não conformidade a outra e criar uma nova não conformidade a partir de uma existente. Por exemplo, o link pode refletir a interconexão entre os problemas de qualidade.
 
 ## <a name="correction-handling"></a>Manuseio de correção
-A página **Correções** permite criar uma lista de não conformidades que devem ser corrigidas. Cada item da correção é associado ao tipo de diagnóstico que causou a identificação do problema. A página **Correções** também contém informações sobre quem deve realizar uma ação corretiva e quando. Você pode descrever os detalhes do problema e da ação corretiva necessária anexando um documento à correção. Depois que a não conformidade tiver sido tratada ou corrigida, você "fechará" o item de correção ao selecionar a opção **Concluído**. Você também pode indicar que a solução foi uma solução de curto prazo. É recomendável definir um tipo de documento exclusivo para correões usando a página **Tipo de documento**. Você pode então usar a página **Configuração de relatório** para definir se os comentários para esse tipo de documento serão impressos no relatório de correção. Um relatório impresso de correção exibe informações sobre a não conformidade e as anotações relacionadas de não conformidade. O relatório também inclui informações de correção, como o tipo de diagnóstico, e as anotações de correção relacionadas.
+A página **Correções** permite criar uma lista de não conformidades que devem ser corrigidas. Cada item da correção é associado ao tipo de diagnóstico que causou a identificação do problema. A página **Correções** também contém informações sobre quem deve realizar uma ação corretiva e quando. Você pode descrever os detalhes do problema e da ação corretiva necessária anexando um documento à correção. Depois que a não conformidade tiver sido tratada ou corrigida, você "fechará" o item de correção ao selecionar a opção **Concluído**. Você também pode indicar que a solução foi uma solução de curto prazo. 
+
+É recomendável definir um tipo de documento exclusivo para correões usando a página **Tipo de documento**. Você pode então usar a página **Configuração de relatório** para definir se os comentários para esse tipo de documento serão impressos no relatório de correção. Um relatório impresso de correção exibe informações sobre a não conformidade e as anotações relacionadas de não conformidade. O relatório também inclui informações de correção, como o tipo de diagnóstico, e as anotações de correção relacionadas.
 
 <a name="see-also"></a>Consulte também
 --------
@@ -91,5 +103,7 @@ A página **Correções** permite criar uma lista de não conformidades que deve
 [Definir ordens de qualidade (guia de tarefas)](http://ax.help.dynamics.com/en/wiki/set-up-quality-orders/)
 
 [Inspecionar a qualidade de mercadorias (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+
+
 
 

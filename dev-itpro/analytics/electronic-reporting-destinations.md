@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: d38d05fe445bf0326d408038dff84ccf8c0ff64c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b6b0edfbbcebed323be63d5bc892dba1170b9c67
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -60,7 +61,7 @@ Há suporte para vários tipos de destinos. Você pode desativar ou ativar todos
 
 ### <a name="email-destination"></a>Destino de email
 
-Definir **Habilitado **para **Sim** para enviar um arquivo de saída por e-mail. Depois que esta opção for ativada, você pode especificar os destinatários de e-mail e editar o assunto e o corpo da mensagem de email. Você pode configurar textos constantes do assunto e do corpo de email, ou você pode usar ER de fórmulas para criar textos de email dinamicamente. Você pode configurar endereços de email para o ER de duas formas. A configuração pode ser concluída da mesma forma que o recurso de gerenciamento de impressão no Dynamics 365 for Operations a conclui. Se preferir, você pode resolver um endereço de email usando uma referência direta para a configuração de ER através de uma fórmula.
+Definir **Habilitado**para **Sim** para enviar um arquivo de saída por e-mail. Depois que esta opção for ativada, você pode especificar os destinatários de e-mail e editar o assunto e o corpo da mensagem de email. Você pode configurar textos constantes do assunto e do corpo de email, ou você pode usar ER de fórmulas para criar textos de email dinamicamente. Você pode configurar endereços de email para o ER de duas formas. A configuração pode ser concluída da mesma forma que o recurso de gerenciamento de impressão no Dynamics 365 for Operations a conclui. Se preferir, você pode resolver um endereço de email usando uma referência direta para a configuração de ER através de uma fórmula.
 
 ### <a name="email-address-types"></a>Tipos de endereço de email
 
@@ -92,7 +93,7 @@ Use este tipo de email se a configuração que você usar tiver um nó nas fonte
 
 ### <a name="archive-destination"></a>Local do arquivo morto
 
-Você pode usar esta opção para enviar a saída para uma pasta do Microsoft SharePoint ou Microsoft Azure Storage. Definir **Habilitado** para **Sim **para enviar a saída para um destino que é definido pelo tipo de documento selecionado. Somente tipos de documento onde o grupo está definido para **Arquivo** estão disponíveis para seleção. Você define os tipos de documentos em **Administração da organização** &gt; **Gerenciamento de documentos** &gt; **Tipos de documentos**. A configuração de destinos de ER é o mesma que a configuração para o sistema de gerenciamento de documentos.
+Você pode usar esta opção para enviar a saída para uma pasta do Microsoft SharePoint ou Microsoft Azure Storage. Definir **Habilitado** para **Sim**para enviar a saída para um destino que é definido pelo tipo de documento selecionado. Somente tipos de documento onde o grupo está definido para **Arquivo** estão disponíveis para seleção. Você define os tipos de documentos em **Administração da organização** &gt; **Gerenciamento de documentos** &gt; **Tipos de documentos**. A configuração de destinos de ER é o mesma que a configuração para o sistema de gerenciamento de documentos.
 
 [![Página Tipos de documento](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 

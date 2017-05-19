@@ -3,7 +3,7 @@ title: "depreciação com declínio de 175%"
 description: "Este artigo fornece uma visão geral do método de saldo de reduzem de 175 de porcentagem de depreciação."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 812fbb3cc3159783e9908e537c366ffc7f934092
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: cf428d61f89ea70a83e440c656fbc84d7dbded8d
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="175-percent-reducing-balance-depreciation"></a>depreciação com declínio de 175%
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo fornece uma visão geral do método de saldo de reduzem de 175 de porcentagem de depreciação.
 
@@ -54,7 +58,7 @@ Se você selecionar **Calendário** como o ano de depreciação, as seguintes op
 
 ### <a name="fiscal"></a>fiscal
 
-Se você selecionar **Fiscal** no campo **Ano de depreciação**, a depreciação com declínio de 175% será calculada com base no ano fiscal especificado para o registro de depreciação, ou para o calendário fiscal selecionado na página **Razão**. Os calendários fiscais são configurados na página **Calendários fiscais**. Para obter mais informações, consulte [Calendários fiscais, anos fiscais e períodos.](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md)
+Se você selecionar **Fiscal** no campo **Ano de depreciação**, a depreciação com declínio de 175% será calculada com base no ano fiscal especificado para o registro de depreciação, ou para o calendário fiscal selecionado na página **Razão**. Os calendários fiscais são configurados na página **Calendários fiscais**. Para obter mais informações, consulte [Calendários fiscais, anos fiscais e períodos.](..\budgeting\fiscal-calendars-fiscal-years-periods.md)
 
 Por exemplo, no ano fiscal entre 1 de julho e 30 de junho, o cálculo da depreciação começa em 1 de julho. O ano fiscal pode ter mais ou menos do que 12 meses. A depreciação é ajustada automaticamente para cada período fiscal e a duração do próximo ano fiscal é determinada pela configuração de períodos na página **Calendários fiscais**. 
 
@@ -82,5 +86,7 @@ O método de depreciação por declínio de 175% divide 175% pelos anos de vida 
 
 > [!NOTE] 
 > Normalmente, quando o valor que é calculado usando o método de depreciação por declínio de 175% se torna menor do que o valor que será calculado usando o método linear, há uma conversão para o método linear método para a vida restante.
+
+
 
 

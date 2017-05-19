@@ -3,7 +3,7 @@ title: "Definições de lançamento"
 description: "Este artigo fornece informações sobre definições de lançamento, e como definir e vinculá-las. Para tipos de lançamento e documentos com suporte, você pode usar definições de lançamento em vez de perfis de lançamento para classificar as contas principais e as dimensões financeiras em entradas contábeis."
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,26 +18,30 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9f4d7fdd8cfa7a540fce219f6ae4792e57dfbe44
-ms.openlocfilehash: 357ae498e84ef27e46142c7dcc0f90ecb0ee9f1c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aea0a5c078e4fb3a47cce3a7b427b56bf7a9bcf5
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="posting-definitions"></a>Definições de lançamento
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo fornece informações sobre definições de lançamento, e como definir e vinculá-las. Para tipos de lançamento e documentos com suporte, você pode usar definições de lançamento em vez de perfis de lançamento para classificar as contas principais e as dimensões financeiras em entradas contábeis.
 
 Para tipos de lançamento e documentos com suporte, você pode usar definições de lançamento em vez de perfis de lançamento para classificar as contas principais e as dimensões financeiras em entradas contábeis. Você pode exibir os documentos e os tipos de lançamento com suporte na página **Definições de lançamento de transação**. 
 
-Para começar a usar definições de lançamento, selecione a opção** Usar definições de lançamento** na página **Parâmetros de contabilidade**. Mesmo quando você usa definições de lançamento, ainda deve definir perfis de lançamento para as entradas de origem e os tipos de lançamento e os documentos sem suporte. 
+Para começar a usar definições de lançamento, selecione a opção**Usar definições de lançamento** na página **Parâmetros de contabilidade**. Mesmo quando você usa definições de lançamento, ainda deve definir perfis de lançamento para as entradas de origem e os tipos de lançamento e os documentos sem suporte. 
 
 Você deve usar definições de lançamento para habilitar a contabilidade de ônus para ordens de compra e a contabilidade de pré-ônus para requisições de compra.
 
 ## <a name="defining-posting-definitions"></a>Definições de lançamento
-Use a página ** Definições de lançamento** para especificar os critérios de correspondência e para definir as entradas que devem ser geradas quando ocorre uma correspondência. Os critérios de correspondência são avaliados para as entradas de origem como distribuições contábeis. 
+Use a página **Definições de lançamento** para especificar os critérios de correspondência e para definir as entradas que devem ser geradas quando ocorre uma correspondência. Os critérios de correspondência são avaliados para as entradas de origem como distribuições contábeis. 
 
 Na página **Definições de lançamento**, você também pode atribuir números de prioridade a linhas de entrada para controlar a ordem em que as linhas são avaliadas. As linhas com o número de menor prioridade são avaliadas primeiro. Por exemplo, todas as linhas com uma prioridade 1 são avaliadas, depois as linhas com uma prioridade 2 e assim por diante. Quando uma correspondência for encontrada, os outros critérios de correspondência serão ignorados. Além disso, apenas os critérios no grupo que correspondem à transação de origem criarão entradas geradas. 
 
@@ -59,5 +63,7 @@ As seguintes limitações se aplicam quando você cria links em definições de 
 -   Você pode atribuir uma definição de lançamento a qualquer tipo de transação, mas o tipo de transação deve estar no mesmo módulo que a definição de lançamento. Use a página **Definições de lançamento de transação** para ver em qual módulo está um tipo de transação.
 
 
-Para obter mais informações, consulte [Exemplos de definição de lançamento](/general-ledger/example-posting-definitions.md). 
+Para obter mais informações, consulte [Exemplos de definição de lançamento](example-posting-definitions.md). 
+
+
 

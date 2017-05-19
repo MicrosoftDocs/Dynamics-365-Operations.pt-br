@@ -1,16 +1,16 @@
 ---
 title: "Definições de linha no designer de relatório financeiro"
 description: "Uma definição de linha é um componente de relatório ou bloco de construção que especifica o conteúdo de cada linha em um relatório financeiro. Uma definição de linha pode ser combinada com as definições de coluna, definições de árvore de relatórios e as definições de relatório para criar um grupo do bloco de construção que possa ser usado por várias empresas."
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-18 15 - 42 - 39
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: a2f92effd1cfdc1d5da2c5ec895c0487a6fc82a4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aa9fcc4d0c122d2355362b75ca210af4c2ef4338
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="row-definitions-in-financial-report-designer"></a>Definições de linha no designer de relatório financeiro
+
+[!include[banner](../includes/banner.md)]
+
 
 Uma definição de linha é um componente de relatório ou bloco de construção que especifica o conteúdo de cada linha em um relatório financeiro. Uma definição de linha pode ser combinada com as definições de coluna, definições de árvore de relatórios e as definições de relatório para criar um grupo do bloco de construção que possa ser usado por várias empresas.
 
@@ -72,8 +76,8 @@ Para adicionar dimensões a uma definição de linha, siga as etapas a seguir.
 
 1.  No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
 2.  No menu **Editar**, clique em **Inserir Linhas de Dimensões**.
-3.  Na caixa de diálogo **Inserir Linhas de Dimensões **, na linha **Dimensões**, selecione a célula da dimensão a ser transferida para a definição de linha e clique em **Todos &&&**.
-4.  Para limitar a definição de linha a um intervalo específico de valores de dimensões, digite o valor de dimensão inicial na célula ** Início do Intervalo de Dimensões **, e digite o valor de dimensão final na célula **Final do Intervalo de Dimensões**. Para incluir todos os valores da dimensão selecionada, deixe essas células vazias. **Observação:** Os caracteres curinga (\* ou ?) em intervalos de dimensão não podem retornar todos os resultados desejados, dependendo de como o banco de dados ERP agrupa dados.
+3.  Na caixa de diálogo **Inserir Linhas de Dimensões**, na linha **Dimensões**, selecione a célula da dimensão a ser transferida para a definição de linha e clique em **Todos &&&**.
+4.  Para limitar a definição de linha a um intervalo específico de valores de dimensões, digite o valor de dimensão inicial na célula **Início do Intervalo de Dimensões**, e digite o valor de dimensão final na célula **Final do Intervalo de Dimensões**. Para incluir todos os valores da dimensão selecionada, deixe essas células vazias. **Observação:** Os caracteres curinga (\* ou ?) em intervalos de dimensão não podem retornar todos os resultados desejados, dependendo de como o banco de dados ERP agrupa dados.
 5.  No campo **Código de linha inicial** para especificar o código de linha para o primeiro valor de dimensão a ser adicionado à definição de linha.
 6.  No campo **Incrementar cada linha em** para especificar o intervalo entre os códigos de linha consecutivos. Por exemplo, se o primeiro código de linha é 100 e o valor de incremento é 30, as primeiras novas linhas têm os códigos 100, 130, 160, 190 e 220. Use um valor de incremento que forneça espaço suficiente para inserir novas linhas de formato e fórmula.
 7.  Clique em **OK**. Para cada uma dos valores de dimensão selecionados, uma linha é adicionada a definição da linha.
@@ -97,9 +101,9 @@ Para ajustar o arredondamento em um balanço, siga as etapas a seguir.
     -   **Linha de total de passivos e capital próprio** – O código de linha da linha no balanço que contém o total de passivos e capital próprio.
     -   **Limite de valor de ajuste** – Um limite positivo que especifica o limite em ajustes automáticos. Esse valor é comparado ao valor absoluto da diferença de arredondamento real.
 
-    **Observação: **Esses códigos de linha devem estar vinculados aos seus dados financeiros. Em outras palavras, a linha deve ter um valor de dimensão na célula **Link para Dimensões Financeiras**. Não **referencie** uma linha de descrição (**DESC**), calculada (**CALC**) ou totalizada (**TOT**).
+    **Observação:**Esses códigos de linha devem estar vinculados aos seus dados financeiros. Em outras palavras, a linha deve ter um valor de dimensão na célula **Link para Dimensões Financeiras**. Não **referencie** uma linha de descrição (**DESC**), calculada (**CALC**) ou totalizada (**TOT**).
 
-Os valores no balanço serão equilibrados agora uniformemente quando o arredondamento estiver ativado. **Observação: **O limite de ajuste é aplicado com base na opção **Precisão de arredondamento** que é especificada para a definição de relatório. Por exemplo, se você selecionar para arredondar o relatório em milhares e inserir **2** no campo **Limite de valor de ajuste**, será exibida uma mensagem de aviso quando o valor identificado no campo **Linha de ajuste de arredondamento** aumentar ou diminuir em mais de US$ 2.000.
+Os valores no balanço serão equilibrados agora uniformemente quando o arredondamento estiver ativado. **Observação:**O limite de ajuste é aplicado com base na opção **Precisão de arredondamento** que é especificada para a definição de relatório. Por exemplo, se você selecionar para arredondar o relatório em milhares e inserir **2** no campo **Limite de valor de ajuste**, será exibida uma mensagem de aviso quando o valor identificado no campo **Linha de ajuste de arredondamento** aumentar ou diminuir em mais de US$ 2.000.
 
 ## <a name="format-row-and-column-text"></a>Linha de formato e texto da coluna
 Você pode personalizar a aparência dos relatórios alterando fontes e formatação de texto. As seções a seguir explicam como formatar a aparência de linhas e colunas em relatórios.
@@ -173,6 +177,8 @@ Para facilitar a exibição das colunas em que estiver trabalhando na definiçã
 <a name="see-also"></a>Consulte também
 --------
 
-[Relatório financeiro para o Microsoft Dynamics 365 for Operations](financial-reporting-intro.md)
+[Relatórios financeiros](financial-reporting-intro.md)
+
+
 
 

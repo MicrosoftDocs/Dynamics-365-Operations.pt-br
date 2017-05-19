@@ -3,7 +3,7 @@ title: "Configuração de depósito"
 description: "Este artigo explica como configurar um depósito. Ele inclui informações sobre como habilitar um layout de depósito e processos de depósito."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-10-30 12 - 52 - 43
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,19 +17,23 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 437f2348603db432df6d7589e4043d8145c52a1e
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e312f953d6a29d26b98794ed213d6ec70f6aa4b7
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="warehouse-configuration"></a>Configuração de depósito
 
+[!include[banner](../includes/banner.md)]
+
+
 Este artigo explica como configurar um depósito. Ele inclui informações sobre como habilitar um layout de depósito e processos de depósito.
 
-**Observação:** Este artigo se aplica aos recursos no módulo de** Gerenciamento de depósito** (estoque avançado). Não se aplica aos recursos de depósito no módulo de ** Gerenciamento de depósito**.
+**Observação:** Este artigo se aplica aos recursos no módulo de**Gerenciamento de depósito** (estoque avançado). Não se aplica aos recursos de depósito no módulo de **Gerenciamento de depósito**.
 
 ## <a name="warehouse-layout"></a>Layout do depósito
 O sistema de gerenciamento de depósito no Microsoft Dynamics 365 for Operations fornece uma maneira flexível de definir o layout de depósito para atender às necessidades de modificação, de forma que você possa obter uma ótima eficiência de depósito.
@@ -40,7 +44,7 @@ O sistema de gerenciamento de depósito no Microsoft Dynamics 365 for Operations
 -   Você pode agrupar locais usando as configurações de restrição de capacidade física.
 -   Você pode controlar como os itens são armazenados e separados, com base em regras definidas pela consulta.
 
-Para usar o gerenciamento de depósito no Microsoft Dynamics 365 for Operations, você deve criar um depósito e habilitá-lo para as atividades de gerenciamento de depósito mais avançados ou mais especializadas. Na página **Depósitos**, selecione a opção **Usar processos de gerenciamento de depósito **.
+Para usar o gerenciamento de depósito no Microsoft Dynamics 365 for Operations, você deve criar um depósito e habilitá-lo para as atividades de gerenciamento de depósito mais avançados ou mais especializadas. Na página **Depósitos**, selecione a opção **Usar processos de gerenciamento de depósito**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Grupos de zonas, zonas, tipos de localização, e localizações
 
@@ -66,7 +70,7 @@ Para obter processos de saída ideais, você deve avaliar se deseja usar locais 
 
 ### <a name="location-setup-wizard"></a>Assistente de configuração de localização
 
-Para criar rapidamente as localizações em um depósito, você pode usar o assistente de "Configuração da localização". Como parte desse processo, você pode facilmente manter o formato dos nomes do local.
+Para criar rapidamente as localizações em um depósito, você pode usar o assistente de **Configuração da localização**. Como parte desse processo, você pode facilmente manter o formato dos nomes do local.
 
 ## <a name="warehouse-processes"></a>Processos do depósito
 Como parte da configuração do depósito, é importante que você habilite os processos de depósito de acordo com as necessidades comerciais. Os componentes mais importantes que você deve configurar são os modelos de onda, modelos de trabalho, grupos de trabalho, bem como diretivas de localização.
@@ -75,7 +79,12 @@ Como parte da configuração do depósito, é importante que você habilite os p
 
 Os modelos de onda ajudam a habilitar o processo "Liberar para depósito". Assim que as linhas da ordem foram liberadas (diretamente dos documentos de origem, por meio dos processos do trabalho em lotes, ou por meio de cargas que já foram criadas), a funcionalidade do modelo da onda será usada. 
 
-Você pode criar três tipos de modelos de onda: **Envio**, **Ordem de produção**, e **Kanban**. Os parâmetros são usados para definir até onde o sistema deve ir automaticamente no processamento de trabalho de saída. Um modelo de onda é selecionado com base na sequência do modelo de onda e nos critérios especificados no modelo. Se um modelo estiver listado na parte superior da sequência, os critérios nesse modelo são verificados pela primeira vez. Se os critérios puderem ser atendidos, o modelo de onda será processado. Caso contrário, os critérios no modelo seguinte são verificados, e assim por diante. Sendo assim, é recomendável colocar o modelo que contém o critério mais específico na parte superior da lista de sequência de modelo de onda, de modo que seja processado primeiro. Por exemplo, você deseja processar todo o trabalho para uma transportadora específica e atrasar temporariamente o processamento do trabalho de outras transportadoras. Nesse caso, o modelo de onda que seleciona o trabalho para a transportadora deve estar listado acima na sequência dos outros modelos. Caso contrário, o trabalho para outras transportadoras pode ser processado antes que o trabalho dessa transportadora seja concluído. 
+É possível criar três tipos de modelos de onda: 
+-   **Remessa**
+-   **Ordem de produção**
+-   **Kanban** 
+
+Os parâmetros são usados para definir até onde o sistema deve ir automaticamente no processamento de trabalho de saída. Um modelo de onda é selecionado com base na sequência do modelo de onda e nos critérios especificados no modelo. Se um modelo estiver listado na parte superior da sequência, os critérios nesse modelo são verificados pela primeira vez. Se os critérios puderem ser atendidos, o modelo de onda será processado. Caso contrário, os critérios no modelo seguinte são verificados, e assim por diante. Sendo assim, é recomendável colocar o modelo que contém o critério mais específico na parte superior da lista de sequência de modelo de onda, de modo que seja processado primeiro. Por exemplo, você deseja processar todo o trabalho para uma transportadora específica e atrasar temporariamente o processamento do trabalho de outras transportadoras. Nesse caso, o modelo de onda que seleciona o trabalho para a transportadora deve estar listado acima na sequência dos outros modelos. Caso contrário, o trabalho para outras transportadoras pode ser processado antes que o trabalho dessa transportadora seja concluído. 
 
 Você deve especificar os métodos de processo de onda em cada modelo de onda. Os métodos disponíveis variam, dependendo do tipo de modelo de onda.
 
@@ -107,6 +116,8 @@ Para facilitar e agilizar a definição de ações associadas a cada linha de di
 <a name="see-also"></a>Consulte também
 --------
 
-[Configurar localizações em um depósito habilitado para WMS (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
+[Configurar localizações em um depósito habilitado para WMS (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehouse/)
+
+
 
 

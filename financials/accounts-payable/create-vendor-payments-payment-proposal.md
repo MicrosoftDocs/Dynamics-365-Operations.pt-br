@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: b46037b9509f329e18f0da69d530f6b1f88c8888
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fef518bf156aa45dff66d21d49b433ed613cead1
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -38,7 +39,7 @@ A consulta de proposta de pagamento contém diversas guias, cada uma com diferen
 
 ## <a name="parameters"></a>Parâmetros
 -   **Selecionar faturas por** – Faturas no intervalo de datas especificado pelos campos **Data inicial** e **Data final** podem ser selecionadas por data de vencimento, data de desconto à vista ou ambas. Se usar a data de desconto à vista, o sistema procurará primeiro as faturas que têm uma data de desconto à vista entre a data inicial e a data final. O sistema determina se a fatura está qualificada para o desconto à vista usando a data da sessão para garantir que a data de desconto à vista ainda não passou.
--   **Data inicial** e** Data final** – as faturas com uma data de vencimento ou uma data de desconto à vista dentro desse intervalo de datas são selecionadas para pagamento.
+-   **Data inicial** e**Data final** – as faturas com uma data de vencimento ou uma data de desconto à vista dentro desse intervalo de datas são selecionadas para pagamento.
 -   **Data de pagamento** – se uma data for definida, todos os pagamentos serão criados nessa data. O campo **Data de pagamento mínima** será ignorado.
 -   **Data de pagamento mínima** – insira a data de pagamento mínima. Por exemplo, os campos **Data inicial** e **Data final** especificam um intervalo de 1 de setembro a 10 de setembro, e a data de pagamento mínimo é 5 de setembro. Nesse caso, todas as faturas com vencimento entre 1 de setembro e 5 de setembro têm 5 de setembro como data de pagamento. Contudo, todas as faturas com vencimento entre 5 de setembro e 10 de setembro têm uma data de pagamento igual à data de vencimento de cada fatura.
 -   **Limite de valor** – insira o valor total máximo para todos os pagamentos.

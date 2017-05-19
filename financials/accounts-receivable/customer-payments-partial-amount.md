@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3b16ef53f9fb57a6663db0be1f7e0a57471db2fb
-ms.openlocfilehash: 7025072cd29aac4ceb13b5594c3e321350777cf1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11fa0f0afa7ab400c87d6e7558292385ae80c8b2
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,10 +52,10 @@ Por exemplo, você oferece um desconto à vista de 2% caso a fatura seja paga em
 ## <a name="credit-notes-with-discounts"></a>Notas de crédito com descontos
 Se os clientes devolverem alguns dos itens em uma fatura, você poderá emitir uma nota de crédito. Se um desconto à vista tiver sido obtido na fatura original, a nota de crédito para o cliente deverá ser líquida do desconto à vista obtido pelo cliente. Se a opção **Calcular descontos à vista para notas de crédito** estiver definida como **Sim** na página **Parâmetros de contas a receber**, o desconto será calculado automaticamente para a nota de crédito. 
 
-Por exemplo, você ofereceu condições de pagamento que especificam um desconto à vista de 2% se a fatura for paga dentro de 10 dias desde a sua emissão. Uma fatura de 100,00 foi lançada e o cliente obteve o desconto à vista. Se o cliente devolver as mercadorias e você emitir uma nota de crédito, você pode inserir a nota de crédito para -100,00. Quando você exibe a nota de crédito na página **Liquidar transações abertas**,** 98,00** aparece no campo **Valor para liquidar** e **-2,00** aparece no campo **Valor do desconto à vista**. O valor do desconto é lançado em uma conta de desconto à vista.
+Por exemplo, você ofereceu condições de pagamento que especificam um desconto à vista de 2% se a fatura for paga dentro de 10 dias desde a sua emissão. Uma fatura de 100,00 foi lançada e o cliente obteve o desconto à vista. Se o cliente devolver as mercadorias e você emitir uma nota de crédito, você pode inserir a nota de crédito para -100,00. Quando você exibe a nota de crédito na página **Liquidar transações abertas**,**98,00** aparece no campo **Valor para liquidar** e **-2,00** aparece no campo **Valor do desconto à vista**. O valor do desconto é lançado em uma conta de desconto à vista.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Valores de pagamento a maior/a menor
-Quando os clientes fizerem um pagamento, poderá haver um valor muito pequeno que ainda deverá ser liquidado. Por exemplo, você emite a fatura do cliente no valor de 1.000,00 e ele paga 999,90. Se o valor restante for menor do que o valor especificado para pagamentos a maior ou para pagamentos a menor na página** Parâmetros de contas a receber**, a diferença será automaticamente lançada em uma conta conta contábil de pagamento a maior/a menor.
+Quando os clientes fizerem um pagamento, poderá haver um valor muito pequeno que ainda deverá ser liquidado. Por exemplo, você emite a fatura do cliente no valor de 1.000,00 e ele paga 999,90. Se o valor restante for menor do que o valor especificado para pagamentos a maior ou para pagamentos a menor na página**Parâmetros de contas a receber**, a diferença será automaticamente lançada em uma conta conta contábil de pagamento a maior/a menor.
 
 ## <a name="full-settlement"></a>Liquidação completa
 Os clientes podem fazer um pagamento parcial onde o valor restante não será pago, mas é maior do que o valor de pagamento a menor especificado na página **Parâmetros de contas a pagar**. Se você quiser marcar a fatura como totalmente liquidada, poderá usar a opção **Liquidação total** na página **Liquidar transação**. (Você pode habilitar a funcionalidade completa de liquidação usando uma chave de configuração). Por exemplo, uma fatura é lançada para 1.000,00 e o cliente faz um pagamento de 990,00. Você concordou que o cliente não precisa pagar os 10,00 restantes. Depois de marcar a fatura para liquidação, você também poderá marcar **Liquidação total**. A fatura será considerada totalmente liquidada. A diferença de 10,00 é lançada em uma conta de desconto à vista, como um valor de desconto à vista adicional.

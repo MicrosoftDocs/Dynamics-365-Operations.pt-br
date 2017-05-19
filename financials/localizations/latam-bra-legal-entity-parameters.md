@@ -17,10 +17,11 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: 3f7d054a59e2bfcc208d569264bcd0d517df2319
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 55f320b61eb4148e0760993cca18b51e8cbcdbed
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -214,7 +215,7 @@ Configurar texto padrão e tipos de produto e documento, das notas fiscais que s
 <td>Marque esta opção para configurar a data fixa de emissão da nota fiscal fixa dos tipos de notas fiscais.</td>
 </tr>
 <tr class="even">
-<td><strong>Item </strong></td>
+<td><strong>Item</strong></td>
 <td>Selecione a ID de item usada para lançar notas fiscais de faturas de texto livre.</td>
 </tr>
 <tr class="odd">
@@ -226,7 +227,7 @@ Configurar texto padrão e tipos de produto e documento, das notas fiscais que s
 <td>Selecione a ID do tipo de documento padrão para textos das notas fiscais. É possível selecionar um tipo de documento que não é atribuído ao texto de nota fiscal que é associado a uma nota fiscal. <strong>Observação:</strong> Se um texto da nota fiscal estiver associado a um documento fiscal, não será possível modificar o tipo de documento.</td>
 </tr>
 <tr class="odd">
-<td><strong>Item </strong></td>
+<td><strong>Item</strong></td>
 <td>Selecione a ID de item usada para criar notas fiscais de transferência ou apropriação de imposto.</td>
 </tr>
 <tr class="even">

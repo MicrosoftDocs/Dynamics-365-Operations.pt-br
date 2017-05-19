@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c4ebedab6d7de62479d3bc80583afadbe780aac4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8a12f79c9b2b02198c268a293b357ef805e2f4b9
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -54,7 +55,7 @@ Os cartões de roteiro fornecem uma visão geral das informações provenientes 
 Os roteiros de trabalho listam cada trabalho de uma operação em detalhes e incluem os tempos de configuração, processamento, espera e transporte. Por exemplo, uma operação como pintura poderá exigir trabalhos individuais, como tempo de configuração, tempo de execução para o processo de pintura e tempo de espera para a secagem.
 
 ## <a name="job-cards"></a>Fichas de trabalho
-As fichas de trabalho listam os números dos trabalhos individuais de determinada operação. Um trabalho aparece em cada página. Os trabalhos incluídos em uma ficha de trabalho e seus tempos estimados baseiam-se nas informações de configuração de roteiros e operações. De uma ficha de trabalho, você pode abrir a página **Linhas do diário de produção**, **ficha de trabalho **. As pessoas que executam recursos de operações podem fornecer comentários sobre os processos de produção. Existem campos onde você pode inserir estatísticas de consumo e informações como a quantidade com erros.
+As fichas de trabalho listam os números dos trabalhos individuais de determinada operação. Um trabalho aparece em cada página. Os trabalhos incluídos em uma ficha de trabalho e seus tempos estimados baseiam-se nas informações de configuração de roteiros e operações. De uma ficha de trabalho, você pode abrir a página **Linhas do diário de produção**, **ficha de trabalho**. As pessoas que executam recursos de operações podem fornecer comentários sobre os processos de produção. Existem campos onde você pode inserir estatísticas de consumo e informações como a quantidade com erros.
 
 ## <a name="warehouse-work-for-raw-material-picking"></a>Trabalho de depósito para a separação de matéria-prima
 O trabalho para a separação de matéria-prima é gerado durante a liberação. O trabalho é gerado apenas para a quantidade de materiais que foram fisicamente reservados para a ordem de produção antes da ordem ter sido liberada. A seguinte configuração é necessária para gerar trabalho de armazenamento para coleta de matérias-primas:

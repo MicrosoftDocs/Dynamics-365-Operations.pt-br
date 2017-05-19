@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 1a8cbe01bb774ac7fc4aac721dca00674852197f
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3592f3c076681c5b755b62383212bbe6d158f62d
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -50,7 +51,7 @@ A segmentação de grupos de custo também se aplica a variações para um item 
 A um grupo de custo pode ser atribuído um tipo de grupo de custo e um comportamento para finalidade de segmentação complementar.
 
 -   **Tipo de grupo de custos** − A cada grupo de custo deve ser atribuído um tipo de grupo de custo para indicar que o grupo de custos é aplicado a material direto, fabricação direta, terceirização direta ou para designá-lo como indireto ou indefinido. Um grupo de custo designado como material direto pode ser atribuído a itens. Um grupo de custo de fabricação direta pode ser atribuído a categorias de custo. Um grupo de custos de terceirização direta pode ser atribuído a um tipo de produto de serviço, de forma que você possa classificar os custos associados com a compra de serviço para atividades de subcontratação. Um grupo de custo indireto pode ser atribuído a custos indiretos para sobretaxas ou taxas. Um grupo de custo designado como indefinido pode ser atribuído para itens, categorias de custo ou custos indiretos. A atribuição de um tipo de grupo de custo serve para várias finalidades. Primeiro, ele restringe a capacidade de atribuir um grupo de custo e exibir uma lista suspensa de grupos de custos aplicáveis. Segundo, esta fornece segmentação completar para finalidade de relatório. Terceiro, esta pode ser usada para atribuir contas contábeis para variações.
--   **Comportamento** − Cada grupo de custos pode, opcionalmente, ser atribuído um comportamento para indicar se o grupo de custos é aplicado a custos fixos ou variáveis. Um grupo de custo com um valor nulo para comportamento é tratado como um custo variável. A atribuição de um comportamento serve somente para a finalidade de relatório. Por exemplo, os custos podem ser exibidos com segmentação de custos fixos e variáveis na folha de custos e na página** Acúmulo de custo por grupo de custo**. Se você atribuir uma porcentagem de definição de lucro para cada grupo de custo, o cálculo da lista de materiais (BOM) fornece um preço de venda sugerido com base em uma abordagem custo mais marcação.
+-   **Comportamento** − Cada grupo de custos pode, opcionalmente, ser atribuído um comportamento para indicar se o grupo de custos é aplicado a custos fixos ou variáveis. Um grupo de custo com um valor nulo para comportamento é tratado como um custo variável. A atribuição de um comportamento serve somente para a finalidade de relatório. Por exemplo, os custos podem ser exibidos com segmentação de custos fixos e variáveis na folha de custos e na página**Acúmulo de custo por grupo de custo**. Se você atribuir uma porcentagem de definição de lucro para cada grupo de custo, o cálculo da lista de materiais (BOM) fornece um preço de venda sugerido com base em uma abordagem custo mais marcação.
 
 
 

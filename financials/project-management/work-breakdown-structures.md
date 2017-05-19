@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: 1666691ec122e65128b74056817a0c40551f49b5
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c85c90feb7f314db6b47f64402f8b9455ed53d9d
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -67,7 +68,7 @@ Para configurar os dias úteis e as horas de trabalho em um calendário, ou para
 Para usar todas as funcionalidades da estimativa de custo da WBS, você deve configurar os preços de custo e venda para os funcionários, categorias de trabalho, despesas e taxas, e itens.
 
 -   Para configurar as categorias de preços de custo e venda do trabalho, despesa, e taxa, clique em **Gerenciamento de projetos e contabilidade** &gt; **Configuração** &gt; **Preços**.
--   Para configurar os preços de custo e venda dos itens, utilize a página **Contratos comerciais **para cada item na página de listagem **Produtos liberados** em Gerenciamento de informações sobre produtos.
+-   Para configurar os preços de custo e venda dos itens, utilize a página **Contratos comerciais**para cada item na página de listagem **Produtos liberados** em Gerenciamento de informações sobre produtos.
 
 ## <a name="creating-a-wbs"></a>Criando uma WBS
 Criar uma WBS envolve três atividades:

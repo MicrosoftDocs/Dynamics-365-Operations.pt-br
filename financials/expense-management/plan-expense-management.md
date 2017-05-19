@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: af7e7288f741b3c519227e2778c4c4311c3a2012
-ms.openlocfilehash: 88cdf531b6da615034f9982d3503b9add0100479
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 447ba56a279a29392b00119730c3594fa4ea80f6
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -42,7 +43,7 @@ O gerenciamento de despesas é integrado com o gerenciamento financeiro da sua o
 
 ### <a name="per-diems"></a>Diárias
 
-Você deve definir as diárias de funcionário que sua organização fornece. Como as diárias normalmente são usadas para cobrir despesas como refeições, hospedagem, e outras despesas extraordinárias, você pode criar regras para as permissões de diária que sua organização oferece. As taxas de diária podem ser definidas com base na época do ano, o local de viagem ou ambos. Quando você define uma regra de diária, você pode especificar que uma porcentagem da taxa de diária será retida se o trabalhador receber refeições ou serviços gratuitos. Você também pode definir as camadas de taxa de diária para definir o número mínimo e máximo de horas que a taxa de diária pode ser aplicada ao deslocamento do funcionário. **Decisões: **
+Você deve definir as diárias de funcionário que sua organização fornece. Como as diárias normalmente são usadas para cobrir despesas como refeições, hospedagem, e outras despesas extraordinárias, você pode criar regras para as permissões de diária que sua organização oferece. As taxas de diária podem ser definidas com base na época do ano, o local de viagem ou ambos. Quando você define uma regra de diária, você pode especificar que uma porcentagem da taxa de diária será retida se o trabalhador receber refeições ou serviços gratuitos. Você também pode definir as camadas de taxa de diária para definir o número mínimo e máximo de horas que a taxa de diária pode ser aplicada ao deslocamento do funcionário. **Decisões:**
 
 -   As regras de diária padrão para o primeiro e último dia:
     -   Qual o número mínimo de horas que um funcionário pode reivindicar para um dia e ainda receber uma diária?
@@ -124,10 +125,10 @@ Para impostos relacionados a despesas, você deve determinar o que é incluído 
 -   O imposto sobre vendas está incluso nos valores de despesa?
 -   A restituição de imposto deve ser habilitada nas despesas?
 
-Observe que se durante o planejamento da contabilidade, você decidiu aplicar os impostos sobre vendas e as regras de imposto sobre o uso dos EUA, que é feito alternando o campo ** Aplicar regras de tributação de imposto** para Sim, não será possível habilitar a restituição de imposto nas despesas.
+Observe que se durante o planejamento da contabilidade, você decidiu aplicar os impostos sobre vendas e as regras de imposto sobre o uso dos EUA, que é feito alternando o campo **Aplicar regras de tributação de imposto** para Sim, não será possível habilitar a restituição de imposto nas despesas.
 
 ## <a name="policies"></a>Políticas
-Você pode criar políticas de relatório de despesas de modo que sua organização possa poupar tempo e dinheiro quando os funcionários incorrerem em despesas em seu nome. As políticas garantem que os funcionários fiquem dentro do orçamento, forneçam todas as informações necessárias e gastem o dinheiro somente conforme necessário. Você deve tomar as decisões a seguir para cada política de relatório de despesas e cada política de aprovação de relatório de despesas que você criar. **Decisões: **
+Você pode criar políticas de relatório de despesas de modo que sua organização possa poupar tempo e dinheiro quando os funcionários incorrerem em despesas em seu nome. As políticas garantem que os funcionários fiquem dentro do orçamento, forneçam todas as informações necessárias e gastem o dinheiro somente conforme necessário. Você deve tomar as decisões a seguir para cada política de relatório de despesas e cada política de aprovação de relatório de despesas que você criar. **Decisões:**
 
 -   Qual é o nome da política?
 -   A que se destina a política de despesa?

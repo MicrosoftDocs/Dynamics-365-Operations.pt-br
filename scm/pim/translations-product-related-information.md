@@ -18,10 +18,11 @@ ms.search.industry: Product information
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: a9c991a5afaebd10b8812dfc1d67120ed4ebdfd2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 809b853634aa4a44b8aa3aebea317f6bc47da697
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -71,7 +72,7 @@ Para criar traduções para valores de dimensão de produto, siga estas etapas:
 ## <a name="can-the-names-of-product-variants-be-translated"></a>Os nomes de variantes de produto podem ser traduzidos?
 As variantes de produto se baseiam nas dimensões de um produto lançado. Os nomes de variante de produto se baseiam em uma combinação de valores de dimensão. Quando os valores de dimensão associados a uma variante de produto são traduzidos, o nome da variante de produto aparece na versão traduzida.  
 
-**Exemplo **  
+**Exemplo**  
 
 Seu produto é uma camiseta que é vendida em diferentes tamanhos e cores e os nomes de variante se baseiam nos seguintes detalhes:
 -   Número do produto: \#3

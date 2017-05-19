@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 64bcea1f305d67c01967184596a58a48a002cf48
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e90741b9151f19c70923685fdf1edb2552296a08
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -56,7 +57,7 @@ Assim como nos modelos de trabalho, você pode configurar uma consulta para dete
 
 Linhas das diretivas definem local restrições adicionais no aplicativo do local que encontra regras. Você pode especificar uma quantidade mínima e máxima ao qual a diretiva deve ser aplicada; você pode especificar ainda que a diretiva se refere a uma unidade específica do estoque. Por exemplo, se a unidade de medida for paletes, os itens em paletes poderão ser colocados em um local específico. Você também pode especificar se a quantidade pode ser dividida entre vários locais. Como o cabeçalho diretivo localização, de cada linha da localização diretiva tiver um número de sequência que determina a ordem em que as linhas sejam avaliadas. 
 
-As diretivas da localização com o nível de detalhes adicionais: *diretiva de ações da localização*. Você pode definir várias ações de diretiva de localização para cada linha. Mais uma vez, um número sequencial é usado para determinar a ordem em que as ações serão avaliadas. Nesse nível, você pode configurar uma consulta para definir como encontrar o melhor local no depósito. Você também pode usar configurações de **estratégia **predefinidas para encontrar um local ideal.
+As diretivas da localização com o nível de detalhes adicionais: *diretiva de ações da localização*. Você pode definir várias ações de diretiva de localização para cada linha. Mais uma vez, um número sequencial é usado para determinar a ordem em que as ações serão avaliadas. Nesse nível, você pode configurar uma consulta para definir como encontrar o melhor local no depósito. Você também pode usar configurações de **estratégia**predefinidas para encontrar um local ideal.
 
 ### <a name="example-of-the-use-of-location-directives"></a>Exemplo do uso de diretivas de localização
 

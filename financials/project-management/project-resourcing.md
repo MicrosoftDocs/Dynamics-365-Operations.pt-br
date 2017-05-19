@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: c29c95fc6abd13e668c44d3ccf437bb0e879e46b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11755e4ab4b3c1f55da80e57ff96e0b13c84c697
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -209,13 +210,13 @@ O procedimento a seguir explica como criar uma equipe de projeto.
 1.  Na página de listagem **Todos os projetos**, selecione um projeto e clique em **Editar**.
 2.  Na guia **Equipe e agendamento de projeto**, no campo **Data final da agenda**, insira a data inicial da agenda mais um mês. Por exemplo, se a data de início da agenda for 24 de junho de 2017 (24/06/2017), insira **24/07/2017**.
 3.  Clique em **Adicionar**.
-4.  No painel **Adicionar funções ao projeto**, no campo **Função **, selecione **Gerente de projeto sênior**.
+4.  No painel **Adicionar funções ao projeto**, no campo **Função**, selecione **Gerente de projeto sênior**.
 5.  Clique em **Competências necessárias**.
 6.  Na página **Escolher características**, as características que você definiu anteriormente para a função Gerente de projeto sênior estarão selecionadas por padrão. Clique em **OK**.
 7.  Na página **Adicionar funções ao projeto**, no campo **Número de recursos**, insira **1**.
 8.  No campo **Recurso**, a consulta mostra todos os recursos que têm as competências necessárias. Selecione **Daniel Goldschmidt** e clique em **Criar**.
 9.  Na página **Projeto**, clique em **Adicionar**.
-10. No painel **Adicionar funções ao projeto**, no campo **Função **, selecione **Membro de equipe**. No campo **Número de recursos**, insira **5**.
+10. No painel **Adicionar funções ao projeto**, no campo **Função**, selecione **Membro de equipe**. No campo **Número de recursos**, insira **5**.
 11. Clique em **Criar**.
 12. Na página **Projetos**, clique em **Preencher recurso**.
 
@@ -316,7 +317,7 @@ Outras opções foram adicionadas à WBS para melhorar o uso da funcionalidade d
 
 > [!NOTE] 
 > Você não receberá um aviso de que o recurso especificado agora é 2 porque o número de recursos permanece em 1.
-18. Na página **Estrutura de detalhamento de trabalho **, valide a atribuição de recursos na WBS e clique em **Salvar**.
+18. Na página **Estrutura de detalhamento de trabalho**, valide a atribuição de recursos na WBS e clique em **Salvar**.
 
 ## <a name="resource-fulfillment-for-planned-resources"></a>Preenchimento de recurso para recursos planejados
 Um gerente de projeto pode planejar as funções necessárias do recurso para um projeto. O gerente de recurso verá esses recursos planejados como solicitações na página **Preenchimento de recurso** e poderá atribuir recursos reais.

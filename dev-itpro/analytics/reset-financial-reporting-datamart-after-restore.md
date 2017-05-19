@@ -1,9 +1,9 @@
 ---
 title: "Redefinir data mart de relatório financeiro após restaurar um banco de dados"
 description: "Este tópico descreve como redefinir o data mart de relatório financeiro após restaurar um banco de dados do Microsoft Dynamics 365 for Operations."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-12-08 16 - 20 - 13
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3967cbb869fbb23d5d7716f619e4c22b4a273921
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d4ce390c62cbfb1f693410b004aa296c0ed75eb2
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>Redefinir data mart de relatório financeiro após restaurar um banco de dados
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico descreve como redefinir o data mart de relatório financeiro após restaurar um banco de dados do Microsoft Dynamics 365 for Operations. 
 
@@ -43,7 +47,11 @@ Primeiro, exporte os projetos de relatório localizados no Report Designer, usan
 5.  Insira um nome de arquivo e selecione um local seguro onde deseja salvar as definições de relatório exportadas.
 6.  Clique em **Salvar**.
 
-O arquivo pode ser copiado ou carregado em um local seguro, permitindo que seja importado em um ambiente em outro momento. Informações sobre como usar uma conta de armazenamento do Microsoft Azure podem ser encontradas em [Transferir dados com o utilitário de linha de comando AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). **Observação:** A Microsoft não fornece uma conta de armazenamento como parte do seu contrato do Dynamics 365 for Operations. Você deve comprar uma conta de armazenamento ou usar uma conta de armazenamento de uma subscrição separada do Azure. **Importante:** Esteja ciente do comportamento da unidade D no Azure Virtual Machines. Não mantenha seus grupos de blocos de construção exportados aqui permanentemente. Para obter mais informações sobre unidades temporárias, consulte [Entendendo a unidade temporária nas máquinas virtuais do Windows Azure](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
+O arquivo pode ser copiado ou carregado em um local seguro, permitindo que seja importado em um ambiente em outro momento. Informações sobre como usar uma conta de armazenamento do Microsoft Azure podem ser encontradas em [Transferir dados com o utilitário de linha de comando AzCopy](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy). 
+> [!NOTE]
+> A Microsoft não fornece uma conta de armazenamento como parte do seu contrato do Dynamics 365 for Operations. Você deve comprar uma conta de armazenamento ou usar uma conta de armazenamento de uma subscrição separada do Azure. 
+> [!WARNING]
+> Esteja ciente do comportamento da unidade D no Azure Virtual Machines. Não mantenha seus grupos de blocos de construção exportados aqui permanentemente. Para obter mais informações sobre unidades temporárias, consulte [Entendendo a unidade temporária nas máquinas virtuais do Windows Azure](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/).
 
 ## <a name="stop-services"></a>Interromper serviços
 Use a Área de Trabalho Remota para se conectar a todos os computadores no ambiente e parar os seguintes serviços do Windows usando services.msc:
@@ -96,7 +104,9 @@ Use o services.msc para reiniciar os serviços que você interrompeu anteriormen
 Importe seus designs de relatório do Report Designer, usando o arquivo criado durante a exportação:
 
 1.  No Report Designer, vá para **Empresa** &gt; **Grupos do bloco de construção**.
-2.  Selecione o grupo do bloco de construção para exportar, clique em **Exportar**. **Observação:** Para o Dynamics 365 for Operations, apenas um grupo de blocos de construção é suportado, **Padrão**.
+2.  Selecione o grupo do bloco de construção para exportar, clique em **Exportar**. 
+    > [!NOTE]
+    > Para o Dynamics 365 for Operations, apenas um grupo de blocos de construção é suportado, **Default**.
 3.  Selecione o bloco de construção **Padrão** e clique em **Importar**.
 4.  Selecione o arquivo que contém as definições de relatório exportadas e clique em **Abrir**.
 5.  Na caixa de diálogo Importar, selecione as definições de relatório para importação:
@@ -104,6 +114,8 @@ Importe seus designs de relatório do Report Designer, usando o arquivo criado d
     -   Para importar relatórios, linhas, colunas, árvores ou conjuntos de dimensões específicos, selecione os relatórios, as linhas, as colunas, as árvores ou os conjuntos de dimensões a serem importados.
 
 6.  Clique em **Importar**.
+
+
 
 
 

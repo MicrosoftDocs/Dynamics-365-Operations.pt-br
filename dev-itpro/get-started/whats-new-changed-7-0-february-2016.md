@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 2928b86a9dbf001451933f9d17287400cafaf089
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 36d4aec3936ef99b880f3affc75df1b952cb3133
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>O que há de novo ou diferente no Dynamics AX 7.0 (fevereiro de 2016)
+
+[!include[banner](../includes/banner.md)]
+
 
 Este artigo descreve os recursos novos ou alterados na versão 7.0 do Microsoft Dynamics. Esta versão contém recursos de plataforma e aplicativos e foi lançada em fevereiro de 2016.
 
@@ -170,7 +174,7 @@ Esse recurso funciona independentemente dos métodos de avaliação de custo atr
 <td>Torna possível para um contador de serviço compartilhado inserir diários gerais entre as empresas sem a necessidade de deixar o formulário ou alternar o contexto da empresa.</td>
 </tr> 
 <tr class="odd">
-<td>Use a nova página **Navegador fonte de contabilidade **.</td>
+<td>Use a nova página **Navegador fonte de contabilidade**.</td>
 <td>Disponível no Dynamics AX 2012 R3 CU10.</td>
 <td>Nova página **Navegador fonte de contabilidade** e ações para navegar nela a partir da página de listagem **Balancete** e da página **Transações de comprovante**.</td>
 <td>Torna possível visualizar as informações mais detalhadas sobre a fonte para um balancete ou uma entrada contábil na contabilidade, ou para análise ad-hoc.</td>
@@ -331,8 +335,8 @@ Esse recurso funciona independentemente dos métodos de avaliação de custo atr
 <tr class="even">
 <td>Acesse a Ajuda de procedimentos guiados (guias de tarefas) e tópicos conceituais clicando em **Ajuda**.</td>
 <td>O sistema de ajuda do AX 2012 indica os tópicos de HTML que estão armazenados em um servidor web local. Clientes e parceiros podem criar sua própria ajuda.</td>
-<td>O sistema de ajuda na versão atual do Dynamics AX mostra os guias de tarefas que estão armazenados no BPM do Microsoft Dynamics Lifecycle Services (LCS). O sistema de ajuda também mostra tópicos do wiki da Microsoft. Para obter mais informações, consulte [Ajuda do Dynamics AX - Introdução](help-overview.md) e [Novos guias de tarefa disponíveis (fevereiro de 2016)](new-task-guides-available-february-2016.md).</td>
-<td>Guias de tarefa fornecem uma experiência controlada, guiada, interativa que servirá de norte durante as etapas de uma tarefa ou processo comercial. Você pode baixar e personalizar os guias de tarefas que a Microsoft fornece. A wiki fornece uma maneira mais rápida e mais flexível para criar, entregar e atualizar a documentação do produto. Portanto, ajuda a garantir que você tenha acesso às informações técnicas mais recentes.</td>
+<td>O sistema de ajuda na versão atual do Dynamics AX mostra os guias de tarefas que estão armazenados no BPM do Microsoft Dynamics Lifecycle Services (LCS). O sistema de ajuda também mostra tópicos do site de documentos da Microsoft. Para obter mais informações, consulte [Ajuda do Dynamics AX - Introdução](help-overview.md) e [Novos guias de tarefa disponíveis (fevereiro de 2016)](new-task-guides-available-february-2016.md).</td>
+<td>Guias de tarefa fornecem uma experiência controlada, guiada, interativa que servirá de norte durante as etapas de uma tarefa ou processo comercial. Você pode baixar e personalizar os guias de tarefas que a Microsoft fornece. O tópico fornece uma maneira mais rápida e mais flexível para criar, entregar e atualizar a documentação do produto. Portanto, ajuda a garantir que você tenha acesso às informações técnicas mais recentes.</td>
 </tr>
 </tbody>
 </table>
@@ -1076,5 +1080,7 @@ Não foram adicionados novos recursos.
 [Novidades e alterações](whats-new-changed.md)
 
 [Novas guias de tarefas disponíveis (fevereiro de 2016)](new-task-guides-available-february-2016.md)
+
+
 
 

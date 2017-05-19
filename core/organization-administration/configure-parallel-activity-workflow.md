@@ -3,7 +3,7 @@ title: Configurar uma atividade paralela em um fluxo de trabalho
 description: Para configurar uma atividade paralela, execute estes procedimentos no editor de fluxo de trabalho.
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 818fb054742b935d002a7341e54a37eca0bb4761
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ce3fca9d2dbca046232365b1375bfd920d5b10fd
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="configure-a-parallel-activity-in-a-workflow"></a>Configurar uma atividade paralela em um fluxo de trabalho
+
+[!include[banner](../includes/banner.md)]
+
 
 Para configurar uma atividade paralela, execute estes procedimentos no editor de fluxo de trabalho.
 
@@ -41,11 +45,13 @@ Siga estas etapas para inserir um nome para a atividade paralela.
 Siga estas etapas para adicionar e configurar as ramificações dessa atividade paralela.
 1.  Clique duas vezes na atividade paralela para exibir suas ramificações.
 2.  Para adicionar uma ramificação, arraste o elemento **Ramificação** da área **Elemento de fluxo de trabalho** para um ponto de inserção na tela. A figura a seguir mostra um ponto de inserção.![Ponto de inserção](./media/workflow_insertionpoint.gif)
-    | **Nota **                                                                                                         |
+    | **Nota**                                                                                                         |
     |------------------------------------------------------------------------------------------------------------------|
     | A ordem das ramificações não é importante porque todas as ramificações de uma atividade paralela são executadas ao mesmo tempo. |
 
-3.  Cada ramificação para configurar, consulte [Configurar uma filial paralelo](http://axhelp.dynamics.com/en/wiki/configure-a-parallel-branch/).
+3.  Cada ramificação para configurar, consulte [Configurar uma filial paralelo](configure-parallel-branch-workflow.md).
+
+
 
 
 

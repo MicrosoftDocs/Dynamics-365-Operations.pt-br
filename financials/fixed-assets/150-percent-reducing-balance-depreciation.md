@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: d256feeadcf19550995c145f4e9a171acaeaeec3
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0ec99c4bb0c86b1097a22fdc9785928267b80ade
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -64,7 +65,7 @@ Por exemplo, no ano fiscal entre 1 de julho e 30 de junho, o cálculo da depreci
 Se você selecionar **Fiscal** como o ano de depreciação, as opções a seguir ficarão disponíveis no campo **Frequência do período**:
 
 -   **Anual** lança o valor total da depreciação calculada para o ano fiscal no último dia do ano fiscal.
--   **Período fiscal **lança o valor total da depreciação calculada para o ano fiscal. Esse valor é acumulado nos períodos fiscais definidos na página **Calendários fiscais**.
+-   **Período fiscal**lança o valor total da depreciação calculada para o ano fiscal. Esse valor é acumulado nos períodos fiscais definidos na página **Calendários fiscais**.
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a>Exemplo de depreciação com declínio de 150%
 |                                |        |

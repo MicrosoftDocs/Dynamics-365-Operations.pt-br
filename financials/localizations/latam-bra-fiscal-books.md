@@ -17,10 +17,11 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: bec019d218d80ba059d5a1c232072f46b1ae3ee2
-ms.openlocfilehash: e3681515df38075f4c75f060110e71bed2059e40
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c717df7d80f46bae068986445b30dedf8b74dff9
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -50,8 +51,8 @@ O SPED (Public Digital Bookkeeping System) ou Sistema Público de Escrituração
 -   [Notas fiscais de importação](latam-bra-import-fiscal-documents.md)
 -   [Importar e verificar os documentos XML da NF-e e os arquivos de DANFE](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
 -   [Notas fiscais](latam-bra-fiscal-documents-fiscal-document-framework.md)    
--   [Espaços reservados de texto de nota fiscal](latam-bra-fiscal-document-text-placeholders.md)
--   [Notas fiscais de compra complementares](latam-bra-purchase-complementary-fiscal-documents.md)    
+-   [Espaços reservados para texto da nota fiscal](latam-bra-fiscal-document-text-placeholders.md)
+-   [Notas fiscais complementares de compra](latam-bra-purchase-complementary-fiscal-documents.md)    
 -   [Notas fiscais referenciadas](latam-bra-referenced-fiscal-documents.md)            
 -   [Notas fiscais complementares de venda](latam-bra-sales-complementary-fiscal-documents.md)
 -   [Nota fiscal eletrônica para serviços](latam-bra-service-electronic-fiscal-document.md)    

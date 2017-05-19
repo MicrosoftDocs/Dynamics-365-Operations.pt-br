@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eab840b2974f4e9e8cf542c146482ba8e4239079
-ms.openlocfilehash: acf7bacf6e95725024ff0a542a059349593d01a0
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 51f45ce0953f31e0573833ba41d9e0b5ac43bfbb
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -64,13 +65,13 @@ Primeiro, você deve definir o grupo de processamento de formato do extrato banc
 1.  Vá para **Espaços de trabalho** &gt; **Gerenciamento de dados**.
 2.  Clique em **Importar**.
 3.  Insira um nome para o formato, como **ISO20022**.
-4.  Defina o campo **Formato do dado fonte **para **XML-Element**.
+4.  Defina o campo **Formato do dado fonte**para **XML-Element**.
 5.  Defina o campo **Nome da entidade** para **Extratos bancários**.
 6.  Para carregar os arquivos de importação, clique em **Carregar** e, em seguida, navegue para selecionar o arquivo **SampleBankCompositeEntity.xml** salvo anteriormente.
 7.  Assim que a entidade Extratos bancários for carregada e o mapeamento finalizado, clique na ação **Exibir mapa** para a entidade.
 8.  A entidade Extratos bancários é uma entidade composta formada por quatro entidades separadas. Na lista, selecione **BankStatementDocumentEntity** e, em seguida, clique na ação **Exibir mapa**.
 9.  Na guia **Transformações**, clique em **Novo**.
-10. Para a sequência número 1, clique em **Carregar arquivo** e, em seguida, selecione o arquivo** ISO20022XML-to-Reconciliation.xslt** salvo anteriormente. **Observação:** Os arquivos de transformação do Dynamics 365 for Operations são criados para o formato padrão. Devido aos bancos geralmente divergirem desse formato, será necessário atualizar o arquivo de transformação para mapeá-lo ao seu formato de extrato bancário. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+10. Para a sequência número 1, clique em **Carregar arquivo** e, em seguida, selecione o arquivo **ISO20022XML-to-Reconciliation.xslt** salvo anteriormente. **Observação:** Os arquivos de transformação do Dynamics 365 for Operations são criados para o formato padrão. Devido aos bancos geralmente divergirem desse formato, será necessário atualizar o arquivo de transformação para mapeá-lo ao seu formato de extrato bancário. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. Clique em **Novo**.
 12. Para a sequência número 2, clique em **Carregar arquivo** e, em seguida, selecione o arquivo**BankReconciliation-to-Composite.xslt** salvo anteriormente.
 13. Clique em **Aplicar transformações**.
@@ -88,8 +89,8 @@ A última etapa é habilitar a Reconciliação bancária avançada e definir o f
 
 1.  Vá para **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
 2.  Selecione a conta bancária, e abra-a para exibir os detalhes.
-3.  Na guia **Reconciliação**, defina a opção **Reconciliação bancária avançada **para **Sim**.
-4.  Defina o campo **Formato do extrato ** como o formato criado anteriormente, tal como **ISO20022**.
+3.  Na guia **Reconciliação**, defina a opção **Reconciliação bancária avançada**para **Sim**.
+4.  Defina o campo **Formato do extrato** como o formato criado anteriormente, tal como **ISO20022**.
 
 ## <a name="set-up-the-import-of-mt940-bank-statements"></a>Configurar a importação de extratos bancários MT940
 Primeiro, você deve definir o grupo de processamento de formato do extrato bancário para extratos bancários MT940 utilizando a estrutura de entidade de dados.

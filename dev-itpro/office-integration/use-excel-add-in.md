@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: af7e7288f741b3c519227e2778c4c4311c3a2012
-ms.openlocfilehash: 8af663b47117759ed3b2e2ed8eee85ae4df100d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f80d5d49cae3107390a605e9605d8af65bf2342d
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="use-the-excel-add-in"></a>Utilizar o suplemento do Excel
+
+[!include[banner](../includes/banner.md)]
+
 
 Este tópico explica como abrir dados da entidade no Microsoft Excel, e então visualizar, atualizar e editar os dados usando o suplemento do Microsoft Dynamics Office para Excel. Para abrir os dados da entidade, você pode começar pelo Excel ou pelo Microsoft Dynamics 365 para Operações.
 
@@ -44,7 +48,8 @@ O suplemento do Excel lê automaticamente os dados da entidade selecionada. Obse
 2.  Na Loja do Office, busque com a palavra "Dynamics" e clique em **Adicionar** próximo a **Suplemento do Microsoft Dynamics Office** (o suplemento do Excel).
 3.  Caso esteja executando o suplemento do Excel pela primeira vez, clique em **Confiar nesse suplemento** para permitir que o suplemento funcione. O suplemento do Excel funciona em um painel do lado direito da janela do Excel.
 4.  Clique em **Adicionar informações do servidor** para abrir o painel **Opções**.
-5.  Copie a URL da instância desejada do Dynamics 365 para Operações, cole no campo **URL do servidor**, e em seguida apague tudo após o nome do host (por exemplo, apague **/?cmp=usmf&mi=CustTableListPage**). A URL resultante deve ter apenas o nome do host (por exemplo, **https://xxx.dynamics.com**).
+5.  Copie a URL da instância desejada do Dynamics 365 for Operations, cole-a no campo **URL do Servidor** e, em seguida, exclua tudo após o nome do host. A URL resultante deve ter apenas o nome do host.
+Por exemplo, se a URL for https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage, exclua tudo, exceto **https://xxx.dynamics.com**.
 6.  Clique em **OK**, e em seguida clique em **Sim** para confirmar a alteração. O suplemento do Excel reinicia e carrega os metadados. O botão **Design** agora está disponível. Se o suplemento do Excel possuir um botão **Carregar applets**, você provavelmente não está conectado como o usuário correto. Para obter mais informações, consulte "O botão Carregar applets está aparecendo" na seção "Solução de Problemas" desse tópico.
 7.  Clique em **Design**. O suplemento do Excel recupera metadados da entidade.
 8.  Clique em **Adicionar tabela**. Uma lista de entidades aparece. As entidades são listadas no formato "Nome - Rótulo".
@@ -59,14 +64,17 @@ Depois que o suplemento do Excel realizar a leitura dos dados da entidade para a
 ## <a name="edit-entity-data-in-excel"></a>Editar dados da entidade no Excel
 É possível alterar os dados da entidade conforme necessário e então publicá-los novamente clicando em **Publicar** no suplemento do Excel. Para editar um registro, selecione uma célula na planilha e então altere o valor da célula. Para adicionar um novo registro, siga uma dessas etapas:
 
--   Clique em qualquer lugar na planilha, e em seguida clique em **Novo** no suplemento do Excel.
--   Clique na última linha da planilha, e em seguida pressione a tecla Tab até que o cursor se mova além da última coluna dessa linha e uma nova linha seja criada.
--   Clique na linha imediatamente abaixo da planilha, e comece a inserir dados em uma célula. Ao mover o foco para fora da célula, a planilha se expande para incluir a nova linha.
+-   Clique em qualquer lugar na tabela de fontes de dados, e em seguida clique em **Novo** no suplemento do Excel.
+-   Clique na última linha da tabela de fontes de dados, e em seguida pressione a tecla Tab até que o cursor para fora da última coluna dessa linha e uma nova linha seja criada.
+-   Clique na linha imediatamente abaixo a tabela de fontes de dados e comece a inserir dados em uma célula. Ao mover o foco para fora da célula, a tabela se expande para incluir a nova linha.
+-   Associações de campo dos registros do cabeçalho, clique em um dos campos, e clique em **Novo** no suplemento do Excel.
 
+Observe que um novo registro pode ser criado apenas se todos os campos obrigatórios e de chave forem associados na planilha, ou se os valores padrão forem preenchidos usando a condição do filtro.
 Para excluir um registro, siga uma dessas etapas:
 
 -   Clique com o botão direito no número da linha ao lado da linha da planilha a ser excluída, e em seguida clique em **Excluir**.
 -   Clique com o botão direito na linha da planilha a ser excluída, e em seguida clique em **Excluir** &gt; **Linhas da tabela**.
+Se as fontes de dados foram adicionadas como relacionadas, cabeçalho será publicado antes das linhas. Se houver dependências entre outras fontes de dados, você terá que alterar a ordem de publicação padrão. Para alterar a ordem de publicação, no suplemento do Excel, clique no botão **Opções** (o símbolo de engrenagem). Em seguida, na guia **Conector de Dados** Guia Rápida, clique em **Configurar ordem de publicação**.
 
 ## <a name="add-or-remove-columns"></a>Adicionar ou remover colunas
 Você pode usar o criador para ajustar as colunas que são automaticamente adicionadas à planilha.
@@ -77,9 +85,10 @@ Você pode usar o criador para ajustar as colunas que são automaticamente adici
 4.  Ajuste essa lista com a lista de **Campos selecionados** conforme necessário:
     -   Para adicionar um campo da lista **Campos disponíveis** à lista **Campos selecionados**, clique no campo, e então clique em **Adicionar**. Alternativamente, clique duas vezes no campo.
     -   Para remover um campo da lista **Campos selecionados**, clique no campo, e em seguida clique em **Remover**. Alternativamente, clique duas vezes no campo.
-    -   Para alterar a ordem dos campos, clique no campo na lista **Campos selecionados**, e em seguida clique em **Para cima** ou **Para baixo**.
+    -   Para alterar a ordem dos campos, clique no campo na lista **Campos selecionados**, clique em um campo e, em seguida, clique em **Para cima** ou **Para baixo**.
 
-5.  Aplique suas alterações à fonte de dados clicando em **Atualizar**. Então clique em **Concluído** para sair do criador. Se você adicionou um campo (coluna), clique em **Atualizar** para puxar um conjunto de dados atualizados.
+5. Para aplicar suas alterações à fonte de dados clique em **Atualizar**. Então clique em **Concluído** para sair do criador. 
+6. Se você adicionou um campo (coluna), clique em **Atualizar** para puxar um conjunto de dados atualizados.
 
 ## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Solução de problemas
 Existem alguns problemas que podem ser resolvidos através de algumas etapas simples.
@@ -87,6 +96,8 @@ Existem alguns problemas que podem ser resolvidos através de algumas etapas sim
 -   **O botão Carregar applets está aparecendo.** Se o suplemento do Excel possui um botão **Carregar applets** depois do login, você provavelmente não está conectado como o usuário correto. Para resolver esse problema, verifique se o nome de usuário correto aparece no canto superior direito do suplemento do Excel. Caso um nome de usuário incorreto apareça, clique nele, finalize a sessão, e em seguida faça o login novamente.
 -   **Você recebe uma mensagem "Proibido".** Se receber uma mensagem "Proibido" enquanto o suplemento do Excel estiver carregando metadados, a conta conectada no suplemento não possui permissão para usar o serviço, estância ou base de dados escolhida. Para resolver esse problema, verifique se o nome de usuário correto aparece no canto superior direito do suplemento do Excel. Caso um nome de usuário incorreto apareça, clique nele, finalize a sessão, e em seguida faça o login novamente.
 -   **Uma página da Web em branco é exibida sobre o Excel.** Se uma página da Web em branco abre durante o processo de logon, a conta requer AD FS, mas a versão do Excel que está executando o suplemento não é recente o suficiente para carregar a caixa de diálogo do logon. Para resolver esse problema, atualize a versão do Excel utilizada. Para atualizar a versão do Excel em uma empresa que está no canal diferido, utilize a [ferramenta de implantação do Office](https://technet.microsoft.com/library/jj219422.aspx) para [mover do canal diferido para o canal atual](https://technet.microsoft.com/library/mt455210.aspx).
+
+
 
 
 

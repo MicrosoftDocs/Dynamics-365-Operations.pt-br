@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 9db73514d71239d75dc63fcf6e9f45923b1272f4
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c65f7e44459478cac7663575abe588ad057f18e0
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -76,7 +77,7 @@ Os dados que você usa quando calcula taxas no Microsoft Dynamics 365 for Operat
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Todas as configurações do mecanismo exigem metadados?
 Não, os mecanismos de gerenciamento de transporte usados para recuperar os dados necessários para o cálculo da taxa de sistemas externos não necessitam de metadados. Os dados de taxa desses mecanismos podem ser recuperados de sistemas de transporte de transportadoras externas, geralmente com um serviço da Web. Por exemplo, você pode usar um mecanismo de quilometragem que recupera dados diretamente dos mapas do Bing, de forma que não precise de metadados para este mecanismo.
-| **Nota **                                                                                                                                                                                                                                                                                                                                                                     |
+| **Nota**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Os mecanismos de gerenciamento de transporte fornecidos com o Microsoft Dynamics 365 for Operations dependem dos dados que são recuperados pelo aplicativo. Os mecanismos que se conectam a sistemas externos não são incluídos no Operations. No entanto, o modelo de extensibilidade baseado em mecanismo permite criar extensões usando o Visual Studio Tools para Microsoft Dynamics 365 for Operations. |
 

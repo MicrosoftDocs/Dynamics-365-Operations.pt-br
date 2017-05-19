@@ -16,10 +16,11 @@ ms.search.region: global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a639e509cf6a3d2f1b850f27481d7b95546522b8
-ms.openlocfilehash: b62e14f7c91692ae97bb332b38b0deeb328cc1bd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0e3484ee731423798e686b9a70f4f09b5c3c45b4
+ms.contentlocale: pt-br
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -76,7 +77,7 @@ O gerente de orçamento pode analisar o estado atual de um orçamento no espaço
 > [!NOTE] 
 > O campo **Gerente do departamento** na página **Unidades Organizacionais** determina os gerentes que dão suporte a combinações de dimensões financeiras específicas. Clique em **Ver mais** na parte inferior da guia para abrir a página de consulta **Orçamento versus valores reais** para obter mais detalhes sobre valores de orçamento versus valores reais. 
 
-A página de consulta **Valor real versus orçamento** permite analisar nos detalhes do orçamento versus valores reais. Selecione uma linha na página de consulta e clique em **Saldos do período** para ver o orçamento e os valores reais em períodos fiscais. A página **Entradas de conta de orçamento** oferece uma análise dos detalhes do valor de orçamento em entradas de registro de orçamento. A página **Entradas de diário geral **abre as transações do razão que estão incluídas no valor calculado **Valores reais**. 
+A página de consulta **Valor real versus orçamento** permite analisar nos detalhes do orçamento versus valores reais. Selecione uma linha na página de consulta e clique em **Saldos do período** para ver o orçamento e os valores reais em períodos fiscais. A página **Entradas de conta de orçamento** oferece uma análise dos detalhes do valor de orçamento em entradas de registro de orçamento. A página **Entradas de diário geral**abre as transações do razão que estão incluídas no valor calculado **Valores reais**. 
 
 Uma empresa que está usando a funcionalidade de planejamento de orçamento pode criar e usar *previsões de orçamento* no espaço de trabalho **Orçamentos e previsões do razão**.
 
