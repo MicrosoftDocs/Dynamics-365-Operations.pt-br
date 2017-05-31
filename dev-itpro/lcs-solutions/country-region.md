@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: ShylaThompson
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 4a3ecb4cb643d63333666f8d5d49760caacc4e58
-ms.openlocfilehash: e14d0836ee16db4fba9ef49df9a49564aa4c0402
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: af30c12a7b8097c1786c1ece0485b027912ef906
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/27/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -133,8 +133,9 @@ As seções a seguir listam os recursos por país/região.
 
 -   [Lançar a pré-aquisição de um ativo fixo](/dynamics365/operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [Instrução de IVA da República Tcheca](/dynamics365/operations/financials/localizations/emea-cze-vat-statement-details)
+-   [Relatórios de imposto ](/dynamics365/operations/financials/localizations/emea-cze-intra-community-vat-transactions)
 -   [Dividir períodos em diários periódicos](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
--   [Configurar assinantes de formulários impressos](/dynamics365/operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+-   [Configurar signatários para formulários impressos](/dynamics365/operations/financials/localizations/emea-set-up-signers-for-printing-forms)
 -   [Atualizar como os valores são exibidos em relatórios e documentos](/dynamics365/operations/financials/localizations/emea-amount-printing-forms)
 
 ### <a name="estonia"></a>Estônia
@@ -161,7 +162,7 @@ As seções a seguir listam os recursos por país/região.
 -   [IDs de registro](/dynamics365/operations/financials/localizations/emea-registration-ids)
 -   [Visão geral de transferência de crédito SEPA](/dynamics365/operations/financials/accounts-payable/sepa-credit-transfer)
 -   [Visão geral de débito Direto SEPA](/dynamics365/operations/financials/accounts-receivable/sepa-direct-debit-overview)
--   [Configurar assinantes de formulários impressos](/dynamics365/operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+-   [Configurar signatários para formulários impressos](/dynamics365/operations/financials/localizations/emea-set-up-signers-for-printing-forms)
 -   [Dividir períodos em diários periódicos](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
 -   [Atualizar como os valores são exibidos em relatórios e documentos](/dynamics365/operations/financials/localizations/emea-amount-printing-forms)
 -   [Taxas de câmbio de IVA](/dynamics365/operations/financials/localizations/emea-vat-exchange-rate)

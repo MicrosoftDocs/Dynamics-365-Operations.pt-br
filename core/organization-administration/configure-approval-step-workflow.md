@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 052cec3010c0d5ecbb9ed341fb23d0ec64682467
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -106,13 +106,11 @@ Siga estas etapas para especificar a quem a etapa de aprovação deve ser atribu
     <td>Usuários em uma hierarquia organizacional específica</td>
     <td><ol>
     <li>Depois que você selecionar <strong>Hierarquia</strong>, na guia <strong>Seleção de hierarquia</strong>, na lista <strong>Tipo de hierarquia</strong>, selecione o tipo de hierarquia ao qual atribuir a etapa.</li>
-    <li>O sistema deve recuperar um intervalo de nomes de usuário da hierarquia. Esses nomes representam os usuários aos quais a etapa pode ser atribuída. Siga estas etapas para especificar o ponto inicial e final do intervalo de nomes de usuário que o sistema recupera:
-    <ol>
+    <li>O sistema deve recuperar um intervalo de nomes de usuário da hierarquia. Esses nomes representam os usuários aos quais a etapa pode ser atribuída. Siga estas etapas para especificar o ponto inicial e final do intervalo de nomes de usuário que o sistema recupera: <ol>
     <li>Para especificar o ponto de partida, selecione uma pessoa na lista <strong>Iniciar em</strong>.</li>
     <li>Para especificar o ponto final, clique em <strong>Adicionar condição</strong>. Em seguida, insira uma condição que determine em que ponto da hierarquia o sistema para de recuperar nomes.</li>
     </ol></li>
-    <li>Na guia <strong>Opções de hierarquia</strong>, especifique a quais usuários no intervalo a etapa deve ser atribuída:
-    <ul>
+    <li>Na guia <strong>Opções de hierarquia</strong>, especifique a quais usuários no intervalo a etapa deve ser atribuída: <ul>
     <li><strong>Atribuir a todos os usuários recuperados</strong> – A etapa é atribuída a todos os usuários do intervalo.</li>
     <li><strong>Atribuir somente ao último usuário recuperado</strong> – A etapa é atribuída somente ao último usuário do intervalo.</li>
     <li><strong>Excluir usuários com a seguinte condição</strong> – A etapa não é atribuído aos usuários do intervalo que atenderem a determinada condição. Clique em <strong>Adicionar condição</strong> para especificar a condição.</li>
@@ -211,13 +209,11 @@ Se um usuário não executar nenhuma ação em um documento no tempo alocado, o 
     <td>Usuários em uma hierarquia organizacional específica</td>
     <td><ol>
     <li>Depois que você selecionar <strong>Hierarquia</strong>, na guia <strong>Seleção de hierarquia</strong>, na lista <strong>Tipo de hierarquia</strong>, selecione o tipo de hierarquia ao qual o documento será escalonado.</li>
-    <li>O sistema deve recuperar um intervalo de nomes de usuário da hierarquia. Esses nomes representam usuários para os quais o documento pode ser escalonado. Siga estas etapas para especificar o ponto inicial e final do intervalo de nomes de usuário que o sistema recupera:
-    <ol>
+    <li>O sistema deve recuperar um intervalo de nomes de usuário da hierarquia. Esses nomes representam usuários para os quais o documento pode ser escalonado. Siga estas etapas para especificar o ponto inicial e final do intervalo de nomes de usuário que o sistema recupera: <ol>
     <li>Para especificar o ponto de partida, selecione uma pessoa na lista <strong>Iniciar em</strong>.</li>
     <li>Para especificar o ponto final, clique em <strong>Adicionar condição</strong>. Em seguida, insira uma condição que determine em que ponto da hierarquia o sistema para de recuperar nomes.</li>
     </ol></li>
-    <li>Na guia <strong>Opções de hierarquia</strong>, especifique a quais usuários no intervalo o documento deve ser escalonado:
-    <ul>
+    <li>Na guia <strong>Opções de hierarquia</strong>, especifique a quais usuários no intervalo o documento deve ser escalonado: <ul>
     <li><strong>Atribuir a todos os usuários recuperados</strong> – O documento é escalonado para todos os usuários do intervalo.</li>
     <li><strong>Atribuir somente ao último usuário recuperado</strong> – O documento é escalonado somente ao último usuário do intervalo.</li>
     <li><strong>Excluir usuários com a seguinte condição</strong> – O documento não é escalonado aos usuários do intervalo que atenderem a determinada condição. Clique em <strong>Adicionar condição</strong> para especificar a condição.</li>

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: dd9f65e045367aeba081d026da53894679ee7ed0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4f3015ed4f8dc165d988b2b63ed9ad89d6d6f578
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/10/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -251,11 +251,11 @@ O veículo usado para implantação no UAT (Teste de Aceitação do Usuário) e 
 
 ###### <a name="designer"></a>**designer**
 
-Uma ferramenta do Visual Studio usada para criar, atualizar e inspecionar os elementos de modelo.
+Uma ferramenta do Visual Studio usada para criar, atualizar e inspecionar seus elementos de modelo.
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**configuração do produto baseada em dimensão**
+###### <a name="dimension-based-product-configuration"></a>**configuração de produto baseado em dimensão**
 
-Uma tecnologia de configuração usada para criar grades de produto selecionando valores de dimensões do produto.
+Uma tecnologia de configuração usada para criar grades de produto selecionando valores para dimensões do produto.
 
 ###### <a name="distinct-product"></a>**produto distinto**
 
@@ -503,7 +503,7 @@ Uma parte de um produto.
 
 ###### <a name="product-dimension"></a>**dimensão do produto**
 
-Os atributos de tamanho, cor ou configuração do produto que são usados para configuração do produto baseada em dimensão.
+Os atributos de tamanho, cor ou configuração do produto que são usados para configuração de produto baseado em dimensão.
 
 ###### <a name="product-family"></a>**família de produtos**
 

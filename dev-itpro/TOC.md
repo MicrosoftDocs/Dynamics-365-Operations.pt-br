@@ -33,13 +33,16 @@
 ## [Mobile workspaces recently released](mobile-apps/mobile-workspaces-released.md)
 ## [Publish a mobile workspace](mobile-apps/publish-mobile-workspace.md)
 ## [Mobile platform](mobile-apps/mobile-platform.md)
+## [Mobile workspace X++ APIs](mobile-apps/mobile-workspace-xpp-apis.md)
 
 # Office integration
 ## [Office integration](office-integration/office-integration.md)
 ## [Tutorial](office-integration/office-integration-tutorial.md)
+## [Use the Excel add-in](office-integration/use-excel-add-in.md)
 ## [Create Open in Excel experiences](office-integration/office-integration-edit-excel.md)
 ## [Add templates to the Open lines in Excel menu](user-interface/add-templates-open-lines-excel-menu.md)
 ## [Customize the Open in Microsoft Office menu](office-integration/customize-open-office-menu.md)
+## [Configure and send email](/dynamics365/operations/organization-administration/configure-email)
 ## [Troubleshooting](office-integration/office-integration-troubleshooting.md)
 
 # [Financials development](financial/TOC.md)
@@ -73,7 +76,7 @@
 
 # [Varejo](/dynamics365/operations/retail/index)
 
-# [Gerenciamento da cadeia de fornecimento](/dynamics365/operations/supply-chain/index)
+# [Gerenciamento da cadeia de fornecedores](/dynamics365/operations/supply-chain/index)
 
 # Outros recursos
 ## [Glossário do Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/dev-itpro/toc.json)

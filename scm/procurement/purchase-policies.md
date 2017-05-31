@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqSourcingPolicyRule, SysPolicy, SysPolicyListPage
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 3df3144b08c54441699d9c0b48fe507857877586
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5208dc64d86345de4e53c5e293fbc861351a63ef
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -59,6 +59,7 @@ Quando um funcionário na entidade legal 2222 cria uma requisição de compra, a
 
 No exemplo anterior, todas as regras de compra foram definidas em uma única hierarquia da organização, a hierarquia da organização Empresas. Entretanto, uma organização complexa pode definir políticas para várias hierarquias da organização.  
 
+
 A Contoso é uma grande empresa que exige regras de compras complexas para controlar o processo de requisição. A Contoso definiu regras para duas hierarquias da organização diferentes: controle de compras Departamento e Global.  
 
 A política 123 é definida para a hierarquia da organização Departamento para Vendas no Reino Unido – departamento de vendas. Na política 123, a regra de controle de requisição de compra especifica que as restrições devem ser impostas para as quantidades mínimas de ordem. Nessa regra, a opção **Impor restrições de quantidade mínima de ordem** está selecionada.  
@@ -93,6 +94,9 @@ A regra de política de categoria define como os usuários podem selecionar forn
 ### <a name="re-approval-rule-for-purchase-orders"></a>Regra de reaprovação de ordens de compra
 
 A regra de nova aprovação é uma regra opcional que define os critérios para exigir a reaprovação quando uma ordem de compra for alterada. Os campos selecionados são avaliados no fluxo de trabalho da ordem de compra quando a condição "Exige reaprovação da ordem de compra" for configurada no fluxo de trabalho.
+
+> [!NOTE]
+> A distribuição contábil sempre será redefinida quando uma ordem de compra aprovada com gerenciamento de alterações habilitado for alterada. Sendo assim, saiba que se você quiser evitar uma reaprovação de uma ordem de compra quando determinados campos forem alterados, o campo Distribuição contábil alterado NÃO deverá ser incluído como um campo selecionado para reaprovação. 
 
 ### <a name="purchase-requisition-rfq-rule"></a>Regra de RFQ de requisição de compra
 

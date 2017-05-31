@@ -56,7 +56,7 @@
 ## [IDs de registro](emea-registration-ids.md)
 ## [Visão geral de transferência de crédito SEPA](../accounts-payable/sepa-credit-transfer.md)
 ## [Visão geral de débito Direto SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
-## [Configurar assinantes de formulários impressos](emea-set-up-signers-for-printing-forms.md)
+## [Configurar signatários para formulários impressos](emea-set-up-signers-for-printing-forms.md)
 ## [Taxas de câmbio de IVA](emea-vat-exchange-rate.md)
 ## [Exibir transações sobre liquidação](emea-transactions-settlement-form.md)
 ## Áustria
@@ -67,6 +67,7 @@
 ### [Extrato bancário CODA](emea-bel-coda-bank-statement-import.md)
 ### [Declaração de imposto Intervat](emea-bel-intervat-tax-declaration.md)
 ### [Configuração de relatório PRODCOM](emea-bel-prodcom-report.md)
+### [Relatórios de reconciliação](emea-bel-reconciliation-reports.md)
 
 ## A República Tcheca
 ### [Desconto à vista na nota de crédito](emea-cze-credit-note-cash-discount.md)
@@ -74,9 +75,10 @@
 ### [Suspensão de depreciação](emea-cze-depreciation-suspension-holidays.md)
 ### [Depreciação de ativos fixos](emea-cze-fixed-assets-depreciation.md)
 ### [Depreciação semestral](emea-cze-half-depreciation-fixed-asset-disposal.md)
-### [Instrução de IVA](emea-cze-vat-statement-details.md)
+### [Relatório de imposto ](emea-cze-intra-community-vat-transactions.md)
+### [Demonstrativo de IVA](emea-cze-vat-statement-details.md)
 ## Estônia
-### [Instrução de IVA](emea-est-vat-statement-details.md)
+### [Demonstrativo de IVA](emea-est-vat-statement-details.md)
 ## França
 ### Setor público
 #### [Contabilidade do setor público](emea-fra-public-sector-accounting.md)

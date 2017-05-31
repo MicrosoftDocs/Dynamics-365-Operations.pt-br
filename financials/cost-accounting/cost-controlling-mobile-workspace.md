@@ -3,10 +3,10 @@ title: "Espaço de trabalho móvel de controle de custo"
 description: "Este tópico fornece informações sobre o espaço de trabalho móvel de controle de custos disponível no aplicativo móvel Microsoft Dynamics 365 for Operations. Este espaço de trabalho permite que gerentes de centro de custos exibam informações sobre desempenho de centro de custo a qualquer momento e em qualquer lugar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 05/04/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 31a9650774b2ddb70827ffa210154ca10c761236
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 09383c24b0dd2ad61a836f6c8dc97f4389915772
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -36,11 +36,15 @@ Este tópico fornece informações sobre o espaço de trabalho móvel de control
 <a name="overview-of-the-cost-controlling-mobile-workspace"></a>Visão geral do espaço de trabalho móvel Controle de custos
 -------------------------------------------------
 
-O espaço de trabalho móvel **Controle de custos** fornece uma exibição instantânea do desempenho atual dos centros de custo comparando custos reais com os custos orçados. Você pode fazer uma busca detalhada nos status de elementos de custo individuais. Por exemplo, um funcionário recebe um convite para uma conferência internacional, mas a organização deve cobrir todas despesas de viagem. O funcionário pergunta a seu gerente se ele pode participar da conferência. O gerente abre o espaço de trabalho móvel **Controle de custos** no seu dispositivo móvel para ver se dispõe do orçamento para que o funcionário possa ir à conferência.
+O espaço de trabalho móvel **Controle de custos** fornece uma exibição instantânea do desempenho atual dos centros de custo comparando custos reais com os custos orçados. Você pode fazer uma busca detalhada nos status de elementos de custo individuais. 
+
+Por exemplo, um funcionário recebe um convite para uma conferência internacional, mas a organização deve cobrir todas despesas de viagem. O funcionário pergunta a seu gerente se ele pode participar da conferência. O gerente abre o espaço de trabalho móvel **Controle de custos** no seu dispositivo móvel para ver se dispõe do orçamento para que o funcionário possa ir à conferência.
 
 ### <a name="data-security"></a>Segurança de dados
 
-Os dados no espaço de trabalho móvel **Controle de custos** são protegidos pelas credenciais do usuário. Os gerentes do centro de custos podem ver os dados somente de seus próprios centros de custo. A segurança de nível de acesso é gerenciada no módulo **Contabilização de custos**. Os contadores de custo definem a configuração do espaço de trabalho móvel **Controle de custos** no módulo **Contabilidade de custos**. Após a publicação do espaço de trabalho no aplicativo móvel Microsoft Dynamics 365 for Operations, ele fica disponível no aplicativo. Com isso, todos os gerentes de centro de custo da organização podem ver os dados no mesmo formato.
+Os dados no espaço de trabalho móvel **Controle de custos** são protegidos pelas credenciais do usuário. Os gerentes do centro de custos podem ver os dados somente de seus próprios centros de custo. A segurança de nível de acesso é gerenciada no módulo **Contabilização de custos**. 
+
+Os contadores de custo definem a configuração do espaço de trabalho móvel **Controle de custos** no módulo **Contabilidade de custos**. Após a publicação do espaço de trabalho no aplicativo móvel Microsoft Dynamics 365 for Operations, ele fica disponível no aplicativo. Com isso, todos os gerentes de centro de custo da organização podem ver os dados no mesmo formato.
 
 ### <a name="actions-views-and-links"></a>Ações, exibições e links
 
@@ -87,7 +91,7 @@ Antes de usar o espaço de trabalho móvel **Controle de custos**, certifique-se
 <tr class="odd">
 <td>Deve ser implementada a versão 1611 com atualização 3 ou superior de plataforma do Dynamics 365 for Operations.</td>
 <td>Administrador do sistema</td>
-<td>Se ainda não tiver o Dynamics 365 for Operations implantado em sua organização, o administrador do sistema deverá ver <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Implantar o ambiente de demonstração do Microsoft Dynamics 365 for Operations</a>.</td>
+<td>Se ainda não tiver o Dynamics 365 for Operations implantado em sua organização, o administrador do sistema deverá ver <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Implantar o ambiente de demonstração do Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>O KB 4013633 deve ser implementado.</td>
@@ -95,9 +99,9 @@ Antes de usar o espaço de trabalho móvel **Controle de custos**, certifique-se
 <td>O 4013633 KB (um hotfix de atualização ou de metadados X++) contém quatro espaços de trabalho móveis para gerenciamento da cadeia de suprimentos. Para implementar o KB 4013633, o administrador do sistema deve seguir estas etapas:
 <ol>
 <li>Baixar o KB 4013633 do Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Instalar o hotfix de metadados</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Criar um pacote implantável</a> que contenha o modelo <strong>SCMMobile</strong> e, em seguida, carregar o pacote implantável para o LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Aplique o pacote implantável</a> ao seu sistema Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar o hotfix de metadados</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Criar um pacote implantável</a> que contenha o modelo <strong>SCMMobile</strong> e, em seguida, carregar o pacote implantável para o LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Aplique o pacote implantável</a> ao seu sistema Dynamics 365 for Operations.</li>
 </ol></td>
 </tr>
 <tr class="odd">

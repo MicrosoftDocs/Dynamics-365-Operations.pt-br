@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -350,8 +350,7 @@ O tipo de informações que cada coluna em um relatório inclui é especificado 
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>Exiba os dados financeiros ou dados de uma planilha do Excel ao usar uma coluna <strong>Link para Dimensões Financeiras</strong> ou uma coluna <strong>Link para Planilha</strong> na definição da linha. Ao selecionar um tipo de coluna <strong>FD</strong>, as configurações padrão serão automaticamente especificadas para as seguintes linhas:
-    <ul>
+    <td>Exiba os dados financeiros ou dados de uma planilha do Excel ao usar uma coluna <strong>Link para Dimensões Financeiras</strong> ou uma coluna <strong>Link para Planilha</strong> na definição da linha. Ao selecionar um tipo de coluna <strong>FD</strong>, as configurações padrão serão automaticamente especificadas para as seguintes linhas: <ul>
     <li><strong>Código do livro/categoria do atributo:</strong> ACTUAL</li>
     <li><strong>Código do livro/categoria do atributo:</strong> ACTUAL</li>
     <li><strong>Ano fiscal:</strong> BASE</li>
@@ -359,7 +358,7 @@ O tipo de informações que cada coluna em um relatório inclui é especificado 
     <li><strong>Períodos cobertos:</strong> PERIODIC</li>
     <li><strong>Largura da coluna:</strong> 14</li>
     </ul>
-    Você pode alterar essas configurações padrão.</td>
+Você pode alterar essas configurações padrão.</td>
     </tr>
     <tr class="even">
     <td>CALC</td>
@@ -387,12 +386,11 @@ O tipo de informações que cada coluna em um relatório inclui é especificado 
     </tr>
     <tr class="even">
     <td>WKS</td>
-    <td>Exiba os dados que são obtidos de uma planilha do Excel. Ao selecionar um tipo de coluna <strong>WKS</strong>, as configurações padrão serão automaticamente especificadas para as seguintes linhas:
-    <ul>
+    <td>Exiba os dados que são obtidos de uma planilha do Excel. Ao selecionar um tipo de coluna <strong>WKS</strong>, as configurações padrão serão automaticamente especificadas para as seguintes linhas: <ul>
     <li><strong>Ano fiscal:</strong> PERIODIC</li>
     <li><strong>Período:</strong> BASE</li>
     </ul>
-    Você pode alterar essas configurações padrão.</td>
+Você pode alterar essas configurações padrão.</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>

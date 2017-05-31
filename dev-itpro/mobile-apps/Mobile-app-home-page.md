@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,17 +18,15 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e1a9e0eeb45f011ccb2aa091e68aff92782e1ae7
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5962fa36b061382e7f0ad55c08c81ac2cebc047d
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
 # <a name="dynamics-365-for-operations-mobile-app-home-page"></a>Home page do aplicativo móvel Dynamics 365 for Operations
-
-[!include[banner](../includes/banner.md)]
 
 [!include[banner](../includes/banner.md)]
 
@@ -61,7 +59,7 @@ A navegação no aplicativo móvel consiste em quatro conceitos simples: o paine
 ## <a name="implementation-process"></a>Processo de implementação
 A ilustração a seguir mostra o processo para implementar o aplicativo móvel Dynamics 365 for Operations em sua organização. 
 
-[![](./media/mobile-implementation-process_4.png)](./media/mobile-implementation-process_4.png) 
+![Processo de implementação de aplicativos móveis](./media/mobile-implementation-process_4.png)
 
 A tabela a seguir tem links para os recursos que podem ajudá-lo a implementar o aplicativo móvel Dynamics 365 for Operations em sua organização. Os números na primeira coluna correspondem às etapas numeradas na ilustração anterior.
 
@@ -85,7 +83,7 @@ A tabela a seguir tem links para os recursos que podem ajudá-lo a implementar o
 <td>1</td>
 <td>Administrador do sistema</td>
 <td>Implementam o Dynamics 365 for Operations da organização.</td>
-<td>Se ainda não tiver o Dynamics 365 for Operations implantado em sua organização, consulte <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Implantar um Microsoft Dynamics 365 para ambiente de demonstração</a>.</td>
+<td>Se ainda não tiver o Dynamics 365 for Operations implantado em sua organização, consulte <a href="../deployment/deploy-demo-environment.md">Implantar um Microsoft Dynamics 365 para ambiente de demonstração</a>.</td>
 </tr>
 <tr class="even">
 <td>2</td>
@@ -93,32 +91,27 @@ A tabela a seguir tem links para os recursos que podem ajudá-lo a implementar o
 <td>Baixe e instale os KBs que habilitam os espaços de trabalho móveis que são fornecidos pela Microsoft.</td>
 <td>Consulte a seção &quot;Pré-requisitos&quot; no tópico sobre o espaço de trabalho móvel que sua organização quer usar:
 <ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Espaços de trabalho móveis de controle de custo</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Espaço de trabalho móvel de estoque disponível</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Espaços de trabalho móveis das ordens de venda</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Espaço de trabalho móvel de colaboração de fornecedor</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Espaço de trabalho móvel de entrada de tempo do projeto</a></li>
+<li><a href="/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Espaços de trabalho móveis de controle de custo</a></li>
+<li><a href="/dynamics365/operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">Espaço de trabalho móvel de estoque disponível</a></li>
+<li><a href="/dynamics365/operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">Espaços de trabalho móveis das ordens de venda</a></li>
+<li><a href="/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Espaço de trabalho móvel de colaboração de fornecedor</a></li>
+<li><a href="/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Espaço de trabalho móvel de entrada de tempo do projeto</a></li>
+<li><a href="/dynamics365/operations/financials/expense-management/expense-management-mobile-workspace">Espaço de trabalho móvel de gerenciamento de despesas</a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>3</td>
 <td>Administrador do sistema</td>
 <td>Publica os espaços de trabalho móveis fornecidos pela Microsoft.</td>
-<td>Consulte a seção &quot;Pré-requisitos&quot; no tópico sobre o espaço de trabalho móvel que sua organização quer usar:
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Espaços de trabalho móveis de controle de custo</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Espaço de trabalho móvel de estoque disponível</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Espaços de trabalho móveis das ordens de venda</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Espaço de trabalho móvel de colaboração de fornecedor</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Espaço de trabalho móvel de entrada de tempo do projeto</a></li>
-</ul></td>
+<td><a href="publish-mobile-workspace.md">Publicar um espaço de trabalho móvel</a>
+</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td>Desenvolvedor ou fornecedores de software independentes (ISVs)</td>
 <td>Use a estrutura móvel do Dynamics 365 for Operations para criar espaços de trabalho móveis personalizados.</td>
 <td><ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">Estrutura móvel do Dynamics 365 for Operations</a></li>
+<li><a href="mobile-platform.md">Estrutura móvel do Dynamics 365 for Operations</a></li>
 <li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">Espaço de trabalho X++ APIs do Dynamics 365 for Operations</a></li>
 </ul></td>
 </tr>
@@ -126,19 +119,19 @@ A tabela a seguir tem links para os recursos que podem ajudá-lo a implementar o
 <td>5</td>
 <td>ISV</td>
 <td>Cria um pacote implantável que contém os espaços de trabalho móveis personalizados e carrega o pacote no Microsoft Dynamics Lifecycle Services (LCS).</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Gera um pacote implantável</a></td>
+<td><a href="../deployment/create-apply-deployable-package.md">Criar um pacote implantável</a></td>
 </tr>
 <tr class="even">
 <td>6</td>
 <td>Administrador do sistema</td>
 <td>Aplica o pacote implantável que contém os espaços de trabalho personalizados que são fornecidos pelo ISV.</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Aplica um pacote implantável em um sistema Microsoft Dynamics 365 for Operations</a></td>
+<td><a href="../deployment/apply-deployable-package-system.md">Aplica um pacote implantável em um sistema Microsoft Dynamics 365 for Operations</a></td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>Administrador do sistema</td>
 <td>Publica os espaços de trabalho móveis personalizados que são fornecidos pelo ISV.</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publica um espaço de trabalho móvel</a></td>
+<td><a href="publish-mobile-workspace.md">Publica um espaço de trabalho móvel</a></td>
 </tr>
 <tr class="even">
 <td>8</td>
@@ -153,24 +146,12 @@ A tabela a seguir tem links para os recursos que podem ajudá-lo a implementar o
 <td>9</td>
 <td>Usuário</td>
 <td>Entra e usa o aplicativo móvel Dynamics 365 for Operations. O aplicativo tem os espaços de trabalho móveis que foram publicados.</td>
-<td>A Microsoft forneceu os seguintes espaços de trabalho móveis:
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">Espaços de trabalho móveis de controle de custo</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">Espaço de trabalho móvel de estoque disponível</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">Espaços de trabalho móveis das ordens de venda</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">Espaço de trabalho móvel de colaboração de fornecedor</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">Espaço de trabalho móvel de entrada de tempo do projeto</a></li>
-</ul></td>
+<td>Para ver uma lista de espaços de trabalho móveis fornecidos pela Microsoft, consulte <a href="mobile-workspaces-released.md">Espaços de trabalho móveis lançados recentemente para o aplicativo móvel Dynamics 365 for Operations</a>
+</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="see-also"></a>Consulte também
---------
-
-[Espaços de trabalho móveis recentemente liberados para o aplicativo móvel Dynamics 365 for Operations](mobile-workspaces-released.md)
 
 
 

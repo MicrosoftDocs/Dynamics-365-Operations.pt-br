@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: a62b56bd2ac0a7484471190c5f342a1db335ab07
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5d2a69066a1245d5b86d27d01db4b67d4a490488
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -106,13 +106,11 @@ Siga estas etapas para especificar a quem a tarefa manual deve ser atribuída.
     <td>Usuários em uma hierarquia organizacional específica</td>
     <td><ol>
     <li>Depois que você selecionar <strong>Hierarquia</strong>, na guia <strong>Seleção de hierarquia</strong>, na lista <strong>Tipo de hierarquia</strong>, selecione o tipo de hierarquia ao qual atribuir a tarefa.</li>
-    <li>O sistema deve recuperar um intervalo de nomes de usuário da hierarquia. Esses nomes representam os usuários aos quais a tarefa pode ser atribuída. Siga estas etapas para especificar o ponto inicial e final do intervalo de nomes de usuário que o sistema recupera:
-    <ol>
+    <li>O sistema deve recuperar um intervalo de nomes de usuário da hierarquia. Esses nomes representam os usuários aos quais a tarefa pode ser atribuída. Siga estas etapas para especificar o ponto inicial e final do intervalo de nomes de usuário que o sistema recupera: <ol>
     <li>Para especificar o ponto de partida, selecione uma pessoa na lista <strong>Iniciar em</strong>.</li>
     <li>Para especificar o ponto final, clique em <strong>Adicionar condição</strong>. Em seguida, insira uma condição que determine em que ponto da hierarquia o sistema para de recuperar nomes.</li>
     </ol></li>
-    <li>Na guia <strong>Opções de hierarquia</strong>, especifique a quais usuários no intervalo a tarefa deve ser atribuída:
-    <ul>
+    <li>Na guia <strong>Opções de hierarquia</strong>, especifique a quais usuários no intervalo a tarefa deve ser atribuída: <ul>
     <li><strong>Atribuir a todos os usuários recuperados</strong> – A tarefa é atribuída a todos os usuários do intervalo.</li>
     <li><strong>Atribuir somente ao último usuário recuperado</strong> – A tarefa é atribuída somente ao último usuário do intervalo.</li>
     <li><strong>Excluir usuários com a seguinte condição</strong> – A tarefa não é atribuída aos usuários do intervalo que atenderem a determinada condição. Clique em <strong>Adicionar condição</strong> para especificar a condição.</li>
@@ -139,13 +137,11 @@ Siga estas etapas para especificar a quem a tarefa manual deve ser atribuída.
     <td>Uma fila de itens de trabalho</td>
     <td><ol>
     <li>Após selecionar <strong>Fila</strong>, clique na guia <strong>Fila baseada</strong>.</li>
-    <li>Para atribuir a tarefa a uma fila específica, siga estas etapas:
-    <ol>
+    <li>Para atribuir a tarefa a uma fila específica, siga estas etapas: <ol>
     <li>Na lista <strong>Tipo de fila</strong>, selecione <strong>Fila de itens de trabalho</strong>.</li>
     <li>Na lista <strong>Nome da fila</strong>, selecione a fila.</li>
     </ol></li>
-    <li>Se uma condição específica tiver que determinar a qual fila atribuir a tarefa, siga estas etapas:
-    <ol>
+    <li>Se uma condição específica tiver que determinar a qual fila atribuir a tarefa, siga estas etapas: <ol>
     <li>Na lista <strong>Tipo de fila</strong>, selecione <strong>Filas de itens de trabalho condicionais</strong>.</li>
     <li>Na lista <strong>Nome da fila</strong>, selecione <strong>Fila condicional</strong>.</li>
     </ol></li>
@@ -196,13 +192,11 @@ Se um usuário não concluir a tarefa manual no tempo alocado, a tarefa vencerá
     <td>Usuários em uma hierarquia organizacional específica</td>
     <td><ol>
     <li>Depois que você selecionar <strong>Hierarquia</strong>, na guia <strong>Seleção de hierarquia</strong>, na lista <strong>Tipo de hierarquia</strong>, selecione o tipo de hierarquia ao qual a tarefa será escalonada.</li>
-    <li>O sistema deve recuperar um intervalo de nomes de usuário da hierarquia. Esses nomes representam os usuários aos quais a tarefa pode ser escalonada. Siga estas etapas para especificar o ponto inicial e final do intervalo de nomes de usuário que o sistema recupera:
-    <ol>
+    <li>O sistema deve recuperar um intervalo de nomes de usuário da hierarquia. Esses nomes representam os usuários aos quais a tarefa pode ser escalonada. Siga estas etapas para especificar o ponto inicial e final do intervalo de nomes de usuário que o sistema recupera: <ol>
     <li>Para especificar o ponto de partida, selecione uma pessoa na lista <strong>Iniciar em</strong>.</li>
     <li>Para especificar o ponto final, clique em <strong>Adicionar condição</strong>. Em seguida, insira uma condição que determine em que ponto da hierarquia o sistema para de recuperar nomes.</li>
     </ol></li>
-    <li>Na guia <strong>Opções de hierarquia</strong>, especifique a quais usuários no intervalo a tarefa deve ser escalonada:
-    <ul>
+    <li>Na guia <strong>Opções de hierarquia</strong>, especifique a quais usuários no intervalo a tarefa deve ser escalonada: <ul>
     <li><strong>Atribuir a todos os usuários recuperados</strong> – A tarefa é escalonada a todos os usuários do intervalo.</li>
     <li><strong>Atribuir somente ao último usuário recuperado</strong> – A tarefa é escalonada somente ao último usuário do intervalo.</li>
     <li><strong>Excluir usuários com a seguinte condição</strong> – Esta tarefa não é escalonada aos usuários do intervalo que atenderem a determinada condição. Clique em <strong>Adicionar condição</strong> para especificar a condição.</li>

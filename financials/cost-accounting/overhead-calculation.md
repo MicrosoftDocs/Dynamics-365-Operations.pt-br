@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bb02e0756d675726f6c3b9f456b980a7ed695463
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -53,7 +53,8 @@ O cálculo de custos gerais indiretos executa as políticas de contabilização 
 -   Ano fiscal
 -   Período fiscal
 
-O cálculo de custos gerais indiretos é executado independentemente da versão. Portanto, você pode calcular a versão de orçamento antes da versão atual. O cálculo de custos gerais indiretos consiste em quatro etapas, conforme mostrado na ilustração. Em cada etapa, um cabeçalho de diário é criado com entradas de diário. Esse cabeçalho de diário mantém dados de entrada para cada etapa de cálculo. As políticas e regras são aplicadas a cada linha do diário e as entradas de custo são geradas como saídas. Portanto, você sempre terá rastreabilidade total. [![Cálculo de custos gerais indiretos](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+O cálculo de custos gerais indiretos é executado independentemente da versão. Portanto, você pode calcular a versão de orçamento antes da versão atual. O cálculo de custos gerais indiretos consiste em quatro etapas, conforme mostrado na ilustração. Em cada etapa, um cabeçalho de diário é criado com entradas de diário. Esse cabeçalho de diário mantém dados de entrada para cada etapa de cálculo. As políticas e regras são aplicadas a cada linha do diário e as entradas de custo são geradas como saídas. Portanto, você sempre terá rastreabilidade total. 
+[![Cálculo de custos gerais indiretos](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>Calcular e alocar os custos gerais indiretos de Eletricidade
 Na contabilidade financeira, alguns custos, como eletricidade, são registrados como um valor total. Portanto, a visão administrativa detalhada não é fornecida para a contabilização de custo. Na contabilização de custo, para fornecer a visão administrativa correta em todas as unidades organizacionais e níveis, os custos devem passar pelas unidades organizacionais. Este fluxo deve ser baseado em qualquer um registro exato do consumo ou de uma previsão justa. Na contabilidade, um custo de eletricidade pode ser lançado, conforme mostrado na tabela.
@@ -622,7 +623,7 @@ Para obter informações detalhadas sobre a política de taxa de custos indireto
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Etapa 4: Processar o cálculo de alocação de custo
 
-A alocação é usada para alocar o saldo de um objeto de custo a outros objetos de custo pela aplicação de uma base de alocação. O Microsoft Dynamics 365 for Operations suporta o método de alocação recíproco. No método de alocação recíproco, os serviços mútuos que os objetos de custo auxiliar trocam são totalmente reconhecidos. O sistema determina automaticamente a ordem correta realizar as alocações. O saldo de um objeto de custo é alocado por uma base de alocação única. As alocações entre as dimensões de objetos de custo e os respectivos membros são suportadas. A ordem de alocação é controlada pela unidade de controle de custo. [![](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+A alocação é usada para alocar o saldo de um objeto de custo a outros objetos de custo pela aplicação de uma base de alocação. O Microsoft Dynamics 365 for Operations suporta o método de alocação recíproco. No método de alocação recíproco, os serviços mútuos que os objetos de custo auxiliar trocam são totalmente reconhecidos. O sistema determina automaticamente a ordem correta realizar as alocações. O saldo de um objeto de custo é alocado por uma base de alocação única. As alocações entre as dimensões de objetos de custo e os respectivos membros são suportadas. A ordem de alocação é controlada pela unidade de controle de custo. [![Método recíproco](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Defina a alocação de custo
 

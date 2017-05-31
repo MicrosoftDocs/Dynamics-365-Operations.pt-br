@@ -3,10 +3,10 @@ title: "Espaço de trabalho móvel de entrada de tempo do projeto para o aplicat
 description: "Este tópico fornece informações sobre o espaço de trabalho móvel de entrada de tempo do projeto. Este espaço de trabalho permite que os usuários insiram e economizem tempo com um projeto usando seu dispositivo móvel."
 author: annbe
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e3e0be36c045acc3750efbb739d79d81ab937c65
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 9c592c301908898915164e9236850759b73543fe
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -31,7 +31,6 @@ ms.lasthandoff: 04/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 Este tópico fornece informações sobre o espaço de trabalho móvel de entrada de tempo do projeto para o aplicativo móvel Dynamics 365 for Operations. Este espaço de trabalho permite que os usuários insiram e economizem tempo com um projeto usando seu dispositivo móvel.
@@ -71,7 +70,7 @@ Antes de implementar o espaço de trabalho móvel **Entrada de tempo do projeto*
 <tr class="odd">
 <td>Deve ser implementada a versão 1611 com atualização 3 ou superior de plataforma do Microsoft Dynamics 365.</td>
 <td>Administrador do sistema</td>
-<td>Se ainda não tiver o Dynamics 365 for Operations implantado em sua organização, o administrador do sistema deverá ver <a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Implantar o ambiente de demonstração do Microsoft Dynamics 365 for Operations</a>.</td>
+<td>Se ainda não tiver o Dynamics 365 for Operations implantado em sua organização, o administrador do sistema deverá ver <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Implantar o ambiente de demonstração do Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>O KB 4018050 deve ser implementado.</td>
@@ -79,9 +78,9 @@ Antes de implementar o espaço de trabalho móvel **Entrada de tempo do projeto*
 <td>o KB 4018050 é um hotfix de metadados ou atualização X++ que contém o espaço de trabalho móvel <strong>Entrada de tempo do projeto</strong>. Para implementar o KB 4018050, o administrador do sistema deve seguir estas etapas.
 <ol>
 <li>Baixe o KB 4018050 do Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar o hotfix de metadados</a>.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Crie um pacote implantável</a> que contenha os modelos <strong>ApplicationSuite</strong> e <strong>ProjectMobile</strong> e, em seguida, carregue o pacote implantável para o LCS.</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Aplique o pacote implantável</a> ao seu sistema Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar o hotfix de metadados</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Crie um pacote implantável</a> que contenha os modelos <strong>ApplicationSuite</strong> e <strong>ProjectMobile</strong> e, em seguida, carregue o pacote implantável para o LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Aplique o pacote implantável</a> ao seu sistema Dynamics 365 for Operations.</li>
 </ol></td>
 </tr>
 <tr class="odd">
