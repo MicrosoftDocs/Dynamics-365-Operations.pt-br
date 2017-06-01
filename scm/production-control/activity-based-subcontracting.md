@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 4d8ebe2c0a8b4fe08fa7f63ba310c1d9203c1150
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 4cf93c861345ad11b995ac2fe50c9a94dddcbd56
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -90,7 +90,7 @@ Em relação a atividades de processo, você deve configurar um serviço padrão
 ## <a name="service-quantity-calculation"></a>Cálculo da quantidade de serviços
 Todo o processo de compra é baseado em uma referência de item para um serviço. Essa referência de item é medida em uma unidade de medida de um serviço. Serviços são geralmente medidos no número de serviços (unidades) ou no tempo. Para calcular a quantidade de serviços, com base na conclusão registrada de trabalhos kanban, você pode usar os seguintes métodos:
 
--   **Cálculo que é baseado no número de trabalhos** – Um trabalho kanban é igual a *n* unidades de serviço, independentemente da quantidade de produtos fornecidos. Em lean manufacturing, um trabalho corresponde a uma unidade de manuseio de material. Esse método de cálculo aplica-se a todos os serviços com um preço fixo por unidade de manuseio de material. Portanto, esse método geralmente se aplica a atividades de transferência. Contudo, também pode se aplicar a atividades de processo que processam as unidades de manuseio de material por completo.
+-   **Cálculo baseado no número de trabalhos** – um trabalho kanban é igual a *n* unidades de serviço, independentemente da quantidade de produtos fornecidos. Em lean manufacturing, um trabalho corresponde a uma unidade de manuseio de material. Esse método de cálculo aplica-se a todos os serviços com um preço fixo por unidade de manuseio de material. Portanto, esse método geralmente se aplica a atividades de transferência. Contudo, também pode se aplicar a atividades de processo que processam as unidades de manuseio de material por completo.
 -   **Cálculo que é baseado na quantidade de produtos** – A quantidade de serviço é relativa à quantidade de produtos programados/fornecidos. Quando a quantidade de produtos fornecidos é calculada, as quantidades de erro podem ser incluídas ou excluídas. Esse método de cálculo aplica-se a todos os casos nos quais o preço do serviço por unidade de produto processado é acordado.
 -   **Cálculo que é baseado no tempo de atividade** – Os tempos de atividade teórica são calculados com base no tempo de processamento da atividade, na quantidade total processada e na taxa de produtividade do produto processado. Esse método de cálculo aplica-se a serviços que são pagos por hora e apresentam uma variação no tempo por produto processado.
 

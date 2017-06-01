@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ef434747c075a32887035fa1d3c0e6fecd4e0a0d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -68,7 +68,7 @@ Os atalhos de teclado a seguir são utilizados no Microsoft Dynamics 365 for Ope
 | Abra o painel Quadro de Fatos (ou mova o foco para o painel do Quadro de Fatos, se ele já estiver aberto) | Ctrl+F2                                   |
 | Fechar o painel de Quadro de Fatos (com foco no painel de Quadro de Fatos)                         | Esc                                       |
 | Mover para o Quadro de Fatos anterior/próximo (com foco no painel do Quadro de Fatos)              | Alt+Shift+Seta para Baixo/Alt+Shift+Seta para Cima |
-| Mover para o Quadro de Fatos &lt;n&gt;th (com foco no painel do Quadro de Fatos)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Mover para o e&lt;n&gt;ésimo Quadro de Fatos (com foco no painel do Quadro de Fatos)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Expandir um Quadro de Fatos (com foco no cabeçalho do Quadro de Fatos)                             | Espaço ou Enter                            |
 | Recolher o Quadro de Fatos atual                                                    | Alt+0                                     |
 
@@ -115,8 +115,8 @@ Os atalhos de teclado a seguir são utilizados no Microsoft Dynamics 365 for Ope
 | Mover para o campo anterior/próximo                     | Tab / Shift+Tab                              |
 | Mover para a guia anterior/próxima                       | Alt+Shift+Seta para a Direita/Alt+Shift+Seta para a Esquerda |
 | Mover para a Guia Rápida anterior/próxima                   | Alt+Shift+Seta para Baixo/Alt+Shift+Seta para Cima    |
-| Mover para a &lt;n&gt;th Guia Rápida                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| Mover para a &lt;n&gt;th guia                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Mover para a e&lt;n&gt;ésima Guia Rápida                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Mover para a e&lt;n&gt;ésima guia                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Expandir uma Guia Rápida (com foco no cabeçalho da Guia Rápida) | Espaço ou Enter                               |
 | Recolher a Guia Rápida atual                        | Alt+0                                        |
 | Alternar para exibição em grade                                 | Ctrl+Shift+G                                 |

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 1ab51f90be918ee60e99fe11e5425383beefb26e
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 6e8e87df88aace213f50db617229383eba4d86ec
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -47,13 +47,11 @@ Fechar períodos na contabilidade
 |Confirmar ordem de venda                   | Atualizar ordens de venda.                                                                       |
 |Reavaliação de moeda estrangeira          | Gerar transações que atualizam o valor de transações de cliente abertas em moedas estrangeiras.                                                                                                                         |
 | Diário                              | Lançar faturas, pagamentos e notas promissórias.                                             |
-| Comprovante de diário                      | -   **Diário de pagamentos** – gerar, processar e lançar pagamentos.
-                                         -   **Draw bill of exchange journal** – Post bills of exchange.
-                                         -   **Protest bill of exchange journal** – Post protested bills of exchange.
-                                         -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
-                                         -   **Remittance journal** – Post remittances.
-                                         -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-| Lançamento de guia de remessa                 | Atualizar guias de remessa para ordens de venda.                                                     | | Lançar fatura de texto livre               | Lançar notas fiscais de texto livre.                                                                   | | Lançando fatura                      | Lançar notas fiscais para ordens de venda.                                                            | | Lançando lista de separação                 | Atualizar listas de separação para ordens de venda.                                                      |
+| Comprovante de diário                      |<ul><li>**Diário de pagamentos** – gerar, processar e lançar pagamentos.</li><li>**Emitir diário de letras de câmbio** – lançar letras de câmbio.</li><li>**Diário de protesto de letras de câmbio** – lançar letras de câmbio protestadas.</li><li>**Reemitir diário de letras de câmbio** – lançar letras de câmbio reemitidas.</li><li>**Diário de remessas** – lançar remessas.</li><li>**Liquidar diário de letras de câmbio** – lançar letras de câmbio liquidadas</li></ul>                   |
+| Lançamento de guia de remessa                 | Atualizar guias de remessa para ordens de venda.                                                     |
+| Lançar fatura de texto livre               | Lançar faturas de texto livre.                                                                   |
+| Lançando fatura                      | Lançar faturas para ordens de venda.                                                            |
+| Lançando lista de separação                 |Atualizar listas de separação para ordens de venda.                                                      |
 
 **Tarefa do componente do processo comercial**   
 

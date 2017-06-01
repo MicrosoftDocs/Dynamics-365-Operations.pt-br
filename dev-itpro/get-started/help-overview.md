@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
-ms.openlocfilehash: f08434b4c818460009644e77da1b37ba86cc1d54
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 181ad9a7ab4e83ce9eb34312e93b1ebdeb2e04eb
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/27/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -38,7 +38,11 @@ Dynamics 365 for Operations inclui um sistema de Ajuda totalmente novo que é ba
 -   Um site de documentação
 -   Guias de tarefas
 
-Você pode acessar tanto os artigos quanto os guias de tarefas através do painel Ajuda no Dynamics 365 for Operations, conforme mostrado na captura de tela a seguir. [![Painel de ajuda](./media/help-pane-ops-task-guides-1024x741.png)](./media/help-pane-ops-task-guides.png) Este artigo descreve o sistema de Ajuda, e explica como você pode criar documentação personalizada e recursos de treinamento para sua organização.
+Você pode acessar tanto os artigos quanto os guias de tarefas através do painel Ajuda no Dynamics 365 for Operations, conforme mostrado na captura de tela a seguir.
+
+![Painel da Ajuda](./media/help-pane-ops-task-guides-1024x741.png)
+
+Este artigo descreve o sistema de Ajuda, e explica como você pode criar documentação personalizada e recursos de treinamento para sua organização.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Ajuda no docs.microsoft.com
 O site docs.microsoft.com site ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations) é a fonte principal de documentação do produto para o Dynamics 365 for Operations. O site oferece os seguintes recursos:
@@ -50,13 +54,48 @@ O site docs.microsoft.com site ([docs.microsoft.com/dynamics365/operations](/dyn
 
 Nós migramos todo o conteúdo de nosso wiki anterior da ajuda para os docs. Nós estamos muito animados em relação ao novo site e esperamos que você também fique.
 
-### <a name="when-can-we-use-it"></a>Quando poderemos usá-la?
+### <a name="searching-on-docsmicrosoftcom"></a>Pesquisa em docs.microsoft.com
+Recebemos muitas dúvidas sobre como pesquisar nosso conteúdo. Em nosso site, se você iniciar em uma página do Dynamics 365 for Operations, sua pesquisa terá o escopo limitado ao conteúdo do Dynamics 365 for Operations. Você pode remover o escopo clicando no X ao lado de Operations na caixa de pesquisa. 
+![Pesquisar](./media/search-scope.png)
 
-Você pode ler o conteúdo nos docs agora mesmo -- é totalmente público e pesquisável sem a necessidade de cadastro. Você pode utilizar qualquer uma das suas ferramentas de pesquisa favoritas para encontrar conteúdo. Você pode comentar em artigos no site se quiser, ao fazer login.
+Também é possível localizar nosso conteúdo com qualquer mecanismo de pesquisa. Para obter os melhores resultados, é recomendável usar uma pesquisa de sites, como o "termo de pesquisa" site:docs.microsoft.com  
+![Pesquisa de site](./media/site-search.png)
+
+![Resultados da pesquisa de site](./media/site-search-results.png)
+
+
+### <a name="how-can-i-contribute"></a>Como posso contribuir? 
+
+Deixe-nos um comentário! 
+
+1 Clique em **Comentários** para acessar os comentários na parte inferior da página.
+
+![Comentários](./media/comments.png)
+
+2 Comece a digitar seu comentário e clique em **Postar comentário**.
+
+![Postar comentário](./media/before-signin.png)
+
+3 Selecione o tipo de conta com que você deseja entrar:  
+Clique em um dos ícones à esquerda para associar esse site a uma conta existente, como uma conta do Twitter, do Facebook ou da Microsoft. 
+
+Ou 
+
+À direita, insira um endereço de email e uma nova senha para criar uma nova conta para o site. 
+
+![Opções de entrada](./media/signin-options.png)
 
 
 ## <a name="task-guides"></a>Guias de tarefas
-Um guia de tarefa é uma experiência controlada, guiada, interativa que irá guiá-lo durante as etapas de uma tarefa, ou processo comercial. Você pode abrir (executar) um guia de tarefas através do painel de Ajuda. Quando você clicar pela primeira vez em um guia de tarefas, o painel de Ajuda irá exibir as instruções passo a passo para a tarefa. Os guias de tarefas localizados agora estão disponíveis. [![Visualização de leitura do guia de tarefas](./media/task-guide-ops-1024x742.png)](./media/task-guide-ops.png) Para iniciar a experiência guiada, interativa, clique em **Iniciar guia de tarefa** na parte inferior do painel de Ajuda. Um ponteiro preto abre e indica a ação que você precisa executar. Siga as direções que aparecem na UI, e insira os dados conforme instruído. [![Instrução da etapa do guia de tarefas](./media/task-guide-step-1-ops.png)](./media/task-guide-step-1-ops.png) **Importante:** Os dados inseridos quando você executa um guia de tarefa são reais. Se você estiver em um ambiente de produção, os dados serão inseridos na empresa que você está usando atualmente.
+Um guia de tarefa é uma experiência controlada, guiada, interativa que irá guiá-lo durante as etapas de uma tarefa, ou processo comercial. Você pode abrir (executar) um guia de tarefas através do painel de Ajuda. Quando você clicar pela primeira vez em um guia de tarefas, o painel de Ajuda irá exibir as instruções passo a passo para a tarefa. Os guias de tarefas localizados agora estão disponíveis. 
+
+![Exibição de leitura do Guia de tarefas](./media/task-guide-ops-1024x742.png)
+
+Para iniciar a experiência guiada, interativa, clique em **Iniciar guia de tarefa** na parte inferior do painel de Ajuda. Um ponteiro preto abre e indica a ação que você precisa executar. Siga as direções que aparecem na UI, e insira os dados conforme instruído. 
+![Introdução a etapa do Guia de tarefas](./media/task-guide-step-1-ops.png)
+
+> [!IMPORTANT] 
+> Os dados inseridos quando você executa um Guia de tarefas são reais. Se você estiver em um ambiente de produção, os dados serão inseridos na empresa que você está usando atualmente.
 
 ### <a name="it-all-begins-with-task-recorder"></a>Tudo começa com o Gravador de Tarefas
 
@@ -72,7 +111,9 @@ Para obter mais informações sobre o Gravador de Tarefas, consulte [Gravador de
 Você pode criar suas próprias gravações de tarefas, ou você pode baixar e personalizar gravações de tarefas que a Microsoft oferece. Consequentemente, você pode criar Ajuda personalizada para sua organização que reflete sua implementação específica do Dynamics 365 for Operations. Para exibir uma gravação de tarefas no painel de Ajuda do Dynamics 365 for Operations e executá-la como um guia de tarefas, você terá que salvar a gravação em uma biblioteca BPM no LCS. Se for um parceiro e promover uma biblioteca como uma biblioteca corporativa, e incluí-la em uma solução, ela ficará disponível para os clientes. Para obter instruções completas, consulte [Utilizando gravações de tarefas para criar documentação ou treinamento](../user-interface/task-recorder.md).
 
 ## <a name="in-product-help"></a>Ajuda sobre produto
-Para acessar o conteúdo de Ajuda dentro do Dynamics 365 for Operations, clique no ícone **Ajuda** (**?**) e escolha Ajuda ou pressione Ctrl+Shift+?. Em ambos os casos, o painel de Ajuda abre. No painel de Ajuda, você pode acessar artigos ou guias de tarefas. [![Painel de ajuda](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
+Para acessar o conteúdo de Ajuda dentro do Dynamics 365 for Operations, clique no ícone **Ajuda** (**?**) e escolha Ajuda ou pressione Ctrl+Shift+?. Em ambos os casos, o painel de Ajuda abre. No painel de Ajuda, você pode acessar artigos ou guias de tarefas. 
+
+![Painel da Ajuda](./media/help-pane-wiki-1024x684.png)
 
 ### <a name="accessing-articles-from-the-help-pane"></a>Acessando artigos do painel de Ajuda
 
@@ -80,19 +121,24 @@ No painel de Ajuda, você pode acessar artigos que se aplicam ao cliente do Dyna
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>Acessando guias de tarefas através do painel de Ajuda
 
-Antes que você possa acessar os guias de tarefas do painel de Ajuda, um Administrador do sistema deve ir até a página **Parâmetros do sistema** no Dynamics 365 for Operations e configurar algumas definições. **Observações:**
+Antes que você possa acessar os guias de tarefas do painel de Ajuda, um Administrador do sistema deve ir até a página **Parâmetros do sistema** no Dynamics 365 for Operations e configurar algumas definições. 
 
--   Para configurar a Ajuda, você precisa estar conectado com uma conta do inquilino mesmo como o locatário em que Dynamics 365 for Operations é implantado.
--   Não é possível conectar-se a uma biblioteca de LCS de uma instância do Dynamics 365 for Operations em execução em uma unidade de disco rígida virtual local (VHD).
+> [!NOTE]
+> -   Para configurar a Ajuda, você precisa estar conectado com uma conta do inquilino mesmo como o locatário em que Dynamics 365 for Operations é implantado.
+> -   Não é possível conectar-se a uma biblioteca de LCS de uma instância do Dynamics 365 for Operations em execução em uma unidade de disco rígida virtual local (VHD).
 
-[![Formulário de parâmetros do sistema com configurações de ajuda](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) Na página **Parâmetros do sistema**, siga estas etapas:
+![Formulário Parâmetros do Sistema com configurações da Ajuda](./media/system-parameters_ops-1024x437.png)
 
-1.  **Importante:**A primeira vez que você abrir a guia da ajuda, é necessário conectar serviços do ciclo de vida. Certifique-se de clicar no link no meio do formulário, aguarde a conexão, feche a caixa de diálogo e depois clique em OK para ir para o formulário de parâmetros.[![Conectar-se ao LCS](./media/connect-to-lcs-crop-1024x365.png)](./media/connect-to-lcs-crop.png)
+Na página **Parâmetros do sistema**, siga estas etapas:
+
+1.  **Importante:**A primeira vez que você abrir a guia da ajuda, é necessário conectar serviços do ciclo de vida. Clique no link no meio do formulário, aguarde a conexão, feche a caixa de diálogo e clique em OK para acessar o formulário de parâmetros.
+![Conectar-se ao LCS](./media/connect-to-lcs-crop-1024x365.png)
 2.  Selecione o projeto do Lifecycle Services para se conectar.
 3.  Selecione as bibliotecas do BPM (dentro do projeto selecionado) para recuperar gravações de tarefas delas.
 4.  Defina a ordem de exibição das bibliotecas do BPM. Isso determina a ordem em que as gravações de tarefas das bibliotecas irão aparecer no painel de Ajuda.
 
-Assim que um Administrador do sistema completar essas etapas, você pode abrir o painel de Ajuda e clicar na aba **Guias de tarefas**. Agora você verá os guias da tarefa que se aplicam à página que está sendo atualmente usada no Dynamics 365 for Operations. Se nenhum guia de tarefas for encontrado, você poderá inserir palavras-chave para refinar a pesquisa. Depois de clicar em um guia de tarefas no painel de Ajuda, o painel de Ajuda exibirá as instruções passo a passo, e você pode executar o guia de tarefas. [![Visualização de leitura do guia de tarefas](./media/task-guide-ops-1024x742.png)](./media/task-guide-ops.png)
+Assim que um Administrador do sistema completar essas etapas, você pode abrir o painel de Ajuda e clicar na aba **Guias de tarefas**. Agora você verá os guias da tarefa que se aplicam à página que está sendo atualmente usada no Dynamics 365 for Operations. Se nenhum guia de tarefas for encontrado, você poderá inserir palavras-chave para refinar a pesquisa. Depois de clicar em um guia de tarefas no painel de Ajuda, o painel de Ajuda exibirá as instruções passo a passo, e você pode executar o guia de tarefas. 
+![Exibição de leitura do Guia de tarefas](./media/task-guide-ops-1024x742.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>Onde estão os guias de tarefa traduzidos?
 

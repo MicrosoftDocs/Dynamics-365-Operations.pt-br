@@ -1,40 +1,38 @@
 ---
-title: "Nomenclatura de número de produto"
-description: "Este tópico descreve como você pode configurar uma nomenclatura de número de produto para substituir o formato fixo, [Número de produto mestre - Configuração - Tamanho - Cor - Estilo], com um formato segmentado que inclui o número de produto mestre, dimensões de produto ativas e delimitadores de texto de sua preferência. Você também pode criar uma nomenclatura para identificar configurações criadas pelo configurador de produto baseado em restrições. Essas nomenclaturas podem conter os atributos de sua preferência."
-author: YuyuScheller
+title: "Nomenclatura de números e de nomes de grade de produto"
+description: "Este tópico descreve como você pode configurar uma nomenclatura de número de produto para substituir o formato fixo [Número do produto mestre - Configuração - Tamanho - Cor - Estilo]. A nova nomenclatura tem um formato de destino que inclui o número do produto mestre, as dimensões ativas do produto e os delimitadores de texto de sua escolha. Você também pode criar uma nomenclatura para os nomes de produto. Por fim, você pode criar uma nomenclatura para identificar configurações criadas pelo configurador de produto baseado em restrições. Essas nomenclaturas podem conter os atributos de sua preferência."
+author: roxanadiaconu
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResNomenclature, EcoResProductDimensionGroup, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelDetails
 audience: Application User
+ms.reviewer: annbe
 ms.search.scope: Operations, Core
 ms.custom: 220104
-ms.assetid: 31c9efb4-b5f6-4af3-b884-8f1e128469bd
+ms.assetid: 3fe69fb7-5c32-423c-98a8-2f53186cda68
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: roxanad
+ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: deda2b7986333e0d865aa87e6b34b6acdc8f6a6d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 0e19b18a2900a0b42dc9a1a984b9c884ca0c17cc
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
-# <a name="product-number-nomenclature"></a>Nomenclatura de número de produto
+# <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatura de números e de nomes de grade de produto
 
-[!include[banner](../includes/banner.md)]
+Este tópico descreve como você pode configurar uma nomenclatura de número de produto para substituir o formato fixo [Número do produto mestre - Configuração - Tamanho - Cor - Estilo]. A nova nomenclatura tem um formato de destino que inclui o número do produto mestre, as dimensões ativas do produto e os delimitadores de texto de sua escolha. Você também pode criar uma nomenclatura para os nomes de produto. Por fim, você pode criar uma nomenclatura para identificar configurações criadas pelo configurador de produto baseado em restrições. Essas nomenclaturas podem conter os atributos de sua preferência.
 
-
-Este tópico descreve como você pode configurar uma nomenclatura de número de produto para substituir o formato fixo, [Número de produto mestre - Configuração - Tamanho - Cor - Estilo], com um formato segmentado que inclui o número de produto mestre, dimensões de produto ativas e delimitadores de texto de sua preferência. Você também pode criar uma nomenclatura para identificar configurações criadas pelo configurador de produto baseado em restrições. Essas nomenclaturas podem conter os atributos de sua preferência.
-
-A nova nomenclatura de número de grade de produto permite que incluir segmentos em seus identificadores de grade de produto. Esses segmentos podem incluir o número de produto mestre, dimensões de produto, sequências numéricas, constantes de texto e atributos. Tal funcionalidade permite que você encontre rapidamente uma grade de produto específica ao criar uma ordem de venda ou de compra.
+As novas nomenclaturas para números de grade de produto e nomes de grade de produto permitem incluir segmentos nos identificadores de grades de produto. Esses segmentos podem incluir o número e o nome do produto mestre, as IDs os nomes de dimensão de produto, as sequências numéricas, as constantes de texto e os atributos. Tal funcionalidade permite que você encontre rapidamente uma grade de produto específica ao criar uma ordem de venda ou de compra. Você cria nomenclaturas para números e nomes de grade de produto usando a página **Nomenclatura de produtos**. Para abrir essa página, clique em **Gerenciamento de informações do produto** &gt; **Configuração**.
 
 ## <a name="nomenclature-of-predefined-product-variants"></a>Nomenclatura de grades de produto predefinidas
 As grades de produto são geradas para produtos mestres de acordo com uma das três tecnologias de configuração:
@@ -43,69 +41,70 @@ As grades de produto são geradas para produtos mestres de acordo com uma das tr
 -   Baseadas em restrições
 -   Baseadas em dimensões
 
-Cada grade de produto tem um número, e a nomenclatura de identificação para grade de produto permite que você selecione os segmentos que serão incluídos no número de cada grade de produto. Você pode selecionar os seguintes segmentos na página **Nomenclatura de produto**.
+Cada grade de produto tem um número e um nome, e as nomenclaturas de identificação para grade de produto permitem que você selecione os segmentos que serão incluídos no número de cada grade de produto. Você pode selecionar os seguintes segmentos na página **Nomenclatura de produtos**:
 
 -   Número do produto mestre
+-   Nome do produto mestre
 -   Valor de sequência numérica
 -   Constante de texto
 -   Dimensões do produto
-    -   Configuração
-    -   Cor
-    -   Tamanho
-    -   Estilo
+    -   ID ou nome da configuração
+    -   ID ou nome da cor
+    -   ID ou nome do tamanho
+    -   ID ou nome do estilo
 
-Após a nomenclatura de identificação para grade de produto ser definida, ela pode ser associada a um grupo de dimensão de produto. Por conseguinte, a todos os produtos mestres referentes a esse grupo de dimensão de produto serão atribuídos números de grade de produto de acordo com a nomenclatura. Também é possível atribuir uma nomenclatura de identificação para grade de produto diretamente a um produto mestre, caso no qual às grades de produto pertencentes a esse mestre serão atribuídos números de produto de acordo com a nomenclatura.
+Depois de definir uma nomenclatura de número de identificação de grade de produto, será possível associá-la a um grupo de dimensões do produto. Todos os produtos mestres que fizerem referência a esse grupo de dimensões de produto receberão números de grade de produto de acordo com a nomenclatura. Contudo, as nomenclaturas de nome de grade de produto não podem ser associadas a grupos de dimensões do produto. Você também pode atribuir uma identificação de grade de produto diretamente a um produto mestre. Nesse caso, as grades do produto que pertencem ao produto mestre receberão números e nomes de grade de produto de acordo com as nomenclaturas.
 
 ### <a name="example"></a>Exemplo
 
-Uma camiseta (TS1234) é produzida em 3 diferentes tamanhos (P, M, G), 4 cores diferentes (vermelho, verde, azul, amarelo) e 2 estilos (polo, V), resultando em um total de 24 grades de produto possíveis. Uma nomenclatura de identificação para grade de produto é criada com os seguintes segmentos:
+Uma camiseta (TS1234) é produzida em três tamanhos (P, M, G), quatro cores (Vermelho, Verde, Azul, Amarelo) e dois estilos (Polo, Gola em V). Portanto, 24 grades de produto são possíveis (= 3 × 4 × 2). Você cria uma nomenclatura de número de grade de produto com os seguintes segmentos:
 
 1.  Número do produto mestre
-2.  Constante de texto: '-'
+2.  Constante de texto: "-"
 3.  Cor
-4.  Constante de texto: '-'
+4.  Constante de texto: "-"
 5.  Tamanho
-6.  Constante de texto: '-'
+6.  Constante de texto: "-"
 7.  Estilo
 
-O número da grade de produto para vermelho, pequeno, polo será: TS1234-Red-Small-Polo
+Nesse caso, o número da grade de produto para uma camiseta polo vermelha pequena será TS1234-Vermelho-Pequena-Polo
 
 ## <a name="nomenclature-of-constraintbased-configurations"></a>Nomenclatura de configurações baseadas em restrições
-Em configurações baseadas em restrições, uma nomenclatura dedicada pode ser criada para a dimensão de configuração de produto. Você pode selecionar os seguintes segmentos na página **Nomenclatura de produto**.
+Em configurações baseadas em restrições, você pode criar uma nomenclatura dedicada para a dimensão de configuração de produto. Você pode selecionar os seguintes segmentos na página **Nomenclatura de produtos**:
 
 -   Valor de sequência numérica
 -   Constante de texto
--   Valor do atributo 
+-   Valor do atributo
 
-Cada componente em um modelo de configuração de produto pode ter sua própria nomenclatura de configuração. Apenas atributos pertencentes ao componente podem ser usados. Atributos de subcomponentes ou requisitos de usuário não estão disponíveis.
+Cada componente em um modelo de configuração de produto pode ter sua própria nomenclatura de configuração. Apenas os atributos que pertencem ao componente podem ser usados. Os atributos de subcomponentes ou os requisitos de usuário não podem ser usados.
 
 ### <a name="example"></a>Exemplo
 
-Um modelo de configuração de produto tem um componente raiz com dois atributos.
+Um modelo de configuração de produto tem um componente raiz com dois atributos:
 
 -   Material (plástico, madeira, aço)
 -   Tamanho (10...100)
 
-Uma nomenclatura de configuração é definida por meio dos seguintes segmentos:
+Você cria uma nomenclatura de configuração com os seguintes segmentos:
 
 1.  Valor do atributo: material
-2.  Constante de texto: 'AAA'
+2.  Constante de texto: "AAA"
 3.  Valor do atributo: tamanho
 
-A ID de configuração para o material de madeira com um tamanho de 78 terá a seguinte ID de configuração: WoodAAA78.
+Nesse caso, a ID de configuração do material de madeira com um comprimento 78 será MadeiraAAA78.
 
 ## <a name="nomenclature-of-dimensionbased-configurations"></a>Nomenclatura de configurações baseadas em dimensões
-Em configurações baseadas em dimensão, uma nomenclatura dedicada pode ser criada para a dimensão de configuração de produto. Você pode selecionar os seguintes segmentos na página **Nomenclatura de produto**.
+Em configurações baseadas em dimensões, você pode criar uma nomenclatura dedicada para a dimensão de configuração de produto. Você pode selecionar os seguintes segmentos na página **Nomenclatura de produtos**:
 
 -   Valor de sequência numérica
 -   Constante de texto
 -   Item de grupo de configuração
 
-Uma nomenclatura de configuração pode ser definida para uma lista de materiais (BOM).
+Você pode definir uma nomenclatura de configuração para uma lista de materiais (BOM).
 
 ### <a name="example"></a>Exemplo
 
-Uma lista de materiais tem 4 linhas de BOM divididas em 2 grupos de configuração.
+Uma BOM tem quatro linhas de BOM divididas em dois grupos de configuração:
 
 -   Linha de BOM: M0007, gabinete padrão
     -   Grupo de configuração: gabinete
@@ -116,89 +115,87 @@ Uma lista de materiais tem 4 linhas de BOM divididas em 2 grupos de configuraç�
 -   Linha de BOM: M0022, metal de grade frontal
     -   Grupo de configuração: grade frontal
 
-Uma nomenclatura de configuração é definida por meio dos seguintes segmentos:
+Você cria uma nomenclatura de configuração com os seguintes segmentos:
 
 1.  Grupo de configuração: gabinete
-2.  Constante de texto: '&'
+2.  Constante de texto: "&"
 3.  Grupo de configuração: grade frontal
 
-A ID de configuração para um gabinete padrão com grade frontal de tecido será: M0007&M0021.
+Nesse caso, a ID de configuração para um gabinete padrão com grade frontal de tecido será: M0007&M0021.
 
-## <a name="nomenclature-of-a-combination-of-product-variants-and-configurations"></a>Nomenclatura de uma combinação de grades de produto e configurações
-Quando você usa uma tecnologia baseada em restrições ou dimensão para configurar grades de produto de um produto mestre, as grades de produto podem receber números de grade de produto que incluem a nomenclatura da dimensão de configuração. Siga as seguintes etapas para configurar as grades:
+## <a name="nomenclature-for-a-combination-of-product-variants-and-configurations"></a>Nomenclatura para uma combinação de grades de produto e configurações
+Quando você usa a tecnologia de configuração baseada em restrição ou a tecnologia de configuração baseada em dimensão para configurar grades de produto para um produto mestre, os números das grades de produto podem incluir a nomenclatura da dimensão de configuração. Siga estas etapas para configurar as variantes.
 
-1.  Defina uma nomenclatura de número de grade de produto que inclua a dimensão da configuração na página **Nomenclatura de produto**.
-2.  Atribua essa nomenclatura a um grupo de dimensão de produtos com a dimensão de configuração.
+1.  Na página **Nomenclatura de produtos**, defina uma nomenclatura de número de grade de produto que inclua a dimensão de configuração.
+2.  Atribua a nomenclatura a um grupo de dimensões de produto com a dimensão de configuração.
 3.  Defina uma nomenclatura de configuração para os componentes ou BOMs que serão usados para configurar as grades de produto.
+
+Você também pode criar nomenclaturas para os nomes de grade de produto. Os nomes de grade de produto podem ser configurados para incluir a ID ou o nome da configuração.
 
 ### <a name="example-for-constraint-based-configurations"></a>Exemplo de configurações baseadas em restrições
 
-Neste exemplo, você pode usar uma nomenclatura de número de grade de produto que consiste nos seguintes segmentos:
+Neste exemplo, use uma nomenclatura de número de grade de produto que consista nestes segmentos:
 
 1.  Número do produto mestre
-2.  Constante de texto '\_'
+2.  Constante de texto "\_"
 3.  Configuração
 
-A nomenclatura de configuração pode consistir nos seguintes segmentos:
+A nomenclatura de configuração consiste nestes segmentos:
 
 1.  Valor do atributo: material
-2.  Constante de texto: 'AAA'
+2.  Constante de texto: "AAA"
 3.  Valor do atributo: tamanho
 
 É possível inserir os seguintes valores para segmentos:
 
--   Número do produto mestre = M0099
--   Material = plástico
--   Extensão = 12
+-   Número do produto mestre = **M0099**
+-   Material = **Plástico**
+-   Comprimento = **12**
 
-O número de grade de produto será: M0099\_PlasticAAA12.
+Nesse caso, o número da grade de produto será M0099\_PlásticoAAA12.
 
 ### <a name="example-for-dimension-based-configurations"></a>Exemplo de configurações baseadas em dimensões
 
-Neste exemplo, você pode usar uma nomenclatura de número de grade de produto que consiste nos seguintes segmentos:
+Neste exemplo, use uma nomenclatura de número de grade de produto que consista nestes segmentos:
 
 1.  Número do produto mestre
-2.  Constante de texto: '//'
+2.  Constante de texto "//"
 3.  Configuração
 
-A nomenclatura de configuração pode consistir nos seguintes segmentos:
+A nomenclatura de configuração consiste nestes segmentos:
 
 1.  Grupo de configuração: gabinete
-2.  Constante de texto: '&'
+2.  Constante de texto: "&"
 3.  Grupo de configuração: grade frontal
 
 É possível inserir os seguintes valores para segmentos:
 
--   Número do produto mestre = D0123
--   Gabinete = M0008
--   Grade frontal = M0022
+-   Número do produto mestre = **D0123**
+-   Gabinete = **M0008**
+-   Grade frontal = **M0022**
 
-O número de grade de produto será: D0123//M0008&M0022.
+Nesse caso, o número da grade de produto será D0123//M0008&M0022.
 
 ## <a name="numbering-conflicts"></a>Conflitos de numeração
-É possível configurar uma nomenclatura de número de grade de produto que não resulta em números de grade de produto exclusivos. Por exemplo, isso poderia ocorrer se uma dimensão de produto ativa não fosse incluída na nomenclatura para um produto mestre que usa a tecnologia de configuração de variante predefinida. Conflitos são tratados de forma diferente pelas diferentes tecnologias de configuração.
+Em alguns casos, uma nomenclatura de número de grade de produto configurada pode não produzir números de grade de produto exclusivos. Por exemplo, os número de grade de produto não serão exclusivos se uma dimensão de produto ativa não for incluída na nomenclatura para um produto mestre que use a tecnologia de configuração de grade predefinida. A forma como você lida com os conflitos varia, dependendo da tecnologia de configuração.
 
 ### <a name="predefined-variants"></a>Grades predefinidas
 
-Um erro ocorrerá se você tentar gerar manual ou automaticamente grades de produto quando uma ou mais delas acabarem com o mesmo número de grade de produto. Para evitar isso, você deve usar todas as dimensões de produto ativas no grupo de dimensão de produto ou incluir uma sequência numérica para garantir que os números de grade de produto sejam exclusivos.
+Ocorrerá um erro se você tentar criar manualmente ou gerar de forma automática as grades de produto, e mais de uma grade de produto terminará com o mesmo número de grade de produto. Para evitar esse cenário, sempre utilize todas as dimensões de produto ativas no grupo de dimensões de produto. Como alternativa, inclua uma sequência numérica para ajudar a garantir que os números de grade de produto sejam exclusivos.
 
 ### <a name="constraint-based-configurations"></a>Configurações baseadas em restrições
 
-Dependendo da nomenclatura, o sistema pode tentar atribuir um número de grade de produto não exclusivo a uma configuração. Nesse caso, o sistema usará, em vez disso, a sequência numérica para a dimensão de configuração como o número de grade de produto. Se isso ocorrer, você receberá um aviso. Para evitar isso, você deve incluir uma quantidade suficiente de atributos na nomenclatura para garantir exclusividade e fazer com a opção **Reutilizar** seja habilitada para o componente.
+Dependendo da nomenclatura, o sistema poderá tentar atribuir um número de grade de produto não exclusivo a uma configuração. Nesse caso, o sistema usa a sequência numérica para a dimensão de configuração como o número de grade de produto e você recebe um aviso. Para evitar esse cenário, inclua atributos suficientes na nomenclatura para ajudar a garantir o uso de números de variante de produto exclusivos. Você também deve garantir que a opção **Reutilizar** esteja ativada para o componente.
 
 ### <a name="dimension-based-configurations"></a>Configurações baseadas em dimensões
 
-O processo de configuração inclui uma etapa na qual o sistema sugerirá um valor de configuração de acordo com a nomenclatura. Nessa etapa, você alterará manualmente o valor da configuração. Ao salvar a configuração, o sistema verificará se o valor da configuração é exclusivo. Se esse não for o caso, um erro será exibido. Você deve inserir um valor de configuração exclusivo para salvar a configuração.
-
-
+Durante uma etapa do processo de configuração, o sistema sugere um valor de configuração de acordo com a nomenclatura. Nessa etapa, você alterará manualmente o valor da configuração. Quando você salva a configuração, o sistema verifica se o valor da configuração é exclusivo. Se o valor inserido não for exclusivo, você receberá uma mensagem de erro. Para salvar a configuração, insira um valor de configuração exclusivo.
 
 <a name="see-also"></a>Consulte também
 --------
 
-[Criar uma nomenclatura de número de produto para grades de produto predefinidas (guia de tarefas)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
+[Criar uma nomenclatura de número de produto para grades de produto predefinidas](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
 
-[Criar uma nomenclatura de número de produto para grades de produto configuradas (guia de tarefas)](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
-
-
+[Criar uma nomenclatura de número de produto para grades de produto configuradas](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
 
 

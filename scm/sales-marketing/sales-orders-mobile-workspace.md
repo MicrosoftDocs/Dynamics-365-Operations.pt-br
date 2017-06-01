@@ -3,10 +3,10 @@ title: "Espaço de trabalho móvel das ordens de venda"
 description: "Este tópico fornece informações sobre o espaço de trabalho móvel das ordens de venda disponível no aplicativo móvel Microsoft Dynamics 365 for Operations. Este espaço de trabalho o ajuda a ficar atualizado sobre suas ordens de venda a qualquer momento e em qualquer lugar."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 119b80e5d8067ffbf75d8b067f4803558c2c94b0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 11898146a13756a6bb22a769e37e8773484e0d04
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,7 +37,9 @@ Este tópico fornece informações sobre o espaço de trabalho móvel das ordens
 <a name="overview-of-the-sales-orders-mobile-workspace"></a>Visão geral do espaço de trabalho móvel das ordens de venda
 ---------------------------------------------
 
-O espaço de trabalho **Ordens de venda** acessa móvel o Microsoft Dynamics 365 for Operations e permite que você visualize informações detalhadas sobre cada ordem de venda. Essas informações incluem o status da ordem, as informações de contato do cliente e informações de contato do tomador da ordem. O espaço de trabalho móvel **Ordens de venda** fornece uma visualização instantânea das ordens de venda. Você pode exibir todas as ordens de vendas, exibir as ordens de venda por cliente ou exibir informações sobre uma ordem de venda específica. O espaço de trabalho móvel oferece duas visualizações para ajudá-lo a analisar as ordens de venda em profundidade.
+O espaço de trabalho **Ordens de venda** acessa móvel o Microsoft Dynamics 365 for Operations e permite que você visualize informações detalhadas sobre cada ordem de venda. Essas informações incluem o status da ordem, as informações de contato do cliente e informações de contato do tomador da ordem. O espaço de trabalho móvel **Ordens de venda** fornece uma visualização instantânea das ordens de venda. Você pode exibir todas as ordens de vendas, exibir as ordens de venda por cliente ou exibir informações sobre uma ordem de venda específica. 
+
+O espaço de trabalho móvel oferece duas visualizações para ajudá-lo a analisar as ordens de venda em profundidade.
 
 ### <a name="view-all-sales-orders"></a>Exibir todas as ordens de venda
 
@@ -50,6 +52,7 @@ Essa exibição lista todas as ordens do cliente.
     -   Pesquisar por status
     -   Pesquisar por status de lançamento
     -   Procurar por data e hora de criação
+    
 -   Depois de selecionar as ordens de venda, você pode visualizar os detalhes de ordens específicas. Especificamente, você pode exibir as seguintes informações:
     -   Informações de nome e endereço do cliente
     -   Várias datas da ordem de venda, como a data de remessa solicitada e a data de remessa confirmada
@@ -65,6 +68,7 @@ Essa exibição lista ordens de vendas por cliente.
 -   Use um dos seguintes filtros para exibir as ordens de um cliente:
     -   Pesquisar por nome
     -   Pesquisar por conta
+
 -   Após selecionar um cliente, você pode exibir as seguintes informações:
     -   Nome e grupo do cliente
     -   Informações de contato do cliente
@@ -96,7 +100,7 @@ Antes de usar o espaço de trabalho móvel **Ordens de venda**, certifique-se de
 <tr class="odd">
 <td>Deve ser implementada a versão 1611 com atualização 3 ou superior de plataforma do Dynamics 365 for Operations.</td>
 <td>Administrador do sistema</td>
-<td>Se ainda não tiver o Dynamics 365 for Operations implantado em sua organização, o administrador do sistema deverá ver <a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">Implantar o ambiente de demonstração do Microsoft Dynamics 365 for Operations</a>.</td>
+<td>Se ainda não tiver o Dynamics 365 for Operations implantado em sua organização, o administrador do sistema deverá ver <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment/">Implantar o ambiente de demonstração do Microsoft Dynamics 365 for Operations</a>.</td>
 </tr>
 <tr class="even">
 <td>O KB 4013633 deve ser implementado.</td>
@@ -104,9 +108,9 @@ Antes de usar o espaço de trabalho móvel **Ordens de venda**, certifique-se de
 <td>O 4013633 KB (um hotfix de atualização ou de metadados X++) contém quatro espaços de trabalho móveis para gerenciamento da cadeia de suprimentos. Para implementar o KB 4013633, o administrador do sistema deve seguir estas etapas:
 <ol>
 <li>Baixar o KB 4013633 do Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">Instalar o hotfix de metadados</a>.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">Criar um pacote implantável</a> que contenha o modelo <strong>SCMMobile</strong> e, em seguida, carregar o pacote implantável para o LCS.</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">Aplique o pacote implantável</a> ao seu sistema Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar o hotfix de metadados</a>.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Criar um pacote implantável</a> que contenha o modelo <strong>SCMMobile</strong> e, em seguida, carregar o pacote implantável para o LCS.</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Aplique o pacote implantável</a> ao seu sistema Dynamics 365 for Operations.</li>
 </ol></td>
 </tr>
 <tr class="odd">

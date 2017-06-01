@@ -2,9 +2,10 @@
 # [Gerenciamento de estoque](inventory/TOC.md)
 # Planejamento mestre
 ## Criar previsão de demanda
-### [Visão geral de previsão de demanda](master-planning/introduction-demand-forecasting.md)
+### [Visão geral da previsão de demanda](master-planning/introduction-demand-forecasting.md)
 ### [Configurar uma previsão de demanda](master-planning/demand-forecasting-setup.md)
-### [Gerar uma previsão estatística de linha de base](master-planning/generate-statistical-baseline-forecast.md)
+### [Importar dados históricos para previsões de demanda](master-planning/import-historical-data.md)
+### [Gerar uma previsão estatística](master-planning/generate-statistical-baseline-forecast.md)
 ### [Fazer ajuste manual na previsão de linha de base](master-planning/manual-adjustments-baseline-forecast.md)
 ### [Autorizar uma previsão ajustada](master-planning/authorize-adjusted-forecast.md)
 ### [Monitorar precisão da previsão](master-planning/monitor-forecast-accuracy.md)

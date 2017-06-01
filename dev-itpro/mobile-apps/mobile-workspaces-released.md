@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 17a5dcf0f406380fbc4ff242932516894562fe5d
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 7d9b5870d8b1c64e3d444900253b06bbb76b6feb
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -30,7 +30,6 @@ ms.lasthandoff: 04/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 Este tópico lista os espaços de trabalho móveis que foram liberados recentemente pelo aplicativo móvel Microsoft Dynamics 365 for Operations.
@@ -51,9 +50,9 @@ Este tópico lista os espaços de trabalho móveis que foram liberados recenteme
 | Espaço de trabalho móvel     | descrição                                                                                                                                                                         | Saber mais                                                                                                                                                        |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Controle de custo     | Os gerentes do centro de custo podem ver o desempenho do centro de custo a qualquer momento e em qualquer lugar.                                                                                               | [Espaço de trabalho móvel de controle de custo](/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace)         |
-| Estoque disponível    | Obtenha informações móveis para estoque reservado e disponível a qualquer hora e em qualquer lugar.                                                                                                    | [Espaço de trabalho móvel de estoque disponível](/dynamics365/operations/scm/production-control/inventory-on-hand-mobile-workspace)       |
-| Ordens de Venda         | Fique atualizado sobre suas ordens de venda a qualquer momento e em qualquer lugar.                                                                                                                          | [Espaço de trabalho móvel das ordens de venda](/dynamics365/operations/scm/production-control/sales-orders-mobile-workspace)                 |
-| Colaboração do fornecedor | Seus fornecedores podem permanecer atualizados sobre os pedidos que foram enviados a eles para aprovação e exibir informações sobre ordens de compra e contatos novos e atualizados. | [Espaço de trabalho móvel de colaboração de fornecedor](/dynamics365/operations/scm/procurement/vendor-collaboration-mobile-workspace) |
+| Estoque disponível    | Obtenha informações móveis para estoque reservado e disponível a qualquer hora e em qualquer lugar.                                                                                                    | [Espaço de trabalho móvel de estoque disponível](/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace)       |
+| Ordens de Venda         | Fique atualizado sobre suas ordens de venda a qualquer momento e em qualquer lugar.                                                                                                                          | [Espaço de trabalho móvel das ordens de venda](/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace)                 |
+| Colaboração do fornecedor | Seus fornecedores podem permanecer atualizados sobre os pedidos que foram enviados a eles para aprovação e exibir informações sobre ordens de compra e contatos novos e atualizados. | [Espaço de trabalho móvel de colaboração de fornecedor](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace) |
 
 ## <a name="mobile-workspace-functionality-that-was-released-in-december-2016"></a>Funcionalidade do espaço de trabalho móvel que foi liberada em dezembro de 2016
 | Espaço de trabalho móvel        | descrição                                                                    | Saber mais                                                                                                            |
