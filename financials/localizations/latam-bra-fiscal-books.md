@@ -1,7 +1,7 @@
 ---
 title: Livros fiscais para o Brasil
 description: "Este tópico fornece informações sobre livros fiscais. Os livros fiscais trata-se de um dos três os projetos que compõem o SPED (Public Digital Bookkeeping System). Eles podem ajudá-lo consolidar livros fiscais e estatutários em arquivos eletrônicos para atender aos requisitos do SPED."
-author: ShylaThompson
+author: sndray
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -10,9 +10,9 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FBBookingPeriodCreate_BR, FBBookingPeriodListPage_BR, FBBookingPeriodLookup_BR, FBBookingPeriodWizard_BR
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 270004
-ms.assetid: 753ddcbf-2d3a-46d3-9d8d-4953285b46ee
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30

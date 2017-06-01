@@ -1,7 +1,7 @@
 ---
 title: "Diários gerados durante o processo de devolução de pagamento eletrônico do Brasil"
 description: "Esse tópico mostra como os diários de pagamentos são gerados quando você importa e lança o arquivo de retorno para pagamentos eletrônicos. As linhas de pagamento aprovadas no arquivo de retorno podem ser lançadas em um diário ou em vários diários."
-author: ShylaThompson
+author: sndray
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,9 +9,9 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 269174
-ms.assetid: 41afdcbd-d53f-4034-a664-1e859195b672
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30

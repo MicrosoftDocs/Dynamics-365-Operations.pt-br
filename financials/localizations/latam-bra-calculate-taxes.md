@@ -1,7 +1,7 @@
 ---
 title: Impostos brasileiros
 description: "O Microsoft Dynamics 365 for Operations calcula os impostos brasileiros com base no tipo de imposto especificado para o código do imposto. É possível configurar e calcular os impostos sobre vendas nas vendas, nas compras, nas transferências entre estabelecimentos fiscais, na entrega de itens a um terceiro, ou no recebimento de itens de um terceiro."
-author: ShylaThompson
+author: sndray
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,9 +9,9 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 268704
-ms.assetid: 00f3d59f-4c5b-4053-ac68-22063079bd91
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
