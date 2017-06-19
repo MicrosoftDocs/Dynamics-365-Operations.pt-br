@@ -13,12 +13,13 @@
 ## [Definir canais de varejo](define-maintain-retail-channels.md)
 ## [Visão geral de loja online](online-stores.md)
 ## [Configurar e instalar uma estação de hardware de varejo](retail-hardware-station-configuration-installation.md)
-## [Horário e presença de varejo](retail-time-attendance.md)
+## [Horário e presença do Retail](retail-time-attendance.md)
 # Modern Point of Sale (MPOS) e PDV em nuvem
 ## Hardware e periféricos
-### [Visão geral de periféricos do varejo](retail-peripherals-overview.md)
-### [Periféricos de hardware do PDV testados pela Microsoft](microsoft-tested-pos-hardware-peripherals.md)
-### [Definir e manter clientes de canal, registradoras e estações de hardware](define-maintain-channel-clients-registers-hw-stations.md)
+### [Visão geral de periféricos de varejo](retail-peripherals-overview.md)
+### [Simulador de periférico para varejo](retail-peripheral-simulator.md)
+### [Periféricos de hardware de PDV testados pela Microsoft](microsoft-tested-pos-hardware-peripherals.md)
+### [Definir e manter clientes de canal, terminais e estações de hardware](define-maintain-channel-clients-registers-hw-stations.md)
 ## Layout da tela
 ### [Configurar layouts de tela do PDV](pos-screen-layouts.md)
 ### [Instalar o designer de Layout de Retail POS](install-pos-layout-designer.md)
@@ -42,6 +43,7 @@
 ## Recibos
 ### [Configurar modelos de recibo](receipt-templates-printing.md) 
 ### [Enviar recibos por email do MPOS](email-receipts.md)
+## [Gravador de tarefas e Ajuda para PDV](task-recorder-retail-pos.md)
 # Monitoramento e análise
 ## [Monitorar desempenho de vendas e de margem](monitor-sales-margin-performance.md)
 ## [Analisar tendências e padrões de vendas](analyze-sales-trends-patterns.md)
@@ -53,13 +55,15 @@
 ## [Ajustes de preços e descontos](price-adjustments-discounts.md)
 ## [Determinar a combinação ideal de descontos sobrepostos](optimal-combination-overlapping-discounts.md)
 ## [Definir descontos específicos ao canal](define-channel-specific-discounts.md)
-# Produtos e mercadorias
+## [Criar cupons para vendas de varejo](retail-coupons.md)
+# Produtos e merchandising
 ## [Hierarquias de varejo](retail-hierarchies.md)
 ## [Criar e gerenciar atributos](create-manage-attributes.md)
 ## [Configurar produtos de varejo](set-up-retail-products.md)
-## [Configurar códigos de barra](set-up-bar-codes.md)
+## [Configurar códigos de barras](set-up-bar-codes.md)
 ## [Configurar máscaras de código de barras](set-up-bar-code-masks.md)
 ## [Configurar sortimentos](set-up-assortments.md)
+## [Venda e devolução de produtos fora de um sortimento](sell-return-outside-assortments.md)
 # Fidelidade
 ## [Configurar um programa de fidelidade de clientes](set-up-customer-loyalty-program.md)
 # Estoque
@@ -69,15 +73,15 @@
 ## [Organizações e hierarquias organizacionais (fundamentos do Commerce)](organizational-hierarchies-commerce-essentials.md)
 # [Conteúdo para profissionais de TI e desenvolvedores](dev-itpro/TOC.md)
 
-# [Finanças](/dynamics365/operations/financials/index)
+# [Finanças](/dynamics365/unified-operations/financials/index)
 
-# [Recursos humanos](/dynamics365/operations/human-resources/index)
+# [Recursos humanos](/dynamics365/unified-operations/talent/index)
 
-# [Gerenciamento da cadeia de fornecedores](/dynamics365/operations/supply-chain/index)
+# [Gerenciamento da cadeia de fornecimento](/dynamics365/unified-operations/supply-chain/index)
 
-# [Desenvolvedor e administrador](/dynamics365/operations/dev-itpro/index)
+# [Desenvolvedor e administrador](/dynamics365/unified-operations/dev-itpro/index)
 
 # Outros recursos
-## [Glossário do Dynamics 365 for Operations](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
-## [Novidades ou alterações](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+## [Glossário do Dynamics 365 for Retail](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/retail/toc.json)
+## [Novidades ou alterações](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
 

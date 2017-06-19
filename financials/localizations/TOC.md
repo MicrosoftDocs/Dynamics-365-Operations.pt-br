@@ -1,4 +1,4 @@
-# [Visão geral de localização](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/financials/toc.json)
+# [Visão geral de localização](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/toc.json)
 # Pacífico Asiático
 ## Austrália
 ### [Formatos de arquivo bancário](apac-aus-method-of-payment-pay-vendors-banks.md)
@@ -54,8 +54,9 @@
 ## [Lançar a pré-aquisição de um ativo fixo](emea-pre-acquisition-acquisition-fixed-asset.md)
 ## [Códigos postais](emea-import-create-postal-codes-manually.md)
 ## [IDs de registro](emea-registration-ids.md)
+## [IVA de encargos revertidos](emea-reverse-charge.md)
 ## [Visão geral de transferência de crédito SEPA](../accounts-payable/sepa-credit-transfer.md)
-## [Visão geral de débito Direto SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
+## [Visão geral de débito direto SEPA](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [Configurar signatários para formulários impressos](emea-set-up-signers-for-printing-forms.md)
 ## [Taxas de câmbio de IVA](emea-vat-exchange-rate.md)
 ## [Exibir transações sobre liquidação](emea-transactions-settlement-form.md)
@@ -98,7 +99,7 @@
 ### [Relatório de lista de diários](emea-deu-journal-list-report.md)
 ### [Imprimir um rótulo separado para memorandos de crédito originários de vendas](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## Hungria
-### [Métodos de depreciação de ativos fixos](emea-hun-fixed-assets-depreciation-methods.md)    
+### [Métodos de depreciação de ativos fixos](emea-hun-fixed-assets-depreciation-methods.md)   
 ### [Ativos fixos de baixo custo](emea-hun-low-cost-fixed-assets.md)
 ### [Mover um ativo fixo para estoque](emea-hun-fixed-asset-to-inventory.md)
 ## Itália
@@ -138,6 +139,7 @@
 ### [Reavaliação do grupo de ativos fixos](emea-esp-fixed-asset-group-revaluation.md)
 ### [IVA da UE](emea-esp-intra-community-vat.md)
 ### [Clientes ocasionais](emea-esp-no-one-time-customer-for-project-contracts.md)
+### [Imprimir cheques com layout espanhol](emea-esp-print-checks-with-spanish-layout.md)
 ### [Opções de nota promissória](emea-esp-promissory-note-options.md)
 ### [Ciclos de vendas e compras](emea-esp-sales-purchase-cycle.md)
 ### [Entradas especiais e folhas de abertura](emea-esp-opening-sheets-spain.md)
@@ -153,7 +155,9 @@
 ### [Livros fiscais](latam-bra-fiscal-books.md)
 #### [Notas fiscais de imposto ICMS](latam-bra-icms-tax-fiscal-documents.md)
 #### [Notas fiscais de importação](latam-bra-import-fiscal-documents.md)
+#### [Exportar e importar transações da entidade legal da consolidação contábil](latam-bra-general-ledger-consolidation-transactions.md)
 #### [Importar e verificar documentos XML de NF-e e arquivos DANFE](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+#### [Processar remessas de pagamento eletrônico](latam-bra-process-electronic-payment-remittances.md)
 #### [Notas fiscais](latam-bra-fiscal-documents-fiscal-document-framework.md)
 #### [Espaços reservados para texto da nota fiscal](latam-bra-fiscal-document-text-placeholders.md)
 #### [Notas fiscais complementares de compra](latam-bra-purchase-complementary-fiscal-documents.md)
@@ -163,6 +167,8 @@
 ### [Diários gerados durante o processo de devolução de pagamento eletrônico](latam-bra-examples-journals-generated-electronic-payment-return-process.md)
 ### [Processo de NF-e](latam-bra-nf-e-process.md)
 ### [Parâmetros para entidades legais](latam-bra-legal-entity-parameters.md)
+### [Adquirir um ativo fixo CIAP](latam-bra-ciap-fixed-asset.md)
+### [Alienar um ativo fixo CIAP](latam-bra-ciap-fixed-asset.md)
 ### [Impostos](latam-bra-calculate-taxes.md)
 #### [Atributos de impostos](latam-bra-tax-attributes.md)
 #### [Pagamentos de impostos](latam-bra-tax-payments.md)

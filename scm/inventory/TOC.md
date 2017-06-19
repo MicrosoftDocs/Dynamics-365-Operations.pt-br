@@ -21,4 +21,5 @@
 # Rastrear item e lote
 ## [Mesclar lote de estoque](merge-inventory-batches.md)
 ## [Rastrear item e matéria-prima](trace-items-raw-materials-inventory-production-sales.md)
+## [Registrar número de série no processo de vendas](../sales-marketing/register-serial-numbers-sales-process.md)
 

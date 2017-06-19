@@ -1,5 +1,5 @@
 # Power BI Content Pack
-## [Pacote de conteúdo de gerenciamento de custos](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Pacote de conteúdo de gerenciamento de custos](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 # Custo predeterminado
 ## [Folha de avaliação de custo](costing-sheets.md)
 ## [Versão de avaliação de custo](costing-versions.md)
