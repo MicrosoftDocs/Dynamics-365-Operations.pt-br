@@ -3,7 +3,7 @@ title: Agendamento do trabalho kanban para lean manufacturing
 description: "Este artigo fornece informações sobre o controle visual sobre a programação de trabalhos kanban e várias formas agendar trabalhos kanban."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

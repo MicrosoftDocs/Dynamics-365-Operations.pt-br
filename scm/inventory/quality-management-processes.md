@@ -3,7 +3,7 @@ title: Processos de gerenciamento de qualidade
 description: "Este artigo fornece informações sobre o processo de gerenciamento de qualidade para produtos que não estão em conformidade. E descreve como usar a funcionalidade de controle de qualidade, como definir e manter não conformidades, e como lidar com correções."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

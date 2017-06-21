@@ -3,7 +3,7 @@ title: "Integração de ativos fixos"
 description: "Ativos fixos podem ser integrados à Contabilidade, ao Gerenciamento de estoque, a Contas a receber e a Contas a pagar. Você também pode configurar os Ativos fixos para que sejam integrados às ordens de compra."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

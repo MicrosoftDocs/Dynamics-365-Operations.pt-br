@@ -3,7 +3,7 @@ title: "Registro de Horário e presença"
 description: "Os trabalhadores de registro de tempo podem inserir diferentes tipos de registros de tempo, por exemplo, registro de entrada e de saída em atividades indiretas e registro de ausência. Este artigo descreve os registros, o cálculo, a aprovação e o uso do fluxo de trabalho para adicionar a estrutura e a aprovação automatizada ao processo de aprovação de folhas de ponto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

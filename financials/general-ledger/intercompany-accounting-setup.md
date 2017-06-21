@@ -3,7 +3,7 @@ title: "Configuração de contabilidade intercompanhia"
 description: "Este tópico explica como configurar a contabilidade intercompanhia, de forma que você possa usar diários intercompanhia para alocações do razão e diários financeiros, como diários, diários de fatura de fornecedor e diários de pagamento."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

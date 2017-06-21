@@ -3,7 +3,7 @@ title: "Lançamento de produção"
 description: "Este artigo fornece informações sobre tipos diferentes de lançamento no processo de produção."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Parâmetros para entidades legais no Brasil"
 description: "Para coletar e enviar demonstrativos de imposto que relatem o desempenho, uma entidade legal brasileira requer informações fiscais específicas. Este tópico explica como definir os parâmetros para especificar estas informações."
 author: sndray
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

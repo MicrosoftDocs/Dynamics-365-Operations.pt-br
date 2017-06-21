@@ -3,7 +3,7 @@ title: "Opções avançadas de formatação no relatório financeiro"
 description: "Quando você cria um relatório no relatório financeiro, funções adicionais de formatação são disponibilizadas, incluindo filtros de dimensões, restrições de colunas e unidades de relatório, linhas não imprimíveis, e instruções IF/THEN/ELSE nos cálculos."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

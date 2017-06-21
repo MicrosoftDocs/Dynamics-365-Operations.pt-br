@@ -3,12 +3,13 @@ title: "Rastrear comissões em PDV usando grupos de vendas"
 description: "É uma prática comum de varejo rastrear as vendas associadas pelo associado que trabalhou com o cliente, fornecendo ajuda, venda direta, venda cruzada e processamento da transação."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations, Core
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa

@@ -3,7 +3,7 @@ title: "Efeitos de depreciação em reversões"
 description: "Este artigo discute implicações potenciais para reverter uma transação de ativo fixo."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

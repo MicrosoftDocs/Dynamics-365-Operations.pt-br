@@ -3,7 +3,7 @@ title: Calcular o consumo de materiais
 description: "Este artigo oferece informações sobre as diversas opções relacionadas ao cálculo do consumo de material."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

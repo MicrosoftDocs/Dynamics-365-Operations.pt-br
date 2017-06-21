@@ -3,7 +3,7 @@ title: "Perfis de lançamentos de fornecedores"
 description: "Os perfis de lançamentos que controlam o lançamento de transações de fornecedor na contabilidade."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

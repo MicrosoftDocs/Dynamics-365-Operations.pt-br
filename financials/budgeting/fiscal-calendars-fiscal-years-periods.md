@@ -3,7 +3,7 @@ title: "Calendários fiscais, anos fiscais e períodos"
 description: "Este artigo discute calendários fiscais, períodos fiscais e anos e como utilizá-los para a pessoa jurídica, ativos fixos e o orçamento."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

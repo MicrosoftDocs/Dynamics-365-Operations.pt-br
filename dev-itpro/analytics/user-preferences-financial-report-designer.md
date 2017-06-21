@@ -3,7 +3,7 @@ title: "Preferências do usuário no designer de relatório financeiro"
 description: "Este artigo explica como definir as preferências do usuário para personalizar as interações do usuário no designer de relatório financeiro e controlar a experiência de logon inicial. Você também pode controlar como relatórios individuais, biblioteca de relatórios e os locais de arquivo padrão são exibidos."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

@@ -3,7 +3,7 @@ title: Reservar quantidades do estoque
 description: "Este tópico descreve as diferentes opções disponíveis para reservar estoque."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

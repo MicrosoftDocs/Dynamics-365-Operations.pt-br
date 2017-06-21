@@ -3,7 +3,7 @@ title: Use o rastreamento para detalhamento
 description: "Este artigo explica como você pode usar o rastreamento para explorar as causas além do resultado de um detalhamento das ordens."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

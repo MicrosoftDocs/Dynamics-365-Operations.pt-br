@@ -3,7 +3,7 @@ title: "Valor de arredondamento para cálculos de depreciação"
 description: "Este artigo discute o campo Arredondar depreciação, encontrado nas páginas no registro de depreciações."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

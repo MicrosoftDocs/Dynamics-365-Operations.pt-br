@@ -3,7 +3,7 @@ title: Capacidades do recurso
 description: "Este artigo fornece informações sobre os recursos de recurso. Um recurso é a capacidade de um recurso de operações de executar uma atividade específica. O artigo explica como os recursos e os conceitos relacionados, como o nível de proficiência e a prioridade, são usados para selecionar recursos apropriados para uma atividade."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

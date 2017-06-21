@@ -3,7 +3,7 @@ title: "Regras de alocação do razão"
 description: "Este artigo oferece informações gerais sobre as regras de alocação do razão. Ele descreve os diversos componentes dessas regras de alocação e os métodos de alocação que podem ser usados para eles."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

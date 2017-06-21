@@ -3,7 +3,7 @@ title: "Configurar crédito e cobranças"
 description: "Este artigo explica como configurar a funcionalidade das coleções."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Depreciação da vida útil linear restante"
 description: "Este artigo oferece uma visão geral do método Vida útil linear restante."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

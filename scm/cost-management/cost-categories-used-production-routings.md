@@ -3,7 +3,7 @@ title: "Categorias de custo usadas em roteiros de produção"
 description: "Este artigo oferece informações sobre as categorias de custo que se aplicam aos ambientes de fabricação que usam o roteiro."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

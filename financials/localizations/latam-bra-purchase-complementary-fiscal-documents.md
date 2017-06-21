@@ -3,7 +3,7 @@ title: Notas fiscais de compra complementares do Brasil
 description: "Este tópico descreve o conceito de uma fatura complementar de compras da localização brasileira."
 author: sndray
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

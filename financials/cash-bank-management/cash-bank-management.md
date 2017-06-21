@@ -3,7 +3,7 @@ title: Home page de Gerenciamento de caixa e bancos
 description: "Você pode usar o Gerenciamento de caixa e bancos para manter as contas bancárias de entidade legal e os instrumentos financeiros associados a essas contas bancárias."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

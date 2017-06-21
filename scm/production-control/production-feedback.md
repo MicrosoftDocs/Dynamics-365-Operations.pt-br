@@ -3,7 +3,7 @@ title: "Comentários sobre a produção"
 description: "Este artigo oferece informações sobre os comentários de produção, que oferece comentários de trabalhadores sobre trabalhos de produção. O artigo inclui informações sobre as diversas maneiras como os comentários de produção podem ser atualizados."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Contas de lançamento de alienação de ativo fixo"
 description: "Este artigo explica como configurar contas de lançamento de contabilidade para descartar ativos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

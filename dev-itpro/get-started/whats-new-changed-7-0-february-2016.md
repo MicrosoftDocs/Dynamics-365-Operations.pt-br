@@ -3,7 +3,7 @@ title: "O que há de novo ou diferente no Dynamics AX 7.0 (fevereiro de 2016)"
 description: "Este artigo descreve os recursos novos ou alterados na versão 7.0 do Microsoft Dynamics. Esta versão contém recursos de plataforma e aplicativos e foi lançada em fevereiro de 2016."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

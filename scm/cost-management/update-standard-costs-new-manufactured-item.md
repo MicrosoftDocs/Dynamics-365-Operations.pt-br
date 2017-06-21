@@ -3,7 +3,7 @@ title: "Atualizar custos padrão para um novo item fabricado"
 description: "Este artigo oferece diretrizes para a atualização de custos padrão para um novo item fabricado."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

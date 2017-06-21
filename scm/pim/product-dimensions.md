@@ -3,7 +3,7 @@ title: "Dimensões do produto"
 description: "Existem quatro dimensões do produto - Cor, Configuração, Tamanho e Estilo. Você combina dimensões de produto em grupos de dimensões e atribui grupos de dimensões a produtos mestres. As combinações de dimensões de produto determinam como as variantes de produto serão definidas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

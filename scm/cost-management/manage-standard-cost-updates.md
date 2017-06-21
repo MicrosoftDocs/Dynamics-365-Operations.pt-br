@@ -3,7 +3,7 @@ title: "Gerenciamento de atualizações de custo padrão"
 description: "As atualizações de dados de custo padrão podem ser gerenciadas usando duas abordagens diferentes: a abordagem de uma versão e a abordagem de duas versões."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

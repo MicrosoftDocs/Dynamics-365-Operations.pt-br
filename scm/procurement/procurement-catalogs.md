@@ -3,7 +3,7 @@ title: "Catálogos de compras"
 description: "Este artigo descreve, em um alto nível, como os profissionais de compras podem configurar e manter os catálogos de aquisições. Os catálogos de compras definem os itens e os serviços que os funcionários da empresa podem solicitar para uso interno."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Item e rastreamento de matérias-primas em estoque, em produção e em v
 description: "Este tópico descreve como você pode usar o rastreamento de item para identificar onde os itens ou as matérias-primas foram usados, onde estão sendo usados ou onde serão usados em processos de produção e de vendas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

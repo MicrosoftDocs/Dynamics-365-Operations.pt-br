@@ -3,7 +3,7 @@ title: "Simular alterações de custo usando uma versão de custo para custos pl
 description: "Este artigo explica como você pode simular os efeitos de alterações de custo nos custos calculados de um item fabricado usando uma versão de custo separada para custos planejados."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

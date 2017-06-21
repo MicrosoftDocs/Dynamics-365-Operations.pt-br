@@ -3,7 +3,7 @@ title: "Liquidar um pagamento parcial de cliente com vários períodos de descon
 description: "Este artigo mostra como os pagamentos parciais de cliente são liquidados quando há vários períodos de desconto."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

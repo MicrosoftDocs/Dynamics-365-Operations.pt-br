@@ -3,7 +3,7 @@ title: Configurar uma atividade paralela em um fluxo de trabalho
 description: Para configurar uma atividade paralela, execute estes procedimentos no editor de fluxo de trabalho.
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

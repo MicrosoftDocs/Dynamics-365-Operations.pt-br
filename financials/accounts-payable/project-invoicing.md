@@ -3,7 +3,7 @@ title: Faturamento de projeto
 description: "Este artigo fornece uma visão geral do projeto que fatura por tempo e projetos de preço fixo material. Contém informações sobre propostas de nota fiscal (nota fiscal preliminar), controle de notas fiscais, faturamento por conta, faturamento de fornecedor e notas de crédito."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

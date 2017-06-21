@@ -3,7 +3,7 @@ title: Notas fiscais complementares de vendas para o Brasil
 description: "Este tópico descreve a fatura complementar de vendas da localização brasileira."
 author: sndray
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

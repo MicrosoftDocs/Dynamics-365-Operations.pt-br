@@ -3,7 +3,7 @@ title: "Atualizar custos padrão em um ambiente que não seja de manufatura"
 description: "Este artigo oferece diretrizes para a atualização de custos padrão em um ambiente que não seja de fabricação."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

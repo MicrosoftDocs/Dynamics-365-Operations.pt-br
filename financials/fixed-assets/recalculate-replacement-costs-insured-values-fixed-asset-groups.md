@@ -3,7 +3,7 @@ title: Recalcular os custos e valores segurados para grupos de ativos fixos
 description: "Este processo explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

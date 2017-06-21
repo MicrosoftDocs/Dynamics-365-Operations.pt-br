@@ -3,7 +3,7 @@ title: "Requisitos da configuração da produção"
 description: "Este artigo fornece informações sobre os requisitos de instalação antes que você possa trabalhar com controle de produção."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

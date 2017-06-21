@@ -3,7 +3,7 @@ title: "Unidade de medida e políticas de estoque"
 description: "Este artigo descreve como as unidades padrão, as sequências de unidade e as conversões de unidade são usadas em processos de depósito."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

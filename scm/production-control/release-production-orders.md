@@ -3,7 +3,7 @@ title: "Liberar ordens de produção"
 description: "Uma ordem de produção liberada é uma ordem que foi autorizada para produção. O termo Liberada é usado para descrever um estado no ciclo de vida da ordem de produção, no qual a ordem de produção está disponível para a execução do chão de fábrica de produção para os processos de depósito."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

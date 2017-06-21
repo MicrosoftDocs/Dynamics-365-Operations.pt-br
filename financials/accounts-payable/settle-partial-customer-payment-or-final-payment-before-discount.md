@@ -3,7 +3,7 @@ title: Liquidar um pagamento parcial de cliente e liquidar o pagamento final em 
 description: "Este artigo oferece os cenários que mostram como registrar pagamentos parciais para um cliente e executar descontos à vista no período de desconto à vista."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

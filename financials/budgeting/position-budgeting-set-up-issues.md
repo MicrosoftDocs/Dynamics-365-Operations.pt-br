@@ -3,7 +3,7 @@ title: "Solução de problemas para orçamento de posição"
 description: "Este artigo oferece respostas para as perguntas que você pode ter ao configurar o orçamento de posições. Aborda as perguntas mais frequentes sobre como criar elementos de custos de orçamento, grupos de remuneração, e grades de remuneração."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

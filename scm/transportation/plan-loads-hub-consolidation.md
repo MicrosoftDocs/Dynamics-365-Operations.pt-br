@@ -3,7 +3,7 @@ title: "Planejar cargas de consolidação de hub"
 description: "Este artigo descreve o recurso para consolidar remessas em um hub quando entregar mercadorias em depósitos diferentes para o mesmo cliente ou quando mercadorias são recebidas de vários fornecedores no mesmo depósito."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

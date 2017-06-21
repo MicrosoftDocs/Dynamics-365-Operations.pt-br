@@ -3,7 +3,7 @@ title: Grupos de custos
 description: "Os grupos de custos fornecem a base para a segmentação e análise de contribuições de custo no custo calculado de um item fabricado, como as contribuições de custo para materiais, trabalho e custos gerais indiretos. A segmentação de grupos de custo tem vários sinônimos dentro dos ambientes de fabricação, como divisão de custo, decomposição de custo ou classificação de custo."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

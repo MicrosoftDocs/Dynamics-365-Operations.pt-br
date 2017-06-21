@@ -3,7 +3,7 @@ title: Fechamento de estoque
 description: "Como parte do processo para liquidar transações de saída com transações de recebimento, você também optar por atualizar a contabilidade para refletir os ajustes feitos."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

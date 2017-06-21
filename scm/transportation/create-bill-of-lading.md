@@ -3,7 +3,7 @@ title: Criar um conhecimento de embarque
 description: "Este tópico descreve como criar um conhecimento de embarque ao usar processos de gerenciamento de depósito."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

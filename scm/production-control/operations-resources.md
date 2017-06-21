@@ -3,7 +3,7 @@ title: "Recursos de operações"
 description: "Os recursos de operações executam as atividades de um projeto ou um processo de produção. Podem ser de diferentes tipos e podem ter diferentes recursos."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

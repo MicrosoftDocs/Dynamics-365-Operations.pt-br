@@ -3,7 +3,7 @@ title: Management reporter - O designer e o cliente web
 description: 
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: 
 ms.prod: 
 ms.service: 

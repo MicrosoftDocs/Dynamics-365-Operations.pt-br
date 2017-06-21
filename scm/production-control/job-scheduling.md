@@ -3,7 +3,7 @@ title: Planejamento de trabalho
 description: "Este artigo fornece informações sobre o plano de trabalho, que é um formulário mais detalhado de programação do plano de operações. Você pode usar o agendamento de trabalho para agendar trabalhos individuais ou ordens de fábrica e para controlar o ambiente de manufatura."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

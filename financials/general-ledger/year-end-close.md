@@ -3,7 +3,7 @@ title: Fechamento anual
 description: "Este tópico descreve a configuração e as etapas necessárias para executar o processo de fechamento anual da contabilidade."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

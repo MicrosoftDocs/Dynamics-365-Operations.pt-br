@@ -3,7 +3,7 @@ title: "Depreciação extra"
 description: "Este artigo fornece uma visão geral da funcionalidade de depreciações bônus."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

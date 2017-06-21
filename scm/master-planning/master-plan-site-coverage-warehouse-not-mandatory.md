@@ -3,7 +3,7 @@ title: "Planejamento mestre para cobertura de site, depósito não obrigatório"
 description: "Este tópico descreve como um item com o conjunto de dimensões do local da cobertura é planejado."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Ordens de lote consolidadas
 description: Este artigo descreve o conceito das ordens de lotes consolidados.
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

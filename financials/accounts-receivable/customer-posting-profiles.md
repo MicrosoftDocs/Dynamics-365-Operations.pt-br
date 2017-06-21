@@ -3,7 +3,7 @@ title: "Perfis de lançamentos de cliente"
 description: "Perfis de postagem de cliente controlam o lançamento de transações de cliente na contabilidade."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Planejamento mestre e funcionalidade multissite
 description: "O planejamento mestre leva em consideração as configurações de dimensões de estoque de local e de depósito."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
