@@ -3,7 +3,7 @@ title: "Dimensões de objeto de custo"
 description: "Quando você a analisar custos, dimensões de usar elementos de custo estimado para determinar onde os custos a interno. Use dimensões de objeto de custo para determinar onde atribua custos. Este tópico fornece informações sobre dimensões de objeto de custo."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

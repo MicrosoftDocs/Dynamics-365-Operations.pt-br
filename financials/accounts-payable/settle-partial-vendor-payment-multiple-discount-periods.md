@@ -3,7 +3,7 @@ title: "Liquidar um pagamento parcial de fornecedor com vários períodos de des
 description: "Este artigo mostra um cenário em que vários pagamentos parciais são feitos para um fornecedor que oferece vários descontos à vista."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

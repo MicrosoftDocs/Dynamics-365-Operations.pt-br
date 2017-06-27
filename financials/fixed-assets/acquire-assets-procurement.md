@@ -3,7 +3,7 @@ title: Adquirir ativos por meio de compras
 description: "Este artigo descreve como configurar a integração entre Ativos fixos e Contas a pagar para criar automaticamente ativos fixos de ordens ou faturas de fornecedor ou lançar automaticamente transações de ajuste de aquisições para ativos fixos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

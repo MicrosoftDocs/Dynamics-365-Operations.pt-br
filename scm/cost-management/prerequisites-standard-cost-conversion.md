@@ -3,7 +3,7 @@ title: "Pré-requisitos para uma conversão em custo padrão"
 description: "Este tópico descreve as tarefas executadas antes da execução de uma conversão em custo padrão."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

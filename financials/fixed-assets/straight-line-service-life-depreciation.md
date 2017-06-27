@@ -3,7 +3,7 @@ title: "Depreciação de vida útil linear"
 description: "Este artigo oferece uma visão geral do Método de depreciação linear com base na vida útil."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

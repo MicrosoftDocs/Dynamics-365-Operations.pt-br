@@ -3,7 +3,7 @@ title: Criar pagamentos de fornecedor usando uma proposta de pagamento
 description: "Este tópico oferece uma visão geral das opções de proposta de pagamento e inclui alguns exemplos que mostram como as propostas de pagamento funcionam. Com frequência, as propostas de pagamento são usadas para criar pagamentos de fornecedor, já que a consulta de proposta de pagamento pode ser usada para selecionar rapidamente as faturas de fornecedor para pagamento com base em critérios como a data de vencimento e o desconto à vista."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

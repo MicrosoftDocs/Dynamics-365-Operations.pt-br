@@ -3,7 +3,7 @@ title: Liquidar um pagamento parcial de fornecedor e liquidar o pagamento final 
 description: "Este artigo mostra um cenário no qual os pagamentos parciais são feitos para uma nota fiscal de fornecedor, e um desconto à vista será obtido."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

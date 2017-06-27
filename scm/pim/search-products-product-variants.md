@@ -3,7 +3,7 @@ title: Procurar produtos e grades de produtos durante uma entrada de ordem
 description: "Use o campo <strong>Número de item</strong> para procurar produtos e grades de produtos ao criar manualmente uma linha de ordem de venda ou uma linha de ordem de compra.  Isso permite que você encontre rapidamente grades de produto quando você tem somente a cadeia de caracteres de configuração ou uma das dimensões de produto disponíveis."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

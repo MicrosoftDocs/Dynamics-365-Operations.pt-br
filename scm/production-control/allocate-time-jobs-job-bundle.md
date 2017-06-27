@@ -3,7 +3,7 @@ title: Alocar tempo para trabalhos em um pacote de trabalhos
 description: "Em Execução de fabricação, você pode agrupar trabalhos. Você poderá iniciar vários trabalhos ao mesmo tempo na página Lista de trabalhos."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

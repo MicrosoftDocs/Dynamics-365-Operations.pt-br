@@ -3,7 +3,7 @@ title: Folhas de custos
 description: "A configuração da folha de custos envolve dois objetivos. Como primeiro objetivo, você define o formato para exibir as informações de custo de bens vendidos sobre um item manufaturado ou ordem de produção. A exibição formatada é nomeada folha de custos. Como segundo objetivo, você define a base para calcular custos indiretos. A configuração de folha de custo cria no recurso de grupo de custo para exibir informações e para as fórmulas de cálculo de custo indireto. Os dois objetivos da configuração de folha de custos são descritos neste artigo."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

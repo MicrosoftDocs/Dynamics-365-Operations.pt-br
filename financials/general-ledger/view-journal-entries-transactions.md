@@ -3,7 +3,7 @@ title: "Visualizar entradas e transações de transações"
 description: "Este artigo explica as várias formas com as quais você pode exibir entradas de diário e transações."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

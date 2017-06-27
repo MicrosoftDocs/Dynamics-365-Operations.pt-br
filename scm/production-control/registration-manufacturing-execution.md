@@ -3,7 +3,7 @@ title: "Registro para execução de fabricação"
 description: "Este tópico descreve termos e conceitos importantes que você precisará compreender para configurar e usar a execução de fabricação."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

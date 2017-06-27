@@ -3,7 +3,7 @@ title: "Preço de custo médio"
 description: "O processo de fechamento de estoque liquida transações de saída para transações de recebimento com base no método de avaliação do estoque selecionado no grupo de modelos do item. Entretanto, antes que o fechamento de estoque seja executado, o sistema calcula um preço de custo médio que normalmente é usado quando as transações de saída são lançadas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

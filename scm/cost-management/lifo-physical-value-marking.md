@@ -3,7 +3,7 @@ title: "UEPS com marcação e valor físico"
 description: "Último a entrar, Primeiro a sair (UEPS) é um modelo de estoque no qual os últimos (mais recentes) recebimentos são emitidos primeiro. As saídas do estoque são liquidadas em relação aos últimos recebimentos do estoque com base na data da transação de estoque."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

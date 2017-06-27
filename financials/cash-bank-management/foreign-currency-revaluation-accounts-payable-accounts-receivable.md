@@ -3,7 +3,7 @@ title: "Reavaliação de moeda estrangeira para Contas a pagar e Contas a recebe
 description: "As flutuações nas taxas de câmbio fazem com que o valor teórico (valor contábil) de transações abertas em moedas estrangeiras varie ao longo do tempo. Este artigo oferece informações sobre o processo de reavaliação de moeda estrangeira executado para atualizar o valor de transação abertas em Contas a pagar e em Contas a receber."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

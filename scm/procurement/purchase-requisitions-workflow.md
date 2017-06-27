@@ -3,7 +3,7 @@ title: "fluxo de trabalho de requisição de compra"
 description: "O processo de fluxo de trabalho move requisições de compra pelo processo de revisão, de um status de Rascunho para um status final de Aprovado. Quando uma requisição de compra é enviada para revisão, o processo de fluxo de trabalho é iniciado. Após a aprovação de uma requisição de compra, uma ordem de compra pode ser gerada para as linhas de requisição de compra e enviadas ao fornecedor para o preenchimento da ordem."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

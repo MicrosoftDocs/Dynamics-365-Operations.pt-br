@@ -3,7 +3,7 @@ title: Contratos de fornecedor de pagamento quando pago
 description: "Este artigo explica os termos de pago-quando-pago (PWP) para contratos de fornecedor. Os termos de PWP permitem que você retenha total ou parcialmente pagamento a um fornecedor até que o cliente no projeto pague você. Este artigo também fornece um exemplo de vida real para mostrar como você pode usar condições de PWP para um projeto."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

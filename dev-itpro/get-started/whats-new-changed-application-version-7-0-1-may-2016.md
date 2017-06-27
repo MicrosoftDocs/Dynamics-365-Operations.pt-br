@@ -3,7 +3,7 @@ title: "O que há de novo ou diferente no Dynamics AX versão 7.0.1 (maio de 201
 description: "Este artigo descreve os recursos novos ou alterados na versão 7.0.1 do Microsoft Dynamics AX. Esta versão foi lançada em maio de 2016 e tem um número de compilação 7.0.1265.23014."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

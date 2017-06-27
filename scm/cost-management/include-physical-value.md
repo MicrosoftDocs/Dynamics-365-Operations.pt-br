@@ -3,7 +3,7 @@ title: "Incluir valor físico"
 description: "Você usa a caixa de seleção Incluir valor físico na Guia Rápida Modelo de estoque da página Grupos de modelos de item para especificar se as transações atualizadas fisicamente serão consideradas quando o preço de custo médio for calculado para um item."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

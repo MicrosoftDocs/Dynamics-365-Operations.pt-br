@@ -3,7 +3,7 @@ title: "Saldo da conta contábil"
 description: "Este artigo explica duas maneiras de exibir os saldos da conta contábil - a página de listagem do balancete e os relatórios financeiros. Também discute como atualizar os saldos do conjunto de dimensões."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

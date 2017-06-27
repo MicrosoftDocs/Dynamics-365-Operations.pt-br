@@ -3,7 +3,7 @@ title: "Insira a conta e as combinações de dimensões (controle segmentado de 
 description: "Este artigo descreve como inserir a conta e as combinações de dimensões ou contas contábeis. A experiência de entrada é também conhecida como o controle segmentado de entrada."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Funcionalidade de Designer de BOM
 description: "Este artigo descreve como você pode usar a página do designer de BOM para criar e trabalhar com estruturas de árvore para listas de materiais (BOMs). Você pode clicar em Configurar para selecionar diferentes configurações e especificar quais informações aparecem nas linhas da árvore."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

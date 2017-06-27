@@ -3,7 +3,7 @@ title: "Listas de materiais e fórmulas"
 description: "Este artigo fornece informações sobre listas de materiais (BOMs) e fórmulas, as quais são uma parte central da definição de produtos e grades de produtos. BOMs e fórmulas especificam os materiais ou ingredientes necessários para um produto específico. As fórmulas também especificam coprodutos e subprodutos recebidos em um contexto de produção específico."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

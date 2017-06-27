@@ -1,15 +1,16 @@
 ---
 title: Atributos de impostos do Brasil
 description: "Este tópico explica como configurar informações fiscais para endereços, entidades legais, clientes e fornecedores, e para os produtos que são liberados para uma entidade legal do Brasil. Essas informações são necessárias para o cálculo de imposto, e para as notas fiscais e outras instruções necessárias que você envia dos livros fiscais."
-author: ShylaThompson
+author: sndray
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustTable, EcoResProductDetails, LogisticsAddressSetup
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 269544
 ms.assetid: 92b0cf1b-51ec-4611-bf8e-db4cd10ffed0

@@ -3,7 +3,7 @@ title: "depreciação com declínio de 125%"
 description: "Este artigo fornece uma visão geral do método de saldo de reduzem de 125 de porcentagem de depreciação."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

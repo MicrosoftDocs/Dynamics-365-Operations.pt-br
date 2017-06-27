@@ -3,7 +3,7 @@ title: Estornar um pagamento do fornecedor
 description: "Este artigo descreve as diferenças entre estornar, excluir, anular e rejeitar um pagamento. Além disso, explica os dois métodos para estornar um cheque de fornecedor."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

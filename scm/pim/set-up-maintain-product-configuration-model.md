@@ -3,7 +3,7 @@ title: "Configurar um modelo de configuração do produto"
 description: "Este artigo descreve as etapas para configurar e criar um modelo de configuração do produto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

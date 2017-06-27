@@ -3,7 +3,7 @@ title: "Perguntas frequentes sobre transações relacionadas ao produto"
 description: "Este tópico descreve como gerenciar traduções para produtos, valores de dimensão de produto e atributos de produto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,12 +3,13 @@ title: "Visão geral do gerenciamento de desempenho"
 description: "O processo de gerenciamento de desempenho permite que os funcionários documentem e discutam seu desempenho com os gerentes. Por sua vez, os gerentes podem fornecer comentários e orientações aos funcionários."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
+ms.reviewer: rschloma
 ms.search.scope: Operations, Core
 ms.custom: 221024
 ms.assetid: d88e30ab-c6e9-4daf-b89d-f4386a299e22

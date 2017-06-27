@@ -3,7 +3,7 @@ title: "Configurar cobranças e crédito em contas a receber"
 description: "Configurar Contas a receber e Crédito e cobranças para rastrear faturas e pagamentos recebidos dos clientes."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

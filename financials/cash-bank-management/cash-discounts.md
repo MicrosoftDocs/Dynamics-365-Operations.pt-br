@@ -3,7 +3,7 @@ title: "Descontos à vista"
 description: "Os descontos à vista são configurados compartilhados para contas a pagar e contas a receber.  O desconto à vista disponível pode ser definido na nota fiscal do cliente ou na nota fiscal de fornecedor, e será usado se a nota fiscal for paga na data do desconto à vista."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

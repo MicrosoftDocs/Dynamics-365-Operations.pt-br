@@ -3,7 +3,7 @@ title: Pagamentos de cliente de uma quantidade parcial
 description: "Às vezes, os clientes fazem um pagamento inferior ao valor de uma fatura. Este artigo descreve as diversas opções para controlar essa situação. As opções disponíveis dependerão dos seus requisitos empresariais e da sua configuração."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

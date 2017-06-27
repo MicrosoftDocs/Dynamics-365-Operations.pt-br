@@ -3,7 +3,7 @@ title: "Depreciação de consumo"
 description: "Este artigo fornece uma visão geral do Método de consumo de depreciação."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

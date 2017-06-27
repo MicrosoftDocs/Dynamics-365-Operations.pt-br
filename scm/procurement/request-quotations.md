@@ -3,7 +3,7 @@ title: "Solicitação de cotação (RFQs)"
 description: "Este artigo oferece uma visão geral de RFQs, que as organizações emitem quando devem adquirir itens ou serviços, e desejam receber ofertas competitivas de vários fornecedores. Em uma RFQ, você solicita que os fornecedores forneçam preços e prazos de entrega das quantidades do item que você especificar. Você também pode solicitar que os fornecedores especifiquem caso haja encargos incidentais, como custos de remessa, ou quaisquer descontos para grandes pedidos ou pagamento antecipado da fatura do fornecedor."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

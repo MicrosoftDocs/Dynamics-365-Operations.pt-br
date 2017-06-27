@@ -3,7 +3,7 @@ title: "Visão geral da conversão em custo padrão"
 description: "Este artigo fornece uma visão geral do processo para ajudar você a configurar e a executar uma conversão de custo padrão. As etapas listadas devem ser concluídas depois que você tiver concluído os pré-requisitos de uma conversão de custo padrão."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

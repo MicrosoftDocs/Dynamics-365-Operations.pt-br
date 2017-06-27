@@ -1,7 +1,7 @@
 ---
 title: Notas fiscais referenciadas para o Brasil
 description: "Este tópico fornece uma visão geral de notas fiscais referenciadas usadas no Brasil."
-author: ShylaThompson
+author: sndray
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -10,9 +10,9 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FiscalDocument_BR, SalesEditLines, TmpFiscalReference_BR
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 270224
-ms.assetid: 4ffb4fd8-2eb0-430e-b601-013a31c0d188
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30

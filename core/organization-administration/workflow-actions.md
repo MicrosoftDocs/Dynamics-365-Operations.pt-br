@@ -3,7 +3,7 @@ title: "Ações de fluxo de trabalho"
 description: "Este artigo explica as ações que cada participante em um processo de aprovação de fluxo de trabalho pode executar."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

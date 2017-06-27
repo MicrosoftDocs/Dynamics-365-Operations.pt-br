@@ -3,7 +3,7 @@ title: "Configurando consignação"
 description: "Este tópico explica como configurar operações de estoque de entrada de consignação."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

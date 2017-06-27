@@ -3,7 +3,7 @@ title: "Análise de custo da ordem de produção"
 description: "Este artigo oferece informações sobre a análise de custo que você pode fazer para as ordens de produção concluídas e atuais. Você pode analisar os custos estimados e os custos reais usando a página Cálculo de preço ou o relatório Estimativas de custo e avaliações de custo. É possível visualizar as informações sobre os custos estimados e reais (incluindo a quantidade) para cada item de componente, operação de roteiro e custo indireto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

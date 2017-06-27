@@ -3,7 +3,7 @@ title: "Segurança de usuário do portal do fornecedor"
 description: "Este artigo explica como configurar a segurança para fornecedores externos que usam o Portal do fornecedor. Estas informações só se aplicam a versões de fevereiro de 2016 &amp; maio de 2016 do Dynamics AX."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

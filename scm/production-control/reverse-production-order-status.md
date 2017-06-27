@@ -3,7 +3,7 @@ title: "Reverter status de ordem de produção"
 description: "Este tópico descreve como reverter o status da ordem de produção."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

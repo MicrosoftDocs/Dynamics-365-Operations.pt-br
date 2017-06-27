@@ -3,7 +3,7 @@ title: Planejar seu plano de contas
 description: "Este artigo fornece informações as quais o ajudarão a planejar o gráfico para sua organização."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

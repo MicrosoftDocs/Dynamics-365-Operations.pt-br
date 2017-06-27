@@ -3,7 +3,7 @@ title: "Cartas de crédito e coleções de importações"
 description: "Este artigo fornece informações gerais sobre letras de crédito e de conjuntos de importação. Ambos tipos de documento bancário são frequentemente usados para compra e venda de mercadorias entre as fronteiras internacionais."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

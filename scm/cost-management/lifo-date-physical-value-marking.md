@@ -3,7 +3,7 @@ title: "Data UEPS com marcação e valor físico"
 description: "Data UEPS (último a entrar, primeiro a sair) é um modelo de estoque baseado no princípio UEPS. As saídas do estoque são liquidadas em relação aos últimos recebimentos do estoque com base na data da transação de estoque. Ao usar a Data UEPS, se não houver um recebimento antes da saída, a saída será liquidada com relação a qualquer recebimento que ocorra após a data da saída. Várias saídas na mesma data serão liquidadas na ordem última saída, último recebimento."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

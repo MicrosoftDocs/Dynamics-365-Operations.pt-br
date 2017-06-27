@@ -3,7 +3,7 @@ title: "Configurar uma decisão condicional em um fluxo de trabalho"
 description: "Use os procedimentos a seguir para configurar as propriedades da decisão condicional."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

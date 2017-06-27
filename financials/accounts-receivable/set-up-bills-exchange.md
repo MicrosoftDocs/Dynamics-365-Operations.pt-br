@@ -3,7 +3,7 @@ title: "Configurar letras de câmbio"
 description: "Este tópico descreve as etapas para configurar as letras de câmbio."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

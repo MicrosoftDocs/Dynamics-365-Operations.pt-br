@@ -3,7 +3,7 @@ title: "Definições da árvore de relatórios em relatórios financeiros"
 description: "Este artigo fornece informações sobre definições da árvore de relatório. Uma relatório definição de árvore é um componente de relatório ou bloco de construção, que ajuda a definir a estrutura e a hierarquia de sua organização."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

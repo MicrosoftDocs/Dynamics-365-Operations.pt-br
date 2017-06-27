@@ -3,7 +3,7 @@ title: "PEPS com marcação e valor físico"
 description: "Primeiro a entrar, Primeiro a sair (PEPS) é um modelo de estoque em que os primeiros recebimentos obtidos são emitidos primeiro. As saídas atualizadas financeiramente do estoque são liquidadas contra os primeiros recebimentos atualizados financeiramente no estoque, com base na data financeira da transação de estoque."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

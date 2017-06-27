@@ -3,7 +3,7 @@ title: "Gerenciamento de não conformidade"
 description: "Este artigo de instalação básico descreve o que é necessário para usar não conformidades. A configuração adicional é necessária se desejar usar ordens de qualidade."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

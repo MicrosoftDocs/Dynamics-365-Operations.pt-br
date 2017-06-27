@@ -3,7 +3,7 @@ title: "Opções de transações de ativo fixo"
 description: "Este artigo descreve os métodos diferentes disponíveis para criar transações de ativo fixo."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

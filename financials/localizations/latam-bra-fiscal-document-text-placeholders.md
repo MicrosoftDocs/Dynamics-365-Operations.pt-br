@@ -1,17 +1,17 @@
 ---
 title: "Espaços reservados em textos da nota fiscal do Brasil"
 description: "Os espaços reservados de texto de nota fiscal são marcas predefinidas que representam valores específicos. Você poderá incluir os espaços reservados no campo <strong>Texto </strong>da página <strong>Modelos de textos da nota fiscal </strong>quando você criar um modelo de textos da nota fiscal."
-author: ShylaThompson
+author: sndray
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 268684
-ms.assetid: b949485b-6f02-4f4b-9599-d35864c4b574
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30

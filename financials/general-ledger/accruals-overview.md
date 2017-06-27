@@ -3,7 +3,7 @@ title: "Visão geral das competências"
 description: "Este artigo descreve competências, e fornece informações sobre como configurá-las e criar transações."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

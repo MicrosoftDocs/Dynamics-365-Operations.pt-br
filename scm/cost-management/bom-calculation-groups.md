@@ -3,7 +3,7 @@ title: "Grupos de cálculos de BOM"
 description: "Este artigo fornece informações sobre grupos de cálculos para listas de materiais (BOMs) e como configurá-las. Para executar um cálculo de BOM, você deve configurar grupos de cálculo e atribuí-los a itens individuais ou definir um grupo de cálculo padrão. As configurações de cálculo a partir do grupo de cálculo são usadas como valores padrão na página Cálculo de BOM no momento do cálculo de BOM."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Visão geral da liquidação para pagamentos centralizados"
 description: "As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal que trate todos os pagamentos. Isso elimina a necessidade de inserir a mesma transação em várias entidades legais e poupa tempo ao simplificar o processo de proposta de pagamento, o processo de liquidação, a edição de transações abertas e a edição de transações fechadas para pagamentos centralizados."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

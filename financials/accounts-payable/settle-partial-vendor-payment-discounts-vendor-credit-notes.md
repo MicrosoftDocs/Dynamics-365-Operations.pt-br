@@ -3,7 +3,7 @@ title: "Liquidar um pagamento parcial de fornecedor com descontos em notas de cr
 description: "Este artigo aborda um cenário onde um memorando de crédito é liquidado com relação a uma nota fiscal."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Home page de Ativos fixos
 description: "Os ativos fixos são itens de valor, por exemplo, imóveis, veículos, terrenos e equipamentos, que são propriedade de uma pessoa ou organização."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

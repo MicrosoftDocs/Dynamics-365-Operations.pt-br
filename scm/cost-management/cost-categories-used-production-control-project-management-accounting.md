@@ -3,7 +3,7 @@ title: "Categorias de custo usadas no Controle de produção e na Contabilidade 
 description: "Alguns tipos de trabalho de produção podem ser aplicados a estimativas de tempo de projeto e a relatórios. Este artigo oferece informações sobre as categorias de custo que você deve definir para esses tipos de trabalho de produção para fins de produção e de relatório."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

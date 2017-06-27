@@ -3,7 +3,7 @@ title: Guias de tarefas novos ou atualizados (novembro de 2016)
 description: "Este tópico lista os Guias de tarefas novos ou atualizados que foram lançados na Biblioteca Unificada APQC (novembro de 2016 - todos idiomas) da Microsoft para Microsoft Dynamics 365 for Operations. Nenhuma nova biblioteca Introdução foi lançada."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

@@ -3,7 +3,7 @@ title: Configurar um fluxo de trabalho de item de linha
 description: "Este tópico explica como configurar um elemento do fluxo de trabalho de item de linha."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

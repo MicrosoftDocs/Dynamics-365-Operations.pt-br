@@ -1,18 +1,18 @@
 ---
 title: Notas fiscais e suas estruturas para o Brasil
 description: "Este tópico descreve as notas fiscais do Brasil."
-author: ShylaThompson
+author: sndray
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FiscalDocument_BR, FiscalDocumentAmounts_BR, FiscalDocumentChargesTotals_BR, FiscalDocumentElectronic_BR
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 269094
-ms.assetid: 83088bd2-81e3-4fa5-b7b0-d424045103d8
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30

@@ -1,15 +1,16 @@
 ---
 title: Notas fiscais complementares de vendas para o Brasil
 description: "Este tópico descreve a fatura complementar de vendas da localização brasileira."
-author: ShylaThompson
+author: sndray
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BrazilParameters, FBFiscalDocument_BR, SalesComplementaryInvoice, SalesComplementaryInvoiceCancel_BR, SalesComplementaryInvoiceListPage
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 269194
 ms.assetid: 0c52b508-1044-48c1-9dfc-a590bbda5696

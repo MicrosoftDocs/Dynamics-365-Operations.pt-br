@@ -3,7 +3,7 @@ title: Renunciar, restabelecer ou estornar taxas de juros
 description: "Este artigo explica como cancelar, reestabelecer, e reverter cobranças de juros e taxas."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
