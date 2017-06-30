@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustTable, EcoResProductDetails, LogisticsAddressSetup
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 269544
 ms.assetid: 92b0cf1b-51ec-4611-bf8e-db4cd10ffed0
 ms.search.region: Brazil
