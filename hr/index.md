@@ -1,12 +1,12 @@
 ---
-title: Recursos humanos
-description: "O módulo de Recursos humanos simplifica muitas tarefas de manutenção de registros e automatiza vários processos relacionados ao recrutamento de sua organização. Também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão. Essas áreas incluem recrutamento e retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações."
+title: Microsoft Dynamics 365 for Talent
+description: "O Talent simplifica muitas tarefas de manutenção de registros e automatiza vários processos relacionados ao recrutamento de sua organização. Esses processos incluem retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/19/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
@@ -16,23 +16,25 @@ ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 213d1dc69ac0f6dc10138e185625a142e107f073
+ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
+ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
 
-# <a name="welcome-to-human-resources"></a>Bem-vindo a recursos humanos
+# <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Bem-vindo ao Microsoft Dynamics 365 for Talent
 
 [!include[banner](includes/banner.md)]
 
-O módulo de Recursos humanos simplifica muitas tarefas de manutenção de registros e automatiza vários processos relacionados ao recrutamento de sua organização. Também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão. Essas áreas incluem recrutamento e retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações.
+O Microsoft Dynamics 365 for Talent simplifica muitas tarefas rotineiras de manutenção de registros e automatiza vários processos relacionados ao recrutamento na sua organização. Esses processos incluem retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações. Também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão.
 
-Você pode usar Recursos humanos para realizas estas tarefas:
+O Dynamics 365 for Talent está estreitamente relacionado a Recursos Humanos no Dynamics 365 for Finance and Operations, Enterprise Edition. A mesma funcionalidade pode aparecer nos dois produtos. Como resultado, em tópicos mais direcionados a Recursos humanos, o nome do produto será Dynamics 365 for Finance and Operations, Enterprise Edition; em tópicos relacionados principalmente ao Talent, o nome do produto será Dynamics 365 for Talent. Tópicos que são escritos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
+
+Você pode usar o Talent para realizas estas tarefas:
 
 > + Administrar estruturas da organização.
 > + Manter informações abrangentes sobre os trabalhadores da contratação à aposentadoria.
@@ -41,26 +43,20 @@ Você pode usar Recursos humanos para realizas estas tarefas:
 > + Implementar e acompanhar o gerenciamento de tempo baseado em perfil e gerar informações de pagamento para exportação para um sistema de folha de pagamentos.
 > + Gerenciar competências de trabalhador.
 > + Avaliar o desempenho e implementar metas do trabalhador.
-> + Configurar, entregar e analisar cursos de treinamento que incluem agendas, sessões e acompanhamentos.
-> + Recrutar trabalhadores e acompanhar candidatos.
+> + Configurar, oferecer e analisar cursos de treinamento que incluem agendas, sessões e acompanhamentos.
 
-<a name="develop-a-human-resources-strategy"></a>Desenvolver uma estratégia de recursos humanos
+<a name="develop-a-strategy-for-managing-your-human-resources"></a>Desenvolver uma estratégia para gerenciar seus recursos humanos
 ---------------------------------------------------------
 
-Ao trabalhar com Recursos humanos, você decide como estruturar sua organização usando elementos, como departamentos, trabalhos e posições. Esses estão entre os elementos fundamentais que você irá configurar em Recursos humanos. Funcionários individuais são atribuídos a posições associadas a trabalhos.
+Ao trabalhar com o Talent, você decide como estruturar sua organização usando elementos, como departamentos, trabalhos e posições. Esses estão entre os elementos fundamentais que você vai configurar. Funcionários individuais são atribuídos a posições associadas a trabalhos.
 
 -   [Organizar sua força de trabalho usando departamentos, trabalhos e posições](departments-jobs-positions.md)
--   [Configurar parâmetros de RH específicos à empresa](set-up-company-specific-hr-parameters.md)
+-   [Configurar parâmetros de RH específicos da empresa](set-up-company-specific-hr-parameters.md)
 -   [Configurar parâmetros de RH entre entidades legais](set-up-hr-parameters-across-legal-entities.md) 
 
-## <a name="recruit-hire-and-motivate-employees"></a>Recrutar, contratar e motivar funcionários
+## <a name="retain-and-motivate-employees"></a>Reter e motivar funcionários
 
-Os projetos de recrutamento gerenciam o conteúdo usado em anúncios para posições em aberto e podem ajudar você a gerenciar solicitações de emprego para vagas em aberto. Você pode usá-los para acompanhar respostas a ofertas de trabalho de um projeto de recrutamento específico ou de candidatos específicos e atualizar o status de posições em aberto. Você também pode contratar candidatos individuais ou gerenciar "projetos de contratação em massa" que facilitam a contratação de vários trabalhadores, por exemplo, para atender a necessidades sazonais dos negócios.
-
--   [Gerenciar um processo de recrutamento](manage-recruiting-process.md)
--   [Projetos de contratação em massa](mass-hire-projects.md) 
-
-Depois de contratar pessoal, você pode configurar planos para gerenciar a remuneração de maneira efetiva e imparcial, bem como gerenciar itens, como computadores ou telefones, que sua organização empresta a seus funcionários. Você pode criar planos de remuneração fixa e variável, bem como definir regras que se apliquem ao plano de remuneração para atender aos critérios desse plano.
+Você pode configurar planos para gerenciar a remuneração de maneira efetiva e imparcial, bem como gerenciar itens, como computadores ou telefones, que sua organização empresta a seus funcionários. Você pode criar planos de remuneração fixa e variável, bem como definir regras que se apliquem ao plano de remuneração para atender aos critérios desse plano.
 
 -   [Planos de remuneração](compensation-plans.md)
 -   [Criar planos de remuneração fixa](create-fixed-compensation-plans.md)
@@ -84,10 +80,10 @@ Além de remunerar sua equipe com salários e bônus, você pode desenvolver pro
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>Manter a segurança e a conformidade do local de trabalho
 
-O Microsoft Dynamics AX pode ajudar você a manter um ambiente de trabalho seguro em conformidade com a legislação aplicável, incluindo a Lei de Americanos Portadores de Deficiências e as leis de imigração e naturalização, entre outras. Por exemplo, você pode gerenciar os requisitos físicos de trabalhos específicos, bem como acompanhar solicitações para acomodações que podem ajudar sua organização a otimizar as habilidades de sua força de trabalho.
+O Talent pode ajudar você a manter um ambiente de trabalho seguro em conformidade com a legislação aplicável, incluindo a Lei de Americanos Portadores de Deficiências e as leis de imigração e naturalização, entre outras. Por exemplo, você pode gerenciar os requisitos físicos de trabalhos específicos, bem como acompanhar solicitações para acomodações que podem ajudar sua organização a otimizar as habilidades de sua força de trabalho.
 
--   [Verificação do formulário I-9 de emprego](localizations/noam-usa-form-i-9-verification.md)
--   [Seguir a Lei de Americanos Portadores de Deficiências](localizations/noam-usa-comply-ada.md)
+-   [Verificação do formulário I-9 de emprego](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
+-   [Seguir a Lei de Americanos Portadores de Deficiências](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-comply-ada)
 
 ## <a name="gather-information-using-questionnaires"></a>Coletar informações por meio de questionários
 
@@ -97,7 +93,4 @@ Você pode criar e administrar questionários para coletar informações usadas 
 -   [Criar um questionário](design-questionnaires.md)
 -   [Distribuir e preencher um questionário](distribute-questionnaires.md)
 -   [Exibir e avaliar os resultados de um questionário](evaluate-questionnaire-results.md)
-
-
-
 

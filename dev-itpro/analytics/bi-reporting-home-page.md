@@ -1,15 +1,15 @@
 ---
 title: "Home page de BI e relatórios"
-description: "Este tópico lista os recursos de BI e relatórios disponíveis no Microsoft Dynamics 365 for Operations."
+description: "Este tópico lista os recursos de BI e relatórios disponíveis no Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3e97fda52acf6b61bf47eb30d53ce6597b4929d3
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 448517531112636d553dc895b17c5644c9c1f0bc
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico lista os recursos de BI e relatórios disponíveis no Microsoft Dynamics 365 for Operations. 
+Este tópico lista os recursos de BI e relatórios disponíveis no Microsoft Dynamics 365 for Finance and Operations. 
 
 <a name="working-with-aggregate-data"></a>Trabalhando com dados agregados
 ---------------------------
@@ -43,14 +43,14 @@ Este tópico lista os recursos de BI e relatórios disponíveis no Microsoft Dyn
 ## <a name="self-service-reporting"></a>Relatório de autoatendimento
 -   [Integração do Power BI](power-bi-integration.md)
 -   [Configurar a integração do Power BI para espaços de trabalho](configure-power-bi-integration.md)
--   [Criar um relatório de Power BI usando dados do Microsoft Dynamics 365 for Operations](create-powerbi-report-data.md)
+-   [Criar um relatório de Power BI usando dados do Microsoft Dynamics 365 for Finance and Operations](create-powerbi-report-data.md)
 -   [Criar um painel e um relatório do Power BI](create-powerbi-report-dashboard.md)
 -   [Conteúdo de desempenho dos canais de venda do Power BI](retail-channel-performance-dashboard-power-bi-data.md)
 -   [Conteúdo de desempenho financeiro para Power BI](financial-performance-power-bi-content-pack.md)
 -   [Conteúdo de desempenho de lucratividade e vendas para Power BI](sales-profitability-performance-content-pack.md)
--   [Usar uma configuração de relatório eletrônico para fornecer Power BI com dados do Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Usar uma configuração de relatório eletrônico para fornecer Power BI com dados do Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>Criando experiências analíticas incorporadas no cliente do Dynamics 365 for Operations
+## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>Criando experiências analíticas incorporadas no cliente do Finance and Operations
 -   [Business Intelligence incorporado](analytics.md#embedded-business-intelligence)
 -   [Modelagem e personalização de KPI](analytics.md#kpi-modeling-and-customization)
 -   [Adicionando BI a espaços de trabalho](add-bi-workspaces.md)
@@ -58,7 +58,7 @@ Este tópico lista os recursos de BI e relatórios disponíveis no Microsoft Dyn
 
 ## <a name="document-reporting-and-printing"></a>Relatório e impressão de documento
 -   [Visão geral dos serviços de relatório de documento](document-reporting-services.md)
--   [Impressão em aplicativos do Dynamics 365 for Operations](print-documents.md)
+-   [Impressão em aplicativos do Finance and Operations](print-documents.md)
 -   [Instalar o Agente de Roteamento de Documentos para habilitar dispositivos de impressora de rede](install-document-routing-agent.md)
 -   [Executar o Agente de Roteamento de Documentos como um serviço do Windows](run-document-routing-agent-as-windows-service.md)
 -   [Criando soluções de relatórios de última geração](create-nextgen-reporting-solutions.md)
@@ -72,7 +72,7 @@ Este tópico lista os recursos de BI e relatórios disponíveis no Microsoft Dyn
 -   [Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md)
 -   [Destinos de Relatório eletrônico](electronic-reporting-destinations.md)
 -   [Baixar configurações de Relatório eletrônico do Lifecycle Services](download-electronic-reporting-configuration-lcs.md)
--   [Usar uma configuração de relatório eletrônico para fornecer Power BI com dados do Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [Usar uma configuração de relatório eletrônico para fornecer Power BI com dados do Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [ER Criar um provedor de configuração e marcá-lo como ativo](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/) (Guia de tarefas)
 -   [ER Projetar modelo de dados de domínio específico](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/) (Guia de tarefas)
 -   [ER Definir o mapeamento do modelo e selecionar fontes de dados](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/) (Guia de tarefas)
