@@ -40,7 +40,7 @@ Esta documentação pode ajudar você a aprender como fazer com que o Dynamics 3
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h3>Finanças</h3>
+<td><h3>Financials</h3>
 <p><a href="../financials/general-ledger/audit-policy-rules">Conformidade</a></p>
 <p>Gerenciamento financeiro</p>
 <ul style="list-style-type:none">
