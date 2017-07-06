@@ -31,6 +31,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[Retail name](../includes/retail-name.md)]
 
 Use o campo <strong>Número de item</strong> para procurar produtos e grades de produtos ao criar manualmente uma linha de ordem de venda ou uma linha de ordem de compra.  Isso permite que você encontre rapidamente grades de produto quando você tem somente a cadeia de caracteres de configuração ou uma das dimensões de produto disponíveis.
 
