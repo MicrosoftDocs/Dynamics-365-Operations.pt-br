@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -31,6 +31,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="weighted-average-date"></a>Data de média ponderada
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 A data de média ponderada é um modelo de estoque baseado no princípio de média ponderada. Para o princípio de média ponderada, as saídas do estoque são avaliadas pelo valor médio dos itens recebidos no estoque para cada dia no período de fechamento de estoque. Quando você executa um fechamento de estoque usando uma data de média ponderada, todos os recebimentos diários são liquidados em relação a uma saída virtual. Essa saída virtual contém a quantidade total recebida e o valor desse dia. A saída virtual possui um recebimento virtual correspondente do qual as saídas serão liquidadas. Portanto, todas as saídas recebem o mesmo custo médio. A saída e o recebimento virtuais podem ser considerados como uma transferência virtual, conhecida como *transferência de fechamento de estoque de média ponderada*. 
