@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 79003
 ms.assetid: adc3f245-dc9d-4327-88fb-6a579194a5fe
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="running-average-cost-price"></a>Preço de custo médio
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 O processo de fechamento de estoque liquida transações de saída para transações de recebimento com base no método de avaliação do estoque selecionado no grupo de modelos do item. Entretanto, antes que o fechamento de estoque seja executado, o sistema calcula um preço de custo médio que normalmente é usado quando as transações de saída são lançadas.

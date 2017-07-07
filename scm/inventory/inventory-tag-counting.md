@@ -10,7 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalCount, InventJournalCountTag
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 11594
 ms.assetid: 03772d0e-5c37-454c-ab85-82bc8b60a76d
 ms.search.region: Global
@@ -29,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="inventory-tag-counting"></a>Contagem de etiqueta de estoque
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Este artigo fornece informações sobre a contagem de etiquetas, que pode ser usado para comparar o conteúdo real de um depósito com o estoque disponível. 
