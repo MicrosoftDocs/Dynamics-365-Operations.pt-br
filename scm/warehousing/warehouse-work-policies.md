@@ -1,16 +1,16 @@
 ---
 title: "Políticas de trabalho de depósito"
-description: "Uma nova política de trabalho de depósito foi introduzida no Microsoft Dynamics AX 7.0.1 (atualização de maio de 2016). Esta política de trabalho controla se o trabalho de depósito é criado para os processos de depósito na fabricação."
+description: "As políticas de trabalho de depósito determinam se o trabalho de depósito é criado por processos de depósito na fabricação, com base em tipo de ordem de trabalho, local do estoque e produto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSWorkPolicy
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 196561
 ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6c9cdf361e4d4543e6aca962e9ec712428bc76e6
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 7612003bc20f91f173629893750478b034cff27b
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,12 +32,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Uma nova política de trabalho de depósito foi introduzida no Microsoft Dynamics AX 7.0.1 (atualização de maio de 2016). Esta política de trabalho controla se o trabalho de depósito é criado para os processos de depósito na fabricação.
+As políticas de trabalho de depósito in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition determinam se o trabalho de depósito é criado por processos de depósito na fabricação, com base em tipo de ordem de trabalho, local do estoque e produto.
 
 Esta política de trabalho controla se o trabalho de depósito é criado para os processos de depósito na fabricação. Você pode configurar a política de trabalho usando uma combinação de **tipos de ordem de trabalho**, **localização de estoque** e um **produto**. Por exemplo, o produto L0101 é reportado como terminado para o local de saída 001. O bem acabado é posteriormente consumido noutra ordem de produção no local de saída 001. Nesse caso, você pode configurar uma política de trabalho para impedir que o trabalho para produtos terminados colocados de lado seja criado quando você relata o produto L0101 como concluído para o local de saída 001. A política de trabalho é uma entidade individual que pode ser descrita pelas seguintes informações:
 
 -   **Nome da política de trabalho**(o identificador exclusivo da política de trabalho)
--   **Tipos de ordem de trabalho**e**Método de criação de trabalho**
+-   **Tipos de ordem de trabalho** e **Método de criação de trabalho**
 -   **Localizações de estoque**
 -   **Produtos**
 

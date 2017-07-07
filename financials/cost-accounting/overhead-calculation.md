@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c040a50d9962d7a900fbef285ea1f1baea124033
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -623,7 +623,7 @@ Para obter informações detalhadas sobre a política de taxa de custos indireto
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Etapa 4: Processar o cálculo de alocação de custo
 
-A alocação é usada para alocar o saldo de um objeto de custo a outros objetos de custo pela aplicação de uma base de alocação. O Microsoft Dynamics 365 for Operations suporta o método de alocação recíproco. No método de alocação recíproco, os serviços mútuos que os objetos de custo auxiliar trocam são totalmente reconhecidos. O sistema determina automaticamente a ordem correta realizar as alocações. O saldo de um objeto de custo é alocado por uma base de alocação única. As alocações entre as dimensões de objetos de custo e os respectivos membros são suportadas. A ordem de alocação é controlada pela unidade de controle de custo. [![Método recíproco](./media/reciprocal-method.png)]
+A alocação é usada para alocar o saldo de um objeto de custo a outros objetos de custo pela aplicação de uma base de alocação. O Finance and Operations oferece suporte ao método de alocação recíproco. No método de alocação recíproco, os serviços mútuos que os objetos de custo auxiliar trocam são totalmente reconhecidos. O sistema determina automaticamente a ordem correta realizar as alocações. O saldo de um objeto de custo é alocado por uma base de alocação única. As alocações entre as dimensões de objetos de custo e os respectivos membros são suportadas. A ordem de alocação é controlada pela unidade de controle de custo. [![Método recíproco](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>Defina a alocação de custo
 
@@ -724,7 +724,7 @@ O objeto de custo CC004 Embalagem contribui para vários objetos de custo. Um me
 </tbody>
 </table>
 
-**Observação:** No Dynamics 365 for Operations, as medições estatísticas, como as horas de produção que um produto consome podem ser derivadas dos dados de origem. Para obter informações mais detalhadas sobre provedores de medidas estatísticas, consulte o modelo do provedor de medida estatística. (Observe que este tópico não está concluído ainda, mas estará em breve.) A tabela a seguir mostra o resultado quando os serviços de RH são aplicados como uma base de alocação de custos total (custos fixos e custos variáveis.)
+**Observação:** No Finance and Operations, as medições estatísticas, como as horas de produção que um produto consome podem ser derivadas dos dados de origem. Para obter informações mais detalhadas sobre provedores de medidas estatísticas, consulte o modelo do provedor de medida estatística. (Observe que este tópico não está concluído ainda, mas estará em breve.) A tabela a seguir mostra o resultado quando os serviços de RH são aplicados como uma base de alocação de custos total (custos fixos e custos variáveis.)
 
 <table>
 <thead>

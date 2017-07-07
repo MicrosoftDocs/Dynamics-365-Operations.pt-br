@@ -1,16 +1,16 @@
 ---
 title: "Personalizar a experiência do usuário"
-description: "Este artigo explica como é possível personalizar o Microsoft Dynamics 365 for Operations."
+description: "Este artigo explica como é possível personalizar o Microsoft Dynamics 365 for Finance and Operations."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysUserSetup
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 689efef6ffa10bbee30cd734f3f09ba20957834d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b338a930777a5945eb6318dc8066fb3649c79dbe
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,31 +31,31 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo explica como é possível personalizar o Microsoft Dynamics 365 for Operations.
+Este artigo explica como é possível personalizar o Microsoft Dynamics 365 for Finance and Operations.
 
-Há vários tipos de personalizações no Microsoft Dynamics 365 for Operations. Algumas personalizações são as seleções feitas em uma lista de opções em uma página de configuração. Algumas personalizações são implícitas; por exemplo, o Microsoft Dynamics 365 for Operations controla as larguras das colunas de grade se você ajustá-las e o estado expandido/recolhido das Guias Rápidas. Outras personalizações são explícitas. Para personalizações explícitas, você entra em um modo de personalização interativo e modifica a aparência de uma página ao gerenciar diretamente a forma como esses elementos aparecerão ou atuarão na página. 
+Há vários tipos de personalizações no Microsoft Dynamics 365 for Finance and Operations. Algumas personalizações são as seleções feitas em uma lista de opções em uma página de configuração. Algumas personalizações são implícitas; por exemplo, o Finance and Operations controla as larguras das colunas de grade se você ajustá-las e o estado expandido/recolhido das Guias Rápidas. Outras personalizações são explícitas. Para personalizações explícitas, você entra em um modo de personalização interativo e modifica a aparência de uma página ao gerenciar diretamente a forma como esses elementos aparecerão ou atuarão na página. 
 
-Qualquer tipo de personalização feita por um usuário no Microsoft Dynamics 365 for Operations destina-se somente a esse usuário, independentemente da empresa com a qual o usuário interage. As alterações que um usuário faz em uma página não afetam outros usuários no sistema.
+Qualquer tipo de personalização feita por um usuário no Finance and Operations destina-se somente a esse usuário, independentemente da empresa com a qual o usuário interage. As alterações que um usuário faz em uma página não afetam outros usuários no sistema.
 
 ## <a name="systemwide-options-for-the-current-user"></a>Opções no nível do sistema para o usuário atual
 Na barra de navegação, você encontrará a imagem de uma engrenagem, que é o botão de menu **Configurações**. Ao abrir o menu **Configurações**, você verá uma série de opções. Selecionar **Opções** abrirá a página **Opções** do usuário. Você verá quatro guias de opções: **Visual**, **Preferências**, **Conta** e **Fluxo de trabalho**.
 
 -   **Visual:** use-a para escolher um tema de cor e o tamanho padrão dos elementos nas páginas.
--   **Preferências:** Aqui você pode escolher padrões cada vez que abrir o Microsoft Dynamics 365 for Operations, incluindo a empresa, a página inicial e o modo exibição/edição padrão (que determina se uma página será bloqueada para exibição ou aberta para edição cada vez que for aberta). Você também encontrará opções de idioma, fuso horário, data, hora e formato de número. Por fim, esta página contém preferências diversas que variarão de acordo com a versão.
--   **Conta:**fornece a ID do usuário e outras opções relacionadas à conta.
--   **Fluxo de trabalho:**aqui é possível escolher opções relacionadas ao fluxo de trabalho.
+-   **Preferências:** Aqui você pode escolher padrões cada vez que abrir o Finance and Operations, incluindo a empresa, a página inicial e o modo exibição/edição padrão (que determina se uma página será bloqueada para exibição ou aberta para edição cada vez que for aberta). Você também encontrará opções de idioma, fuso horário, data, hora e formato de número. Por fim, esta página contém preferências diversas que variarão de acordo com a versão.
+-   **Conta:** fornece a ID do usuário e outras opções relacionadas à conta.
+-   **Fluxo de trabalho:** aqui é possível escolher opções relacionadas ao fluxo de trabalho.
 
 ## <a name="implicit-personalizations"></a>Personalizações implícitas
 As personalizações implícitas são aquelas que você executa ao interagir com alguns controles que reconhecem seu estado de visibilidade atual. 
 
-**Colunas de grade:** você pode ajustar a largura de uma coluna em uma lista ao selecionar a barra de dimensionamento à esquerda ou à direita do cabeçalho da coluna e deslizá-la para esquerda ou direita até a largura desejada. O Microsoft Dynamics 365 for Operations armazenará a largura de sua preferência e exibirá essa coluna com essa largura todas as vezes que você abrir a página com essa lista. 
+**Colunas de grade:** você pode ajustar a largura de uma coluna em uma lista ao selecionar a barra de dimensionamento à esquerda ou à direita do cabeçalho da coluna e deslizá-la para esquerda ou direita até a largura desejada. O Finance and Operations armazenará a largura de sua preferência e exibirá essa coluna com essa largura todas as vezes que você abrir a página com essa lista. 
 
-**Guias Rápidas:** algumas páginas têm seções expansíveis chamadas Guias Rápidas. O Microsoft Dynamics 365 for Operations armazenará as Guias Rápidas que você expandiu e as Guias Rápidas que você recolheu. Cada vez que você retornar à página, as mesmas Guias Rápidas estarão expandidas ou recolhidas, com base na sua última utilização. Neste artigo, explicaremos como alterar a ordem das seções das Guias Rápidas. Em alguns casos, recolher uma Guia Rápida pode melhorar o desempenho, pois o Microsoft Dynamics 365 for Operations não precisará recuperar as informações dessa Guia Rápida até que ela seja expandida. 
+**Guias Rápidas:** algumas páginas têm seções expansíveis chamadas Guias Rápidas. O Finance and Operations armazenará as Guias Rápidas que você expandiu e as Guias Rápidas que você recolheu. Cada vez que você retornar à página, as mesmas Guias Rápidas estarão expandidas ou recolhidas, com base na sua última utilização. Neste artigo, explicaremos como alterar a ordem das seções das Guias Rápidas. Em alguns casos, recolher uma Guia Rápida pode melhorar o desempenho, pois o Finance and Operations não precisará recuperar as informações dessa Guia Rápida até que ela seja expandida. 
 
-**Quadro de Fatos:** algumas páginas têm uma seção Quadro de Fatos. Esse painel contém informações somente leitura relacionadas ao assunto atual da página. Cada seção no painel Quadro de Fatos é chamada de Quadro de Fatos. Você pode expandir ou recolher um Quadro de Fatos e o Microsoft Dynamics 365 for Operations armazenará sua preferência. Em alguns casos, recolher um Quadro de Fatos pode melhorar o desempenho, pois o Microsoft Dynamics 365 for Operations não precisará recuperar as informações desse Quadro de Fatos até que ele seja expandido.
+**Quadro de Fatos:** algumas páginas têm uma seção Quadro de Fatos. Esse painel contém informações somente leitura relacionadas ao assunto atual da página. Cada seção no painel Quadro de Fatos é chamada de Quadro de Fatos. Você pode expandir ou recolher um Quadro de Fatos e o Finance and Operations armazenará sua preferência. Em alguns casos, recolher um Quadro de Fatos pode melhorar o desempenho, pois o Finance and Operations não precisará recuperar as informações desse Quadro de Fatos até que ele seja expandido.
 
 ## <a name="explicit-personalizations-using-the-personalization-toolbar"></a>Personalizações explícitas usando a barra de ferramentas Personalização
-Cada pessoa e empresa têm uma perspectiva diferente de quais dados são mais importantes ou quais dados não são necessários para a maneira como eles conduzem seus negócios. A capacidade de personalizar a maneira como você organiza as informações, interage ou até mesmo oculta suas informações é a chave para tornar o Microsoft Dynamics 365 for Operations uma experiência pessoal e produtiva. 
+Cada pessoa e empresa têm uma perspectiva diferente de quais dados são mais importantes ou quais dados não são necessários para a maneira como eles conduzem seus negócios. A capacidade de personalizar a maneira como você organiza as informações, interage ou até mesmo oculta suas informações é a chave para tornar o Finance and Operations uma experiência pessoal e produtiva. 
 
 As personalizações explícitas são aquelas executadas explicitamente com a intenção de alterar a aparência ou comportamento de um elemento ou de uma página, escolhendo a partir de um menu de personalização. O tipo mais básico de personalização explícita é quando você clica co o botão direito em um elemento e seleciona **Personalizar**. (Observe que nem todos os elementos na página podem ser personalizados.) Quando você seleciona esse método de personalização, verá a janela de propriedades do elemento. 
 
@@ -67,11 +67,11 @@ Para mover ou ocultar elementos ou fazer várias alterações, use a barra de fe
 
 [![Barra de ferramentas de personalização](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
-A barra de ferramentas Personalização tem uma série de ações de personalização. Escolha a ferramenta **Selecionar** para selecionar e alterar as propriedades de vários elementos, um de cada vez. Primeiro, clique na ferramenta Selecionar e, depois, clique no elemento cujas propriedades você deseja modificar. Quando você selecionar um elemento, a janela de propriedades do elemento será aberta e você poderá modificar qualquer propriedade desse elemento. Você pode repetir o processo para outros elementos personalizáveis no formulário. Em alguns casos, você selecionará um elemento e perceberá que algumas propriedades não são modificáveis. Isso significa que, com base na forma como o elemento atual é usado, o Microsoft Dynamics 365 for Operations não permite alterar essa propriedade. Por exemplo, você não pode ocultar um campo obrigatório. 
+A barra de ferramentas Personalização tem uma série de ações de personalização. Escolha a ferramenta **Selecionar** para selecionar e alterar as propriedades de vários elementos, um de cada vez. Primeiro, clique na ferramenta Selecionar e, depois, clique no elemento cujas propriedades você deseja modificar. Ao selecionar um elemento, a janela de propriedades do elemento será aberta e você poderá modificar qualquer propriedade desse elemento. Você pode repetir o processo para outros elementos personalizáveis no formulário. Em alguns casos, você selecionará um elemento e perceberá que algumas propriedades não são modificáveis. Isso significa que, com base na forma como o elemento atual é usado, o Finance and Operations não permite alterar essa propriedade. Por exemplo, você não pode ocultar um campo obrigatório. 
 
-Escolha a ferramenta **Mover** quando quiser selecionar e mover um elemento para um local diferente no grupo atual de elementos. (Você não pode mover um elemento para fora de seu grupo pai). Primeiro, clique na ferramenta Mover e, em seguida, clique no elemento que deseja mover. Quando você clica no elemento a ser movido, o Microsoft Dynamics 365 for Operations verifica o formulário para saber para onde esse elemento pode ser movido e cria uma série de "zonas para soltar". Essas zonas são exibidas como uma linha colorida em negrito, ao lado da área em que o elemento pode ser solto, enquanto você arrasta o elemento para o grupo atual. 
+Escolha a ferramenta **Mover** quando quiser selecionar e mover um elemento para um local diferente no grupo atual de elementos. (Você não pode mover um elemento para fora de seu grupo pai). Primeiro, clique na ferramenta Mover e, em seguida, clique no elemento que deseja mover. Quando você clica no elemento a ser movido, o Finance and Operations verifica o formulário para saber para onde esse elemento pode ser movido e cria uma série de "zonas para soltar". Essas zonas são exibidas como uma linha colorida em negrito, ao lado da área em que o elemento pode ser solto, enquanto você arrasta o elemento para o grupo atual. 
 
-Escolha a ferramenta **Ocultar** para selecionar e ocultar um elemento. Para ocultar um elemento, basta escolher a ferramenta Ocultar e clicar no elemento que você deseja ocultar. Quando você escolher a ferramenta Ocultar, todos os elementos ocultos atuais ficarão visíveis e serão exibidos em um contêiner sombreado, para que você possa escolher o elemento que será reexibido. Escolha a ferramenta Selecionar para ver a aparência da página com os elementos ocultos selecionados. Escolha a ferramenta **Resumo** quando quiser que um campo numérico ou de cadeia de caracteres seja exibido na área de resumo da Guia Rápida. A ferramenta Resumo se aplicará somente a campos que estejam contidos em uma seção de Guia Rápida. Quando você escolhe a ferramenta Resumo, o Microsoft Dynamics 365 for Operations exibe todos os campos que foram selecionados como campos de resumo, colocando-os em um contêiner sombreado. Você pode adicionar e remover interativamente campos de um resumo da Guia Rápida clicando no campo. 
+Escolha a ferramenta **Ocultar** para selecionar e ocultar um elemento. Para ocultar um elemento, basta escolher a ferramenta Ocultar e clicar no elemento que você deseja ocultar. Quando você escolher a ferramenta Ocultar, todos os elementos ocultos atuais ficarão visíveis e serão exibidos em um contêiner sombreado, para que você possa escolher o elemento que será reexibido. Escolha a ferramenta Selecionar para ver a aparência da página com os elementos ocultos selecionados. Escolha a ferramenta **Resumo** quando quiser que um campo numérico ou de cadeia de caracteres seja exibido na área de resumo da Guia Rápida. A ferramenta Resumo se aplicará somente a campos que estejam contidos em uma seção de Guia Rápida. Quando você escolhe a ferramenta Resumo, o Finance and Operations exibe todos os campos que foram selecionados como campos de resumo, colocando-os em um contêiner sombreado. Você pode adicionar e remover interativamente campos de um resumo da Guia Rápida clicando no campo. 
 
 Escolha a ferramenta **Ignorar** para remover um elemento da sequência de guias de teclado da página. Quando você escolher a ferramenta Ignorar, todos os elementos atualmente ignorados serão exibidos em um contêiner sombreado, para que você possa escolhê-los novamente e torná-los parte da sequência de guias. 
 
@@ -98,22 +98,23 @@ Para adicionar uma lista a um espaço de trabalho, primeiro classifique ou filtr
 
 Para adicionar um bloco a um espaço de trabalho, primeiro filtre a lista para representar os dados que você deseja resumir (ou deseja acessar rapidamente). Em seguida, abra a caixa de diálogo suspensa Adicionar ao Espaço de Trabalho. Depois, selecione o espaço de trabalho desejado e selecione **Bloco** na lista suspensa Apresentação. Quando você selecionar **Bloco**, uma caixa de diálogo será aberta, permitindo que você forneça um rótulo de bloco e decida se o bloco exibirá uma contagem. Quando inserido em um espaço de trabalho, o bloco permitirá que você abra a página atual do espaço de trabalho e exiba a lista de informações relacionadas ao bloco. 
 
-Quando a lista ou o bloco é adicionado a um espaço de trabalho, você poderá abrir esse espaço de trabalho e reordenar a lista ou o bloco no grupo em que ele foi inserido.
+Quando a lista ou o bloco é adicionado a um espaço de trabalho, você pode abrir esse espaço de trabalho e reordenar a lista ou o bloco no grupo em que ele foi inserido.
 
 ## <a name="explicit-personalization-adding-a-summary-from-a-workspace-to-a-dashboard"></a>Personalização explícita: Adicionando um resumo de um espaço de trabalho a um painel
 Alguns espaços de trabalho contém os blocos de contagem (blocos com números neles) que você também gostaria de ver no painel. Em um espaço de trabalho, clique com o botão direito em um bloco de contagem e selecione **Personalizar**. Selecione **Fixar no Painel**. Na próxima vez que você navegar para (e atualizar) o painel selecionado, verá essa contagem abaixo do bloco de navegação do espaço de trabalho no painel.
 
 ## <a name="explicit-personalization-personalizing-your-dashboard"></a>Personalização explícita: Personalizando o painel
-Geralmente, o painel é a primeira página que você vê quando abre o Microsoft Dynamics 365 for Operations. Você pode personalizar o painel para renomear os blocos de navegação do espaço de trabalho, exibir somente os blocos desejados, renomear os blocos ou organizar os blocos na ordem em que você preferir consultá-los. Para personalizar o painel, selecione qualquer bloco e clique com o botão direito do mouse para abrir um menu de contexto. No menu de contexto, selecione **Personalizar**. Se o bloco selecionado for o que você deseja ocultar, renomear ou ignorar, faça essa alteração diretamente na janela Propriedade exibida. Para organizar os blocos, selecione **Personalizar este formulário** na janela Propriedade para abrir a barra de ferramentas Personalização. Você pode usar a ferramenta Mover para organizar os blocos.
+Geralmente, o painel é a primeira página que você vê quando abre o Finance and Operations. Você pode personalizar o painel para renomear os blocos de navegação do espaço de trabalho, exibir somente os blocos desejados, renomear os blocos ou organizar os blocos na ordem em que você preferir consultá-los. Para personalizar o painel, selecione qualquer bloco e clique com o botão direito do mouse para abrir um menu de contexto. No menu de contexto, selecione **Personalizar**. Se o bloco selecionado for o que você deseja ocultar, renomear ou ignorar, faça essa alteração diretamente na janela Propriedade exibida. Para organizar os blocos, selecione **Personalizar este formulário** na janela Propriedade para abrir a barra de ferramentas Personalização. Você pode usar a ferramenta Mover para organizar os blocos.
 
 ## <a name="administration-of-personalization"></a>Administração de personalização
-É possível personalizar uma página e compartilhá-la com outros usuários; para isso, basta exportar a página personalizada e solicitar a outros usuários que naveguem até a página personalizada e importem o arquivo de personalização que você criou. Se um usuário tiver privilégios de administrador, ele também poderá gerenciar personalizações para outros usuários na página **Configuração da Personalização**. Navegue até a página b. Na página **Personalização**, você encontrará duas guias: **Sistema** e **Usuários**. 
+Após personalizar uma página, você pode compartilhar as personalizações com outros usuários. Exportar somente a página personalizada. Você pode solicitar que os outros usuários naveguem até a página personalizada e importem o arquivo de personalização criado.
 
-**Sistema:** aqui é possível desabilitar ou "desativar" temporariamente todas as personalizações do sistema. Isso não exclui as personalizações, apenas redefine todos os formulários para seu estado padrão. Mais tarde, você poderá habilitar novamente a personalização para que todas as personalizações sejam reaplicadas aos formulários de cada usuário. Também é possível excluir todas as personalizações de todos os usuários. Observe que, quando você exclui as personalizações, não há como reabilitar automaticamente as personalizações do sistema. Antes de executar essa etapa, verifique se você exportou as personalizações que talvez deseje importar posteriormente. 
+Os usuários com privilégios de administrador também podem gerenciar personalizações para outros usuários na página **Personalização**. Esta página possui quatro guias: **Sistema**, **Usuários**, **Importar**, e **Limpar**.
 
-**Usuários:** aqui você pode decidir para cada usuário se eles podem realizar uma personalização implícita ou explícita. Você também pode decidir se cada usuário pode realizar a personalização implícita ou explícita em um formulário específico. Por fim, você pode importar, exportar ou excluir uma personalização de cada usuário. 
-
-**Observação:** em seu lançamento inicial, a administração de personalização permite apenas o gerenciamento por usuário.
+- **Sistema:** – É possível desabilitar ou desativar temporariamente todas as personalizações do sistema. Nesse caso, você não exclui personalizações. Em vez disso, você redefine todas as páginas ao estado padrão. Se, mais tarde, você habilitar novamente a personalização, todas as personalizações serão reaplicadas às páginas de cada usuário. Também é possível excluir todas as personalizações de todos os usuários. Observe que, quando você exclui as personalizações, não há como reabilitar automaticamente as personalizações do sistema. Portanto, antes de executar essa etapa, certifique-se de que você exportou todas as personalizações que talvez deseje importar posteriormente.
+- **Usuários** – Você pode especificar se cada usuário poderá fazer a personalização implícita ou explícita. Você também pode especificar se cada usuário poderá fazer a personalização implícita ou explícita em uma página específica. Finalmente, você pode importar, exportar ou excluir uma personalização de cada usuário.
+- **Importar** – Você pode importar uma personalização de um ou mais usuários. Você usa esta guia após criar uma personalização em uma página ou um espaço de trabalho e, em seguida, exportar essa personalização como arquivo de personalização. Para importar o seu arquivo de personalização e aplicá-lo a um ou mais usuários, selecione usuários individuais na lista de todos os usuários, ou filtre por uma função específica e selecione os usuários nessa função. Após selecionar os usuários que usarão a sua personalização, clique em **Importar** e selecione o seu arquivo de personalização. A personalização será validada e aplicada a todos os usuários selecionados na próxima vez que eles abrirem a página selecionada.
+- **Limpar** – Você pode limpar as personalizações da página ou do espaço de trabalho para um ou mais usuários. Primeiro, selecione a página ou o espaço de trabalho de que deseja limpar as personalizações. Em seguida, selecione usuários individuais na lista de todos os usuários, ou filtre por uma função específica e selecione os usuários nessa função. Após selecionar uma página ou um espaço de trabalho e os usuários, clique em **Limpar**. Todas as personalizações que os usuários selecionados aplicaram para a página ou o espaço de trabalho selecionado serão apagadas. Essa ação não pode ser desfeita. Entretanto, se a página ou o espaço de trabalho tem uma personalização salva, essa personalização pode ser reimportada.
 
 
 

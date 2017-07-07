@@ -1,15 +1,15 @@
 ---
-title: "Conteúdo de Power BI de desempenho de lucratividade e vendas"
-description: "Este tópico descreve o que está incluso no Dynamics 365 para Operações - Pacote de conteúdo de desempenho de lucratividade e vendas para o Microsoft Power BI. Ele explica como acessar os relatórios incluídos no pacote de conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
+title: "Conteúdo de desempenho de lucratividade e vendas para Power BI"
+description: "Este tópico descreve o que está incluído no conteúdo do Power BI Desempenho de vendas e lucratividade. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
-audience: Application User
-ms.search.scope: Operations, Core
+audience: Application User, IT Pro
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 260674
 ms.assetid: ab457f02-929e-4d34-b813-335be3092287
 ms.search.region: Global
@@ -17,45 +17,45 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 357f7071d801b13518c83170f8d0e7946dd9dede
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 16fef86e330a392ddd888fcb46060c3e1efa87c5
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="sales-and-profitability-performance-power-bi-content"></a>Conteúdo de Power BI de desempenho de lucratividade e vendas
+# <a name="sales-and-profitability-performance-power-bi-content"></a>Conteúdo de desempenho de lucratividade e vendas para Power BI
 
 [!include[banner](../includes/banner.md)]
 
+Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI **Desempenho de vendas e lucratividade**. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
 
-Este tópico descreve o que está incluso no Dynamics 365 para Operações - Pacote de conteúdo de desempenho de lucratividade e vendas para o Microsoft Power BI. Ele explica como acessar os relatórios incluídos no pacote de conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
+## <a name="overview"></a>Visão Geral
 
-<a name="overview"></a>Visão Geral
---------
+O conteúdo do Power BI **Desempenho de vendas e lucratividade** foi criado para que os gerentes de vendas possam monitorar as principais métricas de vendas de receita, lucro bruto e margens de lucro. Ele usa dados transacionais de vendas e fornece uma visão agregada dos números de vendas da empresa e uma quebra do desempenho de vendas para clientes e produtos.
 
-Este pacote de conteúdo foi criado para os gerentes de vendas monitorarem as principais métricas de venda de receita, lucro bruto, e margens de lucro. Ele usa os dados transacionais de vendas do Dynamics 365 para Operações e fornece uma visão agregada das imagens de vendas de toda a empresa e um detalhamento do desempenho das vendas para clientes e produtos. Ao realçar as alterações no crescimento da receita e do lucro no decorrer do tempo, os relatórios podem ser usados para alertar os gerentes sobre tendências positivas e negativas para clientes e produtos individuais. Os gerentes regionais e de categoria acharão útil ter gráficos que comparam a receita e a lucratividade de diferentes categorias de produtos e grupos de clientes entre si para destacar os retardatários e líderes. Um relatório abrangente que destaca a receita individual do cliente em relação à margem de lucro oferece aos gerentes de conta uma fundação baseada em dados para afinar seus esforços de marketing e vendas com cada perfil respectivo do cliente. O pacote de conteúdo de desempenho de lucratividade e vendas permite que os gerentes de vendas analisam o desempenho das vendas por:
+Os relatórios destacam as mudanças na receita e no crescimento dos lucros ao longo do tempo. Portanto, os relatórios podem ser usados para alertar os gerentes sobre tendências positivas e negativas para clientes e produtos individuais. Além disso, os gráficos comparam a receita e a rentabilidade de diferentes categorias de produtos e grupos de clientes entre si. Portanto, a categoria e os gerentes regionais podem identificar retardatários e líderes. Finalmente, um relatório abrangente representa a receita de um cliente individual versus margem de lucro. Portanto, os gerentes de contas possuem uma base de dados que podem usar para afinar seus esforços de vendas e marketing para o perfil de cada cliente. 
+
+O conteúdo **Desempenho de lucratividade e vendas** permite aos gerentes de vendas analisar o desempenho das vendas das seguintes maneiras:
 
 -   Receita, anual (por grupo de clientes e clientes individuais, por categorias de venda, por produtos individuais e por geografias)
 -   Alteração de receita, ano a ano (por regiões de cliente e categorias de venda)
 
-A lucratividade pode ser analisada por:
+A lucratividade pode ser analisado das seguintes formas:
 
 -   Lucro bruto e margem de lucro (por grupos de clientes e categorias de venda de produtos)
 -   Alteração de lucro bruto, ano após ano
 -   Lucratividade de cliente (por receita versus margem bruta)
 
-## <a name="accessing-the-content-pack"></a>Acessando o pacote de conteúdo
-O pacote de conteúdo do Power BI para desempenho de lucratividade e vendas é publicado como um ativo de implementação no Lifecycle Services (LCS) e pode ser acessado pelo Dynamics 365 para Operações. Para obter mais informações sobre como acessar e iniciar os relatórios do Power BI, consulte [conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md).
-**Observação:** KB 4011327 é um pré-requisito para o conteúdo do Power BI. Após entrar no Lifecycle Services, você pode acessar a Base de Dados de Conhecimento: <a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>.
+## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
+Se você estiver usando o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition de julho de 2017, o conteúdo do Power BI **Desempenho de lucratividade e vendas** é mostrado na página **Desempenho de lucratividade e vendas** (**Vendas e marketing** > **Consultas e relatórios** > **Análise do desempenho de vendas** > **Desempenho de lucratividade e vendas**). 
 
-## <a name="metrics-included-in-the-content-pack"></a>Medidor incluído no pacote de conteúdo
-O pacote de conteúdo inclui um relatório que consiste de um conjunto de métricas visualizadas como gráficos, blocos e tabelas. A tabela a seguir fornece uma visão geral das visualizações no pacote de conteúdo.
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
+O conteúdo do Power BI **Desempenho de lucratividade e vendas** inclui um relatório que consiste em um conjunto de métricas. Estas métricas são visualizadas como gráficos, blocos e tabelas. A tabela a seguir fornece uma visão geral das visualizações no conteúdo.
 
-|                        |                                            |                                                         |
+| Página de relatório            | Gráficos                                     | Blocos                                                   |
 |------------------------|--------------------------------------------|---------------------------------------------------------|
-| **Página de relatório**        | **Gráficos**                                 | **Blocos**                                               |
 | Receita por cliente    | 10 melhores clientes por receita                | Receita total                                           |
 |                        | Receita total por grupo de clientes            | Crescimento de receita de YOY                                      |
 |                        | Receita média do cliente por grupo de clientes | Margem bruta                                            |
@@ -76,47 +76,46 @@ O pacote de conteúdo inclui um relatório que consiste de um conjunto de métri
 
 \* Receita este ano e último ano, e crescimento por categoria de vendas.
 
+## <a name="extending-the-power-bi-content"></a>Aumentando o conteúdo do Power BI
+Usando os pacotes de conteúdo disponíveis no Microsoft Dynamics Lifecycle Services (LCS), você pode fornecer grande análise às pessoas que não acessam o Microsoft Dynamics 365. Você pode modificar esses pacotes de conteúdo para que eles incluam outros relatórios ou imagens e, em seguida, publique os pacotes de conteúdo no locatário do Power BI.com para análise.
+
+Você pode encontrar o conteúdo do Power BI **Desempenho de lucratividade e vendas** na biblioteca de ativos compartilhados no LCS. Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md). Para ver uma demonstração que mostra como implementar o conteúdo do Power BI, veja o Office Mix [Conteúdo do Power BI da Microsoft e seus parceiros no Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).
+
+Certifique-se de baixar o conteúdo **Desempenho de lucratividade e vendas** que se aplica à versão do Dynamics 365 que você está usando.
+
+> [!NOTE]
+> Se você estiver usando o Microsoft Dynamics 365 for Operations versão 1611, o KB 4011327 é um pré-requisito para este conteúdo de Power BI. Depois de iniciar sessão no LCS, você pode acessar o KB em https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
+
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
-Os dados do Dynamics 365 para Operações são usados para preencher o relatório no pacote de conteúdo de desempenho de lucratividade e vendas. Isso é representado como medições agregadas que são preparadas na loja Entidade, que é um banco de dados Microsoft SQL otimizado para análise. Leia mais sobre isso no blog [integração do Power BI com a loja Entidade no Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). As medidas agregadas neste pacote de conteúdo são o subconjunto de medidas agregadas que estavam disponíveis no Sales Cubo no Dynamics AX 2012 e AX 2012 R3. Para preparar as medidas agregadas do cubo na loja Entidade, você devem torná-las implementáveis. Para obter mais informações, consulte o procedimento sobre como preparar medidas agregadas na loja Entidade no blog [integração do Power BI com a loja Entidade no Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). As principais medidas agregadas a seguir da entidade Linhas de fatura são usadas como base do pacote de conteúdo.
+Os seguintes dados são usados para preencher o relatório no conteúdo do Power BI **Desempenho de lucratividade e vendas**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com a loja Entidade](power-bi-integration-entity-store.md). 
 
-|               |                                              |                                                 |                                              |                                          |
-|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|------------------------------------------|
-| **Entidade**    | **Principais medidas agregadas**               | **Fonte de dados para o Dynamics 365 para Operações** | **Campo**                                    | **Descrição**                          |
-| Linhas da fatura | Receita                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | Valor em moeda contábil            |
-|               | Custo dos produtos vendidos                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | Valor de custo + ajuste                 |
-|               | Valor da linha de comissão - moeda contábil | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | Valor de comissão na moeda contábil |
+As medidas agregadas neste conteúdo são o subconjunto de medidas agregadas que estavam disponíveis no Cubo de Vendas no Microsoft Dynamics AX 2012 e no Microsoft Dynamics AX 2012 R3. Para preparar as medidas agregadas do cubo na loja Entidade, você deve torná-las implementáveis. Para obter mais informações, consulte o procedimento sobre como preparar medidas agregadas na loja Entidade na postagem do blog [Integração do Power BI com a loja Entidade no Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). 
 
-A tabela a seguir mostra as principais medidas agregadas da entidade de linhas de fatura que são usadas para criar diversas medidas calculadas no conjunto de dados do pacote de conteúdo.
+As principais medidas agregadas a seguir da entidade Linhas de fatura são usadas como base do conteúdo.
 
-|                   |                                                                                                  |
+| Entidade        | Principais medidas agregadas                   | Fonte de dados para Dynamics 365                    | Campo                                        | descrição                                   |
+|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|----------------------------------------------|
+| Linhas da fatura | Receita                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | O valor na moeda contábil.            |
+|               | Custo dos produtos vendidos                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | A soma o valor de custo e o ajuste.    |
+|               | Valor da linha de comissão - moeda contábil | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | O valor da comissão na moeda de contabilidade. |
+
+A tabela a seguir mostra as principais medidas agregadas da entidade de linhas de fatura que são usadas para criar diversas medidas calculadas no conjunto de dados do conteúdo.
+
+| Medição           | Cálculo                                                                                      |
 |-------------------|--------------------------------------------------------------------------------------------------|
-| **Medição**       | **Calculado como**                                                                                |
 | Lucro bruto      | SUM(Receita – COGS – Comissão – Imposto (incluído no valor de linha de fatura de cliente))          |
 | Margem bruta      | SUM(Lucro bruto / (Receita - Imposto (incluído no valor de linha de fatura de cliente)))             |
 | Receita no ano passado | Receita no ano passado = CALCULATE(SUM('Linhas de fatura'\[Receita\]), SAMEPERIODLASTYEAR(Datas\[Data\]) |
 
-As principais dimensões a seguir **Cubo de vendas** são usadas como filtros para cortar as medidas agregadas para obter uma granularidade maior e uma introspecção analítica mais profunda.
+As dimensões-chave a seguir no Cubo de Vendas são usadas como filtros para cortar as medidas agregadas, para que você possa obter maior granularidade e obter informações analíticas mais profundas.
 
-|                  |                                                      |
+| Entidade           | Exemplos de atributos                               |
 |------------------|------------------------------------------------------|
-| **Entidade**       | **Exemplos de atributos**                           |
 | Clientes        | Grupos de clientes, regiões do cliente, endereço, indústria |
 | Produtos         | Número do produto, nome do produto, nome do grupo de item       |
 | Categorias de vendas | Nomes de categoria de venda                                 |
 | Entidades legais   | Nomes de entidade legal                                   |
 | Datas            | Datas                                                |
 
-Por padrão, o pacote de conteúdo exibe dados para o ano civil atual, mas você pode abrir a seção de filtros de relatório e alterar o filtro de data. Você também pode alterar o filtro da empresa.
-
-## <a name="additional-resources"></a>Recursos adicionais
-Estes são alguns links úteis relacionados às entidades e ao desenvolvimento de conteúdo do Power BI:
-
--   [Entidades de dados](..\data-entities\data-entities.md)
--   [Criando pacotes de conteúdo organizacionais](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Modelagem de dados por meio do Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Adicionando blocos do Power BI aos espaços de trabalho](configure-power-bi-integration.md)
-
-
-
-
+Por padrão, o conteúdo exibe dados do ano atual. Entretanto, poderá modificar o filtro de data na seção filtros de relatório. Você também pode alterar o filtro da empresa.
 

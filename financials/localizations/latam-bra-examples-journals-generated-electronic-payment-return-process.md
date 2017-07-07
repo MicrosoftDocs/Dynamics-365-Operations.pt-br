@@ -3,24 +3,24 @@ title: "Diários gerados durante o processo de devolução de pagamento eletrôn
 description: "Esse tópico mostra como os diários de pagamentos são gerados quando você importa e lança o arquivo de retorno para pagamentos eletrônicos. As linhas de pagamento aprovadas no arquivo de retorno podem ser lançadas em um diário ou em vários diários."
 author: sndray
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 269174
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 010b5b941648633ec6bb0339a06ecdc512bfa9c0
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6d1e41d3756631a553362e9f2da79e9496432e46
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 
 Esse tópico mostra como os diários de pagamentos são gerados quando você importa e lança o arquivo de retorno para pagamentos eletrônicos. As linhas de pagamento aprovadas no arquivo de retorno podem ser lançadas em um diário ou em vários diários.
 
-É possível fazer pagamentos eletrônicos pela transferência de arquivos entre uma entidade legal e um banco. Primeiro, você gera e envia arquivos de remessa eletrônica para o banco. Depois, após o banco processar os arquivos exportados, é possível importar um arquivo de devolução do banco. O arquivo de devolução contém informações sobre a aceitação de uma fatura, junto com o número de pagamento fornecido pelo banco, ou informações sobre os pagamentos recebidos de um cliente ou pagos a um fornecedor. Ao importar um arquivo de devolução, o status dos pagamentos é atualizado no campo **Status de pagamento** na página **Transferências de pagamento**. O novo status depende do relacionamento entre os códigos de ocorrência de devolução bancária no arquivo de devolução e os códigos de ocorrência no Microsoft Dynamics 365 for Operations. Ao lançar os pagamentos para os quais o arquivo de devolução é importado, somente os pagamentos que possuem um status **Aprovado** são lançados. Esses pagamentos podem ser lançados para o mesmo diário de pagamento ou para vários diários de pagamento.
+É possível fazer pagamentos eletrônicos pela transferência de arquivos entre uma entidade legal e um banco. Primeiro, você gera e envia arquivos de remessa eletrônica para o banco. Depois, após o banco processar os arquivos exportados, é possível importar um arquivo de devolução do banco. O arquivo de devolução contém informações sobre a aceitação de uma fatura, junto com o número de pagamento fornecido pelo banco, ou informações sobre os pagamentos recebidos de um cliente ou pagos a um fornecedor. Ao importar um arquivo de devolução, o status dos pagamentos é atualizado no campo **Status de pagamento** na página **Transferências de pagamento**. O novo status depende do relacionamento entre os códigos de ocorrência de devolução bancária no arquivo de devolução e os códigos de ocorrência no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Ao lançar os pagamentos para os quais o arquivo de devolução é importado, somente os pagamentos que possuem um status **Aprovado** são lançados. Esses pagamentos podem ser lançados para o mesmo diário de pagamento ou para vários diários de pagamento.
 
 ## <a name="approved-payment-lines-that-are-posted-to-the-same-payment-journal"></a>Linhas de pagamento aprovadas que são lançadas no mesmo diário de pagamento
 É possível lançar todas as linhas de pagamento aprovadas que pertencem ao mesmo nome de diário em um diário de pagamento. Por exemplo, você importa um arquivo de devolução que contém seis linhas de pagamento. Três linhas de pagamento têm o status **Aprovado** e três têm o status **Rejeitado**. Duas das linhas de pagamento aprovadas para os números de diário 001 e 002, pertencem ao mesmo nome de diário, DP. A terceira linha de pagamento aprovada para o número de diário 100, pertence ao nome do diário Teste. A tabela a seguir contém informações sobre as linhas de pagamento no arquivo de devolução.

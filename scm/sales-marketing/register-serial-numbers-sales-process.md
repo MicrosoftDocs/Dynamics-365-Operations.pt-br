@@ -3,15 +3,15 @@ title: "Registrar números de série no processo de vendas"
 description: "Estes artigos explicam como você pode registrar números de série em guias de remessa ou em faturas durante o processo de vendas. Essa funcionalidade será útil se uma empresa quiser capturar números de série para fins de serviço e de garantia, e não precisa manter os números de série no estoque do recebimento até a saída."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
-ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d984a6af2b48f02120ea61b385522a6400d93d4a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ffb567c0ba9c95d059e64e24cbe0ea53ec9f7bc9
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,14 +32,15 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
 Estes artigos explicam como você pode registrar números de série em guias de remessa ou em faturas durante o processo de vendas. Essa funcionalidade será útil se uma empresa quiser capturar números de série para fins de serviço e de garantia, e não precisa manter os números de série no estoque do recebimento até a saída.
 
-Muitas empresas desejam apenas capturar números de série para fins de serviço e de garantia, e não precisam manter os números de série no estoque do recebimento até a saída. Nessas situações, o Microsoft Dynamics 365 for Operations permite que você registre os números de série nas guias de remessa ou nas faturas quando o produto for vendido. Se os produtos forem devolvidos, você poderá rastrear um produto até uma fatura para determinar se vendeu o produto e se as obrigações de serviço ou de garantia estão válidas.
+Muitas empresas desejam apenas capturar números de série para fins de serviço e de garantia, e não precisam manter os números de série no estoque do recebimento até a saída. Nessas situações, o Microsoft Dynamics 365 for Finance and Operations permite que você registre os números de série nas guias de remessa ou nas faturas quando o produto for vendido. Se os produtos forem devolvidos, você poderá rastrear um produto até uma fatura para determinar se vendeu o produto e se as obrigações de serviço ou de garantia estão válidas.
 Existe algum pré-requisito?
 ----------------------------
 
-Você deve habilitar números de série para o processo de vendas no grupo de dimensões de rastreamento, selecionando a opção **Ativo no processo de venda** na página **Grupos de dimensões de rastreamento**. Os seguintes eventos ocorrerão no Microsoft Dynamics 365 for Operations:
+Você deve habilitar números de série para o processo de vendas no grupo de dimensões de rastreamento, selecionando a opção **Ativo no processo de venda** na página **Grupos de dimensões de rastreamento**. Os seguintes eventos ocorrerão no Microsoft Dynamics 365 for Finance and Operations:
 -   Na Guia Rápida **Números de série**, a opção **Controle de números de série** é selecionada. Quando essa opção estiver selecionada, você deverá registrar um número de série para cada item na guia de remessa ou fatura.
 -   Todas as seleções no grupo de dimensões de rastreamento para números de série estão desmarcadas, exceto a opção **Saída em branco permitida**. Você pode selecionar a opção **Saída em branco permitida** para substituir o controle do número de série e permitir que os produtos sejam embalados e faturados sem registrar números de série.
 
@@ -56,7 +57,7 @@ A configuração do grupo de dimensões de rastreamento atribuiu ao produto dete
 Você pode criar faturas e guias de remessa parciais para ordens de venda e registrar somente os números de série para os itens que essas faturas e guias de remessa incluem. Se desejar criar uma fatura parcial e tiver mais de uma guia de remessa para a fatura, você pode incluir números de série de mais de uma guia de remessa. No entanto, só pode haver uma guia de remessa que não inclua todos os números de série. Por exemplo, se você tiver três guias de remessa e cada uma incluir dois itens serializados, não poderá criar uma fatura parcial para um item por guia de remessa.
 
 ## <a name="what-do-i-do-when-a-serial-number-isnt-readable"></a>O que fazer quando um número de série não for legível?
-Se um número de série não puder ser lido ou digitalizado, você poderá criar uma linha em branco para o item, clicando em **Não está legível**na página **Números de série**. Se o número de série se tornar disponível posteriormente, você poderá atualizar a fatura ou a guia de remessa. Para obter mais informações, consulte a próxima seção, “Posso corrigir ou alterar os números de série que registrei para uma ordem de venda”?
+Se um número de série não puder ser lido ou digitalizado, você poderá criar uma linha em branco para o item, clicando em **Não está legível** na página **Números de série**. Se o número de série se tornar disponível posteriormente, você poderá atualizar a fatura ou a guia de remessa. Para obter mais informações, consulte a próxima seção, “Posso corrigir ou alterar os números de série que registrei para uma ordem de venda”?
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>Posso corrigir ou alterar os números de série registrados para uma ordem de venda?
 Sim, você pode corrigir números de série se as seguintes condições forem atendidas:

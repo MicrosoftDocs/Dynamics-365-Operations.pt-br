@@ -3,7 +3,7 @@ title: "Regras de eliminação"
 description: "Este tópico fornece informações sobre regras de eliminação e as diversas opções para relatórios sobre eliminações."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ab1d8fb5bfc9413652d222e701c44b3b91a4c842
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 76af350f37109260a757ccc0b93908637d0579dc
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Este tópico fornece informações sobre regras de eliminação e as diversas opções para relatórios sobre eliminações.
 
-As transações de eliminação são necessárias quando uma entidade legal pai faz negócios com uma ou mais entidades legais subsidiárias e usa relatórios financeiros consolidados. Os demonstrativos financeiros consolidados devem incluir somente transações que ocorrem entre a organização consolidada e outras entidades fora das organizações. Portanto, as transações entre as entidade legais que fazem parte da mesma organização devem ser removidas, ou eliminadas, da contabilidade, de forma que não apareçam em relatórios financeiros. Há várias formas de relatar eliminações:
+As transações de eliminação são necessárias quando uma entidade legal principal faz negócios com uma ou mais entidades legais subsidiárias e usa relatórios financeiros consolidados. Os demonstrativos financeiros consolidados devem incluir somente transações que ocorrem entre a organização consolidada e outras entidades fora das organizações. Portanto, as transações entre as entidade legais que fazem parte da mesma organização devem ser removidas, ou eliminadas, da contabilidade, de forma que não apareçam em relatórios financeiros. Há várias formas de relatar eliminações:
 
 -   Uma regra de eliminação pode ser criada e processadas em uma empresa de consolidação ou de eliminação.
 -   Os relatórios financeiros podem ser usados para mostrar as contas e dimensões de eliminações em uma linha ou em uma coluna específica.
@@ -117,23 +117,23 @@ A tabela a seguir mostra os tipos de transações que podem ter para ser elimina
 </tr>
 <tr class="even">
 <td>Alocações (intercompanhia/intracompanhia)</td>
-<td>Você processar alocações corporativas. Alocações são atividades para qualquer conta que está alocada, independentemente do módulo de origem.</td>
+<td>Você processa alocações corporativas. Alocações são atividades para qualquer conta que está alocada, independentemente do módulo de origem.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="example"></a>exemplo
-A pessoa jurídica, A pessoa jurídica, parâmetros widgets a outra entidade legal em sua organização, entidade legal B. O exemplo a seguir mostra como as transações que ocorrem entre as duas entidade legal podem ter para ser eliminadas:
+A pessoa jurídica, pessoa jurídica A, vende widgets a outra entidade legal em sua organização, entidade legal B. O exemplo a seguir mostra como as transações que ocorrem entre as duas entidades legais podem ter que ser eliminadas:
 
--   A Entidade legal A vendem um widget do que custa 10,00 para a entidade legal B por 10,00.
--   A Entidade legal A vendem um widget do que custa 10,00 para a entidade legal B por 10,00, mais 2,00 em custos de remessa.
--   A Entidade legal A vendem um widget do que custa 10,00 para a entidade legal B por 15,00 e reconhecem uma margem na venda.
--   A Entidade legal A vendem um widget do que custa 10,00 para a entidade legal B por 15,00 e reconhecem metade da margem na venda. A Entidade legal B reconhecem a outra metade da margem na venda. Consequentemente, a receita é dividida. A receita dividida oferece um incentivo para a ordem de outra entidade legal na organização em vez de uma organização externa.
+-   A Entidade legal A vende um widget que custa 10,00 para a entidade legal B por 10,00.
+-   A Entidade legal A vende um widget que custa 10,00 para a entidade legal B por 10,00, mais 2,00 em custos de remessa.
+-   A Entidade legal A vende um widget que custa 10,00 para a entidade legal B por 15,00 e reconhece uma margem na venda.
+-   A Entidade legal A vende um widget do que custa 10,00 para a entidade legal B por 15,00 e reconhecem metade da margem na venda. A Entidade legal B reconhece a outra metade da margem na venda. Consequentemente, a receita é dividida. A receita dividida oferece um incentivo para a ordem de outra entidade legal na organização em vez de uma organização externa.
 
 Todas essas transações criam transações intercompanhia lançadas em contas a vencer ou vencidas. Em adição, essas transações podem incluir valores de marcação se o valor de venda intercompanhia não for igual ao custo dos produtor que são vendidos.
 
 ## <a name="set-up-elimination-rules"></a>Configurar regras de eliminação
-Ao configurar regras de eliminação no Dynamics 365 for Operations, recomendamos que você crie uma dimensão financeira especificamente para fins de eliminação. A maioria dos clientes a nomeia como Parceiro comercial ou algo semelhante. Se optar por não usar uma dimensão financeira, certifique-se de ter contas principais específicas para transações intercompanhia apenas. 
+Ao configurar regras de eliminação no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, recomendamos que você crie uma dimensão financeira especificamente para fins de eliminação. A maioria dos clientes a nomeia como Parceiro comercial ou algo semelhante. Se optar por não usar uma dimensão financeira, certifique-se de ter contas principais específicas para transações intercompanhia apenas. 
 
 A configuração das eliminações é encontrada na área Configuração do módulo Consolidações. Depois de digitar uma descrição para a regra, escolha a empresa na qual o diário de eliminação será lançado. Esta empresa deve ter a opção **Usar para o processo de eliminação financeira** selecionada na configuração da entidade legal. 
 

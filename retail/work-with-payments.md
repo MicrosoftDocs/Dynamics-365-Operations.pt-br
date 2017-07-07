@@ -1,27 +1,28 @@
 ---
 title: "Métodos de pagamento em um call center"
-description: "Este tópico aborda os métodos de pagamento diferentes que você pode usar em um call center no varejo e comércio."
+description: "Este tópico aborda os métodos de pagamento diferentes que você pode usar no Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 930264f9c22cbde102b59237e432df7d7e4836c8
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 07cb1bcb3870b96e34f7f6725fe5b7da32628fde
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,9 +32,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Este tópico aborda os métodos de pagamento diferentes que você pode usar em um call center no varejo e comércio.
+Este tópico aborda os métodos de pagamento diferentes que você pode usar no Dynamics 365 for Retail.
 
-Os métodos de pagamento usados em outros canais em Varejo e no comércio no Microsoft Dynamics AX, como à vista, cheques, cartões de crédito e cartões-presente, também podem ser usados em call centers. Depois de configurar um método de pagamento para um call center, ele aparecerá como uma das opções na seção **Pagamentos** do formulário **Ordens de venda** para usuários de call center. Além disso, você pode configurar cupons para oferecer descontos para clientes quando eles fazem um pedido no call center da sua organização. Os cupons podem ser um desconto de valor fixo ou uma porcentagem do preço de um item ou do total da ordem. Por exemplo, um valor base de cupom pode oferecer aos clientes um desconto de R$75,00 quando o cliente gasta R$750,00 ou mais. Você pode criar diferentes tipos de cupons, configurar cupons de pai/filho e copiar ou anular um cupom. Use as opções na tabela a seguir para criar cupons.
+Os métodos de pagamento usados em outros canais, como à vista, cheques, cartões de crédito e cartões-presente, também podem ser usados em call centers. Depois de configurar um método de pagamento para um call center, ele aparecerá como uma das opções na seção **Pagamentos** do formulário **Ordens de venda** para usuários de call center. Além disso, você pode configurar cupons para oferecer descontos para clientes quando eles fazem um pedido no call center da sua organização. Os cupons podem ser um desconto de valor fixo ou uma porcentagem do preço de um item ou do total da ordem. Por exemplo, um valor base de cupom pode oferecer aos clientes um desconto de R$75,00 quando o cliente gasta R$750,00 ou mais. Você pode criar diferentes tipos de cupons, configurar cupons de pai/filho e copiar ou anular um cupom. Use as opções na tabela a seguir para criar cupons.
 
 |                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

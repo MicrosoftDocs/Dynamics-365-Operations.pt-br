@@ -80,8 +80,8 @@ O Retail permite a gerentes de loja criar e publicar turnos e agendas para traba
 
 Associados da loja ganham visibilidade em turnos e agendas atribuídas, junto com instruções para os turnos, e ganham visibilidade em colegas de trabalho que são atribuídos a turnos. Eles também podem enviar solicitações de ausência, solicitações para trocas de turnos com colegas de trabalho, e solicitações de oferta de turno.
 
-## <a name="customize-and-administer-retail-environments"></a>Personalizar e administrar ambientes de varejo
-Se você foi solicitado a personalizar seu ambiente, ou se é responsável por implantar e manter o sistema, confira o conteúdo para desenvolvedores e administradores de sistema específicos ao varejo, além do conteúdo mais geral.
+## <a name="customize-and-administer-retail-environments"></a>Personalizar e administrar ambientes do Retail
+Se você foi solicitado a personalizar seu ambiente, ou se é responsável por implantar e manter o sistema, confira o conteúdo para desenvolvedores e administradores de sistema específicos ao Retail, além do conteúdo mais geral.
 
 - [Dynamics 365 for Retail para profissionais de TI e desenvolvedores](dev-itpro/dev-retail-home-page.md)
 - [Microsoft Dynamics 365 for Retail para profissionais de TI e desenvolvedores](/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page)

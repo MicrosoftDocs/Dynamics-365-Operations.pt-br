@@ -1,28 +1,29 @@
 ---
 title: Criar e gerenciar atributos.
-description: "Este artigo descreve atributos no Microsoft Dynamics 365 for Operations. Os atributos permitem descrever um produto e suas características em campos definidos pelo usuário."
+description: "Este artigo descreve atributos no Microsoft Dynamics 365 for Retail. Os atributos permitem descrever um produto e suas características em campos definidos pelo usuário."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: eaee0edb4822a386c8781d9929999cea326f0a40
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 4493c2f9e9e9dfe990f3b1670d3cd35e3bbaa38d
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Este artigo descreve atributos no Microsoft Dynamics 365 for Operations. Os atributos permitem descrever um produto e suas características em campos definidos pelo usuário.
+Este artigo descreve atributos no Microsoft Dynamics 365 for Retail. Os atributos permitem descrever um produto e suas características em campos definidos pelo usuário.
 
 Os atributos permitem descrever um produto e suas características em campos definidos pelo usuário. Por exemplo, você pode especificar o tamanho de memória do produto e a capacidade de disco rígido, e indicar se o produto é compatível com Energy Star. Os atributos podem ser associados a várias entidades de varejo, como categorias de produto e canais de varejo; os valores padrão podem ser definidos para eles. Os produtos herdam atributos e valores padrão para esses atributos quando eles são associados às categorias de produto ou aos canais de varejo. Os valores padrão podem ser substituídos no nível do produto individual, no nível de canal de varejo ou em um catálogo de varejo.
 
@@ -59,7 +60,7 @@ Os atributos permitem descrever um produto e suas características em campos def
 ## <a name="attribute-type"></a>Tipo de atributo
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
   
-Os atributos são baseados nos tipos de atributos. Os tipos de atributos identificam o tipo de dados que podem ser inseridos para um atributo específico. Atualmente, o Microsoft Dynamics 365 for Operations dá suporte aos seguintes tipos de atributos:
+Os atributos são baseados nos tipos de atributos. Os tipos de atributos identificam o tipo de dados que podem ser inseridos para um atributo específico. Atualmente, o Microsoft Dynamics 365 for Retail dá suporte aos seguintes tipos de atributos:
 
 -   **Moeda** – Este tipo de atributo dá suporte a valores de moeda. Ele pode ser limitado (isto é, ele pode dar suporte a um intervalo de valores), ou pode ser deixado aberto.
 -   **Data/Hora** – Este tipo de atributo dá suporte a valores de data e hora. Ele pode ser limitado (isto é, ele pode dar suporte a um intervalo de valores), ou pode ser deixado aberto.

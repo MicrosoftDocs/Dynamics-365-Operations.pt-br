@@ -3,25 +3,27 @@ title: "Visão geral de ordens de cliente"
 description: "Este tópico fornece informações sobre ordens de cliente no Retail Modern POS (MPOS). Ordens de cliente também são conhecidas como ordens especiais O tópico inclui uma discussão sobre parâmetros relacionados e fluxos de transação."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e96579437ab59e99268263a51fc589eaacb98cc1
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 89e79c7227e05eec539d9bb142b8f41de092f01b
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -46,8 +48,8 @@ Estes são alguns dos parâmetros que podem ser definidos na página **Parâmetr
 
 -   **Percentual de depósito padrão** – Especifique o valor que o cliente deve pagar como depósito antes que uma ordem possa ser confirmada. O valor de depósito padrão é calculado como porcentagem do valor da ordem. Dependendo dos privilégios, um associado da loja talvez consiga substituir o valor usando **Substituição de depósito**.
 -   **Percentual de encargo de cancelamento** – Se um encargo for aplicado quando uma ordem de cliente é cancelada, especifique o valor desse encargo.
--   **Código do encargo de cancelamento** – Se um encargo for aplicado quando uma ordem de cliente é cancelada, esse encargo será refletido em um código de encargo na ordem de venda no Microsoft Dynamics AX. Use esse parâmetro para definir o código de encargo de cancelamento.
--   **Código do encargo de remessa** – Varejistas podem cobrar uma taxa adicional por enviar mercadoria a um cliente. O valor desse encargo de remessa será refletido em código de encargo na ordem de venda no Dynamics AX. Use esse parâmetro para mapear o código de encargo de remessa com os encargos de remessa na ordem de cliente.
+-   **Código do encargo de cancelamento** – Se um encargo for aplicado quando uma ordem de cliente é cancelada, esse encargo será refletido em um código de encargo na ordem de venda. Use esse parâmetro para definir o código de encargo de cancelamento.
+-   **Código do encargo de remessa** – Varejistas podem cobrar uma taxa adicional por enviar mercadoria a um cliente. O valor desse encargo de remessa será refletido em código de encargo na ordem de venda. Use esse parâmetro para mapear o código de encargo de remessa com os encargos de remessa na ordem de cliente.
 -   **Reembolsar encargos de remessa** – Especifique se os encargos de remessa associados a uma ordem de cliente são reembolsáveis.
 -   **Valor máximo sem aprovação** – Se os encargos de remessa forem reembolsáveis, especifique o valor máximo dos reembolsos de encargo de envio em ordens de reembolso. Se esse valor for excedido, a substituição do gerente é necessária para continuar com o reembolso. Para acomodar os seguintes cenários, um reembolso de encargos de remessa pode exceder o valor originalmente pago:
     -   Encargos são aplicados no nível do cabeçalho das ordens de venda e, quando algum valor de uma linha de produto é devolvido, o reembolso máximo de encargos de remessa permitido para os produtos e o valor não pode ser determinado de forma que funcione para os clientes de varejo.
@@ -90,10 +92,10 @@ Ordens de cliente podem ser criadas do cliente do ponto de venda (PDV) em modo s
 
 ### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Habilitar ordens de cliente para serem criadas em modo assíncrono
 
-1.  No Dynamics AX, clique em **Varejo e comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfil de PDV** &gt; **Perfis de funcionalidade**.
+1.  Clique em **Varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfil de PDV** &gt; **Perfis de funcionalidade**.
 2.  Na Guia Rápida **Geral**, defina a opção **Criar ordem do cliente no modo assíncrono** como **Sim**.
 
-Quando a opção **Criar ordem do cliente no modo assíncrono** for definida como **Sim**, as ordens de cliente sempre serão criadas em modo assíncrono, mesmo se o Retail Transaction Service (RTS) estiver disponível. Se você definir essa opção como **Não**, as ordens de cliente sempre serão criadas em modo síncrono por meio de RTS. Quando ordens de cliente são criadas em modo assíncrono, elas são retiradas e inseridas no Dynamics AX por trabalhos de pull (P). As ordens de venda correspondentes são criadas no Dynamics AX quando **Sincronizar ordens** é executado manualmente ou por meio de um processo de lote.
+Quando a opção **Criar ordem do cliente no modo assíncrono** for definida como **Sim**, as ordens de cliente sempre serão criadas em modo assíncrono, mesmo se o Retail Transaction Service (RTS) estiver disponível. Se você definir essa opção como **Não**, as ordens de cliente sempre serão criadas em modo síncrono por meio de RTS. Quando ordens de cliente são criadas em modo assíncrono, elas são retiradas e inseridas no Retail por trabalhos de pull (P). As ordens de venda correspondentes são criadas no Retail quando **Sincronizar ordens** é executado manualmente ou por meio de um processo de lote.
 
 <a name="see-also"></a>Consulte também
 --------

@@ -3,7 +3,7 @@ title: "Modelos de planejamento de orçamento para Excel"
 description: "Este tópico descreve como criar modelos do Microsoft Excel que podem ser usados com planos de orçamento."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 93aa0aeffad0411542f36e27745f63198c4438b2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ O modelo do Excel conterá todos os elementos do layout do documento de plano de
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Para evitar possíveis problemas com a exibição e edição de dados de plano de orçamento usando o Excel, o mesmo usuário deve estar conectado tanto ao Dynamics 365 for Operations quanto ao Conector de Dados do Suplemento do Microsoft Dynamics Office.
+> Para evitar possíveis problemas com a exibição e edição de dados de plano de orçamento usando o Excel, o mesmo usuário deve estar conectado tanto ao Microsoft Dynamics 365 for Finance and Operations, Enterprise edition quanto ao Microsoft Dynamics Office Add-in Data Connector.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Adicionar um cabeçalho ao modelo de documento de plano de orçamento
 Para adicionar informações de cabeçalho, selecione a linha superior no arquivo do Excel e insira linhas vazias. Clique em **Design** no **Conector de Dados** para adicionar campos de cabeçalho ao arquivo do Excel.
@@ -79,11 +79,11 @@ O grupo de campos selecionado exibe a coluna que está disponível no modelo. Cl
 [![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> Para definir a fórmula, crie a fórmula na planilha e depois copie-a na janela **Design**. Uma tabela vinculada do Dynamics 365 for Operations geralmente será nomeada como "AXTable1". Por exemplo, para resumir as colunas Solicitação Q1 : Solicitação Q4 na planilha, a fórmula = AxTable1\[Solicitação Q1\]+AxTable1\[Solicitação Q2\]+AxTable1\[Solicitação Q3\]+AxTable1\[Solicitação Q4\].
+> Para definir a fórmula, crie a fórmula na planilha e depois copie-a na janela **Design**. Uma tabela vinculada do Finance and Operations geralmente será nomeada como "AXTable1". Por exemplo, para resumir as colunas Solicitação Q1 : Solicitação Q4 na planilha, a fórmula = AxTable1\[Solicitação Q1\]+AxTable1\[Solicitação Q2\]+AxTable1\[Solicitação Q3\]+AxTable1\[Solicitação Q4\].
 
 Repita essas etapas para inserir a coluna **Ajuste**. Use a fórmula = AxTable1\[Total da solicitações\]\*$I$1 para essa coluna. Isso usará o valor na célula I1 e multiplicará os valores na coluna **Total de solicitações** para calcular os valores de ajuste.
 
-Salve e feche o arquivo do Excel. Retorne ao Dynamics 365 for Operations e, em **Layouts**, clique em **Modelo &gt; Carregar** para carregar o modelo do Excel salvo que será usado no plano de orçamento. 
+Salve e feche o arquivo do Excel. Retorne ao Finance and Operations e, em **Layouts**, clique em **Modelo &gt; Carregar** para carregar o modelo do Excel salvo que será usado no plano de orçamento. 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 

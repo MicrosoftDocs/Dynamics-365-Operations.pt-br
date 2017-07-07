@@ -3,25 +3,27 @@ title: "Gerenciamento de gaveta de pagamento e à vista"
 description: "Este artigo explica como configurar e usar os dois tipos de ponto de varejo de turnos de venda (POS): compartilhado e autônomo. Turnos compartilhados podem ser usados por vários usuários em vários locais, enquanto os turnos autônomos podem ser usados por somente um trabalhador por vez."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e49d7d931b0796e4d62065793e7e79745c816682
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -42,15 +44,15 @@ Turnos autônomos são usados em um cenário de POS tradicional, fixo, onde o di
 
 Um turno autônomo é designado no nível da gaveta de dinheiro. Este procedimento explica como configurar um turno autônomo em uma registradora de POS.
 
-1.  Clique em **Varejo e comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**.
+1.  Clique em **Varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**.
 2.  Selecione o perfil de hardware a ser usado para o turno autônomo.
 3.  Na Guia Rápida **Caixa**, confirme que a opção **Caixa registradora de turno compartilhado** está definida para **Não**.
 4.  Clique em **Salvar**.
-5.  Clique em **Varejo e comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Registradoras**.
+5.  Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Registros**.
 6.  Selecione o registro que exige uma mudança autônoma e, em seguida, clique em **Editar**.
 7.  No campo **Perfil de Hardware**, selecione o perfil de hardware que você selecionou na etapa 2.
 8.  Clique em **Salvar**.
-9.  Clique em **Varejo e comércio** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
+9.  Clique em **Varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
 10. Selecione a agenda de distribuição **1090** e clique **Executar agora** para sincronizar as alterações para o PDV.
 
 ### <a name="use-a-stand-alone-shift"></a>Usar um turno autônomo
@@ -70,15 +72,15 @@ Uma mudança compartilhada é usada em um ambiente onde vários caixas compartil
 
 ### <a name="set-up-a-shared-shift"></a>Definir um turno compartilhado
 
-1.  Clique em **Varejo e comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**.
+1.  Clique em **Varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**.
 2.  Selecione o perfil de hardware a ser usado para o turno compartilhado.
 3.  Na Guia Rápida **Caixa**, confirme que a opção **Caixa registradora de turno compartilhado** está definida para **Sim**.
 4.  Clique em **Salvar**.
-5.  Clique em **Varejo e comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Registradoras**.
+5.  Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Registros**.
 6.  Selecione o registro que exige uma mudança compartilhada e, em seguida, clique em **Editar**.
 7.  No campo **Perfil de Hardware**, selecione o perfil de hardware que você selecionou na etapa 2.
 8.  Clique em **Salvar**.
-9.  Clique em **Varejo e comércio** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
+9.  Clique em **Varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
 10. Selecione a agenda de distribuição **1090** e clique **Executar agora** para sincronizar as alterações para o PDV.
 
 ### <a name="use-a-shared-shift"></a>Use um turno compartilhado
@@ -89,7 +91,7 @@ Uma mudança compartilhada é usada em um ambiente onde vários caixas compartil
 4.  Selecione **Criar um novo turno**.
 5.  Selecione **Declarar Valor Inicial**.
 6.  Insira o valor inicial de todas as registradoras na loja que fazem parte do turno compartilhado e, em seguida, clique em **Salvar**.
-    -   Para adicionar a parte do valor inicial para cada registradora subsequente, use a operação **Selecionar estação de hardware**para ativar a estação de hardware.
+    -   Para adicionar a parte do valor inicial para cada registradora subsequente, use a operação **Selecionar estação de hardware** para ativar a estação de hardware.
     -   Para adicionar uma gaveta a uma registradora específica, use a operação **Abrir gaveta**.
     -   Continue até que todas as registradoras em mudança compartilhada tenham sua parte do valor inicial.
 

@@ -1,39 +1,41 @@
 ---
 title: "Configurar opções de processamento da ordem"
-description: "Este tópico oferece informações sobre como processar ordens de call centers usando Microsoft Dynamics 365 for Operations - Varejo."
+description: "Este tópico oferece informações sobre como processar ordens de call centers usando Microsoft Dynamics 365 para Varejo."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 78973
 ms.assetid: 09fca083-ac0d-4f30-baf2-bb00a626be12
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 52b56274c8b72c67bc0a50f23114cebc510f1667
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: afdea84b7016fcc3214dc94f2d393a5f3d256370
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="set-up-order-processing-options"></a>Configurar opções de processamento da ordem
+# <a name="set-up-order-processing-options"></a>Configurar opções de processamento de ordens
 
 [!include[banner](includes/banner.md)]
 
 
-Este tópico oferece informações sobre como processar ordens de call centers usando Microsoft Dynamics 365 for Operations - Varejo. 
+Este tópico oferece informações sobre como processar ordens de call centers usando Microsoft Dynamics 365 para Varejo. 
 
-O recurso Varejo e comércio no Dynamics 365 for Operations oferece suporte a vários canais de varejo, como lojas online, lojas físicas e call centers. Em call centers, os trabalhadores pegam ordens de cliente pelo telefone e criam ordens de venda. Este tópico descreve como criar um call center e configurar opções de call center. Cada call center pode ter seus próprios usuários, métodos de pagamento, grupos de preços, dimensões financeiras e modos de entrega. Você pode configurar essas opções ao criar o call center. **Importante:** para que os fluxos de trabalho do call center sejam usados quando o usuário atual do Dynamics AX criar ordens de venda, o usuário deverá ser atribuído ao call center como um usuário de call center. Você pode usar a página **Call center** para habilitar ou desabilitar grupos de recursos exclusivos de call centers. Os seguintes grupos de recursos podem ser habilitados:
+O Varejo dá suporte a vários canais de varejo, como lojas online, lojas tradicionais e call centers. Em call centers, os trabalhadores pegam ordens de cliente pelo telefone e criam ordens de venda. Este tópico descreve como criar um call center e configurar opções de call center. Cada call center pode ter seus próprios usuários, métodos de pagamento, grupos de preços, dimensões financeiras e modos de entrega. Você pode configurar essas opções ao criar o call center. **Importante:** para que os fluxos de trabalho do call center sejam usados quando um usuário criar ordens de venda, o usuário deverá ser atribuído ao call center como um usuário de call center. Você pode usar a página **Call center** para habilitar ou desabilitar grupos de recursos exclusivos de call centers. Os seguintes grupos de recursos podem ser habilitados:
 
 -   **Conclusão da ordem** – Este grupo inclui recursos relativos a pagamentos e conclusão de ordens na página **Ordem de venda**.
 -   **Venda direta** – Este grupo inclui recursos relativos aos códigos fonte, scripts e solicitações de catálogo.

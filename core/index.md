@@ -114,7 +114,7 @@ Esta documentação pode ajudar você a aprender como fazer com que o Dynamics 3
 <p><a href="../retail/call-center-functionality">Call center</p>
 <p><a href="../retail/define-maintain-retail-channels">Configuração e gerenciamento de canal</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS e PDV em nuvem</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page">Desenvolvedor de varejo e administração</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">Desenvolvedor do Retail e administração</p>
 
 </td>
 </tr>

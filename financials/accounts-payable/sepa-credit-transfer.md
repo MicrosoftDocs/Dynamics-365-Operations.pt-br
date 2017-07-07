@@ -3,14 +3,14 @@ title: "Visão geral da transferência de crédito SEPA"
 description: "Este artigo fornece informações gerais sobre as transferências de crédito ISO 20022, que incluem transferências de crédito da Área Única de Pagamentos em Euros (SEPA) e quaisquer outros pagamentos eletrônicos para fornecedores. Uma transferência de crédito de SEPA é um tipo específico de pagamento de uma empresa ou pessoa para outra empresa ou pessoa. O tópico também explica como configurar e transmitir um arquivo de pagamento de transferência de crédito."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8f1a220babc333fe2091e9286afc565ebeecf036
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,15 +53,15 @@ O EPC, que consiste em bancos europeus, desenvolve as estruturas comerciais e t�
 Uma transferência de crédito de SEPA é um pagamento de uma empresa ou pessoa para outra empresa ou pessoa. Os pagamentos devem estar em euros, e devem incluir o número de conta bancária internacional (IBAN) e o código (BIC) do banco para ambas as partes. (BIC também é conhecido como código Society for Worldwide Interbank Financial Telecommunication \[SWIFT\].) Além disso, os custos da transação devem ser compartilhados entre os participantes. As transferências de crédito que ocorrem entre as partes devem usar arquivos XML que estejam de acordo com os padrões de processamento de pagamento ISO 20022 e o formato XML, conforme especificado pelo EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Como uma transferência de crédito é implementada?
-O formato de pagamento de transferência de crédito para países europeus é implementado usando os recursos de relatórios eletrônicos (ER) e métodos de pagamento no Dynamics 365 para Operações. Alguns formatos de transferência de crédito usados em outras regiões não usam a estrutura de pagamento herdada. Entre muitos outros formatos, existem dize formatos de arquivo de transferência de crédito ISO 20022 disponíveis. Esses formatos de exportação estão em conformidade com o padrão ISO 20022 XML do SEPA. São usados para gerar transferências de pagamento de uma moeda diferente do euro para países/regiões onde são usados e pagamentos em euro conforme especificado na versão 8.2 da Regulamentação do Esquema de Transferência de Crédito do SEPA que a EPC publica. Antes que você possa implementar a transferência de crédito, você deve entrar em contato com o banco para obter o software que é necessário para carregar arquivos eletrônicos da operação bancária. Você usará esse software para transferir os arquivos XML que contém ordens de pagamento para seu banco.
+O formato de pagamento de transferência de crédito para países europeus é implementado usando os recursos de relatórios eletrônicos (ER) e métodos de pagamento no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Alguns formatos de transferência de crédito usados em outras regiões não usam a estrutura de pagamento herdada. Entre muitos outros formatos, existem dize formatos de arquivo de transferência de crédito ISO 20022 disponíveis. Esses formatos de exportação estão em conformidade com o padrão ISO 20022 XML do SEPA. São usados para gerar transferências de pagamento de uma moeda diferente do euro para países/regiões onde são usados e pagamentos em euro conforme especificado na versão 8.2 da Regulamentação do Esquema de Transferência de Crédito do SEPA que a EPC publica. Antes que você possa implementar a transferência de crédito, você deve entrar em contato com o banco para obter o software que é necessário para carregar arquivos eletrônicos da operação bancária. Você usará esse software para transferir os arquivos XML que contém ordens de pagamento para seu banco.
 
-## <a name="what-credit-transfer-formats-are-currently-supported-in-dynamics-365-for-operations"></a>Quais formatos de transferência de crédito são suportados atualmente no Dynamics 365 para Operações?
-Você sempre deve ir para a biblioteca de ativos compartilhados nos serviços do Microsoft Dynamics Lifecycle (LCS) e exibir a lista mais atualizada de arquivos disponíveis que possuem um tipo de ativo de **Configuração GER**. A seção a seguir, "O que eu tenho que configurar?", fornece um link para o tópico que explica como criar uma loja de LCS para revisar as configurações disponíveis e as configurações de importação.
+## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Quais formatos de transferência de crédito são suportados atualmente no Finanças e Operações?
+Você sempre deve ir para a biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS) e exibir a lista mais atualizada de arquivos disponíveis que possuem um tipo de ativo de **Configuração GER**. A seção a seguir, "O que eu tenho que configurar?", fornece um link para o tópico que explica como criar uma loja de LCS para revisar as configurações disponíveis e as configurações de importação.
 
 ## <a name="what-do-i-have-to-set-up"></a>O que eu tenho que configurar?
--   Antes de criar arquivos de transferência de crédito, pelo menos uma configuração ativa da transferência de crédito deve ser importada para suas configurações eletrônicas. Para obter instruções, consulte [Baixar configurações do Relatório eletrônico no Lifecycle Services](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
--   Quando você configurar os métodos de pagamento de Contas a pagar, marque a caixa de seleção **Relatório eletrônico genérico**e selecione o formato de transferência de crédito apropriado (por exemplo, **Transferência de crédito ISO 20022 (AT)**) como uma configuração de formato de exportação.
--   Você também deve configurar a entidade legal e as informações de conta bancária no Dynamics 365 para Operações.
+-   Antes de criar arquivos de transferência de crédito, pelo menos uma configuração ativa da transferência de crédito deve ser importada para suas configurações eletrônicas. Para obter instruções, consulte [Baixar configurações do Relatório eletrônico no Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs).
+-   Quando você configurar os métodos de pagamento de Contas a pagar, marque a caixa de seleção **Relatório eletrônico genérico** e selecione o formato de transferência de crédito apropriado (por exemplo, **Transferência de crédito ISO 20022 (AT)**) como uma configuração de formato de exportação.
+-   Você também deve configurar a entidade legal e as informações de conta bancária no Finanças e Operações.
 -   Os números de conta bancária, IBANs e, ocasionalmente, códigos SWIFT (BICs) ou outras IDs são necessários para criar pagamentos de transferência de crédito válidos. Portanto, você deve configurá-los para a conta bancária de fornecedor e a conta bancária da organização que está solicitando a transferência.
 -   Informações adicionais podem ser necessários, como números de imposto sobre valor agregado (IVA) dos participantes que são referidos na mensagem de transferência de crédito. Essas informações devem ser configuradas para fornecedores e para a entidade legal quando solicitadas.
 -   Alguns métodos de pagamento de Contas a pagar, em maior parte os métodos de pagamento baseados em ISO 20022, podem exibir configuração adicional para **Conjuntos de código de formato de pagamento**, como **Tipo de serviço** = **SLEV**. Esses códigos são usados como marcação adicional para transações de pagamento durante o processamento de pagamento. Os valores padrão dos códigos de pagamento, como **Finalidade de categoria**, **Portador de encargos**, **Instrumento local** e **Nível de serviço** podem ser definidos em dois locais. O primeiro lugar é **Cabeçalho de diário de pagamentos de contas a pagar** e o segundo é **Métodos de contas a pagar para pagamentos**. Após a criação das linhas do diário de pagamento, os valores de código de pagamento definidos no cabeçalho do diário de pagamento são transferidos para uma linha de diário, se não estiver definido, os valores dos métodos de pagamento são usados.

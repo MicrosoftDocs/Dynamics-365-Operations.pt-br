@@ -3,25 +3,27 @@ title: "Configurar máscaras de código de barras"
 description: "Este tópico descreve como configurar caracteres de máscara de código de barras, máscaras de código de barras e como atribuir máscaras de código de barras a códigos de barras."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7b71cbe75f2d7e8f20201e8fa50df8ea1021c4de
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 958cac2e85ae7fa514f6f26cbb6178d8fdec9783
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -36,7 +38,7 @@ Este tópico descreve como configurar caracteres de máscara de código de barra
 <a name="set-up-bar-code-mask-characters"></a>Configurar caracteres da máscara do código de barras
 -------------------------------
 
-As máscaras de código de barras são usadas para criar códigos de barras e identificar rapidamente códigos de barras que são digitalizados para o ponto de venda (POS). As máscaras são compostas de caracteres que atuam como espaços reservados que indicam o formato dos códigos de barras que serão criados. Para configurar uma máscara de código de barras, é necessário configurar caracteres de máscara de código de barras. Vá para **Varejo e comércio** &gt; **Gerenciamento de estoque** &gt; **Códigos de barras e etiquetas** &gt; **Caracteres de máscara**. Clique em **Novo** para criar caracteres de máscara de código. Os caracteres de máscara podem ser criados para indicar os seguintes dados de código de barras.
+As máscaras de código de barras são usadas para criar códigos de barras e identificar rapidamente códigos de barras que são digitalizados para o ponto de venda (POS). As máscaras são compostas de caracteres que atuam como espaços reservados que indicam o formato dos códigos de barras que serão criados. Para configurar uma máscara de código de barras, é necessário configurar caracteres de máscara de código de barras. Vá para **Varejo** &gt; **Gerenciamento de estoque** &gt; **Códigos de barras e etiquetas** &gt; **Caracteres de máscara**. Clique em **Novo** para criar caracteres de máscara de código. Os caracteres de máscara podem ser criados para indicar os seguintes dados de código de barras.
 
 |                      |                                                                                                                 |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -52,13 +54,14 @@ As máscaras de código de barras são usadas para criar códigos de barras e id
 | **Quantidade**         | Indica a quantidade em códigos de barra embutidos de quantidade/peso aleatório.                                                |
 | **Funcionário**         | Indica o segmento de código de barras para o número de identificação de funcionário usado para fazer o logon no POS de código de barras.                                  |
 | **Cliente**         | Indica o segmento de ID do cliente.                                                                                  |
-| **Entrada de dados**       | *Ainda não implementado.*                                                                                          |
-| **Código de desconto**    | Indica código de desconto para um código de barras usado para adicionar um desconto a uma transação de ponto de venda             |
+| **Inserção de dados**       | *Ainda não implementado.*                                                                                          |
+| **Código de desconto**    | *Depreciado* a partir do 365 para a versão de varejo primavera 2017. Anteriormente: Indica código de desconto para um código de barras usado para adicionar um desconto a uma transação de ponto de venda                                                                   |
+| **Código do cupom**      | Indica o código de cupom para um código de barras usado para adicionar um desconto em uma ordem de varejo. Isso substituiu o código de desconto.     |
 | **Vale-presente**        | Indica um número de vale-presente ao emitir ou pagar por cartão de presente.                                               |
 | **Cartão-fidelidade**     | Adiciona um cliente de fidelidade à transação e pode ser usado ao pagar por lealdade                             |
 
 ## <a name="define-bar-code-masks"></a>Definir máscaras de código de barras
-Depois que os caracteres de máscara de código de barras forem especificados para as máscaras de código de barras necessárias, vá para **Varejo e comércio** &gt; **Gerenciamento de estoque** &gt; **Códigos de barras e rótulos** &gt; **Configuração de máscara de código de barras**. Nesta página, é possível definir as máscaras de código de barras que usam os caracteres especificados anteriormente. Essas máscaras de código de barras serão usadas ao gerar códigos de barras e também ajudarão a identificar códigos de barras digitalizados no POS.
+Depois que os caracteres de máscara de código de barras forem especificados para as máscaras de código de barras necessárias, vá para **Varejo** &gt; **Gerenciamento de estoque** &gt; **Códigos de barras e rótulos** &gt; **Configuração de máscara de código de barras**. Nesta página, é possível definir as máscaras de código de barras que usam os caracteres especificados anteriormente. Essas máscaras de código de barras serão usadas ao gerar códigos de barras e também ajudarão a identificar códigos de barras digitalizados no POS.
 
 1.  Clique em **Novo** para criar uma nova máscara de código de barras.
 2.  Insira valores nos campos **ID da máscara** e **Descrição**, e selecione uma máscara de código de barras no campo **Tipo**.

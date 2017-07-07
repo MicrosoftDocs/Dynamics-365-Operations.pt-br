@@ -1,16 +1,16 @@
 ---
 title: "Gerenciar trabalhos de subcontratação na produção"
-description: "Este tópico explica como operações subcontratadas são gerenciadas no Microsoft Dynamics 365 for Operations. Em outras palavras, explica como as operações de produção que são alocadas para um recurso são gerenciadas por um fornecedor."
+description: "Este tópico explica como operações subcontratadas são gerenciadas no Microsoft Dynamics 365 for Finance and Operations. Em outras palavras, explica como as operações de produção que são alocadas para um recurso são gerenciadas por um fornecedor."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 582807f9f416d3e6e73226dfd2e22af2d6331acd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0e1368d3f637143fd47c3772c811257e8472cc74
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico explica como operações subcontratadas são gerenciadas no Microsoft Dynamics 365 for Operations. Em outras palavras, explica como as operações de produção que são alocadas para um recurso são gerenciadas por um fornecedor.
+Este tópico explica como operações subcontratadas são gerenciadas no Microsoft Dynamics 365 for Finance and Operations. Em outras palavras, explica como as operações de produção que são alocadas para um recurso são gerenciadas por um fornecedor.
 
 Nos [processos de produção](production-process-overview.md), o trabalho pode ser feito por recursos que de propriedade ou administrados por fornecedores. Normalmente, os recursos de fornecedor são usados para nivelar a demanda adicional periódica que ultrapassa a capacidade disponível de recursos próprios da empresa. O fornecedor pode também poder oferecer [recursos específicos](resource-capabilities.md)ou recursos com preço mais baixo.  
 
@@ -42,7 +42,7 @@ Quando as operações ou atividades de subcontratação são usadas, elas afetam
 
 Para recursos internos, uma taxa de custo fixo normalmente é alocada durante um período. Em contraste, o custo de recursos subcontratados é baseado no preço de compra do serviço relacionado. O serviço é definido como outro produto e é usado para conduzir os processos de aquisição e compra de uma determinada operação subcontratada.  
 
-Atualmente, não há conceito explícito de produtos semiacabados no Microsoft Dynamics 365 for Operations. Para uma ordem de produção que exija mais de uma operação para transformar matérias-primas uma mercadoria acabada, a mercadoria concluída é lançada de volta ao estoque apenas na última operação. Os produtos semiacabados que as operações anteriores produzem são contabilizados no trabalho em andamento (WIP), mas não são lançados ou rastreados no estoque. Embora você possa dividir os roteiros e listas de materiais (BOMs) em várias unidades menores, essa abordagem aumenta o número de produtos, BOMs e roteiros a serem gerenciados.  
+Atualmente, não há conceito explícito de produtos semiacabados no Microsoft Dynamics 365 for Finance and Operations. Para uma ordem de produção que exija mais de uma operação para transformar matérias-primas uma mercadoria acabada, a mercadoria concluída é lançada de volta ao estoque apenas na última operação. Os produtos semiacabados que as operações anteriores produzem são contabilizados no trabalho em andamento (WIP), mas não são lançados ou rastreados no estoque. Embora você possa dividir os roteiros e listas de materiais (BOMs) em várias unidades menores, essa abordagem aumenta o número de produtos, BOMs e roteiros a serem gerenciados.  
 
 Há dois métodos para modelagem de trabalho de subcontratação para operações de produção. Esses métodos diferentes na forma como o processo a subcontratação pode ser modelado, na forma como os produtos semiacabados são representados no processo e na maneira pela qual o controle de custos é gerenciado.
 

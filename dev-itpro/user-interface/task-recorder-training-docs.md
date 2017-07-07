@@ -3,7 +3,7 @@ title: "Criar documentação ou treinamento utilizando Gravações de tarefas"
 description: "Este tópico explica o que são o gravador de tarefas e os guias de tarefas, como criar gravações de tarefas e como personalizar guias de tarefas da Microsoft e incluí-los na sua Ajuda."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b44dc66cdcd1ede59cb9bb4ed05be27dd465599
+ms.sourcegitcommit: ee6d455c44a38d9b3962ca20a5cb28007c19cf1d
+ms.openlocfilehash: e71c2638caccb9a31c5254a3cf68c802808960b9
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/17/2017
 
 
 ---
@@ -31,19 +31,22 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico explica o que são o gravador de tarefas e os guias de tarefas, como criar gravações de tarefas e como personalizar guias de tarefas da Microsoft e incluí-los na sua Ajuda.
+Este tópico explica o que são o Gravador de tarefas e os guias de tarefas, como criar gravações de tarefas e como personalizar guias de tarefas da Microsoft para os produtos de Operações Unificadas e incluí-los em sua ajuda.
+
+> [!IMPORTANT]
+> Não é possível criar guias de tarefas personalizadas para o Dynamics 365 for Talent. O sistema de Ajuda do Talent é automaticamente conectado às guias de tarefas do produto. 
 
 <a name="learn-about-task-recorder"></a>Aprender sobre o Gravador de tarefas
 -------------------------
 
-O gravador de tarefas é uma ferramenta do Microsoft Dynamics 365 for Operations que você pode usar para registrar ações que você tomar na interface do usuário do produto (UI). Quando você utiliza o Gravador de tarefas, todos os eventos executados na UI que são executados em relação ao servidor—incluindo adicionar valores, alterar configurações, remover dados—são capturados. As etapas que você registra são chamadas coletivamente de *gravação de tarefa*. Gravações de tarefas podem ser utilizadas de diversas maneiras:
+O gravador de tarefas é uma ferramenta que você pode usar para gravar ações que você leva na interface do usuário do produto (UI). Quando você utiliza o Gravador de tarefas, todos os eventos executados na UI que são executados em relação ao servidor—incluindo adicionar valores, alterar configurações, remover dados—são capturados. As etapas que você registra são chamadas coletivamente de *gravação de tarefa*. Gravações de tarefas podem ser utilizadas de diversas maneiras:
 
--   **Gravações de tarefas podem ser executadas como guias de tarefas.** Os guias de tarefas são parte integrante do Dynamics 365 para a experiência de ajuda de operações. Um guia de tarefas é uma experiência controlada, guiada e interativa através das etapas de um processo de negócios. O usuário é instruído na conclusão de cada etapa por meio de um lembrete pop-up (ou "bolha"), que será animado ao longo da UI e irá apontar para o elemento com o qual o usuário deve interagir. A "bolha" também fornece informações sobre como interagir com o elemento, como "Clique aqui" ou "Neste campo, insira um valor Um guia de tarefas é executado no conjunto de dados atual do usuário e os dados inseridos são salvos no ambiente do usuário.
+-   **Gravações de tarefas podem ser executadas como guias de tarefas.** As guias de tarefas são parte integrante da experiência de ajuda. Um guia de tarefas é uma experiência controlada, guiada e interativa através das etapas de um processo de negócios. O usuário é instruído na conclusão de cada etapa por meio de um lembrete pop-up (ou "bolha"), que será animado ao longo da UI e irá apontar para o elemento com o qual o usuário deve interagir. A "bolha" também fornece informações sobre como interagir com o elemento, como "Clique aqui" ou "Neste campo, insira um valor Um guia de tarefas é executado no conjunto de dados atual do usuário e os dados inseridos são salvos no ambiente do usuário.
 -   **Gravações de tarefas podem ser exibidas como etapas de procedimento no painel de ajuda.** Você pode usar o painel de ajuda para pesquisar e exibir gravações de tarefas. Você pode acessar o painel de Ajuda clicando em **?** ícone na barra de navegação superior ou você pode usar a combinação de teclas de atalho **Ctrl+Shift+?**. Você pode ler as etapas de uma gravação de tarefa no painel de ajuda, ou você pode optar por executar a gravação como um guia de tarefa para que ele te apresente a UI.
--   **Gravações de tarefas podem ser salvas no BPM.** Você pode salvar sua gravação de tarefa à uma linha de uma hierarquia em uma biblioteca do Modelador de Processo de Negócios (BPM) em Lifecycle Services (LCS). Uma lista de etapas e um fluxograma do processo comercial serão gerados a partir da gravação. Gravações de tarefas que foram salvas em uma biblioteca do BPM podem ser exibidas no Dynamics 365 for Operations como ajuda.
+-   **Gravações de tarefas podem ser salvas no BPM.** Você pode salvar sua gravação de tarefa à uma linha de uma hierarquia em uma biblioteca do Modelador de Processo de Negócios (BPM) em Lifecycle Services (LCS). Uma lista de etapas e um fluxograma do processo comercial serão gerados a partir da gravação. As gravações de tarefas que foram salvas em uma biblioteca BPM podem ser exibidas como Ajuda.
 -   **Gravações de tarefas podem ser salvas como documentos do Word.** Isso permite que você produza facilmente guias de treinamento imprimíveis.
 
-Você pode criar suas próprias gravações de tarefas, executar gravações de tarefas disponibilizadas pela Microsoft ou modificá-las para refletir a sua configuração. Para obter mais informações sobre o Gravador de Tarefas, consulte [Gravador de tarefas no Dynamics 365 for Operations](task-recorder.md).
+Você pode criar suas próprias gravações de tarefas, executar gravações de tarefas disponibilizadas pela Microsoft ou modificá-las para refletir a sua configuração. Para obter mais informações sobre o gravador de tarefas, consulte [Gravador de tarefas](task-recorder.md).
 
 ## <a name="plan-your-task-recording"></a>Planejar sua gravação de tarefa
 Se você estiver criando uma nova gravação de tarefa ou baseando sua gravação em um gravação de tarefa da Microsoft, mantenha as informações a seguir em mente.
@@ -83,7 +86,7 @@ Este é o painel de edição que é exibido quando você adiciona uma anotação
 
 [![tela4](./media/screen4.png)](./media/screen4.png)
 
--   **Etapa de informações**: Essas anotações são criadas clicando com o botão direito do mouse em um controle ou em qualquer lugar em um formulário &lt; **Registrador de tarefas** &lt; **Adicionar etapa de informações. **As etapas de informações aparecem como um passo numerado no ponto em que você o insere, mesmo que nenhuma ação tenha sido registrada na interface do usuário. Você pode adicionar uma etapa informativa de nível de formulário ou uma etapa informativa associada a um controle. Quando uma etapa informativa está associada a um formulário, a "bolha" do guia de tarefa irá aparecer em algum lugar do formulário, sem um ponteiro, quando o guia de tarefa for executado. Quando uma etapa de informação é associada a um controle, a guia de tarefas "bolha" aponta para o controle quando o guia de tarefas é reproduzido. No painel de Ajuda, uma anotação de passo de informações será exibida como uma etapa numerada com qualquer texto digitado. Utilize etapas informativas para preparar o usuário para as próximas etapas, para descrever etapas que devem ser feitas fora do Dynamics 365 for Operations, ou para fazer referência a outras gravações (embora não seja possível criar hiperlinks nas anotações).
+-   **Etapa de informações**: Essas anotações são criadas clicando com o botão direito do mouse em um controle ou em qualquer lugar em um formulário &lt; **Registrador de tarefas** &lt; **Adicionar etapa de informações. **As etapas de informações aparecem como um passo numerado no ponto em que você o insere, mesmo que nenhuma ação tenha sido registrada na interface do usuário. Você pode adicionar uma etapa informativa de nível de formulário ou uma etapa informativa associada a um controle. Quando uma etapa informativa está associada a um formulário, a "bolha" do guia de tarefa irá aparecer em algum lugar do formulário, sem um ponteiro, quando o guia de tarefa for executado. Quando uma etapa de informação é associada a um controle, a guia de tarefas "bolha" aponta para o controle quando o guia de tarefas é reproduzido. No painel de Ajuda, uma anotação de passo de informações será exibida como uma etapa numerada com qualquer texto digitado. Utilize etapas informativas para preparar o usuário para as próximas etapas, para descrever etapas que devem ser feitas fora do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, ou para fazer referência a outras gravações (embora não seja possível criar hiperlinks nas anotações).
 
 **Determine o tempo para fazer a gravação**
 
@@ -101,7 +104,7 @@ Para obter etapas detalhadas, consulte [Como criar uma gravação de tarefas](ta
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>Copiar e personalizar gravações de tarefas da Microsoft
 Você pode baixar e editar gravações de tarefas da Microsoft para utilizá-las em sua própria documentação de ajuda ou materiais de treinamento. Para baixar uma gravação de tarefa do Microsoft, siga as etapas abaixo:
 
-1.  No Dynamics 365 for Operations, abra o gravador de tarefas. O Gravador de tarefas está localizado no menu **Configurações**.
+1.  Abrir gravador de tarefas. O Gravador de tarefas está localizado no menu **Configurações**.
 2.  No painel do Gravador de tarefas, clique em **Manter uma gravação.**
 3.  Em **Onde está a gravação**, clique em **Está em uma biblioteca do LCS**.
 4.  Clique em **Selecionar a biblioteca do LCS**.
@@ -119,18 +122,13 @@ Para mostrar suas próprias gravações de tarefas personalizadas no painel de a
 <a name="see-also"></a>Consulte também
 --------
 
-[Ajuda do Dynamics 365 for Operations](..\get-started\help-overview.md)
+[Visão geral da ajuda](..\get-started\help-overview.md)
 
-[Conectar Help](..\get-started\help-connect.md)
+[Ajuda para conexão](..\get-started\help-connect.md)
 
-[Gravador de tarefas no Dynamics 365 for Operations](task-recorder.md)
+[Gravador de Tarefas](task-recorder.md)
 
 [Recursos recentemente adicionados do registrador de tarefas](\core\get-started\recently-added-editing-features-in-task-recorder)
 
-[Criando novas bibliotecas de treinamento para o Dynamics AX no Lifecycle Services usando o Gravador de tarefas (link externo)](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [Crie tópicos de ajuda detalhados com o Gravador de tarefas (link externo)](https://mbspartner.microsoft.com/AX/Videos/970)
-
-
-
 

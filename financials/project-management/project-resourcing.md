@@ -3,14 +3,14 @@ title: Recursos do projeto
 description: "Este tópico fornece informações sobre recursos de projeto."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5c00c63e3c55e818934c36b818c90025002092d4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a7275e9ad8d655d0d2ee5ba90a792775dec0cf05
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Este tópico fornece informações sobre recursos de projeto.
 
-Um desafio para gerentes de projeto e gerentes de recursos durante a fase de planejamento do projeto é a atribuição de recursos, onde eles devem determinar e reservar o recurso correto para o trabalho em um projeto. No Microsoft Dynamics 365 for Operations, os recursos para projetos permitem definir as funções que são tratadas como recursos temporários que podem ser reservados para compromisso específico ou parte de um compromisso. Esse tipo de recurso permite que os gerentes de projeto e gerentes de recursos concluam as seguintes tarefas:
+Um desafio para gerentes de projeto e gerentes de recursos durante a fase de planejamento do projeto é a atribuição de recursos, onde eles devem determinar e reservar o recurso correto para o trabalho em um projeto. No Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, os recursos para projetos permitem definir as funções que são tratadas como recursos temporários que podem ser reservados para compromisso específico ou parte de um compromisso. Esse tipo de recurso permite que os gerentes de projeto e gerentes de recursos concluam as seguintes tarefas:
 
 -   Definir uma função que tenha as competências necessárias para facilitar a correspondência recursos.
 -   Usar funções para definir uma agenda de compromisso inicial baseada em recursos reservados.
@@ -65,7 +65,7 @@ Quando configurar um trabalhador como um recurso intercompanhia, você deve conc
 
 **Na empresa de crédito:**
 
-1.  No Microsoft Dynamics 365 for Operations, verifique se a empresa de crédito está selecionada e conclua o procedimento acima, "Configurar um trabalhador como um recurso de projeto."
+1.  No Finanças e Operações, verifique se a empresa de crédito está selecionada e conclua o procedimento acima, "Configurar um trabalhador como um recurso de projeto."
 2.  Vá para **Contabilidade **&gt; **Configuração de postagem **&gt; **Contabilidade intercompanhia**. Clique em **Novo**.
 3.  No campo **ID de entidade legal**, selecione a empresa de crédito. Preencha os campos restantes como apropriado e clique em **Salvar**.
 4.  Vá para **Gerenciamento e contabilidade de projeto **&gt; **Configuração **&gt; **Preços ** &gt; **Preço de transferência**.** **
@@ -123,7 +123,7 @@ Para configurar as competências de um trabalhador, você pode usar a página de
 6.  No painel **Projetos restantes**, selecione um projeto e clique na seta para adicioná-lo ao painel **Projetos selecionados**.
 7.  Feche a página.
 
-Se necessário, também é possível atribuir categorias para um recurso. O tipo de categoria será Custo ou Receita. Isso é determinado por sua organização. Se não houver categorias atribuídas ao recurso, o Microsoft Dynamics 365 for Operations pesquisará a categoria padrão em preços por hora para custo e receita.
+Se necessário, também é possível atribuir categorias para um recurso. O tipo de categoria será Custo ou Receita. Isso é determinado por sua organização. Se não houver categorias atribuídas ao recurso, o Finanças e Operações pesquisará a categoria padrão em preços por hora para custo e receita.
 
 ### <a name="set-up-project-resource-and-role-characteristics"></a>Configurar as características de recurso de projeto e de função
 
@@ -190,7 +190,7 @@ Todos os preços de custo, de venda e de transferência podem ser configurados p
 5.  Na coluna **Preços**, insira um preço para a função de recurso selecionada.
 
 ## <a name="form-a-project-team"></a>Formar uma equipe de projeto
-Para usar as funções que foram configuradas previamente em um projeto, um gerente de projeto deve associar as funções ao projeto. Várias funções podem ser atribuídas a um projeto, e o Microsoft Dynamics 365 for Operations rotula automaticamente essas funções durante a reserva para evitar a confusão. Por exemplo, se o gerente de projeto quiser três engenheiros de software, três funções de engenheiro de software que têm engenheiro de software 1, engenheiro de software 2 e engenheiro de software 3 como rótulos, são gerados automaticamente. Se as características da função tiverem sido definidas anteriormente para a função, elas serão aplicadas como um filtro durante a pesquisa de recursos. Características adicionais podem ser adicionadas conforme necessário para refinar ainda mais a pesquisa. 
+Para usar as funções que foram configuradas previamente em um projeto, um gerente de projeto deve associar as funções ao projeto. Várias funções podem ser atribuídas a um projeto, e o Finanças e Operações rotula automaticamente essas funções durante a reserva para evitar a confusão. Por exemplo, se o gerente de projeto quiser três engenheiros de software, três funções de engenheiro de software que têm engenheiro de software 1, engenheiro de software 2 e engenheiro de software 3 como rótulos, são gerados automaticamente. Se as características da função tiverem sido definidas anteriormente para a função, elas serão aplicadas como um filtro durante a pesquisa de recursos. Características adicionais podem ser adicionadas conforme necessário para refinar ainda mais a pesquisa. 
 
 As configurações de exibição também podem ser personalizadas para fornecer uma visão melhor de disponibilidade de capacidade. Há opções para mostrar a disponibilidade por hora, por dia, por semana, por mês, por trimestre e por ano. Há também uma opção para mostrar a capacidade disponível e restante dos recursos. Essa opção é útil para o gerenciamento de tempo quando você está estimando as horas disponíveis para atividades ou a disponibilidade de capacidade. 
 
@@ -277,7 +277,7 @@ Outras opções foram adicionadas à WBS para melhorar o uso da funcionalidade d
 </tr>
 <tr class="even">
 <td>Gerar equipe automaticamente</td>
-<td>Adicione automaticamente recursos planejados usando as funções associadas a uma tarefa. O Microsoft Dynamics 365 for Operations sugere automaticamente recursos planejados usando vários critérios de análise de decisão baseados em funções. Depois que as funções e o esforço (horas) tenham sido definidos para as tarefas em uma WBS, e depois de a estrutura ter sido liberada, clique em <strong>Gerar equipe automaticamente</strong>. O número necessário de recursos planejados é adicionado à WBS e à guia <strong>Agendamento de projeto e equipe</strong>.</td>
+<td>Adicione automaticamente recursos planejados usando as funções associadas a uma tarefa. O Finanças e Operações sugere automaticamente recursos planejados usando vários critérios de análise de decisão baseados em funções. Depois que as funções e o esforço (horas) tenham sido definidos para as tarefas em uma WBS, e depois de a estrutura ter sido liberada, clique em <strong>Gerar equipe automaticamente</strong>. O número necessário de recursos planejados é adicionado à WBS e à guia <strong>Agendamento de projeto e equipe</strong>.</td>
 </tr>
 <tr class="odd">
 <td>Recurso (lista suspensa)</td>
@@ -331,7 +331,7 @@ Um gerente de projeto pode planejar as funções necessárias do recurso para um
 7.  Clique em **Criar**.
 8.  Feche a página do projeto.
 9.  Clique em **Gerenciamento e contabilidade de projeto** &gt; **Recursos de projeto** &gt; **Preenchimento de recurso**.
-10. Selecione **Desenvolvedor de software 1** para o projeto**Fase 2 Fase do projeto de Atualização de XYZ**.
+10. Selecione **Desenvolvedor de software 1** para o projeto **Fase 2 Fase do projeto de Atualização de XYZ**.
 11. Selecione um trabalhador e clique em **Atribuir**.
 12. Verifique se a linha de **Desenvolvedor de software 1** foi removida para o projeto **Fase 2 do projeto de Atualização de XYZ**.
 13. Na guia **Equipe de projeto e agendamento** do projeto **Fase de atualização 2 de XYZ**, verifique se o trabalhador selecionado na etapa 11 foi adicionado como **Desenvolvedor de software**.

@@ -3,24 +3,24 @@ title: "Conteúdo do Power BI Análise de contabilização de custos"
 description: "Este tópico descreve o que está incluído no conteúdo do Power BI Análise de contabilização de custos. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 270274
 ms.assetid: b74549df-35d5-4f2f-b3c7-405b0d38ea78
 ms.search.region: Global
-ms.author: yuyus
+ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5ce75a6145bde4a8c33ed785c7d2a60a52416676
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d19276331a4278f44ad14292ed434c49b74d727
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,18 +29,27 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI **Análise de contabilização de custos**. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
 
-Este tópico descreve o que está incluído no conteúdo do Power BI Análise de contabilização de custos. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
+## <a name="overview"></a>Visão Geral
 
-<a name="overview"></a>Visão Geral
---------
+O conteúdo do Power BI **Análise de contabilização de custos** destina-se a controladores de custo ou qualquer pessoa responsável por realizar o controle de custos de uma organização. Ele inclui as principais métricas, como custo, magnitude e taxa de custo por custo real, custo de orçamento e custo de orçamento flexível. Ele usa dados de transação do módulo **Contabilização de custos** e fornece uma visão agregada dos custos de toda a organização em uma moeda de relatório. Os gerentes podem filtrar os dados por objetos de custo para realizar o controle de custos de suas unidades organizacionais, mesmo que a organização possa ter várias entidades legais. 
 
-O conteúdo do Microsoft Power BI **Análise de contabilização de custos** destina-se a controladores de custo ou qualquer pessoa responsável por realizar o controle de custos de uma organização. Ele inclui as principais métricas, como custo, magnitude e taxa de custo por custo real, custo de orçamento e custo de orçamento flexível. Usa dados de transação de contabilização de custos no Microsoft Dynamics 365 for Operations e fornece uma visão agregada dos custos de toda a organização em uma moeda de relatório. Os gerentes podem filtrar os dados por objetos de custo para realizar o controle de custos de suas unidades organizacionais, mesmo que a organização possa ter várias entidades legais. Como o conteúdo do Power BI **Análise de contabilização de custos** destaca variações entre os custos reais e os custos orçados, os gerentes podem ser notificados sobre as tendências positivas e negativas de suas unidades operacionais. Os gerentes podem fazer uma análise detalhada das hierarquias de elementos de custo ou de elementos de custo individuais para ter uma ideia aprofundada sobre como as variações de custo ocorreram e, a partir disso, adotar medidas eficazes. O conteúdo do Power BI **Análise de contabilização de custos** permite que os contadores analisem como o custo flui por meio dos objetos de custo de toda a organização. Para saber mais sobre contabilização de custos, consulte [Pagina inicial de contabilização de custos](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page). Definindo a segurança de nível de acesso em Contabilização de custos e combinando-a com a segurança de nível de linha no Power BI, você pode conceder a todos os proprietários de objetos de custo acesso ao conteúdo do Power BI **Análise de contabilização de custos**. Todos os dados nas visualizações serão então filtrados no nível de acesso que é controlado em Contabilização de custos. Para saber mais sobre a segurança de nível de acesso e linha, consulte [Definição de segurança do conteúdo Contabilização de custos para o Power BI](setup-security-cost-accounting-content-pack.md).
+Como o conteúdo **Análise de contabilização de custos** destaca variações entre os custos reais e os custos orçados, os gerentes podem ser notificados sobre as tendências positivas e negativas de suas unidades operacionais. Os gerentes podem fazer busca detalhada em hierarquias de elementos de custo ou em elementos de custo individual. Assim, os gerentes podem ter uma ideia aprofundada de como as variações de custo ocorreram e adotar medidas eficazes. 
+
+O conteúdo **Análise de contabilização de custos** permite que os contadores analisem como o custo flui por meio dos objetos de custo de toda a organização. 
+
+Para saber mais sobre contabilização de custos, consulte [Pagina inicial de contabilização de custos](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page). 
+
+Definindo a segurança de nível de acesso em Contabilização de custos e combinando-a com a segurança de nível de linha no Power BI, você pode conceder a todos os proprietários de objetos de custo acesso ao conteúdo do Power BI **Análise de contabilização de custos**. Todos os dados nas visualizações serão então filtrados no nível de acesso que é controlado em Contabilização de custos. Para saber mais sobre a segurança de nível de acesso e linha, consulte [Definição de segurança do conteúdo Contabilização de custos para o Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-Você pode encontrar o conteúdo do Power BI **Análise de contabilização de custos** na biblioteca de ativos compartilhados em Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o conteúdo e conectá-lo a seus dados do Dynamics 365 for Operations, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md). 
+Você pode encontrar o conteúdo do Power BI **Análise de contabilização de custos** na biblioteca de ativos compartilhados em Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md). Para ver uma demonstração que mostra como implementar o conteúdo do Power BI, veja o Office Mix [Conteúdo do Power BI da Microsoft e seus parceiros no Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).
 
-> OBSERVAÇÃO - **KB4011327** é um pré-requisito para o conteúdo do Power BI. Após entrar no Lifecycle Services, você pode acessar a Base de Dados de Conhecimento: <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+Certifique-se de baixar o conteúdo de **Análise de contabilidade de custo** que se aplica à versão do Microsoft Dynamics 365 que você está usando.
+
+> [!NOTE]
+> KB 4011327 é um pré-requisito para esse conteúdo do Power BI. Depois de iniciar sessão no LCS, você pode acessar o KB aqui em <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
 O conteúdo inclui um conjunto de páginas de relatório. Cada página consiste em um conjunto de métricas visualizadas, como gráficos, blocos e tabelas. A seguinte tabela fornece uma visão geral das visualizações no conteúdo do Power BI **Análise de contabilização de custos**.
@@ -64,12 +73,14 @@ O conteúdo inclui um conjunto de páginas de relatório. Cada página consiste 
 |                                  | Custo real por nome do membro de dimensão de objeto de custo e nome do membro de dimensão de elemento de custo                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
-Os dados do Dynamics 365 for Operations são usados para preencher as páginas do relatório no conteúdo do Power BI **Análise de contabilização de custos**. Esses dados são representados como medições agregadas que são preparadas na loja Entidade, que é um banco de dados Microsoft SQL otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com a loja Entidade](power-bi-integration-entity-store.md). As principais medidas agregadas a seguir são usadas como base do conteúdo.
+Os seguintes dados são usados para preencher as páginas de relatório no conteúdo do Power BI **Análise de contabilidade de custo**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com a loja Entidade](power-bi-integration-entity-store.md). 
 
-| Entidade                  | Principal medida agregada | Fonte de dados para o Dynamics 365 para Operações | Campo     | descrição                                   |
-|-------------------------|---------------------------|---------------------------------------------|-----------|-----------------------------------------------|
-| Entradas de contabilização de custos | SUM(Valor)               | CAMDATAAggregatedCostEntry                  | Valor    | Valor na moeda contábil de contabilização de custos |
-| Entradas de estatísticas     | SUM(Magnitude)            | CAMDATAAggregatedStatisctialEntry           | Magnitude |                                               |
+As principais medidas agregadas a seguir são usadas como base do conteúdo.
+
+| Entidade                  | Principal medida agregada | Fonte de dados para Dynamics 365      | Campo     | descrição                                        |
+|-------------------------|---------------------------|-----------------------------------|-----------|----------------------------------------------------|
+| Entradas de contabilização de custos | SUM(Valor)               | CAMDATAAggregatedCostEntry        | Valor    | O valor na moeda contábil de contabilização de custos. |
+| Entradas de estatísticas     | SUM(Magnitude)            | CAMDATAAggregatedStatisctialEntry | Magnitude |                                                    |
 
 A tabela a seguir mostra como as principais medidas agregadas são usadas para criar diversas medidas calculadas no conjunto de dados do conteúdo.
 
@@ -114,16 +125,4 @@ As principais dimensões a seguir são usadas como filtros para cortar as medida
 | Calendários fiscais                   | Calendário, descrição do calendário                                                                                       |
 | Anos fiscais                       | Ano civil                                                                                                        |
 | Períodos fiscais                     | Período de ano civil                                                                                                 |
-
-## <a name="additional-resources"></a>Recursos adicionais
-Estes são alguns links úteis relacionados às entidades e ao desenvolvimento de conteúdo do Power BI:
-
--   [Entidades de dados](..\data-entities\data-entities.md)
--   [Criando pacotes de conteúdo organizacionais](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Modelagem de dados por meio do Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Adicionando blocos do Power BI aos espaços de trabalho](configure-power-bi-integration.md)
--   [Definição de segurança do conteúdo Contabilização de custos para o Power BI](setup-security-cost-accounting-content-pack.md)
-
-
-
 

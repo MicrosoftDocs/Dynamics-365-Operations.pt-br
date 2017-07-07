@@ -3,13 +3,13 @@ title: "Pagina inicial de contabilização de custos"
 description: "Este tópico oferece uma lista de tópicos de ajuda e outros recursos disponíveis para contabilização de custos."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bcbf755c7adb3589ca0fa5242589f1aae3ef6e1b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4514c6dbf014720c29e79889bf1fcc0efd6cd3ec
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ O módulo Contabilização de custos permite:
 
 ## <a name="get-started"></a>Introdução
 
-Estes laboratórios de contabilização de custos fornecem as etapas básicas para configurar o Microsoft Dynamics 365 for Operations – Contabilização de custos para realização da análise de custos reais. Também fornecem uma série de procedimentos que você pode concluir na ordem em que aparecem.
+Estes laboratórios práticos de contabilização de custos fornecem as etapas básicas para configurar o Microsoft Dynamics 365 for Finance and Operations, Enterprise edition – Contabilização de custos para realização da análise de custos reais. Também fornecem uma série de procedimentos que você pode concluir na ordem em que aparecem.
 
 -   [Introdução à contabilização de custos](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc) (white paper e requer uma conta CustomerSource)
 
@@ -69,10 +69,10 @@ Com o espaço de trabalho móvel de controle de custos, os gerentes de centro de
 -   [Espaço de trabalho móvel de controle de custos](cost-controlling-mobile-workspace.md)
 
 ## <a name="cost-accounting-analysis-power-bi-content"></a>Conteúdo do Power BI Análise de contabilização de custos
-O conteúdo do Microsoft Power BI Análise de contabilização de custos destina-se a controladores de custo ou qualquer pessoa responsável por realizar o controle de custos de uma organização. Ele inclui as principais métricas, como custo, magnitude e taxa de custo por custo real, custo de orçamento e custo de orçamento flexível. Usa dados de transação de contabilização de custos no Microsoft Dynamics 365 for Operations e fornece uma visão agregada dos custos de toda a organização em uma moeda de relatório. Os gerentes podem filtrar os dados por objetos de custo para realizar o controle de custos de suas unidades organizacionais, mesmo que a organização possa ter várias entidades legais.
+O conteúdo do Microsoft Power BI Análise de contabilização de custos destina-se a controladores de custo ou qualquer pessoa responsável por realizar o controle de custos de uma organização. Ele inclui as principais métricas, como custo, magnitude e taxa de custo por custo real, custo de orçamento e custo de orçamento flexível. Usa dados de transação de contabilização de custos no Finance and Operations e fornece uma visão agregada dos custos de toda a organização em uma moeda de relatório. Os gerentes podem filtrar os dados por objetos de custo para realizar o controle de custos de suas unidades organizacionais, mesmo que a organização possa ter várias entidades legais.
 
--   [Conteúdo do Power BI Análise de contabilização de custos](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [Configurar segurança para a análise de contabilidade de custos e conteúdo do Power BI](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+-   [Conteúdo do Power BI Análise de contabilização de custos](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [Configurar segurança para a análise de contabilidade de custos e conteúdo do Power BI](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 
 
 

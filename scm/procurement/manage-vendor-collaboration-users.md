@@ -3,14 +3,14 @@ title: "Gerenciar usuários de colaboração do fornecedor"
 description: "Este tópico descreve como você pode solicitar o provisionamento de novos usuários de colaboração do fornecedor e como adicionar novos contatos de colaboração do fornecedor."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendVendorContactPerson, VendVendorPortalUser
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220744
 ms.assetid: edc19ad0-3565-4d47-98ac-dda6098f63ac
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7e747547ed5cf4654a99382ecc8f9f6103ec5cfa
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ec7ed3a81d296e9bef4d26f1756b73883d560cb5
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 Este tópico descreve como você pode solicitar o provisionamento de novos usuários de colaboração do fornecedor e como adicionar novos contatos de colaboração do fornecedor. 
 
-A interface de colaboração do fornecedor no Microsoft Dynamics 365 for Operations expõe informações sobre ordens de compra, faturas e estoque de consignação para fornecedores externos. Você pode criar novos contatos de colaboração de fornecedor e solicitar que os novos usuários sejam provisionados se você estiver trabalhando com um fornecedor externo com a função de segurança **Administrador do fornecedor (externo)** ou permissões semelhantes. Você também pode executar essas tarefas se estiver trabalhando como um profissional de compras. Neste tópico, esta função se refere um profissional de compras que esteja trabalhando na empresa responsável pela instância do Dynamics 365 for Operations. Para obter mais informações sobre como usar a colaboração de fornecedor se você for um fornecedor externo, consulte [Fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+A interface de colaboração do fornecedor no Microsoft Dynamics 365 for Finance and Operations expõe informações sobre ordens de compra, faturas e estoque de consignação para fornecedores externos. Você pode criar novos contatos de colaboração de fornecedor e solicitar que os novos usuários sejam provisionados se você estiver trabalhando com um fornecedor externo com a função de segurança **Administrador do fornecedor (externo)** ou permissões semelhantes. Você também pode executar essas tarefas se estiver trabalhando como um profissional de compras. Neste tópico, esta função se refere a um profissional de compras que esteja trabalhando na empresa responsável pela instância do Finance and Operations. Para obter mais informações sobre como usar a colaboração de fornecedor se você for um fornecedor externo, consulte [Fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
 
 Para obter mais informações sobre como usar a colaboração de fornecedor se você for um profissional de compras, consulte [Colaboração do fornecedor com fornecedores externos](vendor-collaboration-work-external-vendors.md).
 
@@ -62,12 +62,12 @@ Quando uma solicitação é enviada, ela será adicionada a lista **Solicitaçõ
 Antes que você possa solicitar que um novo usuário seja provisionado, ele deverá ser configurado como um contato para uma ou mais contas de fornecedor. Para criar uma solicitação para um novo usuário de colaboração do fornecedor:
 
 1.  Na página **Todos os contatos**, clique em **Provisionar o usuário fornecedor**.
-2.  Insira um endereço de email para o usuário. Esse endereço será usado pelo usuário para fazer logon no Dynamics 365 for Operations. Se o endereço de email pertencer a um domínio registrado como um inquilino com Microsoft Azure, o endereço de email deverá ser uma conta do ADD (Azure Active Directory) existente para que o processo de provisionamento seja concluído com êxito. Se o endereço de email não pertencer a um domínio registrado com o Microsoft Azure, uma conta do ADD será criada como parte do processo de provisionamento e o novo usuário receberá um email de convite. Os endereços de email de consumidores com domínios como @hotmail.com, @gmail.com ou @comcast.net não poderão ser usados para registrar um usuário do Dynamics 365 for Operations.
+2.  Insira um endereço de email para o usuário. Esse endereço será usado pelo usuário para fazer logon no Finance and Operations. Se o endereço de email pertencer a um domínio registrado como um inquilino com Microsoft Azure, o endereço de email deverá ser uma conta do ADD (Azure Active Directory) existente para que o processo de provisionamento seja concluído com êxito. Se o endereço de email não pertencer a um domínio registrado com o Microsoft Azure, uma conta do ADD será criada como parte do processo de provisionamento e o novo usuário receberá um email de convite. Os endereços de email de consumidores com domínios como @hotmail.com, @gmail.com ou @comcast.net não poderão ser usados para registrar um usuário do Finance and Operations.
 3.  Defina a opção **Acesso à colaboração do fornecedor permitido** como **Sim** para todas as entidades legais às quais o usuário precisa ter acesso.
 4.  Na seção **Atribuir funções de usuário**, marque a caixa de seleção **Atribuir** para as funções de segurança que o novo usuário deve ter.
 5.  Clique em **Enviar**.
 
-Quando a solicitação do usuário fornecedor é enviada, o campo **Acesso à colaboração do fornecedor permitido** é definido como **Sim** para a conta de fornecedor selecionada e um fluxo de trabalho da solicitação de usuário é iniciado. Como parte do fluxo de trabalho, um novo usuário será criado Dynamics 365 for Operations e as funções de segurança serão atribuídas. Além disso, um serviço Azure B2B é ativado, o que inicia a interação com o portal do Azure e associa uma conta do AAD nova ou existente à conta de usuário do Dynamics 365 for Operations.
+Quando a solicitação do usuário fornecedor é enviada, o campo **Acesso à colaboração do fornecedor permitido** é definido como **Sim** para a conta de fornecedor selecionada e um fluxo de trabalho da solicitação de usuário é iniciado. Como parte do fluxo de trabalho, um novo usuário será criado no Finance and Operations, e as funções de segurança serão atribuídas. Além disso, um serviço Azure B2B é ativado, o que inicia a interação com o portal do Azure e associa uma conta do AAD nova ou existente à conta de usuário do Finance and Operations.
 
 ### <a name="inactivate-a-user"></a>Desativar um usuário
 

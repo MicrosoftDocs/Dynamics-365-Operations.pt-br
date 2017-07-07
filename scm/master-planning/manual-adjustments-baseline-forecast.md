@@ -3,14 +3,14 @@ title: "Faça ajustes manuais para a previsão estatística"
 description: "Este artigo explica como é possível fazer ajustes manuais em uma previsão estatística e exibir os detalhes da previsão."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 00e3d39d93a971dd6d4e88e322a1311eb58d7230
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0b3b56aa838888461a6d27c6612e405a3cf59414
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -46,7 +46,7 @@ A página **Previsão de demanda ajustada** inclui uma grade com a seguinte estr
 ## <a name="forecast-aggregation-and-deaggregation"></a>Agregação e desagregação de previsão
 O subtítulo da página mostra o nível da agregação de previsão. 
 
-Por exemplo, se o subtítulo da página for **Empresa/Site/Chave de alocação/Número do item/Cor/Tamanho/Configuração/Estilo**, não haverá agregação de previsão, e a previsão aparecerá no nível do item e em suas dimensões. Para alterar a agregação, use a página**Alterar as dimensões de previsão**, que pode ser aberta no menu do aplicativo. 
+Por exemplo, se o subtítulo da página for **Empresa/Site/Chave de alocação/Número do item/Cor/Tamanho/Configuração/Estilo**, não haverá agregação de previsão, e a previsão aparecerá no nível do item e em suas dimensões. Para alterar a agregação, use a página **Alterar as dimensões de previsão**, que pode ser aberta no menu do aplicativo. 
 
 Para modificar a previsão, clique em qualquer uma das células disponíveis e digite o valor de previsão ajustado. A célula editada fica imediatamente em negrito para indicar que a previsão mostrada não é a previsão que o serviço de previsão de demanda criou, mas foi ajustada manualmente. 
 
@@ -59,7 +59,7 @@ Quando o ajuste da quantidade prevista é feito em um nível agregado, o sistema
 Você também pode fazer ajustes manuais na página **Linhas de previsão de demanda**, modificando o valor **Quantidade total** ou as células **Quantidade** na grade de desagregação.
 
 ## <a name="viewing-details-of-the-forecast"></a>Exibindo os detalhes da previsão
-Você pode abrir a página**Detalhes de previsão de demanda** para exibir mais informações sobre a previsão. 
+Você pode abrir a página **Detalhes de previsão de demanda** para exibir mais informações sobre a previsão. 
 
 A página **Detalhes de previsão de demanda** mostra as seguintes informações em gráficos e tabelas:
 
@@ -73,7 +73,7 @@ A página **Detalhes de previsão de demanda** mostra as seguintes informações
 **Observações:**
 
 -   O intervalo de confiança exibido na seção **Previsão** da página representa a diferença entre os limites superior e inferior do intervalo de confiança. Para ver os valores dos limites superior e inferior, focalize o gráfico na seção **Demanda histórica e previsão graficamente**.
--   Se você usar o serviço de Aprendizado de Máquina do Microsoft Azure da previsão de demanda do Dynamics 365 for Operations, poderá especificar a porcentagem do nível de confiança que a previsão gerada deve ter. Um intervalo de confiança consiste em um intervalo de valores que representam boas estimativas para a previsão de demanda. Um nível de confiança de 95% indica que há um risco de 5% de que a previsão de demanda fique fora do intervalo de confiança.
+-   Se você usar o serviço de Aprendizado de Máquina do Microsoft Azure da previsão de demanda do Finance and Operations, poderá especificar a porcentagem do nível de confiança que a previsão gerada deve ter. Um intervalo de confiança consiste em um intervalo de valores que representam boas estimativas para a previsão de demanda. Um nível de confiança de 95% indica que há um risco de 5% de que a previsão de demanda fique fora do intervalo de confiança.
 
 Você também pode fazer ajustes manuais na previsão na página **Detalhes de previsão de demanda**, modificando os valores na linha **Previsão** da seção **Previsão**.
 

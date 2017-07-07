@@ -3,14 +3,14 @@ title: "Criar um modelo de configuração de produto"
 description: "A necessidade de configurar produtos para atender aos requisitos especiais está se tornando regra, e não exceção, em relações entre negócios e de negócio para consumidor."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 75083
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 901d5dd18f0da6f05c185c24b3f11fe32fdc400b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 5bc19e95266e8f1bec8744da688387dca559373f
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -72,7 +72,7 @@ As restrições de tabela podem ser definidas pelo usuário ou pelo sistema.
 
 Uma restrição de tabela definida pelo usuário é criada pelo usuário. O usuário seleciona uma combinação dos tipos de atributo para representar as colunas da tabela e insere valores dos domínios dos tipos de atributo selecionados para formar as linhas na restrição de tabela.  
 
-Uma restrição de tabela definida pelo sistema é definida selecionando a tabela do Microsoft Dynamics 365 for Operations a ser usada como referência e os campos dessa tabela para formar as colunas na restrição. As linhas de restrição da tabela são as linhas da tabela do Dynamics 365 for Operations que estão presentes no período de configuração.  
+Uma restrição de tabela definida pelo sistema é definida selecionando a tabela do Microsoft Dynamics 365 for Finance and Operations a ser usada como referência e os campos dessa tabela para formar as colunas na restrição. As linhas de restrição da tabela são as linhas da tabela do Finance and Operations que estão presentes no período de configuração.  
 
 Uma restrição de tabela é incluída em um modelo de configuração do produto, referenciando a definição de restrição de tabela e mapeando os atributos relevantes no modelo para as colunas na restrição da tabela.
 

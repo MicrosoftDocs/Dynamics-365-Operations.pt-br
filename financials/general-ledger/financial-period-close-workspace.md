@@ -3,7 +3,7 @@ title: "Espaço de trabalho de fechamento do período financeiro"
 description: "Este artigo fornece uma visão geral do espaço de trabalho financeiro final do período e a configuração associada."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 788b0af30eb750cad8f958ecc4c33cf989b2a417
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -65,7 +65,7 @@ A opção **Conclusão da tarefa** deve ser selecionada manualmente depois que a
 Você pode exibir todas as tarefas do fechamento do período anterior ou atual na página de listagem **Todas as tarefas de fechamento**. Esta página de listagem é usada para análise histórica de seu processo de fechamento, pois inclui informações sobre a data de vencimento programada, a data de conclusão real e a pessoa que concluiu a tarefa. Você pode facilmente exportar informações nesta página de listagem para o Microsoft Excel para fins de relatórios e de auditoria.
 
 ## <a name="financial-period-close-configuration-page"></a>Página de configuração do fechamento do período financeiro
-Antes que possa usar o espaço de trabalho **Fechamento do período financeiro**, você deve configurar o processamento no Microsoft Dynamics 365 for Operations usando a página **Configuração do fechamento do período financeiro**. (Clique em **Contabilidade** &gt; **Fechamento do período** &gt; **Configuração do fechamento no período financeiro**.)
+Antes que possa usar o espaço de trabalho **Fechamento do período financeiro**, você deve configurar o processo no Microsoft Dynamics 365 for Finance and Operations usando a página **Configuração do fechamento do período financeiro**. (Clique em **Contabilidade** &gt; **Fechamento do período** &gt; **Configuração do fechamento no período financeiro**.)
 
 ### <a name="resources"></a>Recursos
 
@@ -90,7 +90,7 @@ Use um modelo de fechamento financeiro para definir todas as tarefas que fazem p
 
 Você pode atribuir uma tarefa no modelo a uma ou mais empresas às quais essa tarefa se aplica. Se uma pessoa diferente é atribuída para concluir o compromisso de trabalho em cada empresa, talvez seja útil criar várias tarefas para o mesmo compromisso de trabalho. Crie uma tarefa para cada empresa. 
 
-O item de menu **Link da tarefa** é associado ao compromisso de trabalho da tarefa e pode ser usado para ir diretamente à página associada no link da tarefa no espaço de trabalho. Por exemplo, uma tarefa de fechamento para executar o processo de reavaliação da moeda para contas a pagar pode ser vinculada à página **Reavaliação de moeda estrangeira** no Microsoft Dynamics 365 for Operations. É possível também vincular a um URL externo. 
+O item de menu **Link da tarefa** é associado ao compromisso de trabalho da tarefa e pode ser usado para ir diretamente à página associada no link da tarefa no espaço de trabalho. Por exemplo, uma tarefa de fechamento para executar o processo de reavaliação da moeda para contas a pagar pode ser vinculada à página associada **Reavaliação de moeda estrangeira** no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. É possível também vincular a um URL externo. 
 
 > [!Dica] Se você deseja vincular um relatório do Management reporter a uma tarefa de fechamento do período financeiro, é possível usar o URL do relatório. Para acessar a URL do relatório, abra o relatório no criador de relatórios e clique em **Arquivo** &gt; **Relatório de exibição** para abrir o relatório em um navegador. É possível copiar a URL na barra de endereços do navegador e colá-la no campo **URL** do **Link da tarefa**. 
 

@@ -1,6 +1,6 @@
 ---
 title: Configurar pagamentos centralizados
-description: 
+description: "Siga essas etapas para se preparar para processar pagamentos em uma entidade legal em nome de outras entidades legais na sua organização."
 author: twheeloc
 manager: AnnBe
 ms.date: 05/09/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerInterCompany
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62243
 ms.assetid: ffd17b5f-9aea-40e0-be49-d8702f615256
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 60cc59911cf2d10d73206885eb97b346ec3e3e87
+ms.sourcegitcommit: 975497e8ed0c9738c225bad4db9165bf2ebc0192
+ms.openlocfilehash: 0b33e37699fb9b81ad1803f670a4dedbce6a9c29
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/05/2017
 
 
 ---
@@ -29,8 +29,6 @@ ms.lasthandoff: 05/25/2017
 # <a name="set-up-centralized-payments"></a>Configurar pagamentos centralizados
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 Siga essas etapas para se preparar para processar pagamentos em uma entidade legal em nome de outras entidades legais na sua organização. Antes de começar, a seguinte configuração deve ser concluída:
@@ -56,7 +54,7 @@ Quando você cria um pagamento em uma entidade legal que liquida faturas em outr
 Quando você cria um pagamento em uma entidade legal que liquida faturas em outras entidades legais, o método das IDs de pagamento deve ser igual nas duas entidades legais. Para ajudar a garantir que os pagamentos foram criados corretamente, em cada entidade legal da fatura, configure um método de pagamento que corresponde aos métodos de pagamentos que são usados na entidade legal do pagamento. Alterne para a primeira entidade legal da fatura e, na página **Métodos de pagamento**, você pode criar um novo método de pagamento ou editar um método de pagamento existente. As seleções para o método de pagamento na entidade legal da fatura não precisam corresponder à configuração do método de pagamento na entidade legal do pagamento.
 
 ## <a name="set-up-default-descriptions"></a>Configurar descrições padrão
-É possível definir as descrições padrão para comprovantes de liquidação intercompanhia. A descrição padrão é incluída nas transações a vencer e vencidas durante o processo de liquidação entre empresas. Na página **Descrições padrão**, você pode criar novas descrições para **Liquidação do cliente intercompanhia**and **Liquidação do fornecedor intercompanhia** ao selecionar um idioma ao inserir texto.
+É possível definir as descrições padrão para comprovantes de liquidação intercompanhia. A descrição padrão é incluída nas transações a vencer e vencidas durante o processo de liquidação entre empresas. Na página **Descrições padrão**, você pode criar novas descrições para **Liquidação do cliente intercompanhia** and **Liquidação do fornecedor intercompanhia** ao selecionar um idioma ao inserir texto.
 
 
 

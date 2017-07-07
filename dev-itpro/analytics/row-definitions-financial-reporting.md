@@ -3,7 +3,7 @@ title: "Definições de linha no designer de relatório financeiro"
 description: "Uma definição de linha é um componente de relatório ou bloco de construção que especifica o conteúdo de cada linha em um relatório financeiro. Uma definição de linha pode ser combinada com as definições de coluna, definições de árvore de relatórios e as definições de relatório para criar um grupo do bloco de construção que possa ser usado por várias empresas."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cf0886725e2d8d4031e19810e75755f4306b7c49
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -49,7 +49,7 @@ Uma definição de linha é um componente de relatório ou bloco de construção
 Uma definição de linha pode conter até 20.000 linhas de dimensão financeira e pode incluir as seguintes informações:
 
 -   O texto descritivo que confere significado ao relatório ao criar títulos, linhas e espaços na seção, como **Pagamento à vista** ou **Receita total**
--   Links para dados financeiros, que podem incluir valores de dimensão no Microsoft Dynamics 365 for Operations **Observação:** Você pode configurar uma definição de linha para puxar dados do sistema de dimensões financeiras sempre que o relatório é gerado.
+-   Links para dados financeiros, que podem incluir valores de dimensão no Microsoft Dynamics 365 for Finance and Operations **Observação:** Você pode configurar uma definição de linha para puxar dados do sistema de dimensões financeiras sempre que o relatório é gerado.
 -   Os totais de linhas e as fórmulas que se baseiam nos dados financeiros vinculados
 
 Geralmente, cada linha em uma definição de linha contém um dos seguintes tipos de informações:
@@ -101,9 +101,9 @@ Para ajustar o arredondamento em um balanço, siga as etapas a seguir.
     -   **Linha de total de passivos e capital próprio** – O código de linha da linha no balanço que contém o total de passivos e capital próprio.
     -   **Limite de valor de ajuste** – Um limite positivo que especifica o limite em ajustes automáticos. Esse valor é comparado ao valor absoluto da diferença de arredondamento real.
 
-    **Observação:**Esses códigos de linha devem estar vinculados aos seus dados financeiros. Em outras palavras, a linha deve ter um valor de dimensão na célula **Link para Dimensões Financeiras**. Não **referencie** uma linha de descrição (**DESC**), calculada (**CALC**) ou totalizada (**TOT**).
+    **Observação:** Esses códigos de linha devem estar vinculados aos seus dados financeiros. Em outras palavras, a linha deve ter um valor de dimensão na célula **Link para Dimensões Financeiras**. Não **referencie** uma linha de descrição (**DESC**), calculada (**CALC**) ou totalizada (**TOT**).
 
-Os valores no balanço serão equilibrados agora uniformemente quando o arredondamento estiver ativado. **Observação:**O limite de ajuste é aplicado com base na opção **Precisão de arredondamento** que é especificada para a definição de relatório. Por exemplo, se você selecionar para arredondar o relatório em milhares e inserir **2** no campo **Limite de valor de ajuste**, será exibida uma mensagem de aviso quando o valor identificado no campo **Linha de ajuste de arredondamento** aumentar ou diminuir em mais de US$ 2.000.
+Os valores no balanço serão equilibrados agora uniformemente quando o arredondamento estiver ativado. **Observação:** O limite de ajuste é aplicado com base na opção **Precisão de arredondamento** que é especificada para a definição de relatório. Por exemplo, se você selecionar para arredondar o relatório em milhares e inserir **2** no campo **Limite de valor de ajuste**, será exibida uma mensagem de aviso quando o valor identificado no campo **Linha de ajuste de arredondamento** aumentar ou diminuir em mais de US$ 2.000.
 
 ## <a name="format-row-and-column-text"></a>Linha de formato e texto da coluna
 Você pode personalizar a aparência dos relatórios alterando fontes e formatação de texto. As seções a seguir explicam como formatar a aparência de linhas e colunas em relatórios.

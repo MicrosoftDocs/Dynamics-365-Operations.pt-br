@@ -1,27 +1,27 @@
 ---
 title: Estruturas de detalhamento de trabalho
-description: 
+description: "Uma estrutura de detalhamento de trabalho (WBS) é uma descrição do trabalho que será feito para um projeto. É uma hierarquia de tarefas que representa a compreensão da equipe do projeto da composição do trabalho, e do tamanho, custo, e duração de cada componente ou tarefa."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a700f61bcc6e6d9c699987999be25649862b0d8
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 6d4391f1a6fa517b447387562fd3216201451316
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,10 +30,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-
-
-
-Estruturas de detalhamento de trabalho Uma estrutura de detalhamento de trabalho (WBS) é uma descrição do trabalho que será feito para um projeto. É uma hierarquia de tarefas que representa a compreensão da equipe do projeto da composição do trabalho, e do tamanho, custo, e duração de cada componente ou tarefa. Uma WBS tem três fins principais:
+Uma estrutura de detalhamento de trabalho (WBS) é uma descrição do trabalho que será feito para um projeto. É uma hierarquia de tarefas que representa a compreensão da equipe do projeto da composição do trabalho, e do tamanho, custo, e duração de cada componente ou tarefa. Uma WBS tem três fins principais:
 
 -   Descrever o detalhamento ou composição do trabalho em tarefas.
 -   Planejar o trabalho do projeto.
@@ -43,7 +40,7 @@ O nível de detalhe em uma WBS depende do nível de precisão exigido em estimat
 
 Por outro lado, os projetos em setores como mídia e propaganda, software, e infraestrutura de TI tendem a ser de um tipo único, e a produtividade é relativa à experiência e competência do indivíduo que está executando a tarefa. Consequentemente, essas indústrias utilizam uma WBS para obter uma aproximação do tamanho de um projeto, ao invés de acompanhar o progresso do projeto em detalhes. 
 
-Construir uma WBS é um processo intensivo que geralmente é feito durante um longo período de tempo, e que requer colaborações e informações de diversas pessoas. Este tópico descreve como você pode usar aprimoramentos de WBS no Microsoft Dynamics 365 for Operations para atender os requisitos de estimativas e acompanhamento.
+Construir uma WBS é um processo intensivo que geralmente é feito durante um longo período de tempo, e que requer colaborações e informações de diversas pessoas. Este tópico descreve como você pode usar aprimoramentos de WBS no Microsoft Dynamics 365 for Finance and Operations para atender os requisitos de estimativas e acompanhamento.
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>Pré-requisitos para criação de uma WBS
 Para criar uma WBS, você deve ser capaz de criar um plano de trabalho e estimar os custos de trabalho.
@@ -68,7 +65,7 @@ Para configurar os dias úteis e as horas de trabalho em um calendário, ou para
 Para usar todas as funcionalidades da estimativa de custo da WBS, você deve configurar os preços de custo e venda para os funcionários, categorias de trabalho, despesas e taxas, e itens.
 
 -   Para configurar as categorias de preços de custo e venda do trabalho, despesa, e taxa, clique em **Gerenciamento de projetos e contabilidade** &gt; **Configuração** &gt; **Preços**.
--   Para configurar os preços de custo e venda dos itens, utilize a página **Contratos comerciais**para cada item na página de listagem **Produtos liberados** em Gerenciamento de informações sobre produtos.
+-   Para configurar os preços de custo e venda dos itens, utilize a página **Contratos comerciais** para cada item na página de listagem **Produtos liberados** em Gerenciamento de informações sobre produtos.
 
 ## <a name="creating-a-wbs"></a>Criando uma WBS
 Criar uma WBS envolve três atividades:
@@ -106,10 +103,10 @@ No momento, você não pode personalizar o sistema de numeração da WBS.
 
 ### <a name="schedule-estimation"></a>Estimativa de planejamento
 
-Estimativa de planejamento é, geralmente, a segunda etapa da criação de uma WBS. Como prática recomendada, você deve concluir a estimativa do planejamento depois de criar as tarefas. A página **Estrutura de detalhamento de trabalho** no Microsoft Dynamics 365 for Operations tem duas seções. O painel superior é destinado à estimativa de planejamento, e o painel inferior inclui uma aba **Custos e receitas estimados** que você pode utilizar na estimativa de custos. 
+Estimativa de planejamento é, geralmente, a segunda etapa da criação de uma WBS. Como prática recomendada, você deve concluir a estimativa do planejamento depois de criar as tarefas. A página **Estrutura de detalhamento de trabalho** no Finance and Operations tem duas seções. O painel superior é destinado à estimativa de planejamento, e o painel inferior inclui uma aba **Custos e receitas estimados** que você pode utilizar na estimativa de custos. 
 **Dependências da tarefa** Em uma WBS, você pode criar uma relação de antecessor entre tarefas. Ao atribuir tarefas de antecessor a uma tarefa, aquela tarefa só poderá ser iniciada depois que todas suas tarefas de antecessor forem completadas. A data planejada de início da tarefa é automaticamente definida como a data mais distante entre todas suas antecessores. 
 
-**Planejamento de tarefa no Microsoft Dynamics 365 for Operations** Os seguintes fatores determinam o planejamento das tarefas do nó folha:
+**Planejamento de tarefa no Microsoft Dynamics 365 for Finance and Operations** Os seguintes fatores determinam o planejamento das tarefas do nó folha:
 
 -   Predecessores
 -   Esforço
@@ -126,7 +123,7 @@ A data de início de uma tarefa do nó folha que não tem antecessoras é automa
 
 Número de pessoas × Duração × Número de horas em um dia de trabalho padrão no calendário do projeto. 
 
-Em alguns casos, você pode querer afastar-se essas regras. É possível desativar o planejamento automático para evitar que o Microsoft Dynamics 365 for Operations defina ou corrija automaticamente alguma propriedade das tarefas do nó folha. Quando você insere informações sobre uma tarefa que pode causar uma violação de alguma regra de planejamento, um ícone de erro de planejamento é exibido na tarefa. Se você não deseja que os erros de planejamento sejam exibidos, clique em **Erros de planejamento são exibidos** para desativar esse recurso. 
+Em alguns casos, você pode querer afastar-se essas regras. É possível desativar o planejamento automático para evitar que o Finance and Operations defina ou corrija automaticamente alguma propriedade das tarefas do nó folha. Quando você insere informações sobre uma tarefa que pode causar uma violação de alguma regra de planejamento, um ícone de erro de planejamento é exibido na tarefa. Se você não deseja que os erros de planejamento sejam exibidos, clique em **Erros de planejamento são exibidos** para desativar esse recurso. 
 
 > [!NOTE] 
 > Os valores de uma tarefa de resumo ou acolhedora continuam a ser calculados como a soma dos valores das tarefas componentes, independentemente da assistência automática de planejamento estar ativada ou desativada. 
@@ -135,7 +132,7 @@ Em alguns casos, você pode querer afastar-se essas regras. É possível desativ
 
 **Corrigindo erros de planejamento por tarefa** Quando você clica duas vezes no ícone de erro de planejamento de uma tarefa específica, uma caixa de diálogo exibe todos os erros de planejamento daquela tarefa. Você pode decidir quais erros de planejamento corrigir para a tarefa. 
 
-**Corrigindo todos os erros de planejamento** Se você deseja que o Microsoft Dynamics 365 for Operations corrija todos os erros de planejamento na WBS, no Painel de Ação, clique em **Corrigir todas as discrepâncias de planejamento**. 
+**Corrigindo todos os erros de planejamento** Se você deseja que o Finance and Operations corrija todos os erros de planejamento na WBS, no Painel de Ação, clique em **Corrigir todas as discrepâncias de planejamento**. 
 
 > [!NOTE] 
 > Este recurso pode causar alterações significativas na WBS. Erros são corrigidos de acordo com a seguinte ordem:
@@ -170,7 +167,7 @@ O custo e o preço de venda de cada linha de estimativa de mão-de-obra ou despe
 ## <a name="tracking-progress-on-the-wbs"></a>Acompanhando progresso na WBS
 Algumas indústrias acompanham o andamento de um projeto em relação a uma WBS a um nível muito granular, enquanto outras acompanham o progresso a um nível superior da WBS. Esta seção descreve como você pode utilizar o acompanhamento da WBS para os seus requisitos de projeto. 
 
-O Microsoft Dynamics 365 for Operations tem três exibições para a WBS de um projeto: a Exibição de planejamento, a Exibição do rastreamento do esforço, e a Exibição do rastreamento do custo.
+Finance and Operations tem três exibições para a WBS de um projeto: a Exibição de planejamento, a Exibição do rastreamento do esforço, e a Exibição do rastreamento do custo.
 
 ### <a name="planning-view"></a>Exibição de Planejamento
 
@@ -246,13 +243,13 @@ A fase de tempo no gráfico de valor obtido é exibida por semana ou por mês. E
 
 **Valor planejado** A teoria do EVM afirma que o gráfico do valor planejado representa a taxa com a qual a equipe de projeto planejou obter valor no projeto. 
 
-O Microsoft Dynamics 365 for Operations usa a regra de ganho 0:100 quando traça o valor planejado. Sob essa regra, o valor da tarefa é lançado na tarefa a partir da sua data final. Nenhum valor é lançado até que a tarefa esteja 100 por cento completa. 
+O Finance and Operations usa a regra de ganho 0:100 quando traça o valor planejado. Sob essa regra, o valor da tarefa é lançado na tarefa a partir da sua data final. Nenhum valor é lançado até que a tarefa esteja 100 por cento completa. 
 
 Em Gerenciamento de projetos e contabilidade, insira a data final dos nós folha e o custo planejado para eles. Quando o gráfico do valor planejado é exibido por semana, o valor planejado é resumido por semana em todas as tarefas do nó folha durante a duração do projeto. 
 
 **Valor obtido** A teoria do EVM afirma que o gráfico do valor obtido representa a taxa em que a equipe de projeto está realmente obtendo valor no projeto. 
 
-O Microsoft Dynamics 365 for Operations usa a regra de ganho 0:100 quando traça o valor ganho. Sob essa regra, o valor da tarefa é lançado na tarefa a partir da sua data final. Nenhum valor é lançado até que a tarefa esteja 100 por cento completa. 
+O Finance and Operations usa a regra de ganho 0:100 quando traça o valor obtido. Sob essa regra, o valor da tarefa é lançado na tarefa a partir da sua data final. Nenhum valor é lançado até que a tarefa esteja 100 por cento completa. 
 
 Quando o valor obtido é calculado, a porcentagem do progresso de cada tarefa é considerada. Sob a regra de ganho 0:100, apenas as tarefas que são concluídas em um período especificado são consideradas no cálculo de valor obtido a partir do final daquele período. O valor obtido no projeto é calculado para todas as tarefas que foram concluídas quando o gráfico for criado. 
 

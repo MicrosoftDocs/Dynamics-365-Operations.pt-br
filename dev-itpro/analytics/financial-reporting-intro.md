@@ -1,38 +1,38 @@
 ---
-title: "Relatório financeiro para o Dynamics 365 for Operations"
-description: "Os relatórios financeiros para o Microsoft Dynamics 365 for Operations permitem que profissionais de finanças e negócios criem, mantenham, implementem e visualizem demonstrativos financeiros. Ela vai além do tradicionais restrições de emissão de relatórios para ajudá-lo a projetar com eficiência vários tipos de relatórios."
+title: "Relatórios financeiros do Finance and Operations"
+description: "A emissão de relatórios financeiros do Finance and Operations permite que profissionais de finanças e negócios criem, mantenham, implementem e visualizem demonstrativos financeiros. Ela vai além das tradicionais restrições de emissão de relatórios para ajudá-lo a projetar com eficiência vários tipos de relatórios."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: Management Reporter
+ms.search.scope: Management Reporter, UnifiedOperations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 997c34856d2445b02038d208f91522fe7a9a487c
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 4e0c984b95cd395e7ab23394b886782e55fac90f
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="financial-reporting-for-dynamics-365-for-operations"></a>Relatório financeiro para o Dynamics 365 for Operations
+# <a name="financial-reporting-for-finance-and-operations"></a>Relatórios financeiros do Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
 
-Os relatórios financeiros para o Microsoft Dynamics 365 for Operations permitem que profissionais de finanças e negócios criem, mantenham, implementem e visualizem demonstrativos financeiros. Ela vai além do tradicionais restrições de emissão de relatórios para ajudá-lo a projetar com eficiência vários tipos de relatórios.
+A emissão de relatórios financeiros do Finance and Operations permite que profissionais de finanças e negócios criem, mantenham, implementem e visualizem demonstrativos financeiros. Ela vai além das tradicionais restrições de emissão de relatórios para ajudá-lo a projetar com eficiência vários tipos de relatórios.
 
-Emissão de relatórios financeiros inclui suporte de dimensão. Portanto, segmentos de conta ou dimensões estão imediatamente disponíveis. Não há ferramentas adicionais ou etapas de configuração necessárias.
+A emissão de relatórios financeiros inclui o suporte de dimensão. Portanto, segmentos de conta ou dimensões estão imediatamente disponíveis. Não há ferramentas adicionais ou etapas de configuração necessárias.
 
 ## <a name="financial-reporting-components"></a>Componentes de relatórios financeiros
 Os componentes a seguir do relatório financeiro facilitam a criação, exibição e agendamento de relatórios.

@@ -1,15 +1,15 @@
 ---
 title: "Visão geral do controle de orçamento"
-description: "Este artigo introduz o controle de orçamento e fornece informações para ajudá-lo na configuração do controle de orçamento no Microsoft Dynamics 365 for Operations de forma que você possa gerenciar recursos financeiros."
+description: "Este artigo introduz o controle de orçamento e fornece informações para ajudá-lo na configuração do controle de orçamento no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition de forma que você possa gerenciar recursos financeiros."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
@@ -17,27 +17,27 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48649b891be72529e6045e48f9738fe68be6cffe
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="budget-control-overview"></a>Visão geral do controle de orçamento
+# <a name="budget-control-overview"></a>Visão geral de controle de orçamento 
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo introduz o controle de orçamento e fornece informações para ajudá-lo na configuração do controle de orçamento no Microsoft Dynamics 365 for Operations de forma que você possa gerenciar recursos financeiros.
+Este artigo introduz o controle de orçamento e fornece informações para ajudá-lo na configuração do controle de orçamento no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition de forma que você possa gerenciar recursos financeiros.
 
 <a name="overview"></a>Visão Geral
 --------
 
-O controle de orçamento no Microsoft Dynamics 365 for Operations oferece suporte ao gerenciamento dos recursos financeiros de uma organização por meio de plano de contas, fluxo de trabalho, grupos de usuários, documentos de origem e diários, cálculo disponível de fundos configuráveis, ciclos orçamentários e limites. Quando os controles estão em vigor, uma organização pode planejar, medir, gerenciar e prever os recursos financeiros ao longo do ano fiscal. 
+O controle de orçamento no Microsoft Dynamics 365 for Finance and Operations oferece suporte ao gerenciamento dos recursos financeiros de uma organização por meio de plano de contas, fluxo de trabalho, grupos de usuários, documentos de origem e diários, cálculo disponível de fundos configuráveis, ciclos orçamentários e limites. Quando os controles estão em vigor, uma organização pode planejar, medir, gerenciar e prever os recursos financeiros ao longo do ano fiscal. 
 
-Depois que os orçamentos foram aprovados no Dynamics 365 for Operations, você pode usar planos de orçamento para gerar entradas de registro de orçamento para registrar o orçamento de despesas para uma organização. Como alternativa, você pode criar ou importar entradas de registro de orçamento de um programa de terceiros em vez de usar a funcionalidade de planejamento de orçamento. 
+Depois que os orçamentos foram aprovados no Finance and Operations, você pode usar planos de orçamento para gerar entradas de registro de orçamento para registrar o orçamento de despesas para uma organização. Como alternativa, você pode criar ou importar entradas de registro de orçamento de um programa de terceiros em vez de usar a funcionalidade de planejamento de orçamento. 
 
 As despesas podem ser registradas usando as contas e dimensões financeiras. Você pode configurar o controle de despesas totais para atender as diretivas e os requisitos da organização para agrupar diversas combinações de dimensões financeiras e contas principais. 
 
@@ -53,7 +53,7 @@ Você pode configurar o controle de orçamento de acordo com diversos fatores:
 -   **Cálculo de fundos disponíveis** - Documentos como requisições de compra (pré-ônus) e ordens de compra (ônus) devem ser considerados no cálculo de fundos disponíveis? Os documentos que têm um status de rascunho devem ser considerados no cálculo?
 -   **Permissão de substituição** - Quem tem permissão para exceder o orçamento disponível?
 
-O controle de orçamento é integrado totalmente com dados do Dynamics 365 for Operations. Consequentemente, você pode classificar o orçamento disponível para compras planejadas e compras reais. Consultas de orçamento e relatórios estão disponíveis. Portanto, os usuários podem avaliar o orçamento por meio do ciclo de orçamento, e podem fazer quaisquer ajustes que são necessários, na forma de revisões de orçamento ou transferências. Um gerente de orçamento pode exportar o orçamento e os valores reais para o Microsoft Excel para fazer análises melhores e previsões, quando necessário.
+O controle de orçamento é integrado totalmente com dados do Finance and Operations. Consequentemente, você pode classificar o orçamento disponível para compras planejadas e compras reais. Consultas de orçamento e relatórios estão disponíveis. Portanto, os usuários podem avaliar o orçamento por meio do ciclo de orçamento, e podem fazer quaisquer ajustes que são necessários, na forma de revisões de orçamento ou transferências. Um gerente de orçamento pode exportar o orçamento e os valores reais para o Microsoft Excel para fazer análises melhores e previsões, quando necessário.
 
 ## <a name="configuring-budget-control"></a>Configuração do controle de orçamento
 ### <a name="budget-cycle-time-span"></a>Período de tempo do ciclo orçamentário
@@ -100,7 +100,7 @@ Em seguida, na guia **Atribuir modelos de orçamento**, você atribui modelos de
 Em seguida, na guia **Definir regras de controle de orçamento**, você deve criar regras específicas com base em dimensões financeiras habilitadas pelo controle de orçamento. Por exemplo, se houver um foco nas despesas ou no intervalo de despesas para um departamento, você pode usar as configurações nesta guia para definir e avaliar essas despesas. Você pode definir limites diferentes para cada regra de controle de orçamento. 
 
 > [!Important]
-> O controle de orçamento será habilitado para conta principal para tipos de **Lucro e perda**, **Despesa**, **Receita, balanço, passivo, capital próprio** ou **Ativo**. Se esta guia contém uma regra com critérios vazios, o controle de orçamento será habilitado para **todas**as combinações de dimensões financeiras que incluem contas desses tipos principais. Portanto, certifique-se de que você criou uma regra de controle de orçamento que define as variações das combinações de dimensão financeira onde é importante que o controle de orçamento seja devolvido.  
+> O controle de orçamento será habilitado para conta principal para tipos de **Lucro e perda**, **Despesa**, **Receita, balanço, passivo, capital próprio** ou **Ativo**. Se esta guia contém uma regra com critérios vazios, o controle de orçamento será habilitado para **todas** as combinações de dimensões financeiras que incluem contas desses tipos principais. Portanto, certifique-se de que você criou uma regra de controle de orçamento que define as variações das combinações de dimensão financeira onde é importante que o controle de orçamento seja devolvido.  
 
 ### <a name="select-main-accounts"></a>Selecionar contas principais
 
@@ -125,10 +125,6 @@ Além disso, lembre-se de que as transações que foram lançadas antes de o con
 ## <a name="using-budget-control"></a>Uso do controle de orçamento
 Depois que o controle de orçamento é ativado, os usuários recebem o aviso do controle de orçamento e mensagens de erro em documentos e diários configurados para controle de orçamento. Lembre-se, você pode configurar o controle de orçamento de forma que os usuários sejam advertidos quando excedam os fundos de orçamento, mas ainda possam continuar a confirmar ou lançar a transação. Os usuários podem exibir os detalhes de verificações de orçamento ou falhas na página **Erros e avisos de controle de orçamento**.   
 
-Nesta página, os usuários podem entrar na página **Estatísticas de controle de orçamento por período** para ver os detalhes de disponibilidade de orçamento e reservas para uma combinação de dimensão de controle de orçamento selecionado. Os usuários podem também entrar na página **Estatística de controle de orçamento**exibir a disponibilidade de orçamento para todas as combinações de dimensões financeiras que são usadas no controle de orçamento. 
+Nesta página, os usuários podem entrar na página **Estatísticas de controle de orçamento por período** para ver os detalhes de disponibilidade de orçamento e reservas para uma combinação de dimensão de controle de orçamento selecionado. Os usuários podem também entrar na página **Estatística de controle de orçamento** exibir a disponibilidade de orçamento para todas as combinações de dimensões financeiras que são usadas no controle de orçamento. 
 
 Se o controle de orçamento for ligado nas ordens de compra, o gerente do orçamento pode usar a área de trabalho **Orçamentos razão e previsões** a revisar a fila de todas as ordens de compra não confirmadas que foram verificadas com avisos de orçamento e erros. Se a gerente de orçamento tem permissões de orçamento excedido configuradas, ela pode confirmar a ordem de compra diretamente no espaço de trabalho.    
-
-
-
-

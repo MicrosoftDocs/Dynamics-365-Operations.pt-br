@@ -3,14 +3,14 @@ title: "Exibir e exportar descrições de campos"
 description: "Este artigo descreve como exibir descrições dos campos e como usar a página de descrições de campo para exportação de descrições."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cd84c03baa4f7a9d38e380c37ed2020ee3387954
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,14 +33,14 @@ ms.lasthandoff: 05/25/2017
 
 Este artigo descreve como exibir descrições dos campos e como usar a página de descrições de campo para exportação de descrições.
 
-O Microsoft Dynamics 365 for Operations tem descrições para alguns dos mais complexos campos. Essas descrições aparecem ao passar o mouse sobre um campo. Você também pode exibir e exportar descrições na página **Descrições de campo**. 
+O Microsoft Dynamics 365 for Finance and Operations tem descrições para alguns dos mais complexos campos. Essas descrições aparecem ao passar o mouse sobre um campo. Você também pode exibir e exportar descrições na página **Descrições de campo**. 
 
 Nem todas as páginas têm descrições de campo. Pretendemos fornecer descrições apenas dos campos mais complexos, e não daqueles cujo uso é evidente. Portanto, algumas páginas não têm todas as descrições de campo, algumas páginas possuem algumas descrições e algumas das páginas mais complexas, como muitas das páginas de parâmetros, há muitas descrições. 
 
-Se você tiver acesso ao ambiente de desenvolvimento do Dynamics 365 for Operations, poderá adicionar suas próprias novas descrições aos campos e personalizar as descrições existentes. Por exemplo, você pode adicionar informações específicas da empresa para uma descrição de campo. Para mais informações, consulte [Personalizar campo de ajuda](/dynamics365/operations/dev-itpro/user-interface/customize-field-help).
+Se você tiver acesso ao ambiente de desenvolvimento do Finance and Operations, poderá adicionar suas próprias novas descrições aos campos e personalizar as descrições existentes. Por exemplo, você pode adicionar informações específicas da empresa para uma descrição de campo. Para mais informações, consulte [Personalizar campo de ajuda](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help).
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>Consulte as descrições na interface de usuário
-Você pode exibir descrições de campo focalizando sobre um campo. Se nenhuma descrição estiver disponível, você verá o nome do campo quando passar o mouse no campo. (Nota: Na versão 7.0.0, as descrições dos campos só podem ser visualizadas na página **Descrições do campo**.) A ilustração a seguir mostra a descrição do campo que aparece quando você passa o cursor do mouse sobre o campo **Bloquear itens durante a contagem**. 
+Você pode exibir descrições de campo focalizando sobre um campo. Se nenhuma descrição estiver disponível, você verá o nome do campo quando passar o mouse no campo. (Nota: No Dynamics AX 7.0 (fevereiro de 2016), as descrições dos campos só podem ser visualizadas na página **Descrições do campo**.) A ilustração a seguir mostra a descrição do campo que aparece quando você passa o cursor do mouse sobre o campo **Bloquear itens durante a contagem**. 
 
 [![Exemplo de uma descrição de campo](./media/field-description.png)](./media/field-description.png)
 
@@ -101,7 +101,7 @@ Para obter informações sobre as várias maneiras de filtrar a lista de página
 <a name="see-also"></a>Consulte também
 --------
 
-[Personalizar campo de ajuda](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+[Personalizar campo de ajuda](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
 
 
 

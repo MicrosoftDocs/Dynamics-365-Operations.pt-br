@@ -3,14 +3,14 @@ title: "Baixar configurações do Relatório eletrônico no Lifecycle Services"
 description: "Este tópico explica como baixar configurações do ER (Relatório eletrônico) do Microsoft Dynamics Lifecycle Services (LCS)."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERSolutionImport, ERWorkspace
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 105843
 ms.assetid: dc44dea2-22ce-401e-98b9-d289e0e2825b
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1e73cd38c33d88feaba825abb64721bc332a4d6e
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: be77d76194e9d38589548113cc650599d5af4323
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -35,7 +35,7 @@ Este tópico explica como baixar configurações do ER (Relatório eletrônico) 
 
 Este tutorial conduz você pelo processo de download da versão mais recente das configurações do ER (Relatório eletrônico) do Microsoft Dynamics LCS (Lifecycle Services).
 
-1.  Entre no Dynamics 365 for Operations usando uma das seguintes funções:
+1.  Entre no Finance and Operations usando uma das seguintes funções:
     -   Desenvolvedor de relatório eletrônico
     -   Consultor funcional de relatório eletrônico
     -   Administrador do sistema
@@ -55,7 +55,7 @@ Este tutorial conduz você pelo processo de download da versão mais recente das
 6.  Clique em **Abrir** para exibir a lista de configurações de ER para o repositório selecionado. [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  Na árvore de configurações, no painel esquerdo, selecione a configuração de ER necessária.
 8.  Na Guia Rápida **Versões**, selecione a versão necessária da configuração de ER selecionada.
-9.  Clique em **Importar** para baixar a versão selecionada do LCS para a instância atual do Dynamics 365 for Operations. **Observação:** o botão **Importar** não está disponível para as versões de configuração do ER que já estão presentes na instância do Dynamics 365 for Operations. [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+9.  Clique em **Importar** para baixar a versão selecionada do LCS para a instância atual do Finance and Operations. **Observação:** o botão **Importar** não está disponível para as versões de configuração do ER que já estão presentes na instância do Finance and Operations. [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
 **Observação:** dependendo das configurações de ER, as configurações são validadas depois que são importadas. Talvez você seja notificado sobre problemas de inconsistências descobertos. Você deve resolver esses problemas para que possa usar a versão de configuração importada. Para obter mais informações, consulte a lista de artigos relacionados deste tópico.
 

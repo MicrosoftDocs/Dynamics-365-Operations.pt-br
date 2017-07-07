@@ -3,7 +3,7 @@ title: "Modificar células de definição de linha"
 description: "Este artigo descreve as informações que são necessárias para cada célula em uma definição de linha em um relatório financeiro e explica como inserir essas informações."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 58881
 ms.assetid: 0af492df-a84e-450c-8045-78ef1211abaf
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 920cd02edee96b829069e88e026af1774d037d9a
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 40ae4e0774c5752d697baba6c8add8aaf44fbb6d
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -152,7 +152,7 @@ Ao criar uma fórmula de total de linha, você deve usar códigos de linha para 
 
 ### <a name="relate-a-format-row-to-an-amount-row"></a>Relacionar uma linha de formato a uma linha de valor
 
-Na coluna **Código de Formato** em uma definição de linha, os códigos de formato **DES**, **LFT**, **RGT**, **CEN**, **---**e **===** aplicam formatação a linhas sem valor. Para impedir que esta formatação seja impressa quando as linhas de valor relacionado forem suprimidas (por exemplo, porque as linhas de valor contêm valores zero ou nenhuma atividade no período), você deve relacionar as linhas de formato às linhas de valor correspondente. Essa funcionalidade é útil quando você deseja evitar que cabeçalhos ou formatação relativos a subtotais sejam impressos quando não há detalhes para impressão no período. 
+Na coluna **Código de Formato** em uma definição de linha, os códigos de formato **DES**, **LFT**, **RGT**, **CEN**, **---** e **===** aplicam formatação a linhas sem valor. Para impedir que esta formatação seja impressa quando as linhas de valor relacionado forem suprimidas (por exemplo, porque as linhas de valor contêm valores zero ou nenhuma atividade no período), você deve relacionar as linhas de formato às linhas de valor correspondente. Essa funcionalidade é útil quando você deseja evitar que cabeçalhos ou formatação relativos a subtotais sejam impressos quando não há detalhes para impressão no período. 
     > [!NOTE]
     >  You can also prevent the detailed amount rows from being printed by clearing the option to display rows without amounts. This option is located on the **Settings** tab of the report definition. By default, transaction detail accounts that have a zero balance or no period activity are suppressed in reports. To show these transaction detail accounts, select the **Display rows without an amounts** check box on the **Settings** tab of the report definition.
 
@@ -252,8 +252,7 @@ Este é um exemplo do relatório que é gerado.
 
 |COGS|873,872|236,144|(637,728)|4,864,274|1,590,315|(3,273,959)|
 
-|Salários e Remunerações|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |Descontos nas Vendas|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Devoluções de Vendas|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Despesas de Aluguel|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Despesas de Aluguel|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Despesas de Viagem|7,656|7,641|(15)|51,062|51,469|407| |Vendas|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |**Classificado pela Variação Absoluta até a presente data em Ordem Decrescente**|||||||
-|Sales|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |Despesas de Viagem|7,656|7,641|(15)|51,062|51,469|407| |Despesas de Escritório|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Devoluções de Vendas|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Despesas de Aluguel|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Descontos nas Vendas|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Salários e Remunerações|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |COGS|873,872|236,144|(637,728)|4,864,274|1,590,315|(3,273,959)|
+|Salários e Remunerações|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |Descontos nas Vendas|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Devoluções de Vendas|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Despesas de Aluguel|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Despesas de Aluguel|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Despesas de Viagem|7,656|7,641|(15)|51,062|51,469|407| |Vendas|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |**Classificado pela Variação Absoluta até a presente data em Ordem Decrescente**||||||| |Sales|1,240,119|410,389|829,730|7,139,288|2,764,549|4,374,739| |Despesas de Viagem|7,656|7,641|(15)|51,062|51,469|407| |Despesas de Escritório|5,023|3,291|(1,732)|33,420|22,098|(11,322)| |Devoluções de Vendas|10,917|7,246|(3,671)|62,809|48,803|(14,006)| |Despesas de Aluguel|12,052|9,019|(3,033)|80,444|60,748|(19,696)| |Descontos nas Vendas|36,383|24,152|(12,231)|241,562|162,670|(78,892)| |Salários e Remunerações|97,624|65,573|(32,051)|653,884|441,664|(212,220)| |COGS|873,872|236,144|(637,728)|4,864,274|1,590,315|(3,273,959)|
 
 ## <a name="specify-a-format-override-cell"></a>Especificar uma Célula de Substituição de Formato
 A célula **Substituição de Formato** especifica a formatação que é usada para a linha quando o relatório é impresso. Essa formatação substitui a formatação especificada na definição de coluna e na definição de relatório. Por padrão, a formatação especificada nessas definições é a moeda. Se uma linha do relatório listar o número de ativos, como o número de imóveis, e outra linha listar o valor monetário desses ativos, você poderá substituir a formatação de moeda e inserir a formatação numérica da linha que especifique o número de imóveis. Especifique essas informações na caixa de diálogo **Substituição de Formato**. As opções disponíveis dependem da categoria de formato selecionada. A área **Exemplo** da caixa de diálogo mostra os formatos de exemplo. As seguintes categorias de formato estão disponíveis:

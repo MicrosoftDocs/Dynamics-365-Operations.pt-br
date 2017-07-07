@@ -1,27 +1,27 @@
 ---
 title: Contratos do projeto
-description: "Este artigo descreve e fornece exemplos de contratos de projeto que você pode criar para vários tipos de projetos e fontes de financiamento, e como você pode gerenciar contratos e enviar faturas a clientes do projeto no Microsoft Dynamics 365 for Operations."
+description: "Este artigo descreve e fornece exemplos de contratos de projeto que você pode criar para vários tipos de projetos e fontes de financiamento, e como você pode gerenciar contratos e enviar faturas a clientes do projeto no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9f3bdbd147f3132d64e3b9ac2bdd37f7278ae18d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2aa70e050bf068a26e2d0d86c26045fc000931eb
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve e fornece exemplos de contratos de projeto que você pode criar para vários tipos de projetos e fontes de financiamento, e como você pode gerenciar contratos e enviar faturas a clientes do projeto no Microsoft Dynamics 365 for Operations.
+Este artigo descreve e fornece exemplos de contratos de projeto que você pode criar para vários tipos de projetos e fontes de financiamento, e como você pode gerenciar contratos e enviar faturas a clientes do projeto no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 O tipo de projeto que você cria para um contrato de projeto determina o método de faturamento que é usado para os clientes de projeto. Você pode modificar um contrato de projeto e o projeto relacionado, mas não é possível alterar o tipo de projeto. 
 
@@ -49,7 +49,7 @@ Alguns contratos de projeto especificam que diversos participantes compartilhem 
 -   Um projeto de estrada é refinanciado por duas municipalidades.
 -   Um projeto de ponte é patrocinado por um subsídio do governo e por uma empresa privada.
 
-No Microsoft Dynamics 365 for Operations, você pode dividir a cobrança para uma única transação ou um projeto inteiro entre vários clientes, concessões, ou organizações. 
+No Finanças e Operações, você pode dividir a cobrança para uma única transação ou um projeto inteiro entre vários clientes, concessões, ou organizações. 
 
 Nos projetos que têm várias financiadoras, todos os participantes que contribuem com o financiamento de um projeto avançado de financiamento são chamadas fontes de financiamento. Depois que um cliente, organização ou concessão é definida como fonte de financiamento, poderá então ser atribuída a um ou mais regras de financiamento. As regras de financiamento contêm os critérios que determinam como os encargos são alocados para as diversas fontes de financiamento de um projeto. 
 

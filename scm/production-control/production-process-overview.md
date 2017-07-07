@@ -3,7 +3,7 @@ title: "Visão geral do processo de produção"
 description: "Este artigo fornece uma visão geral dos processos de produção. Ele descreve as várias fases de ordens de produção, de ordens de lotes e de kanbans, desde a criação da ordem até o fechamento do período financeiro."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 311debe610b58af7cd986bd33ce9473e41cb3d8b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b73ec05442c8b089435d5813ea93b997c473cbb4
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -39,12 +39,12 @@ A produção de produtos, um processo que também é conhecido como o ciclo de v
 
 O módulo **Controle de produção** está vinculado a outros módulos, como **Gerenciamento de informações do produto**, **Gerenciamento de estoque**, **Contabilidade**, **Gerenciamento de depósito**, **Contabilidade de projetos** e **Administração da organização**. Essa integração oferece suporte ao fluxo de informações necessário para concluir a fabricação de um item acabado.  
 
-O processo de produção é normalmente influenciado pelos métodos de avaliação de contabilização de custos e de estoque que são escolhidos para um processo de produção específico. O Microsoft Dynamics 365 for Operations oferece suporte aos custos reais (primeiro a entrar, primeiro a sair \[PEPS\]; último a entrar, primeiro a sair \[UEPS\]; média de movimentos; e média ponderada e periódica) e métodos de custo padrão. O lean manufacturing é implementado com base no princípio de custos de fluxo inverso.  
+O processo de produção é normalmente influenciado pelos métodos de avaliação de contabilização de custos e de estoque que são escolhidos para um processo de produção específico. O Finanças e Operações oferece suporte aos custos reais (primeiro a entrar, primeiro a sair \[PEPS\]; último a entrar, primeiro a sair \[UEPS\]; média de movimentos; e média ponderada e periódica) e métodos de custo padrão. O lean manufacturing é implementado com base no princípio de custos de fluxo inverso.  
 
 A opção dos métodos de medição de custo também define os requisitos de relatórios sobre o material e o consumo de recursos durante o processo de produção. Normalmente, os métodos de custo reais exigem relatório correto no nível do trabalho, enquanto os métodos de custo periódico permitem o relatório menos granular do material e do consumo de recursos.
 
 ## <a name="mixed-mode-manufacturing"></a>Fabricação de modo misto
-Diferentes produtos e topologias de produção exigem a utilização de diferentes tipos de ordem. O Microsoft Dynamics 365 for Operations pode aplicar vários tipos de ordem em um modo misto. Em outras palavras, todos os tipos de ordem podem ocorrer durante o processo completo de produção de um produto finalizado.
+Diferentes produtos e topologias de produção exigem a utilização de diferentes tipos de ordem. O Finanças e Operações pode aplicar vários tipos de ordem em um modo misto. Em outras palavras, todos os tipos de ordem podem ocorrer durante o processo completo de produção de um produto finalizado.
 
 -   **Ordem de produção** – Este é o tipo de ordem clássico para produzir um produto específico ou variante do produto em uma determinada quantidade, em uma data específica. As ordens de produção são baseadas em listas de materiais (BOMs) e roteiros.
 -   **Ordem de lote** – Este tipo de ordem é usado para processar processos discretos e das indústrias nos quais a conversão de fabricação é baseada em uma fórmula, ou quando coprodutos e subprodutos podem ser produtos finais, além ou em vez do produto principal. As ordens de lote usam tipos de BOMs e de roteiros da **Fórmula**.
@@ -72,7 +72,7 @@ As etapas a seguir no ciclo de vida de produção podem ocorrer para todos os ti
 4.  **Liberado** – Você pode liberar a ordem de produção ou a ordem de lotes quando a agenda estiver concluída e o material estiver disponível para ser separado ou preparado. A verificação de disponibilidade de material ajuda o supervisor do chão de fábrica a avaliar a disponibilidade do material para ordens de produção ou ordens de lote. Também é possível imprimir documentos de ordem de produção, como listas de separação, ficha de trabalho, cartão de roteiro e roteiro de trabalho. Quando a ordem de produção é liberada, o status da ordem muda para indicar que a produção pode ser iniciada. Quando o gerenciamento de depósito é usado, a versão da ordem de produção ou da ordem de lote libera as linhas da BOM de produção no gerenciamento de depósito. As ondas de depósito e o trabalho de depósito são gerados, de acordo com a configuração do depósito.
 5.  **Preparados**/**Separados**– Quando todos os materiais e recursos estiverem preparados no local de produção, as linhas da BOM de produção ou as linhas do kanban serão atualizadas para **Separados**. As ordens de fornecimento vinculado e o trabalho do depósito relacionado geralmente são concluídos neste estágio. Os cartões kanban ou fichas de trabalho necessários para relatar o andamento da produção devem ser atribuídos e impressos.
 6.  **Iniciado** – Quando uma ordem de produção, uma ordem de lote, ou um kanban é iniciado, você pode relatar o consumo de materiais e de recursos em relação à ordem. O sistema pode ser configurado para lançar automaticamente o consumo de material e de recursos que são alocados para a ordem quando esta for iniciada. Essa alocação é conhecida como pré-liberação, liberação antecipada ou autoconsumo. Você pode alocar manualmente materiais para ordens de produção ou ordens de lote criando diários de lista de separação adicionais. Também é possível alocar manualmente mão-de-obra e outros custos de roteiro para a ordem. Se você estiver usando o agendamento de operações, poderá alocar esses custos criando um diário de cartões de roteiro. Se você estiver usando o agendamento de trabalhos, poderá alocar os custos criando um diário de ficha de trabalho. As ordens de produção ou as ordens de lote podem ser iniciadas em lotes da quantidade final solicitada. Em uma ordem de produção, uma ordem de lote ou um kanban, os trabalhos que são criados podem ser iniciados e relatados separadamente nos diários, do terminal da execução de fabricação (terminal MES), ou dos quadros kanban.
-7.  Trabalhos em andamento**Concluído** do relatório – Use o Terminal MES, os diários de produção, os quadros kanban, móveis ou os recursos de verificação móveis para relatar o andamento da produção por trabalho ou por recurso. O consumo de materiais e recursos será lançado, e os status dos kanban, ordens de produção, e ordens de lote relacionados pode ser atualizados para **Recebido** ou **Informado como concluído**. O trabalho de armazenamento para o depósito pode ser criado, dependendo da configuração do depósito.
+7.  Trabalhos em andamento **Concluído** do relatório – Use o Terminal MES, os diários de produção, os quadros kanban, móveis ou os recursos de verificação móveis para relatar o andamento da produção por trabalho ou por recurso. O consumo de materiais e recursos será lançado, e os status dos kanban, ordens de produção, e ordens de lote relacionados pode ser atualizados para **Recebido** ou **Informado como concluído**. O trabalho de armazenamento para o depósito pode ser criado, dependendo da configuração do depósito.
 8.  **Informado como concluído** (o recebimento de produtos) – Quando uma ordem de produção ou uma ordem de lote é relatada como concluída, a quantidade de bens acabados que foram concluídos é atualizada no estoque. Essa quantidade inclui a quantidade de coprodutos e subprodutos relevantes. Se estiver usando contabilidade WIP (trabalho em andamento), um diário-razão será gerado para reduzir as contas WIP e aumentar o estoque dos bens acabados. Quando o custo de uma ordem de produção é calculado, o custo real da produção é lançado. Se os custos de material e mão-de-obra associados a uma produção ainda não estiverem alocados em um diário ou por pré-liberação, eles poderão ser alocados automaticamente por baixa de estoque. A alocação com de baixa de estoque envolve a pós-dedução dos processos de transação de estoque. Se a ordem de produção estiver concluída, marque a caixa de seleção **Trabalho final** para alterar o status restante para **Concluído**. Caso contrário, deixe o campo em branco para permitir o relatório de quantidades adicionais geradas.
 9.  **Avaliação de qualidade** – Um recebimento de produtos pode acionar a criação de ordens de qualidade, dependendo da configuração dos processos de teste e das regras de qualidade que são estabelecidas para produtos específicos. Como uma ordem de qualidade pode atualizar o status de estoque ou os atributos do lote dos produtos testados, a avaliação de qualidade é um processo obrigatório em várias indústrias.
 10. **Armazenar** e **Remeter a ordem** – Após a avaliação de recebimento de produtos e de qualidade, o trabalho opcional de armazenamento direciona os produtos recebidos para o próximo ponto de consumo, depósito de bens acabados ou para uma zona de remessa, se houver requisitos de remeter a ordem.

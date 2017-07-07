@@ -3,14 +3,14 @@ title: Terminologia de contabilidade de custos
 description: "Este tópico define os principais termos usados na contabilização de custos."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7ce12337c22542aea2002ffc5abd09e4f4d770c1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ Este tópico define os principais termos usados na contabilização de custos.
 
 **Contabilidade de custos**
 
-A contabilização de custos permite que você colete dados de várias fontes, como contabilidade, razões auxiliares, orçamentos e informações estatísticas. Com isso, é possível analisar, resumir e avaliar dados de custo a fim de que o gerenciamento possa tomar as melhores decisões possíveis em termos de atualização de preços, orçamentos, controle de custos etc. Os dados de origem usados na análise de custos são tratados de forma independente na contabilização de custos. Portanto, atualizações na contabilização de custos não afetam os dados de origem. No entanto, ao coletar dados de custo de várias origens, e especialmente ao importar as contas principais a partir da contabilidade no Microsoft Dynamics 365 for Operation como elementos de custo, haverá redundância de dados, já que os mesmos dados existem tanto na contabilidade quanto na contabilização de custos. Essa redundância é necessária porque você usa gerenciamento financeiro para relatórios externos e contabilidade de custos para relatórios internos.
+A contabilização de custos permite que você colete dados de várias fontes, como contabilidade, razões auxiliares, orçamentos e informações estatísticas. Com isso, é possível analisar, resumir e avaliar dados de custo a fim de que o gerenciamento possa tomar as melhores decisões possíveis em termos de atualização de preços, orçamentos, controle de custos etc. Os dados de origem usados na análise de custos são tratados de forma independente na contabilização de custos. Portanto, atualizações na contabilização de custos não afetam os dados de origem. No entanto, ao coletar dados de custo de várias origens, e especialmente ao importar as contas principais a partir da contabilidade no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, como elementos de custo, haverá redundância de dados, já que os mesmos dados existem tanto na contabilidade quanto na contabilização de custos. Essa redundância é necessária porque você usa gerenciamento financeiro para relatórios externos e contabilidade de custos para relatórios internos.
 
 **Razão de contabilidade de custos**
 

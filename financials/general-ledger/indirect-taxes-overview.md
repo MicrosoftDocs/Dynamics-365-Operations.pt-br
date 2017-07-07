@@ -3,7 +3,7 @@ title: "Visão geral de imposto"
 description: "Este artigo fornece uma visão geral do sistema de imposto. Explica os elementos da configuração do imposto sobre vendas e como trabalham em conjunto."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdb3188f533cf0cdb1e70c63891408e45d02418d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="sales-tax-overview"></a>Visão geral de imposto
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Este artigo fornece uma visão geral do sistema de imposto. Explica os elementos da configuração do imposto sobre vendas e como trabalham em conjunto.
@@ -73,7 +75,7 @@ Em cada transação (linhas de documento de compra/venda, diários, e assim por 
 Em cada transação, você pode pesquisar o imposto sobre vendas calculado abrindo a página **Transação de imposto**. Você pode pesquisar os impostos sobre vendas para uma linha do documento ou para o documento todo. Para certos documentos (por exemplo, faturas de fornecedor e diários gerais), você pode ajustar o imposto sobre vendas calculado se o documento original mostrar os valores de desvio.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Liquidação e relatório de imposto sobre vendas
-O imposto sobre vendas deve ser reportado e pago às autoridades fiscais em intervalos regulares (mensal, trimestral, e assim por diante). O Microsoft Dynamics 365 for Operations fornece uma funcionalidade que permite liquidar as contas de imposto para o intervalo e compensar os saldos da conta de liquidação de impostos, conforme especificado nos grupos de lançamentos contábeis. Você pode acessar essa funcionalidade na página **Liquidar e lançar imposto**. Especifique o período de liquidação do imposto no qual o imposto deve ser liquidado. 
+O imposto sobre vendas deve ser reportado e pago às autoridades fiscais em intervalos regulares (mensal, trimestral, e assim por diante). O Microsoft Dynamics 365 for Finance and Operations, Enterprise edition fornece uma funcionalidade que permite liquidar as contas de imposto para o intervalo e compensar os saldos da conta de liquidação de impostos, conforme especificado nos grupos de lançamentos contábeis. Você pode acessar essa funcionalidade na página **Liquidar e lançar imposto**. Especifique o período de liquidação do imposto no qual o imposto deve ser liquidado. 
 
 Após os impostos sobre vendas serem pagos, o saldo na conta de liquidação de impostos sobre vendas deve ser equilibrado em relação à conta bancária. Se a autoridade fiscal que estiver especificada no período de liquidação de imposto estiver relacionada a uma conta de fornecedor, o saldo do imposto será lançado como uma fatura de fornecedor aberta e poderá ser incluído na proposta de pagamento regular.
 

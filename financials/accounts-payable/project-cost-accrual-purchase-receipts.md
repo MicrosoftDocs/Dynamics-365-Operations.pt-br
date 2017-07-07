@@ -1,15 +1,15 @@
 ---
 title: Despesas de custo de projeto sobre recebimentos de compra
-description: "Este tópico descreve como os custos acumulados de projeto a partir de compra podem ser rastreados no Microsoft Dynamics 365 for Operations."
+description: "Este tópico descreve como os custos acumulados de projeto a partir de compra podem ser rastreados no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: acb14deb9d77927ffc95500e4e97763ba3ad7826
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b46929d2991f3ec1b38d54ddc57de632aa9b01b9
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico descreve como os custos acumulados de projeto a partir de compra podem ser rastreados no Microsoft Dynamics 365 for Operations. 
+Este tópico descreve como os custos acumulados de projeto a partir de compra podem ser rastreados no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
 
 As notas fiscais de um projeto geralmente chegam após as mercadorias e os serviços serem entregues, podendo ter um impacto significativo nos indicadores de desempenho principais do projeto (KPIs). É importante poder acompanhar essas transações em relatórios financeiros e de projeto.
 
@@ -38,7 +38,7 @@ O cenário de exemplo a seguir ilustra isto.
 
 A Consultoria da Contoso iniciou um novo projeto de implantação de nuvem. Uma ordem de compra é criada para comprar um computador para o projeto. O computador custará US$ 1.500 e os serviços de instalação custarão US$ 150. O fornecedor entregou e instalou o computador, mas as faturas ainda não chegaram à Consultoria da Contoso. O gerente de projeto gostaria de ver as despesas de custo de projeto de US$ 1.650 antes da fatura ser entregue. Esse custo também deve ser refletido nos demonstrativos financeiros finais do mês da empresa. 
 
-Os custos acumulados precisam ser registradas em nível financeiro e em nível de projeto para fins de relatório. No Dynamics 365 for Operations, a atualização financeira do recibo do produto pode ser rastreada para categorias de item e compra. 
+Os custos acumulados precisam ser registradas em nível financeiro e em nível de projeto para fins de relatório. No Finanças e Operações, a atualização financeira do recibo do produto pode ser rastreada para categorias de item e compra. 
 
 Para itens, na página **Parâmetros de contas a pagar**, selecione a opção **Lançar recibos de produto ao razão**.
 [![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
@@ -73,7 +73,7 @@ Lançar um recebimento de produtos gerará e lançará um comprovante no razão.
 
 **Etapa 3:** Criar um rascunho da fatura de fornecedor. 
 
-No Microsoft Dynamics 365 for Operations, lançar um recibo de produto não impactará nas informações de projeto. Como uma solução alternativa, você pode gerar um rascunho de fatura de fornecedor logo após o lançamento do recebimento de compra. Vá para a página **Ordem de compra** &gt; **Guia de fatura** &gt; **Gerar** &gt; **Fatura**. Essa ação cria um documento de fatura pendente que atualiza as informações do projeto. 
+No Finanças e Operações, lançar um recibo de produto não impactará nas informações de projeto. Como uma solução alternativa, você pode gerar um rascunho de fatura de fornecedor logo após o lançamento do recebimento de compra. Vá para a página **Ordem de compra** &gt; **Guia de fatura** &gt; **Gerar** &gt; **Fatura**. Essa ação cria um documento de fatura pendente que atualiza as informações do projeto. 
 
 Criar um rascunho da fatura de fornecedor gerará transações de projeto pendentes. 
 [![accruals8](./media/accruals8-1024x225.png)](./media/accruals8.png) 

@@ -3,25 +3,27 @@ title: Gravador de tarefas e Ajuda para PDV
 description: "Este tópico descreve como utilizar o Gravador de tarefas no no Retail Modern POS e no Cloud POS."
 author: mugunthanm
 manager: AnnBe
-ms.date: 2017-05-15
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+audience: Application User
 ms.reviewer: 41
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
 ms.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3ca86a3353d3f613057dd77754266fc69975229f
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 007a7e8a34f3f5a2d0d18eb3955822a8fd8bdd0a
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 ---
 
@@ -40,11 +42,11 @@ O Gravador de tarefas pode registrar ações de usuário no cliente com fidelida
 ## <a name="basic-configuration"></a>Configuração básica
 Para habilitar a gravação de tarefas no PDV, siga estas etapas.
 
-1.  Clique em **Varejo e comércio** &gt; **Configuração do Canal** &gt; **Configuração do PDV** &gt; **Registros**.
+1.  Clique em **Varejo** &gt; **Configuração do Canal** &gt; **Configuração do PDV** &gt; **Registros**.
 2.  Clique em registro em que a gravação de tarefas será habilitada.
 3.  Na guia **Registrar**, na Guia Rápida **Geral**, defina a opção **Habilitar gravação de tarefas** como **Sim**.
 4.  Clique em **Salvar**.
-5.  Vá para **Comércio e varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
+5.  Vá para **Varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
 6.  Selecione o trabalho **Registros (1090)** e então clique em **Executar agora**.
 
 ## <a name="create-a-recording"></a>Criar uma gravação
@@ -54,7 +56,9 @@ Siga estas etapas para criar uma nova gravação usando o Gravador de tarefas.
 2.  Na página **Configurações**, na seção **Gravador de Tarefas**, clique em **Abrir gravador de tarefas**. O painel **Gravador de tarefas** aparecerá. Você pode clicar no botão **Fechar** (**X**) no canto superior direito para fechar o painel **Gravador de tarefas** antes de iniciar uma nova gravação. Para reabrir o painel, repita a etapa 2.
 [![Painel do Gravador de tarefas](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
-3.  Insira um nome e uma descrição para a gravação e então clique em **Iniciar**. A sessão de gravação começa assim que você clica em **Iniciar**. **Observação:** se você clicar no botão **Fechar** (**X**) no canto superior direito durante a gravação, o painel **Gravador de tarefas** será fechado, mas a sessão de gravação não será encerrada. Para reabrir o painel do Gravador de tarefas, clique no botão Ajuda (ponto de interrogação) na parte superior da tela. 
+3.  Insira um nome e uma descrição para a gravação e então clique em **Iniciar**. A sessão de gravação começa assim que você clica em **Iniciar**.
+
+**Observação:** se você clicar no botão **Fechar** (**X**) no canto superior direito durante a gravação, o painel **Gravador de tarefas** será fechado, mas a sessão de gravação não será encerrada. Para reabrir o painel do Gravador de tarefas, clique no botão **Ajuda** (ponto de interrogação) na parte superior da tela. 
 
 [![Ponto de interrogação](./media/help.jpg)](./media/help.jpg)
 
@@ -95,7 +99,10 @@ Para retomar a sessão de gravação depois de pausá-la, clique em **Continuar*
 
 ### <a name="capture-screenshots"></a>Capturar telas
 
-O Gravador de tarefas pode capturar telas da interface do usuário do Retail Modern POS à medida que você registra um processo de negócios. O Gravador de tarefas usará as capturas de tela se você baixar a gravação como um documento do Word. Para ativar o recurso de captura de tela, defina a opção **Capturar tela** como **Sim**. Observação: a funcionalidade Capturar tela não tem suporte no Cloud POS.
+O Gravador de tarefas pode capturar telas da interface do usuário do Retail Modern POS à medida que você registra um processo de negócios. O Gravador de tarefas usará as capturas de tela se você baixar a gravação como um documento do Word. Para ativar o recurso de captura de tela, defina a opção **Capturar tela** como **Sim**. 
+
+#### <a name="note"></a>Nota
+> A funcionalidade Capturar tela não tem suporte no Cloud POS.
 
 ### <a name="start-task-and-end-task"></a>Iniciar tarefa e Finalizar tarefa
 
@@ -119,11 +126,13 @@ O texto inserido no campo **Texto** aparece *acima* do texto da etapa no Guia de
 
 O texto inserido no campo **Notas** aparece *abaixo* do texto da etapa no Guia de tarefas. Para ler o texto da nota, o usuário deverá expandir o texto da etapa na janela pop-up. Essa localização é apropriada para o material de leitura opcional ou para outras informações que possam ser úteis para o usuário, mas que não são obrigatórias para a conclusão da ação.
 
-## <a name="help-at-retail-modern-pos-and-cloud-pos"></a>Ajuda no Retail Modern POS e no Cloud POS
-Para mostrar suas próprias gravações de tarefas personalizadas no painel da Ajuda do Retail Modern POS e do Cloud POS para que possam ser executadas novamente como guias de tarefas ou exibidas como texto, você deverá salvar suas gravações de tarefas à sua própria biblioteca do BPM, e então atualizar os parâmetros do seu sistema de ajuda para que ele aponte para sua biblioteca do BPM. Para saber mais, veja [Conexão ao sistema da Ajuda.](https://ax.help.dynamics.com/en/wiki/working-with-help/#connecting-the-help-system) A Ajuda do Retail Modern POS e do Cloud POS pesquisa o LCS em tempo real. Ela pesquisa em todas as bibliotecas BPM selecionadas nos parâmetros do sistema da Ajuda do Microsoft Dynamics AX e mostra os resultados relevantes. Para acessar o menu **Ajuda**, clique no botão **Ajuda** na parte superior da tela e, na caixa de pesquisa, digite o nome do processo e pressione o botão de pesquisa. 
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Ajuda no Retail Modern POS e no Cloud POS
+Para mostrar suas próprias gravações de tarefas personalizadas no painel da Ajuda do Retail Modern POS e do Cloud POS para que possam ser executadas novamente como guias de tarefas ou exibidas como texto, você deverá salvar suas gravações de tarefas à sua própria biblioteca do BPM, e então atualizar os parâmetros do seu sistema de ajuda para que ele aponte para sua biblioteca do BPM. Para obter mais informações, consulte [Conectando o sistema de ajuda.](/dynamics365/unified-operations/dev-itpro/get-started/help-connect) A Ajuda do Retail Modern POS e do Cloud POS pesquisa o LCS em tempo real. Ela pesquisa em todas as bibliotecas BPM selecionadas nos parâmetros do sistema de ajuda do Microsoft Dynamics 365 para Varejo e mostra os resultados relevantes. Para acessar o menu **Ajuda**, clique no botão **Ajuda** (ponto de interrogação) na parte superior da tela e, na caixa de pesquisa, digite o nome do processo e pressione o botão de pesquisa. 
 
 [![Botão Ajuda](./media/help.jpg)](./media/help.jpg) 
 
-Quando você clicar em uma Guia de tarefas nos resultados da pesquisa, poderá exibir as etapas como um tópico da Ajuda ou exportar as etapas para um documento do Word. Observação: o sistema da Ajuda no Retail Modern POS e no Cloud POS não mostrará automaticamente as guias de tarefas com base em seu formulário ou operações, será necessário digitar o nome do processo na caixa de pesquisa e pressionar o botão de pesquisa para obter os resultados.
+Quando você clicar em uma Guia de tarefas nos resultados da pesquisa, poderá exibir as etapas como um tópico da Ajuda ou exportar as etapas para um documento do Word. 
+#### <a name="note"></a>Nota
+> A ajuda no Retail Modern POS e Cloud POS não exibirá guias de tarefas de acordo com a forma em que você está ou a operação que está fazendo. É necessário digitar o nome do processo na caixa de pesquisa e clique em **Pesquisar**.
 
 

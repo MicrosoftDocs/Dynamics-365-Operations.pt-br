@@ -1,27 +1,29 @@
 ---
 title: Configurar um programa de fidelidade do cliente
-description: "Este artigo descreve como configurar um programa de fidelidade. Os programas de fidelidade podem ajudar a aumentar a fidelidade do cliente ao recompensarem os clientes por comprarem produtos nas lojas de varejo. No Microsoft Dynamics 365 for Operations, você pode configurar programas de fidelidade simples ou complexos que se apliquem a suas entidades legais em qualquer canal de varejo."
+description: "Este artigo descreve como configurar um programa de fidelidade. Os programas de fidelidade podem ajudar a aumentar a fidelidade do cliente ao recompensarem os clientes por comprarem produtos nas lojas de varejo. No Microsoft Dynamics 365 para Varejo, você pode configurar programas de fidelidade simples ou complexos que se apliquem a suas entidades legais em qualquer canal de varejo."
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16201
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 04521c20ddeca1154b134b23c1db69f45c554ed3
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 710f8ae3a6a2b5072f37879aad066dc699ede8f0
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -31,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-Este artigo descreve como configurar um programa de fidelidade. Os programas de fidelidade podem ajudar a aumentar a fidelidade do cliente ao recompensarem os clientes por comprarem produtos nas lojas de varejo. No Microsoft Dynamics 365 for Operations, você pode configurar programas de fidelidade simples ou complexos que se apliquem a suas entidades legais em qualquer canal de varejo.
+Este artigo descreve como configurar um programa de fidelidade. Os programas de fidelidade podem ajudar a aumentar a fidelidade do cliente ao recompensarem os clientes por comprarem produtos nas lojas de varejo. No Microsoft Dynamics 365 para Varejo, você pode configurar programas de fidelidade simples ou complexos que se apliquem a suas entidades legais em qualquer canal de varejo.
 
 <a name="loyalty-features"></a>Recursos do programa de fidelidade
 ----------------
@@ -45,7 +47,7 @@ Você pode configurar o programa de fidelidade de modo que ele tenha as seguinte
 -   Ajuste manualmente cartões-fidelidade ou transfira o saldo de recompensas de fidelidade de um cartão para outro para acomodar ou recompensar um cliente.
 
 ## <a name="setting-up-loyalty-programs"></a>Configurando programas de fidelidade
-Você deve configurar vários componentes para habilitar o recurso de fidelidade no Dynamics 365 for Operations - Varejo. O diagrama a seguir ilustra os componentes do programa de fidelidade e como eles se relacionam uns com os outros. ![Fluxo do processo de configuração do programa de fidelidade](./media/loyaltyprocess.gif)
+Você deve configurar vários componentes para habilitar o recurso de fidelidade no Dynamics 365 para Varejo. O diagrama a seguir ilustra os componentes do programa de fidelidade e como eles se relacionam uns com os outros. ![Fluxo do processo de configuração do programa de fidelidade](./media/loyaltyprocess.gif)
 
 ## <a name="loyalty-components"></a>Componentes do programa de fidelidade
 A tabela a seguir descreve cada componente e o local onde ele será usado na configuração do programa de fidelidade.
@@ -68,7 +70,7 @@ A tabela a seguir descreve os processos que devem ser executados para enviar as 
 
 | Nome do processo                         | Descrição                                                                                                                                                                                                                                                                                                                                                                                                    | Nome da página                            |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| 1050 (informações de fidelidade)           | Execute este processo para enviar os dados do programa de fidelidade do Dynamics 365 for Operations para as lojas de varejo. É recomendável agendar este processo para ser executado frequentemente, de modo que os dados do programa de fidelidade sejam transmitidos a todas as lojas.                                                                                                                                                                                               | Agenda de distribuição                |
+| 1050 (informações de fidelidade)           | Execute este processo para enviar os dados do programa de fidelidade do Dynamics 365 para Varejo para as lojas de varejo. É recomendável agendar este processo para ser executado frequentemente, de modo que os dados do programa de fidelidade sejam transmitidos a todas as lojas.                                                                                                                                                                                               | Agenda de distribuição                |
 | Processar esquemas de fidelidade              | Execute este processo para associar os esquemas de fidelidade aos canais de varejo aos quais o esquema de fidelidade foi atribuído. Esse processo pode ser agendado para execução como um processo em lote. Você deve executar esse processo se alterar dados de configuração do programa de fidelidade, como esquemas de fidelidade, programas de fidelidade ou pontos de recompensa do programa de fidelidade.                                                                                               | Processar esquemas de fidelidade              |
 | Processar transações de fidelidade offline | Execute este processo para atualizar cartões-fidelidade, de forma que eles incluam transações processadas offline. Esse processo será aplicável somente se a caixa de seleção **Obter offline** for selecionada na página **Parâmetros compartilhados de varejo**, para que os prêmios possam ser obtidos offline.                                                                                                                                               | Processar transações de fidelidade offline |
 | Atualizar camadas de cartão-fidelidade            | Execute este processo para avaliar a atividade de ganhos do cliente em relação às regras de camada para um programa de fidelidade e atualize o status de camada do cliente. Este processo só será necessário se você alterar as regras da camada em programas de fidelidade e quiser que as regras atualizadas sejam aplicadas retroativamente aos cartões-fidelidade já emitidos. Este processo pode ser agendado como um processo em lote ou para cartões individuais. | Atualizar camadas de cartão-fidelidade            |

@@ -3,14 +3,14 @@ title: Recebimento de produtos contra ordens de compra
 description: "Este artigo descreve as diversas opções para registrar produtos como recebido."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5d1b063344d4191facf2ddace5f5c9d592fb0942
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a192688315adb2d83f349c525c5d8f70309375db
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,6 +29,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="product-receipt-against-purchase-orders"></a>Recebimento de produtos contra ordens de compra
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Este artigo descreve as diversas opções para registrar produtos como recebido.
@@ -54,7 +56,7 @@ Você pode criar linhas de ordem de compra onde a opção **Novo ativo fixo** es
 
 Você já pode selecionar várias ordens e recebimento de processo em todas as ordens. Essa abordagem não é usada com muita frequência, mas talvez você queira usá-la se um fornecedor consolidou remessas para você em uma única carga. Durante o recebimento de produtos na compra, há uma função para fazer atualizações de resumo. Resumo de atualizações permitem lançar uma guia de remessa única do fornecedor para mais de uma ordem de compra.  
 
-POs podem ser criados a partir de uma ordem de venda onde a opção **Entrega direta** foi selecionada. Quando a entrega direta é usada, os produtos nunca chegam no depósito mas são entregues diretamente do fornecedor ao cliente. Nesse caso, o recebimento é geralmente registrado diretamente no pedido de compra. O recebimento pode ser feito automaticamente, tais como a integração da electronic data interchange (EDI) com o fornecedor. Como alternativa, se a ordem de compra for uma ordem de compra intercompanhia, o Microsoft Dynamics 365 for Operations automatiza o recebimento de ordem de venda intercompanhia quando ocorre de remessa. Quando a entrega direta é usada, produtos ainda são contabilizados como estoque, mesmo que eles não cheguem fisicamente no depósito. Portanto, o recebimento de produtos é registrado no pedido de compra, a ordem de venda é automaticamente atualizada com uma guia de remessa, para que a alteração geral no estoque seja 0 (zero). Em cenários de entrega direta, você não deve exigir pré-registro. Se você estiver usando os depósitos que estão habilitados para o gerenciamento de depósito, contorne a necessidade de registro de matrícula, especificando um depósito virtual em vez disso. Especificar este depósito no campo **Depósito de entrega direta** no produto. 
+POs podem ser criados a partir de uma ordem de venda onde a opção **Entrega direta** foi selecionada. Quando a entrega direta é usada, os produtos nunca chegam no depósito mas são entregues diretamente do fornecedor ao cliente. Nesse caso, o recebimento é geralmente registrado diretamente no pedido de compra. O recebimento pode ser feito automaticamente, tais como a integração da electronic data interchange (EDI) com o fornecedor. Como alternativa, se a ordem de compra for uma ordem de compra intercompanhia, o Microsoft Dynamics 365 for Finance and Operations automatiza o recebimento de ordem de venda intercompanhia quando ocorre de remessa. Quando a entrega direta é usada, produtos ainda são contabilizados como estoque, mesmo que eles não cheguem fisicamente no depósito. Portanto, o recebimento de produtos é registrado no pedido de compra, a ordem de venda é automaticamente atualizada com uma guia de remessa, para que a alteração geral no estoque seja 0 (zero). Em cenários de entrega direta, você não deve exigir pré-registro. Se você estiver usando os depósitos que estão habilitados para o gerenciamento de depósito, contorne a necessidade de registro de matrícula, especificando um depósito virtual em vez disso. Especificar este depósito no campo **Depósito de entrega direta** no produto. 
 
 Após o recebimento do produto ser processado no pedido de compra, o status do pedido de compra é definido como **Recebido** para indicar que a fatura pode ser processada para a ordem. Você pode revisar os detalhes sobre os produtos que já foram recebidos usando a página **Diários de recebimento de produto**.  
 
@@ -69,7 +71,7 @@ Você pode acessar esta página a partir do grupo de ação **Recebimento** na p
 
 [Confirmação e aprovação da ordem de compra](purchase-order-approval-confirmation.md)
 
-[Visão geral das faturas de fornecedor](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Visão geral de faturas de fornecedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

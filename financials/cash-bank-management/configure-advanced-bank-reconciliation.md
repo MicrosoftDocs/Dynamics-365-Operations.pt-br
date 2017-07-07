@@ -1,15 +1,15 @@
 ---
 title: "Visão geral da reconciliação bancária avançada"
-description: "A Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias no Microsoft Dynamics 365 for Operations.  Este artigo irá explicar o processo de configuração da reconciliação."
+description: "O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.  Este artigo irá explicar o processo de configuração da reconciliação."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 98303
 ms.assetid: ae071f04-f038-4b17-812d-0a241ed15521
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d3322f2edbe9f4eedce509de5a60c5ec8883db3a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 89f895a9de9fa9863459ae6261b8c429d559d482
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,24 +30,24 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-A Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias no Microsoft Dynamics 365 for Operations.  Este artigo irá explicar o processo de configuração da reconciliação.  
+O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.  Este artigo irá explicar o processo de configuração da reconciliação.  
 
 Existem diversas partes que devem ser configuradas antes que a funcionalidade de reconciliação bancária avançada seja utilizada. Para obter mais informações sobre como configurar a importação de extrato bancário, consulte [Configurar o processo de importação de extratos bancários](set-up-advanced-bank-reconciliation-import-process.md).  Os requisitos para configurar o processo de reconciliação estão detalhados abaixo.
 
 ## <a name="transaction-codes"></a>Códigos de transação
-Os códigos de transação podem ser usados como parte das regras de correspondência de reconciliação bancária.  Os códigos de transação ajudarão apenas na correspondência dos mesmos tipos de transações entre o Dynamics 365 for Operations e o seu extrato bancário.  Para realizar esse tipo de correspondência, você deve primeiro definir os tipos de transação usados em extratos bancários no Dynamics 365 for Operations e depois mapear esses tipos de códigos de transação de extrato usados por seu banco.  Os tipos de transação das transações bancárias do Dynamics 365 for Operations são definidos na página **Tipo de transação bancária**.  Também é aqui em que você define a conta principal a ser usada para postagens associadas a esse tipo de transação. 
+Os códigos de transação podem ser usados como parte das regras de correspondência de reconciliação bancária.  Os códigos de transação ajudarão apenas na correspondência dos mesmos tipos de transações entre o Finance and Operations e o seu extrato bancário.  Para realizar esse tipo de correspondência, você deve primeiro definir os tipos de transação usados em extratos bancários no Finance and Operations e depois mapear esses tipos de códigos de transação de extrato usados por seu banco.  Os tipos de transação das transações bancárias do Finance and Operations são definidos na página **Tipo de transação bancária**.  Também é aqui em que você define a conta principal a ser usada para postagens associadas a esse tipo de transação. 
 
-Após a definição dos seus códigos de transação bancária do Dynamics 365 for Operations, mapeie-os com os códigos de transação usados nos seus extratos bancários eletrônicos.  Esse processo de mapeamento é realizado por meio da página **Mapeamento de códigos de transação**.  O mapeamento de códigos de transação é concluído separadamente para cada conta bancária.
+Após a definição dos seus códigos de transação bancária do Finance and Operations, mapeie-os com os códigos de transação usados nos seus extratos bancários eletrônicos.  Esse processo de mapeamento é realizado por meio da página **Mapeamento de códigos de transação**.  O mapeamento de códigos de transação é concluído separadamente para cada conta bancária.
 
 ## <a name="matching-rules-and-matching-rule-sets"></a>Regras de correspondência e conjuntos de regras de correspondência
-Regras de correspondência permitem definir critérios para reconciliação automática entre as transações bancárias do Dynamics 365 for Operations e as transações de extrato bancário.  A configuração das regras de correspondência é realizada na página **Regras de correspondência de reconciliação**.  Para obter mais informações, consulte [Configurar regras de correspondência de reconciliação bancária](set-up-bank-reconciliation-matching-rules.md). 
+Regras de correspondência permitem definir critérios para reconciliação automática entre as transações bancárias do Finance and Operations e as transações de extrato bancário.  A configuração das regras de correspondência é realizada na página **Regras de correspondência de reconciliação**.  Para obter mais informações, consulte [Configurar regras de correspondência de reconciliação bancária](set-up-bank-reconciliation-matching-rules.md). 
 
 Os conjuntos de regras de correspondência são utilizados para definir um grupo de regras de correspondência que são executadas em sequência durante o processo de reconciliação bancária.  Conjuntos de regras de correspondência são configurados na página **Conjuntos de regras de correspondência de reconciliação**.
 
 ## <a name="cash-and-bank-management-parameters"></a>Parâmetros de gerenciamento de caixa e bancos
 Existem diversos parâmetros específicos para o processo de reconciliação bancária avançada na página **Parâmetros de gerenciamento de caixa e bancos**.  O **Mostrar valor da linha do extrato em débito/crédito** altera a exibição dos valores na página **Extrato bancário**.  Se essa opção estiver selecionada, os valores das transações do extrato bancário serão exibidos em colunas separadas de débito e crédito.  Caso não esteja selecionada, os valores de transações do extrato bancário serão exibidos em uma única coluna com os sinais apropriados. 
 
-As opções de validação definidas na página de parâmetros substituirão as seleções definidas nas regras de correspondência.  Por exemplo, não é possível combinar documentos manual ou automaticamente após a diferença de datas definida na página de parâmetros.  Além disso, se a opção de **Validar o mapeamento do tipo de transação** está selecionada, os tipos de transação devem ser mapeados entre a transação bancária do Dynamics 365 for Operations e a transação do extrato bancário para que as transações sejam combinadas manual ou automaticamente. 
+As opções de validação definidas na página de parâmetros substituirão as seleções definidas nas regras de correspondência.  Por exemplo, não é possível combinar documentos manual ou automaticamente após a diferença de datas definida na página de parâmetros.  Além disso, se a opção de **Validar o mapeamento do tipo de transação** estiver selecionada, os tipos de transação devem ser mapeados entre a transação bancária do Finance and Operations e a transação do extrato bancário para que as transações sejam combinadas manual ou automaticamente. 
 
 Você também deve configurar as sequências numéricas necessárias na página **Parâmetros de gerenciamento de banco e caixa**.  Na guia **Sequências numéricas**, defina códigos de sequência numérica para as referências de **ID, ID do extrato, ID de reconciliação e Reconciliação bancária** do Download.
 

@@ -3,14 +3,14 @@ title: Contratos de compra
 description: "Este artigo fornece informações sobre contratos de compras. Um contrato de compra é um contrato que compromete uma organização a comprar uma quantidade ou um valor especificado usando várias ordens de compra ao longo do tempo. Em troca desse compromisso, o comprador obtém preços e descontos especiais."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c100bd34725c67710d0f473a001c73705600ba79
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 4266ba2b19c3bd31a10301dd2290cd4b4fa53bdb
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -80,7 +80,7 @@ Quando você confirma um contrato de compra, a versão atual do contrato é arma
 Quando você cria uma OC, pode aplicar um contrato de compra a ela. As informações sobre as condições do contrato, como as condições de pagamento, as condições de entrega e endereço de entrega, são copiadas para o cabeçalho da OC. Se a OC contiver uma ou mais linhas produtos ou categorias especificados no contrato de compra, os preços e os descontos do contrato de compra serão usados para essas linhas. O valor ou a quantidade na linha da ordem contribui para o atendimento ao compromisso no contrato de compra. A mesma OC pode incluir linhas que não estejam relacionadas a um contrato de compra e linhas com um compromisso para um contrato de compra.  
 
 Você só poderá selecionar um contrato de compra quando estiver criando uma OC. Você não poderá selecionar um contrato de compra depois que a OC for criada.  
-Em algumas situações em que as OCs são criadas indiretamente, você pode controlar se o Microsoft Dynamics 365 for Operations pesquisará automaticamente os contratos de compra aplicáveis. Por exemplo, você pode fazer isso quando estiver confirmando automaticamente OCs planejadas ou criando OCs baseadas em ordens de venda.
+Em algumas situações em que as OCs são criadas indiretamente, você pode controlar se o Finanças e Operações pesquisará automaticamente os contratos de compra aplicáveis. Por exemplo, você pode fazer isso quando estiver confirmando automaticamente OCs planejadas ou criando OCs baseadas em ordens de venda.
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>Contratos de compra e comércio intercompanhia
 As relações comerciais intercompanhia podem ser criadas entre contas de fornecedor e contas de cliente que estão em entidades legais diferentes. Quando uma ordem de venda ou uma OC é criada para um dos participantes, é criada uma cadeia de ordem intercompanhia. Na cadeia de ordem, a ordem de venda e a OC são criadas nas entidades legais apropriadas.  

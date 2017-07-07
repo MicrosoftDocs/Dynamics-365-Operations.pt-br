@@ -1,26 +1,26 @@
 ---
 title: Faturamento intercompanhia
-description: "Este artigo fornece informações e exemplos sobre faturamento intercompanhia para projetos no Microsoft Dynamics 365 for Operations."
+description: "Este artigo fornece informações e exemplos sobre faturamento intercompanhia para projetos no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94153
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 65c20479af9d2184bd7f3b92f4c0718553425502
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 205903bb68804a46414410c85eacce03c6df6fc7
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo fornece informações e exemplos sobre faturamento intercompanhia para projetos no Microsoft Dynamics 365 for Operations.
+Este artigo fornece informações e exemplos sobre faturamento intercompanhia para projetos no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 Sua organização pode ter várias divisões, subsidiárias, e outras entidades legais que transferem produtos e serviços entre si para projetos. A entidade legal que fornece o produto ou o serviço é chamada de *entidade legal de empréstimo*, e a entidade legal que recebe o serviço ou o produto é chamada de *entidade legal que toma o empréstimo*. 
 
@@ -53,7 +53,7 @@ O objetivo é tornar mais flexível e eficiente o controle de custos, o reconhec
     -   **Relação de contribuição** – O número inserido no campo **Preço** é a relação de contribuição, que é expressada como uma porcentagem do preço de venda.
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>Exemplo 1: Configurar parâmetros para faturamento intercompanhia
-Neste exemplo, USSI é uma entidade legal de empréstimo e seus recursos estão reportando tempo contra a entidade legal que toma o empréstimo, FRSI, proprietária do contrato com o cliente final. Horas e despesas relatadas pelos funcionários da USSI podem ser incluídos na fatura do projeto gerada pela FRSI. Além disso, há uma terceira fonte de transações que pode se originar da entidade legal de empréstimo (USSI neste exemplo) quando ela fornece serviços de fornecedores compartilhados à subsidiárias (como a FRSI) e, em seguida, passa esses custos para projetos dentro das subsidiárias. Todos os documentos de fatura e cálculos de impostos conciliados são concluídos pelo Dynamics 365 for Operations. 
+Neste exemplo, USSI é uma entidade legal de empréstimo e seus recursos estão reportando tempo contra a entidade legal que toma o empréstimo, FRSI, proprietária do contrato com o cliente final. Horas e despesas relatadas pelos funcionários da USSI podem ser incluídos na fatura do projeto gerada pela FRSI. Além disso, há uma terceira fonte de transações que pode se originar da entidade legal de empréstimo (USSI neste exemplo) quando ela fornece serviços de fornecedores compartilhados à subsidiárias (como a FRSI) e, em seguida, passa esses custos para projetos dentro das subsidiárias. Todos os documentos de fatura e cálculos de impostos conciliados são concluídos pelo Finance and Operations. 
 
 Para este exemplo, a FRSI deve ser um cliente na entidade legal USSI, e a USSI deve ser um fornecedor na entidade legal FRSI. É possível configurar uma relação intercompanhia entre as duas entidades legais. O procedimento a seguir mostra como definir os parâmetros para que ambas as entidades legais possam participar do faturamento intercompanhia.
 

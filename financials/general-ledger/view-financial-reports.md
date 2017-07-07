@@ -1,27 +1,27 @@
 ---
 title: "Exibir relatórios financeiros"
-description: "Este artigo descreve como visualizar e explorar relatórios financeiros no Microsoft Dynamics AX. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem."
-author: RobinARH
+description: "Este artigo descreve como exibir e explorar relatórios financeiros no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem."
+author: kweekley
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
-ms.author: aolson
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b02dbc0181c08611674cdf571075c20d78cebdc
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 102031174417a33b12c32f6b8185556b8c4701e5
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve como visualizar e explorar relatórios financeiros no Microsoft Dynamics AX. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem.
+Este artigo descreve como exibir e explorar relatórios financeiros no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem.
 
 <a name="financial-reporting-overview"></a>Visão geral de relatórios financeiros
 ----------------------------
@@ -64,7 +64,7 @@ Você pode atualizar um relatório financeiro para que ele mostre os dados mais 
 Após atualizar um relatório financeiro, é possível publicá-lo. Outras pessoas na organização poderão então visualizá-lo. Para publicar um relatório, no Painel de Ação, clique em **Publicar**.
 
 ## <a name="display-a-financial-report-in-a-different-currency"></a>Exibir um relatório financeiro em uma moeda diferente
-Um relatório financeiro pode ser exibido em qualquer moeda a qualquer momento. Para exibir um relatório em uma moeda diferente, no Painel de Ação, clique em **Moeda**, e então selecione uma moeda. O relatório é convertido naquela moeda, e os resultados são exibidos. Todos os códigos ou símbolos de moeda que estão inclusos no relatório como parte de seu design são atualizados para refletir a nova moeda. As moedas que aparecem na lista são as moedas de relatório que estão configuradas no Microsoft Dynamics AX.
+Um relatório financeiro pode ser exibido em qualquer moeda a qualquer momento. Para exibir um relatório em uma moeda diferente, no Painel de Ação, clique em **Moeda**, e então selecione uma moeda. O relatório é convertido naquela moeda, e os resultados são exibidos. Todos os códigos ou símbolos de moeda que estão inclusos no relatório como parte de seu design são atualizados para refletir a nova moeda. As moedas que aparecem na lista são as moedas de relatório que estão configuradas no Finance and Operations.
 
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>Exibir uma visualização resumida do relatório financeiro
 Um relatório financeiro pode conter linhas de detalhe e de resumo. Linhas de detalhe são linhas que contêm contas principais ou dimensões. Linhas de resumo são linhas de descrição, de total e de cálculo. Para exibir apenas as linhas de resumo de um relatório, clique em **Mostrar**, e então clique em **Apenas linhas de resumo**. O relatório é recolhido e passa a exibir somente as linhas de resumo. Para exibir as linhas de detalhe juntamente com as linhas de resumo, clique em **Mostrar**, e então clique novamente em **Apenas linhas de resumo**.
@@ -88,7 +88,8 @@ Para exportar um relatório financeiro, no Painel de Ação, clique em **Exporta
 <a name="see-also"></a>Consulte também
 --------
 
-[Relatório financeiro do Microsoft Dynamics AX](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+[Relatório financeiro do Microsoft Dynamics AX](/dynamics365/unified-operations/dev-itpro/analytics/financial-reporting-intro)
+
 
 
 
