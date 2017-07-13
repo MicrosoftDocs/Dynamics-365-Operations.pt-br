@@ -1,9 +1,9 @@
 ---
 title: Utilizar o suplemento do Excel
-description: "Este tópico explica como abrir dados da entidade no Microsoft Excel, e então visualizar, atualizar e editar os dados usando o suplemento do Microsoft Dynamics Office para Excel. Para abrir os dados da entidade, você pode começar pelo Excel ou pelo Microsoft Dynamics 365 para Operações."
+description: "Este tópico explica como abrir dados da entidade no Microsoft Excel, e então visualizar, atualizar e editar os dados usando o suplemento do Microsoft Dynamics Office para Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c391fb70d837db9c0f167b392291fc1c5cc2bb53
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: f55e1e89d0e48819962c169a56f0f27dc0d792b4
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,16 +30,16 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico explica como abrir dados da entidade no Microsoft Excel, e então visualizar, atualizar e editar os dados usando o suplemento do Microsoft Dynamics Office para Excel. Para abrir os dados da entidade, você pode começar pelo Excel ou pelo Microsoft Dynamics 365 para Operações.
+Este tópico explica como abrir dados da entidade no Microsoft Excel, e então visualizar, atualizar e editar os dados usando o suplemento do Microsoft Dynamics Office para Excel. Para abrir os dados da entidade, você pode começar pelo Excel ou pelo Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 Ao abrir os dados da entidade no Microsoft Excel, é possível visualizar e editar facilmente os dados utilizando o suplemento do Microsoft Dynamics Office para Excel. Este suplemento requer o Microsoft Excel 2016. **Observação:** Se o seu inquilino do Microsoft Azure Active Directory (Azure AD) está configurado para usar o Active Directory Federation Services (AD FS), você deve garantir que a atualização de maio de 2016 foi instalada, para que o suplemento do Excel consiga realizar seu login corretamente.
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>Abrir dados da entidade no Excel ao iniciar pelo Dynamics 365 para Operações
-1.  Em uma página no Microsoft Dynamics 365 para Operações, clique em **Abrir no Microsoft Office**. Se a fonte de dados raiz (tabela) da página for a mesma que a fonte de dados raiz de qualquer entidade, opções **Abrir no Excel** padrões são geradas para a página. Opções **Abrir no Excel** podem ser encontradas em páginas frequentemente usadas, como **Todos os fornecedores** e **Todos os clientes**.
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-finance-and-operations"></a>Abrir dados da entidade no Excel ao iniciar pelo Dynamics 365 for Finance and Operations
+1.  Em uma página no Microsoft Dynamics 365 for Finance and Operations, clique em **Abrir no Microsoft Office**. Se a fonte de dados raiz (tabela) da página for a mesma que a fonte de dados raiz de qualquer entidade, opções **Abrir no Excel** padrões são geradas para a página. Opções **Abrir no Excel** podem ser encontradas em páginas frequentemente usadas, como **Todos os fornecedores** e **Todos os clientes**.
 2.  Clique em uma opção **Abrir no Excel**, e abra a pasta de trabalho gerada. Essa pasta de trabalho possui informações obrigatórias da entidade, um indicador para seu ambiente e um indicador para o suplemento do Excel.
 3.  No Excel, clique em **Habilitar edição** para permitir que o suplemento do Excel seja executado. O suplemento do Excel funciona em um painel do lado direito da janela do Excel.
 4.  Caso esteja executando o suplemento do Excel pela primeira vez, clique em **Confiar nesse Suplemento**.
-5.  Se estiver preparado para fazer o login, clique em **Iniciar sessão**, e então faça o login utilizando as mesmas credenciais usadas no login do Dynamics 365 para Operações. O suplemento do Excel usará um contexto de entrada anterior do Internet Explorer e conectará você automaticamente, se possível. Portanto, verifique o nome de usuário no canto superior direito do suplemento do Excel.
+5.  Se estiver preparado para entrar, clique em **Entrar** e entre usando as mesmas credenciais usadas para entrar no Dynamics 365 for Finance and Operations. O suplemento do Excel usará um contexto de entrada anterior do Internet Explorer e conectará você automaticamente, se possível. Portanto, verifique o nome de usuário no canto superior direito do suplemento do Excel.
 
 O suplemento do Excel lê automaticamente os dados da entidade selecionada. Observe que não haverá dados na pasta de trabalho até que o suplemento do Excel realize a leitura.
 
@@ -48,7 +48,7 @@ O suplemento do Excel lê automaticamente os dados da entidade selecionada. Obse
 2.  Na Loja do Office, busque com a palavra "Dynamics" e clique em **Adicionar** próximo a **Suplemento do Microsoft Dynamics Office** (o suplemento do Excel).
 3.  Caso esteja executando o suplemento do Excel pela primeira vez, clique em **Confiar nesse suplemento** para permitir que o suplemento funcione. O suplemento do Excel funciona em um painel do lado direito da janela do Excel.
 4.  Clique em **Adicionar informações do servidor** para abrir o painel **Opções**.
-5.  Copie a URL da instância desejada do Dynamics 365 for Operations, cole-a no campo **URL do Servidor** e, em seguida, exclua tudo após o nome do host. A URL resultante deve ter apenas o nome do host.
+5.  Copie a URL da instância desejada do Dynamics 365 for Finance and Operations, cole-a no campo **URL do Servidor** e, em seguida, exclua tudo após o nome do host. A URL resultante deve ter apenas o nome do host.
 Por exemplo, se a URL for https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage, exclua tudo, exceto **https://xxx.dynamics.com**.
 6.  Clique em **OK**, e em seguida clique em **Sim** para confirmar a alteração. O suplemento do Excel reinicia e carrega os metadados. O botão **Design** agora está disponível. Se o suplemento do Excel possuir um botão **Carregar applets**, você provavelmente não está conectado como o usuário correto. Para obter mais informações, consulte "O botão Carregar applets está aparecendo" na seção "Solução de Problemas" desse tópico.
 7.  Clique em **Design**. O suplemento do Excel recupera metadados da entidade.

@@ -3,26 +3,26 @@ title: "Definir e gerenciar um programa de benefícios"
 description: "O RH fornece um conjunto de ferramentas que podem ser usadas para configurar e manter benefícios, deduções e planos de compensação de trabalhadores que uma empresa oferece ou processa para os trabalhadores. Este artigo fornece informações sobre como configurar e gerenciar benefícios."
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HcmBenefitEligibilityDetail, HcmBenefitSelection, SysPolicyListPage, SysPolicySourceDocumentRuleType
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15681
 ms.assetid: 6aee97ac-29f7-4b3c-8aa1-c65810de3090
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1d972f2d6bacf6f60ab3ce3bab2fcfaeb8d2e524
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 09ad9ad22c676c3b117cc39e692c64ef92637dc1
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,13 +53,13 @@ Para cada tipo de benefício, como oftalmológico ou dentário, uma organizaçã
 [![pic de benefício](./media/benefit-pic.png)](./media/benefit-pic.png)
 
 ## <a name="eligibility"></a>Qualificação
-Muitos fatores determinam a qualificação do trabalhador para os vários tipos de benefícios oferecidos por um empregador. Quando cria um benefício no Microsoft Dynamics 365 for Operations, pode definir o tipo de qualificação que se aplica a esse benefício. 
+Muitos fatores determinam a qualificação do trabalhador para os vários tipos de benefícios oferecidos por um empregador. Quando você cria um benefício no Microsoft Talent, pode definir o tipo de qualificação que se aplica a esse benefício. 
 
 Você pode tornar um benefício disponível a todos os funcionários. Por exemplo, algumas empresas oferecem estacionamento a todos os funcionários como um benefício adicional. Ao criar esse benefício, você define a qualificação como **Todos os trabalhadores estão qualificados**. 
 
 Para outros benefícios, como consignações e arrecadações de imposto, a qualificação não se aplica. Ao criar esses tipos de benefícios, você definiu a qualificação para **Ignorar processo de qualificação**. 
 
-Por fim, a qualificação de benefícios pode ser baseada na regra. Por exemplo, uma empresa oferece dois tipos de benefícios de seguro de vida aos funcionários. Os funcionários executivos estão qualificados para um plano de seguro de vida, enquanto que todos os funcionários em tempo integral que estão qualificados para outro plano de seguro de vida. No Dynamics 365 for Operations, você poderá criar uma regra de qualificação para o benefício para localizar todos os funcionários executivos e outra regra para localizar todos os outros funcionários de tempo integral e, em seguida, aplica essas regras ao benefício apropriado.
+Por fim, a qualificação de benefícios pode ser baseada na regra. Por exemplo, uma empresa oferece dois tipos de benefícios de seguro de vida aos funcionários. Os funcionários executivos estão qualificados para um plano de seguro de vida, enquanto que todos os funcionários em tempo integral que estão qualificados para outro plano de seguro de vida. No Talent, você poderá criar uma regra de qualificação para o benefício para localizar todos os funcionários executivos e outra regra para localizar todos os outros funcionários de tempo integral e, em seguida, aplicar essas regras ao benefício apropriado.
 
 ## <a name="enrollment"></a>Inscrição
 Após criar os benefícios oferecidos por sua empresa e determinar a qualificação, você poderá inscrever os trabalhadores em benefícios. Você pode inscrever um único trabalhador em benefícios, ou pode inscrever vários trabalhadores em um ou mais benefícios durante um único processo. 

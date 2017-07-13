@@ -3,7 +3,7 @@ title: "Simulação de preço"
 description: "Este artigo fornece informações sobre a simulação de preço para cotações. A simulação de preço ajuda a avaliar o efeito de deduções no preço de venda futuro durante o processo de cotação, para que você confirme a um preço específico."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 293f09ca8758c0b1a66614eb9c75ca266b044fe7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c5381ab48e394702c2423de7a5b5cb9166993388
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -54,7 +54,7 @@ Para garantir que os descontos e preços sejam calculados corretamente, tenha cu
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>Tipos de desconto em contratos comerciais
 
-Os contratos comerciais no Microsoft Dynamics 365 for Operations podem ter quatro tipos de descontos de preço. Esses descontos podem ser configurados para diferentes grupos de itens, de clientes ou de preços e podem ser limitados por data. Para evitar erros de cálculo, considere contratos comerciais ao executar simulações de preço. Os quatro tipos de descontos nos contratos comerciais são os seguintes:
+Os contratos comerciais no Microsoft Dynamics 365 for Finance and Operations podem ter quatro tipos de descontos de preço. Esses descontos podem ser configurados para diferentes grupos de itens, de clientes ou de preços e podem ser limitados por data. Para evitar erros de cálculo, considere contratos comerciais ao executar simulações de preço. Os quatro tipos de descontos nos contratos comerciais são os seguintes:
 
 -   **Preço de venda** – Os preços de venda separados podem ser especificadas para itens. Quando as linhas da cotação forem criadas, o programa pesquisará pelo preço de venda correto para um item e o transferirá para as linhas de cotação. Portanto, um acordo comercial com esse tipo de desconto não afeta a simulação de preço. O preço de venda da linha de cotação reflete o contrato comercial.
 -   **Desconto de linha** – Descontos especiais são especificados para itens, dependendo do valor encomendado. Os valores da linha são tipicamente reduzidos pelo desconto de linha antes da execução de uma simulação de preço. Portanto, um acordo comercial com esse tipo de desconto afeta a simulação de preço.

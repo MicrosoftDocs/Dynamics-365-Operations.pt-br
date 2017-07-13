@@ -3,13 +3,13 @@ title: "Configurar uma decisão manual em um fluxo de trabalho"
 description: "Este tópico explica como configurar as propriedades de uma decisão manual."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192101
 ms.assetid: 0bccad77-1a44-4f08-967b-12c62c02afc7
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 6ea8b060741ea94af16861d5bb52894a577e5521
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -75,7 +75,7 @@ Você deve fornecer uma linha de assunto e instruções para os usuários atribu
     6.  Clique em **Fechar**.
 
 ## <a name="specify-the-possible-outcomes-of-a-decision"></a>Especificar os possíveis resultados de uma decisão
-Geralmente, quando um documento é atribuído a um tomador de decisão, uma pergunta é feita a ele. A resposta para essa pergunta normalmente é **Sim**ou **Não**, ou **Verdadeiro** ou **Falso**. Siga estas etapas para especificar os possíveis resultados de decisão manual.
+Geralmente, quando um documento é atribuído a um tomador de decisão, uma pergunta é feita a ele. A resposta para essa pergunta normalmente é **Sim** ou **Não**, ou **Verdadeiro** ou **Falso**. Siga estas etapas para especificar os possíveis resultados de decisão manual.
 
 1.  No painel esquerdo, clique em **Configurações Básicas**.
 2.  Na guia **Resultados**, no campo **Resultado 1**, insira o nome do resultado ou a opção.
@@ -152,10 +152,10 @@ Você pode enviar notificações às pessoas quando uma decisão é tomada, dele
     </tr>
     <tr class="odd">
     <td>Usuário</td>
-    <td>Especificar usuários do Microsoft Dynamics 365 for Operations</td>
+    <td>Especificar usuários do Microsoft Dynamics 365 for Finance and Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais enviar notificações e mova- os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong> tem todos os usuários do Finance and Operations. Selecione os usuários aos quais enviar notificações e mova- os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -215,10 +215,10 @@ Siga estas etapas para especificar a quem uma decisão manual deve ser atribuíd
     </tr>
     <tr class="even">
     <td>Usuário</td>
-    <td>Especificar usuários do Dynamics 365 for Operations</td>
+    <td>Usuários específicos do Finance and Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais deseja atribuir a decisão e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong> tem todos os usuários do Finance and Operations. Selecione os usuários aos quais deseja atribuir a decisão e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -301,10 +301,10 @@ Se um usuário não tomar a decisão no tempo alocado, a decisão vencerá. Uma 
     </tr>
     <tr class="odd">
     <td>Usuário</td>
-    <td>Especificar usuários do Dynamics 365 for Operations</td>
+    <td>Usuários específicos do Finance and Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais a decisão será escalonada e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong> tem todos os usuários do Finance and Operations. Selecione os usuários aos quais a decisão será escalonada e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

@@ -1,16 +1,16 @@
 ---
 title: "Colaboração do fornecedor com clientes"
-description: "Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com OCs e para monitorar o estoque em consignação no Dynamics 365 for Operations."
+description: "Este tópico descreve como você pode usar a colaboração do fornecedor no Finance and Operations para trabalhar com POs e para monitorar o estoque em consignação no Dynamics 365 for Operations."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1649014855d8d5e0f1225a661c9b6bae6490f597
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,9 +31,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com OCs e para monitorar o estoque em consignação no Dynamics 365 for Operations.
+Este tópico descreve como você pode usar a colaboração do fornecedor no Finance and Operations para trabalhar com POs e para monitorar o estoque em consignação no Dynamics 365 for Operations.
 
-Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com clientes no Microsoft Dynamics 365 for Operations. Inclui informações sobre como monitorar e responder a ordens de compra e como monitorar inventário de remessa. Também é possível usar colaboração de fornecedores para trabalhar com faturas. Para obter mais informações, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com clientes no Microsoft Finanças e Operações. Inclui informações sobre como monitorar e responder a ordens de compra e como monitorar inventário de remessa. Também é possível usar colaboração de fornecedores para trabalhar com faturas. Para obter mais informações, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
 
 ## <a name="working-with-purchase-orders"></a>Trabalhando com ordens de compra
 O espaço de trabalho **Confirmação de ordem de compra** permite que você responda a OCs enviadas para sua revisão. Ele também permite exibir informações sobre OCs que estão esperando uma ação do cliente e OCs que já foram confirmadas, mas ainda estão abertas. Há três listas no espaço de trabalho **Confirmação de ordem de compra**:
@@ -62,7 +62,7 @@ Você não pode alterar informações de preço ou encargos, mas pode sugerir al
 ## <a name="monitoring-consignment-inventory"></a>Monitorando o estoque em consignação
 Se você estiver usando o estoque em consignação, poderá usar a interface de colaboração do fornecedor para exibir informações nas seguintes páginas:
 
--   **Ordens de compra que consomem o estoque de consignação** - As ordens de compra para inventário de remessa são geradas quando o cliente toma a propriedade do inventário. Essas ordens de compra de consignação são exibidas somente na página**Ordens de compra que consomem o estoque em consignação**. Elas não estão incluídas na página **Todas as ordens de compra confirmadas**.
+-   **Ordens de compra que consomem o estoque de consignação** - As ordens de compra para inventário de remessa são geradas quando o cliente toma a propriedade do inventário. Essas ordens de compra de consignação são exibidas somente na página **Ordens de compra que consomem o estoque em consignação**. Elas não estão incluídas na página **Todas as ordens de compra confirmadas**.
 -   **Produtos recebidos de estoque em consignação** – essa página lista todas as transações em que a propriedade dos produtos é transferida para a empresa que está consumindo o estoque. Use essas informações para faturar o cliente.
 -   **Estoque em consignação disponível** – essa página mostra o estoque em consignação disponível de propriedade da sua empresa que está disponível no depósito do cliente.
 

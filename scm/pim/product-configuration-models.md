@@ -3,7 +3,7 @@ title: "Visão geral dos modelos de configuração de produto"
 description: "Esse artigo define condições e conceitos que são relevantes para configuração de produtos. Modelos de configuração de produto permitem criar uma estrutura de produtos genérica que pode ser usada para definir diversas variantes de produto para um único produto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 4031
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.dyn365.intro: Feb-16
 ms.dyn365.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 30580b059a4c240ad540a9c347b0551df0ab5c02
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1270c35bc7dbe4c85a1aa991a0387b33e1cb6990
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -121,7 +121,7 @@ Se o tipo de atributo for <strong>Booliano</strong>, <strong>Inteiro</strong> co
 </tr>
 </tbody>
 </table>
-Uma restrição de tabela definida pelo sistema representa um mapeamento entre um tipo de atributo e um campo em uma tabela do Microsoft Dynamics 365 for Operations. Uma restrição de tabela definida pelo sistema vincula dinamicamente o tipo de atributo ao campo. O link habilita o atributo em um modelo de configuração de produto para refletir os dados do campo na tabela do Microsoft Dynamics 365 for Operations.</td>
+Uma restrição de tabela definida pelo sistema representa um mapeamento entre um tipo de atributo e um campo em uma tabela do Finanças e Operações. Uma restrição de tabela definida pelo sistema vincula dinamicamente o tipo de atributo ao campo. O link habilita o atributo em um modelo de configuração de produto para refletir os dados do campo na tabela do Finanças e Operações.</td>
 </tr>
 <tr class="odd">
 <td>Cálculos</td>

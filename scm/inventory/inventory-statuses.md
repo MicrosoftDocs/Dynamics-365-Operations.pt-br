@@ -3,14 +3,14 @@ title: Status do estoque
 description: "Este artigo descreve como você pode usar o status de estoque para categorizar e manter o controle de estoque."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 21331
 ms.assetid: b35f495f-de4f-48a0-9d09-4d06781d7650
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1565b7738260270a986b515dfd21931296ce83bd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b3ec66c805d028c20f3d3f95e7af9d78252828c7
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -35,16 +35,16 @@ Este artigo descreve como você pode usar o status de estoque para categorizar e
 
 Você pode usar status de estoque para categorizar o estoque. Em seguida, você pode iniciar ações apropriadas, como o trabalho de reabastecimento ou de abastecimento. 
 
-Veja a seguir alguns exemplos de formas que você pode usar os status do estoque:
+Veja a seguir alguns exemplos de formas de uso dos status do estoque:
 
 -   Crie status de estoque para o estoque disponível e para as transações de entrada e de saída.
 -   Especifique um status de estoque padrão para transações de depósito.
 -   Altere o status de estoque para itens antes da chegada, durante a chegada ou quando os itens são inseridos durante a movimentação do estoque.
 -   Use um status de estoque para a definição de preços dos itens que foram devolvidos e para planejar a cobertura do item durante o planejamento mestre.
 
-O status de estoque é uma das dimensões do grupo de dimensão de armazenamento. O status do estoque podem ser categorizados como disponível ou não disponível e você pode usar o parâmetro **Bloqueio de estoque** para bloquear os itens que possuem um status de estoque indisponível. Os itens com um status bloqueado são considerados um estoque físico e não podem ser usados em uma ordem de produção, ordem de venda, ordem de transferência ou transação de saída. 
+O status de estoque é uma das dimensões do grupo de dimensão de armazenamento. Os status do estoque podem ser categorizados como disponível ou não disponível e você pode usar o parâmetro **Bloqueio de estoque** para bloquear os itens que possuem um status de estoque indisponível. Os itens com um status bloqueado são considerados um estoque físico e não podem ser usados em uma ordem de produção, ordem de venda, ordem de transferência ou transação de saída. 
 
-Você pode usar itens de depósito com o status de estoque disponível ou indisponível para o trabalho de entrada. Por exemplo, você cria um status disponível que é chamado **Pronto**, um status indisponível que é chamado **Danificado** e um status bloqueado que é chamado **Bloqueado**. Quando você cria uma ordem de compra para itens recebidos ou devolvidos, se os item forem danificado ou interrompido, é possível alterar o status do estoque dos itens **Danificado**na linha da ordem de compra. Depois que os itens são recebidos, o status é automaticamente definido para **Bloqueado**. Se você pesquisa os itens danificados usando um dispositivo móvel, o Microsoft Dynamics 365 for Operations pode usar diretivas de local e modelos de trabalho para mostrar informações sobre um local apropriado ou intervalo de locais onde você pode armazenar esses itens. Para itens devolvidos, um tipo de problema de **Reserva** é criado na página **Transações do inventário**. 
+Você pode usar itens de depósito com o status de estoque disponível ou indisponível para o trabalho de entrada. Por exemplo, você cria um status disponível que é chamado **Pronto**, um status indisponível que é chamado **Danificado** e um status bloqueado que é chamado **Bloqueado**. Quando você cria uma ordem de compra para itens recebidos ou devolvidos, se os item forem danificados ou interrompidos, é possível alterar o status do estoque dos itens para **Danificado** na linha da ordem de compra. Depois que os itens são recebidos, o status é automaticamente definido como **Bloqueado**. Se você pesquisa os itens danificados usando um dispositivo móvel, o Microsoft Dynamics 365 for Finance and Operations pode usar diretivas de local e modelos de trabalho para mostrar informações sobre um local apropriado ou intervalo de locais onde você pode armazenar esses itens. Para itens devolvidos, um tipo de problema de **Reserva** é criado na página **Transações do inventário**. 
 
 Para o trabalho de saída, use itens com status de estoque disponível. Se você tiver itens com um status de **Quebrado** e o planejamento mestre for executado nesses itens, os itens serão considerados faltantes e o estoque será reabastecido automaticamente. 
 

@@ -3,14 +3,14 @@ title: "Gerar uma previsão estatística"
 description: "Este artigo fornece informações sobre os parâmetros e filtros usados no cálculo da previsão de demanda."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d5232b0862d02962c6524ddc5ef37a6ad49d4143
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 93646e37ee511d433097bb284fccc73c230aee32
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -40,7 +40,7 @@ Para gerar uma previsão de demanda, vá para **Planejamento mestre &gt; Previs�
 
 A classificação de previsão pode ser selecionada no momento da geração da previsão. Os valores disponíveis são: Dia, Semana e Mês. 
 
-O número de classificações para as quais serão geradas uma previsão é definido no campo**Horizonte de previsão**. 
+O número de classificações para as quais serão geradas uma previsão é definido no campo **Horizonte de previsão**. 
 
 Quando a estratégia de previsão é definida para **Copiar sobre demanda histórica**, o fim do horizonte histórico é ignorado. O sistema copia o número de classificações especificado no campo **Horizonte de previsão** para a demanda de previsão, começando pela data definida no campo **Data inicial** em **Horizonte histórico**. Copiando a demanda histórica de uma determinada data em diante, os planejadores de produção podem planejar o próximo trimestre de duas maneiras:
 
@@ -49,13 +49,13 @@ Quando a estratégia de previsão é definida para **Copiar sobre demanda histó
 
 Para evitar confusão nos planos de produção, um determinado número de classificações de previsão pode ser congelado. Esse número é definido no campo **Congelar limite de tempo**. Na página **Previsão de demanda ajustada**, as células das classificações congeladas são desabilitadas para fornecer uma indicação visual de que esses valores não devem ser alterados. 
 
-A data inicial da previsão de demanda de linha de base não precisa ser a data atual ou uma data futura. Para definir uma data inicial diferente, use **Data de início de previsão de linha de base - Data inicial**. Por exemplo, em junho, os usuários poderão gerar uma previsão para o próximo ano. Como as classificações de previsão entre o fim da demanda histórica e o início da linha de base estão ausentes, as previsões podem não ser precisas. Se você estiver usando o serviço de previsão de demanda do Microsoft Dynamics 365 for Operations, há quatro maneiras para você preencher as lacunas ausentes. Você pode escolher o método que deseja definindo o parâmetro MISSING\_VALUE\_SUBSTITUTION na página **Parâmetros de previsão de demanda**. 
+A data inicial da previsão de demanda de linha de base não precisa ser a data atual ou uma data futura. Para definir uma data inicial diferente, use **Data de início de previsão de linha de base - Data inicial**. Por exemplo, em junho, os usuários poderão gerar uma previsão para o próximo ano. Como as classificações de previsão entre o fim da demanda histórica e o início da linha de base estão ausentes, as previsões podem não ser precisas. Se você estiver usando o serviço de previsão de demanda do Microsoft Dynamics 365 for Finance and Operations, há quatro maneiras para você preencher as lacunas ausentes. Você pode escolher o método que deseja definindo o parâmetro MISSING\_VALUE\_SUBSTITUTION na página **Parâmetros de previsão de demanda**. 
 
 O campo **Data de início de previsão de linha de base** - **Data inicial** deve ser definido como o início de uma classificação de previsão, por exemplo, nos Estados Unidos, um domingo, se a previsão for semanal. O sistema ajusta automaticamente o campo **Data de início de previsão de linha de base** - **Data inicial** de modo que corresponda ao início de uma classificação de previsão. 
 
 O campo **Data de início de previsão de linha de base** - **Data inicial** pode ser definido para uma data no passado. Em outras palavras, é possível gerar uma previsão de demanda no passado. Isso será útil porque permite que os usuários ajustem os parâmetros do serviço de previsão de modo que a previsão estatística gerada no passado corresponda à demanda histórica real. Os usuários poderão, então, continuar usando essas configurações de parâmetro para gerar uma previsão estatística para o futuro. 
 
-Os ajustes manuais feitos nas iterações de previsão de demanda anteriores poderão ser aplicados automaticamente à nova previsão estatística se a caixa de seleção **Transferir ajustes manuais para a previsão de demanda**. Se a caixa de seleção estiver desmarcada, os ajustes manuais não serão adicionadas à previsão estatísticas, mas não serão excluídos. Os ajustes manuais feitos em uma previsão podem ser excluídos somente no momento da importação da previsão, desmarcando a caixa de seleção **Salvar os ajustes manuais feitos na previsão de demanda da linha de base**. Os ajustes manuais são salvos no momento da autorização. Portanto, se um usuário fizer ajustes manuais na previsão, mas não autorizar a previsão no Dynamics 365 for Operations, as alterações serão perdidas. Para obter mais informações sobre os ajustes manuais e como eles funcionam, consulte [Autorizando a previsão ajustada](authorize-adjusted-forecast.md). 
+Os ajustes manuais feitos nas iterações de previsão de demanda anteriores poderão ser aplicados automaticamente à nova previsão estatística se a caixa de seleção **Transferir ajustes manuais para a previsão de demanda**. Se a caixa de seleção estiver desmarcada, os ajustes manuais não serão adicionadas à previsão estatísticas, mas não serão excluídos. Os ajustes manuais feitos em uma previsão podem ser excluídos somente no momento da importação da previsão, desmarcando a caixa de seleção **Salvar os ajustes manuais feitos na previsão de demanda da linha de base**. Os ajustes manuais são salvos no momento da autorização. Portanto, se um usuário fizer ajustes manuais na previsão, mas não autorizar a previsão no Finance and Operations, as alterações serão perdidas. Para obter mais informações sobre os ajustes manuais e como eles funcionam, consulte [Autorizando a previsão ajustada](authorize-adjusted-forecast.md). 
 
 Uma geração de previsão de demanda pode ter um nome e comentários para facilitar a identificação da previsão gerada. Esses valores podem ser vistos no histórico de geração de previsão na página **Histórico de geração de previsão estatística**. 
 

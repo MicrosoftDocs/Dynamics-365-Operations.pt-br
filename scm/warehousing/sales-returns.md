@@ -3,13 +3,13 @@ title: "Devoluções de vendas"
 description: "Este tópico fornece informações sobre o processo para ordens de devolução. Ele Inclui informações sobre devoluções do cliente e o seu efeito na avaliação de custo e nas quantidades de estoque disponíveis."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdec28ba1fe3650f59520cb42a71497c54a7d93e
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 
 Este tópico fornece informações sobre o processo para ordens de devolução. Ele Inclui informações sobre devoluções do cliente e o seu efeito na avaliação de custo e nas quantidades de estoque disponíveis.
 
-Os clientes podem devolver itens por diversos motivos. Por exemplo, um item pode apresentar defeito ou pode não ter atingido as expectativas do cliente. O processo de devolução se inicia quando um cliente emite uma solicitação para devolução de um item. Assim que a solicitação do cliente é recebida, uma ordem de devolução é criada no Microsoft Dynamics 365 para Operações.
+Os clientes podem devolver itens por diversos motivos. Por exemplo, um item pode apresentar defeito ou pode não ter atingido as expectativas do cliente. O processo de devolução se inicia quando um cliente emite uma solicitação para devolução de um item. Assim que a solicitação do cliente é recebida, uma ordem de devolução é criada no Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="return-order-process"></a>Processo de ordem de devolução
 A ilustração a seguir exibe um resumo do processo de ordem de devolução.  
@@ -264,7 +264,7 @@ Esse cenário envolve duas empresas na mesma organização, conforme mostrado na
 
 [![Devolução intercompanhia simples](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
 
-A cadeia de ordem pode ser estabelecida quando uma devolução de fornecedor é criada na empresa compradora ou quando uma ordem de devolução do cliente é criada na empresa vendedora. O Dynamics 365 para Operações cria a ordem correspondente na outra empresa e garante que as informações do cabeçalho e da linha na ordem de devolução do fornecedor reflitam as configurações na ordem de devolução do cliente. A ordem de devolução estabelecida pode tanto incluir como excluir a referência (**Encontrar ordem de venda**) a uma fatura de cliente existente. As guias de remessa e as faturas das duas ordens podem ser processadas individualmente. Por exemplo, não é necessário gerar uma guia de remessa para a ordem de devolução do fornecedor antes de gerar a guia de remessa para a ordem de devolução do cliente.
+A cadeia de ordem pode ser estabelecida quando uma devolução de fornecedor é criada na empresa compradora ou quando uma ordem de devolução do cliente é criada na empresa vendedora. O Finanças e Operações cria a ordem correspondente na outra empresa e garante que as informações do cabeçalho e da linha na ordem de devolução do fornecedor reflitam as configurações na ordem de devolução do cliente. A ordem de devolução estabelecida pode tanto incluir como excluir a referência (**Encontrar ordem de venda**) a uma fatura de cliente existente. As guias de remessa e as faturas das duas ordens podem ser processadas individualmente. Por exemplo, não é necessário gerar uma guia de remessa para a ordem de devolução do fornecedor antes de gerar a guia de remessa para a ordem de devolução do cliente.
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>Devoluções de remessa de entrega direta entre três participantes
 

@@ -3,14 +3,14 @@ title: Ordens de quarentena
 description: "Este artigo descreve como as ordens de quarentena são usadas para bloquear o estoque."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 63d8c5827a95693a903428322367a4eec61f17d8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ec3d54e8e08850cd81891e7058b2b787e08b0fb9
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ Este artigo descreve como as ordens de quarentena são usadas para bloquear o es
 As ordens de quarentena podem ser usadas para bloquear o estoque. Por exemplo, talvez você deseje quarentena itens por motivos de controle de qualidade. Estoque que ficou em quarentena transferido para um depósito de quarentena. **Observação:** se você estiver usando processos avançados de gerenciamento de depósito (em Gerenciamento de depósito), o processamento da ordem de quarentena será usado somente para devolver ordens de venda.
 
 ## <a name="quarantine-onhand-inventory-items"></a>Itens de estoque disponíveis em quarentena
-Ao colocar itens em quarentena, você pode criar ordens de quarentena manualmente ou configurar o sistema para criar automaticamente ordens de quarentena durante o processamento de entrada. Para criar automaticamente ordens de quarentena, selecione a opção **Gerenciamento de quarentena** na guia **Políticas de estoque** na página **Grupos de modelos de item**. Você também deve especificar um depósito de quarentena padrão no campo **Depósito de quarentena** para os depósitos de recebimento. Quando o estoque fisicamente disponível for registrado em uma ordem de compra ou em uma ordem de produção, os itens em quarentena serão automaticamente movidos para um depósito de quarentena no Microsoft Dynamics 365 for Operations. Esse movimento ocorre porque o status da ordem de quarentena é alterado para **Iniciado**. Quando você cria ordens de quarentena manualmente, o item não precisa ser configurado para gerenciamento de quarentena no grupo de modelos do item associado. Para esse processo, você deve especificar o estoque disponível que deve estar em quarentena e o depósito de quarentena que deve ser usado. Você pode usar os status da ordem de quarentena para ajudar a planejar o processo.
+Ao colocar itens em quarentena, você pode criar ordens de quarentena manualmente ou configurar o sistema para criar automaticamente ordens de quarentena durante o processamento de entrada. Para criar automaticamente ordens de quarentena, selecione a opção **Gerenciamento de quarentena** na guia **Políticas de estoque** na página **Grupos de modelos de item**. Você também deve especificar um depósito de quarentena padrão no campo **Depósito de quarentena** para os depósitos de recebimento. Quando o estoque fisicamente disponível for registrado em uma ordem de compra ou em uma ordem de produção, os itens em quarentena serão automaticamente movidos para um depósito de quarentena no Microsoft Dynamics 365 for Finance and Operations. Esse movimento ocorre porque o status da ordem de quarentena é alterado para **Iniciado**. Quando você cria ordens de quarentena manualmente, o item não precisa ser configurado para gerenciamento de quarentena no grupo de modelos do item associado. Para esse processo, você deve especificar o estoque disponível que deve estar em quarentena e o depósito de quarentena que deve ser usado. Você pode usar os status da ordem de quarentena para ajudar a planejar o processo.
 
 ## <a name="quarantine-order-statuses"></a>Status da ordem de quarentena
 As ordens de quarentena podem ter os seguintes status:

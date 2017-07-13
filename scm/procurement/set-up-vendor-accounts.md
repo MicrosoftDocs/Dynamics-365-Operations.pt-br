@@ -3,7 +3,7 @@ title: Configurar contas de fornecedor
 description: "Este tópico descreve os tipos de informações que você deve especificar quando cria uma nova conta de fornecedor."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bee95a2f3d9727e9123aa0abcf41325e6cac1efd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -62,13 +62,13 @@ Você pode armazenar os contatos de um fornecedor. Esses contatos poderão, ent�
 
 Para adicionar contatos a um fornecedor, na página **Todos os fornecedores**, na guia **Fornecedor**, no grupo **Configurar**, clique em **Contatos** &gt; **Adicionar contatos**.  
 
-Você pode criar contatos de fornecedor a partir do zero. Se desejar, você pode copiar detalhes de outra pessoa que já esteja registrada no Microsoft Dynamics 365 for Operations e editar as informações conforme necessário.  
+Você pode criar contatos de fornecedor a partir do zero. Se desejar, você pode copiar detalhes de outra pessoa que já esteja registrada no Microsoft Dynamics 365 for Finance and Operations e editar as informações conforme necessário.  
 
 **Observação:** adicionar um contato de um fornecedor não é o mesmo que adicionar informações de contato desse fornecedor. Embora você possa adicionar informações de contato gerais de um fornecedor, também é possível ter várias pessoas específicas que são contatos nessa empresa e que têm suas próprias informações de contato.  
 
 Você não poderá excluir um registro pessoal de contato quando o contato for referenciado em um documento. Em vez disso, poderá desativar o contato.  
 
-Você pode adicionar contatos de fornecedor para seus contatos pessoais no Microsoft Office 365. Entretanto, primeiro configure a sincronização entre o Dynamics 365 for Operations e o Office 365 na sincronização do Microsoft Exchange Server e no assistente de instalação do Microsoft Outlook.
+Você pode adicionar contatos de fornecedor para seus contatos pessoais no Microsoft Office 365. Entretanto, primeiro configure a sincronização entre o Dynamics 365 for Finance and Operations e o Office 365 na sincronização do Microsoft Exchange Server e no assistente de instalação do Microsoft Outlook.
 
 ## <a name="vendors-in-different-legal-entities"></a>Fornecedores em entidades legais diferentes
 Se um fornecedor estiver registrado para apenas uma entidade legal em sua organização, e outras entidades legais precisarem registrar o mesmo fornecedor, use a página **Adicionar fornecedor a outra entidade legal** para configurar o fornecedor de modo que ele faça negócios com outra entidade legal. Você deve selecionar um grupo de fornecedores, uma moeda e um status de suspensão para o fornecedor na entidade legal selecionada.  

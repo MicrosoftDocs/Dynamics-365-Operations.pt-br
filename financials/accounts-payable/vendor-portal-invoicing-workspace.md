@@ -3,13 +3,14 @@ title: "Espaço de trabalho de faturamento de colaboração do fornecedor"
 description: "Este tópico explica como podem exibir faturas de fornecedor e enviar notas fiscais de colaboração de fornecedor que ao espaço de trabalho."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7c8fe2fea08dbad625cd373ca316135ac4e29e13
+ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
+ms.openlocfilehash: 2171a454c763abab82f6555950994237b4de7b8b
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/14/2017
 
 
 ---
@@ -32,17 +33,17 @@ ms.lasthandoff: 05/25/2017
 
 Este tópico explica como podem exibir faturas de fornecedor e enviar notas fiscais de colaboração de fornecedor que ao espaço de trabalho.
 
-**Faturamento de colaboração de fornecedor** O espaço de trabalho pode ser usado para exibir informações de nota fiscal de fornecedor e enviar notas fiscais ao Microsoft Dynamics 365 para as operações usando recursos de fluxo de trabalho.
-Espaço de trabalho de faturamento de colaboração do fornecedor
+O espaço de trabalho **Faturamento da colaboração de fornecedores** pode ser usado para exibir informações de fatura de fornecedor e enviar faturas ao Microsoft Dynamics 365 for Finance and Operations, Enterprise edition usando recursos de fluxo de trabalho.
+Espaço de trabalho de faturamento da colaboração de fornecedores
 ----------------------------------------
 
 ### <a name="summary-tiles"></a>Blocos do resumo
 
 Os blocos **Resumo** darão uma visão geral de notas fiscais do fornecedor selecionado. Você pode exibir faturas pelo estado.
 -   Faturas de rascunho não foram enviadas ao fluxo de trabalho.
--   As notas fiscais enviadas, aprovadas não são as notas fiscais que enviou o fornecedor, mas não foram lançados em dynamics 365 para as operações.
--   Aprovado, faturas não pagas são aquelas lançadas no Dynamics 365 for Operations, mas ainda não foram pagas por completo.
--   As notas fiscais pagas são as que foram totalmente paga em dynamics 365 para as operações.
+-   As faturas enviadas não aprovadas são aquelas que o fornecedor enviou, mas que não foram lançadas no Finance and Operations.
+-   As faturas aprovadas não pagas são aquelas que foram lançadas no Finance and Operations, mas que ainda não foram totalmente pagas.
+-   As faturas pagas são aquelas que foram totalmente pagas no Finance and Operations.
 
 Clique em um quadro abrirá uma exibição filtrada da página **Lista de notas fiscais**.
 ### <a name="tabular-lists"></a>Listas tabulares
@@ -59,7 +60,7 @@ Você pode criar uma nova nota fiscal do fornecedor selecionando **Novo** a aç�
 
 
 
-Para obter mais informações, consulte [Colaborar com fornecedores usando o portal de fornecedores](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+Para obter mais informações, consulte [Colaborar com fornecedores usando o portal de fornecedores](/dynamics365/unified-operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
 
 
 

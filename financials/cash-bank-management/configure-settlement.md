@@ -3,7 +3,7 @@ title: "Configurar liquidação"
 description: "Como e quando as transações são liquidadas podem ser assuntos complexos, é essencial que você insira corretamente e defina os parâmetros para atender às suas necessidades comerciais. Este artigo descreve os parâmetros usados para pagamento de contas a pagar e contas a receber."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d3015004371aa041a7ee545df9a4c7f0e48ca31
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 059513de66827aa3a839b9eb06973ec4c1549f73
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Como e quando as transações são liquidadas podem ser assuntos complexos, é essencial que você insira corretamente e defina os parâmetros para atender às suas necessidades comerciais. Este artigo descreve os parâmetros usados para pagamento de contas a pagar e contas a receber. 
 
-Os parâmetros a seguir afetam como as liquidações são processadas no Microsoft Dynamics 365 for Operations. A liquidação é o processo de liquidar uma fatura em relação a um pagamento ou nota de crédito. Esses parâmetros estão alocados na área **Liquidação** das páginas **Parâmetros de contas a receber** e das páginas **Parâmetros das contas a pagar**.
+Os parâmetros a seguir afetam como as liquidações são processadas no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. A liquidação é o processo de liquidar uma fatura em relação a um pagamento ou nota de crédito. Esses parâmetros estão alocados na área **Liquidação** das páginas **Parâmetros de contas a receber** e das páginas **Parâmetros das contas a pagar**.
 
 -   **Liquidação automática** – Defina esta opção como **Sim** se uma transação for liquidada automaticamente em relação a outras transações abertas quando ela é lançada. Se esta opção estiver definida como **Não**, os usuários podem liquidar transações ao inserir pagamentos, ou posteriormente, usando a página **Liquidar transações**.
 -   **Administração de descontos à vista** – Especifique como [o desconto à vista é realizado quando uma fatura é paga em excesso](cash-discount-handling-overpayments.md). Para um pagamento em excesso, o desconto à vista pode ser reduzido, pode ser tratada como uma diferença ou pode continuar sobre a conta do fornecedor ou cliente.

@@ -3,7 +3,7 @@ title: "Notas fiscais de transferência ou apropriação de imposto ICMS para o 
 description: "Este tópico explica o conceito de notas fiscais de transferência ou apropriação de imposto e descreve os requisitos para gerá-las."
 author: sndray
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: TaxFiscalDocument_BR, TaxFiscalDocumentCancel_BR, TaxFiscalDocumentListPage_BR, TaxFiscalDocumentPost_BR
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 269524
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cd0aa3a8dab047fca922a75b2bd88dd67040d6e6
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d8b48230a9822e592b7b6cc3d479f46bbe868508
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -69,9 +69,9 @@ De acordo com a lei brasileira nº 102/2000, a partir de 1º de janeiro de 2001,
 
 No Microsoft Dynamics 365 for Operations, as entradas são as seguintes:
 
-**Compra de Ativo Fixo** **Dynamics 365 for Operations: Fatura de Compra do Ativo de Recebimento**
+**Compra de ativo fixo** **Microsoft Dynamics 365 for Finance and Operations, Enterprise edition: Fatura de compra de ativo de recebimento**
 
-**Ajuste de ICMS do ano** **Dynamics 365 for Operations: Comprovante de Diário manual** **(R$ 12.000,00 / 48 installments) \* 12 (meses)**
+**Ajuste de ICMS do ano** **Finance and Operations: Comprovante de diário manual** **(R$ 12.000,00 / 48 parcelas) \* 12 (meses)**
 
 ICMS recuperável **longo prazo** (conta diferida)
 
@@ -91,7 +91,7 @@ ICMS recuperável, longo prazo (conta diferida)
 
 **Saldo de Ativo de longo prazo** (conta diferida): R$ 9.000,00
 
-**Ajuste de ICMS do mês** **Dynamics 365 for Operations: Emissão de uma Nota fiscal de entrada**
+**Ajuste de ICMS do mês** **Finance and Operations: Emissão de uma Nota fiscal de entrada**
 
 Conta de ICMS recuperável
 

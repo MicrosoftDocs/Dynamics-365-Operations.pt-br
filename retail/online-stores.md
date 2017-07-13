@@ -1,39 +1,41 @@
 ---
 title: "Visão geral da loja online"
-description: "Este artigo oferece informações sobre armazenamentos online de Retail e como configurá-los no Microsoft Dynamics 365 for Operations."
+description: "Este artigo oferece informações sobre lojas online de Varejo e como configurá-las no Microsoft Dynamics 365 for Retail."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16161
 ms.assetid: 646d560c-f856-4701-b4ca-44e357ef09b8
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 784444258a324eeefb5b96ae518ef4123ac219d4
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 28ab301dc3aede6b23fb5d87fcb179916e0296e4
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
 
-# <a name="online-store-overview"></a>Visão geral da loja online
+# <a name="online-store-overview"></a>Visão geral de loja online
 
 [!include[banner](includes/banner.md)]
 
 
-Este artigo oferece informações sobre armazenamentos online de Retail e como configurá-los no Microsoft Dynamics 365 for Operations.
+Este artigo oferece informações sobre lojas online de Varejo e como configurá-las no Microsoft Dynamics 365 for Retail.
 
-O varejo e o comércio no Microsoft Dynamics 365 for Operations dão suporte a vários canais de varejo. Esses canais de varejo incluem lojas online, call centers e lojas de varejo (também chamadas de lojas tradicionais). As lojas online oferecem ao varejista uma presença online, de modo que os clientes possam comprar produtos na loja online do varejista, bem como nas suas lojas físicas. Se os clientes comprarem produtos da loja online, esses produtos podem ser enviados para eles ou os clientes podem retirar os produtos em uma loja de varejo local. Crie uma loja online no cliente do Dynamics 365 for Operations. Esta loja online é publicada em uma loja online de terceiros que é integrada ao Dynamics 365 for Operations. A loja online de terceiros serve como uma vitrine (interface do usuário) da loja online e fornece uma opção do sistema de gerenciamento do cliente (CMS) e recursos da interface do usuário. Várias integrações deste tipo estão disponíveis para Dynamics 365 for Operations. As propriedades definidas para a loja online controlam o comportamento da loja online. Por exemplo, você define a hierarquia da categoria de navegação no Dynamics 365 for Operations e a atribui para a loja online. Quando você publica a loja online em uma loja online de terceiros, a hierarquia da categoria de navegação aparece na versão online da loja. Os clientes usam a hierarquia de categoria de navegação para pesquisar a loja online e para procurar produtos. Para criar uma loja online, você deve configurar os componentes que permitem que as transações sejam processadas para a loja. Por exemplo, você deve adicionar classificações, aplicar atributos e configurar métodos de pagamento e métodos de remessa. Você também pode definir preços, promoções, descontos, contratos comerciais e condições de remessa específicos da loja online. Depois que publicar a loja online na loja online de terceiros, você poderá criar catálogos de produtos de varejo para a loja online. Os produtos do catálogo se transformam em listagens de produtos na loja online. Quando um cliente compra produtos da loja online, o estoque disponível é atualizado e sincronizado no cliente. Além de isso, as ordens de venda são geradas para as compras e enviadas ao cliente para preenchimento e processamento.
+O Dynamics 365 for Retail dá suporte a vários canais de varejo. Esses canais de varejo incluem lojas online, call centers e lojas de varejo (também chamadas de lojas tradicionais). As lojas online oferecem ao varejista uma presença online, de modo que os clientes possam comprar produtos na loja online do varejista, bem como nas suas lojas físicas. Se os clientes comprarem produtos da loja online, esses produtos podem ser enviados para eles ou os clientes podem retirar os produtos em uma loja de varejo local. Crie uma loja online no cliente do Dynamics 365 for Retail. Esta loja online é publicada em uma loja online de terceiros que é integrada ao Dynamics 365 for Retail. A loja online de terceiros serve como uma vitrine (interface do usuário) da loja online e fornece uma opção do sistema de gerenciamento do cliente (CMS) e recursos da interface do usuário. Várias integrações deste tipo estão disponíveis no Dynamics 365 for Retail. As propriedades definidas para a loja online controlam o comportamento da loja online. Por exemplo, você define a hierarquia de categoria de navegação no Dynamics 365 for Retail e a atribui para a loja online. Quando você publica a loja online em uma loja online de terceiros, a hierarquia da categoria de navegação aparece na versão online da loja. Os clientes usam a hierarquia de categoria de navegação para pesquisar a loja online e para procurar produtos. Para criar uma loja online, você deve configurar os componentes que permitem que as transações sejam processadas para a loja. Por exemplo, você deve adicionar classificações, aplicar atributos e configurar métodos de pagamento e métodos de remessa. Você também pode definir preços, promoções, descontos, contratos comerciais e condições de remessa específicos da loja online. Depois que publicar a loja online na loja online de terceiros, você poderá criar catálogos de produtos de varejo para a loja online. Os produtos do catálogo se transformam em listagens de produtos na loja online. Quando um cliente compra produtos da loja online, o estoque disponível é atualizado e sincronizado no cliente. Além de isso, as ordens de venda são geradas para as compras e enviadas ao cliente para preenchimento e processamento.
 
 ## <a name="set-up-an-online-store"></a>Configurar uma loja online
 Para configurar uma loja online, você deve concluir as seguintes tarefas.

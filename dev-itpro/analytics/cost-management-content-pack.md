@@ -3,13 +3,13 @@ title: "Conteúdo do BI Gerenciamento de custo"
 description: "Este tópico descreve o que está incluído no conteúdo do Power BI Gerenciamento de custo. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 270314
 ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a9449e42224d5dfb1bc1f0368a041c45afc334a2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -52,7 +52,7 @@ O conteúdo do Microsoft Power BI **Gerenciamento de custo** destina-se a contad
 A fonte de dados primária para CostAggregatedCostStatementEntryEntity é a tabela CostStatementCache. Essa tabela é gerenciada pela estrutura de cache de conjunto de dados. Por padrão, ela é atualizada a cada 24 horas, mas você pode habilitar atualizações manuais na configuração de cache de dados. Depois você pode fazer uma atualização manual no espaço de trabalho **Gerenciamento de custo** ou **Análise de custo**. Depois que a atualização de CostStatementCache é executada, você deve atualizar a conexão OData em PowerBI.com para ver os dados atualizados no site. As medições de variação (compra, produção) no conteúdo do Power BI pertencem apenas a itens avaliados pelo método de estoque de custo padrão. A variação de produção é calculada como a diferença entre os custos ativos e os realizados. A variação de produção é calculada quando a ordem de produção possui um status de **Concluída**. Para obter mais informações sobre tipos de variação de produção e como cada tipo é calculado, consulte [Sobre a análise de variações para uma ordem de produção concluída](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-O conteúdo do Power BI **Gerenciamento de custo** está disponível em PowerBI.com. Para obter mais informações sobre como conectar e carregar os dados do Microsoft Dynamics 365 for Operations, consulte [Acessar o conteúdo do Power BI em PowerBI.com](power-bi-home-page.md).
+O conteúdo do Power BI **Gerenciamento de custo** está disponível em PowerBI.com. Para obter mais informações sobre como conectar e carregar os dados do Microsoft Dynamics 365 for Finance and Operations, consulte [Acessar o conteúdo do Power BI em PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
 O conteúdo inclui um conjunto de páginas de relatório. Cada página consiste em um conjunto de métricas visualizadas, como gráficos, blocos e tabelas. A seguinte tabela fornece uma visão geral das visualizações no conteúdo do Power BI **Gerenciamento de custo**.
@@ -84,9 +84,9 @@ O conteúdo inclui um conjunto de páginas de relatório. Cada página consiste 
 | |Variações de produção por nome do site e nome de categoria de nível 3 | |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
-Os dados do Dynamics 365 for Operations são usados para preencher as páginas do relatório no conteúdo do Power BI **Gerenciamento de custo**. Esses dados são representados como medições agregadas que são preparadas na loja Entidade, que é um banco de dados Microsoft SQL otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com a loja Entidade](power-bi-integration-entity-store.md). As principais medidas agregadas a seguir são usadas como base do conteúdo.
+Os dados do Finance and Operations são usados para preencher as páginas do relatório no conteúdo do Power BI **Gerenciamento de custo**. Esses dados são representados como medições agregadas que são preparadas na loja Entidade, que é um banco de dados Microsoft SQL otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com a loja Entidade](power-bi-integration-entity-store.md). As principais medidas agregadas a seguir são usadas como base do conteúdo.
 
-| Entidade            | Principal medida agregada | Fonte de dados para o Dynamics 365 para Operações | Campo             | descrição                       |
+| Entidade            | Principal medida agregada | A fonte de dados para o Finance and Operations | Campo             | descrição                       |
 |-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
 | Entradas de demonstrativo | Alteração líquida                | CostAggregatedCostStatementEntryEntity      | sum(\[Valor\])   | Valor na moeda contábil |
 | Entradas de demonstrativo | Valor de alteração líquida       | CostAggregatedCostStatementEntryEntity      | sum(\[Quantidade\]) |                                   |

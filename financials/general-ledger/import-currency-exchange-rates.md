@@ -3,14 +3,14 @@ title: "Importar taxas de câmbio de moeda"
 description: "Se uma entidade legal recebeu faturas em moedas estrangeiras, é necessário converter a moeda estrangeira em moeda local. Isso significa que as taxas de câmbio atualizadas para diferentes moedas são necessárias. Este tópico fornece uma visão geral das definições e de processamento necessários para importar as taxas de referência da moeda estrangeira publicadas na Internet pelos provedores de taxa de câmbio, como o Banco Central Europeu e o Banco Central da Rússia."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261374
 ms.assetid: b2b22868-de68-439f-914c-78c6930b7340
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 69a622f54581504989504a06f90d443a98ad2f63
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2d0654d6dbed3b4fe56b8918194132787f66af80
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ Se uma entidade legal recebeu faturas em moedas estrangeiras, é necessário con
 As seções a seguir descrevem o fluxo de informações usadas para configurar e processar a importação de taxas de câmbio.
 
 ## <a name="configure-an-exchange-rate-provider"></a>Configurar um provedor de taxa de câmbio
-Antes de importar taxas de câmbio, você deve configurar as informações necessárias para configurar os provedores que fornecem as taxas de câmbio. Use a página **Configurar provedores de taxa de câmbio** para selecionar os provedores de taxa de câmbio. Alguns provedores de taxa de câmbio estão incluídos nos dados de demonstração no Microsoft Dynamics 365 for Operations. A tabela a seguir fornece descrições dos controles desta página.
+Antes de importar taxas de câmbio, você deve configurar as informações necessárias para configurar os provedores que fornecem as taxas de câmbio. Use a página **Configurar provedores de taxa de câmbio** para selecionar os provedores de taxa de câmbio. Alguns provedores de taxa de câmbio estão incluídos nos dados de demonstração do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. A tabela a seguir fornece descrições dos controles desta página.
 
 |           |                                                                                                                                                                                                                             |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

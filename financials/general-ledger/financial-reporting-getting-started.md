@@ -1,16 +1,16 @@
 ---
 title: "Relatórios financeiros"
-description: "Este tópico descreve onde acessar o relatório financeiro no Microsoft Dynamics 365 for Operations e como usar os recursos do relatório financeiro. Ele inclui uma descrição de relatórios financeiros padrão que são fornecidos."
+description: "Este tópico descreve onde acessar o relatório financeiro no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition e como usar os recursos do relatório financeiro. Ele inclui uma descrição de relatórios financeiros padrão que são fornecidos."
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 39db754df7edeca414752ce1844d7f9e85df0b36
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fedde78a563939fd7080e748c412c89c71586823
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico descreve onde acessar o relatório financeiro no Microsoft Dynamics 365 for Operations e como usar os recursos do relatório financeiro. Ele inclui uma descrição de relatórios financeiros padrão que são fornecidos.
+Este tópico descreve onde acessar o relatório financeiro no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition e como usar os recursos do relatório financeiro. Ele inclui uma descrição de relatórios financeiros padrão que são fornecidos.
 
 <a name="accessing-financial-reporting"></a>Avaliando relatórios financeiros
 -----------------------------
 
-Você pode encontrar o menu **Relatórios financeiros** nos seguintes locais no Dynamics 365 for Operations:
+Você pode encontrar o menu **Relatórios financeiros** nos seguintes locais no Dynamics 365 for Finance and Operations:
 
 -   **Contabilidade** &gt; **Consultas e relatórios**
 -   **Orçamento** &gt; **Consultas e relatórios** &gt; **Orçamento básico**
@@ -83,7 +83,7 @@ As funções de relatórios financeiros estão disponíveis para os usuários qu
 Depois que um usuário é adicionado ou uma função é alterada, o usuário deve acessar os relatórios financeiros em alguns minutos. **Observação:** A função sysadmin foi adicionada a todas as funções no relatório financeiro.
 
 ## <a name="default-reports"></a>Relatórios padrão
-Os relatórios financeiros fornecem 22 relatórios financeiros padrão. Cada relatório usa as categorias de conta principal padrão no Dynamics 365 for Operations. Você pode usar esses relatórios da forma como são ou como um ponto de partida para os relatórios financeiros necessários. Além dos demonstrativos financeiros tradicionais, como o demonstrativo de renda e o balanço, esses relatórios incluem relatórios que mostram os diferentes tipos de relatórios financeiros que você pode criar. Cada relatório na tabela a seguir é vinculado a uma apresentação do Office Mix sobre o relatório.
+Os relatórios financeiros fornecem 22 relatórios financeiros padrão. Cada relatório usa as categorias de conta principal padrão no Finance and Operations. Você pode usar esses relatórios da forma como são ou como um ponto de partida para os relatórios financeiros necessários. Além dos demonstrativos financeiros tradicionais, como o demonstrativo de renda e o balanço, esses relatórios incluem relatórios que mostram os diferentes tipos de relatórios financeiros que você pode criar. Cada relatório na tabela a seguir é vinculado a uma apresentação do Office Mix sobre o relatório.
 
 | Relatório padrão                                                                                         | descrição                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ Os relatórios financeiros fornecem 22 relatórios financeiros padrão. Cada rel
 Ao clicar no menu **Relatórios financeiros**, a lista de relatórios financeiros padrão da empresa será exibida. É possível abrir ou modificar um relatório. Para abrir um dos relatórios padrão, selecione o nome do relatório. Na primeira vez que um relatório for aberto, será gerado automaticamente para o mês anterior. Por exemplo, se você abrir um relatório pela primeira vez em agosto de 2016, o relatório é gerado para 31 de julho de 2016. Depois que um relatório for aberto, você pode começar a explorá-la ao aprofundamento de partes específicas de dados e alterar opções de relatório.
 
 ## <a name="creating-and-modifying-financial-reports"></a>Criando e modificando relatórios financeiros
-Na lista de relatórios financeiros, você pode criar um novo relatório ou modificar um existente relatório. Se você tiver as permissões apropriadas, poderá criar um novo relatório financeiro clicando em **Novo** no painel de Ação. Um programa de designer de relatórios é baixado para seu dispositivo. Depois que o designer de relatórios for iniciado é possível criar o novo relatório. Depois de salvar o novo relatório, ele aparecerá na lista de relatórios financeiros. A lista mostra apenas os relatórios que foram criados para a empresa que você está usando no Dynamics 365 for Operations. Para obter mais informações sobre o processo de criar e modificar relatórios financeiros no Dynamics 365 for Operations, consulte estas [postagens de blog](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) do blog do relatório financeiro do Dynamics. **Observação:** O computador no qual você estiver baixando o cliente de designer de relatórios deve ter a versão 4.6.2 do Microsoft .NET Framework instalada. Esta versão do Microsoft .NET Framework pode ser baixada e instalada [aqui](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Se estiver usando o Chrome, instale uma extensão de ClickOnce para baixar o cliente de designer de relatórios. Se estiver executando no modo incógnito, verifique se a extensão de ClickOnce está habilitada para modo incógnito. Você também pode modificar um relatório que aparece na lista de relatórios financeiros. Quando a área em torno do nome do relatório é selecionada, clique em **Editar** no Painel de Ação. O Report Designer é inicializado.
+Na lista de relatórios financeiros, você pode criar um novo relatório ou modificar um existente relatório. Se você tiver as permissões apropriadas, poderá criar um novo relatório financeiro clicando em **Novo** no painel de Ação. Um programa de designer de relatórios é baixado para seu dispositivo. Depois que o designer de relatórios for iniciado é possível criar o novo relatório. Depois de salvar o novo relatório, ele aparecerá na lista de relatórios financeiros. A lista mostra apenas os relatórios que foram criados para a empresa que você está usando no Finance and Operations. Para obter mais informações sobre o processo de criar e modificar relatórios financeiros no Finance and Operations, consulte estas [postagens de blog](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/) do blog do relatório financeiro do Dynamics. **Observação:** O computador no qual você estiver baixando o cliente de designer de relatórios deve ter a versão 4.6.2 do Microsoft .NET Framework instalada. Esta versão do Microsoft .NET Framework pode ser baixada e instalada [aqui](https://www.microsoft.com/en-us/download/details.aspx?id=53345). Se estiver usando o Chrome, instale uma extensão de ClickOnce para baixar o cliente de designer de relatórios. Se estiver executando no modo incógnito, verifique se a extensão de ClickOnce está habilitada para modo incógnito. Você também pode modificar um relatório que aparece na lista de relatórios financeiros. Quando a área em torno do nome do relatório é selecionada, clique em **Editar** no Painel de Ação. O Report Designer é inicializado.
 
 <a name="see-also"></a>Consulte também
 --------

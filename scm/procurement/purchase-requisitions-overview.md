@@ -3,14 +3,14 @@ title: "Visualização geral da requisição de compra"
 description: "Este artigo descreve o fluxo de trabalho de requisição de compra e os diferentes status que uma requisição de compra pode ter."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 38e7fba3fbd12de3a1cd9ac7b1c627834978ba30
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8c60d870d0ca178af84919e5ebaaa13769b46f8a
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -40,7 +40,7 @@ Depois que uma requisição de compra for aprovada, ela poderá ser usada para g
 ## <a name="creating-purchase-requisitions"></a>Criar requisições de compra
 Você pode criar uma requisição de compra na página **Minhas requisições de compra** e selecione os itens e os serviços exigidos. Você pode selecionar itens de um catálogo de compras que sua organização criou ou pode solicitar os itens que não estejam localizados em um catálogo ao selecionar uma categoria de compras e inserir os detalhes do produto.  
 
-Antes que você possa enviar uma requisição de compra para revisão, os fluxos de trabalho deverão ser configurados no cliente do Microsoft Dynamics 365 for Operations. Use um sistema de fluxo de trabalho para mover uma requisição de compra por um processo de revisão com um status inicial **Rascunho** para um status final **Aprovado**.
+Antes que você possa enviar uma requisição de compra para revisão, os fluxos de trabalho deverão ser configurados no cliente do Microsoft Dynamics 365 for Finance and Operations. Use um sistema de fluxo de trabalho para mover uma requisição de compra por um processo de revisão com um status inicial **Rascunho** para um status final **Aprovado**.
 
 ### <a name="purchase-requisition-statuses"></a>Status de requisições de compra
 
@@ -143,7 +143,7 @@ Nas políticas de compras, você pode controlar os objetivos da requisição que
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>Requisições que têm um objetivo de consumo
 
-Uma requisição com o objetivo de consumo representa a demanda para itens e serviços que serão usados internamente pela organização. A demanda criada com esse tipo de requisição é sempre cumprida por uma ordem de compra. Se o Microsoft Dynamics 365 for Operations for configurado para gerar automaticamente as ordens de compra, as ordens de compra são criadas após a requisição de compra ter sido aprovada.
+Uma requisição com o objetivo de consumo representa a demanda para itens e serviços que serão usados internamente pela organização. A demanda criada com esse tipo de requisição é sempre cumprida por uma ordem de compra. Se o Microsoft Dynamics 365 for Finance and Operations for configurado para gerar automaticamente as ordens de compra, as ordens de compra são criadas após a requisição de compra ter sido aprovada.
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>Requisições que têm um objetivo de reabastecimento
 

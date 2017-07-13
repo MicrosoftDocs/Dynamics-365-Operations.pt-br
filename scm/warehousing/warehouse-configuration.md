@@ -3,14 +3,14 @@ title: "Configuração de depósito"
 description: "Este artigo explica como configurar um depósito. Ele inclui informações sobre como habilitar um layout de depósito e processos de depósito."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11554
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 08c086767303f6f52e085f8f56b5d09f1e46878f
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 17608d373fbedd20efe0b525ec141989a50a40a2
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,10 +33,10 @@ ms.lasthandoff: 05/25/2017
 
 Este artigo explica como configurar um depósito. Ele inclui informações sobre como habilitar um layout de depósito e processos de depósito.
 
-**Observação:** Este artigo se aplica aos recursos no módulo de**Gerenciamento de depósito** (estoque avançado). Não se aplica aos recursos de depósito no módulo de **Gerenciamento de depósito**.
+**Observação:** Este artigo se aplica aos recursos no módulo de **Gerenciamento de depósito** (estoque avançado). Não se aplica aos recursos de depósito no módulo de **Gerenciamento de depósito**.
 
 ## <a name="warehouse-layout"></a>Layout do depósito
-O sistema de gerenciamento de depósito no Microsoft Dynamics 365 for Operations fornece uma maneira flexível de definir o layout de depósito para atender às necessidades de modificação, de forma que você possa obter uma ótima eficiência de depósito.
+O sistema de gerenciamento de depósito no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition fornece uma maneira flexível de definir o layout de depósito para atender às necessidades de modificação, de forma que você possa obter uma ótima eficiência de depósito.
 
 -   Você pode liquidar áreas de armazenamento de alta e baixa prioridade para o posicionamento ideal de mercadorias.
 -   Você pode dividir o depósito em zonas para acomodar várias necessidades de armazenamento, como requisitos de temperatura, ou várias taxas de devolução de itens.
@@ -44,7 +44,7 @@ O sistema de gerenciamento de depósito no Microsoft Dynamics 365 for Operations
 -   Você pode agrupar locais usando as configurações de restrição de capacidade física.
 -   Você pode controlar como os itens são armazenados e separados, com base em regras definidas pela consulta.
 
-Para usar o gerenciamento de depósito no Microsoft Dynamics 365 for Operations, você deve criar um depósito e habilitá-lo para as atividades de gerenciamento de depósito mais avançados ou mais especializadas. Na página **Depósitos**, selecione a opção **Usar processos de gerenciamento de depósito**.
+Para usar o gerenciamento de depósito no Finance and Operations, você deve criar um depósito e habilitá-lo para as atividades de gerenciamento de depósito mais avançados ou mais especializadas. Na página **Depósitos**, selecione a opção **Usar processos de gerenciamento de depósito**.
 
 ### <a name="zone-groups-zones-location-types-and-locations"></a>Grupos de zonas, zonas, tipos de localização, e localizações
 
@@ -56,7 +56,7 @@ Como parte do processo para habilitar um layout de depósito, é preciso definir
 -   **Tipos de locais** – Um agrupamento lógico ou físico dos locais de depósito. Por exemplo, você pode criar um tipo de localização para todos os locais de preparo. As configurações obrigatórias na página **Parâmetros de gerenciamento de depósito** conduzem o processo de definição dos tipos de local de preparo e o tipo de local de entrega final.
 -   **Locais** – O nível mais baixo de informações sobre o local. Os locais são usados para controlar onde o estoque disponível é armazenado e separado em um depósito.
 
-As entidades que você cria para definir o layout de depósito são usadas nas consultas configuradas por você nos modelos de trabalho para conduzir as ordens de trabalho no depósito. Sendo assim, ao definir as zonas, tipos de local, e assim por diante, considerem como as áreas diferentes no depósito são usadas para processos diferentes. Além disso, considere os fatores como as características físicas de uma área específica. Por exemplo, pode haver áreas onde você pode usar apenas um tipo de empilhadeira. Ou, se sua empresa tiver produção e produtos acabados dentro da mesma instalação, talvez queira criar um único depósito no Dynamics 365 for Operations, mas depois separar as duas operações criando dois grupos de zona. Dê nomes descritivos a suas entidades, para que seja fácil identificá-las quando você as usa em consultas de modelo.
+As entidades que você cria para definir o layout de depósito são usadas nas consultas configuradas por você nos modelos de trabalho para conduzir as ordens de trabalho no depósito. Sendo assim, ao definir as zonas, tipos de local, e assim por diante, considerem como as áreas diferentes no depósito são usadas para processos diferentes. Além disso, considere os fatores como as características físicas de uma área específica. Por exemplo, pode haver áreas onde você pode usar apenas um tipo de empilhadeira. Ou, se sua empresa tiver produção e produtos acabados dentro da mesma instalação, talvez queira criar um único depósito no Finance and Operations, mas depois separar as duas operações criando dois grupos de zona. Dê nomes descritivos a suas entidades, para que seja fácil identificá-las quando você as usa em consultas de modelo.
 
 ### <a name="location-stocking-limits-location-profiles-and-fixed-picking-locations"></a>Limites de estoque de local, perfis de localização, e locais de separação fixos
 

@@ -1,15 +1,15 @@
 ---
-title: "Visão geral da sequência numérica"
-description: "As sequências numéricas do Microsoft Dynamics 365 for Operations são usadas para gerar os identificadores exclusivos legíveis para registros de dados mestres e registros de transação que exigirem identificadores. Um registro de dados mestres ou um registro de transação que exige um identificador é conhecido como <em>referência</em>."
+title: "Visão geral de sequência numérica"
+description: "As sequências numéricas do Microsoft Dynamics 365 for Finance and Operations são usadas para gerar os identificadores exclusivos legíveis para registros de dados mestres e registros de transação que exigirem identificadores. Um registro de dados mestres ou um registro de transação que exige um identificador é conhecido como <em>referência</em>."
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
@@ -17,29 +17,29 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a2dcbbbd0b67c171d5a26bbf2053d159f7367cc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d260f460bf0da072eb46909d8c28d18041ecaa78
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="number-sequence-overview"></a>Visão geral da sequência numérica
+# <a name="number-sequence-overview"></a>Visão geral de sequência numérica
 
 [!include[banner](../includes/banner.md)]
 
 
-As sequências numéricas do Microsoft Dynamics 365 for Operations são usadas para gerar os identificadores exclusivos legíveis para registros de dados mestres e registros de transação que exigirem identificadores. Um registro de dados mestres ou um registro de transação que exige um identificador é conhecido como <em>referência</em>.
+As sequências numéricas do Microsoft Dynamics 365 for Finance and Operations são usadas para gerar os identificadores exclusivos legíveis para registros de dados mestres e registros de transação que exigirem identificadores. Um registro de dados mestres ou um registro de transação que exige um identificador é conhecido como <em>referência</em>.
 
-Antes de criar novos registros para referência no Microsoft Dynamics 365 for Operations, é necessário configurar uma sequência numérica e associá-la à referência. É recomendável usar as páginas em **Administração da organização** para configurar sequências numéricas. Se as configurações específicas do módulo forem necessárias, você poderá usar a página de parâmetros em um módulo para especificar as sequências numéricas para as referências no módulo. Por exemplo, em **Contas a receber** e em **Contas a pagar**, você pode configurar grupos de sequências numéricas para alocar sequências numéricas específicas para clientes e fornecedores específicos. Ao configurar uma sequência numérica, você deve especificar um escopo, que define que organização usará a sequência numérica. O escopo pode ser **Compartilhado**, **Empresa**, **Entidade legal** ou **Unidade operacional**. Os escopos **Entidade legal** e **Empresa** também podem ser combinados com **Período de calendário fiscal** para criar sequências numéricas ainda mais específicas. Os formatos de sequências numéricas são compostos de segmentos. As sequências numéricas com um escopo diferente de **Compartilhado** podem conter os segmentos que correspondem ao escopo. Por exemplo, uma sequência numérica com um escopo **Entidade legal** pode conter um segmento da entidade legal. Ao incluir um segmento de escopo no formato de sequência numérica, você pode identificar o escopo de um registro específico examinando seu número. Além dos segmentos que correspondem a escopos, os formatos de sequências numéricas podem conter os segmentos **Constante** e **Alfanumérico**. Um segmento **Constante** contém um conjunto de letras, de números ou de símbolos que não muda. Um segmento **Alfanumérico** contém um conjunto de letras ou de números incrementado sempre que um número é usado. Use um sinal numérico (\#) para representar o incremento de números e um e comercial (&) para representar o incremento de letras. Por exemplo, o formato \#\#\#\#\#\_2017 cria a sequência 00001\_2017, 00002\_2017, e assim por diante.
+Antes de criar novos registros para referência no Microsoft Dynamics 365 for Finance and Operations, é necessário configurar uma sequência numérica e associá-la à referência. É recomendável usar as páginas em **Administração da organização** para configurar sequências numéricas. Se as configurações específicas do módulo forem necessárias, você poderá usar a página de parâmetros em um módulo para especificar as sequências numéricas para as referências no módulo. Por exemplo, em **Contas a receber** e em **Contas a pagar**, você pode configurar grupos de sequências numéricas para alocar sequências numéricas específicas para clientes e fornecedores específicos. Ao configurar uma sequência numérica, você deve especificar um escopo, que define que organização usará a sequência numérica. O escopo pode ser **Compartilhado**, **Empresa**, **Entidade legal** ou **Unidade operacional**. Os escopos **Entidade legal** e **Empresa** também podem ser combinados com **Período de calendário fiscal** para criar sequências numéricas ainda mais específicas. Os formatos de sequências numéricas são compostos de segmentos. As sequências numéricas com um escopo diferente de **Compartilhado** podem conter os segmentos que correspondem ao escopo. Por exemplo, uma sequência numérica com um escopo **Entidade legal** pode conter um segmento da entidade legal. Ao incluir um segmento de escopo no formato de sequência numérica, você pode identificar o escopo de um registro específico examinando seu número. Além dos segmentos que correspondem a escopos, os formatos de sequências numéricas podem conter os segmentos **Constante** e **Alfanumérico**. Um segmento **Constante** contém um conjunto de letras, de números ou de símbolos que não muda. Um segmento **Alfanumérico** contém um conjunto de letras ou de números incrementado sempre que um número é usado. Use um sinal numérico (\#) para representar o incremento de números e um e comercial (&) para representar o incremento de letras. Por exemplo, o formato \#\#\#\#\#\_2017 cria a sequência 00001\_2017, 00002\_2017, e assim por diante.
 Exemplos de sequências numéricas
 ------------------------
 
 Os exemplos a seguir mostram como usar segmentos para criar formatos da sequência numérica. Particularmente, os exemplos demonstram os efeitos de usar segmentos de escopo.
 ### <a name="expense-report-numbers"></a>Números do relatório de despesas
 
-No exemplo a seguir, os números de relatório de despesas são configurados para a entidade legal chamada **CS**. **Área:**Viagem e despesas **Referência:**Número do relatório de despesas **Escopo:**Entidade legal **Entidade legal:**CS
+No exemplo a seguir, os números de relatório de despesas são configurados para a entidade legal chamada **CS**. **Área:** Viagem e despesas **Referência:** Número do relatório de despesas **Escopo:** Entidade legal **Entidade legal:** CS
 | Segmentos  | Tipo de segmento | Valor     |
 |-----------|--------------|-----------|
 | Segmento 1 | Pessoa jurídica em geral | CS        |
@@ -50,7 +50,7 @@ No exemplo a seguir, os números de relatório de despesas são configurados par
 
 ### <a name="sales-order-numbers"></a>Números da ordem de venda
 
-No exemplo a seguir, os números da ordem de venda são configurados para a ID da empresa **CEU**. **Área:**Vendas **Referência:**Ordem de venda **Escopo:**Empresa **Empresa:**CEU
+No exemplo a seguir, os números da ordem de venda são configurados para a ID da empresa **CEU**. **Área:** Vendas **Referência:** Ordem de venda **Escopo:** Empresa **Empresa:** CEU
 | Segmentos  | Tipo de segmento | Alíquota    |
 |-----------|--------------|----------|
 | Segmento 1 | Constante     | OV-      |
@@ -60,7 +60,7 @@ No exemplo a seguir, os números da ordem de venda são configurados para a ID d
 
 ### <a name="purchase-requisition-numbers"></a>Números de requisição de compra
 
-No exemplo a seguir, os números de requisição de compra destinam-se à organização inteira. **Área:**Compra **Referência:**Requisição de compra **Escopo:**Compartilhado
+No exemplo a seguir, os números de requisição de compra destinam-se à organização inteira. **Área:** Compra **Referência:** Requisição de compra **Escopo:** Compartilhado
 | Segmentos  | Tipo de segmento | Alíquota    |
 |-----------|--------------|----------|
 | Segmento 1 | Constante     | Solic.      |

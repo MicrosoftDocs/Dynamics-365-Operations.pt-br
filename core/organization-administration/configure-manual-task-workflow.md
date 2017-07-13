@@ -3,13 +3,13 @@ title: Configurar uma tarefa manual em um fluxo de trabalho
 description: "Este tópico explica como configurar as propriedades de uma tarefa manual."
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5d2a69066a1245d5b86d27d01db4b67d4a490488
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 242abaae1aa17578ba8eab4b2664794ff2c2caec
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -126,10 +126,10 @@ Siga estas etapas para especificar a quem a tarefa manual deve ser atribuída.
     </tr>
     <tr class="even">
     <td>Usuário</td>
-    <td>Especificar usuários do Microsoft Dynamics 365 for Operations</td>
+    <td>Especificar usuários do Microsoft Dynamics 365 for Finance and Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais deseja atribuir a tarefa e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong> tem todos os usuários do Finance and Operations. Selecione os usuários aos quais deseja atribuir a tarefa e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -212,10 +212,10 @@ Se um usuário não concluir a tarefa manual no tempo alocado, a tarefa vencerá
     </tr>
     <tr class="odd">
     <td>Usuário</td>
-    <td>Especificar usuários do Dynamics 365 for Operations</td>
+    <td>Usuários específicos do Finance and Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais escalonar a tarefa e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong> tem todos os usuários do Finance and Operations. Selecione os usuários aos quais escalonar a tarefa e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>
@@ -306,10 +306,10 @@ Você poderá enviar notificações às pessoas quando uma tarefa manual for del
     </tr>
     <tr class="odd">
     <td>Usuário</td>
-    <td>Especificar usuários do Dynamics 365 for Operations</td>
+    <td>Usuários específicos do Finance and Operations</td>
     <td><ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li>A lista <strong>Usuários disponíveis</strong>: inclui todos os usuários do Microsoft Dynamics 365 for Operations. Selecione os usuários aos quais enviar notificações e mova- os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li>A lista <strong>Usuários disponíveis</strong> tem todos os usuários do Finance and Operations. Selecione os usuários aos quais enviar notificações e mova- os para a lista <strong>Usuários selecionados</strong>.</li>
     </ol></td>
     </tr>
     </tbody>

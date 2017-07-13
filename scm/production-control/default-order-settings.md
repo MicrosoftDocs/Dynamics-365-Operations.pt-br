@@ -1,16 +1,16 @@
 ---
 title: "Configurações de ordem padrão para dimensões e variantes de produto"
-description: "As configurações de ordem padrão definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltiplas e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens. As configurações de ordem padrão são usadas durante a criação de ordens de compra, ordens de venda, ordens de transferência, diários de estoque e pelo planejamento mestre para a geração de ordens planejadas. As configurações de ordem padrão podem ser específicas por item, local, grade de produto ou dimensão de produto."
+description: "As configurações de ordem padrão definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltiplas e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventItemOrderSetup
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 223084
 ms.assetid: fbfbcd7b-dc75-44ab-bffc-8bad576804a4
 ms.search.region: global
@@ -19,20 +19,22 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: db2398e85d5f49cece4f406b2244cf072cce083d
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: b4e8ff363a98f8dfc90af0133807373566531568
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="default-order-settings-for-dimensions-and-product-variants"></a>Configurações de ordem padrão para dimensões e variantes de produto
+# <a name="default-order-settings-for-dimensions-and-product-variants"></a>Configurações de ordem padrão para dimensões e grades de produtos
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
-As configurações de ordem padrão definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltiplas e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens. As configurações de ordem padrão são usadas durante a criação de ordens de compra, ordens de venda, ordens de transferência, diários de estoque e pelo planejamento mestre para a geração de ordens planejadas. As configurações de ordem padrão podem ser específicas por item, local, grade de produto ou dimensão de produto.
+
+As configurações de ordem padrão no Microsoft Dynamics 365 for Finance and Operations, Enterpise edition definem o local e o depósito de onde os itens serão originários ou armazenados, as quantidades mínima, máxima, múltiplas e padrão que serão usadas para a comercialização ou o gerenciamento de estoque, os prazos de entrega, o sinalizador de parada e o método de promessa de ordens. As configurações de ordem padrão são usadas durante a criação de ordens de compra, ordens de venda, ordens de transferência, diários de estoque e pelo planejamento mestre para a geração de ordens planejadas. As configurações de ordem padrão podem ser específicas por item, local, grade de produto ou dimensão de produto.
 
 Você pode definir as configurações de ordem padrão na página **Configurações de ordem padrão**. Para abrir esta página, vá para **Gerenciamento de informações do produto** &gt; **Produtos** &gt; **Produtos liberados** &gt; selecione um produto liberado &gt; no **Plano** ou no Painel de Ação ****Gerenciar estoque**** &gt; **Configurações da ordem** &gt; **Configurações de ordem padrão**.
 
@@ -74,7 +76,7 @@ As configurações de ordem padrão para estoque também são aplicáveis ao cri
 -   Ordens de produção planejadas
 
 ## <a name="full-definition-of-a-released-product"></a>Definição completa de um produto liberado
-Ao criar uma transação, é necessário especificar a definição completa de um produto liberado na linha antes que o Dynamics 365 for Operations tente identificar as configurações de ordem padrão. A definição completa de um produto liberado significa que o número de item e todas as dimensões ativas do produto, como configuração, tamanho, estilo e cor estão especificadas na transação. Por exemplo, se você criar manualmente uma linha de ordem de compra para uma grade do produtos liberada, é preciso especificar todas as dimensões do produto necessárias antes que o local, o depósito, a quantidade e o prazo de entrega sejam exibidos por padrão na linha da ordem. 
+Ao criar uma transação, é necessário especificar a definição completa de um produto liberado na linha antes que o Finance and Operations tente identificar as configurações de ordem padrão. A definição completa de um produto liberado significa que o número de item e todas as dimensões ativas do produto, como configuração, tamanho, estilo e cor estão especificadas na transação. Por exemplo, se você criar manualmente uma linha de ordem de compra para uma grade do produtos liberada, é preciso especificar todas as dimensões do produto necessárias antes que o local, o depósito, a quantidade e o prazo de entrega sejam exibidos por padrão na linha da ordem. 
 
 Nem todos os parâmetros das configurações de ordem padrão são aplicados ao criar linhas de ordem ou de diário. As quantidades e os prazos de entrega somente serão exibidos por padrão quando apropriado. Por exemplo, ao contar uma linha de diário, somente o local e o depósito serão exibidos por padrão quando a linha for criada. Obviamente, nenhuma quantidade padrão ou verificações de múltiplos e mínimos são executadas ao criar a linha ou ao lançar o diário. 
 
@@ -97,7 +99,7 @@ Para produtos liberados distintos, você pode definir configurações gerais da 
 
 Para criar configurações específicas de ordem de local, clique em **Novo**. Na **Exibição de detalhes**, preencha o local no campo **Configurações aplicáveis a** &gt; **Local**. Em **Exibição de grade**, preencha o local na coluna **Local**. A nova regra obterá automaticamente um novo valor de classificação, maior que zero. Você pode criar quantas regras específicas de local forem necessárias e pode atribuir a mesma classificação a todas as regras específicas de local, para indicar que elas têm a mesma importância. 
 
-Se estiver em **Exibição de detalhes**, você não poderá obter uma visão geral das regras criadas para o item. Ative o botão **Mostrar/ocultar lista** para consultar as informações da visão geral. Quando uma linha de ordem de qualquer tipo for criada e nenhum local for fornecido, o Dynamics 365 for Operations procurará por uma regra que não tenha nenhum local especificado. Isso pode ajudar a determinar um local padrão na linha da ordem. Esse local será então usado para pesquisar por uma regra específica de local, em que um depósito padrão possa ter sido definido. Esse depósito será aplicado à linha da ordem.
+Se estiver em **Exibição de detalhes**, você não poderá obter uma visão geral das regras criadas para o item. Ative o botão **Mostrar/ocultar lista** para consultar as informações da visão geral. Quando uma linha de ordem de qualquer tipo for criada e nenhum local for fornecido, o Finance and Operations procurará por uma regra que não tenha nenhum local especificado. Isso pode ajudar a determinar um local padrão na linha da ordem. Esse local será então usado para pesquisar por uma regra específica de local, em que um depósito padrão possa ter sido definido. Esse depósito será aplicado à linha da ordem.
 
 ### <a name="specific-order-settings-for-product-dimension"></a>Configurações específicas da ordem para a dimensão do produto
 
@@ -134,7 +136,7 @@ Você pode criar as regras de configurações de ordem padrão a seguir:
 
 As duas regras para parar as revisões antigas têm a mesma classificação, o que significa que elas têm a mesma importância. Ambas têm uma classificação mais alta do que a regra para a configuração C1, o que significa que elas têm precedência sobre a regra para a configuração C1. 
 
-Este exemplo explica a necessidade para a classificação. Se uma ordem de compra fosse criada para a configuração C1 e a para revisão R2 e se não houvesse classificação, as duas regras definidas para R2 e C1 seriam ambíguas. Para resolver a ambiguidade, o Dynamics 365 for Operations pesquisará regras na ordem decrescente de classificação e usará a primeira regra aplicável. No exemplo atual, quando uma linha de ordem de compra for criada para a configuração C1 e a para revisão R2, o usuário receberá uma mensagem de aviso que o item está em espera e que isso foi causado pelo valor de revisão. Se a regra da configuração tivesse uma classificação maior do que a da revisão, a criação de uma linha de compra para a configuração C1 e para a revisão R2 teria êxito e nenhuma mensagem de "item em espera" seria enviada ao usuário. 
+Este exemplo explica a necessidade para a classificação. Se uma ordem de compra fosse criada para a configuração C1 e a para revisão R2 e se não houvesse classificação, as duas regras definidas para R2 e C1 seriam ambíguas. Para resolver a ambiguidade, o Finance and Operations pesquisará regras na ordem decrescente de classificação e usará a primeira regra aplicável. No exemplo atual, quando uma linha de ordem de compra for criada para a configuração C1 e a para revisão R2, o usuário receberá uma mensagem de aviso que o item está em espera e que isso foi causado pelo valor de revisão. Se a regra da configuração tivesse uma classificação maior do que a da revisão, a criação de uma linha de compra para a configuração C1 e para a revisão R2 teria êxito e nenhuma mensagem de "item em espera" seria enviada ao usuário. 
 
 Considere as regras de configuração de ordem padrão a seguir.
 
@@ -152,7 +154,7 @@ A regra com classificação zero serve como uma rede de segurança. Se nenhuma o
 
 Como o número de classificação é muito importante, no Painel de Ação **Configurações de ordem padrão**, há funções para mover uma regra para cima ou para baixo e para renumerar as regras, de forma que estejam sempre em incrementos de 10. 
 
-O número de regras criadas para um produto liberado pode ser variado. Para compreender melhor o que cada regra substitui e porque ela é necessária, recomendamos usar a **Exibição de grade** na página**Configurações de ordem padrão**. Você pode habilitar a exibição de grade acessando o Painel de Ação **Opções** &gt; **Opções de página** &gt; **Alterar exibição** &gt; **Exibição de grade**. O número de colunas exibidas na grade pode ser bastante significativo, principalmente para as guias vendas e estoque. Para limitar o número de colunas mostradas na grade, os grupos de colunas podem ser ocultados ou exibidos usando-se os botões no menu **Configurações de ordem padrão** &gt; **Exibição por coluna**.
+O número de regras criadas para um produto liberado pode ser variado. Para compreender melhor o que cada regra substitui e porque ela é necessária, recomendamos usar a **Exibição de grade** na página **Configurações de ordem padrão**. Você pode habilitar a exibição de grade acessando o Painel de Ação **Opções** &gt; **Opções de página** &gt; **Alterar exibição** &gt; **Exibição de grade**. O número de colunas exibidas na grade pode ser bastante significativo, principalmente para as guias vendas e estoque. Para limitar o número de colunas mostradas na grade, os grupos de colunas podem ser ocultados ou exibidos usando-se os botões no menu **Configurações de ordem padrão** &gt; **Exibição por coluna**.
 
 ### <a name="specific-order-settings-for-released-product-variant"></a>Configurações específicas da ordem para grades de produtos liberadas
 

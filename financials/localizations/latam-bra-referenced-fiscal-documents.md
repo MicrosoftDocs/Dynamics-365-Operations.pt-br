@@ -3,7 +3,7 @@ title: Notas fiscais referenciadas para o Brasil
 description: "Este tópico fornece uma visão geral de notas fiscais referenciadas usadas no Brasil."
 author: sndray
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: FiscalDocument_BR, SalesEditLines, TmpFiscalReference_BR
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 270224
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e67170bf26b8cc962a5d34443ac7defac86504d9
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: dfe541ca963df1bbf2682e81a4089c63b0dfc457
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -40,7 +40,7 @@ Em algumas situações, uma nota fiscal deve incluir informações de outra nota
 
 ### <a name="examples"></a>Exemplos
 
--   Se você tentar fazer referência a uma nota fiscal que não esteja no Microsoft Dynamics 365 for Operations, todas as informações da nota fiscal devem ser inseridas.
+-   Caso tente fazer referência a uma nota fiscal que não esteja no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, todas as informações da nota fiscal deverão ser inseridas.
 -   Quando você devolver um item a um fornecedor ou receber uma devolução de um cliente, uma referência ao documento original será adicionada.
 -   Insira uma nota fiscal manual, modelo 01, no sistema. Você cria uma nota fiscal que faz referência à nota fiscal original.
 -   Informe uma Ordem de Venda para Vendas de Varejo ou NF-e (modelo 55). A nota fiscal fará referência à nota fiscal de varejo original e à impressora fiscal.

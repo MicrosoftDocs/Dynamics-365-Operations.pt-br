@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3a95ce92fe40f7e1c52bba554b82bd73d627c6b4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cf6d4756ae706316a342590ab76b4a5cbdd7e4f9
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -57,11 +57,11 @@ A aquisição e o fornecimento abrangem todas as etapas, desde a identificação
 -   [Colaboração de fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md)
 -   [Configurar e manter colaboração de fornecedor](set-up-maintain-vendor-collaboration.md)
--   [Script de entrada de demonstração de estoque de consignação para o Microsoft Dynamics 365 para operações](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(white paper)
+-   [Script de entrada de demonstração de estoque de consignação para o Microsoft Dynamics 365 for Finance and Operations](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)(white paper)
 -   [Monitorar o estoque de consignação usando a colaboração de fornecedor](http://ax.help.dynamics.com/en/wiki/monitor-consignment-inventory-using-vendor-collaboration/)
--   [Colaboração com fornecedores usando o portal de fornecedor](collaborate-vendors-vendor-portal.md) (versões de fevereiro de 2016 e maio de 2016 do Dynamics 365 for Operations somente)
--   [Configuração de segurança para usuários do portal de fornecedor](configure-security-vendor-portal-users.md) (versões de fevereiro de 2016 e maio de 2016 do Dynamics 365 for Operations somente)
--   [Espaço de trabalho móvel de colaboração de fornecedor para o aplicativo Microsoft Dynamics 365 for Operations](vendor-collaboration-mobile-workspace.md)
+-   [Colaboração com fornecedores usando o portal de fornecedor](collaborate-vendors-vendor-portal.md) (versões de fevereiro de 2016 e maio de 2016 do Dynamics AX somente)
+-   [Configuração de segurança para usuários do portal de fornecedor](configure-security-vendor-portal-users.md) (versões de 2016 e maio de 2016 do Finanças e Operações somente)
+-   [Espaço de trabalho móvel de colaboração de fornecedor para o aplicativo Microsoft Dynamics 365 for Finance and Operations](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>Gerenciamento de produto de compras
 -   [Catálogos de compras](procurement-catalogs.md)
@@ -92,8 +92,8 @@ A aquisição e o fornecimento abrangem todas as etapas, desde a identificação
 
 ## <a name="product-receipt-and-invoicing"></a>Recebimento e faturamento de produtos
 -   [Recebimento de produtos contra ordens de compra](product-receipt-against-purchase-orders.md)
--   [Visão geral de faturas de fornecedor](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
--   [Perfis de lançamentos de fornecedor](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+-   [Visão geral de faturas de fornecedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+-   [Perfis de lançamento de fornecedores](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ## <a name="procurement-and-sourcing-workflows"></a>Fluxos de trabalho de compras
 -   [Visão geral de compras](procurement-sourcing-overview.md)

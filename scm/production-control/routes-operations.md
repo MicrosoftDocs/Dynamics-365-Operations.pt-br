@@ -3,7 +3,7 @@ title: "Roteiros e operações"
 description: "Este tópico fornece informações sobre roteiros e operações. Um roteiro define o processo para produção de um produto ou grade de produto. Ele descreve cada estágio (operação) no processo de produção e a ordem em que essas etapas devem ser executadas. Para cada etapa, o roteiro também define os recursos de operações necessários, os tempos de configuração e execução necessários, e como o custo deve ser calculado."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3abc4e6f648ecc10105346ce181d8bc752d95f17
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 61548f2e308781e8329ca3cd26c3e6502d2f92c9
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -37,7 +37,7 @@ Este tópico fornece informações sobre roteiros e operações. Um roteiro defi
 <a name="overview"></a>Visão Geral
 --------
 
-Um roteiro descreve a ordem de operações necessárias para produzir um produto ou grade de produto. Para cada operação, o roteiro também define os recursos de operações necessários, o tempo necessário para configurar e realizar a operação, e como o custo deve ser calculado. Você pode usar o mesmo roteiro para produzir vários produtos, ou você pode definir um roteiro exclusivo para cada produto ou grade de produto. Você pode ainda ter vários roteiros para o mesmo produto. Nesse caso, o roteiro utilizado varia de acordo com fatores tais como a quantidade que deve ser produzida. A definição de um roteiro no Microsoft Dynamics 365 para Operações consiste em quatro elementos distintos que, juntos, descrevem o processo de produção:
+Um roteiro descreve a ordem de operações necessárias para produzir um produto ou grade de produto. Para cada operação, o roteiro também define os recursos de operações necessários, o tempo necessário para configurar e realizar a operação, e como o custo deve ser calculado. Você pode usar o mesmo roteiro para produzir vários produtos, ou você pode definir um roteiro exclusivo para cada produto ou grade de produto. Você pode ainda ter vários roteiros para o mesmo produto. Nesse caso, o roteiro utilizado varia de acordo com fatores tais como a quantidade que deve ser produzida. A definição de um roteiro no Microsoft Dynamics 365 for Finance and Operations consiste em quatro elementos distintos que, juntos, descrevem o processo de produção:
 
 -   **Roteiro** – Um roteiro define a estrutura do processo de produção. Em outras palavras, ele define a ordem de operações.
 -   **Operação** – Uma operação identifica uma etapa nomeada no roteiro, tal como **Montagem**. A mesma operação pode ocorrer em múltiplos roteiros e pode ter diferentes números de operação.
@@ -45,7 +45,7 @@ Um roteiro descreve a ordem de operações necessárias para produzir um produto
 -   **Versão do roteiro** – Uma versão do roteiro define o roteiro usado para produzir um produto ou grade de produto. As versões de roteiros permitem que os roteiros sejam reutilizados em diferentes produtos ou modificados com o passar do tempo. Elas também permitem que diferentes roteiros sejam utilizados para produzir o mesmo produto. Nesse caso, o roteiro utilizado varia de acordo com fatores tais como a localização ou a quantidade que deve ser produzida.
 
 ## <a name="routes"></a>Roteiros
-Um roteiro descreve a ordem de operações usadas para produzir um produto ou grade de produto. Cada operação recebe um número de operação e uma operação sucessora. A ordem de operações forma uma rede de roteiros que pode ser representada por um gráfico direcionado que possui um ou mais pontos de início e um único ponto de término. No Dynamics 365 para Operações, roteiros diferem com base no tipo de estrutura. Os dois tipos de roteiros são roteiros simples e redes de roteiros. Nos parâmetros de Controle de produção, você pode especificar se apenas roteiros simples podem ser usados, ou se redes de roteiros mais complexas podem ser usadas.
+Um roteiro descreve a ordem de operações usadas para produzir um produto ou grade de produto. Cada operação recebe um número de operação e uma operação sucessora. A ordem de operações forma uma rede de roteiros que pode ser representada por um gráfico direcionado que possui um ou mais pontos de início e um único ponto de término. No Dynamics 365 for Finance and Operations, roteiros diferem com base no tipo de estrutura. Os dois tipos de roteiros são roteiros simples e redes de roteiros. Nos parâmetros de Controle de produção, você pode especificar se apenas roteiros simples podem ser usados, ou se redes de roteiros mais complexas podem ser usadas.
 
 ### <a name="simple-routes"></a>Roteiros simples
 
@@ -53,7 +53,7 @@ Um roteiro simples é sequencial, e existe apenas um ponto de início para o rot
 
 [![Roteiro simples](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-Se você habilitar apenas roteiros simples nos parâmetros de Controle de produção, o Dynamics 365 para Operações gera automaticamente os números de operações (10, 20, 30, e assim por diante) quando você define o roteiro.
+Se você habilitar apenas roteiros simples nos parâmetros de Controle de produção, o Finanças e Operações gera automaticamente os números de operações (10, 20, 30, e assim por diante) quando você define o roteiro.
 
 ### <a name="route-networks"></a>Redes de roteiros
 
@@ -85,10 +85,10 @@ Um roteiro deve ser aprovado antes que possa ser usado no planejamento ou proces
 
 Cada roteiro pode ser aprovado ou reprovado separadamente. No entanto observe que, quando um roteiro é reprovado, todas as versões de roteiro relacionadas também são reprovadas. Nos parâmetros de Controle de produção, você pode especificar se os roteiros podem ser reprovados, e se os roteiros aprovados podem ser alterados.  
 
-Caso precise manter um registro sobre quem aprova cada roteiro, você pode solicitar assinaturas eletrônicas para aprovação de roteiros. Os usuários terão que confirmar suas identidades utilizando uma [assinatura eletrônica](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Caso precise manter um registro sobre quem aprova cada roteiro, você pode solicitar assinaturas eletrônicas para aprovação de roteiros. Os usuários terão que confirmar suas identidades utilizando uma [assinatura eletrônica](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
 ## <a name="operations"></a>Operações
-Uma operação é uma etapa no processo de produção. No Dynamics 365 para Operações, cada operação possui uma ID e uma descrição simples. As tabelas a seguir mostram exemplos típicos de operações em uma oficina mecânica.
+Uma operação é uma etapa no processo de produção. No Dynamics 365 for Finance and Operations, cada operação possui uma ID e uma descrição simples. As tabelas a seguir mostram exemplos típicos de operações em uma oficina mecânica.
 
 | Operação  | descrição        |
 |------------|--------------------|
@@ -128,7 +128,7 @@ As relações de operações oferecem muita flexibilidade ao definir seus roteir
 
 ### <a name="modifying-product-specific-routes"></a>Modificando roteiros de produtos específicos
 
-Ao abrir a página **Roteiro** através da página **Detalhes do produto lançado**, as versões de roteiro associadas ao produto lançado selecionado são exibidas. Neste contexto, para cada operação, o Dynamics 365 para Operações mostra as propriedades operacionais da relação de operação que mais se corresponde à versão do roteiro. Você irá perceber que a lista de operações inclui as propriedades **Código do item** e **Código do roteiro** da relação de operação. Portanto, você pode determinar qual relação de operação é exibida.  
+Ao abrir a página **Roteiro** através da página **Detalhes do produto lançado**, as versões de roteiro associadas ao produto lançado selecionado são exibidas. Neste contexto, para cada operação, o Dynamics 365 for Finance and Operations mostra as propriedades operacionais da relação de operação que mais se corresponde à versão do roteiro. Você irá perceber que a lista de operações inclui as propriedades **Código do item** e **Código do roteiro** da relação de operação. Portanto, você pode determinar qual relação de operação é exibida.  
 
 Na página **Roteiro**, você pode modificar as propriedades operacionais da operação, como o tempo de execução ou as categorias de custo. As alterações são armazenadas na relação de operação específica ao roteiro e ao produto lançado referenciados na versão atual do roteiro. Se a relação de operação exibida não é específica ao roteiro e ao produto lançado, antes que as alterações sejam armazenadas, o sistema cria uma cópia da relação de operação. Essa cópia *é* específica ao roteiro e ao produto lançado. Portanto, suas alterações não afetarão outros roteiros ou produtos lançados. Para verificar qual relação de operação está sendo modificada na página **Roteiro**, observe os campos **Código do item** e **Código do roteiro**.  
 
@@ -150,9 +150,9 @@ Se sua empresa utiliza operações padrão, e se os parâmetros operacionais sã
 
 ### <a name="applying-operation-relations"></a>Aplicando relações de operações
 
-Em alguns casos, o Dynamics 365 para Operações deve encontrar as propriedades operacionais para uma operação. Por exemplo, quando uma ordem de compra é criada, as propriedades operacionais de cada operação devem ser copiadas das relações de operações para o roteiro de produção. Nessas situações, o Dynamics 365 para Operações busca as relações de operações relevantes desde a combinação mais específica até a menos específica.  
+Em alguns casos, o Dynamics 365 for Finance and Operations deve encontrar as propriedades operacionais para uma operação. Por exemplo, quando uma ordem de compra é criada, as propriedades operacionais de cada operação devem ser copiadas das relações de operações para o roteiro de produção. Nessas situações, o Dynamics 365 for Finance and Operations busca as relações de operações relevantes desde a combinação mais específica até a menos específica.  
 
-Quando o Dynamics 365 para Operações busca a relação de operação mais relevante para um produto lançado, uma relação de operação com o mesmo ID do item do produto lançado tem a preferência contra uma relação de operação com o mesmo ID do grupo de itens. Por sua vez, uma relação de operação com o mesmo ID do grupo de itens é preferida ao invés da relação de operação padrão. A busca é realizada na seguinte ordem:
+Quando o Dynamics 365 for Finance and Operations busca a relação de operação mais relevante para um produto lançado, uma relação de operação com o mesmo ID do item do produto lançado tem a preferência contra uma relação de operação com o mesmo ID do grupo de itens. Por sua vez, uma relação de operação com o mesmo ID do grupo de itens é preferida ao invés da relação de operação padrão. A busca é realizada na seguinte ordem:
 
 1.  **Código do item**=**Tabela** e **Relação de item**=&lt;ID do item&gt;
 2.  **Código do item**=**Grupo** e **Relação de item**=&lt;ID do grupo de itens&gt;
@@ -188,7 +188,7 @@ Ao ativar uma versão do roteiro, ela é designada como a versão do roteiro pad
 
 ### <a name="electronic-signatures"></a>Assinaturas eletrônicas
 
-Caso precise manter um registro sobre quem aprova e ativa cada versão do roteiro, você pode solicitar assinaturas eletrônicas para essas tarefas. Os usuários que aprovam e ativam versões de roteiros terão que confirmar suas identidades usando uma [assinatura eletrônica](/dynamics365/operations/organization-administration/electronic-signature-overview).
+Caso precise manter um registro sobre quem aprova e ativa cada versão do roteiro, você pode solicitar assinaturas eletrônicas para essas tarefas. Os usuários que aprovam e ativam versões de roteiros terão que confirmar suas identidades usando uma [assinatura eletrônica](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview).
 
 ### <a name="product-change-that-uses-case-management"></a>Alteração de produto utilizando gerenciamento de caso
 
@@ -199,7 +199,7 @@ Dependendo das suas necessidades comerciais, você poderá reduzir o esforço ne
 
 ### <a name="making-routes-independent-of-resources"></a>Tornar os roteiros independentes dos recursos
 
-Em vários sistemas, o recurso de operações ou grupo de recursos que deve realizar uma operação deve ser especificado no roteiro. No entanto, no Dynamics 365 para Operações, você pode definir um conjunto de requisitos que um recurso de operações deve satisfazer para se tornar aplicável à operação. Portanto, o recurso de operações ou grupo de recursos específicos que devem ser usados não precisam ser determinados até que a operação esteja de fato agendada. Essa funcionalidade é especialmente útil quando existem muitos trabalhadores ou máquinas capazes de realizar a mesma operação.  
+Em vários sistemas, o recurso de operações ou grupo de recursos que deve realizar uma operação deve ser especificado no roteiro. No entanto, no Dynamics 365 for Finance and Operations, você pode definir um conjunto de requisitos que um recurso de operações deve satisfazer para se tornar aplicável à operação. Portanto, o recurso de operações ou grupo de recursos específicos que devem ser usados não precisam ser determinados até que a operação esteja de fato agendada. Essa funcionalidade é especialmente útil quando existem muitos trabalhadores ou máquinas capazes de realizar a mesma operação.  
 
 Por exemplo, você especifica que uma operação necessita de um recurso de operação do tipo **Máquina** com uma capacidade de **Estampagem** de 20 toneladas. O mecanismo de planejamento irá então resolver os requisitos para um recurso de operações ou grupo de recursos específico assim que a operação for agendada. Como é possível apenas especificar esses requisitos em vez de associar a operação a uma máquina específica, você terá muito mais flexibilidade. Adicionalmente, a manutenção será mais fácil quando os recursos forem movidos ou novos recursos forem adicionados.  
 
@@ -240,7 +240,7 @@ Se você não especificar um recurso de operações ou um grupo de recursos como
 
 [Capacidades de recurso](resource-capabilities.md)
 
-[Resumo da assinatura eletrônica](/dynamics365/operations/organization-administration/electronic-signature-overview)
+[Visão geral das assinaturas eletrônicas](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview)
 
 
 

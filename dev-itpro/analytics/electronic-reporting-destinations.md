@@ -3,14 +3,14 @@ title: "Destinos de relatório eletrônico"
 description: "Você pode configurar uma meta para cada configuração de formato de relatório eletrônico (ER)e seu componente de saída (uma pasta ou um arquivo). Os usuários que têm direitos de acesso apropriados também podem modificar as configurações de destino em tempo de execução. Este artigo explica gerenciamento de destino do ER, os tipos de destinos que têm suporte e considerações de segurança."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5fb008420f82abd7983ee26854f84330705c0c01
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,9 +36,9 @@ Você pode configurar uma meta para cada configuração de formato de relatório
 Configurações de formato (ER) geralmente contêm pelo menos um componente de saída de relatório eletrônico: um arquivo. Normalmente, as configurações contém vários componentes de saída de arquivos de tipos diferentes (por exemplo, XML, TXT ou XLSX) que são agrupados em uma única pasta ou várias pastas. Gerenciamento de destino do ER permite pré-configurar o que ocorre quando cada componente é executado. Por padrão, quando uma configuração é executada, uma caixa de diálogo é exibida que permite que o usuário salve ou abra o arquivo. O mesmo comportamento também é usado quando você importar uma configuração de ER e não configurar os destinos específicos para ele. Após a criação de um destino para um componente de saída principal, esse destino substitui o comportamento padrão e a pasta ou o arquivo é enviado de acordo com as configurações do destino.
 
 ## <a name="availability-and-general-prerequisites"></a>Disponibilidade e pré-requisitos gerais
-A funcionalidade de destinos de ER não está disponível na versão Microsoft Dynamics 365 for Operations 7.0 (fevereiro de 2016). Portanto, você deve instalar o Microsoft Dynamics 365 for Operations (versão de novembro de 2016) para usar todas as funções que serão descritas neste tópico. Se preferir,, você pode instalar um dos seguintes pré-requisitos. Entretanto, note que essa alternativa permite uma experiência de destino de ER mais limitada.
+A funcionalidade de destinos de ER não está disponível no Microsoft Dynamics AX 7.0 (fevereiro de 2016). Portanto, você deve instalar o Microsoft Dynamics 365 for Operations, versão 1611, (novembro de 2016) para usar todas as funções que serão descritas neste tópico. Se preferir,, você pode instalar um dos seguintes pré-requisitos. Entretanto, note que essa alternativa permite uma experiência de destino de ER mais limitada.
 
--   Aplicativo Microsoft Dynamics 365 for Operations versão 7.0.1 (maio de 2016)
+-   Aplicativo Microsoft Dynamics AX versão 7.0.1 (maio de 2016)
 -   Gerenciamento de destino do ER [hotfix do aplicativo](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 Você pode configurar destinos somente para configurações de ER que foram importadas e para os formatos que estão disponíveis na página **Configurações de relatório eletrônicas**.
@@ -61,7 +61,7 @@ Há suporte para vários tipos de destinos. Você pode desativar ou ativar todos
 
 ### <a name="email-destination"></a>Destino de email
 
-Definir **Habilitado**para **Sim** para enviar um arquivo de saída por e-mail. Depois que esta opção for ativada, você pode especificar os destinatários de e-mail e editar o assunto e o corpo da mensagem de email. Você pode configurar textos constantes do assunto e do corpo de email, ou você pode usar ER de fórmulas para criar textos de email dinamicamente. Você pode configurar endereços de email para o ER de duas formas. A configuração pode ser concluída da mesma forma que o recurso de gerenciamento de impressão no Dynamics 365 for Operations a conclui. Se preferir, você pode resolver um endereço de email usando uma referência direta para a configuração de ER através de uma fórmula.
+Definir **Habilitado** para **Sim** para enviar um arquivo de saída por e-mail. Depois que esta opção for ativada, você pode especificar os destinatários de e-mail e editar o assunto e o corpo da mensagem de email. Você pode configurar textos constantes do assunto e do corpo de email, ou você pode usar ER de fórmulas para criar textos de email dinamicamente. Você pode configurar endereços de email para o ER de duas formas. A configuração pode ser concluída da mesma forma que o recurso de gerenciamento de impressão no Finance and Operations a conclui. Se preferir, você pode resolver um endereço de email usando uma referência direta para a configuração de ER através de uma fórmula.
 
 ### <a name="email-address-types"></a>Tipos de endereço de email
 
@@ -89,15 +89,15 @@ Use este tipo de email se a configuração que você usar tiver um nó nas fonte
 
 [![Atribuindo uma fonte de dados do endereço de email para um destino de email](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
 
-**Observação:** um servidor Simple Mail Transfer Protocol (SMTP) deve ser configurado e disponível. Você pode especificar o servidor SMTP no Dynamics 365 for Operations em **Administração do sistema** &gt; **Configuração** &gt; **Email** &gt; **Parâmetros de email**.
+**Observação:** um servidor Simple Mail Transfer Protocol (SMTP) deve ser configurado e disponível. Você pode especificar o servidor SMTP no Finance and Operations em **Administração do sistema** &gt; **Configuração** &gt; **E-mail** &gt; **Parâmetros de e-mail**.
 
 ### <a name="archive-destination"></a>Local do arquivo morto
 
-Você pode usar esta opção para enviar a saída para uma pasta do Microsoft SharePoint ou Microsoft Azure Storage. Definir **Habilitado** para **Sim**para enviar a saída para um destino que é definido pelo tipo de documento selecionado. Somente tipos de documento onde o grupo está definido para **Arquivo** estão disponíveis para seleção. Você define os tipos de documentos em **Administração da organização** &gt; **Gerenciamento de documentos** &gt; **Tipos de documentos**. A configuração de destinos de ER é o mesma que a configuração para o sistema de gerenciamento de documentos.
+Você pode usar esta opção para enviar a saída para uma pasta do Microsoft SharePoint ou Microsoft Azure Storage. Definir **Habilitado** para **Sim** para enviar a saída para um destino que é definido pelo tipo de documento selecionado. Somente tipos de documento onde o grupo está definido para **Arquivo** estão disponíveis para seleção. Você define os tipos de documentos em **Administração da organização** &gt; **Gerenciamento de documentos** &gt; **Tipos de documentos**. A configuração de destinos de ER é o mesma que a configuração para o sistema de gerenciamento de documentos.
 
 [![Página Tipos de documento](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 
-O local determina onde o arquivo foi salvo. Depois que o destino do **Arquivo** for ativado, os resultados da execução da configuração podem ser salvos no arquivo de trabalho. Você pode exibir os resultados em **Administração da organização** &gt; **Relatório eletrônico** &gt; **Trabalhos arquivados de relatórios eletrônicos**. **Observação:** Você pode selecionar um tipo de documento para o arquivo de trabalho no Dynamics 365 for Operations, em **Administração da organização** &gt; **Espaços de trabalho** &gt; **Relatório eletrônico** &gt; **Parâmetros de relatório eletrônico**.
+O local determina onde o arquivo foi salvo. Depois que o destino do **Arquivo** for ativado, os resultados da execução da configuração podem ser salvos no arquivo de trabalho. Você pode exibir os resultados em **Administração da organização** &gt; **Relatório eletrônico** &gt; **Trabalhos arquivados de relatórios eletrônicos**. **Observação:** Você pode selecionar um tipo de documento para o arquivo de trabalho no Finance and Operations, em **Administração da organização** &gt; **Espaços de trabalho** &gt; **Relatório eletrônico** &gt; **Parâmetros de relatório eletrônico**.
 
 #### <a name="sharepoint"></a>SharePoint
 
@@ -119,7 +119,7 @@ Se você definir **Ativado** como **Sim**, será criada uma visualização da sa
 
 ### <a name="power-bi-destination"></a>Destino do Power BI
 
-Defina **Ativado** como **Sim** para usar sua configuração de ER para organizar a transferência de dados da sua instância do Dynamics 365 for Operations para os serviços do Microsoft Power BI. Os arquivos transferidos são armazenados em uma instância do Microsoft SharePoint Server que deve ser configurada para esse fim. Para obter mais informações, consulte [Usar uma configuração de relatório eletrônico para fornecer o Power BI com dados do Dynamics 365 for Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Dica:** para substituir o comportamento padrão (ou seja, a caixa de diálogo para uma configuração), você pode criar uma referência de destino e um destino de arquivo para o componente de saída principal e, em seguida, desabilitar todos os destinos.
+Defina **Ativado** como **Sim** para usar sua configuração de ER para organizar a transferência de dados da sua instância do Finance and Operations para os serviços do Microsoft Power BI. Os arquivos transferidos são armazenados em uma instância do Microsoft SharePoint Server que deve ser configurada para esse fim. Para obter mais informações, consulte [Usar uma configuração de relatório eletrônico para fornecer o Power BI com dados do Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Dica:** para substituir o comportamento padrão (ou seja, a caixa de diálogo para uma configuração), você pode criar uma referência de destino e um destino de arquivo para o componente de saída principal e, em seguida, desabilitar todos os destinos.
 
 ## <a name="security-considerations"></a>Considerações de segurança
 Dois tipos de direitos e privilégios são usados para destinos de ER. Um tipo controla a capacidade de manter os destinos gerais que estão configurados para uma entidade legal (isto é, controla o acesso à página **Destinos de relatório eletrônico**). O outro tipo controla a capacidade de um usuário do aplicativo para substituir, em tempo de execução, as configurações de destino são configuradas por um desenvolvedor de ER ou consultor funcional ER.

@@ -1,16 +1,16 @@
 ---
 title: "Visão geral do gerenciamento de qualidade"
-description: "Este artigo descreve como você pode usar o gerenciamento de qualidade no Microsoft Dynamics 365 for Operations para ajudar a melhorar a qualidade do produto na sua cadeia de suprimentos."
+description: "Este artigo descreve como você pode usar o gerenciamento de qualidade no Microsoft Dynamics 365 for Finance and Operations para ajudar a melhorar a qualidade do produto na sua cadeia de suprimentos."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bb3f36bb425adffa7e055eba4e8732866cb67c49
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 255035bf13155190e59088a7f64f798c7462b885
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,13 +32,13 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve como você pode usar o gerenciamento de qualidade no Microsoft Dynamics 365 for Operations para ajudar a melhorar a qualidade do produto na sua cadeia de suprimentos.
+Este artigo descreve como você pode usar o gerenciamento de qualidade no Microsoft Dynamics 365 for Finance and Operations para ajudar a melhorar a qualidade do produto na sua cadeia de suprimentos.
 
-O gerenciamento de qualidade pode ajudar a gerenciar o tempo de resposta ao lidar com produtos fora de conformidade, independentemente do ponto de origem. Como os tipos de diagnóstico são vinculados ao relatório de correção, o Microsoft Dynamics 365 for Operations pode planejar tarefas para corrigir as saídas e impedir a recorrência.
+O gerenciamento de qualidade pode ajudar a gerenciar o tempo de resposta ao lidar com produtos fora de conformidade, independentemente do ponto de origem. Como os tipos de diagnóstico são vinculados ao relatório de correção, o Microsoft Dynamics 365 for Finance and Operations pode planejar tarefas para corrigir as saídas e impedir a recorrência.
 
 Além da funcionalidade para gerenciar a não conformidade, o gerenciamento de qualidade inclui a função de rastrear saídas por tipo de problema (até mesmo problemas internos), e para identificar soluções como a curto prazo ou a longo prazo. As estatísticas sobre os principais indicadores de desempenho (KPIs) fornecem ideias sobre o histórico de saídas anteriores de não conformidade e as soluções que foram usadas para corrigi-los. Você pode usar dados históricos para revisar a eficácia das medidas de qualidade anteriores e determinar as medidas apropriadas a serem usadas no futuro.
 
-Ao configurar uma associação de qualidade, o Microsoft Dynamics 365 for Operations pode gerar ordens de qualidade para vários processos comerciais, eventos, e condições. A associação de qualidade pode cobrir item específico, um grupo específico de itens ou todos os itens.
+Ao configurar uma associação de qualidade, o Finance and Operations pode gerar ordens de qualidade para vários processos comerciais, eventos, e condições. A associação de qualidade pode cobrir item específico, um grupo específico de itens ou todos os itens.
 
 ## <a name="examples-of-the-use-of-quality-management"></a>Exemplo de utilização do gerenciamento de qualidade
 O gerenciamento de qualidade é flexível e pode ser implementado de várias maneiras para atender aos requisitos de níveis específicos das operações da cadeia de suprimento. Os exemplos a seguir ilustram as possíveis aplicações destes recursos:

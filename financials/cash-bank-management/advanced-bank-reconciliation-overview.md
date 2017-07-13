@@ -3,7 +3,7 @@ title: "Visão geral da reconciliação bancária avançada"
 description: "Este artigo descreve o fluxo do processo de reconciliação avançado do banco. O recurso avançado de reconciliação bancária permite que você importe os extratos bancários que podem ser reconciliados automaticamente nas transações bancárias."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 22104
 ms.assetid: b0705653-1fa6-4d94-9728-bcf9fb387ad1
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: deba55d5e1e376f3f4063f372bfe853fcaf20498
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 67cd622d7766e5b177ccc58398431b007e8bda4e
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -42,12 +42,12 @@ O recurso de reconciliação bancária avançada permite que você importe extra
     -   A funcionalidade pode se estendida para qualquer formato.
 
 2.  Configure uma sequência numérica para a reconciliação bancária avançada e defina as regras de correspondência da reconciliação bancária.
-    -   Uma regra de correspondência de reconciliação é um conjunto de critérios usados para filtrar as linhas do extrato bancário e as linhas de transação bancária no Microsoft Dynamics 365 for Operations durante o processo de reconciliação. Dependendo da prática empresarial, você pode configurar mais de uma regra de correspondência para automatizar e otimizar o processo de reconciliação.
+    -   Uma regra de correspondência de reconciliação é um conjunto de critérios usados para filtrar as linhas do extrato bancário e as linhas de transação bancária no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition durante o processo de reconciliação. Dependendo da prática empresarial, você pode configurar mais de uma regra de correspondência para automatizar e otimizar o processo de reconciliação.
 
-3.  Reconciliar extratos bancários com as transações do Dynamics 365 for Operations.
+3.  Reconciliar extratos bancários com as transações bancárias do Finance and Operations.
     -   Executar a correspondência e a criação automática de diários de reconciliação.
-    -   Visualizar extratos bancários e as transações bancárias do Dynamics 365 for Operations lado a lado.
-    -   Lance automaticamente as transações bancárias do Dynamics 365 for Operations se forem exibidas no extrato bancário, mas não forem exibidas no Dynamics 365 for Operations.
+    -   Visualizar extratos bancários e as transações bancárias do Finance and Operations lado a lado.
+    -   Lance automaticamente as transações bancárias do Finance and Operations se forem exibidas no extrato bancário, mas não forem exibidas no Finance and Operations.
     -   Gere um demonstrativo da reconciliação.
 
 

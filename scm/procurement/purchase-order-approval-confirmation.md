@@ -3,14 +3,14 @@ title: Aprovar e confirmar ordens de compra
 description: "Este artigo descreve os status de uma ordem de compra (OC) passa após ela ter sido criada e o efeito de habilitar o gerenciamento de alterações no PDV."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 346dde3acdaca367c80cc092f0d8faa2dc28c6b6
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0ec91bcf0ab334585eefae2fe54750c45419682e
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,6 +30,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
 Este artigo descreve os status de uma ordem de compra (OC) passa após ela ter sido criada e o efeito de habilitar o gerenciamento de alterações no PDV.
 
@@ -38,7 +39,7 @@ Depois de criar uma ordem de compra (OC), ela terá que passar por um processo d
 ## <a name="approval-of-purchase-orders"></a>Aprovação de ordens de compra
 POs que não usam o gerenciamento de alteração com um status de **Aprovado** assim que elas forem criadas, enquanto POs que usam o gerenciamento de alteração têm um status de **Rascunho** quando elas são criados pela primeira vez. Além de isso, as ordens de compra criadas para confirmação ordens planejadas do planejamento mestre são definidos sempre como **Aprovado**, independentemente das configurações de gerenciamento de alterações. Uma OC cria transações de estoque somente quando ela atinge o status **Aprovado**. Portanto, o estoque não aparece como disponível para reserva ou marcação até que o pedido seja aceito.  
 
-Ativar o gerenciamento de alterações para POs definindo a opção **Ativar o gerenciamento de alterações** na página **Parâmetros de compras**. Quando o gerenciamento de alterações é habilitado, as POs devem passar por um fluxo de trabalho de aprovação depois que elas tiverem sido concluídas. O Microsoft Dynamics 365 for Operations tem um editor de processos de fluxo de trabalho, onde você pode definir um fluxo de trabalho para representar o processo de aprovação. Este fluxo de trabalho pode incluir regras de aprovação automática, as regras que determinam o que será atribuído ao aprovar POs específicos e regras para escalar um fluxo de trabalho que estavam esperando aprovação por um longo tempo. Você pode habilitar o processo de gerenciamento de alterações para todos os fornecedores ou fornecedores específicos. Você também pode configurar o processo de forma que pode ser substituído por PDVs individuais.  
+Ativar o gerenciamento de alterações para POs definindo a opção **Ativar o gerenciamento de alterações** na página **Parâmetros de compras**. Quando o gerenciamento de alterações é habilitado, as POs devem passar por um fluxo de trabalho de aprovação depois que elas tiverem sido concluídas. O Microsoft Dynamics 365 for Finance and Operations tem um editor de processos de fluxo de trabalho, onde você pode definir um fluxo de trabalho para representar o processo de aprovação. Este fluxo de trabalho pode incluir regras de aprovação automática, as regras que determinam o que será atribuído ao aprovar POs específicos e regras para escalar um fluxo de trabalho que estavam esperando aprovação por um longo tempo. Você pode habilitar o processo de gerenciamento de alterações para todos os fornecedores ou fornecedores específicos. Você também pode configurar o processo de forma que pode ser substituído por PDVs individuais.  
 
 Quando o gerenciamento de alterações é habilitado, POs percorrem os seis status de aprovação de **Rascunho** para **Finalizado**. Depois que um pedido for aprovado, os usuários que deseja modificá-lo devem usar a ação **Solicitar alteração**.
 
@@ -54,7 +55,7 @@ Quando o gerenciamento de alterações é habilitado, POs percorrem os seis stat
 ## <a name="confirming-purchase-orders"></a>Confirmar ordens de compra
 POs que têm um status de aprovação **Aprovado** podem passar por etapas adicionais antes que elas sejam confirmadas. Por exemplo, você terá de enviar uma consulta de compra para o fornecedor para saber mais sobre preços, descontos ou datas de entrega. Nesse caso, você pode definir a ordem de compra para o status **Na análise externa** usando a ação **Consulta de compra**.  
 
-Fornecedores que estão configurados para usar o portal do fornecedor podem rever pedidos no portal e aprovar ou rejeitá-los. Durante esse processo de revisão, o pedido de compra tem um status de **Na análise externa**. O portal do fornecedor pode ser configurado de modo que uma confirmação do fornecedor confirme automaticamente a ordem no Dynamics 365 for Operations. Como alternativa, você pode confirmar manualmente uma ordem de compra após receber a confirmação do fornecedor. Se um fornecedor rejeita um pedido de compra, a rejeição é recebida com o motivo para a rejeição e sugestões para alterações. Nesse caso, o status do pedido de compra permanece **Na análise externa**.  
+Fornecedores que estão configurados para usar o portal do fornecedor podem rever pedidos no portal e aprovar ou rejeitá-los. Durante esse processo de revisão, o pedido de compra tem um status de **Na análise externa**. O portal do fornecedor pode ser configurado de modo que uma confirmação do fornecedor confirme automaticamente a ordem no Finanças e Operações. Como alternativa, você pode confirmar manualmente uma ordem de compra após receber a confirmação do fornecedor. Se um fornecedor rejeita um pedido de compra, a rejeição é recebida com o motivo para a rejeição e sugestões para alterações. Nesse caso, o status do pedido de compra permanece **Na análise externa**.  
 
 Há também uma opção para gerar uma confirmação pró-forma para um pedido antes da confirmação real ser processada. Essa opção apenas cria um relatório que pode ser compartilhado com o fornecedor. Ela não cria quaisquer informações de diário.  
 
@@ -83,7 +84,7 @@ Depois que um pedido foi confirmado, você não poderá excluí-lo. No entanto, 
 
 [Recebimento de produtos contra ordens de compra](product-receipt-against-purchase-orders.md)
 
-[Visão geral das faturas de fornecedor](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Visão geral de faturas de fornecedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

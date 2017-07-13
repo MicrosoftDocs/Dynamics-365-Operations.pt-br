@@ -3,14 +3,14 @@ title: "Subcontratação baseada em atividade"
 description: "Este tópico descreve detalhadamente como usar atividades subcontratadas em um fluxo de produção para lean manufacturing."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 267034
 ms.assetid: 15c76a51-fa6d-42d2-994a-c67df6bae6a9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4cf93c861345ad11b995ac2fe50c9a94dddcbd56
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 43c95c8ab8599a048b1c8c732d6dcac1c3e8b9e9
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 Este tópico descreve detalhadamente como usar atividades subcontratadas em um fluxo de produção para lean manufacturing.
 
-No Microsoft Dynamics 365 for Operations, há duas abordagens de subcontratação: ordens de produção e lean manufacturing. Na abordagem de lean manufacturing, o trabalho de subcontratação é moldado como serviço relacionado a uma atividade de um fluxo de produção. Um tipo especial de tipo de grupo de custo denominado **Terceirização direta** foi introduzido, e os serviços de subcontratação não fazem mais parte de uma lista de materiais (BOM). A contabilização de custos de trabalho subcontratado está totalmente integrada na solução de custos para lean manufacturing.
+No Microsoft Dynamics 365 for Finance and Operations, há duas abordagens de subcontratação: ordens de produção e lean manufacturing. Na abordagem de lean manufacturing, o trabalho de subcontratação é moldado como serviço relacionado a uma atividade de um fluxo de produção. Um tipo especial de tipo de grupo de custo denominado **Terceirização direta** foi introduzido, e os serviços de subcontratação não fazem mais parte de uma lista de materiais (BOM). A contabilização de custos de trabalho subcontratado está totalmente integrada na solução de custos para lean manufacturing.
 
 ## <a name="production-flows-that-involve-subcontractors"></a>Fluxos de produção que envolvem subcontratados
 O princípio básico de um fluxo de produção não muda quando as atividades são subcontratadas. Ainda há fluxos de material entre locais, as atividades de processo convertem materiais em produtos e as atividades de transferência movem material ou produtos de um local para outro. Você pode moldar locais e células de trabalho como gerenciado por fornecedor atribuindo a conta do fornecedor a um depósito ou a um recurso de um grupo de recursos.  
@@ -104,7 +104,7 @@ As pessoas geralmente consideram transporte como não produtivo e acham que ele 
 
 A subcontratação baseada em atividade em lean manufacturing permite integrar transportadoras e fornecedores de transporte que movem materiais e produtos entre os locais de um fluxo de produção. Ao moldar uma atividade de transferência, você pode atribuir uma transportadora ou um fornecedor. Trabalho/atividades de transferência são baseados em um contrato de serviço e compra, e você pode criar ordens de compra e avisos de recebimento de acordo com os trabalhos de transferência reais. Essa funcionalidade é a mesma das atividades de processo subcontratadas.  
 
-Portanto, o Dynamics 365 for Operations agora tem suporte para cálculo da BOM que inclui serviços de transporte, criação de ordens de compra selecionadas, registro de recebimento integrado e integração de custos de serviços de transporte na avaliação de custo de fluxo de produção.
+Portanto, o Finance and Operations agora tem suporte para cálculo da BOM que inclui serviços de transporte, criação de ordens de compra selecionadas, registro de recebimento integrado e integração de custos de serviços de transporte na avaliação de custo de fluxo de produção.
 
 
 

@@ -3,14 +3,14 @@ title: Criar ordens de compra
 description: "Este artigo descreve o processo e as opções quando você criar manualmente uma ordem de compra."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c6c6b40d8934d1059c54678df8d4fc6530db1b24
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: fbf5337ac41ceae6e911c056db5226c8ed1cefb0
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -29,6 +29,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="create-purchase-orders"></a>Criar ordens de compra
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 Este artigo descreve o processo e as opções quando você criar manualmente uma ordem de compra.
@@ -70,7 +72,7 @@ Uma linha de OC está sendo usada para devolver um produto ao fornecedor que ter
 Encargos podem ser adicionados automaticamente à linhas da PO, se encargos automáticos foram configurados para o fornecedor ou grupo de encargos do fornecedor, e para o item ou grupo de encargos do item. No entanto, geralmente, encargos são adicionados manualmente no nível da linha da ordem. Para adicionar um encargo, abra a página **Manter encargos** usando a ação **Manter encargos** sobre o menu **Finanças** na exibição **Linhas**. A vantagem de adicionar encargos diretamente no nível da linha da ordem é que o encargo pode ser alocado como um custo de estoque. Para definir os códigos de encargo ao custo do produto de conta, use a opção de débito **Item**. Esses tipos de encargos devem ser alocados do cabeçalho da ordem de compra para as linhas antes que a ordem possa ser confirmada. Por exemplo, você talvez queira alocar encargos com base na quantidade em cada linha. A categoria de custo também afeta como os encargos serão contabilizados. Por exemplo, encargos fixos especificam um valor fixo e porcentagem de encargos calculados como uma porcentagem do valor líquido para a linha da ordem. POs podem ser atribuídos a uma carga e a carga pode incluir uma estimativa da despesa esperada para o custo de transporte. Você pode alocar essa despesa de carga antes das linhas de ordem de compra.
 
 ## <a name="purchase-order-actions"></a>Ações da ordem de compra
-Depois de adicionar o cabeçalho e as linhas para a ordem de compra, você geralmente deve concluir etapas adicionais antes que a ordem esteja pronta para ser confirmada. Como tantas opções estão disponíveis, talvez seja útil usar [Pesquisa de ação](/dynamics365/operations/get-started/action-search) para localizar o item de menu relevantes.  
+Depois de adicionar o cabeçalho e as linhas para a ordem de compra, você geralmente deve concluir etapas adicionais antes que a ordem esteja pronta para ser confirmada. Como tantas opções estão disponíveis, talvez seja útil usar [Pesquisa de ação](/dynamics365/unified-operations/fin-and-ops/get-started/action-search) para localizar o item de menu relevantes.  
 
 Você pode configurar produtos na ordem para que eles tenham itens suplementares. Itens suplementares são produtos que devem ou podem ser comprados em conjunto com outros produtos. Produtos suplementares podem ser adicionados gratuitamente como os que acompanham os produtos ou você poderá optar por adicioná-los à ordem ou não. Você pode revisar os itens suplementares após cada linha de ordem adicionada. No entanto, você provavelmente achará mais conveniente revisar e adicionar itens suplementares relevantes para todas as linhas da ordem, usando a página **Itens suplementares**, que pode ser aberta no painel de ação.  
 
@@ -94,7 +96,7 @@ Talvez seja necessário atrasar a conclusão de uma ordem de compra. Por exemplo
 
 [Recebimento de produtos contra ordens de compra](product-receipt-against-purchase-orders.md)
 
-[Visão geral das faturas de fornecedor](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[Visão geral de faturas de fornecedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

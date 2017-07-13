@@ -1,15 +1,15 @@
 ---
 title: "Reconciliar extratos bancários utilizando a reconciliação bancária avançada"
-description: "O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 for Operations. Este tópico descreve o processo de reconciliação."
+description: "O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Este tópico descreve o processo de reconciliação."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
@@ -17,20 +17,20 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 81368294164ca4ca1915d73f8f5622e61f5d1fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: eb7fd01874b08417933ddf575c7d6ff866b4e6f8
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Reconciliar extratos bancários utilizando a reconciliação bancária avançada
+# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Reconciliar extratos bancários usando reconciliação bancária avançada
 
 [!include[banner](../includes/banner.md)]
 
 
-O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 for Operations. Este tópico descreve o processo de reconciliação.  
+O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Este tópico descreve o processo de reconciliação.  
 
 <a name="import-an-electronic-bank-statement"></a>Importar um extrato bancário eletrônico
 -----------------------------------
@@ -44,7 +44,7 @@ Você pode carregar um extrato bancário que contém informações sobre uma ún
 
 Se nenhuma instruções no arquivo eletrônico não podem ser associadas com uma conta bancária usando os campos de identificação, não serão importados. No entanto, outras instruções em arquivo ainda podem ser importados. O usuário receberá uma mensagem para os que a importação de extrato bancário foi malsucedida para contas bancárias específicas. Observe que o usuário que está importando o arquivo de extrato bancário deve ter acesso a uma entidade legal às instruções de importação para contas bancárias da entidade legal. 
 
-Você também pode zipar um arquivo para carregar vários arquivos de extrato para o Microsoft Dynamics 365 for Operations em um único processo usando um arquivo zip. Para importar vários arquivos de extrato bancário sobre várias contas, combine todos os arquivos de extrato bancário em um arquivo zip. Na caixa de diálogo **Importar extratos bancários**, defina a opção **Importar extrato para múltiplas contas bancárias em todas entidades legais** para **Sim**. Clique em **Procurar** para selecionar o arquivo zip que contém os arquivos de extratos bancários e, em seguida, clique em **Carregar**. O processo de importação reconhecerá o arquivo relevante e cobrar cada demonstrativo que estão incluídas nele, independentemente de entidade legal da conta bancária. 
+Você também pode zipar um arquivo para carregar vários arquivos de extrato para o Finanças e Operações em um único processo usando um arquivo zip. Para importar vários arquivos de extrato bancário sobre várias contas, combine todos os arquivos de extrato bancário em um arquivo zip. Na caixa de diálogo **Importar extratos bancários**, defina a opção **Importar extrato para múltiplas contas bancárias em todas entidades legais** para **Sim**. Clique em **Procurar** para selecionar o arquivo zip que contém os arquivos de extratos bancários e, em seguida, clique em **Carregar**. O processo de importação reconhecerá o arquivo relevante e cobrar cada demonstrativo que estão incluídas nele, independentemente de entidade legal da conta bancária. 
 
 A opção **Reconciliar após a importação** está disponível. Quando essa opção está definida como **Sim**, o sistema automaticamente valida o extrato bancário, cria uma nova reconciliação bancária e planilha, e executa o conjunto de regras de correspondência padrão assim que o extrato bancário é carregado. Essa funcionalidade automatiza o processo até o ponto em que as transações devem ser correspondidas manualmente.
 
@@ -76,7 +76,7 @@ Existem três maneiras de corresponder ou reconciliar transações do extrato ba
 
 -   Corresponder as transações com transações bancárias do Operations.
 -   Corresponder as transações com uma transação de extrato bancário de estorno.
--   Marcar as transações como **Novo**, de modo que possam ser lançadas posteriormente como uma transação bancária no Dynamics 365 for Operations.
+-   Marcar as transações como **Novo**, de modo que possam ser lançadas posteriormente como uma transação bancária no Finanças e Operações.
 
 Para combinar as transações manualmente, selecione as transações na grade **Transações do extrato bancário**, selecione as transações correspondentes na grade **Transações bancárias do Operations** e clique em **Corresponder**. As transações selecionadas são movidas das grades superiores, para transações não correspondidas, para as grades inferiores, que representam as transações correspondidas. Além disso, os valores totais correspondidos e não correspondidos são atualizados. É possível obter combinações de transações um para um, várias para um e várias para várias. As correspondências devem seguir as regras para as diferenças de data permitidas e mapeamento do tipo de transação. Essas regras são definidas na página **Parâmetros de gerenciamento de banco e caixa**.
 
@@ -86,7 +86,7 @@ As transações de estorno do extrato bancário são correspondidas utilizando a
 
 Transações bancárias estornadas do Operations devem ser reconciliadas utilizando a página **Transações bancárias do Operations**. É possível reconciliar duas transações bancárias do Operations juntas se os documentos tiverem a mesma conta bancária, o mesmo tipo de documento, a mesma referência de pagamento, e se tiverem valores opostos. Também é possível reconciliar um cheque único cancelado para prevenir que essas transações apareçam na planilha de reconciliação. 
 
-Se existem novas transações iniciadas pelo banco, como juros, taxas e tarifas, que ainda não estão no Dynamics 365 for Operations, você pode adicioná-las à um diário que está associado à reconciliação do extrato bancário selecionado. Selecione uma transação do extrato bancário na grade **Transações do extrato bancário** de transações não combinadas e, em seguida, clique em **Marcar como nova**. O status da transação é definido como **Nova**, e a transação será movida para a grade **Transações do extrato bancário** que representa as transações combinadas. Você irá lançar as transações marcadas como **Nova** posteriormente, pela página **Extrato bancário**. 
+Se existem novas transações iniciadas pelo banco, como juros, taxas e tarifas, que ainda não estão no Finanças e Operações, você pode adicioná-las à um diário que está associado à reconciliação do extrato bancário selecionado. Selecione uma transação do extrato bancário na grade **Transações do extrato bancário** de transações não combinadas e, em seguida, clique em **Marcar como nova**. O status da transação é definido como **Nova**, e a transação será movida para a grade **Transações do extrato bancário** que representa as transações combinadas. Você irá lançar as transações marcadas como **Nova** posteriormente, pela página **Extrato bancário**. 
 
 É possível desfazer a combinação de transações que foram combinadas incorretamente. Selecione a transação do extrato bancário combinada e, em seguida, clique em **Desfazer combinação**. Todas as transações associadas são movidas de volta às grades superiores para transações não combinadas, e os valores totais combinados e não combinados são atualizados. 
 

@@ -3,14 +3,14 @@ title: "Contagem cíclica"
 description: "Este artigo descreve como você pode usar a contagem cíclica com a solução de armazenamento disponível no Gerenciamento de depósito. Este artigo não se aplica à solução de armazenamento disponível no Gerenciamento de estoque."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4446dfec1fa8eabb45e14b3f2ff685b3b1d68e2c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ebc7789d7b0be5db4a0faf4309bc3640f51956c6
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ Este artigo descreve como você pode usar a contagem cíclica com a solução de
 A contagem cíclica é um processo de depósito que você pode usar para auditar itens de estoque disponíveis. O processo de contagem cíclica pode ser descrito em três etapas:
 
 1.  **Criar o trabalho de contagem cíclica** ─ o trabalho de contagem cíclica pode ser criado automaticamente com base nos parâmetros de limite para itens ou usando um plano de contagem cíclica. Como alternativa, você pode criar o trabalho de contagem cíclica manualmente usando os parâmetros do item ou do depósito na página **Trabalho de contagem cíclica por item** ou na página **Trabalho de contagem cíclica por local**.
-2.  **Processar contagem cíclica** ─ após a criação do trabalho de contagem cíclica, você executa o trabalho de contagem cíclica contando os itens em um local de depósito e depois usando um dispositivo móvel para inserir o resultado no Microsoft Dynamics 365 for Operations. Como alternativa, você pode contar itens em um local de depósito sem criar o trabalho de contagem cíclica. Esse processo é conhecido como *contagem cíclica de ponto*.
+2.  **Processar contagem cíclica** ─ após a criação do trabalho de contagem cíclica, você executa o trabalho de contagem cíclica contando os itens em um local de depósito e depois usando um dispositivo móvel para inserir o resultado no Microsoft Dynamics 365 for Finance and Operations. Como alternativa, você pode contar itens em um local de depósito sem criar o trabalho de contagem cíclica. Esse processo é conhecido como *contagem cíclica de ponto*.
 3.  **Resolver uma diferença no valor contado do ciclo** ─ após uma contagem cíclica, todos os itens que possuem diferenças no valor contado terão um status do trabalho **Revisão pendente** na página **Todos os trabalhos**. Você pode resolver essas diferenças na página **Revisão de trabalho restante do ciclo de contagem**.
 
 A ilustração a seguir mostra o processo de contagem cíclica. ![Fluxo de processo para contagem cíclica](./media/performcyclecountinginawarehouselocation.jpg)
@@ -115,10 +115,10 @@ Você pode agendar planos de contagem cíclica para criar um trabalho de contage
 Para criar manualmente o trabalho de contagem cíclica, você poderá usar a página **Trabalho de contagem cíclica por item** ou a **Trabalho de contagem cíclica por local**. Você pode especificar o número máximo de contagens cíclicas a serem criadas. Por exemplo, se o gerente de depósito especificar um valor **5**, o trabalho de contagem cíclica será criado para cinco locais mesmo que o item esteja presente em 10 locais. Você também pode selecionar uma ID de grupo de trabalho à qual as IDs de trabalho de contagem cíclica criadas são atribuídas. Quando uma ID de grupo de trabalho é processada para a contagem cíclica, as IDs de trabalho de contagem cíclicas atribuídas ao grupo de trabalho são processadas como um grupo.
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>Executar uma contagem cíclica usando um dispositivo móvel
-Há vários métodos para processar o trabalho de contagem cíclica usando o Dynamics 365 for Operations em um dispositivo móvel:
+Há vários métodos para processar o trabalho de contagem cíclica usando o Finance and Operations em um dispositivo móvel:
 
 -   **Direcionado ao usuário** ─ o funcionário pode especificar uma ID de trabalho de contagem cíclica com o status **Aberto**.
--   **Direcionado ao sistema** ─ o Dynamics 365 for Operations atribui uma ID de trabalho de contagem cíclica ao trabalhador.
+-   **Direcionado ao sistema** ─ o Finance and Operations atribui uma ID de trabalho de contagem cíclica ao trabalhador.
 -   **Agrupamento de contagem cíclica** ─ o trabalhador pode agrupar as IDs de trabalho de contagem cíclica que são específicas de um local, zona, ou grupo de trabalho específico.
 -   **Contagem cíclica de ponto** ─ o trabalhador pode contar itens em um local de depósito a qualquer momento, sem criar o trabalho de contagem cíclica. Para executar a contagem cíclica de ponto em um local, o trabalhador insere a ID do local.
 

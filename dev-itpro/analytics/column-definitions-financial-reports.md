@@ -3,7 +3,7 @@ title: "Definições de coluna nos relatórios financeiros"
 description: "Este artigo fornece informações sobre definições de coluna. Uma definição de coluna é um componente de relatório, ou um bloco de construção, que define o conteúdo das colunas em um relatório. Assim como as definições de linha, as definições básicas de coluna podem ser usadas em vários relatórios."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: d976988a599f65de9957c53a2d149576a1a11d83
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -154,7 +154,7 @@ Você pode usar a caixa de diálogo **Cabeçalho da coluna** para adicionar, mod
 
 1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
 2.  Selecione uma célula na linha de cabeçalho.
-3.  No menu **Editar**, clique em **Inserir linha**. A nova linha é inserida acima da linha que você selecionou na etapa 2. **Observação:**se houver quatro ou mais linhas de cabeçalhos em um relatório, os cabeçalhos se sobreporão quando o relatório for exportado para uma planilha do Excel. Para exibir todos os cabeçalhos no relatório, aumente a margem superior da definição de relatório.
+3.  No menu **Editar**, clique em **Inserir linha**. A nova linha é inserida acima da linha que você selecionou na etapa 2. **Observação:** se houver quatro ou mais linhas de cabeçalhos em um relatório, os cabeçalhos se sobreporão quando o relatório for exportado para uma planilha do Excel. Para exibir todos os cabeçalhos no relatório, aumente a margem superior da definição de relatório.
 
 ### <a name="delete-a-column-header-row"></a>Excluir uma linha de cabeçalho de coluna
 
@@ -164,7 +164,7 @@ Você pode usar a caixa de diálogo **Cabeçalho da coluna** para adicionar, mod
 
 ### <a name="create-an-automatically-generated-header"></a>Criar uma cabeçalho gerado automaticamente
 
-O designer de relatórios pode gerar automaticamente cabeçalhos de coluna, com base em códigos de AutoTexto. Os códigos de AutoTexto são variáveis que serão atualizadas toda vez que um relatório for gerado. Qualquer cabeçalho de coluna pode incluir esses códigos para especificar informações de relatório que podem variar, como números de datas ou períodos. Por esse motivo, você pode usar uma definição de coluna para uma variedade de definições de relatório, períodos e árvores de relatório. Como os códigos de AutoTexto dependem de informações do calendário das linhas de detalhe da coluna de definição, eles são compatíveis apenas para as colunas **CALC**, **FD** e **WKS**. A forma como o código de AutoTexto é mostrado no cabeçalho da coluna afeta a forma como essas informações aparecem no relatório. Na caixa de diálogo **Cabeçalho de coluna**, os códigos de AutoTexto aparecem em letras maiúsculas e minúsculas. Portanto, o texto aparece em letras maiúsculas e minúsculas no relatório. Por exemplo, em um ano civil padrão, **@CalMonthLong** converte o mês **7** em **julho**. Se o nome do mês precisa estar em caixa alta (por exemplo, **JULHO**), insira o código de AutoTexto em caracteres minúsculos no campo **Texto do cabeçalho da coluna**. Por exemplo, insira **@CALMONTHLONG**. Você pode combinar código e texto. Por exemplo, você insere o seguinte texto de cabeçalho: **Período @FiscalPeriod-@FiscalYear de @StartDate a @EndDate**. O título do relatório que é gerado se parece com o seguinte texto: **Período 1-02 de 01/01/02 a 31/01/02**. **Observação:** o formato de alguns textos, como o de data completa, depende das configurações regionais no servidor do Dynamics 365 for Operations. Para alterar essas configurações, clique no botão **Início**, em **Painel de controle** e depois em **Região e idioma**. A seguinte tabela lista as opções de AutoTexto disponíveis para cabeçalhos de coluna.
+O designer de relatórios pode gerar automaticamente cabeçalhos de coluna, com base em códigos de AutoTexto. Os códigos de AutoTexto são variáveis que serão atualizadas toda vez que um relatório for gerado. Qualquer cabeçalho de coluna pode incluir esses códigos para especificar informações de relatório que podem variar, como números de datas ou períodos. Por esse motivo, você pode usar uma definição de coluna para uma variedade de definições de relatório, períodos e árvores de relatório. Como os códigos de AutoTexto dependem de informações do calendário das linhas de detalhe da coluna de definição, eles são compatíveis apenas para as colunas **CALC**, **FD** e **WKS**. A forma como o código de AutoTexto é mostrado no cabeçalho da coluna afeta a forma como essas informações aparecem no relatório. Na caixa de diálogo **Cabeçalho de coluna**, os códigos de AutoTexto aparecem em letras maiúsculas e minúsculas. Portanto, o texto aparece em letras maiúsculas e minúsculas no relatório. Por exemplo, em um ano civil padrão, **@CalMonthLong** converte o mês **7** em **julho**. Se o nome do mês precisa estar em caixa alta (por exemplo, **JULHO**), insira o código de AutoTexto em caracteres minúsculos no campo **Texto do cabeçalho da coluna**. Por exemplo, insira **@CALMONTHLONG**. Você pode combinar código e texto. Por exemplo, você insere o seguinte texto de cabeçalho: **Período @FiscalPeriod-@FiscalYear de @StartDate a @EndDate**. O título do relatório que é gerado se parece com o seguinte texto: **Período 1-02 de 01/01/02 a 31/01/02**. **Observação:** o formato de alguns textos, como o de data completa, depende das configurações regionais no servidor do Finance and Operations. Para alterar essas configurações, clique no botão **Início**, em **Painel de controle** e depois em **Região e idioma**. A seguinte tabela lista as opções de AutoTexto disponíveis para cabeçalhos de coluna.
 
 | Opção e código de AutoTexto                | descrição                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -488,7 +488,7 @@ Os seguintes exemplos mostram parte da descrição de uma coluna que apresenta u
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Filtro de dimensão em uma definição de coluna
 
-Um filtro de dimensão é usado para restringir a coluna **FD** a valores de dimensão específicos. O filtro pode incluir uma única dimensão, um intervalo de dimensões ou um grupo de dimensões. O filtro também pode incluir conjuntos de valores de dimensão. Como os valores de dimensão podem variar, um sistema baseado em dimensão ..\financial-dimensions\ não precisa corresponder exatamente a um comprimento. O filtro é aplicado, independentemente de o relatório incluir ou não uma árvore de relatório. Você pode usar um caractere curinga (\* ou ?) em qualquer posição. Ao especificar várias contas, coloque uma vírgula entre elas, conforme mostrado no seguinte exemplo: +Conta=\[1200\], +Conta=\[1100\], Departamento=\[01?\] Para obter todos os departamentos de uma conta específica, você pode excluir a dimensão Departamento do filtro de dimensão. Por exemplo, ambos os filtros de dimensão a seguir são tratados da mesma forma:
+Um filtro de dimensão é usado para restringir a coluna **FD** a valores de dimensão específicos. O filtro pode incluir uma única dimensão, um intervalo de dimensões ou um grupo de dimensões. O filtro também pode incluir conjuntos de valores de dimensão. Como os valores de dimensão podem variar, um sistema baseado em dimensão ..\financial-dimensions\ não precisa corresponder exatamente a um comprimento. O filtro é aplicado, independentemente de o relatório incluir ou não uma árvore de relatório. Você pode usar um caractere curinga (\* ou ?) em qualquer posição. Quando você especificar várias contas, coloque uma vírgula entre as contas, como no seguinte exemplo: +conta=\[1200\], +conta=\[1100\], departamento=\[01?\] para receber todos os departamentos de uma conta específica, é possível excluir a dimensão Departamento do filtro de dimensão. Por exemplo, ambos os filtros de dimensão a seguir são tratados da mesma forma:
 
 -   +Conta=\[1100\],Departamento
 -   +Conta=\[1100\]

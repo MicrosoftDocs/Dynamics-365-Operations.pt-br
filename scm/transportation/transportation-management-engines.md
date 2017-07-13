@@ -3,14 +3,14 @@ title: Mecanismos de gerenciamento de transporte
 description: "Os mecanismos de gerenciamento de transporte definem a lógica usada para gerar e processar taxas de transporte no Gerenciamento de transporte."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f5db69ed204b9503fb710426f449f38e76591641
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: c4aac72d9f7e975d4a270deb340f96ddcc9ca1fb
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -33,15 +33,15 @@ ms.lasthandoff: 05/25/2017
 
 Os mecanismos de gerenciamento de transporte definem a lógica usada para gerar e processar taxas de transporte no Gerenciamento de transporte. 
 
-Um mecanismo de gerenciamento de transporte calcula tarefas, como a taxa de transporte da transportadora. O sistema do mecanismo permite alterar as estratégias de cálculo no tempo de execução com base nos dados no Microsoft Dynamics 365 for Operations. Um mecanismo de gerenciamento de transporte é semelhante a um plug-in relacionado a um contrato de transportadora específico.
+Um mecanismo de gerenciamento de transporte calcula tarefas, como a taxa de transporte da transportadora. O sistema do mecanismo permite alterar as estratégias de cálculo no tempo de execução com base nos dados no Microsoft Dynamics 365 for Finance and Operations. Um mecanismo de gerenciamento de transporte é semelhante a um plug-in relacionado a um contrato de transportadora específico.
 
 ## <a name="what-engines-are-available"></a>Quais mecanismos estão disponíveis?
-A tabela a seguir mostra os mecanismo de gerenciamento de transporte disponíveis no Microsoft Dynamics 365 for Operations.
+A tabela a seguir mostra os mecanismo de gerenciamento de transporte disponíveis no Microsoft Dynamics 365 for Finance and Operations.
 
 | Mecanismo de gerenciamento de transporte | descrição                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Mecanismo de taxa**                  | Calcula taxas.                                                                                                                                                                                                                                                                                                           |
-| **Mecanismo genérico**               | Mecanismos simples auxiliares usados por outros mecanismos que não requerem dados do Microsoft Dynamics 365 for Operations, por exemplo, um mecanismo de divisão proporcional. Os mecanismos de divisão são usados para reduzir o custo final do transporte de ordens e linhas específicas, com base nas dimensões, como volume e peso. |
+| **Mecanismo genérico**               | Mecanismos simples auxiliares usados por outros mecanismos que não requerem dados do Microsoft Dynamics 365 for Finance and Operations, por exemplo, um mecanismo de divisão proporcional. Os mecanismos de divisão são usados para reduzir o custo final do transporte de ordens e linhas específicas, com base nas dimensões, como volume e peso. |
 | **Mecanismo de quilometragem**               | Calcula a distância do transporte.                                                                                                                                                                                                                                                                                     |
 | **Mecanismo de tempo em trânsito**          | Calcula o tempo necessário para viajar do início até o destino.                                                                                                                                                                                                                                       |
 | **Mecanismo de zona**                  | Calcula a zona com base no endereço atual e calcula o número de zonas que devem ser cruzadas para viajar do endereço A ao endereço B.                                                                                                                                                                    |
@@ -63,23 +63,23 @@ Na maioria dos casos, você pode clicar no botão **Parâmetros** nos formulári
 | Parâmetro             | Descrição                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *RateBaseAssigner*    | O tipo do .NET que interpretará os dados da atribuição de base da taxa para um esquema específico. A sintaxe do valor de parâmetro consiste em dois segmentos limitados por uma barra vertical (|). O primeiro segmento contém o nome do assembly que define o tipo de atribuidor. O segundo segmento define o nome totalmente qualificado do tipo de atribuidor. Isso inclui o namespace do tipo. |
-| *MileageEngineCode*   | Código do mecanismo de quilometragem que identifica o registro do mecanismo de quilometragem no banco de dados do Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | Código do mecanismo genérico que identifica o mecanismo de quilometragem no banco de dados do Microsoft Dynamics 365 for Operations.                                                                                                                                                                                                                                                              |
+| *MileageEngineCode*   | Código do mecanismo de quilometragem que identifica o registro do mecanismo de quilometragem no banco de dados do Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                                             |
+| *ApportionmentEngine* | Código do mecanismo genérico que identifica o mecanismo de quilometragem no banco de dados do Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                                              |
 
  
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Como os metadados são usados nos mecanismos de gerenciamento de transporte?
 ----------------------------------------------------------
 
-Os mecanismos de gerenciamento de transporte que dependem nos dados definidos no Dynamics 365 for Operations podem usar diferentes esquemas de dados. O sistema de gerenciamento de transporte permite que diferentes mecanismos de gerenciamento de transporte usem as mesmas tabelas físicas genéricas de banco de dados. Para verificar se a interpretação de tempo de execução dos dados do mecanismo está correta, você pode definir metadados para as tabelas de banco de dados. Isso reduz os custos de criação de novos mecanismos de gerenciamento de transporte, uma vez que tabelas e estruturas de formulário adicionais não são necessárias no Operations.
+Os mecanismos de gerenciamento de transporte que dependem nos dados definidos no Dynamics 365 for Finance and Operations podem usar diferentes esquemas de dados. O sistema de gerenciamento de transporte permite que diferentes mecanismos de gerenciamento de transporte usem as mesmas tabelas físicas genéricas de banco de dados. Para verificar se a interpretação de tempo de execução dos dados do mecanismo está correta, você pode definir metadados para as tabelas de banco de dados. Isso reduz os custos de criação de novos mecanismos de gerenciamento de transporte, uma vez que tabelas e estruturas de formulário adicionais não são necessárias no Operations.
 
 ## <a name="what-can-be-used-as-search-data-in-rate-calculations"></a>O que pode ser usado como dado de pesquisa nos cálculos de taxa?
-Os dados que você usa quando calcula taxas no Microsoft Dynamics 365 for Operations são controlados pela configuração de metadados. Por exemplo, se você deseja pesquisar por taxas com base no CEP, é necessário configurar os metadados com base no tipo de pesquisa de um CEP.
+Os dados que você usa quando calcula taxas no Microsoft Dynamics 365 for Finance and Operations são controlados pela configuração de metadados. Por exemplo, se você deseja pesquisar por taxas com base no CEP, é necessário configurar os metadados com base no tipo de pesquisa de um CEP.
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Todas as configurações do mecanismo exigem metadados?
 Não, os mecanismos de gerenciamento de transporte usados para recuperar os dados necessários para o cálculo da taxa de sistemas externos não necessitam de metadados. Os dados de taxa desses mecanismos podem ser recuperados de sistemas de transporte de transportadoras externas, geralmente com um serviço da Web. Por exemplo, você pode usar um mecanismo de quilometragem que recupera dados diretamente dos mapas do Bing, de forma que não precise de metadados para este mecanismo.
 | **Nota**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Os mecanismos de gerenciamento de transporte fornecidos com o Microsoft Dynamics 365 for Operations dependem dos dados que são recuperados pelo aplicativo. Os mecanismos que se conectam a sistemas externos não são incluídos no Operations. No entanto, o modelo de extensibilidade baseado em mecanismo permite criar extensões usando o Visual Studio Tools para Microsoft Dynamics 365 for Operations. |
+| Os mecanismos de gerenciamento de transporte fornecidos com o para Finanças e Operações dependem dos dados que são recuperados pelo aplicativo. Os mecanismos que se conectam a sistemas externos não são incluídos no Operations. No entanto, o modelo de extensibilidade baseado em mecanismo permite criar extensões usando o Visual Studio Tools para Microsoft Dynamics 365 for Finance and Operations. |
 
 ## <a name="how-do-i-configure-metadata-for-a-transportation-management-engine"></a>Como configurar metadados para um mecanismo de gerenciamento de transporte?
 Os metadados para os mecanismos de gerenciamento de transporte são configurados de forma diferente para os diferentes tipos de mecanismos.

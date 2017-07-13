@@ -1,27 +1,27 @@
 ---
 title: "Visão geral dos periféricos de varejo"
 description: "Este tópico explica os conceitos relacionados aos periféricos de varejo. Descreve as várias formas que os periféricos podem ser conectados ao ponto de venda (PDV) e os componentes responsáveis por gerenciar a conexão com o PDV."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 268444
-ms.assetid: 2ea93e43-8019-49a0-a7f8-325565ebc52d
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9f7c47c3dc22b2f3c2ea08085326be08011eca4e
+ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
+ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -33,16 +33,15 @@ ms.lasthandoff: 05/25/2017
 
 Este tópico explica os conceitos relacionados aos periféricos de varejo. Descreve as várias formas que os periféricos podem ser conectados ao ponto de venda (PDV) e os componentes responsáveis por gerenciar a conexão com o PDV.
 
-<a name="concepts"></a>Conceitos
---------
+## <a name="concepts"></a>Conceitos
 
 ### <a name="pos-registers"></a>Terminais de PDV
 
-Navegação: Clique em **Varejo e comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Terminais**. O registro de ponto de venda (PDV) é uma entidade usada para definir as características de uma instância específica do PDV. Essas características incluem o perfil ou configuração de hardware para os periféricos de varejo que serão usados no registro, a loja em que o registro está mapeado, e a experiência visual para o usuário que se conecta ao registro.
+Navegação: Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Registros**. O registro de ponto de venda (PDV) é uma entidade usada para definir as características de uma instância específica do PDV. Essas características incluem o perfil ou configuração de hardware para os periféricos de varejo que serão usados no registro, a loja em que o registro está mapeado, e a experiência visual para o usuário que se conecta ao registro.
 
 ### <a name="devices"></a>Dispositivos
 
-Navegação: Clique em **Varejo e comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Dispositivos**. Um dispositivo é uma entidade que representa uma instância física de um dispositivo que é mapeado para um registro de POS. Quando um dispositivo é criado, ele é mapeado para um registro de PDV. A entidade de dispositivo controla informações sobre quando uma registradora de POS é ativada, o tipo de cliente que está sendo usado e o pacote de aplicativo que foi implantado para um dispositivo específico. Os dispositivos podem ser mapeados nos seguintes tipos de aplicativo: PDV moderno de varejo, PDV de nuvem de varejo, PDV moderno de varejo – Windows Phone, PDV moderno de varejo – Android, e PDV moderno de varejo – iOS.
+Navegação: Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Dispositivos**. Um dispositivo é uma entidade que representa uma instância física de um dispositivo que é mapeado para um registro de POS. Quando um dispositivo é criado, ele é mapeado para um registro de PDV. A entidade de dispositivo controla informações sobre quando uma registradora de POS é ativada, o tipo de cliente que está sendo usado e o pacote de aplicativo que foi implantado para um dispositivo específico. Os dispositivos podem ser mapeados nos seguintes tipos de aplicativo: PDV moderno de varejo, PDV de nuvem de varejo, PDV moderno de varejo – Windows Phone, PDV moderno de varejo – Android, e PDV moderno de varejo – iOS.
 
 ### <a name="retail-modern-pos"></a>PDV do Retail Modern
 
@@ -66,11 +65,11 @@ Os periféricos de PDV são dispositivos suportados explicitamente para funçõe
 
 ### <a name="hardware-station"></a>Estação de hardware
 
-Navegação: Clique em **Varejo e comércio** &gt; **Canais** &gt; **Lojas de varejo** &gt; **Todas as lojas de varejo**. Selecione uma loja e clique na Guia Rápida **Estações de hardware**. A configuração **Estação de hardware** é uma configuração a nível de canal utilizada para definir instâncias onde a lógica de periférico de varejo será implantada. Esta configuração a nível de canal é usada para determinar as características da estação de hardware. Também é usada para listar as estações de hardware disponíveis para uma instância de PDV moderno em uma loja específica. A estação de hardware é criada no programa de PDV moderno para o Windows. A estação de hardware também pode ser implantada independentemente como um programa autônomo do Microsoft Internet Information Services (IIS). Nesse caso, pode ser acessada pela rede.
+Navegação: Clique em **Varejo** &gt; **Canais** &gt; **Lojas de varejo** &gt; **Todas as lojas de varejo**. Selecione uma loja e clique na Guia Rápida **Estações de hardware**. A configuração **Estação de hardware** é uma configuração a nível de canal utilizada para definir instâncias onde a lógica de periférico de varejo será implantada. Esta configuração a nível de canal é usada para determinar as características da estação de hardware. Também é usada para listar as estações de hardware disponíveis para uma instância de PDV moderno em uma loja específica. A estação de hardware é criada no programa de PDV moderno para o Windows. A estação de hardware também pode ser implantada independentemente como um programa autônomo do Microsoft Internet Information Services (IIS). Nesse caso, pode ser acessada pela rede.
 
 ### <a name="hardware-profile"></a>Perfil de hardware
 
-Navegação: Clique em **Varejo e comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**. O perfil de hardware é uma lista de dispositivos que são configurados para um registro de PDV ou estação de hardware. O perfil de hardware pode ser mapeado diretamente em um registro de PDV ou estação de hardware.
+Navegação: Clique em **Varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**. O perfil de hardware é uma lista de dispositivos que são configurados para um registro de PDV ou estação de hardware. O perfil de hardware pode ser mapeado diretamente em um registro de PDV ou estação de hardware.
 
 ## <a name="devices-classes"></a>Classes de dispositivos
 Os periféricos de PDV normalmente são divididos em classes. Esta seção descreve e dá uma visão geral dos dispositivos suportados pelo PDV moderno.
@@ -118,12 +117,12 @@ O suporte a dispositivos de pagamento foi implementado pelo conector de pagament
 ## <a name="supported-interfaces"></a>Interfaces suportadas
 ### <a name="opos"></a>OPOS
 
-Para ajudar a garantir que uma gama maior de dispositivos possa ser usada com o Microsoft Dynamics 365 for Operations - Varejo, o OLE para PDV padrão da indústria é a plataforma de dispositivo periférico de varejo primária suportada no Microsoft Dynamics 365 for Operations - Varejo. O OLE para PDV padrão foi produzido pela Federação Nacional do Varejo (NRF), que estabelece os protocolos de comunicação padrão da indústria para dispositivos periféricos de varejo. O OPOS é uma implementação amplamente adotada do OLE para PDV padrão. Foi desenvolvido em meados dos anos 90 e foi atualizado diversas vezes desde então. O OPOS fornece uma arquitetura de driver de dispositivo que permite a integração simples de hardware PDV com sistemas baseados em Windows. O OPOS controla a comunicação entre o hardware compatível e o software PDV. Um controle OPOS consiste em duas partes:
+Para ajudar a garantir que uma gama maior de dispositivos possa ser usada com o Microsoft Dynamics 365 para Varejo, o OLE para PDV padrão da indústria é a plataforma de dispositivo periférico de varejo primária suportada no Microsoft Dynamics 365 para Varejo. O OLE para PDV padrão foi produzido pela Federação Nacional do Varejo (NRF), que estabelece os protocolos de comunicação padrão da indústria para dispositivos periféricos de varejo. O OPOS é uma implementação amplamente adotada do OLE para PDV padrão. Foi desenvolvido em meados dos anos 90 e foi atualizado diversas vezes desde então. O OPOS fornece uma arquitetura de driver de dispositivo que permite a integração simples de hardware PDV com sistemas baseados em Windows. O OPOS controla a comunicação entre o hardware compatível e o software PDV. Um controle OPOS consiste em duas partes:
 
--   **Objeto de controle** – O objeto de controle para uma classe de dispositivo (como as exibições de linha) fornece a interface para o programa de software. A Monroe Serviços de Consultoria ([www.monroecs.com](http://www.monroecs.com/)) fornece um conjunto padronizado de objetos de controle OPOS que são conhecidos como objetos de controle (CCOs). Os CCOs são usados para testar o componente de PDV do Microsoft Dynamics 365 para Operações - Varejo. Portanto, o teste ajuda a garantir que, se o Microsoft Dynamics 365 para Operações - Varejo oferecer suporte a uma classe de dispositivo através do OPOS, muitos tipos de dispositivo podem ser suportados, dado que o fabricante fornece um objeto de servido que é desenvolvido para OPOS. Você não precisa explicitamente testar cada tipo do dispositivo.
+-   **Objeto de controle** – O objeto de controle para uma classe de dispositivo (como as exibições de linha) fornece a interface para o programa de software. A Monroe Serviços de Consultoria ([www.monroecs.com](http://www.monroecs.com/)) fornece um conjunto padronizado de objetos de controle OPOS que são conhecidos como objetos de controle (CCOs). Os CCOs são usados para testar o componente de PDV do Microsoft Dynamics 365 para Varejo. Portanto, o teste ajuda a garantir que, se o Microsoft Dynamics 365 para Varejo oferecer suporte a uma classe de dispositivo através do OPOS, muitos tipos de dispositivo podem ser suportados, dado que o fabricante fornece um objeto de servido que é desenvolvido para OPOS. Você não precisa explicitamente testar cada tipo do dispositivo.
 -   **Objeto de serviço** – O objeto de serviço fornece comunicação entre o objeto de controle (CCO) e o dispositivo. Normalmente, o objeto de serviço para um dispositivo é fornecido pelo fabricante do dispositivo. Entretanto, em alguns casos, pode ser necessário baixar o objeto de serviço do site do fabricante. Por exemplo, um objeto mais recente de serviço pode estar disponível. Para localizar o endereço do site do fabricante, consulte a documentação do hardware.
 
-[![Objeto de controle e objeto de serviço](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) O suporte à implementação de OPOS do OLE para PDV ajuda a garantir que, se os fabricantes de dispositivos e publicadores de PDV implementarem o padrão corretamente, os sistemas de PDV e dispositivos suportados podem trabalhar juntos, mesmo que não tenham sido testados anteriormente. **Observação:** O suporte do OPOS não garante suporte para todos os dispositivos que possuem drivers OPOS. O Microsoft Dynamics 365 para Operações - Varejo deve primeiro oferecer suporte a esse tipo ou classe de dispositivo através do OPOS. Além disso, os objetos de serviço nem sempre podem estar atualizados com a versão mais recente dos CCOs. Você também deve estar ciente de que, em geral, a qualidade dos objetos de serviço é diferente.
+[![Objeto de controle e objeto de serviço](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) O suporte à implementação de OPOS do OLE para PDV ajuda a garantir que, se os fabricantes de dispositivos e publicadores de PDV implementarem o padrão corretamente, os sistemas de PDV e dispositivos suportados podem trabalhar juntos, mesmo que não tenham sido testados anteriormente. **Observação:** O suporte do OPOS não garante suporte para todos os dispositivos que possuem drivers OPOS. O Microsoft Dynamics 365 para Varejo deve primeiro oferecer suporte a esse tipo ou classe de dispositivo através do OPOS. Além disso, os objetos de serviço nem sempre podem estar atualizados com a versão mais recente dos CCOs. Você também deve estar ciente de que, em geral, a qualidade dos objetos de serviço é diferente.
 
 ### <a name="windows"></a>Windows
 
@@ -133,7 +132,7 @@ A impressão de recibo no PDV é otimizada para OPOS. O OPOS tende a ser muito m
 -   Os dispositivos conectados através da impressora (encadeado) podem não funcionar corretamente quando os drivers do Windows forem utilizados. Por exemplo, a caixa registradora pode não abrir, a impressora de guia pode não escrever como você espera.
 -   O OPOS também oferece suporte a um conjunto de variáveis mais amplo que são específicas para as impressoras de recibo de varejo, como corte de papéis ou impressão de guias.
 
-Se os controles OPOS estiverem disponíveis para a impressora do Windows que você está utilizando, a impressora ainda deve funcionar corretamente com o Microsoft Dynamics 365 para Operações - Varejo.
+Se os controles OPOS estiverem disponíveis para a impressora do Windows que você está utilizando, a impressora ainda deve funcionar corretamente com o Microsoft Dynamics 365 para Varejo.
 
 ### <a name="universal-windows-platform"></a>Plataforma de universal do Windows
 
@@ -473,7 +472,7 @@ Os periféricos de rede podem ser suportados diretamente através da estação d
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>Configuração para cenários suportados
-Para obter mais informações sobre como criar perfis de hardware, consulte [Definir e manter clientes de canal, incluindo registros e estações de hardware](define-maintain-channel-clients-registers-hw-stations.md). **Observação:** Para o Microsoft Dynamics 365 para Operações versão 1611, o perfil da estação de hardware não é mais usado. Os atributos configurados anteriormente no perfil de estação de hardware agora são parte da estação de hardware.
+Para obter mais informações sobre como criar perfis de hardware, consulte [Definir e manter clientes de canal, incluindo registros e estações de hardware](define-maintain-channel-clients-registers-hw-stations.md). **Observação:** Para o Microsoft Dynamics 365 para Varejo versão 1611, o perfil da estação de hardware não é mais usado. Os atributos configurados anteriormente no perfil de estação de hardware agora são parte da estação de hardware.
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>PDV moderno para Windows com uma estação de hardware IPC (integrada)
 
@@ -482,7 +481,7 @@ Esta configuração é a configuração mais típica para as registradoras PDV f
 1.  Crie um perfil de hardware onde todos os periféricos necessários são configurados.
 2.  Mapeie o perfil de hardware na registradora de PDV.
 3.  Crie uma estação de hardware do tipo **Dedicada** para a loja de varejo onde a registradora PDV será utilizada. Uma descrição é opcional. **Observação:** Você não precisa definir outras propriedades na estação de hardware. Todas as outras informações necessárias, como perfil de hardware, serão provenientes da registradora.
-4.  Clique em **Varejo e comércio** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
+4.  Clique em **Varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
 5.  Selecione a agenda de distribuição **1090** para sincronizar o novo perfil de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
 6.  Selecione a agenda de distribuição **1040** para sincronizar a nova estação de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
 7.  Instale e ative o PDV moderno para Windows.
@@ -501,7 +500,7 @@ Essa configuração pode ser usada para todos os clientes de PDV moderno que pos
     -   **Número de PDV da TEF** – A ID do terminal de TEF a ser usado quando autorizações de TEF forem enviadas. Essa ID é fornecida pelo processador de cartão de crédito.
     -   **Nome do pacote** – O pacote de estação de hardware a ser usado quando a estação de hardware é implantada.
 
-4.  Clique em **Varejo e comércio** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
+4.  Clique em **Varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
 5.  Selecione a agenda de distribuição **1090** para sincronizar o novo perfil de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
 6.  Selecione a agenda de distribuição **1040** para sincronizar a nova estação de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
 7.  Instale a estação de hardware. Para mais informações sobre como instalar a estação de hardware, consulte [Instalação de configuração da estação de hardware de varejo](retail-hardware-station-configuration-installation.md).
@@ -524,12 +523,12 @@ Essa configuração pode ser usada para todos os clientes de PDV moderno que com
     -   **Nome do host** – O nome do computador host onde a estação de hardware será executada.
     -   **Descrição** – Texto que ajudará a identificar a estação de hardware, como **Devoluções** ou **Vitrine da loja**.
     -   **Porta** – A porta a ser usada para a estação de hardware se comunicar com o cliente de PDV moderno.
-    -   **Perfil de hardware** – Para as estações de hardware compartilhadas, cada estação de hardware deve ter um perfil de hardware. Os perfis de hardware podem ser compartilhados entre as estações de hardware, mas devem ser mapeados em cada estação de hardware. Além disso, recomendamos que você use turnos compartilhados quando vários dispositivos usarem a mesma estação de hardware compartilhada. Para configurar um turno compartilhado, clique em **Varejo e comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**. Para cada perfil de hardware compartilhado, selecione a caixa registradora, e defina a opção **Gaveta de turno compartilhado** para **Sim**.
+    -   **Perfil de hardware** – Para as estações de hardware compartilhadas, cada estação de hardware deve ter um perfil de hardware. Os perfis de hardware podem ser compartilhados entre as estações de hardware, mas devem ser mapeados em cada estação de hardware. Além disso, recomendamos que você use turnos compartilhados quando vários dispositivos usarem a mesma estação de hardware compartilhada. Para configurar um turno compartilhado, clique em **Varejo** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**. Para cada perfil de hardware compartilhado, selecione a caixa registradora, e defina a opção **Gaveta de turno compartilhado** para **Sim**.
     -   **Número de PDV da TEF** – A ID do terminal de TEF a ser usado quando autorizações de TEF forem enviadas. Essa ID é fornecida pelo processador de cartão de crédito.
     -   **Nome do pacote** – O pacote de estação de hardware a ser usado quando a estação de hardware é implantada.
 
 4.  Repita as etapas 2 e 3 para cada estação de hardware adicional necessária na loja.
-5.  Clique em **Varejo e comércio** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
+5.  Clique em **Varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
 6.  Selecione a agenda de distribuição **1090** para sincronizar o novo perfil de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
 7.  Selecione a agenda de distribuição **1040** para sincronizar a nova estação de hardware com a loja. Clique em **Executar agora** para sincronizar as alterações do PDV.
 8.  Instale a estação de hardware em cada computador host que é configurado nas etapas 2 e 3. Para mais informações sobre como instalar a estação de hardware, consulte [Instalação de configuração da estação de hardware de varejo](retail-hardware-station-configuration-installation.md).
@@ -542,7 +541,7 @@ Essa configuração pode ser usada para todos os clientes de PDV moderno que com
 14. Selecione a estação de hardware a ser usada e, em seguida, clique em **Emparelhar**.
 15. Repita a etapa 14 para cada estação de hardware que o PDV moderno usará.
 16. Após todas as estações de hardware necessárias serem emparelhadas, clique em **Fechar**.
-17. Na página de seleção da estação de hardware, clique na estação de hardware selecionada recentemente para ativá-la. **Observação:** Se dispositivos usarem frequentemente diferentes estações de hardware, recomendamos configurar o PDV moderno para solicitar aos caixas que selecionem uma estação de hardware quando começarem o processo de proposta. Clique em **Varejo e comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Registradoras**. Selecione a registradora e, em seguida, defina a opção **Selecionar após proposta** para **Sim**. Use a agenda de distribuição **1090** para sincronizar alterações no banco de dados do canal.
+17. Na página de seleção da estação de hardware, clique na estação de hardware selecionada recentemente para ativá-la. **Observação:** Se dispositivos usarem frequentemente diferentes estações de hardware, recomendamos configurar o PDV moderno para solicitar aos caixas que selecionem uma estação de hardware quando começarem o processo de proposta. Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Registros**. Selecione a registradora e, em seguida, defina a opção **Selecionar após proposta** para **Sim**. Use a agenda de distribuição **1090** para sincronizar alterações no banco de dados do canal.
 
 ## <a name="extensibility"></a>Extensibilidade
 Para obter informações sobre cenários de extensibilidade da estação de hardware, consulte [Extensibilidade da estação de hardware](dev-itpro/hardware-station-extensibility.md).
@@ -575,7 +574,7 @@ De acordo com os padrões de segurança atuais, as seguintes configurações dev
 **Observação:** É muito importante que você examine as diretrizes de segurança para os requisitos de IIS e PCI (Payment Card Industry).
 
 ## <a name="peripheral-simulator"></a>Simulador periférico
-Para obter informações, consulte [Simulador de periféricos de varejo](retail-peripheral-simulator.md).
+Para obter informações, consulte [Simulador de periféricos de varejo](dev-itpro/retail-peripheral-simulator.md).
 
 ## <a name="microsofttested-peripheral-devices"></a>Dispositivos periféricos testados pela Microsoft
 ### <a name="ipc-built-in-hardware-station"></a>Estação de hardware IPC (integrada)
@@ -806,7 +805,7 @@ Os periféricos a seguir foram estados usando uma estação de hardware IIS comp
 <a name="see-also"></a>Consulte também
 --------
 
-[Simulador dos periféricos de varejo](retail-peripheral-simulator.md)
+[Simulador dos periféricos de varejo](dev-itpro/retail-peripheral-simulator.md)
 
 
 

@@ -1,15 +1,15 @@
 ---
 title: "Use pesquisas para encontrar informações"
-description: "No Microsoft Dynamics 365 para Operações, vários campos possuem pesquisas que podem ajudá-lo a encontrar facilmente o valor correto ou desejado. Vários aprimoramentos foram adicionados às pesquisas tornando esses controles mais úteis e os usuários mais produtivos. Neste tópico, você aprenderá sobre esses novos recursos das pesquisas e receberá algumas dicas úteis para fazer o melhor uso possível delas no sistema."
+description: "No Microsoft Dynamics 365 for Finance and Operations, vários campos possuem pesquisas que podem ajudá-lo a encontrar facilmente o valor correto ou desejado. Vários aprimoramentos foram adicionados às pesquisas tornando esses controles mais úteis e os usuários mais produtivos. Neste tópico, você aprenderá sobre esses novos recursos das pesquisas e receberá algumas dicas úteis para fazer o melhor uso possível delas no sistema."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269934
 ms.assetid: f20cbd2c-14e0-47e7-b351-8e60d3537f96
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 652fbdb7a96c516ca1fc17357683d94b85cd93f3
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a5d0a9edd2cb5747fc799c6fdca45dd9ba5720f7
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,12 +30,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-No Microsoft Dynamics 365 para Operações, vários campos possuem pesquisas que podem ajudá-lo a encontrar facilmente o valor correto ou desejado. Vários aprimoramentos foram adicionados às pesquisas tornando esses controles mais úteis e os usuários mais produtivos. Neste tópico, você aprenderá sobre esses novos recursos das pesquisas e receberá algumas dicas úteis para fazer o melhor uso possível delas no sistema.  
+No Microsoft Dynamics 365 for Finance and Operations, vários campos possuem pesquisas que podem ajudá-lo a encontrar facilmente o valor correto ou desejado. Vários aprimoramentos foram adicionados às pesquisas tornando esses controles mais úteis e os usuários mais produtivos. Neste tópico, você aprenderá sobre esses novos recursos das pesquisas e receberá algumas dicas úteis para fazer o melhor uso possível delas no sistema.  
 
 <a name="responsive-lookups"></a>Pesquisas adequadas
 ------------------
 
-Em versões anteriores do Dynamics 365 para Operações, ao interagir com um controle da pesquisa, um usuário precisava realizar uma ação explícita para abrir o menu suspenso. Isso poderia ser digitando um asterisco (\*) no controle para filtrar a pesquisa com base no valor atual do controle, clicando no botão suspenso ou utilizando o atalho **Alt**+**Seta para baixo**. Os controles da pesquisa foram modificados das seguintes maneiras para melhor se alinhar às práticas atuais da web:
+Em versões anteriores do Dynamics 365 for Finance and Operations, ao interagir com um controle da pesquisa, um usuário precisava realizar uma ação explícita para abrir o menu suspenso. Isso poderia ser digitando um asterisco (\*) no controle para filtrar a pesquisa com base no valor atual do controle, clicando no botão suspenso ou utilizando o atalho **Alt**+**Seta para baixo**. Os controles da pesquisa foram modificados das seguintes maneiras para melhor se alinhar às práticas atuais da web:
 
 -   Os menus suspensos da pesquisa agora abrirão automaticamente após uma breve pausa na digitação, com o conteúdo do menu suspenso filtrado com base no valor do controle da pesquisa.
     -   Observe que o comportamento antigo de abertura automática do menu suspenso após digitar um asterisco (\*) foi substituído.
@@ -58,7 +58,7 @@ Ainda que o foco continue no controle da pesquisa, você também pode utilizar a
 ![changingSelectionLookup](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>Digitando mais que IDs
-Ao inserir dados, é natural que os usuários tentem identificar uma entidade, como um cliente ou fornecedor, em termos do nome em vez de um identificador que represente a entidade. Na versão atual do Dynamics 365 para Operações, muitas (mas não todas) pesquisas permitem a entrada de dados contextuais. Este recurso poderoso permite que o usuário digite o ID ou o nome correspondente no controle da pesquisa. 
+Ao inserir dados, é natural que os usuários tentem identificar uma entidade, como um cliente ou fornecedor, em termos do nome em vez de um identificador que represente a entidade. Na versão atual do Dynamics 365 for Finance and Operations, muitas (mas não todas) pesquisas permitem a entrada de dados contextuais. Este recurso poderoso permite que o usuário digite o ID ou o nome correspondente no controle da pesquisa. 
 
 Por exemplo, considere o campo **Conta do cliente** ao criar uma ordem de venda. Esse campo mostra o **ID da conta** do cliente, mas um usuário iria tipicamente preferir inserir um **Nome da conta** em vez do **ID da conta** para esse campo ao criar uma ordem de venda, como "Forest Wholesales" em vez de "US-003."
 

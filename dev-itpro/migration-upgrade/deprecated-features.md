@@ -1,9 +1,9 @@
 ---
 title: Recursos preteridos
-description: "Este tópico descreve os recursos que já foram removidos, ou seja planejada para a remoção, do 365 para as operações. Também lista os recursos que são substituídos em versões do Dynamics AX 7.0."
+description: "Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção."
 author: sericks007
 manager: AnnBe
-ms.date: 04/18/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 46a6f054f1cc5162e19d962964eb6eeb780087a6
+ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
+ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/16/2017
 
 
 ---
@@ -29,8 +29,40 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção.
 
-Este tópico descreve os recursos que já foram removidos, ou seja planejada para a remoção, do 365 para as operações. Também lista os recursos que são substituídos em versões do Dynamics AX 7.0.
+## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Recursos que foram substituídos no Dynamics 365 for Finance and Operations, Enterprise edition com atualização de julho de 2017
+
+### <a name="warehouse-mobile-devices-portal"></a>Portal de dispositivos móveis do depósito
+
+O portal de dispositivos móveis de depósito (WMDP) é um componente autônomo que foi criado para auto-implantação local. Este componente não é mais suportado no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Um aplicativo nativo que melhora a experiência do usuário substituiu a funcionalidade do WMDP. 
+
+|                                  |                                                 |
+|----------------------------------|-------------------------------------------------|
+| **Motivo para a depreciação**       | Funcionalidade duplicada.                        |
+| **Substituída por outro recurso?** | Sim. Este recurso foi substituído pelo Finance and Operations - Warehousing. Para obter informações sobre a instalação e pré-requisitos, consulte [Instalar e configurar o Microsoft Dynamics 365 for Finance and Operations - Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app). |
+| **Módulos afetados**             | Gerenciamento de depósito, Gerenciamento de transporte |
+
+### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>Regra avançada de correspondência de reconciliação bancária para correspondência manual
+
+Uma regra de correspondência foi usada para selecionar e marcar um documento bancário quando os documentos foram correspondidos manualmente na planilha de reconciliação.
+
+|                                  |                                                                                        |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| **Motivo para a depreciação**       | Uso restrito.                                                                         |
+| **Substituída por outro recurso?** | Não. Os recursos de filtragem da coluna devem ser usados para localizar documentos para a reconciliação. |
+| **Módulos afetados**             | Gerenciamento de caixa e bancos                                                               |
+
+### <a name="windows-8-tablet-app"></a>Aplicativo para tablet com Windows 8
+
+O aplicativo para tablet com Windows 8 fornece a funcionalidade da entrada e a aprovação de despesas.
+
+|                                  |                                                                                          |
+|----------------------------------|------------------------------------------------------------------------------------------|
+| **Motivo para a depreciação**       | O Finance and Operations é compatível com tablets. O aplicativo para tablet não é mais necessário. |
+| **Substituída por outro recurso?** | Não.                                                                                      |
+| **Módulos afetados**             | Gerenciamento de despesas                                                                       |
+
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>Recursos que são substituídos no Dynamics 365 for Operations com 1611 com atualização 3 de plataforma
 ---------------------------------------------------------------------------------------------
@@ -301,7 +333,7 @@ Um fluxo de trabalho para gerenciar a criação das metas de funcionários for u
 
 |                              |                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Motivo para a depreciação       | Gerenciamento de desempenho é remodelado exaustivamente em Microsoft Dynamics 365 para as operações.                                                                                                                                                                                                                                        |
+| Motivo para a depreciação       | O gerenciamento de desempenho foi reprojetado completamente no Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                        |
 | Substituída por outro recurso? | O recurso remodelado de gerenciamento de desempenho é mais controle sobre o conteúdo de meta, medições usados para controlar o progresso e, de anexos de documentos de suporte. As metas podem ser armazenadas como modelos e então ser reutilizados. Esse recurso pode ajudá-lo meta adicionais para os funcionários configurados mais rapidamente. |
 | Módulos afetados             | Gerenciamento de capital humano                                                                                                                                                                                                                                                                                                               |
 
@@ -484,7 +516,7 @@ No Dynamics AX 2012 R3, o Retail Modern POS pode conectar-se diretamente ao BD d
 
 |                              |                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------|
-| Motivo para a depreciação       | A conectividade direta do base de dados exigiu protocolos de segurança inferior e foi usada principalmente para atingir os níveis mais altos de desempenho. Devido aos aprimoramentos de desempenho e segurança que ocorreram no Dynamics 365 for Operations, essa funcionalidade causa agora mais problemas do que resolve. |
+| Motivo para a depreciação       | A conectividade direta do base de dados exigiu protocolos de segurança inferior e foi usada principalmente para atingir os níveis mais altos de desempenho. Devido aos aprimoramentos de desempenho e segurança que ocorreram no Finance and Operations, essa funcionalidade agora causa mais problemas do que resolve. |
 | Substituída por outro recurso? | Não. Apenas a comunicação padrão do Retail Server é suportada agora.    |
 | Módulos afetados             | BD de Canal/Retail Modern POS                                    |
 
@@ -808,9 +840,5 @@ Informações da Folha de Pagamento em Recursos Humanos
 | Motivo para a depreciação       | Esta funcionalidade foi substituída por outro recurso.                                    |
 | Substituída por outro recurso? | Management Reporter (rotulado **Relatório financeiro** na versão atual do Dynamics AX) |
 | Módulos afetados             | Contabilidade                                                                              |
-
-
-
-
 
 

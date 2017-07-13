@@ -3,14 +3,14 @@ title: "Visão geral do planejamento de orçamento"
 description: "Este artigo apresenta planejamento de orçamento e contém informações para ajudar a configurar o planejamento de orçamento e a definir os processos de planejamento de orçamento."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5212c8401f26f30cf593c52eb88291463b9b8810
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -38,7 +38,7 @@ Este artigo apresenta planejamento de orçamento e contém informações para aj
 
 Você realizará o planejamento do orçamento ao preparar os orçamentos que serão implementados por uma organização. Uma organização pode configurar o planejamento de orçamento e, em seguida, definir os processos de planejamento de orçamento para atender às políticas, procedimentos e aos requisitos para preparação do orçamento. 
 
-Quando você compreende os conceitos e a terminologia usados no Microsoft Dynamics 365 for Operations, será mais fácil implementar o plano de orçamento na sua organização.
+Quando você compreende os conceitos e a terminologia usados no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, será mais fácil implementar o plano de orçamento na sua organização.
 
 ### <a name="key-terms"></a>Condições principais
 
@@ -59,7 +59,7 @@ Você pode usar o planejamento de orçamento para realizar estas tarefas:
 -   Em seguida, Encaminhe os planos do orçamento, com planilhas, documentos de justificativa e outros anexos, para revisão e aprovação.
 -   Consolidar vários planos de orçamento de um nível mais baixo da organização em um único plano de orçamento pai em um nível mais alto da organização. Também é possível desenvolver um único plano de orçamento em um nível mais alto da organização e alocar o orçamento para os níveis mais baixos da organização.
 
-O planejamento de orçamento é integrado a outros módulos do Microsoft Dynamics 365 for Operations. Consequentemente, você poderá exibir as informações de orçamento anteriores, despesa atuais, ativos fixos e recursos humanos. Como o plano do orçamento também é integrado ao Microsoft Excel e ao Microsoft Word, é possível usar esses programas para trabalhar com os dados do planejamento do orçamento. Por exemplo, um gerente de orçamento pode importar a solicitação de orçamento de um cenário do plano de orçamento na planilha do Excel. Os dados podem ser analisados, atualizados e representados em gráfico na planilha e, em seguida, publicados de volta nas linhas do plano de orçamento.
+O planejamento de orçamento é integrado a outros módulos do Microsoft Dynamics 365 for Finance and Operations. Consequentemente, você poderá exibir as informações de orçamento anteriores, despesa atuais, ativos fixos e recursos humanos. Como o plano do orçamento também é integrado ao Microsoft Excel e ao Microsoft Word, é possível usar esses programas para trabalhar com os dados do planejamento do orçamento. Por exemplo, um gerente de orçamento pode importar a solicitação de orçamento de um cenário do plano de orçamento na planilha do Excel. Os dados podem ser analisados, atualizados e representados em gráfico na planilha e, em seguida, publicados de volta nas linhas do plano de orçamento.
 
 ## <a name="configuring-budget-planning"></a>Configurando o planejamento de orçamento
 A página **Configuração do planejamento do orçamento** contém a maioria das configurações exigidas para configurar um plano de orçamento. As seções a seguir descrevem alguns fatores que devem ser considerados ao configurar o planejamento do orçamento. Depois de concluir a configuração, configure os processos do plano do orçamento.
@@ -78,7 +78,7 @@ No seguinte exemplo, a matriz corporativa estima os valores da linha de base do 
 
 Na página **Hierarquia da organização**, você pode designar uma hierarquia organizacional como uma hierarquia de planejamento de orçamento para cada processo de planejamento de orçamento. A hierarquia de planejamento de orçamento não precisa corresponder a hierarquia organizacional padrão que é usada para outras finalidades. Como essa hierarquia é usada para agregar e distribuir dados, pode ser necessário ter uma estrutura diferente. No esquema do exemplo, os departamentos de vendas estão no nível da matriz que inclui os departamentos do orçamento e de finanças. Provavelmente, esta estrutura difere da estrutura usada para gerenciar operações dos departamentos de vendas. Somente uma hierarquia da organização pode ser atribuída a cada processo do plano do orçamento. 
 
-Para obter mais informações, consulte [Organizações e hierarquias organizacionais](/dynamics365/operations/organization-administration/organizations-organizational-hierarchies).
+Para obter mais informações, consulte [Organizações e hierarquias organizacionais](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies).
 
 ### <a name="user-security"></a>Segurança do usuário
 
@@ -88,13 +88,13 @@ O plano do orçamento pode seguir um dos dois modelos para definir permissões d
 
 Os fluxos de trabalho do plano de orçamento são usados com fluxos de trabalho de orçamento para gerenciar a criação e a evolução dos planos de orçamento.
 
-Um fluxo de trabalho do planejamento de orçamento consiste em um conjunto de estágios ordenados pelos quais um plano de orçamento se move. Cada fluxo de trabalho do plano do orçamento está associado ao fluxo de trabalho do orçamento. Os fluxos de trabalho de orçamento são um dos tipos do fluxo de trabalho que são usados em todo o Microsoft Dynamics 365 for Operations. O fluxo de trabalho do orçamento encaminha os planos de orçamento, com planilhas, justificações e anexos, por meio da sua organização para revisão e aprovação. 
+Um fluxo de trabalho do planejamento de orçamento consiste em um conjunto de estágios ordenados pelos quais um plano de orçamento se move. Cada fluxo de trabalho do plano do orçamento está associado ao fluxo de trabalho do orçamento. Os fluxos de trabalho de orçamento são um dos tipos do fluxo de trabalho que são usados em todo o Finance and Operations. O fluxo de trabalho do orçamento encaminha os planos de orçamento, com planilhas, justificações e anexos, por meio da sua organização para revisão e aprovação. 
 
 Você cria o fluxo de trabalho do planejamento na seção **Estágios do fluxo de trabalho** da página **Configuração do plano de orçamento**. Nele, é possível selecionar os estágios e o fluxo de trabalho do orçamento que será usado e definir configurações adicionais. 
 
 Uma boa prática é criar um fluxo de trabalho do planejamento de orçamento para cada nível da hierarquia do orçamento. Em seguida, atribua um fluxo de trabalho do orçamento que contém os elementos que correspondem aos estágios no fluxo de trabalho do orçamento. No esquema do exemplo que aparece neste artigo, um fluxo de trabalho do planejamento de orçamento será criado para os departamentos de venda e outro deve ser criado para a matriz. Um fluxo de trabalho de orçamento move os planos de orçamento pelos estágios. 
 
-Você cria o fluxo de trabalho do orçamento para o plano na página **Fluxos de trabalho do orçamento**. O processo se parece com o processo para criar outros fluxos de trabalho no Microsoft Dynamics 365 for Operations. A ilustração a seguir mostra um exemplo de um fluxo de trabalho da matriz. 
+Você cria o fluxo de trabalho do orçamento para o plano na página **Fluxos de trabalho do orçamento**. O processo se parece com o processo para criar outros fluxos de trabalho no Finance and Operations. A ilustração a seguir mostra um exemplo de um fluxo de trabalho da matriz. 
 
 [![Fluxo de trabalho do orçamento para o plano do orçamento](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 

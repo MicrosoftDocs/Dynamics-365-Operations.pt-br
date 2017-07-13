@@ -3,14 +3,14 @@ title: Mesclar lotes de estoque
 description: "Este artigo fornece informações sobre como consolidar dois ou mais lotes de estoque em um lote mesclado."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e97257955f4f8fa86c8bf957a182aa71d4fbc8ef
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: aec97976ef6a2b4c66118289f7f76b14351456f8
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -91,7 +91,7 @@ Não, você só poderá mesclar os lotes com as mesmas dimensões de estoque do 
 Não, você só pode mesclar a quantidade total de lotes. A funcionalidade de mesclagem de lotes foi concebida como um recurso de estoque, não como um recurso de produção.
 
 ## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>E se os lotes possuírem valores de atributo de lote diferentes?
-Quando você selecionar os lotes de origem para combinar no lote mesclado, o Microsoft Dynamics 365 for Operations verificará se todos os lotes têm as características ou valores de atributo. Quando um valor de atributo é o mesmo, um valor será sugerido para o lote mesclado. É possível alterar esse valor. Os valores de atributo que não são iguais são deixados em branco para o lote mesclado, e você pode inserir estes valores manualmente. Se o tipo de atributo de lote do valor do atributo for um número inteiro ou uma fração, e os valores forem diferentes para todos os lotes de origem, o valor será calculado usando o cálculo de média ponderada. O valor calculado é arredondado para cima ou para baixo até o incremento mais próximo. Se o valor estiver em branco para um lote de origem, o lote e sua quantidade não serão incluídos no cálculo. **Exemplo** O exemplo a seguir mostra um cálculo de média ponderada para um lote mesclado. Dois dos lotes de origem tem um valor em branco para um tipo de atributo de lote que é um número inteiro. O seguinte atributo é atribuído aos lotes de origem.
+Quando você selecionar os lotes de origem para combinar no lote mesclado, o Finance and Operations verificará se todos os lotes têm as características ou valores de atributo. Quando um valor de atributo é o mesmo, um valor será sugerido para o lote mesclado. É possível alterar esse valor. Os valores de atributo que não são iguais são deixados em branco para o lote mesclado, e você pode inserir estes valores manualmente. Se o tipo de atributo de lote do valor do atributo for um número inteiro ou uma fração, e os valores forem diferentes para todos os lotes de origem, o valor será calculado usando o cálculo de média ponderada. O valor calculado é arredondado para cima ou para baixo até o incremento mais próximo. Se o valor estiver em branco para um lote de origem, o lote e sua quantidade não serão incluídos no cálculo. **Exemplo** O exemplo a seguir mostra um cálculo de média ponderada para um lote mesclado. Dois dos lotes de origem tem um valor em branco para um tipo de atributo de lote que é um número inteiro. O seguinte atributo é atribuído aos lotes de origem.
 
 | Atributo | Mínimo | Incremento | Máximo |
 |-----------|---------|-----------|---------|

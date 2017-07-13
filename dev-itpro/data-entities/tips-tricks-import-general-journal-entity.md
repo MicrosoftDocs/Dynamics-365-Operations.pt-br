@@ -3,13 +3,13 @@ title: "Práticas recomendadas para importar vouchers usando a entidade do diár
 description: "Este tópico fornece dicas para importar dados para o diário geral usando Entidade de diário geral."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94363
 ms.assetid: 0b8149b5-32c5-4518-9ebd-09c9fd7f4cfc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a1740f322972b1c37f23a0422fdcb4435253710
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b9a5c03584635908067bb7b623deba76f4ba3e18
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,14 +53,14 @@ As seções a seguir descrevem o efeito dessas configurações e também explica
 -   A configuração **processamento baseado em conjunto** na entidade diário geral não afeta a maneira que os números de lote do diário são gerados.
 -   Se o campo **Número de lote do diário** é definido como **Gerado automaticamente**, um novo número de lote do diário é criado para cada linha que é importada. Este comportamento não é recomendado. A configuração **Gerado automaticamente** é encontrada no projeto de importação, em **Exibir mapa** diante da guia **Detalhes de mapeamento**.
 -   Se o campo **Número de lote do diário** não é definido como **Gerado automaticamente**, o número de lote do diário é criado como segue:
-    -   Se o número de lote do diário que é definido no arquivo importado corresponder a um diário diário existente, não lançado no Microsoft Dynamics 365 for Operations, todas as linhas que possuem um número de lote do diário correspondentes são importadas para o diário existente. As linhas nunca são importadas em um número de lote de jornal lançado. Em vez disso, um novo número é criado.
-    -   Se o número de lote do diário que é definido no arquivo importado não corresponder a um diário diário existente, não lançado no Dynamics 365 for Operations, todas as linhas que possuem um número de lote do diário correspondentes são importadas para um novo diário existente. Por exemplo, todas as linhas que possuem um número de lote do diário 1 são importadas para um novo diário, e todas as linhas que possuem um número de lote do diário 2 são importadas para um novo diário de segundo. O número de lote do diário é criado usando a sequência numérica que é definida nos parâmetros da contabilidade.
+    -   Se o número de lote do diário que é definido no arquivo importado corresponder a um diário diário existente não lançado, todas as linhas que possuem um número de lote do diário correspondentes são importadas para o diário existente. As linhas nunca são importadas em um número de lote de jornal lançado. Em vez disso, um novo número é criado.
+    -   Se o número de lote do diário que é definido no arquivo importado não corresponder a um diário diário existente não lançado, todas as linhas que possuem um número de lote do diário correspondentes são importadas para um novo diário existente. Por exemplo, todas as linhas que possuem um número de lote do diário 1 são importadas para um novo diário, e todas as linhas que possuem um número de lote do diário 2 são importadas para um novo diário de segundo. O número de lote do diário é criado usando a sequência numérica que é definida nos parâmetros da contabilidade.
 
 ### <a name="voucher-number"></a>Número do comprovante
 
--   Quando você usa a configuração **Processamento baseado em conjunto** na entidade Diário geral, o número do comprovante deve ser fornecido no arquivo importado. Todas as transações no diário geral são atribuída ao número do comprovante que é fornecido no arquivo importado, mesmo se o comprovante não for balanceado. Se você deseja usar o processamento baseado em conjunto, mas você também deseja usar a sequência numérica que é definida para números de comprovante no Dynamics 365 for Operations, um hotfix foi fornecido para a versão de fevereiro de 2016. O número do hotfix é 3170316 e está disponível para download a partir do ciclo de vida dos serviços (LCS). Para obter mais informações, consulte [Baixar hotfixes dos serviços de ciclo de vida](..\migration-upgrade\download-hotfix-lcs.md).
-    -   Para habilitar essa funcionalidade, no nome do diário usado para importações no Dynamics 365 for Operations, defina **Alocação de número no lançamento** para **Sim**.
-    -   Um número de comprovante ainda deve ser definido no arquivo importado. No entanto, esse número é temporário e é substituído pelo número do comprovante do Dynamics 365 for Operations quando o diário é lançado. Você deve certificar-se de que as linhas do diário são agrupadas corretamente por número de comprovante temporário. Por exemplo, durante a postagem, é constatado que três linhas possuem um voucher temporário. O número de voucher temporário de todas as três linhas é substituído pelo número seguinte na sequência de números. Se essas três linhas não são uma entrada equilibrada, o comprovante não foi publicado. Em seguida, se linhas forem encontradas que possuem um número de comprovante temporário 2, esse número será substituído pelo próximo número de comprovante na sequência numérica e assim por diante.
+-   Quando você usa a configuração **Processamento baseado em conjunto** na entidade Diário geral, o número do comprovante deve ser fornecido no arquivo importado. Todas as transações no diário geral são atribuída ao número do comprovante que é fornecido no arquivo importado, mesmo se o comprovante não for balanceado. Se você deseja usar o processamento baseado em conjunto, mas você também deseja usar a sequência numérica que é definida para números de comprovante, um hotfix foi fornecido para a versão de fevereiro de 2016. O número do hotfix é 3170316 e está disponível para download a partir do Lifecycle Services (LCS). Para obter mais informações, consulte [Baixar hotfixes do Lifecycle Services](..\migration-upgrade\download-hotfix-lcs.md).
+    -   Para habilitar essa funcionalidade, no nome do diário usado para importações, defina **Alocação de número no lançamento** para **Sim**.
+    -   Um número de comprovante ainda deve ser definido no arquivo importado. No entanto, esse número é temporário e é substituído pelo número do comprovante quando o diário é lançado. Você deve certificar-se de que as linhas do diário são agrupadas corretamente por número de comprovante temporário. Por exemplo, durante a postagem, é constatado que três linhas possuem um voucher temporário. O número de voucher temporário de todas as três linhas é substituído pelo número seguinte na sequência de números. Se essas três linhas não são uma entrada equilibrada, o comprovante não foi publicado. Em seguida, se linhas forem encontradas que possuem um número de comprovante temporário 2, esse número será substituído pelo próximo número de comprovante na sequência numérica e assim por diante.
 
 <!-- -->
 

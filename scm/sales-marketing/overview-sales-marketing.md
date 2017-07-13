@@ -3,13 +3,13 @@ title: Vendas e marketing
 description: "Você pode usar Vendas e marketing para obter, armazenar e usar vários tipos de dados no fluxo de vendas. Esses dados incluem a iniciativa de venda original, a ação de acompanhamento futuro e as vendas adicionais."
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 92303
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 25ea6e64453b22d664dd65a1f1bb18e3a1997bc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: dddcc764bb11540b8207350c463d1adb2533e1c0
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -43,7 +43,7 @@ Em vendas e marketing, as interações iniciais com clientes potenciais podem oc
 
 ### <a name="campaigns"></a>Campanhas
 
-Uma campanha tem como alvo os contatos de clientes potenciais, clientes potenciais, oportunidades e clientes que foram selecionados para participar da campanha. No Microsoft Dynamics 365 for Operations, você pode criar vários tipos de campanhas, como telemarketing, endereçamento e campanhas de e-mail, para maximizar seu cliente potencial. Como sua campanha progride e você recebe respostas positivas, você pode começar o processo de vendas com os destinatários que responderam positivamente a campanha.
+Uma campanha tem como alvo os contatos de clientes potenciais, clientes potenciais, oportunidades e clientes que foram selecionados para participar da campanha. No Microsoft Dynamics 365 for Finance and Operations, você pode criar vários tipos de campanhas, como telemarketing, endereçamento e campanhas de e-mail, para maximizar seu cliente potencial. Como sua campanha progride e você recebe respostas positivas, você pode começar o processo de vendas com os destinatários que responderam positivamente a campanha.
 
 ## <a name="sales"></a>Venda
 Você pode usar a funcionalidade de venda para criar cotações de venda e vendas cruzadas para clientes novos e existentes, criar ordens de venda e criar notas fiscais de venda para clientes. O fluxo de processo a seguir ilustra o processo comercial de vendas. [![Processo empresarial para vendas](./media/sales01.jpg)](./media/sales01.jpg)

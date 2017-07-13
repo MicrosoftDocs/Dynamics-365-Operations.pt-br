@@ -1,16 +1,16 @@
 ---
 title: "Previsão de posição"
-description: 
+description: "As despesas relacionadas a trabalhadores costumam constituir uma grande proporção dos custos de uma organização. A previsão de posição permite planejar as despesas e incluí-las no planejamento de orçamentos."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 03645693c5101c48ef9d35bdbe14debef1e69fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,7 +29,6 @@ ms.lasthandoff: 05/25/2017
 # <a name="position-forecasting"></a>Previsão de posição
 
 [!include[banner](../includes/banner.md)]
-
 
 
 
@@ -97,7 +96,7 @@ O elemento de custo de ganho selecionado no grupo de remuneração é usado quan
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Como criar previsões de posições para posições existentes
 
-Para obter o planejamento de orçamento mais preciso, você pode criar previsões de posições usando detalhes das posições existentes no Microsoft Dynamics 365 for Operations, esteja a posição preenchida ou não no momento. 
+Para obter o planejamento de orçamento mais preciso, você pode criar previsões de posições usando detalhes das posições existentes no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, esteja a posição preenchida ou não no momento. 
 
 A função **Adicionar posições existentes** exibe todas as posições para uma organização. Ao definir a data **A partir de**, você pode mudar a lista de posições para que ela contenha as posições que existiam em uma data anterior ou posterior, que é mais comum (por exemplo, o início do próximo ciclo orçamentário). Selecione um cenário de processamento de planejamento e de plano do orçamento, selecione posições na lista e clique em **OK** para criar previsões de posições para as posições selecionadas. Observe que você pode criar apenas uma previsão de posição para cada posição existente em cenário de processamento de planejamento de orçamento. No entanto, você pode criar versões adicionais, atribuindo cenários diferentes do plano de orçamento. 
 

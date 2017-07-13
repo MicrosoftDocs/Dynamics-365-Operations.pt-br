@@ -1,15 +1,15 @@
 ---
 title: "Comprovante único com vários registros de cliente ou de fornecedor"
-description: "Este tópico fornece uma visão geral do que acontece quando você lança um único comprovante com vários registros de cliente ou de fornecedor. Esta funcionalidade será descontinuada em versões futuras do Microsoft Dynamics 365 for Operations, consequentemente, não recomendamos usar este método de lançamento devido ao impacto da contabilidade no processamento da liquidação."
+description: "Este tópico fornece uma visão geral do que acontece quando você lança um único comprovante com vários registros de cliente ou de fornecedor. Esta funcionalidade será descontinuada em versões futuras do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, consequentemente, não recomendamos usar este método de lançamento devido ao impacto da contabilidade no processamento da liquidação."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b1038ea950141f0e7d4678cac9edd3b0bd5beb6f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 31040ff14b99a9b351268feb88698ac706befb55
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico fornece uma visão geral do que acontece quando você lança um único comprovante com vários registros de cliente ou de fornecedor. Esta funcionalidade será descontinuada em versões futuras do Microsoft Dynamics 365 for Operations, consequentemente, não recomendamos usar este método de lançamento devido ao impacto da contabilidade no processamento da liquidação. 
+Este tópico fornece uma visão geral do que acontece quando você lança um único comprovante com vários registros de cliente ou de fornecedor. Esta funcionalidade será descontinuada em versões futuras do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, consequentemente, não recomendamos usar este método de lançamento devido ao impacto da contabilidade no processamento da liquidação. 
 
 Alguns exemplos comuns em que um comprovante é usado para vários clientes ou fornecedores incluem a transferência de saldo entre clientes e a remuneração de saldos entre clientes e fornecedores na mesma organização. 
 
@@ -162,7 +162,7 @@ Agora, quando INV2 for pago, a entrada a seguir será feita. Observe que as dime
 | 14000056    | 200110-001- | Saldo de fornecedor     |                                          | -2,00                                   |
 
 ## <a name="one-voucher-for-balance-transfers-and-netting-scenarios"></a>Um comprovante para transferências de saldo e cenários de remuneração
-Dois cenários de uso comum que utilizam um comprovante que contenha vários clientes ou fornecedores incluem transferências de um cliente/fornecedor a outro cliente/fornecedor e a remuneração de um cliente e um fornecedor que sejam a mesma organização. Os dois exemplos a seguir ilustram o método preferido para inserir esses cenários no Dynamics 365 for Operations como uma alternativa a inseri-los em um comprovante. 
+Dois cenários de uso comum que utilizam um comprovante que contenha vários clientes ou fornecedores incluem transferências de um cliente/fornecedor a outro cliente/fornecedor e a remuneração de um cliente e um fornecedor que sejam a mesma organização. Os dois exemplos a seguir ilustram o método preferido para inserir esses cenários no Finanças e Operações como uma alternativa a inseri-los em um comprovante. 
 
 Uma *transferência de saldo* é um comprovante com vários clientes, inserido com a finalidade de transferir o saldo de um cliente para outro (o mesmo para fornecedores). Este cenário pode ocorrer quando a responsabilidade de pagar a fatura muda para outra parte, como uma empresa filial mudando a responsabilidade para a matriz. 
 
@@ -176,7 +176,7 @@ Para ilustrar, suponha que a venda a seguir foi feita ao cliente ACME. As entrad
 | 401100-002-023-    | Receita          |           | 100        |
 | 130100-002-        | Saldo do cliente | 100       |            |
 
-Em seguida, o usuário transfere o saldo devido da ACME para a seguradora, em um comprovante no diário de pagamentos de contas a receber. No Dynamics 365 for Operations, a seguradora será configurada como o cliente Seguradora.
+Em seguida, o usuário transfere o saldo devido da ACME para a seguradora, em um comprovante no diário de pagamentos de contas a receber. No Finanças e Operações, a seguradora será configurada como o cliente Seguradora.
 
 |             |                  |             |                 |           |            |                 |                    |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|

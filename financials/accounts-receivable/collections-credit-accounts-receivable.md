@@ -1,9 +1,9 @@
 ---
 title: "Crédito e cobranças em Contas a receber"
-description: "A informações de cobranças de contas a receber são gerenciadas em uma exibição central por meio da página Cobranças do Microsoft Dynamics 365 for Operations. Os gerentes de crédito e cobranças podem usar essa visão central para gerenciar cobranças. Os agentes de cobranças podem iniciar o processo de cobranças a partir das listas de clientes que são geradas usando critérios de cobrança predefinidos ou da página Clientes."
+description: "A informações de cobranças de contas a receber são gerenciadas em uma exibição central por meio da página Cobranças do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Os gerentes de crédito e cobranças podem usar essa visão central para gerenciar cobranças. Os agentes de cobranças podem iniciar o processo de cobranças a partir das listas de clientes que são geradas usando critérios de cobrança predefinidos ou da página Clientes."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74f671a35fa1dbeeb120fe968b1bcc09868f57d5
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-A informações de cobranças de contas a receber são gerenciadas em uma exibição central por meio da página Cobranças do Microsoft Dynamics 365 for Operations. Os gerentes de crédito e cobranças podem usar essa visão central para gerenciar cobranças. Os agentes de cobranças podem iniciar o processo de cobranças a partir das listas de clientes que são geradas usando critérios de cobrança predefinidos ou da página Clientes.
+A informações de cobranças de contas a receber são gerenciados em uma exibição central usando a página Cobranças do Finance and Operations. Os gerentes de crédito e cobranças podem usar essa visão central para gerenciar cobranças. Os agentes de cobranças podem iniciar o processo de cobranças a partir das listas de clientes que são geradas usando critérios de cobrança predefinidos ou da página Clientes.
 
 Antes de começar a configurar ou trabalhar com cobranças, você deve entender os seguintes conceitos:
 -   Os instantâneos de classificação por vencimento de clientes contêm informações classificadas por vencimento do saldo em um ponto no tempo
@@ -59,9 +59,9 @@ Para cada período de classificação por vencimento na definição do período 
 Os grupos de clientes são consultas que definem um grupo de registros de clientes que podem ser exibidos e gerenciados para cobranças ou processos de classificação por vencimento. Use os grupos de clientes para filtrar informações nas página de listagem Saldos classificados por vencimento, Atividades de cobrança e Casos de cobrança. Você também usa grupos de clientes para filtrar as contas de clientes que são incluídas quando os instantâneos de classificação por vencimento são criados.
 
 ## <a name="collections-agents"></a>Agentes de cobranças
-Por padrão, os usuários do Microsoft Dynamics 365 for Operations podem exibir todas as informações do cliente nas páginas de lista de cobranças. Você pode usar registros de agente de cobranças para determinar os grupos de clientes que estão disponíveis para filtrar as informações nas páginas de lista de cobranças e na página Cobranças. 
+Por padrão, os usuários do Microsoft Dynamics 365 for Finance and Operations podem exibir todas as informações do cliente nas páginas de lista de cobranças. Você pode usar registros de agente de cobranças para determinar os grupos de clientes que estão disponíveis para filtrar as informações nas páginas de lista de cobranças e na página Cobranças. 
 
-Um agente de cobranças é a pessoa que trabalha com clientes para ter certeza de que os pagamentos serão cobrados em tempo hábil. No Microsoft Dynamics 365 for Operations, os agentes de cobranças são os funcionários atribuídos a usuários na página Configuração do usuário.
+Um agente de cobranças é a pessoa que trabalha com clientes para ter certeza de que os pagamentos serão cobrados em tempo hábil. No Finance and Operations, os agentes de cobranças são os funcionários atribuídos a usuários na página Configuração do usuário.
 
 ## <a name="collections-list-pages"></a> Páginas de listagem Cobranças 
 As seguintes páginas de lista ajudam você a organizar as informações de cobrança.
@@ -71,7 +71,7 @@ As seguintes páginas de lista ajudam você a organizar as informações de cobr
 
 > [!NOTE]
 > Um instantâneo de classificação por vencimento deve ser criado para que você possa exibir as informações nessas páginas de lista. As informações são exibidas somente para os clientes para os quais um instantâneo de classificação por vencimento tiver sido criado. Os registros mostrados na página de listagem podem ser ainda mais filtrados, da seguinte maneira:
-<li>Por padrão, um usuário do Microsoft Dynamics 365 for Operations tem acesso a todos os clientes com um instantâneo de classificação por vencimento.</li>
+<li>Por padrão, um usuário do Finance and Operations tem acesso a todos os clientes com um instantâneo de classificação por vencimento.</li>
 <li>Se os grupos de clientes existem, um usuário deve ser configurado como um agente de cobranças para usar os grupos para filtrar as informações nas páginas de lista de cobranças. As informações são limitadas aos clientes incluídos no grupo de clientes selecionado.</li>
 <li>Se um usuário estiver configurado como um agente de cobranças, apenas os grupos selecionados para esse agente de cobranças estarão disponíveis na página de lista. Se o botão de alternância Permitir que o agente exiba todos os grupos de clientes estiver selecionado na página Agente de cobranças do agente de cobranças, todos os grupos estarão disponíveis para esse agente.</li>
 

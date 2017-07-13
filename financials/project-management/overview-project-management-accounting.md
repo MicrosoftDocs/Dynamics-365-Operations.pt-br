@@ -3,24 +3,24 @@ title: Gerenciamento e contabilidade de projeto
 description: "A funcionalidade de gerenciamento de projetos e da contabilidade pode ser usada em várias indústrias para proporcionar um serviço, para produzir um produto, ou para obter um resultado."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a6235f36af6dfb2f4164405d384f13a7c1cde06
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 12afcde947463b3abf58dea6138653a32dcda6f1
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -37,7 +37,7 @@ Um projeto é um grupo de atividades que visa oferecer um serviço, produzir um 
 ## <a name="projects-across-industries"></a>Projetos em indústrias
 A funcionalidade de gerenciamento de projetos e de contabilidade pode ser usada em várias indústrias, conforme mostrado na ilustração. [![Projetos entre indústrias](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Em um call center, um bilhete pode ser usado para descrever o conjunto de ações que são necessárias para resolver uma chamada. As empresas de consultoria, como organizações de gerenciamento ou consulta técnica, ou agências de publicidade, referem-se a suas atividades como projetos. Em marketing, uma campanha representa um conjunto de trabalho que deve ser entregue. Na fabricação baseada em projeto, uma ordem de produção relaciona diversos trabalhos que devem ser feitos para gerar alguns bens acabados. Seja qual for o nome usado para eles, esses projetos envolvem recursos, planejamentos e custos, e a funcionalidade de gerenciamento de projeto e de contabilidade do Microsoft Dynamics 365 for Operations pode ajudar no planejamento, execução e análise desses projetos.
+Em um call center, um bilhete pode ser usado para descrever o conjunto de ações que são necessárias para resolver uma chamada. As empresas de consultoria, como organizações de gerenciamento ou consulta técnica, ou agências de publicidade, referem-se a suas atividades como projetos. Em marketing, uma campanha representa um conjunto de trabalho que deve ser entregue. Na fabricação baseada em projeto, uma ordem de produção relaciona diversos trabalhos que devem ser feitos para gerar alguns bens acabados. Seja qual for o nome usado para eles, esses projetos envolvem recursos, planejamentos e custos, e a funcionalidade de gerenciamento de projeto e de contabilidade do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition pode ajudar no planejamento, na execução e na análise desses projetos.
 
 ## <a name="project-phases"></a>Fases do projeto
 Embora o seguinte fluxo de processo destine-se a projetos externos ou projetos que são concluídos para um ou mais clientes, a funcionalidade também se aplica a projetos internos, apenas de custo. 
@@ -75,11 +75,11 @@ Para obter mais informações, consulte [Estruturas de detalhamento de trabalho]
 
 ### <a name="create-project-forecasts-and-budgets"></a>Criar previsões de projetos e de orçamentos
 
-Você pode usar a previsão se sua organização tiver uma perspectiva operacional e focar em receitas e custos derivados de transações específicas. No entanto, se a sua organização for mais focada nos valores financeiros, você pode usar o orçamento. Cada método tem suas vantagens. Para obter mais informações, consulte [Previsões de projeto e orçamentos](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+Você pode usar a previsão se sua organização tiver uma perspectiva operacional e focar em receitas e custos derivados de transações específicas. No entanto, se a sua organização for mais focada nos valores financeiros, você pode usar o orçamento. Cada método tem suas vantagens. Para obter mais informações, consulte [Previsões de projeto e orçamentos](project-forecasts-budgets.md).
 
 ### <a name="create-projects"></a>Criar projetos
 
-Você pode criar seis tipos de projetos no Microsoft Dynamics 365 for Operations. Cada tipo de projeto é configurado de forma distinta para reconhecimento de custos e receita. A seleção de um tipo de projeto depende da finalidade do projeto. A tabela a seguir descreve o uso típico de cada tipo de projeto.
+Você pode criar seis tipos de projetos no Microsoft Finance and Operations. Cada tipo de projeto é configurado de forma distinta para reconhecimento de custos e receita. A seleção de um tipo de projeto depende da finalidade do projeto. A tabela a seguir descreve o uso típico de cada tipo de projeto.
 
                                                                                                                                                                          |
 | Tipo de projeto      | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -118,7 +118,7 @@ Para obter mais informações, consulte [Estruturas de detalhamento de trabalho]
 
 Há duas maneiras de gerenciar e controlar seus projetos: previsões e orçamentos de projeto. Você pode usar a previsão se sua organização tiver uma perspectiva operacional e focar em receitas e custos derivados de transações específicas. No entanto, se a sua organização for mais focada nos valores financeiros, você pode usar o orçamento.
 
-Para obter mais informações, consulte [Previsões de projeto e orçamentos](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/).
+Para obter mais informações, consulte [Previsões de projeto e orçamentos](project-forecasts-budgets.md).
 
 ### <a name="create-production-orders"></a>Criar ordens de produção
 
@@ -228,7 +228,7 @@ A tabela a seguir descreve os métodos para calcular o custo para conclusão de 
 <tbody>
 <tr class="odd">
 <td>Custo total – real</td>
-<td>Os custos estimados devem ser inseridos manualmente. Após a coluna <strong>Custo total</strong> ou <strong>Quantidade total</strong> da página <strong>Estimativa de custo</strong> for completada, os custos reais são subtraídos dos totais inseridos pelo usuário. O resultado é o custo para conclusão do projeto. Normalmente, o andamento dos custos não é monitorado com base, por exemplo, no número de diárias de hotel e refeições registrados em cada período. Em vez disso, o monitoramento se baseia em uma comparação entre o valor total de horas estimadas. Esta abordagem não exige um modelo de previsão e os custos totais ou a quantidade total podem ser alterados manualmente. Quando um valor é inserido na coluna <strong>Custo total</strong> ou <strong>Quantidade total</strong>, o Microsoft Dynamics 365 for Operations compara esse valor com as transações reais lançadas no período e, em seguida, reduz o valor na coluna <strong>Quantidade até a conclusão</strong> ou <strong>Custo até a conclusão</strong>.</td>
+<td>Os custos estimados devem ser inseridos manualmente. Após a coluna <strong>Custo total</strong> ou <strong>Quantidade total</strong> da página <strong>Estimativa de custo</strong> for completada, os custos reais são subtraídos dos totais inseridos pelo usuário. O resultado é o custo para conclusão do projeto. Normalmente, o andamento dos custos não é monitorado com base, por exemplo, no número de diárias de hotel e refeições registrados em cada período. Em vez disso, o monitoramento se baseia em uma comparação entre o valor total de horas estimadas. Esta abordagem não exige um modelo de previsão e os custos totais ou a quantidade total podem ser alterados manualmente. Quando um valor é inserido na coluna <strong>Custo total</strong> ou <strong>Quantidade total</strong>, o Finance and Operations compara esse valor com as transações reais lançadas no período e, em seguida, reduz o valor na coluna <strong>Quantidade a ser concluída</strong> ou <strong>Custo até a conclusão</strong>.</td>
 </tr>
 <tr class="even">
 <td>Orçamento total – Real</td>
@@ -238,7 +238,7 @@ A tabela a seguir descreve os métodos para calcular o custo para conclusão de 
 <li>Comparar transações de previsão com as transações reais.</li>
 <li>Mantenha, reduza ou aumente as estimativas para o próximo período.</li>
 </ol>
-O Microsoft Dynamics 365 for Operations não diminui automaticamente as previsões esperadas. Portanto, recomendamos que você mantenha um modelo de previsão original no projeto de preço fixo para estabelecer uma linha de base para comparação quando o projeto for concluído. 
+O Finance and Operations não diminui automaticamente as previsões esperadas. Portanto, recomendamos que você mantenha um modelo de previsão original no projeto de preço fixo para estabelecer uma linha de base para comparação quando o projeto for concluído. 
 > [!NOTE] Ao selecionar este método, use pelo menos dois modelos de previsão. Um modelo deve conter a previsão original. Para o outro modelo, você deve copiar transações de previsão de outro modelo. Este método é válido somente para projetos de investimento e de preço fixo.</td>
 > </tr>
 <tr class="odd">
@@ -333,7 +333,7 @@ Você pode monitorar os custos incorridos pela empresa durante um projeto na pá
 
 #### <a name="viewing-the-remaining-budgeted-amounts"></a>Exibindo os valores orçados restantes
 
-Se **Orçamento restante**for selecionado como o método de controle de custos na página **Parâmetros de gerenciamento de projetos e de contabilidade**, página **Controle de custos** calcula os custos que não foram lançados como reais ou marcados como confirmados. Especificamente, os valores na guia **Geral** no painel inferior da página **Controle de custos**são calculados das seguintes formas:
+Se **Orçamento restante** for selecionado como o método de controle de custos na página **Parâmetros de gerenciamento de projetos e de contabilidade**, página **Controle de custos** calcula os custos que não foram lançados como reais ou marcados como confirmados. Especificamente, os valores na guia **Geral** no painel inferior da página **Controle de custos** são calculados das seguintes formas:
 
 -   **Custo real** – O valor total gasto no projeto na linha de custo selecionada. O valor do custo real é calculado na página **Atualizações do razão**.
 -   **Custo comprometido** – O montante de despesas suplementares que a entidade legal se comprometeu a pagar. Os valores específicos do custo comprometido são calculados na página **Custos comprometidos**.

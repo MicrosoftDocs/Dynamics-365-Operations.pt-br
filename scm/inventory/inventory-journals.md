@@ -3,14 +3,14 @@ title: "Diários de estoque"
 description: "Este artigo descreve como você pode usar diários de estoque para lançar vários tipos de transações de estoque físico."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d947b184fd61af3b997182f0a39a8c13c58d6a5a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fa629b4b8f7fcbd15ee89bc66cbc0bd7ca45215c
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,10 +30,12 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
+
 
 Este artigo descreve como você pode usar diários de estoque para lançar vários tipos de transações de estoque físico. 
 
-Os diários de estoque no Microsoft Dynamics 365 for Operations são usados para lançar transações de estoque físico de vários tipos, como lançamento de saídas e recebimentos, movimentos de estoque, criação de listas de materiais (BOMs), e reconciliação de estoque físico. Todos esses diários de estoque são usados de forma semelhante, mas são divididos em tipos diferentes.
+Os diários de estoque no Microsoft Dynamics 365 for Finance and Operations são usados para lançar transações de estoque físico de vários tipos, como lançamento de saídas e recebimentos, movimentos de estoque, criação de listas de materiais (BOMs), e reconciliação de estoque físico. Todos esses diários de estoque são usados de forma semelhante, mas são divididos em tipos diferentes.
 
 ## <a name="types-of-inventory-journals"></a>Tipos de diários de estoque
 Os tipos de diário de estoque disponíveis são os seguintes:
@@ -68,7 +70,7 @@ Ao relatar uma BOM como concluída, você pode criar um diário de BOM. Ao usar 
 
 ### <a name="item-arrival"></a>Entrada de item
 
-Você pode usar o diário de entrada de item para registrar o recebimento de itens (por exemplo, ordens de compra). Um diário de entrada de itens pode ser criado como parte do gerenciamento de entrada na página **Visão geral da entrada**, ou você pode criar manualmente uma entrada de diário na página **Entrada de item**. Se você habilitar o nome do diário de entrada de itens para verificar os locais de separação, o Dynamics 365 for Operations irá procurar um local para os itens recebidos e, se houver espaço, gerará destinos de localização para os itens de entrada.
+Você pode usar o diário de entrada de item para registrar o recebimento de itens (por exemplo, ordens de compra). Um diário de entrada de itens pode ser criado como parte do gerenciamento de entrada na página **Visão geral da entrada**, ou você pode criar manualmente uma entrada de diário na página **Entrada de item**. Se você habilitar o nome do diário de entrada de itens para verificar os locais de separação, o Finance and Operations irá procurar um local para os itens recebidos e, se houver espaço, gerará destinos de localização para os itens de entrada.
 
 ### <a name="production-input"></a>Entrada de produção
 

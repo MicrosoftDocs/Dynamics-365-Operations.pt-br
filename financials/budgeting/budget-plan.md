@@ -1,9 +1,9 @@
 ---
 title: "Planejamento de orçamento"
-description: "O objetivo deste laboratório é fornecer uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 for Operations na Área de planejamento de orçamento. A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.  Este laboratório focará especificamente nos processos empresariais a seguir ou tarefas -    - Criar hierarquia organizacional para planejamento de orçamento e configuração de segurança do usuário   - Definir cenários de plano de orçamento, colunas de plano de orçamento, layouts e modelos do Excel   - Criar e ativar processo de planejamento de orçamento   - Criar documento de plano de orçamento extraindo os reais de Contabilidade   - Usar alocações para ajustar dados de documento de plano de orçamento   - Editar dados de documento de plano de orçamento no Excel"
+description: "O objetivo deste laboratório é fornecer uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition na Área de planejamento de orçamento. A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.  Este laboratório focará especificamente nos processos empresariais a seguir ou tarefas -    - Criar hierarquia organizacional para planejamento de orçamento e configuração de segurança do usuário   - Definir cenários de plano de orçamento, colunas de plano de orçamento, layouts e modelos do Excel   - Criar e ativar processo de planejamento de orçamento   - Criar documento de plano de orçamento extraindo os reais de Contabilidade   - Usar alocações para ajustar dados de documento de plano de orçamento   - Editar dados de documento de plano de orçamento no Excel"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dbe2b386de9e88af354015705e1444987a3f7e82
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 11b5ffacef06fd3e83c61cd14da11ad645eec335
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-O objetivo deste laboratório é fornecer uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 for Operations na Área de planejamento de orçamento. A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.  Este laboratório focará especificamente nos processos empresariais a seguir ou tarefas -    - Criar hierarquia organizacional para planejamento de orçamento e configuração de segurança do usuário   - Definir cenários de plano de orçamento, colunas de plano de orçamento, layouts e modelos do Excel   - Criar e ativar processo de planejamento de orçamento   - Criar documento de plano de orçamento extraindo os reais de Contabilidade   - Usar alocações para ajustar dados de documento de plano de orçamento   - Editar dados de documento de plano de orçamento no Excel 
+O objetivo deste laboratório é fornecer uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition na Área de planejamento de orçamento. A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.  Este laboratório focará especificamente nos processos empresariais a seguir ou tarefas -    - Criar hierarquia organizacional para planejamento de orçamento e configuração de segurança do usuário   - Definir cenários de plano de orçamento, colunas de plano de orçamento, layouts e modelos do Excel   - Criar e ativar processo de planejamento de orçamento   - Criar documento de plano de orçamento extraindo os reais de Contabilidade   - Usar alocações para ajustar dados de documento de plano de orçamento   - Editar dados de documento de plano de orçamento no Excel 
 
 <a name="prerequisites"></a>Pré-requisitos 
 ------------------
 
-Para este tutorial, você precisará acessar o ambiente Dynamics 365 for Operations com dados de demonstração da Contoso e deve ser definido como administrador na instância. Não use no modo particular para este laboratório - se necessário, faça logoff de outra conta no navegador e faça logon com as credenciais de administrador do Dynamics 365 for Operations. Para fazer logon no Dynamics 365 for Operations, você **DEVE** marcar a caixa de seleção "Mantenha-me conectado". Isso cria um cookie persistente necessário para o Excel App. Se você fizer login no Dynamics 365 for Operations usando um navegador diferente do IE, o sistema solicitará que você faça login no Excel App. Quando você clica em “Login” no App Excel, uma janela pop-up de IE é aberta e, ao fazer login, você **DEVE** marcar a caixa de seleção "Manter-me conectado”. Se, ao clicar em "Login" no Excel App, nada acontecer, você deverá limpar o cache de cookies no IE.
+Para este tutorial, você precisará acessar o ambiente Finance and Operations com dados de demonstração da Contoso e deve ser definido como administrador na instância. Não use no modo particular para este laboratório - se necessário, faça logoff de outra conta no navegador e faça logon com as credenciais de administrador do Finance and Operations. Para fazer logon no Finance and Operations, você **DEVE** marcar a caixa de seleção "Mantenha-me conectado". Isso cria um cookie persistente necessário para o Excel App. Se você fizer login no Finance and Operations usando um navegador diferente do IE, o sistema solicitará que você faça login no aplicativo Excel. Quando você clica em “Login” no App Excel, uma janela pop-up de IE é aberta e, ao fazer login, você **DEVE** marcar a caixa de seleção "Manter-me conectado”. Se, ao clicar em "Login" no Excel App, nada acontecer, você deverá limpar o cache de cookies no IE.
 
 ## <a name="scenario-overview"></a>**Visão geral do cenário**
 Julia funciona como um gerente financeira na Contoso Entertainment Systems na Alemanha (DEMF). Como o FY2016 se aproxima, ela precisa trabalhar na configuração do orçamento da empresa para o próximo ano. Aspectos de preparação:
@@ -148,7 +148,7 @@ As colunas do plano de orçamento são as colunas monetárias ou de quantidade q
 
 [![Preenchimento Automático](./media/screenshot22.png)](./media/screenshot22.png) 
 
-4.7. Retorne ao Dynamics 365 for Operations e atualize a página. Valores publicados aparecerão no Dynamics 365 for Operations. 
+4.7. Retorne ao Finance and Operations e atualize a página. Valores publicados aparecerão no Finance and Operations. 
 
 [![Atualizar](./media/screenshot23.png)](./media/screenshot23.png)
 
@@ -233,7 +233,7 @@ Os valores reais do ano anterior serão copiados no orçamento do ano atual e al
 
 [![Publicar](./media/screenshot36.png)](./media/screenshot36.png)
 
-9.3. Voltar para o documento no plano do orçamento no Dynamics 365 for Operations. Clique em Fluxo de trabalho &gt; Enviar para aprovar o documento automaticamente
+9.3. Voltar para o documento no plano do orçamento no Finance and Operations. Clique em Fluxo de trabalho &gt; Enviar para aprovar o documento automaticamente
 
 [![Aprovar automaticamente](./media/screenshot37.png)](./media/screenshot37.png) 
 

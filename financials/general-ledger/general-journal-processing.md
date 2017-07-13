@@ -1,6 +1,6 @@
 ---
 title: "Processamento do diário geral"
-description: "Este artigos descrevem os recursos do Microsoft Dynamics 365 for Operations que podem ajudar a facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido."
+description: "Este artigo descreve os recursos do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition que podem ajudar a facilitar o processamento de diário geral, bem como ajudar a garantir que os dados corretos sejam capturados e o controle interno não esteja comprometido."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/25/2017
@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 150ca540fca154947cca47e97e45ce865ab1f507
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigos descrevem os recursos do Microsoft Dynamics 365 for Operations que podem ajudar a facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido.  
+Este artigo descreve os recursos do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition que podem ajudar a facilitar o processamento de diário geral, bem como ajudar a garantir que os dados corretos sejam capturados e o controle interno não esteja comprometido.  
 
 Nomes de diário
 

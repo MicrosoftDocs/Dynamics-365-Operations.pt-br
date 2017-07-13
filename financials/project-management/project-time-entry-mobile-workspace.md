@@ -1,28 +1,28 @@
 ---
-title: "Espaço de trabalho móvel de entrada de tempo do projeto para o aplicativo Dynamics 365 for Operations"
+title: "Espaço de trabalho móvel de entrada de tempo do projeto"
 description: "Este tópico fornece informações sobre o espaço de trabalho móvel de entrada de tempo do projeto. Este espaço de trabalho permite que os usuários insiram e economizem tempo com um projeto usando seu dispositivo móvel."
-author: annbe
+author: KimANelson
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-audience: Application User, IT Pro
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: annbe
+ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9c592c301908898915164e9236850759b73543fe
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,16 +31,14 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+Este tópico fornece informações sobre a área de trabalho móvel de **Entrada de tempo do projeto**. Este espaço de trabalho permite que os usuários insiram e economizem tempo com um projeto usando seu dispositivo móvel.
 
+O espaço de trabalho móvel é destinado a ser usado com o Microsoft Dynamics 365 do aplicativo móvel Operações Unificadas. 
 
-Este tópico fornece informações sobre o espaço de trabalho móvel de entrada de tempo do projeto para o aplicativo móvel Dynamics 365 for Operations. Este espaço de trabalho permite que os usuários insiram e economizem tempo com um projeto usando seu dispositivo móvel.
-
-<a name="overview-of-the-project-time-entry-mobile-workspace"></a>Visão geral do espaço de trabalho móvel de entrada de tempo do projeto
----------------------------------------------------
-
+## <a name="overview"></a>Visão Geral
 Como parte do trabalho diário, os recursos de projetos são frequentemente no local ou em trânsito. O espaço de trabalho móvel **Entrada de tempo de projeto** permite que os usuários insiram tempo faturável ou não faturável em um projeto no dispositivo móvel de sua escolha. Portanto, recursos do projeto podem gravar entradas de tempo a qualquer momento e em qualquer lugar. Também podem exibir as entradas de horas que já foram registradas. 
 
-Especificamente, o espaço de trabalho móvel **Entrada de tempo de projeto** fornece estes recursos:
+Especificamente, na área de trabalho móvel **Entrada de tempo do projeto**, os usuários podem executar estas tarefas:
 
 -   Para qualquer data selecionada, insira o número de horas que passou de uma tarefa específica.
 -   Pesquisar o nome do projeto ou cliente para localizar o projeto para inserir tempo.
@@ -48,17 +46,16 @@ Especificamente, o espaço de trabalho móvel **Entrada de tempo de projeto** fo
 -   Registre o tempo como faturável ou não faturável para o projeto.
 -   Opcionalmente insira comentários internos ou externos.
 
-Para implementar o espaço de trabalho móvel **Entrada de tempo do projeto** consulte as seguintes seções deste tópico.
-
 ## <a name="prerequisites"></a>Pré-requisitos
-Antes de implementar o espaço de trabalho móvel **Entrada de tempo do projeto**, certifique-se de que seu administrador do sistema preencheu os seguintes pré-requisitos.
+Os pré-requisitos diferem, com base da versão do Microsoft Dynamics 365 que foi implantada para sua organização.
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Finance and Operations, Enterprise edition atualização de julho de 2017 
+Se o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition de julho de 2017, foi implementado em sua organização, o administrador do sistema deve publicar a área de trabalho móvel de **Entrada de tempo do projeto**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior
+Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior tiver sido implantado em sua organização, o administrador do sistema deve completar os seguintes pré-requisitos. 
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Pré-requisito</th>
@@ -68,45 +65,38 @@ Antes de implementar o espaço de trabalho móvel **Entrada de tempo do projeto*
 </thead>
 <tbody>
 <tr class="odd">
-<td>Deve ser implementada a versão 1611 com atualização 3 ou superior de plataforma do Microsoft Dynamics 365.</td>
-<td>Administrador do sistema</td>
-<td>Se ainda não tiver o Dynamics 365 for Operations implantado em sua organização, o administrador do sistema deverá ver <a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">Implantar o ambiente de demonstração do Microsoft Dynamics 365 for Operations</a>.</td>
-</tr>
-<tr class="even">
-<td>O KB 4018050 deve ser implementado.</td>
+
+<td>Implementar o KB 4018050.</td>
 <td>Administrador do sistema</td>
 <td>o KB 4018050 é um hotfix de metadados ou atualização X++ que contém o espaço de trabalho móvel <strong>Entrada de tempo do projeto</strong>. Para implementar o KB 4018050, o administrador do sistema deve seguir estas etapas.
 <ol>
-<li>Baixe o KB 4018050 do Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar o hotfix de metadados</a>.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">Crie um pacote implantável</a> que contenha os modelos <strong>ApplicationSuite</strong> e <strong>ProjectMobile</strong> e, em seguida, carregue o pacote implantável para o LCS.</li>
-<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">Aplique o pacote implantável</a> ao seu sistema Dynamics 365 for Operations.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Baixe o hotfix de metadados do Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar o hotfix de metadados</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Crie um pacote implantável</a> que contenha os modelos <strong>ApplicationSuite</strong> e <strong>ProjectMobile</strong> e, em seguida, carregue o pacote implantável para o LCS.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Aplicar o pacote implantável</a>.</li>
+
 </ol></td>
 </tr>
-<tr class="odd">
-<td>O espaço de trabalho <strong>Entrada de tempo do projeto</strong> deve ser publicado para o aplicativo móvel Dynamics 365 for Operations.</td>
+<tr class="even">
+<td>Publique a área de trabalho móvel <strong>Entrada de tempo do projeto</strong>.</td>
 <td>Administrador do sistema</td>
-<td><ol>
-<li>Inicie o Dynamics 365 for Operations em seu navegador.</li>
-<li>Na página <strong>Parâmetros do sistema</strong>, na guia <strong>Gerenciar espaços de trabalho móveis</strong>, selecione o espaço de trabalho <strong>Entrada de tempo do projeto</strong>.</li>
-<li>Clique em <strong>Publicar espaço de trabalho móvel</strong>.</li>
-</ol></td>
+<td>Consulte <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar um espaço de trabalho móvel</a>.</td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Baixe e instale o aplicativo móvel Dynamics 365 for Operations
-Baixe e instale o aplicativo móvel Dynamics 365 for Operations de sua loja de aplicativos móveis.
+## <a name="download-and-install-the-mobile-app"></a>Baixa e instala o aplicativo móvel.
 
--   Para Android: [Dynamics 365 for Operations na Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
--   Para iPhone: [Dynamics 365 for Operations na iTunes apps store](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
+Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
-## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>Entre no aplicativo móvel Dynamics 365 for Operations
+-   [Para telefones Android](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
+
+## <a name="sign-in-to-the-mobile-app"></a>Entrar no aplicativo móvel
 1.  Inicie o aplicativo móvel no seu dispositivo.
-2.  Insira a URL do Dynamics 365 for Operations.
-3.  Insira a empresa à qual deseja se conectar. Por exemplo, insira **USMF**.
-4.  No primeiro acesso, são solicitados nome de usuário e senha da sua conta do Dynamics 365 for Operations. Insira suas credenciais.
-5.  Após se conectar, você verá os espaços de trabalho da sua empresa. Observe que se o seu administrador de sistema publicar uma nova área de trabalho depois, você pode efetuar pull para atualizar a lista dos espaços de trabalho móveis.
+2.  Insira sua URL do Dynamics 365.
+3.  Na primeira vez que você iniciar a sessão, será solicitado o nome de usuário e a senha. Insira suas credenciais.
+4.  Depois de entrar, serão exibidos os espaços de trabalho disponíveis da sua empresa. Observe que se o seu administrador de sistema publica um novo espaço de de trabalho depois, você terá que atualizar a lista dos espaços de trabalho móveis.
 
 [![Efetue pull para atualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
@@ -115,18 +105,14 @@ Baixe e instale o aplicativo móvel Dynamics 365 for Operations de sua loja de a
 2.  Selecione **Entrada de tempo**. Você verá as datas de calendário da semana atual.
 3.  Para uma data selecionada, selecione **Ações** &gt; **Nova entrada**.
 4.  Insira o número de horas a serem registradas.
-5.  Selecionar o projeto para a entrada de hora. Você verá uma lista de projetos que estão carregados para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem ver [plataforma móvel do Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform).
-6.  Se seu projeto não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online no Dynamics 365 for Operations. Pesquisar por nome ou alternar para pesquisar por nome do projeto ou cliente.
-7.  Selecione uma categoria. Você verá uma lista de categorias que estão carregadas para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem ver [plataforma móvel do Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform).
-8.  Se sua categoria não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online no Dynamics 365 for Operations. Pesquise por categoria ou alterne para pesquisar por nome de categoria.
-9.  Selecione uma atividade. Você verá uma lista de atividades que estão carregadas para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem ver [plataforma móvel do Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform).
-10. Se sua atividade não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online no Dynamics 365 for Operations. Pesquise por número de atividade ou alterne para pesquisar por finalidade.
+5.  Selecionar o projeto para a entrada de hora. Você verá uma lista de projetos que estão carregados para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, consulte a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+6.  Se o projeto não estiver na lista, selecione **Pesquisar**. Pesquisar por nome ou alternar para pesquisar por nome do projeto ou cliente.
+7.  Selecione uma categoria. Você verá uma lista de categorias que estão carregados para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, consulte a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+8.  Se a categoria não estiver na lista, selecione **Pesquisar**. Pesquise por categoria ou alterne para pesquisar por nome de categoria.
+9.  Selecione uma atividade. Você verá uma lista de atividades que estão carregados para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, consulte a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+10. Se a atividade não estiver na lista, selecione **Pesquisar**. Pesquise por número de atividade ou alterne para pesquisar por finalidade.
+
 11. Selecionar a propriedade da linha.
 12. Opcional: insira comentários internos ou externos.
 13. Selecione **Concluído**.
-
-
-
-
-
 

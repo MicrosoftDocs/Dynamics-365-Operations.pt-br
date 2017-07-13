@@ -1,16 +1,16 @@
 ---
 title: "Configurar o processo de importação de reconciliação bancária avançada"
-description: "O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 for Operations. Este artigo explica como configurar a funcionalidade de importação para seus extratos bancários."
+description: "O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Este artigo explica como configurar a funcionalidade de importação para seus extratos bancários."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fda4dca4339c09757477b04166b17d5f92f46a7c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a4d1c81386c0ef03391f3127fa51a6b09a5142b3
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 for Operations. Este artigo explica como configurar a funcionalidade de importação para seus extratos bancários. 
+O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Este artigo explica como configurar a funcionalidade de importação para seus extratos bancários. 
 
-A configuração de importação de extrato bancário varia de acordo com o formato do seu extrato bancário eletrônico. O Microsoft Dynamics 365 for Operations oferece suporte para três formatos prontos de extratos bancários: ISO20022, MT940 e BAI2.
+A configuração de importação de extrato bancário varia de acordo com o formato do seu extrato bancário eletrônico. O Finanças e Operações oferece suporte para três formatos prontos de extratos bancários: ISO20022, MT940 e BAI2.
 
 ## <a name="sample-files"></a>Arquivos de exemplo
-Para todos os três formatos, você deve ter os arquivos que convertem o extrato bancário eletrônico do formato original para um formato que o Dynamics 365 for Operations pode usar. Você pode encontrar os arquivos de recurso necessários no nó **Recursos** no Application Explores dentro do Microsoft Visual Studio. Após localizar os arquivos, copie-os para um local único conhecido, para que você possa carregá-los mais facilmente durante o processo de configuração.
+Para todos os três formatos, você deve ter os arquivos que convertem o extrato bancário eletrônico do formato original para um formato que o Finanças e Operações pode usar. Você pode encontrar os arquivos de recurso necessários no nó **Recursos** no Application Explores dentro do Microsoft Visual Studio. Após localizar os arquivos, copie-os para um local único conhecido, para que você possa carregá-los mais facilmente durante o processo de configuração.
 
 | Nome do recurso                                           | Nome do arquivo                            |
 |---------------------------------------------------------|--------------------------------------|
@@ -65,15 +65,15 @@ Primeiro, você deve definir o grupo de processamento de formato do extrato banc
 1.  Vá para **Espaços de trabalho** &gt; **Gerenciamento de dados**.
 2.  Clique em **Importar**.
 3.  Insira um nome para o formato, como **ISO20022**.
-4.  Defina o campo **Formato do dado fonte**para **XML-Element**.
+4.  Defina o campo **Formato do dado fonte** para **XML-Element**.
 5.  Defina o campo **Nome da entidade** para **Extratos bancários**.
 6.  Para carregar os arquivos de importação, clique em **Carregar** e, em seguida, navegue para selecionar o arquivo **SampleBankCompositeEntity.xml** salvo anteriormente.
 7.  Assim que a entidade Extratos bancários for carregada e o mapeamento finalizado, clique na ação **Exibir mapa** para a entidade.
 8.  A entidade Extratos bancários é uma entidade composta formada por quatro entidades separadas. Na lista, selecione **BankStatementDocumentEntity** e, em seguida, clique na ação **Exibir mapa**.
 9.  Na guia **Transformações**, clique em **Novo**.
-10. Para a sequência número 1, clique em **Carregar arquivo** e, em seguida, selecione o arquivo **ISO20022XML-to-Reconciliation.xslt** salvo anteriormente. **Observação:** Os arquivos de transformação do Dynamics 365 for Operations são criados para o formato padrão. Devido aos bancos geralmente divergirem desse formato, será necessário atualizar o arquivo de transformação para mapeá-lo ao seu formato de extrato bancário. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+10. Para a sequência número 1, clique em **Carregar arquivo** e, em seguida, selecione o arquivo **ISO20022XML-to-Reconciliation.xslt** salvo anteriormente. **Observação:** Os arquivos de transformação do Finanças e Operações são criados para o formato padrão. Devido aos bancos geralmente divergirem desse formato, será necessário atualizar o arquivo de transformação para mapeá-lo ao seu formato de extrato bancário. <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. Clique em **Novo**.
-12. Para a sequência número 2, clique em **Carregar arquivo** e, em seguida, selecione o arquivo**BankReconciliation-to-Composite.xslt** salvo anteriormente.
+12. Para a sequência número 2, clique em **Carregar arquivo** e, em seguida, selecione o arquivo **BankReconciliation-to-Composite.xslt** salvo anteriormente.
 13. Clique em **Aplicar transformações**.
 
 Assim que o grupo de processamento do formato for configurado, a próxima etapa é definir as regras de formato do extrato bancário para extratos bancários ISO20022.
@@ -89,7 +89,7 @@ A última etapa é habilitar a Reconciliação bancária avançada e definir o f
 
 1.  Vá para **Gerenciamento de caixa e bancos** &gt; **Contas bancárias**.
 2.  Selecione a conta bancária, e abra-a para exibir os detalhes.
-3.  Na guia **Reconciliação**, defina a opção **Reconciliação bancária avançada**para **Sim**.
+3.  Na guia **Reconciliação**, defina a opção **Reconciliação bancária avançada** para **Sim**.
 4.  Defina o campo **Formato do extrato** como o formato criado anteriormente, tal como **ISO20022**.
 
 ## <a name="set-up-the-import-of-mt940-bank-statements"></a>Configurar a importação de extratos bancários MT940
@@ -106,7 +106,7 @@ Primeiro, você deve definir o grupo de processamento de formato do extrato banc
 9.  Na guia **Transformações**, clique em **Novo**.
 10. Para a sequência número 1, clique em **Carregar arquivo** e, em seguida, selecione o arquivo **MT940TXT-to-MT940XML.xslt** salvo anteriormente.
 11. Clique em **Novo**.
-12. Para a sequência número 2, clique em **Carregar arquivo** e, em seguida, selecione o arquivo **MT940XML-to-Reconciliation.xslt** salvo anteriormente. **Observação:** Os arquivos de transformação do Dynamics 365 for Operations são criados para o formato padrão. Devido aos bancos geralmente divergirem desse formato, será necessário atualizar o arquivo de transformação para mapeá-lo ao seu formato de extrato bancário. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+12. Para a sequência número 2, clique em **Carregar arquivo** e, em seguida, selecione o arquivo **MT940XML-to-Reconciliation.xslt** salvo anteriormente. **Observação:** Os arquivos de transformação do Finanças e Operações são criados para o formato padrão. Devido aos bancos geralmente divergirem desse formato, será necessário atualizar o arquivo de transformação para mapeá-lo ao seu formato de extrato bancário. <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
 13. Clique em **Novo**.
 14. Para a sequência número 3, clique em **Carregar arquivo** e, em seguida, selecione o arquivo **BankReconciliation-to-Composite.xslt** salvo anteriormente.
 15. Clique em **Aplicar transformações**.
@@ -142,7 +142,7 @@ Primeiro, você deve definir o grupo de processamento de formato do extrato banc
 9.  Na guia **Transformações**, clique em **Novo**.
 10. Para a sequência número 1, clique em **Carregar arquivo** e, em seguida, selecione o arquivo **BAI2CSV-to-BAI2XML.xslt** salvo anteriormente.
 11. Clique em **Novo**.
-12. Para a sequência número 2, clique em **Carregar arquivo** e, em seguida, selecione o arquivo **BAI2XML-to-Reconciliation.xslt** salvo anteriormente. **Observação:** Os arquivos de transformação do Dynamics 365 for Operations são criados para o formato padrão. Devido aos bancos geralmente divergirem desse formato, será necessário atualizar o arquivo de transformação para mapeá-lo ao seu formato de extrato bancário. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+12. Para a sequência número 2, clique em **Carregar arquivo** e, em seguida, selecione o arquivo **BAI2XML-to-Reconciliation.xslt** salvo anteriormente. **Observação:** Os arquivos de transformação do Finanças e Operações são criados para o formato padrão. Devido aos bancos geralmente divergirem desse formato, será necessário atualizar o arquivo de transformação para mapeá-lo ao seu formato de extrato bancário. <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
 13. Clique em **Novo**.
 14. Para a sequência número 3, clique em **Carregar arquivo** e, em seguida, selecione o arquivo **BankReconciliation-to-Composite.xslt** salvo anteriormente.
 15. Clique em **Aplicar transformações**.
