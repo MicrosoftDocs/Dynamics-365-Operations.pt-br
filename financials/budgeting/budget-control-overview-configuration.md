@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
 ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
 ms.contentlocale: pt-br
 ms.lasthandoff: 06/20/2017
-
 
 ---
 
@@ -128,3 +128,4 @@ Depois que o controle de orçamento é ativado, os usuários recebem o aviso do 
 Nesta página, os usuários podem entrar na página **Estatísticas de controle de orçamento por período** para ver os detalhes de disponibilidade de orçamento e reservas para uma combinação de dimensão de controle de orçamento selecionado. Os usuários podem também entrar na página **Estatística de controle de orçamento** exibir a disponibilidade de orçamento para todas as combinações de dimensões financeiras que são usadas no controle de orçamento. 
 
 Se o controle de orçamento for ligado nas ordens de compra, o gerente do orçamento pode usar a área de trabalho **Orçamentos razão e previsões** a revisar a fila de todas as ordens de compra não confirmadas que foram verificadas com avisos de orçamento e erros. Se a gerente de orçamento tem permissões de orçamento excedido configuradas, ela pode confirmar a ordem de compra diretamente no espaço de trabalho.    
+
