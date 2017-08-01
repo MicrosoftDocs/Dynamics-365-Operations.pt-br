@@ -58,7 +58,7 @@ Defina um *modelo de orçamento* que corresponde a todos ou alguns dos orçament
 > [!NOTE] 
 > Se o controle de orçamento for usado, você poderá associar apenas um modelo de orçamento com um período de tempo específico do ciclo orçamentário. 
 
-Crie *códigos de orçamento *que identifiquem o tipo de transações de orçamento para registrar qualquer fluxo de trabalho relacionado. Os códigos de orçamento podem dar suporte aos seguintes tipos de orçamento:
+Crie *códigos de orçamento* que identifiquem o tipo de transações de orçamento para registrar qualquer fluxo de trabalho relacionado. Os códigos de orçamento podem dar suporte aos seguintes tipos de orçamento:
 
 -   Orçamento original
 -   Transferência
