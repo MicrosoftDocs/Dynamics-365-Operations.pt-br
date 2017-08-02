@@ -14,14 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: ac77d2d374dc77aa4cf43ae2621b3692e556c9d0
+ms.translationtype: HT
+ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
+ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,8 +34,8 @@ O Microsoft Dynamics 365 for Finance and Operations inclui funcionalidade para o
 Este tópico inclui listas de recursos que podem ajudar você a aprender mais sobre funcionalidades específicas ao país/região. 
 
 ## <a name="developing-localized-solutions"></a>Desenvolvendo soluções localizadas
-Os recursos a seguir fornecem orientação e informações que podem ajudar desenvolvedores e ISVs que estão criando personalizações específicas de um país/região, ou que estão criando uma solução para um país sem suporte da Microsoft.
--   [Modelos de localização separada](separate-localization-models.md)
+Os recursos a seguir fornecem orientação e informações que podem ajudar desenvolvedores e ISVs que estão criando personalizações específicas de um país/região ou que estão criando uma solução para um país sem suporte da Microsoft.
+-   [Separar modelos de localização](separate-localization-models.md)
 -   [Aplicar contexto de país/região](apply-country-context.md)
 -   [Certificações regulatórias](regulatory-certifications.md)
 -   [Classificar recursos de localização](classify-localization-features.md)

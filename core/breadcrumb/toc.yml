@@ -2,7 +2,7 @@
   tocHref: /dynamics365/
   topicHref: /dynamics365
   items:
-    - name: Introdução o Dynamics 365
+    - name: Introdução ao Dynamics 365
       tocHref: /dynamics365/get-started/what-is/
       topicHref: /dynamics365/get-started/what-is/index
     - name: Novidades
@@ -12,13 +12,13 @@
       tocHref: /dynamics365/unified-operations/fin-and-ops/
       topicHref: /dynamics365/unified-operations/fin-and-ops/index
       items:
-        - name: Desenvolvedor e Administrador
+        - name: null
           tocHref: /dynamics365/unified-operations/dev-itpro/
           topicHref: /dynamics365/unified-operations/dev-itpro/index
         - name: Financials
           tocHref: /dynamics365/unified-operations/financials/
           topicHref: /dynamics365/unified-operations/financials/index
-        - name: Cadeia de fornecimento
+        - name: Cadeia de fornecedores
           tocHref: /dynamics365/unified-operations/supply-chain/
           topicHref: /dynamics365/unified-operations/supply-chain/index
     - name: Talent
