@@ -24,9 +24,7 @@ ms.lasthandoff: 06/13/2017
 
 ---
 
-<a id="cost-accounting-home-page" class="xliff"></a>
-
-# Pagina inicial de contabilização de custos
+# <a name="cost-accounting-home-page"></a>Pagina inicial de contabilização de custos
 
 [!include[banner](../includes/banner.md)]
 
@@ -49,9 +47,7 @@ O módulo Contabilização de custos permite:
 -   Criar demonstrativos que podem ser exibidos no espaço de trabalho.
 -   Criar relatórios usando o Excel.
 
-<a id="get-started" class="xliff"></a>
-
-## Introdução
+## <a name="get-started"></a>Introdução
 
 > [!Video https://www.youtube.com/embed/https://www.youtube.com/embed/1pUDtJQZ8FU]
 
@@ -68,16 +64,12 @@ Para entender como usar a contabilização de custos em seu trabalho diário, vo
 -   [Dimensões de objeto de custo](cost-objects.md)
 -   [Criar objetos de custos](http://ax.help.dynamics.com/en/wiki/create-cost-objects/) (guia de tarefas)
 
-<a id="cost-control-mobile-workspace" class="xliff"></a>
-
-## Espaço de trabalho móvel de controle de custos
+## <a name="cost-control-mobile-workspace"></a>Espaço de trabalho móvel de controle de custos
 Com o espaço de trabalho móvel de controle de custos, os gerentes de centro de custo podem ver o desempenho do centro de custo a qualquer momento e em qualquer lugar.
 
 -   [Espaço de trabalho móvel de controle de custos](cost-controlling-mobile-workspace.md)
 
-<a id="cost-accounting-analysis-power-bi-content" class="xliff"></a>
-
-## Conteúdo do Power BI Análise de contabilização de custos
+## <a name="cost-accounting-analysis-power-bi-content"></a>Conteúdo do Power BI Análise de contabilização de custos
 O conteúdo do Microsoft Power BI Análise de contabilização de custos destina-se a controladores de custo ou qualquer pessoa responsável por realizar o controle de custos de uma organização. Ele inclui as principais métricas, como custo, magnitude e taxa de custo por custo real, custo de orçamento e custo de orçamento flexível. Usa dados de transação de contabilização de custos no Finance and Operations e fornece uma visão agregada dos custos de toda a organização em uma moeda de relatório. Os gerentes podem filtrar os dados por objetos de custo para realizar o controle de custos de suas unidades organizacionais, mesmo que a organização possa ter várias entidades legais.
 
 -   [Conteúdo do Power BI Análise de contabilização de custos](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
