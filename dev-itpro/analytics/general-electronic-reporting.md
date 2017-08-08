@@ -11,19 +11,18 @@ ms.technology:
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: cebd1b6f041e18c2e016142aba7447bf813f570b
-ms.openlocfilehash: f6327b339441f2f1f6d4e557e45d085685245a08
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: b9ad00b4157d1f732a8f2400712c94a92a17b273
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/19/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -34,7 +33,7 @@ ms.lasthandoff: 06/19/2017
 
 Este tópico oferece uma visão geral da ferramenta ER (Relatório eletrônico). Ele inclui informações sobre os principais conceitos, os cenários com suporte do ER e uma lista de formatos projetados e liberados como parte da solução ER.
 
-Relatório eletrônico (ER) é uma ferramenta que você pode usar para configurar formatos de documentos eletrônicos de entrada e de saída de acordo com os requisitos legais de vários países/regiões. ER permite que você gerencie esses formatos durante seu ciclo de vida. Por exemplo, você pode adotar novos requisitos normativos e gerar documentos de negócios no formato exigido para trocar informações, eletronicamente, com outras pessoas, bancos e órgãos do governo.
+O ER é uma ferramenta que você pode usar para configurar formatos de documentos eletrônicos de entrada e de saída de acordo com os requisitos legais de vários países/regiões. ER permite que você gerencie esses formatos durante seu ciclo de vida. Por exemplo, você pode adotar novos requisitos normativos e gerar documentos de negócios no formato exigido para trocar informações, eletronicamente, com outras pessoas, bancos e órgãos do governo.
 
 O mecanismo de ER se destina a usuários de negócios e não aos desenvolvedores. Como você configura formatos, em vez de códigos, os processos de criação e ajuste de formatos para documentos eletrônicos são mais rápidos e mais fáceis.
 
@@ -43,8 +42,8 @@ ER atualmente suporta os formatos de planilha texto, XML, documento do Microsoft
 ## <a name="capabilities"></a>Capacidades
 O mecanismo ER tem os seguintes recursos:
 
-- Ele representa uma única ferramenta compartilhada para relatórios eletrônicos em domínios diferentes, e substitui mais de 20 mecanismos diferentes que fazem algum tipo de relatório eletrônico para o Microsoft Dynamics 365 for Operations.
-- Isso torna o formato do relatório isolado da implementação atual do Dynamics 365 for Operations. Em outras palavras, o formato é aplicável para versões diferentes do Dynamics 365 for Operations.
+- Ele representa uma única ferramenta compartilhada para relatórios eletrônicos em domínios diferentes, e substitui mais de 20 mecanismos diferentes que fazem algum tipo de relatório eletrônico para o Microsoft Dynamics 365 for Finance and Operations.
+- Isso torna o formato do relatório isolado da implementação atual do Finance and Operations. Em outras palavras, o formato é aplicável para versões diferentes do Finance and Operations.
 - Ele suporta a criação de um formato personalizado que é baseado no formato original. Ele também inclui recursos para atualizar automaticamente o formato personalizado quando o formato original é alterado devido aos requisitos de localização/personalização.
 - Ele se torna o padrão principal de suporte de requisitos de localização no relatório eletrônico para a Microsoft e parceiros da Microsoft.
 - Ele oferece suporte à capacidade de formatos distribuídos para clientes e parceiros através do Microsoft Dynamics Lifecycle Services (LCS).
@@ -59,7 +58,8 @@ O ER dá suporte dois tipos de componentes **Modelo de dados** e **Formato**.
 Um componente de modelo de dados é uma representação abstrata de uma estrutura de dados. Ele é usado para descrever uma área específica de domínio corporativo com detalhes suficientes para atender aos requisitos de relatórios para o domínio. Um componente de modelo de dados é composto pelas seguintes partes:
 
 - Um modelo de dados como um conjunto de entidades comerciais específicas de domínio, bem como a definição hierarquicamente estruturada de relações entre essas entidades.
-- Um mapeamento de modelo que liga fontes de dados selecionadas do Dynamics 365 for Operations a elementos individuais de um modelo de dados que especifica o fluxo de dados em tempo de execução e as regras de preenchimento de dados comerciais para o componente do modelo de dados.
+- Um mapeamento de modelo que liga fontes de dados selecionadas do Finance and Operations a elementos individuais de um modelo de dados que especifica o fluxo de dados em tempo de execução e as regras de preenchimento de dados comerciais para o componente do modelo de dados.
+
 Uma entidade comercial do modelo de dados é representada por um contêiner (registro). As propriedades da entidade comercial são representadas como itens de dados (campos). Cada item de dados tem um nome exclusivo, um rótulo, uma descrição e um valor. O valor de cada item de dados pode ser projetado para que seja reconhecido como cadeia de caracteres, inteiro, real, data, enumeração, booliano e assim por diante. Além disso, ele pode ser outro registro ou registros de lista.
 
 Um único componente de modelo de dados pode conter várias hierarquias de entidades comerciais específicas de domínio. Também pode conter mapeamentos de modelo que oferecem suporte a um fluxo de dados específico do relatório em tempo de execução. As hierarquias são diferenciadas por um único registro que foi selecionado como uma raiz de mapeamento de modelo. Por exemplo, o modelo de dados da área de domínio de pagamento pode dar suporte aos seguintes mapeamentos:
@@ -71,17 +71,18 @@ Observe que as entidades de negócios, como transações de pagamento e de empre
 
 Um mapeamento de modelo que oferece suporte a documentos eletrônicos de saída tem os seguintes recursos:
 
-- Ele pode usar diferentes tipos de dados do Dynamics 365 for Operations como fontes de dados para um modelo de dados. Por exemplo, ele pode usar tabelas, entidades de dados, métodos ou enumerações.
+- Ele pode usar diferentes tipos de dados do Finance and Operations como fontes de dados para um modelo de dados. Por exemplo, ele pode usar tabelas, entidades de dados, métodos ou enumerações.
 - Ele suporta parâmetros de entrada do usuário que podem ser definidos como fontes para um modelo de dados quando alguns dados devem ser especificados em tempo de execução.
-- Ele oferece suporte à transformação dos dados do Dynamics 365 for Operations em grupos necessários. Também permite filtrar, classificar e somar dados, além de acrescentar, com lógica calculada, campos que são criados por meio de fórmulas que se assemelham às do Microsoft Excel, conforme mostrado na ilustração a seguir. Para obter mais informações, consulte [Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md).
+- Ele oferece suporte à transformação dos dados do Finance and Operations em grupos necessários. Também permite filtrar, classificar e somar dados, além de acrescentar, com lógica calculada, campos que são criados por meio de fórmulas que se assemelham às do Microsoft Excel, conforme mostrado na ilustração a seguir. Para obter mais informações, consulte [Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md).
 
 [![Designer de fórmulas](./media/ER-overview-01.png)](./media/ER-overview-01.png) 
 
 Um mapeamento de modelo que oferece suporte a documentos eletrônicos de entrada tem os seguintes recursos:
 
-- Pode usar como destino elementos de dados atualizáveis diferentes do Dynamics 365 for Operations. Esses elementos de dados incluem tabelas, entidades de dados e exibições. Os dados podem ser atualizados usando os dados dos documentos eletrônicos de entrada. Diversos destinos podem ser usados em um único mapeamento de modelo.
+- Pode usar elementos de dados atualizáveis diferentes como metas. Esses elementos de dados incluem tabelas, entidades de dados e exibições. Os dados podem ser atualizados usando os dados dos documentos eletrônicos de entrada. Diversos destinos podem ser usados em um único mapeamento de modelo.
 - Ele suporta parâmetros de entrada do usuário que podem ser definidos como fontes para um modelo de dados quando alguns dados devem ser especificados em tempo de execução.
-Um componente do modelo de dados é criado para cada domínio corporativo que deve ser usado como fonte de dados unificada para relatórios que isole os relatórios da implementação física das fontes de dados do Dynamics 365 for Operations. Ele representa conceitos e funcionalidades comerciais específicas de domínio de uma forma que torna o design inicial do formato de relatório e a manutenção adicional mais eficientes.
+
+Um componente do modelo de dados é criado para cada domínio corporativo que deve ser usado como fonte de dados unificada para relatórios que isole os relatórios da implementação física das fontes de dados. Ele representa conceitos e funcionalidades comerciais específicas de domínio de uma forma que torna o design inicial do formato de relatório e a manutenção adicional mais eficientes.
 
 #### <a name="format-components-for-outgoing-electronic-documents"></a>Componentes de formato para documentos eletrônicos de saída
 
@@ -133,32 +134,32 @@ Controle de versão tem suporte para componentes ER. O seguinte fluxo de trabalh
 
 As versões com o status **Concluída** ou **Compartilhada** estão disponíveis para outra troca de dados. As seguintes ações podem ser executadas em um componente que tem esse status:
 
-- O componente pode ser serializado em formato XML e exportado do Dynamics 365 for Operations como um arquivo no formato XML.
-- O componente pode ser seriado novamente de um arquivo XML e importado para o Dynamics 365 for Operations como uma nova versão de um componente de ER.
+- O componente pode ser serializado em formato XML e exportado como um arquivo no formato XML.
+- O componente pode ser seriado novamente de um arquivo XML e importado para o Finance and Operations como uma nova versão de um componente de ER.
 
 #### <a name="component-date-effectivity"></a>Efetivação de data de componente
 
-Versão do componente ER com efetivação de data. Você pode definir a data **Efetiva a partir de** para que um componente ER especifique a data em que esse componente entra em vigor para os processos de relatório. A data da sessão do Dynamics 365 for Operations é usada para definir se um componente é válido para execução. Se mais de uma versão é válida para uma data específica, a última versão é usada para processos de relatório.
+Versão do componente ER com efetivação de data. Você pode definir a data **Efetiva a partir de** para que um componente ER especifique a data em que esse componente entra em vigor para os processos de relatório. A data da sessão do Finance and Operations é usada para definir se um componente é válido para execução. Se mais de uma versão é válida para uma data específica, a última versão é usada para processos de relatório.
 
 #### <a name="component-access"></a>Acesso ao componente
 
-O acesso aos componentes no formato ER depende da definição de códigos de país/região ISO. Quando essa configuração está em branco para uma versão selecionada de uma configuração de formato, um componente de formato pode ser acessado de qualquer empresa do Dynamics 365 for Operations em tempo de execução. Quando esta definição contém códigos de país/região ISO, um componente de formato fica disponível somente para empresas do Dynamics 365 for Operations que têm um endereço principal definido para um dos códigos de país/região ISO do componente de formato.
+O acesso aos componentes no formato ER depende da definição de códigos de país/região ISO. Quando essa configuração está em branco para uma versão selecionada de uma configuração de formato, um componente de formato pode ser acessado de qualquer empresa em tempo de execução. Quando essa configuração contiver códigos de país/região ISO, um componente de formato estará disponível das únicas empresas em que o endereço principal for definido para um dos códigos de país/região ISO do componente de formato.
 
 Versões diferentes de um componente de formato de dados podem ter diferentes configurações de códigos de país/região ISO.
 
 #### <a name="configuration"></a>Configuração
 
-Uma configuração ER é o wrapper de um componente ER específico. Esse componente pode ser um componente de modelo de dados ou um componente de formato. Uma configuração pode incluir versões diferentes de um componente ER. Cada configuração é marcada como propriedade de um provedor de configuração específico. A versão **Rascunho** de um componente de uma configuração pode ser editada quando o proprietário de uma configuração for selecionado como o provedor ativo nas configurações ER do Dynamics 365 for Operations.
+Uma configuração ER é o wrapper de um componente ER específico. Esse componente pode ser um componente de modelo de dados ou um componente de formato. Uma configuração pode incluir versões diferentes de um componente ER. Cada configuração é marcada como propriedade de um provedor de configuração específico. A versão **Rascunho** de um componente de uma configuração pode ser editada quando o proprietário de uma configuração for selecionado como o provedor ativo nas configurações ER do Finance and Operations.
 
 Cada configuração de modelo contém um componente do modelo de dados. Uma nova configuração de formato pode ser derivada de uma configuração de modelo de dados específicos. Na árvore de configuração, a configuração de formato criada aparece como um filho da configuração do modelo de dados original.
 
 A configuração de formato criada contém um componente de formato. O componente modelo de dados da configuração original de modelo é inserido automaticamente no componente formato da configuração de formato filho criada como uma fonte de dados padrão.
 
-Uma configuração ER é compartilhada para empresas do Dynamics 365 for Operations.
+Uma configuração ER é compartilhada para empresas do Finance and Operations.
 
 #### <a name="provider"></a>Provedor
 
-O provedor de ER é a identificação de uma parte que é usada para indicar o autor (proprietário) de cada configuração de ER. ER permite que você gerencie a lista de provedores de configuração. As configurações de formato que são lançadas para documentos eletrônicos como parte da solução do Dynamics 365 for Operations são marcadas como pertencentes ao fornecedor de configuração da **Microsoft**.
+O provedor de ER é a identificação de uma parte que é usada para indicar o autor (proprietário) de cada configuração de ER. ER permite que você gerencie a lista de provedores de configuração. As configurações de formato que são liberadas para documentos eletrônicos como parte da solução do Finance and Operations são marcadas como pertencentes ao fornecedor de configuração da **Microsoft**.
 
 Para aprender a registrar um novo provedor de ER, execute a guia de tarefas **ER Criar um provedor de configuração e marcá-lo como ativo** (parte do processo comercial **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
 
@@ -166,11 +167,11 @@ Para aprender a registrar um novo provedor de ER, execute a guia de tarefas **ER
 
 Um repositório armazena as configurações de RE. Dois tipos de repositórios de ER têm suporte no momento, **Recursos de operações** e **Projeto de LCS**.
 
-Um repositório de **Recursos de operações** fornece acesso à lista de configurações que a Microsoft, como provedora de configuração do ER, entrega como parte da solução do Dynamics 365 for Operations. Essas configurações podem ser importadas para a instância atual do Dynamics 365 for Operations e usadas para relatórios eletrônicos. Elas também podem ser usadas para localizações e personalizações adicionais.
+Um repositório de **Recursos de operações** fornece acesso à lista de configurações que a Microsoft, como provedora de configuração do ER, libera como parte da solução Finance and Operations. Essas configurações podem ser importadas para a instância atual do Finance and Operations e usadas para relatórios eletrônicos. Elas também podem ser usadas para localizações e personalizações adicionais.
 
-Um repositório de **projeto do LCS** fornece acesso à lista de configurações de projeto do LCS (biblioteca de ativos do projeto do LCS) que foi selecionado na fase de registro do repositório. O ER permite carregar configurações compartilhadas da instância atual do Dynamics 365 for Operations para um repositório específico do **Projeto do LCS**. Você também pode importar configurações do repositório de um **Projeto LCS** na instância do Dynamics 365 for Operations atual.
+Um repositório de **projeto do LCS** fornece acesso à lista de configurações de projeto do LCS (biblioteca de ativos do projeto do LCS) que foi selecionado na fase de registro do repositório. O ER permite carregar configurações compartilhadas da instância atual do Finance and Operations para um repositório específico do **Projeto do LCS**. Você também pode importar configurações do repositório de um **Projeto LCS** na instância do Finance and Operations atual.
 
-Os repositórios do **projeto do LCS** necessários podem ser registrados individualmente para cada provedor de configuração da instância atual do Dynamics 365 for Operations. Cada repositório pode ser dedicado a um provedor de configuração específico.
+Os repositórios do **projeto do LCS** necessários podem ser registrados individualmente para cada provedor de configuração da instância atual do Finance and Operations. Cada repositório pode ser dedicado a um provedor de configuração específico.
 
 ## <a name="supported-scenarios"></a>Cenários com suporte
 ### <a name="building-a-data-model"></a>Criação de um modelo de dados
@@ -204,7 +205,7 @@ O ER fornece um designer de mapeamento do modelo que permite que os usuários ma
 Para familiarizar-se com este cenário em detalhes, execute os guias de tarefa **ER Definir o mapeamento do modelo e selecionar fontes de dados** e **ER Mapear modelo de dados para fontes de dados selecionadas** (parte do processo empresarial **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>Configurando mapeamentos de modelo de dados de documentos de entrada
-ER fornece um designer de mapeamento do modelo que permite que os usuários mapeiem modelos de dados que eles criaram para destinos específicos. Por exemplo, os modelos de dados podem ser mapeados para os componentes de dados atualizáveis do Dynamics 365 for Operations (tabelas, entidades de dados e exibições). Com base no mapeamento, os dados do Dynamics 365 for Operations serão atualizados em tempo de execução usando os dados do modelo de dados. Como armazenamento abstrato do formato ER, o modelo de dados é preenchido com dados importados de um documento eletrônico de entrada. A ilustração a seguir mostra um exemplo desse tipo de mapeamento de modelo de dados. Neste exemplo, o mapeamento de modelo **Importar mapeamento para NETS** do modelo de dados de domínio de pagamento é usado para oferecer suporte à importação de extratos bancários no formato bancário NETS da Noruega.
+ER fornece um designer de mapeamento do modelo que permite que os usuários mapeiem modelos de dados que eles criaram para destinos específicos. Por exemplo, os modelos de dados podem ser mapeados para os componentes de dados atualizáveis do Finance and Operations (tabelas, entidades de dados e exibições). Com base no mapeamento, os dados do Finance and Operations serão atualizados em tempo de execução usando os dados do modelo de dados. Como armazenamento abstrato do formato ER, o modelo de dados é preenchido com dados importados de um documento eletrônico de entrada. A ilustração a seguir mostra um exemplo desse tipo de mapeamento de modelo de dados. Neste exemplo, o mapeamento de modelo **Importar mapeamento para NETS** do modelo de dados de domínio de pagamento é usado para oferecer suporte à importação de extratos bancários no formato bancário NETS da Noruega.
 
 [![Importar mapeamento para o exemplo do modelo de dados NETS](./media/ER-overview-08.png)](./media/ER-overview-08.png)
 
@@ -283,7 +284,7 @@ Permite ER de criar (derivado) um novo componente da versão atual de um compone
 
 ### <a name="upgrading-a-format-selecting-a-new-version-of-base-format-rebase"></a>Atualização de um formato selecionando uma nova versão do formato base (rebase)
 
-O ER permite adotar automaticamente alterações na última versão do componente base na versão de rascunho atual do componente derivado. Esse processo é conhecido como *troca de base*. Por exemplo, as novas alterações de regulamentação (apresentadas na última versão do componente do formato importado do LCS) podem ser automaticamente adotadas na própria versão personalizada desse formato do documento eletrônico. As alterações que não podem ser mescladas automaticamente são consideradas conflitos. Esses conflitos são apresentados para resolução manual na ferramenta de designer para o componente apropriado. Execute a guia de tarefa **ER Atualizar o formato adotando uma nova versão base dele** (parte do **processo comercial 7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**) para você familiarizar-se com este cenário em detalhes.
+O ER permite adotar automaticamente alterações na última versão do componente base na versão de rascunho atual do componente derivado. Esse processo é conhecido como *troca de base*. Por exemplo, as novas alterações de regulamentação (apresentadas na última versão do componente do formato importado do LCS) podem ser automaticamente adotadas na própria versão personalizada desse formato do documento eletrônico. As alterações que não podem ser mescladas automaticamente são consideradas conflitos. Esses conflitos são apresentados para resolução manual na ferramenta de designer para o componente apropriado. Reproduza o guia de tarefas **ER Atualizar o formato adotando uma nova versão base dele** (parte do **processo comercial 7.5.5.3 Adquirir/Desenvolver componente de solução/serviço de TI alterado (10683)**) para se familiarizar com este cenário em detalhes.
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a>Lista de configurações ER entregues na solução do Finance and Operations
 | Configurações do modelo de dados específicos do domínio: título | Domínio                | Configurações dependentes do modelo de formato de data: título | Descrição                                                        |

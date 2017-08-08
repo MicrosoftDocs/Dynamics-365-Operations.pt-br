@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: kfend
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 655a6fd99c0688b13c31c79f3322a287f902e7f1
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2c04bbccf22ab830404206cd54b4cb8e97b6a822
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -67,7 +67,7 @@ A ilustração a seguir mostra o design de uma expressão desse tipo. Neste exem
 
 ### <a name="data-formatting"></a>Formatação de dados
 
-O designer de fórmulas de ER pode ser usado para definir uma expressão que formata os dados que são recebidos das fontes de dados, de modo que os dados podem ser enviados como parte da criação de um documento eletrônico. Se você tem a formatação que deve ser aplicada como uma regra típica que será reutilizada para um formato, você pode apresentar formatando uma vez em uma configuração de formato como uma transformação nomeada que tenha uma expressão de formatação. Essa transformação nomeada poderá depois ser vinculada a vários componentes de formato cuja saída deve ser formatada de acordo com a expressão criada. A ilustração a seguir mostra o design de uma transformação desse tipo. Neste exemplo, a transformação de **TrimmedString** leva dados de entrada do tipo de dados **Cadeia de caracteres**, e trunca espaços em excesso quando devolve o valor da cadeia de caracteres. [![picture-transformation-design](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg) A ilustração a seguir mostra como uma transformação desse tipo pode ser usada. Neste exemplo, vários componentes do formato que enviam o texto como as saídas para a geração de documento eletrônico no momento de execução se referem a transformação de **TrimmedString** por nome. [![picture-transformation-usage](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg) Quando os componentes do formato se referem à transformação **TrimmedString ** (por exemplo, o componente **partyName** na ilustração anterior), o texto é enviado como saída para o documento gerado. O texto não inclui espaços à esquerda e à direita. Se você tiver uma formatação que precise ser aplicada individualmente, ela poderá ser apresentada como a expressão individual da associação do componente de formato específico. A ilustração a seguir mostra uma expressão desse tipo. Neste exemplo, o componente do formato **partyType** é associado à fonte de dados por meio de uma expressão que converte os dados de entrada do campo **Model.Company.RegistrationType** na fonte de dados em texto maiúscula e a envia como SMS de saída no documento eletrônico. [![picture-binding-with-formula](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
+O designer de fórmulas de ER pode ser usado para definir uma expressão que formata os dados que são recebidos das fontes de dados, de modo que os dados podem ser enviados como parte da criação de um documento eletrônico. Se você tem a formatação que deve ser aplicada como uma regra típica que será reutilizada para um formato, você pode apresentar formatando uma vez em uma configuração de formato como uma transformação nomeada que tenha uma expressão de formatação. Essa transformação nomeada poderá depois ser vinculada a vários componentes de formato cuja saída deve ser formatada de acordo com a expressão criada. A ilustração a seguir mostra o design de uma transformação desse tipo. Neste exemplo, a transformação de **TrimmedString** leva dados de entrada do tipo de dados **Cadeia de caracteres**, e trunca espaços em excesso quando devolve o valor da cadeia de caracteres. [![picture-transformation-design](./media/picture-transformation-design.jpg)](./media/picture-transformation-design.jpg) A ilustração a seguir mostra como uma transformação desse tipo pode ser usada. Neste exemplo, vários componentes do formato que enviam o texto como as saídas para a geração de documento eletrônico no momento de execução se referem a transformação de **TrimmedString** por nome. [![picture-transformation-usage](./media/picture-transformation-usage.jpg)](./media/picture-transformation-usage.jpg) Quando os componentes do formato se referem à transformação **TrimmedString** (por exemplo, o componente **partyName** na ilustração anterior), o texto é enviado como saída para o documento gerado. O texto não inclui espaços à esquerda e à direita. Se você tiver uma formatação que precise ser aplicada individualmente, ela poderá ser apresentada como a expressão individual da associação do componente de formato específico. A ilustração a seguir mostra uma expressão desse tipo. Neste exemplo, o componente do formato **partyType** é associado à fonte de dados por meio de uma expressão que converte os dados de entrada do campo **Model.Company.RegistrationType** na fonte de dados em texto maiúscula e a envia como SMS de saída no documento eletrônico. [![picture-binding-with-formula](./media/picture-binding-with-formula.jpg)](./media/picture-binding-with-formula.jpg)
 
 ### <a name="process-flow-control"></a>Controle do fluxo de processo
 
@@ -104,7 +104,7 @@ As expressões de ER podem conter alguns ou todos os elementos da seguir:
 
 #### <a name="constants"></a>Constantes
 
-As constantes de texto e numéricas (valores que não são calculados) podem ser usadas na criação de expressões. Por exemplo, a expressão **VALUE ("100") + 20 **usa a constante numérica 20 e a constante da cadeia “100” e retorna o valor numérico **120**. O designer de fórmulas de ER oferece suporte a sequências de escape, o que significa que você pode especificar a cadeia de caracteres da expressão que deve ser tratada de forma diferente. Por exemplo, a expressão **"Leon Tolstói ""Guerra e Paz"" Volume 1"** retorna a seguinte cadeia de texto **Leon Tolstói "Guerra e Paz" Volume 1**.
+As constantes de texto e numéricas (valores que não são calculados) podem ser usadas na criação de expressões. Por exemplo, a expressão **VALUE ("100") + 20**usa a constante numérica 20 e a constante da cadeia “100” e retorna o valor numérico **120**. O designer de fórmulas de ER oferece suporte a sequências de escape, o que significa que você pode especificar a cadeia de caracteres da expressão que deve ser tratada de forma diferente. Por exemplo, a expressão **"Leon Tolstói ""Guerra e Paz"" Volume 1"** retorna a seguinte cadeia de texto **Leon Tolstói "Guerra e Paz" Volume 1**.
 
 #### <a name="operators"></a>Operadores
 
@@ -136,7 +136,7 @@ Além disso, você pode usar um E comercial (&) como um operador de concatenaç�
 
 #### <a name="operator-precedence"></a>Precedência do operador
 
-A ordem em que as partes de uma expressão composta são avaliadas é importante. Por exemplo, o resultado da expressão ** 1 + 4 / 2** é diferente, dependendo da operação de adição ou da operação de divisão que é executada primeiro. Você pode usar parênteses para definir explicitamente como uma expressão será avaliada. Por exemplo, para indicar que a operação de adição deve ser executada primeiro, você pode alterar a expressão **(1 + 4)/2** acima. Se a ordem das operações que devem ser executadas em uma expressão não for definida explicitamente, a ordem será baseada na precedência padrão atribuída aos operadores com suporte. As tabelas a seguir mostram os operadores e a precedência que está atribuída a cada um. Os operadores que têm uma precedência maior (por exemplo, 7) são avaliados antes dos operadores que têm uma precedência menor (por exemplo, 1).
+A ordem em que as partes de uma expressão composta são avaliadas é importante. Por exemplo, o resultado da expressão **1 + 4 / 2** é diferente, dependendo da operação de adição ou da operação de divisão que é executada primeiro. Você pode usar parênteses para definir explicitamente como uma expressão será avaliada. Por exemplo, para indicar que a operação de adição deve ser executada primeiro, você pode alterar a expressão **(1 + 4)/2** acima. Se a ordem das operações que devem ser executadas em uma expressão não for definida explicitamente, a ordem será baseada na precedência padrão atribuída aos operadores com suporte. As tabelas a seguir mostram os operadores e a precedência que está atribuída a cada um. Os operadores que têm uma precedência maior (por exemplo, 7) são avaliados antes dos operadores que têm uma precedência menor (por exemplo, 1).
 
 | Precedência | Operadores      | Sintaxe                                                   |
 |------------|----------------|----------------------------------------------------------|
@@ -196,8 +196,8 @@ As tabelas a seguir descrevem o manuseio de dados da função que podem ser usad
 | SESSIONNOW ()                              | Retorna a data e a hora atuais da sessão do Dynamics 365 for Finance and Operations como um valor datetime.                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
 | DATEFORMAT (data, formato)                  | Retorna a representação de cadeia de caracteres de data usando o formato especificado.                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** retorna a data atual da sessão do Dynamics 365 for Finance and Operations, 12/24/2015, como "**24-12-2015**", de acordo com o formato personalizado especificado.                                                                                                                      |
 | DATEFORMAT (data, formato, cultura)         | Converte o valor de data especificado em uma cadeia de caracteres no formato e [cultura](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx) especificados. (Para saber mais sobre os formatos compatíveis, consulte [padrão](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx) e [personalizar](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)).     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** retorna a data atual da sessão do Finance and Operations, 12/24/2015, como **"24.12.2015"**, de acordo com a cultura alemã selecionada.                                                                                                                       |
-| DAYOFYEAR (data)              | Retorna a representação inteira do número de dias entre 1º de janeiro e a data especificada.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** retorna **61**.
-**DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** retorna **1**.                                                                                                                       |
+| DAYOFYEAR (data)              | Retorna a representação inteira do número de dias entre 1º de janeiro e a data especificada.       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** retorna **61**. **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** retorna **1**. 
+                                                                                                                      |
 
 **Funções de conversão de dados**
 
@@ -236,7 +236,14 @@ As tabelas a seguir descrevem o manuseio de dados da função que podem ser usad
 <li>Lotes como listas normais (componente <strong>Valor</strong>)</li>
 <li>O número do lote atual (componente <strong>BatchNumber</strong>)</li>
 </ul></td>
-<td>Neste exemplo, a fonte de dados <strong>Linhas</strong> é criada como uma lista de registros de três os registros, que é dividida em lotes, cada qual contém até dois registros. <a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> Isso mostra o layout do formato criado, em que as associações à fonte de dados <strong>Linhas</strong> são criadas para gerar saída no formato XML que apresenta nós individuais para cada lote e os registros contidos nele. <a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> O resultado da execução do formato criado é o seguinte. <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<td>Neste exemplo, a fonte de dados <strong>Linhas</strong> é criada como uma lista de registros de três os registros, que é dividida em lotes, cada qual contém até dois registros. 
+<a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> 
+
+Isso mostra o layout do formato criado, em que as associações à fonte de dados <strong>Linhas</strong> são criadas para gerar saída no formato XML que apresenta nós individuais para cada lote e os registros contidos nele. 
+<a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> 
+
+O resultado da execução do formato criado é o seguinte: 
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
 </tr>
 <tr class="odd">
 <td>LIST (registro 1 [, registro 2, ...])</td>
@@ -300,7 +307,14 @@ As tabelas a seguir descrevem o manuseio de dados da função que podem ser usad
 <li>Lista de registros específicas como listas comuns (componente <strong>Valor</strong>)</li>
 <li>O índice do registro atual (componente <strong>Número</strong>)</li>
 </ul></td>
-<td>No exemplo a seguir, a fonte de dados <strong>Enumerada</strong> é criada como uma lista enumerada dos registros do fornecedor da fonte de dados <strong>Fornecedores</strong> que refere-se a tabela <strong>VendTable</strong>. <a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a>Aqui está o formato, em que as associações são criadas para gerar saída no formato XML que apresenta fornecedores individuais como nós enumerados. <a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> O resultado da execução do formato criado é este: <a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<td>No exemplo a seguir, a fonte de dados <strong>Enumerada</strong> é criada como uma lista enumerada dos registros do fornecedor da fonte de dados <strong>Fornecedores</strong> que refere-se a tabela <strong>VendTable</strong>. 
+<a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a> 
+
+Aqui está o formato, em que as associações são criadas para gerar saída no formato XML que apresenta fornecedores individuais como nós enumerados. 
+<a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> 
+
+O resultado da execução do formato criado é este: 
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
 </tr>
 <tr class="odd">
 <td>COUNT (lista)</td>
@@ -322,13 +336,24 @@ A lista criada consistirá em registros com os seguintes campos:
 <li>descrição</li>
 </ul>
 Os campos Etiqueta e Descrição retornarão valores no tempo de execução com base nas configurações do idioma do formato.</td>
-<td>O exemplo a seguir mostra a enumeração apresentada em um modelo de dados. <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>Considere o exemplo a seguir:
+<td>O exemplo a seguir mostra a enumeração apresentada em um modelo de dados. 
+<a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
+
+Considere o exemplo a seguir:
 <ul>
 <li>A enumeração do modelo inserida em um relatório como uma fonte de dados.</li>
 <li>A expressão ER criada para usar a enumeração do modelo como o parâmetro dessa função.</li>
 <li>A fonte de dados do tipo lista de registros inserida em um relatório usando a expressão de ER criada.</li>
 </ul>
-<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> O exemplo a seguir mostra os elementos do formato ER que estão associados à fonte de dados do tipo lista de registros criada usando a função LISTOFFIELDS.<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>Este é o resultado da execução do formato criado.<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>Observação:</strong> o texto traduzido das etiquetas e descrições é preenchido no formato ER de saída de acordo com as configurações de idioma definidas para os elementos do formato do ARQUIVO e da PASTA pai.</td>
+<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> 
+
+O exemplo a seguir mostra os elementos de formato de ER associados à fonte de dados do tipo de lista de registros criada com a função LISTOFFIELDS.
+<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
+
+Este é o resultado da execução do formato projetado.
+<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>
+
+Observação:</strong> o texto traduzido para etiquetas e descrições é populado na saída do formato de ER de acordo com as configurações de idioma definidas para os elementos de formato FILE e FOLDER pais.</td>
 </tr>
 <tr class="odd">
 <td>STRINGJOIN (lista, nome de campo, delimitador)</td>
@@ -338,7 +363,18 @@ Os campos Etiqueta e Descrição retornarão valores no tempo de execução com 
 <tr class="even">
 <td>SPLITLISTBYLIMIT (lista, valor de limite, fonte de limite)</td>
 <td>Divide a lista fornecida em uma nova lista de sublistas e retorna o resultado no conteúdo da lista de registros. O parâmetro de valor de limite especifica o valor do limite para dividir a lista de origem. O parâmetro de fonte de limite especifica a etapa na qual aumenta-se a soma total. O limite não é aplicado a um único item da lista fornecida quando a fonte do limite excede o limite definido.</td>
-<td>O exemplo a seguir mostra o formato de exemplo usando fontes de dados. <a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>Este é o resultado da execução do formato que apresenta a lista simples de itens de mercadoria.<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>O exemplo a seguir mostra o mesmo formato que foi ajustado para apresentar a lista de itens de mercadorias em lotes quando um único lote deverá incluir mercadorias com o peso total que não devem exceder o limite de 9.<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>Este é o resultado da execução do formato ajustado. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a><strong>Observação:</strong> o limite não será aplicado ao último item da lista de origem já que o valor (11) de sua fonte de limite (peso) ultrapassa o limite definido (9). Use a função <strong>ONDE</strong> ou a expressão <strong>Habilitado</strong> do elemento de formato correspondente para ignorar as sublistas (pular) durante a geração do relatório (se necessário).</td>
+<td>O exemplo a seguir mostra o formato de exemplo usando fontes de dados. 
+<a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>
+
+Esta é a execução de formato resultante que apresenta a lista simples de itens de mercadoria.
+<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>
+
+O exemplo a seguir mostra o mesmo formato que foi ajustado para apresentar a lista de itens de mercadorias em lotes quando um único lote tiver de incluir mercadorias com o peso total que não deva exceder o limite de 9.
+<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>
+
+Este é o resultado da execução do formato ajustado. <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a>
+
+<strong>Observação:</strong> o limite não será aplicado ao último item da lista de origem já que o valor (11) de sua fonte de limite (peso) excede o limite definido (9). Use a função <strong>ONDE</strong> ou a expressão <strong>Habilitado</strong> do elemento de formato correspondente para ignorar as sublistas (pular) durante a geração do relatório (se necessário).</td>
 </tr>
 <tr class="odd">
 <td>FILTRO (lista, condição)</td>
@@ -511,7 +547,10 @@ Os campos Etiqueta e Descrição retornarão valores no tempo de execução com 
 <tr class="even">
 <td>FORMAT (cadeia de caracteres 1, cadeia de caracteres 2[, cadeia de caracteres 3, ...])</td>
 <td>Retorna a cadeia de caracteres especificada, que é formatada substituindo todas as ocorrências <strong>%N</strong> pelo e<em>n</em>ésimo argumento. Os argumentos são cadeias de caracteres. Se o argumento não for fornecido para um parâmetro, o parâmetro retornará como <strong>&quot;%N&quot;</strong> na cadeia. Para valores do tipo <strong>real</strong>, a conversão de cadeia de caracteres é limitada para duas casas decimais.</td>
-<td>Neste exemplo, a fonte de dados <strong>PaymentModel</strong> retorna a lista de registros de cliente por meio do componente <strong>Cliente</strong> e o valor da data de processamento por meio do campo <strong>ProcessingDate</strong>. <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> No formato ER que é projetado para gerar um arquivo eletrônico para clientes selecionados, <strong>PaymentModel</strong> é selecionado como uma fonte de dados e controla o fluxo do processo. Uma exceção será jogada para usuários finais quando um cliente selecionado for parado para a data em que o relatório será processado. A fórmula que é criada para este tipo de controle de processamento pode usar os seguintes recursos:
+<td>Neste exemplo, a fonte de dados <strong>PaymentModel</strong> retorna a lista de registros de cliente por meio do componente <strong>Cliente</strong> e o valor da data de processamento por meio do campo <strong>ProcessingDate</strong>. 
+<a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> 
+
+No formato ER que é projetado para gerar um arquivo eletrônico para clientes selecionados, <strong>PaymentModel</strong> é selecionada como uma fonte de dados e controla o fluxo do processo. Uma exceção será jogada para usuários finais quando um cliente selecionado for parado para a data em que o relatório será processado. A fórmula que é criada para este tipo de controle de processamento pode usar os seguintes recursos:
 <ul>
 <li>Etiqueta SYS70894 do Finance and Operations, que tem o seguinte texto:
 <ul>
@@ -526,8 +565,8 @@ Os campos Etiqueta e Descrição retornarão valores no tempo de execução com 
 </ul>
 Veja a fórmula que pode ser criada: FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;)) Se um relatório é processado para o <strong>cliente Litware Retail</strong> em 17 de dezembro de 2015, na cultura <strong>EN-US</strong> e no idioma <strong>EN-US</strong> esta fórmula retorna o texto a seguir, que pode ser apresentado como uma mensagem de exceção para o usuário final: &quot;Nothing to print. O cliente Litware Retail está bloqueado para 12/17/2015.&quot; Se o mesmo relatório for processado para o<strong> cliente Litware Retail</strong> em 17 de dezembro de 2015, na cultura da <strong>Alemanha</strong> no idioma <strong>Alemão</strong>, esta fórmula retornará o texto a seguir, que usa um formato de data diferente: &quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot; <strong>Observação:</strong> A sintaxe a seguir é aplicada em fórmulas de ER para etiquetas:
 <ul>
-<li><strong>Para etiquetas dos recursos do Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>, em que X é a ID da etiqueta na AOT (Árvore de Objetos de Aplicativo)</li>
-<li><strong>Para as etiquetas que residem nas configurações:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, onde X é a ID da etiqueta na configuração de ER</li>
+<li><strong>Para etiquetas de recursos do Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>, onde X é a ID da etiqueta na AOT (Árvore de Objetos de Aplicativo)</li>
+<li><strong>Para as etiquetas que residem nas configurações de ER:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, onde X é a ID da etiqueta na configuração de ER</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -549,7 +588,8 @@ Veja a fórmula que pode ser criada: FORMAT (CONCATENATE (@&quot;SYS70894&quot;,
 <td>TRIM (cadeia de caracteres)</td>
 <td>Retorna o texto fornecido após o truncamento de espaços à direita e à esquerda, e remove vários espaços entre palavras. </td>
 <td><strong>TRIM ("     Sample     text     ")</strong> retorna <strong>"Texto de exemplo".</strong></td>
-=======
+</tr>
+<tr class="odd">
 <td>GETENUMVALUEBYNAME (caminho da fonte de dados de enumeração, texto do rótulo do valor de enumeração)</td>
 <td>Retorna o valor de uma fonte de dados de enumeração especificada pelo texto especificado desse rótulo de enumeração.</td>
 <td>O exemplo a seguir mostra a enumeração ReportDirection apresentada em um modelo de dados. Observe que as etiquetas são definidas por valores de enumeração.

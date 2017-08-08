@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 36c5e78f4b85d0c763c35b62a6592365501db325
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6be91dfc02b728ffdf0f9d3baf1d41d3d2c10fea
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -103,7 +103,7 @@ Clique no botão **Configurações** para o novo registro de destino. Em seguida
 Na página **Configurações** (**Administração da organização** &gt; **Relatório eletrônico** &gt; **Configurações**), na árvore de configurações, selecione a configuração **Atividades de importação/exportação** que você criou anteriormente. Altere o status da versão 1.1 de **Rascunho** para **Concluído** para tornar o formato disponível para uso. [![Página de configurações](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) Selecione a versão completa da configuração **Atividades de importação/exportação** e clique em **Executar**. Observe que o destino configurado será aplicado ao resultado de saída que é gerado no formato Excel. Defina a opção **Processamento em lotes** como **Sim** para executar o relatório no modo autônomo. Clique em **Recorrência** para agendar a recorrência exigida desta execução de lote. A recorrência define a frequência com que os dados atualizados serão transferidos do Finance and Operations para o Power BI. [![Caixa de diálogo Parâmetros do relatório eletrônico](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) Após ser configurado, você pode localizar o job de execução do relatório do ER na página **Trabalhos em lote** (**Administração do sistema &gt; Consultas &gt; Trabalhos em lote**). [![Página Trabalhos em lote](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) Quando esse trabalho for executado pela primeira vez, o destino criará um novo arquivo do Excel que tem o nome configurado na pasta do SharePoint selecionada. Cada vez subsequente que o trabalho for executado, o destino criará uma nova versão desse arquivo do Excel. [![Nova versão do arquivo do Excel](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Criar um conjunto de dados do Power BI usando o resultado de saída do formato ER
-Entre no Power BI e abra um grupo existente do Power BI (espaço de trabalho) ou crie um novo grupo. Clique em **Adicionar** em **Arquivos** na seção **Importar ou Conectar aos Dados** ou clique no sinal de mais (**+**) próximo ao painel esquerdo **Conjuntos de dados**. [![Criando um conjunto de dados](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Selecione a opção **SharePoint – Sites de equipe** e informe o caminho do Servidor do SharePoint que você está usando (**https://ax7partner.spoppe.com** em nosso exemplo). Navegue até a pasta **/Documentos compartilhados/Dados GER/PowerBI** e selecione o arquivo do Excel que você criou como a fonte de dados para o novo conjunto de dados do Power BI. [![Selecionando o arquivo do Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Clique em **Conectar** e depois em **Importar**. Um novo conjunto de dados será criado com base no arquivo do Excel selecionado. O conjunto de dados também pode ser adicionado automaticamente ao painel recém-criado. [![Conjunto de dados no painel](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Configure a agenda de atualização deste conjunto de dados para forçar uma atualização periódica. As atualizações periódicas habilitam o consumo de novos dados comerciais que vêm do Finance and Operations pela execução periódica do relatório de ER por meio das novas versões do arquivo do Excel que são criadas no SharePoint Server.
+Entre no Power BI e abra um grupo existente do Power BI (espaço de trabalho) ou crie um novo grupo. Clique em **Adicionar** em **Arquivos** na seção **Importar ou Conectar aos Dados** ou clique no sinal de mais (**+**) próximo ao painel esquerdo **Conjuntos de dados**. [![Criando um conjunto de dados](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Selecione a opção **SharePoint – Sites de equipe** e informe o caminho do Servidor do SharePoint que você está usando (**https://ax7partner.litware.com** em nosso exemplo). Navegue até a pasta **/Documentos compartilhados/Dados GER/PowerBI** e selecione o arquivo do Excel que você criou como a fonte de dados para o novo conjunto de dados do Power BI. [![Selecionando o arquivo do Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Clique em **Conectar** e depois em **Importar**. Um novo conjunto de dados será criado com base no arquivo do Excel selecionado. O conjunto de dados também pode ser adicionado automaticamente ao painel recém-criado. [![Conjunto de dados no painel](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Configure a agenda de atualização deste conjunto de dados para forçar uma atualização periódica. As atualizações periódicas habilitam o consumo de novos dados comerciais que vêm do Finance and Operations pela execução periódica do relatório de ER por meio das novas versões do arquivo do Excel que são criadas no SharePoint Server.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Criar um relatório do Power BI usando o novo conjunto de dados
 Para criar um novo relatório do Power BI, clique no conjunto de dados do Power BI **Detalhes de importação e exportação** que você criou. Em seguida, configure a visualização. Por exemplo, selecione a visualização **Mapa Coroplético** e configure-o da seguinte maneira:

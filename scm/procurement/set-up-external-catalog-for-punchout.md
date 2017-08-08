@@ -1,7 +1,7 @@
 ---
 title: "Configurar um catálogo externo para compras eletrônicas de PunchOut"
 description: "Este tópico descreve o uso de um catálogo externo ou catálogo de pontapé para coletar informações de cotação de um fornecedor e adicioná-lo a uma requisição."
-author: BibiSp
+author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 2d853cb963471f81d7a2a09a0f7913722de8a417
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 4c89f6f168825f7767b836be09fa73b8659b00c6
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -40,9 +40,9 @@ O catálogo externo deve permitir que um funcionário que insere uma requisiçã
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Para configurar um catálogo externo de fornecedor, conclua as tarefas a seguir:
 
-1. Configurar uma hierarquia de categorias de compras. Para obter mais informações, consulte [Configurar políticas para hierarquias de categoria de aquisição](/https://ax.help.dynamics.com/en/wiki/set-up-policies-for-procurement-category-hierarchies/).
-2. Registre o fornecedor no Finance and Operations. Antes de definir as configurações para acessar o catálogo de um fornecedor externo, você deve configurar o fornecedor e o contato do fornecedor no Microsoft Dynamics 365. O catálogo externo do fornecedor também deve ser adicionado à categoria de compras selecionada. Para obter mais informações sobre como registrar fornecedores no Microsoft Dynamics 365, consulte [Gerenciar usuários de colaboração do fornecedor](/procurement/manage-vendor-collaboration-users.md). Para obter informações sobre como atribuir o fornecedor a uma categoria de aquisição, consulte [Aprovar fornecedores para categorias específicas de aquisição](/https://ax.help.dynamics.com/en/wiki/approve-vendors-for-specific-procurement-categories/).
-3. Certifique-se de que as unidades de medida e a moeda que o fornecedor usa estejam configuradas. Para obter informações sobre como criar uma unidade de medida, consulte [Criar unidades de medida](/https://ax.help.dynamics.com/en/wiki/manage-unit-of-measure/).
+1. Configurar uma hierarquia de categorias de compras. Para obter mais informações, consulte [Configurar políticas para hierarquias de categoria de aquisição](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-policies-procurement-category-hierarchies).
+2. Registre o fornecedor no Finance and Operations. Antes de definir as configurações para acessar o catálogo de um fornecedor externo, você deve configurar o fornecedor e o contato do fornecedor no Microsoft Dynamics 365. O catálogo externo do fornecedor também deve ser adicionado à categoria de compras selecionada. Para obter mais informações sobre como registrar fornecedores no Microsoft Dynamics 365, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md). Para obter informações sobre como atribuir o fornecedor a uma categoria de aquisição, consulte [Aprovar fornecedores para categorias específicas de aquisição](/dynamics365/unified-operations/supply-chain/procurement/tasks/approve-vendors-specific-procurement-categories).
+3. Certifique-se de que as unidades de medida e a moeda que o fornecedor usa estejam configuradas. Para obter informações sobre como criar uma unidade de medida, consulte [Gerenciar unidades de medida](/dynamics365/unified-operations/supply-chain/pim/tasks/manage-unit-measure).
 4. Configurar o catálogo externo de fornecedor usando os requisitos do site do catálogo externo do fornecedor. Para mais detalhes sobre esta tarefa, veja a próxima seção.
 5. Teste as configurações do catálogo externo do fornecedor para verificar se as configurações são válidas e se você pode acessar o catálogo externo do fornecedor. Use a ação **Validar configurações** para validar a mensagem de configuração de solicitação que você definiu. Esta mensagem deve fazer com que o site do catálogo externo dos vendedores seja aberto em uma janela do navegador. Durante a validação, você não pode encomendar itens e serviços do fornecedor. Para encomendar itens e serviços, você deve acessar o catálogo do fornecedor de uma requisição de compra.
 6. Ative o catálogo externo usando o botão **Ativar catálogo** na página **Catálogos externos**. O catálogo externo deve ser ativado antes que os funcionários possam usá-lo. Você pode desativar o catálogo externo a qualquer momento.

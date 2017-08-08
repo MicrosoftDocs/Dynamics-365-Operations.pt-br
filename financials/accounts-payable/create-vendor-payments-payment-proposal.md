@@ -3,26 +3,26 @@ title: Criar pagamentos de fornecedor usando uma proposta de pagamento
 description: "Este tópico oferece uma visão geral das opções de proposta de pagamento e inclui alguns exemplos que mostram como as propostas de pagamento funcionam. Com frequência, as propostas de pagamento são usadas para criar pagamentos de fornecedor, já que a consulta de proposta de pagamento pode ser usada para selecionar rapidamente as faturas de fornecedor para pagamento com base em critérios como a data de vencimento e o desconto à vista."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b351ea58a25c763dcf90ff1c61e0e3b3cba6c34a
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: aac70abc25c45ef4479425cdb648f4450d5db2dc
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -39,8 +39,8 @@ A consulta de proposta de pagamento contém diversas guias, cada uma com diferen
 
 ## <a name="parameters"></a>Parâmetros
 -   **Selecionar faturas por** – Faturas no intervalo de datas especificado pelos campos **Data inicial** e **Data final** podem ser selecionadas por data de vencimento, data de desconto à vista ou ambas. Se usar a data de desconto à vista, o sistema procurará primeiro as faturas que têm uma data de desconto à vista entre a data inicial e a data final. O sistema determina se a fatura está qualificada para o desconto à vista usando a data da sessão para garantir que a data de desconto à vista ainda não passou.
--   **Data inicial** e**Data final** – as faturas com uma data de vencimento ou uma data de desconto à vista dentro desse intervalo de datas são selecionadas para pagamento.
--   **Data de pagamento** – se uma data for definida, todos os pagamentos serão criados nessa data. O campo **Data de pagamento mínima** será ignorado.
+-   **Data inicial** e **Data final** – as faturas com uma data de vencimento ou uma data de desconto à vista dentro desse intervalo de datas são selecionadas para pagamento.
+-   **Data de pagamento** – é usado apenas quando o campo **Período** no método de pagamento está definido como **Total**. Se uma data for definida, todos os pagamentos serão criados nessa data. O campo **Data de pagamento mínima** será ignorado.
 -   **Data de pagamento mínima** – insira a data de pagamento mínima. Por exemplo, os campos **Data inicial** e **Data final** especificam um intervalo de 1 de setembro a 10 de setembro, e a data de pagamento mínimo é 5 de setembro. Nesse caso, todas as faturas com vencimento entre 1 de setembro e 5 de setembro têm 5 de setembro como data de pagamento. Contudo, todas as faturas com vencimento entre 5 de setembro e 10 de setembro têm uma data de pagamento igual à data de vencimento de cada fatura.
 -   **Limite de valor** – insira o valor total máximo para todos os pagamentos.
 -   **Criar pagamentos sem a visualização de fatura** – Se você definir a opção como **Sim**, os pagamentos serão criados imediatamente na página **Pagamentos de fornecedor**. A página **Proposta de pagamento** será ignorada. Consequentemente, os pagamentos serão criados com mais rapidez. Os pagamentos ainda podem ser modificados na página **Pagamentos de fornecedor**. Como alternativa, você pode voltar para a página **Proposta de pagamento** usando o botão **Editar faturas para pagamento selecionado**.

@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3c3c215dbc64c3b823ab8537b66f72d7d7fdf5c1
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -94,6 +94,18 @@ Você pode colocar um fornecedor em espera em vários tipos de transação. As o
 -   **Nunca** – O fornecedor nunca é colocado em espera por inatividade.
 
 Quando você colocar um fornecedor em espera, também poderá especificar um motivo e uma data em que o status de suspensão será encerrado. Se você não inserir uma data final, o status de suspensão do fornecedor terá duração indeterminada.
+
+Você pode atualizar em massa o status Em espera **Tudo** para os fornecedores com base nos critérios selecionados na página **Desativação de fornecedor**, e atribuir um motivo pelo qual o fornecedor está Em espera.
+
+Os seguintes critérios são usados para incluir fornecedores que foram desativados em um período, para incluir ou excluir fornecedores que são funcionários, e para excluir os fornecedores em um período de carência antes da próxima suspensão.
+
+- Com base no número de dias inserido no campo **No período de atividade** na página **Desativação de fornecedor**, o aplicativo calcula a última data em que o fornecedor pode ter qualquer atividade seja considerada inativa. Ou seja, a data atual menos o número de dias inserido. Se houver uma ou mais faturas existentes para o fornecedor onde a data é posterior à última data calculada, o fornecedor será excluído da desativação. Isto também será validado se o fornecedor tiver pagamentos após essa data, requisições de compra em aberto, ordens de compra abertas, solicitações de cotações ou respostas.
+- O número de dias no campo **Período de carência antes da próxima suspensão** é usado para calcular a última data de carência. Ou seja, a data atual menos os dias inseridos. Isso só se aplica aos fornecedores que foram desativados anteriormente. No caso de uma desativação anterior, o aplicativo verifica o histórico de outras ocorrências de desativação para o fornecedor e verifica se última desativação ocorreu antes da última data de carência. Se isso ocorrer, o fornecedor será incluído no processo de desativação.
+- O parâmetro **Incluir funcionários** refere-se aos fornecedores que estão vinculados a um funcionário. É possível definir se você deseja incluir tais funcionários.
+
+Este processo excluirá sempre os fornecedores que tiverem no campo **Fornecedor suspenso** o valor **Nunca**.
+
+Os fornecedores que passarem nas validações são colocados em espera, o que define o campo **Fornecedor suspenso** como **Tudo** e o **Motivo** pelo qual foi selecionado. Um registro no histórico Em Espera é criado para o fornecedor.
 
 ## <a name="vendor-invoice-account"></a>Conta de fatura de fornecedor
 Se mais de um fornecedor tiver o mesmo endereço de cobrança ou se um fornecedor for faturado por meio de um terceiro, você poderá especificar uma conta de fatura no registro do fornecedor. A conta de fatura é a conta na qual o valor da fatura será creditado quando você criar uma fatura de fornecedor a partir de uma ordem de compra. Se você não inserir uma conta de fatura no registro do fornecedor, a conta do fornecedor será usada como conta de fatura.

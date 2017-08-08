@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,12 +35,18 @@ Este tópico descreve como criar modelos do Microsoft Excel que podem ser usados
 Este tópico mostra como criar modelos do Excel que serão usados com planos de orçamento por meio do conjunto de dados de demonstração padrão e do logon de usuário Administrador. Para obter mais informações sobre planejamento de orçamento, consulte [Visão geral do planejamento de orçamento.](budget-planning-overview-configuration.md) Você também pode acompanhar o tutorial [Planejamento de orçamento 101](budget-plan.md) para aprender princípios básicos de configuração e uso de módulos.
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>Gerar uma planilha usando o layout de documento de plano de orçamento
-Documentos de plano de orçamento podem ser exibidos e editados com um ou vários layouts. Cada layout pode ter um modelo de documento de plano de orçamento associado para exibir e editar os dados do plano de orçamento em uma planilha do Excel. Neste tópico, um modelo de documento de plano de orçamento será gerado por meio de uma configuração de layout existente. Abra a **Lista de planos de orçamento** (**Orçamento**&gt; **Planos de orçamento**). Clique em **Novo** para criar um novo documento de plano de orçamento. [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+
+Documentos de plano de orçamento podem ser exibidos e editados com um ou vários layouts. Cada layout pode ter um modelo de documento de plano de orçamento associado para exibir e editar os dados do plano de orçamento em uma planilha do Excel. Neste tópico, um modelo de documento de plano de orçamento será gerado por meio de uma configuração de layout existente. 
+
+Abra a **Lista de planos de orçamento** (**Orçamento** &gt; **Planos de orçamento**). Clique em **Novo** para criar um novo documento de plano de orçamento. 
+
+[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 Use a opção de linha **Adicionar** para adicionar linhas. Clique em **Layouts** para exibir a configuração de layout do documento de plano de orçamento. 
+
 [![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Você pode revisar a configuração do layout e ajustá-la quando necessário. Vá para **Modelo** &gt; **Gerar** para criar um arquivo do Excel para esse layout. Após a criação do modelo, vá para **Modelo** &gt; **Exibir** para abrir ou revisar o modelo de documento de plano de orçamento. É possível salvar o arquivo do Excel na sua unidade local. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png) 
+Você pode revisar a configuração do layout e ajustá-la quando necessário. Vá para **Modelo** &gt; **Gerar** para criar um arquivo do Excel para esse layout. Após a criação do modelo, vá para **Modelo** &gt; **Exibir** para abrir ou revisar o modelo de documento de plano de orçamento. É possível salvar o arquivo do Excel na sua unidade local. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > O layout de documento do plano do orçamento não pode ser editado depois que um modelo do Excel é associado a ele. Para alterar o layout, exclua o arquivo do modelo do Excel associado e gere-o novamente. Isso é necessário para manter os campos no layout e na planilha sincronizados. 

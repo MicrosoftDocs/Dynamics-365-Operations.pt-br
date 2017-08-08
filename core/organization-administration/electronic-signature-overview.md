@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 0cebd30a560ff033efab89c2055827b62cf31576
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 9bc4dba3c31e82da2285ef5e339ace634fbd6fde
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -39,7 +39,7 @@ Este artigo oferece uma visão geral de assinaturas eletrônicas e descreve como
 Uma assinatura eletrônica confirma a identidade de uma pessoa que está prestes a iniciar ou aprovar um processo de computação. Em algumas indústrias, uma assinatura eletrônica tem o mesmo valor legal que a assinatura manuscrita. As assinaturas eletrônicas são um requisito de regulamentações de conformidade para diversos setores regulamentados, como as indústrias farmacêutica, alimentícia, aeroespacial e de defesa. Também são necessárias para a conformidade com as regulamentações de 21 CFR Parte 11, emitidas pela FDA (agência de vigilância sanitária dos Estados Unidos). **Nota:** Uma assinatura eletrônica por si só não é o mesmo que uma assinatura digital. Uma assinatura eletrônica é simplesmente um substituto para uma assinatura manuscrita, ao passo que uma assinatura digital fornece medidas de segurança adicionais. Uma assinatura digital pode ajudar a identificar se outro usuário ou processo adulterou os dados. Uma assinatura digital também pode ser verificada e essa verificação não pode ser refutada pelo proprietário do certificado usado para assinar os dados. Conforme descrito abaixo, as assinaturas eletrônicas no Microsoft Dynamics 365 for Finance and Operations têm a funcionalidade interna de assinatura digital.
 
 ## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Assinaturas eletrônicas no Dynamics 365 for Finance and Operations
-No Finance and Operations, você pode usar assinaturas eletrônicas para processos comerciais críticos. Alguns processos têm recursos internos de assinatura eletrônica. Você também pode criar requisitos de assinatura personalizados para qualquer tabela e campo de banco de dados. As assinaturas eletrônicas têm uma funcionalidade interna de assinatura digital. Cada usuário que assina documentos deve obter um certificado criptográfico válido. Quando um documento é assinado, a chave privada associada ao certificado é validada. O Finance and Operations registra as informações de assinatura eletrônica em um log para fornecer uma trilha de auditoria. Para configurar as assinaturas eletrônicas, consulte [Configurar assinaturas eletrônicas (Guia de tarefas)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/).
+No Finance and Operations, você pode usar assinaturas eletrônicas para processos comerciais críticos. Alguns processos têm recursos internos de assinatura eletrônica. Você também pode criar requisitos de assinatura personalizados para qualquer tabela e campo de banco de dados. As assinaturas eletrônicas têm uma funcionalidade interna de assinatura digital. Cada usuário que assina documentos deve obter um certificado criptográfico válido. Quando um documento é assinado, a chave privada associada ao certificado é validada. O Finance and Operations registra as informações de assinatura eletrônica em um log para fornecer uma trilha de auditoria. Para configurar as assinaturas eletrônicas, consulte [Configurar assinaturas eletrônicas (Guia de tarefas)](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures).
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>Usuários que precisam de acesso para assinaturas eletrônicas
 Normalmente, três tipos de usuários requerem o acesso de segurança para assinaturas eletrônicas: administradores de assinatura eletrônica, signatários e auditores de assinatura eletrônica.
