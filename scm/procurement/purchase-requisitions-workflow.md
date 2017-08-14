@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d28e92fa853d155bc62932625e0e714cdf4edcc
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 95d1d3a34728aab38f77635ae68bea16b08f6587
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -105,12 +105,12 @@ Não é necessário definir configurações de revisor de despesas. Você poder�
 
 Você pode configurar os revisores de despesa na página **Revisores das despesas de requisições de compra**. Crie uma configuração de revisor de despesas e insira valores para cada entidade legal na sua organização. Para as requisições atribuídas a um projeto, você pode especificar a função responsável por rever as requisições: Gerente do projeto, Controlador do projeto ou Gerente de vendas do projeto. As despesas serão encaminhadas ao usuário atribuído para essa função especificada. Você também poderá encaminhar a despesa ao proprietário da dimensão financeira marcando a opção apropriada da dimensão financeira na guia **Distribuições de organização**.  
 
-Para usar um dos revisores de despesas que você configura em um fluxo de trabalho, você deverá definir a opção **Tipo de participante** como**Participantes de despesas** nas propriedades**Atribuição** para o elemento de fluxo de trabalho relevante.
+Para usar um dos revisores de despesas que você configura em um fluxo de trabalho, você deverá definir a opção **Tipo de participante** como **Participantes de despesas** nas propriedades **Atribuição** para o elemento de fluxo de trabalho relevante.
 
 <a name="see-also"></a>Consulte também
 --------
 
-[Criar uma requisição para consumo (guia de tarefas)](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[Criar uma requisição para consumo (Guia de tarefas)](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-requisition-consumption)
 
 [Definir fluxos de trabalho de processos de negócios para requisições de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 

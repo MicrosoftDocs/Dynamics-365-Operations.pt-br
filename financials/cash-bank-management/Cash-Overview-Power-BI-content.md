@@ -3,21 +3,23 @@ title: "Visão geral do conteúdo de caixa do Power BI"
 description: "Este tópico descreve a visão geral do conteúdo de caixa do Power BI. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 06/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e969c2033463d565ce782c7dc8cfc4b458349289
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 367fe61492648ee3ee629a8121e664dfaa0c6c99
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -34,6 +36,10 @@ O conteúdo **Visão geral do caixa** do Power BI foi criado para pessoas que s�
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
 
 Se estiver usando o Dynamics 365 for Finance and Operations, Enterprise edition atualização de julho de 2017, os relatórios do conteúdo da **Visão geral de caixa** do Power BI serão exibidos nos espaços de trabalho **Visão geral de caixa** e **Gerenciamento bancário**.
+
+Para exibir os relatórios de previsão de fluxo de caixa com dados, primeiro é preciso executar o processo de cálculo de previsão usando a função **Calcular previsões de fluxo de caixa** na área Gerenciamento de caixa e bancos.  Isso precisa ser concluído para cada empresa incluída na previsão.  Depois, é preciso atualizar a medida agregada LedgerCovLiquidityMeasurement na página **Repositório de Entidades**.  
+
+Para fins de demonstração, você pode adicionar os dados de demonstração de previsão de fluxo de caixa usando a página **Gerar dados** no módulo Dados de demonstração.  Este script inserirá os dados nas tabelas de previsão de fluxo de caixa para que as informações necessárias aos relatórios sejam preenchidas rapidamente.  Este módulo só estará disponível se você tiver o modelo de conjunto Dados de demonstração implantado no ambiente. 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Relatórios incluídos no conteúdo do Power BI
 A tabela a seguir fornece detalhes sobre as métricas encontradas em cada página de relatório no conteúdo **Visão geral de caixa** do Power BI.

@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 889a9ce79d4599a60a4503d7876276a1452a5465
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 84243a91d8b76873cd33651bbdff900b14d9c76e
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,8 +36,8 @@ Este tópico aponta a recursos que ajudarão você a usar o Microsoft Dynamics 3
 ----------------
 
 -   [Visão geral de sequência numérica](number-sequence-overview.md)
--   [Configurar sequências numéricas usando um assistente](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/) (Guia de tarefas)
--   [Configurar sequências numéricas em uma base individual](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/) (Guia de tarefas)
+-   [Configurar sequências numéricas usando um assistente](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard) (Guia de tarefas)
+-   [Configurar sequências numéricas em uma base individual](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis) (Guia de tarefas)
 
 ## <a name="address-books"></a>Catálogos de endereços
 -   [Catálogos de endereços](qa-address-books.md)
@@ -67,17 +67,17 @@ Este tópico aponta a recursos que ajudarão você a usar o Microsoft Dynamics 3
 
 ## <a name="electronic-signatures"></a>Assinaturas eletrônicas
 -   [Visão geral das assinaturas eletrônicas](electronic-signature-overview.md)
--   [Configurar assinaturas eletrônicas](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/) (Guia de tarefas)
+-   [Configurar assinaturas eletrônicas](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures) (Guia de tarefas)
 
 ## <a name="organizations"></a>Organizações
 -   [Organizações e hierarquias da organização](organizations-organizational-hierarchies.md)
 -   [Planejar a hierarquia organizacional](plan-organizational-hierarchy.md)
--   [Criar uma unidade operacional](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/) (Guia de tarefas)
--   [Criar uma hierarquia da organização](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/) (Guia de tarefas)
--   [Criar uma entidade legal](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/) (Guia de tarefas)
+-   [Criar uma unidade operacional](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-operating-unit) (Guia de tarefas)
+-   [Criar uma hierarquia da organização](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-organization-hierarchy) (Guia de tarefas)
+-   [Criar uma entidade legal](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-legal-entity) (Guia de tarefas)
 
 ## <a name="general-administration"></a>Administração geral
--   [Alterar a faixa ou o logotipo](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/) (Guia de tarefas)
+-   [Alterar a faixa ou o logotipo](/dynamics365/unified-operations/fin-and-ops/get-started/tasks/change-banner-or-logo) (Guia de tarefas)
 -   [Sobre dados de data/hora e fusos horários](date-time-zones.md)
 -   [Modelos de registro](record-templates.md)
 

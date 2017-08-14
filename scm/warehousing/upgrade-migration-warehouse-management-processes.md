@@ -15,13 +15,13 @@ ms.custom: 1714054
 ms.assetid: 79a1a3b9-3a36-4162-8839-ec39b5e26602
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 5ab19faddedae8cf61222762714609601b0ae96f
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: cacf48bc10be5c06154816c2f9951ab4bbaee1c1
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +35,7 @@ Este tópico fornece uma visão geral das opções de migração do gerenciament
 Durante uma atualização para Finanças e Operações, os produtos são bloqueados se estiverem associados a um grupo de dimensões de armazenamento que tenha configurações que não correspondam aos requisitos de configurações de grupo de dimensões de armazenamento no Finance and Operations. No entanto, após a atualização, você pode usar um conjunto de opções de migração no processo **Alterar grupo de dimensão de armazenamento para itens** para desbloquear produtos que foram bloqueados durante a atualização. Em seguida, você pode processar transações para esses produtos. Alguns de seus itens podem já estar associados a grupos de dimensões de armazenamento, onde as dimensões de inventário Site, Armazenamento e Localização estão ativas e são rastreadas fisicamente. Nesse caso, você pode usar o processo **Alterar grupo de dimensão de armazenamento para itens** para habilitar os itens a serem usados nos processos de gerenciamento de depósito. Esse recurso é útil se você quiser usar a funcionalidade de gerenciamento do armazenamento para itens existentes.
 
 ## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>Atualizando para Finanças e Operações, quando o AX 2012 R3 WMSII é usado
-Finanças e Operações, não oferece mais suporte ao módulo convencional **WMSII** do Microsoft Dynamics AX 2012. Em vez disso, você pode usar o novo módulo **Gerenciamento de depósito**. Para obter mais informações, consulte [Página inicial do gerenciamento de depósito](https://ax.help.dynamics.com/en/wiki/warehouse-management/). Nas versões anteriores, as dimensões de inventário Localização e ID de palete podem ser selecionadas para o inventário financeiro. No entanto, como parte do processo de atualização, a dimensão do inventário ID de palete não pode mais ser ativada para inventário financeiro. Todos os produtos que estão associados a um grupo de dimensões de armazenamento que usam a dimensão de inventário ID de palete serão bloqueados e não serão processados.
+Finanças e Operações, não oferece mais suporte ao módulo convencional **WMSII** do Microsoft Dynamics AX 2012. Em vez disso, você pode usar o novo módulo **Gerenciamento de depósito**. Nas versões anteriores, as dimensões de inventário Localização e ID de palete podem ser selecionadas para o inventário financeiro. No entanto, como parte do processo de atualização, a dimensão do inventário ID de palete não pode mais ser ativada para inventário financeiro. Todos os produtos que estão associados a um grupo de dimensões de armazenamento que usam a dimensão de inventário ID de palete serão bloqueados e não serão processados.
 
 ### <a name="enabling-items-in-finance-and-operations"></a>Ativando itens no Finance and Operations
 
@@ -70,7 +70,7 @@ Para usar produtos lançados no módulo **Gerenciamento de depósito**, os produ
 1.  Crie pelo menos um novo perfil de localização.
 2.  Clique em **Gerenciamento de depósito** &gt; **Configuração** &gt; **Habilitar processos de gerenciamento de depósito** &gt; **Habilitar configuração de depósito**.
 3.  Na página **Habilitar configuração de depósito**, adicione os depósitos que devem ser habilitados. Você pode concluir esta etapa na página ou diretamente usando a integração do Microsoft Office.
-4.  Atribua um perfil de local a todos os locais. Você pode facilmente completar esta etapa usando a integração do Microsoft Office diretamente da página. Você pode exportar e importar os dados ou usar o processamento da entidade de dados em [Gerenciamento de dados](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/).
+4.  Atribua um perfil de local a todos os locais. Você pode facilmente completar esta etapa usando a integração do Microsoft Office diretamente da página. Você pode exportar e importar os dados ou usar o processamento da entidade de dados em [Gerenciamento de dados](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities).
 5.  Valide as alterações. Como parte do processo de validação, ocorrem várias validações de integridade de dados. Como parte de um processo de atualização maior, os problemas que ocorrem podem ter que ser ajustados na implementação de origem. Neste caso, será necessária uma atualização adicional de dados.
 6.  Processe as alterações.
 
@@ -81,7 +81,7 @@ Para usar produtos lançados no módulo **Gerenciamento de depósito**, os produ
 3.  Na página **Hierarquia de reserva**, defina uma nova hierarquia de reserva de acordo com os grupos de dimensão de rastreamento e de armazenamento de item.
 4.  Crie um ou mais grupos de sequência de unidade incluindo pelo menos as mesmas unidades usadas para as unidades de estoque de itens.
 5.  Clique em **Gerenciamento de depósito** &gt; **Configuração** &gt; **Habilitar processos de gerenciamento de depósito** &gt; **Alterar grupo de dimensão de estoque para itens**.
-6.  Na página **Alterar grupo de dimensão de estoque para itens**, adicione os números de item, os grupos de dimensões de estoque, e os grupos de sequências unitários. Você pode concluir este passo diretamente na página, usando a integração do Microsoft Office ou usando o processo de entidade de dados em [Gerenciamento de dados](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/).
+6.  Na página **Alterar grupo de dimensão de estoque para itens**, adicione os números de item, os grupos de dimensões de estoque, e os grupos de sequências unitários. Você pode concluir este passo diretamente na página, usando a integração do Microsoft Office ou usando o processo de entidade de dados em [Gerenciamento de dados](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities).
 7.  Valide as alterações. Como parte do processo de validação, ocorrem várias validações de integridade de dados. Como parte de um processo de atualização maior, os problemas que ocorrem podem ter que ser ajustados na implementação de origem. Neste caso, será necessária uma atualização adicional de dados.
 8.  Processe as alterações. Uma atualização das dimensões do estoque pode demorar um pouco. Você pode monitorar o progresso usando as tarefas de trabalhos em lote.
 

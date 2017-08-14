@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: fa629b4b8f7fcbd15ee89bc66cbc0bd7ca45215c
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: d549f38b9278eed222a1318c51962b248149c569
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -78,7 +78,7 @@ Os diários de entrada de produção trabalham como os diários de entrada de it
 
 ### <a name="counting"></a>Contando
 
-Os diários de contagem permitem corrigir o estoque disponível registrado para os itens ou grupos de itens e, em seguida, lançar a contagem física atual, de modo que você possa fazer os ajustes necessários para reconciliar as diferenças. Você pode associar políticas de contagem com os grupos de contagem para ajudar os itens do grupo que têm diversas características, de modo que os itens possam ser incluídos em um diário de contagem. Por exemplo, você pode configurar grupos de contagem para itens com uma frequência específica, ou para contar itens quando o estoque ficar em um nível específico. Para obter informações sobre como definir grupos de contagem, consulte [Definir processos de contagem de estoque (Guia de tarefas)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/).
+Os diários de contagem permitem corrigir o estoque disponível registrado para os itens ou grupos de itens e, em seguida, lançar a contagem física atual, de modo que você possa fazer os ajustes necessários para reconciliar as diferenças. Você pode associar políticas de contagem com os grupos de contagem para ajudar os itens do grupo que têm diversas características, de modo que os itens possam ser incluídos em um diário de contagem. Por exemplo, você pode configurar grupos de contagem para itens com uma frequência específica, ou para contar itens quando o estoque ficar em um nível específico. Para obter informações sobre como definir grupos de contagem, consulte [Definir processos de contagem de estoque (Guia de tarefas)](/dynamics365/unified-operations/supply-chain/inventory/tasks/define-inventory-counting-processes).
 
 ### <a name="tag-counting"></a>Contagem de etiquetas
 

@@ -1,28 +1,27 @@
 ---
 title: "Espaço de trabalho móvel de gerenciamento de despesas"
-description: "Este tópico fornece informações sobre o espaço de trabalho móvel Gerenciamento de despesas, que está disponível para o aplicativo móvel Microsoft Dynamics 365 for Finance and Operations. Este espaço de trabalho permite que os usuários capturem e carreguem um recibo, para que possam anexá-lo a um relatório de despesas posteriormente. O espaço de trabalho móvel também permite que os usuários criem rapidamente uma linha de despesa usando um recibo anexado."
-author: annbe
+description: "Este tópico fornece informações sobre o espaço de trabalho móvel Gerenciamento de despesas. Este espaço de trabalho permite que os usuários capturem e carreguem um recibo, para que possam anexá-lo a um relatório de despesas posteriormente. Os usuários também podem criar rapidamente uma linha de despesa usando um recibo anexado, além de criar e gerenciar seus relatórios de despesas."
+author: KimANelson
 manager: AnnBe
-ms.date: 04/10/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-audience: end user, IT Pro
-ms.reviewer: annbe
-ms.search.scope: Operations
+audience: Application User
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
-ms.author: annbe
+ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0e52d1c5dde7f79c4a8ac5ac2d9c3b25bba9c2cd
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: 2dd3db95eb741c37dd8a50c397cb4c9494599250
+ms.openlocfilehash: 993586b1fb46c21d2b68a6060ab897c8ccc76a6c
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -30,29 +29,44 @@ ms.lasthandoff: 06/13/2017
 
 [!include[banner](../includes/banner.md)]
 
+Este tópico fornece informações sobre o espaço de trabalho móvel **Gerenciamento de despesas**. Este espaço de trabalho permite que os usuários capturem e carreguem um recibo, para que possam anexá-lo a um relatório de despesas posteriormente. Os usuários também podem criar rapidamente uma linha de despesa usando um recibo anexado, além de criar e gerenciar seus relatórios de despesas. Adicionalmente, os aprovadores podem usar o espaço de trabalho móvel **Gerenciamento de despesas** para exibir os relatórios de despesas atribuídos a eles, e aprová-los ou rejeitá-los.
 
-Este tópico fornece informações sobre o espaço de trabalho móvel Gerenciamento de despesas, que está disponível para o aplicativo móvel Microsoft Dynamics 365 for Finance and Operations. Este espaço de trabalho permite que os usuários capturem e carreguem um recibo, para que possam anexá-lo a um relatório de despesas posteriormente. O espaço de trabalho móvel também permite que os usuários criem rapidamente uma linha de despesa usando um recibo anexado.
 
-<a name="overview-of-the-expense-management-mobile-workspace"></a>Visão geral do espaço de trabalho móvel Gerenciamento de despesas
----------------------------------------------------
+O espaço de trabalho móvel é destinado a ser usado com o Microsoft Dynamics 365 do aplicativo móvel Operações Unificadas.
 
-Muitas organizações exigem que uma cópia do recibo seja anexada a um relatório de despesas relacionado a viagem ou a negócios que um funcionário submete para reembolso. O espaço de trabalho móvel **Gerenciamento de despesas** permite que os usuários criem rapidamente novas linhas de despesa no dispositivo móvel de sua preferência usando uma foto do recibo anexada. Como alternativa, os usuários podem tirar uma foto de um recibo e anexá-la a um relatório de despesas depois. Especificamente, espaço de trabalho móvel **Gerenciamento de despesas** habilita um usuário para:
 
--   Tirar uma foto de um recibo e carregá-lo no Microsoft Dynamics 365 for Finance and Operations. Um usuário poderá anexar essa foto a um relatório de despesas posteriormente.
--   Carregar um arquivo como um recibo capturado. Um usuário poderá anexar esse arquivo a um relatório de despesas posteriormente.
--   Criar uma nova linha despesa usando um recibo anexado. Um usuário poderá adicionar o item de linha a um relatório de despesas posteriormente, e enviá-lo para aprovação e reembolso.
+## <a name="overview"></a>Visão Geral
 
-As seções restantes deste tópico explicam como implementar e usar o espaço de trabalho móvel **Gerenciamento de despesas**.
+Muitas organizações exigem que uma cópia do recibo seja anexada a um relatório de despesas relacionado a viagem ou a negócios que um funcionário submete para reembolso. O espaço de trabalho móvel **Gerenciamento de despesas** permite que os usuários criem rapidamente novas linhas de despesa no dispositivo móvel de sua preferência usando uma foto do recibo anexada. Como alternativa, os usuários podem tirar uma foto de um recibo e anexá-la a um relatório de despesas depois. Os funcionários também podem criar e gerenciar os relatórios de despesas e então enviá-los para aprovação e reembolso usando seus dispositivos móveis.
+
+
+Especificamente, o espaço de trabalho móvel **Gerenciamento de despesas** permite que os usuários executem estas tarefas:
+
+- Tirar uma foto de um recibo e carregá-lo no Microsoft Dynamics 365 for Finance and Operations, edição Enterprise. Você poderá anexar essa foto a um relatório de despesas posteriormente.
+- Carregar um arquivo como um recibo capturado. Você poderá anexar esse arquivo a um relatório de despesas posteriormente.
+- Criar uma nova linha despesa usando um recibo anexado. Você poderá adicionar o item de linha a um relatório de despesas posteriormente, e enviá-lo para aprovação e reembolso.
+
+Se você estiver usando a atualização de julho de 2017 do Microsoft Dynamics 365 for Finance and Operations, edição Enterprise, também poderá usar estes recursos:
+
+- Crie um novo relatório de despesas.
+- Anexe transações de cartão de crédito e outras despesas anteriormente criadas a um relatório de despesas.
+- Crie novas despesas para um relatório de despesas.
+- Anexe um recibo de qualquer despesa a um relatório de despesas, tirando uma foto do recibo ou carregando um arquivo como um recibo capturado.
+- Dependendo da política de despesas da empresa, adicione a lista de convidados a uma despesa.
+- Dependendo da política de despesas da empresa, discrimine as despesas.
+- Envie um relatório de despesas para aprovação e reembolso.
+- Aprove ou rejeite os relatórios de despesas dos quais você é um aprovador.
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Antes de implementar o espaço de trabalho móvel **Gerenciamento de despesas**, certifique-se de que seu administrador do sistema preencheu os seguintes pré-requisitos.
+Os pré-requisitos variam com base na versão do Microsoft Dynamics 365 implantada para sua organização.
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Finance and Operations, Enterprise edition atualização de julho de 2017 
+Se o Microsoft Dynamics 365 for Finance and Operations, edição Enterprise de julho de 2017, foi implementado em sua organização, o administrador do sistema deve publicar a área de trabalho móvel **Gerenciamento de despesas**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior
+Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior tiver sido implantado em sua organização, o administrador do sistema deve completar os seguintes pré-requisitos. 
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Pré-requisito</th>
@@ -62,77 +76,171 @@ Antes de implementar o espaço de trabalho móvel **Gerenciamento de despesas**,
 </thead>
 <tbody>
 <tr class="odd">
-<td>Deve ser implementada a versão 1611 com atualização 3 ou superior de plataforma do Microsoft Dynamics 365.</td>
+<td>Implementar o KB 4019015.</td>
 <td>Administrador do sistema</td>
-<td>Se ainda não tiver o Finance and Operations implantado em sua organização, o administrador do sistema deverá acessar <a href="/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment">Implantar o ambiente de demonstração do Microsoft Dynamics 365 for Finance and Operations</a>.</td>
+<td>O KB 4019015 é um hotfix de metadados ou de atualização X++ que contém o espaço de trabalho móvel <strong>Gerenciamento de despesas</strong>. Para implementar o KB 4019015, o administrador do sistema deve seguir estas etapas.
+<ol>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/download-hotfix-lcs">Baixe o hotfix de metadados do Microsoft Dynamics Lifecycle Services (LCS)</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instalar o hotfix de metadados</a>.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Crie um pacote implantável</a> que contenha os modelos <strong>ApplicationSuite</strong> e <strong>ExpenseMobile</strong> e carregue o pacote implantável no LCS.</li>
+<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Aplicar o pacote implantável</a>.</li>
+</ol></td>
 </tr>
 <tr class="even">
-<td>O KB 4019015 deve ser implementado.</td>
+<td>Publique o espaço de trabalho móvel <strong>Gerenciamento de despesas</strong>.</td>
 <td>Administrador do sistema</td>
-<td>O 4019015 KB (um hotfix de atualização ou de metadados X++) contém quatro espaços de trabalho móveis para gerenciamento da cadeia de suprimentos. Para implementar o KB 4019015, o administrador do sistema deve seguir estas etapas:
-<ol>
-<li>Baixe o KB 4019015 do Microsoft Dynamics Lifecycle Services (LCS).</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">Instale o hotfix de metadados</a>.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package">Crie um pacote implantável</a> que contenha os modelos <strong>ApplicationSuite</strong> e <strong>ExpenseMobile</strong> e, em seguida, carregue o pacote implantável para o LCS.</li>
-<li><a href="/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system">Aplique o pacote implantável</a> ao seu sistema Finance and Operations.</li>
-</ol></td>
-</tr>
-<tr class="odd">
-<td>O espaço de trabalho móvel <strong>Gerenciamento de despesas</strong> deve ser publicado no aplicativo móvel Finance and Operations.</td>
-<td>Administrador do sistema</td>
-<td><ol>
-<li>Inicie o Finance and Operations no seu navegador.</li>
-<li>Na página <strong>Parâmetros do sistema</strong>, selecione <strong>Gerenciar espaços de trabalho móveis</strong>.</li>
-<li>Selecione o espaço de trabalho <strong>Gerenciamento de despesas</strong>.</li>
-<li>Clique em <strong>Publicar espaço de trabalho móvel</strong>.</li>
-</ol></td>
+<td>Consulte <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publicar um espaço de trabalho móvel</a>.</td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-finance-and-operations-mobile-app"></a>Baixar e instalar o aplicativo móvel Finance and Operations
-Baixe e instale o aplicativo móvel Finance and Operations de sua loja de aplicativos móveis.
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>Baixe e instale o aplicativo móvel Dynamics 365 for Operations
+Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
--   Para Android: [Finance and Operations na Google Play Store](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
--   Para iPhone: [Finance and Operations na iTunes apps store](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
+- [Para telefones Android](https://go.microsoft.com/fwlink/?linkid=850662)
+- [Para iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-finance-and-operations-mobile-app"></a>Entrar no aplicativo móvel Finance and Operations
-1.  Inicie o aplicativo móvel no seu dispositivo.
-2.  Insira a URL do Finance and Operations.
-3.  Insira a empresa à qual deseja se conectar. Por exemplo, insira **USMF**.
-4.  No primeiro acesso, são solicitados nome de usuário e senha da sua conta do Finance and Operations. Insira suas credenciais.
-5.  Após se conectar, você verá os espaços de trabalho da sua empresa. Observe que se o seu administrador de sistema publicar uma nova área de trabalho depois, você pode efetuar pull para atualizar a lista dos espaços de trabalho móveis. 
+## <a name="sign-in-to-the-mobile-app"></a>Entrar no aplicativo móvel
+1. Inicie o aplicativo móvel no seu dispositivo.
+2. Insira sua URL do Dynamics 365.
+4. Na primeira vez que você iniciar a sessão, será solicitado o nome de usuário e a senha. Insira suas credenciais.
+5. Depois de entrar, serão exibidos os espaços de trabalho disponíveis da sua empresa. Observe que se o seu administrador de sistema publica um novo espaço de de trabalho depois, você terá que atualizar a lista dos espaços de trabalho móveis.
+
 
 [![Efetue pull para atualizar](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
 
 ## <a name="capture-a-receipt-by-using-the-expense-management-mobile-workspace"></a>Obtenha um recibo usando o espaço de trabalho móvel Gerenciamento de despesas
-1.  No seu dispositivo móvel, selecione o espaço de trabalho **Gerenciamento de despesas**.
-2.  Selecione **Capturar recibo**.
-3.  Selecione **Tirar foto** ou **Escolher imagem**.
-4.  Se você selecionou **Tirar foto**, siga estas etapas:
-    1.  Utilize a câmera de seu dispositivo móvel, para que você possa tirar uma foto do recibo. Quando terminar de tirar a foto, clique em **OK** para aceitar a foto.
-    2.  Opcional: Insira um nome para a foto e observações.
 
-     **Ou:** se você tiver selecionado **Escolher imagem**, siga estas etapas:
-    1.  Selecione uma imagem na lista.
-    2.  Opcional: Insira um nome para a image e insira observações.
+1. No seu dispositivo móvel, abra o espaço de trabalho **Gerenciamento de despesas**.
+2. Selecione **Capturar recibo**.
+3. Selecione **Tirar foto** ou **Escolher imagem**.
+4. Siga uma destas etapas:
 
-5.  Selecione **Concluído**.
+    - Se você selecionou **Tirar foto**, siga estas etapas:
 
-## <a name="quick-expense-entry-by-using-the-expense-management-mobile-workspace"></a>Entrada rápida de despesas usando o espaço de trabalho móvel Gerenciamento de despesas
-1.  No seu dispositivo móvel, selecione o espaço de trabalho **Gerenciamento de despesas**.
-2.  Selecione **Entrada rápida de despesas**.
-3.  Selecione a categoria da despesa. Você verá uma lista de categorias de despesas que estão carregadas para seu aplicativo para uso offline. Por padrão, até 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [plataforma móvel do Finance and Operations](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se sua categoria não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online no Finance and Operations. Pesquise por categoria de despesa ou alterne para pesquisar por tipo de despesa.
-4.  Insira a data da transação da despesa.
-5.  Opcional: Insira o comerciante da despesa.
-6.  Insira o valor da despesa.
-7.  Selecione a moeda da despesa. Você verá uma lista de códigos de moeda que são carregados para seu aplicativo para uso offline. Por padrão, até 400 moedas são carregadas, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [plataforma móvel do Finance and Operations](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se a sua moeda não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online no Finance and Operations. Pesquise por moeda ou alterne para pesquisar por nome de categoria.
-8.  Selecione **Tirar foto** ou **Escolher imagem**.
-9.  Se selecionou **Tirar foto**, utilize a câmera de seu dispositivo móvel, para tirar uma foto do recibo. Quando terminar de tirar a foto, clique em **OK** para aceitar a foto.  ou se você selecionou **Escolher imagem**, selecione uma imagem na lista.
+        1. Utilize a câmera de seu dispositivo móvel, para que você possa tirar uma foto do recibo. Quando terminar de tirar uma foto, selecione **OK** para aceitar a foto.
+        2. Opcional: Insira um nome para a foto e observações.
+
+    - Se você tiver selecionado **Escolher imagem**, siga estas etapas:
+
+        1. Selecione uma imagem na lista.
+        2. Opcional: Insira um nome para a image e insira observações.
+
+5. Selecione **Concluído**.
+
+## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Inserir rapidamente as despesas usando o espaço de trabalho móvel Gerenciamento de despesas
+1. No seu dispositivo móvel, abra o espaço de trabalho **Gerenciamento de despesas**.
+2. Selecione **Entrada rápida de despesas**.
+3. Selecione a categoria da despesa. Você verá uma lista de categorias de despesas que estão carregadas para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se a categoria não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por categoria de despesa ou alterne para pesquisar por tipo de despesa.
+4. Insira a data da transação da despesa.
+5. Opcional: Insira o comerciante da despesa.
+6. Insira o valor da despesa.
+7. Selecione a moeda da despesa. Você verá uma lista de códigos de moeda que são carregados para seu aplicativo para uso offline. Por padrão, 400 moedas são carregadas, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se a sua moeda não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por moeda ou alterne para pesquisar por nome de categoria.
+8. Selecione **Tirar foto** ou **Escolher imagem**.
+9. Siga uma destas etapas:
+
+    - Se selecionou **Tirar foto**, utilize a câmera de seu dispositivo móvel, para tirar uma foto do recibo. Quando terminar de tirar uma foto, selecione **OK** para aceitar a foto.
+    - Se você tiver selecionado **Escolher imagem**, selecione uma imagem na lista.
+
 10. Selecione **Concluído**.
 
+## <a name="approve-an-expense-report-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Aprovar um relatório de despesas usando o espaço de trabalho móvel Gerenciamento de despesas (caso você use a atualização de julho de 2017)
+1. No seu dispositivo móvel, abra o espaço de trabalho **Gerenciamento de despesas**.
+2. **Aprovações de despesas** mostra o número de relatórios de despesas atribuídos a você para aprovação. O número é atualizado a cada 30 minutos, aproximadamente. Selecione **Aprovações de despesas**.
 
+    A lista de relatórios de despesas atribuídos a você para aprovação é mostrada.
+    
+3. Selecione um relatório de despesas para exibir os detalhes de despesa para ele.
+4. Selecione uma despesa para exibir seus detalhes. As informações mostradas para uma despesa incluem todos os detalhes sobre recibos, convidados e discriminações.
+5. De volta à página **Relatório de despesas**, selecione aprovar ou rejeitar o relatório de despesas.
+6. Insira comentários sobre a ação de aprovação.
+7. Selecione **Concluído**.
 
+## <a name="create-a-new-expense-report-and-submit-it-for-approval-by-using-the-expense-management-mobile-workspace-if-you-use-the-july-2017-update"></a>Crie um novo relatório de despesas e o envie para aprovação usando o espaço de trabalho Gerenciamento de despesas (caso você use a atualização de julho de 2017)
+1. No seu dispositivo móvel, abra o espaço de trabalho **Gerenciamento de despesas**.
+2. Selecione **Entrada de despesas**.
+3. Selecione **Novo relatório** ou selecione um relatório de despesas existente na lista.
+4. Para novos relatórios de despesas, insira a finalidade e qualquer informação adicional que esteja disponível. Essas informações variam dependendo da forma que o gerenciamento de despesas está configurado para sua empresa.
+5. Selecione **Concluído**.
+6. Para adicionar despesas existentes ao relatório de despesas, como transações de cartão de crédito, selecione **Anexar**.
+7. Selecione uma ou mais despesas na lista.
+8. Selecione **Concluído**.
+9. Para adicionar uma nova despesa ao relatório de despesas, selecione **Nova despesa**.
+10. Selecione a categoria da despesa. Você verá uma lista de categorias de despesas que estão carregadas para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se a categoria não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por categoria de despesa ou alterne para pesquisar por tipo de despesa.
+11. Opcional: Insira o comerciante da despesa.
+12. Insira a data da transação da despesa.
+13. Insira o valor da despesa.
+14. Selecione a moeda da despesa. Você verá uma lista de códigos de moeda que são carregados para seu aplicativo para uso offline. Por padrão, 400 moedas são carregadas, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se a sua moeda não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por moeda ou alterne para pesquisar por nome de categoria.
+15. Selecione **Concluído**.
+16. Para adicionar mais detalhes à despesa, selecione **Adicionar mais detalhes**. Os campos disponíveis dependerão da configuração de gerenciamento de despesas para sua empresa.
+17. Se a política da empresa exigir um recibo pela despesa, selecione **Recibos** e então siga estas etapas:
 
+    1. Selecione **Capturar recibo** ou **Anexar recibo**.
+    2. Siga uma destas etapas:
 
+        - Caso você tenha selecionado **Capturar recibo**, siga estas etapas:
+
+            1. Selecione **Tirar foto** ou **Escolher imagem**.
+            2. Siga uma destas etapas:
+
+                - Se você selecionou **Tirar foto**, siga estas etapas:
+
+                    1. Utilize a câmera de seu dispositivo móvel, para que você possa tirar uma foto do recibo. Quando terminar de tirar uma foto, selecione **OK** para aceitar a foto.
+                    2. Opcional: Insira um nome para a foto e observações.
+
+                - Se você tiver selecionado **Escolher imagem**, siga estas etapas:
+
+                    1. Selecione uma imagem na lista.
+                    2. Opcional: Insira um nome para a image e insira observações.
+
+            3.  Selecione **Concluído**.
+
+        - Caso você tenha selecionado **Anexar recibo**, siga estas etapas:
+
+            1.  Selecione uma ou mais imagens na lista.
+            2.  Selecione **Concluído**.
+
+    3. Selecione o botão **Voltar** para retornar aos detalhes da despesa.
+
+18. Se a política da empresa exigir os convidados incluídos na despesa, selecione **Convidados** e então siga estas etapas:
+
+    1. Selecione **Convidado**, **Convidados anteriores** ou **Colegas de trabalho**.
+    2. Siga uma destas etapas:
+
+        - Caso você tenha selecionado **Convidado**, siga estas etapas:
+
+            1. Insira o nome do convidado
+            2. Opcional: insira a organização e/ou o país do convidado.
+            3. Opcional: insira o cargo do convidado.
+            4. Selecione **Concluído**.
+
+        - Caso você tenha selecionado **Convidados anteriores**, siga estas etapas:
+
+            1. Selecione um ou mais convidados anteriores na lista. Você verá uma lista de convidados anteriores adicionados a relatórios de despesas anteriores carregados em seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se o seu convidado anterior não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por nome ou alterne para a pesquisa por organização, país ou cargo.
+            2. Selecione **Concluído**.
+
+        - Caso você tenha selecionado **Colegas de trabalho**, siga estas etapas:
+
+            1. Selecione um ou mais colegas de trabalho na lista. Você verá uma lista de colegas de trabalho carregada em seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se o seu colega de trabalho não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por nome ou alterne para a pesquisa por empresa ou cargo.
+            2. Selecione **Concluído**.
+
+    3. Selecione o botão **Voltar** para retornar aos detalhes da despesa.
+
+19. Se a política da empresa exigir que a empresa seja discriminada, selecione **Discriminar** e então siga estas etapas:
+
+    1. Selecione a data inicial a ser discriminada.
+    2. Selecione **Adicionar discriminação**.
+    3. Selecione a subcategoria da discriminação de despesas. Você verá uma lista de subcategorias de despesas carregada em seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se a subcategoria não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por nome de subcategoria de despesas.
+    4. Insira o valor da transação na discriminação.
+    5. Edite a data da transação, se necessário.
+    6. Selecione **Concluído**.
+    7. Repita as etapas anteriores até adicionar todas as discriminações na data selecionada.
+    8. Para outros dias, selecione **Copiar para o dia seguinte** para copiar as discriminações para o dia seguinte. Como alternativa, você pode selecionar a data a ser discriminada e então adicionar as discriminações como fez para a primeira data.
+    9. Depois de concluir a discriminação da despesa, selecione o botão **Voltar** para retornar aos detalhes da despesa.
+
+20. Selecione o botão **Voltar** para retornar à página **Relatório de despesas**.
+21. Repita as etapas anteriores até adicionar todas as despesas.
+22. Selecione **Enviar**.
+23. Insira comentários para o aprovador.
+24. Selecione **Concluído**.
 

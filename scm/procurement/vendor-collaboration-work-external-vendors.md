@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: b0aefc62f2d54da963f03dc74d492260722cd451
-ms.openlocfilehash: aabb8277218895566edada3c74d99c02a83dae1e
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/15/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,7 +36,7 @@ O módulo **Colaboração do fornecedor** é destinado a fornecedores que não t
 
 Para saber mais sobre como os fornecedores podem usar a colaboração do fornecedor nos processos de faturamento, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). Para saber mais sobre como provisionar novos usuários de colaboração do fornecedor, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md).
 
-Para saber mais sobre como os fornecedores podem usar a colaboração do fornecedor nos processos de faturamento, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
+Para saber mais sobre como os fornecedores podem usar a colaboração do fornecedor nos processos de faturamento, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace). 
 
 Para saber mais sobre como provisionar novos usuários de colaboração do fornecedor, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md).
 
@@ -120,7 +120,7 @@ As informações de preço e os encargos não podem ser alterados pelo fornecedo
 </tbody>
 </table>
 
-Você pode usar o espaço de trabalho de preparação de **Ordem de compra** **** para monitorar quais OCs o fornecedor respondeu. Este espaço de trabalho contém duas listas que contêm pedidos com um status de **Em Revisão Externa**:
+Você pode usar o espaço de trabalho de preparação de **Ordem de** **compra** para monitorar quais OCs o fornecedor respondeu. Este espaço de trabalho contém duas listas que contêm pedidos com um status de **Em Revisão Externa**:
 
 -   Em revisão externa, ação necessária.
 -   Em revisão externa, aguardando resposta do fornecedor.
@@ -196,12 +196,16 @@ Se o gerenciamento de alterações estiver ativado para as OCs, a OC passará po
 
 A tabela a seguir mostra um exemplo das alterações de status e versão pelas quais uma OC poderá passar quando o gerenciamento de alterações estiver ativado: A versão será registrada quando a OC for aprovada, não quando a OC for enviada ao fornecedor ou confirmada.
 
-|                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                                             |
-|---------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Ação**                                                                                                    | **Status e versão**                                                                                                                                                                                                                                                                                                                                                                      |
-| A versão inicial da PO é criada no Finance and Operations.                                      | O status é **Rascunho**.                                                                                                                                                                                                                                                                                                                                                                    |
-
-| A PO é submetida ao processo de aprovação (O processo de aprovação é um processo interno no qual o fornecedor não está envolvido.) | O status é alterado de **Rascunho** para **Em revisão** para **Aprovação** se a PO não for rejeitada durante o processo de aprovação. A OC aprovada é registrada como uma versão.                                                                                                                                                                                                                     | | A PO é enviada ao fornecedor                                                                                  | A versão está registrada na interface de colaboração do fornecedor e o status é alterado para **Em revisão externa**.                                                                                                                                                                                                                                                                       | | Você faz algumas alterações solicitadas pelo fornecedor, manualmente ou usando a ação na resposta para atualizar o PO.                                                       | O status é alterado novamente para **Rascunho**.                                                                                                                                                                                                                                                                                                                                                    | | A PO é enviada para o processo de aprovação novamente.                                                            | O status é alterado de **Rascunho** para **Em Revisão** para **Aprovação** se a PO não for rejeitada durante o processo de aprovação. Alternativamente, o sistema pode ser configurado para que as alterações de campos específicos não exijam uma nova aprovação. Nesse caso, o status é primeiro alterado para **Rascunho** e depois automaticamente atualizado para **Aprovada**. A OC aprovada é registrada como uma nova versão. | | Você envia a nova versão da PO ao fornecedor.                                                             | A nova versão é registrada na interface de colaboração do fornecedor e o status é alterado para **Em Revisão externa**.                                                                                                                                                                                                                                                                   | | O fornecedor aprova a nova versão da PO.                                                                | O status é alterado para **Confirmada** automaticamente ou quando você recebe a resposta do fornecedor e confirma a OC.                                                                                                                                                                                                                                                     |
+|                                                                          |                                                                                                                                                              |
+|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Ação**                                                               | **Status e versão**                                                                                                                                       |
+| A versão inicial da PO é criada no Finance and Operations.      | O status é **Rascunho**.  |
+| A OC é submetida ao processo de aprovação (É um processo de aprovação no qual o fornecedor não está envolvido).                                                           | O status é alterado de **Rascunho** para **Em Revisão** para **Aprovação** se a OC não for rejeitada durante o processo de aprovação. A OC aprovada é registrada como uma versão.           | 
+| A OC é enviada ao fornecedor                                                            | A versão é registrada na interface de colaboração do fornecedor e o status é alterado para **Em Revisão externa**.      |
+| Você faz algumas alterações solicitadas pelo fornecedor, manualmente ou usando a ação na resposta para atualizar a OC.                                                            | O status é alterado novamente para **Rascunho**.     |
+|A OC é submetida ao processo de aprovação novamente.                                                |  O status é alterado de **Rascunho** para **Em Revisão** para **Aprovação** se a OC não for rejeitada durante o processo de aprovação. Alternativamente, o sistema pode ser configurado para que as alterações de campos específicos não exijam uma nova aprovação. Nesse caso, o status é primeiro alterado para **Rascunho** e depois automaticamente atualizado para **Aprovada**. A OC aprovada é registrada como uma nova versão.                                         |
+|Você envia a nova versão da OC ao fornecedor.                                                |  A nova versão é registrada na interface de colaboração do fornecedor e o status é alterado para **Em Revisão externa**.                                         |
+|O fornecedor aprova a nova versão da OC.                                                |  O status é alterado para **Confirmada** automaticamente ou quando você recebe a resposta do fornecedor e confirma a OC. |
 
 ## <a name="share-information-about-consignment-inventory"></a>Compartilhar informações sobre o estoque de consignação
 Se você estiver usando o estoque de consignação, os fornecedores poderão usar a interface de colaboração do fornecedor para exibir informações nas seguintes páginas:

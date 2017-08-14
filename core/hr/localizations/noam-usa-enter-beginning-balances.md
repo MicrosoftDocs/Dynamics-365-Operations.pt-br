@@ -10,25 +10,24 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: kherr
-ms.search.validFrom: 2017-07-01
+ms.search.validFrom: 2017-07-01T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 911a51e2498800e7ee7b1562b66c56967eef0505
-ms.openlocfilehash: e6213d2e01445b78c6d8f98fc6a55f7c551231b5
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: d9e3018eb7b6c20cfd5e23a10d15e230009196de
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/19/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a>Inserir saldos iniciais de folha de pagamento
 
-[!include[banner](../../includes/banner.md)]]
+[!include[banner](../../includes/banner.md)]
 
 Este tópico descreve as etapas para inserir saldos iniciais para códigos de ganhos, deduções, benefícios e impostos. Essas informações são importantes para parceiros que transferem dados de outro sistema para uma nova implementação de folha de pagamento. Para se preparar para inserir saldos iniciais de folha de pagamento, nós verificamos as seguintes informações:
 
@@ -47,9 +46,6 @@ Este tópico descreve as etapas para inserir saldos iniciais para códigos de ga
 Na medida em que você planeja inserir os saldos iniciais, considere a forma como os dados precisam ser detalhados. A maioria das empresas insere um valor acumulado único e consolidado. Entretanto caso seja necessário informações mais detalhadas, os saldos podem ser inseridos em incrementos trimestrais. Decidir o nível de detalhes necessário determina quantos demonstrativos manuais de pagamento devem ser criados para cada trabalhador. Para um único valor acumulado, somente um demonstrativo manual é necessário para cada funcionário. Para isso, use os valores acumulados do demonstrativo de pagamento final do sistema anterior como o valor inserido no novo sistema de folha de pagamento.
 
 O exemplo a seguir mostra como você pode inserir os saldos iniciais da folha de pagamento dos funcionários, incluindo códigos de ganhos, benefícios/deduções e impostos. Em um exemplo do mundo real, você teria um item de linha para cada código de ganhos, dedução de benefícios, contribuição para benefícios, imposto de funcionário e imposto de empregador, sendo o valor inserido o valor acumulado no ano. Usando a lista de códigos e valores, siga as etapas para criar um demonstrativo manual de ganhos e pagamentos com contabilidade desabilitada para obter saldos iniciais para fins de folha de pagamento.  Você desabilita a contabilidade por não desejar lançar esse demonstrativo de pagamento inicial na contabilidade. Isso foi feito no sistema herdado e virá para o novo sistema quando você definir os saldos iniciais na contabilidade.
-
-> [!NOTE] 
-> Se desejar reproduzir as mesmas etapas a seguir, você pode usar os Dados de demonstração. Os dados de demonstração podem ser baixados do PartnerSource
 
 ### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a>A. Como configurar códigos de ganhos a serem usados nos saldos iniciais de folha de pagamento
 Ao inserir os saldos iniciais de folha de pagamento, certifique-se de que os códigos de ganhos que serão utilizados estão configurados com a opção “Permitir edição das taxas do demonstrativo de ganhos" habilitada. Isso permitirá que você digite manualmente o valor do sistema herdado. 
@@ -101,7 +97,7 @@ Linha 3: guia **Linha do demonstrativo de ganhos**
 | Manual          | (Marcado)   |
 
 > [!NOTE]
-> Marcar a configuração da caixa de seleção na guia **Detalhes da linha** para cada linha de demonstrativo de ganhos é a chave para ter saldos iniciais de folha de pagamento inseridos para cada trabalhador.
+> A configuração do controle deslizante **Manual** como **Sim** na guia **Detalhes da Linha** para cada linha de declaração de ganhos é fundamental para a inserção dos saldos iniciais de folha de pagamento para cada trabalhador.
 
 3. No painel **Ação**, clique em **Liberar demonstrativo de ganhos** USA-FED-ER-FICA.
 
@@ -111,15 +107,15 @@ Linha 3: guia **Linha do demonstrativo de ganhos**
 |--------------------|-----------|
 | Data de pagamento       | 30/6/2017 |
 | Tipo de execução de pagamento   | Manual    |
-| Desabilitar contabilidade | (marcado)  |
+| Desabilitar contabilidade |   Sim     |
 
 > [!NOTE] 
 > Isso só está disponível quando o tipo de execução de pagamento é manual e o usuário deseja desabilitar a contabilidade na execução de pagamento
 
 Clique em **OK** e feche o **Log de Informações**.
 
-#### <a name="why-disable-accounting-checkbox-needs-to-be-turned-on-when-generating-pay-statements"></a>Por que a caixa de seleção Desabilitar contabilidade precisa ser ativada ao gerar demonstrativos de pagamento?
-Isso impede que qualquer linha do demonstrativo de pagamento seja distribuída e lançada na Contabilidade. Você não deseja lançar esse demonstrativo de pagamento inicial sendo que os valores estão na contabilidade do sistema herdado. Esse carregamento de saldos é usado somente para fins de relatório e limitação.
+#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a>Por que o controle deslizante Desabilitar Contabilidade precisa estar definido como Sim durante a geração de demonstrativos de pagamento?
+A configuração do controle deslizante como **Sim** impede que as linhas do demonstrativo de pagamento sejam distribuídas na Contabilidade. Os valores da contabilidade eram atualizados antes da inserção dos saldos de conta do sistema herdado. A inserção dos saldos iniciais na Folha de pagamento permite gerar relatórios que incluem informações de anos anteriores, bem como para identificar limites para fins de benefício e de imposto.   
 
 ### <a name="c-create-pay-statements-for-employees"></a>C. Gerar demonstrativos de pagamento para funcionários
 Depois de gerar demonstrativos de pagamento com saldos iniciais, você deve verificar se os demonstrativos de pagamento refletem com precisão os dados da folha de pagamento. Você também deve atualizar manualmente as informações de benefícios e impostos para correspondam aos valores no sistema de folha de pagamento anterior. Depois de verificar que os valores do sistema de folha de pagamento anterior correspondem aos valores dos demonstrativos de pagamento atuais, você deve finalizar os demonstrativos de pagamento.
@@ -137,20 +133,10 @@ Depois de gerar demonstrativos de pagamento com saldos iniciais, você deve veri
 | Benefício                         | Valor da dedução |
 | 401K | Participar              | 3000.00          |
 | Plano odontológico | SubSp                  | 495,00           |
-| Despesas com o dependente | Participar | 2500.00          |
-| Visão | SupSp                  | 500,00           |
-
-5. Na guia **Deduções de benefício**, insira o seguinte: 
-
-| Campo                           | Alíquota            |
-|---------------------------------|------------------|
-| Benefício                         | Valor da dedução |
-| 401K | Participar              | 3000.00          |
-| Plano odontológico | SubSp                  | 495,00           |
 | Despesas com dependente | Participar | 2500.00          |
 | Visão | SupSp                  | 500,00           |
 
-6. Na guia **Contribuições para benefícios**, insira o seguinte:
+5. Na guia **Contribuições para benefícios**, insira o seguinte:
 
 | Campo              | Alíquota               |
 |--------------------|---------------------|
@@ -159,7 +145,7 @@ Depois de gerar demonstrativos de pagamento com saldos iniciais, você deve veri
 | Plano odontológico | SubSp     | 495,00              |
 | Visão | SubSp     | 500,00              |
 
-7. Na guia **Deduções de imposto**, insira o seguinte:
+6. Na guia **Deduções de imposto**, insira o seguinte:
 
 | Campo           | Alíquota            |
 |-----------------|------------------|
@@ -167,9 +153,9 @@ Depois de gerar demonstrativos de pagamento com saldos iniciais, você deve veri
 | USA-FED-ER-FICA | 1600.00          |
 | USA-FED-ER-MEDI | 825.75           |
 
-8. Na guia **Contribuições de imposto**, insira o seguinte:
+7. Na guia **Contribuições de imposto**, insira o seguinte:
 
-9. Clique em **Calcular**.
+8. Clique em **Calcular**.
 > [!IMPORTANT] 
 > Valide os totais do demonstrativo de pagamento ao trabalhador correspondentes ao acumulado do sistema herdado. Você pode querer adiar a finalização na próxima etapa para fazer uma validação geral de todos os demonstrativos de pagamento acumulados. Após a validação, reexamine todos os demonstrativos de pagamento e faça a finalização.
 
@@ -182,5 +168,5 @@ O mesmo processo pode ser feito em incrementos trimestrais, se necessário, para
 
 2. Clique em **Sim** quando a mensagem “Quando você reverte este demonstrativo de pagamento, uma reversão de demonstrativo de pagamento é criada para compensar este demonstrativo de pagamento. Não é possível editar os demonstrativos de pagamento. Deseja reverter este demonstrativo de pagamento?” for exibida. 
 
-Depois de reverter o demonstrativo de pagamento, você pode gerar um novo demonstrativo de pagamento para o trabalhador por meio do demonstrativo de ganhos que você criou anteriormente neste tópico, no procedimento "Gerar demonstrativo de ganhos e demonstrativos de pagamento com saldos iniciais". Certifique-se de corrigir todas as linhas incorretas do demonstrativo de ganhos antes de gerar o novo demonstrativo de pagamento e, em seguida, repita o procedimento "Atualizar demonstrativos de pagamento com saldo inicial referente a benefícios e impostos", neste tópico.
+Depois de reverter o demonstrativo de pagamento, você poderá gerar um novo demonstrativo de pagamento para o trabalhador a partir da declaração de ganhos criada anteriormente. Corrija qualquer linha incorreta na declaração de ganhos antes de gerar o novo demonstrativo de pagamento e então gere novos demonstrativos de pagamento com os valores corretos. 
 

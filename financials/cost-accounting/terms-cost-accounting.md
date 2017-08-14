@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 1f12e8e82430c79ee93f2284e5fdf47ac559525d
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -121,9 +121,13 @@ Custos gerais referem-se às despesas contínuas de operação de uma empresa. S
 -   Impostos
 -   Custos com serviços de utilidade pública
 
+**Distribuição de custos**
+
+A distribuição de custos é usada para redistribuir custo de um objeto de custo a um ou mais outros objetos de custo, aplicando uma base de alocação relevante. A distribuição de custos e a alocação de custo são diferentes na distribuição de custos, sempre que ocorrer em nível de elemento de custo principal do custo original.
+
 **Alocação de custos**
 
-Alocação de custos é o processo de atribuir e alocar custos, com base nas causas principais dos custos comuns. Você aloca as quantidades de custo de um objeto de custo para um ou mais objetos de custo. Por exemplo, todos os custos com serviços de instalações são alocados para os vários departamentos que usam o prédio comercial comum.
+A alocação é usada para alocar o saldo de um objeto de custo a outros objetos de custo pela aplicação de uma base de alocação. O Finance and Operations oferece suporte ao método de alocação recíproco. No método de alocação recíproco, os serviços mútuos que os objetos de custo auxiliar trocam são totalmente reconhecidos. O sistema determina automaticamente a ordem correta realizar as alocações. O saldo de um objeto de custo é alocado por uma base de alocação única. As alocações entre as dimensões de objetos de custo e os respectivos membros são suportadas. A ordem de alocação é controlada pela unidade de controle de custo.
 
 **Política de alocação de custos**
 

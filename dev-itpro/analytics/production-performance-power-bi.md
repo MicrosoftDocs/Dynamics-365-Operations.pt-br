@@ -9,16 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: aevengir
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 915ff93edff0f68f52a536ad169c8f0f917ac9b2
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: d3f5d48683c13d1affa88dd44727639cd6158c73
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -142,8 +143,8 @@ A tabela a seguir mostra as dimensões-chave que são usadas como filtros para c
 
 Estes são alguns links úteis relacionados às entidades e ao desenvolvimento de conteúdo do Power BI:
 
-- [Entidades de dados](https://ax.help.dynamics.com/en/wiki/data-entities/)
+- [Entidades de dados](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities.md)
 - [Criando pacotes de conteúdo organizacionais](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 - [Modelagem de dados por meio do Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [Adicionando blocos do Power BI aos espaços de trabalho](http://ax.help.dynamics.com/en/wiki/configuring-powerbi-integration/)
+- [Adicionando blocos do Power BI aos espaços de trabalho](/dynamics365/unified-operations/dev-itpro/analytics/configure-power-bi-integration)
 

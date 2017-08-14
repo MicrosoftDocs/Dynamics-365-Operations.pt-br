@@ -1,6 +1,6 @@
 ---
-title: "Solicitação de cotação (RFQs)"
-description: "Este artigo oferece uma visão geral de RFQs, que as organizações emitem quando devem adquirir itens ou serviços, e desejam receber ofertas competitivas de vários fornecedores. Em uma RFQ, você solicita que os fornecedores forneçam preços e prazos de entrega das quantidades do item que você especificar. Você também pode solicitar que os fornecedores especifiquem caso haja encargos incidentais, como custos de remessa, ou quaisquer descontos para grandes pedidos ou pagamento antecipado da fatura do fornecedor."
+title: "RFQs (solicitações de cotação)"
+description: "Este tópico oferece uma visão geral das RFQs (solicitações de cotação), que as organizações emitem quando precisam adquirir itens ou serviços e desejam receber ofertas competitivas de vários fornecedores."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 06/20/2017
@@ -10,34 +10,34 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d681f4c107a9dbc1ea8c5e1de38b2d45cf19bcfa
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 47e394c8642f502c698dbcd5506979b7cac0a830
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="request-for-quotations-rfqs"></a>Solicitação de cotação (RFQs)
+# <a name="request-for-quotations-rfqs"></a>RFQs (solicitações de cotação)
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo oferece uma visão geral de RFQs, que as organizações emitem quando devem adquirir itens ou serviços, e desejam receber ofertas competitivas de vários fornecedores. Em uma RFQ, você solicita que os fornecedores forneçam preços e prazos de entrega das quantidades do item que você especificar. Você também pode solicitar que os fornecedores especifiquem caso haja encargos incidentais, como custos de remessa, ou quaisquer descontos para grandes pedidos ou pagamento antecipado da fatura do fornecedor.
+Este tópico oferece uma visão geral das RFQs (solicitações de cotação), que as organizações emitem quando precisam adquirir itens ou serviços e desejam receber ofertas competitivas de vários fornecedores. Em uma RFQ, você solicita que os fornecedores forneçam preços e prazos de entrega das quantidades do item que você especificar. Você também pode solicitar que os fornecedores especifiquem caso haja encargos incidentais, como custos de remessa, ou quaisquer descontos para grandes pedidos ou pagamento antecipado da fatura do fornecedor.
 
 O processo de RFQ (solicitação de cotação) cobre as seguintes tarefas:
 
--   Criar e enviar uma RFQ a um ou mais fornecedores
--   Receber e registrar respostas a RFQs (ofertas)
--   Transferir ofertas aceitas para uma ordem de compra, um contrato de compra ou uma requisição de compra
+-   Criar e enviar uma RFQ a um ou mais fornecedores.
+-   Receber e registrar respostas à RFQ (cotações).
+-   Transferir os lances aceitos para uma ordem de compra, um contrato de compra ou uma requisição de compra.
 
 A ilustração a seguir fornece uma visão geral do processo de RFQ.  
 
@@ -49,7 +49,7 @@ Se você precisar alterar uma RFQ depois que a enviar, poderá reenviar a RFQ ao
 
 Ao receber ofertas, você deverá incorporá-las na página **Respostas da solicitação de cotação**. Se você selecionar a opção **Copiar dados para resposta**, os dados como a quantidade e as datas dos exemplos da RFQ serão copiados na resposta. É possível alterar esses dados para refletir a oferta do fornecedor.  
 
-Se uma segunda iteração de uma resposta for necessária para um fornecedor específico, clique em **Retornar**na página**Resposta à solicitação de cotação**. A ação Retornar gera um novo diário e um relatório que serão impressos, arquivados e enviados de acordo com as configurações de gerenciamento de impressão.  
+Se uma segunda iteração de uma resposta for necessária para um fornecedor específico, clique em **Retornar** na página **Resposta à solicitação de cotação**. A ação Retornar gera um novo diário e um relatório que serão impressos, arquivados e enviados de acordo com as configurações de gerenciamento de impressão.  
 
 Se você adicionou critérios de pontuação para seu exemplo de RFQ, a resposta de RFQ terá um painel de pontuação no qual você poderá inserir as contagens. As pontuações totais aparecerão quando você comparar as respostas na página **Comparar respostas**, na qual você também pode comparar outros dados de resposta, como preço da linha, data de entrega e preço total.  
 
@@ -66,17 +66,17 @@ A sequência de status para processar RFQs é a seguinte:
 3.  **Recebido**
 4.  **Aceito**/**Cancelado**/**Rejeitado**
 
-Os status serão descritos em mais detalhes nas seções posteriores deste artigo.
+Os status serão descritos em mais detalhes nas seções posteriores deste tópico.
 
 ## <a name="setting-up-rfq-functionality"></a>Configurando a funcionalidade de RFQ
 Antes de criar um exemplo de RFQ, é necessário configurar as informações de RFQ na página **Parâmetros de compras**. Quando você cria um exemplo de RFQ, você pode especificar os valores padrão que são copiados para a RFQ. É possível especificar os seguintes valores padrão:
 
--   O tipo de compra de novas RFQs: **Ordem de compra** ou **Contrato de compra**
--   Definições para data e a hora de vencimento
+-   O tipo de compra de novas RFQs: **Ordem de compra** ou **Contrato de compra**.
+-   Definições para data e hora de vencimento.
 -   Informações de entrega e condições de pagamento
--   Os campos que devem ser incluídos na resposta à RFQ
+-   Campos que devem ser incluídos na resposta à RFQ.
 
-Você pode substituir esses valores para um exemplo específico de RFQ. Você também deve configurar o processo de aditamento. Como parte desta configuração, você poderá ativar o bloqueio do campo. Quando o bloqueio do campo for ativado, um profissional de aquisição que deseja alterar uma RFQ deve clicar primeiro em **Criar** na seção **Aditamento** da guia **Cotação**. Depois que a RFQ for atualizada com o aditamento, o profissional de aquisição deve concluir o processo clicando em **Finalizar**.** **A ação Finalizar gera uma mensagem de email que notifica os fornecedores sobre a RFQ alterada. Você seleciona o modelo para a notificação de email enviada aos fornecedores na página **Parâmetros de compras**. Quando um modelo for criado, ele poderá conter os seguintes tokens de substituição:
+Você pode substituir esses valores para um exemplo específico de RFQ. Você também deve configurar o processo de aditamento. Como parte desta configuração, você poderá ativar o bloqueio do campo. Quando o bloqueio do campo for ativado, um profissional de aquisição que deseja alterar uma RFQ deve clicar primeiro em **Criar** na seção **Aditamento** da guia **Cotação**. Depois que a RFQ for atualizada com o aditamento, o profissional de aquisição deverá concluir o processo clicando em **Finalizar**. A ação **Finalizar** gera uma mensagem de email que notifica os fornecedores sobre a RFQ corrigida. Você seleciona o modelo para a notificação de email enviada aos fornecedores na página **Parâmetros de compras**. Quando um modelo for criado, ele poderá conter os seguintes tokens de substituição:
 
 -   %Motivo do retorno do lance%
 -   %Motivo do aditamento%
@@ -87,7 +87,10 @@ Os tokens %Motivo do retorno do lance% e %Motivo do aditamento% são substituíd
 
 Se quiser usar os códigos de motivo em uma resposta de RFQ para indicar o motivo pelo qual a oferta foi rejeitada ou aceita, você deverá configurar os códigos de motivo na página **Motivos do fornecedor**.  
 
-Você pode configurar a aparência dos documentos da RFQ impressos ou armazenados na página **Configuração de formulário** em Compras.  
+Você pode configurar a aparência dos documentos da RFQ impressos ou armazenados na página **Configuração de formulário** em Compras. 
+
+**Observação:** em uma configuração para o setor público, para fazer alterações em uma RFQ que já foi enviada, será necessário usar o processo de aditamento. Quando a RFQ é enviada, os campos são bloqueados, por isso, clicar em **Criar** para usar o processo de aditamento conforme descrito acima é uma etapa obrigatória para fazer alterações na RFQ.
+Isso é controlado pelo parâmetro de bloqueio de campo **Bloquear RFQs quando forem enviadas** em **Parâmetros de compras e fornecimento**. Esse parâmetro está definido como **Sim** e, em uma configuração para o setor público, esse é um padrão que não pode ser alterado. Isso significa que, enquanto o processo de aditamento pode ser feito manualmente em uma configuração para outros setores, o controle de aditamentos por meio do bloqueio de campos depois do envio da RFQ é obrigatório para o setor público.
 
 Ao criar uma RFQ para uma ordem de compra e adicionar um item de estoque à RFQ, uma transação de estoque será gerada com um status de recebimento **Recebimento de cotação**. Somente as linhas de RFQ que têm este status serão consideradas quando você usar um plano mestre para calcular os suprimentos. Se quiser que o planejamento mestre inclua linhas de RFQ como um recebimento previsto, você deve configurar esse comportamento na configuração do planejamento mestre.  
 
@@ -108,7 +111,7 @@ Se o tipo da RFQ for **Contrato de compra**:
 -   A RFQ é usada para um contrato para comprar uma quantidade ou um valor específico de produtos durante um período. Você deve selecionar o intervalo de datas que se aplica ao contrato de compra e o nome da pessoa que gerencia o contrato de compra.
 -   Quando você aceita uma oferta, um contrato de compra é gerado.
 
-Você pode criar uma RFQ a partir de uma requisição de compra somente se o status da requisição de compra for **Em revisão**e estiver atribuído para executar a próxima tarefa de fluxo de trabalho. As linhas da requisição de compra são atualizadas automaticamente conforme você aceita linhas de resposta de RFQ (ofertas) que você recebeu dos fornecedores. Você não pode concluir, rejeitar, aprovar ou executar nenhuma outra ação na requisição de compra, enquanto a RFQ estiver em andamento.  
+Você pode criar uma RFQ a partir de uma requisição de compra somente se o status da requisição de compra for **Em revisão** e estiver atribuído para executar a próxima tarefa de fluxo de trabalho. As linhas da requisição de compra são atualizadas automaticamente conforme você aceita linhas de resposta de RFQ (ofertas) que você recebeu dos fornecedores. Você não pode concluir, rejeitar, aprovar ou executar nenhuma outra ação na requisição de compra, enquanto a RFQ estiver em andamento.  
 
 Quando você cria uma RFQ, é possível selecionar um tipo específico da solicitação. O tipo de solicitação determina o conjunto de critérios de pontuação que é usado para pontuar as respostas à RFQ.  
 
@@ -137,7 +140,7 @@ A tabela a seguir mostra como o status de RFQ é alterado quando você cria uma 
 **Observação:** É possível adicionar mais fornecedores a uma RFQ a qualquer momento, e os status mais alto e mais baixo se alteram para refletir novos fornecedores. Por exemplo, se você tiver recebido ofertas de todos os fornecedores e aceitado pelo menos uma linha de uma oferta, o status mais baixo do cabeçalho de RFQ será **Rejeitado** e o status mais alto será **Aceito**. Se você adicionar um novo fornecedor, o status mais baixo em qualquer linha agora será **Criado**. Dessa forma, o status mais baixo do cabeçalho de RFQ será alterado para **Criado** e o status mais alto permanece **Aceito**.
 
 ## <a name="amending-an-rfq"></a>Alterando um RFQ
-Ocasionalmente, você deve alterar uma RFQ após enviá-la. Isso pode ocorrer porque, por exemplo, as datas de entrega foram alteradas, ou você quer produtos adicionais ou quantidades diferentes de produtos. Você pode configurar o processo de aditamento, de modo que ele seja mais ou menos restritivo.  
+Ocasionalmente, você deve alterar uma RFQ após enviá-la. Por exemplo, isso pode ocorrer se as datas de entrega foram alteradas, ou se você quiser produtos adicionais ou quantidades diferentes de produtos. Você pode configurar o processo de aditamento, de modo que ele seja mais ou menos restritivo.  
 
 Se usar o processo mais restritivo de aditamento, você deve clicar em **Criar** no exemplo de RFQ para iniciar uma alteração antes que possa alterar os campos no exemplo da RFQ. Depois que terminar de fazer as alterações, clique em **Finalizar**. Você será orientado pelo processo de adicionar informações pela mensagem de email enviada para notificar fornecedores sobre o aditamento. O relatório de RFQ atualizado, que inclui uma nota de aditamento, é automaticamente anexado à mensagem.  
 
@@ -181,7 +184,7 @@ Quando você aceita uma resposta RFQ que tem um tipo de **Requisição de compra
 
 Na resposta, você pode adicionar um código de motivo para explicar por que aceitou ou rejeitou uma oferta.  
 
-Você pode aceitar algumas linhas em uma oferta e rejeitar outras. Você também pode aceitar linhas de fornecedores. Esteja ciente de que apenas se você aceitar algumas linhas, será solicitado que rejeite todas as linhas restantes. Consequentemente, se quiser aceitar outras linhas, você deverá clicar em **Cancelar** quando você receber o aviso.  
+Você pode aceitar algumas linhas em uma oferta e rejeitar outras. Você também pode aceitar linhas de fornecedores. Esteja ciente de que se você aceitar algumas linhas, será solicitado a rejeitar todas as outras. Consequentemente, se quiser aceitar outras linhas, você deverá clicar em **Cancelar** quando você receber o aviso.  
 
 A tabela a seguir mostra como o status de RFQ é alterado, à medida que você aceita ou rejeita ofertas de fornecedores.
 

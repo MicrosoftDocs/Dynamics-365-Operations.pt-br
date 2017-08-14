@@ -18,13 +18,12 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: e520c292b7350f332649f23fb4232e7ecd191776
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
+ms.openlocfilehash: 404803c6317b2aeda78de86d4ba11987b2a8cf65
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 06/13/2017
 
 Este tópico apresenta o conceito de custo de fluxo inverso usado para Lean manufacturing. 
 
-O custo de Lean manufacturing permite ao fluxo de produção usar o método de acumulação de custos conhecido como custos de fluxo inverso. No método de acumulação de custos, os materiais diretos consumidos são acumulados na conta de custo do trabalho em andamento (WIP) do fluxo de produção. O grupo de modelos de estoque de custo padrão é usado. Os produtos recebidos do fluxo de produção são deduzidos do WIP no seu custo padrão. A principal diferença entre custos de fluxo inverso e custo padrão é que, nos custos de fluxo inverso, as variações não são calculadas por kanban ou produto finalizado. Em vez disso, as variações são calculadas por fluxo de produção durante um período. Esse método apresenta um conceito que é realmente de lean manufacturing para relatar consumo de materiais. Quantidades separadas dedicadas de materiais não são relatadas para um kanban ou uma ordem de produção. Em vez disso, os lotes ou as unidades de manuseio de material completos são preparados para o fluxo de produção. Depois que os lotes ou as unidades de manuseio de material são registrados como vazios, eles são declarados como consumidos. O consumo avançado pode ser usado, dependendo da [configuração do fluxo de produção](http://ax.help.dynamics.com/en/wiki/lean-manufacturing-modeling-the-lean-organization/). Para que o consumo avançado possa ser usado, as organizações precisam fazer com que os materiais desapareçam no WIP do fluxo de produção. Os custos de fluxo inverso periódicos determinam o valor efetivo do WIP ao final do período. Essa determinação é baseada nas unidades de manuseio de material kanban e no status dos trabalhos kanban. Os desvios entre os valores efetivos e os valores reais do WIP por grupo e item de custos são explicados e exibidos como variações.
+O custo de Lean manufacturing permite ao fluxo de produção usar o método de acumulação de custos conhecido como custos de fluxo inverso. No método de acumulação de custos, os materiais diretos consumidos são acumulados na conta de custo do trabalho em andamento (WIP) do fluxo de produção. O grupo de modelos de estoque de custo padrão é usado. Os produtos recebidos do fluxo de produção são deduzidos do WIP no seu custo padrão. A principal diferença entre custos de fluxo inverso e custo padrão é que, nos custos de fluxo inverso, as variações não são calculadas por kanban ou produto finalizado. Em vez disso, as variações são calculadas por fluxo de produção durante um período. Esse método apresenta um conceito que é realmente de lean manufacturing para relatar consumo de materiais. Quantidades separadas dedicadas de materiais não são relatadas para um kanban ou uma ordem de produção. Em vez disso, os lotes ou as unidades de manuseio de material completos são preparados para o fluxo de produção. Depois que os lotes ou as unidades de manuseio de material são registrados como vazios, eles são declarados como consumidos. O consumo avançado pode ser usado, dependendo da [configuração do fluxo de produção](/dynamics365/unified-operations/supply-chain/production-control/lean-manufacturing-modeling-lean-organization). Para que o consumo avançado possa ser usado, as organizações precisam fazer com que os materiais desapareçam no WIP do fluxo de produção. Os custos de fluxo inverso periódicos determinam o valor efetivo do WIP ao final do período. Essa determinação é baseada nas unidades de manuseio de material kanban e no status dos trabalhos kanban. Os desvios entre os valores efetivos e os valores reais do WIP por grupo e item de custos são explicados e exibidos como variações.
 
 ## <a name="configuring-backflush-costing"></a>Configuração de custos de fluxo inverso
 Para habilitar custos, é preciso completar a seguinte configuração:

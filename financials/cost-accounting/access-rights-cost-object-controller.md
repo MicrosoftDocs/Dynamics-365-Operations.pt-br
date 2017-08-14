@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 4d26d690e63898bfb463177da6654f1175ff35af
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: c520e14233fb03646aa4a273362e596bd1990a8c
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -99,12 +99,12 @@ As configurações da hierarquia da lista de acesso são usadas para controlar o
     - Visualizações de dados do Power BI incorporadas no cliente Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
 
 > [!IMPORTANT]
-> - Antes que a hierarquia da lista de acesso possa afetar os dados no Power BI, a hierarquia da lista de acesso e a segurança em nível de linha no Power BI devem ser emparelhadas. Para obter mais informações, consulte [Configurar segurança para o pacote de conteúdo de contabilização de custo](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
+> - Antes que a hierarquia da lista de acesso possa afetar os dados no Power BI, a hierarquia da lista de acesso e a segurança em nível de linha no Power BI devem ser emparelhadas. Para obter mais informações, consulte [Configurar segurança para o pacote de conteúdo de contabilização de custo](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack).
 > - Esta seção mostra os pré-requisitos que devem estar em vigor para usar o espaço de trabalho **Controle de custos**.
 
 Consulte também
 
 - [Espaço de trabalho de controle de custos](cost-control-workspace.md)
 - [Hierarquia de dimensões](dimension-hierarchy.md)
-- [Configurar segurança para o pacote de conteúdo de contabilização de custo](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+- [Configurar segurança para o pacote de conteúdo de contabilização de custo](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 

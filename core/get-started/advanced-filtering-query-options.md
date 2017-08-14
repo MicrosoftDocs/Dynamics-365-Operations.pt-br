@@ -1,28 +1,28 @@
 ---
 title: "Opções avançadas de filtragem e sintaxe de consulta"
-description: "Este artigo descreve a filtragem e as opções de consulta disponíveis quando você usa o operador &quot;correspondências&quot; na caixa de diálogo Filtro/Classificação Avançado."
+description: "Este artigo descreve a filtragem e as opções de consulta disponíveis quando você usa o operador \"correspondências\" na caixa de diálogo Filtro/Classificação Avançado."
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysQueryForm
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3811
 ms.assetid: b4969b30-2fe1-4a3c-bbea-725dc37c8b60
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48b2049c3f5025d7e8d3fc7e944aa9360786d18a
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 616366009ce7bf7135704e980becc331617cf5af
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -68,7 +68,7 @@ Este artigo descreve a filtragem e as opções de consulta disponíveis quando v
 <td><em>-valor de</em>.<em>valor até</em> (dois pontos finais)</td>
 <td>Entre os dois valores que são separados por dois pontos finais</td>
 <td>Digite o Valor - de, os dois pontos finais e o Valor - até.</td>
-<td><strong>1..10</strong> localiza todos os valores de 1 a 10. No entanto, em um campo da cadeia de caracteres, <strong>A..C</strong> localiza todos os valores que começam com &quot;A&quot; e &quot;B&quot;, que são exatamente iguais a &quot;C&quot;. Por exemplo, esta consulta não encontrará &quot;Ca&quot;. Para localizar todos os valores de &quot;A*&quot; a &quot;C*&quot;, digite <strong>A..D</strong>.</td>
+<td><strong>1..10</strong> localiza todos os valores de 1 a 10. No entanto, em um campo de string, <strong>A..C</strong> localiza todos os valores que começam com &quot;A&quot; e &quot;B&quot; e os valores exatamente iguais a &quot;C&quot;. Por exemplo, esta consulta não encontrará &quot;Ca&quot;. Para localizar todos os valores de &quot;A*&quot; a &quot;C*&quot;, digite <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>valor</em> (dois pontos finais)</td>

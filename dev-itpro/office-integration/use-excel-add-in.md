@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 267914
 ms.assetid: 4e6c7194-a059-4057-bd62-ec0c802c36fd
 ms.search.region: Global
 ms.author: cgarty
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: f55e1e89d0e48819962c169a56f0f27dc0d792b4
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 06fc9f8dda83fddea9ae331bb82c8874b15d76b9
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -90,7 +90,7 @@ Você pode usar o criador para ajustar as colunas que são automaticamente adici
 5. Para aplicar suas alterações à fonte de dados clique em **Atualizar**. Então clique em **Concluído** para sair do criador. 
 6. Se você adicionou um campo (coluna), clique em **Atualizar** para puxar um conjunto de dados atualizados.
 
-## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Solução de problemas
+## <a name="troubleshooting"></a>Solução de problemas
 Existem alguns problemas que podem ser resolvidos através de algumas etapas simples.
 
 -   **O botão Carregar applets está aparecendo.** Se o suplemento do Excel possui um botão **Carregar applets** depois do login, você provavelmente não está conectado como o usuário correto. Para resolver esse problema, verifique se o nome de usuário correto aparece no canto superior direito do suplemento do Excel. Caso um nome de usuário incorreto apareça, clique nele, finalize a sessão, e em seguida faça o login novamente.

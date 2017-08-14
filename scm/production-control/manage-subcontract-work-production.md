@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0e1368d3f637143fd47c3772c811257e8472cc74
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: ebcae0e323203a98a9b8ed1113db945fceaaa4af
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -68,7 +68,7 @@ Quando essa configuração é usada, uma ordem de compra é criada para o produt
 Uma ordem de produção pode ter muitas operações, e cada operação pode ser alocada a um fornecedor diferente. Portanto, uma ordem de produção ponta a ponta pode disparar várias ordens de compra.
 
 ## <a name="subcontracting-of-production-flow-activities"></a>Subcontratação de atividades do fluxo de produção
-A solução [lean manufacturing](lean-manufacturing-overview.md)modela o trabalho de subcontratação como um serviço que está relacionado a uma atividade de um [fluxo de produção](http://ax.help.dynamics.com/en/wiki/create-a-production-flow-version/) (Tópico do guia de tarefas). Portanto, este tipo de subcontratação também é mencionado como [subcontratação baseada em atividade.](activity-based-subcontracting.md) Um tipo de grupo de custo especial, **Terceirização direta**, foi introduzido e os serviços de subcontratação não fazem parte da BOM de mercadorias acabadas. Quando você usa o lean manufacturing, todas as atividades são definidas pelos kanbans que podem ser relacionados a uma ou várias atividades do fluxo de produção. Até agora, essa explicação parece como uma explicação das ordens de produção. Entretanto, enquanto as ordens de produção devem sempre terminar com um produto acabado, você pode criar kanbans para fornecer um produto semiacabado. Você não precisa introduzir um novo produto e o nível de BOM.  
+A solução [lean manufacturing](lean-manufacturing-overview.md)modela o trabalho de subcontratação como um serviço que está relacionado a uma atividade de um [fluxo de produção](/dynamics365/unified-operations/supply-chain/production-control/tasks/create-production-flow-version) (Tópico do guia de tarefas). Portanto, este tipo de subcontratação também é mencionado como [subcontratação baseada em atividade.](activity-based-subcontracting.md) Um tipo de grupo de custo especial, **Terceirização direta**, foi introduzido e os serviços de subcontratação não fazem parte da BOM de mercadorias acabadas. Quando você usa o lean manufacturing, todas as atividades são definidas pelos kanbans que podem ser relacionados a uma ou várias atividades do fluxo de produção. Até agora, essa explicação parece como uma explicação das ordens de produção. Entretanto, enquanto as ordens de produção devem sempre terminar com um produto acabado, você pode criar kanbans para fornecer um produto semiacabado. Você não precisa introduzir um novo produto e o nível de BOM.  
 
 Como as regras kanban podem ser muito dinâmica, é possível modelar diferentes variantes de fornecimento para o mesmo produto em um fluxo de produção. Quando você usa a subcontratação de lean manufacturing, o fluxo material e o fluxo financeiro são separados restritamente. Todo o fluxo de material é representado por atividades kanban. As ordens de compra dos produtos de serviço e os lançamentos de recebimentos desses serviços podem ser automatizados com base no status de trabalhos kanban no fluxo de produção. Os trabalhos kanban podem ser iniciados e concluídos antes mesmo de as ordens de compra serem criadas. Os documentos da subcontratação (ordem de compra e recebimento de compra do serviço) podem ser agregados por período e por serviço. Portanto, o número de documentos e de linhas de compra pode ser mantido pequeno, mesmo em operações altamente repetitivas onde fornecedores fornecem serviços subcontratados em um fluxo único.
 
