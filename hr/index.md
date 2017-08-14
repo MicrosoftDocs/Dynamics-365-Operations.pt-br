@@ -15,14 +15,13 @@ ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: ed80e59579c2356cc3c1e0f13b33026284867a2c
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -54,12 +53,15 @@ Ao trabalhar com o Talent, você decide como estruturar sua organização usando
 -   [Organizar sua força de trabalho usando departamentos, trabalhos e posições](departments-jobs-positions.md)
 -   [Configurar parâmetros de RH específicos da empresa](set-up-company-specific-hr-parameters.md)
 -   [Configurar parâmetros de RH entre entidades legais](set-up-hr-parameters-across-legal-entities.md) 
+-   [Perguntas frequentes sobre ações da equipe](personnel-actions-faq.md)
+-   [Visão geral de licença e ausência](leave-absence-overview.md)
 
 ## <a name="retain-and-motivate-employees"></a>Reter e motivar funcionários
 
 Você pode configurar planos para gerenciar a remuneração de maneira efetiva e imparcial, bem como gerenciar itens, como computadores ou telefones, que sua organização empresta a seus funcionários. Você pode criar planos de remuneração fixa e variável, bem como definir regras que se apliquem ao plano de remuneração para atender aos critérios desse plano.
 
 -   [Planos de remuneração](compensation-plans.md)
+-   [Processar remuneração](process-compensation.md)
 -   [Criar planos de remuneração fixa](create-fixed-compensation-plans.md)
 -   [Criar planos de remuneração variável](create-variable-compensation-plans.md)
 
