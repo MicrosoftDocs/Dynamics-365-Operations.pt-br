@@ -13,11 +13,11 @@ ms.reviewer: sericks
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: aevengir
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: d3f5d48683c13d1affa88dd44727639cd6158c73
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: fa93249d2dba0e6f72d394daa6a125f29a062594
 ms.contentlocale: pt-br
 ms.lasthandoff: 07/27/2017
 
@@ -42,7 +42,7 @@ As variações de produção são calculadas como a diferença entre o custo est
 O conteúdo do Power BI **Desempenho de produção** contém dados que se originam de ordens de produção e de ordens de lotes. Os relatórios não incluem dados relacionados às produções de Kanban.
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-Se você estiver usando o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition de julho de 2017, o conteúdo do Power BI **Desempenho de produção** é mostrado na página **Desempenho de produção** (**Controle de produção** > **Consultas e relatórios** > **Análise de desempenho de produção** > **Desempenho de produção**). 
+Se você estiver usando o Microsoft Dynamics 365 for Finance and Operations, edição Enterprise de julho de 2017, o conteúdo do Power BI **Desempenho de produção** é mostrado na página **Desempenho de produção** (**Controle de produção** > **Consultas e relatórios** > **Análise de desempenho de produção** > **Desempenho de produção**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
 
@@ -143,7 +143,7 @@ A tabela a seguir mostra as dimensões-chave que são usadas como filtros para c
 
 Estes são alguns links úteis relacionados às entidades e ao desenvolvimento de conteúdo do Power BI:
 
-- [Entidades de dados](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities.md)
+- [Entidades de dados](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities)
 - [Criando pacotes de conteúdo organizacionais](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 - [Modelagem de dados por meio do Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 - [Adicionando blocos do Power BI aos espaços de trabalho](/dynamics365/unified-operations/dev-itpro/analytics/configure-power-bi-integration)

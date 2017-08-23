@@ -1,9 +1,9 @@
 ---
 title: "Configurar crédito e cobranças"
 description: "Este artigo explica como configurar a funcionalidade das coleções."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,14 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14031
 ms.assetid: dcc6da2f-9af5-4f1d-abaa-b72967b66979
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4d3682c486e80afd03ec5805575357f4e87781f2
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 76937aacbc1925603766299168ec2d4090bd161b
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -39,7 +39,7 @@ Este artigo explica como configurar a funcionalidade das coleções.
 Configure uma definição de período de classificação por vencimento. Uma definição de período de classificação por vencimento define as colunas que aparecem nas páginas de listagem **Saldos classificados por vencimento**, **Atividades de cobranças** e **Casos de cobranças**. Também define os períodos que aparecem na página **Cobranças**. Se um grupo de clientes for configurado, a definição do período de classificação por vencimento para o grupo será usada. Se nenhum grupo for configurado, a definição do período de classificação por vencimento padrão especificada na página **Parâmetros de contas a receber** será usada. Se nenhuma definição do período de classificação por vencimento padrão for especificada, será usada a primeira definição do período de classificação por vencimento na página **Definições do período de classificação por vencimento**.
 
 ## <a name="create-an-aging-snapshot"></a>Criar um instantâneo de classificação por vencimento
-Crie registros instantâneos de classificação por vencimento para todos os clientes ou para os clientes de um grupo. As informações do instantâneo de classificação por vencimento aparecem na página de listagem**Saldos classificados por vencimento** e na página **Cobranças**. Você deve criar um instantâneo de classificação por vencimento antes de usar a página de listagem. A página de listagem mostra informações somente para os clientes para os quais um instantâneo de classificação por vencimento foi criado.
+Crie registros instantâneos de classificação por vencimento para todos os clientes ou para os clientes de um grupo. As informações do instantâneo de classificação por vencimento aparecem na página de listagem **Saldos classificados por vencimento** e na página **Cobranças**. Você deve criar um instantâneo de classificação por vencimento antes de usar a página de listagem. A página de listagem mostra informações somente para os clientes para os quais um instantâneo de classificação por vencimento foi criado.
 
 ## <a name="optional-set-up-customer-pools"></a>Opcional: configurar grupos de clientes
 Você pode configurar grupos de clientes para representar grupos de clientes. Você pode usar grupos de clientes como filtros para as informações do cliente que aparecem nas páginas de listagem **Cobranças**, na página **Cobranças** ou quando você cria instantâneos de classificação por vencimento.
@@ -94,5 +94,12 @@ Configure endereços de email para vendedores se quiser enviar mensagens de emai
 Se um representante de vendas não for especificado, o vendedor principal da organização do cliente será usado. Se um vendedor principal não for especificado, as mensagens de email serão enviados para o primeiro vendedor listado no formulário.
 
 
+Para obter mais informações, consulte os seguintes tópicos:
+
+ - [Criar uma sequência de cartas de cobrança](tasks/create-collection-letter-sequence.md)
+ 
+ - [Processar cartas de cobrança](tasks/process-collection-letters.md)
+ 
+ - [Revisar informações sobre cobranças](tasks/review-collections-information.md)
 
 

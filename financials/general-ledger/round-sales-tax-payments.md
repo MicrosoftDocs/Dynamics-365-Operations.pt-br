@@ -3,7 +3,7 @@ title: Pagamentos de imposto e regras de arredondamento
 description: "Este artigo explica como a configuração de regra de arredondamento funciona em Autoridades de imposto e o arredondamento do saldo de imposto durante o trabalho Liquidar e lançar imposto."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7ec117598a6a008e5b274179659b515824029874
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 8de01b77fcbeb65321e60614b6a11d264460208f
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -65,8 +64,11 @@ A tabela a seguir mostra como um valor 98.765,43 é arredondado usando cada mét
 > [!NOTE]                                                                                  
 > Se você selecionar Vantagem própria, o arredondamento será sempre em benefício da entidade legal. 
 
-Para obter mais informações, consulte o [Visão geral de impostos sobre vendas](indirect-taxes-overview.md). 
-
+Para obter mais informações, consulte os seguintes tópicos:
+- [Visão geral de imposto](indirect-taxes-overview.md)
+- [Criar um pagamento de imposto](tasks/create-sales-tax-payment.md)
+- [Criar transações de vendas em documentos](tasks/create-sales-tax-transactions-documents.md)
+- [Exibir transações de imposto lançadas](tasks/view-posted-sales-tax-transactions.md)
 
 
 

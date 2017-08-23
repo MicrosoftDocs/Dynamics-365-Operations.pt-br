@@ -15,13 +15,13 @@ ms.custom: 261824
 ms.assetid: d0784b2c-fe10-428d-8d07-fd474ca50fcc
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: c132c04bc64f02201252f03830d3f8309306f19c
+ms.translationtype: HT
+ms.sourcegitcommit: 9953d2f29a67b35f4bb43f577df1c4d910e379a1
+ms.openlocfilehash: 08a420a776f47119a5dc47f9119545aa448ffdbd
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,15 +30,20 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico descreve como redefinir o data mart de relatório financeiro após restaurar um banco de dados do Microsoft Dynamics 365 for Finance and Operations. 
+Este tópico descreve como redefinir o data mart de relatório financeiro após restaurar um banco de dados do Microsoft Dynamics 365 for Finance and Operations.
 
-Há vários cenários onde talvez seja necessário restaurar o banco de dados do Finanças e Operações a partir de um backup ou copiar o banco de dados de outro ambiente. Quando isso ocorrer, você também precisará seguir as etapas apropriadas para garantir que o data mart de dados financeiros esteja usando corretamente o banco de dados restaurado do Finanças e Operações. Se você tiver dúvidas sobre como redefinir o data mart de relatórios financeiros por uma razão fora da restauração de um banco de dados do Finanças e Operações, consulte o [Redefinindo o data mart do Management Reporter](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) para mais informações. Observe que as etapas deste processo são suportadas pela versão de maio de 2016 do Dynamics 365 for Operations (compilação de aplicativo 7.0.1265.23014 e geração de relatórios financeiros 7.0.10000.4) e versões mais recentes. Se você tiver uma versão anterior do Finanças e Operações, entre em contato com nossa equipe de suporte para obter assistência.
+Se restaurar a banco de dados do Finance and Operations a partir de um backup ou copiar o banco de dados de outro ambiente, você deve seguir as etapas deste tópico para garantir que o data mart de relatório financeiro está usando corretamente o banco de dados restaurado do Finance and Operations. 
+<!--If you have questions about resetting the financial reporting data mart for a reason outside of restoring a Finance and Operations database, refer to the [Resetting the Management Reporter data mart](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) for more information. -->
+> [!Note] 
+> As etapas deste processo têm suporte na versão de maio de 2016 do Dynamics 365 for Operations (compilação de aplicativo 7.0.1265.23014 e compilação de geração de relatórios financeiros 7.0.10000.4) e versões mais recentes. Se você tiver uma versão anterior do Finance and Operations, contate nossa Equipe de suporte para obter assistência.
 
 ## <a name="export-report-definitions"></a>Exportar definições de relatório
 Primeiro, exporte os projetos de relatório localizados no Report Designer, usando as seguintes etapas:
 
 1.  No Report Designer, vá para **Empresa** &gt; **Grupos do bloco de construção**.
-2.  Selecione o grupo do bloco de construção para exportar, clique em **Exportar**. **Observação:** Para o Finanças e Operações, apenas um grupo de blocos de construção é suportado, **Padrão**.
+2.  Selecione o grupo do bloco de construção para exportar, clique em **Exportar**. 
+    > [!Note] 
+    > Para o Finanças e Operações, apenas um grupo de blocos de construção é suportado, **Padrão**.
 3.  Selecione as definições de relatório a serem exportadas:
     -   Para exportar todas as definições de relatório e os blocos de construção associados, clique em **Selecionar Tudo**.
     -   Para exportar relatórios, linhas, colunas, árvores ou conjuntos de dimensões específicos, clique na guia apropriada e selecione os itens a serem exportados. Pressione e mantenha pressionada a tecla Ctrl para selecionar vários itens em uma guia. Quando você seleciona relatórios para exportação, as linhas, colunas, árvores e conjuntos de dimensões associados são selecionados.
@@ -63,9 +68,9 @@ Use a Área de Trabalho Remota para se conectar a todos os computadores no ambie
 Esses serviços terão conexões abertas com o banco de dados do Finanças e Operações.
 
 ## <a name="reset"></a>Redefinir
-#### <a name="locate-the-latest-dataupgradezip-package"></a>Localize o último pacote DataUpgrade.zip
+#### <a name="locate-and-download-the-latest-minorversiondataupgradezip-package"></a>Localizar e baixar o pacote MinorVersionDataUpgrade.zip mais recente
 
-Localize o pacote DataUpgrade.zip mais recente usando as instruções encontradas em [Baixar script DataUpgrade.zip](..\migration-upgrade\upgrade-data-to-latest-update.md). As instruções explicam como localizar a versão correta do pacote de atualização de dados para seu ambiente.
+Localize o pacote MinorVersionDataUpgrade.zip mais recente usando as instruções encontradas em [Baixar o pacote implantável de atualização de dados mais recente](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). As instruções explicam como localizar e baixar a versão correta do pacote de atualização de dados. Não é necessária uma atualização para baixar o pacote MinorVersionDataUpgrade.zip. Basta concluir as etapas na seção "Baixar o pacote implantável de atualização de dados mais recente" sem executar nenhuma das outras etapas no artigo para recuperar uma cópia do pacote MinorVersionDataUpgrade.zip.
 
 #### <a name="execute-scripts-against-finance-and-operations-database"></a>Executar scripts no banco de dados do Finanças e Operações
 
@@ -105,8 +110,10 @@ Importe seus designs de relatório do Report Designer, usando o arquivo criado d
 
 1.  No Report Designer, vá para **Empresa** &gt; **Grupos do bloco de construção**.
 2.  Selecione o grupo do bloco de construção para exportar, clique em **Exportar**. 
+
     > [!NOTE]
     > Para o Finanças e Operações, apenas um grupo de blocos de construção é suportado, **Padrão**.
+    
 3.  Selecione o bloco de construção **Padrão** e clique em **Importar**.
 4.  Selecione o arquivo que contém as definições de relatório exportadas e clique em **Abrir**.
 5.  Na caixa de diálogo Importar, selecione as definições de relatório para importação:

@@ -1,9 +1,9 @@
 ---
 title: "Personalizar a experiência do usuário"
-description: "Este artigo explica como é possível personalizar o Microsoft Dynamics 365 for Finance and Operations."
+description: "Este tópico explica como é possível personalizar o Microsoft Dynamics 365 for Finance and Operations."
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
 ms.author: tlefor
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b338a930777a5945eb6318dc8066fb3649c79dbe
+ms.translationtype: HT
+ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 
@@ -31,28 +31,28 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo explica como é possível personalizar o Microsoft Dynamics 365 for Finance and Operations.
+Este tópico explica como é possível personalizar o Microsoft Dynamics 365 for Finance and Operations.
 
-Há vários tipos de personalizações no Microsoft Dynamics 365 for Finance and Operations. Algumas personalizações são as seleções feitas em uma lista de opções em uma página de configuração. Algumas personalizações são implícitas; por exemplo, o Finance and Operations controla as larguras das colunas de grade se você ajustá-las e o estado expandido/recolhido das Guias Rápidas. Outras personalizações são explícitas. Para personalizações explícitas, você entra em um modo de personalização interativo e modifica a aparência de uma página ao gerenciar diretamente a forma como esses elementos aparecerão ou atuarão na página. 
+Há vários tipos de personalizações no Microsoft Dynamics 365 for Finance and Operations. Algumas personalizações são as seleções feitas em uma lista de opções em uma página de configuração. Algumas personalizações são implícitas, por exemplo, o Finance and Operations controla as larguras das colunas de grade se você ajustá-las e o estado expandido/recolhido das Guias Rápidas. Outras personalizações são explícitas. Para personalizações explícitas, você entra em um modo de personalização interativo e modifica a aparência de uma página ao gerenciar diretamente a forma como esses elementos aparecerão ou atuarão na página. 
 
 Qualquer tipo de personalização feita por um usuário no Finance and Operations destina-se somente a esse usuário, independentemente da empresa com a qual o usuário interage. As alterações que um usuário faz em uma página não afetam outros usuários no sistema.
 
 ## <a name="systemwide-options-for-the-current-user"></a>Opções no nível do sistema para o usuário atual
-Na barra de navegação, você encontrará a imagem de uma engrenagem, que é o botão de menu **Configurações**. Ao abrir o menu **Configurações**, você verá uma série de opções. Selecionar **Opções** abrirá a página **Opções** do usuário. Você verá quatro guias de opções: **Visual**, **Preferências**, **Conta** e **Fluxo de trabalho**.
+Na barra de navegação, você encontrará a imagem de uma engrenagem, que é o botão de menu **Configurações**. Ao abrir o menu **Configurações**, você verá uma série de opções. Selecionar **Opções** abrirá a página **Opções** do usuário. Ali, você encontrará quatro guias de opções: 
 
--   **Visual:** use-a para escolher um tema de cor e o tamanho padrão dos elementos nas páginas.
--   **Preferências:** Aqui você pode escolher padrões cada vez que abrir o Finance and Operations, incluindo a empresa, a página inicial e o modo exibição/edição padrão (que determina se uma página será bloqueada para exibição ou aberta para edição cada vez que for aberta). Você também encontrará opções de idioma, fuso horário, data, hora e formato de número. Por fim, esta página contém preferências diversas que variarão de acordo com a versão.
--   **Conta:** fornece a ID do usuário e outras opções relacionadas à conta.
--   **Fluxo de trabalho:** aqui é possível escolher opções relacionadas ao fluxo de trabalho.
+-   **Visual:** – use-a para escolher um tema de cor e o tamanho padrão dos elementos nas páginas.
+-   **Preferências:** – aqui você pode escolher padrões cada vez que abrir o Finance and Operations, incluindo a empresa, a página inicial e o modo de exibição/edição padrão (que determina se uma página será bloqueada para exibição ou aberta para edição cada vez que for aberta). Você também encontrará opções de idioma, fuso horário, data, hora e formato de número. Por fim, esta página contém preferências diversas que variarão de acordo com a versão.
+-   **Conta:** – use para fornecer a ID do usuário e outras opções relacionadas à conta.
+-   **Fluxo de trabalho:** – aqui é possível escolher opções relacionadas ao fluxo de trabalho.
 
 ## <a name="implicit-personalizations"></a>Personalizações implícitas
 As personalizações implícitas são aquelas que você executa ao interagir com alguns controles que reconhecem seu estado de visibilidade atual. 
 
-**Colunas de grade:** você pode ajustar a largura de uma coluna em uma lista ao selecionar a barra de dimensionamento à esquerda ou à direita do cabeçalho da coluna e deslizá-la para esquerda ou direita até a largura desejada. O Finance and Operations armazenará a largura de sua preferência e exibirá essa coluna com essa largura todas as vezes que você abrir a página com essa lista. 
+**Colunas de grade:** – você pode ajustar a largura de uma coluna em uma lista ao selecionar a barra de dimensionamento à esquerda ou à direita do cabeçalho da coluna e deslizá-la para esquerda ou direita até a largura desejada. O Finance and Operations armazenará a largura de sua preferência e exibirá essa coluna com essa largura todas as vezes que você abrir a página com essa lista. 
 
-**Guias Rápidas:** algumas páginas têm seções expansíveis chamadas Guias Rápidas. O Finance and Operations armazenará as Guias Rápidas que você expandiu e as Guias Rápidas que você recolheu. Cada vez que você retornar à página, as mesmas Guias Rápidas estarão expandidas ou recolhidas, com base na sua última utilização. Neste artigo, explicaremos como alterar a ordem das seções das Guias Rápidas. Em alguns casos, recolher uma Guia Rápida pode melhorar o desempenho, pois o Finance and Operations não precisará recuperar as informações dessa Guia Rápida até que ela seja expandida. 
+**Guias Rápidas:** – algumas páginas têm seções expansíveis chamadas Guias Rápidas. O Finance and Operations armazenará as Guias Rápidas que você expandiu e as Guias Rápidas que você recolheu. Cada vez que você retornar à página, as mesmas Guias Rápidas estarão expandidas ou recolhidas, com base na sua última utilização. Neste artigo, explicaremos como alterar a ordem das seções das Guias Rápidas. Em alguns casos, recolher uma Guia Rápida pode melhorar o desempenho, pois o Finance and Operations não precisará recuperar as informações dessa Guia Rápida até que ela seja expandida. 
 
-**Quadro de Fatos:** algumas páginas têm uma seção Quadro de Fatos. Esse painel contém informações somente leitura relacionadas ao assunto atual da página. Cada seção no painel Quadro de Fatos é chamada de Quadro de Fatos. Você pode expandir ou recolher um Quadro de Fatos e o Finance and Operations armazenará sua preferência. Em alguns casos, recolher um Quadro de Fatos pode melhorar o desempenho, pois o Finance and Operations não precisará recuperar as informações desse Quadro de Fatos até que ele seja expandido.
+**Quadro de Fatos:** – algumas páginas têm uma seção chamada painel Quadro de Fatos. Esse painel contém informações somente leitura relacionadas ao assunto atual da página. Cada seção no painel Quadro de Fatos é chamada de Quadro de Fatos. Você pode expandir ou recolher um Quadro de Fatos e o Finance and Operations armazenará sua preferência. Em alguns casos, recolher um Quadro de Fatos pode melhorar o desempenho, pois o Finance and Operations não precisará recuperar as informações desse Quadro de Fatos até que ele seja expandido.
 
 ## <a name="explicit-personalizations-using-the-personalization-toolbar"></a>Personalizações explícitas usando a barra de ferramentas Personalização
 Cada pessoa e empresa têm uma perspectiva diferente de quais dados são mais importantes ou quais dados não são necessários para a maneira como eles conduzem seus negócios. A capacidade de personalizar a maneira como você organiza as informações, interage ou até mesmo oculta suas informações é a chave para tornar o Finance and Operations uma experiência pessoal e produtiva. 
@@ -107,15 +107,20 @@ Alguns espaços de trabalho contém os blocos de contagem (blocos com números n
 Geralmente, o painel é a primeira página que você vê quando abre o Finance and Operations. Você pode personalizar o painel para renomear os blocos de navegação do espaço de trabalho, exibir somente os blocos desejados, renomear os blocos ou organizar os blocos na ordem em que você preferir consultá-los. Para personalizar o painel, selecione qualquer bloco e clique com o botão direito do mouse para abrir um menu de contexto. No menu de contexto, selecione **Personalizar**. Se o bloco selecionado for o que você deseja ocultar, renomear ou ignorar, faça essa alteração diretamente na janela Propriedade exibida. Para organizar os blocos, selecione **Personalizar este formulário** na janela Propriedade para abrir a barra de ferramentas Personalização. Você pode usar a ferramenta Mover para organizar os blocos.
 
 ## <a name="administration-of-personalization"></a>Administração de personalização
-Após personalizar uma página, você pode compartilhar as personalizações com outros usuários. Exportar somente a página personalizada. Você pode solicitar que os outros usuários naveguem até a página personalizada e importem o arquivo de personalização criado.
+Após personalizar uma página, você pode compartilhar as personalizações com outros usuários exportando a página personalizada. Você pode solicitar que os outros usuários naveguem até a página personalizada e importem o arquivo de personalização criado.
 
-Os usuários com privilégios de administrador também podem gerenciar personalizações para outros usuários na página **Personalização**. Esta página possui quatro guias: **Sistema**, **Usuários**, **Importar**, e **Limpar**.
+Os usuários com privilégios de administrador também podem gerenciar personalizações para outros usuários na página **Personalização**. Essa página tem quatro guias: 
 
 - **Sistema:** – É possível desabilitar ou desativar temporariamente todas as personalizações do sistema. Nesse caso, você não exclui personalizações. Em vez disso, você redefine todas as páginas ao estado padrão. Se, mais tarde, você habilitar novamente a personalização, todas as personalizações serão reaplicadas às páginas de cada usuário. Também é possível excluir todas as personalizações de todos os usuários. Observe que, quando você exclui as personalizações, não há como reabilitar automaticamente as personalizações do sistema. Portanto, antes de executar essa etapa, certifique-se de que você exportou todas as personalizações que talvez deseje importar posteriormente.
 - **Usuários** – Você pode especificar se cada usuário poderá fazer a personalização implícita ou explícita. Você também pode especificar se cada usuário poderá fazer a personalização implícita ou explícita em uma página específica. Finalmente, você pode importar, exportar ou excluir uma personalização de cada usuário.
 - **Importar** – Você pode importar uma personalização de um ou mais usuários. Você usa esta guia após criar uma personalização em uma página ou um espaço de trabalho e, em seguida, exportar essa personalização como arquivo de personalização. Para importar o seu arquivo de personalização e aplicá-lo a um ou mais usuários, selecione usuários individuais na lista de todos os usuários, ou filtre por uma função específica e selecione os usuários nessa função. Após selecionar os usuários que usarão a sua personalização, clique em **Importar** e selecione o seu arquivo de personalização. A personalização será validada e aplicada a todos os usuários selecionados na próxima vez que eles abrirem a página selecionada.
 - **Limpar** – Você pode limpar as personalizações da página ou do espaço de trabalho para um ou mais usuários. Primeiro, selecione a página ou o espaço de trabalho de que deseja limpar as personalizações. Em seguida, selecione usuários individuais na lista de todos os usuários, ou filtre por uma função específica e selecione os usuários nessa função. Após selecionar uma página ou um espaço de trabalho e os usuários, clique em **Limpar**. Todas as personalizações que os usuários selecionados aplicaram para a página ou o espaço de trabalho selecionado serão apagadas. Essa ação não pode ser desfeita. Entretanto, se a página ou o espaço de trabalho tem uma personalização salva, essa personalização pode ser reimportada.
 
+## <a name="personalization-of-inventory-dimensions"></a>Personalização das dimensões de estoque
 
+Quando você personalizar a configuração de dimensões de estoque em uma página, considere as configurações que foram criadas usando a opção **Dimensões de exibição**. Por exemplo, se você usar a personalização para ocultar uma coluna para a dimensão do número do lote de estoque e a coluna for exibida na próxima vez que a página for aberta, isso pode ocorrer porque as configurações de exibição de dimensão controlam quais colunas de dimensões de estoque são exibidas. 
 
+As configurações de exibição de dimensões se aplicam a todas as páginas e essas configurações substituirão qualquer configuração personalizada de campos de dimensão de estoque em páginas individuais. 
+
+Para o exemplo com a dimensão do número do lote de estoque, a dimensão teria que ser desmarcada como parte da opção **Dimensões de exibição** para que a tabela não exibisse a coluna. Com o tempo, essa alteração seria aplicada não somente a uma página específica mas a todas as páginas.
 

@@ -15,13 +15,13 @@ ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
-ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
+ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
+ms.openlocfilehash: 171d006e20834ea4ad6d5651ec27fc305eac4bc6
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -32,9 +32,9 @@ ms.lasthandoff: 07/27/2017
 Este artigo fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations. Também explica como você pode fornecer a documentação personalizada e treinamento a sua organização. 
 
 > [!NOTE] 
-> Os produtos a seguir estão intimamente relacionados: Dynamics 365 for Finance and Operations, Enterprise edition; Dynamics 365 for Retail; and Dynamics 365 for Talent. Todos os 3 produtos podem conter a mesma funcionalidade. Como resultado, para tópicos relacionados principalmente a varejo, o nome do produto será Dynamics 365 for Retail; para tópicos relacionados principalmente a talentos, o nome do produto será Dynamics 365 for Talent; para tópicos relacionados ao produto principal, o nome do produto será Dynamics 365 for Finance and Operations. Tópicos que são escritos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
+> Os produtos a seguir estão intimamente relacionados: Dynamics 365 for Finance and Operations, edição Enterprise; Dynamics 365 for Retail; and Dynamics 365 for Talent. Todos os 3 produtos podem conter a mesma funcionalidade. Como resultado, para tópicos relacionados principalmente a varejo, o nome do produto será Dynamics 365 for Retail; para tópicos relacionados principalmente a talentos, o nome do produto será Dynamics 365 for Talent; para tópicos relacionados ao produto principal, o nome do produto será Dynamics 365 for Finance and Operations. Os tópicos redigidos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
 
-O sistema de Ajuda é compartilhado entre todos os produtos de Operações Unificadas:
+O sistema de Ajuda é compartilhado pelos seguintes produtos:
 - Dynamics 365 for Finance and Operations, edição Enterprise
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
@@ -73,7 +73,7 @@ Também é possível localizar nosso conteúdo com qualquer mecanismo de pesquis
 
 ![Resultados da pesquisa de site](./media/site-search-results-2.png)
 
-### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>O sumário docs.microsoft.com para Operações Unificadas
+### <a name="the-docsmicrosoftcom-table-of-contents"></a>O sumário docs.microsoft.com
 Todos os produtos compartilham um sumário único no site de documentos, o qual possibilita aos clientes ver o contexto do tópico em que estão inseridos. Também permite usar o controle de Filtro para localizar os tópicos que você está procurando.
 
 ### <a name="how-can-i-contribute"></a>Como posso contribuir? 
@@ -101,7 +101,7 @@ Ou
 ## <a name="task-guides"></a>Guias de tarefas
 Um guia de tarefa é uma experiência controlada, guiada, interativa que irá guiá-lo durante as etapas de uma tarefa, ou processo comercial. Você pode abrir (executar) um guia de tarefas através do painel de Ajuda. Quando você clicar pela primeira vez em um guia de tarefas, o painel de Ajuda irá exibir as instruções passo a passo para a tarefa. Os guias de tarefas localizados agora estão disponíveis. 
 
-Forneceremos conjuntos diferentes de guias de tarefas para cada produto de Operações Unificadas. A seção de guias de Acesso a Tarefas do painel de Ajuda descreve como localizar as guias de tarefas corretas para o seu produto. 
+Forneceremos conjuntos diferentes de guias de tarefas para cada produto, como o Dynamics 365 for Retail, o Dynamics 365 for Finance and Operations ou o Dynamics 365 for Talent. A seção de guias de Acesso a Tarefas do painel de Ajuda descreve como localizar as guias de tarefas corretas para o seu produto. 
 
 ![Exibição de leitura do Guia de tarefas](./media/task-guide-ops.png)
 
@@ -169,7 +169,7 @@ Os guias da tarefa são liberados em bibliotecas com "Todos os idiomas" no títu
 -   Se um guia de tarefas ainda não foi traduzido, quando você abri-lo, apenas algumas partes do texto (o texto dos controles) aparecerão em seu idioma selecionado.
 
 ## <a name="additional-resources"></a>Recursos adicionais
-A tabela a seguir lista os sites que fornecem conteúdo para Operações Unificadas. Nossos sites de conteúdo são organizados para oferecer suporte ao ciclo de vida do cliente. Cada fase recebe suporte de um conjunto diferente de sites. Os sites que têm um asterisco (\*) ao lado do nome exigem que você se conecte usando uma conta que esteja associada à um plano de serviço.
+A tabela a seguir lista nossos sites. Nossos sites de conteúdo são organizados para oferecer suporte ao ciclo de vida do cliente. Cada fase recebe suporte de um conjunto diferente de sites. Os sites que têm um asterisco (\*) ao lado do nome exigem que você se conecte usando uma conta que esteja associada à um plano de serviço.
 
 | Site                                                                     | descrição                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

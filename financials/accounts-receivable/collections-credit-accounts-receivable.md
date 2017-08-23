@@ -1,9 +1,9 @@
 ---
 title: "Crédito e cobranças em Contas a receber"
-description: "A informações de cobranças de contas a receber são gerenciadas em uma exibição central por meio da página Cobranças do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Os gerentes de crédito e cobranças podem usar essa visão central para gerenciar cobranças. Os agentes de cobranças podem iniciar o processo de cobranças a partir das listas de clientes que são geradas usando critérios de cobrança predefinidos ou da página Clientes."
-author: twheeloc
+description: "A informações de cobranças de contas a receber são gerenciadas em uma exibição central por meio da página Cobranças do Microsoft Dynamics 365 for Finance and Operations, edição Enterprise. Os gerentes de crédito e cobranças podem usar essa visão central para gerenciar cobranças. Os agentes de cobranças podem iniciar o processo de cobranças a partir das listas de clientes que são geradas usando critérios de cobrança predefinidos ou da página Clientes."
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 282084b9d4e63795ec475690e5b22e06c23bb704
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -90,6 +89,8 @@ Você pode renunciar, reaplicar ou reverter notas de juros completas, ou taxas e
 
 Esses ajustes afetam somente as notas de juros e os juros e as taxas que elas incluem. Use as etapas descritas na seção “Criar transações de baixa em uma etapa” para dar baixa de todos os encargos devidos por um cliente.
 
+Para obter mais informações, consulte [Criar um código de juros com um intervalo](tasks/create-interest-code-range.md) e [Processar juros](tasks/process-interest.md). 
+
 ## <a name="create-writeoff-transactions"></a>Criar transações de baixa
 Você pode dar baixa em dívidas perdidas ao clicar em Dar baixa no formulário Cobranças e nas páginas de listagem Saldos classificados por vencimento., Clientes e Faturas de cliente abertas. 
 
@@ -100,7 +101,10 @@ Quando você dá baixa nas transações de um cliente, todas as transações cor
 -   O terceiro tipo de linha do diário contém as informações de baixa de contabilidade para impostos. Essa linha do diário só será criada se o botão de alternância Imposto separado for selecionado na página Parâmetros de contas a receber. Se as transações marcadas contiverem várias combinações de contas a pagar de imposto, dimensão e código de imposto, uma linha de diário separada será criada para cada combinação.
 
 A transação de baixa é criada na moeda da transação.
-Processar pagamento de insuficiência de fundos (NSF)  
+
+Para obter mais informações, consulte [Criar um diário de baixa para um cliente](tasks/create-write-off-journal-customer.md).
+
+<a name="process-not-sufficient-funds-nsf-payments"></a>Processar pagamento de insuficiência de fundos (NSF)  
 --------------------------------------------
 
 Você pode processar pagamentos NSF ao clicar em Pagamento NSF na página Cobranças. Quando você clica nesse botão, o pagamento é cancelado. Se uma taxa de NSF for aplica ao cliente, uma transação de encargo será criada em um diário de pagamento. O valor da taxa é baseado nas configurações de encargos automáticos. Os encargos automáticas que se aplicam aos pagamentos NSF são especificados pelo grupo de encargos selecionado na página Contas bancárias para a conta bancária afetada.

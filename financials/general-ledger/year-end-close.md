@@ -3,7 +3,7 @@ title: Fechamento anual
 description: "Este tópico descreve a configuração e as etapas necessárias para executar o processo de fechamento anual da contabilidade."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 50a6a23febc725eb05d30d5db4f97ca699607461
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 4aad946f51c0c9a0a4c0ea1249e6e876cc628e20
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -86,7 +86,7 @@ Se deseja reverter um fechamento anual anterior, do ano fiscal selecionado, defi
 
 O processo de fechamento anual é executado, por padrão, no modo de lote. É uma prática recomendada executar o processo no modo de lote, para permitir que o usuário retorne às outras atividades. Após a conclusão do processo de fechamento anual, a **Data do último fechamento anual** será atualizada com a data da sessão.
 
-Para obter mais informações, consulte [Fechar a contabilidade ao final do período](close-general-ledger-at-period-end.md).
+Para saber mais, consulte [Fechar a contabilidade no fim do período](close-general-ledger-at-period-end.md) e [Fechar o ano fiscal](tasks/close-fiscal-year.md).
 
 
 

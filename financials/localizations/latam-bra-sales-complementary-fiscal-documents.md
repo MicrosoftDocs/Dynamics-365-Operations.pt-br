@@ -3,7 +3,7 @@ title: Notas fiscais complementares de vendas para o Brasil
 description: "Este tópico descreve a fatura complementar de vendas da localização brasileira."
 author: sndray
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3c6c3ab6c04841d229d54607487bb759107cd1d3
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 58a276a1ec132aa52a3700ed222c6367f87b6b55
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -62,6 +61,11 @@ Antes de criar ou lançar notas fiscais complementares de venda, os seguintes pa
 ## <a name="examples"></a>Exemplos
 [![Exemplos de uma fatura original e de notas fiscais complementares de vendas de cada um dos três tipos](./media/salescomplementary-1024x409.png)](./media/salescomplementary.png)
 
+Para obter mais informações, consulte os seguintes tópicos:
+
+[Criar e lançar uma nota fiscal complementar de venda (Brasil)](tasks/br-00052-1-create-post-sales-complementary-fiscal-documents.md)
+
+[Cancelar uma nota fiscal complementar de venda (Brasil)](tasks/br-00052-2-cancel-sales-complementary-fiscal-document.md)
 
 
 

@@ -1,9 +1,9 @@
 ---
 title: "Processamento do diário geral"
-description: "Este artigo descreve os recursos do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition que podem ajudar a facilitar o processamento de diário geral, bem como ajudar a garantir que os dados corretos sejam capturados e o controle interno não esteja comprometido."
+description: "Este artigo descreve os recursos do Microsoft Dynamics 365 for Finance and Operations, edição Enterprise que podem ajudar a facilitar o processamento de diário geral, bem como ajudar a garantir que os dados corretos sejam capturados e o controle interno não esteja comprometido."
 author: twheeloc
 manager: AnnBe
-ms.date: 04/25/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68da281cb4793ed83f70c68d061d327aa8a8c772
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -32,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve os recursos do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition que podem ajudar a facilitar o processamento de diário geral, bem como ajudar a garantir que os dados corretos sejam capturados e o controle interno não esteja comprometido.  
+Este artigo descreve os recursos do Microsoft Dynamics 365 for Finance and Operations, edição Enterprise que podem ajudar a facilitar o processamento de diário geral, bem como ajudar a garantir que os dados corretos sejam capturados e o controle interno não esteja comprometido.  
 
 Nomes de diário
 
@@ -82,8 +81,13 @@ A configuração da conta principal fornece várias opções para o processament
 
 As estruturas de contabilidade e as estruturas de regras avançadas são muito importantes para garantir que os dados necessários para relatórios financeiros e rastreamento de desempenho sejam capturados durante o processamento do diário geral e em qualquer outra documentação. As estruturas de contabilidade e as estruturas de regras avançadas permitem personalizar a experiência da entrada de dados. Você pode permitir a entrada de dados somente para as dimensões financeiras que são relevantes para cada situação, e também pode forçar a exigência de captura de dados obrigatórios e corretos.
 
-Para obter mais informações, consulte [Planejamento: Plano de contas](plan-chart-of-accounts.md). 
-
+Para obter mais informações, consulte os seguintes tópicos:
+- [Planejamento: plano de contas](plan-chart-of-accounts.md) 
+- [Criar regras avançadas para diários](tasks/create-advanced-rules-journals.md)
+- [Criar uma entrada de diário usando um modelo](tasks/create-journal-entry-template.md)
+- [Criar e validar diários](tasks/create-validate-journals.md)
+- [Lançar diários periódicos](tasks/post-periodic-journals.md)
+- [Processar diário de alocação do razão](tasks/process-ledger-allocation-journal.md)
 
 
 

@@ -1,9 +1,9 @@
 ---
 title: "Novidades e alterações"
 description: "Essa página indica tópicos que podem ajudar você a conhecer os novos recursos das versões mais recentes do Microsoft Dynamics 365 for Finance and Operations."
-author: sericks007
+author: josaw1
 manager: AnnBe
-ms.date: 06/19/2017
+ms.date: 07/28/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,14 +15,14 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 27141
 ms.assetid: b86934d4-d9dd-4a07-bfd1-4adb948a5139
 ms.search.region: Global
-ms.author: sericks
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.author: josaw
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 2044bd5a3c858fb099fa7f612ede9963acc51efb
+ms.sourcegitcommit: 5d945fe857a117c335dab7d377e41e7574a645e5
+ms.openlocfilehash: e446d5cd4fd331184665b5fd6cb1cdf972a6e599
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 07/27/2017
 
 [!include[banner](../includes/banner.md)]
 
-Essa página indica tópicos que podem ajudar você a conhecer os novos recursos das versões mais recentes do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Essa página indica tópicos que podem ajudar você a conhecer os novos recursos das versões mais recentes do Microsoft Dynamics 365 for Finance and Operations, edição Enterprise.
 
 Para obter informações sobre como fazer a atualização para a versão mais recente, consulte [Processo de instalação da última atualização](../migration-upgrade/upgrade-latest-update.md).
 
@@ -62,7 +62,7 @@ Para obter informações sobre como fazer a atualização para a versão mais re
 <td>Atualização de julho de 2017</td>
 <td>7.2.11792.56024</td>
 <td>2017 de junho</td>
-<td><a href="whats-new-application-July-2017-update.md">O que há de novo ou diferente no Dynamics 365 for Finance and Operations, Enterprise edition com atualização de julho de 2017</a></td>
+<td><a href="whats-new-application-July-2017-update.md">O que há de novo ou diferente no Dynamics 365 for Finance and Operations, edição Enterprise com atualização de julho de 2017</a></td>
 </tr>
 <tr class="even">
 <td>Microsoft Dynamics 365 for Operations</td>
@@ -110,10 +110,16 @@ Para obter informações sobre como fazer a atualização para a versão mais re
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, edição Enterprise</td>
+<td>Atualização 9 de plataforma</td>
+<td>7.0.4612.35162</td>
+<td>2017 de julho</td>
+<td><a href="whats-new-platform-update-9.md">O que há de novo ou diferente no Dynamics 365 for Finance and Operations, edição Enterprise com atualização 9 da plataforma (julho de 2017)</a></td>
+</tr><tr class="odd">
+<td>Microsoft Dynamics 365 for Finance and Operations, edição Enterprise</td>
 <td>Atualização 8 de plataforma</td>
 <td>7.0.4565.16212</td>
 <td>2017 de junho</td>
-<td><a href="whats-new-platform-update-8.md">O que há de novo ou diferente no Dynamics 365 for Finance and Operations, Enterprise edition com atualização 8 da plataforma (julho de 2017)</a></td>
+<td><a href="whats-new-platform-update-8.md">O que há de novo ou diferente no Dynamics 365 for Finance and Operations, edição Enterprise com atualização 8 da plataforma (julho de 2017)</a></td>
 </tr>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations</td>
