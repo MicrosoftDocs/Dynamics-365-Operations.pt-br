@@ -3,7 +3,7 @@ title: Configurar uma tarefa manual em um fluxo de trabalho
 description: "Este tópico explica como configurar as propriedades de uma tarefa manual."
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -165,6 +165,7 @@ Se um usuário não concluir a tarefa manual no tempo alocado, a tarefa vencerá
 
 1.  No painel esquerdo, clique em **Escalonamento**.
 2.  Marque a caixa de seleção **Usar caminho de escalonamento** para criar um caminho de escalonamento. O sistema atribuirá automaticamente a tarefa aos usuários listados no caminho de escalonamento. Por exemplo, a tabela a seguir representa um caminho de escalonamento.
+
     | Sequência | Caminho de escalonamento      |
     |----------|----------------------|
     | 1        | Atribuir a: Denise     |
@@ -318,7 +319,9 @@ Você poderá enviar notificações às pessoas quando uma tarefa manual for del
 8.  Repita as etapas de 3 a 7 para cada evento selecionado na etapa 2.
 
 ## <a name="set-a-time-limit"></a>Definir um limite de tempo
-Siga estas etapas se a tarefa manual tiver que ser concluída em um horário específico. **Observação:** as opções selecionadas neste procedimento substituirão as que você selecionou nas áreas **Atribuição** e **Escalonamento** da página.
+Siga estas etapas se a tarefa manual tiver que ser concluída em um horário específico. 
+
+**Observação:** as opções selecionadas neste procedimento substituirão as que você selecionou nas áreas **Atribuição** e **Escalonamento** da página.
 
 1.  No painel esquerdo, clique em **Configurações avançadas**.
 2.  Marque a caixa de seleção **Definir um limite de tempo para o elemento de fluxo de trabalho**.
