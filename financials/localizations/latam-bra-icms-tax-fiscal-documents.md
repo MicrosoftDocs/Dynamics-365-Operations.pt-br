@@ -3,7 +3,7 @@ title: "Notas fiscais de transferência ou apropriação de imposto ICMS para o 
 description: "Este tópico explica o conceito de notas fiscais de transferência ou apropriação de imposto e descreve os requisitos para gerá-las."
 author: sndray
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,12 +17,11 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: d8b48230a9822e592b7b6cc3d479f46bbe868508
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 862fc4548562efebddbc65ae1d398d99a7a883cd
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -69,7 +68,7 @@ De acordo com a lei brasileira nº 102/2000, a partir de 1º de janeiro de 2001,
 
 No Microsoft Dynamics 365 for Operations, as entradas são as seguintes:
 
-**Compra de ativo fixo** **Microsoft Dynamics 365 for Finance and Operations, Enterprise edition: Fatura de compra de ativo de recebimento**
+**Compra de ativo fixo** **Microsoft Dynamics 365 for Finance and Operations, edição Enterprise: Fatura de compra de ativo de recebimento**
 
 **Ajuste de ICMS do ano** **Finance and Operations: Comprovante de diário manual** **(R$ 12.000,00 / 48 parcelas) \* 12 (meses)**
 
@@ -131,6 +130,16 @@ Os seguintes pré-requisitos devem ser configurados antes de você criar e lanç
 -   Notas fiscais de entrada para transferência de crédito de ICMS de outras entidades legais, subsidiárias/afiliadas ad mesma empresa/organização destinadas para a compensação do saldo de débito de ICMS (CFOP: 1.601 e 1.602)
 -   Notas fiscais de entrada para utilizar 1/48 de crédito de ICMS (CFOP: 1.604) (CIAP)
 
+
+Para obter mais informações, consulte os seguintes tópicos:
+
+[Configurar códigos de ajuste para o imposto ICMS (Brasil)](tasks/br-10001-1-set-up-adjustment-codes-icms-tax.md)
+
+[Configurar códigos de ajuste para o imposto ICMS em notas fiscais (Brasil)](tasks/br-10001-2-set-up-adjustment-codes-icms-taxes-fiscal-documents.md)
+
+[Inserir e lançar transações de ajuste de imposto (Brasil)](tasks/br-10001-3-enter-post-tax-adjustment-transactions.md)
+
+[Criar uma apuração de imposto – ICMS (Brasil)](tasks/br-10001-4-create-tax-assessment-icms.md)
 
 
 

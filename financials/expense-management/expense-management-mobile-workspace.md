@@ -16,12 +16,12 @@ ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2dd3db95eb741c37dd8a50c397cb4c9494599250
-ms.openlocfilehash: 993586b1fb46c21d2b68a6060ab897c8ccc76a6c
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 58d36505461ea89bf466209d3da968d1357e58ae
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -60,7 +60,7 @@ Se você estiver usando a atualização de julho de 2017 do Microsoft Dynamics 3
 ## <a name="prerequisites"></a>Pré-requisitos
 Os pré-requisitos variam com base na versão do Microsoft Dynamics 365 implantada para sua organização.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Finance and Operations, Enterprise edition atualização de julho de 2017 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Finance and Operations, edição Enterprise atualização de julho de 2017 
 Se o Microsoft Dynamics 365 for Finance and Operations, edição Enterprise de julho de 2017, foi implementado em sua organização, o administrador do sistema deve publicar a área de trabalho móvel **Gerenciamento de despesas**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior
@@ -131,11 +131,11 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>Inserir rapidamente as despesas usando o espaço de trabalho móvel Gerenciamento de despesas
 1. No seu dispositivo móvel, abra o espaço de trabalho **Gerenciamento de despesas**.
 2. Selecione **Entrada rápida de despesas**.
-3. Selecione a categoria da despesa. Você verá uma lista de categorias de despesas que estão carregadas para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se a categoria não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por categoria de despesa ou alterne para pesquisar por tipo de despesa.
+3. Selecione a categoria da despesa. Você verá uma lista de categorias de despesas que estão carregadas para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se a categoria não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por categoria de despesa ou alterne para pesquisar por tipo de despesa.
 4. Insira a data da transação da despesa.
 5. Opcional: Insira o comerciante da despesa.
 6. Insira o valor da despesa.
-7. Selecione a moeda da despesa. Você verá uma lista de códigos de moeda que são carregados para seu aplicativo para uso offline. Por padrão, 400 moedas são carregadas, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se a sua moeda não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por moeda ou alterne para pesquisar por nome de categoria.
+7. Selecione a moeda da despesa. Você verá uma lista de códigos de moeda que são carregados para seu aplicativo para uso offline. Por padrão, 400 moedas são carregadas, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se a sua moeda não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por moeda ou alterne para pesquisar por nome de categoria.
 8. Selecione **Tirar foto** ou **Escolher imagem**.
 9. Siga uma destas etapas:
 
@@ -166,11 +166,11 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 7. Selecione uma ou mais despesas na lista.
 8. Selecione **Concluído**.
 9. Para adicionar uma nova despesa ao relatório de despesas, selecione **Nova despesa**.
-10. Selecione a categoria da despesa. Você verá uma lista de categorias de despesas que estão carregadas para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se a categoria não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por categoria de despesa ou alterne para pesquisar por tipo de despesa.
+10. Selecione a categoria da despesa. Você verá uma lista de categorias de despesas que estão carregadas para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se a categoria não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por categoria de despesa ou alterne para pesquisar por tipo de despesa.
 11. Opcional: Insira o comerciante da despesa.
 12. Insira a data da transação da despesa.
 13. Insira o valor da despesa.
-14. Selecione a moeda da despesa. Você verá uma lista de códigos de moeda que são carregados para seu aplicativo para uso offline. Por padrão, 400 moedas são carregadas, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se a sua moeda não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por moeda ou alterne para pesquisar por nome de categoria.
+14. Selecione a moeda da despesa. Você verá uma lista de códigos de moeda que são carregados para seu aplicativo para uso offline. Por padrão, 400 moedas são carregadas, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se a sua moeda não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por moeda ou alterne para pesquisar por nome de categoria.
 15. Selecione **Concluído**.
 16. Para adicionar mais detalhes à despesa, selecione **Adicionar mais detalhes**. Os campos disponíveis dependerão da configuração de gerenciamento de despesas para sua empresa.
 17. Se a política da empresa exigir um recibo pela despesa, selecione **Recibos** e então siga estas etapas:
@@ -216,12 +216,12 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
         - Caso você tenha selecionado **Convidados anteriores**, siga estas etapas:
 
-            1. Selecione um ou mais convidados anteriores na lista. Você verá uma lista de convidados anteriores adicionados a relatórios de despesas anteriores carregados em seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se o seu convidado anterior não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por nome ou alterne para a pesquisa por organização, país ou cargo.
+            1. Selecione um ou mais convidados anteriores na lista. Você verá uma lista de convidados anteriores adicionados a relatórios de despesas anteriores carregados em seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se o seu convidado anterior não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por nome ou alterne para a pesquisa por organização, país ou cargo.
             2. Selecione **Concluído**.
 
         - Caso você tenha selecionado **Colegas de trabalho**, siga estas etapas:
 
-            1. Selecione um ou mais colegas de trabalho na lista. Você verá uma lista de colegas de trabalho carregada em seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se o seu colega de trabalho não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por nome ou alterne para a pesquisa por empresa ou cargo.
+            1. Selecione um ou mais colegas de trabalho na lista. Você verá uma lista de colegas de trabalho carregada em seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se o seu colega de trabalho não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por nome ou alterne para a pesquisa por empresa ou cargo.
             2. Selecione **Concluído**.
 
     3. Selecione o botão **Voltar** para retornar aos detalhes da despesa.
@@ -230,7 +230,7 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 
     1. Selecione a data inicial a ser discriminada.
     2. Selecione **Adicionar discriminação**.
-    3. Selecione a subcategoria da discriminação de despesas. Você verá uma lista de subcategorias de despesas carregada em seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform). Se a subcategoria não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por nome de subcategoria de despesas.
+    3. Selecione a subcategoria da discriminação de despesas. Você verá uma lista de subcategorias de despesas carregada em seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, os desenvolvedores devem acessar a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page). Se a subcategoria não estiver na lista, selecione **Pesquisar** para fazer uma pesquisa online. Pesquise por nome de subcategoria de despesas.
     4. Insira o valor da transação na discriminação.
     5. Edite a data da transação, se necessário.
     6. Selecione **Concluído**.

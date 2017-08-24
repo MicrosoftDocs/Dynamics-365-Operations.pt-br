@@ -18,12 +18,11 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 83899969255a9b771fc5e62e66e3c5ffdca0296e
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -49,8 +48,8 @@ Especificamente, na área de trabalho móvel **Entrada de tempo do projeto**, os
 ## <a name="prerequisites"></a>Pré-requisitos
 Os pré-requisitos diferem, com base da versão do Microsoft Dynamics 365 que foi implantada para sua organização.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Finance and Operations, Enterprise edition atualização de julho de 2017 
-Se o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition de julho de 2017, foi implementado em sua organização, o administrador do sistema deve publicar a área de trabalho móvel de **Entrada de tempo do projeto**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Finance and Operations, edição Enterprise atualização de julho de 2017 
+Se o Microsoft Dynamics 365 for Finance and Operations, edição Enterprise de julho de 2017, foi implementado em sua organização, o administrador do sistema deve publicar a área de trabalho móvel de **Entrada de tempo do projeto**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior
 Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior tiver sido implantado em sua organização, o administrador do sistema deve completar os seguintes pré-requisitos. 
@@ -105,11 +104,11 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 2.  Selecione **Entrada de tempo**. Você verá as datas de calendário da semana atual.
 3.  Para uma data selecionada, selecione **Ações** &gt; **Nova entrada**.
 4.  Insira o número de horas a serem registradas.
-5.  Selecionar o projeto para a entrada de hora. Você verá uma lista de projetos que estão carregados para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, consulte a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+5.  Selecionar o projeto para a entrada de hora. Você verá uma lista de projetos que estão carregados para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, consulte a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 6.  Se o projeto não estiver na lista, selecione **Pesquisar**. Pesquisar por nome ou alternar para pesquisar por nome do projeto ou cliente.
-7.  Selecione uma categoria. Você verá uma lista de categorias que estão carregados para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, consulte a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+7.  Selecione uma categoria. Você verá uma lista de categorias que estão carregados para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, consulte a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 8.  Se a categoria não estiver na lista, selecione **Pesquisar**. Pesquise por categoria ou alterne para pesquisar por nome de categoria.
-9.  Selecione uma atividade. Você verá uma lista de atividades que estão carregados para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, consulte a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform).
+9.  Selecione uma atividade. Você verá uma lista de atividades que estão carregados para seu aplicativo para uso offline. Por padrão, 50 itens são carregados, mas um desenvolvedor pode alterar esse número. Para obter mais informações, consulte a [Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page).
 10. Se a atividade não estiver na lista, selecione **Pesquisar**. Pesquise por número de atividade ou alterne para pesquisar por finalidade.
 
 11. Selecionar a propriedade da linha.

@@ -16,12 +16,12 @@ ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
-ms.search.validFrom: 2017-02-28T00:00:00.000Z
+ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
-ms.openlocfilehash: 8674a237878d4358c7f9ce4d4dfcace302536063
+ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.openlocfilehash: 46a77f2757bee9f688d8c0d23f15cd7eb27ebcb3
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 
@@ -39,7 +39,7 @@ Este tópico descreve o aplicativo móvel do Microsoft Dynamics 365 for Unified 
 
 O aplicativo móvel permite que sua organização disponibilize os processos empresariais nos dispositivos móveis. Depois que seu administrador de TI habilitar os espaços de trabalho de sua organização, os usuários podem entrar no aplicativo e começar imediatamente a executar os processos comerciais de seus dispositivos móveis. O aplicativo móvel inclui os seguintes recursos que podem ajudar a aumentar a produtividade:
 
-- Os usuários podem exibir, editar e atuar nos dados corporativos, mesmo se eles tiverem conectividade de rede intermitente ou seus dispositivos móveis estiverem completamente offline. Quando um dispositivo restabelece uma conexão de rede, operações de dados offline são sincronizadas automaticamente com o Dynamics 365 for Finance and Operations, Enterprise edition, ou com o Microsoft Dynamics 365 for Finance and Operations.
+- Os usuários podem exibir, editar e atuar nos dados corporativos, mesmo se eles tiverem conectividade de rede intermitente ou seus dispositivos móveis estiverem completamente offline. Quando um dispositivo restabelece uma conexão de rede, operações de dados offline são sincronizadas automaticamente com o Dynamics 365 for Finance and Operations, edição Enterprise, ou com o Microsoft Dynamics 365 for Finance and Operations.
 - Os administradores de TI ou desenvolvedores podem criar e publicar espaços de trabalho móveis que foram personalizados para sua organização. O aplicativo usa seu código de ativos existente. Portanto, não é necessário reimplementar os procedimentos de validação, lógica de negócio ou configuração de segurança.
 - Os desenvolvedores ou administradores de TI podem facilmente criar espaços de trabalho móveis usando o criador de espaço de trabalho de apontar e clicar que é incluído no cliente da Web.
 - Os administradores de TI ou desenvolvedores podem, como opção, otimizar os recursos offline dos espaços de trabalho, usando a estrutura de extensibilidade da lógica de negócios. Como os dados continuam sendo processados quando um dispositivo está offline, seu cenário móvel permanece avançado e fluido, mesmo se os dispositivos não tiverem conectividade de rede constante.
@@ -113,11 +113,8 @@ A tabela a seguir inclui links para recursos que podem ajudá-lo a implementar o
 <tr class="even">
 <td>4</td>
 <td>Desenvolvedor ou fornecedor de software independente (ISV)</td>
-<td>Use a estrutura móvel para criar espaços de trabalho móveis personalizados.</td>
-<td><ul>
-<li><a href="mobile-platform.md">Estrutura móvel</a></li>
-<li><a href="mobile-workspace-xpp-apis.md">Espaço de trabalho X++ APIs</a></li>
-</ul></td>
+<td>Use a plataforma móvel para criar espaços de trabalho móveis personalizados.</td>
+<td><a href="platform/mobile-platform-home-page.md">Plataforma móvel</a></td>
 </tr>
 <tr class="odd">
 <td>5</td>

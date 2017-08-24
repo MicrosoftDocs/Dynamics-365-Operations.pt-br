@@ -15,13 +15,13 @@ ms.custom: 270294
 ms.assetid: 3a7ba8b0-ac57-4159-9cd8-4308f6021f36
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: ea4ee6cfdca6e65f289db32ca41305a39b186033
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: 12fd8e11211b701304f9f4a68ff31f3b42e3e8ee
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -45,11 +45,11 @@ Para propagar a segurança de nível de acesso ao Power BI, o proprietário do c
 3.  Localize o conjunto de dados para o conteúdo de **Análise de contabilidade de custos** do Power BI.
 4.  Abra a página de segurança. 
 
-    [![Abrindo a página de segurança](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-1.png)
+    ![Abrindo a página de segurança](./media/CA-picture-1.png)
 
 5.  A função **Controlador de objeto de custo** já está criada. Adicione outros membros que fazem parte da hierarquia organizacional do nível de acesso da contabilidade de custos. 
 
-    [![Adicionando membros](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)](https://msdynamics.blob.core.windows.net/media/2017/02/CA-picture-2.png)
+    ![Adicionando membros](./media/CA-picture-2.png)
 
 Os usuários que forem adicionados à função **Controlador de objeto de custo** verão apenas os dados que eles estão autorizados a ver, de acordo com a definição na hierarquia organizacional de nível de acesso da contabilidade de custos. **Observação:** A segurança em nível de linha aplica-se a blocos e relatórios no Microsoft Dynamics 365 for Finance and Operations que são incorporados pelo Power BI.
 

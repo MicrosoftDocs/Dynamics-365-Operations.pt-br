@@ -3,7 +3,7 @@ title: "Conciliação de faturas de contas a pagar"
 description: "A conciliação de faturas de contas a pagar é o processo de conciliar as informações da fatura do fornecedor e do recebimento do produto."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6d1348ad43f8170f29bfc2f3df8a2ec60f9f8912
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: aa195f6057ae4ea511d661ffb47b1feeed58d2f9
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -192,7 +191,7 @@ Geralmente, as faturas de fornecedores se baseiam nos recebimentos de produtos, 
 -   Insira os valores da fatura que não foram incluídos na ordem de compra original, para que as informações da fatura sejam conciliadas com a fatura que você recebeu do fornecedor. Você pode comparar os encargos de ordens de compra com os encargos de faturas. Se necessário, é possível adicionar encargos às faturas e alocá-los nas linhas de fatura.
 -   Exiba e aprove discrepâncias na conciliação de preços entre o preço unitário líquido da fatura e o preço unitário líquido da ordem de compra. Você pode configurar percentuais de tolerância de preços para entidades legais, fornecedores e itens. Se o preço da linha da fatura do fornecedor não estiver dentro da tolerância de preço aceitável, você poderá salvar a fatura até que seja aprovada para lançamento ou até receber uma correção do fornecedor.
 
-Para obter mais informações, consulte [Políticas de conciliação tripla](three-way-matching-policies.md).
+Para obter mais informações, consulte [Políticas de conciliação tripla](three-way-matching-policies.md) e [Configurar a validação de conciliação de faturas de contas a pagar](tasks/set-up-accounts-payable-invoice-matching-validation.md). 
 
 
 

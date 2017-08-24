@@ -1,9 +1,9 @@
 ---
 title: "Visão geral das faturas de fornecedor"
 description: "Este artigo fornece informações gerais sobre notas fiscais de fornecedor. As notas fiscais de fornecedor são solicitações para pagamento dos produtos e serviços recebidos. As notas fiscais do fornecedor podem representar uma conta para serviços em andamento, ou podem se basear em ordens de compra para itens específicos e serviços."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,15 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 16ff8ebb0e620f45c4d290ee5076d5505abf3436
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 4c27b5a8ab1a7aeab31b48937dcaf4a86d798689
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -73,13 +72,25 @@ Você pode criar uma fatura de fornecedor com base nos itens de linha de recebim
 
 Quando você lança a fatura, a **Quantidade a faturar** de cada item é atualizada com o total das quantidades recebidas dos recebimentos de produtos selecionados. Se a quantidade **A faturar** e a quantidade **A entregar** de todos os itens na ordem de compra for 0 (zero), o status da ordem de compra é alterado para **Faturado**. Se a quantidade **A faturar** for diferente de 0, o status da ordem de compra permanece inalterado, e faturas adicionais podem ser inseridas para ela.
 
-Esta opção pressupõe que pelo menos um recebimento de produtos tenha sido lançado para a ordem de compra. A fatura de fornecedor baseia-se nesses recebimentos de produtos e reflete suas quantidades. As informações financeiras da fatura baseiam-se nas que são inseridas quando você lança essa nota.
+Esta opção pressupõe que pelo menos um recebimento de produtos tenha sido lançado para a ordem de compra. A fatura de fornecedor baseia-se nesses recebimentos de produtos e reflete suas quantidades. As informações financeiras da nota fiscal baseiam-se nas que são inseridas quando você lança essa nota.
+
+Para saber mais, consulte [Registrar fatura de fornecedor e corresponder com a quantidade recebida](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md).
 
 ## <a name="working-with-multiple-invoices"></a>Trabalhando com diversas faturas
 
-Você pode trabalhar com várias faturas e lançá-las ao mesmo tempo. Se você precisar criar várias faturas, use a página **Faturas de fornecedor pendentes**. Se você precisar lançar e imprimir várias faturas de fornecedor, use a página do diário de aprovação de faturas. Se você estiver usando o diário de aprovação de fatura, pelo menos um recebimento de produtos deve ser lançado para a ordem de compra, e uma fatura para a ordem de compra deve ser lançada em um registro de fatura. As informações financeiras para a fatura vêm da fatura que foi lançada no registro.
+Você pode trabalhar com várias faturas e lançá-las ao mesmo tempo. Se você precisar criar várias faturas, use a página **Faturas de fornecedor pendentes**. Se você precisar lançar e imprimir várias faturas de fornecedor, use a página do diário de aprovação de faturas. Se você estiver usando o diário de aprovação de fatura, pelo menos um recebimento de produtos deve ser lançado para a ordem de compra, e uma fatura para a ordem de compra deve ser lançada em um registro de fatura. As informações financeiras para a nota fiscal vêm da nota fiscal que foi lançada no registro.
 
 
+Para obter mais informações, consulte: 
 
+ - [Configurar políticas de fatura de fornecedores](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
+
+ - [Dados-chave de fatura em contas a pagar usando uma fatura de fornecedor](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+ 
+ - [Dados-chave de fatura em contas a pagar usando um diário de aprovações](tasks/key-invoice-data-into-ap-system-approval-journal.md)
+  
+ - [Dados-chave de fatura no sistema de AP usando grupo de faturas](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
+ 
+ - [Registrar uma fatura de fornecedor no diário de faturas](tasks/record-vendor-invoice-invoice-journal.md)
 
 

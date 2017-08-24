@@ -1,9 +1,9 @@
 ---
 title: "Modelos de planejamento de orçamento para Excel"
 description: "Este tópico descreve como criar modelos do Microsoft Excel que podem ser usados com planos de orçamento."
-author: twheeloc
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
-ms.author: sigitac
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: ryansand
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: pt-br
 ms.lasthandoff: 07/27/2017
 
@@ -38,32 +38,37 @@ Este tópico mostra como criar modelos do Excel que serão usados com planos de 
 
 Documentos de plano de orçamento podem ser exibidos e editados com um ou vários layouts. Cada layout pode ter um modelo de documento de plano de orçamento associado para exibir e editar os dados do plano de orçamento em uma planilha do Excel. Neste tópico, um modelo de documento de plano de orçamento será gerado por meio de uma configuração de layout existente. 
 
-Abra a **Lista de planos de orçamento** (**Orçamento** &gt; **Planos de orçamento**). Clique em **Novo** para criar um novo documento de plano de orçamento. 
+1. Abra a **Lista de planos de orçamento** (**Orçamento** &gt; **Planos de orçamento**). 
+2. Clique em **Novo** para criar um novo documento de plano de orçamento. 
 
-[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+  [![Lista de planos de orçamento](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
-Use a opção de linha **Adicionar** para adicionar linhas. Clique em **Layouts** para exibir a configuração de layout do documento de plano de orçamento. 
+3. Use a opção de linha **Adicionar** para adicionar linhas. Clique em **Layouts** para exibir a configuração de layout do documento de plano de orçamento. 
 
-[![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+  [![Adição de planos de orçamento](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Você pode revisar a configuração do layout e ajustá-la quando necessário. Vá para **Modelo** &gt; **Gerar** para criar um arquivo do Excel para esse layout. Após a criação do modelo, vá para **Modelo** &gt; **Exibir** para abrir ou revisar o modelo de documento de plano de orçamento. É possível salvar o arquivo do Excel na sua unidade local. [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
+Você pode revisar a configuração do layout e ajustá-la quando necessário. 
+1. Vá para **Modelo** &gt; **Gerar** para criar um arquivo do Excel para esse layout. 
+2. Após a criação do modelo, vá para **Modelo** &gt; **Exibir** para abrir ou revisar o modelo de documento de plano de orçamento. É possível salvar o arquivo do Excel na sua unidade local. 
+
+[![Salvar como](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > O layout de documento do plano do orçamento não pode ser editado depois que um modelo do Excel é associado a ele. Para alterar o layout, exclua o arquivo do modelo do Excel associado e gere-o novamente. Isso é necessário para manter os campos no layout e na planilha sincronizados. 
 
 O modelo do Excel conterá todos os elementos do layout do documento de plano de orçamento, no qual a coluna **Disponível em planilha** é definida como Verdadeira. Não é possível sobrepor elementos no modelo do Excel. Por exemplo, se o layout contiver as colunas Solicitação Q1, Solicitação Q2, Solicitação Q3 e Solicitação Q4 e uma coluna com o total de solicitações representando a soma de todas as 4 colunas trimestrais, apenas as colunas trimestrais ou a coluna com o total estarão disponíveis para serem usadas no modelo do Excel. O arquivo do Excel pode atualizar a sobreposição de colunas durante a atualização, já que os dados na tabela poderiam ficar desatualizados e se tornar imprecisos.
 
-[![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
+[![Exemplo](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> Para evitar possíveis problemas com a exibição e edição de dados de plano de orçamento usando o Excel, o mesmo usuário deve estar conectado tanto ao Microsoft Dynamics 365 for Finance and Operations, Enterprise edition quanto ao Microsoft Dynamics Office Add-in Data Connector.
+> Para evitar possíveis problemas com a exibição e edição de dados de plano de orçamento usando o Excel, o mesmo usuário deve estar conectado tanto ao Microsoft Dynamics 365 for Finance and Operations, edição Enterprise quanto ao Microsoft Dynamics Office Add-in Data Connector.
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>Adicionar um cabeçalho ao modelo de documento de plano de orçamento
 Para adicionar informações de cabeçalho, selecione a linha superior no arquivo do Excel e insira linhas vazias. Clique em **Design** no **Conector de Dados** para adicionar campos de cabeçalho ao arquivo do Excel.
 
 [![bpt5](./media/bpt5-1024x615.png)](./media/bpt5.png) 
 
-Na guia **Design**,** **clique nos campos **Adicionar** e depois selecione **BudgetPlanHeader** como a fonte de dados da entidade.
+Na guia **Design**, clique nos campos **Adicionar** e, em seguida, selecione **BudgetPlanHeader** como a fonte de dados da entidade.
 
 [![bpt6](./media/bpt6-1024x615.png)](./media/bpt6.png)
 

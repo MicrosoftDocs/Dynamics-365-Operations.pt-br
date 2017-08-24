@@ -3,7 +3,7 @@ title: "Visão geral do processo de NF-e para o Brasil"
 description: "Este tópico fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes."
 author: sndray
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: cc02bf4a9d0d0d1cd15feab30b30988fadbdc289
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 31e45a2408ca33a073342952bb8377acadcd429c
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -53,7 +52,7 @@ Depois que você gera uma NF-e, pode enviar a NF-e assinada digitalmente para a 
 
 1.  O estabelecimento fiscal lança uma nota fiscal usando um tipo de nota fiscal que é configurado para o modelo de nota fiscal 55 para gerar uma NF-e.
 2.  O processo de exportação ou de importação detecta a nota fiscal lançada para o modelo de nota fiscal 55 e gera uma mensagem XML no formato especificado. Uma mensagem XML separada é gerada para cada NF-e. A mensagem XML é transmitida à SEFAZ.
-3.  A SEFAZ processa a mensagem XML e retorna um protocolo e um status para cada NF-e. O status da NF-e e o protocolo são então atribuídos à NF-e que é usada no processo de exportação ou importação de NF-e. O status que é retornado pode ser **Aprovado**, **Negado**, **Rejeitado**, **Cancelado**, **Rejeitado sem correção** ou **Rejeitado**. Esta informação é usada para atualizar o status da nota fiscal no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+3.  A SEFAZ processa a mensagem XML e retorna um protocolo e um status para cada NF-e. O status da NF-e e o protocolo são então atribuídos à NF-e que é usada no processo de exportação ou importação de NF-e. O status que é retornado pode ser **Aprovado**, **Negado**, **Rejeitado**, **Cancelado**, **Rejeitado sem correção** ou **Rejeitado**. Esta informação é usada para atualizar o status da nota fiscal no Microsoft Dynamics 365 for Finance and Operations, edição Enterprise.
 
 Depois que o status da NF-e for recebido da SEFAZ, você poderá executar as seguintes tarefas, dependendo do status:
 
@@ -63,6 +62,12 @@ Depois que o status da NF-e for recebido da SEFAZ, você poderá executar as seg
 -   Se a NF-e for rejeitada e não puder ser corrigida, você deverá cancelar a NF-e descartada que tem o número descartado. O processo de exportação ou de importação da NF-e detecta a nota fiscal lançada e marcada para descarte e então gera uma mensagem XML no formato especificado para o número da NF-e descartada. Esta mensagem XML é transmitida à SEFAZ, e o status da nota fiscal é definido é como **Rejeitado**
 
 
+Para obter mais informações, consulte os seguintes tópicos:
 
+[Configurar parâmetros de NF-e federal (Brasil)](tasks/br-00053-1-set-up-nf-e-federal-parameters.md)
+[Configurar parâmetros de NF-e para um estabelecimento fiscal (Brasil)](tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md)
+[Gerar emails para NF-e aprovadas e anexar arquivos PDF de DANFE e arquivos XML de NF-e aos emails (Brasil)](tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md)
+[NF-e 3.10 (Brasil)](tasks/br-00053-nf-e-3-10.md)
+[Transmissão automática de notas fiscais NF-e (Brasil)](tasks/br-00058-automatic-transmission-nf-e-fiscal-documents.md)
 
 

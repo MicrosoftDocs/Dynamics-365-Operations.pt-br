@@ -16,13 +16,13 @@ ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
 ms.search.region: Global
 ms.author: josaw
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e161e25568506c6e64bc52b2fad404b0706024a1
-ms.openlocfilehash: f29df4a12f5fb0587cf4aeb1b223bda2e3dd4152
+ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
+ms.openlocfilehash: d5e4857081134808b194d3248dd8739f83b57d6e
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 07/27/2017
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico explica o que são o Gravador de tarefas e os guias de tarefas, como criar gravações de tarefas e como personalizar guias de tarefas da Microsoft para os produtos de Operações Unificadas e incluí-los em sua ajuda.
+Este tópico explica o que são o gravador de tarefas e os guias de tarefas, como criar gravações de tarefas e como personalizar guias de tarefas da Microsoft e incluí-los na sua Ajuda.
 
 > [!IMPORTANT]
 > Não é possível criar guias de tarefas personalizadas para o Dynamics 365 for Talent. O sistema de Ajuda do Talent é automaticamente conectado às guias de tarefas do produto. 
@@ -85,7 +85,7 @@ Este é o painel de edição que é exibido quando você adiciona uma anotação
 
 [![tela4](./media/screen4.png)](./media/screen4.png)
 
--   **Etapa de informações**: Essas anotações são criadas clicando com o botão direito do mouse em um controle ou em qualquer lugar em um formulário &lt; **Registrador de tarefas** &lt; **Adicionar etapa de informações. **As etapas de informações aparecem como um passo numerado no ponto em que você o insere, mesmo que nenhuma ação tenha sido registrada na interface do usuário. Você pode adicionar uma etapa informativa de nível de formulário ou uma etapa informativa associada a um controle. Quando uma etapa informativa está associada a um formulário, a "bolha" do guia de tarefa irá aparecer em algum lugar do formulário, sem um ponteiro, quando o guia de tarefa for executado. Quando uma etapa de informação é associada a um controle, a guia de tarefas "bolha" aponta para o controle quando o guia de tarefas é reproduzido. No painel de Ajuda, uma anotação de passo de informações será exibida como uma etapa numerada com qualquer texto digitado. Utilize etapas informativas para preparar o usuário para as próximas etapas, para descrever etapas que devem ser feitas fora do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, ou para fazer referência a outras gravações (embora não seja possível criar hiperlinks nas anotações).
+-   **Etapa de informações**: Essas anotações são criadas clicando com o botão direito do mouse em um controle ou em qualquer lugar em um formulário &lt; **Registrador de tarefas** &lt; **Adicionar etapa de informações. **As etapas de informações aparecem como um passo numerado no ponto em que você o insere, mesmo que nenhuma ação tenha sido registrada na interface do usuário. Você pode adicionar uma etapa informativa de nível de formulário ou uma etapa informativa associada a um controle. Quando uma etapa informativa está associada a um formulário, a "bolha" do guia de tarefa irá aparecer em algum lugar do formulário, sem um ponteiro, quando o guia de tarefa for executado. Quando uma etapa de informação é associada a um controle, a guia de tarefas "bolha" aponta para o controle quando o guia de tarefas é reproduzido. No painel de Ajuda, uma anotação de passo de informações será exibida como uma etapa numerada com qualquer texto digitado. Utilize etapas informativas para preparar o usuário para as próximas etapas, para descrever etapas que devem ser feitas fora do Microsoft Dynamics 365 for Finance and Operations, edição Enterprise, ou para fazer referência a outras gravações (embora não seja possível criar hiperlinks nas anotações).
 
 **Determine o tempo para fazer a gravação**
 

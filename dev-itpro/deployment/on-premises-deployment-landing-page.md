@@ -15,13 +15,13 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: kfend
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: e090d4af91ec979aeccdd954e4fdab99f026e150
+ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.openlocfilehash: 4399dc7374ae11f2eca3add37b60c50574dfad9d
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Página de aterrissagem da implementação local
@@ -31,11 +31,11 @@ Você pode implantar o Microsoft Dynamics 365 for Finance and Operations, ediç�
 **Observação:** o Dynamics 365 for Operations (local) está sendo renomeado. Você verá Dynamics 365 for Operations (local) mencionado nos guias de comunicações e de licenciamento. O nome que você verá quando implantar o produto será Dynamics 365 for Finance and Operations, edição Enterprise. Ambos os nomes fazem referência ao mesmo produto.
 
 ## <a name="get-started"></a>Introdução
-- [Visão geral do Dynamics 365 for Finance and Operations, Enterprise edition (local)](on-premises-overview.md)
-- [Requisitos do sistema](../get-started/system-requirements.md)
+- [Visão geral do Dynamics 365 for Finance and Operations, edição Enterprise (local)](on-premises-overview.md)
+- [Requisitos do sistema para implantações locais](../get-started/system-requirements-on-prem.md)
 - [Dimensionamento de hardware para ambientes locais](../get-started/hardware-sizing-on-premises-environments.md)
 - [Política de ciclo de vida de software do serviço online e local](../migration-upgrade/versions-update-policy.md)
-- [Comprar Dynamics 365 for Finance and Operations, Enterprise edition (local)](../get-started/purchase-on-premises.md)
+- [Comprar Dynamics 365 for Finance and Operations, edição Enterprise (local)](../get-started/purchase-on-premises.md)
 
 ## <a name="onboard"></a>Carregar
 - [Criar um projeto local no Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)

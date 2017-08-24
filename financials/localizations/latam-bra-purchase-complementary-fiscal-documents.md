@@ -3,7 +3,7 @@ title: Notas fiscais de compra complementares do Brasil
 description: "Este tópico descreve o conceito de uma fatura complementar de compras da localização brasileira."
 author: sndray
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,12 +17,11 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 32745416c5bd2d5ef0ae8549683b68462edcd9d6
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 5e565b5b060c5e6bb7859516176599145b9af938
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -63,5 +62,10 @@ Antes de criar ou lançar notas fiscais complementares de compra, os seguintes p
 [![Exemplos que mostram uma nota fiscal original junto com notas fiscais complementares de compras de cada um dos três tipos](./media/purchcomplementary-1024x349.png)](./media/purchcomplementary.png)
 
 
+Para obter mais informações, consulte os seguintes tópicos:
+
+[Criar e lançar uma nota fiscal complementar de compra (Brasil)](tasks/br-00026-1-create-post-purchase-complementary-fiscal-document.md)
+
+[Cancelar uma nota fiscal complementar de compra (Brasil)](tasks/br-00026-2-cancel-purchase-complementary-fiscal-document.md)
 
 

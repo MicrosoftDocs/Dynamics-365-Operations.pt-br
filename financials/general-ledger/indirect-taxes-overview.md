@@ -3,7 +3,7 @@ title: "Visão geral de imposto"
 description: "Este artigo fornece uma visão geral do sistema de imposto. Explica os elementos da configuração do imposto sobre vendas e como trabalham em conjunto."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: f4838dade6b2694a11f4b9775fe53560b1332f18
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,7 +46,7 @@ O diagrama a seguir mostra as entidades da configuração de imposto e a forma c
 
 Para cada imposto que uma empresa deve ser responsável, deve ser definido um código de imposto. Um código de imposto sobre vendas armazena as taxas de imposto e as regras de cálculo do imposto sobre vendas. 
 
-Cada código de imposto sobre vendas deve ser vinculado a um período de liquidação de impostos sobre vendas. Os períodos de liquidação de impostos sobre vendas definem os intervalos nos quais o imposto sobre vendas deve ser reportado e pago à autoridade de imposto sobre vendas. Cada período de liquidação de imposto sobre vendas deve ser atribuído a uma autoridade de imposto sobre vendas. Uma autoridade de imposto sobre vendas representa a entidade à qual o imposto sobre vendas é reportado e pago. Ela também define o layout do relatório de imposto sobre vendas. As autoridades de imposto sobre vendas podem estar relacionadas a contas de fornecedor. 
+Cada código de imposto sobre vendas deve ser vinculado a um período de liquidação de impostos sobre vendas. Os períodos de liquidação de impostos sobre vendas definem os intervalos nos quais o imposto sobre vendas deve ser reportado e pago à autoridade de imposto sobre vendas. Cada período de liquidação de imposto sobre vendas deve ser atribuído a uma autoridade de imposto sobre vendas. Uma autoridade de imposto sobre vendas representa a entidade à qual o imposto sobre vendas é reportado e pago. Ela também define o layout do relatório de imposto sobre vendas. As autoridades de imposto sobre vendas podem estar relacionadas a contas de fornecedor. Para saber mais, consulte [Configurar períodos de liquidação do imposto](tasks/set-up-sales-tax-settlement-periods.md).
 
 Cada código de imposto sobre vendas também deve estar vinculado a um grupo de lançamento contábil. Um grupo de lançamento contável especifica as contas principais nas quais os valores dos códigos de imposto sobre vendas serão lançados. 
 
@@ -60,13 +59,13 @@ A tabela a seguir descreve as entidades e a sequência para a configuração de 
 | Atividade de configuração                                                  | Necessária/Opcional e descrição                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Criar contas principais.                                           | Necessário. Antes de configurar a funcionalidade de imposto sobre vendas, as contas principais usadas pela empresa para pagar e registrar impostos deve ser criada.                                                                                                                                                                             |
-| Configurar grupos de lançamento contábil do imposto.                     | Necessário. Os grupos de lançamentos contábeis definem as contas principais para registrar e pagar impostos sobre vendas.                                                                                                                                                                                                                            |
-| Configurar autoridades de imposto.                                   | Necessário. As autoridades de impostos sobre vendas são as entidades para as quais o imposto deve ser informado e pago.                                                                                                                                                                                                                                   |
+| Configurar grupos de lançamento contábil do imposto.                     | Necessário. Os grupos de lançamentos contábeis definem as contas principais para registrar e pagar impostos sobre vendas.   Para saber mais, consulte [Configurar grupos de lançamentos contábeis para impostos](tasks/set-up-ledger-posting-groups-sales-tax.md).                                                                                 |
+| Configurar autoridades de imposto.                                   | Necessário. As autoridades de impostos sobre vendas são as entidades para as quais o imposto deve ser informado e pago.    Para saber mais, consulte [Configurar autoridades de imposto](tasks/set-up-sales-tax-authorities.md).                                                                                                                                          |
 | Configurar períodos de liquidação do imposto.                            | Necessário. Os períodos de liquidação do imposto sobre vendas contêm informações sobre quando e com que frequência os impostos sobre vendas devem ser reportados e pagos. Estão relacionadas a uma autoridade de imposto sobre vendas.                                                                                                                                                       |
-| Defina códigos de isenção de imposto sobre vendas.                               | Opcional. Os códigos de relatório de imposto sobre vendas podem ser atribuídos aos códigos de imposto sobre vendas para reportar valores para diversos códigos de imposto sobre vendas sob um código de relatório de imposto sobre vendas.                                                                                                                                                                 |
-| Configurar códigos de imposto.                                         | Necessário. Os códigos de imposto sobre vendas contém as taxas de imposto e as regras de cálculo para cada imposto sobre vendas. Os códigos de imposto sobre vendas estão relacionados a um período de liquidação de imposto sobre vendas e um grupo de lançamento contábil.                                                                                                                                        |
+| Defina códigos de isenção de imposto sobre vendas.                               | Opcional. Os códigos de relatório de imposto sobre vendas podem ser atribuídos aos códigos de imposto sobre vendas para reportar valores para diversos códigos de imposto sobre vendas sob um código de relatório de imposto sobre vendas. Para saber mais, consulte [Configurar códigos de relatório de imposto](tasks/set-up-sales-tax-reporting-codes.md).                                         |
+| Configurar códigos de imposto.                                         | Necessário. Os códigos de imposto sobre vendas contém as taxas de imposto e as regras de cálculo para cada imposto sobre vendas. Os códigos de imposto sobre vendas estão relacionados a um período de liquidação de imposto sobre vendas e um grupo de lançamento contábil. Para saber mais, consulte [Configurar códigos de relatório de imposto](tasks/set-up-sales-tax-codes.md).                                |
 | Configurar grupos de impostos.                                        | Necessário. Os grupos de impostos sobre vendas contém uma lista de códigos de venda que se aplicam ao participante (cliente ou fornecedor) de uma transação. Para uma determinada transação, a intersecção dos códigos de imposto sobre vendas no grupo de impostos sobre vendas e o grupo de impostos sobre vendas de item determina os códigos de imposto sobre vendas que se aplicam a essa transação.                  |
-| Configurar grupos de impostos do item.                                   | Necessário. Os grupos de impostos sobre vendas de itens contêm uma lista de códigos de vendas que se aplicam ao recurso (produtos, serviços, e assim por diante) de uma transação. Para uma determinada transação, a intersecção dos códigos de imposto sobre vendas no grupo de impostos sobre vendas e o grupo de impostos sobre vendas de item determina os códigos de imposto sobre vendas que se aplicam a essa transação. |
+| Configurar grupos de impostos do item.                                   | Necessário. Os grupos de impostos sobre vendas de itens contêm uma lista de códigos de vendas que se aplicam ao recurso (produtos, serviços, e assim por diante) de uma transação. Para uma determinada transação, a intersecção dos códigos de imposto sobre vendas no grupo de impostos sobre vendas e o grupo de impostos sobre vendas de item determina os códigos de imposto sobre vendas que se aplicam a essa transação. Para saber mais, consulte [Configurar grupos de impostos e grupos de impostos de item](tasks/set-up-sales-tax-groups-item-sales-tax-groups.md). |
 | Configure os parâmetros de imposto sobre vendas nas páginas de parâmetros do aplicativo. | Necessário. As áreas diferentes, como a Contabilidade, Contas a receber, e Contas a pagar, devem configurar parâmetros para o cálculo correto de taxas indiretas. Embora a maioria desses parâmetros tenha valores padrão, eles devem ser alterados de acordo com as necessidades de cada empresa.                                          |
 
 ## <a name="sales-tax-on-transactions"></a>Imposto sobre vendas em transações
@@ -75,7 +74,7 @@ Em cada transação (linhas de documento de compra/venda, diários, e assim por 
 Em cada transação, você pode pesquisar o imposto sobre vendas calculado abrindo a página **Transação de imposto**. Você pode pesquisar os impostos sobre vendas para uma linha do documento ou para o documento todo. Para certos documentos (por exemplo, faturas de fornecedor e diários gerais), você pode ajustar o imposto sobre vendas calculado se o documento original mostrar os valores de desvio.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Liquidação e relatório de imposto sobre vendas
-O imposto sobre vendas deve ser reportado e pago às autoridades fiscais em intervalos regulares (mensal, trimestral, e assim por diante). O Microsoft Dynamics 365 for Finance and Operations, Enterprise edition fornece uma funcionalidade que permite liquidar as contas de imposto para o intervalo e compensar os saldos da conta de liquidação de impostos, conforme especificado nos grupos de lançamentos contábeis. Você pode acessar essa funcionalidade na página **Liquidar e lançar imposto**. Especifique o período de liquidação do imposto no qual o imposto deve ser liquidado. 
+O imposto sobre vendas deve ser reportado e pago às autoridades fiscais em intervalos regulares (mensal, trimestral, e assim por diante). O Microsoft Dynamics 365 for Finance and Operations, edição Enterprise fornece uma funcionalidade que permite liquidar as contas de imposto para o intervalo e compensar os saldos da conta de liquidação de impostos, conforme especificado nos grupos de lançamentos contábeis. Você pode acessar essa funcionalidade na página **Liquidar e lançar imposto**. Especifique o período de liquidação do imposto no qual o imposto deve ser liquidado. 
 
 Após os impostos sobre vendas serem pagos, o saldo na conta de liquidação de impostos sobre vendas deve ser equilibrado em relação à conta bancária. Se a autoridade fiscal que estiver especificada no período de liquidação de imposto estiver relacionada a uma conta de fornecedor, o saldo do imposto será lançado como uma fatura de fornecedor aberta e poderá ser incluído na proposta de pagamento regular.
 
@@ -98,5 +97,5 @@ Você normalmente tem de liquidar e pagar 2.500 à autoridade fiscal quando a fa
 Entretanto, usando o imposto condicional, você liquida a dívida com a autoridade fiscal quando recebe o pagamento do cliente em 30 de julho.
 
 
-
+Para saber mais, consulte [Configurar imposto retido na fonte](tasks/set-up-withholding-tax.md).
 

@@ -15,13 +15,13 @@ ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: 0484723217ccff2ebf717d059429d863ececb797
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -37,7 +37,7 @@ Os clientes podem devolver itens por diversos motivos. Por exemplo, um item pode
 ## <a name="return-order-process"></a>Processo de ordem de devolução
 A ilustração a seguir exibe um resumo do processo de ordem de devolução.  
 
-[![salesreturns01](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
+[![Processo de ordem de devolução](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
 Existem dois tipos de processos de ordens de devolução: devolução física e apenas crédito.
 
@@ -213,7 +213,7 @@ Existem dois métodos para gerenciar a substituição de produtos:
 
 Na substituição imediata, o item de substituição pode ser entregue ao cliente antes que o item seja devolvido. Este método é útil se, por exemplo, o item é uma peça de uma máquina que não pode ser removida a menos que uma peça extra esteja disponível para substituí-la, ou se você apenas deseja que o seu cliente tenha o produto o quanto antes. A ordem de substituição imediata é uma ordem de venda independente. As informações do cabeçalho são iniciadas pelo cliente, e as informações da linha são iniciadas pela ordem de devolução. Você pode editar, processar e excluir a ordem de substituição de forma independente em relação à ordem de devolução. Ao excluir uma ordem de substituição, você receberá uma mensagem dizendo que a ordem foi criada como uma ordem de substituição. A ilustração a seguir mostra o processo para a substituição imediata.  
 
-[![Processo de substituição imediata](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)  
+![Processo de substituição imediata](./media/SalesReturn04.png)
 
 A ordem de devolução contém uma referência à ordem de substituição. Se uma ordem de substituição imediata é criada para uma ordem de devolução antes que o item defeituoso seja devolvido, você não poderá selecionar códigos de disposição para substituição depois que o item defeituoso for devolvido.
 
@@ -221,7 +221,7 @@ A ordem de devolução contém uma referência à ordem de substituição. Se um
 
 Se você enviar um item de substituição para o cliente, e utilizar a ação de disposição **Substituir e descartar** ou a ação **Substituir e creditar** na ordem de devolução, utilize o processo exibido na ilustração a seguir.  
 
-[![Processo de substituição quando um código de disposição é utilizado](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)  
+![Processo de substituição quando um código de disposição é utilizado](./media/SalesReturn05.png)
 
 O item substituto será entregue usando uma ordem de venda independente, a ordem de venda de substituição. Essa ordem de venda é criada quando a guia de remessa para a ordem de devolução é gerada. O cabeçalho da ordem usa informações do cliente referenciadas no cabeçalho da ordem de devolução. As informações da linha são coletadas das informações inseridas na página **Item de substituição**. A página **Item de substituição** deve ser preenchida para linhas que possuem ações de disposição iniciadas pela palavra "substituir". No entanto, nem a quantidade nem a identidade do item de substituição é validada ou limitada. Esse comportamento permite casos em que o cliente deseja o mesmo item mas com uma configuração ou um tamanho diferente, além de casos em que os clientes desejam um item completamente diferente. Por padrão, um item idêntico é inserido na página **Item de substituição**. No entanto, você pode selecionar um item diferente, desde que a função tenha sido configurada. **Observação:** Você pode editar e excluir a ordem de venda de substituição após sua criação.
 
@@ -254,7 +254,7 @@ Ordens de devolução podem ser concluídas entre duas empresas dentro da organi
 
 A ilustração a seguir mostra a configuração mínima necessária para que duas empresas participem de uma relação intercompanhia e tirem proveito do comércio intercompanhia.  
 
-[![Configuração mínima](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)  
+![Configuração mínima](./media/SalesReturn06.png)
 
 No cenário seguinte, CompBuy é a empresa compradora, e CompSell é a empresa vendedora. Normalmente, a empresa vendedora envia mercadorias para a empresa compradora ou, em cenários de remessa de entrega direta, diretamente para o cliente final. Na CompBuy, o fornecedor IC\_CompSell é definido como uma empresa intercompanhia associado à empresa CompSell. Ao mesmo tempo, na CompSell, o cliente IC\_CompBuy é definido como uma empresa intercompanhia associado à empresa CompBuy. Os detalhes apropriados da política de ações e os mapeamentos de valor devem ser definidos nas duas empresas. Em um cenário de remessa de entrega direta, uma ordem de devolução intercompanhia, que também é uma ordem de venda intercompanhia, é criada na empresa vendedora. O número ADM da ordem de devolução intercompanhia pode ser obtido da sequência numérica da ADM na CompSell, ou pode ser copiado do número ADM atribuído à ordem de devolução original na CompBuy. As configurações do número ADM na política de ações **PurchaseRequisition** na CompBuy determina essas ações. Se o número ADM é sincronizado, você deve planejar atenuar o risco de conflitos numéricos se as duas empresas usam a mesma sequência numérica.
 
@@ -262,7 +262,7 @@ No cenário seguinte, CompBuy é a empresa compradora, e CompSell é a empresa v
 
 Esse cenário envolve duas empresas na mesma organização, conforme mostrado na ilustração a seguir.  
 
-[![Devolução intercompanhia simples](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
+![Devolução intercompanhia simples](./media/SalesReturn07.png)
 
 A cadeia de ordem pode ser estabelecida quando uma devolução de fornecedor é criada na empresa compradora ou quando uma ordem de devolução do cliente é criada na empresa vendedora. O Finanças e Operações cria a ordem correspondente na outra empresa e garante que as informações do cabeçalho e da linha na ordem de devolução do fornecedor reflitam as configurações na ordem de devolução do cliente. A ordem de devolução estabelecida pode tanto incluir como excluir a referência (**Encontrar ordem de venda**) a uma fatura de cliente existente. As guias de remessa e as faturas das duas ordens podem ser processadas individualmente. Por exemplo, não é necessário gerar uma guia de remessa para a ordem de devolução do fornecedor antes de gerar a guia de remessa para a ordem de devolução do cliente.
 
@@ -270,7 +270,7 @@ A cadeia de ordem pode ser estabelecida quando uma devolução de fornecedor é 
 
 Esse cenário pode ser estabelecido se uma venda anterior do tipo **Entrega direta** foi concluída, e se existe uma fatura contra o cliente na empresa que interage com o cliente. Na ilustração seguinte, a empresa CompBuy vendeu e faturou produtos anteriormente ao cliente Extern. Os produtos foram enviados diretamente da empresa CompSell ao cliente através de uma cadeia de ordens intercompanhia.  
 
-[![Devoluções de remessa de entrega direta entre três participantes](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)  
+![Devoluções de remessa de entrega direta entre três participantes](./media/SalesReturn08.png)
 
 Se o cliente Extern deseja devolver os produtos, uma ordem de devolução (RMA02) será criada para o cliente na empresa CompBuy. Para estabelecer a cadeia intercompanhia, a ordem de devolução deve ser marcada para entrega direta. Quando você usa a função **Encontrar ordens de venda** para selecionar a fatura do cliente a ser devolvida, é estabelecida uma cadeia de ordem intercompanhia que consiste nos seguintes documentos:
 
@@ -292,7 +292,7 @@ Nos exemplos a seguir, o preço de custo da devolução é representado como **P
 
 A ordem de devolução não faz referência a uma fatura de cliente. O item devolvido é creditado. O parâmetro **Correção de crédito** não é selecionado quando a fatura da ordem de devolução, ou nota de crédito, é gerada.  
 
-[![Ordem de devolução não faz referência a uma fatura de cliente](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)  
+![Ordem de devolução não faz referência a uma fatura de cliente](./media/SalesReturn09.png)  
 
 **Observação:** O preço mestre do item é usado como valor padrão para o parâmetro **Preço de custo da devolução**. O preço padrão difere do preço de custo no momento da saída de estoque. Portanto, a implicação é que uma perda de 3 foi sofrida. Além disso, a ordem de devolução não inclui o desconto dado ao cliente na ordem de compra. Portanto, ocorre um crédito em excesso.
 
@@ -300,7 +300,7 @@ A ordem de devolução não faz referência a uma fatura de cliente. O item devo
 
 O exemplo 2 é igual ao exemplo 1, mas o parâmetro **Correção de crédito** é selecionado quando a fatura da ordem de devolução é gerada.  
 
-[![Ordem de devolução onde a correção de crédito está selecionada ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)  
+![Ordem de devolução em que a correção de crédito está selecionada ](./media/SalesReturn10.png)  
 
 **Observação:** Os lançamentos no livro razão são inseridos como correções negativas.
 
@@ -308,7 +308,7 @@ O exemplo 2 é igual ao exemplo 1, mas o parâmetro **Correção de crédito** �
 
 Nesse exemplo, a linha da ordem de devolução é criada utilizando a função **Encontrar ordem de venda**. O parâmetro **Correção de crédito** não é selecionado quando a fatura é criada.  
 
-[![Linha da ordem de devolução criada utilizando Encontrar ordem de venda ](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)  
+![Linha da ordem de devolução criada utilizando Encontrar ordem de venda ](./media/SalesReturn11.png)  
 
 **Observação:** **Desconto** e **Preço de custo da devolução** estão definidos corretamente. Portanto, ocorre uma inversão exata da fatura de cliente.
 

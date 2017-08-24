@@ -1,9 +1,9 @@
 ---
 title: "Configurar cobranças e crédito em contas a receber"
 description: "Configurar Contas a receber e Crédito e cobranças para rastrear faturas e pagamentos recebidos dos clientes."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24631
 ms.assetid: 8c1fc7c5-b461-41ed-b102-2648cc58eb0b
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74556e571c215b0fea8deb061fd968c240b063d4
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 1d37014e8f7b333a15077fc3477808a3ad62b96f
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -66,12 +65,12 @@ A tabela a seguir lista as páginas que dão suporte à configuração e à manu
 |                                                      | Moedas                           | Crie e exiba as moedas que sua organização usa.                                                                                                                                                                                                                       |
 |                                                      | Taxas de câmbio de moedas              | Crie e mantenha taxas de câmbio apropriadas entre a moeda contábil e outras moedas.                                                                                                                                                                              |
 |                                                      | Contabilidade intercompanhia              | Crie uma lista de contas nas quais a entidade legal atual pode fazer lançamentos. Configure contas de débito e de crédito e também o diário que receberá as transações em outra entidade legal.                                                                             |
-|                                                      | Métodos de pagamento - cliente        | Criar e manter informações sobre métodos de pagamento para clientes.                                                                                                                                                                                                           |
+|                                                      | Métodos de pagamento - cliente        | Criar e manter informações sobre métodos de pagamento para clientes. Para obter mais informações, consulte [Estabelecer método de pagamento de clientes](tasks/establish-customer-method-payment.md).                                                                                             |
 |                                                      | Hierarquias da organização             | Configure uma hierarquia organizacional para pagamentos centralizados.                                                                                                                                                                                                                        |
 |                                                      | Finalidades da hierarquia da organização      | Especifique uma finalidade para pagamentos centralizados.                                                                                                                                                                                                                                       |
 |                                                      | Dias de pagamento                         | Definir os dias de pagamento usados para calcular as datas de vencimento de pagamentos que você receberá de clientes ou fará para fornecedores.                                                                                                                                                |
-|                                                      | Taxa de pagamento                          | Criar e manter taxas de pagamento relacionadas a clientes, como taxas para letras de câmbio.                                                                                                                                                                               |
-|                                                      | Configuração de taxa de pagamento                    | Configurar as taxas de pagamento para várias combinações de bancos, métodos de pagamento, tipos de remessa, especificações de pagamento, moedas e intervalos de datas.                                                                                                                              |
+|                                                      | Taxa de pagamento                          | Criar e manter taxas de pagamento relacionadas a clientes, como taxas para letras de câmbio.                                                                                                                                                                         |
+|                                                      | Configuração de taxa de pagamento                    | Configurar as taxas de pagamento para várias combinações de bancos, métodos de pagamento, tipos de remessa, especificações de pagamento, moedas e intervalos de datas.  Para obter mais informações, consulte [Estabelecer taxas de pagamento de clientes](tasks/establish-customer-payment-fees.md).                                                                                   |
 |                                                      | Planos de pagamento                    | Criar planos de pagamento que podem ser usados para planejar pagamentos em prestações de clientes e para fornecedores.                                                                                                                                                                       |
 |                                                      | Especificação de pagamento                | Criar e exibir códigos de especificação de pagamento para o método de pagamento selecionado na página Métodos de pagamento. Defina esses códigos de acordo com o seu contrato com o banco que está especificado para o método de pagamento selecionado.                    |
 |                                                      | Texto da transação                     | Criar o texto da transação para lançamentos automáticos na Contabilidade. Você pode configurar o texto da transação em vários idiomas.                                                                                                                                                           |
@@ -83,7 +82,7 @@ A tabela a seguir lista as páginas que dão suporte à configuração e à manu
 |                                                      | Métodos de pagamento - cliente        | Criar e manter informações sobre métodos de pagamento para clientes.                                                                                                                                                                                                           |
 |                                                      | Assinatura                            | Adicionar, alterar ou remover arquivos de imagem de assinatura, como .bmp, .jpg ou .gif. Os arquivos de imagem de assinatura são impressos em cheques como assinaturas oficiais da entidade legal.                                                                                                             |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
-| Configurando estatísticas de Contas a receber           | Definições do período de classificação por vencimento             | Configure e gerencie definições de período de classificação por vencimento definidas pelo usuário, que são usadas para analisar o vencimento de contas de cliente e de fornecedor com base na data inserida.                                                                                                         |
+| Configurando estatísticas de Contas a receber           | Definições do período de classificação por vencimento             | Configure e gerencie definições de período de classificação por vencimento definidas pelo usuário, que são usadas para analisar o vencimento de contas de cliente e de fornecedor com base na data inserida. Para obter mais informações, consulte [Configurar e gerar informações de classificação por vencimento de contas a receber](tasks/set-up-accounts-receivable-aging-information.md).                                                           |
 |                                                      | Estatísticas comerciais                  | Configurar consultas de estatísticas comerciais que podem ajudar a analisar o desempenho da sua organização.                                                                                                                                                                              |
 |                                                      | Dados estatísticos comerciais             | Exibir dados em um formato de grade para uma estatística comercial selecionada.                                                                                                                                                                                                                     |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |

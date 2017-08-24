@@ -3,7 +3,7 @@ title: Ordens de compra para um projeto
 description: "Este artigo descreve os diversos métodos que podem ser usados para criar ordens de compra para um projeto. O método usado dependerá da finalidade da ordem de compra e de quando os itens comprados serão consumidos cobrados para um projeto."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,13 +15,13 @@ ms.custom: 83972
 ms.assetid: 247e4d72-610b-4fa5-9873-601ed0f4b2d6
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 9715d33598c0749ff1ad2523f2fa8834987998ed
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: d55c999ed1f506a2d9487c8cc94bf0e9cce3bed1
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 06/13/2017
 
 Este artigo descreve os diversos métodos que podem ser usados para criar ordens de compra para um projeto. O método usado dependerá da finalidade da ordem de compra e de quando os itens comprados serão consumidos cobrados para um projeto.
 
-No Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, você pode usar vários métodos para criar ordens de compra para um projeto. O método usado dependerá da finalidade da ordem de compra, de quando os itens comprados serão consumidos e de quando eles serão cobrados para um projeto.
+No Microsoft Dynamics 365 for Finance and Operations, edição Enterprise, você pode usar vários métodos para criar ordens de compra para um projeto. O método usado dependerá da finalidade da ordem de compra, de quando os itens comprados serão consumidos e de quando eles serão cobrados para um projeto.
 
 ### <a name="methods-for-creating-a-purchase-order"></a>Métodos para criar uma ordem de compra
 
@@ -77,6 +77,6 @@ Você pode usar um dos seguintes métodos para criar uma ordem de compra em Gere
 > [!NOTE] 
 > Quando você atualiza a fatura do fornecedor ou a guia de remessa, o programa solicita a atualização da guia de remessa na requisição de itens.
 
-
+Para saber mais, consulte [Receber itens na ordem de compra da requisição de itens](tasks/receive-items-purchase-order-item-requirement.md).
 
 

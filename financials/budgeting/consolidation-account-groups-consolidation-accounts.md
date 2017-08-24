@@ -1,9 +1,9 @@
 ---
 title: "Grupos de contas de consolidação e contas adicionais de consolidação"
-description: "Este tópico fornece informações sobre grupos de contas de consolidação e contas adicionais de consolidação e explica como eles são usados no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
-author: RobinARH
+description: "Este tópico fornece informações sobre grupos de contas de consolidação e contas adicionais de consolidação e explica como eles são usados no Microsoft Dynamics 365 for Finance and Operations, edição Enterprise."
+author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,13 +15,13 @@ ms.custom: 265544
 ms.assetid: 71c31df7-b655-46a8-8844-4f92a8bd71b0
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 835669de01deb1ba0dcc5752d9d6d8f498e6ff7d
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 3c08e48b22f964c3f643c5ddc4ecd687502d7fda
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico fornece informações sobre grupos de contas de consolidação e contas adicionais de consolidação e explica como eles são usados no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Este tópico fornece informações sobre grupos de contas de consolidação e contas adicionais de consolidação e explica como eles são usados no Microsoft Dynamics 365 for Finance and Operations, edição Enterprise.
 
 <a name="consolidation-account-groups"></a>Grupos de contas de consolidação
 ----------------------------
@@ -50,6 +50,8 @@ Você pode encontrar contas de consolidação adicionais na área **Configuraç�
 
 Após ter concluído a criação de seus grupos de contas de consolidação e contas de consolidação adicionais, você poderá selecionar o grupo no Processo de consolidação online.
 
+
+Para obter mais informações, consulte [Criar grupos de consolidação e contas de consolidação adicionais](../general-ledger/tasks/create-consolidation-groups.md). 
 
 
 

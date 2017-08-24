@@ -1,9 +1,9 @@
 ---
 title: Pagamentos de cliente de uma quantidade parcial
 description: "Às vezes, os clientes fazem um pagamento inferior ao valor de uma fatura. Este artigo descreve as diversas opções para controlar essa situação. As opções disponíveis dependerão dos seus requisitos empresariais e da sua configuração."
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,15 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13011
 ms.assetid: 20423a2d-6997-4e1c-a596-a77016600071
 ms.search.region: Global
-ms.author: kweekley
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 795d13a07065a125a750970beaff85b59307f623
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: ebfa8aaed6f82e9c3142540d0850c59d49328d59
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -52,14 +51,14 @@ Por exemplo, você oferece um desconto à vista de 2% caso a fatura seja paga em
 ## <a name="credit-notes-with-discounts"></a>Notas de crédito com descontos
 Se os clientes devolverem alguns dos itens em uma fatura, você poderá emitir uma nota de crédito. Se um desconto à vista tiver sido obtido na fatura original, a nota de crédito para o cliente deverá ser líquida do desconto à vista obtido pelo cliente. Se a opção **Calcular descontos à vista para notas de crédito** estiver definida como **Sim** na página **Parâmetros de contas a receber**, o desconto será calculado automaticamente para a nota de crédito. 
 
-Por exemplo, você ofereceu condições de pagamento que especificam um desconto à vista de 2% se a fatura for paga dentro de 10 dias desde a sua emissão. Uma fatura de 100,00 foi lançada e o cliente obteve o desconto à vista. Se o cliente devolver as mercadorias e você emitir uma nota de crédito, você pode inserir a nota de crédito para -100,00. Quando você exibe a nota de crédito na página **Liquidar transações abertas**,**98,00** aparece no campo **Valor para liquidar** e **-2,00** aparece no campo **Valor do desconto à vista**. O valor do desconto é lançado em uma conta de desconto à vista.
+Por exemplo, você ofereceu condições de pagamento que especificam um desconto à vista de 2% se a fatura for paga dentro de 10 dias desde a sua emissão. Uma fatura de 100,00 foi lançada e o cliente obteve o desconto à vista. Se o cliente devolver as mercadorias e você emitir uma nota de crédito, você pode inserir a nota de crédito para -100,00. Quando você exibe a nota de crédito na página **Liquidar transações abertas**, **98,00** aparece no campo **Valor para liquidar** e **-2,00** aparece no campo **Valor do desconto à vista**. O valor do desconto é lançado em uma conta de desconto à vista.
 
 ## <a name="overpaymentunderpayment-amounts"></a>Valores de pagamento a maior/a menor
-Quando os clientes fizerem um pagamento, poderá haver um valor muito pequeno que ainda deverá ser liquidado. Por exemplo, você emite a fatura do cliente no valor de 1.000,00 e ele paga 999,90. Se o valor restante for menor do que o valor especificado para pagamentos a maior ou para pagamentos a menor na página**Parâmetros de contas a receber**, a diferença será automaticamente lançada em uma conta conta contábil de pagamento a maior/a menor.
+Quando os clientes fizerem um pagamento, poderá haver um valor muito pequeno que ainda deverá ser liquidado. Por exemplo, você emite a fatura do cliente no valor de 1.000,00 e ele paga 999,90. Se o valor restante for menor do que o valor especificado para pagamentos a maior ou para pagamentos a menor na página **Parâmetros de contas a receber**, a diferença será automaticamente lançada em uma conta conta contábil de pagamento a maior/a menor.
 
 ## <a name="full-settlement"></a>Liquidação completa
 Os clientes podem fazer um pagamento parcial onde o valor restante não será pago, mas é maior do que o valor de pagamento a menor especificado na página **Parâmetros de contas a pagar**. Se você quiser marcar a fatura como totalmente liquidada, poderá usar a opção **Liquidação total** na página **Liquidar transação**. (Você pode habilitar a funcionalidade completa de liquidação usando uma chave de configuração). Por exemplo, uma fatura é lançada para 1.000,00 e o cliente faz um pagamento de 990,00. Você concordou que o cliente não precisa pagar os 10,00 restantes. Depois de marcar a fatura para liquidação, você também poderá marcar **Liquidação total**. A fatura será considerada totalmente liquidada. A diferença de 10,00 é lançada em uma conta de desconto à vista, como um valor de desconto à vista adicional.
 
 
-
+Para obter mais informações, consulte [Depositar pagamentos de cliente](tasks/deposit-customer-payments.md).
 

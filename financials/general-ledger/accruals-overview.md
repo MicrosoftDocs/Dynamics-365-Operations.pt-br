@@ -3,7 +3,7 @@ title: "Visão geral das competências"
 description: "Este artigo descreve competências, e fornece informações sobre como configurá-las e criar transações."
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14131
 ms.assetid: 0489b59a-37a7-4a78-87bf-4b597e9efad9
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5ad5030da963ca961d49e645b1d9ad19453376b8
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 87d9f7fbdbc06a3399a6ec5c2492de0f053b1513
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,5 +47,5 @@ Depois que você determina quais contas usar, é possível especificar como o n�
 Quando você insere um diário, é possível clicar em **Competências do razão** no menu **Funções**. Em seguida, quando você seleciona o esquema de competência, você verá o valor base do diário que será dividido durante o período, conforme determinado pelo esquema de competência. Por exemplo, se você pagar o seguro de um funcionário para todo o ano em janeiro e o valor for 12.000, você deve reconhecer as despesas todos os meses. Você pode selecionar a data de início. Você também pode especificar se o valor que é acumulado é baseado na conta ou na conta de compensação. Depois das seleções, clique em **Transações** para exibir todas as transações que foram criadas com base no esquema de competência. Por exemplo, se você tiver 12.000 em despesas de seguro durante o ano, você verá 1.000 para cada mês. Depois de lançar o diário, você pode exibir as transações usando a página de consulta **Transações de comprovante**. Se não for possível aplicar um esquema de competência (por exemplo, quando uma fatura de ordem de venda ou uma fatura de ordem de compra for envolvida), você pode creditar o valor pago antecipadamente e debitar o valor de despesas. Você pode selecionar **Contrapartida** ao aplicar o esquema de competência.
 
 
-
+Para obter mais informações, consulte [Criar esquemas de competência](tasks/create-accrual-schemes.md) e [Criar transações de competências do razão](tasks/create-ledger-accrual-transactions.md).
 
