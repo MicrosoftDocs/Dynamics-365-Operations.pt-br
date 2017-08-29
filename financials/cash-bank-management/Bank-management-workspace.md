@@ -1,7 +1,7 @@
 ---
 title: "Espaço de trabalho de gerenciamento bancário"
 description: "Este tópico fornece informações sobre o espaço de trabalho de gerenciamento de banco. Este espaço de trabalho mostra informações relacionadas às contas bancárias da empresa, e inclui uma exibição de Resumo e uma pagina de análise. A exibição de Resumo mostra quadros resumidos, informações de conta bancária, um gráfico do saldo e informações relacionadas. A página Análise usa recursos do Microsoft Power BI para mostrar os visuais relacionados a saldos da conta bancária."
-author: saraschi
+author: saraschi2
 manager: AnnBe
 ms.date: 05/25/2017
 ms.topic: article
@@ -13,7 +13,7 @@ ms.reviewer: twheeloc
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e

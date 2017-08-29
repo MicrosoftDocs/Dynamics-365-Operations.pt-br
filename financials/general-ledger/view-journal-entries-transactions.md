@@ -1,7 +1,7 @@
 ---
 title: "Visualizar entradas e transações de transações"
 description: "Este artigo explica as várias formas com as quais você pode exibir entradas de diário e transações."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

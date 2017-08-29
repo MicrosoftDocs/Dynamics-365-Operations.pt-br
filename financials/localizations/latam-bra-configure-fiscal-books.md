@@ -14,7 +14,7 @@ ms.search.scope:
 ms.search.region: Brazil
 ms.author: v-gonode
 ms.search.validFrom: 2017-06-30
-ms.dyn365.ops.version: Enterprise edition, July 2017 update
+ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
 ms.sourcegitcommit: f497ba4350a36911a4151da32ca44e00f0312fd4
 ms.openlocfilehash: 184bfcb22608add9d258ae1cecc005757e165065

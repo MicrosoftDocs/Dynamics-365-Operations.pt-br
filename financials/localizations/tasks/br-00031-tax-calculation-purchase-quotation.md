@@ -15,7 +15,7 @@ ms.search.region: Brazil
 ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
 ms.openlocfilehash: 0e3a467720fc3a8be11962aba1eef50926c8b43c

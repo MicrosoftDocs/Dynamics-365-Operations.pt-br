@@ -1,7 +1,7 @@
 ---
 title: Configurar pagamentos centralizados
 description: "Siga essas etapas para se preparar para processar pagamentos em uma entidade legal em nome de outras entidades legais na sua organização."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article

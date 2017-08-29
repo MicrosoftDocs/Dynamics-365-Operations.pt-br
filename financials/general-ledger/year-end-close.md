@@ -1,7 +1,7 @@
 ---
 title: Fechamento anual
 description: "Este tópico descreve a configuração e as etapas necessárias para executar o processo de fechamento anual da contabilidade."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

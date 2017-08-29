@@ -1,7 +1,7 @@
 ---
 title: "Analisar tendências e padrões de venda"
 description: "Você pode estudar tendências e padrões de venda em tempo real no Microsoft Dynamics 365 for Retail."
-author: josaw1
+author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: f27e332e5a8028055903054a6175baafd224abe9
 ms.contentlocale: pt-br
 ms.lasthandoff: 06/20/2017
-
 
 ---
 

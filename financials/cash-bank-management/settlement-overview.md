@@ -1,7 +1,7 @@
 ---
 title: "Visão geral da liquidação"
 description: "Este artigo oferece informações gerais sobre o processo de liquidação. Ele descreve os tipos de transações que podem ser liquidadas, quando e como as transações podem ser liquidadas e os resultados do processo de liquidação."
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
 ms.openlocfilehash: ab12ef4127daf57fb0816ae1585876b50d1e81ed
 ms.contentlocale: pt-br
 ms.lasthandoff: 06/20/2017
-
 
 ---
 

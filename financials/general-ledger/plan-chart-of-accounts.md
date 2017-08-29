@@ -1,7 +1,7 @@
 ---
 title: Planejar seu plano de contas
 description: "Este artigo fornece informações as quais o ajudarão a planejar o gráfico para sua organização."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

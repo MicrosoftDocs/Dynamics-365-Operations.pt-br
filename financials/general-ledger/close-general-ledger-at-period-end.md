@@ -1,7 +1,7 @@
 ---
 title: "Fechar a contabilidade no fim do período"
 description: "Este tópico descreve as tarefas geralmente concluídas durante a realização de um fechamento periódico de contabilidade."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
