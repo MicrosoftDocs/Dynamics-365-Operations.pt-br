@@ -1,7 +1,7 @@
 ---
 title: "Auditar regras da política"
 description: "Você pode usar as políticas para avaliar relatórios de despesas, faturas de fornecedor e ordens de compra para garantir que eles estejam em conformidade com as regras de política criadas. Todas as regras associadas a uma política de auditoria são executadas em modo de lotes de acordo com uma agenda especificada.  Cada regra de política é uma instância de um tipo de regra de política. Para cada tipo de regra de política, somente uma regra de política pode ficar ativa de cada vez."
-author: twheeloc
+author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

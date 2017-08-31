@@ -1,7 +1,7 @@
 ---
 title: "Hora e presença no Retail"
 description: "Este tópico descreve os cenários com suporte para o Gerenciamento de horário e presença no in Microsoft Dynamics 365 para Varejo."
-author: MargoC
+author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: b458d1938f49a2f33f7dd3ce3062880f0d4d7bfc
 ms.contentlocale: pt-br
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

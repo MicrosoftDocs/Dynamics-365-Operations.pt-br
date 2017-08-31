@@ -1,7 +1,7 @@
 ---
 title: "Configurar classificações"
 description: "Este artigo descreve o que é um sortimento e explica como configurar sortimentos no Microsoft Dynamics 365 para Varejo."
-author: josaw1
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 3647d88baa544bf0fa8c7f9d752c712dc69a70d7
 ms.contentlocale: pt-br
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Auditar violações de política e casos"
 description: "O artigo explica como os casos de auditoria são gerados de violações de regras de diretiva de auditoria. Também inclui informações sobre as diversas maneiras das políticas de auditoria usarem o intervalo de datas de seleção de documento."
-author: twheeloc
+author: ryansandness
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 882f99beff256f96b6879c4af4c4ca8a6c4dbec3
 ms.contentlocale: pt-br
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

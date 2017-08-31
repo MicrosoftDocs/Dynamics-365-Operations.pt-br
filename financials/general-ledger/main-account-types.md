@@ -1,7 +1,7 @@
 ---
 title: Tipos de conta principal
 description: "Os tipos de conta principais determinam como uma conta principal é usada no gráfico de contas."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

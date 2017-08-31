@@ -14,7 +14,7 @@ ms.search.scope: Operations
 ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
 ms.openlocfilehash: e36503a45df5a822828d7260dcc564e1ad35bf32

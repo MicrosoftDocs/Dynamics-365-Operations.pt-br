@@ -1,7 +1,7 @@
 ---
 title: "Alinhe habilidades de força de trabalho com as necessidades comerciais"
 description: "Você pode rastrear as habilidades que os trabalhadores, candidatos ou pessoas de contato têm ou devem ter, para atender suas funções efetivamente. Você também pode especificar as habilidades necessárias para um trabalho específico."
-author: rschloma
+author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: ae940cdbab2166d8fe3f2f396c84ed4a09c2ca7e
 ms.contentlocale: pt-br
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Migrar do AX 2012 para o Finance and Operations
 description: "Este artigo fornece uma visão geral das opções de migração do gerenciamento de produtos e armazéns no Dynamics 365 for Finance and Operations."
-author: BibiSp
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.custom: 1714054
 ms.assetid: 79a1a3b9-3a36-4162-8839-ec39b5e26602
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f

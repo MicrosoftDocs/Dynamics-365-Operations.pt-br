@@ -1,7 +1,7 @@
 ---
 title: "Dimensões financeiras"
 description: "Este tópico descreve os vários tipos de dimensões financeiras e como elas são configuradas."
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

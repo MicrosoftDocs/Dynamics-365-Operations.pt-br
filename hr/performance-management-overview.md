@@ -1,7 +1,7 @@
 ---
 title: "Visão geral do gerenciamento de desempenho"
 description: "O processo de gerenciamento de desempenho permite que os funcionários documentem e discutam seu desempenho com os gerentes. Por sua vez, os gerentes podem fornecer comentários e orientações aos funcionários."
-author: twheeloc
+author: mikefalkner
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -22,7 +22,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 4872eaf18a07797d06f2f4d7868630d364eeda6e
 ms.contentlocale: pt-br
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

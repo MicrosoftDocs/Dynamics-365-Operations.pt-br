@@ -1,7 +1,7 @@
 ---
 title: "Conteúdo do Power BI Desempenho de produção"
 description: "Este tópico descreve o que está incluído no conteúdo do Power BI Desempenho de produção. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
-author: sericks
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article

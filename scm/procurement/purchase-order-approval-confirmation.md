@@ -1,7 +1,7 @@
 ---
 title: Aprovar e confirmar ordens de compra
 description: "Este artigo descreve os status de uma ordem de compra (OC) passa após ela ter sido criada e o efeito de habilitar o gerenciamento de alterações no PDV."
-author: YuyuScheller
+author: FrankDahl
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
 ms.author: fdahl
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008

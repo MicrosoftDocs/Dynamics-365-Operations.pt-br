@@ -1,7 +1,7 @@
 ---
 title: "Visão geral das competências"
 description: "Este artigo descreve competências, e fornece informações sobre como configurá-las e criar transações."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

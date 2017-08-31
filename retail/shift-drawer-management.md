@@ -1,7 +1,7 @@
 ---
 title: "Gerenciamento de gaveta de pagamento e à vista"
 description: "Este artigo explica como configurar e usar os dois tipos de ponto de varejo de turnos de venda (POS): compartilhado e autônomo. Turnos compartilhados podem ser usados por vários usuários em vários locais, enquanto os turnos autônomos podem ser usados por somente um trabalhador por vez."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: pt-br
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

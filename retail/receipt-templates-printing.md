@@ -1,7 +1,7 @@
 ---
 title: "Modelos de recibo e impressão"
 description: "Este artigo descreve como modificar layouts de formulário para controlar como os recibos, as notas fiscais e outros documentos serão impressos. Microsoft Dynamics 365 para Varejo inclui um designer do layout de formulário que você pode usar para criar e modificar de modo fácil e gráfico diversos tipos de layouts de formulário."
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 6f1ec982522c6fe677b1921b69d5d04c4e783725
 ms.contentlocale: pt-br
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

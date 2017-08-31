@@ -1,7 +1,7 @@
 ---
 title: "Relatórios financeiros"
 description: "Este tópico descreve onde acessar o relatório financeiro no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition e como usar os recursos do relatório financeiro. Ele inclui uma descrição de relatórios financeiros padrão que são fornecidos."
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
