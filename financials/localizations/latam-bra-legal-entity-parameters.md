@@ -19,161 +19,161 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a4d8d640f90b175df1f33d10e2ea65a1959048d7
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 326d459bc999530eb39ffec59be1bdc2438c4192
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="parameters-for-legal-entities-in-brazil"></a>Parâmetros para entidades legais no Brasil
+# <a name="parameters-for-legal-entities-in-brazil"></a><span data-ttu-id="52c73-104">Parâmetros para entidades legais no Brasil</span><span class="sxs-lookup"><span data-stu-id="52c73-104">Parameters for legal entities in Brazil</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Para coletar e enviar demonstrativos de imposto que relatem o desempenho, uma entidade legal brasileira requer informações fiscais específicas. Este tópico explica como definir os parâmetros para especificar estas informações.
+<span data-ttu-id="52c73-105">Para coletar e enviar demonstrativos de imposto que relatem o desempenho, uma entidade legal brasileira requer informações fiscais específicas.</span><span class="sxs-lookup"><span data-stu-id="52c73-105">To collect and submit tax statements that report on performance, a Brazilian legal entity requires specific fiscal information.</span></span> <span data-ttu-id="52c73-106">Este tópico explica como definir os parâmetros para especificar estas informações.</span><span class="sxs-lookup"><span data-stu-id="52c73-106">This topic explains how to set the parameters to specify this information.</span></span>
 
-<a name="brazilian-legal-entity-overview"></a>Visão geral da entidade legal brasileira
+<a name="brazilian-legal-entity-overview"></a><span data-ttu-id="52c73-107">Visão geral da entidade legal brasileira</span><span class="sxs-lookup"><span data-stu-id="52c73-107">Brazilian legal entity overview</span></span>
 -------------------------------
 
-Uma entidade legal brasileira está organizada por estabelecimentos fiscais que funcionam da mesma forma e está nas mesmas operações de uma ramificação. Há um estabelecimento fiscal principal que é considerado a matriz e os estabelecimentos fiscais relacionados que estão localizados em outros estados ou fora do Brasil. A ilustração a seguir mostra a estrutura de uma entidade legal brasileira e os estabelecimentos fiscais relacionados. 
+<span data-ttu-id="52c73-108">Uma entidade legal brasileira está organizada por estabelecimentos fiscais que funcionam da mesma forma e está nas mesmas operações de uma ramificação.</span><span class="sxs-lookup"><span data-stu-id="52c73-108">A Brazilian legal entity is organized by fiscal establishments that function in the same way and are in the same operations of a branch.</span></span> <span data-ttu-id="52c73-109">Há um estabelecimento fiscal principal que é considerado a matriz e os estabelecimentos fiscais relacionados que estão localizados em outros estados ou fora do Brasil.</span><span class="sxs-lookup"><span data-stu-id="52c73-109">There is a primary fiscal establishment that is considered the Matriz, and related fiscal establishments that are located in other states or outside Brazil.</span></span> <span data-ttu-id="52c73-110">A ilustração a seguir mostra a estrutura de uma entidade legal brasileira e os estabelecimentos fiscais relacionados.</span><span class="sxs-lookup"><span data-stu-id="52c73-110">The following illustration shows the structure of a Brazilian legal entity and related fiscal establishments.</span></span> 
 
-[![estrutura de uma entidade legal brasileira e dos estabelecimentos fiscais relacionados](./media/bralegalentity-236x300.png)](./media/bralegalentity.png)
+<span data-ttu-id="52c73-111">[![estrutura de uma entidade legal brasileira e dos estabelecimentos fiscais relacionados](./media/bralegalentity-236x300.png)](./media/bralegalentity.png)</span><span class="sxs-lookup"><span data-stu-id="52c73-111">[![structure of a Brazilian legal entity and related fiscal establishments](./media/bralegalentity-236x300.png)](./media/bralegalentity.png)</span></span>
 
-## <a name="fiscal-establishments"></a>Estabelecimentos fiscais
-Um estabelecimento fiscal é uma localização de uma entidade legal, como subsidiária, filial, fábrica, centro de distribuição, depósito ou loja, que requer um número de inscrição dos impostos do Cadastro Nacional da Pessoa Jurídica (CNPJ) ou da Inscrição Estadual (IE). Uma entidade legal pode ter vários estabelecimentos fiscais. Os estabelecimentos fiscais emitem e recebem notas fiscais e avaliam e pagam os impostos. Você pode executar estas tarefas:
+## <a name="fiscal-establishments"></a><span data-ttu-id="52c73-112">Estabelecimentos fiscais</span><span class="sxs-lookup"><span data-stu-id="52c73-112">Fiscal establishments</span></span>
+<span data-ttu-id="52c73-113">Um estabelecimento fiscal é uma localização de uma entidade legal, como subsidiária, filial, fábrica, centro de distribuição, depósito ou loja, que requer um número de inscrição dos impostos do Cadastro Nacional da Pessoa Jurídica (CNPJ) ou da Inscrição Estadual (IE).</span><span class="sxs-lookup"><span data-stu-id="52c73-113">A fiscal establishment is a physical location of a legal entity, such as a subsidiary, branch, plant, distribution center, warehouse, or store, that requires a Cadastro Nacional da Pessoa Jurídica (CNPJ) or Inscrição Estadual (IE) tax registration number.</span></span> <span data-ttu-id="52c73-114">Uma entidade legal pode ter vários estabelecimentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="52c73-114">A legal entity can have multiple fiscal establishments.</span></span> <span data-ttu-id="52c73-115">Os estabelecimentos fiscais emitem e recebem notas fiscais e avaliam e pagam os impostos.</span><span class="sxs-lookup"><span data-stu-id="52c73-115">Fiscal establishments issue and receive fiscal documents, and assess and pay taxes.</span></span> <span data-ttu-id="52c73-116">Você pode executar estas tarefas:</span><span class="sxs-lookup"><span data-stu-id="52c73-116">You can perform the following tasks:</span></span>
 
--   Criar grupos de estabelecimentos fiscais e estabelecimentos fiscais.
--   Especificar um estabelecimento fiscal para um site. O endereço do site é atualizado com o endereço de estabelecimento fiscal.
--   Configurar os tipos de documento fiscal que indicam o tipo de documento fiscal que é usado para transações de compra e venda entre estabelecimentos fiscais.
--   Especificar uma matriz de impostos para um grupo de estabelecimentos fiscais. O Código Fiscal de Operações e Prestações (CFOP) que você pode selecionar depende do grupo de estabelecimentos fiscais. Os grupos de impostos que estão disponíveis dependem do grupo de estabelecimentos fiscais e do código CFOP que você seleciona.
--   Criar e lançar uma ordem de venda especificando sites para linhas da ordem de venda. Os códigos de CFOP e os tipos de documentos fiscais que você pode selecionar para as linhas da ordem de vendas dependem dos estabelecimentos fiscais dos sites. Os grupos de impostos e os grupos de impostos de itens para as linhas da ordem de venda são atualizados com base nas matrizes de impostos que são associadas aos estabelecimentos fiscais dos sites por meio de grupos de estabelecimentos fiscais.
--   Criar e lançar uma fatura de texto livre para um estabelecimento fiscal. Os códigos CFOP selecionados para as linhas da fatura de texto livre dependem do estabelecimento fiscal. Os grupos de impostos e os grupos de impostos de itens para as linhas da fatura de texto livre são atualizadas com base nas matrizes de impostos que são associadas aos estabelecimentos fiscais dos sites por meio de grupos de estabelecimentos fiscais.
--   Criar e lançar uma ordem de compra especificando sites que estão anexados aos estabelecimentos fiscais para as linhas da ordem de compra. Os grupos de impostos e os grupos de impostos de itens para as linhas da ordem de compra são atualizados com base nas matrizes de impostos que são associadas aos estabelecimentos fiscais dos sites por meio de grupos de estabelecimentos fiscais.
+-   <span data-ttu-id="52c73-117">Criar grupos de estabelecimentos fiscais e estabelecimentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="52c73-117">Create fiscal establishment groups and fiscal establishments.</span></span>
+-   <span data-ttu-id="52c73-118">Especificar um estabelecimento fiscal para um site.</span><span class="sxs-lookup"><span data-stu-id="52c73-118">Specify a fiscal establishment for a site.</span></span> <span data-ttu-id="52c73-119">O endereço do site é atualizado com o endereço de estabelecimento fiscal.</span><span class="sxs-lookup"><span data-stu-id="52c73-119">The address of the site is updated with the address of the fiscal establishment.</span></span>
+-   <span data-ttu-id="52c73-120">Configurar os tipos de documento fiscal que indicam o tipo de documento fiscal que é usado para transações de compra e venda entre estabelecimentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="52c73-120">Set up fiscal document types that indicate the type of fiscal document that is used for sales and purchase transactions between fiscal establishments.</span></span>
+-   <span data-ttu-id="52c73-121">Especificar uma matriz de impostos para um grupo de estabelecimentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="52c73-121">Specify a tax matrix for a fiscal establishment group.</span></span> <span data-ttu-id="52c73-122">O Código Fiscal de Operações e Prestações (CFOP) que você pode selecionar depende do grupo de estabelecimentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="52c73-122">The Código Fiscal de Operações e Prestações (CFOP) code that you can select depends on the fiscal establishment group.</span></span> <span data-ttu-id="52c73-123">Os grupos de impostos que estão disponíveis dependem do grupo de estabelecimentos fiscais e do código CFOP que você seleciona.</span><span class="sxs-lookup"><span data-stu-id="52c73-123">The tax groups that are available depend on the fiscal establishment group and CFOP code that you select.</span></span>
+-   <span data-ttu-id="52c73-124">Criar e lançar uma ordem de venda especificando sites para linhas da ordem de venda.</span><span class="sxs-lookup"><span data-stu-id="52c73-124">Create and post a sales order by specifying sites for sales order lines.</span></span> <span data-ttu-id="52c73-125">Os códigos de CFOP e os tipos de documentos fiscais que você pode selecionar para as linhas da ordem de vendas dependem dos estabelecimentos fiscais dos sites.</span><span class="sxs-lookup"><span data-stu-id="52c73-125">The CFOP codes and fiscal document types that you can select for the sales order lines depend on the fiscal establishments of the sites.</span></span> <span data-ttu-id="52c73-126">Os grupos de impostos e os grupos de impostos de itens para as linhas da ordem de venda são atualizados com base nas matrizes de impostos que são associadas aos estabelecimentos fiscais dos sites por meio de grupos de estabelecimentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="52c73-126">The sales tax groups and item sales tax groups for the sales order lines are updated based on the tax matrixes that are attached to the fiscal establishments of the sites via fiscal establishment groups.</span></span>
+-   <span data-ttu-id="52c73-127">Criar e lançar uma fatura de texto livre para um estabelecimento fiscal.</span><span class="sxs-lookup"><span data-stu-id="52c73-127">Create and post a free text invoice for a fiscal establishment.</span></span> <span data-ttu-id="52c73-128">Os códigos CFOP selecionados para as linhas da fatura de texto livre dependem do estabelecimento fiscal.</span><span class="sxs-lookup"><span data-stu-id="52c73-128">The CFOP codes that you can select for the free text invoice lines depend on the fiscal establishment.</span></span> <span data-ttu-id="52c73-129">Os grupos de impostos e os grupos de impostos de itens para as linhas da fatura de texto livre são atualizadas com base nas matrizes de impostos que são associadas aos estabelecimentos fiscais dos sites por meio de grupos de estabelecimentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="52c73-129">The sales tax groups and item sales tax groups for the free text invoice lines are updated based on the tax matrixes that are attached to the fiscal establishments of the sites via fiscal establishment groups.</span></span>
+-   <span data-ttu-id="52c73-130">Criar e lançar uma ordem de compra especificando sites que estão anexados aos estabelecimentos fiscais para as linhas da ordem de compra.</span><span class="sxs-lookup"><span data-stu-id="52c73-130">Create and post a purchase order by specifying sites that are attached to fiscal establishments for the purchase order lines.</span></span> <span data-ttu-id="52c73-131">Os grupos de impostos e os grupos de impostos de itens para as linhas da ordem de compra são atualizados com base nas matrizes de impostos que são associadas aos estabelecimentos fiscais dos sites por meio de grupos de estabelecimentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="52c73-131">The sales tax groups and item sales tax groups for the purchase order lines are updated based on the tax matrixes that are attached to the fiscal establishments of the sites via fiscal establishment groups.</span></span>
 
 > [!NOTE]
->  Você cria e atribui o endereço na página **entidades legais**, e o atribui ao estabelecimento fiscal. Você pode atribuir somente um endereço ao estabelecimento fiscal. Para cada estabelecimento fiscal, insira os seguintes IDs de registro de impostos e informações fiscais.
+>  <span data-ttu-id="52c73-132">Você cria e atribui o endereço na página **entidades legais**, e o atribui ao estabelecimento fiscal.</span><span class="sxs-lookup"><span data-stu-id="52c73-132">You create and assign the address on the **Legal entities** page, and assign it to the fiscal establishment.</span></span> <span data-ttu-id="52c73-133">Você pode atribuir somente um endereço ao estabelecimento fiscal.</span><span class="sxs-lookup"><span data-stu-id="52c73-133">You can assign only one address to a fiscal establishment.</span></span> <span data-ttu-id="52c73-134">Para cada estabelecimento fiscal, insira os seguintes IDs de registro de impostos e informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="52c73-134">For each fiscal establishment, enter the following tax registration IDs and fiscal information.</span></span>
 
-| Campo        | descrição                                                                                                                                       |
+| <span data-ttu-id="52c73-135">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-135">Field</span></span>        | <span data-ttu-id="52c73-136">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-136">Description</span></span>                                                                                                                                       |
 |--------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| **CNPJ/CPF** | Insira o número de inscrição de contribuinte ou CNPJ (Cadastro Nacional da Pessoa Jurídica/CPF (Cadastro de Pessoas Físicas) da entidade legal.    |
-| **CCM**      | Insira o número de registro municipal ou CCM (Cadastro de Contribuinte Mobiliário) da entidade legal.                                       |
-| **IE**       | Insira o número de inscrição do estado ou IE (Inscrição Estadual) da entidade legal.                                                             |
-| **CNAE**     | Insira o código de classificação nacional ou CNAE (Classificação Nacional de Atividades Econômicas), da atividade econômica da entidade legal. |
+| <span data-ttu-id="52c73-137">**CNPJ/CPF**</span><span class="sxs-lookup"><span data-stu-id="52c73-137">**CNPJ/CPF**</span></span> | <span data-ttu-id="52c73-138">Insira o número de inscrição de contribuinte ou CNPJ (Cadastro Nacional da Pessoa Jurídica/CPF (Cadastro de Pessoas Físicas) da entidade legal.</span><span class="sxs-lookup"><span data-stu-id="52c73-138">Enter the taxpayer registration number, or Cadastro Nacional da Pessoa Jurídica (CNPJ)/Cadastro de Pessoas Físicas (CPF), of the legal entity.</span></span>    |
+| <span data-ttu-id="52c73-139">**CCM**</span><span class="sxs-lookup"><span data-stu-id="52c73-139">**CCM**</span></span>      | <span data-ttu-id="52c73-140">Insira o número de registro municipal ou CCM (Cadastro de Contribuinte Mobiliário) da entidade legal.</span><span class="sxs-lookup"><span data-stu-id="52c73-140">Enter the municipal registration number, or Cadastro de contribuinte mobiliário (CCM), of the legal entity.</span></span>                                       |
+| <span data-ttu-id="52c73-141">**IE**</span><span class="sxs-lookup"><span data-stu-id="52c73-141">**IE**</span></span>       | <span data-ttu-id="52c73-142">Insira o número de inscrição do estado ou IE (Inscrição Estadual) da entidade legal.</span><span class="sxs-lookup"><span data-stu-id="52c73-142">Enter the state registration number, or Inscrição Estadual (IE), of the legal entity.</span></span>                                                             |
+| <span data-ttu-id="52c73-143">**CNAE**</span><span class="sxs-lookup"><span data-stu-id="52c73-143">**CNAE**</span></span>     | <span data-ttu-id="52c73-144">Insira o código de classificação nacional ou CNAE (Classificação Nacional de Atividades Econômicas), da atividade econômica da entidade legal.</span><span class="sxs-lookup"><span data-stu-id="52c73-144">Enter the national classification code, or Classificação Nacional de Atividades Econômicas (CNAE), for the economic activity of the legal entity.</span></span> |
 
-### <a name="closed-warehouse"></a>Depósito fechado
+### <a name="closed-warehouse"></a><span data-ttu-id="52c73-145">Depósito fechado</span><span class="sxs-lookup"><span data-stu-id="52c73-145">Closed warehouse</span></span>
 
-| Campo                   | descrição                                                                                                                   |
+| <span data-ttu-id="52c73-146">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-146">Field</span></span>                   | <span data-ttu-id="52c73-147">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-147">Description</span></span>                                                                                                                   |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| **O depósito está fechado?** | Indique se o depósito está fechado para negócios. Geralmente, os depósitos fechados têm regras e validações específicas de impostos. |
-| **Emitente de venda**        | O estabelecimento fiscal que faz vendas somente para o estabelecimento fiscal de depósito.                                        |
+| <span data-ttu-id="52c73-148">**O depósito está fechado?**</span><span class="sxs-lookup"><span data-stu-id="52c73-148">**Is closed warehouse**</span></span> | <span data-ttu-id="52c73-149">Indique se o depósito está fechado para negócios.</span><span class="sxs-lookup"><span data-stu-id="52c73-149">Indicate whether the warehouse is closed for business.</span></span> <span data-ttu-id="52c73-150">Geralmente, os depósitos fechados têm regras e validações específicas de impostos.</span><span class="sxs-lookup"><span data-stu-id="52c73-150">In general, closed warehouses have specific tax rules and validations.</span></span> |
+| <span data-ttu-id="52c73-151">**Emitente de venda**</span><span class="sxs-lookup"><span data-stu-id="52c73-151">**Sales Issuer**</span></span>        | <span data-ttu-id="52c73-152">O estabelecimento fiscal que faz vendas somente para o estabelecimento fiscal de depósito.</span><span class="sxs-lookup"><span data-stu-id="52c73-152">The fiscal establishment that make sales for this warehouse-only fiscal establishment.</span></span>                                        |
 
-### <a name="tax-substitution"></a>Substituição tributária
+### <a name="tax-substitution"></a><span data-ttu-id="52c73-153">Substituição tributária</span><span class="sxs-lookup"><span data-stu-id="52c73-153">Tax substitution</span></span>
 
-Esta seção é usada para identificar a ID de registro de impostos quando a empresa tem registros em outro estado. Quando este registro existe, ele também permite que a empresa crie a apuração do imposto ICMS-ST.
+<span data-ttu-id="52c73-154">Esta seção é usada para identificar a ID de registro de impostos quando a empresa tem registros em outro estado.</span><span class="sxs-lookup"><span data-stu-id="52c73-154">This section is used to identify the tax registration ID when the company has registers in another state.</span></span> <span data-ttu-id="52c73-155">Quando este registro existe, ele também permite que a empresa crie a apuração do imposto ICMS-ST.</span><span class="sxs-lookup"><span data-stu-id="52c73-155">When this registration exists, it also enables the company to create the ICMS-ST tax assessment.</span></span>
 
-| Campo     | descrição                                                                       |
+| <span data-ttu-id="52c73-156">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-156">Field</span></span>     | <span data-ttu-id="52c73-157">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-157">Description</span></span>                                                                       |
 |-----------|-----------------------------------------------------------------------------------|
-| **Estado** | O estado em que a ID do registro está localizada.                                   |
-| **IE**    | O código de registro de autoridade fiscal estadual para o IE do estabelecimento fiscal. |
+| <span data-ttu-id="52c73-158">**Estado**</span><span class="sxs-lookup"><span data-stu-id="52c73-158">**State**</span></span> | <span data-ttu-id="52c73-159">O estado em que a ID do registro está localizada.</span><span class="sxs-lookup"><span data-stu-id="52c73-159">The state where the registration ID is located.</span></span>                                   |
+| <span data-ttu-id="52c73-160">**IE**</span><span class="sxs-lookup"><span data-stu-id="52c73-160">**IE**</span></span>    | <span data-ttu-id="52c73-161">O código de registro de autoridade fiscal estadual para o IE do estabelecimento fiscal.</span><span class="sxs-lookup"><span data-stu-id="52c73-161">The state fiscal authority's registration code for the fiscal establishment's IE.</span></span> |
 
-### <a name="nf-e-and-nfc-e-federal"></a>NF-e e NFC-e federal
+### <a name="nf-e-and-nfc-e-federal"></a><span data-ttu-id="52c73-162">NF-e e NFC-e federal</span><span class="sxs-lookup"><span data-stu-id="52c73-162">NF-e and NFC-e federal</span></span>
 
-Você pode configurar informações e certificados usados em notas fiscais eletrônicas (NF-e) e em notas fiscais eletrônicas para o consumidor (NFC-e).
+<span data-ttu-id="52c73-163">Você pode configurar informações e certificados usados em notas fiscais eletrônicas (NF-e) e em notas fiscais eletrônicas para o consumidor (NFC-e).</span><span class="sxs-lookup"><span data-stu-id="52c73-163">You can configure information and certificates that are used on the electronic fiscal document (NF-e) and electronic fiscal document for consumer (NFC-e).</span></span>
 
-| Botão                     | descrição                                                      |
+| <span data-ttu-id="52c73-164">Botão</span><span class="sxs-lookup"><span data-stu-id="52c73-164">Button</span></span>                     | <span data-ttu-id="52c73-165">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-165">Description</span></span>                                                      |
 |----------------------------|------------------------------------------------------------------|
-| **Visualizar serviços Web de NF-e** | Mostra os serviços Web disponíveis para cada tipo de evento.          |
-| **Configurar o CSC**          | Configura a criptografia de CSC, inserindo o token de CSC e o CSC. |
+| <span data-ttu-id="52c73-166">**Visualizar serviços Web de NF-e**</span><span class="sxs-lookup"><span data-stu-id="52c73-166">**View NF-e web services**</span></span> | <span data-ttu-id="52c73-167">Mostra os serviços Web disponíveis para cada tipo de evento.</span><span class="sxs-lookup"><span data-stu-id="52c73-167">Show the available web services for each type of event.</span></span>          |
+| <span data-ttu-id="52c73-168">**Configurar o CSC**</span><span class="sxs-lookup"><span data-stu-id="52c73-168">**Setup the CSC**</span></span>          | <span data-ttu-id="52c73-169">Configura a criptografia de CSC, inserindo o token de CSC e o CSC.</span><span class="sxs-lookup"><span data-stu-id="52c73-169">Set up the CSC encryption by entering the CSC token and the CSC.</span></span> |
 
-#### <a name="nf-e-web-service"></a>Serviço Web de NF-e
+#### <a name="nf-e-web-service"></a><span data-ttu-id="52c73-170">Serviço Web de NF-e</span><span class="sxs-lookup"><span data-stu-id="52c73-170">NF-e web service</span></span>
 
-| Campo                               | descrição                                                          |
+| <span data-ttu-id="52c73-171">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-171">Field</span></span>                               | <span data-ttu-id="52c73-172">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-172">Description</span></span>                                                          |
 |-------------------------------------|----------------------------------------------------------------------|
-| **Ambiente**                     | Especifica se o ambiente é de teste ou de produção. |
-| **A versão do recurso de NF-e** | Insira a versão do layout de NF-e a ser usado.                                |
-| **Autoridade fiscal**                       | Insira a autoridade fiscal a ser usada para aprovar a NF-e.               |
+| <span data-ttu-id="52c73-173">**Ambiente**</span><span class="sxs-lookup"><span data-stu-id="52c73-173">**Environment**</span></span>                     | <span data-ttu-id="52c73-174">Especifica se o ambiente é de teste ou de produção.</span><span class="sxs-lookup"><span data-stu-id="52c73-174">Specify whether the environment is a test or production environment.</span></span> |
+| <span data-ttu-id="52c73-175">**A versão do recurso de NF-e**</span><span class="sxs-lookup"><span data-stu-id="52c73-175">**The version of the NF-e feature**</span></span> | <span data-ttu-id="52c73-176">Insira a versão do layout de NF-e a ser usado.</span><span class="sxs-lookup"><span data-stu-id="52c73-176">Enter the NF-e layout version to use.</span></span>                                |
+| <span data-ttu-id="52c73-177">**Autoridade fiscal**</span><span class="sxs-lookup"><span data-stu-id="52c73-177">**Authority**</span></span>                       | <span data-ttu-id="52c73-178">Insira a autoridade fiscal a ser usada para aprovar a NF-e.</span><span class="sxs-lookup"><span data-stu-id="52c73-178">Enter the fiscal authority to use to approve the NF-e.</span></span>               |
 
-#### <a name="nfc-e-web-service"></a>Serviço Web de NFC-e
+#### <a name="nfc-e-web-service"></a><span data-ttu-id="52c73-179">Serviço Web de NFC-e</span><span class="sxs-lookup"><span data-stu-id="52c73-179">NFC-e web service</span></span>
 
-| Campo                                | descrição                                                          |
+| <span data-ttu-id="52c73-180">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-180">Field</span></span>                                | <span data-ttu-id="52c73-181">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-181">Description</span></span>                                                          |
 |--------------------------------------|----------------------------------------------------------------------|
-| **Ambiente**                      | Especifica se o ambiente é de teste ou de produção. |
-| **A versão do recurso de NFC-e** | Insira a versão do layout de NFC-e a ser usada.                               |
-| **Autoridade**                        | Insira a autoridade fiscal a ser usada para aprovar a NFC-e.              |
+| <span data-ttu-id="52c73-182">**Ambiente**</span><span class="sxs-lookup"><span data-stu-id="52c73-182">**Environment**</span></span>                      | <span data-ttu-id="52c73-183">Especifica se o ambiente é de teste ou de produção.</span><span class="sxs-lookup"><span data-stu-id="52c73-183">Specify whether the environment is a test or production environment.</span></span> |
+| <span data-ttu-id="52c73-184">**A versão do recurso de NFC-e**</span><span class="sxs-lookup"><span data-stu-id="52c73-184">**The version of the NFC-e feature**</span></span> | <span data-ttu-id="52c73-185">Insira a versão do layout de NFC-e a ser usada.</span><span class="sxs-lookup"><span data-stu-id="52c73-185">Enter the NFC-e layout version to use.</span></span>                               |
+| <span data-ttu-id="52c73-186">**Autoridade**</span><span class="sxs-lookup"><span data-stu-id="52c73-186">**Authority**</span></span>                        | <span data-ttu-id="52c73-187">Insira a autoridade fiscal a ser usada para aprovar a NFC-e.</span><span class="sxs-lookup"><span data-stu-id="52c73-187">Enter the fiscal authority to use to approve the NFC-e.</span></span>              |
 
-#### <a name="email-templates"></a>Modelos de email
+#### <a name="email-templates"></a><span data-ttu-id="52c73-188">Modelos de email</span><span class="sxs-lookup"><span data-stu-id="52c73-188">Email templates</span></span>
 
-| Campo                 | descrição                                                         |
+| <span data-ttu-id="52c73-189">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-189">Field</span></span>                 | <span data-ttu-id="52c73-190">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-190">Description</span></span>                                                         |
 |-----------------------|---------------------------------------------------------------------|
-| **NFC-e Aprovada**    | Digite o modelo de email criado anteriormente para NFC-e aprovada.     |
-| **NF-e aprovada**     | Digite o modelo de email criado anteriormente para NF-e aprovada.      |
-| **NF-e cancelada**     | Digite o modelo de email criado anteriormente para NF-e aprovada.      |
-| **Carta de correção** | Digite o modelo de email criado anteriormente para cartas de correção. |
+| <span data-ttu-id="52c73-191">**NFC-e Aprovada**</span><span class="sxs-lookup"><span data-stu-id="52c73-191">**Approved NFC-e**</span></span>    | <span data-ttu-id="52c73-192">Digite o modelo de email criado anteriormente para NFC-e aprovada.</span><span class="sxs-lookup"><span data-stu-id="52c73-192">Enter the previously created email template for approved NFC-e.</span></span>     |
+| <span data-ttu-id="52c73-193">**NF-e aprovada**</span><span class="sxs-lookup"><span data-stu-id="52c73-193">**Approved NF-e**</span></span>     | <span data-ttu-id="52c73-194">Digite o modelo de email criado anteriormente para NF-e aprovada.</span><span class="sxs-lookup"><span data-stu-id="52c73-194">Enter the previously created email template for approved NF-e.</span></span>      |
+| <span data-ttu-id="52c73-195">**NF-e cancelada**</span><span class="sxs-lookup"><span data-stu-id="52c73-195">**Canceled NF-e**</span></span>     | <span data-ttu-id="52c73-196">Digite o modelo de email criado anteriormente para NF-e aprovada.</span><span class="sxs-lookup"><span data-stu-id="52c73-196">Enter the previously created email template for canceled NF-e.</span></span>      |
+| <span data-ttu-id="52c73-197">**Carta de correção**</span><span class="sxs-lookup"><span data-stu-id="52c73-197">**Correction letter**</span></span> | <span data-ttu-id="52c73-198">Digite o modelo de email criado anteriormente para cartas de correção.</span><span class="sxs-lookup"><span data-stu-id="52c73-198">Enter the previously created email template for correction letters.</span></span> |
 
-#### <a name="security-page-contingency"></a>Contingência da página de segurança
+#### <a name="security-page-contingency"></a><span data-ttu-id="52c73-199">Contingência da página de segurança</span><span class="sxs-lookup"><span data-stu-id="52c73-199">Security page contingency</span></span>
 
-| Campo                   | descrição                                                 |
+| <span data-ttu-id="52c73-200">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-200">Field</span></span>                   | <span data-ttu-id="52c73-201">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-201">Description</span></span>                                                 |
 |-------------------------|-------------------------------------------------------------|
-| **Formulário de segurança pré-impresso** | Selecione esta opção se a página de segurança for pré-impressa. |
+| <span data-ttu-id="52c73-202">**Formulário de segurança pré-impresso**</span><span class="sxs-lookup"><span data-stu-id="52c73-202">**Preprinted security**</span></span> | <span data-ttu-id="52c73-203">Selecione esta opção se a página de segurança for pré-impressa.</span><span class="sxs-lookup"><span data-stu-id="52c73-203">Select this option if the security page will be preprinted.</span></span> |
 
-#### <a name="danfe"></a>DANFE
+#### <a name="danfe"></a><span data-ttu-id="52c73-204">DANFE</span><span class="sxs-lookup"><span data-stu-id="52c73-204">DANFE</span></span>
 
-| Campo                                             | descrição                                                                                |
+| <span data-ttu-id="52c73-205">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-205">Field</span></span>                                             | <span data-ttu-id="52c73-206">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-206">Description</span></span>                                                                                |
 |---------------------------------------------------|--------------------------------------------------------------------------------------------|
-| **Anexar o DANFE-NFC-e ao email como arquivo PDF** | Selecione esta opção se o DANFE NFC-e for enviado como um anexo do email da NFC-e.  |
-| **Anexar DANFE como arquivo PDF ao e-mail**         | Selecione esta opção se o DANFE tiver que ser enviado como um anexo do email da NF-e.         |
-| **Imprimir DANFE quando a NF-e for aprovada**             | Selecione esta opção se o DANFE tiver que ser impresso quando a NF-e for automaticamente aprovada. |
+| <span data-ttu-id="52c73-207">**Anexar o DANFE-NFC-e ao email como arquivo PDF**</span><span class="sxs-lookup"><span data-stu-id="52c73-207">**Attach the DANFE NFC-e as a PDF file to email**</span></span> | <span data-ttu-id="52c73-208">Selecione esta opção se o DANFE NFC-e for enviado como um anexo do email da NFC-e.</span><span class="sxs-lookup"><span data-stu-id="52c73-208">Select this option if the DANFE NFC-e should be sent as an attachment in the NFC-e email.</span></span>  |
+| <span data-ttu-id="52c73-209">**Anexar DANFE como arquivo PDF ao e-mail**</span><span class="sxs-lookup"><span data-stu-id="52c73-209">**Attach the DANFE as PDF file to email**</span></span>         | <span data-ttu-id="52c73-210">Selecione esta opção se o DANFE tiver que ser enviado como um anexo do email da NF-e.</span><span class="sxs-lookup"><span data-stu-id="52c73-210">Select this option if the DANFE should be sent as an attachment in the NF-e email.</span></span>         |
+| <span data-ttu-id="52c73-211">**Imprimir DANFE quando a NF-e for aprovada**</span><span class="sxs-lookup"><span data-stu-id="52c73-211">**Print DANFE when NF-e is approved**</span></span>             | <span data-ttu-id="52c73-212">Selecione esta opção se o DANFE tiver que ser impresso quando a NF-e for automaticamente aprovada.</span><span class="sxs-lookup"><span data-stu-id="52c73-212">Select this option if the DANFE should be printed when the NF-e is automatically approved.</span></span> |
 
-#### <a name="xml-document"></a>Documento XML
+#### <a name="xml-document"></a><span data-ttu-id="52c73-213">Documento XML</span><span class="sxs-lookup"><span data-stu-id="52c73-213">XML document</span></span>
 
-| Campo                              | descrição                                                                          |
+| <span data-ttu-id="52c73-214">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-214">Field</span></span>                              | <span data-ttu-id="52c73-215">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-215">Description</span></span>                                                                          |
 |------------------------------------|--------------------------------------------------------------------------------------|
-| **Validar esquema XML no lançamento** | Selecione esta opção se o esquema XML tiver que ser validado durante o processo de lançamento. |
+| <span data-ttu-id="52c73-216">**Validar esquema XML no lançamento**</span><span class="sxs-lookup"><span data-stu-id="52c73-216">**Validate XML schema on posting**</span></span> | <span data-ttu-id="52c73-217">Selecione esta opção se o esquema XML tiver que ser validado durante o processo de lançamento.</span><span class="sxs-lookup"><span data-stu-id="52c73-217">Select this option if the XML schema should be validated during the posting process.</span></span> |
 
-#### <a name="nf-e-receipt"></a>NF-e Recebimento
+#### <a name="nf-e-receipt"></a><span data-ttu-id="52c73-218">NF-e Recebimento</span><span class="sxs-lookup"><span data-stu-id="52c73-218">NF-e receipt</span></span>
 
-| Campo                                          | descrição                                                                       |
+| <span data-ttu-id="52c73-219">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-219">Field</span></span>                                          | <span data-ttu-id="52c73-220">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-220">Description</span></span>                                                                       |
 |------------------------------------------------|-----------------------------------------------------------------------------------|
-| **Lançar somente NF-e com chaves de acesso válidas** | Selecione esta opção somente se a NF-e com as chaves válidas tiverem que ser lançadas.            |
-| **Não postar NF-e se o XML não corresponder com a fatura**   | Selecione esta opção para bloquear a NF-e se o XML não corresponder ao esquema. |
+| <span data-ttu-id="52c73-221">**Lançar somente NF-e com chaves de acesso válidas**</span><span class="sxs-lookup"><span data-stu-id="52c73-221">**Post only NF-e that have valid access keys**</span></span> | <span data-ttu-id="52c73-222">Selecione esta opção somente se a NF-e com as chaves válidas tiverem que ser lançadas.</span><span class="sxs-lookup"><span data-stu-id="52c73-222">Select this option if only NF-e that have valid keys should be posted.</span></span>            |
+| <span data-ttu-id="52c73-223">**Não postar NF-e se o XML não corresponder com a fatura**</span><span class="sxs-lookup"><span data-stu-id="52c73-223">**Block NF-e posting if XML does not match**</span></span>   | <span data-ttu-id="52c73-224">Selecione esta opção para bloquear a NF-e se o XML não corresponder ao esquema.</span><span class="sxs-lookup"><span data-stu-id="52c73-224">Select this option to block posting for NF-e if the XML doesn't match the schema.</span></span> |
 
-#### <a name="fci"></a>FCI
+#### <a name="fci"></a><span data-ttu-id="52c73-225">FCI</span><span class="sxs-lookup"><span data-stu-id="52c73-225">FCI</span></span>
 
-| Campo                                    | descrição                                                                                        |
+| <span data-ttu-id="52c73-226">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-226">Field</span></span>                                    | <span data-ttu-id="52c73-227">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-227">Description</span></span>                                                                                        |
 |------------------------------------------|----------------------------------------------------------------------------------------------------|
-| **FCI se aplica a operações internas** | Selecione esta opção se a FCI for aplicada nas operações que ocorrem entre os diferentes estados. |
+| <span data-ttu-id="52c73-228">**FCI se aplica a operações internas**</span><span class="sxs-lookup"><span data-stu-id="52c73-228">**FCI applies to intrastate operations**</span></span> | <span data-ttu-id="52c73-229">Selecione esta opção se a FCI for aplicada nas operações que ocorrem entre os diferentes estados.</span><span class="sxs-lookup"><span data-stu-id="52c73-229">Select this option if the FCI should be applied in operations that occur between different states.</span></span> |
 
-### <a name="tax-registration-numbers"></a>Números de registro de imposto
+### <a name="tax-registration-numbers"></a><span data-ttu-id="52c73-230">Números de registro de imposto</span><span class="sxs-lookup"><span data-stu-id="52c73-230">Tax registration numbers</span></span>
 
-Depois que uma entidade legal brasileira for criada, e o estabelecimento fiscal for criado com o endereço brasileiro relacionado, os seguintes números de registro de impostos aparecem na entidade legal. 
+<span data-ttu-id="52c73-231">Depois que uma entidade legal brasileira for criada, e o estabelecimento fiscal for criado com o endereço brasileiro relacionado, os seguintes números de registro de impostos aparecem na entidade legal.</span><span class="sxs-lookup"><span data-stu-id="52c73-231">After a Brazilian legal entity is created, and a fiscal establishment is created that has the related Brazilian address, the following tax registration numbers appear in the legal entity.</span></span> 
 > [!NOTE]
->  Os seguintes campos de registro de imposto pertencem ao endereço principal, pois as IDs de registro de impostos são criadas e atualizadas em cada estabelecimento fiscal/endereço.
+>  <span data-ttu-id="52c73-232">Os seguintes campos de registro de imposto pertencem ao endereço principal, pois as IDs de registro de impostos são criadas e atualizadas em cada estabelecimento fiscal/endereço.</span><span class="sxs-lookup"><span data-stu-id="52c73-232">The following tax registration fields belong to the primary address, because the tax registration IDs are created and updated in each fiscal establishment/address.</span></span>
 
-| Campo        | descrição                                                                            |
+| <span data-ttu-id="52c73-233">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-233">Field</span></span>        | <span data-ttu-id="52c73-234">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-234">Description</span></span>                                                                            |
 |--------------|----------------------------------------------------------------------------------------|
-| **CNPJ/CPF** | O número de inscrição de contribuinte (CNPJ/CPF) da entidade legal.                       |
-| **CCM**      | O número de inscrição municipal (CCM) da entidade legal.                           |
-| **IE**       | O número de inscrição estadual (IE) da entidade legal.                                |
-| **CNAE**     | O código de classificação nacional (CNAE) da atividade econômica da entidade legal. |
+| <span data-ttu-id="52c73-235">**CNPJ/CPF**</span><span class="sxs-lookup"><span data-stu-id="52c73-235">**CNPJ/CPF**</span></span> | <span data-ttu-id="52c73-236">O número de inscrição de contribuinte (CNPJ/CPF) da entidade legal.</span><span class="sxs-lookup"><span data-stu-id="52c73-236">The taxpayer registration number (CNPJ/CPF) of the legal entity.</span></span>                       |
+| <span data-ttu-id="52c73-237">**CCM**</span><span class="sxs-lookup"><span data-stu-id="52c73-237">**CCM**</span></span>      | <span data-ttu-id="52c73-238">O número de inscrição municipal (CCM) da entidade legal.</span><span class="sxs-lookup"><span data-stu-id="52c73-238">The municipal registration number (CCM) of the legal entity.</span></span>                           |
+| <span data-ttu-id="52c73-239">**IE**</span><span class="sxs-lookup"><span data-stu-id="52c73-239">**IE**</span></span>       | <span data-ttu-id="52c73-240">O número de inscrição estadual (IE) da entidade legal.</span><span class="sxs-lookup"><span data-stu-id="52c73-240">The state registration number (IE) of the legal entity.</span></span>                                |
+| <span data-ttu-id="52c73-241">**CNAE**</span><span class="sxs-lookup"><span data-stu-id="52c73-241">**CNAE**</span></span>     | <span data-ttu-id="52c73-242">O código de classificação nacional (CNAE) da atividade econômica da entidade legal.</span><span class="sxs-lookup"><span data-stu-id="52c73-242">The national classification code (CNAE) for the economic activity of the legal entity.</span></span> |
 
-## <a name="brazilian-parameters"></a>Parâmetros brasileiros
-Use as informações nas seguintes tabelas para configurar parâmetros na página **Parâmetros brasileiros**.
+## <a name="brazilian-parameters"></a><span data-ttu-id="52c73-243">Parâmetros brasileiros</span><span class="sxs-lookup"><span data-stu-id="52c73-243">Brazilian parameters</span></span>
+<span data-ttu-id="52c73-244">Use as informações nas seguintes tabelas para configurar parâmetros na página **Parâmetros brasileiros**.</span><span class="sxs-lookup"><span data-stu-id="52c73-244">Use the information in the following tables to set up parameters on the **Brazilian parameters** page.</span></span>
 
-### <a name="general"></a>Geral
+### <a name="general"></a><span data-ttu-id="52c73-245">Geral</span><span class="sxs-lookup"><span data-stu-id="52c73-245">General</span></span>
 
-| Campo                                            | descrição                                                                                                                                                         |
+| <span data-ttu-id="52c73-246">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-246">Field</span></span>                                            | <span data-ttu-id="52c73-247">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-247">Description</span></span>                                                                                                                                                         |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Código CFPS**                                    | Habilitar o Código Fiscal de Serviço (CFPS) para ativar a operação fiscal de códigos de serviços.                                                        |
-| **Dimensão financeira para o centro de custo**          | Especifique a dimensão financeira que representa o centro de custo. Essas informações são usadas para gerar demonstrativos de Sistema Público de Escrituração Digital (SPED). |
-| **Dimensão financeira para o estabelecimento fiscal** | Especifique a dimensão financeira que representa o estabelecimento fiscal. Esta informação é usada para gerar as instruções do SPED.                                  |
-| **Tipo de Operação da Requisição de compra**          | O tipo de operação padrão usado para requisições de compra.                                                                                                  |
-| **Tipo de operação para Solicitações de cotações**       | O tipo de operação padrão usado para solicitações de cotações.                                                                                                |
+| <span data-ttu-id="52c73-248">**Código CFPS**</span><span class="sxs-lookup"><span data-stu-id="52c73-248">**CFPS Code**</span></span>                                    | <span data-ttu-id="52c73-249">Habilitar o Código Fiscal de Serviço (CFPS) para ativar a operação fiscal de códigos de serviços.</span><span class="sxs-lookup"><span data-stu-id="52c73-249">Enable the Código Fiscal de Prestação de Serviços (CFPS) to activate the fiscal operation of services codes.</span></span>                                                        |
+| <span data-ttu-id="52c73-250">**Dimensão financeira para o centro de custo**</span><span class="sxs-lookup"><span data-stu-id="52c73-250">**Financial dimension for cost center**</span></span>          | <span data-ttu-id="52c73-251">Especifique a dimensão financeira que representa o centro de custo.</span><span class="sxs-lookup"><span data-stu-id="52c73-251">Specify the financial dimension that represent the cost center.</span></span> <span data-ttu-id="52c73-252">Essas informações são usadas para gerar demonstrativos de Sistema Público de Escrituração Digital (SPED).</span><span class="sxs-lookup"><span data-stu-id="52c73-252">This information is used to generate the Sistema Publico de Escrituração Digital (SPED) statements.</span></span> |
+| <span data-ttu-id="52c73-253">**Dimensão financeira para o estabelecimento fiscal**</span><span class="sxs-lookup"><span data-stu-id="52c73-253">**Financial dimension for fiscal establishment**</span></span> | <span data-ttu-id="52c73-254">Especifique a dimensão financeira que representa o estabelecimento fiscal.</span><span class="sxs-lookup"><span data-stu-id="52c73-254">Specify the financial dimension that represent the fiscal establishment.</span></span> <span data-ttu-id="52c73-255">Esta informação é usada para gerar as instruções do SPED.</span><span class="sxs-lookup"><span data-stu-id="52c73-255">This information is used to generate the SPED statements.</span></span>                                  |
+| <span data-ttu-id="52c73-256">**Tipo de Operação da Requisição de compra**</span><span class="sxs-lookup"><span data-stu-id="52c73-256">**Purchase Requisition Operation type**</span></span>          | <span data-ttu-id="52c73-257">O tipo de operação padrão usado para requisições de compra.</span><span class="sxs-lookup"><span data-stu-id="52c73-257">The default operation type that is used for purchase requisitions.</span></span>                                                                                                  |
+| <span data-ttu-id="52c73-258">**Tipo de operação para Solicitações de cotações**</span><span class="sxs-lookup"><span data-stu-id="52c73-258">**Requests for quotations Operation type**</span></span>       | <span data-ttu-id="52c73-259">O tipo de operação padrão usado para solicitações de cotações.</span><span class="sxs-lookup"><span data-stu-id="52c73-259">The default operation type that is used for requests for quotations.</span></span>                                                                                                |
 
-### <a name="fiscal-document"></a>Nota fiscal
+### <a name="fiscal-document"></a><span data-ttu-id="52c73-260">Nota fiscal</span><span class="sxs-lookup"><span data-stu-id="52c73-260">Fiscal document</span></span>
 
-Configurar texto padrão e tipos de produto e documento, das notas fiscais que são emitidas e recebidas na entidade legal brasileira.
+<span data-ttu-id="52c73-261">Configurar texto padrão e tipos de produto e documento, das notas fiscais que são emitidas e recebidas na entidade legal brasileira.</span><span class="sxs-lookup"><span data-stu-id="52c73-261">Set up default text, and product and document types, for fiscal documents that are issued and received in the Brazilian legal entity.</span></span>
 
 <table>
 <colgroup>
@@ -182,143 +182,143 @@ Configurar texto padrão e tipos de produto e documento, das notas fiscais que s
 </colgroup>
 <thead>
 <tr class="header">
-<th>Campo</th>
-<th>descrição</th>
+<th><span data-ttu-id="52c73-262">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-262">Field</span></span></th>
+<th><span data-ttu-id="52c73-263">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-263">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>Método de pagamento principal</strong></td>
-<td>Selecione <strong>Duplicata</strong>, <strong>Cheque</strong>, <strong>Nota promissória</strong>, <strong>Recibo</strong> ou <strong>Outros</strong> como o método de pagamento principal para compras. Se você selecionar <strong>Outros</strong> neste campo, no campo <strong>Descrição</strong>, insira a descrição do método principal de pagamento para compras.</td>
+<td><span data-ttu-id="52c73-264"><strong>Método de pagamento principal</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-264"><strong>Primary method of payment</strong></span></span></td>
+<td><span data-ttu-id="52c73-265">Selecione <strong>Duplicata</strong>, <strong>Cheque</strong>, <strong>Nota promissória</strong>, <strong>Recibo</strong> ou <strong>Outros</strong> como o método de pagamento principal para compras.</span><span class="sxs-lookup"><span data-stu-id="52c73-265">Select <strong>Duplicate</strong>, <strong>Check</strong>, <strong>Promissory note</strong>, <strong>Receipt</strong>, or <strong>Other</strong> as the primary method of payment for purchases.</span></span> <span data-ttu-id="52c73-266">Se você selecionar <strong>Outros</strong> neste campo, no campo <strong>Descrição</strong>, insira a descrição do método principal de pagamento para compras.</span><span class="sxs-lookup"><span data-stu-id="52c73-266">If you select <strong>Other</strong> in this field, in the <strong>Description</strong> field, enter a description of the primary method of payment for purchases.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>ID do texto</strong> (No grupo de campos <strong>texto da SUFRAMA para emissão de nota fiscal</strong>)</td>
-<td>Selecione o ID de texto do documento fiscal padrão que é impressa em notas fiscais que são emitidas para os clientes da região da Superintendência da Zona Franca de Manaus (SUFRAMA).</td>
+<td><span data-ttu-id="52c73-267"><strong>ID do texto</strong> (No grupo de campos <strong>texto da SUFRAMA para emissão de nota fiscal</strong>)</span><span class="sxs-lookup"><span data-stu-id="52c73-267"><strong>Text ID</strong> (In the <strong>SUFRAMA text for issue fiscal document</strong> field group)</span></span></td>
+<td><span data-ttu-id="52c73-268">Selecione o ID de texto do documento fiscal padrão que é impressa em notas fiscais que são emitidas para os clientes da região da Superintendência da Zona Franca de Manaus (SUFRAMA).</span><span class="sxs-lookup"><span data-stu-id="52c73-268">Select the ID of the default fiscal document text that is printed on fiscal documents that are issued to customers from the Superintendência da Zona Franca de Manaus (SUFRAMA) region.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>ID do texto</strong> (No grupo de campos <strong>Texto do imposto retido na fonte para emissão de nota fiscal</strong>)</td>
-<td>Selecione a ID do texto da nota fiscal padrão do imposto retido na fonte a ser impresso nas notas fiscais.</td>
+<td><span data-ttu-id="52c73-269"><strong>ID do texto</strong> (No grupo de campos <strong>Texto do imposto retido na fonte para emissão de nota fiscal</strong>)</span><span class="sxs-lookup"><span data-stu-id="52c73-269"><strong>Text ID</strong> (In the <strong>Withholding tax text for issue fiscal document</strong> field group)</span></span></td>
+<td><span data-ttu-id="52c73-270">Selecione a ID do texto da nota fiscal padrão do imposto retido na fonte a ser impresso nas notas fiscais.</span><span class="sxs-lookup"><span data-stu-id="52c73-270">Select the ID of the default fiscal document text for withholding tax that is printed on fiscal documents.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>Método de pagamento principal</strong></td>
-<td>Selecione <strong>Duplicata</strong>, <strong>Cheque</strong>, <strong>Nota promissória</strong>, <strong>Recibo</strong> ou <strong>Outros</strong> como o método de pagamento principal para vendas. Se você selecionar <strong>Outros</strong> neste campo, no campo <strong>Descrição</strong>, insira a descrição do método principal de pagamento para vendas.</td>
+<td><span data-ttu-id="52c73-271"><strong>Método de pagamento principal</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-271"><strong>Primary method of payment</strong></span></span></td>
+<td><span data-ttu-id="52c73-272">Selecione <strong>Duplicata</strong>, <strong>Cheque</strong>, <strong>Nota promissória</strong>, <strong>Recibo</strong> ou <strong>Outros</strong> como o método de pagamento principal para vendas.</span><span class="sxs-lookup"><span data-stu-id="52c73-272">Select <strong>Duplicate</strong>, <strong>Check</strong>, <strong>Promissory note</strong>, <strong>Receipt</strong>, or <strong>Other</strong> as the primary method of payment for sales.</span></span> <span data-ttu-id="52c73-273">Se você selecionar <strong>Outros</strong> neste campo, no campo <strong>Descrição</strong>, insira a descrição do método principal de pagamento para vendas.</span><span class="sxs-lookup"><span data-stu-id="52c73-273">If you select <strong>Other</strong> in this field, in the <strong>Description</strong> field, enter a description of the primary method of payment for sales.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>Tipo de produto</strong></td>
-<td>Selecione o tipo de produto padrão para itens que são usados para consumo. Para um item que é comprado para consumo, você pode selecionar esse tipo de produto no campo <strong>Tipo de produto</strong> na página <strong>Detalhes do produto liberado</strong>.</td>
+<td><span data-ttu-id="52c73-274"><strong>Tipo de produto</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-274"><strong>Product type</strong></span></span></td>
+<td><span data-ttu-id="52c73-275">Selecione o tipo de produto padrão para itens que são usados para consumo.</span><span class="sxs-lookup"><span data-stu-id="52c73-275">Select the default product type for items that are used for consumption.</span></span> <span data-ttu-id="52c73-276">Para um item que é comprado para consumo, você pode selecionar esse tipo de produto no campo <strong>Tipo de produto</strong> na página <strong>Detalhes do produto liberado</strong>.</span><span class="sxs-lookup"><span data-stu-id="52c73-276">For an item that is purchased for consumption, you can select this product type in the <strong>Product type</strong> field on the <strong>Released product details</strong> page.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>Tipo de volume</strong> <strong>Quantidade em volume</strong></td>
-<td>O tipo de volume padrão e a quantidade de volume de itens nas notas fiscais.</td>
+<td><span data-ttu-id="52c73-277"><strong>Tipo de volume</strong> <strong>Quantidade em volume</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-277"><strong>Volume type</strong> <strong>Volume quantity</strong></span></span></td>
+<td><span data-ttu-id="52c73-278">O tipo de volume padrão e a quantidade de volume de itens nas notas fiscais.</span><span class="sxs-lookup"><span data-stu-id="52c73-278">The default volume type and volume quantity for items in the fiscal documents.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>Habilitar data de emissão fixada</strong></td>
-<td>Marque esta opção para configurar a data fixa de emissão da nota fiscal fixa dos tipos de notas fiscais.</td>
+<td><span data-ttu-id="52c73-279"><strong>Habilitar data de emissão fixada</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-279"><strong>Enable fix issue date</strong></span></span></td>
+<td><span data-ttu-id="52c73-280">Marque esta opção para configurar a data fixa de emissão da nota fiscal fixa dos tipos de notas fiscais.</span><span class="sxs-lookup"><span data-stu-id="52c73-280">Select this option to set up the fixed fiscal document issue date for fiscal document types.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>Item</strong></td>
-<td>Selecione a ID de item usada para lançar notas fiscais de faturas de texto livre.</td>
+<td><span data-ttu-id="52c73-281"><strong>Item</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-281"><strong>Item</strong></span></span></td>
+<td><span data-ttu-id="52c73-282">Selecione a ID de item usada para lançar notas fiscais de faturas de texto livre.</span><span class="sxs-lookup"><span data-stu-id="52c73-282">Select the ID of the item that is used to post fiscal documents from free text invoices.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>Serviço</strong></td>
-<td>Selecione a ID de serviço usada para lançar notas fiscais de faturas de texto livre que têm as linhas na opção <strong>Fatura de serviço</strong> selecionada na seção <strong>Informações fiscais</strong>.</td>
+<td><span data-ttu-id="52c73-283"><strong>Serviço</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-283"><strong>Service</strong></span></span></td>
+<td><span data-ttu-id="52c73-284">Selecione a ID de serviço usada para lançar notas fiscais de faturas de texto livre que têm as linhas na opção <strong>Fatura de serviço</strong> selecionada na seção <strong>Informações fiscais</strong>.</span><span class="sxs-lookup"><span data-stu-id="52c73-284">Select the ID of the service that is used to post fiscal documents from free text invoices that have lines where the <strong>Service invoice</strong> option is selected in the <strong>Fiscal information</strong> section.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>Tipo de documento</strong></td>
-<td>Selecione a ID do tipo de documento padrão para textos das notas fiscais. É possível selecionar um tipo de documento que não é atribuído ao texto de nota fiscal que é associado a uma nota fiscal. <strong>Observação:</strong> Se um texto da nota fiscal estiver associado a um documento fiscal, não será possível modificar o tipo de documento.</td>
+<td><span data-ttu-id="52c73-285"><strong>Tipo de documento</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-285"><strong>Document type</strong></span></span></td>
+<td><span data-ttu-id="52c73-286">Selecione a ID do tipo de documento padrão para textos das notas fiscais.</span><span class="sxs-lookup"><span data-stu-id="52c73-286">Select the ID of the default document type for fiscal document texts.</span></span> <span data-ttu-id="52c73-287">É possível selecionar um tipo de documento que não é atribuído ao texto de nota fiscal que é associado a uma nota fiscal.</span><span class="sxs-lookup"><span data-stu-id="52c73-287">You can select a document type that isn't assigned to the fiscal document text that is attached to a fiscal document.</span></span> <span data-ttu-id="52c73-288"><strong>Observação:</strong> Se um texto da nota fiscal estiver associado a um documento fiscal, não será possível modificar o tipo de documento.</span><span class="sxs-lookup"><span data-stu-id="52c73-288"><strong>Note:</strong> If a fiscal document text is attached to a fiscal document, you can't modify the document type.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>Item</strong></td>
-<td>Selecione a ID de item usada para criar notas fiscais de transferência ou apropriação de imposto.</td>
+<td><span data-ttu-id="52c73-289"><strong>Item</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-289"><strong>Item</strong></span></span></td>
+<td><span data-ttu-id="52c73-290">Selecione a ID de item usada para criar notas fiscais de transferência ou apropriação de imposto.</span><span class="sxs-lookup"><span data-stu-id="52c73-290">Select the ID of the item that is used to create tax fiscal documents.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>Código do imposto para PIS</strong></td>
-<td>Selecione o código do imposto padrão para o PIS (Programa de Integração Social) que é usado para notas fiscais de transferência ou apropriação de imposto.</td>
+<td><span data-ttu-id="52c73-291"><strong>Código do imposto para PIS</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-291"><strong>Sales tax code for PIS</strong></span></span></td>
+<td><span data-ttu-id="52c73-292">Selecione o código do imposto padrão para o PIS (Programa de Integração Social) que é usado para notas fiscais de transferência ou apropriação de imposto.</span><span class="sxs-lookup"><span data-stu-id="52c73-292">Select the default sales tax code for Programa de Integração Social (PIS) that is used for tax fiscal documents.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>Código do imposto para COFINS</strong></td>
-<td>Selecione o código do imposto padrão para COFINS (Contribuição para o Financiamento da Seguridade Social) que é usado para notas fiscais de transferência ou apropriação de imposto.</td>
+<td><span data-ttu-id="52c73-293"><strong>Código do imposto para COFINS</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-293"><strong>Sales tax code for COFINS</strong></span></span></td>
+<td><span data-ttu-id="52c73-294">Selecione o código do imposto padrão para COFINS (Contribuição para o Financiamento da Seguridade Social) que é usado para notas fiscais de transferência ou apropriação de imposto.</span><span class="sxs-lookup"><span data-stu-id="52c73-294">Select the default sales tax code for Contribuição para o Financiamento da Seguridade Social (COFINS) that is used for tax fiscal documents.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>Modelos de textos da nota fiscal</strong></td>
-<td>Selecione a ID do modelo de texto da nota fiscal que é impressa nas notas fiscais complementares.</td>
+<td><span data-ttu-id="52c73-295"><strong>Modelos de textos da nota fiscal</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-295"><strong>Fiscal document source text</strong></span></span></td>
+<td><span data-ttu-id="52c73-296">Selecione a ID do modelo de texto da nota fiscal que é impressa nas notas fiscais complementares.</span><span class="sxs-lookup"><span data-stu-id="52c73-296">Select the ID of the fiscal document source text that is printed on the complementary fiscal documents.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>O valor da linha baseia-se em</strong></td>
-<td>Selecione se os valores da linha em notas fiscais de importação serão baseados no FOB (Freight on Board) ou CIF (Carriage, Insurance and Freight).</td>
+<td><span data-ttu-id="52c73-297"><strong>O valor da linha baseia-se em</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-297"><strong>Line amount is based on</strong></span></span></td>
+<td><span data-ttu-id="52c73-298">Selecione se os valores da linha em notas fiscais de importação serão baseados no FOB (Freight on Board) ou CIF (Carriage, Insurance and Freight).</span><span class="sxs-lookup"><span data-stu-id="52c73-298">Select whether the line amounts in import fiscal documents are based on the Freight on Board (FOB) or Carriage, Insurance, and Freight (CIF).</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>Campo ID do Texto</strong></td>
-<td>Selecione a ID do modelo de texto da nota fiscal que é impressa nas notas fiscais de importação.</td>
+<td><span data-ttu-id="52c73-299"><strong>Campo ID do Texto</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-299"><strong>Text ID field</strong></span></span></td>
+<td><span data-ttu-id="52c73-300">Selecione a ID do modelo de texto da nota fiscal que é impressa nas notas fiscais de importação.</span><span class="sxs-lookup"><span data-stu-id="52c73-300">Select the ID of the fiscal document text that is printed on import fiscal documents.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>Código do imposto para COFINS</strong></td>
-<td>Selecione o código de imposto padrão para COFINS usado para notas fiscais complementares de imposto.</td>
+<td><span data-ttu-id="52c73-301"><strong>Código do imposto para COFINS</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-301"><strong>Sales tax code for COFINS</strong></span></span></td>
+<td><span data-ttu-id="52c73-302">Selecione o código de imposto padrão para COFINS usado para notas fiscais complementares de imposto.</span><span class="sxs-lookup"><span data-stu-id="52c73-302">Select the default sales tax code for COFINS that is used for tax complementary fiscal documents.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>campo Código do imposto para PIS</strong></td>
-<td>Selecione o código de imposto padrão para PIS usado para notas fiscais complementares de imposto.</td>
+<td><span data-ttu-id="52c73-303"><strong>campo Código do imposto para PIS</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-303"><strong>Sales tax code for PIS field</strong></span></span></td>
+<td><span data-ttu-id="52c73-304">Selecione o código de imposto padrão para PIS usado para notas fiscais complementares de imposto.</span><span class="sxs-lookup"><span data-stu-id="52c73-304">Select the default sales tax code for PIS that is used for tax complementary fiscal documents.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>Unidade</strong></td>
-<td>Selecione a unidade padrão a ser usada nas linhas da nota fiscal criadas para transações de hora, despesa, por conta ou projeto de item.</td>
+<td><span data-ttu-id="52c73-305"><strong>Unidade</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-305"><strong>Unit</strong></span></span></td>
+<td><span data-ttu-id="52c73-306">Selecione a unidade padrão a ser usada nas linhas da nota fiscal criadas para transações de hora, despesa, por conta ou projeto de item.</span><span class="sxs-lookup"><span data-stu-id="52c73-306">Select the default unit to use on fiscal document lines that are created for hour, expense, on-account, or item project transactions.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>Taxa básica de imposto</strong></td>
-<td>Indica o valor de taxa de impostos para cada regime de apuração de impostos PIS e COFINS. Essas informações ajudam a identificar o regime cumulativo e o regime não cumulativo de cada transação de imposto.
+<td><span data-ttu-id="52c73-307"><strong>Taxa básica de imposto</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-307"><strong>Tax basic rate</strong></span></span></td>
+<td><span data-ttu-id="52c73-308">Indica o valor de taxa de impostos para cada regime de apuração de impostos PIS e COFINS.</span><span class="sxs-lookup"><span data-stu-id="52c73-308">Indicate the tax rate value for each tax regime of PIS and COFINS assessments.</span></span> <span data-ttu-id="52c73-309">Essas informações ajudam a identificar o regime cumulativo e o regime não cumulativo de cada transação de imposto.</span><span class="sxs-lookup"><span data-stu-id="52c73-309">This information helps identify the cumulative regime and non-cumulative regime for each tax transaction.</span></span>
 <ul>
-<li><strong>Valor básico do imposto PIS no regime acumulação</strong> – Insira a porcentagem de taxa de impostos.</li>
-<li><strong>Valor básico do imposto PIS no regime não cumulativo</strong> – Insira a porcentagem de taxa de impostos.</li>
-<li><strong>Valor básico do imposto COFINS no regime não cumulativo</strong> – Insira a porcentagem de taxa de impostos.</li>
-<li><strong>Valor básico do imposto COFINS no regime não cumulativo</strong> – Insira a porcentagem de taxa de impostos.</li>
+<li><span data-ttu-id="52c73-310"><strong>Valor básico do imposto PIS no regime acumulação</strong> – Insira a porcentagem de taxa de impostos.</span><span class="sxs-lookup"><span data-stu-id="52c73-310"><strong>Basic tax value for PIS in cumulative regime</strong> – Enter the percentage of the tax rate.</span></span></li>
+<li><span data-ttu-id="52c73-311"><strong>Valor básico do imposto PIS no regime não cumulativo</strong> – Insira a porcentagem de taxa de impostos.</span><span class="sxs-lookup"><span data-stu-id="52c73-311"><strong>Basic tax value for PIS in non cumulative regime</strong> – Enter the percentage of the tax rate</span></span></li>
+<li><span data-ttu-id="52c73-312"><strong>Valor básico do imposto COFINS no regime não cumulativo</strong> – Insira a porcentagem de taxa de impostos.</span><span class="sxs-lookup"><span data-stu-id="52c73-312"><strong>Basic tax value for COFINS in cumulative regime</strong> – Enter the percentage of the tax rate.</span></span></li>
+<li><span data-ttu-id="52c73-313"><strong>Valor básico do imposto COFINS no regime não cumulativo</strong> – Insira a porcentagem de taxa de impostos.</span><span class="sxs-lookup"><span data-stu-id="52c73-313"><strong>Basic tax value for COFINS in non cumulative regime</strong> – Enter the percentage of the tax rate.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><strong>Origem (Impostos aproximados)</strong></td>
-<td>Indica a origem de informações para a porcentagem de imposto aproximada usada.</td>
+<td><span data-ttu-id="52c73-314"><strong>Origem (Impostos aproximados)</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-314"><strong>Source (Approximate taxes)</strong></span></span></td>
+<td><span data-ttu-id="52c73-315">Indica a origem de informações para a porcentagem de imposto aproximada usada.</span><span class="sxs-lookup"><span data-stu-id="52c73-315">Indicate the source of information for the approximate tax percentage that is used.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>ID do Texto (Impostos aproximados)</strong></td>
-<td>Selecione a ID do texto que é impressa nas notas fiscais do usuário final. Essas informações são exigidas pela lei fiscal de transparência, ou Lei da Transparência Fiscal.</td>
+<td><span data-ttu-id="52c73-316"><strong>ID do Texto (Impostos aproximados)</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-316"><strong>Text ID (Approximate taxes)</strong></span></span></td>
+<td><span data-ttu-id="52c73-317">Selecione a ID do texto que é impressa nas notas fiscais do usuário final.</span><span class="sxs-lookup"><span data-stu-id="52c73-317">Select the ID of the text that is printed on end-user fiscal documents.</span></span> <span data-ttu-id="52c73-318">Essas informações são exigidas pela lei fiscal de transparência, ou Lei da Transparência Fiscal.</span><span class="sxs-lookup"><span data-stu-id="52c73-318">This information is required by the fiscal transparency law, or Lei da Transparencia Fiscal.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>Usuário final</strong></td>
-<td>Selecione se o documento é para um usuário final.</td>
+<td><span data-ttu-id="52c73-319"><strong>Usuário final</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-319"><strong>Final User</strong></span></span></td>
+<td><span data-ttu-id="52c73-320">Selecione se o documento é para um usuário final.</span><span class="sxs-lookup"><span data-stu-id="52c73-320">Select whether the document is for a final user.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>ID do Texto (FCI)</strong></td>
-<td>Selecione a ID do texto que é impressa nas notas fiscais de FCI.</td>
+<td><span data-ttu-id="52c73-321"><strong>ID do Texto (FCI)</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-321"><strong>Text ID (FCI)</strong></span></span></td>
+<td><span data-ttu-id="52c73-322">Selecione a ID do texto que é impressa nas notas fiscais de FCI.</span><span class="sxs-lookup"><span data-stu-id="52c73-322">Select the ID of the text that is printed on FCI fiscal documents.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>ICMS ST</strong></td>
-<td>Selecione se a substituição tributária de ICMS deve ser aplicada.</td>
+<td><span data-ttu-id="52c73-323"><strong>ICMS ST</strong></span><span class="sxs-lookup"><span data-stu-id="52c73-323"><strong>ICMS ST</strong></span></span></td>
+<td><span data-ttu-id="52c73-324">Selecione se a substituição tributária de ICMS deve ser aplicada.</span><span class="sxs-lookup"><span data-stu-id="52c73-324">Select whether tributary substitution for ICMS should be applied.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="taxation-code"></a>Código de tributação
+### <a name="taxation-code"></a><span data-ttu-id="52c73-325">Código de tributação</span><span class="sxs-lookup"><span data-stu-id="52c73-325">Taxation code</span></span>
 
-É possível configurar um código de tributação obrigatório para um tipo de imposto.
+<span data-ttu-id="52c73-326">É possível configurar um código de tributação obrigatório para um tipo de imposto.</span><span class="sxs-lookup"><span data-stu-id="52c73-326">You can set up a mandatory taxation code for each tax type.</span></span>
 
-### <a name="electronic-reporting"></a>Relatório eletrônico
+### <a name="electronic-reporting"></a><span data-ttu-id="52c73-327">Relatório eletrônico</span><span class="sxs-lookup"><span data-stu-id="52c73-327">Electronic reporting</span></span>
 
-Você pode configure o tipo de relatório eletrônico e o mapeamento de modelo relacionado usado para gerar o relatório.
+<span data-ttu-id="52c73-328">Você pode configure o tipo de relatório eletrônico e o mapeamento de modelo relacionado usado para gerar o relatório.</span><span class="sxs-lookup"><span data-stu-id="52c73-328">You can set up the type of electronic reporting and the related model mapping that is used to generate the report.</span></span>
 
-| Campo             | descrição                                                                                                                                                                                                                                     |
+| <span data-ttu-id="52c73-329">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-329">Field</span></span>             | <span data-ttu-id="52c73-330">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-330">Description</span></span>                                                                                                                                                                                                                                     |
 |-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Tipo**          | O tipo de relatório. **NF-e de Serviços** é o tipo que está disponível para gerar notas fiscais de serviço.                                                                                                                                         |
-| **Mapeamento de modelo** | Especifique o modelo a ser usado. O modelo para notas fiscais de serviço está disponível no repositório do Microsoft Dynamics Lifecycle Services (LCS). Você pode baixar o modelo de LCS e importá-lo para uma configuração de Relatório eletrônico (ER). |
+| <span data-ttu-id="52c73-331">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="52c73-331">**Type**</span></span>          | <span data-ttu-id="52c73-332">O tipo de relatório.</span><span class="sxs-lookup"><span data-stu-id="52c73-332">The type of report.</span></span> <span data-ttu-id="52c73-333">**NF-e de Serviços** é o tipo que está disponível para gerar notas fiscais de serviço.</span><span class="sxs-lookup"><span data-stu-id="52c73-333">**NFeServices** is the type that is available to generate service fiscal documents.</span></span>                                                                                                                                         |
+| <span data-ttu-id="52c73-334">**Mapeamento de modelo**</span><span class="sxs-lookup"><span data-stu-id="52c73-334">**Model mapping**</span></span> | <span data-ttu-id="52c73-335">Especifique o modelo a ser usado.</span><span class="sxs-lookup"><span data-stu-id="52c73-335">Specify the model to use.</span></span> <span data-ttu-id="52c73-336">O modelo para notas fiscais de serviço está disponível no repositório do Microsoft Dynamics Lifecycle Services (LCS).</span><span class="sxs-lookup"><span data-stu-id="52c73-336">The model for service fiscal documents is available in the Microsoft Dynamics Lifecycle Services (LCS) repository.</span></span> <span data-ttu-id="52c73-337">Você pode baixar o modelo de LCS e importá-lo para uma configuração de Relatório eletrônico (ER).</span><span class="sxs-lookup"><span data-stu-id="52c73-337">You can download the model from LCS and import it into an Electronic reporting (ER) configuration.</span></span> |
 
-## <a name="accountant-information"></a>Informações do contador
-No Brasil, é necessário especificar os detalhes do contador para o relatório de imposto no arquivo de texto fiscal SPED mensalmente, de forma que as autoridades fiscais tenham um registro da pessoa que é responsável pelo relatório de imposto. Na página **Detalhes do contador**, insira as seguintes informações.
+## <a name="accountant-information"></a><span data-ttu-id="52c73-338">Informações do contador</span><span class="sxs-lookup"><span data-stu-id="52c73-338">Accountant information</span></span>
+<span data-ttu-id="52c73-339">No Brasil, é necessário especificar os detalhes do contador para o relatório de imposto no arquivo de texto fiscal SPED mensalmente, de forma que as autoridades fiscais tenham um registro da pessoa que é responsável pelo relatório de imposto.</span><span class="sxs-lookup"><span data-stu-id="52c73-339">In Brazil, you must specify the accountant details for tax reporting in the monthly SPED fiscal text file, so that tax authorities have a record of the person who is responsible for the tax report.</span></span> <span data-ttu-id="52c73-340">Na página **Detalhes do contador**, insira as seguintes informações.</span><span class="sxs-lookup"><span data-stu-id="52c73-340">On the **Accountant details** page, enter the following information.</span></span>
 
-| Campo                   | descrição                                                                                                                |
+| <span data-ttu-id="52c73-341">Campo</span><span class="sxs-lookup"><span data-stu-id="52c73-341">Field</span></span>                   | <span data-ttu-id="52c73-342">descrição</span><span class="sxs-lookup"><span data-stu-id="52c73-342">Description</span></span>                                                                                                                |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| **CPF**                 | O número de CPF do contador.                                                                                |
-| **CNPJ**                | O CNPJ da empresa do contador, se uma outra empresa fizer a contabilidade.                                              |
-| **CRC**                 | O número de registro de contador no Conselho Regional de Contabilidade (CRC). |
-| **Estado emissor do CRC**    | O estado no qual o documento CRC foi emitido.                                                                               |
-| **Data de validade do CRC** | A data de validade do documento CRC.                                                                                   |
+| <span data-ttu-id="52c73-343">**CPF**</span><span class="sxs-lookup"><span data-stu-id="52c73-343">**CPF**</span></span>                 | <span data-ttu-id="52c73-344">O número de CPF do contador.</span><span class="sxs-lookup"><span data-stu-id="52c73-344">The CPF register number for the accountant.</span></span>                                                                                |
+| <span data-ttu-id="52c73-345">**CNPJ**</span><span class="sxs-lookup"><span data-stu-id="52c73-345">**CNPJ**</span></span>                | <span data-ttu-id="52c73-346">O CNPJ da empresa do contador, se uma outra empresa fizer a contabilidade.</span><span class="sxs-lookup"><span data-stu-id="52c73-346">The CNPJ of the accountant's company, if another company does the accounting.</span></span>                                              |
+| <span data-ttu-id="52c73-347">**CRC**</span><span class="sxs-lookup"><span data-stu-id="52c73-347">**CRC**</span></span>                 | <span data-ttu-id="52c73-348">O número de registro de contador no Conselho Regional de Contabilidade (CRC).</span><span class="sxs-lookup"><span data-stu-id="52c73-348">The registration number of the accountant in the regional accounting council, or Conselho Regional de Contabilidade (CRC).</span></span> |
+| <span data-ttu-id="52c73-349">**Estado emissor do CRC**</span><span class="sxs-lookup"><span data-stu-id="52c73-349">**CRC issuer state**</span></span>    | <span data-ttu-id="52c73-350">O estado no qual o documento CRC foi emitido.</span><span class="sxs-lookup"><span data-stu-id="52c73-350">The state where the CRC document was issued.</span></span>                                                                               |
+| <span data-ttu-id="52c73-351">**Data de validade do CRC**</span><span class="sxs-lookup"><span data-stu-id="52c73-351">**CRC expiration date**</span></span> | <span data-ttu-id="52c73-352">A data de validade do documento CRC.</span><span class="sxs-lookup"><span data-stu-id="52c73-352">The expiration date of the CRC document.</span></span>                                                                                   |
 
 
 

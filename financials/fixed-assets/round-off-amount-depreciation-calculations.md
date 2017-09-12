@@ -16,37 +16,37 @@ ms.custom: 13931
 ms.assetid: faf7db87-046f-41d1-9baf-0df66e373e97
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8d5a9d9267c14ee045388c3b3b42b26f2fff45ea
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: ae5c24633a9ce4ce43e213581eb64c8548eecf5d
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="round-off-amount-for-depreciation-calculations"></a>Valor de arredondamento para cálculos de depreciação
+# <a name="round-off-amount-for-depreciation-calculations"></a><span data-ttu-id="90299-103">Valor de arredondamento para cálculos de depreciação</span><span class="sxs-lookup"><span data-stu-id="90299-103">Round-off amount for depreciation calculations</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo discute o campo Arredondar depreciação, encontrado nas páginas no registro de depreciações.
+<span data-ttu-id="90299-104">Este artigo discute o campo Arredondar depreciação, encontrado nas páginas no registro de depreciações.</span><span class="sxs-lookup"><span data-stu-id="90299-104">This article discusses the Round-off depreciation field that is found on the Book setup pages.</span></span>
 
-Montantes de amortização arredondados são definidos para cada livro. Os valores de depreciação arredondados são usados no perfil de depreciação de ativo fixo que mostra a depreciação e o valor futuro do ativo fixo, e também nas propostas de depreciação. Insira o menor valor de depreciação que é permitido para o registro. 
+<span data-ttu-id="90299-105">Montantes de amortização arredondados são definidos para cada livro.</span><span class="sxs-lookup"><span data-stu-id="90299-105">Round-off depreciation amounts are set for each book.</span></span> <span data-ttu-id="90299-106">Os valores de depreciação arredondados são usados no perfil de depreciação de ativo fixo que mostra a depreciação e o valor futuro do ativo fixo, e também nas propostas de depreciação.</span><span class="sxs-lookup"><span data-stu-id="90299-106">Round-off depreciation amounts are used in the fixed asset depreciation profile that shows the future depreciation and value of the fixed asset, and also in depreciation proposals.</span></span> <span data-ttu-id="90299-107">Insira o menor valor de depreciação que é permitido para o registro.</span><span class="sxs-lookup"><span data-stu-id="90299-107">Enter the lowest depreciation amount that is allowed for the book.</span></span> 
 
-Independentemente de arredondamento configurado, o valor de depreciação no último período de depreciação não é arredondado. No final do último período de depreciação, o valor do ativo fixo deve ser 0 (zero) ou o valor de sucata, se o valor de sucata é usado.
+<span data-ttu-id="90299-108">Independentemente de arredondamento configurado, o valor de depreciação no último período de depreciação não é arredondado.</span><span class="sxs-lookup"><span data-stu-id="90299-108">Regardless of the rounding that is set up, the depreciation amount in the last depreciation period isn't rounded.</span></span> <span data-ttu-id="90299-109">No final do último período de depreciação, o valor do ativo fixo deve ser 0 (zero) ou o valor de sucata, se o valor de sucata é usado.</span><span class="sxs-lookup"><span data-stu-id="90299-109">At the end of the last depreciation period, the value of the fixed asset must be 0 (zero) or the scrap value, if scrap value is used.</span></span>
 
-### <a name="example"></a>Exemplo
+### <a name="example"></a><span data-ttu-id="90299-110">Exemplo</span><span class="sxs-lookup"><span data-stu-id="90299-110">Example</span></span>
 
-Depreciação sem arredondamento é calculada como 2.444,44. Como mostrado na tabela a seguir, os valores sugeridos variam dependendo da configuração do arredondamento.
+<span data-ttu-id="90299-111">Depreciação sem arredondamento é calculada como 2.444,44.</span><span class="sxs-lookup"><span data-stu-id="90299-111">Depreciation without rounding is calculated as 2,444.44.</span></span> <span data-ttu-id="90299-112">Como mostrado na tabela a seguir, os valores sugeridos variam dependendo da configuração do arredondamento.</span><span class="sxs-lookup"><span data-stu-id="90299-112">As the following table shows, the amounts that are suggested vary, depending on how rounding is set up.</span></span>
 
-| Método de arredondamento | Valor de depreciação |
+| <span data-ttu-id="90299-113">Método de arredondamento</span><span class="sxs-lookup"><span data-stu-id="90299-113">Rounding method</span></span> | <span data-ttu-id="90299-114">Valor de depreciação</span><span class="sxs-lookup"><span data-stu-id="90299-114">Depreciation amount</span></span> |
 |-----------------|---------------------|
-| Arredondar 0,1    | 2.444,40            |
-| Arredondar 1,00   | 2.444,00            |
-| Arredondar 10,00  | 2.440,00            |
-| Arredondar 100,00 | 2.400,00            |
+| <span data-ttu-id="90299-115">Arredondar 0,1</span><span class="sxs-lookup"><span data-stu-id="90299-115">Rounding 0.1</span></span>    | <span data-ttu-id="90299-116">2.444,40</span><span class="sxs-lookup"><span data-stu-id="90299-116">2,444.40</span></span>            |
+| <span data-ttu-id="90299-117">Arredondar 1,00</span><span class="sxs-lookup"><span data-stu-id="90299-117">Rounding 1.00</span></span>   | <span data-ttu-id="90299-118">2.444,00</span><span class="sxs-lookup"><span data-stu-id="90299-118">2,444.00</span></span>            |
+| <span data-ttu-id="90299-119">Arredondar 10,00</span><span class="sxs-lookup"><span data-stu-id="90299-119">Rounding 10.00</span></span>  | <span data-ttu-id="90299-120">2.440,00</span><span class="sxs-lookup"><span data-stu-id="90299-120">2,440.00</span></span>            |
+| <span data-ttu-id="90299-121">Arredondar 100,00</span><span class="sxs-lookup"><span data-stu-id="90299-121">Rounding 100.00</span></span> | <span data-ttu-id="90299-122">2.400,00</span><span class="sxs-lookup"><span data-stu-id="90299-122">2,400.00</span></span>            |
 
 
 

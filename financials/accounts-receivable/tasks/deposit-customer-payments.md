@@ -16,42 +16,42 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: a2e5509ec4f763b8fd195f95257bdb085286920b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: dbf21bd5df70cd80e4fe3f2f5d699aa82b62423b
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="deposit-customer-payments"></a>Depositar pagamentos de cliente
+# <a name="deposit-customer-payments"></a><span data-ttu-id="50cca-103">Depositar pagamentos de cliente</span><span class="sxs-lookup"><span data-stu-id="50cca-103">Deposit customer payments</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Depositar pagamentos de cliente. Esta tarefa usa a empresa de demonstração USMF.
+<span data-ttu-id="50cca-104">Depositar pagamentos de cliente.</span><span class="sxs-lookup"><span data-stu-id="50cca-104">Deposit customer payments.</span></span> <span data-ttu-id="50cca-105">Esta tarefa usa a empresa de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="50cca-105">This task uses the USMF demo company.</span></span>
 
-1. Vá para Contas a receber > Pagamentos > Diário de pagamentos.
-2. Clique em Novo.
-3. No campo Nome, clique no botão suspenso para abrir a pesquisa.
-4. Selecione o diário de pagamentos. 
-5. Clique em Linhas.
-6. No campo Conta, selecione o Cliente para o qual você está registrando o pagamento.
-7. No campo Crédito, insira o valor do pagamento.
-    * Você pode optar por manter o valor em branco, e fazer com que o sistema o calcule selecionando as faturas que foram pagas.  
-8. No campo Referência de pagamento, digite um valor.
-    * A referência de pagamento pode ser o número do cheque para pagamento que você está inserindo. A referência do pagamento é necessária para incluir o pagamento em um comprovante de pagamento.  
-9. Marque a caixa Usar uma guia de depósito.
-    * Se o pagamento for incluído no depósito, altere essa configuração para Sim.  
-10. Clique em Novo.
-11. No campo Conta, selecione o Cliente para o próximo pagamento.
-12. No campo Crédito, insira o valor do pagamento.
-13. No campo Referência de pagamento, digite um valor.
-14. Marque a caixa Usar uma guia de depósito.
-15. Clique em Lançar.
-    * Os pagamentos devem ser lançados antes que a guia de depósito possa ser gerada. Isso garante que os pagamentos não se alterem depois que a guia de depósito for gerada.  
-16. Clique em Funções.
-17. Clique em guia de depósito.
-18. Clique em OK.
-    * A primeira página é usada para criar a guia de depósito.  
-19. Clique em OK.
-    * A segunda etapa é imprimir a guia de depósito, mas essa etapa não é necessária.  
+1. <span data-ttu-id="50cca-106">Vá para Contas a receber > Pagamentos > Diário de pagamentos.</span><span class="sxs-lookup"><span data-stu-id="50cca-106">Go to Accounts receivable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="50cca-107">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="50cca-107">Click New.</span></span>
+3. <span data-ttu-id="50cca-108">No campo Nome, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="50cca-108">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="50cca-109">Selecione o diário de pagamentos.</span><span class="sxs-lookup"><span data-stu-id="50cca-109">Select the payment journal.</span></span> 
+5. <span data-ttu-id="50cca-110">Clique em Linhas.</span><span class="sxs-lookup"><span data-stu-id="50cca-110">Click Lines.</span></span>
+6. <span data-ttu-id="50cca-111">No campo Conta, selecione o Cliente para o qual você está registrando o pagamento.</span><span class="sxs-lookup"><span data-stu-id="50cca-111">In the Account field, select the Customer for whom you are recording the payment.</span></span>
+7. <span data-ttu-id="50cca-112">No campo Crédito, insira o valor do pagamento.</span><span class="sxs-lookup"><span data-stu-id="50cca-112">In the Credit field, enter the amount of the payment.</span></span>
+    * <span data-ttu-id="50cca-113">Você pode optar por manter o valor em branco, e fazer com que o sistema o calcule selecionando as faturas que foram pagas.</span><span class="sxs-lookup"><span data-stu-id="50cca-113">You can choose to leave the amount blank, and have the system calculate it by selecting the invoices which were paid.</span></span>  
+8. <span data-ttu-id="50cca-114">No campo Referência de pagamento, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="50cca-114">In the Payment reference field, type a value.</span></span>
+    * <span data-ttu-id="50cca-115">A referência de pagamento pode ser o número do cheque para pagamento que você está inserindo.</span><span class="sxs-lookup"><span data-stu-id="50cca-115">The payment reference could be the check number for the payment you are entering.</span></span> <span data-ttu-id="50cca-116">A referência do pagamento é necessária para incluir o pagamento em um comprovante de pagamento.</span><span class="sxs-lookup"><span data-stu-id="50cca-116">The payment reference is required in order to include the payment on a deposit slip.</span></span>  
+9. <span data-ttu-id="50cca-117">Marque a caixa Usar uma guia de depósito.</span><span class="sxs-lookup"><span data-stu-id="50cca-117">Mark the box Use a deposit slip.</span></span>
+    * <span data-ttu-id="50cca-118">Se o pagamento for incluído no depósito, altere essa configuração para Sim.</span><span class="sxs-lookup"><span data-stu-id="50cca-118">If the payment should be included in the deposit, change this setting to Yes.</span></span>  
+10. <span data-ttu-id="50cca-119">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="50cca-119">Click New.</span></span>
+11. <span data-ttu-id="50cca-120">No campo Conta, selecione o Cliente para o próximo pagamento.</span><span class="sxs-lookup"><span data-stu-id="50cca-120">In the Account field, select the Customer for the next payment.</span></span>
+12. <span data-ttu-id="50cca-121">No campo Crédito, insira o valor do pagamento.</span><span class="sxs-lookup"><span data-stu-id="50cca-121">In the Credit field, enter the payment amount.</span></span>
+13. <span data-ttu-id="50cca-122">No campo Referência de pagamento, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="50cca-122">In the Payment reference field, type a value.</span></span>
+14. <span data-ttu-id="50cca-123">Marque a caixa Usar uma guia de depósito.</span><span class="sxs-lookup"><span data-stu-id="50cca-123">Mark the box Use a deposit slip.</span></span>
+15. <span data-ttu-id="50cca-124">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="50cca-124">Click Post.</span></span>
+    * <span data-ttu-id="50cca-125">Os pagamentos devem ser lançados antes que a guia de depósito possa ser gerada.</span><span class="sxs-lookup"><span data-stu-id="50cca-125">Payments must be posted before the deposit slip can be generated.</span></span> <span data-ttu-id="50cca-126">Isso garante que os pagamentos não se alterem depois que a guia de depósito for gerada.</span><span class="sxs-lookup"><span data-stu-id="50cca-126">This is to ensure that the payments don't change after the deposit slip is generated.</span></span>  
+16. <span data-ttu-id="50cca-127">Clique em Funções.</span><span class="sxs-lookup"><span data-stu-id="50cca-127">Click Functions.</span></span>
+17. <span data-ttu-id="50cca-128">Clique em guia de depósito.</span><span class="sxs-lookup"><span data-stu-id="50cca-128">Click Deposit slip.</span></span>
+18. <span data-ttu-id="50cca-129">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="50cca-129">Click OK.</span></span>
+    * <span data-ttu-id="50cca-130">A primeira página é usada para criar a guia de depósito.</span><span class="sxs-lookup"><span data-stu-id="50cca-130">The first page is used to create the deposit slip.</span></span>  
+19. <span data-ttu-id="50cca-131">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="50cca-131">Click OK.</span></span>
+    * <span data-ttu-id="50cca-132">A segunda etapa é imprimir a guia de depósito, mas essa etapa não é necessária.</span><span class="sxs-lookup"><span data-stu-id="50cca-132">The second step is to print the deposit slip, but this step is not required.</span></span>  
 
 

@@ -17,32 +17,32 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 06daa5e7d2b8e88bca281dc9bcaa73927253553c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 8db4b2857e9a7c99ee6fa4ef397f7ed99335faba
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="deactivate-a-production-flow-version"></a>Desativar uma versão de fluxo de produção
+# <a name="deactivate-a-production-flow-version"></a><span data-ttu-id="138df-103">Desativar uma versão de fluxo de produção</span><span class="sxs-lookup"><span data-stu-id="138df-103">Deactivate a production flow version</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Quando uma versão ativa de fluxo de produção não é mais necessária, ela pode ser desativada. Você deverá usar esta opção somente se todas as regras kanban e todas as atividades terminaram e não serão ativadas novamente. Observe que a data de vencimento de todas as regras kanban relacionadas a essa versão de fluxo de produção será atualizada com a data e hora atuais. 
+<span data-ttu-id="138df-104">Quando uma versão ativa de fluxo de produção não é mais necessária, ela pode ser desativada.</span><span class="sxs-lookup"><span data-stu-id="138df-104">When an active production flow version is no longer needed, it can be deactivated.</span></span> <span data-ttu-id="138df-105">Você deverá usar esta opção somente se todas as regras kanban e todas as atividades terminaram e não serão ativadas novamente.</span><span class="sxs-lookup"><span data-stu-id="138df-105">You should only use this option if all kanban rules and activities have ended and will not be activated again.</span></span> <span data-ttu-id="138df-106">Observe que a data de vencimento de todas as regras kanban relacionadas a essa versão de fluxo de produção será atualizada com a data e hora atuais.</span><span class="sxs-lookup"><span data-stu-id="138df-106">Note that the expiry date of all kanban rules related to this production flow version will be updated with the current date and time.</span></span> 
 
-Para modificar uma versão ativa de fluxo de produção, considere definir uma data de vencimento para a versão ativa e criar uma nova versão. Isto permitirá que você continue com suas operações de produção enquanto prepara a nova versão e as regras kanban relacionadas. 
+<span data-ttu-id="138df-107">Para modificar uma versão ativa de fluxo de produção, considere definir uma data de vencimento para a versão ativa e criar uma nova versão.</span><span class="sxs-lookup"><span data-stu-id="138df-107">To modify an active production flow version, consider setting an expiry date for the active version and create a new version.</span></span> <span data-ttu-id="138df-108">Isto permitirá que você continue com suas operações de produção enquanto prepara a nova versão e as regras kanban relacionadas.</span><span class="sxs-lookup"><span data-stu-id="138df-108">This will allow you to continue your production operations while preparing the new version and related kanban rules.</span></span> 
 
-Para expirar uma versão ativa de fluxo de produção, é necessário definir uma data de vencimento. Nesse sentido, a desativação funciona mais como uma exceção do que uma regra. 
+<span data-ttu-id="138df-109">Para expirar uma versão ativa de fluxo de produção, é necessário definir uma data de vencimento.</span><span class="sxs-lookup"><span data-stu-id="138df-109">To expire an active production flow version, you need to set an expiry date.</span></span> <span data-ttu-id="138df-110">Nesse sentido, a desativação funciona mais como uma exceção do que uma regra.</span><span class="sxs-lookup"><span data-stu-id="138df-110">In that sense, deactivation is more like an exception than a rule.</span></span> 
 
-Para este procedimento, é necessário um fluxo de produção com uma versão que possa ser desativada. Não tente isso em um ambiente de produção a menos que você tenha plena certeza de que a versão está completamente obsoleta.
+<span data-ttu-id="138df-111">Para este procedimento, é necessário um fluxo de produção com uma versão que possa ser desativada.</span><span class="sxs-lookup"><span data-stu-id="138df-111">For this procedure you need a production flow with a version that can be deactivated.</span></span> <span data-ttu-id="138df-112">Não tente isso em um ambiente de produção a menos que você tenha plena certeza de que a versão está completamente obsoleta.</span><span class="sxs-lookup"><span data-stu-id="138df-112">Do not try this in a production environment unless you are 100% positive that the version is fully obsolete.</span></span>
 
 
-## <a name="deactivate-a-production-flow-version"></a>Desativar uma versão de fluxo de produção
-1. Vá para Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
-2. Na lista, localize e selecione o PDV desejado.
-3. Na lista, clique no link na linha selecionada.
-4. Na lista, localize e selecione o PDV desejado.
-5. Clique em Desativar.
-    * Não continue se não estiver totalmente certo de que esta versão do fluxo de produção esteja obsoleta. Clicar em OK expirará todas as regras kanban ativas e interromperá instantaneamente todas as atividades de produção e de reabastecimento desta versão de fluxo de produção.  
-6. Clique em OK.
+## <a name="deactivate-a-production-flow-version"></a><span data-ttu-id="138df-113">Desativar uma versão de fluxo de produção</span><span class="sxs-lookup"><span data-stu-id="138df-113">Deactivate a production flow version</span></span>
+1. <span data-ttu-id="138df-114">Vá para Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.</span><span class="sxs-lookup"><span data-stu-id="138df-114">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="138df-115">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="138df-115">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="138df-116">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="138df-116">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="138df-117">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="138df-117">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="138df-118">Clique em Desativar.</span><span class="sxs-lookup"><span data-stu-id="138df-118">Click Deactivate.</span></span>
+    * <span data-ttu-id="138df-119">Não continue se não estiver totalmente certo de que esta versão do fluxo de produção esteja obsoleta.</span><span class="sxs-lookup"><span data-stu-id="138df-119">Do not proceed if you are not 100% positive that this production flow version is obsolete.</span></span> <span data-ttu-id="138df-120">Clicar em OK expirará todas as regras kanban ativas e interromperá instantaneamente todas as atividades de produção e de reabastecimento desta versão de fluxo de produção.</span><span class="sxs-lookup"><span data-stu-id="138df-120">Clicking Ok will expire all active kanban rules and put an immediate stop to all production and replenishment activities of this production flow version.</span></span>  
+6. <span data-ttu-id="138df-121">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="138df-121">Click OK.</span></span>
 
 

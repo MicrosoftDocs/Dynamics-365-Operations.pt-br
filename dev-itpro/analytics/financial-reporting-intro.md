@@ -15,79 +15,79 @@ ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 4e0c984b95cd395e7ab23394b886782e55fac90f
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: de8167eeea1f4a4db764a7f6398533ec3b9f4306
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="financial-reporting-for-finance-and-operations"></a>Relatórios financeiros do Finance and Operations
+# <a name="financial-reporting-for-finance-and-operations"></a><span data-ttu-id="be3db-104">Relatórios financeiros do Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="be3db-104">Financial reporting for Finance and Operations</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-A emissão de relatórios financeiros do Finance and Operations permite que profissionais de finanças e negócios criem, mantenham, implementem e visualizem demonstrativos financeiros. Ela vai além das tradicionais restrições de emissão de relatórios para ajudá-lo a projetar com eficiência vários tipos de relatórios.
+<span data-ttu-id="be3db-105">A emissão de relatórios financeiros do Finance and Operations permite que profissionais de finanças e negócios criem, mantenham, implementem e visualizem demonstrativos financeiros.</span><span class="sxs-lookup"><span data-stu-id="be3db-105">Financial reporting for Finance and Operations allows financial and business professionals to create, maintain, deploy, and view financial statements.</span></span> <span data-ttu-id="be3db-106">Ela vai além das tradicionais restrições de emissão de relatórios para ajudá-lo a projetar com eficiência vários tipos de relatórios.</span><span class="sxs-lookup"><span data-stu-id="be3db-106">It moves beyond traditional reporting constraints to help you efficiently design various types of reports.</span></span>
 
-A emissão de relatórios financeiros inclui o suporte de dimensão. Portanto, segmentos de conta ou dimensões estão imediatamente disponíveis. Não há ferramentas adicionais ou etapas de configuração necessárias.
+<span data-ttu-id="be3db-107">A emissão de relatórios financeiros inclui o suporte de dimensão.</span><span class="sxs-lookup"><span data-stu-id="be3db-107">Financial reporting includes dimension support.</span></span> <span data-ttu-id="be3db-108">Portanto, segmentos de conta ou dimensões estão imediatamente disponíveis.</span><span class="sxs-lookup"><span data-stu-id="be3db-108">Therefore, account segments or dimensions are immediately available.</span></span> <span data-ttu-id="be3db-109">Não há ferramentas adicionais ou etapas de configuração necessárias.</span><span class="sxs-lookup"><span data-stu-id="be3db-109">No additional tools or configuration steps are required.</span></span>
 
-## <a name="financial-reporting-components"></a>Componentes de relatórios financeiros
-Os componentes a seguir do relatório financeiro facilitam a criação, exibição e agendamento de relatórios.
+## <a name="financial-reporting-components"></a><span data-ttu-id="be3db-110">Componentes de relatórios financeiros</span><span class="sxs-lookup"><span data-stu-id="be3db-110">Financial reporting components</span></span>
+<span data-ttu-id="be3db-111">Os componentes a seguir do relatório financeiro facilitam a criação, exibição e agendamento de relatórios.</span><span class="sxs-lookup"><span data-stu-id="be3db-111">The following components of financial reporting make it easy to create, view, and schedule reports.</span></span>
 
-| Componente        | Funções                                                                                                                                                                                                                                                                           | Informações adicionais                                                                          |
+| <span data-ttu-id="be3db-112">Componente</span><span class="sxs-lookup"><span data-stu-id="be3db-112">Component</span></span>        | <span data-ttu-id="be3db-113">Funções</span><span class="sxs-lookup"><span data-stu-id="be3db-113">Functions</span></span>                                                                                                                                                                                                                                                                           | <span data-ttu-id="be3db-114">Informações adicionais</span><span class="sxs-lookup"><span data-stu-id="be3db-114">Additional information</span></span>                                                                          |
 |------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| Designer de Relatórios  | A criação dos blocos de construção do relatório que podem ser combinados para definir e gerar um relatório. O assistente de relatório orienta usuários menos experientes no processo de design. Os usuários avançados podem criar novos blocos de construção de relatório ou mudar blocos de construção existentes para atender aos seus requisitos. |                                                                                                 |
-| Agendas de relatórios | Agende um relatório único ou um grupo de relatórios para que ele seja gerado em uma base regular.                                                                                                                                                                                          | [Gerar um relatório financeiro](generate-financial-report.md) |
+| <span data-ttu-id="be3db-115">Designer de Relatórios</span><span class="sxs-lookup"><span data-stu-id="be3db-115">Report Designer</span></span>  | <span data-ttu-id="be3db-116">A criação dos blocos de construção do relatório que podem ser combinados para definir e gerar um relatório.</span><span class="sxs-lookup"><span data-stu-id="be3db-116">Create report building blocks that can be combined to define and generate a report.</span></span> <span data-ttu-id="be3db-117">O assistente de relatório orienta usuários menos experientes no processo de design.</span><span class="sxs-lookup"><span data-stu-id="be3db-117">The report wizard guides less experienced users through the design process.</span></span> <span data-ttu-id="be3db-118">Os usuários avançados podem criar novos blocos de construção de relatório ou mudar blocos de construção existentes para atender aos seus requisitos.</span><span class="sxs-lookup"><span data-stu-id="be3db-118">Advanced users can create new report building blocks or modify existing building blocks to meet their requirements.</span></span> |                                                                                                 |
+| <span data-ttu-id="be3db-119">Agendas de relatórios</span><span class="sxs-lookup"><span data-stu-id="be3db-119">Report schedules</span></span> | <span data-ttu-id="be3db-120">Agende um relatório único ou um grupo de relatórios para que ele seja gerado em uma base regular.</span><span class="sxs-lookup"><span data-stu-id="be3db-120">Schedule a single report or a group of reports so that it is generated on a regular basis.</span></span>                                                                                                                                                                                          | [<span data-ttu-id="be3db-121">Gerar um relatório financeiro</span><span class="sxs-lookup"><span data-stu-id="be3db-121">Generate a financial report</span></span>](generate-financial-report.md) |
 
-## <a name="features"></a>Recursos
+## <a name="features"></a><span data-ttu-id="be3db-122">Recursos</span><span class="sxs-lookup"><span data-stu-id="be3db-122">Features</span></span>
 <table>
 <thead>
 <tr class="header">
-<th>Recurso</th>
-<th>descrição</th>
+<th><span data-ttu-id="be3db-123">Recurso</span><span class="sxs-lookup"><span data-stu-id="be3db-123">Feature</span></span></th>
+<th><span data-ttu-id="be3db-124">descrição</span><span class="sxs-lookup"><span data-stu-id="be3db-124">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Flexibilidade na criação de relatórios</td>
-<td>O Designer de Relatórios fornece as seguintes opções de relatório quando você cria um relatório:
+<td><span data-ttu-id="be3db-125">Flexibilidade na criação de relatórios</span><span class="sxs-lookup"><span data-stu-id="be3db-125">Report design flexibility</span></span></td>
+<td><span data-ttu-id="be3db-126">O Designer de Relatórios fornece as seguintes opções de relatório quando você cria um relatório:</span><span class="sxs-lookup"><span data-stu-id="be3db-126">Report Designer provides the following reporting options when you design a report:</span></span>
 <ul>
-<li>Salvar combinações de dimensões, e reutilizar as dimensões para vários relatórios.</li>
-<li>Controlar como as descrições de dimensão são formatadas e exibidas.</li>
-<li>Identificar contas ou dimensões que foram omitidas de blocos de construção do relatório.</li>
-<li>Formatar cabeçalhos para previsões contínuas.</li>
+<li><span data-ttu-id="be3db-127">Salvar combinações de dimensões, e reutilizar as dimensões para vários relatórios.</span><span class="sxs-lookup"><span data-stu-id="be3db-127">Save dimension combinations, and reuse the dimensions for multiple reports.</span></span></li>
+<li><span data-ttu-id="be3db-128">Controlar como as descrições de dimensão são formatadas e exibidas.</span><span class="sxs-lookup"><span data-stu-id="be3db-128">Control how dimension descriptions are formatted and displayed.</span></span></li>
+<li><span data-ttu-id="be3db-129">Identificar contas ou dimensões que foram omitidas de blocos de construção do relatório.</span><span class="sxs-lookup"><span data-stu-id="be3db-129">Identify accounts or dimensions that have been omitted from report building blocks.</span></span></li>
+<li><span data-ttu-id="be3db-130">Formatar cabeçalhos para previsões contínuas.</span><span class="sxs-lookup"><span data-stu-id="be3db-130">Format headers for rolling forecasts.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Colaboração de relatório financeiro</td>
-<td>Os seguintes recursos ajudam a gerenciar a geração e distribuição de relatórios:
+<td><span data-ttu-id="be3db-131">Colaboração de relatório financeiro</span><span class="sxs-lookup"><span data-stu-id="be3db-131">Financial report collaboration</span></span></td>
+<td><span data-ttu-id="be3db-132">Os seguintes recursos ajudam a gerenciar a geração e distribuição de relatórios:</span><span class="sxs-lookup"><span data-stu-id="be3db-132">The following features help you manage the generation and distribution of reports:</span></span>
 <ul>
-<li>Agendar relatórios para que eles possam ser gerados automaticamente de forma diária, semanal, mensal ou anual.</li>
-<li>Exportar para o formato XPS somente leitura, que fornece a melhor segurança de documentos por meio de assinaturas digitais.</li>
-<li>Exportar para uma planilha do Microsoft Excel.</li>
-<li>Para compartilhar relatórios, você pode criar mensagens de emails contendo links para os relatórios.</li>
+<li><span data-ttu-id="be3db-133">Agendar relatórios para que eles possam ser gerados automaticamente de forma diária, semanal, mensal ou anual.</span><span class="sxs-lookup"><span data-stu-id="be3db-133">Schedule reports so that they are automatically generated on a daily, weekly, monthly, or annual basis.</span></span></li>
+<li><span data-ttu-id="be3db-134">Exportar para o formato XPS somente leitura, que fornece a melhor segurança de documentos por meio de assinaturas digitais.</span><span class="sxs-lookup"><span data-stu-id="be3db-134">Export to the read-only XPS format, which provides better document security through digital signatures.</span></span></li>
+<li><span data-ttu-id="be3db-135">Exportar para uma planilha do Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="be3db-135">Export to a Microsoft Excel worksheet.</span></span></li>
+<li><span data-ttu-id="be3db-136">Para compartilhar relatórios, você pode criar mensagens de emails contendo links para os relatórios.</span><span class="sxs-lookup"><span data-stu-id="be3db-136">To share reports, you can create email messages that contain links to the reports.</span></span></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>Exibição interativa de relatório</td>
-<td>Os recursos interativos permitem executar as seguintes tarefas:
+<td><span data-ttu-id="be3db-137">Exibição interativa de relatório</span><span class="sxs-lookup"><span data-stu-id="be3db-137">Interactive report viewing</span></span></td>
+<td><span data-ttu-id="be3db-138">Os recursos interativos permitem executar as seguintes tarefas:</span><span class="sxs-lookup"><span data-stu-id="be3db-138">Interactive features let you perform the following tasks:</span></span>
 <ul>
-<li>Altere a data do relatório para o relatório que você está visualizando.</li>
-<li>Altere a moeda do relatório que você está visualizando.</li>
-<li>Exiba o relatório em uma exibição de resumo ou uma exibição detalhada.</li>
-<li>Adicione filtros de dimensão para limitar o conteúdo do relatório para uma dimensão específica ou uma combinação de dimensões.</li>
-<li>Adicione filtros de atributo para limitar o conteúdo do relatório para um atributo específico ou uma combinação de atributos.</li>
+<li><span data-ttu-id="be3db-139">Altere a data do relatório para o relatório que você está visualizando.</span><span class="sxs-lookup"><span data-stu-id="be3db-139">Change the report date for the report that you're viewing.</span></span></li>
+<li><span data-ttu-id="be3db-140">Altere a moeda do relatório que você está visualizando.</span><span class="sxs-lookup"><span data-stu-id="be3db-140">Change the currency of the report that you're viewing.</span></span></li>
+<li><span data-ttu-id="be3db-141">Exiba o relatório em uma exibição de resumo ou uma exibição detalhada.</span><span class="sxs-lookup"><span data-stu-id="be3db-141">View the report in either a summary view or a detailed view.</span></span></li>
+<li><span data-ttu-id="be3db-142">Adicione filtros de dimensão para limitar o conteúdo do relatório para uma dimensão específica ou uma combinação de dimensões.</span><span class="sxs-lookup"><span data-stu-id="be3db-142">Add dimension filters to limit the report content to a specific dimension or combination of dimensions.</span></span></li>
+<li><span data-ttu-id="be3db-143">Adicione filtros de atributo para limitar o conteúdo do relatório para um atributo específico ou uma combinação de atributos.</span><span class="sxs-lookup"><span data-stu-id="be3db-143">Add attribute filters to limit the report content to a specific attribute or combination of attributes.</span></span></li>
 </ul>
 </td>
 </tr>
 </tbody>
 </table>
 
-#<a name="see-also"></a>Consulte também
-[Gerar um relatório financeiro](generate-financial-report.md)
+#<a name="see-also"></a><span data-ttu-id="be3db-144">Consulte também</span><span class="sxs-lookup"><span data-stu-id="be3db-144">See also</span></span>
+[<span data-ttu-id="be3db-145">Gerar um relatório financeiro</span><span class="sxs-lookup"><span data-stu-id="be3db-145">Generate a financial report</span></span>](generate-financial-report.md)
 
 
 

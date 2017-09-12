@@ -16,63 +16,63 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 93bd832b4bbb91e6bd0288042098383eb5f4488d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1e4a0204d74c8966cd90b52ae13c88e222ebc3ef
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Criar uma ordem de compra com uma agenda de entrega
+# <a name="create-a-purchase-order-with-a-delivery-schedule"></a><span data-ttu-id="ba7a6-103">Criar uma ordem de compra com uma agenda de entrega</span><span class="sxs-lookup"><span data-stu-id="ba7a6-103">Create a purchase order with a delivery schedule</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento demonstra como criar uma agenda de entrega para ordem de compra. Um plano de entrega é usado quando uma quantidade em uma ordem ou diário for exigido para ser entregue em várias remessas. O exemplo mostrado neste guia pode ser usado na empresa dos dados do programa demonstrativo de USMF. Esse procedimento seria feito normalmente por um agente de compras.
+<span data-ttu-id="ba7a6-104">Este procedimento demonstra como criar uma agenda de entrega para ordem de compra.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-104">This procedure demonstrates how to create a delivery schedule for a purchase order.</span></span> <span data-ttu-id="ba7a6-105">Um plano de entrega é usado quando uma quantidade em uma ordem ou diário for exigido para ser entregue em várias remessas.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-105">A delivery schedule is used when a quantity on an order or a journal is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="ba7a6-106">O exemplo mostrado neste guia pode ser usado na empresa dos dados do programa demonstrativo de USMF.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-106">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="ba7a6-107">Esse procedimento seria feito normalmente por um agente de compras.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-107">This procedure would typically be done by a purchasing agent.</span></span>
 
 
-## <a name="create-a-delivery-schedule"></a>Criar uma agenda de entrega
-1. Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
-2. Clique em Novo.
-3. No campo Conta de fornecedor, digite US-101.
-4. Clique em OK.
-5. No campo Número do item, insira M0001.
-6. No campo Quantidade, insira 10.
-7. Clique na Linha de ordem de compra.
-8. Clique em Agenda de entrega.
-    * A página do plano de entrega permite especificar o número de remessas na qual a quantidade total da linha da ordem será enviado do fornecedor.  
-    * Por padrão, o sistema copia a quantidade total e outros detalhes de entrega das compras originais de linha na primeira linha do plano de entrega. Neste exemplo, criaremos um plano para duas remessas, com a segunda data de remessa compensada em uma semana da remessa.  
-9. No campo Quantidade, altere a quantidade para 4.
-10. Clique em Novo.
-11. No campo Quantidade, insira 6 como a quantidade restante.
-    * No campo da data de entrega, selecione uma data que seja de uma semana após a data na primeira linha de entrega.  
-    * Você pode controlar a quantidade total alocada para as linhas do plano de entrega olhando totais e os campos restantes. Quando a quantidade restante for zero, a quantidade total de linha original esteve alocada ao plano.  
-12. Expanda a seção Conversão das cargas.
-    * As opções aqui permitem que você controle como você quer que as cargas sejam distribuídas através das linhas da programação de entrega. Se você selecionar valores brutos de impressão, o valor de encargo na linha de ordem original será copiado na linha de remessa. A opção de alocação das linhas de entrega divide a linha carga original de acordo com a quantidade em cada linha de entrega.  
-13. Diminua a seção Conversão das cargas.
-14. Clique em OK.
-    * O plano de entrega agora foi copiado nas linhas da ordem.  
-    * A linha da ordem original, agora conhecida como uma linha comercial, foi convertida em uma linha da ordem com várias entregas. Ela está marcada com um ícone distinto e atua como um cabeçalho para as linhas de entrega.  
-15. Selecione a segunda linha da ordem, que é a primeira das duas linhas de entrega.
-    * As duas novas linhas, referidas como linhas de entrega, compõem um plano de entrega. A ordem será processada nessas linhas e não na linha original. Se os documentos como confirmações, diários de remessa de produtos ou notas fiscais forem impressos, apenas as linhas de entrega serão exibidas.  
+## <a name="create-a-delivery-schedule"></a><span data-ttu-id="ba7a6-108">Criar uma agenda de entrega</span><span class="sxs-lookup"><span data-stu-id="ba7a6-108">Create a delivery schedule</span></span>
+1. <span data-ttu-id="ba7a6-109">Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-109">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="ba7a6-110">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-110">Click New.</span></span>
+3. <span data-ttu-id="ba7a6-111">No campo Conta de fornecedor, digite US-101.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-111">In the Vendor account field, enter US-101.</span></span>
+4. <span data-ttu-id="ba7a6-112">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-112">Click OK.</span></span>
+5. <span data-ttu-id="ba7a6-113">No campo Número do item, insira M0001.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-113">In the Item number field, enter M0001.</span></span>
+6. <span data-ttu-id="ba7a6-114">No campo Quantidade, insira 10.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-114">In the Quantity field, enter 10.</span></span>
+7. <span data-ttu-id="ba7a6-115">Clique na Linha de ordem de compra.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-115">Click Purchase order line.</span></span>
+8. <span data-ttu-id="ba7a6-116">Clique em Agenda de entrega.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-116">Click Delivery schedule.</span></span>
+    * <span data-ttu-id="ba7a6-117">A página do plano de entrega permite especificar o número de remessas na qual a quantidade total da linha da ordem será enviado do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-117">The Delivery schedule page allows you to specify the number of shipments in which the total quantity of the order line will be delivered from the vendor.</span></span>  
+    * <span data-ttu-id="ba7a6-118">Por padrão, o sistema copia a quantidade total e outros detalhes de entrega das compras originais de linha na primeira linha do plano de entrega.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-118">By default, the system copies the total quantity and other delivery details of the original purchase line into the first delivery schedule line.</span></span> <span data-ttu-id="ba7a6-119">Neste exemplo, criaremos um plano para duas remessas, com a segunda data de remessa compensada em uma semana da remessa.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-119">In this example, we’ll create a schedule for two shipments, with the second shipment’s date offset by a week from the first shipment.</span></span>  
+9. <span data-ttu-id="ba7a6-120">No campo Quantidade, altere a quantidade para 4.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-120">In the Quantity field, change the quantity to 4.</span></span>
+10. <span data-ttu-id="ba7a6-121">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-121">Click New.</span></span>
+11. <span data-ttu-id="ba7a6-122">No campo Quantidade, insira 6 como a quantidade restante.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-122">In the Quantity field, enter 6 as the remaining quantity.</span></span>
+    * <span data-ttu-id="ba7a6-123">No campo da data de entrega, selecione uma data que seja de uma semana após a data na primeira linha de entrega.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-123">In the delivery date field, select a date that’s one week after the date on the first delivery line.</span></span>  
+    * <span data-ttu-id="ba7a6-124">Você pode controlar a quantidade total alocada para as linhas do plano de entrega olhando totais e os campos restantes.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-124">You can keep track of the total quantity that’s allocated to the delivery schedule lines by looking at the Total and Remaining fields.</span></span> <span data-ttu-id="ba7a6-125">Quando a quantidade restante for zero, a quantidade total de linha original esteve alocada ao plano.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-125">When the remaining quantity is zero, the full quantity from the original line has been allocated to the schedule.</span></span>  
+12. <span data-ttu-id="ba7a6-126">Expanda a seção Conversão das cargas.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-126">Expand the Charges conversion section.</span></span>
+    * <span data-ttu-id="ba7a6-127">As opções aqui permitem que você controle como você quer que as cargas sejam distribuídas através das linhas da programação de entrega.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-127">The options here allow you to control how you want charges to be distributed across the delivery schedule lines.</span></span> <span data-ttu-id="ba7a6-128">Se você selecionar valores brutos de impressão, o valor de encargo na linha de ordem original será copiado na linha de remessa.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-128">If you select Copy gross amounts, the charge amount on the original order line is copied to each delivery line.</span></span> <span data-ttu-id="ba7a6-129">A opção de alocação das linhas de entrega divide a linha carga original de acordo com a quantidade em cada linha de entrega.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-129">The Allocate to delivery lines option divides the original line charge according to the quantity on each delivery line.</span></span>  
+13. <span data-ttu-id="ba7a6-130">Diminua a seção Conversão das cargas.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-130">Collapse the Charges conversion section.</span></span>
+14. <span data-ttu-id="ba7a6-131">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-131">Click OK.</span></span>
+    * <span data-ttu-id="ba7a6-132">O plano de entrega agora foi copiado nas linhas da ordem.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-132">The delivery schedule has now been applied to the order.</span></span>  
+    * <span data-ttu-id="ba7a6-133">A linha da ordem original, agora conhecida como uma linha comercial, foi convertida em uma linha da ordem com várias entregas.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-133">The original order line, now referred to as a Commercial line, has been converted to an Order line with multiple deliveries.</span></span> <span data-ttu-id="ba7a6-134">Ela está marcada com um ícone distinto e atua como um cabeçalho para as linhas de entrega.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-134">It is marked with a distinct icon and acts as a header for the delivery lines.</span></span>  
+15. <span data-ttu-id="ba7a6-135">Selecione a segunda linha da ordem, que é a primeira das duas linhas de entrega.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-135">Select the second order line, which is the first of the two delivery lines.</span></span>
+    * <span data-ttu-id="ba7a6-136">As duas novas linhas, referidas como linhas de entrega, compõem um plano de entrega.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-136">The two new lines, referred to as Delivery lines, make up one delivery schedule.</span></span> <span data-ttu-id="ba7a6-137">A ordem será processada nessas linhas e não na linha original.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-137">The order will be processed against these lines and not the original line.</span></span> <span data-ttu-id="ba7a6-138">Se os documentos como confirmações, diários de remessa de produtos ou notas fiscais forem impressos, apenas as linhas de entrega serão exibidas.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-138">If documents such as confirmations, product receipt journals, or invoices are printed, only the delivery lines are shown.</span></span>  
 
-## <a name="change-the-delivery-schedule"></a>Altere a entrega de compras
-    * Você pode mudar a quantidade nas linhas de entrega. Se fizer isso, a linha comercial é atualizada automaticamente com a quantidade total nas linhas da entrega.  
-1. No campo Quantidade da primeira linha de entrega, altera a quantidade de 4 para 5.
-2. Selecione a linha de primeira ordem (a linha comercial).
-    * A quantidade na linha comercial foi mudada para 11.  
+## <a name="change-the-delivery-schedule"></a><span data-ttu-id="ba7a6-139">Altere a entrega de compras</span><span class="sxs-lookup"><span data-stu-id="ba7a6-139">Change the delivery schedule</span></span>
+    * <span data-ttu-id="ba7a6-140">Você pode mudar a quantidade nas linhas de entrega.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-140">You can change the quantity on delivery lines.</span></span> <span data-ttu-id="ba7a6-141">Se fizer isso, a linha comercial é atualizada automaticamente com a quantidade total nas linhas da entrega.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-141">If you do this, the commercial line is automatically updated to the total quantity in the delivery lines.</span></span>  
+1. <span data-ttu-id="ba7a6-142">No campo Quantidade da primeira linha de entrega, altera a quantidade de 4 para 5.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-142">In the Quantity field of the first delivery line, change the quantity from 4 to 5.</span></span>
+2. <span data-ttu-id="ba7a6-143">Selecione a linha de primeira ordem (a linha comercial).</span><span class="sxs-lookup"><span data-stu-id="ba7a6-143">Select the first order line (the commercial line).</span></span>
+    * <span data-ttu-id="ba7a6-144">A quantidade na linha comercial foi mudada para 11.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-144">The quantity on the commercial line has been changed to 11.</span></span>  
 
-## <a name="process-product-receipt-using-delivery-schedules"></a>Processe o recibo do produto usando programações de entrega
-    * A ordem de compra deve ser confirmada antes que o recibo do produto possa ser processado. Nesse caso, o recebimento é geralmente registrado diretamente no pedido de compra. O recibo poderia igualmente ter sido gravado quando os bens chegaram no armazém.  
-1. No Painel de Ação, clique em Compra.
-2. Clique em Confirmar.
-3. No Painel de Ação, clique em Receber.
-4. Clique em Recebimento de produtos.
-5. No campo Recebimento de produtos, digite qualquer valor.
-    * Este campo é usado para inserir uma referência que seja usada como comprovante do diário de recebimentos de produtos.  
-    * No campo Quantidade, selecione "Quantidade solicitada". Esta opção significa que o recibo processará a quantidade com que as linhas da ordem foram criadas.  
-    * Certifique-se de que o campo do recibo do produto da cópia está ajustado para Não. A impressão não é necessária neste exemplo.  
-6. Expandir a seção Linhas.
-    * Observe como o recibo do produto é criado para as duas linhas de entrega e não para a linha original da ordem. Se o recibo foi gravado no armazém, ele também seria gravado nas linhas da programação de entrega.  
-7. Recolha a seção Linhas.
-8. Clique em OK para lançar o recebimento.
+## <a name="process-product-receipt-using-delivery-schedules"></a><span data-ttu-id="ba7a6-145">Processe o recibo do produto usando programações de entrega</span><span class="sxs-lookup"><span data-stu-id="ba7a6-145">Process product receipt using delivery schedules</span></span>
+    * <span data-ttu-id="ba7a6-146">A ordem de compra deve ser confirmada antes que o recibo do produto possa ser processado.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-146">The purchase order must be confirmed before product receipt can be processed.</span></span> <span data-ttu-id="ba7a6-147">Nesse caso, o recebimento é geralmente registrado diretamente no pedido de compra.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-147">In this example, receipt is recorded directly on the purchase order.</span></span> <span data-ttu-id="ba7a6-148">O recibo poderia igualmente ter sido gravado quando os bens chegaram no armazém.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-148">Receipt could also have been recorded when the goods arrived in the warehouse.</span></span>  
+1. <span data-ttu-id="ba7a6-149">No Painel de Ação, clique em Compra.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-149">On the Action Pane, click Purchase.</span></span>
+2. <span data-ttu-id="ba7a6-150">Clique em Confirmar.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-150">Click Confirm.</span></span>
+3. <span data-ttu-id="ba7a6-151">No Painel de Ação, clique em Receber.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-151">On the Action Pane, click Receive.</span></span>
+4. <span data-ttu-id="ba7a6-152">Clique em Recebimento de produtos.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-152">Click Product receipt.</span></span>
+5. <span data-ttu-id="ba7a6-153">No campo Recebimento de produtos, digite qualquer valor.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-153">In the Product receipt field, type any value.</span></span>
+    * <span data-ttu-id="ba7a6-154">Este campo é usado para inserir uma referência que seja usada como comprovante do diário de recebimentos de produtos.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-154">This field is used to enter a reference that will be used as voucher for the product receipt journal.</span></span>  
+    * <span data-ttu-id="ba7a6-155">No campo Quantidade, selecione "Quantidade solicitada".</span><span class="sxs-lookup"><span data-stu-id="ba7a6-155">In the Quantity field, select ‘Ordered quantity’.</span></span> <span data-ttu-id="ba7a6-156">Esta opção significa que o recibo processará a quantidade com que as linhas da ordem foram criadas.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-156">This option means that receipt will process for the quantity that the order lines were created with.</span></span>  
+    * <span data-ttu-id="ba7a6-157">Certifique-se de que o campo do recibo do produto da cópia está ajustado para Não.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-157">Make sure that the Print product receipt field is set to No.</span></span> <span data-ttu-id="ba7a6-158">A impressão não é necessária neste exemplo.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-158">Printing isn’t needed in this example.</span></span>  
+6. <span data-ttu-id="ba7a6-159">Expandir a seção Linhas.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-159">Expand the Lines section.</span></span>
+    * <span data-ttu-id="ba7a6-160">Observe como o recibo do produto é criado para as duas linhas de entrega e não para a linha original da ordem.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-160">Notice how the product receipt is created for the two delivery lines and not the original order line.</span></span> <span data-ttu-id="ba7a6-161">Se o recibo foi gravado no armazém, ele também seria gravado nas linhas da programação de entrega.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-161">If receipt had been recorded in the warehouse, it would also have been recorded on the delivery schedule lines.</span></span>  
+7. <span data-ttu-id="ba7a6-162">Recolha a seção Linhas.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-162">Collapse the Lines section.</span></span>
+8. <span data-ttu-id="ba7a6-163">Clique em OK para lançar o recebimento.</span><span class="sxs-lookup"><span data-stu-id="ba7a6-163">Click OK to post the receipt.</span></span>
 
 

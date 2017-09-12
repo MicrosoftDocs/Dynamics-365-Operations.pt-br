@@ -17,44 +17,44 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: d57d12f4987c25a6b4e52856fc8fd198efcc8c3c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c2423fe91d1531a326080e3a584195ea864f2e3e
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-discrete-manufacturing-resource-group"></a>Definir grupo de recursos de fabricação discreta
+# <a name="define-discrete-manufacturing-resource-group"></a><span data-ttu-id="888f4-103">Definir grupo de recursos de fabricação discreta</span><span class="sxs-lookup"><span data-stu-id="888f4-103">Define discrete manufacturing resource group</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Um grupo de recursos é um conjunto de recursos de operações que geralmente correspondem à organização física das células de trabalho, definido pelas linhas amarelas no chão da fábrica de produção. Este procedimento mostra como definir um grupo de recursos para uso na produção discreta. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
+<span data-ttu-id="888f4-104">Um grupo de recursos é um conjunto de recursos de operações que geralmente correspondem à organização física das células de trabalho, definido pelas linhas amarelas no chão da fábrica de produção.</span><span class="sxs-lookup"><span data-stu-id="888f4-104">A resource group is a set of operations resources that typically correspond to the physical organization of work cells, defined by yellow lines on the production shop floor.</span></span> <span data-ttu-id="888f4-105">Este procedimento mostra como definir um grupo de recursos para uso na produção discreta.</span><span class="sxs-lookup"><span data-stu-id="888f4-105">This procedure shows you how to define a ressource group for use in discrete production.</span></span> <span data-ttu-id="888f4-106">Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.</span><span class="sxs-lookup"><span data-stu-id="888f4-106">You can walk through this procedure in demo data company USMF, or use your own data.</span></span>
 
-1. Ir para grupos de Recurso.
-2. Clique em Novo.
-3. No campo grupo de Recurso, digite um valor.
-4. No campo Descrição, digite um valor.
-5. No campo Local, insira ou selecione um valor.
-6. No campo unidade de Produção, insira ou selecione um valor.
+1. <span data-ttu-id="888f4-107">Ir para grupos de Recurso.</span><span class="sxs-lookup"><span data-stu-id="888f4-107">Go to Resource groups.</span></span>
+2. <span data-ttu-id="888f4-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="888f4-108">Click New.</span></span>
+3. <span data-ttu-id="888f4-109">No campo grupo de Recurso, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="888f4-109">In the Resource group field, type a value.</span></span>
+4. <span data-ttu-id="888f4-110">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="888f4-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="888f4-111">No campo Local, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="888f4-111">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="888f4-112">No campo unidade de Produção, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="888f4-112">In the Production unit field, enter or select a value.</span></span>
 
-## <a name="define-default-operational-parameters"></a>Definir parâmetros operacionais padrão
-1. Expandir a seção Operação.
-2. No campo de porcentagem de Sucata, insira um número.
-3. No campo categoria de Configuração, insira ou selecione um valor.
-4. No campo categoria de Tempo de execução, insira ou selecione um valor.
-5. No campo percentual do plano de Operações, insira um número.
+## <a name="define-default-operational-parameters"></a><span data-ttu-id="888f4-113">Definir parâmetros operacionais padrão</span><span class="sxs-lookup"><span data-stu-id="888f4-113">Define default operational parameters</span></span>
+1. <span data-ttu-id="888f4-114">Expandir a seção Operação.</span><span class="sxs-lookup"><span data-stu-id="888f4-114">Expand the Operation section.</span></span>
+2. <span data-ttu-id="888f4-115">No campo de porcentagem de Sucata, insira um número.</span><span class="sxs-lookup"><span data-stu-id="888f4-115">In the Scrap percentage field, enter a number.</span></span>
+3. <span data-ttu-id="888f4-116">No campo categoria de Configuração, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="888f4-116">In the Setup category field, enter or select a value.</span></span>
+4. <span data-ttu-id="888f4-117">No campo categoria de Tempo de execução, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="888f4-117">In the Run time category field, enter or select a value.</span></span>
+5. <span data-ttu-id="888f4-118">No campo percentual do plano de Operações, insira um número.</span><span class="sxs-lookup"><span data-stu-id="888f4-118">In the Operations scheduling percentage field, enter a number.</span></span>
 
-## <a name="define-operating-hours"></a>Definir horas de operação
-1. Expandir a seção Calendários.
-2. Clique em Adicionar.
-3. No campo Calendário, insira ou selecione um valor.
+## <a name="define-operating-hours"></a><span data-ttu-id="888f4-119">Definir horas de operação</span><span class="sxs-lookup"><span data-stu-id="888f4-119">Define operating hours</span></span>
+1. <span data-ttu-id="888f4-120">Expandir a seção Calendários.</span><span class="sxs-lookup"><span data-stu-id="888f4-120">Expand the Calendars section.</span></span>
+2. <span data-ttu-id="888f4-121">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="888f4-121">Click Add.</span></span>
+3. <span data-ttu-id="888f4-122">No campo Calendário, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="888f4-122">In the Calendar field, enter or select a value.</span></span>
 
-## <a name="add-operations-resources"></a>Adicionar recursos de operação
-1. Expandir a seção Recursos.
-2. Clique em Adicionar.
-3. No campo Recurso, insira ou selecione um valor.
-4. Clique em Adicionar.
-5. No campo Recurso, insira ou selecione um valor.
-6. Na lista, localize e selecione o PDV desejado.
-7. Na lista, clique no link na linha selecionada.
+## <a name="add-operations-resources"></a><span data-ttu-id="888f4-123">Adicionar recursos de operação</span><span class="sxs-lookup"><span data-stu-id="888f4-123">Add operations resources</span></span>
+1. <span data-ttu-id="888f4-124">Expandir a seção Recursos.</span><span class="sxs-lookup"><span data-stu-id="888f4-124">Expand the Resources section.</span></span>
+2. <span data-ttu-id="888f4-125">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="888f4-125">Click Add.</span></span>
+3. <span data-ttu-id="888f4-126">No campo Recurso, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="888f4-126">In the Resource field, enter or select a value.</span></span>
+4. <span data-ttu-id="888f4-127">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="888f4-127">Click Add.</span></span>
+5. <span data-ttu-id="888f4-128">No campo Recurso, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="888f4-128">In the Resource field, enter or select a value.</span></span>
+6. <span data-ttu-id="888f4-129">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="888f4-129">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="888f4-130">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="888f4-130">In the list, click the link in the selected row.</span></span>
 
 

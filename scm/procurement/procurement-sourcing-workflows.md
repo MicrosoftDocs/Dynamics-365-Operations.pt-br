@@ -19,61 +19,61 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 67bdb8436ff379b0e55cfe1660597e8f93235eeb
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 80853a06e599786e2dcaf049ac733c47dfe4d9a5
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="procurement-and-sourcing-workflows"></a>Fluxos de trabalho de compras
+# <a name="procurement-and-sourcing-workflows"></a><span data-ttu-id="5bb1d-104">Fluxos de trabalho de compras</span><span class="sxs-lookup"><span data-stu-id="5bb1d-104">Procurement and sourcing workflows</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Algumas organizações exigem que as requisições de compra e as ordens de compra sejam aprovadas por um usuário diferente daquele que iniciou a transação. Para configurar um processo de aprovação, você pode criar um fluxo de trabalho.
+<span data-ttu-id="5bb1d-105">Algumas organizações exigem que as requisições de compra e as ordens de compra sejam aprovadas por um usuário diferente daquele que iniciou a transação.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-105">Some organizations require that purchase requisitions and purchase orders are approved by a user other than the person who entered the transaction.</span></span> <span data-ttu-id="5bb1d-106">Para configurar um processo de aprovação, você pode criar um fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-106">To set up an approval process, you can create a workflow.</span></span>
 
-Um fluxo de trabalho representa um processo comercial. Ele define como um documento flui pelo sistema e indica quem deve concluir uma tarefa ou aprovar um documento. O uso do sistema de fluxo de trabalho em sua organização traz vários benefícios:
--   **Processos consistentes** — você pode definir o processo de aprovação de documentos específicos, como requisições de compra e relatórios de despesas. O uso desse sistema ajuda a garantir que os documentos sejam processados e aprovados de maneira consistente e eficiente.
--   **Visibilidade do processo** — você pode rastrear o status, o histórico e as métricas de desempenho de uma instância específica do fluxo de trabalho. Isso ajuda a determinar se alterações devem ser feitas no fluxo de trabalho para aumentar a eficiência.
--   **Lista de trabalho centralizada** — os usuários podem exibir uma lista de trabalho centralizada para exibir as tarefas do fluxo de trabalho e as aprovações atribuídas a eles em todos os fluxos de trabalho de que participam. Isso está disponível na página Itens de trabalho.
+<span data-ttu-id="5bb1d-107">Um fluxo de trabalho representa um processo comercial.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-107">A workflow represents a business process.</span></span> <span data-ttu-id="5bb1d-108">Ele define como um documento flui pelo sistema e indica quem deve concluir uma tarefa ou aprovar um documento.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-108">It defines how a document flows through the system and indicates who must complete a task or approve a document.</span></span> <span data-ttu-id="5bb1d-109">O uso do sistema de fluxo de trabalho em sua organização traz vários benefícios:</span><span class="sxs-lookup"><span data-stu-id="5bb1d-109">There are several benefits of using the workflow system in your organization:</span></span>
+-   <span data-ttu-id="5bb1d-110">**Processos consistentes** — você pode definir o processo de aprovação de documentos específicos, como requisições de compra e relatórios de despesas.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-110">**Consistent processes**— You can define the approval process for specific documents, such as purchase requisitions and expense reports.</span></span> <span data-ttu-id="5bb1d-111">O uso desse sistema ajuda a garantir que os documentos sejam processados e aprovados de maneira consistente e eficiente.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-111">Using the workflow system helps to ensure that documents are processed and approved in a consistent and efficient manner.</span></span>
+-   <span data-ttu-id="5bb1d-112">**Visibilidade do processo** — você pode rastrear o status, o histórico e as métricas de desempenho de uma instância específica do fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-112">**Process visibility**— You can track the status, history, and performance metrics of a specific workflow instance.</span></span> <span data-ttu-id="5bb1d-113">Isso ajuda a determinar se alterações devem ser feitas no fluxo de trabalho para aumentar a eficiência.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-113">This helps you determine whether changes should be made to the workflow to improve efficiency.</span></span>
+-   <span data-ttu-id="5bb1d-114">**Lista de trabalho centralizada** — os usuários podem exibir uma lista de trabalho centralizada para exibir as tarefas do fluxo de trabalho e as aprovações atribuídas a eles em todos os fluxos de trabalho de que participam.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-114">**Centralized work list**— Users can view a centralized work list to view the workflow tasks and approvals assigned to them across all workflows they participate in.</span></span> <span data-ttu-id="5bb1d-115">Isso está disponível na página Itens de trabalho.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-115">This is available in the Work items page.</span></span>
 
-## <a name="the-types-of-workflows-that-you-can-create"></a>Os tipos de fluxo de trabalho que você pode criar
-Os tipos de fluxo de trabalho a seguir estão disponíveis para Compras.
+## <a name="the-types-of-workflows-that-you-can-create"></a><span data-ttu-id="5bb1d-116">Os tipos de fluxo de trabalho que você pode criar</span><span class="sxs-lookup"><span data-stu-id="5bb1d-116">The types of workflows that you can create</span></span>
+<span data-ttu-id="5bb1d-117">Os tipos de fluxo de trabalho a seguir estão disponíveis para Compras.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-117">The following workflow types are available for Procurement and sourcing.</span></span>
 
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
-| **Tipo**                         | **Use este tipo para**                                          |
-| Revisão da requisição de compra      | Criar fluxos de trabalho de revisão para requisições de compra.            |
-| Revisão de linha de requisição de compra | Criar fluxos de trabalho de revisão para linhas de requisição de compra.       |
-| Fluxo de trabalho da ordem de compra          | Criar fluxos de trabalho de revisão e aprovação para ordens de compra.     |
-| Fluxo de trabalho da linha da ordem de compra     | Criar fluxos de trabalho de revisão e aprovação para linhas de ordens de compra. |
+| <span data-ttu-id="5bb1d-118">**Tipo**</span><span class="sxs-lookup"><span data-stu-id="5bb1d-118">**Type**</span></span>                         | <span data-ttu-id="5bb1d-119">**Use este tipo para**</span><span class="sxs-lookup"><span data-stu-id="5bb1d-119">**Use this type to**</span></span>                                          |
+| <span data-ttu-id="5bb1d-120">Revisão da requisição de compra</span><span class="sxs-lookup"><span data-stu-id="5bb1d-120">Purchase requisition review</span></span>      | <span data-ttu-id="5bb1d-121">Criar fluxos de trabalho de revisão para requisições de compra.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-121">Create review workflows for purchase requisitions.</span></span>            |
+| <span data-ttu-id="5bb1d-122">Revisão de linha de requisição de compra</span><span class="sxs-lookup"><span data-stu-id="5bb1d-122">Purchase requisition line review</span></span> | <span data-ttu-id="5bb1d-123">Criar fluxos de trabalho de revisão para linhas de requisição de compra.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-123">Create review workflows for purchase requisition lines.</span></span>       |
+| <span data-ttu-id="5bb1d-124">Fluxo de trabalho da ordem de compra</span><span class="sxs-lookup"><span data-stu-id="5bb1d-124">Purchase order workflow</span></span>          | <span data-ttu-id="5bb1d-125">Criar fluxos de trabalho de revisão e aprovação para ordens de compra.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-125">Create review and approval workflows for purchase orders.</span></span>     |
+| <span data-ttu-id="5bb1d-126">Fluxo de trabalho da linha da ordem de compra</span><span class="sxs-lookup"><span data-stu-id="5bb1d-126">Purchase order line workflow</span></span>     | <span data-ttu-id="5bb1d-127">Criar fluxos de trabalho de revisão e aprovação para linhas de ordens de compra.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-127">Create review and approve workflows for purchase order lines.</span></span> |
 
-## <a name="creating-a-workflow"></a>Criação de um fluxo de trabalho
-Para criar um fluxo de trabalho, vá para Compras &gt; Configuração &gt; Fluxos de trabalho de compras e crie um novo fluxo de trabalho ao selecionar o tipo de fluxo de trabalho que deseja criar.  
+## <a name="creating-a-workflow"></a><span data-ttu-id="5bb1d-128">Criação de um fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="5bb1d-128">Creating a workflow</span></span>
+<span data-ttu-id="5bb1d-129">Para criar um fluxo de trabalho, vá para Compras &gt; Configuração &gt; Fluxos de trabalho de compras e crie um novo fluxo de trabalho ao selecionar o tipo de fluxo de trabalho que deseja criar.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-129">To create a workflow, go to Procurement and sourcing &gt; Setup &gt; Procurement and sourcing workflows and create a new workflow by selecting the type of workflow you want to create.</span></span>  
 
-Na tela do fluxo de trabalho, você pode arrastar elementos de fluxo de trabalho para o designer e vincular os elementos a um fluxo. Os elementos de fluxo de trabalho devem ser configurados. Para os elementos do fluxo de trabalho de aprovação e de tarefa, você pode configurar qual participante deverá executar a ação.
-Tipos de participantes
+<span data-ttu-id="5bb1d-130">Na tela do fluxo de trabalho, você pode arrastar elementos de fluxo de trabalho para o designer e vincular os elementos a um fluxo.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-130">In the workflow canvas you can drag workflow elements into the designer and link the elements into a flow.</span></span> <span data-ttu-id="5bb1d-131">Os elementos de fluxo de trabalho devem ser configurados.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-131">The workflow elements should be configured.</span></span> <span data-ttu-id="5bb1d-132">Para os elementos do fluxo de trabalho de aprovação e de tarefa, você pode configurar qual participante deverá executar a ação.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-132">For approval and task workflow elements you can configure which participant should take action.</span></span>
+<span data-ttu-id="5bb1d-133">Tipos de participantes</span><span class="sxs-lookup"><span data-stu-id="5bb1d-133">Types of participants</span></span>
 ----------------------
 
-Você pode atribuir uma etapa de aprovação aos grupos de participantes a seguir.
+<span data-ttu-id="5bb1d-134">Você pode atribuir uma etapa de aprovação aos grupos de participantes a seguir.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-134">You can assign an approval step to the following groups of participants.</span></span>
 
-| Grupo de usuários    | Descrição                                                               |
+| <span data-ttu-id="5bb1d-135">Grupo de usuários</span><span class="sxs-lookup"><span data-stu-id="5bb1d-135">User group</span></span>    | <span data-ttu-id="5bb1d-136">Descrição</span><span class="sxs-lookup"><span data-stu-id="5bb1d-136">Description</span></span>                                                               |
 |---------------|---------------------------------------------------------------------------|
-| Participante   | Atribuir a etapa de aprovação aos membros de um grupo ou de uma função.                   |
-| Hierarquia     | Atribuir a etapa de aprovação aos usuários em uma hierarquia organizacional específica. |
-| Usuário de fluxo de trabalho | Atribuir a etapa de aprovação aos usuários desse fluxo de trabalho.                       |
-| Fila         | Atribua a etapa de aprovação em uma fila de itens de trabalho.                            |
-| Usuário          | Atribua a etapa de aprovação a usuários específicos.                               |
+| <span data-ttu-id="5bb1d-137">Participante</span><span class="sxs-lookup"><span data-stu-id="5bb1d-137">Participant</span></span>   | <span data-ttu-id="5bb1d-138">Atribuir a etapa de aprovação aos membros de um grupo ou de uma função.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-138">Assign the approval step to members of a group or role.</span></span>                   |
+| <span data-ttu-id="5bb1d-139">Hierarquia</span><span class="sxs-lookup"><span data-stu-id="5bb1d-139">Hierarchy</span></span>     | <span data-ttu-id="5bb1d-140">Atribuir a etapa de aprovação aos usuários em uma hierarquia organizacional específica.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-140">Assign the approval step to users in a specific organizational hierarchy.</span></span> |
+| <span data-ttu-id="5bb1d-141">Usuário de fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="5bb1d-141">Workflow user</span></span> | <span data-ttu-id="5bb1d-142">Atribuir a etapa de aprovação aos usuários desse fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-142">Assign the approval step to users of this workflow.</span></span>                       |
+| <span data-ttu-id="5bb1d-143">Fila</span><span class="sxs-lookup"><span data-stu-id="5bb1d-143">Queue</span></span>         | <span data-ttu-id="5bb1d-144">Atribua a etapa de aprovação em uma fila de itens de trabalho.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-144">Assign the approval step to a work item queue.</span></span>                            |
+| <span data-ttu-id="5bb1d-145">Usuário</span><span class="sxs-lookup"><span data-stu-id="5bb1d-145">User</span></span>          | <span data-ttu-id="5bb1d-146">Atribua a etapa de aprovação a usuários específicos.</span><span class="sxs-lookup"><span data-stu-id="5bb1d-146">Assign the approval step to specific users.</span></span>                               |
 
 
 
-<a name="see-also"></a>Consulte também
+<a name="see-also"></a><span data-ttu-id="5bb1d-147">Consulte também</span><span class="sxs-lookup"><span data-stu-id="5bb1d-147">See also</span></span>
 --------
 
-[Definir fluxos de trabalho de processos de negócios para requisições de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+[<span data-ttu-id="5bb1d-148">Definir fluxos de trabalho de processos de negócios para requisições de compra</span><span class="sxs-lookup"><span data-stu-id="5bb1d-148">Defining business process workflows for purchase requisitions</span></span>](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Fluxo de trabalho de requisição de compra](purchase-requisitions-workflow.md)
+[<span data-ttu-id="5bb1d-149">Fluxo de trabalho de requisição de compra</span><span class="sxs-lookup"><span data-stu-id="5bb1d-149">Purchase requisition workflow</span></span>](purchase-requisitions-workflow.md)
 
 
 

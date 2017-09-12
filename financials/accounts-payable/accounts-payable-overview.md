@@ -19,132 +19,132 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
-ms.openlocfilehash: 9b29fec7fadbb1ac699f1144f011df1bfd2f511a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 49e5c81dda8434a6e02106a8d7ee10233e43d172
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="configure-accounts-payable"></a>Configurar contas a pagar
+# <a name="configure-accounts-payable"></a><span data-ttu-id="069b7-104">Configurar contas a pagar</span><span class="sxs-lookup"><span data-stu-id="069b7-104">Configure Accounts payable</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve as páginas que você usa para configurar funcionalidades básicas e opcionais de Contas a pagar no Microsoft Dynamics 365 for Finance and Operations, edição Enterprise. Também mostra as etapas de configuração que devem ser concluídas antes de começar a configurar as contas a pagar.
+<span data-ttu-id="069b7-105">Este artigo descreve as páginas que você usa para configurar funcionalidades básicas e opcionais de Contas a pagar no Microsoft Dynamics 365 for Finance and Operations, edição Enterprise.</span><span class="sxs-lookup"><span data-stu-id="069b7-105">This article describes the pages that you use to set up basic and optional functionality for Accounts payable in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="069b7-106">Também mostra as etapas de configuração que devem ser concluídas antes de começar a configurar as contas a pagar.</span><span class="sxs-lookup"><span data-stu-id="069b7-106">It also describes setup steps that you must complete before you start to set up Accounts payable.</span></span>
 
-<a name="prerequisites-for-accounts-payable-setup"></a>Pré-requisitos para a configuração de contas a pagar
+<a name="prerequisites-for-accounts-payable-setup"></a><span data-ttu-id="069b7-107">Pré-requisitos para a configuração de contas a pagar</span><span class="sxs-lookup"><span data-stu-id="069b7-107">Prerequisites for Accounts payable setup</span></span>
 ----------------------------------------
 
-Antes de poder configurar contas a pagar, é necessário concluir a seguinte configuração:
+<span data-ttu-id="069b7-108">Antes de poder configurar contas a pagar, é necessário concluir a seguinte configuração:</span><span class="sxs-lookup"><span data-stu-id="069b7-108">Before you can set up Accounts payable, you must complete the following setup:</span></span>
 
--   Na contabilidade:
-    -   Se você planeja usar diários de pagamentos, configure os diários de pagamentos.
-    -   Se você planeja executar ajustes cambiais, configure os códigos de moeda na página Moedas, configure os tipos de taxa de câmbio na página Tipos de taxa de câmbio, e configure as taxas de câmbio de moeda na página Taxas de câmbio de moeda.
--   No Gerenciamento de caixa e bancos, configure as contas bancárias a serem usadas com os métodos de pagamento.
+-   <span data-ttu-id="069b7-109">Na contabilidade:</span><span class="sxs-lookup"><span data-stu-id="069b7-109">In General ledger:</span></span>
+    -   <span data-ttu-id="069b7-110">Se você planeja usar diários de pagamentos, configure os diários de pagamentos.</span><span class="sxs-lookup"><span data-stu-id="069b7-110">If you plan to use payment journals, set up payment journals.</span></span>
+    -   <span data-ttu-id="069b7-111">Se você planeja executar ajustes cambiais, configure os códigos de moeda na página Moedas, configure os tipos de taxa de câmbio na página Tipos de taxa de câmbio, e configure as taxas de câmbio de moeda na página Taxas de câmbio de moeda.</span><span class="sxs-lookup"><span data-stu-id="069b7-111">If you plan to run exchange rate adjustments, set up currency codes on the Currencies page, set up exchange rate types on the Exchange rate types page, and set up currency exchange rates on the Currency exchange rates page.</span></span>
+-   <span data-ttu-id="069b7-112">No Gerenciamento de caixa e bancos, configure as contas bancárias a serem usadas com os métodos de pagamento.</span><span class="sxs-lookup"><span data-stu-id="069b7-112">In Cash and bank management, set up bank accounts to use with methods of payment.</span></span>
 
-## <a name="setup-pages-for-accounts-payable"></a>Páginas de configuração de contas a pagar
+## <a name="setup-pages-for-accounts-payable"></a><span data-ttu-id="069b7-113">Páginas de configuração de contas a pagar</span><span class="sxs-lookup"><span data-stu-id="069b7-113">Setup pages for Accounts payable</span></span>
 
-Use as páginas a seguir para configurar a funcionalidade básica de Contas a pagar para cada entidade legal. As páginas são listadas na ordem de configuração recomendada. Para simplificar o processo de configuração, você pode criar modelos a partir dos primeiros registros criados. Em um modelo, os valores são normalmente inseridos em vários campos para refletir os recursos que a organização quer implementar para um determinado tipo de fornecedor.
-1.  Na página Condições de pagamento, defina as condições de pagamento que você atribui às ordens de venda, ordens de compra, clientes, e fornecedores, e que determinam as datas de validade de fatura. Para obter mais informações, consulte [Definir taxas de pagamento de fornecedor](tasks/define-vendor-payment-fees.md).
-2.  Na página Métodos de pagamento - fornecedores, crie e mantenha informações sobre como a organização paga seus fornecedores.
-3.  Na página Grupos de fornecedores, crie e mantenha grupos de fornecedores que compartilham parâmetros importantes para lançamento, liquidação e pagamento, relatórios, e previsão.
-4.  Na página Perfis de lançamento de fornecedor, defina como as transações de fornecedor são lançadas na contabilidade.
-5.  Na página Parâmetros de contas a pagar, defina as configurações padrão aplicadas na ausência de uma configuração mais específica, os parâmetros para vários tipos de funcionalidades e as diversas sequências numéricas para Contas a pagar.
-6.  Na página Configuração do formulário, defina o formato de vários documentos relacionados a fornecedores que são usados na organização para rastrear recebimentos de fornecedores e para inserir motivos para o fluxo de pagamentos aos fornecedores.
-7.  Na página Fornecedores, crie e mantenha contas de fornecedor, e também as autoridades fiscais às quais sua organização declara os impostos sobre vendas.
+<span data-ttu-id="069b7-114">Use as páginas a seguir para configurar a funcionalidade básica de Contas a pagar para cada entidade legal.</span><span class="sxs-lookup"><span data-stu-id="069b7-114">Use the following pages to set up the basic functionality of Accounts payable for each legal entity.</span></span> <span data-ttu-id="069b7-115">As páginas são listadas na ordem de configuração recomendada.</span><span class="sxs-lookup"><span data-stu-id="069b7-115">The pages are listed in the recommended order of setup.</span></span> <span data-ttu-id="069b7-116">Para simplificar o processo de configuração, você pode criar modelos a partir dos primeiros registros criados.</span><span class="sxs-lookup"><span data-stu-id="069b7-116">To make the setup process easier, you can create templates from the first records that you create.</span></span> <span data-ttu-id="069b7-117">Em um modelo, os valores são normalmente inseridos em vários campos para refletir os recursos que a organização quer implementar para um determinado tipo de fornecedor.</span><span class="sxs-lookup"><span data-stu-id="069b7-117">In a template, values are typically entered in many fields to reflect the features that the organization wants to implement for a particular type of vendor.</span></span>
+1.  <span data-ttu-id="069b7-118">Na página Condições de pagamento, defina as condições de pagamento que você atribui às ordens de venda, ordens de compra, clientes, e fornecedores, e que determinam as datas de validade de fatura.</span><span class="sxs-lookup"><span data-stu-id="069b7-118">On the Terms of payment page, define the terms of payment that you assign to sales orders, purchase orders, customers, and vendors, and that determine invoice due dates.</span></span> <span data-ttu-id="069b7-119">Para obter mais informações, consulte [Definir taxas de pagamento de fornecedor](tasks/define-vendor-payment-fees.md).</span><span class="sxs-lookup"><span data-stu-id="069b7-119">For more information, see [Define vendor payment fees](tasks/define-vendor-payment-fees.md).</span></span>
+2.  <span data-ttu-id="069b7-120">Na página Métodos de pagamento - fornecedores, crie e mantenha informações sobre como a organização paga seus fornecedores.</span><span class="sxs-lookup"><span data-stu-id="069b7-120">On the Methods of payment - vendors page, create and maintain information about how the organization pays its vendors.</span></span>
+3.  <span data-ttu-id="069b7-121">Na página Grupos de fornecedores, crie e mantenha grupos de fornecedores que compartilham parâmetros importantes para lançamento, liquidação e pagamento, relatórios, e previsão.</span><span class="sxs-lookup"><span data-stu-id="069b7-121">On the Vendor groups page, create and maintain groups of vendors that share important parameters for posting, settlement and payment, reporting, and forecasting.</span></span>
+4.  <span data-ttu-id="069b7-122">Na página Perfis de lançamento de fornecedor, defina como as transações de fornecedor são lançadas na contabilidade.</span><span class="sxs-lookup"><span data-stu-id="069b7-122">On the Vendor posting profiles page, define how vendor transactions are posted to the general ledger.</span></span>
+5.  <span data-ttu-id="069b7-123">Na página Parâmetros de contas a pagar, defina as configurações padrão aplicadas na ausência de uma configuração mais específica, os parâmetros para vários tipos de funcionalidades e as diversas sequências numéricas para Contas a pagar.</span><span class="sxs-lookup"><span data-stu-id="069b7-123">On the Accounts payable parameters page, set up default settings that are applied if a more specific setting isn't specified, parameters for various kinds of functionality, and the various number sequences for Accounts payable.</span></span>
+6.  <span data-ttu-id="069b7-124">Na página Configuração do formulário, defina o formato de vários documentos relacionados a fornecedores que são usados na organização para rastrear recebimentos de fornecedores e para inserir motivos para o fluxo de pagamentos aos fornecedores.</span><span class="sxs-lookup"><span data-stu-id="069b7-124">On the Form setup page, define the format of various documents that are related to vendors, and that the organization uses to keep track of receipts from vendors and enter reasons for the flow of payments to vendors.</span></span>
+7.  <span data-ttu-id="069b7-125">Na página Fornecedores, crie e mantenha contas de fornecedor, e também as autoridades fiscais às quais sua organização declara os impostos sobre vendas.</span><span class="sxs-lookup"><span data-stu-id="069b7-125">On the Vendors page, create and maintain vendor accounts, and also the tax authorities that your organization reports sales taxes to.</span></span>
 
-## <a name="optional-setup-pages-for-accounts-payable"></a>Páginas de configuração opcionais de contas a pagar
-Além da funcionalidade básica, a sessão de contas a pagar possui outras funcionalidades que você pode configurar.
+## <a name="optional-setup-pages-for-accounts-payable"></a><span data-ttu-id="069b7-126">Páginas de configuração opcionais de contas a pagar</span><span class="sxs-lookup"><span data-stu-id="069b7-126">Optional setup pages for Accounts payable</span></span>
+<span data-ttu-id="069b7-127">Além da funcionalidade básica, a sessão de contas a pagar possui outras funcionalidades que você pode configurar.</span><span class="sxs-lookup"><span data-stu-id="069b7-127">In addition to the basic functionality, Accounts payable has other functionality that you can set up.</span></span>
 
-As páginas de configuração adicional são organizados por funcionalidade.
+<span data-ttu-id="069b7-128">As páginas de configuração adicional são organizados por funcionalidade.</span><span class="sxs-lookup"><span data-stu-id="069b7-128">The additional setup pages are organized by functionality.</span></span>
 
-**Políticas**
--   Na página Política de fatura de fornecedor, configure as políticas de fatura de fornecedor.
+<span data-ttu-id="069b7-129">**Políticas**</span><span class="sxs-lookup"><span data-stu-id="069b7-129">**Policies**</span></span>
+-   <span data-ttu-id="069b7-130">Na página Política de fatura de fornecedor, configure as políticas de fatura de fornecedor.</span><span class="sxs-lookup"><span data-stu-id="069b7-130">On the Vendor invoice policy page, set up vendor invoice policies.</span></span>
 
-**Conciliação de fatura**
+<span data-ttu-id="069b7-131">**Conciliação de fatura**</span><span class="sxs-lookup"><span data-stu-id="069b7-131">**Invoice matching**</span></span>
 
--   Na página Tolerâncias dos totais de fatura, configure as tolerâncias para os totais de faturas.
--   Na página Política de conciliação, configure as políticas de conciliação dupla e tripla.
--   Na página Tolerâncias de preço, configure as tolerâncias para preços unitários.
--   Na página Grupos de tolerância de preços de item, configure os grupos de tolerância para os preços de item.
--   Na página Grupos de tolerância de preços de fornecedor, configure os grupos de tolerância para os preços de fornecedor.
--   Na página Tolerâncias de encargos, configure as tolerâncias para encargos.
+-   <span data-ttu-id="069b7-132">Na página Tolerâncias dos totais de fatura, configure as tolerâncias para os totais de faturas.</span><span class="sxs-lookup"><span data-stu-id="069b7-132">On the Invoice totals tolerances page, set up tolerances for invoice totals.</span></span>
+-   <span data-ttu-id="069b7-133">Na página Política de conciliação, configure as políticas de conciliação dupla e tripla.</span><span class="sxs-lookup"><span data-stu-id="069b7-133">On the Matching policy page, set up two-way and three-way matching policies.</span></span>
+-   <span data-ttu-id="069b7-134">Na página Tolerâncias de preço, configure as tolerâncias para preços unitários.</span><span class="sxs-lookup"><span data-stu-id="069b7-134">On the Price tolerances page, set up tolerances for unit prices.</span></span>
+-   <span data-ttu-id="069b7-135">Na página Grupos de tolerância de preços de item, configure os grupos de tolerância para os preços de item.</span><span class="sxs-lookup"><span data-stu-id="069b7-135">On the Item price tolerance groups page, set up tolerance groups for item prices.</span></span>
+-   <span data-ttu-id="069b7-136">Na página Grupos de tolerância de preços de fornecedor, configure os grupos de tolerância para os preços de fornecedor.</span><span class="sxs-lookup"><span data-stu-id="069b7-136">On the Vendor price tolerance groups page, set up  tolerance groups for vendor prices.</span></span>
+-   <span data-ttu-id="069b7-137">Na página Tolerâncias de encargos, configure as tolerâncias para encargos.</span><span class="sxs-lookup"><span data-stu-id="069b7-137">On the Charges tolerances page, set up tolerances for charges.</span></span>
 
-**Fluxo de trabalho**
+<span data-ttu-id="069b7-138">**Fluxo de trabalho**</span><span class="sxs-lookup"><span data-stu-id="069b7-138">**Workflow**</span></span>
 
--   Na página Fluxos de trabalho de contas a pagar, defina as configurações de fluxo de trabalho para aprovações de diários e requisições de compra.
+-   <span data-ttu-id="069b7-139">Na página Fluxos de trabalho de contas a pagar, defina as configurações de fluxo de trabalho para aprovações de diários e requisições de compra.</span><span class="sxs-lookup"><span data-stu-id="069b7-139">On the Accounts payable workflows page, set up workflow configurations for journal approvals and purchase requisitions.</span></span>
 
-**Motivos**
+<span data-ttu-id="069b7-140">**Motivos**</span><span class="sxs-lookup"><span data-stu-id="069b7-140">**Reasons**</span></span>
 
--   Na página Motivos de fornecedor, configure os códigos de motivo.
+-   <span data-ttu-id="069b7-141">Na página Motivos de fornecedor, configure os códigos de motivo.</span><span class="sxs-lookup"><span data-stu-id="069b7-141">On the Vendor reasons page, set up reason codes.</span></span>
 
-**Encargos**
+<span data-ttu-id="069b7-142">**Encargos**</span><span class="sxs-lookup"><span data-stu-id="069b7-142">**Charges**</span></span>
 
--   Na página Código de encargos, configure os códigos para os encargos que são usados em ordens de compra.
--   Na página Grupo de encargos de fornecedor, crie e mantenha grupos de encargos para fornecedores.
--   Na página Grupos de encargos de item , crie e mantenha grupos de encargos para itens.
--   Na página Encargos automáticos , defina os encargos que são atribuídos automaticamente às ordens.
+-   <span data-ttu-id="069b7-143">Na página Código de encargos, configure os códigos para os encargos que são usados em ordens de compra.</span><span class="sxs-lookup"><span data-stu-id="069b7-143">On the Charges code page, set up codes for the charges that are used in purchase orders.</span></span>
+-   <span data-ttu-id="069b7-144">Na página Grupo de encargos de fornecedor, crie e mantenha grupos de encargos para fornecedores.</span><span class="sxs-lookup"><span data-stu-id="069b7-144">On the Vendor charges group page, create and maintain charges groups for vendors.</span></span>
+-   <span data-ttu-id="069b7-145">Na página Grupos de encargos de item , crie e mantenha grupos de encargos para itens.</span><span class="sxs-lookup"><span data-stu-id="069b7-145">On the Item charge groups page, create and maintain charges groups for items.</span></span>
+-   <span data-ttu-id="069b7-146">Na página Encargos automáticos , defina os encargos que são atribuídos automaticamente às ordens.</span><span class="sxs-lookup"><span data-stu-id="069b7-146">On the Auto charges page, define the charges that are automatically assigned to orders.</span></span>
 
-**Itens suplementares**
+<span data-ttu-id="069b7-147">**Itens suplementares**</span><span class="sxs-lookup"><span data-stu-id="069b7-147">**Supplementary items**</span></span>
 
--   Na página Grupos de itens complementares - Fornecedor , crie e mantenha grupos de itens complementadores para fornecedores.
--   Na página Grupos de itens complementares - Estoque , crie e mantenha grupos de itens complementadores para itens.
+-   <span data-ttu-id="069b7-148">Na página Grupos de itens complementares - Fornecedor , crie e mantenha grupos de itens complementadores para fornecedores.</span><span class="sxs-lookup"><span data-stu-id="069b7-148">On the Supplementary item groups - Vendor page, create and maintain supplementary item groups for vendors.</span></span>
+-   <span data-ttu-id="069b7-149">Na página Grupos de itens complementares - Estoque , crie e mantenha grupos de itens complementadores para itens.</span><span class="sxs-lookup"><span data-stu-id="069b7-149">On the Supplementary item groups - Inventory page, create and maintain supplementary item groups for items.</span></span>
 
-**Distribuição**
+<span data-ttu-id="069b7-150">**Distribuição**</span><span class="sxs-lookup"><span data-stu-id="069b7-150">**Distribution**</span></span>
 
--   Na página Condições de entrega , crie e mantenha as condições para uma transferência de item do vendedor para o comprador.
--   Na página Modos de entrega , crie e mantenha os métodos de transporte usados quando uma ordem é entregue do vendedor ao comprador.
--   Na página Códigos de destino , crie e mantenha identificadores e descrições para os destinos de entrega.
+-   <span data-ttu-id="069b7-151">Na página Condições de entrega , crie e mantenha as condições para uma transferência de item do vendedor para o comprador.</span><span class="sxs-lookup"><span data-stu-id="069b7-151">On the Terms of delivery page, create and maintain the conditions for an item's transfer from seller to buyer.</span></span>
+-   <span data-ttu-id="069b7-152">Na página Modos de entrega , crie e mantenha os métodos de transporte usados quando uma ordem é entregue do vendedor ao comprador.</span><span class="sxs-lookup"><span data-stu-id="069b7-152">On the Modes of delivery page, create and maintain the methods of transport that are used when an order is delivered from the seller to the buyer.</span></span>
+-   <span data-ttu-id="069b7-153">Na página Códigos de destino , crie e mantenha identificadores e descrições para os destinos de entrega.</span><span class="sxs-lookup"><span data-stu-id="069b7-153">On the Destination codes page, create and maintain identifiers and descriptions for delivery destinations.</span></span>
 
-**Formulários**
+<span data-ttu-id="069b7-154">**Formulários**</span><span class="sxs-lookup"><span data-stu-id="069b7-154">**Forms**</span></span>
 
--   Na página Notas do formulário , crie o texto padrão que aparece em diversas páginas.
--   Na página Parâmetros de classificação de formulário , configure a ordem de classificação para requisições, listas de recebimento, guias de remessa, e faturas.
--   Na página Gerenciamento de impressão , configure as informações de gerenciamento de impressão para documentos originais e cópias de páginas.
+-   <span data-ttu-id="069b7-155">Na página Notas do formulário , crie o texto padrão que aparece em diversas páginas.</span><span class="sxs-lookup"><span data-stu-id="069b7-155">On the Form notes page, create the standard text that appears on various pages.</span></span>
+-   <span data-ttu-id="069b7-156">Na página Parâmetros de classificação de formulário , configure a ordem de classificação para requisições, listas de recebimento, guias de remessa, e faturas.</span><span class="sxs-lookup"><span data-stu-id="069b7-156">On the Form sorting parameters page, set up the sorting order for requisitions, receipt lists, packing slips, and invoices.</span></span>
+-   <span data-ttu-id="069b7-157">Na página Gerenciamento de impressão , configure as informações de gerenciamento de impressão para documentos originais e cópias de páginas.</span><span class="sxs-lookup"><span data-stu-id="069b7-157">On the Print management setup page, set up print management information for originals and copies of pages.</span></span>
 
-**Pagamentos**
+<span data-ttu-id="069b7-158">**Pagamentos**</span><span class="sxs-lookup"><span data-stu-id="069b7-158">**Payments**</span></span>
 
--   Na página Descontos à vista , configure e gerencie as condições para a obtenção de descontos à vista. Os códigos de desconto à vista estão associados a fornecedores e são aplicados a ordens de compra.
--   Na página Planos de pagamento , configure os planos de pagamento usados para gerenciar pagamentos a prestação para fornecedores.
--   Na página Dias de pagamento , defina os dias de pagamento usados para calcular as datas de validade, e especifique os dias de pagamento para um dia específico da semana ou mês.
--   Na página Taxa de pagamento , crie e mantenha as taxas de pagamento que estão associadas aos fornecedores.
--   Na página Instrução de pagamento , crie e mantenha as instruções de pagamento.
+-   <span data-ttu-id="069b7-159">Na página Descontos à vista , configure e gerencie as condições para a obtenção de descontos à vista.</span><span class="sxs-lookup"><span data-stu-id="069b7-159">On the Cash discounts page, set up and manage the terms for obtaining cash discounts.</span></span> <span data-ttu-id="069b7-160">Os códigos de desconto à vista estão associados a fornecedores e são aplicados a ordens de compra.</span><span class="sxs-lookup"><span data-stu-id="069b7-160">The cash discount codes are linked to vendors and are applied to purchase orders.</span></span>
+-   <span data-ttu-id="069b7-161">Na página Planos de pagamento , configure os planos de pagamento usados para gerenciar pagamentos a prestação para fornecedores.</span><span class="sxs-lookup"><span data-stu-id="069b7-161">On the Payment schedules page, set up the payment schedules that are used to manage installment payments to vendors.</span></span>
+-   <span data-ttu-id="069b7-162">Na página Dias de pagamento , defina os dias de pagamento usados para calcular as datas de validade, e especifique os dias de pagamento para um dia específico da semana ou mês.</span><span class="sxs-lookup"><span data-stu-id="069b7-162">On the Payment days page, define the payment days that are used to calculate due dates, and specify payment days for a specific day of the week or month.</span></span>
+-   <span data-ttu-id="069b7-163">Na página Taxa de pagamento , crie e mantenha as taxas de pagamento que estão associadas aos fornecedores.</span><span class="sxs-lookup"><span data-stu-id="069b7-163">On the Payment fee page, create and maintain the payment fees that are associated with vendors.</span></span>
+-   <span data-ttu-id="069b7-164">Na página Instrução de pagamento , crie e mantenha as instruções de pagamento.</span><span class="sxs-lookup"><span data-stu-id="069b7-164">On the Payment instruction page, create and maintain payment instructions.</span></span>
 
-**Estatísticas**
+<span data-ttu-id="069b7-165">**Estatísticas**</span><span class="sxs-lookup"><span data-stu-id="069b7-165">**Statistics**</span></span>
 
--   Na página Definições do período de classificação por vencimento , configure intervalos definidos pelo usuário para analisar a distribuição de vencimentos de contas de fornecedores.
--   Na página Linha de negócio , crie os códigos de linha de negócio (LOB) que são atribuídos aos fornecedores.
+-   <span data-ttu-id="069b7-166">Na página Definições do período de classificação por vencimento , configure intervalos definidos pelo usuário para analisar a distribuição de vencimentos de contas de fornecedores.</span><span class="sxs-lookup"><span data-stu-id="069b7-166">On the Aging period definitions page, set up user-defined intervals that are used to analyze the maturity distribution of vendor accounts.</span></span>
+-   <span data-ttu-id="069b7-167">Na página Linha de negócio , crie os códigos de linha de negócio (LOB) que são atribuídos aos fornecedores.</span><span class="sxs-lookup"><span data-stu-id="069b7-167">On the Line of business page, create the line of business (LOB) codes that are assigned to vendors.</span></span>
 
-**Imposto 1099**
+<span data-ttu-id="069b7-168">**Imposto 1099**</span><span class="sxs-lookup"><span data-stu-id="069b7-168">**Tax 1099**</span></span>
 
--   Na página **Campos 1099**, verifique e atualize os valores mínimos que devem ser informados à Administração Fiscal (IRS), com base nos requisitos mais recentes da IRS.
+-   <span data-ttu-id="069b7-169">Na página **Campos 1099**, verifique e atualize os valores mínimos que devem ser informados à Administração Fiscal (IRS), com base nos requisitos mais recentes da IRS.</span><span class="sxs-lookup"><span data-stu-id="069b7-169">On the **1099 fields** page, verify and update the minimum amounts that must be reported to the Internal Revenue Service (IRS), based on the latest IRS requirements.</span></span>
 
-## <a name="optional-setup-for-other-modules"></a>**Configuração opcional para outros módulos**
-**Administração da organização**
+## <a name="optional-setup-for-other-modules"></a><span data-ttu-id="069b7-170">**Configuração opcional para outros módulos**</span><span class="sxs-lookup"><span data-stu-id="069b7-170">**Optional setup for other modules**</span></span>
+<span data-ttu-id="069b7-171">**Administração da organização**</span><span class="sxs-lookup"><span data-stu-id="069b7-171">**Organization administration**</span></span>
 
--   Na página Sequências numéricas , configure os grupos de sequência numérica para números de fatura.
--   Nas páginas a seguir, configure as informações de endereço:
-    -   Configuração de endereço
-    -   Códigos NAF
-    -   Importar CEPs
+-   <span data-ttu-id="069b7-172">Na página Sequências numéricas , configure os grupos de sequência numérica para números de fatura.</span><span class="sxs-lookup"><span data-stu-id="069b7-172">On the Number sequences page, set up number sequence groups for invoice numbers.</span></span>
+-   <span data-ttu-id="069b7-173">Nas páginas a seguir, configure as informações de endereço:</span><span class="sxs-lookup"><span data-stu-id="069b7-173">On the following pages, set up address information:</span></span>
+    -   <span data-ttu-id="069b7-174">Configuração de endereço</span><span class="sxs-lookup"><span data-stu-id="069b7-174">Address setup</span></span>
+    -   <span data-ttu-id="069b7-175">Códigos NAF</span><span class="sxs-lookup"><span data-stu-id="069b7-175">NAF codes</span></span>
+    -   <span data-ttu-id="069b7-176">Importar CEPs</span><span class="sxs-lookup"><span data-stu-id="069b7-176">Import ZIP/postal codes</span></span>
 
-**Contabilidade**
+<span data-ttu-id="069b7-177">**Contabilidade**</span><span class="sxs-lookup"><span data-stu-id="069b7-177">**General ledger**</span></span>
 
--   Na página Dimensões financeiras , configure as dimensões financeiras.
--   Nas páginas a seguir, configure as informações de imposto:
-    -   Códigos de imposto
-    -   Grupos de impostos
-    -   Grupos de impostos do item
-    -   Grupo de contas
-    -   Códigos de isenção do imposto
-    -   Jurisdições de impostos
-    -   Autoridades do imposto
-    -   Períodos de liquidação de imposto
+-   <span data-ttu-id="069b7-178">Na página Dimensões financeiras , configure as dimensões financeiras.</span><span class="sxs-lookup"><span data-stu-id="069b7-178">On the Financial dimensions page, set up financial dimensions.</span></span>
+-   <span data-ttu-id="069b7-179">Nas páginas a seguir, configure as informações de imposto:</span><span class="sxs-lookup"><span data-stu-id="069b7-179">On the following pages, set up tax information:</span></span>
+    -   <span data-ttu-id="069b7-180">Códigos de imposto</span><span class="sxs-lookup"><span data-stu-id="069b7-180">Sales tax codes</span></span>
+    -   <span data-ttu-id="069b7-181">Grupos de impostos</span><span class="sxs-lookup"><span data-stu-id="069b7-181">Sales tax groups</span></span>
+    -   <span data-ttu-id="069b7-182">Grupos de impostos do item</span><span class="sxs-lookup"><span data-stu-id="069b7-182">Item sales tax groups</span></span>
+    -   <span data-ttu-id="069b7-183">Grupo de contas</span><span class="sxs-lookup"><span data-stu-id="069b7-183">Account group</span></span>
+    -   <span data-ttu-id="069b7-184">Códigos de isenção do imposto</span><span class="sxs-lookup"><span data-stu-id="069b7-184">Sales tax exempt codes</span></span>
+    -   <span data-ttu-id="069b7-185">Jurisdições de impostos</span><span class="sxs-lookup"><span data-stu-id="069b7-185">Sales tax jurisdictions</span></span>
+    -   <span data-ttu-id="069b7-186">Autoridades do imposto</span><span class="sxs-lookup"><span data-stu-id="069b7-186">Sales tax authorities</span></span>
+    -   <span data-ttu-id="069b7-187">Períodos de liquidação de imposto</span><span class="sxs-lookup"><span data-stu-id="069b7-187">Sales tax settlement periods</span></span>
 
-**Gerenciamento de caixa e bancos**
+<span data-ttu-id="069b7-188">**Gerenciamento de caixa e bancos**</span><span class="sxs-lookup"><span data-stu-id="069b7-188">**Cash and bank management**</span></span>
 
--   Na página Códigos de finalidade de pagamento, configure o código de finalidade do banco central.
+-   <span data-ttu-id="069b7-189">Na página Códigos de finalidade de pagamento, configure o código de finalidade do banco central.</span><span class="sxs-lookup"><span data-stu-id="069b7-189">On the Payment purpose codes page, set up the Central Bank purpose code.</span></span>
 
 
 

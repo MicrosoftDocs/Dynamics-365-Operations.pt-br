@@ -17,40 +17,40 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 3eba8dbc6c2e5fb3a93d57b72956f9246ad5912e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 80543780c423b5beac3ec57f4fa035e560aaa4ce
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="copy-co-products-from-an-existing-formula-version"></a>Copiar coprodutos de uma versão de fórmula existente
+# <a name="copy-co-products-from-an-existing-formula-version"></a><span data-ttu-id="07a39-103">Copiar coprodutos de uma versão de fórmula existente</span><span class="sxs-lookup"><span data-stu-id="07a39-103">Copy co-products from an existing formula version</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento mostra como copiar coprodutos de uma versão de fórmula existente para uma versão da fórmula diferente para um produto liberado. É um pré-requisito que haja pelo menos uma versão de fórmula associada aos coprodutos. A empresa de dados de demonstração USP2 é utilizada para criar esse procedimento.
+<span data-ttu-id="07a39-104">Este procedimento mostra como copiar coprodutos de uma versão de fórmula existente para uma versão da fórmula diferente para um produto liberado.</span><span class="sxs-lookup"><span data-stu-id="07a39-104">This procedure shows how to copy co-products from an existing formula version to a different formula version for a released product.</span></span> <span data-ttu-id="07a39-105">É um pré-requisito que haja pelo menos uma versão de fórmula associada aos coprodutos.</span><span class="sxs-lookup"><span data-stu-id="07a39-105">It is a prerequisite that there is at least one formula version associated with co-products.</span></span> <span data-ttu-id="07a39-106">A empresa de dados de demonstração USP2 é utilizada para criar esse procedimento.</span><span class="sxs-lookup"><span data-stu-id="07a39-106">The demo data company USP2 is used to create this procedure.</span></span>
 
 
-## <a name="find-a-released-product"></a>Localize um produto lançado
-1. Vá para Produtos liberados.
-2. Clique em Mostrar filtros.
-    * Você está prestes a adicionar o campo Tipo de produção na caixa de diálogo do filtro.  
-3. Clique no campo Adicionar filtro para adicionar o campo Tipo de produção.
-    * Na próxima etapa, você precisa especificar manualmente a Fórmula no campo Tipo de produção antes de selecionar Aplicar. Isso definirá o filtro na lista de produtos liberados.  
-4. Insira manualmente a fórmula no campo Tipo de produção.
-5. Clique em Aplicar.
+## <a name="find-a-released-product"></a><span data-ttu-id="07a39-107">Localize um produto lançado</span><span class="sxs-lookup"><span data-stu-id="07a39-107">Find a released product</span></span>
+1. <span data-ttu-id="07a39-108">Vá para Produtos liberados.</span><span class="sxs-lookup"><span data-stu-id="07a39-108">Go to Released products.</span></span>
+2. <span data-ttu-id="07a39-109">Clique em Mostrar filtros.</span><span class="sxs-lookup"><span data-stu-id="07a39-109">Click Show filters.</span></span>
+    * <span data-ttu-id="07a39-110">Você está prestes a adicionar o campo Tipo de produção na caixa de diálogo do filtro.</span><span class="sxs-lookup"><span data-stu-id="07a39-110">You are about to add the field Production type in the filter dialog box.</span></span>  
+3. <span data-ttu-id="07a39-111">Clique no campo Adicionar filtro para adicionar o campo Tipo de produção.</span><span class="sxs-lookup"><span data-stu-id="07a39-111">Click Add a filter field to add the field Production type.</span></span>
+    * <span data-ttu-id="07a39-112">Na próxima etapa, você precisa especificar manualmente a Fórmula no campo Tipo de produção antes de selecionar Aplicar.</span><span class="sxs-lookup"><span data-stu-id="07a39-112">In the next step, you need to manually enter Formula in the Production type field before you select Apply.</span></span> <span data-ttu-id="07a39-113">Isso definirá o filtro na lista de produtos liberados.</span><span class="sxs-lookup"><span data-stu-id="07a39-113">This sets the filter on the list of released products.</span></span>  
+4. <span data-ttu-id="07a39-114">Insira manualmente a fórmula no campo Tipo de produção.</span><span class="sxs-lookup"><span data-stu-id="07a39-114">Manually enter Formula in the Production type field.</span></span>
+5. <span data-ttu-id="07a39-115">Clique em Aplicar.</span><span class="sxs-lookup"><span data-stu-id="07a39-115">Click Apply.</span></span>
 
-## <a name="select-a-released-product"></a>Selecione um produto liberado
-1. Na lista, localize e selecione o PDV desejado.
-2. Clique em Versões da fórmula.
-    * No Painel de Ação Engenharia, clique em versões da fórmula.  
+## <a name="select-a-released-product"></a><span data-ttu-id="07a39-116">Selecione um produto liberado</span><span class="sxs-lookup"><span data-stu-id="07a39-116">Select a released product</span></span>
+1. <span data-ttu-id="07a39-117">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="07a39-117">In the list, find and select the desired record.</span></span>
+2. <span data-ttu-id="07a39-118">Clique em Versões da fórmula.</span><span class="sxs-lookup"><span data-stu-id="07a39-118">Click Formula versions.</span></span>
+    * <span data-ttu-id="07a39-119">No Painel de Ação Engenharia, clique em versões da fórmula.</span><span class="sxs-lookup"><span data-stu-id="07a39-119">On the Engineering Action Pane, click Formula versions.</span></span>  
 
-## <a name="copy-co-products"></a>Copiar coprodutos
-1. No Painel de Ação, clique em Versão da fórmula.
-2. Clique em Co-produtos.
-3. Clique em Copiar.
-4. No campo Número do item, insira ou selecione um valor.
-5. No campo Versão da fórmula, insira ou selecione um valor.
-6. Clique em OK.
-7. Feche a página.
+## <a name="copy-co-products"></a><span data-ttu-id="07a39-120">Copiar coprodutos</span><span class="sxs-lookup"><span data-stu-id="07a39-120">Copy co-products</span></span>
+1. <span data-ttu-id="07a39-121">No Painel de Ação, clique em Versão da fórmula.</span><span class="sxs-lookup"><span data-stu-id="07a39-121">On the Action Pane, click Formula version.</span></span>
+2. <span data-ttu-id="07a39-122">Clique em Co-produtos.</span><span class="sxs-lookup"><span data-stu-id="07a39-122">Click Co-products.</span></span>
+3. <span data-ttu-id="07a39-123">Clique em Copiar.</span><span class="sxs-lookup"><span data-stu-id="07a39-123">Click Copy.</span></span>
+4. <span data-ttu-id="07a39-124">No campo Número do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="07a39-124">In the Item number field, enter or select a value.</span></span>
+5. <span data-ttu-id="07a39-125">No campo Versão da fórmula, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="07a39-125">In the Formula version field, enter or select a value.</span></span>
+6. <span data-ttu-id="07a39-126">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="07a39-126">Click OK.</span></span>
+7. <span data-ttu-id="07a39-127">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="07a39-127">Close the page.</span></span>
 
 

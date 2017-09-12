@@ -17,37 +17,37 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 8cf9a78b919d0cb5e8450f610d4fddd647644500
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3e75ce2f8847330bec260714449f01ba77877223
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="issue-customer-fiscal-documents-for-suframa-customers-brazil"></a>Emitir notas fiscais para clientes (para clientes SUFRAMA) (Brasil)
+# <a name="issue-customer-fiscal-documents-for-suframa-customers-brazil"></a><span data-ttu-id="ba34f-103">Emitir notas fiscais para clientes (para clientes SUFRAMA) (Brasil)</span><span class="sxs-lookup"><span data-stu-id="ba34f-103">Issue customer fiscal documents (for SUFRAMA customers) (Brazil)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Use esse procedimento para configurar isenções de impostos para a região da Superintendência da Zona Franca de Manaus (SUFRAMA). Esta tarefa usa a empresa de demonstração BRMF.
+<span data-ttu-id="ba34f-104">Use esse procedimento para configurar isenções de impostos para a região da Superintendência da Zona Franca de Manaus (SUFRAMA).</span><span class="sxs-lookup"><span data-stu-id="ba34f-104">Use this procedure to set up tax exemptions for the Superintendência da Zona Franca de Manaus (SUFRAMA) region.</span></span> <span data-ttu-id="ba34f-105">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="ba34f-105">This task uses the BRMF demo company.</span></span>
 
-1. Ir para Contas recebíveis > Clientes > Todos os clientes.
-2. Na lista, localize e selecione o PDV desejado.
-3. Na lista, clique no link na linha selecionada.
-4. Expanda a seção Informações fiscais.
-5. Clique em Editar.
-6. Selecione Sim no campo SUFRAMA.
-7. No campo Número da SUFRAMA, digite um valor.
-8. Selecione Sim no campo Descontar PIS e COFINS.
-9. Clique em Salvar.
-10. Feche a página.
-11. Feche a página.
-12. Vá para Imposto > Impostos indiretos > Impostos > Grupos de impostos.
-13. Na lista, localize e selecione o PDV desejado.
-14. Clique em Editar.
-15. Na lista, localize e selecione o PDV desejado.
-16. Marque a caixa de seleção Isento.
-17. No campo Código de tributação, digite ou selecione um valor.
-    * Selecione o código de tributação com o valor fiscal Sem crédito/débito (outro) para especificar os impostos sem crédito fiscal.  
-18. Clique em Salvar.
-19. Feche a página.
+1. <span data-ttu-id="ba34f-106">Ir para Contas recebíveis > Clientes > Todos os clientes.</span><span class="sxs-lookup"><span data-stu-id="ba34f-106">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="ba34f-107">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ba34f-107">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="ba34f-108">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ba34f-108">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="ba34f-109">Expanda a seção Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="ba34f-109">Expand the Fiscal information section.</span></span>
+5. <span data-ttu-id="ba34f-110">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="ba34f-110">Click Edit.</span></span>
+6. <span data-ttu-id="ba34f-111">Selecione Sim no campo SUFRAMA.</span><span class="sxs-lookup"><span data-stu-id="ba34f-111">Select Yes in the SUFRAMA field.</span></span>
+7. <span data-ttu-id="ba34f-112">No campo Número da SUFRAMA, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ba34f-112">In the SUFRAMA number field, type a value.</span></span>
+8. <span data-ttu-id="ba34f-113">Selecione Sim no campo Descontar PIS e COFINS.</span><span class="sxs-lookup"><span data-stu-id="ba34f-113">Select Yes in the Discount PIS and COFINS field.</span></span>
+9. <span data-ttu-id="ba34f-114">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="ba34f-114">Click Save.</span></span>
+10. <span data-ttu-id="ba34f-115">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="ba34f-115">Close the page.</span></span>
+11. <span data-ttu-id="ba34f-116">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="ba34f-116">Close the page.</span></span>
+12. <span data-ttu-id="ba34f-117">Vá para Imposto > Impostos indiretos > Impostos > Grupos de impostos.</span><span class="sxs-lookup"><span data-stu-id="ba34f-117">Go to Tax > Indirect taxes > Sales tax > Item sales tax groups.</span></span>
+13. <span data-ttu-id="ba34f-118">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ba34f-118">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="ba34f-119">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="ba34f-119">Click Edit.</span></span>
+15. <span data-ttu-id="ba34f-120">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ba34f-120">In the list, find and select the desired record.</span></span>
+16. <span data-ttu-id="ba34f-121">Marque a caixa de seleção Isento.</span><span class="sxs-lookup"><span data-stu-id="ba34f-121">Select the Exempt check box.</span></span>
+17. <span data-ttu-id="ba34f-122">No campo Código de tributação, digite ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="ba34f-122">In the Taxation code field, enter or select a value.</span></span>
+    * <span data-ttu-id="ba34f-123">Selecione o código de tributação com o valor fiscal Sem crédito/débito (outro) para especificar os impostos sem crédito fiscal.</span><span class="sxs-lookup"><span data-stu-id="ba34f-123">Select the taxation code that has the fiscal value Without Credit/Debit (other) to specify the taxes that don't have a tax credit.</span></span>  
+18. <span data-ttu-id="ba34f-124">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="ba34f-124">Click Save.</span></span>
+19. <span data-ttu-id="ba34f-125">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="ba34f-125">Close the page.</span></span>
 
 

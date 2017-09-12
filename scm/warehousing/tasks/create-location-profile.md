@@ -17,28 +17,28 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: d5fa99fb0665e2a93639f6ec87dbdfa8f7d209a8
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a4a159b0e849a73efb362ccadb841bd25c323290
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-location-profile"></a>Criar um perfil de localização
+# <a name="create-a-location-profile"></a><span data-ttu-id="0436b-103">Criar um perfil de localização</span><span class="sxs-lookup"><span data-stu-id="0436b-103">Create a location profile</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Cada local no depósito precisa ter um perfil de local associado a ele, que descreve as propriedades do local, por exemplo, se o local permite itens mistos. Neste procedimento é criaremos um perfil para um local que não exija o controle de matrícula. Nós habilitaremos misturados itens, e o status de estoque e permitimos misturados, a contagem cíclica. Você pode usar este procedimento na empresa USMF de dados de demonstração.
+<span data-ttu-id="0436b-104">Cada local no depósito precisa ter um perfil de local associado a ele, que descreve as propriedades do local, por exemplo, se o local permite itens mistos.</span><span class="sxs-lookup"><span data-stu-id="0436b-104">Every location in the warehouse needs to have a location profile associated with it that describes the properties of the location, for example, whether the location allows mixed items.</span></span> <span data-ttu-id="0436b-105">Neste procedimento é criaremos um perfil para um local que não exija o controle de matrícula.</span><span class="sxs-lookup"><span data-stu-id="0436b-105">In this procedure we’ll create a profile for a location that doesn’t require license plate control.</span></span> <span data-ttu-id="0436b-106">Nós habilitaremos misturados itens, e o status de estoque e permitimos misturados, a contagem cíclica.</span><span class="sxs-lookup"><span data-stu-id="0436b-106">We’ll enable mixed items, and mixed inventory statuses, and allow cycle counting.</span></span> <span data-ttu-id="0436b-107">Você pode usar este procedimento na empresa USMF de dados de demonstração.</span><span class="sxs-lookup"><span data-stu-id="0436b-107">You can use this procedure in the USMF demo data company.</span></span>
 
-1. Clique em Novo.
-2. No campo ID do perfil de localização, digite um valor.
-3. No campo Nome, digite um valor.
-4. No campo Formato de local, insira ou selecione um valor.
-5. No campo Tipo de local, insira ou selecione um valor.
-6. No campo ID do perfil do gerenciamento de doca, insira ou selecione um valor.
-7. Selecione Sim no campo Permitir itens misturados.
-8. Selecione Sim no campo Permitir status de estoque misturados.
-9. Selecione Sim no campo Permitir contagem cíclica.
-10. Clique em Salvar.
-11. Vá para Gerenciamento de depósito > Configuração > Depósito > Perfis de localização.
+1. <span data-ttu-id="0436b-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="0436b-108">Click New.</span></span>
+2. <span data-ttu-id="0436b-109">No campo ID do perfil de localização, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="0436b-109">In the Location profile ID field, type a value.</span></span>
+3. <span data-ttu-id="0436b-110">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="0436b-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="0436b-111">No campo Formato de local, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0436b-111">In the Location format field, enter or select a value.</span></span>
+5. <span data-ttu-id="0436b-112">No campo Tipo de local, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0436b-112">In the Location type field, enter or select a value.</span></span>
+6. <span data-ttu-id="0436b-113">No campo ID do perfil do gerenciamento de doca, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0436b-113">In the Dock management profile ID field, enter or select a value.</span></span>
+7. <span data-ttu-id="0436b-114">Selecione Sim no campo Permitir itens misturados.</span><span class="sxs-lookup"><span data-stu-id="0436b-114">Select Yes in the Allow mixed items field.</span></span>
+8. <span data-ttu-id="0436b-115">Selecione Sim no campo Permitir status de estoque misturados.</span><span class="sxs-lookup"><span data-stu-id="0436b-115">Select Yes in the Allow mixed  inventory statuses field.</span></span>
+9. <span data-ttu-id="0436b-116">Selecione Sim no campo Permitir contagem cíclica.</span><span class="sxs-lookup"><span data-stu-id="0436b-116">Select Yes in the Allow cycle counting field.</span></span>
+10. <span data-ttu-id="0436b-117">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="0436b-117">Click Save.</span></span>
+11. <span data-ttu-id="0436b-118">Vá para Gerenciamento de depósito > Configuração > Depósito > Perfis de localização.</span><span class="sxs-lookup"><span data-stu-id="0436b-118">Go to Warehouse management > Setup > Warehouse > Location profiles.</span></span>
 
 

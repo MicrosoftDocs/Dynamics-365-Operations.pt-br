@@ -18,75 +18,75 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: b4c0d14340e96b2e7916ea73e25e62ae5c33ce49
+ms.sourcegitcommit: 97d374230cc6e833b9f585de000e1252f2a78b9d
+ms.openlocfilehash: 83703d962d6099ba8ac107548a569c8d1f34882f
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/30/2017
 
 ---
 
-# <a name="register-material-consumption-using-a-mobile-device"></a>Registrar o consumo de materiais usando um dispositivo móvel
-Este tópico descreve um fluxo de trabalho que permite o registro do consumo de matéria-prima na produção usando um dispositivo portátil.
+# <a name="register-material-consumption-using-a-mobile-device"></a><span data-ttu-id="00928-103">Registrar o consumo de materiais usando um dispositivo móvel</span><span class="sxs-lookup"><span data-stu-id="00928-103">Register material consumption using a mobile device</span></span>
+<span data-ttu-id="00928-104">Este tópico descreve um fluxo de trabalho que permite o registro do consumo de matéria-prima na produção usando um dispositivo portátil.</span><span class="sxs-lookup"><span data-stu-id="00928-104">This topic describes a workflow that enables registration of raw material consumption in production by using a handheld device.</span></span>
 
-<a name="introduction"></a>Introdução
+<a name="introduction"></a><span data-ttu-id="00928-105">Introdução</span><span class="sxs-lookup"><span data-stu-id="00928-105">Introduction</span></span>
 ------------
 
-Este fluxo de trabalho é relevante se houver um requisito rigoroso para a rastreabilidade do material. Nesses casos, para manter a rastreabilidade dos materiais, o tempo e a quantidade exatos devem ser relatados para o consumo. Este processo pode ser visto em oposição às operações de pré-lavagem ou retrocesso, onde há um deslocamento entre o momento do registro e o tempo em que o consumo real ocorre. Isso explica por que uma estratégia de consumo automático não pode ser usada para alguns materiais com requisitos de rastreabilidade. Vejamos um cenário simples que explica como configurar um fluxo de trabalho para permitir o registro do consumo de matéria-prima na produção, usando um dispositivo portátil. [![](./media/scenario3.png)](./media/scenario3.png)
+<span data-ttu-id="00928-106">Este fluxo de trabalho é relevante se houver um requisito rigoroso para a rastreabilidade do material.</span><span class="sxs-lookup"><span data-stu-id="00928-106">This workflow is relevant if there is a strict requirement for material traceability.</span></span> <span data-ttu-id="00928-107">Nesses casos, para manter a rastreabilidade dos materiais, o tempo e a quantidade exatos devem ser relatados para o consumo.</span><span class="sxs-lookup"><span data-stu-id="00928-107">In those cases, to maintain traceability of the materials, the exact time and quantity must be reported for the consumption.</span></span> <span data-ttu-id="00928-108">Este processo pode ser visto em oposição às operações de pré-lavagem ou retrocesso, onde há um deslocamento entre o momento do registro e o tempo em que o consumo real ocorre.</span><span class="sxs-lookup"><span data-stu-id="00928-108">This process can be seen as opposed to pre- or back-flushing operations, where there is an offset between the time of registration and the time when the actual consumption takes place.</span></span> <span data-ttu-id="00928-109">Isso explica por que uma estratégia de consumo automático não pode ser usada para alguns materiais com requisitos de rastreabilidade.</span><span class="sxs-lookup"><span data-stu-id="00928-109">This explains why a strategy of automatic consumption cannot be used for some materials with traceability requirements.</span></span> <span data-ttu-id="00928-110">Vejamos um cenário simples que explica como configurar um fluxo de trabalho para permitir o registro do consumo de matéria-prima na produção, usando um dispositivo portátil.</span><span class="sxs-lookup"><span data-stu-id="00928-110">Let’s look at a simple scenario that explains how to set up a workflow to enable registration of raw material consumption in production by using a handheld device.</span></span> [![](./media/scenario3.png)](./media/scenario3.png)
 
-### <a name="scenario-details"></a>Detalhes do cenário
+### <a name="scenario-details"></a><span data-ttu-id="00928-111">Detalhes do cenário</span><span class="sxs-lookup"><span data-stu-id="00928-111">Scenario details</span></span>
 
-Um processo contínuo de produção (5) consome a matéria-prima controlada por lote RM-100. O material está disponível no local Bulk-001 (1) na placa PL-1 com dois lotes, B1 e B2, ambos com uma quantidade de 100 lbs. O trabalho de depósito (2) é liberado e processado para RM-100 e o material é colhido de Bulk-001 para o local de entrada de produção PIL-01 (3), que é definido como não-placa de matrícula controlada. O operador da máquina pesa o material do local de entrada de produção (3) e registra o peso e o número do lote como consumido (4). Do local de entrada de produção, uma parte do material é adicionada manualmente ao processo de produção em intervalos de tempo definidos. Quando o operador da máquina adiciona material, é pesado em uma escala e o número do lote é registrado.
+<span data-ttu-id="00928-112">Um processo contínuo de produção (5) consome a matéria-prima controlada por lote RM-100.</span><span class="sxs-lookup"><span data-stu-id="00928-112">A continuous production process (5) consumes the batch-controlled raw material RM-100.</span></span> <span data-ttu-id="00928-113">O material está disponível no local Bulk-001 (1) na placa PL-1 com dois lotes, B1 e B2, ambos com uma quantidade de 100 lbs.</span><span class="sxs-lookup"><span data-stu-id="00928-113">The material is on-hand on location Bulk-001 (1) on license plate PL-1 with two batches, B1 and B2, both with a quantity of 100 lbs.</span></span> <span data-ttu-id="00928-114">O trabalho de depósito (2) é liberado e processado para RM-100 e o material é colhido de Bulk-001 para o local de entrada de produção PIL-01 (3), que é definido como não-placa de matrícula controlada.</span><span class="sxs-lookup"><span data-stu-id="00928-114">Warehouse work (2) is released and processed for RM-100, and the material is picked from Bulk-001 to the production input location PIL-01 (3), which is defined as non-license plate controlled.</span></span> <span data-ttu-id="00928-115">O operador da máquina pesa o material do local de entrada de produção (3) e registra o peso e o número do lote como consumido (4).</span><span class="sxs-lookup"><span data-stu-id="00928-115">The machine operator weighs out material from the production input location (3) and registers the weight and batch number as consumed (4).</span></span> <span data-ttu-id="00928-116">Do local de entrada de produção, uma parte do material é adicionada manualmente ao processo de produção em intervalos de tempo definidos.</span><span class="sxs-lookup"><span data-stu-id="00928-116">From the production input location, a portion of the material is manually added to the production process in defined time intervals.</span></span> <span data-ttu-id="00928-117">Quando o operador da máquina adiciona material, é pesado em uma escala e o número do lote é registrado.</span><span class="sxs-lookup"><span data-stu-id="00928-117">When the machine operator adds material, it is weighed on a scale and the batch number is registered.</span></span>
 
-## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a>Configure o fluxo de trabalho para registrar o consumo usando um dispositivo de mão
-Crie um produto acabado-bom, FG-100, com uma lista de materiais que possui a matéria-prima MR-100 controlada por lote. Adicione dois lotes, B1 e B2, de RM-100 em uma quantidade de 100 para o local: Bulk-001 na placa: PL-1. O princípio de liberação na linha da lista de materiais para RM-100 é **Manual**. Defina a localização da entrada de produção para PIL-01. Você pode fazer isso selecionando esta localização como a localização de entrada de produção padrão no depósito 51.
+## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a><span data-ttu-id="00928-118">Configure o fluxo de trabalho para registrar o consumo usando um dispositivo de mão</span><span class="sxs-lookup"><span data-stu-id="00928-118">Set up the workflow to register consumption using a handheld device</span></span>
+<span data-ttu-id="00928-119">Crie um produto acabado-bom, FG-100, com uma lista de materiais que possui a matéria-prima MR-100 controlada por lote.</span><span class="sxs-lookup"><span data-stu-id="00928-119">Create a finished-good product, FG-100, with a bill of material that has the batch-controlled raw material RM-100.</span></span> <span data-ttu-id="00928-120">Adicione dois lotes, B1 e B2, de RM-100 em uma quantidade de 100 para o local: Bulk-001 na placa: PL-1.</span><span class="sxs-lookup"><span data-stu-id="00928-120">Add two batches, B1 and B2, of RM-100 in a quantity of 100 to location: Bulk-001 on license plate: PL-1.</span></span> <span data-ttu-id="00928-121">O princípio de liberação na linha da lista de materiais para RM-100 é **Manual**.</span><span class="sxs-lookup"><span data-stu-id="00928-121">The flushing principle on the bill of material line for RM-100 is set to **Manual**.</span></span> <span data-ttu-id="00928-122">Defina a localização da entrada de produção para PIL-01.</span><span class="sxs-lookup"><span data-stu-id="00928-122">Set  the production input location to PIL-01.</span></span> <span data-ttu-id="00928-123">Você pode fazer isso selecionando esta localização como a localização de entrada de produção padrão no depósito 51.</span><span class="sxs-lookup"><span data-stu-id="00928-123">You can do that by selecting this location as the default production input location on warehouse 51.</span></span>
 
-1.  Crie um novo item de menu de dispositivo móvel: 
+1.  <span data-ttu-id="00928-124">Crie um novo item de menu de dispositivo móvel:</span><span class="sxs-lookup"><span data-stu-id="00928-124">Create a new mobile device menu item:</span></span> 
 
--    **Nome do item de menu** - Registrar consumo de material. 
--    **Título** - Registrar consumo de material. 
--    **Modo** - Indireto. 
--    **Código de atividade** - Registrar consumo de material.
+-    <span data-ttu-id="00928-125">**Nome do item de menu** - Registrar consumo de material.</span><span class="sxs-lookup"><span data-stu-id="00928-125">**Menu item name** - Register material consumption.</span></span> 
+-    <span data-ttu-id="00928-126">**Título** - Registrar consumo de material.</span><span class="sxs-lookup"><span data-stu-id="00928-126">**Title** - Register material consumption.</span></span> 
+-    <span data-ttu-id="00928-127">**Modo** - Indireto.</span><span class="sxs-lookup"><span data-stu-id="00928-127">**Mode** - Indirect.</span></span> 
+-    <span data-ttu-id="00928-128">**Código de atividade** - Registrar consumo de material.</span><span class="sxs-lookup"><span data-stu-id="00928-128">**Activity code** - Register material consumption.</span></span>
 
-2.  Adicione o item de menu ao menu de dispositivo **Produção móvel**.
-3.  Crie uma ordem de produção para o produto concluído: 
+2.  <span data-ttu-id="00928-129">Adicione o item de menu ao menu de dispositivo **Produção móvel**.</span><span class="sxs-lookup"><span data-stu-id="00928-129">Add the menu item to the **Production Mobile** device menu.</span></span>
+3.  <span data-ttu-id="00928-130">Crie uma ordem de produção para o produto concluído:</span><span class="sxs-lookup"><span data-stu-id="00928-130">Create a production order for the finished product:</span></span> 
 
--    **Número do item** - FG-100 
--    **Local** - 5 
--    **Depósito** - 51 
--    **Quantidade** - 150
+-    <span data-ttu-id="00928-131">**Número do item** - FG-100</span><span class="sxs-lookup"><span data-stu-id="00928-131">**Item number** - FG-100</span></span> 
+-    <span data-ttu-id="00928-132">**Local** - 5</span><span class="sxs-lookup"><span data-stu-id="00928-132">**Site** - 5</span></span> 
+-    <span data-ttu-id="00928-133">**Depósito** - 51</span><span class="sxs-lookup"><span data-stu-id="00928-133">**Warehouse** - 51</span></span> 
+-    <span data-ttu-id="00928-134">**Quantidade** - 150</span><span class="sxs-lookup"><span data-stu-id="00928-134">**Quantity** - 150</span></span>
 
-A ordem de produção é **Estimada** e **Liberada** e o trabalho de depósito é criado.
+<span data-ttu-id="00928-135">A ordem de produção é **Estimada** e **Liberada** e o trabalho de depósito é criado.</span><span class="sxs-lookup"><span data-stu-id="00928-135">The production order is **Estimated** and **Released** and warehouse work is created.</span></span>
 
-4.  Complete o trabalho usando o fluxo de trabalho para a escolha da matéria-prima para o dispositivo portátil.
+4.  <span data-ttu-id="00928-136">Complete o trabalho usando o fluxo de trabalho para a escolha da matéria-prima para o dispositivo portátil.</span><span class="sxs-lookup"><span data-stu-id="00928-136">Complete the work using the workflow for raw material picking for the handheld device.</span></span>
 
-Isso trará o material da localização em massa para o local de entrada de produção PIL-01. Depois que o trabalho for concluído, o material terá o status **Escolhido no local de entrada de produção**. O status depois que os trabalhos foram processados pode ser **Separado** ou **Reservado**. Isso é configurado com o parâmetro **Status da emissão depois de colocar no formulário do depósito**.
+<span data-ttu-id="00928-137">Isso trará o material da localização em massa para o local de entrada de produção PIL-01.</span><span class="sxs-lookup"><span data-stu-id="00928-137">This will bring the material from the bulk location to the production input location PIL-01.</span></span> <span data-ttu-id="00928-138">Depois que o trabalho for concluído, o material terá o status **Escolhido no local de entrada de produção**.</span><span class="sxs-lookup"><span data-stu-id="00928-138">After the work is completed, the material has the status **Picked on the production input location**.</span></span> <span data-ttu-id="00928-139">O status depois que os trabalhos foram processados pode ser **Separado** ou **Reservado**.</span><span class="sxs-lookup"><span data-stu-id="00928-139">The status after work has been processed can be either **Picked** or **Reserved physical**.</span></span> <span data-ttu-id="00928-140">Isso é configurado com o parâmetro **Status da emissão depois de colocar no formulário do depósito**.</span><span class="sxs-lookup"><span data-stu-id="00928-140">This is configured with the parameter **Issue status after put on the warehouse form**.</span></span>
 
-5.  Inicie a ordem de produção a partir do cliente ou do dispositivo portátil usando o item de menu **Início da produção**.
+5.  <span data-ttu-id="00928-141">Inicie a ordem de produção a partir do cliente ou do dispositivo portátil usando o item de menu **Início da produção**.</span><span class="sxs-lookup"><span data-stu-id="00928-141">Start the production order either from the client or from the handheld device by using the **Production start** menu item.</span></span>
 
-Depois que a ordem de produção for iniciada, você pode registrar o consumo de material com o fluxo de trabalho do dispositivo portátil. Vamos começar registrando o consumo de 25 lbs do lote B1.
+<span data-ttu-id="00928-142">Depois que a ordem de produção for iniciada, você pode registrar o consumo de material com o fluxo de trabalho do dispositivo portátil.</span><span class="sxs-lookup"><span data-stu-id="00928-142">After the production order has been started, you can register material consumption with the workflow for the handheld device.</span></span> <span data-ttu-id="00928-143">Vamos começar registrando o consumo de 25 lbs do lote B1.</span><span class="sxs-lookup"><span data-stu-id="00928-143">Let's start by registering consumption of 25 lbs of batch B1.</span></span>
 
-6.  Selecione o item de menu **Registrar consumo de** **material** no menu para o dispositivo portátil, e insira os seguintes detalhes: 
+6.  <span data-ttu-id="00928-144">Selecione o item de menu **Registrar consumo de** **material** no menu para o dispositivo portátil, e insira os seguintes detalhes:</span><span class="sxs-lookup"><span data-stu-id="00928-144">Select the **Register material** **consumption** menu item in the menu for the hand held device, enter the following details:</span></span> 
 
--    O número da ordem de produção. 
--    A localização em que o material será consumido, neste caso PIL-01. 
--    Número do item RM-100. 
--    Nº do lote B1. 
--    Uma quantidade de 25.
+-    <span data-ttu-id="00928-145">O número da ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="00928-145">The production order number.</span></span> 
+-    <span data-ttu-id="00928-146">A localização em que o material será consumido, neste caso PIL-01.</span><span class="sxs-lookup"><span data-stu-id="00928-146">The location on which the material is going to be consumed, in this case PIL-01.</span></span> 
+-    <span data-ttu-id="00928-147">Número do item RM-100.</span><span class="sxs-lookup"><span data-stu-id="00928-147">Item number RM-100.</span></span> 
+-    <span data-ttu-id="00928-148">Nº do lote B1.</span><span class="sxs-lookup"><span data-stu-id="00928-148">Batch number B1.</span></span> 
+-    <span data-ttu-id="00928-149">Uma quantidade de 25.</span><span class="sxs-lookup"><span data-stu-id="00928-149">A quantity of 25.</span></span>
 
-7.  Selecione **OK**.
+7.  <span data-ttu-id="00928-150">Selecione **OK**.</span><span class="sxs-lookup"><span data-stu-id="00928-150">Select **OK**.</span></span>
 
-Observe que a mensagem "Linha do diário criada" aparece no visor. Na ordem de produção há um diário aberto do tipo **Lista de separação da produção** para o número de item RM-100 e o número de lote B1. 
+<span data-ttu-id="00928-151">Observe que a mensagem "Linha do diário criada" aparece no visor.</span><span class="sxs-lookup"><span data-stu-id="00928-151">Note that the message "Journal line is created" appears on the display.</span></span> <span data-ttu-id="00928-152">Na ordem de produção há um diário aberto do tipo **Lista de separação da produção** para o número de item RM-100 e o número de lote B1.</span><span class="sxs-lookup"><span data-stu-id="00928-152">On the production order there is an open journal of the type **Production picking list** for item number RM-100 and batch number B1.</span></span> 
 
-Agora você pode escolher continuar o registro, por exemplo, o número de lote B2, e toda vez que você selecionar **OK,** uma nova linha de diário será adicionada ao diário aberto. 
+<span data-ttu-id="00928-153">Agora você pode escolher continuar o registro, por exemplo, o número de lote B2, e toda vez que você selecionar **OK,** uma nova linha de diário será adicionada ao diário aberto.</span><span class="sxs-lookup"><span data-stu-id="00928-153">You can now choose to continue your registration, for example on batch number B2, and each time you select **OK,** a new journal line is added to the open journal.</span></span> 
 
-Após concluir o registro, selecione **Feito** para lançar o diário e termine o fluxo de trabalho.
+<span data-ttu-id="00928-154">Após concluir o registro, selecione **Feito** para lançar o diário e termine o fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="00928-154">After you have finished your registration, select **Done** to post the journal and end the workflow.</span></span>
 
-### <a name="additional-comments"></a>Comentários adicionais 
+### <a name="additional-comments"></a><span data-ttu-id="00928-155">Comentários adicionais</span><span class="sxs-lookup"><span data-stu-id="00928-155">Additional comments</span></span> 
 
--   Se um usuário cancelar o fluxo de trabalho após a criação de uma linha de diário, o diário fica em um estado não posicionado, mas se o usuário em um ponto posterior usar o fluxo de trabalho para a mesma ordem de produção, as linhas serão adicionadas ao diário aberto, em vez de um novo diário.
--   O novo fluxo de trabalho também suporta o registro de números de série.
--   Só é possível registrar um número de item definido na lista de materiais ou na fórmula para a ordem de produção selecionada ou a ordem do lote.
--   O material pode ser consumido em excesso. Por exemplo, se for estimado que o material será consumido com a quantidade de 100 libras, então pode ser consumido em excesso com uma quantidade de, por exemplo, 105 libras.
+-   <span data-ttu-id="00928-156">Se um usuário cancelar o fluxo de trabalho após a criação de uma linha de diário, o diário fica em um estado não posicionado, mas se o usuário em um ponto posterior usar o fluxo de trabalho para a mesma ordem de produção, as linhas serão adicionadas ao diário aberto, em vez de um novo diário.</span><span class="sxs-lookup"><span data-stu-id="00928-156">If a user cancels the workflow after a journal line is created, the journal is in an unposted state but if the user at a later point uses the workflow for the same production order, then the lines will be added to the open journal rather than to a new journal.</span></span>
+-   <span data-ttu-id="00928-157">O novo fluxo de trabalho também suporta o registro de números de série.</span><span class="sxs-lookup"><span data-stu-id="00928-157">The new workflow also supports the registration of serial numbers.</span></span>
+-   <span data-ttu-id="00928-158">Só é possível registrar um número de item definido na lista de materiais ou na fórmula para a ordem de produção selecionada ou a ordem do lote.</span><span class="sxs-lookup"><span data-stu-id="00928-158">It is only possible to register an item number that is defined in the bill of material or in the formula for the selected production order or batch order.</span></span>
+-   <span data-ttu-id="00928-159">O material pode ser consumido em excesso.</span><span class="sxs-lookup"><span data-stu-id="00928-159">Material can be overconsumed.</span></span> <span data-ttu-id="00928-160">Por exemplo, se for estimado que o material será consumido com a quantidade de 100 libras, então pode ser consumido em excesso com uma quantidade de, por exemplo, 105 libras.</span><span class="sxs-lookup"><span data-stu-id="00928-160">For example, if the material is estimated to be consumed with the quantity of 100 lbs, then it can be overconsumed with a quantity of, for example, 105 lbs.</span></span>
 
 
 

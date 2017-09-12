@@ -18,155 +18,155 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: d9e3018eb7b6c20cfd5e23a10d15e230009196de
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 736eedf270ac08b0bdf9364821f8a7bae981ade9
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="enter-payroll-beginning-balances"></a>Inserir saldos iniciais de folha de pagamento
+# <a name="enter-payroll-beginning-balances"></a><span data-ttu-id="9b27d-104">Inserir saldos iniciais de folha de pagamento</span><span class="sxs-lookup"><span data-stu-id="9b27d-104">Enter payroll beginning balances</span></span>
 
 [!include[banner](../../includes/banner.md)]
 
-Este tópico descreve as etapas para inserir saldos iniciais para códigos de ganhos, deduções, benefícios e impostos. Essas informações são importantes para parceiros que transferem dados de outro sistema para uma nova implementação de folha de pagamento. Para se preparar para inserir saldos iniciais de folha de pagamento, nós verificamos as seguintes informações:
+<span data-ttu-id="9b27d-105">Este tópico descreve as etapas para inserir saldos iniciais para códigos de ganhos, deduções, benefícios e impostos.</span><span class="sxs-lookup"><span data-stu-id="9b27d-105">The topic describes the steps for entering beginning balances for earning codes, deductions, benefits, and taxes.</span></span> <span data-ttu-id="9b27d-106">Essas informações são importantes para parceiros que transferem dados de outro sistema para uma nova implementação de folha de pagamento.</span><span class="sxs-lookup"><span data-stu-id="9b27d-106">This information is valuable for partners who transfer data for a new Payroll implementation from another system.</span></span> <span data-ttu-id="9b27d-107">Para se preparar para inserir saldos iniciais de folha de pagamento, nós verificamos as seguintes informações:</span><span class="sxs-lookup"><span data-stu-id="9b27d-107">To prepare to enter beginning payroll balances, we verify the following information:</span></span>
 
-> * Os registros de funcionários são inseridos e estão disponíveis no sistema
-> * Os dados a seguir estão configurados e atribuídos aos funcionários:
+> * <span data-ttu-id="9b27d-108">Os registros de funcionários são inseridos e estão disponíveis no sistema</span><span class="sxs-lookup"><span data-stu-id="9b27d-108">Employee records are entered and available in the system</span></span>
+> * <span data-ttu-id="9b27d-109">Os dados a seguir estão configurados e atribuídos aos funcionários:</span><span class="sxs-lookup"><span data-stu-id="9b27d-109">The following data is set up and assigned to employees:</span></span>
 
-> > * Ciclos de pagamento e períodos de pagamento
-> > * Códigos de ganhos
-> > * Impostos
-> > * Benefícios e Deduções
+> > * <span data-ttu-id="9b27d-110">Ciclos de pagamento e períodos de pagamento</span><span class="sxs-lookup"><span data-stu-id="9b27d-110">Pay cycles and pay periods</span></span>
+> > * <span data-ttu-id="9b27d-111">Códigos de ganhos</span><span class="sxs-lookup"><span data-stu-id="9b27d-111">Earning codes</span></span>
+> > * <span data-ttu-id="9b27d-112">Impostos</span><span class="sxs-lookup"><span data-stu-id="9b27d-112">Taxes</span></span>
+> > * <span data-ttu-id="9b27d-113">Benefícios e Deduções</span><span class="sxs-lookup"><span data-stu-id="9b27d-113">Benefits and deductions</span></span>
 
-> * A empresa deve ter escolhido uma data em que os saldos iniciais de folha de pagamento podem ser definidos.
+> * <span data-ttu-id="9b27d-114">A empresa deve ter escolhido uma data em que os saldos iniciais de folha de pagamento podem ser definidos.</span><span class="sxs-lookup"><span data-stu-id="9b27d-114">The company should have chosen a date where payroll beginning balances can be set.</span></span>
 
-> * As informações foram coletadas sobre todos os ganhos, benefícios/deduções, contribuições de benefícios, impostos de funcionários e impostos de empregadores, bem como os seus valores acumulados no ano referente ao sistema herdado.
+> * <span data-ttu-id="9b27d-115">As informações foram coletadas sobre todos os ganhos, benefícios/deduções, contribuições de benefícios, impostos de funcionários e impostos de empregadores, bem como os seus valores acumulados no ano referente ao sistema herdado.</span><span class="sxs-lookup"><span data-stu-id="9b27d-115">Information were gathered on all earnings, benefits/deductions, benefit contributions, employee taxes, and employer taxes and their YTD amounts from the legacy system.</span></span>
 
-Na medida em que você planeja inserir os saldos iniciais, considere a forma como os dados precisam ser detalhados. A maioria das empresas insere um valor acumulado único e consolidado. Entretanto caso seja necessário informações mais detalhadas, os saldos podem ser inseridos em incrementos trimestrais. Decidir o nível de detalhes necessário determina quantos demonstrativos manuais de pagamento devem ser criados para cada trabalhador. Para um único valor acumulado, somente um demonstrativo manual é necessário para cada funcionário. Para isso, use os valores acumulados do demonstrativo de pagamento final do sistema anterior como o valor inserido no novo sistema de folha de pagamento.
+<span data-ttu-id="9b27d-116">Na medida em que você planeja inserir os saldos iniciais, considere a forma como os dados precisam ser detalhados.</span><span class="sxs-lookup"><span data-stu-id="9b27d-116">As you plan to enter beginning balances, consider how detailed the data needs to be.</span></span> <span data-ttu-id="9b27d-117">A maioria das empresas insere um valor acumulado único e consolidado.</span><span class="sxs-lookup"><span data-stu-id="9b27d-117">Most businesses enter a single, consolidated year-to-date amount.</span></span> <span data-ttu-id="9b27d-118">Entretanto caso seja necessário informações mais detalhadas, os saldos podem ser inseridos em incrementos trimestrais.</span><span class="sxs-lookup"><span data-stu-id="9b27d-118">However if more detailed information is needed, balances can be entered in quarterly increments.</span></span> <span data-ttu-id="9b27d-119">Decidir o nível de detalhes necessário determina quantos demonstrativos manuais de pagamento devem ser criados para cada trabalhador.</span><span class="sxs-lookup"><span data-stu-id="9b27d-119">Deciding the level of detail that's needed determines how many manual pay statements must be created for each worker.</span></span> <span data-ttu-id="9b27d-120">Para um único valor acumulado, somente um demonstrativo manual é necessário para cada funcionário.</span><span class="sxs-lookup"><span data-stu-id="9b27d-120">For a single year-to-date amount, only one manual statement is needed for each employee.</span></span> <span data-ttu-id="9b27d-121">Para isso, use os valores acumulados do demonstrativo de pagamento final do sistema anterior como o valor inserido no novo sistema de folha de pagamento.</span><span class="sxs-lookup"><span data-stu-id="9b27d-121">To do this use year-to-date amounts from the final pay statement from the previous system as the amount entered in the new payroll system.</span></span>
 
-O exemplo a seguir mostra como você pode inserir os saldos iniciais da folha de pagamento dos funcionários, incluindo códigos de ganhos, benefícios/deduções e impostos. Em um exemplo do mundo real, você teria um item de linha para cada código de ganhos, dedução de benefícios, contribuição para benefícios, imposto de funcionário e imposto de empregador, sendo o valor inserido o valor acumulado no ano. Usando a lista de códigos e valores, siga as etapas para criar um demonstrativo manual de ganhos e pagamentos com contabilidade desabilitada para obter saldos iniciais para fins de folha de pagamento.  Você desabilita a contabilidade por não desejar lançar esse demonstrativo de pagamento inicial na contabilidade. Isso foi feito no sistema herdado e virá para o novo sistema quando você definir os saldos iniciais na contabilidade.
+<span data-ttu-id="9b27d-122">O exemplo a seguir mostra como você pode inserir os saldos iniciais da folha de pagamento dos funcionários, incluindo códigos de ganhos, benefícios/deduções e impostos.</span><span class="sxs-lookup"><span data-stu-id="9b27d-122">The following example shows how you can enter employee payroll beginning balances, including earning codes, benefits/deductions, and taxes.</span></span> <span data-ttu-id="9b27d-123">Em um exemplo do mundo real, você teria um item de linha para cada código de ganhos, dedução de benefícios, contribuição para benefícios, imposto de funcionário e imposto de empregador, sendo o valor inserido o valor acumulado no ano.</span><span class="sxs-lookup"><span data-stu-id="9b27d-123">In a real-world example you would have a line item for each earning code, benefit deduction, benefit contribution, employee tax and employer tax with the amount entered being the year-to-date amount.</span></span> <span data-ttu-id="9b27d-124">Usando a lista de códigos e valores, siga as etapas para criar um demonstrativo manual de ganhos e pagamentos com contabilidade desabilitada para obter saldos iniciais para fins de folha de pagamento.</span><span class="sxs-lookup"><span data-stu-id="9b27d-124">Using that list of codes and amounts, follow the steps for creating a manual earning and pay statement with accounting disabled to bring over beginning balances for payroll purposes.</span></span>  <span data-ttu-id="9b27d-125">Você desabilita a contabilidade por não desejar lançar esse demonstrativo de pagamento inicial na contabilidade.</span><span class="sxs-lookup"><span data-stu-id="9b27d-125">You disable accounting because you won't want to post this beginning balance pay statement to your general ledger.</span></span> <span data-ttu-id="9b27d-126">Isso foi feito no sistema herdado e virá para o novo sistema quando você definir os saldos iniciais na contabilidade.</span><span class="sxs-lookup"><span data-stu-id="9b27d-126">That was done in the legacy system and will come over to the new system when you set beginning balances in General ledger.</span></span>
 
-### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a>A. Como configurar códigos de ganhos a serem usados nos saldos iniciais de folha de pagamento
-Ao inserir os saldos iniciais de folha de pagamento, certifique-se de que os códigos de ganhos que serão utilizados estão configurados com a opção “Permitir edição das taxas do demonstrativo de ganhos" habilitada. Isso permitirá que você digite manualmente o valor do sistema herdado. 
+### <a name="a-how-to-set-up-earnings-codes-to-be-used-on-payroll-beginning-balances"></a><span data-ttu-id="9b27d-127">A.</span><span class="sxs-lookup"><span data-stu-id="9b27d-127">A.</span></span> <span data-ttu-id="9b27d-128">Como configurar códigos de ganhos a serem usados nos saldos iniciais de folha de pagamento</span><span class="sxs-lookup"><span data-stu-id="9b27d-128">How to set up earnings codes to be used on payroll beginning balances</span></span>
+<span data-ttu-id="9b27d-129">Ao inserir os saldos iniciais de folha de pagamento, certifique-se de que os códigos de ganhos que serão utilizados estão configurados com a opção “Permitir edição das taxas do demonstrativo de ganhos" habilitada.</span><span class="sxs-lookup"><span data-stu-id="9b27d-129">When you enter payroll beginning balances, be sure the earning codes that you will be using are configured with the "Allow editing of earning statement rates" option enabled.</span></span> <span data-ttu-id="9b27d-130">Isso permitirá que você digite manualmente o valor do sistema herdado.</span><span class="sxs-lookup"><span data-stu-id="9b27d-130">This will allow you to manually key the amount from the legacy system.</span></span> 
 
-### <a name="b-create-earnings-statement-for-an-employee-to-have-a-beginning-balance"></a>B. Criar demonstrativo de ganhos para que um funcionário tenha um saldo inicial
-Esta etapa cria manualmente um demonstrativo de ganhos para cada trabalhador pelo último período de pagamento do sistema herdado, o que cria as linhas de demonstrativo de ganhos no novo sistema de folha de pagamento. Insira uma linha por código de ganhos e o valor e as horas acumulados no ano. As etapas de amostra são as seguintes:
+### <a name="b-create-earnings-statement-for-an-employee-to-have-a-beginning-balance"></a><span data-ttu-id="9b27d-131">B.</span><span class="sxs-lookup"><span data-stu-id="9b27d-131">B.</span></span> <span data-ttu-id="9b27d-132">Criar demonstrativo de ganhos para que um funcionário tenha um saldo inicial</span><span class="sxs-lookup"><span data-stu-id="9b27d-132">Create earnings statement for an employee to have a beginning balance</span></span>
+<span data-ttu-id="9b27d-133">Esta etapa cria manualmente um demonstrativo de ganhos para cada trabalhador pelo último período de pagamento do sistema herdado, o que cria as linhas de demonstrativo de ganhos no novo sistema de folha de pagamento.</span><span class="sxs-lookup"><span data-stu-id="9b27d-133">This step manually creates an earnings statement for each worker for the last pay period of the legacy system, which creates the earning statement lines in the new payroll system.</span></span> <span data-ttu-id="9b27d-134">Insira uma linha por código de ganhos e o valor e as horas acumulados no ano.</span><span class="sxs-lookup"><span data-stu-id="9b27d-134">Enter one line per earning code and the YTD amount and hours.</span></span> <span data-ttu-id="9b27d-135">As etapas de amostra são as seguintes:</span><span class="sxs-lookup"><span data-stu-id="9b27d-135">The sample steps are as follows:</span></span>
 
-1. Abra a página **Todos os demonstrativos de ganhos** e clique em **Novo**.  
+1. <span data-ttu-id="9b27d-136">Abra a página **Todos os demonstrativos de ganhos** e clique em **Novo**.</span><span class="sxs-lookup"><span data-stu-id="9b27d-136">Open the **All earnings statements** page and click **New**.</span></span>  
 
-Insira os itens a seguir: 
+<span data-ttu-id="9b27d-137">Insira os itens a seguir:</span><span class="sxs-lookup"><span data-stu-id="9b27d-137">Enter the following:</span></span> 
 
-| Campo      | Alíquota                 |
+| <span data-ttu-id="9b27d-138">Campo</span><span class="sxs-lookup"><span data-stu-id="9b27d-138">Field</span></span>      | <span data-ttu-id="9b27d-139">Alíquota</span><span class="sxs-lookup"><span data-stu-id="9b27d-139">Value</span></span>                 |
 |------------|-----------------------|
-| Trabalhador     | Michael Redmond       |
-| Ciclo de pagamento  | sm                    |
-| Período de pagamento | 16/6/2017 - 30/6/2017 |
+| <span data-ttu-id="9b27d-140">Trabalhador</span><span class="sxs-lookup"><span data-stu-id="9b27d-140">Worker</span></span>     | <span data-ttu-id="9b27d-141">Michael Redmond</span><span class="sxs-lookup"><span data-stu-id="9b27d-141">Michael Redmond</span></span>       |
+| <span data-ttu-id="9b27d-142">Ciclo de pagamento</span><span class="sxs-lookup"><span data-stu-id="9b27d-142">Pay cycle</span></span>  | <span data-ttu-id="9b27d-143">sm</span><span class="sxs-lookup"><span data-stu-id="9b27d-143">sm</span></span>                    |
+| <span data-ttu-id="9b27d-144">Período de pagamento</span><span class="sxs-lookup"><span data-stu-id="9b27d-144">Pay period</span></span> | <span data-ttu-id="9b27d-145">16/6/2017 - 30/6/2017</span><span class="sxs-lookup"><span data-stu-id="9b27d-145">6/16/2017 - 6/30/2017</span></span> |
 
-2. Na guia **Linha do demonstrativo de ganhos**, insira o seguinte:
+2. <span data-ttu-id="9b27d-146">Na guia **Linha do demonstrativo de ganhos**, insira o seguinte:</span><span class="sxs-lookup"><span data-stu-id="9b27d-146">In the **Earnings statement line** tab, enter the following:</span></span>
 
-Linha 1: guia **Linha do demonstrativo de ganhos**
+<span data-ttu-id="9b27d-147">Linha 1: guia **Linha do demonstrativo de ganhos**</span><span class="sxs-lookup"><span data-stu-id="9b27d-147">Line 1: **Earning statement line** tab</span></span>
 
-| Campo            | Alíquota       |
+| <span data-ttu-id="9b27d-148">Campo</span><span class="sxs-lookup"><span data-stu-id="9b27d-148">Field</span></span>            | <span data-ttu-id="9b27d-149">Alíquota</span><span class="sxs-lookup"><span data-stu-id="9b27d-149">Value</span></span>       |
 |------------------|-------------|
-| Código de ganhos    | Pagamento regular |
-| Quantidade         | 1.00        |
-| Taxa             | 30.000      |
-| Guia Detalhes da linha |             |
-| Manual           | (marcado)    |
+| <span data-ttu-id="9b27d-150">Código de ganhos</span><span class="sxs-lookup"><span data-stu-id="9b27d-150">Earnings code</span></span>    | <span data-ttu-id="9b27d-151">Pagamento regular</span><span class="sxs-lookup"><span data-stu-id="9b27d-151">Regular pay</span></span> |
+| <span data-ttu-id="9b27d-152">Quantidade</span><span class="sxs-lookup"><span data-stu-id="9b27d-152">Quantity</span></span>         | <span data-ttu-id="9b27d-153">1.00</span><span class="sxs-lookup"><span data-stu-id="9b27d-153">1.00</span></span>        |
+| <span data-ttu-id="9b27d-154">Taxa</span><span class="sxs-lookup"><span data-stu-id="9b27d-154">Rage</span></span>             | <span data-ttu-id="9b27d-155">30.000</span><span class="sxs-lookup"><span data-stu-id="9b27d-155">30,000</span></span>      |
+| <span data-ttu-id="9b27d-156">Guia Detalhes da linha</span><span class="sxs-lookup"><span data-stu-id="9b27d-156">Line details tab</span></span> |             |
+| <span data-ttu-id="9b27d-157">Manual</span><span class="sxs-lookup"><span data-stu-id="9b27d-157">Manual</span></span>           | <span data-ttu-id="9b27d-158">(marcado)</span><span class="sxs-lookup"><span data-stu-id="9b27d-158">(marked)</span></span>    |
 
-Linha 2: guia **Linha do demonstrativo de ganhos**
+<span data-ttu-id="9b27d-159">Linha 2: guia **Linha do demonstrativo de ganhos**</span><span class="sxs-lookup"><span data-stu-id="9b27d-159">Line 2: **Earning statement line** tab</span></span>
 
-| Campo            | Alíquota    |
+| <span data-ttu-id="9b27d-160">Campo</span><span class="sxs-lookup"><span data-stu-id="9b27d-160">Field</span></span>            | <span data-ttu-id="9b27d-161">Alíquota</span><span class="sxs-lookup"><span data-stu-id="9b27d-161">Value</span></span>    |
 |------------------|----------|
-| Código de ganhos    | Bônus    |
-| Quantidade         | 1.0000   |
-| Taxa             | 4250.00  |
-| Guia Detalhes da linha |          |
-| Manual           | (marcado) |
+| <span data-ttu-id="9b27d-162">Código de ganhos</span><span class="sxs-lookup"><span data-stu-id="9b27d-162">Earnings code</span></span>    | <span data-ttu-id="9b27d-163">Bônus</span><span class="sxs-lookup"><span data-stu-id="9b27d-163">Bonus</span></span>    |
+| <span data-ttu-id="9b27d-164">Quantidade</span><span class="sxs-lookup"><span data-stu-id="9b27d-164">Quantity</span></span>         | <span data-ttu-id="9b27d-165">1.0000</span><span class="sxs-lookup"><span data-stu-id="9b27d-165">1.0000</span></span>   |
+| <span data-ttu-id="9b27d-166">Taxa</span><span class="sxs-lookup"><span data-stu-id="9b27d-166">Rate</span></span>             | <span data-ttu-id="9b27d-167">4250.00</span><span class="sxs-lookup"><span data-stu-id="9b27d-167">4250.00</span></span>  |
+| <span data-ttu-id="9b27d-168">Guia Detalhes da linha</span><span class="sxs-lookup"><span data-stu-id="9b27d-168">Line details tab</span></span> |          |
+| <span data-ttu-id="9b27d-169">Manual</span><span class="sxs-lookup"><span data-stu-id="9b27d-169">Manual</span></span>           | <span data-ttu-id="9b27d-170">(marcado)</span><span class="sxs-lookup"><span data-stu-id="9b27d-170">(marked)</span></span> |
 
-Linha 3: guia **Linha do demonstrativo de ganhos**
+<span data-ttu-id="9b27d-171">Linha 3: guia **Linha do demonstrativo de ganhos**</span><span class="sxs-lookup"><span data-stu-id="9b27d-171">Line 3: **Earning statement line** tab</span></span>
 
-| Campo           | Alíquota      |
+| <span data-ttu-id="9b27d-172">Campo</span><span class="sxs-lookup"><span data-stu-id="9b27d-172">Field</span></span>           | <span data-ttu-id="9b27d-173">Alíquota</span><span class="sxs-lookup"><span data-stu-id="9b27d-173">Value</span></span>      |
 |-----------------|------------|
-| Código de ganhos   | Comissão |
-| Quantidade        | 1.0000     |
-| Taxa            | !,299,00   |
-| Taxa            | 1.299,00   |
-| Guia Detalhe da linha |            |
-| Manual          | (Marcado)   |
+| <span data-ttu-id="9b27d-174">Código de ganhos</span><span class="sxs-lookup"><span data-stu-id="9b27d-174">Earnings code</span></span>   | <span data-ttu-id="9b27d-175">Comissão</span><span class="sxs-lookup"><span data-stu-id="9b27d-175">Commission</span></span> |
+| <span data-ttu-id="9b27d-176">Quantidade</span><span class="sxs-lookup"><span data-stu-id="9b27d-176">Quantity</span></span>        | <span data-ttu-id="9b27d-177">1.0000</span><span class="sxs-lookup"><span data-stu-id="9b27d-177">1.0000</span></span>     |
+| <span data-ttu-id="9b27d-178">Taxa</span><span class="sxs-lookup"><span data-stu-id="9b27d-178">Rate</span></span>            | <span data-ttu-id="9b27d-179">!,299,00</span><span class="sxs-lookup"><span data-stu-id="9b27d-179">!,299.00</span></span>   |
+| <span data-ttu-id="9b27d-180">Taxa</span><span class="sxs-lookup"><span data-stu-id="9b27d-180">Rate</span></span>            | <span data-ttu-id="9b27d-181">1.299,00</span><span class="sxs-lookup"><span data-stu-id="9b27d-181">1,299.00</span></span>   |
+| <span data-ttu-id="9b27d-182">Guia Detalhe da linha</span><span class="sxs-lookup"><span data-stu-id="9b27d-182">Line detail tab</span></span> |            |
+| <span data-ttu-id="9b27d-183">Manual</span><span class="sxs-lookup"><span data-stu-id="9b27d-183">Manual</span></span>          | <span data-ttu-id="9b27d-184">(Marcado)</span><span class="sxs-lookup"><span data-stu-id="9b27d-184">(Marked)</span></span>   |
 
 > [!NOTE]
-> A configuração do controle deslizante **Manual** como **Sim** na guia **Detalhes da Linha** para cada linha de declaração de ganhos é fundamental para a inserção dos saldos iniciais de folha de pagamento para cada trabalhador.
+> <span data-ttu-id="9b27d-185">A configuração do controle deslizante **Manual** como **Sim** na guia **Detalhes da Linha** para cada linha de declaração de ganhos é fundamental para a inserção dos saldos iniciais de folha de pagamento para cada trabalhador.</span><span class="sxs-lookup"><span data-stu-id="9b27d-185">Setting the **Manual** slider to **Yes** in the **Line Details** tab for each earnings statement line is key to have payroll beginning balances entered for each worker.</span></span>
 
-3. No painel **Ação**, clique em **Liberar demonstrativo de ganhos** USA-FED-ER-FICA.
+3. <span data-ttu-id="9b27d-186">No painel **Ação**, clique em **Liberar demonstrativo de ganhos** USA-FED-ER-FICA.</span><span class="sxs-lookup"><span data-stu-id="9b27d-186">On the **Action** pane, click **Release earnings statement** USA-FED-ER-FICA.</span></span>
 
-4. No painel **Ação**, clique em **Demonstrativo de pagamento** para abrir a página **Gerar demonstrativos de pagamento** e definir o seguinte:
+4. <span data-ttu-id="9b27d-187">No painel **Ação**, clique em **Demonstrativo de pagamento** para abrir a página **Gerar demonstrativos de pagamento** e definir o seguinte:</span><span class="sxs-lookup"><span data-stu-id="9b27d-187">On the **Action** pane click **Pay statement** to open the **Generate pay statements** page and set the following:</span></span>
 
-| Campo              | Alíquota     |
+| <span data-ttu-id="9b27d-188">Campo</span><span class="sxs-lookup"><span data-stu-id="9b27d-188">Field</span></span>              | <span data-ttu-id="9b27d-189">Alíquota</span><span class="sxs-lookup"><span data-stu-id="9b27d-189">Value</span></span>     |
 |--------------------|-----------|
-| Data de pagamento       | 30/6/2017 |
-| Tipo de execução de pagamento   | Manual    |
-| Desabilitar contabilidade |   Sim     |
+| <span data-ttu-id="9b27d-190">Data de pagamento</span><span class="sxs-lookup"><span data-stu-id="9b27d-190">Payment date</span></span>       | <span data-ttu-id="9b27d-191">30/6/2017</span><span class="sxs-lookup"><span data-stu-id="9b27d-191">6/30/2017</span></span> |
+| <span data-ttu-id="9b27d-192">Tipo de execução de pagamento</span><span class="sxs-lookup"><span data-stu-id="9b27d-192">Payment run type</span></span>   | <span data-ttu-id="9b27d-193">Manual</span><span class="sxs-lookup"><span data-stu-id="9b27d-193">Manual</span></span>    |
+| <span data-ttu-id="9b27d-194">Desabilitar contabilidade</span><span class="sxs-lookup"><span data-stu-id="9b27d-194">Disable accounting</span></span> |   <span data-ttu-id="9b27d-195">Sim</span><span class="sxs-lookup"><span data-stu-id="9b27d-195">Yes</span></span>     |
 
 > [!NOTE] 
-> Isso só está disponível quando o tipo de execução de pagamento é manual e o usuário deseja desabilitar a contabilidade na execução de pagamento
+> <span data-ttu-id="9b27d-196">Isso só está disponível quando o tipo de execução de pagamento é manual e o usuário deseja desabilitar a contabilidade na execução de pagamento</span><span class="sxs-lookup"><span data-stu-id="9b27d-196">This is only available when the payment run type is manual and wherein the user want to disable accounting on the pay run.</span></span>
 
-Clique em **OK** e feche o **Log de Informações**.
+<span data-ttu-id="9b27d-197">Clique em **OK** e feche o **Log de Informações**.</span><span class="sxs-lookup"><span data-stu-id="9b27d-197">Click **OK** and close the **Infolog**.</span></span>
 
-#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a>Por que o controle deslizante Desabilitar Contabilidade precisa estar definido como Sim durante a geração de demonstrativos de pagamento?
-A configuração do controle deslizante como **Sim** impede que as linhas do demonstrativo de pagamento sejam distribuídas na Contabilidade. Os valores da contabilidade eram atualizados antes da inserção dos saldos de conta do sistema herdado. A inserção dos saldos iniciais na Folha de pagamento permite gerar relatórios que incluem informações de anos anteriores, bem como para identificar limites para fins de benefício e de imposto.   
+#### <a name="why-the-disable-accounting-slider-needs-to-set-to-yes-when-generating-pay-statements"></a><span data-ttu-id="9b27d-198">Por que o controle deslizante Desabilitar Contabilidade precisa estar definido como Sim durante a geração de demonstrativos de pagamento?</span><span class="sxs-lookup"><span data-stu-id="9b27d-198">Why the Disable Accounting slider needs to set to Yes when generating pay statements?</span></span>
+<span data-ttu-id="9b27d-199">A configuração do controle deslizante como **Sim** impede que as linhas do demonstrativo de pagamento sejam distribuídas na Contabilidade.</span><span class="sxs-lookup"><span data-stu-id="9b27d-199">Setting the slider to **Yes** prevents lines in the pay statement from being districuted to General ledger.</span></span> <span data-ttu-id="9b27d-200">Os valores da contabilidade eram atualizados antes da inserção dos saldos de conta do sistema herdado.</span><span class="sxs-lookup"><span data-stu-id="9b27d-200">General ledger amounts were updating earlier when account balances from the legacy system were entered.</span></span> <span data-ttu-id="9b27d-201">A inserção dos saldos iniciais na Folha de pagamento permite gerar relatórios que incluem informações de anos anteriores, bem como para identificar limites para fins de benefício e de imposto.</span><span class="sxs-lookup"><span data-stu-id="9b27d-201">Entering beginning balances for Payroll lets you generate reports that include information from prior years, as well as for identifying limits for benefit and tax purposes.</span></span>   
 
-### <a name="c-create-pay-statements-for-employees"></a>C. Gerar demonstrativos de pagamento para funcionários
-Depois de gerar demonstrativos de pagamento com saldos iniciais, você deve verificar se os demonstrativos de pagamento refletem com precisão os dados da folha de pagamento. Você também deve atualizar manualmente as informações de benefícios e impostos para correspondam aos valores no sistema de folha de pagamento anterior. Depois de verificar que os valores do sistema de folha de pagamento anterior correspondem aos valores dos demonstrativos de pagamento atuais, você deve finalizar os demonstrativos de pagamento.
+### <a name="c-create-pay-statements-for-employees"></a><span data-ttu-id="9b27d-202">C.</span><span class="sxs-lookup"><span data-stu-id="9b27d-202">C.</span></span> <span data-ttu-id="9b27d-203">Gerar demonstrativos de pagamento para funcionários</span><span class="sxs-lookup"><span data-stu-id="9b27d-203">Create pay statements for employees</span></span>
+<span data-ttu-id="9b27d-204">Depois de gerar demonstrativos de pagamento com saldos iniciais, você deve verificar se os demonstrativos de pagamento refletem com precisão os dados da folha de pagamento.</span><span class="sxs-lookup"><span data-stu-id="9b27d-204">After you generate pay statements that have beginning balances, you must verify that the pay statements accurately reflect payroll data.</span></span> <span data-ttu-id="9b27d-205">Você também deve atualizar manualmente as informações de benefícios e impostos para correspondam aos valores no sistema de folha de pagamento anterior.</span><span class="sxs-lookup"><span data-stu-id="9b27d-205">You must also manually update the benefit and taxes information to match the values in the previous payroll system.</span></span> <span data-ttu-id="9b27d-206">Depois de verificar que os valores do sistema de folha de pagamento anterior correspondem aos valores dos demonstrativos de pagamento atuais, você deve finalizar os demonstrativos de pagamento.</span><span class="sxs-lookup"><span data-stu-id="9b27d-206">After you verify that the amounts from the previous payroll system match the amounts on the current pay statements, you must finalize the pay statements.</span></span>
 
-1. Abra a página **Todos os demonstrativos de pagamento**.
+1. <span data-ttu-id="9b27d-207">Abra a página **Todos os demonstrativos de pagamento**.</span><span class="sxs-lookup"><span data-stu-id="9b27d-207">Open the **All pay statements** page.</span></span>
 
-2. Destaque o último demonstrativo de pagamento gerado para Michael Redmond
+2. <span data-ttu-id="9b27d-208">Destaque o último demonstrativo de pagamento gerado para Michael Redmond</span><span class="sxs-lookup"><span data-stu-id="9b27d-208">Highlight the last generated pay statement for Michael Redmond</span></span>
 
-3. Clique em **Editar** para abrir a página **Demonstrativo de pagamento**.
+3. <span data-ttu-id="9b27d-209">Clique em **Editar** para abrir a página **Demonstrativo de pagamento**.</span><span class="sxs-lookup"><span data-stu-id="9b27d-209">Click **Edit** to open the **Pay statement** page.</span></span>
 
-4. Abra a guia **Deduções de benefício** e insira o seguinte:
+4. <span data-ttu-id="9b27d-210">Abra a guia **Deduções de benefício** e insira o seguinte:</span><span class="sxs-lookup"><span data-stu-id="9b27d-210">Open the **Benefit deductions** tab and enter the following:</span></span>
 
-| Campo                           | Alíquota            |
+| <span data-ttu-id="9b27d-211">Campo</span><span class="sxs-lookup"><span data-stu-id="9b27d-211">Field</span></span>                           | <span data-ttu-id="9b27d-212">Alíquota</span><span class="sxs-lookup"><span data-stu-id="9b27d-212">Value</span></span>            |
 |---------------------------------|------------------|
-| Benefício                         | Valor da dedução |
-| 401K | Participar              | 3000.00          |
-| Plano odontológico | SubSp                  | 495,00           |
-| Despesas com dependente | Participar | 2500.00          |
-| Visão | SupSp                  | 500,00           |
+| <span data-ttu-id="9b27d-213">Benefício</span><span class="sxs-lookup"><span data-stu-id="9b27d-213">Benefit</span></span>                         | <span data-ttu-id="9b27d-214">Valor da dedução</span><span class="sxs-lookup"><span data-stu-id="9b27d-214">Deduction amount</span></span> |
+| <span data-ttu-id="9b27d-215">401K</span><span class="sxs-lookup"><span data-stu-id="9b27d-215">401K</span></span> | <span data-ttu-id="9b27d-216">Participar</span><span class="sxs-lookup"><span data-stu-id="9b27d-216">Participate</span></span>              | <span data-ttu-id="9b27d-217">3000.00</span><span class="sxs-lookup"><span data-stu-id="9b27d-217">3000.00</span></span>          |
+| <span data-ttu-id="9b27d-218">Plano odontológico</span><span class="sxs-lookup"><span data-stu-id="9b27d-218">Dental</span></span> | <span data-ttu-id="9b27d-219">SubSp</span><span class="sxs-lookup"><span data-stu-id="9b27d-219">SubSp</span></span>                  | <span data-ttu-id="9b27d-220">495,00</span><span class="sxs-lookup"><span data-stu-id="9b27d-220">495.00</span></span>           |
+| <span data-ttu-id="9b27d-221">Despesas com dependente</span><span class="sxs-lookup"><span data-stu-id="9b27d-221">Dep care spending</span></span> | <span data-ttu-id="9b27d-222">Participar</span><span class="sxs-lookup"><span data-stu-id="9b27d-222">Participate</span></span> | <span data-ttu-id="9b27d-223">2500.00</span><span class="sxs-lookup"><span data-stu-id="9b27d-223">2500.00</span></span>          |
+| <span data-ttu-id="9b27d-224">Visão</span><span class="sxs-lookup"><span data-stu-id="9b27d-224">Vision</span></span> | <span data-ttu-id="9b27d-225">SupSp</span><span class="sxs-lookup"><span data-stu-id="9b27d-225">SupSp</span></span>                  | <span data-ttu-id="9b27d-226">500,00</span><span class="sxs-lookup"><span data-stu-id="9b27d-226">500.00</span></span>           |
 
-5. Na guia **Contribuições para benefícios**, insira o seguinte:
+5. <span data-ttu-id="9b27d-227">Na guia **Contribuições para benefícios**, insira o seguinte:</span><span class="sxs-lookup"><span data-stu-id="9b27d-227">In the **Benefit contributions** tab and enter the following:</span></span>
 
-| Campo              | Alíquota               |
+| <span data-ttu-id="9b27d-228">Campo</span><span class="sxs-lookup"><span data-stu-id="9b27d-228">Field</span></span>              | <span data-ttu-id="9b27d-229">Alíquota</span><span class="sxs-lookup"><span data-stu-id="9b27d-229">Value</span></span>               |
 |--------------------|---------------------|
-| Benefício            | Valor de contribuição |
-| 401K | Participar | 3000,00             |
-| Plano odontológico | SubSp     | 495,00              |
-| Visão | SubSp     | 500,00              |
+| <span data-ttu-id="9b27d-230">Benefício</span><span class="sxs-lookup"><span data-stu-id="9b27d-230">Benefit</span></span>            | <span data-ttu-id="9b27d-231">Valor de contribuição</span><span class="sxs-lookup"><span data-stu-id="9b27d-231">Contribution amount</span></span> |
+| <span data-ttu-id="9b27d-232">401K</span><span class="sxs-lookup"><span data-stu-id="9b27d-232">401K</span></span> | <span data-ttu-id="9b27d-233">Participar</span><span class="sxs-lookup"><span data-stu-id="9b27d-233">Participate</span></span> | <span data-ttu-id="9b27d-234">3000,00</span><span class="sxs-lookup"><span data-stu-id="9b27d-234">3000,00</span></span>             |
+| <span data-ttu-id="9b27d-235">Plano odontológico</span><span class="sxs-lookup"><span data-stu-id="9b27d-235">Dental</span></span> | <span data-ttu-id="9b27d-236">SubSp</span><span class="sxs-lookup"><span data-stu-id="9b27d-236">SubSp</span></span>     | <span data-ttu-id="9b27d-237">495,00</span><span class="sxs-lookup"><span data-stu-id="9b27d-237">495.00</span></span>              |
+| <span data-ttu-id="9b27d-238">Visão</span><span class="sxs-lookup"><span data-stu-id="9b27d-238">Vision</span></span> | <span data-ttu-id="9b27d-239">SubSp</span><span class="sxs-lookup"><span data-stu-id="9b27d-239">SubSp</span></span>     | <span data-ttu-id="9b27d-240">500,00</span><span class="sxs-lookup"><span data-stu-id="9b27d-240">500.00</span></span>              |
 
-6. Na guia **Deduções de imposto**, insira o seguinte:
+6. <span data-ttu-id="9b27d-241">Na guia **Deduções de imposto**, insira o seguinte:</span><span class="sxs-lookup"><span data-stu-id="9b27d-241">In the **Tax deductions** tab, enter the following:</span></span>
 
-| Campo           | Alíquota            |
+| <span data-ttu-id="9b27d-242">Campo</span><span class="sxs-lookup"><span data-stu-id="9b27d-242">Field</span></span>           | <span data-ttu-id="9b27d-243">Alíquota</span><span class="sxs-lookup"><span data-stu-id="9b27d-243">Value</span></span>            |
 |-----------------|------------------|
-| Código do Imposto        | Valor da dedução |
-| USA-FED-ER-FICA | 1600.00          |
-| USA-FED-ER-MEDI | 825.75           |
+| <span data-ttu-id="9b27d-244">Código do Imposto</span><span class="sxs-lookup"><span data-stu-id="9b27d-244">Tax code</span></span>        | <span data-ttu-id="9b27d-245">Valor da dedução</span><span class="sxs-lookup"><span data-stu-id="9b27d-245">Deduction amount</span></span> |
+| <span data-ttu-id="9b27d-246">USA-FED-ER-FICA</span><span class="sxs-lookup"><span data-stu-id="9b27d-246">USA-FED-ER-FICA</span></span> | <span data-ttu-id="9b27d-247">1600.00</span><span class="sxs-lookup"><span data-stu-id="9b27d-247">1600.00</span></span>          |
+| <span data-ttu-id="9b27d-248">USA-FED-ER-MEDI</span><span class="sxs-lookup"><span data-stu-id="9b27d-248">USA-FED-ER-MEDI</span></span> | <span data-ttu-id="9b27d-249">825.75</span><span class="sxs-lookup"><span data-stu-id="9b27d-249">825.75</span></span>           |
 
-7. Na guia **Contribuições de imposto**, insira o seguinte:
+7. <span data-ttu-id="9b27d-250">Na guia **Contribuições de imposto**, insira o seguinte:</span><span class="sxs-lookup"><span data-stu-id="9b27d-250">In the **Tax contributions** tab enter the following:</span></span>
 
-8. Clique em **Calcular**.
+8. <span data-ttu-id="9b27d-251">Clique em **Calcular**.</span><span class="sxs-lookup"><span data-stu-id="9b27d-251">Click **Calculate**.</span></span>
 > [!IMPORTANT] 
-> Valide os totais do demonstrativo de pagamento ao trabalhador correspondentes ao acumulado do sistema herdado. Você pode querer adiar a finalização na próxima etapa para fazer uma validação geral de todos os demonstrativos de pagamento acumulados. Após a validação, reexamine todos os demonstrativos de pagamento e faça a finalização.
+> <span data-ttu-id="9b27d-252">Valide os totais do demonstrativo de pagamento ao trabalhador correspondentes ao acumulado do sistema herdado.</span><span class="sxs-lookup"><span data-stu-id="9b27d-252">Validate the totals of the pay statement that they match the YTD of the legacy system for the worker.</span></span> <span data-ttu-id="9b27d-253">Você pode querer adiar a finalização na próxima etapa para fazer uma validação geral de todos os demonstrativos de pagamento acumulados.</span><span class="sxs-lookup"><span data-stu-id="9b27d-253">You may want to hold off on finalizing in the next step to do some overall validating of all pay statements in aggregate.</span></span> <span data-ttu-id="9b27d-254">Após a validação, reexamine todos os demonstrativos de pagamento e faça a finalização.</span><span class="sxs-lookup"><span data-stu-id="9b27d-254">Once validated run through all the pay statements and finalize them.</span></span>
 
-O mesmo processo pode ser feito em incrementos trimestrais, se necessário, para os trimestres anteriores de cada ano. Isso só é necessário se o cliente precisar conferir os dados por trimestre sem retornar ao sistema herdado.
+<span data-ttu-id="9b27d-255">O mesmo processo pode ser feito em incrementos trimestrais, se necessário, para os trimestres anteriores de cada ano.</span><span class="sxs-lookup"><span data-stu-id="9b27d-255">The same process can be done in quarter increments if necessary for all prior quarters in each year.</span></span> <span data-ttu-id="9b27d-256">Isso só é necessário se o cliente precisar conferir os dados por trimestre sem retornar ao sistema herdado.</span><span class="sxs-lookup"><span data-stu-id="9b27d-256">This is only needed if the customer needs to see the data by quarter without going back to the legacy system.</span></span>
 
-## <a name="if-you-make-a-mistake-entering-beginning-balances-for-an-employee"></a>Se você cometer um erro ao inserir saldos iniciais para um funcionário
-É possível reverter e inserir novamente as transações. Para reverter a transação, tudo o que deve fazer é concluir as etapas a seguir na página **Todos os demonstrativos de pagamento**.
+## <a name="if-you-make-a-mistake-entering-beginning-balances-for-an-employee"></a><span data-ttu-id="9b27d-257">Se você cometer um erro ao inserir saldos iniciais para um funcionário</span><span class="sxs-lookup"><span data-stu-id="9b27d-257">If you make a mistake Entering Beginning Balances for an Employee</span></span>
+<span data-ttu-id="9b27d-258">É possível reverter e inserir novamente as transações.</span><span class="sxs-lookup"><span data-stu-id="9b27d-258">It is possible to reverse and reenter transactions.</span></span> <span data-ttu-id="9b27d-259">Para reverter a transação, tudo o que deve fazer é concluir as etapas a seguir na página **Todos os demonstrativos de pagamento**.</span><span class="sxs-lookup"><span data-stu-id="9b27d-259">To reverse the transaction, all you have to do is to complete the follow steps on the **All pay statements** page.</span></span>
 
-1. Clique em **Reverter**.
+1. <span data-ttu-id="9b27d-260">Clique em **Reverter**.</span><span class="sxs-lookup"><span data-stu-id="9b27d-260">Click **Reverse**.</span></span>
 
-2. Clique em **Sim** quando a mensagem “Quando você reverte este demonstrativo de pagamento, uma reversão de demonstrativo de pagamento é criada para compensar este demonstrativo de pagamento. Não é possível editar os demonstrativos de pagamento. Deseja reverter este demonstrativo de pagamento?” for exibida. 
+2. <span data-ttu-id="9b27d-261">Clique em **Sim** quando a mensagem “Quando você reverte este demonstrativo de pagamento, uma reversão de demonstrativo de pagamento é criada para compensar este demonstrativo de pagamento.</span><span class="sxs-lookup"><span data-stu-id="9b27d-261">Click **Yes** when the message "When you reverse this pay statement, a reversing pay statement will be created to offset this pay statement.</span></span> <span data-ttu-id="9b27d-262">Não é possível editar os demonstrativos de pagamento.</span><span class="sxs-lookup"><span data-stu-id="9b27d-262">Neither pay statement can be edited.</span></span> <span data-ttu-id="9b27d-263">Deseja reverter este demonstrativo de pagamento?”</span><span class="sxs-lookup"><span data-stu-id="9b27d-263">Do you want to reverse this pay statement?"</span></span> <span data-ttu-id="9b27d-264">for exibida.</span><span class="sxs-lookup"><span data-stu-id="9b27d-264">displays.</span></span> 
 
-Depois de reverter o demonstrativo de pagamento, você poderá gerar um novo demonstrativo de pagamento para o trabalhador a partir da declaração de ganhos criada anteriormente. Corrija qualquer linha incorreta na declaração de ganhos antes de gerar o novo demonstrativo de pagamento e então gere novos demonstrativos de pagamento com os valores corretos. 
+<span data-ttu-id="9b27d-265">Depois de reverter o demonstrativo de pagamento, você poderá gerar um novo demonstrativo de pagamento para o trabalhador a partir da declaração de ganhos criada anteriormente.</span><span class="sxs-lookup"><span data-stu-id="9b27d-265">After you reverse the pay statement, you can generate a new pay statement for the worker from the earnings statement that you created previously.</span></span> <span data-ttu-id="9b27d-266">Corrija qualquer linha incorreta na declaração de ganhos antes de gerar o novo demonstrativo de pagamento e então gere novos demonstrativos de pagamento com os valores corretos.</span><span class="sxs-lookup"><span data-stu-id="9b27d-266">Be sure to fix any incorrect lines on the earnings statement before you generate the new pay statement, and then generate new pay statements with the correct amounts.</span></span> 
 

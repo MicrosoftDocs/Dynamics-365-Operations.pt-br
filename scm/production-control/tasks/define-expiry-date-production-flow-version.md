@@ -17,27 +17,27 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: b968502de357779b7d26a5780f3febc3076dd9ad
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 6fabeb31720a60bf97d08dabf8ed87ac6af7cbf7
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-an-expiry-date-for-a-production-flow-version"></a>Definir uma data de vencimento de uma versão de fluxo de produção
+# <a name="define-an-expiry-date-for-a-production-flow-version"></a><span data-ttu-id="b94df-103">Definir uma data de vencimento de uma versão de fluxo de produção</span><span class="sxs-lookup"><span data-stu-id="b94df-103">Define an expiry date for a production flow version</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Para encerrar a validade e o processamento de uma versão de fluxo de produção em uma data planejada ou para planejar a substituição de uma versão ativa por uma nova, é necessário definir uma data de vencimento na versão. Não é necessário desativar a versão.
+<span data-ttu-id="b94df-104">Para encerrar a validade e o processamento de uma versão de fluxo de produção em uma data planejada ou para planejar a substituição de uma versão ativa por uma nova, é necessário definir uma data de vencimento na versão.</span><span class="sxs-lookup"><span data-stu-id="b94df-104">To end the validity and the processing of a production flow version on a given date, or to plan replacement of an active version with a new version, you have to set an expiry date on the version.</span></span> <span data-ttu-id="b94df-105">Não é necessário desativar a versão.</span><span class="sxs-lookup"><span data-stu-id="b94df-105">It is not necessary to deactivate the version.</span></span>
 
 
-## <a name="set-an-expiration-date-to-end-a-production-flow-version"></a>Definir uma data de vencimento para encerrar uma versão de fluxo de produção
-1. Vá para Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.
-2. Na lista, localize e selecione o PDV desejado.
-    * Selecione qualquer fluxo de produção que tenha uma versão já definida.  
-3. Na lista, clique no link na linha selecionada.
-4. Clique em Editar.
-5. Na lista, marque a linha selecionada.
-6. No campo Data de vencimento, insira uma data e hora.
-    * Para a data de vencimento, uma nova versão não iniciará nem será ativada. Também não será possível criar ou iniciar trabalhos para esse fluxo de produção. Ainda será possível concluir trabalhos iniciados após a data de vencimento.  
+## <a name="set-an-expiration-date-to-end-a-production-flow-version"></a><span data-ttu-id="b94df-106">Definir uma data de vencimento para encerrar uma versão de fluxo de produção</span><span class="sxs-lookup"><span data-stu-id="b94df-106">Set an expiration date to end a production flow version</span></span>
+1. <span data-ttu-id="b94df-107">Vá para Controle de produção > Configuração > Fluxo de produção de lean manufacturing > Fluxos de produção.</span><span class="sxs-lookup"><span data-stu-id="b94df-107">Go to Production control > Setup > Lean production flow > Production flows.</span></span>
+2. <span data-ttu-id="b94df-108">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="b94df-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="b94df-109">Selecione qualquer fluxo de produção que tenha uma versão já definida.</span><span class="sxs-lookup"><span data-stu-id="b94df-109">Select any production flow that has a version that is already defined.</span></span>  
+3. <span data-ttu-id="b94df-110">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="b94df-110">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="b94df-111">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="b94df-111">Click Edit.</span></span>
+5. <span data-ttu-id="b94df-112">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="b94df-112">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="b94df-113">No campo Data de vencimento, insira uma data e hora.</span><span class="sxs-lookup"><span data-stu-id="b94df-113">In the Expiration date field, enter a date and time.</span></span>
+    * <span data-ttu-id="b94df-114">Para a data de vencimento, uma nova versão não iniciará nem será ativada.</span><span class="sxs-lookup"><span data-stu-id="b94df-114">For the expiration date, a new version will not start or become activated.</span></span> <span data-ttu-id="b94df-115">Também não será possível criar ou iniciar trabalhos para esse fluxo de produção.</span><span class="sxs-lookup"><span data-stu-id="b94df-115">It will also no longer be possible to create or start jobs for this production flow.</span></span> <span data-ttu-id="b94df-116">Ainda será possível concluir trabalhos iniciados após a data de vencimento.</span><span class="sxs-lookup"><span data-stu-id="b94df-116">You can still complete started jobs after the expiration date.</span></span>  
 
 

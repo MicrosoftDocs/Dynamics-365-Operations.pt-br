@@ -16,56 +16,56 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7c38debf005cf14176a5184c489242e914c1ff4c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ebad4ec9ec6242978a26007a64416ae1b2af5c28
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-assign-advanced-rule-structures"></a>Criar e atribuir estruturas de regras avançadas
+# <a name="create-and-assign-advanced-rule-structures"></a><span data-ttu-id="8e5a4-103">Criar e atribuir estruturas de regras avançadas</span><span class="sxs-lookup"><span data-stu-id="8e5a4-103">Create and assign advanced rule structures</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este guia de tarefas aborda a criação e atribuição de uma estrutura de regra avançada a uma estrutura de conta. Este guia usa a empresa de demonstração USMF.
+<span data-ttu-id="8e5a4-104">Este guia de tarefas aborda a criação e atribuição de uma estrutura de regra avançada a uma estrutura de conta.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-104">This task guide steps through creating and assigning an advanced rule structure to an account structure.</span></span> <span data-ttu-id="8e5a4-105">Este guia usa a empresa de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-105">This guide uses the USMF demo company.</span></span>
 
 
-## <a name="create-an-advanced-rule-structure"></a>Criar estrutura de regras avançada
-1. Vá para Contabilidade > Plano de contas > Estruturas > Estruturas de regra avançada.
-2. Clique em Novo para abrir a caixa de diálogo suspensa.
-3. No campo Estrutura de regra avançada, digite um nome para descrever a estrutura da regra.
-4. No campo Descrição, digite um valor para descrever a estrutura.
-5. Clique em OK.
-6. Clique em Adicionar segmento.
-7. Na lista de segmentos, selecione uma dimensão financeira.
-    * Por exemplo, Loja.  
-8. Clique em Adicionar segmento.
-9. Na lista, clique no link da estrutura de regra avançada para exibi-la.
-10. Clique em Ativar.
-11. Clique em Ativar.
+## <a name="create-an-advanced-rule-structure"></a><span data-ttu-id="8e5a4-106">Criar estrutura de regras avançada</span><span class="sxs-lookup"><span data-stu-id="8e5a4-106">Create an advanced rule structure</span></span>
+1. <span data-ttu-id="8e5a4-107">Vá para Contabilidade > Plano de contas > Estruturas > Estruturas de regra avançada.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-107">Go to General ledger > Chart of accounts > Structures > Advanced rule structures.</span></span>
+2. <span data-ttu-id="8e5a4-108">Clique em Novo para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-108">Click New to open the drop dialog.</span></span>
+3. <span data-ttu-id="8e5a4-109">No campo Estrutura de regra avançada, digite um nome para descrever a estrutura da regra.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-109">In the Advanced rule structure field, type a name to descritbe the rule structure.</span></span>
+4. <span data-ttu-id="8e5a4-110">No campo Descrição, digite um valor para descrever a estrutura.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-110">In the Description field, type a value to describe the structure.</span></span>
+5. <span data-ttu-id="8e5a4-111">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-111">Click OK.</span></span>
+6. <span data-ttu-id="8e5a4-112">Clique em Adicionar segmento.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-112">Click Add segment.</span></span>
+7. <span data-ttu-id="8e5a4-113">Na lista de segmentos, selecione uma dimensão financeira.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-113">In the list of segments, select a financial dimension.</span></span>
+    * <span data-ttu-id="8e5a4-114">Por exemplo, Loja.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-114">For example, Store.</span></span>  
+8. <span data-ttu-id="8e5a4-115">Clique em Adicionar segmento.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-115">Click Add segment.</span></span>
+9. <span data-ttu-id="8e5a4-116">Na lista, clique no link da estrutura de regra avançada para exibi-la.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-116">In the list, click the link of the advanced rule structure to view it.</span></span>
+10. <span data-ttu-id="8e5a4-117">Clique em Ativar.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-117">Click Activate.</span></span>
+11. <span data-ttu-id="8e5a4-118">Clique em Ativar.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-118">Click Activate.</span></span>
 
-## <a name="apply-an-advanced-rule-structure-to-an-account-structure"></a>Aplicar estrutura de regra avançada a uma estrutura de conta
-1. Feche o formulário.
-2. Feche a página.
-3. Vá para Contabilidade > Plano de contas > Estruturas > Configurar estruturas de conta.
-4. Na lista, localize e selecione a estrutura de conta à qual deseja aplicar a regra avançada.
-5. Clique no nome da estrutura de conta para abri-la.
-6. Clique em Editar.
-    * Você também pode clicar em Regras avançadas, e será solicitado que você coloque a estrutura de conta no modo de rascunho.  
-7. Clique em Regras avançadas.
-8. Clique em Novo para abrir a caixa de diálogo suspensa.
-9. No campo Regra avançada, digite um valor.
-10. No campo Nome, digite um valor.
-11. Clique em Criar.
-12. Clique em Adicionar novos critérios.
-13. No campo Onde, selecione uma conta principal ou uma dimensão financeira.
-14. No campo Operador, selecione uma opção, como está entre e inclui.
-15. No campo Valor, digite um valor.
-16. No campo por meio de, digite um valor.
-17. Clique em Adicionar para abrir a caixa de diálogo suspensa.
-18. Na lista, localize a estrutura de regra avançada que deseja usar quando os critérios inseridos forem atendidos.
-19. Clique em Adicionar.
-20. Feche a página.
-21. Clique em Ativar.
-22. Clique em Ativar.
+## <a name="apply-an-advanced-rule-structure-to-an-account-structure"></a><span data-ttu-id="8e5a4-119">Aplicar estrutura de regra avançada a uma estrutura de conta</span><span class="sxs-lookup"><span data-stu-id="8e5a4-119">Apply an advanced rule structure to an account structure</span></span>
+1. <span data-ttu-id="8e5a4-120">Feche o formulário.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-120">Close the form.</span></span>
+2. <span data-ttu-id="8e5a4-121">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-121">Close the page.</span></span>
+3. <span data-ttu-id="8e5a4-122">Vá para Contabilidade > Plano de contas > Estruturas > Configurar estruturas de conta.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-122">Go to General ledger > Chart of accounts > Structures > Configure account structures.</span></span>
+4. <span data-ttu-id="8e5a4-123">Na lista, localize e selecione a estrutura de conta à qual deseja aplicar a regra avançada.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-123">In the list, find and select the account structure you want to apply the advanced rule to.</span></span>
+5. <span data-ttu-id="8e5a4-124">Clique no nome da estrutura de conta para abri-la.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-124">Click the name of the account structure to open it.</span></span>
+6. <span data-ttu-id="8e5a4-125">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-125">Click Edit.</span></span>
+    * <span data-ttu-id="8e5a4-126">Você também pode clicar em Regras avançadas, e será solicitado que você coloque a estrutura de conta no modo de rascunho.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-126">You can also click Advanced rules and you will be prompted to put the account structure in Draft mode.</span></span>  
+7. <span data-ttu-id="8e5a4-127">Clique em Regras avançadas.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-127">Click Advanced rules.</span></span>
+8. <span data-ttu-id="8e5a4-128">Clique em Novo para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-128">Click New to open the drop dialog.</span></span>
+9. <span data-ttu-id="8e5a4-129">No campo Regra avançada, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-129">In the Advanced rule field, type a value.</span></span>
+10. <span data-ttu-id="8e5a4-130">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-130">In the Name field, type a value.</span></span>
+11. <span data-ttu-id="8e5a4-131">Clique em Criar.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-131">Click Create.</span></span>
+12. <span data-ttu-id="8e5a4-132">Clique em Adicionar novos critérios.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-132">Click Add new criteria.</span></span>
+13. <span data-ttu-id="8e5a4-133">No campo Onde, selecione uma conta principal ou uma dimensão financeira.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-133">In the Where field, select main account or a financial dimension.</span></span>
+14. <span data-ttu-id="8e5a4-134">No campo Operador, selecione uma opção, como está entre e inclui.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-134">In the Operator field, select an option, such as is between and includes.</span></span>
+15. <span data-ttu-id="8e5a4-135">No campo Valor, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-135">In the Value field, type a value.</span></span>
+16. <span data-ttu-id="8e5a4-136">No campo por meio de, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-136">In the through field, type a value.</span></span>
+17. <span data-ttu-id="8e5a4-137">Clique em Adicionar para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-137">Click Add to open the drop dialog.</span></span>
+18. <span data-ttu-id="8e5a4-138">Na lista, localize a estrutura de regra avançada que deseja usar quando os critérios inseridos forem atendidos.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-138">In the list, find the advanced rule structure you want to use when the criteria you entered is met.</span></span>
+19. <span data-ttu-id="8e5a4-139">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-139">Click Add.</span></span>
+20. <span data-ttu-id="8e5a4-140">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-140">Close the page.</span></span>
+21. <span data-ttu-id="8e5a4-141">Clique em Ativar.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-141">Click Activate.</span></span>
+22. <span data-ttu-id="8e5a4-142">Clique em Ativar.</span><span class="sxs-lookup"><span data-stu-id="8e5a4-142">Click Activate.</span></span>
 
 

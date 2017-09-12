@@ -16,72 +16,72 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 22a252d98da5415f50a1d6ffb28f57aae19b5d14
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0d0cc6508071bea3f622bc21f06aa55d2b757b6f
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-agreement"></a>Criar um contrato de compra
+# <a name="create-a-purchase-agreement"></a><span data-ttu-id="caf25-103">Criar um contrato de compra</span><span class="sxs-lookup"><span data-stu-id="caf25-103">Create a purchase agreement</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento irá guiá-lo na criação de um contrato de compra. Isso seria feito normalmente por um gerente de compras. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados. Você precisa ter classificações do contrato de compra configuradas antes de começar. Após criar um contrato é possível usá-lo quando você criar um PO, e isso irá copiar as condições do contrato de compra para o cabeçalho e para todas as linhas da ordem que são afetadas pelo contrato.
+<span data-ttu-id="caf25-104">Este procedimento irá guiá-lo na criação de um contrato de compra.</span><span class="sxs-lookup"><span data-stu-id="caf25-104">This procedure guides you through the creation of a purchase agreement.</span></span> <span data-ttu-id="caf25-105">Isso seria feito normalmente por um gerente de compras.</span><span class="sxs-lookup"><span data-stu-id="caf25-105">This would typically be done by a purchasing manager.</span></span> <span data-ttu-id="caf25-106">Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.</span><span class="sxs-lookup"><span data-stu-id="caf25-106">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="caf25-107">Você precisa ter classificações do contrato de compra configuradas antes de começar.</span><span class="sxs-lookup"><span data-stu-id="caf25-107">You need to have set up purchase agreement classifications before you start.</span></span> <span data-ttu-id="caf25-108">Após criar um contrato é possível usá-lo quando você criar um PO, e isso irá copiar as condições do contrato de compra para o cabeçalho e para todas as linhas da ordem que são afetadas pelo contrato.</span><span class="sxs-lookup"><span data-stu-id="caf25-108">Once you've created an agreement you can use it when you create a PO, and this will copy the purchase agreement conditions to the header and to any lines in the order that are affected by the agreement.</span></span>
 
 
-## <a name="create-a-new-purchase-agreement"></a>Criar um novo contrato de compra
-1. Vá para Aquisição e fornecimento > Contratos de compra > Contratos de compra.
-2. Clique em Novo.
-3. No campo Conta de fornecedor, clique no botão suspenso para abrir a pesquisa.
-4. Na lista, localize e selecione o registro desejado.
-5. Na lista, clique no link na linha selecionada.
-6. No campo Classificação do contrato de compra, clique no botão suspenso para abrir a pesquisa.
-7. Na lista, localize e selecione o PDV desejado.
-8. Na lista, clique no link na linha selecionada.
-9. Expanda a seção Geral.
-10. No campo Data de validade, insira uma data.
-    * Essa data de vencimento será o padrão para todas as linhas de compromisso e irá determinar por quanto tempo cada compromisso específico é válido.  
-11. No campo Título do documento, digite um nome para o contrato de compra.
-    * Deixe o campo Comprometimento padrão definido como Comprometimento de quantidade do produto (ou altere-o caso não esteja definido assim).  
-    * O valor de compromisso padrão determina suas opções nas linhas do contrato. Se for necessário um novo tipo de compromisso ao criar as linhas do contrato, é preciso alterar o compromisso padrão no cabeçalho.  Existem 4 tipos de compromissos: Compromisso da quantidade do produto - para uma quantidade específica de um produto; Compromisso de valor do produto - para um valor monetário específico de um produto; Compromisso de valor da categoria do produto - para um valor monetário específico em uma categoria de aquisição em que o valor pode ser para um item de catálogo ou um item não catalogado; Compromisso de valor - para um valor monetário específico que pode ser atendido por qualquer produto ou por qualquer categoria de aquisição.  
-12. Clique em OK.
+## <a name="create-a-new-purchase-agreement"></a><span data-ttu-id="caf25-109">Criar um novo contrato de compra</span><span class="sxs-lookup"><span data-stu-id="caf25-109">Create a new purchase agreement</span></span>
+1. <span data-ttu-id="caf25-110">Vá para Aquisição e fornecimento > Contratos de compra > Contratos de compra.</span><span class="sxs-lookup"><span data-stu-id="caf25-110">Go to Procurement and sourcing > Purchase agreements > Purchase agreements.</span></span>
+2. <span data-ttu-id="caf25-111">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="caf25-111">Click New.</span></span>
+3. <span data-ttu-id="caf25-112">No campo Conta de fornecedor, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="caf25-112">In the Vendor account field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="caf25-113">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="caf25-113">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="caf25-114">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="caf25-114">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="caf25-115">No campo Classificação do contrato de compra, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="caf25-115">In the Purchase agreement classification field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="caf25-116">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="caf25-116">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="caf25-117">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="caf25-117">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="caf25-118">Expanda a seção Geral.</span><span class="sxs-lookup"><span data-stu-id="caf25-118">Expand the General section.</span></span>
+10. <span data-ttu-id="caf25-119">No campo Data de validade, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="caf25-119">In the Expiration date field, enter a date.</span></span>
+    * <span data-ttu-id="caf25-120">Essa data de vencimento será o padrão para todas as linhas de compromisso e irá determinar por quanto tempo cada compromisso específico é válido.</span><span class="sxs-lookup"><span data-stu-id="caf25-120">This expiration date will be the default for all commitment lines and will determine how long each specific commitment is valid.</span></span>  
+11. <span data-ttu-id="caf25-121">No campo Título do documento, digite um nome para o contrato de compra.</span><span class="sxs-lookup"><span data-stu-id="caf25-121">In the Document title field, type a name for your purchase agreement.</span></span>
+    * <span data-ttu-id="caf25-122">Deixe o campo Comprometimento padrão definido como Comprometimento de quantidade do produto (ou altere-o caso não esteja definido assim).</span><span class="sxs-lookup"><span data-stu-id="caf25-122">Leave the Default commitment field set to Product quantity commitment (or change it if it’s not set to this).</span></span>  
+    * <span data-ttu-id="caf25-123">O valor de compromisso padrão determina suas opções nas linhas do contrato.</span><span class="sxs-lookup"><span data-stu-id="caf25-123">The default commitment value determines your options on the agreement lines.</span></span> <span data-ttu-id="caf25-124">Se for necessário um novo tipo de compromisso ao criar as linhas do contrato, é preciso alterar o compromisso padrão no cabeçalho.</span><span class="sxs-lookup"><span data-stu-id="caf25-124">If you need a new commitment type when you’re creating the agreement lines, you need to change the default commitment on the header.</span></span>  <span data-ttu-id="caf25-125">Existem 4 tipos de compromissos: Compromisso da quantidade do produto - para uma quantidade específica de um produto; Compromisso de valor do produto - para um valor monetário específico de um produto; Compromisso de valor da categoria do produto - para um valor monetário específico em uma categoria de aquisição em que o valor pode ser para um item de catálogo ou um item não catalogado; Compromisso de valor - para um valor monetário específico que pode ser atendido por qualquer produto ou por qualquer categoria de aquisição.</span><span class="sxs-lookup"><span data-stu-id="caf25-125">There are 4 types of commitments: Product quantity commitment - for a specific quantity of a product; Product value commitment - for a specific currency amount of a product; Product category value commitment - for a specific currency amount in a procurement category where the amount can be for a catalog item or a non-catalog item; Value commitment - for a specific currency amount which can be fulfilled by any product or by any procurement category.</span></span>  
+12. <span data-ttu-id="caf25-126">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="caf25-126">Click OK.</span></span>
 
-## <a name="add-a-commitment"></a>Adicionar um compromisso
-1. Clique em Adicionar linha.
-2. Na lista, marque a linha selecionada.
-3. No campo Número de item, clique no botão suspenso para abrir a pesquisa.
-4. Selecione o produto para o qual você deseja adicionar um compromisso.
-5. Na lista, clique no link na linha selecionada.
-6. No campo Quantidade, insira um número.
-    * Esta é a quantidade total que você concordou em comprar do fornecedor.  
-7. No campo Preço unitário, insira um número.
-8. Expanda a seção Detalhes da linha.
-9. Defina a opção Máximo é forçado para Sim.
-    * A opção Máximo é forçado limita o uso do compromisso. Você só pode comprar até a quantidade especificada no campo Quantidade para a linha.  
-10. Recolha a seção Detalhes de linha.
+## <a name="add-a-commitment"></a><span data-ttu-id="caf25-127">Adicionar um compromisso</span><span class="sxs-lookup"><span data-stu-id="caf25-127">Add a commitment</span></span>
+1. <span data-ttu-id="caf25-128">Clique em Adicionar linha.</span><span class="sxs-lookup"><span data-stu-id="caf25-128">Click Add line.</span></span>
+2. <span data-ttu-id="caf25-129">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="caf25-129">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="caf25-130">No campo Número de item, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="caf25-130">In the Item number field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="caf25-131">Selecione o produto para o qual você deseja adicionar um compromisso.</span><span class="sxs-lookup"><span data-stu-id="caf25-131">Select the product you want to add a commitment for.</span></span>
+5. <span data-ttu-id="caf25-132">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="caf25-132">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="caf25-133">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="caf25-133">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="caf25-134">Esta é a quantidade total que você concordou em comprar do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="caf25-134">This is the total quantity that you have agreed to buy from your vendor.</span></span>  
+7. <span data-ttu-id="caf25-135">No campo Preço unitário, insira um número.</span><span class="sxs-lookup"><span data-stu-id="caf25-135">In the Unit price field, enter a number.</span></span>
+8. <span data-ttu-id="caf25-136">Expanda a seção Detalhes da linha.</span><span class="sxs-lookup"><span data-stu-id="caf25-136">Expand the Line details section.</span></span>
+9. <span data-ttu-id="caf25-137">Defina a opção Máximo é forçado para Sim.</span><span class="sxs-lookup"><span data-stu-id="caf25-137">Set the Max is enforced option to Yes.</span></span>
+    * <span data-ttu-id="caf25-138">A opção Máximo é forçado limita o uso do compromisso.</span><span class="sxs-lookup"><span data-stu-id="caf25-138">The Max is enforced option limits the use of the commitment.</span></span> <span data-ttu-id="caf25-139">Você só pode comprar até a quantidade especificada no campo Quantidade para a linha.</span><span class="sxs-lookup"><span data-stu-id="caf25-139">You can only purchase up to the quantity that's specified in the Quantity field for the line.</span></span>  
+10. <span data-ttu-id="caf25-140">Recolha a seção Detalhes de linha.</span><span class="sxs-lookup"><span data-stu-id="caf25-140">Collapse the Line details section.</span></span>
 
-## <a name="add-header-conditions"></a>Adicionar condições de cabeçalho
-1. No Painel de Ação, clique em Opções.
-2. Clique em Alterar exibição.
-3. Clique em Exibição do cabeçalho.
-4. Expandir a seção Condições.
-5. No campo Método de pagamento, clique no botão suspenso para abrir a pesquisa.
-    * As condições de pagamento da conta do fornecedor são exibidas aqui por padrão.       
-6. Na lista, localize e selecione o PDV desejado.
-7. Na lista, clique no link na linha selecionada.
-8. No campo Modo de entrega, clique no botão suspenso para abrir a pesquisa.
-9. Na lista, clique no link na linha selecionada.
-10. No campo Condições de entrega, clique no botão suspenso para abrir a pesquisa.
-11. Na lista, clique no link na linha selecionada.
+## <a name="add-header-conditions"></a><span data-ttu-id="caf25-141">Adicionar condições de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="caf25-141">Add header conditions</span></span>
+1. <span data-ttu-id="caf25-142">No Painel de Ação, clique em Opções.</span><span class="sxs-lookup"><span data-stu-id="caf25-142">On the Action Pane, click Options.</span></span>
+2. <span data-ttu-id="caf25-143">Clique em Alterar exibição.</span><span class="sxs-lookup"><span data-stu-id="caf25-143">Click Change view.</span></span>
+3. <span data-ttu-id="caf25-144">Clique em Exibição do cabeçalho.</span><span class="sxs-lookup"><span data-stu-id="caf25-144">Click Header view.</span></span>
+4. <span data-ttu-id="caf25-145">Expandir a seção Condições.</span><span class="sxs-lookup"><span data-stu-id="caf25-145">Expand the Terms section.</span></span>
+5. <span data-ttu-id="caf25-146">No campo Método de pagamento, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="caf25-146">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="caf25-147">As condições de pagamento da conta do fornecedor são exibidas aqui por padrão.</span><span class="sxs-lookup"><span data-stu-id="caf25-147">The payment terms from the vendor account are shown here by default.</span></span>       
+6. <span data-ttu-id="caf25-148">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="caf25-148">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="caf25-149">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="caf25-149">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="caf25-150">No campo Modo de entrega, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="caf25-150">In the Mode of delivery field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="caf25-151">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="caf25-151">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="caf25-152">No campo Condições de entrega, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="caf25-152">In the Delivery terms field, click the drop-down button to open the lookup.</span></span>
+11. <span data-ttu-id="caf25-153">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="caf25-153">In the list, click the link in the selected row.</span></span>
 
-## <a name="confirm-and-activate-the-agreement"></a>Confirmar e ativar o contrato
-1. No Painel de Ação, clique em Contrato de compra.
-2. Clique em Confirmação.
-    * Defina a opção Marcar contrato como efetivo para Sim.  
-3. Clique em OK.
-4. No Painel de Ação, clique em Contrato de compra.
-5. Clique em Confirmações do contrato de compra.
-    * A opção de Visualizar/Imprimir permite que você gere um documento para o contrato de compra, o qual você poderá imprimir ou enviar ao fornecedor. Se você atualizar o contrato mais tarde e o reconfirmá-lo, ambas as versões serão exibidas aqui.  
-6. Feche a página.
+## <a name="confirm-and-activate-the-agreement"></a><span data-ttu-id="caf25-154">Confirmar e ativar o contrato</span><span class="sxs-lookup"><span data-stu-id="caf25-154">Confirm and activate the agreement</span></span>
+1. <span data-ttu-id="caf25-155">No Painel de Ação, clique em Contrato de compra.</span><span class="sxs-lookup"><span data-stu-id="caf25-155">On the Action Pane, click Purchase agreement.</span></span>
+2. <span data-ttu-id="caf25-156">Clique em Confirmação.</span><span class="sxs-lookup"><span data-stu-id="caf25-156">Click Confirmation.</span></span>
+    * <span data-ttu-id="caf25-157">Defina a opção Marcar contrato como efetivo para Sim.</span><span class="sxs-lookup"><span data-stu-id="caf25-157">Set the Mark agreement as effective option to Yes.</span></span>  
+3. <span data-ttu-id="caf25-158">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="caf25-158">Click OK.</span></span>
+4. <span data-ttu-id="caf25-159">No Painel de Ação, clique em Contrato de compra.</span><span class="sxs-lookup"><span data-stu-id="caf25-159">On the Action Pane, click Purchase agreement.</span></span>
+5. <span data-ttu-id="caf25-160">Clique em Confirmações do contrato de compra.</span><span class="sxs-lookup"><span data-stu-id="caf25-160">Click Purchase agreement confirmations.</span></span>
+    * <span data-ttu-id="caf25-161">A opção de Visualizar/Imprimir permite que você gere um documento para o contrato de compra, o qual você poderá imprimir ou enviar ao fornecedor.</span><span class="sxs-lookup"><span data-stu-id="caf25-161">The Preview/Print option allows you to generate a document for the purchase agreement which you can then print or send to the vendor.</span></span> <span data-ttu-id="caf25-162">Se você atualizar o contrato mais tarde e o reconfirmá-lo, ambas as versões serão exibidas aqui.</span><span class="sxs-lookup"><span data-stu-id="caf25-162">If you update the agreement later on and re-confirm it, both versions will be shown here.</span></span>  
+6. <span data-ttu-id="caf25-163">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="caf25-163">Close the page.</span></span>
 
 

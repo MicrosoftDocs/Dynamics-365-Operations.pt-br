@@ -16,54 +16,54 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 82319d8d9c7b567f98dfd0e591cb99079fb577b7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 491d8292b7c951be930d2858362c8107caaa76ff
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a>Criar e atribuir uma política de alocação de custos para uma unidade de controle de custos
+# <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a><span data-ttu-id="0e475-103">Criar e atribuir uma política de alocação de custos para uma unidade de controle de custos</span><span class="sxs-lookup"><span data-stu-id="0e475-103">Create and assign a cost allocation policy to a cost control unit</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Use esse procedimento para criar e atribuir uma política de alocação de custos e as regras correspondentes para uma unidade de controle de custo. Esta gravação usa os dados da empresa de demonstração USP2.
+<span data-ttu-id="0e475-104">Use esse procedimento para criar e atribuir uma política de alocação de custos e as regras correspondentes para uma unidade de controle de custo.</span><span class="sxs-lookup"><span data-stu-id="0e475-104">Use this procedure to create and assign a cost allocation policy and the corresponding rules to a cost control unit.</span></span> <span data-ttu-id="0e475-105">Esta gravação usa os dados da empresa de demonstração USP2.</span><span class="sxs-lookup"><span data-stu-id="0e475-105">This recording uses the USP2 demo data company.</span></span>
 
 
-## <a name="create-a-policy"></a>Criar uma política
-1. Vá para Contabilização de custos > Políticas > Políticas de alocação de custos.
-2. Clique em Novo.
-3. No campo Nome da política, digite um valor.
-4. No campo Hierarquia da dimensão de objeto de custo, insira ou selecione um valor.
-    * Selecione Organização.  
-5. No campo Dimensão, insira ou selecione um valor.
-6. Clique em Salvar.
+## <a name="create-a-policy"></a><span data-ttu-id="0e475-106">Criar uma política</span><span class="sxs-lookup"><span data-stu-id="0e475-106">Create a policy</span></span>
+1. <span data-ttu-id="0e475-107">Vá para Contabilização de custos > Políticas > Políticas de alocação de custos.</span><span class="sxs-lookup"><span data-stu-id="0e475-107">Go to Cost accounting > Policies > Cost allocation policies.</span></span>
+2. <span data-ttu-id="0e475-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="0e475-108">Click New.</span></span>
+3. <span data-ttu-id="0e475-109">No campo Nome da política, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="0e475-109">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="0e475-110">No campo Hierarquia da dimensão de objeto de custo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0e475-110">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="0e475-111">Selecione Organização.</span><span class="sxs-lookup"><span data-stu-id="0e475-111">Select Organization.</span></span>  
+5. <span data-ttu-id="0e475-112">No campo Dimensão, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0e475-112">In the Statistical dimension field, enter or select a value.</span></span>
+6. <span data-ttu-id="0e475-113">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="0e475-113">Click Save.</span></span>
 
-## <a name="create-allocation-rules"></a>Criar regras de alocação
-1. Clique em Novo.
-2. Na lista, marque a linha selecionada.
-3. No campo Nó da hierarquia da dimensão de objeto de custo, insira ou selecione um valor.
-4. No campo Comportamento de custo, selecione 'Total'.
-5. No campo Base de alocação, insira ou selecione um valor.
-6. Clique em Novo.
-7. Na lista, marque a linha selecionada.
-8. No campo Nó da hierarquia da dimensão de objeto de custo, insira ou selecione um valor.
-9. No campo Comportamento de custo, selecione 'Total'.
-10. No campo Base de alocação, insira ou selecione um valor.
-11. Clique em Novo.
-12. Na lista, marque a linha selecionada.
-13. No campo Nó da hierarquia da dimensão de objeto de custo, insira ou selecione um valor.
-14. No campo Comportamento de custo, selecione 'Total'.
-15. No campo Base de alocação, insira ou selecione um valor.
-    * Continue até criar todas as regras.  
-16. Clique em Salvar.
+## <a name="create-allocation-rules"></a><span data-ttu-id="0e475-114">Criar regras de alocação</span><span class="sxs-lookup"><span data-stu-id="0e475-114">Create allocation rules</span></span>
+1. <span data-ttu-id="0e475-115">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="0e475-115">Click New.</span></span>
+2. <span data-ttu-id="0e475-116">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="0e475-116">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="0e475-117">No campo Nó da hierarquia da dimensão de objeto de custo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0e475-117">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+4. <span data-ttu-id="0e475-118">No campo Comportamento de custo, selecione 'Total'.</span><span class="sxs-lookup"><span data-stu-id="0e475-118">In the Cost behavior field, select 'Total'.</span></span>
+5. <span data-ttu-id="0e475-119">No campo Base de alocação, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0e475-119">In the Allocation base field, enter or select a value.</span></span>
+6. <span data-ttu-id="0e475-120">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="0e475-120">Click New.</span></span>
+7. <span data-ttu-id="0e475-121">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="0e475-121">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="0e475-122">No campo Nó da hierarquia da dimensão de objeto de custo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0e475-122">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+9. <span data-ttu-id="0e475-123">No campo Comportamento de custo, selecione 'Total'.</span><span class="sxs-lookup"><span data-stu-id="0e475-123">In the Cost behavior field, select 'Total'.</span></span>
+10. <span data-ttu-id="0e475-124">No campo Base de alocação, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0e475-124">In the Allocation base field, enter or select a value.</span></span>
+11. <span data-ttu-id="0e475-125">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="0e475-125">Click New.</span></span>
+12. <span data-ttu-id="0e475-126">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="0e475-126">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="0e475-127">No campo Nó da hierarquia da dimensão de objeto de custo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0e475-127">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+14. <span data-ttu-id="0e475-128">No campo Comportamento de custo, selecione 'Total'.</span><span class="sxs-lookup"><span data-stu-id="0e475-128">In the Cost behavior field, select 'Total'.</span></span>
+15. <span data-ttu-id="0e475-129">No campo Base de alocação, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0e475-129">In the Allocation base field, enter or select a value.</span></span>
+    * <span data-ttu-id="0e475-130">Continue até criar todas as regras.</span><span class="sxs-lookup"><span data-stu-id="0e475-130">Continue until you've created all the rules.</span></span>  
+16. <span data-ttu-id="0e475-131">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="0e475-131">Click Save.</span></span>
 
-## <a name="assign-the-policy-to-a-cost-control-unit"></a>Atribua a política a uma unidade de controle de custo
-1. Clique em Atribuições de políticas para unidade de controle de custo.
-2. Clique em Novo.
-3. Na lista, marque a linha selecionada.
-4. No campo Válido a partir da data contábil, insira uma data.
-    * As regras têm data efetiva. Um usuário ou o sistema pode expirar as regras, se uma versão mais recente for criada.  
-5. No campo Unidade de controle de custo, insira ou selecione um valor.
-6. Clique em Salvar.
+## <a name="assign-the-policy-to-a-cost-control-unit"></a><span data-ttu-id="0e475-132">Atribua a política a uma unidade de controle de custo</span><span class="sxs-lookup"><span data-stu-id="0e475-132">Assign the policy to a cost control unit</span></span>
+1. <span data-ttu-id="0e475-133">Clique em Atribuições de políticas para unidade de controle de custo.</span><span class="sxs-lookup"><span data-stu-id="0e475-133">Click Policy assignments for cost control unit.</span></span>
+2. <span data-ttu-id="0e475-134">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="0e475-134">Click New.</span></span>
+3. <span data-ttu-id="0e475-135">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="0e475-135">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="0e475-136">No campo Válido a partir da data contábil, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="0e475-136">In the Valid from accounting date field, enter a date.</span></span>
+    * <span data-ttu-id="0e475-137">As regras têm data efetiva.</span><span class="sxs-lookup"><span data-stu-id="0e475-137">The rules are date-effective.</span></span> <span data-ttu-id="0e475-138">Um usuário ou o sistema pode expirar as regras, se uma versão mais recente for criada.</span><span class="sxs-lookup"><span data-stu-id="0e475-138">A user or the system can expire the rules if a newer version is created.</span></span>  
+5. <span data-ttu-id="0e475-139">No campo Unidade de controle de custo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0e475-139">In the Cost control unit field, enter or select a value.</span></span>
+6. <span data-ttu-id="0e475-140">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="0e475-140">Click Save.</span></span>
 
 

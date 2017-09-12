@@ -15,192 +15,192 @@ ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 8daf9d0c5b83e3bca66c0229a328737adeeb2951
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 45582c5378fb2b3d6c9e26632accf37197a671bb
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="keyboard-shortcuts"></a>Atalhos de teclado
+# <a name="keyboard-shortcuts"></a><span data-ttu-id="029f7-103">Atalhos de teclado</span><span class="sxs-lookup"><span data-stu-id="029f7-103">Keyboard shortcuts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Os atalhos de teclado a seguir são utilizados no Microsoft Dynamics 365 for Finance and Operations. 
+<span data-ttu-id="029f7-104">Os atalhos de teclado a seguir são utilizados no Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="029f7-104">The following keyboard shortcuts apply across Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 
-**Observação:** As teclas de atalho descritas aqui referem-se ao layout de teclado dos Estados Unidos. As teclas de outros layouts de teclado podem não corresponder exatamente às teclas do teclado dos EUA.
+<span data-ttu-id="029f7-105">**Observação:** As teclas de atalho descritas aqui referem-se ao layout de teclado dos Estados Unidos.</span><span class="sxs-lookup"><span data-stu-id="029f7-105">**Note:** The keyboard shortcuts described here refer to the United States keyboard layout.</span></span> <span data-ttu-id="029f7-106">As teclas de outros layouts de teclado podem não corresponder exatamente às teclas do teclado dos EUA.</span><span class="sxs-lookup"><span data-stu-id="029f7-106">Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard.</span></span>
 
-## <a name="action-shortcuts"></a>Atalhos de ação
+## <a name="action-shortcuts"></a><span data-ttu-id="029f7-107">Atalhos de ação</span><span class="sxs-lookup"><span data-stu-id="029f7-107">Action shortcuts</span></span>
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
-| **Para**                                    | **Pressionar**                        |
-| Abrir pesquisa de ação                                | Ctrl+ ou Alt+Q                  |
-| Mover para o painel de ações padrão                  | Ctrl+F6                          |
-| Abrir uma guia no painel de ações ou em um menu           | Enter ou Espaço ou Alt+Seta para Baixo |
-| Mover para a opção próxima/anterior em um menu            | Seta para Cima/Seta para Baixo            |
-| Fechar uma guia no painel de ações ou em um menu          | Esc                              |
-| Simular um clique com o botão direito do mouse                            | Shift+F10                        |
-| Abra o menu de contexto do Finance and Operations | Ctrl+F10                         |
-| Executar o botão padrão em um formulário/caixa de diálogo       | Alt+Enter                        |
-| Clicar em um botão ou um quadro                            | Enter ou Espaço                   |
-| Exibir informações de atualização para um bloco de contagem         | Alt+Seta para cima                     |
+| <span data-ttu-id="029f7-108">**Para**</span><span class="sxs-lookup"><span data-stu-id="029f7-108">**To do this**</span></span>                                    | <span data-ttu-id="029f7-109">**Pressionar**</span><span class="sxs-lookup"><span data-stu-id="029f7-109">**Press**</span></span>                        |
+| <span data-ttu-id="029f7-110">Abrir pesquisa de ação</span><span class="sxs-lookup"><span data-stu-id="029f7-110">Open action search</span></span>                                | <span data-ttu-id="029f7-111">Ctrl+ ou Alt+Q</span><span class="sxs-lookup"><span data-stu-id="029f7-111">Ctrl+’ or Alt+Q</span></span>                  |
+| <span data-ttu-id="029f7-112">Mover para o painel de ações padrão</span><span class="sxs-lookup"><span data-stu-id="029f7-112">Move to the standard action pane</span></span>                  | <span data-ttu-id="029f7-113">Ctrl+F6</span><span class="sxs-lookup"><span data-stu-id="029f7-113">Ctrl+F6</span></span>                          |
+| <span data-ttu-id="029f7-114">Abrir uma guia no painel de ações ou em um menu</span><span class="sxs-lookup"><span data-stu-id="029f7-114">Open a tab in the action pane or a menu</span></span>           | <span data-ttu-id="029f7-115">Enter ou Espaço ou Alt+Seta para Baixo</span><span class="sxs-lookup"><span data-stu-id="029f7-115">Enter or Space or Alt+Down Arrow</span></span> |
+| <span data-ttu-id="029f7-116">Mover para a opção próxima/anterior em um menu</span><span class="sxs-lookup"><span data-stu-id="029f7-116">Move to next/previous option in a menu</span></span>            | <span data-ttu-id="029f7-117">Seta para Cima/Seta para Baixo</span><span class="sxs-lookup"><span data-stu-id="029f7-117">Down Arrow / Up Arrow</span></span>            |
+| <span data-ttu-id="029f7-118">Fechar uma guia no painel de ações ou em um menu</span><span class="sxs-lookup"><span data-stu-id="029f7-118">Close a tab in the action pane or a menu</span></span>          | <span data-ttu-id="029f7-119">Esc</span><span class="sxs-lookup"><span data-stu-id="029f7-119">Esc</span></span>                              |
+| <span data-ttu-id="029f7-120">Simular um clique com o botão direito do mouse</span><span class="sxs-lookup"><span data-stu-id="029f7-120">Simulate a right-click</span></span>                            | <span data-ttu-id="029f7-121">Shift+F10</span><span class="sxs-lookup"><span data-stu-id="029f7-121">Shift+F10</span></span>                        |
+| <span data-ttu-id="029f7-122">Abra o menu de contexto do Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="029f7-122">Open the Finance and Operations context menu</span></span> | <span data-ttu-id="029f7-123">Ctrl+F10</span><span class="sxs-lookup"><span data-stu-id="029f7-123">Ctrl+F10</span></span>                         |
+| <span data-ttu-id="029f7-124">Executar o botão padrão em um formulário/caixa de diálogo</span><span class="sxs-lookup"><span data-stu-id="029f7-124">Execute the default button on a form/dialog</span></span>       | <span data-ttu-id="029f7-125">Alt+Enter</span><span class="sxs-lookup"><span data-stu-id="029f7-125">Alt+Enter</span></span>                        |
+| <span data-ttu-id="029f7-126">Clicar em um botão ou um quadro</span><span class="sxs-lookup"><span data-stu-id="029f7-126">Click a button or tile</span></span>                            | <span data-ttu-id="029f7-127">Enter ou Espaço</span><span class="sxs-lookup"><span data-stu-id="029f7-127">Enter or Space</span></span>                   |
+| <span data-ttu-id="029f7-128">Exibir informações de atualização para um bloco de contagem</span><span class="sxs-lookup"><span data-stu-id="029f7-128">View refresh information for a count tile</span></span>         | <span data-ttu-id="029f7-129">Alt+Seta para cima</span><span class="sxs-lookup"><span data-stu-id="029f7-129">Alt+Up Arrow</span></span>                     |
 
  
 
-## <a name="date-picker-shortcuts"></a>Atalhos do seletor de data
+## <a name="date-picker-shortcuts"></a><span data-ttu-id="029f7-130">Atalhos do seletor de data</span><span class="sxs-lookup"><span data-stu-id="029f7-130">Date picker shortcuts</span></span>
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
-| **Para**                        | **Pressionar**                                 |
-| Abrir o seletor de data                  | Alt+Seta para baixo                            |
-| Mover entre datas no seletor de data | Ctrl+Setas                               |
-| Mover para o mês anterior/próximo       | Page Down/Page Up                       |
-| Mover para o ano anterior/próximo        | Ctrl+Shift+Page Down / Ctrl+Shift+Page Up |
+| <span data-ttu-id="029f7-131">**Para**</span><span class="sxs-lookup"><span data-stu-id="029f7-131">**To do this**</span></span>                        | <span data-ttu-id="029f7-132">**Pressionar**</span><span class="sxs-lookup"><span data-stu-id="029f7-132">**Press**</span></span>                                 |
+| <span data-ttu-id="029f7-133">Abrir o seletor de data</span><span class="sxs-lookup"><span data-stu-id="029f7-133">Open the date picker</span></span>                  | <span data-ttu-id="029f7-134">Alt+Seta para baixo</span><span class="sxs-lookup"><span data-stu-id="029f7-134">Alt+Down Arrow</span></span>                            |
+| <span data-ttu-id="029f7-135">Mover entre datas no seletor de data</span><span class="sxs-lookup"><span data-stu-id="029f7-135">Move between dates in the date picker</span></span> | <span data-ttu-id="029f7-136">Ctrl+Setas</span><span class="sxs-lookup"><span data-stu-id="029f7-136">Ctrl+Arrows</span></span>                               |
+| <span data-ttu-id="029f7-137">Mover para o mês anterior/próximo</span><span class="sxs-lookup"><span data-stu-id="029f7-137">Move to the next/previous month</span></span>       | <span data-ttu-id="029f7-138">Page Down/Page Up</span><span class="sxs-lookup"><span data-stu-id="029f7-138">Page Down / Page Up</span></span>                       |
+| <span data-ttu-id="029f7-139">Mover para o ano anterior/próximo</span><span class="sxs-lookup"><span data-stu-id="029f7-139">Move to the next/previous year</span></span>        | <span data-ttu-id="029f7-140">Ctrl+Shift+Page Down / Ctrl+Shift+Page Up</span><span class="sxs-lookup"><span data-stu-id="029f7-140">Ctrl+Shift+Page Down / Ctrl+Shift+Page Up</span></span> |
 
  
 
-## <a name="factbox-shortcuts"></a>Atalhos do Quadro de Fatos
+## <a name="factbox-shortcuts"></a><span data-ttu-id="029f7-141">Atalhos do Quadro de Fatos</span><span class="sxs-lookup"><span data-stu-id="029f7-141">FactBox shortcuts</span></span>
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| Abra o painel Quadro de Fatos (ou mova o foco para o painel do Quadro de Fatos, se ele já estiver aberto) | Ctrl+F2                                   |
-| Fechar o painel de Quadro de Fatos (com foco no painel de Quadro de Fatos)                         | Esc                                       |
-| Mover para o Quadro de Fatos anterior/próximo (com foco no painel do Quadro de Fatos)              | Alt+Shift+Seta para Baixo/Alt+Shift+Seta para Cima |
-| Mover para o e&lt;n&gt;ésimo Quadro de Fatos (com foco no painel do Quadro de Fatos)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
-| Expandir um Quadro de Fatos (com foco no cabeçalho do Quadro de Fatos)                             | Espaço ou Enter                            |
-| Recolher o Quadro de Fatos atual                                                    | Alt+0                                     |
+| <span data-ttu-id="029f7-142">Abra o painel Quadro de Fatos (ou mova o foco para o painel do Quadro de Fatos, se ele já estiver aberto)</span><span class="sxs-lookup"><span data-stu-id="029f7-142">Open the FactBox pane (or move focus to the FactBox pane if it is already open)</span></span> | <span data-ttu-id="029f7-143">Ctrl+F2</span><span class="sxs-lookup"><span data-stu-id="029f7-143">Ctrl+F2</span></span>                                   |
+| <span data-ttu-id="029f7-144">Fechar o painel de Quadro de Fatos (com foco no painel de Quadro de Fatos)</span><span class="sxs-lookup"><span data-stu-id="029f7-144">Close the FactBox pane (with focus in the FactBox pane)</span></span>                         | <span data-ttu-id="029f7-145">Esc</span><span class="sxs-lookup"><span data-stu-id="029f7-145">Esc</span></span>                                       |
+| <span data-ttu-id="029f7-146">Mover para o Quadro de Fatos anterior/próximo (com foco no painel do Quadro de Fatos)</span><span class="sxs-lookup"><span data-stu-id="029f7-146">Move to the next/previous FactBox (with focus in the FactBox pane)</span></span>              | <span data-ttu-id="029f7-147">Alt+Shift+Seta para Baixo/Alt+Shift+Seta para Cima</span><span class="sxs-lookup"><span data-stu-id="029f7-147">Alt+Shift+Down Arrow / Alt+Shift+Up Arrow</span></span> |
+| <span data-ttu-id="029f7-148">Mover para o e&lt;n&gt;ésimo Quadro de Fatos (com foco no painel do Quadro de Fatos)</span><span class="sxs-lookup"><span data-stu-id="029f7-148">Move to the &lt;n&gt;th FactBox (with focus in the FactBox pane)</span></span>                | <span data-ttu-id="029f7-149">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span><span class="sxs-lookup"><span data-stu-id="029f7-149">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>           |
+| <span data-ttu-id="029f7-150">Expandir um Quadro de Fatos (com foco no cabeçalho do Quadro de Fatos)</span><span class="sxs-lookup"><span data-stu-id="029f7-150">Expand a FactBox (with focus on the FactBox header)</span></span>                             | <span data-ttu-id="029f7-151">Espaço ou Enter</span><span class="sxs-lookup"><span data-stu-id="029f7-151">Space or Enter</span></span>                            |
+| <span data-ttu-id="029f7-152">Recolher o Quadro de Fatos atual</span><span class="sxs-lookup"><span data-stu-id="029f7-152">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="029f7-153">Alt+0</span><span class="sxs-lookup"><span data-stu-id="029f7-153">Alt+0</span></span>                                     |
 
  
 
-## <a name="filtering-shortcuts"></a>Atalhos de filtragem
+## <a name="filtering-shortcuts"></a><span data-ttu-id="029f7-154">Atalhos de filtragem</span><span class="sxs-lookup"><span data-stu-id="029f7-154">Filtering shortcuts</span></span>
 |                                                                                                                     |               |
 |---------------------------------------------------------------------------------------------------------------------|---------------|
-| **Para**                                                                                                      | **Pressionar**     |
-| Abrir filtragem de grade da coluna atual                                                                          | Ctrl+G        |
-| Fechar filtragem de grade da coluna atual                                                                         | Esc           |
-| Abrir o painel de Filtro (ou alternar o foco entre o painel de Filtro e o formulário principal, se o painel de Filtro já estiver aberto) | Ctrl+F3       |
-| Fechar o painel de Filtro (com foco no painel de Filtro)                                                               | Esc           |
-| Abrir a filtragem/classificação avançada                                                                                        | Ctrl+Shift+F3 |
+| <span data-ttu-id="029f7-155">**Para**</span><span class="sxs-lookup"><span data-stu-id="029f7-155">**To do this**</span></span>                                                                                                      | <span data-ttu-id="029f7-156">**Pressionar**</span><span class="sxs-lookup"><span data-stu-id="029f7-156">**Press**</span></span>     |
+| <span data-ttu-id="029f7-157">Abrir filtragem de grade da coluna atual</span><span class="sxs-lookup"><span data-stu-id="029f7-157">Open grid filtering for the current column</span></span>                                                                          | <span data-ttu-id="029f7-158">Ctrl+G</span><span class="sxs-lookup"><span data-stu-id="029f7-158">Ctrl+G</span></span>        |
+| <span data-ttu-id="029f7-159">Fechar filtragem de grade da coluna atual</span><span class="sxs-lookup"><span data-stu-id="029f7-159">Close grid filtering for the current column</span></span>                                                                         | <span data-ttu-id="029f7-160">Esc</span><span class="sxs-lookup"><span data-stu-id="029f7-160">Esc</span></span>           |
+| <span data-ttu-id="029f7-161">Abrir o painel de Filtro (ou alternar o foco entre o painel de Filtro e o formulário principal, se o painel de Filtro já estiver aberto)</span><span class="sxs-lookup"><span data-stu-id="029f7-161">Open the Filter pane (or switch focus between the Filter pane and the main form if the Filter pane is already open)</span></span> | <span data-ttu-id="029f7-162">Ctrl+F3</span><span class="sxs-lookup"><span data-stu-id="029f7-162">Ctrl+F3</span></span>       |
+| <span data-ttu-id="029f7-163">Fechar o painel de Filtro (com foco no painel de Filtro)</span><span class="sxs-lookup"><span data-stu-id="029f7-163">Close the Filter pane (with focus in the Filter pane)</span></span>                                                               | <span data-ttu-id="029f7-164">Esc</span><span class="sxs-lookup"><span data-stu-id="029f7-164">Esc</span></span>           |
+| <span data-ttu-id="029f7-165">Abrir a filtragem/classificação avançada</span><span class="sxs-lookup"><span data-stu-id="029f7-165">Open advanced filtering/sort</span></span>                                                                                        | <span data-ttu-id="029f7-166">Ctrl+Shift+F3</span><span class="sxs-lookup"><span data-stu-id="029f7-166">Ctrl+Shift+F3</span></span> |
 
  
 
-## <a name="form-shortcuts"></a>Atalhos do formulário
+## <a name="form-shortcuts"></a><span data-ttu-id="029f7-167">Atalhos do formulário</span><span class="sxs-lookup"><span data-stu-id="029f7-167">Form shortcuts</span></span>
 |                                                                                                                                 |                   |
 |---------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| **Para**                                                                                                                  | **Pressionar**         |
-| Criar um novo registro                                                                                                             | Alt+N             |
-| Excluir um registro                                                                                                                 | Alt+Del ou Alt+F9 |
-| Salvar registro                                                                                                                     | Alt+S ou Ctrl+S   |
-| Reverter (restaurar)                                                                                                                | Ctrl+Shift+F5     |
-| Atualizar dados                                                                                                                    | Shift+F5          |
-| Se move para o primeiro campo visível no formulário                                                                                     | Alt+Shift+F       |
-| Alternar modo de edição                                                                                                                | F2                |
-| Anexar um documento                                                                                                               | Ctrl+Shift+A      |
-| Exportar para o Excel                                                                                                                 | Ctrl+Shift+E      |
-| Mover para o registro anterior (saída de uma grade)                                                                                    | Ctrl+Seta para Cima     |
-| Mover para o próximo registro (fora de uma grade)                                                                                        | Ctrl+Seta para Baixo   |
-| Mover para o primeiro registro (fora de uma grade)                                                                                       | Ctrl+Home         |
-| Mover para o último registro (fora de uma grade)                                                                                        | Ctrl+End          |
-| Abrir a lista de navegação nos formulários Detalhes (ou alternar o foco entre a lista de navegação e o formulário principal, se ela já estiver aberta) | Ctrl+F8           |
-| Fechar a lista de navegação no formulário Detalhes (com foco na lista de navegação)                                                   | Esc               |
+| <span data-ttu-id="029f7-168">**Para**</span><span class="sxs-lookup"><span data-stu-id="029f7-168">**To do this**</span></span>                                                                                                                  | <span data-ttu-id="029f7-169">**Pressionar**</span><span class="sxs-lookup"><span data-stu-id="029f7-169">**Press**</span></span>         |
+| <span data-ttu-id="029f7-170">Criar um novo registro</span><span class="sxs-lookup"><span data-stu-id="029f7-170">Create a new record</span></span>                                                                                                             | <span data-ttu-id="029f7-171">Alt+N</span><span class="sxs-lookup"><span data-stu-id="029f7-171">Alt+N</span></span>             |
+| <span data-ttu-id="029f7-172">Excluir um registro</span><span class="sxs-lookup"><span data-stu-id="029f7-172">Delete a record</span></span>                                                                                                                 | <span data-ttu-id="029f7-173">Alt+Del ou Alt+F9</span><span class="sxs-lookup"><span data-stu-id="029f7-173">Alt+Del or Alt+F9</span></span> |
+| <span data-ttu-id="029f7-174">Salvar registro</span><span class="sxs-lookup"><span data-stu-id="029f7-174">Save record</span></span>                                                                                                                     | <span data-ttu-id="029f7-175">Alt+S ou Ctrl+S</span><span class="sxs-lookup"><span data-stu-id="029f7-175">Alt+S or Ctrl+S</span></span>   |
+| <span data-ttu-id="029f7-176">Reverter (restaurar)</span><span class="sxs-lookup"><span data-stu-id="029f7-176">Revert (restore)</span></span>                                                                                                                | <span data-ttu-id="029f7-177">Ctrl+Shift+F5</span><span class="sxs-lookup"><span data-stu-id="029f7-177">Ctrl+Shift+F5</span></span>     |
+| <span data-ttu-id="029f7-178">Atualizar dados</span><span class="sxs-lookup"><span data-stu-id="029f7-178">Data refresh</span></span>                                                                                                                    | <span data-ttu-id="029f7-179">Shift+F5</span><span class="sxs-lookup"><span data-stu-id="029f7-179">Shift+F5</span></span>          |
+| <span data-ttu-id="029f7-180">Se move para o primeiro campo visível no formulário</span><span class="sxs-lookup"><span data-stu-id="029f7-180">Move to the visible first field on the form</span></span>                                                                                     | <span data-ttu-id="029f7-181">Alt+Shift+F</span><span class="sxs-lookup"><span data-stu-id="029f7-181">Alt+Shift+F</span></span>       |
+| <span data-ttu-id="029f7-182">Alternar modo de edição</span><span class="sxs-lookup"><span data-stu-id="029f7-182">Toggle edit mode</span></span>                                                                                                                | <span data-ttu-id="029f7-183">F2</span><span class="sxs-lookup"><span data-stu-id="029f7-183">F2</span></span>                |
+| <span data-ttu-id="029f7-184">Anexar um documento</span><span class="sxs-lookup"><span data-stu-id="029f7-184">Attach a document</span></span>                                                                                                               | <span data-ttu-id="029f7-185">Ctrl+Shift+A</span><span class="sxs-lookup"><span data-stu-id="029f7-185">Ctrl+Shift+A</span></span>      |
+| <span data-ttu-id="029f7-186">Exportar para o Excel</span><span class="sxs-lookup"><span data-stu-id="029f7-186">Export to Excel</span></span>                                                                                                                 | <span data-ttu-id="029f7-187">Ctrl+Shift+E</span><span class="sxs-lookup"><span data-stu-id="029f7-187">Ctrl+Shift+E</span></span>      |
+| <span data-ttu-id="029f7-188">Mover para o registro anterior (saída de uma grade)</span><span class="sxs-lookup"><span data-stu-id="029f7-188">Move to the previous record (outside a grid)</span></span>                                                                                    | <span data-ttu-id="029f7-189">Ctrl+Seta para Cima</span><span class="sxs-lookup"><span data-stu-id="029f7-189">Ctrl+Up Arrow</span></span>     |
+| <span data-ttu-id="029f7-190">Mover para o próximo registro (fora de uma grade)</span><span class="sxs-lookup"><span data-stu-id="029f7-190">Move to the next record (outside a grid)</span></span>                                                                                        | <span data-ttu-id="029f7-191">Ctrl+Seta para Baixo</span><span class="sxs-lookup"><span data-stu-id="029f7-191">Ctrl+Down Arrow</span></span>   |
+| <span data-ttu-id="029f7-192">Mover para o primeiro registro (fora de uma grade)</span><span class="sxs-lookup"><span data-stu-id="029f7-192">Move to the first record (outside a grid)</span></span>                                                                                       | <span data-ttu-id="029f7-193">Ctrl+Home</span><span class="sxs-lookup"><span data-stu-id="029f7-193">Ctrl+Home</span></span>         |
+| <span data-ttu-id="029f7-194">Mover para o último registro (fora de uma grade)</span><span class="sxs-lookup"><span data-stu-id="029f7-194">Move to the last record (outside a grid)</span></span>                                                                                        | <span data-ttu-id="029f7-195">Ctrl+End</span><span class="sxs-lookup"><span data-stu-id="029f7-195">Ctrl+End</span></span>          |
+| <span data-ttu-id="029f7-196">Abrir a lista de navegação nos formulários Detalhes (ou alternar o foco entre a lista de navegação e o formulário principal, se ela já estiver aberta)</span><span class="sxs-lookup"><span data-stu-id="029f7-196">Open the navigation list on Details forms (or switch focus between the navigation list and the main form if it is already open)</span></span> | <span data-ttu-id="029f7-197">Ctrl+F8</span><span class="sxs-lookup"><span data-stu-id="029f7-197">Ctrl+F8</span></span>           |
+| <span data-ttu-id="029f7-198">Fechar a lista de navegação no formulário Detalhes (com foco na lista de navegação)</span><span class="sxs-lookup"><span data-stu-id="029f7-198">Close the navigation list on Details form (with focus in the navigation list)</span></span>                                                   | <span data-ttu-id="029f7-199">Esc</span><span class="sxs-lookup"><span data-stu-id="029f7-199">Esc</span></span>               |
 
  
 
-## <a name="form-navigation-shortcuts"></a>Atalhos de navegação do formulário
+## <a name="form-navigation-shortcuts"></a><span data-ttu-id="029f7-200">Atalhos de navegação do formulário</span><span class="sxs-lookup"><span data-stu-id="029f7-200">Form navigation shortcuts</span></span>
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
-| **Para**                                      | **Pressionar**                                    |
-| Mover para o campo anterior/próximo                     | Tab / Shift+Tab                              |
-| Mover para a guia anterior/próxima                       | Alt+Shift+Seta para a Direita/Alt+Shift+Seta para a Esquerda |
-| Mover para a Guia Rápida anterior/próxima                   | Alt+Shift+Seta para Baixo/Alt+Shift+Seta para Cima    |
-| Mover para a e&lt;n&gt;ésima Guia Rápida                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| Mover para a e&lt;n&gt;ésima guia                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
-| Expandir uma Guia Rápida (com foco no cabeçalho da Guia Rápida) | Espaço ou Enter                               |
-| Recolher a Guia Rápida atual                        | Alt+0                                        |
-| Alternar para exibição em grade                                 | Ctrl+Shift+G                                 |
-| Alternar para exibição de detalhes                              | Ctrl+Shift+D                                 |
-| Alternar para exibição de cabeçalho                               | Ctrl+Shift+H                                 |
-| Alternar para exibição de linhas                                | Ctrl+Shift+L                                 |
-| Fechar o formulário (clicar em Voltar)                         | Esc                                          |
-| Fechar o formulário com salvar explícito                   | Shift+Esc                                    |
-| Fechar o formulário que descarta todas as alterações não salvas       | Alt+Shift+Q                                  |
+| <span data-ttu-id="029f7-201">**Para**</span><span class="sxs-lookup"><span data-stu-id="029f7-201">**To do this**</span></span>                                      | <span data-ttu-id="029f7-202">**Pressionar**</span><span class="sxs-lookup"><span data-stu-id="029f7-202">**Press**</span></span>                                    |
+| <span data-ttu-id="029f7-203">Mover para o campo anterior/próximo</span><span class="sxs-lookup"><span data-stu-id="029f7-203">Move to the next/previous field</span></span>                     | <span data-ttu-id="029f7-204">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="029f7-204">Tab / Shift+Tab</span></span>                              |
+| <span data-ttu-id="029f7-205">Mover para a guia anterior/próxima</span><span class="sxs-lookup"><span data-stu-id="029f7-205">Move to the next/previous tab</span></span>                       | <span data-ttu-id="029f7-206">Alt+Shift+Seta para a Direita/Alt+Shift+Seta para a Esquerda</span><span class="sxs-lookup"><span data-stu-id="029f7-206">Alt+Shift+Right Arrow / Alt+Shift+Left Arrow</span></span> |
+| <span data-ttu-id="029f7-207">Mover para a Guia Rápida anterior/próxima</span><span class="sxs-lookup"><span data-stu-id="029f7-207">Move to the next/previous FastTab</span></span>                   | <span data-ttu-id="029f7-208">Alt+Shift+Seta para Baixo/Alt+Shift+Seta para Cima</span><span class="sxs-lookup"><span data-stu-id="029f7-208">Alt+Shift+Down Arrow / Alt+Shift+Up Arrow</span></span>    |
+| <span data-ttu-id="029f7-209">Mover para a e&lt;n&gt;ésima Guia Rápida</span><span class="sxs-lookup"><span data-stu-id="029f7-209">Move to the &lt;n&gt;th FastTab</span></span>                     | <span data-ttu-id="029f7-210">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span><span class="sxs-lookup"><span data-stu-id="029f7-210">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>              |
+| <span data-ttu-id="029f7-211">Mover para a e&lt;n&gt;ésima guia</span><span class="sxs-lookup"><span data-stu-id="029f7-211">Move to the &lt;n&gt;th tab</span></span>                         | <span data-ttu-id="029f7-212">Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)</span><span class="sxs-lookup"><span data-stu-id="029f7-212">Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>        |
+| <span data-ttu-id="029f7-213">Expandir uma Guia Rápida (com foco no cabeçalho da Guia Rápida)</span><span class="sxs-lookup"><span data-stu-id="029f7-213">Expand a FastTab (with focus on the FastTab header)</span></span> | <span data-ttu-id="029f7-214">Espaço ou Enter</span><span class="sxs-lookup"><span data-stu-id="029f7-214">Space or Enter</span></span>                               |
+| <span data-ttu-id="029f7-215">Recolher a Guia Rápida atual</span><span class="sxs-lookup"><span data-stu-id="029f7-215">Collapse the current FastTab</span></span>                        | <span data-ttu-id="029f7-216">Alt+0</span><span class="sxs-lookup"><span data-stu-id="029f7-216">Alt+0</span></span>                                        |
+| <span data-ttu-id="029f7-217">Alternar para exibição em grade</span><span class="sxs-lookup"><span data-stu-id="029f7-217">Switch to grid view</span></span>                                 | <span data-ttu-id="029f7-218">Ctrl+Shift+G</span><span class="sxs-lookup"><span data-stu-id="029f7-218">Ctrl+Shift+G</span></span>                                 |
+| <span data-ttu-id="029f7-219">Alternar para exibição de detalhes</span><span class="sxs-lookup"><span data-stu-id="029f7-219">Switch to details view</span></span>                              | <span data-ttu-id="029f7-220">Ctrl+Shift+D</span><span class="sxs-lookup"><span data-stu-id="029f7-220">Ctrl+Shift+D</span></span>                                 |
+| <span data-ttu-id="029f7-221">Alternar para exibição de cabeçalho</span><span class="sxs-lookup"><span data-stu-id="029f7-221">Switch to header view</span></span>                               | <span data-ttu-id="029f7-222">Ctrl+Shift+H</span><span class="sxs-lookup"><span data-stu-id="029f7-222">Ctrl+Shift+H</span></span>                                 |
+| <span data-ttu-id="029f7-223">Alternar para exibição de linhas</span><span class="sxs-lookup"><span data-stu-id="029f7-223">Switch to lines view</span></span>                                | <span data-ttu-id="029f7-224">Ctrl+Shift+L</span><span class="sxs-lookup"><span data-stu-id="029f7-224">Ctrl+Shift+L</span></span>                                 |
+| <span data-ttu-id="029f7-225">Fechar o formulário (clicar em Voltar)</span><span class="sxs-lookup"><span data-stu-id="029f7-225">Close the form (click Back)</span></span>                         | <span data-ttu-id="029f7-226">Esc</span><span class="sxs-lookup"><span data-stu-id="029f7-226">Esc</span></span>                                          |
+| <span data-ttu-id="029f7-227">Fechar o formulário com salvar explícito</span><span class="sxs-lookup"><span data-stu-id="029f7-227">Close the form with explicit save</span></span>                   | <span data-ttu-id="029f7-228">Shift+Esc</span><span class="sxs-lookup"><span data-stu-id="029f7-228">Shift+Esc</span></span>                                    |
+| <span data-ttu-id="029f7-229">Fechar o formulário que descarta todas as alterações não salvas</span><span class="sxs-lookup"><span data-stu-id="029f7-229">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="029f7-230">Alt+Shift+Q</span><span class="sxs-lookup"><span data-stu-id="029f7-230">Alt+Shift+Q</span></span>                                  |
 
  
 
-## <a name="grid-shortcuts"></a>Atalhos de grade
+## <a name="grid-shortcuts"></a><span data-ttu-id="029f7-231">Atalhos de grade</span><span class="sxs-lookup"><span data-stu-id="029f7-231">Grid shortcuts</span></span>
 |                                                                                                               |                                 |
 |---------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **Para**                                                                                                | **Pressionar**                       |
-| Mover para a coluna anterior/próxima                                                                              | Tab / Shift+Tab                 |
-| Mover para a linha anterior/próxima                                                                                 | Seta para Cima/Seta para Baixo           |
-| Mova a linha anterior/próxima sem selecionar (Observação: Este atalho aplica-se apenas em vários cenários.) | Ctrl+Seta para Cima/ Ctrl+Seta para Baixo |
-| Selecionar/limpar a linha atual (Observação: Este atalho aplica-se apenas em vários cenários.)                    | Ctrl+Espaço/Ctrl+Clique         |
-| Adicione a linha anterior/próxima para o conjunto selecionado (Observação: Este atalho aplica-se apenas em vários cenários.)   | Shift+Espaço                     |
-| Adicionar um intervalo de linhas ao conjunto selecionado (Observação: Este atalho aplica-se apenas em vários cenários.)         | Shift+Clique                     |
-| Ir para a página anterior/próxima de dados                                                                          | Page Up / Page Down             |
-| Criar uma nova linha na parte inferior da grade                                                                    | Seta para baixo (a partir da última linha)  |
-| Marcar ou desmarcar todas as linhas                                                                                      | Ctrl+Shift+M                    |
-| Mover para o primeiro registro.                                                                                      | Ctrl+Home                       |
-| Mover para o último registro                                                                                       | Ctrl+End                        |
+| <span data-ttu-id="029f7-232">**Para**</span><span class="sxs-lookup"><span data-stu-id="029f7-232">**To do this**</span></span>                                                                                                | <span data-ttu-id="029f7-233">**Pressionar**</span><span class="sxs-lookup"><span data-stu-id="029f7-233">**Press**</span></span>                       |
+| <span data-ttu-id="029f7-234">Mover para a coluna anterior/próxima</span><span class="sxs-lookup"><span data-stu-id="029f7-234">Move to the next/previous column</span></span>                                                                              | <span data-ttu-id="029f7-235">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="029f7-235">Tab / Shift+Tab</span></span>                 |
+| <span data-ttu-id="029f7-236">Mover para a linha anterior/próxima</span><span class="sxs-lookup"><span data-stu-id="029f7-236">Move to the next/previous row</span></span>                                                                                 | <span data-ttu-id="029f7-237">Seta para Cima/Seta para Baixo</span><span class="sxs-lookup"><span data-stu-id="029f7-237">Down Arrow / Up Arrow</span></span>           |
+| <span data-ttu-id="029f7-238">Mova a linha anterior/próxima sem selecionar (Observação: Este atalho aplica-se apenas em vários cenários.)</span><span class="sxs-lookup"><span data-stu-id="029f7-238">Move to the next/previous row without selecting (Note: This shortcut applies to multi-select scenarios only.)</span></span> | <span data-ttu-id="029f7-239">Ctrl+Seta para Cima/ Ctrl+Seta para Baixo</span><span class="sxs-lookup"><span data-stu-id="029f7-239">Ctrl+Up Arrow / Ctrl+Down Arrow</span></span> |
+| <span data-ttu-id="029f7-240">Selecionar/limpar a linha atual (Observação: Este atalho aplica-se apenas em vários cenários.)</span><span class="sxs-lookup"><span data-stu-id="029f7-240">Select/clear the current row (Note: This shortcut applies to multi-select scenarios only.)</span></span>                    | <span data-ttu-id="029f7-241">Ctrl+Espaço/Ctrl+Clique</span><span class="sxs-lookup"><span data-stu-id="029f7-241">Ctrl+Space / Ctrl+Click</span></span>         |
+| <span data-ttu-id="029f7-242">Adicione a linha anterior/próxima para o conjunto selecionado (Observação: Este atalho aplica-se apenas em vários cenários.)</span><span class="sxs-lookup"><span data-stu-id="029f7-242">Add the next/previous row to the selected set (Note: This shortcut applies to multi-select scenarios only.)</span></span>   | <span data-ttu-id="029f7-243">Shift+Espaço</span><span class="sxs-lookup"><span data-stu-id="029f7-243">Shift+Space</span></span>                     |
+| <span data-ttu-id="029f7-244">Adicionar um intervalo de linhas ao conjunto selecionado (Observação: Este atalho aplica-se apenas em vários cenários.)</span><span class="sxs-lookup"><span data-stu-id="029f7-244">Add a range of rows to the selected set (Note: This shortcut applies to multi-select scenarios only.)</span></span>         | <span data-ttu-id="029f7-245">Shift+Clique</span><span class="sxs-lookup"><span data-stu-id="029f7-245">Shift+Click</span></span>                     |
+| <span data-ttu-id="029f7-246">Ir para a página anterior/próxima de dados</span><span class="sxs-lookup"><span data-stu-id="029f7-246">Go to the next/previous page of data</span></span>                                                                          | <span data-ttu-id="029f7-247">Page Up / Page Down</span><span class="sxs-lookup"><span data-stu-id="029f7-247">Page Up / Page Down</span></span>             |
+| <span data-ttu-id="029f7-248">Criar uma nova linha na parte inferior da grade</span><span class="sxs-lookup"><span data-stu-id="029f7-248">Create a new row at the bottom of the grid</span></span>                                                                    | <span data-ttu-id="029f7-249">Seta para baixo (a partir da última linha)</span><span class="sxs-lookup"><span data-stu-id="029f7-249">Down Arrow (from the last row)</span></span>  |
+| <span data-ttu-id="029f7-250">Marcar ou desmarcar todas as linhas</span><span class="sxs-lookup"><span data-stu-id="029f7-250">Select or clear all rows</span></span>                                                                                      | <span data-ttu-id="029f7-251">Ctrl+Shift+M</span><span class="sxs-lookup"><span data-stu-id="029f7-251">Ctrl+Shift+M</span></span>                    |
+| <span data-ttu-id="029f7-252">Mover para o primeiro registro.</span><span class="sxs-lookup"><span data-stu-id="029f7-252">Move to the first record</span></span>                                                                                      | <span data-ttu-id="029f7-253">Ctrl+Home</span><span class="sxs-lookup"><span data-stu-id="029f7-253">Ctrl+Home</span></span>                       |
+| <span data-ttu-id="029f7-254">Mover para o último registro</span><span class="sxs-lookup"><span data-stu-id="029f7-254">Move to the last record</span></span>                                                                                       | <span data-ttu-id="029f7-255">Ctrl+End</span><span class="sxs-lookup"><span data-stu-id="029f7-255">Ctrl+End</span></span>                        |
 
  
 
-## <a name="input-control-shortcuts"></a>Atalhos do controle de entrada
+## <a name="input-control-shortcuts"></a><span data-ttu-id="029f7-256">Atalhos do controle de entrada</span><span class="sxs-lookup"><span data-stu-id="029f7-256">Input control shortcuts</span></span>
 |                                                            |                               |
 |------------------------------------------------------------|-------------------------------|
-| **Para**                                             | **Pressionar**                     |
-| Inserir a data da sessão em um campo de data                     | D+Tab                         |
-| Inserir a data atual em um campo de data                     | T+Tab                         |
-| Abrir a pesquisa, caixa de combinação, seletor de data, caixa de diálogo suspensa           | Alt+Seta para baixo                |
-| Fechar a pesquisa, caixa de combinação, seletor de data, caixa de diálogo suspensa          | Esc                           |
-| Mover o foco para uma pesquisa (quando a pesquisa já estiver aberta) | Alt+Seta para baixo                |
-| Abra a exibição avançada de controle                        | Alt+Seta para cima                  |
-| Selecionar o texto no campo atual.                           | Ctrl+A                        |
-| Entrar/sair da área de texto com um controle do editor de HTML        | Alt+Seta para Baixo/Alt+Seta para Cima |
+| <span data-ttu-id="029f7-257">**Para**</span><span class="sxs-lookup"><span data-stu-id="029f7-257">**To do this**</span></span>                                             | <span data-ttu-id="029f7-258">**Pressionar**</span><span class="sxs-lookup"><span data-stu-id="029f7-258">**Press**</span></span>                     |
+| <span data-ttu-id="029f7-259">Inserir a data da sessão em um campo de data</span><span class="sxs-lookup"><span data-stu-id="029f7-259">Enter the session date in a date field</span></span>                     | <span data-ttu-id="029f7-260">D+Tab</span><span class="sxs-lookup"><span data-stu-id="029f7-260">D+Tab</span></span>                         |
+| <span data-ttu-id="029f7-261">Inserir a data atual em um campo de data</span><span class="sxs-lookup"><span data-stu-id="029f7-261">Enter the current date in a date field</span></span>                     | <span data-ttu-id="029f7-262">T+Tab</span><span class="sxs-lookup"><span data-stu-id="029f7-262">T+Tab</span></span>                         |
+| <span data-ttu-id="029f7-263">Abrir a pesquisa, caixa de combinação, seletor de data, caixa de diálogo suspensa</span><span class="sxs-lookup"><span data-stu-id="029f7-263">Open lookup, combo box, date picker, drop dialog</span></span>           | <span data-ttu-id="029f7-264">Alt+Seta para baixo</span><span class="sxs-lookup"><span data-stu-id="029f7-264">Alt+Down Arrow</span></span>                |
+| <span data-ttu-id="029f7-265">Fechar a pesquisa, caixa de combinação, seletor de data, caixa de diálogo suspensa</span><span class="sxs-lookup"><span data-stu-id="029f7-265">Close lookup, combo box, date picker, drop dialog</span></span>          | <span data-ttu-id="029f7-266">Esc</span><span class="sxs-lookup"><span data-stu-id="029f7-266">Esc</span></span>                           |
+| <span data-ttu-id="029f7-267">Mover o foco para uma pesquisa (quando a pesquisa já estiver aberta)</span><span class="sxs-lookup"><span data-stu-id="029f7-267">Move focus into a lookup (when the lookup is already open)</span></span> | <span data-ttu-id="029f7-268">Alt+Seta para baixo</span><span class="sxs-lookup"><span data-stu-id="029f7-268">Alt+Down Arrow</span></span>                |
+| <span data-ttu-id="029f7-269">Abra a exibição avançada de controle</span><span class="sxs-lookup"><span data-stu-id="029f7-269">Open the control's enhanced preview</span></span>                        | <span data-ttu-id="029f7-270">Alt+Seta para cima</span><span class="sxs-lookup"><span data-stu-id="029f7-270">Alt+Up Arrow</span></span>                  |
+| <span data-ttu-id="029f7-271">Selecionar o texto no campo atual.</span><span class="sxs-lookup"><span data-stu-id="029f7-271">Select text in the current field</span></span>                           | <span data-ttu-id="029f7-272">Ctrl+A</span><span class="sxs-lookup"><span data-stu-id="029f7-272">Ctrl+A</span></span>                        |
+| <span data-ttu-id="029f7-273">Entrar/sair da área de texto com um controle do editor de HTML</span><span class="sxs-lookup"><span data-stu-id="029f7-273">Enter/leave the text area in an HTML editor control</span></span>        | <span data-ttu-id="029f7-274">Alt+Seta para Baixo/Alt+Seta para Cima</span><span class="sxs-lookup"><span data-stu-id="029f7-274">Alt+Down Arrow / Alt+Up Arrow</span></span> |
 
  
 
-## <a name="messaging-shortcuts"></a>Atalhos da mensagem
+## <a name="messaging-shortcuts"></a><span data-ttu-id="029f7-275">Atalhos da mensagem</span><span class="sxs-lookup"><span data-stu-id="029f7-275">Messaging shortcuts</span></span>
 |                          |               |
 |--------------------------|---------------|
-| **Para**           | **Pressionar**     |
-| Ir para o Centro de Mensagens | Ctrl+Shift+F7 |
-| Ir para a Barra de Mensagens    | Ctrl+F7       |
+| <span data-ttu-id="029f7-276">**Para**</span><span class="sxs-lookup"><span data-stu-id="029f7-276">**To do this**</span></span>           | <span data-ttu-id="029f7-277">**Pressionar**</span><span class="sxs-lookup"><span data-stu-id="029f7-277">**Press**</span></span>     |
+| <span data-ttu-id="029f7-278">Ir para o Centro de Mensagens</span><span class="sxs-lookup"><span data-stu-id="029f7-278">Go to the Message Center</span></span> | <span data-ttu-id="029f7-279">Ctrl+Shift+F7</span><span class="sxs-lookup"><span data-stu-id="029f7-279">Ctrl+Shift+F7</span></span> |
+| <span data-ttu-id="029f7-280">Ir para a Barra de Mensagens</span><span class="sxs-lookup"><span data-stu-id="029f7-280">Go to the Message Bar</span></span>    | <span data-ttu-id="029f7-281">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="029f7-281">Ctrl+F7</span></span>       |
 
  
 
-## <a name="navigation-shortcuts"></a>Atalhos de navegação
+## <a name="navigation-shortcuts"></a><span data-ttu-id="029f7-282">Atalhos de navegação</span><span class="sxs-lookup"><span data-stu-id="029f7-282">Navigation shortcuts</span></span>
 |                                                                           |                 |
 |---------------------------------------------------------------------------|-----------------|
-| **Para**                                                            | **Pressionar**       |
-| Ir para o painel                                                       | Alt+Shift+Home  |
-| Ir para a barra de navegação                                                  | Alt+Shift+F1    |
-| Ir para o painel de navegação                                                 | Alt+F1          |
-| Marcar/desmarcar formulário como favorito (com foco em um formulário no painel de navegação) | Shift+F         |
-| Ir para o seletor da empresa                                                  | Ctrl+Shift+O    |
-| Ir para a pesquisa de navegação                                                   | Ctrl+/ ou Alt+G |
-| Abra o painel de ajuda                                                        | Ctrl+?          |
-| Abrir o analisador de rastreamento                                                     | Alt+Shift+T     |
+| <span data-ttu-id="029f7-283">**Para**</span><span class="sxs-lookup"><span data-stu-id="029f7-283">**To do this**</span></span>                                                            | <span data-ttu-id="029f7-284">**Pressionar**</span><span class="sxs-lookup"><span data-stu-id="029f7-284">**Press**</span></span>       |
+| <span data-ttu-id="029f7-285">Ir para o painel</span><span class="sxs-lookup"><span data-stu-id="029f7-285">Go to the dashboard</span></span>                                                       | <span data-ttu-id="029f7-286">Alt+Shift+Home</span><span class="sxs-lookup"><span data-stu-id="029f7-286">Alt+Shift+Home</span></span>  |
+| <span data-ttu-id="029f7-287">Ir para a barra de navegação</span><span class="sxs-lookup"><span data-stu-id="029f7-287">Go to the navigation bar</span></span>                                                  | <span data-ttu-id="029f7-288">Alt+Shift+F1</span><span class="sxs-lookup"><span data-stu-id="029f7-288">Alt+Shift+F1</span></span>    |
+| <span data-ttu-id="029f7-289">Ir para o painel de navegação</span><span class="sxs-lookup"><span data-stu-id="029f7-289">Go to the navigation pane</span></span>                                                 | <span data-ttu-id="029f7-290">Alt+F1</span><span class="sxs-lookup"><span data-stu-id="029f7-290">Alt+F1</span></span>          |
+| <span data-ttu-id="029f7-291">Marcar/desmarcar formulário como favorito (com foco em um formulário no painel de navegação)</span><span class="sxs-lookup"><span data-stu-id="029f7-291">Favorite/un-favorite a form (with focus on a form in the navigation pane)</span></span> | <span data-ttu-id="029f7-292">Shift+F</span><span class="sxs-lookup"><span data-stu-id="029f7-292">Shift+F</span></span>         |
+| <span data-ttu-id="029f7-293">Ir para o seletor da empresa</span><span class="sxs-lookup"><span data-stu-id="029f7-293">Go to the company picker</span></span>                                                  | <span data-ttu-id="029f7-294">Ctrl+Shift+O</span><span class="sxs-lookup"><span data-stu-id="029f7-294">Ctrl+Shift+O</span></span>    |
+| <span data-ttu-id="029f7-295">Ir para a pesquisa de navegação</span><span class="sxs-lookup"><span data-stu-id="029f7-295">Go to navigation search</span></span>                                                   | <span data-ttu-id="029f7-296">Ctrl+/ ou Alt+G</span><span class="sxs-lookup"><span data-stu-id="029f7-296">Ctrl+/ or Alt+G</span></span> |
+| <span data-ttu-id="029f7-297">Abra o painel de ajuda</span><span class="sxs-lookup"><span data-stu-id="029f7-297">Open the help pane</span></span>                                                        | <span data-ttu-id="029f7-298">Ctrl+?</span><span class="sxs-lookup"><span data-stu-id="029f7-298">Ctrl+?</span></span>          |
+| <span data-ttu-id="029f7-299">Abrir o analisador de rastreamento</span><span class="sxs-lookup"><span data-stu-id="029f7-299">Open the trace parser</span></span>                                                     | <span data-ttu-id="029f7-300">Alt+Shift+T</span><span class="sxs-lookup"><span data-stu-id="029f7-300">Alt+Shift+T</span></span>     |
 
  
 
-## <a name="segmented-entry-shortcuts"></a>Atalhos segmentados de entrada
+## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="029f7-301">Atalhos segmentados de entrada</span><span class="sxs-lookup"><span data-stu-id="029f7-301">Segmented entry shortcuts</span></span>
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **Para fazer isso**                                                                                                          | **Pressione**                        |
-| Abrir a lista suspensa (quando a lista suspensa estiver fechada)                                                             | Alt+Seta para baixo                   |
-| Mover o foco para o campo de entrada do segmento atual na lista suspensa (quando a lista suspensa já estiver aberta) | Alt+Seta para baixo                   |
-| Fechar a lista suspensa                                                                                                | Alt+Seta para cima                     |
-| Fechar/abrir a parte direita da lista suspensa                                                                      | Alt+Seta para a Direita e Alt+Seta para a Esquerda |
-| Alternar entre os modos "Mostrar válido" e "Mostrar tudo"                                                                        | Alt+W                            |
-| Selecionar o valor da lista suspensa e mover para o próximo segmento                                                       | Inserir                            |
-| Mover para o controle próximo/anterior da página (quando o foco for no controle de entrada)                                          | Tab / Shift+Tab                  |
-| Mover para o campo de entrada próximo/anterior no submenu (quando o foco estiver na lista suspensa)                               | Tab / Shift+Tab                  |
-| Mover para cima/para baixo na pesquisa                                                                                        | Seta para Cima/Seta para Baixo            |
-| Mover uma página para cima/para baixo na pesquisa                                                                                       | Page Up / Page Down              |
-| Mover para o topo/parte inferior da pesquisa                                                                                    | Início/Fim                       |
+| <span data-ttu-id="029f7-302">**Para fazer isso**</span><span class="sxs-lookup"><span data-stu-id="029f7-302">**To do this**</span></span>                                                                                                          | <span data-ttu-id="029f7-303">**Pressione**</span><span class="sxs-lookup"><span data-stu-id="029f7-303">**Press**</span></span>                        |
+| <span data-ttu-id="029f7-304">Abrir a lista suspensa (quando a lista suspensa estiver fechada)</span><span class="sxs-lookup"><span data-stu-id="029f7-304">Open the drop-down list (when the drop-down list is closed)</span></span>                                                             | <span data-ttu-id="029f7-305">Alt+Seta para baixo</span><span class="sxs-lookup"><span data-stu-id="029f7-305">Alt+Down Arrow</span></span>                   |
+| <span data-ttu-id="029f7-306">Mover o foco para o campo de entrada do segmento atual na lista suspensa (quando a lista suspensa já estiver aberta)</span><span class="sxs-lookup"><span data-stu-id="029f7-306">Move focus into the input field for the current segment in the drop-down list (when the drop-down list is already open)</span></span> | <span data-ttu-id="029f7-307">Alt+Seta para baixo</span><span class="sxs-lookup"><span data-stu-id="029f7-307">Alt+Down Arrow</span></span>                   |
+| <span data-ttu-id="029f7-308">Fechar a lista suspensa</span><span class="sxs-lookup"><span data-stu-id="029f7-308">Close the drop-down list</span></span>                                                                                                | <span data-ttu-id="029f7-309">Alt+Seta para cima</span><span class="sxs-lookup"><span data-stu-id="029f7-309">Alt+Up Arrow</span></span>                     |
+| <span data-ttu-id="029f7-310">Fechar/abrir a parte direita da lista suspensa</span><span class="sxs-lookup"><span data-stu-id="029f7-310">Close/open the right portion of the drop-down list</span></span>                                                                      | <span data-ttu-id="029f7-311">Alt+Seta para a Direita e Alt+Seta para a Esquerda</span><span class="sxs-lookup"><span data-stu-id="029f7-311">Alt+Left Arrow / Alt+Right Arrow</span></span> |
+| <span data-ttu-id="029f7-312">Alternar entre os modos "Mostrar válido" e "Mostrar tudo"</span><span class="sxs-lookup"><span data-stu-id="029f7-312">Toggle between “Show valid” and “Show all” modes</span></span>                                                                        | <span data-ttu-id="029f7-313">Alt+W</span><span class="sxs-lookup"><span data-stu-id="029f7-313">Alt+W</span></span>                            |
+| <span data-ttu-id="029f7-314">Selecionar o valor da lista suspensa e mover para o próximo segmento</span><span class="sxs-lookup"><span data-stu-id="029f7-314">Select the value from drop-down list and move to the next segment</span></span>                                                       | <span data-ttu-id="029f7-315">Inserir</span><span class="sxs-lookup"><span data-stu-id="029f7-315">Enter</span></span>                            |
+| <span data-ttu-id="029f7-316">Mover para o controle próximo/anterior da página (quando o foco for no controle de entrada)</span><span class="sxs-lookup"><span data-stu-id="029f7-316">Move to the next/previous control on the page (when focus is in input control)</span></span>                                          | <span data-ttu-id="029f7-317">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="029f7-317">Tab / Shift+Tab</span></span>                  |
+| <span data-ttu-id="029f7-318">Mover para o campo de entrada próximo/anterior no submenu (quando o foco estiver na lista suspensa)</span><span class="sxs-lookup"><span data-stu-id="029f7-318">Move to the next/previous input field in the flyout (when focus is in the drop-down list)</span></span>                               | <span data-ttu-id="029f7-319">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="029f7-319">Tab / Shift+Tab</span></span>                  |
+| <span data-ttu-id="029f7-320">Mover para cima/para baixo na pesquisa</span><span class="sxs-lookup"><span data-stu-id="029f7-320">Move up/down a row in the lookup</span></span>                                                                                        | <span data-ttu-id="029f7-321">Seta para Cima/Seta para Baixo</span><span class="sxs-lookup"><span data-stu-id="029f7-321">Up Arrow / Down Arrow</span></span>            |
+| <span data-ttu-id="029f7-322">Mover uma página para cima/para baixo na pesquisa</span><span class="sxs-lookup"><span data-stu-id="029f7-322">Move up/down a page in the lookup</span></span>                                                                                       | <span data-ttu-id="029f7-323">Page Up / Page Down</span><span class="sxs-lookup"><span data-stu-id="029f7-323">Page Up / Page Down</span></span>              |
+| <span data-ttu-id="029f7-324">Mover para o topo/parte inferior da pesquisa</span><span class="sxs-lookup"><span data-stu-id="029f7-324">Move to the top/bottom of the lookup</span></span>                                                                                    | <span data-ttu-id="029f7-325">Início/Fim</span><span class="sxs-lookup"><span data-stu-id="029f7-325">Home / End</span></span>                       |
 
  
 

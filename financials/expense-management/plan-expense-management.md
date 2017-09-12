@@ -19,125 +19,125 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: edd3d8ca760c1453ae7cf8d5ff2fdfdedbb022c4
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 83cfd2ef15ae3a02eba21bb31f3311e8f5e15b90
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="configure-expense-management"></a>Configurar gerenciamento de despesas
+# <a name="configure-expense-management"></a><span data-ttu-id="f1349-104">Configurar gerenciamento de despesas</span><span class="sxs-lookup"><span data-stu-id="f1349-104">Configure expense management</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve as considerações e as alterações que você deve fazer durante o processo de planejamento, antes de configurar o gerenciamento de Despesa no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Na área de gerenciamento de despesas, é possível armazenar informações sobre métodos de pagamento, requisições de viagem, relatórios de despesas, as diretivas, dentre outras coisas. 
+<span data-ttu-id="f1349-105">Este artigo descreve as considerações e as alterações que você deve fazer durante o processo de planejamento, antes de configurar o gerenciamento de Despesa no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span><span class="sxs-lookup"><span data-stu-id="f1349-105">This article describes the considerations and the decisions that you must make during the planning process before you configure Expense management in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="f1349-106">Na área de gerenciamento de despesas, é possível armazenar informações sobre métodos de pagamento, requisições de viagem, relatórios de despesas, as diretivas, dentre outras coisas.</span><span class="sxs-lookup"><span data-stu-id="f1349-106">In the Expense management area, you can store information about payment methods, travel requisitions, expense reports, and policies, among other things.</span></span> 
 
-Como muitas das decisões que você toma ao planejar sua configuração do gerenciamento de despesas são baseadas na hierarquia da sua organização e na estrutura financeira, você deve consultar os documentos de planejamento para essas áreas.
+<span data-ttu-id="f1349-107">Como muitas das decisões que você toma ao planejar sua configuração do gerenciamento de despesas são baseadas na hierarquia da sua organização e na estrutura financeira, você deve consultar os documentos de planejamento para essas áreas.</span><span class="sxs-lookup"><span data-stu-id="f1349-107">Because many of the decisions that you make when you plan your configuration for Expense management are based on your organization’s hierarchy and financial structure, you must refer to the planning documents for those areas.</span></span>
 
-## <a name="intercompany-expenses"></a>Despesas intercompanhia
-Quando você habilita as despesas intercompanhia, você permite que as entidades legais e os funcionários incorram despesas e coletem pagamentos de outra entidade legal dentro de sua organização. Por exemplo, um funcionário na entidade legal A conclui um projeto para a entidade legal B. Se as despesas intercompanhia estiverem habilitadas, o funcionário poderá arquivar uma folha de ponto e ser pago pela entidade legal B. Se sua organização não possui diversas entidades legais, você não precisará habilitar as despesas intercompanhia. **Decisão:** Você deseja habilitar as despesas intercompanhia?
+## <a name="intercompany-expenses"></a><span data-ttu-id="f1349-108">Despesas intercompanhia</span><span class="sxs-lookup"><span data-stu-id="f1349-108">Intercompany expenses</span></span>
+<span data-ttu-id="f1349-109">Quando você habilita as despesas intercompanhia, você permite que as entidades legais e os funcionários incorram despesas e coletem pagamentos de outra entidade legal dentro de sua organização.</span><span class="sxs-lookup"><span data-stu-id="f1349-109">When you enable intercompany expenses, you allow legal entities and employees to incur expenses on behalf of, and collect payment from, another legal entity within your organization.</span></span> <span data-ttu-id="f1349-110">Por exemplo, um funcionário na entidade legal A conclui um projeto para a entidade legal B. Se as despesas intercompanhia estiverem habilitadas, o funcionário poderá arquivar uma folha de ponto e ser pago pela entidade legal B. Se sua organização não possui diversas entidades legais, você não precisará habilitar as despesas intercompanhia.</span><span class="sxs-lookup"><span data-stu-id="f1349-110">For example, an employee in legal entity A completes a project for legal entity B. If intercompany expenses are enabled, the employee can then file a timesheet to, and be paid by, legal entity B. If your organization doesn’t have multiple legal entities, you won’t need to enable intercompany expenses.</span></span> <span data-ttu-id="f1349-111">**Decisão:** Você deseja habilitar as despesas intercompanhia?</span><span class="sxs-lookup"><span data-stu-id="f1349-111">**Decision:** Do you want to enable intercompany expenses?</span></span>
 
-## <a name="financial-management"></a>Gerenciamento financeiro
-O gerenciamento de despesas é integrado com o gerenciamento financeiro da sua organização. Muitas das configurações do gerenciamento de despesas serão baseadas nas alterações que você fez sobre as finanças da empresa. As seções a seguir descrevem as áreas diferentes que exigem o planejamento e as decisões com base nas decisões financeiras da organização e na orientação da equipe de liderança.
+## <a name="financial-management"></a><span data-ttu-id="f1349-112">Gerenciamento financeiro</span><span class="sxs-lookup"><span data-stu-id="f1349-112">Financial management</span></span>
+<span data-ttu-id="f1349-113">O gerenciamento de despesas é integrado com o gerenciamento financeiro da sua organização.</span><span class="sxs-lookup"><span data-stu-id="f1349-113">Expense management is tightly integrated with the financial management of your organization.</span></span> <span data-ttu-id="f1349-114">Muitas das configurações do gerenciamento de despesas serão baseadas nas alterações que você fez sobre as finanças da empresa.</span><span class="sxs-lookup"><span data-stu-id="f1349-114">A lot of your configuration for Expense management will be based on the decisions that you’ve made about your organization’s finances.</span></span> <span data-ttu-id="f1349-115">As seções a seguir descrevem as áreas diferentes que exigem o planejamento e as decisões com base nas decisões financeiras da organização e na orientação da equipe de liderança.</span><span class="sxs-lookup"><span data-stu-id="f1349-115">The following sections describe the different areas that require planning and decisions based on your organization’s financial decisions and guidance from your leadership team.</span></span>
 
-### <a name="per-diems"></a>Diárias
+### <a name="per-diems"></a><span data-ttu-id="f1349-116">Diárias</span><span class="sxs-lookup"><span data-stu-id="f1349-116">Per diems</span></span>
 
-Você deve definir as diárias de funcionário que sua organização fornece. Como as diárias normalmente são usadas para cobrir despesas como refeições, hospedagem, e outras despesas extraordinárias, você pode criar regras para as permissões de diária que sua organização oferece. As taxas de diária podem ser definidas com base na época do ano, o local de viagem ou ambos. Quando você define uma regra de diária, você pode especificar que uma porcentagem da taxa de diária será retida se o trabalhador receber refeições ou serviços gratuitos. Você também pode definir as camadas de taxa de diária para definir o número mínimo e máximo de horas que a taxa de diária pode ser aplicada ao deslocamento do funcionário. **Decisões:**
+<span data-ttu-id="f1349-117">Você deve definir as diárias de funcionário que sua organização fornece.</span><span class="sxs-lookup"><span data-stu-id="f1349-117">You must define the employee per diems that your organization provides.</span></span> <span data-ttu-id="f1349-118">Como as diárias normalmente são usadas para cobrir despesas como refeições, hospedagem, e outras despesas extraordinárias, você pode criar regras para as permissões de diária que sua organização oferece.</span><span class="sxs-lookup"><span data-stu-id="f1349-118">Because per diems are typically used to cover expenses such as meals, lodging, and other incidental expenses, you can create rules for the per diem allowances that your organization offers.</span></span> <span data-ttu-id="f1349-119">As taxas de diária podem ser definidas com base na época do ano, o local de viagem ou ambos.</span><span class="sxs-lookup"><span data-stu-id="f1349-119">Per diem rates can be based on the time of year, the travel location, or both.</span></span> <span data-ttu-id="f1349-120">Quando você define uma regra de diária, você pode especificar que uma porcentagem da taxa de diária será retida se o trabalhador receber refeições ou serviços gratuitos.</span><span class="sxs-lookup"><span data-stu-id="f1349-120">When you define a per diem rule, you can specify that a percentage of the per diem rate will be withheld if a worker receives complimentary meals or services.</span></span> <span data-ttu-id="f1349-121">Você também pode definir as camadas de taxa de diária para definir o número mínimo e máximo de horas que a taxa de diária pode ser aplicada ao deslocamento do funcionário.</span><span class="sxs-lookup"><span data-stu-id="f1349-121">You can also define per diem rate tiers to set the minimum and maximum number of hours that the per diem rate can be applied to a worker’s travel.</span></span> <span data-ttu-id="f1349-122">**Decisões:**</span><span class="sxs-lookup"><span data-stu-id="f1349-122">**Decisions:**</span></span>
 
--   As regras de diária padrão para o primeiro e último dia:
-    -   Qual o número mínimo de horas que um funcionário pode reivindicar para um dia e ainda receber uma diária?
-    -   Há uma redução no valor que é oferecido para refeições para o primeiro e o último dia? Se sim, qual o percentual da redução?
-    -   Há uma redução no valor que é oferecido para hotel para o primeiro e o último dia? Se sim, qual o percentual da redução?
-    -   Há uma redução no valor que é oferecido para outras despesas incorridas no primeiro e último dia? Se sim, qual o percentual da redução?
--   Regras padrão de diária:
-    -   Há uma redução percentual na bonificação de diária para cada refeição se, por exemplo, a refeição for complementar? Se sim, qual a porcentagem de redução para cada refeição?
-    -   A redução de refeição é calculada por dia, por viagem, ou por número de refeições por dia?
-    -   Os valores de diária deve ser arredondados de forma comum ou para cima?
-    -   As diárias são calculadas em um período de 24 horas ou em um dia do calendário?
--   Regras de diária baseadas em localização:
-    -   As taxas de diária variam com base na localização e quais locais estão inclusos?
-    -   Se a taxa de diária varia de acordo com o local, para cada local, o valor da porcentagem é fornecido para:
-        -   refeições
-        -   hotel
-        -   outras Despesas
+-   <span data-ttu-id="f1349-123">As regras de diária padrão para o primeiro e último dia:</span><span class="sxs-lookup"><span data-stu-id="f1349-123">Default per diem rules for the first and last days:</span></span>
+    -   <span data-ttu-id="f1349-124">Qual o número mínimo de horas que um funcionário pode reivindicar para um dia e ainda receber uma diária?</span><span class="sxs-lookup"><span data-stu-id="f1349-124">What is the minimum number of hours that an employee can claim for a day and still receive a per diem?</span></span>
+    -   <span data-ttu-id="f1349-125">Há uma redução no valor que é oferecido para refeições para o primeiro e o último dia?</span><span class="sxs-lookup"><span data-stu-id="f1349-125">Is there a reduction in the amount that is offered for meals for the first and last day?</span></span> <span data-ttu-id="f1349-126">Se sim, qual o percentual da redução?</span><span class="sxs-lookup"><span data-stu-id="f1349-126">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="f1349-127">Há uma redução no valor que é oferecido para hotel para o primeiro e o último dia?</span><span class="sxs-lookup"><span data-stu-id="f1349-127">Is there a reduction in the amount that is offered for a hotel for the first and last day?</span></span> <span data-ttu-id="f1349-128">Se sim, qual o percentual da redução?</span><span class="sxs-lookup"><span data-stu-id="f1349-128">If so, what is the percentage of the reduction?</span></span>
+    -   <span data-ttu-id="f1349-129">Há uma redução no valor que é oferecido para outras despesas incorridas no primeiro e último dia?</span><span class="sxs-lookup"><span data-stu-id="f1349-129">Is there a reduction in the amount that is offered for other expenses incurred on the first and last day?</span></span> <span data-ttu-id="f1349-130">Se sim, qual o percentual da redução?</span><span class="sxs-lookup"><span data-stu-id="f1349-130">If so, what is the percentage of the reduction?</span></span>
+-   <span data-ttu-id="f1349-131">Regras padrão de diária:</span><span class="sxs-lookup"><span data-stu-id="f1349-131">Default per diem rules:</span></span>
+    -   <span data-ttu-id="f1349-132">Há uma redução percentual na bonificação de diária para cada refeição se, por exemplo, a refeição for complementar?</span><span class="sxs-lookup"><span data-stu-id="f1349-132">Is there a percentage reduction in the per diem allowance for each meal if, for example, the meal is complimentary?</span></span> <span data-ttu-id="f1349-133">Se sim, qual a porcentagem de redução para cada refeição?</span><span class="sxs-lookup"><span data-stu-id="f1349-133">If so, what is the reduction percentage for each meal?</span></span>
+    -   <span data-ttu-id="f1349-134">A redução de refeição é calculada por dia, por viagem, ou por número de refeições por dia?</span><span class="sxs-lookup"><span data-stu-id="f1349-134">Is the meal reduction calculated per day, per trip, or by the number of meals per day?</span></span>
+    -   <span data-ttu-id="f1349-135">Os valores de diária deve ser arredondados de forma comum ou para cima?</span><span class="sxs-lookup"><span data-stu-id="f1349-135">Should per diem amounts be rounded normally or rounded up?</span></span>
+    -   <span data-ttu-id="f1349-136">As diárias são calculadas em um período de 24 horas ou em um dia do calendário?</span><span class="sxs-lookup"><span data-stu-id="f1349-136">Are per diems calculated on a 24-hour period or on a calendar day?</span></span>
+-   <span data-ttu-id="f1349-137">Regras de diária baseadas em localização:</span><span class="sxs-lookup"><span data-stu-id="f1349-137">Per diem rules based on location:</span></span>
+    -   <span data-ttu-id="f1349-138">As taxas de diária variam com base na localização e quais locais estão inclusos?</span><span class="sxs-lookup"><span data-stu-id="f1349-138">Do per diem rates vary based on location and what locations are included?</span></span>
+    -   <span data-ttu-id="f1349-139">Se a taxa de diária varia de acordo com o local, para cada local, o valor da porcentagem é fornecido para:</span><span class="sxs-lookup"><span data-stu-id="f1349-139">If per diem rate do vary based on location, for each location, what percentage amount is provided for:</span></span>
+        -   <span data-ttu-id="f1349-140">refeições</span><span class="sxs-lookup"><span data-stu-id="f1349-140">meals</span></span>
+        -   <span data-ttu-id="f1349-141">hotel</span><span class="sxs-lookup"><span data-stu-id="f1349-141">hotel</span></span>
+        -   <span data-ttu-id="f1349-142">outras Despesas</span><span class="sxs-lookup"><span data-stu-id="f1349-142">other expenses</span></span>
 
-### <a name="expense-management-journals-and-accounts"></a>Diários e contas de gerenciamento de despesa
+### <a name="expense-management-journals-and-accounts"></a><span data-ttu-id="f1349-143">Diários e contas de gerenciamento de despesa</span><span class="sxs-lookup"><span data-stu-id="f1349-143">Expense management journals and accounts</span></span>
 
-O gerenciamento de despesas exige que você use vários diários e contas. Você deve decidir se, por exemplo, a mesma conta será usada para adiantamentos de dinheiro e contestações de cartão de crédito. **Decisões:**
+<span data-ttu-id="f1349-144">O gerenciamento de despesas exige que você use vários diários e contas.</span><span class="sxs-lookup"><span data-stu-id="f1349-144">Expense management requires that you use multiple journals and accounts.</span></span> <span data-ttu-id="f1349-145">Você deve decidir se, por exemplo, a mesma conta será usada para adiantamentos de dinheiro e contestações de cartão de crédito.</span><span class="sxs-lookup"><span data-stu-id="f1349-145">You must decide, for example, whether the same account is used for cash advances and credit card disputes.</span></span> <span data-ttu-id="f1349-146">**Decisões:**</span><span class="sxs-lookup"><span data-stu-id="f1349-146">**Decisions:**</span></span>
 
--   Em qual diário-razão os relatórios de despesas aprovados são lançados?
--   Qual conta é utilizada para adiantamentos de dinheiro?
--   Os adiantamentos de dinheiro devem ser lançados imediatamente?
+-   <span data-ttu-id="f1349-147">Em qual diário-razão os relatórios de despesas aprovados são lançados?</span><span class="sxs-lookup"><span data-stu-id="f1349-147">Which ledger journal are approved expense reports posted to?</span></span>
+-   <span data-ttu-id="f1349-148">Qual conta é utilizada para adiantamentos de dinheiro?</span><span class="sxs-lookup"><span data-stu-id="f1349-148">Which account is used for cash advances?</span></span>
+-   <span data-ttu-id="f1349-149">Os adiantamentos de dinheiro devem ser lançados imediatamente?</span><span class="sxs-lookup"><span data-stu-id="f1349-149">Should cash advances be posted immediately?</span></span>
 
-### <a name="payment-methods"></a>Meios de pagamento
+### <a name="payment-methods"></a><span data-ttu-id="f1349-150">Meios de pagamento</span><span class="sxs-lookup"><span data-stu-id="f1349-150">Payment methods</span></span>
 
-Ao permitir que os funcionários incorram despesas em nome de sua empresa, você deve definir os métodos de pagamento que os funcionários têm permissão de usar. Por exemplo, você pode permitir que os funcionários usem dinheiro ou um cartão de crédito corporativo. Você também pode permitir que os funcionários usem cartões de crédito pessoais e, em seguida, reembolsá-los. É necessário realizar as seguintes alterações para cada método de pagamento que você permitir. **Decisões:**
+<span data-ttu-id="f1349-151">Ao permitir que os funcionários incorram despesas em nome de sua empresa, você deve definir os métodos de pagamento que os funcionários têm permissão de usar.</span><span class="sxs-lookup"><span data-stu-id="f1349-151">When you allow employees to incur expenses on behalf of your business, you must define the payment methods that employees are allowed to use.</span></span> <span data-ttu-id="f1349-152">Por exemplo, você pode permitir que os funcionários usem dinheiro ou um cartão de crédito corporativo.</span><span class="sxs-lookup"><span data-stu-id="f1349-152">For example, you might allow employees to use cash or a corporate credit card.</span></span> <span data-ttu-id="f1349-153">Você também pode permitir que os funcionários usem cartões de crédito pessoais e, em seguida, reembolsá-los.</span><span class="sxs-lookup"><span data-stu-id="f1349-153">You might also allow employees to use personal credit cards, and then reimburse the employees.</span></span> <span data-ttu-id="f1349-154">É necessário realizar as seguintes alterações para cada método de pagamento que você permitir.</span><span class="sxs-lookup"><span data-stu-id="f1349-154">You must make the following decisions for each payment method that you allow.</span></span> <span data-ttu-id="f1349-155">**Decisões:**</span><span class="sxs-lookup"><span data-stu-id="f1349-155">**Decisions:**</span></span>
 
--   Quais métodos de pagamento são permitidos?
--   Quem é o proprietário das despesas do método de pagamento?
--   Há um tipo de contrapartida? Se sim, qual é ele?
--   Se houver uma contrapartida, que é a conta?
--   Se o método de pagamento for um cartão de crédito, o método de pagamento deverá ser usado somente em transações importadas?
+-   <span data-ttu-id="f1349-156">Quais métodos de pagamento são permitidos?</span><span class="sxs-lookup"><span data-stu-id="f1349-156">What payment methods are allowed?</span></span>
+-   <span data-ttu-id="f1349-157">Quem é o proprietário das despesas do método de pagamento?</span><span class="sxs-lookup"><span data-stu-id="f1349-157">Who owns the payment method expenses?</span></span>
+-   <span data-ttu-id="f1349-158">Há um tipo de contrapartida?</span><span class="sxs-lookup"><span data-stu-id="f1349-158">Is there an offset account type?</span></span> <span data-ttu-id="f1349-159">Se sim, qual é ele?</span><span class="sxs-lookup"><span data-stu-id="f1349-159">If so, what is it?</span></span>
+-   <span data-ttu-id="f1349-160">Se houver uma contrapartida, que é a conta?</span><span class="sxs-lookup"><span data-stu-id="f1349-160">If there is an offset account, what is the account?</span></span>
+-   <span data-ttu-id="f1349-161">Se o método de pagamento for um cartão de crédito, o método de pagamento deverá ser usado somente em transações importadas?</span><span class="sxs-lookup"><span data-stu-id="f1349-161">If the payment method is a credit card, should the payment method be used only with imported transactions?</span></span>
 
-### <a name="expense-categories-and-shared-categories"></a>Categorias de despesa e categorias compartilhadas
+### <a name="expense-categories-and-shared-categories"></a><span data-ttu-id="f1349-162">Categorias de despesa e categorias compartilhadas</span><span class="sxs-lookup"><span data-stu-id="f1349-162">Expense categories and shared categories</span></span>
 
-Quando os funcionários criam um relatório de despesas, cada despesa que eles registram deve estar associada a uma categoria de despesa. As categorias de despesa são derivadas de categorias compartilhadas que podem ser compartilhadas entre as entidades legais na sua organização. Essas categorias também podem ser compartilhadas no gerenciamento de projetos e na contabilidade, dependendo de como sua organização está definida. Baseado na definição da organização e na orientação da equipe de implementação, determine se as categorias usadas no gerenciamento de despesas devem ser usadas somente em despesa ou se devem ser compartilhadas entre projeto e despesa. Observe que essas categorias podem ser compartilhadas entre projeto e despesa ou projeto e produção, mas não entre despesa e produção. Você deve realizar as seguintes alterações para cada categoria de despesa. **Decisões:**
+<span data-ttu-id="f1349-163">Quando os funcionários criam um relatório de despesas, cada despesa que eles registram deve estar associada a uma categoria de despesa.</span><span class="sxs-lookup"><span data-stu-id="f1349-163">When employees create an expense report, each expense that they record must be associated with an expense category.</span></span> <span data-ttu-id="f1349-164">As categorias de despesa são derivadas de categorias compartilhadas que podem ser compartilhadas entre as entidades legais na sua organização.</span><span class="sxs-lookup"><span data-stu-id="f1349-164">Expense categories are derived from Shared categories that can be shared across the legal entities within your organization.</span></span> <span data-ttu-id="f1349-165">Essas categorias também podem ser compartilhadas no gerenciamento de projetos e na contabilidade, dependendo de como sua organização está definida.</span><span class="sxs-lookup"><span data-stu-id="f1349-165">These categories can also be shared in Project management and accounting, depending on how your organization is defined.</span></span> <span data-ttu-id="f1349-166">Baseado na definição da organização e na orientação da equipe de implementação, determine se as categorias usadas no gerenciamento de despesas devem ser usadas somente em despesa ou se devem ser compartilhadas entre projeto e despesa.</span><span class="sxs-lookup"><span data-stu-id="f1349-166">Based on the definition of your organization and guidance from the implementation team, determine whether the categories used in expense management are to be used in only expense or if they should be shared between Project and Expense.</span></span> <span data-ttu-id="f1349-167">Observe que essas categorias podem ser compartilhadas entre projeto e despesa ou projeto e produção, mas não entre despesa e produção.</span><span class="sxs-lookup"><span data-stu-id="f1349-167">Note that these categories can be shared between Project and Expense or Project and Production, but not between Expense and Production.</span></span> <span data-ttu-id="f1349-168">Você deve realizar as seguintes alterações para cada categoria de despesa.</span><span class="sxs-lookup"><span data-stu-id="f1349-168">You must make the following decisions for each expense category.</span></span> <span data-ttu-id="f1349-169">**Decisões:**</span><span class="sxs-lookup"><span data-stu-id="f1349-169">**Decisions:**</span></span>
 
--   Qual é a categoria de despesa? Por exemplo, voos, hotel, ou quilometragem.
--   Essa categoria de despesa também pode ser usada no gerenciamento de projeto e contabilidade?
--   Qual é o tipo de despesa?
--   Qual é o método de pagamento padrão da categoria de despesa?
--   As despesas nesta categoria precisam ser especificadas?
--   Qual é a conta padrão principal para a categoria de despesa?
--   Qual é o grupo padrão de imposto sobre vendas de item para a categoria de despesa?
--   São permitidos métodos de pagamento adicionais para a categoria de despesa? Se sim, quais são eles?
--   Há subcategorias dentro dessa categoria de despesa? Se sim:
-    -   Algumas das subcategorias são excluídas da restituição de imposto?
-    -   Qual é o grupo de imposto sobre vendas de item das subcategorias?
+-   <span data-ttu-id="f1349-170">Qual é a categoria de despesa?</span><span class="sxs-lookup"><span data-stu-id="f1349-170">What is the expense category?</span></span> <span data-ttu-id="f1349-171">Por exemplo, voos, hotel, ou quilometragem.</span><span class="sxs-lookup"><span data-stu-id="f1349-171">For example, flights, hotel, or mileage.</span></span>
+-   <span data-ttu-id="f1349-172">Essa categoria de despesa também pode ser usada no gerenciamento de projeto e contabilidade?</span><span class="sxs-lookup"><span data-stu-id="f1349-172">Can this expense category also be used in Project management and accounting?</span></span>
+-   <span data-ttu-id="f1349-173">Qual é o tipo de despesa?</span><span class="sxs-lookup"><span data-stu-id="f1349-173">What is the expense type?</span></span>
+-   <span data-ttu-id="f1349-174">Qual é o método de pagamento padrão da categoria de despesa?</span><span class="sxs-lookup"><span data-stu-id="f1349-174">What is the default payment method for the expense category?</span></span>
+-   <span data-ttu-id="f1349-175">As despesas nesta categoria precisam ser especificadas?</span><span class="sxs-lookup"><span data-stu-id="f1349-175">Are expenses in this category required to be itemized?</span></span>
+-   <span data-ttu-id="f1349-176">Qual é a conta padrão principal para a categoria de despesa?</span><span class="sxs-lookup"><span data-stu-id="f1349-176">What is the main default account for the expense category?</span></span>
+-   <span data-ttu-id="f1349-177">Qual é o grupo padrão de imposto sobre vendas de item para a categoria de despesa?</span><span class="sxs-lookup"><span data-stu-id="f1349-177">What is the default item sales tax group for the expense category?</span></span>
+-   <span data-ttu-id="f1349-178">São permitidos métodos de pagamento adicionais para a categoria de despesa?</span><span class="sxs-lookup"><span data-stu-id="f1349-178">Are additional payment methods allowed for the expense category?</span></span> <span data-ttu-id="f1349-179">Se sim, quais são eles?</span><span class="sxs-lookup"><span data-stu-id="f1349-179">If so, what are they?</span></span>
+-   <span data-ttu-id="f1349-180">Há subcategorias dentro dessa categoria de despesa?</span><span class="sxs-lookup"><span data-stu-id="f1349-180">Are there subcategories within this expense category?</span></span> <span data-ttu-id="f1349-181">Se sim:</span><span class="sxs-lookup"><span data-stu-id="f1349-181">If so:</span></span>
+    -   <span data-ttu-id="f1349-182">Algumas das subcategorias são excluídas da restituição de imposto?</span><span class="sxs-lookup"><span data-stu-id="f1349-182">Are any of the subcategories excluded from tax recovery?</span></span>
+    -   <span data-ttu-id="f1349-183">Qual é o grupo de imposto sobre vendas de item das subcategorias?</span><span class="sxs-lookup"><span data-stu-id="f1349-183">What is the item sales tax group of the subcategories?</span></span>
 
-    Se esta categoria de despesa também for usada no gerenciamento de projetos e na contabilidade, responda às perguntas restantes. Caso contrário, você concluirá nesta seção.
--   Quais contas de custo serão usadas para o seguinte?
-    -   Custo
-    -   Alocação de folha de pagamento
-    -   WIP - Valor de custo
-    -   Custo de item
-    -   WIP - Valor de custo - Item
-    -   Perda acumulada
-    -   WIP - Perda acumulada
--   Quais contas de receita serão usadas para o seguinte?
-    -   Receita faturada
-    -   Receita acumulada - valor de venda
-    -   WIP - Valor de venda
-    -   Receita acumulada - Produção
-    -   WIP - Produção
-    -   Receita acumulada - Lucro
-    -   WIP - Lucro
-    -   Receita acumulada - Subscrição
-    -   WIP - Subscrição
+    <span data-ttu-id="f1349-184">Se esta categoria de despesa também for usada no gerenciamento de projetos e na contabilidade, responda às perguntas restantes.</span><span class="sxs-lookup"><span data-stu-id="f1349-184">If this expense category is also used in Project management and accounting, answer the remaining questions.</span></span> <span data-ttu-id="f1349-185">Caso contrário, você concluirá nesta seção.</span><span class="sxs-lookup"><span data-stu-id="f1349-185">Otherwise, you are finished with this section.</span></span>
+-   <span data-ttu-id="f1349-186">Quais contas de custo serão usadas para o seguinte?</span><span class="sxs-lookup"><span data-stu-id="f1349-186">Which cost accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="f1349-187">Custo</span><span class="sxs-lookup"><span data-stu-id="f1349-187">Cost</span></span>
+    -   <span data-ttu-id="f1349-188">Alocação de folha de pagamento</span><span class="sxs-lookup"><span data-stu-id="f1349-188">Payroll allocation</span></span>
+    -   <span data-ttu-id="f1349-189">WIP - Valor de custo</span><span class="sxs-lookup"><span data-stu-id="f1349-189">WIP-cost value</span></span>
+    -   <span data-ttu-id="f1349-190">Custo de item</span><span class="sxs-lookup"><span data-stu-id="f1349-190">Cost-item</span></span>
+    -   <span data-ttu-id="f1349-191">WIP - Valor de custo - Item</span><span class="sxs-lookup"><span data-stu-id="f1349-191">WIP-cost value-item</span></span>
+    -   <span data-ttu-id="f1349-192">Perda acumulada</span><span class="sxs-lookup"><span data-stu-id="f1349-192">Accrued loss</span></span>
+    -   <span data-ttu-id="f1349-193">WIP - Perda acumulada</span><span class="sxs-lookup"><span data-stu-id="f1349-193">WIP-accrued loss</span></span>
+-   <span data-ttu-id="f1349-194">Quais contas de receita serão usadas para o seguinte?</span><span class="sxs-lookup"><span data-stu-id="f1349-194">Which revenue accounts will be used for the following?</span></span>
+    -   <span data-ttu-id="f1349-195">Receita faturada</span><span class="sxs-lookup"><span data-stu-id="f1349-195">Invoiced revenue</span></span>
+    -   <span data-ttu-id="f1349-196">Receita acumulada - valor de venda</span><span class="sxs-lookup"><span data-stu-id="f1349-196">Accrued revenue-sales value</span></span>
+    -   <span data-ttu-id="f1349-197">WIP - Valor de venda</span><span class="sxs-lookup"><span data-stu-id="f1349-197">WIP-sales value</span></span>
+    -   <span data-ttu-id="f1349-198">Receita acumulada - Produção</span><span class="sxs-lookup"><span data-stu-id="f1349-198">Accrued revenue-production</span></span>
+    -   <span data-ttu-id="f1349-199">WIP - Produção</span><span class="sxs-lookup"><span data-stu-id="f1349-199">WIP-production</span></span>
+    -   <span data-ttu-id="f1349-200">Receita acumulada - Lucro</span><span class="sxs-lookup"><span data-stu-id="f1349-200">Accrued revenue-profit</span></span>
+    -   <span data-ttu-id="f1349-201">WIP - Lucro</span><span class="sxs-lookup"><span data-stu-id="f1349-201">WIP-profit</span></span>
+    -   <span data-ttu-id="f1349-202">Receita acumulada - Subscrição</span><span class="sxs-lookup"><span data-stu-id="f1349-202">Accrued revenue-subscription</span></span>
+    -   <span data-ttu-id="f1349-203">WIP - Subscrição</span><span class="sxs-lookup"><span data-stu-id="f1349-203">WIP-subscription</span></span>
 
  
 
-### <a name="taxes"></a>Impostos
+### <a name="taxes"></a><span data-ttu-id="f1349-204">Impostos</span><span class="sxs-lookup"><span data-stu-id="f1349-204">Taxes</span></span>
 
-Para impostos relacionados a despesas, você deve determinar o que é incluído ou habilitado em relatórios de despesas. **Decisões:**
+<span data-ttu-id="f1349-205">Para impostos relacionados a despesas, você deve determinar o que é incluído ou habilitado em relatórios de despesas.</span><span class="sxs-lookup"><span data-stu-id="f1349-205">For expense-related taxes, you must determine what is included or enabled on expense reports.</span></span> <span data-ttu-id="f1349-206">**Decisões:**</span><span class="sxs-lookup"><span data-stu-id="f1349-206">**Decisions:**</span></span>
 
--   O imposto sobre vendas está incluso nos valores de despesa?
--   A restituição de imposto deve ser habilitada nas despesas?
+-   <span data-ttu-id="f1349-207">O imposto sobre vendas está incluso nos valores de despesa?</span><span class="sxs-lookup"><span data-stu-id="f1349-207">Is sales tax included in the expense amounts?</span></span>
+-   <span data-ttu-id="f1349-208">A restituição de imposto deve ser habilitada nas despesas?</span><span class="sxs-lookup"><span data-stu-id="f1349-208">Should tax recovery be enabled on expenses?</span></span>
 
-Observe que se durante o planejamento da contabilidade, você decidiu aplicar os impostos sobre vendas e as regras de imposto sobre o uso dos EUA, que é feito alternando o campo **Aplicar regras de tributação de imposto** para Sim, não será possível habilitar a restituição de imposto nas despesas.
+<span data-ttu-id="f1349-209">Observe que se durante o planejamento da contabilidade, você decidiu aplicar os impostos sobre vendas e as regras de imposto sobre o uso dos EUA, que é feito alternando o campo **Aplicar regras de tributação de imposto** para Sim, não será possível habilitar a restituição de imposto nas despesas.</span><span class="sxs-lookup"><span data-stu-id="f1349-209">Note that if, during your planning of the general ledger, you have decided to apply U.S. sales tax and use tax rules, which is done by toggling the **Apply sales tax taxations rules** field to Yes, you can’t enable tax recovery on expenses.</span></span>
 
-## <a name="policies"></a>Políticas
-Você pode criar políticas de relatório de despesas de modo que sua organização possa poupar tempo e dinheiro quando os funcionários incorrerem em despesas em seu nome. As políticas garantem que os funcionários fiquem dentro do orçamento, forneçam todas as informações necessárias e gastem o dinheiro somente conforme necessário. Você deve tomar as decisões a seguir para cada política de relatório de despesas e cada política de aprovação de relatório de despesas que você criar. **Decisões:**
+## <a name="policies"></a><span data-ttu-id="f1349-210">Políticas</span><span class="sxs-lookup"><span data-stu-id="f1349-210">Policies</span></span>
+<span data-ttu-id="f1349-211">Você pode criar políticas de relatório de despesas de modo que sua organização possa poupar tempo e dinheiro quando os funcionários incorrerem em despesas em seu nome.</span><span class="sxs-lookup"><span data-stu-id="f1349-211">You can create expense report policies so that your organization can save time and money when employees incur expenses on its behalf.</span></span> <span data-ttu-id="f1349-212">As políticas garantem que os funcionários fiquem dentro do orçamento, forneçam todas as informações necessárias e gastem o dinheiro somente conforme necessário.</span><span class="sxs-lookup"><span data-stu-id="f1349-212">Policies ensure that employees stay within budget, provide all required information, and spend money only as necessary.</span></span> <span data-ttu-id="f1349-213">Você deve tomar as decisões a seguir para cada política de relatório de despesas e cada política de aprovação de relatório de despesas que você criar.</span><span class="sxs-lookup"><span data-stu-id="f1349-213">You must make the following decisions for each expense report policy and each expense report approval policy that you create.</span></span> <span data-ttu-id="f1349-214">**Decisões:**</span><span class="sxs-lookup"><span data-stu-id="f1349-214">**Decisions:**</span></span>
 
--   Qual é o nome da política?
--   A que se destina a política de despesa?
--   Se você decidiu anteriormente habilitar as despesas intercompanhia, a quais empresas em sua organização essa política se aplica?
--   Quando a política entra em vigor?
--   Quando a política expira?
--   Qual é a regra de política?
--   Qual é o resultado da regra de política?
+-   <span data-ttu-id="f1349-215">Qual é o nome da política?</span><span class="sxs-lookup"><span data-stu-id="f1349-215">What is the name of the policy?</span></span>
+-   <span data-ttu-id="f1349-216">A que se destina a política de despesa?</span><span class="sxs-lookup"><span data-stu-id="f1349-216">What is the expense policy for?</span></span>
+-   <span data-ttu-id="f1349-217">Se você decidiu anteriormente habilitar as despesas intercompanhia, a quais empresas em sua organização essa política se aplica?</span><span class="sxs-lookup"><span data-stu-id="f1349-217">If you previously decided to enable intercompany expenses, to which companies in your organization will this policy apply?</span></span>
+-   <span data-ttu-id="f1349-218">Quando a política entra em vigor?</span><span class="sxs-lookup"><span data-stu-id="f1349-218">When does the policy become effective?</span></span>
+-   <span data-ttu-id="f1349-219">Quando a política expira?</span><span class="sxs-lookup"><span data-stu-id="f1349-219">When does the policy expire?</span></span>
+-   <span data-ttu-id="f1349-220">Qual é a regra de política?</span><span class="sxs-lookup"><span data-stu-id="f1349-220">What is the policy rule?</span></span>
+-   <span data-ttu-id="f1349-221">Qual é o resultado da regra de política?</span><span class="sxs-lookup"><span data-stu-id="f1349-221">What is the outcome of the policy rule?</span></span>
 
 
 

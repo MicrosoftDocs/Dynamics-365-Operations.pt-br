@@ -1,4 +1,4 @@
---- 
+---
 title: Definir processos de contagem de estoque
 description: "Este procedimento mostra a configuração dos processos de contagem básicos de estoque criando um grupo de contagem e um diário de contagem."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,72 +17,71 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 62c60faafd9ad96ce636a08102bc8652f9fff870
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: c14c846c55a3d821945160835817cd4f467deda9
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
-# <a name="define-inventory-counting-processes"></a>Definir processos de contagem de estoque
+# <a name="define-inventory-counting-processes"></a><span data-ttu-id="72b82-103">Definir processos de contagem de estoque</span><span class="sxs-lookup"><span data-stu-id="72b82-103">Define inventory counting processes</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento mostra a configuração dos processos de contagem básicos de estoque criando um grupo de contagem e um diário de contagem. Ele também mostra como habilitar diretivas de contagem em um nível de depósito e do item. Essas tarefas normalmente seriam realizadas por um supervisor do depósito. É um pré-requisito para alguns produtos liberados e depósitos existentes. Se você for utilizar uma empresa de dados demonstrativos, você pode executar esse procedimento na empresa USMF com qualquer item em estoque.
+<span data-ttu-id="72b82-104">Este procedimento mostra a configuração dos processos de contagem básicos de estoque criando um grupo de contagem e um diário de contagem.</span><span class="sxs-lookup"><span data-stu-id="72b82-104">This procedure walks you through the configuration of basic inventory counting processes by creating a counting group and a counting journal.</span></span> <span data-ttu-id="72b82-105">Ele também mostra como habilitar diretivas de contagem em um nível de depósito e do item.</span><span class="sxs-lookup"><span data-stu-id="72b82-105">It also shows you how to enable counting policies on a warehouse and item level.</span></span> <span data-ttu-id="72b82-106">Essas tarefas normalmente seriam realizadas por um supervisor do depósito.</span><span class="sxs-lookup"><span data-stu-id="72b82-106">These tasks would typically be carried out by a warehouse supervisor.</span></span> <span data-ttu-id="72b82-107">É um pré-requisito para alguns produtos liberados e depósitos existentes.</span><span class="sxs-lookup"><span data-stu-id="72b82-107">It is a prerequisite to have some existing released products and warehouses.</span></span> <span data-ttu-id="72b82-108">Se você for utilizar uma empresa de dados demonstrativos, você pode executar esse procedimento na empresa USMF com qualquer item em estoque.</span><span class="sxs-lookup"><span data-stu-id="72b82-108">If you're using a demo data company, you can run this procedure in the USMF company with any stocked item.</span></span>
 
 
-## <a name="create-a-counting-group"></a>Crie um grupo de contagem
-1. Vá para Gerenciamento de estoque > Configuração > Divisão de estoque > Grupos de contabilidade.
-2. Clique em Novo.
-3. No campo grupo de Contabilidade, digite um valor.
-4. No campo Nome, digite um valor.
-5. No campo de código de contabilidade, selecione uma opção.
-    * Manual – inclui linhas toda vez que você executa o trabalho. Em outras palavras, você escolhe o intervalo de contabilização do grupo de contabilização.  Período - Inclui linhas para o período no diário de contagem depois que o intervalo de períodos expira.   Zero no estoque - Se o estoque disponível chegar a zero (0), linhas serão geradas no diário de contagem quando o trabalho for executado. Se o estoque disponível chegar a 0 após uma contabilização, linhas serão geradas na próxima vez que você iniciar a contabilização.   Mínimo – insere linhas no diário de contagem se o estoque disponível é igual ou menor que o mínimo especificado.  
-    * Opcional: Se tiver especificado o Período no campo Código de Contagem, você deverá digitar nesse campo o intervalo do período no Período de contagem. A unidade dos intervalos é dias.  
-    * Quando você executa o trabalho para criar novas linhas do diário de contagem, as novas linhas são criadas no intervalo especificado neste campo, independentemente da frequência na qual você executa o mesmo trabalho. Por exemplo, se o Período de contagem for definido para 7, e as linhas do diário forem geradas por último para uma contagem em 1º de janeiro, se outro trabalho for iniciado em 5 de janeiro, não se passaram sete dias e assim nenhuma linha é gerada no diário do intervalo do período. Se você recomeçar o trabalho no dia 8 de janeiro, linhas serão geradas para o período no diário de contagem, pois já se passaram 7 dias.  
-6. Clique em Salvar.
+## <a name="create-a-counting-group"></a><span data-ttu-id="72b82-109">Crie um grupo de contagem</span><span class="sxs-lookup"><span data-stu-id="72b82-109">Create a counting group</span></span>
+1. <span data-ttu-id="72b82-110">Vá para Gerenciamento de estoque > Configuração > Divisão de estoque > Grupos de contabilidade.</span><span class="sxs-lookup"><span data-stu-id="72b82-110">Go to Inventory management > Setup > Inventory > Counting groups.</span></span>
+2. <span data-ttu-id="72b82-111">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="72b82-111">Click New.</span></span>
+3. <span data-ttu-id="72b82-112">No campo grupo de Contabilidade, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="72b82-112">In the Counting group field, type a value.</span></span>
+4. <span data-ttu-id="72b82-113">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="72b82-113">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="72b82-114">No campo de código de contabilidade, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="72b82-114">In the Counting code field, select an option.</span></span>
+    * <span data-ttu-id="72b82-115">Manual – inclui linhas toda vez que você executa o trabalho.</span><span class="sxs-lookup"><span data-stu-id="72b82-115">Manual – Includes lines every time you run the job.</span></span> <span data-ttu-id="72b82-116">Em outras palavras, você escolhe o intervalo de contabilização do grupo de contabilização.</span><span class="sxs-lookup"><span data-stu-id="72b82-116">In other words, you decide the counting interval for the counting group.</span></span>  <span data-ttu-id="72b82-117">Período - Inclui linhas para o período no diário de contagem depois que o intervalo de períodos expira.</span><span class="sxs-lookup"><span data-stu-id="72b82-117">Period – Includes lines for the period in the counting journal when the period interval has expired.</span></span>   <span data-ttu-id="72b82-118">Zero no estoque - Se o estoque disponível chegar a zero (0), linhas serão geradas no diário de contagem quando o trabalho for executado.</span><span class="sxs-lookup"><span data-stu-id="72b82-118">Zero in stock – If on-hand inventory reaches zero (0), lines are generated in the counting journal when the job is run.</span></span> <span data-ttu-id="72b82-119">Se o estoque disponível chegar a 0 após uma contabilização, linhas serão geradas na próxima vez que você iniciar a contabilização.</span><span class="sxs-lookup"><span data-stu-id="72b82-119">If the on-hand inventory reaches 0 after a count, lines are generated the next time that you start the count.</span></span>   <span data-ttu-id="72b82-120">Mínimo – insere linhas no diário de contagem se o estoque disponível é igual ou menor que o mínimo especificado.</span><span class="sxs-lookup"><span data-stu-id="72b82-120">Minimum – Inserts lines in the counting journal if the on-hand inventory is equal to or less than the minimum that is specified.</span></span>  
+    * <span data-ttu-id="72b82-121">Opcional: Se tiver especificado o Período no campo Código de Contagem, você deverá digitar nesse campo o intervalo do período no Período de contagem.</span><span class="sxs-lookup"><span data-stu-id="72b82-121">Optional: If you have specified Period in the Counting code field, you must type the interval for the period in the Counting period field.</span></span> <span data-ttu-id="72b82-122">A unidade dos intervalos é dias.</span><span class="sxs-lookup"><span data-stu-id="72b82-122">The unit for intervals is days.</span></span>  
+    * <span data-ttu-id="72b82-123">Quando você executa o trabalho para criar novas linhas do diário de contagem, as novas linhas são criadas no intervalo especificado neste campo, independentemente da frequência na qual você executa o mesmo trabalho.</span><span class="sxs-lookup"><span data-stu-id="72b82-123">When you run the job for creating new lines in the counting journal, new lines are created at the interval specified in this field, regardless of how often you run the same job.</span></span> <span data-ttu-id="72b82-124">Por exemplo, se o Período de contagem for definido para 7, e as linhas do diário forem geradas por último para uma contagem em 1º de janeiro, se outro trabalho for iniciado em 5 de janeiro, não se passaram sete dias e assim nenhuma linha é gerada no diário do intervalo do período.</span><span class="sxs-lookup"><span data-stu-id="72b82-124">For example, if Counting period is set to 7, and journal lines were last generated for a count on January 1, if another job is started on January 5, seven days have not passed and so no lines are generated in the journal for that period interval.</span></span> <span data-ttu-id="72b82-125">Se você recomeçar o trabalho no dia 8 de janeiro, linhas serão geradas para o período no diário de contagem, pois já se passaram 7 dias.</span><span class="sxs-lookup"><span data-stu-id="72b82-125">If you start the job again on January 8, lines are generated for the period in the counting journal, because 7 days have passed.</span></span>  
+6. <span data-ttu-id="72b82-126">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="72b82-126">Click Save.</span></span>
 
-## <a name="create-a-counting-journal-name"></a>Criar um nome de diário de contabilidade
-1. Vá para Gerenciamento de estoque > Configuração > Nomes de diário > Estoque.
-2. Clique em Novo.
-3. No campo Nome, digite um valor.
-4. No campo Descrição, digite um valor.
-5. No campo Tipo de diário, selecione 'Contabilidade'.
-    * Opcional: você pode selecionar uma ID de série de comprovante diferente se desejar que uma sequência numérica específica das IDs do comprovante gerados ao criar diários de contagem. A série de comprovantes é criada na página Sequências numéricas.  
-6. No campo Nível de detalhe, selecione uma opção.
-    * Este é o nível de detalhe que é aplicado quando o diário é lançado.  
-    * Opcional: É possível exibir ou alterar o valor no campo Reserva. Este é o método usado para reservar itens durante a contagem.   
-    * Manual – os itens são reservados manualmente no formulário Reserva.   Automático - A quantidade da ordem é reservada a partir do disponível, estoque disponível para o item.   Detalhamento – a reserva é parte do planejamento mestre da transação.  
-7. Clique em Salvar.
+## <a name="create-a-counting-journal-name"></a><span data-ttu-id="72b82-127">Criar um nome de diário de contabilidade</span><span class="sxs-lookup"><span data-stu-id="72b82-127">Create a counting journal name</span></span>
+1. <span data-ttu-id="72b82-128">Vá para Gerenciamento de estoque > Configuração > Nomes de diário > Estoque.</span><span class="sxs-lookup"><span data-stu-id="72b82-128">Go to Inventory management > Setup > Journal names > Inventory.</span></span>
+2. <span data-ttu-id="72b82-129">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="72b82-129">Click New.</span></span>
+3. <span data-ttu-id="72b82-130">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="72b82-130">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="72b82-131">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="72b82-131">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="72b82-132">No campo Tipo de diário, selecione 'Contabilidade'.</span><span class="sxs-lookup"><span data-stu-id="72b82-132">In the Journal type field, select 'Counting'.</span></span>
+    * <span data-ttu-id="72b82-133">Opcional: você pode selecionar uma ID de série de comprovante diferente se desejar que uma sequência numérica específica das IDs do comprovante gerados ao criar diários de contagem.</span><span class="sxs-lookup"><span data-stu-id="72b82-133">Optional: you can select a different voucher series ID if you want a specific number sequence for the voucher IDs generated when creating counting journals.</span></span> <span data-ttu-id="72b82-134">A série de comprovantes é criada na página Sequências numéricas.</span><span class="sxs-lookup"><span data-stu-id="72b82-134">Voucher series are created in the Number sequences page.</span></span>  
+6. <span data-ttu-id="72b82-135">No campo Nível de detalhe, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="72b82-135">In the Detail level field, select an option.</span></span>
+    * <span data-ttu-id="72b82-136">Este é o nível de detalhe que é aplicado quando o diário é lançado.</span><span class="sxs-lookup"><span data-stu-id="72b82-136">This is the level of detail that is applied when the journal is posted.</span></span>  
+    * <span data-ttu-id="72b82-137">Opcional: É possível exibir ou alterar o valor no campo Reserva.</span><span class="sxs-lookup"><span data-stu-id="72b82-137">Optional: you can change the value in the Reservation field.</span></span> <span data-ttu-id="72b82-138">Este é o método usado para reservar itens durante a contagem.</span><span class="sxs-lookup"><span data-stu-id="72b82-138">This is the method used to reserve items during counting.</span></span>   
+    * <span data-ttu-id="72b82-139">Manual – os itens são reservados manualmente no formulário Reserva.</span><span class="sxs-lookup"><span data-stu-id="72b82-139">Manual – The items are reserved manually in the Reservation form.</span></span>   <span data-ttu-id="72b82-140">Automático - A quantidade da ordem é reservada a partir do disponível, estoque disponível para o item.</span><span class="sxs-lookup"><span data-stu-id="72b82-140">Automatic – The order quantity is reserved from the available, on-hand inventory for the item.</span></span>   <span data-ttu-id="72b82-141">Detalhamento – a reserva é parte do planejamento mestre da transação.</span><span class="sxs-lookup"><span data-stu-id="72b82-141">Explosion – The reservation is part of the master planning of the transaction.</span></span>  
+7. <span data-ttu-id="72b82-142">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="72b82-142">Click Save.</span></span>
 
-## <a name="set-standard-counting-journal-name"></a>Defina o nome de diário padrão de contagem
-1. Vá para Gerenciamento de estoque > Configuração > Parâmetros de gerenciamento de depósito e estoque.
-2. Clique na guia Diários.
-3. No campo Contabilidade, clique no botão suspenso para abrir a pesquisa.
-4. Selecione o diário criado anteriormente.
-    * Este diário será o diário padrão para diários de estoque do tipo Contagem.  
-5. Clique na guia Geral.
-    * Opcional: Selecione esta opção para bloquear um item durante o processo de contagem para evitar atualizações para guias de remessa, listas de separação, ou registros de lista de separação.  
+## <a name="set-standard-counting-journal-name"></a><span data-ttu-id="72b82-143">Defina o nome de diário padrão de contagem</span><span class="sxs-lookup"><span data-stu-id="72b82-143">Set standard counting journal name</span></span>
+1. <span data-ttu-id="72b82-144">Vá para Gerenciamento de estoque > Configuração > Parâmetros de gerenciamento de depósito e estoque.</span><span class="sxs-lookup"><span data-stu-id="72b82-144">Go to Inventory management > Setup > Inventory and warehouse management parameters.</span></span>
+2. <span data-ttu-id="72b82-145">Clique na guia Diários.</span><span class="sxs-lookup"><span data-stu-id="72b82-145">Click the Journals tab.</span></span>
+3. <span data-ttu-id="72b82-146">No campo Contabilidade, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="72b82-146">In the Counting field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="72b82-147">Selecione o diário criado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="72b82-147">Select the journal you previously created.</span></span>
+    * <span data-ttu-id="72b82-148">Este diário será o diário padrão para diários de estoque do tipo Contagem.</span><span class="sxs-lookup"><span data-stu-id="72b82-148">This journal will then be the default journal name for inventory journals of the Counting type.</span></span>  
+5. <span data-ttu-id="72b82-149">Clique na guia Geral.</span><span class="sxs-lookup"><span data-stu-id="72b82-149">Click the General tab.</span></span>
+    * <span data-ttu-id="72b82-150">Opcional: Selecione esta opção para bloquear um item durante o processo de contagem para evitar atualizações para guias de remessa, listas de separação, ou registros de lista de separação.</span><span class="sxs-lookup"><span data-stu-id="72b82-150">Optional: Select this option to lock an item during the counting process to prevent updates for packing slips, picking lists, or picking list registrations.</span></span>  
 
-## <a name="set-the-counting-policy-for-an-item"></a>Configure a política de contabilidade para um item
-1. Vá para Gerenciamento de informações do produto > Produtos > Produtos liberados.
-2. Na lista, clique em no link no número de item dos produtos que você deseja definir sobre diretivas de contagem.
-    * Observe que você precisa selecionar um item que é rastreado por estoque. Um produto não estocado não pode ser contabilizado. Se você estiver usando dados de demonstração de USMF você pode selecionar o item A0001.  
-3. Clique em Editar.
-4. Alternar a expansão da seção Gerenciar estoque.
-5. No campo Grupo de contabilidade, clique no botão suspenso para abrir a pesquisa.
-6. Na lista, clique em no grupo de contagem que você tiver criado anteriormente.
-    * Agora esse produto será incluído quando as linhas do diário de contagem de estoque forem criadas usando este grupo de contagem.  
-7. Clique em Salvar.
+## <a name="set-the-counting-policy-for-an-item"></a><span data-ttu-id="72b82-151">Configure a política de contabilidade para um item</span><span class="sxs-lookup"><span data-stu-id="72b82-151">Set the counting policy for an item</span></span>
+1. <span data-ttu-id="72b82-152">Vá para Gerenciamento de informações do produto > Produtos > Produtos liberados.</span><span class="sxs-lookup"><span data-stu-id="72b82-152">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="72b82-153">Na lista, clique em no link no número de item dos produtos que você deseja definir sobre diretivas de contagem.</span><span class="sxs-lookup"><span data-stu-id="72b82-153">In the list, click on the link for the Item number of the product that you want to set counting policies on.</span></span>
+    * <span data-ttu-id="72b82-154">Observe que você precisa selecionar um item que é rastreado por estoque.</span><span class="sxs-lookup"><span data-stu-id="72b82-154">Note that you need to select an item that is inventory tracked.</span></span> <span data-ttu-id="72b82-155">Um produto não estocado não pode ser contabilizado.</span><span class="sxs-lookup"><span data-stu-id="72b82-155">A non-stocked product can't be counted.</span></span> <span data-ttu-id="72b82-156">Se você estiver usando dados de demonstração de USMF você pode selecionar o item A0001.</span><span class="sxs-lookup"><span data-stu-id="72b82-156">If you are using USMF demo data you can select item A0001.</span></span>  
+3. <span data-ttu-id="72b82-157">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="72b82-157">Click Edit.</span></span>
+4. <span data-ttu-id="72b82-158">Alternar a expansão da seção Gerenciar estoque.</span><span class="sxs-lookup"><span data-stu-id="72b82-158">Toggle the expansion of the Manage inventory section.</span></span>
+5. <span data-ttu-id="72b82-159">No campo Grupo de contabilidade, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="72b82-159">In the Counting group field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="72b82-160">Na lista, clique em no grupo de contagem que você tiver criado anteriormente.</span><span class="sxs-lookup"><span data-stu-id="72b82-160">In the list, click on the counting group you previously created.</span></span>
+    * <span data-ttu-id="72b82-161">Agora esse produto será incluído quando as linhas do diário de contagem de estoque forem criadas usando este grupo de contagem.</span><span class="sxs-lookup"><span data-stu-id="72b82-161">This product will now be included when inventory counting journal lines are created using this counting group.</span></span>  
+7. <span data-ttu-id="72b82-162">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="72b82-162">Click Save.</span></span>
 
-## <a name="set-the-counting-policy-for-an-item-in-a-specific-warehouse"></a>Definir a diretiva de um item em um depósito específico
-1. No Painel de Ação, clique em Gerenciar estoque.
-2. Clique em item de depósito.
-3. Clique em Novo.
-4. No campo Depósito, clique no botão suspenso para abrir a pesquisa.
-5. Na lista, selecione o depósito para o qual você deseja especificar políticas de contabilidade.
-6. No campo Grupo de contabilidade, clique no botão suspenso para abrir a pesquisa.
-7. Na lista, selecione um grupo de contabilidade
-    * Aqui você pode selecionar um grupo específico de contagem que será aplicado ao item no depósito específico selecionado. Quando a contagem é feita naquele depósito, essa diretiva de contagem substituirá a diretiva geral do item.  
-8. Clique em Salvar.
-
+## <a name="set-the-counting-policy-for-an-item-in-a-specific-warehouse"></a><span data-ttu-id="72b82-163">Definir a diretiva de um item em um depósito específico</span><span class="sxs-lookup"><span data-stu-id="72b82-163">Set the counting policy for an item in a specific warehouse</span></span>
+1. <span data-ttu-id="72b82-164">No Painel de Ação, clique em Gerenciar estoque.</span><span class="sxs-lookup"><span data-stu-id="72b82-164">On the Action Pane, click Manage inventory.</span></span>
+2. <span data-ttu-id="72b82-165">Clique em item de depósito.</span><span class="sxs-lookup"><span data-stu-id="72b82-165">Click Warehouse items.</span></span>
+3. <span data-ttu-id="72b82-166">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="72b82-166">Click New.</span></span>
+4. <span data-ttu-id="72b82-167">No campo Depósito, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="72b82-167">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="72b82-168">Na lista, selecione o depósito para o qual você deseja especificar políticas de contabilidade.</span><span class="sxs-lookup"><span data-stu-id="72b82-168">In the list, select the warehouse you want set up specific counting policies for.</span></span>
+6. <span data-ttu-id="72b82-169">No campo Grupo de contabilidade, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="72b82-169">In the Counting group field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="72b82-170">Na lista, selecione um grupo de contabilidade</span><span class="sxs-lookup"><span data-stu-id="72b82-170">In the list, select a counting group</span></span>
+    * <span data-ttu-id="72b82-171">Aqui você pode selecionar um grupo específico de contagem que será aplicado ao item no depósito específico selecionado.</span><span class="sxs-lookup"><span data-stu-id="72b82-171">Here you can select a specific counting group that should apply to the item in the specific warehouse you have selected.</span></span> <span data-ttu-id="72b82-172">Quando a contagem é feita naquele depósito, essa diretiva de contagem substituirá a diretiva geral do item.</span><span class="sxs-lookup"><span data-stu-id="72b82-172">When counting is performed in that warehouse, this counting policy will override the general counting policy for the item.</span></span>  
+8. <span data-ttu-id="72b82-173">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="72b82-173">Click Save.</span></span>
 

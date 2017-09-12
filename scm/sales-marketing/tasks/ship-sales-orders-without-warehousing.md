@@ -16,47 +16,47 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ab2b52b91bcaef57996ae35120e8713aac5852e7
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3f1b9dd4b99bcbcc6cfbc5cfd8e3271fa80c628c
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="ship-sales-orders-without-warehousing"></a>Enviar ordens de venda sem armazenamento
+# <a name="ship-sales-orders-without-warehousing"></a><span data-ttu-id="92e22-103">Enviar ordens de venda sem armazenamento</span><span class="sxs-lookup"><span data-stu-id="92e22-103">Ship sales orders without warehousing</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este guia demonstra como atualizar uma ordem de venda quando produtos são enviados ao cliente. Este guia é aplicável ao fluxo de realizações que não está definido para o gerenciamento de depósito (sem armazenamento básico ou avançado) e, portanto, não requer separação de produtos que serão registrados antes da remessa. Você pode realizar esse procedimento em seus próprios dados ou na empresa USMF de dados de demonstração. Em ambos os casos, antes de começar esta tarefa, crie uma ordem de venda para um produto inventariado com uma quantidade maior que 1. Para evitar um erro de lançamento, você precisa verificar se a quantidade disponível do produto no site e o depósito que você selecionou na ordem abrangem a quantidade da ordem.
+<span data-ttu-id="92e22-104">Este guia demonstra como atualizar uma ordem de venda quando produtos são enviados ao cliente.</span><span class="sxs-lookup"><span data-stu-id="92e22-104">This guide demonstrates how to update a sales order when products are shipped to the customer.</span></span> <span data-ttu-id="92e22-105">Este guia é aplicável ao fluxo de realizações que não está definido para o gerenciamento de depósito (sem armazenamento básico ou avançado) e, portanto, não requer separação de produtos que serão registrados antes da remessa.</span><span class="sxs-lookup"><span data-stu-id="92e22-105">The guide is applicable to the fulfillment flow that is not set up for warehouse management (neither basic or advanced warehousing), and therefore does not require product picking to be registered before shipment.</span></span> <span data-ttu-id="92e22-106">Você pode realizar esse procedimento em seus próprios dados ou na empresa USMF de dados de demonstração.</span><span class="sxs-lookup"><span data-stu-id="92e22-106">You can run this procedure on your own data or in demo data company USMF.</span></span> <span data-ttu-id="92e22-107">Em ambos os casos, antes de começar esta tarefa, crie uma ordem de venda para um produto inventariado com uma quantidade maior que 1.</span><span class="sxs-lookup"><span data-stu-id="92e22-107">In both cases, before you start this task, create a sales order for an inventoried product with a quantity of greater than 1.</span></span> <span data-ttu-id="92e22-108">Para evitar um erro de lançamento, você precisa verificar se a quantidade disponível do produto no site e o depósito que você selecionou na ordem abrangem a quantidade da ordem.</span><span class="sxs-lookup"><span data-stu-id="92e22-108">To avoid a posting error, you need to check that the product's on-hand quantity in the site and warehouse that you’ve selected on the order covers the order quantity.</span></span>
 
 
-## <a name="post-packing-slip-for-an-order"></a>Lançar guia de remessa para uma ordem
-1. Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.
-2. Na lista, localize e selecione a ordem que você criou para essa tarefa.
-3. Na lista, clique no link na linha selecionada.
-4. No Painel de Ação, clique em Separar e empacotar.
-5. Clique em Postar guia de remessa.
-6. Expanda e recolha a seção Parâmetros.
-7. No campo Quantidade, selecione 'Tudo'.
-    * Outras opções incluem Entregar agora e Separado. Se a linha da ordem estiver pronta para ser parcialmente remetida e o campo Entregar agora na linha da ordem contiver uma quantidade, você selecionará Entregar agora. Se o fluxo de realizações da sua organização incluir a separação como um processo à parte que é gerenciado por e registrado com uma lista de separação, você selecionará Separado.  
-    * Verifique se a opção Lançamento está definida como Sim.  
-8. Defina a opção Imprimir guia de remessa como Sim.
-    * A guia Visão geral contém uma lista de guias de remessa que serão geradas nesse lançamento. Se estiver remetendo uma ordem individual, normalmente haverá uma guia de remessa. No entanto, se as linhas dessa ordem estiverem prontas para ser enviadas de sites diferentes, o lançamento será automaticamente dividido no número apropriado de documentos. Essa é uma condição obrigatória que não pode ser alterada. De modo semelhante, o lançamento também será dividido em vários documentos se as linhas da ordem estiverem prontas para ser enviadas a endereços de entrega diferentes, e a política de envio é definida para requerer divisão.  
-9. Na guia Linhas, selecione a linha para a linha de ordem que será remetida.
-10. No campo Atualizar, insira um número menor que a quantidade original.
-11. Clique em OK.
-12. Clique em Sim.
-13. Feche a página.
-14. No Painel de Ação, clique em Opções.
-15. Clique em Alterar exibição.
-16. Clique em Exibição do cabeçalho.
-    * Se todas as linhas na ordem foram completamente enviadas, o status da ordem muda de Aberto para Entregue.  
-    * Neste exemplo, a linha da ordem foi remetida parcialmente. É por isso que o status da ordem permanece Aberto.     
-    * Se o campo Status do documento estiver definido como Guia de remessa, é porque pelo menos uma das linhas da ordem foi enviada.  
-17. No Painel de Ação, clique em Geral.
-18. Clique em Quantidade da linha.
-19. Feche a página.
-20. No Painel de Ação, clique em Separar e empacotar.
-21. Clique em Guia de remessa.
-    * A página Diário de guias de remessa contém todos os documentos de guia de remessa que foram gerados para sua ordem. Você pode revisar os detalhes de cada documento e imprimi-los, se desejar.  
+## <a name="post-packing-slip-for-an-order"></a><span data-ttu-id="92e22-109">Lançar guia de remessa para uma ordem</span><span class="sxs-lookup"><span data-stu-id="92e22-109">Post packing slip for an order</span></span>
+1. <span data-ttu-id="92e22-110">Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.</span><span class="sxs-lookup"><span data-stu-id="92e22-110">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+2. <span data-ttu-id="92e22-111">Na lista, localize e selecione a ordem que você criou para essa tarefa.</span><span class="sxs-lookup"><span data-stu-id="92e22-111">In the list, find and select the order you have created for this task.</span></span>
+3. <span data-ttu-id="92e22-112">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="92e22-112">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="92e22-113">No Painel de Ação, clique em Separar e empacotar.</span><span class="sxs-lookup"><span data-stu-id="92e22-113">On the Action Pane, click Pick and pack.</span></span>
+5. <span data-ttu-id="92e22-114">Clique em Postar guia de remessa.</span><span class="sxs-lookup"><span data-stu-id="92e22-114">Click Post packing slip.</span></span>
+6. <span data-ttu-id="92e22-115">Expanda e recolha a seção Parâmetros.</span><span class="sxs-lookup"><span data-stu-id="92e22-115">Expand or collapse the Parameters section.</span></span>
+7. <span data-ttu-id="92e22-116">No campo Quantidade, selecione 'Tudo'.</span><span class="sxs-lookup"><span data-stu-id="92e22-116">In the Quantity field, select 'All'.</span></span>
+    * <span data-ttu-id="92e22-117">Outras opções incluem Entregar agora e Separado.</span><span class="sxs-lookup"><span data-stu-id="92e22-117">Other options include Deliver now and Picked.</span></span> <span data-ttu-id="92e22-118">Se a linha da ordem estiver pronta para ser parcialmente remetida e o campo Entregar agora na linha da ordem contiver uma quantidade, você selecionará Entregar agora.</span><span class="sxs-lookup"><span data-stu-id="92e22-118">If the order line is to be shipped partially and the Deliver now field on the order line contains a quantity, you would select Deliver now.</span></span> <span data-ttu-id="92e22-119">Se o fluxo de realizações da sua organização incluir a separação como um processo à parte que é gerenciado por e registrado com uma lista de separação, você selecionará Separado.</span><span class="sxs-lookup"><span data-stu-id="92e22-119">If your organization's fulfillment flow includes picking as a separate process that is managed by and registered with a picking list, you would select Picked.</span></span>  
+    * <span data-ttu-id="92e22-120">Verifique se a opção Lançamento está definida como Sim.</span><span class="sxs-lookup"><span data-stu-id="92e22-120">Check that the Posting option is set to Yes.</span></span>  
+8. <span data-ttu-id="92e22-121">Defina a opção Imprimir guia de remessa como Sim.</span><span class="sxs-lookup"><span data-stu-id="92e22-121">Set the Print packing slip option to Yes.</span></span>
+    * <span data-ttu-id="92e22-122">A guia Visão geral contém uma lista de guias de remessa que serão geradas nesse lançamento.</span><span class="sxs-lookup"><span data-stu-id="92e22-122">The Overview tab contains a list of packing slips to be generated in this posting.</span></span> <span data-ttu-id="92e22-123">Se estiver remetendo uma ordem individual, normalmente haverá uma guia de remessa.</span><span class="sxs-lookup"><span data-stu-id="92e22-123">If you are shipping an individual order, there will typically be one packing slip.</span></span> <span data-ttu-id="92e22-124">No entanto, se as linhas dessa ordem estiverem prontas para ser enviadas de sites diferentes, o lançamento será automaticamente dividido no número apropriado de documentos.</span><span class="sxs-lookup"><span data-stu-id="92e22-124">However, if that order's lines are to be shipped from different sites, posting will automatically be split into the appropriate number of documents.</span></span> <span data-ttu-id="92e22-125">Essa é uma condição obrigatória que não pode ser alterada.</span><span class="sxs-lookup"><span data-stu-id="92e22-125">This is a mandatory condition that cannot be changed.</span></span> <span data-ttu-id="92e22-126">De modo semelhante, o lançamento também será dividido em vários documentos se as linhas da ordem estiverem prontas para ser enviadas a endereços de entrega diferentes, e a política de envio é definida para requerer divisão.</span><span class="sxs-lookup"><span data-stu-id="92e22-126">Similarly, the posting will also be split into multiple documents if the order’s lines are to be shipped to different delivery addresses, and the shipping policy is set up to require a split.</span></span>  
+9. <span data-ttu-id="92e22-127">Na guia Linhas, selecione a linha para a linha de ordem que será remetida.</span><span class="sxs-lookup"><span data-stu-id="92e22-127">On the Lines tab, select the row for the order line to be shipped.</span></span>
+10. <span data-ttu-id="92e22-128">No campo Atualizar, insira um número menor que a quantidade original.</span><span class="sxs-lookup"><span data-stu-id="92e22-128">In the Update field, enter a number lower than the original quantity.</span></span>
+11. <span data-ttu-id="92e22-129">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="92e22-129">Click OK.</span></span>
+12. <span data-ttu-id="92e22-130">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="92e22-130">Click Yes.</span></span>
+13. <span data-ttu-id="92e22-131">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="92e22-131">Close the page.</span></span>
+14. <span data-ttu-id="92e22-132">No Painel de Ação, clique em Opções.</span><span class="sxs-lookup"><span data-stu-id="92e22-132">On the Action Pane, click Options.</span></span>
+15. <span data-ttu-id="92e22-133">Clique em Alterar exibição.</span><span class="sxs-lookup"><span data-stu-id="92e22-133">Click Change view.</span></span>
+16. <span data-ttu-id="92e22-134">Clique em Exibição do cabeçalho.</span><span class="sxs-lookup"><span data-stu-id="92e22-134">Click Header view.</span></span>
+    * <span data-ttu-id="92e22-135">Se todas as linhas na ordem foram completamente enviadas, o status da ordem muda de Aberto para Entregue.</span><span class="sxs-lookup"><span data-stu-id="92e22-135">If all of the lines on the order have been fully shipped, the order status changes from Open to Delivered.</span></span>  
+    * <span data-ttu-id="92e22-136">Neste exemplo, a linha da ordem foi remetida parcialmente.</span><span class="sxs-lookup"><span data-stu-id="92e22-136">In this example, the order line has been shipped partially.</span></span> <span data-ttu-id="92e22-137">É por isso que o status da ordem permanece Aberto.</span><span class="sxs-lookup"><span data-stu-id="92e22-137">This is why the the order status remains Open.</span></span>     
+    * <span data-ttu-id="92e22-138">Se o campo Status do documento estiver definido como Guia de remessa, é porque pelo menos uma das linhas da ordem foi enviada.</span><span class="sxs-lookup"><span data-stu-id="92e22-138">The Document status field is set to Packing slip because at least one of the order lines have been shipped.</span></span>  
+17. <span data-ttu-id="92e22-139">No Painel de Ação, clique em Geral.</span><span class="sxs-lookup"><span data-stu-id="92e22-139">On the Action Pane, click General.</span></span>
+18. <span data-ttu-id="92e22-140">Clique em Quantidade da linha.</span><span class="sxs-lookup"><span data-stu-id="92e22-140">Click Line quantity.</span></span>
+19. <span data-ttu-id="92e22-141">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="92e22-141">Close the page.</span></span>
+20. <span data-ttu-id="92e22-142">No Painel de Ação, clique em Separar e empacotar.</span><span class="sxs-lookup"><span data-stu-id="92e22-142">On the Action Pane, click Pick and pack.</span></span>
+21. <span data-ttu-id="92e22-143">Clique em Guia de remessa.</span><span class="sxs-lookup"><span data-stu-id="92e22-143">Click Packing slip.</span></span>
+    * <span data-ttu-id="92e22-144">A página Diário de guias de remessa contém todos os documentos de guia de remessa que foram gerados para sua ordem.</span><span class="sxs-lookup"><span data-stu-id="92e22-144">The Packing slip journal page contains all the packing slip documents that were generated for your order.</span></span> <span data-ttu-id="92e22-145">Você pode revisar os detalhes de cada documento e imprimi-los, se desejar.</span><span class="sxs-lookup"><span data-stu-id="92e22-145">You can review details of each document and print them, if you wish.</span></span>  
 
 

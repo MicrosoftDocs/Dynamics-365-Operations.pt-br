@@ -17,49 +17,49 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: fbbcbadc2ab777ae615ef13db6d6ecdb9e5d37a6
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1f88fbbacde9c0bd2b3499df5682a717d0b804ab
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="enter-project-timesheets"></a>Inserir folhas de ponto do projeto
+# <a name="enter-project-timesheets"></a><span data-ttu-id="bdbed-103">Inserir folhas de ponto do projeto</span><span class="sxs-lookup"><span data-stu-id="bdbed-103">Enter project timesheets</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento permite criar uma folha de ponto usando um formulário vazio de folha de ponto. A nova folha de ponto pode ser baseada nas informações de uma folha de ponto anterior, ou em atribuições de projetos e de atividades na página Meus favoritos. Por padrão, a página de lista Todas as folhas de ponto exibe todas as suas folhas de ponto do período atual. Você pode usar a lista suspensa do campo Mostrar na página Minhas folhas de ponto para filtrar a lista de folha de ponto por período ou por projeto, ou para exibir as folhas de ponto que foram criadas em nome de outros trabalhadores. A empresa de dados de demonstração utilizada para criar esse procedimento é a USSI. Para iniciar este procedimento, vá para Gerenciamento e contabilidade de projetos > Folhas de ponto > Minhas folhas de ponto
+<span data-ttu-id="bdbed-104">Este procedimento permite criar uma folha de ponto usando um formulário vazio de folha de ponto.</span><span class="sxs-lookup"><span data-stu-id="bdbed-104">This procedure lets you create a timesheet by using an empty timesheet form.</span></span> <span data-ttu-id="bdbed-105">A nova folha de ponto pode ser baseada nas informações de uma folha de ponto anterior, ou em atribuições de projetos e de atividades na página Meus favoritos.</span><span class="sxs-lookup"><span data-stu-id="bdbed-105">The new timesheet can be based on information from a previous timesheet, or from project and activity assignments in the My favourites page.</span></span> <span data-ttu-id="bdbed-106">Por padrão, a página de lista Todas as folhas de ponto exibe todas as suas folhas de ponto do período atual.</span><span class="sxs-lookup"><span data-stu-id="bdbed-106">By default, the All timesheets list page displays all your timesheets for the current period.</span></span> <span data-ttu-id="bdbed-107">Você pode usar a lista suspensa do campo Mostrar na página Minhas folhas de ponto para filtrar a lista de folha de ponto por período ou por projeto, ou para exibir as folhas de ponto que foram criadas em nome de outros trabalhadores.</span><span class="sxs-lookup"><span data-stu-id="bdbed-107">You can use the drop-down list for the Show field in the My timesheets page to filter the timesheet list by time period or project, or to view timesheets that were created on behalf of other workers.</span></span> <span data-ttu-id="bdbed-108">A empresa de dados de demonstração utilizada para criar esse procedimento é a USSI.</span><span class="sxs-lookup"><span data-stu-id="bdbed-108">The demo data company used to create this procedure is USSI.</span></span> <span data-ttu-id="bdbed-109">Para iniciar este procedimento, vá para Gerenciamento e contabilidade de projetos > Folhas de ponto > Minhas folhas de ponto</span><span class="sxs-lookup"><span data-stu-id="bdbed-109">To begin this procedure, go to Project management and accounting > Timesheets >My timesheets</span></span>
 
-1. Para inserir uma nova planilha de horas, clique em Novo.
-    * A lista suspensa Recurso mostra o trabalhador atribuído ao usuário atual, por padrão.  
-    * Se o usuário for designado como um delegado, ele listará os nomes, de modo que um usuário possa inserir uma folha de ponto em seu nome.  
-2. No campo Data, insira uma data.
-    * Se essa opção for selecionada, as novas linhas da folha de ponto serão criadas usando as configurações de folha de ponto que foram configuradas como favoritas.  
-3. Clique em OK.
-4. Clique em Nova linha.
-5. Na lista, marque a linha selecionada.
-    * O campo Entidade legal exibe a entidade legal atual, por padrão.   
-6. No campo Projeto, clique no botão suspenso para abrir a pesquisa.
-7. Na lista, localize e selecione o registro desejado.
-8. Na lista, clique no link na linha selecionada.
-9. No campo Atividade, clique no botão suspenso para abrir a pesquisa.
-10. Na lista, localize e selecione o registro desejado.
-11. Na lista, clique no link na linha selecionada.
-12. No campo Categoria, clique no botão suspenso para abrir a pesquisa.
-13. Na lista, localize e selecione o registro desejado.
-14. Na lista, clique no link na linha selecionada.
-15. Insira o número de horas trabalhadas em cada dia.
-    * As horas devem ser inseridas em um formato decimal.  Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.   
-16. Insira o número de horas trabalhadas em cada dia.
-    * As horas devem ser inseridas em um formato decimal.  Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.   
-17. Insira o número de horas trabalhadas em cada dia.
-    * As horas devem ser inseridas em um formato decimal.  Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.   
-18. Insira o número de horas trabalhadas em cada dia.
-    * As horas devem ser inseridas em um formato decimal.  Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.   
-19. Insira o número de horas trabalhadas em cada dia.
-    * As horas devem ser inseridas em um formato decimal.  Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.   
-    * Nos detalhes da Linha, as seguintes opções estão disponíveis:  o  Adicionar informações sobre impostos e dimensões financeiras.  o    Adicionar comentários sobre a linha da folha de ponto.  
-20. Clique em Fluxo de trabalho para abrir a caixa de diálogo suspensa.
-21. Clique em Enviar.
-22. Clique em Enviar.
+1. <span data-ttu-id="bdbed-110">Para inserir uma nova planilha de horas, clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="bdbed-110">To enter a new timesheet, click New.</span></span>
+    * <span data-ttu-id="bdbed-111">A lista suspensa Recurso mostra o trabalhador atribuído ao usuário atual, por padrão.</span><span class="sxs-lookup"><span data-stu-id="bdbed-111">The Resource drop-down list shows the worker assigned to the current user, by default.</span></span>  
+    * <span data-ttu-id="bdbed-112">Se o usuário for designado como um delegado, ele listará os nomes, de modo que um usuário possa inserir uma folha de ponto em seu nome.</span><span class="sxs-lookup"><span data-stu-id="bdbed-112">If the user is designated as a delegate, this will list the names so that a user can enter a timesheet on their behalf.</span></span>  
+2. <span data-ttu-id="bdbed-113">No campo Data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="bdbed-113">In the Date field, enter a date.</span></span>
+    * <span data-ttu-id="bdbed-114">Se essa opção for selecionada, as novas linhas da folha de ponto serão criadas usando as configurações de folha de ponto que foram configuradas como favoritas.</span><span class="sxs-lookup"><span data-stu-id="bdbed-114">If this option is selected, new timesheet lines will be created by using the timesheet settings that were configured as favourites.</span></span>  
+3. <span data-ttu-id="bdbed-115">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="bdbed-115">Click OK.</span></span>
+4. <span data-ttu-id="bdbed-116">Clique em Nova linha.</span><span class="sxs-lookup"><span data-stu-id="bdbed-116">Click New line.</span></span>
+5. <span data-ttu-id="bdbed-117">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="bdbed-117">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="bdbed-118">O campo Entidade legal exibe a entidade legal atual, por padrão.</span><span class="sxs-lookup"><span data-stu-id="bdbed-118">The Legal Entity field displays the current Legal entity by default.</span></span>   
+6. <span data-ttu-id="bdbed-119">No campo Projeto, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="bdbed-119">In the Project field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="bdbed-120">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="bdbed-120">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="bdbed-121">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="bdbed-121">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="bdbed-122">No campo Atividade, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="bdbed-122">In the Activity field, click the drop-down button to open the lookup.</span></span>
+10. <span data-ttu-id="bdbed-123">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="bdbed-123">In the list, find and select the desired record.</span></span>
+11. <span data-ttu-id="bdbed-124">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="bdbed-124">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="bdbed-125">No campo Categoria, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="bdbed-125">In the Category field, click the drop-down button to open the lookup.</span></span>
+13. <span data-ttu-id="bdbed-126">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="bdbed-126">In the list, find and select the desired record.</span></span>
+14. <span data-ttu-id="bdbed-127">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="bdbed-127">In the list, click the link in the selected row.</span></span>
+15. <span data-ttu-id="bdbed-128">Insira o número de horas trabalhadas em cada dia.</span><span class="sxs-lookup"><span data-stu-id="bdbed-128">Enter the number of hours worked each day.</span></span>
+    * <span data-ttu-id="bdbed-129">As horas devem ser inseridas em um formato decimal.</span><span class="sxs-lookup"><span data-stu-id="bdbed-129">Hours should be entered in a decimal format.</span></span>  <span data-ttu-id="bdbed-130">Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.</span><span class="sxs-lookup"><span data-stu-id="bdbed-130">For example, if you worked for two hours and fifteen minutes, enter 2.25.</span></span>   
+16. <span data-ttu-id="bdbed-131">Insira o número de horas trabalhadas em cada dia.</span><span class="sxs-lookup"><span data-stu-id="bdbed-131">Enter the number of hours worked each day.</span></span>
+    * <span data-ttu-id="bdbed-132">As horas devem ser inseridas em um formato decimal.</span><span class="sxs-lookup"><span data-stu-id="bdbed-132">Hours should be entered in a decimal format.</span></span>  <span data-ttu-id="bdbed-133">Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.</span><span class="sxs-lookup"><span data-stu-id="bdbed-133">For example, if you worked for two hours and fifteen minutes, enter 2.25.</span></span>   
+17. <span data-ttu-id="bdbed-134">Insira o número de horas trabalhadas em cada dia.</span><span class="sxs-lookup"><span data-stu-id="bdbed-134">Enter the number of hours worked each day.</span></span>
+    * <span data-ttu-id="bdbed-135">As horas devem ser inseridas em um formato decimal.</span><span class="sxs-lookup"><span data-stu-id="bdbed-135">Hours should be entered in a decimal format.</span></span>  <span data-ttu-id="bdbed-136">Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.</span><span class="sxs-lookup"><span data-stu-id="bdbed-136">For example, if you worked for two hours and fifteen minutes, enter 2.25.</span></span>   
+18. <span data-ttu-id="bdbed-137">Insira o número de horas trabalhadas em cada dia.</span><span class="sxs-lookup"><span data-stu-id="bdbed-137">Enter the number of hours worked each day.</span></span>
+    * <span data-ttu-id="bdbed-138">As horas devem ser inseridas em um formato decimal.</span><span class="sxs-lookup"><span data-stu-id="bdbed-138">Hours should be entered in a decimal format.</span></span>  <span data-ttu-id="bdbed-139">Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.</span><span class="sxs-lookup"><span data-stu-id="bdbed-139">For example, if you worked for two hours and fifteen minutes, enter 2.25.</span></span>   
+19. <span data-ttu-id="bdbed-140">Insira o número de horas trabalhadas em cada dia.</span><span class="sxs-lookup"><span data-stu-id="bdbed-140">Enter the number of hours worked each day.</span></span>
+    * <span data-ttu-id="bdbed-141">As horas devem ser inseridas em um formato decimal.</span><span class="sxs-lookup"><span data-stu-id="bdbed-141">Hours should be entered in a decimal format.</span></span>  <span data-ttu-id="bdbed-142">Por exemplo, se você tiver trabalhado por duas horas e quinze minutos, insira 2,25.</span><span class="sxs-lookup"><span data-stu-id="bdbed-142">For example, if you worked for two hours and fifteen minutes, enter 2.25.</span></span>   
+    * <span data-ttu-id="bdbed-143">Nos detalhes da Linha, as seguintes opções estão disponíveis:  o  Adicionar informações sobre impostos e dimensões financeiras.</span><span class="sxs-lookup"><span data-stu-id="bdbed-143">In Line details, the following options are available:  o  Add information about taxes and financial dimensions.</span></span>  <span data-ttu-id="bdbed-144">o    Adicionar comentários sobre a linha da folha de ponto.</span><span class="sxs-lookup"><span data-stu-id="bdbed-144">o    Add comments about the timesheet line.</span></span>  
+20. <span data-ttu-id="bdbed-145">Clique em Fluxo de trabalho para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="bdbed-145">Click Workflow to open the drop dialog.</span></span>
+21. <span data-ttu-id="bdbed-146">Clique em Enviar.</span><span class="sxs-lookup"><span data-stu-id="bdbed-146">Click Submit.</span></span>
+22. <span data-ttu-id="bdbed-147">Clique em Enviar.</span><span class="sxs-lookup"><span data-stu-id="bdbed-147">Click Submit.</span></span>
 
 

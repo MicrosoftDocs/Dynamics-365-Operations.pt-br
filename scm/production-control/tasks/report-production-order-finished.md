@@ -17,38 +17,38 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: ff651be006b4bbe205aa9937bd7927e37a83a558
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 17b2285e4669f1ad8fa6cea1250693a2a70c7dfa
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="report-a-production-order-as-finished"></a>Relatar uma ordem de produção como concluída
+# <a name="report-a-production-order-as-finished"></a><span data-ttu-id="b2f21-103">Relatar uma ordem de produção como concluída</span><span class="sxs-lookup"><span data-stu-id="b2f21-103">Report a production order as finished</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento mostra como relatar uma ordem de produção como concluída. A empresa de dados demo usada para criar este procedimento é USMF. Este é o sexto procedimento de sete que explica o ciclo de vida da ordem de produção.
+<span data-ttu-id="b2f21-104">Este procedimento mostra como relatar uma ordem de produção como concluída.</span><span class="sxs-lookup"><span data-stu-id="b2f21-104">This procedure shows how to report a production order as finished.</span></span> <span data-ttu-id="b2f21-105">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="b2f21-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="b2f21-106">Este é o sexto procedimento de sete que explica o ciclo de vida da ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="b2f21-106">This is the sixth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="report-a-production-order-as-finished"></a>Relatar uma ordem de produção como concluída
-1. Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.
-    * Selecione uma ordem de produção com o status Iniciada.  
-2. No Painel de Ação, clique em Ordem de produção.
-3. Clique em Relatar como concluído.
-    * Nesta página, você pode confirmar a quantidade do produto finalizado a ser informada na conclusão.  
-4. Clique na guia Geral.
-5. Defina Quantidade de bens como '18'.
-6. Defina Quantidade de erros como '2'.
-7. No campo Causa do erro, selecione 'Material'.
-8. Marque ou desmarque a caixa de seleção Trabalho final.
-9. Marque ou desmarque a caixa de seleção Aceitar erro.
-10. Clique em OK.
+## <a name="report-a-production-order-as-finished"></a><span data-ttu-id="b2f21-107">Relatar uma ordem de produção como concluída</span><span class="sxs-lookup"><span data-stu-id="b2f21-107">Report a production order as finished</span></span>
+1. <span data-ttu-id="b2f21-108">Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.</span><span class="sxs-lookup"><span data-stu-id="b2f21-108">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="b2f21-109">Selecione uma ordem de produção com o status Iniciada.</span><span class="sxs-lookup"><span data-stu-id="b2f21-109">Select a production order that has the Started status.</span></span>  
+2. <span data-ttu-id="b2f21-110">No Painel de Ação, clique em Ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="b2f21-110">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="b2f21-111">Clique em Relatar como concluído.</span><span class="sxs-lookup"><span data-stu-id="b2f21-111">Click Report as finished.</span></span>
+    * <span data-ttu-id="b2f21-112">Nesta página, você pode confirmar a quantidade do produto finalizado a ser informada na conclusão.</span><span class="sxs-lookup"><span data-stu-id="b2f21-112">On this page, you can confirm the quantity of the finished product to be reported as finished.</span></span>  
+4. <span data-ttu-id="b2f21-113">Clique na guia Geral.</span><span class="sxs-lookup"><span data-stu-id="b2f21-113">Click the General tab.</span></span>
+5. <span data-ttu-id="b2f21-114">Defina Quantidade de bens como '18'.</span><span class="sxs-lookup"><span data-stu-id="b2f21-114">Set Good quantity to '18'.</span></span>
+6. <span data-ttu-id="b2f21-115">Defina Quantidade de erros como '2'.</span><span class="sxs-lookup"><span data-stu-id="b2f21-115">Set Error quantity to '2'.</span></span>
+7. <span data-ttu-id="b2f21-116">No campo Causa do erro, selecione 'Material'.</span><span class="sxs-lookup"><span data-stu-id="b2f21-116">In the Error cause field, select 'Material'.</span></span>
+8. <span data-ttu-id="b2f21-117">Marque ou desmarque a caixa de seleção Trabalho final.</span><span class="sxs-lookup"><span data-stu-id="b2f21-117">Select or clear the End job check box.</span></span>
+9. <span data-ttu-id="b2f21-118">Marque ou desmarque a caixa de seleção Aceitar erro.</span><span class="sxs-lookup"><span data-stu-id="b2f21-118">Select or clear the Accept error check box.</span></span>
+10. <span data-ttu-id="b2f21-119">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="b2f21-119">Click OK.</span></span>
 
-## <a name="verify-the-report-as-finished-journal"></a>Verificar o diário Relatório de conclusão
-1. No Painel de Ação, clique em Exibir.
-2. Clique em Informado como concluído.
-3. Na lista, marque a linha selecionada.
-4. Na lista, clique no link na linha selecionada.
-    * O diário Relatório de conclusão é lançado. Se quiser fazer ajustes no diário, você pode criar manualmente um diário no qual é possível fazer alterações.  
+## <a name="verify-the-report-as-finished-journal"></a><span data-ttu-id="b2f21-120">Verificar o diário Relatório de conclusão</span><span class="sxs-lookup"><span data-stu-id="b2f21-120">Verify the Report as finished journal</span></span>
+1. <span data-ttu-id="b2f21-121">No Painel de Ação, clique em Exibir.</span><span class="sxs-lookup"><span data-stu-id="b2f21-121">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="b2f21-122">Clique em Informado como concluído.</span><span class="sxs-lookup"><span data-stu-id="b2f21-122">Click Reported as finished.</span></span>
+3. <span data-ttu-id="b2f21-123">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="b2f21-123">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="b2f21-124">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="b2f21-124">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="b2f21-125">O diário Relatório de conclusão é lançado.</span><span class="sxs-lookup"><span data-stu-id="b2f21-125">The Report as finished journal is posted.</span></span> <span data-ttu-id="b2f21-126">Se quiser fazer ajustes no diário, você pode criar manualmente um diário no qual é possível fazer alterações.</span><span class="sxs-lookup"><span data-stu-id="b2f21-126">If you want to make adjustments to the journal, you can manually create  a new journal where you can make changes.</span></span>  
 
 

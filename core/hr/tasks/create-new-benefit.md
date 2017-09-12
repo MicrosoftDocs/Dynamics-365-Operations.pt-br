@@ -16,42 +16,42 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ebcba94f5f17ffbe5bb02244cb27c03bf99db69c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: bef33595a09ea54ba246a04b5a838013c6d65271
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-new-benefit"></a>Criar um novo benefício
+# <a name="create-a-new-benefit"></a><span data-ttu-id="c23d7-103">Criar um novo benefício</span><span class="sxs-lookup"><span data-stu-id="c23d7-103">Create a new benefit</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Essa tarefa mostrará como criar elementos de benefício que será usado ao criar um novo benefício. A empresa de dados demo usada para criar esta tarefa é USMF. Esta tarefa está direcionada para uma compensação e beneficia o gerente.
+<span data-ttu-id="c23d7-104">Essa tarefa mostrará como criar elementos de benefício que será usado ao criar um novo benefício.</span><span class="sxs-lookup"><span data-stu-id="c23d7-104">This task will show you how to create benefit elements which will be used when creating a new benefit.</span></span> <span data-ttu-id="c23d7-105">A empresa de dados demo usada para criar esta tarefa é USMF.</span><span class="sxs-lookup"><span data-stu-id="c23d7-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="c23d7-106">Esta tarefa está direcionada para uma compensação e beneficia o gerente.</span><span class="sxs-lookup"><span data-stu-id="c23d7-106">This task is intended for a Compensation and Benefits manager.</span></span>
 
 
-## <a name="create-benefit-elements"></a>Criar elementos do benefício
-1. Vá para Recursos humanos > Benefícios > Configuração > Elementos do benefício.
-2. Clique em Novo.
-3. No campo Tipo, digite o nome do tipo de benefício que está sendo criado.
-4. No campo Descrição, digite um valor.
-5. No campo Inscrição de concorrente, selecione uma opção.
-    * Para restringir a capacidade dos funcionários de inscrever-se em vários planos médicos, selecione um registro por tipo.  
-6. No campo Categoria da folha de pagamento, selecione uma opção.
-7. Clique na guia Planos.
-8. Clique em Novo.
-9. No campo Plano, digite um valor.
-10. No campo Descrição, digite um valor.
-11. No campo Tipo, insira ou selecione um valor.
-12. No campo Impacto da folha de pagamento, selecione uma opção.
-13. Clique em Salvar.
+## <a name="create-benefit-elements"></a><span data-ttu-id="c23d7-107">Criar elementos do benefício</span><span class="sxs-lookup"><span data-stu-id="c23d7-107">Create benefit elements</span></span>
+1. <span data-ttu-id="c23d7-108">Vá para Recursos humanos > Benefícios > Configuração > Elementos do benefício.</span><span class="sxs-lookup"><span data-stu-id="c23d7-108">Go to Human resources > Benefits > Setup > Benefit elements.</span></span>
+2. <span data-ttu-id="c23d7-109">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c23d7-109">Click New.</span></span>
+3. <span data-ttu-id="c23d7-110">No campo Tipo, digite o nome do tipo de benefício que está sendo criado.</span><span class="sxs-lookup"><span data-stu-id="c23d7-110">In the Type field, Enter the name of the type of benefit you are creating..</span></span>
+4. <span data-ttu-id="c23d7-111">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c23d7-111">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="c23d7-112">No campo Inscrição de concorrente, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="c23d7-112">In the Concurrent enrollment field, select an option.</span></span>
+    * <span data-ttu-id="c23d7-113">Para restringir a capacidade dos funcionários de inscrever-se em vários planos médicos, selecione um registro por tipo.</span><span class="sxs-lookup"><span data-stu-id="c23d7-113">To restrict employees' ability to enroll in multiple medical plans, select One enrollment per type.</span></span>  
+6. <span data-ttu-id="c23d7-114">No campo Categoria da folha de pagamento, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="c23d7-114">In the Payroll category field, select an option.</span></span>
+7. <span data-ttu-id="c23d7-115">Clique na guia Planos.</span><span class="sxs-lookup"><span data-stu-id="c23d7-115">Click the Plans tab.</span></span>
+8. <span data-ttu-id="c23d7-116">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c23d7-116">Click New.</span></span>
+9. <span data-ttu-id="c23d7-117">No campo Plano, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c23d7-117">In the Plan field, type a value.</span></span>
+10. <span data-ttu-id="c23d7-118">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c23d7-118">In the Description field, type a value.</span></span>
+11. <span data-ttu-id="c23d7-119">No campo Tipo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="c23d7-119">In the Type field, enter or select a value.</span></span>
+12. <span data-ttu-id="c23d7-120">No campo Impacto da folha de pagamento, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="c23d7-120">In the Payroll impact field, select an option.</span></span>
+13. <span data-ttu-id="c23d7-121">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="c23d7-121">Click Save.</span></span>
 
-## <a name="create-a-benefit"></a>Criar um benefício
-1. Feche a página.
-2. Ir para Recursos humanos > Benefícios > Benefícios.
-3. Clique em Novo para abrir a caixa de diálogo suspensa.
-4. No campo Plano, insira ou selecione um valor.
-5. No campo Opção, insira ou selecione um valor.
-6. No campo Efetivo, insira uma data e hora.
-7. Clique em Criar benefício.
+## <a name="create-a-benefit"></a><span data-ttu-id="c23d7-122">Criar um benefício</span><span class="sxs-lookup"><span data-stu-id="c23d7-122">Create a benefit</span></span>
+1. <span data-ttu-id="c23d7-123">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c23d7-123">Close the page.</span></span>
+2. <span data-ttu-id="c23d7-124">Ir para Recursos humanos > Benefícios > Benefícios.</span><span class="sxs-lookup"><span data-stu-id="c23d7-124">Go to Human resources > Benefits > Benefits.</span></span>
+3. <span data-ttu-id="c23d7-125">Clique em Novo para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="c23d7-125">Click New to open the drop dialog.</span></span>
+4. <span data-ttu-id="c23d7-126">No campo Plano, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="c23d7-126">In the Plan field, enter or select a value.</span></span>
+5. <span data-ttu-id="c23d7-127">No campo Opção, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="c23d7-127">In the Option field, enter or select a value.</span></span>
+6. <span data-ttu-id="c23d7-128">No campo Efetivo, insira uma data e hora.</span><span class="sxs-lookup"><span data-stu-id="c23d7-128">In the Effective field, enter a date and time.</span></span>
+7. <span data-ttu-id="c23d7-129">Clique em Criar benefício.</span><span class="sxs-lookup"><span data-stu-id="c23d7-129">Click Create benefit.</span></span>
 
 

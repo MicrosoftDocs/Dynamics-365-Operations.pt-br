@@ -14,29 +14,29 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 1caa8b70f1006baae6f377b0ba69ca977d6af0bd
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 17f5761df4294abfea28e7cb8d50c86f1e3e136f
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
 [!include[banner](../includes/banner.md)]
 
-# <a name="product-confirmation-for-cluster-picking"></a>Confirmação de produto para a separação do cluster
-A separação do cluster permite que você escolha itens para várias ordens simultaneamente. Quando a separação do cluster é aplicada, confirmação do item é importante para verificar os itens adicionados aos clusters. Você pode verificar os itens na separação do cluster durante o processo de separação do cluster.
+# <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="48ab2-103">Confirmação de produto para a separação do cluster</span><span class="sxs-lookup"><span data-stu-id="48ab2-103">Product confirmation for cluster picking</span></span>
+<span data-ttu-id="48ab2-104">A separação do cluster permite que você escolha itens para várias ordens simultaneamente.</span><span class="sxs-lookup"><span data-stu-id="48ab2-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="48ab2-105">Quando a separação do cluster é aplicada, confirmação do item é importante para verificar os itens adicionados aos clusters.</span><span class="sxs-lookup"><span data-stu-id="48ab2-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="48ab2-106">Você pode verificar os itens na separação do cluster durante o processo de separação do cluster.</span><span class="sxs-lookup"><span data-stu-id="48ab2-106">You can verify items in cluster picking during the cluster picking process.</span></span>
 
-## <a name="where-it-applies"></a>Aplica-se a
-A verificação do item da separação do cluster funciona da mesma maneira que quando você verifica itens em processos de separação não cluster. A configuração é baseada na configuração de código de barras de produto.
+## <a name="where-it-applies"></a><span data-ttu-id="48ab2-107">Aplica-se a</span><span class="sxs-lookup"><span data-stu-id="48ab2-107">Where it applies</span></span>
+<span data-ttu-id="48ab2-108">A verificação do item da separação do cluster funciona da mesma maneira que quando você verifica itens em processos de separação não cluster.</span><span class="sxs-lookup"><span data-stu-id="48ab2-108">Item verification for cluster picking works the same way as when you verify items in a non-cluster picking processes.</span></span> <span data-ttu-id="48ab2-109">A configuração é baseada na configuração de código de barras de produto.</span><span class="sxs-lookup"><span data-stu-id="48ab2-109">The setup is based on the product bar code setup.</span></span>
 
-## <a name="set-up-item-verification-with-cluster-picking"></a>Configurar verificação do item com separação de cluster
-1.  No item de menu do dispositivo móvel, abra o formulário de configuração para a confirmação de trabalho: **Gerenciamento de depósito** > **Gerenciamento de depósito** > **Configuração** > **Dispositivo móvel** > **Itens de menu do dispositivo móvel**.
-2.  Do item de menu de dispositivo móvel, abra a **Configuração de confirmação de trabalho**.
+## <a name="set-up-item-verification-with-cluster-picking"></a><span data-ttu-id="48ab2-110">Configurar verificação do item com separação de cluster</span><span class="sxs-lookup"><span data-stu-id="48ab2-110">Set up item verification with cluster picking</span></span>
+1.  <span data-ttu-id="48ab2-111">No item de menu do dispositivo móvel, abra o formulário de configuração para a confirmação de trabalho: **Gerenciamento de depósito** > **Gerenciamento de depósito** > **Configuração** > **Dispositivo móvel** > **Itens de menu do dispositivo móvel**.</span><span class="sxs-lookup"><span data-stu-id="48ab2-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
+2.  <span data-ttu-id="48ab2-112">Do item de menu de dispositivo móvel, abra a **Configuração de confirmação de trabalho**.</span><span class="sxs-lookup"><span data-stu-id="48ab2-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
 
-| Opção        | descrição   | 
+| <span data-ttu-id="48ab2-113">Opção</span><span class="sxs-lookup"><span data-stu-id="48ab2-113">Option</span></span>        | <span data-ttu-id="48ab2-114">descrição</span><span class="sxs-lookup"><span data-stu-id="48ab2-114">Description</span></span>   | 
 | ------------- | ------------- |
-|Confirmação do produto | Permite a você verificar cada peça de estoque do dispositivo móvel quando examinado.|
+|<span data-ttu-id="48ab2-115">Confirmação do produto</span><span class="sxs-lookup"><span data-stu-id="48ab2-115">Product confirmation</span></span> | <span data-ttu-id="48ab2-116">Permite a você verificar cada peça de estoque do dispositivo móvel quando examinado.</span><span class="sxs-lookup"><span data-stu-id="48ab2-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span>|
 

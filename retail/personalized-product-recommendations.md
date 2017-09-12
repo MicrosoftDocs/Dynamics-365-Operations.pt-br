@@ -19,71 +19,71 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
-ms.openlocfilehash: 492e498572f875da8ee0387b4d9aa52571211bec
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: a3a3b5e87a797c29c13b180c248d1782805c4c31
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="personalized-product-recommendations-overview"></a>Visão geral de recomendações de produtos personalizados
+# <a name="personalized-product-recommendations-overview"></a><span data-ttu-id="aae6e-107">Visão geral de recomendações de produtos personalizados</span><span class="sxs-lookup"><span data-stu-id="aae6e-107">Personalized product recommendations overview</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-No Dynamics 365 for Retail, as recomendações de produtos podem ser exibidas no dispositivo de ponto de venda (PDV). As recomendações são itens nos quais o cliente pode estar interessado com base no histórico de compras, itens em sua lista de desejos e itens que outros clientes compraram online e em lojas físicas. Para fornecedores com grandes catálogos, recomendações ajudam o cliente com descoberta de produto. Ao exibir produtos para determinado público de interesse e hábitos de compra, as recomendações de produto podem ajudar os varejistas com venda direta e cruzada, e pode aumentar a retenção de cliente. No Dynamics 365 for Retail, as recomendações de produtos são suportadas por serviços cognitivos e aprendizado de máquina do Microsoft Azure.
+<span data-ttu-id="aae6e-108">No Dynamics 365 for Retail, as recomendações de produtos podem ser exibidas no dispositivo de ponto de venda (PDV).</span><span class="sxs-lookup"><span data-stu-id="aae6e-108">In Dynamics 365 for Retail, product recommendations can be displayed on the point of sale (POS) device.</span></span> <span data-ttu-id="aae6e-109">As recomendações são itens nos quais o cliente pode estar interessado com base no histórico de compras, itens em sua lista de desejos e itens que outros clientes compraram online e em lojas físicas.</span><span class="sxs-lookup"><span data-stu-id="aae6e-109">The recommendations are items that the customer might be interested in based on their purchase history, items in their wish list, and items that other customers purchased online and in brick-and-mortar stores.</span></span> <span data-ttu-id="aae6e-110">Para fornecedores com grandes catálogos, recomendações ajudam o cliente com descoberta de produto.</span><span class="sxs-lookup"><span data-stu-id="aae6e-110">For retailers with large catalogs, recommendations help the customer with product discovery.</span></span> <span data-ttu-id="aae6e-111">Ao exibir produtos para determinado público de interesse e hábitos de compra, as recomendações de produto podem ajudar os varejistas com venda direta e cruzada, e pode aumentar a retenção de cliente.</span><span class="sxs-lookup"><span data-stu-id="aae6e-111">By showcasing products targeted to a customer’s interests and buying habits, product recommendations can help retailers with up-sell and cross-sell, and can enhance customer retention.</span></span> <span data-ttu-id="aae6e-112">No Dynamics 365 for Retail, as recomendações de produtos são suportadas por serviços cognitivos e aprendizado de máquina do Microsoft Azure.</span><span class="sxs-lookup"><span data-stu-id="aae6e-112">In Dynamics 365 for Retail, product recommendations are powered by cognitive services and Microsoft Azure machine learning.</span></span>
 
-<a name="scenarios"></a>Cenários
+<a name="scenarios"></a><span data-ttu-id="aae6e-113">Cenários</span><span class="sxs-lookup"><span data-stu-id="aae6e-113">Scenarios</span></span>
 ---------
 
-As recomendações de produto são habilitadas para os seguintes cenários de PDV. Estão disponíveis no Cloud POS ou Modern POS (MPOS).
+<span data-ttu-id="aae6e-114">As recomendações de produto são habilitadas para os seguintes cenários de PDV.</span><span class="sxs-lookup"><span data-stu-id="aae6e-114">Product recommendations are enabled for the following POS scenarios.</span></span> <span data-ttu-id="aae6e-115">Estão disponíveis no Cloud POS ou Modern POS (MPOS).</span><span class="sxs-lookup"><span data-stu-id="aae6e-115">They are available in Cloud POS or Modern POS (MPOS).</span></span>
 
-1.  Na página **Detalhes de produto**:
+1.  <span data-ttu-id="aae6e-116">Na página **Detalhes de produto**:</span><span class="sxs-lookup"><span data-stu-id="aae6e-116">On the **Product details** page:</span></span>
 
--   Se um associado da loja visita uma página de **Detalhes de produto** ao procurar por transações anteriores entre diferentes canais, o mecanismo de recomendação sugere itens adicionais que provavelmente podem ser comprados juntos.
--   Se o associado da loja adicionar um cliente à transação e depois visitar uma página de **Detalhes de produto**, o mecanismo de recomendação fornece recomendações personalizadas usando o histórico de transação do cliente.
+-   <span data-ttu-id="aae6e-117">Se um associado da loja visita uma página de **Detalhes de produto** ao procurar por transações anteriores entre diferentes canais, o mecanismo de recomendação sugere itens adicionais que provavelmente podem ser comprados juntos.</span><span class="sxs-lookup"><span data-stu-id="aae6e-117">If a store associate visits a **Product details** page when looking at previous transactions across different channels, the recommendation engine suggests additional items that are likely to be purchased together.</span></span>
+-   <span data-ttu-id="aae6e-118">Se o associado da loja adicionar um cliente à transação e depois visitar uma página de **Detalhes de produto**, o mecanismo de recomendação fornece recomendações personalizadas usando o histórico de transação do cliente.</span><span class="sxs-lookup"><span data-stu-id="aae6e-118">If the store associate adds a customer to the transaction and then visits a **Product details** page, the recommendation engine provides personalized recommendations using the customer's transaction history.</span></span>
 
-[![proddetails](./media/proddetails.png)](./media/proddetails.png)
+<span data-ttu-id="aae6e-119">[![proddetails](./media/proddetails.png)](./media/proddetails.png)</span><span class="sxs-lookup"><span data-stu-id="aae6e-119">[![proddetails](./media/proddetails.png)](./media/proddetails.png)</span></span>
 
-2.  Na página **Transação**:
+2.  <span data-ttu-id="aae6e-120">Na página **Transação**:</span><span class="sxs-lookup"><span data-stu-id="aae6e-120">On the **Transaction** page:</span></span>
 
--   O mecanismo de recomendação sugere itens com base na lista inteira de itens na cesta.
--   Se o associado da loja adicionar um cliente à transação, o mecanismo de recomendação fornece recomendações pessoais usando o histórico de transação do cliente e a lista de itens na cesta.
+-   <span data-ttu-id="aae6e-121">O mecanismo de recomendação sugere itens com base na lista inteira de itens na cesta.</span><span class="sxs-lookup"><span data-stu-id="aae6e-121">The recommendation engine suggests items based on the entire list of items in the basket.</span></span>
+-   <span data-ttu-id="aae6e-122">Se o associado da loja adicionar um cliente à transação, o mecanismo de recomendação fornece recomendações pessoais usando o histórico de transação do cliente e a lista de itens na cesta.</span><span class="sxs-lookup"><span data-stu-id="aae6e-122">If the store associate adds a customer to the transaction, the recommendation engine provides personal recommendations using the customer’s transaction history and the list of items in the basket.</span></span>
 
-**Nota**  Para exibir as recomendações na página **Transação**, o varejista precisa atualizar o layout da tela no Dynamics 365 for Retail. O controle das **Recomendações** deve ser colocado na página de **Transação**. [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+<span data-ttu-id="aae6e-123">**Nota**  Para exibir as recomendações na página **Transação**, o varejista precisa atualizar o layout da tela no Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="aae6e-123">**Note**  To display recommendations on the **Transaction** page, the retailer needs to update the screen layout in Dynamics 365 for Retail.</span></span> <span data-ttu-id="aae6e-124">O controle das **Recomendações** deve ser colocado na página de **Transação**.</span><span class="sxs-lookup"><span data-stu-id="aae6e-124">The **Recommendations** control must be dropped on to the **Transaction** page.</span></span> <span data-ttu-id="aae6e-125">[![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)</span><span class="sxs-lookup"><span data-stu-id="aae6e-125">[![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)</span></span>
 
-3.  Na página **Detalhes de cliente**:
-    -   O mecanismo de recomendação sugere itens com base na ID de usuário e itens na lista de desejo do cliente.
+3.  <span data-ttu-id="aae6e-126">Na página **Detalhes de cliente**:</span><span class="sxs-lookup"><span data-stu-id="aae6e-126">On the **Customer details** page:</span></span>
+    -   <span data-ttu-id="aae6e-127">O mecanismo de recomendação sugere itens com base na ID de usuário e itens na lista de desejo do cliente.</span><span class="sxs-lookup"><span data-stu-id="aae6e-127">The recommendation engine suggests items based on the user ID and items in the customer’s wish list.</span></span>
 
-[![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
+<span data-ttu-id="aae6e-128">[![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)</span><span class="sxs-lookup"><span data-stu-id="aae6e-128">[![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)</span></span>
 
-## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a>Configurar o Dynamics 365 for Retail para habilitar recomendações de PDV
-Para configurar recomendações de produto, você precisa fazer o seguinte.
+## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a><span data-ttu-id="aae6e-129">Configurar o Dynamics 365 for Retail para habilitar recomendações de PDV</span><span class="sxs-lookup"><span data-stu-id="aae6e-129">Configure Dynamics 365 for Retail to enable POS recommendations</span></span>
+<span data-ttu-id="aae6e-130">Para configurar recomendações de produto, você precisa fazer o seguinte.</span><span class="sxs-lookup"><span data-stu-id="aae6e-130">To set up product recommendations, you need to do the following.</span></span>
 
-1.  Verifique se você escolheu correto a **Entidade legal** correta.
-2.  Navegue até a **Loja da entidade**, selecione **Vendas de varejo** e depois clique em **Atualizar**.** **Ela usará os dados demonstrativos (ou seus dados) de seu banco de dados operacional e os moverá para a loja de entidade.
-3.  Opcional: Para exibir recomendações na tela de transação, vá para **Layout de tela **, escolha seu layout de tela, abra o **Designer do layout da tela**,** ** e depois deixe o **controle de recomendações** onde necessário.
-4.  Vá para **Parâmetros de varejo**, selecione **Aprendizado de máquina**, selecione **Sim** em **Habilitar recomendações de PDV**.
-5.  Para consultar recomendações no PDV, rode o trabalho de configuração global **1110**. Para refletir as alterações feitas ao designer de layout de tela do PDV, rode o trabalho de configuração de canal **1070**.
+1.  <span data-ttu-id="aae6e-131">Verifique se você escolheu correto a **Entidade legal** correta.</span><span class="sxs-lookup"><span data-stu-id="aae6e-131">Make sure that you have selected the correct **Legal entity**.</span></span>
+2.  <span data-ttu-id="aae6e-132">Navegue até a **Loja da entidade**, selecione **Vendas de varejo** e depois clique em **Atualizar**.** **Ela usará os dados demonstrativos (ou seus dados) de seu banco de dados operacional e os moverá para a loja de entidade.</span><span class="sxs-lookup"><span data-stu-id="aae6e-132">Navigate to **Entity store**, select **Retail sales**, and then click **Refresh**.** **This will use the demo data (or your data) from your operational database and move it to Entity store.</span></span>
+3.  <span data-ttu-id="aae6e-133">Opcional: Para exibir recomendações na tela de transação, vá para **Layout de tela **, escolha seu layout de tela, abra o **Designer do layout da tela**,** ** e depois deixe o **controle de recomendações** onde necessário.</span><span class="sxs-lookup"><span data-stu-id="aae6e-133">Optional: To display recommendations on the transaction screen, go to **Screen Layout, **choose your screen layout, launch the **Screen layout designer**,** **and then drop the **recommendations control **where needed.</span></span>
+4.  <span data-ttu-id="aae6e-134">Vá para **Parâmetros de varejo**, selecione **Aprendizado de máquina**, selecione **Sim** em **Habilitar recomendações de PDV**.</span><span class="sxs-lookup"><span data-stu-id="aae6e-134">Go to **Retail parameters**, select **Machine-learning**, select **Yes **under **Enable POS recommendations**.</span></span>
+5.  <span data-ttu-id="aae6e-135">Para consultar recomendações no PDV, rode o trabalho de configuração global **1110**.</span><span class="sxs-lookup"><span data-stu-id="aae6e-135">To see recommendations on POS, run global configuration job **1110**.</span></span> <span data-ttu-id="aae6e-136">Para refletir as alterações feitas ao designer de layout de tela do PDV, rode o trabalho de configuração de canal **1070**.</span><span class="sxs-lookup"><span data-stu-id="aae6e-136">To reflect changes made to POS screen layout designer, run channel configuration job **1070**.</span></span>
 
-## <a name="how-does-it-work"></a>[]()Como funciona?
-Quando você atualiza a entidade **Loja de entidade**, as ações a seguir ocorrem.
+## <a name="how-does-it-work"></a><span data-ttu-id="aae6e-137">[]()Como funciona?</span><span class="sxs-lookup"><span data-stu-id="aae6e-137">[]()How does it work?</span></span>
+<span data-ttu-id="aae6e-138">Quando você atualiza a entidade **Loja de entidade**, as ações a seguir ocorrem.</span><span class="sxs-lookup"><span data-stu-id="aae6e-138">When you refresh the **Entity store** entity, the following actions take place.</span></span>
 
--   Os dados no formato exigido pelos serviços cognitivos são extraídos do banco de dados operacional do Dynamics 365 for Retail e enviados para a loja de entidade.
--   Os dados são usados por Azure Data Factory (ADF) para limpar os dados usando scripts em conjunto como parte das atividades do ADF. Os dados limpos são armazenados no armazenamento blob.
--   Os dados do armazenamento de blob são usados pelo API dos serviços cognitivos para treinar um modelo de recomendação.
+-   <span data-ttu-id="aae6e-139">Os dados no formato exigido pelos serviços cognitivos são extraídos do banco de dados operacional do Dynamics 365 for Retail e enviados para a loja de entidade.</span><span class="sxs-lookup"><span data-stu-id="aae6e-139">Data in the format required by the Cognitive services is extracted from the Dynamics 365 for Retail operational database and sent to the Entity store.</span></span>
+-   <span data-ttu-id="aae6e-140">Os dados são usados por Azure Data Factory (ADF) para limpar os dados usando scripts em conjunto como parte das atividades do ADF.</span><span class="sxs-lookup"><span data-stu-id="aae6e-140">The data is used by Azure Data Factory (ADF) to cleanse the data using Hive scripts as part of ADF activities.</span></span> <span data-ttu-id="aae6e-141">Os dados limpos são armazenados no armazenamento blob.</span><span class="sxs-lookup"><span data-stu-id="aae6e-141">Cleansed data is stored in blob storage.</span></span>
+-   <span data-ttu-id="aae6e-142">Os dados do armazenamento de blob são usados pelo API dos serviços cognitivos para treinar um modelo de recomendação.</span><span class="sxs-lookup"><span data-stu-id="aae6e-142">Data from blob storage is used by the Cognitive services API to train a recommendation model.</span></span>
 
-Quando você ativa **Habilitar recomendações** e executa os trabalhos de configuração, as ações a seguir ocorrem.
+<span data-ttu-id="aae6e-143">Quando você ativa **Habilitar recomendações** e executa os trabalhos de configuração, as ações a seguir ocorrem.</span><span class="sxs-lookup"><span data-stu-id="aae6e-143">When you turn on **Enable recommendations** and run the configuration jobs, the following actions take place.</span></span>
 
--   As credenciais de modelo e ID são coletados da API e armazenadas no banco de dados operacional do Dynamics 365 for Retail, no web.config para AOS, bem como no servidor de varejo.
--   As credenciais de modelo e ID tornam-se disponíveis ao CRT para que as chamadas de recomendações de produto do Cloud POS e MPOS no modo online podem ser liquidadas.
+-   <span data-ttu-id="aae6e-144">As credenciais de modelo e ID são coletados da API e armazenadas no banco de dados operacional do Dynamics 365 for Retail, no web.config para AOS, bem como no servidor de varejo.</span><span class="sxs-lookup"><span data-stu-id="aae6e-144">Model credentials and ID are picked up from the API and stored in the Dynamics 365 for Retail operational database, in the web.config for AOS, and also in the retail server.</span></span>
+-   <span data-ttu-id="aae6e-145">As credenciais de modelo e ID tornam-se disponíveis ao CRT para que as chamadas de recomendações de produto do Cloud POS e MPOS no modo online podem ser liquidadas.</span><span class="sxs-lookup"><span data-stu-id="aae6e-145">Model credentials and ID are made available to CRT so that calls for product recommendations from Cloud POS and MPOS in online mode can be honored.</span></span>
 
 
-<a name="see-also"></a>Consulte também
+<a name="see-also"></a><span data-ttu-id="aae6e-146">Consulte também</span><span class="sxs-lookup"><span data-stu-id="aae6e-146">See also</span></span>
 --------
 
-[Adicionar um controle de recomendações à página de transação em um dispositivo do PDV](add-recommendations-control-pos-screen.md)
+[<span data-ttu-id="aae6e-147">Adicionar um controle de recomendações à página de transação em um dispositivo do PDV</span><span class="sxs-lookup"><span data-stu-id="aae6e-147">Add a recommendations control to the transaction page on a POS device</span></span>](add-recommendations-control-pos-screen.md)
 
 
 

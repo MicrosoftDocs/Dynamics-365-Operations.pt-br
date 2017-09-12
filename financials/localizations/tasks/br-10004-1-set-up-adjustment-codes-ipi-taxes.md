@@ -16,27 +16,27 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9740d2d68d1470a86af47636ec847d88d1263437
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 85a1dea5a9a1dad8f1d3b9025541cbde32cda6ec
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-adjustment-codes-for-ipi-taxes-brazil"></a>Configurar códigos de ajuste para impostos IPI (Brasil)
+# <a name="set-up-adjustment-codes-for-ipi-taxes-brazil"></a><span data-ttu-id="d810c-103">Configurar códigos de ajuste para impostos IPI (Brasil)</span><span class="sxs-lookup"><span data-stu-id="d810c-103">Set up adjustment codes for IPI taxes (Brazil)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Use este procedimento para configurar códigos de ajuste de imposto para Imposto sobre Produtos Industrializados (IPI). Esta tarefa usa a empresa de demonstração BRMF.
+<span data-ttu-id="d810c-104">Use este procedimento para configurar códigos de ajuste de imposto para Imposto sobre Produtos Industrializados (IPI).</span><span class="sxs-lookup"><span data-stu-id="d810c-104">Use this procedure to set up adjustment codes for Imposto sobre Produtos Industrializados (IPI) taxes.</span></span> <span data-ttu-id="d810c-105">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="d810c-105">This task uses the BRMF demo company.</span></span>
 
-1. Vá para Livros fiscais > Configuração > Códigos de ajuste de imposto > Tabela de códigos de ajuste de IPI.
-2. Clique em Novo.
-3. No campo Código de ajuste, digite um valor.
-4. No campo Descrição, digite um valor.
-5. Selecione Sim no campo É código de ajuste de estorno? .
-6. No campo Válido a Partir da Data, insira uma data.
-7. Expandir a seção Pagamento.
-8. Expanda a seção Lançamento.
-9. Clique em Salvar.
-10. Feche a página.
+1. <span data-ttu-id="d810c-106">Vá para Livros fiscais > Configuração > Códigos de ajuste de imposto > Tabela de códigos de ajuste de IPI.</span><span class="sxs-lookup"><span data-stu-id="d810c-106">Go to Fiscal books > Setup > Tax adjustment codes > IPI adjustment codes table.</span></span>
+2. <span data-ttu-id="d810c-107">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="d810c-107">Click New.</span></span>
+3. <span data-ttu-id="d810c-108">No campo Código de ajuste, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="d810c-108">In the Adjustment code field, type a value.</span></span>
+4. <span data-ttu-id="d810c-109">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="d810c-109">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="d810c-110">Selecione Sim no campo É código de ajuste de estorno?</span><span class="sxs-lookup"><span data-stu-id="d810c-110">Select Yes in the Is reversal adjustment code ?</span></span> <span data-ttu-id="d810c-111">.</span><span class="sxs-lookup"><span data-stu-id="d810c-111">field.</span></span>
+6. <span data-ttu-id="d810c-112">No campo Válido a Partir da Data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="d810c-112">In the Valid From Date field, enter a date.</span></span>
+7. <span data-ttu-id="d810c-113">Expandir a seção Pagamento.</span><span class="sxs-lookup"><span data-stu-id="d810c-113">Expand the Payment section.</span></span>
+8. <span data-ttu-id="d810c-114">Expanda a seção Lançamento.</span><span class="sxs-lookup"><span data-stu-id="d810c-114">Expand the Posting section.</span></span>
+9. <span data-ttu-id="d810c-115">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="d810c-115">Click Save.</span></span>
+10. <span data-ttu-id="d810c-116">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="d810c-116">Close the page.</span></span>
 
 

@@ -16,29 +16,29 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 55cd78ab21085330685ea654b9c408152900362e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 298dc0fbed97a66c85508669b15025d0ad2b176b
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-submit-vat-report"></a>Criar e enviar um relatório IVA
+# <a name="create-and-submit-vat-report"></a><span data-ttu-id="134d2-103">Criar e enviar um relatório IVA</span><span class="sxs-lookup"><span data-stu-id="134d2-103">Create and submit VAT report</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento explica como criar e enviar o relatório de IVA para a autoridade alemã.
+<span data-ttu-id="134d2-104">Este procedimento explica como criar e enviar o relatório de IVA para a autoridade alemã.</span><span class="sxs-lookup"><span data-stu-id="134d2-104">This procedure walks you through creating and submitting the VAT report to German authority.</span></span>
 
-Este procedimento foi criado usando a empresa de dados de demonstração DEMF. 
+<span data-ttu-id="134d2-105">Este procedimento foi criado usando a empresa de dados de demonstração DEMF.</span><span class="sxs-lookup"><span data-stu-id="134d2-105">This procedure was created using the demo data company DEMF.</span></span> 
 
-Este recurso está disponível para entidades legais cujo endereço principal está na Alemanha.
+<span data-ttu-id="134d2-106">Este recurso está disponível para entidades legais cujo endereço principal está na Alemanha.</span><span class="sxs-lookup"><span data-stu-id="134d2-106">This functionality is available for legal entities whose primary address is in Germany.</span></span>
 
 
 
-1. Vá para Imposto > Declarações > Imposto > Relatar imposto do período de liquidação.
-2. No campo Período de liquidação, insira ou selecione um valor.
-3. No campo De data, insira uma data.
-4. Clique em OK.
-5. Selecione Sim no campo Criar documento eletrônico de impostos.
-6. Clique em OK.
+1. <span data-ttu-id="134d2-107">Vá para Imposto > Declarações > Imposto > Relatar imposto do período de liquidação.</span><span class="sxs-lookup"><span data-stu-id="134d2-107">Go to Tax > Declarations > Sales tax > Report sales tax for settlement period.</span></span>
+2. <span data-ttu-id="134d2-108">No campo Período de liquidação, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="134d2-108">In the Settlement period field, enter or select a value.</span></span>
+3. <span data-ttu-id="134d2-109">No campo De data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="134d2-109">In the From date field, enter a date.</span></span>
+4. <span data-ttu-id="134d2-110">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="134d2-110">Click OK.</span></span>
+5. <span data-ttu-id="134d2-111">Selecione Sim no campo Criar documento eletrônico de impostos.</span><span class="sxs-lookup"><span data-stu-id="134d2-111">Select Yes in the Create electronic tax document field.</span></span>
+6. <span data-ttu-id="134d2-112">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="134d2-112">Click OK.</span></span>
 
 

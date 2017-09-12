@@ -16,32 +16,32 @@ ms.assetid: bc1fde9f-5ad9-4339-8ae8-e2839b792eb2
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7f7c1008eea83bbda96ace92cd4aedf09c8febdc
+ms.sourcegitcommit: fb74ddfbc46047251a1f96512891bfbdca8e0389
+ms.openlocfilehash: 2b4a27465908b5ffe19e91cb7ad0d29bce49505a
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/15/2017
 
 ---
 
-# <a name="adjust-on-hand-inventory-cost-values"></a>Ajustar valores de custo de estoque disponível
+# <a name="adjust-on-hand-inventory-cost-values"></a><span data-ttu-id="58323-103">Ajustar valores de custo de estoque disponível</span><span class="sxs-lookup"><span data-stu-id="58323-103">Adjust on-hand inventory cost values</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Use a página Ajuste de estoque disponível para ajustar o valor de custo das quantidades de estoque disponível após a execução de um processo de fechamento de estoque.
+<span data-ttu-id="58323-104">Use a página Ajuste de estoque disponível para ajustar o valor de custo das quantidades de estoque disponível após a execução de um processo de fechamento de estoque.</span><span class="sxs-lookup"><span data-stu-id="58323-104">Use the Adjustment of on-hand inventory page to adjust the cost value of the on-hand inventory quantities after an inventory close process is run.</span></span>
 
-Você pode usar a página **Ajuste de estoque disponível** para ajustar o valor de custo das quantidades de estoque disponível após a execução de um processo de fechamento de estoque. **Observação:** para abrir a página **Ajuste de estoque disponível**, na página **Fechamento e ajuste**, selecione o registro de um processo de fechamento de estoque e clique em **Ajuste** &gt; **Disponível**. **Exemplo:** você tem estas transações em fevereiro:
+<span data-ttu-id="58323-105">Você pode usar a página **Ajuste de estoque disponível** para ajustar o valor de custo das quantidades de estoque disponível após a execução de um processo de fechamento de estoque.</span><span class="sxs-lookup"><span data-stu-id="58323-105">You can use the **Adjustment of on-hand inventory** page to adjust the cost value of on-hand inventory quantities after an inventory close process is run.</span></span> <span data-ttu-id="58323-106">**Observação:** para abrir a página **Ajuste de estoque disponível**, na página **Fechamento e ajuste**, selecione o registro de um processo de fechamento de estoque e clique em **Ajuste** &gt; **Disponível**.</span><span class="sxs-lookup"><span data-stu-id="58323-106">**Note:** To open the **Adjustment of on-hand inventory** page, on the **Closing and adjustment** page, select the record of a completed inventory close process, and then click **Adjustment** &gt; **On-hand**.</span></span> <span data-ttu-id="58323-107">**Exemplo:** você tem estas transações em fevereiro:</span><span class="sxs-lookup"><span data-stu-id="58323-107">**Example:** You have the following transactions in February:</span></span>
 
--   1º de fevereiro: um recebimento financeiro de estoque para uma quantidade de 2 a um custo de BRL 10,00
--   5 de fevereiro: um recebimento financeiro de estoque para uma quantidade de 1 a um custo de BRL 13,00
--   19 fevereiro: uma saída financeira de estoque para uma quantidade igual a 1 a um custo médio em execução de R$ 11,00
+-   <span data-ttu-id="58323-108">1º de fevereiro: um recebimento financeiro de estoque para uma quantidade de 2 a um custo de BRL 10,00</span><span class="sxs-lookup"><span data-stu-id="58323-108">February 1: An inventory financial receipt for a quantity of 2 at a cost of USD 10.00</span></span>
+-   <span data-ttu-id="58323-109">5 de fevereiro: um recebimento financeiro de estoque para uma quantidade de 1 a um custo de BRL 13,00</span><span class="sxs-lookup"><span data-stu-id="58323-109">February 5: An inventory financial receipt for a quantity of 1 at a cost of USD 13.00</span></span>
+-   <span data-ttu-id="58323-110">19 fevereiro: uma saída financeira de estoque para uma quantidade igual a 1 a um custo médio em execução de R$ 11,00</span><span class="sxs-lookup"><span data-stu-id="58323-110">February 19: An inventory financial issue for a quantity of 1 at a running average cost of USD 11.00</span></span>
 
-Esse item foi configurado com o modelo de estoque PEPS (primeiro a entrar, primeiro a sair), e o fechamento do estoque foi feito em 28 de fevereiro. A transação de saída financeira de US$ 11,00 será liquidada no recebimento financeiro datado de 1º de fevereiro e será feito um ajuste de US$ 1,00. Os seguintes recebimentos de estoque conterão, assim, quantidades de estoque em aberto:
+<span data-ttu-id="58323-111">Esse item foi configurado com o modelo de estoque PEPS (primeiro a entrar, primeiro a sair), e o fechamento do estoque foi feito em 28 de fevereiro.</span><span class="sxs-lookup"><span data-stu-id="58323-111">This item was set up with the first in, first out (FIFO) inventory model, and inventory close was performed as of February 28.</span></span> <span data-ttu-id="58323-112">A transação de saída financeira de US$ 11,00 será liquidada no recebimento financeiro datado de 1º de fevereiro e será feito um ajuste de US$ 1,00.</span><span class="sxs-lookup"><span data-stu-id="58323-112">The financial issue transaction of USD 11.00 will be settled against the financial receipt that is dated February 1, and an adjustment of USD 1.00 will be made.</span></span> <span data-ttu-id="58323-113">Os seguintes recebimentos de estoque conterão, assim, quantidades de estoque em aberto:</span><span class="sxs-lookup"><span data-stu-id="58323-113">The following inventory receipts will then contain open inventory quantities:</span></span>
 
--   1º de fevereiro: uma quantidade igual a 1 a um custo de R$ 10,00
--   5 de fevereiro: uma quantidade igual a 1 a um custo de R$ 13,00
+-   <span data-ttu-id="58323-114">1º de fevereiro: uma quantidade igual a 1 a um custo de R$ 10,00</span><span class="sxs-lookup"><span data-stu-id="58323-114">February 1: A quantity of 1 at a cost of USD 10.00</span></span>
+-   <span data-ttu-id="58323-115">5 de fevereiro: uma quantidade igual a 1 a um custo de R$ 13,00</span><span class="sxs-lookup"><span data-stu-id="58323-115">February 5: A quantity of 1 at a cost of USD 13.00</span></span>
 
-Para definir o custo desses dois itens como BRL 15,00, use a opção de ajuste disponível para ajustar as quantidades disponíveis em aberto no último período de fechamento de estoque. **Observação:** a data de lançamento da transação de ajuste disponível será a data do último fechamento de estoque. Essa data não pode ser modificada.
+<span data-ttu-id="58323-116">Para definir o custo desses dois itens como BRL 15,00, use a opção de ajuste disponível para ajustar as quantidades disponíveis em aberto no último período de fechamento de estoque.</span><span class="sxs-lookup"><span data-stu-id="58323-116">To set the cost of these two items to USD 15.00, use the on-hand adjustment option to adjust the open on-hand quantities as of the last inventory close period.</span></span> <span data-ttu-id="58323-117">**Observação:** a data de lançamento da transação de ajuste disponível será a data do último fechamento de estoque.</span><span class="sxs-lookup"><span data-stu-id="58323-117">**Note:** The posting date of the on-hand adjustment transaction will be the date of the last inventory close.</span></span> <span data-ttu-id="58323-118">Essa data não pode ser modificada.</span><span class="sxs-lookup"><span data-stu-id="58323-118">This date can't be modified.</span></span>
 

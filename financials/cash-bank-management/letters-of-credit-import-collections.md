@@ -19,41 +19,41 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5b27e8731dde9a834ee0ff5aa7a289bd2ecfeef1
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 4332c7bb0344bd0caabd5d1a26fb8e4bb4fc862d
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="letters-of-credit-and-import-collections"></a>Cartas de crédito e coleções de importações
+# <a name="letters-of-credit-and-import-collections"></a><span data-ttu-id="840cc-104">Cartas de crédito e coleções de importações</span><span class="sxs-lookup"><span data-stu-id="840cc-104">Letters of credit and import collections</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo fornece informações gerais sobre letras de crédito e de conjuntos de importação. Ambos tipos de documento bancário são frequentemente usados para compra e venda de mercadorias entre as fronteiras internacionais.
+<span data-ttu-id="840cc-105">Este artigo fornece informações gerais sobre letras de crédito e de conjuntos de importação.</span><span class="sxs-lookup"><span data-stu-id="840cc-105">This article provides general information about letters of credit and import collections.</span></span> <span data-ttu-id="840cc-106">Ambos tipos de documento bancário são frequentemente usados para compra e venda de mercadorias entre as fronteiras internacionais.</span><span class="sxs-lookup"><span data-stu-id="840cc-106">Both types of bank document are often used for the purchase and sale of goods across international borders.</span></span>
 
-<a name="letters-of-credit"></a>Cartas de crédito
+<a name="letters-of-credit"></a><span data-ttu-id="840cc-107">Cartas de crédito</span><span class="sxs-lookup"><span data-stu-id="840cc-107">Letters of credit</span></span>
 -----------------
 
-As cartas de crédito são usadas para transações internacionais e ajudam a garantir que os pagamentos sejam feitos. Uma carta de crédito é um contrato emitido por um banco, no qual o banco garante o pagamento em nome de um comprador, desde que as condições do contrato entre o comprador e o vendedor sejam atendidas. Uma carta de crédito também é conhecida como um crédito documentário (DC).
+<span data-ttu-id="840cc-108">As cartas de crédito são usadas para transações internacionais e ajudam a garantir que os pagamentos sejam feitos.</span><span class="sxs-lookup"><span data-stu-id="840cc-108">Letters of credit are used for international transactions and help guarantee that payments will be made.</span></span> <span data-ttu-id="840cc-109">Uma carta de crédito é um contrato emitido por um banco, no qual o banco garante o pagamento em nome de um comprador, desde que as condições do contrato entre o comprador e o vendedor sejam atendidas.</span><span class="sxs-lookup"><span data-stu-id="840cc-109">A letter of credit is an agreement that is issued by a bank, in which the bank agrees to guarantee payment on behalf of a buyer, provided that the terms of the agreement between the buyer and seller are met.</span></span> <span data-ttu-id="840cc-110">Uma carta de crédito também é conhecida como um crédito documentário (DC).</span><span class="sxs-lookup"><span data-stu-id="840cc-110">A letter of credit is also referred to as a documentary credit (DC).</span></span>
 
-Para uma carta de crédito de importação, a entidade legal é o comprador ou o candidato da carta de crédito. Para uma carta de crédito de exportação, a entidade legal é o vendedor ou o beneficiário da carta de crédito. Os participantes a seguir estão envolvidos em uma carta de crédito:
+<span data-ttu-id="840cc-111">Para uma carta de crédito de importação, a entidade legal é o comprador ou o candidato da carta de crédito.</span><span class="sxs-lookup"><span data-stu-id="840cc-111">For an import letter of credit, the legal entity is the buyer or the applicant for the letter of credit.</span></span> <span data-ttu-id="840cc-112">Para uma carta de crédito de exportação, a entidade legal é o vendedor ou o beneficiário da carta de crédito.</span><span class="sxs-lookup"><span data-stu-id="840cc-112">For an export letter of credit, the legal entity is the seller or the beneficiary of the letter of credit.</span></span> <span data-ttu-id="840cc-113">Os participantes a seguir estão envolvidos em uma carta de crédito:</span><span class="sxs-lookup"><span data-stu-id="840cc-113">The following parties are involved in a letter of credit:</span></span>
 
--   O candidato (comprador), que pretende pagar pelas mercadorias
--   O beneficiário (vendedor), que receberá o pagamento
--   O banco que emite a carta de crédito.
--   O banco do consultor que executa a transação em nome do candidato.
+-   <span data-ttu-id="840cc-114">O candidato (comprador), que pretende pagar pelas mercadorias</span><span class="sxs-lookup"><span data-stu-id="840cc-114">The applicant (buyer) who intends to pay for the goods</span></span>
+-   <span data-ttu-id="840cc-115">O beneficiário (vendedor), que receberá o pagamento</span><span class="sxs-lookup"><span data-stu-id="840cc-115">The beneficiary (seller) who will receive the payment</span></span>
+-   <span data-ttu-id="840cc-116">O banco que emite a carta de crédito.</span><span class="sxs-lookup"><span data-stu-id="840cc-116">The issuing bank that issues the letter of credit</span></span>
+-   <span data-ttu-id="840cc-117">O banco do consultor que executa a transação em nome do candidato.</span><span class="sxs-lookup"><span data-stu-id="840cc-117">The advising bank that carries out the transaction on behalf of the applicant</span></span>
 
-A nota de crédito inclui uma descrição das mercadorias, todos os documentos necessários, a data de remessa e a data de vencimento após a qual o pagamento não será feito. O banco emissor coleta uma margem para a carta de crédito. 
+<span data-ttu-id="840cc-118">A nota de crédito inclui uma descrição das mercadorias, todos os documentos necessários, a data de remessa e a data de vencimento após a qual o pagamento não será feito.</span><span class="sxs-lookup"><span data-stu-id="840cc-118">The letter of credit includes a description of the goods, any required documents, the date of shipment, and the expiration date after which payment won't be made.</span></span> <span data-ttu-id="840cc-119">O banco emissor coleta uma margem para a carta de crédito.</span><span class="sxs-lookup"><span data-stu-id="840cc-119">The issuing bank collects a margin for the letter of credit.</span></span> 
 
-Uma nota de crédito pode ser **revogável** ou **irrevogável**. A natureza de uma nota de crédito pode ser **transferível**, **não transferível**, ou **renovável**. Em geral, uma carta de crédito é um contrato irrevogável e confirmado do pagamento que será feito a um beneficiário específico, mediante o envio de documentos de remessa completos e precisos.
+<span data-ttu-id="840cc-120">Uma nota de crédito pode ser **revogável** ou **irrevogável**.</span><span class="sxs-lookup"><span data-stu-id="840cc-120">A letter of credit can be **revocable** or **irrevocable**.</span></span> <span data-ttu-id="840cc-121">A natureza de uma nota de crédito pode ser **transferível**, **não transferível**, ou **renovável**.</span><span class="sxs-lookup"><span data-stu-id="840cc-121">The nature of a letter of credit can be **transferable**, **non-transferable**, or **revolving**.</span></span> <span data-ttu-id="840cc-122">Em geral, uma carta de crédito é um contrato irrevogável e confirmado do pagamento que será feito a um beneficiário específico, mediante o envio de documentos de remessa completos e precisos.</span><span class="sxs-lookup"><span data-stu-id="840cc-122">Typically, a letter of credit is an irrevocable and confirmed agreement that payment will be made to a specific beneficiary upon submission of complete and accurate shipping documentation.</span></span>
 
-## <a name="import-collections"></a>Importar coleções
-Uma coleção de importação é um contrato entre o banco e o exportador (vendedor), em que o banco concorda em entregar a documentação de remessa ao importador internacional (comprador). O banco deve entregar a documentação de remessa após o recebimento do pagamento em dinheiro das mercadorias enviadas ou no recebimento de uma ordem de pagamento assinada mediante o pagamento. 
+## <a name="import-collections"></a><span data-ttu-id="840cc-123">Importar coleções</span><span class="sxs-lookup"><span data-stu-id="840cc-123">Import collections</span></span>
+<span data-ttu-id="840cc-124">Uma coleção de importação é um contrato entre o banco e o exportador (vendedor), em que o banco concorda em entregar a documentação de remessa ao importador internacional (comprador).</span><span class="sxs-lookup"><span data-stu-id="840cc-124">An import collection is an agreement between the bank and the exporter (seller), in which the bank agrees to deliver the shipping documentation to the international importer (buyer).</span></span> <span data-ttu-id="840cc-125">O banco deve entregar a documentação de remessa após o recebimento do pagamento em dinheiro das mercadorias enviadas ou no recebimento de uma ordem de pagamento assinada mediante o pagamento.</span><span class="sxs-lookup"><span data-stu-id="840cc-125">The bank is expected to deliver the shipping documentation upon receipt of payment for the shipped goods in cash, or upon receipt of a signed draft toward the payment.</span></span> 
 
-Uma coleção de importação garante o vendedor será pago quando o comprador recolhe os documentos de remessa para receber as mercadorias importadas.
+<span data-ttu-id="840cc-126">Uma coleção de importação garante o vendedor será pago quando o comprador recolhe os documentos de remessa para receber as mercadorias importadas.</span><span class="sxs-lookup"><span data-stu-id="840cc-126">An import collection helps guarantee that the seller is paid when the buyer collects the shipping documents to take delivery of the imported goods.</span></span>
 
 
 

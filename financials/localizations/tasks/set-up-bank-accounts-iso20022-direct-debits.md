@@ -16,56 +16,56 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7aac1af99f2b5a7b1a123a8e3d3d6ddcaaa39b8d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 52970c54849e91c5052ad61ffc6458e646cbb262
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a>Configurar clientes e contas bancárias de cliente para débitos diretos de ISO20022
+# <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a><span data-ttu-id="f50ed-103">Configurar clientes e contas bancárias de cliente para débitos diretos de ISO20022</span><span class="sxs-lookup"><span data-stu-id="f50ed-103">Set up customers and customer bank accounts for ISO20022 direct debits</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Essa tarefa orienta como configurar uma conta bancária do cliente e uma carta de ordem de débito direto do cliente que são necessárias para gerar o arquivo de pagamento do cliente, como o débito direto ISO20022. Dependendo dos formatos de pagamento de cliente que estiverem configurados, podem ser necessárias informações adicionais de um cliente ou de uma conta bancária do cliente que não estão cobertas neste procedimento. 
+<span data-ttu-id="f50ed-104">Essa tarefa orienta como configurar uma conta bancária do cliente e uma carta de ordem de débito direto do cliente que são necessárias para gerar o arquivo de pagamento do cliente, como o débito direto ISO20022.</span><span class="sxs-lookup"><span data-stu-id="f50ed-104">This task walks you through setting up a customer bank account and a customer direct debit mandate which are required to generate the customer payment file like ISO20022 direct debit.</span></span> <span data-ttu-id="f50ed-105">Dependendo dos formatos de pagamento de cliente que estiverem configurados, podem ser necessárias informações adicionais de um cliente ou de uma conta bancária do cliente que não estão cobertas neste procedimento.</span><span class="sxs-lookup"><span data-stu-id="f50ed-105">Depending on the customer payment formats tha are set up, additional information, not covered in this procedure, might be required for a customer or a customer bank account.</span></span> 
 
-Esta tarefa foi criada usando a empresa DEMF de dados de demonstração com uma entidade legal primária na Alemanha.
-
-
-
-Este é o quarto dos cinco procedimentos que demonstram o processo de pagamento de clientes usando as configurações de relatório eletrônico.
+<span data-ttu-id="f50ed-106">Esta tarefa foi criada usando a empresa DEMF de dados de demonstração com uma entidade legal primária na Alemanha.</span><span class="sxs-lookup"><span data-stu-id="f50ed-106">This task was created using the demo data company DEMF with a legal entity primary address in Germany.</span></span>
 
 
-## <a name="set-up-a-customer-bank-account"></a>Configurar uma conta bancária de cliente
-1. Ir para Contas recebíveis > Clientes > Todos os clientes.
-2. Use o Filtro Rápido para localizar registros. Por exemplo, no campo Conta, filtre com um valor de 'DE-010'.
-3. Na lista, clique no link na linha selecionada.
-4. No Painel de Ação, clique em Cliente.
-5. Clique em Contas bancárias.
-6. Clique em Novo.
-7. No campo Conta bancária, digite um valor.
-8. No campo Nome, digite um valor.
-    * Por exemplo, insira "EUR bank".  
-9. No campo Grupos de banco, insira ou selecione um valor.
-10. No campo IBAN, digite um valor.
-    * Por exemplo, insira "DE36200400000628808808".  
-11. No campo Código SWIFT, digite um valor.
-    * Por exemplo, insira 'COBADEFFXXX'.  Observe que o SWIFT\BIC não é obrigatório para vários formatos de pagamento, no entanto, é recomendável registrá-lo em uma conta bancária.  
-12. Clique em Salvar.
-13. Feche a página.
-14. Clique em Editar.
-15. Expanda a seção de padrões de pagamento.
-16. No campo Conta bancária, insira ou selecione um valor.
 
-## <a name="add-a-direct-debit-mandate"></a>Adicionar uma carta de ordem de débito direto
-1. Expanda a seção de cartas da ordem de débito direto.
-2. Clique em Adicionar.
-3. No campo Conta bancária do credor, insira ou selecione um valor.
-    * Por exemplo, selecione DEMF OPER.  
-4. No campo Data de assinatura, insira uma data.
-5. Clique em Sim para confirmar a atualização de data.
-6. No campo Local de assinatura, insira ou selecione um valor.
-7. No campo Número esperado de pagamentos, insira um número.
-8. Clique em OK.
-9. Clique em Salvar.
+<span data-ttu-id="f50ed-107">Este é o quarto dos cinco procedimentos que demonstram o processo de pagamento de clientes usando as configurações de relatório eletrônico.</span><span class="sxs-lookup"><span data-stu-id="f50ed-107">This is the fourth of five procedures that demonstrate the customer payment process using electronic reporting configurations.</span></span>
+
+
+## <a name="set-up-a-customer-bank-account"></a><span data-ttu-id="f50ed-108">Configurar uma conta bancária de cliente</span><span class="sxs-lookup"><span data-stu-id="f50ed-108">Set up a customer bank account</span></span>
+1. <span data-ttu-id="f50ed-109">Ir para Contas recebíveis > Clientes > Todos os clientes.</span><span class="sxs-lookup"><span data-stu-id="f50ed-109">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="f50ed-110">Use o Filtro Rápido para localizar registros.</span><span class="sxs-lookup"><span data-stu-id="f50ed-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="f50ed-111">Por exemplo, no campo Conta, filtre com um valor de 'DE-010'.</span><span class="sxs-lookup"><span data-stu-id="f50ed-111">For example, filter on the Account field with a value of 'DE-010 '.</span></span>
+3. <span data-ttu-id="f50ed-112">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f50ed-112">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="f50ed-113">No Painel de Ação, clique em Cliente.</span><span class="sxs-lookup"><span data-stu-id="f50ed-113">On the Action Pane, click Customer.</span></span>
+5. <span data-ttu-id="f50ed-114">Clique em Contas bancárias.</span><span class="sxs-lookup"><span data-stu-id="f50ed-114">Click Bank accounts.</span></span>
+6. <span data-ttu-id="f50ed-115">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="f50ed-115">Click New.</span></span>
+7. <span data-ttu-id="f50ed-116">No campo Conta bancária, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="f50ed-116">In the Bank account field, type a value.</span></span>
+8. <span data-ttu-id="f50ed-117">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="f50ed-117">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="f50ed-118">Por exemplo, insira "EUR bank".</span><span class="sxs-lookup"><span data-stu-id="f50ed-118">For example, enter 'EUR bank'.</span></span>  
+9. <span data-ttu-id="f50ed-119">No campo Grupos de banco, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="f50ed-119">In the Bank groups field, enter or select a value.</span></span>
+10. <span data-ttu-id="f50ed-120">No campo IBAN, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="f50ed-120">In the IBAN field, type a value.</span></span>
+    * <span data-ttu-id="f50ed-121">Por exemplo, insira "DE36200400000628808808".</span><span class="sxs-lookup"><span data-stu-id="f50ed-121">For example, enter 'DE36200400000628808808'.</span></span>  
+11. <span data-ttu-id="f50ed-122">No campo Código SWIFT, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="f50ed-122">In the SWIFT code field, type a value.</span></span>
+    * <span data-ttu-id="f50ed-123">Por exemplo, insira 'COBADEFFXXX'.</span><span class="sxs-lookup"><span data-stu-id="f50ed-123">For example: Enter 'COBADEFFXXX'.</span></span>  <span data-ttu-id="f50ed-124">Observe que o SWIFT\BIC não é obrigatório para vários formatos de pagamento, no entanto, é recomendável registrá-lo em uma conta bancária.</span><span class="sxs-lookup"><span data-stu-id="f50ed-124">Please note that SWIFT \ BIC is not mandatory for many payment formats however it is recommended to have it registered for a bank account.</span></span>  
+12. <span data-ttu-id="f50ed-125">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="f50ed-125">Click Save.</span></span>
+13. <span data-ttu-id="f50ed-126">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f50ed-126">Close the page.</span></span>
+14. <span data-ttu-id="f50ed-127">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="f50ed-127">Click Edit.</span></span>
+15. <span data-ttu-id="f50ed-128">Expanda a seção de padrões de pagamento.</span><span class="sxs-lookup"><span data-stu-id="f50ed-128">Expand the Payment defaults section.</span></span>
+16. <span data-ttu-id="f50ed-129">No campo Conta bancária, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="f50ed-129">In the Bank account field, enter or select a value.</span></span>
+
+## <a name="add-a-direct-debit-mandate"></a><span data-ttu-id="f50ed-130">Adicionar uma carta de ordem de débito direto</span><span class="sxs-lookup"><span data-stu-id="f50ed-130">Add a direct debit mandate</span></span>
+1. <span data-ttu-id="f50ed-131">Expanda a seção de cartas da ordem de débito direto.</span><span class="sxs-lookup"><span data-stu-id="f50ed-131">Expand the Direct debit mandates section.</span></span>
+2. <span data-ttu-id="f50ed-132">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="f50ed-132">Click Add.</span></span>
+3. <span data-ttu-id="f50ed-133">No campo Conta bancária do credor, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="f50ed-133">In the Creditor bank account field, enter or select a value.</span></span>
+    * <span data-ttu-id="f50ed-134">Por exemplo, selecione DEMF OPER.</span><span class="sxs-lookup"><span data-stu-id="f50ed-134">For example, select DEMF OPER.</span></span>  
+4. <span data-ttu-id="f50ed-135">No campo Data de assinatura, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="f50ed-135">In the Signature date field, enter a date.</span></span>
+5. <span data-ttu-id="f50ed-136">Clique em Sim para confirmar a atualização de data.</span><span class="sxs-lookup"><span data-stu-id="f50ed-136">Click Yes to confirm the date update.</span></span>
+6. <span data-ttu-id="f50ed-137">No campo Local de assinatura, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="f50ed-137">In the Signature location field, enter or select a value.</span></span>
+7. <span data-ttu-id="f50ed-138">No campo Número esperado de pagamentos, insira um número.</span><span class="sxs-lookup"><span data-stu-id="f50ed-138">In the Expected number of payments field, enter a number.</span></span>
+8. <span data-ttu-id="f50ed-139">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="f50ed-139">Click OK.</span></span>
+9. <span data-ttu-id="f50ed-140">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="f50ed-140">Click Save.</span></span>
 
 

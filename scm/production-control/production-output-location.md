@@ -15,7 +15,7 @@ ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: johanho
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -25,20 +25,20 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="production-output-location"></a>Local de saída de produção
+# <a name="production-output-location"></a><span data-ttu-id="b1a61-103">Local de saída de produção</span><span class="sxs-lookup"><span data-stu-id="b1a61-103">Production output location</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico descreve a hierarquia usada para identificar o local de saída de produção.
+<span data-ttu-id="b1a61-104">Este tópico descreve a hierarquia usada para identificar o local de saída de produção.</span><span class="sxs-lookup"><span data-stu-id="b1a61-104">This topic describes the hierarchy that is used to identify the production output location.</span></span>
 
-O local de saída de produção é o primeiro local onde uma mercadoria concluída é armazenada depois de produzida. Geralmente, esse local é próximo ao processo de produção que gera a mercadoria concluída. O local de saída de produção é usado como armazenamento intermediário do material antes que ele seja movido para a área de remessa, um local de armazenamento, um local de entrada de produção para um processo de produção downstream e assim por diante. 
+<span data-ttu-id="b1a61-105">O local de saída de produção é o primeiro local onde uma mercadoria concluída é armazenada depois de produzida.</span><span class="sxs-lookup"><span data-stu-id="b1a61-105">The production output location is the location where a finished good is first stored after it's produced.</span></span> <span data-ttu-id="b1a61-106">Geralmente, esse local é próximo ao processo de produção que gera a mercadoria concluída.</span><span class="sxs-lookup"><span data-stu-id="b1a61-106">Usually, this location is close to the production process that produces the finished good.</span></span> <span data-ttu-id="b1a61-107">O local de saída de produção é usado como armazenamento intermediário do material antes que ele seja movido para a área de remessa, um local de armazenamento, um local de entrada de produção para um processo de produção downstream e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="b1a61-107">The production output location is used as intermediate storage for the material before it's moved on to the shipment area, a storage location, a production input location for a downstream production process, and so on.</span></span> 
 
-Um local de saída de produção padrão é definido quando as mercadorias concluídas são relatadas em uma ordem de produção ou em uma ordem de lote. A hierarquia a seguir é usada para identificar este local de saída:
+<span data-ttu-id="b1a61-108">Um local de saída de produção padrão é definido quando as mercadorias concluídas são relatadas em uma ordem de produção ou em uma ordem de lote.</span><span class="sxs-lookup"><span data-stu-id="b1a61-108">A default production output location is set when finished goods are reported on a production order or batch order.</span></span> <span data-ttu-id="b1a61-109">A hierarquia a seguir é usada para identificar este local de saída:</span><span class="sxs-lookup"><span data-stu-id="b1a61-109">The following hierarchy is used to identify this output location:</span></span>
 
-1. Use o local de saída definido no cabeçalho da ordem de produção ou da ordem de lote.
-2. Se não houver um local ali, use o local de saída definido no recurso usado pela última operação definida no roteiro de produção.
-3. Se não houver um local ali, use o local de saída definido no grupo de recursos usado pelo recurso na última operação definida no roteiro de produção.
-4. Se não houver uma localização ali, use o local de saída definido no depósito definido na ordem de produção.
+1. <span data-ttu-id="b1a61-110">Use o local de saída definido no cabeçalho da ordem de produção ou da ordem de lote.</span><span class="sxs-lookup"><span data-stu-id="b1a61-110">Use the output location that is defined on the production order or batch order header.</span></span>
+2. <span data-ttu-id="b1a61-111">Se não houver um local ali, use o local de saída definido no recurso usado pela última operação definida no roteiro de produção.</span><span class="sxs-lookup"><span data-stu-id="b1a61-111">If no location is found there, use the output location that is defined on the resource that is used by the last operation that is defined in the production route.</span></span>
+3. <span data-ttu-id="b1a61-112">Se não houver um local ali, use o local de saída definido no grupo de recursos usado pelo recurso na última operação definida no roteiro de produção.</span><span class="sxs-lookup"><span data-stu-id="b1a61-112">If no location is found there, use the output location that is defined on the resource group that is used by the resource for the last operation that is defined in the production route.</span></span>
+4. <span data-ttu-id="b1a61-113">Se não houver uma localização ali, use o local de saída definido no depósito definido na ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="b1a61-113">If no location is found there, use the output location that is defined on the warehouse that is defined for the production order.</span></span>
 
-Um local de saída de produção padrão é definido apenas para os produtos configurados usando os processos avançados de depósito. Quando esse tipo de item for relatado como concluída, será criado o trabalho de depósito do tipo **Mercadorias concluídas armazenadas** ou **Co-produto e subproduto armazenados**. Esse tipo de trabalho usa o local de saída de produção como o local de separação. O local de armazenamento é determinado pelas diretivas de local.
+<span data-ttu-id="b1a61-114">Um local de saída de produção padrão é definido apenas para os produtos configurados usando os processos avançados de depósito.</span><span class="sxs-lookup"><span data-stu-id="b1a61-114">A default production output location is set only for products that are set up by using advanced warehouse processes.</span></span> <span data-ttu-id="b1a61-115">Quando esse tipo de item for relatado como concluída, será criado o trabalho de depósito do tipo **Mercadorias concluídas armazenadas** ou **Co-produto e subproduto armazenados**.</span><span class="sxs-lookup"><span data-stu-id="b1a61-115">When this type of item is reported as finished, warehouse work of the **Finished goods put away** or **Co-product and by-product put away** type is created.</span></span> <span data-ttu-id="b1a61-116">Esse tipo de trabalho usa o local de saída de produção como o local de separação.</span><span class="sxs-lookup"><span data-stu-id="b1a61-116">This type of work uses the production output location as the pick location.</span></span> <span data-ttu-id="b1a61-117">O local de armazenamento é determinado pelas diretivas de local.</span><span class="sxs-lookup"><span data-stu-id="b1a61-117">The put-away location is determined by the location directives.</span></span>
 

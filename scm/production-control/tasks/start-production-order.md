@@ -17,58 +17,58 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: a88968072b28ab468af97a875bd76d4d6abecfde
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 33558053d33d9fe4a2ecb3576da569b2c441db80
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="start-a-production-order"></a>Começar uma ordem de produção
+# <a name="start-a-production-order"></a><span data-ttu-id="1ad34-103">Começar uma ordem de produção</span><span class="sxs-lookup"><span data-stu-id="1ad34-103">Start a production order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Esse procedimento mostra como iniciar uma ordem de produção no chão de fábrica. Consumo de materiais e tempo são relatados nesse processo. A empresa de dados demo usada para criar este procedimento é USMF. Este é o quinto procedimento de sete que explica o ciclo de vida da ordem de produção.
+<span data-ttu-id="1ad34-104">Esse procedimento mostra como iniciar uma ordem de produção no chão de fábrica.</span><span class="sxs-lookup"><span data-stu-id="1ad34-104">This procedure shows how to start a production order on the shop floor.</span></span> <span data-ttu-id="1ad34-105">Consumo de materiais e tempo são relatados nesse processo.</span><span class="sxs-lookup"><span data-stu-id="1ad34-105">Time and material consumption are reported in this process.</span></span> <span data-ttu-id="1ad34-106">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="1ad34-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="1ad34-107">Este é o quinto procedimento de sete que explica o ciclo de vida da ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="1ad34-107">This is the fifth procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="start-a-production-order"></a>Começar uma ordem de produção
-1. Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.
-    * Selecione uma ordem de produção com o status Liberada.  
-2. No Painel de Ação, clique em Ordem de produção.
-3. Clique em Iniciar.
-    * Nesta página, você pode confirmar o início da ordem de produção.  
-4. Clique na guia Geral.
-5. No campo Da Oper. Não. , insira '10'.
-6. No campo Consumo automático de roteiro, selecione 'Sempre'.
-7. Clique na caixa de seleção Lançar cartão de roteiro agora.
-8. No campo Consumo automático de BOM, selecione 'Sempre'.
-9. Clique na caixa de seleção Lançar lista de separação agora.
-10. Clique na caixa de seleção Imprimir lista de separação.
-11. Clique em OK.
-    * Esta é a lista de separação impressa que mostra os materiais usados na ordem de produção.  
-12. Feche a página.
+## <a name="start-a-production-order"></a><span data-ttu-id="1ad34-108">Começar uma ordem de produção</span><span class="sxs-lookup"><span data-stu-id="1ad34-108">Start a production order</span></span>
+1. <span data-ttu-id="1ad34-109">Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.</span><span class="sxs-lookup"><span data-stu-id="1ad34-109">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="1ad34-110">Selecione uma ordem de produção com o status Liberada.</span><span class="sxs-lookup"><span data-stu-id="1ad34-110">Select a production order that has the Released status.</span></span>  
+2. <span data-ttu-id="1ad34-111">No Painel de Ação, clique em Ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="1ad34-111">On the Action Pane, click Production order.</span></span>
+3. <span data-ttu-id="1ad34-112">Clique em Iniciar.</span><span class="sxs-lookup"><span data-stu-id="1ad34-112">Click Start.</span></span>
+    * <span data-ttu-id="1ad34-113">Nesta página, você pode confirmar o início da ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="1ad34-113">On this page, you can confirm the start of the production order.</span></span>  
+4. <span data-ttu-id="1ad34-114">Clique na guia Geral.</span><span class="sxs-lookup"><span data-stu-id="1ad34-114">Click the General tab.</span></span>
+5. <span data-ttu-id="1ad34-115">No campo Da Oper.</span><span class="sxs-lookup"><span data-stu-id="1ad34-115">In the From Oper.</span></span> <span data-ttu-id="1ad34-116">Não.</span><span class="sxs-lookup"><span data-stu-id="1ad34-116">No.</span></span> <span data-ttu-id="1ad34-117">, insira '10'.</span><span class="sxs-lookup"><span data-stu-id="1ad34-117">field, enter '10'.</span></span>
+6. <span data-ttu-id="1ad34-118">No campo Consumo automático de roteiro, selecione 'Sempre'.</span><span class="sxs-lookup"><span data-stu-id="1ad34-118">In the Automatic route consumption field, select 'Always'.</span></span>
+7. <span data-ttu-id="1ad34-119">Clique na caixa de seleção Lançar cartão de roteiro agora.</span><span class="sxs-lookup"><span data-stu-id="1ad34-119">Click the Post route card now checkbox.</span></span>
+8. <span data-ttu-id="1ad34-120">No campo Consumo automático de BOM, selecione 'Sempre'.</span><span class="sxs-lookup"><span data-stu-id="1ad34-120">In the Automatic BOM consumption field, select 'Always'.</span></span>
+9. <span data-ttu-id="1ad34-121">Clique na caixa de seleção Lançar lista de separação agora.</span><span class="sxs-lookup"><span data-stu-id="1ad34-121">Click the Post picking list now checkbox.</span></span>
+10. <span data-ttu-id="1ad34-122">Clique na caixa de seleção Imprimir lista de separação.</span><span class="sxs-lookup"><span data-stu-id="1ad34-122">Click the Print picking list checkbox.</span></span>
+11. <span data-ttu-id="1ad34-123">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="1ad34-123">Click OK.</span></span>
+    * <span data-ttu-id="1ad34-124">Esta é a lista de separação impressa que mostra os materiais usados na ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="1ad34-124">This is the printed picking list that shows the materials used for the production order.</span></span>  
+12. <span data-ttu-id="1ad34-125">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="1ad34-125">Close the page.</span></span>
 
-## <a name="validate-the-picking-list"></a>Validar a lista de separação
-1. No Painel de Ação, clique em Exibir.
-2. Clique em Lista de separação.
-3. Na lista, localize e selecione o PDV desejado.
-4. Na lista, clique no link na linha selecionada.
-5. Clique em Editar.
-6. No campo Consumo, insira um número.
-7. Clique em Lançar.
-8. Clique em OK.
-    * No diário da lista de separação, os materiais consumidos pela ordem de produção são lançados. Antes de lançar o diário, você pode fazer ajustes se houver uma diferença entre a quantidade prevista e a quantidade realmente consumida.  
-9. Clique na guia GridPanel.
-10. Feche a página.
+## <a name="validate-the-picking-list"></a><span data-ttu-id="1ad34-126">Validar a lista de separação</span><span class="sxs-lookup"><span data-stu-id="1ad34-126">Validate the picking list</span></span>
+1. <span data-ttu-id="1ad34-127">No Painel de Ação, clique em Exibir.</span><span class="sxs-lookup"><span data-stu-id="1ad34-127">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="1ad34-128">Clique em Lista de separação.</span><span class="sxs-lookup"><span data-stu-id="1ad34-128">Click Picking list.</span></span>
+3. <span data-ttu-id="1ad34-129">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="1ad34-129">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="1ad34-130">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="1ad34-130">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="1ad34-131">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="1ad34-131">Click Edit.</span></span>
+6. <span data-ttu-id="1ad34-132">No campo Consumo, insira um número.</span><span class="sxs-lookup"><span data-stu-id="1ad34-132">In the Consumption field, enter a number.</span></span>
+7. <span data-ttu-id="1ad34-133">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="1ad34-133">Click Post.</span></span>
+8. <span data-ttu-id="1ad34-134">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="1ad34-134">Click OK.</span></span>
+    * <span data-ttu-id="1ad34-135">No diário da lista de separação, os materiais consumidos pela ordem de produção são lançados.</span><span class="sxs-lookup"><span data-stu-id="1ad34-135">In the picking list journal, the materials consumed by the production order are posted.</span></span> <span data-ttu-id="1ad34-136">Antes de lançar o diário, você pode fazer ajustes se houver uma diferença entre a quantidade prevista e a quantidade realmente consumida.</span><span class="sxs-lookup"><span data-stu-id="1ad34-136">Before posting the journal, you can make adjustments if there is a difference between the estimated quantity and the actual consumed quantity.</span></span>  
+9. <span data-ttu-id="1ad34-137">Clique na guia GridPanel.</span><span class="sxs-lookup"><span data-stu-id="1ad34-137">Click the GridPanel tab.</span></span>
+10. <span data-ttu-id="1ad34-138">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="1ad34-138">Close the page.</span></span>
 
-## <a name="verify-the-route-card-journal"></a>Verificar o diário de cartão de roteiro
-1. No Painel de Ação, clique em Exibir.
-2. Clique em Cartão de roteiro.
-3. Na lista, localize e selecione o PDV desejado.
-4. Na lista, clique no link na linha selecionada.
-5. Clique em Editar.
-6. No campo Horas, insira um número.
-7. Clique em Lançar.
-8. Clique em OK.
-    * No diário de cartão de roteiro, é registrado o tempo gasto em operações individuais. A quantidade de erros e acertos também pode ser informada.  
+## <a name="verify-the-route-card-journal"></a><span data-ttu-id="1ad34-139">Verificar o diário de cartão de roteiro</span><span class="sxs-lookup"><span data-stu-id="1ad34-139">Verify the route card journal</span></span>
+1. <span data-ttu-id="1ad34-140">No Painel de Ação, clique em Exibir.</span><span class="sxs-lookup"><span data-stu-id="1ad34-140">On the Action Pane, click View.</span></span>
+2. <span data-ttu-id="1ad34-141">Clique em Cartão de roteiro.</span><span class="sxs-lookup"><span data-stu-id="1ad34-141">Click Route card.</span></span>
+3. <span data-ttu-id="1ad34-142">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="1ad34-142">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="1ad34-143">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="1ad34-143">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="1ad34-144">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="1ad34-144">Click Edit.</span></span>
+6. <span data-ttu-id="1ad34-145">No campo Horas, insira um número.</span><span class="sxs-lookup"><span data-stu-id="1ad34-145">In the Hours field, enter a number.</span></span>
+7. <span data-ttu-id="1ad34-146">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="1ad34-146">Click Post.</span></span>
+8. <span data-ttu-id="1ad34-147">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="1ad34-147">Click OK.</span></span>
+    * <span data-ttu-id="1ad34-148">No diário de cartão de roteiro, é registrado o tempo gasto em operações individuais.</span><span class="sxs-lookup"><span data-stu-id="1ad34-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="1ad34-149">A quantidade de erros e acertos também pode ser informada.</span><span class="sxs-lookup"><span data-stu-id="1ad34-149">Good and error quantity can also be reported.</span></span>  
 
 

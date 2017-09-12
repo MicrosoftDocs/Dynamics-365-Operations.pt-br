@@ -17,36 +17,36 @@ ms.assetid: 3a7c3d13-8dbc-442d-a281-ac0ebe99ec83
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: mguada
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74ad59504d6bbea0c604e0f0b83e74c915e84019
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 7a5340baad38864388abcfab3235cf459887cba9
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="update-standard-costs-in-a-manufacturing-environment"></a>Atualizar custos padrão em um ambiente de fabricação
+# <a name="update-standard-costs-in-a-manufacturing-environment"></a><span data-ttu-id="9cfae-103">Atualizar custos padrão em um ambiente de fabricação</span><span class="sxs-lookup"><span data-stu-id="9cfae-103">Update standard costs in a manufacturing environment</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo fornece a orientação sobre como atualizar custos padrão em um ambiente de fabricação. 
+<span data-ttu-id="9cfae-104">Este artigo fornece a orientação sobre como atualizar custos padrão em um ambiente de fabricação.</span><span class="sxs-lookup"><span data-stu-id="9cfae-104">This article provides guidance about how to update standard costs in a manufacturing environment.</span></span> 
 
-As atualização podem refletir novos itens, categorias de custo ou fórmulas de cálculo de custo indireto. Também podem refletir correções e alterações de custo. O tipo de atualização afeta as etapas que você deve completar para atualizar os custos padrão, como ilustrado nos seguintes casos:
+<span data-ttu-id="9cfae-105">As atualização podem refletir novos itens, categorias de custo ou fórmulas de cálculo de custo indireto.</span><span class="sxs-lookup"><span data-stu-id="9cfae-105">Updates can reflect new items, cost categories, or indirect cost calculation formulas.</span></span> <span data-ttu-id="9cfae-106">Também podem refletir correções e alterações de custo.</span><span class="sxs-lookup"><span data-stu-id="9cfae-106">They can also reflect corrections and cost changes.</span></span> <span data-ttu-id="9cfae-107">O tipo de atualização afeta as etapas que você deve completar para atualizar os custos padrão, como ilustrado nos seguintes casos:</span><span class="sxs-lookup"><span data-stu-id="9cfae-107">The type of update affects the steps that you must complete to update standard costs, as illustrated in the following cases:</span></span>
 
--   Insira alterações de custo padrão antecipadas para itens comprados e em seguida altere o status dos registros de custo de item para **Ativo** na data apropriada. No entanto, não calcule novamente os custos dos itens fabricados que usam os itens comprados.
--   Insira custos padrão para um novo item comprado, mas não calcule novamente os custos de itens fabricados que têm uma versão de lista de materiais (BOM) que contém o novo item comprado como um componente.
--   Corrija ou altere o custo do item comprado ou altere o grupo de custo atribuído a um item comprado e calcule o custo para todos os itens fabricados que têm uma versão de BOM que contém o item comprado como um componente.
--   Altere o custo para uma categoria de custo e calcule o custo para todos os itens fabricados que têm uma versão de roteiro que contém operações de roteiro as quais usam a categoria de custo.
--   Altere as categorias de custo atribuídas a operações de roteiro ou o grupo de custos atribuído a categorias de custo. Altere o custo para uma categoria de custo e calcule o custo para todos os itens fabricados que têm uma versão de roteiro que contém operações de roteiro as quais usam a categoria de custo.
--   Altere uma fórmula de cálculo de custo indireto e calcule o custo para todos os itens fabricados afetados pela alteração.
--   Altere ou adicione um site de fabricação para um item fabricado e calcule o custo de fabricação do item para o site.
--   Calcule ou recalcular o custo para um item fabricado e calcule novamente o custo para todos os itens fabricados que têm uma versão de BOM que contém o item fabricado como um componente.
--   Calcule os custos para um novo item fabricado com base na BOM aprovada e ativa, assim como nas informações de roteiro.
+-   <span data-ttu-id="9cfae-108">Insira alterações de custo padrão antecipadas para itens comprados e em seguida altere o status dos registros de custo de item para **Ativo** na data apropriada.</span><span class="sxs-lookup"><span data-stu-id="9cfae-108">Enter expected standard cost changes for purchased items, and then change the status of the item cost records to **Active** on the appropriate date.</span></span> <span data-ttu-id="9cfae-109">No entanto, não calcule novamente os custos dos itens fabricados que usam os itens comprados.</span><span class="sxs-lookup"><span data-stu-id="9cfae-109">However, don't recalculate the costs of manufactured items that use the purchased items.</span></span>
+-   <span data-ttu-id="9cfae-110">Insira custos padrão para um novo item comprado, mas não calcule novamente os custos de itens fabricados que têm uma versão de lista de materiais (BOM) que contém o novo item comprado como um componente.</span><span class="sxs-lookup"><span data-stu-id="9cfae-110">Enter standard costs for a new purchased item, but don't recalculate the costs of manufactured items that have a bill of materials (BOM) version that contains the new purchased item as a component.</span></span>
+-   <span data-ttu-id="9cfae-111">Corrija ou altere o custo do item comprado ou altere o grupo de custo atribuído a um item comprado e calcule o custo para todos os itens fabricados que têm uma versão de BOM que contém o item comprado como um componente.</span><span class="sxs-lookup"><span data-stu-id="9cfae-111">Correct or change the cost of a purchased item, or change the cost group that is assigned to a purchased item, and calculate the cost for all manufactured items that have a BOM version that contains the purchased item as a component.</span></span>
+-   <span data-ttu-id="9cfae-112">Altere o custo para uma categoria de custo e calcule o custo para todos os itens fabricados que têm uma versão de roteiro que contém operações de roteiro as quais usam a categoria de custo.</span><span class="sxs-lookup"><span data-stu-id="9cfae-112">Change the cost for a cost category, and calculate the cost for all manufactured items that have a route version that contains routing operations that use the cost category.</span></span>
+-   <span data-ttu-id="9cfae-113">Altere as categorias de custo atribuídas a operações de roteiro ou o grupo de custos atribuído a categorias de custo.</span><span class="sxs-lookup"><span data-stu-id="9cfae-113">Change the cost categories that are assigned to routing operations or the cost group that is assigned to cost categories.</span></span> <span data-ttu-id="9cfae-114">Altere o custo para uma categoria de custo e calcule o custo para todos os itens fabricados que têm uma versão de roteiro que contém operações de roteiro as quais usam a categoria de custo.</span><span class="sxs-lookup"><span data-stu-id="9cfae-114">Then calculate the cost for all manufactured items that have a route version that contains routing operations that use the cost category.</span></span>
+-   <span data-ttu-id="9cfae-115">Altere uma fórmula de cálculo de custo indireto e calcule o custo para todos os itens fabricados afetados pela alteração.</span><span class="sxs-lookup"><span data-stu-id="9cfae-115">Change an indirect cost calculation formula, and calculate the cost for all manufactured items that are affected by the change.</span></span>
+-   <span data-ttu-id="9cfae-116">Altere ou adicione um site de fabricação para um item fabricado e calcule o custo de fabricação do item para o site.</span><span class="sxs-lookup"><span data-stu-id="9cfae-116">Change or add a manufacturing site for a manufactured item, and calculate the item's manufactured cost for the site.</span></span>
+-   <span data-ttu-id="9cfae-117">Calcule ou recalcular o custo para um item fabricado e calcule novamente o custo para todos os itens fabricados que têm uma versão de BOM que contém o item fabricado como um componente.</span><span class="sxs-lookup"><span data-stu-id="9cfae-117">Calculate, or recalculate, the cost for a manufactured item, and recalculate the cost for all manufactured items that have a BOM version that contains the manufactured item as a component.</span></span>
+-   <span data-ttu-id="9cfae-118">Calcule os custos para um novo item fabricado com base na BOM aprovada e ativa, assim como nas informações de roteiro.</span><span class="sxs-lookup"><span data-stu-id="9cfae-118">Calculate costs for a new manufactured item, based on its defined, approved, and active BOM and route information.</span></span>
 
-Cada caso requer considerações sobre como atualizar custos padrão.
+<span data-ttu-id="9cfae-119">Cada caso requer considerações sobre como atualizar custos padrão.</span><span class="sxs-lookup"><span data-stu-id="9cfae-119">Each case requires careful consideration about how to update standard costs.</span></span>
 
 
 

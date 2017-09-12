@@ -16,73 +16,73 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: df6d8620316cf0dcde457b06235d9e041a51e100
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 331f516f3483acd79be4ef7b95b53adcfbef1ae2
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-request-for-quotation"></a>Criar uma solicitação de cotação
+# <a name="create-a-request-for-quotation"></a><span data-ttu-id="6fd75-103">Criar uma solicitação de cotação</span><span class="sxs-lookup"><span data-stu-id="6fd75-103">Create a request for quotation</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento mostra como criar uma solicitação de cotação. Isso seria feito normalmente por um agente de compras. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados. Você precisa ter tipos de solicitação configurados antes de começar. Depois de concluir essa tarefa e você tiver criado e enviado uma RFQ, você pode digitar as respostas por fornecedor, compará-las e premiar o contrato.
+<span data-ttu-id="6fd75-104">Este procedimento mostra como criar uma solicitação de cotação.</span><span class="sxs-lookup"><span data-stu-id="6fd75-104">This procedure shows you how to create a request for quotation.</span></span> <span data-ttu-id="6fd75-105">Isso seria feito normalmente por um agente de compras.</span><span class="sxs-lookup"><span data-stu-id="6fd75-105">This would typically be done by a purchasing agent.</span></span> <span data-ttu-id="6fd75-106">Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.</span><span class="sxs-lookup"><span data-stu-id="6fd75-106">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="6fd75-107">Você precisa ter tipos de solicitação configurados antes de começar.</span><span class="sxs-lookup"><span data-stu-id="6fd75-107">You need to have set up solicitation types before you start.</span></span> <span data-ttu-id="6fd75-108">Depois de concluir essa tarefa e você tiver criado e enviado uma RFQ, você pode digitar as respostas por fornecedor, compará-las e premiar o contrato.</span><span class="sxs-lookup"><span data-stu-id="6fd75-108">Once you’ve completed this task and you’ve created and sent an RFQ you can then enter the replies per vendor, compare them, and award the contract.</span></span>
 
 
-## <a name="prepare-a-new-rfq"></a>Preparar uma nova RFQ
-1. Vá para Aquisição e fornecimento > Solicitações de cotações > Todas as solicitações de cotações.
-2. Clique em Novo.
-    * Os seguintes tipos de compra estão disponíveis: Ordem de compra (este é o padrão): um documento que confirma a oferta para comprar produtos, ou a aceitação de uma oferta para vender produtos em troca de pagamento. Requisição de compra: esse tipo é selecionado automaticamente ao criar uma RFQ diretamente de uma requisição de compra. Se você selecionar essa opção manualmente, receberá uma mensagem de erro. Contrato de compra: um contrato para comprar uma quantidade ou um valor específico de produtos ao longo do tempo. Se você selecionar esta opção, selecione o intervalo de datas que se aplica ao contrato de compra.  
-3. No campo Título do documento, digite um valor.
-4. No campo Tipo de solicitação, insira ou selecione um valor.
-    * Se um método de pontuação estiver associado ao tipo de solicitação, esse será o método de pontuação padrão para a RFQ que você estiver criando. Será possível alterar o método de pontuação posteriormente.  
-    * No campo Data de entrega, insira uma data.  
-    * Selecione a data na qual você deseja receber os itens.  
-    * No campo Data de vencimento e hora, insira uma data e hora.  
-    * Especifique a data e a hora em que os fornecedores deverão responder à RFQ.  
-5. No campo Depósito, insira ou selecione um valor.
-    * O endereço de entrega usará como padrão o endereço do depósito.  
-6. Clique em OK.
+## <a name="prepare-a-new-rfq"></a><span data-ttu-id="6fd75-109">Preparar uma nova RFQ</span><span class="sxs-lookup"><span data-stu-id="6fd75-109">Prepare a new RFQ</span></span>
+1. <span data-ttu-id="6fd75-110">Vá para Aquisição e fornecimento > Solicitações de cotações > Todas as solicitações de cotações.</span><span class="sxs-lookup"><span data-stu-id="6fd75-110">Go to Procurement and sourcing > Requests for quotations > All requests for quotations.</span></span>
+2. <span data-ttu-id="6fd75-111">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="6fd75-111">Click New.</span></span>
+    * <span data-ttu-id="6fd75-112">Os seguintes tipos de compra estão disponíveis: Ordem de compra (este é o padrão): um documento que confirma a oferta para comprar produtos, ou a aceitação de uma oferta para vender produtos em troca de pagamento.</span><span class="sxs-lookup"><span data-stu-id="6fd75-112">The following purchase types are available: Purchase order (this is the default): a document that confirms the offer to buy products, or the acceptance of an offer to sell products in exchange for payment.</span></span> <span data-ttu-id="6fd75-113">Requisição de compra: esse tipo é selecionado automaticamente ao criar uma RFQ diretamente de uma requisição de compra.</span><span class="sxs-lookup"><span data-stu-id="6fd75-113">Purchase requisition: this type is automatically selected if you create an RFQ directly from a purchase requisition.</span></span> <span data-ttu-id="6fd75-114">Se você selecionar essa opção manualmente, receberá uma mensagem de erro.</span><span class="sxs-lookup"><span data-stu-id="6fd75-114">If you manually select this option, you’ll get an error.</span></span> <span data-ttu-id="6fd75-115">Contrato de compra: um contrato para comprar uma quantidade ou um valor específico de produtos ao longo do tempo.</span><span class="sxs-lookup"><span data-stu-id="6fd75-115">Purchase agreement: an agreement to purchase a specific quantity or value of product over time.</span></span> <span data-ttu-id="6fd75-116">Se você selecionar esta opção, selecione o intervalo de datas que se aplica ao contrato de compra.</span><span class="sxs-lookup"><span data-stu-id="6fd75-116">If you select this option, you must select the date range that applies to the purchase agreement.</span></span>  
+3. <span data-ttu-id="6fd75-117">No campo Título do documento, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="6fd75-117">In the Document title field, type a value.</span></span>
+4. <span data-ttu-id="6fd75-118">No campo Tipo de solicitação, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6fd75-118">In the Solicitation type field, enter or select a value.</span></span>
+    * <span data-ttu-id="6fd75-119">Se um método de pontuação estiver associado ao tipo de solicitação, esse será o método de pontuação padrão para a RFQ que você estiver criando.</span><span class="sxs-lookup"><span data-stu-id="6fd75-119">If a scoring method is associated with the solicitation type, this will be the default scoring method for the RFQ that you’re creating.</span></span> <span data-ttu-id="6fd75-120">Será possível alterar o método de pontuação posteriormente.</span><span class="sxs-lookup"><span data-stu-id="6fd75-120">It is possible to change the scoring method later.</span></span>  
+    * <span data-ttu-id="6fd75-121">No campo Data de entrega, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="6fd75-121">In the Delivery date field, enter a date.</span></span>  
+    * <span data-ttu-id="6fd75-122">Selecione a data na qual você deseja receber os itens.</span><span class="sxs-lookup"><span data-stu-id="6fd75-122">Select the date by which you want to receive the items.</span></span>  
+    * <span data-ttu-id="6fd75-123">No campo Data de vencimento e hora, insira uma data e hora.</span><span class="sxs-lookup"><span data-stu-id="6fd75-123">In the Expiration date and time field, enter a date and time.</span></span>  
+    * <span data-ttu-id="6fd75-124">Especifique a data e a hora em que os fornecedores deverão responder à RFQ.</span><span class="sxs-lookup"><span data-stu-id="6fd75-124">Specify the date and time by which vendors must respond to the RFQ.</span></span>  
+5. <span data-ttu-id="6fd75-125">No campo Depósito, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6fd75-125">In the Warehouse field, enter or select a value.</span></span>
+    * <span data-ttu-id="6fd75-126">O endereço de entrega usará como padrão o endereço do depósito.</span><span class="sxs-lookup"><span data-stu-id="6fd75-126">The delivery address will default to the warehouse address.</span></span>  
+6. <span data-ttu-id="6fd75-127">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="6fd75-127">Click OK.</span></span>
 
-## <a name="add-lines"></a>Adicionar linhas
-    * Depois de ter especificado as informações básicas sobre sua RFQ, você especificará os bens ou serviços para os quais deseja que os fornecedores façam ofertas. Item é o tipo de linha padrão.   
-1. No campo Número do item, insira ou selecione um valor.
-    * Se você estiver usando USMF, é possível selecionar T0020.  
-2. No campo Quantidade, insira um número.
-3. Clique em Adicionar linha.
-4. No campo Tipo de linha, selecione 'Categoria'.
-    * Você pode usar o tipo de linha de categoria para criar solicitação de cotação por mercadorias ou serviços não provenientes do estoque. Você precisa depois selecionar o tipo de mercadorias ou serviços de uma hierarquia das categorias de aquisição.  
-5. No campo Categoria de compras, insira ou selecione um valor.
-6. No campo Nome do produto, digite um valor.
-7. No campo Quantidade, insira um número.
-8. No campo Unidade, insira ou selecione um valor.
+## <a name="add-lines"></a><span data-ttu-id="6fd75-128">Adicionar linhas</span><span class="sxs-lookup"><span data-stu-id="6fd75-128">Add lines</span></span>
+    * <span data-ttu-id="6fd75-129">Depois de ter especificado as informações básicas sobre sua RFQ, você especificará os bens ou serviços para os quais deseja que os fornecedores façam ofertas.</span><span class="sxs-lookup"><span data-stu-id="6fd75-129">After you’ve specified the basic information about your RFQ, you specify the goods or services that you want vendors to bid on.</span></span> <span data-ttu-id="6fd75-130">Item é o tipo de linha padrão.</span><span class="sxs-lookup"><span data-stu-id="6fd75-130">Item is the default line type.</span></span>   
+1. <span data-ttu-id="6fd75-131">No campo Número do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6fd75-131">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="6fd75-132">Se você estiver usando USMF, é possível selecionar T0020.</span><span class="sxs-lookup"><span data-stu-id="6fd75-132">If you're using USMF, you can select T0020.</span></span>  
+2. <span data-ttu-id="6fd75-133">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="6fd75-133">In the Quantity field, enter a number.</span></span>
+3. <span data-ttu-id="6fd75-134">Clique em Adicionar linha.</span><span class="sxs-lookup"><span data-stu-id="6fd75-134">Click Add line.</span></span>
+4. <span data-ttu-id="6fd75-135">No campo Tipo de linha, selecione 'Categoria'.</span><span class="sxs-lookup"><span data-stu-id="6fd75-135">In the Line type field, select 'Category'.</span></span>
+    * <span data-ttu-id="6fd75-136">Você pode usar o tipo de linha de categoria para criar solicitação de cotação por mercadorias ou serviços não provenientes do estoque.</span><span class="sxs-lookup"><span data-stu-id="6fd75-136">You can use the Category line type to create RFQs for non-inventory goods or services.</span></span> <span data-ttu-id="6fd75-137">Você precisa depois selecionar o tipo de mercadorias ou serviços de uma hierarquia das categorias de aquisição.</span><span class="sxs-lookup"><span data-stu-id="6fd75-137">You then need to select the type of goods or services from a hierarchy of procurement categories.</span></span>  
+5. <span data-ttu-id="6fd75-138">No campo Categoria de compras, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6fd75-138">In the Procurement category field, enter or select a value.</span></span>
+6. <span data-ttu-id="6fd75-139">No campo Nome do produto, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="6fd75-139">In the Product name field, type a value.</span></span>
+7. <span data-ttu-id="6fd75-140">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="6fd75-140">In the Quantity field, enter a number.</span></span>
+8. <span data-ttu-id="6fd75-141">No campo Unidade, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6fd75-141">In the Unit field, enter or select a value.</span></span>
 
-## <a name="add-vendors"></a>Adicionar fornecedores
-1. Clique no Cabeçalho para alterar a exibição das linhas da exibição do cabeçalho. 
-2. Expandir a seção Fornecedor.
-3. Clique em Adicionar fornecedores automaticamente.
-    * Você poderá adicionar fornecedores à RFQ automaticamente, com base na categoria de compras dos itens solicitados. Se não houver um fornecedor aprovado para as categorias incluídas nas linhas, você pode adicionar fornecedores manualmente.  
-4. Clique em Adicionar.
-5. No campo Conta de fornecedor, insira ou selecione um valor.
-6. Clique em Adicionar.
-7. No campo Conta de fornecedor, insira ou selecione um valor.
-    * Depois de selecionar um fornecedor, o status é Criado. Isso significa que as informações do fornecedor foram salvas na RFQ, mas você não enviou a RFQ para o fornecedor. Você pode adicionar um fornecedor a uma RFQ independentemente do status do fornecedor.  
+## <a name="add-vendors"></a><span data-ttu-id="6fd75-142">Adicionar fornecedores</span><span class="sxs-lookup"><span data-stu-id="6fd75-142">Add vendors</span></span>
+1. <span data-ttu-id="6fd75-143">Clique no Cabeçalho para alterar a exibição das linhas da exibição do cabeçalho.</span><span class="sxs-lookup"><span data-stu-id="6fd75-143">Click Header to change from the Lines view to the Header view.</span></span> 
+2. <span data-ttu-id="6fd75-144">Expandir a seção Fornecedor.</span><span class="sxs-lookup"><span data-stu-id="6fd75-144">Expand the Vendor section.</span></span>
+3. <span data-ttu-id="6fd75-145">Clique em Adicionar fornecedores automaticamente.</span><span class="sxs-lookup"><span data-stu-id="6fd75-145">Click Auto-add vendors.</span></span>
+    * <span data-ttu-id="6fd75-146">Você poderá adicionar fornecedores à RFQ automaticamente, com base na categoria de compras dos itens solicitados.</span><span class="sxs-lookup"><span data-stu-id="6fd75-146">You can add vendors to the RFQ automatically, based on the procurement category of the items requested.</span></span> <span data-ttu-id="6fd75-147">Se não houver um fornecedor aprovado para as categorias incluídas nas linhas, você pode adicionar fornecedores manualmente.</span><span class="sxs-lookup"><span data-stu-id="6fd75-147">If there are no vendors approved for the categories included in the lines you can add vendors manually.</span></span>  
+4. <span data-ttu-id="6fd75-148">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="6fd75-148">Click Add.</span></span>
+5. <span data-ttu-id="6fd75-149">No campo Conta de fornecedor, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6fd75-149">In the Vendor account field, enter or select a value.</span></span>
+6. <span data-ttu-id="6fd75-150">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="6fd75-150">Click Add.</span></span>
+7. <span data-ttu-id="6fd75-151">No campo Conta de fornecedor, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="6fd75-151">In the Vendor account field, enter or select a value.</span></span>
+    * <span data-ttu-id="6fd75-152">Depois de selecionar um fornecedor, o status é Criado.</span><span class="sxs-lookup"><span data-stu-id="6fd75-152">Once you’ve selected a vendor, the status is Created.</span></span> <span data-ttu-id="6fd75-153">Isso significa que as informações do fornecedor foram salvas na RFQ, mas você não enviou a RFQ para o fornecedor.</span><span class="sxs-lookup"><span data-stu-id="6fd75-153">This means that the vendor information has been saved in the RFQ, but you have not sent the RFQ to the vendor.</span></span> <span data-ttu-id="6fd75-154">Você pode adicionar um fornecedor a uma RFQ independentemente do status do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="6fd75-154">You can add a vendor to an RFQ regardless of the vendor status.</span></span>  
 
-## <a name="send-the-rfq-to-vendors"></a>Envie a RFQ aos fornecedores
-1. Clique em Enviar.
-    * Na página Enviando solicitação de cotação, verifique se os fornecedores na lista são aqueles que você deseja que recebem a RFQ.  
-2. Clique em Imprimir.
-    * Esta caixa de diálogo permite que você imprima a RFQ. Se você optar por imprimir uma folha de respostas, o conteúdo desta é definido nos parâmetros de aquisição e de fornecimento. Para escolher como imprimir folhas de respostas, depois que você abrir a caixa de diálogo de impressão, clique em Opções avançadas de impressão. Uma RFQ será impressa para cada fornecedor, contendo as linhas que têm o status de criado ou de enviado. As linhas canceladas e as linhas com respostas registradas não serão impressas.   
-3. Clique em Cancelar.
-4. Clique em OK.
-5. Feche a página.
-6. Feche a página.
+## <a name="send-the-rfq-to-vendors"></a><span data-ttu-id="6fd75-155">Envie a RFQ aos fornecedores</span><span class="sxs-lookup"><span data-stu-id="6fd75-155">Send the RFQ to vendors</span></span>
+1. <span data-ttu-id="6fd75-156">Clique em Enviar.</span><span class="sxs-lookup"><span data-stu-id="6fd75-156">Click Send.</span></span>
+    * <span data-ttu-id="6fd75-157">Na página Enviando solicitação de cotação, verifique se os fornecedores na lista são aqueles que você deseja que recebem a RFQ.</span><span class="sxs-lookup"><span data-stu-id="6fd75-157">In the Sending request for quotation page, check that the vendors in the list are the ones that you want to receive the RFQ.</span></span>  
+2. <span data-ttu-id="6fd75-158">Clique em Imprimir.</span><span class="sxs-lookup"><span data-stu-id="6fd75-158">Click Print.</span></span>
+    * <span data-ttu-id="6fd75-159">Esta caixa de diálogo permite que você imprima a RFQ.</span><span class="sxs-lookup"><span data-stu-id="6fd75-159">This dialog allows you to print the RFQ.</span></span> <span data-ttu-id="6fd75-160">Se você optar por imprimir uma folha de respostas, o conteúdo desta é definido nos parâmetros de aquisição e de fornecimento.</span><span class="sxs-lookup"><span data-stu-id="6fd75-160">If you choose to print a reply sheet, the contents of this are defined in Procurement and Sourcing parameters.</span></span> <span data-ttu-id="6fd75-161">Para escolher como imprimir folhas de respostas, depois que você abrir a caixa de diálogo de impressão, clique em Opções avançadas de impressão.</span><span class="sxs-lookup"><span data-stu-id="6fd75-161">To choose how to print reply sheets, once you’ve opened the Print dialog, click Advanced printing options.</span></span> <span data-ttu-id="6fd75-162">Uma RFQ será impressa para cada fornecedor, contendo as linhas que têm o status de criado ou de enviado.</span><span class="sxs-lookup"><span data-stu-id="6fd75-162">One RFQ will be printed for each vendor containing the lines that have the status of Created or Sent.</span></span> <span data-ttu-id="6fd75-163">As linhas canceladas e as linhas com respostas registradas não serão impressas.</span><span class="sxs-lookup"><span data-stu-id="6fd75-163">Canceled lines and lines with registered replies will not be printed.</span></span>   
+3. <span data-ttu-id="6fd75-164">Clique em Cancelar.</span><span class="sxs-lookup"><span data-stu-id="6fd75-164">Click Cancel.</span></span>
+4. <span data-ttu-id="6fd75-165">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="6fd75-165">Click OK.</span></span>
+5. <span data-ttu-id="6fd75-166">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="6fd75-166">Close the page.</span></span>
+6. <span data-ttu-id="6fd75-167">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="6fd75-167">Close the page.</span></span>
 
-## <a name="view-the-rfq-journal"></a>Exibir o diário da RFQ
-1. Vá para Aquisição e fornecimento > Solicitações de cotação > Acompanhamento de solicitações de cotação > Diários de solicitações de cotação.
-2. Clique em Visualizar/Imprimir.
-3. Clique em Exibição original.
-4. Feche a página.
-5. Feche a página.
+## <a name="view-the-rfq-journal"></a><span data-ttu-id="6fd75-168">Exibir o diário da RFQ</span><span class="sxs-lookup"><span data-stu-id="6fd75-168">View the RFQ journal</span></span>
+1. <span data-ttu-id="6fd75-169">Vá para Aquisição e fornecimento > Solicitações de cotação > Acompanhamento de solicitações de cotação > Diários de solicitações de cotação.</span><span class="sxs-lookup"><span data-stu-id="6fd75-169">Go to Procurement and sourcing > Requests for quotations > Request for quotations follow-up > Request for quotation journals.</span></span>
+2. <span data-ttu-id="6fd75-170">Clique em Visualizar/Imprimir.</span><span class="sxs-lookup"><span data-stu-id="6fd75-170">Click Preview/Print.</span></span>
+3. <span data-ttu-id="6fd75-171">Clique em Exibição original.</span><span class="sxs-lookup"><span data-stu-id="6fd75-171">Click Original preview.</span></span>
+4. <span data-ttu-id="6fd75-172">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="6fd75-172">Close the page.</span></span>
+5. <span data-ttu-id="6fd75-173">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="6fd75-173">Close the page.</span></span>
 
 

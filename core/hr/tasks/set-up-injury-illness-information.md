@@ -16,52 +16,52 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: f1ced20c1d8ca9589fb64c8e360575bad5b8f64a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 60f1c836400c2da39cfce7a5024075634a0b54e0
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-injury-and-illness-information"></a>Configurar informações de ferimentos e doenças
+# <a name="set-up-injury-and-illness-information"></a><span data-ttu-id="4d76a-103">Configurar informações de ferimentos e doenças</span><span class="sxs-lookup"><span data-stu-id="4d76a-103">Set up injury and illness information</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Os empregadores precisam saber quando os funcionários se ferem ou ficam doentes devido a perigos no local de trabalho. Você pode usar a página de ferimento e doenças para configurar as informações que auxiliam no relato de ferimentos ou doenças no local de trabalho. Você pode configurar tipos de ferimentos e doenças, incluindo tipos de tratamento, custos e resultados. A empresa de dados demo usada para criar este procedimento é USMF.
+<span data-ttu-id="4d76a-104">Os empregadores precisam saber quando os funcionários se ferem ou ficam doentes devido a perigos no local de trabalho.</span><span class="sxs-lookup"><span data-stu-id="4d76a-104">Employers need to know when their employees suffer injuries or illness resulting from hazards in the workplace.</span></span> <span data-ttu-id="4d76a-105">Você pode usar a página de ferimento e doenças para configurar as informações que auxiliam no relato de ferimentos ou doenças no local de trabalho.</span><span class="sxs-lookup"><span data-stu-id="4d76a-105">You can use the injury and illness page to set up information that facilitates reporting work-place injuries or illnesses.</span></span> <span data-ttu-id="4d76a-106">Você pode configurar tipos de ferimentos e doenças, incluindo tipos de tratamento, custos e resultados.</span><span class="sxs-lookup"><span data-stu-id="4d76a-106">You can set up types of injuries and illnesses, including types of treatments, costs, and outcomes.</span></span> <span data-ttu-id="4d76a-107">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="4d76a-107">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Vá para Recursos humanos > Trabalhadores > Lesão e doença > Definição de lesão e doença.
-2. Clique em Novo.
-3. No campo do tipo de ferimento ou doença, digite um valor.
-    * Exemplo: Fratura  
-4. No campo Descrição, digite um valor.
-    * Exemplo: Fratura do osso  
-5. Clique na guia das partes do Corpo.
-6. Clique em Novo.
-7. No campo Parte do corpo, digite um valor.
-    * Exemplo: Pulso  
-8. No campo Descrição, digite um valor.
-    * Exemplo: Pulso  
-9. Clique na guia dos tipos de Tratamento.
-10. Clique em Novo.
-11. No campo Tipo de tratamento, digite um valor.
-    * Exemplo: Tala  
-12. No campo Descrição, digite um valor.
-    * Exemplo: Colocar uma tala sobre  
-13. Clique na guia dos tipos de Custo.
-14. Clique em Novo.
-15. No campo Tipo de custo, digite um valor.
-    * Exemplo: Raios X  
-16. No campo Descrição, digite um valor.
-    * Exemplo: Raios X  
-17. Clique na guia dos tipos de Desfecho.
-18. Clique em Novo.
-19. No campo tipo de Desfecho, digite um valor.
-    * Exemplo: Terapia  
-20. No campo Descrição, digite um valor.
-    * Exemplo: Fisioterapia  
-21. Clique na guia dos níveis de Gravidade.
-    * Níveis de gravidade personalizáveis podem ser criados. Por exemplo: A gravidade 1 pode indicar um ferimento menor, e a gravidade 3 pode indicar um ferimento grave.  
-22. Clique na guia das agências de Informações.
-    * As agências de informações são as agências ao qual o incidente precisa ser informado. Marque a caixa de seleção padrão para a agência que é a agência padrão para relatar lesão e doença.  
-23. Clique em Salvar.
+1. <span data-ttu-id="4d76a-108">Vá para Recursos humanos > Trabalhadores > Lesão e doença > Definição de lesão e doença.</span><span class="sxs-lookup"><span data-stu-id="4d76a-108">Go to Human resources > Workers > Injury and illness > Injury and illness setup.</span></span>
+2. <span data-ttu-id="4d76a-109">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="4d76a-109">Click New.</span></span>
+3. <span data-ttu-id="4d76a-110">No campo do tipo de ferimento ou doença, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4d76a-110">In the Injury or illness type field, type a value.</span></span>
+    * <span data-ttu-id="4d76a-111">Exemplo: Fratura</span><span class="sxs-lookup"><span data-stu-id="4d76a-111">Example: Fracture</span></span>  
+4. <span data-ttu-id="4d76a-112">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4d76a-112">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="4d76a-113">Exemplo: Fratura do osso</span><span class="sxs-lookup"><span data-stu-id="4d76a-113">Example: Bone fracture</span></span>  
+5. <span data-ttu-id="4d76a-114">Clique na guia das partes do Corpo.</span><span class="sxs-lookup"><span data-stu-id="4d76a-114">Click the Body parts tab.</span></span>
+6. <span data-ttu-id="4d76a-115">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="4d76a-115">Click New.</span></span>
+7. <span data-ttu-id="4d76a-116">No campo Parte do corpo, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4d76a-116">In the Body part field, type a value.</span></span>
+    * <span data-ttu-id="4d76a-117">Exemplo: Pulso</span><span class="sxs-lookup"><span data-stu-id="4d76a-117">Example: Wrist</span></span>  
+8. <span data-ttu-id="4d76a-118">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4d76a-118">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="4d76a-119">Exemplo: Pulso</span><span class="sxs-lookup"><span data-stu-id="4d76a-119">Example: Wrist</span></span>  
+9. <span data-ttu-id="4d76a-120">Clique na guia dos tipos de Tratamento.</span><span class="sxs-lookup"><span data-stu-id="4d76a-120">Click the Treatment types tab.</span></span>
+10. <span data-ttu-id="4d76a-121">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="4d76a-121">Click New.</span></span>
+11. <span data-ttu-id="4d76a-122">No campo Tipo de tratamento, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4d76a-122">In the Treatment type field, type a value.</span></span>
+    * <span data-ttu-id="4d76a-123">Exemplo: Tala</span><span class="sxs-lookup"><span data-stu-id="4d76a-123">Example: Splint</span></span>  
+12. <span data-ttu-id="4d76a-124">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4d76a-124">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="4d76a-125">Exemplo: Colocar uma tala sobre</span><span class="sxs-lookup"><span data-stu-id="4d76a-125">Example: Put a splint on</span></span>  
+13. <span data-ttu-id="4d76a-126">Clique na guia dos tipos de Custo.</span><span class="sxs-lookup"><span data-stu-id="4d76a-126">Click the Cost types tab.</span></span>
+14. <span data-ttu-id="4d76a-127">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="4d76a-127">Click New.</span></span>
+15. <span data-ttu-id="4d76a-128">No campo Tipo de custo, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4d76a-128">In the Cost type field, type a value.</span></span>
+    * <span data-ttu-id="4d76a-129">Exemplo: Raios X</span><span class="sxs-lookup"><span data-stu-id="4d76a-129">Example: X-rays</span></span>  
+16. <span data-ttu-id="4d76a-130">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4d76a-130">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="4d76a-131">Exemplo: Raios X</span><span class="sxs-lookup"><span data-stu-id="4d76a-131">Example: X-rays</span></span>  
+17. <span data-ttu-id="4d76a-132">Clique na guia dos tipos de Desfecho.</span><span class="sxs-lookup"><span data-stu-id="4d76a-132">Click the Outcome types tab.</span></span>
+18. <span data-ttu-id="4d76a-133">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="4d76a-133">Click New.</span></span>
+19. <span data-ttu-id="4d76a-134">No campo tipo de Desfecho, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4d76a-134">In the Outcome type field, type a value.</span></span>
+    * <span data-ttu-id="4d76a-135">Exemplo: Terapia</span><span class="sxs-lookup"><span data-stu-id="4d76a-135">Example: Therapy</span></span>  
+20. <span data-ttu-id="4d76a-136">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4d76a-136">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="4d76a-137">Exemplo: Fisioterapia</span><span class="sxs-lookup"><span data-stu-id="4d76a-137">Example: Physical therapy</span></span>  
+21. <span data-ttu-id="4d76a-138">Clique na guia dos níveis de Gravidade.</span><span class="sxs-lookup"><span data-stu-id="4d76a-138">Click the Severity levels tab.</span></span>
+    * <span data-ttu-id="4d76a-139">Níveis de gravidade personalizáveis podem ser criados.</span><span class="sxs-lookup"><span data-stu-id="4d76a-139">Customizable severity levels can be created.</span></span> <span data-ttu-id="4d76a-140">Por exemplo: A gravidade 1 pode indicar um ferimento menor, e a gravidade 3 pode indicar um ferimento grave.</span><span class="sxs-lookup"><span data-stu-id="4d76a-140">For example: Severity 1 might mean a minor injury, where severity 3 might indicate a severe injury.</span></span>  
+22. <span data-ttu-id="4d76a-141">Clique na guia das agências de Informações.</span><span class="sxs-lookup"><span data-stu-id="4d76a-141">Click the Reporting agencies tab.</span></span>
+    * <span data-ttu-id="4d76a-142">As agências de informações são as agências ao qual o incidente precisa ser informado.</span><span class="sxs-lookup"><span data-stu-id="4d76a-142">Reporting agencies are the agencies that the incident needs to be reported to.</span></span> <span data-ttu-id="4d76a-143">Marque a caixa de seleção padrão para a agência que é a agência padrão para relatar lesão e doença.</span><span class="sxs-lookup"><span data-stu-id="4d76a-143">Select the default check box for the agency that is the default agency for reporting injury and illnesses to.</span></span>  
+23. <span data-ttu-id="4d76a-144">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="4d76a-144">Click Save.</span></span>
 
 

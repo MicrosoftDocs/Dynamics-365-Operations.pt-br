@@ -16,64 +16,64 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 19d053a0bdbdcc764b3361fe5a326e8c68cdc682
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: df844ba3834972441daa61899294b3e95cac96c1
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-procurement-catalog"></a>Criar um catálogo de compras
+# <a name="create-a-procurement-catalog"></a><span data-ttu-id="ce653-103">Criar um catálogo de compras</span><span class="sxs-lookup"><span data-stu-id="ce653-103">Create a procurement catalog</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este guia mostra como criar um catálogo de compras. Essa tarefa é tipicamente realizada por um profissional de aquisição. Você também aprenderá como os empregados podem usar o catálogo quando criam uma requisição. Antes de criar um catálogo, deve haver uma hierarquia da categoria da obtenção em seu sistema. A hierarquia é herdada pelo catálogo novo, junto com todos os produtos que estão na hierarquia. Você pode usar este guia na empresa USMF dos dados do programa demonstrativo onde a hierarquia da categoria da obtenção está disponível, assim como os exemplos usados nas etapas de procedimento.
+<span data-ttu-id="ce653-104">Este guia mostra como criar um catálogo de compras.</span><span class="sxs-lookup"><span data-stu-id="ce653-104">This guide shows you how to create a procurement catalog.</span></span> <span data-ttu-id="ce653-105">Essa tarefa é tipicamente realizada por um profissional de aquisição.</span><span class="sxs-lookup"><span data-stu-id="ce653-105">This task would typically be carried out by a procurement professional.</span></span> <span data-ttu-id="ce653-106">Você também aprenderá como os empregados podem usar o catálogo quando criam uma requisição.</span><span class="sxs-lookup"><span data-stu-id="ce653-106">You will also learn how employees can use the catalog when they create a requisition.</span></span> <span data-ttu-id="ce653-107">Antes de criar um catálogo, deve haver uma hierarquia da categoria da obtenção em seu sistema.</span><span class="sxs-lookup"><span data-stu-id="ce653-107">Before you can create a catalog, there must be a procurement category hierarchy in your system.</span></span> <span data-ttu-id="ce653-108">A hierarquia é herdada pelo catálogo novo, junto com todos os produtos que estão na hierarquia.</span><span class="sxs-lookup"><span data-stu-id="ce653-108">The hierarchy is inherited by the new catalog, along with all the products that are in the hierarchy.</span></span> <span data-ttu-id="ce653-109">Você pode usar este guia na empresa USMF dos dados do programa demonstrativo onde a hierarquia da categoria da obtenção está disponível, assim como os exemplos usados nas etapas de procedimento.</span><span class="sxs-lookup"><span data-stu-id="ce653-109">You can use this guide in demo data company USMF where the procurement category hierarchy is available, as well as the examples used in the procedure steps.</span></span>
 
 
-## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a>Assegure-se de que uma hierarquia da categoria da obtenção exista
-1. Vá para Aquisição e fornecimento > Categorias de aquisição.
-    * Uma hierarquia da categoria da obtenção está disponível na empresa dos dados do programa demonstrativo de USMF e os produtos foram adicionados às máquinas de escritório/categoria dos computadores. Se você estiver executando este procedimento como um guia de tarefa você precisará desbloquear o guia se quiser pesquisar entre a categoria. Se uma hierarquia não estava disponível, você a criaria clicando em Novo. Isso só pode ser feito uma vez.  
-2. Feche a página.
+## <a name="ensure-that-a-procurement-category-hierarchy-exists"></a><span data-ttu-id="ce653-110">Assegure-se de que uma hierarquia da categoria da obtenção exista</span><span class="sxs-lookup"><span data-stu-id="ce653-110">Ensure that a procurement category hierarchy exists</span></span>
+1. <span data-ttu-id="ce653-111">Vá para Aquisição e fornecimento > Categorias de aquisição.</span><span class="sxs-lookup"><span data-stu-id="ce653-111">Go to Procurement and sourcing > Procurement categories.</span></span>
+    * <span data-ttu-id="ce653-112">Uma hierarquia da categoria da obtenção está disponível na empresa dos dados do programa demonstrativo de USMF e os produtos foram adicionados às máquinas de escritório/categoria dos computadores.</span><span class="sxs-lookup"><span data-stu-id="ce653-112">A procurement category hierarchy is available in the USMF demo data company and products have been added to the Office machines/Computers category.</span></span> <span data-ttu-id="ce653-113">Se você estiver executando este procedimento como um guia de tarefa você precisará desbloquear o guia se quiser pesquisar entre a categoria.</span><span class="sxs-lookup"><span data-stu-id="ce653-113">If you’re running this procedure as a task guide, you’ll need to unlock the guide if you want to browse through the category.</span></span> <span data-ttu-id="ce653-114">Se uma hierarquia não estava disponível, você a criaria clicando em Novo.</span><span class="sxs-lookup"><span data-stu-id="ce653-114">If a hierarchy was not available, you’d create it by clicking New.</span></span> <span data-ttu-id="ce653-115">Isso só pode ser feito uma vez.</span><span class="sxs-lookup"><span data-stu-id="ce653-115">This can only be done once.</span></span>  
+2. <span data-ttu-id="ce653-116">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="ce653-116">Close the page.</span></span>
 
-## <a name="create-a-catalog"></a>Criar um catálogo
-1. Vá para Compras > Catálogos > Catálogos de compras.
-2. Clique em Novo catálogo de compras para abrir o formulário suspenso da caixa de diálogo.
-3. No campo Nome, digite um valor.
-4. Clique em OK.
-5. Na árvore, expanda 'CATEGORIAS DE AQUISIÇÃO CORPORATIVA\MÁQUINAS DE ESCRITÓRIO'.
-6. Na árvore, expanda 'OFFICE MACHINES'.
-7. Na árvore, selecione o nó ''Computadores".
-    * Os produtos da categoria da obtenção são indicados na lista. Se você quer adicionar um produto à categoria, você precisa fazer isso na página da hierarquia da categoria da obtenção ou na página dos detalhes do artigo.  
-    * O tipo de atualização padrão determina se os produtos novos que foram adicionados à hierarquia da categoria da obtenção são imediatamente visíveis no catálogo. Se o tipo de atualização ajustado é dinâmico, as mudanças são visíveis imediatamente. Se o tipo de atualização é estática, os produtos novos são somente visíveis às pessoas que usam o catálogo depois que o catálogo foi publicado novamente. A ação da publicação está disponível na placa da ação na parte superior da página. Se os produtos são removidos da hierarquia da categoria da obtenção, a mudança é imediatamente visível, apesar do valor no tipo de atualização campo padrão.  
-8. Na lista, localize e selecione o PDV desejado.
-9. Clique em Esconder.
-10. No Painel de Ação, clique em Navegação de categoria.
-11. Clique em Desabilitar.
-12. No Painel de Ação, clique em Navegação de categoria.
-13. Clique em Habilitar.
-14. Clique em Ativar catálogo.
-15. Feche a página.
+## <a name="create-a-catalog"></a><span data-ttu-id="ce653-117">Criar um catálogo</span><span class="sxs-lookup"><span data-stu-id="ce653-117">Create a catalog</span></span>
+1. <span data-ttu-id="ce653-118">Vá para Compras > Catálogos > Catálogos de compras.</span><span class="sxs-lookup"><span data-stu-id="ce653-118">Go to Procurement and sourcing > Catalogs > Procurement catalogs.</span></span>
+2. <span data-ttu-id="ce653-119">Clique em Novo catálogo de compras para abrir o formulário suspenso da caixa de diálogo.</span><span class="sxs-lookup"><span data-stu-id="ce653-119">Click New procurement catalog to open the drop dialog.</span></span>
+3. <span data-ttu-id="ce653-120">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ce653-120">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="ce653-121">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="ce653-121">Click OK.</span></span>
+5. <span data-ttu-id="ce653-122">Na árvore, expanda 'CATEGORIAS DE AQUISIÇÃO CORPORATIVA\MÁQUINAS DE ESCRITÓRIO'.</span><span class="sxs-lookup"><span data-stu-id="ce653-122">In the tree, expand 'CORP PROCUREMENT CATEGORIES'.</span></span>
+6. <span data-ttu-id="ce653-123">Na árvore, expanda 'OFFICE MACHINES'.</span><span class="sxs-lookup"><span data-stu-id="ce653-123">In the tree, expand 'OFFICE MACHINES'.</span></span>
+7. <span data-ttu-id="ce653-124">Na árvore, selecione o nó ''Computadores".</span><span class="sxs-lookup"><span data-stu-id="ce653-124">In the tree, select 'Computers'.</span></span>
+    * <span data-ttu-id="ce653-125">Os produtos da categoria da obtenção são indicados na lista.</span><span class="sxs-lookup"><span data-stu-id="ce653-125">The products from the procurement category are displayed in the list.</span></span> <span data-ttu-id="ce653-126">Se você quer adicionar um produto à categoria, você precisa fazer isso na página da hierarquia da categoria da obtenção ou na página dos detalhes do artigo.</span><span class="sxs-lookup"><span data-stu-id="ce653-126">If you want to add a product to the category you need to do this on the Procurement category hierarchy page or on the Item details page.</span></span>  
+    * <span data-ttu-id="ce653-127">O tipo de atualização padrão determina se os produtos novos que foram adicionados à hierarquia da categoria da obtenção são imediatamente visíveis no catálogo.</span><span class="sxs-lookup"><span data-stu-id="ce653-127">The Default update type determines whether new products that have been added to the procurement category hierarchy are immediately visible in the catalog.</span></span> <span data-ttu-id="ce653-128">Se o tipo de atualização ajustado é dinâmico, as mudanças são visíveis imediatamente.</span><span class="sxs-lookup"><span data-stu-id="ce653-128">If the update type is set to Dynamic, changes are visible immediately.</span></span> <span data-ttu-id="ce653-129">Se o tipo de atualização é estática, os produtos novos são somente visíveis às pessoas que usam o catálogo depois que o catálogo foi publicado novamente.</span><span class="sxs-lookup"><span data-stu-id="ce653-129">If the update type is Static, new products are only visible to people using the catalog after the catalog has been re-published.</span></span> <span data-ttu-id="ce653-130">A ação da publicação está disponível na placa da ação na parte superior da página.</span><span class="sxs-lookup"><span data-stu-id="ce653-130">The Publish action is available on the Action Pane at the top of the page.</span></span> <span data-ttu-id="ce653-131">Se os produtos são removidos da hierarquia da categoria da obtenção, a mudança é imediatamente visível, apesar do valor no tipo de atualização campo padrão.</span><span class="sxs-lookup"><span data-stu-id="ce653-131">If products are removed from the procurement category hierarchy, the change is immediately visible, regardless of the value in the Default update type field.</span></span>  
+8. <span data-ttu-id="ce653-132">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ce653-132">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="ce653-133">Clique em Esconder.</span><span class="sxs-lookup"><span data-stu-id="ce653-133">Click Hide.</span></span>
+10. <span data-ttu-id="ce653-134">No Painel de Ação, clique em Navegação de categoria.</span><span class="sxs-lookup"><span data-stu-id="ce653-134">On the Action Pane, click Category navigation.</span></span>
+11. <span data-ttu-id="ce653-135">Clique em Desabilitar.</span><span class="sxs-lookup"><span data-stu-id="ce653-135">Click Disable.</span></span>
+12. <span data-ttu-id="ce653-136">No Painel de Ação, clique em Navegação de categoria.</span><span class="sxs-lookup"><span data-stu-id="ce653-136">On the Action Pane, click Category navigation.</span></span>
+13. <span data-ttu-id="ce653-137">Clique em Habilitar.</span><span class="sxs-lookup"><span data-stu-id="ce653-137">Click Enable.</span></span>
+14. <span data-ttu-id="ce653-138">Clique em Ativar catálogo.</span><span class="sxs-lookup"><span data-stu-id="ce653-138">Click Activate catalog.</span></span>
+15. <span data-ttu-id="ce653-139">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="ce653-139">Close the page.</span></span>
 
-## <a name="make-the-catalog-visible"></a>Tornar o catálogo visível
-1. Vá para Compras > Configuração > Políticas > Políticas de compras.
-2. Selecione Política de compras USMF.
-    * Você precisa selecionar a política de compras para a entidade legal em que é permitido ao trabalhador conectado a seu perfil de usuário a pedir produtos. Nos dados do programa demonstrativo de USMF, o usuário do Admin é conectado ao trabalhador chamado Julia Funderburk, e pede produtos em USMF por padrão.  
-3. Na lista, clique no link na linha selecionada.
-4. Selecione o catálogo que você acabou de criar.
-5. Clique em OK.
-6. Feche a página.
-7. Feche a página.
+## <a name="make-the-catalog-visible"></a><span data-ttu-id="ce653-140">Tornar o catálogo visível</span><span class="sxs-lookup"><span data-stu-id="ce653-140">Make the catalog visible</span></span>
+1. <span data-ttu-id="ce653-141">Vá para Compras > Configuração > Políticas > Políticas de compras.</span><span class="sxs-lookup"><span data-stu-id="ce653-141">Go to Procurement and sourcing > Setup > Policies > Purchasing policies.</span></span>
+2. <span data-ttu-id="ce653-142">Selecione Política de compras USMF.</span><span class="sxs-lookup"><span data-stu-id="ce653-142">Select Procurement Policy USMF.</span></span>
+    * <span data-ttu-id="ce653-143">Você precisa selecionar a política de compras para a entidade legal em que é permitido ao trabalhador conectado a seu perfil de usuário a pedir produtos.</span><span class="sxs-lookup"><span data-stu-id="ce653-143">You need to select the purchasing policy for the legal entity that the worker connected to your user profile is allowed to order products in.</span></span> <span data-ttu-id="ce653-144">Nos dados do programa demonstrativo de USMF, o usuário do Admin é conectado ao trabalhador chamado Julia Funderburk, e pede produtos em USMF por padrão.</span><span class="sxs-lookup"><span data-stu-id="ce653-144">In the USMF demo data, the Admin user is connected to the worker called Julia Funderburk, and she orders products in USMF by default.</span></span>  
+3. <span data-ttu-id="ce653-145">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ce653-145">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="ce653-146">Selecione o catálogo que você acabou de criar.</span><span class="sxs-lookup"><span data-stu-id="ce653-146">Select the catalog that you’ve just created.</span></span>
+5. <span data-ttu-id="ce653-147">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="ce653-147">Click OK.</span></span>
+6. <span data-ttu-id="ce653-148">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="ce653-148">Close the page.</span></span>
+7. <span data-ttu-id="ce653-149">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="ce653-149">Close the page.</span></span>
 
-## <a name="use-the-catalog"></a>Usar o catálogo
-1. Vá para Compras > Requisições de compra > Todas as requisições de compra.
-2. Clique em Novo.
-3. No campo Nome, digite um valor.
-4. Clique em OK.
-5. Clique em Adicionar produtos.
-6. Na lista, localize e selecione o PDV desejado.
-    * Você pode usar a hierarquia da categoria à esquerda ou o filtro na parte superior da lista para filtrar os produtos.  
-7. Clique em Adicionar às linhas.
-8. Na lista, localize e selecione o PDV desejado.
-9. Clique em Adicionar às linhas.
-10. Clique em OK.
+## <a name="use-the-catalog"></a><span data-ttu-id="ce653-150">Usar o catálogo</span><span class="sxs-lookup"><span data-stu-id="ce653-150">Use the catalog</span></span>
+1. <span data-ttu-id="ce653-151">Vá para Compras > Requisições de compra > Todas as requisições de compra.</span><span class="sxs-lookup"><span data-stu-id="ce653-151">Go to Procurement and sourcing > Purchase requisitions > All purchase requisitions.</span></span>
+2. <span data-ttu-id="ce653-152">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ce653-152">Click New.</span></span>
+3. <span data-ttu-id="ce653-153">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ce653-153">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="ce653-154">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="ce653-154">Click OK.</span></span>
+5. <span data-ttu-id="ce653-155">Clique em Adicionar produtos.</span><span class="sxs-lookup"><span data-stu-id="ce653-155">Click Add products.</span></span>
+6. <span data-ttu-id="ce653-156">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ce653-156">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="ce653-157">Você pode usar a hierarquia da categoria à esquerda ou o filtro na parte superior da lista para filtrar os produtos.</span><span class="sxs-lookup"><span data-stu-id="ce653-157">You can use the category hierarchy on the left or the filter at the top of the list to filter the products.</span></span>  
+7. <span data-ttu-id="ce653-158">Clique em Adicionar às linhas.</span><span class="sxs-lookup"><span data-stu-id="ce653-158">Click Add to lines.</span></span>
+8. <span data-ttu-id="ce653-159">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ce653-159">In the list, find and select the desired record.</span></span>
+9. <span data-ttu-id="ce653-160">Clique em Adicionar às linhas.</span><span class="sxs-lookup"><span data-stu-id="ce653-160">Click Add to lines.</span></span>
+10. <span data-ttu-id="ce653-161">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="ce653-161">Click OK.</span></span>
 
 

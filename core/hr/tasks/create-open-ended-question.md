@@ -16,25 +16,25 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 373cd15efba507aa9b35f61ce4a8c9fd8750f60d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 8b226fe4a6300cecfefdc8f4a5e3c0c82d6c625e
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-an-open-ended-question"></a>Criar uma pergunta aberta
+# <a name="create-an-open-ended-question"></a><span data-ttu-id="823fa-103">Criar uma pergunta aberta</span><span class="sxs-lookup"><span data-stu-id="823fa-103">Create an open-ended question</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-As perguntas abertas permitem que os respondentes forneçam suas próprias respostas. É possível controlar se a resposta é um número, decimal, data, comentários e assim por diante. Este procedimento anda com o processo de criação de um tipo específico de pergunta, uma pergunta em aberto. Para iniciar este procedimento, vá para Questionário > Design > Questões. A empresa de dados demo usada para criar este procedimento é USMF.
+<span data-ttu-id="823fa-104">As perguntas abertas permitem que os respondentes forneçam suas próprias respostas.</span><span class="sxs-lookup"><span data-stu-id="823fa-104">Open-ended questions enable respondents to provide their own response.</span></span> <span data-ttu-id="823fa-105">É possível controlar se a resposta é um número, decimal, data, comentários e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="823fa-105">You can control whether that response is a number, decimal, date, comment and so on.</span></span> <span data-ttu-id="823fa-106">Este procedimento anda com o processo de criação de um tipo específico de pergunta, uma pergunta em aberto.</span><span class="sxs-lookup"><span data-stu-id="823fa-106">This procedure walks through the process of creating a specific type of question, an open-ended question.</span></span> <span data-ttu-id="823fa-107">Para iniciar este procedimento, vá para Questionário > Design > Questões.</span><span class="sxs-lookup"><span data-stu-id="823fa-107">To begin this procedure, go to Questionnaire > Design > Questions.</span></span> <span data-ttu-id="823fa-108">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="823fa-108">The demo data company used to create this procedure is USMF.</span></span>
 
-1. Clique em Novo.
-2. Selecione um tipo para agrupar perguntas relacionadas.
-3. Na lista, localize e selecione o PDV desejado.
-4. Na lista, clique no link na linha selecionada.
-    * Os tipos de entrada de texto, inteiro, real, data, hora e nota são usados para questões de conclusão abertas.  
-5. No campo Tipo de entrada, selecione uma opção.
-    * Um tipo de entrada ou de nota de texto é usado para uma pergunta em aberto.  
-6. No campo Texto, digite sua pergunta.
+1. <span data-ttu-id="823fa-109">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="823fa-109">Click New.</span></span>
+2. <span data-ttu-id="823fa-110">Selecione um tipo para agrupar perguntas relacionadas.</span><span class="sxs-lookup"><span data-stu-id="823fa-110">Select a Type to group related questions.</span></span>
+3. <span data-ttu-id="823fa-111">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="823fa-111">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="823fa-112">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="823fa-112">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="823fa-113">Os tipos de entrada de texto, inteiro, real, data, hora e nota são usados para questões de conclusão abertas.</span><span class="sxs-lookup"><span data-stu-id="823fa-113">Input types of Text, Integer, Real, Date, Time, and Note are used for open-ended questions.</span></span>  
+5. <span data-ttu-id="823fa-114">No campo Tipo de entrada, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="823fa-114">In the Input type field, select an option.</span></span>
+    * <span data-ttu-id="823fa-115">Um tipo de entrada ou de nota de texto é usado para uma pergunta em aberto.</span><span class="sxs-lookup"><span data-stu-id="823fa-115">An input type of Text or Note is used for an open-ended question.</span></span>  
+6. <span data-ttu-id="823fa-116">No campo Texto, digite sua pergunta.</span><span class="sxs-lookup"><span data-stu-id="823fa-116">In the Text field, enter your question.</span></span>
 
 

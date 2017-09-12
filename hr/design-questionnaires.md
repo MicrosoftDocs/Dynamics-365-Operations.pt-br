@@ -27,242 +27,229 @@ ms.lasthandoff: 05/25/2017
 
 ---
 
-# Criar um questionário
-<a id="design-a-questionnaire" class="xliff"></a>
+# <a name="design-a-questionnaire"></a><span data-ttu-id="a085c-105">Criar um questionário</span><span class="sxs-lookup"><span data-stu-id="a085c-105">Design a questionnaire</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Este tópico descreve o processo para criar um questionário. A primeira etapa é criar o questionário. Ao criar um questionário, você grava não apenas as perguntas e respostas, mas também pode criar a estrutura que permite que as respostas sejam registradas e tabuladas. 
+<span data-ttu-id="a085c-106">Este tópico descreve o processo para criar um questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-106">This topic describes the process for creating a questionnaire.</span></span> <span data-ttu-id="a085c-107">A primeira etapa é criar o questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-107">The first step is to design the questionnaire.</span></span> <span data-ttu-id="a085c-108">Ao criar um questionário, você grava não apenas as perguntas e respostas, mas também pode criar a estrutura que permite que as respostas sejam registradas e tabuladas.</span><span class="sxs-lookup"><span data-stu-id="a085c-108">When you design a questionnaire, you not only write the questions and answers, but also create the structure that enables answers to be recorded and tabulated.</span></span> 
 
-Um questionário cuidadosamente desenvolvido pode ajudar a aumentar a qualidade dos dados coletados. Por meio da criação cuidadosa, você pode selecionar melhor as opções adequadas no tempo apropriado de um questionário. Os seguintes pontos podem ajudá-lo a planejar um questionário eficaz:
+<span data-ttu-id="a085c-109">Um questionário cuidadosamente desenvolvido pode ajudar a aumentar a qualidade dos dados coletados.</span><span class="sxs-lookup"><span data-stu-id="a085c-109">A carefully designed questionnaire can help increase the quality of the data that you collect.</span></span> <span data-ttu-id="a085c-110">Por meio da criação cuidadosa, você pode selecionar melhor as opções adequadas no tempo apropriado de um questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-110">Through careful design, you can better select the appropriate options at the appropriate time for a questionnaire.</span></span> <span data-ttu-id="a085c-111">Os seguintes pontos podem ajudá-lo a planejar um questionário eficaz:</span><span class="sxs-lookup"><span data-stu-id="a085c-111">The following points can help you plan an effective questionnaire:</span></span>
 
--   Defina claramente a finalidade do questionário para ajudar a garantir que as perguntas ofereçam suporte à finalidade.
--   Determine a pessoa ou o grupo de pessoas que deve preencher o questionário.
--   Escreva as perguntas que aparecerão no questionário e inclua as opções de resposta, se aplicável.
--   Verifique se o questionário flui logicamente, de modo que os participantes permaneçam engajados.
--   Organize perguntas e respostas na ordem que elas devem ser apresentadas aos entrevistados.
--   Decida como os resultados devem ser avaliados, se aplicável.
--   Decida se você precisa de recursos adicionais. Por exemplo, determine se e como os resultados devem ser categorizados, se um limite de tempo é necessário, ou se todas as perguntas são obrigatórias.
+-   <span data-ttu-id="a085c-112">Defina claramente a finalidade do questionário para ajudar a garantir que as perguntas ofereçam suporte à finalidade.</span><span class="sxs-lookup"><span data-stu-id="a085c-112">Clearly define the purpose of the questionnaire to help guarantee that the questions support the purpose.</span></span>
+-   <span data-ttu-id="a085c-113">Determine a pessoa ou o grupo de pessoas que deve preencher o questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-113">Determine the individual person or the group of people who should complete the questionnaire.</span></span>
+-   <span data-ttu-id="a085c-114">Escreva as perguntas que aparecerão no questionário e inclua as opções de resposta, se aplicável.</span><span class="sxs-lookup"><span data-stu-id="a085c-114">Write questions that will appear on the questionnaire, and include answer choices, if applicable.</span></span>
+-   <span data-ttu-id="a085c-115">Verifique se o questionário flui logicamente, de modo que os participantes permaneçam engajados.</span><span class="sxs-lookup"><span data-stu-id="a085c-115">Be sure that the questionnaire flows logically, so that respondents remain engaged.</span></span>
+-   <span data-ttu-id="a085c-116">Organize perguntas e respostas na ordem que elas devem ser apresentadas aos entrevistados.</span><span class="sxs-lookup"><span data-stu-id="a085c-116">Arrange questions and answers in the order that they should be presented to respondents in.</span></span>
+-   <span data-ttu-id="a085c-117">Decida como os resultados devem ser avaliados, se aplicável.</span><span class="sxs-lookup"><span data-stu-id="a085c-117">Decide how the results should be evaluated, if applicable.</span></span>
+-   <span data-ttu-id="a085c-118">Decida se você precisa de recursos adicionais.</span><span class="sxs-lookup"><span data-stu-id="a085c-118">Decide whether you’ll need additional features.</span></span> <span data-ttu-id="a085c-119">Por exemplo, determine se e como os resultados devem ser categorizados, se um limite de tempo é necessário, ou se todas as perguntas são obrigatórias.</span><span class="sxs-lookup"><span data-stu-id="a085c-119">For example, determine whether and how results should be categorized, whether a time limit is required, or whether all the questions will be mandatory.</span></span>
 
-A fase de criação inclui quatro categorias de tarefas que devem ser concluídas nesta ordem:
+<span data-ttu-id="a085c-120">A fase de criação inclui quatro categorias de tarefas que devem ser concluídas nesta ordem:</span><span class="sxs-lookup"><span data-stu-id="a085c-120">The design phase includes four categories of tasks that you must complete in this order:</span></span>
 
-1.  Configurar pré-requisitos, conforme necessário.
-2.  Configurar grupos de respostas e respostas, se aplicável.
-3.  Configurar perguntas e sua associação aos grupos de respostas.
-4.  Configurar o questionário em si e anexar perguntas a ele.
+1.  <span data-ttu-id="a085c-121">Configurar pré-requisitos, conforme necessário.</span><span class="sxs-lookup"><span data-stu-id="a085c-121">Set up prerequisites, as required.</span></span>
+2.  <span data-ttu-id="a085c-122">Configurar grupos de respostas e respostas, se aplicável.</span><span class="sxs-lookup"><span data-stu-id="a085c-122">Set up answer groups and answers, if applicable.</span></span>
+3.  <span data-ttu-id="a085c-123">Configurar perguntas e sua associação aos grupos de respostas.</span><span class="sxs-lookup"><span data-stu-id="a085c-123">Set up questions and their association with the answer groups.</span></span>
+4.  <span data-ttu-id="a085c-124">Configurar o questionário em si e anexar perguntas a ele.</span><span class="sxs-lookup"><span data-stu-id="a085c-124">Set up the questionnaire itself, and attach questions to it.</span></span>
 
-## Pré-requisitos
-<a id="prerequisites" class="xliff"></a>
-Alguns pré-requisitos devem ser atendidos antes que seja possível criar questionários, respostas e perguntas. No entanto, nem todos os pré-requisitos são necessários para a funcionalidade completa.
+## <a name="prerequisites"></a><span data-ttu-id="a085c-125">Pré-requisitos</span><span class="sxs-lookup"><span data-stu-id="a085c-125">Prerequisites</span></span>
+<span data-ttu-id="a085c-126">Alguns pré-requisitos devem ser atendidos antes que seja possível criar questionários, respostas e perguntas.</span><span class="sxs-lookup"><span data-stu-id="a085c-126">Some prerequisites must be in place before you can create questionnaires, answers, and questions.</span></span> <span data-ttu-id="a085c-127">No entanto, nem todos os pré-requisitos são necessários para a funcionalidade completa.</span><span class="sxs-lookup"><span data-stu-id="a085c-127">However, not all prerequisites are required for full functionality.</span></span>
 
-### Necessário
-<a id="required" class="xliff"></a>
+### <a name="required"></a><span data-ttu-id="a085c-128">Necessário</span><span class="sxs-lookup"><span data-stu-id="a085c-128">Required</span></span>
 
-| Pré-requisito        | Descrição                |
+| <span data-ttu-id="a085c-129">Pré-requisito</span><span class="sxs-lookup"><span data-stu-id="a085c-129">Prerequisite</span></span>        | <span data-ttu-id="a085c-130">Descrição</span><span class="sxs-lookup"><span data-stu-id="a085c-130">Description</span></span>                |
 |---------------------|----------------------------|
-| Tipos de questionários | Categorizar questionários. |
-| Tipos de perguntas      | Categorizar perguntas.      |
+| <span data-ttu-id="a085c-131">Tipos de questionários</span><span class="sxs-lookup"><span data-stu-id="a085c-131">Questionnaire types</span></span> | <span data-ttu-id="a085c-132">Categorizar questionários.</span><span class="sxs-lookup"><span data-stu-id="a085c-132">Categorize questionnaires.</span></span> |
+| <span data-ttu-id="a085c-133">Tipos de perguntas</span><span class="sxs-lookup"><span data-stu-id="a085c-133">Question types</span></span>      | <span data-ttu-id="a085c-134">Categorizar perguntas.</span><span class="sxs-lookup"><span data-stu-id="a085c-134">Categorize questions.</span></span>      |
 
-### Opcional
-<a id="optional" class="xliff"></a>
+### <a name="optional"></a><span data-ttu-id="a085c-135">Opcional</span><span class="sxs-lookup"><span data-stu-id="a085c-135">Optional</span></span>
 
-| Pré-requisito             | Descrição                                                    |
+| <span data-ttu-id="a085c-136">Pré-requisito</span><span class="sxs-lookup"><span data-stu-id="a085c-136">Prerequisite</span></span>             | <span data-ttu-id="a085c-137">Descrição</span><span class="sxs-lookup"><span data-stu-id="a085c-137">Description</span></span>                                                    |
 |--------------------------|----------------------------------------------------------------|
-| Parâmetros de questionário | Modificar controles básicos e configurações padrão de questionários. |
+| <span data-ttu-id="a085c-138">Parâmetros de questionário</span><span class="sxs-lookup"><span data-stu-id="a085c-138">Questionnaire parameters</span></span> | <span data-ttu-id="a085c-139">Modificar controles básicos e configurações padrão de questionários.</span><span class="sxs-lookup"><span data-stu-id="a085c-139">Modify basic controls and default settings for questionnaires.</span></span> |
 
-### Tipos de questionários
-<a id="questionnaire-types" class="xliff"></a>
+### <a name="questionnaire-types"></a><span data-ttu-id="a085c-140">Tipos de questionários</span><span class="sxs-lookup"><span data-stu-id="a085c-140">Questionnaire types</span></span>
 
-Os tipos de questionário são necessários e devem ser atribuídos ao criar um questionário. Os tipos de questionário ajudam você a gerenciar e classificar o questionário de maneira mais fácil. Use os tipos de questionário para classificar os questionários e diferenciá-los uns dos outros. Por exemplo, se você tiver vários questionários para selecionar, você pode filtrá-los por tipo para ajudar a facilitar a localização de um questionário específico. Veja aqui alguns exemplos de tipo de questionário:
+<span data-ttu-id="a085c-141">Os tipos de questionário são necessários e devem ser atribuídos ao criar um questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-141">Questionnaire types are required and must be assigned when you create a questionnaire.</span></span> <span data-ttu-id="a085c-142">Os tipos de questionário ajudam você a gerenciar e classificar o questionário de maneira mais fácil.</span><span class="sxs-lookup"><span data-stu-id="a085c-142">Questionnaire types help you manage and classify questionnaires more easily.</span></span> <span data-ttu-id="a085c-143">Use os tipos de questionário para classificar os questionários e diferenciá-los uns dos outros.</span><span class="sxs-lookup"><span data-stu-id="a085c-143">Use questionnaire types to classify questionnaires and differentiate them from each other.</span></span> <span data-ttu-id="a085c-144">Por exemplo, se você tiver vários questionários para selecionar, você pode filtrá-los por tipo para ajudar a facilitar a localização de um questionário específico.</span><span class="sxs-lookup"><span data-stu-id="a085c-144">For example, if you have multiple questionnaires to select from, you can filter them by type to help make it easier to find a particular questionnaire.</span></span> <span data-ttu-id="a085c-145">Veja aqui alguns exemplos de tipo de questionário:</span><span class="sxs-lookup"><span data-stu-id="a085c-145">Here are some examples of questionnaire types:</span></span>
 
--   Desenvolvimento de recursos humanos
--   Pesquisas sobre clientes
--   Processo de avaliação
+-   <span data-ttu-id="a085c-146">Desenvolvimento de recursos humanos</span><span class="sxs-lookup"><span data-stu-id="a085c-146">Human resource development</span></span>
+-   <span data-ttu-id="a085c-147">Pesquisas sobre clientes</span><span class="sxs-lookup"><span data-stu-id="a085c-147">Customer surveys</span></span>
+-   <span data-ttu-id="a085c-148">Processo de avaliação</span><span class="sxs-lookup"><span data-stu-id="a085c-148">Review process</span></span>
 
-### Tipos de perguntas
-<a id="question-types" class="xliff"></a>
+### <a name="question-types"></a><span data-ttu-id="a085c-149">Tipos de perguntas</span><span class="sxs-lookup"><span data-stu-id="a085c-149">Question types</span></span>
 
-Os tipos de pergunta são necessários e devem ser atribuídos ao criar uma pergunta. 
+<span data-ttu-id="a085c-150">Os tipos de pergunta são necessários e devem ser atribuídos ao criar uma pergunta.</span><span class="sxs-lookup"><span data-stu-id="a085c-150">Question types are required and must be assigned when you create a question.</span></span> 
 
-Use os tipos de pergunta para categorizar as perguntas do relatório. Os tipos de pergunta facilitam a localização de perguntas, pois é possível usar tipos como filtros na página **Perguntas**. Veja aqui alguns exemplos de tipo de pergunta:
+<span data-ttu-id="a085c-151">Use os tipos de pergunta para categorizar as perguntas do relatório.</span><span class="sxs-lookup"><span data-stu-id="a085c-151">Use question types to categorize questions for reporting.</span></span> <span data-ttu-id="a085c-152">Os tipos de pergunta facilitam a localização de perguntas, pois é possível usar tipos como filtros na página **Perguntas**.</span><span class="sxs-lookup"><span data-stu-id="a085c-152">Question types also make it easier to find questions, because you can use types as filters on the **Questions** page.</span></span> <span data-ttu-id="a085c-153">Veja aqui alguns exemplos de tipo de pergunta:</span><span class="sxs-lookup"><span data-stu-id="a085c-153">Here are some examples of question types:</span></span>
 
--   Recursos humanos
--   Gerenciamento de negócios
--   Avaliação do curso
+-   <span data-ttu-id="a085c-154">Recursos humanos</span><span class="sxs-lookup"><span data-stu-id="a085c-154">Human resource</span></span>
+-   <span data-ttu-id="a085c-155">Gerenciamento de negócios</span><span class="sxs-lookup"><span data-stu-id="a085c-155">Managing business</span></span>
+-   <span data-ttu-id="a085c-156">Avaliação do curso</span><span class="sxs-lookup"><span data-stu-id="a085c-156">Course evaluation</span></span>
 
-### Parâmetros de questionário
-<a id="questionnaire-parameters" class="xliff"></a>
+### <a name="questionnaire-parameters"></a><span data-ttu-id="a085c-157">Parâmetros de questionário</span><span class="sxs-lookup"><span data-stu-id="a085c-157">Questionnaire parameters</span></span>
 
-Os parâmetros de questionário são opcionais. Você não pode usá-los, dependendo das necessidades da sua empresa. 
+<span data-ttu-id="a085c-158">Os parâmetros de questionário são opcionais.</span><span class="sxs-lookup"><span data-stu-id="a085c-158">Questionnaire parameters are optional.</span></span> <span data-ttu-id="a085c-159">Você não pode usá-los, dependendo das necessidades da sua empresa.</span><span class="sxs-lookup"><span data-stu-id="a085c-159">You might not use them, depending on your company’s requirements.</span></span> 
 
-Os parâmetros de questionário definem o anonimato, os códigos de sequência numérica e os tipos de referência de um questionário. Quando uma organização distribuir um questionário, a opção para que os entrevistados permaneçam anônimos pode ser considerada. 
+<span data-ttu-id="a085c-160">Os parâmetros de questionário definem o anonimato, os códigos de sequência numérica e os tipos de referência de um questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-160">Questionnaire parameters define the anonymity, number sequence codes, and reference types of a questionnaire.</span></span> <span data-ttu-id="a085c-161">Quando uma organização distribuir um questionário, a opção para que os entrevistados permaneçam anônimos pode ser considerada.</span><span class="sxs-lookup"><span data-stu-id="a085c-161">When an organization distributes a questionnaire, the option to allow respondents to remain anonymous might be of concern.</span></span> 
 
-Os códigos de sequência numérica que são usados para organizar perguntas e respostas. Com base nos códigos de sequência numérica, os valores são atribuídos automaticamente aos itens. 
+<span data-ttu-id="a085c-162">Os códigos de sequência numérica que são usados para organizar perguntas e respostas.</span><span class="sxs-lookup"><span data-stu-id="a085c-162">The number sequence codes are used to organize questions and answers.</span></span> <span data-ttu-id="a085c-163">Com base nos códigos de sequência numérica, os valores são atribuídos automaticamente aos itens.</span><span class="sxs-lookup"><span data-stu-id="a085c-163">Based on these number sequence codes, values are automatically assigned to items.</span></span> 
 
-É preciso definir todos os parâmetros antes de começar a criar seus dados. Você pode alterar as configurações de parâmetros de questionário a qualquer momento.
+<span data-ttu-id="a085c-164">É preciso definir todos os parâmetros antes de começar a criar seus dados.</span><span class="sxs-lookup"><span data-stu-id="a085c-164">You should define all parameters before you begin to create your data.</span></span> <span data-ttu-id="a085c-165">Você pode alterar as configurações de parâmetros de questionário a qualquer momento.</span><span class="sxs-lookup"><span data-stu-id="a085c-165">You can modify the questionnaire parameter settings at any time.</span></span>
 
-## Componentes do questionário
-<a id="questionnaire-components" class="xliff"></a>
-Os questionários compõem três principais elementos: grupos de respostas que contêm as respostas para questões de múltipla escolha, perguntas e o questionário em si. Se preferir, você pode agrupar as perguntas de um questionário em grupos de resultados. Os grupos de resultados permitem categorizar perguntas e fornecer uma análise mais detalhada do questionário. 
+## <a name="questionnaire-components"></a><span data-ttu-id="a085c-166">Componentes do questionário</span><span class="sxs-lookup"><span data-stu-id="a085c-166">Questionnaire components</span></span>
+<span data-ttu-id="a085c-167">Os questionários compõem três principais elementos: grupos de respostas que contêm as respostas para questões de múltipla escolha, perguntas e o questionário em si.</span><span class="sxs-lookup"><span data-stu-id="a085c-167">Questionnaires comprise three main elements: answer groups that contain the answers for multiple choice questions, questions, and the questionnaire itself.</span></span> <span data-ttu-id="a085c-168">Se preferir, você pode agrupar as perguntas de um questionário em grupos de resultados.</span><span class="sxs-lookup"><span data-stu-id="a085c-168">You can optionally group the questions on a questionnaire into result groups.</span></span> <span data-ttu-id="a085c-169">Os grupos de resultados permitem categorizar perguntas e fornecer uma análise mais detalhada do questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-169">Result groups let you categorize questions and provide further analysis on the questionnaire.</span></span> 
 
-[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
+<span data-ttu-id="a085c-170">[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)</span><span class="sxs-lookup"><span data-stu-id="a085c-170">[![QuestionnaireComponents](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)</span></span>
 
-### Grupos de respostas e respostas
-<a id="answer-groups-and-answers" class="xliff"></a>
+### <a name="answer-groups-and-answers"></a><span data-ttu-id="a085c-171">Grupos de respostas e respostas</span><span class="sxs-lookup"><span data-stu-id="a085c-171">Answer groups and answers</span></span>
 
-Os participantes podem responder uma pergunta de duas maneiras, dependendo do assunto da pergunta:
+<span data-ttu-id="a085c-172">Os participantes podem responder uma pergunta de duas maneiras, dependendo do assunto da pergunta:</span><span class="sxs-lookup"><span data-stu-id="a085c-172">Respondents can answer a question in two ways, depending on the subject of the question:</span></span>
 
--   As perguntas abertas não exigem respostas em um formato específico. Os participantes podem digitar uma resposta como texto, um número, uma data, ou hora. Essas perguntas tipicamente requerem que os participantes forneçam informações subjetivas nas respostas, como uma opinião, descrição, avaliação, ou uma previsão.
--   As perguntas fechadas exigem que o participante selecione uma resposta em uma lista de possíveis respostas corretas.
+-   <span data-ttu-id="a085c-173">As perguntas abertas não exigem respostas em um formato específico.</span><span class="sxs-lookup"><span data-stu-id="a085c-173">Open-ended questions don’t require responses in a specific format.</span></span> <span data-ttu-id="a085c-174">Os participantes podem digitar uma resposta como texto, um número, uma data, ou hora.</span><span class="sxs-lookup"><span data-stu-id="a085c-174">Respondents can type a response as text, a number, a date, or a time.</span></span> <span data-ttu-id="a085c-175">Essas perguntas tipicamente requerem que os participantes forneçam informações subjetivas nas respostas, como uma opinião, descrição, avaliação, ou uma previsão.</span><span class="sxs-lookup"><span data-stu-id="a085c-175">These questions typically require that the respondents provide subjective information in their answers, such as an opinion, description, evaluation, or estimate.</span></span>
+-   <span data-ttu-id="a085c-176">As perguntas fechadas exigem que o participante selecione uma resposta em uma lista de possíveis respostas corretas.</span><span class="sxs-lookup"><span data-stu-id="a085c-176">Closed-ended questions require that the respondent select an answer in a list of possible correct answers.</span></span>
 
-Para fornecer uma lista de respostas possíveis para perguntas fechadas, você pode criar respostas na página **Grupos de respostas**. 
+<span data-ttu-id="a085c-177">Para fornecer uma lista de respostas possíveis para perguntas fechadas, você pode criar respostas na página **Grupos de respostas**.</span><span class="sxs-lookup"><span data-stu-id="a085c-177">To provide a list of possible answers for closed-ended questions, you can create answers on the **Answer groups** page.</span></span> 
 
-Os grupos de respostas e as respostas são componentes que compõem o corpo principal de informações a partir do qual as perguntas são criadas. Depois que você criar um grupo de resposta, poderá associá-lo a uma pergunta no campo **Grupo de respostas** na página **Perguntas**. 
+<span data-ttu-id="a085c-178">Os grupos de respostas e as respostas são componentes que compõem o corpo principal de informações a partir do qual as perguntas são criadas.</span><span class="sxs-lookup"><span data-stu-id="a085c-178">Answer groups and answers are components that make up the main body of information that questions are created from.</span></span> <span data-ttu-id="a085c-179">Depois que você criar um grupo de resposta, poderá associá-lo a uma pergunta no campo **Grupo de respostas** na página **Perguntas**.</span><span class="sxs-lookup"><span data-stu-id="a085c-179">After you create an answer group, you can associate the answer group with a question in the **Answer group** field on the **Questions** page.</span></span> 
 
-Um grupo de respostas pode ser usado para mais de uma pergunta no mesmo questionário e em mais de uma questionário. 
+<span data-ttu-id="a085c-180">Um grupo de respostas pode ser usado para mais de uma pergunta no mesmo questionário e em mais de uma questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-180">An answer group can be used for more than one question on the same questionnaire, and can also be used on more than one questionnaire.</span></span> 
 
->**Observação:** Se você alterar o texto de resposta nos grupos de respostas que já foram usados em questionários preenchidos, os dados podem se tornar difíceis de avaliar, e os resultados do questionário podem não mais ser válidos. Se você precisar alterar um grupo de respostas, considere criar um novo grupo de respostas em vez de alterar o existente. Não é possível excluir grupos de resposta anexados a uma pergunta ou a uma resposta, ou que foram respondidos.
+><span data-ttu-id="a085c-181">**Observação:** Se você alterar o texto de resposta nos grupos de respostas que já foram usados em questionários preenchidos, os dados podem se tornar difíceis de avaliar, e os resultados do questionário podem não mais ser válidos.</span><span class="sxs-lookup"><span data-stu-id="a085c-181">**Note** If you modify answer text in answer groups that have already been used on completed questionnaires, data can become difficult to evaluate, and questionnaire results might no longer be valid.</span></span> <span data-ttu-id="a085c-182">Se você precisar alterar um grupo de respostas, considere criar um novo grupo de respostas em vez de alterar o existente.</span><span class="sxs-lookup"><span data-stu-id="a085c-182">If you must change an answer group, consider creating a new answer group instead of changing an existing one.</span></span> <span data-ttu-id="a085c-183">Não é possível excluir grupos de resposta anexados a uma pergunta ou a uma resposta, ou que foram respondidos.</span><span class="sxs-lookup"><span data-stu-id="a085c-183">You can't delete answer groups that are attached to a question or answer, or that have been answered.</span></span>
 
-### Perguntas
-<a id="questions" class="xliff"></a>
+### <a name="questions"></a><span data-ttu-id="a085c-184">Perguntas</span><span class="sxs-lookup"><span data-stu-id="a085c-184">Questions</span></span>
 
-Um questionário deve conter perguntas. As perguntas podem ser abertas ou fechadas.
+<span data-ttu-id="a085c-185">Um questionário deve conter perguntas.</span><span class="sxs-lookup"><span data-stu-id="a085c-185">A questionnaire must contain questions.</span></span> <span data-ttu-id="a085c-186">As perguntas podem ser abertas ou fechadas.</span><span class="sxs-lookup"><span data-stu-id="a085c-186">Questions can be either open-ended or closed-ended.</span></span>
 
--   As perguntas abertas não são controladas, e os respondentes poderão digite as respostas.
--   As perguntas fechadas exigem uma lista de opções pré-definidas de respostas, e as perguntas podem ser estruturas para permitir que o participante selecione múltiplas respostas. As perguntas devem ser criadas para extrair informações específicas de um participante e devem estar vinculadas a um grupo de respostas que fornece opções de respostas para cada pergunta fechada. 
-    >**Observação:** Antes de configurar perguntas fechadas, você deve criar grupos de respostas e respostas.
+-   <span data-ttu-id="a085c-187">As perguntas abertas não são controladas, e os respondentes poderão digite as respostas.</span><span class="sxs-lookup"><span data-stu-id="a085c-187">The responses to open-ended questions aren't controlled, and respondents can type their answers.</span></span>
+-   <span data-ttu-id="a085c-188">As perguntas fechadas exigem uma lista de opções pré-definidas de respostas, e as perguntas podem ser estruturas para permitir que o participante selecione múltiplas respostas.</span><span class="sxs-lookup"><span data-stu-id="a085c-188">Closed-ended questions require a list of predefined response options, and the questions can be structured to let a respondent select multiple responses.</span></span> <span data-ttu-id="a085c-189">As perguntas devem ser criadas para extrair informações específicas de um participante e devem estar vinculadas a um grupo de respostas que fornece opções de respostas para cada pergunta fechada.</span><span class="sxs-lookup"><span data-stu-id="a085c-189">Questions should be designed to elicit specific information from a respondent and must be linked to an answer group that provides the response options for each closed-ended question.</span></span> 
+    ><span data-ttu-id="a085c-190">**Observação:** Antes de configurar perguntas fechadas, você deve criar grupos de respostas e respostas.</span><span class="sxs-lookup"><span data-stu-id="a085c-190">**Note** Before you can set up closed-ended questions, you must create answer groups and answers.</span></span>
 
-As perguntas podem ser organizadas em uma hierarquia de perguntas condicionais, de tal modo que as perguntas secundárias sejam dependentes da resposta selecionada por um participante para a pergunta anterior. Você pode escrever as perguntas primeiro e então organizá-las em uma hierarquia posteriormente.
+<span data-ttu-id="a085c-191">As perguntas podem ser organizadas em uma hierarquia de perguntas condicionais, de tal modo que as perguntas secundárias sejam dependentes da resposta selecionada por um participante para a pergunta anterior.</span><span class="sxs-lookup"><span data-stu-id="a085c-191">Questions can be arranged in a conditional question hierarchy, so that secondary questions depend on the answer that the respondent selects for the previous question.</span></span> <span data-ttu-id="a085c-192">Você pode escrever as perguntas primeiro e então organizá-las em uma hierarquia posteriormente.</span><span class="sxs-lookup"><span data-stu-id="a085c-192">You can write the questions first and then arrange them into a hierarchy later.</span></span>
 
-## Configurando questionários
-<a id="setting-up-questionnaires" class="xliff"></a>
->**Observação**
->  Antes de configurar um questionário, você deve configurar as respostas, perguntas e pré-requisitos. 
+## <a name="setting-up-questionnaires"></a><span data-ttu-id="a085c-193">Configurando questionários</span><span class="sxs-lookup"><span data-stu-id="a085c-193">Setting up questionnaires</span></span>
+><span data-ttu-id="a085c-194">**Observação**
+>  Antes de configurar um questionário, você deve configurar as respostas, perguntas e pré-requisitos.</span><span class="sxs-lookup"><span data-stu-id="a085c-194">**Note**
+ Before you can set up a questionnaire, you must set up answers, questions, and prerequisites.</span></span> 
 
-Para cada questionário, você pode especificar as informações a seguir:
+<span data-ttu-id="a085c-195">Para cada questionário, você pode especificar as informações a seguir:</span><span class="sxs-lookup"><span data-stu-id="a085c-195">For each questionnaire, you can specify the following information:</span></span>
 
--   O tempo total ou o limite de tempo para responder às perguntas obrigatórias.
--   Se todas as perguntas são obrigatórias.
--   Se deseja calcular pontos em um questionário.
--   Como categorizar os resultados.
--   Se o questionário ficará disponível em um conjunto restrito de participantes.
--   Se um modelo de formulário deve ser exibido como plano de fundo de cada página do questionário.
--   Se observações adicionais forem necessárias para esclarecer o objetivo do questionário aos participantes.
--   Se deseja exibir as perguntas em uma sequência fixa ou selecioná-las aleatoriamente em um grupo.
--   Se as perguntas forem feitas somente se as respostas anteriores específicas forem fornecidas.
+-   <span data-ttu-id="a085c-196">O tempo total ou o limite de tempo para responder às perguntas obrigatórias.</span><span class="sxs-lookup"><span data-stu-id="a085c-196">The total time or time limit to answer mandatory questions.</span></span>
+-   <span data-ttu-id="a085c-197">Se todas as perguntas são obrigatórias.</span><span class="sxs-lookup"><span data-stu-id="a085c-197">Whether all questions are mandatory.</span></span>
+-   <span data-ttu-id="a085c-198">Se deseja calcular pontos em um questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-198">Whether to calculate points on a questionnaire.</span></span>
+-   <span data-ttu-id="a085c-199">Como categorizar os resultados.</span><span class="sxs-lookup"><span data-stu-id="a085c-199">How to categorize results.</span></span>
+-   <span data-ttu-id="a085c-200">Se o questionário ficará disponível em um conjunto restrito de participantes.</span><span class="sxs-lookup"><span data-stu-id="a085c-200">Whether the questionnaire will be available to a restricted set of respondents.</span></span>
+-   <span data-ttu-id="a085c-201">Se um modelo de formulário deve ser exibido como plano de fundo de cada página do questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-201">Whether a form template should be displayed as a background behind each page of the questionnaire.</span></span>
+-   <span data-ttu-id="a085c-202">Se observações adicionais forem necessárias para esclarecer o objetivo do questionário aos participantes.</span><span class="sxs-lookup"><span data-stu-id="a085c-202">Whether additional notes are required in order to clarify the intent of the questionnaire for the respondents.</span></span>
+-   <span data-ttu-id="a085c-203">Se deseja exibir as perguntas em uma sequência fixa ou selecioná-las aleatoriamente em um grupo.</span><span class="sxs-lookup"><span data-stu-id="a085c-203">Whether to display questions in a fixed order or randomly select them from a pool.</span></span>
+-   <span data-ttu-id="a085c-204">Se as perguntas forem feitas somente se as respostas anteriores específicas forem fornecidas.</span><span class="sxs-lookup"><span data-stu-id="a085c-204">Whether questions will be asked only if specific responses are given for previous answers.</span></span>
 
-### Configurar um questionário
-<a id="set-up-a-questionnaire" class="xliff"></a>
+### <a name="set-up-a-questionnaire"></a><span data-ttu-id="a085c-205">Configurar um questionário</span><span class="sxs-lookup"><span data-stu-id="a085c-205">Set up a questionnaire</span></span>
 
-A página principal que você usa para configurar um questionário é página **Questionários**. Para configurar um questionário, conclua as seguintes tarefas na ordem:
+<span data-ttu-id="a085c-206">A página principal que você usa para configurar um questionário é página **Questionários**.</span><span class="sxs-lookup"><span data-stu-id="a085c-206">The primary page that you use to set up a questionnaire is the **Questionnaires** page.</span></span> <span data-ttu-id="a085c-207">Para configurar um questionário, conclua as seguintes tarefas na ordem:</span><span class="sxs-lookup"><span data-stu-id="a085c-207">To set up a questionnaire, complete the following tasks in order:</span></span>
 
-1.  Criar um questionário.
-2.  Siga uma dessas etapas para anexar perguntas ao questionário:
-    -   Se você estiver usando grupos de resultados, você pode anexar perguntas a um questionário usando grupos de resultados. Primeiro, configure os grupos de resultados para o questionário e, em seguida, adicione perguntas a eles.
-    -   Se você não usar grupos de resultados, você pode anexar perguntas diretamente no questionário.
+1.  <span data-ttu-id="a085c-208">Criar um questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-208">Create a questionnaire.</span></span>
+2.  <span data-ttu-id="a085c-209">Siga uma dessas etapas para anexar perguntas ao questionário:</span><span class="sxs-lookup"><span data-stu-id="a085c-209">Follow one of these steps to attach questions to the questionnaire:</span></span>
+    -   <span data-ttu-id="a085c-210">Se você estiver usando grupos de resultados, você pode anexar perguntas a um questionário usando grupos de resultados.</span><span class="sxs-lookup"><span data-stu-id="a085c-210">If you're using result groups, you can attach questions to a questionnaire by using result groups.</span></span> <span data-ttu-id="a085c-211">Primeiro, configure os grupos de resultados para o questionário e, em seguida, adicione perguntas a eles.</span><span class="sxs-lookup"><span data-stu-id="a085c-211">First set up the result groups for the questionnaire, and then add questions to the result groups.</span></span>
+    -   <span data-ttu-id="a085c-212">Se você não usar grupos de resultados, você pode anexar perguntas diretamente no questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-212">If you aren't using result groups, you can attach questions directly to the questionnaire.</span></span>
 
-3.  Configurar uma hierarquia de pergunta condicional, se necessário.
-4.  Teste o questionário.
+3.  <span data-ttu-id="a085c-213">Configurar uma hierarquia de pergunta condicional, se necessário.</span><span class="sxs-lookup"><span data-stu-id="a085c-213">Set up a conditional question hierarchy, if it's required.</span></span>
+4.  <span data-ttu-id="a085c-214">Teste o questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-214">Test the questionnaire.</span></span>
 
-Na página **Questionários**, clique em **Validar** para testar se o questionário está agrupado corretamente. No entanto, também é recomendado que você preencha o questionário e o teste você mesmo antes de distribuir.
+<span data-ttu-id="a085c-215">Na página **Questionários**, clique em **Validar** para testar se o questionário está agrupado corretamente.</span><span class="sxs-lookup"><span data-stu-id="a085c-215">On the **Questionnaires** page, click **Validate** to test whether the questionnaire is assembled correctly.</span></span> <span data-ttu-id="a085c-216">No entanto, também é recomendado que você preencha o questionário e o teste você mesmo antes de distribuir.</span><span class="sxs-lookup"><span data-stu-id="a085c-216">However, it's also a good idea to complete the questionnaire and test it yourself before you distribute it.</span></span>
 
-### Modificar um questionário
-<a id="modify-a-questionnaire" class="xliff"></a>
+### <a name="modify-a-questionnaire"></a><span data-ttu-id="a085c-217">Modificar um questionário</span><span class="sxs-lookup"><span data-stu-id="a085c-217">Modify a questionnaire</span></span>
 
-Você pode concluir as seguintes tarefas na página **Questionários**:
+<span data-ttu-id="a085c-218">Você pode concluir as seguintes tarefas na página **Questionários**:</span><span class="sxs-lookup"><span data-stu-id="a085c-218">You can complete the following tasks on the **Questionnaires** page:</span></span>
 
--   Modificar informações no questionário, como os grupos de resultados e perguntas.
--   Excluir e adicionar perguntas.
--   Fazer alterações nos grupos de resultados e no número de seqüência. 
+-   <span data-ttu-id="a085c-219">Modificar informações no questionário, como os grupos de resultados e perguntas.</span><span class="sxs-lookup"><span data-stu-id="a085c-219">Modify information in the questionnaire, such as the result groups and questions.</span></span>
+-   <span data-ttu-id="a085c-220">Excluir e adicionar perguntas.</span><span class="sxs-lookup"><span data-stu-id="a085c-220">Delete and add questions.</span></span>
+-   <span data-ttu-id="a085c-221">Fazer alterações nos grupos de resultados e no número de seqüência.</span><span class="sxs-lookup"><span data-stu-id="a085c-221">Make changes in the result groups and sequence number.</span></span> 
 
->**Atenção:** Tenha cuidado ao alterar os questionários já respondidos. As alterações podem reduzir a precisão da estatísticas e, consequentemente, torná-las uma base insuficiente para a avaliação. Considere a criação de uma nova pergunta em vez de alterar uma pergunta que foi respondida anteriormente.
+><span data-ttu-id="a085c-222">**Atenção:** Tenha cuidado ao alterar os questionários já respondidos.</span><span class="sxs-lookup"><span data-stu-id="a085c-222">**Caution** Be careful when you change questionnaires that have already been answered.</span></span> <span data-ttu-id="a085c-223">As alterações podem reduzir a precisão da estatísticas e, consequentemente, torná-las uma base insuficiente para a avaliação.</span><span class="sxs-lookup"><span data-stu-id="a085c-223">Changes can reduce the accuracy of statistics and therefore make them a poor basis for evaluation.</span></span> <span data-ttu-id="a085c-224">Considere a criação de uma nova pergunta em vez de alterar uma pergunta que foi respondida anteriormente.</span><span class="sxs-lookup"><span data-stu-id="a085c-224">Consider creating a new question instead of changing a question that has already been answered.</span></span>
 
-Em um questionário, você não pode excluir os seguintes tipos de pergunta:
+<span data-ttu-id="a085c-225">Em um questionário, você não pode excluir os seguintes tipos de pergunta:</span><span class="sxs-lookup"><span data-stu-id="a085c-225">In a questionnaire, you can't delete the following types of questions:</span></span>
 
--   Perguntas anexadas a um questionário
--   Perguntas que já foram respondidas e que aparecem na caixa de diálogo **Respostas**.
+-   <span data-ttu-id="a085c-226">Perguntas anexadas a um questionário</span><span class="sxs-lookup"><span data-stu-id="a085c-226">Questions that are attached to a questionnaire</span></span>
+-   <span data-ttu-id="a085c-227">Perguntas que já foram respondidas e que aparecem na caixa de diálogo **Respostas**.</span><span class="sxs-lookup"><span data-stu-id="a085c-227">Questions that have already been answered and therefore appear in the **Answers** dialog box.</span></span>
 
-### Grupos de resultados
-<a id="result-groups" class="xliff"></a>
+### <a name="result-groups"></a><span data-ttu-id="a085c-228">Grupos de resultados</span><span class="sxs-lookup"><span data-stu-id="a085c-228">Result groups</span></span>
 
-Os grupos de resultados são opcionais ao anexar perguntas a um questionário. 
+<span data-ttu-id="a085c-229">Os grupos de resultados são opcionais ao anexar perguntas a um questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-229">Result groups are optional when you attach questions to a questionnaire.</span></span> 
 
-Um grupo de resultados é usado para calcular pontos e categorizar os resultados de um questionário. Se você usar grupos de resultados, você pode executar as seguintes tarefas:
+<span data-ttu-id="a085c-230">Um grupo de resultados é usado para calcular pontos e categorizar os resultados de um questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-230">A result group is used to calculate points and categorize the results of a questionnaire.</span></span> <span data-ttu-id="a085c-231">Se você usar grupos de resultados, você pode executar as seguintes tarefas:</span><span class="sxs-lookup"><span data-stu-id="a085c-231">If you use result groups, you can perform the following tasks:</span></span>
 
--   Avaliar o questionário com base nos resultados das estatísticas de ponto.
--   Avaliar a contagem de um participante para cada grupo de resultado que você configurou.
--   Gere estatísticas para cada grupo de resultados para ajudar na análise dos resultados.
--   Imprimir um relatório que mostre os resultados para cada grupo de resultados e também pontos/textos opcionais que são baseados nos pontos obtidos em cada grupo de resultado.
+-   <span data-ttu-id="a085c-232">Avaliar o questionário com base nos resultados das estatísticas de ponto.</span><span class="sxs-lookup"><span data-stu-id="a085c-232">Evaluate questionnaire results, based on point statistics.</span></span>
+-   <span data-ttu-id="a085c-233">Avaliar a contagem de um participante para cada grupo de resultado que você configurou.</span><span class="sxs-lookup"><span data-stu-id="a085c-233">Evaluate a respondent’s score for each result group that you set up.</span></span>
+-   <span data-ttu-id="a085c-234">Gere estatísticas para cada grupo de resultados para ajudar na análise dos resultados.</span><span class="sxs-lookup"><span data-stu-id="a085c-234">Generate statistics for each result group to help you analyze results.</span></span>
+-   <span data-ttu-id="a085c-235">Imprimir um relatório que mostre os resultados para cada grupo de resultados e também pontos/textos opcionais que são baseados nos pontos obtidos em cada grupo de resultado.</span><span class="sxs-lookup"><span data-stu-id="a085c-235">Print a report that shows results for each result group, and also optional points/texts that are based on points that are earned in each result group.</span></span>
 
-> **Observação**
->   Antes de configurar os grupos de resultados, conclua as seguintes tarefas:
+> <span data-ttu-id="a085c-236">**Observação**
+>   Antes de configurar os grupos de resultados, conclua as seguintes tarefas:</span><span class="sxs-lookup"><span data-stu-id="a085c-236">**Note**
+  Before you can set up result groups, you must complete the following tasks:</span></span>
 
--   Perguntas fechadas de configuração. Para uma pergunta fechada, o tipo de entrada na página **Perguntas** deve ser **Caixa de seleção**, **Botão alternativo**, ou **Caixa de combinação**.
--   Definir pontos para respostas nos grupos de respostas que são atribuídos a cada pergunta.
--   Configurar um questionário.
+-   <span data-ttu-id="a085c-237">Perguntas fechadas de configuração.</span><span class="sxs-lookup"><span data-stu-id="a085c-237">Set up closed-ended questions.</span></span> <span data-ttu-id="a085c-238">Para uma pergunta fechada, o tipo de entrada na página **Perguntas** deve ser **Caixa de seleção**, **Botão alternativo**, ou **Caixa de combinação**.</span><span class="sxs-lookup"><span data-stu-id="a085c-238">For a closed-ended question, the input type on the **Questions** page must be **Check box**, **Alternative button**, or **Combo box**.</span></span>
+-   <span data-ttu-id="a085c-239">Definir pontos para respostas nos grupos de respostas que são atribuídos a cada pergunta.</span><span class="sxs-lookup"><span data-stu-id="a085c-239">Define points for answers in the answer groups that are assigned to each question.</span></span>
+-   <span data-ttu-id="a085c-240">Configurar um questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-240">Set up a questionnaire.</span></span>
 
-Para anexar perguntas a um questionário usando grupos de resultados, primeiro configure os grupos de resultados do questionário e adicione questões aos grupos de resultados. Se você não usar grupos de resultados, você pode anexar perguntas diretamente no questionário. 
+<span data-ttu-id="a085c-241">Para anexar perguntas a um questionário usando grupos de resultados, primeiro configure os grupos de resultados do questionário e adicione questões aos grupos de resultados.</span><span class="sxs-lookup"><span data-stu-id="a085c-241">To attach questions to a questionnaire by using result groups, first set up the result groups for the questionnaire, and then add questions to the result groups.</span></span> <span data-ttu-id="a085c-242">Se você não usar grupos de resultados, você pode anexar perguntas diretamente no questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-242">If you don't use result groups, you can attach questions directly to a questionnaire.</span></span> 
 
-Você pode configurar vários grupos de resultados para avaliar os pontos obtidos por um participante em cada categoria. Depois que um questionário é concluído, você pode exibir os pontos que foram obtidos para cada grupo de resultados. 
+<span data-ttu-id="a085c-243">Você pode configurar vários grupos de resultados para avaliar os pontos obtidos por um participante em cada categoria.</span><span class="sxs-lookup"><span data-stu-id="a085c-243">You can set up multiple result groups to evaluate the points that a respondent earns in each category.</span></span> <span data-ttu-id="a085c-244">Depois que um questionário é concluído, você pode exibir os pontos que foram obtidos para cada grupo de resultados.</span><span class="sxs-lookup"><span data-stu-id="a085c-244">After a questionnaire is completed, you can view the points that have been achieved for each result group.</span></span> 
 
-> **Dica**
->    Para avaliar um questionário usando pontos, mas não categorias separadas, você pode adicionar todas as perguntas a um único grupo de resultados. 
+> <span data-ttu-id="a085c-245">**Dica**
+>    Para avaliar um questionário usando pontos, mas não categorias separadas, você pode adicionar todas as perguntas a um único grupo de resultados.</span><span class="sxs-lookup"><span data-stu-id="a085c-245">**Tip**
+   To evaluate a questionnaire by using points but not separate categories, you can add all questions to a single result group.</span></span> 
 
-Para cada grupo de resultados, você também pode configurar uma ou mais mensagens baseadas em pontuação que são exibidas a um participante após a conclusão de um questionário. O texto exibido pode variar de acordo com a pontuação atingida pelo participante em um grupo de resultados. Para usar mensagens baseadas em pontuação, você deve definir intervalos de pontos e uma descrição de cada intervalo. Quando um participante alcança uma pontuação em um intervalo específico, o texto referente ao intervalo é incluído no relatório de resultados. 
+<span data-ttu-id="a085c-246">Para cada grupo de resultados, você também pode configurar uma ou mais mensagens baseadas em pontuação que são exibidas a um participante após a conclusão de um questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-246">For each result group, you can also set up one or more point-based messages that respondents receive after they complete a questionnaire.</span></span> <span data-ttu-id="a085c-247">O texto exibido pode variar de acordo com a pontuação atingida pelo participante em um grupo de resultados.</span><span class="sxs-lookup"><span data-stu-id="a085c-247">The text that is shown can vary, depending on the score that a respondent achieves in a result group.</span></span> <span data-ttu-id="a085c-248">Para usar mensagens baseadas em pontuação, você deve definir intervalos de pontos e uma descrição de cada intervalo.</span><span class="sxs-lookup"><span data-stu-id="a085c-248">To use point-based messages, you must define point intervals and a description of each interval.</span></span> <span data-ttu-id="a085c-249">Quando um participante alcança uma pontuação em um intervalo específico, o texto referente ao intervalo é incluído no relatório de resultados.</span><span class="sxs-lookup"><span data-stu-id="a085c-249">When a respondent achieves a score in a specific interval, the text for that interval is included on the results report.</span></span> 
 
-Como um grupo de resultados está relacionado aos pontos associados a conjuntos específicos de perguntas em um questionário, você também pode usar somente um grupo de resultados específicos para um questionário.
+<span data-ttu-id="a085c-250">Como um grupo de resultados está relacionado aos pontos associados a conjuntos específicos de perguntas em um questionário, você também pode usar somente um grupo de resultados específicos para um questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-250">Because a result group is related to the points that are associated with specific sets of questions on a questionnaire, you can use only a specific result group for a questionnaire.</span></span>
 
-#### Exemplo: Pontos/textos para um grupo de resultados 3
-<a id="example-pointstexts-for-result-group-3" class="xliff"></a>
+#### <a name="example-pointstexts-for-result-group-3"></a><span data-ttu-id="a085c-251">Exemplo: Pontos/textos para um grupo de resultados 3</span><span class="sxs-lookup"><span data-stu-id="a085c-251">Example: Points/texts for result group 3</span></span>
 
-Você estiver usando um questionário para um teste de liderança com 15 perguntas em três categorias. Crie três grupos de resultados e adicione cinco perguntas para cada um deles. Os pontos são totalizados em três grupos. Os três grupos de resultados são os seguintes:
+<span data-ttu-id="a085c-252">Você estiver usando um questionário para um teste de liderança com 15 perguntas em três categorias.</span><span class="sxs-lookup"><span data-stu-id="a085c-252">You're using a questionnaire for a leadership test that has 15 questions in three categories.</span></span> <span data-ttu-id="a085c-253">Crie três grupos de resultados e adicione cinco perguntas para cada um deles.</span><span class="sxs-lookup"><span data-stu-id="a085c-253">You create three result groups and add five questions to each result group.</span></span> <span data-ttu-id="a085c-254">Os pontos são totalizados em três grupos.</span><span class="sxs-lookup"><span data-stu-id="a085c-254">Points are then totaled in the three groups.</span></span> <span data-ttu-id="a085c-255">Os três grupos de resultados são os seguintes:</span><span class="sxs-lookup"><span data-stu-id="a085c-255">The three result groups are as follows:</span></span>
 
--   Habilidades criativas
--   Habilidades de liderança
--   Habilidades técnicas
+-   <span data-ttu-id="a085c-256">Habilidades criativas</span><span class="sxs-lookup"><span data-stu-id="a085c-256">Creative abilities</span></span>
+-   <span data-ttu-id="a085c-257">Habilidades de liderança</span><span class="sxs-lookup"><span data-stu-id="a085c-257">Leadership abilities</span></span>
+-   <span data-ttu-id="a085c-258">Habilidades técnicas</span><span class="sxs-lookup"><span data-stu-id="a085c-258">Technical abilities</span></span>
 
-Para usar as mensagens baseadas em pontuação, configure intervalos de texto para cada grupo de resultados. Cada pergunta equivale a dois pontos. Portanto, o total máximo de pontos em cada grupo de resultados é 10. 
+<span data-ttu-id="a085c-259">Para usar as mensagens baseadas em pontuação, configure intervalos de texto para cada grupo de resultados.</span><span class="sxs-lookup"><span data-stu-id="a085c-259">To use point-based messages, you set up text intervals for each result group.</span></span> <span data-ttu-id="a085c-260">Cada pergunta equivale a dois pontos.</span><span class="sxs-lookup"><span data-stu-id="a085c-260">Each question is assigned two points.</span></span> <span data-ttu-id="a085c-261">Portanto, o total máximo de pontos em cada grupo de resultados é 10.</span><span class="sxs-lookup"><span data-stu-id="a085c-261">Therefore, the maximum point total in each result group is 10.</span></span> 
 
-A tabela mostra as mensagens baseadas em ponto que você define para o grupo de resultado "habilidades de liderança".
+<span data-ttu-id="a085c-262">A tabela mostra as mensagens baseadas em ponto que você define para o grupo de resultado "habilidades de liderança".</span><span class="sxs-lookup"><span data-stu-id="a085c-262">The following table shows the point-based messages that you define for the “leadership abilities” result group.</span></span>
 
-| Intervalo de pontos | Texto                                       |
+| <span data-ttu-id="a085c-263">Intervalo de pontos</span><span class="sxs-lookup"><span data-stu-id="a085c-263">Point interval</span></span> | <span data-ttu-id="a085c-264">Texto</span><span class="sxs-lookup"><span data-stu-id="a085c-264">Text</span></span>                                       |
 |----------------|--------------------------------------------|
-| 1 a 3         | Você tem as capacidades médias de liderança.     |
-| 4 a 7         | Você tem boas capacidades de liderança.        |
-| 8 a 10        | Você tem excelentes capacidades de liderança. |
+| <span data-ttu-id="a085c-265">1 a 3</span><span class="sxs-lookup"><span data-stu-id="a085c-265">1 to 3</span></span>         | <span data-ttu-id="a085c-266">Você tem as capacidades médias de liderança.</span><span class="sxs-lookup"><span data-stu-id="a085c-266">You have average leadership abilities.</span></span>     |
+| <span data-ttu-id="a085c-267">4 a 7</span><span class="sxs-lookup"><span data-stu-id="a085c-267">4 to 7</span></span>         | <span data-ttu-id="a085c-268">Você tem boas capacidades de liderança.</span><span class="sxs-lookup"><span data-stu-id="a085c-268">You have good leadership abilities.</span></span>        |
+| <span data-ttu-id="a085c-269">8 a 10</span><span class="sxs-lookup"><span data-stu-id="a085c-269">8 to 10</span></span>        | <span data-ttu-id="a085c-270">Você tem excelentes capacidades de liderança.</span><span class="sxs-lookup"><span data-stu-id="a085c-270">You have outstanding leadership abilities.</span></span> |
 
-Você pode configurar intervalos e textos de pontos para cada grupo de resultados de um questionário. Os textos que correspondem à pontuação de cada participante são exibidos para cada grupo de resultados. 
+<span data-ttu-id="a085c-271">Você pode configurar intervalos e textos de pontos para cada grupo de resultados de um questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-271">You can set up point intervals and texts for each result group on a questionnaire.</span></span> <span data-ttu-id="a085c-272">Os textos que correspondem à pontuação de cada participante são exibidos para cada grupo de resultados.</span><span class="sxs-lookup"><span data-stu-id="a085c-272">Texts that correspond to each respondent’s score are displayed for each result group.</span></span> 
 
-> **Observação**
->   Você pode alterar intervalos e textos. Contudo, depois que um questionário for concluído, as alterações poderão causar diferenças entre relatórios de resultados anteriores e novos.
+> <span data-ttu-id="a085c-273">**Observação**
+>   Você pode alterar intervalos e textos.</span><span class="sxs-lookup"><span data-stu-id="a085c-273">**Note**
+  You can change intervals and texts.</span></span> <span data-ttu-id="a085c-274">Contudo, depois que um questionário for concluído, as alterações poderão causar diferenças entre relatórios de resultados anteriores e novos.</span><span class="sxs-lookup"><span data-stu-id="a085c-274">However, if a questionnaire has been completed, changes might cause differences between previous and new result reports.</span></span>
 
-### Hierarquias de perguntas condicionais
-<a id="conditional-question-hierarchies" class="xliff"></a>
+### <a name="conditional-question-hierarchies"></a><span data-ttu-id="a085c-275">Hierarquias de perguntas condicionais</span><span class="sxs-lookup"><span data-stu-id="a085c-275">Conditional question hierarchies</span></span>
 
-As hierarquias de perguntas condicionais são opcionais quando você configura um questionário. 
+<span data-ttu-id="a085c-276">As hierarquias de perguntas condicionais são opcionais quando você configura um questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-276">Conditional question hierarchies are optional when you set up a questionnaire.</span></span> 
 
-> **Observação**
->   Antes que você possa configurar uma hierarquia de perguntas condicionais, você deve anexar as perguntas com os grupos de resposta atribuídos ao questionário. 
+> <span data-ttu-id="a085c-277">**Observação**
+>   Antes que você possa configurar uma hierarquia de perguntas condicionais, você deve anexar as perguntas com os grupos de resposta atribuídos ao questionário.</span><span class="sxs-lookup"><span data-stu-id="a085c-277">**Note**
+  Before you can set up a conditional question hierarchy, you must attach questions that have assigned answer groups to the questionnaire.</span></span> 
 
-Para usar perguntas condicionais para criar uma hierarquia de perguntas em um questionário, você pode fazer a sequência em que as perguntas são apresentadas de acordo com as respostas selecionadas por um participante para cada pergunta. Ao basear a sequência das perguntas na seleção de resposta do participante, você pode modificar o questionário conforme o participante o conclui.
+<span data-ttu-id="a085c-278">Para usar perguntas condicionais para criar uma hierarquia de perguntas em um questionário, você pode fazer a sequência em que as perguntas são apresentadas de acordo com as respostas selecionadas por um participante para cada pergunta.</span><span class="sxs-lookup"><span data-stu-id="a085c-278">To use conditional questions to create a question hierarchy in a questionnaire, you can make the sequence that questions are presented in depend on the answer that a respondent selects for each question.</span></span> <span data-ttu-id="a085c-279">Ao basear a sequência das perguntas na seleção de resposta do participante, você pode modificar o questionário conforme o participante o conclui.</span><span class="sxs-lookup"><span data-stu-id="a085c-279">By basing the question sequence on a respondent’s answer, you can modify the questionnaire as the respondent completes it.</span></span>
 
-#### Exemplos
-<a id="examples" class="xliff"></a>
+#### <a name="examples"></a><span data-ttu-id="a085c-280">Exemplos</span><span class="sxs-lookup"><span data-stu-id="a085c-280">Examples</span></span>
 
-Uma entidade legal oferece serviços e itens para seus clientes. Como normalmente ocorre em tais casos, alguns clientes adquirem apenas itens, alguns adquirem apenas serviços, e alguns adquirem itens e serviços. Portanto, quando a entidade legal distribui uma pesquisa de satisfação de cliente, ela aplica uma estrutura condicional ao questionário para impedir que os clientes que só adquirem serviços não precisem responder perguntas sobre itens. 
+<span data-ttu-id="a085c-281">Uma entidade legal oferece serviços e itens para seus clientes.</span><span class="sxs-lookup"><span data-stu-id="a085c-281">A legal entity offers both items and services to its customers.</span></span> <span data-ttu-id="a085c-282">Como normalmente ocorre em tais casos, alguns clientes adquirem apenas itens, alguns adquirem apenas serviços, e alguns adquirem itens e serviços.</span><span class="sxs-lookup"><span data-stu-id="a085c-282">As typically occurs in such cases, some customers purchase only items, some purchase only services, and some purchase both items and services.</span></span> <span data-ttu-id="a085c-283">Portanto, quando a entidade legal distribui uma pesquisa de satisfação de cliente, ela aplica uma estrutura condicional ao questionário para impedir que os clientes que só adquirem serviços não precisem responder perguntas sobre itens.</span><span class="sxs-lookup"><span data-stu-id="a085c-283">Therefore, when the legal entity distributes a customer satisfaction survey, it applies a conditional structure to the questionnaire, so that customers who purchase only services don't have to answer questions about items.</span></span> 
 
-Como alternativa, você pode definir um questionário para que se um participante selecionar a resposta A para a pergunta 1, a pergunta 2 seja a próxima na sequência de perguntas. No entanto, se o participante selecionar a resposta B para a pergunta 1, a pergunta 5 será a próxima.
+<span data-ttu-id="a085c-284">Como alternativa, você pode definir um questionário para que se um participante selecionar a resposta A para a pergunta 1, a pergunta 2 seja a próxima na sequência de perguntas.</span><span class="sxs-lookup"><span data-stu-id="a085c-284">Alternatively, you set up a questionnaire so that if a respondent selects answer A for question 1, question 2 is next in the question sequence.</span></span> <span data-ttu-id="a085c-285">No entanto, se o participante selecionar a resposta B para a pergunta 1, a pergunta 5 será a próxima.</span><span class="sxs-lookup"><span data-stu-id="a085c-285">However, if the respondent selects answer B for question 1, question 5 is next.</span></span>
 
-Consulte também
-<a id="see-also" class="xliff"></a>
+<a name="see-also"></a><span data-ttu-id="a085c-286">Consulte também</span><span class="sxs-lookup"><span data-stu-id="a085c-286">See also</span></span>
 --------
 
-[Usando questionários](questionnaires.md)
+[<span data-ttu-id="a085c-287">Usando questionários</span><span class="sxs-lookup"><span data-stu-id="a085c-287">Using questionnaires</span></span>](questionnaires.md)
 
-[Distribuindo e preenchendo questionários](distribute-questionnaires.md)
+[<span data-ttu-id="a085c-288">Distribuindo e preenchendo questionários</span><span class="sxs-lookup"><span data-stu-id="a085c-288">Distributing and completing questionnaires</span></span>](distribute-questionnaires.md)
 
-[Exibindo e avaliando os resultados dos questionários](evaluate-questionnaire-results.md)
+[<span data-ttu-id="a085c-289">Exibindo e avaliando os resultados dos questionários</span><span class="sxs-lookup"><span data-stu-id="a085c-289">Viewing and evaluating the results of questionnaires</span></span>](evaluate-questionnaire-results.md)
 
 
 

@@ -16,53 +16,53 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: aa2bb25207be4fde43ae9dee85ee6868b1b58972
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 956edeac33f8531ecebef64301f2318333000429
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-delivery-schedule"></a>Criar uma agenda de entrega
+# <a name="create-a-delivery-schedule"></a><span data-ttu-id="61f4e-103">Criar uma agenda de entrega</span><span class="sxs-lookup"><span data-stu-id="61f4e-103">Create a delivery schedule</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento demonstra como criar uma agenda de entrega para ordem de venda. Um plano de entrega é usado quando uma quantidade em uma ordem ou cotação for exigido para ser entregue em várias remessas. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
+<span data-ttu-id="61f4e-104">Este procedimento demonstra como criar uma agenda de entrega para ordem de venda.</span><span class="sxs-lookup"><span data-stu-id="61f4e-104">This procedure demonstrates how to create a delivery schedule for a sales order.</span></span> <span data-ttu-id="61f4e-105">Um plano de entrega é usado quando uma quantidade em uma ordem ou cotação for exigido para ser entregue em várias remessas.</span><span class="sxs-lookup"><span data-stu-id="61f4e-105">A delivery schedule is used when a quantity on an order or a quotation is requested to be delivered in multiple shipments.</span></span> <span data-ttu-id="61f4e-106">Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.</span><span class="sxs-lookup"><span data-stu-id="61f4e-106">You can run this procedure in demo data company USMF or on your own data.</span></span>
 
 
-## <a name="create-delivery-schedule"></a>Criar agenda de entrega
-1. Ir para Todas as ordens de venda.
-2. Clique em Novo.
-3. No campo Conta de cliente, insira ou selecione um valor.
-4. Clique em OK.
-5. No campo Número do item, insira ou selecione um valor.
-6. No campo Quantidade, insira um número que é maior do que 1.
-7. Clique em Linha da ordem de venda.
-8. Clique em Agenda de entrega.
-    * A página do plano de entrega é o local onde é possível especificar o número de remessas na qual a quantidade total da linha da ordem será enviado ao cliente.    
-    * Por padrão, o sistema copia a quantidade total e outros detalhes de entrega das vendas originais de linha na primeira linha do plano de entrega. Neste exemplo, criaremos um plano para duas remessas, com a segunda data de remessa compensada em uma semana da primeira.  
-9. No campo Quantidade, insira um número que faz parte da quantidade total.
-10. Clique em Novo.
-11. No campo Quantidade, insira a quantidade restante.
-12. No campo Data de remessa solicitada, insira uma data a partir de uma data que seja uma semana depois da data da primeira linha de entrega.
-    * As duas opções na conversão dos encargos FastTab controlam como deseja que os encargos devem ser distribuídos nas linhas do plano de entrega, uma vez que foram atribuídos à linha da ordem original. Se você selecionar valores brutos de impressão, o mesmo valor de encargo será copiado para cada linha. A opção Alocar à opção das linhas de entrega divide os encargos igualmente pelas linhas de entrega.  
-    * Somente os encargos fixos podem ser divididos, enquanto os encargos variáveis ainda serão copiados para as linhas.  
-13. Mova o cursor distante da segunda linha de entrega para atualizar a página.
-    * Você pode controlar a quantidade total alocada para as linhas do plano de entrega olhando totais e os campos restantes. Quando a quantidade restante for zero, a quantidade total de linha original esteve alocada ao plano.   
-14. Clique em OK.
-    * A agenda de entrega agora foi copiada para as linhas da ordem.   
-    * A linha da ordem original, conhecida como uma linha comercial, foi convertida em uma linha da ordem com várias entregas. São marcadas com um ícone distinto e atuam como um cabeçalho para as linhas de entrega.  
-    * As duas novas linhas, referidas como linhas de entrega, compõem uma agenda de entrega. A ordem será processada nessas linhas e não na linha original. Se os documentos como guias de confirmações, listas de separação, guias de remessa ou notas fiscais forem impressos, apenas as linhas de entrega serão exibidas.   
-    * As linhas de entrega podem ter datas de entrega diferentes, quantidades, modos de entrega e dimensões de armazenamento, como o site e o depósito. Entretanto, as dimensões do produto devem corresponder sempre àquela na linha comercial e não podem ser alteradas.  
-15. No campo Quantidade, insira um número que é maior do que o atual.
-16. Selecione a linha comercial para ver o efeito do recálculo de quantidade.
-17. No Painel de Ação, clique em Separar e empacotar.
-18. Clique em Postar guia de remessa.
-19. Expanda a seção Parâmetros.
-20. No campo Quantidade, selecione 'Tudo'.
-    * Observe que a guia de remessa será criada para as duas linhas do plano de entrega e não a linha da ordem original.  
-21. Selecione Sim no campo Imprimir guia de remessa.
-22. Clique em OK.
-23. Clique em Sim.
-24. Feche a página.
+## <a name="create-delivery-schedule"></a><span data-ttu-id="61f4e-107">Criar agenda de entrega</span><span class="sxs-lookup"><span data-stu-id="61f4e-107">Create delivery schedule</span></span>
+1. <span data-ttu-id="61f4e-108">Ir para Todas as ordens de venda.</span><span class="sxs-lookup"><span data-stu-id="61f4e-108">Go to All sales orders.</span></span>
+2. <span data-ttu-id="61f4e-109">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="61f4e-109">Click New.</span></span>
+3. <span data-ttu-id="61f4e-110">No campo Conta de cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="61f4e-110">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="61f4e-111">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="61f4e-111">Click OK.</span></span>
+5. <span data-ttu-id="61f4e-112">No campo Número do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="61f4e-112">In the Item number field, enter or select a value.</span></span>
+6. <span data-ttu-id="61f4e-113">No campo Quantidade, insira um número que é maior do que 1.</span><span class="sxs-lookup"><span data-stu-id="61f4e-113">In the Quantity field, enter a number that is bigger than 1.</span></span>
+7. <span data-ttu-id="61f4e-114">Clique em Linha da ordem de venda.</span><span class="sxs-lookup"><span data-stu-id="61f4e-114">Click Sales order line.</span></span>
+8. <span data-ttu-id="61f4e-115">Clique em Agenda de entrega.</span><span class="sxs-lookup"><span data-stu-id="61f4e-115">Click Delivery schedule.</span></span>
+    * <span data-ttu-id="61f4e-116">A página do plano de entrega é o local onde é possível especificar o número de remessas na qual a quantidade total da linha da ordem será enviado ao cliente.</span><span class="sxs-lookup"><span data-stu-id="61f4e-116">The Delivery schedule page is the place where you can specify the number of shipments in which the total quantity of the order line will be delivered to the customer.</span></span>    
+    * <span data-ttu-id="61f4e-117">Por padrão, o sistema copia a quantidade total e outros detalhes de entrega das vendas originais de linha na primeira linha do plano de entrega.</span><span class="sxs-lookup"><span data-stu-id="61f4e-117">By default, the system copies the total quantity and other delivery details of the original sales line into the first delivery schedule line.</span></span> <span data-ttu-id="61f4e-118">Neste exemplo, criaremos um plano para duas remessas, com a segunda data de remessa compensada em uma semana da primeira.</span><span class="sxs-lookup"><span data-stu-id="61f4e-118">In this example, we’ll create a schedule for two shipments, with the second shipment's date offset by a week from the first one.</span></span>  
+9. <span data-ttu-id="61f4e-119">No campo Quantidade, insira um número que faz parte da quantidade total.</span><span class="sxs-lookup"><span data-stu-id="61f4e-119">In the Quantity field, enter a number that is part of the total quantity.</span></span>
+10. <span data-ttu-id="61f4e-120">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="61f4e-120">Click New.</span></span>
+11. <span data-ttu-id="61f4e-121">No campo Quantidade, insira a quantidade restante.</span><span class="sxs-lookup"><span data-stu-id="61f4e-121">In the Quantity field, enter the remaining quantity.</span></span>
+12. <span data-ttu-id="61f4e-122">No campo Data de remessa solicitada, insira uma data a partir de uma data que seja uma semana depois da data da primeira linha de entrega.</span><span class="sxs-lookup"><span data-stu-id="61f4e-122">In the Requested ship date field, enter a date a date that is one week ahead from the date of the first delivery line.</span></span>
+    * <span data-ttu-id="61f4e-123">As duas opções na conversão dos encargos FastTab controlam como deseja que os encargos devem ser distribuídos nas linhas do plano de entrega, uma vez que foram atribuídos à linha da ordem original.</span><span class="sxs-lookup"><span data-stu-id="61f4e-123">The two options on the Charges conversion FastTab control how you want the charges to be distributed across the delivery schedule lines, once they’ve been assigned to the original order line.</span></span> <span data-ttu-id="61f4e-124">Se você selecionar valores brutos de impressão, o mesmo valor de encargo será copiado para cada linha.</span><span class="sxs-lookup"><span data-stu-id="61f4e-124">If you select Copy gross amounts, the same charge amount is copied to each line.</span></span> <span data-ttu-id="61f4e-125">A opção Alocar à opção das linhas de entrega divide os encargos igualmente pelas linhas de entrega.</span><span class="sxs-lookup"><span data-stu-id="61f4e-125">The Allocate to delivery lines option divides the charge equally across the delivery lines.</span></span>  
+    * <span data-ttu-id="61f4e-126">Somente os encargos fixos podem ser divididos, enquanto os encargos variáveis ainda serão copiados para as linhas.</span><span class="sxs-lookup"><span data-stu-id="61f4e-126">Only fixed charges can be divided, whereas variable charges will still be copied to the lines.</span></span>  
+13. <span data-ttu-id="61f4e-127">Mova o cursor distante da segunda linha de entrega para atualizar a página.</span><span class="sxs-lookup"><span data-stu-id="61f4e-127">Move the cursor away from the second delivery line to update the page.</span></span>
+    * <span data-ttu-id="61f4e-128">Você pode controlar a quantidade total alocada para as linhas do plano de entrega olhando totais e os campos restantes.</span><span class="sxs-lookup"><span data-stu-id="61f4e-128">You can keep track of the total quantity that’s allocated to the delivery schedule lines by looking at the Total and Remaining fields.</span></span> <span data-ttu-id="61f4e-129">Quando a quantidade restante for zero, a quantidade total de linha original esteve alocada ao plano.</span><span class="sxs-lookup"><span data-stu-id="61f4e-129">When the remaining quantity is zero, the full quantity from the original line has been allocated to the schedule.</span></span>   
+14. <span data-ttu-id="61f4e-130">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="61f4e-130">Click OK.</span></span>
+    * <span data-ttu-id="61f4e-131">A agenda de entrega agora foi copiada para as linhas da ordem.</span><span class="sxs-lookup"><span data-stu-id="61f4e-131">The delivery schedule has now been copied to the order lines.</span></span>   
+    * <span data-ttu-id="61f4e-132">A linha da ordem original, conhecida como uma linha comercial, foi convertida em uma linha da ordem com várias entregas.</span><span class="sxs-lookup"><span data-stu-id="61f4e-132">The original order line, referred to as a Commercial line, has been converted to an Order line with multiple deliveries.</span></span> <span data-ttu-id="61f4e-133">São marcadas com um ícone distinto e atuam como um cabeçalho para as linhas de entrega.</span><span class="sxs-lookup"><span data-stu-id="61f4e-133">It is marked with a distinct icon and acts as a header for the delivery lines.</span></span>  
+    * <span data-ttu-id="61f4e-134">As duas novas linhas, referidas como linhas de entrega, compõem uma agenda de entrega.</span><span class="sxs-lookup"><span data-stu-id="61f4e-134">The two new lines, referred to as delivery lines, make up one delivery schedule.</span></span> <span data-ttu-id="61f4e-135">A ordem será processada nessas linhas e não na linha original.</span><span class="sxs-lookup"><span data-stu-id="61f4e-135">The order will be processed against these lines and not the original line.</span></span> <span data-ttu-id="61f4e-136">Se os documentos como guias de confirmações, listas de separação, guias de remessa ou notas fiscais forem impressos, apenas as linhas de entrega serão exibidas.</span><span class="sxs-lookup"><span data-stu-id="61f4e-136">If documents such as confirmation slips, picking lists, packing slips, or invoices are printed, only the delivery lines are shown.</span></span>   
+    * <span data-ttu-id="61f4e-137">As linhas de entrega podem ter datas de entrega diferentes, quantidades, modos de entrega e dimensões de armazenamento, como o site e o depósito.</span><span class="sxs-lookup"><span data-stu-id="61f4e-137">The delivery lines can have different delivery dates, quantities, modes of delivery, and storage dimensions, such as site and warehouse.</span></span> <span data-ttu-id="61f4e-138">Entretanto, as dimensões do produto devem corresponder sempre àquela na linha comercial e não podem ser alteradas.</span><span class="sxs-lookup"><span data-stu-id="61f4e-138">However, the product dimensions must always match the ones on the commercial line and can't be changed.</span></span>  
+15. <span data-ttu-id="61f4e-139">No campo Quantidade, insira um número que é maior do que o atual.</span><span class="sxs-lookup"><span data-stu-id="61f4e-139">In the Quantity field, enter a number that's bigger than the current one.</span></span>
+16. <span data-ttu-id="61f4e-140">Selecione a linha comercial para ver o efeito do recálculo de quantidade.</span><span class="sxs-lookup"><span data-stu-id="61f4e-140">Select the commercial line to see the effect of the quantity recalculation.</span></span>
+17. <span data-ttu-id="61f4e-141">No Painel de Ação, clique em Separar e empacotar.</span><span class="sxs-lookup"><span data-stu-id="61f4e-141">On the Action Pane, click Pick and pack.</span></span>
+18. <span data-ttu-id="61f4e-142">Clique em Postar guia de remessa.</span><span class="sxs-lookup"><span data-stu-id="61f4e-142">Click Post packing slip.</span></span>
+19. <span data-ttu-id="61f4e-143">Expanda a seção Parâmetros.</span><span class="sxs-lookup"><span data-stu-id="61f4e-143">Expand the Parameters section.</span></span>
+20. <span data-ttu-id="61f4e-144">No campo Quantidade, selecione 'Tudo'.</span><span class="sxs-lookup"><span data-stu-id="61f4e-144">In the Quantity field, select 'All'.</span></span>
+    * <span data-ttu-id="61f4e-145">Observe que a guia de remessa será criada para as duas linhas do plano de entrega e não a linha da ordem original.</span><span class="sxs-lookup"><span data-stu-id="61f4e-145">Note that the packing slip will be created for the two delivery schedule lines and not the original order line.</span></span>  
+21. <span data-ttu-id="61f4e-146">Selecione Sim no campo Imprimir guia de remessa.</span><span class="sxs-lookup"><span data-stu-id="61f4e-146">Select Yes in the Print packing slip field.</span></span>
+22. <span data-ttu-id="61f4e-147">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="61f4e-147">Click OK.</span></span>
+23. <span data-ttu-id="61f4e-148">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="61f4e-148">Click Yes.</span></span>
+24. <span data-ttu-id="61f4e-149">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="61f4e-149">Close the page.</span></span>
 
 

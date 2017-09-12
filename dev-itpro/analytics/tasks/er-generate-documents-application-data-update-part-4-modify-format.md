@@ -22,132 +22,132 @@ ms.contentlocale: pt-br
 ms.lasthandoff: 07/27/2017
 
 ---
-# <a name="modify-format-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Modificar formato para gerar documentos com atualização de dados de aplicativo para relatório eletrônico (ER)
+# <a name="modify-format-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a><span data-ttu-id="39c4c-103">Modificar formato para gerar documentos com atualização de dados de aplicativo para relatório eletrônico (ER)</span><span class="sxs-lookup"><span data-stu-id="39c4c-103">Modify format to generate documents with application data update for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Para concluir as etapas desse procedimento, você deve primeiramente concluir o procedimento, "ER Gerar documentos com atualização de dados de aplicativo (Parte 3: Modificar modelo e mapeamento)".
+<span data-ttu-id="39c4c-104">Para concluir as etapas desse procedimento, você deve primeiramente concluir o procedimento, "ER Gerar documentos com atualização de dados de aplicativo (Parte 3: Modificar modelo e mapeamento)".</span><span class="sxs-lookup"><span data-stu-id="39c4c-104">To complete the steps in this procedure, you must first complete the procedure, "ER Generate documents with application data update (Part 3: Modify model and mapping)".</span></span>
 
-As etapas desse procedimento explicam como criar configurações de Relatório eletrônico (ER) para gerar um documento eletrônico e atualizar os dados do aplicativo. Nesse procedimento, você modificará as configurações de ER não apenas para usá-las para gerar documentos eletrônicos, mas também para atualizar dados do aplicativo. Este procedimento é criado para usuários com a função atribuída de administrador do sistema ou desenvolvedor de relatório eletrônico. Estas etapas podem ser concluídas usando o conjunto de dados de DEMF.
+<span data-ttu-id="39c4c-105">As etapas desse procedimento explicam como criar configurações de Relatório eletrônico (ER) para gerar um documento eletrônico e atualizar os dados do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="39c4c-105">The steps in this procedure explain how to design Electronic reporting (ER) configurations to generate an electronic document and update application data.</span></span> <span data-ttu-id="39c4c-106">Nesse procedimento, você modificará as configurações de ER não apenas para usá-las para gerar documentos eletrônicos, mas também para atualizar dados do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="39c4c-106">In this procedure, you will modify the ER configurations to not just use them to generate electronic documents, but also to update application data.</span></span> <span data-ttu-id="39c4c-107">Este procedimento é criado para usuários com a função atribuída de administrador do sistema ou desenvolvedor de relatório eletrônico.</span><span class="sxs-lookup"><span data-stu-id="39c4c-107">This procedure is created for users with the assigned role of system administrator or electronic reporting developer.</span></span> <span data-ttu-id="39c4c-108">Estas etapas podem ser concluídas usando o conjunto de dados de DEMF.</span><span class="sxs-lookup"><span data-stu-id="39c4c-108">These steps can be completed using the DEMF dataset.</span></span>
 
 
-## <a name="modify-format-to-collect-details-of-reporting"></a>Modificar o formato para obter detalhes de relatório
-1. Vá para Administração da organização > Relatório eletrônico > Configurações.
-2. Na árvore, expanda 'Intrastat (model)'.
-3. Na árvore, selecione 'Intrastat (modelo)\Intrastat (formato)'.
-4. Clique em Designer.
-5. Na árvore, expanda 'Arquivo'.
-6. Na árvore, expanda 'Arquivo\Declaração'.
-7. Na árvore, selecione 'Arquivo\Declaração\Dados'.
-8. No campo Multiplicidade, selecione 'Um muitos'.
-    * Configure esse elemento de formato para arquivar detalhes do processo de relatório Intrastat. Esse item representa o registro de cabeçalho de arquivo morto.  
-9. Na árvore, expanda 'Arquivo\Declaração\Dados'.
-10. Na árvore, selecione 'Arquivo\Declaração\Dados\Item'.
-11. No campo Multiplicidade, selecione 'Zero muitos'.
-    * Configure esse elemento de formato para arquivar detalhes do processo de relatório Intrastat. Esse item representará a lista de linhas arquivadas.  
-12. Na árvore, expanda 'Arquivo\Declaração\Dados\Item'.
-13. Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim1'.
-14. Selecione Sim no campo Excluído.
-    * Você não arquivará esses dados, dessa forma você poderá excluir esse elemento de formato dos dados de origem dos detalhes de relatório Intrastat.  
-15. Na árvore, expanda 'Arquivo\Declaração\Dados\Item\Dim1'.
-16. Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim1\propriedade'.
-17. Selecione Sim no campo Excluído.
-18. Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim1\data'.
-19. Selecione Sim no campo Excluído.
-20. Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim2'.
-21. Selecione Sim no campo Excluído.
-22. Na árvore, expanda 'Arquivo\Declaração\Dados\Item\Dim2'.
-23. Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim2\propriedade'.
-24. Selecione Sim no campo Excluído.
-25. Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim2\código'.
-26. Selecione Sim no campo Excluído.
-27. Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim3'.
-    * Vários elementos de formato podem ter o mesmo nome. Por exemplo: Dim. Você não pode reconhecê-los explicitamente quando usar este formato como uma fonte de dados para arquivar detalhes de relatório Intrastat, dessa forma você precisa definir os nomes alternativos para esses elementos de formato.   
-28. No campo Nome, digite 'Valor'.
-    * Valor  
-29. No campo Multiplicidade, selecione 'Exatamente um'.
-30. Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim4'.
-31. No campo Nome, digite 'Item'.
-    * Item  
-32. No campo Multiplicidade, selecione 'Exatamente um'.
-    * Além dos elementos de formato de design, os detalhes do relatório Intrastat devem ser arquivados: identificação de registro exclusivo de cada item de mercadorias relatado e nome de arquivo gerado. Como os dados não serão preenchidos no relatório Intrastat, você precisará adicionar o formato relacionado a esses elementos de detalhe como itens de fonte de dados.  
-33. Na árvore, selecione 'Arquivo\Declaração\Dados'.
-34. Clique em Adicionar para abrir a caixa de diálogo suspensa.
-35. Na árvore, selecione 'Origem de dados\Item'.
-36. No campo Nome, digite 'Nome do arquivo'.
-    * Nome do arquivo  
-37. No campo Tipo de dados, selecione 'String'.
-38. Clique em OK.
-39. Na árvore, selecione 'Arquivo\Declaração\Dados\Item'.
-40. Clique em Adicionar Item.
-41. No campo Nome, digite 'Id reg. mercadoria'.
-    * Id reg de mercadoria  
-42. No campo Tipo de dados, selecione 'Int64'.
-43. Clique em OK.
-44. Clique na aba Mapeamento.
-45. Na árvore, selecione 'Arquivo\Declaração\Dados\Nome do arquivo'.
-46. Clique em Associar.
-47. Na árvore, expanda 'modelo'.
-48. Na árvore, expanda 'modelo\Transações'.
-49. Na árvore, selecione 'Arquivo\Declaração\Dados\Item = model.Transactions\Id reg. mercadoria'.
-50. Na árvore, selecione 'modelo\Transações\Id reg. mercadoria'.
-51. Clique em Associar.
-52. Clique em Salvar.
+## <a name="modify-format-to-collect-details-of-reporting"></a><span data-ttu-id="39c4c-109">Modificar o formato para obter detalhes de relatório</span><span class="sxs-lookup"><span data-stu-id="39c4c-109">Modify format to collect details of reporting</span></span>
+1. <span data-ttu-id="39c4c-110">Vá para Administração da organização > Relatório eletrônico > Configurações.</span><span class="sxs-lookup"><span data-stu-id="39c4c-110">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="39c4c-111">Na árvore, expanda 'Intrastat (model)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-111">In the tree, expand 'Intrastat (model)'.</span></span>
+3. <span data-ttu-id="39c4c-112">Na árvore, selecione 'Intrastat (modelo)\Intrastat (formato)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-112">In the tree, select 'Intrastat (model)\Intrastat (format)'.</span></span>
+4. <span data-ttu-id="39c4c-113">Clique em Designer.</span><span class="sxs-lookup"><span data-stu-id="39c4c-113">Click Designer.</span></span>
+5. <span data-ttu-id="39c4c-114">Na árvore, expanda 'Arquivo'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-114">In the tree, expand 'File'.</span></span>
+6. <span data-ttu-id="39c4c-115">Na árvore, expanda 'Arquivo\Declaração'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-115">In the tree, expand 'File\Declaration'.</span></span>
+7. <span data-ttu-id="39c4c-116">Na árvore, selecione 'Arquivo\Declaração\Dados'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-116">In the tree, select 'File\Declaration\Data'.</span></span>
+8. <span data-ttu-id="39c4c-117">No campo Multiplicidade, selecione 'Um muitos'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-117">In the Multiplicity field, select 'One many'.</span></span>
+    * <span data-ttu-id="39c4c-118">Configure esse elemento de formato para arquivar detalhes do processo de relatório Intrastat.</span><span class="sxs-lookup"><span data-stu-id="39c4c-118">Configure this format element to archive details of the Intrastat reporting process.</span></span> <span data-ttu-id="39c4c-119">Esse item representa o registro de cabeçalho de arquivo morto.</span><span class="sxs-lookup"><span data-stu-id="39c4c-119">This item represents the archive’s header record.</span></span>  
+9. <span data-ttu-id="39c4c-120">Na árvore, expanda 'Arquivo\Declaração\Dados'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-120">In the tree, expand 'File\Declaration\Data'.</span></span>
+10. <span data-ttu-id="39c4c-121">Na árvore, selecione 'Arquivo\Declaração\Dados\Item'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-121">In the tree, select 'File\Declaration\Data\Item'.</span></span>
+11. <span data-ttu-id="39c4c-122">No campo Multiplicidade, selecione 'Zero muitos'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-122">In the Multiplicity field, select 'Zero many'.</span></span>
+    * <span data-ttu-id="39c4c-123">Configure esse elemento de formato para arquivar detalhes do processo de relatório Intrastat.</span><span class="sxs-lookup"><span data-stu-id="39c4c-123">Configure this format element to archive details of the Intrastat reporting process.</span></span> <span data-ttu-id="39c4c-124">Esse item representará a lista de linhas arquivadas.</span><span class="sxs-lookup"><span data-stu-id="39c4c-124">This item will represent the list of archived lines.</span></span>  
+12. <span data-ttu-id="39c4c-125">Na árvore, expanda 'Arquivo\Declaração\Dados\Item'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-125">In the tree, expand 'File\Declaration\Data\Item'.</span></span>
+13. <span data-ttu-id="39c4c-126">Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim1'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-126">In the tree, select 'File\Declaration\Data\Item\Dim1'.</span></span>
+14. <span data-ttu-id="39c4c-127">Selecione Sim no campo Excluído.</span><span class="sxs-lookup"><span data-stu-id="39c4c-127">Select Yes in the Excluded field.</span></span>
+    * <span data-ttu-id="39c4c-128">Você não arquivará esses dados, dessa forma você poderá excluir esse elemento de formato dos dados de origem dos detalhes de relatório Intrastat.</span><span class="sxs-lookup"><span data-stu-id="39c4c-128">You will not archive this data, so you can exclude this format element from the data source of Intrastat reporting details.</span></span>  
+15. <span data-ttu-id="39c4c-129">Na árvore, expanda 'Arquivo\Declaração\Dados\Item\Dim1'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-129">In the tree, expand 'File\Declaration\Data\Item\Dim1'.</span></span>
+16. <span data-ttu-id="39c4c-130">Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim1\propriedade'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-130">In the tree, select 'File\Declaration\Data\Item\Dim1\property'.</span></span>
+17. <span data-ttu-id="39c4c-131">Selecione Sim no campo Excluído.</span><span class="sxs-lookup"><span data-stu-id="39c4c-131">Select Yes in the Excluded field.</span></span>
+18. <span data-ttu-id="39c4c-132">Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim1\data'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-132">In the tree, select 'File\Declaration\Data\Item\Dim1\date'.</span></span>
+19. <span data-ttu-id="39c4c-133">Selecione Sim no campo Excluído.</span><span class="sxs-lookup"><span data-stu-id="39c4c-133">Select Yes in the Excluded field.</span></span>
+20. <span data-ttu-id="39c4c-134">Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim2'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-134">In the tree, select 'File\Declaration\Data\Item\Dim2'.</span></span>
+21. <span data-ttu-id="39c4c-135">Selecione Sim no campo Excluído.</span><span class="sxs-lookup"><span data-stu-id="39c4c-135">Select Yes in the Excluded field.</span></span>
+22. <span data-ttu-id="39c4c-136">Na árvore, expanda 'Arquivo\Declaração\Dados\Item\Dim2'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-136">In the tree, expand 'File\Declaration\Data\Item\Dim2'.</span></span>
+23. <span data-ttu-id="39c4c-137">Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim2\propriedade'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-137">In the tree, select 'File\Declaration\Data\Item\Dim2\property'.</span></span>
+24. <span data-ttu-id="39c4c-138">Selecione Sim no campo Excluído.</span><span class="sxs-lookup"><span data-stu-id="39c4c-138">Select Yes in the Excluded field.</span></span>
+25. <span data-ttu-id="39c4c-139">Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim2\código'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-139">In the tree, select 'File\Declaration\Data\Item\Dim2\code'.</span></span>
+26. <span data-ttu-id="39c4c-140">Selecione Sim no campo Excluído.</span><span class="sxs-lookup"><span data-stu-id="39c4c-140">Select Yes in the Excluded field.</span></span>
+27. <span data-ttu-id="39c4c-141">Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim3'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-141">In the tree, select 'File\Declaration\Data\Item\Dim3'.</span></span>
+    * <span data-ttu-id="39c4c-142">Vários elementos de formato podem ter o mesmo nome.</span><span class="sxs-lookup"><span data-stu-id="39c4c-142">Several format elements can have the same name.</span></span> <span data-ttu-id="39c4c-143">Por exemplo: Dim.</span><span class="sxs-lookup"><span data-stu-id="39c4c-143">For example, Dim.</span></span> <span data-ttu-id="39c4c-144">Você não pode reconhecê-los explicitamente quando usar este formato como uma fonte de dados para arquivar detalhes de relatório Intrastat, dessa forma você precisa definir os nomes alternativos para esses elementos de formato.</span><span class="sxs-lookup"><span data-stu-id="39c4c-144">You cannot explicitly recognize them when you use this format as a data source for archiving Intrastat reporting details, so you need to define the alternative names for these format elements.</span></span>   
+28. <span data-ttu-id="39c4c-145">No campo Nome, digite 'Valor'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-145">In the Name field, type 'Amount'.</span></span>
+    * <span data-ttu-id="39c4c-146">Valor</span><span class="sxs-lookup"><span data-stu-id="39c4c-146">Amount</span></span>  
+29. <span data-ttu-id="39c4c-147">No campo Multiplicidade, selecione 'Exatamente um'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-147">In the Multiplicity field, select 'Exactly one'.</span></span>
+30. <span data-ttu-id="39c4c-148">Na árvore, selecione 'Arquivo\Declaração\Dados\Item\Dim4'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-148">In the tree, select 'File\Declaration\Data\Item\Dim4'.</span></span>
+31. <span data-ttu-id="39c4c-149">No campo Nome, digite 'Item'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-149">In the Name field, type 'Item'.</span></span>
+    * <span data-ttu-id="39c4c-150">Item</span><span class="sxs-lookup"><span data-stu-id="39c4c-150">Item</span></span>  
+32. <span data-ttu-id="39c4c-151">No campo Multiplicidade, selecione 'Exatamente um'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-151">In the Multiplicity field, select 'Exactly one'.</span></span>
+    * <span data-ttu-id="39c4c-152">Além dos elementos de formato de design, os detalhes do relatório Intrastat devem ser arquivados: identificação de registro exclusivo de cada item de mercadorias relatado e nome de arquivo gerado.</span><span class="sxs-lookup"><span data-stu-id="39c4c-152">In addition to the design format elements, the following Intrastat reporting details must be archived: unique record identification of each reported commodity item and name of the generated file.</span></span> <span data-ttu-id="39c4c-153">Como os dados não serão preenchidos no relatório Intrastat, você precisará adicionar o formato relacionado a esses elementos de detalhe como itens de fonte de dados.</span><span class="sxs-lookup"><span data-stu-id="39c4c-153">Because this data will not be populated in the Intrastat report, you need to add the format that is related to these detail elements as data source items.</span></span>  
+33. <span data-ttu-id="39c4c-154">Na árvore, selecione 'Arquivo\Declaração\Dados'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-154">In the tree, select 'File\Declaration\Data'.</span></span>
+34. <span data-ttu-id="39c4c-155">Clique em Adicionar para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="39c4c-155">Click Add to open the drop dialog.</span></span>
+35. <span data-ttu-id="39c4c-156">Na árvore, selecione 'Origem de dados\Item'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-156">In the tree, select 'Data source\Item'.</span></span>
+36. <span data-ttu-id="39c4c-157">No campo Nome, digite 'Nome do arquivo'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-157">In the Name field, type 'File name'.</span></span>
+    * <span data-ttu-id="39c4c-158">Nome do arquivo</span><span class="sxs-lookup"><span data-stu-id="39c4c-158">File name</span></span>  
+37. <span data-ttu-id="39c4c-159">No campo Tipo de dados, selecione 'String'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-159">In the Data type field, select 'String'.</span></span>
+38. <span data-ttu-id="39c4c-160">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="39c4c-160">Click OK.</span></span>
+39. <span data-ttu-id="39c4c-161">Na árvore, selecione 'Arquivo\Declaração\Dados\Item'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-161">In the tree, select 'File\Declaration\Data\Item'.</span></span>
+40. <span data-ttu-id="39c4c-162">Clique em Adicionar Item.</span><span class="sxs-lookup"><span data-stu-id="39c4c-162">Click Add Item.</span></span>
+41. <span data-ttu-id="39c4c-163">No campo Nome, digite 'Id reg. mercadoria'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-163">In the Name field, type 'Commodity rec id'.</span></span>
+    * <span data-ttu-id="39c4c-164">Id reg de mercadoria</span><span class="sxs-lookup"><span data-stu-id="39c4c-164">Commodity rec id</span></span>  
+42. <span data-ttu-id="39c4c-165">No campo Tipo de dados, selecione 'Int64'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-165">In the Data type field, select 'Int64'.</span></span>
+43. <span data-ttu-id="39c4c-166">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="39c4c-166">Click OK.</span></span>
+44. <span data-ttu-id="39c4c-167">Clique na aba Mapeamento.</span><span class="sxs-lookup"><span data-stu-id="39c4c-167">Click the Mapping tab.</span></span>
+45. <span data-ttu-id="39c4c-168">Na árvore, selecione 'Arquivo\Declaração\Dados\Nome do arquivo'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-168">In the tree, select 'File\Declaration\Data\File name'.</span></span>
+46. <span data-ttu-id="39c4c-169">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="39c4c-169">Click Bind.</span></span>
+47. <span data-ttu-id="39c4c-170">Na árvore, expanda 'modelo'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-170">In the tree, expand 'model'.</span></span>
+48. <span data-ttu-id="39c4c-171">Na árvore, expanda 'modelo\Transações'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-171">In the tree, expand 'model\Transactions'.</span></span>
+49. <span data-ttu-id="39c4c-172">Na árvore, selecione 'Arquivo\Declaração\Dados\Item = model.Transactions\Id reg. mercadoria'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-172">In the tree, select 'File\Declaration\Data\Item =  model.Transactions\Commodity rec id'.</span></span>
+50. <span data-ttu-id="39c4c-173">Na árvore, selecione 'modelo\Transações\Id reg. mercadoria'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-173">In the tree, select 'model\Transactions\Commodity rec id'.</span></span>
+51. <span data-ttu-id="39c4c-174">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="39c4c-174">Click Bind.</span></span>
+52. <span data-ttu-id="39c4c-175">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="39c4c-175">Click Save.</span></span>
 
-## <a name="modify-format-to-memorize-details-of-reporting"></a>Modificar o formato para memorizar detalhes de relatório
-1. Clique em Mapear formato para modelo.
-2. Clique em Novo.
-3. No campo Definição, insira ou selecione o item raiz 'Para atualização de dados do aplicativo'.
-    * Para atualização de dados do aplicativo  
-4. No campo Nome, digite "Mapeamento de dados de atualização".
-    * Mapeamento para atualizar dados  
-5. Clique em Salvar.
-    * Este mapeamento define como os detalhes do relatório Intrastat são reunidos no modelo de dados, a estrutura especificada pelo item raiz selecionado 'Para atualização de dados do aplicativo'. Esses detalhes, o mapeamento de modelo com o mesmo item raiz “Para atualização de dados do aplicativo”, e a direção e “Para destino” serão usados para a atualização de dados do aplicativo. A atualização de dados do aplicativo é iniciada imediatamente após o relatório Intrastat de saída ser gerado. Observe que a atualização de dados do aplicativo pode ser ignorada no tempo de execução, mas o modelo de dados deve estar vazio (contendo a lista de registros vazia).   
-6. Clique em Designer.
-    * Observe que o formato de relatório Intrastat de saída será adicionada, por padrão, como uma origem de dados para este mapeamento de modelo.  
-    * Associe os elementos do relatório criado (apresentado como a fonte de dados) aos elementos do modelo de dados, que é filtrado com base no item raiz do modelo selecionado.  
-7. Na árvore, expanda 'Archive header'.
-8. Na árvore, expanda 'Cabeçalho do arquivo morto\Arquivar linhas'.
-9. Na árvore, expanda 'format'.
-10. Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)'.
-11. Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML..* (Dados)'.
-12. Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)'.
-13. Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)\Dim3: Elemento XML 1..1 (Valor)'.
-14. Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..*(Item)\Dim4: Elemento XML 1..1 (Item)'.
-15. Na árvore, selecione 'Cabeçalho do arquivo morto\Número de linhas'.
-16. Clique em Editar.
-17. Na árvore, selecione 'Lista\CONTAGEM'.
-18. Clique em Adicionar função.
-19. Na árvore, expanda 'format'.
-20. Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)'.
-21. Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML..* (Dados)'.
-22. Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)'.
-23. Clique em Adicionar fonte de dados.
-24. No campo Fórmula, insira 'COUNT(format.Declaration.Data.Item)'.
-    * CONTAGEM (formato.Declaração.Dados.Item)  
-25. Clique em Salvar.
-26. Feche a página.
-27. Na árvore, selecione 'Cabeçalho do arquivo morto\Nome do arquivo'.
-28. Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Nome do arquivo: Cadeia de caracteres do item (Nome do arquivo)'.
-29. Clique em Associar.
-30. Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)\Dim4: Elemento XML 1..1 (Item)\número: Cadeia de caracteres(número)'.
-31. Na árvore, selecione 'Cabeçalho do arquivo morto\Arquivar linhas\Número do Item'.
-32. Clique em Associar.
-33. Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Data: Elemento XML 1..* (Data)\Item: Elemento XML 0..* (Item)\Dim3: Elemento XML 1..1 (Valor)\valor: Numérico Real(valor)'.
-34. Na árvore, selecione 'Cabeçalho do arquivo morto\Arquivar linhas\Valor'.
-35. Clique em Associar.
-36. Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)\Id reg de mercadoria: Item Int64(Id reg. mercadoria)'.
-37. Na árvore, selecione 'Cabeçalho do arquivo morto\Arquivar linhas\Id reg. mercadoria'.
-38. Clique em Associar.
-39. Na árvore, selecione 'Cabeçalho do arquivo morto\Arquivar linhas'.
-40. Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)'.
-41. Clique em Associar.
-42. Na árvore, selecione 'Cabeçalho do arquivo-morto'.
-43. Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)'.
-44. Clique em Associar.
-45. Clique em Salvar.
-46. Feche a página.
-47. Feche a página.
-48. Feche a página.
+## <a name="modify-format-to-memorize-details-of-reporting"></a><span data-ttu-id="39c4c-176">Modificar o formato para memorizar detalhes de relatório</span><span class="sxs-lookup"><span data-stu-id="39c4c-176">Modify format to memorize details of reporting</span></span>
+1. <span data-ttu-id="39c4c-177">Clique em Mapear formato para modelo.</span><span class="sxs-lookup"><span data-stu-id="39c4c-177">Click Map format to model.</span></span>
+2. <span data-ttu-id="39c4c-178">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="39c4c-178">Click New.</span></span>
+3. <span data-ttu-id="39c4c-179">No campo Definição, insira ou selecione o item raiz 'Para atualização de dados do aplicativo'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-179">In the Definition field, enter or select the ‘For application data update’ root item.</span></span>
+    * <span data-ttu-id="39c4c-180">Para atualização de dados do aplicativo</span><span class="sxs-lookup"><span data-stu-id="39c4c-180">For application data update</span></span>  
+4. <span data-ttu-id="39c4c-181">No campo Nome, digite "Mapeamento de dados de atualização".</span><span class="sxs-lookup"><span data-stu-id="39c4c-181">In the Name field, type 'Mapping to update data'.</span></span>
+    * <span data-ttu-id="39c4c-182">Mapeamento para atualizar dados</span><span class="sxs-lookup"><span data-stu-id="39c4c-182">Mapping to update data</span></span>  
+5. <span data-ttu-id="39c4c-183">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="39c4c-183">Click Save.</span></span>
+    * <span data-ttu-id="39c4c-184">Este mapeamento define como os detalhes do relatório Intrastat são reunidos no modelo de dados, a estrutura especificada pelo item raiz selecionado 'Para atualização de dados do aplicativo'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-184">This mapping defines how the details of the Intrastat report are collected in the data model, the structure of which is specified by the selected root item ‘For application data update’.</span></span> <span data-ttu-id="39c4c-185">Esses detalhes, o mapeamento de modelo com o mesmo item raiz “Para atualização de dados do aplicativo”, e a direção e “Para destino” serão usados para a atualização de dados do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="39c4c-185">These details, the model mapping with same root item ‘For application data update’, and the direction ‘To destination’ will be used for the application data update.</span></span> <span data-ttu-id="39c4c-186">A atualização de dados do aplicativo é iniciada imediatamente após o relatório Intrastat de saída ser gerado.</span><span class="sxs-lookup"><span data-stu-id="39c4c-186">The application data update starts immediately after the outgoing Intrastat report is generated.</span></span> <span data-ttu-id="39c4c-187">Observe que a atualização de dados do aplicativo pode ser ignorada no tempo de execução, mas o modelo de dados deve estar vazio (contendo a lista de registros vazia).</span><span class="sxs-lookup"><span data-stu-id="39c4c-187">Note that the application data update can be skipped at run-time, but the data model must be empty (containing empty record list).</span></span>   
+6. <span data-ttu-id="39c4c-188">Clique em Designer.</span><span class="sxs-lookup"><span data-stu-id="39c4c-188">Click Designer.</span></span>
+    * <span data-ttu-id="39c4c-189">Observe que o formato de relatório Intrastat de saída será adicionada, por padrão, como uma origem de dados para este mapeamento de modelo.</span><span class="sxs-lookup"><span data-stu-id="39c4c-189">Note that the outgoing Intrastat report format is added by default as a data source for this model mapping.</span></span>  
+    * <span data-ttu-id="39c4c-190">Associe os elementos do relatório criado (apresentado como a fonte de dados) aos elementos do modelo de dados, que é filtrado com base no item raiz do modelo selecionado.</span><span class="sxs-lookup"><span data-stu-id="39c4c-190">Bind elements of the designed report (presented as data source) to elements of the data model, which is filtered based on the selected model’s root item.</span></span>  
+7. <span data-ttu-id="39c4c-191">Na árvore, expanda 'Archive header'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-191">In the tree, expand 'Archive header'.</span></span>
+8. <span data-ttu-id="39c4c-192">Na árvore, expanda 'Cabeçalho do arquivo morto\Arquivar linhas'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-192">In the tree, expand 'Archive header\Archive lines'.</span></span>
+9. <span data-ttu-id="39c4c-193">Na árvore, expanda 'format'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-193">In the tree, expand 'format'.</span></span>
+10. <span data-ttu-id="39c4c-194">Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-194">In the tree, expand 'format\Declaration: XML Element(Declaration)'.</span></span>
+11. <span data-ttu-id="39c4c-195">Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML..* (Dados)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-195">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+12. <span data-ttu-id="39c4c-196">Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-196">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+13. <span data-ttu-id="39c4c-197">Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)\Dim3: Elemento XML 1..1 (Valor)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-197">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)'.</span></span>
+14. <span data-ttu-id="39c4c-198">Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..*(Item)\Dim4: Elemento XML 1..1 (Item)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-198">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)'.</span></span>
+15. <span data-ttu-id="39c4c-199">Na árvore, selecione 'Cabeçalho do arquivo morto\Número de linhas'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-199">In the tree, select 'Archive header\Number of lines'.</span></span>
+16. <span data-ttu-id="39c4c-200">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="39c4c-200">Click Edit.</span></span>
+17. <span data-ttu-id="39c4c-201">Na árvore, selecione 'Lista\CONTAGEM'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-201">In the tree, select 'List\COUNT'.</span></span>
+18. <span data-ttu-id="39c4c-202">Clique em Adicionar função.</span><span class="sxs-lookup"><span data-stu-id="39c4c-202">Click Add function.</span></span>
+19. <span data-ttu-id="39c4c-203">Na árvore, expanda 'format'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-203">In the tree, expand 'format'.</span></span>
+20. <span data-ttu-id="39c4c-204">Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-204">In the tree, expand 'format\Declaration: XML Element(Declaration)'.</span></span>
+21. <span data-ttu-id="39c4c-205">Na árvore, expanda 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML..* (Dados)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-205">In the tree, expand 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+22. <span data-ttu-id="39c4c-206">Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-206">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+23. <span data-ttu-id="39c4c-207">Clique em Adicionar fonte de dados.</span><span class="sxs-lookup"><span data-stu-id="39c4c-207">Click Add data source.</span></span>
+24. <span data-ttu-id="39c4c-208">No campo Fórmula, insira 'COUNT(format.Declaration.Data.Item)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-208">In the Formula field, enter 'COUNT(format.Declaration.Data.Item)'.</span></span>
+    * <span data-ttu-id="39c4c-209">CONTAGEM (formato.Declaração.Dados.Item)</span><span class="sxs-lookup"><span data-stu-id="39c4c-209">COUNT(format.Declaration.Data.Item)</span></span>  
+25. <span data-ttu-id="39c4c-210">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="39c4c-210">Click Save.</span></span>
+26. <span data-ttu-id="39c4c-211">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="39c4c-211">Close the page.</span></span>
+27. <span data-ttu-id="39c4c-212">Na árvore, selecione 'Cabeçalho do arquivo morto\Nome do arquivo'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-212">In the tree, select 'Archive header\File name'.</span></span>
+28. <span data-ttu-id="39c4c-213">Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Nome do arquivo: Cadeia de caracteres do item (Nome do arquivo)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-213">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\File name: Item String(File name)'.</span></span>
+29. <span data-ttu-id="39c4c-214">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="39c4c-214">Click Bind.</span></span>
+30. <span data-ttu-id="39c4c-215">Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)\Dim4: Elemento XML 1..1 (Item)\número: Cadeia de caracteres(número)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-215">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim4: XML Element 1..1 (Item)\number: String(number)'.</span></span>
+31. <span data-ttu-id="39c4c-216">Na árvore, selecione 'Cabeçalho do arquivo morto\Arquivar linhas\Número do Item'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-216">In the tree, select 'Archive header\Archive lines\Item number'.</span></span>
+32. <span data-ttu-id="39c4c-217">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="39c4c-217">Click Bind.</span></span>
+33. <span data-ttu-id="39c4c-218">Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Data: Elemento XML 1..* (Data)\Item: Elemento XML 0..* (Item)\Dim3: Elemento XML 1..1 (Valor)\valor: Numérico Real(valor)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-218">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Dim3: XML Element 1..1 (Amount)\value: Numeric Real(value)'.</span></span>
+34. <span data-ttu-id="39c4c-219">Na árvore, selecione 'Cabeçalho do arquivo morto\Arquivar linhas\Valor'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-219">In the tree, select 'Archive header\Archive lines\Amount'.</span></span>
+35. <span data-ttu-id="39c4c-220">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="39c4c-220">Click Bind.</span></span>
+36. <span data-ttu-id="39c4c-221">Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)\Id reg de mercadoria: Item Int64(Id reg. mercadoria)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-221">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)\Commodity rec id: Item Int64(Commodity rec id)'.</span></span>
+37. <span data-ttu-id="39c4c-222">Na árvore, selecione 'Cabeçalho do arquivo morto\Arquivar linhas\Id reg. mercadoria'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-222">In the tree, select 'Archive header\Archive lines\Commodity rec id'.</span></span>
+38. <span data-ttu-id="39c4c-223">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="39c4c-223">Click Bind.</span></span>
+39. <span data-ttu-id="39c4c-224">Na árvore, selecione 'Cabeçalho do arquivo morto\Arquivar linhas'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-224">In the tree, select 'Archive header\Archive lines'.</span></span>
+40. <span data-ttu-id="39c4c-225">Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)\Item: Elemento XML 0..* (Item)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-225">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)\Item: XML Element 0..* (Item)'.</span></span>
+41. <span data-ttu-id="39c4c-226">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="39c4c-226">Click Bind.</span></span>
+42. <span data-ttu-id="39c4c-227">Na árvore, selecione 'Cabeçalho do arquivo-morto'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-227">In the tree, select 'Archive header'.</span></span>
+43. <span data-ttu-id="39c4c-228">Na árvore, selecione 'formato\Declaração: Elemento XML(Declaração)\Dados: Elemento XML 1..* (Dados)'.</span><span class="sxs-lookup"><span data-stu-id="39c4c-228">In the tree, select 'format\Declaration: XML Element(Declaration)\Data: XML Element 1..* (Data)'.</span></span>
+44. <span data-ttu-id="39c4c-229">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="39c4c-229">Click Bind.</span></span>
+45. <span data-ttu-id="39c4c-230">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="39c4c-230">Click Save.</span></span>
+46. <span data-ttu-id="39c4c-231">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="39c4c-231">Close the page.</span></span>
+47. <span data-ttu-id="39c4c-232">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="39c4c-232">Close the page.</span></span>
+48. <span data-ttu-id="39c4c-233">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="39c4c-233">Close the page.</span></span>
 
 

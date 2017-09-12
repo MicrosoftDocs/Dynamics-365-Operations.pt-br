@@ -19,88 +19,88 @@ ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 89e79c7227e05eec539d9bb142b8f41de092f01b
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: f68f9dce544256a2b1a9927f019a676a6845f46d
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 06/29/2017
 
 
 
 ---
 
-# <a name="customer-orders-overview"></a>Visão geral de ordens de cliente
+# <a name="customer-orders-overview"></a><span data-ttu-id="ba605-105">Visão geral de ordens de cliente</span><span class="sxs-lookup"><span data-stu-id="ba605-105">Customer orders overview</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Este tópico fornece informações sobre ordens de cliente no Retail Modern POS (MPOS). Ordens de cliente também são conhecidas como ordens especiais O tópico inclui uma discussão sobre parâmetros relacionados e fluxos de transação.
+<span data-ttu-id="ba605-106">Este tópico fornece informações sobre ordens de cliente no Retail Modern POS (MPOS).</span><span class="sxs-lookup"><span data-stu-id="ba605-106">This topic provides information about customer orders in Retail Modern POS (MPOS).</span></span> <span data-ttu-id="ba605-107">Ordens de cliente também são conhecidas como ordens especiais</span><span class="sxs-lookup"><span data-stu-id="ba605-107">Customer orders are also known as special orders.</span></span> <span data-ttu-id="ba605-108">O tópico inclui uma discussão sobre parâmetros relacionados e fluxos de transação.</span><span class="sxs-lookup"><span data-stu-id="ba605-108">The topic includes a discussion of related parameters and transaction flows.</span></span>
 
-Em um mundo de canal omni de varejo, muitos revendedores fornecem a opção de ordens de cliente ou ordens especiais para atender a vários requisitos de produto e atendimento. Estes são alguns dos cenários típicos:
+<span data-ttu-id="ba605-109">Em um mundo de canal omni de varejo, muitos revendedores fornecem a opção de ordens de cliente ou ordens especiais para atender a vários requisitos de produto e atendimento.</span><span class="sxs-lookup"><span data-stu-id="ba605-109">In an omni-channel retail world, many retailers provide the option of customer orders, or special orders, to meet various product and fulfillment requirements.</span></span> <span data-ttu-id="ba605-110">Estes são alguns dos cenários típicos:</span><span class="sxs-lookup"><span data-stu-id="ba605-110">Here are some typical scenarios:</span></span>
 
--   Um cliente deseja que produtos sejam entregues a um endereço específico em uma determinada data.
--   Um cliente deseja retirar produtos de uma loja ou local que é diferente da loja ou local no qual ele comprou esses produtos.
--   Um cliente deseja que outra pessoa retire o produto que ele comprou.
+-   <span data-ttu-id="ba605-111">Um cliente deseja que produtos sejam entregues a um endereço específico em uma determinada data.</span><span class="sxs-lookup"><span data-stu-id="ba605-111">A customer wants products to be delivered to a specific address on a specific date.</span></span>
+-   <span data-ttu-id="ba605-112">Um cliente deseja retirar produtos de uma loja ou local que é diferente da loja ou local no qual ele comprou esses produtos.</span><span class="sxs-lookup"><span data-stu-id="ba605-112">A customer wants to pick up products from a store or location that differs from the store or location where the customer purchased those products.</span></span>
+-   <span data-ttu-id="ba605-113">Um cliente deseja que outra pessoa retire o produto que ele comprou.</span><span class="sxs-lookup"><span data-stu-id="ba605-113">A customer wants someone else to pick up products that the customer purchased.</span></span>
 
-Varejistas também usam ordens de cliente para minimizar perdas de venda que, de outra forma, poderiam ser causadas por faltas de estoque, já que a mercadoria pode ser entregue ou retirada em um horário ou local diferentes.
+<span data-ttu-id="ba605-114">Varejistas também usam ordens de cliente para minimizar perdas de venda que, de outra forma, poderiam ser causadas por faltas de estoque, já que a mercadoria pode ser entregue ou retirada em um horário ou local diferentes.</span><span class="sxs-lookup"><span data-stu-id="ba605-114">Retailers also use customer orders to minimize lost sales that stock outages might otherwise cause, because the merchandise can be delivered or picked up at a different time or place.</span></span>
 
-## <a name="set-up-customer-orders"></a>Configurar ordens de cliente
-Estes são alguns dos parâmetros que podem ser definidos na página **Parâmetros de varejo** para definir como as ordens de cliente são atendidas:
+## <a name="set-up-customer-orders"></a><span data-ttu-id="ba605-115">Configurar ordens de cliente</span><span class="sxs-lookup"><span data-stu-id="ba605-115">Set up customer orders</span></span>
+<span data-ttu-id="ba605-116">Estes são alguns dos parâmetros que podem ser definidos na página **Parâmetros de varejo** para definir como as ordens de cliente são atendidas:</span><span class="sxs-lookup"><span data-stu-id="ba605-116">Here are some of the parameters that can be set on the **Retail parameters** page to define how customer orders are fulfilled:</span></span>
 
--   **Percentual de depósito padrão** – Especifique o valor que o cliente deve pagar como depósito antes que uma ordem possa ser confirmada. O valor de depósito padrão é calculado como porcentagem do valor da ordem. Dependendo dos privilégios, um associado da loja talvez consiga substituir o valor usando **Substituição de depósito**.
--   **Percentual de encargo de cancelamento** – Se um encargo for aplicado quando uma ordem de cliente é cancelada, especifique o valor desse encargo.
--   **Código do encargo de cancelamento** – Se um encargo for aplicado quando uma ordem de cliente é cancelada, esse encargo será refletido em um código de encargo na ordem de venda. Use esse parâmetro para definir o código de encargo de cancelamento.
--   **Código do encargo de remessa** – Varejistas podem cobrar uma taxa adicional por enviar mercadoria a um cliente. O valor desse encargo de remessa será refletido em código de encargo na ordem de venda. Use esse parâmetro para mapear o código de encargo de remessa com os encargos de remessa na ordem de cliente.
--   **Reembolsar encargos de remessa** – Especifique se os encargos de remessa associados a uma ordem de cliente são reembolsáveis.
--   **Valor máximo sem aprovação** – Se os encargos de remessa forem reembolsáveis, especifique o valor máximo dos reembolsos de encargo de envio em ordens de reembolso. Se esse valor for excedido, a substituição do gerente é necessária para continuar com o reembolso. Para acomodar os seguintes cenários, um reembolso de encargos de remessa pode exceder o valor originalmente pago:
-    -   Encargos são aplicados no nível do cabeçalho das ordens de venda e, quando algum valor de uma linha de produto é devolvido, o reembolso máximo de encargos de remessa permitido para os produtos e o valor não pode ser determinado de forma que funcione para os clientes de varejo.
-    -   Encargos de remessa são utilizados para todas as instâncias de remessa. Se um cliente devolver produtos várias vezes e a política do revendedor especificar que o revendedor arcará com o custo de reembolso de encargo de remessa, esse reembolso de encargo de remessa será superior aos encargos reais de remessa.
+-   <span data-ttu-id="ba605-117">**Percentual de depósito padrão** – Especifique o valor que o cliente deve pagar como depósito antes que uma ordem possa ser confirmada.</span><span class="sxs-lookup"><span data-stu-id="ba605-117">**Default deposit percentage** – Specify the amount that the customer must pay as a deposit before an order can be confirmed.</span></span> <span data-ttu-id="ba605-118">O valor de depósito padrão é calculado como porcentagem do valor da ordem.</span><span class="sxs-lookup"><span data-stu-id="ba605-118">The default deposit amount is calculated as a percentage of the order value.</span></span> <span data-ttu-id="ba605-119">Dependendo dos privilégios, um associado da loja talvez consiga substituir o valor usando **Substituição de depósito**.</span><span class="sxs-lookup"><span data-stu-id="ba605-119">Depending on privileges, a store associate might be able to override the amount by using **Deposit override**.</span></span>
+-   <span data-ttu-id="ba605-120">**Percentual de encargo de cancelamento** – Se um encargo for aplicado quando uma ordem de cliente é cancelada, especifique o valor desse encargo.</span><span class="sxs-lookup"><span data-stu-id="ba605-120">**Cancellation charge percentage** – If a charge will be applied when a customer order is canceled, specify the amount of that charge.</span></span>
+-   <span data-ttu-id="ba605-121">**Código do encargo de cancelamento** – Se um encargo for aplicado quando uma ordem de cliente é cancelada, esse encargo será refletido em um código de encargo na ordem de venda.</span><span class="sxs-lookup"><span data-stu-id="ba605-121">**Cancellation charge code** – If a charge will be applied when a customer order is canceled, that charge will be reflected under a charge code on the sales order.</span></span> <span data-ttu-id="ba605-122">Use esse parâmetro para definir o código de encargo de cancelamento.</span><span class="sxs-lookup"><span data-stu-id="ba605-122">Use this parameter to define the cancellation charge code.</span></span>
+-   <span data-ttu-id="ba605-123">**Código do encargo de remessa** – Varejistas podem cobrar uma taxa adicional por enviar mercadoria a um cliente.</span><span class="sxs-lookup"><span data-stu-id="ba605-123">**Shipping charge code** – Retailers can charge an extra fee for shipping merchandise to a customer.</span></span> <span data-ttu-id="ba605-124">O valor desse encargo de remessa será refletido em código de encargo na ordem de venda.</span><span class="sxs-lookup"><span data-stu-id="ba605-124">The amount of that shipping charge will be reflected under a charge code on the sales order.</span></span> <span data-ttu-id="ba605-125">Use esse parâmetro para mapear o código de encargo de remessa com os encargos de remessa na ordem de cliente.</span><span class="sxs-lookup"><span data-stu-id="ba605-125">Use this parameter to map the shipping charge code to shipping charges on the customer order.</span></span>
+-   <span data-ttu-id="ba605-126">**Reembolsar encargos de remessa** – Especifique se os encargos de remessa associados a uma ordem de cliente são reembolsáveis.</span><span class="sxs-lookup"><span data-stu-id="ba605-126">**Refund shipping charges** – Specify whether shipping charges that are associated with a customer order are refundable.</span></span>
+-   <span data-ttu-id="ba605-127">**Valor máximo sem aprovação** – Se os encargos de remessa forem reembolsáveis, especifique o valor máximo dos reembolsos de encargo de envio em ordens de reembolso.</span><span class="sxs-lookup"><span data-stu-id="ba605-127">**Maximum amount without approval** – If shipping charges are refundable, specify the maximum amount of shipping charge refunds across return orders.</span></span> <span data-ttu-id="ba605-128">Se esse valor for excedido, a substituição do gerente é necessária para continuar com o reembolso.</span><span class="sxs-lookup"><span data-stu-id="ba605-128">If this amount is exceeded, manager override is required in order to continue with the refund.</span></span> <span data-ttu-id="ba605-129">Para acomodar os seguintes cenários, um reembolso de encargos de remessa pode exceder o valor originalmente pago:</span><span class="sxs-lookup"><span data-stu-id="ba605-129">To accommodate the following scenarios, a refund of shipping charges can exceed the amount that was originally paid:</span></span>
+    -   <span data-ttu-id="ba605-130">Encargos são aplicados no nível do cabeçalho das ordens de venda e, quando algum valor de uma linha de produto é devolvido, o reembolso máximo de encargos de remessa permitido para os produtos e o valor não pode ser determinado de forma que funcione para os clientes de varejo.</span><span class="sxs-lookup"><span data-stu-id="ba605-130">Charges are applied at the level of the sales order header, and when some quantity of a product line is returned, the maximum refund of shipping charges that is allowed for the products and the quantity can't be determined in way that works for all retail customers.</span></span>
+    -   <span data-ttu-id="ba605-131">Encargos de remessa são utilizados para todas as instâncias de remessa.</span><span class="sxs-lookup"><span data-stu-id="ba605-131">Shipping charges are incurred for every instance of shipping.</span></span> <span data-ttu-id="ba605-132">Se um cliente devolver produtos várias vezes e a política do revendedor especificar que o revendedor arcará com o custo de reembolso de encargo de remessa, esse reembolso de encargo de remessa será superior aos encargos reais de remessa.</span><span class="sxs-lookup"><span data-stu-id="ba605-132">If a customer returns products multiple times, and the retailer’s policy specifies that the retailer will bear the cost of return shipping charges, the return shipping charges will be more than the actual shipping charges.</span></span>
 
-## <a name="transaction-flow-for-customer-orders"></a>Fluxo de transações para ordens de cliente
-### <a name="create-a-customer-order-in-retail-modern-pos"></a>Criar uma ordem de cliente no Retail Modern POS
+## <a name="transaction-flow-for-customer-orders"></a><span data-ttu-id="ba605-133">Fluxo de transações para ordens de cliente</span><span class="sxs-lookup"><span data-stu-id="ba605-133">Transaction flow for customer orders</span></span>
+### <a name="create-a-customer-order-in-retail-modern-pos"></a><span data-ttu-id="ba605-134">Criar uma ordem de cliente no Retail Modern POS</span><span class="sxs-lookup"><span data-stu-id="ba605-134">Create a customer order in Retail Modern POS</span></span>
 
-1.  Adicione um cliente à transação.
-2.  Adicione produtos ao carrinho.
-3.  Clique em **Criar ordem do cliente** e depois selecione o tipo de ordem. O tipo de ordem pode ser **Ordem de cliente** ou **Cotação**.
-4.  Clique em **Remeter selecionado** ou **Remeter tudo** para enviar os produtos a um endereço na conta do cliente, especifique a data de remessa solicitada e especifique os encargos de remessa.
-5.  Clique em **Retirar selecionado** ou **Retirar tudo** para selecionar produtos que serão retirados da loja atual ou de uma loja diferente em uma data específica.
-6.  Cobre o valor de depósito, se um depósito for necessário.
+1.  <span data-ttu-id="ba605-135">Adicione um cliente à transação.</span><span class="sxs-lookup"><span data-stu-id="ba605-135">Add a customer to the transaction.</span></span>
+2.  <span data-ttu-id="ba605-136">Adicione produtos ao carrinho.</span><span class="sxs-lookup"><span data-stu-id="ba605-136">Add products to the cart.</span></span>
+3.  <span data-ttu-id="ba605-137">Clique em **Criar ordem do cliente** e depois selecione o tipo de ordem.</span><span class="sxs-lookup"><span data-stu-id="ba605-137">Click **Create customer order**, and then select the order type.</span></span> <span data-ttu-id="ba605-138">O tipo de ordem pode ser **Ordem de cliente** ou **Cotação**.</span><span class="sxs-lookup"><span data-stu-id="ba605-138">The order type can be either **Customer order** or **Quote**.</span></span>
+4.  <span data-ttu-id="ba605-139">Clique em **Remeter selecionado** ou **Remeter tudo** para enviar os produtos a um endereço na conta do cliente, especifique a data de remessa solicitada e especifique os encargos de remessa.</span><span class="sxs-lookup"><span data-stu-id="ba605-139">Click **Ship selected** or **Ship all** to ship the products to an address on the customer account, specify the requested shipping date, and specify shipping charges.</span></span>
+5.  <span data-ttu-id="ba605-140">Clique em **Retirar selecionado** ou **Retirar tudo** para selecionar produtos que serão retirados da loja atual ou de uma loja diferente em uma data específica.</span><span class="sxs-lookup"><span data-stu-id="ba605-140">Click **Pick up selected** or **Pick-up all** to select products that will be picked up from the current store or a different store on a specific date.</span></span>
+6.  <span data-ttu-id="ba605-141">Cobre o valor de depósito, se um depósito for necessário.</span><span class="sxs-lookup"><span data-stu-id="ba605-141">Collect the deposit amount, if a deposit is required.</span></span>
 
-### <a name="edit-an-existing-customer-order"></a>Editar uma ordem de cliente existente
+### <a name="edit-an-existing-customer-order"></a><span data-ttu-id="ba605-142">Editar uma ordem de cliente existente</span><span class="sxs-lookup"><span data-stu-id="ba605-142">Edit an existing customer order</span></span>
 
-1.  Na página inicial, clique em **Encontrar uma ordem**.
-2.  Encontre e selecione a ordem a ser editada. Na parte inferior da página, clique em **Editar**.
+1.  <span data-ttu-id="ba605-143">Na página inicial, clique em **Encontrar uma ordem**.</span><span class="sxs-lookup"><span data-stu-id="ba605-143">On the home page, click **Find an order**.</span></span>
+2.  <span data-ttu-id="ba605-144">Encontre e selecione a ordem a ser editada.</span><span class="sxs-lookup"><span data-stu-id="ba605-144">Find and select the order to edit.</span></span> <span data-ttu-id="ba605-145">Na parte inferior da página, clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="ba605-145">At the bottom of the page, click the **Edit**.</span></span>
 
-### <a name="pick-up-an-order"></a>Retirar uma ordem
+### <a name="pick-up-an-order"></a><span data-ttu-id="ba605-146">Retirar uma ordem</span><span class="sxs-lookup"><span data-stu-id="ba605-146">Pick up an order</span></span>
 
-1.  Na página inicial, clique em **Encontrar uma ordem**.
-2.  Selecione a ordem a ser retirada. Na parte inferior da página, clique em **Separação e embalagem**.
-3.  Clique em **Retirar**.
+1.  <span data-ttu-id="ba605-147">Na página inicial, clique em **Encontrar uma ordem**.</span><span class="sxs-lookup"><span data-stu-id="ba605-147">On the home page, click **Find an order**.</span></span>
+2.  <span data-ttu-id="ba605-148">Selecione a ordem a ser retirada.</span><span class="sxs-lookup"><span data-stu-id="ba605-148">Select the order to pick up.</span></span> <span data-ttu-id="ba605-149">Na parte inferior da página, clique em **Separação e embalagem**.</span><span class="sxs-lookup"><span data-stu-id="ba605-149">At the bottom of the page, click **Picking and packing**.</span></span>
+3.  <span data-ttu-id="ba605-150">Clique em **Retirar**.</span><span class="sxs-lookup"><span data-stu-id="ba605-150">Click **Pick up**.</span></span>
 
-### <a name="cancel-an-order"></a>Cancelar uma ordem
+### <a name="cancel-an-order"></a><span data-ttu-id="ba605-151">Cancelar uma ordem</span><span class="sxs-lookup"><span data-stu-id="ba605-151">Cancel an order</span></span>
 
-1.  Na página inicial, clique em **Encontrar uma ordem**.
-2.  Selecione a ordem a ser cancelada. Na parte inferior da página, clique em **Cancelar**.
+1.  <span data-ttu-id="ba605-152">Na página inicial, clique em **Encontrar uma ordem**.</span><span class="sxs-lookup"><span data-stu-id="ba605-152">On the home page, click **Find an order**.</span></span>
+2.  <span data-ttu-id="ba605-153">Selecione a ordem a ser cancelada.</span><span class="sxs-lookup"><span data-stu-id="ba605-153">Select the order to cancel.</span></span> <span data-ttu-id="ba605-154">Na parte inferior da página, clique em **Cancelar**.</span><span class="sxs-lookup"><span data-stu-id="ba605-154">At the bottom of the page, click **Cancel**.</span></span>
 
-#### <a name="create-a-return-order"></a>Criar uma ordem de devolução
+#### <a name="create-a-return-order"></a><span data-ttu-id="ba605-155">Criar uma ordem de devolução</span><span class="sxs-lookup"><span data-stu-id="ba605-155">Create a return order</span></span>
 
-1.  Na página inicial, clique em **Encontrar uma ordem**.
-2.  Selecione a ordem a ser devolvida, selecione a fatura para a ordem e depois selecione uma linha de produto para a mercadoria a ser devolvida.
-3.  Na parte inferior da página, clique em **Ordem de devolução**.
+1.  <span data-ttu-id="ba605-156">Na página inicial, clique em **Encontrar uma ordem**.</span><span class="sxs-lookup"><span data-stu-id="ba605-156">On the home page, click **Find an order**.</span></span>
+2.  <span data-ttu-id="ba605-157">Selecione a ordem a ser devolvida, selecione a fatura para a ordem e depois selecione uma linha de produto para a mercadoria a ser devolvida.</span><span class="sxs-lookup"><span data-stu-id="ba605-157">Select the order to return, select the invoice for the order, and then select the product line for the merchandise to return.</span></span>
+3.  <span data-ttu-id="ba605-158">Na parte inferior da página, clique em **Ordem de devolução**.</span><span class="sxs-lookup"><span data-stu-id="ba605-158">At the bottom of the page, click the **Return order**.</span></span>
 
-## <a name="asynchronous-transaction-flow-for-customer-orders"></a>Fluxo de transações assíncronas para ordens de cliente
-Ordens de cliente podem ser criadas do cliente do ponto de venda (PDV) em modo síncrono ou assíncrono.
+## <a name="asynchronous-transaction-flow-for-customer-orders"></a><span data-ttu-id="ba605-159">Fluxo de transações assíncronas para ordens de cliente</span><span class="sxs-lookup"><span data-stu-id="ba605-159">Asynchronous transaction flow for customer orders</span></span>
+<span data-ttu-id="ba605-160">Ordens de cliente podem ser criadas do cliente do ponto de venda (PDV) em modo síncrono ou assíncrono.</span><span class="sxs-lookup"><span data-stu-id="ba605-160">Customer orders can be created from the point of sale (POS) client in either synchronous mode or asynchronous mode.</span></span>
 
-### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>Habilitar ordens de cliente para serem criadas em modo assíncrono
+### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a><span data-ttu-id="ba605-161">Habilitar ordens de cliente para serem criadas em modo assíncrono</span><span class="sxs-lookup"><span data-stu-id="ba605-161">Enable customer orders to be created in asynchronous mode</span></span>
 
-1.  Clique em **Varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfil de PDV** &gt; **Perfis de funcionalidade**.
-2.  Na Guia Rápida **Geral**, defina a opção **Criar ordem do cliente no modo assíncrono** como **Sim**.
+1.  <span data-ttu-id="ba605-162">Clique em **Varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfil de PDV** &gt; **Perfis de funcionalidade**.</span><span class="sxs-lookup"><span data-stu-id="ba605-162">Click **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profile** &gt; **Functionality profiles**.</span></span>
+2.  <span data-ttu-id="ba605-163">Na Guia Rápida **Geral**, defina a opção **Criar ordem do cliente no modo assíncrono** como **Sim**.</span><span class="sxs-lookup"><span data-stu-id="ba605-163">On the **General** FastTab, set the **Create customer order in async mode** option to **Yes**.</span></span>
 
-Quando a opção **Criar ordem do cliente no modo assíncrono** for definida como **Sim**, as ordens de cliente sempre serão criadas em modo assíncrono, mesmo se o Retail Transaction Service (RTS) estiver disponível. Se você definir essa opção como **Não**, as ordens de cliente sempre serão criadas em modo síncrono por meio de RTS. Quando ordens de cliente são criadas em modo assíncrono, elas são retiradas e inseridas no Retail por trabalhos de pull (P). As ordens de venda correspondentes são criadas no Retail quando **Sincronizar ordens** é executado manualmente ou por meio de um processo de lote.
+<span data-ttu-id="ba605-164">Quando a opção **Criar ordem do cliente no modo assíncrono** for definida como **Sim**, as ordens de cliente sempre serão criadas em modo assíncrono, mesmo se o Retail Transaction Service (RTS) estiver disponível.</span><span class="sxs-lookup"><span data-stu-id="ba605-164">When the **Create customer order in async mode** option is set to **Yes**, customer orders are always created in asynchronous mode, even if Retail Transaction Service (RTS) is available.</span></span> <span data-ttu-id="ba605-165">Se você definir essa opção como **Não**, as ordens de cliente sempre serão criadas em modo síncrono por meio de RTS.</span><span class="sxs-lookup"><span data-stu-id="ba605-165">If you set this option to **No**, customer orders are always created in synchronous mode by using RTS.</span></span> <span data-ttu-id="ba605-166">Quando ordens de cliente são criadas em modo assíncrono, elas são retiradas e inseridas no Retail por trabalhos de pull (P).</span><span class="sxs-lookup"><span data-stu-id="ba605-166">When customer orders are created in asynchronous mode, they are pulled and inserted into Retail by Pull (P) jobs.</span></span> <span data-ttu-id="ba605-167">As ordens de venda correspondentes são criadas no Retail quando **Sincronizar ordens** é executado manualmente ou por meio de um processo de lote.</span><span class="sxs-lookup"><span data-stu-id="ba605-167">The corresponding sales orders are created in Retail when **Synchronize orders** is run either manually or through a batch process.</span></span>
 
-<a name="see-also"></a>Consulte também
+<a name="see-also"></a><span data-ttu-id="ba605-168">Consulte também</span><span class="sxs-lookup"><span data-stu-id="ba605-168">See also</span></span>
 --------
 
-[Ordens de cliente híbrido](hybrid-customer-orders.md)
+[<span data-ttu-id="ba605-169">Ordens de cliente híbrido</span><span class="sxs-lookup"><span data-stu-id="ba605-169">Hybrid customer orders</span></span>](hybrid-customer-orders.md)
 
 
 

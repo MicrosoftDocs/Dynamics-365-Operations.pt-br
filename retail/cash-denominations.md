@@ -19,35 +19,35 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d280a11670b5887ae5ae582cedf30c093b4b5d7c
-ms.openlocfilehash: 9abcbb706d7120c6bcd91fc759b33cb518802a5b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 45e70765c43b93e9d8abab5fbb9de1d67a739a74
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="configure-cash-denominations-for-pos"></a>Configurar denominações de pagamento à vista para PDV
+# <a name="configure-cash-denominations-for-pos"></a><span data-ttu-id="8cf65-103">Configurar denominações de pagamento à vista para PDV</span><span class="sxs-lookup"><span data-stu-id="8cf65-103">Configure cash denominations for POS</span></span>
 
 [!include[banner](includes/banner.md)]
 
-Denominações de pagamento à vista para moedas e notas podem ser definidas no back office que será usado pelos caixas, vendedores e gerentes da loja no PDV. Essas denominações podem ser usadas para ajudar na contagem de dinheiro para declarações de meios de pagamento no fim do dia ou para finalizar uma venda rapidamente.
+<span data-ttu-id="8cf65-104">Denominações de pagamento à vista para moedas e notas podem ser definidas no back office que será usado pelos caixas, vendedores e gerentes da loja no PDV.</span><span class="sxs-lookup"><span data-stu-id="8cf65-104">Cash denominations for notes and coins can be defined in the back office to be used by cashiers, sales associates, and managers at the store from within the POS.</span></span> <span data-ttu-id="8cf65-105">Essas denominações podem ser usadas para ajudar na contagem de dinheiro para declarações de meios de pagamento no fim do dia ou para finalizar uma venda rapidamente.</span><span class="sxs-lookup"><span data-stu-id="8cf65-105">These denominations can be used to aid in counting cash for end of day tender declarations or for quickly tendering a sale.</span></span>
 
-## <a name="define-denominations"></a>Definir denominações
-As denominações são configuradas por loja em **Configurar** > **Opção de declaração de pagamento à vista na página de propriedade da loja**. 
+## <a name="define-denominations"></a><span data-ttu-id="8cf65-106">Definir denominações</span><span class="sxs-lookup"><span data-stu-id="8cf65-106">Define denominations</span></span>
+<span data-ttu-id="8cf65-107">As denominações são configuradas por loja em **Configurar** > **Opção de declaração de pagamento à vista na página de propriedade da loja**.</span><span class="sxs-lookup"><span data-stu-id="8cf65-107">The denominations are set up per store on the **Set up** > **Cash declaration option from the store property** page.</span></span> 
 
 ![denominações de pagamento à vista](./media/image1-denomination.png)
 
-Para definir uma denominação:
-1. Clique em **Novo**.
-1. Especifique o tipo (moeda ou nota).
-1. Especifique o valor.
+<span data-ttu-id="8cf65-109">Para definir uma denominação:</span><span class="sxs-lookup"><span data-stu-id="8cf65-109">To define a denomination:</span></span>
+1. <span data-ttu-id="8cf65-110">Clique em **Novo**.</span><span class="sxs-lookup"><span data-stu-id="8cf65-110">Click **New**.</span></span>
+1. <span data-ttu-id="8cf65-111">Especifique o tipo (moeda ou nota).</span><span class="sxs-lookup"><span data-stu-id="8cf65-111">Specify the type (coin or note).</span></span>
+1. <span data-ttu-id="8cf65-112">Especifique o valor.</span><span class="sxs-lookup"><span data-stu-id="8cf65-112">Specify the amount (value).</span></span>
 
 ![denominações de pagamento à vista](./media/image2-denomination.png)
 
-## <a name="configure-the-functionality-profile"></a>Configurar o perfil de funcionalidade
-Ao pagar em dinheiro no PDV, o usuário pode usar as denominações de nota para inserir rapidamente o valor pago pelo cliente. No perfil da funcionalidade, você pode configurar as duas opções para mostrar a denominação no PDV.
+## <a name="configure-the-functionality-profile"></a><span data-ttu-id="8cf65-114">Configurar o perfil de funcionalidade</span><span class="sxs-lookup"><span data-stu-id="8cf65-114">Configure the functionality profile</span></span>
+<span data-ttu-id="8cf65-115">Ao pagar em dinheiro no PDV, o usuário pode usar as denominações de nota para inserir rapidamente o valor pago pelo cliente.</span><span class="sxs-lookup"><span data-stu-id="8cf65-115">When paying by cash in POS, the user can use the note denominations to quickly enter the amount paid by the customer.</span></span> <span data-ttu-id="8cf65-116">No perfil da funcionalidade, você pode configurar as duas opções para mostrar a denominação no PDV.</span><span class="sxs-lookup"><span data-stu-id="8cf65-116">In the functionality profile, you can configure the two options for showing the denomination in POS.</span></span>
 
-**Maior ou igual ao valor devido**: por padrão, o PDV só mostrará as denominações de notas maiores do que o valor devido, o que permite o pagamento em um toque. Por exemplo, se o valor devido fosse de US$ 7,50, o PDV mostraria as seguintes denominações: US$ 10, US$ 20, US$ 50 e US$ 100. Ao tocar em qualquer um desses valores, o pagamento será feito automaticamente para esse valor. As notas de US$ 1 e US$ 5 não são mostradas, pois esses valores são menores que o valor devido.
+<span data-ttu-id="8cf65-117">**Maior ou igual ao valor devido**: por padrão, o PDV só mostrará as denominações de notas maiores do que o valor devido, o que permite o pagamento em um toque.</span><span class="sxs-lookup"><span data-stu-id="8cf65-117">**Greater or equal to amount due**: By default, POS will only show the note denominations that are greater than the amount due, which allows for one-touch tendering.</span></span> <span data-ttu-id="8cf65-118">Por exemplo, se o valor devido fosse de US$ 7,50, o PDV mostraria as seguintes denominações: US$ 10, US$ 20, US$ 50 e US$ 100.</span><span class="sxs-lookup"><span data-stu-id="8cf65-118">For example, if the amount due is $7.50, POS would show the following denominations: $10, $20, $50, and $100.</span></span> <span data-ttu-id="8cf65-119">Ao tocar em qualquer um desses valores, o pagamento será feito automaticamente para esse valor.</span><span class="sxs-lookup"><span data-stu-id="8cf65-119">Touching any of these amounts will automatically tender the sale for that amount.</span></span> <span data-ttu-id="8cf65-120">As notas de US$ 1 e US$ 5 não são mostradas, pois esses valores são menores que o valor devido.</span><span class="sxs-lookup"><span data-stu-id="8cf65-120">The $1 and $5 notes are not shown since these amounts are less than the amount due.</span></span>
 
-**Todas as denominações**: selecione esta opção para sempre mostrar todas as denominações de nota no PDV, independentemente do valor devido. Isso significa que o usuário poderá usar uma combinação de notas para atingir o valor devido. Por exemplo, se o valor devido for US$ 25,00, o usuário poderá usar notas de US$ 20 e US$ 5 para concluir a venda.
+<span data-ttu-id="8cf65-121">**Todas as denominações**: selecione esta opção para sempre mostrar todas as denominações de nota no PDV, independentemente do valor devido.</span><span class="sxs-lookup"><span data-stu-id="8cf65-121">**All denominations**: Select this option to always show all note denominations in POS, regardless of the amount due.</span></span> <span data-ttu-id="8cf65-122">Isso significa que o usuário poderá usar uma combinação de notas para atingir o valor devido.</span><span class="sxs-lookup"><span data-stu-id="8cf65-122">This means that the user can use a combination of notes to reach the amount due.</span></span> <span data-ttu-id="8cf65-123">Por exemplo, se o valor devido for US$ 25,00, o usuário poderá usar notas de US$ 20 e US$ 5 para concluir a venda.</span><span class="sxs-lookup"><span data-stu-id="8cf65-123">For example, if the amount due is $25.00, the user can choose $20 and $5 to complete the sale.</span></span>
 

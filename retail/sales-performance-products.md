@@ -19,32 +19,32 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: d6c04b8a6a4208e187786be158ceb3c84e1bb408
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 679bafc81e7c3bd328dd3be3d8cabe7969077f93
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="assess-sales-performance-by-product"></a>Avaliar o desempenho de vendas por produto
+# <a name="assess-sales-performance-by-product"></a><span data-ttu-id="c80d0-103">Avaliar o desempenho de vendas por produto</span><span class="sxs-lookup"><span data-stu-id="c80d0-103">Assess sales performance by product</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Você pode estudar a lucratividade dos 10 principais produtos usando o Microsoft Dynamics 365 para Varejo. 
+<span data-ttu-id="c80d0-104">Você pode estudar a lucratividade dos 10 principais produtos usando o Microsoft Dynamics 365 para Varejo.</span><span class="sxs-lookup"><span data-stu-id="c80d0-104">You can study profitability for the top 10 products using Microsoft Dynamics 365 for Retail.</span></span> 
 
-Como parte do Dynamics 365 para Varejo, os usuários também podem estudar a lucratividade dos melhores produtos (10 a 100) nos diferentes níveis da hierarquia organizacional, com base em um dos seguintes critérios:
+<span data-ttu-id="c80d0-105">Como parte do Dynamics 365 para Varejo, os usuários também podem estudar a lucratividade dos melhores produtos (10 a 100) nos diferentes níveis da hierarquia organizacional, com base em um dos seguintes critérios:</span><span class="sxs-lookup"><span data-stu-id="c80d0-105">As part of Dynamics 365 for Retail, users can also study profitability for the top products (10 to 100) across different levels of the organization hierarchy, based on one of the following criteria:</span></span>
 
--   Valor de venda
--   Quantidade
--   Margem de lucro bruto
--   Percentual de margem
+-   <span data-ttu-id="c80d0-106">Valor de venda</span><span class="sxs-lookup"><span data-stu-id="c80d0-106">Sales amount</span></span>
+-   <span data-ttu-id="c80d0-107">Quantidade</span><span class="sxs-lookup"><span data-stu-id="c80d0-107">Quantity</span></span>
+-   <span data-ttu-id="c80d0-108">Margem de lucro bruto</span><span class="sxs-lookup"><span data-stu-id="c80d0-108">Gross profit margin</span></span>
+-   <span data-ttu-id="c80d0-109">Percentual de margem</span><span class="sxs-lookup"><span data-stu-id="c80d0-109">Margin percentage</span></span>
 
-Nesta avaliação, você pode usar o relatório predefinido de **Melhores produtos**, que pode ser aberto em qualquer um destes locais:
+<span data-ttu-id="c80d0-110">Nesta avaliação, você pode usar o relatório predefinido de **Melhores produtos**, que pode ser aberto em qualquer um destes locais:</span><span class="sxs-lookup"><span data-stu-id="c80d0-110">For this assessment, you can use the out-of-box **Top products** report, which you can open from any of the following locations:</span></span>
 
--   Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de melhores produtos**
--   Área de trabalho **Gerenciamento de categorias e produto** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de melhores produtos**
--   Seção **Consultas e relatórios** &gt; **Varejo** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de melhores produtos**
+-   <span data-ttu-id="c80d0-111">Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de melhores produtos**</span><span class="sxs-lookup"><span data-stu-id="c80d0-111">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+-   <span data-ttu-id="c80d0-112">Área de trabalho **Gerenciamento de categorias e produto** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de melhores produtos**</span><span class="sxs-lookup"><span data-stu-id="c80d0-112">**Category and product management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Top products report**</span></span>
+-   <span data-ttu-id="c80d0-113">Seção **Consultas e relatórios** &gt; **Varejo** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de melhores produtos**</span><span class="sxs-lookup"><span data-stu-id="c80d0-113">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Top products report**</span></span>
 
 
 

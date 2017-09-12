@@ -15,56 +15,56 @@ ms.custom: 192061
 ms.assetid: c0aceb57-b5e6-4ef3-91e7-89a21c9f048a
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 66f1b8e03cc0da5d21fea9b3c795d8f4097c8cfc
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 56e29bd2e875b8bb729e5dfe0c5ac03fc997ecbe
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="configure-an-automated-task-in-a-workflow"></a>Configurar uma tarefa automatizada em um fluxo de trabalho
+# <a name="configure-an-automated-task-in-a-workflow"></a><span data-ttu-id="478cb-103">Configurar uma tarefa automatizada em um fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="478cb-103">Configure an automated task in a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico explica como configurar as propriedades de uma tarefa automatizada.
+<span data-ttu-id="478cb-104">Este tópico explica como configurar as propriedades de uma tarefa automatizada.</span><span class="sxs-lookup"><span data-stu-id="478cb-104">This topic explains how to configure the properties for an automated task.</span></span>
 
-Para configurar uma tarefa automatizada no editor de fluxo de trabalho, clique com o botão direito do mouse na tarefa e clique em **Propriedades** para abrir a página **Propriedades**. Em seguida, use os procedimentos a seguir para configurar as propriedades da tarefa automatizada.
+<span data-ttu-id="478cb-105">Para configurar uma tarefa automatizada no editor de fluxo de trabalho, clique com o botão direito do mouse na tarefa e clique em **Propriedades** para abrir a página **Propriedades**.</span><span class="sxs-lookup"><span data-stu-id="478cb-105">To configure an automated task in the workflow editor, right-click the task, and then click **Properties** to open the **Properties** page.</span></span> <span data-ttu-id="478cb-106">Em seguida, use os procedimentos a seguir para configurar as propriedades da tarefa automatizada.</span><span class="sxs-lookup"><span data-stu-id="478cb-106">Then use the following procedures to configure the properties for the automated task.</span></span>
 
-## <a name="name-the-task"></a>Nomear a tarefa
-Siga estas etapas para inserir um nome para a tarefa automatizada.
+## <a name="name-the-task"></a><span data-ttu-id="478cb-107">Nomear a tarefa</span><span class="sxs-lookup"><span data-stu-id="478cb-107">Name the task</span></span>
+<span data-ttu-id="478cb-108">Siga estas etapas para inserir um nome para a tarefa automatizada.</span><span class="sxs-lookup"><span data-stu-id="478cb-108">Follow these steps to enter a name for the automated task.</span></span>
 
-1.  No painel esquerdo, clique em **Configurações Básicas**.
-2.  No campo **Nome**, insira um nome exclusivo para a tarefa.
+1.  <span data-ttu-id="478cb-109">No painel esquerdo, clique em **Configurações Básicas**.</span><span class="sxs-lookup"><span data-stu-id="478cb-109">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="478cb-110">No campo **Nome**, insira um nome exclusivo para a tarefa.</span><span class="sxs-lookup"><span data-stu-id="478cb-110">In the **Name** field, enter a unique name for the task.</span></span>
 
-## <a name="specify-when-notifications-are-sent"></a>Especificar quando enviar notificações
-É possível enviar notificações às pessoas quando uma tarefa automatizada tiver sido executada ou cancelada. Siga estas etapas para especificar quando as notificações são enviadas, e a quem são enviadas.
+## <a name="specify-when-notifications-are-sent"></a><span data-ttu-id="478cb-111">Especificar quando enviar notificações</span><span class="sxs-lookup"><span data-stu-id="478cb-111">Specify when notifications are sent</span></span>
+<span data-ttu-id="478cb-112">É possível enviar notificações às pessoas quando uma tarefa automatizada tiver sido executada ou cancelada.</span><span class="sxs-lookup"><span data-stu-id="478cb-112">You can send notifications to people when an automated task has been run or canceled.</span></span> <span data-ttu-id="478cb-113">Siga estas etapas para especificar quando as notificações são enviadas, e a quem são enviadas.</span><span class="sxs-lookup"><span data-stu-id="478cb-113">Follow these steps to specify when notifications are sent, and who they are sent to.</span></span>
 
-1.  No painel esquerdo, clique em **Notificações**.
-2.  Marque a caixa de seleção ao lado dos eventos para os quais enviar notificações:
-    -   **Execução** – as notificações são enviadas quando a tarefa tiver sido executada.
-    -   **Cancelada** – as notificações são enviadas quando a tarefa tiver sido cancelada.
+1.  <span data-ttu-id="478cb-114">No painel esquerdo, clique em **Notificações**.</span><span class="sxs-lookup"><span data-stu-id="478cb-114">In the left pane, click **Notifications**.</span></span>
+2.  <span data-ttu-id="478cb-115">Marque a caixa de seleção ao lado dos eventos para os quais enviar notificações:</span><span class="sxs-lookup"><span data-stu-id="478cb-115">Select the check box next to the events to send notifications for:</span></span>
+    -   <span data-ttu-id="478cb-116">**Execução** – as notificações são enviadas quando a tarefa tiver sido executada.</span><span class="sxs-lookup"><span data-stu-id="478cb-116">**Execution** – Notifications are sent when the task has been run.</span></span>
+    -   <span data-ttu-id="478cb-117">**Cancelada** – as notificações são enviadas quando a tarefa tiver sido cancelada.</span><span class="sxs-lookup"><span data-stu-id="478cb-117">**Canceled** – Notifications are sent when the task has been canceled.</span></span>
 
-3.  Selecione a linha de um evento que você selecionou na etapa 2.
-4.  Na guia **Texto da notificação**, insira o texto da notificação na caixa de texto.
-5.  Para personalizar a notificação, você poderá inserir espaços reservados. Esses espaços reservados são substituídos pelos dados adequados quando a notificação é exibida para os usuários. Siga estas etapas para inserir um espaço reservado:
-    1.  Na caixa de texto, clique no local onde o espaço reservado deve aparecer.
-    2.  Clique em **Inserir espaço reservado**.
-    3.  Na lista exibida, selecione o espaço reservado a ser inserido.
-    4.  Clique em **Inserir**.
+3.  <span data-ttu-id="478cb-118">Selecione a linha de um evento que você selecionou na etapa 2.</span><span class="sxs-lookup"><span data-stu-id="478cb-118">Select the row for an event that you selected in step 2.</span></span>
+4.  <span data-ttu-id="478cb-119">Na guia **Texto da notificação**, insira o texto da notificação na caixa de texto.</span><span class="sxs-lookup"><span data-stu-id="478cb-119">On the **Notification text** tab, in the text box, enter the text of the notification.</span></span>
+5.  <span data-ttu-id="478cb-120">Para personalizar a notificação, você poderá inserir espaços reservados.</span><span class="sxs-lookup"><span data-stu-id="478cb-120">To personalize the notification, you can insert placeholders.</span></span> <span data-ttu-id="478cb-121">Esses espaços reservados são substituídos pelos dados adequados quando a notificação é exibida para os usuários.</span><span class="sxs-lookup"><span data-stu-id="478cb-121">Placeholders are replaced with appropriate data when the notification is shown to users.</span></span> <span data-ttu-id="478cb-122">Siga estas etapas para inserir um espaço reservado:</span><span class="sxs-lookup"><span data-stu-id="478cb-122">Follow these steps to insert a placeholder:</span></span>
+    1.  <span data-ttu-id="478cb-123">Na caixa de texto, clique no local onde o espaço reservado deve aparecer.</span><span class="sxs-lookup"><span data-stu-id="478cb-123">In the text box, click where the placeholder should appear.</span></span>
+    2.  <span data-ttu-id="478cb-124">Clique em **Inserir espaço reservado**.</span><span class="sxs-lookup"><span data-stu-id="478cb-124">Click **Insert placeholder**.</span></span>
+    3.  <span data-ttu-id="478cb-125">Na lista exibida, selecione o espaço reservado a ser inserido.</span><span class="sxs-lookup"><span data-stu-id="478cb-125">In the list that appears, select the placeholder to insert.</span></span>
+    4.  <span data-ttu-id="478cb-126">Clique em **Inserir**.</span><span class="sxs-lookup"><span data-stu-id="478cb-126">Click **Insert**.</span></span>
 
-6.  Para adicionar traduções da notificação, siga estas etapas:
-    1.  Clique em **Traduções**.
-    2.  Na página exibida, clique em **Adicionar**.
-    3.  Na lista exibida, selecione o idioma do texto que você está inserindo.
-    4.  No campo **Texto traduzido**, insira o texto.
-    5.  Para personalizar o texto, insira os espaços reservados conforme descrito na etapa 5.
-    6.  Clique em **Fechar**.
+6.  <span data-ttu-id="478cb-127">Para adicionar traduções da notificação, siga estas etapas:</span><span class="sxs-lookup"><span data-stu-id="478cb-127">To add translations of the notification, follow these steps:</span></span>
+    1.  <span data-ttu-id="478cb-128">Clique em **Traduções**.</span><span class="sxs-lookup"><span data-stu-id="478cb-128">Click **Translations**.</span></span>
+    2.  <span data-ttu-id="478cb-129">Na página exibida, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="478cb-129">On the page that appears, click **Add**.</span></span>
+    3.  <span data-ttu-id="478cb-130">Na lista exibida, selecione o idioma do texto que você está inserindo.</span><span class="sxs-lookup"><span data-stu-id="478cb-130">In the list that appears, select the language that you're entering the text in.</span></span>
+    4.  <span data-ttu-id="478cb-131">No campo **Texto traduzido**, insira o texto.</span><span class="sxs-lookup"><span data-stu-id="478cb-131">In the **Translated text** field, enter the text.</span></span>
+    5.  <span data-ttu-id="478cb-132">Para personalizar o texto, insira os espaços reservados conforme descrito na etapa 5.</span><span class="sxs-lookup"><span data-stu-id="478cb-132">To personalize the text, you can insert placeholders as described in step 5.</span></span>
+    6.  <span data-ttu-id="478cb-133">Clique em **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="478cb-133">Click **Close**.</span></span>
 
-7.  Na guia **Destinatário**, especifique para quem as notificações serão enviadas. Selecione uma das opções na tabela a seguir e execute as etapas adicionais dessa opção antes de passar para a etapa 8.
+7.  <span data-ttu-id="478cb-134">Na guia **Destinatário**, especifique para quem as notificações serão enviadas.</span><span class="sxs-lookup"><span data-stu-id="478cb-134">On the **Recipient** tab, specify who the notifications are sent to.</span></span> <span data-ttu-id="478cb-135">Selecione uma das opções na tabela a seguir e execute as etapas adicionais dessa opção antes de passar para a etapa 8.</span><span class="sxs-lookup"><span data-stu-id="478cb-135">Select one of the options in the following table, and then follow the additional steps for that option before you go to step 8.</span></span>
     <table>
     <colgroup>
     <col width="33%" />
@@ -73,39 +73,39 @@ Siga estas etapas para inserir um nome para a tarefa automatizada.
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Opção</th>
-    <th>Destinatários da notificação</th>
-    <th>Etapas adicionais</th>
+    <th><span data-ttu-id="478cb-136">Opção</span><span class="sxs-lookup"><span data-stu-id="478cb-136">Option</span></span></th>
+    <th><span data-ttu-id="478cb-137">Destinatários da notificação</span><span class="sxs-lookup"><span data-stu-id="478cb-137">Notification recipients</span></span></th>
+    <th><span data-ttu-id="478cb-138">Etapas adicionais</span><span class="sxs-lookup"><span data-stu-id="478cb-138">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Participante</td>
-    <td>Usuários que foram atribuídos a uma função ou um grupo específico</td>
+    <td><span data-ttu-id="478cb-139">Participante</span><span class="sxs-lookup"><span data-stu-id="478cb-139">Participant</span></span></td>
+    <td><span data-ttu-id="478cb-140">Usuários que foram atribuídos a uma função ou um grupo específico</span><span class="sxs-lookup"><span data-stu-id="478cb-140">Users who are assigned to a specific group or role</span></span></td>
     <td><ol>
-    <li>Depois que você selecionar <strong>Participante</strong>, na guia <strong>Baseado em função</strong>, na lista <strong>Tipo de participante</strong>, selecione o tipo de grupo ou de função ao qual enviar notificações.</li>
-    <li>Na lista <strong>Participante</strong>, selecione o grupo ou a função ao qual serão enviadas notificações.</li>
+    <li><span data-ttu-id="478cb-141">Depois que você selecionar <strong>Participante</strong>, na guia <strong>Baseado em função</strong>, na lista <strong>Tipo de participante</strong>, selecione o tipo de grupo ou de função ao qual enviar notificações.</span><span class="sxs-lookup"><span data-stu-id="478cb-141">After you select <strong>Participant</strong>, on the <strong>Role based</strong> tab, in the <strong>Type of participant</strong> list, select the type of group or role to send notifications to.</span></span></li>
+    <li><span data-ttu-id="478cb-142">Na lista <strong>Participante</strong>, selecione o grupo ou a função ao qual serão enviadas notificações.</span><span class="sxs-lookup"><span data-stu-id="478cb-142">In the <strong>Participant</strong> list, select the group or role to send notifications to.</span></span></li>
     </ol></td>
     </tr>
     <tr class="even">
-    <td>Usuário de fluxo de trabalho</td>
-    <td>Usuários que participam do fluxo de trabalho atual</td>
+    <td><span data-ttu-id="478cb-143">Usuário de fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="478cb-143">Workflow user</span></span></td>
+    <td><span data-ttu-id="478cb-144">Usuários que participam do fluxo de trabalho atual</span><span class="sxs-lookup"><span data-stu-id="478cb-144">Users who participate in the current workflow</span></span></td>
     <td><ul>
-    <li>Depois que você selecionar <strong>Usuário de fluxo de trabalho</strong> na guia <strong>Usuário de fluxo de trabalho</strong>, na lista <strong>Usuário de fluxo de trabalho</strong>, selecione um usuário que participa do fluxo de trabalho.</li>
+    <li><span data-ttu-id="478cb-145">Depois que você selecionar <strong>Usuário de fluxo de trabalho</strong> na guia <strong>Usuário de fluxo de trabalho</strong>, na lista <strong>Usuário de fluxo de trabalho</strong>, selecione um usuário que participa do fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="478cb-145">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ul></td>
     </tr>
     <tr class="odd">
-    <td>Usuário</td>
-    <td>Especificar usuários do Microsoft Dynamics 365 for Finance and Operations</td>
+    <td><span data-ttu-id="478cb-146">Usuário</span><span class="sxs-lookup"><span data-stu-id="478cb-146">User</span></span></td>
+    <td><span data-ttu-id="478cb-147">Especificar usuários do Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="478cb-147">Specific Microsoft Dynamics 365 for Finance and Operations users</span></span></td>
     <td><ol>
-    <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li>A lista <strong>Usuários disponíveis</strong> tem todos os usuários do Finance and Operations. Selecione os usuários aos quais enviar notificações e mova- os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li><span data-ttu-id="478cb-148">Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</span><span class="sxs-lookup"><span data-stu-id="478cb-148">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="478cb-149">A lista <strong>Usuários disponíveis</strong> tem todos os usuários do Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="478cb-149">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="478cb-150">Selecione os usuários aos quais enviar notificações e mova- os para a lista <strong>Usuários selecionados</strong>.</span><span class="sxs-lookup"><span data-stu-id="478cb-150">Select the users to send notifications to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
-8.  Repita as etapas de 3 a 7 para cada evento selecionado na etapa 2.
+8.  <span data-ttu-id="478cb-151">Repita as etapas de 3 a 7 para cada evento selecionado na etapa 2.</span><span class="sxs-lookup"><span data-stu-id="478cb-151">Repeat steps 3 through 7 for each event that you selected in step 2.</span></span>
 
 
 

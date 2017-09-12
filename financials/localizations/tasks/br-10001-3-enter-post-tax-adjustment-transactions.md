@@ -16,38 +16,38 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 299d50c9a03ef22c6f675857a9cc47acd553a711
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d1f1c47bab00818f82de2aab8131bc622e6915cf
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="enter-and-post-tax-adjustment-transactions-brazil"></a>Inserir e lançar transações de ajuste de imposto (Brasil)
+# <a name="enter-and-post-tax-adjustment-transactions-brazil"></a><span data-ttu-id="1aea6-103">Inserir e lançar transações de ajuste de imposto (Brasil)</span><span class="sxs-lookup"><span data-stu-id="1aea6-103">Enter and post tax adjustment transactions (Brazil)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Use este procedimento para criar e lançar transações de ajuste de impostos. Esta tarefa usa a empresa de demonstração BRMF.
+<span data-ttu-id="1aea6-104">Use este procedimento para criar e lançar transações de ajuste de impostos.</span><span class="sxs-lookup"><span data-stu-id="1aea6-104">Use this procedure to create and post tax adjustment transactions.</span></span> <span data-ttu-id="1aea6-105">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="1aea6-105">This task uses the BRMF demo company.</span></span>
 
-1. Vá para Registros financeiros > Diários > Ajuste geral de imposto/benefício/incentivo.
-2. Clique em Novo.
-3. Na lista, marque a linha selecionada.
-4. No campo Nome, insira ou selecione um valor.
-5. Clique em Linhas.
-6. Na lista, marque a linha selecionada.
-7. No campo Data, insira uma data.
-8. No campo ID do estabelecimento fiscal, insira ou selecione um valor.
-9. No campo Tipo de imposto, insira ou selecione um valor.
-10. No campo Tipo de Ajuste, selecione uma opção.
-11. No campo Código de ajuste, insira ou selecione um valor.
-12. No campo Descrição, insira ou selecione um valor.
-13. No campo Valor, insira um número.
-14. Clique em Lançar.
-15. Clique em Lançar.
-16. Feche a página.
-17. Feche a página.
-18. Vá para Registros financeiros > Comum > Apuração de imposto > ICMS.
-19. Clique em Ajuste.
-20. Feche a página.
-21. Feche a página.
+1. <span data-ttu-id="1aea6-106">Vá para Registros financeiros > Diários > Ajuste geral de imposto/benefício/incentivo.</span><span class="sxs-lookup"><span data-stu-id="1aea6-106">Go to Financial books > Journals > General tax adjustment/benefit/incentive.</span></span>
+2. <span data-ttu-id="1aea6-107">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="1aea6-107">Click New.</span></span>
+3. <span data-ttu-id="1aea6-108">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="1aea6-108">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="1aea6-109">No campo Nome, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="1aea6-109">In the Name field, enter or select a value.</span></span>
+5. <span data-ttu-id="1aea6-110">Clique em Linhas.</span><span class="sxs-lookup"><span data-stu-id="1aea6-110">Click Lines.</span></span>
+6. <span data-ttu-id="1aea6-111">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="1aea6-111">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="1aea6-112">No campo Data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="1aea6-112">In the Date field, enter a date.</span></span>
+8. <span data-ttu-id="1aea6-113">No campo ID do estabelecimento fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="1aea6-113">In the Fiscal establishment ID field, enter or select a value.</span></span>
+9. <span data-ttu-id="1aea6-114">No campo Tipo de imposto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="1aea6-114">In the Tax type field, enter or select a value.</span></span>
+10. <span data-ttu-id="1aea6-115">No campo Tipo de Ajuste, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="1aea6-115">In the Adjustment type field, select an option.</span></span>
+11. <span data-ttu-id="1aea6-116">No campo Código de ajuste, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="1aea6-116">In the Adjustment code field, enter or select a value.</span></span>
+12. <span data-ttu-id="1aea6-117">No campo Descrição, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="1aea6-117">In the Description field, enter or select a value.</span></span>
+13. <span data-ttu-id="1aea6-118">No campo Valor, insira um número.</span><span class="sxs-lookup"><span data-stu-id="1aea6-118">In the Amount field, enter a number.</span></span>
+14. <span data-ttu-id="1aea6-119">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="1aea6-119">Click Post.</span></span>
+15. <span data-ttu-id="1aea6-120">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="1aea6-120">Click Post.</span></span>
+16. <span data-ttu-id="1aea6-121">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="1aea6-121">Close the page.</span></span>
+17. <span data-ttu-id="1aea6-122">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="1aea6-122">Close the page.</span></span>
+18. <span data-ttu-id="1aea6-123">Vá para Registros financeiros > Comum > Apuração de imposto > ICMS.</span><span class="sxs-lookup"><span data-stu-id="1aea6-123">Go to Financial books > Common > Tax assessment > ICMS.</span></span>
+19. <span data-ttu-id="1aea6-124">Clique em Ajuste.</span><span class="sxs-lookup"><span data-stu-id="1aea6-124">Click Adjustment.</span></span>
+20. <span data-ttu-id="1aea6-125">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="1aea6-125">Close the page.</span></span>
+21. <span data-ttu-id="1aea6-126">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="1aea6-126">Close the page.</span></span>
 
 

@@ -16,108 +16,108 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 4576d89923926971ab3ca30dc702baedf05f602a
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: de2840ebc6c91e313546859f5c0d8939eb80977b
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er"></a>Gerar relatórios nos formatos do Microsoft Office com imagens incorporadas para relatório eletrônico (ER)
+# <a name="generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er"></a><span data-ttu-id="f5b65-103">Gerar relatórios nos formatos do Microsoft Office com imagens incorporadas para relatório eletrônico (ER)</span><span class="sxs-lookup"><span data-stu-id="f5b65-103">Generate reports in Microsoft Office formats with embedded images for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de relatório eletrônico pode criar configurações de Relatório Eletrônico (RE) para gerar os documentos eletrônicos nos formatos do MS Office (Excel e Word) que contenham imagens incorporadas.
+<span data-ttu-id="f5b65-104">As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de relatório eletrônico pode criar configurações de Relatório Eletrônico (RE) para gerar os documentos eletrônicos nos formatos do MS Office (Excel e Word) que contenham imagens incorporadas.</span><span class="sxs-lookup"><span data-stu-id="f5b65-104">The following steps explain how a user playing either ‘System administrator’ or ‘Electronic reporting developer’ role can design Electronic reporting (ER) configurations to generate electronic documents in MS office formats (Excel and Word) containing embedded images.</span></span>
 
-Neste exemplo, você usará as configurações de ER criadas para a empresa exemplo, Litware, Inc.  Para completar essas etapas, primeiro você deve concluir as etapas no guia de tarefas "ER Fazer relatórios nos formatos do MS Office com imagens incorporadas (Parte 2: Revisar configurações). Essas etapas podem ser executadas na empresa "USMF".
+<span data-ttu-id="f5b65-105">Neste exemplo, você usará as configurações de ER criadas para a empresa exemplo, Litware, Inc.</span><span class="sxs-lookup"><span data-stu-id="f5b65-105">In this example, you will use created ER configurations for sample company, ‘Litware, Inc.’.</span></span>  <span data-ttu-id="f5b65-106">Para completar essas etapas, primeiro você deve concluir as etapas no guia de tarefas "ER Fazer relatórios nos formatos do MS Office com imagens incorporadas (Parte 2: Revisar configurações).</span><span class="sxs-lookup"><span data-stu-id="f5b65-106">To complete these steps, you must first complete the steps in the “ER Make reports in MS Office formats with embedded images (Part 2: Review configurations)” task guide.</span></span> <span data-ttu-id="f5b65-107">Essas etapas podem ser executadas na empresa "USMF".</span><span class="sxs-lookup"><span data-stu-id="f5b65-107">These steps can be performed in ‘USMF’ company.</span></span>
 
 
-## <a name="run-format-with-initial-model-mapping"></a>Executar formato com mapeamento de modelo inicial
-1. Vá para Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.
-2. Use o Filtro Rápido para filtrar o campo Conta bancária com o valor 'USMF OPER'.
-3. No Painel de Ação, clique em Configurar.
-4. Clique em Verificar.
-5. Clique em Imprimir teste.
-    * Execute o formato para fins de teste.  
-6. Selecione Sim no campo Formato de cheque negociável.
-7. Clique em OK.
-    * Revise a saída criada. Observe que o logotipo da empresa é mostrado no relatório, bem como a assinatura da pessoa autorizada. A imagem de assinatura é obtida do campo do tipo de dados "Contêiner" do registro de layout de cheque que é associado à conta bancária selecionada.  
-8. Expanda a seção Cópias.
-9. Clique em Editar.
-10. No campo Marca d'água, insira "Imprimir marca d'água como Nula".
-    * Modificar a configuração do layout de marca d'água para exibir o texto de marca d'água ao gerar o documento de um elemento do Excel.  
-11. Clique em Imprimir teste.
-12. Clique em OK.
-    * Revise a saída criada. Observe que a marca-d'água é mostrada no relatório criado, de acordo a opção de seleção.  
-13. Feche a página.
-14. No Painel de Ação, clique em Gerenciar pagamentos.
-15. Clique em Cheques.
-16. Clique em Mostrar filtros.
-17. Aplique os seguintes filtros: insira um valor de filtro de "381","385","389" no campo "Número do cheque" usando o operador de filtro "é um de".
-18. Na lista, marque todas as linhas.
-19. Clique em Imprimir cópia de cheque.
-    * Execute o formato para reimprimir os cheques selecionados.  
-    * Revise a saída criada. Observe que os cheques selecionados foram reimpressos. O logotipo e os rótulos empresariais não são impressos de saída, já que são apresentados no formulário pré-impresso.  
+## <a name="run-format-with-initial-model-mapping"></a><span data-ttu-id="f5b65-108">Executar formato com mapeamento de modelo inicial</span><span class="sxs-lookup"><span data-stu-id="f5b65-108">Run format with initial model mapping</span></span>
+1. <span data-ttu-id="f5b65-109">Vá para Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.</span><span class="sxs-lookup"><span data-stu-id="f5b65-109">Go to Cash and bank management > Bank accounts > Bank accounts.</span></span>
+2. <span data-ttu-id="f5b65-110">Use o Filtro Rápido para filtrar o campo Conta bancária com o valor 'USMF OPER'.</span><span class="sxs-lookup"><span data-stu-id="f5b65-110">Use the Quick Filter to filter on the Bank account field with a value of 'USMF OPER'.</span></span>
+3. <span data-ttu-id="f5b65-111">No Painel de Ação, clique em Configurar.</span><span class="sxs-lookup"><span data-stu-id="f5b65-111">On the Action Pane, click Set up.</span></span>
+4. <span data-ttu-id="f5b65-112">Clique em Verificar.</span><span class="sxs-lookup"><span data-stu-id="f5b65-112">Click Check.</span></span>
+5. <span data-ttu-id="f5b65-113">Clique em Imprimir teste.</span><span class="sxs-lookup"><span data-stu-id="f5b65-113">Click Print test.</span></span>
+    * <span data-ttu-id="f5b65-114">Execute o formato para fins de teste.</span><span class="sxs-lookup"><span data-stu-id="f5b65-114">Run the format for testing purposes.</span></span>  
+6. <span data-ttu-id="f5b65-115">Selecione Sim no campo Formato de cheque negociável.</span><span class="sxs-lookup"><span data-stu-id="f5b65-115">Select Yes in the Negotiable check format field.</span></span>
+7. <span data-ttu-id="f5b65-116">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="f5b65-116">Click OK.</span></span>
+    * <span data-ttu-id="f5b65-117">Revise a saída criada.</span><span class="sxs-lookup"><span data-stu-id="f5b65-117">Review the created output.</span></span> <span data-ttu-id="f5b65-118">Observe que o logotipo da empresa é mostrado no relatório, bem como a assinatura da pessoa autorizada.</span><span class="sxs-lookup"><span data-stu-id="f5b65-118">Note that the company logo is presented in the report as well as the authorized person’s signature.</span></span> <span data-ttu-id="f5b65-119">A imagem de assinatura é obtida do campo do tipo de dados "Contêiner" do registro de layout de cheque que é associado à conta bancária selecionada.</span><span class="sxs-lookup"><span data-stu-id="f5b65-119">The signature image is taken from the field of the ‘Container’ data type of the cheque layout record which is associated with the selected bank account.</span></span>  
+8. <span data-ttu-id="f5b65-120">Expanda a seção Cópias.</span><span class="sxs-lookup"><span data-stu-id="f5b65-120">Expand the Copies section.</span></span>
+9. <span data-ttu-id="f5b65-121">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="f5b65-121">Click Edit.</span></span>
+10. <span data-ttu-id="f5b65-122">No campo Marca d'água, insira "Imprimir marca d'água como Nula".</span><span class="sxs-lookup"><span data-stu-id="f5b65-122">In the Watermark field, enter 'Print watermark as Void'.</span></span>
+    * <span data-ttu-id="f5b65-123">Modificar a configuração do layout de marca d'água para exibir o texto de marca d'água ao gerar o documento de um elemento do Excel.</span><span class="sxs-lookup"><span data-stu-id="f5b65-123">Change the watermark layout setting to show the watermark text in generating document in an Excel shape element.</span></span>  
+11. <span data-ttu-id="f5b65-124">Clique em Imprimir teste.</span><span class="sxs-lookup"><span data-stu-id="f5b65-124">Click Print test.</span></span>
+12. <span data-ttu-id="f5b65-125">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="f5b65-125">Click OK.</span></span>
+    * <span data-ttu-id="f5b65-126">Revise a saída criada.</span><span class="sxs-lookup"><span data-stu-id="f5b65-126">Review the created output.</span></span> <span data-ttu-id="f5b65-127">Observe que a marca-d'água é mostrada no relatório criado, de acordo a opção de seleção.</span><span class="sxs-lookup"><span data-stu-id="f5b65-127">Note that the watermark is shown in the created report in accordance to the selection option.</span></span>  
+13. <span data-ttu-id="f5b65-128">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f5b65-128">Close the page.</span></span>
+14. <span data-ttu-id="f5b65-129">No Painel de Ação, clique em Gerenciar pagamentos.</span><span class="sxs-lookup"><span data-stu-id="f5b65-129">On the Action Pane, click Manage payments.</span></span>
+15. <span data-ttu-id="f5b65-130">Clique em Cheques.</span><span class="sxs-lookup"><span data-stu-id="f5b65-130">Click Checks.</span></span>
+16. <span data-ttu-id="f5b65-131">Clique em Mostrar filtros.</span><span class="sxs-lookup"><span data-stu-id="f5b65-131">Click Show filters.</span></span>
+17. <span data-ttu-id="f5b65-132">Aplique os seguintes filtros: insira um valor de filtro de "381","385","389" no campo "Número do cheque" usando o operador de filtro "é um de".</span><span class="sxs-lookup"><span data-stu-id="f5b65-132">Apply the following filters: Enter a filter value of "381","385","389" on the "Check number" field using the "is one of" filter operator.</span></span>
+18. <span data-ttu-id="f5b65-133">Na lista, marque todas as linhas.</span><span class="sxs-lookup"><span data-stu-id="f5b65-133">In the list, mark all rows.</span></span>
+19. <span data-ttu-id="f5b65-134">Clique em Imprimir cópia de cheque.</span><span class="sxs-lookup"><span data-stu-id="f5b65-134">Click Print check copy.</span></span>
+    * <span data-ttu-id="f5b65-135">Execute o formato para reimprimir os cheques selecionados.</span><span class="sxs-lookup"><span data-stu-id="f5b65-135">Run the format to re-print the selected cheques.</span></span>  
+    * <span data-ttu-id="f5b65-136">Revise a saída criada.</span><span class="sxs-lookup"><span data-stu-id="f5b65-136">Review the created output.</span></span> <span data-ttu-id="f5b65-137">Observe que os cheques selecionados foram reimpressos.</span><span class="sxs-lookup"><span data-stu-id="f5b65-137">Note that the selected cheques have been re-printed.</span></span> <span data-ttu-id="f5b65-138">O logotipo e os rótulos empresariais não são impressos de saída, já que são apresentados no formulário pré-impresso.</span><span class="sxs-lookup"><span data-stu-id="f5b65-138">The company logo and labels are not printed out since they are presented on the pre-printed form.</span></span>  
 
-## <a name="modify-the-mapping-of-the-imported-data-model"></a>Modifique mapeamento do modelo de dados importados
-1. Feche a página.
-2. Feche a página.
-3. Vá para Administração da organização > Relatório eletrônico > Configurações.
-4. Na árvore, selecione "Modelo de cheques'.
-5. Clique em Designer.
-6. Clique em Mapear modelo para fonte de dados.
-7. Clique em Designer.
-    * Alteraremos a associação do item de assinatura do modelo de dados para obter a imagem de assinatura do arquivo que foi anexada ao registro de layout de cheque que está associado à conta bancária selecionada.  
-8. Desative Mostrar detalhes.
-9. Na árvore, expanda 'layout'.
-10. Na árvore, expanda 'layout\assinatura'.
-11. Na árvore, selecione 'layout\assinatura\imagem = chequesaccount.'<Relations'.BankChequeLayout.Signature1Bmp'.
-12. Na árvore, expanda 'chequesaccount'.
-13. Na árvore, expanda 'chequesaccount\<Relações'.
-14. Na árvore, expanda 'chequesaccount\<Relações\BankChequeLayout'.
-15. Na árvore, expanda 'chequesaccount\<Relações\BankChequeLayout\<Relações'.
-16. Na árvore, expanda 'chequesaccount\<Relações\BankChequeLayout\<Relações\<Documentos'.
-17. Na árvore, selecione 'chequesaccount\<Relações\BankChequeLayout\<Relações\<Documentos\getFileContentAsContainer()'.
-18. Clique em Associar.
-19. Clique em Salvar.
-20. Feche a página.
-21. Feche a página.
-22. Feche a página.
-23. Feche a página.
+## <a name="modify-the-mapping-of-the-imported-data-model"></a><span data-ttu-id="f5b65-139">Modifique mapeamento do modelo de dados importados</span><span class="sxs-lookup"><span data-stu-id="f5b65-139">Modify the mapping of the imported data model</span></span>
+1. <span data-ttu-id="f5b65-140">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f5b65-140">Close the page.</span></span>
+2. <span data-ttu-id="f5b65-141">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f5b65-141">Close the page.</span></span>
+3. <span data-ttu-id="f5b65-142">Vá para Administração da organização > Relatório eletrônico > Configurações.</span><span class="sxs-lookup"><span data-stu-id="f5b65-142">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+4. <span data-ttu-id="f5b65-143">Na árvore, selecione "Modelo de cheques'.</span><span class="sxs-lookup"><span data-stu-id="f5b65-143">In the tree, select 'Model for cheques'.</span></span>
+5. <span data-ttu-id="f5b65-144">Clique em Designer.</span><span class="sxs-lookup"><span data-stu-id="f5b65-144">Click Designer.</span></span>
+6. <span data-ttu-id="f5b65-145">Clique em Mapear modelo para fonte de dados.</span><span class="sxs-lookup"><span data-stu-id="f5b65-145">Click Map model to datasource.</span></span>
+7. <span data-ttu-id="f5b65-146">Clique em Designer.</span><span class="sxs-lookup"><span data-stu-id="f5b65-146">Click Designer.</span></span>
+    * <span data-ttu-id="f5b65-147">Alteraremos a associação do item de assinatura do modelo de dados para obter a imagem de assinatura do arquivo que foi anexada ao registro de layout de cheque que está associado à conta bancária selecionada.</span><span class="sxs-lookup"><span data-stu-id="f5b65-147">We will change the binding of the data model’s signature item to get the signature image from the file that has been attached to the cheque layout record which is associated with the selected bank account.</span></span>  
+8. <span data-ttu-id="f5b65-148">Desative Mostrar detalhes.</span><span class="sxs-lookup"><span data-stu-id="f5b65-148">Turn Show details off.</span></span>
+9. <span data-ttu-id="f5b65-149">Na árvore, expanda 'layout'.</span><span class="sxs-lookup"><span data-stu-id="f5b65-149">In the tree, expand 'layout'.</span></span>
+10. <span data-ttu-id="f5b65-150">Na árvore, expanda 'layout\assinatura'.</span><span class="sxs-lookup"><span data-stu-id="f5b65-150">In the tree, expand 'layout\signature'.</span></span>
+11. <span data-ttu-id="f5b65-151">Na árvore, selecione 'layout\assinatura\imagem = chequesaccount.'<Relations'.BankChequeLayout.Signature1Bmp'.</span><span class="sxs-lookup"><span data-stu-id="f5b65-151">In the tree, select 'layout\signature\image = chequesaccount.'<Relations'.BankChequeLayout.Signature1Bmp'.</span></span>
+12. <span data-ttu-id="f5b65-152">Na árvore, expanda 'chequesaccount'.</span><span class="sxs-lookup"><span data-stu-id="f5b65-152">In the tree, expand 'chequesaccount'.</span></span>
+13. <span data-ttu-id="f5b65-153">Na árvore, expanda 'chequesaccount\<Relações'.</span><span class="sxs-lookup"><span data-stu-id="f5b65-153">In the tree, expand 'chequesaccount\<Relations'.</span></span>
+14. <span data-ttu-id="f5b65-154">Na árvore, expanda 'chequesaccount\<Relações\BankChequeLayout'.</span><span class="sxs-lookup"><span data-stu-id="f5b65-154">In the tree, expand 'chequesaccount\<Relations\BankChequeLayout'.</span></span>
+15. <span data-ttu-id="f5b65-155">Na árvore, expanda 'chequesaccount\<Relações\BankChequeLayout\<Relações'.</span><span class="sxs-lookup"><span data-stu-id="f5b65-155">In the tree, expand 'chequesaccount\<Relations\BankChequeLayout\<Relations'.</span></span>
+16. <span data-ttu-id="f5b65-156">Na árvore, expanda 'chequesaccount\<Relações\BankChequeLayout\<Relações\<Documentos'.</span><span class="sxs-lookup"><span data-stu-id="f5b65-156">In the tree, expand 'chequesaccount\<Relations\BankChequeLayout\<Relations\<Documents'.</span></span>
+17. <span data-ttu-id="f5b65-157">Na árvore, selecione 'chequesaccount\<Relações\BankChequeLayout\<Relações\<Documentos\getFileContentAsContainer()'.</span><span class="sxs-lookup"><span data-stu-id="f5b65-157">In the tree, select 'chequesaccount\<Relations\BankChequeLayout\<Relations\<Documents\getFileContentAsContainer()'.</span></span>
+18. <span data-ttu-id="f5b65-158">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="f5b65-158">Click Bind.</span></span>
+19. <span data-ttu-id="f5b65-159">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="f5b65-159">Click Save.</span></span>
+20. <span data-ttu-id="f5b65-160">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f5b65-160">Close the page.</span></span>
+21. <span data-ttu-id="f5b65-161">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f5b65-161">Close the page.</span></span>
+22. <span data-ttu-id="f5b65-162">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f5b65-162">Close the page.</span></span>
+23. <span data-ttu-id="f5b65-163">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f5b65-163">Close the page.</span></span>
 
-## <a name="run-format-using-the-adjusted-model-mapping"></a>Execute o formato usando o mapeamento de modelo ajustado
-1. Vá para Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.
-2. Use o Filtro Rápido para localizar registros. Por exemplo, filtre o campo Conta bancária com um valor de 'USMF OPER'.
-3. No Painel de Ação, clique em Configurar.
-4. Clique em Verificar.
-5. Clique em Imprimir teste.
-6. Clique em OK.
-    * Revise a saída criada. Observe que a imagem do anexo de Gerenciamento de documentos é exibida como a assinatura de uma pessoa autorizada.  
+## <a name="run-format-using-the-adjusted-model-mapping"></a><span data-ttu-id="f5b65-164">Execute o formato usando o mapeamento de modelo ajustado</span><span class="sxs-lookup"><span data-stu-id="f5b65-164">Run format using the adjusted model mapping</span></span>
+1. <span data-ttu-id="f5b65-165">Vá para Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.</span><span class="sxs-lookup"><span data-stu-id="f5b65-165">Go to Cash and bank management > Bank accounts > Bank accounts.</span></span>
+2. <span data-ttu-id="f5b65-166">Use o Filtro Rápido para localizar registros.</span><span class="sxs-lookup"><span data-stu-id="f5b65-166">Use the Quick Filter to find records.</span></span> <span data-ttu-id="f5b65-167">Por exemplo, filtre o campo Conta bancária com um valor de 'USMF OPER'.</span><span class="sxs-lookup"><span data-stu-id="f5b65-167">For example, filter on the Bank account field with a value of 'USMF OPER'.</span></span>
+3. <span data-ttu-id="f5b65-168">No Painel de Ação, clique em Configurar.</span><span class="sxs-lookup"><span data-stu-id="f5b65-168">On the Action Pane, click Set up.</span></span>
+4. <span data-ttu-id="f5b65-169">Clique em Verificar.</span><span class="sxs-lookup"><span data-stu-id="f5b65-169">Click Check.</span></span>
+5. <span data-ttu-id="f5b65-170">Clique em Imprimir teste.</span><span class="sxs-lookup"><span data-stu-id="f5b65-170">Click Print test.</span></span>
+6. <span data-ttu-id="f5b65-171">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="f5b65-171">Click OK.</span></span>
+    * <span data-ttu-id="f5b65-172">Revise a saída criada.</span><span class="sxs-lookup"><span data-stu-id="f5b65-172">Review the created output.</span></span> <span data-ttu-id="f5b65-173">Observe que a imagem do anexo de Gerenciamento de documentos é exibida como a assinatura de uma pessoa autorizada.</span><span class="sxs-lookup"><span data-stu-id="f5b65-173">Note that the image from the Document Management attachment is presented as the signature of an authorized person.</span></span>  
 
-## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a>Use o documento do Word MS como um modelo no formato importado
-1. Feche a página.
-2. Feche a página.
-3. Vá para Administração da organização > Relatório eletrônico > Configurações.
-4. Na árvore, expanda "Modelo de cheques'.
-5. Na árvore, selecione 'Modelo para cheques\Formato de impressão de cheques'.
-6. Clique em Designer.
-7. Clique em Anexos.
-8. Clique em Excluir.
-9. Clique em Sim.
-10. Clique em Novo.
-11. Clique em Arquivo.
-    * Clique em Pesquisar e selecione o arquivo baixado previamente "Cheque template Word.docx".  
-12. Feche a página.
-13. No campo Modelo, insira ou selecione um valor.
-14. Clique em Salvar.
-15. Feche a página.
-16. Clique em Editar.
-17. Selecione Sim no campo Executar Rascunho.
-18. Feche a página.
-19. Vá para Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.
-20. Use o Filtro Rápido para filtrar o campo Conta bancária com o valor 'USMF OPER'.
-21. Clique em Verificar.
-22. Clique em Imprimir teste.
-23. Clique em OK.
-    * Revise a saída criada. Observe que a saída foi gerada como um documento do MS Word com imagens incorporadas apresentando o logotipo da empresa, a assinatura de uma pessoa autorizada e o texto selecionado da marca d'água.  
+## <a name="use-ms-word-document-as-a-template-in-the-imported-format"></a><span data-ttu-id="f5b65-174">Use o documento do Word MS como um modelo no formato importado</span><span class="sxs-lookup"><span data-stu-id="f5b65-174">Use MS Word document as a template in the imported format</span></span>
+1. <span data-ttu-id="f5b65-175">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f5b65-175">Close the page.</span></span>
+2. <span data-ttu-id="f5b65-176">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f5b65-176">Close the page.</span></span>
+3. <span data-ttu-id="f5b65-177">Vá para Administração da organização > Relatório eletrônico > Configurações.</span><span class="sxs-lookup"><span data-stu-id="f5b65-177">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+4. <span data-ttu-id="f5b65-178">Na árvore, expanda "Modelo de cheques'.</span><span class="sxs-lookup"><span data-stu-id="f5b65-178">In the tree, expand 'Model for cheques'.</span></span>
+5. <span data-ttu-id="f5b65-179">Na árvore, selecione 'Modelo para cheques\Formato de impressão de cheques'.</span><span class="sxs-lookup"><span data-stu-id="f5b65-179">In the tree, select 'Model for cheques\Cheques printing format'.</span></span>
+6. <span data-ttu-id="f5b65-180">Clique em Designer.</span><span class="sxs-lookup"><span data-stu-id="f5b65-180">Click Designer.</span></span>
+7. <span data-ttu-id="f5b65-181">Clique em Anexos.</span><span class="sxs-lookup"><span data-stu-id="f5b65-181">Click Attachments.</span></span>
+8. <span data-ttu-id="f5b65-182">Clique em Excluir.</span><span class="sxs-lookup"><span data-stu-id="f5b65-182">Click Delete.</span></span>
+9. <span data-ttu-id="f5b65-183">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="f5b65-183">Click Yes.</span></span>
+10. <span data-ttu-id="f5b65-184">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="f5b65-184">Click New.</span></span>
+11. <span data-ttu-id="f5b65-185">Clique em Arquivo.</span><span class="sxs-lookup"><span data-stu-id="f5b65-185">Click File.</span></span>
+    * <span data-ttu-id="f5b65-186">Clique em Pesquisar e selecione o arquivo baixado previamente "Cheque template Word.docx".</span><span class="sxs-lookup"><span data-stu-id="f5b65-186">Click Browse and select the downloaded in advance ‘Cheque template Word.docx’ file.</span></span>  
+12. <span data-ttu-id="f5b65-187">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f5b65-187">Close the page.</span></span>
+13. <span data-ttu-id="f5b65-188">No campo Modelo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="f5b65-188">In the Template field, enter or select a value.</span></span>
+14. <span data-ttu-id="f5b65-189">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="f5b65-189">Click Save.</span></span>
+15. <span data-ttu-id="f5b65-190">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f5b65-190">Close the page.</span></span>
+16. <span data-ttu-id="f5b65-191">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="f5b65-191">Click Edit.</span></span>
+17. <span data-ttu-id="f5b65-192">Selecione Sim no campo Executar Rascunho.</span><span class="sxs-lookup"><span data-stu-id="f5b65-192">Select Yes in the Run Draft field.</span></span>
+18. <span data-ttu-id="f5b65-193">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f5b65-193">Close the page.</span></span>
+19. <span data-ttu-id="f5b65-194">Vá para Gerenciamento de caixa e bancos > Contas bancárias > Contas bancárias.</span><span class="sxs-lookup"><span data-stu-id="f5b65-194">Go to Cash and bank management > Bank accounts > Bank accounts.</span></span>
+20. <span data-ttu-id="f5b65-195">Use o Filtro Rápido para filtrar o campo Conta bancária com o valor 'USMF OPER'.</span><span class="sxs-lookup"><span data-stu-id="f5b65-195">Use the Quick Filter to filter on the Bank account field with a value of 'USMF OPER'.</span></span>
+21. <span data-ttu-id="f5b65-196">Clique em Verificar.</span><span class="sxs-lookup"><span data-stu-id="f5b65-196">Click Check.</span></span>
+22. <span data-ttu-id="f5b65-197">Clique em Imprimir teste.</span><span class="sxs-lookup"><span data-stu-id="f5b65-197">Click Print test.</span></span>
+23. <span data-ttu-id="f5b65-198">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="f5b65-198">Click OK.</span></span>
+    * <span data-ttu-id="f5b65-199">Revise a saída criada.</span><span class="sxs-lookup"><span data-stu-id="f5b65-199">Review the created output.</span></span> <span data-ttu-id="f5b65-200">Observe que a saída foi gerada como um documento do MS Word com imagens incorporadas apresentando o logotipo da empresa, a assinatura de uma pessoa autorizada e o texto selecionado da marca d'água.</span><span class="sxs-lookup"><span data-stu-id="f5b65-200">Note that the output has been generated as a MS Word document with embedded images presenting the company logo, the signature of an authorized person and the selected text of the watermark.</span></span>  
 
 

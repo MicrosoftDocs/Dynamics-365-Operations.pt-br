@@ -17,43 +17,43 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 3f1b526fced453ba5055772b2e74eed674cd3546
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d34ca5befd04b0f82bf9564fd3976f4c2daab0ce
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-formula-by-copying-from-an-existing-formula"></a>Criar uma fórmula copiando de uma fórmula existente
+# <a name="create-a-formula-by-copying-from-an-existing-formula"></a><span data-ttu-id="5a509-103">Criar uma fórmula copiando de uma fórmula existente</span><span class="sxs-lookup"><span data-stu-id="5a509-103">Create a formula by copying from an existing formula</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento mostra como criar rapidamente uma nova fórmula, copiando de uma fórmula existente. Você pode usar as empresas de dados de demonstração USMF, USP2, ou USPI para criar este procedimento.
+<span data-ttu-id="5a509-104">Este procedimento mostra como criar rapidamente uma nova fórmula, copiando de uma fórmula existente.</span><span class="sxs-lookup"><span data-stu-id="5a509-104">This procedure shows how to quickly create a new formula by copying from an existing formula.</span></span> <span data-ttu-id="5a509-105">Você pode usar as empresas de dados de demonstração USMF, USP2, ou USPI para criar este procedimento.</span><span class="sxs-lookup"><span data-stu-id="5a509-105">You can use the demo data companies USMF, USP2, or USPI to create this procedure.</span></span>
 
 
-## <a name="create-a-new-formula"></a>Crie uma nova fórmula
-1. Vá para Fórmulas.
-2. Clique em Novo.
-3. No campo Fórmula, digite um valor.
-4. No campo Nome, digite um valor.
-5. No campo Local, insira ou selecione um valor.
-6. No campo Grupo de itens, insira ou selecione um valor.
-7. Clique em Salvar.
+## <a name="create-a-new-formula"></a><span data-ttu-id="5a509-106">Crie uma nova fórmula</span><span class="sxs-lookup"><span data-stu-id="5a509-106">Create a new formula</span></span>
+1. <span data-ttu-id="5a509-107">Vá para Fórmulas.</span><span class="sxs-lookup"><span data-stu-id="5a509-107">Go to Formulas.</span></span>
+2. <span data-ttu-id="5a509-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="5a509-108">Click New.</span></span>
+3. <span data-ttu-id="5a509-109">No campo Fórmula, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="5a509-109">In the Formula field, type a value.</span></span>
+4. <span data-ttu-id="5a509-110">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="5a509-110">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="5a509-111">No campo Local, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="5a509-111">In the Site field, enter or select a value.</span></span>
+6. <span data-ttu-id="5a509-112">No campo Grupo de itens, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="5a509-112">In the Item group field, enter or select a value.</span></span>
+7. <span data-ttu-id="5a509-113">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="5a509-113">Click Save.</span></span>
 
-## <a name="copy-from-an-existing-formula"></a>Copie de uma fórmula existente
-1. Clique em Copiar.
-2. No campo Número do item, insira ou selecione um valor.
-3. No campo Versão da fórmula, insira ou selecione um valor.
-4. Clique em OK.
+## <a name="copy-from-an-existing-formula"></a><span data-ttu-id="5a509-114">Copie de uma fórmula existente</span><span class="sxs-lookup"><span data-stu-id="5a509-114">Copy from an existing formula</span></span>
+1. <span data-ttu-id="5a509-115">Clique em Copiar.</span><span class="sxs-lookup"><span data-stu-id="5a509-115">Click Copy.</span></span>
+2. <span data-ttu-id="5a509-116">No campo Número do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="5a509-116">In the Item number field, enter or select a value.</span></span>
+3. <span data-ttu-id="5a509-117">No campo Versão da fórmula, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="5a509-117">In the Formula version field, enter or select a value.</span></span>
+4. <span data-ttu-id="5a509-118">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="5a509-118">Click OK.</span></span>
 
-## <a name="revise-the-copied-formula"></a>Revise a fórmula copiada
-1. Na lista, localize e selecione o PDV desejado.
-2. Clique em Excluir.
-3. Clique em Sim.
+## <a name="revise-the-copied-formula"></a><span data-ttu-id="5a509-119">Revise a fórmula copiada</span><span class="sxs-lookup"><span data-stu-id="5a509-119">Revise the copied formula</span></span>
+1. <span data-ttu-id="5a509-120">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="5a509-120">In the list, find and select the desired record.</span></span>
+2. <span data-ttu-id="5a509-121">Clique em Excluir.</span><span class="sxs-lookup"><span data-stu-id="5a509-121">Click Delete.</span></span>
+3. <span data-ttu-id="5a509-122">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="5a509-122">Click Yes.</span></span>
 
-## <a name="approve-formula"></a>Aprovar fórmula
-1. Clique em Aprovar fórmula.
-2. No campo Aprovado por, insira ou selecione um valor.
-3. Clique em OK.
-4. Feche a página.
+## <a name="approve-formula"></a><span data-ttu-id="5a509-123">Aprovar fórmula</span><span class="sxs-lookup"><span data-stu-id="5a509-123">Approve formula</span></span>
+1. <span data-ttu-id="5a509-124">Clique em Aprovar fórmula.</span><span class="sxs-lookup"><span data-stu-id="5a509-124">Click Approve formula.</span></span>
+2. <span data-ttu-id="5a509-125">No campo Aprovado por, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="5a509-125">In the Approved by field, enter or select a value.</span></span>
+3. <span data-ttu-id="5a509-126">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="5a509-126">Click OK.</span></span>
+4. <span data-ttu-id="5a509-127">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="5a509-127">Close the page.</span></span>
 
 

@@ -16,131 +16,131 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 6b9b6a59d5e350502c618e11924c46e4ad8229ca
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 02787c96077e8bae54d8073e8d0770613ea2b49a
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="design-a-report-to-use-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>Criar um relatório para usar dimensões financeiras como uma fonte de dados para relatório eletrônico (ER)
+# <a name="design-a-report-to-use-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a><span data-ttu-id="8b0af-103">Criar um relatório para usar dimensões financeiras como uma fonte de dados para relatório eletrônico (ER)</span><span class="sxs-lookup"><span data-stu-id="8b0af-103">Design a report to use financial dimensions as a data source for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-As etapas a seguir explicam como um usuário atribuído ao administrador do sistema ou função do desenvolvedor de relatório eletrônico pode configurar um modelo de relatório eletrônico (ER) para usar dimensões financeiras como uma fonte de dados para relatórios ER. Essas etapas podem ser executadas em qualquer empresa.
+<span data-ttu-id="8b0af-104">As etapas a seguir explicam como um usuário atribuído ao administrador do sistema ou função do desenvolvedor de relatório eletrônico pode configurar um modelo de relatório eletrônico (ER) para usar dimensões financeiras como uma fonte de dados para relatórios ER.</span><span class="sxs-lookup"><span data-stu-id="8b0af-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) model to use financial dimensions as a data source for ER reports.</span></span> <span data-ttu-id="8b0af-105">Essas etapas podem ser executadas em qualquer empresa.</span><span class="sxs-lookup"><span data-stu-id="8b0af-105">These steps can be performed in any company.</span></span>
 
-Para completar essas etapas, primeiro você deve concluir as etapas “dimensões financeiras de uso ER como uma fonte de dados do procedimento (parte 2: mapeamento de modelo).”
+<span data-ttu-id="8b0af-106">Para completar essas etapas, primeiro você deve concluir as etapas “dimensões financeiras de uso ER como uma fonte de dados do procedimento (parte 2: mapeamento de modelo).”</span><span class="sxs-lookup"><span data-stu-id="8b0af-106">To complete these steps, you must first complete the steps in the “ER Use financial dimensions as a data source (Part 2: Model mapping)” procedure.</span></span>
 
 
-## <a name="design-a-report-to-present-financial-dimensions"></a>Criar um relatório para apresentar dimensões financeiras
-1. Vá para Administração da organização > Relatório eletrônico > Configurações.
-2. Na árvore, selecione "Modelo de amostra de dimensão financeira".
-3. Clique em Criar configuração para abrir a caixa de diálogo suspensa.
-4. No campo Novo, insira 'Formato baseado no modelo de dados modelo de amostra de dimensões financeiras'.
-    * Use o modelo criado antecipado como a fonte de dados de seu novo relatório.  
-5. No campo Nome, digite "Relatório de jornal razão".
-6. No campo Definição de modelo de dados, selecione Entrada.
-7. Clique em Criar configuração.
-8. Clique em Designer.
-9. Clique em Adicionar raiz para abrir a caixa de diálogo suspensa.
-10. Na árvore, selecione 'XML\Elemento'.
-11. No campo Nome, digite "Raiz".
-12. Clique em OK.
-13. Clique em Adicionar para abrir a caixa de diálogo suspensa.
-14. Na árvore, selecione 'XML\Atributo'.
-15. No campo Nome, digite 'Empresa'.
-16. Clique em OK.
-17. Clique em Adicionar para abrir a caixa de diálogo suspensa.
-18. Na árvore, selecione 'XML\Elemento'.
-19. No campo Nome, digite "Diário".
-20. Clique em OK.
-21. Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML".
-22. Clique em Adicionar para abrir a caixa de diálogo suspensa.
-23. Na árvore, selecione 'XML\Atributo'.
-24. No campo Nome, digite "Lote".
-25. Clique em OK.
-26. Clique em Adicionar para abrir a caixa de diálogo suspensa.
-27. Na árvore, selecione 'XML\Elemento'.
-28. No campo Nome, digite 'Transação'.
-29. Clique em OK.
-30. Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML".
-31. Clique em Adicionar para abrir a caixa de diálogo suspensa.
-32. Na árvore, selecione 'XML\Atributo'.
-33. No campo Nome, digite "Comprovante".
-34. Clique em OK.
-35. Clique em Adicionar atributo.
-36. No campo Nome, digite "Data".
-37. Clique em OK.
-38. Clique em Adicionar atributo.
-39. No campo Nome, digite 'Moeda'.
-40. Clique em OK.
-41. Clique em Adicionar atributo.
-42. No campo Nome, digite "Dt".
-43. Clique em OK.
-44. Clique em Adicionar atributo.
-45. No campo Nome, digite "Ct".
-46. Clique em OK.
-47. Clique em Adicionar para abrir a caixa de diálogo suspensa.
-48. Na árvore, selecione 'XML\Elemento'.
-49. No campo Nome, digite "Dimensões".
-50. Clique em OK.
-51. Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Dimensões: Elemento XML".
-52. Clique em Adicionar para abrir a caixa de diálogo suspensa.
-53. Na árvore, selecione 'XML\Atributo'.
-54. No campo Nome, digite "Código".
-55. Clique em OK.
-56. Clique em Adicionar atributo.
-57. No campo Nome, digite "Valor".
-58. Clique em OK.
-59. Clique em Adicionar atributo.
-60. No campo Nome, digite "Desc".
-61. Clique em OK.
+## <a name="design-a-report-to-present-financial-dimensions"></a><span data-ttu-id="8b0af-107">Criar um relatório para apresentar dimensões financeiras</span><span class="sxs-lookup"><span data-stu-id="8b0af-107">Design a report to present financial dimensions</span></span>
+1. <span data-ttu-id="8b0af-108">Vá para Administração da organização > Relatório eletrônico > Configurações.</span><span class="sxs-lookup"><span data-stu-id="8b0af-108">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="8b0af-109">Na árvore, selecione "Modelo de amostra de dimensão financeira".</span><span class="sxs-lookup"><span data-stu-id="8b0af-109">In the tree, select 'Financial dimensions sample model'.</span></span>
+3. <span data-ttu-id="8b0af-110">Clique em Criar configuração para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="8b0af-110">Click Create configuration to open the drop dialog.</span></span>
+4. <span data-ttu-id="8b0af-111">No campo Novo, insira 'Formato baseado no modelo de dados modelo de amostra de dimensões financeiras'.</span><span class="sxs-lookup"><span data-stu-id="8b0af-111">In the New field, enter 'Format based on data model Financial dimensions sample model'.</span></span>
+    * <span data-ttu-id="8b0af-112">Use o modelo criado antecipado como a fonte de dados de seu novo relatório.</span><span class="sxs-lookup"><span data-stu-id="8b0af-112">Use the model that was created in advance as the data source for your new report.</span></span>  
+5. <span data-ttu-id="8b0af-113">No campo Nome, digite "Relatório de jornal razão".</span><span class="sxs-lookup"><span data-stu-id="8b0af-113">In the Name field, type 'Ledger journal report'.</span></span>
+6. <span data-ttu-id="8b0af-114">No campo Definição de modelo de dados, selecione Entrada.</span><span class="sxs-lookup"><span data-stu-id="8b0af-114">In the Data model definition field, select Entry.</span></span>
+7. <span data-ttu-id="8b0af-115">Clique em Criar configuração.</span><span class="sxs-lookup"><span data-stu-id="8b0af-115">Click Create configuration.</span></span>
+8. <span data-ttu-id="8b0af-116">Clique em Designer.</span><span class="sxs-lookup"><span data-stu-id="8b0af-116">Click Designer.</span></span>
+9. <span data-ttu-id="8b0af-117">Clique em Adicionar raiz para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="8b0af-117">Click Add root to open the drop dialog.</span></span>
+10. <span data-ttu-id="8b0af-118">Na árvore, selecione 'XML\Elemento'.</span><span class="sxs-lookup"><span data-stu-id="8b0af-118">In the tree, select 'XML\Element'.</span></span>
+11. <span data-ttu-id="8b0af-119">No campo Nome, digite "Raiz".</span><span class="sxs-lookup"><span data-stu-id="8b0af-119">In the Name field, type 'Root'.</span></span>
+12. <span data-ttu-id="8b0af-120">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b0af-120">Click OK.</span></span>
+13. <span data-ttu-id="8b0af-121">Clique em Adicionar para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="8b0af-121">Click Add to open the drop dialog.</span></span>
+14. <span data-ttu-id="8b0af-122">Na árvore, selecione 'XML\Atributo'.</span><span class="sxs-lookup"><span data-stu-id="8b0af-122">In the tree, select 'XML\Attribute'.</span></span>
+15. <span data-ttu-id="8b0af-123">No campo Nome, digite 'Empresa'.</span><span class="sxs-lookup"><span data-stu-id="8b0af-123">In the Name field, type 'Company'.</span></span>
+16. <span data-ttu-id="8b0af-124">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b0af-124">Click OK.</span></span>
+17. <span data-ttu-id="8b0af-125">Clique em Adicionar para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="8b0af-125">Click Add to open the drop dialog.</span></span>
+18. <span data-ttu-id="8b0af-126">Na árvore, selecione 'XML\Elemento'.</span><span class="sxs-lookup"><span data-stu-id="8b0af-126">In the tree, select 'XML\Element'.</span></span>
+19. <span data-ttu-id="8b0af-127">No campo Nome, digite "Diário".</span><span class="sxs-lookup"><span data-stu-id="8b0af-127">In the Name field, type 'Journal'.</span></span>
+20. <span data-ttu-id="8b0af-128">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b0af-128">Click OK.</span></span>
+21. <span data-ttu-id="8b0af-129">Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-129">In the tree, select 'Root: XML Element\Journal: XML Element'.</span></span>
+22. <span data-ttu-id="8b0af-130">Clique em Adicionar para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="8b0af-130">Click Add to open the drop dialog.</span></span>
+23. <span data-ttu-id="8b0af-131">Na árvore, selecione 'XML\Atributo'.</span><span class="sxs-lookup"><span data-stu-id="8b0af-131">In the tree, select 'XML\Attribute'.</span></span>
+24. <span data-ttu-id="8b0af-132">No campo Nome, digite "Lote".</span><span class="sxs-lookup"><span data-stu-id="8b0af-132">In the Name field, type 'Batch'.</span></span>
+25. <span data-ttu-id="8b0af-133">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b0af-133">Click OK.</span></span>
+26. <span data-ttu-id="8b0af-134">Clique em Adicionar para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="8b0af-134">Click Add to open the drop dialog.</span></span>
+27. <span data-ttu-id="8b0af-135">Na árvore, selecione 'XML\Elemento'.</span><span class="sxs-lookup"><span data-stu-id="8b0af-135">In the tree, select 'XML\Element'.</span></span>
+28. <span data-ttu-id="8b0af-136">No campo Nome, digite 'Transação'.</span><span class="sxs-lookup"><span data-stu-id="8b0af-136">In the Name field, type 'Transaction'.</span></span>
+29. <span data-ttu-id="8b0af-137">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b0af-137">Click OK.</span></span>
+30. <span data-ttu-id="8b0af-138">Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-138">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element'.</span></span>
+31. <span data-ttu-id="8b0af-139">Clique em Adicionar para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="8b0af-139">Click Add to open the drop dialog.</span></span>
+32. <span data-ttu-id="8b0af-140">Na árvore, selecione 'XML\Atributo'.</span><span class="sxs-lookup"><span data-stu-id="8b0af-140">In the tree, select 'XML\Attribute'.</span></span>
+33. <span data-ttu-id="8b0af-141">No campo Nome, digite "Comprovante".</span><span class="sxs-lookup"><span data-stu-id="8b0af-141">In the Name field, type 'Voucher'.</span></span>
+34. <span data-ttu-id="8b0af-142">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b0af-142">Click OK.</span></span>
+35. <span data-ttu-id="8b0af-143">Clique em Adicionar atributo.</span><span class="sxs-lookup"><span data-stu-id="8b0af-143">Click Add Attribute.</span></span>
+36. <span data-ttu-id="8b0af-144">No campo Nome, digite "Data".</span><span class="sxs-lookup"><span data-stu-id="8b0af-144">In the Name field, type 'Date'.</span></span>
+37. <span data-ttu-id="8b0af-145">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b0af-145">Click OK.</span></span>
+38. <span data-ttu-id="8b0af-146">Clique em Adicionar atributo.</span><span class="sxs-lookup"><span data-stu-id="8b0af-146">Click Add Attribute.</span></span>
+39. <span data-ttu-id="8b0af-147">No campo Nome, digite 'Moeda'.</span><span class="sxs-lookup"><span data-stu-id="8b0af-147">In the Name field, type 'Currency'.</span></span>
+40. <span data-ttu-id="8b0af-148">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b0af-148">Click OK.</span></span>
+41. <span data-ttu-id="8b0af-149">Clique em Adicionar atributo.</span><span class="sxs-lookup"><span data-stu-id="8b0af-149">Click Add Attribute.</span></span>
+42. <span data-ttu-id="8b0af-150">No campo Nome, digite "Dt".</span><span class="sxs-lookup"><span data-stu-id="8b0af-150">In the Name field, type 'Dt'.</span></span>
+43. <span data-ttu-id="8b0af-151">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b0af-151">Click OK.</span></span>
+44. <span data-ttu-id="8b0af-152">Clique em Adicionar atributo.</span><span class="sxs-lookup"><span data-stu-id="8b0af-152">Click Add Attribute.</span></span>
+45. <span data-ttu-id="8b0af-153">No campo Nome, digite "Ct".</span><span class="sxs-lookup"><span data-stu-id="8b0af-153">In the Name field, type 'Ct'.</span></span>
+46. <span data-ttu-id="8b0af-154">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b0af-154">Click OK.</span></span>
+47. <span data-ttu-id="8b0af-155">Clique em Adicionar para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="8b0af-155">Click Add to open the drop dialog.</span></span>
+48. <span data-ttu-id="8b0af-156">Na árvore, selecione 'XML\Elemento'.</span><span class="sxs-lookup"><span data-stu-id="8b0af-156">In the tree, select 'XML\Element'.</span></span>
+49. <span data-ttu-id="8b0af-157">No campo Nome, digite "Dimensões".</span><span class="sxs-lookup"><span data-stu-id="8b0af-157">In the Name field, type 'Dimensions'.</span></span>
+50. <span data-ttu-id="8b0af-158">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b0af-158">Click OK.</span></span>
+51. <span data-ttu-id="8b0af-159">Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Dimensões: Elemento XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-159">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Dimensions: XML Element'.</span></span>
+52. <span data-ttu-id="8b0af-160">Clique em Adicionar para abrir a caixa de diálogo suspensa.</span><span class="sxs-lookup"><span data-stu-id="8b0af-160">Click Add to open the drop dialog.</span></span>
+53. <span data-ttu-id="8b0af-161">Na árvore, selecione 'XML\Atributo'.</span><span class="sxs-lookup"><span data-stu-id="8b0af-161">In the tree, select 'XML\Attribute'.</span></span>
+54. <span data-ttu-id="8b0af-162">No campo Nome, digite "Código".</span><span class="sxs-lookup"><span data-stu-id="8b0af-162">In the Name field, type 'Code'.</span></span>
+55. <span data-ttu-id="8b0af-163">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b0af-163">Click OK.</span></span>
+56. <span data-ttu-id="8b0af-164">Clique em Adicionar atributo.</span><span class="sxs-lookup"><span data-stu-id="8b0af-164">Click Add Attribute.</span></span>
+57. <span data-ttu-id="8b0af-165">No campo Nome, digite "Valor".</span><span class="sxs-lookup"><span data-stu-id="8b0af-165">In the Name field, type 'Value'.</span></span>
+58. <span data-ttu-id="8b0af-166">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b0af-166">Click OK.</span></span>
+59. <span data-ttu-id="8b0af-167">Clique em Adicionar atributo.</span><span class="sxs-lookup"><span data-stu-id="8b0af-167">Click Add Attribute.</span></span>
+60. <span data-ttu-id="8b0af-168">No campo Nome, digite "Desc".</span><span class="sxs-lookup"><span data-stu-id="8b0af-168">In the Name field, type 'Desc'.</span></span>
+61. <span data-ttu-id="8b0af-169">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b0af-169">Click OK.</span></span>
 
-## <a name="map-report-elements-to-data-sources"></a>Mapear elementos de relatório para fontes de dados
-1. Clique na aba Mapeamento.
-2. Na árvore, expanda "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados".
-3. Na árvore, expanda "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros".
-4. Na árvore, expanda "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros".
-5. Na árvore, expanda "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Dados de dimensões: Lista de registros".
-6. Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Dimensões: Elemento XML\Desc: Atributo XML".
-7. Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Dados de dimensões: Lista de registros\Descrição: Cadeia de caracteres".
-8. Clique em Associar.
-9. Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Dimensões: Elemento XML\Valor: Atributo XML".
-10. Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Dados de dimensões: Lista de registros\Código: Cadeia de caracteres".
-11. Clique em Associar.
-12. Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Dimensões: Elemento XML\Código: Atributo XML".
-13. Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Dados de dimensões: Lista de registros\Nome: Cadeia de caracteres".
-14. Clique em Associar.
-15. Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Dados de dimensões: Lista de registros".
-16. Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Dimensões: Elemento XML".
-17. Clique em Associar.
-18. Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Ct: Atributo XML".
-19. Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Crédito: Real".
-20. Clique em Associar.
-21. Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Dt: Atributo XML".
-22. Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Débito: Real".
-23. Clique em Associar.
-24. Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Moeda: Atributo XML".
-25. Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Moeda: Cadeia de caracteres".
-26. Clique em Associar.
-27. Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Data: Atributo XML".
-28. Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Data: Data".
-29. Clique em Associar.
-30. Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Comprovante: Atributo XML".
-31. Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Comprovante: Cadeia de caracteres".
-32. Clique em Associar.
-33. Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML".
-34. Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros".
-35. Clique em Associar.
-36. Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Lote: Atributo XML".
-37. Na árvore, selecione 'modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Lote: Sequência de caracteres'.
-38. Clique em Associar.
-39. Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML".
-40. Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros".
-41. Clique em Associar.
-42. Na árvore, selecione "Raiz: Elemento XML\Empresa: Atributo XML".
-43. Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Empresa: Cadeia de caracteres".
-44. Clique em Associar.
-45. Clique em Salvar.
-46. Feche a página.
+## <a name="map-report-elements-to-data-sources"></a><span data-ttu-id="8b0af-170">Mapear elementos de relatório para fontes de dados</span><span class="sxs-lookup"><span data-stu-id="8b0af-170">Map report elements to data sources</span></span>
+1. <span data-ttu-id="8b0af-171">Clique na aba Mapeamento.</span><span class="sxs-lookup"><span data-stu-id="8b0af-171">Click the Mapping tab.</span></span>
+2. <span data-ttu-id="8b0af-172">Na árvore, expanda "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados".</span><span class="sxs-lookup"><span data-stu-id="8b0af-172">In the tree, expand 'model: Data model Financial dimensions sample model'.</span></span>
+3. <span data-ttu-id="8b0af-173">Na árvore, expanda "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros".</span><span class="sxs-lookup"><span data-stu-id="8b0af-173">In the tree, expand 'model: Data model Financial dimensions sample model\Journal: Record list'.</span></span>
+4. <span data-ttu-id="8b0af-174">Na árvore, expanda "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros".</span><span class="sxs-lookup"><span data-stu-id="8b0af-174">In the tree, expand 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list'.</span></span>
+5. <span data-ttu-id="8b0af-175">Na árvore, expanda "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Dados de dimensões: Lista de registros".</span><span class="sxs-lookup"><span data-stu-id="8b0af-175">In the tree, expand 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list'.</span></span>
+6. <span data-ttu-id="8b0af-176">Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Dimensões: Elemento XML\Desc: Atributo XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-176">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Dimensions: XML Element\Desc: XML Attribute'.</span></span>
+7. <span data-ttu-id="8b0af-177">Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Dados de dimensões: Lista de registros\Descrição: Cadeia de caracteres".</span><span class="sxs-lookup"><span data-stu-id="8b0af-177">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list\Description: String'.</span></span>
+8. <span data-ttu-id="8b0af-178">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="8b0af-178">Click Bind.</span></span>
+9. <span data-ttu-id="8b0af-179">Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Dimensões: Elemento XML\Valor: Atributo XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-179">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Dimensions: XML Element\Value: XML Attribute'.</span></span>
+10. <span data-ttu-id="8b0af-180">Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Dados de dimensões: Lista de registros\Código: Cadeia de caracteres".</span><span class="sxs-lookup"><span data-stu-id="8b0af-180">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list\Code: String'.</span></span>
+11. <span data-ttu-id="8b0af-181">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="8b0af-181">Click Bind.</span></span>
+12. <span data-ttu-id="8b0af-182">Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Dimensões: Elemento XML\Código: Atributo XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-182">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Dimensions: XML Element\Code: XML Attribute'.</span></span>
+13. <span data-ttu-id="8b0af-183">Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Dados de dimensões: Lista de registros\Nome: Cadeia de caracteres".</span><span class="sxs-lookup"><span data-stu-id="8b0af-183">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list\Name: String'.</span></span>
+14. <span data-ttu-id="8b0af-184">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="8b0af-184">Click Bind.</span></span>
+15. <span data-ttu-id="8b0af-185">Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Dados de dimensões: Lista de registros".</span><span class="sxs-lookup"><span data-stu-id="8b0af-185">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Dimensions data: Record list'.</span></span>
+16. <span data-ttu-id="8b0af-186">Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Dimensões: Elemento XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-186">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Dimensions: XML Element'.</span></span>
+17. <span data-ttu-id="8b0af-187">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="8b0af-187">Click Bind.</span></span>
+18. <span data-ttu-id="8b0af-188">Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Ct: Atributo XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-188">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Ct: XML Attribute'.</span></span>
+19. <span data-ttu-id="8b0af-189">Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Crédito: Real".</span><span class="sxs-lookup"><span data-stu-id="8b0af-189">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Credit: Real'.</span></span>
+20. <span data-ttu-id="8b0af-190">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="8b0af-190">Click Bind.</span></span>
+21. <span data-ttu-id="8b0af-191">Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Dt: Atributo XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-191">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Dt: XML Attribute'.</span></span>
+22. <span data-ttu-id="8b0af-192">Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Débito: Real".</span><span class="sxs-lookup"><span data-stu-id="8b0af-192">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Debit: Real'.</span></span>
+23. <span data-ttu-id="8b0af-193">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="8b0af-193">Click Bind.</span></span>
+24. <span data-ttu-id="8b0af-194">Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Moeda: Atributo XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-194">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Currency: XML Attribute'.</span></span>
+25. <span data-ttu-id="8b0af-195">Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Moeda: Cadeia de caracteres".</span><span class="sxs-lookup"><span data-stu-id="8b0af-195">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Currency: String'.</span></span>
+26. <span data-ttu-id="8b0af-196">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="8b0af-196">Click Bind.</span></span>
+27. <span data-ttu-id="8b0af-197">Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Data: Atributo XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-197">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Date: XML Attribute'.</span></span>
+28. <span data-ttu-id="8b0af-198">Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Data: Data".</span><span class="sxs-lookup"><span data-stu-id="8b0af-198">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Date: Date'.</span></span>
+29. <span data-ttu-id="8b0af-199">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="8b0af-199">Click Bind.</span></span>
+30. <span data-ttu-id="8b0af-200">Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML\Comprovante: Atributo XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-200">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element\Voucher: XML Attribute'.</span></span>
+31. <span data-ttu-id="8b0af-201">Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros\Comprovante: Cadeia de caracteres".</span><span class="sxs-lookup"><span data-stu-id="8b0af-201">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list\Voucher: String'.</span></span>
+32. <span data-ttu-id="8b0af-202">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="8b0af-202">Click Bind.</span></span>
+33. <span data-ttu-id="8b0af-203">Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Transação: Elemento XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-203">In the tree, select 'Root: XML Element\Journal: XML Element\Transaction: XML Element'.</span></span>
+34. <span data-ttu-id="8b0af-204">Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Transação: Lista de registros".</span><span class="sxs-lookup"><span data-stu-id="8b0af-204">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Transaction: Record list'.</span></span>
+35. <span data-ttu-id="8b0af-205">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="8b0af-205">Click Bind.</span></span>
+36. <span data-ttu-id="8b0af-206">Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML\Lote: Atributo XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-206">In the tree, select 'Root: XML Element\Journal: XML Element\Batch: XML Attribute'.</span></span>
+37. <span data-ttu-id="8b0af-207">Na árvore, selecione 'modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros\Lote: Sequência de caracteres'.</span><span class="sxs-lookup"><span data-stu-id="8b0af-207">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list\Batch: String'.</span></span>
+38. <span data-ttu-id="8b0af-208">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="8b0af-208">Click Bind.</span></span>
+39. <span data-ttu-id="8b0af-209">Na árvore, selecione "Raiz: Elemento XML\Diário: Elemento XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-209">In the tree, select 'Root: XML Element\Journal: XML Element'.</span></span>
+40. <span data-ttu-id="8b0af-210">Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Diário: Lista de registros".</span><span class="sxs-lookup"><span data-stu-id="8b0af-210">In the tree, select 'model: Data model Financial dimensions sample model\Journal: Record list'.</span></span>
+41. <span data-ttu-id="8b0af-211">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="8b0af-211">Click Bind.</span></span>
+42. <span data-ttu-id="8b0af-212">Na árvore, selecione "Raiz: Elemento XML\Empresa: Atributo XML".</span><span class="sxs-lookup"><span data-stu-id="8b0af-212">In the tree, select 'Root: XML Element\Company: XML Attribute'.</span></span>
+43. <span data-ttu-id="8b0af-213">Na árvore, selecione "modelo: Modelo de exemplo de dimensões financeiras do modelo de dados\Empresa: Cadeia de caracteres".</span><span class="sxs-lookup"><span data-stu-id="8b0af-213">In the tree, select 'model: Data model Financial dimensions sample model\Company: String'.</span></span>
+44. <span data-ttu-id="8b0af-214">Clique em Associar.</span><span class="sxs-lookup"><span data-stu-id="8b0af-214">Click Bind.</span></span>
+45. <span data-ttu-id="8b0af-215">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="8b0af-215">Click Save.</span></span>
+46. <span data-ttu-id="8b0af-216">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8b0af-216">Close the page.</span></span>
 
 

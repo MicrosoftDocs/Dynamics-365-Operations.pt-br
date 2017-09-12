@@ -15,70 +15,70 @@ ms.custom: 192161
 ms.assetid: 8b478e3d-d6b4-403b-aae0-f639a71ca36c
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 61b3107516c7af8d1c0f4c427bdffa9be0fbc18d
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 38b4f7cf2dfb29390da1cd133870eceecd980fa0
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="configure-an-approval-step-in-a-workflow"></a>Configurar uma etapa de aprovação em um fluxo de trabalho
+# <a name="configure-an-approval-step-in-a-workflow"></a><span data-ttu-id="4852a-103">Configurar uma etapa de aprovação em um fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="4852a-103">Configure an approval step in a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico explica como configurar as propriedades de uma etapa de aprovação.
+<span data-ttu-id="4852a-104">Este tópico explica como configurar as propriedades de uma etapa de aprovação.</span><span class="sxs-lookup"><span data-stu-id="4852a-104">This topic explains how to configure the properties of an approval step.</span></span>
 
-Para configurar uma etapa de aprovação no editor de fluxo de trabalho, clique com o botão direito do mouse na etapa de aprovação e clique em **Propriedades** para abrir a página **Propriedades**. Depois, use os procedimentos a seguir para configurar as propriedades da etapa de aprovação.
+<span data-ttu-id="4852a-105">Para configurar uma etapa de aprovação no editor de fluxo de trabalho, clique com o botão direito do mouse na etapa de aprovação e clique em **Propriedades** para abrir a página **Propriedades**.</span><span class="sxs-lookup"><span data-stu-id="4852a-105">To configure an approval step in the workflow editor, right-click the approval step, and then click **Properties** to open the **Properties** page.</span></span> <span data-ttu-id="4852a-106">Depois, use os procedimentos a seguir para configurar as propriedades da etapa de aprovação.</span><span class="sxs-lookup"><span data-stu-id="4852a-106">Then use the following procedures to configure the properties of the approval step.</span></span>
 
-## <a name="name-the-step"></a>Nomear a etapa
-Siga estas etapas para inserir um nome para a etapa de aprovação.
+## <a name="name-the-step"></a><span data-ttu-id="4852a-107">Nomear a etapa</span><span class="sxs-lookup"><span data-stu-id="4852a-107">Name the step</span></span>
+<span data-ttu-id="4852a-108">Siga estas etapas para inserir um nome para a etapa de aprovação.</span><span class="sxs-lookup"><span data-stu-id="4852a-108">Follow these steps to enter a name for the approval step.</span></span>
 
-1.  No painel esquerdo, clique em **Configurações Básicas**.
-2.  No campo **Nome**, insira um nome exclusivo para a etapa de aprovação.
+1.  <span data-ttu-id="4852a-109">No painel esquerdo, clique em **Configurações Básicas**.</span><span class="sxs-lookup"><span data-stu-id="4852a-109">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="4852a-110">No campo **Nome**, insira um nome exclusivo para a etapa de aprovação.</span><span class="sxs-lookup"><span data-stu-id="4852a-110">In the **Name** field, enter a unique name for the approval step.</span></span>
 
-## <a name="enter-a-subject-line-and-instructions"></a>Inserir uma linha de assunto e instruções
-Você deve fornecer uma linha de assunto e instruções para os usuários atribuídos à etapa de aprovação. Por exemplo, se você estiver configurando uma etapa de aprovação para requisições de compra, o usuário que foi atribuído à etapa verá a linha de assunto e as instruções na página **Requisições de compra**. A linha de assunto aparece em uma barra de mensagens na página. Em seguida, o usuário pode clicar no ícone na barra de mensagens para ver as instruções. Siga estas etapas para inserir uma linha de assunto e instruções.
+## <a name="enter-a-subject-line-and-instructions"></a><span data-ttu-id="4852a-111">Inserir uma linha de assunto e instruções</span><span class="sxs-lookup"><span data-stu-id="4852a-111">Enter a subject line and instructions</span></span>
+<span data-ttu-id="4852a-112">Você deve fornecer uma linha de assunto e instruções para os usuários atribuídos à etapa de aprovação.</span><span class="sxs-lookup"><span data-stu-id="4852a-112">You must provide a subject line and instructions to users who are assigned to the approval step.</span></span> <span data-ttu-id="4852a-113">Por exemplo, se você estiver configurando uma etapa de aprovação para requisições de compra, o usuário que foi atribuído à etapa verá a linha de assunto e as instruções na página **Requisições de compra**.</span><span class="sxs-lookup"><span data-stu-id="4852a-113">For example, if you're configuring an approval step for purchase requisitions, the user who is assigned to the step sees the subject line and instructions on the **Purchase requisitions** page.</span></span> <span data-ttu-id="4852a-114">A linha de assunto aparece em uma barra de mensagens na página.</span><span class="sxs-lookup"><span data-stu-id="4852a-114">The subject line appears in a message bar on the page.</span></span> <span data-ttu-id="4852a-115">Em seguida, o usuário pode clicar no ícone na barra de mensagens para ver as instruções.</span><span class="sxs-lookup"><span data-stu-id="4852a-115">The user can then click the icon in the message bar to see the instructions.</span></span> <span data-ttu-id="4852a-116">Siga estas etapas para inserir uma linha de assunto e instruções.</span><span class="sxs-lookup"><span data-stu-id="4852a-116">Follow these steps to enter a subject line and instructions.</span></span>
 
-1.  No painel esquerdo, clique em **Configurações Básicas**.
-2.  No campo **Assunto do item de trabalho**, insira a linha de assunto.
-3.  Para personalizar a linha de assunto, você pode inserir espaços reservados. Esses espaços reservados são substituídos pelos dados adequados quando a linha de assunto for exibida para os usuários. Siga estas etapas para inserir um espaço reservado:
-    1.  Na caixa de texto, clique no local onde o espaço reservado deve aparecer.
-    2.  Clique em **Inserir espaço reservado**.
-    3.  Na lista exibida, selecione o espaço reservado a ser inserido.
-    4.  Clique em **Inserir**.
+1.  <span data-ttu-id="4852a-117">No painel esquerdo, clique em **Configurações Básicas**.</span><span class="sxs-lookup"><span data-stu-id="4852a-117">In the left pane, click **Basic Settings**.</span></span>
+2.  <span data-ttu-id="4852a-118">No campo **Assunto do item de trabalho**, insira a linha de assunto.</span><span class="sxs-lookup"><span data-stu-id="4852a-118">In the **Work item subject** field, enter the subject line.</span></span>
+3.  <span data-ttu-id="4852a-119">Para personalizar a linha de assunto, você pode inserir espaços reservados.</span><span class="sxs-lookup"><span data-stu-id="4852a-119">To personalize the subject line, you can insert placeholders.</span></span> <span data-ttu-id="4852a-120">Esses espaços reservados são substituídos pelos dados adequados quando a linha de assunto for exibida para os usuários.</span><span class="sxs-lookup"><span data-stu-id="4852a-120">Placeholders are replaced with appropriate data when the subject line is shown to users.</span></span> <span data-ttu-id="4852a-121">Siga estas etapas para inserir um espaço reservado:</span><span class="sxs-lookup"><span data-stu-id="4852a-121">Follow these steps to insert a placeholder:</span></span>
+    1.  <span data-ttu-id="4852a-122">Na caixa de texto, clique no local onde o espaço reservado deve aparecer.</span><span class="sxs-lookup"><span data-stu-id="4852a-122">In the text box, click where the placeholder should appear.</span></span>
+    2.  <span data-ttu-id="4852a-123">Clique em **Inserir espaço reservado**.</span><span class="sxs-lookup"><span data-stu-id="4852a-123">Click **Insert placeholder**.</span></span>
+    3.  <span data-ttu-id="4852a-124">Na lista exibida, selecione o espaço reservado a ser inserido.</span><span class="sxs-lookup"><span data-stu-id="4852a-124">In the list that appears, select the placeholder to insert.</span></span>
+    4.  <span data-ttu-id="4852a-125">Clique em **Inserir**.</span><span class="sxs-lookup"><span data-stu-id="4852a-125">Click **Insert**.</span></span>
 
-4.  Para adicionar traduções da linha de assunto, siga estas etapas:
-    1.  Clique em **Traduções**.
-    2.  Na página exibida, clique em **Adicionar**.
-    3.  Na lista exibida, selecione o idioma do texto que você está inserindo.
-    4.  No campo **Texto traduzido**, insira o texto.
-    5.  Para personalizar o texto, insira os espaços reservados conforme descrito na etapa 3.
-    6.  Clique em **Fechar**.
+4.  <span data-ttu-id="4852a-126">Para adicionar traduções da linha de assunto, siga estas etapas:</span><span class="sxs-lookup"><span data-stu-id="4852a-126">To add translations of the subject line, follow these steps:</span></span>
+    1.  <span data-ttu-id="4852a-127">Clique em **Traduções**.</span><span class="sxs-lookup"><span data-stu-id="4852a-127">Click **Translations**.</span></span>
+    2.  <span data-ttu-id="4852a-128">Na página exibida, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="4852a-128">On the page that appears, click **Add**.</span></span>
+    3.  <span data-ttu-id="4852a-129">Na lista exibida, selecione o idioma do texto que você está inserindo.</span><span class="sxs-lookup"><span data-stu-id="4852a-129">In the list that appears, select the language that you're entering the text in.</span></span>
+    4.  <span data-ttu-id="4852a-130">No campo **Texto traduzido**, insira o texto.</span><span class="sxs-lookup"><span data-stu-id="4852a-130">In the **Translated text** field, enter the text.</span></span>
+    5.  <span data-ttu-id="4852a-131">Para personalizar o texto, insira os espaços reservados conforme descrito na etapa 3.</span><span class="sxs-lookup"><span data-stu-id="4852a-131">To personalize the text, you can insert placeholders as described in step 3.</span></span>
+    6.  <span data-ttu-id="4852a-132">Clique em **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="4852a-132">Click **Close**.</span></span>
 
-5.  No campo **Instruções do item de trabalho**, insira as instruções.
-6.  Para personalizar as instruções, você pode inserir espaços reservados. Esses espaços reservados são substituídos pelos dados adequados quando as instruções são exibidas para os usuários. Siga estas etapas para inserir um espaço reservado:
-    1.  Na caixa de texto, clique no local onde o espaço reservado deve aparecer.
-    2.  Clique em **Inserir espaço reservado**.
-    3.  Na lista exibida, selecione o espaço reservado a ser inserido.
-    4.  Clique em **Inserir**.
+5.  <span data-ttu-id="4852a-133">No campo **Instruções do item de trabalho**, insira as instruções.</span><span class="sxs-lookup"><span data-stu-id="4852a-133">In the **Work item instructions** field, enter the instructions.</span></span>
+6.  <span data-ttu-id="4852a-134">Para personalizar as instruções, você pode inserir espaços reservados.</span><span class="sxs-lookup"><span data-stu-id="4852a-134">To personalize the instructions, you can insert placeholders.</span></span> <span data-ttu-id="4852a-135">Esses espaços reservados são substituídos pelos dados adequados quando as instruções são exibidas para os usuários.</span><span class="sxs-lookup"><span data-stu-id="4852a-135">Placeholders are replaced with appropriate data when the instructions are shown to users.</span></span> <span data-ttu-id="4852a-136">Siga estas etapas para inserir um espaço reservado:</span><span class="sxs-lookup"><span data-stu-id="4852a-136">Follow these steps to insert a placeholder:</span></span>
+    1.  <span data-ttu-id="4852a-137">Na caixa de texto, clique no local onde o espaço reservado deve aparecer.</span><span class="sxs-lookup"><span data-stu-id="4852a-137">In the text box, click where the placeholder should appear.</span></span>
+    2.  <span data-ttu-id="4852a-138">Clique em **Inserir espaço reservado**.</span><span class="sxs-lookup"><span data-stu-id="4852a-138">Click **Insert placeholder**.</span></span>
+    3.  <span data-ttu-id="4852a-139">Na lista exibida, selecione o espaço reservado a ser inserido.</span><span class="sxs-lookup"><span data-stu-id="4852a-139">In the list that appears, select the placeholder to insert.</span></span>
+    4.  <span data-ttu-id="4852a-140">Clique em **Inserir**.</span><span class="sxs-lookup"><span data-stu-id="4852a-140">Click **Insert**.</span></span>
 
-7.  Para adicionar traduções das instruções, siga estas etapas:
-    1.  Clique em **Traduções**.
-    2.  Na página exibida, clique em **Adicionar**.
-    3.  Na lista exibida, selecione o idioma do texto que você está inserindo.
-    4.  No campo **Texto traduzido**, insira o texto.
-    5.  Para personalizar o texto, insira os espaços reservados conforme descrito na etapa 6.
-    6.  Clique em **Fechar**.
+7.  <span data-ttu-id="4852a-141">Para adicionar traduções das instruções, siga estas etapas:</span><span class="sxs-lookup"><span data-stu-id="4852a-141">To add translations of the instructions, follow these steps:</span></span>
+    1.  <span data-ttu-id="4852a-142">Clique em **Traduções**.</span><span class="sxs-lookup"><span data-stu-id="4852a-142">Click **Translations**.</span></span>
+    2.  <span data-ttu-id="4852a-143">Na página exibida, clique em **Adicionar**.</span><span class="sxs-lookup"><span data-stu-id="4852a-143">On the page that appears, click **Add**.</span></span>
+    3.  <span data-ttu-id="4852a-144">Na lista exibida, selecione o idioma do texto que você está inserindo.</span><span class="sxs-lookup"><span data-stu-id="4852a-144">In the list that appears, select the language that you're entering the text in.</span></span>
+    4.  <span data-ttu-id="4852a-145">No campo **Texto traduzido**, insira o texto.</span><span class="sxs-lookup"><span data-stu-id="4852a-145">In the **Translated text** field, enter the text.</span></span>
+    5.  <span data-ttu-id="4852a-146">Para personalizar o texto, insira os espaços reservados conforme descrito na etapa 6.</span><span class="sxs-lookup"><span data-stu-id="4852a-146">To personalize the text, you can insert placeholders as described in step 6.</span></span>
+    6.  <span data-ttu-id="4852a-147">Clique em **Fechar**.</span><span class="sxs-lookup"><span data-stu-id="4852a-147">Click **Close**.</span></span>
 
-## <a name="assign-the-approval-step"></a>Atribuir a etapa de aprovação
-Siga estas etapas para especificar a quem a etapa de aprovação deve ser atribuída.
+## <a name="assign-the-approval-step"></a><span data-ttu-id="4852a-148">Atribuir a etapa de aprovação</span><span class="sxs-lookup"><span data-stu-id="4852a-148">Assign the approval step</span></span>
+<span data-ttu-id="4852a-149">Siga estas etapas para especificar a quem a etapa de aprovação deve ser atribuída.</span><span class="sxs-lookup"><span data-stu-id="4852a-149">Follow these steps to specify who the approval step should be assigned to.</span></span>
 
-1.  No painel esquerdo, clique em **Atribuição**.
-2.  Na guia **Tipo de atribuição**, selecione uma das opções na tabela a seguir e execute as etapas adicionais dessa opção antes de passar para a etapa 3.
+1.  <span data-ttu-id="4852a-150">No painel esquerdo, clique em **Atribuição**.</span><span class="sxs-lookup"><span data-stu-id="4852a-150">In the left pane, click **Assignment**.</span></span>
+2.  <span data-ttu-id="4852a-151">Na guia **Tipo de atribuição**, selecione uma das opções na tabela a seguir e execute as etapas adicionais dessa opção antes de passar para a etapa 3.</span><span class="sxs-lookup"><span data-stu-id="4852a-151">On the **Assignment type** tab, select one of the options in the following table, and then follow the additional steps for that option before you go to step 3.</span></span>
     <table>
     <colgroup>
     <col width="33%" />
@@ -87,109 +87,109 @@ Siga estas etapas para especificar a quem a etapa de aprovação deve ser atribu
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Opção</th>
-    <th>Os usuários aos quais a etapa de aprovação foi atribuída</th>
-    <th>Etapas adicionais</th>
+    <th><span data-ttu-id="4852a-152">Opção</span><span class="sxs-lookup"><span data-stu-id="4852a-152">Option</span></span></th>
+    <th><span data-ttu-id="4852a-153">Os usuários aos quais a etapa de aprovação foi atribuída</span><span class="sxs-lookup"><span data-stu-id="4852a-153">Users that the approval step is assigned to</span></span></th>
+    <th><span data-ttu-id="4852a-154">Etapas adicionais</span><span class="sxs-lookup"><span data-stu-id="4852a-154">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Participante</td>
-    <td>Usuários que foram atribuídos a uma função ou um grupo específico</td>
+    <td><span data-ttu-id="4852a-155">Participante</span><span class="sxs-lookup"><span data-stu-id="4852a-155">Participant</span></span></td>
+    <td><span data-ttu-id="4852a-156">Usuários que foram atribuídos a uma função ou um grupo específico</span><span class="sxs-lookup"><span data-stu-id="4852a-156">Users who are assigned to a specific group or role</span></span></td>
     <td><ol>
-    <li>Depois que você selecionar <strong>Participante</strong>, na guia <strong>Baseado em função</strong>, na lista <strong>Tipo de participante</strong>, selecione o tipo de grupo ou de função ao qual atribuir a etapa.</li>
-    <li>Na lista <strong>Participante</strong>, selecione o grupo ou a função ao qual atribuir a etapa.</li>
+    <li><span data-ttu-id="4852a-157">Depois que você selecionar <strong>Participante</strong>, na guia <strong>Baseado em função</strong>, na lista <strong>Tipo de participante</strong>, selecione o tipo de grupo ou de função ao qual atribuir a etapa.</span><span class="sxs-lookup"><span data-stu-id="4852a-157">After you select <strong>Participant</strong>, on the <strong>Role based</strong> tab, in the <strong>Type of participant</strong> list, select the type of group or role to assign the step to.</span></span></li>
+    <li><span data-ttu-id="4852a-158">Na lista <strong>Participante</strong>, selecione o grupo ou a função ao qual atribuir a etapa.</span><span class="sxs-lookup"><span data-stu-id="4852a-158">In the <strong>Participant</strong> list, select the group or role to assign the step to.</span></span></li>
     </ol></td>
     </tr>
     <tr class="even">
-    <td>Hierarquia</td>
-    <td>Usuários em uma hierarquia organizacional específica</td>
+    <td><span data-ttu-id="4852a-159">Hierarquia</span><span class="sxs-lookup"><span data-stu-id="4852a-159">Hierarchy</span></span></td>
+    <td><span data-ttu-id="4852a-160">Usuários em uma hierarquia organizacional específica</span><span class="sxs-lookup"><span data-stu-id="4852a-160">Users in a specific organizational hierarchy</span></span></td>
     <td><ol>
-    <li>Depois que você selecionar <strong>Hierarquia</strong>, na guia <strong>Seleção de hierarquia</strong>, na lista <strong>Tipo de hierarquia</strong>, selecione o tipo de hierarquia ao qual atribuir a etapa.</li>
-    <li>O sistema deve recuperar um intervalo de nomes de usuário da hierarquia. Esses nomes representam os usuários aos quais a etapa pode ser atribuída. Siga estas etapas para especificar o ponto inicial e final do intervalo de nomes de usuário que o sistema recupera: <ol>
-    <li>Para especificar o ponto de partida, selecione uma pessoa na lista <strong>Iniciar em</strong>.</li>
-    <li>Para especificar o ponto final, clique em <strong>Adicionar condição</strong>. Em seguida, insira uma condição que determine em que ponto da hierarquia o sistema para de recuperar nomes.</li>
+    <li><span data-ttu-id="4852a-161">Depois que você selecionar <strong>Hierarquia</strong>, na guia <strong>Seleção de hierarquia</strong>, na lista <strong>Tipo de hierarquia</strong>, selecione o tipo de hierarquia ao qual atribuir a etapa.</span><span class="sxs-lookup"><span data-stu-id="4852a-161">After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to assign the step to.</span></span></li>
+    <li><span data-ttu-id="4852a-162">O sistema deve recuperar um intervalo de nomes de usuário da hierarquia.</span><span class="sxs-lookup"><span data-stu-id="4852a-162">The system must retrieve a range of user names from the hierarchy.</span></span> <span data-ttu-id="4852a-163">Esses nomes representam os usuários aos quais a etapa pode ser atribuída.</span><span class="sxs-lookup"><span data-stu-id="4852a-163">These names represent users that the step can be assigned to.</span></span> <span data-ttu-id="4852a-164">Siga estas etapas para especificar o ponto inicial e final do intervalo de nomes de usuário que o sistema recupera:</span><span class="sxs-lookup"><span data-stu-id="4852a-164">Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:</span></span> <ol>
+    <li><span data-ttu-id="4852a-165">Para especificar o ponto de partida, selecione uma pessoa na lista <strong>Iniciar em</strong>.</span><span class="sxs-lookup"><span data-stu-id="4852a-165">To specify the starting point, select a person in the <strong>Start from</strong> list.</span></span></li>
+    <li><span data-ttu-id="4852a-166">Para especificar o ponto final, clique em <strong>Adicionar condição</strong>.</span><span class="sxs-lookup"><span data-stu-id="4852a-166">To specify the ending point, click <strong>Add condition</strong>.</span></span> <span data-ttu-id="4852a-167">Em seguida, insira uma condição que determine em que ponto da hierarquia o sistema para de recuperar nomes.</span><span class="sxs-lookup"><span data-stu-id="4852a-167">Then enter a condition that determines where in the hierarchy the system stops retrieving names.</span></span></li>
     </ol></li>
-    <li>Na guia <strong>Opções de hierarquia</strong>, especifique a quais usuários no intervalo a etapa deve ser atribuída: <ul>
-    <li><strong>Atribuir a todos os usuários recuperados</strong> – A etapa é atribuída a todos os usuários do intervalo.</li>
-    <li><strong>Atribuir somente ao último usuário recuperado</strong> – A etapa é atribuída somente ao último usuário do intervalo.</li>
-    <li><strong>Excluir usuários com a seguinte condição</strong> – A etapa não é atribuído aos usuários do intervalo que atenderem a determinada condição. Clique em <strong>Adicionar condição</strong> para especificar a condição.</li>
+    <li><span data-ttu-id="4852a-168">Na guia <strong>Opções de hierarquia</strong>, especifique a quais usuários no intervalo a etapa deve ser atribuída:</span><span class="sxs-lookup"><span data-stu-id="4852a-168">On the <strong>Hierarchy options</strong> tab, specify which users in the range the step should be assigned to:</span></span> <ul>
+    <li><span data-ttu-id="4852a-169"><strong>Atribuir a todos os usuários recuperados</strong> – A etapa é atribuída a todos os usuários do intervalo.</span><span class="sxs-lookup"><span data-stu-id="4852a-169"><strong>Assign to all users retrieved</strong> – The step is assigned to all users in the range.</span></span></li>
+    <li><span data-ttu-id="4852a-170"><strong>Atribuir somente ao último usuário recuperado</strong> – A etapa é atribuída somente ao último usuário do intervalo.</span><span class="sxs-lookup"><span data-stu-id="4852a-170"><strong>Assign only to last user retrieved</strong> – The step is assigned to only the last user in the range.</span></span></li>
+    <li><span data-ttu-id="4852a-171"><strong>Excluir usuários com a seguinte condição</strong> – A etapa não é atribuído aos usuários do intervalo que atenderem a determinada condição.</span><span class="sxs-lookup"><span data-stu-id="4852a-171"><strong>Exclude users with the following condition</strong> – The step isn't assigned to any users in the range who meet a specific condition.</span></span> <span data-ttu-id="4852a-172">Clique em <strong>Adicionar condição</strong> para especificar a condição.</span><span class="sxs-lookup"><span data-stu-id="4852a-172">Click <strong>Add condition</strong> to specify the condition.</span></span></li>
     </ul></li>
     </ol></td>
     </tr>
     <tr class="odd">
-    <td>Usuário de fluxo de trabalho</td>
-    <td>Usuários no fluxo de trabalho atual</td>
+    <td><span data-ttu-id="4852a-173">Usuário de fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="4852a-173">Workflow user</span></span></td>
+    <td><span data-ttu-id="4852a-174">Usuários no fluxo de trabalho atual</span><span class="sxs-lookup"><span data-stu-id="4852a-174">Users in the current workflow</span></span></td>
     <td><ul>
-    <li>Depois que você selecionar <strong>Usuário de fluxo de trabalho</strong> na guia <strong>Usuário de fluxo de trabalho</strong>, na lista <strong>Usuário de fluxo de trabalho</strong>, selecione um usuário que participa do fluxo de trabalho.</li>
+    <li><span data-ttu-id="4852a-175">Depois que você selecionar <strong>Usuário de fluxo de trabalho</strong> na guia <strong>Usuário de fluxo de trabalho</strong>, na lista <strong>Usuário de fluxo de trabalho</strong>, selecione um usuário que participa do fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="4852a-175">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ul></td>
     </tr>
     <tr class="even">
-    <td>Usuário</td>
-    <td>Especificar usuários do Microsoft Dynamics 365 for Finance and Operations</td>
+    <td><span data-ttu-id="4852a-176">Usuário</span><span class="sxs-lookup"><span data-stu-id="4852a-176">User</span></span></td>
+    <td><span data-ttu-id="4852a-177">Especificar usuários do Microsoft Dynamics 365 for Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="4852a-177">Specific Microsoft Dynamics 365 for Finance and Operations users</span></span></td>
     <td><ol>
-    <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li>A lista <strong>Usuários disponíveis</strong> tem todos os usuários do Finance and Operations. Selecione os usuários aos quais deseja atribuir a etapa e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li><span data-ttu-id="4852a-178">Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</span><span class="sxs-lookup"><span data-stu-id="4852a-178">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="4852a-179">A lista <strong>Usuários disponíveis</strong> tem todos os usuários do Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4852a-179">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="4852a-180">Selecione os usuários aos quais deseja atribuir a etapa e mova-os para a lista <strong>Usuários selecionados</strong>.</span><span class="sxs-lookup"><span data-stu-id="4852a-180">Select the users to assign the step to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
-3.  Na guia **Limite de tempo**, no campo **Duração**, especifique quanto tempo o usuário tem para executar uma ação nos documentos que atingem a etapa de aprovação ou responder a eles. Selecione uma das seguintes opções:
-    -   **Horas** – Insira o número de horas que o usuário tem para responder. Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.
-    -   **Dias** – Insira o número de dias que o usuário tem para responder. Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.
-    -   **Semanas** – Insira o número de semanas que o usuário tem para responder.
-    -   **Meses** – Selecione até que dia e semana o usuário deve responder. Por exemplo, talvez você queira que o usuário responda até sexta-feira da terceira semana do mês.
-    -   **Anos** – Selecione até que dia, semana e mês o usuário deve responder. Por exemplo, talvez você queira que o usuário responda até sexta-feira da terceira semana de dezembro.
+3.  <span data-ttu-id="4852a-181">Na guia **Limite de tempo**, no campo **Duração**, especifique quanto tempo o usuário tem para executar uma ação nos documentos que atingem a etapa de aprovação ou responder a eles.</span><span class="sxs-lookup"><span data-stu-id="4852a-181">On the **Time limit** tab, in the **Duration** field, specify how much time the user has to take action on, or respond to, documents that reach the approval step.</span></span> <span data-ttu-id="4852a-182">Selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="4852a-182">Select one of the following options:</span></span>
+    -   <span data-ttu-id="4852a-183">**Horas** – Insira o número de horas que o usuário tem para responder.</span><span class="sxs-lookup"><span data-stu-id="4852a-183">**Hours** – Enter the number of hours that the user has to respond.</span></span> <span data-ttu-id="4852a-184">Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.</span><span class="sxs-lookup"><span data-stu-id="4852a-184">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="4852a-185">**Dias** – Insira o número de dias que o usuário tem para responder.</span><span class="sxs-lookup"><span data-stu-id="4852a-185">**Days** – Enter the number of days that the user has to respond.</span></span> <span data-ttu-id="4852a-186">Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.</span><span class="sxs-lookup"><span data-stu-id="4852a-186">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="4852a-187">**Semanas** – Insira o número de semanas que o usuário tem para responder.</span><span class="sxs-lookup"><span data-stu-id="4852a-187">**Weeks** – Enter the number of weeks that the user has to respond.</span></span>
+    -   <span data-ttu-id="4852a-188">**Meses** – Selecione até que dia e semana o usuário deve responder.</span><span class="sxs-lookup"><span data-stu-id="4852a-188">**Months** – Select the day and week that the user must respond by.</span></span> <span data-ttu-id="4852a-189">Por exemplo, talvez você queira que o usuário responda até sexta-feira da terceira semana do mês.</span><span class="sxs-lookup"><span data-stu-id="4852a-189">For example, you might want the user to respond by Friday of the third week of the month.</span></span>
+    -   <span data-ttu-id="4852a-190">**Anos** – Selecione até que dia, semana e mês o usuário deve responder.</span><span class="sxs-lookup"><span data-stu-id="4852a-190">**Years** – Select the day, week, and month that the user must respond by.</span></span> <span data-ttu-id="4852a-191">Por exemplo, talvez você queira que o usuário responda até sexta-feira da terceira semana de dezembro.</span><span class="sxs-lookup"><span data-stu-id="4852a-191">For example, you might want the user to respond by Friday of the third week of December.</span></span>
 
-    Se o usuário não executar nenhuma ação no documento no tempo alocado, o documento vencerá. Um documento vencido será escalonado, com base nas opções selecionadas na área **Escalonamento** da página.
-4.  Se você tiver atribuído a etapa de aprovação a vários usuários ou a um grupo de usuários, na guia **Política de conclusão**, selecione uma das seguintes opções:
-    -   **Aprovador único** – a ação que é aplicada ao documento é determinada pela primeira pessoa que responde. Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de US$ 15.000. O relatório de despesas está atribuído no momento à Suzana, à Joana e a Guilherme. Se Suzana for a primeira pessoa a responder ao documento, a ação tomada por ela será aplicada. Se Suzana rejeitar o documento, ele será rejeitado e enviado novamente para Samuel. Se Suzana aprovar o documento, ele será enviado a Ana para aprovação. ![Fluxo de trabalho que tem um processo de aprovação](./media/workflow_multipleusersinstep.gif)
-    -   **Maioria dos aprovadores** – a ação que é aplicada ao documento é determinada quando a maioria dos aprovadores responde. Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de US$ 15.000. O relatório de despesas está atribuído no momento à Suzana, à Joana e a Guilherme. Se Suzana e Joana forem os dois primeiros aprovadores a responder, a ação tomada por ambas será aplicada ao documento.
-        -   Se Suzana aprovar o documento, mas Joana o rejeitar, o documento será rejeitado e enviado novamente para Samuel.
-        -   Se Suzana e Joana aprovarem o documento, ele será enviado a Ana para aprovação.
-    -   **Porcentagem de aprovadores** – a ação que é aplicada ao documento é determinada quando uma porcentagem específica dos aprovadores responde. Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de US$ 15.000. O relatório de despesas está atribuído no momento à Suzana, à Joana e ao Guilherme, e você inseriu **50** como porcentagem. Se Suzana e Joana forem os dois primeiros aprovadores a responderem, a ação que elas executarem será aplicada ao documento, pois o requisito de 50% dos aprovadores foi atendido.
-        -   Se Suzana aprovar o documento, mas Joana o rejeitar, o documento será rejeitado e enviado novamente para Samuel.
-        -   Se Suzana e Joana aprovarem o documento, ele será enviado a Ana para aprovação.
-    -   **Todos os aprovadores** – todos os aprovadores deverão aprovar o documento. Caso contrário, o fluxo de trabalho não poderá continuar. Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de US$ 15.000. O relatório de despesas está atribuído no momento à Suzana, à Joana e a Guilherme. Se Suzana e Joana aprovarem o documento, mas Guilherme o rejeitar, o documento será rejeitado e enviado novamente para Samuel. Se Suzana, Joana e Guilherme aprovarem o documento, ele será enviado a Ana para aprovação.
+    <span data-ttu-id="4852a-192">Se o usuário não executar nenhuma ação no documento no tempo alocado, o documento vencerá.</span><span class="sxs-lookup"><span data-stu-id="4852a-192">If the user doesn't take action on the document in the allotted time, the document is overdue.</span></span> <span data-ttu-id="4852a-193">Um documento vencido será escalonado, com base nas opções selecionadas na área **Escalonamento** da página.</span><span class="sxs-lookup"><span data-stu-id="4852a-193">A document that is overdue is escalated, based on the options that you select in the **Escalation** area of the page.</span></span>
+4.  <span data-ttu-id="4852a-194">Se você tiver atribuído a etapa de aprovação a vários usuários ou a um grupo de usuários, na guia **Política de conclusão**, selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="4852a-194">If you assigned the approval step to multiple users or a group of users, on the **Completion policy** tab, select one of the following options:</span></span>
+    -   <span data-ttu-id="4852a-195">**Aprovador único** – a ação que é aplicada ao documento é determinada pela primeira pessoa que responde.</span><span class="sxs-lookup"><span data-stu-id="4852a-195">**Single approver** – The action that is applied to the document is determined by the first person who responds.</span></span> <span data-ttu-id="4852a-196">Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de US$ 15.000.</span><span class="sxs-lookup"><span data-stu-id="4852a-196">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="4852a-197">O relatório de despesas está atribuído no momento à Suzana, à Joana e a Guilherme.</span><span class="sxs-lookup"><span data-stu-id="4852a-197">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="4852a-198">Se Suzana for a primeira pessoa a responder ao documento, a ação tomada por ela será aplicada.</span><span class="sxs-lookup"><span data-stu-id="4852a-198">If Sue is the first person who responds to the document, the action that she takes is applied to the document.</span></span> <span data-ttu-id="4852a-199">Se Suzana rejeitar o documento, ele será rejeitado e enviado novamente para Samuel.</span><span class="sxs-lookup"><span data-stu-id="4852a-199">If Sue rejects the document, it's rejected and sent back to Sam.</span></span> <span data-ttu-id="4852a-200">Se Suzana aprovar o documento, ele será enviado a Ana para aprovação.</span><span class="sxs-lookup"><span data-stu-id="4852a-200">If Sue approves the document, it's sent to Ann for approval.</span></span> <span data-ttu-id="4852a-201">![Fluxo de trabalho que tem um processo de aprovação](./media/workflow_multipleusersinstep.gif)</span><span class="sxs-lookup"><span data-stu-id="4852a-201">![Workflow that has an approval process](./media/workflow_multipleusersinstep.gif)</span></span>
+    -   <span data-ttu-id="4852a-202">**Maioria dos aprovadores** – a ação que é aplicada ao documento é determinada quando a maioria dos aprovadores responde.</span><span class="sxs-lookup"><span data-stu-id="4852a-202">**Majority of approvers** – The action that is applied to the document is determined when most of the approvers respond.</span></span> <span data-ttu-id="4852a-203">Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de US$ 15.000.</span><span class="sxs-lookup"><span data-stu-id="4852a-203">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="4852a-204">O relatório de despesas está atribuído no momento à Suzana, à Joana e a Guilherme.</span><span class="sxs-lookup"><span data-stu-id="4852a-204">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="4852a-205">Se Suzana e Joana forem os dois primeiros aprovadores a responder, a ação tomada por ambas será aplicada ao documento.</span><span class="sxs-lookup"><span data-stu-id="4852a-205">If Sue and Jo are the first two approvers who respond, the action that they take is applied to the document.</span></span>
+        -   <span data-ttu-id="4852a-206">Se Suzana aprovar o documento, mas Joana o rejeitar, o documento será rejeitado e enviado novamente para Samuel.</span><span class="sxs-lookup"><span data-stu-id="4852a-206">If Sue approves the document, but Jo rejects it, the document is rejected and sent back to Sam.</span></span>
+        -   <span data-ttu-id="4852a-207">Se Suzana e Joana aprovarem o documento, ele será enviado a Ana para aprovação.</span><span class="sxs-lookup"><span data-stu-id="4852a-207">If both Sue and Jo approve the document, it's sent to Ann for approval.</span></span>
+    -   <span data-ttu-id="4852a-208">**Porcentagem de aprovadores** – a ação que é aplicada ao documento é determinada quando uma porcentagem específica dos aprovadores responde.</span><span class="sxs-lookup"><span data-stu-id="4852a-208">**Percentage of approvers** – The action that is applied to the document is determined when a specific percentage of the approvers respond.</span></span> <span data-ttu-id="4852a-209">Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de US$ 15.000.</span><span class="sxs-lookup"><span data-stu-id="4852a-209">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="4852a-210">O relatório de despesas está atribuído no momento à Suzana, à Joana e ao Guilherme, e você inseriu **50** como porcentagem.</span><span class="sxs-lookup"><span data-stu-id="4852a-210">The expense report is currently assigned to Sue, Jo, and Bill, and you entered **50** as the percentage.</span></span> <span data-ttu-id="4852a-211">Se Suzana e Joana forem os dois primeiros aprovadores a responderem, a ação que elas executarem será aplicada ao documento, pois o requisito de 50% dos aprovadores foi atendido.</span><span class="sxs-lookup"><span data-stu-id="4852a-211">If Sue and Jo are the first two approvers who respond, the action that they take is applied to the document, because they meet the requirement for 50 percent of approvers.</span></span>
+        -   <span data-ttu-id="4852a-212">Se Suzana aprovar o documento, mas Joana o rejeitar, o documento será rejeitado e enviado novamente para Samuel.</span><span class="sxs-lookup"><span data-stu-id="4852a-212">If Sue approves the document, but Jo rejects it, the document is rejected and sent back to Sam.</span></span>
+        -   <span data-ttu-id="4852a-213">Se Suzana e Joana aprovarem o documento, ele será enviado a Ana para aprovação.</span><span class="sxs-lookup"><span data-stu-id="4852a-213">If both Sue and Jo approve the document, it's sent to Ann for approval.</span></span>
+    -   <span data-ttu-id="4852a-214">**Todos os aprovadores** – todos os aprovadores deverão aprovar o documento.</span><span class="sxs-lookup"><span data-stu-id="4852a-214">**All approvers** – All the approvers must approve the document.</span></span> <span data-ttu-id="4852a-215">Caso contrário, o fluxo de trabalho não poderá continuar.</span><span class="sxs-lookup"><span data-stu-id="4852a-215">Otherwise, the workflow can't continue.</span></span> <span data-ttu-id="4852a-216">Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de US$ 15.000.</span><span class="sxs-lookup"><span data-stu-id="4852a-216">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="4852a-217">O relatório de despesas está atribuído no momento à Suzana, à Joana e a Guilherme.</span><span class="sxs-lookup"><span data-stu-id="4852a-217">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="4852a-218">Se Suzana e Joana aprovarem o documento, mas Guilherme o rejeitar, o documento será rejeitado e enviado novamente para Samuel.</span><span class="sxs-lookup"><span data-stu-id="4852a-218">If Sue and Joe approve the document, but Bill rejects it, the document is rejected and sent back to Sam.</span></span> <span data-ttu-id="4852a-219">Se Suzana, Joana e Guilherme aprovarem o documento, ele será enviado a Ana para aprovação.</span><span class="sxs-lookup"><span data-stu-id="4852a-219">If Sue, Jo, and Bill all approve the document, it's sent to Ann for approval.</span></span>
 
-## <a name="specify-when-the-approval-step-is-required"></a>Especificar quando a etapa de aprovação é necessária
-Você pode especificar quando a etapa de aprovação é necessária. Possivelmente, ela sempre será necessária ou será necessária apenas se condições específicas forem atendidas.
+## <a name="specify-when-the-approval-step-is-required"></a><span data-ttu-id="4852a-220">Especificar quando a etapa de aprovação é necessária</span><span class="sxs-lookup"><span data-stu-id="4852a-220">Specify when the approval step is required</span></span>
+<span data-ttu-id="4852a-221">Você pode especificar quando a etapa de aprovação é necessária.</span><span class="sxs-lookup"><span data-stu-id="4852a-221">You can specify when the approval step is required.</span></span> <span data-ttu-id="4852a-222">Possivelmente, ela sempre será necessária ou será necessária apenas se condições específicas forem atendidas.</span><span class="sxs-lookup"><span data-stu-id="4852a-222">The approval step can always be required, or it can be required only if specific conditions are met.</span></span>
 
-### <a name="the-approval-step-is-always-required"></a>A etapa de aprovação é sempre necessária
+### <a name="the-approval-step-is-always-required"></a><span data-ttu-id="4852a-223">A etapa de aprovação é sempre necessária</span><span class="sxs-lookup"><span data-stu-id="4852a-223">The approval step is always required</span></span>
 
-Siga estas etapas caso a etapa de aprovação seja sempre necessária.
+<span data-ttu-id="4852a-224">Siga estas etapas caso a etapa de aprovação seja sempre necessária.</span><span class="sxs-lookup"><span data-stu-id="4852a-224">Follow these steps if the approval step is always required.</span></span>
 
-1.  No painel esquerdo, clique em **Condição**.
-2.  Selecione a opção **Executar sempre esta etapa**.
+1.  <span data-ttu-id="4852a-225">No painel esquerdo, clique em **Condição**.</span><span class="sxs-lookup"><span data-stu-id="4852a-225">In the left pane, click **Condition**.</span></span>
+2.  <span data-ttu-id="4852a-226">Selecione a opção **Executar sempre esta etapa**.</span><span class="sxs-lookup"><span data-stu-id="4852a-226">Select the **Always run this step** option.</span></span>
 
-### <a name="the-approval-step-is-required-in-specific-conditions"></a>A etapa de aprovação é necessária em condições específicas
+### <a name="the-approval-step-is-required-in-specific-conditions"></a><span data-ttu-id="4852a-227">A etapa de aprovação é necessária em condições específicas</span><span class="sxs-lookup"><span data-stu-id="4852a-227">The approval step is required in specific conditions</span></span>
 
-A etapa de aprovação que você está configurando poderá ser necessária apenas se condições específicas forem atendidas. Por exemplo, se você estiver configurando uma etapa de aprovação para um fluxo de trabalho de requisição de compra, talvez seja conveniente que a etapa de aprovação ocorra somente se o valor da requisição de compra for superior a US$ 10.000. Siga estas etapas para especificar quando a etapa de aprovação é necessária.
+<span data-ttu-id="4852a-228">A etapa de aprovação que você está configurando poderá ser necessária apenas se condições específicas forem atendidas.</span><span class="sxs-lookup"><span data-stu-id="4852a-228">The approval step that you're configuring might be required only if specific conditions are met.</span></span> <span data-ttu-id="4852a-229">Por exemplo, se você estiver configurando uma etapa de aprovação para um fluxo de trabalho de requisição de compra, talvez seja conveniente que a etapa de aprovação ocorra somente se o valor da requisição de compra for superior a US$ 10.000.</span><span class="sxs-lookup"><span data-stu-id="4852a-229">For example, if you're configuring an approval step for a purchase requisition workflow, you might want the approval step to occur only if the amount of the purchase requisition is more than USD 10,000.</span></span> <span data-ttu-id="4852a-230">Siga estas etapas para especificar quando a etapa de aprovação é necessária.</span><span class="sxs-lookup"><span data-stu-id="4852a-230">Follow these steps to specify when the approval step is required.</span></span>
 
-1.  No painel esquerdo, clique em **Condição**.
-2.  Selecione a opção **Executar esta etapa somente quando a seguinte condição for atendida**.
-3.  Insira uma condição.
-4.  Insira quaisquer condições adicionais necessárias.
-5.  Para verificar se as condições inseridas foram configuradas corretamente, execute estas etapas:
-    1.  Clique em **Teste**.
-    2.  Na página **Testar condição de fluxo de trabalho**, na área **Validar condição**, selecione um registro.
-    3.  Clique em **Teste**. O sistema avaliará o registro para determinar se ele atende às condições definidas.
-    4.  Clique em **OK** ou **Cancelar** para retornar à página **Propriedades**.
+1.  <span data-ttu-id="4852a-231">No painel esquerdo, clique em **Condição**.</span><span class="sxs-lookup"><span data-stu-id="4852a-231">In the left pane, click **Condition**.</span></span>
+2.  <span data-ttu-id="4852a-232">Selecione a opção **Executar esta etapa somente quando a seguinte condição for atendida**.</span><span class="sxs-lookup"><span data-stu-id="4852a-232">Select the **Run this step only when the following condition is met** option.</span></span>
+3.  <span data-ttu-id="4852a-233">Insira uma condição.</span><span class="sxs-lookup"><span data-stu-id="4852a-233">Enter a condition.</span></span>
+4.  <span data-ttu-id="4852a-234">Insira quaisquer condições adicionais necessárias.</span><span class="sxs-lookup"><span data-stu-id="4852a-234">Enter any additional conditions that are required.</span></span>
+5.  <span data-ttu-id="4852a-235">Para verificar se as condições inseridas foram configuradas corretamente, execute estas etapas:</span><span class="sxs-lookup"><span data-stu-id="4852a-235">To verify that the conditions that you entered are configured correctly, follow these steps:</span></span>
+    1.  <span data-ttu-id="4852a-236">Clique em **Teste**.</span><span class="sxs-lookup"><span data-stu-id="4852a-236">Click **Test**.</span></span>
+    2.  <span data-ttu-id="4852a-237">Na página **Testar condição de fluxo de trabalho**, na área **Validar condição**, selecione um registro.</span><span class="sxs-lookup"><span data-stu-id="4852a-237">On the **Test workflow condition** page, in the **Validate condition** area, select a record.</span></span>
+    3.  <span data-ttu-id="4852a-238">Clique em **Teste**.</span><span class="sxs-lookup"><span data-stu-id="4852a-238">Click **Test**.</span></span> <span data-ttu-id="4852a-239">O sistema avaliará o registro para determinar se ele atende às condições definidas.</span><span class="sxs-lookup"><span data-stu-id="4852a-239">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span>
+    4.  <span data-ttu-id="4852a-240">Clique em **OK** ou **Cancelar** para retornar à página **Propriedades**.</span><span class="sxs-lookup"><span data-stu-id="4852a-240">Click **OK** or **Cancel** to return to the **Properties** page.</span></span>
 
-## <a name="specify-what-happens-when-the-document-is-overdue"></a>Especificar o que acontece quando o documento está vencido
-Se um usuário não executar nenhuma ação em um documento no tempo alocado, o documento vencerá. Um documento vencido pode ser escalonado ou atribuído automaticamente a outro usuário para aprovação. Siga estas etapas para escalonar o documento se ele estiver vencido.
+## <a name="specify-what-happens-when-the-document-is-overdue"></a><span data-ttu-id="4852a-241">Especificar o que acontece quando o documento está vencido</span><span class="sxs-lookup"><span data-stu-id="4852a-241">Specify what happens when the document is overdue</span></span>
+<span data-ttu-id="4852a-242">Se um usuário não executar nenhuma ação em um documento no tempo alocado, o documento vencerá.</span><span class="sxs-lookup"><span data-stu-id="4852a-242">If a user doesn't take action on a document in the allotted time, the document is overdue.</span></span> <span data-ttu-id="4852a-243">Um documento vencido pode ser escalonado ou atribuído automaticamente a outro usuário para aprovação.</span><span class="sxs-lookup"><span data-stu-id="4852a-243">A document that is overdue can be escalated, or automatically assigned to another user for approval.</span></span> <span data-ttu-id="4852a-244">Siga estas etapas para escalonar o documento se ele estiver vencido.</span><span class="sxs-lookup"><span data-stu-id="4852a-244">Follow these steps to escalate the document if it's overdue.</span></span>
 
-1.  No painel esquerdo, clique em **Escalonamento**.
-2.  Marque a caixa de seleção **Usar caminho de escalonamento** para criar um caminho de escalonamento. O sistema atribuirá automaticamente o documento aos usuários listados nesse caminho. Por exemplo, a tabela a seguir representa um caminho de escalonamento.
-    | Sequência | Caminho de escalonamento      |
+1.  <span data-ttu-id="4852a-245">No painel esquerdo, clique em **Escalonamento**.</span><span class="sxs-lookup"><span data-stu-id="4852a-245">In the left pane, click **Escalation**.</span></span>
+2.  <span data-ttu-id="4852a-246">Marque a caixa de seleção **Usar caminho de escalonamento** para criar um caminho de escalonamento.</span><span class="sxs-lookup"><span data-stu-id="4852a-246">Select the **Use escalation path** check box to create an escalation path.</span></span> <span data-ttu-id="4852a-247">O sistema atribuirá automaticamente o documento aos usuários listados nesse caminho.</span><span class="sxs-lookup"><span data-stu-id="4852a-247">The system automatically assigns the document to the users who are listed in the escalation path.</span></span> <span data-ttu-id="4852a-248">Por exemplo, a tabela a seguir representa um caminho de escalonamento.</span><span class="sxs-lookup"><span data-stu-id="4852a-248">For example, the following table represents an escalation path.</span></span>
+    | <span data-ttu-id="4852a-249">Sequência</span><span class="sxs-lookup"><span data-stu-id="4852a-249">Sequence</span></span> | <span data-ttu-id="4852a-250">Caminho de escalonamento</span><span class="sxs-lookup"><span data-stu-id="4852a-250">Escalation path</span></span>      |
     |----------|----------------------|
-    | 1        | Atribuir a: Denise     |
-    | 2        | Atribuir a: Eduardo      |
-    | 3        | Ação final: Rejeitar |
+    | <span data-ttu-id="4852a-251">1</span><span class="sxs-lookup"><span data-stu-id="4852a-251">1</span></span>        | <span data-ttu-id="4852a-252">Atribuir a: Denise</span><span class="sxs-lookup"><span data-stu-id="4852a-252">Assign to: Donna</span></span>     |
+    | <span data-ttu-id="4852a-253">2</span><span class="sxs-lookup"><span data-stu-id="4852a-253">2</span></span>        | <span data-ttu-id="4852a-254">Atribuir a: Eduardo</span><span class="sxs-lookup"><span data-stu-id="4852a-254">Assign to: Erin</span></span>      |
+    | <span data-ttu-id="4852a-255">3</span><span class="sxs-lookup"><span data-stu-id="4852a-255">3</span></span>        | <span data-ttu-id="4852a-256">Ação final: Rejeitar</span><span class="sxs-lookup"><span data-stu-id="4852a-256">Final action: Reject</span></span> |
 
-    Nesse exemplo, o sistema atribui o documento vencido à Denise. Se Denise não responder no tempo alocado, o sistema atribuirá o documento a Eduardo. Se Eduardo não responder no tempo alocado, o sistema rejeitará o documento.
-3.  Para adicionar um usuário ao caminho de escalonamento, clique em **Adicionar escalonamento**. Na guia **Tipo de atribuição**, selecione uma das opções na tabela a seguir e execute as etapas adicionais dessa opção antes de passar para a etapa 4.
+    <span data-ttu-id="4852a-257">Nesse exemplo, o sistema atribui o documento vencido à Denise.</span><span class="sxs-lookup"><span data-stu-id="4852a-257">In this example, the system assigns the overdue document to Donna.</span></span> <span data-ttu-id="4852a-258">Se Denise não responder no tempo alocado, o sistema atribuirá o documento a Eduardo.</span><span class="sxs-lookup"><span data-stu-id="4852a-258">If Donna doesn't respond in the allotted time, the system assigns the document to Erin.</span></span> <span data-ttu-id="4852a-259">Se Eduardo não responder no tempo alocado, o sistema rejeitará o documento.</span><span class="sxs-lookup"><span data-stu-id="4852a-259">If Erin doesn't respond in the allotted time, the system rejects the document.</span></span>
+3.  <span data-ttu-id="4852a-260">Para adicionar um usuário ao caminho de escalonamento, clique em **Adicionar escalonamento**.</span><span class="sxs-lookup"><span data-stu-id="4852a-260">To add a user to the escalation path, click **Add escalation**.</span></span> <span data-ttu-id="4852a-261">Na guia **Tipo de atribuição**, selecione uma das opções na tabela a seguir e execute as etapas adicionais dessa opção antes de passar para a etapa 4.</span><span class="sxs-lookup"><span data-stu-id="4852a-261">On the **Assignment type** tab, select one of the options in the following table, and then follow the additional steps for that option before you go to step 4.</span></span>
     <table>
     <colgroup>
     <col width="33%" />
@@ -198,55 +198,55 @@ Se um usuário não executar nenhuma ação em um documento no tempo alocado, o 
     </colgroup>
     <thead>
     <tr class="header">
-    <th>Opção</th>
-    <th>Usuários aos quais o documento será escalonado</th>
-    <th>Etapas adicionais</th>
+    <th><span data-ttu-id="4852a-262">Opção</span><span class="sxs-lookup"><span data-stu-id="4852a-262">Option</span></span></th>
+    <th><span data-ttu-id="4852a-263">Usuários aos quais o documento será escalonado</span><span class="sxs-lookup"><span data-stu-id="4852a-263">Users that the document is escalated to</span></span></th>
+    <th><span data-ttu-id="4852a-264">Etapas adicionais</span><span class="sxs-lookup"><span data-stu-id="4852a-264">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr class="odd">
-    <td>Hierarquia</td>
-    <td>Usuários em uma hierarquia organizacional específica</td>
+    <td><span data-ttu-id="4852a-265">Hierarquia</span><span class="sxs-lookup"><span data-stu-id="4852a-265">Hierarchy</span></span></td>
+    <td><span data-ttu-id="4852a-266">Usuários em uma hierarquia organizacional específica</span><span class="sxs-lookup"><span data-stu-id="4852a-266">Users in a specific organizational hierarchy</span></span></td>
     <td><ol>
-    <li>Depois que você selecionar <strong>Hierarquia</strong>, na guia <strong>Seleção de hierarquia</strong>, na lista <strong>Tipo de hierarquia</strong>, selecione o tipo de hierarquia ao qual o documento será escalonado.</li>
-    <li>O sistema deve recuperar um intervalo de nomes de usuário da hierarquia. Esses nomes representam usuários para os quais o documento pode ser escalonado. Siga estas etapas para especificar o ponto inicial e final do intervalo de nomes de usuário que o sistema recupera: <ol>
-    <li>Para especificar o ponto de partida, selecione uma pessoa na lista <strong>Iniciar em</strong>.</li>
-    <li>Para especificar o ponto final, clique em <strong>Adicionar condição</strong>. Em seguida, insira uma condição que determine em que ponto da hierarquia o sistema para de recuperar nomes.</li>
+    <li><span data-ttu-id="4852a-267">Depois que você selecionar <strong>Hierarquia</strong>, na guia <strong>Seleção de hierarquia</strong>, na lista <strong>Tipo de hierarquia</strong>, selecione o tipo de hierarquia ao qual o documento será escalonado.</span><span class="sxs-lookup"><span data-stu-id="4852a-267">After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to escalate the document to.</span></span></li>
+    <li><span data-ttu-id="4852a-268">O sistema deve recuperar um intervalo de nomes de usuário da hierarquia.</span><span class="sxs-lookup"><span data-stu-id="4852a-268">The system must retrieve a range of user names from the hierarchy.</span></span> <span data-ttu-id="4852a-269">Esses nomes representam usuários para os quais o documento pode ser escalonado.</span><span class="sxs-lookup"><span data-stu-id="4852a-269">These names represent users that the document can be escalated to.</span></span> <span data-ttu-id="4852a-270">Siga estas etapas para especificar o ponto inicial e final do intervalo de nomes de usuário que o sistema recupera:</span><span class="sxs-lookup"><span data-stu-id="4852a-270">Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:</span></span> <ol>
+    <li><span data-ttu-id="4852a-271">Para especificar o ponto de partida, selecione uma pessoa na lista <strong>Iniciar em</strong>.</span><span class="sxs-lookup"><span data-stu-id="4852a-271">To specify the starting point, select a person in the <strong>Start from</strong> list.</span></span></li>
+    <li><span data-ttu-id="4852a-272">Para especificar o ponto final, clique em <strong>Adicionar condição</strong>.</span><span class="sxs-lookup"><span data-stu-id="4852a-272">To specify the ending point, click <strong>Add condition</strong>.</span></span> <span data-ttu-id="4852a-273">Em seguida, insira uma condição que determine em que ponto da hierarquia o sistema para de recuperar nomes.</span><span class="sxs-lookup"><span data-stu-id="4852a-273">Then enter a condition that determines where in the hierarchy the system stops retrieving names.</span></span></li>
     </ol></li>
-    <li>Na guia <strong>Opções de hierarquia</strong>, especifique a quais usuários no intervalo o documento deve ser escalonado: <ul>
-    <li><strong>Atribuir a todos os usuários recuperados</strong> – O documento é escalonado para todos os usuários do intervalo.</li>
-    <li><strong>Atribuir somente ao último usuário recuperado</strong> – O documento é escalonado somente ao último usuário do intervalo.</li>
-    <li><strong>Excluir usuários com a seguinte condição</strong> – O documento não é escalonado aos usuários do intervalo que atenderem a determinada condição. Clique em <strong>Adicionar condição</strong> para especificar a condição.</li>
+    <li><span data-ttu-id="4852a-274">Na guia <strong>Opções de hierarquia</strong>, especifique a quais usuários no intervalo o documento deve ser escalonado:</span><span class="sxs-lookup"><span data-stu-id="4852a-274">On the <strong>Hierarchy options</strong> tab, specify which users in the range the document should be escalated to:</span></span> <ul>
+    <li><span data-ttu-id="4852a-275"><strong>Atribuir a todos os usuários recuperados</strong> – O documento é escalonado para todos os usuários do intervalo.</span><span class="sxs-lookup"><span data-stu-id="4852a-275"><strong>Assign to all users retrieved</strong> – The document is escalated to all users in the range.</span></span></li>
+    <li><span data-ttu-id="4852a-276"><strong>Atribuir somente ao último usuário recuperado</strong> – O documento é escalonado somente ao último usuário do intervalo.</span><span class="sxs-lookup"><span data-stu-id="4852a-276"><strong>Assign only to last user retrieved</strong> – The document is escalated to only the last user in the range.</span></span></li>
+    <li><span data-ttu-id="4852a-277"><strong>Excluir usuários com a seguinte condição</strong> – O documento não é escalonado aos usuários do intervalo que atenderem a determinada condição.</span><span class="sxs-lookup"><span data-stu-id="4852a-277"><strong>Exclude users with the following condition</strong> – The document isn't escalated to any users in the range who meet a specific condition.</span></span> <span data-ttu-id="4852a-278">Clique em <strong>Adicionar condição</strong> para especificar a condição.</span><span class="sxs-lookup"><span data-stu-id="4852a-278">Click <strong>Add condition</strong> to specify the condition.</span></span></li>
     </ul></li>
     </ol></td>
     </tr>
     <tr class="even">
-    <td>Usuário de fluxo de trabalho</td>
-    <td>Usuários no fluxo de trabalho atual</td>
+    <td><span data-ttu-id="4852a-279">Usuário de fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="4852a-279">Workflow user</span></span></td>
+    <td><span data-ttu-id="4852a-280">Usuários no fluxo de trabalho atual</span><span class="sxs-lookup"><span data-stu-id="4852a-280">Users in the current workflow</span></span></td>
     <td><ul>
-    <li>Depois que você selecionar <strong>Usuário de fluxo de trabalho</strong> na guia <strong>Usuário de fluxo de trabalho</strong>, na lista <strong>Usuário de fluxo de trabalho</strong>, selecione um usuário que participa do fluxo de trabalho.</li>
+    <li><span data-ttu-id="4852a-281">Depois que você selecionar <strong>Usuário de fluxo de trabalho</strong> na guia <strong>Usuário de fluxo de trabalho</strong>, na lista <strong>Usuário de fluxo de trabalho</strong>, selecione um usuário que participa do fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="4852a-281">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ul></td>
     </tr>
     <tr class="odd">
-    <td>Usuário</td>
-    <td>Usuários específicos do Finance and Operations</td>
+    <td><span data-ttu-id="4852a-282">Usuário</span><span class="sxs-lookup"><span data-stu-id="4852a-282">User</span></span></td>
+    <td><span data-ttu-id="4852a-283">Usuários específicos do Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="4852a-283">Specific Finance and Operations users</span></span></td>
     <td><ol>
-    <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li>A lista <strong>Usuários disponíveis</strong> tem todos os usuários do Finance and Operations. Selecione os usuários aos quais o documento será escalonado e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
+    <li><span data-ttu-id="4852a-284">Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</span><span class="sxs-lookup"><span data-stu-id="4852a-284">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="4852a-285">A lista <strong>Usuários disponíveis</strong> tem todos os usuários do Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="4852a-285">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="4852a-286">Selecione os usuários aos quais o documento será escalonado e mova-os para a lista <strong>Usuários selecionados</strong>.</span><span class="sxs-lookup"><span data-stu-id="4852a-286">Select the users to escalate the document to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
-4.  Na guia **Limite de tempo**, no campo **Duração**, especifique quanto tempo o usuário tem para executar uma ação nos documentos que atingem a etapa de aprovação ou responder a eles. Selecione uma das seguintes opções:
-    -   **Horas** – Insira o número de horas que o usuário tem para responder. Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.
-    -   **Dias** – Insira o número de dias que o usuário tem para responder. Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.
-    -   **Semanas** – Insira o número de semanas que o usuário tem para responder.
-    -   **Meses** – Selecione até que dia e semana o usuário deve responder. Por exemplo, talvez você queira que o usuário responda até sexta-feira da terceira semana do mês.
-    -   **Anos** – Selecione até que dia, semana e mês o usuário deve responder. Por exemplo, talvez você queira que o usuário responda até sexta-feira da terceira semana de dezembro.
+4.  <span data-ttu-id="4852a-287">Na guia **Limite de tempo**, no campo **Duração**, especifique quanto tempo o usuário tem para executar uma ação nos documentos que atingem a etapa de aprovação ou responder a eles.</span><span class="sxs-lookup"><span data-stu-id="4852a-287">On the **Time limit** tab, in the **Duration** field, specify how much time the user has to take action on, or respond to, documents.</span></span> <span data-ttu-id="4852a-288">Selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="4852a-288">Select one of the following options:</span></span>
+    -   <span data-ttu-id="4852a-289">**Horas** – Insira o número de horas que o usuário tem para responder.</span><span class="sxs-lookup"><span data-stu-id="4852a-289">**Hours** – Enter the number of hours that the user has to respond.</span></span> <span data-ttu-id="4852a-290">Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.</span><span class="sxs-lookup"><span data-stu-id="4852a-290">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="4852a-291">**Dias** – Insira o número de dias que o usuário tem para responder.</span><span class="sxs-lookup"><span data-stu-id="4852a-291">**Days** – Enter the number of days that the user has to respond.</span></span> <span data-ttu-id="4852a-292">Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.</span><span class="sxs-lookup"><span data-stu-id="4852a-292">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    -   <span data-ttu-id="4852a-293">**Semanas** – Insira o número de semanas que o usuário tem para responder.</span><span class="sxs-lookup"><span data-stu-id="4852a-293">**Weeks** – Enter the number of weeks that the user has to respond.</span></span>
+    -   <span data-ttu-id="4852a-294">**Meses** – Selecione até que dia e semana o usuário deve responder.</span><span class="sxs-lookup"><span data-stu-id="4852a-294">**Months** – Select the day and week that the user must respond by.</span></span> <span data-ttu-id="4852a-295">Por exemplo, talvez você queira que o usuário responda até sexta-feira da terceira semana do mês.</span><span class="sxs-lookup"><span data-stu-id="4852a-295">For example, you might want the user to respond by Friday of the third week of the month.</span></span>
+    -   <span data-ttu-id="4852a-296">**Anos** – Selecione até que dia, semana e mês o usuário deve responder.</span><span class="sxs-lookup"><span data-stu-id="4852a-296">**Years** – Select the day, week, and month that the user must respond by.</span></span> <span data-ttu-id="4852a-297">Por exemplo, talvez você queira que o usuário responda até sexta-feira da terceira semana de dezembro.</span><span class="sxs-lookup"><span data-stu-id="4852a-297">For example, you might want the user to respond by Friday of the third week of December.</span></span>
 
-5.  Repita as etapas de 3 a 4 para cada usuário que deve ser adicionado ao caminho de escalonamento. Você pode alterar a ordem dos usuários.
-6.  Se os usuários no caminho de escalonamento não responderem no tempo alocado, o sistema executará uma ação no documento automaticamente. Para especificar a ação que o sistema executará, selecione a linha **Ação** e, na guia **Encerrar ação**, selecione uma ação.
+5.  <span data-ttu-id="4852a-298">Repita as etapas de 3 a 4 para cada usuário que deve ser adicionado ao caminho de escalonamento.</span><span class="sxs-lookup"><span data-stu-id="4852a-298">Repeat steps 3 through 4 for each user that should be added to the escalation path.</span></span> <span data-ttu-id="4852a-299">Você pode alterar a ordem dos usuários.</span><span class="sxs-lookup"><span data-stu-id="4852a-299">You can change the order of the users.</span></span>
+6.  <span data-ttu-id="4852a-300">Se os usuários no caminho de escalonamento não responderem no tempo alocado, o sistema executará uma ação no documento automaticamente.</span><span class="sxs-lookup"><span data-stu-id="4852a-300">If the users in the escalation path don't respond in the allotted time, the system automatically take action on the document.</span></span> <span data-ttu-id="4852a-301">Para especificar a ação que o sistema executará, selecione a linha **Ação** e, na guia **Encerrar ação**, selecione uma ação.</span><span class="sxs-lookup"><span data-stu-id="4852a-301">To specify the action that the system takes, select the **Action** row, and then, on the **End action** tab, select an action.</span></span>
 
 
 

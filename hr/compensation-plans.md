@@ -19,121 +19,121 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3892bfab6aecd8db388d5308b36500eee70cb423
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 5a24ccf124d1f3a078fe98b90301597f70bc41c4
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="compensation-plans"></a>Planos de remuneração
+# <a name="compensation-plans"></a><span data-ttu-id="5846d-103">Planos de remuneração</span><span class="sxs-lookup"><span data-stu-id="5846d-103">Compensation plans</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Os gerentes de remuneração e de benefícios que podem usar o gerenciamento de remuneração para manter e processar planos de compensação fixos e variáveis para os funcionários da organização.
+<span data-ttu-id="5846d-104">Os gerentes de remuneração e de benefícios que podem usar o gerenciamento de remuneração para manter e processar planos de compensação fixos e variáveis para os funcionários da organização.</span><span class="sxs-lookup"><span data-stu-id="5846d-104">Compensation and Benefits Managers can use Compensation management to maintain and process fixed and variable compensation plans for the organization's employees.</span></span>
 
-### <a name="introduction"></a>Introdução
+### <a name="introduction"></a><span data-ttu-id="5846d-105">Introdução</span><span class="sxs-lookup"><span data-stu-id="5846d-105">Introduction</span></span>
 
-O gerenciamento de remuneração é usado para controlar o pagamento do salário base e de prêmios. Os aumentos no salário base fixo e nos prêmios de um funcionário são controlados por meio de planos de remuneração fixos. O pagamento de incentivos, como pagamentos de bônus, prêmios por desempenho, opções de ação e concessões, além de prêmios únicos, são controlados por meio de planos de remuneração variável. 
+<span data-ttu-id="5846d-106">O gerenciamento de remuneração é usado para controlar o pagamento do salário base e de prêmios.</span><span class="sxs-lookup"><span data-stu-id="5846d-106">Compensation management is used to control the delivery of base pay and awards.</span></span> <span data-ttu-id="5846d-107">Os aumentos no salário base fixo e nos prêmios de um funcionário são controlados por meio de planos de remuneração fixos.</span><span class="sxs-lookup"><span data-stu-id="5846d-107">An employee's fixed base pay and merit increases are controlled through fixed compensation plans.</span></span> <span data-ttu-id="5846d-108">O pagamento de incentivos, como pagamentos de bônus, prêmios por desempenho, opções de ação e concessões, além de prêmios únicos, são controlados por meio de planos de remuneração variável.</span><span class="sxs-lookup"><span data-stu-id="5846d-108">The payment of incentive pay, such as bonus payments, performance awards, stock options, and grants, and also one-time awards, are controlled through variable compensation plans.</span></span> 
 
-Os funcionários podem estar inscritos em um ou mais planos de ambos os tipos. Um funcionário deve atender aos requisitos a seguir para serem qualificados para a inscrição em um plano de remuneração:
--   O funcionário deve ter uma atribuição de posição ativa.
--   O funcionário deve atender aos critérios definidos pelas regras de qualificação para um plano de remuneração.
+<span data-ttu-id="5846d-109">Os funcionários podem estar inscritos em um ou mais planos de ambos os tipos.</span><span class="sxs-lookup"><span data-stu-id="5846d-109">Employees can be enrolled in one or more plans of both types.</span></span> <span data-ttu-id="5846d-110">Um funcionário deve atender aos requisitos a seguir para serem qualificados para a inscrição em um plano de remuneração:</span><span class="sxs-lookup"><span data-stu-id="5846d-110">An employee must meet the following requirements in order to be eligible for enrollment in a compensation plan:</span></span>
+-   <span data-ttu-id="5846d-111">O funcionário deve ter uma atribuição de posição ativa.</span><span class="sxs-lookup"><span data-stu-id="5846d-111">The employee must have an active position assignment.</span></span>
+-   <span data-ttu-id="5846d-112">O funcionário deve atender aos critérios definidos pelas regras de qualificação para um plano de remuneração.</span><span class="sxs-lookup"><span data-stu-id="5846d-112">The employee must meet the criteria that are defined by eligibility rules for a compensation plan.</span></span>
 
-## <a name="compensation-setup"></a>Configuração da remuneração
-A tabela a seguir lista os componentes do processo de remuneração que podem integrais ao configurar os planos de remuneração de sua empresa.
+## <a name="compensation-setup"></a><span data-ttu-id="5846d-113">Configuração da remuneração</span><span class="sxs-lookup"><span data-stu-id="5846d-113">Compensation setup</span></span>
+<span data-ttu-id="5846d-114">A tabela a seguir lista os componentes do processo de remuneração que podem integrais ao configurar os planos de remuneração de sua empresa.</span><span class="sxs-lookup"><span data-stu-id="5846d-114">The following table lists components of the compensation process that can be integral in setting up your company's compensation plans.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th>Componente</th>
-<th>Mais informações...</th>
+<th><span data-ttu-id="5846d-115">Componente</span><span class="sxs-lookup"><span data-stu-id="5846d-115">Component</span></span></th>
+<th><span data-ttu-id="5846d-116">Mais informações...</span><span class="sxs-lookup"><span data-stu-id="5846d-116">More information…</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Ações de remuneração fixa</td>
-<td>As ações de remuneração fixa têm duas finalidades:
+<td><span data-ttu-id="5846d-117">Ações de remuneração fixa</span><span class="sxs-lookup"><span data-stu-id="5846d-117">Fixed compensation actions</span></span></td>
+<td><span data-ttu-id="5846d-118">As ações de remuneração fixa têm duas finalidades:</span><span class="sxs-lookup"><span data-stu-id="5846d-118">Fixed compensation actions accomplish two purposes:</span></span>
 <ul>
-<li>As ações podem especificar o tipo de informação que deve ser registrada quando a remuneração de um funcionário é alterada. Por exemplo, você pode exigir que o motivo para uma alteração, como uma promoção ou um rebaixamento, seja registrado.</li>
-<li>Ações que podem garantir que o cálculo seja aplicado quando os planos de remuneração fixa são processados.  Por exemplo, as ações do tipo Capital próprio irão comparar o pagamento dos funcionários com o ponto de referência mínimo para o nível do funcionário, e garantirão que o funcionário esteja recebendo pelo menos o mínimo.</li>
+<li><span data-ttu-id="5846d-119">As ações podem especificar o tipo de informação que deve ser registrada quando a remuneração de um funcionário é alterada.</span><span class="sxs-lookup"><span data-stu-id="5846d-119">Actions can specify the kind of information that must be recorded when an employee’s compensation changes.</span></span> <span data-ttu-id="5846d-120">Por exemplo, você pode exigir que o motivo para uma alteração, como uma promoção ou um rebaixamento, seja registrado.</span><span class="sxs-lookup"><span data-stu-id="5846d-120">For example, you can require that the reason a change, such as a promotion or a demotion be recorded.</span></span></li>
+<li><span data-ttu-id="5846d-121">Ações que podem garantir que o cálculo seja aplicado quando os planos de remuneração fixa são processados.</span><span class="sxs-lookup"><span data-stu-id="5846d-121">Actions can ensure that a calculation is applied when fixed compensation plans are processed.</span></span>  <span data-ttu-id="5846d-122">Por exemplo, as ações do tipo Capital próprio irão comparar o pagamento dos funcionários com o ponto de referência mínimo para o nível do funcionário, e garantirão que o funcionário esteja recebendo pelo menos o mínimo.</span><span class="sxs-lookup"><span data-stu-id="5846d-122">For example, actions of type Equity will compare the employees pay to the minimum reference point for the level on the employee's and ensure the employee is getting paid at least the minimum.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>Níveis</td>
-<td>Os níveis são associados ao trabalho e às posições relacionadas a uma referência de trabalho. Você pode criar níveis distintos para os três tipos de planos de remuneração: pontuação, faixa e etapa.</td>
+<td><span data-ttu-id="5846d-123">Níveis</span><span class="sxs-lookup"><span data-stu-id="5846d-123">Levels</span></span></td>
+<td><span data-ttu-id="5846d-124">Os níveis são associados ao trabalho e às posições relacionadas a uma referência de trabalho.</span><span class="sxs-lookup"><span data-stu-id="5846d-124">Levels are associated with jobs and any positions that are related to a job reference.</span></span> <span data-ttu-id="5846d-125">Você pode criar níveis distintos para os três tipos de planos de remuneração: pontuação, faixa e etapa.</span><span class="sxs-lookup"><span data-stu-id="5846d-125">You can create discrete levels for the three types of compensation plans: Grade, Band, and Step.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Matriz de utilização da faixa salarial</td>
-<td>A matriz de utilização de faixa salarial ajuda você a fazer a transição de funcionários para o ponto de controle de suas funções. Você também pode usar a utilização da faixa salarial para controlar o capital próprio da taxa de pagamento da empresa sem considerar o desempenho individual de um funcionário ou o desempenho geral da empresa. Por exemplo, os funcionários que recebem salários mais baixos da faixa obtêm percentuais maiores de aumento que os funcionários que recebem salários maiores. Assim, você pode compensar as diferenças de capital próprio sistematicamente. A utilização da faixa salarial é calculada da seguinte maneira: (Taxa de pagamento fixo - mínimo da faixa) ÷ (máximo da faixa - mínimo da faixa).</td>
+<td><span data-ttu-id="5846d-126">Matriz de utilização da faixa salarial</span><span class="sxs-lookup"><span data-stu-id="5846d-126">Range utilization matrix</span></span></td>
+<td><span data-ttu-id="5846d-127">A matriz de utilização de faixa salarial ajuda você a fazer a transição de funcionários para o ponto de controle de suas funções.</span><span class="sxs-lookup"><span data-stu-id="5846d-127">A range utilization matrix helps you transition employees to the control point for their jobs.</span></span> <span data-ttu-id="5846d-128">Você também pode usar a utilização da faixa salarial para controlar o capital próprio da taxa de pagamento da empresa sem considerar o desempenho individual de um funcionário ou o desempenho geral da empresa.</span><span class="sxs-lookup"><span data-stu-id="5846d-128">You can also use range utilization to control pay rate equity in the company without regard to an individual employee's performance or the overall performance of the company.</span></span> <span data-ttu-id="5846d-129">Por exemplo, os funcionários que recebem salários mais baixos da faixa obtêm percentuais maiores de aumento que os funcionários que recebem salários maiores.</span><span class="sxs-lookup"><span data-stu-id="5846d-129">For example, employees who are paid lower in their range get higher percentage increases than employees who are paid higher in the range.</span></span> <span data-ttu-id="5846d-130">Assim, você pode compensar as diferenças de capital próprio sistematicamente.</span><span class="sxs-lookup"><span data-stu-id="5846d-130">In this manner, you can systematically offset equity differences.</span></span> <span data-ttu-id="5846d-131">A utilização da faixa salarial é calculada da seguinte maneira: (Taxa de pagamento fixo - mínimo da faixa) ÷ (máximo da faixa - mínimo da faixa).</span><span class="sxs-lookup"><span data-stu-id="5846d-131">The range utilization is calculated as follows: (Fixed Pay Rate - Range Minimum) ÷ (Range Maximum - Range Minimum).</span></span></td>
 </tr>
 <tr class="even">
-<td>Configurações de pontos de referência</td>
-<td>A configuração do ponto de referência inclui um conjunto de pontos de referência que representam faixas de uma matriz. Cada faixa pode ser associada a uma taxa de pagamento. Por exemplo, os planos de classificação normalmente terão pontos de referência de mínimo, médio e máximo.</td>
+<td><span data-ttu-id="5846d-132">Configurações de pontos de referência</span><span class="sxs-lookup"><span data-stu-id="5846d-132">Reference point setups</span></span></td>
+<td><span data-ttu-id="5846d-133">A configuração do ponto de referência inclui um conjunto de pontos de referência que representam faixas de uma matriz.</span><span class="sxs-lookup"><span data-stu-id="5846d-133">A reference point setup includes a set of reference points that represent ranges in a matrix.</span></span> <span data-ttu-id="5846d-134">Cada faixa pode ser associada a uma taxa de pagamento.</span><span class="sxs-lookup"><span data-stu-id="5846d-134">Each range can be associated with a pay rate.</span></span> <span data-ttu-id="5846d-135">Por exemplo, os planos de classificação normalmente terão pontos de referência de mínimo, médio e máximo.</span><span class="sxs-lookup"><span data-stu-id="5846d-135">For example, grade plans will often have reference points of Minimum, Midpoint, and Maximum.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Matriz de remuneração</td>
-<td>Uma matriz de remuneração consiste em um conjunto de pontos de referência e níveis usados para criar uma estrutura de remuneração.</td>
+<td><span data-ttu-id="5846d-136">Matriz de remuneração</span><span class="sxs-lookup"><span data-stu-id="5846d-136">Compensation matrix</span></span></td>
+<td><span data-ttu-id="5846d-137">Uma matriz de remuneração consiste em um conjunto de pontos de referência e níveis usados para criar uma estrutura de remuneração.</span><span class="sxs-lookup"><span data-stu-id="5846d-137">A compensation matrix is the set of reference points and levels that you use to create a compensation structure.</span></span></td>
 </tr>
 <tr class="even">
-<td>Estrutura de remuneração</td>
-<td>Uma estrutura de remuneração é uma matriz de remuneração que tem taxas de pagamento associadas aos pontos de referência para cada nível.</td>
+<td><span data-ttu-id="5846d-138">Estrutura de remuneração</span><span class="sxs-lookup"><span data-stu-id="5846d-138">Compensation structure</span></span></td>
+<td><span data-ttu-id="5846d-139">Uma estrutura de remuneração é uma matriz de remuneração que tem taxas de pagamento associadas aos pontos de referência para cada nível.</span><span class="sxs-lookup"><span data-stu-id="5846d-139">A compensation structure is a compensation matrix that has pay rates associated with the reference points for each level.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Regras de qualificação</td>
-<td>As regras de qualificação são usadas para identificar funcionários em tarefas específicas, funções, tipos de trabalho, departamentos, associações sindicais ou em regiões de remuneração cobertas por planos de remuneração específicos. Você deve criar regras de qualificação para planos de remuneração variável e fixa para inserir os funcionários no plano. Depois de ter especificado as regras de qualificação para um plano de remuneração, você pode definir os níveis que devem ser aplicados às funções cobertas pelo plano.</td>
+<td><span data-ttu-id="5846d-140">Regras de qualificação</span><span class="sxs-lookup"><span data-stu-id="5846d-140">Eligibility rules</span></span></td>
+<td><span data-ttu-id="5846d-141">As regras de qualificação são usadas para identificar funcionários em tarefas específicas, funções, tipos de trabalho, departamentos, associações sindicais ou em regiões de remuneração cobertas por planos de remuneração específicos.</span><span class="sxs-lookup"><span data-stu-id="5846d-141">Eligibility rules are used to identify employees in specific jobs, job functions, job types, departments, labor unions, or compensation regions that are covered by specific compensation plans.</span></span> <span data-ttu-id="5846d-142">Você deve criar regras de qualificação para planos de remuneração variável e fixa para inserir os funcionários no plano.</span><span class="sxs-lookup"><span data-stu-id="5846d-142">You must create eligibility rules for both variable and fixed compensation plans in order to enroll employees in the plan.</span></span> <span data-ttu-id="5846d-143">Depois de ter especificado as regras de qualificação para um plano de remuneração, você pode definir os níveis que devem ser aplicados às funções cobertas pelo plano.</span><span class="sxs-lookup"><span data-stu-id="5846d-143">After eligibility rules are specified for a compensation plan, you can define the levels that should apply to the jobs that are covered by the plan.</span></span></td>
 </tr>
 <tr class="even">
-<td>Frequências de pagamento</td>
-<td>As frequências de pagamento são usadas para definir o período de tempo durante o qual a remuneração é especificada.  Por exemplo, a ajuda da frequência de pagamento ajuda você a compreender se o valor de remuneração é especificado como um salário anual versos taxa de pagamento por hora. As frequências de pagamento também são usadas para configurar fatores de conversão para converter valores de remuneração de frequências de pagamento por hora, mensal, semanal, quinzenal para uma frequência de pagamento anual.</td>
+<td><span data-ttu-id="5846d-144">Frequências de pagamento</span><span class="sxs-lookup"><span data-stu-id="5846d-144">Pay frequencies</span></span></td>
+<td><span data-ttu-id="5846d-145">As frequências de pagamento são usadas para definir o período de tempo durante o qual a remuneração é especificada.</span><span class="sxs-lookup"><span data-stu-id="5846d-145">Pay frequencies are used to define the time period for which the compensation is specified.</span></span>  <span data-ttu-id="5846d-146">Por exemplo, a ajuda da frequência de pagamento ajuda você a compreender se o valor de remuneração é especificado como um salário anual versos taxa de pagamento por hora.</span><span class="sxs-lookup"><span data-stu-id="5846d-146">For example, the pay frequency helps you understand if the compensation amount is specified as an annual salary versus an hourly pay rate.</span></span> <span data-ttu-id="5846d-147">As frequências de pagamento também são usadas para configurar fatores de conversão para converter valores de remuneração de frequências de pagamento por hora, mensal, semanal, quinzenal para uma frequência de pagamento anual.</span><span class="sxs-lookup"><span data-stu-id="5846d-147">Pay frequencies are also used to set up conversion factors to convert compensation amounts from monthly, weekly, biweekly and hourly pay frequencies to an annual pay frequency.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Regiões de remuneração</td>
-<td>As regiões de remuneração são usadas para especificar a remuneração do funcionário com base na localização do local de trabalho.</td>
+<td><span data-ttu-id="5846d-148">Regiões de remuneração</span><span class="sxs-lookup"><span data-stu-id="5846d-148">Compensation regions</span></span></td>
+<td><span data-ttu-id="5846d-149">As regiões de remuneração são usadas para especificar a remuneração do funcionário com base na localização do local de trabalho.</span><span class="sxs-lookup"><span data-stu-id="5846d-149">Compensation regions are used to specify employee compensation based on the location of the workplace.</span></span></td>
 </tr>
 <tr class="even">
-<td>Ponto de controle</td>
-<td>O ponto de controle define o que você considera ser a taxa de pagamento ideal para todos os funcionários em um nível de remuneração. Para estruturas de plano graduais, os pontos de controle são, em geral, o ponto intermediário das faixas. As estruturas de faixa raramente usam pontos de controle. Você pode especificar o ponto de controle para um plano de remuneração fixa no formulário Planos de remuneração fixa.</td>
+<td><span data-ttu-id="5846d-150">Ponto de controle</span><span class="sxs-lookup"><span data-stu-id="5846d-150">Control point</span></span></td>
+<td><span data-ttu-id="5846d-151">O ponto de controle define o que você considera ser a taxa de pagamento ideal para todos os funcionários em um nível de remuneração.</span><span class="sxs-lookup"><span data-stu-id="5846d-151">The control point defines what you consider to be the ideal pay rate for all employees at a compensation level.</span></span> <span data-ttu-id="5846d-152">Para estruturas de plano graduais, os pontos de controle são, em geral, o ponto intermediário das faixas.</span><span class="sxs-lookup"><span data-stu-id="5846d-152">For grade plan structures, control points are typically the midpoint of the ranges.</span></span> <span data-ttu-id="5846d-153">As estruturas de faixa raramente usam pontos de controle.</span><span class="sxs-lookup"><span data-stu-id="5846d-153">Band structures rarely use control points.</span></span> <span data-ttu-id="5846d-154">Você pode especificar o ponto de controle para um plano de remuneração fixa no formulário Planos de remuneração fixa.</span><span class="sxs-lookup"><span data-stu-id="5846d-154">You can specify the control point for a fixed compensation plan in the Fixed compensation plans form.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Funções de trabalho</td>
-<td>As funções de trabalho são usadas para classificar e filtrar os planos de remuneração para trabalhos específicos.</td>
+<td><span data-ttu-id="5846d-155">Funções de trabalho</span><span class="sxs-lookup"><span data-stu-id="5846d-155">Job functions</span></span></td>
+<td><span data-ttu-id="5846d-156">As funções de trabalho são usadas para classificar e filtrar os planos de remuneração para trabalhos específicos.</span><span class="sxs-lookup"><span data-stu-id="5846d-156">Job functions are used to classify and filter compensation plans to specific jobs.</span></span></td>
 </tr>
 <tr class="even">
-<td>Tipos de trabalho</td>
-<td>Os tipos de trabalho são usados para classificar e filtrar os planos de remuneração para trabalhos específicos.</td>
+<td><span data-ttu-id="5846d-157">Tipos de trabalho</span><span class="sxs-lookup"><span data-stu-id="5846d-157">Job types</span></span></td>
+<td><span data-ttu-id="5846d-158">Os tipos de trabalho são usados para classificar e filtrar os planos de remuneração para trabalhos específicos.</span><span class="sxs-lookup"><span data-stu-id="5846d-158">Job types are used to classify and filter compensation plans to specific jobs.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Tipos de remuneração variável</td>
-<td>Tipos de remuneração variáveis, como ações ou bônus em dinheiro, são aplicados em planos de remuneração variáveis.</td>
+<td><span data-ttu-id="5846d-159">Tipos de remuneração variável</span><span class="sxs-lookup"><span data-stu-id="5846d-159">Variable compensation types</span></span></td>
+<td><span data-ttu-id="5846d-160">Tipos de remuneração variáveis, como ações ou bônus em dinheiro, são aplicados em planos de remuneração variáveis.</span><span class="sxs-lookup"><span data-stu-id="5846d-160">Variable compensation types, such as stock awards or cash award bonuses, are set up in variable compensation plans.</span></span></td>
 </tr>
 <tr class="even">
-<td>Grades de remuneração</td>
-<td>As grades de remuneração contêm a estrutura de remuneração.  As grades de remuneração podem ser usadas por um ou mais planos de remuneração.</td>
+<td><span data-ttu-id="5846d-161">Grades de remuneração</span><span class="sxs-lookup"><span data-stu-id="5846d-161">Compensation grids</span></span></td>
+<td><span data-ttu-id="5846d-162">As grades de remuneração contêm a estrutura de remuneração.</span><span class="sxs-lookup"><span data-stu-id="5846d-162">Compensation grids contain the compensation structure.</span></span>  <span data-ttu-id="5846d-163">As grades de remuneração podem ser usadas por um ou mais planos de remuneração.</span><span class="sxs-lookup"><span data-stu-id="5846d-163">Compensation grids can be used by one or more compensation plans.</span></span></td>
 </tr>
 <tr class="odd">
-<td>Planos de desempenho</td>
-<td>Os planos de desempenho são usados para associar o desempenho a uma matriz de alocação, para que você possa usar o plano em uma estratégia de pagamento por desempenho.</td>
+<td><span data-ttu-id="5846d-164">Planos de desempenho</span><span class="sxs-lookup"><span data-stu-id="5846d-164">Performance plans</span></span></td>
+<td><span data-ttu-id="5846d-165">Os planos de desempenho são usados para associar o desempenho a uma matriz de alocação, para que você possa usar o plano em uma estratégia de pagamento por desempenho.</span><span class="sxs-lookup"><span data-stu-id="5846d-165">Performance plans are used to associate performance with an allocation matrix, so that you can use the plan in a pay-for-performance strategy.</span></span></td>
 </tr>
 <tr class="even">
-<td>Avaliações de desempenho</td>
-<td>As avaliações de desempenho são usadas em planos de desempenho para determinar o valor de um prêmio por mérito ou por desempenho.</td>
+<td><span data-ttu-id="5846d-166">Avaliações de desempenho</span><span class="sxs-lookup"><span data-stu-id="5846d-166">Performance ratings</span></span></td>
+<td><span data-ttu-id="5846d-167">As avaliações de desempenho são usadas em planos de desempenho para determinar o valor de um prêmio por mérito ou por desempenho.</span><span class="sxs-lookup"><span data-stu-id="5846d-167">Performance ratings are used in performance plans to determine the amount of a merit award or performance award.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="process-events"></a>Eventos de processo
-Um evento de processo calcula as informações de remuneração de um determinado período para todos os funcionários que estão inscritos em um ou mais planos de remuneração fixa ou variável. Você pode executar um evento de processo repetidamente para testar ou atualizar os resultados de remuneração calculados.
+## <a name="process-events"></a><span data-ttu-id="5846d-168">Eventos de processo</span><span class="sxs-lookup"><span data-stu-id="5846d-168">Process events</span></span>
+<span data-ttu-id="5846d-169">Um evento de processo calcula as informações de remuneração de um determinado período para todos os funcionários que estão inscritos em um ou mais planos de remuneração fixa ou variável.</span><span class="sxs-lookup"><span data-stu-id="5846d-169">A process event calculates compensation information for a specific period for all employees who are enrolled in one or more fixed or variable compensation plans.</span></span> <span data-ttu-id="5846d-170">Você pode executar um evento de processo repetidamente para testar ou atualizar os resultados de remuneração calculados.</span><span class="sxs-lookup"><span data-stu-id="5846d-170">You can run a process event repeatedly to test or update calculated compensation results.</span></span>
 
-<a name="compensation-events"></a>Eventos de remuneração
+<a name="compensation-events"></a><span data-ttu-id="5846d-171">Eventos de remuneração</span><span class="sxs-lookup"><span data-stu-id="5846d-171">Compensation events</span></span>
 -------------------
 
-Toda vez que um processo de evento é executado, um evento de remuneração é criado.  Quando os cálculos estão corretos, você pode carregar o evento de remuneração para atualizar os registros de remuneração para os funcionários afetados pelo evento de processo.  Quando os cálculos estão corretos, você pode carregar o evento de remuneração para atualizar os registros de remuneração para os funcionários afetados pelo evento de processo.
+<span data-ttu-id="5846d-172">Toda vez que um processo de evento é executado, um evento de remuneração é criado.</span><span class="sxs-lookup"><span data-stu-id="5846d-172">Each time a process event is run, a compensation event is created.</span></span>  <span data-ttu-id="5846d-173">Quando os cálculos estão corretos, você pode carregar o evento de remuneração para atualizar os registros de remuneração para os funcionários afetados pelo evento de processo.</span><span class="sxs-lookup"><span data-stu-id="5846d-173">Compensation events contain the results of the compensation process for each employee included in that process event.</span></span>  <span data-ttu-id="5846d-174">Quando os cálculos estão corretos, você pode carregar o evento de remuneração para atualizar os registros de remuneração para os funcionários afetados pelo evento de processo.</span><span class="sxs-lookup"><span data-stu-id="5846d-174">When the calculations are correct, you can load the compensation event to update the compensation records for the employees who are affected by the process event.</span></span>
 
-## <a name="recommendations"></a>Recomendações
-Depois de executar um evento de processo, você pode recomendar ajustes no aumento de um funcionário por mérito ou no valor do prêmio, com base nas diretrizes calculadas do evento de processo. Para fazer recomendações para funcionários, você deve habilitar as recomendações quando configurar planos de remuneração ou quando configurar o evento de processo.
+## <a name="recommendations"></a><span data-ttu-id="5846d-175">Recomendações</span><span class="sxs-lookup"><span data-stu-id="5846d-175">Recommendations</span></span>
+<span data-ttu-id="5846d-176">Depois de executar um evento de processo, você pode recomendar ajustes no aumento de um funcionário por mérito ou no valor do prêmio, com base nas diretrizes calculadas do evento de processo.</span><span class="sxs-lookup"><span data-stu-id="5846d-176">After you run a process event, you can recommend adjustments to an employee’s merit increase or award amount, based on the calculated guidelines of the process event.</span></span> <span data-ttu-id="5846d-177">Para fazer recomendações para funcionários, você deve habilitar as recomendações quando configurar planos de remuneração ou quando configurar o evento de processo.</span><span class="sxs-lookup"><span data-stu-id="5846d-177">To make recommendations for employees, you must enable recommendations when you set up compensation plans or when you set up the process event.</span></span>
 
 
 

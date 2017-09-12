@@ -16,36 +16,36 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ac162fe6bc5354e688b63f726acb4b7c802857b2
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0f711d2e18a13ab972e548d3304652dee3f2e406
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a>Alterar convenções de depreciação para ativos fixos múltiplos
+# <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a><span data-ttu-id="77384-103">Alterar convenções de depreciação para ativos fixos múltiplos</span><span class="sxs-lookup"><span data-stu-id="77384-103">Change depreciation conventions for multiple fixed assets</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Esta tarefa atualiza a convenção de depreciação de um grupo de ativo fixo específico. Este guia de tarefa usa a empresa demo USMF.
+<span data-ttu-id="77384-104">Esta tarefa atualiza a convenção de depreciação de um grupo de ativo fixo específico.</span><span class="sxs-lookup"><span data-stu-id="77384-104">This task updates the depreciation convention for a specified fixed asset group.</span></span> <span data-ttu-id="77384-105">Este guia de tarefa usa a empresa demo USMF.</span><span class="sxs-lookup"><span data-stu-id="77384-105">This task guide uses the USMF demo company.</span></span>
 
-1. Vá para Ativos fixos > Tarefas periódicas > Atualização em massa
-2. No campo Livro de depreciação, clique no botão suspenso para abrir a pesquisa.
-3. Na lista, clique no link na linha selecionada.
-4. No campo Posicionado no início do serviço, insira uma data.
-5. No campo Posicionado no fim do serviço, insira uma data.
-    * Serão atualizados apenas os ativos do registro de depreciações selecionado que tiverem sido disponibilizados entre essas datas.  
-6. No campo Convenção de depreciação atual, selecione uma opção.
-    * Apenas os ativos com a convenção de depreciação atual serão atualizados.  
-7. No campo Convenção de nova depreciação, selecione uma opção.
-    * Verifique o relatório que imprimirá o destino desejado.  
-8. Expanda os Registros para incluir a seção.
-9. Clique em Filtro.
-10. Na lista, selecione o grupo de Ativo fixo.
-11. No campo Critérios, clique no botão suspenso para abrir a pesquisa.
-12. Selecione o grupo de ativos fixos desejado.
-13. Na lista, clique no link na linha selecionada.
-14. Clique em OK.
-15. Clique em OK.
-    *  Os resultados do processo são mostrados no relatório de atualização em massa.     
+1. <span data-ttu-id="77384-106">Vá para Ativos fixos > Tarefas periódicas > Atualização em massa</span><span class="sxs-lookup"><span data-stu-id="77384-106">Go to Fixed assets > Periodic tasks > Mass update</span></span>
+2. <span data-ttu-id="77384-107">No campo Livro de depreciação, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="77384-107">In the Depreciation book field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="77384-108">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="77384-108">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="77384-109">No campo Posicionado no início do serviço, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="77384-109">In the Placed in service start field, enter a date.</span></span>
+5. <span data-ttu-id="77384-110">No campo Posicionado no fim do serviço, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="77384-110">In the Placed in service end field, enter a date.</span></span>
+    * <span data-ttu-id="77384-111">Serão atualizados apenas os ativos do registro de depreciações selecionado que tiverem sido disponibilizados entre essas datas.</span><span class="sxs-lookup"><span data-stu-id="77384-111">Only assets that are a part of the select depreciation book and that have been placed in service between these dates will be updated.</span></span>  
+6. <span data-ttu-id="77384-112">No campo Convenção de depreciação atual, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="77384-112">In the Current depreciation convention field, select an option.</span></span>
+    * <span data-ttu-id="77384-113">Apenas os ativos com a convenção de depreciação atual serão atualizados.</span><span class="sxs-lookup"><span data-stu-id="77384-113">Only assets that have the current depreciation convention will be updated.</span></span>  
+7. <span data-ttu-id="77384-114">No campo Convenção de nova depreciação, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="77384-114">In the New depreciation convention field, select an option.</span></span>
+    * <span data-ttu-id="77384-115">Verifique o relatório que imprimirá o destino desejado.</span><span class="sxs-lookup"><span data-stu-id="77384-115">Verify the report will print to the desired destination.</span></span>  
+8. <span data-ttu-id="77384-116">Expanda os Registros para incluir a seção.</span><span class="sxs-lookup"><span data-stu-id="77384-116">Expand the Records to include section.</span></span>
+9. <span data-ttu-id="77384-117">Clique em Filtro.</span><span class="sxs-lookup"><span data-stu-id="77384-117">Click Filter.</span></span>
+10. <span data-ttu-id="77384-118">Na lista, selecione o grupo de Ativo fixo.</span><span class="sxs-lookup"><span data-stu-id="77384-118">In the list, select the Fixed asset group.</span></span>
+11. <span data-ttu-id="77384-119">No campo Critérios, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="77384-119">In the Criteria field, click the drop-down button to open the lookup.</span></span>
+12. <span data-ttu-id="77384-120">Selecione o grupo de ativos fixos desejado.</span><span class="sxs-lookup"><span data-stu-id="77384-120">Select the desired Fixed asset group.</span></span>
+13. <span data-ttu-id="77384-121">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="77384-121">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="77384-122">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="77384-122">Click OK.</span></span>
+15. <span data-ttu-id="77384-123">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="77384-123">Click OK.</span></span>
+    *  <span data-ttu-id="77384-124">Os resultados do processo são mostrados no relatório de atualização em massa.</span><span class="sxs-lookup"><span data-stu-id="77384-124">Results of the process are shown on the Mass update report.</span></span>     
 
 

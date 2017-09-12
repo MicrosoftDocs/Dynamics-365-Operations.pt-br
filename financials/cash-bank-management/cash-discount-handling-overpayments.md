@@ -19,124 +19,124 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f5d75794146eada9b9f439d99ad272f5af8db53b
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 5604f806eed81c60dfcae7cb7b1a22bba25aa454
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="handling-cash-discounts-for-overpayments"></a>Manuseio de descontos à vista para pagamentos a maior
+# <a name="handling-cash-discounts-for-overpayments"></a><span data-ttu-id="fa7e8-103">Manuseio de descontos à vista para pagamentos a maior</span><span class="sxs-lookup"><span data-stu-id="fa7e8-103">Handling cash discounts for overpayments</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo fornece os cenários que mostram como um pagamento é manuseado quando o cliente leva um desconto à vista, mas também paga em excesso. 
+<span data-ttu-id="fa7e8-104">Este artigo fornece os cenários que mostram como um pagamento é manuseado quando o cliente leva um desconto à vista, mas também paga em excesso.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-104">This article provides scenarios that show how a payment is handled when the customer takes a cash discount but also overpays.</span></span> 
 
-Uma fatura será considerada liquidada quando o valor do pagamento for maior do que o valor da fatura menos o desconto à vista. Para especificar como uma diferença de desconto à vista viável é manuseada quando uma fatura é paga a maior, use os campos **Administração de descontos à vista** e **Pagamento máximo a maior/a menor** na página **Parâmetros de contas a receber**. No exemplo a seguir, o cliente pagou em excesso a fatura de 0,50.
+<span data-ttu-id="fa7e8-105">Uma fatura será considerada liquidada quando o valor do pagamento for maior do que o valor da fatura menos o desconto à vista.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-105">An invoice is considered overpaid when the payment amount is more than the invoice amount minus the cash discount.</span></span> <span data-ttu-id="fa7e8-106">Para especificar como uma diferença de desconto à vista viável é manuseada quando uma fatura é paga a maior, use os campos **Administração de descontos à vista** e **Pagamento máximo a maior/a menor** na página **Parâmetros de contas a receber**.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-106">To specify how an obtainable cash discount difference is handled when an invoice is overpaid, use the **Cash discount administration** and **Maximum overpayment or underpayment** fields on the **Accounts receivable parameters** page.</span></span> <span data-ttu-id="fa7e8-107">No exemplo a seguir, o cliente pagou em excesso a fatura de 0,50.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-107">In the following example, the customer has overpaid the invoice by 0.50.</span></span>
 
-| Total da fatura | Desconto à vista disponível | Valor a ser pago, o que inclui o desconto à vista | Valor que o cliente realmente paga |
+| <span data-ttu-id="fa7e8-108">Total da fatura</span><span class="sxs-lookup"><span data-stu-id="fa7e8-108">Invoice total</span></span> | <span data-ttu-id="fa7e8-109">Desconto à vista disponível</span><span class="sxs-lookup"><span data-stu-id="fa7e8-109">Cash discount available</span></span> | <span data-ttu-id="fa7e8-110">Valor a ser pago, o que inclui o desconto à vista</span><span class="sxs-lookup"><span data-stu-id="fa7e8-110">Amount to be paid, which includes the cash discount</span></span> | <span data-ttu-id="fa7e8-111">Valor que o cliente realmente paga</span><span class="sxs-lookup"><span data-stu-id="fa7e8-111">Amount the customer actually pays</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|-----------------------------------|
-| R$ 105,00        | R$ 10,50                   | R$ 94,50                                               | R$ 95,00                             |
+| <span data-ttu-id="fa7e8-112">R$ 105,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-112">105.00</span></span>        | <span data-ttu-id="fa7e8-113">R$ 10,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-113">10.50</span></span>                   | <span data-ttu-id="fa7e8-114">R$ 94,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-114">94.50</span></span>                                               | <span data-ttu-id="fa7e8-115">R$ 95,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-115">95.00</span></span>                             |
 
-## <a name="cash-discount-administration--specific"></a>Opção de administração do desconto à vista = Específico
-Quando **Específico** for selecionado no campo **Administração de descontos à vista** na página **Contas para transações automáticas**, o desconto à vista total será obtido. O valor do pagamento a maior é lançado em uma conta contábil da diferença de desconto à vista ou permanece um saldo da conta de cliente. O comportamento depende do fato de o valor do pagamento excedente estar entre 0,00 e o valor inserido no campo **Pagamento máximo a maior/a menor** ou se o valor do pagamento a maior for maior do que o valor de **Pagamento máximo a maior/a menor**.
+## <a name="cash-discount-administration--specific"></a><span data-ttu-id="fa7e8-116">Opção de administração do desconto à vista = Específico</span><span class="sxs-lookup"><span data-stu-id="fa7e8-116">Cash discount administration = Specific</span></span>
+<span data-ttu-id="fa7e8-117">Quando **Específico** for selecionado no campo **Administração de descontos à vista** na página **Contas para transações automáticas**, o desconto à vista total será obtido.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-117">When **Specific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the full cash discount is taken.</span></span> <span data-ttu-id="fa7e8-118">O valor do pagamento a maior é lançado em uma conta contábil da diferença de desconto à vista ou permanece um saldo da conta de cliente.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-118">The overpayment amount either is posted to a cash discount difference ledger account or remains a balance on the customer’s account.</span></span> <span data-ttu-id="fa7e8-119">O comportamento depende do fato de o valor do pagamento excedente estar entre 0,00 e o valor inserido no campo **Pagamento máximo a maior/a menor** ou se o valor do pagamento a maior for maior do que o valor de **Pagamento máximo a maior/a menor**.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-119">The behavior depends on whether the overpayment amount is between 0.00 and the amount that is entered in the **Maximum overpayment or underpayment** field, or whether the overpayment amount is more than the **Maximum overpayment or underpayment** amount.</span></span>
 
-### <a name="scenario-1"></a>Cenário 1
+### <a name="scenario-1"></a><span data-ttu-id="fa7e8-120">Cenário 1</span><span class="sxs-lookup"><span data-stu-id="fa7e8-120">Scenario 1</span></span>
 
-Neste cenário, o valor do pagamento a maior está entre 0,00 e o pagamento máximo a maior/a menor. Uma fatura de 105,00 é inserida e um desconto à vista ficará disponível se a fatura for paga em até sete dias.
+<span data-ttu-id="fa7e8-121">Neste cenário, o valor do pagamento a maior está entre 0,00 e o pagamento máximo a maior/a menor.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-121">In this scenario, the overpayment amount is between 0.00 and the maximum overpayment or underpayment.</span></span> <span data-ttu-id="fa7e8-122">Uma fatura de 105,00 é inserida e um desconto à vista ficará disponível se a fatura for paga em até sete dias.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-122">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Total da fatura | Desconto à vista disponível | Valor a ser pago, o que inclui o desconto à vista |
+| <span data-ttu-id="fa7e8-123">Total da fatura</span><span class="sxs-lookup"><span data-stu-id="fa7e8-123">Invoice total</span></span> | <span data-ttu-id="fa7e8-124">Desconto à vista disponível</span><span class="sxs-lookup"><span data-stu-id="fa7e8-124">Cash discount available</span></span> | <span data-ttu-id="fa7e8-125">Valor a ser pago, o que inclui o desconto à vista</span><span class="sxs-lookup"><span data-stu-id="fa7e8-125">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| R$ 105,00        | R$ 10,50                   | R$ 94,50                                               |
+| <span data-ttu-id="fa7e8-126">R$ 105,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-126">105.00</span></span>        | <span data-ttu-id="fa7e8-127">R$ 10,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-127">10.50</span></span>                   | <span data-ttu-id="fa7e8-128">R$ 94,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-128">94.50</span></span>                                               |
 
-O cliente envia um pagamento de 95,00 no período de desconto à vista. O pagamento é liquidado com a fatura de 105,00. Depois que a fatura e o pagamento forem liquidados, as transações a seguir serão criadas para o cliente em Contas a receber.
+<span data-ttu-id="fa7e8-129">O cliente envia um pagamento de 95,00 no período de desconto à vista.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-129">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="fa7e8-130">O pagamento é liquidado com a fatura de 105,00.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-130">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="fa7e8-131">Depois que a fatura e o pagamento forem liquidados, as transações a seguir serão criadas para o cliente em Contas a receber.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-131">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Transação   | Valor | Saldo |
+| <span data-ttu-id="fa7e8-132">Transação</span><span class="sxs-lookup"><span data-stu-id="fa7e8-132">Transaction</span></span>   | <span data-ttu-id="fa7e8-133">Valor</span><span class="sxs-lookup"><span data-stu-id="fa7e8-133">Amount</span></span> | <span data-ttu-id="fa7e8-134">Saldo</span><span class="sxs-lookup"><span data-stu-id="fa7e8-134">Balance</span></span> |
 |---------------|--------|---------|
-| Fatura       | R$ 105,00 | 0,00    |
-| Pagamento       | -95,00 | 0,00    |
-| Desconto à vista | -10,50 | 0,00    |
+| <span data-ttu-id="fa7e8-135">Fatura</span><span class="sxs-lookup"><span data-stu-id="fa7e8-135">Invoice</span></span>       | <span data-ttu-id="fa7e8-136">R$ 105,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-136">105.00</span></span> | <span data-ttu-id="fa7e8-137">0,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-137">0.00</span></span>    |
+| <span data-ttu-id="fa7e8-138">Pagamento</span><span class="sxs-lookup"><span data-stu-id="fa7e8-138">Payment</span></span>       | <span data-ttu-id="fa7e8-139">-95,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-139">-95.00</span></span> | <span data-ttu-id="fa7e8-140">0,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-140">0.00</span></span>    |
+| <span data-ttu-id="fa7e8-141">Desconto à vista</span><span class="sxs-lookup"><span data-stu-id="fa7e8-141">Cash discount</span></span> | <span data-ttu-id="fa7e8-142">-10,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-142">-10.50</span></span> | <span data-ttu-id="fa7e8-143">0,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-143">0.00</span></span>    |
 
-As seguintes entradas contábeis serão geradas para o pagamento e a liquidação. **Pagamento**
+<span data-ttu-id="fa7e8-144">As seguintes entradas contábeis serão geradas para o pagamento e a liquidação.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-144">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="fa7e8-145">**Pagamento**</span><span class="sxs-lookup"><span data-stu-id="fa7e8-145">**Payment**</span></span>
 
-| Conta             | Valor do débito | Valor de crédito |
+| <span data-ttu-id="fa7e8-146">Conta</span><span class="sxs-lookup"><span data-stu-id="fa7e8-146">Account</span></span>             | <span data-ttu-id="fa7e8-147">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="fa7e8-147">Debit amount</span></span> | <span data-ttu-id="fa7e8-148">Valor de crédito</span><span class="sxs-lookup"><span data-stu-id="fa7e8-148">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Pagamento à vista                | R$ 95,00        |               |
-| Contas a Receber |              | R$ 95,00         |
+| <span data-ttu-id="fa7e8-149">Pagamento à vista</span><span class="sxs-lookup"><span data-stu-id="fa7e8-149">Cash</span></span>                | <span data-ttu-id="fa7e8-150">R$ 95,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-150">95.00</span></span>        |               |
+| <span data-ttu-id="fa7e8-151">Contas a Receber</span><span class="sxs-lookup"><span data-stu-id="fa7e8-151">Accounts receivable</span></span> |              | <span data-ttu-id="fa7e8-152">R$ 95,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-152">95.00</span></span>         |
 
-**Liquidação**
+<span data-ttu-id="fa7e8-153">**Liquidação**</span><span class="sxs-lookup"><span data-stu-id="fa7e8-153">**Settlement**</span></span>
 
-| Conta                                                                                                          | Valor do débito | Valor de crédito |
+| <span data-ttu-id="fa7e8-154">Conta</span><span class="sxs-lookup"><span data-stu-id="fa7e8-154">Account</span></span>                                                                                                          | <span data-ttu-id="fa7e8-155">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="fa7e8-155">Debit amount</span></span> | <span data-ttu-id="fa7e8-156">Valor de crédito</span><span class="sxs-lookup"><span data-stu-id="fa7e8-156">Credit amount</span></span> |
 |------------------------------------------------------------------------------------------------------------------|--------------|---------------|
-| Desconto à vista (o campo **Conta principal para descontos do cliente** na página **Descontos à vista**)                 | R$ 10,50        |               |
-| Contas a Receber                                                                                              |              | R$ 10,50         |
-| Desconto à vista do cliente (o campo **Desconto à vista do cliente** na página **Conta para transações automáticas**) |              | 0,50          |
-| Contas a Receber                                                                                              | 0,50         |               |
+| <span data-ttu-id="fa7e8-157">Desconto à vista (o campo **Conta principal para descontos do cliente** na página **Descontos à vista**)</span><span class="sxs-lookup"><span data-stu-id="fa7e8-157">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span>                 | <span data-ttu-id="fa7e8-158">R$ 10,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-158">10.50</span></span>        |               |
+| <span data-ttu-id="fa7e8-159">Contas a Receber</span><span class="sxs-lookup"><span data-stu-id="fa7e8-159">Accounts receivable</span></span>                                                                                              |              | <span data-ttu-id="fa7e8-160">R$ 10,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-160">10.50</span></span>         |
+| <span data-ttu-id="fa7e8-161">Desconto à vista do cliente (o campo **Desconto à vista do cliente** na página **Conta para transações automáticas**)</span><span class="sxs-lookup"><span data-stu-id="fa7e8-161">Customer cash discount (the **Customer cash discount** field on the **Account for automatic transactions** page)</span></span> |              | <span data-ttu-id="fa7e8-162">0,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-162">0.50</span></span>          |
+| <span data-ttu-id="fa7e8-163">Contas a Receber</span><span class="sxs-lookup"><span data-stu-id="fa7e8-163">Accounts receivable</span></span>                                                                                              | <span data-ttu-id="fa7e8-164">0,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-164">0.50</span></span>         |               |
 
-### <a name="scenario-2"></a>Cenário 2
+### <a name="scenario-2"></a><span data-ttu-id="fa7e8-165">Cenário 2</span><span class="sxs-lookup"><span data-stu-id="fa7e8-165">Scenario 2</span></span>
 
-Neste cenário, o valor de pagamento a maior excede o valor máximo de pagamento a maior ou a menor. Uma fatura de 105,00 é inserida e um desconto à vista ficará disponível se a fatura for paga em até sete dias.
+<span data-ttu-id="fa7e8-166">Neste cenário, o valor de pagamento a maior excede o valor máximo de pagamento a maior ou a menor.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-166">In this scenario, the overpayment amount exceeds the maximum overpayment or underpayment amount.</span></span> <span data-ttu-id="fa7e8-167">Uma fatura de 105,00 é inserida e um desconto à vista ficará disponível se a fatura for paga em até sete dias.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-167">An invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Total da fatura | Desconto à vista disponível | Valor a ser pago, o que inclui o desconto à vista |
+| <span data-ttu-id="fa7e8-168">Total da fatura</span><span class="sxs-lookup"><span data-stu-id="fa7e8-168">Invoice total</span></span> | <span data-ttu-id="fa7e8-169">Desconto à vista disponível</span><span class="sxs-lookup"><span data-stu-id="fa7e8-169">Cash discount available</span></span> | <span data-ttu-id="fa7e8-170">Valor a ser pago, o que inclui o desconto à vista</span><span class="sxs-lookup"><span data-stu-id="fa7e8-170">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| R$ 105,00        | R$ 10,50                   | R$ 94,50                                               |
+| <span data-ttu-id="fa7e8-171">R$ 105,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-171">105.00</span></span>        | <span data-ttu-id="fa7e8-172">R$ 10,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-172">10.50</span></span>                   | <span data-ttu-id="fa7e8-173">R$ 94,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-173">94.50</span></span>                                               |
 
-O cliente envia um pagamento de 95,00 no período de desconto à vista. O pagamento é liquidado com a fatura de 105,00. Depois que a fatura e o pagamento forem liquidados, as transações a seguir serão criadas para o cliente em Contas a receber.
+<span data-ttu-id="fa7e8-174">O cliente envia um pagamento de 95,00 no período de desconto à vista.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-174">The customer submits a payment for 95.00 within the cash discount period.</span></span> <span data-ttu-id="fa7e8-175">O pagamento é liquidado com a fatura de 105,00.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-175">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="fa7e8-176">Depois que a fatura e o pagamento forem liquidados, as transações a seguir serão criadas para o cliente em Contas a receber.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-176">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Transação   | Valor | Saldo |
+| <span data-ttu-id="fa7e8-177">Transação</span><span class="sxs-lookup"><span data-stu-id="fa7e8-177">Transaction</span></span>   | <span data-ttu-id="fa7e8-178">Valor</span><span class="sxs-lookup"><span data-stu-id="fa7e8-178">Amount</span></span> | <span data-ttu-id="fa7e8-179">Saldo</span><span class="sxs-lookup"><span data-stu-id="fa7e8-179">Balance</span></span> |
 |---------------|--------|---------|
-| Fatura       | R$ 105,00 | 0,00    |
-| Pagamento       | -95,00 | -0,50   |
-| Desconto à vista | -10,50 | 0,00    |
+| <span data-ttu-id="fa7e8-180">Fatura</span><span class="sxs-lookup"><span data-stu-id="fa7e8-180">Invoice</span></span>       | <span data-ttu-id="fa7e8-181">R$ 105,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-181">105.00</span></span> | <span data-ttu-id="fa7e8-182">0,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-182">0.00</span></span>    |
+| <span data-ttu-id="fa7e8-183">Pagamento</span><span class="sxs-lookup"><span data-stu-id="fa7e8-183">Payment</span></span>       | <span data-ttu-id="fa7e8-184">-95,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-184">-95.00</span></span> | <span data-ttu-id="fa7e8-185">-0,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-185">-0.50</span></span>   |
+| <span data-ttu-id="fa7e8-186">Desconto à vista</span><span class="sxs-lookup"><span data-stu-id="fa7e8-186">Cash discount</span></span> | <span data-ttu-id="fa7e8-187">-10,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-187">-10.50</span></span> | <span data-ttu-id="fa7e8-188">0,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-188">0.00</span></span>    |
 
-O valor do pagamento a maior de 0.50 permanecerá como um saldo em aberto no pagamento e pode ser liquidado outra fatura. As seguintes entradas contábeis serão geradas para o pagamento e a liquidação. **Pagamento**
+<span data-ttu-id="fa7e8-189">O valor do pagamento a maior de 0.50 permanecerá como um saldo em aberto no pagamento e pode ser liquidado outra fatura.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-189">The overpayment amount of 0.50 will remain as an open balance on the payment and can be settled against another invoice.</span></span> <span data-ttu-id="fa7e8-190">As seguintes entradas contábeis serão geradas para o pagamento e a liquidação.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-190">The following accounting entries are generated for the payment and the settlement.</span></span> <span data-ttu-id="fa7e8-191">**Pagamento**</span><span class="sxs-lookup"><span data-stu-id="fa7e8-191">**Payment**</span></span>
 
-| Conta             | Valor do débito | Valor de crédito |
+| <span data-ttu-id="fa7e8-192">Conta</span><span class="sxs-lookup"><span data-stu-id="fa7e8-192">Account</span></span>             | <span data-ttu-id="fa7e8-193">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="fa7e8-193">Debit amount</span></span> | <span data-ttu-id="fa7e8-194">Valor de crédito</span><span class="sxs-lookup"><span data-stu-id="fa7e8-194">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Pagamento à vista                | R$ 95,00        |               |
-| Contas a Receber |              | R$ 95,00         |
+| <span data-ttu-id="fa7e8-195">Pagamento à vista</span><span class="sxs-lookup"><span data-stu-id="fa7e8-195">Cash</span></span>                | <span data-ttu-id="fa7e8-196">R$ 95,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-196">95.00</span></span>        |               |
+| <span data-ttu-id="fa7e8-197">Contas a Receber</span><span class="sxs-lookup"><span data-stu-id="fa7e8-197">Accounts receivable</span></span> |              | <span data-ttu-id="fa7e8-198">R$ 95,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-198">95.00</span></span>         |
 
-**Liquidação**
+<span data-ttu-id="fa7e8-199">**Liquidação**</span><span class="sxs-lookup"><span data-stu-id="fa7e8-199">**Settlement**</span></span>
 
-| Conta                                                                                          | Valor do débito | Valor de crédito |
+| <span data-ttu-id="fa7e8-200">Conta</span><span class="sxs-lookup"><span data-stu-id="fa7e8-200">Account</span></span>                                                                                          | <span data-ttu-id="fa7e8-201">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="fa7e8-201">Debit amount</span></span> | <span data-ttu-id="fa7e8-202">Valor de crédito</span><span class="sxs-lookup"><span data-stu-id="fa7e8-202">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Desconto à vista (o campo **Conta principal para descontos do cliente** na página **Descontos à vista**) | R$ 10,50        |               |
-| Contas a Receber                                                                              |              | R$ 10,50         |
+| <span data-ttu-id="fa7e8-203">Desconto à vista (o campo **Conta principal para descontos do cliente** na página **Descontos à vista**)</span><span class="sxs-lookup"><span data-stu-id="fa7e8-203">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="fa7e8-204">R$ 10,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-204">10.50</span></span>        |               |
+| <span data-ttu-id="fa7e8-205">Contas a Receber</span><span class="sxs-lookup"><span data-stu-id="fa7e8-205">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="fa7e8-206">R$ 10,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-206">10.50</span></span>         |
 
-## <a name="cash-discount-administration--unspecific"></a>Opção de administração do desconto à vista = Não específico
-Quando **Não específico** for selecionado no campo **Administração de descontos à vista** na página **Contas para transações automáticas**, o valor do desconto à vista será reduzido pelo valor do pagamento a maior. Esse comportamento sempre se aplicará, mesmo se o valor do pagamento a maior for maior ou menor do que o valor inserido no campo **Pagamento máximo a maior/menor**.
+## <a name="cash-discount-administration--unspecific"></a><span data-ttu-id="fa7e8-207">Opção de administração do desconto à vista = Não específico</span><span class="sxs-lookup"><span data-stu-id="fa7e8-207">Cash discount administration = Unspecific</span></span>
+<span data-ttu-id="fa7e8-208">Quando **Não específico** for selecionado no campo **Administração de descontos à vista** na página **Contas para transações automáticas**, o valor do desconto à vista será reduzido pelo valor do pagamento a maior.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-208">When **Unspecific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the cash discount amount is reduced by the overpayment amount.</span></span> <span data-ttu-id="fa7e8-209">Esse comportamento sempre se aplicará, mesmo se o valor do pagamento a maior for maior ou menor do que o valor inserido no campo **Pagamento máximo a maior/menor**.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-209">This behavior always applies, regardless of whether the overpayment amount is over or under the amount that is entered in the **Maximum overpayment or underpayment** field.</span></span>
 
-### <a name="scenario-3"></a>Cenário 3
+### <a name="scenario-3"></a><span data-ttu-id="fa7e8-210">Cenário 3</span><span class="sxs-lookup"><span data-stu-id="fa7e8-210">Scenario 3</span></span>
 
-Neste cenário, uma fatura de 105,00 é inserida e um desconto à vista ficará disponível se a fatura for paga em até sete dias.
+<span data-ttu-id="fa7e8-211">Neste cenário, uma fatura de 105,00 é inserida e um desconto à vista ficará disponível se a fatura for paga em até sete dias.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-211">In this scenario, an invoice for 105.00 is entered, and a cash discount is available if the invoice is paid within seven days.</span></span>
 
-| Total da fatura | Desconto à vista disponível | Valor a ser pago, o que inclui o desconto à vista |
+| <span data-ttu-id="fa7e8-212">Total da fatura</span><span class="sxs-lookup"><span data-stu-id="fa7e8-212">Invoice total</span></span> | <span data-ttu-id="fa7e8-213">Desconto à vista disponível</span><span class="sxs-lookup"><span data-stu-id="fa7e8-213">Cash discount available</span></span> | <span data-ttu-id="fa7e8-214">Valor a ser pago, o que inclui o desconto à vista</span><span class="sxs-lookup"><span data-stu-id="fa7e8-214">Amount to be paid, which includes the cash discount</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|
-| R$ 105,00        | R$ 10,50                   | R$ 94,50                                               |
+| <span data-ttu-id="fa7e8-215">R$ 105,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-215">105.00</span></span>        | <span data-ttu-id="fa7e8-216">R$ 10,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-216">10.50</span></span>                   | <span data-ttu-id="fa7e8-217">R$ 94,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-217">94.50</span></span>                                               |
 
-O cliente envia um pagamento de 95,00 na data de desconto à vista. O pagamento é liquidado com a fatura de 105,00. Depois que a fatura e o pagamento forem liquidados, as transações a seguir serão criadas para o cliente em Contas a receber.
+<span data-ttu-id="fa7e8-218">O cliente envia um pagamento de 95,00 na data de desconto à vista.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-218">The customer submits a payment for 95.00 within the cash discount date.</span></span> <span data-ttu-id="fa7e8-219">O pagamento é liquidado com a fatura de 105,00.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-219">The payment is settled against the invoice for 105.00.</span></span> <span data-ttu-id="fa7e8-220">Depois que a fatura e o pagamento forem liquidados, as transações a seguir serão criadas para o cliente em Contas a receber.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-220">After the invoice and payment are settled, the following transactions are created for the customer in Accounts receivable.</span></span>
 
-| Transação   | Valor | Saldo |
+| <span data-ttu-id="fa7e8-221">Transação</span><span class="sxs-lookup"><span data-stu-id="fa7e8-221">Transaction</span></span>   | <span data-ttu-id="fa7e8-222">Valor</span><span class="sxs-lookup"><span data-stu-id="fa7e8-222">Amount</span></span> | <span data-ttu-id="fa7e8-223">Saldo</span><span class="sxs-lookup"><span data-stu-id="fa7e8-223">Balance</span></span> |
 |---------------|--------|---------|
-| Fatura       | R$ 105,00 | 0,00    |
-| Pagamento       | -95,00 | -0,00   |
-| Desconto à vista | -10,00 | 0,00    |
+| <span data-ttu-id="fa7e8-224">Fatura</span><span class="sxs-lookup"><span data-stu-id="fa7e8-224">Invoice</span></span>       | <span data-ttu-id="fa7e8-225">R$ 105,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-225">105.00</span></span> | <span data-ttu-id="fa7e8-226">0,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-226">0.00</span></span>    |
+| <span data-ttu-id="fa7e8-227">Pagamento</span><span class="sxs-lookup"><span data-stu-id="fa7e8-227">Payment</span></span>       | <span data-ttu-id="fa7e8-228">-95,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-228">-95.00</span></span> | <span data-ttu-id="fa7e8-229">-0,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-229">-0.00</span></span>   |
+| <span data-ttu-id="fa7e8-230">Desconto à vista</span><span class="sxs-lookup"><span data-stu-id="fa7e8-230">Cash discount</span></span> | <span data-ttu-id="fa7e8-231">-10,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-231">-10.00</span></span> | <span data-ttu-id="fa7e8-232">0,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-232">0.00</span></span>    |
 
-O valor do desconto à vista é reduzido de 10,50 para 10,00. O pagamento e a fatura são considerados liquidados. **Pagamento**
+<span data-ttu-id="fa7e8-233">O valor do desconto à vista é reduzido de 10,50 para 10,00.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-233">The cash discount amount is reduced from 10.50 to 10.00.</span></span> <span data-ttu-id="fa7e8-234">O pagamento e a fatura são considerados liquidados.</span><span class="sxs-lookup"><span data-stu-id="fa7e8-234">The payment and invoice are considered settled.</span></span> <span data-ttu-id="fa7e8-235">**Pagamento**</span><span class="sxs-lookup"><span data-stu-id="fa7e8-235">**Payment**</span></span>
 
-| Conta             | Valor de débito | Valor de crédito |
+| <span data-ttu-id="fa7e8-236">Conta</span><span class="sxs-lookup"><span data-stu-id="fa7e8-236">Account</span></span>             | <span data-ttu-id="fa7e8-237">Valor de débito</span><span class="sxs-lookup"><span data-stu-id="fa7e8-237">Debit amount</span></span> | <span data-ttu-id="fa7e8-238">Valor de crédito</span><span class="sxs-lookup"><span data-stu-id="fa7e8-238">Credit amount</span></span> |
 |---------------------|--------------|---------------|
-| Pagamento à vista                | R$ 95,00        |               |
-| Contas a Receber |              | R$ 95,00         |
+| <span data-ttu-id="fa7e8-239">Pagamento à vista</span><span class="sxs-lookup"><span data-stu-id="fa7e8-239">Cash</span></span>                | <span data-ttu-id="fa7e8-240">R$ 95,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-240">95.00</span></span>        |               |
+| <span data-ttu-id="fa7e8-241">Contas a Receber</span><span class="sxs-lookup"><span data-stu-id="fa7e8-241">Accounts receivable</span></span> |              | <span data-ttu-id="fa7e8-242">R$ 95,00</span><span class="sxs-lookup"><span data-stu-id="fa7e8-242">95.00</span></span>         |
 
-**Liquidação**
+<span data-ttu-id="fa7e8-243">**Liquidação**</span><span class="sxs-lookup"><span data-stu-id="fa7e8-243">**Settlement**</span></span>
 
-| Conta                                                                                          | Valor do débito | Valor de crédito |
+| <span data-ttu-id="fa7e8-244">Conta</span><span class="sxs-lookup"><span data-stu-id="fa7e8-244">Account</span></span>                                                                                          | <span data-ttu-id="fa7e8-245">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="fa7e8-245">Debit amount</span></span> | <span data-ttu-id="fa7e8-246">Valor de crédito</span><span class="sxs-lookup"><span data-stu-id="fa7e8-246">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| Desconto à vista (o campo **Conta principal para descontos do cliente** na página **Descontos à vista**) | R$ 10,50        |               |
-| Contas a Receber                                                                              |              | R$ 10,50         |
+| <span data-ttu-id="fa7e8-247">Desconto à vista (o campo **Conta principal para descontos do cliente** na página **Descontos à vista**)</span><span class="sxs-lookup"><span data-stu-id="fa7e8-247">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="fa7e8-248">R$ 10,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-248">10.50</span></span>        |               |
+| <span data-ttu-id="fa7e8-249">Contas a Receber</span><span class="sxs-lookup"><span data-stu-id="fa7e8-249">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="fa7e8-250">R$ 10,50</span><span class="sxs-lookup"><span data-stu-id="fa7e8-250">10.50</span></span>         |
 
 
 

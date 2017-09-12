@@ -17,29 +17,29 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 15196b9d651402a7530613ae218fabb7fb71b799
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e8c3f861a53a3f5c2de29248523ff4efd5e1d072
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="post-online-sales-and-payments"></a> Lançar vendas e pagamentos online
+# <a name="post-online-sales-and-payments"></a><span data-ttu-id="50c0f-103"> Lançar vendas e pagamentos online</span><span class="sxs-lookup"><span data-stu-id="50c0f-103">Post online sales and payments</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-Este procedimento orienta como configurar e executar um trabalho em lotes periódico para criar ordens de venda e pagamentos para transações de lojas online. Este procedimento usa a empresa USRT nos dados de demonstração.
+<span data-ttu-id="50c0f-104">Este procedimento orienta como configurar e executar um trabalho em lotes periódico para criar ordens de venda e pagamentos para transações de lojas online.</span><span class="sxs-lookup"><span data-stu-id="50c0f-104">This procedure walks through configuring and running a recurrent batch job to create sales orders and payments for online store transactions.</span></span> <span data-ttu-id="50c0f-105">Este procedimento usa a empresa USRT nos dados de demonstração.</span><span class="sxs-lookup"><span data-stu-id="50c0f-105">This procedure uses the USRT company in demo data.</span></span>
 
-1. Vá para Todos os espaços de trabalho > Finanças da loja de varejo.
-2. Clique em Sincronizar ordens.
-3. No campo Hierarquia da organização, selecione 'Lojas de varejo por região'.
-    * Selecione uma loja online específica ou selecione um nó se você deseja criar o trabalho em lotes para um grupo de lojas.  
-    * Clique na seta para adicionar sua seleção.  
-4. Clique na guia Executar em segundo plano.
-5. Marque ou desmarque a caixa de seleção Processamento em lotes.
-6. Clique em Recorrência.
-7. Selecione a opção Nenhuma data de término.
-8. No campo Contagem, insira um número.
-9. Clique em OK.
-10. Clique em OK.
+1. <span data-ttu-id="50c0f-106">Vá para Todos os espaços de trabalho > Finanças da loja de varejo.</span><span class="sxs-lookup"><span data-stu-id="50c0f-106">Go to All workspaces > Retail store financials.</span></span>
+2. <span data-ttu-id="50c0f-107">Clique em Sincronizar ordens.</span><span class="sxs-lookup"><span data-stu-id="50c0f-107">Click Synchronize orders.</span></span>
+3. <span data-ttu-id="50c0f-108">No campo Hierarquia da organização, selecione 'Lojas de varejo por região'.</span><span class="sxs-lookup"><span data-stu-id="50c0f-108">In the Organization hierarchy field, select 'Retail Stores by Region'.</span></span>
+    * <span data-ttu-id="50c0f-109">Selecione uma loja online específica ou selecione um nó se você deseja criar o trabalho em lotes para um grupo de lojas.</span><span class="sxs-lookup"><span data-stu-id="50c0f-109">Select either a specific online store, or select a node if you want to create the batch job for a group of stores.</span></span>  
+    * <span data-ttu-id="50c0f-110">Clique na seta para adicionar sua seleção.</span><span class="sxs-lookup"><span data-stu-id="50c0f-110">Click the arrow to add your selection.</span></span>  
+4. <span data-ttu-id="50c0f-111">Clique na guia Executar em segundo plano.</span><span class="sxs-lookup"><span data-stu-id="50c0f-111">Click the Run in the background tab.</span></span>
+5. <span data-ttu-id="50c0f-112">Marque ou desmarque a caixa de seleção Processamento em lotes.</span><span class="sxs-lookup"><span data-stu-id="50c0f-112">Check or uncheck the Batch processing checkbox.</span></span>
+6. <span data-ttu-id="50c0f-113">Clique em Recorrência.</span><span class="sxs-lookup"><span data-stu-id="50c0f-113">Click Recurrence.</span></span>
+7. <span data-ttu-id="50c0f-114">Selecione a opção Nenhuma data de término.</span><span class="sxs-lookup"><span data-stu-id="50c0f-114">Select the No end date option.</span></span>
+8. <span data-ttu-id="50c0f-115">No campo Contagem, insira um número.</span><span class="sxs-lookup"><span data-stu-id="50c0f-115">In the Count field, enter a number.</span></span>
+9. <span data-ttu-id="50c0f-116">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="50c0f-116">Click OK.</span></span>
+10. <span data-ttu-id="50c0f-117">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="50c0f-117">Click OK.</span></span>
 
 

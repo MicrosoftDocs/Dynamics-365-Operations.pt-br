@@ -19,60 +19,60 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 0b7e5ed451497aea1c2ce798af2b717705538d47
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: e29aea4509dd323c295b02f289fbcfa46fab3392
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>Configurar a funcionalidade de logon estendido para Cloud POS e MPOS
+# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a><span data-ttu-id="5aa57-103">Configurar a funcionalidade de logon estendido para Cloud POS e MPOS</span><span class="sxs-lookup"><span data-stu-id="5aa57-103">Set up extended logon functionality for Cloud POS and MPOS</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-Este tópico aborda as opções para configurar o logon estendido para Cloud POS e Retail Modern POS (MPOS).
+<span data-ttu-id="5aa57-104">Este tópico aborda as opções para configurar o logon estendido para Cloud POS e Retail Modern POS (MPOS).</span><span class="sxs-lookup"><span data-stu-id="5aa57-104">This topic covers your options for setting up extended logon for Cloud POS and Retail Modern POS (MPOS).</span></span>
 
-<a name="setting-up-extended-logon"></a>Configurando o logon estendido
+<a name="setting-up-extended-logon"></a><span data-ttu-id="5aa57-105">Configurando o logon estendido</span><span class="sxs-lookup"><span data-stu-id="5aa57-105">Setting up extended logon</span></span>
 =========================
 
-Você pode localizar a configuração das máscaras de código de barras em **Varejo** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis de funcionalidade**. A Guia Rápida **Funções** inclui as seguintes opções relacionadas ao logon estendido.
+<span data-ttu-id="5aa57-106">Você pode localizar a configuração das máscaras de código de barras em **Varejo** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis de funcionalidade**.</span><span class="sxs-lookup"><span data-stu-id="5aa57-106">You can find the setup for bar code masks at **Retail** &gt; **Channel setup** &gt; **POS setup** &gt; **POS profiles** &gt; **Functionality profiles**.</span></span> <span data-ttu-id="5aa57-107">A Guia Rápida **Funções** inclui as seguintes opções relacionadas ao logon estendido.</span><span class="sxs-lookup"><span data-stu-id="5aa57-107">The **Functions** FastTab includes the following options that are related to extended logon.</span></span>
 
-### <a name="staff-bar-code-logon"></a>Logon de código de barras da equipe
+### <a name="staff-bar-code-logon"></a><span data-ttu-id="5aa57-108">Logon de código de barras da equipe</span><span class="sxs-lookup"><span data-stu-id="5aa57-108">Staff bar code logon</span></span>
 
-Quando a opção **Logon de código de barras da equipe** é habilitada, os trabalhadores que têm um logon estendido atribuído às suas credenciais de PDV (ponto de venda) podem fazer logon usando um código de barras.
+<span data-ttu-id="5aa57-109">Quando a opção **Logon de código de barras da equipe** é habilitada, os trabalhadores que têm um logon estendido atribuído às suas credenciais de PDV (ponto de venda) podem fazer logon usando um código de barras.</span><span class="sxs-lookup"><span data-stu-id="5aa57-109">When the **Staff bar code logon** option is enabled, workers who have an extended logon assigned to their point of sale (POS) credentials can log on by using a bar code.</span></span>
 
-### <a name="staff-bar-code-logon-requires-password"></a>Logon de código de barras da equipe requer senha
+### <a name="staff-bar-code-logon-requires-password"></a><span data-ttu-id="5aa57-110">Logon de código de barras da equipe requer senha</span><span class="sxs-lookup"><span data-stu-id="5aa57-110">Staff bar code logon requires password</span></span>
 
-Quando a opção **Logon de código de barras da equipe requer senha** é habilitada, o logon de código de barras da equipe seleciona somente o trabalhador atribuído ao logon estendido apresentado. Os trabalhadores ainda devem inserir a senha quando essa opção é habilitada.
+<span data-ttu-id="5aa57-111">Quando a opção **Logon de código de barras da equipe requer senha** é habilitada, o logon de código de barras da equipe seleciona somente o trabalhador atribuído ao logon estendido apresentado.</span><span class="sxs-lookup"><span data-stu-id="5aa57-111">When the **Staff bar code logon requires password** option is enabled, the staff bar code logon selects only the worker who is assigned to the extended logon that is presented.</span></span> <span data-ttu-id="5aa57-112">Os trabalhadores ainda devem inserir a senha quando essa opção é habilitada.</span><span class="sxs-lookup"><span data-stu-id="5aa57-112">Workers must still enter their password when this option is enabled.</span></span>
 
-### <a name="staff-card-logon"></a>Logon de cartão da equipe
+### <a name="staff-card-logon"></a><span data-ttu-id="5aa57-113">Logon de cartão da equipe</span><span class="sxs-lookup"><span data-stu-id="5aa57-113">Staff card logon</span></span>
 
-Quando a opção **Logon de cartão da equipe** é habilitada, os trabalhadores que têm um logon estendido atribuído às suas credenciais de PDV (ponto de venda) podem fazer logon usando uma tarja magnética.
+<span data-ttu-id="5aa57-114">Quando a opção **Logon de cartão da equipe** é habilitada, os trabalhadores que têm um logon estendido atribuído às suas credenciais de PDV (ponto de venda) podem fazer logon usando uma tarja magnética.</span><span class="sxs-lookup"><span data-stu-id="5aa57-114">When the **Staff card logon** option is enabled, workers who have an extended logon assigned to their POS credentials can log on by using a magnetic stripe.</span></span>
 
-### <a name="staff-card-logon-requires-password"></a>Logon de cartão da equipe requer senha
+### <a name="staff-card-logon-requires-password"></a><span data-ttu-id="5aa57-115">Logon de cartão da equipe requer senha</span><span class="sxs-lookup"><span data-stu-id="5aa57-115">Staff card logon requires password</span></span>
 
-Quando a opção **Logon de cartão da equipe requer senha** é habilitada, o logon de cartão da equipe seleciona somente o trabalhador atribuído ao logon estendido apresentado. Os trabalhadores ainda devem inserir a senha quando essa opção é habilitada.
+<span data-ttu-id="5aa57-116">Quando a opção **Logon de cartão da equipe requer senha** é habilitada, o logon de cartão da equipe seleciona somente o trabalhador atribuído ao logon estendido apresentado.</span><span class="sxs-lookup"><span data-stu-id="5aa57-116">When the **Staff card logon requires password** option is enabled, the staff card logon selects only the worker who is assigned to the extended logon that is presented.</span></span> <span data-ttu-id="5aa57-117">Os trabalhadores ainda devem inserir a senha quando essa opção é habilitada.</span><span class="sxs-lookup"><span data-stu-id="5aa57-117">Workers must still enter their password when this option is enabled.</span></span>
 
-<a name="assigning-an-extended-logon"></a>Atribuindo um logon estendido
+<a name="assigning-an-extended-logon"></a><span data-ttu-id="5aa57-118">Atribuindo um logon estendido</span><span class="sxs-lookup"><span data-stu-id="5aa57-118">Assigning an extended logon</span></span>
 ===========================
 
-Por padrão, somente os gerentes podem atribuir o logon estendido aos trabalhadores. Para atribuir o logon estendido, acesse **logon estendido** no POS. Em seguida, procure por um trabalhador inserindo a ID do operador no campo de pesquisa. Selecione o trabalhador e clique em **Atribuir**. Na página seguinte, passe o dedo ou digitalize o logon estendido para atribuir ao trabalhador. Se essa ação for realizada com êxito, o botão **OK** será disponibilizado. Clique em **OK** para salvar o logon estendido desse trabalhador.
+<span data-ttu-id="5aa57-119">Por padrão, somente os gerentes podem atribuir o logon estendido aos trabalhadores.</span><span class="sxs-lookup"><span data-stu-id="5aa57-119">By default, only managers can assign extended logon to workers.</span></span> <span data-ttu-id="5aa57-120">Para atribuir o logon estendido, acesse **logon estendido** no POS.</span><span class="sxs-lookup"><span data-stu-id="5aa57-120">To assign extended logon, go to **Extended log on** in POS.</span></span> <span data-ttu-id="5aa57-121">Em seguida, procure por um trabalhador inserindo a ID do operador no campo de pesquisa.</span><span class="sxs-lookup"><span data-stu-id="5aa57-121">Then search for a worker by entering his or her operator ID in the search field.</span></span> <span data-ttu-id="5aa57-122">Selecione o trabalhador e clique em **Atribuir**.</span><span class="sxs-lookup"><span data-stu-id="5aa57-122">Select the worker, and then click **Assign**.</span></span> <span data-ttu-id="5aa57-123">Na página seguinte, passe o dedo ou digitalize o logon estendido para atribuir ao trabalhador.</span><span class="sxs-lookup"><span data-stu-id="5aa57-123">On the next page, swipe or scan the extended logon to assign to the worker.</span></span> <span data-ttu-id="5aa57-124">Se essa ação for realizada com êxito, o botão **OK** será disponibilizado.</span><span class="sxs-lookup"><span data-stu-id="5aa57-124">If the swipe or scan is successfully read, the **OK** button becomes available.</span></span> <span data-ttu-id="5aa57-125">Clique em **OK** para salvar o logon estendido desse trabalhador.</span><span class="sxs-lookup"><span data-stu-id="5aa57-125">Click **OK** to save the extended logon for that worker.</span></span>
 
-<a name="deleting-an-extended-logon"></a>Excluindo um logon estendido
+<a name="deleting-an-extended-logon"></a><span data-ttu-id="5aa57-126">Excluindo um logon estendido</span><span class="sxs-lookup"><span data-stu-id="5aa57-126">Deleting an extended logon</span></span>
 ==========================
 
-Para excluir o logon estendido atribuído a um trabalhador, procure o trabalhador usando a operação **Logon estendido**. Selecione o trabalhador e clique em **Cancelar atribuição**. Todas as credenciais de logon estendido associadas a esse trabalhador são removidas.
+<span data-ttu-id="5aa57-127">Para excluir o logon estendido atribuído a um trabalhador, procure o trabalhador usando a operação **Logon estendido**.</span><span class="sxs-lookup"><span data-stu-id="5aa57-127">To delete the extended logon that is assigned to a worker, search for the worker by using the **Extended log on** operation.</span></span> <span data-ttu-id="5aa57-128">Selecione o trabalhador e clique em **Cancelar atribuição**.</span><span class="sxs-lookup"><span data-stu-id="5aa57-128">Select the worker, and then click **Unassign**.</span></span> <span data-ttu-id="5aa57-129">Todas as credenciais de logon estendido associadas a esse trabalhador são removidas.</span><span class="sxs-lookup"><span data-stu-id="5aa57-129">All extended logon credentials that are associated with that worker are removed.</span></span>
 
-<a name="extending-extended-logon"></a>Estendendo o logon estendido
+<a name="extending-extended-logon"></a><span data-ttu-id="5aa57-130">Estendendo o logon estendido</span><span class="sxs-lookup"><span data-stu-id="5aa57-130">Extending extended logon</span></span>
 ========================
 
-O serviço de logon pode ser estendido para oferecer suporte a dispositivos de logon estendido adicionais, como scanners portáteis. Para obter mais informações, consulte a documentação de extensibilidade do PDV.
+<span data-ttu-id="5aa57-131">O serviço de logon pode ser estendido para oferecer suporte a dispositivos de logon estendido adicionais, como scanners portáteis.</span><span class="sxs-lookup"><span data-stu-id="5aa57-131">The logon service can be extended to support additional extended logon devices, such as palm scanners.</span></span> <span data-ttu-id="5aa57-132">Para obter mais informações, consulte a documentação de extensibilidade do PDV.</span><span class="sxs-lookup"><span data-stu-id="5aa57-132">For more information, see the POS extensibility documentation.</span></span>
 
-<a name="using-extended-logon"></a>Usando o logon estendido
+<a name="using-extended-logon"></a><span data-ttu-id="5aa57-133">Usando o logon estendido</span><span class="sxs-lookup"><span data-stu-id="5aa57-133">Using extended logon</span></span>
 ====================
 
-Quando o logon estendido for configurado, e um trabalhador receber um código de barras ou uma tarja magnética, o trabalhador precisará apenas passar o dedo ou digitalizar o cartão enquanto a página de logon é exibida. Se for necessário também uma senha para que o logon possa continuar, o trabalhador será solicitado a inserir a senha.
+<span data-ttu-id="5aa57-134">Quando o logon estendido for configurado, e um trabalhador receber um código de barras ou uma tarja magnética, o trabalhador precisará apenas passar o dedo ou digitalizar o cartão enquanto a página de logon é exibida.</span><span class="sxs-lookup"><span data-stu-id="5aa57-134">When extended logon is configured, and a worker has been assigned a bar code or magnetic stripe, the worker just has to swipe or scan his or her card while the POS logon page is displayed.</span></span> <span data-ttu-id="5aa57-135">Se for necessário também uma senha para que o logon possa continuar, o trabalhador será solicitado a inserir a senha.</span><span class="sxs-lookup"><span data-stu-id="5aa57-135">If a password is also required before logon can proceed, the worker is prompted to enter his or her password.</span></span>
 
 
 

@@ -16,50 +16,50 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: f9b82db94d98fb19c67888a1f8a35b2fe62c98fe
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7cc024caa54db6629a1e573df295fe8333996647
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-order-governed-by-budget"></a>Criar uma ordem de compra regida por orçamento
+# <a name="create-a-purchase-order-governed-by-budget"></a><span data-ttu-id="0b4d8-103">Criar uma ordem de compra regida por orçamento</span><span class="sxs-lookup"><span data-stu-id="0b4d8-103">Create a purchase order governed by budget</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Use este procedimento para criar uma ordem de compra que seja verificada para o orçamento disponível. Esta gravação usa os dados da empresa de demonstração USMF.
+<span data-ttu-id="0b4d8-104">Use este procedimento para criar uma ordem de compra que seja verificada para o orçamento disponível.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-104">Use this procedure to create a purchase order that is checked for available budget.</span></span> <span data-ttu-id="0b4d8-105">Esta gravação usa os dados da empresa de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-105">This recording uses the USMF demo data company.</span></span>
 
 
-## <a name="review-the-budget-control-configuration"></a>Revise a configuração de controle de orçamento
-1. Vá para Orçamento > Configuração > Controle de orçamento > Configuração de controle de orçamento.
-2. Clique na guia disponível dos fundos de orçamento.
-3. Clique na guia Documentos e diários.
-4. Clique na guia Definir regras de controle de orçamento.
-5. Clique na guia Definir os grupos orçamentários.
-6. Feche a página.
+## <a name="review-the-budget-control-configuration"></a><span data-ttu-id="0b4d8-106">Revise a configuração de controle de orçamento</span><span class="sxs-lookup"><span data-stu-id="0b4d8-106">Review the budget control configuration</span></span>
+1. <span data-ttu-id="0b4d8-107">Vá para Orçamento > Configuração > Controle de orçamento > Configuração de controle de orçamento.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-107">Go to Budgeting > Setup > Budget control > Budget control configuration.</span></span>
+2. <span data-ttu-id="0b4d8-108">Clique na guia disponível dos fundos de orçamento.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-108">Click the Budget funds available tab.</span></span>
+3. <span data-ttu-id="0b4d8-109">Clique na guia Documentos e diários.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-109">Click the Documents and journals tab.</span></span>
+4. <span data-ttu-id="0b4d8-110">Clique na guia Definir regras de controle de orçamento.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-110">Click the Define budget control rules tab.</span></span>
+5. <span data-ttu-id="0b4d8-111">Clique na guia Definir os grupos orçamentários.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-111">Click the Define budget groups tab.</span></span>
+6. <span data-ttu-id="0b4d8-112">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-112">Close the page.</span></span>
 
-## <a name="create-the-purchase-order-header"></a>Criar o cabeçalho da ordem de compra
-1. Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.
-2. Clique em Novo.
-3. No campo Conta de fornecedor, insira ou selecione um valor.
-4. Expanda a seção Geral.
-5. No campo Data contábil, defina a data como '01-01-2016'.
-6. Clique em OK.
+## <a name="create-the-purchase-order-header"></a><span data-ttu-id="0b4d8-113">Criar o cabeçalho da ordem de compra</span><span class="sxs-lookup"><span data-stu-id="0b4d8-113">Create the purchase order header</span></span>
+1. <span data-ttu-id="0b4d8-114">Vá para Aquisição e fornecimento > Ordens de compra > Todas as ordens de compra.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-114">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="0b4d8-115">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-115">Click New.</span></span>
+3. <span data-ttu-id="0b4d8-116">No campo Conta de fornecedor, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-116">In the Vendor account field, enter or select a value.</span></span>
+4. <span data-ttu-id="0b4d8-117">Expanda a seção Geral.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-117">Expand the General section.</span></span>
+5. <span data-ttu-id="0b4d8-118">No campo Data contábil, defina a data como '01-01-2016'.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-118">In the Accounting date field, set the date to '2016-01-01'.</span></span>
+6. <span data-ttu-id="0b4d8-119">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-119">Click OK.</span></span>
 
-## <a name="add-a-purchase-order-line"></a>Adicionar uma linha de ordem de compra
-1. No campo Categoria de compras, insira ou selecione um valor.
-2. Defina Quantidade como '2'.
-3. No campo Unidade, insira ou selecione um valor.
-4. Defina o preço unitário como "10000".
-5. Clique em Financeiros.
-6. Clique em Distribuir valores.
-7. No campo Conta contábil, especifique o valor '601300-001-023--'.
-8. Feche a página.
+## <a name="add-a-purchase-order-line"></a><span data-ttu-id="0b4d8-120">Adicionar uma linha de ordem de compra</span><span class="sxs-lookup"><span data-stu-id="0b4d8-120">Add a purchase order line</span></span>
+1. <span data-ttu-id="0b4d8-121">No campo Categoria de compras, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-121">In the Procurement category field, enter or select a value.</span></span>
+2. <span data-ttu-id="0b4d8-122">Defina Quantidade como '2'.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-122">Set Quantity to '2'.</span></span>
+3. <span data-ttu-id="0b4d8-123">No campo Unidade, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-123">In the Unit field, enter or select a value.</span></span>
+4. <span data-ttu-id="0b4d8-124">Defina o preço unitário como "10000".</span><span class="sxs-lookup"><span data-stu-id="0b4d8-124">Set Unit price to '10000'.</span></span>
+5. <span data-ttu-id="0b4d8-125">Clique em Financeiros.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-125">Click Financials.</span></span>
+6. <span data-ttu-id="0b4d8-126">Clique em Distribuir valores.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-126">Click Distribute amounts.</span></span>
+7. <span data-ttu-id="0b4d8-127">No campo Conta contábil, especifique o valor '601300-001-023--'.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-127">In the Ledger account field, specify the value '601300-001-023--'.</span></span>
+8. <span data-ttu-id="0b4d8-128">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-128">Close the page.</span></span>
 
-## <a name="perform-budget-checking"></a>Executar verificação de orçamento
-1. Clique em Financeiros.
-2. Clique em Executar verificação de orçamento.
-3. Clique em Financeiros.
-4. Clique em Erros ou avisos da verificação de orçamento.
-5. Clique em Fechar.
+## <a name="perform-budget-checking"></a><span data-ttu-id="0b4d8-129">Executar verificação de orçamento</span><span class="sxs-lookup"><span data-stu-id="0b4d8-129">Perform budget checking</span></span>
+1. <span data-ttu-id="0b4d8-130">Clique em Financeiros.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-130">Click Financials.</span></span>
+2. <span data-ttu-id="0b4d8-131">Clique em Executar verificação de orçamento.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-131">Click Perform budget checking.</span></span>
+3. <span data-ttu-id="0b4d8-132">Clique em Financeiros.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-132">Click Financials.</span></span>
+4. <span data-ttu-id="0b4d8-133">Clique em Erros ou avisos da verificação de orçamento.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-133">Click Budget check errors or warnings.</span></span>
+5. <span data-ttu-id="0b4d8-134">Clique em Fechar.</span><span class="sxs-lookup"><span data-stu-id="0b4d8-134">Click Close.</span></span>
 
 

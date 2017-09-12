@@ -17,180 +17,180 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 044da854273345877be92c9eab787f4edf0bba5b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1082c86361180db84bb2b5c0b8158816f76a219e
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurar localizações em um depósito habilitado para WMS
+# <a name="configure-locations-in-a-wms-enabled-warehouse"></a><span data-ttu-id="c11b7-103">Configurar localizações em um depósito habilitado para WMS</span><span class="sxs-lookup"><span data-stu-id="c11b7-103">Configure locations in a WMS-enabled warehouse</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este guia mostra como definir a configuração da localização para um novo depósito habilitado para WMS (um depósito que utiliza processos avançados de gerenciamento de depósito). O processo é normalmente feito por um gerente de depósito. Você pode executar esse guia na empresa de dados demonstrativos USMF ou usando seus próprios dados. Uma pré-condição é que você tenha pelo menos um local configurado.
+<span data-ttu-id="c11b7-104">Este guia mostra como definir a configuração da localização para um novo depósito habilitado para WMS (um depósito que utiliza processos avançados de gerenciamento de depósito).</span><span class="sxs-lookup"><span data-stu-id="c11b7-104">This guide shows you how to configure the location setup for a new WMS-enabled warehouse (a warehouse that uses advanced warehouse management processes).</span></span> <span data-ttu-id="c11b7-105">O processo é normalmente feito por um gerente de depósito.</span><span class="sxs-lookup"><span data-stu-id="c11b7-105">The process is typically done by a warehouse manager.</span></span> <span data-ttu-id="c11b7-106">Você pode executar esse guia na empresa de dados demonstrativos USMF ou usando seus próprios dados.</span><span class="sxs-lookup"><span data-stu-id="c11b7-106">You can run this guide in demo data company USMF or on your own data.</span></span> <span data-ttu-id="c11b7-107">Uma pré-condição é que você tenha pelo menos um local configurado.</span><span class="sxs-lookup"><span data-stu-id="c11b7-107">A precondition is that you have at least one site configured.</span></span>
 
 
-## <a name="create-a-new-warehouse"></a>Criar um novo depósito
-1. Vá para Depósitos.
-2. Clique em Novo.
-3. No campo Depósito, digite um valor.
-4. No campo Nome, digite um valor.
-5. No campo Local, digite um valor.
-6. Expandir ou recolher a seção Depósito.
-7. Defina a opção Utilize processos de gerenciamento de depósito como Sim.
-    * Essa configuração permite que você execute processos de armazenamento avançados utilizando trabalho de depósito e dispositivos móveis.  
-8. Feche a página.
+## <a name="create-a-new-warehouse"></a><span data-ttu-id="c11b7-108">Criar um novo depósito</span><span class="sxs-lookup"><span data-stu-id="c11b7-108">Create a new warehouse</span></span>
+1. <span data-ttu-id="c11b7-109">Vá para Depósitos.</span><span class="sxs-lookup"><span data-stu-id="c11b7-109">Go to Warehouses.</span></span>
+2. <span data-ttu-id="c11b7-110">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c11b7-110">Click New.</span></span>
+3. <span data-ttu-id="c11b7-111">No campo Depósito, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-111">In the Warehouse field, type a value.</span></span>
+4. <span data-ttu-id="c11b7-112">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-112">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="c11b7-113">No campo Local, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-113">In the Site field, type a value.</span></span>
+6. <span data-ttu-id="c11b7-114">Expandir ou recolher a seção Depósito.</span><span class="sxs-lookup"><span data-stu-id="c11b7-114">Expand or collapse the Warehouse section.</span></span>
+7. <span data-ttu-id="c11b7-115">Defina a opção Utilize processos de gerenciamento de depósito como Sim.</span><span class="sxs-lookup"><span data-stu-id="c11b7-115">Set the Use warehouse management processes option to Yes.</span></span>
+    * <span data-ttu-id="c11b7-116">Essa configuração permite que você execute processos de armazenamento avançados utilizando trabalho de depósito e dispositivos móveis.</span><span class="sxs-lookup"><span data-stu-id="c11b7-116">This setting allows you to  run advanced warehousing processes using warehouse work and mobile devices.</span></span>  
+8. <span data-ttu-id="c11b7-117">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c11b7-117">Close the page.</span></span>
 
-## <a name="define-a-location-format"></a>Definir um formato de localização
-1. Vá para Formatos de localização.
-    * Formatos de localização são um sistema de nomeação utilizado para criar nomes únicos e consistentes para as diferentes localizações dos compartimentos usados dentro de um depósito. Pode ser útil usar separadores como parte do formato do local para facilitar a identificação dos componentes do local tal como o número do corredor. Neste exemplo, iremos criar um nome com quatro componentes. Por exemplo, eles podem ser corredor, estante, prateleira e compartimento.  
-2. Clique em Novo.
-3. No campo Formato de localização, digite um valor.
-4. No campo Nome, digite um valor.
-5. No campo Descrição do segmento, digite um valor.
-    * Isso descreve o que o primeiro componente do nome da localização representa. Por exemplo, poderia ser Corredor.  
-6. No campo Comprimento, insira um número.
-    * Isso determinará quantos caracteres essa parte do nome da localização deve ter. Observe que o total de todos os componentes do nome, incluindo os separadores, não pode exceder 10 caracteres.  
-7. No campo Separador, digite um valor.
-    * Isso determina qual caractere ou símbolo é usado entre o primeiro e o segundo componente do nome.  
-8. Clique em Novo.
-9. No campo Descrição do segmento, digite um valor.
-10. No campo Comprimento, insira um número.
-11. No campo Separador, digite um valor.
-12. Clique em Novo.
-13. No campo Descrição do segmento, digite um valor.
-14. No campo Comprimento, insira um número.
-15. No campo Separador, digite um valor.
-16. Clique em Novo.
-17. No campo Descrição do segmento, digite um valor.
-18. No campo Comprimento, insira um número.
-19. Clique em Salvar.
-20. Feche a página.
+## <a name="define-a-location-format"></a><span data-ttu-id="c11b7-118">Definir um formato de localização</span><span class="sxs-lookup"><span data-stu-id="c11b7-118">Define a location format</span></span>
+1. <span data-ttu-id="c11b7-119">Vá para Formatos de localização.</span><span class="sxs-lookup"><span data-stu-id="c11b7-119">Go to Location formats.</span></span>
+    * <span data-ttu-id="c11b7-120">Formatos de localização são um sistema de nomeação utilizado para criar nomes únicos e consistentes para as diferentes localizações dos compartimentos usados dentro de um depósito.</span><span class="sxs-lookup"><span data-stu-id="c11b7-120">Location formats are a naming-system used to create unique and consistent names for the different location bin positions used within a warehouse.</span></span> <span data-ttu-id="c11b7-121">Pode ser útil usar separadores como parte do formato do local para facilitar a identificação dos componentes do local tal como o número do corredor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-121">It can be useful to use separators as part of the location format to make it easier to identify components of the location such as the aisle number.</span></span> <span data-ttu-id="c11b7-122">Neste exemplo, iremos criar um nome com quatro componentes.</span><span class="sxs-lookup"><span data-stu-id="c11b7-122">In this example, we’ll create a name with four components.</span></span> <span data-ttu-id="c11b7-123">Por exemplo, eles podem ser corredor, estante, prateleira e compartimento.</span><span class="sxs-lookup"><span data-stu-id="c11b7-123">For example, these could be aisle, rack, shelf, and bin.</span></span>  
+2. <span data-ttu-id="c11b7-124">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c11b7-124">Click New.</span></span>
+3. <span data-ttu-id="c11b7-125">No campo Formato de localização, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-125">In the Location format field, type a value.</span></span>
+4. <span data-ttu-id="c11b7-126">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-126">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="c11b7-127">No campo Descrição do segmento, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-127">In the Segment description field, type a value.</span></span>
+    * <span data-ttu-id="c11b7-128">Isso descreve o que o primeiro componente do nome da localização representa.</span><span class="sxs-lookup"><span data-stu-id="c11b7-128">This describes what the first component of the location name represents.</span></span> <span data-ttu-id="c11b7-129">Por exemplo, poderia ser Corredor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-129">For example, it could be Aisle.</span></span>  
+6. <span data-ttu-id="c11b7-130">No campo Comprimento, insira um número.</span><span class="sxs-lookup"><span data-stu-id="c11b7-130">In the Length field, enter a number.</span></span>
+    * <span data-ttu-id="c11b7-131">Isso determinará quantos caracteres essa parte do nome da localização deve ter.</span><span class="sxs-lookup"><span data-stu-id="c11b7-131">This determines how many characters this part of the location name must have.</span></span> <span data-ttu-id="c11b7-132">Observe que o total de todos os componentes do nome, incluindo os separadores, não pode exceder 10 caracteres.</span><span class="sxs-lookup"><span data-stu-id="c11b7-132">Note that the total of all components in the name, including the separators, cannot exceed 10 characters.</span></span>  
+7. <span data-ttu-id="c11b7-133">No campo Separador, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-133">In the Separator field, type a value.</span></span>
+    * <span data-ttu-id="c11b7-134">Isso determina qual caractere ou símbolo é usado entre o primeiro e o segundo componente do nome.</span><span class="sxs-lookup"><span data-stu-id="c11b7-134">This determines which character or symbol is used between the first and second component of the name.</span></span>  
+8. <span data-ttu-id="c11b7-135">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c11b7-135">Click New.</span></span>
+9. <span data-ttu-id="c11b7-136">No campo Descrição do segmento, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-136">In the Segment description field, type a value.</span></span>
+10. <span data-ttu-id="c11b7-137">No campo Comprimento, insira um número.</span><span class="sxs-lookup"><span data-stu-id="c11b7-137">In the Length field, enter a number.</span></span>
+11. <span data-ttu-id="c11b7-138">No campo Separador, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-138">In the Separator field, type a value.</span></span>
+12. <span data-ttu-id="c11b7-139">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c11b7-139">Click New.</span></span>
+13. <span data-ttu-id="c11b7-140">No campo Descrição do segmento, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-140">In the Segment description field, type a value.</span></span>
+14. <span data-ttu-id="c11b7-141">No campo Comprimento, insira um número.</span><span class="sxs-lookup"><span data-stu-id="c11b7-141">In the Length field, enter a number.</span></span>
+15. <span data-ttu-id="c11b7-142">No campo Separador, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-142">In the Separator field, type a value.</span></span>
+16. <span data-ttu-id="c11b7-143">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c11b7-143">Click New.</span></span>
+17. <span data-ttu-id="c11b7-144">No campo Descrição do segmento, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-144">In the Segment description field, type a value.</span></span>
+18. <span data-ttu-id="c11b7-145">No campo Comprimento, insira um número.</span><span class="sxs-lookup"><span data-stu-id="c11b7-145">In the Length field, enter a number.</span></span>
+19. <span data-ttu-id="c11b7-146">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="c11b7-146">Click Save.</span></span>
+20. <span data-ttu-id="c11b7-147">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c11b7-147">Close the page.</span></span>
 
-## <a name="define-location-types"></a>Definir tipos de localizações
-1. Vá para Tipos de localização.
-    * Os tipos de localização podem ser utilizados como opções de filtragem para controlar os diferentes processos de gerenciamento de depósito. No mínimo, você precisa criar os tipos de localização processamento e despacho final para definir o processo de gerenciamento de saída do depósito.  
-2. Clique em Novo.
-3. No campo Tipo de localização, digite um valor.
-4. No campo Descrição, digite um valor.
-5. Feche a página.
+## <a name="define-location-types"></a><span data-ttu-id="c11b7-148">Definir tipos de localizações</span><span class="sxs-lookup"><span data-stu-id="c11b7-148">Define location types</span></span>
+1. <span data-ttu-id="c11b7-149">Vá para Tipos de localização.</span><span class="sxs-lookup"><span data-stu-id="c11b7-149">Go to Location types.</span></span>
+    * <span data-ttu-id="c11b7-150">Os tipos de localização podem ser utilizados como opções de filtragem para controlar os diferentes processos de gerenciamento de depósito.</span><span class="sxs-lookup"><span data-stu-id="c11b7-150">Location types can be used as filtering options to control the different warehouse management processes.</span></span> <span data-ttu-id="c11b7-151">No mínimo, você precisa criar os tipos de localização processamento e despacho final para definir o processo de gerenciamento de saída do depósito.</span><span class="sxs-lookup"><span data-stu-id="c11b7-151">As a minimum, you need to create staging and final shipping location types in order to define the outbound warehouse management process.</span></span>  
+2. <span data-ttu-id="c11b7-152">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c11b7-152">Click New.</span></span>
+3. <span data-ttu-id="c11b7-153">No campo Tipo de localização, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-153">In the Location type field, type a value.</span></span>
+4. <span data-ttu-id="c11b7-154">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-154">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="c11b7-155">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c11b7-155">Close the page.</span></span>
 
-## <a name="define-location-profile"></a>Definir perfil de localização
-1. Vá para Perfis de localização.
-    * A definição de perfis de localização é muito importante. A capacidade de localizações agrupadas pode ser controlada aqui, assim como as políticas relacionadas a qual estoque é armazenado, e como é armazenado. Perfis de localização podem ser utilizadas como opções de filtragem para controlar os diferentes processos de gerenciamento do depósito. No mínimo, você deve criar um perfil de localização do usuário para habilitar os processos de gerenciamento do depósito.  
-2. Clique em Novo.
-3. No campo ID do perfil de localização, digite um valor.
-4. No campo Nome, digite um valor.
-5. No campo Formato da localização, clique no botão suspenso para abrir a pesquisa.
-6. Na lista, localize e selecione o registro desejado.
-7. Na lista, clique no link na linha selecionada.
-8. No campo Tipo de localização, clique no botão suspenso para abrir a pesquisa.
-9. Na lista, localize e selecione o PDV desejado.
-10. Na lista, clique no link na linha selecionada.
-11. Marque ou desmarque a caixa de seleção Permitir status de estoque mistos.
-    * Habilite esta opção se desejar permitir valores mistos de status de estoque nas localizações que serão agrupadas por esse perfil de localização.  
-12. Marque ou desmarque a caixa de seleção Substituir regras para dias de lote.
-    * Habilite esta opção para substituir a regra que diz respeito à quantidade de dias que as datas de vencimento de lote de estoque podem divergir, para permitir a mistura de lotes de estoque que não obedecem essa regra.  
-13. Marque ou desmarque a caixa de seleção Permitir contagem cíclica.
-    * Habilite esta opção para permitir o processo de contagem cíclica em todas as localizações que serão agrupadas por esse perfil de localização.  
-14. Expandir ou recolher a seção Dimensões.
-    * A aba Dimensões permite que você defina parâmetros e métodos para habilitar cálculos precisos da capacidade de carga dentro de cada localização.  
-15. Feche a página.
+## <a name="define-location-profile"></a><span data-ttu-id="c11b7-156">Definir perfil de localização</span><span class="sxs-lookup"><span data-stu-id="c11b7-156">Define location profile</span></span>
+1. <span data-ttu-id="c11b7-157">Vá para Perfis de localização.</span><span class="sxs-lookup"><span data-stu-id="c11b7-157">Go to Location profiles.</span></span>
+    * <span data-ttu-id="c11b7-158">A definição de perfis de localização é muito importante.</span><span class="sxs-lookup"><span data-stu-id="c11b7-158">The definition of location profiles is very important.</span></span> <span data-ttu-id="c11b7-159">A capacidade de localizações agrupadas pode ser controlada aqui, assim como as políticas relacionadas a qual estoque é armazenado, e como é armazenado.</span><span class="sxs-lookup"><span data-stu-id="c11b7-159">Grouped locations capacity can be controlled here, as well as the policies related to what inventory gets stored, and how it is stored.</span></span> <span data-ttu-id="c11b7-160">Perfis de localização podem ser utilizadas como opções de filtragem para controlar os diferentes processos de gerenciamento do depósito.</span><span class="sxs-lookup"><span data-stu-id="c11b7-160">Location profiles can be used as filtering options to control the different warehouse management processes.</span></span> <span data-ttu-id="c11b7-161">No mínimo, você deve criar um perfil de localização do usuário para habilitar os processos de gerenciamento do depósito.</span><span class="sxs-lookup"><span data-stu-id="c11b7-161">As a minimum, you must create a user location profile in order to enable the warehouse management processes.</span></span>  
+2. <span data-ttu-id="c11b7-162">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c11b7-162">Click New.</span></span>
+3. <span data-ttu-id="c11b7-163">No campo ID do perfil de localização, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-163">In the Location profile ID field, type a value.</span></span>
+4. <span data-ttu-id="c11b7-164">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-164">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="c11b7-165">No campo Formato da localização, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="c11b7-165">In the Location format field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="c11b7-166">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="c11b7-166">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="c11b7-167">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="c11b7-167">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="c11b7-168">No campo Tipo de localização, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="c11b7-168">In the Location type field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="c11b7-169">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="c11b7-169">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="c11b7-170">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="c11b7-170">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="c11b7-171">Marque ou desmarque a caixa de seleção Permitir status de estoque mistos.</span><span class="sxs-lookup"><span data-stu-id="c11b7-171">Select or clear the Allow mixed  inventory statuses check box.</span></span>
+    * <span data-ttu-id="c11b7-172">Habilite esta opção se desejar permitir valores mistos de status de estoque nas localizações que serão agrupadas por esse perfil de localização.</span><span class="sxs-lookup"><span data-stu-id="c11b7-172">Enable this option if you want to allow mixed inventory status values in the locations that are going to be grouped by this location profile.</span></span>  
+12. <span data-ttu-id="c11b7-173">Marque ou desmarque a caixa de seleção Substituir regras para dias de lote.</span><span class="sxs-lookup"><span data-stu-id="c11b7-173">Select or clear the Override rules for batch days check box.</span></span>
+    * <span data-ttu-id="c11b7-174">Habilite esta opção para substituir a regra que diz respeito à quantidade de dias que as datas de vencimento de lote de estoque podem divergir, para permitir a mistura de lotes de estoque que não obedecem essa regra.</span><span class="sxs-lookup"><span data-stu-id="c11b7-174">Enable this option to override the rule for how many days the inventory batch expiration dates can differ, to allow mixing of inventory batches that don’t obeying this rule.</span></span>  
+13. <span data-ttu-id="c11b7-175">Marque ou desmarque a caixa de seleção Permitir contagem cíclica.</span><span class="sxs-lookup"><span data-stu-id="c11b7-175">Select or clear the Allow cycle counting check box.</span></span>
+    * <span data-ttu-id="c11b7-176">Habilite esta opção para permitir o processo de contagem cíclica em todas as localizações que serão agrupadas por esse perfil de localização.</span><span class="sxs-lookup"><span data-stu-id="c11b7-176">Enable this option to allow cycle counting processing in all the locations that are going to be grouped by this location profile.</span></span>  
+14. <span data-ttu-id="c11b7-177">Expandir ou recolher a seção Dimensões.</span><span class="sxs-lookup"><span data-stu-id="c11b7-177">Expand or collapse the Dimensions section.</span></span>
+    * <span data-ttu-id="c11b7-178">A aba Dimensões permite que você defina parâmetros e métodos para habilitar cálculos precisos da capacidade de carga dentro de cada localização.</span><span class="sxs-lookup"><span data-stu-id="c11b7-178">The Dimensions tab allows you to define parameters and methods to enable precise calculations of the load capacity within each of the locations.</span></span>  
+15. <span data-ttu-id="c11b7-179">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c11b7-179">Close the page.</span></span>
 
-## <a name="enable-warehouse-management-parameters"></a>Habilitar parâmetros de gerenciamento do depósito
-1. Vá para Parâmetros de gerenciamento de depósito.
-    * Para que seja possível processar o trabalho de depósito, você precisa definir parâmetros para o perfil de localização do usuário, o tipo da localização de preparo, e o tipo da localização do despacho final. Assim que o processo de saída terminar no tipo da localização de despacho final definido, as transações de saída relacionadas serão atualizadas para 'Retirado'.  
-2. Expandir ou recolher a seção Perfis de localização.
-3. No campo Localização de usuário, clique no botão suspenso para abrir a pesquisa.
-4. Na lista, clique no link na linha selecionada.
-5. Expandir ou recolher a seção Tipos de locais.
-6. No campo Tipo de localização de preparo, clique no botão suspenso para abrir a pesquisa.
-7. Na lista, clique no link na linha selecionada.
-8. No campo Tipo de localização de despacho final, clique no botão suspenso para abrir a pesquisa.
-9. Na lista, clique no link na linha selecionada.
-10. Feche a página.
+## <a name="enable-warehouse-management-parameters"></a><span data-ttu-id="c11b7-180">Habilitar parâmetros de gerenciamento do depósito</span><span class="sxs-lookup"><span data-stu-id="c11b7-180">Enable warehouse management parameters</span></span>
+1. <span data-ttu-id="c11b7-181">Vá para Parâmetros de gerenciamento de depósito.</span><span class="sxs-lookup"><span data-stu-id="c11b7-181">Go to Warehouse management parameters.</span></span>
+    * <span data-ttu-id="c11b7-182">Para que seja possível processar o trabalho de depósito, você precisa definir parâmetros para o perfil de localização do usuário, o tipo da localização de preparo, e o tipo da localização do despacho final. Assim que o processo de saída terminar no tipo da localização de despacho final definido, as transações de saída relacionadas serão atualizadas para 'Retirado'.</span><span class="sxs-lookup"><span data-stu-id="c11b7-182">To be able to process warehouse work, you need to set parameters for the user location profile the staging location type, and the final shipping location type  As soon as the outbound process ends at the final shipping location type that you define, the related outbound transactions will be updated to ‘Picked’.</span></span>  
+2. <span data-ttu-id="c11b7-183">Expandir ou recolher a seção Perfis de localização.</span><span class="sxs-lookup"><span data-stu-id="c11b7-183">Expand or collapse the Location profiles section.</span></span>
+3. <span data-ttu-id="c11b7-184">No campo Localização de usuário, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="c11b7-184">In the User location field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="c11b7-185">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="c11b7-185">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="c11b7-186">Expandir ou recolher a seção Tipos de locais.</span><span class="sxs-lookup"><span data-stu-id="c11b7-186">Expand or collapse the Location types section.</span></span>
+6. <span data-ttu-id="c11b7-187">No campo Tipo de localização de preparo, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="c11b7-187">In the Staging location type field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="c11b7-188">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="c11b7-188">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="c11b7-189">No campo Tipo de localização de despacho final, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="c11b7-189">In the Final shipping location type field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="c11b7-190">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="c11b7-190">In the list, click the link in the selected row.</span></span>
+10. <span data-ttu-id="c11b7-191">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c11b7-191">Close the page.</span></span>
 
-## <a name="define-warehouse-zone-groups"></a>Definir grupos de zonas de depósito
-1. Vá para Grupos de zonas do depósito.
-    * Zonas de depósito podem ser utilizadas como filtros para opções de controle dos diferentes processos de gerenciamento do depósito. Você deve criar um grupo de zonas para que seja possível definir uma zona.  
-2. Clique em Novo.
-3. No campo ID do grupo de zonas, digite um valor.
-4. No campo Nome do grupo de zonas, digite um valor.
-5. Feche a página.
+## <a name="define-warehouse-zone-groups"></a><span data-ttu-id="c11b7-192">Definir grupos de zonas de depósito</span><span class="sxs-lookup"><span data-stu-id="c11b7-192">Define warehouse zone groups</span></span>
+1. <span data-ttu-id="c11b7-193">Vá para Grupos de zonas do depósito.</span><span class="sxs-lookup"><span data-stu-id="c11b7-193">Go to Warehouse zone groups.</span></span>
+    * <span data-ttu-id="c11b7-194">Zonas de depósito podem ser utilizadas como filtros para opções de controle dos diferentes processos de gerenciamento do depósito.</span><span class="sxs-lookup"><span data-stu-id="c11b7-194">Warehouse zones can be used as filters for options to control the different warehouse management processes.</span></span> <span data-ttu-id="c11b7-195">Você deve criar um grupo de zonas para que seja possível definir uma zona.</span><span class="sxs-lookup"><span data-stu-id="c11b7-195">You need to create a zone group before you can define a zone.</span></span>  
+2. <span data-ttu-id="c11b7-196">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c11b7-196">Click New.</span></span>
+3. <span data-ttu-id="c11b7-197">No campo ID do grupo de zonas, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-197">In the Zone group ID field, type a value.</span></span>
+4. <span data-ttu-id="c11b7-198">No campo Nome do grupo de zonas, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-198">In the Zone group name field, type a value.</span></span>
+5. <span data-ttu-id="c11b7-199">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c11b7-199">Close the page.</span></span>
 
-## <a name="define-warehouse-zones"></a>Definir Zonas de depósito
-1. Vá para Zonas.
-2. Clique em Novo.
-3. No campo ID de zona, digite um valor.
-4. No campo Nome da zona, digite um valor.
-5. No campo ID do grupo de zonas, clique no botão suspenso para abrir a pesquisa.
-6. Na lista, localize e selecione o registro desejado.
-7. Na lista, clique no link na linha selecionada.
-8. Feche a página.
+## <a name="define-warehouse-zones"></a><span data-ttu-id="c11b7-200">Definir Zonas de depósito</span><span class="sxs-lookup"><span data-stu-id="c11b7-200">Define Warehouse zones</span></span>
+1. <span data-ttu-id="c11b7-201">Vá para Zonas.</span><span class="sxs-lookup"><span data-stu-id="c11b7-201">Go to Zones.</span></span>
+2. <span data-ttu-id="c11b7-202">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c11b7-202">Click New.</span></span>
+3. <span data-ttu-id="c11b7-203">No campo ID de zona, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-203">In the Zone ID field, type a value.</span></span>
+4. <span data-ttu-id="c11b7-204">No campo Nome da zona, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-204">In the Zone name field, type a value.</span></span>
+5. <span data-ttu-id="c11b7-205">No campo ID do grupo de zonas, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="c11b7-205">In the Zone group ID field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="c11b7-206">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="c11b7-206">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="c11b7-207">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="c11b7-207">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="c11b7-208">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c11b7-208">Close the page.</span></span>
 
-## <a name="create-locations-using-the-location-setup-wizard"></a>Criar localizações utilizando o Assistente de configuração de localização
-1. Vá para Assistente de configuração de localização.
-2. No campo Depósito, clique no botão suspenso para abrir a pesquisa.
-3. Na lista, localize e selecione o registro desejado.
-4. Na lista, clique no link na linha selecionada.
-5. No campo ID de zona, clique no botão suspenso para abrir a pesquisa.
-6. Na lista, localize e selecione o registro desejado.
-7. Na lista, clique no link na linha selecionada.
-8. No campo ID do perfil de localização, clique no botão suspenso para abrir a pesquisa.
-9. Na lista, localize e selecione o registro desejado.
-10. Na lista, clique no link na linha selecionada.
-11. Na lista, marque a linha selecionada.
-12. No campo Do número, insira um número.
-    * Os campos Do número e Até o número definem quantas localizações serão criadas. Por exemplo, se você definir Do número para 1 e Até o número para 3 em todas as quatro linhas do formato de localização, 81 localizações serão criadas (3x3x3x3).  
-13. No campo Até o número, insira um número.
-14. Na lista, localize e selecione o PDV desejado.
-15. No campo Do número, insira um número.
-16. No campo Até o número, insira um número.
-17. Na lista, localize e selecione o registro desejado.
-18. No campo Do número, insira um número.
-19. No campo Até o número, insira um número.
-20. Na lista, localize e selecione o registro desejado.
-21. No campo Do número, insira um número.
-22. No campo Até o número, insira um número.
-23. Clique em Criar.
+## <a name="create-locations-using-the-location-setup-wizard"></a><span data-ttu-id="c11b7-209">Criar localizações utilizando o Assistente de configuração de localização</span><span class="sxs-lookup"><span data-stu-id="c11b7-209">Create locations using the Location setup wizard</span></span>
+1. <span data-ttu-id="c11b7-210">Vá para Assistente de configuração de localização.</span><span class="sxs-lookup"><span data-stu-id="c11b7-210">Go to Location setup wizard.</span></span>
+2. <span data-ttu-id="c11b7-211">No campo Depósito, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="c11b7-211">In the Warehouse field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="c11b7-212">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="c11b7-212">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="c11b7-213">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="c11b7-213">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="c11b7-214">No campo ID de zona, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="c11b7-214">In the Zone ID field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="c11b7-215">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="c11b7-215">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="c11b7-216">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="c11b7-216">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="c11b7-217">No campo ID do perfil de localização, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="c11b7-217">In the Location profile ID field, click the drop-down button to open the lookup.</span></span>
+9. <span data-ttu-id="c11b7-218">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="c11b7-218">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="c11b7-219">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="c11b7-219">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="c11b7-220">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="c11b7-220">In the list, mark the selected row.</span></span>
+12. <span data-ttu-id="c11b7-221">No campo Do número, insira um número.</span><span class="sxs-lookup"><span data-stu-id="c11b7-221">In the From number field, enter a number.</span></span>
+    * <span data-ttu-id="c11b7-222">Os campos Do número e Até o número definem quantas localizações serão criadas.</span><span class="sxs-lookup"><span data-stu-id="c11b7-222">The From number and To number fields define how many locations will be created.</span></span> <span data-ttu-id="c11b7-223">Por exemplo, se você definir Do número para 1 e Até o número para 3 em todas as quatro linhas do formato de localização, 81 localizações serão criadas (3x3x3x3).</span><span class="sxs-lookup"><span data-stu-id="c11b7-223">For example, if you set From number to 1 and To number to 3 for all four lines in the location format, 81 locations will be created (3x3x3x3).</span></span>  
+13. <span data-ttu-id="c11b7-224">No campo Até o número, insira um número.</span><span class="sxs-lookup"><span data-stu-id="c11b7-224">In the To number field, enter a number.</span></span>
+14. <span data-ttu-id="c11b7-225">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="c11b7-225">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="c11b7-226">No campo Do número, insira um número.</span><span class="sxs-lookup"><span data-stu-id="c11b7-226">In the From number field, enter a number.</span></span>
+16. <span data-ttu-id="c11b7-227">No campo Até o número, insira um número.</span><span class="sxs-lookup"><span data-stu-id="c11b7-227">In the To number field, enter a number.</span></span>
+17. <span data-ttu-id="c11b7-228">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="c11b7-228">In the list, find and select the desired record.</span></span>
+18. <span data-ttu-id="c11b7-229">No campo Do número, insira um número.</span><span class="sxs-lookup"><span data-stu-id="c11b7-229">In the From number field, enter a number.</span></span>
+19. <span data-ttu-id="c11b7-230">No campo Até o número, insira um número.</span><span class="sxs-lookup"><span data-stu-id="c11b7-230">In the To number field, enter a number.</span></span>
+20. <span data-ttu-id="c11b7-231">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="c11b7-231">In the list, find and select the desired record.</span></span>
+21. <span data-ttu-id="c11b7-232">No campo Do número, insira um número.</span><span class="sxs-lookup"><span data-stu-id="c11b7-232">In the From number field, enter a number.</span></span>
+22. <span data-ttu-id="c11b7-233">No campo Até o número, insira um número.</span><span class="sxs-lookup"><span data-stu-id="c11b7-233">In the To number field, enter a number.</span></span>
+23. <span data-ttu-id="c11b7-234">Clique em Criar.</span><span class="sxs-lookup"><span data-stu-id="c11b7-234">Click Create.</span></span>
 
-## <a name="create-locations-manually"></a>Criar localizações manualmente
-1. Vá para Localizações.
-    * A criação manual de localizações dentro de um depósito pode ser facilmente realizada. O nome da localização e o ID do perfil de localização são valores obrigatórios.  
-2. Clique em Novo.
-3. No campo Depósito, digite um valor.
-4. No campo Localização, digite um valor.
-    * Observe que você está criando uma nova localização aqui, então você precisa digitar um novo nome exclusivo, em vez de selecionar um existente.  
-5. No campo ID do perfil de localização, digite um valor.
-6. Feche a página.
+## <a name="create-locations-manually"></a><span data-ttu-id="c11b7-235">Criar localizações manualmente</span><span class="sxs-lookup"><span data-stu-id="c11b7-235">Create locations manually</span></span>
+1. <span data-ttu-id="c11b7-236">Vá para Localizações.</span><span class="sxs-lookup"><span data-stu-id="c11b7-236">Go to Locations.</span></span>
+    * <span data-ttu-id="c11b7-237">A criação manual de localizações dentro de um depósito pode ser facilmente realizada.</span><span class="sxs-lookup"><span data-stu-id="c11b7-237">Manually creation of locations within a warehouse can easily be done.</span></span> <span data-ttu-id="c11b7-238">O nome da localização e o ID do perfil de localização são valores obrigatórios.</span><span class="sxs-lookup"><span data-stu-id="c11b7-238">The location name and the Location profile ID are mandatory values.</span></span>  
+2. <span data-ttu-id="c11b7-239">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c11b7-239">Click New.</span></span>
+3. <span data-ttu-id="c11b7-240">No campo Depósito, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-240">In the Warehouse field, type a value.</span></span>
+4. <span data-ttu-id="c11b7-241">No campo Localização, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-241">In the Location field, type a value.</span></span>
+    * <span data-ttu-id="c11b7-242">Observe que você está criando uma nova localização aqui, então você precisa digitar um novo nome exclusivo, em vez de selecionar um existente.</span><span class="sxs-lookup"><span data-stu-id="c11b7-242">Note that you're creating a new location here, so you need to type a new unique name, rather than selecting an existing one.</span></span>  
+5. <span data-ttu-id="c11b7-243">No campo ID do perfil de localização, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-243">In the Location profile ID field, type a value.</span></span>
+6. <span data-ttu-id="c11b7-244">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c11b7-244">Close the page.</span></span>
 
-## <a name="define-pack-size-categories"></a>Definir Categorias de tamanho do pacote
-1. Vá para Categorias de tamanho do pacote.
-    * As categorias de tamanho do pacote podem ser utilizadas para agrupar itens que possuem tamanhos físicos de embalagem semelhantes. Neste exemplo a categoria de tamanho do pacote será usada para controlar a capacidade nos locais de retirada dentro de uma zona específica do depósito. Por favor observe que o ID da categoria de tamanho do pacote deve ser atribuído à entidade do produto lançado para que possa ser usado como parte do processamento dos limites de armazenamento.  
-2. Clique em Novo.
-3. No campo ID de categoria de tamanho do pacote, digite um valor.
-4. No campo Nome da categoria de tamanho do pacote, digite um valor.
-5. Feche a página.
+## <a name="define-pack-size-categories"></a><span data-ttu-id="c11b7-245">Definir Categorias de tamanho do pacote</span><span class="sxs-lookup"><span data-stu-id="c11b7-245">Define Pack size categories</span></span>
+1. <span data-ttu-id="c11b7-246">Vá para Categorias de tamanho do pacote.</span><span class="sxs-lookup"><span data-stu-id="c11b7-246">Go to Pack size categories.</span></span>
+    * <span data-ttu-id="c11b7-247">As categorias de tamanho do pacote podem ser utilizadas para agrupar itens que possuem tamanhos físicos de embalagem semelhantes.</span><span class="sxs-lookup"><span data-stu-id="c11b7-247">Pack size categories can be used to group items that have similar physical packing sizes.</span></span> <span data-ttu-id="c11b7-248">Neste exemplo a categoria de tamanho do pacote será usada para controlar a capacidade nos locais de retirada dentro de uma zona específica do depósito.</span><span class="sxs-lookup"><span data-stu-id="c11b7-248">In this example the pack size category will be used to control the capacity at the picking locations within a specific zone of the warehouse.</span></span> <span data-ttu-id="c11b7-249">Por favor observe que o ID da categoria de tamanho do pacote deve ser atribuído à entidade do produto lançado para que possa ser usado como parte do processamento dos limites de armazenamento.</span><span class="sxs-lookup"><span data-stu-id="c11b7-249">Please note that the pack size category ID must be assigned to the released product entity in order to be used as part of the stocking limits processing.</span></span>  
+2. <span data-ttu-id="c11b7-250">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c11b7-250">Click New.</span></span>
+3. <span data-ttu-id="c11b7-251">No campo ID de categoria de tamanho do pacote, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-251">In the Pack size category ID field, type a value.</span></span>
+4. <span data-ttu-id="c11b7-252">No campo Nome da categoria de tamanho do pacote, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-252">In the Pack size category name field, type a value.</span></span>
+5. <span data-ttu-id="c11b7-253">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c11b7-253">Close the page.</span></span>
 
-## <a name="define-location-stocking-limits"></a>Definir limites de estoque de localização
-1. Vá para Limites de armazenamento da localização.
-    * Os limites de armazenamento do local ajudam a garantir que não será criado trabalho para solicitar que o estoque seja colocado em uma localização que não possui a capacidade física necessária para suportá-lo.  
-2. Clique em Novo.
-3. No campo Depósito, digite um valor.
-4. No campo ID do perfil de localização, digite um valor.
-5. No campo ID de categoria de tamanho do pacote, digite um valor.
-6. No campo Quantidade, insira um número.
-7. Clique em Salvar.
-8. Feche a página.
+## <a name="define-location-stocking-limits"></a><span data-ttu-id="c11b7-254">Definir limites de estoque de localização</span><span class="sxs-lookup"><span data-stu-id="c11b7-254">Define location stocking limits</span></span>
+1. <span data-ttu-id="c11b7-255">Vá para Limites de armazenamento da localização.</span><span class="sxs-lookup"><span data-stu-id="c11b7-255">Go to Location stocking limits.</span></span>
+    * <span data-ttu-id="c11b7-256">Os limites de armazenamento do local ajudam a garantir que não será criado trabalho para solicitar que o estoque seja colocado em uma localização que não possui a capacidade física necessária para suportá-lo.</span><span class="sxs-lookup"><span data-stu-id="c11b7-256">Location stocking limits help to make sure that work isn't created to request that inventory to be put in a location that doesn't have the physical capacity to carry the inventory.</span></span>  
+2. <span data-ttu-id="c11b7-257">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c11b7-257">Click New.</span></span>
+3. <span data-ttu-id="c11b7-258">No campo Depósito, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-258">In the Warehouse field, type a value.</span></span>
+4. <span data-ttu-id="c11b7-259">No campo ID do perfil de localização, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-259">In the Location profile ID field, type a value.</span></span>
+5. <span data-ttu-id="c11b7-260">No campo ID de categoria de tamanho do pacote, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-260">In the Pack size category ID field, type a value.</span></span>
+6. <span data-ttu-id="c11b7-261">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="c11b7-261">In the Quantity field, enter a number.</span></span>
+7. <span data-ttu-id="c11b7-262">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="c11b7-262">Click Save.</span></span>
+8. <span data-ttu-id="c11b7-263">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c11b7-263">Close the page.</span></span>
 
-## <a name="define-fixed-picking-locations"></a>Definir locais de retirada fixos
-1. Vá para Localizações fixas.
-    * Você pode definir as localizações a serem utilizadas por produto ou por variante do produto. É possível criar várias localizações fixas para o mesmo produto dentro do mesmo depósito.  
-2. Clique em Novo.
-3. No campo Número de item, digite um valor.
-4. No campo Depósito, digite um valor.
-5. No campo Localização, clique no botão suspenso para abrir a pesquisa.
-6. Na lista, clique no link na linha selecionada.
-7. Feche a página.
+## <a name="define-fixed-picking-locations"></a><span data-ttu-id="c11b7-264">Definir locais de retirada fixos</span><span class="sxs-lookup"><span data-stu-id="c11b7-264">Define fixed picking locations</span></span>
+1. <span data-ttu-id="c11b7-265">Vá para Localizações fixas.</span><span class="sxs-lookup"><span data-stu-id="c11b7-265">Go to Fixed locations.</span></span>
+    * <span data-ttu-id="c11b7-266">Você pode definir as localizações a serem utilizadas por produto ou por variante do produto.</span><span class="sxs-lookup"><span data-stu-id="c11b7-266">You can define the locations to be used per product or per product variant.</span></span> <span data-ttu-id="c11b7-267">É possível criar várias localizações fixas para o mesmo produto dentro do mesmo depósito.</span><span class="sxs-lookup"><span data-stu-id="c11b7-267">It is possible to create multiple fixed locations for the same product within the same warehouse.</span></span>  
+2. <span data-ttu-id="c11b7-268">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c11b7-268">Click New.</span></span>
+3. <span data-ttu-id="c11b7-269">No campo Número de item, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-269">In the Item number field, type a value.</span></span>
+4. <span data-ttu-id="c11b7-270">No campo Depósito, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c11b7-270">In the Warehouse field, type a value.</span></span>
+5. <span data-ttu-id="c11b7-271">No campo Localização, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="c11b7-271">In the Location field, click the drop-down button to open the lookup.</span></span>
+6. <span data-ttu-id="c11b7-272">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="c11b7-272">In the list, click the link in the selected row.</span></span>
+7. <span data-ttu-id="c11b7-273">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c11b7-273">Close the page.</span></span>
 
 

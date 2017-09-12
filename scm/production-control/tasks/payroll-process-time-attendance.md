@@ -17,56 +17,56 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: d83f58f860f64b03c0a27d43e3f0695968d0699b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 22ce633f65847f10fbe507b71bfc2bb33f595501
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="enable-the-payroll-process-for-time-and-attendance"></a>Habilitar o processo de folha de pagamento para horário e presença
+# <a name="enable-the-payroll-process-for-time-and-attendance"></a><span data-ttu-id="9f184-103">Habilitar o processo de folha de pagamento para horário e presença</span><span class="sxs-lookup"><span data-stu-id="9f184-103">Enable the payroll process for time and attendance</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento mostra como habilitar o processo de folha de pagamento de tempo e presença. A empresa de dados demo usada para criar este procedimento é USMF.
+<span data-ttu-id="9f184-104">Este procedimento mostra como habilitar o processo de folha de pagamento de tempo e presença.</span><span class="sxs-lookup"><span data-stu-id="9f184-104">This procedure shows how to enable the payroll process for time and attendance.</span></span> <span data-ttu-id="9f184-105">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="9f184-105">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-pay-type-with-a-related-pay-rate"></a>Criar um tipo de pagamento com uma taxa de pagamento relacionada
-1. Hora e atendimento > Configuração > Folha de pagamento > Tipos de pagamento
-2. Clique em Novo.
-3. No campo Tipo de pagamento, digite um valor.
-4. No campo Descrição, digite um valor.
-5. Clique em Salvar.
-6. Clique em Taxas.
-    * As taxas para os tipos de pagamento são definidas para intervalos de tempo específicos e taxas individuais podem ser criadas para trabalhadores. Nem sempre é necessário criar taxas para tipos de pagamento em tempo e presença. Essas informações já podem existir no sistema de folha de pagamento usado na geração dos salários.  
-7. Clique em Novo.
-8. Na lista, marque a linha selecionada.
-9. No campo Taxa, insira um número.
-10. Clique em Salvar.
+## <a name="create-a-pay-type-with-a-related-pay-rate"></a><span data-ttu-id="9f184-106">Criar um tipo de pagamento com uma taxa de pagamento relacionada</span><span class="sxs-lookup"><span data-stu-id="9f184-106">Create a pay type with a related pay rate</span></span>
+1. <span data-ttu-id="9f184-107">Hora e atendimento > Configuração > Folha de pagamento > Tipos de pagamento</span><span class="sxs-lookup"><span data-stu-id="9f184-107">Time and attendance > Setup > Payroll > Pay types</span></span>
+2. <span data-ttu-id="9f184-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="9f184-108">Click New.</span></span>
+3. <span data-ttu-id="9f184-109">No campo Tipo de pagamento, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="9f184-109">In the Pay type field, type a value.</span></span>
+4. <span data-ttu-id="9f184-110">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="9f184-110">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="9f184-111">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="9f184-111">Click Save.</span></span>
+6. <span data-ttu-id="9f184-112">Clique em Taxas.</span><span class="sxs-lookup"><span data-stu-id="9f184-112">Click Rates.</span></span>
+    * <span data-ttu-id="9f184-113">As taxas para os tipos de pagamento são definidas para intervalos de tempo específicos e taxas individuais podem ser criadas para trabalhadores.</span><span class="sxs-lookup"><span data-stu-id="9f184-113">Rates for pay types are set up for specific time intervals, and individual rates can be created for workers.</span></span> <span data-ttu-id="9f184-114">Nem sempre é necessário criar taxas para tipos de pagamento em tempo e presença.</span><span class="sxs-lookup"><span data-stu-id="9f184-114">It is not always necessary to create rates for pay types in time and attendance.</span></span> <span data-ttu-id="9f184-115">Essas informações já podem existir no sistema de folha de pagamento usado na geração dos salários.</span><span class="sxs-lookup"><span data-stu-id="9f184-115">This information may already exist in the payroll system that is used to generate wages.</span></span>  
+7. <span data-ttu-id="9f184-116">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="9f184-116">Click New.</span></span>
+8. <span data-ttu-id="9f184-117">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="9f184-117">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="9f184-118">No campo Taxa, insira um número.</span><span class="sxs-lookup"><span data-stu-id="9f184-118">In the Rate field, enter a number.</span></span>
+10. <span data-ttu-id="9f184-119">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="9f184-119">Click Save.</span></span>
 
-## <a name="create-a-pay-agreement"></a>Criar um contrato de pagamento
-1. Feche a página.
-2. Feche a página.
-3. Vá para Contratos de pagamento.
-    * Hora e atendimento > Configuração > Contratos de pagamento  
-4. Clique em Novo.
-5. No campo Contrato de pagamento, digite um valor.
-6. No campo Descrição, digite um valor.
-7. Clique em Salvar.
-8. Clique em Linhas de contrato.
-9. Clique em Novo.
-10. Na lista, marque a linha selecionada.
-11. No campo Tipo de perfil, insira ou selecione um valor.
-12. No campo Tipo de pagamento, insira ou selecione um valor.
+## <a name="create-a-pay-agreement"></a><span data-ttu-id="9f184-120">Criar um contrato de pagamento</span><span class="sxs-lookup"><span data-stu-id="9f184-120">Create a pay agreement</span></span>
+1. <span data-ttu-id="9f184-121">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="9f184-121">Close the page.</span></span>
+2. <span data-ttu-id="9f184-122">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="9f184-122">Close the page.</span></span>
+3. <span data-ttu-id="9f184-123">Vá para Contratos de pagamento.</span><span class="sxs-lookup"><span data-stu-id="9f184-123">Go to Pay agreements.</span></span>
+    * <span data-ttu-id="9f184-124">Hora e atendimento > Configuração > Contratos de pagamento</span><span class="sxs-lookup"><span data-stu-id="9f184-124">Time and attendance > Setup > Pay agreements</span></span>  
+4. <span data-ttu-id="9f184-125">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="9f184-125">Click New.</span></span>
+5. <span data-ttu-id="9f184-126">No campo Contrato de pagamento, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="9f184-126">In the Pay agreement field, type a value.</span></span>
+6. <span data-ttu-id="9f184-127">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="9f184-127">In the Description field, type a value.</span></span>
+7. <span data-ttu-id="9f184-128">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="9f184-128">Click Save.</span></span>
+8. <span data-ttu-id="9f184-129">Clique em Linhas de contrato.</span><span class="sxs-lookup"><span data-stu-id="9f184-129">Click Agreement lines.</span></span>
+9. <span data-ttu-id="9f184-130">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="9f184-130">Click New.</span></span>
+10. <span data-ttu-id="9f184-131">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="9f184-131">In the list, mark the selected row.</span></span>
+11. <span data-ttu-id="9f184-132">No campo Tipo de perfil, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="9f184-132">In the Profile type field, enter or select a value.</span></span>
+12. <span data-ttu-id="9f184-133">No campo Tipo de pagamento, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="9f184-133">In the Pay type field, enter or select a value.</span></span>
 
-## <a name="set-up-pay-agreement-for-time-and-registration-worker"></a>Configurar o contrato de pagamento do funcionário por tempo e registro
-1. Feche a página.
-2. Feche a página.
-3. Vá para Trabalhadores de registro de tempo.
-    * Hora e atendimento > Configuração > Tempo de registro dos trabalhadores  
-4. Na lista, clique no link na linha selecionada.
-5. Clique na guia Emprego.
-6. Expanda a seção de Tempo de registro.
-7. Clique em Editar.
-8. No campo Contrato de pagamento, insira ou selecione um valor.
+## <a name="set-up-pay-agreement-for-time-and-registration-worker"></a><span data-ttu-id="9f184-134">Configurar o contrato de pagamento do funcionário por tempo e registro</span><span class="sxs-lookup"><span data-stu-id="9f184-134">Set up pay agreement for time and registration worker</span></span>
+1. <span data-ttu-id="9f184-135">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="9f184-135">Close the page.</span></span>
+2. <span data-ttu-id="9f184-136">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="9f184-136">Close the page.</span></span>
+3. <span data-ttu-id="9f184-137">Vá para Trabalhadores de registro de tempo.</span><span class="sxs-lookup"><span data-stu-id="9f184-137">Go to Time registration workers.</span></span>
+    * <span data-ttu-id="9f184-138">Hora e atendimento > Configuração > Tempo de registro dos trabalhadores</span><span class="sxs-lookup"><span data-stu-id="9f184-138">Time and attendance > Setup > Time registration workers</span></span>  
+4. <span data-ttu-id="9f184-139">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="9f184-139">In the list, click the link in the selected row.</span></span>
+5. <span data-ttu-id="9f184-140">Clique na guia Emprego.</span><span class="sxs-lookup"><span data-stu-id="9f184-140">Click the Employment tab.</span></span>
+6. <span data-ttu-id="9f184-141">Expanda a seção de Tempo de registro.</span><span class="sxs-lookup"><span data-stu-id="9f184-141">Expand the Time registration section.</span></span>
+7. <span data-ttu-id="9f184-142">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="9f184-142">Click Edit.</span></span>
+8. <span data-ttu-id="9f184-143">No campo Contrato de pagamento, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="9f184-143">In the Pay agreement field, enter or select a value.</span></span>
 
 

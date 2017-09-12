@@ -16,32 +16,32 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e19022ee497148a90bbbf96d10c1c024cb02cdbf
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 928fe98c089ec907a5b59864f902910f51ce1fd1
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-validate-journals"></a>Criar e validar diários
+# <a name="create-and-validate-journals"></a><span data-ttu-id="bb3a3-103">Criar e validar diários</span><span class="sxs-lookup"><span data-stu-id="bb3a3-103">Create and validate journals</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este guia de tarefas cria e valida diários e linhas de diário. Estas tarefas usam a empresa de demonstração USMF.  
+<span data-ttu-id="bb3a3-104">Este guia de tarefas cria e valida diários e linhas de diário.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-104">This task guide creates and validates journals and journal lines.</span></span> <span data-ttu-id="bb3a3-105">Estas tarefas usam a empresa de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-105">This tasks uses the USMF demo company.</span></span>  
 
 
 
-1. Ir para Contabilidade > Entradas de diários > Diários gerais.
-2. Clique em Novo.
-3. No campo Nome, clique no botão suspenso para abrir a pesquisa.
-4. Na lista, localize e selecione o registro desejado.
-5. Clique em Linhas.
-6. No campo Conta, insira uma conta apropriada com base no tipo de conta.
-7. No campo Descrição, digite um valor.
-8. Insira um valor para a conta tanto em débito quanto em crédito. Esta tarefa assume um valor de débito.
-9. No campo Contrapartida, insira uma conta apropriada com base no tipo de contrapartida.
-10. Clique em Validar.
-11. Clique em Validar.
-12. Clique em Lançar.
-13. Clique em Comprovante.
+1. <span data-ttu-id="bb3a3-106">Ir para Contabilidade > Entradas de diários > Diários gerais.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-106">Go to General ledger > Journal entries > General journals.</span></span>
+2. <span data-ttu-id="bb3a3-107">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-107">Click New.</span></span>
+3. <span data-ttu-id="bb3a3-108">No campo Nome, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-108">In the Name field, click the drop-down button to open the lookup.</span></span>
+4. <span data-ttu-id="bb3a3-109">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-109">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="bb3a3-110">Clique em Linhas.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-110">Click Lines.</span></span>
+6. <span data-ttu-id="bb3a3-111">No campo Conta, insira uma conta apropriada com base no tipo de conta.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-111">In the Account field enter an appropriate account based on the Account type.</span></span>
+7. <span data-ttu-id="bb3a3-112">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-112">In the Description field, type a value.</span></span>
+8. <span data-ttu-id="bb3a3-113">Insira um valor para a conta tanto em débito quanto em crédito.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-113">Enter an amount for the Account in either Debit or Credit.</span></span> <span data-ttu-id="bb3a3-114">Esta tarefa assume um valor de débito.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-114">This task guide is assuming a debit amount.</span></span>
+9. <span data-ttu-id="bb3a3-115">No campo Contrapartida, insira uma conta apropriada com base no tipo de contrapartida.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-115">In the Offset account field enter an appropriate account based on the Offset account type.</span></span>
+10. <span data-ttu-id="bb3a3-116">Clique em Validar.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-116">Click Validate.</span></span>
+11. <span data-ttu-id="bb3a3-117">Clique em Validar.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-117">Click Validate.</span></span>
+12. <span data-ttu-id="bb3a3-118">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-118">Click Post.</span></span>
+13. <span data-ttu-id="bb3a3-119">Clique em Comprovante.</span><span class="sxs-lookup"><span data-stu-id="bb3a3-119">Click Voucher.</span></span>
 
 

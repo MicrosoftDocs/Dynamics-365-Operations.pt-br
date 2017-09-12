@@ -16,70 +16,70 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: da8dd3bbc350c29ce1f7dc22ab3914dfee4b967c
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 866a4f29723e10eb0a1e1be86d6d4f6da8a69b1c
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-product-configuration-model"></a>Criar um modelo de configuração do produto
+# <a name="create-a-product-configuration-model"></a><span data-ttu-id="28e97-103">Criar um modelo de configuração do produto</span><span class="sxs-lookup"><span data-stu-id="28e97-103">Create a product configuration model</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento mostra como criar um modelo de configuração do produto e especificar as informações básicas, como atributos e subcomponentes. A empresa de dados demo usada para criar este procedimento é USMF.
+<span data-ttu-id="28e97-104">Este procedimento mostra como criar um modelo de configuração do produto e especificar as informações básicas, como atributos e subcomponentes.</span><span class="sxs-lookup"><span data-stu-id="28e97-104">This procedure shows how to create a product configuration model and enter basic information such as attributes and subcomponents.</span></span> <span data-ttu-id="28e97-105">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="28e97-105">The demo data company used to create this procedure is USMF.</span></span>
 
 
-## <a name="create-a-product-model"></a>Criar um modelo de produto
-1. Clique em Definição de modelo de variante de produto.
-2. Clique em Modelos de configuração do produto.
-3. Clique em Novo.
-4. No campo Nome, digite um valor.
-5. No campo Descrição, digite um valor.
-6. No campo Estratégia do agente de resolução, selecione uma opção.
-    * A estratégia do agente de resolução determina como as restrições no modelo de configuração de produto baseada em restrições são processadas. A seleção pode ter impacto sobre o desempenho do modelo de configuração de produto.  
-7. No campo Nome, digite um valor.
-    * O componente raiz representa o modelo de configuração de produto, mas ele pode ser usado em outros modelos de produto.  
-8. Clique em OK.
-9. No campo Reutilizar configurações, selecione uma opção.
-    * Se o parâmetro de reutilização de configurações for definido como Sim, o sistema verificará se há configurações idênticas após a sessão de configuração e fará o reuso quando uma combinação exata for encontrada.  
+## <a name="create-a-product-model"></a><span data-ttu-id="28e97-106">Criar um modelo de produto</span><span class="sxs-lookup"><span data-stu-id="28e97-106">Create a product model</span></span>
+1. <span data-ttu-id="28e97-107">Clique em Definição de modelo de variante de produto.</span><span class="sxs-lookup"><span data-stu-id="28e97-107">Click Product variant model definition.</span></span>
+2. <span data-ttu-id="28e97-108">Clique em Modelos de configuração do produto.</span><span class="sxs-lookup"><span data-stu-id="28e97-108">Click Product configuration models.</span></span>
+3. <span data-ttu-id="28e97-109">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="28e97-109">Click New.</span></span>
+4. <span data-ttu-id="28e97-110">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28e97-110">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="28e97-111">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28e97-111">In the Description field, type a value.</span></span>
+6. <span data-ttu-id="28e97-112">No campo Estratégia do agente de resolução, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="28e97-112">In the Solver strategy field, select an option.</span></span>
+    * <span data-ttu-id="28e97-113">A estratégia do agente de resolução determina como as restrições no modelo de configuração de produto baseada em restrições são processadas.</span><span class="sxs-lookup"><span data-stu-id="28e97-113">The solver strategy determines how the constraints in a constraint-based product configuration model are processed.</span></span> <span data-ttu-id="28e97-114">A seleção pode ter impacto sobre o desempenho do modelo de configuração de produto.</span><span class="sxs-lookup"><span data-stu-id="28e97-114">This selection can have an impact on the performance of the product configuration model.</span></span>  
+7. <span data-ttu-id="28e97-115">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28e97-115">In the Name field, type a value.</span></span>
+    * <span data-ttu-id="28e97-116">O componente raiz representa o modelo de configuração de produto, mas ele pode ser usado em outros modelos de produto.</span><span class="sxs-lookup"><span data-stu-id="28e97-116">The root component represents the product configuration model, but it can also be used in other product models.</span></span>  
+8. <span data-ttu-id="28e97-117">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="28e97-117">Click OK.</span></span>
+9. <span data-ttu-id="28e97-118">No campo Reutilizar configurações, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="28e97-118">In the Reuse configurations field, select an option.</span></span>
+    * <span data-ttu-id="28e97-119">Se o parâmetro de reutilização de configurações for definido como Sim, o sistema verificará se há configurações idênticas após a sessão de configuração e fará o reuso quando uma combinação exata for encontrada.</span><span class="sxs-lookup"><span data-stu-id="28e97-119">If the reuse configurations parameter is set to Yes, the system will check for identical configurations after each configuration session and reuse if an exact match is found.</span></span>  
 
-## <a name="add-attributes"></a>Adicionar atributos
-1. Expanda a seção Atributos.
-2. Clique em Adicionar.
-3. Na lista, marque a linha selecionada.
-4. No campo Nome, digite um valor.
-5. No campo Nome do agente de resolução, digite um valor.
-    * O nome do agente de resolução é usado pelo agente de resolução de restrição do configurador de produtos. Ele não deve incluir espaços ou caracteres especiais, exceto _ (sublinhado).  
-6. No campo Descrição, digite um valor.
-    * O texto de descrição é exibido ao usuário da configuração e, portanto, pode ajudar na seleção do valor de atributo correto.  
-7. No campo Tipo de atributo, insira ou selecione um valor.
-    * O tipo de atributo determina quais valores estão disponíveis para o atributo.  
-8. Marque a caixa de seleção Incluir em reutilização.
-    * Essa opção só está disponível quando a opção Reutilizar configurações for selecionada. A inclusão do atributo na caixa de seleção de reutilização significa que esse atributo será considerado quando o sistema estiver à procura de uma combinação exata.  
+## <a name="add-attributes"></a><span data-ttu-id="28e97-120">Adicionar atributos</span><span class="sxs-lookup"><span data-stu-id="28e97-120">Add attributes</span></span>
+1. <span data-ttu-id="28e97-121">Expanda a seção Atributos.</span><span class="sxs-lookup"><span data-stu-id="28e97-121">Expand the Attributes section.</span></span>
+2. <span data-ttu-id="28e97-122">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="28e97-122">Click Add.</span></span>
+3. <span data-ttu-id="28e97-123">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="28e97-123">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="28e97-124">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28e97-124">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="28e97-125">No campo Nome do agente de resolução, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28e97-125">In the Solver name field, type a value.</span></span>
+    * <span data-ttu-id="28e97-126">O nome do agente de resolução é usado pelo agente de resolução de restrição do configurador de produtos.</span><span class="sxs-lookup"><span data-stu-id="28e97-126">The Solver name is used by the constraint solver of the product configurator.</span></span> <span data-ttu-id="28e97-127">Ele não deve incluir espaços ou caracteres especiais, exceto _ (sublinhado).</span><span class="sxs-lookup"><span data-stu-id="28e97-127">It must not include spaces or special characters except _ (underscore).</span></span>  
+6. <span data-ttu-id="28e97-128">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28e97-128">In the Description field, type a value.</span></span>
+    * <span data-ttu-id="28e97-129">O texto de descrição é exibido ao usuário da configuração e, portanto, pode ajudar na seleção do valor de atributo correto.</span><span class="sxs-lookup"><span data-stu-id="28e97-129">The description text is displayed to the configuration user and can therefore serve as help in selecting the right attribute value.</span></span>  
+7. <span data-ttu-id="28e97-130">No campo Tipo de atributo, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="28e97-130">In the Attribute type field, enter or select a value.</span></span>
+    * <span data-ttu-id="28e97-131">O tipo de atributo determina quais valores estão disponíveis para o atributo.</span><span class="sxs-lookup"><span data-stu-id="28e97-131">The attribute type determines which values are available for the attribute.</span></span>  
+8. <span data-ttu-id="28e97-132">Marque a caixa de seleção Incluir em reutilização.</span><span class="sxs-lookup"><span data-stu-id="28e97-132">Select the Include in reuse check box.</span></span>
+    * <span data-ttu-id="28e97-133">Essa opção só está disponível quando a opção Reutilizar configurações for selecionada.</span><span class="sxs-lookup"><span data-stu-id="28e97-133">This option is only available when the Reuse configurations option is selected.</span></span> <span data-ttu-id="28e97-134">A inclusão do atributo na caixa de seleção de reutilização significa que esse atributo será considerado quando o sistema estiver à procura de uma combinação exata.</span><span class="sxs-lookup"><span data-stu-id="28e97-134">Including the attribute in the reuse check box means that this attribute will be considered when the system is looking for an exact match.</span></span>  
 
-## <a name="add-subcomponents"></a>Adicionar subcomponentes
-1. Expanda a seção Subcomponentes.
-2. Clique em Adicionar.
-3. Na lista, marque a linha selecionada.
-4. No campo Nome, digite um valor.
-5. No campo Nome do agente de resolução, digite um valor.
-6. No campo Descrição, digite um valor.
-7. No campo Componente, insira ou selecione um valor.
-    * Cada subcomponente deve fazer referência a uma definição de componente. Esse design oferece suporte a componentes reutilizáveis e garante que, após ser definido, o componente possa ser usado em muitos modelos de produto.  
-8. Clique em Salvar.
-9. Clique em Detalhes da linha de BOM.
-    * O formulário Detalhes da linha de BOM permite que o usuário selecione as propriedades necessárias para o subcomponente. Cada propriedade pode receber um valor fixo ou mapeada para um atributo. O mapeamento para um atributo resultará na propriedade de linha de BOM obtendo diferentes valores conforme a seleção de configuração.  
-10. No campo Número do item, insira ou selecione um valor.
-    * Cada subcomponente representa um produto mestre configurável com a tecnologia de configuração baseada em restrições. A referência é feita por meio do número do item.  
-11. Marque a caixa de seleção Definir.
-12. Selecione Sim no campo Cálculo.
-    * Definir a opção de cálculo garante que o produto será incluído ao executar um cálculo de custo para o produto.  
-13. Clique na guia Configuração.
-14. Marque a caixa de seleção Definir.
-15. No campo Quantidade, insira um número.
-    * O campo quantidade determina o quanto desse produto será consumido no produto configurado.  
-16. Marque a caixa de seleção Definir.
-17. No campo Por série, insira um número.
-18. Clique em OK.
+## <a name="add-subcomponents"></a><span data-ttu-id="28e97-135">Adicionar subcomponentes</span><span class="sxs-lookup"><span data-stu-id="28e97-135">Add subcomponents</span></span>
+1. <span data-ttu-id="28e97-136">Expanda a seção Subcomponentes.</span><span class="sxs-lookup"><span data-stu-id="28e97-136">Expand the Subcomponents section.</span></span>
+2. <span data-ttu-id="28e97-137">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="28e97-137">Click Add.</span></span>
+3. <span data-ttu-id="28e97-138">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="28e97-138">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="28e97-139">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28e97-139">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="28e97-140">No campo Nome do agente de resolução, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28e97-140">In the Solver name field, type a value.</span></span>
+6. <span data-ttu-id="28e97-141">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="28e97-141">In the Description field, type a value.</span></span>
+7. <span data-ttu-id="28e97-142">No campo Componente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="28e97-142">In the Component field, enter or select a value.</span></span>
+    * <span data-ttu-id="28e97-143">Cada subcomponente deve fazer referência a uma definição de componente.</span><span class="sxs-lookup"><span data-stu-id="28e97-143">Each subcomponent must reference a component definition.</span></span> <span data-ttu-id="28e97-144">Esse design oferece suporte a componentes reutilizáveis e garante que, após ser definido, o componente possa ser usado em muitos modelos de produto.</span><span class="sxs-lookup"><span data-stu-id="28e97-144">This design supports reusable components and ensures that once a component has been defined it can be used in many product models.</span></span>  
+8. <span data-ttu-id="28e97-145">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="28e97-145">Click Save.</span></span>
+9. <span data-ttu-id="28e97-146">Clique em Detalhes da linha de BOM.</span><span class="sxs-lookup"><span data-stu-id="28e97-146">Click BOM line details.</span></span>
+    * <span data-ttu-id="28e97-147">O formulário Detalhes da linha de BOM permite que o usuário selecione as propriedades necessárias para o subcomponente.</span><span class="sxs-lookup"><span data-stu-id="28e97-147">The BOM line details form enables the user to select the required properties for the subcomponent.</span></span> <span data-ttu-id="28e97-148">Cada propriedade pode receber um valor fixo ou mapeada para um atributo.</span><span class="sxs-lookup"><span data-stu-id="28e97-148">Each property can be given a fixed value or mapped to an attribute.</span></span> <span data-ttu-id="28e97-149">O mapeamento para um atributo resultará na propriedade de linha de BOM obtendo diferentes valores conforme a seleção de configuração.</span><span class="sxs-lookup"><span data-stu-id="28e97-149">Mapping to an attribute will result in the BOM line property getting different values depending on the configuration selection.</span></span>  
+10. <span data-ttu-id="28e97-150">No campo Número do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="28e97-150">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="28e97-151">Cada subcomponente representa um produto mestre configurável com a tecnologia de configuração baseada em restrições.</span><span class="sxs-lookup"><span data-stu-id="28e97-151">Each subcomponent represents a configurable product master with constraint-based configuration technology.</span></span> <span data-ttu-id="28e97-152">A referência é feita por meio do número do item.</span><span class="sxs-lookup"><span data-stu-id="28e97-152">The reference is made through the item number.</span></span>  
+11. <span data-ttu-id="28e97-153">Marque a caixa de seleção Definir.</span><span class="sxs-lookup"><span data-stu-id="28e97-153">Select the Set check box.</span></span>
+12. <span data-ttu-id="28e97-154">Selecione Sim no campo Cálculo.</span><span class="sxs-lookup"><span data-stu-id="28e97-154">Select Yes in the Calculation field.</span></span>
+    * <span data-ttu-id="28e97-155">Definir a opção de cálculo garante que o produto será incluído ao executar um cálculo de custo para o produto.</span><span class="sxs-lookup"><span data-stu-id="28e97-155">Setting the calculation option ensures that the product will be included when running a cost calculation for the product.</span></span>  
+13. <span data-ttu-id="28e97-156">Clique na guia Configuração.</span><span class="sxs-lookup"><span data-stu-id="28e97-156">Click the Setup tab.</span></span>
+14. <span data-ttu-id="28e97-157">Marque a caixa de seleção Definir.</span><span class="sxs-lookup"><span data-stu-id="28e97-157">Select the Set check box.</span></span>
+15. <span data-ttu-id="28e97-158">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="28e97-158">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="28e97-159">O campo quantidade determina o quanto desse produto será consumido no produto configurado.</span><span class="sxs-lookup"><span data-stu-id="28e97-159">The quantity field determines how much of this product will be consumed in the configured product.</span></span>  
+16. <span data-ttu-id="28e97-160">Marque a caixa de seleção Definir.</span><span class="sxs-lookup"><span data-stu-id="28e97-160">Select the Set check box.</span></span>
+17. <span data-ttu-id="28e97-161">No campo Por série, insira um número.</span><span class="sxs-lookup"><span data-stu-id="28e97-161">In the Per series field, enter a number.</span></span>
+18. <span data-ttu-id="28e97-162">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="28e97-162">Click OK.</span></span>
 
 

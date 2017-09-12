@@ -15,7 +15,7 @@ ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
@@ -25,240 +25,241 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="budget-planning"></a>Planejamento de orçamento
+# <a name="budget-planning"></a><span data-ttu-id="0f605-105">Planejamento de orçamento</span><span class="sxs-lookup"><span data-stu-id="0f605-105">Budget planning</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-O objetivo deste laboratório é fornecer uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition na Área de planejamento de orçamento. A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.  Este laboratório focará especificamente nos processos empresariais a seguir ou tarefas -    - Criar hierarquia organizacional para planejamento de orçamento e configuração de segurança do usuário   - Definir cenários de plano de orçamento, colunas de plano de orçamento, layouts e modelos do Excel   - Criar e ativar processo de planejamento de orçamento   - Criar documento de plano de orçamento extraindo os reais de Contabilidade   - Usar alocações para ajustar dados de documento de plano de orçamento   - Editar dados de documento de plano de orçamento no Excel 
+<span data-ttu-id="0f605-106">O objetivo deste laboratório é fornecer uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition na Área de planejamento de orçamento.</span><span class="sxs-lookup"><span data-stu-id="0f605-106">The objective of this lab is to provide a guided view of Microsoft Dynamics 365 for Finance and Operations, Enterprise edition functionality updates in Budget planning area.</span></span> <span data-ttu-id="0f605-107">A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.</span><span class="sxs-lookup"><span data-stu-id="0f605-107">The intent of this lab is to illustrate a quick configuration example of budget planning module and showcase how budget planning can be accomplished using this configuration.</span></span>  <span data-ttu-id="0f605-108">Este laboratório focará especificamente nos processos empresariais a seguir ou tarefas -    - Criar hierarquia organizacional para planejamento de orçamento e configuração de segurança do usuário   - Definir cenários de plano de orçamento, colunas de plano de orçamento, layouts e modelos do Excel   - Criar e ativar processo de planejamento de orçamento   - Criar documento de plano de orçamento extraindo os reais de Contabilidade   - Usar alocações para ajustar dados de documento de plano de orçamento   - Editar dados de documento de plano de orçamento no Excel</span><span class="sxs-lookup"><span data-stu-id="0f605-108">This lab will focus specifically on the following business processes or tasks -    - Creating organizational hierarchy for budget planning and configuring user security   - Defining budget plan scenarios, budget plan columns, layouts and Excel templates   - Creating and activating budget planning process   - Creating budget plan document by pulling in actuals from General ledger   - Using allocations to adjust budget plan document data   - Editing budget plan document data in Excel</span></span> 
 
-<a name="prerequisites"></a>Pré-requisitos 
+<a name="prerequisites"></a><span data-ttu-id="0f605-109">Pré-requisitos</span><span class="sxs-lookup"><span data-stu-id="0f605-109">Prerequisites</span></span> 
 ------------------
 
-Para este tutorial, você precisará acessar o ambiente Finance and Operations com dados de demonstração da Contoso e deve ser definido como administrador na instância. Não use no modo particular para este laboratório - se necessário, faça logoff de outra conta no navegador e faça logon com as credenciais de administrador do Finance and Operations. Para fazer logon no Finance and Operations, você **DEVE** marcar a caixa de seleção "Mantenha-me conectado". Isso cria um cookie persistente necessário para o Excel App. Se você fizer login no Finance and Operations usando um navegador diferente do IE, o sistema solicitará que você faça login no aplicativo Excel. Quando você clica em “Login” no App Excel, uma janela pop-up de IE é aberta e, ao fazer login, você **DEVE** marcar a caixa de seleção "Manter-me conectado”. Se, ao clicar em "Login" no Excel App, nada acontecer, você deverá limpar o cache de cookies no IE.
+<span data-ttu-id="0f605-110">Para este tutorial, você precisará acessar o ambiente Finance and Operations com dados de demonstração da Contoso e deve ser definido como administrador na instância.</span><span class="sxs-lookup"><span data-stu-id="0f605-110">For this tutorial, you’ll need to access the Finance and Operations environment with Contoso demo data, and be provisioned as an administrator on the instance.</span></span> <span data-ttu-id="0f605-111">Não use no modo particular para este laboratório - se necessário, faça logoff de outra conta no navegador e faça logon com as credenciais de administrador do Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="0f605-111">Do not use In Private browser mode for this lab - sign out from any other account in the browser if needed and sign in with Finance and Operations administrator credentials.</span></span> <span data-ttu-id="0f605-112">Para fazer logon no Finance and Operations, você **DEVE** marcar a caixa de seleção "Mantenha-me conectado".</span><span class="sxs-lookup"><span data-stu-id="0f605-112">When signing into Finance and Operations, you **MUST** check the “Keep me signed in” checkbox.</span></span> <span data-ttu-id="0f605-113">Isso cria um cookie persistente necessário para o Excel App.</span><span class="sxs-lookup"><span data-stu-id="0f605-113">This creates a persistent cookie that the Excel App currently needs.</span></span> <span data-ttu-id="0f605-114">Se você fizer login no Finance and Operations usando um navegador diferente do IE, o sistema solicitará que você faça login no aplicativo Excel.</span><span class="sxs-lookup"><span data-stu-id="0f605-114">If you sign in to the Finance and Operations using a browser other than IE, then you’ll be prompted to sign in within the Excel App.</span></span> <span data-ttu-id="0f605-115">Quando você clica em “Login” no App Excel, uma janela pop-up de IE é aberta e, ao fazer login, você **DEVE** marcar a caixa de seleção "Manter-me conectado”.</span><span class="sxs-lookup"><span data-stu-id="0f605-115">When you click “Sign in” in the Excel App, an IE popup window will open and when signing in you **MUST** check the “Keep me signed in” checkbox.</span></span> <span data-ttu-id="0f605-116">Se, ao clicar em "Login" no Excel App, nada acontecer, você deverá limpar o cache de cookies no IE.</span><span class="sxs-lookup"><span data-stu-id="0f605-116">If clicking “Sign in” in the Excel App doesn’t appear to do anything then you should clear the IE cookie cache.</span></span>
 
-## <a name="scenario-overview"></a>**Visão geral do cenário**
-Julia funciona como um gerente financeira na Contoso Entertainment Systems na Alemanha (DEMF). Como o FY2016 se aproxima, ela precisa trabalhar na configuração do orçamento da empresa para o próximo ano. Aspectos de preparação:
+## <a name="scenario-overview"></a><span data-ttu-id="0f605-117">**Visão geral do cenário**</span><span class="sxs-lookup"><span data-stu-id="0f605-117">**Scenario overview**</span></span>
+<span data-ttu-id="0f605-118">Julia funciona como um gerente financeira na Contoso Entertainment Systems na Alemanha (DEMF).</span><span class="sxs-lookup"><span data-stu-id="0f605-118">Julia works as a finance manager in Contoso Entertainment Systems in Germany (DEMF).</span></span> <span data-ttu-id="0f605-119">Como o FY2016 se aproxima, ela precisa trabalhar na configuração do orçamento da empresa para o próximo ano.</span><span class="sxs-lookup"><span data-stu-id="0f605-119">As FY2016 approaches, she needs to work on setting up the company’s budget for the upcoming year.</span></span> <span data-ttu-id="0f605-120">Aspectos de preparação:</span><span class="sxs-lookup"><span data-stu-id="0f605-120">Budget preparation looks as follows:</span></span>
 
-1.  Julia os valores reais do ano anterior como ponto de partida para criar o orçamento.
-2.  Com base nos números reais do ano anterior, ela cria previsões para os 12 meses do próximo ano
-3.  Julia examinar o orçamento com CFO. Depois de fazer isso, ela faz ajustes necessários para o plano do orçamento e finaliza a preparação do orçamento.
+1.  <span data-ttu-id="0f605-121">Julia os valores reais do ano anterior como ponto de partida para criar o orçamento.</span><span class="sxs-lookup"><span data-stu-id="0f605-121">Julia uses previous year actuals amounts as a starting point to create the budget.</span></span>
+2.  <span data-ttu-id="0f605-122">Com base nos números reais do ano anterior, ela cria previsões para os 12 meses do próximo ano</span><span class="sxs-lookup"><span data-stu-id="0f605-122">Based on the previous year actuals, she creates estimates for 12 months in the upcoming year</span></span>
+3.  <span data-ttu-id="0f605-123">Julia examinar o orçamento com CFO.</span><span class="sxs-lookup"><span data-stu-id="0f605-123">Julia reviews the budget with CFO.</span></span> <span data-ttu-id="0f605-124">Depois de fazer isso, ela faz ajustes necessários para o plano do orçamento e finaliza a preparação do orçamento.</span><span class="sxs-lookup"><span data-stu-id="0f605-124">Once done she makes necessary adjustments for the budget plan and finalizes budget preparation.</span></span>
 
-O esquema de configurações do planejamento do orçamento para o cenário tem a seguinte aparência:
+<span data-ttu-id="0f605-125">O esquema de configurações do planejamento do orçamento para o cenário tem a seguinte aparência:</span><span class="sxs-lookup"><span data-stu-id="0f605-125">Budget planning configuration schema for the scenario looks as follows:</span></span>
 
 ![Esquema de configuração de planejamento de orçamento](./media/screenshot1-300x152.png)
 
-Julia usa o seguinte modelo do Excel para preparar o orçamento:
+<span data-ttu-id="0f605-127">Julia usa o seguinte modelo do Excel para preparar o orçamento:</span><span class="sxs-lookup"><span data-stu-id="0f605-127">Julia uses the following Excel template to prepare the budget:</span></span>
 
-[![Modelo do Excel](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
+<span data-ttu-id="0f605-128">[![Modelo do Excel](./media/screenshot2-1024x352.png)](./media/screenshot2.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-128">[![Excel template](./media/screenshot2-1024x352.png)](./media/screenshot2.png)</span></span>
 
-<a name="exercise-1-configuration"></a>Ano 1: Configuração
+<a name="exercise-1-configuration"></a><span data-ttu-id="0f605-129">Ano 1: Configuração</span><span class="sxs-lookup"><span data-stu-id="0f605-129">Exercise 1: Configuration</span></span>
 =========================
 
-## <a name="task-1-create-organizational-hierarchy"></a>**Tarefa 1: Criar hierarquia organizacional**
-Como todo o processo de orçamento ocorre no departamento financeiro, Julia precisa criar uma hierarquia organizacional muito simples – consistindo no departamento financeiro apenas. 1.1. Navegar para as hierarquias da organização (Administração da organização &gt; Organizações &gt; Hierarquias da organização) e clique no botão Novo
+## <a name="task-1-create-organizational-hierarchy"></a><span data-ttu-id="0f605-130">**Tarefa 1: Criar hierarquia organizacional**</span><span class="sxs-lookup"><span data-stu-id="0f605-130">**Task 1: Create organizational hierarchy**</span></span>
+<span data-ttu-id="0f605-131">Como todo o processo de orçamento ocorre no departamento financeiro, Julia precisa criar uma hierarquia organizacional muito simples – consistindo no departamento financeiro apenas.</span><span class="sxs-lookup"><span data-stu-id="0f605-131">As all the budgeting process happens in the Finance department, therefore Julia needs to create a very simple organizational hierarchy – consisting of Finance department only.</span></span> <span data-ttu-id="0f605-132">1.1.</span><span class="sxs-lookup"><span data-stu-id="0f605-132">1.1.</span></span> <span data-ttu-id="0f605-133">Navegar para as hierarquias da organização (Administração da organização &gt; Organizações &gt; Hierarquias da organização) e clique no botão Novo</span><span class="sxs-lookup"><span data-stu-id="0f605-133">Navigate to Organization hierarchies (Organization administration &gt; Organizations &gt; Organization hierarchies) and click New button</span></span>
 
 ![Hierarquia da organização](./media/screenshot3.png) 
 
-1.2. Digite o nome da hierarquia organizacional e clique no botão Atribuir finalidade
+<span data-ttu-id="0f605-135">1.2.</span><span class="sxs-lookup"><span data-stu-id="0f605-135">1.2.</span></span> <span data-ttu-id="0f605-136">Digite o nome da hierarquia organizacional e clique no botão Atribuir finalidade</span><span class="sxs-lookup"><span data-stu-id="0f605-136">Type the name for the organizational hierarchy and click button Assign purpose</span></span>
 
-[![Nome](./media/screenshot4.png)](./media/screenshot4.png) 
+<span data-ttu-id="0f605-137">[![Nome](./media/screenshot4.png)](./media/screenshot4.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-137">[![Name](./media/screenshot4.png)](./media/screenshot4.png)</span></span> 
 
-1.3. Selecione a finalidade do planejamento do orçamento, clique no botão Adicionar e atribuir uma hierarquia organizacional recém-criada: 
+<span data-ttu-id="0f605-138">1.3.</span><span class="sxs-lookup"><span data-stu-id="0f605-138">1.3.</span></span> <span data-ttu-id="0f605-139">Selecione a finalidade do planejamento do orçamento, clique no botão Adicionar e atribuir uma hierarquia organizacional recém-criada:</span><span class="sxs-lookup"><span data-stu-id="0f605-139">Select Budget planning purpose, click button Add and assign newly created organizational hierarchy:</span></span> 
 
-[![Atribuir finalidade](./media/screenshot5.png)](./media/screenshot5.png)
+<span data-ttu-id="0f605-140">[![Atribuir finalidade](./media/screenshot5.png)](./media/screenshot5.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-140">[![Assign purpose](./media/screenshot5.png)](./media/screenshot5.png)</span></span>
 
-1.4. Repita a etapa acima para a finalidade da Segurança organizacional. Feche o formulário quando terminar.
+<span data-ttu-id="0f605-141">1.4.</span><span class="sxs-lookup"><span data-stu-id="0f605-141">1.4.</span></span> <span data-ttu-id="0f605-142">Repita a etapa acima para a finalidade da Segurança organizacional.</span><span class="sxs-lookup"><span data-stu-id="0f605-142">Repeat the step above for Security organizational purpose.</span></span> <span data-ttu-id="0f605-143">Feche o formulário quando terminar.</span><span class="sxs-lookup"><span data-stu-id="0f605-143">Close the form when done.</span></span>
 
-[![Organização de segurança](./media/screenshot6.png)](./media/screenshot6.png)
+<span data-ttu-id="0f605-144">[![Organização de segurança](./media/screenshot6.png)](./media/screenshot6.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-144">[![Security org](./media/screenshot6.png)](./media/screenshot6.png)</span></span>
 
-1.5. No formulário Hierarquias organizacionais, clique no botão Visualizar. Clique em Editar na criação da hierarquia e crie uma hierarquia ao clicar no botão Inserir.
+<span data-ttu-id="0f605-145">1.5.</span><span class="sxs-lookup"><span data-stu-id="0f605-145">1.5.</span></span> <span data-ttu-id="0f605-146">No formulário Hierarquias organizacionais, clique no botão Visualizar.</span><span class="sxs-lookup"><span data-stu-id="0f605-146">In the Organizational Hierarchies form click button View.</span></span> <span data-ttu-id="0f605-147">Clique em Editar na criação da hierarquia e crie uma hierarquia ao clicar no botão Inserir.</span><span class="sxs-lookup"><span data-stu-id="0f605-147">Click Edit in the Hierarchy designer and create a hierarchy by clicking button Insert.</span></span>
 
-[![Inserir](./media/screenshot7.png)](./media/screenshot7.png) 
+<span data-ttu-id="0f605-148">[![Inserir](./media/screenshot7.png)](./media/screenshot7.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-148">[![Insert](./media/screenshot7.png)](./media/screenshot7.png)</span></span> 
 
-1.6. Selecione Departamento financeiro para a hierarquia de orçamento. 
+<span data-ttu-id="0f605-149">1.6.</span><span class="sxs-lookup"><span data-stu-id="0f605-149">1.6.</span></span> <span data-ttu-id="0f605-150">Selecione Departamento financeiro para a hierarquia de orçamento.</span><span class="sxs-lookup"><span data-stu-id="0f605-150">Select Finance department for the budgeting hierarchy.</span></span> 
 
-[![Finanças](./media/screenshot8.png)](./media/screenshot8.png)
+<span data-ttu-id="0f605-151">[![Finanças](./media/screenshot8.png)](./media/screenshot8.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-151">[![Finance](./media/screenshot8.png)](./media/screenshot8.png)</span></span>
 
-1.7. Quando feito, clique no botão Publicar e Fechar. Selecione 1/1/2015 como a data efetiva para a publicação da hierarquia.
+<span data-ttu-id="0f605-152">1.7.</span><span class="sxs-lookup"><span data-stu-id="0f605-152">1.7.</span></span> <span data-ttu-id="0f605-153">Quando feito, clique no botão Publicar e Fechar.</span><span class="sxs-lookup"><span data-stu-id="0f605-153">When done, click button Publish and Close.</span></span> <span data-ttu-id="0f605-154">Selecione 1/1/2015 como a data efetiva para a publicação da hierarquia.</span><span class="sxs-lookup"><span data-stu-id="0f605-154">Select 1/1/2015 as effective date for hierarchy publishing.</span></span>
 
-[![Data de efetivação](./media/screenshot9.png)](./media/screenshot9.png)
+<span data-ttu-id="0f605-155">[![Data de efetivação](./media/screenshot9.png)](./media/screenshot9.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-155">[![Effective date](./media/screenshot9.png)](./media/screenshot9.png)</span></span>
 
-## <a name="task-2-configure-user-security"></a>Tarefa 2: Configurar segurança do usuário
-O planejamento do orçamento usa políticas de segurança especiais para configurar o acesso aos dados de planejamento do orçamento. Julia precisa conceder a si mesma os planejamentos financeiros do orçamento. 
+## <a name="task-2-configure-user-security"></a><span data-ttu-id="0f605-156">Tarefa 2: Configurar segurança do usuário</span><span class="sxs-lookup"><span data-stu-id="0f605-156">Task 2: Configure user security</span></span>
+<span data-ttu-id="0f605-157">O planejamento do orçamento usa políticas de segurança especiais para configurar o acesso aos dados de planejamento do orçamento.</span><span class="sxs-lookup"><span data-stu-id="0f605-157">Budget planning uses special security policies to configure access to budget plans data.</span></span> <span data-ttu-id="0f605-158">Julia precisa conceder a si mesma os planejamentos financeiros do orçamento.</span><span class="sxs-lookup"><span data-stu-id="0f605-158">Julia needs to give access to Finance budget plans for herself.</span></span> 
 
-2.1. Alterne para o contexto da entidade legal do DEMF. 
+<span data-ttu-id="0f605-159">2.1.</span><span class="sxs-lookup"><span data-stu-id="0f605-159">2.1.</span></span> <span data-ttu-id="0f605-160">Alterne para o contexto da entidade legal do DEMF.</span><span class="sxs-lookup"><span data-stu-id="0f605-160">Switch to DEMF legal entity context.</span></span> 
 
 
-2.2. Navegue até Orçamento &gt; Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento. Na guia Parâmetros, defina o valor do modelo de segurança com base nas organizações de segurança 
+<span data-ttu-id="0f605-161">2.2.</span><span class="sxs-lookup"><span data-stu-id="0f605-161">2.2.</span></span> <span data-ttu-id="0f605-162">Navegue até Orçamento &gt; Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento.</span><span class="sxs-lookup"><span data-stu-id="0f605-162">Navigate to Budgeting &gt; Setup &gt; Budget planning &gt; Budget planning configuration.</span></span> <span data-ttu-id="0f605-163">Na guia Parâmetros, defina o valor do modelo de segurança com base nas organizações de segurança</span><span class="sxs-lookup"><span data-stu-id="0f605-163">In Parameters tab, set the Security model value to Based on security organizations</span></span> 
 
-[![Parâmetros](./media/screenshot11.png)](./media/screenshot11.png) 
+<span data-ttu-id="0f605-164">[![Parâmetros](./media/screenshot11.png)](./media/screenshot11.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-164">[![Parameters](./media/screenshot11.png)](./media/screenshot11.png)</span></span> 
 
-2.3. Navegue até Administração do sistema &gt; Usuários &gt; Usuários. Dê ao usuário Admin (Julia Funderburk) a função de gerente de orçamentos. 
+<span data-ttu-id="0f605-165">2.3.</span><span class="sxs-lookup"><span data-stu-id="0f605-165">2.3.</span></span> <span data-ttu-id="0f605-166">Navegue até Administração do sistema &gt; Usuários &gt; Usuários.</span><span class="sxs-lookup"><span data-stu-id="0f605-166">Navigate to System administration &gt; Users &gt; Users.</span></span> <span data-ttu-id="0f605-167">Dê ao usuário Admin (Julia Funderburk) a função de gerente de orçamentos.</span><span class="sxs-lookup"><span data-stu-id="0f605-167">Give user Admin (Julia Funderburk) Budget manager role.</span></span> 
 
-[![Gerente de orçamentos](./media/screenshot12.png)](./media/screenshot12.png) 
+<span data-ttu-id="0f605-168">[![Gerente de orçamentos](./media/screenshot12.png)](./media/screenshot12.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-168">[![Budget manager](./media/screenshot12.png)](./media/screenshot12.png)</span></span> 
 
-2.4. Escolha a função do usuário e clique em Atribuir organizações 
+<span data-ttu-id="0f605-169">2.4.</span><span class="sxs-lookup"><span data-stu-id="0f605-169">2.4.</span></span> <span data-ttu-id="0f605-170">Escolha a função do usuário e clique em Atribuir organizações</span><span class="sxs-lookup"><span data-stu-id="0f605-170">Pick user role and click Assign organizations</span></span> 
 
-[![Atribuir organizações](./media/screenshot13.png)](./media/screenshot13.png)
+<span data-ttu-id="0f605-171">[![Atribuir organizações](./media/screenshot13.png)](./media/screenshot13.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-171">[![Assign org](./media/screenshot13.png)](./media/screenshot13.png)</span></span>
 
-2.5. Selecione "Conceder acesso a organizações específicas". Escolha a hierarquia organizacional criada na primeira etapa. Escolha o Nó de finanças e clique no botão Conceder com filhos 
+<span data-ttu-id="0f605-172">2.5.</span><span class="sxs-lookup"><span data-stu-id="0f605-172">2.5.</span></span> <span data-ttu-id="0f605-173">Selecione "Conceder acesso a organizações específicas".</span><span class="sxs-lookup"><span data-stu-id="0f605-173">Select “Grant access to specific organizations”.</span></span> <span data-ttu-id="0f605-174">Escolha a hierarquia organizacional criada na primeira etapa.</span><span class="sxs-lookup"><span data-stu-id="0f605-174">Pick Organizational hierarchy created in the first step.</span></span> <span data-ttu-id="0f605-175">Escolha o Nó de finanças e clique no botão Conceder com filhos</span><span class="sxs-lookup"><span data-stu-id="0f605-175">Pick Finance node and click Grant with children button</span></span> 
 
-***Importante!*** *Verifique se você está no contexto da entidade legal DEMF ao executar essa tarefa, já que a segurança da organização é aplicada por entidade legal* 
+<span data-ttu-id="0f605-176">***Importante!***</span><span class="sxs-lookup"><span data-stu-id="0f605-176">***Important!***</span></span> <span data-ttu-id="0f605-177">*Verifique se você está no contexto da entidade legal DEMF ao executar essa tarefa, já que a segurança da organização é aplicada por entidade legal*</span><span class="sxs-lookup"><span data-stu-id="0f605-177">*Make sure you are in DEMF legal entity context when performing this task, as Organizational security is applied per legal entity*</span></span> 
 
-[![Conceder acesso](./media/screenshot14.png)](./media/screenshot14.png)
+<span data-ttu-id="0f605-178">[![Conceder acesso](./media/screenshot14.png)](./media/screenshot14.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-178">[![Grant access](./media/screenshot14.png)](./media/screenshot14.png)</span></span>
 
-## <a name="task-3-create-scenarios"></a>Tarefa 3: Criar cenários
-3.1. Navegue até Orçamento&gt;Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento. Na página Cenários, anote os cenários que vamos usar posteriormente neste laboratório: Números reais e valores orçados do ano anterior. 
+## <a name="task-3-create-scenarios"></a><span data-ttu-id="0f605-179">Tarefa 3: Criar cenários</span><span class="sxs-lookup"><span data-stu-id="0f605-179">Task 3: Create scenarios</span></span>
+<span data-ttu-id="0f605-180">3.1.</span><span class="sxs-lookup"><span data-stu-id="0f605-180">3.1.</span></span> <span data-ttu-id="0f605-181">Navegue até Orçamento&gt;Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento.</span><span class="sxs-lookup"><span data-stu-id="0f605-181">Navigate to Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration.</span></span> <span data-ttu-id="0f605-182">Na página Cenários, anote os cenários que vamos usar posteriormente neste laboratório: Números reais e valores orçados do ano anterior.</span><span class="sxs-lookup"><span data-stu-id="0f605-182">In the Scenarios page note the scenarios we are going to use further in this lab: Previous year actuals and Budgeted.</span></span> 
 
-*Nota: É possível criar novos cenários para este ano, se desejado, e usar esses item.* 
+<span data-ttu-id="0f605-183">*Nota: É possível criar novos cenários para este ano, se desejado, e usar esses item.*</span><span class="sxs-lookup"><span data-stu-id="0f605-183">*Note: You can create new scenarios for this exercise if desired and use those instead.*</span></span> 
 
-[![Novos cenários](./media/screenshot15.png)](./media/screenshot15.png) 
+<span data-ttu-id="0f605-184">[![Novos cenários](./media/screenshot15.png)](./media/screenshot15.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-184">[![New scenarios](./media/screenshot15.png)](./media/screenshot15.png)</span></span> 
 
-*Observação: como Julia não está usando o processo de aprovação formal para a preparação do orçamento, ignoraremos a configuração das etapas Fluxos de trabalho, Estágios e Fluxo de trabalho neste laboratório e usaremos a configuração existente para o fluxo de trabalho Aprovar automaticamente. Consulte o apêndice desta configuração de fluxo de trabalho.*
+<span data-ttu-id="0f605-185">*Observação: como Julia não está usando o processo de aprovação formal para a preparação do orçamento, ignoraremos a configuração das etapas Fluxos de trabalho, Estágios e Fluxo de trabalho neste laboratório e usaremos a configuração existente para o fluxo de trabalho Aprovar automaticamente. Consulte o apêndice desta configuração de fluxo de trabalho.*</span><span class="sxs-lookup"><span data-stu-id="0f605-185">*Note: as Julia is not using formal approval process for budget preparation, we will skip Workflows, Stages and Workflow stages setup in this lab and will use existing setup for Auto – approve workflow. See appendix for this workflow configuration.*</span></span>
 
-## <a name="task-4-create-budget-plan-columns"></a>Tarefa 4: Criar colunas do plano de orçamento
-As colunas do plano de orçamento são as colunas monetárias ou de quantidade que podem ser usadas no layout de documento do plano de orçamento. Nosso no exemplo é necessário criar uma coluna para os números reais do ano anterior e 12 colunas para representar cada mês no ano orçado. As colunas podem ser criadas ao clicar no botão Adicionar e preencher os valores ou com a ajuda de uma entidade de dados. Neste laboratório, usaremos a entidade de dados para preencher os valores. 
+## <a name="task-4-create-budget-plan-columns"></a><span data-ttu-id="0f605-186">Tarefa 4: Criar colunas do plano de orçamento</span><span class="sxs-lookup"><span data-stu-id="0f605-186">Task 4: Create budget plan columns</span></span>
+<span data-ttu-id="0f605-187">As colunas do plano de orçamento são as colunas monetárias ou de quantidade que podem ser usadas no layout de documento do plano de orçamento.</span><span class="sxs-lookup"><span data-stu-id="0f605-187">Budget plan columns are either Monetary or quantity based columns that can be used in budget plan document layout.</span></span> <span data-ttu-id="0f605-188">Nosso no exemplo é necessário criar uma coluna para os números reais do ano anterior e 12 colunas para representar cada mês no ano orçado.</span><span class="sxs-lookup"><span data-stu-id="0f605-188">In our example we need to create a column for Previous year actuals and 12 columns to represent each month in a budgeted year.</span></span> <span data-ttu-id="0f605-189">As colunas podem ser criadas ao clicar no botão Adicionar e preencher os valores ou com a ajuda de uma entidade de dados.</span><span class="sxs-lookup"><span data-stu-id="0f605-189">Columns can be created either by simply clicking Add button and filling in the values, or with a help of Data entity.</span></span> <span data-ttu-id="0f605-190">Neste laboratório, usaremos a entidade de dados para preencher os valores.</span><span class="sxs-lookup"><span data-stu-id="0f605-190">In this lab we will use Data entity to fill in the values.</span></span> 
 
-4.1. Em Orçamento&gt;Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento, abra a página Colunas. Clique no botão Office, no canto superior direito do formulário e escolha Colunas (não filtrado) 
+<span data-ttu-id="0f605-191">4.1.</span><span class="sxs-lookup"><span data-stu-id="0f605-191">4.1.</span></span> <span data-ttu-id="0f605-192">Em Orçamento&gt;Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento, abra a página Colunas.</span><span class="sxs-lookup"><span data-stu-id="0f605-192">In Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration open Columns page.</span></span> <span data-ttu-id="0f605-193">Clique no botão Office, no canto superior direito do formulário e escolha Colunas (não filtrado)</span><span class="sxs-lookup"><span data-stu-id="0f605-193">Click Office button on the top right corner of the form and pick Columns (unfiltered)</span></span> 
 
-[![Colunas não filtradas](./media/screenshot16.png)](./media/screenshot16.png) 
+<span data-ttu-id="0f605-194">[![Colunas não filtradas](./media/screenshot16.png)](./media/screenshot16.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-194">[![Columns unfiltered](./media/screenshot16.png)](./media/screenshot16.png)</span></span> 
 
-4.2. O sistema abrirá a pasta de trabalho do Excel para ser usada ao preencher os valores. Se solicitado, clique em Habilitar Edição e Confiar neste aplicativo 
+<span data-ttu-id="0f605-195">4.2.</span><span class="sxs-lookup"><span data-stu-id="0f605-195">4.2.</span></span> <span data-ttu-id="0f605-196">O sistema abrirá a pasta de trabalho do Excel para ser usada ao preencher os valores.</span><span class="sxs-lookup"><span data-stu-id="0f605-196">System will open Excel workbook to be used for filling in the values.</span></span> <span data-ttu-id="0f605-197">Se solicitado, clique em Habilitar Edição e Confiar neste aplicativo</span><span class="sxs-lookup"><span data-stu-id="0f605-197">If prompted, click Enable Editing and Trust this app</span></span> 
 
-[![Habilitar edição](./media/screenshot18.png)](./media/screenshot18.png) 
+<span data-ttu-id="0f605-198">[![Habilitar edição](./media/screenshot18.png)](./media/screenshot18.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-198">[![Enable editing](./media/screenshot18.png)](./media/screenshot18.png)</span></span> 
 
-[![Confiar neste aplicativo](./media/screenshot17.png)](./media/screenshot17.png)
+<span data-ttu-id="0f605-199">[![Confiar neste aplicativo](./media/screenshot17.png)](./media/screenshot17.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-199">[![Trust this app](./media/screenshot17.png)](./media/screenshot17.png)</span></span>
 
-4.3. Serão necessárias mais colunas para preencher os valores. Clique em Criar no painel direito para adicionar as colunas à grade: 
+<span data-ttu-id="0f605-200">4.3.</span><span class="sxs-lookup"><span data-stu-id="0f605-200">4.3.</span></span> <span data-ttu-id="0f605-201">Serão necessárias mais colunas para preencher os valores.</span><span class="sxs-lookup"><span data-stu-id="0f605-201">We will need more columns to fill the values in.</span></span> <span data-ttu-id="0f605-202">Clique em Criar no painel direito para adicionar as colunas à grade:</span><span class="sxs-lookup"><span data-stu-id="0f605-202">Click Design on the right side pane to add the columns to the grid:</span></span> 
 
-[![Criar](./media/screenshot19.png)](./media/screenshot19.png) 
+<span data-ttu-id="0f605-203">[![Criar](./media/screenshot19.png)](./media/screenshot19.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-203">[![Design](./media/screenshot19.png)](./media/screenshot19.png)</span></span> 
 
-4.4. Clique no botão de lápis ao lado de PlanColumns para ver as colunas disponíveis para adicionar à grade 
+<span data-ttu-id="0f605-204">4.4.</span><span class="sxs-lookup"><span data-stu-id="0f605-204">4.4.</span></span> <span data-ttu-id="0f605-205">Clique no botão de lápis ao lado de PlanColumns para ver as colunas disponíveis para adicionar à grade</span><span class="sxs-lookup"><span data-stu-id="0f605-205">Click little pencil button next to PlanColumns to see available columns to add to the grid</span></span> 
 
-[![Editar](./media/screenshot20.png)](./media/screenshot20.png) 
+<span data-ttu-id="0f605-206">[![Editar](./media/screenshot20.png)](./media/screenshot20.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-206">[![Edit](./media/screenshot20.png)](./media/screenshot20.png)</span></span> 
 
-4.5. Clique duas vezes em cada campo disponível para adicioná-las aos Campos selecionados e clique em Atualizar 
+<span data-ttu-id="0f605-207">4.5.</span><span class="sxs-lookup"><span data-stu-id="0f605-207">4.5.</span></span> <span data-ttu-id="0f605-208">Clique duas vezes em cada campo disponível para adicioná-las aos Campos selecionados e clique em Atualizar</span><span class="sxs-lookup"><span data-stu-id="0f605-208">Double click on each available field to add them to Selected fields and click Update</span></span> 
 
-![Atualização](./media/screenshot21.png)](./media/screenshot21.png) 
+![Atualização](./media/screenshot21.png)<span data-ttu-id="0f605-210">](./media/screenshot21.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-210">](./media/screenshot21.png)</span></span> 
 
-4.6. Na tabela do Excel, adicione todas as colunas necessárias para serem criadas. Use o recurso de Preenchimento Automático no Excel para adicionar as linhas de maneira rápida. Verifique se as linhas são adicionadas como parte da tabela (ao usar rolagem vertical, você deve ver cabeçalhos das colunas na parte superior da grade) 
+<span data-ttu-id="0f605-211">4.6.</span><span class="sxs-lookup"><span data-stu-id="0f605-211">4.6.</span></span> <span data-ttu-id="0f605-212">Na tabela do Excel, adicione todas as colunas necessárias para serem criadas.</span><span class="sxs-lookup"><span data-stu-id="0f605-212">In Excel table add all the columns that need to be created.</span></span> <span data-ttu-id="0f605-213">Use o recurso de Preenchimento Automático no Excel para adicionar as linhas de maneira rápida.</span><span class="sxs-lookup"><span data-stu-id="0f605-213">Use AutoFill feature in Excel to add the lines quickly.</span></span> <span data-ttu-id="0f605-214">Verifique se as linhas são adicionadas como parte da tabela (ao usar rolagem vertical, você deve ver cabeçalhos das colunas na parte superior da grade)</span><span class="sxs-lookup"><span data-stu-id="0f605-214">Make sure the lines are added as a part of the table (when using vertical scroll, you should be able to see column headers on the top of the grid)</span></span> 
 
-[![Preenchimento Automático](./media/screenshot22.png)](./media/screenshot22.png) 
+<span data-ttu-id="0f605-215">[![Preenchimento Automático](./media/screenshot22.png)](./media/screenshot22.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-215">[![Autofill](./media/screenshot22.png)](./media/screenshot22.png)</span></span> 
 
-4.7. Retorne ao Finance and Operations e atualize a página. Valores publicados aparecerão no Finance and Operations. 
+<span data-ttu-id="0f605-216">4.7.</span><span class="sxs-lookup"><span data-stu-id="0f605-216">4.7.</span></span> <span data-ttu-id="0f605-217">Retorne ao Finance and Operations e atualize a página.</span><span class="sxs-lookup"><span data-stu-id="0f605-217">Return to Finance and Operations and refresh the page.</span></span> <span data-ttu-id="0f605-218">Valores publicados aparecerão no Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="0f605-218">Published values will appear in Finance and Operations.</span></span> 
 
-[![Atualizar](./media/screenshot23.png)](./media/screenshot23.png)
+<span data-ttu-id="0f605-219">[![Atualizar](./media/screenshot23.png)](./media/screenshot23.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-219">[![Refresh](./media/screenshot23.png)](./media/screenshot23.png)</span></span>
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Tarefa 5: Criar um layouts e modelos para o documento do planejamento do orçamento
-O layout define como as linhas grade de documento do plano de orçamento serão exibidas quando o usuário abrir o documento do plano de orçamento. Também é possível alternar o layout para o documento do plano de orçamento para ver os mesmos dados em ângulos diferentes. Agora, como há colunas definidas que podem ser usadas em seu documento do plano de orçamento, Julia deve criar um layout do documento do plano de orçamentos, que se assemelhe à tabela do Excel usada para criar dados do orçamento (consulte visão geral do Cenário na seção neste laboratório) 
+## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a><span data-ttu-id="0f605-220">Tarefa 5: Criar um layouts e modelos para o documento do planejamento do orçamento</span><span class="sxs-lookup"><span data-stu-id="0f605-220">Task 5: Create budget plan document layouts and templates</span></span>
+<span data-ttu-id="0f605-221">O layout define como as linhas grade de documento do plano de orçamento serão exibidas quando o usuário abrir o documento do plano de orçamento.</span><span class="sxs-lookup"><span data-stu-id="0f605-221">Layout defines how budget plan document lines grid is going to look like when user opens budget plan document.</span></span> <span data-ttu-id="0f605-222">Também é possível alternar o layout para o documento do plano de orçamento para ver os mesmos dados em ângulos diferentes.</span><span class="sxs-lookup"><span data-stu-id="0f605-222">It is also possible to switch the layout for budget plan document to see the same data in different angles.</span></span> <span data-ttu-id="0f605-223">Agora, como há colunas definidas que podem ser usadas em seu documento do plano de orçamento, Julia deve criar um layout do documento do plano de orçamentos, que se assemelhe à tabela do Excel usada para criar dados do orçamento (consulte visão geral do Cenário na seção neste laboratório)</span><span class="sxs-lookup"><span data-stu-id="0f605-223">Now, as she’s got columns defined to be used with our budget plan document, Julia needs to create a budget plan document layout, that would look similar to the Excel table she uses to create budget data (see section Scenario overview in this lab)</span></span> 
 
-5.1. Em Orçamento&gt;Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento, abra a página Layouts. Crie um novo layout para a entrada de orçamento mensal:
+<span data-ttu-id="0f605-224">5.1.</span><span class="sxs-lookup"><span data-stu-id="0f605-224">5.1.</span></span> <span data-ttu-id="0f605-225">Em Orçamento&gt;Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento, abra a página Layouts.</span><span class="sxs-lookup"><span data-stu-id="0f605-225">In Budgeting&gt;Setup &gt; Budget planning &gt; Budget planning configuration open Layouts page.</span></span> <span data-ttu-id="0f605-226">Crie um novo layout para a entrada de orçamento mensal:</span><span class="sxs-lookup"><span data-stu-id="0f605-226">Create a new layout for Monthly budget entry:</span></span>
 
--   Escolha o conjunto de dimensões de MA+BU para incluir contas principais e unidades de negócios no layout.
--   Liste todas as colunas do plano de orçamento criadas na etapa anterior na seção Elementos. Faça com que todos os dados, exceto os números do ano anterior, sejam editáveis.
--   Clique no botão Descrições para selecionar quais dimensões financeiras devem ser exibidas em Descrições na grade.
+-   <span data-ttu-id="0f605-227">Escolha o conjunto de dimensões de MA+BU para incluir contas principais e unidades de negócios no layout.</span><span class="sxs-lookup"><span data-stu-id="0f605-227">Pick MA+BU dimension set to include Main accounts and Business units to the layout.</span></span>
+-   <span data-ttu-id="0f605-228">Liste todas as colunas do plano de orçamento criadas na etapa anterior na seção Elementos.</span><span class="sxs-lookup"><span data-stu-id="0f605-228">List all budget plan columns created in the previous step in the Elements section.</span></span> <span data-ttu-id="0f605-229">Faça com que todos os dados, exceto os números do ano anterior, sejam editáveis.</span><span class="sxs-lookup"><span data-stu-id="0f605-229">Make all but Previous year actuals editable.</span></span>
+-   <span data-ttu-id="0f605-230">Clique no botão Descrições para selecionar quais dimensões financeiras devem ser exibidas em Descrições na grade.</span><span class="sxs-lookup"><span data-stu-id="0f605-230">Click Descriptions button to select which financial dimensions should display Descriptions in the grid.</span></span>
 
-[![Descrições](./media/screenshot24.png)](./media/screenshot24.png) 
+<span data-ttu-id="0f605-231">[![Descrições](./media/screenshot24.png)](./media/screenshot24.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-231">[![Descriptions](./media/screenshot24.png)](./media/screenshot24.png)</span></span> 
 
-Com base na definição do layout do plano do orçamento, criamos um modelo do Excel que será usado como uma alternativa para editar dados do Orçamento. Como o modelo do Excel deve corresponder à definição do layout do plano de orçamento, você não poderá editar o layout do plano de orçamento depois de gerar o modelo do Excel, pois esta tarefa deve ser realizada depois que todos os componentes foram definidos. 
+<span data-ttu-id="0f605-232">Com base na definição do layout do plano do orçamento, criamos um modelo do Excel que será usado como uma alternativa para editar dados do Orçamento.</span><span class="sxs-lookup"><span data-stu-id="0f605-232">Based on the budget plan layout definition we can create an Excel template to be used as an alternative way to edit Budget data.</span></span> <span data-ttu-id="0f605-233">Como o modelo do Excel deve corresponder à definição do layout do plano de orçamento, você não poderá editar o layout do plano de orçamento depois de gerar o modelo do Excel, pois esta tarefa deve ser realizada depois que todos os componentes foram definidos.</span><span class="sxs-lookup"><span data-stu-id="0f605-233">As Excel template has to match budget plan layout definition, you won’t be able to edit budget plan layout after generating Excel template, therefore this task should be done after all layout components are defined.</span></span> 
 
-5.2. Para o layout criado na etapa 5.1 clique no botão Modelo &gt; Gerar. Confirme a mensagem de aviso. Para visualizar o modelo, clique em Modelo &gt; Visualizar. 
+<span data-ttu-id="0f605-234">5.2.</span><span class="sxs-lookup"><span data-stu-id="0f605-234">5.2.</span></span> <span data-ttu-id="0f605-235">Para o layout criado na etapa 5.1</span><span class="sxs-lookup"><span data-stu-id="0f605-235">For the layout created in the 5.1.</span></span> <span data-ttu-id="0f605-236">clique no botão Modelo &gt; Gerar.</span><span class="sxs-lookup"><span data-stu-id="0f605-236">step, click button Template &gt; Generate.</span></span> <span data-ttu-id="0f605-237">Confirme a mensagem de aviso.</span><span class="sxs-lookup"><span data-stu-id="0f605-237">Confirm the warning message.</span></span> <span data-ttu-id="0f605-238">Para visualizar o modelo, clique em Modelo &gt; Visualizar.</span><span class="sxs-lookup"><span data-stu-id="0f605-238">To view the template, click Template &gt; View.</span></span> 
 
-*Observação: não deixe de selecionar “Salvar como” e selecionar o lugar em que o modelo deve ser armazenado para a edição. Se o usuário selecionar "Abrir" na caixa de diálogo sem salvar, as alterações feitas no arquivo não serão retidas quando o arquivo for fechado.* 
-[![Exibição do modelo](./media/screenshot25.png)](./media/screenshot25.png) 
+<span data-ttu-id="0f605-239">*Observação: não deixe de selecionar “Salvar como” e selecionar o lugar em que o modelo deve ser armazenado para a edição. Se o usuário selecionar "Abrir" na caixa de diálogo sem salvar, as alterações feitas no arquivo não serão retidas quando o arquivo for fechado.* 
+[![Exibição do modelo](./media/screenshot25.png)](./media/screenshot25.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-239">*Note: Make sure to select “Save as” and select the place where template should be stored in order to edit it. If user selects “Open” in the dialog without saving, the changes done to the file will not be retained when the file is closed.* 
+[![Template view](./media/screenshot25.png)](./media/screenshot25.png)</span></span> 
 
-5.3. &lt; Etapa opcional&gt; Modificar modelo do Excel para ter uma melhor aparência – adicionar fórmulas totais, campos do cabeçalho, formatações etc. Salvar as alterações e carregar o arquivo para o layout do plano do orçamento ao clicar em Layout &gt; Carregar [![Carregar](./media/screenshot26.png)](./media/screenshot26.png)
+<span data-ttu-id="0f605-240">5.3.</span><span class="sxs-lookup"><span data-stu-id="0f605-240">5.3.</span></span> <span data-ttu-id="0f605-241">&lt; Etapa opcional&gt; Modificar modelo do Excel para ter uma melhor aparência – adicionar fórmulas totais, campos do cabeçalho, formatações etc. Salvar as alterações e carregar o arquivo para o layout do plano do orçamento ao clicar em Layout &gt; Carregar [![Carregar](./media/screenshot26.png)](./media/screenshot26.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-241">&lt; Optional step&gt; Modify Excel template to make it look more user friendly – add total formulas, header fields, formatting, etc. Save the changes and upload the file to budget plan layout by clicking Layout &gt; Upload [![Upload](./media/screenshot26.png)](./media/screenshot26.png)</span></span>
 
-## <a name="task-6-create-a-budget-planning-process"></a>Tarefa 6: Criar um processo de planejamento do orçamento
-Julia precisa criar e ativar um novo processo de planejamento de orçamento que combina a configuração acima para iniciar inserindo planos de orçamento. O processo de planejamento de orçamento define para que as organizações, o fluxo de trabalho, os layouts e os modelos de orçamento serão usados ao criar planos de orçamento. 
+## <a name="task-6-create-a-budget-planning-process"></a><span data-ttu-id="0f605-242">Tarefa 6: Criar um processo de planejamento do orçamento</span><span class="sxs-lookup"><span data-stu-id="0f605-242">Task 6: Create a budget planning process</span></span>
+<span data-ttu-id="0f605-243">Julia precisa criar e ativar um novo processo de planejamento de orçamento que combina a configuração acima para iniciar inserindo planos de orçamento.</span><span class="sxs-lookup"><span data-stu-id="0f605-243">Julia needs to create and activate a new budget planning process combining all the setup above to start entering budget plans.</span></span> <span data-ttu-id="0f605-244">O processo de planejamento de orçamento define para que as organizações, o fluxo de trabalho, os layouts e os modelos de orçamento serão usados ao criar planos de orçamento.</span><span class="sxs-lookup"><span data-stu-id="0f605-244">Budget planning process defines what budgeting organizations, workflow, layouts and templates will be used for creating budget plans.</span></span> 
 
-6.1. Navegue até Orçamento &gt; Configuração &gt; Planejamento do orçamento &gt; Processo de planejamento do orçamento e crie um novo registro.
+<span data-ttu-id="0f605-245">6.1.</span><span class="sxs-lookup"><span data-stu-id="0f605-245">6.1.</span></span> <span data-ttu-id="0f605-246">Navegue até Orçamento &gt; Configuração &gt; Planejamento do orçamento &gt; Processo de planejamento do orçamento e crie um novo registro.</span><span class="sxs-lookup"><span data-stu-id="0f605-246">Navigate to Budgeting &gt; Setup &gt; Budget planning &gt; Budget planning process and create a new record.</span></span>
 
--   Processo de planejamento do orçamento – FY2016 do orçamento DEMF
--   Ciclo do orçamento - FY2016
--   Ledger – DEMF
--   Estrutura da conta padrão – P&L de fabricação
--   Hierarquia organizacional – escolha a hierarquia criada no início do laboratório
--   Fluxo de trabalho do planejamento do orçamento - atribuir Automático - Aprovar fluxo de trabalho para o departamento financeiro
--   Nas regras e modelos do estágio de planejamento do orçamento, para cada escolha do estágio de planejamento do orçamento, se Adicionar linhas e Modificar linhas estiver permitido e qual Layout deve ser usado por padrão
+-   <span data-ttu-id="0f605-247">Processo de planejamento do orçamento – FY2016 do orçamento DEMF</span><span class="sxs-lookup"><span data-stu-id="0f605-247">Budget planning process – DEMF budgeting FY2016</span></span>
+-   <span data-ttu-id="0f605-248">Ciclo do orçamento - FY2016</span><span class="sxs-lookup"><span data-stu-id="0f605-248">Budget cycle – FY2016</span></span>
+-   <span data-ttu-id="0f605-249">Ledger – DEMF</span><span class="sxs-lookup"><span data-stu-id="0f605-249">Ledger – DEMF</span></span>
+-   <span data-ttu-id="0f605-250">Estrutura da conta padrão – P&L de fabricação</span><span class="sxs-lookup"><span data-stu-id="0f605-250">Default account structure – Manufacturing P&L</span></span>
+-   <span data-ttu-id="0f605-251">Hierarquia organizacional – escolha a hierarquia criada no início do laboratório</span><span class="sxs-lookup"><span data-stu-id="0f605-251">Organization hierarchy – pick the hierarchy created in the beginning of the lab</span></span>
+-   <span data-ttu-id="0f605-252">Fluxo de trabalho do planejamento do orçamento - atribuir Automático - Aprovar fluxo de trabalho para o departamento financeiro</span><span class="sxs-lookup"><span data-stu-id="0f605-252">Budget planning workflow – assign Auto – Approve workflow for Finance department</span></span>
+-   <span data-ttu-id="0f605-253">Nas regras e modelos do estágio de planejamento do orçamento, para cada escolha do estágio de planejamento do orçamento, se Adicionar linhas e Modificar linhas estiver permitido e qual Layout deve ser usado por padrão</span><span class="sxs-lookup"><span data-stu-id="0f605-253">In budget planning stage rules and templates, for each workflow Budget planning stage pick if Adding lines and Modifying lines is allowed and what Layout should be used by default</span></span>
 
-*Observação: Você pode criar outros layouts de documento e atribuir disponibilidade no estágio do fluxo de trabalho do planejamento do orçamento ao clicar no botão Alternar layouts.* 
+<span data-ttu-id="0f605-254">*Observação: Você pode criar outros layouts de documento e atribuir disponibilidade no estágio do fluxo de trabalho do planejamento do orçamento ao clicar no botão Alternar layouts.*</span><span class="sxs-lookup"><span data-stu-id="0f605-254">*Note: You can create additional document layouts and assign them to be available in budget planning workflow stage by clicking Alternate layouts button.*</span></span> 
 
-[![Layouts alternativos](./media/screenshot27.png)](./media/screenshot27.png) 
+<span data-ttu-id="0f605-255">[![Layouts alternativos](./media/screenshot27.png)](./media/screenshot27.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-255">[![Alternate layouts](./media/screenshot27.png)](./media/screenshot27.png)</span></span> 
 
-6.2. Selecione Ações &gt; Ativar para ativar este fluxo de trabalho do planejamento do orçamento 
+<span data-ttu-id="0f605-256">6.2.</span><span class="sxs-lookup"><span data-stu-id="0f605-256">6.2.</span></span> <span data-ttu-id="0f605-257">Selecione Ações &gt; Ativar para ativar este fluxo de trabalho do planejamento do orçamento</span><span class="sxs-lookup"><span data-stu-id="0f605-257">Select Actions &gt; Activate to activate this budget planning workflow</span></span> 
 
-[![Ativar](./media/screenshot28.png)](./media/screenshot28.png)
+<span data-ttu-id="0f605-258">[![Ativar](./media/screenshot28.png)](./media/screenshot28.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-258">[![Activate](./media/screenshot28.png)](./media/screenshot28.png)</span></span>
 
-<a name="exercise-2-process-simulation"></a>Ano 2: Simulação do processo
+<a name="exercise-2-process-simulation"></a><span data-ttu-id="0f605-259">Ano 2: Simulação do processo</span><span class="sxs-lookup"><span data-stu-id="0f605-259">Exercise 2: Process simulation</span></span>
 ==============================
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>Tarefa 7: Gerar dados iniciais para o plano do orçamento na contabilidade
-7.1. Navegue até Orçamento &gt; Periódico &gt; Gerar plano do orçamento na contabilidade. Preencha os parâmetros do processo do periódico e clique no botão Gerar. 
+## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a><span data-ttu-id="0f605-260">Tarefa 7: Gerar dados iniciais para o plano do orçamento na contabilidade</span><span class="sxs-lookup"><span data-stu-id="0f605-260">Task 7: Generate initial data for budget plan from General ledger</span></span>
+<span data-ttu-id="0f605-261">7.1.</span><span class="sxs-lookup"><span data-stu-id="0f605-261">7.1.</span></span> <span data-ttu-id="0f605-262">Navegue até Orçamento &gt; Periódico &gt; Gerar plano do orçamento na contabilidade.</span><span class="sxs-lookup"><span data-stu-id="0f605-262">Navigate to Budgeting &gt; Periodic &gt; Generate budget plan from General ledger.</span></span> <span data-ttu-id="0f605-263">Preencha os parâmetros do processo do periódico e clique no botão Gerar.</span><span class="sxs-lookup"><span data-stu-id="0f605-263">Fill in the periodic process parameters and click button Generate.</span></span> 
 
-[![Gerar](./media/screenshot29.png)](./media/screenshot29.png) 
+<span data-ttu-id="0f605-264">[![Gerar](./media/screenshot29.png)](./media/screenshot29.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-264">[![Generate](./media/screenshot29.png)](./media/screenshot29.png)</span></span> 
 
-7.2. Navegue até Orçamento &gt; Planos do orçamento para localizar um plano do orçamento criado por Gerar processo. 
+<span data-ttu-id="0f605-265">7.2.</span><span class="sxs-lookup"><span data-stu-id="0f605-265">7.2.</span></span> <span data-ttu-id="0f605-266">Navegue até Orçamento &gt; Planos do orçamento para localizar um plano do orçamento criado por Gerar processo.</span><span class="sxs-lookup"><span data-stu-id="0f605-266">Navigate to Budgeting &gt; Budget plans to find a budget plan created by Generate process.</span></span> 
 
-[![Plano de orçamento](./media/screenshot30.png)](./media/screenshot30.png) 
+<span data-ttu-id="0f605-267">[![Plano de orçamento](./media/screenshot30.png)](./media/screenshot30.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-267">[![Budget plan](./media/screenshot30.png)](./media/screenshot30.png)</span></span> 
 
-7.3. Abra os detalhes do documento ao clicar no hiperlink do número do documento. O plano de orçamento é exibido como definido no layout criado durante este laboratório 
+<span data-ttu-id="0f605-268">7.3.</span><span class="sxs-lookup"><span data-stu-id="0f605-268">7.3.</span></span> <span data-ttu-id="0f605-269">Abra os detalhes do documento ao clicar no hiperlink do número do documento.</span><span class="sxs-lookup"><span data-stu-id="0f605-269">Open document details by clicking on Document number hyperlink.</span></span> <span data-ttu-id="0f605-270">O plano de orçamento é exibido como definido no layout criado durante este laboratório</span><span class="sxs-lookup"><span data-stu-id="0f605-270">Budget plan is displayed as defined in the layout created during this lab</span></span> 
 
-[![Exibição de plano de orçamento](./media/screenshot31.png)](./media/screenshot31.png)
+<span data-ttu-id="0f605-271">[![Exibição de plano de orçamento](./media/screenshot31.png)](./media/screenshot31.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-271">[![Budget plan display](./media/screenshot31.png)](./media/screenshot31.png)</span></span>
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Tarefa 8: Crie o orçamento do ano atual com base nos números reais do ano anterior
-Os métodos de alocação podem ser usados no plano de orçamento para copiar facilmente as informações para os planos do orçamento de um cenário para outro/ colá-las nos períodos/alocar para dimensões. Usaremos alocações para criar o orçamento do ano atual a partir de números reais do ano anterior. 
+## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a><span data-ttu-id="0f605-272">Tarefa 8: Crie o orçamento do ano atual com base nos números reais do ano anterior</span><span class="sxs-lookup"><span data-stu-id="0f605-272">Task 8: Create current year budget based on previous year actuals</span></span>
+<span data-ttu-id="0f605-273">Os métodos de alocação podem ser usados no plano de orçamento para copiar facilmente as informações para os planos do orçamento de um cenário para outro/ colá-las nos períodos/alocar para dimensões.</span><span class="sxs-lookup"><span data-stu-id="0f605-273">Allocation methods can be used in budget plan to easily copy information for budget plans from one scenario to another/ spread them across periods/ allocate to dimensions.</span></span> <span data-ttu-id="0f605-274">Usaremos alocações para criar o orçamento do ano atual a partir de números reais do ano anterior.</span><span class="sxs-lookup"><span data-stu-id="0f605-274">We will use allocations to create current year budget from previous year actuals.</span></span> 
 
-8.1. Selecione todas as linhas na grade do documento do plano do orçamento e clique no botão alocar orçamento 
+<span data-ttu-id="0f605-275">8.1.</span><span class="sxs-lookup"><span data-stu-id="0f605-275">8.1.</span></span> <span data-ttu-id="0f605-276">Selecione todas as linhas na grade do documento do plano do orçamento e clique no botão alocar orçamento</span><span class="sxs-lookup"><span data-stu-id="0f605-276">Pick all lines in the budget plan document grid and click button allocate budget</span></span> 
 
-[![Todas as linhas](./media/screenshot32.png)](./media/screenshot32.png) 
+<span data-ttu-id="0f605-277">[![Todas as linhas](./media/screenshot32.png)](./media/screenshot32.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-277">[![All lines](./media/screenshot32.png)](./media/screenshot32.png)</span></span> 
 
-8.2. Selecione o método da alocação, a chave do período, os cenários de origem e destino e clique em Alocar 
+<span data-ttu-id="0f605-278">8.2.</span><span class="sxs-lookup"><span data-stu-id="0f605-278">8.2.</span></span> <span data-ttu-id="0f605-279">Selecione o método da alocação, a chave do período, os cenários de origem e destino e clique em Alocar</span><span class="sxs-lookup"><span data-stu-id="0f605-279">Select allocation method, Period key, Source and destination scenarios and click Allocate</span></span> 
 
-[![Alocar](./media/screenshot33.png)](./media/screenshot33.png)
+<span data-ttu-id="0f605-280">[![Alocar](./media/screenshot33.png)](./media/screenshot33.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-280">[![Allocate](./media/screenshot33.png)](./media/screenshot33.png)</span></span>
 
-Os valores reais do ano anterior serão copiados no orçamento do ano atual e alocados em períodos por meio da chave do período da curva de vendas. 
+<span data-ttu-id="0f605-281">Os valores reais do ano anterior serão copiados no orçamento do ano atual e alocados em períodos por meio da chave do período da curva de vendas.</span><span class="sxs-lookup"><span data-stu-id="0f605-281">The previous year actual amounts will be copied to current year budget and allocate them across periods using Sales curve period key.</span></span> 
 
-[![Curva de vendas](./media/screenshot34.png)](./media/screenshot34.png)
+<span data-ttu-id="0f605-282">[![Curva de vendas](./media/screenshot34.png)](./media/screenshot34.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-282">[![Sales curve](./media/screenshot34.png)](./media/screenshot34.png)</span></span>
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Tarefa 9: Ajustar o documento do plano do orçamento usando o Excel e finalizar o documento
-9.1. Clique na planilha Botão para abrir o conteúdo do documento no Excel
+## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a><span data-ttu-id="0f605-283">Tarefa 9: Ajustar o documento do plano do orçamento usando o Excel e finalizar o documento</span><span class="sxs-lookup"><span data-stu-id="0f605-283">Task 9: Adjust budget plan document using Excel and finalize the document</span></span>
+<span data-ttu-id="0f605-284">9.1.</span><span class="sxs-lookup"><span data-stu-id="0f605-284">9.1.</span></span> <span data-ttu-id="0f605-285">Clique na planilha Botão para abrir o conteúdo do documento no Excel</span><span class="sxs-lookup"><span data-stu-id="0f605-285">Click Button worksheet to open document contents in Excel</span></span>
 
-[![Excel](./media/screenshot35.png)](./media/screenshot35.png)
+<span data-ttu-id="0f605-286">[![Excel](./media/screenshot35.png)](./media/screenshot35.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-286">[![Excel](./media/screenshot35.png)](./media/screenshot35.png)</span></span>
 
-9.2. Quando a pasta de trabalho do Excel for aberta, ajuste os número do documento do plano do orçamento e clique no botão Publicar.
+<span data-ttu-id="0f605-287">9.2.</span><span class="sxs-lookup"><span data-stu-id="0f605-287">9.2.</span></span> <span data-ttu-id="0f605-288">Quando a pasta de trabalho do Excel for aberta, ajuste os número do documento do plano do orçamento e clique no botão Publicar.</span><span class="sxs-lookup"><span data-stu-id="0f605-288">When Excel workbook opens, adjust the numbers in budget plan document and click button Publish.</span></span>
 
-[![Publicar](./media/screenshot36.png)](./media/screenshot36.png)
+<span data-ttu-id="0f605-289">[![Publicar](./media/screenshot36.png)](./media/screenshot36.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-289">[![Publish](./media/screenshot36.png)](./media/screenshot36.png)</span></span>
 
-9.3. Voltar para o documento no plano do orçamento no Finance and Operations. Clique em Fluxo de trabalho &gt; Enviar para aprovar o documento automaticamente
+<span data-ttu-id="0f605-290">9.3.</span><span class="sxs-lookup"><span data-stu-id="0f605-290">9.3.</span></span> <span data-ttu-id="0f605-291">Voltar para o documento no plano do orçamento no Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="0f605-291">Return to budget plan document in Finance and Operations.</span></span> <span data-ttu-id="0f605-292">Clique em Fluxo de trabalho &gt; Enviar para aprovar o documento automaticamente</span><span class="sxs-lookup"><span data-stu-id="0f605-292">Click Workflow &gt; Submit to Auto-approve the document</span></span>
 
-[![Aprovar automaticamente](./media/screenshot37.png)](./media/screenshot37.png) 
+<span data-ttu-id="0f605-293">[![Aprovar automaticamente](./media/screenshot37.png)](./media/screenshot37.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-293">[![Auto-approve](./media/screenshot37.png)](./media/screenshot37.png)</span></span> 
 
-Depois que o fluxo de trabalho é concluído, o estágio do documento do plano do orçamento é alterado para Aprovado. [![Aprovado](./media/screenshot38.png)](./media/screenshot38.png)
+<span data-ttu-id="0f605-294">Depois que o fluxo de trabalho é concluído, o estágio do documento do plano do orçamento é alterado para Aprovado.</span><span class="sxs-lookup"><span data-stu-id="0f605-294">Once workflow completes, budget plan document stage changes to Approved.</span></span> <span data-ttu-id="0f605-295">[![Aprovado](./media/screenshot38.png)](./media/screenshot38.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-295">[![Approved](./media/screenshot38.png)](./media/screenshot38.png)</span></span>
 
-<a name="appendix"></a>Anexo
+<a name="appendix"></a><span data-ttu-id="0f605-296">Anexo</span><span class="sxs-lookup"><span data-stu-id="0f605-296">Appendix</span></span>
 ========
 
-### <a name="auto-approve-workflow-configuration"></a>Configuração do luxo de trabalho de aprovação automática
+### <a name="auto-approve-workflow-configuration"></a><span data-ttu-id="0f605-297">Configuração do luxo de trabalho de aprovação automática</span><span class="sxs-lookup"><span data-stu-id="0f605-297">Auto-Approve workflow configuration</span></span>
 
-A. Orçamento &gt; Configuração &gt; Planejamento do orçamento &gt; Fluxos de trabalho do orçamento Crie um novo fluxo de trabalho usando os fluxos de trabalho do planejamento do orçamento:
+<span data-ttu-id="0f605-298">A.</span><span class="sxs-lookup"><span data-stu-id="0f605-298">A.</span></span> <span data-ttu-id="0f605-299">Orçamento &gt; Configuração &gt; Planejamento do orçamento &gt; Fluxos de trabalho do orçamento Crie um novo fluxo de trabalho usando os fluxos de trabalho do planejamento do orçamento:</span><span class="sxs-lookup"><span data-stu-id="0f605-299">Budgeting &gt; Setup &gt; Budget planning &gt; Budgeting workflows Create a new workflow using template Budget planning workflows:</span></span>
 
-[![Criar um novo fluxo de trabalho](./media/screenshot39.png)](./media/screenshot39.png)
+<span data-ttu-id="0f605-300">[![Criar um novo fluxo de trabalho](./media/screenshot39.png)](./media/screenshot39.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-300">[![Create a new workflow](./media/screenshot39.png)](./media/screenshot39.png)</span></span>
 
-Este fluxo de trabalho conterá somente uma tarefa – plano do orçamento de transição do estágio 
+<span data-ttu-id="0f605-301">Este fluxo de trabalho conterá somente uma tarefa – plano do orçamento de transição do estágio</span><span class="sxs-lookup"><span data-stu-id="0f605-301">This workflow will contain only one task – Stage transition budget plan</span></span> 
 
-[![Plano de orçamento da transição de fases](./media/screenshot40.png)](./media/screenshot40.png) 
+<span data-ttu-id="0f605-302">[![Plano de orçamento da transição de fases](./media/screenshot40.png)](./media/screenshot40.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-302">[![Stage transition budget plan](./media/screenshot40.png)](./media/screenshot40.png)</span></span> 
 
-Salve e ative o fluxo de trabalho. 
+<span data-ttu-id="0f605-303">Salve e ative o fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="0f605-303">Save and activate the workflow.</span></span> 
 
-B. Navegue até Orçamento &gt; Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento. Na guia Estágios, crie 2 estágios - Inicial e Enviado 
+<span data-ttu-id="0f605-304">B.</span><span class="sxs-lookup"><span data-stu-id="0f605-304">B.</span></span> <span data-ttu-id="0f605-305">Navegue até Orçamento &gt; Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento.</span><span class="sxs-lookup"><span data-stu-id="0f605-305">Navigate to Budgeting &gt; Setup &gt; Budget planning &gt; Budget planning configuration.</span></span> <span data-ttu-id="0f605-306">Na guia Estágios, crie 2 estágios - Inicial e Enviado</span><span class="sxs-lookup"><span data-stu-id="0f605-306">In Stages tab create 2 stages – Initial and Submitted</span></span> 
 
-[![Inicial e enviado](./media/screenshot41.png)](./media/screenshot41.png)
+<span data-ttu-id="0f605-307">[![Inicial e enviado](./media/screenshot41.png)](./media/screenshot41.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-307">[![Initial and submitted](./media/screenshot41.png)](./media/screenshot41.png)</span></span>
 
-C. Navegue até Orçamento &gt; Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento. Na guia Estágios do fluxo de trabalho, associe a aprovação automática do fluxo de trabalho criada na etapa A aos estágios Inicial e Enviado 
+<span data-ttu-id="0f605-308">C.</span><span class="sxs-lookup"><span data-stu-id="0f605-308">C.</span></span> <span data-ttu-id="0f605-309">Navegue até Orçamento &gt; Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento.</span><span class="sxs-lookup"><span data-stu-id="0f605-309">Navigate to Budgeting &gt; Setup &gt; Budget planning &gt; Budget planning configuration.</span></span> <span data-ttu-id="0f605-310">Na guia Estágios do fluxo de trabalho, associe a aprovação automática do fluxo de trabalho criada na etapa A aos estágios Inicial e Enviado</span><span class="sxs-lookup"><span data-stu-id="0f605-310">In Workflow Stages tab Associate the workflow Auto – approve created in A step with the stages Initial and Submitted</span></span> 
 
-[![Orçamento e planejamento de orçamento](./media/screenshot42.png)](./media/screenshot42.png)  
+<span data-ttu-id="0f605-311">[![Orçamento e planejamento de orçamento](./media/screenshot42.png)](./media/screenshot42.png)</span><span class="sxs-lookup"><span data-stu-id="0f605-311">[![Budgeting and budget planning](./media/screenshot42.png)](./media/screenshot42.png)</span></span>  
 
 
 

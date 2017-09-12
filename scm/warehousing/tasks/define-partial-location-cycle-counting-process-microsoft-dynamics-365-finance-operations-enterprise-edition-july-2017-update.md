@@ -16,60 +16,60 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 507a1147fea62c12490291362d365224efeda97e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 030f0f75d64c97f1109f36c9fd38283c2d1fa7b0
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="define-partial-location-cycle-counting-process"></a>Definir processo de contagem cíclica de localização parcial  
+# <a name="define-partial-location-cycle-counting-process"></a><span data-ttu-id="f9142-103">Definir processo de contagem cíclica de localização parcial </span><span class="sxs-lookup"><span data-stu-id="f9142-103">Define partial location cycle counting process</span></span> 
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Quando você usa planos de contagem cíclica para criar trabalhos de contagem, você pode orientar operações de contagem real solicitando que somente os produtos e as grades do produto foram contados específicos, em vez de todo estoque disponível no local. Ao filtrar produtos específicos, o gerente do depósito pode reduzir custos indiretos de revisão, ajudar a evitar erros de consolidação e economizar tempo. Geralmente, um gerente de depósito executa as tarefas de configuração. Você pode ver todo esse procedimento na empresa de dados de demonstração USMF ou em seus próprios dados.
+<span data-ttu-id="f9142-104">Quando você usa planos de contagem cíclica para criar trabalhos de contagem, você pode orientar operações de contagem real solicitando que somente os produtos e as grades do produto foram contados específicos, em vez de todo estoque disponível no local.</span><span class="sxs-lookup"><span data-stu-id="f9142-104">When you use cycle count plans to create counting work, you can guide the actual counting operations by requesting that only specific products and product variants be counted instead of all on-hand inventory at the location.</span></span> <span data-ttu-id="f9142-105">Ao filtrar produtos específicos, o gerente do depósito pode reduzir custos indiretos de revisão, ajudar a evitar erros de consolidação e economizar tempo.</span><span class="sxs-lookup"><span data-stu-id="f9142-105">By filtering on specific products, the warehouse manager can reduce review overhead, help prevent consolidation mistakes, and save time.</span></span> <span data-ttu-id="f9142-106">Geralmente, um gerente de depósito executa as tarefas de configuração.</span><span class="sxs-lookup"><span data-stu-id="f9142-106">Typically, a warehouse manager performs the setup tasks.</span></span> <span data-ttu-id="f9142-107">Você pode ver todo esse procedimento na empresa de dados de demonstração USMF ou em seus próprios dados.</span><span class="sxs-lookup"><span data-stu-id="f9142-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
 
 
-## <a name="create-a-cycle-counting-work-template"></a>Criar um modelo de trabalho de contagem cíclica
-1. Vá para Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho.
-2. No campo Tipo de ordem de trabalho, selecione "Contagem cíclica".
-3. Clique em Novo.
-4. No campo de número de sequência, insira um número.
-    * A ordem de classificação é do número menor para o número maior. O valor deve ser maior que 0 (zero).  
-5. Na lista, marque a linha selecionada.
-6. No campo Modelo de trabalho, digite um valor.
-7. No campo Descrição do modelo do trabalho, digite um valor.
-8. No campo ID do grupo de trabalho, insira ou selecione um valor.
-9. No campo Prioridade de trabalho, insira um número.
-10. Clique em Salvar.
-11. Clique em Novo.
-12. Na lista, marque a linha selecionada.
-13. No campo Tipo de trabalho, selecione 'Contagem'.
-14. No campo ID de classe de trabalho, insira ou selecione um valor.
-15. Clique em Salvar.
-16. Clique em Divisões de linha de trabalho.
-17. Clique em Novo.
-18. No campo de número de sequência, insira um número.
-    * A ordem de classificação é do número menor para o número maior. O valor deve ser maior que 0 (zero).  
-19. Clique em Salvar.
-20. Feche a página.
-21. Feche a página.
+## <a name="create-a-cycle-counting-work-template"></a><span data-ttu-id="f9142-108">Criar um modelo de trabalho de contagem cíclica</span><span class="sxs-lookup"><span data-stu-id="f9142-108">Create a cycle counting work template</span></span>
+1. <span data-ttu-id="f9142-109">Vá para Gerenciamento de depósito > Configuração > Trabalho > Modelos de trabalho.</span><span class="sxs-lookup"><span data-stu-id="f9142-109">Go to Warehouse management > Setup > Work > Work templates.</span></span>
+2. <span data-ttu-id="f9142-110">No campo Tipo de ordem de trabalho, selecione "Contagem cíclica".</span><span class="sxs-lookup"><span data-stu-id="f9142-110">In the Work order type field, select 'Cycle counting'.</span></span>
+3. <span data-ttu-id="f9142-111">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="f9142-111">Click New.</span></span>
+4. <span data-ttu-id="f9142-112">No campo de número de sequência, insira um número.</span><span class="sxs-lookup"><span data-stu-id="f9142-112">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="f9142-113">A ordem de classificação é do número menor para o número maior.</span><span class="sxs-lookup"><span data-stu-id="f9142-113">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="f9142-114">O valor deve ser maior que 0 (zero).</span><span class="sxs-lookup"><span data-stu-id="f9142-114">The value must be more than 0 (zero).</span></span>  
+5. <span data-ttu-id="f9142-115">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f9142-115">In the list, mark the selected row.</span></span>
+6. <span data-ttu-id="f9142-116">No campo Modelo de trabalho, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="f9142-116">In the Work template field, type a value.</span></span>
+7. <span data-ttu-id="f9142-117">No campo Descrição do modelo do trabalho, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="f9142-117">In the Work template description field, type a value.</span></span>
+8. <span data-ttu-id="f9142-118">No campo ID do grupo de trabalho, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="f9142-118">In the Work pool ID field, enter or select a value.</span></span>
+9. <span data-ttu-id="f9142-119">No campo Prioridade de trabalho, insira um número.</span><span class="sxs-lookup"><span data-stu-id="f9142-119">In the Work priority field, enter a number.</span></span>
+10. <span data-ttu-id="f9142-120">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="f9142-120">Click Save.</span></span>
+11. <span data-ttu-id="f9142-121">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="f9142-121">Click New.</span></span>
+12. <span data-ttu-id="f9142-122">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f9142-122">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="f9142-123">No campo Tipo de trabalho, selecione 'Contagem'.</span><span class="sxs-lookup"><span data-stu-id="f9142-123">In the Work type field, select 'Counting'.</span></span>
+14. <span data-ttu-id="f9142-124">No campo ID de classe de trabalho, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="f9142-124">In the Work class ID field, enter or select a value.</span></span>
+15. <span data-ttu-id="f9142-125">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="f9142-125">Click Save.</span></span>
+16. <span data-ttu-id="f9142-126">Clique em Divisões de linha de trabalho.</span><span class="sxs-lookup"><span data-stu-id="f9142-126">Click Work line breaks.</span></span>
+17. <span data-ttu-id="f9142-127">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="f9142-127">Click New.</span></span>
+18. <span data-ttu-id="f9142-128">No campo de número de sequência, insira um número.</span><span class="sxs-lookup"><span data-stu-id="f9142-128">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="f9142-129">A ordem de classificação é do número menor para o número maior.</span><span class="sxs-lookup"><span data-stu-id="f9142-129">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="f9142-130">O valor deve ser maior que 0 (zero).</span><span class="sxs-lookup"><span data-stu-id="f9142-130">The value must be more than 0 (zero).</span></span>  
+19. <span data-ttu-id="f9142-131">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="f9142-131">Click Save.</span></span>
+20. <span data-ttu-id="f9142-132">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f9142-132">Close the page.</span></span>
+21. <span data-ttu-id="f9142-133">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f9142-133">Close the page.</span></span>
 
-## <a name="create-a-cycle-counting-plan"></a>Criar um plano de contagem cíclica
-1. Vá para Gerenciamento de depósito > Configuração > Contagem cíclica > Planos de contagem cíclica.
-2. Clique em Novo.
-3. No campo ID do plano de contagem cíclica, digite um valor.
-4. No campo Descrição, digite um valor.
-5. No campo Número máximo de contagens cíclicas, insira um número.
-6. No campo Modelo de trabalho, insira ou selecione um valor.
-7. Clique em Novo.
-8. No campo de número de sequência, insira um número.
-    * A ordem de classificação é do número menor para o número maior. O valor deve ser maior que 0 (zero).  
-9. No campo Descrição, digite um valor.
-10. Clique em Salvar.
-11. Clique em Definir consulta de produto.
-12. Na lista, marque a linha selecionada.
-13. No campo Critérios, insira ou selecione um valor.
-14. Clique em OK.
-15. Feche a página.
+## <a name="create-a-cycle-counting-plan"></a><span data-ttu-id="f9142-134">Criar um plano de contagem cíclica</span><span class="sxs-lookup"><span data-stu-id="f9142-134">Create a cycle counting plan</span></span>
+1. <span data-ttu-id="f9142-135">Vá para Gerenciamento de depósito > Configuração > Contagem cíclica > Planos de contagem cíclica.</span><span class="sxs-lookup"><span data-stu-id="f9142-135">Go to Warehouse management > Setup > Cycle counting > Cycle count plans.</span></span>
+2. <span data-ttu-id="f9142-136">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="f9142-136">Click New.</span></span>
+3. <span data-ttu-id="f9142-137">No campo ID do plano de contagem cíclica, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="f9142-137">In the Cycle counting plan ID field, type a value.</span></span>
+4. <span data-ttu-id="f9142-138">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="f9142-138">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="f9142-139">No campo Número máximo de contagens cíclicas, insira um número.</span><span class="sxs-lookup"><span data-stu-id="f9142-139">In the Maximum number of cycle counts field, enter a number.</span></span>
+6. <span data-ttu-id="f9142-140">No campo Modelo de trabalho, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="f9142-140">In the Work template field, enter or select a value.</span></span>
+7. <span data-ttu-id="f9142-141">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="f9142-141">Click New.</span></span>
+8. <span data-ttu-id="f9142-142">No campo de número de sequência, insira um número.</span><span class="sxs-lookup"><span data-stu-id="f9142-142">In the Sequence number field, enter a number.</span></span>
+    * <span data-ttu-id="f9142-143">A ordem de classificação é do número menor para o número maior.</span><span class="sxs-lookup"><span data-stu-id="f9142-143">The sort order is from the smallest number to the largest number.</span></span> <span data-ttu-id="f9142-144">O valor deve ser maior que 0 (zero).</span><span class="sxs-lookup"><span data-stu-id="f9142-144">The value must be more than 0 (zero).</span></span>  
+9. <span data-ttu-id="f9142-145">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="f9142-145">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="f9142-146">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="f9142-146">Click Save.</span></span>
+11. <span data-ttu-id="f9142-147">Clique em Definir consulta de produto.</span><span class="sxs-lookup"><span data-stu-id="f9142-147">Click Define product query.</span></span>
+12. <span data-ttu-id="f9142-148">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="f9142-148">In the list, mark the selected row.</span></span>
+13. <span data-ttu-id="f9142-149">No campo Critérios, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="f9142-149">In the Criteria field, enter or select a value.</span></span>
+14. <span data-ttu-id="f9142-150">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="f9142-150">Click OK.</span></span>
+15. <span data-ttu-id="f9142-151">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="f9142-151">Close the page.</span></span>
 
 

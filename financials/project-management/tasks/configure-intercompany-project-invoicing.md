@@ -17,54 +17,54 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 3e26f4261c4028767c20a1118107777d582bb277
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 4de7257ed5e9c9c08ec6cc423c29739a541926d5
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="configure-intercompany-project-invoicing"></a>Configurar faturamento de projeto intercompanhia
+# <a name="configure-intercompany-project-invoicing"></a><span data-ttu-id="8cbb2-103">Configurar faturamento de projeto intercompanhia</span><span class="sxs-lookup"><span data-stu-id="8cbb2-103">Configure intercompany project invoicing</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento mostra como configurar o faturamento de projeto entre duas empresas na sua organização. Essa tarefa usa o conjunto de dados de USSI.
+<span data-ttu-id="8cbb2-104">Este procedimento mostra como configurar o faturamento de projeto entre duas empresas na sua organização.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-104">This procedure shows how to set up project invoicing between two companies in your organization.</span></span> <span data-ttu-id="8cbb2-105">Essa tarefa usa o conjunto de dados de USSI.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-105">This task uses the USSI data set.</span></span>
 
-1. Vá para Contas a pagar > Fornecedores > Todos os fornecedores.
-2. Na lista, localize e selecione o PDV desejado.
-3. No Painel de Ação, clique em Geral.
-4. Clique em Intercompanhia.
-5. Defina Ativa como Sim para habilitar comercial intercompanhia.
-6. No campo Empresa do cliente, insira ou selecione um valor.
-7. No campo Minha conta, insira ou selecione um valor.
-8. Clique em Salvar.
-9. Feche a página.
-10. Feche a página.
-11. Vá para Gerenciamento e contabilidade de projeto > Configuração > Parâmetros de gerenciamento e contabilidade de projetos.
-12. Clique na guia Intercompanhia.
-13. Mova o controle deslizante para Sim para habilitar folhas de ponto e agendamento de recursos intercompanhia.
-14. Na lista, marque a linha selecionada.
-15. Clique em Novo.
-16. Na lista, marque a linha selecionada.
-17. No campo Entidade legal que toma o empréstimo, informe ou selecione um valor.
-18. Marque a caixa de seleção Acumular receita.
-19. No campo Categoria de folha de ponto padrão, insira ou selecione um valor.
-20. No campo Categoria de despesa padrão, insira ou selecione um valor.
-21. Clique em Salvar.
-22. Feche a página.
-23. Vá para Gerenciamento e contabilidade de projeto > Configuração > Lançamento > Configuração de lançamento contábil.
-24. No campo Tipos de conta contábil, selecione uma opção.
-25. Clique em Novo.
-26. Na lista, marque a linha selecionada.
-27. Na lista, marque a linha selecionada.
-28. No campo Conta principal, especifique os valores desejados.
-29. Clique em Salvar.
-30. Feche a página.
-31. Vá para Gerenciamento e contabilidade de projeto > Configuração > Preços > Preço de transferência.
-32. Clique em Novo.
-33. No campo Data efetiva, insira uma data.
-34. No campo Entidade legal que toma o empréstimo, informe ou selecione um valor.
-35. No campo Modelo de preço de transferência, selecione uma opção.
-36. No campo Definição de preços, insira um número.
-37. Clique em Salvar.
+1. <span data-ttu-id="8cbb2-106">Vá para Contas a pagar > Fornecedores > Todos os fornecedores.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-106">Go to Accounts payable > Vendors > All vendors.</span></span>
+2. <span data-ttu-id="8cbb2-107">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-107">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="8cbb2-108">No Painel de Ação, clique em Geral.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-108">On the Action Pane, click General.</span></span>
+4. <span data-ttu-id="8cbb2-109">Clique em Intercompanhia.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-109">Click Intercompany.</span></span>
+5. <span data-ttu-id="8cbb2-110">Defina Ativa como Sim para habilitar comercial intercompanhia.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-110">Set Active to Yes to enable intercompany trading.</span></span>
+6. <span data-ttu-id="8cbb2-111">No campo Empresa do cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-111">In the Customer company field, enter or select a value.</span></span>
+7. <span data-ttu-id="8cbb2-112">No campo Minha conta, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-112">In the My account field, enter or select a value.</span></span>
+8. <span data-ttu-id="8cbb2-113">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-113">Click Save.</span></span>
+9. <span data-ttu-id="8cbb2-114">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-114">Close the page.</span></span>
+10. <span data-ttu-id="8cbb2-115">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-115">Close the page.</span></span>
+11. <span data-ttu-id="8cbb2-116">Vá para Gerenciamento e contabilidade de projeto > Configuração > Parâmetros de gerenciamento e contabilidade de projetos.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-116">Go to Project management and accounting > Setup > Project management and accounting parameters.</span></span>
+12. <span data-ttu-id="8cbb2-117">Clique na guia Intercompanhia.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-117">Click the Intercompany tab.</span></span>
+13. <span data-ttu-id="8cbb2-118">Mova o controle deslizante para Sim para habilitar folhas de ponto e agendamento de recursos intercompanhia.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-118">Move the slider to Yes to enable intercompany resource scheduling and timesheets.</span></span>
+14. <span data-ttu-id="8cbb2-119">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-119">In the list, mark the selected row.</span></span>
+15. <span data-ttu-id="8cbb2-120">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-120">Click New.</span></span>
+16. <span data-ttu-id="8cbb2-121">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-121">In the list, mark the selected row.</span></span>
+17. <span data-ttu-id="8cbb2-122">No campo Entidade legal que toma o empréstimo, informe ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-122">In the Borrowing legal entity field, enter or select a value.</span></span>
+18. <span data-ttu-id="8cbb2-123">Marque a caixa de seleção Acumular receita.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-123">Select the Accrue revenue check box.</span></span>
+19. <span data-ttu-id="8cbb2-124">No campo Categoria de folha de ponto padrão, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-124">In the Default timesheet category field, enter or select a value.</span></span>
+20. <span data-ttu-id="8cbb2-125">No campo Categoria de despesa padrão, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-125">In the Default expense category field, enter or select a value.</span></span>
+21. <span data-ttu-id="8cbb2-126">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-126">Click Save.</span></span>
+22. <span data-ttu-id="8cbb2-127">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-127">Close the page.</span></span>
+23. <span data-ttu-id="8cbb2-128">Vá para Gerenciamento e contabilidade de projeto > Configuração > Lançamento > Configuração de lançamento contábil.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-128">Go to Project management and accounting > Setup > Posting > Ledger posting setup.</span></span>
+24. <span data-ttu-id="8cbb2-129">No campo Tipos de conta contábil, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-129">In the Ledger account types field, select an option.</span></span>
+25. <span data-ttu-id="8cbb2-130">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-130">Click New.</span></span>
+26. <span data-ttu-id="8cbb2-131">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-131">In the list, mark the selected row.</span></span>
+27. <span data-ttu-id="8cbb2-132">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-132">In the list, mark the selected row.</span></span>
+28. <span data-ttu-id="8cbb2-133">No campo Conta principal, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-133">In the Main account field, specify the desired values.</span></span>
+29. <span data-ttu-id="8cbb2-134">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-134">Click Save.</span></span>
+30. <span data-ttu-id="8cbb2-135">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-135">Close the page.</span></span>
+31. <span data-ttu-id="8cbb2-136">Vá para Gerenciamento e contabilidade de projeto > Configuração > Preços > Preço de transferência.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-136">Go to Project management and accounting > Setup > Prices > Transfer price.</span></span>
+32. <span data-ttu-id="8cbb2-137">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-137">Click New.</span></span>
+33. <span data-ttu-id="8cbb2-138">No campo Data efetiva, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-138">In the Effective date field, enter a date.</span></span>
+34. <span data-ttu-id="8cbb2-139">No campo Entidade legal que toma o empréstimo, informe ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-139">In the Borrowing legal entity field, enter or select a value.</span></span>
+35. <span data-ttu-id="8cbb2-140">No campo Modelo de preço de transferência, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-140">In the Transfer price model field, select an option.</span></span>
+36. <span data-ttu-id="8cbb2-141">No campo Definição de preços, insira um número.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-141">In the Pricing field, enter a number.</span></span>
+37. <span data-ttu-id="8cbb2-142">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="8cbb2-142">Click Save.</span></span>
 
 

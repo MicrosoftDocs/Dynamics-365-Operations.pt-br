@@ -19,285 +19,285 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 23541bb2d82b552cdc9e0ada4aa4ec473f498d0b
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 49d5242168cd43e78dd4b0c63da363f91f680904
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="centralized-payments-for-accounts-payable"></a>Pagamentos centralizados para Contas a pagar
+# <a name="centralized-payments-for-accounts-payable"></a><span data-ttu-id="d7642-105">Pagamentos centralizados para Contas a pagar</span><span class="sxs-lookup"><span data-stu-id="d7642-105">Centralized payments for Accounts payable</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal única que trate todos os pagamentos. Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais. Este artigo fornece exemplos que mostram como a postagem de pagamentos centralizados é feita em vários cenários.
+<span data-ttu-id="d7642-106">As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal única que trate todos os pagamentos.</span><span class="sxs-lookup"><span data-stu-id="d7642-106">Organizations that include multiple legal entities can create and manage payments by using a single legal entity that handles all payments.</span></span> <span data-ttu-id="d7642-107">Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais.</span><span class="sxs-lookup"><span data-stu-id="d7642-107">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="d7642-108">Este artigo fornece exemplos que mostram como a postagem de pagamentos centralizados é feita em vários cenários.</span><span class="sxs-lookup"><span data-stu-id="d7642-108">This article provides examples that show how posting for centralized payments is handled in various scenarios.</span></span>
 
-As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal que trate todos os pagamentos. Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais. Além disso, a organização economiza tempo, já que o processo de pagamento é simplificado.
+<span data-ttu-id="d7642-109">As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal que trate todos os pagamentos.</span><span class="sxs-lookup"><span data-stu-id="d7642-109">Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments.</span></span> <span data-ttu-id="d7642-110">Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais.</span><span class="sxs-lookup"><span data-stu-id="d7642-110">Therefore, the same payments don't have to be entered in multiple legal entities.</span></span> <span data-ttu-id="d7642-111">Além disso, a organização economiza tempo, já que o processo de pagamento é simplificado.</span><span class="sxs-lookup"><span data-stu-id="d7642-111">Additionally, the organization saves time, because the payment process is streamlined.</span></span>
 
-Em uma organização de pagamentos centralizados, existem muitos entidade legal para operações, e cada entidade legal operacional gerencia as próprias faturas de fornecedor. Os pagamentos para todas as entidades legais operacionais são gerados de uma única entidade legal, conhecida como a entidade legal do pagamento. Durante o processo de liquidação, as transações a vencer ou vencidas aplicáveis são geradas. Você pode especificar qual entidade legal dentro da organização receberá as transações de ganho ou perda realizada e como são tratadas as transações com desconto à vista relacionadas a pagamentos de empresa cruzada. 
+<span data-ttu-id="d7642-112">Em uma organização de pagamentos centralizados, existem muitos entidade legal para operações, e cada entidade legal operacional gerencia as próprias faturas de fornecedor.</span><span class="sxs-lookup"><span data-stu-id="d7642-112">In a centralized payments organization, there are many legal entities for operations, and each operating legal entity manages its own vendor invoices.</span></span> <span data-ttu-id="d7642-113">Os pagamentos para todas as entidades legais operacionais são gerados de uma única entidade legal, conhecida como a entidade legal do pagamento.</span><span class="sxs-lookup"><span data-stu-id="d7642-113">Payments for all the operating legal entities are generated from a single legal entity, which is known as the legal entity of the payment.</span></span> <span data-ttu-id="d7642-114">Durante o processo de liquidação, as transações a vencer ou vencidas aplicáveis são geradas.</span><span class="sxs-lookup"><span data-stu-id="d7642-114">During the settlement process, the applicable due-to and due-from transactions are generated.</span></span> <span data-ttu-id="d7642-115">Você pode especificar qual entidade legal dentro da organização receberá as transações de ganho ou perda realizada e como são tratadas as transações com desconto à vista relacionadas a pagamentos de empresa cruzada.</span><span class="sxs-lookup"><span data-stu-id="d7642-115">You can specify which legal entity in the organization receives the realized gain or realized loss transactions, and how cash discount transactions that are related to a cross-company payment are handled.</span></span> 
 
-Os exemplos a seguir ilustram como o lançamento é tratado em vários cenários. Esta configuração é presumida para todos esses exemplos:
+<span data-ttu-id="d7642-116">Os exemplos a seguir ilustram como o lançamento é tratado em vários cenários.</span><span class="sxs-lookup"><span data-stu-id="d7642-116">The following examples illustrate how posting is handled in various scenarios.</span></span> <span data-ttu-id="d7642-117">Esta configuração é presumida para todos esses exemplos:</span><span class="sxs-lookup"><span data-stu-id="d7642-117">The following configuration is assumed for all these examples:</span></span>
 
--   As entidades legais são Fabrikam, Fabrikam Leste e Fabrikam Oeste. Os pagamentos são feitos da Fabrikam.
--   O campo **Lançar desconto à vista** na página **Contabilidade intercompanhia** é definido como **Entidade legal da fatura**.
--   O campo **Lançar ganho ou perda de câmbio de moeda** na página **Contabilidade intercompanhia** é definido como **Entidade legal do pagamento**.
--   O fornecedor Fourth coffee é configurado como um fornecedor em cada entidade legal. Os fornecedores das diversas entidades legais são identificados como o mesmo fornecedor porque compartilham a mesma ID de catálogo de endereços global.
+-   <span data-ttu-id="d7642-118">As entidades legais são Fabrikam, Fabrikam Leste e Fabrikam Oeste.</span><span class="sxs-lookup"><span data-stu-id="d7642-118">The legal entities are Fabrikam, Fabrikam East, and Fabrikam West.</span></span> <span data-ttu-id="d7642-119">Os pagamentos são feitos da Fabrikam.</span><span class="sxs-lookup"><span data-stu-id="d7642-119">Payments are made from Fabrikam.</span></span>
+-   <span data-ttu-id="d7642-120">O campo **Lançar desconto à vista** na página **Contabilidade intercompanhia** é definido como **Entidade legal da fatura**.</span><span class="sxs-lookup"><span data-stu-id="d7642-120">The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.</span></span>
+-   <span data-ttu-id="d7642-121">O campo **Lançar ganho ou perda de câmbio de moeda** na página **Contabilidade intercompanhia** é definido como **Entidade legal do pagamento**.</span><span class="sxs-lookup"><span data-stu-id="d7642-121">The **Post currency exchange gain or loss** field on the **Intercompany accounting** page is set to **Legal entity of the payment**.</span></span>
+-   <span data-ttu-id="d7642-122">O fornecedor Fourth coffee é configurado como um fornecedor em cada entidade legal.</span><span class="sxs-lookup"><span data-stu-id="d7642-122">The vendor Fourth Coffee is set up as a vendor in each legal entity.</span></span> <span data-ttu-id="d7642-123">Os fornecedores das diversas entidades legais são identificados como o mesmo fornecedor porque compartilham a mesma ID de catálogo de endereços global.</span><span class="sxs-lookup"><span data-stu-id="d7642-123">The vendors from the various legal entities are identified as the same vendor because they share the same global address book ID.</span></span>
 
-| ID de diretório | Conta de fornecedor | Nome          | Pessoas Jurídicas de Direito Privado  |
+| <span data-ttu-id="d7642-124">ID de diretório</span><span class="sxs-lookup"><span data-stu-id="d7642-124">Directory ID</span></span> | <span data-ttu-id="d7642-125">Conta de fornecedor</span><span class="sxs-lookup"><span data-stu-id="d7642-125">Vendor account</span></span> | <span data-ttu-id="d7642-126">Nome</span><span class="sxs-lookup"><span data-stu-id="d7642-126">Name</span></span>          | <span data-ttu-id="d7642-127">Pessoas Jurídicas de Direito Privado</span><span class="sxs-lookup"><span data-stu-id="d7642-127">Legal entity</span></span>  |
 |--------------|----------------|---------------|---------------|
-| 1050         | 3004           | Fourth Coffee | Fabrikam      |
-| 1050         | 100            | Fourth Coffee | Fabrikam Leste |
-| 1050         | 3004           | Fourth Coffee | Fabrikam Oeste |
+| <span data-ttu-id="d7642-128">1050</span><span class="sxs-lookup"><span data-stu-id="d7642-128">1050</span></span>         | <span data-ttu-id="d7642-129">3004</span><span class="sxs-lookup"><span data-stu-id="d7642-129">3004</span></span>           | <span data-ttu-id="d7642-130">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="d7642-130">Fourth Coffee</span></span> | <span data-ttu-id="d7642-131">Fabrikam</span><span class="sxs-lookup"><span data-stu-id="d7642-131">Fabrikam</span></span>      |
+| <span data-ttu-id="d7642-132">1050</span><span class="sxs-lookup"><span data-stu-id="d7642-132">1050</span></span>         | <span data-ttu-id="d7642-133">100</span><span class="sxs-lookup"><span data-stu-id="d7642-133">100</span></span>            | <span data-ttu-id="d7642-134">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="d7642-134">Fourth Coffee</span></span> | <span data-ttu-id="d7642-135">Fabrikam Leste</span><span class="sxs-lookup"><span data-stu-id="d7642-135">Fabrikam East</span></span> |
+| <span data-ttu-id="d7642-136">1050</span><span class="sxs-lookup"><span data-stu-id="d7642-136">1050</span></span>         | <span data-ttu-id="d7642-137">3004</span><span class="sxs-lookup"><span data-stu-id="d7642-137">3004</span></span>           | <span data-ttu-id="d7642-138">Fourth Coffee</span><span class="sxs-lookup"><span data-stu-id="d7642-138">Fourth Coffee</span></span> | <span data-ttu-id="d7642-139">Fabrikam Oeste</span><span class="sxs-lookup"><span data-stu-id="d7642-139">Fabrikam West</span></span> |
 
-## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a>Exemplo 1: pagamento de fatura do fornecedor de outra entidade legal
-A Fabrikam Leste tem uma fatura em aberto para a conta de fornecedor 100, Fourth Coffee. A Fabrikam insere e lança um pagamento para a conta de fornecedor 3004, Fourth Coffee. O pagamento é liquidado com a nota fiscal em aberto.
+## <a name="example-1-vendor-payment-of-invoice-from-another-legal-entity"></a><span data-ttu-id="d7642-140">Exemplo 1: pagamento de fatura do fornecedor de outra entidade legal</span><span class="sxs-lookup"><span data-stu-id="d7642-140">Example 1: Vendor payment of invoice from another legal entity</span></span>
+<span data-ttu-id="d7642-141">A Fabrikam Leste tem uma fatura em aberto para a conta de fornecedor 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="d7642-141">Fabrikam East has an open invoice for vendor account 100, Fourth Coffee.</span></span> <span data-ttu-id="d7642-142">A Fabrikam insere e lança um pagamento para a conta de fornecedor 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="d7642-142">Fabrikam enters and posts a payment to Fabrikam vendor account 3004, Fourth Coffee.</span></span> <span data-ttu-id="d7642-143">O pagamento é liquidado com a nota fiscal em aberto.</span><span class="sxs-lookup"><span data-stu-id="d7642-143">The payment is settled with the open invoice.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a>A nota fiscal é lançada na Fabrikam Leste para o fornecedor 100
+### <a name="invoice-is-posted-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="d7642-144">A nota fiscal é lançada na Fabrikam Leste para o fornecedor 100</span><span class="sxs-lookup"><span data-stu-id="d7642-144">Invoice is posted in Fabrikam East for vendor 100</span></span>
 
-| Conta                          | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-145">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-145">Account</span></span>                          | <span data-ttu-id="d7642-146">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-146">Debit amount</span></span> | <span data-ttu-id="d7642-147">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-147">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Despesa (Fabrikam Leste)          | 600,00       |               |
-| Contas a pagar (Fabrikam Leste) |              | 600,00        |
+| <span data-ttu-id="d7642-148">Despesa (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-148">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="d7642-149">600,00</span><span class="sxs-lookup"><span data-stu-id="d7642-149">600.00</span></span>       |               |
+| <span data-ttu-id="d7642-150">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-150">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="d7642-151">600,00</span><span class="sxs-lookup"><span data-stu-id="d7642-151">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>O pagamento é gerado e lançado na Fabrikam para o fornecedor 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="d7642-152">O pagamento é gerado e lançado na Fabrikam para o fornecedor 3004</span><span class="sxs-lookup"><span data-stu-id="d7642-152">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| Conta                     | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-153">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-153">Account</span></span>                     | <span data-ttu-id="d7642-154">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-154">Debit amount</span></span> | <span data-ttu-id="d7642-155">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-155">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Contas a pagar (Fabrikam) | 600,00       |               |
-| Pagamento à vista (Fabrikam)             |              | 600,00        |
+| <span data-ttu-id="d7642-156">Contas a pagar (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-156">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="d7642-157">600,00</span><span class="sxs-lookup"><span data-stu-id="d7642-157">600.00</span></span>       |               |
+| <span data-ttu-id="d7642-158">Pagamento à vista (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-158">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="d7642-159">600,00</span><span class="sxs-lookup"><span data-stu-id="d7642-159">600.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="d7642-160">O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste</span><span class="sxs-lookup"><span data-stu-id="d7642-160">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Lançamento da Fabrikam**
+<span data-ttu-id="d7642-161">**Lançamento da Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="d7642-161">**Fabrikam posting**</span></span>
 
-| Conta                           | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-162">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-162">Account</span></span>                           | <span data-ttu-id="d7642-163">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-163">Debit amount</span></span> | <span data-ttu-id="d7642-164">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-164">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Devido pela Fabrikam Leste (Fabrikam) | 600,00       |               |
-| Contas a pagar (Fabrikam)       |              | 600,00        |
+| <span data-ttu-id="d7642-165">Devido pela Fabrikam Leste (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-165">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="d7642-166">600,00</span><span class="sxs-lookup"><span data-stu-id="d7642-166">600.00</span></span>       |               |
+| <span data-ttu-id="d7642-167">Contas a pagar (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-167">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="d7642-168">600,00</span><span class="sxs-lookup"><span data-stu-id="d7642-168">600.00</span></span>        |
 
-**Lançamento da Fabrikam Leste**
+<span data-ttu-id="d7642-169">**Lançamento da Fabrikam Leste**</span><span class="sxs-lookup"><span data-stu-id="d7642-169">**Fabrikam East posting**</span></span>
 
-| Conta                          | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-170">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-170">Account</span></span>                          | <span data-ttu-id="d7642-171">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-171">Debit amount</span></span> | <span data-ttu-id="d7642-172">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-172">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Contas a pagar (Fabrikam Leste) | 600,00       |               |
-| Devido à Fabrikam (Fabrikam Leste)  |              | 600,00        |
+| <span data-ttu-id="d7642-173">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-173">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="d7642-174">600,00</span><span class="sxs-lookup"><span data-stu-id="d7642-174">600.00</span></span>       |               |
+| <span data-ttu-id="d7642-175">Devido à Fabrikam (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-175">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="d7642-176">600,00</span><span class="sxs-lookup"><span data-stu-id="d7642-176">600.00</span></span>        |
 
-## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>Exemplo 2: pagamento de fatura do fornecedor de outra entidade legal com desconto à vista
-A Fabrikam Leste tem uma fatura em aberto para o fornecedor 100, Fourth Coffee. A nota fiscal tem um desconto à vista de 20,00 disponível. A Fabrikam insere e lança um pagamento de 580,00 para o fornecedor 3004 da Fabrikam, Fourth Coffee. O pagamento é liquidado com faturas em aberto da Fabrikam Leste. O desconto à vista é lançado para a entidade legal da fatura, a Fabrikam leste.
+## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a><span data-ttu-id="d7642-177">Exemplo 2: pagamento de fatura do fornecedor de outra entidade legal com desconto à vista</span><span class="sxs-lookup"><span data-stu-id="d7642-177">Example 2: Vendor payment of invoice from another legal entity with cash discount</span></span>
+<span data-ttu-id="d7642-178">A Fabrikam Leste tem uma fatura em aberto para o fornecedor 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="d7642-178">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="d7642-179">A nota fiscal tem um desconto à vista de 20,00 disponível.</span><span class="sxs-lookup"><span data-stu-id="d7642-179">The invoice has a 20.00 cash discount available.</span></span> <span data-ttu-id="d7642-180">A Fabrikam insere e lança um pagamento de 580,00 para o fornecedor 3004 da Fabrikam, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="d7642-180">Fabrikam enters and posts a payment of 580.00 for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="d7642-181">O pagamento é liquidado com faturas em aberto da Fabrikam Leste.</span><span class="sxs-lookup"><span data-stu-id="d7642-181">The payment is settled with the open Fabrikam East invoices.</span></span> <span data-ttu-id="d7642-182">O desconto à vista é lançado para a entidade legal da fatura, a Fabrikam leste.</span><span class="sxs-lookup"><span data-stu-id="d7642-182">The cash discount is posted to the legal entity of the invoice, Fabrikam East.</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>A fatura é lançada na Fabrikam Leste para o fornecedor 100 da Fabrikam Leste
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="d7642-183">A fatura é lançada na Fabrikam Leste para o fornecedor 100 da Fabrikam Leste</span><span class="sxs-lookup"><span data-stu-id="d7642-183">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| Conta                          | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-184">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-184">Account</span></span>                          | <span data-ttu-id="d7642-185">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-185">Debit amount</span></span> | <span data-ttu-id="d7642-186">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-186">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Despesa (Fabrikam Leste)          | 600,00       |               |
-| Contas a pagar (Fabrikam Leste) |              | 600,00        |
+| <span data-ttu-id="d7642-187">Despesa (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-187">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="d7642-188">600,00</span><span class="sxs-lookup"><span data-stu-id="d7642-188">600.00</span></span>       |               |
+| <span data-ttu-id="d7642-189">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-189">Accounts payable (Fabrikam East)</span></span> |              | <span data-ttu-id="d7642-190">600,00</span><span class="sxs-lookup"><span data-stu-id="d7642-190">600.00</span></span>        |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>O pagamento é gerado e lançado na Fabrikam para o fornecedor 3004 da Fabrikam
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="d7642-191">O pagamento é gerado e lançado na Fabrikam para o fornecedor 3004 da Fabrikam</span><span class="sxs-lookup"><span data-stu-id="d7642-191">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| Conta                     | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-192">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-192">Account</span></span>                     | <span data-ttu-id="d7642-193">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-193">Debit amount</span></span> | <span data-ttu-id="d7642-194">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-194">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Contas a pagar (Fabrikam) | 580,00       |               |
-| Pagamento à vista (Fabrikam)             |              | 580,00        |
+| <span data-ttu-id="d7642-195">Contas a pagar (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-195">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="d7642-196">580,00</span><span class="sxs-lookup"><span data-stu-id="d7642-196">580.00</span></span>       |               |
+| <span data-ttu-id="d7642-197">Pagamento à vista (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-197">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="d7642-198">580,00</span><span class="sxs-lookup"><span data-stu-id="d7642-198">580.00</span></span>        |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="d7642-199">O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste</span><span class="sxs-lookup"><span data-stu-id="d7642-199">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Lançamento da Fabrikam**
+<span data-ttu-id="d7642-200">**Lançamento da Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="d7642-200">**Fabrikam posting**</span></span>
 
-| Conta                           | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-201">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-201">Account</span></span>                           | <span data-ttu-id="d7642-202">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-202">Debit amount</span></span> | <span data-ttu-id="d7642-203">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-203">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Devido pela Fabrikam Leste (Fabrikam) | 580,00       |               |
-| Contas a pagar (Fabrikam)       |              | 580,00        |
+| <span data-ttu-id="d7642-204">Devido pela Fabrikam Leste (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-204">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="d7642-205">580,00</span><span class="sxs-lookup"><span data-stu-id="d7642-205">580.00</span></span>       |               |
+| <span data-ttu-id="d7642-206">Contas a pagar (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-206">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="d7642-207">580,00</span><span class="sxs-lookup"><span data-stu-id="d7642-207">580.00</span></span>        |
 
-**Lançamento da Fabrikam Leste**
+<span data-ttu-id="d7642-208">**Lançamento da Fabrikam Leste**</span><span class="sxs-lookup"><span data-stu-id="d7642-208">**Fabrikam East posting**</span></span>
 
-| Conta                          | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-209">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-209">Account</span></span>                          | <span data-ttu-id="d7642-210">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-210">Debit amount</span></span> | <span data-ttu-id="d7642-211">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-211">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Contas a pagar (Fabrikam Leste) | 580,00       |               |
-| Devido à Fabrikam (Fabrikam Leste)  |              | 580,00        |
-| Contas a pagar (Fabrikam Leste) | 20,00        |               |
-| Desconto à vista (Fabrikam Leste)    |              | 20.00         |
+| <span data-ttu-id="d7642-212">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-212">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="d7642-213">580,00</span><span class="sxs-lookup"><span data-stu-id="d7642-213">580.00</span></span>       |               |
+| <span data-ttu-id="d7642-214">Devido à Fabrikam (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-214">Due to Fabrikam (Fabrikam East)</span></span>  |              | <span data-ttu-id="d7642-215">580,00</span><span class="sxs-lookup"><span data-stu-id="d7642-215">580.00</span></span>        |
+| <span data-ttu-id="d7642-216">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-216">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="d7642-217">20,00</span><span class="sxs-lookup"><span data-stu-id="d7642-217">20.00</span></span>        |               |
+| <span data-ttu-id="d7642-218">Desconto à vista (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-218">Cash discount (Fabrikam East)</span></span>    |              | <span data-ttu-id="d7642-219">20.00</span><span class="sxs-lookup"><span data-stu-id="d7642-219">20.00</span></span>         |
 
-## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a>Exemplo 3: pagamento de fatura do fornecedor de outra entidade legal com perda cambial realizada
-A Fabrikam Leste tem uma fatura em aberto para o fornecedor 100, Fourth Coffee. A Fabrikam insere e lança um pagamento para o fornecedor 3004 da Fabrikam, Fourth Coffee. O pagamento é liquidado com a nota fiscal em aberto da Fabrikam Leste. Uma transação de perdas cambiais é gerada durante o processo de liquidação.
+## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a><span data-ttu-id="d7642-220">Exemplo 3: pagamento de fatura do fornecedor de outra entidade legal com perda cambial realizada</span><span class="sxs-lookup"><span data-stu-id="d7642-220">Example 3: Vendor payment of invoice from another legal entity with realized exchange rate loss</span></span>
+<span data-ttu-id="d7642-221">A Fabrikam Leste tem uma fatura em aberto para o fornecedor 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="d7642-221">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="d7642-222">A Fabrikam insere e lança um pagamento para o fornecedor 3004 da Fabrikam, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="d7642-222">Fabrikam enters and posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="d7642-223">O pagamento é liquidado com a nota fiscal em aberto da Fabrikam Leste.</span><span class="sxs-lookup"><span data-stu-id="d7642-223">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="d7642-224">Uma transação de perdas cambiais é gerada durante o processo de liquidação.</span><span class="sxs-lookup"><span data-stu-id="d7642-224">A currency exchange loss transaction is generated during the settlement process.</span></span>
 
--   Taxa de câmbio de euros (EUR) para dólares americanos (USD) a partir da data da fatura: 1,2062
--   Taxa de câmbio de EUR para USD na data da fatura: 1,2277
+-   <span data-ttu-id="d7642-225">Taxa de câmbio de euros (EUR) para dólares americanos (USD) a partir da data da fatura: 1,2062</span><span class="sxs-lookup"><span data-stu-id="d7642-225">Exchange rate for euros (EUR) to U.S. dollars (USD) as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="d7642-226">Taxa de câmbio de EUR para USD na data da fatura: 1,2277</span><span class="sxs-lookup"><span data-stu-id="d7642-226">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a>A nota fiscal é lançada na Fabrikam Leste para o fornecedor 100 da Fabrikam Leste
+### <a name="invoice-is-posted-in-fabrikam-east-for-fabrikam-east-vendor-100"></a><span data-ttu-id="d7642-227">A nota fiscal é lançada na Fabrikam Leste para o fornecedor 100 da Fabrikam Leste</span><span class="sxs-lookup"><span data-stu-id="d7642-227">Invoice is posted in Fabrikam East for Fabrikam East vendor 100</span></span>
 
-| Conta                          | Valor do débito            | Valor do crédito           |
+| <span data-ttu-id="d7642-228">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-228">Account</span></span>                          | <span data-ttu-id="d7642-229">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-229">Debit amount</span></span>            | <span data-ttu-id="d7642-230">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-230">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Despesa (Fabrikam Leste)          | 600,00 EUR / 723,72 BRL |                         |
-| Contas a pagar (Fabrikam Leste) |                         | 600,00 EUR / 723,72 BRL |
+| <span data-ttu-id="d7642-231">Despesa (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-231">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="d7642-232">600,00 EUR / 723,72 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-232">600.00 EUR / 723.72 USD</span></span> |                         |
+| <span data-ttu-id="d7642-233">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-233">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="d7642-234">600,00 EUR / 723,72 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-234">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>O pagamento é gerado e lançado na Fabrikam para o fornecedor 3004 da Fabrikam
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a><span data-ttu-id="d7642-235">O pagamento é gerado e lançado na Fabrikam para o fornecedor 3004 da Fabrikam</span><span class="sxs-lookup"><span data-stu-id="d7642-235">Payment is generated and posted in Fabrikam for Fabrikam vendor 3004</span></span>
 
-| Conta                     | Valor do débito            | Valor do crédito           |
+| <span data-ttu-id="d7642-236">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-236">Account</span></span>                     | <span data-ttu-id="d7642-237">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-237">Debit amount</span></span>            | <span data-ttu-id="d7642-238">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-238">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| Contas a pagar (Fabrikam) | 600,00 EUR / 736,62 BRL |                         |
-| Pagamento à vista (Fabrikam)             |                         | 600,00 EUR / 736,62 BRL |
+| <span data-ttu-id="d7642-239">Contas a pagar (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-239">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="d7642-240">600,00 EUR / 736,62 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-240">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="d7642-241">Pagamento à vista (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-241">Cash (Fabrikam)</span></span>             |                         | <span data-ttu-id="d7642-242">600,00 EUR / 736,62 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-242">600.00 EUR / 736.62 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="d7642-243">O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste</span><span class="sxs-lookup"><span data-stu-id="d7642-243">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Lançamento da Fabrikam**
+<span data-ttu-id="d7642-244">**Lançamento da Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="d7642-244">**Fabrikam posting**</span></span>
 
-| Conta                           | Valor do débito            | Valor do crédito           |
+| <span data-ttu-id="d7642-245">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-245">Account</span></span>                           | <span data-ttu-id="d7642-246">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-246">Debit amount</span></span>            | <span data-ttu-id="d7642-247">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-247">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| Devido pela Fabrikam Leste (Fabrikam) | 600,00 EUR / 736,62 BRL |                         |
-| Contas a pagar (Fabrikam)       |                         | 600,00 EUR / 736,62 BRL |
-| Perda realizada (Fabrikam)          | 0,00 EUR / 12,90 BRL    |                         |
-| Devido pela Fabrikam Leste (Fabrikam) |                         | 0,00 EUR / 12,90 BRL    |
+| <span data-ttu-id="d7642-248">Devido pela Fabrikam Leste (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-248">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="d7642-249">600,00 EUR / 736,62 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-249">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="d7642-250">Contas a pagar (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-250">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="d7642-251">600,00 EUR / 736,62 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-251">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="d7642-252">Perda realizada (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-252">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="d7642-253">0,00 EUR / 12,90 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-253">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="d7642-254">Devido pela Fabrikam Leste (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-254">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="d7642-255">0,00 EUR / 12,90 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-255">0.00 EUR / 12.90 USD</span></span>    |
 
-**Lançamento da Fabrikam Leste**
+<span data-ttu-id="d7642-256">**Lançamento da Fabrikam Leste**</span><span class="sxs-lookup"><span data-stu-id="d7642-256">**Fabrikam East posting**</span></span>
 
-| Conta                          | Valor do débito            | Valor do crédito           |
+| <span data-ttu-id="d7642-257">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-257">Account</span></span>                          | <span data-ttu-id="d7642-258">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-258">Debit amount</span></span>            | <span data-ttu-id="d7642-259">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-259">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Contas a pagar (Fabrikam Leste) | 600,00 EUR / 736,62 BRL |                         |
-| Devido à Fabrikam (Fabrikam Leste)  |                         | 600,00 EUR / 736,62 BRL |
-| Devido à Fabrikam (Fabrikam Leste)  | 0,00 EUR / 12,90 BRL    |                         |
-| Contas a pagar (Fabrikam Leste) |                         | 0,00 EUR / 12,90 BRL    |
+| <span data-ttu-id="d7642-260">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-260">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="d7642-261">600,00 EUR / 736,62 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-261">600.00 EUR / 736.62 USD</span></span> |                         |
+| <span data-ttu-id="d7642-262">Devido à Fabrikam (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-262">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="d7642-263">600,00 EUR / 736,62 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-263">600.00 EUR / 736.62 USD</span></span> |
+| <span data-ttu-id="d7642-264">Devido à Fabrikam (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-264">Due to Fabrikam (Fabrikam East)</span></span>  | <span data-ttu-id="d7642-265">0,00 EUR / 12,90 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-265">0.00 EUR / 12.90 USD</span></span>    |                         |
+| <span data-ttu-id="d7642-266">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-266">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="d7642-267">0,00 EUR / 12,90 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-267">0.00 EUR / 12.90 USD</span></span>    |
 
-## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a>Exemplo 4: pagamento de fatura do fornecedor de outra entidade legal com desconto à vista e perda cambial realizada
-A Fabrikam Leste tem uma fatura em aberto para o fornecedor 100, Fourth Coffee. A fatura tem um desconto à vista disponível e uma transação de imposto é gerada. A Fabrikam lança um pagamento para o fornecedor 3004 da Fabrikam, Fourth Coffee. O pagamento é liquidado com a nota fiscal em aberto da Fabrikam Leste. Uma transação de perdas cambiais é gerada durante o processo de liquidação. O desconto à vista é lançado para a entidade legal de faturamento (Fabrikam Leste) e a perda cambial é lançada para a entidade legal para pagamentos (Fabrikam).
+## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a><span data-ttu-id="d7642-268">Exemplo 4: pagamento de fatura do fornecedor de outra entidade legal com desconto à vista e perda cambial realizada</span><span class="sxs-lookup"><span data-stu-id="d7642-268">Example 4: Vendor payment of invoice from another legal entity with cash discount and realized exchange rate loss</span></span>
+<span data-ttu-id="d7642-269">A Fabrikam Leste tem uma fatura em aberto para o fornecedor 100, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="d7642-269">Fabrikam East has an open invoice for vendor 100, Fourth Coffee.</span></span> <span data-ttu-id="d7642-270">A fatura tem um desconto à vista disponível e uma transação de imposto é gerada.</span><span class="sxs-lookup"><span data-stu-id="d7642-270">The invoice has a cash discount available, and a sales tax transaction is generated.</span></span> <span data-ttu-id="d7642-271">A Fabrikam lança um pagamento para o fornecedor 3004 da Fabrikam, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="d7642-271">Fabrikam posts a payment for Fabrikam vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="d7642-272">O pagamento é liquidado com a nota fiscal em aberto da Fabrikam Leste.</span><span class="sxs-lookup"><span data-stu-id="d7642-272">The payment is settled with the open Fabrikam East invoice.</span></span> <span data-ttu-id="d7642-273">Uma transação de perdas cambiais é gerada durante o processo de liquidação.</span><span class="sxs-lookup"><span data-stu-id="d7642-273">A currency exchange loss transaction is generated during the settlement process.</span></span> <span data-ttu-id="d7642-274">O desconto à vista é lançado para a entidade legal de faturamento (Fabrikam Leste) e a perda cambial é lançada para a entidade legal para pagamentos (Fabrikam).</span><span class="sxs-lookup"><span data-stu-id="d7642-274">The cash discount is posted to the legal entity of the invoice (Fabrikam East), and the currency exchange loss is posted to the legal entity of the payment (Fabrikam).</span></span>
 
--   Taxa de câmbio de EUR para USD na data da fatura: 1,2062
--   Taxa de câmbio de EUR para USD na data da fatura: 1,2277
+-   <span data-ttu-id="d7642-275">Taxa de câmbio de EUR para USD na data da fatura: 1,2062</span><span class="sxs-lookup"><span data-stu-id="d7642-275">Exchange rate for EUR to USD as of the invoice date: 1.2062</span></span>
+-   <span data-ttu-id="d7642-276">Taxa de câmbio de EUR para USD na data da fatura: 1,2277</span><span class="sxs-lookup"><span data-stu-id="d7642-276">Exchange rate for EUR to USD as of the payment date: 1.2277</span></span>
 
-### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a>A nota fiscal é lançada e uma transação de imposto é gerada na Fabrikam Leste para o fornecedor 100
+### <a name="invoice-is-posted-and-a-tax-transaction-is-generated-in-fabrikam-east-for-vendor-100"></a><span data-ttu-id="d7642-277">A nota fiscal é lançada e uma transação de imposto é gerada na Fabrikam Leste para o fornecedor 100</span><span class="sxs-lookup"><span data-stu-id="d7642-277">Invoice is posted and a tax transaction is generated in Fabrikam East for vendor 100</span></span>
 
-| Conta                          | Valor do débito            | Valor do crédito           |
+| <span data-ttu-id="d7642-278">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-278">Account</span></span>                          | <span data-ttu-id="d7642-279">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-279">Debit amount</span></span>            | <span data-ttu-id="d7642-280">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-280">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Despesa (Fabrikam Leste)          | 564,07 EUR / 680,38 BRL |                         |
-| Imposto sobre vendas (Fabrikam Leste)        | 35,93 EUR / 43,34 BRL   |                         |
-| Contas a pagar (Fabrikam Leste) |                         | 600,00 EUR / 723,72 BRL |
+| <span data-ttu-id="d7642-281">Despesa (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-281">Expense (Fabrikam East)</span></span>          | <span data-ttu-id="d7642-282">564,07 EUR / 680,38 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-282">564.07 EUR / 680.38 USD</span></span> |                         |
+| <span data-ttu-id="d7642-283">Imposto sobre vendas (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-283">Sales tax (Fabrikam East)</span></span>        | <span data-ttu-id="d7642-284">35,93 EUR / 43,34 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-284">35.93 EUR / 43.34 USD</span></span>   |                         |
+| <span data-ttu-id="d7642-285">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-285">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="d7642-286">600,00 EUR / 723,72 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-286">600.00 EUR / 723.72 USD</span></span> |
 
-### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>O pagamento é gerado e lançado na Fabrikam para o fornecedor 3004
+### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a><span data-ttu-id="d7642-287">O pagamento é gerado e lançado na Fabrikam para o fornecedor 3004</span><span class="sxs-lookup"><span data-stu-id="d7642-287">Payment is generated and posted in Fabrikam for vendor 3004</span></span>
 
-| Conta                     | Valor do débito            | Valor do crédito           |
+| <span data-ttu-id="d7642-288">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-288">Account</span></span>                     | <span data-ttu-id="d7642-289">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-289">Debit amount</span></span>            | <span data-ttu-id="d7642-290">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-290">Credit amount</span></span>           |
 |-----------------------------|-------------------------|-------------------------|
-| Contas a pagar (Fabrikam) | 588,72 EUR / 722,77 BRL |                         |
-| Pagamento à vista (Fabrikam Leste)        |                         | 588,72 EUR / 722,77 BRL |
+| <span data-ttu-id="d7642-291">Contas a pagar (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-291">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="d7642-292">588,72 EUR / 722,77 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-292">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="d7642-293">Pagamento à vista (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-293">Cash (Fabrikam East)</span></span>        |                         | <span data-ttu-id="d7642-294">588,72 EUR / 722,77 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-294">588.72 EUR / 722.77 USD</span></span> |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste
+### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a><span data-ttu-id="d7642-295">O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Leste</span><span class="sxs-lookup"><span data-stu-id="d7642-295">Fabrikam payment is settled with Fabrikam East invoice</span></span>
 
-**Lançamento da Fabrikam**
+<span data-ttu-id="d7642-296">**Lançamento da Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="d7642-296">**Fabrikam posting**</span></span>
 
-| Conta                           | Valor do débito            | Valor do crédito           |
+| <span data-ttu-id="d7642-297">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-297">Account</span></span>                           | <span data-ttu-id="d7642-298">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-298">Debit amount</span></span>            | <span data-ttu-id="d7642-299">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-299">Credit amount</span></span>           |
 |-----------------------------------|-------------------------|-------------------------|
-| Devido pela Fabrikam Leste (Fabrikam) | 588,72 EUR / 722,77 BRL |                         |
-| Contas a pagar (Fabrikam)       |                         | 588,72 EUR / 722,77 BRL |
-| Perda realizada (Fabrikam)          | 0,00 EUR / 12,66 BRL    |                         |
-| Devido pela Fabrikam Leste (Fabrikam) |                         | 0,00 EUR / 12,66 BRL    |
+| <span data-ttu-id="d7642-300">Devido pela Fabrikam Leste (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-300">Due from Fabrikam East (Fabrikam)</span></span> | <span data-ttu-id="d7642-301">588,72 EUR / 722,77 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-301">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="d7642-302">Contas a pagar (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-302">Accounts payable (Fabrikam)</span></span>       |                         | <span data-ttu-id="d7642-303">588,72 EUR / 722,77 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-303">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="d7642-304">Perda realizada (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-304">Realized loss (Fabrikam)</span></span>          | <span data-ttu-id="d7642-305">0,00 EUR / 12,66 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-305">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="d7642-306">Devido pela Fabrikam Leste (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-306">Due from Fabrikam East (Fabrikam)</span></span> |                         | <span data-ttu-id="d7642-307">0,00 EUR / 12,66 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-307">0.00 EUR / 12.66 USD</span></span>    |
 
-**Lançamento da Fabrikam Leste**
+<span data-ttu-id="d7642-308">**Lançamento da Fabrikam Leste**</span><span class="sxs-lookup"><span data-stu-id="d7642-308">**Fabrikam East posting**</span></span>
 
-| Conta                          | Valor do débito            | Valor do crédito           |
+| <span data-ttu-id="d7642-309">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-309">Account</span></span>                          | <span data-ttu-id="d7642-310">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-310">Debit amount</span></span>            | <span data-ttu-id="d7642-311">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-311">Credit amount</span></span>           |
 |----------------------------------|-------------------------|-------------------------|
-| Contas a pagar (Fabrikam Leste) | 588,72 EUR / 722,77 BRL |                         |
-| Devido à Fabrikam (Fabrikam Leste)  |                         | 588,72 EUR / 722,77 BRL |
-| Devido à Fabrikam (Fabrikam Leste)   | 0,00 EUR / 12,66 BRL    |                         |
-| Contas a pagar (Fabrikam Leste) |                         | 0,00 EUR / 12,66 BRL    |
-| Contas a pagar (Fabrikam Leste) | 11,28 EUR / 13,61 BRL   |                         |
-| Desconto à vista (Fabrikam Leste)    |                         | 11,28 EUR / 13,61 BRL   |
+| <span data-ttu-id="d7642-312">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-312">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="d7642-313">588,72 EUR / 722,77 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-313">588.72 EUR / 722.77 USD</span></span> |                         |
+| <span data-ttu-id="d7642-314">Devido à Fabrikam (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-314">Due to Fabrikam (Fabrikam East)</span></span>  |                         | <span data-ttu-id="d7642-315">588,72 EUR / 722,77 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-315">588.72 EUR / 722.77 USD</span></span> |
+| <span data-ttu-id="d7642-316">Devido à Fabrikam (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-316">Due to Fabrikam (Fabrikam East</span></span>   | <span data-ttu-id="d7642-317">0,00 EUR / 12,66 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-317">0.00 EUR / 12.66 USD</span></span>    |                         |
+| <span data-ttu-id="d7642-318">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-318">Accounts payable (Fabrikam East)</span></span> |                         | <span data-ttu-id="d7642-319">0,00 EUR / 12,66 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-319">0.00 EUR / 12.66 USD</span></span>    |
+| <span data-ttu-id="d7642-320">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-320">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="d7642-321">11,28 EUR / 13,61 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-321">11.28 EUR / 13.61 USD</span></span>   |                         |
+| <span data-ttu-id="d7642-322">Desconto à vista (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-322">Cash discount (Fabrikam East)</span></span>    |                         | <span data-ttu-id="d7642-323">11,28 EUR / 13,61 BRL</span><span class="sxs-lookup"><span data-stu-id="d7642-323">11.28 EUR / 13.61 USD</span></span>   |
 
-## <a name="example-5-vendor-credit-note-with-primary-payment"></a>Exemplo 5: nota de crédito do fornecedor com pagamento principal
-A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee. O pagamento é liquidado com uma nota fiscal em aberto para o fornecedor 3004 da Fabrikam Oeste e uma nota de crédito aberta para o fornecedor 100 da Fabrikam Leste. O pagamento não é selecionado como pagamento principal na página **Liquidar transações**.
+## <a name="example-5-vendor-credit-note-with-primary-payment"></a><span data-ttu-id="d7642-324">Exemplo 5: nota de crédito do fornecedor com pagamento principal</span><span class="sxs-lookup"><span data-stu-id="d7642-324">Example 5: Vendor credit note with primary payment</span></span>
+<span data-ttu-id="d7642-325">A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="d7642-325">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="d7642-326">O pagamento é liquidado com uma nota fiscal em aberto para o fornecedor 3004 da Fabrikam Oeste e uma nota de crédito aberta para o fornecedor 100 da Fabrikam Leste.</span><span class="sxs-lookup"><span data-stu-id="d7642-326">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="d7642-327">O pagamento não é selecionado como pagamento principal na página **Liquidar transações**.</span><span class="sxs-lookup"><span data-stu-id="d7642-327">The payment is selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>A fatura é lançada na Fabrikam Oeste para o fornecedor 3004
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="d7642-328">A fatura é lançada na Fabrikam Oeste para o fornecedor 3004</span><span class="sxs-lookup"><span data-stu-id="d7642-328">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| Conta                          | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-329">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-329">Account</span></span>                          | <span data-ttu-id="d7642-330">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-330">Debit amount</span></span> | <span data-ttu-id="d7642-331">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-331">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Despesa (Fabrikam Oeste)          | 100,00       |               |
-| Contas a pagar (Fabrikam Oeste) |              | 100,00        |
+| <span data-ttu-id="d7642-332">Despesa (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="d7642-332">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="d7642-333">100,00</span><span class="sxs-lookup"><span data-stu-id="d7642-333">100.00</span></span>       |               |
+| <span data-ttu-id="d7642-334">Contas a pagar (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="d7642-334">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="d7642-335">100,00</span><span class="sxs-lookup"><span data-stu-id="d7642-335">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>Uma nota de crédito é lançada na Fabrikam Leste para o fornecedor 100
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="d7642-336">Uma nota de crédito é lançada na Fabrikam Leste para o fornecedor 100</span><span class="sxs-lookup"><span data-stu-id="d7642-336">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| Conta                          | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-337">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-337">Account</span></span>                          | <span data-ttu-id="d7642-338">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-338">Debit amount</span></span> | <span data-ttu-id="d7642-339">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-339">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Contas a pagar (Fabrikam Leste) | 25,00        |               |
-| Devolução de compras (Fabrikam Leste) |              | 25,00         |
+| <span data-ttu-id="d7642-340">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-340">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="d7642-341">25,00</span><span class="sxs-lookup"><span data-stu-id="d7642-341">25.00</span></span>        |               |
+| <span data-ttu-id="d7642-342">Devolução de compras (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-342">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="d7642-343">25,00</span><span class="sxs-lookup"><span data-stu-id="d7642-343">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>O pagamento é lançado na Fabrikam para o fornecedor 3004
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="d7642-344">O pagamento é lançado na Fabrikam para o fornecedor 3004</span><span class="sxs-lookup"><span data-stu-id="d7642-344">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| Conta                     | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-345">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-345">Account</span></span>                     | <span data-ttu-id="d7642-346">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-346">Debit amount</span></span> | <span data-ttu-id="d7642-347">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-347">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Contas a pagar (Fabrikam) | 75,00        |               |
-| Pagamento à vista (Fabrikam)             |              | 75,00         |
+| <span data-ttu-id="d7642-348">Contas a pagar (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-348">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="d7642-349">75,00</span><span class="sxs-lookup"><span data-stu-id="d7642-349">75.00</span></span>        |               |
+| <span data-ttu-id="d7642-350">Pagamento à vista (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-350">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="d7642-351">75,00</span><span class="sxs-lookup"><span data-stu-id="d7642-351">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Oeste e a nota de crédito da Fabrikam Leste
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="d7642-352">O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Oeste e a nota de crédito da Fabrikam Leste</span><span class="sxs-lookup"><span data-stu-id="d7642-352">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Lançamento da Fabrikam**
+<span data-ttu-id="d7642-353">**Lançamento da Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="d7642-353">**Fabrikam posting**</span></span>
 
-| Conta                           | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-354">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-354">Account</span></span>                           | <span data-ttu-id="d7642-355">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-355">Debit amount</span></span> | <span data-ttu-id="d7642-356">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-356">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Contas a pagar (Fabrikam)       | 25,00        |               |
-| Devido à Fabrikam Leste (Fabrikam)   |              | 25,00         |
-| Devido pela Fabrikam Oeste (Fabrikam) | 100,00       |               |
-| Contas a pagar (Fabrikam)       |              | 100,00        |
+| <span data-ttu-id="d7642-357">Contas a pagar (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-357">Accounts payable (Fabrikam)</span></span>       | <span data-ttu-id="d7642-358">25,00</span><span class="sxs-lookup"><span data-stu-id="d7642-358">25.00</span></span>        |               |
+| <span data-ttu-id="d7642-359">Devido à Fabrikam Leste (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-359">Due to Fabrikam East (Fabrikam)</span></span>   |              | <span data-ttu-id="d7642-360">25,00</span><span class="sxs-lookup"><span data-stu-id="d7642-360">25.00</span></span>         |
+| <span data-ttu-id="d7642-361">Devido pela Fabrikam Oeste (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-361">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="d7642-362">100,00</span><span class="sxs-lookup"><span data-stu-id="d7642-362">100.00</span></span>       |               |
+| <span data-ttu-id="d7642-363">Contas a pagar (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-363">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="d7642-364">100,00</span><span class="sxs-lookup"><span data-stu-id="d7642-364">100.00</span></span>        |
 
-**Lançamento da Fabrikam Leste**
+<span data-ttu-id="d7642-365">**Lançamento da Fabrikam Leste**</span><span class="sxs-lookup"><span data-stu-id="d7642-365">**Fabrikam East posting**</span></span>
 
-| Conta                           | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-366">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-366">Account</span></span>                           | <span data-ttu-id="d7642-367">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-367">Debit amount</span></span> | <span data-ttu-id="d7642-368">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-368">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Devido pela Fabrikam (Fabrikam Leste) | 25,00        |               |
-| Contas a pagar (Fabrikam Leste)  |              | 25,00         |
+| <span data-ttu-id="d7642-369">Devido pela Fabrikam (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-369">Due from Fabrikam (Fabrikam East)</span></span> | <span data-ttu-id="d7642-370">25,00</span><span class="sxs-lookup"><span data-stu-id="d7642-370">25.00</span></span>        |               |
+| <span data-ttu-id="d7642-371">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-371">Accounts payable (Fabrikam East)</span></span>  |              | <span data-ttu-id="d7642-372">25,00</span><span class="sxs-lookup"><span data-stu-id="d7642-372">25.00</span></span>         |
 
-**Lançamento da Fabrikam Oeste**
+<span data-ttu-id="d7642-373">**Lançamento da Fabrikam Oeste**</span><span class="sxs-lookup"><span data-stu-id="d7642-373">**Fabrikam West posting**</span></span>
 
-| Conta                          | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-374">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-374">Account</span></span>                          | <span data-ttu-id="d7642-375">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-375">Debit amount</span></span> | <span data-ttu-id="d7642-376">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-376">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Contas a pagar (Fabrikam Oeste) | 100,00       |               |
-| Devido à Fabrikam (Fabrikam Oeste)  |              | 100,00        |
+| <span data-ttu-id="d7642-377">Contas a pagar (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="d7642-377">Accounts payable (Fabrikam West)</span></span> | <span data-ttu-id="d7642-378">100,00</span><span class="sxs-lookup"><span data-stu-id="d7642-378">100.00</span></span>       |               |
+| <span data-ttu-id="d7642-379">Devido à Fabrikam (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="d7642-379">Due to Fabrikam (Fabrikam West)</span></span>  |              | <span data-ttu-id="d7642-380">100,00</span><span class="sxs-lookup"><span data-stu-id="d7642-380">100.00</span></span>        |
 
-## <a name="example-6-vendor-credit-note-without-primary-payment"></a>Exemplo 6: nota de crédito do fornecedor sem o pagamento principal
-A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee. O pagamento é liquidado com uma nota fiscal em aberto para o fornecedor 3004 da Fabrikam Oeste e uma nota de crédito aberta para o fornecedor 100 da Fabrikam Leste. O pagamento não é selecionado como pagamento principal na página **Liquidar transações**.
+## <a name="example-6-vendor-credit-note-without-primary-payment"></a><span data-ttu-id="d7642-381">Exemplo 6: nota de crédito do fornecedor sem o pagamento principal</span><span class="sxs-lookup"><span data-stu-id="d7642-381">Example 6: Vendor credit note without primary payment</span></span>
+<span data-ttu-id="d7642-382">A Fabrikam gera um pagamento de 75,00 para o fornecedor 3004, Fourth Coffee.</span><span class="sxs-lookup"><span data-stu-id="d7642-382">Fabrikam generates a payment of 75.00 for vendor 3004, Fourth Coffee.</span></span> <span data-ttu-id="d7642-383">O pagamento é liquidado com uma nota fiscal em aberto para o fornecedor 3004 da Fabrikam Oeste e uma nota de crédito aberta para o fornecedor 100 da Fabrikam Leste.</span><span class="sxs-lookup"><span data-stu-id="d7642-383">The payment is settled with an open invoice for Fabrikam West vendor 3004 and an open credit note for Fabrikam East vendor 100.</span></span> <span data-ttu-id="d7642-384">O pagamento não é selecionado como pagamento principal na página **Liquidar transações**.</span><span class="sxs-lookup"><span data-stu-id="d7642-384">The payment isn't selected as the primary payment on the **Settle transactions** page.</span></span>
 
-### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a>A fatura é lançada na Fabrikam Oeste para o fornecedor 3004
+### <a name="invoice-is-posted-to-fabrikam-west-for-vendor-3004"></a><span data-ttu-id="d7642-385">A fatura é lançada na Fabrikam Oeste para o fornecedor 3004</span><span class="sxs-lookup"><span data-stu-id="d7642-385">Invoice is posted to Fabrikam West for vendor 3004</span></span>
 
-| Conta                          | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-386">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-386">Account</span></span>                          | <span data-ttu-id="d7642-387">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-387">Debit amount</span></span> | <span data-ttu-id="d7642-388">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-388">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Despesa (Fabrikam Oeste)          | 100,00       |               |
-| Contas a pagar (Fabrikam Oeste) |              | 100,00        |
+| <span data-ttu-id="d7642-389">Despesa (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="d7642-389">Expense (Fabrikam West)</span></span>          | <span data-ttu-id="d7642-390">100,00</span><span class="sxs-lookup"><span data-stu-id="d7642-390">100.00</span></span>       |               |
+| <span data-ttu-id="d7642-391">Contas a pagar (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="d7642-391">Accounts payable (Fabrikam West)</span></span> |              | <span data-ttu-id="d7642-392">100,00</span><span class="sxs-lookup"><span data-stu-id="d7642-392">100.00</span></span>        |
 
-### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>Uma nota de crédito é lançada na Fabrikam Leste para o fornecedor 100
+### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a><span data-ttu-id="d7642-393">Uma nota de crédito é lançada na Fabrikam Leste para o fornecedor 100</span><span class="sxs-lookup"><span data-stu-id="d7642-393">Credit note is posted to Fabrikam East for vendor 100</span></span>
 
-| Conta                          | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-394">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-394">Account</span></span>                          | <span data-ttu-id="d7642-395">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-395">Debit amount</span></span> | <span data-ttu-id="d7642-396">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-396">Credit amount</span></span> |
 |----------------------------------|--------------|---------------|
-| Contas a pagar (Fabrikam Leste) | 25,00        |               |
-| Devolução de compras (Fabrikam Leste) |              | 25,00         |
+| <span data-ttu-id="d7642-397">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-397">Accounts payable (Fabrikam East)</span></span> | <span data-ttu-id="d7642-398">25,00</span><span class="sxs-lookup"><span data-stu-id="d7642-398">25.00</span></span>        |               |
+| <span data-ttu-id="d7642-399">Devolução de compras (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-399">Purchase returns (Fabrikam East)</span></span> |              | <span data-ttu-id="d7642-400">25,00</span><span class="sxs-lookup"><span data-stu-id="d7642-400">25.00</span></span>         |
 
-### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>O pagamento é lançado na Fabrikam para o fornecedor 3004
+### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a><span data-ttu-id="d7642-401">O pagamento é lançado na Fabrikam para o fornecedor 3004</span><span class="sxs-lookup"><span data-stu-id="d7642-401">Payment is posted to Fabrikam for vendor 3004</span></span>
 
-| Conta                     | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-402">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-402">Account</span></span>                     | <span data-ttu-id="d7642-403">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-403">Debit amount</span></span> | <span data-ttu-id="d7642-404">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-404">Credit amount</span></span> |
 |-----------------------------|--------------|---------------|
-| Contas a pagar (Fabrikam) | 75,00        |               |
-| Pagamento à vista (Fabrikam)             |              | 75,00         |
+| <span data-ttu-id="d7642-405">Contas a pagar (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-405">Accounts payable (Fabrikam)</span></span> | <span data-ttu-id="d7642-406">75,00</span><span class="sxs-lookup"><span data-stu-id="d7642-406">75.00</span></span>        |               |
+| <span data-ttu-id="d7642-407">Pagamento à vista (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-407">Cash (Fabrikam)</span></span>             |              | <span data-ttu-id="d7642-408">75,00</span><span class="sxs-lookup"><span data-stu-id="d7642-408">75.00</span></span>         |
 
-### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Oeste e a nota de crédito da Fabrikam Leste
+### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a><span data-ttu-id="d7642-409">O pagamento da Fabrikam é liquidado com a nota fiscal da Fabrikam Oeste e a nota de crédito da Fabrikam Leste</span><span class="sxs-lookup"><span data-stu-id="d7642-409">Fabrikam payment is settled with Fabrikam West invoice and Fabrikam East credit note</span></span>
 
-**Lançamento da Fabrikam**
+<span data-ttu-id="d7642-410">**Lançamento da Fabrikam**</span><span class="sxs-lookup"><span data-stu-id="d7642-410">**Fabrikam posting**</span></span>
 
-| Conta                           | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-411">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-411">Account</span></span>                           | <span data-ttu-id="d7642-412">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-412">Debit amount</span></span> | <span data-ttu-id="d7642-413">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-413">Credit amount</span></span> |
 |-----------------------------------|--------------|---------------|
-| Devido pela Fabrikam Oeste (Fabrikam) | 75,00        |               |
-| Contas a pagar (Fabrikam)       |              | 75,00         |
+| <span data-ttu-id="d7642-414">Devido pela Fabrikam Oeste (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-414">Due from Fabrikam West (Fabrikam)</span></span> | <span data-ttu-id="d7642-415">75,00</span><span class="sxs-lookup"><span data-stu-id="d7642-415">75.00</span></span>        |               |
+| <span data-ttu-id="d7642-416">Contas a pagar (Fabrikam)</span><span class="sxs-lookup"><span data-stu-id="d7642-416">Accounts payable (Fabrikam)</span></span>       |              | <span data-ttu-id="d7642-417">75,00</span><span class="sxs-lookup"><span data-stu-id="d7642-417">75.00</span></span>         |
 
-**Lançamento da Fabrikam Leste**
+<span data-ttu-id="d7642-418">**Lançamento da Fabrikam Leste**</span><span class="sxs-lookup"><span data-stu-id="d7642-418">**Fabrikam East posting**</span></span>
 
-| Conta                                | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-419">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-419">Account</span></span>                                | <span data-ttu-id="d7642-420">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-420">Debit amount</span></span> | <span data-ttu-id="d7642-421">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-421">Credit amount</span></span> |
 |----------------------------------------|--------------|---------------|
-| Devido pela Fabrikam Oeste (Fabrikam Leste) | 25,00        |               |
-| Contas a pagar (Fabrikam Leste)       |              | 25,00         |
+| <span data-ttu-id="d7642-422">Devido pela Fabrikam Oeste (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-422">Due from Fabrikam West (Fabrikam East)</span></span> | <span data-ttu-id="d7642-423">25,00</span><span class="sxs-lookup"><span data-stu-id="d7642-423">25.00</span></span>        |               |
+| <span data-ttu-id="d7642-424">Contas a pagar (Fabrikam Leste)</span><span class="sxs-lookup"><span data-stu-id="d7642-424">Accounts payable (Fabrikam East)</span></span>       |              | <span data-ttu-id="d7642-425">25,00</span><span class="sxs-lookup"><span data-stu-id="d7642-425">25.00</span></span>         |
 
-**Lançamento da Fabrikam Oeste**
+<span data-ttu-id="d7642-426">**Lançamento da Fabrikam Oeste**</span><span class="sxs-lookup"><span data-stu-id="d7642-426">**Fabrikam West posting**</span></span>
 
-| Conta                              | Valor do débito | Valor do crédito |
+| <span data-ttu-id="d7642-427">Conta</span><span class="sxs-lookup"><span data-stu-id="d7642-427">Account</span></span>                              | <span data-ttu-id="d7642-428">Valor do débito</span><span class="sxs-lookup"><span data-stu-id="d7642-428">Debit amount</span></span> | <span data-ttu-id="d7642-429">Valor do crédito</span><span class="sxs-lookup"><span data-stu-id="d7642-429">Credit amount</span></span> |
 |--------------------------------------|--------------|---------------|
-| Contas a pagar (Fabrikam Oeste)     | 75,00        |               |
-| Devido à Fabrikam (Fabrikam Oeste)      |              | 75,00         |
-| Contas a pagar (Fabrikam Oeste)     | 25,00        |               |
-| Devido à Fabrikam Leste (Fabrikam Oeste) |              | 25,00         |
+| <span data-ttu-id="d7642-430">Contas a pagar (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="d7642-430">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="d7642-431">75,00</span><span class="sxs-lookup"><span data-stu-id="d7642-431">75.00</span></span>        |               |
+| <span data-ttu-id="d7642-432">Devido à Fabrikam (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="d7642-432">Due to Fabrikam (Fabrikam West)</span></span>      |              | <span data-ttu-id="d7642-433">75,00</span><span class="sxs-lookup"><span data-stu-id="d7642-433">75.00</span></span>         |
+| <span data-ttu-id="d7642-434">Contas a pagar (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="d7642-434">Accounts payable (Fabrikam West)</span></span>     | <span data-ttu-id="d7642-435">25,00</span><span class="sxs-lookup"><span data-stu-id="d7642-435">25.00</span></span>        |               |
+| <span data-ttu-id="d7642-436">Devido à Fabrikam Leste (Fabrikam Oeste)</span><span class="sxs-lookup"><span data-stu-id="d7642-436">Due to Fabrikam East (Fabrikam West)</span></span> |              | <span data-ttu-id="d7642-437">25,00</span><span class="sxs-lookup"><span data-stu-id="d7642-437">25.00</span></span>         |
 
 
 

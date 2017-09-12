@@ -16,74 +16,74 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 1c7ecd07c294b7357e4bda9f4183deb346b3e6ee
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 19a816f04283ce4f200de7396617313e45e057db
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-write-off-journal-for-a-customer"></a>Criar um diário de baixa para um cliente
+# <a name="create-a-write-off-journal-for-a-customer"></a><span data-ttu-id="b6bfe-103">Criar um diário de baixa para um cliente</span><span class="sxs-lookup"><span data-stu-id="b6bfe-103">Create a write-off journal for a customer</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Esta guia de tarefa mostrará como configurar parâmetros de baixas contábeis e dar baixa em transações da página das coleções, a página inicial das notas fiscais de clientes, e a página do cliente. Esta tarefa usa a empresa de demonstração USMF.
+<span data-ttu-id="b6bfe-104">Esta guia de tarefa mostrará como configurar parâmetros de baixas contábeis e dar baixa em transações da página das coleções, a página inicial das notas fiscais de clientes, e a página do cliente.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-104">This task guide will show you how to set up the parameters for write-offs and then write off transactions from the Collections page, the Open customer invoices page, and the Customer page.</span></span> <span data-ttu-id="b6bfe-105">Esta tarefa usa a empresa de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-105">This task uses the USMF demo company.</span></span>
 
 
-## <a name="set-up-the-write-off-parameters"></a>Configurar os parâmetros de dar baixa
-1. Vá para Crédito e coleções > Configuração > Parâmetros de contas a pagar.
-2. Clique na guia Coleções.
-3. Expanda ou recolha a seção Dar baixa.
-    * O diário de valores é o diário geral que reterá as transações de baixa que você criar.  
-    * Você pode anexar um código de motivo para cada amortização. Você pode sobrepor este padrão no momento de dar baixa.  
-    * Defina o como Sim se desejar separar os impostos sobre vendas da transação original na amortização.  
-4. Feche a página.
-5. Vá para Crédito e coleções > Configuração > Perfis de lançamento de cliente.
-    * A amortização de conta será usada como o ajuste da conta de despesas de reserva ou no diário geral   
-6. Feche a página.
+## <a name="set-up-the-write-off-parameters"></a><span data-ttu-id="b6bfe-106">Configurar os parâmetros de dar baixa</span><span class="sxs-lookup"><span data-stu-id="b6bfe-106">Set up the write off parameters</span></span>
+1. <span data-ttu-id="b6bfe-107">Vá para Crédito e coleções > Configuração > Parâmetros de contas a pagar.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-107">Go to Credit and collections > Setup > Accounts receivable parameters.</span></span>
+2. <span data-ttu-id="b6bfe-108">Clique na guia Coleções.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-108">Click the Collections tab.</span></span>
+3. <span data-ttu-id="b6bfe-109">Expanda ou recolha a seção Dar baixa.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-109">Expand or collapse the Write-off section.</span></span>
+    * <span data-ttu-id="b6bfe-110">O diário de valores é o diário geral que reterá as transações de baixa que você criar.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-110">The Write-off journal is the general journal that will hold the write-off transactions that you create.</span></span>  
+    * <span data-ttu-id="b6bfe-111">Você pode anexar um código de motivo para cada amortização.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-111">You can attach a reason code to every write-off.</span></span> <span data-ttu-id="b6bfe-112">Você pode sobrepor este padrão no momento de dar baixa.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-112">You can override this default at the time of the write-off.</span></span>  
+    * <span data-ttu-id="b6bfe-113">Defina o como Sim se desejar separar os impostos sobre vendas da transação original na amortização.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-113">Set this to Yes if you want to separate the sales tax from the original transaction in the write-off.</span></span>  
+4. <span data-ttu-id="b6bfe-114">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-114">Close the page.</span></span>
+5. <span data-ttu-id="b6bfe-115">Vá para Crédito e coleções > Configuração > Perfis de lançamento de cliente.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-115">Go to Credit and collections > Setup > Customer posting profiles.</span></span>
+    * <span data-ttu-id="b6bfe-116">A amortização de conta será usada como o ajuste da conta de despesas de reserva ou no diário geral</span><span class="sxs-lookup"><span data-stu-id="b6bfe-116">The write-off account will be used as the expense account or reserve adjustment in the general journal</span></span>   
+6. <span data-ttu-id="b6bfe-117">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-117">Close the page.</span></span>
 
-## <a name="write-off-a-customer-balance-from-the-aged-balances-page"></a>Dar baixa de um saldo do cliente de página de saldos antiga
-1. Vá para Crédito e coleções > Cobranças > Saldos antigos.
-2. Marque a linha do cliente que deseja dar baixa. Por exemplo, marcar a linha com Vidoeiro de empresa nela.
-3. No Painel de Ação, clique em Coletar.
-4. Clique em Dar baixa.
-5. Clique em OK.
-6. Feche a página.
-7. Ir para Contabilidade > Entradas de diários > Diários gerais.
-8. Selecione o número do lote do diário para o diário que contém a amortização.
-    * Uma linha é criada para reverter o saldo do cliente. Uma ou mais linhas são criadas para lançar a amortização na conta de valores.  
-9. Feche a página.
-10. Feche a página.
+## <a name="write-off-a-customer-balance-from-the-aged-balances-page"></a><span data-ttu-id="b6bfe-118">Dar baixa de um saldo do cliente de página de saldos antiga</span><span class="sxs-lookup"><span data-stu-id="b6bfe-118">Write off a customer balance from the aged balances page</span></span>
+1. <span data-ttu-id="b6bfe-119">Vá para Crédito e coleções > Cobranças > Saldos antigos.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-119">Go to Credit and collections > Collections > Aged balances.</span></span>
+2. <span data-ttu-id="b6bfe-120">Marque a linha do cliente que deseja dar baixa.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-120">Mark the row for the customer that you want to write off.</span></span> <span data-ttu-id="b6bfe-121">Por exemplo, marcar a linha com Vidoeiro de empresa nela.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-121">For example, mark the line with Birch Company on it.</span></span>
+3. <span data-ttu-id="b6bfe-122">No Painel de Ação, clique em Coletar.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-122">On the Action Pane, click Collect.</span></span>
+4. <span data-ttu-id="b6bfe-123">Clique em Dar baixa.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-123">Click Write off.</span></span>
+5. <span data-ttu-id="b6bfe-124">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-124">Click OK.</span></span>
+6. <span data-ttu-id="b6bfe-125">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-125">Close the page.</span></span>
+7. <span data-ttu-id="b6bfe-126">Ir para Contabilidade > Entradas de diários > Diários gerais.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-126">Go to General ledger > Journal entries > General journals.</span></span>
+8. <span data-ttu-id="b6bfe-127">Selecione o número do lote do diário para o diário que contém a amortização.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-127">Select the journal batch number for the journal that contains your write-off.</span></span>
+    * <span data-ttu-id="b6bfe-128">Uma linha é criada para reverter o saldo do cliente.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-128">One line is created to reverse the customer balance.</span></span> <span data-ttu-id="b6bfe-129">Uma ou mais linhas são criadas para lançar a amortização na conta de valores.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-129">One or more lines are created to post the write-off to the write-off account.</span></span>  
+9. <span data-ttu-id="b6bfe-130">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-130">Close the page.</span></span>
+10. <span data-ttu-id="b6bfe-131">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-131">Close the page.</span></span>
 
-## <a name="write-off-transactions-from-the-collections-form"></a>Dar baixa nas transações do formulário das coleções.
-1. Vá para Crédito e coleções > Cobranças > Saldos antigos.
-2. Selecione o nome do cliente que tem as transações que deseja dar baixa. Por exemplo, selecione Vendas por atacado da cavidade (US-004).
-3. Marcar a linha como a primeira transação.
-4. Marcar a linha como a segunda transação.
-5. Clique em Dar baixa.
-6. No campo de comentário do Razão, insira 'Débitos ruins'.
-7. Clique em OK.
-8. Feche a página.
-9. Feche a página.
-10. Ir para Contabilidade > Entradas de diários > Diários gerais.
-11. Selecione o número do lote do diário para o diário que contém a amortização.
-    * Uma linha é criada para reverter o saldo do cliente. Uma ou mais linhas são criadas para lançar a amortização na conta de valores.  
-12. Feche a página.
-13. Feche a página.
+## <a name="write-off-transactions-from-the-collections-form"></a><span data-ttu-id="b6bfe-132">Dar baixa nas transações do formulário das coleções.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-132">Write off transactions from the collections form.</span></span>
+1. <span data-ttu-id="b6bfe-133">Vá para Crédito e coleções > Cobranças > Saldos antigos.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-133">Go to Credit and collections > Collections > Aged balances.</span></span>
+2. <span data-ttu-id="b6bfe-134">Selecione o nome do cliente que tem as transações que deseja dar baixa.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-134">Select the name of the customer that has the transactions that you want to write off.</span></span> <span data-ttu-id="b6bfe-135">Por exemplo, selecione Vendas por atacado da cavidade (US-004).</span><span class="sxs-lookup"><span data-stu-id="b6bfe-135">For example, select Cave Wholesales (US-004).</span></span>
+3. <span data-ttu-id="b6bfe-136">Marcar a linha como a primeira transação.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-136">Mark the row for the first transaction.</span></span>
+4. <span data-ttu-id="b6bfe-137">Marcar a linha como a segunda transação.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-137">Mark the row for the second transaction.</span></span>
+5. <span data-ttu-id="b6bfe-138">Clique em Dar baixa.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-138">Click Write off.</span></span>
+6. <span data-ttu-id="b6bfe-139">No campo de comentário do Razão, insira 'Débitos ruins'.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-139">In the Reason comment field, type 'Bad debts'.</span></span>
+7. <span data-ttu-id="b6bfe-140">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-140">Click OK.</span></span>
+8. <span data-ttu-id="b6bfe-141">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-141">Close the page.</span></span>
+9. <span data-ttu-id="b6bfe-142">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-142">Close the page.</span></span>
+10. <span data-ttu-id="b6bfe-143">Ir para Contabilidade > Entradas de diários > Diários gerais.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-143">Go to General ledger > Journal entries > General journals.</span></span>
+11. <span data-ttu-id="b6bfe-144">Selecione o número do lote do diário para o diário que contém a amortização.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-144">Select the journal batch number for the journal that contains your write-off.</span></span>
+    * <span data-ttu-id="b6bfe-145">Uma linha é criada para reverter o saldo do cliente.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-145">One line is created to reverse the customer balance.</span></span> <span data-ttu-id="b6bfe-146">Uma ou mais linhas são criadas para lançar a amortização na conta de valores.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-146">One or more lines are created to post the write-off to the write-off account.</span></span>  
+12. <span data-ttu-id="b6bfe-147">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-147">Close the page.</span></span>
+13. <span data-ttu-id="b6bfe-148">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-148">Close the page.</span></span>
 
-## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a>Dar baixa em uma nota fiscal da página de notas fiscais de clientes em Aberto
-1. Vá para Contas recebíveis > Faturas > Faturas de cliente abertas.
-2. Marcar a linha de uma fatura. Por exemplo, marcar a linha de CIV-000667.
-3. No Painel de Ação, clique em Fatura.
-4. Clique em Dar baixa.
-5. Clique em OK.
-6. Feche a página.
+## <a name="write-off-an-invoice-from-the-open-customers-invoices-page"></a><span data-ttu-id="b6bfe-149">Dar baixa em uma nota fiscal da página de notas fiscais de clientes em Aberto</span><span class="sxs-lookup"><span data-stu-id="b6bfe-149">Write off an invoice from the Open customers invoices page</span></span>
+1. <span data-ttu-id="b6bfe-150">Vá para Contas recebíveis > Faturas > Faturas de cliente abertas.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-150">Go to Accounts receivable > Invoices > Open customer invoices.</span></span>
+2. <span data-ttu-id="b6bfe-151">Marcar a linha de uma fatura.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-151">Mark the line for an invoice.</span></span> <span data-ttu-id="b6bfe-152">Por exemplo, marcar a linha de CIV-000667.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-152">For example, mark the line for CIV-000667.</span></span>
+3. <span data-ttu-id="b6bfe-153">No Painel de Ação, clique em Fatura.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-153">On the Action Pane, click Invoice.</span></span>
+4. <span data-ttu-id="b6bfe-154">Clique em Dar baixa.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-154">Click Write off.</span></span>
+5. <span data-ttu-id="b6bfe-155">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-155">Click OK.</span></span>
+6. <span data-ttu-id="b6bfe-156">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-156">Close the page.</span></span>
 
-## <a name="write-off-a-customer-balance-from-the-customer-page"></a>Dar baixa no saldo de um cliente na página do cliente
-1. Ir para Contas recebíveis > Clientes > Todos os clientes.
-2. Selecione uma conta de cliente. Por exemplo, selecione US-001 (Contoso Retail de São Diego).
-3. No Painel de Ação, clique em Coletar.
-4. Clique em Dar baixa.
-5. Clique em OK.
-6. Feche a página.
+## <a name="write-off-a-customer-balance-from-the-customer-page"></a><span data-ttu-id="b6bfe-157">Dar baixa no saldo de um cliente na página do cliente</span><span class="sxs-lookup"><span data-stu-id="b6bfe-157">Write off a customer balance from the customer page</span></span>
+1. <span data-ttu-id="b6bfe-158">Ir para Contas recebíveis > Clientes > Todos os clientes.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-158">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="b6bfe-159">Selecione uma conta de cliente.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-159">Select a customer account.</span></span> <span data-ttu-id="b6bfe-160">Por exemplo, selecione US-001 (Contoso Retail de São Diego).</span><span class="sxs-lookup"><span data-stu-id="b6bfe-160">For example, select US-001 (Contoso Retail San Diego).</span></span>
+3. <span data-ttu-id="b6bfe-161">No Painel de Ação, clique em Coletar.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-161">On the Action Pane, click Collect.</span></span>
+4. <span data-ttu-id="b6bfe-162">Clique em Dar baixa.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-162">Click Write off.</span></span>
+5. <span data-ttu-id="b6bfe-163">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-163">Click OK.</span></span>
+6. <span data-ttu-id="b6bfe-164">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="b6bfe-164">Close the page.</span></span>
 
 

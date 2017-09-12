@@ -15,70 +15,70 @@ ms.custom: 195583
 ms.assetid: 836ddd01-cc34-45c3-a4b0-20647357dbc6
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 138cf8d60f5a6e1ec1e46837a516e981c8ff4c19
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 4d57e47fe7f38a43ecfdfbdd701d7e6a7d7800d6
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="create-a-workflow"></a>Criar um fluxo de trabalho
+# <a name="create-a-workflow"></a><span data-ttu-id="ae1f6-103">Criar um fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="ae1f6-103">Create a workflow</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-Estes tópicos explicam como criar um fluxo de trabalho.
+<span data-ttu-id="ae1f6-104">Estes tópicos explicam como criar um fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-104">This topics explains how to create a workflow.</span></span>
 
-<a name="open-the-workflow-editor"></a>Abrir o editor de fluxo de trabalho
+<a name="open-the-workflow-editor"></a><span data-ttu-id="ae1f6-105">Abrir o editor de fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="ae1f6-105">Open the workflow editor</span></span>
 ------------------------
 
-O módulo do Microsoft Dynamics 365 for Finance and Operations no qual você está trabalhando determina os tipos de fluxo de trabalho que você pode criar. Siga estas etapas para selecionar o tipo de fluxo de trabalho a ser criado e para abrir o editor de fluxo de trabalho.
+<span data-ttu-id="ae1f6-106">O módulo do Microsoft Dynamics 365 for Finance and Operations no qual você está trabalhando determina os tipos de fluxo de trabalho que você pode criar.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-106">The Microsoft Dynamics 365 for Finance and Operations module that you're working in determines the types of workflow that you can create.</span></span> <span data-ttu-id="ae1f6-107">Siga estas etapas para selecionar o tipo de fluxo de trabalho a ser criado e para abrir o editor de fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-107">Follow these steps to select the type of workflow to create and open the workflow editor.</span></span>
 
-1.  Vá para o módulo para o qual deseja criar um novo fluxo de trabalho. Por exemplo, para criar um fluxo de trabalho para requisições de compra, clique em **Compras e fornecimento**.
-2.  Clique em **Configuração** &gt; **\[nome do módulo\] fluxos de trabalho**.
-3.  Na página de listagem que aparece, no Painel de ação, clique em **Novo**.
-4.  Na página **Criar fluxo de trabalho**, selecione o tipo de fluxo de trabalho para criar, e então clique em **Criar fluxo de trabalho**. O editor de fluxo de trabalho aparece. Agora você pode usar os procedimentos a seguir para criar o fluxo de trabalho.
+1.  <span data-ttu-id="ae1f6-108">Vá para o módulo para o qual deseja criar um novo fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-108">Open the module that you want to create a new workflow for.</span></span> <span data-ttu-id="ae1f6-109">Por exemplo, para criar um fluxo de trabalho para requisições de compra, clique em **Compras e fornecimento**.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-109">For example, to create a workflow for purchase requisitions, click **Procurement and sourcing**.</span></span>
+2.  <span data-ttu-id="ae1f6-110">Clique em **Configuração** &gt; **\[nome do módulo\] fluxos de trabalho**.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-110">Click **Setup** &gt; **\[Module name\] workflows**.</span></span>
+3.  <span data-ttu-id="ae1f6-111">Na página de listagem que aparece, no Painel de ação, clique em **Novo**.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-111">On the list page that appears, on the Action Pane, click **New**.</span></span>
+4.  <span data-ttu-id="ae1f6-112">Na página **Criar fluxo de trabalho**, selecione o tipo de fluxo de trabalho para criar, e então clique em **Criar fluxo de trabalho**.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-112">On the **Create workflow** page, select the type of workflow to create, and then click **Create workflow**.</span></span> <span data-ttu-id="ae1f6-113">O editor de fluxo de trabalho aparece.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-113">The workflow editor appears.</span></span> <span data-ttu-id="ae1f6-114">Agora você pode usar os procedimentos a seguir para criar o fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-114">You can now use the following procedures to design the workflow.</span></span>
 
-## <a name="drag-workflow-elements-onto-the-canvas"></a>Arrastar os elementos do fluxo de trabalho para a tela
-Na área **Elementos de fluxo de trabalho** do editor de fluxo de trabalho contém os elementos que você pode adicionar ao fluxo de trabalho. Para adicionar elementos ao fluxo de trabalho, arraste-os da área para a tela.
+## <a name="drag-workflow-elements-onto-the-canvas"></a><span data-ttu-id="ae1f6-115">Arrastar os elementos do fluxo de trabalho para a tela</span><span class="sxs-lookup"><span data-stu-id="ae1f6-115">Drag workflow elements onto the canvas</span></span>
+<span data-ttu-id="ae1f6-116">Na área **Elementos de fluxo de trabalho** do editor de fluxo de trabalho contém os elementos que você pode adicionar ao fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-116">The **Workflow elements** area of the workflow editor contains the elements that you can add to your workflow.</span></span> <span data-ttu-id="ae1f6-117">Para adicionar elementos ao fluxo de trabalho, arraste-os da área para a tela.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-117">To add elements to the workflow, drag them onto the canvas.</span></span>
 
-## <a name="connect-the-elements"></a>Conectar os elementos
-Para conectar um elemento do fluxo de trabalho a outro, mantenha o ponteiro sobre um elemento até que os pontos de conexão apareçam. Clique em um ponto de conexão e arraste-o para outro elemento. Conecte todos os elementos.
+## <a name="connect-the-elements"></a><span data-ttu-id="ae1f6-118">Conectar os elementos</span><span class="sxs-lookup"><span data-stu-id="ae1f6-118">Connect the elements</span></span>
+<span data-ttu-id="ae1f6-119">Para conectar um elemento do fluxo de trabalho a outro, mantenha o ponteiro sobre um elemento até que os pontos de conexão apareçam.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-119">To connect one workflow element to another, hold the pointer over an element until connection points appear.</span></span> <span data-ttu-id="ae1f6-120">Clique em um ponto de conexão e arraste-o para outro elemento.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-120">Click a connection point, and drag it to another element.</span></span> <span data-ttu-id="ae1f6-121">Conecte todos os elementos.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-121">Be sure to connect all the elements.</span></span>
 
-## <a name="configure-the-properties-of-the-workflow"></a>Configurar as propriedades do fluxo de trabalho
-Execute as etapas abaixo para configurar as propriedades do fluxo de trabalho.
+## <a name="configure-the-properties-of-the-workflow"></a><span data-ttu-id="ae1f6-122">Configurar as propriedades do fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="ae1f6-122">Configure the properties of the workflow</span></span>
+<span data-ttu-id="ae1f6-123">Execute as etapas abaixo para configurar as propriedades do fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-123">Follow these steps to configure the properties of the workflow.</span></span>
 
-1.  Clique na tela para garantir que nenhum elemento do fluxo de trabalho esteja selecionado.
-2.  Clique em **Propriedades** para abrir a página **Propriedades** para o fluxo de trabalho.
-3.  Siga os procedimentos no tópico [Configurar as propriedades de um fluxo de trabalho](configure-workflow-properties.md).
+1.  <span data-ttu-id="ae1f6-124">Clique na tela para garantir que nenhum elemento do fluxo de trabalho esteja selecionado.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-124">Click the canvas to make sure that no workflow element is selected.</span></span>
+2.  <span data-ttu-id="ae1f6-125">Clique em **Propriedades** para abrir a página **Propriedades** para o fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-125">Click **Properties** to open the **Properties** page for the workflow.</span></span>
+3.  <span data-ttu-id="ae1f6-126">Siga os procedimentos no tópico [Configurar as propriedades de um fluxo de trabalho](configure-workflow-properties.md).</span><span class="sxs-lookup"><span data-stu-id="ae1f6-126">Follow the procedures in the [Configure the properties of a workflow](configure-workflow-properties.md) topic.</span></span>
 
-## <a name="configure-the-elements-of-the-workflow"></a>Configurar os elementos do fluxo de trabalho
-Configure cada elemento que você arrastou para a tela. Para obter informações sobre como configurar cada elemento do fluxo de trabalho, consulte os seguintes tópicos.
+## <a name="configure-the-elements-of-the-workflow"></a><span data-ttu-id="ae1f6-127">Configurar os elementos do fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="ae1f6-127">Configure the elements of the workflow</span></span>
+<span data-ttu-id="ae1f6-128">Configure cada elemento que você arrastou para a tela.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-128">Configure each element that you dragged onto the canvas.</span></span> <span data-ttu-id="ae1f6-129">Para obter informações sobre como configurar cada elemento do fluxo de trabalho, consulte os seguintes tópicos.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-129">For information about how to configure each workflow element, see the following topics:</span></span>
 
--   [Configurar uma tarefa manual](configure-manual-task-workflow.md)
--   [Configurar uma tarefa automatizada](configure-automated-task-workflow.md)
--   [Configurar um processo de aprovação](configure-approval-process-workflow.md)
--   [Configurar uma etapa de aprovação](configure-approval-step-workflow.md)
--   [Configurar uma decisão manual](configure-manual-decision-workflow.md)
--   [Configurar uma decisão condicional](configure-conditional-decision-workflow.md)
--   [Configurar uma atividade paralela](configure-parallel-activity-workflow.md)
--   [Configurar uma ramificação paralela](configure-parallel-branch-workflow.md)
--   [Configurar um fluxo de trabalho de item de linha](configure-line-item-workflow.md)
+-   [<span data-ttu-id="ae1f6-130">Configurar uma tarefa manual</span><span class="sxs-lookup"><span data-stu-id="ae1f6-130">Configure a manual task</span></span>](configure-manual-task-workflow.md)
+-   [<span data-ttu-id="ae1f6-131">Configurar uma tarefa automatizada</span><span class="sxs-lookup"><span data-stu-id="ae1f6-131">Configure an automated task</span></span>](configure-automated-task-workflow.md)
+-   [<span data-ttu-id="ae1f6-132">Configurar um processo de aprovação</span><span class="sxs-lookup"><span data-stu-id="ae1f6-132">Configure an approval process</span></span>](configure-approval-process-workflow.md)
+-   [<span data-ttu-id="ae1f6-133">Configurar uma etapa de aprovação</span><span class="sxs-lookup"><span data-stu-id="ae1f6-133">Configure an approval step</span></span>](configure-approval-step-workflow.md)
+-   [<span data-ttu-id="ae1f6-134">Configurar uma decisão manual</span><span class="sxs-lookup"><span data-stu-id="ae1f6-134">Configure a manual decision</span></span>](configure-manual-decision-workflow.md)
+-   [<span data-ttu-id="ae1f6-135">Configurar uma decisão condicional</span><span class="sxs-lookup"><span data-stu-id="ae1f6-135">Configure a conditional decision</span></span>](configure-conditional-decision-workflow.md)
+-   [<span data-ttu-id="ae1f6-136">Configurar uma atividade paralela</span><span class="sxs-lookup"><span data-stu-id="ae1f6-136">Configure a parallel activity</span></span>](configure-parallel-activity-workflow.md)
+-   [<span data-ttu-id="ae1f6-137">Configurar uma ramificação paralela</span><span class="sxs-lookup"><span data-stu-id="ae1f6-137">Configure a parallel branch</span></span>](configure-parallel-branch-workflow.md)
+-   [<span data-ttu-id="ae1f6-138">Configurar um fluxo de trabalho de item de linha</span><span class="sxs-lookup"><span data-stu-id="ae1f6-138">Configure a line-item workflow</span></span>](configure-line-item-workflow.md)
 
-## <a name="resolve-any-errors-or-warnings"></a>Resolver todos os erros ou avisos
-O painel **Erros e avisos**, localizado na parte inferior do editor de fluxo de trabalho, exibe as mensagens geradas para o fluxo de trabalho. Para localizar o elemento que gerou um erro ou aviso, clique duas vezes no erro ou na mensagem de aviso. Todos os erros e avisos devem ser resolvidos para que você possa ativar o fluxo de trabalho.
+## <a name="resolve-any-errors-or-warnings"></a><span data-ttu-id="ae1f6-139">Resolver todos os erros ou avisos</span><span class="sxs-lookup"><span data-stu-id="ae1f6-139">Resolve any errors or warnings</span></span>
+<span data-ttu-id="ae1f6-140">O painel **Erros e avisos**, localizado na parte inferior do editor de fluxo de trabalho, exibe as mensagens geradas para o fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-140">The **Errors and warnings** pane at the bottom of the workflow editor shows messages that have been generated for the workflow.</span></span> <span data-ttu-id="ae1f6-141">Para localizar o elemento que gerou um erro ou aviso, clique duas vezes no erro ou na mensagem de aviso.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-141">To find the element where an error or warning occurred, double-click the error or warning message.</span></span> <span data-ttu-id="ae1f6-142">Todos os erros e avisos devem ser resolvidos para que você possa ativar o fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-142">You must resolve all errors and warnings before you can make the workflow active.</span></span>
 
-## <a name="save-and-activate-the-workflow"></a>Salvar e ativar o fluxo de trabalho
-Quando estiver pronto para salvar e ativar o fluxo de trabalho, siga estas etapas.
+## <a name="save-and-activate-the-workflow"></a><span data-ttu-id="ae1f6-143">Salvar e ativar o fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="ae1f6-143">Save and activate the workflow</span></span>
+<span data-ttu-id="ae1f6-144">Quando estiver pronto para salvar e ativar o fluxo de trabalho, siga estas etapas.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-144">When you're ready to save and activate the workflow, follow these steps.</span></span>
 
-1.  Clique em **Salvar e fechar** para fechar o editor de fluxo de trabalho e abrir a página **Salvar fluxo de trabalho**.
-2.  Digite comentários sobre as alterações feitas no fluxo de trabalho e clique em **OK**.
-3.  Se todos os erros e avisos foram resolvidos, a página **Ativar fluxo de trabalho** será exibido. Selecione uma das seguintes opções:
-    -   Para ativar a versão de fluxo de trabalho, clique em **Ativar a nova versão**. Quando um fluxo de trabalho estiver ativo, os usuários poderão enviar documentos a ele para processamento.
-    -   Se não quiser ativar a versão, clique em **Não ativar a nova versão**. É possível ativar o fluxo de trabalho posteriormente.
+1.  <span data-ttu-id="ae1f6-145">Clique em **Salvar e fechar** para fechar o editor de fluxo de trabalho e abrir a página **Salvar fluxo de trabalho**.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-145">Click **Save and close** to close the workflow editor and open the **Save workflow** page.</span></span>
+2.  <span data-ttu-id="ae1f6-146">Digite comentários sobre as alterações feitas no fluxo de trabalho e clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-146">Enter comments about the changes that you've made to the workflow, and then click **OK**.</span></span>
+3.  <span data-ttu-id="ae1f6-147">Se todos os erros e avisos foram resolvidos, a página **Ativar fluxo de trabalho** será exibido.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-147">If all errors and warnings have been resolved, the **Activate workflow** page appears.</span></span> <span data-ttu-id="ae1f6-148">Selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="ae1f6-148">Select one of the following options:</span></span>
+    -   <span data-ttu-id="ae1f6-149">Para ativar a versão de fluxo de trabalho, clique em **Ativar a nova versão**.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-149">To activate this version of the workflow, click **Activate the new version**.</span></span> <span data-ttu-id="ae1f6-150">Quando um fluxo de trabalho estiver ativo, os usuários poderão enviar documentos a ele para processamento.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-150">When a workflow is active, users can submit documents to it for processing.</span></span>
+    -   <span data-ttu-id="ae1f6-151">Se não quiser ativar a versão, clique em **Não ativar a nova versão**.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-151">If you don't want to activate this version, click **Do not activate the new version**.</span></span> <span data-ttu-id="ae1f6-152">É possível ativar o fluxo de trabalho posteriormente.</span><span class="sxs-lookup"><span data-stu-id="ae1f6-152">You can activate the workflow later.</span></span>
 
 
 
