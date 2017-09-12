@@ -1,7 +1,7 @@
 ---
 title: "Visão geral de entrada"
 description: "Este tópico fornece informações sobre o recurso Visão geral de entrada. A página Visão geral de entrada faz parte desse recurso e fornece uma visão geral de todos os itens que devem chegar como itens de entrada."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
@@ -37,9 +37,9 @@ Este tópico fornece informações sobre o recurso Visão geral de entrada. A p�
 A página **Visão geral de entrada** fornece uma visão geral de todos os itens de entrada esperados. Também mostra as entradas que podem ser inicializadas com base na visão geral. Este tópico concentra-se no processo de recebimento.
 
 ## <a name="business-scenario"></a>Cenário de negócios
-Considere o seguinte cenário nos processos de entrada. 
+Considere o seguinte cenário nos processos de entrada.
 
-[![Cenário de negócios](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png) 
+[![Cenário de negócios](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy, um funcionário de recebimento, quer saber o que deve ser recebido no dia atual. Na página **Visão geral de entrada**, Sammy pode obter uma visão geral das tarefas atuais e uma previsão aproximada de quantidades, volume, peso, diferentes tipos de ordem etc. Posteriormente, a entrega chega em uma das docas de entrada e Sammy recebe uma lista da entrega. Na página **Visão geral de entrada**, Sammy pode executar as seguintes tarefas:
 
@@ -69,7 +69,7 @@ Para este exemplo, o campo **Nome do perfil de visão geral de entrada** na Guia
 
 Para criar automaticamente os diários de entrada da página **Visão geral de entrada**, é necessário definir informações apropriadas no grupo de campos **Diário** na Guia Rápida **Opções de entrada**.
 
--   É necessário especificar um nome de diário para criar um novo diário. 
+-   É necessário especificar um nome de diário para criar um novo diário.
 
 [![Especificando um nome de diário](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
@@ -123,7 +123,4 @@ Quando todos os bens forem registrados, o gerente de depósito ou o gerente de c
 
 ## <a name="summary"></a>Resumo
 A página **Visão geral de entrada** pode ajudar o gerente de depósito e os trabalhadores do depósito a obter uma visão geral do trabalho esperado que deve ser executado como parte de um processo de entrada. A página também pode ser usada para iniciar o processo de entrada de item, para ajudar a garantir que os itens sejam rastreados na primeira entrada no depósito.
-
-
-
 

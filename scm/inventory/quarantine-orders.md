@@ -1,7 +1,7 @@
 ---
 title: Ordens de quarentena
 description: "Este artigo descreve como as ordens de quarentena são usadas para bloquear o estoque."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -31,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve como as ordens de quarentena são usadas para bloquear o estoque. 
+Este artigo descreve como as ordens de quarentena são usadas para bloquear o estoque.
 
 As ordens de quarentena podem ser usadas para bloquear o estoque. Por exemplo, talvez você deseje quarentena itens por motivos de controle de qualidade. Estoque que ficou em quarentena transferido para um depósito de quarentena. **Observação:** se você estiver usando processos avançados de gerenciamento de depósito (em Gerenciamento de depósito), o processamento da ordem de quarentena será usado somente para devolver ordens de venda.
 
@@ -69,7 +69,4 @@ Como parte do processo da ordem de quarentena, você pode sucatear o estoque. Ao
 --------
 
 [Bloqueio de estoque](inventory-blocking.md)
-
-
-
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -33,7 +33,7 @@ ms.lasthandoff: 07/27/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-Este artigo descreve como você pode usar diários de estoque para lançar vários tipos de transações de estoque físico. 
+Este artigo descreve como você pode usar diários de estoque para lançar vários tipos de transações de estoque físico.
 
 Os diários de estoque no Microsoft Dynamics 365 for Finance and Operations são usados para lançar transações de estoque físico de vários tipos, como lançamento de saídas e recebimentos, movimentos de estoque, criação de listas de materiais (BOMs), e reconciliação de estoque físico. Todos esses diários de estoque são usados de forma semelhante, mas são divididos em tipos diferentes.
 
@@ -95,7 +95,4 @@ Um diário só pode ser acessado por um usuário de cada vez. Se vários usuári
 
 ## <a name="posting-journal-lines"></a>Lançando linhas de diário
 Você pode lançar as linhas de diário que você cria a qualquer momento até que você tenha bloqueado um item de transações adicionais. Os dados que você insere em um diário permanecem nele mesmo que ele seja fechado sem lançar as linhas.
-
-
-
 

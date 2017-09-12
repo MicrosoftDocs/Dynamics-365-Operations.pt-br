@@ -1,7 +1,7 @@
 ---
 title: "Item e rastreamento de matérias-primas em estoque, em produção e em vendas"
 description: "Este tópico descreve como você pode usar o rastreamento de item para identificar onde os itens ou as matérias-primas foram usados, onde estão sendo usados ou onde serão usados em processos de produção e de vendas."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico descreve como você pode usar o rastreamento de item para identificar onde os itens ou as matérias-primas foram usados, onde estão sendo usados ou onde serão usados em processos de produção e de vendas. 
+Este tópico descreve como você pode usar o rastreamento de item para identificar onde os itens ou as matérias-primas foram usados, onde estão sendo usados ou onde serão usados em processos de produção e de vendas.
 
 A funcionalidade de rastreamento do item fica disponível na página **Rastreamento do item**. As seções a seguir descrevem como você pode usar o rastreamento do item e quais são opções e as restrições.
 
@@ -142,7 +142,4 @@ Você pode gerar o relatório **Remetido aos clientes** para identificar o valor
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>Posso monitorar coprodutos e subprodutos?
 Você pode rastrear coprodutos, mas não é possível rastrear um subproduto porque as dimensões de rastreamento normalmente não são atribuídas por produtos. Quando você rastreia um item, os detalhes do rastreamento incluem todos os coprodutos relacionados. Um nó que contém um coproduto inclui a palavra "coproduto" nos detalhes. Você também pode exibir detalhes sobre um coproduto selecionando o nó nos detalhes de rastreamento e então clicando na Guia Rápida **Produção**.
-
-
-
 

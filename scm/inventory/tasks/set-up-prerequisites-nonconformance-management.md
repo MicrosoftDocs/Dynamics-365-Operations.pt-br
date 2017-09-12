@@ -1,4 +1,4 @@
---- 
+---
 title: "Configurar pré-requisitos para gerenciamento"
 description: "Use este procedimento para habilitar processos de gerenciamento de não conformidade."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -101,5 +101,4 @@ Use este procedimento para habilitar processos de gerenciamento de não conformi
 3. No campo Zona de quarentena, digite um valor.
 4. No campo Descrição, digite um valor.
 5. Feche a página.
-
 

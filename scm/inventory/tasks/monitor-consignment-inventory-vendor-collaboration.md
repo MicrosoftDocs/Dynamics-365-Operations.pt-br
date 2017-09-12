@@ -1,4 +1,4 @@
---- 
+---
 title: "Monitorar o estoque de consignação usando a colaboração de fornecedor"
 description: "Este procedimento mostra como usar a colaboração de fornecedor para ver as informações sobre o nível de estoque de produtos que você fez na remessa com um cliente."
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -41,5 +41,4 @@ Este procedimento mostra como usar a colaboração de fornecedor para ver as inf
 ## <a name="view-on-hand-inventory"></a>Exibir estoque disponível
 1. Vá para Colaboração do fornecedor > Estoque de consignação > Estoque de consignação disponível.
     * Disponível a página de remessa de estoque mostra o estoque que você possui em depósito de cliente. Você pode mostrar dimensões adicionais, como o site e o depósito, clique na guia dimensões de exibição.   
-
 

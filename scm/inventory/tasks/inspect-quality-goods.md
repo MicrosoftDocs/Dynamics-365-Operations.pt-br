@@ -1,4 +1,4 @@
---- 
+---
 title: Verificar a qualidade de mercadorias
 description: Este procedimento mostra como processar a ordem de qualidade.
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -55,5 +55,4 @@ Este procedimento mostra como processar a ordem de qualidade. Você pode executa
 4. Clique em Selecionar.
 5. Clique em OK.
 6. Feche a página.
-
 

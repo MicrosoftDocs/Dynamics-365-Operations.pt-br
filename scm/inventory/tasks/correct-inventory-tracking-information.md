@@ -1,4 +1,4 @@
---- 
+---
 title: "Corrigir informações de rastreamento de estoque"
 description: "Este procedimento apresenta o processo de criação e lançamento de um diário de transferência de estoque para corrigir informações de rastreamento de estoque."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ Este procedimento apresenta o processo de criação e lançamento de um diário 
 1. Clique em Estoque.
 2. Clique em Transações.
     * Aqui é possível ver as transações que foram criadas quando você lançou seu diário.   
-
 

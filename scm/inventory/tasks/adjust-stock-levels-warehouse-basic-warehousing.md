@@ -1,4 +1,4 @@
---- 
+---
 title: "Ajustar níveis de estoque no depósito (armazenamento básico)"
 description: "Esse procedimento o orientará no processo de criação e lançamento de um diário de ajuste de estoque para que os níveis de estoque de produtos no depósito sejam ajustados."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ Esse procedimento o orientará no processo de criação e lançamento de um diá
 4. Clique em OK.
 5. Feche o formulário.
 6. Feche a página.
-
 

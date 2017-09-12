@@ -1,4 +1,4 @@
---- 
+---
 title: Verificar a disponibilidade do estoque
 description: "Este procedimento mostra como verificar um valor disponível e o estoque físico disponível de um número de item específico."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ Este procedimento mostra como verificar um valor disponível e o estoque físico
 4. Clique em Exibir dimensões.
 5. Clique em OK.
 6. Feche a página.
-
 

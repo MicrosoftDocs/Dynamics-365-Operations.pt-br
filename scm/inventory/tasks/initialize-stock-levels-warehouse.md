@@ -1,4 +1,4 @@
---- 
+---
 title: "Inicializar níveis de estoque no depósito"
 description: "Esse procedimento mostra como obter o estoque disponível atualizado manualmente usando um diário de movimentação de estoque."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ Esse procedimento mostra como obter o estoque disponível atualizado manualmente
 24. Clique em OK.
 25. Feche a página.
 26. Feche a página.
-
 

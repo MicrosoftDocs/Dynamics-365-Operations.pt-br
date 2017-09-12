@@ -1,4 +1,4 @@
---- 
+---
 title: "Alterar a propriedade de estoque de consignação com base na demanda de produção"
 description: "Este procedimento mostra como alterar o proprietário de estoque de remessa do fornecedor à entidade legal quando há uma demanda para o estoque na produção."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -51,5 +51,4 @@ Este procedimento mostra como alterar o proprietário de estoque de remessa do f
     * Quando o diário for lançado, o estoque pertencido ao fornecedor é liberado usando uma referência "Alteração de posse". O estoque é recebido em como disponíveis usando uma transação de estoque que é atualizada com um recebimento de produtos de ordem de compra. Observe que somente as transações relacionadas ao diário lançado serão criadas. Nenhuma transação de estoque foi criada.  
 2. Clique em OK.
 3. Feche a página.
-
 

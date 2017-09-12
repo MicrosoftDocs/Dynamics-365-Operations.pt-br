@@ -1,7 +1,7 @@
 ---
 title: Bloqueio de estoque
 description: "Este artigo oferece uma visão geral do bloqueio de estoque, que faz parte do processo de inspeção de qualidade no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Você pode usar o bloqueio de estoque para evitar que os itens sejam processados ou consumidos."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,14 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -69,7 +69,4 @@ Você pode especificar quais status de estoque estão bloqueando os status usand
 [Processos de gerenciamento de qualidade](quality-management-processes.md)
 
 [Inspecionar a qualidade de mercadorias (Guia de tarefas)](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
-
-
-
 

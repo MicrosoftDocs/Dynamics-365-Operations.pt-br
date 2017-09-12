@@ -1,4 +1,4 @@
---- 
+---
 title: "Contar estoque em um depósito"
 description: "Este procedimento aborda o processo de criação e lançamento de um diário de contagem de estoque para que um item específico em um local do depósito seja contabilizado."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -68,5 +68,4 @@ Este procedimento aborda o processo de criação e lançamento de um diário de 
 1. Clique em Estoque.
 2. Clique em Transações.
     * Aqui é possível ver qualquer transação relacionada que será criada quando você lançar seu diário de contagem de estoque.   
-
 

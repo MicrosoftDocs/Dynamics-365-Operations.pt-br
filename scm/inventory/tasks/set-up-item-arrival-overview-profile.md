@@ -1,7 +1,7 @@
---- 
+---
 title: "Configurar um perfil de visão geral de entradas de item"
 description: "Essa tarefa se concentra na configuração de um perfil de visão geral de entradas."
-author: BibiSp
+author: perlynne
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ Essa tarefa se concentra na configuração de um perfil de visão geral de entra
     * Selecione as linhas de recebimento das ordens de transferência.  
 17. Clique em Salvar.
 18. Feche a página.
-
 

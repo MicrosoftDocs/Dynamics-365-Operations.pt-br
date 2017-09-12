@@ -1,4 +1,4 @@
---- 
+---
 title: "Criar um novo layout de depósito"
 description: "Este procedimento mostra como configurar informações sobre as localizações de um depósito."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -49,7 +49,7 @@ Este procedimento mostra como configurar informações sobre as localizações d
 7. Alternar a expansão da seção Nomes de local.
     * As opções nesta seção definem o formato padrão para nomes da localização. Em nosso exemplo, incluiremos o número do corredor, o número do rack e o número da prateleira.  
 8. Definir a opção do corredor para Sim.
-9. Definir a opção do rack para Sim. 
+9. Definir a opção do rack para Sim.
 10. No campo Formato, digite o valor para o rack.
     * Por exemplo: -##  
 11. Definir a opção Incluir prateleira como Sim.
@@ -74,5 +74,4 @@ Este procedimento mostra como configurar informações sobre as localizações d
 14. Clique em Finish (Concluir).
 15. Feche a página.
 16. Atualize a página.
-
 

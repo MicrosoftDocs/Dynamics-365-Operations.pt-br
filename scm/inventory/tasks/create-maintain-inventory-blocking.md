@@ -1,4 +1,4 @@
---- 
+---
 title: Criar e manter bloqueio de estoque
 description: "Este procedimento mostra como evitar que o estoque físico disponível seja reservado para outros documentos de origem de saída usando o bloqueio de estoque."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -34,7 +34,7 @@ Este procedimento mostra como evitar que o estoque físico disponível seja rese
 1. Vá para Gerenciamento de estoque > Tarefas periódicas > Bloqueio de estoque.
 2. Clique em Novo.
 3. No campo Número de item, clique no botão suspenso para abrir a pesquisa.
-4. Na lista, selecione o item que deseja escolher. 
+4. Na lista, selecione o item que deseja escolher.
     * Selecione um número de item com estoque físico disponível que você deseja bloquear. Se você estiver usando USMF, você pode o item M9201.  
 5. No campo Quantidade, insira um número.
     * Se você estiver usando o item M9201, você precisará selecionar menos de 200.  
@@ -55,5 +55,4 @@ Este procedimento mostra como evitar que o estoque físico disponível seja rese
 1. Clique em Excluir.
 2. Clique em Sim.
 3. Feche a página.
-
 

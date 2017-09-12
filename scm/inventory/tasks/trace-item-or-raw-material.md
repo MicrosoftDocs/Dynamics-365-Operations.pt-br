@@ -1,4 +1,4 @@
---- 
+---
 title: "Rastrear um item ou uma matéria-prima"
 description: "Este procedimento demonstra como usar o rastreamento de itens para identificar onde itens ou matérias-primas foram usados ou estão sendo usados."
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -54,5 +54,4 @@ Este procedimento demonstra como usar o rastreamento de itens para identificar o
 8. No Painel de Ação, clique em Rastreamento.
 9. Clique em Ordens de venda remetidas.
 10. Feche a página.
-
 

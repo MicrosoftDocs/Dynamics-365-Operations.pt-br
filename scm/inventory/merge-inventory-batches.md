@@ -1,7 +1,7 @@
 ---
 title: Mesclar lotes de estoque
 description: "Este artigo fornece informações sobre como consolidar dois ou mais lotes de estoque em um lote mesclado."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
@@ -31,7 +31,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo fornece informações sobre como consolidar dois ou mais lotes de estoque em um lote mesclado. 
+Este artigo fornece informações sobre como consolidar dois ou mais lotes de estoque em um lote mesclado.
 
 Quando você mescla lotes, os cálculos podem ajudar a otimizar as características e os atributos de lote do lote mesclado. Depois de selecionar os lotes de origem, você poderá examinar e alterar o lote mesclado antes de lançá-lo. Você também pode transferir a mesclagem de lote para um diário de estoque para aprovação. O estoque pode ser reservado ou lançado diretamente desse diário de estoque. Quando você lança um lote mesclado, o estoque é ajustado para os lotes de origem e o lote mesclado.
 
@@ -142,7 +142,4 @@ O lançamento trabalha de duas maneiras, dependendo se você usar um processo de
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>Após mesclar um item de peso variável, por que eu não consigo ver as informações de peso variável no diário de estoque?
 Você pode mesclar lotes de itens de peso variável da mesma maneira que todos os outros itens. Entretanto, as informações de peso variável não aparecem no diário de estoque. Recomendamos que você verifique as informações de peso variável antes de transferir a mesclagem de lotes para o diário de estoque.
-
-
-
 

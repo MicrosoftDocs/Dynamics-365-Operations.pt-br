@@ -1,4 +1,4 @@
---- 
+---
 title: "Transferir estoque físico no depósito"
 description: "Este procedimento aborda o processo de criação e lançamento de um diário de transferência de estoque para registrar a movimentação de um item de um local em um depósito para outro."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ Este procedimento aborda o processo de criação e lançamento de um diário de 
 1. Clique em Estoque.
 2. Clique em Transações.
     * Aqui é possível ver as transações que foram criadas quando você lançou seu diário.  
-
 

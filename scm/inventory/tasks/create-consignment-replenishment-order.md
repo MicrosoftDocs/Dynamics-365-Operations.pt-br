@@ -1,4 +1,4 @@
---- 
+---
 title: "Criar uma ordem de reabastecimento de consignação"
 description: Este procedimento mostra como criar uma ordem de reabastecimento de remessa que possa acompanhar a entrega esperada de um fornecedor no estoque de remessa.
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -60,7 +60,7 @@ Este procedimento mostra como criar uma ordem de reabastecimento de remessa que 
 ## <a name="receive-items"></a>Receber itens
 1. Clique em Recebimento de produtos.
 2. No campo Recebimento de produtos externos, digite um valor.
-3. No campo quantidade, insira um número que é menor que o número que é mostrado. 
+3. No campo quantidade, insira um número que é menor que o número que é mostrado.
 4. Clique em OK.
 
 ## <a name="check-the-on-hand-inventory"></a>Verifique o estoque disponível
@@ -70,5 +70,4 @@ Este procedimento mostra como criar uma ordem de reabastecimento de remessa que 
     * Os itens recebidos como o estoque de remessa possuído por fornecedor disponíveis disponível. A quantidade pendente na ordem de reabastecimento de remessa é mostrada no campo total de Solicitado.  
 4. Feche a página.
 5. Clique em Fechar.
-
 

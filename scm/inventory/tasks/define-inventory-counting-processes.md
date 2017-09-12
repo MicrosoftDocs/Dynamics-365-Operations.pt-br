@@ -1,4 +1,4 @@
---- 
+---
 title: Definir processos de contagem de estoque
 description: "Este procedimento mostra a configuração dos processos de contagem básicos de estoque criando um grupo de contagem e um diário de contagem."
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -84,5 +84,4 @@ Este procedimento mostra a configuração dos processos de contagem básicos de 
 7. Na lista, selecione um grupo de contabilidade
     * Aqui você pode selecionar um grupo específico de contagem que será aplicado ao item no depósito específico selecionado. Quando a contagem é feita naquele depósito, essa diretiva de contagem substituirá a diretiva geral do item.  
 8. Clique em Salvar.
-
 

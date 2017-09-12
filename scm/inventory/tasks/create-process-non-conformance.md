@@ -1,4 +1,4 @@
---- 
+---
 title: Criar e processar uma conformidade
 description: "Use este procedimento para executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente."
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Use este procedimento para executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente. Você pode executar esse registro na empresa de demonstração USMF e pode usar os valores sugeridos. Normalmente, esse procedimento é realizado por um encarregado de qualidade.  Como um pré-requisito, execute o registro de tarefa “Inspecionar a qualidade das mercadorias“. Para processar a aprovação de uma não conformidade, o usuário que executa o registro de tarefa deve ter um valor de “Nome“ atribuído na página Usuários. Para usar as notas do documento, o usuário também deve ter o Manuseio de documentos ativado nas opções do usuário. 
+Use este procedimento para executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente. Você pode executar esse registro na empresa de demonstração USMF e pode usar os valores sugeridos. Normalmente, esse procedimento é realizado por um encarregado de qualidade.  Como um pré-requisito, execute o registro de tarefa “Inspecionar a qualidade das mercadorias“. Para processar a aprovação de uma não conformidade, o usuário que executa o registro de tarefa deve ter um valor de “Nome“ atribuído na página Usuários. Para usar as notas do documento, o usuário também deve ter o Manuseio de documentos ativado nas opções do usuário.
 
 
 ## <a name="select-a-quality-order"></a>Selecione uma ordem de qualidade
@@ -78,5 +78,4 @@ Use este procedimento para executar o gerenciamento de não conformidades, com b
 3. Clique em Sim.
 4. Feche a página.
 5. Feche a página.
-
 

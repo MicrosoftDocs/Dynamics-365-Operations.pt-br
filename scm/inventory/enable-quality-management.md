@@ -1,7 +1,7 @@
 ---
 title: "Visão geral do gerenciamento de qualidade"
 description: "Este artigo descreve como você pode usar o gerenciamento de qualidade no Microsoft Dynamics 365 for Finance and Operations para ajudar a melhorar a qualidade do produto na sua cadeia de suprimentos."
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,14 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -45,20 +45,20 @@ O gerenciamento de qualidade é flexível e pode ser implementado de várias man
 
 -   Iniciar automaticamente um processo de controle de qualidade com base em critérios pré-definidos (após o registro do depósito de uma ordem de compra de um fornecedor específico).
 -   Bloquear o estoque durante a inspeção para evitar que o estoque não aprovado seja utilizado (bloqueio total das quantidades da ordem de compra).
--   Use a amostragem do item como parte de uma associação de qualidade para definir o valor de estoque físico atual que deve ser inspecionado. A amostragem pode se basear em quantidades fixas ou em uma porcentagem. 
--   Crie ordens de qualidade para recebimentos parciais. Para criar uma ordem de qualidade baseada na quantidade fisicamente recebida com uma ordem, marque a caixa de seleção **Por quantidade atualizada** no formulário **Amostragem de itens**. 
+-   Use a amostragem do item como parte de uma associação de qualidade para definir o valor de estoque físico atual que deve ser inspecionado. A amostragem pode se basear em quantidades fixas ou em uma porcentagem.
+-   Crie ordens de qualidade para recebimentos parciais. Para criar uma ordem de qualidade baseada na quantidade fisicamente recebida com uma ordem, marque a caixa de seleção **Por quantidade atualizada** no formulário **Amostragem de itens**.
 -   Crie tipos de teste que incluem valores de teste mínimos, máximos, e de destino, e realizar testes qualitativos versos quantitativos que possuem resultados de validação pré-definidos.
 -   Especifique um nível de qualidade aceitável (AQL) para controlar as tolerâncias da medição de qualidade.
 -   Especifique os recursos que uma operação de inspeção requer, como uma área de teste e instrumentos de teste.
 
 ## <a name="working-with-quality-associations"></a>Trabalhando com associações de qualidade
-O processo comercial que utiliza uma associação de qualidade pode estar relacionado a diversos documentos de origem, como ordens de compra, ordens de venda, ou ordens de produção. 
+O processo comercial que utiliza uma associação de qualidade pode estar relacionado a diversos documentos de origem, como ordens de compra, ordens de venda, ou ordens de produção.
 
-Cada registro de associação de qualidade também define o conjunto de testes, o nível de qualidade aceitável (AQL) e o plano de amostragem que se aplicam às ordens de qualidade geradas. Um registro de associação de qualidade deve ser definido para cada variação em um processo de negócios. Por exemplo, você pode configurar uma associação de qualidade que gera uma ordem de qualidade quando um recebimento de produto da ordem de produção é atualizado. Dependendo da configuração do plano de execução, o próprio processo de disparo pode ser bloqueado quando houver uma ordem de qualidade aberta, ou os processos seguintes, como o faturamento de ordem de compra, puderem ser bloqueados. 
+Cada registro de associação de qualidade também define o conjunto de testes, o nível de qualidade aceitável (AQL) e o plano de amostragem que se aplicam às ordens de qualidade geradas. Um registro de associação de qualidade deve ser definido para cada variação em um processo de negócios. Por exemplo, você pode configurar uma associação de qualidade que gera uma ordem de qualidade quando um recebimento de produto da ordem de produção é atualizado. Dependendo da configuração do plano de execução, o próprio processo de disparo pode ser bloqueado quando houver uma ordem de qualidade aberta, ou os processos seguintes, como o faturamento de ordem de compra, puderem ser bloqueados.
 
-**Observação:** Enquanto houver ordens de qualidade abertas, as quantidades de destoque serão automaticamente impedidas de serem usadas. Dependendo da configuração de **Bloqueio total** na página **Amostragens de item**, a quantidade será a quantidade na ordem de qualidade ou a quantidade na linha do documento de origem. 
+**Observação:** Enquanto houver ordens de qualidade abertas, as quantidades de destoque serão automaticamente impedidas de serem usadas. Dependendo da configuração de **Bloqueio total** na página **Amostragens de item**, a quantidade será a quantidade na ordem de qualidade ou a quantidade na linha do documento de origem.
 
-Para um dado processo comercial, o registro de associação de qualidade identifica o evento e as condições para as quais uma ordem de qualidade é gerada. As condições podem ser específicas para um site ou uma entidade legal. Uma ordem de qualidade que envolve testes destrutivos podem ser geradas somente quando existir um estoque para o evento. 
+Para um dado processo comercial, o registro de associação de qualidade identifica o evento e as condições para as quais uma ordem de qualidade é gerada. As condições podem ser específicas para um site ou uma entidade legal. Uma ordem de qualidade que envolve testes destrutivos podem ser geradas somente quando existir um estoque para o evento.
 
 Os exemplos a seguir ilustram como um registro de associação de qualidade é definido para as variações em cada processo comercial. Para cada exemplo, a tabela a seguir resume os eventos e as condições que são definidas por um registro de associação de qualidade.
 
@@ -363,7 +363,4 @@ A tabela a seguir fornece mais informações sobre como as ordens de qualidade p
 [Processos de gerenciamento de qualidade](quality-management-processes.md)
 
 [Habilitando o gerenciamento de não conformidade](enable-nonconformance-management.md)
-
-
-
 
