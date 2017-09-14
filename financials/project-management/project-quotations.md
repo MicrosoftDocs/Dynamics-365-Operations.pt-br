@@ -1,9 +1,9 @@
 ---
 title: "Cotações do projeto"
 description: "Este artigo introduz o conceito de cotações de projeto, que pode ser usado para fazer uma atraente oferta a um cliente como primeira etapa da fase do projeto. Uma cotação de projeto pode incluir os itens e os serviços que são cotados, informações básicas de contato, contratos comerciais especiais, descontos e possíveis taxas e subtaxas."
-author: twheeloc
+author: KimANelson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23621
 ms.assetid: 1ba67109-8c5b-4ada-b730-a72cd46203fd
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 0906a1600d4bf097a27cabff4d3b51e50f986631
 ms.contentlocale: pt-br
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

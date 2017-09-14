@@ -1,9 +1,9 @@
 ---
 title: Ordens de compra para um projeto
 description: "Este artigo descreve os diversos métodos que podem ser usados para criar ordens de compra para um projeto. O método usado dependerá da finalidade da ordem de compra e de quando os itens comprados serão consumidos cobrados para um projeto."
-author: twheeloc
+author: KimANelson
 manager: AnnBe
-ms.date: 08/07/2017
+ms.date: 09/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,7 +14,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 83972
 ms.assetid: 247e4d72-610b-4fa5-9873-601ed0f4b2d6
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

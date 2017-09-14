@@ -1,7 +1,7 @@
 --- 
 title: "Criar uma hierarquia de classificação de produto"
 description: "Este procedimento mostra como criar uma nova hierarquia de categoria e atribuir um tipo da hierarquia de código de mercadoria."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis

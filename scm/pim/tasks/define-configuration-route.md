@@ -1,7 +1,7 @@
 --- 
 title: "Definir roteiros de configuração"
 description: "Esse procedimento se concentra na definição de um roteiro de configuração que determina a sequência na qual os grupos de configuração serão exibidos."
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
