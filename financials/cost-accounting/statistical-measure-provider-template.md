@@ -1,7 +1,7 @@
 ---
 title: "Membros estatísticos de dimensões e modelos de fornecedores de medições estatísticas"
 description: "Este tópico fornece informações sobre membros da dimensão estatística e modelos de provedores de medidas estatísticas. Os membros da dimensão estatística podem ser utilizados como base de alocação em políticas como distribuição de custos e alocação de custos. Eles também podem ser usados ​​para relatar o consumo de custos não monetários."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb

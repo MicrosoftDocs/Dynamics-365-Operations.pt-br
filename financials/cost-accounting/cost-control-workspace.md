@@ -1,7 +1,7 @@
 ---
 title: "Espaço de trabalho de controle de custos"
 description: "Este tópico fornece informações sobre o espaço de trabalho de controle de custos. Este espaço de trabalho é um ponto central onde os gerentes responsáveis por controlar um objeto de custo ou um conjunto de objetos de custo dentro de uma dimensão ou nas dimensões podem acessar relatórios."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
