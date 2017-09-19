@@ -1,7 +1,7 @@
 ---
 title: "Hierarquia de dimensões"
 description: "Este tópico fornece informações sobre hierarquias de dimensões. As hierarquias de dimensões são usadas para definir a estrutura de relatórios, as políticas de custo e a configuração de segurança na Contabilização de Custos."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -20,10 +20,10 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 7fb7efdd574c705c2ecfbb46e302985db0729517
+ms.sourcegitcommit: 9e13fc9fa7e51a1299ca8698f581de979b680a7b
+ms.openlocfilehash: 5fad783bead7302da08234ccff1d8676f43b432d
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/18/2017
 
 ---
 
