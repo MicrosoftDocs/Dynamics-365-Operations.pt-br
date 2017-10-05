@@ -1,2 +1,2 @@
 > [!NOTE]
-> <span data-ttu-id="41918-101">Não aceitaremos edições neste tópico, pois ele é gerado por um processo de negócios no Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="41918-101">We will not be accepting edits to this topic, because it is generated from a business process in Lifecycle Services.</span></span>
+> <span data-ttu-id="c775f-101">Não aceitaremos edições neste tópico, pois ele é gerado por um processo de negócios no Lifecycle Services.</span><span class="sxs-lookup"><span data-stu-id="c775f-101">We will not be accepting edits to this topic, because it is generated from a business process in Lifecycle Services.</span></span>
