@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
-ms.openlocfilehash: 25cba59dfbab2e1030660840e85d278452e39e52
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: fd01d40d3e74503e3e310132882306ed8c23ad1d
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,7 +72,7 @@ Os guias de tarefas estão disponíveis no painel da ajuda do produto e oferecem
 
 Para localizar os guias de tarefas, navegue até uma página no Microsoft Dynamics 365 for Finance and Operations e clique em Ajuda. Os guias de tarefas que usam a página são listados no painel de ajuda. Você também pode usar o painel de ajuda para procurar guias de tarefas por título.
 
-Para saber mais, consulte [Guias de tarefas](/dynamics365/unified-operations/dev-itpro/get-started/help-overview#task-guides).
+Para saber mais, consulte [Guias de tarefas](../../fin-and-ops/get-started/help-overview.md#task-guides).
 
 
 ## <a name="countryregion-specific-help-topics"></a>Tópicos de ajuda específicos de país/região
@@ -80,264 +80,264 @@ As seções a seguir listam os recursos por país/região.
 
 ### <a name="australia"></a>Austrália
 
--   [Formatos de arquivo bancário](/dynamics365/unified-operations/financials/localizations/apac-aus-method-of-payment-pay-vendors-banks)
--   [Demonstrativo de atividades comerciais ](/dynamics365/unified-operations/financials/localizations/apac-aus-business-activity-statement)
--   [Depreciação de grupo de baixo valor](/dynamics365/unified-operations/financials/localizations/apac-aus-low-value-pool-depreciation)
+-   [Formatos de arquivo bancário](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
+-   [Demonstrativo de atividades comerciais ](../../financials/localizations/apac-aus-business-activity-statement.md)
+-   [Depreciação de grupo de valor baixo](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
 
 ### <a name="austria"></a>Áustria
 
-- [Depreciação semestral](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
-- [Taxas de material de embalagem](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
-- [Impostos de compra](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties)
-- [Demonstrativo de IVA](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
+- [Depreciação semestral](../../financials/localizations/emea-aut-half-year-depreciation.md)
+- [Taxas de material de embalagem](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
+- [Direitos de compra](../../financials/localizations/emea-aut-purchase-duties.md)
+- [Demonstrativo de IVA](../../financials/localizations/emea-aut-vat-statement-details.md)
 
 ### <a name="belgium"></a>Bélgica
 
--   [Extrato bancário CODA](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import)
--   [Declaração de imposto Intervat](/dynamics365/unified-operations/financials/localizations/emea-bel-intervat-tax-declaration)
--   [Configuração do relatório PRODCOM](/dynamics365/unified-operations/financials/localizations/emea-bel-prodcom-report)
--   [Relatórios de reconciliação](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports)
+-   [Extrato bancário CODA](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
+-   [Declaração de imposto Intervat](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
+-   [Configuração de relatório PRODCOM](../../financials/localizations/emea-bel-prodcom-report.md)
+-   [Relatórios de reconciliação](../../financials/localizations/emea-bel-reconciliation-reports.md)
 
 ### <a name="brazil"></a>Brasil
 
--   [Ativo fixo do CIAP](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset)
--   [Configurar livros fiscais](/dynamics365/unified-operations/financials/localizations/latam-bra-configure-fiscal-books)
--   [Exportar e importar transações da consolidação de contabilidade para o Brasil](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions)
--   [Livros fiscais](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-books)
--   [Espaços reservados para o texto da nota fiscal](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders)
--   [Notas fiscais](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework)
--   [Notas fiscais de imposto ICMS](/dynamics365/unified-operations/financials/localizations/latam-bra-icms-tax-fiscal-documents)
--   [Importar e verificar documentos XML de NF-e e arquivos DANFE](/dynamics365/unified-operations/financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails)
--   [Notas fiscais de importação](/dynamics365/unified-operations/financials/localizations/latam-bra-import-fiscal-documents)
--   [Diários gerados durante o processo de devolução de pagamento eletrônico](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process)
--   [Processo de NF-e](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process)
--   [Parâmetros para entidades legais](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters)
--   [Processar remessas de pagamento eletrônico para o Brasil](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances)
--   [Notas fiscais complementares de compra](/dynamics365/unified-operations/financials/localizations/latam-bra-purchase-complementary-fiscal-documents)
--   [Notas fiscais referenciadas](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents)
--   [Notas fiscais complementares de vendas](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents)
--   [Nota fiscal eletrônica de serviços](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document)
--   [Configurar, importar e verificar documentos XML de NF-e e DANFE](/dynamics365/unified-operations/financials/localizations/latam-bra-set-up-import-nfe)
--   [Atributos de impostos](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-attributes)
--   [Pagamentos de impostos](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-payments)
--   [Impostos](/dynamics365/unified-operations/financials/localizations/latam-bra-calculate-taxes)
+-   [Ativo fixo do CIAP](../../financials/localizations/latam-bra-ciap-fixed-asset.md)
+-   [Configurar livros fiscais](../../financials/localizations/latam-bra-configure-fiscal-books.md)
+-   [Exportar e importar transações da consolidação de contabilidade para o Brasil](../../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md)
+-   [Livros fiscais](../../financials/localizations/latam-bra-fiscal-books.md)
+-   [Espaços reservados para texto da nota fiscal](../../financials/localizations/latam-bra-fiscal-document-text-placeholders.md)
+-   [Notas fiscais](../../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md)
+-   [Notas fiscais de imposto ICMS](../../financials/localizations/latam-bra-icms-tax-fiscal-documents.md)
+-   [Importar e verificar documentos XML de NF-e e arquivos DANFE](../../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+-   [Notas fiscais de importação](../../financials/localizations/latam-bra-import-fiscal-documents.md)
+-   [Diários gerados durante o processo de devolução de pagamento eletrônico](../../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md)
+-   [Processo de NF-e](../../financials/localizations/latam-bra-nf-e-process.md)
+-   [Parâmetros para entidades legais](../../financials/localizations/latam-bra-legal-entity-parameters.md)
+-   [Processar remessas de pagamento eletrônico para o Brasil](../../financials/localizations/latam-bra-process-electronic-payment-remittances.md)
+-   [Notas fiscais complementares de compra](../../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md)
+-   [Notas fiscais referenciadas](../../financials/localizations/latam-bra-referenced-fiscal-documents.md)
+-   [Notas fiscais complementares de vendas](../../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md)
+-   [Nota fiscal eletrônica de serviços](../../financials/localizations/latam-bra-service-electronic-fiscal-document.md)
+-   [Configurar, importar e verificar documentos XML de NF-e e DANFE](../../financials/localizations/latam-bra-set-up-import-nfe.md)
+-   [Atributos de impostos](../../financials/localizations/latam-bra-tax-attributes.md)
+-   [Pagamentos de impostos](../../financials/localizations/latam-bra-tax-payments.md)
+-   [Impostos](../../financials/localizations/latam-bra-calculate-taxes.md)
 
 ### <a name="china"></a>China
--   [Comparação de lista de materiais](/dynamics365/unified-operations/financials/localizations/apac-chn-bom-comparison)
--   [Comprovantes chineses](/dynamics365/unified-operations/financials/localizations/apac-chn-vouchers)
--   [Configurar integração de imposto](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration)
-    -   [Perguntas frequentes sobre faturas de IVA de clientes](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices)
-    -   [Ativos fixos de métodos de depreciação ](/dynamics365/unified-operations/financials/localizations/apac-chn-depreciation-methods-fixed-assets)
--   [Importar a entidade de dados do Golden Tax chinês](/dynamics365/unified-operations/financials/localizations/apac-chn-import-golden-tax-data-entity)
--   [Modelo de custo médio mensal](/dynamics365/unified-operations/financials/localizations/apac-chn-monthly-average-cost-model)
--   [Lançar contas principais de estoque por site](/dynamics365/unified-operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site)
--   [Exibir valores de débito e crédito de contas contábeis](/dynamics365/unified-operations/financials/localizations/apac-chn-negative-debits-credits)
+-   [Comparação de lista de materiais](../../financials/localizations/apac-chn-bom-comparison.md)
+-   [Comprovantes chineses](../../financials/localizations/apac-chn-vouchers.md)
+-   [Configurar integração de imposto](../../financials/localizations/apac-chn-tax-integration.md)
+    -   [Perguntas frequentes sobre faturas de IVA de clientes](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+    -   [Ativos fixos de métodos de depreciação ](../../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md)
+-   [Importar a entidade de dados do Golden Tax chinês](../../financials/localizations/apac-chn-import-golden-tax-data-entity.md)
+-   [Modelo de custo médio mensal](../../financials/localizations/apac-chn-monthly-average-cost-model.md)
+-   [Lançar contas principais de estoque por site](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
+-   [Exibir valores de débito e crédito de contas contábeis](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
 ### <a name="the-czech-republic"></a>A República Tcheca
 
--   [Desconto à vista na nota de crédito](/dynamics365/unified-operations/financials/localizations/emea-cze-credit-note-cash-discount)
--   [Arredondamento de depreciações](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-rounding)
--   [Depreciação semestral de alienação de ativo fixo da República Tcheca](/dynamics365/unified-operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
--   [Suspensão de depreciação (feriados)](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
--   [Métodos de depreciação de ativo fixo da República Tcheca](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation)
--   [Lançar a pré-aquisição de um ativo fixo](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
--   [Instrução de IVA da República Tcheca](/dynamics365/unified-operations/financials/localizations/emea-cze-vat-statement-details)
--   [Relatórios de imposto ](/dynamics365/unified-operations/financials/localizations/emea-cze-intra-community-vat-transactions)
--   [Dividir períodos em diários periódicos](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
--   [Configurar signatários para formulários impressos](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
--   [Atualizar como os valores são exibidos em relatórios e documentos](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms)
+-   [Desconto à vista na nota de crédito](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
+-   [Arredondamento de depreciações](../../financials/localizations/emea-cze-depreciation-rounding.md)
+-   [Depreciação semestral de alienação de ativo fixo da República Tcheca](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
+-   [Suspensão de depreciação (holidays.md)](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
+-   [Métodos de depreciação de ativos fixos da República Tcheca](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
+-   [Lançar a pré-aquisição de um ativo fixo](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
+-   [Instrução de IVA da República Tcheca](../../financials/localizations/emea-cze-vat-statement-details.md)
+-   [Relatório de imposto ](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
+-   [Dividir períodos em diários periódicos](../../financials/localizations/emea-create-post-periodic-journals.md)
+-   [Configurar signatários para formulários impressos](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
+-   [Atualizar como os valores são exibidos em relatórios e documentos](../../financials/localizations/emea-amount-printing-forms.md)
 
 ### <a name="estonia"></a>Estônia
 
--   [Detalhes do demonstrativo de IVA da Estônia](/dynamics365/unified-operations/financials/localizations/emea-est-vat-statement-details)
--   [Alienação de ativos fixos](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+-   [Detalhes do demonstrativo de IVA da Estônia](../../financials/localizations/emea-est-vat-statement-details.md)
+-   [Alienação de ativos fixos](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
 ### <a name="europe"></a>Europa
-- [Titulares avançados](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
-- [Transações de titulares avançados](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions)
-- [Faturamento avançado](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice)
-- [Reconciliação bancária](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation)
-- [Faturamento corretivo](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice)
-- [Criar e lançar diários periódicos](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
-- [Editar IDs de fatura em ordens de venda](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
-- [Certificados de entrada da UE](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
-- [Relatórios da lista de vendas da UE](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
-- [Ajustes cambiais](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
-- [Formatos de arquivo para métodos de pagamento](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
-- [Alienação de ativos fixos para a Estônia e a Lituânia](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
-- [Importar arquivos ISO20022](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats)
-- [Intrastat](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
-- [Relatórios de diários de estoque](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
-- [Numeração de faturas e guias de remessa para a Letônia e a Lituânia](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
-- [Prazos finais de emissão de fatura](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
-- [Padrões de OIOUBL](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
-- [Relatório de guia de pagamento](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
-- [Caixa pequeno](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
-- [Lançar a pré-aquisição de um ativo fixo](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
-- [Códigos postais](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
-- [IDs de registro](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
-- [Encargos revertidos](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge)
-- [Visão geral de transferência de crédito SEPA](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
-- [Visão geral de débito direto SEPA](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
-- [Configurar remuneração de cliente e fornecedor](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
-- [Configurar signatários para formulários impressos](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
-- [Contabilidade de estorno](/dynamics365/unified-operations/financials/localizations/emea-storno)
-- [Diretivas de imposto](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
-- [Atualizar como os valores são exibidos em relatórios e documentos](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
-- [Taxas de câmbio de IVA](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
-- [Transações de registro de IVA do leste europeu](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions)
-- [Relatório de IVA](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
-- [Exibir transações sobre liquidação](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
+- [Titulares avançados](../../financials/localizations/emea-advance-holders.md)
+- [Transações de titulares avançados](../../financials/localizations/emea-advance-holders-transactions.md)
+- [Faturamento avançado](../../financials/localizations/emea-advance-invoice.md)
+- [Reconciliação bancária](../../financials/localizations/emea-bank-reconciliation.md)
+- [Faturamento corretivo](../../financials/localizations/emea-corrective-invoice.md)
+- [Criar e lançar diários periódicos](../../financials/localizations/emea-create-post-periodic-journals.md)
+- [Editar IDs de fatura em ordens de venda](../../financials/localizations/emea-edit-invoice-id-sales-orders.md)
+- [Certificados de entrada da UE](../../financials/localizations/emea-entry-certificates.md)
+- [Relatório da lista de vendas da UE](../../financials/localizations/emea-eu-sales-list.md)
+- [Ajustes cambiais](../../financials/localizations/emea-exchange-rate-adjustments.md)
+- [Formatos de arquivo para métodos de pagamento](../../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
+- [Alienação de ativos fixos para a Estônia e a Lituânia](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+- [Importar arquivos ISO20022](../../financials/localizations/emea-ISO20022-file-formats.md)
+- [Intrastat](../../financials/localizations/emea-intrastat.md)
+- [Relatórios de diários de estoque](../../financials/localizations/emea-set-up-report-inventory-journal-names.md)
+- [Numeração de faturas e guias de remessa para a Letônia e a Lituânia](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
+- [Prazos finais de emissão de fatura](../../financials/localizations/emea-invoice-issue-deadline.md)
+- [Padrões de OIOUBL](../../financials/localizations/emea-oioubl-standards-electronic-invoicing.md)
+- [Relatório de guia de pagamento](../../financials/localizations/emea-eur-payment-slip-report-giro.md)
+- [Caixa pequeno](../../financials/localizations/emea-petty-cash.md)
+- [Lançar a pré-aquisição de um ativo fixo](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
+- [CEPs](../../financials/localizations/emea-import-create-postal-codes-manually.md)
+- [IDs de registro](../../financials/localizations/emea-registration-ids.md)
+- [Encargos revertidos](../../financials/localizations/emea-reverse-charge.md)
+- [Visão geral de transferência de crédito SEPA](../../financials/accounts-payable/sepa-credit-transfer.md)
+- [Visão geral de débito direto SEPA](../../financials/accounts-receivable/sepa-direct-debit-overview.md)
+- [Configurar remuneração de cliente e fornecedor](../../financials/localizations/emea-compensation-customer-vendor-transactions.md)
+- [Configurar signatários para formulários impressos](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
+- [Contabilidade de estorno](../../financials/localizations/emea-storno.md)
+- [Diretivas de imposto](../../financials/localizations/emea-tax-directives.md)
+- [Atualizar como os valores são exibidos em relatórios e documentos](../../financials/localizations/emea-amount-printing-forms.md) 
+- [Taxas de câmbio de IVA](../../financials/localizations/emea-vat-exchange-rate.md)
+- [Transações de registro de IVA para a Europa Oriental](../../financials/localizations/emea-vat-register-transactions.md)
+- [Relatório de IVA](../../financials/localizations/emea-vat-reporting.md)
+- [Exibir transações sobre liquidação](../../financials/localizations/emea-transactions-settlement-form.md)
 
 ### <a name="france"></a>França
--   [Fatura cronológica e números de comprovantes](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
--   [Depreciação derrogatória da França](/dynamics365/unified-operations/financials/localizations/emea-fra-derogatory-depreciation)
--   [Códigos NAF e números de siret](/dynamics365/unified-operations/financials/localizations/emea-fra-naf-codes-siret-numbers)
--   [Penalidades por pagamentos de clientes em atraso na França](/dynamics365/unified-operations/financials/localizations/emea-fra-apply-penalty-customer-payment-past-due)
--   [Imprimir texto de recuperação de quantia total em uma fatura de cliente](/dynamics365/unified-operations/financials/localizations/emea-fra-print-lump-sum-recovery-text)
--   [Depreciação RB/SL](/dynamics365/unified-operations/financials/localizations/emea-fra-rbsl-depreciation)
+-   [Fatura cronológica e números de comprovantes](../../financials/localizations/emea-fra-chronological-invoices-vouchers.md)
+-   [Depreciação derrogatória da França](../../financials/localizations/emea-fra-derogatory-depreciation.md)
+-   [Códigos NAF e números de siret](../../financials/localizations/emea-fra-naf-codes-siret-numbers.md)
+-   [Penalidades por pagamentos de clientes em atraso na França](../../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md)
+-   [Imprimir texto de recuperação de quantia total em uma fatura de cliente](../../financials/localizations/emea-fra-print-lump-sum-recovery-text.md)
+-   [Depreciação RB/SL](../../financials/localizations/emea-fra-rbsl-depreciation.md)
 
 #### <a name="public-sector"></a>Setor público
-   -   [Compromissos no setor público](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector)
-   -   [Mandats de paiement no setor público](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement)
-   -   [Compras](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
-   -   [Contabilidade do setor público](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting)
-   -   [Titres de recette](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
-   -   [Suspensões de pagamento de fatura de fornecedor](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
+   -   [Compromissos no setor público](../../financials/localizations/emea-fra-commitments-public-sector.md)
+   -   [Mandats de paiement no setor público](../../financials/localizations/emea-fra-mandats-de-paiement.md)
+   -   [Compras](../../financials/localizations/emea-fra-procurement-sourcing-public-sector.md)
+   -   [Contabilidade do setor público](../../financials/localizations/emea-fra-public-sector-accounting.md)
+   -   [Titres de recette](../../financials/localizations/emea-fra-titres-de-recette-public-sector.md)
+   -   [Suspensões de pagamento de fatura de fornecedor](../../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md)
 
 ### <a name="germany"></a>Alemanha
--   [Depreciação adicional de aquisição](/dynamics365/unified-operations/financials/localizations/emea-deu-additional-acquisition-depreciation)
--   [Arquivo de auditoria alemão (GDPdU/GoBD)](/dynamics365/unified-operations/financials/localizations/emea-deu-gdpdu-audit-data-export)
--   [Relatório de lista de diários alemão](/dynamics365/unified-operations/financials/localizations/emea-deu-journal-list-report)
--   [Imprimir um rótulo separado para memorandos de crédito originários de vendas](/dynamics365/unified-operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
+-   [Depreciação adicional de aquisição](../../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
+-   [Arquivo de auditoria alemão (GDPdU/GoBD)](../../financials/localizations/emea-deu-gdpdu-audit-data-export.md)
+-   [Relatório de lista de diários alemão](../../financials/localizations/emea-deu-journal-list-report.md)
+-   [Imprimir um rótulo separado para memorandos de crédito originários de vendas](../../financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md)
 
 ### <a name="hungary"></a>Hungria
 
--   [Métodos de depreciação de ativos fixos](/dynamics365/unified-operations/financials/localizations/emea-hun-fixed-assets-depreciation-methods) 
--   [Mover um ativo fixo para estoque](/dynamics365/unified-operations/financials/localizations/emea-hun-fixed-asset-to-inventory)
--   [Ativos fixos de baixo custo](/dynamics365/unified-operations/financials/localizations/emea-hun-low-cost-fixed-assets)
+-   [Métodos de depreciação de ativos fixos](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
+-   [Mover um ativo fixo para o estoque](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+-   [Ativos fixos de baixo custo](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
 
 ### <a name="italy"></a>Itália
 
--   [Relatório italiano de lista de bloqueios](/dynamics365/unified-operations/financials/localizations/emea-ita-black-list-report)
--   [Detalhes de demonstrativos de IVA](/dynamics365/unified-operations/financials/localizations/emea-ita-vat-statements-details)
--   [Data da competência de transações](/dynamics365/unified-operations/financials/localizations/emea-ita-competence-date)
--   [Depreciação manual de ativos fixos](/dynamics365/unified-operations/financials/localizations/emea-ita-depreciation-of-fixed-assets)
--   [Verificação da data da guia de remessa em faturas da Itália](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
--   [Registros de imposto da Itália](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books)
--   [Dividir pagamento de faturas emitidas para a Administração Pública](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
--   [Imposto retido na fonte](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax)
+-   [Relatório italiano de lista de bloqueios](../../financials/localizations/emea-ita-black-list-report.md)
+-   [Detalhes de demonstrativos de IVA](../../financials/localizations/emea-ita-vat-statements-details.md)
+-   [Data da competência de transações](../../financials/localizations/emea-ita-competence-date.md)
+-   [Depreciação manual de ativos fixos](../../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+-   [Verificação da data da guia de remessa em faturas da Itália](../../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
+-   [Registros de imposto da Itália](../../financials/localizations/emea-ita-fiscal-books.md)
+-   [Dividir pagamento de faturas emitidas para a Administração Pública](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
+-   [Imposto retido na fonte](../../financials/localizations/emea-ita-withholding-tax.md)
 
 ### <a name="japan"></a>Japão
 
--  [Taxas de pagamento bancário cobertas por fornecedores](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
--  [Faturas consolidadas](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
--  [Regras de alocação de ativos fixos](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
--  [Método de depreciação dividido igualmente](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
--  [Depreciação de ativo fixo](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
--  [Gerenciamento de danos de ativos fixos em unidade geradora de caixa](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
--  [Importar CEPs](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes)
--  [Configurar obrigação de baixa para ativos fixos](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
--  [Configurar entradas de redução para ativos fixos](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
--  [Pagar um fornecedor com endosso de uma letra de câmbio](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
--  [Cálculo de imposto retido na fonte progressivo](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
+-  [Taxas de pagamento bancário cobertas por fornecedores](../../financials/localizations/apac-jpn-bank-payment-fees-vendors.md)
+-  [Faturas consolidadas](../../financials/localizations/apac-jpn-consolidate-invoices.md)
+-  [Regras de alocação de ativos fixos](../../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md)
+-  [Método de depreciação dividido igualmente](../../financials/localizations/apac-jpn-equally-divided-depreciation-method.md)
+-  [Depreciação de ativo fixo](../../financials/localizations/apac-jpn-fixed-asset-depreciation.md)
+-  [Gerenciamento de danos de ativos fixos em unidade geradora de caixa](../../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md)
+-  [Importar CEPs](../../financials/localizations/apac-jpn-import-postal-codes.md)
+-  [Configurar obrigação de baixa para ativos fixos](../../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md)
+-  [Configurar entradas de redução para ativos fixos](../../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md)
+-  [Pagar um fornecedor com endosso de uma letra de câmbio](../../financials/localizations/apac-jpn-endorse-bill-of-exchange.md)
+-  [Cálculo de imposto retido na fonte progressivo](../../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md)
 
 ### <a name="latvia"></a>Letônia
 
--   [Contabilidade de ativos fixos para fins de tributação](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-accounting)
--   [Controle de alterações de localização de ativos fixos](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-location-fields-change)
--   [Numeração de faturas e guias de remessa](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
--   [Relatório de impostos sobre recursos naturais](/dynamics365/unified-operations/financials/localizations/emea-lva-tax-natural-resources)
--   [Detalhes de instrução de IVA](/dynamics365/unified-operations/financials/localizations/emea-lva-vat-statement-details)
+-   [Contabilidade de ativos fixos para fins de tributação](../../financials/localizations/emea-lva-fixed-assets-accounting.md)
+-   [Controle de alterações de localização de ativos fixos](../../financials/localizations/emea-lva-fixed-assets-location-fields-change.md)
+-   [Numeração de faturas e guias de remessa](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
+-   [Relatório de impostos sobre recursos naturais](../../financials/localizations/emea-lva-tax-natural-resources.md)
+-   [Detalhes do demonstrativo de IVA](../../financials/localizations/emea-lva-vat-statement-details.md)
 
 ### <a name="lithuania"></a>Lituânia
 
--   [Demonstrativo de reparo de ativo fixo](/dynamics365/unified-operations/financials/localizations/emea-ltu-fixed-asset-repair-statement)
--   [Numeração de faturas e guias de remessa](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
--   [Detalhes do demonstrativo de IVA](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details)
+-   [Demonstrativo de reparo de ativo fixo](../../financials/localizations/emea-ltu-fixed-asset-repair-statement.md)
+-   [Numeração de faturas e guias de remessa](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
+-   [Detalhes do demonstrativo de IVA](../../financials/localizations/emea-ltu-vat-statement-details.md)
 
 ### <a name="mexico"></a>México
 
--   [Demonstrativo de declaração DIOT](/dynamics365/unified-operations/financials/localizations/latam-mex-diot-declaration-statement)
--   [Demonstrativos contábeis do razão eletrônico](/dynamics365/unified-operations/financials/localizations/latam-mex-electronic-ledger-accounting-statements)
--   [Relatório de declaração de inflação de ajuste](/dynamics365/unified-operations/financials/localizations/latam-mex-adjustment-inflation-declaration-report)
--   [Relatório de declaração ISR](/dynamics365/unified-operations/financials/localizations/latam-mex-isr-declaration-report-supporting-processes)
--   [Faturas eletrônicas (CFDI)](/dynamics365/unified-operations/financials/localizations/latam-mex-CFDI-electronic-invoices)
+-   [Demonstrativo de declaração DIOT](../../financials/localizations/latam-mex-diot-declaration-statement.md)
+-   [Demonstrativos contábeis do razão eletrônico](../../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md)
+-   [Relatório de declaração de inflação de ajuste](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
+-   [Relatório de declaração ISR](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
+-   [Faturas eletrônicas (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
    
 ### <a name="malaysia"></a>Malásia
 
--   [GST (Imposto sobre bens e serviços)](/dynamics365/unified-operations/financials/localizations/apac-mys-gst)
+-   [GST (Imposto sobre bens e serviços)](../../financials/localizations/apac-mys-gst.md)
 
 ### <a name="netherlands"></a>Países Baixos
 
--   [Prazo final de emissão de fatura](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
+-   [Prazo final de emissão de fatura](../../financials/localizations/emea-invoice-issue-deadline.md)
 
 ### <a name="norway"></a>Noruega
 
--   [Formato de importação Nets](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format)
--   [Demonstrativo de IVA](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report)
+-   [Formato de importação Nets](../../financials/localizations/emea-nor-nets-import-format.md)
+-   [Demonstrativo de IVA](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
 
 ### <a name="poland"></a>Polônia
 
--   [Calcular descontos de linha do preço unitário](/dynamics365/unified-operations/financials/localizations/emea-pol-line-discount-calculation-from-unit-price)
--   [Notas de correção](/dynamics365/unified-operations/financials/localizations/emea-pol-correction-notes)
--   [Duplicar numeração de faturas de venda](/dynamics365/unified-operations/financials/localizations/emea-pol-sales-invoice-duplicates-numbering)
--   [Depreciação de ativos fixos](/dynamics365/unified-operations/financials/localizations/emea-pol-fixed-assets-depreciation)
--   [Alienação de ativos fixos](/dynamics365/unified-operations/financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension)
--   [Embalagem retornável](/dynamics365/unified-operations/financials/localizations/emea-pol-returnable-packages)
--   [Relatórios de imposto](/dynamics365/unified-operations/financials/localizations/emea-pol-sales-tax-reports)
--   [Arquivo de auditoria padrão (SAF)](/dynamics365/unified-operations/financials/localizations/emea-pol-standard-audit-file-saf)
--   [Demonstrativo de giro e saldos](/dynamics365/unified-operations/financials/localizations/emea-pol-turnover-balances-statement)
+-   [Calcular descontos de linha do preço unitário](../../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
+-   [Notas de correção](../../financials/localizations/emea-pol-correction-notes.md)
+-   [Duplicar numeração de faturas de venda](../../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md)
+-   [Depreciação de ativos fixos](../../financials/localizations/emea-pol-fixed-assets-depreciation.md)
+-   [Alienação de ativos fixos](../../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md)
+-   [Embalagem retornável](../../financials/localizations/emea-pol-returnable-packages.md)
+-   [Relatórios de imposto](../../financials/localizations/emea-pol-sales-tax-reports.md)
+-   [Arquivo de auditoria padrão (SAF)](../../financials/localizations/emea-pol-standard-audit-file-saf.md)
+-   [Demonstrativo de giro e saldos](../../financials/localizations/emea-pol-turnover-balances-statement.md)
 
 ### <a name="saudi-arabia"></a>Arábia Saudita
 
--   [Relatório Zakat](/dynamics365/unified-operations/financials/localizations/emea-sau-zakat-reporting)
+-   [Relatório Zakat](../../financials/localizations/emea-sau-zakat-reporting.md)
 
 ### <a name="singapore"></a>Cingapura
 
--   [Gerar o relatório GST-05 de Cingapura](/dynamics365/unified-operations/financials/localizations/apac-sgp-generate-gst-05-report)
+-   [Gerar o relatório GST-05 de Cingapura](../../financials/localizations/apac-sgp-generate-gst-05-report.md)
 
 ### <a name="spain"></a>Espanha
 
--   [Opções de letra de câmbio espanhola](/dynamics365/unified-operations/financials/localizations/emea-esp-bill-of-exchange-options)
--   [O desconto à vista é aplicado no parâmetro de fatura](/dynamics365/unified-operations/financials/localizations/emea-esp-cash-discount-applied-invoice)
--   [Imposto condicional](/dynamics365/unified-operations/financials/localizations/emea-esp-conditional-sales-tax)
--   [Grupos de reavaliação de ativo fixo](/dynamics365/unified-operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
--   [IVA da UE](/dynamics365/unified-operations/financials/localizations/emea-esp-intra-community-vat)
--   [Clientes ocasionais](/dynamics365/unified-operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
--   [Imprimir cheques usando o layout espanhol](/dynamics365/unified-operations/financials/localizations/emea-esp-print-checks-with-spanish-layout)
--   [Opções de nota promissória espanhola](/dynamics365/unified-operations/financials/localizations/emea-esp-promissory-note-options)
--   [Ciclos de vendas e compras](/dynamics365/unified-operations/financials/localizations/emea-esp-sales-purchase-cycle)
--   [Entradas especiais e folhas de abertura](/dynamics365/unified-operations/financials/localizations/emea-esp-opening-sheets-spain)
--   [Usar dados fiscais da conta da fatura](/dynamics365/unified-operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
+-   [Opções de letra de câmbio espanhola](../../financials/localizations/emea-esp-bill-of-exchange-options.md)
+-   [O desconto à vista é aplicado no parâmetro de fatura](../../financials/localizations/emea-esp-cash-discount-applied-invoice.md)
+-   [Imposto condicional](../../financials/localizations/emea-esp-conditional-sales-tax.md)
+-   [Grupos de reavaliação de ativo fixo](../../financials/localizations/emea-esp-fixed-asset-group-revaluation.md)
+-   [IVA da UE](../../financials/localizations/emea-esp-intra-community-vat.md)
+-   [Clientes ocasionais](../../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md)
+-   [Imprimir cheques usando o layout espanhol](../../financials/localizations/emea-esp-print-checks-with-spanish-layout.md)
+-   [Opções de nota promissória espanhola](../../financials/localizations/emea-esp-promissory-note-options.md)
+-   [Ciclos de vendas e compras](../../financials/localizations/emea-esp-sales-purchase-cycle.md)
+-   [Entradas especiais e folhas de abertura](../../financials/localizations/emea-esp-opening-sheets-spain.md)
+-   [Usar dados fiscais da conta da fatura](../../financials/localizations/emea-esp-fiscal-data-invoice-account.md)
 
 ### <a name="sweden"></a>Suécia
 
--   [Formatos de pagamento de importação da Suécia](/dynamics365/unified-operations/financials/localizations/emea-swe-payment-formats-import)
--   [Caixas registradoras da Suécia](/dynamics365/unified-operations/retail/localizations/emea-swe-cash-registers)
+-   [Formatos de pagamento de importação da Suécia](../../financials/localizations/emea-swe-payment-formats-import.md)
+-   [Caixas registradoras da Suécia](../../retail/localizations/emea-swe-cash-registers.md)
 
 ### <a name="switzerland"></a>Suíça
 
--   [Importação de pagamentos de cliente ESR](/dynamics365/unified-operations/financials/localizations/emea-che-esr-customer-payments-import)
+-   [Importação de pagamentos de cliente ESR](../../financials/localizations/emea-che-esr-customer-payments-import.md)
 
 ### <a name="thailand"></a>Tailândia
 
--   [Relatórios de ficha de estoque](/dynamics365/unified-operations/financials/localizations/apac-tha-stock-card-reports)
--   [Fatura de imposto de substituição/ajuste para a Tailândia](/dynamics365/unified-operations/financials/localizations/apac-tha-substitution-and-adjustment-invoices)
--   [IVA não realizado](/dynamics365/unified-operations/financials/localizations/apac-tha-unrealized-vat)
--   [Imposto retido na fonte](/dynamics365/unified-operations/financials/localizations/apac-tha-withholding-tax)
+-   [Relatórios de fichas de estoque](../../financials/localizations/apac-tha-stock-card-reports.md)
+-   [Fatura de imposto de substituição/ajuste para a Tailândia](../../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md)
+-   [IVA não realizado](../../financials/localizations/apac-tha-unrealized-vat.md)
+-   [Imposto retido na fonte](../../financials/localizations/apac-tha-withholding-tax.md)
 
 ### <a name="united-kingdom"></a>Reino Unido
 
--   [O esquema do setor de construção do Reino Unido](/dynamics365/unified-operations/financials/localizations/emea-gbr-cis-construction-industry-scheme)
+-   [O esquema do setor de construção do Reino Unido](../../financials/localizations/emea-gbr-cis-construction-industry-scheme.md)
 
 ### <a name="united-states"></a>Estados Unidos
 
--   [Formulário 1099 no setor público](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector)   
--   [Verificação do formulário I-9](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
--   [Relatório 1099 de fim de ano](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting)
--   [Folha de Pagamento](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-payroll)
--   [Setor público](/dynamics365/unified-operations/financials/public-sector/public-sector-functionality)
+-   [Formulário 1099 no setor público](../../financials/localizations/noam-usa-form-1099-public-sector.md)   
+-   [Verificação do formulário I-9](../../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
+-   [Relatório 1099 de fim de ano](../../financials/localizations/noam-usa-year-end-1099-reporting.md)
+-   [Folha de Pagamento](../../fin-and-ops/hr/localizations/noam-usa-payroll.md)
+-   [Setor público](../../financials/public-sector/public-sector-functionality.md)
 
 
 
