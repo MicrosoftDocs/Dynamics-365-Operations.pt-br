@@ -1,7 +1,10 @@
 # [Bem-vindo ao Dynamics 365 for Retail](index.md)
 
+# Introdução
+## [Novidades ou alterações](get-started/whats-new.md)
+
 # Pagamentos
-## [Métodos de pagamento](payment-methods.md)
+## [Formas de pagamento](payment-methods.md)
 ## [Configuração, autorização e captura de cartão de crédito](../financials/accounts-receivable/credit-card-authorizations.md)
 ## [Configurar métodos de pagamento para PDV](cash-denominations.md)
 ## [Perguntas frequentes sobre pagamentos](dev-itpro/payments-retail.md)
@@ -173,8 +176,9 @@
 ### [Configuração e instalação do Retail Modern POS](retail-modern-pos-device-activation.md)
 #### [Gerenciar contas e dispositivos do Retail nas sedes](set-up-activation-accounts-validate-devices-hq.md)
 #### [Ativação de dispositivo do Retail POS](dev-itpro/retail-device-activation.md)
-#### [PDV em Nuvem de varejo seguro](dev-itpro/secure-retail-cloud-pos.md)
+#### [PDV em Nuvem seguro do Retail](dev-itpro/secure-retail-cloud-pos.md)
 ### [Configuração e instalação do Retail Hardware Station](retail-hardware-station-configuration-installation.md)
+### [Implantação em massa dos componentes de autoatendimento do Retail](dev-itpro/retail-mass-deployment.md)
 ### [Eventos de componente do Retail para diagnósticos e soluções de problemas](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
 ### [Aplicar um pacote implantável](../dev-itpro/deployment/apply-deployable-package-system.md)
 
