@@ -15,11 +15,11 @@ ms.search.region: Brazil
 ms.author: v-gonode
 ms.search.validFrom: 2017-06-30]
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 716262a2787f312aac758f354a72c7cfd2913dff
-ms.openlocfilehash: e071d9c8431fec4def069efc5d284adb642c43e5
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 503825693be658b18b33cec3aa9a8bb5b7205210
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 

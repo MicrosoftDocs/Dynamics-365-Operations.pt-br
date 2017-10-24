@@ -16,13 +16,13 @@ ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a8739f426c401aacbab56179bad429a231060f57
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fade9e2acdb94daa6a908d949c578fd7ed439882
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -53,7 +53,7 @@ você pode agrupar definições de relatório para gerar vários relatórios ao 
 
 1.  No Designer de Relatórios, clique em **Grupos de Relatórios** no painel de navegação.
 2.  No menu **Arquivo**, clique em **Novo** &gt; **Definição de grupo de relatório** para abrir um novo grupo de relatório na janela de visualização. Como alternativa, clique no botão **Grupo de relatório** ![Grupo de relatório](https://i-technet.sec.s-msft.com/dynimg/IC679515.gif "Grupo de relatório") na barra de ferramentas.
-3.  Clique na guia **Grupo de Relatório**. Para substituir as informações nas definições de relatório individuais para a geração deste relatório, marque a caixa de seleção **Substituir a empresa, os detalhes e as configurações de data das definições de relatório individuais**. As informações de nome da empresa, nível de detalhe, configurações provisórias e data são preenchidas automaticamente, mas você ainda pode fazer atualizações.
+3.  Clique na guia **Grupo de relatório**. Para substituir as informações nas definições de relatório individuais para a geração deste relatório, marque a caixa de seleção **Substituir a empresa, os detalhes e as configurações de data das definições de relatório individuais**. As informações de nome da empresa, nível de detalhe, configurações provisórias e data são preenchidas automaticamente, mas você ainda pode fazer atualizações.
 4.  Marque a caixa de seleção **Incluir todas as moedas de relatório** se desejar que os vários relatórios gerados exibam essas moedas. Você pode acessar diversas exibições clicando no botão **Moeda** no Visualizador Web quando você exibir o relatório.
 5.  No campo **Relatórios no grupo**, clique em **Adicionar** para selecionar os relatórios a serem incluídos no grupo Relatório. Para selecionar vários relatórios na caixa de diálogo **Adicionar**, mantenha pressionada a tecla CTRL enquanto seleciona relatórios. Quando terminar de selecionar os relatórios, clique em **OK**.
 6.  Clique em **Arquivo** &gt; **Salvar** para salvar o novo grupo de relatório.
@@ -106,7 +106,7 @@ A tabela a seguir descreve os controles na guia **Grupo de relatórios**.
 <td>Nível de detalhe</td>
 <td>Especifique o nível de detalhamento que os relatórios incluem.
 <ul>
-<li><strong>Financeiro</strong>− Um relatório de resumo de alto nível. Você não pode fazer uma busca detalhada em contas e dimensões, exceto naquelas contas e dimensões que foram adicionadas pela árvore do relatório.</li>
+<li><strong>Financeiro</strong> - um relatório de resumo de alto nível. Você não pode fazer uma busca detalhada em contas e dimensões, exceto naquelas contas e dimensões que foram adicionadas pela árvore do relatório.</li>
 <li><strong>Financeiro &amp; Conta</strong> − Um relatório que contém detalhes de resumo e conta de alto nível.</li>
 <li><strong>Financeiro, Conta &amp; Transação</strong> − Um relatório que contém detalhes de resumo e transação de alto nível.</li>
 </ul></td>
@@ -115,14 +115,14 @@ A tabela a seguir descreve os controles na guia **Grupo de relatórios**.
 <td>Provisional</td>
 <td>Especifique os tipos de atividade que os relatórios incluem.
 <ul>
-<li><strong>Atividade lançada somente</strong> − Inclui somente as transações e os saldos que são lançados em seus dados financeiros.</li>
-<li><strong>Atividade lançada e não lançada</strong> − Inclui todas as transações e os saldos que são inseridos e lançados em seus dados financeiros.</li>
-<li><strong>Atividade somente não lançada</strong> − Inclui somente as transações que são inseridas, mas ainda não lançadas, em seus dados financeiros.</li>
+<li><strong>Somente atividades lançadas</strong> - inclui somente as transações e os saldos lançados em seus dados financeiros.</li>
+<li><strong>Atividades lançadas e não lançadas</strong> - inclui todas as transações e os saldos inseridos e lançados em seus dados financeiros.</li>
+<li><strong>Somente atividades não lançadas</strong> - inclui somente as transações inseridas, mas ainda não lançadas, em seus dados financeiros.</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>Incluir todas as moedas de relatório</td>
-<td>Se as moedas de relatório adicionais estiverem configuradas no sistema ERP do Microsoft Dynamics, elas serão listadas aqui. Selecione esta caixa de seleção para que os relatórios adicionais sejam gerados nas moedas indicadas. Para exibir esses relatórios no Visualizador da Web, clique no botão <strong>Moeda</strong>, e então selecione a moeda.</td>
+<td>Se as moedas de relatório adicionais estiverem configuradas no sistema ERP do Microsoft Dynamics, elas serão listadas aqui. Selecione esta caixa de seleção para que os relatórios adicionais sejam gerados nas moedas indicadas. Para exibir esses relatórios no Visualizador da Web, clique no botão <strong>Moeda</strong> e selecione uma moeda.</td>
 </tr>
 <tr class="even">
 <td>Informações de data não salvas com a definição de relatório</td>
@@ -144,8 +144,8 @@ Somente as configurações do Período Base Padrão são salvas com a definiçã
 <td>Relatórios em grupo</td>
 <td>Adicionar, remover e reordenar relatórios no grupo de relatório.
 <ul>
-<li>Para adicionar definições de relatório no grupo de relatórios, clique duas vezes no grupo de relatórios para abri-lo, e clique em <strong>Adicionar</strong>. Selecione os relatórios para incluir no grupo de relatórios e clique em <strong>OK</strong>.</li>
-<li>Para remover um relatório do grupo de relatório, selecione-o e clique em <strong>Remover</strong>.</li>
+<li>Para adicionar definições ao grupo de relatórios, clique duas vezes no grupo de relatórios para abri-lo e clique em <strong>Adicionar</strong>. Selecione os relatórios que serão incluídos no grupo de relatórios e clique em <strong>OK</strong>.</li>
+<li>Para remover um relatório do grupo de relatórios, selecione-o e então clique em <strong>Remover</strong>.</li>
 <li>Para mudar a ordem em que os relatórios são gerados, selecione um relatório na lista e clique em <strong>Mover para cima</strong> ou <strong>Mover para baixo</strong>.</li>
 </ul></td>
 </tr>

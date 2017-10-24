@@ -19,11 +19,11 @@ ms.search.industry: Product information
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d232473a1df0b821c6f39553ad826c61ff9ecff8
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: b2976d4fc62a71039da0bc8be5b50be92a95959c
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -96,7 +96,7 @@ Um cliente deseja comprar algumas camisetas pequenas e vermelhas e o nome da cam
 <tr class="odd">
 <td>Para definir o idioma preferencial de um cliente, siga estas etapas:
 <ol>  
-<li>Clique em <strong>Vendas e publicidade</strong> &gt; <strong>Comum</strong> &gt; <strong>Clientes</strong> &gt; <strong>Todos</strong> <strong>clientes</strong>.</li>
+<li>Clique em <strong>Vendas e marketing</strong> &gt; <strong>Comum</strong> &gt; <strong>Clientes</strong> &gt; <strong>Todos</strong> <strong>clientes</strong>.</li>
 <li>Clique duas vezes em uma conta de cliente para abrir a página <strong>Clientes</strong>. Na guia <strong>Geral</strong>, no campo <strong>Idioma</strong>, selecione <strong>idioma</strong>.</li>
 </ol></td>
 </tr>

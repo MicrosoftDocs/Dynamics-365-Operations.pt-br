@@ -15,13 +15,13 @@ ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 4e0c984b95cd395e7ab23394b886782e55fac90f
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: de8167eeea1f4a4db764a7f6398533ec3b9f4306
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -57,7 +57,7 @@ Os componentes a seguir do relatório financeiro facilitam a criação, exibiç�
 <ul>
 <li>Salvar combinações de dimensões, e reutilizar as dimensões para vários relatórios.</li>
 <li>Controlar como as descrições de dimensão são formatadas e exibidas.</li>
-<li>Identificar contas ou dimensões que foram omitidas de blocos de construção do relatório.</li>
+<li>Identificar as contas ou dimensões que foram omitidas dos blocos de construção do relatório.</li>
 <li>Formatar cabeçalhos para previsões contínuas.</li>
 </ul></td>
 </tr>

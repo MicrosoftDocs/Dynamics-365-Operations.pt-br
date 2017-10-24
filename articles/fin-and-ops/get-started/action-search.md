@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9b9bb0acc6f0dc1722c916f133eed766ffdd4cc8
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -62,7 +61,7 @@ Frequentemente, no Finance and Operations, você deve conhecer o local e o conte
 -   Separador de menu (se o botão estiver em um grupo nomeado, dentro de um botão de menu)
 -   Grupo ou guia na página (por exemplo, o nome de uma Guia Rápida)
 
-Por exemplo, você digitou **tot** no campo de **pesquisa de ação** e agora está examinando a lista de resultados. A primeira ocorrência, referente ao botão **Totais**, é realçada. O caminho de botão **Ordem de venda** &gt; **Exibir** também é exibido. A parte **Ordem de venda** do caminho corresponde à guia **Ordem de venda** do Painel de Ação e a parte **Exibir** do caminho corresponde ao grupo **Exibir** dessa guia. Da mesma forma, o caminho do botão **Desconto total** (**Venda** &gt; **Calcular**) informa que esse botão está localizado no grupo **Calcular**, na guia **Venda** do Painel de Ação. Portanto, essas informações ajudam você a compreender exatamente qual botão será acionado pela pesquisa de ação (se você selecionar esse botão na lista de resultados). 
+Por exemplo, você digitou **tot** no campo de **pesquisa de ação** e agora está examinando a lista de resultados. A primeira ocorrência, referente ao botão **Totais**, é realçada. O caminho de botão **Ordem de venda** &gt; **Exibir** também é exibido. A parte da **Ordem de venda** do caminho corresponde à guia **Ordem de venda** no Painel Ação e a parte **Exibir** do caminho corresponde ao grupo **Exibir** daquela guia. Da mesma forma, a parte do botão **Desconto total** (**Vender** &gt; **Calcular**) informa que este botão está localizado no grupo **Calcular** na guia **Vender** do Painel Ação. Portanto, essas informações ajudam você a compreender exatamente qual botão será acionado pela pesquisa de ação (se você selecionar esse botão na lista de resultados). 
 
 [![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png) 
 

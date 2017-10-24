@@ -1,7 +1,7 @@
 ---
 title: "Média de movimentos"
 description: 
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0018f5df3d0d2882c300b6458bfb8adfba84e2ad
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 Estes são pré-requisitos quando você usa custo da média móvel como um método de avaliação de custo.
 1.  Na página **Grupos de modelos de item**, configure um grupo de modelos de item com a Média de movimentos selecionada no campo **Modelo de estoque**. **Observação:** Por padrão, quando a média móvel for selecionada, os campos **Lançar estoque físico** e **Lançar estoque financeiro** também são selecionados. 
 
-2.  Na página **Lançamento**, atribua contas às contas de **Diferença de preço da média de movimentos** e de **Reavaliação de custos da média de movimentos** na guia **Estoque**. Você usa a conta **Diferença de preço da média de movimentos** quando o custo precisa ser gasto proporcionalmente. Isso ocorre devido a uma diferença de custo entre o recebimento da compra e a fatura de compra, e por causa de uma diferença entre a quantidade de estoque original e a quantidade disponível atual. Use a conta **Reavaliação de custos da média de movimentos** quando você desejar ajustar o custo da média móvel para um produto para um novo preço unitário.
+2.  Na página **Lançamento**, atribua as contas às contas de **Diferença de preço da média de movimentos** e de **Reavaliação de custos da média de movimentos** na guia **Estoque**. Você usa a conta **Diferença de preço da média de movimentos** quando o custo for gasto proporcionalmente. Isso ocorre devido a uma diferença de custo entre o recebimento da compra e a fatura de compra, e por causa de uma diferença entre a quantidade de estoque original e a quantidade disponível atual. Use a conta **Reavaliação de custos da média de movimentos** quando você desejar ajustar o custo da média móvel para um produto para um novo preço unitário.
 3.  Na página **Produtos liberados**, atribua o grupo de modelos de item da média móvel ao produto. **Observação:** O processo de fechamento de estoque fecha somente o período contábil. Ele não afeta os produtos que têm a média móvel atribuída a eles como um grupo de modelos do item.
 
 ## <a name="convert-to-the-moving-average-costing-method"></a>Converte para o método de avaliação de custo da média móvel

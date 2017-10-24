@@ -17,10 +17,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 6108a304e3f9cf7c9d27c0439d3241f8b8693b3c
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: aefd075331d84fece02f67075484c7b4a3c104e6
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="issue-customer-fiscal-documents-project-brazil"></a>Emitir notas fiscais para clientes (projeto) (Brasil)

@@ -1,7 +1,7 @@
 ---
 title: "Grupos de cálculos de BOM"
 description: "Este artigo fornece informações sobre grupos de cálculos para listas de materiais (BOMs) e como configurá-las. Para executar um cálculo de BOM, você deve configurar grupos de cálculo e atribuí-los a itens individuais ou definir um grupo de cálculo padrão. As configurações de cálculo a partir do grupo de cálculo são usadas como valores padrão na página Cálculo de BOM no momento do cálculo de BOM."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3372c22d6ed90e7669f1335fdd3366b8e167ad27
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c91f7ac3ded942afd5e359b59cee2ff58256622f
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,13 +72,21 @@ A caixa de seleção **Parar explosão** é usada para indicar quando um item fa
 
 ### <a name="warnings"></a>Avisos
 
-Na Guia Rápida **Avisos**, você seleciona as opções para as mensagens de aviso que devem ser recebidos pelos usuários quando eles fazem cálculos de BOM. Por exemplo, se você selecionar a caixa de seleção **BOM não**, o usuário receberá um aviso se nenhuma versão da BOM ativa for encontrada para os componentes ou o item pai executado para o cálculo de BOM. Se você selecionar a caixa de seleção **Sem roteiro**, o usuário recebe um aviso se nenhuma versão de roteiro ativa for encontrada. Se você estiver usando recursos em suas operações e roteiros, você pode instruir o sistema para verificar esses recursos. Em seguida, se um recurso não for encontrado em cada linha na rota ativa, o usuário receberá um aviso. Você também pode verificar e marcar para consumo. O consumo é a quantidade de uma rota específica. Normalmente, ele representa a quantidade de tempo que é necessário para executar uma operação específica por um processo de produção. Você pode verificar se um item não tem nenhum custo. Se não houver nenhum preço de custo ativo para um item, sem custo adicional é adicionado para o cálculo de BOM. Você também pode marcar e verificar a idade do preço de custo. Por exemplo, digite **60** para indicar que o preço de custo unitário deve ser reavaliado após 60 dias. Se esse limite for atingido, o sistema gera um aviso. Por exemplo, um preço de custo foi inserido para um item em janeiro deste ano. Se agora for agosto, que é mais de 60 dias após o preço de custo inserido, o usuário receberá um aviso quando o cálculo de BOM for executado. Você pode inserir uma porcentagem no campo **Margem de contribuição mínima**. Esse valor indica o ponto em que a margem mínima de contribuição não está sendo atendida. Se a margem de contribuição para um componente específico não for atendida, o usuário receberá um aviso. Portanto, este campo ajuda a garantir que você não vai competir com os custos e os custos adicionais que podem ser necessários para os itens.
-Configuração padrão nos parâmetros de gerenciamento de estoque e depósito
---------------------------------------------------------------
+Na Guia Rápida **Avisos**, você seleciona as opções para as mensagens de aviso que devem ser recebidos pelos usuários quando eles fazem cálculos de BOM. 
 
-Como os grupos de cálculo são necessários para executar cálculos, você deve configurar um grupo de cálculo padrão nos parâmetros de gerenciamento de estoque. Essa configuração permite que as empresas tenham um grupo de custo padrão e a configuração de todos os itens de lucro. Em seguida, se um determinado item tiver requisitos especiais de cálculo, o usuário pode atribuir um grupo de cálculo diferente para esse item. Normalmente, você pode definir grupos de cálculo em itens de componente BOM em vez de itens de BOM. No entanto, quando as mensagens de aviso são exibidas, grupos de cálculo podem ser aplicados. Um grupo de cálculo que é atribuído aos itens substitui o valor padrão definido nos parâmetros de gerenciamento de estoque. Você pode configurar o parâmetro padrão em **Gerenciamento de custo** &gt; **Configuração de políticas de contabilização de estoque** &gt; **Parâmetros** &gt; **Estatísticas de estoque** &gt; **Grupo de cálculo**. Ao configurar um grupo de configurações padrão, você também pode configurar as condições de aviso que solicitam aos usuários durante o processo de cálculo de BOM, se os componentes selecionados podem causar erros de cálculo.
-Exibir mensagens de aviso na página concluída
-------------------------------------------
+Por exemplo, se você selecionar a caixa de seleção **BOM não**, o usuário receberá um aviso se nenhuma versão da BOM ativa for encontrada para os componentes ou o item pai executado para o cálculo de BOM. Se você selecionar a caixa de seleção **Sem roteiro**, o usuário recebe um aviso se nenhuma versão de roteiro ativa for encontrada. Se você estiver usando recursos em suas operações e roteiros, você pode instruir o sistema para verificar esses recursos. Em seguida, se um recurso não for encontrado em cada linha na rota ativa, o usuário receberá um aviso. 
+
+Você também pode verificar e marcar para consumo. O consumo é a quantidade de uma rota específica. Normalmente, ele representa a quantidade de tempo que é necessário para executar uma operação específica por um processo de produção. Você pode verificar se um item não tem nenhum custo. Se não houver nenhum preço de custo ativo para um item, sem custo adicional é adicionado para o cálculo de BOM. 
+
+Você também pode marcar e verificar a idade do preço de custo. Por exemplo, digite **60** para indicar que o preço de custo unitário deve ser reavaliado após 60 dias. Se esse limite for atingido, o sistema gera um aviso. Por exemplo, um preço de custo foi inserido para um item em janeiro deste ano. Se agora for agosto, que é mais de 60 dias após o preço de custo inserido, o usuário receberá um aviso quando o cálculo de BOM for executado. Você pode inserir uma porcentagem no campo **Margem de contribuição mínima**. Esse valor indica o ponto em que a margem mínima de contribuição não está sendo atendida. Se a margem de contribuição para um componente específico não for atendida, o usuário receberá um aviso. Portanto, este campo ajuda a garantir que você não vai competir com os custos e os custos adicionais que podem ser necessários para os itens.
+
+### <a name="default-setup-in-inventory-and-warehouse-management-parameters"></a>Configuração padrão nos parâmetros de gerenciamento de estoque e depósito
+
+Como os grupos de cálculo são necessários para executar cálculos, você deve configurar um grupo de cálculo padrão nos parâmetros de gerenciamento de estoque. Essa configuração permite que as empresas tenham um grupo de custo padrão e a configuração de todos os itens de lucro. Em seguida, se um determinado item tiver requisitos especiais de cálculo, o usuário pode atribuir um grupo de cálculo diferente para esse item. Normalmente, você pode definir grupos de cálculo em itens de componente BOM em vez de itens de BOM. No entanto, quando as mensagens de aviso são exibidas, grupos de cálculo podem ser aplicados. Um grupo de cálculo que é atribuído aos itens substitui o valor padrão definido nos parâmetros de gerenciamento de estoque. 
+
+Você pode configurar o parâmetro padrão em **Gerenciamento de custo** &gt; **Configuração de políticas de contabilização de estoque** &gt; **Parâmetros** &gt; **Estatísticas de estoque** &gt; **Grupo de cálculo**. Ao configurar um grupo de configurações padrão, você também pode configurar as condições de aviso que solicitam aos usuários durante o processo de cálculo de BOM, se os componentes selecionados podem causar erros de cálculo.
+
+### <a name="view-warning-messages-on-the-complete-page"></a>Exibir mensagens de aviso na página concluída
 
 Um cálculo de BOM gera mensagens de aviso. Você pode ver os avisos sobre um item selecionado. Por exemplo, em vendas e marketing, crie uma nova ordem de venda para o item D0001. Em seguida, na linha da ordem de venda, sobre o menu **Atualizar linha**, clique em **Calcular com base em BOM/fórmula** para exibir os detalhes de cálculo e avisos. Você também pode exibir resultados de cálculo BOM na página **Concluído**. Par aas mensagens de erro, apenas duas condições de aviso só se aplicam a itens fabricados e quatro condições de aviso se aplicam a qualquer item:
 -   Identifique quando um item fabricado não tem uma BOM ativa.

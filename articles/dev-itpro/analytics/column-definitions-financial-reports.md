@@ -16,13 +16,13 @@ ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: d976988a599f65de9957c53a2d149576a1a11d83
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 924177f4974358d2283dfd46306d663c27ccd87b
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,55 +42,55 @@ Uma definição de coluna pode conter duas a 255 colunas.
 
 1.  No Designer de Relatórios, no painel de navegação, clique em **Definições de Coluna**.
 2.  No menu **Arquivo**, clique em **Novo** e depois em **Definição de coluna**.
-3.  Adicione o conteúdo da definição de coluna.
+3.  Adicionar conteúdos à definição da coluna.
 
-### <a name="open-a-column-definition"></a>Abra uma definição de coluna.
+### <a name="open-a-column-definition"></a>Abrir uma definição de coluna
 
 1.  No Designer de Relatórios, no painel de navegação, clique em **Definições de Coluna**.
-2.  Clique duas vezes na definição de coluna para abri-la.
+2.  Clique duas vezes em definição da coluna para abri-la.
 
 ### <a name="add-a-column-to-a-column-definition"></a>Adicionar uma coluna a uma definição de coluna
 
 1.  No Designer de Relatórios, clique em **Definições de coluna** e abra a definição de coluna para modificá-la.
 2.  Selecione a coluna na qual uma nova coluna deve ser inserida.
-3.  No menu **Editar**, clique em **Inserir coluna**. A nova coluna aparece à esquerda da coluna que você selecionou.
+3.  No menu **Editar**, clique em **Inserir coluna**. A coluna aparece à esquerda da coluna que você selecionou.
 
-### <a name="delete-a-column-from-a-column-definition"></a>Excluir uma coluna de uma definição de coluna
+### <a name="delete-a-column-from-a-column-definition"></a>Excluir uma coluna da definição de colunas
 
-1.  No Designer de Relatórios, clique em **Definições de coluna** e abra a definição de coluna para modificá-la.
-2.  Selecione a coluna que será excluída.
+1.  No Report Designer, clique em **Definições de coluna**e abra a definição da coluna para alterar.
+2.  Selecione a coluna a ser excluída.
 3.  No menu **Editar**, clique em **Excluir coluna**.
 
-## <a name="contents-of-a-column-definition"></a>Conteúdo de uma definição de coluna
+## <a name="contents-of-a-column-definition"></a>Conteúdos de uma definição de coluna
 Uma definição de coluna inclui as seguintes informações:
 
--   Uma coluna das descrições para a definição de linha
--   Colunas de valor que mostram dados financeiros, uma planilha do Microsoft Excel ou cálculos que se baseiam em outros dados na definição da coluna
+-   Uma coluna das descrições da definição de linha
+-   Valor das colunas que exibem dados financeiros, de uma planilha do Excel ou os cálculos que são baseados em outros dados na definição de coluna.
 -   Colunas de formatação
--   Colunas de atributo
+-   Colunas de atributos
 
-Estas informações aparecem nas seguintes áreas na definição de coluna:
+Estas informações são exibidas nas áreas a seguir na definição de colunas:
 
--   A área dos cabeçalhos da definição de coluna contém o texto e a formatação do cabeçalho que aparece no relatório. Um cabeçalho pode se aplicar a uma única coluna de dados, pode se estender por várias colunas ou pode se aplicar a colunas de forma condicional. A definição de coluna pode incluir quantas linhas de cabeçalho de coluna forem necessárias. **Observação:** os cabeçalhos de coluna se aplicam a cada coluna de dados no relatório. Os cabeçalhos de relatório se aplicam a todo o relatório. Você define os cabeçalhos de relatório na guia **Cabeçalhos e rodapés** da definição de relatório.
--   As linhas de detalhes da coluna são aquelas nas linhas de cabeçalho na definição de coluna. As linhas de detalhes da coluna definem as informações que são incluídas no relatório. A seguinte tabela lista e descreve as linhas de detalhes da coluna.
+-   A área dos cabeçalhos da definição de coluna contém o texto e a formatação do cabeçalho que aparece no relatório. Um cabeçalho pode ser aplicado a uma única coluna de dados, pode se estender entre várias colunas ou pode ser aplicado nas colunas em uma base condicional. A definição de colunas pode incluir quantas linhas de cabeçalho de colunas forem necessárias. **Observação:** os cabeçalhos de coluna se aplicam a cada coluna de dados no relatório. Os cabeçalhos do relatório se aplicam ao todo o relatório. Você define os cabeçalhos de relatório na guia **Cabeçalhos e rodapés** da definição de relatório.
+-   As linhas de detalhes da coluna são as linhas que estão abaixo do cabeçalho na definição da coluna. As linhas de detalhes da coluna definem as informações a serem incluídas no relatório. A tabela a seguir lista e descreve as linhas de detalhes da coluna.
 
-    | Nome das linhas de detalhes da coluna                                                | Descrição                                                                                            |
+    | Nome da linha de detalhe da coluna                                                | Descrição                                                                                            |
     |-----------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|
-    | Tipo de coluna                                                           | (Obrigatório) Especifique o tipo de dados na coluna.                                                     |
-    | Código do livro/categoria do atributo                                          | Especifique as informações de dados financeiros para as coluna dos tipos **FD** e **ATTR**.                       |
-    | Ano fiscal Período Períodos cobertos                                    | Especifique as informações de dados financeiros para as coluna do tipo **FD**.                                     |
+    | Tipo de Coluna                                                           | (Obrigatório) Especificar o tipo de dados desta coluna.                                                     |
+    | Código do Cenário/Categoria de Atributo                                          | Especifique as informações de dados financeiros para as coluna dos tipos **FD** e **ATTR**.                       |
+    | Períodos do período do ano fiscal abrangidos                                    | Especifique as informações de dados financeiros para as coluna do tipo **FD**.                                     |
     | Fórmula                                                               | Especifique uma fórmula de cálculo para as colunas do tipo **CALC**.                                        |
-    | Largura da coluna Espaços adicionais antes da coluna Substituição de formato Controle de impressão | Especifique as opções de formatos especiais.                                                                        |
-    | Restrições da coluna                                                   | Restrinja os dados.                                                                                         |
-    | Unidade de relatório                                                        | Restrinja a coluna para que ela mostre apenas os dados da unidade de relatório especificada.                      |
-    | Exibição da moeda Filtro da moeda                                      | Formate a moeda.                                                                                       |
-    | Filtro de dimensão                                                      | Especifique um filtro para restringir dados para determinadas unidades de relatório de dados financeiros.                           |
-    | Filtro de atributo                                                      | Especifique um filtro para restringir os dados financeiros.                                                       |
-    | Data inicial Data final                                                   | Restrinja os dados financeiros para especificar datas.                                                         |
-    | Justificação                                                         | Alinhe à esquerda, no centro ou à direita o texto de descrição que é especificado na definição de linha. |
+    | Espaços adicionais de largura da coluna antes do controle de impressão sobreposta do formato da coluna | Especificar opções especiais de formato.                                                                        |
+    | Restrições de Coluna                                                   | Restringir dados                                                                                         |
+    | Unidade Organizacional                                                        | Limita a coluna, para mostrar somente os dados da unidade organizacional especificada.                      |
+    | Filtro na moeda de exibição de moeda                                      | Formatar moeda.                                                                                       |
+    | Filtro de Dimensão                                                      | Especifica um filtro para restringir os dados em determinadas unidades organizacionais de dados financeiros.                           |
+    | Filtro de Atributo                                                      | Especifica um filtro para restringir os dados financeiros.                                                       |
+    | Data de início Data de fim                                                   | Restringir os dados financeiros a dados específicos.                                                         |
+    | Justificação                                                         | Centraliza, alinha à esquerda ou à direita o texto da descrição especificado na definição de linha. |
 
-## <a name="column-restrictions-in-a-column-definition"></a>Restrições da coluna em uma definição de coluna
-Você pode usar as restrições de coluna para especificar como uma definição de coluna usa os dados ou calcula as informações. Você também pode restringir uma coluna de relatório a uma unidade ou datas específicas. **Observação:** um código **Restrição de Coluna** substitui qualquer configuração conflitante atribuída na definição de linha.
+## <a name="column-restrictions-in-a-column-definition"></a>Restrições de coluna em uma definição de coluna
+É possível usar as limitações de coluna para especificar como uma definição de coluna usa os dados ou calcula as informações. Também é possível restringir uma coluna de relatório a uma unidade específica ou para datas específicas. **Observação:** um código **Restrição de Coluna** substitui qualquer configuração conflitante atribuída na definição de linha.
 
 ### <a name="column-restrictions-cell"></a>Célula Restrições da coluna
 
@@ -102,31 +102,31 @@ A célula **Restrições da coluna** pode incluir códigos que restringem ou sup
 2.  Clique duas vezes na célula **Restrições da coluna** para que a coluna seja restringida.
 3.  Na caixa de diálogo **Restrições da coluna**, selecione um ou mais códigos da lista e depois clique em **OK**.
 
-### <a name="column-restriction-codes"></a>Códigos de restrições de coluna
+### <a name="column-restriction-codes"></a>Códigos de restrição da coluna
 
-A seguinte tabela descreve os códigos de restrições de coluna.
+A tabela a seguir descreve os códigos de restrição de colunas.
 
-| Código de restrições de coluna | Descrição                                                                                                                                                                                                                                                                                                                             |
+| Código de restrição da coluna | Descrição                                                                                                                                                                                                                                                                                                                             |
 |-------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | SU                      | Suprima o sublinhado de uma coluna na qual um comando de sublinhado (**---**) ou um comando de sublinhado duplo (**===**) é inserido na definição de linha. Por exemplo, você pode não querer sublinhar os valores que são produzidos pelo cálculo de uma porcentagem.                                                                        |
-| ST                      | Suprima os totais para que apenas os detalhes sejam mostrados na coluna (por exemplo, uma coluna estatística).                                                                                                                                                                                                                                      |
+| ST                      | Suprime totais para que apenas os detalhes sejam exibidos na coluna (por exemplo, uma coluna estatística).                                                                                                                                                                                                                                      |
 | SD                      | Suprima os detalhes para que apenas as linhas **TOT** e **CAL** (da definição de linha) sejam mostradas na coluna.                                                                                                                                                                                                                              |
-| EL                      | Restrinja os valores em uma coluna **FD** para valores de débito.                                                                                                                                                                                                                                                                              |
+| DR                      | Restrinja os valores em uma coluna **FD** para valores de débito.                                                                                                                                                                                                                                                                              |
 | CR                      | Restrinja os valores em uma coluna **FD** para valores de crédito.                                                                                                                                                                                                                                                                             |
-| ADJ                     | Restrinja os valores na coluna para valores de ajuste de período, se esses valores estiverem disponíveis.                                                                                                                                                                                                                                        |
-| XAD                     | Restrinja os valores na coluna, para que valores de ajuste de período sejam excluídos.                                                                                                                                                                                                                                                     |
-| PT                      | Restrinja os valores na coluna, para que apenas as transações lançadas sejam incluídas, se essas transações estiverem disponíveis.                                                                                                                                                                                                                 |
-| UPT                     | Restrinja os valores na coluna, para que apenas as transações não lançadas sejam incluídas, se essas transações estiverem disponíveis. **Observação:** nem todos os dados são compatíveis com as transações não lançadas. Para obter mais informações, consulte o [guia de integração de dados](http://go.microsoft.com/fwlink/?LinkID=162565) do seu sistema ERP do Microsoft Dynamics. |
+| ADJ                     | Restringe os valores na coluna para excluir os valores de ajuste de período, se esses valores estiverem disponíveis.                                                                                                                                                                                                                                        |
+| XAD                     | Restringe os valores na coluna para excluir os valores de ajuste de período.                                                                                                                                                                                                                                                     |
+| PT                      | Restringe os valores na coluna, para que apenas transações lançadas sejam incluídas, se essas transações estiverem disponíveis.                                                                                                                                                                                                                 |
+| UPT                     | Restringe os valores na coluna, para que apenas transações não lançadas sejam incluídas, se essas transações estiverem disponíveis. **Observação:** nem todos os dados são compatíveis com as transações não lançadas. Para obter mais informações, consulte o [guia de integração de dados](http://go.microsoft.com/fwlink/?LinkID=162565) do seu sistema ERP do Microsoft Dynamics. |
 
-### <a name="restrict-a-column-to-a-reporting-unit"></a>Restringir uma coluna para uma unidade de relatório
+### <a name="restrict-a-column-to-a-reporting-unit"></a>Restringir uma coluna a uma unidade organizacional
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
 2.  Clique duas vezes na célula **Unidade de relatório** para que a coluna seja restringida.
 3.  Na caixa de diálogo **Seleção de unidade de relatório**, na lista **Árvore de relatório**, selecione uma árvore.
 4.  Expanda ou recolha a lista de unidades, selecione uma unidade de relatório e depois clique em **OK**.
 
 ## <a name="format-column-headers"></a>Formatar cabeçalhos de coluna
-Você pode adicionar, modificar e excluir os cabeçalhos que aparecem no topo das colunas de um relatório. Você também pode configurar o campo **Período** das definições de coluna e o campo **Período base** das definições de relatório. O recurso de período base permite economia de tempo ao criar relatórios de previsão contínua.
+É possível adicionar, alterar e excluir os cabeçalhos que aparecem na parte superior das colunas em um relatório. Você também pode configurar o campo **Período** das definições de coluna e o campo **Período base** das definições de relatório. O Período base é um recurso que ajuda a economizar tempo ao criar relatórios de previsão contínua.
 
 ### <a name="create-and-manage-column-headers"></a>Criar e gerenciar cabeçalhos de coluna
 
@@ -134,14 +134,14 @@ Você pode usar a caixa de diálogo **Cabeçalho da coluna** para adicionar, mod
 
 | Campo                 | Descrição                                                                                                                                                                                                                                                                                                              |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Texto do cabeçalho da coluna    | Este texto aparece no cabeçalho da coluna. Você pode digitar o texto diretamente neste campo ou clicar em **Inserir AutoTexto** para selecionar uma opção que atualize o cabeçalho da coluna toda vez que o relatório for gerado. Para incluir vários códigos de AutoTexto, clique em **Inserir AutoTexto** novamente e depois clique em outro código da lista. |
-| Opções de formato        | Aplique formatação a um cabeçalho de coluna, como caixa ou sublinhado.                                                                                                                                                                                                                                                           |
-| Propagar de Propagar para | Defina a coluna ou as colunas a que o texto do cabeçalho se aplica.                                                                                                                                                                                                                                                            |
+| Texto de cabeçalho da coluna    | Esse texto é exibido no cabeçalho da coluna. Você pode digitar o texto diretamente neste campo ou clicar em **Inserir AutoTexto** para selecionar uma opção que atualize o cabeçalho da coluna toda vez que o relatório for gerado. Para incluir vários códigos de AutoTexto, clique em **Inserir AutoTexto** novamente e depois clique em outro código da lista. |
+| Opções de formato        | Aplicar formatação a um cabeçalho de coluna, como caixa ou sublinhado.                                                                                                                                                                                                                                                           |
+| Difundir de Difundir para | Definir a coluna ou colunas às quais o texto do cabeçalho se aplica.                                                                                                                                                                                                                                                            |
 | Justificação         | Especifique como o texto do cabeçalho da coluna deve ser alinhado para a coluna ou intervalo de colunas especificados nos campos **Propagar de** e **Propagar para**.                                                                                                                                                               |
 
 ### <a name="create-a-column-header"></a>Criar um cabeçalho de coluna
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
 2.  Clique duas vezes em uma célula de cabeçalho.
 3.  Na caixa de diálogo **Cabeçalho de coluna**, insira o texto do cabeçalho da coluna. Como alternativa, clique em **Inserir AutoTexto** e selecione uma opção.
 4.  No campo **Opções de formato**, selecione um formato para o cabeçalho.
@@ -151,19 +151,19 @@ Você pode usar a caixa de diálogo **Cabeçalho da coluna** para adicionar, mod
 
 ### <a name="add-a-column-header-row"></a>Adicionar uma linha de cabeçalho de coluna
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
-2.  Selecione uma célula na linha de cabeçalho.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
+2.  Selecionar uma célula na linha de cabeçalho.
 3.  No menu **Editar**, clique em **Inserir linha**. A nova linha é inserida acima da linha que você selecionou na etapa 2. **Observação:** se houver quatro ou mais linhas de cabeçalhos em um relatório, os cabeçalhos se sobreporão quando o relatório for exportado para uma planilha do Excel. Para exibir todos os cabeçalhos no relatório, aumente a margem superior da definição de relatório.
 
 ### <a name="delete-a-column-header-row"></a>Excluir uma linha de cabeçalho de coluna
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
-2.  Na linha do cabeçalho, selecione a célula que será excluída.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
+2.  Selecionar uma célula na linha de cabeçalho para exclusão.
 3.  No menu **Editar**, clique em **Excluir linha**.
 
 ### <a name="create-an-automatically-generated-header"></a>Criar uma cabeçalho gerado automaticamente
 
-O designer de relatórios pode gerar automaticamente cabeçalhos de coluna, com base em códigos de AutoTexto. Os códigos de AutoTexto são variáveis que serão atualizadas toda vez que um relatório for gerado. Qualquer cabeçalho de coluna pode incluir esses códigos para especificar informações de relatório que podem variar, como números de datas ou períodos. Por esse motivo, você pode usar uma definição de coluna para uma variedade de definições de relatório, períodos e árvores de relatório. Como os códigos de AutoTexto dependem de informações do calendário das linhas de detalhe da coluna de definição, eles são compatíveis apenas para as colunas **CALC**, **FD** e **WKS**. A forma como o código de AutoTexto é mostrado no cabeçalho da coluna afeta a forma como essas informações aparecem no relatório. Na caixa de diálogo **Cabeçalho de coluna**, os códigos de AutoTexto aparecem em letras maiúsculas e minúsculas. Portanto, o texto aparece em letras maiúsculas e minúsculas no relatório. Por exemplo, em um ano civil padrão, **@CalMonthLong** converte o mês **7** em **julho**. Se o nome do mês precisa estar em caixa alta (por exemplo, **JULHO**), insira o código de AutoTexto em caracteres minúsculos no campo **Texto do cabeçalho da coluna**. Por exemplo, insira **@CALMONTHLONG**. Você pode combinar código e texto. Por exemplo, você insere o seguinte texto de cabeçalho: **Período @FiscalPeriod-@FiscalYear de @StartDate a @EndDate**. O título do relatório que é gerado se parece com o seguinte texto: **Período 1-02 de 01/01/02 a 31/01/02**. **Observação:** o formato de alguns textos, como o de data completa, depende das configurações regionais no servidor do Finance and Operations. Para alterar essas configurações, clique no botão **Início**, em **Painel de controle** e depois em **Região e idioma**. A seguinte tabela lista as opções de AutoTexto disponíveis para cabeçalhos de coluna.
+O designer de relatórios pode gerar automaticamente cabeçalhos de coluna, com base em códigos de AutoTexto. Os códigos de Autotexto são variáveis atualizadas sempre que um relatório é gerado. Qualquer cabeçalho de coluna pode incluir esses códigos para especificar informações, como número de data ou do período, que podem variar para os relatórios. Consequentemente, você pode usar uma definição de coluna para várias definições de relatório, períodos de tempo hierarquias organizacionais. Como os códigos de AutoTexto dependem de informações do calendário das linhas de detalhe da coluna de definição, eles são compatíveis apenas para as colunas **CALC**, **FD** e **WKS**. A maneira que um código de autotexto é exibida na célula do cabeçalho da coluna afeta como essas informações são exibidas no relatório. Na caixa de diálogo **Cabeçalho de coluna**, os códigos de AutoTexto aparecem em letras maiúsculas e minúsculas. Portanto, o texto aparece em letras maiúsculas e minúsculas no relatório. Por exemplo, em um ano civil padrão, **@CalMonthLong** converte o mês **7** em **julho**. Se o nome do mês precisa estar em caixa alta (por exemplo, **JULHO**), insira o código de AutoTexto em caracteres minúsculos no campo **Texto do cabeçalho da coluna**. Por exemplo, insira **@CALMONTHLONG**. Você pode combinar código e texto. Por exemplo, você insere o seguinte texto de cabeçalho: **Período @FiscalPeriod-@FiscalYear de @StartDate a @EndDate**. O título do relatório que é gerado se parece com o seguinte texto: **Período 1-02 de 01/01/02 a 31/01/02**. **Observação:** o formato de alguns textos, como o de data completa, depende das configurações regionais no servidor do Finance and Operations. Para alterar essas configurações, clique no botão **Início**, em **Painel de controle** e depois em **Região e idioma**. A seguinte tabela lista as opções de AutoTexto disponíveis para cabeçalhos de coluna.
 
 | Opção e código de AutoTexto                | descrição                                                                                                                                                                                                                                                                                      |
 |-----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -182,26 +182,26 @@ O designer de relatórios pode gerar automaticamente cabeçalhos de coluna, com 
 
 ### <a name="create-a-conditional-spanning-header"></a>Criar um cabeçalho de propagação condicional
 
-Um cabeçalho de propagação condicional pode incluir várias colunas que se baseiam em dados de períodos específicos. Por exemplo, se tiver um relatório de orçamento do ano fiscal e quiser exibir os orçamentos reais dos últimos meses juntamente com os orçamentos projetados dos meses futuros, você pode usar um cabeçalho de propagação condicional para atualizar automaticamente o cabeçalho do relatório. Esteja ciente das seguintes situações ao criar um cabeçalho de propagação condicional:
+Os cabeçalhos de medida condicionais podem abranger várias colunas com base em dados específicos do período. Por exemplo, se você tiver um relatório de orçamento para o ano fiscal e desejar exibir os orçamentos reais dos meses passados junto com os orçamentos projetados dos meses futuros, é possível usar um cabeçalho de medida condicional para atualizar automaticamente o cabeçalho do relatório. Lembre-se das seguintes situações ao criar um cabeçalho de medida condicional:
 
--   Qualquer condição de parada (campo **Propagar para**) que seja correspondente antes que uma condição de início (campo **Propagar de**) seja ignorada. Por exemplo, a coluna B tem uma condição de propagação definida como BASE+1 para BASE; BASE está na coluna C e BASE+1 está na coluna D. Nesse caso, a condição de parada na coluna C é ignorada, e a impressão do cabeçalho começa na coluna D.
--   Se especificar cabeçalhos de coluna que se sobreponham, eles vão se sobrepor quando forem impressos no relatório. O relatório será gerado, mas o seguinte aviso aparecerá no campo **Status da Fila de Relatórios**: “Os cabeçalhos de coluna usando Base fazem interseção com outros cabeçalhos de coluna e talvez causem sobreposição de texto”. Por exemplo, a definição de cabeçalho da coluna B é B para BASE+1 e a definição de cabeçalho da coluna D é BASE+1 para F. Nesse caso, os cabeçalhos são impressos na parte superior um do outro e são ilegíveis. Sempre que BASE for usado em uma definição **Propagar de/Propagar para**, certifique-se de exibir o relatório que é gerado para verificar se há sobreposição de cabeçalhos.
+-   Qualquer condição de parada (campo **Propagar para**) que seja correspondente antes que uma condição de início (campo **Propagar de**) seja ignorada. Por exemplo, se a coluna B tiver a condição de propagação definida como BASE+1 até BASE, e se BASE estiver na coluna C e BASE+1 na coluna D. Neste caso, a condição de parada na coluna C é ignorada e a impressão do cabeçalho começa na coluna D.
+-   Se você especificar os cabeçalhos de coluna que se sobrepõem, eles serão impressos de forma sobreposta no relatório. O relatório será gerado, mas o seguinte aviso aparecerá no campo **Status da Fila de Relatórios**: “Os cabeçalhos de coluna usando Base fazem interseção com outros cabeçalhos de coluna e talvez causem sobreposição de texto”. Por exemplo, a definição de cabeçalho da coluna B é B para BASE+1 e a definição de cabeçalho da coluna D é BASE+1 para F. Nesse caso, os cabeçalhos são impressos na parte superior um do outro e são ilegíveis. Sempre que BASE for usado em uma definição **Propagar de/Propagar para**, certifique-se de exibir o relatório que é gerado para verificar se há sobreposição de cabeçalhos.
 -   Se especificar BASE na definição propagada em uma coluna (**NP**) sem impressão, ela é ignorada, independentemente do que é definido na coluna de definição. Basicamente, esse cenário é o mesmo que não criar uma definição do cabeçalho da coluna.
--   Em colunas de impressão condicionais (**P&lt;B**, **P&gt;=B**), os cabeçalhos de propagação condicionais comportam-se como qualquer definição de cabeçalho de coluna. Por exemplo, se as condições forem falsas, qualquer correspondência de coluna subsequente da condição propagada inicia a impressão do cabeçalho.
+-   Em colunas de impressão condicionais (**P&lt;B**, **P&gt;=B**), os cabeçalhos de propagação condicionais comportam-se como qualquer definição de cabeçalho de coluna. Por exemplo, se a condição for falsa, toda a correspondência subsequente de coluna para a condição de propagação inicia a impressão de cabeçalho.
 
-#### <a name="create-a-conditional-spanning-header"></a>Criar um cabeçalho de propagação condicional
+#### <a name="create-a-conditional-spanning-header"></a>Criar um cabeçalho de medida condicional
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
 2.  Clique duas vezes em uma célula de cabeçalho.
 3.  Na caixa de diálogo **Cabeçalho de coluna**, insira o texto do cabeçalho da coluna. Como alternativa, clique em **Inserir AutoTexto** e selecione uma opção.
 4.   No campo **Opções de formato**, selecione um estilo de formatação para o cabeçalho.
-5.  Especifique um período relativo ao período base que é especificado quando o relatório é gerado. Nos campos **Propagar de** e **Propagar para**, insira um dos seguintes valores: **BASE**, **BASE-X** ou **BASE+X**, onde X é o número dos períodos do período base. Por exemplo, se inserir **BASE** no campo **Propagar de**, o texto do cabeçalho da coluna de propagação condicional começará no cabeçalho da coluna onde o valor **Período base** da definição de relatório é igual ao valor **Período** da definição de coluna. Terminará na coluna que é indicada no campo **Propagar de**. Por isso, se o propagado for BASE para M e o valor **Período base** da definição de relatório for **4**, o cabeçalho começará na coluna onde o período é definido como **4** e terminará na coluna M. Os cabeçalhos param e começam a imprimir somente as colunas.
+5.  Especificar um período relativo ao período base que é especificado quando o relatório é gerado. Nos campos **Propagar de** e **Propagar para**, insira um dos seguintes valores: **BASE**, **BASE-X** ou **BASE+X**, onde X é o número dos períodos do período base. Por exemplo, se inserir **BASE** no campo **Propagar de**, o texto do cabeçalho da coluna de propagação condicional começará no cabeçalho da coluna onde o valor **Período base** da definição de relatório é igual ao valor **Período** da definição de coluna. Terminará na coluna que é indicada no campo **Propagar de**. Por isso, se o propagado for BASE para M e o valor **Período base** da definição de relatório for **4**, o cabeçalho começará na coluna onde o período é definido como **4** e terminará na coluna M. Os cabeçalhos param e começam a imprimir somente as colunas.
 6.  Em **Justificação**, decida se o texto do cabeçalho da coluna deve ser justificado à esquerda, no centro ou à direita.
 7.  Clique em **OK**.
 
-#### <a name="example-of-a-conditional-spanning-header"></a>Exemplo de um cabeçalho de propagação condicional
+#### <a name="example-of-a-conditional-spanning-header"></a>Exemplo de um cabeçalho de medida condicional
 
-Flávia está criando um relatório para uma previsão dinâmica de seus meses. Ela deseja que a palavra "Real" seja impressa nas colunas que contêm dados reais e a palavra "Orçamento" seja impressa nas colunas que contêm previsões de orçamento. Em cada mês que o relatório é executado, não há mais coluna real e uma coluna a menos de orçamento. Embora Flávia possa modificar a definição de coluna manualmente toda vez que o relatório é gerado para ajustar os cabeçalhos, para poupar tempo e esforço, ela opta por criar cabeçalhos de propagação condicionais que criarão automaticamente cabeçalhos nas colunas apropriadas sempre que o relatório for executado. Flávia abre o Report Designer, clica em **Definição de coluna** no painel de navegação e abre a definição de coluna do report. Depois, ela insere as seguintes informações. O período base na definição de relatório é 4.
+Phyllis está criando um relatório para uma previsão de seis meses dinâmica. Ela deseja que a palavra "Real" seja impressa nas colunas que contiverem dados reais, e a palavra "Orçamento" seja impressa nas colunas que contiverem previsões de orçamento. Cada mês em que o relatório é executado, há uma coluna real a mais e uma coluna de orçamento a menos. Phyllis pode alterar a definição de coluna manualmente cada vez que o relatório é gerado para ajustar os cabeçalhos, mas ela decide economizar tempo e esforço, e criar os cabeçalhos de medida condicionais que criarão automaticamente os cabeçalhos sobre as colunas apropriadas cada vez que o relatório for executado. Flávia abre o Report Designer, clica em **Definição de coluna** no painel de navegação e abre a definição de coluna do report. Ela então insere as informações a seguir. O período base na definição de relatório é 4.
 
 |                     | A    | B             | C             | D             | E             | S             | G             | A             | I             | J             | K             | G             | S             |
 |---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
@@ -209,10 +209,10 @@ Flávia está criando um relatório para uma previsão dinâmica de seus meses. 
 | Cabeçalho 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
 | Cabeçalho 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
 | Tipo de coluna         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
-| Código do livro/atributo |      | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    | ACTUAL        | BUDGET2012    |
+| Código do livro/atributo |      | ACTUAL        | ORÇAMENTO2012    | ACTUAL        | ORÇAMENTO2012    | ACTUAL        | ORÇAMENTO2012    | ACTUAL        | ORÇAMENTO2012    | ACTUAL        | ORÇAMENTO2012    | ACTUAL        | ORÇAMENTO2012    |
 | Ano fiscal         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
 | Período              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
-| Período coberto     |      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      |
+| Períodos cobertos     |      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      |
 | Largura da coluna        | 30   | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            | 10            |
 | Controle de impressão       |      | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        | P&lt;=B       | P&gt;B        |
 
@@ -220,31 +220,31 @@ Flávia clica duas vezes no cabeçalho de uma coluna para abrir a caixa de diál
 
 | Campo              | Valor                 |
 |--------------------|-----------------------|
-| Texto do cabeçalho da coluna | Real                |
-| Inserir AutoTexto    | Nenhuma seleção é feita. |
+| Texto de cabeçalho da coluna | Real                |
+| Inserir AutoTexto    | Nenhuma seleção feita. |
 | Opções de formato     | Caixa                   |
-| Justificação      | Nenhuma seleção é feita. |
-| Propagar de        | B                     |
-| Propagar para          | BASE                  |
-| Cabeçalho de orçamento      | BASE+1 para terminar a coluna  |
+| Justificação      | Nenhuma seleção feita. |
+| Difundir de        | B                     |
+| Difundir para          | BASE                  |
+| Cabeçalho de orçamento      | BASE+1 até a coluna final  |
 
 Depois de finalizar o registro de informações, Flávia clica em **OK**. Em seguida, ela clica duas vezes no cabeçalho da coluna C para abrir a caixa de diálogo **Cabeçalho de coluna**, na qual insere as seguintes informações.
 
 | Campo              | Valor                 |
 |--------------------|-----------------------|
-| Texto do cabeçalho da coluna | Orçamento                |
-| Inserir AutoTexto    | Nenhuma seleção é feita. |
+| Texto de cabeçalho da coluna | Orçamento                |
+| Inserir AutoTexto    | Nenhuma seleção feita. |
 | Opções de formato     | Caixa                   |
-| Justificação      | Nenhuma seleção é feita. |
-| Propagar de        | C                     |
-| Propagar para          | BASE+2                |
+| Justificação      | Nenhuma seleção feita. |
+| Difundir de        | C                     |
+| Difundir para          | BASE+2                |
 
-Agora, toda vez que esse relatório for gerado, a palavra "Actual" será impressa nas colunas que contêm dados reais e a palavra "Budget", nas colunas que contêm previsões de orçamento. Além disso, o número de colunas será ajustado mensalmente.
+Agora, toda vez que esse relatório é gerado, a palavra "Real" será impressa nas colunas que contiverem dados reais, e a palavra "Orçamento" será impressa nas colunas que contiverem previsões de orçamento. Além disso, o número das colunas será ajustado cada mês.
 
-## <a name="apply-column-justification"></a>Aplicar justificação de coluna
-A célula **Justificação** é usada para aplicar formatação de justificação a uma coluna de descrição em um relatório. Essa opção afeta apenas as descrições da coluna, não os valores reais.
+## <a name="apply-column-justification"></a>Aplicar a justificação de coluna
+A célula **Justificação** é usada para aplicar formatação de justificação a uma coluna de descrição em um relatório. Esta opção afeta somente as descrições da coluna, não os valores reais.
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
 2.  Clique duas vezes na célula **Justificação**.
 3.  Selecione um dos seguintes valores na lista:
     -   **Nenhuma** – Nenhuma justificação é aplicada.
@@ -252,61 +252,61 @@ A célula **Justificação** é usada para aplicar formatação de justificaçã
     -   **Centro** – Alinhe as descrições da coluna no centro.
     -   **Direita** – Alinhe as descrições da coluna à direita.
 
-## <a name="add-special-formatting-options"></a>Adicionar opções de formatação especial
-Na definição de coluna, as linhas de detalhes da coluna de formatação aplicam-se a formatação especial para colunas selecionadas. Embora algumas das opções de **Controle de impressão** e **Restrições de coluna** sejam específicas para as colunas **FD**, a maioria das opções se aplicam a todos os tipos de colunas. A formatação que é especificada na definição de coluna substitui a formatação que é especificada na definição de relatório. No entanto, a formatação que é especificada na definição de linha substitui a formatação que é especificada na definição de coluna. As seguintes linhas são consideradas linhas de formatação:
+## <a name="add-special-formatting-options"></a>Adicionar opções de formatação especiais
+Na definição de coluna, as linhas de detalhes da coluna de formatação aplicam a formatação especial nas colunas selecionadas. Embora algumas das opções de **Controle de impressão** e **Restrições de coluna** sejam específicas para as colunas **FD**, a maioria das opções se aplicam a todos os tipos de colunas. A formatação especificada na definição de linha substitui a formatação especificada na definição da coluna e do relatório. Entretanto, a formatação especificada na definição de linha substitui a formatação especificada na definição da coluna. As linhas a seguir são consideradas linhas de formatação:
 
--   Largura da coluna
--   Espaços adicionais antes da coluna
+-   Largura da Coluna
+-   Espaços Extras Antes da Coluna
 -   Substituição de formato/moeda
 -   Controle de impressão
 
-### <a name="changing-the-column-width"></a>Alteração da largura da coluna
+### <a name="changing-the-column-width"></a>Alterando a largura da coluna
 
 A célula **Largura da coluna** especifica o número de caracteres que serão usados na largura dessa coluna no relatório impresso. A largura da coluna é importante para colunas que contêm valores (colunas do tipo **CALC**, **WKS** ou **FD**), descrições (colunas do tipo **DESC**) ou preenchimento (colunas do tipo **FILL**). A opção **AutoFit** é selecionada por padrão, para que a largura de cada coluna seja automaticamente ajustada para se adequar ao conteúdo.
 
 #### <a name="specify-the-width-of-a-column-on-a-report"></a>Especificar a largura de uma coluna em um relatório
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
 2.  Na célula **Largura da coluna**, insira o número de espaços da largura da coluna. A largura máxima de qualquer coluna é 255 caracteres (esse número inclui centavos, vírgulas e parênteses). Como alternativa, para habilitar o designer de relatórios para selecionar a largura apropriada para a coluna, com base no conteúdo da célula, clique duas vezes na célula **Largura da Coluna** e, em seguida, clique em **AutoAjuste**.
 
-### <a name="add-space-between-columns"></a>Adicionar espaço entre colunas
+### <a name="add-space-between-columns"></a>Adicionar espaços entre colunas
 
-A célula **Espaços adicionais antes da coluna** especifica a largura do separador entre uma coluna e as colunas adjacentes na definição da coluna. A configuração **Espaços adicionais antes da coluna** afeta todas as linhas de detalhe da coluna, mas não as linhas de cabeçalho da coluna. Use essa opção para separar grupos de colunas ou adicionar alguns espaços antes da descrição, para que a coluna de descrição seja recuada nos títulos alinhados à esquerda no relatório. O número padrão dos espaços entre cada coluna é dois. Você pode alterar essa configuração na guia **Configurações** na definição de relatório.
+A célula **Espaços adicionais antes da coluna** especifica a largura do separador entre uma coluna e as colunas adjacentes na definição da coluna. A configuração **Espaços adicionais antes da coluna** afeta todas as linhas de detalhe da coluna, mas não as linhas de cabeçalho da coluna. Use essa opção para separar grupos de colunas ou adicionar alguns espaços antes da descrição, de modo que a coluna de descrição seja recuada a partir dos títulos alinhados à esquerda que estão no relatório. O número padrão de espaços entre cada coluna é dois. Você pode alterar essa configuração na guia **Configurações** na definição de relatório.
 
 #### <a name="specify-the-space-between-columns"></a>Especificar o espaço entre as colunas
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
 2.  Na célula **Espaços adicionais antes da coluna**, insira o número dos espaços que serão colocados entre as colunas.
 
 ### <a name="specify-a-currency"></a>Especificar uma moeda
 
-A célula **Substituição de formato/moeda** especifica a formatação dos valores decimais, monetários e percentuais na coluna. Essa formatação substitui qualquer formatação especificada na definição de relatório e nos padrões de sistema.
+A célula **Substituição de formato/moeda** especifica a formatação dos valores decimais, monetários e percentuais na coluna. Essa formatação substitui qualquer formatação que esteja especificada na definição de relatório ou padrões de sistema.
 
-#### <a name="assign-a-format-currency-override-to-a-report-column"></a>Atribuir um substituição de formato/moeda a uma coluna de relatório
+#### <a name="assign-a-format-currency-override-to-a-report-column"></a>Atribuir uma substituição de formato de moeda a uma coluna do relatório
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
-2.  Clique duas vezes na célula **Substituição de formato/moeda** em uma coluna de valor.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
+2.  Clique duas vezes em uma célula **Substituição de formato/moeda** em uma coluna de valor.
 3.  Na caixa de diálogo **Substituição de formato**, selecione as opções de formatação.
 
 ### <a name="add-a-print-control-code"></a>Adicionar um código de controle de impressão
 
-A célula **Controle de impressão** pode conter códigos que ajustam a exibição ou as características de impressão de uma coluna. Há dois tipos de códigos de controle de impressão: códigos de controle de impressão regulares e condicionais.
+A célula **Controle de impressão** pode conter códigos que ajustam a exibição ou as características de impressão de uma coluna. Há dois tipos de códigos de controle de impressão: códigos de controle de impressão comuns e condicionais.
 
-#### <a name="regular-print-control-codes"></a>Códigos de controle de impressão regulares
+#### <a name="regular-print-control-codes"></a>Códigos comuns de controle de impressão
 
-| Códigos de controle de impressão | Tradução                                     | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Código de controle de impressão | Tradução                                     | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |--------------------|-------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| NP                 | Sem impressão                                     | Exclua os valores nessa coluna do relatório que é impresso e dos cálculos. Para incluir uma coluna sem impressão em um cálculo, indique a coluna diretamente na fórmula de cálculo. Por exemplo, a coluna C sem impressão é incluída no seguinte cálculo: **B+C+D**. No entanto, a coluna C sem impressão não é incluída no seguinte cálculo: **B:D**.                                                                                                                                          |
-| XCR                | Alterar sinal se o saldo típico da linha for crédito | Crie um relatório de orçamento ou comparativo no qual qualquer variação desfavorável (como um déficit de receita ou excesso de despesas) é sempre negativa. Aplique este código a uma coluna **CALC** para reverter o sinal do valor da coluna se o saldo típico de uma determinada linha for crédito (como identificado por um **C** na coluna **Saldo normal** da definição da linha). **Observação:** para as linhas **TOT** e **CAL** que geralmente contêm um saldo de crédito, certifique-se de inserir o **C** na coluna **Saldo normal** na definição da coluna. |
-| X0                 | Suprimir coluna se só houver zeros ou espaços em branco          | Exclua uma coluna **FD** do relatório se todas as células na coluna estiverem vazias ou contiverem zeros.                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| SR                 | Suprimir arredondamento                               | Evite que os valores dessa coluna sejam arredondados.                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| XR                 | Suprimir acúmulo                                 | Suprima um acúmulo. Se o relatório usa uma árvore de relatório, os valores nessa coluna não são acumulados em nós pai subsequentes.                                                                                                                                                                                                                                                                                                                                                                                                   |
-| RP                 | Repetir coluna em cada página                      | Repita uma coluna especificada em cada página de um relatório. Por exemplo, você pode usar o código de controle de impressão **RP** para incluir uma coluna do tipo **ROW** que reúne códigos de linha em todas as páginas.                                                                                                                                                                                                                                                                                                                                           |
-| WT                 |  Texto de quebra automática                                      |  Se o texto em uma coluna for longo demais para se ajustar ao espaço, faça a quebra automática de texto para manter todo o texto na coluna.                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| NP                 | Não imprimível                                     | Impede que os valores dessa coluna sejam impressos no relatório e nos cálculos. Para incluir uma coluna não imprimível em um cálculo, consulte a coluna diretamente na fórmula do cálculo. Por exemplo, a coluna C sem impressão é incluída no seguinte cálculo: **B+C+D**. No entanto, a coluna C sem impressão não é incluída no seguinte cálculo: **B:D**.                                                                                                                                          |
+| XCR                | Alterar o sinal se o saldo típico da linha for crédito | Cria um orçamento, ou um relatório comparativo, no qual uma variação desfavorável (como um déficit de receita ou uma despesa excedente) é sempre negativa. Aplique este código a uma coluna **CALC** para reverter o sinal do valor da coluna se o saldo típico de uma determinada linha for crédito (como identificado por um **C** na coluna **Saldo normal** da definição da linha). **Observação:** para as linhas **TOT** e **CAL** que geralmente contêm um saldo de crédito, certifique-se de inserir o **C** na coluna **Saldo normal** na definição da coluna. |
+| X0                 | Suprimir a coluna se todas as células contiverem zero ou estiverem em branco          | Exclua uma coluna **FD** do relatório se todas as células na coluna estiverem vazias ou contiverem zeros.                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| SR                 | Suprimir arredondamento                               | Impede que os valores dessa coluna sejam arredondados.                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
+| XR                 | Suprimir acúmulo                                 | Suprime um acúmulo. Se o relatório usa uma hierarquia organizacional, os valores dessa coluna não são acumulados em nós pais subsequentes.                                                                                                                                                                                                                                                                                                                                                                                                   |
+| RP                 | Repetir a coluna em cada página                      | Repete uma coluna especificada em cada página de um relatório. Por exemplo, você pode usar o código de controle de impressão **RP** para incluir uma coluna do tipo **ROW** que reúne códigos de linha em todas as páginas.                                                                                                                                                                                                                                                                                                                                           |
+| WT                 |  Quebrar texto                                      |  Se o texto em uma coluna for muito longo para se ajustar ao espaço, quebre o texto para mantê-lo inteiro na coluna.                                                                                                                                                                                                                                                                                                                                                                                                                            |
 
-#### <a name="conditional-print-control-codes"></a>Códigos de controle de impressão condicionais
+#### <a name="conditional-print-control-codes"></a>Códigos condicionais de controle de impressão
 
-| Código de controle de impressão condicional | descrição                                                                             |
+| Código condicional de controle de impressão | descrição                                                                             |
 |--------------------------------|-----------------------------------------------------------------------------------------|
 | (nenhum)                         | Desmarque a seleção de impressão condicional.                                                  |
 | P&lt;B                         | Exiba uma coluna especifica apenas se os períodos forem inferiores ao período base.             |
@@ -315,26 +315,26 @@ A célula **Controle de impressão** pode conter códigos que ajustam a exibiç�
 | P&lt;=B                        | Exiba uma coluna especifica apenas se os períodos forem inferiores ou iguais ao período base. |
 | P&gt;=B                        | Exiba uma coluna especifica apenas se os períodos forem maiores ou iguais ao período base. |
 
-#### <a name="add-print-control-codes-to-a-report-column"></a>Adicionar códigos de controle de impressão a uma coluna do relatório
+#### <a name="add-print-control-codes-to-a-report-column"></a>Adicionar códigos de controle de impressão em uma coluna do relatório
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
 2.  Clique duas vezes na célula **Controle de impressão**.
 3.  Na caixa de diálogo **Controle de impressão**, selecione um código na lista **Selecionar opções de controle de impressão**. Para selecionar mais de um código, mantenha a tecla CTRL pressionada enquanto seleciona os códigos.
-4.  Selecione uma opção no campo **Opções de impressão condicionais**. Por padrão, **(nenhuma)** está selecionada. Você pode selecionar somente um código de impressão condicional de cada vez.
+4.  Selecione uma opção no campo **Opções de impressão condicionais**. Por padrão, **(nenhum)** é selecionado. Você pode selecionar somente um código de impressão condicional de cada vez.
 5.  Clique em **OK**.
 
 > [!TIP]
-> Também é possível inserir os códigos de impressão diretamente na célula **Controle de Impressão**. Separe vários códigos de controle de impressão com vírgula.
+> Também é possível inserir os códigos de impressão diretamente na célula **Controle de Impressão**. Separe os diversos códigos de controle de impressão por vírgulas.
 
 
 ## <a name="column-types"></a>Tipos de coluna
-O tipo de informações que cada coluna em um relatório inclui é especificado pelo valor na linha **Tipo de coluna** na definição de coluna. Cada definição de coluna deve conter pelo menos uma coluna de descrição (**DESC**) e uma coluna de valor (**FD**, **WKS** ou **CALC**). **Observação:** os códigos do tipo de coluna não se aplicam a todos os sistemas de contabilidade. Se selecionar um tipo que não é válido para seu sistema de contabilidade, essa coluna ficará em branco no relatório.
+O tipo de informações que cada coluna em um relatório inclui é especificado pelo valor na linha **Tipo de coluna** na definição de coluna. Cada definição de coluna deve conter pelo menos uma coluna de descrição (**DESC**) e uma coluna de valor (**FD**, **WKS** ou **CALC**). **Observação:** os códigos do tipo de coluna não se aplicam a todos os sistemas de contabilidade. Se você selecionar um tipo que não é válido com o sistema contábil, essa coluna aparece em branco no relatório.
 
-### <a name="specify-a-column-type"></a>Especificar um tipo de coluna
+### <a name="specify-a-column-type"></a>Especifique um tipo de coluna
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
 2.  Na coluna apropriada, clique duas vezes na célula na linha **Tipo de coluna**.
-3.  Selecione um tipo de coluna na lista. A tabela a seguir descreve os vários tipos de coluna.
+3.  Selecione um tipo de colina a partir da lista. A tabela a seguir descreve os vários tipos de colunas.
     <table>
     <colgroup>
     <col width="50%" />
@@ -349,15 +349,15 @@ O tipo de informações que cada coluna em um relatório inclui é especificado 
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>Exiba os dados financeiros ou dados de uma planilha do Excel ao usar uma coluna <strong>Link para Dimensões Financeiras</strong> ou uma coluna <strong>Link para Planilha</strong> na definição da linha. Ao selecionar um tipo de coluna <strong>FD</strong>, as configurações padrão serão automaticamente especificadas para as seguintes linhas: <ul>
-    <li><strong>Código do livro/categoria do atributo:</strong> ACTUAL</li>
-    <li><strong>Código do livro/categoria do atributo:</strong> ACTUAL</li>
+    <td>Exibe dados financeiros ou para exibir dados de uma planilha do Excel quando você usa uma coluna <strong>Vincular a dimensões financeiras</strong> ou uma coluna <strong>Vincular à planilha</strong> na definição da linha. Quando você seleciona o tipo de coluna <strong>FD</strong>, as configurações padrão são especificadas automaticamente nas linhas a seguir: <ul>
+    <li><strong>Código do cenário/Categoria de atributo:</strong> ACTUAL</li>
+    <li><strong>Código do cenário/Categoria de atributo:</strong> ACTUAL</li>
     <li><strong>Ano fiscal:</strong> BASE</li>
     <li><strong>Período:</strong> BASE</li>
     <li><strong>Períodos cobertos:</strong> PERIODIC</li>
     <li><strong>Largura da coluna:</strong> 14</li>
     </ul>
-Você pode alterar essas configurações padrão.</td>
+Essas configurações padrão podem ser alteradas.</td>
     </tr>
     <tr class="even">
     <td>CALC</td>
@@ -365,48 +365,48 @@ Você pode alterar essas configurações padrão.</td>
     </tr>
     <tr class="odd">
     <td>DESC</td>
-    <td>Exiba a descrição da linha da definição de linha. Embora a coluna de descrição geralmente seja a primeira coluna no relatório, ela pode estar em qualquer posição.</td>
+    <td>Exiba a descrição da linha da definição de linha. Embora a coluna de descrição se geralmente a primeira coluna no relatório, ela pode estar em qualquer posição.</td>
     </tr>
     <tr class="even">
-    <td>LINHA</td>
+    <td>ROW</td>
     <td>Exiba os códigos de linhas individuais das linhas financeiras da coluna <strong>Código de linha</strong> na definição de linha. Para obter mais informações, consulte <a href="row-definitions-financial-reporting.md">Definições de linha no relatório financeiro</a>.</td>
     </tr>
     <tr class="odd">
     <td>ACCT (Códigos de conta)</td>
-    <td>Exiba os valores de segmento ou dimensão dos dados financeiros que se aplicam a cada linha. Para relatórios de detalhes de conta e transação, a conta totalmente qualificada será impressa (por exemplo, <strong>110140-070-0101</strong>). Se intervalos foram especificados na coluna <strong>Link para Dimensões Financeiras</strong> em uma definição de linha associada, o intervalo é colocado entre colchetes e é tratado como um valor único (por exemplo, <strong>[110140:110700]-070-[0101:0200]</strong>). Para relatórios financeiros e relatórios de alto nível que consistem em uma combinação de várias contas, o link para os dados financeiros da definição de linha é impresso (por exemplo, <strong>1100:1200</strong>).</td>
+    <td>Exiba os valores de segmento ou dimensão dos dados financeiros que se aplicam a cada linha. Para relatórios de conta e de detalhes da transação, a conta totalmente qualificada é impressa (por exemplo, <strong>110140-070-0101</strong>). Se os intervalos foram especificados na coluna <strong>Vincular a dimensões financeiras</strong> em uma definição de linha associada, eles serão incluídos em colchetes e são tratados como se fossem um valor único (por exemplo, <strong>[110140:110700]-070-[0101:0200]</strong>). Como os relatórios financeiros e de alto nível que são uma combinação de várias contas, o link de dados financeiros da definição de linha é impresso (por exemplo, <strong>1100:1200</strong>).</td>
     </tr>
     <tr class="even">
     <td>FILL</td>
-    <td>Preencha a célula com um caractere que você coloca entre aspas simples. Se não inserir um caractere, a coluna ficará vazia. Por exemplo, para preencher uma coluna com reticências (...), insira <strong>FILL</strong> <strong>'.'</strong>.</td>
+    <td>Preenche a célula com um caractere que é incluído entre aspas simples. Se você não inserir um caractere, a coluna ficará em branco. Por exemplo, para preencher uma coluna com reticências (...), insira <strong>FILL</strong> <strong>'.'</strong>.</td>
     </tr>
     <tr class="odd">
     <td>PAGE</td>
-    <td>Insira uma quebra de página vertical no relatório. As colunas que estão à direita da coluna <strong>PAGE</strong> aparecem em uma página diferente.</td>
+    <td>Insere uma quebra de página vertical no relatório. As colunas que estão à direita da coluna <strong>PAGE</strong> aparecem na coluna em uma página diferente.</td>
     </tr>
     <tr class="even">
     <td>WKS</td>
-    <td>Exiba os dados que são obtidos de uma planilha do Excel. Ao selecionar um tipo de coluna <strong>WKS</strong>, as configurações padrão serão automaticamente especificadas para as seguintes linhas: <ul>
-    <li><strong>Ano fiscal:</strong> PERIODIC</li>
+    <td>Exibe os dados que são recebidos de uma planilha do Excel. Quando você seleciona o tipo de coluna <strong>WKS</strong>, as configurações padrão são especificadas automaticamente nas linhas a seguir: <ul>
+    <li><strong>Ano Fiscal:</strong> PERIODIC</li>
     <li><strong>Período:</strong> BASE</li>
     </ul>
-Você pode alterar essas configurações padrão.</td>
+Essas configurações padrão podem ser alteradas.</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>
-    <td>Se seu sistema de contabilidade for compatível com atributos, exiba um atributo de conta ou transação na coluna. Um atributo, que deve se aplicar a uma única conta completa, extrai as informações de contas e transações subjacentes dos dados financeiros. Atributos de nível de conta exibem dados da conta e atributos de nível de transação exibem dados do momento em que a transação foi lançada. Se selecionar <strong>ATTR</strong> como o tipo de coluna, especifique a categoria do atributo na linha de detalhes <strong>Código do livro/categoria do atributo</strong> da definição de coluna.</td>
+    <td>Se o seu sistema contábil oferece suporte aos atributos, exiba um atributo da conta ou transação na coluna. Um atributo, que deve ser aplicado a uma única conta total, extrai as informações da conta ou transação subjacente dos dados financeiros. Os atributos no nível da conta exibem dados da conta e atributos no nível da transação exibem dados que ocorrem no momento em que a transação é lançada. Se você selecionas <strong>ATTR</strong> como tipo de coluna, especifique a categoria de atributo na linha do detalhe <strong>Categoria do atributo</strong> na definição de coluna.</td>
     </tr>
     </tbody>
     </table>
 
-### <a name="financial-dimensions-column"></a>Coluna Dimensões financeiras
+### <a name="financial-dimensions-column"></a>Coluna de dimensões financeiras
 
 As seguintes definições da linha **Definição de coluna** aplicam-se às colunas com um tipo de coluna de **FD** (valores de dimensões financeiras).
 
-#### <a name="book-codeattribute-category-cell"></a>Célula Código do livro/categoria do atributo
+#### <a name="book-codeattribute-category-cell"></a>Célula Código do Cenário/Categoria de Atributo
 
-A célula **Código do livro/categoria do atributo** identifica o código do livro da data na coluna **FD**. Uma definição de coluna pode incluir várias colunas reais, orçamentárias e estatísticas. Uma definição de coluna também pode exibir diferentes períodos, como atuais ou do ano, e diferentes valores. A lista de códigos de livro reflete as opções reais, orçamentárias e estatísticas (não financeiras) que foram estabelecidas nos seus dados financeiros.
+A célula **Código do livro/categoria do atributo** identifica o código do livro da data na coluna **FD**. Uma definição de coluna pode incluir várias colunas atuais, de orçamento e estatística. Uma definição de coluna também exibe diferentes períodos, como a data atual ou o acumulado no ano, e valores diferentes. A lista de códigos de livro reflete as opções reais, orçamentárias e estatísticas (não financeiras) que foram estabelecidas nos seus dados financeiros.
 
-#### <a name="fiscal-year-cell"></a>Célula Ano fiscal
+#### <a name="fiscal-year-cell"></a>Célula Ano Fiscal
 
 A célula **Ano fiscal** identifica o ano fiscal que a coluna deve incluir. O ano pode ser relativo ao ano base que é especificado quando o relatório é gerado. As opções a seguir estão disponíveis.
 
@@ -433,11 +433,11 @@ A célula **Período** identifica os períodos fiscais que a coluna deve incluir
 | \#              | Sempre use um número de período específico. Não recomendamos o uso dessa opção, porque ela reduz a flexibilidade da definição de coluna.                                                                                       |
 | \#:\#           | Sempre use um intervalo específico de períodos. Não recomendamos o uso dessa opção, porque ela reduz a flexibilidade da definição de coluna.                                                                                    |
 
-Além de combinar os anos em um intervalo de período, você pode ir além dos limites do ano fiscal em qualquer uma das especificações de período. Por exemplo, você pode especificar os períodos como **BASE-5** (para representar os últimos seis períodos) e executar um relatório base de 2. Nesse caso, o relatório mostra os dados dos primeiros dois períodos do ano fiscal especificado e dos últimos quatro períodos do ano fiscal anterior.
+Você pode ultrapassar os limites do ano fiscal em qualquer uma das especificações de período e pode misturar anos em um intervalo de períodos. Por exemplo, você pode especificar os períodos como **BASE-5** (para representar os últimos seis períodos) e executar um relatório base de 2. Nesse caso, o relatório mostra os dados dos primeiros dois períodos do ano fiscal especificado e dos últimos quatro períodos do ano fiscal anterior.
 
-### <a name="specify-the-periods-for-an-fd-column"></a>Especificar os períodos de uma coluna FD
+### <a name="specify-the-periods-for-an-fd-column"></a>Especificar os períodos para uma coluna FD
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
 2.  Em uma coluna **FD**, clique duas vezes na célula na linha **Período** e depois selecione uma opção na lista.
 3.  Na barra da fórmula acima do painel de navegação ou na célula **Período**, complete a fórmula. Substitua qualquer sinal numérico (\#) com o valor apropriado.
 
@@ -447,39 +447,39 @@ A célula **Período coberto** identifica o valor que a coluna deve exibir. Esse
 
 | Opção      | Descrição                                                                 |
 |-------------|-----------------------------------------------------------------------------|
-| PERIODIC    | Exiba a soma da atividade do período atual ou intervalo de períodos. |
-| PERIODIC/BB | Exiba o saldo inicial do período atual ou intervalo de períodos.   |
-| YTD         | Exiba a soma da atividade do ano.                               |
-| YTD/BB      | Exiba o saldo inicial do ano.                                 |
+| PERIODIC    | Exibe a soma da atividade do período atual ou do intervalo de períodos. |
+| PERIODIC/BB | Exibe o saldo inicial do período atual ou do intervalo de períodos.   |
+| YTD         | Exibe a soma da atividade do acumulado no ano.                               |
+| YTD/BB      | Exibe o saldo inicial do ano.                                 |
 
-### <a name="specify-the-periods-that-are-covered-for-an-fd-column"></a>Especificar os períodos cobertos de uma coluna FD
+### <a name="specify-the-periods-that-are-covered-for-an-fd-column"></a>Especifica os períodos cobertos para uma coluna FD
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
 2.  Em uma coluna **FD**, clique duas vezes na célula na linha **Período coberto** e depois selecione uma opção na lista.
 
-### <a name="attribute-filter-in-a-column-definition"></a>Atribuir filtro em uma definição de coluna
+### <a name="attribute-filter-in-a-column-definition"></a>Filtro de atributo em uma definição de coluna
 
-Atributos são valores de dados financeiros que definem ainda mais uma conta ou transação. Os atributos da conta incluem **Ativo**, **Passivo**, **Receita** e **Despesa**. Os atributos da transação incluem **Descrição da transação** e **Data da aplicação da transação**. O suporte de atributos pode variar entre os sistemas ERP do Microsoft Dynamics. A célula **Filtro de atributo** restringe os dados nas colunas **FD** para especificar os valores e intervalos específicos das categorias do atributo. Embora esse recurso possa ser usado com uma coluna **ATTR**, a coluna **ATTR** não é necessária. Em uma coluna **FD**, há um limite nas contas ou transações que o relatório incluirá do filtro de atributos. **Observação:** para ver quais atributos são compatíveis com seu sistema ERP, consulte o guia de integração do sistema.
+Os atributos são valores de dados financeiros que também definem uma conta ou uma transação. Os atributos da conta incluem **Ativo**, **Passivo**, **Receita** e **Despesa**. Os atributos da transação incluem **Descrição da transação** e **Data da aplicação da transação**. O suporte de atributos pode ser diferente entre sistemas ERP do Microsoft Dynamics. A célula **Filtro de atributo** restringe os dados nas colunas **FD** para especificar os valores e intervalos específicos das categorias do atributo. Embora esse recurso possa ser usado com uma coluna **ATTR**, a coluna **ATTR** não é necessária. Em uma coluna **FD**, há um limite nas contas ou transações que o relatório incluirá do filtro de atributos. **Observação:** para ver quais atributos são compatíveis com seu sistema ERP, consulte o guia de integração do sistema.
 
 #### <a name="apply-an-attribute-filter-for-an-fd-column-on-a-report"></a>Aplicar um filtro de atributos para uma coluna FD em um relatório
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
-2.  Clique duas vezes na célula **Filtro de atributo** de uma coluna **FD**.
-3.  Na caixa de diálogo **Filtro de atributo**, clique duas vezes na coluna **Atributo** e depois selecione o tipo de filtro.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
+2.  Clique duas vezes na célula **Filtro de Atributos** de uma coluna **FD**.
+3.  Na caixa de diálogo **Filtro de Atributos**, clique duas vezes em uma célula na coluna **Atributo** e selecione o tipo de filtro.
 4.  Para limitar mais os resultados, insira um intervalo nas colunas **De** e **Para**. A célula **De** deve conter um valor.
 5.  Clique em **OK**.
 
 #### <a name="example-of-an-attribute-filter"></a>Exemplo de um filtro de atributo
 
-Os seguintes exemplos mostram parte da descrição de uma coluna que apresenta um atributo de conta na linha **Código do livro/categoria do atributo**. O filtro de atributos dessa coluna especifica o intervalo de valores que serão incluídos no relatório.
+Os seguintes exemplos mostram parte da descrição de uma coluna que apresenta um atributo de conta na linha **Código do livro/categoria do atributo**. O Filtro de Atributos dessa coluna especifica o intervalo de valores para incluir no relatório.
 
-|                              | S    | B                    |
+|                              | A    | B                    |
 |------------------------------|------|----------------------|
 | Tipo de coluna                  | DESC | FD                   |
-| Código do livro/categoria do atributo |      | ACTUAL               |
-| Ano Fiscal                  |      | BASE                 |
+| Código do Cenário/Categoria de Atributo |      | ACTUAL               |
+| Ano fiscal                  |      | BASE                 |
 | Período                       |      | 1:BASE               |
-| Período coberto              |      | PERIODIC             |
+| Períodos Cobertos              |      | PERIODIC             |
 | ...                          |      |                      |
 | Largura da coluna                 | 30   |                      |
 | ...                          |      |                      |
@@ -487,29 +487,29 @@ Os seguintes exemplos mostram parte da descrição de uma coluna que apresenta u
 
 ### <a name="dimension-filter-in-a-column-definition"></a>Filtro de dimensão em uma definição de coluna
 
-Um filtro de dimensão é usado para restringir a coluna **FD** a valores de dimensão específicos. O filtro pode incluir uma única dimensão, um intervalo de dimensões ou um grupo de dimensões. O filtro também pode incluir conjuntos de valores de dimensão. Como os valores de dimensão podem variar, um sistema baseado em dimensão ..\financial-dimensions\ não precisa corresponder exatamente a um comprimento. O filtro é aplicado, independentemente de o relatório incluir ou não uma árvore de relatório. Você pode usar um caractere curinga (\* ou ?) em qualquer posição. Quando você especificar várias contas, coloque uma vírgula entre as contas, como no seguinte exemplo: +conta=\[1200\], +conta=\[1100\], departamento=\[01?\] para receber todos os departamentos de uma conta específica, é possível excluir a dimensão Departamento do filtro de dimensão. Por exemplo, ambos os filtros de dimensão a seguir são tratados da mesma forma:
+Um filtro de dimensão é usado para restringir a coluna **FD** a valores de dimensão específicos. O filtro pode incluir uma única dimensão, um intervalo de dimensões, ou um grupo de dimensões. O filtro também pode incluir conjuntos de valores de dimensão. Como os valores de dimensão podem variar, um sistema baseado em dimensão ..\financial-dimensions\ não precisa corresponder exatamente a um comprimento. O filtro é aplicado, independentemente de o relatório incluir ou não uma árvore de relatório. Você pode usar um caractere curinga (\* ou ?) em qualquer posição. Quando você especificar várias contas, coloque uma vírgula entre as contas, como no seguinte exemplo: +conta=\[1200\], +conta=\[1100\], departamento=\[01?\] para receber todos os departamentos de uma conta específica, é possível excluir a dimensão Departamento do filtro de dimensão. Por exemplo, ambos os filtros de dimensão a seguir são tratados da mesma forma:
 
 -   +Conta=\[1100\],Departamento
 -   +Conta=\[1100\]
 
 Você também pode usar qualquer combinação de caracteres alfanuméricos para correspondência exata, bem como definir dimensões parciais. Por exemplo, **Local = \[10\*\]** inclui todos os valores de dimensão locais que começam com 10.
 
-#### <a name="apply-a-dimension-filter-for-a-column-on-a-report"></a>Aplicar um filtro de dimensão para uma coluna ou um relatório
+#### <a name="apply-a-dimension-filter-for-a-column-on-a-report"></a>Aplicar um filtro de dimensão a uma coluna em um relatório
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
 2.  Clique duas vezes na célula **Filtro de dimensão** de uma coluna **FD**.
 3.  Na caixa de diálogo **Dimensões**, insira os filtros que serão aplicados.
 4.  Clique em **OK**.
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>Formatar um relatório de várias moedas em uma definição de coluna
 
-Um relatório de várias moedas pode exibir valores na moeda natural (local), na moeda funcional (padrão) ou na moeda do relatório. A moeda funcional de uma companhia é definida no sistema ERP do Microsoft Dynamics. Não confunda essas configurações do ERP com as configurações de opções regionais do sistema operacional, nas quais é possível configurar os símbolos da moeda padrão usados nos relatórios. As seguintes células relacionadas a moeda estão disponíveis na definição de coluna:
+Um relatório de várias moedas pode exibir os valores na moeda natural (local), funcional (padrão), ou de relatório. A moeda funcional de uma empresa é definida no sistema Microsoft Dynamics ERP. Não confunda essa configuração de ERP com a configuração das opções regionais do sistema operacional onde você pode configurar os símbolos de moeda padrão que são usados nos relatórios. As células relacionadas a moeda a seguir estão disponíveis na definição de coluna:
 
--   **Exibição da moeda** – Especifique o tipo de moeda (natural, funcional ou de relatório) na qual as transações são exibidas. Às vezes, essa funcionalidade é chamada de "conversão de moeda". A conversão de moeda consiste na capacidade de relatar valores da contabilidade em uma moeda que pode não ser a moeda funcional da companhia ou a moeda na qual a transação foi inserida.
+-   **Exibição da moeda** – Especifique o tipo de moeda (natural, funcional ou de relatório) na qual as transações são exibidas. Às vezes, essa funcionalidade é chamada de "conversão de moeda". Conversão de moeda é a capacidade de relatar valores da contabilidade em uma moeda que não seja a moeda funcional da empresa, nem a moeda na qual a transação foi inserida.
 -   **Filtro de moeda** – Especifique um filtro de moeda. Apenas as transações inseridas na moeda selecionada são mostradas no relatório.
 
 > [!NOTE]
-> Para criar relatórios que usam várias moedas, você deve selecionar a caixa de seleção **Incluir todas as moedas de relatório** na guia **Relatório** da definição de relatório. Para determinar a moeda funcional de uma empresa, siga estas etapas:
+> Para criar relatórios que usam várias moedas, você deve selecionar a caixa de seleção **Incluir todas as moedas de relatório** na guia **Relatório** da definição de relatório. Para determinar a moeda funcional de uma empresa, faça o seguinte:
 
 1.  No Designer de Relatórios, no menu **Empresa**, clique em **Empresas**.
 2.  Na caixa de diálogo **Empresas**, selecione uma empresa e depois clique em **Exibir**.
@@ -517,69 +517,69 @@ Um relatório de várias moedas pode exibir valores na moeda natural (local), na
 
 #### <a name="specify-the-currency-on-a-multiple-currency-report"></a>Especificar a moeda em um relatório de várias moedas
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
 2.  Clique duas vezes na célula **Exibição da moeda** na coluna **FD** apropriada e depois selecione a opção de exibição das informações da moeda: **Moeda natural/de origem**, **Moeda funcional das informações da empresa** e moeda do relatório.
 3.  Clique duas vezes na célula **Filtro de moeda** na coluna **FD** apropriada e depois selecione o código de moeda adequado na lista. Apenas as transações inseridas nessa moeda serão mostradas no relatório.
 
 > [!NOTE]
 > As opções descritas aqui podem variar, dependendo do sistema ERP. Para obter mais informações, consulte [Documentação do sistema ERP da Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=5916).
 
-### <a name="example-for-currency-display-and-currency-filter-cells"></a>Exemplo de células Exibição de moeda e Filtro de moeda
+### <a name="example-for-currency-display-and-currency-filter-cells"></a>Exemplo de células Exibição de Moeda e Filtro de Moeda
 
-Flávia fez as seguintes seleções de moeda em sua definição de coluna:
+Phyllis fez as seguintes seleções de moeda em sua definição de coluna:
 
 -   **Filtro de moeda:** ienes
 -   **Exibição de moeda:** funcional (dólares norte-americanos)
 
-Por causa do filtro de moeda que Flávia selecionou, o relatório inclui apenas transações que foram inseridas em iene japonês (JPY). Por causa da exibição de moeda selecionada, o relatório exibe essas transações na moeda funcional: dólar norte-americano (USD).
+Devido à seleção de filtro de moeda que Phyllis fez, o relatório inclui apenas as transações que foram inseridas em iene japonês (JPY). Devido à seleção de exibição da moeda, o relatório exibe as transações na moeda funcional, dólares americanos (USD).
 
-#### <a name="currency-filter-and-currency-display-combinations"></a>Combinações de Filtro de moeda e Exibição de moeda
+#### <a name="currency-filter-and-currency-display-combinations"></a>Combinações de Filtro de Moeda e Exibição de Moeda
 
 A seguinte tabela mostra os resultados do relatório que podem ocorrer em várias combinações das opções nas células **Exibição de moeda** e **Filtro de moeda** por causa das seleções feitas por Flávia. A moeda funcional é USD.
 
-| Célula Exibição de moeda                        | Célula Filtro de moeda | Resultado do relatório                                                                                                                                                                                    |
+| Célula Exibição de Moeda                        | Célula Filtro de Moeda | Resultado do relatório                                                                                                                                                                                    |
 |----------------------------------------------|----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Moeda natural/de origem                 | **YEN**              | **Ұ6.000** – O resultado mostra apenas transações que foram inseridas em JPY.                                                                                                                        |
-| Moeda funcional das informações da empresa | **YEN**              | **US$60** – O resultado mostra apenas transações que foram inseridas em JPY e exibe as transações em USD. **Observação:** a taxa de conversão é de aproximadamente 100 JPY por USD.                    |
+| Moeda natural/original                 | **YEN**              | **Ұ6.000** – O resultado mostra apenas transações que foram inseridas em JPY.                                                                                                                        |
+| Moeda funcional com base nas informações da empresa | **YEN**              | **US$60** – O resultado mostra apenas transações que foram inseridas em JPY e exibe as transações em USD. **Observação:** a taxa de conversão é de aproximadamente 100 JPY por USD.                    |
 | Moeda funcional das informações da empresa | Vazio                | **US$2.310\*\*** – O resultado mostra todos os dados na moeda funcional que é especificada nas informações da empresa. **Observação:** esse valor é a soma de todas as transações na moeda funcional. |
-| Moeda natural/de origem                 | Vazio                | **US$2.250** – O resultado mostra todos os valores na moeda na qual a transação foi realizada.                                                                                                 |
+| Moeda natural/original                 | Vazio                | **US$2.250** – O resultado mostra todos os valores na moeda na qual a transação foi realizada.                                                                                                 |
 
-### <a name="calculation-column-in-a-column-definition"></a>Coluna Cálculo em uma definição de coluna
+### <a name="calculation-column-in-a-column-definition"></a>Coluna de cálculo em uma definição de coluna
 
-Um tipo de coluna de **CALC** em uma definição de coluna que permite cálculos complexos na célula **Fórmula** e pode incluir os operadores **+**, **-**, **\*** e **/** e também as Instruções **IF/THEN/ELSE**. Uma coluna de cálculo também pode fazer referência a qualquer outra coluna, até mesmo colunas subsequentes. Além disso, uma coluna de cálculo também pode incluir o ano fiscal e o período para dar suporte aos cabeçalhos da coluna. A fórmula de cálculo pode ter até 1.024 caracteres. Para expressar resultado do cálculo em porcentagem, use uma substituição de formato especial. **Observação:** os resultados das fórmulas de cálculo não incluem os valores em intervalos de coluna sem impressão. Por exemplo, **A:D** imprime **0** (zero), enquanto **A+B+C** dos valores sem impressão calcula o valor.
+Um tipo de coluna de **CALC** em uma definição de coluna que permite cálculos complexos na célula **Fórmula** e pode incluir os operadores **+**, **-**, **\*** e **/** e também as Instruções **IF/THEN/ELSE**. Uma coluna de cálculo também pode fazer referência a qualquer outra coluna, até mesmo colunas subsequentes. Além disso, uma coluna de cálculo também pode incluir o ano fiscal e o período para dar suporte aos cabeçalhos da coluna. A fórmula de cálculo pode ter até 1024 caracteres. Para expressar o resultado do cálculo como uma porcentagem, use uma substituição de formato especial. **Observação:** os resultados das fórmulas de cálculo não incluem os valores em intervalos de coluna sem impressão. Por exemplo, **A:D** imprime **0** (zero), enquanto **A+B+C** dos valores sem impressão calcula o valor.
 
 #### <a name="operators-in-calculation-columns"></a>Operadores em colunas de cálculo
 
-Para adicionar, subtrair, multiplicar ou dividir colunas, insira as letras da coluna na ordem de computação e depois use o operador apropriado para separar a letra de cada coluna. A seguinte tabela explica os operadores que você pode usar em uma coluna de cálculo.
+Para adicionar, subtrair, multiplicar ou dividir colunas, digite as letras da coluna na ordem de cálculo e use o operador apropriado para separar cada letra da coluna. A seguinte tabela explica os operadores que você pode usar em uma coluna de cálculo.
 
 | Operador | Exemplo de cálculo | descrição                                                                                                                                                                                                                                    |
 |----------|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | +        | A+C                 | Adicione o valor na coluna A ao valor na coluna C.                                                                                                                                                                                          |
-| :        | A:C A:C-D           | Adicione um intervalo de colunas consecutivas. Por exemplo, a fórmula **A:C** adiciona as somas das colunas A a C e a fórmula **A:C-D** adiciona as somas das colunas A a C e depois subtrai o valor na coluna D.                          |
+| :        | A:C A:C-D           | Adicionar um intervalo de colunas consecutivas. Por exemplo, a fórmula **A:C** adiciona as somas das colunas A a C e a fórmula **A:C-D** adiciona as somas das colunas A a C e depois subtrai o valor na coluna D.                          |
 | -        | A-C                 | Subtraia o valor na coluna A do valor na coluna C. **Observação:** você também pode usar o sinal de menos (-) para reverter os sinais em uma coluna. Por exemplo, use **-A+B** para adicionar o reverso do valor na coluna A ao valor na coluna B. |
 | \*       | A\*C                | Multiplique o valor na coluna A pelo valor na coluna C.                                                                                                                                                                                     |
 | /        | A/C                 | Divida o valor na coluna A pelo valor na coluna C.                                                                                                                                                                                       |
 
 #### <a name="use-a-calculation-formula-in-a-column-definition"></a>Usar uma fórmula de cálculo em uma definição de coluna
 
-1.  No Designer de Relatórios, abra a definição de coluna que será modificada.
+1.  No Report Designer, abra a definição de coluna a ser modificada.
 2.  Na coluna **CALC** apropriada, insira uma fórmula na célula **Fórmula**.
 
 #### <a name="complex-calculations"></a>Cálculos complexos
 
-Um cálculo complexo pode conter qualquer combinação de referências, operadores, valores e níveis de células de parênteses aninhados. Por exemplo, para calcular a média das colunas A e B, use a fórmula de cálculo **((A+B)/2)**.
+Um cálculo complexo pode conter qualquer combinação de referências de células, operadores, dos valores e de níveis de parênteses aninhados. Por exemplo, para calcular a média das colunas A e B, use a fórmula de cálculo **((A+B)/2)**.
 
-#### <a name="specify-report-cells-in-a-column-calculation"></a>Especificar células de relatório no cálculo de uma coluna
+#### <a name="specify-report-cells-in-a-column-calculation"></a>Especificar as células do relatório em um cálculo de coluna
 
-Você pode indicar uma célula de relatório específica inserindo a letra de uma coluna ou o código de uma linha Por exemplo, **B.100** indica o código de linha 100 na coluna B. Você pode dividir uma coluna inteira pelo valor de uma célula de relatório específica que está na mesma coluna. Por exemplo, o cálculo **B/B.100** significa que o valor na coluna B deve ser dividido pelo valor no código de linha 100 na coluna B. Se o cálculo indicar uma coluna que depende de outra coluna, a coluna dependente é convertida primeiro. Se você indicar uma coluna em outra coluna que, por sua vez, indica a primeira coluna, você causará um erro de referência circular. **Observação:** o cálculo pode estar incorreto se você alterar a prioridade de cálculo do relatório. Você pode definir a prioridade de cálculo na guia **Configurações** da definição de relatório.
+Você pode fazer referência a uma célula de relatório específica digitando uma letra de coluna e um código de linha. Por exemplo, **B.100** indica o código de linha 100 na coluna B. Você pode dividir uma coluna inteira pelo valor de uma célula de relatório específica que está na mesma coluna. Por exemplo, o cálculo **B/B.100** significa que o valor na coluna B deve ser dividido pelo valor no código de linha 100 na coluna B. Se o cálculo indicar uma coluna que depende de outra coluna, a coluna dependente é convertida primeiro. Se você relacionar uma coluna a outra que, por sua vez, se refere à primeira coluna, você causará um erro de referência circular. **Observação:** o cálculo pode estar incorreto se você alterar a prioridade de cálculo do relatório. Você pode definir a prioridade de cálculo na guia **Configurações** da definição de relatório.
 
-#### <a name="multiply-or-divide-a-column-by-a-base-row"></a>Multiplicar ou dividir uma coluna por uma linha base
+#### <a name="multiply-or-divide-a-column-by-a-base-row"></a>Multiplicar ou dividir uma coluna por uma linha de base
 
-Você pode criar uma coluna que exibe todos os valores em uma coluna especificada como uma porcentagem de um número base. Sendo assim, você pode mostrar as relações entre linhas, como uma porcentagem de uma linha de vendas ou uma porcentagem de uma linha de despesas totais. Para multiplicar ou dividir cada linha em uma coluna especifica por uma linha base, insira a coluna que será usada no cálculo e depois insira **\*BASEROW** ou **/BASEROW**. Por exemplo, insira **C\*BASEROW** ou **C/BASEROW**. **Observação:** ao usar um cálculo de linha base em uma definição de coluna, certifique-se de que a definição de cada linha usada com essa definição de coluna contém pelo menos uma linha base para cálculos.
+Você pode criar uma coluna que exibe todos os valores em uma coluna especificada como uma porcentagem de um número de base. Portanto, você pode mostrar os relacionamentos entre linhas, como uma porcentagem de uma linha de venda ou uma porcentagem de uma linha de despesas totais. Para multiplicar ou dividir cada linha em uma coluna especifica por uma linha base, insira a coluna que será usada no cálculo e depois insira **\*BASEROW** ou **/BASEROW**. Por exemplo, insira **C\*BASEROW** ou **C/BASEROW**. **Observação:** ao usar um cálculo de linha base em uma definição de coluna, certifique-se de que a definição de cada linha usada com essa definição de coluna contém pelo menos uma linha base para cálculos.
 
-#### <a name="divide-the-amount-in-a-column-by-the-number-of-periods"></a>Dividir o valor em uma coluna pelo número de períodos
+#### <a name="divide-the-amount-in-a-column-by-the-number-of-periods"></a>Dividir o valor na coluna pelo número de períodos
 
-Você pode dividir o valor em uma coluna por um número de períodos especificado. Por exemplo, **B/Períodos** divide o valor na coluna B pelo número de períodos na coluna B. Se o cálculo abranger várias colunas, especifique o número de períodos que serão usados no cálculo. Por exemplo, a fórmula **(B+C)/Períodos** adiciona os valores na coluna B e coluna C e depois divide o resultado pelo valor do período.
+Você pode dividir o valor em uma coluna por um número especificado de períodos. Por exemplo, **B/Períodos** divide o valor na coluna B pelo número de períodos na coluna B. Se o cálculo abranger várias colunas, especifique o número de períodos que serão usados no cálculo. Por exemplo, a fórmula **(B+C)/Períodos** adiciona os valores na coluna B e coluna C e depois divide o resultado pelo valor do período.
 
 <a name="see-also"></a>Consulte também
 --------

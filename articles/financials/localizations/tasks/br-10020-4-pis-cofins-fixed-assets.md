@@ -16,10 +16,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 44d7747ee7aca8289a03590ec55a8396ab1bac01
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 2ce02daf838a84bdd7fef2cedd1c7fca29999a24
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="pis-and-cofins-fixed-assets-brazil"></a>Ativos fixos de PIS e COFINS (Brasil)
