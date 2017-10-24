@@ -19,11 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5a23acfa95bb93dbc5990bf3839bbc629f15cc2f
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 3137d93dd91ec3e58937e97bdddb5ca51ec4084c
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -110,7 +110,7 @@ Observe que fantasmas são normalmente utilizados para simplificar o processo de
 
 ### <a name="pegged-supply"></a>Fornecimento vinculado
 
-Selecione o tipo de linha**Fornecimento vinculado** quando desejar criar uma subprodução, um evento kanban da linha BOM, ou uma ordem de compra direta para qualquer variante de produto referenciada pela linha da BOM. A subprodução, o evento kanban, ou a ordem de compra são criados quando você estimar a ordem de produção. As quantidades de item necessárias são reservadas automaticamente para a ordem de produção consumidora.
+Selecione o tipo de linha **Fornecimento vinculado** quando desejar criar uma subprodução, um evento kanban da linha BOM, ou uma ordem de compra direta para qualquer variante de produto referenciada pela linha da BOM. A subprodução, o evento kanban, ou a ordem de compra são criados quando você estimar a ordem de produção. As quantidades de item necessárias são reservadas automaticamente para a ordem de produção consumidora.
 
 ### <a name="vendor"></a>Fornecedor
 

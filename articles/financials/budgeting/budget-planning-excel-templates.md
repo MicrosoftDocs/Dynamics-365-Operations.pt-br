@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -133,7 +133,7 @@ Clique na seta para obter um menu adicional. Selecione **Bloqueio**.
 
 Sim, a maior parte dos recursos padrão do Excel funcionará nos modelos de plano de orçamento. Recomendamos o uso da codificação por cor para que os usuários diferenciem entre colunas somente leitura e editáveis. A formatação condicional pode ser usada para destacar áreas problemáticas do orçamento. Os totais de coluna podem facilmente ser apresentados por meio de fórmulas padrão do Excel acima da tabela.
 
-Você também pode criar e usar tabelas e gráficos dinâmicos para mais agrupamentos e visualizações de dados de orçamento. Na guia **Dados**, no grupo **Conexões**, clique em **Atualizar Tudo** e depois clique em **Propriedades da Conexão**. Clique na guia **Uso**. Em **Atualizar**, selecione a caixa de seleção **Atualizar dados ao abrir o arquivo**. 
+Você também pode criar e usar tabelas e gráficos dinâmicos para mais agrupamentos e visualizações de dados de orçamento. Na guia **Dados**, no grupo **Conexões**, clique em **Atualizar Tudo** e depois clique em **Propriedades da Conexão**. Clique na guia **Uso**. Em **Atualizar**, marque a caixa de seleção **Atualizar dados ao abrir o arquivo**. 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
 

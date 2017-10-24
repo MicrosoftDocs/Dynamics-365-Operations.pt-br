@@ -16,13 +16,13 @@ ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fb5c39a65ea59acda05b0828f84bfaea4ad75062
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -52,7 +52,7 @@ O conteúdo do Microsoft Power BI **Gerenciamento de custo** destina-se a contad
 A fonte de dados primária para CostAggregatedCostStatementEntryEntity é a tabela CostStatementCache. Essa tabela é gerenciada pela estrutura de cache de conjunto de dados. Por padrão, ela é atualizada a cada 24 horas, mas você pode habilitar atualizações manuais na configuração de cache de dados. Depois você pode fazer uma atualização manual no espaço de trabalho **Gerenciamento de custo** ou **Análise de custo**. Depois que a atualização de CostStatementCache é executada, você deve atualizar a conexão OData em PowerBI.com para ver os dados atualizados no site. As medições de variação (compra, produção) no conteúdo do Power BI pertencem apenas a itens avaliados pelo método de estoque de custo padrão. A variação de produção é calculada como a diferença entre os custos ativos e os realizados. A variação de produção é calculada quando a ordem de produção possui um status de **Concluída**. Para obter mais informações sobre tipos de variação de produção e como cada tipo é calculado, consulte [Sobre a análise de variações para uma ordem de produção concluída](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-O conteúdo do Power BI **Gerenciamento de custo** está disponível em PowerBI.com. Para obter mais informações sobre como conectar e carregar os dados do Microsoft Dynamics 365 for Finance and Operations, consulte [Acessar o conteúdo do Power BI em PowerBI.com](power-bi-home-page.md).
+O conteúdo do Power BI de **Gerenciamento de custo** está disponível em PowerBI.com. Para obter mais informações sobre como conectar e carregar os dados do Microsoft Dynamics 365 for Finance and Operations, consulte [Acessar conteúdo do Power BI do PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
 O conteúdo inclui um conjunto de páginas de relatório. Cada página consiste em um conjunto de métricas visualizadas, como gráficos, blocos e tabelas. A seguinte tabela fornece uma visão geral das visualizações no conteúdo do Power BI **Gerenciamento de custo**.

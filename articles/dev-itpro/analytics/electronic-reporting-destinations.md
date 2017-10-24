@@ -16,13 +16,13 @@ ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: dedabf13044be30a67a945ff4ca2ecfb1eea8150
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -101,7 +101,7 @@ O local determina onde o arquivo foi salvo. Depois que o destino do **Arquivo** 
 
 #### <a name="sharepoint"></a>SharePoint
 
-Você pode salvar um arquivo em uma pasta designada do SharePoint. Você define o servidor do SharePoint padrão em **Administração da organização** &gt; **Gerenciamento de documento** &gt; **Parâmetros de gerenciamento de documento**, na guia **SharePoint**. Depois que a pasta do SharePoint for configurada, você pode selecioná-la como pasta onde será salva a saída de ER para o tipo de documento. 
+Você pode salvar um arquivo em uma pasta designada do SharePoint. Você define o servidor padrão do SharePoint em **Administração da organização** &gt; **Gerenciamento de documentos** &gt; **Parâmetros de gerenciamento de documentos** na guia **SharePoint**. Depois que a pasta do SharePoint for configurada, você pode selecioná-la como a pasta onde a saída ER será salva para o tipo de documento. 
 
 [![Selecionando uma pasta do SharePoint](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg) 
 

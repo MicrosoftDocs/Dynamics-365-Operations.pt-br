@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -63,7 +63,7 @@ As personalizações explícitas são aquelas executadas explicitamente com a in
 
 Você personalizará um elemento na página dessa maneira se quiser apenas alterar o rótulo do elemento, ocultar o elemento para que ele não seja exibido na página (isso não altera nenhum dado, isso simplesmente não exibe a informação), incluir as informações na seção de resumo da Guia Rápida (se o elemento estiver em uma Guia Rápida), ignorar o campo ao usar a tabulação ou fazer isso para que os dados não possam ser alterados por meio da marcação “Não Editar.” 
 
-Para mover ou ocultar elementos ou fazer várias alterações, use a barra de ferramentas Personalização, disponível na janela de Propriedade dos elementos quando você escolhe **Personalize este formulário**. A barra de ferramentas Personalização também está disponível no Painel de ação do formulário, no grupo Personalizar da guia **Opções**. Selecione **Personalize este formulário**, e você verá a barra de ferramentas Personalização. 
+Para mover ou ocultar elementos ou fazer várias alterações, use a barra de ferramentas Personalização, disponível na janela de Propriedade dos elementos quando você escolhe **Personalize este formulário**. A barra de ferramentas Personalização também está disponível no Painel de ação do formulário, no grupo Personalizar da guia **Opções** . Selecione **Personalize este formulário** e você verá a barra de ferramentas Personalização. 
 
 [![Barra de ferramentas de personalização](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
@@ -90,7 +90,7 @@ Escolha o botão **Fechar** para fechar a barra de ferramentas e retornar a pág
 Com a barra de ferramentas Personalização, o salvamento é implícito. As personalizações são efetuadas imediatamente; não é necessário clicar no botão **Salvar**. Em alguns casos, você verá um ícone de cadeado próximo a um elemento quando selecionar uma ferramenta. Isso significa que, para que a página funcione corretamente, você não pode modificar as propriedades relacionadas à ferramenta selecionada. Quando a barra de ferramentas Personalização for aberta, a página se tornará não interativa. Você não pode inserir dados nem expandir ou recolher seções.
 
 ## <a name="explicit-personalization-adding-a-tile-or-list-to-a-workspace"></a>Personalização explícita: Adicionando um bloco ou uma lista a um espaço de trabalho
-Algumas páginas com listas terão um recurso adicional de personalização disponível no Painel de Ação, no grupo Personalizar da guia Opções. Selecione **Adicionar ao Espaço de Trabalho** para abrir a lista suspensa que permite exibir as informações da lista atual (filtrada e classificada ou padrão) em um Espaço de Trabalho como uma lista ou bloco resumido (que pode ser usado para exibir o número de itens na lista). 
+Algumas páginas com listas terão um recurso adicional de personalização disponível no Painel de Ação, no grupo Personalizar da guia Opções. Selecione **Adicionar ao espaço de trabalho** para abrir a lista suspensa que permite exibir as informações da lista atual (filtrada e classificada ou padrão) em um Espaço de Trabalho como uma lista ou bloco resumido (que pode ser usado para exibir o número de itens na lista). 
 
 [![Adicionar ao espaço de trabalho](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png) 
 

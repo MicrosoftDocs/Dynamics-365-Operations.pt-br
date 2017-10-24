@@ -16,13 +16,13 @@ ms.custom: 57592
 ms.assetid: 747faa47-9a23-4277-bc11-8d0a1267c3a4
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 331f3480b8454dac7da12be169ba017f36cefa06
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 4708ff4427fe507fee7e1ce1ca226289ddf648cc
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,13 +33,13 @@ ms.lasthandoff: 05/25/2017
 
 Este artigo fornece informações sobre definições da árvore de relatório. Uma relatório definição de árvore é um componente de relatório ou bloco de construção, que ajuda a definir a estrutura e a hierarquia de sua organização.
 
-O relatório financeiro dá suporte ao relatório flexível, tornando fácil fazer alterações à medida que a estrutura de negócios muda. Relatórios são criados a partir de vários componentes, ou blocos de construção. Um desses blocos de construção é uma definição de árvore de relatórios. Uma relatório de definição de árvore ajuda a definir a estrutura e a hierarquia de sua organização. Você pode criar hierarquias em várias dimensões com base nas relações dimensionais nos dados financeiros. Ele fornece informações no nível de unidade de geração de relatórios e no nível de resumo para todas as unidades na árvore. As definições de árvore de relatórios podem ser combinadas com as definições de coluna e as definições de relatório para criar um grupo do bloco de construção que possa ser usado por várias empresas. Uma unidade de relatório é usada para cada caixa em um organograma. Uma unidade do relatório pode ser um departamento individual dos dados financeiros, ou pode ser uma unidade de resumo de nível superior que combina informações de outras unidades de relatório. Para obter uma definição de relatório que inclua uma árvore de relatório, um relatório é gerado para cada unidade de relatório e para o nível de resumo. Todos esses relatórios usam as definições de linhas e colunas que são especificadas na definição de relatório, a menos que a definição de relatório especifique a árvore de relatório da definição de linha que deve ser usada. As definições de linhas e colunas são componentes importantes no design e funcionalidade de relatórios financeiros. As árvores de relatório aumentam a potência dos componentes e dão suporte a relatórios flexíveis à medida que a estrutura muda. Relatórios financeiros não baseados no uso de uma árvore de relatório usam apenas alguns recursos do relatório financeiro. Você pode usar várias definições de árvore de relatório com as mesmas definições de linhas e colunas para exibir os dados da organização de várias formas.
+O relatório financeiro dá suporte ao relatório flexível, tornando fácil fazer alterações à medida que a estrutura de negócios muda. Relatórios são criados a partir de vários componentes, ou blocos de construção. Um desses blocos de construção é uma definição de árvore de relatórios. Uma relatório de definição de árvore ajuda a definir a estrutura e a hierarquia de sua organização. Você pode criar hierarquias em várias dimensões com base nas relações dimensionais nos dados financeiros. Ele fornece informações no nível de unidade de geração de relatórios e no nível de resumo para todas as unidades na árvore. As definições de árvore de relatórios podem ser combinadas com as definições de coluna e as definições de relatório para criar um grupo do bloco de construção que possa ser usado por várias empresas. Uma unidade de relatório é usada para cada caixa em um organograma. Uma unidade organizacional pode ser um departamento individual de dados financeiros, ou pode ser uma unidade de resumo de alto nível que combina informações de outras unidades organizacionais. Para obter uma definição de relatório que inclua uma árvore de relatório, um relatório é gerado para cada unidade de relatório e para o nível de resumo. Todos esses relatórios usam as definições de linhas e colunas que são especificadas na definição de relatório, a menos que a definição de relatório especifique a árvore de relatório da definição de linha que deve ser usada. As definições de linhas e colunas são componentes importantes no design e funcionalidade de relatórios financeiros. As árvores de relatório aumentam a potência dos componentes e dão suporte a relatórios flexíveis à medida que a estrutura muda. Relatórios financeiros não baseados no uso de uma árvore de relatório usam apenas alguns recursos do relatório financeiro. Você pode usar várias definições de árvore de relatório com as mesmas definições de linhas e colunas para exibir os dados da organização de várias formas.
 
 ## <a name="reporting-tree-best-practices"></a>Práticas recomendadas da árvore de relatório
 Antes de criar uma árvore de relatório, considere estas práticas recomendadas:
 
 -   Primeiro, determine as dimensões de relatório que a entidade legal ou empresa requer.
--   Considere como você configurou sua estrutura, e desenhe um organograma da sua empresa. O organograma ajudará a visualizar como agrupar as unidades de relatório em uma ou mais árvores de relatório.
+-   Considere como você configurou sua estrutura, e desenhe um organograma da sua empresa. O organograma o ajudará a visualizar como agrupar as unidades organizacionais em uma ou mais hierarquias organizacionais.
 -   Comece com o menor nível de detalhes disponível, como os departamentos e projetos que são definidos nos dados financeiros. Adicione as caixas necessárias no nível de detalhe para mostrar divisões ou regiões de nível superior. Cada caixa representa uma unidade de relatório potencial em qualquer árvore de relatório criada.
 -   Considere também a melhor maneira de criar as árvores. Você pode usar um processo de criação automatizado para criar uma árvore de relatório manualmente, ou pode criar uma árvore de relatório. É importante compreender os dois métodos antes de criar as árvores.
 -   Você pode usar as unidades de relatório que são definidas no sistema de dados financeiros para adicionar unidades de relatório na definição da árvore de relatório.
@@ -52,13 +52,13 @@ A definição da árvore de relatório contém as colunas descritas na tabela a 
 
 | Coluna da árvore de relatório | descrição|
 |---|---|
-| Empresa               | O nome da empresa para a unidade de relatório. O valor **@ANY**, que geralmente é atribuído apenas ao nível de resumo, habilita a árvore de relatório a ser usada para todas as empresas. Todas as ramificações pai têm uma empresa atribuída a elas.|
-| Nome da Unidade             | O código que identifica esta unidade de relatório na árvore gráfica do relatório. Certifique-se de estabelecer um sistema de codificação exclusivo que é consistente e que seja fácil de entender. |
+| Empresa               | O nome da empresa para a unidade de relatório. O valor **@ANY**, que geralmente é atribuído apenas ao nível de resumo, habilita a árvore de relatório a ser usada para todas as empresas. Todas as ramificações filho que têm uma empresa atribuída a elas.|
+| Nome da unidade             | O código que identifica esta unidade de relatório na árvore gráfica do relatório. Certifique-se de estabelecer um sistema de codificação exclusivo que é consistente e que seja fácil de entender. |
 | Descrição da Unidade      | O título da unidade de relatório aparece no cabeçalho ou rodapé do relatório se você insere **UnitDesc** como um código na guia **Cabeçalhos e Rodapés** da definição de relatório. O título aparece na descrição da linha do relatório se você insere **UnitDesc** na célula **Descrição** de definição da linha.|
 | Dimensões            | Uma unidade de relatório que obtém informações diretamente dos dados financeiros. Ela define o posicionamento e os comprimentos lógicos da conta e os segmentos relacionados. Cada linha de unidade de relatório deve ter uma dimensão nesta coluna. Você também pode colocar uma dimensão em uma linha de resumo de unidade (por exemplo, para as despesas que estão diretamente relacionadas a essa unidade). Se você inserir uma dimensão em uma linha da unidade de resumo, as contas usadas em unidades pai não deverão ser usadas em unidades filho. Caso contrário, os valores podem ser duplicados.|
-| Definições de Linha       | O nome da definição de linha para a unidade de relatório. A mesma definição de linha é usada para cada unidade da árvore de relatório. Quando você gera um relatório, essa definição de linha é usada para cada unidade de geração de relatórios. A definição de linha pode incluir vários links de dimensões financeiras. Se for especificada uma definição de linha na árvore de relatório, selecione a caixa de seleção **Usar a definição de linha do relatório de árvore** da guia **Relatório** da definição de relatório.|
-| Link de linha              | O link de linha a ser usado para a unidade de relatório. Os links de linhas são definidos para a definição de linha para identificar as dimensões financeiras para vínculo.|
-| Link externo         | O link de linha a ser usado para esta unidade de relatório. Os links de linhas são definidos para a definição de linha para identificar os relatórios para vínculo.|
+| Definições de Linha       | O nome da definição de linha para a unidade de relatório. A mesma definição de linha é usada para cada unidade da hierarquia organizacional. Ao gerar um relatório, essa definição de linha é usada para cada unidade organizacional. A definição de linha pode incluir vários links de dimensões financeiras. Se uma definição de linha for especificada na hierarquia organizacional, marque a caixa de seleção **Usar a definição de linha da hierarquia organizacional** na guia **Relatório** da definição de relatório.|
+| Link da linha              | O link de linha a ser usado para a unidade organizacional. Os links de linha são definidos para que a definição de linha identifique as dimensões financeiras às quais se vincular.|
+| Link externo         | O link de linha a ser usado para essa unidade organizacional. Os links de linhas são definidos para a definição de linha para identificar os relatórios para vínculo.|
 | Arquivo externo         | O caminho do arquivo da planilha de relatórios financeiro para extrair dados de.|
 | Opções de Página          | Esta coluna controla se os detalhes para a unidade de relatório são suprimidos quando o relatório é visualizado ou impresso.|
 | % Acumulado              | A porcentagem da unidade de relatório que deve ser alocada para a unidade pai. A porcentagem inserida nesta coluna se aplica a cada linha da definição de linha antes de o valor da linha ser adicionado ao relatório pai. Por exemplo, se uma unidade filho deve ser dividida uniformemente entre dois departamentos, os valores em cada linha seriam multiplicados por 50% antes do valor ser adicionado ao relatório do departamento. Uma unidade de relatório não pode ter duas unidades pai. Para alocar os valores de uma unidade de relatório em duas unidades pai, crie outra unidade de relatório com a mesma dimensão para acumular os 50% adicionais. Digite os percentuais inteiros sem um ponto decimal. Por exemplo, **25** representa a alocação de 25% para o pai. Se você incluir um ponto decimal (**25**), porcentagem de 0,25 é alocada para o pai. Para usar uma porcentagem menor do que 1%, use a opção **Permitir Acúmulo &lt;1%** na definição de relatório. Esta é uma opção da guia **Opções Adicionais** na caixa de diálogo **Configurações de Relatório**. Acesse essa caixa de diálogo do botão **Outros** na guia **Configurações** da definição de relatório. |
@@ -119,7 +119,7 @@ Uma unidade de relatório pai é uma unidade de resumo que agrega informações 
 
 ### <a name="organize-reporting-units"></a> Organizar unidades de relatório
 
-Você pode reorganizar a estrutura organizacional de uma definição de árvore de relatório movendo unidades de relatório no modo de exibição gráfica. Também é possível promover unidades de relatório para um nível superior na árvore de relatório e movê-los para um nível inferior.
+Você pode reorganizar a estrutura organizacional de uma definição de hierarquia organizacional movendo as unidades organizacionais na exibição gráfica. Também é possível promover unidades de relatório para um nível superior na árvore de relatório e movê-los para um nível inferior.
 
 1.  No Designer de Relatórios, abra a definição de árvore de relatório a ser modificada.
 2.  Na exibição gráfica da definição de árvore de relatório, selecione uma unidade de relatório.
@@ -138,8 +138,8 @@ Uma entrada de texto adicional é uma cadeia de texto estático, com até 255 ca
 
 ### <a name="remove-additional-text-from-a-reporting-unit"></a>Remover texto adicional de uma unidade de relatório
 
-1.  No Designer de Relatórios, abra a definição de árvore de relatório a ser modificada.
-2.  Clique duas vezes na célula **Texto Adicional** para a linha de unidade de relatório.
+1.  No Report Designer, abra a definição de hierarquia organizacional a ser modificada.
+2.  Clique duas vezes na célula **Texto adicional** para a linha de unidade organizacional.
 3.  Na caixa de diálogo **Texto Adicional**, selecione a entrada a ser removida e clique em **Limpar**. Como alternativa, clique com botão direito na entrada e, em seguida, selecione **Recortar**.
 4.  Clique em **OK**.
 
@@ -148,7 +148,7 @@ Uma entrada de texto adicional é uma cadeia de texto estático, com até 255 ca
 Você pode impedir que certos usuários e grupos acessem uma unidade de relatório. Você também pode definir restrições para que elas se apliquem aos relatórios secundários da unidade de geração de relatórios.
 
 1.  No Designer de Relatórios, abra a definição de árvore de relatório a ser modificada.
-2.  Clique duas vezes na célula **Segurança de Unidade** para a linha de unidade de relatório para restringir o acesso.
+2.  Clique duas vezes na célula **Segurança de Unidade** para a qual a linha da unidade organizacional restringe acesso.
 3.  Na caixa de diálogo **Segurança de Unidade**, clique em **Usuários e Grupos**.
 4.  Selecione os usuários ou grupos que terão acesso à unidade de relatório restrita e clique em **OK**.
 5.  Para restringir o acesso às unidades de relatório filho, marque a caixa de seleção **Adicionar segurança a unidades de relatório filho**.

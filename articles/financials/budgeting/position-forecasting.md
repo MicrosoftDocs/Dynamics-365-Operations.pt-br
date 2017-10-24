@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9c0ae4ed27578301573bead17ff2175bb9042036
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -131,7 +130,7 @@ A função **Copiar em cenário** fornece essa funcionalidade. Observe que cada 
 
 ### <a name="modifying-forecast-positions"></a>Como modificar previsões de posições
 
-As alterações feitas em previsões de posições se limitam a essas previsões de posições. As alterações não afetam os registros de posição em Recursos humanos. A maioria das alterações também se limitam à previsão de posição que está sendo editada. Ou seja, as alterações são específicas do cenário de processamento do planejamento de orçamento e do plano de orçamento que são atribuídos. As exceções são alterações nos campos que são compartilhados para a posição em processos e cenários. Esses campos incluem os campos nas guias **Geral** e **Dimensões financeiras**. Quando esses campos são alterados, os novos valores se aplicam à posição em todos os cenários de planejamento de orçamento. Portanto, esses campos permitem atualizar rapidamente todas as versões.
+As alterações feitas em previsões de posições se limitam a essas previsões de posições. As alterações não afetam os registros de posição em Recursos humanos. A maioria das alterações também se limitam à previsão de posição que está sendo editada. Ou seja, as alterações são específicas do cenário de processamento do planejamento de orçamento e do plano de orçamento que são atribuídos. As exceções são alterações nos campos que são compartilhados para a posição em processos e cenários. Estes campos incluem os campos na guia **Geral** e na guia **Dimensões financeiras** . Quando esses campos são alterados, os novos valores são aplicados à posição em todos os cenários de planejamento de orçamento. Portanto, esses campos permitem atualizar rapidamente todas as versões.
 
 #### <a name="budget-cost-elements"></a>Elementos de custo do orçamento
 

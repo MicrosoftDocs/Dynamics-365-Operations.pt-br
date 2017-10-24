@@ -16,10 +16,10 @@ ms.author: v-gonode
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: f497ba4350a36911a4151da32ca44e00f0312fd4
-ms.openlocfilehash: 184bfcb22608add9d258ae1cecc005757e165065
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 7f8179e483e7e2791a49e5b4ca1681773735016d
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/31/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 

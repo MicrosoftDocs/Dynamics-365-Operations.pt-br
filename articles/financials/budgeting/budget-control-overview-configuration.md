@@ -15,13 +15,13 @@ ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: d8565ec692036d7a9411cb8663d7293d3ab91a44
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -104,7 +104,7 @@ Em seguida, na guia **Definir regras de controle de orçamento**, você deve cri
 
 ### <a name="select-main-accounts"></a>Selecionar contas principais
 
-Se **Conta principal** não for selecionada como uma dimensão de controle de orçamento na página **Defina parâmetros**, mas as despesas estão sendo gerenciadas de forma específica, você pode selecionar as despesas na guia **Selecione contas principais**. Se **Conta principal** for selecionado como uma dimensão de controle de orçamento, nenhuma entrada é necessária.  
+Se **Conta principal** não estiver selecionada como uma dimensão de controles de orçamento na página **Definir parâmetros** , mas as  despesas específicas são gerenciadas, você pode selecionar essas despesas na guia **Selecionar contas principais**. Se a **Conta principal** for selecionada como uma dimensão de controles de orçamento, nenhuma entrada é necessária.  
 
 ### <a name="define-budget-groups"></a>Definir os grupos orçamentários
 
@@ -116,7 +116,7 @@ Se as mensagens de aviso do controle de orçamento são suprimidas para quaisque
 
 ### <a name="activate-budget-control"></a>Ativar controle de orçamento
 
-Depois que o controle de orçamento foi configurado, você poderá gerencia-lo ativá-lo na guia **Ative o controle de orçamento**. A versão de rascunho se tornará efetiva.
+Depois que o controle de orçamento foi configurado, você poderá gerencia-lo e ativá-lo na guia **Ativar controle de orçamento**. A versão de rascunho se tornará efetiva.
 > [!Important]
 > Quando o controle de orçamento está ativado e ativo, e as transações são lançadas, ele não deve ser desativado na metade do ano. Quando o controle de orçamento é desativado, as atividades não são registradas para fins de controle de orçamento, e as verificações de orçamento não são mais executadas. Consequentemente, os documentos que foram lançados corretamente não podem refletir os saldos ou valores de alívio em consultas e relatórios relacionados ao controle de orçamento. Eles incluem estatísticas de controle de orçamento para qualquer downstream ou documentos e diários de ajuste. 
 

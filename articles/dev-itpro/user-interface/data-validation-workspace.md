@@ -14,11 +14,11 @@ ms.search.scope:
 ms.assetid: 
 ms.search.region: Global
 ms.author: bking
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e105c4b171979a03c20718c1fa9d558c921cd704
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 447fd87cb2f71147d7a9f6476f4ed9e12d75640a
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Primeiro é necessário selecionar um projeto de validação de dados na parte s
 
 ### <a name="summary-tiles"></a>Blocos do resumo
 
-Os blocos **Resumo** oferecem uma visão geral do processo e os indicadores ajudam a manter o processo de validação de dados em andamento. Você pode consultar todas as tarefas restantes, tarefas concluídas, tarefas em andamento e tarefas não iniciadas para o processo. Essas informações são para todas as empresas incluídas no projeto de validação de dados selecionado.
+Os blocos de **Resumo** fornecem uma visão geral do processo e indicadores que o ajudam a manter o processo de validação de dados em andamento. Você pode consultar todas as tarefas restantes, tarefas concluídas, tarefas em andamento e tarefas não iniciadas para o processo. Essas informações são para todas as empresas incluídas no projeto de validação de dados selecionado.
 
 ### <a name="tasks-and-status-section"></a>Seção de tarefas e status
 

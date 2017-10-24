@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 0bbf8f979aeb8b861164e345f9e46bb396f370ce
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +41,7 @@ Primeiro é necessário selecionar uma agenda de fechamento na parte superior do
 
 ### <a name="summary-tiles"></a>Blocos do resumo
 
-Os blocos **Resumo** oferecem uma visão geral do processo e os indicadores ajudam a manter o rastreamento do processo de fechamento. Você pode ver as tarefas já vencidas, restantes para hoje, as tarefas cujo vencimento é hoje mas estão bloqueadas por causa das dependências e todas as tarefas restantes para o processo. Essas informações são para todas as empresas incluídas na agenda de fechamento selecionada.
+Os blocos de **Resumo** fornecem uma visão geral do processo os indicadores o ajudam a manter o processo de fechamento em andamento. Você pode ver as tarefas que estão vencidas, tarefas restantes de hoje, tarefas vencidas hoje, mas bloqueadas por causa de dependências e todas as outras tarefas do processo. Essas informações são para todas as empresas incluídas na agenda de fechamento selecionada.
 
 ### <a name="tasks-and-status-section"></a>Seção de tarefas e status
 
@@ -82,7 +81,7 @@ Use áreas de tarefas para agrupar tarefas de fechamento em áreas lógicas de p
 
 ### <a name="calendars"></a>Calendários
 
-Criar e editar os calendários de fechamento financeiros usando a guia Calendários.  É aqui que você definirá os dias úteis para fechar os processos, que serão usados para as tarefas da agenda de fechamento.  Crie um novo calendário e, indique os dias úteis que serão usados para a agenda de tarefas.  É aconselhável criar um calendário para longos períodos, como um ano ou vários anos, desde que pode ser editado depois da criação.  Depois de criar o calendário, clique no botão Editar para atualizar o calendário de dias específicos, como feriados.  As tarefas de fechamento serão programadas em dias em que o valor de controle for definido para Abrir.  Se as tarefas de fechamento não tiverem que ser agendadas em um dia especificado, o valor do controle desse dia deve ser definido como Fechado.
+Criar e editar calendários financeiros de fechamento usando a guia Calendários. Nesta guia, você definirá os dias da semana para fechar processos, e também a usará para agendar tarefas de fechamento.  Crie um novo calendário e, indique os dias úteis que serão usados para a agenda de tarefas.  É aconselhável criar um calendário para longos períodos, como um ano ou vários anos, desde que pode ser editado depois da criação.  Depois de criar o calendário, clique no botão Editar para atualizar o calendário de dias específicos, como feriados.  As tarefas de fechamento serão programadas em dias em que o valor de controle for definido para Abrir.  Se as tarefas de fechamento não tiverem que ser agendadas em um dia especificado, o valor do controle desse dia deve ser definido como Fechado.
 
 ### <a name="templates"></a>Modelos
 

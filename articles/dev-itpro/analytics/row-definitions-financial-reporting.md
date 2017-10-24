@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 06a75889e62cbba6e47a8543cf663868df5ae2e3
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -68,8 +68,8 @@ Uma dimensão é uma interseção de dados e valores. Você pode agrupar dados e
 | Opção                | Descrição                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Dimensão             | O padrão que identifica a dimensão a ser adicionada à definição de linha. Este padrão contém um E comercial (&) ou sinal numérico (\#) para cada posição nas dimensões. Em geral, use E comerciais para a dimensão Conta principal e sinais numéricos para outras dimensões. |
-| Início do Intervalo de Dimensões | O primeiro valor desta dimensão a ser adicionado à definição de linha.                                                                                                                                                                                                                 |
-| Final do Intervalo de Dimensões   | O último valor desta dimensão a ser adicionado à definição de linha.                                                                                                                                                                                                                  |
+| Início do Intervalo de Dimensões | O primeiro valor dessa dimensão para adicionar à definição de linha.                                                                                                                                                                                                                 |
+| Fim do Intervalo de Dimensões   | O último valor desta dimensão a ser adicionado à definição de linha.                                                                                                                                                                                                                  |
 
 Para adicionar dimensões a uma definição de linha, siga as etapas a seguir.
 
@@ -93,7 +93,7 @@ Quando você tem um balanço em que os valores são arredondados, talvez os tota
 Para ajustar o arredondamento em um balanço, siga as etapas a seguir.
 
 1.  No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
-2.  No menu **Editar**, clique em **Ajuste de Arredondamento**.
+2.  No menu **Editar**, clique em **Ajuste de arredondamento**.
 3.  Na caixa de diálogo **Ajustes de Arredondamento**, insira os seguintes valores:
     -   **Linha de ajuste de arredondamento** – O código de linha da linha que deverá ser ajustada para equilibrar o balanço.
     -   **Linha de total de ativos** – O código de linha da linha no balanço que contém os ativos totais.
@@ -121,16 +121,16 @@ Você pode criar e modificar estilos de fonte para o relatório. Em seguida, voc
 <td>Criar um estilo de fonte</td>
 <td><ol>
 <li>No Designer de Relatórios, no menu <strong>Formato </strong>, clique em <strong>Estilos e Formatação</strong>.</li>
-<li>Na caixa de diálogo <strong>Estilos e Formatação</strong>, clique em <strong>Novo</strong> e insira um nome exclusivo para o novo estilo.</li>
-<li>Faça suas seleções de fontes e clique em <strong>OK</strong>.</li>
+<li>Na caixa de diálogo <strong>Estilos e formatação</strong>, clique em <strong>Novo</strong> e insira um nome exclusivo para o novo estilo.</li>
+<li>Faça as seleções de fonte e, em seguida, clique em <strong>OK</strong>.</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>Modificar um estilo de fonte</td>
 <td><ol>
 <li>No Designer de Relatórios, no menu <strong>Formato </strong>, clique em <strong>Estilos e Formatação</strong>.</li>
-<li>Na caixa de diálogo <strong>Estilos e Formatação</strong>, selecione um estilo a ser modificado e clique em <strong>Modificar</strong>.</li>
-<li>Faça suas seleções de fontes e clique em <strong>OK</strong>.</li>
+<li>Na caixa de diálogo <strong>Estilos e formatação</strong>, selecione um estilo para modificar e clique em <strong>Modificar</strong>.</li>
+<li>Faça as seleções de fonte e, em seguida, clique em <strong>OK</strong>.</li>
 </ol></td>
 </tr>
 <tr class="odd">
@@ -164,7 +164,7 @@ Para facilitar a exibição das colunas em que estiver trabalhando na definiçã
 ### <a name="hide-columns-in-the-view-pane"></a>Ocultar colunas no painel de exibição
 
 1.  No Designer de Relatórios, abra a definição de linha a ser modificada.
-2.  Selecione as colunas a serem minimizadas.
+2.  Selecione uma ou mais colunas para minimizar.
 3.  Clique no botão direito do mouse e clique em **Ocultar**.
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>Mostrar todas as colunas ocultas no painel de exibição

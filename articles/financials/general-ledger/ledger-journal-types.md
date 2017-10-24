@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 624f38a7348ede3cc9e6fb7ce0b78a61b1452b61
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6f665f34055e36775c8bb41be4aae9c4577639d7
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -59,7 +58,7 @@ Este artigo descreve os tipos de diário que você pode configurar para diários
 | Remessa bancária de fornecedor            | Criar um arquivo de remessa de nota promissória que possa ser enviado para o banco da sua organização.                                                                                                                                                                                                                                                                      | Diário de remessas                                             |
 | Pagamento de fornecedor               | Criar transações de pagamento do fornecedor.                                                                                                                                                                                                                                                                                                                    | Diário de pagamentos                                                |
 | Nota promissória emitida para fornecedor       | Emitir notas promissórias do fornecedor como um método de pagamento. Para usar esse tipo de diário, desmarque a opção **Criar e lançar o diário emitido automaticamente ao lançar faturas** na página **Métodos de pagamento - fornecedores**.                                                                                                                                          | Emitir diário de notas promissórias                                   |
-| Grupo de faturas de fornecedor excl. lançamento | Criar transações de fatura de fornecedor que ainda não tenham sido lançadas em uma conta de entrada temporária.                                                                                                                                                                                                                                                             | Grupo de faturas de fornecedor excluindo detalhes de lançamento                  |
+| Grupo de faturas do fornecedor excluindo os lançamentos | Criar transações de fatura de fornecedor que ainda não tenham sido lançadas em uma conta de entrada temporária.                                                                                                                                                                                                                                                             | Grupo de faturas de fornecedor excluindo detalhes de lançamento                  |
 | Grupo de faturas de fornecedor               | Criar transações de grupo de fatura de fornecedor.                                                                                                                                                                                                                                                                                                                    |                                                                |
 | Registro de fatura de fornecedor          | Lance faturas de fornecedor que estejam em um diário.                                                                                                                                                                                                                                                                                                                 | Diário de faturas                                                |
 | Nota promissória reemitida por fornecedor     | Reemitir uma nota promissória que foi liquidada anteriormente pelo banco da sua organização.                                                                                                                                                                                                                                                                      | Reemitir diário de notas promissórias                                 |
