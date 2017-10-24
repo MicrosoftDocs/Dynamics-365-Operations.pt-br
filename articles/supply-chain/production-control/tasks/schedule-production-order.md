@@ -17,41 +17,41 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 4aeb51fd2d9e916d5838b47c4a6b74800572a9ca
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="schedule-a-production-order"></a><span data-ttu-id="81de8-103">Agendar uma ordem de produção</span><span class="sxs-lookup"><span data-stu-id="81de8-103">Schedule a production order</span></span>
+# <a name="schedule-a-production-order"></a><span data-ttu-id="5a1fe-103">Agendar uma ordem de produção</span><span class="sxs-lookup"><span data-stu-id="5a1fe-103">Schedule a production order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="81de8-104">Este procedimento mostra como agendar uma ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="81de8-104">This procedure shows how to schedule a production order.</span></span> <span data-ttu-id="81de8-105">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="81de8-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="81de8-106">Este é o terceiro procedimento de sete que explica o ciclo de vida da ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="81de8-106">This is the third procedure out of seven which explains the production order lifecycle.</span></span>
+<span data-ttu-id="5a1fe-104">Este procedimento mostra como agendar uma ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-104">This procedure shows how to schedule a production order.</span></span> <span data-ttu-id="5a1fe-105">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="5a1fe-106">Este é o terceiro procedimento de sete que explica o ciclo de vida da ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-106">This is the third procedure out of seven which explains the production order lifecycle.</span></span>
 
 
-## <a name="schedule-a-production-order"></a><span data-ttu-id="81de8-107">Agendar uma ordem de produção</span><span class="sxs-lookup"><span data-stu-id="81de8-107">Schedule a production order</span></span>
-1. <span data-ttu-id="81de8-108">Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.</span><span class="sxs-lookup"><span data-stu-id="81de8-108">Go to Production control > Production orders > All production orders.</span></span>
-    * <span data-ttu-id="81de8-109">Selecione uma ordem de produção com o status Estimado.</span><span class="sxs-lookup"><span data-stu-id="81de8-109">Select a production order that has the Estimated status.</span></span>  
-2. <span data-ttu-id="81de8-110">No Painel de Ação, clique em Agenda.</span><span class="sxs-lookup"><span data-stu-id="81de8-110">On the Action Pane, click Schedule.</span></span>
-3. <span data-ttu-id="81de8-111">Clique em Agendar trabalhos.</span><span class="sxs-lookup"><span data-stu-id="81de8-111">Click Schedule jobs.</span></span>
-    * <span data-ttu-id="81de8-112">Os parâmetros para agendar são configurados nessa página.</span><span class="sxs-lookup"><span data-stu-id="81de8-112">The parameters for scheduling are set up on this page.</span></span> <span data-ttu-id="81de8-113">Você pode configurar os parâmetros para usuários específicos ou todos os usuários.</span><span class="sxs-lookup"><span data-stu-id="81de8-113">You can set up the parameters for specific users or all users.</span></span>  
-4. <span data-ttu-id="81de8-114">No campo Direção do plano, selecione 'Avançar a partir de hoje'.</span><span class="sxs-lookup"><span data-stu-id="81de8-114">In the Scheduling direction field, select 'Forward from today'.</span></span>
-5. <span data-ttu-id="81de8-115">No campo Data de planejamento, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="81de8-115">In the Scheduling date field, enter a date.</span></span>
-6. <span data-ttu-id="81de8-116">Marque ou desmarque a caixa de seleção Capacidade finita.</span><span class="sxs-lookup"><span data-stu-id="81de8-116">Select or clear the Finite capacity check box.</span></span>
-7. <span data-ttu-id="81de8-117">Marque ou desmarque a caixa de seleção Material finito.</span><span class="sxs-lookup"><span data-stu-id="81de8-117">Select or clear the Finite material check box.</span></span>
-8. <span data-ttu-id="81de8-118">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="81de8-118">Click OK.</span></span>
+## <a name="schedule-a-production-order"></a><span data-ttu-id="5a1fe-107">Agendar uma ordem de produção</span><span class="sxs-lookup"><span data-stu-id="5a1fe-107">Schedule a production order</span></span>
+1. <span data-ttu-id="5a1fe-108">Vá para Controle de produção > Ordens de produção > Todas as ordens de produção.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-108">Go to Production control > Production orders > All production orders.</span></span>
+    * <span data-ttu-id="5a1fe-109">Selecione uma ordem de produção com o status Estimado.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-109">Select a production order that has the Estimated status.</span></span>  
+2. <span data-ttu-id="5a1fe-110">No Painel de Ação, clique em Agenda.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-110">On the Action Pane, click Schedule.</span></span>
+3. <span data-ttu-id="5a1fe-111">Clique em Agendar trabalhos.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-111">Click Schedule jobs.</span></span>
+    * <span data-ttu-id="5a1fe-112">Os parâmetros para agendar são configurados nessa página.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-112">The parameters for scheduling are set up on this page.</span></span> <span data-ttu-id="5a1fe-113">Você pode configurar os parâmetros para usuários específicos ou todos os usuários.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-113">You can set up the parameters for specific users or all users.</span></span>  
+4. <span data-ttu-id="5a1fe-114">No campo Direção do plano, selecione 'Avançar a partir de hoje'.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-114">In the Scheduling direction field, select 'Forward from today'.</span></span>
+5. <span data-ttu-id="5a1fe-115">No campo Data de planejamento, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-115">In the Scheduling date field, enter a date.</span></span>
+6. <span data-ttu-id="5a1fe-116">Marque ou desmarque a caixa de seleção Capacidade finita.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-116">Select or clear the Finite capacity check box.</span></span>
+7. <span data-ttu-id="5a1fe-117">Marque ou desmarque a caixa de seleção Material finito.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-117">Select or clear the Finite material check box.</span></span>
+8. <span data-ttu-id="5a1fe-118">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-118">Click OK.</span></span>
 
-## <a name="view-the-scheduling-results"></a><span data-ttu-id="81de8-119">Exiba os resultados do agendamento</span><span class="sxs-lookup"><span data-stu-id="81de8-119">View the scheduling results</span></span>
-1. <span data-ttu-id="81de8-120">No Painel de Ação, clique em Ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="81de8-120">On the Action Pane, click Production order.</span></span>
-2. <span data-ttu-id="81de8-121">Clique em Todos os trabalhos.</span><span class="sxs-lookup"><span data-stu-id="81de8-121">Click All jobs.</span></span>
-    * <span data-ttu-id="81de8-122">Essa página exibe os trabalhos programados que você acabou de gerar.</span><span class="sxs-lookup"><span data-stu-id="81de8-122">This page displays the scheduled jobs that you have just generated.</span></span>  
-3. <span data-ttu-id="81de8-123">Expanda ou recolha a seção Plano.</span><span class="sxs-lookup"><span data-stu-id="81de8-123">Expand or collapse the Scheduling section.</span></span>
-    * <span data-ttu-id="81de8-124">Na Guia Rápida Programação, você pode exibir a data e a hora programadas.</span><span class="sxs-lookup"><span data-stu-id="81de8-124">On the Scheduling FastTab, you can view the scheduled date and time.</span></span>  
-4. <span data-ttu-id="81de8-125">Clique em Consultas.</span><span class="sxs-lookup"><span data-stu-id="81de8-125">Click Inquiries.</span></span>
-5. <span data-ttu-id="81de8-126">Clique em Capacidade máxima.</span><span class="sxs-lookup"><span data-stu-id="81de8-126">Click Capacity load.</span></span>
-    * <span data-ttu-id="81de8-127">A página Capacidade máxima exibe a capacidade reservada com o agendamento do trabalho, o número total de horas que está reservado no recurso atualmente, e o número de horas que permanece disponível para o planejamento de trabalho do recurso.</span><span class="sxs-lookup"><span data-stu-id="81de8-127">The Capacity load page displays the capacity that is reserved through job scheduling, the total number of hours that are currently reserved on the resource, and the number of hours that remain available for job scheduling on the resource.</span></span>  
-6. <span data-ttu-id="81de8-128">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="81de8-128">Close the page.</span></span>
-7. <span data-ttu-id="81de8-129">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="81de8-129">Close the page.</span></span>
+## <a name="view-the-scheduling-results"></a><span data-ttu-id="5a1fe-119">Exiba os resultados do agendamento</span><span class="sxs-lookup"><span data-stu-id="5a1fe-119">View the scheduling results</span></span>
+1. <span data-ttu-id="5a1fe-120">No Painel de Ação, clique em Ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-120">On the Action Pane, click Production order.</span></span>
+2. <span data-ttu-id="5a1fe-121">Clique em Todos os trabalhos.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-121">Click All jobs.</span></span>
+    * <span data-ttu-id="5a1fe-122">Essa página exibe os trabalhos programados que você acabou de gerar.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-122">This page displays the scheduled jobs that you have just generated.</span></span>  
+3. <span data-ttu-id="5a1fe-123">Expanda ou recolha a seção Plano.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-123">Expand or collapse the Scheduling section.</span></span>
+    * <span data-ttu-id="5a1fe-124">Na Guia Rápida Programação, você pode exibir a data e a hora programadas.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-124">On the Scheduling FastTab, you can view the scheduled date and time.</span></span>  
+4. <span data-ttu-id="5a1fe-125">Clique em Consultas.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-125">Click Inquiries.</span></span>
+5. <span data-ttu-id="5a1fe-126">Clique em Capacidade máxima.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-126">Click Capacity load.</span></span>
+    * <span data-ttu-id="5a1fe-127">A página Capacidade máxima exibe a capacidade reservada com o agendamento do trabalho, o número total de horas que está reservado no recurso atualmente, e o número de horas que permanece disponível para o planejamento de trabalho do recurso.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-127">The Capacity load page displays the capacity that is reserved through job scheduling, the total number of hours that are currently reserved on the resource, and the number of hours that remain available for job scheduling on the resource.</span></span>  
+6. <span data-ttu-id="5a1fe-128">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-128">Close the page.</span></span>
+7. <span data-ttu-id="5a1fe-129">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-129">Close the page.</span></span>
 
 

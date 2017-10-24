@@ -17,63 +17,63 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: aefd075331d84fece02f67075484c7b4a3c104e6
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="issue-customer-fiscal-documents-project-brazil"></a><span data-ttu-id="c0198-103">Emitir notas fiscais para clientes (projeto) (Brasil)</span><span class="sxs-lookup"><span data-stu-id="c0198-103">Issue customer fiscal documents (project) (Brazil)</span></span>
+# <a name="issue-customer-fiscal-documents-project-brazil"></a><span data-ttu-id="8b4b3-103">Emitir notas fiscais para clientes (projeto) (Brasil)</span><span class="sxs-lookup"><span data-stu-id="8b4b3-103">Issue customer fiscal documents (project) (Brazil)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="c0198-104">É possível emitir uma nota fiscal para um projeto.</span><span class="sxs-lookup"><span data-stu-id="c0198-104">You can issue a fiscal document for a project.</span></span> <span data-ttu-id="c0198-105">A nota fiscal pode ser uma nota fiscal de serviço ou uma nota fiscal eletrônica.</span><span class="sxs-lookup"><span data-stu-id="c0198-105">The fiscal document can be either a service fiscal document or an electronic fiscal document.</span></span> <span data-ttu-id="c0198-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="c0198-106">This task uses the BRMF demo company.</span></span>
+<span data-ttu-id="8b4b3-104">É possível emitir uma nota fiscal para um projeto.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-104">You can issue a fiscal document for a project.</span></span> <span data-ttu-id="8b4b3-105">A nota fiscal pode ser uma nota fiscal de serviço ou uma nota fiscal eletrônica.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-105">The fiscal document can be either a service fiscal document or an electronic fiscal document.</span></span> <span data-ttu-id="8b4b3-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-106">This task uses the BRMF demo company.</span></span>
 
-1. <span data-ttu-id="c0198-107">Vá para Gerenciamento e contabilidade de projeto > Projetos > Contratos do projeto.</span><span class="sxs-lookup"><span data-stu-id="c0198-107">Go to Project management and accounting > Projects > Project contracts.</span></span>
-2. <span data-ttu-id="c0198-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c0198-108">Click New.</span></span>
-3. <span data-ttu-id="c0198-109">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c0198-109">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="c0198-110">No campo Fonte de financiamento, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="c0198-110">In the Funding source field, enter or select a value.</span></span>
-5. <span data-ttu-id="c0198-111">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="c0198-111">Click OK.</span></span>
-6. <span data-ttu-id="c0198-112">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="c0198-112">In the Sales tax group field, enter or select a value.</span></span>
-7. <span data-ttu-id="c0198-113">Expanda a seção Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="c0198-113">Expand the Fiscal information section.</span></span>
-8. <span data-ttu-id="c0198-114">Selecione Sim no campo Serviço no endereço de entrega.</span><span class="sxs-lookup"><span data-stu-id="c0198-114">Select Yes in the Service on delivery address field.</span></span>
-9. <span data-ttu-id="c0198-115">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="c0198-115">Click Save.</span></span>
-10. <span data-ttu-id="c0198-116">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c0198-116">Close the page.</span></span>
-11. <span data-ttu-id="c0198-117">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c0198-117">Close the page.</span></span>
-12. <span data-ttu-id="c0198-118">Vá para Gerenciamento e contabilidade de projeto > Projetos > Todos os projetos.</span><span class="sxs-lookup"><span data-stu-id="c0198-118">Go to Project management and accounting > Projects > All projects.</span></span>
-13. <span data-ttu-id="c0198-119">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c0198-119">Click New.</span></span>
-14. <span data-ttu-id="c0198-120">No campo Tipo de projeto, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="c0198-120">In the Project type field, select an option.</span></span>
-15. <span data-ttu-id="c0198-121">No campo Nome do projeto, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c0198-121">In the Project name field, type a value.</span></span>
-16. <span data-ttu-id="c0198-122">No campo Grupo de projetos, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="c0198-122">In the Project group field, enter or select a value.</span></span>
-17. <span data-ttu-id="c0198-123">No campo ID do contrato de projeto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="c0198-123">In the Project contract ID field, enter or select a value.</span></span>
-18. <span data-ttu-id="c0198-124">Clique em Criar projeto.</span><span class="sxs-lookup"><span data-stu-id="c0198-124">Click Create project.</span></span>
-19. <span data-ttu-id="c0198-125">No Painel de Ação, clique em Gerenciar.</span><span class="sxs-lookup"><span data-stu-id="c0198-125">On the Action Pane, click Manage.</span></span>
-20. <span data-ttu-id="c0198-126">Clique em Proposta de fatura.</span><span class="sxs-lookup"><span data-stu-id="c0198-126">Click Invoice proposal.</span></span>
-21. <span data-ttu-id="c0198-127">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="c0198-127">Click OK.</span></span>
-22. <span data-ttu-id="c0198-128">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="c0198-128">In the list, mark the selected row.</span></span>
-23. <span data-ttu-id="c0198-129">No campo Preço venda, insira um número.</span><span class="sxs-lookup"><span data-stu-id="c0198-129">In the Sales price field, enter a number.</span></span>
-24. <span data-ttu-id="c0198-130">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="c0198-130">Click Post.</span></span>
-25. <span data-ttu-id="c0198-131">No Painel de Ação, clique em Projeto.</span><span class="sxs-lookup"><span data-stu-id="c0198-131">On the Action Pane, click Project.</span></span>
-26. <span data-ttu-id="c0198-132">Clique em Hora.</span><span class="sxs-lookup"><span data-stu-id="c0198-132">Click Hour.</span></span>
-27. <span data-ttu-id="c0198-133">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c0198-133">Click New.</span></span>
-28. <span data-ttu-id="c0198-134">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="c0198-134">In the list, mark the selected row.</span></span>
-29. <span data-ttu-id="c0198-135">No campo Nome, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="c0198-135">In the Name field, enter or select a value.</span></span>
-30. <span data-ttu-id="c0198-136">Clique em Linhas.</span><span class="sxs-lookup"><span data-stu-id="c0198-136">Click Lines.</span></span>
-31. <span data-ttu-id="c0198-137">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="c0198-137">Click New.</span></span>
-32. <span data-ttu-id="c0198-138">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="c0198-138">In the list, mark the selected row.</span></span>
-33. <span data-ttu-id="c0198-139">No campo Categoria, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="c0198-139">In the Category field, enter or select a value.</span></span>
-34. <span data-ttu-id="c0198-140">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="c0198-140">In the Description field, type a value.</span></span>
-35. <span data-ttu-id="c0198-141">No campo Horas, insira um número.</span><span class="sxs-lookup"><span data-stu-id="c0198-141">In the Hours field, enter a number.</span></span>
-36. <span data-ttu-id="c0198-142">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="c0198-142">Click Post.</span></span>
-37. <span data-ttu-id="c0198-143">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="c0198-143">Click OK.</span></span>
-38. <span data-ttu-id="c0198-144">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c0198-144">Close the page.</span></span>
-39. <span data-ttu-id="c0198-145">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c0198-145">Close the page.</span></span>
-40. <span data-ttu-id="c0198-146">Selecione Sim no campo Imprimir fatura.</span><span class="sxs-lookup"><span data-stu-id="c0198-146">Select Yes in the Print invoice field.</span></span>
-41. <span data-ttu-id="c0198-147">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="c0198-147">Click OK.</span></span>
-42. <span data-ttu-id="c0198-148">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="c0198-148">Click OK.</span></span>
-43. <span data-ttu-id="c0198-149">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c0198-149">Close the page.</span></span>
-44. <span data-ttu-id="c0198-150">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c0198-150">Close the page.</span></span>
-45. <span data-ttu-id="c0198-151">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c0198-151">Close the page.</span></span>
-46. <span data-ttu-id="c0198-152">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="c0198-152">Close the page.</span></span>
+1. <span data-ttu-id="8b4b3-107">Vá para Gerenciamento e contabilidade de projeto > Projetos > Contratos do projeto.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-107">Go to Project management and accounting > Projects > Project contracts.</span></span>
+2. <span data-ttu-id="8b4b3-108">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-108">Click New.</span></span>
+3. <span data-ttu-id="8b4b3-109">No campo Nome, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-109">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="8b4b3-110">No campo Fonte de financiamento, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-110">In the Funding source field, enter or select a value.</span></span>
+5. <span data-ttu-id="8b4b3-111">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-111">Click OK.</span></span>
+6. <span data-ttu-id="8b4b3-112">No campo Grupo de impostos sobre vendas, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-112">In the Sales tax group field, enter or select a value.</span></span>
+7. <span data-ttu-id="8b4b3-113">Expanda a seção Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-113">Expand the Fiscal information section.</span></span>
+8. <span data-ttu-id="8b4b3-114">Selecione Sim no campo Serviço no endereço de entrega.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-114">Select Yes in the Service on delivery address field.</span></span>
+9. <span data-ttu-id="8b4b3-115">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-115">Click Save.</span></span>
+10. <span data-ttu-id="8b4b3-116">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-116">Close the page.</span></span>
+11. <span data-ttu-id="8b4b3-117">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-117">Close the page.</span></span>
+12. <span data-ttu-id="8b4b3-118">Vá para Gerenciamento e contabilidade de projeto > Projetos > Todos os projetos.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-118">Go to Project management and accounting > Projects > All projects.</span></span>
+13. <span data-ttu-id="8b4b3-119">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-119">Click New.</span></span>
+14. <span data-ttu-id="8b4b3-120">No campo Tipo de projeto, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-120">In the Project type field, select an option.</span></span>
+15. <span data-ttu-id="8b4b3-121">No campo Nome do projeto, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-121">In the Project name field, type a value.</span></span>
+16. <span data-ttu-id="8b4b3-122">No campo Grupo de projetos, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-122">In the Project group field, enter or select a value.</span></span>
+17. <span data-ttu-id="8b4b3-123">No campo ID do contrato de projeto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-123">In the Project contract ID field, enter or select a value.</span></span>
+18. <span data-ttu-id="8b4b3-124">Clique em Criar projeto.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-124">Click Create project.</span></span>
+19. <span data-ttu-id="8b4b3-125">No Painel de Ação, clique em Gerenciar.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-125">On the Action Pane, click Manage.</span></span>
+20. <span data-ttu-id="8b4b3-126">Clique em Proposta de fatura.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-126">Click Invoice proposal.</span></span>
+21. <span data-ttu-id="8b4b3-127">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-127">Click OK.</span></span>
+22. <span data-ttu-id="8b4b3-128">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-128">In the list, mark the selected row.</span></span>
+23. <span data-ttu-id="8b4b3-129">No campo Preço venda, insira um número.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-129">In the Sales price field, enter a number.</span></span>
+24. <span data-ttu-id="8b4b3-130">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-130">Click Post.</span></span>
+25. <span data-ttu-id="8b4b3-131">No Painel de Ação, clique em Projeto.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-131">On the Action Pane, click Project.</span></span>
+26. <span data-ttu-id="8b4b3-132">Clique em Hora.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-132">Click Hour.</span></span>
+27. <span data-ttu-id="8b4b3-133">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-133">Click New.</span></span>
+28. <span data-ttu-id="8b4b3-134">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-134">In the list, mark the selected row.</span></span>
+29. <span data-ttu-id="8b4b3-135">No campo Nome, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-135">In the Name field, enter or select a value.</span></span>
+30. <span data-ttu-id="8b4b3-136">Clique em Linhas.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-136">Click Lines.</span></span>
+31. <span data-ttu-id="8b4b3-137">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-137">Click New.</span></span>
+32. <span data-ttu-id="8b4b3-138">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-138">In the list, mark the selected row.</span></span>
+33. <span data-ttu-id="8b4b3-139">No campo Categoria, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-139">In the Category field, enter or select a value.</span></span>
+34. <span data-ttu-id="8b4b3-140">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-140">In the Description field, type a value.</span></span>
+35. <span data-ttu-id="8b4b3-141">No campo Horas, insira um número.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-141">In the Hours field, enter a number.</span></span>
+36. <span data-ttu-id="8b4b3-142">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-142">Click Post.</span></span>
+37. <span data-ttu-id="8b4b3-143">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-143">Click OK.</span></span>
+38. <span data-ttu-id="8b4b3-144">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-144">Close the page.</span></span>
+39. <span data-ttu-id="8b4b3-145">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-145">Close the page.</span></span>
+40. <span data-ttu-id="8b4b3-146">Selecione Sim no campo Imprimir fatura.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-146">Select Yes in the Print invoice field.</span></span>
+41. <span data-ttu-id="8b4b3-147">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-147">Click OK.</span></span>
+42. <span data-ttu-id="8b4b3-148">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-148">Click OK.</span></span>
+43. <span data-ttu-id="8b4b3-149">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-149">Close the page.</span></span>
+44. <span data-ttu-id="8b4b3-150">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-150">Close the page.</span></span>
+45. <span data-ttu-id="8b4b3-151">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-151">Close the page.</span></span>
+46. <span data-ttu-id="8b4b3-152">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-152">Close the page.</span></span>
 
 

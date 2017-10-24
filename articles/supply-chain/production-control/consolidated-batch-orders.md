@@ -19,31 +19,31 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 3ca9c920ea333bd21defebc29b40243d3a618a3d
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="consolidated-batch-orders"></a><span data-ttu-id="29675-103">Ordens de lote consolidadas</span><span class="sxs-lookup"><span data-stu-id="29675-103">Consolidated batch orders</span></span>
+# <a name="consolidated-batch-orders"></a><span data-ttu-id="e13ed-103">Ordens de lote consolidadas</span><span class="sxs-lookup"><span data-stu-id="e13ed-103">Consolidated batch orders</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="29675-104">Este artigo descreve o conceito das ordens de lotes consolidados.</span><span class="sxs-lookup"><span data-stu-id="29675-104">This article describes the concept of consolidated batch orders.</span></span>
+<span data-ttu-id="e13ed-104">Este artigo descreve o conceito das ordens de lotes consolidados.</span><span class="sxs-lookup"><span data-stu-id="e13ed-104">This article describes the concept of consolidated batch orders.</span></span>
 
-<span data-ttu-id="29675-105">Um item a granel produzido é considerado um item principal, enquanto um item embalado é considerado um item secundário.</span><span class="sxs-lookup"><span data-stu-id="29675-105">A bulk item that is produced is considered a parent item, whereas a packed item is considered a child item.</span></span> <span data-ttu-id="29675-106">A relação entre o item a granel e o item embalado é expressa em uma conversão do item a granel.</span><span class="sxs-lookup"><span data-stu-id="29675-106">The relation between the bulk item and the packed item is expressed in a bulk item conversion.</span></span> <span data-ttu-id="29675-107">Essa conversão do item a granel é definida no próprio item a granel.</span><span class="sxs-lookup"><span data-stu-id="29675-107">This bulk item conversion is defined on the bulk item itself.</span></span>  
+<span data-ttu-id="e13ed-105">Um item a granel produzido é considerado um item principal, enquanto um item embalado é considerado um item secundário.</span><span class="sxs-lookup"><span data-stu-id="e13ed-105">A bulk item that is produced is considered a parent item, whereas a packed item is considered a child item.</span></span> <span data-ttu-id="e13ed-106">A relação entre o item a granel e o item embalado é expressa em uma conversão do item a granel.</span><span class="sxs-lookup"><span data-stu-id="e13ed-106">The relation between the bulk item and the packed item is expressed in a bulk item conversion.</span></span> <span data-ttu-id="e13ed-107">Essa conversão do item a granel é definida no próprio item a granel.</span><span class="sxs-lookup"><span data-stu-id="e13ed-107">This bulk item conversion is defined on the bulk item itself.</span></span>  
 
-<span data-ttu-id="29675-108">Os itens embalados podem ser embalados em contêineres de um único tamanho ou de vários tamanhos considerados como uma unidade.</span><span class="sxs-lookup"><span data-stu-id="29675-108">Packed items can be packaged into containers of either a single size or multiple sizes that are considered one unit.</span></span> <span data-ttu-id="29675-109">Ao consolidar as ordens para um item a granel, você poderá ver todas as ordens do lote relacionadas em uma única exibição, que pode ajudar a determinar qualquer trabalho restante que tenha de ser concluído.</span><span class="sxs-lookup"><span data-stu-id="29675-109">By consolidating the orders for a bulk item, you can see all the related batch orders in a single view that can help you determine any remaining work that must be completed.</span></span>  
+<span data-ttu-id="e13ed-108">Os itens embalados podem ser embalados em contêineres de um único tamanho ou de vários tamanhos considerados como uma unidade.</span><span class="sxs-lookup"><span data-stu-id="e13ed-108">Packed items can be packaged into containers of either a single size or multiple sizes that are considered one unit.</span></span> <span data-ttu-id="e13ed-109">Ao consolidar as ordens para um item a granel, você poderá ver todas as ordens do lote relacionadas em uma única exibição, que pode ajudar a determinar qualquer trabalho restante que tenha de ser concluído.</span><span class="sxs-lookup"><span data-stu-id="e13ed-109">By consolidating the orders for a bulk item, you can see all the related batch orders in a single view that can help you determine any remaining work that must be completed.</span></span>  
 
-<span data-ttu-id="29675-110">Uma ordem de lote consolidada pode conter qualquer combinação das seguintes ordens:</span><span class="sxs-lookup"><span data-stu-id="29675-110">A consolidated batch order can contain any combination of the following orders:</span></span>
+<span data-ttu-id="e13ed-110">Uma ordem de lote consolidada pode conter qualquer combinação das seguintes ordens:</span><span class="sxs-lookup"><span data-stu-id="e13ed-110">A consolidated batch order can contain any combination of the following orders:</span></span>
 
--   <span data-ttu-id="29675-111">Uma única ordem a granel e várias ordens embaladas</span><span class="sxs-lookup"><span data-stu-id="29675-111">A single bulk order and multiple packed orders</span></span>
--   <span data-ttu-id="29675-112">Várias ordens a granel e várias ordens embaladas</span><span class="sxs-lookup"><span data-stu-id="29675-112">Multiple bulk orders and multiple packed orders</span></span>
--   <span data-ttu-id="29675-113">Várias ordens a granel e uma única ordem embalada</span><span class="sxs-lookup"><span data-stu-id="29675-113">Multiple bulk orders and a single packed order</span></span>
--   <span data-ttu-id="29675-114">Somente ordens embaladas</span><span class="sxs-lookup"><span data-stu-id="29675-114">Only packed orders</span></span>
+-   <span data-ttu-id="e13ed-111">Uma única ordem a granel e várias ordens embaladas</span><span class="sxs-lookup"><span data-stu-id="e13ed-111">A single bulk order and multiple packed orders</span></span>
+-   <span data-ttu-id="e13ed-112">Várias ordens a granel e várias ordens embaladas</span><span class="sxs-lookup"><span data-stu-id="e13ed-112">Multiple bulk orders and multiple packed orders</span></span>
+-   <span data-ttu-id="e13ed-113">Várias ordens a granel e uma única ordem embalada</span><span class="sxs-lookup"><span data-stu-id="e13ed-113">Multiple bulk orders and a single packed order</span></span>
+-   <span data-ttu-id="e13ed-114">Somente ordens embaladas</span><span class="sxs-lookup"><span data-stu-id="e13ed-114">Only packed orders</span></span>
 
 
 
