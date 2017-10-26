@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: d1fbcefd80f1c48fafbbcb6315406856eaae68a0
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -50,7 +49,7 @@ Para este ano, você estará gerando e explorando um relatório padrão. Este re
 4.  Vá para **Relatórios financeiros** em **Consultas e relatórios** na contabilidade.
 5.  Selecione a linha do relatório chamado **Detalhe de contabilidade – Padrão.**
 6.  Selecione **Editar.** Nota: Será solicitado que você baixe o criador de relatórios de clique único e faça logon. Use suas credenciais para fazer logon.
-7.  Altere o ano de base para 2012 e selecione **Gerar**. Quando um relatório é gerado do criador de relatórios, ele será aberto em uma nova guia do navegador. Você pode explorar o relatório na nova guia do navegador ou ir para a guia do seu navegador original e abrir o relatório ao selecionar na lista **Relatórios financeiros**.
+7.  Altere o ano de base para 2012 e selecione **Gerar**. Quando um relatório é gerado do designer de relatórios, ele é aberto em uma nova guia do navegador. Também é possível explorar o relatório na nova guia do navegador ou ir para a guia do navegador original e abrir o relatório de lá, selecionando-o da lista **Relatórios financeiros**.
 8.  No relatório aberto, selecione um dos valores para ser detalhado no detalhe da conta do relatório.
 9.  Nos detalhes da conta, selecione uma conta com dados e **detalhe o nível de transação do relatório**. No nível da transação do relatório, você pode ver as propriedades (atributos) que estão incluídas na criação do relatório. Dependendo da transação e da conta, alguns ou todos os atributos podem ser exibidos.
 10. Feche o nível da transação do relatório.
@@ -151,7 +150,7 @@ Para este ano, você modificará um relatório padrão existente. Você adiciona
 10. Selecione **Adicionar filtro da dimensão** e escolha **Departamento**.
 11. Digite **022** no campo e selecione **OK**.
 12. Feche o relatório filtrado.
-13. Selecione o menu suspenso Árvore de relatório **s** para visualizar as unidades de relatórios. Como alternativa, você pode fazer uma busca detalhada em uma linha do relatório para ver todos os saldos para todas as unidades da árvore de relatórios.
+13. Selecione o menu suspenso Árvore de relatório**s** para visualizar as unidades de relatórios. Como alternativa, você pode fazer uma busca detalhada em uma linha do relatório para ver todos os saldos para todas as unidades da árvore de relatórios.
 14. Fechar **Balanço consolidado e o demonstrativo de renda lado a lado**.
 15. Feche o **Criador de relatórios**.
 
@@ -183,8 +182,8 @@ Neste exercício, você criará um novo relatório. O relatório é um demonstra
 18. **Salve** suas alterações e **gere**. Depois que a geração do relatório for concluída e ele for aberto, é possível explorar o relatório.
 
 ## <a name="additional-resources"></a>Recursos adicionais
-[Relatório financeiro](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
-[Exibir relatórios financeiros](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
+[Relatório financeiro](../../financials/general-ledger/financial-reporting-getting-started.md) 
+[Exibir relatórios financeiros](../../financials/general-ledger/view-financial-reports.md) 
 [Blog de Relatório Financeiro do Dynamics](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6119f1c85b68e6ed5dce01a266c4e681dfc4cd30
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 06/13/2017
 
 Este tópico descreve como você pode usar a colaboração do fornecedor no Finance and Operations para trabalhar com POs e para monitorar o estoque em consignação no Dynamics 365 for Operations.
 
-Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com clientes no Microsoft Finanças e Operações. Inclui informações sobre como monitorar e responder a ordens de compra e como monitorar inventário de remessa. Também é possível usar colaboração de fornecedores para trabalhar com faturas. Para obter mais informações, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace).
+Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com clientes no Microsoft Finanças e Operações. Inclui informações sobre como monitorar e responder a ordens de compra e como monitorar inventário de remessa. Também é possível usar colaboração de fornecedores para trabalhar com faturas. Para obter mais informações, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md).
 
 ## <a name="working-with-purchase-orders"></a>Trabalhando com ordens de compra
 O espaço de trabalho **Confirmação de ordem de compra** permite que você responda a OCs enviadas para sua revisão. Ele também permite exibir informações sobre OCs que estão esperando uma ação do cliente e OCs que já foram confirmadas, mas ainda estão abertas. Há três listas no espaço de trabalho **Confirmação de ordem de compra**:

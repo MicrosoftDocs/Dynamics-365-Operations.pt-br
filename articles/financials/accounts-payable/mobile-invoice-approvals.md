@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
-ms.openlocfilehash: 108a4f4ce366d2efd66fc1ed27ffb6b23ff0e933
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 661c5a14d27f3ad9df6088c2977c507ca315a998
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Os recursos móveis no Microsoft Dynamics 365 for Finance and Operations, ediç�
 
 | Pré-requisito                                                                                            | descrição                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Pré-leitura do manual móvel                                                                                |[Plataforma móvel](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)                                                                                                  |
+| Pré-leitura do manual móvel                                                                                |[Plataforma móvel](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | Um ambiente com a versão 1611 do Microsoft Dynamics 365 for Operations e a atualização 3 da plataforma do Microsoft Dynamics for Operations (novembro de 2016)                   |
 | Instalar hotfix KB 3204341.                                                                              | O gravador de tarefas pode registrar erroneamente dois comandos próximos para caixas de diálogo suspensas incluídas na plataforma do Dynamics 365 for Operations, atualização 3 (atualização de novembro de 2016) |
 | Instalar hotfix KB 3207800.                                                                              | Este hotfix habilita a exibição de anexos no cliente móvel incluído na plataforma do Microsoft Dynamics 365 for Operations, atualização 3 (atualização de novembro de 2016).           |

@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 55c25b005e9dc73713f3d4a30eab5148b17c2fec
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: c2c625e9c4f0df762abd6120201a2623ac756bf9
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -61,7 +60,7 @@ A categoria de registro é o identificador de registro do país/região aprovado
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>Insira IDs de registro para registros de catálogo de endereços global
 
-O catálogo de endereços global (GAB) no Microsoft Finance and Operations contém informações de endereço consolidadas para clientes, fornecedores, contatos, parceiros comerciais e entidades legais. Para obter mais informações, consulte [Visão geral do catálogo de endereços global](/dynamics365/unified-operations/fin-and-ops/organization-administration/overview-global-address-book). Os registros de participantes que são armazenados no catálogo de endereços global podem conter um ou mais registros de endereços. Esses endereços são usados para fins diferentes, como o faturamento ou a entrega. Você pode configurar IDs de registro para informações de endereço para clientes, fornecedores, trabalhadores e entidades legais. Localize o registro do participante (entidade legal, fornecedor, cliente, trabalhador) para o qual você deseja inserir a ID do registro e, clique em **IDs de Registro** nos formulários relacionados à parte, à entidade legal, ao cliente, ao trabalhador para abrir a página **Gerenciar endereços**. Na guia **Registro de imposto**, clique em **Adicionar** e insira as informações a seguir sobre a ID do registro.
+O catálogo de endereços global (GAB) no Microsoft Finance and Operations contém informações de endereço consolidadas para clientes, fornecedores, contatos, parceiros comerciais e entidades legais. Para obter mais informações, consulte [Visão geral do catálogo de endereços global](../../fin-and-ops/organization-administration/overview-global-address-book.md). Os registros de participantes que são armazenados no catálogo de endereços global podem conter um ou mais registros de endereços. Esses endereços são usados para fins diferentes, como o faturamento ou a entrega. Você pode configurar IDs de registro para informações de endereço para clientes, fornecedores, trabalhadores e entidades legais. Localize o registro do participante (entidade legal, fornecedor, cliente, trabalhador) para o qual você deseja inserir a ID do registro e, clique em **IDs de Registro** nos formulários relacionados à parte, à entidade legal, ao cliente, ao trabalhador para abrir a página **Gerenciar endereços**. Na guia **Registro de imposto**, clique em **Adicionar** e insira as informações a seguir sobre a ID do registro.
 
 
 |Campo                |descrição                                                |
