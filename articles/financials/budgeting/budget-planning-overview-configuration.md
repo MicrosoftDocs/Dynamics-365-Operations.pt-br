@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 64d915a5e039ba242f6d5ae5f43c8e09d6ca282e
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +77,7 @@ No seguinte exemplo, a matriz corporativa estima os valores da linha de base do 
 
 Na página **Hierarquia da organização**, você pode designar uma hierarquia organizacional como uma hierarquia de planejamento de orçamento para cada processo de planejamento de orçamento. A hierarquia de planejamento de orçamento não precisa corresponder a hierarquia organizacional padrão que é usada para outras finalidades. Como essa hierarquia é usada para agregar e distribuir dados, pode ser necessário ter uma estrutura diferente. No esquema do exemplo, os departamentos de vendas estão no nível da matriz que inclui os departamentos do orçamento e de finanças. Provavelmente, esta estrutura difere da estrutura usada para gerenciar operações dos departamentos de vendas. Somente uma hierarquia da organização pode ser atribuída a cada processo do plano do orçamento. 
 
-Para obter mais informações, consulte [Organizações e hierarquias organizacionais](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies).
+Para obter mais informações, consulte [Organizações e hierarquias organizacionais](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md).
 
 ### <a name="user-security"></a>Segurança do usuário
 

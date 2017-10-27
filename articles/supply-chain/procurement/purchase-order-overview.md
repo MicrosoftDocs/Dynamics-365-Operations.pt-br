@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
-ms.openlocfilehash: a5dd28e79cbd66e79311c0549c63ea844394ab14
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: c36795a071cc72721558bfa8984ecf1f47501c91
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -48,7 +48,7 @@ Os artigos a seguir fornecem uma visão geral sobre os vários estágios pelos q
 -   [Criação de ordem de compra](purchase-order-creation.md)
 -   [Confirmação e aprovação da ordem de compra](purchase-order-approval-confirmation.md)
 -   [Recebimento de produtos contra ordens de compra](product-receipt-against-purchase-orders.md)
--   [Visão geral de faturas de fornecedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+-   [Visão geral de faturas de fornecedor](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>Tipos de ordens de compra
 Existem três tipos de ordens de compra. Quando você cria uma OC, você deve especificar o tipo. Você pode configurar um tipo de ordem padrão para novas ordens na página **Parâmetros de compras**.
@@ -92,7 +92,7 @@ O campo **Status de aprovação** é usado quando uma ordem de compra passa por 
 
 [Recebimento de produtos contra ordens de compra](product-receipt-against-purchase-orders.md)
 
-[Visão geral de faturas de fornecedor](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+[Visão geral de faturas de fornecedor](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 

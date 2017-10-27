@@ -15,10 +15,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 172d952c79347e7dd563cfda70729750fa0ddde9
-ms.openlocfilehash: c47ca406e2c8be98f26f1c78d6f5e0a3f66690a5
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 75865ece49837e2a8758c4d739d3e29ce9128945
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="vendor-invoice-automation"></a>Automação das faturas dos fornecedores
@@ -57,7 +57,7 @@ Um pacote de dados é a unidade de trabalho que deve ser enviada para Finanças 
 
 O anexo do documento de fatura do fornecedor é uma nova entidade de dados que é introduzida como parte desse recurso. A entidade do cabeçalho da fatura de fornecedor foi modificada para que ele suporte anexos. A entidade da linha de fatura do fornecedor não foi modificada para esse recurso.
 
-Este tópico não fornece uma definição detalhada de um pacote de dados. Também não explica como criar pacotes de dados. Para essa informações, consulte [Estrutura entidades de dados e pacotes](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages).
+Este tópico não fornece uma definição detalhada de um pacote de dados. Também não explica como criar pacotes de dados. Para essa informações, consulte [Estrutura entidades de dados e pacotes](../../dev-itpro/data-entities/data-entities-data-packages.md).
 
 Para gerar rapidamente dados de teste que incluem faturas e anexos, siga estas etapas.
 
