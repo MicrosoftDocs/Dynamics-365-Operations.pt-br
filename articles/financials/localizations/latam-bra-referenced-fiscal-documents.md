@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FiscalDocument_BR, SalesEditLines, TmpFiscalReference_BR
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 270224
 ms.search.region: Brazil
 ms.author: sndray
