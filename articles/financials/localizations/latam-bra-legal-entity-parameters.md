@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: Accountant_BR, AccountantElectronicAddress_BR, AccountantPostalAddress_BR, BrazilParameters, FiscalEstablishment_BR, FiscalEstablishmentGroup_BR
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 269404
 ms.assetid: af0951b7-078d-49ea-9655-1037dbd0bfe1
 ms.search.region: Brazil
@@ -19,10 +19,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 326d459bc999530eb39ffec59be1bdc2438c4192
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 15b25e77ae23d18b6e2a49392059fc05b1854782
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
