@@ -10,6 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: v-gonode
 ms.search.validFrom: 

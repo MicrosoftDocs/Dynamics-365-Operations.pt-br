@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 269134
 ms.assetid: d4c1d39b-64ec-4ddf-ba27-c0446f80f031
 ms.search.region: Brazil
