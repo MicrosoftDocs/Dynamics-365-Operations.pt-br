@@ -1,9 +1,9 @@
 ---
 title: "Políticas de conciliação tripla"
-description: "Este artigo oferece exemplos da conciliação tripla."
+description: "Este tópico oferece exemplos da conciliação tripla."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bc53df6b994c0d2e490e8823a53478f2ad04e163
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: da3099a07e3084bf49d03e0f4d421aebe9b39940
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo oferece exemplos da conciliação tripla.
+Este tópico oferece exemplos da conciliação tripla.
 
 <a name="example-three-way-matching-for-items"></a>exemplo: conciliação tripla para itens
 -------------------------------------
@@ -65,7 +65,7 @@ As políticas de conciliação de faturas neste exemplo ajudam as pessoas nas fu
 1.  Sammy, um funcionário no departamento de remessa na Fabrikam recebe, a quantidade total de computadores que são enviados da Contoso. Inserir uma quantidade de 5 em um recebimento de produtos. Como a ordem de compra foi totalmente recebida, o status da ordem de compra será alterado para Recebida.
 2.  Abril, coordenada de contas a pagar, na Fabrikam insere e verifica a fatura que é enviada por Contoso. Verifica as seguintes informações:
     -   Para os itens que exigem a conciliação tripla, a quantidade na linha da fatura corresponde à quantidade que foi recebida. A quantidade recebida é indicado no recibo de bens que corresponde à fatura.
-    -   Para os itens que exigem a política de conciliação dupla ou tripla, os preços na linha da fatura estão dentro das tolerâncias definidas no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Isso inclui os seguintes tipos de conciliação de preço:
+    -   Para os itens que exigem em bidirecional ou a conciliação tripla, os preços da linha da fatura estão dentro de tolerâncias definidas no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Isso inclui os seguintes tipos de correspondência de preço:
         -   Correspondência de preço unitário líquido – O preço unitário líquido da linha da fatura corresponde ao preço unitário líquido da linha da ordem de compra, na porcentagem de tolerância. Em este exemplo, a tolerância de preço líquido da unidade é +8%.
         -   Preços totais de correspondência – O valor líquido em correspondências da linha da fatura o valor líquido da linha da ordem de compra, na porcentagem de tolerância, o valor ou a porcentagem e o valor. Em este exemplo, os totais de preços que correspondem a tolerância são +15%.
 

@@ -1,9 +1,9 @@
 ---
 title: "Registro de Horário e presença"
-description: "Os trabalhadores de registro de tempo podem inserir diferentes tipos de registros de tempo, por exemplo, registro de entrada e de saída em atividades indiretas e registro de ausência. Este artigo descreve os registros, o cálculo, a aprovação e o uso do fluxo de trabalho para adicionar a estrutura e a aprovação automatizada ao processo de aprovação de folhas de ponto."
+description: "Os trabalhadores de registro de tempo podem inserir diferentes tipos de registros de tempo, por exemplo, registro de entrada e de saída em atividades indiretas e registro de ausência. Este tópico descreve os registros, o cálculo, a aprovação e o uso do fluxo de trabalho para adicionar a estrutura e a aprovação automatizada ao processo de aprovação de folhas de ponto."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 83603b1f8d20c18b7f10cd7224d491b558ee1b8b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 29040d0c96183898672bc405364ec59707bff53a
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Os trabalhadores de registro de tempo podem inserir diferentes tipos de registros de tempo, por exemplo, registro de entrada e de saída em atividades indiretas e registro de ausência. Este artigo descreve os registros, o cálculo, a aprovação e o uso do fluxo de trabalho para adicionar a estrutura e a aprovação automatizada ao processo de aprovação de folhas de ponto. 
+Os trabalhadores de registro de tempo podem inserir diferentes tipos de registros de tempo, por exemplo, registro de entrada e de saída em atividades indiretas e registro de ausência. Este tópico descreve os registros, o cálculo, a aprovação e o uso do fluxo de trabalho para adicionar a estrutura e a aprovação automatizada ao processo de aprovação de folhas de ponto. 
 
 <a name="registrations"></a>Registros
 -------------
@@ -66,7 +66,7 @@ Depois da instalação, os trabalhadores podem inserir diferentes tipos de regis
 -   As atividades indiretas, que são atividades não produtivas nas quais um trabalhador pode se envolver durante um dia útil. Exemplos dessas atividades são reuniões ou limpeza do espaço de trabalho.
 -   Hora extra, que pode ser registrada como horas extras, horário flexível ou hora extra.
 
-## <a name="adding-clockout-registrations"></a>Adicionando registros de saída
+## <a name="adding-clock-out-registrations"></a>Adicionando registros de saída
 Se um trabalhador esquecer de registrar a saída no fim do dia de trabalho, o registro ausente poderá ser adicionado, executando um trabalho em lote. O sistema comparará a hora de entrada e a hora de saída, de acordo com o perfil do trabalhador associado, e inserirá automaticamente o registro de saída ausente para corresponder à hora final do perfil. Ambos os registros de entrada e de saída são essenciais para o cálculo e a aprovação subsequentes dos registros de horas antes que possam ser transferidos para a folha de pagamento.
 
 ## <a name="calculating-registrations"></a>Calculando registros

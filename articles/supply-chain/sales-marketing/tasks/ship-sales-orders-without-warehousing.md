@@ -3,7 +3,7 @@ title: Enviar ordens de venda sem armazenamento
 description: "Este guia demonstra como atualizar uma ordem de venda quando produtos são enviados ao cliente."
 author: omulvad
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3f1b9dd4b99bcbcc6cfbc5cfd8e3271fa80c628c
+ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
+ms.openlocfilehash: a98e58b26432ee01e62d60f81a768f14568e34e4
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Enviar ordens de venda sem armazenamento
@@ -57,6 +57,6 @@ Este guia demonstra como atualizar uma ordem de venda quando produtos são envia
 19. Feche a página.
 20. No Painel de Ação, clique em Separar e empacotar.
 21. Clique em Guia de remessa.
-    * A página Diário de guias de remessa contém todos os documentos de guia de remessa que foram gerados para sua ordem. Você pode revisar os detalhes de cada documento e imprimi-los, se desejar.  
+    * A página Diário de guias de remessa contém todos os documentos de guia de remessa que foram gerados para sua ordem. Você pode revisar os detalhes de cada documento e imprimi-los, se necessário.  
 
 

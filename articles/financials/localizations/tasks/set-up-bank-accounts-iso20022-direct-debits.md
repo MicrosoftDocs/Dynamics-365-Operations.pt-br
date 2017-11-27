@@ -3,7 +3,7 @@ title: "Configurar clientes e contas bancárias de cliente para débitos diretos
 description: "Essa tarefa orienta como configurar uma conta bancária do cliente e uma carta de ordem de débito direto do cliente que são necessárias para gerar o arquivo de pagamento do cliente, como o débito direto ISO20022."
 author: mrolecki
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 10/31/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 5b4652b76e089d6beb2ce1513d06cf07a5ea3195
+ms.sourcegitcommit: 22fadf126dfa884520bc2fe6f94bc3fe3b612f77
+ms.openlocfilehash: 86c3f62e17d4955c12d09b512624eb5f576a9cd3
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/31/2017
 
 ---
 # <a name="set-up-customers-and-customer-bank-accounts-for-iso20022-direct-debits"></a>Configurar clientes e contas bancárias de cliente para débitos diretos de ISO20022
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Essa tarefa orienta como configurar uma conta bancária do cliente e uma carta de ordem de débito direto do cliente que são necessárias para gerar o arquivo de pagamento do cliente, como o débito direto ISO20022. Dependendo dos formatos de pagamento de cliente que estiverem configurados, podem ser necessárias informações adicionais de um cliente ou de uma conta bancária do cliente que não estão cobertas neste procedimento. 
+Essa tarefa orienta como configurar uma conta bancária do cliente e uma carta de ordem de débito direto do cliente que são necessárias para gerar o arquivo de pagamento do cliente, como o débito direto ISO20022. Dependendo dos formatos de pagamento de cliente que estiverem configurados, talvez sejam necessárias informações adicionais de um cliente ou de uma conta bancária do cliente que não estão cobertas neste procedimento. 
 
 Esta tarefa foi criada usando a empresa DEMF de dados de demonstração com uma entidade legal primária na Alemanha.
 

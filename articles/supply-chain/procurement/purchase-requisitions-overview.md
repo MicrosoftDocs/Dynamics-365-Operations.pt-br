@@ -1,9 +1,9 @@
 ---
 title: "Visualização geral da requisição de compra"
-description: "Este artigo descreve o fluxo de trabalho de requisição de compra e os diferentes status que uma requisição de compra pode ter."
+description: "Este tópico descreve o fluxo de trabalho de requisição de compra e os diferentes status que uma requisição de compra pode ter."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6fb8bbc7340650341618f3a9613f4234ef1e9c04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b96a89bcabdaa3e3a3be3786dda15f9725f5a50d
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve o fluxo de trabalho de requisição de compra e os diferentes status que uma requisição de compra pode ter.
+Este tópico descreve o fluxo de trabalho de requisição de compra e os diferentes status que uma requisição de compra pode ter.
 
 Dependendo da configuração da sua organização, você poderá criar requisições de compra para os produtos consumidos pela organização. Uma requisição de compra é um documento interno que autoriza o departamento de Compras a comprar produtos.  
 
@@ -70,7 +70,7 @@ O status geral de uma requisição de compra é determinado pelo status das linh
 <tr class="odd">
 <td>Rascunho</td>
 <td>Rascunho</td>
-<td>A requisição de compra e a linha da requisição de compra foram criadas, mas não foram enviadas para revisão. As requisições de compra e as linhas de requisição de compra com o status <strong>Rascunho</strong> podem ser alteradas. Uma requisição de compra ou uma linha de requisição de compra também terá um status <strong>Rascunho</strong> se tiver sido cancelado mas não reenviado para revisão.<strong>Observação:</strong> você pode enviar ou cancelar uma requisição de compra no nível do documento. No entanto, você não pode enviar ou cancelar uma única linha da requisição de compra.</td>
+<td>A requisição de compra e a linha da requisição de compra foram criadas, mas não foram enviadas para revisão. Pode-se modificar requisições de compra e linhas de requisição de compra com status <strong>Rascunho</strong>. Uma requisição de compra ou uma linha da requisição de compra também tem um status <strong>Rascunho</strong> se foi cancelada, mas não foi reenviada para revisão. <strong>Observação:</strong> Você pode enviar ou cancelar uma requisição de compra no nível do documento. No entanto, você não pode enviar ou cancelar uma única linha da requisição de compra.</td>
 </tr>
 <tr class="even">
 <td>Em revisão</td>
@@ -111,7 +111,7 @@ Se você reenviar uma linha da requisição de compra que foi rejeitada, o proce
 <tr class="odd">
 <td>Cancelado</td>
 <td>Cancelado</td>
-<td>A requisição de compra e todas as linhas de requisição de compra foram canceladas.<strong>Observação:</strong> se você não quiser mais um item que esteja em uma linha da requisição de compra, deverá cancelar a linha de requisição de compra caso ela já tenha sido aprovada. Somente as linhas de requisição de compra que foram aprovadas podem ser canceladas. Se qualquer linha da requisição de compra estiver em revisão, a requisição de compra também terá um status <strong>Em revisão</strong>. Nesse caso, você poderá cancelar a requisição de compra e excluir a linha da requisição de compra apropriada.</td>
+<td>A requisição de compra e todas as linhas da requisição de compra foram canceladas. <strong>Observação:</strong> Caso não precise mais de um item que está em uma linha da requisição de compra, cancele a linha da requisição de compra se ela já tiver sido aprovada. Somente as linhas de requisição de compra que foram aprovadas podem ser canceladas. Se qualquer linha da requisição de compra estiver em revisão, a requisição de compra também terá um status <strong>Em revisão</strong>. Nesse caso, você poderá cancelar a requisição de compra e excluir a linha da requisição de compra apropriada.</td>
 </tr>
 <tr class="even">
 <td>Fechado</td>

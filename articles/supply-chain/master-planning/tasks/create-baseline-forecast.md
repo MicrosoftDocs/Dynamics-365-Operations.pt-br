@@ -3,7 +3,7 @@ title: "Criar uma previsão de linha de base"
 description: "Um planejador de produção pode criar uma linha de base de previsão usando modelos de previsão das séries temporais ou copiando as demandas históricas."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 10/27/2016
+ms.date: 111/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6363ee48c0d13c79a6c623205dfa10f50d6070f
+ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
+ms.openlocfilehash: 6a712077fed4a94ae6ae6ce7ea2cfba8848e5fa5
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="create-a-baseline-forecast"></a>Criar uma previsão de linha de base
@@ -42,7 +42,7 @@ Um planejador de produção pode criar uma linha de base de previsão usando mod
 7. Feche a página.
 8. Feche a página.
 
-## <a name="set-up-the-demand-forecasting-paramters"></a>Configurar os parâmetros para previsão de demanda
+## <a name="set-up-the-demand-forecasting-parameters"></a>Configurar os parâmetros de previsão de demanda
 1. Vá para Planejamento mestre > Configuração > Previsão de demanda > Parâmetros de previsão de demanda.
 2. Expanda a seção de parâmetros de algoritmo de previsão.
 3. No campo da estratégia de geração de previsão, selecione 'Copiar sobre demanda histórica'.

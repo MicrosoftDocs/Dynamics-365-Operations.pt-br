@@ -3,7 +3,7 @@ title: "Importar configurações para gerar documentos com atualização de dado
 description: "Para completar as etapas, neste procedimento você deve primeiro concluir o procedimento, \"ER Criar um provedor de configuração e marcá-lo como ativo\"."
 author: NickSelin
 manager: AnnBe
-ms.date: 06/19/2017
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: 7f2fe7228856ff6377be7d527b32d3ddee252981
+ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
+ms.openlocfilehash: 6a945eb6c733d760cc723bfa7135d73bdf502724
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="import-configurations-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Importar configurações para gerar documentos com atualização de dados de aplicativo para relatório eletrônico (ER)

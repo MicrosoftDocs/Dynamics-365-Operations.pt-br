@@ -1,7 +1,7 @@
 ---
 title: "Cálculos de BOM"
 description: "Os cálculos de preço de venda e de acúmulo de custo são conhecidos como cálculos de lista de materiais (BOM), e você os inicia na página Cálculos. Este tópico fornece informações sobre cálculos de BOM."
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, SalesQuotationTable, SalesTable, SMAServiceOrderTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b1bcf11a8f6fc4921e8659fe1d00c093e3ad5b74
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: ad00a3b5e41892aaa705fd8eafa52cc199e1d806
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -87,7 +87,7 @@ Ao usar uma abordagem de custo mais marcação, o preço de vendas calculado do 
 -   **Cálculo de BOM para um item e versão de avaliação de custo especificada** - O cálculo de BOM gera um registro de preço de vendas pendente na versão de custo. Esse registro de preço de vendas fornece o ponto de partida para exibir os detalhes de cálculo (por exemplo, na página **Calcular custo do item**). O registro de preço de compras age principalmente como informação de referência e não é usado como base para um preço de vendas em ordens de venda.
 -   **Cálculo de BOM específico a uma ordem** - Uma variação da página **Cálculo de BOM** é usado no contexto da ordem de venda, cotação de vendas ou item de linha de ordem de serviço. Um cálculo de BOM específico de uma ordem não gera um registro em uma versão do custo. Em vez disso, gera um registro de cálculo que aparece na página **Resultados de cálculo de BOM**. Esse registro de cálculo fornece o ponto de partida para exibir os detalhes de cálculo (por exemplo, na página **Calcular custo do item**). Informações sobre um registro de cálculo selecionado podem ser transferidas para o item de linha que o originou. Por exemplo, o preço de venda calculado pode ser transferido para um item de linha de ordem de venda.
 
-## <a name="orderspecific-bom-calculations"></a>Cálculos de BOM específicos para uma ordem
+## <a name="order-specific-bom-calculations"></a>Cálculos de BOM específicos a uma ordem
 Um cálculo de BOM específico a uma ordem representa uma variação de um cálculo de BOM para um item fabricado. O cálculo de BOM específico para uma ordem é realizado no contexto de um item de linha de uma ordem de venda, uma cotação de venda ou uma ordem de serviço. Um cálculo de BOM específico para uma ordem gera um registro de cálculo que aparece na página **Resultados de cálculo de BOM**. O registro de cálculo inclui um peso calculado, um custo calculado baseado nos registros de custo ativo e um preço de venda calculado. O registro de cálculo que cada cálculo de BOM específico para uma ordem gera na página **Resultados de cálculo de BOM** é identificado de forma única, por um número de cálculo. Opcionalmente, os resultados de um registro de cálculo podem ser transferidos para o item de linha de origem. Um cálculo de BOM específico para uma ordem não é o mesmo que um cálculo de BOM para um item fabricado de duas maneiras:
 
 -   Um cálculo de BOM específico para uma ordem não gera um registro de custo de item em uma versão de avaliação de custo. Portanto, as políticas de cálculo de BOM não se aplicam quando um registro de custo de item é criado ou quando um registro de custo é substituído.

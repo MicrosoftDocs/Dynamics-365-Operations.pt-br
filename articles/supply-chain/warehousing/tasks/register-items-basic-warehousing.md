@@ -17,10 +17,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 184f38347e2525f3efef9b0d55003a94a75380d4
+ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
+ms.openlocfilehash: c7148bd807ef29b0dd89204a0fbe9b8480095aba
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registrar itens para um item básico com armazenamento habilitado usando um diário de entrada de itens
@@ -34,7 +34,7 @@ Este procedimento mostra como registrar itens usando o diário de entrada de ite
 1. Vá para Gerenciamento de estoque > Entradas de diário > Chegada de item > Chegada de item.
 2. Clique em Novo.
 3. No campo Nome, digite um valor.
-    * Se você estiver usando USMF, você pode digitar WHS. Se você estiver usando outros dados, o diário que você escolher o nome precisará ter as seguintes propriedades: Verificar local de separação deve estar definida como Não e Gerenciamento de quarentena deve estar definido como Não.  
+    * Se você estiver usando USMF, você pode digitar WHS. Se você estiver usando outros dados, o diário cujo nome você escolheu precisará ter as seguintes propriedades: o local de separação de verificação deve ser definido como Não, e o gerenciamento de quarentena deve ser definido como Não.  
 4. No campo Guia de remessa, digite um valor.
     * Este é o ID da guia de remessa da guia de remessa emitido pelo fornecedor. Adicionar um número único.  
 5. No campo Número, selecione a ordem de compra.

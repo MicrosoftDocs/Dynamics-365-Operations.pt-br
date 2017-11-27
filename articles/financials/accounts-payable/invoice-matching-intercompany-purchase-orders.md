@@ -3,7 +3,7 @@ title: "Conciliação de faturas e ordens de compra intercompanhia"
 description: "A entidade legal da compra envolvida em uma transação de comércio intercompanhia pode ser configurada para usar a conciliação de faturas de contas a pagar. Nesse caso, os requisitos de lançamento para o comércio intercompanhia e a conciliação de faturas de contas a pagar devem ser atendidos para que as faturas de fornecedor intercompanhia sejam lançadas."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: affdffd5e73958788ed2a5a4959eea71024140ab
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -52,7 +52,7 @@ Os valores líquidos para a fatura de fornecedor intercompanhia e a fatura de cl
 2.  Na Fabrikan Vendas, registre que os itens foram recebidos e lance uma guia de remessa. O status de OVIC888 muda para Entregue. O status de OCIC222 muda para Recebido.
 3.  Na Fabrikan Vendas, realize uma atualização de fatura para OVIC888. O preço unitário é 0,45 e 100 itens são atualizados.
 4.  Na Fabrikam Compras, crie uma fatura para OCIC222. Acidentalmente você altera o preço líquido de 45,00 para 54,00. Um ícone é exibido para indicar que o preço excede a tolerância de preço permitida de 2%.
-5.  Na página Detalhes da conciliação de faturas, selecione a opção para aprovar o lançamento com discrepâncias de conciliação. Na página Fatura de fornecedor, clique em OK Se a fatura do fornecedor não fosse uma fatura de fornecedor intercompanhia, o lançamento teria sido feito com êxito. No entanto, como você está trabalhando com uma fatura de fornecedor intercompanhia, o lançamento não foi feito com êxito. Para o comércio intercompanhia, os totais de fatura na ordem de venda intercompanhia devem ser iguais aos totais de fatura na ordem de compra intercompanhia correspondente. Para resolver esse problema, você deve corrigir o preço líquido da fatura alterando o preço líquido de volta para o valor padrão, 45,00.
+5.  Na página Detalhes da conciliação de faturas, selecione a opção para aprovar o lançamento com discrepâncias de conciliação. Na página Fatura do fornecedor, clique em OK. Se a fatura do fornecedor não fosse uma fatura de fornecedor intercompanhia, o lançamento teria sido feito com êxito. No entanto, como você está trabalhando com uma fatura de fornecedor intercompanhia, o lançamento não foi feito com êxito. Para o comércio intercompanhia, os totais de fatura na ordem de venda intercompanhia devem ser iguais aos totais de fatura na ordem de compra intercompanhia correspondente. Para resolver esse problema, você deve corrigir o preço líquido da fatura alterando o preço líquido de volta para o valor padrão, 45,00.
 
 ## <a name="example-quantity-matching-with-intercompany-trade"></a>Exemplo: Conciliação de quantidade com comércio intercompanhia
 As quantidades da ordem de compra intercompanhia e da ordem de venda intercompanhia devem ser iguais. Essa exigência substitui as aprovações de conciliação de faturas aplicáveis. Este exemplo usa a seguinte configuração de comércio intercompanhia adicional:

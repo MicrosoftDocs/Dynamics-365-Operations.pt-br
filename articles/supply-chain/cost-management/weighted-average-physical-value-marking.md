@@ -1,9 +1,9 @@
 ---
-title: "Média ponderada com marcação e valor físico"
-description: 
+title: "Média ponderada com valor físico e marcação"
+description: "A média ponderada é um modelo de estoque com base no princípio da média ponderada, no qual as saídas do estoque são avaliadas no valor médio dos itens recebidos no estoque durante o período de fechamento de estoque, mais qualquer estoque disponível do período anterior."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
@@ -20,20 +20,20 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c9db625e5af77b8f5d1569e35ce2d4c20e5be646
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="weighted-average-with-physical-value-and-marking"></a>Média ponderada com marcação e valor físico
+# <a name="weighted-average-with-physical-value-and-marking"></a>Média ponderada com valor físico e marcação
 
 [!include[banner](../includes/banner.md)]
 
 [!include[retail name](../includes/retail-name.md)]
 
-
+A média ponderada é um modelo de estoque com base no princípio da média ponderada, no qual as saídas do estoque são avaliadas no valor médio dos itens recebidos no estoque durante o período de fechamento de estoque, mais qualquer estoque disponível do período anterior.
 
 Quando você executa um fechamento de estoque, todos os recebimentos são liquidados contra uma saída virtual, que armazena a quantidade e o valor totais recebidos. Essa saída virtual possui um recebimento virtual correspondente a partir do qual as saídas são liquidadas. Dessa forma, todas as saídas obtêm o mesmo custo médio. A saída e o recebimento virtuais podem ser vistos como uma transferência virtual, que é chamada de transferência de fechamento de estoque de média ponderada.
 
@@ -196,7 +196,7 @@ Uma transação de recebimento é marcada para uma transação de saída. Em seg
 
 É possível marcar uma transação de saída para um recebimento antes que a transação seja lançada. Você pode fazer isso em uma linha da ordem de venda na página Detalhes da ordem de venda. As transações de recebimento abertas são exibidas na página Marcação. 
 
-É possível marcar uma transação de saída para um recebimento após a transação ter sido lançada. Você pode corresponder ou marcar uma transação de saída para uma transação de recebimento em aberto para um item inventariado de um diário de ajuste de estoque lançado. 
+É possível marcar uma transação de saída para um recebimento após a transação ter sido lançada. Você pode corresponder ou marcar uma transação de saída para uma transação de recebimento aberta para um item inventariado de um diário de ajuste de estoque lançado. 
 
 As transações a seguir são ilustradas no gráfico abaixo:
 -   1a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 10,00 cada.

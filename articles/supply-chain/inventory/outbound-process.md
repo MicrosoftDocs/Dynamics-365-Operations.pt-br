@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9c09a7bd314bb9005eb0b6c69d7cccad1c30cfdb
-ms.openlocfilehash: 7b395cab2184f8f9f3f50a7a595c6ed782645323
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1b8b17b719713097d77a117cca53eff6886ff1c7
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Vá para **Gerenciamento de estoque** \> **Configuração** \> **Parâmetros de 
 
 [![Opção Finalizar ordem de estoque de saída](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
-Às vezes, alguns itens em estoque não podem ser separados como parte do processo de lista de separação. Por exemplo, essa situação pode ocorrer se o trabalhador de depósito reduzir as quantidades nas linhas de separação e processar a lista de separação. Se a opção **Finalizar ordem de estoque de saída** for definida como **Sim**, as quantidades não selecionadas restantes são reportadas novamente para o nível da ordem. Se a opção for definida como **Não**, as quantidades não selecionadas restantes serão mantidas como uma quantidade de ordem de saída aberta. Nesse caso, as quantidades permanecem liberadas para o depósito devem ser adicionadas a uma nova lista de separação como parte da funcionalidade **Abrir ordens de saída**.
+Quando o trabalhador de depósito reduz as quantidades da lista de separação, as quantidades correspondentes da ordem de estoque são removidas de remessa. Quando a lista de separação for atualizada em dado momento, as quantidades restantes serão relatadas na ordem se a opção **Finalizar ordem de estoque de saída** estiver definida como **Sim**. Se a opção **Finalizar ordem de estoque de saída** estiver definida como **Não**, os valores restantes serão mantidos como uma quantidade de ordem de saída aberta e deverão ser adicionados a uma nova lista de separação como parte da funcionalidade **Abrir ordens de saída**. 
 
 [![Comando Abrir ordens de saída no menu Funções](./media/open-output-order.png)](./media/open-output-order.png)
 

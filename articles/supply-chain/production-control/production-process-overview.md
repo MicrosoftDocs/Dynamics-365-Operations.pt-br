@@ -1,9 +1,9 @@
 ---
 title: "Visão geral do processo de produção"
-description: "Este artigo fornece uma visão geral dos processos de produção. Ele descreve as várias fases de ordens de produção, de ordens de lotes e de kanbans, desde a criação da ordem até o fechamento do período financeiro."
+description: "Este tópico fornece uma visão geral dos processos de produção. Ele descreve as várias fases de ordens de produção, de ordens de lotes e de kanbans, desde a criação da ordem até o fechamento do período financeiro."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e50e64057d19d0e1fbf5645c2abc31fbd19ea43a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo fornece uma visão geral dos processos de produção. Ele descreve as várias fases de ordens de produção, de ordens de lotes e de kanbans, desde a criação da ordem até o fechamento do período financeiro. 
+Este tópico fornece uma visão geral dos processos de produção. Ele descreve as várias fases de ordens de produção, de ordens de lotes e de kanbans, desde a criação da ordem até o fechamento do período financeiro. 
 
 A produção de produtos, um processo que também é conhecido como o ciclo de vida de produção, segue etapas específicas necessárias para concluir a fabricação de um item. O ciclo de vida começa com a criação da ordem de produção, da ordem de lote ou do kanban. Termina com um item fabricado, acabado, pronto para o cliente ou para outra fase da produção. Cada etapa do ciclo de vida exige diferentes tipos de informações para executar o processo. Conforme cada etapa é concluída, a ordem de produção, ordem de lote ou kanban mostra uma alteração no status da produção. Diferentes tipos de produtos processos exigem processos de fabricação diferentes.  
 
@@ -68,7 +68,7 @@ As etapas a seguir no ciclo de vida de produção podem ocorrer para todos os ti
     -   **Planejamento de trabalho** – Este método de planejamento fornece um plano detalhado. Cada operação é dividida em trabalhos individuais com datas, horas específicas e recursos de operações atribuídos. Se a capacidade finita for usada, os trabalhos serão atribuídos a recursos de operações com base em disponibilidade. Você pode exibir e alterar o plano em um gráfico de Gantt.
     -   **Programação de kanban** – Os trabalhos kanban são agendados no quadro de agenda kanban ou planejados automaticamente com base na configuração de planejamento automático das regras kanban.
 
-4.  **Liberado** – Você pode liberar a ordem de produção ou a ordem de lotes quando a agenda estiver concluída e o material estiver disponível para ser separado ou preparado. A verificação de disponibilidade de material ajuda o supervisor do chão de fábrica a avaliar a disponibilidade do material para ordens de produção ou ordens de lote. Também é possível imprimir documentos de ordem de produção, como listas de separação, ficha de trabalho, cartão de roteiro e roteiro de trabalho. Quando a ordem de produção é liberada, o status da ordem muda para indicar que a produção pode ser iniciada. Quando o gerenciamento de depósito é usado, a versão da ordem de produção ou da ordem de lote libera as linhas da BOM de produção no gerenciamento de depósito. As ondas de depósito e o trabalho de depósito são gerados, de acordo com a configuração do depósito.
+4.  **Liberado** – Você pode liberar a ordem de produção ou a ordem de lotes quando a agenda estiver concluída e o material estiver disponível para ser separado ou preparado. A verificação de disponibilidade de material ajuda o supervisor do chão de fábrica a avaliar a disponibilidade do material para ordens de produção ou ordens de lote. Também é possível imprimir documentos de ordem de produção, como listas de separação, ficha de trabalho, cartão de roteiro e roteiro de trabalho. Quando a ordem de produção é liberada, o status da ordem muda para indicar que a produção pode ser iniciada. Quando o gerenciamento de depósito é usado, a versão da ordem de produção ou da ordem de lote libera as linhas da BOM de produção no gerenciamento de depósito. As ondas de depósito e o trabalho de depósito são gerados, de acordo com a configuração do depósito.
 5.  **Preparados**/**Separados**– Quando todos os materiais e recursos estiverem preparados no local de produção, as linhas da BOM de produção ou as linhas do kanban serão atualizadas para **Separados**. As ordens de fornecimento vinculado e o trabalho do depósito relacionado geralmente são concluídos neste estágio. Os cartões kanban ou fichas de trabalho necessários para relatar o andamento da produção devem ser atribuídos e impressos.
 6.  **Iniciado** – Quando uma ordem de produção, uma ordem de lote, ou um kanban é iniciado, você pode relatar o consumo de materiais e de recursos em relação à ordem. O sistema pode ser configurado para lançar automaticamente o consumo de material e de recursos que são alocados para a ordem quando esta for iniciada. Essa alocação é conhecida como pré-liberação, liberação antecipada ou autoconsumo. Você pode alocar manualmente materiais para ordens de produção ou ordens de lote criando diários de lista de separação adicionais. Também é possível alocar manualmente mão-de-obra e outros custos de roteiro para a ordem. Se você estiver usando o agendamento de operações, poderá alocar esses custos criando um diário de cartões de roteiro. Se você estiver usando o agendamento de trabalhos, poderá alocar os custos criando um diário de ficha de trabalho. As ordens de produção ou as ordens de lote podem ser iniciadas em lotes da quantidade final solicitada. Em uma ordem de produção, uma ordem de lote ou um kanban, os trabalhos que são criados podem ser iniciados e relatados separadamente nos diários, do terminal da execução de fabricação (terminal MES), ou dos quadros kanban.
 7.  Trabalhos em andamento **Concluído** do relatório – Use o Terminal MES, os diários de produção, os quadros kanban, móveis ou os recursos de verificação móveis para relatar o andamento da produção por trabalho ou por recurso. O consumo de materiais e recursos será lançado, e os status dos kanban, ordens de produção, e ordens de lote relacionados pode ser atualizados para **Recebido** ou **Informado como concluído**. O trabalho de armazenamento para o depósito pode ser criado, dependendo da configuração do depósito.

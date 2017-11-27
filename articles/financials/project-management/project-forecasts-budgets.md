@@ -1,9 +1,9 @@
 ---
 title: "Previsões e orçamentos de projeto"
-description: 
+description: "O Microsoft Dynamics 365 for Finance and Operations fornece previsões e orçamentos de projetos para gerenciar e controlar seus projetos."
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 23501
 ms.assetid: 4e6d1384-19a2-4232-b3f3-d2590c218bd7
 ms.search.region: Global
@@ -19,18 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 32dd89d92a496d6601d1983dbc3c8e7e579ee0b3
+ms.sourcegitcommit: 31abc719a8df7507e74b3bf6823306ba52261bc3
+ms.openlocfilehash: ebb3574b3f5c40b5512c0352c83520558f63879a
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/10/2017
 
 ---
 
 # <a name="project-forecasts-and-budgets"></a>Previsões e orçamentos de projeto
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 O Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, fornece duas maneiras de gerenciar e controlar os projetos: previsões de projeto e orçamentos de projeto. 
@@ -41,16 +39,16 @@ As previsões de projeto e os orçamentos de projeto usando modelos de previsão
 
 Cada método tem suas vantagens. É necessário considerar os seguintes pontos antes de selecionar um método para sua organização.
 
-|                           |                                                                                                                                                                                                                                                         |                                                                                                                                                                         |
-|---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                           | **Previsões de projeto**                                                                                                                                                                                                                                 | **Orçamento de projeto**                                                                                                                                                   |
+|                           |                                          |                                                    |
+|---------------------------|------------------------------------------|----------------------------------------------------|
+|                           | **Previsões de projeto**                  | **Orçamento de projeto**                              |
 | **Alocação de período**     | Não é possível alocar explicitamente as transações durante um período fiscal. Em vez disso, a previsão e o controle de previsão são baseados na duração do projeto. Como as previsões são baseadas em uma data específica, você deve inferir o período da data. | Você pode alocar transações durante todo o projeto ou um período fiscal. Se você alocar durante um período, poderá optar por postergar valores não usados para o próximo período fiscal. |
 | **Exibindo transações**  | Você pode exibir as transações nos formulários de previsão, onde é possível ver as previsões para toda a empresa e para todos os projetos, independentemente da hierarquia. Para focar em um projeto específico, você deve filtrar os dados.                                       | Você pode exibir as transações orçadas para uma única hierarquia de projetos. Portanto, isso significa que você pode ver os detalhes das transações de um projeto pai ou de seus subprojetos.                 |
-| **Variáveis de transação** | Ao inserir transações de previsão, é possível usar cada atributo que existe para uma transação real. Isso permite fornecer mais detalhes sobre a previsão. Por exemplo, você pode inserir detalhes de quantidades, trabalhadores, itens ou propriedades de linha.         | Ao inserir os detalhes do orçamento, é possível apenas usar valores, categorias, e atividades.                                                                                    |
-| **Segurança**              | A previsão é baseada nas transações que você insere nos formulários de previsão, e não envolve um mecanismo de controle de processos. Qualquer trabalhador com permissões para acessar um formulário de previsão pode revisar as informações sem aprovação.                                        | O orçamento utiliza o sistema de fluxo de trabalho, o qual permite gerenciar alterações e manter um histórico das revisões.                                                       |
-| **Tipos de entrada**           | As entradas de transação de previsão são baseadas em número de unidades e custos e preços da unidade de vendas.                                                                                                                                                       | Os detalhes do orçamento são baseados em valores que são divididos entre custos e receitas.                                                                                        |
-| **Modelos de previsão**       | Como cada previsão deve estar associada a um modelo, você pode criar vários modelos de previsão e também configurar submodelos.                                                                                                                               | O orçamento do projeto limita os modelos de previsão usados para fazer o orçamento. Menos modelos de previsão podem ajudar a aumentar a consistência nas projeções.                           |
-| **Excedentes de custo**         | Você só pode permitir ou recusar a entrada de transações que causarão um excedente de custo.                                                                                                                                                                | O orçamento do projeto fornece opções adicionais de controle para os usuários. Você pode permitir avisos e excedentes.                                                                   |
+| **Variáveis de transação** | Ao inserir transações de previsão, é possível usar cada atributo que existe para uma transação real. Isso permite fornecer mais detalhes sobre a previsão. Por exemplo, você pode inserir detalhes de quantidades, trabalhadores, itens ou propriedades de linha.         | Ao inserir os detalhes do orçamento, é possível apenas usar valores, categorias, e atividades.                    |
+| **Segurança**              | A previsão é baseada nas transações que você insere nos formulários de previsão, e não envolve um mecanismo de controle de processos. Qualquer trabalhador com permissões para acessar um formulário de previsão pode revisar as informações sem aprovação.                                        | O orçamento utiliza o sistema de fluxo de trabalho, o qual permite gerenciar alterações e manter um histórico das revisões.         |
+| **Tipos de entrada**           | As entradas de transação de previsão são baseadas em número de unidades e custos e preços da unidade de vendas.  | Os detalhes do orçamento são baseados em valores que são divididos entre custos e receitas.                                          |
+| **Modelos de previsão**       | Como cada previsão deve estar associada a um modelo, você pode criar vários modelos de previsão e também configurar submodelos.           | O orçamento do projeto limita os modelos de previsão usados para fazer o orçamento. Menos modelos de previsão podem ajudar a aumentar a consistência nas projeções.                           |
+| **Excedentes de custo**         | Você só pode permitir ou recusar a entrada de transações que causarão um excedente de custo.   | O orçamento do projeto fornece opções adicionais de controle para os usuários. Você pode permitir avisos e excedentes.                    |
 | **Controle**               | O controle de previsão é executado usando a redução de previsão. Os valores reais são subtraídos dos saldos da transação de previsão sem trilha de auditoria. Isso pode dificultar o rastreamento de onde as transações reais ocorreram.                   | No controle de orçamento de projeto, os valores reais são subtraídos dos valores do orçamento restante. Isso proporciona uma trilha de auditoria clara.                                   |
 
 ## <a name="project-forecasts"></a>Previsões de projeto

@@ -3,14 +3,14 @@ title: Recursos preteridos
 description: "Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção."
 author: sericks007
 manager: AnnBe
-ms.date: 07/10/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, Platform, UnifiedOperations
+ms.search.scope: Operations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: 3ebe8f2869b93050d320456ff457c0b5692c5eae
+ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
+ms.openlocfilehash: ee051bbf50a6124fe1700a244b36b5f9c599e714
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 
@@ -382,7 +382,7 @@ Demonstrativo de imposto federal para impostos ICMS
 
 |                              |                                                                                                                       |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| **Motivo para a depreciação**       | Esta declaração não é aplicável uma maior em alguns estados brasileiros.                                                     |
+| **Motivo para a depreciação**       | Este demonstrativo não é mais aplicável em alguns estados brasileiros.                                                     |
 | **Substituída por outro recurso?** | Não. Os usuários podem usar a ferramenta de relatório eletrônica genérica para configurar o demonstrativo, se necessário, em situações específicas. |
 | **Módulos afetados**             | Livros fiscais                                                                                                          |
 
@@ -392,7 +392,7 @@ Demonstrativo de imposto federal para impostos ICMS
 
 |                              |                                                                             |
 |------------------------------|-----------------------------------------------------------------------------|
-| **Motivo para a depreciação**       | Este método de contingência não é aplicável maior nos estados brasileiros |
+| **Motivo para a depreciação**       | Este método de contingência não é mais aplicável em todos os estados brasileiros |
 | **Substituída por outro recurso?** | Não                                                                          |
 | **Módulos afetados**             | Contas a Receber                                                         |
 
@@ -801,7 +801,7 @@ O recurso virtual das empresas não é mais suportado no Dynamics AX. O recurso 
 <td><b>Motivo para a depreciação</b></td>
 <td><ul>
 <li>Empresas virtuais devem ser configuradas antes que os dados sejam armazenados nas tabelas. Adaptar empresas virtuais em uma implementação existente é muito difícil.</li>
-<li>Como há um excesso de normalização de dados na versão atual do Dynamics AX, saber o tem se tornado difícil saber quais tabelas compartilhar. Por exemplo, é difícil saber quais tabelas compartilhar. Todas as tabelas referenciadas de tabelas que estão em uma empresa virtual também precisam ser adicionadas. Normalização de tabela significa que até a simples difusão de dados mestres entre diversas tabelas precisa fazer parte da empresa virtual. Qualquer erro que é feito aqui gerará saídas funcionais.</li>
+<li>Como há um excesso de normalização de dados na versão atual do Dynamics AX, saber o tem se tornado difícil saber quais tabelas compartilhar. Por exemplo, é difícil saber quais tabelas compartilhar. Todas as tabelas referenciadas de tabelas que estão em uma empresa virtual também devem ser adicionadas. Normalização de tabela significa que até a simples difusão de dados mestres entre diversas tabelas precisa fazer parte da empresa virtual. Qualquer erro que é feito aqui gerará saídas funcionais.</li>
 <li>Quando uma tabela faz parte de uma empresa virtual, ela perde informações sobre a fonte de dados, e apenas a empresa virtual é registrada.</li>
 </ul></td>
 </tr>

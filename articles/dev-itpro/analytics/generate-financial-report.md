@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 01bb8999e5d9c0e16f133a621ebfe1d102565f2f
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/15/2017
 
 ---
 
@@ -34,9 +34,9 @@ ms.lasthandoff: 09/29/2017
 Este tópico fornece informações sobre gerar um relatório financeiro. 
 
 Para gerar um relatório, abra a definição de relatório e clique no botão Gerar na barra de ferramentas. A janela Status da Fila de Relatórios será aberta e indicará a localização do relatório na fila. Por padrão, o relatório gerado será aberto no Visualizador da Web.
-| ![Observação](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Observação")**Observação**        |
-|------------------------------------------------------------------------------------------------|
-| Você pode gerar relatórios somente para pastas e locais em que você tem permissão de acesso. |
+
+> [!NOTE]
+> Você pode gerar relatórios somente para pastas e locais em que você tem permissão de acesso.
 
 A tabela a seguir explica as opções disponíveis para gerar relatórios.
 
@@ -51,9 +51,10 @@ Quando você gera um relatório, as opções especificadas nas guias Definição
 Várias empresas têm um conjunto principal de relatórios que são executados em intervalos programados para alinhar com seus processos comerciais. Você pode programar a geração de um relatório como diária, semanal, mensal ou anual. Isso pode ser um relatório exclusivo ou um grupo de relatórios que inclui várias empresas. Você deve inserir suas credenciais para cada uma das empresas especificadas, como essas em uma definição de hierarquia organizacional. Se as credenciais não forem válidas, o relatório exibirá apenas as informações que você tem permissão para acessar, como a empresa em que está registrado no momento. As informações de saída são lidas primeiro do grupo de relatórios e, depois, de relatórios individuais.
 
 Quando agendamentos de relatório são criados e salvos, eles são exibidos no painel de navegação em Agendamentos de Relatório. Você pode criar pastas para organizar seus relatórios. Se um único relatório em um plano não é for executado, todos os relatórios que continuarão em execução.
-| ![Importante](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Importante")**Importante**                                                                                                           |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Para criar, modificar e excluir agendas de relatórios, você deve ter a função de criador ou administrador. Quando um relatório é executado, as credenciais do usuário que criou o plano são usadas para gerar o relatório. |
+
+> [!IMPORTANT]
+> Para criar, modificar e excluir agendas de relatórios, você deve ter a função de criador ou administrador. Quando um relatório é executado, as credenciais do usuário que criou o plano são usadas para gerar o relatório.
+
 
 ### <a name="create-a-report-schedule"></a>Criar um agendamento de relatório
 
@@ -100,14 +101,15 @@ Para continuar, clique no botão Permissões na caixa de diálogo Agendamento de
 Você pode procurar contas financeiras e dimensões que possam estar ausentes em todas as definições de linha, definições de árvore de relatório e definições de relatório em um grupo de blocos de construção. Isso é útil quando você cria ou atualiza várias contas ou blocos de construção em um curto período de tempo, e você deseja verificar se todas as novas informações foram incluídas nos relatórios.
 
 As contas ausentes são determinadas usando os valores inferiores e superiores da definição de linha ou a definição de árvore de relatório. Ele exibe uma lista de contas que não estão na definição de linha ou na definição da árvore de relatório, mas que constam nos dados financeiros. Se uma conta ausente for maior ou menor do que os valores na definição de linha, essa conta não está incluída na lista de contas ausentes.
-| ![Dica](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Dica")**Dica**                                             |
-|----------------------------------------------------------------------------------------------------------------------------------|
-| Para fins de validação, esse processo deve ser executado antes de gerar os relatórios mensais e ao criar novos blocos de construção. |
+
+> [!TIP]
+> Para fins de validação, esse processo deve ser executado antes de gerar os relatórios mensais e ao criar novos blocos de construção.
 
 Relatórios com intervalos de valores têm menor probabilidade de ter contas ausentes. Quando possível, use intervalos no bloco de construção para incluir novas contas ao criá-las. Se qualquer definição de relatório for definida como @ANY, você poderá fazer logon em uma empresa específica e executar uma análise de conta ausente para essa empresa.
-| ![Observação](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Observação")**Observação**                                                                                           |
-|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se uma nova empresa for adicionada, adicione a nova empresa às árvores de relatório em todos os relatórios existentes; senão, a empresa não será incluída na análise de conta ausente. |
+
+> [!NOTE]
+> Se uma nova empresa for adicionada, adicione a nova empresa às árvores de relatório em todos os relatórios existentes; senão, a empresa não será incluída na análise de conta ausente.
+
 
 ### <a name="run-missing-account-analysis"></a>Executar a análise de conta ausente
 
@@ -117,11 +119,11 @@ Relatórios com intervalos de valores têm menor probabilidade de ter contas aus
 4.  No campo Agrupar por, selecione uma opção para classificar os resultados. É possível classificar os resultados de acordo com o bloco de construção que é afetado, ou classificar os resultados por conjuntos de dimensões e de valor.
 5.  Revisar os resultados exibidos. Ao selecionar um item no painel superior, o painel inferior exibe as informações adicionais sobre a exceção. Isso inclui os relatórios, as dimensões, e os valores relacionados.
 6.  Para abrir o item afetado, clique no ícone associado que é exibido no painel da lista, ou clique com o botão direito do mouse no item e selecione Abrir. Para selecionar vários itens, mantenha pressionada a tecla Ctrl enquanto seleciona os itens no painel inferior.
-7.  Se algum valor, bloco de construção ou relatório for retornado que não deva ser incluído na análise, clique com o botão direito do mouse no item e selecione Excluir. Ou marque a caixa de seleção Excluir ao lado do item para removê-lo da lista. Os itens excluídos não são incluídos quando a lista é atualizada. Para selecionar vários itens, mantenha pressionada a tecla Ctrl enquanto seleciona os itens no painel inferior. Para exibir todos os itens, incluindo resultados antes selecionados para excluir da análise, marque a caixa de seleção Mostrar blocos de construção e valores excluídos. Depois, clique em Atualizar.
-8.  Clique em Atualizar para atualizar as exceções que você resolveu. Clique em Sim para executar uma atualização completa de todos os resultados. Ou clique em Não para executar uma atualização parcial de itens tratados.
-    | ![Observação](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Observação")**Observação**                    |
-    |------------------------------------------------------------------------------------------------------------|
-    | O formulário é atualizado automaticamente quando aberto, a menos que ele tenha sido aberto nos últimos 15 minutos. |
+7.  Se algum valor, bloco de construção ou relatório for retornado que não deva ser incluído na análise, clique com o botão direito do mouse no item e selecione Excluir. Ou marque a caixa de seleção Excluir ao lado do item para removê-lo da lista. Os itens excluídos não são incluídos quando a lista é atualizada. Para selecionar vários itens, mantenha pressionada a tecla CTRL enquanto seleciona os itens no painel inferior. Para exibir todos os itens, incluindo os resultados que você selecionou anteriormente para serem excluídos da análise, marque a caixa de seleção Mostrar os blocos de construção e os valores excluídos e, em seguida, clique em Atualizar.
+8.  Clique em Atualizar para atualizar as exceções que você resolveu. Clique em Sim para executar uma atualização completa de todos os resultados, ou clique em Não para executar uma atualização parcial dos itens resolvidos.
+
+    > [!NOTE]
+    > O formulário é atualizado automaticamente quando aberto, a menos que ele tenha sido aberto nos últimos 15 minutos.
 
 9.  Quando os problemas forem resolvidos, clique em OK para fechar a caixa de diálogo.
 

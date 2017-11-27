@@ -3,7 +3,7 @@ title: Definir regras de cobertura para itens
 description: "A empresa de dados demo usada para criar este procedimento é USMF."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 14f56c30753da9458d66a46da8935305619fd0b8
+ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
+ms.openlocfilehash: fe92393cc264df68f084db6974f7d4607d37d3ab
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="define-coverage-rules-for-items"></a>Definir regras de cobertura para itens
@@ -100,7 +100,7 @@ A empresa de dados demo usada para criar este procedimento é USMF. Este procedi
 4. Clique na guia Geral.
 5. Marque a caixa no cabeçalho de Substituir configurações do grupo de cobertura.
 6. No Tempo limite de cobertura (dias), insira '60'.
-    * Embora os itens no grupo de cobertura Requiremen sejam planejados 90 dias depois, esse item será planejado com 60 dias.  
+    * Embora os itens no Requisito de grupo de recursos sejam planejados com 90 dias de antecedência, esse item será planejado com 60 dias.  
 7. No campo Dias negativos, insira '2'.
 8. No campo Dias positivos, insira '2'.
 9. Clique na guia do prazo de entrega.

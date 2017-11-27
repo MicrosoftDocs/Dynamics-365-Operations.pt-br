@@ -3,14 +3,14 @@ title: "Colaboração de fornecedores com fornecedores externos"
 description: "Este tópico descreve como os agentes de compras podem colaborar com os fornecedores externos na troca de informações sobre ordens de compra e estoque de consignação."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 9036b7f9863871915f9ad39d76bf027ae4c2f4bf
-ms.openlocfilehash: aee8db8ddaeac135ed1f9d8b1b8a621609c6d358
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: abff906bcdf31c91ce696afbcd651a1d7a87ea8a
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,6 +33,8 @@ ms.lasthandoff: 10/05/2017
 Este tópico descreve como os agentes de compras podem colaborar com os fornecedores externos na troca de informações sobre ordens de compra e estoque de consignação.
 
 O módulo **Colaboração do fornecedor** é destinado a fornecedores que não tenham integração EDI (Troca de dados eletrônica) com o Microsoft Dynamics 365 for Finance and Operations. Ele permite que os fornecedores trabalhem com ordens de compra, faturas e informações de estoque de consignação. Este tópico descreve como você pode colaborar com fornecedores externos que estiverem usando a interface de colaboração do fornecedor para trabalhar com OCs e estoque de consignação. Ele também descreve como habilitar um fornecedor específico para usar a colaboração do fornecedor e como definir as informações que todos os fornecedores verão ao responderem a uma OC. Para saber mais sobre o que os fornecedores externos podem fazer na interface de colaboração do fornecedor, consulte [Colaboração do fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
+
+As informações deste tópico sobre a colaboração de fornecedor se aplicam apenas à versão atual do Dynamics 365 for Finance and Operations. Nas versões de fevereiro e maio de 2016 do Microsoft Dynamics AX, você colabora com fornecedores usando o módulo Portal do fornecedor. Para obter informações sobre o módulo Portal do fornecedor, consulte [Colabore com fornecedores usando o Portal do fornecedor](collaborate-vendors-vendor-portal.md).
 
 Para saber mais sobre como os fornecedores podem usar a colaboração do fornecedor nos processos de faturamento, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Para saber mais sobre como provisionar novos usuários de colaboração do fornecedor, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md).
 
@@ -161,7 +163,7 @@ Na resposta, você pode ver os status de linha mencionados anteriormente que ind
 
 Você pode atualizar uma PO clicando na ação **Processar atualização de PO** na resposta ou em uma linha por vez. Um indicador, **A atualização da PO foi processada?**, no cabeçalho e nas linhas permitem que você veja se o sistema processou o cabeçalho ou as linhas para atualizar a PO com quaisquer alterações potenciais que se originam da resposta. Você pode executar o processo **Processar atualização de PO** apenas uma vez por cabeçalho ou linha.
 
-Nem todas as alterações sugeridas podem ser atualizadas em uma PO. Somente as atualizações no cabeçalho e as atualizações das datas e quantidades nas linhas podem ser atualizadas automaticamente na PO. Para outras alterações, você deve atualizar manualmente a PO. Nesse caso, o indicador **A atualização da PO foi processada** mostra **Atualização manual**. Um exemplo de uma alteração que deve ser tratada manualmente seria quando um fornecedor sugere dividir uma linha em um cronograma.
+Nem todas as alterações sugeridas podem ser atualizadas em uma PO. Somente as atualizações no cabeçalho e as atualizações das datas e quantidades nas linhas podem ser atualizadas automaticamente na PO. Para outras alterações, você deve atualizar manualmente a PO. Nesse caso, o indicador **A atualização da PO foi processada** mostra **Atualização manual**. Um exemplo de uma alteração que deve ser tratada manualmente seria quando um fornecedor sugere dividir uma linha em uma agenda.
 
 Uma linha com um status **Aceita** terá uma data de entrega confirmada que será atualizada na PO quando você executar a função **Processar atualização de PO**. Notas e anexos não serão automaticamente transferidos para a PO atual. Observe que quando você atualiza a PO usando a ação **Processar atualização de PO**, os contratos comerciais não serão reavaliados nas linhas da PO.
 

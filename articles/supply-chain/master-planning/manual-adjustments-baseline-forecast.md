@@ -1,9 +1,9 @@
 ---
 title: "Faça ajustes manuais para a previsão estatística"
-description: "Este artigo explica como é possível fazer ajustes manuais em uma previsão estatística e exibir os detalhes da previsão."
+description: "Este tópico explica como é possível fazer ajustes manuais em uma previsão de linha de base e exibir os detalhes da previsão."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 218374cdb6b5588648422d97c04fb60f26e47ac7
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: dbc195da36d31e01400fe66a1c02ea49609400eb
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo explica como é possível fazer ajustes manuais em uma previsão estatística e exibir os detalhes da previsão. 
+Este tópico explica como é possível fazer ajustes manuais em uma previsão de linha de base e exibir os detalhes da previsão. 
 
 Antes de fazer ajustes manuais, é importante que você compreenda alguns conceitos em várias páginas.
 
@@ -43,7 +43,7 @@ A página **Previsão de demanda ajustada** inclui uma grade com a seguinte estr
 -   As colunas subsequentes representam as classificações de previsão para as quais a previsão foi gerada. Cada cabeçalho de coluna representa a primeira data da classificação de previsão exibida na coluna.
 -   Os valores nas células representam a previsão para um item, uma chave de alocação de item etc. nessa classificação de previsão específica.
 
-## <a name="forecast-aggregation-and-deaggregation"></a>Agregação e desagregação de previsão
+## <a name="forecast-aggregation-and-de-aggregation"></a>Agregação de previsão e desagregação
 O subtítulo da página mostra o nível da agregação de previsão. 
 
 Por exemplo, se o subtítulo da página for **Empresa/Site/Chave de alocação/Número do item/Cor/Tamanho/Configuração/Estilo**, não haverá agregação de previsão, e a previsão aparecerá no nível do item e em suas dimensões. Para alterar a agregação, use a página **Alterar as dimensões de previsão**, que pode ser aberta no menu do aplicativo. 

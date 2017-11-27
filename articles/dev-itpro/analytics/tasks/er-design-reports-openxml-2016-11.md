@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 04def14ddf9b079005bf11acbcaf64b21aa80fdb
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 09789957839097ba2898544102af908c198090c7
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-openxml-format-for-electronic-reporting-er"></a>Criar uma configuração para gerar relatórios no formato OpenXML para relatório eletrônico (ER)
@@ -34,8 +34,7 @@ Neste exemplo, você criará uma configuração para a empresa de exemplo, Litwa
 
 
 
-Para completar essas etapas, você deve primeiro completar as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo“. Você também deve ter um arquivo Excel que é importado ao criar o modelo. Este arquivo pode ser acessado de: https://msdynamics.blob.core.windows.net/media/2016/04/SampleVendPaymWsReport.xlsx
-
+Para completar essas etapas, você deve primeiro completar as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo“. Você também deve baixar e salvar o arquivo do Microsoft Excel, [Modelo de relatório de pagamento](https://go.microsoft.com/fwlink/?linkid=862266). 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>Carregar a configuração do modelo de dados de pagamentos
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.

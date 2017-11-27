@@ -3,7 +3,7 @@ title: Desenvolver um plano de carreira
 description: "Conforme sua organização cresce, e você considera o planejamento de sucessão, você pode querer encontrar alguém que tenha habilidades semelhantes a outra pessoa."
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b1caaf5f52282a8daae62602dcc5ef86b901e338
+ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
+ms.openlocfilehash: 2ca5f541abe4f85187aaefdbb03ca84e4f314b3c
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="develop-a-succession-plan"></a>Desenvolver um plano de carreira
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-Conforme sua organização cresce, e você considera o planejamento de sucessão, você pode querer encontrar alguém que tenha habilidades semelhantes a outra pessoa.  O mapeamento de habilidades permite que você analise os funcionários e candidatos existentes para verificar se eles atendem ao conjunto de habilidades de um funcionário avaliado. A empresa de dados demo usada para criar este procedimento é USMF.
+Conforme sua organização cresce, e você considera o planejamento de sucessão, você pode querer encontrar alguém que tenha habilidades semelhantes a outra pessoa.  O mapeamento de habilidades permite que você analise os funcionários e candidatos existentes para ver se atendem a habilidade de um funcionário avaliado. A empresa de dados demo usada para criar este procedimento é USMF.
 
 1. Ir para Recursos humanos > Competências > Análise de habilidade > Perfis de mapeamento de habilidade.
 2. Clique em Novo.

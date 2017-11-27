@@ -3,7 +3,7 @@ title: "Criar uma versão de fluxo de produção"
 description: "Esse procedimento tem como foco a criação de uma versão de fluxo de produção."
 author: cvocph
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 58b3c9cd265b97a814541315e4ba8378010eb2b2
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8903e618a35e66742b5c2ebcb5b6f0da3853fcaf
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="create-a-production-flow-version"></a>Criar uma versão de fluxo de produção
@@ -40,7 +40,7 @@ Esse procedimento tem como foco a criação de uma versão de fluxo de produçã
     * Selecione uma unidade operacional de fluxo de valor de tipo. O fluxo de valor é uma unidade operacional que abrange todos os fluxos e atividades do fluxo de valor. Nessa fase, as unidades operacionais se limitam a uma entidade legal e não apresentam funcionalidade adicional.  
 7. No campo Perfil de produção, clique no botão suspenso para abrir a pesquisa.
 8. Na lista, clique no link na linha selecionada.
-    * Selecione um perfil de produção para o fluxo de produção. Grupos de produção permitem a definição de material, trabalho e contas WIP para um processo de produção. Para associar o contexto de contabilidade a um fluxo de produção, um perfil de produção deve ser selecionado.  
+    * Selecione um perfil de produção para o fluxo de produção. Perfis de produção permitem a definição de material, trabalho e contas WIP para um processo de produção. Para associar o contexto de contabilidade a um fluxo de produção, um perfil de produção deve ser selecionado.  
 9. Clique em Salvar.
 
 ## <a name="create-a-production-flow-version"></a>Criar uma versão de fluxo de produção

@@ -1,9 +1,9 @@
 ---
 title: "Nomenclatura de números e de nomes de grade de produto"
-description: "Este tópico descreve como você pode configurar uma nomenclatura de número de produto para substituir o formato fixo [Número do produto mestre - Configuração - Tamanho - Cor - Estilo]. A nova nomenclatura tem um formato de destino que inclui o número do produto mestre, as dimensões ativas do produto e os delimitadores de texto de sua escolha. Você também pode criar uma nomenclatura para os nomes de produto. Por fim, você pode criar uma nomenclatura para identificar configurações criadas pelo configurador de produto baseado em restrições. Essas nomenclaturas podem conter os atributos de sua preferência."
+description: "Este tópico descreve como você pode configurar uma nomenclatura de número de produto para substituir o formato fixo [Número do produto mestre - Configuração - Tamanho - Cor - Estilo]."
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 4ebebc1d287908dbe8ac7557c34fc6693c88bfae
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 067e14d8a0ab9cb5b703c1d2596dab3e20487336
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -68,7 +68,7 @@ Uma camiseta (TS1234) é produzida em três tamanhos (P, M, G), quatro cores (Ve
 
 Nesse caso, o número da grade de produto para uma camiseta polo vermelha pequena será TS1234-Vermelho-Pequena-Polo
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>Nomenclatura de configurações baseadas em restrições
+## <a name="nomenclature-of-constraint-based-configurations"></a>Nomenclatura de configurações baseadas em restrições
 Em configurações baseadas em restrições, você pode criar uma nomenclatura dedicada para a dimensão de configuração de produto. Você pode selecionar os seguintes segmentos na página **Nomenclatura de produtos**:
 
 -   Valor de sequência numérica
@@ -92,7 +92,7 @@ Você cria uma nomenclatura de configuração com os seguintes segmentos:
 
 Nesse caso, a ID de configuração do material de madeira com um comprimento 78 será MadeiraAAA78.
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>Nomenclatura de configurações baseadas em dimensões
+## <a name="nomenclature-of-dimension-based-configurations"></a>Nomenclatura de configurações baseadas em dimensões
 Em configurações baseadas em dimensões, você pode criar uma nomenclatura dedicada para a dimensão de configuração de produto. Você pode selecionar os seguintes segmentos na página **Nomenclatura de produtos**:
 
 -   Valor de sequência numérica

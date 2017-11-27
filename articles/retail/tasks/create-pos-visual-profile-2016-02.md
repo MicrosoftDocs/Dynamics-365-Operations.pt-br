@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2b70bc95f56839da76612df2be3b35362925b977
+ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
+ms.openlocfilehash: 151250ed0ad68a0e5827a74918ef6323a4c4279e
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="create-a-pos-visual-profile"></a> Criar um perfil visual de PDV  
@@ -38,7 +38,7 @@ Este procedimento orienta na criação de um novo perfil visual de ponto de vend
 7. No campo Tema, clique no botão suspenso para abrir a pesquisa.
 8. Na lista, clique no link na linha selecionada.
 9. No campo Cor de destaque, clique no botão suspenso para abrir a pesquisa.
-10. Na lista, localize e selecione o PDV desejado.
+10. Na lista, localize e selecione o registro desejado.
 11. Na lista, clique no link na linha selecionada.
 12. Ative/desative a expansão da seção Segundo plano de logon.
 13. No campo ID da imagem em paisagem, selecione ou insira uma ID de imagem.

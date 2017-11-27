@@ -3,7 +3,7 @@ title: "Criar itens de empréstimo"
 description: "Os itens de empréstimo são registros que ajudam a manter o controle dos itens físicos, como telefones ou computadores, que sua empresa empresta aos trabalhadores."
 author: kherr75
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cef1f9b2e3d202d7eea3a967fa8a6c371c6ac3a5
+ms.sourcegitcommit: 950237499441e7f1d5b9e3355c4bd9513ad3783e
+ms.openlocfilehash: aa5824a7a56136b6d09860f2ff493359dbeab9f9
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="create-loan-items"></a>Criar itens de empréstimo
@@ -54,7 +54,7 @@ Os itens de empréstimo são registros que ajudam a manter o controle dos itens 
 11. No campo Valor inicial, insira um número.
 12. No campo Intervalo, insira um número.
 13. No campo Formato, digite um valor.
-    * Por exemplo, se o número de início por um item de empréstimo 10, insira dois símbolos de números no campo Formato.  
+    * Por exemplo, se o número de início para um item de empréstimo for 10, insira dois símbolos de números no campo Formato.  
 14. Clique em OK.
 15. Atualize a página.
 

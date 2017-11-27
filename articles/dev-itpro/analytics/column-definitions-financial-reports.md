@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 924177f4974358d2283dfd46306d663c27ccd87b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8c877a4ad6d4c29607159da52bf1cedae1476f92
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -255,7 +255,7 @@ A célula **Justificação** é usada para aplicar formatação de justificaçã
 ## <a name="add-special-formatting-options"></a>Adicionar opções de formatação especiais
 Na definição de coluna, as linhas de detalhes da coluna de formatação aplicam a formatação especial nas colunas selecionadas. Embora algumas das opções de **Controle de impressão** e **Restrições de coluna** sejam específicas para as colunas **FD**, a maioria das opções se aplicam a todos os tipos de colunas. A formatação especificada na definição de linha substitui a formatação especificada na definição da coluna e do relatório. Entretanto, a formatação especificada na definição de linha substitui a formatação especificada na definição da coluna. As linhas a seguir são consideradas linhas de formatação:
 
--   Largura da Coluna
+-   Largura da coluna
 -   Espaços Extras Antes da Coluna
 -   Substituição de formato/moeda
 -   Controle de impressão

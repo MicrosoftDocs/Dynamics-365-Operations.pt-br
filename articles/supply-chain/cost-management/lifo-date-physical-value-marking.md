@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 116d2f34c0317f3246b8d9c6569430603e2cd2c6
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0b94d3f23c929c45a67894bd08706144c9226491
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -55,7 +55,7 @@ Neste exemplo, o grupo de modelo de item não está marcado para incluir o valor
 -   2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
 -   3a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
 -   4a. Saída física de estoque para uma quantidade de 1 ao preço de custo de BRL 15,00 (média ponderada de transações atualizadas financeiramente).
--   4a. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de BRL 15,00 (média ponderada de transações atualizadas financeiramente).
+-   4b. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de BRL 15,00 (média ponderada de transações atualizadas financeiramente).
 -   5a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
 -   5b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
 -   6. O fechamento de estoque é executado. Com base no método da Data UEPS, a última saída atualizada financeiramente será liquidada com o último recebimento atualizado financeiramente por data. Um ajuste de BRL 5,00 será feito na transação de saída. Essas transações serão liquidadas entre si.
@@ -90,7 +90,7 @@ A ilustração a seguir mostra estas transações:
 -   2b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 20,00 cada.
 -   3a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 25,00 cada.
 -   4a. Saída física de estoque para uma quantidade de 1 ao preço de custo de BRL 18,33 cada (média ponderada de transações atualizadas financeiramente).
--   4a. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de BRL 18,33 cada (média ponderada de transações atualizadas financeiramente).
+-   4b. Saída financeira de estoque para uma quantidade de 1 ao preço de custo de BRL 18,33 cada (média ponderada de transações atualizadas financeiramente).
 -   5a. Recebimento físico de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
 -   5b. Recebimento financeiro de estoque para uma quantidade de 1 ao custo de BRL 30,00 cada.
 -   6. O fechamento de estoque é executado. Com base no método da Data UEPS, a última saída atualizada será ajustada ou liquidada no último recebimento atualizado por data. Essas transações não serão liquidadas entre si porque a transação de recebimento financeiro será ajustada para uma transação de atualização física. Em vez disso, apenas um ajuste de BRL 6,67 será feito na transação de saída.

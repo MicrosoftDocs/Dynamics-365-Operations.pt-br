@@ -1,9 +1,9 @@
 ---
 title: Definir e manter canais de varejo
-description: "Este artigo fornece uma visão geral do processo para configurar as lojas tradicionais, que são referidas como lojas de varejo no Microsoft Dynamics 365 for Retail. Inclui informações sobre as tarefas que devem ser concluídas antes e depois de você configurar uma loja de varejo."
+description: "Este tópico fornece uma visão geral do processo para a configuração de lojas físicas, que são referidas como lojas de varejo no Microsoft Dynamics 365 for Retail. Inclui informações sobre as tarefas que devem ser concluídas antes e depois de você configurar uma loja de varejo."
 author: mugunthanm
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 700b8868a68be7f0172202d737b4f1ae9813ecf3
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: b6dd6d929d771e0b1fc2604b90a2a1522447e168
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](includes/banner.md)]
 
 
-Este artigo fornece uma visão geral do processo para configurar as lojas tradicionais, que são referidas como lojas de varejo no Microsoft Dynamics 365 for Retail. Inclui informações sobre as tarefas que devem ser concluídas antes e depois de você configurar uma loja de varejo.
+Este tópico fornece uma visão geral do processo para a configuração de lojas físicas, que são referidas como lojas de varejo no Microsoft Dynamics 365 for Retail. Inclui informações sobre as tarefas que devem ser concluídas antes e depois de você configurar uma loja de varejo.
 
 O Dynamics 365 for Retail dá suporte a vários canais de varejo, como lojas online, call centers e lojas tradicionais. Uma loja física é chamada de loja de varejo. Cada loja de varejo pode ter seus próprios métodos de pagamento, grupos de preços, terminais de pontos de venda (PDV), contas de receita e despesa e equipe. Você deve configurar todos esses elementos para uma loja de varejo antes de criá-la. Depois de criar a loja de varejo, você atribui os produtos que deseja que a loja contenha. Você também atribui funcionários, registradoras e clientes à loja. Por fim, você adiciona a nova loja a uma hierarquia da organização.
 
@@ -66,7 +66,7 @@ Depois de concluir as tarefas necessárias, conclua estas tarefas para configura
 2.  Atribua um grupo de impostos à loja.
 3.  Atribuir os métodos de pagamento aceitos à loja.
 4.  Adicione detalhes às descrições do produto para os produtos que você oferece em suas lojas de varejo. Por exemplo, você pode adicionar rich text e imagens. Esses detalhes de produto aparecem em vários contextos, como na registradora de PDV ou rótulos impressos.
-5.  Adicione a loja a uma hierarquia organizacional padrão que tem por finalidade **Sortimento de varejo**, **Reabastecimento de varejo**, ou **Relatório de varejo**.
+5.  Adicione a loja à hierarquia organizacional padrão que tem por finalidade **Sortimento de varejo**, **Reabastecimento de varejo** ou **Relatório de varejo**.
 
 ### <a name="after-you-set-up-a-retail-store"></a>Após configurar uma loja de varejo
 

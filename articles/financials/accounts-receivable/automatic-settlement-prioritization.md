@@ -1,9 +1,9 @@
 ---
 title: "Liquidação e priorização automáticas"
-description: "Este artigo descreve como as transações serão liquidadas se você selecionar a Liquidação automática na página de parâmetro de Contas a receber. Também explica como a liquidação automática pode ser usada em combinação com a prioridade de pagamento."
+description: "Este tópico descreve como as transações serão liquidadas se você selecionar a Liquidação automática na página de parâmetros de Contas a receber. Também explica como a liquidação automática pode ser usada em combinação com a prioridade de pagamento."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a0f87aca78f1263f1f6ce65e2629b91312716cb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve como as transações serão liquidadas se você selecionar a Liquidação automática na página de parâmetro de Contas a receber. Também explica como a liquidação automática pode ser usada em combinação com a prioridade de pagamento.
+Este tópico descreve como as transações serão liquidadas se você selecionar a Liquidação automática na página de parâmetros de Contas a receber. Também explica como a liquidação automática pode ser usada em combinação com a prioridade de pagamento.
 
 Você tem duas opções quando liquida pagamentos com faturas e outras transações. Você pode selecionar manualmente as transações a serem liquidadas ou o Microsoft Dynamics 365 for Finance and Operations pode selecionar as transações automaticamente usando a funcionalidade de liquidação automática. Você também pode personalizar como as liquidações automáticas são processadas usando a opção **Priorizar liquidação**. Todas essas opções são parte dos parâmetros de liquidação que são definidos na página **Parâmetros de contas a receber**. O modo como as transações são liquidadas automaticamente pode ser diferente, dependendo do método usado para a liquidação automática. Os seguintes métodos estão disponíveis:
 
@@ -50,7 +50,7 @@ Os exemplos de liquidações posteriormente neste artigo se baseiam nas transaç
 | Fatura 3     | 15 de outubro  | 500,00 | 2% 14/Líquido 30        | 29 de outubro         |                                                                                                                                                                                               |
 | Nota de juros | 15 de outubro  | 7:00   |                     |                    | Esta nota de juros destina-se à fatura 1 e à fatura 2. O valor é calculado como 2% de juros em valores devidos com 30 ou mais dias de atraso. Por exemplo, 0,02 × (100,00 + 250,00) = 7,00. |
 
-## <a name="userdefined-settlement-priority"></a>Prioridade de liquidação definida pelo usuário
+## <a name="user-defined-settlement-priority"></a>Prioridade de liquidação definida pelo usuário
 Se você definir **Usar prioridade para liquidações automáticas** como **Sim** na página **Parâmetros de contas a receber**, a prioridade de liquidação que você definir na página **Prioridade de liquidação** é usada quando as transações forem selecionadas para liquidação automática. Para este exemplo, a seguinte prioridade de liquidação é definida:
 
 1.  Tipo de transação

@@ -3,7 +3,7 @@ title: "Relatar o progresso em um dispositivo de trabalho móvel"
 description: "Este procedimento mostra como iniciar e relatar o progresso de um trabalho de produção no formulário de registro do dispositivo do trabalho."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: acbedc6d27624d9a8d1e6fb9bb0d9abed1b4377f
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8a0432b5ff01bf88b9c18de0cac0661618c654ba
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Relatar o progresso em um dispositivo de trabalho móvel
@@ -31,14 +31,14 @@ Este procedimento mostra como iniciar e relatar o progresso de um trabalho de pr
 
 
 
-Para executar esse procedimento você deve usar a função de Administrador do sistema ou Função do operador associada à conta do usuário.
+Para executar esse procedimento, você deve usar a função de administrador do sistema ou a função do operador associada à conta do usuário.
 
 1. Vá para Controle de produção > Execução de fabricação > Dispositivo de ficha de trabalho.
-2. No campo WorkerTextField, insira o crachá de um trabalhador. O tipo de dados '123 'de demonstração de USMF para Christina Portra..
+2. No campo WorkerTextField, insira o crachá de um trabalhador. O tipo de dados '123 'de demonstração de USMF para Christina Portra.
 3. Clique em Fazer logon.
 4. Clique no botão Filtro.
 5. Marque ou desmarque a caixa de seleção Aplicar filtro de configuração. Se você definir um filtro, poderá usar a unidade de produção 110 em USMF.
-6. No campo Unidade de produção, selecione o grupo de recursos para trabalhos de produção nos quais o trabalhador poderá trabalhar.
+6. No campo Unidade de produção, selecione o grupo de recursos para trabalhos de produção nos quais o trabalhador pode trabalhar.
 7. Na lista, clique no link na linha selecionada.
 8. Clique em OK.
 9. Clique no botão Iniciar trabalho.

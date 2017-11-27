@@ -3,24 +3,24 @@ title: "Espaço de trabalho de gerenciamento de ativos fixos"
 description: "Este tópico fornece informações sobre o Espaço de trabalho de gerenciamento de ativos fixos Este espaço de trabalho mostra informações relacionadas a ativos fixos inseridos no sistema. Inclui uma exibição resumida e uma exibição de análise."
 author: saraschi
 manager: AnnBe
-ms.date: 06/06/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: c87cd29f46acb44faddaf5552de21fb8f4c5c71d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c544ae60433dd14d061bc1a78d5cad6577cf579d
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -58,7 +58,7 @@ Você pode acessar a página **Avaliações de ativos fixos** do espaço de trab
 
 ### <a name="analytics--all-companies"></a>Análise – todas as empresas
 
-A página de **Análise** fornece métricas importantes sobre os ativos fixos de todas as entidades legais do sistema. O acesso a esta guia é controlado pelo privilégio de segurança Exibir análise de ativos fixos para todas as empresas.
+A página de **Análise** fornece métricas importantes sobre os ativos fixos de todas as entidades legais do sistema. O acesso a esta guia é controlado pela análise de Exibir ativo fixo para todos os privilégios de segurança da empresa.
 
 A tabela a seguir mostra as visualizações disponíveis em cada página de relatório.
 

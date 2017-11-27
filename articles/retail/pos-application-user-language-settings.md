@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cabb63aea0da4b264aec8e0cc4d43b3e1014e71b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: dacc072ab5c070010d86302fa08a3066125b23a6
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -53,7 +53,7 @@ O idioma de loja será usado também para a tela de login do PDV principal, pois
 
 ### <a name="configuring-the-stores-language-setting"></a>Definindo a configuração do idioma da loja
 
-A configuração de idioma da loja é definida em **Todas as lojas de varejo** na página **Loja de varejo** em **Configurações &gt; regionais gerais &gt; Idioma. ** Use o menu suspenso para escolher o idioma para cada loja.
+A configuração de idioma da loja é definida em **Todas as lojas de varejo** na página **Loja de varejo** em **Configurações &gt; regionais gerais &gt; Idioma. **Use o menu suspenso para escolher o idioma para cada loja.
 
 ## <a name="user-interface-language"></a>Idioma da interface do usuário
 As configurações de idioma do PDV determinam as traduções usadas na interface de usuário do aplicativo. Isso inclui os rótulos, menus e listas que não são considerados dados. Uma exceção é o texto exibido em grades de botão do PDV. As grades de botão não oferecem suporte a traduções e, portanto, sempre mostrarão o texto como definido no botão. Para dar suporte aos botões traduzidos, você terá de copiar e manter as grades de botão separadas e atribuí-las aos usuários como apropriado.

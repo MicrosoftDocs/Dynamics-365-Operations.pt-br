@@ -3,7 +3,7 @@ title: "Recursos de operações"
 description: "Os recursos de operações executam as atividades de um projeto ou um processo de produção. Podem ser de diferentes tipos e podem ter diferentes recursos."
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a333c4d9c0e614c513bf3e1a02b943b186fb1e5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ Os recursos de operações são atribuídos às atividades quando um projeto ou 
 
 -   **Capacidade** – Especifique a capacidade do recurso de operações por hora em termos da unidade de medida de capacidade.
 -   **Capacidade de lote** – Especifique o número máximo de unidades que o recurso de operações pode processar por execução.
--   **Porcentagem de eficiência** – Especifique a eficiência que você espera do recurso de operações. A porcentagem de eficiência ajusta a produtividade do recurso de operações e afeta o tempo que é reservado para o recurso. Os prazos de entrega para as operações que usam o recurso de operações também serão ajustados adequadamente. Aqui está a fórmula que é usada para o cálculo: Hora de agendamento= Hora × 100 ÷ Porcentagem de eficiência Nesta fórmula, *Hora* inclui o tempo de execução e o tempo de preparação.
+-   **Porcentagem de eficiência** – Especifique a eficiência que você espera do recurso de operações. A porcentagem de eficiência ajusta a produtividade do recurso de operações e afeta o tempo que é reservado para o recurso. Os prazos de entrega para as operações que usam o recurso de operações também serão ajustados adequadamente. Esta é a fórmula usada para o cálculo: Hora do plano = Hora × 100 ÷ porcentagem de eficiência. *Hora* inclui o tempo de execução e o tempo de preparação.
 -   **Porcentagem do plano de operações** – Especifique a porcentagem máxima de capacidade do recurso de operações que você deseja usar no plano de operações. Para permitir flexibilidade na capacidade durante o agendamento do trabalho, você deve definir esta porcentagem para menor que 100%.
 -   **Capacidade finita** – Defina esta opção como **Sim** se o recurso de operações for planejado com base na capacidade real disponível e se as reservas de capacidade existentes forem consideradas. Se essa opção estiver definida como **Não**, o recurso de operações é considerado para que a capacidade infinita e o recurso possam ser reservados.
 -   **Propriedade finita** – Defina esta opção como **Sim** se quiser que o recurso de operações seja planejado com base na capacidade real que está disponível em relação às propriedades de programação de horário de trabalho necessárias.

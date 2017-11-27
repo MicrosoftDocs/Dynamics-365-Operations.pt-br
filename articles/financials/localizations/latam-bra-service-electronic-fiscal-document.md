@@ -3,7 +3,7 @@ title: "Nota fiscal eletrônica para serviços do Brasil"
 description: "Este tópico oferece uma visão geral da nota fiscal eletrônica de serviço."
 author: sndray
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BrazilParameters, ConfDefGroups_BR, ConfDefGroupWizard_BR, ConfDefLayout_BR, ConfExportDialog_BR, FiscalDocumentType_BR, RPSExport_BR, RPSImport_BR, TaxServiceCode_BR
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 269984
 ms.assetid: 46e40a3a-784f-4a1e-b185-c4b8ad63518f
 ms.search.region: Brazil
@@ -19,10 +19,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3110c602b0e5cefa56d7248da8199a6160170b09
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 6d23c1ea23696feedfc9b9f41de3b3c0c09e1f17
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -57,7 +57,7 @@ Você pode criar um grupo de definições configurando as tabelas e os campos qu
 
 ### <a name="rps-with-electronic-reporting"></a>RPS com relatórios eletrônicos
 
-Um arquivo de saída de RPS pode ser gerado usando o relatório eletrônico, no qual cada formato de arquivo .txt é definido usando um modelo específico e um designer de formato do relatório eletrônico. Essas configurações podem ser importadas na empresa atual para gerar arquivos XML na página **Repositórios**. Também é possível importar essas configurações do Lifecycle Services (LCS) em **Biblioteca de ativos compartilhados** e **Tipo de ativo** = **Configurações de GER**. Os seguintes modelos e formatos do repositório devem ser carregados:
+Um arquivo de saída RPS pode ser gerado usando o relatório eletrônico, no qual cada formato de arquivo .txt é definido usando um modelo específico e um designer de formato do relatório eletrônico. Essas configurações podem ser importadas na empresa atual para gerar arquivos XML na página **Repositórios**. Também é possível importar essas configurações do Lifecycle Services (LCS) em **Biblioteca de ativos compartilhados** e **Tipo de ativo** = **Configurações de GER**. Os seguintes modelos e formatos do repositório devem ser carregados:
 
 -   Modelo de documento fiscal de serviços (configuração do modelo)
 -   RPS São Paulo V.002 (BR) (configuração de formato)
