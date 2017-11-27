@@ -1,10 +1,9 @@
 # [Bem-vindo ao Dynamics 365 for Talent](index.md)
 
-# Introdução
+# [Introdução](talent-get-started.md)
 ## [Requisitos do sistema e política de atualização](talent-versions-update-policy.md)
 
-# Desenvolver uma estratégia de recursos humanos
-## [Organizar sua força de trabalho usando departamentos, trabalhos e posições](departments-jobs-positions.md)
+# [Desenvolver uma estratégia de recursos humanos](departments-jobs-positions.md)
 ## [Configurar componentes de trabalho](create-job.md)
 ## [Criar um departamento e associá-lo à hierarquia de departamentos](create-department-add-department-hierarchy.md)
 ## [Configurar parâmetros de RH entre entidades legais](set-up-hr-parameters-across-legal-entities.md)
@@ -28,13 +27,11 @@
 ## [Alinhar habilidades da força de trabalho com as necessidades dos negócios](skills.md)
 ## [Configurar cursos de treinamento](courses.md)
 
-# Criar e manter benefícios
-## [Gerenciar um programa de benefícios](manage-benefit-program.md)
-## [Políticas de qualificação para benefícios](benefit-eligibility-policies.md)
+# [Criar e manter benefícios](manage-benefit-program.md)
+# [Políticas de qualificação para benefícios](benefit-eligibility-policies.md)
 ## [Gerenciar itens emprestados aos trabalhadores](loan-items.md)
 
-# Coletar informações por meio de questionários
-## [Questionários](questionnaires.md)
+# [Coletar informações por meio de questionários](questionnaires.md)
 ## [Criar um questionário](design-questionnaires.md)
 ## [Distribuir e preencher um questionário](distribute-questionnaires.md)
 ## [Avaliar os resultados de um questionário](evaluate-questionnaire-results.md)

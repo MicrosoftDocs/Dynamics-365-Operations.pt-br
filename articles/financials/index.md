@@ -25,22 +25,22 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="financial-management-home-page"></a>Home page de Gerenciamento financeiro
+# <a name="financial-management-home-page"></a><span data-ttu-id="dd558-103">Home page de Gerenciamento financeiro</span><span class="sxs-lookup"><span data-stu-id="dd558-103">Financial management home page</span></span>
 
 [!include[banner](includes/banner.md)]
 
-Este tópico oferece uma lista de tópicos da Ajuda e outros recursos de gerenciamento financeiro do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+<span data-ttu-id="dd558-104">Este tópico oferece uma lista de tópicos da Ajuda e outros recursos de gerenciamento financeiro do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.</span><span class="sxs-lookup"><span data-stu-id="dd558-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
 
-Escolha uma área de recursos para saber mais a respeito.
-- [Contas a Pagar](accounts-payable\accounts-payable.md) 
-- [Contas a receber](accounts-receivable\accounts-receivable.md) 
-- [Gerenciamento de caixa e bancos](cash-bank-management\cash-bank-management.md)
-- [Contabilização de custos](cost-accounting\cost-accounting-home-page.md)
-- [Ativos fixos](fixed-assets\fixed-assets.md)
-- [Contabilidade](general-ledger\general-ledger.md) 
-- [Gerenciamento de projetos](project-management\overview-project-management-accounting.md)
-- [Setor público](public-sector\public-sector-functionality.md) 
-- [Orçamento](budgeting\budgeting-overview.md) 
+<span data-ttu-id="dd558-105">Escolha uma área de recursos para saber mais a respeito.</span><span class="sxs-lookup"><span data-stu-id="dd558-105">Select a feature area to learn more about it.</span></span>
+- [<span data-ttu-id="dd558-106">Contas a Pagar</span><span class="sxs-lookup"><span data-stu-id="dd558-106">Accounts payable</span></span>](accounts-payable\accounts-payable.md) 
+- [<span data-ttu-id="dd558-107">Contas a receber</span><span class="sxs-lookup"><span data-stu-id="dd558-107">Accounts receivable</span></span>](accounts-receivable\accounts-receivable.md) 
+- [<span data-ttu-id="dd558-108">Gerenciamento de caixa e bancos</span><span class="sxs-lookup"><span data-stu-id="dd558-108">Cash and bank management</span></span>](cash-bank-management\cash-bank-management.md)
+- [<span data-ttu-id="dd558-109">Contabilização de custos</span><span class="sxs-lookup"><span data-stu-id="dd558-109">Cost accounting</span></span>](cost-accounting\cost-accounting-home-page.md)
+- [<span data-ttu-id="dd558-110">Ativos fixos</span><span class="sxs-lookup"><span data-stu-id="dd558-110">Fixed assets</span></span>](fixed-assets\fixed-assets.md)
+- [<span data-ttu-id="dd558-111">Contabilidade</span><span class="sxs-lookup"><span data-stu-id="dd558-111">General ledger</span></span>](general-ledger\general-ledger.md) 
+- [<span data-ttu-id="dd558-112">Gerenciamento de projetos</span><span class="sxs-lookup"><span data-stu-id="dd558-112">Project management</span></span>](project-management\overview-project-management-accounting.md)
+- [<span data-ttu-id="dd558-113">Setor público</span><span class="sxs-lookup"><span data-stu-id="dd558-113">Public sector</span></span>](public-sector\public-sector-functionality.md) 
+- [<span data-ttu-id="dd558-114">Orçamento</span><span class="sxs-lookup"><span data-stu-id="dd558-114">Budgeting</span></span>](budgeting\budgeting-overview.md) 
 
 
 
