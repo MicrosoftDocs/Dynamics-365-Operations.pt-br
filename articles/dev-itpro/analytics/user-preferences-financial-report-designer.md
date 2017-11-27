@@ -26,59 +26,59 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="3e3f0-104">Preferências do usuário no designer de relatório financeiro</span><span class="sxs-lookup"><span data-stu-id="3e3f0-104">User preferences in financial report designer</span></span>
+# <a name="user-preferences-in-financial-report-designer"></a><span data-ttu-id="ecf4c-104">Preferências do usuário no designer de relatório financeiro</span><span class="sxs-lookup"><span data-stu-id="ecf4c-104">User preferences in financial report designer</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="3e3f0-105">Este artigo explica como definir as preferências do usuário para personalizar as interações do usuário no designer de relatório financeiro e controlar a experiência de logon inicial.</span><span class="sxs-lookup"><span data-stu-id="3e3f0-105">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="3e3f0-106">Você também pode controlar como relatórios individuais, biblioteca de relatórios e os locais de arquivo padrão são exibidos.</span><span class="sxs-lookup"><span data-stu-id="3e3f0-106">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span> 
+<span data-ttu-id="ecf4c-105">Este artigo explica como definir as preferências do usuário para personalizar as interações do usuário no designer de relatório financeiro e controlar a experiência de logon inicial.</span><span class="sxs-lookup"><span data-stu-id="ecf4c-105">This article explains how to set user preferences to customize your user interactions in financial report designer and control the initial sign-in experience.</span></span> <span data-ttu-id="ecf4c-106">Você também pode controlar como relatórios individuais, biblioteca de relatórios e os locais de arquivo padrão são exibidos.</span><span class="sxs-lookup"><span data-stu-id="ecf4c-106">You can also control how individual reports, the report library, and the default file locations are displayed.</span></span> 
 
-<a name="set-user-preferences"></a><span data-ttu-id="3e3f0-107">Definir preferências do usuário</span><span class="sxs-lookup"><span data-stu-id="3e3f0-107">Set user preferences</span></span>
+<a name="set-user-preferences"></a><span data-ttu-id="ecf4c-107">Definir preferências do usuário</span><span class="sxs-lookup"><span data-stu-id="ecf4c-107">Set user preferences</span></span>
 --------------------
 
-1.  <span data-ttu-id="3e3f0-108">No Designer de Relatórios, no menu **Ferramentas**, clique em **Opções**.</span><span class="sxs-lookup"><span data-stu-id="3e3f0-108">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
-2.  <span data-ttu-id="3e3f0-109">Na caixa de diálogo **Opções**, selecione suas preferências.</span><span class="sxs-lookup"><span data-stu-id="3e3f0-109">In the **Options** dialog box, select your preferences.</span></span>
-3.  <span data-ttu-id="3e3f0-110">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="3e3f0-110">Click **OK**.</span></span>
+1.  <span data-ttu-id="ecf4c-108">No Designer de Relatórios, no menu **Ferramentas**, clique em **Opções**.</span><span class="sxs-lookup"><span data-stu-id="ecf4c-108">In Report Designer, on the **Tools** menu, click **Options**.</span></span>
+2.  <span data-ttu-id="ecf4c-109">Na caixa de diálogo **Opções**, selecione suas preferências.</span><span class="sxs-lookup"><span data-stu-id="ecf4c-109">In the **Options** dialog box, select your preferences.</span></span>
+3.  <span data-ttu-id="ecf4c-110">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="ecf4c-110">Click **OK**.</span></span>
 
-## <a name="options-dialog-box-options"></a><span data-ttu-id="3e3f0-111">Opções da caixa de diálogo Opções</span><span class="sxs-lookup"><span data-stu-id="3e3f0-111">Options dialog box options</span></span>
+## <a name="options-dialog-box-options"></a><span data-ttu-id="ecf4c-111">Opções da caixa de diálogo Opções</span><span class="sxs-lookup"><span data-stu-id="ecf4c-111">Options dialog box options</span></span>
 <table>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="3e3f0-112">Opção do usuário</span><span class="sxs-lookup"><span data-stu-id="3e3f0-112">User option</span></span></th>
-<th><span data-ttu-id="3e3f0-113">descrição</span><span class="sxs-lookup"><span data-stu-id="3e3f0-113">Description</span></span></th>
+<th><span data-ttu-id="ecf4c-112">Opção do usuário</span><span class="sxs-lookup"><span data-stu-id="ecf4c-112">User option</span></span></th>
+<th><span data-ttu-id="ecf4c-113">descrição</span><span class="sxs-lookup"><span data-stu-id="ecf4c-113">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="3e3f0-114">Na inicialização</span><span class="sxs-lookup"><span data-stu-id="3e3f0-114">At startup</span></span></td>
-<td><span data-ttu-id="3e3f0-115">Selecione o que você vê quando Designer de Relatórios é iniciado.</span><span class="sxs-lookup"><span data-stu-id="3e3f0-115">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="3e3f0-116">Selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="3e3f0-116">Select one of the following options:</span></span>
+<td><span data-ttu-id="ecf4c-114">Na inicialização</span><span class="sxs-lookup"><span data-stu-id="ecf4c-114">At startup</span></span></td>
+<td><span data-ttu-id="ecf4c-115">Selecione o que você vê quando Designer de Relatórios é iniciado.</span><span class="sxs-lookup"><span data-stu-id="ecf4c-115">Select what you see when Report Designer starts.</span></span> <span data-ttu-id="ecf4c-116">Selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="ecf4c-116">Select one of the following options:</span></span>
 <ul>
-<li><span data-ttu-id="3e3f0-117"><strong>Carregar último relatório carregado</strong> – Abre o último relatório visualizado.</span><span class="sxs-lookup"><span data-stu-id="3e3f0-117"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
-<li><span data-ttu-id="3e3f0-118"><strong>Mostrar a janela Abrir</strong> – Abre a janela <strong>Abrir</strong>.</span><span class="sxs-lookup"><span data-stu-id="3e3f0-118"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="3e3f0-119">A janela <strong>Abrir</strong> fornece uma janela de pesquisa que você pode usar para localizar rapidamente os blocos de construção.</span><span class="sxs-lookup"><span data-stu-id="3e3f0-119">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
-<li><span data-ttu-id="3e3f0-120"><strong>Mostrar ambiente vazio</strong> – Abre uma janela vazia de designer.</span><span class="sxs-lookup"><span data-stu-id="3e3f0-120"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
+<li><span data-ttu-id="ecf4c-117"><strong>Carregar último relatório carregado</strong> – Abre o último relatório visualizado.</span><span class="sxs-lookup"><span data-stu-id="ecf4c-117"><strong>Load last loaded report</strong> – Open the last report that you viewed.</span></span></li>
+<li><span data-ttu-id="ecf4c-118"><strong>Mostrar a janela Abrir</strong> – Abre a janela <strong>Abrir</strong>.</span><span class="sxs-lookup"><span data-stu-id="ecf4c-118"><strong>Show Open window</strong> – Open the <strong>Open</strong> window.</span></span> <span data-ttu-id="ecf4c-119">A janela <strong>Abrir</strong> fornece uma janela de pesquisa que você pode usar para localizar rapidamente os blocos de construção.</span><span class="sxs-lookup"><span data-stu-id="ecf4c-119">The <strong>Open</strong> window provides a search window that you can use to quickly find building blocks.</span></span></li>
+<li><span data-ttu-id="ecf4c-120"><strong>Mostrar ambiente vazio</strong> – Abre uma janela vazia de designer.</span><span class="sxs-lookup"><span data-stu-id="ecf4c-120"><strong>Show empty environment</strong> – Open an empty designer window.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="3e3f0-121">Exibir confirmação antes de sair do Designer de Relatórios</span><span class="sxs-lookup"><span data-stu-id="3e3f0-121">Display confirmation before exiting Report Designer</span></span></td>
-<td><span data-ttu-id="3e3f0-122">Selecione se deseja receber uma mensagem de aviso quando você sair do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="3e3f0-122">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="3e3f0-123">Esta mensagem ajuda a garantir que você não saia do programa sem querer.</span><span class="sxs-lookup"><span data-stu-id="3e3f0-123">This message helps guarantee that you don't exit the program unintentionally.</span></span></td>
+<td><span data-ttu-id="ecf4c-121">Exibir confirmação antes de sair do Designer de Relatórios</span><span class="sxs-lookup"><span data-stu-id="ecf4c-121">Display confirmation before exiting Report Designer</span></span></td>
+<td><span data-ttu-id="ecf4c-122">Selecione se deseja receber uma mensagem de aviso quando você sair do aplicativo.</span><span class="sxs-lookup"><span data-stu-id="ecf4c-122">Select whether to receive a warning message when you exit the application.</span></span> <span data-ttu-id="ecf4c-123">Esta mensagem ajuda a garantir que você não saia do programa sem querer.</span><span class="sxs-lookup"><span data-stu-id="ecf4c-123">This message helps guarantee that you don't exit the program unintentionally.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="3e3f0-124">Aplicar automaticamente sublinhado de célula em cabeçalhos da coluna</span><span class="sxs-lookup"><span data-stu-id="3e3f0-124">Automatically apply cell underline in column headers</span></span></td>
-<td><span data-ttu-id="3e3f0-125">Selecione se deseja inserir um sublinhado na célula de um novo cabeçalho de coluna.</span><span class="sxs-lookup"><span data-stu-id="3e3f0-125">Select whether to insert an underline in the cell of a new column header.</span></span></td>
+<td><span data-ttu-id="ecf4c-124">Aplicar automaticamente sublinhado de célula em cabeçalhos da coluna</span><span class="sxs-lookup"><span data-stu-id="ecf4c-124">Automatically apply cell underline in column headers</span></span></td>
+<td><span data-ttu-id="ecf4c-125">Selecione se deseja inserir um sublinhado na célula de um novo cabeçalho de coluna.</span><span class="sxs-lookup"><span data-stu-id="ecf4c-125">Select whether to insert an underline in the cell of a new column header.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="3e3f0-126">Localização de arquivos do Management Reporter</span><span class="sxs-lookup"><span data-stu-id="3e3f0-126">Management Reporter files location</span></span></td>
-<td><span data-ttu-id="3e3f0-127">Especifique a localização padrão de arquivos.</span><span class="sxs-lookup"><span data-stu-id="3e3f0-127">Specify the default location for files.</span></span> <span data-ttu-id="3e3f0-128">O aplicativo usa o local padrão quando você exporta grupos de bloco de construção.</span><span class="sxs-lookup"><span data-stu-id="3e3f0-128">The application uses the default location when you export building block groups.</span></span></td>
+<td><span data-ttu-id="ecf4c-126">Localização de arquivos do Management Reporter</span><span class="sxs-lookup"><span data-stu-id="ecf4c-126">Management Reporter files location</span></span></td>
+<td><span data-ttu-id="ecf4c-127">Especifique a localização padrão de arquivos.</span><span class="sxs-lookup"><span data-stu-id="ecf4c-127">Specify the default location for files.</span></span> <span data-ttu-id="ecf4c-128">O aplicativo usa o local padrão quando você exporta grupos de bloco de construção.</span><span class="sxs-lookup"><span data-stu-id="ecf4c-128">The application uses the default location when you export building block groups.</span></span></td>
 </tr>
 </tbody>
 </table>
 
 
 
-<a name="see-also"></a><span data-ttu-id="3e3f0-129">Consulte também</span><span class="sxs-lookup"><span data-stu-id="3e3f0-129">See also</span></span>
+<a name="see-also"></a><span data-ttu-id="ecf4c-129">Consulte também</span><span class="sxs-lookup"><span data-stu-id="ecf4c-129">See also</span></span>
 --------
 
-[<span data-ttu-id="3e3f0-130">Relatórios financeiros</span><span class="sxs-lookup"><span data-stu-id="3e3f0-130">Financial reporting</span></span>](financial-reporting-intro.md)
+[<span data-ttu-id="ecf4c-130">Relatórios financeiros</span><span class="sxs-lookup"><span data-stu-id="ecf4c-130">Financial reporting</span></span>](financial-reporting-intro.md)
 
 
 

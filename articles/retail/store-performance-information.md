@@ -26,26 +26,26 @@ ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="analyze-store-performance"></a><span data-ttu-id="1fcee-103">Analisar o desempenho da loja</span><span class="sxs-lookup"><span data-stu-id="1fcee-103">Analyze store performance</span></span>
+# <a name="analyze-store-performance"></a><span data-ttu-id="7d41d-103">Analisar o desempenho da loja</span><span class="sxs-lookup"><span data-stu-id="7d41d-103">Analyze store performance</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-<span data-ttu-id="1fcee-104">Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho do armazenamento, com base nos dados do Microsoft Dynamics 365 para Varejo.</span><span class="sxs-lookup"><span data-stu-id="1fcee-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Microsoft Dynamics 365 for Retail data.</span></span> 
+<span data-ttu-id="7d41d-104">Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho do armazenamento, com base nos dados do Microsoft Dynamics 365 para Varejo.</span><span class="sxs-lookup"><span data-stu-id="7d41d-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Microsoft Dynamics 365 for Retail data.</span></span> 
 
-<span data-ttu-id="1fcee-105">Como parte do Dynamics 365 para Varejo, os usuários podem estudar o desempenho da loja em tempo real nos diferentes níveis da hierarquia organizacional durante um período selecionado, abrindo o relatório predefinido **Resumo do canal** em qualquer um deste locais:</span><span class="sxs-lookup"><span data-stu-id="1fcee-105">As part of Dynamics 365 for Retail, users can study store performance in real time across different levels of the organization hierarchy over a selected period by opening the out-of-box **Channel summary** report from any of the following locations:</span></span>
+<span data-ttu-id="7d41d-105">Como parte do Dynamics 365 para Varejo, os usuários podem estudar o desempenho da loja em tempo real nos diferentes níveis da hierarquia organizacional durante um período selecionado, abrindo o relatório predefinido **Resumo do canal** em qualquer um deste locais:</span><span class="sxs-lookup"><span data-stu-id="7d41d-105">As part of Dynamics 365 for Retail, users can study store performance in real time across different levels of the organization hierarchy over a selected period by opening the out-of-box **Channel summary** report from any of the following locations:</span></span>
 
--   <span data-ttu-id="1fcee-106">Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de resumo de canal**</span><span class="sxs-lookup"><span data-stu-id="1fcee-106">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel summary report**</span></span>
--   <span data-ttu-id="1fcee-107">Área de trabalho **Finanças da loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Finanças da loja de varejo** &gt; **Relatórios** &gt; **Relatório de resumo de canal**</span><span class="sxs-lookup"><span data-stu-id="1fcee-107">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel summary report**</span></span>
--   <span data-ttu-id="1fcee-108">Seção **Consultas e relatórios** &gt; **Varejo** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de resumo do canal**</span><span class="sxs-lookup"><span data-stu-id="1fcee-108">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel summary report**</span></span>
+-   <span data-ttu-id="7d41d-106">Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de resumo de canal**</span><span class="sxs-lookup"><span data-stu-id="7d41d-106">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel summary report**</span></span>
+-   <span data-ttu-id="7d41d-107">Área de trabalho **Finanças da loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Finanças da loja de varejo** &gt; **Relatórios** &gt; **Relatório de resumo de canal**</span><span class="sxs-lookup"><span data-stu-id="7d41d-107">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel summary report**</span></span>
+-   <span data-ttu-id="7d41d-108">Seção **Consultas e relatórios** &gt; **Varejo** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de resumo do canal**</span><span class="sxs-lookup"><span data-stu-id="7d41d-108">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel summary report**</span></span>
 
-<span data-ttu-id="1fcee-109">Este relatório apresenta um instantâneo dos seguintes resumos como parte do desempenho da loja:</span><span class="sxs-lookup"><span data-stu-id="1fcee-109">This report provides a snapshot of following summaries as part of store performance:</span></span>
+<span data-ttu-id="7d41d-109">Este relatório apresenta um instantâneo dos seguintes resumos como parte do desempenho da loja:</span><span class="sxs-lookup"><span data-stu-id="7d41d-109">This report provides a snapshot of following summaries as part of store performance:</span></span>
 
--   <span data-ttu-id="1fcee-110">Resumo das vendas brutas</span><span class="sxs-lookup"><span data-stu-id="1fcee-110">Gross sales summary</span></span>
--   <span data-ttu-id="1fcee-111">Resumo do tipo de meio de pagamento</span><span class="sxs-lookup"><span data-stu-id="1fcee-111">Tender type summary</span></span>
--   <span data-ttu-id="1fcee-112">Resumo do imposto</span><span class="sxs-lookup"><span data-stu-id="1fcee-112">Tax summary</span></span>
--   <span data-ttu-id="1fcee-113">Resumo de substituições de preço</span><span class="sxs-lookup"><span data-stu-id="1fcee-113">Price overrides summary</span></span>
--   <span data-ttu-id="1fcee-114">Resumo de descontos</span><span class="sxs-lookup"><span data-stu-id="1fcee-114">Discounts summary</span></span>
+-   <span data-ttu-id="7d41d-110">Resumo das vendas brutas</span><span class="sxs-lookup"><span data-stu-id="7d41d-110">Gross sales summary</span></span>
+-   <span data-ttu-id="7d41d-111">Resumo do tipo de meio de pagamento</span><span class="sxs-lookup"><span data-stu-id="7d41d-111">Tender type summary</span></span>
+-   <span data-ttu-id="7d41d-112">Resumo do imposto</span><span class="sxs-lookup"><span data-stu-id="7d41d-112">Tax summary</span></span>
+-   <span data-ttu-id="7d41d-113">Resumo de substituições de preço</span><span class="sxs-lookup"><span data-stu-id="7d41d-113">Price overrides summary</span></span>
+-   <span data-ttu-id="7d41d-114">Resumo de descontos</span><span class="sxs-lookup"><span data-stu-id="7d41d-114">Discounts summary</span></span>
 
 
 

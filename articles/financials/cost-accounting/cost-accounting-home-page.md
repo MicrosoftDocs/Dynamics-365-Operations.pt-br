@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
@@ -18,34 +18,33 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c4c900d7599b0dc09e97e6a62d5b43971a8c3e33
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 6b2346c635fd16fce99c2813856e0fc9b5b03a44
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="cost-accounting-home-page"></a><span data-ttu-id="e3d74-103">Home page da contabilização de custos</span><span class="sxs-lookup"><span data-stu-id="e3d74-103">Cost accounting home page</span></span>
+# <a name="cost-accounting-home-page"></a><span data-ttu-id="30908-103">Home page da contabilização de custos</span><span class="sxs-lookup"><span data-stu-id="30908-103">Cost accounting home page</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-## <a name="learning-map"></a><span data-ttu-id="e3d74-104">Mapa de aprendizado</span><span class="sxs-lookup"><span data-stu-id="e3d74-104">Learning map</span></span> 
+## <a name="learning-map"></a><span data-ttu-id="30908-104">Mapa de aprendizado</span><span class="sxs-lookup"><span data-stu-id="30908-104">Learning map</span></span> 
 
-<span data-ttu-id="e3d74-105">O mapa de aprendizado a seguir mostra os principais conceitos e tarefas que compõem a estrutura do módulo de Contabilização de custos.</span><span class="sxs-lookup"><span data-stu-id="e3d74-105">The following learning map shows the major concepts and tasks that make up the framework of the Cost accounting module.</span></span> <span data-ttu-id="e3d74-106">Clique nos links da seção [Links rápidos](#quick-links) para aprender a usar o módulo.</span><span class="sxs-lookup"><span data-stu-id="e3d74-106">Click the links in the [Quick links](#quick-links) section to learn how to use the module.</span></span>
+<span data-ttu-id="30908-105">O mapa de aprendizado a seguir mostra os principais conceitos e tarefas que compõem a estrutura do módulo de Contabilização de custos.</span><span class="sxs-lookup"><span data-stu-id="30908-105">The following learning map shows the major concepts and tasks that make up the framework of the Cost accounting module.</span></span> <span data-ttu-id="30908-106">Clique nos links da seção [Links rápidos](#quick-links) para aprender a usar o módulo.</span><span class="sxs-lookup"><span data-stu-id="30908-106">Click the links in the [Quick links](#quick-links) section to learn how to use the module.</span></span>
 
-<span data-ttu-id="e3d74-107">[![Mapa de aprendizado para contabilização de custos](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="e3d74-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
+<span data-ttu-id="30908-107">[![Mapa de aprendizado para contabilização de custos](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="30908-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
 
-## <a name="quick-links"></a><span data-ttu-id="e3d74-108">Links Rápidos</span><span class="sxs-lookup"><span data-stu-id="e3d74-108">Quick links</span></span>
+## <a name="quick-links"></a><span data-ttu-id="30908-108">Links Rápidos</span><span class="sxs-lookup"><span data-stu-id="30908-108">Quick links</span></span>
 |      |   |
 |------|---|
-|  [<span data-ttu-id="e3d74-109">Introdução</span><span class="sxs-lookup"><span data-stu-id="e3d74-109">Get started</span></span>](terms-cost-accounting.md)    | [<span data-ttu-id="e3d74-110">Configurar o sistema de origem</span><span class="sxs-lookup"><span data-stu-id="e3d74-110">Configure source system</span></span>](../general-ledger/financial-dimensions.md)  |
-|  [<span data-ttu-id="e3d74-111">Criar dimensões e importar membros da dimensão</span><span class="sxs-lookup"><span data-stu-id="e3d74-111">Create dimensions and import dimension members</span></span>](cost-elements.md)    |[<span data-ttu-id="e3d74-112">Criar hierarquia de dimensão</span><span class="sxs-lookup"><span data-stu-id="e3d74-112">Create dimension hierarchy</span></span>](dimension-hierarchy.md)   |
-|  [<span data-ttu-id="e3d74-113">Criar configuração básica</span><span class="sxs-lookup"><span data-stu-id="e3d74-113">Create basic setup</span></span>](./tasks/define-cost-control-units.md)    |  [<span data-ttu-id="e3d74-114">Definir base de alocação</span><span class="sxs-lookup"><span data-stu-id="e3d74-114">Define allocation base</span></span>](allocation-bases.md) |
-|    [<span data-ttu-id="e3d74-115">Definir políticas</span><span class="sxs-lookup"><span data-stu-id="e3d74-115">Define policies</span></span>](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md)  | [<span data-ttu-id="e3d74-116">Origem de dados e provedor de dados</span><span class="sxs-lookup"><span data-stu-id="e3d74-116">Data source and data provider</span></span>](./tasks/manage-data-source-cost-accounting-ledger.md)  |
-| [<span data-ttu-id="e3d74-117">Processamento de origem de dados</span><span class="sxs-lookup"><span data-stu-id="e3d74-117">Data source processing</span></span>](./tasks/process-trace-source-data.md)     | [<span data-ttu-id="e3d74-118">Cálculo de custos indiretos</span><span class="sxs-lookup"><span data-stu-id="e3d74-118">Overhead calculation</span></span>](overhead-calculation.md)  |
-|   [<span data-ttu-id="e3d74-119">Análise e relatório</span><span class="sxs-lookup"><span data-stu-id="e3d74-119">Analysis and reporting</span></span>](cost-control-workspace.md)   |   |
+|  <span data-ttu-id="30908-109">[Configurar entidades base (eLearning)](https://mbspartner.microsoft.com/Home) (requer conta do CustomerSource)</span><span class="sxs-lookup"><span data-stu-id="30908-109">[Configure base entities (eLearning)](https://mbspartner.microsoft.com/Home) (requires CustomerSource account)</span></span>  |[<span data-ttu-id="30908-110">Criar Dimensões</span><span class="sxs-lookup"><span data-stu-id="30908-110">Create dimensions</span></span>](cost-elements.md)  |
+|  [<span data-ttu-id="30908-111">Criar hierarquia de dimensão</span><span class="sxs-lookup"><span data-stu-id="30908-111">Create dimension hierarchy</span></span>](dimension-hierarchy.md)  |[<span data-ttu-id="30908-112">Criar configuração básica</span><span class="sxs-lookup"><span data-stu-id="30908-112">Create basic setup</span></span>](./tasks/define-cost-control-units.md)| 
+| [<span data-ttu-id="30908-113">Definir base de alocação</span><span class="sxs-lookup"><span data-stu-id="30908-113">Define allocation base</span></span>](allocation-bases.md)|[<span data-ttu-id="30908-114">Definir políticas</span><span class="sxs-lookup"><span data-stu-id="30908-114">Define policies</span></span>](./tasks/create-assign-cost-allocation-policy-cost-control-unit.md) | 
+| [<span data-ttu-id="30908-115">Origem de dados e provedor de dados</span><span class="sxs-lookup"><span data-stu-id="30908-115">Data source and data provider</span></span>](./tasks/manage-data-source-cost-accounting-ledger.md) |                                           [<span data-ttu-id="30908-116">Origem de dados e provedor de dados</span><span class="sxs-lookup"><span data-stu-id="30908-116">Data source and data provider</span></span>](./tasks/process-trace-source-data.md)     | 
+|[<span data-ttu-id="30908-117">Cálculo de custos indiretos</span><span class="sxs-lookup"><span data-stu-id="30908-117">Overhead calculation</span></span>](overhead-calculation.md)  | [<span data-ttu-id="30908-118">Análise e relatório</span><span class="sxs-lookup"><span data-stu-id="30908-118">Analysis and reporting</span></span>](cost-control-workspace.md)   |
 
-## <a name="get-started-videosbr"></a><span data-ttu-id="e3d74-120">Vídeos de introdução</span><span class="sxs-lookup"><span data-stu-id="e3d74-120">Get started videos</span></span><br/>
+## <a name="get-started-videosbr"></a><span data-ttu-id="30908-119">Vídeos de introdução</span><span class="sxs-lookup"><span data-stu-id="30908-119">Get started videos</span></span><br/>
 
 |  |  |                             |
 |------------------------|--------------------|-----------------------------|
