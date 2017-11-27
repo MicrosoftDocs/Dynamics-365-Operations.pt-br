@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b53f95a55e66f7df4f7b3b85dd0dee2047019439
-ms.openlocfilehash: f0f601b2cf66daf0d7d3175bc78938e13aa6cd19
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 35b574e24e721e80ca1469878697aba4c1699dff
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -36,7 +36,7 @@ O Microsoft Dynamics 365 for Retail é uma solução de varejo completa que ofer
 No painel à esquerda, escolha uma área de recursos para saber mais a respeito.
 
 ## <a name="channel-management"></a>Gerenciamento de canal
-Ao configurar sua experiência do Retail, você decidirá como definir e configurar suas lojas. As lojas podem ser lojas físicas, lojas online ou call centers.
+Ao configurar o Retail Experience, você decidirá como definir e configurar suas lojas. As lojas podem ser lojas físicas, lojas online ou call centers.
 
 Cada loja de varejo pode ter seus próprios métodos de pagamento, métodos de entrega, grupos de preços, contas de receita e despesa, registros e equipe. Depois de criar sua loja de varejo, você cria um sortimento de produtos a serem mantidos pela loja. Você também pode definir os preços e os descontos específicos da loja que se aplicam aos produtos disponíveis na loja.
 
@@ -46,7 +46,7 @@ As necessidades dos clientes mudam constantemente. Você deve ser capaz de acomp
 Além disso, os clientes têm muitas opções para conseguir o que querem, quando querem e pelo preço que querem. Para manter a fidelidade do cliente, você pode usar notificações personalizadas e ofertas que facilitam a compra.
 
 ## <a name="hardware-and-peripherals"></a>Hardware e periféricos
-O Modern point of sale (MPOS) e o PDV em Nuvem do Retail podem usar uma variedade de periféricos de hardware. O MPOS e o PDV em Nuvem oferecem várias interfaces e opções de implantação para ajudá-lo com os diversos cenários comerciais.
+O Modern Point of Sale (MPOS) e o Cloud POS do Retail podem usar uma variedade de periféricos de hardware. O MPOS e o Cloud POS oferecem várias interfaces e opções de implantação para ajudá-lo com os diversos cenários comerciais.
 
 O simulador periférico do Retail inclui um simulador periférico virtual e um simulador do POS. O simulador periférico virtual dá suporte principalmente a testes de cenários que costumam exigir dispositivos periféricos físicos de PDV. O simulador do POS permite testar a compatibilidade de dispositivos periféricos físicos com o Retail sem precisar implantar o cliente do POS.
 
@@ -62,7 +62,7 @@ Para poder oferecer produtos para venda em seus canais de varejo, você precisa 
 Você pode fazer ajustes de preços nos produtos e também configurar descontos para serem aplicados a um item de linha ou uma transação no PDV, em uma ordem de venda do call center ou em uma ordem online.
 
 ## <a name="store-operations-and-pos"></a>Operações de armazenamento e PDV
-MPOS é um aplicativo de PDV para PCs, tablets e telefones. A equipe de vendas pode processar transações de vendas e ordens de clientes, executar atividades de depoimentos de clientes, executar operações diárias e gerenciamento do estoque em dispositivos móveis em qualquer lugar na loja, bem como nas registradoras baseadas em PCs. O PDV em Nuvem é um PDV baseado em navegador que pode ser iniciado em qualquer navegador padrão.
+MPOS é um aplicativo de PDV para PCs, tablets e telefones. A equipe de vendas pode processar transações de vendas e ordens de clientes, executar atividades de depoimentos de clientes, executar operações diárias e gerenciamento do estoque em dispositivos móveis em qualquer lugar na loja, bem como nas registradoras baseadas em PCs. O Cloud POS é um PDV baseado em navegador que pode ser iniciado em qualquer navegador padrão.
 
 Você configurará vários componentes para definir os relacionamentos entre uma loja, as registradoras de PDV da loja e os periféricos do varejo que essas registradoras usam para processar transações. Você também definirá as características de uma instância específica do PDV. Estas características incluem o perfil ou a configuração do hardware para periféricos de varejo que serão usados na registradora, a loja para a qual a registradora é mapeada, a experiência visual do usuário que entra nessa registradora, e as funcionalidades habilitadas na registradora. Você também definirá se a registradora pode operar em um estado desconectado ou offline.
 
@@ -74,7 +74,7 @@ Se você foi solicitado a personalizar seu ambiente, ou se é responsável por i
 
 ## <a name="additional-resources"></a>Recursos adicionais
 ### <a name="whats-new-and-in-development"></a>Novidades e o que está em desenvolvimento
-Visite o [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) para conferir os novos recursos que foram liberados e os novos recursos em desenvolvimento.
+Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para conferir os novos recursos que foram liberados e os novos recursos em desenvolvimento.
 
 ### <a name="blogs"></a>Blogs
 Você pode encontrar opiniões, notícias e outras informações sobre o Retail e outras soluções no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog).

@@ -54,57 +54,54 @@
 #### [Classes de atributo do X++](dev-ref/xpp-attribute-classes.md)
 #### [Comparação entre X++ e C\#](dev-ref/xpp-cs-comparison.md)
 #### [Sintaxe do X++](dev-ref/xpp-syntax.md)
-## Funções em tempo de compilação
+## [Referência de API, classes e tabelas](dev-ref/api-reference.md)
 ### [Funções em tempo de compilação do X++](dev-ref/xpp-compile-time-functions.md)
-## Funções em tempo de execução
-### [Funções em tempo de execução do X++](dev-ref/xpp-business-run-time-functions.md)
-### [Funções de contêiner em tempo de execução do X++](dev-ref/xpp-container-run-time-functions.md)
-### [Funções de conversão em tempo de execução do X++](dev-ref/xpp-conversion-run-time-functions.md)
-### [Funções de data em tempo do X++](dev-ref/xpp-date-run-time-functions.md)
-### [Funções matemáticas em tempo de execução do X++](dev-ref/xpp-math-run-time-functions.md)
-### [Funções de reflexão em tempo de execução do X++](dev-ref/xpp-reflection-run-time-functions.md)
 ### [Funções em tempo de execução do X++](dev-ref/xpp-run-time-functions.md)
-### [Funções de sessão em tempo de execução do X++](dev-ref/xpp-session-run-time-functions.md)
-### [Funções de cadeia de caracteres em tempo de execução do X++](dev-ref/xpp-string-run-time-functions.md)
-## Tabelas do sistema
+#### [Funções em tempo de execução do X++](dev-ref/xpp-business-run-time-functions.md)
+#### [Funções de contêiner em tempo de execução do X++](dev-ref/xpp-container-run-time-functions.md)
+#### [Funções de conversão em tempo de execução do X++](dev-ref/xpp-conversion-run-time-functions.md)
+#### [Funções de data em tempo do X++](dev-ref/xpp-date-run-time-functions.md)
+#### [Funções matemáticas em tempo de execução do X++](dev-ref/xpp-math-run-time-functions.md)
+#### [Funções de reflexão em tempo de execução do X++](dev-ref/xpp-reflection-run-time-functions.md)
+#### [Funções de sessão em tempo de execução do X++](dev-ref/xpp-session-run-time-functions.md)
+#### [Funções de cadeia de caracteres em tempo de execução do X++](dev-ref/xpp-string-run-time-functions.md)
 ### [Tabelas do sistema](dev-ref/system-tables.md)
-## Classes do sistema
-### [Referência de API, classes e tabelas](dev-ref/api-reference.md)
-### [Classes A](dev-ref/a-classes.md)
-### [Classes B](dev-ref/b-classes.md)
-### [Classes C](dev-ref/c-classes.md)
-### [Classes D](dev-ref/d-classes.md)
-### [Classes E](dev-ref/e-classes.md)
-### [Classes F: FieldBinding a FormBuildAnimateControl](dev-ref/fieldbinding-classes.md)
-### [Classes F: FormBuildButtonControl a FormBuildFastTabSummarySeparator](dev-ref/formbuildbuttoncontrol-classes.md)
-### [Classes F: FormBuildFilterPaneControl a FormBuildRealControl](dev-ref/formbuildfilterpanecontrol-classes.md)
-### [Classes F: FormBuildReferenceControl a FormButtonSeparatorControl](dev-ref/formbuildreferencecontrol-classes.md)
-### [Classes F: FormChangeTracker to FormControlEventArgs](dev-ref/formchangetracker-classes.md)
-### [Classes F: FormDataObject a FormFastTabHeaderControl](dev-ref/formdataobject-classes.md)
-### [Classes F: FormFastTabSummarySeparator a FormGridControl](dev-ref/formfasttabsummaryseparator-classes.md)
-### [Classes F: FormGroupControl a FormIntControl](dev-ref/formgroupcontrol-classes.md)
-### [Classes F: FormListBoxControl a FormNotifyEventArgs](dev-ref/formlistboxcontrol-classes.md)
-### [Classes F: FormObject a FormRealControl](dev-ref/formobject-classes.md)
-### [Classes F: FormReferenceControl a FormStringControl](dev-ref/formreferencecontrol-classes.md)
-### [Classes F: FormTabControl a FormTabControl](dev-ref/formtabcontrol-classes.md)
-### [Classes G](dev-ref/g-classes.md)
-### [Classes H](dev-ref/h-classes.md)
-### [Classes I](dev-ref/i-classes.md)
-### [Classes J](dev-ref/j-classes.md)
-### [Classes K](dev-ref/k-classes.md)
-### [Classes L](dev-ref/l-classes.md)
-### [Classes M](dev-ref/m-classes.md)
-### [Classes N](dev-ref/n-classes.md)
-### [Classes O](dev-ref/o-classes.md)
-### [Classes P](dev-ref/p-classes.md)
-### [Classes Q](dev-ref/q-classes.md)
-### [Classes R](dev-ref/r-classes.md)
-### [Classes S](dev-ref/s-classes.md)
-### [Classes T](dev-ref/t-classes.md)
-### [Classes U](dev-ref/u-classes.md)
-### [Classes V](dev-ref/v-classes.md)
-### [Classes W](dev-ref/w-classes.md)
-### [Classes X](dev-ref/x-classes.md)
+### Classes do sistema
+#### [Classes A](dev-ref/a-classes.md)
+#### [Classes B](dev-ref/b-classes.md)
+#### [Classes C](dev-ref/c-classes.md)
+#### [Classes D](dev-ref/d-classes.md)
+#### [Classes E](dev-ref/e-classes.md)
+#### [Classes F: FieldBinding a FormBuildAnimateControl](dev-ref/fieldbinding-classes.md)
+#### [Classes F: FormBuildButtonControl a FormBuildFastTabSummarySeparator](dev-ref/formbuildbuttoncontrol-classes.md)
+#### [Classes F: FormBuildFilterPaneControl a FormBuildRealControl](dev-ref/formbuildfilterpanecontrol-classes.md)
+#### [Classes F: FormBuildReferenceControl a FormButtonSeparatorControl](dev-ref/formbuildreferencecontrol-classes.md)
+#### [Classes F: FormChangeTracker to FormControlEventArgs](dev-ref/formchangetracker-classes.md)
+#### [Classes F: FormDataObject a FormFastTabHeaderControl](dev-ref/formdataobject-classes.md)
+#### [Classes F: FormFastTabSummarySeparator a FormGridControl](dev-ref/formfasttabsummaryseparator-classes.md)
+#### [Classes F: FormGroupControl a FormIntControl](dev-ref/formgroupcontrol-classes.md)
+#### [Classes F: FormListBoxControl a FormNotifyEventArgs](dev-ref/formlistboxcontrol-classes.md)
+#### [Classes F: FormObject a FormRealControl](dev-ref/formobject-classes.md)
+#### [Classes F: FormReferenceControl a FormStringControl](dev-ref/formreferencecontrol-classes.md)
+#### [Classes F: FormTabControl a FormTabControl](dev-ref/formtabcontrol-classes.md)
+#### [Classes G](dev-ref/g-classes.md)
+#### [Classes H](dev-ref/h-classes.md)
+#### [Classes I](dev-ref/i-classes.md)
+#### [Classes J](dev-ref/j-classes.md)
+#### [Classes K](dev-ref/k-classes.md)
+#### [Classes L](dev-ref/l-classes.md)
+#### [Classes M](dev-ref/m-classes.md)
+#### [Classes N](dev-ref/n-classes.md)
+#### [Classes O](dev-ref/o-classes.md)
+#### [Classes P](dev-ref/p-classes.md)
+#### [Classes Q](dev-ref/q-classes.md)
+#### [Classes R](dev-ref/r-classes.md)
+#### [Classes S](dev-ref/s-classes.md)
+#### [Classes T](dev-ref/t-classes.md)
+#### [Classes U](dev-ref/u-classes.md)
+#### [Classes V](dev-ref/v-classes.md)
+#### [Classes W](dev-ref/w-classes.md)
+#### [Classes X](dev-ref/x-classes.md)
 
 ## [Home page da extensibilidade](extensibility/extensibility-home-page.md)
 ### Introdução
@@ -140,13 +137,10 @@
 #### [Alterar um rótulo](extensibility/change-label.md)
 #### [Estender o escopo da sequência numérica](extensibility/extend-number-sequence-scope.md)
 
-## [Home page de entrega contínua](dev-tools/continuous-delivery-home-page.md)
-### [Perguntas frequentes sobre desenvolvimento e entrega contínua](dev-tools/continuous-delivery-faq.md)
-### [Excluir pacotes de teste da compilação de saída](dev-tools/exclude-test-packages.md)
-### [Gerenciar modelos de terceiros e pacotes de tempo de execução usando controle de origem](dev-tools/manage-runtime-packages.md)
-### [Modelos de versão na compilação automatizada](dev-tools/version-models-build.md)
 
-## Home page de desempenho
+
+
+## Desempenho
 ### [Fazer um rastreamento usando o Trace parser](perf-test/trace-trace-tutorial.md)
 ### [Testes de PerfSDK e de multiusuários com o Visual Studio Team Services](perf-test/perfsdk-tutorial.md)
 ### [Diagnosticar problemas e analisar problemas de desempenho usando o Trace parser](perf-test/trace-parser.md)
@@ -155,10 +149,8 @@
 ### [Testes e validações](perf-test/testing-validation.md)
 ### [Testar projetos no Visual Studio](perf-test/testing-support.md)
 ### [Implantação com compilação contínua e automação de testes](perf-test/continuous-build-test-automation.md)
-## Datas
-### [Efetividade de data](dev-tools/date-effectivity.md)
-## Licenciamento
-### [Licenciamento de ISV](dev-tools/isv-licensing.md)
+## [Efetividade de data](dev-tools/date-effectivity.md)
+## [Licenciamento de ISV](dev-tools/isv-licensing.md)
 
 # [Desenvolvimento da interface do usuário](user-interface/user-interface-development-home-page.md)
 ## Tutoriais
@@ -359,6 +351,104 @@
 #### [Tipo de ValueDesign](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md)
 #### [Tipo de ValueMetadata](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
+# Integração de dados
+## [Padrões de integração](data-entities/integration-overview.md)
+
+## APIs de integração de dados
+### [API de pacote de gerenciamento de dados](data-entities/data-management-api.md)
+### [Pontos de extremidade de serviço](data-entities/services-home-page.md)
+#### [Solução de problemas de autenticação de serviço](data-entities/troubleshoot-service-authentication.md)
+### [OData](data-entities/odata.md)
+### [Serviços personalizados](data-entities/custom-services.md)
+### [Integrações recorrentes](data-entities/recurring-integrations.md)
+
+## Desenvolvimento para integração
+### [Integração de dados usando entidades de dados](data-entities/data-management-integration-data-entity.md)
+#### [Desenvolver uma entidade para migração de dados](data-entities/develop-entity-for-data-migration.md)
+#### [Desenvolver entidades de dados compostas](data-entities/develop-composite-data-entities.md)
+#### [Configurar o compartilhamento de dados financeiros entre empresas](data-entities/tasks/configure-financial-cross-company-data-sharing.md)
+#### [Criar um modelo de registro para facilitar a entrada de dados](data-entities/tasks/create-record-template-facilitate-data-entry.md)
+#### [Usar um modelo de registro para criar um novo registro](data-entities/tasks/use-record-template-new-record.md)
+
+### [Integração de dados usando o Common Data Service](data-entities/data-integration-cds.md) 
+#### [Configurar um cliente potencial para o cenário de pagamento à vista](../supply-chain/sales-marketing/prospect-to-cash.md)
+##### [Sincronizar produtos do Finance and Operations com produtos do Sales](../supply-chain/sales-marketing/products-template-mapping.md)
+##### [Sincronizar contas do Sales com clientes do Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
+##### [Sincronizar contatos do Sales com contatos ou clientes do Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
+##### [Sincronizar cabeçalhos e linhas de cotação de venda do Sales com o Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+##### [Sincronizar cabeçalhos e linhas de ordem de venda do Finance and Operations com o Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+##### [Sincronizar cabeçalhos e linhas de fatura do Finance and Operations com o Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [Sincronizar contas diretamente do Sales com clientes do Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [Sincronizar produtos diretamente do Finance and Operations com produtos do Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [Sincronizar contatos diretamente do Sales com contatos ou clientes do Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [Sincronizar cabeçalhos e linhas de ordem de venda diretamente do Finance and Operations com o Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [Sincronizar cabeçalhos e linhas de fatura de venda diretamente do Finance and Operations com o Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+
+### [Consumo de serviços Web externos](data-entities/consume-external-web-service.md)
+
+
+# [Gerenciamento de dados](data-entities/data-entities-data-packages.md)
+
+## [Entidades de dados](data-entities/data-entities.md)
+
+### [Projetos de dados de configuração](data-entities/configuration-data-projects.md)
+### [Pacotes de dados de configuração](data-entities/configuration-data-packages.md)
+### [Copiar dados de configuração entre empresas](data-entities/copy-configuration.md)
+### [Modelos de dados de configuração](data-entities/configuration-data-templates.md)
+### [Rastrear alterações em uma entidade](data-entities/entity-change-track.md)
+
+## Entidades de dados padrão
+### [Relatório de entidades de dados](data-entities/data-entities-report.md)
+### [Entidades de dados: Contas a pagar e impostos](data-entities/data-entities-accounts-payable-taxes.md)
+### [Entidades de dados: Contas a receber](data-entities/data-entities-accounts-receivable.md)
+### [Entidades de dados: Banco](data-entities/data-entities-bank.md)
+### [Entidades de dados: Saldos iniciais](data-entities/data-entities-beginning-balances.md)
+### [Entidades de Dados: Planejamento de orçamento](data-entities/data-entities-budget-plan.md)
+### [Entidades de dados: Orçamento](data-entities/data-entities-budgeting.md)
+### [Entidades de dados: Avaliação de custo](data-entities/data-entities-costing.md)
+### [Entidades de dados: Gerenciamento de despesas](data-entities/data-entities-expense-management.md)
+### [Entidades de dados: Ativos fixos](data-entities/data-entities-fixed-assets.md)
+### [Entidades de dados: Contabilidade](data-entities/data-entities-general-ledger.md)
+### [Entidades de dados: Catálogo de endereços global](data-entities/data-entities-global-address-book.md)
+### [Entidades de dados: Recursos humanos](data-entities/data-entities-human-resources.md)
+### [Entidades de dados: Gerenciamento de estoque](data-entities/data-entities-inventory-management.md)
+### [Entidades de dados: Planejamento mestre](data-entities/data-entities-master-plan.md)
+### [Entidades de dados: Compras e fornecimento](data-entities/data-entities-procurement-sourcing.md)
+### [Entidades de dados: Gerenciamento de informações do produto](data-entities/data-entities-product-information-management.md)
+### [Entidades de dados: Controle de produção](data-entities/data-entities-production-control.md)
+### [Entidades de dados: Contabilidade de projetos](data-entities/data-entities-project-accounting.md)
+### [Entidades de dados: Setor público](data-entities/data-entities-public-sector.md)
+### [Entidades de dados: Varejo](data-entities/data-entities-retail.md)
+### [Entidades de dados: Execução de vendas e marketing](data-entities/data-entities-sales-marketing.md)
+### [Entidades de dados: Pré-vendas de vendas e marketing](data-entities/data-entities-sales-marketing-pre-sales.md)
+### [Entidades de dados: Administração do sistema](data-entities/data-entities-system-administration.md)
+### [Entidades de dados: Fluxo de trabalho](data-entities/data-entities-workflow.md)
+
+## [Trabalhos de importação e exportação de dados](data-entities/data-import-export-job.md)
+
+### [Práticas recomendadas para importar vouchers usando a entidade Diário geral](data-entities/tips-tricks-import-general-journal-entity.md)
+
+## Desenvolvimento para entidades de dados
+### [Criar novas entidades de dados](data-entities/build-consuming-data-entities.md)
+### [Propriedades da entidade de dados](data-entities/behavioral-properties-data-entities.md)
+### [Criar colunas de cálculo e campos virtuais](data-entities/data-entity-computed-columns-virtual-fields.md)
+### [Comportamento interempresarial](data-entities/cross-company-behavior.md)
+### [Manuseando códigos de países/regiões](data-entities/countryregion-codes-configuration-keys.md)
+### [Padrões de herança](data-entities/support-super-type-sub-type.md)
+### [Regras do assistente de entidade de dados](data-entities/data-entity-wizard-rules.md)
+### [Propriedades de metadados](data-entities/behavioral-properties-data-entities.md)
+### [Validações, padrões e campos não mapeados](data-entities/validations-defaults-unmapped-fields.md)
+### [Segurança e entidades de dados](data-entities/security-data-entities.md)
+
+## [Traga seu próprio banco de dados](analytics/export-entities-to-your-own-database.md)
+
+# [Home page de entrega contínua](dev-tools/continuous-delivery-home-page.md)
+## [Perguntas frequentes sobre desenvolvimento e entrega contínua](dev-tools/continuous-delivery-faq.md)
+## [Excluir pacotes de teste da compilação de saída](dev-tools/exclude-test-packages.md)
+## [Gerenciar modelos de terceiros e pacotes de tempo de execução usando controle de origem](dev-tools/manage-runtime-packages.md)
+## [Modelos de versão na compilação automatizada](dev-tools/version-models-build.md)
+
+
 # Liberar soluções usando o Lifecycle Services
 ## [Desenvolver e liberar](lcs-solutions/lcs-solutions-app-source.md)
 ## [Preparar e publicar](lcs-solutions/marketing-content-lcs-solutions.md)
@@ -377,9 +467,7 @@
 ### [Separar modelos de localização](lcs-solutions/separate-localization-models.md)
 ### [Enviar um alerta sobre regulamentação](lcs-solutions/submit-localization-alerts.md)
 
-
-
-# Desenvolvimento financeiro
+# [Desenvolvimento financeiro](financial/financial-dev-home-page.md)
 ## [Dimensões](financial/dimensions.md)
 ## [Adicionar dimensões a um modelo do Excel](financial/dimensions-overview.md)
 ## [Suporte ao diálogo de controle Entrada de Dimensão](financial/dimension-entry-control-dialog-support.md)
@@ -416,6 +504,7 @@
 ### [Criar um projeto local](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Configurar e implantar ambientes locais](deployment/setup-deploy-on-premises-environments.md)
 ### [Desenvolver e implantar modelos personalizados para ambientes locais](deployment/develop-deploy-custom-models-on-premises.md)
+### [Aplicar atualizações a uma implantação local](deployment/apply-updates-on-premises.md)
 
 ## Implantar código personalizado
 ### [Criar um pacote implantável](deployment/create-apply-deployable-package.md)
@@ -426,10 +515,10 @@
 # [Atualização e migração](migration-upgrade/upgrade-home-page.md)
 ## [Atualizar do AX 2012 para o Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
 ### [Analisar - usar a ferramenta Analisador de atualizações para planejar a atualização](migration-upgrade/upgrade-analyzer-tool.md)
-### [Analisar – usar o serviço Atualização de código para estimar o esforço para atualizar o código](migration-upgrade/analyze-code-upgrade.md)
+### [Analisar – usar o serviço Atualização de código para estimar o esforço de atualização do código](migration-upgrade/analyze-code-upgrade.md)
 ### [Analisar - implantar um ambiente de área restrita](migration-upgrade/analysis-sandbox.md)
 ### [Atualizar - atualização de dados em um ambiente de desenvolvimento](migration-upgrade/data-upgrade-2012.md)
-### [Atualizar - tarefas de atualização de dados do AX 2012](migration-upgrade/prepare-data-upgrade.md)
+### [Upgrade - tarefas de upgrade de dados do AX 2012](migration-upgrade/prepare-data-upgrade.md)
 ### [Atualizar - atualização de dados em um ambiente de área restrita](migration-upgrade/upgrade-data-sandbox.md)
 ### [Validar - testes de substituição](migration-upgrade/upgrade-cutover-testing.md)
 ### [Validar - tarefas a serem realizadas após a atualização](migration-upgrade/app-validation-process.md)
@@ -445,7 +534,7 @@
 #### [Migrar um cubo de vendas atualizado para o repositório de entidades](migration-upgrade/migrate-upgraded-cube-entity-store.md)
 #### [Atualizar planejamento de orçamento](migration-upgrade/upgrade-budget-planning.md)
 
-## Migração e atualização de código
+## [Migração e atualização de código](migration-upgrade/code-migration-home-page.md)
 ### [Preparar-se para migrar código](migration-upgrade/prepare-migration.md)
 ### [Configurar o mapeamento do Visual Studio Team Services durante a migração de código](migration-upgrade/configure-vso-solution.md)
 ### [Dividir modelos](dev-tools/model-split.md)
@@ -476,6 +565,7 @@
 ## [Relatório de códigos de licença e chaves de configuração](sysadmin/license-codes-configuration-keys-report.md)
 ## [Compartilhamento de dados entre empresas](sysadmin/cross-company-data-sharing.md)
 ## [Modo de manutenção](sysadmin/maintenance-mode.md)
+## [Contas do sistema pré-configuradas](sysadmin/pre-configured-system-accounts.md)
 ## [Segurança baseada em função](sysadmin/role-based-security.md)
 ### [Arquitetura de segurança](sysadmin/security-architecture.md)
 ### [Relatórios de segurança](sysadmin/security-reports.md)
@@ -496,10 +586,11 @@
 ### [Novidades](lifecycle-services/whats-new-lcs.md)
 ### [Problemas conhecidos](lifecycle-services/known-issues.md)
 ## [Guia do usuário do Dynamics Lifecycle Services](lifecycle-services/lcs-user-guide.md)
+## [Avaliador de subscrição](lifecycle-services/subscription-estimator.md)
 ## [Configuração de segurança](lifecycle-services/configure-lcs-security.md)
 ## [Pesquisa de problemas](lifecycle-services/issue-search-lcs.md)
 ## [Gerenciador de configurações](lifecycle-services/configuration-manager-lcs.md)
-### [Instalar o Gerenciador de configurações ](lifecycle-services/set-up-configuration-manager-lcs.md)
+### [Instalar o Gerenciador de configurações](lifecycle-services/set-up-configuration-manager-lcs.md)
 ## [Configurar o serviço de atualização de código](lifecycle-services/configure-execute-code-upgrade.md)
 ## [Criar uma metodologia ](lifecycle-services/create-methodology.md)
 ## [Modelador de processo de negócios](lifecycle-services/bpm-overview.md)
@@ -511,8 +602,9 @@
 ## [Fluxogramas do Modelador de processo de negócios](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [Carregar processos de negócios personalizados](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [Monitoramento e diagnóstico ](lifecycle-services/monitoring-diagnostics.md)
+## [Rastrear logons de usuário](lifecycle-services/user-logins.md)
 ## [Biblioteca de ativos](lifecycle-services/asset-library.md)
-## [Visão geral do Microsoft Dynamics 365 Translation Service](lifecycle-services/translation-service-overview.md)
+## [Visão geral do Microsoft Dynamics 365 - Translation Service](lifecycle-services/translation-service-overview.md)
 ### [Guia do usuário do Microsoft Dynamics 365 Translation Service](lifecycle-services/use-translation-service.md)
 
 ## Recursos do Dynamics AX 2012 Lifecycle Services
@@ -592,8 +684,9 @@
 # Gerenciamento de banco de dados
 ## [Copiar um banco de dados do Banco de Dados SQL do Azure para um ambiente do SQL Server](database/copy-database-from-azure-sql-to-sql-server.md)
 ## [Copiar um banco de dados do SQL Server para um Banco de Dados SQL do Azure de produção](database/copy-database-from-sql-server-to-azure-sql.md)
-## [Restaurar um base de dados em um ambiente de não produção](database/request-point-in-time-restore.md)
-## [Exportar uma cópia de um base de dados para restauração posterior](database/copy-operations-database.md)
+## [Restaurar um banco de dados em um ambiente de não produção](database/request-point-in-time-restore.md)
+## [Exportar uma cópia de um banco de dados para restauração posterior](database/copy-operations-database.md)
+## [Solicitar uma atualização de banco de dados de área restrita](database/database-refresh.md)
 
 # Suporte
 ## [Obter suporte para o Dynamics 365 for Finance and Operations, Enterprise Edition e o Lifecycle Services](lifecycle-services/lcs-support.md)

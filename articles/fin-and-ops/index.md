@@ -3,7 +3,7 @@ title: "Documentação do Microsoft Dynamics 365 for Finance and Operations, Ent
 description: "Documentação do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: margoc
 manager: AnnBe
-ms.date: 09/29/2017
+ms.date: 11/13/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb040b28078e5072fdb695e7b39e82557219addc
-ms.openlocfilehash: ca1658a9dc7594168476298132274b2c5910b012
+ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
+ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 11/13/2017
 
 ---
 
@@ -67,7 +67,7 @@ Muito desse conteúdo também se aplica aos produtos relacionados: Microsoft Dyn
 
 <h3><a href="../supply-chain/index.md">Gerenciamento da cadeia de fornecimento</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets.md">Gerenciamento de custo</a></p>
-<p><a href="../supply-chain/inventory/inventory-locations.md">Gerenciamento de estoque</a></p>
+<p><a href="../supply-chain/inventory/inventory-home-page.md">Gerenciamento de estoque</a></p>
 <p><a href="../supply-chain/master-planning/master-plans.md">Planejamento mestre</a></p>
 <p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">Compras</a></p>
 <p><a href="../supply-chain/pim/product-information.md">Gerenciamento de informações do produto</a></p>
@@ -81,14 +81,17 @@ Muito desse conteúdo também se aplica aos produtos relacionados: Microsoft Dyn
 <h3><a href="../dev-itpro/analytics/bi-reporting-home-page.md">Inteligência</a></h3>
 <p><a href="../dev-itpro/analytics/analytics.md">Análise</a></p>
  <p><a href="../dev-itpro/analytics/document-reporting-services.md">Documentos comerciais</a></p>
-<p><a href="../dev-itpro/analytics/financial-reporting-intro.md">Relatórios financeiros</a></p>
+<p><a href="../dev-itpro/analytics/financial-reporting-intro.md">Relatório financeiro</a></p>
 <p><a href="../dev-itpro/analytics/general-electronic-reporting.md">Relatório de regulamentação</a></p>
 
 
 
 <h3><a href="../dev-itpro/dev-tools/developer-home-page.md">Desenvolvimento</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">Extensibilidade</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">Integração e gerenciamento de dados</a></p>
+
+<p><a href="../dev-itpro/data-entities/integration-overview.md">Integração de dados</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">Gerenciamento de dados</a></p>
+
 <p><a href="../dev-itpro/office-integration/office-integration.md">Integração do Office</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Entrega contínua</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Plataforma móvel</a></p>
@@ -97,8 +100,8 @@ Muito desse conteúdo também se aplica aos produtos relacionados: Microsoft Dyn
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administração</h3>
 <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Implantação</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Atualização</a></p>
-<p><a href="../dev-itpro/dev-tools/developer-home-page.md#service-environments">Atendimento</a></p>
-<p><a href="../dev-itpro/data-entities/data-management-integration-data-entity.md">Gerenciamento de dados</a></p>
+<p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Manutenção</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">Estrutura de gerenciamento de dados</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">Administração da organização</a></p>
 </td>
@@ -112,7 +115,7 @@ Muito desse conteúdo também se aplica aos produtos relacionados: Microsoft Dyn
 <h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality.md">Call center</p>
 <p><a href="../retail/define-maintain-retail-channels.md">Configuração e gerenciamento de canal</p>
-<p><a href="../retail/retail-peripherals-overview.md">MPOS e PDV em nuvem</p>
+<p><a href="../retail/retail-peripherals-overview.md">MPOS e Cloud POS</p>
 <p><a href="../retail/dev-itpro/dev-retail-home-page.md">Desenvolvedor do Retail e administração</p>
 
 </td>

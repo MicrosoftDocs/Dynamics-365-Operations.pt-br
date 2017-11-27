@@ -3,24 +3,24 @@ title: "Recursos de localização e regulatórios"
 description: "Este tópico inclui listas de recursos que podem ajudar você a aprender mais sobre funcionalidades específicas ao país/região."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: fd01d40d3e74503e3e310132882306ed8c23ad1d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 25c8c6c9bbccf07ce94a909824ecc8096081cd2c
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -52,8 +52,8 @@ Os recursos a seguir fornecem informações sobre recursos planejados e novas lo
 -   [Observação regulatória e comunicação de atualização regulatória](regulatory-watch-communication.md)
 -   [Informar a Microsoft sobre alertas de regulamentação de país/região e acompanhar o status de recursos regulatórios](submit-localization-alerts.md)
 
-### <a name="dynamics-365-roadmap"></a>Dynamics 365 Roadmap
-O [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) fornece um instantâneo do item em que você está trabalhando. Use esse mapa para descobrir o que foi disponibilizado em geral e o que está em desenvolvimento. Todos os recursos e datas que estão em desenvolvimento são preliminares, baseiam-se nas expectativas atuais e estão sujeitos a alteração sem aviso prévio.
+### <a name="dynamics-365-roadmap"></a>Roteiro do Dynamics 365
+O [Roteiro do Dynamics 365](https://roadmap.dynamics.com/) fornece um instantâneo do item em que você está trabalhando. Use esse mapa para descobrir o que foi disponibilizado em geral e o que está em desenvolvimento. Todos os recursos e datas que estão em desenvolvimento são preliminares, baseiam-se nas expectativas atuais e estão sujeitos a alteração sem aviso prévio.
 
 ## <a name="electronic-reporting"></a>Relatório eletrônico
 A ferramenta ER (Relatório eletrônico) permite configurar formatos de documentos eletrônicos de acordo com os requisitos legais de vários países/regiões. O ER permite gerenciar esses formatos durante seu ciclo de vida. Para obter mais informações, confira um dos tópicos a seguir:

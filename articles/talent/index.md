@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: 358f5bf6194f5dd3f1639425e6633aa1a855bdc1
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 449643cc34e67388210e0b4e9d04d615d2420610
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/15/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-O Microsoft Dynamics 365 for Talent simplifica muitas tarefas rotineiras de manutenção de registros e automatiza vários processos relacionados ao recrutamento na sua organização. Esses processos incluem retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações. Também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão.
+O Microsoft Dynamics 365 for Talent simplifica muitas tarefas de manutenção de registros e automatiza vários processos relacionados ao recrutamento de sua organização. Esses processos incluem retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações. Também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão.
 
 Você pode usar o Talent para realizar estas tarefas:
 
