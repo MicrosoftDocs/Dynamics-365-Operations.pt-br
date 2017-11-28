@@ -3,7 +3,7 @@ title: "Configurar uma diretiva de localização para o armazenamento da ordem d
 description: "Este procedimento mostra como configurar uma diretiva de localização simples."
 author: BibiSp
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 45e1e54c807597d4d5ff7370748012cbf28c1c6b
+ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
+ms.openlocfilehash: 98ce3ad38dddda33be5466490fcd39d81251679c
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Configurar uma diretiva de localização para o armazenamento da ordem de compra
@@ -61,7 +61,7 @@ Este procedimento mostra como configurar uma diretiva de localização simples. 
 4. No campo Unidade, digite um valor.
     * A unidade em que as quantidades De e Até são expressadas. Se você deixar este campo em branco a unidade de estoque do item será usada.  
 5. No campo Localizar quantidade, selecione uma opção.
-    * Nenhum, ou quantidade da placa de licença: a quantidade registrada em cada placa de licença. Quantidade inutilizada: Toda a quantidade registrada. Quantidade restante: A quantidade que ainda precisa ser registrada da linha da ordem de compra. Quantidade esperada: A quantidade total que é especificada na linha da ordem de compra.  
+    * Nenhum, ou quantidade da placa de licença: A quantidade registrada em cada placa de licença. Quantidade inutilizada: Toda a quantidade registrada. Quantidade restante: A quantidade que ainda precisa ser registrada da linha da ordem de compra. Quantidade esperada: A quantidade total que é especificada na linha da ordem de compra.  
 6. Marque ou desmarque a caixa de seleção Restringir por unidade.
     * Se você selecionar esta opção e especificar a unidade na página Restringir por unidade, somente os itens com essa unidade de medida poderão ser inseridos na localização. Por exemplo, se a unidade de medida for PL (paletes), somente os itens em paletes poderão ser inseridos na localização especificada.  
 7. Marque ou desmarque a caixa de seleção Permitir separação.

@@ -3,7 +3,7 @@ title: Definir programas de fidelidade
 description: Este procedimento mostra como configurar um programa de fidelidade com as duas camadas de fidelidade.
 author: jashanno
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a949d5cb4f01518b46bc4b1769de34196109050
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 4bc90da445765ab662fe920a3230681959469a90
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 # <a name="define-loyalty-programs"></a>Definir programas de fidelidade
@@ -71,7 +71,7 @@ Este procedimento mostra como configurar um programa de fidelidade com as duas c
 33. Na lista, clique no link na linha selecionada.
 34. Clique em Salvar.
 35. Clique em Grupos de preços.
-    * Se desejar conceder descontos aos clientes do programa de fidelidade, será necessário atribuir um ou mais grupos de preços ao programa de fidelidade e atribuir os grupos de preços aos descontos. É uma prática recomendada não misturar grupos de preços nos diferentes tipos de entidades de desconto.  Por exemplo, não use o mesmo grupo de preços para um desconto de fidelidade e um desconto de canal.  
+    * Se desejar conceder descontos aos clientes do programa de fidelidade, será necessário atribuir um ou mais grupos de preços ao programa de fidelidade e atribuir os grupos de preços aos descontos. É uma prática recomendada não misturar grupos de preços nos diferentes tipos de entidades desconto.  Por exemplo, não use o mesmo grupo de preços para um desconto de fidelidade e um desconto de canal.  
 36. No campo Grupos de preços, clique no botão suspenso para abrir a pesquisa.
     * O link Grupos de preços na parte superior da página é para o programa de fidelidade. O link Grupos de preços na guia rápida Camadas do programa é somente para uma camada específica de fidelidade.  
 37. Na lista, clique no link na linha selecionada.

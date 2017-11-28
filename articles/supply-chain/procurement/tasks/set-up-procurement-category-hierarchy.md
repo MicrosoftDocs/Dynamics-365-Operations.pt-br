@@ -3,7 +3,7 @@ title: Configurar uma hierarquia de categorias de compras
 description: "Este procedimento mostra como criar novos nós em uma hierarquia de categorias de aquisição e como configurar uma categoria de aquisição para ser usada em um processo de aquisição."
 author: mkirknel
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/06/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9897b1184e8159b20a45d4cedbba56baef31a3c
+ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
+ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Configurar uma hierarquia de categorias de compras
@@ -30,7 +30,7 @@ Este procedimento mostra como criar novos nós em uma hierarquia de categorias d
 
 
 ## <a name="add-a-new-procurement-category"></a>Adicione uma nova categoria de aquisição.
-1. Vá para Aquisição e fornecimento > .. > Categorias de compras.
+1. Vá para Aquisição e fornecimento > Categorias de aquisição.
 2. Clique em Editar hierarquia de categoria.
     * A hierarquia de categorias de aquisição atual é exibida no lado esquerdo da página. Você está prestes a modificar a hierarquia.  
 3. Clique em Novo nó de categoria.
@@ -42,7 +42,7 @@ Este procedimento mostra como criar novos nós em uma hierarquia de categorias d
 7. Clique em Salvar.
 
 ## <a name="add-products-to-your-new-procurement-category"></a>Adicionar produtos a sua nova categoria de aquisição
-1. Vá para Aquisição e fornecimento > .. > Categorias de compras.
+1. Vá para Aquisição e fornecimento > Categorias de aquisição.
     * Selecione o nó que você acabou de adicionar. Se você estiver executando este procedimento como um guia de tarefa você talvez precise desbloquear o guia de tarefa para selecionar o nó.  
 2. Ative a expansão da seção Produtos.
 3. Clique em Adicionar para associar produtos à categoria de aquisição.

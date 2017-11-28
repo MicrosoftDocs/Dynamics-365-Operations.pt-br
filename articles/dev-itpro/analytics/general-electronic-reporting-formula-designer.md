@@ -1,7 +1,7 @@
 ---
 title: "Designer de fórmulas no relatório eletrônico"
-description: "Este tópico explica como usar o designer de fórmulas no ER (Relatório Eletrônico). Quando você cria um formato para um documento eletrônico específico em ER, você pode usar o Microsoft Excel (como fórmulas para a transformação de dados) que atende aos requisitos da realização e a formatação desse documento. Os vários tipos de funções são suportados: texto, a data e hora, lógica matemática, informações, conversão de tipo de dados, e outras (funções específicas de domínio comercial)."
-author: kfend
+description: "Este tópico explica como usar o designer de fórmulas no ER (Relatório Eletrônico)."
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
@@ -19,14 +19,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 37c860599ad555846d11711e9f3cfb29c599131e
-ms.openlocfilehash: 7704b0545f4264be1f844ed6ad9e4b44df0c4ef8
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 58bef33642d83def841eaa8334ea6f942063e0b3
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="formula-designer-in-electronic-reporting"></a>Designer de fórmulas no relatório eletrônico
+# <a name="formula-designer-in-electronic-reporting"></a>Designer de fórmulas no Relatório eletrônico
 
 [!include[banner](../includes/banner.md)]
 
@@ -593,11 +593,12 @@ Veja a fórmula que pode ser criada: FORMAT (CONCATENATE (@&quot;SYS70894&quot;,
 <td>GETENUMVALUEBYNAME (caminho da fonte de dados de enumeração, texto do rótulo do valor de enumeração)</td>
 <td>Retorna o valor de uma fonte de dados de enumeração especificada pelo texto especificado desse rótulo de enumeração.</td>
 <td>O exemplo a seguir mostra a enumeração ReportDirection apresentada em um modelo de dados. Observe que as etiquetas são definidas por valores de enumeração.
-<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> Os exemplos a seguir mostram:
+<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>  
+<p>Os exemplos a seguir mostram:</p>
 <ul><li>A enumeração do modelo <strong>ReportDirection</strong> inserida em um relatório como uma fonte de dados <strong>$Direction</strong>.</li>
 <li>A expressão ER <strong>$IsArrivals</strong> criada para usar a enumeração do modelo como o parâmetro dessa função. O valor dessa expressão é <strong>TRUE</strong>.
-
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></li></ul></td>
+</li></ul>
+<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></td>
 </tr>
 </tbody>
 </table>

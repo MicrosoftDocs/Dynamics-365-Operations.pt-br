@@ -3,7 +3,7 @@ title: Taxas e materiais de embalagem
 description: "As taxas de material de embalagem são pagas a uma empresa de reciclagem em determinados intervalos. Um valor é pago por unidade de peso para cada material com o qual a unidade de embalagem é feita. As taxas de material de embalagem são calculadas e relatadas, mas nenhuma transação do razão é lançada, pois essas taxas não são consideradas como taxas que devam ser pagas a uma autoridade."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5d7cd7b3d60e9c265a766695b53d8d27ee2a8d0a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -56,7 +56,7 @@ Quando você cria uma linha de ordem de venda, o sistema verifica se as unidades
 ## <a name="packing-units-on-purchase-order-lines"></a>Unidades de embalagem nas linhas da ordem de compra
 As transações de material de embalagem para uma linha de ordem de compra não são criadas pelo sistema. Crie transações para as linhas da ordem de compra faturada manualmente na página **Transações de material de embalagem**.
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>Configurar os números de licença das taxas de material de embalagem do cliente
+## <a name="set-up-customer-packaging-material-fee-license-numbers"></a>Configurar os números de licença das taxas de material de embalagem do cliente
 Se as taxas de material de embalagem forem pagas pelos clientes, especifique os números de licença dessas taxas na página**Clientes**. Quando um número de licença é atribuído a um cliente, as taxas de material de embalagem são calculadas automaticamente quando as ordens de venda são faturadas. Após o faturamento, a caixa de seleção **Calcular taxa** é desmarcada na página **Transações de material de embalagem**, pois você não precisa calcular e imprimir um relatório. Você pode imprimir os pesos do material de embalagem na fatura e informar aos clientes que eles estão pagando as taxas. 
 
 Se as taxas de material de embalagem forem pagas pela sua empresa, não especifique os números de licença dos clientes. Após o faturamento, a caixa de seleção **Calcular taxa** é marcada na página **Transações de material de embalagem**. Isso indica que as taxas são calculadas quando um relatório é criado. Você pode imprimir os pesos na fatura e indicar que sua empresa paga as taxas.

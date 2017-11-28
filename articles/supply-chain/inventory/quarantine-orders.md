@@ -1,9 +1,9 @@
 ---
 title: Ordens de quarentena
-description: "Este artigo descreve como as ordens de quarentena são usadas para bloquear o estoque."
+description: "Este tópico descreve como as ordens de quarentena são usadas para bloquear o estoque."
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 17dde4a4e3380beb98eeb71c719fb898b40a94f7
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 515f14e72137f7299093cc6e75cb8e6eec2893fb
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,11 +31,11 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve como as ordens de quarentena são usadas para bloquear o estoque.
+Este tópico descreve como as ordens de quarentena são usadas para bloquear o estoque.
 
 As ordens de quarentena podem ser usadas para bloquear o estoque. Por exemplo, talvez você deseje quarentena itens por motivos de controle de qualidade. Estoque que ficou em quarentena transferido para um depósito de quarentena. **Observação:** se você estiver usando processos avançados de gerenciamento de depósito (em Gerenciamento de depósito), o processamento da ordem de quarentena será usado somente para devolver ordens de venda.
 
-## <a name="quarantine-onhand-inventory-items"></a>Itens de estoque disponíveis em quarentena
+## <a name="quarantine-on-hand-inventory-items"></a>Itens de estoque disponíveis em quarentena
 Ao colocar itens em quarentena, você pode criar ordens de quarentena manualmente ou configurar o sistema para criar automaticamente ordens de quarentena durante o processamento de entrada. Para criar automaticamente ordens de quarentena, selecione a opção **Gerenciamento de quarentena** na guia **Políticas de estoque** na página **Grupos de modelos de item**. Você também deve especificar um depósito de quarentena padrão no campo **Depósito de quarentena** para os depósitos de recebimento. Quando o estoque fisicamente disponível for registrado em uma ordem de compra ou em uma ordem de produção, os itens em quarentena serão automaticamente movidos para um depósito de quarentena no Microsoft Dynamics 365 for Finance and Operations. Esse movimento ocorre porque o status da ordem de quarentena é alterado para **Iniciado**. Quando você cria ordens de quarentena manualmente, o item não precisa ser configurado para gerenciamento de quarentena no grupo de modelos do item associado. Para esse processo, você deve especificar o estoque disponível que deve estar em quarentena e o depósito de quarentena que deve ser usado. Você pode usar os status da ordem de quarentena para ajudar a planejar o processo.
 
 ## <a name="quarantine-order-statuses"></a>Status da ordem de quarentena
@@ -56,7 +56,7 @@ Quando uma ordem de quarentena tem o status **Iniciado**, o estoque é transferi
 
 ### <a name="reported-as-finished"></a>Relatado como concluído
 
-Ao clicar em **Relatar como concluído**, você poderá relatar uma ordem de quarentena iniciada como concluída. O item é liberado da quarentena, mas ainda não é retornado para o depósito normal. O movimento de volta ao depósito normal pode ser processado por meio de um Diário de entrada de item que pode ser inicializado durante o o processo Relatar como concluído.
+Ao clicar em **Relatar como concluído**, você poderá relatar uma ordem de quarentena iniciada como concluída. O item é liberado da quarentena, mas ainda não é retornado para o depósito normal. O movimento de volta ao depósito normal pode ser processado por meio de um diário de entrada de item que pode ser inicializado durante o processo Relatar como concluído.
 
 ### <a name="ended"></a>Concluído
 

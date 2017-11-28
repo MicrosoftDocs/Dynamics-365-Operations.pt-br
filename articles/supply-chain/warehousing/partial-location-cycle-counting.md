@@ -3,7 +3,7 @@ title: "Contagem cíclica parcial do local"
 description: "Os planos de contagem cíclica guiam as operações reais de contagem. Você pode solicitar que somente produtos e grades de produtos específicos sejam contados em vez de todo o estoque disponível no local."
 author: perlynne
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 626b2f9f35b94124168adb7bb09c75a086d38a97
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0e0f9d81f4d5943a89d8ac87776e05acb32cb8d9
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -54,7 +54,7 @@ Por exemplo, somente o item número A0001 deve ser contado no depósito 61.
 
 1.  Um novo modelo de trabalho para contagem cíclica é criado. A opção **Divisões de linha de trabalho** é usada para agrupar linhas de trabalho de contagem por número de item. Portanto, o trabalho de contagem cíclica criado terá linhas por número de item. Você também pode agrupar as linhas por número de grade de produto.
 2.  É criado um novo plano de contagem cíclica que faz referência ao modelo de trabalho recém-criado. O plano da contagem cíclica inclui todas as localizações no depósito 61 (consulta **Selecionar localizações**) que mantém o inventário para o item número A0001. A seleção de produtos específicos é definida na seção **Seleções de produtos de contagem cíclica**.
-3.  Você pode selecionar produtos para planos de contagem cíclica definindo o campo **Locais vazios** como **Excluir vazios**. Quando o plano de contagem cíclica é processado, o trabalho de contagem cíclica parcial para o item número A0001 é criado. O processo de contagem real pode ser realizado usando um item de menu de dispositivo móvel para a contagem cíclica guiada.
+3.  Você pode selecionar produtos para planos de contagem cíclica definindo o campo **Locais vazios** como **Excluir vazios**. Quando o plano da contagem cíclica é processado, o trabalho de contagem cíclica parcial para o número de item A0001 é criado. O processo de contagem real pode ser realizado usando um item de menu de dispositivo móvel para a contagem cíclica guiada.
 
 
 

@@ -3,14 +3,14 @@ title: Configurar ativos fixos
 description: "Este tópico fornece uma visão geral da configuração do módulo de ativos fixos."
 author: twheeloc
 manager: AnnBe
-ms.date: 08/02/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 13771
 ms.assetid: 8be64197-fea1-4a34-8af2-d939919c28b1
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d16c9ca5740c27528d74800957f9b47984c135cd
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 7a578c5198feb8481a77180e3ed95077296f4638
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -56,12 +56,12 @@ Para saber mais, consulte [Configurar registros](tasks/set-up-value-models.md).
 ## <a name="fixed-asset-posting-profiles"></a>Perfis de lançamentos de ativo fixo
 Depois de configurar os registros, você pode criar o perfil de lançamentos. O perfil de postagem deve ser definido por registro, mas também pode ser definida no nível mais detalhado. Por exemplo, defina o perfil de postagem da combinação de um registro e o grupo de ativos, ou até para alguém fixo de um registro de ativo fixo. Por padrão, as contas contábeis definidas são usadas para o ativo fixo transações de ativos.
 
-Defina as contas contábeis usadas durante os processos de eliminação, vendas de eliminação e sucatas de eliminação. No momento de eliminação, as transações de ativos lançadas anteriormente são revertidas das contas originais, e valores líquidos são movidas a conta apropriada para o lucro e perda para a alienação de ativo. Para ajudar a garantir que as transações são revertidas corretamente, você deve configurar para cada tipo de transação que você utiliza em sua empresa. A conta principal deve ser a principal original para esse tipo de transação no perfil de lançamento, em contrapartida, deve ser a conta de ganhos e perdas. A exceção é o valor líquido contábil. Nesse caso, a conta principal e a contrapartida devem ser definidas para lucro e a perda da conta de eliminação. Para saber mais, consulte [Configurar perfis de lançamento de ativos fixos](tasks/set-up-fixed-asset-posting-profiles.md)
+Defina as contas contábeis usadas durante os processos de eliminação, vendas de eliminação e sucatas de eliminação. No momento de eliminação, as transações de ativos lançadas anteriormente são revertidas das contas originais, e valores líquidos são movidas a conta apropriada para o lucro e perda para a alienação de ativo. Para ajudar a garantir que as transações são revertidas corretamente, você deve configurar para cada tipo de transação que você utiliza em sua empresa. A conta principal deve ser a principal original para esse tipo de transação no perfil de lançamento, em contrapartida, deve ser a conta de ganhos e perdas. A exceção é o valor líquido contábil. Nesse caso, a conta principal e a contrapartida devem ser definidas para lucro e a perda da conta de eliminação. Para obter mais informações, consulte [Configurar perfis de lançamento de ativos fixos](tasks/set-up-fixed-asset-posting-profiles.md)
 
 ## <a name="fixed-asset-groups"></a>Grupos de ativos fixos
 Grupo de ativos fixos o único campo é necessário quando você cria um ativo fixo. O valor deste campo determina o valor padrão de vários campos informativos para o ativo. Os registros são configurados de forma que um registro padrão é atribuído a cada ativo em um grupo. Você poderá então definir atributos para os registros que seja específico de um grupo de ativos, e Convenção de depreciação como Vida útil.
 
-Você também pode definir provisões de depreciação especial, ou depreciação extra, uma combinação específica de um grupo de ativo e um registro. Atribua uma prioridade a provisão para depreciação especial para especificar a ordem em que as permissões serão calculadas quando em várias permissões atribuídas a um registro. Para saber mais, consulte [Configurar grupos de ativos fixos](tasks/set-up-fixed-asset-groups.md)
+Você também pode definir provisões de depreciação especial, ou depreciação extra, uma combinação específica de um grupo de ativo e um registro. Atribua uma prioridade a provisão para depreciação especial para especificar a ordem em que as permissões serão calculadas quando em várias permissões atribuídas a um registro. Para obter mais informações, consulte [Configurar grupos de ativos fixos](tasks/set-up-fixed-asset-groups.md)
 
 ## <a name="fixed-asset-parameters"></a>Parâmetros do ativo fixo
 A última etapa será atualizar os parâmetros de ativo fixo.
@@ -76,6 +76,6 @@ Você pode configurar códigos razão que são necessários para alterações em
 
 Finalmente, na guia Sequências numéricas, defina sequências numéricas para ativos fixos. A sequência numérica de ativos pode ser substituída pelo ativo fixo, a sequência numérica de grupo de ativo fixo se tiver sido especificada.
 
-Para saber mais, consulte [Criar ativos fixos](tasks/create-fixed-asset.md).
+Para saber mais, consulte [Criar um ativo fixo](tasks/create-fixed-asset.md).
 
 

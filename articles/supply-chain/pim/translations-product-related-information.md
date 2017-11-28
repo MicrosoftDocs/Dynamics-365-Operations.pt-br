@@ -3,7 +3,7 @@ title: "Perguntas frequentes sobre transações relacionadas ao produto"
 description: "Este tópico descreve como gerenciar traduções para produtos, valores de dimensão de produto e atributos de produto."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b2976d4fc62a71039da0bc8be5b50be92a95959c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 2c58e3e2f60c00d8d834c1d80b347e2e7087809d
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -47,7 +47,7 @@ Você pode traduzir as informações relacionadas ao produto para qualquer idiom
 ## <a name="where-can-i-view-the-translated-information"></a>Onde eu pode exibir as informações traduzidas?
 Você pode exibir traduções de informações relacionadas ao produto em qualquer documento de origem externo, como uma fatura, que use um idioma onde as traduções estejam disponíveis.
 
-## <a name="how-do-i-create-translations-for-productrelated-information"></a>Como posso criar traduções para informações relacionadas ao produto?
+## <a name="how-do-i-create-translations-for-product-related-information"></a>Como posso criar traduções para informações relacionadas ao produto?
 Para criar traduções para um produto, siga estas etapas:
 1.  Clique em **Gerenciamento de informações do produto** &gt; **Comum** &gt; **Produtos liberados**.
 2.  Selecione um produto, e no Painel de ação, grupo **Idiomas**, clique em **Traduções**.
@@ -117,14 +117,14 @@ Um valor de dimensão associado a um produto por meio de um grupo de variantes d
 Para criar um grupo de valores de dimensão, siga estas etapas:
 1.  Clique em **Gerenciamento de informações do produto** &gt; **Configuração** &gt; **Grupos de grades**.
 2.  Selecione **Tamanho** **grupos**, **Grupos de cores** ou **Grupos de estilo**.
-3.  Clique em **Novo**, e então insira um nome para o grupo no grupo **Tamanho** ****, **Grupo de cores**, ou **Grupo de estilos**. Clique em **Tamanhos**, **Cores** ou **Estilos** para criar linhas para os grupos.
+3.  Clique em **Novo**, e então insira um nome para o grupo no **grupo** **Tamanho**, **Grupo de cores**, ou **Grupo de estilos**. Clique em **Tamanhos**, **Cores** ou **Estilos** para criar linhas para os grupos.
 4.  Na página **Tamanho** **grupo** linhas, **Cor** **grupo** **linhas**, ou **Linhas do grupo de estilo**, clique em **Novo**, e depois criar os tamanhos, cores e estilos para os grupos.
 
 Para gerenciar traduções para valores em um grupo de valores de dimensão, siga estas etapas:
 1.  Siga as etapas no procedimento anterior para criar um grupo de valores de dimensão para abrir a página **Linhas de grupo de tamanhos**, **Linhas do grupo de cores** ou **Linhas de grupo de estilos**.
 2.  Clique em **Tradução do texto**. Na página **Tradução de texto**, no grupo **Texto traduzido**, insira as traduções nos campos **Nome** e **Descrição**.
 
-## <a name="when-can-translations-of-productrelated-information-be-managed"></a>Quando as traduções de informações relacionadas ao produto podem ser gerenciadas?
+## <a name="when-can-translations-of-product-related-information-be-managed"></a>Quando as traduções de informações relacionadas ao produto podem ser gerenciadas?
 As traduções de informações relacionadas ao produto podem ser gerenciadas em qualquer ocasião. Quando as traduções são atualizadas para um valor de dimensão associado a um produto, as informações sobre o produto são atualizadas, independentemente de o produto ter ou não transações.
 
 

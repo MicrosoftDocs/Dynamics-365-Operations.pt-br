@@ -1,9 +1,9 @@
 ---
 title: "Média de movimentos"
-description: 
+description: "A média de movimentos é um método de avaliação de custo perpétuo baseado no princípio da média, no qual os custos das saídas de estoque não são alterados quando os custos de compra mudam. A diferença é capitalizada e baseia-se em um cálculo proporcional. O valor restante é despesa."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,8 +31,12 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
+A média de movimentos é um método de avaliação de custo perpétuo baseado no princípio da média, no qual os custos das saídas de estoque não são alterados quando os custos de compra mudam. A diferença é capitalizada e baseia-se em um cálculo proporcional. O valor restante é despesa. 
+
+Ao usar a média móvel, as liquidações de estoque e marcação do estoque não são suportados. O fechamento de estoque não afeta os produtos que têm a média móvel, como o grupo de modelos de estoque, e não gera nenhuma liquidação entre as transações.
 
 Estes são pré-requisitos quando você usa custo da média móvel como um método de avaliação de custo.
+
 1.  Na página **Grupos de modelos de item**, configure um grupo de modelos de item com a Média de movimentos selecionada no campo **Modelo de estoque**. **Observação:** Por padrão, quando a média móvel for selecionada, os campos **Lançar estoque físico** e **Lançar estoque financeiro** também são selecionados. 
 
 2.  Na página **Lançamento**, atribua as contas às contas de **Diferença de preço da média de movimentos** e de **Reavaliação de custos da média de movimentos** na guia **Estoque**. Você usa a conta **Diferença de preço da média de movimentos** quando o custo for gasto proporcionalmente. Isso ocorre devido a uma diferença de custo entre o recebimento da compra e a fatura de compra, e por causa de uma diferença entre a quantidade de estoque original e a quantidade disponível atual. Use a conta **Reavaliação de custos da média de movimentos** quando você desejar ajustar o custo da média móvel para um produto para um novo preço unitário.
@@ -83,7 +87,7 @@ Neste exemplo, o custo da média móvel será ajustado para um produto.
 Na página **Liquidações do comprovante**, você pode ver um ajuste de 4.00 lançado na conta Reavaliação de custos da média de movimentos.
 
 ## <a name="moving-average-with-production"></a>Média móvel com produção
-A média móvel suporta itens produzidos. Se você pretende usar a média móvel em um ambiente de produção, o controle deslizante **Usar preço de custo previsto** na página **Parâmetros de controle de produção**deverá ser selecionado. Isso significa que o preço de custo que é calculado durante a previsão é usado, em vez do preço de custo real de cálculo de BOM.
+A média móvel suporta itens produzidos. Se você pretende usar a média móvel em um ambiente de produção, o controle deslizante **Usar preço de custo previsto** na página **Parâmetros de controle de produção** deve ser selecionado. Isso significa que o preço de custo que é calculado durante a previsão é usado, em vez do preço de custo real de cálculo de BOM.
 
 ## <a name="moving-average-with-a-backdated-transaction"></a>Média móvel com transação de datas anteriores
 Os custos da média móveis atuais são atribuídos às transações de datas anteriores e a quantidade física do produto é atualizada, mas o custo da média móvel do produto não é afetado. Neste exemplo de média móvel, uma transação de data antiga para um produto de média móvel é lançada.

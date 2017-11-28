@@ -3,7 +3,7 @@ title: "Configurar recursos bancários e perfis de lançamento para carta de cr�
 description: "Este procedimento apresenta as etapas da criação de um Recurso bancário e perfil de lançamento necessários para processar Cartas de crédito."
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/27/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 43422627f8529768ab9377c04568da531d6565c6
+ms.sourcegitcommit: 18ad27eb673745d09569f6a49c8bc66132550f35
+ms.openlocfilehash: 9ad19534091bdbd8924f90174b720d818b9ed778
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/27/2017
 
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letter-of-credit"></a>Configurar recursos bancários e perfis de lançamento para carta de crédito
@@ -28,7 +28,7 @@ ms.lasthandoff: 09/29/2017
 
 Este procedimento apresenta as etapas da criação de um Recurso bancário e perfil de lançamento necessários para processar Cartas de crédito. 
 
-Essas tarefas usam a empresa de demonstração 'USMF'.
+Este tarefa usa a empresa demo 'USMF'.
 
 
 

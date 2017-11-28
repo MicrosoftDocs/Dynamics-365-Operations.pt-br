@@ -1,9 +1,9 @@
 ---
 title: "Data de média ponderada"
-description: 
+description: "Data de média ponderada é um modelo de estoque baseado no princípio da média ponderada, onde saídas do estoque são avaliados no valor médio dos itens recebidos no estoque para cada dia separado do período de fechamento do estoque."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 95cc937a97596e4f6ce28636fb30b86e9b328220
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,8 +33,9 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
+A data de média ponderada é um modelo de estoque baseado no princípio de média ponderada. Para o princípio de média ponderada, as saídas do estoque são avaliadas pelo valor médio dos itens recebidos no estoque para cada dia no período de fechamento de estoque. 
 
-A data de média ponderada é um modelo de estoque baseado no princípio de média ponderada. Para o princípio de média ponderada, as saídas do estoque são avaliadas pelo valor médio dos itens recebidos no estoque para cada dia no período de fechamento de estoque. Quando você executa um fechamento de estoque usando uma data de média ponderada, todos os recebimentos diários são liquidados em relação a uma saída virtual. Essa saída virtual contém a quantidade total recebida e o valor desse dia. A saída virtual possui um recebimento virtual correspondente do qual as saídas serão liquidadas. Portanto, todas as saídas recebem o mesmo custo médio. A saída e o recebimento virtuais podem ser considerados como uma transferência virtual, conhecida como *transferência de fechamento de estoque de média ponderada*. 
+Quando você executa um fechamento de estoque usando uma data de média ponderada, todos os recebimentos diários são liquidados em relação a uma saída virtual. Essa saída virtual contém a quantidade total recebida e o valor desse dia. A saída virtual possui um recebimento virtual correspondente do qual as saídas serão liquidadas. Portanto, todas as saídas recebem o mesmo custo médio. A saída e o recebimento virtuais podem ser considerados como uma transferência virtual, conhecida como *transferência de fechamento de estoque de média ponderada*. 
 
 Se somente um recebimento tiver ocorrido até a data, não será necessário avaliar a média. Como todas as saídas são liquidadas a partir desse recebimento, a transferência virtual não será criada. Da mesma forma, se só houver saídas na data, não haverá recebimentos dos quais avaliar a média, e a transferência virtual também não será criada. Ao usar a data de média ponderada, você poderá marcar transações de estoque de tal forma que o recebimento de um item específico seja liquidado em relação a uma saída específica. Nesse caso, você não usará a regra de data de média ponderada. Recomendamos um fechamento de estoque mensal quando o modelo de estoque de data de média ponderada for usado. 
 

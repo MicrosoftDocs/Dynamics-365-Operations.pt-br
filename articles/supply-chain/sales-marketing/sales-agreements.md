@@ -1,9 +1,9 @@
 ---
 title: Contratos de venda
-description: "Este artigo fornece informações sobre contratos de venda. Um contrato de venda é um contrato que confirma que o cliente pode comprar produtos em uma determinada quantidade ou valor por um período em troca de preços especiais e descontos."
+description: "Este tópico fornece informações sobre contratos de venda. Um contrato de venda é um contrato que confirma que o cliente pode comprar produtos em uma determinada quantidade ou valor por um período em troca de preços especiais e descontos."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 15e3f872e4ded027734ee73081ba7af68be5107d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 21e9c53f39b0f4def0052bf7f04c77279bfc610b
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo fornece informações sobre contratos de venda. Um contrato de venda é um contrato que confirma que o cliente pode comprar produtos em uma determinada quantidade ou valor por um período em troca de preços especiais e descontos.
+Este tópico fornece informações sobre contratos de venda. Um contrato de venda é um contrato que confirma que o cliente pode comprar produtos em uma determinada quantidade ou valor por um período em troca de preços especiais e descontos.
 
 Um contrato de venda é um contrato que confirma que o cliente compra produtos ao longo do tempo em uma quantidade específica ou para um valor específico, em troca de preços promocionais especiais, descontos especiais, e outras condições especiais, como o pagamento e condições de entrega. Os preços e os descontos do contrato de venda substituem os preços e os descontos que declarados em qualquer contrato comercial que possa existir.  
 
@@ -88,7 +88,7 @@ Se não confirmar um contrato de venda, você ainda poderá usá-lo para criar o
 É possível visualizar ou imprimir todas as revisões das confirmações. Você pode compartilhar as revisões com seu cliente para obter aprovação.
 
 ## <a name="applying-sales-agreements-during-the-ordering-process"></a>Aplicando contratos de venda durante o processo de pedido
-Se não liberar ordens de venda diretamente para contratos de venda, você ainda poderá vincular um contrato de venda a uma ordem durante o processo de entrada de ordem. Ao criar uma nova ordem de venda e selecionar um contrato de venda, termos desse contrato, como as condições de pagamento, condições de entrega, e endereço de entrega, são aplicados ao cabeçalho da ordem, e o vínculo entre o contrato e a ordem é criado. Em seguida, nas linhas da ordem quando você selecionar os produtos e as categorias especificados no contrato de venda, os preços e descontos serão copiados desse contrato. A mesma ordem de vendas pode ter linhas que não estão relacionadas a um contrato de venda e linhas que têm um compromisso para um contrato de venda.
+Se não liberar ordens de venda diretamente para contrato de venda, você ainda poderá vincular um contrato de venda a uma ordem durante o processo de entrada de ordem. Ao criar uma nova ordem de venda e selecionar um contrato de venda, termos desse contrato, como as condições de pagamento, condições de entrega, e endereço de entrega, são aplicados ao cabeçalho da ordem, e o vínculo entre o contrato e a ordem é criado. Em seguida, nas linhas da ordem quando você selecionar os produtos e as categorias especificados no contrato de venda, os preços e descontos serão copiados desse contrato. A mesma ordem de vendas pode ter linhas que não estão relacionadas a um contrato de venda e linhas que têm um compromisso para um contrato de venda.
 
 ## <a name="modifying-sales-orders-that-are-linked-to-sales-agreements"></a>Alternando ordens de venda que estão vinculadas a contratos de venda
 Se você criou (liberou) uma ordem de venda com um contrato de venda, determinados campos nas linhas da ordem de venda poderão ser modificados somente se você remover o link para as linhas de contrato de venda associadas. A tabela a seguir lista alguns desses campos.

@@ -3,7 +3,7 @@ title: "Configurar transporte em contêineres"
 description: "Este procedimento descreve como automatizar o transporte de cargas em contêineres no Gerenciamento de depósito."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/07/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
+ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
+ms.openlocfilehash: c5faf926071dec5d2ddc1c9e921a98ecd0754917
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="set-up-containerization"></a>Configurar transporte em contêineres
@@ -83,7 +83,7 @@ Este procedimento descreve como automatizar o transporte de cargas em contêiner
 ## <a name="set-up-a-container-group"></a>Configurar um grupo de contêineres
 1. Vá para Gerenciamento de depósito > Configuração > Recipientes > Grupos de recipientes.
 2. Clique em Novo.
-    * Você pode configurar grupos lógicos de tipos de contêiner. Para cada grupo, você pode especificar a sequência na qual serão embalados os contêineres e a porcentagem de contêineres a serem preenchidos. As dimensões de tamanho do item são usadas para determinar se ele caberá em um contêiner. O contêiner que é o mais próximo às dimensões de tamanho do item será usado. Se você tiver vários tipos de contêiner em um grupo, recomendamos que você organize a sequência pelo tamanho, de forma o contêiner maior é o primeiro, número 1 na sequência, e o contêiner menor é o último.    
+    * Você pode configurar grupos lógicos de tipos de contêiner. Para cada grupo, você pode especificar a sequência na qual embalar os contêineres e a porcentagem dos contêineres a serem preenchidos. As dimensões de tamanho do item são usadas para determinar se ele caberá em um contêiner. O contêiner que é o mais próximo às dimensões de tamanho do item será usado. Se você tiver vários tipos de contêiner em um grupo, recomendamos que você organize a sequência pelo tamanho, de forma o contêiner maior é o primeiro, número 1 na sequência, e o contêiner menor é o último.    
 3. No campo ID do grupo de contêiner, digite um valor.
 4. No campo Descrição, digite um valor.
 5. Clique em Novo.

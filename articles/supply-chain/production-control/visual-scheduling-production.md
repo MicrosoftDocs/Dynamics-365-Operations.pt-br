@@ -3,7 +3,7 @@ title: "Gráfico de Gantt para agendamento de trabalho"
 description: "Os planejadores de produção podem controlar e otimizar planejamentos de produção usando gráficos de Gantt."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: cc7543305ac634dfed3779bb83806ee4fd97d7fa
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 5a4b0450cc76c8d9307b9b21b78a170afcc298e4
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -39,7 +39,7 @@ O gráfico de Gantt é uma representação visual de atividades programadas em u
 -   Trabalhos de ordens de produção planejadas.
 -   Atividades de projetos programados de trabalhos do tipo Previsões de horas.
 
-O gráfico de Gantt pode ser aberto em duas diferentes exibições, **Modo de exibição de ordem** e **Modo de exibição de recurso**[.](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true)No **Modo de exibição de ordem**, as atividades são agrupadas em ordens de produção. Isso pode ser útil, por exemplo, se você quiser manter uma visão geral de todos os trabalhos pertencentes às mesmas ordens. No **Modo de exibição de recurso**, todos os trabalhos são agrupados em recursos individuais. Essa exibição pode ser útil na otimização do plano em nível de recurso, como uma máquina ou um grupo de máquinas. O gráfico de Gantt exibido nas ilustrações abaixo mostra **Modo de exibição de ordem** e **Modo de exibição de recurso** com estes principais elementos:
+O gráfico de Gantt pode ser aberto em dois modos de exibição diferentes, **Modo de exibição de ordem** e **Modo de exibição de recurso**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true). No **Modo de exibição de ordem**, as atividades são agrupadas em ordens de produção. Isso pode ser útil, por exemplo, se você quiser manter uma visão geral de todos os trabalhos pertencentes às mesmas ordens. No **Modo de exibição de recurso**, todos os trabalhos são agrupados em recursos individuais. Essa exibição pode ser útil na otimização do plano em nível de recurso, como uma máquina ou um grupo de máquinas. O gráfico de Gantt exibido nas ilustrações abaixo mostra **Modo de exibição de ordem** e **Modo de exibição de recurso** com estes principais elementos:
 
 1.  Atividade de gráfico de Gantt
 2.  Ícone de escassez de material
@@ -151,10 +151,12 @@ O gráfico de Gantt pode ser aberto nas seguintes páginas.
 | **Recurso**                                                                                 | Na página **Recurso**, é possível abrir o gráfico de Gantt no item de menu **Gráfico de Gantt**. Quando selecionados, todos os trabalhos agendados no recurso em um intervalo de tempo selecionado serão carregados no gráfico.                                                                                                                                                                                                                                                                                                   |
 | **Grupo de recursos**                                                                           | Na página **Grupo de recursos**, é possível abrir o gráfico de Gantt no item de menu **Gráfico de Gantt**. Quando selecionados, todos os trabalhos agendados nos recursos no grupo de recursos serão mostrados em um intervalo de tempo selecionado.                                                                                                                                                                                                                                                                                    |
 | **Gráficos de Gantt**                                                                             | Na página **Gráficos de Gantt**, você pode configurar gráficos de Gantt por recursos e grupos de recursos. Por exemplo, para controlar atividades de produção de conjuntos específicos de recursos ou grupos de recursos, é possível fazer configurações individuais destes na página **Gráficos de Gantt**. Você pode abrir o gráfico de Gantt em cada configuração.                                                                                                                                                    |
-| **Previsões de horas** (projeto)                                                                 | Atividades de projeto do tipo **Previsão de horas** podem ser trabalhos agendados em recursos. Na página **Previsão de horas** no menu **Agendamento**, você pode abrir o gráfico de Gantt em uma ordem para ver as atividades de projeto agendadas de trabalho de tipo previsão de horas.                                                                                                                                                                                                                                                             |
+| **Previsões de horas** (projeto)                                                                 | Atividades de projeto do tipo **Previsão de horas** podem ser trabalhos agendados em recursos. Na página **Previsão de horas** no menu **Agendamento**, você pode abrir o gráfico de Gantt em uma ordem para ver as atividades de projeto agendadas de trabalho do tipo previsão de horas.                                                                                                                                                                                                                                                             |
 | **Trabalho a ser concluído** (Lista no espaço de trabalho **Gerenciamento de piso de produção**)                      | O espaço de trabalho **Lista de trabalhos a serem concluídos no Gerenciamento de piso de produção** mostra os trabalhos de ordens de produção e lote que estão em progresso nos recursos selecionados do espeço de trabalho. No item de menu **Gráfico de Gantt**, você pode abrir o gráfico de Gantt, no qual todos os trabalhos selecionados na lista serão carregados no gráfico.                                                                                                                                                                                |
 | **Ordens de produção a liberar** (Aberta no espaço de trabalho **Gerenciamento de piso de produção**) | A página Ordens de produção a liberar é aberta no espaço de trabalho **Gerenciamento de piso de produção**. Essa página mostra a liberação pendente de ordens de produção e lote agendadas. Nessa página, você pode abrir o gráfico de Gantt das ordens de produção selecionadas.                                                                                                                                                                                                                                                        |
 ## <a name="see-also"></a>Consulte também  
 [Agendamento visual com gráfico de Gantt para ordens de produção e de lote (Vídeo)](https://youtu.be/BtbuShkGj4I)
+
+[Agendamento visual para produção (script de demonstração)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
 

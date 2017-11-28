@@ -3,7 +3,7 @@ title: "Criar formato para contagem e soma para relatório eletrônico (ER)"
 description: "As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou de desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico (ER) para fazer a contagem e soma com base nos dados já gerados do texto de saída."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: efdb64fa157af0d96c2ff0e5de3db5a98190bc68
+ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
+ms.openlocfilehash: 3c4ae958a03d4681a85f5b83d81fe64b9ac99cf5
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
-# <a name="create-formate-for-counting-and-summing-for-electronic-reporting-er"></a>Criar formato para contagem e soma para relatório eletrônico (ER)
+# <a name="create-format-for-counting-and-summing-for-electronic-reporting-er"></a>Criar formato para contagem e soma para relatório eletrônico (ER)
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 

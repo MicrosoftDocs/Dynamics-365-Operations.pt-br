@@ -1,9 +1,9 @@
 ---
 title: Atributos de lote
-description: "Este artigo oferece informações sobre atributos de lote. Os atributos de lote são características de matérias-primas e produtos acabados que compõem os lotes de estoque. O artigo também explica como atribuir atributos de lote, e como você pode pesquisar neles ao reservar lotes."
+description: "Este tópico fornece informações sobre atributos de lote. Os atributos de lote são características de matérias-primas e produtos acabados que compõem os lotes de estoque. O tópico também explica como atribuir atributos de lote e como você pode pesquisar neles ao reservar lotes."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19271
 ms.assetid: 41de0250-4a96-412e-a412-aa06615b6b1d
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0c3f5115377178941984e53749c18cc1c9179812
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 6c18b007a72686b1ede69b750e930d72e86f0aba
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo oferece informações sobre atributos de lote. Os atributos de lote são características de matérias-primas e produtos acabados que compõem os lotes de estoque. O artigo também explica como atribuir atributos de lote, e como você pode pesquisar neles ao reservar lotes.
+Este tópico fornece informações sobre atributos de lote. Os atributos de lote são características de matérias-primas e produtos acabados que compõem os lotes de estoque. O tópico também explica como atribuir atributos de lote e como você pode pesquisar neles ao reservar lotes.
 
 Os atributos de lote são características de matérias-primas e produtos acabados que compõem os lotes de estoque. Os atributos de lote podem variar, dependendo de fatores como as condições do ambiente, a qualidade de matérias-primas usadas para produzir o lote ou o resultado do produto acabado. O número e os tipos de atributos de lote que são usados podem variar muito de um setor para outro. Veja a seguir dois exemplos que mostram como usar atributos de lote:
 
@@ -51,7 +51,7 @@ Você pode atribuir atributos de lote a produtos individuais que são mantidos e
 Você pode acessar as páginas dos produtos selecionados na página de **Produtos liberados** no Gerenciamento de informações do produto. Depois de atribuir atributos de lote a um produto, você poderá adicionar valores específicos aos atributos na página **Atributos de lotes de estoque**.
 
 ## <a name="reserve-batches"></a>Reservar lotes
-Você pode pesquisar atributos de lote ao processar as reservas em lotes para uma ordem de venda para atender a ordem de um cliente, ou quando você escolher e reservar lotes para uma ordem de produção. A pesquisa ajuda a localizar um lote de estoque que contém o produto que tem o atributo de lote que você deseja. Depois de localizar o lote ou os lotes, será possível reservar o produto na linha de transação de estoque de origem.
+Você pode pesquisar em atributos de lote ao processar as reservas de lote para uma ordem de venda a fim de atender ao pedido de um cliente, ou quando você escolhe e reserva lotes para uma ordem de produção. A pesquisa ajuda a localizar um lote de estoque que contém o produto que tem o atributo de lote que você deseja. Depois de localizar o lote ou os lotes, será possível reservar o produto na linha de transação de estoque de origem.
 
 
 

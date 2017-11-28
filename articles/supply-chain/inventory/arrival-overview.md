@@ -3,7 +3,7 @@ title: "Visão geral de entrada"
 description: "Este tópico fornece informações sobre o recurso Visão geral de entrada. A página Visão geral de entrada faz parte desse recurso e fornece uma visão geral de todos os itens que devem chegar como itens de entrada."
 author: perlynne
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d9ebc0ea12de0c97718b565b77d99c3a1fcd6f21
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 9c174dc7bf61ffab0d20c7685a29007e0b6e2e7e
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -104,7 +104,7 @@ Sammy pode exibir as seguintes informações:
 
 ### <a name="update-journals"></a>Atualizar diários
 
-Para registrar uma ou mais linhas da ordem vencidas a serem processadas, Sammy pode selecionar as linhas na grade da visão geral ou na grade da linha e clicar em **Diários** &gt; **Mostrar entradas a partir de recebimentos**. Os cabeçalhos de diários de entrada de itens que correspondem às linhas são mostrados. Para atualização dos itens registrados do recebimento de produtos de ordem de compra, Sammy pode acessar os cabeçalhos de diário de entrada de item prontos para atualização. Para acessar esses cabeçalhos de diários de entrada de itens, ele clica em **Diários** &gt; **Diários prontos de recebimento de produtos**. Todas as linhas de cabeçalho que estão prontas para a atualização do recebimento do produto no intervalo de depósito especificado são mostradas. (As linhas de cabeçalho mostradas que não estão relacionadas ao intervalo de dias.)
+Para registrar uma ou mais linhas da ordem vencidas a serem processadas, Sammy pode selecionar as linhas na grade da visão geral ou na grade da linha e clicar em **Diários** &gt; **Mostrar entradas a partir de recebimentos**. Os cabeçalhos de diários de entrada de itens que correspondem às linhas são mostrados. Para atualizar o recebimento de produtos de ordem de compra dos itens registrados, Sammy pode acessar os cabeçalhos do diário de entrada de item prontos para atualização. Para acessar esses cabeçalhos de diários de entrada de itens, ele clica em **Diários** &gt; **Diários prontos de recebimento de produtos**. Todas as linhas de cabeçalho que estão prontas para a atualização do recebimento do produto no intervalo de depósito especificado são mostradas. (As linhas de cabeçalho mostradas que não estão relacionadas ao intervalo de dias.)
 
 ### <a name="start-an-arrival-registration"></a>Iniciar um registro de entrada
 

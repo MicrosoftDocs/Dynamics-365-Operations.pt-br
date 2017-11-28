@@ -3,7 +3,7 @@ title: Configurar tipos de documentos I-9
 description: "Este procedimento mostra como visualizar e configurar tipos de documentos que são utilizados para a verificação do I-9."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3b0e7f09994367f5683ed5c6d1f3b3ba3d550cc7
+ms.sourcegitcommit: 950237499441e7f1d5b9e3355c4bd9513ad3783e
+ms.openlocfilehash: b47998eccd7509154ee8863e2e19594cc59ac945
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="set-up-i-9-document-types"></a>Configurar tipos de documentos I-9
@@ -33,7 +33,7 @@ Este procedimento mostra como visualizar e configurar tipos de documentos que s�
 3. No campo Tipo de documento I-9, digite um valor.
     * Exemplo: ID da escola.  
 4. Selecione o tipo de identificação.  Exemplo: ID da escola.
-    * Exemplos de tipos de identificação incluem o número da Previdência Social (SSN), o número do visto, o passaporte ou a carteira de motorista.  
+    * Exemplos de tipos de identificação incluem o número da Previdência Social (SSN), o número do visto, o passaporte, ou a carteira de motorista.  
 5. Selecione lista de documentos I-9 utilizada para o tipo de documento.
     * Como parte do processo I-9, os funcionários devem apresentar a documentação que mostra ao empregador a sua identidade e autorização para trabalho. O site de Serviços de Imigração e Cidadania dos EUA contém informações sobre quais documentos são aceitáveis, e a qual lista eles pertencem.  http://www.uscis.gov  
 6. No campo Formulário, insira o número do formulário oficial para o tipo de documento. Exemplo: ID da escola.

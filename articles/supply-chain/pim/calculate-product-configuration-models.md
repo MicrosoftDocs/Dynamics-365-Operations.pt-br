@@ -1,9 +1,9 @@
 ---
 title: "Perguntas frequentes sobre cálculos para modelos de configuração de produto"
-description: "Este artigo descreve os cálculos para os modelos de configuração de produto e explica como usar os cálculos com restrições."
+description: "Este tópico descreve os cálculos para os modelos de configuração de produto e explica como usar os cálculos juntamente com as restrições."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fea4e139d32c780769bafe08d603b828d366550c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 0763e5a02e7a14b6ef369103aa25e435559abe19
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve os cálculos para os modelos de configuração de produto e explica como usar os cálculos com restrições.
+Este tópico descreve os cálculos para os modelos de configuração de produto e explica como usar os cálculos juntamente com as restrições.
 
 Os cálculos podem ser usados para operações aritméticas ou lógicas. Eles complementam restrições de expressão e restrições em modelos de configuração do produto. Você pode definir cálculos na página **Detalhes do modelo de configuração de produto baseado em restrições** e depois criar expressões para os cálculos no editor de expressões. Para obter mais informações, consulte Criar cálculos.
 
@@ -75,7 +75,7 @@ Os cálculos ocorrem quando um valor tiver sido fornecido para todos os atributo
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>Posso substituir o valor calculado para o atributo de destino?
 É possível substituir o valor que é calculado para o atributo de destino a menos que o atributo de destino esteja definido como oculto ou somente leitura.
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>Como defino um atributo de destino como oculto ou somente leitura?
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>Como defino um atributo de destino como oculto ou somente leitura?
 Para definir um atributo como oculto ou somente leitura, siga estas etapas.
 
 1.  Clique em **Gerenciamento de informações do produto** &gt; **Comum** &gt; **Modelos de configuração do produto**.

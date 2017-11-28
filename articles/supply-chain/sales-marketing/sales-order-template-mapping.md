@@ -3,7 +3,7 @@ title: "Sincronizar cabeçalhos e linhas de ordem de venda do Finance and Operat
 description: "O tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas de ordem de venda do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition com o Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: 
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 707efc97afc0679ed1fc22539789e98cbabcb581
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c7b2ff6430e99661ee284f65089086df9fa5a1ad
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -116,7 +116,7 @@ Antes de sincronizar as ordens de venda, é importante atualizar os sistemas com
 
 ### <a name="setup-in-finance-and-operations"></a>Configuração no Finance and Operations
 
-Defina**Vendas e marketing** > **Tarefas periódicas** > **Calcular os totais de vendas** para executar como trabalho em lotes, com **Calcular total para ordens de venda** definido como **Sim**. Isso é importante porque somente as ordens de venda com os totais de vendas calculados serão sincronizados com o CDS e o Sales. A frequência do trabalho em lotes deve ser alinhada à frequência de sincronização da ordem de venda.
+Defina**Vendas e marketing** > **Tarefas periódicas** > **Calcular os totais de vendas** para executar como trabalho em lotes, com **Calcular total para ordens de venda** definido como **Sim**. Isso é importante porque somente as ordens de venda com os totais de vendas calculados serão sincronizados com o CDS e o Sales. A frequência do trabalho em lotes deve ser alinhada à frequência da sincronização de ordens de venda.
 
 ### <a name="setup-in-the-data-integration-project"></a>Configuração no Projeto de integração de dados
 

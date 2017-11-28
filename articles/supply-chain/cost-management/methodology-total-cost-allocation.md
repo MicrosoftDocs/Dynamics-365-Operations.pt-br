@@ -1,9 +1,9 @@
 ---
 title: "Método de alocação de custo total"
-description: "Este artigo oferece diretrizes para usar a alocação de custo total (TCA). A TCA é um método de cálculo de custos entre o item de fórmula principal para uma ordem de lote e os coprodutos definidos para a fórmula."
+description: "Este tópico oferece diretrizes para usar a alocação de custo total (TCA). A TCA é um método de cálculo de custos entre o item de fórmula principal para uma ordem de lote e os coprodutos definidos para a fórmula."
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 83852
 ms.assetid: 7c14c3e5-9476-4a79-a210-e77fc91cc7fc
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b070aaeecacdee7af08d8136dc4232449b8f988b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo oferece diretrizes para usar a alocação de custo total (TCA). A TCA é um método de cálculo de custos entre o item de fórmula principal para uma ordem de lote e os coprodutos definidos para a fórmula.
+Este tópico oferece diretrizes para usar a alocação de custo total (TCA). A TCA é um método de cálculo de custos entre o item de fórmula principal para uma ordem de lote e os coprodutos definidos para a fórmula.
 
 A alocação de custo total (TCA) é um método de cálculo de custos entre o item de fórmula principal para uma ordem de lote e os coprodutos definidos para a fórmula. Esse método é dinâmico. Ele calcula os custos como uma média ponderada entre as quantidades relatadas como concluídas para o item de fórmula e os coprodutos. Quando a TCA é usada, não é necessário examinar as alocações de custo para cada ordem de lotes. Se a TCA não for usada, o cálculo da fórmula usa a funcionalidade existente.
 
@@ -42,7 +42,7 @@ Veja algumas das diretrizes para usar TCA para coprodutos:
 -   Se você definir o controle deslizante **Alocação de custo total** como **Sim** para uma versão da fórmula, os coprodutos deverão ter um preço de custo maior do que 0 (zero). O valor pode ser obtido da versão de custo ativa para ao mesmo site, ou para o primeiro site para uma fórmula não específica de site. Essa condição é validada quando a fórmula é aprovada.
 
     -   Não será necessário digitar manualmente porcentagens de alocação de custos para coprodutos. Em vez disso, o sistema cria automaticamente a porcentagem de alocação de custo previsto como média de preços de custo ativos de coprodutos. 
-    -   Você não precisa inserir custos padrão para itens de custo não padrão que são coprodutos. Há dois tipos de versões de avaliação de custo no sistema:custo padrão e custo planejado 
+    -   Você não precisa inserir custos padrão para itens de custo não padrão que são coprodutos. Há dois tipos de versões de avaliação de custo no sistema: custo padrão e custo planejado 
     -   Se um item não estiver avaliado pelo método de avaliação de custo padrão, recomendamos usar um preço de custo ativo na versão de custo planejado. Esse preço é usado para estimativa de custo, por exemplo, cálculo de BOM, estimativa de custo de produção e preço de fallback no processo de avaliação de estoque. 
 
 -   Se você definir o controle deslizante **Alocação de Custo Total** como **Sim** para a versão da fórmula e as condições a seguir forem verdadeiras, o método de alocação de custo será **TCA** e a porcentagem de alocação de custo prevista permanecerá inalterada:

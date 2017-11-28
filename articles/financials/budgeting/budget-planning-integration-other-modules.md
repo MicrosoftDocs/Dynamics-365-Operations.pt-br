@@ -3,14 +3,14 @@ title: "Integração do plano de orçamento com outros módulos"
 description: "Os planos de orçamento podem ser gerados a partir de vários recursos diferentes. Os elementos básicos do processo periódico são iguais para todos os recursos."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 64443
 ms.assetid: f9a94db5-906c-404a-9ca5-91528d67c490
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 311a5cbd3768d8ecc7e7430717369193e60c3e57
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 7663453ddf87bcb43d2f19ebec3c9bda90eda884
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -57,9 +57,9 @@ Para cada processo de geração, há três ações disponíveis:
 
 ### <a name="source"></a>Fonte
 
-Em todos os processos, a guia **Origem** permite filtrar dados por meio do botão **Filtro**. Por padrão, são adicionados campos específicos ao filtro de cada processo. Por exemplo, no processo **Gerar plano de orçamento da contabilidade**, as categorias **Conta contábil** e **Conta principal** estão disponíveis e aparecem na página de geração. Todos os campos que você adicionar ao filtro também serão adicionados à página, juntamente com os critérios adicionados.
+Em todos os processos, a guia **Origem** permite filtrar dados por meio do botão **Filtro**. Por padrão, são adicionados campos específicos ao filtro de cada processo. Por exemplo, no processo **Gerar plano de orçamento da contabilidade**, as categorias **Conta contábil** e **Conta principal** estão disponíveis e aparecem na página de geração. Todos os campos que você adicionar ao filtro também serão adicionados à página, juntamente com os critérios que você adicionar.
 
-### <a name="target"></a>Meta
+### <a name="target"></a>Destino
 
 A opção **Histórico** na guia **Destino** permite que você use as datas dos dados de origem como data efetiva no plano de orçamento. Normalmente, a data efetiva deve estar dentro do ciclo orçamentário do plano. Quando você define a opção **Histórico** para **Sim**, a data (até mesmo o ano) da origem é utilizada, para que você possa usar os dados anteriores como base para a comparação. Não é possível modificar dados históricos no plano de orçamento, e o plano é definido para um status de fluxo de trabalho aprovado. No entanto, você poderá redefinir o status se outros cenários no plano precisar de alterações.
 

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d602e07548d22bcdee3f375c3c327c0e8963c3b4
+ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
+ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Criar uma configuração para gerar relatórios no formato Microsoft Word para relatório eletrônico (ER)
@@ -30,9 +30,9 @@ As seguintes etapas explicam como um usuário na função de administrador do si
 
 Para completar essas etapas, você deve primeiro concluí-las na guia de tarefas "Criar uma configuração ER para gerar relatórios no formato OPENXML". Com antecedência, você também precisa baixar e salvar os seguintes modelos localmente para o modelo de relatório:
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx
+[Modelo de relatório de pagamento](https://go.microsoft.com/fwlink/?linkid=862266)
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx
+[Modelo limitado de relatório de pagamento](https://go.microsoft.com/fwlink/?linkid=862266)
 
 Este procedimento é para um recurso que foi adicionado à versão 1611 do Microsoft Dynamics 365 for Operations.
 
@@ -49,7 +49,7 @@ Este procedimento é para um recurso que foi adicionado à versão 1611 do Micro
 ## <a name="replace-the-excel-template-with-the-word-template"></a>Substituir o modelo do Excel pelo modelo do Word
     * Atualmente, o documento do Excel é usado como modelo para gerar a saída no formato OPENXML. Importaremos o modelo do relatório no formato Word.  
 1. Clique em Anexos.
-    * Substitua o modelo do Excel existente pelo modelo do Word que você baixou antes: SampleVendPaymDocReport.docx. Observe que esse modelo contém apenas o layout do documento que desejamos gerar como saída de ER.  
+    * Substitua o modelo do Excel existente pelo modelo do Word que você baixou antes, o modelo de relatório de pagamento. Observe que esse modelo contém apenas o layout do documento que desejamos gerar como saída de ER.  
 2. Clique em Excluir.
 3. Clique em Sim.
 4. Clique em Novo.

@@ -1,17 +1,17 @@
 ---
 title: "Componentes de relatórios financeiros"
 description: "Este artigo descreve como os componentes ou blocos de construção de definições de relatório são usados em relatórios financeiros. Esses blocos de construção incluem definições de linha, coluna e definições de árvore de relatórios. Este artigo explica como organizar blocos de construção de bloqueio e como trabalhar com grupos de bloco de construção."
-author: ShylaThompson
+author: aolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 074a2f377c16d47e95343dae3ebec6cbba4d5050
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 7b283b8550bd7e5eff969d45c761d0a54d93a33e
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve como os componentes ou blocos de construção de definições de relatório são usados em relatórios financeiros. Esses blocos de construção incluem definições de linha, coluna e definições de árvore de relatórios. Este artigo explica como organizar blocos de construção de bloqueio e como trabalhar com grupos de bloco de construção. 
+Este artigo descreve como os componentes ou blocos de construção de definições de relatório são usados em relatórios financeiros. Esses blocos de construção incluem definições de linha, coluna e definições de árvore de relatórios. O artigo explica como organizar e bloquear blocos de construção. 
 
-A filosofia de design por trás do designer de relatórios financeiros é dividir informações no componente ou o bloco de construção, menor e, em seguida, mesclar e combinar os componentes conforme necessário. Portanto, a formatação do relatório é separada do seus dados financeiros e você pode alterar o design de um relatório sem modificar os dados financeiros no sistema Microsoft Dynamics ERP. Usando esta abordagem de bloco de construção, você pode combinar texto, valores e cálculos, para gerar os relatórios necessários. Além disso, esta flexibilidade incentiva a criatividade, facilitando a exibição de suas operações de diferentes formas. Os blocos de construção individuais de uma definição de relatório são semelhantes a uma planilha tridimensional, mas com mais potência. Uma definição de relatório especifica a definição de linha, a definição de coluna e a definição de árvore do relatório opcional a serem usadas para o relatório. Ela também inclui informações sobre onde armazenar o relatório gerado e como formatá-lo. Para melhorar a capacidade de reutilização e o compartilhamento, você pode criar um grupo do bloco de construção, que é um conjunto de definições de relatório existentes, definições de linha, definições de coluna, definições de árvore de relatórios e conjuntos de dimensões associados a uma empresa no.
+A filosofia de design por trás do designer de relatórios financeiros é dividir informações no componente ou o bloco de construção, menor e, em seguida, mesclar e combinar os componentes conforme necessário. Portanto, a formatação do relatório é separada do seus dados financeiros e você pode alterar o design de um relatório sem modificar os dados financeiros no sistema Microsoft Dynamics ERP. Usando esta abordagem de bloco de construção, você pode combinar texto, valores e cálculos, para gerar os relatórios necessários. Além disso, esta flexibilidade incentiva a criatividade, facilitando a exibição de suas operações de diferentes formas. Os blocos de construção individuais de uma definição de relatório são semelhantes a uma planilha tridimensional, mas com mais potência. Uma definição de relatório especifica a definição de linha, a definição de coluna e a definição de árvore do relatório opcional a serem usadas para o relatório. Ela também inclui informações sobre onde armazenar o relatório gerado e como formatá-lo. 
 
 ## <a name="building-blocks-of-a-report"></a>Blocos de construção de um relatório
-| Bloquear de construção            | Descrição                                                                                                                                                                                                                                                                              | Para obter mais informações                                                                                                 |
-|---------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------|
+| Bloquear de construção            | descrição                     | Para obter mais informações                                    |
+|---------------------------|---------------------------------|---------------------------------------------------------|
 | Definição de linha            | Uma definição de linha define as linhas descritivas em um relatório (por exemplo, salários ou vendas). Ela também lista os valores ou as dimensões de segmentos que contêm valores para cada item de linha, e inclui a formatação e os cálculos da linha.                                                    | [Definições de linha](row-definitions-financial-reporting.md)                       |
 | Definição de coluna         | Uma definição de coluna define o período a ser usado ao extrair dados das dimensões financeiras. Ela também inclui a formatação e os cálculos da coluna.                                                                                                                                 | [Definições de coluna](column-definitions-financial-reports.md)         |
 | Definição de hierarquia organizacional | Uma definição de hierarquia organizacional lembra um gráfico organizacional. Ela contém unidades de relatório individuais que representam cada caixa no gráfico. As unidades podem ser departamentos específicos dos dados financeiros ou unidades de nível superior que resumem dados de outras unidades organizacionais. | [Definições de árvore de relatórios](financial-reporting-tree-definitions.md) |
@@ -67,44 +67,20 @@ Para desbloquear um bloco de construção bloqueado, abra-o e clique no ícone *
 
 ## <a name="building-block-groups"></a>Grupos do Bloco de Construção
 
-Os blocos de construção são as definições linha, definições de coluna, definições de árvore de relatórios e definições de relatório que você pode criar para um relatório. Os grupos do bloco de construção são coleções dos conjuntos de definições e dimensões que estão associados a uma empresa. Os grupos do bloco de construção podem ser específicos da empresa, ou várias empresas podem compartilhar o mesmo conjunto de blocos de construção. Se você tiver as empresas com um plano de contas diferente, poderá usar um grupo diferente de bloco de construção para cada empresa. Como alternativa, você pode nomear todos os blocos de construção individuais para refletir a empresa com que eles são compatíveis.
-### <a name="create-a-building-block-group"></a>Criar um grupo do bloco de construção
+Os blocos de construção são as definições linha, definições de coluna, definições de árvore de relatórios e definições de relatório que você pode criar para um relatório. Grupos de blocos de construção são coleções dos conjuntos de definições e dimensões. 
 
-1.  No Designer de Relatórios, no menu **Empresa**, clique em **Grupos do Bloco de Construção**.
-2.  Na caixa de diálogo **Grupos de blocos de construção**, clique em **Novo**.
-3.  Insira um nome exclusivo e uma descrição para o grupo do bloco de construção. Cada campo pode conter, no máximo, 256 caracteres. (Esse número inclui espaços.)
-4.  Clique em **OK** para criar um novo grupo do bloco de construção.
 
-### <a name="assign-a-building-block-group"></a>Atribuir um grupo do bloco de construção
+### <a name="view-a-building-block-group"></a>Exibir um grupo de bloco de construção
 
-Depois de criar um grupo de blocos, você deve atribuí-lo a pelo menos uma empresa. É possível criar definições de relatório, de linha, de coluna e de árvore de relatórios, e salvá-las no grupo do bloco de construção. Você deve fechar todos os blocos de construção antes de começar o procedimento a seguir.
-1.  No Designer de Relatórios, no menu **Empresa**, clique em **Empresas**.
-2.  Na caixa de diálogo **Empresas**, selecione a empresa para atribuir um grupo de bloco de construção.
-3.  Clique em **Modificar**.
-4.  Na caixa de diálogo **Modificar Empresa**, no campo **Grupo do bloco de construção**, selecione o grupo do bloco de construção para atribuir a empresa, ou clique em **Novo** para criar um novo grupo do bloco de construção.
-5.  Clique em **OK** para atribuir o grupo do bloco de construção.
-6.  Clique em **Fechar** para fechar a caixa de diálogo **Empresas**. Agora, o grupo do bloco de construção selecionado é atribuído à empresa. Todas as definições de linha, definições de coluna e outras recém-geradas farão parte do grupo do bloco de construção atribuído a essa empresa. Também é possível importar um arquivo .tdbx ou relatório de outro sistema.
-
-### <a name="view-a-building-block-group"></a> Exibir um grupo do bloco de construção
-
-Depois que um grupo de bloco de construção foi criado e está sendo usado, você pode exibir todos os blocos de construção são atribuídos a ele. Você também pode exportar ou importar um grupo de blocos de construção e manutenção adicionais no bloco de construção de grupos.
-1.  No Designer de Relatórios, no menu **Empresa**, clique em **Grupos do Bloco de Construção**.
+Você pode exibir todos os blocos de construção atribuídos a um grupo de blocos de construção. Você também pode exportar ou importar um grupo de blocos de construção.
+1.  No Report Designer, no menu **Empresa**, clique em **Grupos de Blocos de Construção**.
 2.  Na caixa de diálogo **Grupos do Bloco de Construção**, selecione o bloco de construção para exibir.
 3.  Clique em **Exibir** para abrir a caixa de diálogo **Exibir Grupo do Bloco de Construção** e para exibir o conteúdo do grupo do bloco de construção.
 4.  Clique em **Fechar** para fechar as caixas de diálogo.
 
-### <a name="save-a-building-block-group-under-a-new-name"></a>Salvar um grupo do bloco de construção usando um novo nome
+### <a name="export-a-building-block-group"></a>Exportar um grupo de bloco de construção
 
-Você pode salvar um grupo do bloco de construção existente usando um novo nome. Depois, pode modificar o novo grupo do bloco de construção sem alterar o grupo original do bloco de construção.
-1.  No Report Designer, no menu **Empresa**, clique em **Grupos de Blocos de Construção**.
-2.  Na caixa de diálogo **Grupos do Bloco de Construção**, selecione o grupo do bloco de construção a ser salvo usando um novo nome.
-3.  Clique em **Salvar Como**.
-4.  Insira um novo nome e uma descrição para o grupo do bloco de construção.
-5.  Clique em **OK**. O novo grupo do bloco de construção aparece na caixa de diálogo **Grupos do Bloco de Construção**.
-
-### <a name="export-a-building-block-group"></a> Exportar um grupo do bloco de construção
-
-É possível exportar um grupo de blocos de construção ou bloco de construção do relatório específico em um grupo de blocos de construção. Você pode usar o grupo de blocos de construção exportado como backup. Você também poderá copiar os dados exportados entre grupos de blocos de construção ou instalações do Finance and Operations. O designer de relatórios tem os estilos de fontes referenciados e os conjuntos de dimensões junto com o grupo do bloco de construção.
+É possível exportar um grupo de blocos de construção ou bloco de construção do relatório específico em um grupo de blocos de construção. Você pode usar o grupo de blocos de construção exportado como backup. Você também pode copiar os dados exportados entre as instalações do Finance and Operations. O designer de relatórios tem os estilos de fontes referenciados e os conjuntos de dimensões junto com o grupo do bloco de construção.
 1.  No Designer de Relatórios, no menu **Empresa**, clique em **Grupos do Bloco de Construção**.
 2.  Na caixa de diálogo **Grupos de Blocos de Construção**, selecione o grupo de bloco de construção a ser exportado e clique em **Exportar**.
 3.  Na caixa de diálogo **Exportar**, selecione as definições de relatório para exportação:
@@ -118,7 +94,7 @@ Você pode salvar um grupo do bloco de construção existente usando um novo nom
 
 ### <a name="import-a-building-block-group"></a> Importar um grupo do bloco de construção
 
-Você pode importar um grupo de blocos de construção para um grupo de blocos de construção existente, ou você pode criar um novo grupo de bloco de construção para os dados. Todos os grupos de bloco de construção importados mantêm seus estilos de fonte original e referências de empresa e incluem os conjuntos de dimensão relevante.
+Você pode importar um grupo de blocos de construção para um grupo existente de blocos de construção. Todos os grupos de bloco de construção importados mantêm seus estilos de fonte original e referências de empresa e incluem os conjuntos de dimensão relevante.
 1.  No Designer de Relatórios, no menu **Empresa**, clique em **Grupos do Bloco de Construção**.
 2.  Na caixa de diálogo **Grupos de Blocos de Construção**, selecione o bloco de construção para o qual importar um grupo de blocos de construção e clique em **Importar**.
 3.  Na caixa de diálogo **Abrir**, selecione o grupo de blocos de construção a ser importado e clique em **Abrir**.

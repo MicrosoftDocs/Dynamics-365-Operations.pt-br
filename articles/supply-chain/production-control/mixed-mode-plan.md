@@ -1,9 +1,9 @@
 ---
 title: Planejamento de modo misto - Combinar discreto, processo e lean sourcing
-description: "Este artigo fornece informações sobre planejamento de modo misto. No planejamento de modo misto, você pode modelar sua cadeia de fornecedor baseada no fluxo de material. O Microsoft Dynamics 365 for Finance and Operations garante que o fluxo material rastreie os módulos, independentemente da política da fonte que é selecionada (kanbans, ordens de produção, ordens de compra, ordens de lote ou ordens de transferência)."
+description: "Este tópico fornece informações sobre planejamento de modo misto."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 09ced68ffe8ff300a04beb65fdf8527e63456f04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo fornece informações sobre planejamento de modo misto. No planejamento de modo misto, você pode modelar sua cadeia de fornecedor baseada no fluxo de material. O Microsoft Dynamics 365 for Finance and Operations garante que o fluxo material rastreie os módulos, independentemente da política da fonte que é selecionada (kanbans, ordens de produção, ordens de compra, ordens de lote ou ordens de transferência). 
+Este tópico fornece informações sobre planejamento de modo misto. No planejamento de modo misto, você pode modelar sua cadeia de fornecedor baseada no fluxo de material. O Microsoft Dynamics 365 for Finance and Operations garante que o fluxo material rastreie os módulos, independentemente da política da fonte que é selecionada (kanbans, ordens de produção, ordens de compra, ordens de lote ou ordens de transferência). 
 
 Você pode selecionar a estratégia geral para fornecer um produto, seja qual for a estrutura de produtos.  
 
@@ -59,7 +59,7 @@ Em geral, kanbans não são criados para datas futuras, pois um kanban tem um ci
 
 A mesma lógica está presente em todos os outros tipos de política de fornecimento. Portanto, o planejamento de material de longo prazo se baseia na mesma lógica que você espera executar com as ordens reais após a aprovação de produção e fornecimento.
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>Política de alocação de material em fornecimentos – consumo de recursos em BOMs
+## <a name="materials-allocation-cross-supply-policy--resource-consumption-on-boms"></a>Política de alocação de material em fornecimentos – consumo de recursos em BOMs
 O consumo de recursos é uma funcionalidade importante. O consumo de recursos permite que um depósito escolha materiais a serem selecionados dinamicamente, com base na política de fornecimento (tipo de ordem), e também facilita a manutenção de dados base.  
 
 O consumo de recursos exige que o depósito de onde o material é retirado seja atribuído com base na forma como o produto é fornecido. Em outras palavras, em tempo de execução, o sistema localiza os recursos que devem ser usados na manufatura. Com base nesses recursos, o sistema encontra no depósito de separação.  

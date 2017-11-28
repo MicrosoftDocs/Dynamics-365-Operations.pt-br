@@ -17,10 +17,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3678e8b910d6ad8cbc5222226c3b6a626ae0a8ea
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 335f3bd02df6022bffb5c409b01981f530d8ba3c
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/15/2017
 
 ---
 
@@ -45,7 +45,7 @@ Esse tópico mostra como os diários de pagamentos são gerados quando você imp
 | DP           | 002            | 1            | Aprovada | 5.000  |
 | DP           | 002            | 2            | Enviada     | 6,000  |
 
-Quando você lança as linhas de pagamento, as duas linhas aprovadas do diário números 001 e 002 que pertencem ao nome de diário de DP são lançadas no mesmo diário de liquidação, 003. Entretanto, a linha de pagamento aprovada para o diário número 100 que pertence ao nome do teste é lançada no diário de pagamento 101. A tabela a seguir contém informações sobre os diários de pagamento que são criados quando você lança as linhas de pagamento aprovadas.
+Quando você lança as linhas de pagamento, as duas linhas aprovadas do diário números 001 e 002 que pertencem ao nome de diário de DP são lançadas no mesmo diário de liquidação, 003. Entretanto, a linha de pagamento aprovada para o número de diário 100 que pertence ao nome de diário Teste é lançada no diário de pagamento 101. A tabela a seguir contém informações sobre os diários de pagamento que são criados quando você lança as linhas de pagamento aprovadas.
 
 | Novo número do diário | A partir do número do diário | Linha de pagamento | Status   | Valor |
 |--------------------|---------------------|--------------|----------|--------|

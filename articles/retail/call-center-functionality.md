@@ -1,9 +1,9 @@
 ---
 title: Funcionalidade do call center
-description: "Este artigo fornece uma visão geral da funcionalidade de vendas do call center no Microsoft Dynamics 365 for Retail."
+description: "Este tópico fornece uma visão geral da funcionalidade de vendas do call center no Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 00d24e9933d087f150ec5270da94ad911423824d
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 75dc09ffc84ef8ec48f50ea410974c99aabc212e
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -40,7 +40,7 @@ O Dynamics 365 for Retail também oferece suporte a call centers como um tipo de
 
 Após você habilitar esses recursos nas configurações do call center, eles são disponibilizados na página **Ordem de venda** para usuários associados ao call center. A maioria desses recursos exige configuração adicional antes que eles possam ser usados. Para que os usuários possam criar ordens do call center, você deve adicionar esses usuários ao call center como usuários do call center. Esta etapa habilita a configuração e a funcionalidade específicas de canal do call center. Veja alguns exemplos da funcionalidade que é disponibilizada:
 
--   A venda guiada fornece opções de configuração para que scripts de televendas e imagens de produtos ajudem e orientem auxiliares de vendas quando recebem ordens.
+-   A venda guiada fornece opções de configuração para que scripts de televendas e imagens de produtos ajudem e orientem os auxiliares de vendas quando receberem ordens.
 -   As ordens só podem ser concluídas quando os auxiliares de vendas capturam pelo menos um método de pagamento.
 -   Regras de venda adicional e de venda cruzada podem ser configuradas para solicitar auxiliares de vendas que promovam produtos específicos para o cliente.
 -   Os auxiliares de vendas podem capturar o código de origem para o catálogo no qual um cliente faz pedidos.

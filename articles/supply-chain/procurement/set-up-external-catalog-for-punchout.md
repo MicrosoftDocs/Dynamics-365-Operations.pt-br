@@ -3,7 +3,7 @@ title: "Configurar um catálogo externo para compras eletrônicas de PunchOut"
 description: "Este tópico descreve o uso de um catálogo externo ou catálogo de pontapé para coletar informações de cotação de um fornecedor e adicioná-lo a uma requisição."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 4c89f6f168825f7767b836be09fa73b8659b00c6
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a20bb97e451ac59ba23c7f767b5feb336278dcd1
 ms.contentlocale: pt-br
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -40,15 +40,15 @@ O catálogo externo deve permitir que um funcionário que insere uma requisiçã
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>Para configurar um catálogo externo de fornecedor, conclua as tarefas a seguir:
 
-1. Configurar uma hierarquia de categorias de compras. Para obter mais informações, consulte [Configurar políticas para hierarquias de categoria de aquisição](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-policies-procurement-category-hierarchies).
-2. Registre o fornecedor no Finance and Operations. Antes de definir as configurações para acessar o catálogo de um fornecedor externo, você deve configurar o fornecedor e o contato do fornecedor no Microsoft Dynamics 365. O catálogo externo do fornecedor também deve ser adicionado à categoria de compras selecionada. Para obter mais informações sobre como registrar fornecedores no Microsoft Dynamics 365, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md). Para obter informações sobre como atribuir o fornecedor a uma categoria de aquisição, consulte [Aprovar fornecedores para categorias específicas de aquisição](/dynamics365/unified-operations/supply-chain/procurement/tasks/approve-vendors-specific-procurement-categories).
-3. Certifique-se de que as unidades de medida e a moeda que o fornecedor usa estejam configuradas. Para obter informações sobre como criar uma unidade de medida, consulte [Gerenciar unidades de medida](/dynamics365/unified-operations/supply-chain/pim/tasks/manage-unit-measure).
-4. Configurar o catálogo externo de fornecedor usando os requisitos do site do catálogo externo do fornecedor. Para mais detalhes sobre esta tarefa, veja a próxima seção.
+1. Configurar uma hierarquia de categorias de compras. Para obter mais informações, consulte [Configurar políticas para hierarquias de categoria de aquisição](tasks/set-up-policies-procurement-category-hierarchies.md).
+2. Registre o fornecedor no Finance and Operations. Antes de definir as configurações para acessar o catálogo de um fornecedor externo, você deve configurar o fornecedor e o contato do fornecedor no Microsoft Dynamics 365. O catálogo externo do fornecedor também deve ser adicionado à categoria de compras selecionada. Para obter mais informações sobre como registrar fornecedores no Microsoft Dynamics 365, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md). Para obter informações sobre como atribuir fornecedores a uma categoria de aquisição, consulte [Aprovar fornecedores para categorias específicas de aquisição](tasks/approve-vendors-specific-procurement-categories.md).
+3. Certifique-se de que as unidades de medida e a moeda que o fornecedor usa estejam configuradas. Para obter informações sobre como criar uma unidade de medida, consulte [Gerenciar unidades de medida](../pim/tasks/manage-unit-measure.md).
+4. Configurar o catálogo externo de fornecedor usando os requisitos do site do catálogo externo do fornecedor. Para obter mais detalhes sobre essa tarefa, consulte [Configurar o catálogo de fornecedor externo](#configure-the-external-vendor-catalog).
 5. Teste as configurações do catálogo externo do fornecedor para verificar se as configurações são válidas e se você pode acessar o catálogo externo do fornecedor. Use a ação **Validar configurações** para validar a mensagem de configuração de solicitação que você definiu. Esta mensagem deve fazer com que o site do catálogo externo dos vendedores seja aberto em uma janela do navegador. Durante a validação, você não pode encomendar itens e serviços do fornecedor. Para encomendar itens e serviços, você deve acessar o catálogo do fornecedor de uma requisição de compra.
 6. Ative o catálogo externo usando o botão **Ativar catálogo** na página **Catálogos externos**. O catálogo externo deve ser ativado antes que os funcionários possam usá-lo. Você pode desativar o catálogo externo a qualquer momento.
 
 
-## <a name="4-configure-the-external-vendor-catalog"></a>(4) Configure o catálogo externo do fornecedor
+## <a name="configure-the-external-vendor-catalog"></a>Configure o catálogo do fornecedor externo
 
 Esta seção fornece mais detalhes sobre a tarefa 4 na seção anterior.
 
@@ -81,7 +81,7 @@ Abaixo, você pode encontrar uma descrição das tags incluídas no modelo:
 
 ### <a name="extrinsic-elements"></a>Elementos extrínsecos
 
-Um elemento extrínseco é informação adicional, como um nome de usuário que é baseado em um usuário forçou sua saída. O elemento extrínseco é configurado quando ocorre o punchout e pode ser enviado na mensagem de configuração da solicitação.
+Um elemento extrínseco é uma informação adicional, como nome de usuário que se baseie em um usuário que forçou sua saída. O elemento extrínseco é definido quando o punchout ocorre e pode ser enviado na mensagem de configuração da solicitação.
 O fornecedor pode ter um requerimento para receber um elemento no extrínseco de configuração. Nesse caso, você deve adicionar o elemento extrínseco à lista de elementos extrínsecos na seção **Formato de mensagem** da página **Catálogo externo**. Especifique um nome para o elemento extrínseco que o fornecedor pode reconhecer e mapeie-o para um valor. As opções para valores são: nome do usuário, e-mail do usuário ou valor aleatório.
 Para obter mais informações sobre o protocolo cXML, consulte: http://cxml.org/
 

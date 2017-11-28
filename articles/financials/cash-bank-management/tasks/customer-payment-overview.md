@@ -3,7 +3,7 @@ title: "Visão geral de pagamentos do cliente"
 description: "Este guia de tarefas apresenta vários métodos utilizados para inserir pagamentos de clientes."
 author: kweekley
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6e10d0d0a05b0594ba5cf6a77f474b461bd9dca
+ms.sourcegitcommit: 621ad64c06a6cebff90e888ac89bba922052cf35
+ms.openlocfilehash: de2526d5c674de9505174d3f40f9ae597b8a0a6b
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="customer-payment-overview"></a>Visão geral de pagamentos do cliente
@@ -54,7 +54,7 @@ Este guia de tarefas apresenta vários métodos utilizados para inserir pagament
 16. Selecione o cliente do qual o pagamento foi recebido.
     * Se você não sabe qual é o cliente mas tem as informações de uma fatura paga por este pagamento, use o campo Fatura para inserir manualmente ou selecionar a fatura. O cliente será definido como o padrão após a seleção da fatura.  
 17. Clique em Liquidar transações para marcar as faturas que foram pagas.
-    * Você não precisa liquidar o pagamento de nenhuma fatura. Se este for um pagamento antecipado ou se você não souber qual fatura foi paga, você poderá inserir e lançar o pagamento. O pagamento pode ser liquidado em uma fatura posteriormente.  
+    * Não é necessário liquidar o pagamento de nenhuma fatura. Se este for um pagamento antecipado ou se você não souber qual fatura foi paga, você poderá inserir e lançar o pagamento. O pagamento pode ser liquidado em uma fatura posteriormente.  
 18. Marque as faturas pagas por este pagamento. 
 19. Insira o valor do pagamento que será liquidado à fatura.
 20. Clique em OK.

@@ -3,7 +3,7 @@ title: "Crédito e cobranças em Contas a receber"
 description: "A informações de cobranças de contas a receber são gerenciadas em uma exibição central por meio da página Cobranças do Microsoft Dynamics 365 for Finance and Operations, edição Enterprise. Os gerentes de crédito e cobranças podem usar essa visão central para gerenciar cobranças. Os agentes de cobranças podem iniciar o processo de cobranças a partir das listas de clientes que são geradas usando critérios de cobrança predefinidos ou da página Clientes."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 62f659d6e4529adce10e6eb2699dfc84a7329143
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a071d3151fbcc9e29bd138b096b34b88bc405a4f
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -69,7 +69,7 @@ As seguintes páginas de lista ajudam você a organizar as informações de cobr
 -   Casos de cobranças – as colunas na página de lista exibem informações para casos que têm uma categoria de caso com um tipo de caso Cobranças.
 
 > [!NOTE]
-> Um instantâneo de classificação por vencimento deve ser criado para que você possa exibir as informações nessas páginas de lista. As informações são exibidas somente para os clientes para os quais um instantâneo de classificação por vencimento tiver sido criado. Os registros mostrados na página de listagem podem ser ainda mais filtrados, da seguinte maneira:
+> Um instantâneo de classificação por vencimento deve ser criado para que você possa exibir as informações nessas páginas de lista. As informações são exibidas somente para os clientes que o instantâneo de classificação por vencimento foi criado. Os registros que são mostrados na página de lista podem ser filtrados adicionalmente, da seguinte maneira:
 <li>Por padrão, um usuário do Finance and Operations tem acesso a todos os clientes com um instantâneo de classificação por vencimento.</li>
 <li>Se os grupos de clientes existem, um usuário deve ser configurado como um agente de cobranças para usar os grupos para filtrar as informações nas páginas de lista de cobranças. As informações são limitadas aos clientes incluídos no grupo de clientes selecionado.</li>
 <li>Se um usuário estiver configurado como um agente de cobranças, apenas os grupos selecionados para esse agente de cobranças estarão disponíveis na página de lista. Se o botão de alternância Permitir que o agente exiba todos os grupos de clientes estiver selecionado na página Agente de cobranças do agente de cobranças, todos os grupos estarão disponíveis para esse agente.</li>

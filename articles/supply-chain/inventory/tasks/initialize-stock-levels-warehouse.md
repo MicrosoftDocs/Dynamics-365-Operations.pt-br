@@ -3,7 +3,7 @@ title: "Inicializar níveis de estoque no depósito"
 description: "Esse procedimento mostra como obter o estoque disponível atualizado manualmente usando um diário de movimentação de estoque."
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,13 +17,13 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 45c93febbbc4ea78fe2b87735ed96fd773605d96
+ms.sourcegitcommit: d804480167414cd038f8229db312dc9c52d131f8
+ms.openlocfilehash: 3b4685b034f7e6a3af0259fb921230e7b3397754
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
-# Inicializar níveis de estoque no depósito
+# <a name="initialize-stock-levels-in-the-warehouse"></a>Inicializar níveis de estoque no depósito
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 

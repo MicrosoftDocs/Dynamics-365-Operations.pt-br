@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c222f0d17be6eea0f776f5460c793b82d8b3e0ab
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 6b896c28f475a8f827a1db1b6dd684b6ec64e872
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/15/2017
 
 ---
 
@@ -138,7 +138,7 @@ Uma restrição de tabela definida pelo sistema representa um mapeamento entre u
 </tr>
 <tr class="odd">
 <td>Requisitos de usuário</td>
-<td>Os requisitos de usuário representam uma abstração entre os requisitos de usuário e os componentes e os atributos específicos. Não é possível mapear um requisito de usuário para um item. Por exemplo, um cliente está comprando um sistema de home theater. O representante de vendas pode perguntar sobre o tamanho da sala em que o cliente planeja instalar o sistema, para determinar quantos watts serão necessários. Neste exemplo, o tamanho da sala pode ser um requisito do usuário que ajudará a determinar o valor adequado do atributo para um componente específico. Você pode ocultar os requisitos do usuário de forma que eles não sejam exibidos para o usuário durante uma sessão de configuração. Os atributos, subcomponentes, e os requisitos de usuário relacionados ao requisito de usuário também são ocultos. É possível gravar uma condição para controlar se um requisito de usuário pode ser oculto. É necessário gravar a condição usando a sintaxe OML (Optimization Modeling Language).</td>
+<td>Os requisitos de usuário representam uma abstração entre os requisitos de usuário e os componentes e os atributos específicos. Não é possível mapear um requisito de usuário para um item. Por exemplo, um cliente está comprando um sistema de home theater. O representante de vendas pode perguntar sobre o tamanho da sala em que o cliente planeja instalar o sistema, para determinar quantos watts serão necessários. Neste exemplo, o tamanho da sala pode ser um requisito de usuário que ajuda a determinar o valor do atributo apropriado para um componente específico. É possível ocultar os requisitos de usuário para que não sejam exibidos para o usuário durante uma sessão de configuração. Os atributos, subcomponentes, e os requisitos de usuário relacionados ao requisito de usuário também são ocultos. É possível gravar uma condição para controlar se um requisito de usuário pode ser oculto. É necessário gravar a condição usando a sintaxe OML (Optimization Modeling Language).</td>
 </tr>
 <tr class="even">
 <td>Linhas de BOM</td>

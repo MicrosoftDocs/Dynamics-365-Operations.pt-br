@@ -1,9 +1,9 @@
 ---
-title: Funcionalidade de Designer de BOM
-description: "Este artigo descreve como você pode usar a página do designer de BOM para criar e trabalhar com estruturas de árvore para listas de materiais (BOMs). Você pode clicar em Configurar para selecionar diferentes configurações e especificar quais informações aparecem nas linhas da árvore."
+title: Funcionalidade de designer de BOM
+description: "Este tópico descreve como você pode usar a página do designer de BOM para criar e trabalhar com estruturas de árvore para listas de materiais (BOMs)."
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMDesigner
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 20981
 ms.assetid: 2b92eec1-d28c-4965-9086-939c77b3c62b
 ms.search.region: Global
@@ -20,19 +20,19 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 011e8220e155a5202b7b0a18bbfa9581826645d0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 41f629401731920a9cb6443ada8b1a34a70e8da9
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="bom-designer-functionality"></a>Funcionalidade de Designer de BOM
+# <a name="bom-designer-functionality"></a>Funcionalidade de designer de BOM
 
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve como você pode usar a página do designer de BOM para criar e trabalhar com estruturas de árvore para listas de materiais (BOMs). Você pode clicar em Configurar para selecionar diferentes configurações e especificar quais informações aparecem nas linhas da árvore.
+Este tópico descreve como você pode usar a página do designer de BOM para criar e trabalhar com estruturas de árvore para listas de materiais (BOMs). Você pode clicar em Configurar para selecionar diferentes configurações e especificar quais informações aparecem nas linhas da árvore.
 
 Quando você abre a página **Designer de BOM** da página **Produtos liberados**, ela exibe a hierarquia de listas de materiais (BOMs) ativas e aprovadas para o item selecionado, o local padrão da ordem do item e a data real.  
 
@@ -66,7 +66,7 @@ O filtro aplicado para que a BOM e o roteiro sejam exibidos no cabeçalho do Des
 <tbody>
 <tr class="odd">
 <td>Dimensões do produto</td>
-<td>Se o produto concluído selecionado for um produto mestre, você pode definir as dimensões de produto ativas para a seleção principal. <strong>Observação:</strong> se você abrir o Designer de BOM de um produto que não seja um produto mestre, qualquer dimensão do produto poderá ser selecionada na caixa de diálogo <strong>Filtrar</strong>.</td>
+<td>Se o produto selecionado é um produto mestre, você pode definir as dimensões de produto ativas para a seleção principal. <strong>Observação:</strong> se você abrir o designer de BOM para um produto que não seja um produto mestre, as dimensões do produto não poderão ser selecionadas na caixa de diálogo <strong>Filtro</strong>.</td>
 </tr>
 <tr class="even">
 <td>Local</td>

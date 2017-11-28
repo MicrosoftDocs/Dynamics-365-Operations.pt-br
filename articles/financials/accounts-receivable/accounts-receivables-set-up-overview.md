@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbe32e248727912073631f1dfb8ee0a49cbf0a5e
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 7563c749d0d2b5747f1b7886def82ba7191499b1
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/15/2017
 
 ---
 
@@ -36,11 +36,10 @@ Configurar Contas a receber e Crédito e cobranças para rastrear faturas e paga
 É possível definir clientes, grupos de clientes, perfis de lançamentos, várias opções de pagamento, notas de juros, cartas de cobrança, comissões, parâmetros referentes a clientes, encargos, entregas e destinos, letras de câmbio e outros tipos de informações de cobranças e crédito em contas a receber.
 A tabela a seguir lista as páginas que dão suporte à configuração e à manutenção de cobranças e crédito em contas a receber. As entradas da tabela estão organizadas por tarefa e, depois, por ordem alfabética do nome da página.
 
-| ![Observação](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "Observação")**Observação**          |
-|--------------------------------------------------------------------------------------------------|
-| Algumas páginas na tabela a seguir exigem informações ou configurações de parâmetros para que seja possível navegar até eles. |
+> [!NOTE]
+> Não é possível navegar até algumas páginas na tabela a seguir, a menos que as configurações de dados ou de parâmetros tenham sido inseridas em outras páginas.
 
-| Tarefa                                                 | Nome da página                            | Utilização                                                                                                                                                                                                                                                                             |
+| Tarefa                                                 | Nome da página                            | Uso                                                                                                                                                                                                                                                                             |
 |------------------------------------------------------|--------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Configurando informações exigidas de Contas a receber | Parâmetros de contas a receber       | Configurar os parâmetros do módulo de contas a receber.                                                                                                                                                                                                                             |
 |                                                      | Fluxos de trabalho de contas a receber        | Crie um fluxo de trabalho ou modifique um existente.                                                                                                                                                                                                                                      |

@@ -1,16 +1,16 @@
 ---
 title: "Visão geral da ajuda"
-description: "Este artigo fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations. Também explica como você pode fornecer a documentação personalizada e treinamento a sua organização."
+description: "Este tópico fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations. Também explica como você pode fornecer a documentação personalizada e treinamento a sua organização."
 author: margoc
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
@@ -18,18 +18,18 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
-ms.openlocfilehash: 2df27a23d31ecde99bb31b4f8a19295c331cae09
+ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
+ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/11/2017
 
 ---
 
-# <a name="help-overview"></a>Visão geral da ajuda
+# <a name="help-system-overview"></a>Visão geral do sistema de Ajuda
 
 [!include[banner](../includes/banner.md)]
 
-Este artigo fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations. Também explica como você pode fornecer a documentação personalizada e treinamento a sua organização. 
+Este tópico fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations. Também explica como você pode fornecer a documentação personalizada e treinamento a sua organização. 
 
 > [!NOTE] 
 > Os produtos a seguir estão intimamente relacionados: Dynamics 365 for Finance and Operations, edição Enterprise; Dynamics 365 for Retail; and Dynamics 365 for Talent. Todos os 3 produtos podem conter a mesma funcionalidade. Como resultado, para tópicos relacionados principalmente a varejo, o nome do produto será Dynamics 365 for Retail; para tópicos relacionados principalmente a talentos, o nome do produto será Dynamics 365 for Talent; para tópicos relacionados ao produto principal, o nome do produto será Dynamics 365 for Finance and Operations. Os tópicos redigidos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
@@ -69,16 +69,17 @@ Recebemos muitas dúvidas sobre como pesquisar nosso conteúdo. Em nosso site, s
 
 Também é possível localizar nosso conteúdo com qualquer mecanismo de pesquisa. Para obter os melhores resultados, é recomendável usar uma pesquisa de sites, como o "termo de pesquisa" dynamics 365 site:docs.microsoft.com  
 
-![Pesquisa de site](./media/site-search-1.png)
-
-![Resultados da pesquisa de site](./media/site-search-results-2.png)
-
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>O sumário docs.microsoft.com
-Todos os produtos compartilham um sumário único no site de documentos, o qual possibilita aos clientes ver o contexto do tópico em que estão inseridos. Também permite usar o controle de Filtro para localizar os tópicos que você está procurando.
+Finance and Operations, Retail e Talent compartilham um sumário único no site de documentos, o qual possibilita aos clientes ver o contexto do tópico em que estão inseridos. Ele também permite usar o controle de Filtro acima do sumário para localizar os tópicos que você está procurando.
 
-### <a name="how-can-i-contribute"></a>Como posso contribuir? 
+### <a name="follow-a-topic"></a>Acompanhar um tópico
+Para acompanhar um tópico, clique no botão +Seguir abaixo da caixa de comentário. Você precisará entrar para seguir o tópico. Consulte [Deixe-nos um comentário](#leave-us-a-comment) para obter detalhes.  
 
-Deixe-nos um comentário! 
+### <a name="give-feedback"></a>Forneça comentários 
+Gostamos de saber a opinião dos clientes. Você pode fazer comentários, ou sugerir alterações em nosso conteúdo no GitHub.
+
+##### <a name="leave-us-a-comment"></a>Deixe-nos um comentário. 
+Se você tiver dúvidas ou comentários sobre um tópico, deixe-nos um comentário na parte inferior da página.  
 
 1 Clique em **Comentários** para acessar os comentários na parte inferior da página.
 
@@ -96,6 +97,19 @@ Ou
 À direita, insira um endereço de email e uma nova senha para criar uma nova conta para o site. 
 
 ![Opções de entrada](./media/signin-options.png)
+
+
+##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Sugerir uma alteração ou contribuir com conteúdo no GitHub
+Para sugerir uma alteração, é preciso ter uma conta do GitHub, e assinar um contrato de licença de contribuinte.  Após você enviar uma solicitação de pull, examinaremos as alterações propostas. Se necessário, faremos uma análise interna e lhe daremos uma resposta.  
+
+Para começar, clique no botão **Editar** (lápis) em um tópico, ou acesse nosso repositório em https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
+
+Para obter mais informações, consulte o guia do colaborador: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
+
+
+> [!NOTE]
+> No momento, só aceitamos contribuições de nossos repositórios em inglês.  
+> Não aceitamos relatos de problemas via GitHub, Procure usar uma solicitação de pull para enviar sugestões de conteúdo. Comentários sobre produtos e recursos são melhor abordados no portal de ideias do Dynamics 365: https://ideas.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Guias de tarefas
@@ -164,7 +178,7 @@ Assim que um Administrador do sistema concluir essas etapas, você pode abrir o 
 
 ### <a name="where-are-the-translated-task-guides"></a>Onde estão os guias de tarefa traduzidos?
 
-Os guias da tarefa são liberados em bibliotecas com "Todos os idiomas" no título. No Finance and Operations, para ver a ajuda do guia de tarefas localizada, certifique-se de que você está conectado à uma biblioteca apropriada. O idioma que aparece em um guia de tarefas é controlado para cada usuário pelas configurações de Idioma em **Opções** &gt; **Preferências**. 
+Os guias da tarefa são liberados em bibliotecas com "Todos os idiomas" no título. No Finance and Operations, para obter ajuda da guia de tarefas localizada, verifique se você está conectado à uma biblioteca apropriada. O idioma que aparece em um guia de tarefas é controlado para cada usuário pelas configurações de Idioma em **Opções** &gt; **Preferências**. 
 -   Se um guia de tarefas foi traduzido, quando você abrir esse guia de tarefas, todo o texto do guia de tarefas será exibido no idioma selecionado.
 -   Se um guia de tarefas ainda não foi traduzido, quando você abri-lo, apenas algumas partes do texto (o texto dos controles) aparecerão em seu idioma selecionado.
 
@@ -196,9 +210,4 @@ A tabela a seguir lista nossos sites. Nossos sites de conteúdo são organizados
 [Guias de tarefas novos ou atualizados (Agosto de 2016)](new-updated-task-guides-available-august-2016.md)
 [Guias de tarefas novos ou atualizados (Maio de 2016)](new-updated-task-guides-available-may-2016.md)
 [Guias de tarefas novos (Fevereiro de 2016)](new-task-guides-available-february-2016.md)
-
-
-
-
-
 
