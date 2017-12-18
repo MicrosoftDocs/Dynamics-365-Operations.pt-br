@@ -124,6 +124,7 @@
 #### [Registrar uma subclasse para métodos de fábrica](extensibility/register-subclass-factory-methods.md)
 #### [Responder com EventHandlerResult](extensibility/respond-event-handler-result.md)
 #### [Estender a classe RunBase](extensibility/extend-runbase-class.md)
+#### [Usar delegados para personalizar a inicialização do aplicativo](extensibility/startup-customizations.md)
 #### [Alterar um campo existente em uma tabela](extensibility/modify-existing-field.md)
 #### [Adicionar um novo campo a uma tabela existente](extensibility/add-field-extension.md)
 #### [Adicionar um índice a uma tabela existente](extensibility/add-index.md)
@@ -505,10 +506,12 @@
 ### [Configurar e implantar ambientes locais](deployment/setup-deploy-on-premises-environments.md)
 ### [Desenvolver e implantar modelos personalizados para ambientes locais](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Aplicar atualizações a uma implantação local](deployment/apply-updates-on-premises.md)
+### [Reimplantar em uma implantação local](deployment/redeploy-on-prem.md)
+### [Solucionar problemas do Dynamics 365 for Finance and Operations, Enterprise edition local](deployment/troubleshoot-on-prem.md)
 
 ## Implantar código personalizado
 ### [Criar um pacote implantável](deployment/create-apply-deployable-package.md)
-### [Aplicar um pacote implantável](deployment/apply-deployable-package-system.md)
+### [Aplicar atualizações a um ambiente em nuvem](deployment/apply-deployable-package-system.md)
 ### [Instalar um pacote implantável](deployment/install-deployable-package.md)
 ### [Solucionar problemas de aplicação do pacote](deployment/deployable-package-troubleshooting.md)
 
@@ -544,11 +547,13 @@
 ## Upgrade para uma atualização recente
 ### [Processo de movimentação para a última atualização](migration-upgrade/upgrade-latest-update.md)
 ### [Política de ciclo de vida](migration-upgrade/versions-update-policy.md)
-### [Upgrade para a atualização de plataforma mais recente](migration-upgrade/upgrade-latest-platform-update.md)
+### [Aplicar a última atualização de plataforma a seu ambiente](migration-upgrade/upgrade-latest-platform-update.md)
 ### [Atualizar a plataforma do Dynamics para a versão de agosto de 2016](migration-upgrade/update-platform-each-release.md)
 ### [Atualizar um ambiente de área restrita](migration-upgrade/upgrade-sandbox-environment.md)
 ### [Atualizar dados em ambientes de desenvolvimento ou de demonstração](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [Atualizar ferramentas de desenvolvimento](dev-tools/update-development-tools.md)
+### [Aplicar atualizações a uma implantação local](deployment/apply-updates-on-premises.md)
+### [Reimplantar em uma implantação local](deployment/redeploy-on-prem.md)
 
 ## Hotfixes e manutenção
 ### [Baixar hotfixes do Lifecycle Services](migration-upgrade/download-hotfix-lcs.md)
@@ -566,6 +571,7 @@
 ## [Compartilhamento de dados entre empresas](sysadmin/cross-company-data-sharing.md)
 ## [Modo de manutenção](sysadmin/maintenance-mode.md)
 ## [Contas do sistema pré-configuradas](sysadmin/pre-configured-system-accounts.md)
+## [Exportar usuários B2B para o Azure AD](sysadmin/implement-b2b.md)
 ## [Segurança baseada em função](sysadmin/role-based-security.md)
 ### [Arquitetura de segurança](sysadmin/security-architecture.md)
 ### [Relatórios de segurança](sysadmin/security-reports.md)
