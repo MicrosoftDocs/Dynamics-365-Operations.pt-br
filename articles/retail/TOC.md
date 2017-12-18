@@ -11,7 +11,7 @@
 # Pagamentos
 ## [Formas de pagamento](payment-methods.md)
 ## [Configuração, autorização e captura de cartão de crédito](../financials/accounts-receivable/credit-card-authorizations.md)
-## [Configurar métodos de pagamento para PDV](cash-denominations.md)
+## [Configurar métodos de pagamento para POS](cash-denominations.md)
 ## [Perguntas frequentes sobre pagamentos](dev-itpro/payments-retail.md)
 
 # Ordens de compra
@@ -44,29 +44,29 @@
 ## [Horário e presença do Retail](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) e Cloud POS
-## [Operações de PDV](POS-operations.md)
+## [Operações de POS](POS-operations.md)
 ## [Layouts de tela de dados de demonstração em MPOS/CPOS](demo-data.md)
 ## Hardware e periféricos
 ### [Visão geral de periféricos de varejo](retail-peripherals-overview.md)
-### [Periféricos de hardware de PDV testados pela Microsoft](microsoft-tested-pos-hardware-peripherals.md)
+### [Periféricos de hardware de POS testados pela Microsoft](microsoft-tested-pos-hardware-peripherals.md)
 ### [Simulador de periférico para varejo](dev-itpro/retail-peripheral-simulator.md)
 ### [Definir e manter clientes de canal, registradoras e estações de hardware](define-maintain-channel-clients-registers-hw-stations.md)
 ## Layout da tela
-### [Configurar layouts de tela do PDV](pos-screen-layouts.md)
+### [Configurar layouts de tela do POS](pos-screen-layouts.md)
 ### [Instalar o designer de Layout de Retail POS](install-pos-layout-designer.md)
-### [Configurações do aplicativo de PDV e de idioma do usuário](pos-application-user-language-settings.md)
+### [Configurações do aplicativo de POS e de idioma do usuário](pos-application-user-language-settings.md)
 ### [Configurar imagens do MPOS](set-up-manage-images-retail-mpos.md)
 ## [Visão geral de códigos de informação](info-codes-retail.md) 
 ## Recomendações de produtos
 ### [Visão geral de recomendações de produtos personalizados](personalized-product-recommendations.md)
-### [Adicionar um controle de recomendações em um dispositivo de PDV](add-recommendations-control-pos-screen.md)
-## [Funcionalidade de PDV offline](pos-offline-functionality.md)
+### [Adicionar um controle de recomendações em um dispositivo de POS](add-recommendations-control-pos-screen.md)
+## [Funcionalidade de POS offline](pos-offline-functionality.md)
 ## [Gerenciamento de turnos e gaveta de dinheiro](shift-drawer-management.md)
 ## Ordens de cliente
 ### [Visão geral de ordens de cliente](customer-orders-overview.md)
 ### [Ordens híbridas de cliente](hybrid-customer-orders.md)
 ## Associados de vendas
-### [Acompanhar comissões em PDVs usando grupos de vendas](pos-sales-groups-track-commissions.md)
+### [Acompanhar comissões em POSs usando grupos de vendas](pos-sales-groups-track-commissions.md)
 ## [Enviar uma ordem de uma loja diferente](charge-send.md)
 ## Ativação de dispositivo
 ### [Configurar e instalar o MPOS](retail-modern-pos-device-activation.md)
@@ -75,7 +75,7 @@
 ## Recibos
 ### [Configurar modelos de recibo](receipt-templates-printing.md) 
 ### [Enviar recibos por email do MPOS](email-receipts.md)
-## [Gravador de tarefas e Ajuda para PDV](task-recorder-retail-pos.md)
+## [Gravador de tarefas e Ajuda para POS](task-recorder-retail-pos.md)
 
 # Monitoramento e análise
 ## [Monitorar desempenho de vendas e de margem](monitor-sales-margin-performance.md)
@@ -139,11 +139,11 @@
 ## [ Criar e associar registros](tasks/create-associate-registers.md)
 ## [ Criar, calcular e lançar uma declaração para uma loja de varejo](tasks/create-calculate-post-statement-retail-store.md)
 ## [ Criar ordens de call center](tasks/create-call-center-orders.md)
-## [ Criar dimensões financeiras para registros de PDV e configurar valores de dimensão em registros](tasks/create-financial-dimensions-pos.md)
+## [ Criar dimensões financeiras para registros de POS e configurar valores de dimensão em registros](tasks/create-financial-dimensions-pos.md)
 ## [ Criar dimensões financeiras para canais de varejo e configurar valores de dimensão em lojas](tasks/create-financial-dimensions-retail-channels.md)
 ## [ Criar canais online e definir atributos de canal](tasks/create-online-channel-define-channel-attributes.md)
-## [ Criar grupos de permissões de PDV](tasks/create-pos-permission-groups.md)
-## [ Criar um perfil visual de PDV ](tasks/create-pos-visual-profile-2016-02.md)
+## [ Criar grupos de permissões de POS](tasks/create-pos-permission-groups.md)
+## [ Criar um perfil visual de POS ](tasks/create-pos-visual-profile-2016-02.md)
 ## [ Criar pacotes de produto para ordens de compra](tasks/create-product-packages-purchase-orders.md)
 ## [ Definir canal de call center e atributos de canal](tasks/define-call-center-channel-channel-attributes.md)
 ## [ Definir atributos do canal](tasks/define-channel-attributes.md)
@@ -180,11 +180,11 @@
 
 ## Implantação e hotfixes
 ### [Visão geral do Retail Store Scale Unit](dev-itpro/retail-store-system-begin.md)
-#### [Instalação e configuração do Retail Store Scale Unit](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [Instalação e configuração do Retail Store Scale Unit](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Configuração e instalação do Retail Modern POS](retail-modern-pos-device-activation.md)
-#### [Gerenciamento de contas e dispositivos de varejo nas sedes](set-up-activation-accounts-validate-devices-hq.md)
-#### [Ativação de dispositivo do Retail POS](dev-itpro/retail-device-activation.md)
-#### [Retail Cloud POS seguro](dev-itpro/secure-retail-cloud-pos.md)
+### [Gerenciamento de contas e dispositivos de varejo nas sedes](set-up-activation-accounts-validate-devices-hq.md)
+### [Ativação de dispositivo do Retail POS](dev-itpro/retail-device-activation.md)
+### [Retail Cloud POS seguro](dev-itpro/secure-retail-cloud-pos.md)
 ### [Configuração e instalação do Retail Hardware Station](retail-hardware-station-configuration-installation.md)
 ### [Implantação em massa dos componentes de autoatendimento do Retail](dev-itpro/retail-mass-deployment.md)
 ### [Eventos de componente do Retail para diagnósticos e soluções de problemas](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
@@ -194,50 +194,54 @@
 ### [Visão geral de upgrade e suporte N-1](dev-itpro/overview-upgrade-n-minus1.md)
 ### [Instalar componentes N-1](dev-itpro/n-1-installation-configuration.md)
 
+## Orientações de implementação
+### [Orientações de implementação de gerenciamento de dispositivos](implementation-considerations-devices.md)
+
 ## Configuração do ambiente
 ### [Adicionar links aos termos legais e à declaração de privacidade de sua organização](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [Gerenciar o Bing Mapas](dev-itpro/manage-bing-maps.md)
 
-## Extensibilidade
-### Ponto de venda
-#### [Layouts de tela do Retail POS](pos-screen-layouts.md)
-##### [Instalar o designer de Layout do PDV](install-pos-layout-designer.md)
-#### [Configurar o MPOS para modo offline](dev-itpro/retail-modern-pos-offline.md)
-#### [O MPOS e o Cloud POS disparam a extensibilidade](dev-itpro/modern-pos-trigger-extensibility.md)
-#### [Adicionar um controle personalizado a uma exibição de PDV](dev-itpro/pos-custom-control.md)
-#### [Extensão de pagamento do PDV](dev-itpro/pos-payment-extension.md)
-#### [Suporte a cartão-presente externo](dev-itpro/gift-card.md)
+## Extensibilidade de ponto de venda
+### [Layouts de tela do Retail POS](pos-screen-layouts.md)
+### [Instalar o designer de Layout do POS](install-pos-layout-designer.md)
+### [Configurar o MPOS para modo offline](dev-itpro/retail-modern-pos-offline.md)
+### [O MPOS e o Cloud POS disparam a extensibilidade](dev-itpro/modern-pos-trigger-extensibility.md)
+### [Adicionar um controle personalizado a uma exibição de POS](dev-itpro/pos-custom-control.md)
+### [Extensão de pagamento do POS](dev-itpro/pos-payment-extension.md)
+### [Suporte a cartão-presente externo](dev-itpro/gift-card.md)
 ### [Criar um aplicativo Retail Experience](dev-itpro/create-retail-experience-app.md)
 ### [Extensibilidade e visão geral do Hardware Station](dev-itpro/hardware-station-extensibility.md)
 
-### Retail Server
-#### [Estender um controlador Retail Server OData](dev-itpro/extend-retail-server-odata-controller.md)
-#### [Controladores API Web e OData](dev-itpro/odata-controllers-api.md)
-#### [APIs do cliente e de consumo do Retail Server](dev-itpro/retail-server-customer-consumer-api.md)
-#### [Estender os metadados](dev-itpro/extend-metadata.md)
-#### [Estender o tempo de execução de comércio para dar suporte ao modo offline do PDV](dev-itpro/call-crt-service-offline.md)
-### Commerce Runtime
-#### [Visão geral de tempo de execução do Commerce](dev-itpro/commerce-runtime-overview.md)
-#### [Extensibilidade de tempo de execução do Commerce e do Retail Server ](dev-itpro/commerce-runtime-extensibility.md)
-#### [Adicionar dados preferenciais do cliente a um banco de dados de canal](dev-itpro/add-customer-preference-channel.md)
-#### [Adicionar propriedades a uma ordem de venda](dev-itpro/add-properties-sales-order.md)
-#### [Extensibilidade e gatilhos de tempo de execução do Commerce](dev-itpro/commerce-runtime-extensibility-trigger.md)
-#### [Exemplo de gatilho: bloqueio de transação](dev-itpro/trigger-example-blocking-transaction.md)
-#### [Exemplo de gatilho: política de devolução](dev-itpro/trigger-example-return-policy.md)
-### Comércio eletrônico
-#### [Configurar uma loja online](dev-itpro/configure-online-store.md)
-#### [Configurar provedores de autenticação](dev-itpro/configure-authentication-providers.md)
-#### [Plataforma de comércio eletrônico](dev-itpro/ecommerce-platform.md)
-#### [SDK da plataforma de comércio eletrônico](dev-itpro/ecommerce-platform-sdk.md)
-### Conector de pagamento
-#### [Implementação de um conector de pagamento e de um dispositivo de pagamento (white paper)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
-#### [Implantar um conector de pagamento](dev-itpro/deploy-payment-connector.md)
-#### [Crie um instalador do Windows para um conector de pagamento](dev-itpro/create-windows-installer-payment-connector.md)
+## Extensibilidade do Retail Server
+### [Estender um controlador Retail Server OData](dev-itpro/extend-retail-server-odata-controller.md)
+### [Controladores API Web e OData](dev-itpro/odata-controllers-api.md)
+### [APIs do cliente e de consumo do Retail Server](dev-itpro/retail-server-customer-consumer-api.md)
+### [Estender os metadados](dev-itpro/extend-metadata.md)
+### [Estender o tempo de execução de comércio para dar suporte ao modo offline do POS](dev-itpro/call-crt-service-offline.md)
 
-## Retail SDK
-### [Visão geral do Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
-### [Integrar o SDK do Retail ao sistema de compilação contínua](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
-### [Exemplos de extensibilidade do SDK do Retail](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
+## Extensibilidade de tempo de execução do Commerce
+### [Visão geral de tempo de execução do Commerce](dev-itpro/commerce-runtime-overview.md)
+### [Extensibilidade de tempo de execução do Commerce e do Retail Server ](dev-itpro/commerce-runtime-extensibility.md)
+### [Adicionar dados preferenciais do cliente a um banco de dados de canal](dev-itpro/add-customer-preference-channel.md)
+### [Adicionar propriedades a uma ordem de venda](dev-itpro/add-properties-sales-order.md)
+### [Extensibilidade e gatilhos de tempo de execução do Commerce](dev-itpro/commerce-runtime-extensibility-trigger.md)
+### [Exemplo de gatilho: bloqueio de transação](dev-itpro/trigger-example-blocking-transaction.md)
+### [Exemplo de gatilho: política de devolução](dev-itpro/trigger-example-return-policy.md)
+
+## Extensibilidade do comércio eletrônico
+### [Configurar uma loja online](dev-itpro/configure-online-store.md)
+### [Configurar provedores de autenticação](dev-itpro/configure-authentication-providers.md)
+### [Plataforma de comércio eletrônico](dev-itpro/ecommerce-platform.md)
+### [SDK da plataforma de comércio eletrônico](dev-itpro/ecommerce-platform-sdk.md)
+
+## Extensibilidade do conector de pagamento
+### [Implementação de um conector de pagamento e de um dispositivo de pagamento (white paper)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+### [Implantar um conector de pagamento](dev-itpro/deploy-payment-connector.md)
+### [Crie um instalador do Windows para um conector de pagamento](dev-itpro/create-windows-installer-payment-connector.md)
+
+## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
+### [Integrar o Retail SDK ao sistema de compilação contínua](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
+### [Exemplos de extensibilidade do Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Caixas registradoras da Suécia](localizations/emea-swe-cash-registers.md)
 ### [Exemplo para integração do Retail POS com unidades de controle na Suécia](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
 ### [Caixas registradoras na Noruega](localizations/emea-nor-cash-registers.md)
@@ -249,7 +253,13 @@
 ### [Atributos de ordem](dev-itpro/order-attributes.md)
 ### [Atributos de cliente](dev-itpro/customer-attributes.md)
 ### [Retail Typescript e C# proxy](dev-itpro/typescript-proxy-retail-pos.md)
-
+### [Executar exemplos do Retail POS](dev-itpro/pos-run-samples.md)
+### [Estender exibições de POS existentes para adicionar colunas personalizadas e botões da barra de aplicativos](dev-itpro/pos-view-extension.md)
+### [Adicionar controles personalizados a páginas de transação do Retail Modern POS](dev-itpro/pos-custom-transaction.md)
+### [Adicionar colunas personalizados a uma grade de transação POS](dev-itpro/pos-custom-transaction-column.md)
+### [Chamar uma API POS ou operação de uma extensão de POS](dev-itpro/pos-api-extension.md)
+### [Estender exibições de POS existentes para adicionar colunas personalizadas e botões da barra de aplicativos](dev-itpro/pos-view-extension.md)
+### [Gatilhos e impressão do Retail Modern POS](dev-itpro/pos-trigger-printing.md)
 
 ## Commerce Runtime
 ### [Extensão de fidelidade](dev-itpro/retail-sdk/loyalty-extension-sample.md)

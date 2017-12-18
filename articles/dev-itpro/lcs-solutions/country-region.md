@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 25c8c6c9bbccf07ce94a909824ecc8096081cd2c
+ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
+ms.openlocfilehash: 9322b970eea9ab5ac01ae8461285b4dbcc1624a3
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 
@@ -223,6 +223,7 @@ As seções a seguir listam os recursos por país/região.
 -   [Detalhes de demonstrativos de IVA](../../financials/localizations/emea-ita-vat-statements-details.md)
 -   [Data da competência de transações](../../financials/localizations/emea-ita-competence-date.md)
 -   [Depreciação manual de ativos fixos](../../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+-   [Modello 770](../../financials/localizations/emea-ita-modello770.md)
 -   [Verificação da data da guia de remessa em faturas da Itália](../../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
 -   [Registros de imposto da Itália](../../financials/localizations/emea-ita-fiscal-books.md)
 -   [Dividir pagamento de faturas emitidas para a Administração Pública](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
