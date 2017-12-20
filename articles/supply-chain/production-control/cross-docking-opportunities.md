@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ef58898a6822224e44873afdd7c55800215c37a0
+ms.sourcegitcommit: ff0d19a2d712ccb17762803e2fe4ab2ed5aa024e
+ms.openlocfilehash: bd5f055ef816f050ed99390c455a613d46dd6323
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2017
 
 ---
 
@@ -74,7 +74,7 @@ Na **política de distribuição integrada**, você define quais tipos de docume
 ### <a name="cross-docking-policy-name-transfer-order"></a>Nome da política de distribuição integrada: ordem de transferência
 
 -   Número de sequência: 10
--   Tipo de ordem de trabalho: Saída de transferência
+ -   Tipo de ordem de trabalho: Saída de transferência
 -   A demanda de distribuição integrada requer localização: Falso
 -   Estratégia distribuição integrada: Data e hora
 
@@ -102,10 +102,9 @@ Depois que um produto for relatado como concluído na linha de produção, ele s
 6.  Criar uma ordem de transferência. Crie a ordem de transferência para o número do item L0101. Quantidade = 20.
 7.  Libere a ordem de transferência da bancada de planejamento de carga. Na guia **Remessa**, selecione o item de menu da bancada de planejamento de carga e no menu **Liberar** da linha de carga, selecione **Liberar para o depósito**. Uma linha de onda aberta do tipo **Transferência de saída** agora existe para a ordem de transferência.
 8.  Criar uma ordem de produção. Vá para a página **Ordem de produção**, e crie uma ordem de produção do produto L0101. Quantidade = 20. Estime e inicie a ordem de produção. Observe que o campo **Lançar lista de separação agora** permanece definido como **Não**.
-9.  Relate como concluído no dispositivo móvel. Vá para o portal do dispositivo móvel e selecione o item de menu **Relatar como concluído e armazenado**. Agora relate L0101 como acabado do dispositivo portátil. Observe a localização de armazenamento é **BAYDOOR**. Esta localização é encontrada na diretiva de localização **Transferência de saída** para o tipo de ordem de serviço **Armazenar**. Observe também que esse trabalho do tipo **Saída de transferência** foi criado e concluído. Vá para detalhes da ordem de transferência verifique o trabalho.
-10. Agora tente iniciar mais 20 peças na ordem de produção e tente reportar 20 como concluídas, usando o dispositivo portátil. Esse horário, local **LP-001** são sugeridos como localização de armazenamento. Esta localização é encontrada na diretiva da localização para **Armazenamento de mercadorias acabadas**. Esta diretiva de localização está sendo usada, pois não existe nenhuma oportunidade para distribuição integrada. A ordem de transferência para LP-001 foi totalmente atendida pela primeira atividade de distribuição integrada.
-
-O trabalho do tipo **Armazenamento de mercadorias acabadas** foi criado e processado.
+9.  Relate como concluído no dispositivo móvel. Vá para o portal do dispositivo móvel e selecione o item de menu **Relatar como concluído e armazenado**. Agora relate L0101 como acabado do dispositivo portátil. Quantidade = 10. Observe a localização de armazenamento é **BAYDOOR**. Esta localização é encontrada na diretiva de localização **Transferência de saída** para o tipo de ordem de serviço **Armazenar**. Observe também que esse trabalho do tipo **Saída de transferência** foi criado e concluído. Vá para detalhes da ordem de transferência verifique o trabalho.
+10. Agora relate 10 unidades adicionais do dispositivo móvel. Observe que a localização de armazenamento é novamente **BAYDOOR**. Observe também que um novo trabalho do tipo **Saída de transferência** foi criado para as 10 unidades.
+11. Agora tente iniciar mais 20 peças na ordem de produção e tente reportar 20 como concluídas, usando o dispositivo portátil. Esse horário, local **LP-001** são sugeridos como localização de armazenamento. Esta localização é encontrada na diretiva da localização para **Armazenamento de mercadorias acabadas**. Esta diretiva de localização está sendo usada, pois não existe nenhuma oportunidade para distribuição integrada. A ordem de transferência para LP-001 foi totalmente atendida pelas duas atividades de distribuição integrada nas etapas 9 e 10. Observe que o trabalho do tipo **Armazenamento de mercadorias acabadas** foi criado e processado.
 
 #### <a name="scenario-2---cross-docking-from-production-to-transfer-orders-with-an-appointment-schedule"></a>Cenário 2 - distribuição integrada de produção para ordens de transferência com uma agenda de compromisso
 
@@ -123,7 +122,7 @@ Após um produto ser relatado como concluído na linha de produção, ele será 
 
 ### <a name="additional-information"></a>Informações Adicionais
 
--   O cenário de distribuição integrada é suportado itens controlados por lote e série, com as dimensões de lote e número de série definidas na localização acima e abaixo na hierarquia de reserva.
+-   O cenário de distribuição integrada é suportado itens controlados por lote e série, com as dimensões de lote e número de série definidas na localização acima e abaixo na hierarquia de reserva. 
 
 
 

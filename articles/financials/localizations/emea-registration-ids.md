@@ -3,7 +3,7 @@ title: IDs de Registro
 description: "Este tópico fornece informações sobre configuração e uso das IDs de registro."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e85e1ef9bb27e3644264c898feb3a484c5b3ec3f
+ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
+ms.openlocfilehash: e908d4ec41263ed4230ea5e70fa08db793abedc6
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 
@@ -98,6 +98,12 @@ A tabela a seguir lista os tipos de registros suportados no Finance and Operatio
 | OGRN                                                          | Federação Russa| OGRN (OGRN do tipo legislativo em AX 2012 R3) |
 | SNILS                                                         | Federação Russa| SNILS (SNILS do tipo legislativo em AX 2012 R3)|
 | CIFTS                                                         | Federação Russa| CIFTS (CIFTS do tipo legislativo em AX 2012 R3)|
+| Passaporte                                                      | Espanha             | Passaporte|
+| Documento de identificação oficial                              | Espanha             | Documento de identificação oficial|
+| Certificado de residência                                         | Espanha             | Certificado de residência|
+| Outro documento de identificação                                 | Espanha             | Outro documento de identificação|
+| Sem censo                                                  | Espanha             | Não disponível no AX 2012 R3|
+
 
 Para obter mais informações sobre processamento de IDs de registro, incluindo os pré-requisitos obrigatórios, consulte os seguintes registros de tarefas para a ID do IVA no Lifecycle Services (LCS):
 

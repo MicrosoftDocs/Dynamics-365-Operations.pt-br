@@ -3,7 +3,7 @@ title: "Espaço de trabalho de fechamento do período financeiro"
 description: "Este artigo fornece uma visão geral do espaço de trabalho financeiro final do período e a configuração associada."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5dbefc953c0f1608b6f5b5676850a0e9aba36cc
+ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
+ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/29/2017
 
 ---
 
@@ -91,7 +91,8 @@ Você pode atribuir uma tarefa no modelo a uma ou mais empresas às quais essa t
 
 O item de menu **Link da tarefa** é associado ao compromisso de trabalho da tarefa e pode ser usado para ir diretamente à página associada no link da tarefa no espaço de trabalho. Por exemplo, uma tarefa de fechamento para executar o processo de reavaliação da moeda para contas a pagar pode ser vinculada à página associada **Reavaliação de moeda estrangeira** no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. É possível também vincular a um URL externo. 
 
-> [!Dica] Se você deseja vincular um relatório do Management reporter a uma tarefa de fechamento do período financeiro, é possível usar o URL do relatório. Para acessar a URL do relatório, abra o relatório no criador de relatórios e clique em **Arquivo** &gt; **Relatório de exibição** para abrir o relatório em um navegador. É possível copiar a URL na barra de endereços do navegador e colá-la no campo **URL** do **Link da tarefa**. 
+> [!TIP]
+> Se deseja vincular um relatório específico do Management Reporter a uma tarefa de fechamento do período financeiro, use a URL do relatório. Para acessar a URL do relatório, abra o relatório no criador de relatórios e clique em **Arquivo** &gt; **Relatório de exibição** para abrir o relatório em um navegador. É possível copiar a URL na barra de endereços do navegador e colá-la no campo **URL** do **Link da tarefa**. 
 
 É possível definir dependências de tarefa no modelo. Se uma tarefa foi configurada para depender de uma ou mais tarefas, essa tarefa não pode ser marcada como concluída até que todas as dependências sejam concluídas. 
 

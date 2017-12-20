@@ -3,7 +3,7 @@ title: "Área de trabalho móvel para aprovação de ordem de compra"
 description: "Este tópico fornece informações sobre a área de trabalho móvel de aprovação do pedido de compra, que permite visualizar pedidos e responder a eles através de ações. Por exemplo, você pode aprovar ou rejeitar uma ordem de compra."
 author: mkirknel
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 60744c2b90e64ac77155ba28cdc4fcf65fee1bb6
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 2108f7fd7ba7c24b172befc8d294faeeae4c101f
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -41,8 +41,8 @@ A área de trabalho móvel **Aprovação de ordem de compra** permite facilmente
 ## <a name="prerequisites"></a>Pré-requisitos
 Os pré-requisitos variam, dependendo da versão do Finanças e Operações que foi implantada para sua organização.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Finance and Operations, edição Enterprise (julho de 2017) 
-Se o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julho de 2017), foi implementado em sua organização, o administrador do sistema deve publicar o espaço de trabalho móvel **Aprovação de ordem de compra**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Pré-requisitos se você usa o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
+Se o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition foi implementado em sua organização, o administrador do sistema deve publicar o espaço de trabalho móvel **Aprovação de ordem de compra**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior
 Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior tiver sido implantado em sua organização, o administrador do sistema deve completar os seguintes pré-requisitos. 

@@ -3,7 +3,7 @@ title: "Conteúdo do Power BI Desempenho de depósito"
 description: "Este tópico descreve o que está incluído no conteúdo do Power BI Desempenho de depósito. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d30a14e78e35c94b9f8945d2fcc973f921698953
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ Os gerentes de estoque podem usar o conteúdo do Power BI **Desempenho de depós
 -   **Precisão do estoque do local** – a precisão do estoque é uma importante business intelligence (BI) do depósito interno. É muito importante determinar com quão precisamente você está realizando a contagem geral. No entanto, também é importante que você determine o quão preciso você é ao armazenar itens nos locais corretos e se você destaca dados de discrepância a fim de que seja possível achar posições melhores para os itens ou iniciar uma contagem total de itens específicos. (No momento, a nova funcionalidade de contagem baseada em item é fornecida como um hotfix.) Se estiver usando esse conteúdo do Power BI para determinar a exatidão dos dados de estoque disponível por local, também é possível identificar roubos nas lojas. Você também pode determinar se qualquer local possui quantidades disponíveis que diferem dos dados de ERP (planejamento de recursos empresariais). Esses locais podem ser muito grandes ou pode ser impossível contá-los. Como alternativa, alguns dos posicionamentos físicos podem ser ruins, motivo pelo qual é difícil manter um único tipo de item em sincronia com os dados disponíveis.
 
 ## <a name="accessing-the-power-bi-content-pack"></a>Acessando o pacote de conteúdo do Power BI
-Se você estiver usando o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julho de 2017), o conteúdo do Power BI **Desempenho de depósito** é mostrado na página **Desempenho de depósito** (**Gerenciamento de depósito** > **Consultas e relatórios** > **Análise de desempenho de depósito** > **Desempenho de depósito**). 
+O conteúdo do Power BI **Desempenho de depósito** é mostrado na página **Desempenho de depósito** (**Gerenciamento de depósito** > **Consultas e relatórios** > **Análise de desempenho de depósito** > **Desempenho de depósito**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
 O conteúdo do Power BI **Desempenho de depósito** inclui um relatório. Esse relatório consiste em um conjunto de métricas visualizadas, como gráficos, blocos e tabelas. A seguinte tabela fornece uma visão geral das visualizações no conteúdo do Power BI **Desempenho de depósito**.

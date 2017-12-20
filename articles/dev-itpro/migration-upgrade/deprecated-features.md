@@ -3,7 +3,7 @@ title: Recursos preteridos
 description: "Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção."
 author: sericks007
 manager: AnnBe
-ms.date: 10/23/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee051bbf50a6124fe1700a244b36b5f9c599e714
+ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
+ms.openlocfilehash: b0eb041ee1a4309b010e510e1f7428d6c930e4a0
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -490,8 +490,8 @@ As partições de dados fornecem uma divisão lógica de dados no banco de dados
 
 |   |   |
 |---|---|
-| **Motivo para a depreciação**       | Partições de dados foram introduzidas no Microsoft Dynamics AX 2012 R2 para habilitar isolamento de dados. Em um cenário comum, uma empresa tem subsidiárias e os dados de uma subsidiária não deverão ser visíveis a outra subsidiária, embora ambas as subsidiárias são gerenciadas pelo mesmo departamento de TI. No entanto, gerenciamento de sobrecarga em todo o programa e scripts extras eram necessários para criar novas partições e preenchê-las com dados e para fazer backup de dados de partição. Na nuvem, onde temos acesso a plataforma como um serviço (PaaS) de banco de dados de serviços (Microsoft Azure SQL Database), é muito mais eficiente usar um banco de dados como o contêiner de isolamento do que fazer isolamento no programa. Independentemente se o particionamento de dados é necessário para subsidiárias, para vários locatários ou apenas para escala, acreditamos que as situações podem ser tratadas melhor por vários bancos de dados ou várias instâncias do Dynamics AX. |
-| **Substituída por outro recurso?** | Partições de dados serão substituídas por meio do suporte a vários bancos de dados ou instâncias do Dynamics AX em uma versão futura.    |
+| **Motivo para a depreciação**       | Partições de dados foram introduzidas no Microsoft Dynamics AX 2012 R2 para habilitar isolamento de dados. Em um cenário comum, uma empresa tem subsidiárias e os dados de uma subsidiária não deverão ser visíveis a outra subsidiária, embora ambas as subsidiárias são gerenciadas pelo mesmo departamento de TI. No entanto, gerenciamento de sobrecarga em todo o programa e scripts extras eram necessários para criar novas partições e preenchê-las com dados e para fazer backup de dados de partição. Na nuvem, onde temos acesso a plataforma como um serviço (PaaS) de banco de dados de serviços (Microsoft Azure SQL Database), é muito mais eficiente usar um banco de dados como o contêiner de isolamento do que fazer isolamento no programa. Independentemente de o particionamento de dados ser necessário para subsidiárias, para vários locatários ou apenas para escala, acreditamos que as situações podem ser tratadas melhor por várias instâncias do Finance and Operations. |
+| **Substituída por outro recurso?** | Os clientes que usam partições de dados deverão usar várias instâncias do Finance and Operations se a separação no nível de banco de dados for um problema crítico.    |
 | **Módulos afetados**             | Todas  |
 
 ### <a name="database-and-file-share-storage-for-attachments"></a>Armazenamento de banco de dados e de compartilhamento de arquivos para anexos

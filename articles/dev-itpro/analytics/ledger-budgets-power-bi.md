@@ -3,7 +3,7 @@ title: "Conteúdo do Power BI real versus orçamento"
 description: "Este tópico descreve o Conteúdo do Power BI real versus orçamento. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo."
 author: ryansandness
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f09af96fb1c76d8737d2c535f1a46565a18deca0
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 2a0ad5af4e4d7da09690331dc9d1a51d2e97a664
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -35,7 +35,7 @@ Este tópico descreve o conteúdo do Microsoft Power BI **Real versus orçamento
 O conteúdo do Power BI **Real versus orçamento** foi criado para indivíduos responsáveis por monitorar o desempenho real versus o orçamento da organização. O conteúdo do Power BI **Real versus orçamento** oferece visibilidade sobre as variações de orçamento. Você pode analisar o orçamento do ano atual por categoria de conta, código de orçamento, conta principal, descrições de conta principal ou período fiscal para obter um melhor entendimento sobre a causa das variações. 
 
 # <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-Se estiver usando o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julho 2017), os relatórios de conteúdo do Power BI **Real versus orçamento** são exibidos nos espaços de trabalho do **Orçamento e previsões do razão** e **CFO**.
+Os relatórios do conteúdo do Power BI **Real versus orçamento** são exibidos nos espaços de trabalho **Orçamento e previsões do razão** e **CFO**.
 
 # <a name="reports-that-are-included-in-the-power-bi-content"></a>Relatórios incluídos no conteúdo do Power BI
 A tabela a seguir fornece detalhes sobre as métricas encontradas em cada página de relatório no conteúdo **Real versus orçamento** do Power BI.

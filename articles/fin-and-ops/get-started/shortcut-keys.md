@@ -3,7 +3,7 @@ title: Atalhos de teclado
 description: "Os atalhos de teclado a seguir são utilizados no Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: jasongre
 manager: AnnBe
-ms.date: 09/12/2017
+ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 39ffbe81c0cc9ecb3f91f791442bfd27231a0516
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -33,6 +33,10 @@ ms.lasthandoff: 11/03/2017
 Os atalhos de teclado a seguir são utilizados no Dynamics 365 for Finance and Operations, Enterprise Edition. 
 
 **Observação:** As teclas de atalho descritas aqui referem-se ao layout de teclado dos Estados Unidos. As teclas de outros layouts de teclado podem não corresponder exatamente às teclas do teclado dos EUA.
+
+## <a name="finding-a-shorcut"></a>Localizando um atalho
+A partir da atualização 11 da Plataforma, os usuários poderão descobrir atalhos disponíveis atualmente diretamente da interface do usuário. Basta clicar com o botão direito do mouse em um controle e selecione **Exibir atalhos**. Será aberta a caixa de diálogo que mostra os atalhos que você pode usar com base no local em que você está na página. 
+
 
 ## <a name="action-shortcuts"></a>Atalhos de ação
 |                                                   |                                  |
@@ -48,13 +52,14 @@ Os atalhos de teclado a seguir são utilizados no Dynamics 365 for Finance and O
 | Executar o botão padrão em um formulário/caixa de diálogo   | Alt+Enter                        |
 | Clicar em um botão ou um quadro                            | Enter ou Espaço                   |
 | Exibir informações de atualização para um bloco de contagem         | Alt+Seta para cima                     |
+| Exibir atalhos disponíveis atualmente                | Alt+Shift+K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Atalhos do seletor de data
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Para**                        | **Pressione**                                 |
 | Abrir o seletor de data                  | Alt+Seta para baixo                            |
-| Mover entre datas no seletor de data | Ctrl+Teclas de seta                               |
+| Mover entre datas no seletor de data | Ctrl+Teclas de seta                           |
 | Mover para o mês anterior/próximo       | Page Down / Page Up                       |
 | Mover para o ano anterior/próximo        | Ctrl+Shift+Page Down / Ctrl+Shift+Page Up |
 | Mover para hoje                         | Ctrl+Home                                 |
@@ -65,6 +70,7 @@ Os atalhos de teclado a seguir são utilizados no Dynamics 365 for Finance and O
 ## <a name="factbox-shortcuts"></a>Atalhos do Quadro de Fatos
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
+| **Para**                                                                  | **Pressione**                                 |
 | Abra o painel Quadro de Fatos (ou mova o foco para o painel do Quadro de Fatos, se ele já estiver aberto) | Alt+M,B ou Ctrl+F2                        |
 | Fechar o painel de Quadro de Fatos (com foco no painel de Quadro de Fatos)                         | Esc                                       |
 | Mover para o Quadro de Fatos anterior/próximo (com foco no painel do Quadro de Fatos)              | Alt+Shift+Seta para baixo/Alt+Shift+Seta para cima |

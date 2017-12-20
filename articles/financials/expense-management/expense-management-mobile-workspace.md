@@ -3,7 +3,7 @@ title: "Espaço de trabalho móvel de gerenciamento de despesas"
 description: "Este tópico fornece informações sobre o espaço de trabalho móvel Gerenciamento de despesas. Este espaço de trabalho permite que os usuários capturem e carreguem um recibo, para que possam anexá-lo a um relatório de despesas posteriormente. Os usuários também podem criar rapidamente uma linha de despesa usando um recibo anexado, além de criar e gerenciar seus relatórios de despesas."
 author: KimANelson
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4880c74047f53704f5f4d8efb19b6f8c6b04d479
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: bbbe37330e16a079b817dfe04f4a47f046263e88
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -46,7 +46,7 @@ Especificamente, o espaço de trabalho móvel **Gerenciamento de despesas** perm
 - Carregar um arquivo como um recibo capturado. Você poderá anexar esse arquivo a um relatório de despesas posteriormente.
 - Criar uma nova linha despesa usando um recibo anexado. Você poderá adicionar o item de linha a um relatório de despesas posteriormente, e enviá-lo para aprovação e reembolso.
 
-Se estiver usando o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julho de 2017), você também poderá usar estes recursos:
+Se estiver usando o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, você também poderá usar estes recursos:
 
 - Crie um novo relatório de despesas.
 - Anexe transações de cartão de crédito e outras despesas anteriormente criadas a um relatório de despesas.
@@ -60,8 +60,8 @@ Se estiver usando o Microsoft Dynamics 365 for Finance and Operations, Enterpris
 ## <a name="prerequisites"></a>Pré-requisitos
 Os pré-requisitos variam com base na versão do Microsoft Dynamics 365 implantada para sua organização.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Finance and Operations, edição Enterprise (julho de 2017) 
-Se o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julho de 2017), foi implementado em sua organização, o administrador do sistema deve publicar o espaço de trabalho móvel **Gerenciamento de despesas**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Pré-requisitos se você usa o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
+Se o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition tiver sido implantado em sua organização, o administrador do sistema deverá publicar o espaço de trabalho móvel **Gerenciamento de despesas**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior
 Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior tiver sido implantado em sua organização, o administrador do sistema deve completar os seguintes pré-requisitos. 

@@ -3,7 +3,7 @@ title: "Conteúdo do Power BI para desenvolvimento do funcionário"
 description: "Este tópico descreve o Conteúdo do Power BI para desenvolvimento do funcionário. Ele explica como acessar os relatórios e fornece informações sobre o modelo de dados e as entidades usadas para criar o conteúdo."
 author: jcart1106
 manager: AnnBe
-ms.date: 05/24/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c6a1125d56239f4370d6219a93988d50d402045e
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: f8ba7a968a1a5b376bac52106671607247f061d9
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -31,7 +31,7 @@ Este tópico descreve o conteúdo Microsoft Power BI para **Desenvolvimento do f
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
 
-Se estiver usando o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julho de 2017), você pode localizar o pacote de conteúdo de **Desenvolvimento do funcionário** na biblioteca de Ativos compartilhados do Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar pacote de conteúdo e conectá-lo aos seus dados, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md).
+Você pode encontrar o pacote de conteúdo do **Desenvolvimento do funcionário** na biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar pacote de conteúdo e conectá-lo aos seus dados, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md).
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Relatórios incluídos no conteúdo do Power BI
 Os relatórios incluídos no conteúdo de **Desenvolvimento do funcionário** do Power BI têm gráficos e tabelas que contêm informações adicionais. A tabela a seguir descreve os relatórios.

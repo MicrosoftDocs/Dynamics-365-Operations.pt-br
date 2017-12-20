@@ -1,6 +1,6 @@
 ---
 title: "Sincronização de ordens de venda diretamente entre o Sales e o Finance and Operations"
-description: "O tópico discute os modelos e as tarefas subjacentes que são usados na sincronização bidirecional de cabeçalhos e linhas de ordem de venda diretamente entre o Microsoft Dynamics 365 for Sales e o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "O tópico discute os modelos e as tarefas subjacentes que são usados para executar a sincronização de ordens de venda diretamente entre o Microsoft Dynamics 365 for Sales e o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/31/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 568c33a63efdc58a179dadcb617634dcf533fd4b
-ms.openlocfilehash: c31d65328250539fbe172f220272eec9d8b59bbf
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 11/13/2017
 
 [!include[banner](../includes/banner.md)]
 
-O tópico discute os modelos e as tarefas subjacentes que são usados na sincronização bidirecional de cabeçalhos e linhas de ordem de venda diretamente entre o Microsoft Dynamics 365 for Sales e o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+O tópico discute os modelos e as tarefas subjacentes que são usados para executar a sincronização de ordens de venda diretamente entre o Microsoft Dynamics 365 for Sales e o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
 
 ## <a name="templates-and-tasks"></a>Modelos e tarefas
 
 Para acessar os modelos disponíveis, abra o [Centro de administração de PowerApps](https://preview.admin.powerapps.com/dataintegration). Selecione **Projetos** e, no canto superior direito, selecione **Novo projeto** para selecionar modelos públicos.
 
-Os seguintes modelos e tarefas subjacentes são usados na sincronização bidirecional de cabeçalhos e linhas da ordem de venda diretamente entre o Sales e o Finance and Operations:
+Os seguintes modelos e as tarefas subjacentes são usados para executar sincronização de ordens de venda diretamente entre o Sales e o Finance and Operations
 
 - **Nomes dos modelos na Integração de dados:** 
 

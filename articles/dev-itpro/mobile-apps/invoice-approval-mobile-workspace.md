@@ -3,7 +3,7 @@ title: "Espaço de trabalho móvel para aprovações de fatura"
 description: "Este tópico fornece informações sobre a área de trabalho móvel de aprovações de fatura. Este espaço de trabalho fornece uma lista de faturas que foram atribuídas a você por meio do processo de fluxo de trabalho do cabeçalho da fatura de fornecedor."
 author: abruer
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: af673f076f684500b6ca84d04c01f7f773d65cd6
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 03179fdfd23e26250af92eb70d2ede710bd7007f
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ Antes de usar este espaço de trabalho móvel, os seguintes pré-requisitos deve
 </thead>
 <tbody>
 <tr class="odd">
-<td>O Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julho de 2017), deve ser implantado em sua organização.</td>
+<td>O Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition deve ser implantado em sua organização.</td>
 <td>Administrador do sistema</td>
 <td>Consulte <a href="../deployment/deploy-demo-environment.md">Implantar um ambiente de demonstração</a>.
 </td>
