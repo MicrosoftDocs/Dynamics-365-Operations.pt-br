@@ -1,15 +1,15 @@
 ---
 title: "Relatórios financeiros do Finance and Operations"
 description: "A emissão de relatórios financeiros do Finance and Operations permite que profissionais de finanças e negócios criem, mantenham, implementem e visualizem demonstrativos financeiros. Ela vai além das tradicionais restrições de emissão de relatórios para ajudá-lo a projetar com eficiência vários tipos de relatórios."
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d1e1ec9fff9f1a41fd8a219c9fbbf8a26ad3d7b6
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: b23883c1f66cda8a719db64a2f50e00605f6bfe9
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -33,6 +33,17 @@ ms.lasthandoff: 11/03/2017
 A emissão de relatórios financeiros do Finance and Operations permite que profissionais de finanças e negócios criem, mantenham, implementem e visualizem demonstrativos financeiros. Ela vai além das tradicionais restrições de emissão de relatórios para ajudá-lo a projetar com eficiência vários tipos de relatórios.
 
 A emissão de relatórios financeiros inclui o suporte de dimensão. Portanto, segmentos de conta ou dimensões estão imediatamente disponíveis. Não há ferramentas adicionais ou etapas de configuração necessárias.
+
+## <a name="financial-reporting-setup"></a>Configuração de relatórios financeiros
+A página **Configuração de relatórios financeiros** possui uma lista de todas as dimensões financeiras no sistema. **Contabilidade** > **Configuração do razão** > **Configuração de relatórios financeiros**. 
+
+A página **Configuração de relatórios financeiros** possui duas seções que determinam os dados que você relata no Relatório financeiro:
+
+•   **Guia Dimensões** - como empresas diferentes usam dimensões e estruturas de conta diferentes, não há como determinar a ordem em que os usuários desejam exibir todas as dimensões financeiras nos relatórios. Esta página permite definir a ordem na qual você deseja que as dimensões financeiras sejam exibidas ao criar e exibir um relatório no Relatório financeiro.
+
+•   **Guia Atributos** - é onde você pode selecionar se deseja a capacidade de usar **Fornecedores** e **Clientes** como atributos para filtragem e design de relatório. O relatório de Fornecedor e Cliente será valioso apenas se você não inserir vários fornecedores ou clientes em um único comprovante ao lançar transações. Escolher o Fornecedor e/ou o Cliente adicionará um tempo extra à integração.
+
+
 
 ## <a name="financial-reporting-components"></a>Componentes de relatórios financeiros
 Os componentes a seguir do relatório financeiro facilitam a criação, exibição e agendamento de relatórios.

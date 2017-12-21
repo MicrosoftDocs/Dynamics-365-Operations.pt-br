@@ -3,7 +3,7 @@ title: "Conteúdo Gerente de prática do Power BI"
 description: "Este tópico descreve o que está incluído no conteúdo Gerente de prática do Power BI. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo."
 author: KimANelson
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3462ef1bbde9a98ac6a7bc9a5c54e58ff98559c8
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 836997f9f5b146ff48252c3f06153791ec1aabed
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -39,7 +39,7 @@ O conteúdo **Gerente de prática** do Power BI contém cinco páginas de relat�
 Todos os valores no conteúdo são mostrados na moeda do sistema. Você pode definir a moeda do sistema na página **Parâmetros do sistema**.
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-Se estiver usando o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julho de 2017), o conteúdo do Power BI **Gerente de práticas** é mostrado no espaço de trabalho **Gerenciamento de projetos**.
+O conteúdo do **Gerente de prática** do Power BI é exibido no espaço de trabalho **Gerenciamento de projetos**.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Relatórios incluídos no conteúdo do Power BI
 

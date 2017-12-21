@@ -3,7 +3,7 @@ title: "Criar uma requisição para consumo"
 description: "Este procedimento apresenta o processo de criação de uma requisição."
 author: mkirknel
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 55ef4b1757a6f3c28c8575412d66488fda8608a5
+ms.sourcegitcommit: 7d8ca4e7eedea140f32e264c205b243027a06d03
+ms.openlocfilehash: d1ea95d0bc283297fcedaee730e1829850f07998
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 # <a name="create-a-requisition-for-consumption"></a>Criar uma requisição para consumo
@@ -87,9 +87,9 @@ Este procedimento apresenta o processo de criação de uma requisição. Mostra 
 2. Clique em Distribuir valores.
     * Este processo mostra como distribuir os custos da primeira linha entre 2 contas. Isso também pode ser feito mais tarde durante a revisão da requisição.  
 3. Clique em Separar para criar uma nova linha de distribuição.
-4. No campo Conta contábil, selecione o primeiro centro de custo que deverá receber parte do custo.
+4. No campo Conta contábil selecione o primeiro centro de custo que deve receber parte do custo.
 5. Selecione a outra linha de distribuição.
-6. No campo Conta contábil, especifique o outro centro de custo.
+6. No campo Conta contábil especifique o outro centro de custo.
 7. Clique em Distribuir igualmente.
 8. Feche a página.
 

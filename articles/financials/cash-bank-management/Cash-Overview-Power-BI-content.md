@@ -3,7 +3,7 @@ title: "Visão geral do conteúdo de caixa do Power BI"
 description: "Este tópico descreve a visão geral do conteúdo de caixa do Power BI. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo."
 author: saraschi2
 manager: AnnBe
-ms.date: 06/22/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fdcd3083f475967ec2e5f94dad850a1bf98c864a
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 8a3d12b3b0f71ea8b84b1618d9bb6bbc416e3b1d
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -35,7 +35,7 @@ O conteúdo **Visão geral do caixa** do Power BI foi criado para pessoas que s�
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
 
-Se estiver usando o Dynamics 365 for Finance and Operations, Enterprise Edition (julho de 2017), os relatórios do conteúdo da **Visão geral de caixa** do Power BI serão exibidos nos espaços de trabalho **Visão geral de caixa** e **Gerenciamento bancário**.
+Relatórios do conteúdo do Power BI para **Visão geral do caixa** são exibidos nos espaços de trabalho **Visão geral do caixa** e **Gerenciamento bancário**.
 
 Para exibir os relatórios de previsão de fluxo de caixa com dados, primeiro é preciso executar o processo de cálculo de previsão usando a função **Calcular previsões de fluxo de caixa** na área Gerenciamento de caixa e bancos.  Isso precisa ser concluído para cada empresa incluída na previsão.  Depois, é preciso atualizar a medida agregada LedgerCovLiquidityMeasurement na página **Repositório de Entidades**.  
 

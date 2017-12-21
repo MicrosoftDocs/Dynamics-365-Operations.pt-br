@@ -3,7 +3,7 @@ title: "Conteúdo de desempenho de lucratividade e vendas para Power BI"
 description: "Este tópico descreve o que está incluído no conteúdo do Power BI Desempenho de vendas e lucratividade. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3692b9be0fb93e0e2de743775a54bb9c9dbf5809
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: c065eb2f19bbbd553e070f06c29f73114e3efad5
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ A lucratividade pode ser analisado das seguintes formas:
 -   Lucratividade de cliente (por receita versus margem bruta)
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-Se você estiver usando o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julho de 2017), o conteúdo do Power BI **Desempenho de vendas e de lucratividade** é mostrado na página **Desempenho de vendas e de lucratividade** (**Vendas e marketing** > **Consultas e relatórios** > **Análise de desempenho de vendas** > **Desempenho de vendas e de lucratividade**). 
+O conteúdo do Power BI **Desempenho de vendas e de lucratividade** é mostrado na página **Desempenho de vendas e de lucratividade** (**Vendas e marketing** > **Consultas e relatórios** > **Análise de desempenho de venda** > **Desempenho de vendas e de lucratividade**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
 O conteúdo do Power BI **Desempenho de lucratividade e vendas** inclui um relatório que consiste em um conjunto de métricas. Estas métricas são visualizadas como gráficos, blocos e tabelas. A tabela a seguir fornece uma visão geral das visualizações no conteúdo.

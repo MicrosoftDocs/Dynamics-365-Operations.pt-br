@@ -3,7 +3,7 @@ title: "Comparação de recursos de nuvem e locais"
 description: "O tópico mostra quais recursos são suportados na Nuvem e locais."
 author: robinarh
 manager: AnnBe
-ms.date: 07/13/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,13 +15,13 @@ ms.custom: 89563
 ms.assetid: 
 ms.search.region: Global
 ms.author: robinr
-ms.search.validFrom: 2017-07-13
+ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: efe06929db414475f6457dfe49ff1791a3d609d5
+ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
+ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -59,6 +59,9 @@ As tabelas a seguir listam as áreas do produto. O suporte à nuvem e aos locais
 | | Integração com PowerBI.com| Sim | Não |
 | | Espaços de trabalho analíticos | Sim | Não |
 | | Processo de negócios do Intelligent: Recomendações| Sim | Não |
+| | Criação de relatórios do Power BI com OData usando as ferramentas da área de trabalho do Power BI ou do Power Query para Excel | Sim | Não |
+| | O SQL Server Reporting Services (SSRS) dá suporte à escala horizontal  | Sim | Não |
+| | A telemetria é transferida para a nuvem | Sim | Não |
 | Gerenciamento de estoque| | Sim | Sim |
 | Lifecycle Services| | Sim | Sim |
 | | Processos de negócios configuráveis | Sim | Não |
@@ -86,7 +89,7 @@ As tabelas a seguir listam as áreas do produto. O suporte à nuvem e aos locais
 | Gerenciamento de transporte| | Sim | Sim |
 | Colaboração do fornecedor| | Sim | Sim|
 | Gerenciamento de depósito| | Sim | Sim |
-| | Aplicativo móvel de depósito| Sim | Não |
+| | Aplicativo móvel de depósito| Sim | Sim |
 | | Relatórios de depósito do Power BI| Sim | Não |
 | Cliente web | | Sim | Sim |
 | | Gravador de tarefas - Salvar ou carregar gravações de tarefas da biblioteca de BPM| Sim | Não |
@@ -103,6 +106,7 @@ As tabelas a seguir listam as áreas do produto. O suporte à nuvem e aos locais
 | Compatibilidade de plataforma  || Sim | Sim |
 | Atendimento | | Sim | Sim |
 | | Ambientes de atendimento | Sim | Não |
+| Trace Parser e PerfTimer | | Sim | Não |
 | Atualizar | | Sim | Sim |
 | | Atualizar | Sim | Não |
 | | Atualização e suporte para versões anteriores | Sim | Não |
@@ -121,6 +125,8 @@ As tabelas a seguir listam as áreas do produto. O suporte à nuvem e aos locais
 |---|---|---|---|
 | Todas as áreas do Talent | Todos os recursos do Talent | Sim | Não |
 
+## <a name="see-also"></a>Consulte também
 
+- [Recursos não implementados em implantações locais](features-not-implemented-on-prem.md)
 
 

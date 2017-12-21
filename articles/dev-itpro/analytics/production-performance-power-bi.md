@@ -3,7 +3,7 @@ title: "Conteúdo do Power BI Desempenho de produção"
 description: "Este tópico descreve o que está incluído no conteúdo do Power BI Desempenho de produção. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: baa0343713e8f75e1c9637a903b9008db0968fd4
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ As variações de produção são calculadas como a diferença entre o custo est
 O conteúdo do Power BI **Desempenho de produção** contém dados que se originam de ordens de produção e de ordens de lotes. Os relatórios não incluem dados relacionados às produções de Kanban.
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-Se estiver usando o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julho 2017), o conteúdo do Power BI **Desempenho de produção** é mostrado na página **Desempenho de produção** (**Controle de produção** > **Consultas e relatórios** > **Análise de desempenho de produção** > **Desempenho de produção**). 
+O conteúdo do Power BI de **Desempenho de produção** é exibido na página **Desempenho de produção** (**Controle de produção** > **Consultas e relatórios** > **Teste de desempenho de produção** > **Desempenho de produção**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
 
