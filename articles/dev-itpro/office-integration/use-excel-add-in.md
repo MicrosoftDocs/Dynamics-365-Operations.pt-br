@@ -3,7 +3,7 @@ title: Utilizar o suplemento do Excel
 description: "Este tópico explica como abrir dados da entidade no Microsoft Excel, e então visualizar, atualizar e editar os dados usando o suplemento do Microsoft Dynamics Office para Excel."
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/27/2017
+ms.date: 11/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bf2607596993d01abaf5e8a66f14f8c091791d4a
-ms.openlocfilehash: b4151ca929d0dbe073c1a8444cf63a90ac74e20c
+ms.sourcegitcommit: 9b1f25f3630ad5126edd20c5508b83a9811a65f8
+ms.openlocfilehash: dd986d8f82c42c4e229e6e60bdfe8d15a273e149
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 11/07/2017
 
 ---
 
@@ -104,6 +104,18 @@ Você pode usar o criador para ajustar as colunas que são automaticamente adici
 
 4. Para aplicar suas alterações à fonte de dados, selecione **Atualizar**. Selecione **Concluído** para sair do designer.
 5. Se você adicionou um campo (coluna), selecione **Atualizar** para obter um conjunto de dados atualizados.
+
+## <a name="copy-environment-data"></a>Copiar dados do ambiente
+
+Os dados lidos na pasta de trabalho de um ambiente podem ser copiados para outro ambiente. Entretanto, você não pode apenas alterar a URL de conexão, pois o cache de dados na pasta de trabalho continuará a tratar os dados como dados existentes. Você deve usar a funcionalidade Copiar Dados do Ambiente para publicar os dados em um novo ambiente como novos dados.
+
+1. Selecione o botão **Opções** (o símbolo de engrenagem) e, na Guia Rápida **Conector de Dados**, selecione **Copiar Dados do Ambiente**. 
+2. Inserir a URL do servidor para o novo ambiente. 
+3. Selecionar **OK** e, depois, **Sim** para confirmar a ação. O suplemento do Excel é reiniciado e conectado ao novo ambiente. Todos os dados existentes na pasta de trabalho são tratados como dados novos.
+
+    Após o suplemento do Excel ser reiniciado, uma caixa de mensagem indica que a pasta de trabalho está no modo Cópia de ambiente.
+
+4. Para copiar os dados no novo ambiente como novos dados, selecione **Publicar**. Para cancelar a operação de cópia do ambiente e rever os dados existentes no novo ambiente, selecione **Atualizar**.
 
 ## <a name="troubleshooting"></a>Solução de problemas
 Existem alguns problemas que podem ser resolvidos através de algumas etapas simples.
