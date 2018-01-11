@@ -3,7 +3,7 @@ title: "Visão geral de orçamento"
 description: "Quase todas as companhias que usam a funcionalidade Finanças no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition precisarão ser capazes de criar relatórios de orçamento em comparação a reais. Este artigo explica a configuração mínima necessária para criar orçamentos no Finance and Operations, Enterprise edition ou carregá-los no programa de um terceiro."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

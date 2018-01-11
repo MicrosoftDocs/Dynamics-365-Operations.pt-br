@@ -3,7 +3,7 @@ title: "Visão geral do controle de orçamento"
 description: "Este artigo introduz o controle de orçamento e fornece informações para ajudá-lo na configuração do controle de orçamento no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition de forma que você possa gerenciar recursos financeiros."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
