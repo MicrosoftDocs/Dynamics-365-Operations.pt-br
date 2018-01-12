@@ -3,7 +3,7 @@ title: "Configurar carta de ordem de débito direto SEPA"
 description: "Um débito direto de SEPA (Área Única de Pagamentos em Euros) permite que um credor colete fundos da conta bancária de um cliente, desde que um mandato assinado tenha sido concedido pelo cliente ao credor."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

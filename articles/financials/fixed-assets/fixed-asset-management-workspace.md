@@ -3,7 +3,7 @@ title: "Espaço de trabalho de gerenciamento de ativos fixos"
 description: "Este tópico fornece informações sobre o Espaço de trabalho de gerenciamento de ativos fixos Este espaço de trabalho mostra informações relacionadas a ativos fixos inseridos no sistema. Inclui uma exibição resumida e uma exibição de análise."
 author: saraschi
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

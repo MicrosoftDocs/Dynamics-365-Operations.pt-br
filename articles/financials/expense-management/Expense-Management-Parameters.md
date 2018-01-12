@@ -3,7 +3,7 @@ title: "Parâmetros de gerenciamento de despesas"
 description: "Os parâmetros a seguir controlam o comportamento no Gerenciamento de despesas."
 author: KimANelson
 manager: AnnBe
-ms.date: 06/23/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
