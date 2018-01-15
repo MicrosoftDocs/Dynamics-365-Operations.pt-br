@@ -1,7 +1,7 @@
 ---
 title: Contratos de venda
 description: "Este tópico fornece informações sobre contratos de venda. Um contrato de venda é um contrato que confirma que o cliente pode comprar produtos em uma determinada quantidade ou valor por um período em troca de preços especiais e descontos."
-author: YuyuScheller
+author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: bis
 ms.search.scope: Core, Operations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81

@@ -1,7 +1,7 @@
 ---
 title: Prazos finais de entrada da ordem
 description: "Este artigo oferece informações sobre prazos finais de entrada de ordem. Um prazo final de entrada de ordem é uma hora de fechamento que determina se uma ordem do cliente será tratado (e atendida) como se tivesse sido recebida no dia atual ou no dia seguinte."
-author: YuyuScheller
+author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventOrderEntryDeadlineGroup, InventOrderEntryDeadlineParameters, InventOrderEntryDeadlineTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: bis
 ms.search.scope: Core, Operations
 ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f
