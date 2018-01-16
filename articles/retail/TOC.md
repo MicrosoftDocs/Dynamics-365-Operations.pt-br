@@ -37,19 +37,20 @@
 ## [Opções de pagamento](work-with-payments.md)
 
 # Configuração e gerenciamento de canal
-## [Inicializar dados semente em um ambiente de varejo](enable-configure-retail-functionality.md)
+## [Inicializar dados semente em um ambiente do Retail](enable-configure-retail-functionality.md)
 ## [Definir canais de varejo](define-maintain-retail-channels.md)
 ## [Visão geral de loja online](online-stores.md)
-## [Configurar e instalar uma estação de hardware de varejo](retail-hardware-station-configuration-installation.md)
+## [Configurar e instalar uma estação de hardware do Retail](retail-hardware-station-configuration-installation.md)
 ## [Horário e presença do Retail](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) e Cloud POS
-## [Operações de POS](POS-operations.md)
-## [Layouts de tela de dados de demonstração em MPOS/CPOS](demo-data.md)
+## [Escolha entre Modern POS e Cloud POS](MPOS-or-CPOS.md)
+## [Operações do POS](POS-operations.md)
+## [Layouts de tela de dados de demonstração no MPOS/CPOS](demo-data.md)
 ## Hardware e periféricos
-### [Visão geral de periféricos de varejo](retail-peripherals-overview.md)
+### [Visão geral de periféricos do Retail](retail-peripherals-overview.md)
 ### [Periféricos de hardware de POS testados pela Microsoft](microsoft-tested-pos-hardware-peripherals.md)
-### [Simulador de periférico para varejo](dev-itpro/retail-peripheral-simulator.md)
+### [Simulador de periférico do Retail](dev-itpro/retail-peripheral-simulator.md)
 ### [Definir e manter clientes de canal, registradoras e estações de hardware](define-maintain-channel-clients-registers-hw-stations.md)
 ## Layout da tela
 ### [Configurar layouts de tela do POS](pos-screen-layouts.md)
@@ -71,14 +72,19 @@
 ## Ativação de dispositivo
 ### [Configurar e instalar o MPOS](retail-modern-pos-device-activation.md)
 ### [Configurar logon estendido para Cloud POS e MPOS](extended-logon.md)
-### [Gerenciar contas e dispositivos de varejo nas sedes](set-up-activation-accounts-validate-devices-hq.md)
+### [Gerenciar contas e dispositivos do Retail nas sedes](set-up-activation-accounts-validate-devices-hq.md)
 ## Recibos
 ### [Configurar modelos de recibo](receipt-templates-printing.md) 
 ### [Enviar recibos por email do MPOS](email-receipts.md)
 ## [Gravador de tarefas e Ajuda para POS](task-recorder-retail-pos.md)
 
+# Cumprimento da ordem
+## [Visão geral de preenchimento da ordem de armazenamento](Order-fulfillment-overview.md)
+## [Configurar preenchimento no armazenamento](Order-fulfillment-POS-setup.md)
+## [Habilitar notificações de ponto de venda](Notifications-POS.md)
+
 # Monitoramento e análise
-## [Monitorar desempenho de vendas e de margem](monitor-sales-margin-performance.md)
+## [Monitorar desempenho de vendas e margem](monitor-sales-margin-performance.md)
 ## [Analisar tendências e padrões de vendas](analyze-sales-trends-patterns.md)
 ## [Avaliar o desempenho de vendas por produto](sales-performance-products.md)
 ## [Avaliar a lucratividade dos clientes e dos produtos](assess-customer-product-profitability.md)
@@ -93,7 +99,7 @@
 
 # Produtos e merchandising
 ## [Visão geral das informações do produto](../supply-chain/pim/product-information.md)
-## [Hierarquias de varejo](retail-hierarchies.md)
+## [Hierarquias do Retail](retail-hierarchies.md)
 ## [Criar e gerenciar atributos](create-manage-attributes.md)
 ## [Configurar produtos de varejo](set-up-retail-products.md)
 ## [Dimensões do produto](../supply-chain/pim/product-dimensions.md)
@@ -125,7 +131,7 @@
 ## [Organizar sua força de trabalho usando departamentos, trabalhos e posições](../talent/departments-jobs-positions.md)
 ## [Configurando os componentes de um trabalho](../talent/create-job.md)
 
-# Tarefas de varejo
+# Tarefas do Retail
 ## [Criar um produto](../supply-chain/pim/tasks/create-product.md)
 ## [Configurar produtos vinculados](../supply-chain/pim/tasks/configure-linked-products.md)
 ## [Liberar um produto/produto mestre para entidades legais](../supply-chain/pim/tasks/release-product-product-master-legal-entities.md)
@@ -140,7 +146,7 @@
 ## [ Criar, calcular e lançar uma declaração para uma loja de varejo](tasks/create-calculate-post-statement-retail-store.md)
 ## [ Criar ordens de call center](tasks/create-call-center-orders.md)
 ## [ Criar dimensões financeiras para registros de POS e configurar valores de dimensão em registros](tasks/create-financial-dimensions-pos.md)
-## [ Criar dimensões financeiras para canais de varejo e configurar valores de dimensão em lojas](tasks/create-financial-dimensions-retail-channels.md)
+## [ Criar dimensões financeiras para canais do Retail e configurar valores de dimensão em lojas](tasks/create-financial-dimensions-retail-channels.md)
 ## [ Criar canais online e definir atributos de canal](tasks/create-online-channel-define-channel-attributes.md)
 ## [ Criar grupos de permissões de POS](tasks/create-pos-permission-groups.md)
 ## [ Criar um perfil visual de POS ](tasks/create-pos-visual-profile-2016-02.md)
@@ -153,25 +159,25 @@
 ## [ Definir esquemas de fidelidade](tasks/define-loyalty-schemes.md)
 ## [ Criar os relacionamentos entre as unidades organizacionais](tasks/design-relationships-between-organizational-units.md)
 ## [ Gerenciar sortimentos ](tasks/manage-assortments-2016-11.md)
-## [ Configurações de parâmetro para obter demonstrativos de varejo](tasks/parameter-configurations-retail-statements.md)
-## [ Configurações de pagamento para obter demonstrativos de varejo](tasks/payment-configurations-retail-statements.md)
+## [ Configurações de parâmetro para obter demonstrativos do Retail](tasks/parameter-configurations-retail-statements.md)
+## [ Configurações de pagamento para obter demonstrativos do Retail](tasks/payment-configurations-retail-statements.md)
 ## [ Executar autoatendimento para baixar a estação de hardware](tasks/perform-self-service-download-hardware-station.md)
 ## [ Lançar vendas e pagamentos online](tasks/posting-online-sales-payments.md)
 ## [ Processar ajustes dos pontos de premiação de fidelidade](tasks/process-loyalty-reward-point-adjustments.md)
 ## [ Mover produtos do centro de distribuição para a loja usando a compra centralizada](tasks/push-products-distribution-center-store-buyers-push.md)
-## [ Ajustes de preço de varejo](tasks/retail-price-adjustments.md)
+## [ Ajustes de preço do Retail](tasks/retail-price-adjustments.md)
 ## [ Configurar e executar um trabalho para calcular demonstrativos](tasks/run-job-calculate-statements.md)
 ## [ Configurar e executar um trabalho para lançar demonstrativos](tasks/run-job-post-statements.md)
 ## [ Gerar e executar relatórios prontos para uso](tasks/run-out-box-reports.md)
 ## [ Configurar regras e parâmetros para a distribuição integrada e a compra centralizada](tasks/set-up-rules-parameters-cross-docking-buyers-push.md)
-## [ Configurações de loja para obter demonstrativos de varejo](tasks/store-configurations-retail-statements.md)
+## [ Configurações de loja para obter demonstrativos do Retail](tasks/store-configurations-retail-statements.md)
 ## [ Usar um programa de continuidade](tasks/use-continuity-program.md)
 ## [ Configurar um trabalhador](tasks/worker.md)
 
 # [Desenvolvimento e administração do Retail](dev-itpro/dev-retail-home-page.md)
 
 ## Arquitetura
-### [Componentes do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition - Retail](retail-components.md)
+### [Componentes do Microsoft Dynamics 365 for Finance and Operations, edição Enterprise - Retail](retail-components.md)
 ### [Arquitetura do Retail Server](dev-itpro/retail-server-architecture.md)
 ### [Comunicações de canal do Retail](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [Arquitetura do MPOS](dev-itpro/retail-modern-pos-architecture.md)
@@ -182,7 +188,7 @@
 ### [Visão geral do Retail Store Scale Unit](dev-itpro/retail-store-system-begin.md)
 ### [Instalação e configuração do Retail Store Scale Unit](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Configuração e instalação do Retail Modern POS](retail-modern-pos-device-activation.md)
-### [Gerenciamento de contas e dispositivos de varejo nas sedes](set-up-activation-accounts-validate-devices-hq.md)
+### [Gerenciamento de contas e dispositivos do Retail nas sedes](set-up-activation-accounts-validate-devices-hq.md)
 ### [Ativação de dispositivo do Retail POS](dev-itpro/retail-device-activation.md)
 ### [Retail Cloud POS seguro](dev-itpro/secure-retail-cloud-pos.md)
 ### [Configuração e instalação do Retail Hardware Station](retail-hardware-station-configuration-installation.md)
@@ -256,10 +262,12 @@
 ### [Executar exemplos do Retail POS](dev-itpro/pos-run-samples.md)
 ### [Estender exibições de POS existentes para adicionar colunas personalizadas e botões da barra de aplicativos](dev-itpro/pos-view-extension.md)
 ### [Adicionar controles personalizados a páginas de transação do Retail Modern POS](dev-itpro/pos-custom-transaction.md)
-### [Adicionar colunas personalizados a uma grade de transação POS](dev-itpro/pos-custom-transaction-column.md)
-### [Chamar uma API POS ou operação de uma extensão de POS](dev-itpro/pos-api-extension.md)
-### [Estender exibições de POS existentes para adicionar colunas personalizadas e botões da barra de aplicativos](dev-itpro/pos-view-extension.md)
+### [Adicionar colunas personalizadas a uma grade de transação do POS](dev-itpro/pos-custom-transaction-column.md)
+### [Chamar uma operação ou API POS de uma extensão do POS](dev-itpro/pos-api-extension.md)
 ### [Gatilhos e impressão do Retail Modern POS](dev-itpro/pos-trigger-printing.md)
+### [Adicionar um controle personalizado a uma exibição fora da tela com base no designer do Retail Modern POS](dev-itpro/pos-control-non-screen.md)
+### [Gerenciar o proxy do Retail para POS e comércio eletrônico](dev-itpro/pos-generate-retail-proxy.md)
+### [Etapas da configuração para desenvolvedores do Retail que trabalham em caixas de desenvolvimento hospedadas na nuvem](dev-itpro/cloud-dev-box.md)
 
 ## Commerce Runtime
 ### [Extensão de fidelidade](dev-itpro/retail-sdk/loyalty-extension-sample.md)
