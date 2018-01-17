@@ -1,6 +1,6 @@
 ---
 title: "Inteligência"
-description: "Este tópico indica os recursos que você poderá usar para aprender mais sobre as ferramentas de business intelligence e relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations, edição Enterprise."
+description: "Este tópico indica os recursos que você poderá usar para aprender mais sobre as ferramentas de business intelligence e relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
@@ -29,7 +29,7 @@ ms.lasthandoff: 12/18/2017
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico indica os recursos que você poderá usar para aprender mais sobre as ferramentas de BI (business intelligence) e relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations, edição Enterprise.
+Este tópico indica os recursos que você poderá usar para aprender mais sobre as ferramentas de BI (business intelligence) e relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 ## <a name="get-started"></a>Introdução
 - [Acesso a informações e relatório](information-access-reporting.md)
