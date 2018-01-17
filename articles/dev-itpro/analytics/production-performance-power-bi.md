@@ -3,7 +3,7 @@ title: "Conteúdo do Power BI Desempenho de produção"
 description: "Este tópico descreve o que está incluído no conteúdo do Power BI Desempenho de produção. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
 author: AndersGirke
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -59,15 +59,6 @@ A tabela a seguir fornece uma visão geral das visualizações incluídas.
 | Tendência de defeitos por recurso                  | Taxa de defeito (ppm) por quantidade processada | |
 | Variações de produção para os custos de ordem de produção | <ul><li>Variação de produção por data e tipo de grupo de custo</li><li>Variação de produção por site e tipo de grupo de custo</li><li>Os 10 melhores produtos com variação de produção desfavorável</li><li>As 10 principais variações de produção desfavoráveis por recurso</li></ul> | <ul><li>Custo realizado</li><li>Variação de produção</li><li>Variação de produção %</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>Aumentando o conteúdo do Power BI
-Usando os pacotes de conteúdo disponíveis no Microsoft Dynamics Lifecycle Services (LCS), você pode fornecer grande análise às pessoas que não acessam o Microsoft Dynamics 365. Você pode modificar esses pacotes de conteúdo para que eles incluam outros relatórios ou imagens e, em seguida, publique os pacotes de conteúdo no locatário do Power BI.com para análise.
-
-Você pode encontrar o conteúdo do Power BI **Desempenho de produção** na biblioteca de ativos compartilhados no LCS. Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md). Para ver uma demonstração que mostra como implementar o conteúdo do Power BI, veja o Office Mix [Conteúdo do Power BI da Microsoft e seus parceiros no Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).
-
-Certifique-se de baixar o conteúdo de **Desempenho de produção** que se aplica à versão do Dynamics 365 que você está usando.
-
-> [!NOTE]
-> Se você estiver usando o Microsoft Dynamics 365 for Operations versão 1611, o KB 4011327 é um pré-requisito para este conteúdo de Power BI. Depois de iniciar sessão no LCS, você pode acessar o KB em https://fix.lcs.dynamics.com/issue/results/?q=kb4011327.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 
@@ -139,12 +130,5 @@ A tabela a seguir mostra as dimensões-chave que são usadas como filtros para c
 | Recursos                 | ID do recurso, nome do recurso, tipo de recurso e grupo de recursos |
 | Produtos                  | Número do produto, nome do produto, identificação do item e grupo de itens         |
 
-## <a name="additional-resources"></a>Recursos adicionais
 
-Estes são alguns links úteis relacionados às entidades e ao desenvolvimento de conteúdo do Power BI:
-
-- [Entidades de dados](../data-entities/data-entities.md)
-- [Criando pacotes de conteúdo organizacionais](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
-- [Modelagem de dados por meio do Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [Adicionando blocos do Power BI aos espaços de trabalho](configure-power-bi-integration.md)
 

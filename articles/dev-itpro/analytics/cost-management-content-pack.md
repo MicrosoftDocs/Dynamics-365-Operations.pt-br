@@ -1,9 +1,9 @@
 ---
 title: "Conteúdo do BI Gerenciamento de custo"
-description: "Este tópico descreve o que está incluído no conteúdo do Power BI Gerenciamento de custo. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
+description: "Este tópico descreve o que está incluído no conteúdo do Power BI Gerenciamento de custo."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f509852f15b9518d0a01be1f89d4f07c76caf341
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico descreve o que está incluído no conteúdo do Power BI Gerenciamento de custo. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
+Este tópico descreve o que está incluído no conteúdo do Power BI Gerenciamento de custo. 
 
 # <a name="overview"></a>Visão Geral
 
@@ -51,8 +51,6 @@ O conteúdo do Microsoft Power BI **Gerenciamento de custo** destina-se a contad
 
 A fonte de dados primária para CostAggregatedCostStatementEntryEntity é a tabela CostStatementCache. Essa tabela é gerenciada pela estrutura de cache de conjunto de dados. Por padrão, ela é atualizada a cada 24 horas, mas você pode habilitar atualizações manuais na configuração de cache de dados. Depois você pode fazer uma atualização manual no espaço de trabalho **Gerenciamento de custo** ou **Análise de custo**. Depois que a atualização de CostStatementCache é executada, você deve atualizar a conexão OData em PowerBI.com para ver os dados atualizados no site. As medições de variação (compra, produção) no conteúdo do Power BI pertencem apenas a itens avaliados pelo método de estoque de custo padrão. A variação de produção é calculada como a diferença entre os custos ativos e os realizados. A variação de produção é calculada quando a ordem de produção possui um status de **Concluída**. Para obter mais informações sobre tipos de variação de produção e como cada tipo é calculado, consulte [Sobre a análise de variações para uma ordem de produção concluída](https://technet.microsoft.com/en-us/library/gg242850.aspx).
 
-## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-O conteúdo do Power BI de **Gerenciamento de custo** está disponível em PowerBI.com. Para obter mais informações sobre como conectar e carregar os dados do Microsoft Dynamics 365 for Finance and Operations, consulte [Acessar conteúdo do Power BI do PowerBI.com](power-bi-home-page.md).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
 O conteúdo inclui um conjunto de páginas de relatório. Cada página consiste em um conjunto de métricas visualizadas, como gráficos, blocos e tabelas. A seguinte tabela fornece uma visão geral das visualizações no conteúdo do Power BI **Gerenciamento de custo**.
@@ -136,13 +134,6 @@ As principais dimensões a seguir são usadas como filtros para cortar as medida
 | Razões          | Moeda, nome, descrição                  |
 | Locais            | ID, nome, país, cidade                      |
 
-## <a name="additional-resources"></a>Recursos adicionais
-Estes são alguns links úteis relacionados às entidades e ao desenvolvimento de conteúdo do Power BI:
-
--   [Entidades de dados](..\data-entities\data-entities.md)
--   [Criando pacotes de conteúdo organizacionais](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [Modelagem de dados por meio do Power BI](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [Adicionando blocos do Power BI aos espaços de trabalho](configure-power-bi-integration.md)
 
 
 

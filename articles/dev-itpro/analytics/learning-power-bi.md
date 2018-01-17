@@ -1,9 +1,9 @@
 ---
 title: "Conteúdo de Aprendizagem do Power BI"
-description: "Este tópico descreve o conteúdo de Aprendizagem do Power BI. Ele explica como acessar os relatórios e fornece informações sobre o modelo de dados e as entidades usadas para criar o conteúdo."
+description: "Este tópico descreve o conteúdo de Aprendizagem do Power BI."
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: bb4a2d6d725f79fe3f095a37b8a37d47339a7966
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e5a78812aabaa5c835fe23787a9cbb57d1a7770e
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -27,11 +27,7 @@ ms.lasthandoff: 12/01/2017
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico descreve o conteúdo de **Aprendizagem** do Microsoft Power BI. Ele explica como acessar o conteúdo e descreve o modelo de dados e entidades usados para criar o conteúdo.
-
-## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-
-Você pode encontrar o conteúdo de **Aprendizagem** do Power BI na biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md). Para ver uma demonstração que mostra como implementar o conteúdo do Power BI, veja o Office Mix [Conteúdo do Power BI da Microsoft e seus parceiros no Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).
+Este tópico descreve o conteúdo de **Aprendizagem** do Microsoft Power BI.
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Relatórios incluídos no conteúdo do Power BI
 
@@ -69,5 +65,5 @@ Os dados a seguir são utilizados para preencher os relatórios no conteúdo de 
 | Nome do Funcionário    | Nome, sobrenome e nome completo                             | Participantes do curso |
 | Cargo do funcionário   | Título e data de tempo de serviço                                         | Participantes do curso |
 
-Essas entidades foram usadas para criar medidas calculadas no modelo de dados. Essas medidas calculadas são então usadas para calcular os KPIs (indicadores chave de desempenho) e os relatórios usados no conteúdo. Se quiser incluir cálculos adicionais nos seus relatórios e painel, você pode baixar e modificar o arquivo .pbix no LCS. Esse arquivo é o modelo de dados padrão usado para criar o conteúdo. Após a realização de modificações, poderá criar um painel e pacote de conteúdo organizacional contendo as informações adicionadas.
+
 

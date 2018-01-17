@@ -3,7 +3,7 @@ title: Atalhos de teclado
 description: "Os atalhos de teclado a seguir são utilizados no Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: jasongre
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 12/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ Os atalhos de teclado a seguir são utilizados no Dynamics 365 for Finance and O
 
 **Observação:** As teclas de atalho descritas aqui referem-se ao layout de teclado dos Estados Unidos. As teclas de outros layouts de teclado podem não corresponder exatamente às teclas do teclado dos EUA.
 
-## <a name="finding-a-shorcut"></a>Localizando um atalho
+## <a name="finding-a-shortcut"></a>Localizando um atalho
 A partir da atualização 11 da Plataforma, os usuários poderão descobrir atalhos disponíveis atualmente diretamente da interface do usuário. Basta clicar com o botão direito do mouse em um controle e selecione **Exibir atalhos**. Será aberta a caixa de diálogo que mostra os atalhos que você pode usar com base no local em que você está na página. 
 
 
@@ -143,6 +143,9 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Mover para o primeiro registro                                                                                               | Ctrl+Home                       |
 | Mover para o último registro                                                                                                | Ctrl+End                        |
 | Executar a ação padrão em uma grade<br><br>**Observação:** este atalho é habilitado quando o foco estiver em uma célula que contém um hiperlink e todas as células nessa coluna tiverem hiperlinks.                 | Inserir                           |
+| Alterna o foco entre a linha selecionada e a linha do cabeçalho                                                               | Alt+Shift+H                     |
+| Torna a coluna atual maior/menor (com foco na linha do cabeçalho)                                                  | Seta para a direita/Seta para esquerda        |
+| Abrir a filtragem de grade para a coluna atual (com foco na linha do cabeçalho)                                              | Inserir                           |
 
 ## <a name="input-control-shortcuts"></a>Atalhos do controle de entrada
 |                                                                              |                               |

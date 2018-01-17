@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: robinr
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b744a895bbd494212c4c388362dd7290207af938
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 Este tópico explica o que são o gravador de tarefas e os guias de tarefas, como criar gravações de tarefas e como personalizar guias de tarefas da Microsoft e incluí-los na sua Ajuda.
 
 > [!IMPORTANT]
-> Não é possível criar guias de tarefas personalizadas para o Dynamics 365 for Talent. O sistema de Ajuda do Talent é automaticamente conectado às guias de tarefas do produto. 
+> Você pode registrar suas próprias guias de tarefa para o Dynamics 365 for Talent, mas você não pode salvá-las em uma biblioteca BPM (Modelador de Processo de Negócios) ou abri-las no painel Ajuda neste momento. Você pode salvá-las localmente ou em um local da rede e, em seguida, abrir e repeti-las usando o Gravador de tarefas. 
 
 <a name="learn-about-task-recorder"></a>Aprender sobre o Gravador de tarefas
 -------------------------
@@ -42,7 +42,7 @@ O gravador de tarefas é uma ferramenta que você pode usar para gravar ações 
 
 -   **Gravações de tarefas podem ser executadas como guias de tarefas.** As guias de tarefas são parte integrante da experiência de ajuda. Um guia de tarefas é uma experiência controlada, guiada e interativa através das etapas de um processo de negócios. O usuário é instruído na conclusão de cada etapa por meio de um lembrete pop-up (ou "bolha"), que será animado ao longo da UI e irá apontar para o elemento com o qual o usuário deve interagir. A "bolha" também fornece informações sobre como interagir com o elemento, como "Clique aqui" ou "Neste campo, insira um valor Um guia de tarefas é executado no conjunto de dados atual do usuário e os dados inseridos são salvos no ambiente do usuário.
 -   **Gravações de tarefas podem ser exibidas como etapas de procedimento no painel de ajuda.** Você pode usar o painel de ajuda para pesquisar e exibir gravações de tarefas. Você pode acessar o painel de Ajuda clicando em **?** ícone na barra de navegação superior ou você pode usar a combinação de teclas de atalho **Ctrl+Shift+?**. Você pode ler as etapas de uma gravação de tarefa no painel de ajuda, ou você pode optar por executar a gravação como um guia de tarefa para que ele te apresente a UI.
--   **Gravações de tarefas podem ser salvas no BPM.** Você pode salvar sua gravação de tarefa à uma linha de uma hierarquia em uma biblioteca do Modelador de Processo de Negócios (BPM) em Lifecycle Services (LCS). Uma lista de etapas e um fluxograma do processo comercial serão gerados a partir da gravação. As gravações de tarefas que foram salvas em uma biblioteca BPM podem ser exibidas como Ajuda.
+-   **Gravações de tarefas podem ser salvas no BPM.** É possível salvar sua gravação de tarefa em uma linha de uma hierarquia em uma biblioteca do BPM no LCS (Lifecycle Services). Uma lista de etapas e um fluxograma do processo comercial serão gerados a partir da gravação. As gravações de tarefas que foram salvas em uma biblioteca BPM podem ser exibidas como Ajuda.
 -   **Gravações de tarefas podem ser salvas como documentos do Word.** Isso permite que você produza facilmente guias de treinamento imprimíveis.
 
 Você pode criar suas próprias gravações de tarefas, executar gravações de tarefas disponibilizadas pela Microsoft ou modificá-las para refletir a sua configuração. Para obter mais informações sobre o gravador de tarefas, consulte [Gravador de tarefas](task-recorder.md).

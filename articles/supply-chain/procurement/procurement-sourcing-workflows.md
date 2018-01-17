@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3bf244786e308ebcaee27a16fae378f41086f963
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -44,10 +44,11 @@ Os tipos de fluxo de trabalho a seguir estão disponíveis para Compras.
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
 | **Tipo**                         | **Use este tipo para**                                          |
-| Revisão da requisição de compra      | Criar fluxos de trabalho de revisão para requisições de compra.            |
-| Revisão de linha de requisição de compra | Criar fluxos de trabalho de revisão para linhas de requisição de compra.       |
+| Revisão da requisição de compra      | Criar fluxos de trabalho de aprovação e revisão para requisições de compra.            |
+| Revisão de linha de requisição de compra | Criar fluxos de trabalho de revisão e aprovação para linhas de requisição de compra.       |
 | Fluxo de trabalho da ordem de compra          | Criar fluxos de trabalho de revisão e aprovação para ordens de compra.     |
 | Fluxo de trabalho da linha da ordem de compra     | Criar fluxos de trabalho de revisão e aprovação para linhas de ordens de compra. |
+| Fluxo de trabalho da solicitação de emprego adicionada pelo fornecedor  | Criar fluxos de trabalho da revisão e de aprovação para adicionar novos fornecedores por meio de solicitações de fornecedor. |
 
 ## <a name="creating-a-workflow"></a>Criação de um fluxo de trabalho
 Para criar um fluxo de trabalho, vá para Compras &gt; Configuração &gt; Fluxos de trabalho de compras e crie um novo fluxo de trabalho ao selecionar o tipo de fluxo de trabalho que deseja criar.  
@@ -75,6 +76,6 @@ Você pode atribuir uma etapa de aprovação aos grupos de participantes a segui
 
 [Fluxo de trabalho de requisição de compra](purchase-requisitions-workflow.md)
 
-
+[Integração de fornecedores](vendor-onboarding.md)
 
 

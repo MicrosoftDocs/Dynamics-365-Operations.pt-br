@@ -3,23 +3,23 @@ title: "Visão geral do conteúdo de caixa do Power BI"
 description: "Este tópico descreve a visão geral do conteúdo de caixa do Power BI. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo."
 author: saraschi2
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 8a3d12b3b0f71ea8b84b1618d9bb6bbc416e3b1d
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 5d02a009ca988f91a212e467d4f9784248bbae76
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -53,10 +53,6 @@ A tabela a seguir fornece detalhes sobre as métricas encontradas em cada págin
 | Previsão atual                     | <ul><li>Saldos da moeda previstos</li><li>Resumo diário de moeda</li><li>Detalhes de previsão</li></ul> |
 | Saldos bancários                         | <ul><li>Saldo bancário total na moeda do sistema</li><li>Saldo por entidade legal</li><li>Saldo real de hoje vs previsto na moeda da conta bancária</li><li>Saldo por conta bancária</li><li>Saldo por moeda</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>Aumentando o conteúdo do Power BI
-Você pode fornecer grandes análises àqueles que não entram no Dynamics 365 usando os pacotes de conteúdo disponíveis no Lifecycle Services (LCS). Estes pacotes de conteúdo podem ser modificados para incluir outros relatórios ou visuais, em seguida, publicados em seu locatário do Power BI.com para análise. 
-
-Você pode localizar o conteúdo **Visão geral do Caixa** do Power BI na biblioteca de ativos compartilhados do LCS. Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](../../dev-itpro/analytics/power-bi-content-microsoft-partners.md). Para ver uma demonstração que mostra como implementar o conteúdo do Power BI, veja o Office Mix [Conteúdo do Power BI da Microsoft e seus parceiros no Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 
@@ -72,6 +68,5 @@ A seguinte tabela mostra as entidades nas quais o conteúdo **Visão geral de ca
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | Entradas, saídas e saldo resumido usando a moeda do sistema de todas as empresas |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | Valor da transação e saldo de moeda líquida resumidos usando a moeda da transação |
 
-Essas entidades foram usadas para criar medidas calculadas no modelo de dados. Essas medidas calculadas são então usadas para calcular os gráficos e relatórios usados no conteúdo **Visão geral de caixa** do Power BI. Para incluir cálculos adicionais nos seus relatórios e painel, você pode baixar e modificar o arquivo do Power BI do LCS. Esse arquivo é o modelo de dados padrão usado para criar o conteúdo. Após a realização de modificações, poderá criar painéis e pacote de conteúdo organizacional contendo as informações adicionadas.
 
 
