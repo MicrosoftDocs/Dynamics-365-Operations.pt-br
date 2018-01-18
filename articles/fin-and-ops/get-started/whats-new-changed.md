@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
-ms.openlocfilehash: 7c99869b70d8b564da859ce2b19ccfff927141b2
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: f3f6690d661ca30b5f3a9dacc75f7b8c6ec36e24
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,8 +34,6 @@ Essa página indica tópicos que podem ajudar você a conhecer os novos recursos
 
 Para obter informações sobre como fazer a atualização para a versão mais recente, consulte [Processo de instalação da última atualização](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
-> [!NOTE]
-> O Dynamics 365 for Operations (local) está sendo renomeado. Você verá Dynamics 365 for Operations (local) mencionado nos guias de comunicações e de licenciamento. O nome que você verá quando implantar o produto será Dynamics 365 for Finance and Operations, edição Enterprise. Ambos os nomes fazem referência ao mesmo produto.
 
 ## <a name="application-releases"></a>Versões do aplicativo
 
@@ -60,6 +58,13 @@ Para obter informações sobre como fazer a atualização para a versão mais re
 <tr class="even">
 
 </tr>
+<tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
+<td>7.3</td>
+<td>7.3.11971.56116</td>
+<td>2017 de dezembro</td>
+<td><a href="whats-new-application-7.3-update.md">O que há de novo ou diferente no Dynamics 365 for Finance and Operations, Enterprise Edition 7.3</a></td>
+</tr></tr>
 <tr class="even">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Julho de 2017</td>

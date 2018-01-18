@@ -1,9 +1,9 @@
 ---
 title: "Inteligência"
-description: "Este tópico indica os recursos que você poderá usar para aprender mais sobre as ferramentas de business intelligence e relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Este tópico indica os recursos que você poderá usar para aprender mais sobre as ferramentas de business intelligence e relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
 author: sericks007
 manager: AnnBe
-ms.date: 09/07/2017
+ms.date: 12/18/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico indica os recursos que você poderá usar para aprender mais sobre as ferramentas de BI (business intelligence) e relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+Este tópico indica os recursos que você poderá usar para aprender mais sobre as ferramentas de BI (business intelligence) e relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
 
 ## <a name="get-started"></a>Introdução
 - [Acesso a informações e relatório](information-access-reporting.md)
@@ -48,7 +48,6 @@ Os usuários podem interagir com os dados clicando ou tocando em recursos visuai
  - [Power BI Embedded em espaços de trabalho](embed-power-bi-workspaces.md)
  - [Integração do Power BI Embedded](power-bi-embedded-integration.md)
  - [Adicionar análise a espaços de trabalho usando o Power BI Embedded](add-analytics-tab-workspaces.md)
- - [Publicar aplicativos analíticos no Power BI](publish-apps-powerbi.md)
  - [Ajudar a proteger espaços de trabalho analíticos e relatórios usando o Power BI Embedded](secure-analytical-workspaces.md)
  - [Conteúdo do Power BI para o Finance and Operations](power-bi-home-page.md)
 
@@ -59,7 +58,7 @@ As soluções de relatório são frequentemente usadas para capturar e comunicar
 
 Para saber mais, consulte os seguintes tópicos:
 
-- [Visão geral dos Serviços de Relatório de Documento](document-reporting-services.md)
+- [Visão geral dos Document Reporting Services](document-reporting-services.md)
 - [Impressão em aplicativos do Finance and Operations](print-documents.md)
 - [Instalar o Agente de Roteamento de Documentos para habilitar dispositivos de impressora de rede](install-document-routing-agent.md)
 
@@ -88,10 +87,7 @@ Para saber mais, consulte os seguintes tópicos:
 ## <a name="technical-reference-reports"></a>Relatórios de referência técnica
 Os seguintes relatórios fornecem informações de referência sobre os objetos no Finance and Operations:
 
-- [Relatório de entidades de dados agregadas](aggregate-data-entities-report.md)
-- [Relatório de medidas agregadas](aggregate-measurements-report.md)
 - [Relatório de entidades de dados](../data-entities/data-entities-report.md)
-- [Relatório de KPIs (indicadores chave de desempenho)](key-performance-indicators-report.md)
 - [Relatório de códigos de licença e chaves de configuração](../sysadmin/license-codes-configuration-keys-report.md)
 - [Relatório de relatórios do SQL Server Reporting Services](SSRS-report.md)
 - [Relatório de tipos de fluxo de trabalho](../../fin-and-ops/organization-administration/workflow-types-report.md)

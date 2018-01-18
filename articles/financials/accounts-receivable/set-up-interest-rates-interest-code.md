@@ -3,11 +3,12 @@ title: "Configurar taxas de juros para um código de juros"
 description: "Os códigos de juros contêm configurações que determinam quando os juros são cobrados e como são calculados em contas vencidas."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: Interest
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

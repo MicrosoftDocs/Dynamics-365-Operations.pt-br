@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 02d777da3b97706f9e63478a1978ac9b230a591e
+ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
+ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -104,6 +104,7 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 521 | Saldo de pontos do cartão-fidelidade | Mostrar o saldo dos pontos para o cartão-fidelidade especificado. | Sim | Sim | Não | Não | Não |
 | 914 | Minimizar janela do POS | Esta operação não tem suporte. | Não Aplicável | Não Aplicável | Não Aplicável | Não Aplicável | Não |
 | 1000 | Abrir Gaveta | Executar uma operação “sem venda" e abrir a gaveta do caixa atualmente selecionada. | Sim | Sim | Sim | Sim | Não |
+| 928 | Cumprimento da ordem | Esta operação permite que os usuários escolham, embalem, enviem, ou cancelem ordens para retirada do armazenamento. | Sim | Sim | Sim | Não | Não |
 | 129 | Substituir imposto do produto de linha | Substituir o imposto sobre o item de linha selecionado e usar outro imposto especificado. | Sim | Sim | Não | Sim | Não |
 | 130 | Substituir imposto do produto de linha na lista | Substituir o imposto sobre o item de linha selecionado e usar o imposto que o usuário selecionar em uma lista. | Sim | Sim | Não | Sim | Não |
 | 127 | Substituir imposto da transação | Substituir o imposto sobre a transação e usar outro imposto especificado. | Sim | Sim | Não | Sim | Não |

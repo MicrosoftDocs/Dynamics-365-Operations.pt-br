@@ -3,7 +3,7 @@ title: "Redefinir o data mart de relatórios Financeiros"
 description: "Este tópico descreve como redefinir o data mart de relatórios financeiros."
 author: aolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: aloson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0786d3377b914791106ef30455d676e5ab2ae03d
-ms.openlocfilehash: c708fa18b8676d8ff57c26b3176a36d86df29387
+ms.sourcegitcommit: 5b956dcc5a4a93033396ae0ffcf8b7aeba2cf3f2
+ms.openlocfilehash: a07e8b5bae2c4f71e9212cd2f8080d2481769818
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/07/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ Este tópico explica como redefinir data mart de relatórios financeiros para as
 - Microsoft Dynamics 365 for Finance and Operations: versão 7.0.10000.4 e posterior de relatórios financeiros
 - Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (local)
 
-Para obter a versão 7.2.6.0 de relatórios financeiros do Finance and Operations, você pode fazer download do KB 4052514 de <https://support.microsoft.com/en-us/help/4052514>.
+Para obter a versão 7.2.6.0 de relatórios financeiros do Finance and Operations, você pode fazer download do KB 4052514 em <https://fix.lcs.dynamics.com/Issue/Resolved?kb=4052514>.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-7260-and-later"></a>Redefinir o data mart de relatórios financeiros da versão 7.2.6.0 e posterior de relatórios financeiros do Finance and Operations
 
@@ -55,7 +55,7 @@ A redefinição de data mart deve ser feita somente durante momentos em que o va
 
 Para redefinir o data mart, no designer de Relatório, no menu **Ferramentas**, selecione **Redefinir Data Mart**. A caixa de diálogo que aparece tem duas seções: **Estatística** e **Redefinir**.
 
-[![Caixa de diálogo Redefinir Data Mart](./media/Statistics.png)](./media/Statistics.png)
+[![Caixa de diálogo Redefinir Data Mart](./media/Reset-72.jpg)](./media/Reset-72.jpg)
 
 ##### <a name="integration-attempts"></a>Tentativas de integração
 
@@ -83,8 +83,10 @@ Se você determinar que uma redefinição do data mart é necessária, marque a 
 - **Restaurar banco de dados** – O banco de dados do Finance and Operations foi restaurado, mas o banco de dados do data mart não foi.
 - **Outro** – Você está redefinindo o data mart por outro motivo. Se você acha que há um problema, entre em contato com o suporte para identificá-lo.
 
+[![Redefinir data mart](./media/Integration.png)](./media/Integration.png)
+
 > [!NOTE]
-> Verifique se todas as tarefas existentes finalizaram a integração antes de concluir as etapas. Você pode exibir o status da integração selecionando **Ferramentas** &gt; **Status de integração**.
+> Verifique se todas as tarefas de redefinição do data mart concluíram uma carga inicial antes de iniciar uma redefinição. Você pode confirmar isso procurando um valor na coluna Última Execução, selecionando **Ferramentas** &gt; **Status de Integração**.
 
 #### <a name="clear-users-and-companies"></a>Limpar usuários e empresas
 
@@ -94,7 +96,10 @@ Quando estiver pronto para iniciar o processo de redefinição, selecione **OK**
 
 Se quiser revisar o status de integração, selecione **Ferramentas** &gt; **Status de integração** para ver a última vez que a integração e o status foram executados.
 
-[![Exiba o status da integração](./media/Integration.png)](./media/Integration.png)
+[![Exiba o status da integração](./media/New-integration.PNG)](./media/New-integration.PNG)
+
+> [!NOTE]
+> A redefinição é finalizada quando todos os mapeamentos mostram o status RanToCompletion e a janela Status de Integração mostra "Integração concluída" no canto inferior esquerdo.
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-70100004-and-later"></a>Redefinir o data mart de relatórios financeiros da versão 7.0.10000.4 e posterior de relatórios financeiros do Finance and Operations
 
@@ -142,7 +147,9 @@ Os seguintes serviços do Microsoft Windows terão conexões abertas com o banco
 
 #### <a name="download-the-latest-minorversiondataupgradezip-package"></a>Baixar o pacote MinorVersionDataUpgrade.zip mais recente
 
-Baixar o pacote MinorVersionDataUpgrade.zip mais recente. Para obter instruções sobre como encontrar e baixar a versão correta do pacote de atualização de dados, consulte[Baixar o pacote implantável de atualização de dados mais recente](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages). Uma atualização não é necessária para baixar o pacote MinorVersionDataUpgrade.zip. Portanto, você apenas tem que seguir as etapas na seção "Baixar o pacote implantável de atualização de dados mais recente" desse tópico. Você pode ignorar todas as outras etapas do tópico.
+Baixar o pacote MinorVersionDataUpgrade.zip mais recente. Para obter instruções sobre como encontrar e baixar a versão correta do pacote de atualização de dados, consulte[Baixar o pacote implantável de atualização de dados mais recente](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package). 
+
+Uma atualização não é necessária para baixar o pacote MinorVersionDataUpgrade.zip. Portanto, você apenas tem que seguir as etapas na seção "Baixar o pacote implantável de atualização de dados mais recente" desse tópico. Você pode ignorar todas as outras etapas do tópico.
 
 #### <a name="run-scripts-against-the-finance-and-operations-database"></a>Executar scripts no banco de dados do Finance and Operations
 

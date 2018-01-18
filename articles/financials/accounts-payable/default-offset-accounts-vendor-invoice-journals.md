@@ -3,11 +3,12 @@ title: "Contrapartidas padrão para diários de faturas de fornecedor e diários
 description: "Este tópico ajudará você a decidir onde deve atribuir contas padrão para diários de fatura."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

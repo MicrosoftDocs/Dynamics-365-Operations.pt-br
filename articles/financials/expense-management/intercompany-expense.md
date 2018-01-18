@@ -3,16 +3,17 @@ title: Despesas intercompanhia
 description: "Um trabalhador contratado por uma entidade legal em uma organização pode executar o trabalho para outra entidade legal na mesma organização. Nessa situação, será possível usar o recurso de despesas intercompanhia para atribuir as despesas do trabalhador para a entidade legal à qual o trabalho foi realizado."
 author: saraschi2
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi2
+ms.author: saraschi
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd

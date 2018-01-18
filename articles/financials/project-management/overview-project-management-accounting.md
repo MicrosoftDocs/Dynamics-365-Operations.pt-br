@@ -3,11 +3,12 @@ title: Gerenciamento e contabilidade de projeto
 description: "A funcionalidade de gerenciamento de projetos e da contabilidade pode ser usada em várias indústrias para proporcionar um serviço, para produzir um produto, ou para obter um resultado."
 author: KimANelson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProjTable
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

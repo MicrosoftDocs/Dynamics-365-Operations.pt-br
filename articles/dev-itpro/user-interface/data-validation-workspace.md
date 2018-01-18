@@ -3,11 +3,12 @@ title: "Espaço de trabalho de validação de dados"
 description: "O espaço de trabalho Lista de verificação de validação de dados permite acompanhar processos de validação de dados entre empresas, áreas e pessoas. A lista de verificação pode ser usada durante uma nova implementação, após uma atualização ou após uma migração."
 author: bking
 manager: AnnBe
-ms.date: 05/11/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: DataValidationWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

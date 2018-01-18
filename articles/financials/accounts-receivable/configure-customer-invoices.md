@@ -3,11 +3,12 @@ title: Criar uma fatura de cliente
 description: "Uma **fatura de cliente para uma ordem de venda** é uma cobrança que está relacionada a uma venda, e que uma organização fornece a um cliente."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

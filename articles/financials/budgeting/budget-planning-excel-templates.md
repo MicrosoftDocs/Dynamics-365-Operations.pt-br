@@ -3,11 +3,12 @@ title: "Modelos de planejamento de orçamento para Excel"
 description: "Este tópico descreve como criar modelos do Microsoft Excel que podem ser usados com planos de orçamento."
 author: ryansandness
 manager: AnnBe
-ms.date: 07/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanSetLayout
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

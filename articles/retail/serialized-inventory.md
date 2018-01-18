@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9eb962e903ac9ee359134cae35ebd399e23cc4e1
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 83c2ce79f5bef058f55af0ecf498b207efc0507a
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -41,4 +41,5 @@ Com base nas configurações do Retail Headquarters, os produtos podem ser class
     
 - **Os números de série não são necessários para gerar ordens de cliente** – As ordens do cliente podem ser substituídas em uma loja e atendidas de outra. Um caixa que gera uma ordem de cliente não precisa fornecer o número de série. O número de série será fornecido durante a etapa de separação ou de retirada. Entretanto, um número de série deve ser fornecido para todos os itens de linha no qual o tipo de entrega **Para viagem** for selecionado. Caso contrário, a transação não poderá ser concluída.    
 - **Produtos serializados não são agregadas na tela da transação** – A configuração **Agregar produtos** no grupo de campos **Terminal** na página **Perfil de funcionalidade** permite que você agregue os mesmos produtos não serializados na tela da transação. Quando os mesmos produtos são agregados, é mais fácil visualizá-los na grade da transação. Porém, como números de série geralmente são exclusivos e os vendedores não precisam inserir números de série até a finalização da compra, a configuração **Agregar produtos** não se aplica aos produtos serializados. Portanto, os produtos serializados não serão agregados na tela da transação, se a configuração **Agregar produtos** for selecionada.
+- **Capacidade de pesquisar os diários por número de série** - Os diários agora também podem ser pesquisados por números de série. Para isso, abra a operação "Diários" e pressione o botão "Pesquisa avançada" na barra de aplicativos. Usando o botão “Adicionar filtro”, um filtro pode ser aplicado para pesquisar também os números de série.
 

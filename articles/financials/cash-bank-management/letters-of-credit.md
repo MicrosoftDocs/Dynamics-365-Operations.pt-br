@@ -3,11 +3,12 @@ title: "Cartas de crédito"
 description: "As cartas de crédito são documentos bancários que, normalmente, são usados para compra e venda de mercadorias entre as fronteiras internacionais."
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

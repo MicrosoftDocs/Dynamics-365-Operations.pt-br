@@ -2,6 +2,7 @@
 # [Requisitos do sistema para implantações na nuvem](../fin-and-ops/get-started/system-requirements.md)
 # [Requisitos do sistema para implantações locais](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [Dados de demonstração](../fin-and-ops/get-started/demo-data.md)
+## [Gerenciar dados de demonstração com pacotes](data-entities/generate-demo-data-packages.md)
 
 
 # [Desenvolver e personalizar usando o Visual Studio](dev-tools/developer-home-page.md)
@@ -362,6 +363,7 @@
 ### [OData](data-entities/odata.md)
 ### [Serviços personalizados](data-entities/custom-services.md)
 ### [Integrações recorrentes](data-entities/recurring-integrations.md)
+### [Usar o utilitário de teste de serviço de terceiros com serviços](data-entities/third-party-service-test.md)
 
 ## Desenvolvimento para integração
 ### [Integração de dados usando entidades de dados](data-entities/data-management-integration-data-entity.md)
@@ -396,6 +398,7 @@
 ### [Pacotes de dados de configuração](data-entities/configuration-data-packages.md)
 ### [Copiar dados de configuração entre empresas](data-entities/copy-configuration.md)
 ### [Modelos de dados de configuração](data-entities/configuration-data-templates.md)
+### [Modelos de dados com várias planilhas](data-entities/excel-template-multiple.md)
 ### [Rastrear alterações em uma entidade](data-entities/entity-change-track.md)
 
 ## Entidades de dados padrão
@@ -419,7 +422,7 @@
 ### [Entidades de dados: Controle de produção](data-entities/data-entities-production-control.md)
 ### [Entidades de dados: Contabilidade de projetos](data-entities/data-entities-project-accounting.md)
 ### [Entidades de dados: Setor público](data-entities/data-entities-public-sector.md)
-### [Entidades de dados: Varejo](data-entities/data-entities-retail.md)
+### [Entidades de dados: Retail](data-entities/data-entities-retail.md)
 ### [Entidades de dados: Execução de vendas e marketing](data-entities/data-entities-sales-marketing.md)
 ### [Entidades de dados: Pré-vendas de vendas e marketing](data-entities/data-entities-sales-marketing-pre-sales.md)
 ### [Entidades de dados: Administração do sistema](data-entities/data-entities-system-administration.md)
@@ -441,7 +444,7 @@
 ### [Validações, padrões e campos não mapeados](data-entities/validations-defaults-unmapped-fields.md)
 ### [Segurança e entidades de dados](data-entities/security-data-entities.md)
 
-## [Traga seu próprio banco de dados](analytics/export-entities-to-your-own-database.md)
+## [Trazer seu próprio banco de dados](analytics/export-entities-to-your-own-database.md)
 
 # [Home page de entrega contínua](dev-tools/continuous-delivery-home-page.md)
 ## [Perguntas frequentes sobre desenvolvimento e entrega contínua](dev-tools/continuous-delivery-faq.md)
@@ -497,17 +500,20 @@
 
 ## Implantação na nuvem
 ### [Integração do Azure Resource Manager](deployment/arm-onboarding.md)
-### [Azure ExpressRoute e Dynamics 365 for Finance and Operations, Enterprise Edition](deployment/expressroute.md)
+### [Azure ExpressRoute e Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
 
 ## [Implantação local](deployment/on-premises-deployment-landing-page.md)
 ### [Visão geral da infraestrutura local](deployment/on-premises-overview.md)
+### [Planejando para sua implantação local](deployment/plan-onprem-deployment.md)
 ### [Dimensionamento de hardware](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [Criar um projeto local](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [Configurar e implantar ambientes locais](deployment/setup-deploy-on-premises-environments.md)
 ### [Desenvolver e implantar modelos personalizados para ambientes locais](deployment/develop-deploy-custom-models-on-premises.md)
 ### [Aplicar atualizações a uma implantação local](deployment/apply-updates-on-premises.md)
 ### [Reimplantar em uma implantação local](deployment/redeploy-on-prem.md)
-### [Solucionar problemas do Dynamics 365 for Finance and Operations, Enterprise edition local](deployment/troubleshoot-on-prem.md)
+### [Atualizar o agente local](lifecycle-services/update-local-agent.md)
+### [Reconfigurar seu ambiente](lifecycle-services/reconfigure-environment.md)
+### [Solucionar problemas do Dynamics 365 for Finance and Operations, Enterprise edition on-premises](deployment/troubleshoot-on-prem.md)
 
 ## Implantar código personalizado
 ### [Criar um pacote implantável](deployment/create-apply-deployable-package.md)
@@ -695,10 +701,10 @@
 ## [Solicitar uma atualização de banco de dados de área restrita](database/database-refresh.md)
 
 # Suporte
-## [Obter suporte para o Dynamics 365 for Finance and Operations, Enterprise Edition e o Lifecycle Services](lifecycle-services/lcs-support.md)
+## [Obter suporte para o Dynamics 365 for Finance and Operations, Enterprise edition e o Lifecycle Services](lifecycle-services/lcs-support.md)
 ## [Registrar em log um tíquete de suporte premier](lifecycle-services/premier-support.md)
 ## [Enviar uma solicitação para a equipe de engenharia de serviço do Dynamics](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [Configurar o suporte técnico para o Dynamics 365 for Finance and Operations, Enterprise Edition](lifecycle-services/support-experience.md) 
+## [Configurar o suporte técnico para o Dynamics 365 for Finance and Operations, Enterprise edition](lifecycle-services/support-experience.md) 
 ## [Perguntas frequentes sobre janela de manutenção planejada](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [Operações e manutenção de nuvem](lifecycle-services/cloud-operations-servicing.md)
 ## [Gerenciar experiências de suporte do Finance and Operations](lifecycle-services/cloud-powered-support-lcs.md)

@@ -1,6 +1,6 @@
 ---
 title: "Colaboração de fornecedores com fornecedores externos"
-description: "Este tópico descreve como os agentes de compras podem colaborar com os fornecedores externos na troca de informações sobre ordens de compra e estoque de consignação."
+description: "Este tópico explica como os agentes de compras podem colaborar com os fornecedores externos na troca de informações sobre ordens de compra e estoque de consignação."
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: abff906bcdf31c91ce696afbcd651a1d7a87ea8a
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: b56cf58f78e5b3ed9bdd0d88f85d31123ec63451
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -29,194 +29,234 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
+O módulo **Colaboração do fornecedor** é destinado a fornecedores que não tenham integração EDI (Troca de dados eletrônica) com o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Ele permite que os fornecedores trabalhem com ordens de compra (OCs), faturas, informações de estoque de consignação e solicitações de cotação (RFQs), e também os permitem acessar parte dos dados mestre de fornecedor. Este tópico explica como você pode colaborar com fornecedores externos que usam a interface de colaboração do fornecedor para trabalhar com OCs, RFQs e estoque de consignação. Ele também explica como habilitar um fornecedor específico para usar a colaboração do fornecedor e como definir as informações que todos os fornecedores verão ao responderem a uma OC.
 
-Este tópico descreve como os agentes de compras podem colaborar com os fornecedores externos na troca de informações sobre ordens de compra e estoque de consignação.
+Para saber mais sobre o que os fornecedores externos podem fazer na interface de colaboração do fornecedor, consulte [Colaboração do fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).
 
-O módulo **Colaboração do fornecedor** é destinado a fornecedores que não tenham integração EDI (Troca de dados eletrônica) com o Microsoft Dynamics 365 for Finance and Operations. Ele permite que os fornecedores trabalhem com ordens de compra, faturas e informações de estoque de consignação. Este tópico descreve como você pode colaborar com fornecedores externos que estiverem usando a interface de colaboração do fornecedor para trabalhar com OCs e estoque de consignação. Ele também descreve como habilitar um fornecedor específico para usar a colaboração do fornecedor e como definir as informações que todos os fornecedores verão ao responderem a uma OC. Para saber mais sobre o que os fornecedores externos podem fazer na interface de colaboração do fornecedor, consulte [Colaboração do fornecedor com clientes](vendor-collaboration-work-customers-dynamics-365-operations.md).  
-
-As informações deste tópico sobre a colaboração de fornecedor se aplicam apenas à versão atual do Dynamics 365 for Finance and Operations. Nas versões de fevereiro e maio de 2016 do Microsoft Dynamics AX, você colabora com fornecedores usando o módulo Portal do fornecedor. Para obter informações sobre o módulo Portal do fornecedor, consulte [Colabore com fornecedores usando o Portal do fornecedor](collaborate-vendors-vendor-portal.md).
+> [!NOTE]
+> As informações sobre a colaboração de fornecedor neste tópico se aplicam apenas à versão atual do Finance and Operations. A versão 7.0.1 no aplicativo do Microsoft Dynamics AX 7.0 (em fevereiro de 2016) e do Microsoft Dynamics AX (em maio de 2016), você colabora com fornecedores usando o módulo **Portal do fornecedor**. Para obter informações sobre o módulo **Portal do fornecedor**, consulte [Colaborar com fornecedores usando o Portal do fornecedor](collaborate-vendors-vendor-portal.md).
 
 Para saber mais sobre como os fornecedores podem usar a colaboração do fornecedor nos processos de faturamento, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). Para saber mais sobre como provisionar novos usuários de colaboração do fornecedor, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md).
 
-Para saber mais sobre como os fornecedores podem usar a colaboração do fornecedor nos processos de faturamento, consulte [Espaço de trabalho de faturamento de colaboração do fornecedor](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md). 
+## <a name="defining-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Definindo as informações mostradas aos fornecedores quando eles respondem a OCs
 
-Para saber mais sobre como provisionar novos usuários de colaboração do fornecedor, consulte [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md).
+Quando os fornecedores respondem a uma OC enviada, eles veem uma das três caixas de mensagem onde devem confirmar que querem aceitar a OC, rejeitá-la ou aceitá-la com alterações. Como a informação que deve ser mostrada ao fornecedor nesse ponto pode ser específica para sua empresa, você pode especificar o texto que aparece em cada mensagem de confirmação. Por exemplo, o texto pode informar o fornecedor sobre as próximas etapas do processo ou sobre termos e condições.
 
-## <a name="define-the-information-that-is-shown-to-vendors-when-they-respond-to-pos"></a>Definir as informações mostradas aos fornecedores quando eles respondem a OCs
-Quando os fornecedores respondem a uma PO enviada, eles veem uma caixa de mensagem onde eles devem confirmar que querem aceitar a PO, rejeitá-la ou aceitá-la com alterações. Como a informação que deve ser mostrada ao fornecedor nesse ponto pode ser específica para sua empresa, você pode especificar o texto que aparece em cada uma das três mensagens de confirmação. Por exemplo, o texto pode informar o fornecedor sobre as próximas etapas do processo ou sobre termos e condições.  
+Para definir o texto que é mostrado na resposta da OC, siga estas etapas
 
-Para definir o texto que é mostrado na resposta da OC:
+1. Na página **Informações para fornecedores em resposta a OCs**, selecione o tipo de resposta e selecione **Editar**.
+2. Na caixa **Mensagem de informações**, insira informações que deve ser exibidas a fornecedores na caixa de mensagem.
 
-1.  Abra a página **Informações para fornecedores em resposta a OCs**.
-2.  Selecione um dos tipos de resposta a seguir:
-3.  Clique em **Editar**.
-4.  Insira as informações que você deseja que seus fornecedores vejam na caixa de diálogo **Mensagem de informação**.
+Se você precisar adicionar mensagens em mais de um idioma, crie mensagens separadas e especifique o código de idioma apropriado para cada uma. A mensagem que é mostrada a cada fornecedor estará no idioma que o fornecedor usa.
 
-Se você precisar adicionar mensagens em mais de um idioma, crie mensagens separadas e especifique os códigos de idioma apropriados para cada uma. A mensagem que mostrada ao fornecedor estará no idioma que o fornecedor usa.
+## <a name="setting-the-vendor-collaboration-options-for-a-specific-vendor"></a>Definindo opções de colaboração do fornecedor para um fornecedor específico
 
-## <a name="set-the-vendor-collaboration-options-for-a-specific-vendor"></a>Definir as opções de colaboração do fornecedor para um fornecedor específico
-As configurações gerais para a colaboração de fornecedores no Finance and Operations são configuradas por um administrador. Por exemplo, um administrador determinará quais funções de segurança estão disponíveis para todos os fornecedores com os quais você colaborou. Também há configurações que podem ser diferentes para cada conta do fornecedor e você deve definir estas:
--   Habilite a colaboração do fornecedor.
--   Decida se você deseja que o fornecedor veja as informações de preço.
+Um administrador configura as definições gerais para a colaboração de fornecedor no Finance and Operations, como as funções de segurança disponíveis para todos os fornecedores com os quais você colabora. Porém, há também configurações que podem ser diferentes para cada conta do fornecedor. Você deve definir essas configurações.
 
-### <a name="enable-vendor-collaboration"></a>Habilitar a colaboração do fornecedor
+- Habilite a colaboração do fornecedor.
+- Especifique se o fornecedor deverá ver as informações sobre preço.
 
-Antes que as contas de usuário possam ser criadas para um fornecedor externo, você deve configurar a conta de fornecedor para permitir que ele use a colaboração do fornecedor. Para fazer isso, defina o campo **Ativação de colaboração** como ativo na guia **Geral**, na página **Fornecedores**. Há duas opções que podem ser escolhidas:
+### <a name="enabling-vendor-collaboration"></a>Habilitando a colaboração do fornecedor
 
--   **Ativo (a OC é confirmada automaticamente)**– as ordens de compra são confirmadas automaticamente quando o fornecedor as aceita sem alterações.
--   **Ativo (a OC não é confirmada automaticamente)**– as ordens de compra precisam ser confirmadas manualmente por sua organização depois que o fornecedor aceitá-las.
+Antes que as contas de usuário possam ser criadas para um fornecedor externo, você deve configurar a conta de fornecedor para permitir que ele use a colaboração do fornecedor. Na página **Fornecedores**, na guia **Geral**, defina o campo **Ativação de colaboração**. As opções a seguir estão disponíveis:
 
-### <a name="decide-whether-you-want-the-vendor-to-see-price-information"></a>Decida se você deseja que o fornecedor veja as informações de preço.
+- **Ativo (a OC é confirmada automaticamente)**– as OCs são confirmadas automaticamente, se o fornecedor as aceita sem alterações.
+- **Ativo (a OC não é confirmada automaticamente)**– as OCs precisam ser confirmadas manualmente por sua organização depois que o fornecedor aceitá-las.
 
-Se você quiser compartilhar as informações de preço, como preço unitário, descontos e encargos por meio da interface de colaboração, será preciso definir a opção **Valores/preços das ordens de compra** como **Sim** na conta de fornecedor. Esta opção está disponível na guia **Padrões da ordem de compra**.
+### <a name="specifying-whether-the-vendor-should-see-price-information"></a>Especificando se o fornecedor deverá ver as informações sobre preço
 
-## <a name="work-with-pos-when-using-vendor-collaboration"></a>Trabalhar com OCs ao usar a colaboração do fornecedor
-### <a name="sending-a-po-to-the-vendor"></a>Enviando uma OC ao fornecedor
+Para compartilhar as informações sobre preços das OCs por meio da interface de colaboração do fornecedor, você deve definir a opção **Valor/preços das ordens de compra** na guia **Padrões da ordem de compra** para a conta do fornecedor como **Sim**. Essas informações sobre preços incluem o preço unitário, descontos e os encargos.
 
-As ordens de compra são preparadas no Finance and Operations. Quando a OC tiver um status de **Aprovada**, você a enviará ao fornecedor usando a ação **Enviar para confirmação** na página **Ordem de compra**. O status da OC mudará para **Em Revisão externa**. Depois que a PO for enviada, o fornecedor pode vê-la na página **Ordens de compra para revisão** na interface de colaboração de fornecedor. O fornecedor pode então aceitar a ordem, rejeitá-la ou sugerir mudanças nela. O fornecedor também pode adicionar comentários para comunicar informações como as alterações na OC. Para chamar a atenção do fornecedor para a nova OC, você também pode usar o sistema de gerenciamento de impressão para enviar a OC por email.
+## <a name="working-with-pos-when-vendor-collaboration-is-used"></a>Trabalhando com OCs ao usar a colaboração do fornecedor
 
-### <a name="confirmation-and-acceptance-of-the-po-by-the-vendor"></a>Confirmação e aceitação da OC pelo fornecedor
+### <a name="sending-a-po-to-a-vendor"></a>Enviando uma OC a um fornecedor
 
-Quando um fornecedor aceitar uma ordem de compra, a OC poderá ser confirmada automaticamente ou precisará ser confirmada manualmente. Isso vai depender se o campo **Ativação de fornecedor** estiver definido como **Ativo (a PO é confirmada automaticamente)** ou como **Ativo (a PO não é confirmada automaticamente)** para o fornecedor.  
+As OCs são preparadas no Finance and Operations. Quando a OC tiver um status de **Aprovada**, você a enviará ao fornecedor, selecionando **Enviar para confirmação** na página **Ordem de compra**. O status da OC será mudado para **Em Revisão externa**. Depois que a PO for enviada, o fornecedor pode vê-la na página **Ordens de compra para revisão** na interface de colaboração de fornecedor. O fornecedor pode então aceitar a OC, rejeitá-la ou sugerir mudanças nela. O fornecedor também pode adicionar comentários para comunicar informações como as alterações na OC. Se quiser chamar a atenção do fornecedor para a nova OC, você também pode usar o sistema de gerenciamento de impressão para enviar a OC por email.
 
-A tabela a seguir mostra a troca comum de informações, dependendo de como o fornecedor responde quando você envia uma OC para confirmação.
+### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a>Confirmação e aceitação de uma OC por um fornecedor
+
+Depois que um fornecedor aceita uma OC, a OC pode ser confirmada automaticamente ou pode ter que ser confirmada manualmente. O comportamento depende se o campo **Ativação de fornecedor** está definido como **Ativo (a OC é confirmada automaticamente)** ou como **Ativo (a OC não é confirmada automaticamente)** para o fornecedor.
+
+A tabela a seguir mostra a troca comum de informações, dependendo da resposta do fornecedor quando você envia uma OC para confirmação.
 
 <table>
 <colgroup>
 <col width="50%" />
 <col width="50%" />
 </colgroup>
+<thead>
+<tr>
+<th>Resposta do fornecedor</th>
+<th>Resultado</th>
+</tr>
+</thead>
 <tbody>
-<tr class="odd">
-<td><strong>Resposta do fornecedor</strong></td>
-<td><strong>Resultado</strong></td>
-</tr>
 <tr class="even">
-<td>O fornecedor <strong>aceita</strong> a ordem. Finanças e Operações está configurado para confirmar automaticamente as POs quando o fornecedor aceitar.</td>
+<td>O fornecedor <strong>aceita</strong> a ordem e o Finance and Operations é definido para confirmar OCs automaticamente que o fornecedor aceita.</td>
+<td>O status da ordem é atualizado para <strong>Confirmada</strong>. Se a ordem não puder ser atualizada por algum motivo, a resposta do fornecedor ainda é registrada como <strong>Aceita</strong>, mas o status da OC permanecerá <strong>Em Revisão externa</strong>. 
 
-<td>O status da ordem é atualizado para <strong>Confirmada</strong>. Se algo impede que a ordem seja atualizada, a resposta do fornecedor ainda é registrada como <strong>Aceita</strong>, mas o status da OC permanece <strong>Em Revisão externa</strong>. 
-
-A PO que foi enviada para o fornecedor e que tem o status de **Em revisão externa** é atualizada com datas de entrega confirmadas nas linhas. A atualização inicia uma nova versão que será automaticamente atualizada para o status **Confirmado**. Quando a PO é confirmada, ela aparecerá na interface de colaboração do fornecedor.</td>
+A OC que foi enviada ao fornecedor e que tem um status de <strong>Em revisão externa</strong> é atualizada com datas de entrega confirmadas nas linhas. Esta atualização inicia uma nova versão que é automaticamente definida para o status <strong>Confirmado</strong>. Quando a OC é confirmada, ela aparecerá na interface de colaboração do fornecedor.</td>
 </tr>
 <tr class="odd">
-<td>O fornecedor <strong>aceita</strong> a ordem. Finanças e Operações não está configurado para confirmar automaticamente as POs quando o fornecedor aceitar.</td>
+<td>O fornecedor <strong>aceita</strong> a ordem, mas o Finance and Operations não está definido para confirmar OCs automaticamente que o fornecedor aceita.</td>
 <td>A resposta do fornecedor é registrada como <strong>Aceita</strong>, mas o status da OC permanece <strong>Em Revisão externa</strong>.
 
-A PO que foi enviada para o fornecedor e que tem o status de **Em revisão externa** é atualizada com datas de entrega confirmadas nas linhas. A atualização inicia uma nova versão que será automaticamente definida para o status **Em revisão externa**. Você poderá confirmar manualmente a PO.</td>
-
+A OC que foi enviada ao fornecedor e que tem um status de <strong>Em revisão externa</strong> é atualizada com datas de entrega confirmadas nas linhas. Esta atualização inicia uma nova versão que é automaticamente definida para o status <strong>Em revisão externa</strong>. Em seguida, você poderá confirmar a OC manualmente.</td>
 </tr>
 <tr class="even">
 <td>O fornecedor <strong>rejeita</strong> a ordem.</td>
 <td>A resposta do fornecedor é registrada como <strong>Rejeitada</strong> e o status da OC permanece <strong>Em Revisão Externa</strong>. A rejeição é recebida junto com as anotações do fornecedor.</td>
 </tr>
 <tr class="odd">
-<td>O fornecedor <strong>aceita a ordem com alterações</strong>. As alterações são sugeridas em nível de linha. É possível aceitar ou rejeitar linhas individuais. Outras alterações possíveis incluem:
+<td>O fornecedor <strong>aceita</strong> a ordem <strong>com alterações</strong>. As alterações são sugeridas em nível de linha. O fornecedor pode aceitar ou rejeitar linhas individuais. Eis algumas outras alterações que o fornecedor pode sugerir:
 <ul>
 <li>Alterar datas ou quantidades.</li>
 <li>Dividir linhas para datas de entrega ou quantidades diferentes.</li>
 <li>Substituir um item.</li>
 </ul>
-As informações de preço e os encargos não podem ser alterados pelo fornecedor. Sugestões de alterações a esses itens podem ser feitas usando-se anotações.</td>
-<td>A resposta do fornecedor é registrada como <strong>Aceita com alterações</strong>, e o status da PO permanece <strong>Em revisão externa</strong>. O status mostra quais tipos de alterações o fornecedor sugeriu. Para obter informações sobre o consumo automático das alterações, consulte a seção abaixo sobre como atualizar a PO quando um fornecedor sugere mudanças. </td>
+O fornecedor não pode alterar as informações sobre preços e os encargos. Entretanto, o fornecedor pode sugerir essas alterações usando notas.</td>
+<td>A resposta do fornecedor é registrada como <strong>Aceita com alterações</strong>, e o status da PO permanece <strong>Em revisão externa</strong>. Os status mostram os tipos de alterações que o fornecedor sugeriu. Para obter informações sobre o consumo automático das alterações, consulte a seção "Atualizar a OC quando um fornecedor sugerir mudanças" posteriormente neste tópico. </td>
 </tr>
 </tbody>
 </table>
 
-Você pode usar o espaço de trabalho de preparação de **Ordem de** **compra** para monitorar quais OCs o fornecedor respondeu. Este espaço de trabalho contém duas listas que contêm pedidos com um status de **Em Revisão Externa**:
+Você pode usar o espaço de trabalho **Preparação da ordem de compra** para monitorar as OCs respondidas pelo fornecedor. Este espaço de trabalho contém duas listas que contêm OCs com um status **Em Revisão Externa**:
 
--   Em revisão externa, ação necessária.
--   Em revisão externa, aguardando resposta do fornecedor.
+- Em revisão externa requer ação
+- Em revisão externa aguardando a resposta do fornecedor
 
 ### <a name="changing-a-po"></a>Alterando uma OC
 
-Para alterar uma PO que já foi respondida, você deve enviar uma nova versão da PO para o fornecedor. A nova OC terá um sufixo de versão para indicar que é uma versão modificada de uma OC anteriormente comunicada. A página **Histórico de confirmações do fornecedor de ordens de compra** permite que você e seus fornecedores acompanhem o histórico de cada ordem. A versão anteriormente confirmada de uma PO permanecerá na lista de POs confirmadas até que a nova PO seja confirmada.
+Para alterar uma OC que já foi respondida por um fornecedor, você deve enviar uma nova versão da OC para o fornecedor. A nova OC terá um sufixo de versão para indicar que é uma versão modificada de uma OC anteriormente enviada. A página **Histórico de confirmações do fornecedor de ordens de compra** permite que você e seus fornecedores acompanhem o histórico de cada ordem. A versão anteriormente confirmada de uma PO permanecerá na lista de POs confirmadas até que a nova PO seja confirmada.
 
-### <a name="cancelling-a-po"></a>Cancelando uma OC
+### <a name="canceling-a-po"></a>Cancelando uma OC
 
-Quando você cancela uma OC, o status é alterado para **Aprovada**. Você deve enviar a OC novamente ao fornecedor, de forma que o fornecedor possa confirmar ou rejeitar o cancelamento. Depois que o cancelamento for confirmado, a OC aparecerá na lista de OCs confirmadas do fornecedor como **Cancelada**.
+Quando você cancela uma OC, o status é alterado para **Aprovada**. Você deve enviar a OC novamente ao fornecedor, de forma que o fornecedor possa confirmar ou rejeitar o cancelamento. Depois que o cancelamento for confirmado, a OC aparecerá na lista de OCs confirmadas como **Cancelada**.
 
 ### <a name="adding-attachments-to-a-po"></a>Adicionando anexos a uma OC
 
 Você pode adicionar anexos, como arquivos, imagens e anotações, à PO usando o sistema de gerenciamento de documentos. Anexos do tipo **Externo** estarão visíveis para o fornecedor quando você enviar a PO.
 
-## <a name="update-the-po-when-a-vendor-suggests-changes"></a>Atualize a PO quando um fornecedor sugerir mudanças
-Quando um fornecedor responde à PO e sugere mudanças, o próximo passo é processar a resposta.
-Na **Área de trabalho de preparação de ordem de compra**, na lista Em revisão externa requer ação, você pode identificar uma PO respondida por um fornecedor como aceita com alterações. Na lista Em revisão externa requer ação, você também pode navegar até a resposta do fornecedor. Em uma resposta, um fornecedor pode alterar as seguintes informações no cabeçalho.
+## <a name="updating-a-po-when-a-vendor-suggests-changes"></a>Atualizando uma OC quando um fornecedor sugerir mudanças
+
+Se um fornecedor respondeu a uma OC e sugeriu mudanças, o próximo passo é processar a resposta.
+
+No espaço de trabalho **Preparação da ordem de compra** na lista **Em revisão externa, requer ação**, você pode identificar OCs que um fornecedor aceitou com alterações. Desta lista, você também pode navegar até a resposta do fornecedor.
+
+Em uma resposta, um fornecedor pode alterar as seguintes informações no cabeçalho:
  
--   Referência de documento do fornecedor
--   Modo de entrega
--   Condições de entrega
--   Data de entrega confirmada
+- Referência de documento do fornecedor
+- Modo de entrega
+- Condições de entrega
+- Data de entrega confirmada
 
-O fornecedor também pode adicionar uma nota ou um anexo
+O fornecedor também pode adicionar uma nota ou um anexo.
 
-Nas linhas, o fornecedor pode alterar a quantidade e as datas de entrega, adicionar notas e anexos, rejeitar uma linha, substituir uma linha por um outro produto que é inserido como texto e dividir uma linha em entregas múltiplas. Dependendo das mudanças sugeridas pelo fornecedor, o status da linha terá status de linha diferente:
+Nas linhas, o fornecedor pode alterar a quantidade e as datas de entrega, adicionar notas e anexos, rejeitar uma linha, substituir uma linha por um outro produto que é inserido como texto e dividir uma linha em entregas múltiplas. O status de uma linha, varia dependendo alterações que o fornecedor sugeriu:
     
--   **Aceito com alterações**
--   **Rejeitado**
--   **Substituído** Uma linha adicional será adicionada nesse caso com o status **Substituto**.
--   A separação **Confirmado** na agenda. Neste caso, linhas adicionais serão adicionadas com o status **Linhas programada**.
+- **Aceito com alterações**
+- **Rejeitado**
+- **Substituído** - neste caso, uma linha extra com o status **Substituto** será adicionada.
+- **Confirmado**
+- **Dividido em agenda** – Neste caso, são adicionadas linhas extras que têm um status **Linhas da agenda**.
 
 Se uma linha não tiver nenhuma alteração, o status da linha é **Aceito**.
 
-Na resposta, você pode ver os status de linha mencionados anteriormente que indicam os tipos de mudanças que o fornecedor fez. Além disso, todos os campos alterados aparecem em negrito para ajudá-lo a identificar as mudanças.
+Em resposta, os status da linha o informam os tipos de alterações que o fornecedor fez. Além disso, todos os campos alterados aparecem em negrito para ajudá-lo a identificar as alterações.
 
-Você pode atualizar uma PO clicando na ação **Processar atualização de PO** na resposta ou em uma linha por vez. Um indicador, **A atualização da PO foi processada?**, no cabeçalho e nas linhas permitem que você veja se o sistema processou o cabeçalho ou as linhas para atualizar a PO com quaisquer alterações potenciais que se originam da resposta. Você pode executar o processo **Processar atualização de PO** apenas uma vez por cabeçalho ou linha.
+Você pode atualizar uma OC selecionando **Processar atualização de OC** na resposta ou em uma linha de cada vez. Um campo **A atualização da OC foi processada?** no cabeçalho e nas linhas indica se o sistema processou o cabeçalho ou as linhas para atualizar a OC com alterações se originam da resposta. Você pode executar a ação **Processar atualização da OC** apenas uma vez por cabeçalho ou linha.
 
-Nem todas as alterações sugeridas podem ser atualizadas em uma PO. Somente as atualizações no cabeçalho e as atualizações das datas e quantidades nas linhas podem ser atualizadas automaticamente na PO. Para outras alterações, você deve atualizar manualmente a PO. Nesse caso, o indicador **A atualização da PO foi processada** mostra **Atualização manual**. Um exemplo de uma alteração que deve ser tratada manualmente seria quando um fornecedor sugere dividir uma linha em uma agenda.
+Nem todas as alterações sugeridas podem ser atualizadas em uma PO. Somente as atualizações no cabeçalho e as atualizações das datas e quantidades nas linhas podem ser atualizadas automaticamente na OC. Para outras alterações, você deve atualizar manualmente a PO. Nesse caso, o valor do campo **A atualização da OC foi processada?** será **Atualização manual**. Por exemplo, se um fornecedor sugerir que uma linha seja dividida em uma agenda, essa alteração será feita manualmente.
 
-Uma linha com um status **Aceita** terá uma data de entrega confirmada que será atualizada na PO quando você executar a função **Processar atualização de PO**. Notas e anexos não serão automaticamente transferidos para a PO atual. Observe que quando você atualiza a PO usando a ação **Processar atualização de PO**, os contratos comerciais não serão reavaliados nas linhas da PO.
-
+Cada linha que tem um status **Aceita** terá uma data de entrega confirmada. Quando você executa a ação **Processar atualização da OC**, essa data será atualizada na OC. Notas e anexos não serão transferidos automaticamente para a OC atual. Além disso, os contratos comerciais não são reavaliados nas linhas da OC quando você atualiza a OC por meio da ação **Processar atualização da OC**.
 
 ## <a name="po-statuses-and-versions"></a>Status e versões da PO
-Esta seção descreve os diversos status que uma PO pode ter até o momento em que é confirmada. Ele também descreve em que ponto as novas versões da PO são disponibilizadas para o fornecedor. O comportamento varia, dependendo se você usa o gerenciamento de mudanças para POs. 
+
+Esta seção descreve os diversos status que uma OC pode ter até o momento em que é confirmada. Também descreve quando as novas versões de uma OC são disponibilizadas para o fornecedor. O comportamento varia, dependendo se você usa o gerenciamento de mudanças para POs. 
 
 ### <a name="versions-and-statuses-if-you-dont-use-change-management"></a>Versões e status se você não usar o gerenciamento de alterações
 
 A tabela a seguir mostra um exemplo das alterações de status e versão pelas quais uma OC pode passar.
 
-|                                                                          |                                                                                                                                                              |
-|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Ação**                                                               | **Status e versão**                                                                                                                                       |
-| A versão inicial da PO é criada no Finance and Operations. | O status é **Aprovada**.                                                                                                                                  |
-| A OC é enviada ao fornecedor.                                            | Uma versão é registrada na interface de colaboração do fornecedor e o status é alterado para **Em Revisão externa**.                                          |
-| O fornecedor envia uma resposta **Aceito com alterações**.                  | O status ainda é **Em Revisão externa**.                                                                                                                  |
-| Você faz algumas alterações que são solicitadas pelo fornecedor.                  | O status é alterado para **Aprovada**.                                                                                                                        |
-| Você envia a nova versão da OC ao fornecedor.                        | Uma nova versão é registrada na interface de colaboração do fornecedor e o status é alterado para **Em Revisão externa**.                                      |
-| O fornecedor aceita a nova versão da OC.                            | O status ainda é **Em Revisão externa** a menos que a conta do fornecedor seja configurada para definir automaticamente a OC para um estado **Confirmado** ao aceitá-la. |
+| Ação | Status e versão |
+|--------|--------------------|
+| A versão inicial da PO é criada no Finance and Operations. | O status é **Aprovada**. |
+| A OC é enviada ao fornecedor. | Uma versão é registrada na interface de colaboração do fornecedor e o status é alterado para **Em Revisão externa**. |
+| O fornecedor envia uma resposta **Aceito com alterações**. | O status ainda é **Em Revisão externa**. |
+| Você fez algumas alterações que foram solicitadas pelo fornecedor. | O status é alterado para **Aprovada**. |
+| Você envia a nova versão da OC ao fornecedor. | Uma nova versão é registrada na interface de colaboração do fornecedor e o status é alterado para **Em Revisão externa**. |
+| O fornecedor aceita a nova versão da OC. | O status ainda é **Em Revisão externa** a menos que a conta do fornecedor seja configurada para definir automaticamente as OCs para um status **Confirmado** quando o fornecedor as aceita. |
 
+Os fornecedores não precisam confirmar uma OC usando a interface de colaboração do fornecedor. Eles também podem enviar um email ou comunicar a aceitação de uma OC por meio de outro canais. É possível confirmar a ordem manualmente no Finance and Operations. Nesse caso, você receberá um aviso de que a ordem está sendo confirmada, mesmo que não haja nenhuma resposta do fornecedor. A OC aparecerá no histórico de confirmação como uma ordem confirmada aberta que não tem nenhuma resposta. Neste ponto, o fornecedor não terá mais a opção de confirmar ou rejeitar a OC.
 
-Os fornecedores não precisam confirmar a PO usando a interface de colaboração do fornecedor. Eles também podem enviar uma mensagem de email ou comunicar a aceitação de uma OC por meio de outro canais. É possível confirmar a ordem manualmente no Finance and Operations. Nesse caso, você receberá um aviso de que a ordem está sendo confirmada mesmo que não haja nenhuma resposta do fornecedor. A OC aparecerá no histórico de confirmação como uma ordem confirmada aberta que não tem nenhuma resposta. O fornecedor não terá mais a opção de confirmar ou rejeitar a OC.  
-
-
->[!NOTE]
->A versão da OC disponível para outros processos no Dynamics 365 for Finance and Operations sempre será a versão mais recente, mesmo se essa versão ainda não tiver sido registrada na interface de colaboração do fornecedor.
+> [!NOTE]
+> A versão da OC disponível para outros processos no Finance and Operations sempre será a versão mais recente, mesmo se essa versão ainda não tiver sido registrada na interface de colaboração do fornecedor.
 
 ### <a name="versions-and-statuses-if-you-use-change-management"></a>Versões e status se você usar o gerenciamento de alterações
 
-Se o gerenciamento de alterações estiver ativado para as OCs, a OC passará por um fluxo de trabalho de aprovação para atingir o status **Aprovada**. Esse processo não aparece para o fornecedor.  
+Se o gerenciamento de alterações estiver ativado para as OCs, as OCs passarão por um fluxo de trabalho de aprovação para atingir o status **Aprovada**. Esse processo não aparece para o fornecedor.
 
-A tabela a seguir mostra um exemplo das alterações de status e versão pelas quais uma OC poderá passar quando o gerenciamento de alterações estiver ativado: A versão será registrada quando a OC for aprovada, não quando a OC for enviada ao fornecedor ou confirmada.
+A tabela a seguir mostra um exemplo das alterações de status e versão pelas quais uma OC poderá passar quando o gerenciamento de alterações estiver ativado: Uma versão será registrada quando a OC for aprovada, não quando a OC for enviada ao fornecedor ou confirmada.
 
-|                                                                          |                                                                                                                                                              |
-|--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Ação**                                                               | **Status e versão**                                                                                                                                       |
-| A versão inicial da PO é criada no Finance and Operations.      | O status é **Rascunho**.  |
-| A OC é submetida ao processo de aprovação (É um processo de aprovação no qual o fornecedor não está envolvido).                                                           | O status é alterado de **Rascunho** para **Em Revisão** para **Aprovação** se a OC não for rejeitada durante o processo de aprovação. A OC aprovada é registrada como uma versão.           | 
-| A OC é enviada ao fornecedor                                                            | A versão é registrada na interface de colaboração do fornecedor e o status é alterado para **Em Revisão externa**.      |
-| Você faz algumas alterações solicitadas pelo fornecedor, manualmente ou usando a ação na resposta para atualizar a OC.                                                            | O status é alterado novamente para **Rascunho**.     |
-|A OC é submetida ao processo de aprovação novamente.                                                |  O status é alterado de **Rascunho** para **Em Revisão** para **Aprovação** se a OC não for rejeitada durante o processo de aprovação. Alternativamente, o sistema pode ser configurado para que as alterações de campos específicos não exijam uma nova aprovação. Nesse caso, o status é primeiro alterado para **Rascunho** e depois automaticamente atualizado para **Aprovada**. A OC aprovada é registrada como uma nova versão.                                         |
-|Você envia a nova versão da OC ao fornecedor.                                                |  A nova versão é registrada na interface de colaboração do fornecedor e o status é alterado para **Em Revisão externa**.                                         |
-|O fornecedor aprova a nova versão da OC.                                                |  O status é alterado para **Confirmada** automaticamente ou quando você recebe a resposta do fornecedor e confirma a OC. |
+| Ação | Status e versão |
+|--------|--------------------|
+| A versão inicial da PO é criada no Finance and Operations. | O status é **Rascunho**. |
+| A OC é submetida ao processo de aprovação (O processo de aprovação é um processo interno no qual o fornecedor não está envolvido). | O status é alterado de **Rascunho** para **Em Revisão** para **Aprovação** se a OC não for rejeitada durante o processo de aprovação. A OC aprovada é registrada como uma versão. | 
+| A OC é enviada ao fornecedor. | A versão é registrada na interface de colaboração do fornecedor e o status é alterado para **Em Revisão externa**. |
+| Você faz algumas alterações solicitadas pelo fornecedor, manualmente ou usando a ação **Processar atualização da OC** na resposta para atualizar a OC. | O status é alterado novamente para **Rascunho**. |
+| A OC é submetida ao processo de aprovação novamente. | O status é alterado de **Rascunho** para **Em Revisão** para **Aprovação** se a OC não for rejeitada durante o processo de aprovação. Alternativamente, o sistema pode ser configurado para que as alterações específicas do campo não exijam uma nova aprovação. Nesse caso, o status é primeiro alterado para **Rascunho** e depois automaticamente atualizado para **Aprovada**. A OC aprovada é registrada como uma nova versão. |
+| Você envia a nova versão da OC ao fornecedor. | A nova versão é registrada na interface de colaboração do fornecedor e o status é alterado para **Em Revisão externa**. |
+| O fornecedor aprova a nova versão da OC. | O status é alterado para **Confirmada** automaticamente ou quando você recebe a resposta do fornecedor e confirma a OC. |
 
-## <a name="share-information-about-consignment-inventory"></a>Compartilhar informações sobre o estoque de consignação
+## <a name="sharing-information-about-consignment-inventory"></a>Compartilhando informações sobre o estoque de consignação
+
 Se você estiver usando o estoque de consignação, os fornecedores poderão usar a interface de colaboração do fornecedor para exibir informações nas seguintes páginas:
 
--   **Ordens de compra que consomem o estoque de consignação** – ordens de compra para o estoque de consignação são geradas quando a propriedade do estoque é alterada do fornecedor para a sua empresa. Um recebimento de produto é lançado ao mesmo tempo. Essas ordens de compra de consignação são exibidas somente na página **Ordens de compra que consomem o estoque em consignação**. Elas não estão incluídas na página **Todas as ordens de compra confirmadas**, no módulo **Colaboração do fornecedor**.
--   **Produtos recebidos de estoque de consignação** – esta página lista todas as transações em que a propriedade dos produtos é transferida do fornecedor para a sua empresa. Os fornecedores podem usar essas informações para faturar o cliente.
--   **Estoque de consignação disponível** – esta página mostra o estoque de consignação disponível de propriedade do fornecedor que foi recebido em seu depósito.
+- **Ordens de compra que consomem o estoque de consignação** – as OCs para o estoque de consignação são geradas quando a propriedade do estoque é alterada do fornecedor para a sua empresa. Um recebimento de produto é lançado ao mesmo tempo. Essas OCs de consignação são exibidas somente na página **Ordens de compra que consomem o estoque em consignação**. Elas não estão incluídas na página **Todas as ordens de compra confirmadas**, no módulo **Colaboração do fornecedor**.
+- **Produtos recebidos do estoque de consignação** – esta página lista todas as transações em que a propriedade dos produtos foi transferida do fornecedor para a sua empresa. Os fornecedores podem usar essas informações para faturar o cliente.
+- **Estoque de consignação disponível** – esta página mostra o estoque de consignação disponível de propriedade do fornecedor que foi recebido em seu depósito.
 
+## <a name="working-with-rfqs-when-you-use-vendor-collaboration"></a>Trabalhando com RFQs ao usar a colaboração do fornecedor
 
+Esta seção descreve as interações entre clientes e fornecedores durante o processo de RFQ. Também explica como as informações são comunicadas aos fornecedores. Para uma visão geral básica de suporte para o processo de RFQ, consulte [Solicitações de cotações (RFQs)](request-quotations.md).
 
+### <a name="alternates-attachments-amendments-and-returns"></a>Alternativas, anexos, alterações e devoluções
 
+- **Alternativas** – Em um cabeçalho de exemplos de RFQ, você pode especificar quais alternativas serão permitidas para linhas de item não catalogadas. Quando as alternativas forem habilitadas, os fornecedores poderão adicionar uma linha alternativa para cada linha solicitada.
+- **Anexos** – Os anexos podem ser adicionados tanto em nível de cabeçalho como em nível de linha de um caso de RFQ. Os anexos podem ser classificados como internos ou externos. Os anexos internos podem ser exibidos apenas pelo cliente, enquanto os fornecedores podem exibir anexos externos depois que forem enviados.
+
+    Os fornecedores também pode adicionar anexos na resposta do lance. Esses anexos podem ser exibidos pelo cliente depois que um fornecedor enviar a resposta do lance. Os anexos que os fornecedores adicionam sempre são classificados como externos. Para acessar um anexo que um fornecedor enviou com um lance, selecione **Anexos de lances** ou **Anexos de linhas de lances**.
+    
+    Para abrir os anexos enviados juntos com o caso de RFQ, use o símbolo de clipe de papel de manuseio de documento na resposta.
+
+- **Alterações** – Quando uma alteração é finalizada, as respostas de lances existentes são removidas, de forma que possam ser substituídas pelos valores atualizados. As informações como a linha de preço e quantidade de respostas de lances anteriores podem ser exibidas por meio de diários no caso de RFQ.
+
+    Para aplicar o processamento de modificação, na página **Parâmetros de compras**, na Guia Rápida **Solicitação de cotação**, defina a opção **Bloquear RFQs quando elas forem enviadas** como **Sim**. (Essa opção está definida e é obrigatória para o setor público.)
+
+- **Devoluções** – Se um fornecedor enviou um lance, mas são necessárias mais informações ou informações modificadas para o caso de RFQ, o cliente pode devolver o lance para o fornecedor. Os dados do lance enviados anteriormente serão mantidos e o fornecedor podem fazer as alterações solicitadas sem ter que reiniciar o processo de lance.
+
+## <a name="public-sector-extensions"></a>Extensões do setor público
+
+Para o setor público, a funcionalidade estendida permite que um caso RFQ seja enviado aos fornecedores e publicados. Quando você publica um RFQ, qualquer pessoa que solicitar informações poderá ver o trabalho que está de acordo com as regulamentações do setor público. Todos os trabalhos disponíveis são refletidos na página de listagem **Solicitações de cotações em aberto publicadas** e as RFQ canceladas, pendentes ou concedidas podem ser exibidas na página **Solicitações de cotações fechadas publicadas**. Esses documentos também podem ser exibidos em um site fora do Finance and Operations através de integrações com as seguintes entidades de dados:
+
+- Solicitações publicadas para cotações
+- Solicitações publicadas para linha de cotação
+- Solicitações publicadas para anexos de cabeçalho de cotação
+
+Essas entidades permitem que pessoas que não são usuários provisionados no Finance and Operations, mas que tenha acesso anônimo ao site externo, exibam o trabalho disponível e fechado. Além disso, a funcionalidade estendida em **Enviar e publicar** permite ao usuário que configura os parâmetros do processo de RFQ definir um modelo de email. Quando o profissional de compras cria o caso de RFQ, ele deverá selecionar o modelo de email para enviar as informações obrigatórias aos fornecedores do caso de RFQ. 
+
+O usuário que configura os parâmetros para o processo de RFQ pode criar vários modelos de email. Esses modelos de email podem conter o texto estático e os seguintes tokens substituição. Os tokens serão substituídos pelos valores contextuais quando um email for criado.
+
+- %RFQCase%
+- %RFQCaseName%
+- %bidType%
+- %inviteOnly%
+- %expiryDateTime%
+- %requester%
+- %requestingDepartment%
+- %accountnum%
+- %todaysdate%
+- %createddate%
+
+Se uma alteração for necessária e for enviada após a RFQ ser enviada, a RFQ será enviada novamente a todos os fornecedores convidados. O documento publicado também será atualizado na página **Abrir solicitações publicadas para cotações**.
 

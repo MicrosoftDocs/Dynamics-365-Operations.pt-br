@@ -1,9 +1,9 @@
 ---
 title: "Conteúdo do Power BI de desempenho financeiro"
-description: "Este tópico descreve o Conteúdo do Power BI de desempenho financeiro. Ele descreve o painel e os relatórios incluídos, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo."
+description: "Este tópico descreve o Conteúdo do Power BI de desempenho financeiro."
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,21 +30,6 @@ ms.lasthandoff: 12/01/2017
 [!include[banner](../includes/banner.md)]
 
 Este tópico descreve o Conteúdo do Microsoft Power BI de **Desempenho financeiro**. Ele descreve o painel e os relatórios incluídos, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
-
-## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-
-Você pode acessar o Power BI de **Desempenho financeiro** do Microsoft Dynamics Lifecycle Services (LCS) e do PowerBI.com.
-
-### <a name="available-from-lcs"></a>Disponível a partir do LCS
-O conteúdo do Power BI de **Desempenho financeiro** disponível a partir do LCS oferece suporte às seguintes versões:
-
-- Versões do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
-- Microsoft Dynamics 365 for Operations versão 1611 
-
-Você pode localizar o conteúdo do Power BI na biblioteca de ativo compartilhado no LCS. Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](power-bi-content-microsoft-partners.md). Para ver uma demonstração que mostra como implementar o conteúdo do Power BI, veja o Office Mix [Conteúdo do Power BI da Microsoft e seus parceiros no Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).
-
-### <a name="available-from-powerbicom"></a>Disponível em PowerBI.com
-O conteúdo do Power BI de **Desempenho financeiro** que está disponível no PowerBI.com oferece suporte ao Microsoft Dynamics AX, versões 7.0 e 7.0.1. Para obter mais informações sobre como conectar e carregar os dados do Dynamics AX, consulte [Acessar o conteúdo do Power BI em PowerBI.com](power-bi-home-page.md).
 
 ## <a name="main-account-setup"></a>Configuração da conta principal
 Como as organizações querem que os valores de passivos e receitas apareçam como valores positivos nos relatórios, é importante a instalação de contas principais. Para que as contas principais apareçam como os valores positivos, o tipo de conta principal deve ser definido como **Passivo** ou **Receita**. Quando esses tipos de conta são usados, os relatórios no Power BI reverterão os sinais e mostrarão os valores como positivos.
@@ -101,5 +86,5 @@ As entidades a seguir foram usadas como base do conteúdo do Power BI de **Desem
 - Razões
 - ChartofAccounts
 
-Essas entidades foram usadas para criar medidas calculadas no modelo de dados. As medidas calculadas são então usadas para calcular os KPIs (indicadores chave de desempenho) e os relatórios usados no conteúdo. Por padrão, o conteúdo possui dados dos três últimos anos e do ano futuro. Para incluir cálculos adicionais nos relatórios e no painel, você pode modificar a [pasta de trabalho do Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Essa pasta de trabalho é o modelo de dados padrão usado para criar o conteúdo. Depois que você terminar a marcação das modificações, poderá criar um painel e pacote de conteúdo organizacional contendo as informações adicionadas.
+Essas entidades foram usadas para criar medidas calculadas no modelo de dados. As medidas calculadas são então usadas para calcular os KPIs (indicadores chave de desempenho) e os relatórios usados no conteúdo. Por padrão, o conteúdo possui dados dos três últimos anos e do ano futuro. Para incluir cálculos adicionais nos relatórios e no painel, você pode modificar a [pasta de trabalho do Microsoft Excel](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi). Essa pasta de trabalho é o modelo de dados padrão usado para criar o conteúdo. 
 
