@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EFDocumentReceivedXML_BR
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -16,10 +17,10 @@ ms.author: v-gonode
 ms.search.validFrom: 
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f56eea499dec0b464d49b635af8957cdf2f1d858
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 1feea9dd1516a59c36ff1d3e5b6e7fb22ab21caa
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
