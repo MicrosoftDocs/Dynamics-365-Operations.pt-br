@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -59,9 +60,9 @@ Para este exemplo, a FRSI deve ser um cliente na entidade legal USSI, e a USSI d
 
 1.  Configurar a FRSI como um cliente na entidade legal USSI, e configurar a USSI como um fornecedor na entidade legal FRSI. Existem três pontos de entrada para as etapas que são necessárias para essa tarefa.
     | Etapa | Ponto de entrada                                                                       | descrição   |
-    |------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | A    | Na USSI, clique em **Contas a receber** &gt; **Clientes** &gt; **Todos os clientes**. | Crie um novo registro de cliente para a FRSI, e selecione o grupo de clientes.                                                                                                                                                                                                                           |
-    | B    | Na FRSI, clique em **Contas a pagar** &gt; **Fornecedores** &gt; **Todos os fornecedores**.        | Crie um novo registro de fornecedor para a USSI, e selecione o grupo de fornecedores.                                                                                                                                                                                                                               |
+    |------|-----------------------------------------------------------------------------------|------------------|
+    | A    | Na USSI, clique em **Contas a receber** &gt; **Clientes** &gt; **Todos os clientes**. | Crie um novo registro de cliente para a FRSI, e selecione o grupo de clientes.                                                                                  |
+    | B    | Na FRSI, clique em **Contas a pagar** &gt; **Fornecedores** &gt; **Todos os fornecedores**.        | Crie um novo registro de fornecedor para a USSI, e selecione o grupo de fornecedores.                                                                                    |
     | C    | Na FRSI, abra o registro de fornecedor que você acabou de criar.                            | No Painel de ação, na guia **Geral**, no grupo **Configurar**, clique em **Intercompanhia**. Na página **Intercompanhia**, na guia **Relação de comércio**, defina a barra deslizante **Ativo** para **Sim**. No campo **Empresa cliente**, selecione o registro de cliente que você criou na etapa A. |
 
 2.  Clique em **Gerenciamento e contabilidade de projeto** &gt; **Configuração** &gt; **Parâmetros de contabilidade de gerenciamento do projeto** e, em seguida, clique na guia **Intercompanhia**. A forma como você configura os parâmetros depende se você é a entidade legal que toma o empréstimo ou a entidade legal de empréstimo.

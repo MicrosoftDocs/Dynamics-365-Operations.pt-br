@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -47,10 +48,12 @@ Os blocos **Resumo** darão uma visão geral de notas fiscais do fornecedor sele
 -   As faturas pagas são aquelas que foram totalmente pagas no Finance and Operations.
 
 Clique em um quadro abrirá uma exibição filtrada da página **Lista de notas fiscais**.
+
 ### <a name="tabular-lists"></a>Listas tabulares
 
 Na seção **Listas Tabular**, o status do faturamento está dividido de formas semelhantes como o resumo organiza lado a lado: Rascunho, e listas enviadas não aprovadas. Quando o estado de rascunho, uma nota fiscal pode ser enviada ao fluxo de trabalho ou ser excluída. A última lista tabular é uma opção para encontrar faturas. Você pode filtrar enquanto pesquisa, para permitir pesquisas mais rápidas.
-Página Todas faturas de fornecedor
+
+<a name="all-vendor-invoices-list-page"></a>Página Todas faturas de fornecedor
 -----------------------------
 
 É possível exibir todas as faturas de fornecedor lançadas na página de listagem **Faturas de colaboração do fornecedor**. Você pode usar esta página de lista para visualizar o status de pagamento das faturas. Os status de pagamento inclui Não feito, e parcialmente pagas totalmente paga.
