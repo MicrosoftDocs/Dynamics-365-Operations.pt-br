@@ -112,7 +112,7 @@ Quando você abre um bloco de construção, outros usuários só podem acessar o
 3.  Selecione um bloco de construção e clique em **Desfazer Check-out**.
 4.  Clique em **Sim** para efetuar check-in no bloco de construção.
 
-# <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte também
 
 [Relatórios financeiros](financial-reporting-intro.md)
 

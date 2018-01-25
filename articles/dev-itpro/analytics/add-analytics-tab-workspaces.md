@@ -30,14 +30,14 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > Esse recurso é compatível com o Dynamics 365 for Finance and Operations (versão 7.2 e posterior).
 
-# <a name="introduction"></a>Introdução
+## <a name="introduction"></a>Introdução
 Este tópico mostra como incorporar um relatório do Microsoft Power BI na guia **Análise** de um espaço de trabalho. No exemplo dado aqui, estenderemos o espaço de trabalho **Gerenciamento de reservas** no aplicativo de Gerenciamento de Frota para incorporar um espaço de trabalho analítico em uma guia **Análise**.
 
-# <a name="prerequisites"></a>Pré-requisitos
+## <a name="prerequisites"></a>Pré-requisitos
 + Acesso a um ambiente de desenvolvedor que executa a atualização 8 da plataforma ou posterior.
 + Um relatório analítico (.pbix file) que foi criado por meio da área de trabalho do Microsoft Power BI e que apresenta um modelo de dados com origem no banco de dados de loja Entidade.
 
-# <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão Geral
 Se você estender um espaço de trabalho de aplicativo existente ou introduzir seu próprio espaço de trabalho, é possível usar exibições analíticas incorporadas para fornecer exibições intuitivas e interativas de seus dados comerciais. O processo para adicionar uma guia de espaço de trabalho analítico apresenta quatro etapas.
 
 1. Adicione um arquivo .pbix como um recurso do Dynamics 365.
@@ -48,7 +48,7 @@ Se você estender um espaço de trabalho de aplicativo existente ou introduzir s
 > [!NOTE]
 > Para obter informações sobre como criar relatórios analíticos, consulte [Introdução à área de trabalho do Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Esta página é um grande recurso para informações que podem ajudar a criar soluções de relatório analítico atrativas.
 
-# <a name="add-a-pbix-file-as-a-resource"></a>Adicionar um arquivo .pbix como um recurso
+## <a name="add-a-pbix-file-as-a-resource"></a>Adicionar um arquivo .pbix como um recurso
 Antes de começar, é preciso criar ou obter o relatório do Power BI que será incorporado no espaço de trabalho. Para obter informações sobre como criar relatórios analíticos, consulte [Introdução à área de trabalho do Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
  
 Siga essas etapas para adicionar um arquivo .pbix como um artefato de projetos do Visual Studio.
@@ -66,7 +66,7 @@ Siga essas etapas para adicionar um arquivo .pbix como um artefato de projetos d
   
 Agora que você já adicionou o arquivo .pbix como um recurso do Dynamics 365, é possível incorporar os relatórios nos espaços de trabalho e adicionar links diretos usando itens de menu.
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a>Adicionar um controle de guias a um espaço de trabalho de aplicativo
+## <a name="add-a-tab-control-to-an-application-workspace"></a>Adicionar um controle de guias a um espaço de trabalho de aplicativo
 Neste exemplo, estenderemos o espaço de trabalho **Gerenciamento de reservas** no modelo de Gerenciamento de Frota adicionando a guia **Análise** à definição do formulário **FMClerkWorkspace**.
  
 A ilustração a seguir mostra a aparência do formulário **FMClerkWorkspace** no designer do Microsoft Visual Studio.
@@ -105,7 +105,7 @@ Agora que você já adicionou os controles de formulário que serão usados para
  
 Agora você já concluiu a tarefa de estender a definição de formulário de aplicativo. Para obter mais informações sobre como usar extensões para realizar personalizações, consulte [Personalização: sobreposições e extensões](../extensibility/customization-overlayering-extensions.md).
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Adicionar a lógica comercial X++ para incorporar um controle mais amplo
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Adicionar a lógica comercial X++ para incorporar um controle mais amplo
 Siga essas etapas para adicionar a lógica comercial que inicializa o controle de relatório mais amplo incorporado no espaço de trabalho **Gerenciamento de reservas**.
 
 1. Abra o designer de formulário **FMClerkWorkspace** para estender a definição de design.
@@ -151,12 +151,12 @@ Agora você já concluiu a tarefa de adicionar a lógica comercial para iniciali
 > [!NOTE]
 > É possível acessar a exibição operacional existente usando as guias de espaço de trabalho abaixo do título da página.
 
-# <a name="reference"></a>Demonstrativo
+## <a name="reference"></a>Demonstrativo
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a>Método PBIReportHelper.initializeReportControl
+### <a name="pbireporthelperinitializereportcontrol-method"></a>Método PBIReportHelper.initializeReportControl
 Esta seção fornece informações sobre a classe auxiliar usada para incorporar um relatório do Power BI (recurso .pbix) em um controle de grupo de formulário.
 
-### <a name="syntax"></a>Sintaxe
+#### <a name="syntax"></a>Sintaxe
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a>Parâmetros
+#### <a name="parameters"></a>Parâmetros
 
 | Nome | descrição |
 |---|---|

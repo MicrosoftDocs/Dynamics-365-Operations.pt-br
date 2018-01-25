@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Este artigo descreve as informações que são necessárias para cada célula em uma definição de linha em um relatório financeiro e explica como inserir essas informações. 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a>Especifique um código de linha em uma definição de linha
+## <a name="specify-a-row-code-in-a-row-definition"></a>Especifique um código de linha em uma definição de linha
 
 Em definições de linha, os números ou rótulos na célula **Código da Linha** identificam cada linha na definição de linha. É possível especificar o código de linha para referir-se aos dados nos cálculos e totais.
 
@@ -506,8 +506,7 @@ Um conjunto de valores de dimensão é um grupo nomeado de valores de dimensão.
 4.  Selecione o conjunto a ser excluído e clique em **Excluir**. Clique em **Sim** para excluir permanentemente o conjunto de valores de dimensão.
 
 
-<a name="see-also"></a>Consulte também
---------
+## <a name="see-also"></a>Consulte também
 
 [Relatórios financeiros](financial-reporting-intro.md)
 

@@ -36,8 +36,7 @@ Este tópico descreve como definir e configurar os nomes e prioridades de campo 
 
 **Observação:** este tópico se aplica aos recursos do Gerenciamento de depósito. Ele não se aplica aos recursos do Gerenciamento de estoque. Finance and Operations - Warehousing é um aplicativo que você pode usar para realizar tarefas de depósito. Você pode definir e configurar os nomes de campo usados no aplicativo, bem como configurar a prioridade à qual os nomes de campo devem ser atribuídos. Este tópico explica como definir e configurar esses nomes e prioridades de campo do aplicativo de depósito e como eles são usados no Finance and Operations - Warehousing. Para obter informações detalhadas sobre como configurar a conexão com o Finance and Operations - Depósito, consulte o tutorial [Instale e configure o Finance and Operations - Warehousing](install-configure-warehousing-app.md).
 
-<a name="configure-warehouse-app-field-names"></a>Configurar nomes de campo do aplicativo de depósito
-===================================
+## <a name="configure-warehouse-app-field-names"></a>Configurar nomes de campo do aplicativo de depósito
 
 Ao usar o Finance and Operations - Warehousing no seu dispositivo, você pode configurar como os metadados devem ser exibidos no seu dispositivo na página **Nomes de campo de aplicativo de depósito**. Em uma nova companhia no Finance and Operations, selecione **Criar configuração padrão** para gerar todos os nomes de campo que serão usados nos fluxos de trabalho do dispositivo móvel de depósito e depois atribuir um modo e tipo de saída preferenciais para eles. Após a criação de todos os nomes de campo, você pode selecionar as seguintes opções de saída.
 
@@ -70,8 +69,7 @@ Ao usar o Finance and Operations - Warehousing no seu dispositivo, você pode co
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a>Configurar a prioridade de campo do aplicativo de depósito
-======================================
+## <a name="configure-warehouse-app-field-priority"></a>Configurar a prioridade de campo do aplicativo de depósito
 
 Na página **Prioridade de campo de aplicativo de depósito**, você pode colocar nomes de campo em grupos de prioridade diferentes. Com isso, é possível decidir quais informações devem ser exibidas na página de tarefa principal quando os trabalhadores de depósito realizam tarefas usando o aplicativo. Se clicar em **Criar configuração padrão**, um conjunto padrão de grupos de prioridades será gerado. É possível criar tantos grupos de prioridade quantos forem necessários, mas apenas três grupos de prioridades serão mostrados na página de tarefas. Ao enviar os metadados ao aplicativo, o Finance and Operations atribuirá a cada campo uma prioridade relativa de acordo com seu grupo de prioridades, e o aplicativo exibirá os primeiros três grupos de prioridades contidos nos metadados na página de tarefas. O resto dos metadados transbordantes serão exibidos em uma página de detalhes secundária. A tabela a seguir mostra um exemplo de cinco grupos de prioridades.
 

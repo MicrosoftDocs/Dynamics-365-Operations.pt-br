@@ -98,7 +98,7 @@ Os componentes a seguir do relatório financeiro facilitam a criação, exibiç�
 </tbody>
 </table>
 
-#<a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte também
 [Gerar um relatório financeiro](generate-financial-report.md)
 
 

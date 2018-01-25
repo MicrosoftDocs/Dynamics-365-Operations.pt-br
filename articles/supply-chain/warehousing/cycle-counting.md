@@ -137,7 +137,7 @@ Uma diferença de contagem cíclica ocorrerá nos cenários a seguir se a opçã
 
 Você pode ajustar as diferenças no valor contado e aceitar o valor contado na página **Revisão de contagem de ciclo pendente** na página. Você pode verificar a contagem modificada da quantidade do item na página **Disponível por local**. O valor contado será rejeitado se a diferença não puder ser aprovada.
 
-# <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte também
 [Configurar dispositivos móveis para trabalho de depósito](configure-mobile-devices-warehouse.md)
 
 
