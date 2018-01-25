@@ -18,10 +18,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e544c592429d00b1ce464740f4e82cb75d10412b
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: bea7dc240f495ac60c733f1a62cebfda281d754e
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="d8234-118">[![Processo de negócios](./media/GL-process.PNG)](./media/GL-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="d8234-118">[![Business process](./media/GL-process.PNG)](./media/GL-process.PNG)</span></span>
 
-# <a name="sales-tax"></a><span data-ttu-id="d8234-119">Imposto</span><span class="sxs-lookup"><span data-stu-id="d8234-119">Sales tax</span></span>
+## <a name="sales-tax"></a><span data-ttu-id="d8234-119">Imposto</span><span class="sxs-lookup"><span data-stu-id="d8234-119">Sales tax</span></span>
 <span data-ttu-id="d8234-120">Cada empresa recolhe e paga impostos a várias autoridades fiscais.</span><span class="sxs-lookup"><span data-stu-id="d8234-120">Every company collects and pays taxes to various tax authorities.</span></span> <span data-ttu-id="d8234-121">As regras e as taxas variam por país/região, estado, região e cidade.</span><span class="sxs-lookup"><span data-stu-id="d8234-121">The rules and rates vary by country/region, state, county, and city.</span></span>
 <span data-ttu-id="d8234-122">Além disso, as regras devem ser atualizadas periodicamente quando as autoridades fiscais alterarem seus requisitos.</span><span class="sxs-lookup"><span data-stu-id="d8234-122">In addition, the rules must be updated periodically when tax authorities change their requirements.</span></span> <span data-ttu-id="d8234-123">Os códigos de imposto contêm as informações básicas sobre o quanto você recolhe e paga às autoridades.</span><span class="sxs-lookup"><span data-stu-id="d8234-123">Sales tax codes contain the basic information about how much you collect and pay to the authorities.</span></span> <span data-ttu-id="d8234-124">Ao configurar códigos de imposto, defina valores ou porcentagens que devem ser recolhidos.</span><span class="sxs-lookup"><span data-stu-id="d8234-124">When you set up sales tax codes, you define the amounts or percentages that must be collected.</span></span> <span data-ttu-id="d8234-125">Também é possível definir vários métodos pelo qual esses valores ou porcentagens são aplicados aos valores da transação.</span><span class="sxs-lookup"><span data-stu-id="d8234-125">You also define the various methods by which those amounts or percentages are applied to transaction amounts.</span></span> <span data-ttu-id="d8234-126">Os tópicos desta seção fornecem informações sobre como configurar os códigos de imposto para os métodos e as taxas que as autoridades fiscais exigem.</span><span class="sxs-lookup"><span data-stu-id="d8234-126">The topics in this section provide information about how to set up sales tax codes for the methods and rates that your tax authorities require.</span></span>
 
@@ -52,13 +52,13 @@ ms.lasthandoff: 11/03/2017
  - [<span data-ttu-id="d8234-129">Pagamentos de impostos e regras de arredondamento</span><span class="sxs-lookup"><span data-stu-id="d8234-129">Sales tax payments and rounding rules</span></span>](round-sales-tax-payments.md)
 
 
-### <a name="additional-resources"></a><span data-ttu-id="d8234-130">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="d8234-130">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="d8234-130">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="d8234-130">Additional resources</span></span>
 
-#### <a name="whats-new-and-in-development"></a><span data-ttu-id="d8234-131">Novidades e o que está em desenvolvimento</span><span class="sxs-lookup"><span data-stu-id="d8234-131">What's new and in development</span></span>
+### <a name="whats-new-and-in-development"></a><span data-ttu-id="d8234-131">Novidades e o que está em desenvolvimento</span><span class="sxs-lookup"><span data-stu-id="d8234-131">What's new and in development</span></span>
 
 <span data-ttu-id="d8234-132">Visite o [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) para conferir os novos recursos que foram liberados e os novos recursos em desenvolvimento.</span><span class="sxs-lookup"><span data-stu-id="d8234-132">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span> 
 
-#### <a name="blogs"></a><span data-ttu-id="d8234-133">Blogs</span><span class="sxs-lookup"><span data-stu-id="d8234-133">Blogs</span></span>
+### <a name="blogs"></a><span data-ttu-id="d8234-133">Blogs</span><span class="sxs-lookup"><span data-stu-id="d8234-133">Blogs</span></span>
 
 <span data-ttu-id="d8234-134">Você encontra opiniões, notícias, além de informações sobre Contas a pagar e outras soluções no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).</span><span class="sxs-lookup"><span data-stu-id="d8234-134">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).</span></span>
 
@@ -66,10 +66,10 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="d8234-137">O [blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos Parceiros do Microsoft Dynamics um recurso único por meio do qual podem saber mais sobre as novidades e as tendências do MBS Operations.</span><span class="sxs-lookup"><span data-stu-id="d8234-137">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
 
-#### <a name="task-guides"></a><span data-ttu-id="d8234-138">Guias de tarefas</span><span class="sxs-lookup"><span data-stu-id="d8234-138">Task guides</span></span>
+### <a name="task-guides"></a><span data-ttu-id="d8234-138">Guias de tarefas</span><span class="sxs-lookup"><span data-stu-id="d8234-138">Task guides</span></span>
 <span data-ttu-id="d8234-139">Há ajuda adicional disponível como guias de tarefas dentro do Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="d8234-139">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="d8234-140">Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.</span><span class="sxs-lookup"><span data-stu-id="d8234-140">To access task guides, click the Help button on any page.</span></span>
 
-#### <a name="videos"></a><span data-ttu-id="d8234-141">Vídeos</span><span class="sxs-lookup"><span data-stu-id="d8234-141">Videos</span></span>
+### <a name="videos"></a><span data-ttu-id="d8234-141">Vídeos</span><span class="sxs-lookup"><span data-stu-id="d8234-141">Videos</span></span>
 
 <span data-ttu-id="d8234-142">Confira os vídeos de instruções que agora estão disponíveis no [canal do Microsoft Dynamics 365 no YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span><span class="sxs-lookup"><span data-stu-id="d8234-142">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 
