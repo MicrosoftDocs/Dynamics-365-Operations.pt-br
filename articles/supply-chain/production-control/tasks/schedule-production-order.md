@@ -1,4 +1,4 @@
---- 
+---
 title: "Agendar uma ordem de produção"
 description: "Este procedimento mostra como agendar uma ordem de produção."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4aeb51fd2d9e916d5838b47c4a6b74800572a9ca
+ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
+ms.openlocfilehash: 6cbbf509c9e60040e08ab7932fcb0e8eed5ddd22
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="schedule-a-production-order"></a><span data-ttu-id="5a1fe-103">Agendar uma ordem de produção</span><span class="sxs-lookup"><span data-stu-id="5a1fe-103">Schedule a production order</span></span>
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/29/2017
     * <span data-ttu-id="5a1fe-127">A página Capacidade máxima exibe a capacidade reservada com o agendamento do trabalho, o número total de horas que está reservado no recurso atualmente, e o número de horas que permanece disponível para o planejamento de trabalho do recurso.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-127">The Capacity load page displays the capacity that is reserved through job scheduling, the total number of hours that are currently reserved on the resource, and the number of hours that remain available for job scheduling on the resource.</span></span>  
 6. <span data-ttu-id="5a1fe-128">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-128">Close the page.</span></span>
 7. <span data-ttu-id="5a1fe-129">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="5a1fe-129">Close the page.</span></span>
-
 
