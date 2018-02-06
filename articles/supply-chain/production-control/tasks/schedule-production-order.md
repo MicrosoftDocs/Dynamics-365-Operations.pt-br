@@ -1,4 +1,4 @@
---- 
+---
 title: "Agendar uma ordem de produção"
 description: "Este procedimento mostra como agendar uma ordem de produção."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -53,5 +53,4 @@ Este procedimento mostra como agendar uma ordem de produção. A empresa de dado
     * A página Capacidade máxima exibe a capacidade reservada com o agendamento do trabalho, o número total de horas que está reservado no recurso atualmente, e o número de horas que permanece disponível para o planejamento de trabalho do recurso.  
 6. Feche a página.
 7. Feche a página.
-
 

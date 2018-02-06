@@ -1,4 +1,4 @@
---- 
+---
 title: "Preparar um trabalho kanban de processo quando os materiais estão disponíveis para a célula de trabalho"
 description: "Esta tarefa foca na preparação de um processo de trabalho kanban quanto todas materiais estão disponíveis para a célula de trabalho."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -40,5 +40,4 @@ Esta tarefa foca na preparação de um processo de trabalho kanban quanto todas 
     * Se vários trabalhos são selecionados, a lista de separação mostrará a soma de todos os itens necessários para o trabalho selecionado.  
 6. Clique em Preparar.
     * O processo de preparação é concluído agora. A caixa de seleção marcada para todas as linhas da lista de separação indica que o status da fonte será separado.  
-
 

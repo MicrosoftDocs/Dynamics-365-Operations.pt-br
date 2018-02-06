@@ -1,4 +1,4 @@
---- 
+---
 title: "Habilitar o processo de folha de pagamento para horário e presença"
 description: "Este procedimento mostra como habilitar o processo de folha de pagamento de tempo e presença."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -68,5 +68,4 @@ Este procedimento mostra como habilitar o processo de folha de pagamento de temp
 6. Expanda a seção de Tempo de registro.
 7. Clique em Editar.
 8. No campo Contrato de pagamento, insira ou selecione um valor.
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Criar uma ordem de produção"
 description: "Este procedimento mostra como criar uma ordem de produção."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -69,5 +69,4 @@ Este procedimento mostra como criar uma ordem de produção. A empresa de dados 
     * Alterar o tempo de processo afeta o consumo de roteiro custos previstos e da ordem de produção.  
 6. Clique em Salvar.
 7. Feche a página.
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "Relatar uma ordem de produção como concluída"
 description: "Este procedimento mostra como relatar uma ordem de produção como concluída."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -50,5 +50,4 @@ Este procedimento mostra como relatar uma ordem de produção como concluída. A
 3. Na lista, marque a linha selecionada.
 4. Na lista, clique no link na linha selecionada.
     * O diário Relatório de conclusão é lançado. Se quiser fazer ajustes no diário, você pode criar manualmente um diário no qual é possível fazer alterações.  
-
 

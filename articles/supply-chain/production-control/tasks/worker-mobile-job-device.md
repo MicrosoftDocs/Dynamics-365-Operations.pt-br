@@ -69,4 +69,3 @@ Este procedimento mostra como atribuir as funções corretas na conta de usuári
 6. No campo Unidade de Produção, você pode definir o filtro padrão para o trabalhador. Isso garantirá que somente os trabalhos de produção da unidade de produção selecionada serão exibidos quando o trabalhador fizer logon no dispositivo.
 7. Feche a página.
 
-
