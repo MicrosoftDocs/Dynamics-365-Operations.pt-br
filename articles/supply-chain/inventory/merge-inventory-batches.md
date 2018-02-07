@@ -1,7 +1,7 @@
 ---
 title: Mesclar lotes de estoque
 description: "Este artigo fornece informações sobre como consolidar dois ou mais lotes de estoque em um lote mesclado."
-author: perlynne
+author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
