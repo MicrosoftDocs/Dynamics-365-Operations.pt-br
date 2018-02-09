@@ -113,7 +113,8 @@
 #### [Personalizar elementos de modelo usando extensões (tutorial)](extensibility/customize-model-elements-extensions.md)
 #### [Personalização: sobreposições e extensões](extensibility/customization-overlayering-extensions.md)
 ### Novidades
-#### [Alterações de extensibilidade (julho de 2017)](extensibility/changes-july-2017.md)
+#### [Alterações de extensibilidade de julho de 2017](extensibility/changes-july-2017.md)
+#### [Alterações de extensibilidade no Dynamics 365 for Finance and Operations, Enterprise Edition 7.3](extensibility/extensibility-changes-73.md)
 ### Conceitos básicos
 #### [Personalizações intrusivas](extensibility/intrusive-customizations.md)
 #### [Extensões de classe](extensibility/class-extensions.md)
@@ -138,6 +139,11 @@
 #### [Modificar propriedades de controle de formulário](extensibility/modify-control-properties.md)
 #### [Alterar um rótulo](extensibility/change-label.md)
 #### [Estender o escopo da sequência numérica](extensibility/extend-number-sequence-scope.md)
+#### [Adicionar uma nova dimensão de estoque](extensibility/inventory-dimensions.md)
+#### [Alterações no preço e na extensibilidade do desconto](extensibility/pricing-app73.md)
+#### [Extensão do mapa de tabela](extensibility/map-extensions.md)
+#### [Estender mapas de tabela usados como interfaces](extensibility/maps-as-interfaces.md)
+#### [Estender mapas de tabela usados para controle de versão](extensibility/maps-with-versioning.md)
 
 
 
@@ -522,20 +528,20 @@
 ### [Solucionar problemas de aplicação do pacote](deployment/deployable-package-troubleshooting.md)
 
 # [Atualização e migração](migration-upgrade/upgrade-home-page.md)
-## [Atualizar do AX 2012 para o Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
-### [Analisar - usar a ferramenta Analisador de atualizações para planejar a atualização](migration-upgrade/upgrade-analyzer-tool.md)
-### [Analisar – usar o serviço Atualização de código para estimar o esforço de atualização do código](migration-upgrade/analyze-code-upgrade.md)
-### [Analisar - implantar um ambiente de área restrita](migration-upgrade/analysis-sandbox.md)
-### [Atualizar - atualização de dados em um ambiente de desenvolvimento](migration-upgrade/data-upgrade-2012.md)
-### [Upgrade - tarefas de upgrade de dados do AX 2012](migration-upgrade/prepare-data-upgrade.md)
-### [Atualizar - atualização de dados em um ambiente de área restrita](migration-upgrade/upgrade-data-sandbox.md)
-### [Validar - testes de substituição](migration-upgrade/upgrade-cutover-testing.md)
-### [Validar - tarefas a serem realizadas após a atualização](migration-upgrade/app-validation-process.md)
-### [Validar - testes funcionais](migration-upgrade/upgrade-functional-validation.md)
-### [Validar - preparar para a ativação](migration-upgrade/upgrade-go-live-prep.md)
+## [Fazer upgrade do AX 2012 para o Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
+### [Upgrade do AX 2012 – Usar a ferramenta Analisador de upgrade para planejar](migration-upgrade/upgrade-analyzer-tool.md)
+### [Upgrade do AX 2012 – Usar o serviço Upgrade de código para estimar o esforço](migration-upgrade/analyze-code-upgrade.md)
+### [Upgrade do AX 2012 – Implantar um ambiente de área restrita](migration-upgrade/analysis-sandbox.md)
+### [Upgrade do AX 2012 – Upgrade de dados em um ambiente de desenvolvimento](migration-upgrade/data-upgrade-2012.md)
+### [Upgrade do AX 2012 – Tarefas de upgrade de dados do AX 2012](migration-upgrade/prepare-data-upgrade.md)
+### [Upgrade do AX 2012 – Upgrade de dados em um ambiente de área restrita](migration-upgrade/upgrade-data-sandbox.md)
+### [Upgrade do AX 2012 – Testes de substituição](migration-upgrade/upgrade-cutover-testing.md)
+### [Upgrade do AX 2012 – Tarefas depois de concluir o upgrade](migration-upgrade/app-validation-process.md)
+### [Upgrade do AX 2012 – Aprovação do teste funcional](migration-upgrade/upgrade-functional-validation.md)
+### [Upgrade do AX 2012 – Preparar para a ativação](migration-upgrade/upgrade-go-live-prep.md)
 
 
-### Alterações que afetam a atualização do AX 2012
+### Alterações que afetam o upgrade do AX 2012
 #### [Atualização de reavaliação de único comprovante e de moeda ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [Modelo de dados de agendamento de recursos de projeto](migration-upgrade/data-model-changes-resource-management.md)
 #### [Alterações no subsistema de fluxo de trabalho](migration-upgrade/workflow-subsystem.md)
@@ -590,6 +596,8 @@
 ## [Processamento em lotes](sysadmin/batch-processing-overview.md)
 ### [Visão geral do servidor de lote](sysadmin/batch-server-overview.md)
 ### [Criar um trabalho em lotes](sysadmin/tasks/create-batch-job.md)
+
+## [Criar regras para o Orientador de otimização](sysadmin/optimization-advisor.md)
 
 # Lifecycle Services
 ## [Visão geral do Lifecycle Services](lifecycle-services/lcs.md)
