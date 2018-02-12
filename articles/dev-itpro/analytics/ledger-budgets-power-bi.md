@@ -31,14 +31,14 @@ ms.lasthandoff: 12/18/2017
 
 Este tópico descreve o conteúdo do Microsoft Power BI **Real versus orçamento**. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo. 
 
-# <a name="overview"></a>Visão Geral
+## <a name="overview"></a>Visão Geral
 
 O conteúdo do Power BI **Real versus orçamento** foi criado para indivíduos responsáveis por monitorar o desempenho real versus o orçamento da organização. O conteúdo do Power BI **Real versus orçamento** oferece visibilidade sobre as variações de orçamento. Você pode analisar o orçamento do ano atual por categoria de conta, código de orçamento, conta principal, descrições de conta principal ou período fiscal para obter um melhor entendimento sobre a causa das variações. 
 
-# <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
+## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
 Os relatórios do conteúdo do Power BI **Real versus orçamento** são exibidos nos espaços de trabalho **Orçamento e previsões do razão** e **CFO**.
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a>Relatórios incluídos no conteúdo do Power BI
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>Relatórios incluídos no conteúdo do Power BI
 A tabela a seguir fornece detalhes sobre as métricas encontradas em cada página de relatório no conteúdo **Real versus orçamento** do Power BI.
 
 | Relatório                      | Métrica |
@@ -50,7 +50,7 @@ A tabela a seguir fornece detalhes sobre as métricas encontradas em cada págin
 | Renda líquida                  | <ul><li>Rendimento líquido deste ano</li><li>Meta de rendimento líquido com base no orçamento </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
+## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 
 | Entidade                    | Conteúdo |
 |---------------------------|----------|

@@ -1,4 +1,4 @@
---- 
+---
 title: "Finalizar uma ordem de produção"
 description: "Este procedimento mostra como finalizar uma ordem de produção."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -46,5 +46,4 @@ Este procedimento mostra como finalizar uma ordem de produção. A empresa de da
 1. No Painel de Ação, clique em Gerenciar custos.
 2. Clique em Visualizar comparação de custo.
     * Após a finalização da ordem de produção, é possível comparar o preço de custo estimado com o preço de custo realizado para obter uma visão geral das variações de produção.  
-
 

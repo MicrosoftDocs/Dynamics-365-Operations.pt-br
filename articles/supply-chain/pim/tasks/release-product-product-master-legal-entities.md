@@ -1,7 +1,7 @@
 --- 
 title: Liberar um produto/produto mestre para entidades legais
 description: Este procedimento orienta como liberar um produto ou um produto mestre em uma ou mais entidades legais.
-author: josaw1
+author: BibiSp
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process

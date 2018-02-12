@@ -1,7 +1,7 @@
 ---
 title: "Previsão de fluxo de caixa"
 description: "Este tópico fornece uma visão geral do processo de previsão de fluxo de caixa. Também explica como a previsão de fluxo de caixa é integrada a outros módulos no sistema."
-author: saraschi
+author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
@@ -13,7 +13,7 @@ audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: sarasch
+ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT

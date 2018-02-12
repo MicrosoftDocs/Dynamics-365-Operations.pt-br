@@ -1,7 +1,7 @@
 ---
 title: "Componentes de relatórios financeiros"
 description: "Este artigo descreve como os componentes ou blocos de construção de definições de relatório são usados em relatórios financeiros. Esses blocos de construção incluem definições de linha, coluna e definições de árvore de relatórios. Este artigo explica como organizar blocos de construção de bloqueio e como trabalhar com grupos de bloco de construção."
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
@@ -112,7 +112,7 @@ Quando você abre um bloco de construção, outros usuários só podem acessar o
 3.  Selecione um bloco de construção e clique em **Desfazer Check-out**.
 4.  Clique em **Sim** para efetuar check-in no bloco de construção.
 
-# <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte também
 
 [Relatórios financeiros](financial-reporting-intro.md)
 

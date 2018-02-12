@@ -1,6 +1,7 @@
 ---
 title: "Visão geral dos periféricos de varejo"
 description: "Este tópico explica os conceitos relacionados aos periféricos de varejo."
+author: rubencdelgado
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article

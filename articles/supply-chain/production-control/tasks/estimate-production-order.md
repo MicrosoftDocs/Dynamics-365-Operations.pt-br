@@ -1,4 +1,4 @@
---- 
+---
 title: "Estimar uma ordem de produção"
 description: "Você pode realizar esse procedimento usando a empresa de dados de demonstração USMF ou seu próprio conjunto de dados."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -42,5 +42,4 @@ Você pode realizar esse procedimento usando a empresa de dados de demonstraçã
 1. No Painel de Ação, clique em Gerenciar custos.
 2. Clique em Exibir detalhes do cálculo.
     * Esta página exibe a divisão de custo. Por exemplo, você pode exibir o preço de custo total por unidade para o produto finalizado na primeira linha. As linhas subsequentes contêm custos de acordo com a lista de materiais, o roteiro de produção e os custos indiretos.  
-
 

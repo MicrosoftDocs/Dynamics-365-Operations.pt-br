@@ -1,4 +1,4 @@
---- 
+---
 title: "Começar uma ordem de produção"
 description: "Esse procedimento mostra como iniciar uma ordem de produção no chão de fábrica."
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -70,5 +70,4 @@ Esse procedimento mostra como iniciar uma ordem de produção no chão de fábri
 7. Clique em Lançar.
 8. Clique em OK.
     * No diário de cartão de roteiro, é registrado o tempo gasto em operações individuais. A quantidade de erros e acertos também pode ser informada.  
-
 

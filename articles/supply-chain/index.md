@@ -3,7 +3,7 @@ title: Home page de Gerenciamento da cadeia de fornecedores
 description: "Este tópico oferece uma lista de tópicos da Ajuda e outros recursos de gerenciamento da cadeia de fornecedores do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/10/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 98008b494f675209949afd961e3cd06dfdc9ec9a
-ms.openlocfilehash: 81a5d21233f12e7c26f0cce6a6c05fefde2ca7dd
+ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
+ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/22/2018
 
 ---
 
@@ -52,18 +52,20 @@ Escolha uma área de recursos para saber mais a respeito.
 
 ## <a name="videos"></a>Vídeos
 
-### <a name="get-started"></a>Introdução  
+Estes vídeos breves ajudam você a conhecer os novos recursos incluídos no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (dezembro de 2017).
 
-Estes vídeos curtos ajudam você a começar a usar os novos recursos incluídos no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julho de 2017).
+-  [Integração de prospecção ao pagamento à vista](https://youtu.be/AVV9x5x-XCg) 
+-  [Orientador de otimização](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+
+Estes vídeos breves ajudam você a conhecer os novos recursos incluídos no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition (julho de 2017).
 
 -  [Introdução à contabilização de custos](https://youtu.be/1pUDtJQZ8FU)
 -  [Espaço de trabalho móvel de controle de custos](https://youtu.be/imsuTg8rUVk)
 -  [Usar o Excel para análise de custos](https://youtu.be/-HKHYdClvx8)
 -  [Aprovar ordens de compra em um dispositivo móvel](https://youtu.be/gZ-gOlJe7H8)
--  [Planejamento visual com gráfico de Gantt para ordens de produção e de lote](https://youtu.be/BtbuShkGj4I)
+-  [Agendamento visual com gráfico de Gantt para ordens de produção e de lote](https://youtu.be/BtbuShkGj4I)
 
-### <a name="tech-conference-recordings"></a>Gravações de conferências sobre tecnologia
-A maioria destas gravações discute a funcionalidade do produto na versão anterior do Finance and Operations, mas os mesmos conceitos ainda se aplicam e os procedimentos são semelhantes na versão atual. 
+Estas gravações de conferências técnicas discutem a funcionalidade do produto na versão anterior do Finance and Operations, mas os mesmos conceitos ainda se aplicam e os procedimentos são semelhantes na versão atual. 
 
 -  <a href="https://youtu.be/zotrj3SbCl4">Configurador de Produto no Microsoft Dynamics AX</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">Planejamento mestre – dicas e truques para solucionar problemas de desempenho</a>

@@ -8,9 +8,10 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
@@ -97,7 +98,7 @@ Os componentes a seguir do relatório financeiro facilitam a criação, exibiç�
 </tbody>
 </table>
 
-#<a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte também
 [Gerar um relatório financeiro](generate-financial-report.md)
 
 

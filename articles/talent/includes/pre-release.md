@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> Este recurso é parte de uma versão direcionada e está disponível somente para os usuários que aceitaram o programa contínuo de benefício da atualização (CAAP). Este recurso estará incluído na futura versão de disponibilidade geral. Para obter mais informações sobre versões padrão e direcionada, consulte [Versões de plataforma padrão e direcionada](../../fin-and-ops/get-started/public-preview-releases.md).

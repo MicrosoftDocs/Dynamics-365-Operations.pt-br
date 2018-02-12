@@ -53,10 +53,9 @@ Julia usa o seguinte modelo do Excel para preparar o orçamento:
 
 [![Modelo do Excel](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
-<a name="exercise-1-configuration"></a>Ano 1: Configuração
-=========================
+## <a name="exercise-1-configuration"></a>Ano 1: Configuração
 
-## <a name="task-1-create-organizational-hierarchy"></a>**Tarefa 1: Criar hierarquia organizacional**
+### <a name="task-1-create-organizational-hierarchy"></a>**Tarefa 1: Criar hierarquia organizacional**
 Como todo o processo de orçamento ocorre no departamento financeiro, Julia precisa criar uma hierarquia organizacional muito simples – consistindo no departamento financeiro apenas. 1.1. Navegar para as hierarquias da organização (Administração da organização &gt; Organizações &gt; Hierarquias da organização) e clique no botão Novo
 
 ![Hierarquia da organização](./media/screenshot3.png) 
@@ -85,7 +84,7 @@ Como todo o processo de orçamento ocorre no departamento financeiro, Julia prec
 
 [![Data de efetivação](./media/screenshot9.png)](./media/screenshot9.png)
 
-## <a name="task-2-configure-user-security"></a>Tarefa 2: Configurar segurança do usuário
+### <a name="task-2-configure-user-security"></a>Tarefa 2: Configurar segurança do usuário
 O planejamento do orçamento usa políticas de segurança especiais para configurar o acesso aos dados de planejamento do orçamento. Julia precisa conceder a si mesma os planejamentos financeiros do orçamento. 
 
 2.1. Alterne para o contexto da entidade legal do DEMF. 
@@ -109,7 +108,7 @@ O planejamento do orçamento usa políticas de segurança especiais para configu
 
 [![Conceder acesso](./media/screenshot14.png)](./media/screenshot14.png)
 
-## <a name="task-3-create-scenarios"></a>Tarefa 3: Criar cenários
+### <a name="task-3-create-scenarios"></a>Tarefa 3: Criar cenários
 3.1. Navegue até Orçamento&gt;Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento. Na página Cenários, anote os cenários que vamos usar posteriormente neste laboratório: Números reais e valores orçados do ano anterior. 
 
 *Nota: É possível criar novos cenários para este ano, se desejado, e usar esses item.* 
@@ -118,7 +117,7 @@ O planejamento do orçamento usa políticas de segurança especiais para configu
 
 *Observação: como Julia não está usando o processo de aprovação formal para a preparação do orçamento, ignoraremos a configuração das etapas Fluxos de trabalho, Estágios e Fluxo de trabalho neste laboratório e usaremos a configuração existente para o fluxo de trabalho Aprovar automaticamente. Consulte o apêndice desta configuração de fluxo de trabalho.*
 
-## <a name="task-4-create-budget-plan-columns"></a>Tarefa 4: Criar colunas do plano de orçamento
+### <a name="task-4-create-budget-plan-columns"></a>Tarefa 4: Criar colunas do plano de orçamento
 As colunas do plano de orçamento são as colunas monetárias ou de quantidade que podem ser usadas no layout de documento do plano de orçamento. Nosso no exemplo é necessário criar uma coluna para os números reais do ano anterior e 12 colunas para representar cada mês no ano orçado. As colunas podem ser criadas ao clicar no botão Adicionar e preencher os valores ou com a ajuda de uma entidade de dados. Neste laboratório, usaremos a entidade de dados para preencher os valores. 
 
 4.1. Em Orçamento&gt;Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento, abra a página Colunas. Clique no botão Office, no canto superior direito do formulário e escolha Colunas (não filtrado) 
@@ -151,7 +150,7 @@ As colunas do plano de orçamento são as colunas monetárias ou de quantidade q
 
 [![Atualizar](./media/screenshot23.png)](./media/screenshot23.png)
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Tarefa 5: Criar um layouts e modelos para o documento do planejamento do orçamento
+### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>Tarefa 5: Criar um layouts e modelos para o documento do planejamento do orçamento
 O layout define como as linhas grade de documento do plano de orçamento serão exibidas quando o usuário abrir o documento do plano de orçamento. Também é possível alternar o layout para o documento do plano de orçamento para ver os mesmos dados em ângulos diferentes. Agora, como há colunas definidas que podem ser usadas em seu documento do plano de orçamento, Julia deve criar um layout do documento do plano de orçamentos, que se assemelhe à tabela do Excel usada para criar dados do orçamento (consulte visão geral do Cenário na seção neste laboratório) 
 
 5.1. Em Orçamento&gt;Configuração &gt; Planejamento do orçamento &gt; Configuração do planejamento do orçamento, abra a página Layouts. Crie um novo layout para a entrada de orçamento mensal:
@@ -171,7 +170,7 @@ Com base na definição do layout do plano do orçamento, criamos um modelo do E
 
 5.3. &lt; Etapa opcional&gt; Modificar modelo do Excel para ter uma melhor aparência – adicionar fórmulas totais, campos do cabeçalho, formatações etc. Salvar as alterações e carregar o arquivo para o layout do plano do orçamento ao clicar em Layout &gt; Carregar [![Carregar](./media/screenshot26.png)](./media/screenshot26.png)
 
-## <a name="task-6-create-a-budget-planning-process"></a>Tarefa 6: Criar um processo de planejamento do orçamento
+### <a name="task-6-create-a-budget-planning-process"></a>Tarefa 6: Criar um processo de planejamento do orçamento
 Julia precisa criar e ativar um novo processo de planejamento de orçamento que combina a configuração acima para iniciar inserindo planos de orçamento. O processo de planejamento de orçamento define para que as organizações, o fluxo de trabalho, os layouts e os modelos de orçamento serão usados ao criar planos de orçamento. 
 
 6.1. Navegue até Orçamento &gt; Configuração &gt; Planejamento do orçamento &gt; Processo de planejamento do orçamento e crie um novo registro.
@@ -192,10 +191,9 @@ Julia precisa criar e ativar um novo processo de planejamento de orçamento que 
 
 [![Ativar](./media/screenshot28.png)](./media/screenshot28.png)
 
-<a name="exercise-2-process-simulation"></a>Ano 2: Simulação do processo
-==============================
+## <a name="exercise-2-process-simulation"></a>Ano 2: Simulação do processo
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>Tarefa 7: Gerar dados iniciais para o plano do orçamento na contabilidade
+### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>Tarefa 7: Gerar dados iniciais para o plano do orçamento na contabilidade
 7.1. Navegue até Orçamento &gt; Periódico &gt; Gerar plano do orçamento na contabilidade. Preencha os parâmetros do processo do periódico e clique no botão Gerar. 
 
 [![Gerar](./media/screenshot29.png)](./media/screenshot29.png) 
@@ -208,7 +206,7 @@ Julia precisa criar e ativar um novo processo de planejamento de orçamento que 
 
 [![Exibição de plano de orçamento](./media/screenshot31.png)](./media/screenshot31.png)
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Tarefa 8: Crie o orçamento do ano atual com base nos números reais do ano anterior
+### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>Tarefa 8: Crie o orçamento do ano atual com base nos números reais do ano anterior
 Os métodos de alocação podem ser usados no plano de orçamento para copiar facilmente as informações para os planos do orçamento de um cenário para outro/ colá-las nos períodos/alocar para dimensões. Usaremos alocações para criar o orçamento do ano atual a partir de números reais do ano anterior. 
 
 8.1. Selecione todas as linhas na grade do documento do plano do orçamento e clique no botão alocar orçamento 
@@ -223,7 +221,7 @@ Os valores reais do ano anterior serão copiados no orçamento do ano atual e al
 
 [![Curva de vendas](./media/screenshot34.png)](./media/screenshot34.png)
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Tarefa 9: Ajustar o documento do plano do orçamento usando o Excel e finalizar o documento
+### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>Tarefa 9: Ajustar o documento do plano do orçamento usando o Excel e finalizar o documento
 9.1. Clique na planilha Botão para abrir o conteúdo do documento no Excel
 
 [![Excel](./media/screenshot35.png)](./media/screenshot35.png)
@@ -238,8 +236,7 @@ Os valores reais do ano anterior serão copiados no orçamento do ano atual e al
 
 Depois que o fluxo de trabalho é concluído, o estágio do documento do plano do orçamento é alterado para Aprovado. [![Aprovado](./media/screenshot38.png)](./media/screenshot38.png)
 
-<a name="appendix"></a>Anexo
-========
+## <a name="appendix"></a>Anexo
 
 ### <a name="auto-approve-workflow-configuration"></a>Configuração do luxo de trabalho de aprovação automática
 
