@@ -1,7 +1,7 @@
 ---
 title: Antes de comprar
 description: "Diretrizes passo a passo a serem usadas quando você estiver considerando comprar o Dynamics 365 for Finance and Operations, edição Enterprise."
-author: margoc
+author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
 ms.topic: article
@@ -13,14 +13,14 @@ ms.reviewer: margoc
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: margoc
+ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4bd67b15e893613bed14d2bdc1d9a07da81dc26
+ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
+ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 
@@ -35,7 +35,17 @@ Você pode testar o Dynamics 365 for Finance and Operations por 30 dias por meio
 
 ## <a name="step-two-choose-a-deployment-option"></a>Etapa dois: Escolher uma opção de implantação
 Agora você pode implantar o Microsoft Dynamics 365 for Finance and Operations, edição Enterprise na nuvem ou localmente. As implantações na nuvem oferecem um serviço ERP que é totalmente gerenciado pela Microsoft, enquanto as implantações locais são gerenciadas localmente em um centro de dados de cliente.
-Para obter mais informações, consulte: [Opções de implantação](../../dev-itpro/deployment/choose-deployment-type.md) 
+
+As seguintes considerações devem ser executadas quando você escolhe locais como uma opção de implantação:
+- Necessidades regulatórias e de conformidade não estão disponíveis nas [certificações em nuvem](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)
+- O processo de negócios desconectado com conectividade de internet intermitente necessário para acessar o Microsoft Dynamics Lifecycle Services (LCS) para o gerenciamento do ciclo de vida do aplicativo
+- [Recursos não implementados atualmente em implantações locais](features-not-implemented-on-prem.md)
+- [Requisitos mínimos de infraestrutura](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+
+> [!IMPORTANT]
+> As implantações locais do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition não são suportadas em nenhuma infraestrutura de nuvem pública, incluindo o Azure. 
+
+Para obter mais informações, consulte [Opções de implantação](../../dev-itpro/deployment/choose-deployment-type.md).
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>Etapa três: Comprar e gerenciar uma subscrição
 Para explorar opções de subscrição, acesse a página de preços do [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing). Esta página inclui vários planos diferentes para se adequar às necessidades da sua empresa.

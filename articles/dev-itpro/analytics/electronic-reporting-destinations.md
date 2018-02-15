@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 211442c7bd0d3079a5eb4f6d01944c0eddf533af
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: cbe0374ff21ff39ed2bbc8d647bd933ced9dcff6
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -52,7 +52,7 @@ Após você ter criado uma referência, você pode criar um destino de arquivo p
 
 [![Criando um destino do arquivo](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-**Observação:** você pode criar um destino de arquivo para cada componente de saída do mesmo formato, como uma pasta que é selecionada no campo **Nome do arquivo**. Você pode ativar e desativar os destinos individuais para o destino do arquivo na caixa de diálogo **Configurações de destino**. O botão **Configurações** é usado para controlar todos os destinos de um destino de arquivo selecionado. Na caixa de diálogo **Configurações de destino**, você pode controlar cada destino separadamente, definindo a opção **Ativado** para ele.
+> ![OBSERVAÇÃO] Você pode criar um destino de arquivo para cada componente de saída do mesmo formato, como uma pasta ou um arquivo que é selecionado no campo **Nome do arquivo**. Você pode ativar e desativar os destinos individuais para o destino do arquivo na caixa de diálogo **Configurações de destino**. O botão **Configurações** é usado para controlar todos os destinos de um destino de arquivo selecionado. Na caixa de diálogo **Configurações de destino**, você pode controlar cada destino separadamente, definindo a opção **Ativado** para ele.
 
 [![Caixa de diálogo de configurações de destino](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
 
@@ -71,7 +71,7 @@ Quando você clica em **Editar** para o campo **Para** ou **Cc**, a caixa de di�
 
 #### <a name="print-management"></a>Gerenciamento de impressão
 
-Se selecionar o tipo **Imprimir email de gerenciamento**, você pode inserir os endereços de e-mail fixos no campo **Para**. Para usar os endereços de e-mail não fixos, você deve selecionar o tipo de origem de e-mails para um destino de arquivo. Os valores a seguir são suportados: **Cliente**, **Fornecedor**, **Cliente potencial**, **Contato**, **Concorrente**, **Trabalhador**, **Candidato**, **Fornecedor potencial** e **Fornecedor não permitido**. Após selecionar um tipo de origem de email, use o botão ao lado do campo **Conta de origem do email** para abrir o formulário **Designer de fórmulas **. Você pode usar este formulário para anexar uma fórmula que representa a conta de participante selecionada para o destino de email.
+Se selecionar o tipo **Imprimir email de gerenciamento**, você pode inserir os endereços de e-mail fixos no campo **Para**. Para usar os endereços de e-mail não fixos, você deve selecionar o tipo de origem de e-mails para um destino de arquivo. Os valores a seguir são suportados: **Cliente**, **Fornecedor**, **Cliente potencial**, **Contato**, **Concorrente**, **Trabalhador**, **Candidato**, **Fornecedor potencial** e **Fornecedor não permitido**. Após selecionar um tipo de origem de email, use o botão ao lado do campo **Conta de origem do email** para abrir o formulário **Designer de fórmulas**. Você pode usar este formulário para anexar uma fórmula que representa a conta de participante selecionada para o destino de email.
 
 [![Configurar tipo de email do gerenciamento de impressão](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg) 
 
@@ -131,7 +131,7 @@ Dois tipos de direitos e privilégios são usados para destinos de ER. Um tipo c
 | PaymAccountsPayablePaymentsClerk    | Auxiliar de pagamentos de contas a pagar            | ERFormatDestinationRuntimeConfigure | Configurar destino de formato de relatório eletrônico durante o tempo de execução |
 | PaymAccountsReceivablePaymentsClerk | Auxiliar de pagamentos de contas a receber         | ERFormatDestinationRuntimeConfigure | Configurar destino de formato de relatório eletrônico durante o tempo de execução |
 
-**Observação:** dois privilégios são usados em tarefas anteriores. Esses privilégios têm os mesmos nomes que as tarefas correspondentes: **ERFormatDestinationConfigure** e **ERFormatDestinationRuntimeConfigure**.
+> ![OBSERVAÇÃO] Dois privilégios são usados em tarefas anteriores. Esses privilégios têm os mesmos nomes que as tarefas correspondentes: **ERFormatDestinationConfigure** e **ERFormatDestinationRuntimeConfigure**.
 
 ## <a name="frequently-asked-questions"></a>Perguntas frequentes
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>Importei configurações eletrônicas e vejo na página de configurações de relatório eletrônico. Mas por que eu não os vejo na página de destinos de relatórios eletrônicos?
@@ -154,7 +154,7 @@ A fórmula é específica da configuração de ER. Por exemplo, se você usa a c
 
 O pré-requisito é que o formato deve estar disponível nas configurações de ER. Se você tiver o formato, abra a página **Destino de relatórios eletrônico** e crie uma nova referência para esta configuração. Em seguida, você deve ter quatro destinos de arquivo, um para cada componente de saída. Crie o destino do arquivo primeiro, dê a ele um nome como **Pasta** e selecione um nome de arquivo que representa uma pasta na sua configuração. Em seguida, clique em **Configurações** e certifique-se de que todos os destinos estão desativados. Para este destino do arquivo, a pasta não será criada. Por padrão, por causa das dependências hierárquicas entre os arquivos e pastas pai, os arquivos irão se comportar da mesma maneira. Em outras palavras, eles não serão enviados em qualquer lugar. Para substituir esse comportamento padrão, você deve criar três destinos mais de arquivo, um para cada arquivo. Nas configurações de destino de cada um, você deve habilitar o destino em que o arquivo deve ser enviado para.
 
-# <a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte também
 
 [Visão geral do relatório eletrônico](general-electronic-reporting.md)
 

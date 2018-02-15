@@ -19,10 +19,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1c89e526019d08129ec3ff2819242c8d2d4c6b32
+ms.sourcegitcommit: 74b848db12172242d5468a404aa010f86a7ffaa9
+ms.openlocfilehash: 94964d062aaa25419ad1ea3e7379f30c75be8014
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 
@@ -62,8 +62,9 @@ Depois que o status da NF-e for recebido da SEFAZ, você poderá executar as seg
 -   Se a NF-e for rejeitada e não puder ser corrigida, você deverá cancelar a NF-e descartada que tem o número descartado. O processo de exportação ou de importação da NF-e detecta a nota fiscal lançada e marcada para descarte e então gera uma mensagem XML no formato especificado para o número da NF-e descartada. Esta mensagem XML é transmitida à SEFAZ, e o status da nota fiscal é definido é como **Rejeitado**
 
 
-Para obter mais informações, consulte os seguintes tópicos:
+## <a name="additional-resources"></a>Recursos adicionais
 
+ - [Certificação de NF-e](latam-bra-nfe-certs.md)
  - [Configurar parâmetros federais de NF-e (Brasil)](tasks/br-00053-1-set-up-nf-e-federal-parameters.md)
  - [Configurar parâmetros de NF-e para um estabelecimento fiscal (Brasil)](tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md)
  - [Gerar emails para NF-e aprovada e anexar arquivos PDF do DANFE e arquivos XML da NF-e aos emails (Brasil)](tasks/br-00053-3-generate-emails-approved-nf-e-attach-danfe-pdf-files-nf-e-xml-files-emails.md)

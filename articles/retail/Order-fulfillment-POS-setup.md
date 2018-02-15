@@ -6,19 +6,22 @@ manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
-ms.search.scope: 
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
+ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: bb4d8fae432eca7fe9163dcb0763fff5c8d465f0
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 2fa843aee8927a1cb4f642c31d6f5683098d3c74
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -49,9 +52,9 @@ Em nível de loja, a definição da configuração fica disponível para determi
 
 Por padrão, as linhas de ordem atribuídas a uma loja são marcadas como **Aceitas**. Isso significa que é considerado que elas serão atendidas da loja atribuída e não estarão sujeitas à atribuição adicional. Em alguns casos, os varejistas talvez queiram aceitar as ordens manualmente antes de elas serem preenchidas. Por exemplo, se a loja tiver uma equipe pequena e não puder atender as ordens, o gerente da loja só aceitará as ordens para processamento que ele puder processar adequadamente em determinado dia. Até uma ordem ser aceita, ela poderá ser reatribuída pelo back-office para uma loja diferente. Dessa forma, a aceitação da ordem também fornece uma maneira de indicar que a ordem foi confirmada por uma loja e será atendida. 
 
-As linhas de ordem para a retirada da loja são marcadas sempre como **Pendentes** e não estão sujeitas a aceitação.
+As linhas da ordem para retirada na loja estão marcadas como **Pendentes** e não estão sujeitas à aceitação.
 
-Para ativar a aceitação manual ou as linhas da ordem, navegue até **Varejo** > **Canais** > **Lojas de varejo** > **Todas as lojas de varejo**. Selecione a loja e clique no ID para exibir os detalhes da loja. Clique em **Editar**. Na Guia Rápida **Geral**, localize o subcabeçalho **Atendimento da ordem** e altere **Aceitação manual** de **Não** para **Sim**. 
+Para ativar a aceitação manual de linhas da ordem, navegue até **Varejo** > **Canais** > **Lojas de varejo** > **Todas as lojas de varejo**. Selecione a loja e clique no ID para exibir os detalhes da loja. Clique em **Editar**. Na Guia Rápida **Geral**, localize o subcabeçalho **Atendimento da ordem** e altere **Aceitação manual** de **Não** para **Sim**. 
 
 ### <a name="enable-reject-order-line-capability"></a>Habilitar o recurso da linha de ordem de rejeição
 
@@ -114,7 +117,7 @@ Por padrão, as ordens terão o status **Aceitas**. O status da ordem pode ser e
 
 **Pacote** - A opção de pacote oferece suporte a duas ações: **Imprimir guia de remessa** imprimirá uma guia de remessa para as linhas selecionadas, e **Marcar como empacotado** marcará as linhas como empacotadas e marcará as linhas como entregues no back-office. Somente as linhas de ordem que pertencem à mesma ordem e têm o mesmo modo de entrega podem ser embaladas simultaneamente. Os formatos de guia de remessa são controlados como parte dos formatos de recebimento. Para obter mais informações sobre como configurar formatos de recebimento, consulte [Modelos de recibo e impressão](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/receipt-templates-printing).
 
-**Remessa** - A ação de remessa marcará as linhas selecionadas como **Entregue** no back-office. Depois que a linha foi completamente remetida, ela não aparecerá mais na exibição de atendimento da loja.
+**Remessa** - A ação de remessa marcará as linhas selecionadas como **Entregue** no back-office. Depois que a linha for completamente remetida, ela não aparecerá mais na exibição de atendimento da ordem.
 
 **Retirada** - A ação de retirada adiciona as linhas à exibição da transação para retirada. Se houver outras linhas na ordem que não estejam sendo retiradas atualmente, elas serão adicionadas à exibição de transações com quantidade zero. Depois que a linha foi completamente retirada, ela não aparecerá mais na exibição de atendimento da ordem. 
 

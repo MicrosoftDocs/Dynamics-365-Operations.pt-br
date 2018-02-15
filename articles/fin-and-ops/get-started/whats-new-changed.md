@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: f3f6690d661ca30b5f3a9dacc75f7b8c6ec36e24
+ms.sourcegitcommit: ff73fdb3e6ce97e01838228c45795ca64e888add
+ms.openlocfilehash: e00dece6a6f917028379d879ec81a5c7ab210253
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
@@ -116,6 +116,12 @@ Para obter informações sobre como fazer a atualização para a versão mais re
 </tr>
 </thead>
 <tbody>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
+<td>Update 13 para plataforma</td>
+<td>7.0.4764</td>
+<td>Janeiro de 2018 (esta é uma versão específica disponível apenas para usuários que aceitaram o Continuous Auto-update Advantage Program (CAAP).)</td>
+<td><a href="whats-new-platform-update-13.md">O que há de novo ou diferente no Dynamics 365 for Finance and Operations, Enterprise edition com atualização 13 da plataforma (janeiro de 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Update 12 para plataforma</td>

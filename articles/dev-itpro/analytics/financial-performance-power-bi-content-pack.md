@@ -3,7 +3,7 @@ title: "Conteúdo do Power BI de desempenho financeiro"
 description: "Este tópico descreve o Conteúdo do Power BI de desempenho financeiro."
 author: kweekley
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,16 +18,18 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
+ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
+ms.openlocfilehash: 53d0654608e99aa85a5911d76397fbc7fadbf26e
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 
 # <a name="financial-performance-power-bi-content"></a>Conteúdo do Power BI de desempenho financeiro
 
 [!include[banner](../includes/banner.md)]
+
+> [Observação] Esse bloco de conteúdo foi substituído, conforme documentado no [Pacotes de conteúdo do Power BI publicados no PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
 
 Este tópico descreve o Conteúdo do Microsoft Power BI de **Desempenho financeiro**. Ele descreve o painel e os relatórios incluídos, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
 

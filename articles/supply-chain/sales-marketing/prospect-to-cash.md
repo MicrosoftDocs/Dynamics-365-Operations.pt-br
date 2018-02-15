@@ -3,12 +3,12 @@ title: Prospect to cash
 description: "Este tópico fornece uma visão geral da solução Prospect to cash entre o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition e o Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 12/20/2017
+ms.date: 02/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CustTable, SalesTable, EcoResProductListPage
 audience: Application User, IT Pro
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -17,13 +17,13 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: 
 ms.author: crytt
-ms.dyn365.ops.intro: July 2017 update
+ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: f169b0ee20a7ca0c8d05c8bdcf2c04d411722f01
-ms.openlocfilehash: ff166f89d13acbc3aefcbdb39f485881c81cb42c
+ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
+ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/21/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -31,16 +31,20 @@ ms.lasthandoff: 12/21/2017
 
 [!include[banner](../includes/banner.md)]
 
-A solução Prospect to cash fornece sincronização direta entre o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition e o Microsoft Dynamics 365 for Sales. Os modelos Prospect to cash que estão disponíveis com o recurso Integração de Dados permitem o fluxo de dados para contas, contatos, produtos, cotações de vendas, ordens de venda e faturas de vendas entre o Finance and Operations e o Sales. Apesar de os dados estarem fluindo entre o Finance and Operations e o Sales, você pode executar atividades de vendas e de marketing no Sales e pode tratar o atendimento da ordem usando o gerenciamento de estoque no Finance and Operations.
+A solução Prospect to cash fornece sincronização direta entre o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition e o Microsoft Dynamics 365 for Sales. Os modelos Prospect to cash que estão disponíveis com o recurso Integração de Dados permitem o fluxo de dados para contas, contatos, produtos, cotações de vendas, ordens de venda e faturas de vendas entre o Finance and Operations e o Sales. Apesar de os dados estarem fluindo entre o Finance and Operations e o Sales, você pode executar atividades de vendas e de marketing no Sales e pode tratar o atendimento da ordem usando o gerenciamento de estoque no Finance and Operations. 
+
+Para obter mais informações sobre a integração Prospect to cash, assista ao vídeo curto no YouTube:
+
+> [!Video https://www.youtube.com/embed/AVV9x5x-XCg]
 
 Na versão atual, a solução Prospect to cash fornece os seguintes tipos de sincronização direta:
 
 - [Manter contas no Sales e sincronizá-las diretamente do Sales para o Finance and Operations.](accounts-template-mapping-direct.md)
 - [Manter produtos no Finance and Operations e sincronizá-los diretamente para o Sales](products-template-mapping-direct.md)
 - [Manter contatos no Sales e sincronizá-los diretamente para contatos ou clientes do Finance and Operations](contacts-template-mapping-direct.md)
-- [Sincronizar cotação de venda diretamente do Sales para o Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+- [Sincronizar cotação de venda diretamente do Sales para o Finance and Operations (modelo com liberação pendente)](sales-quotation-template-mapping-sales-fin.md)
 - [Sincronizar ordens de venda diretamente do Finance and Operations para o Sales](sales-order-template-mapping-direct.md)
-- [Sincronizar ordens de venda diretamente entre o Sales e o Finance and Operations](sales-order-template-mapping-direct-two-ways.md)
+- [Sincronizar ordens de venda diretamente entre o Sales e o Finance and Operations (modelo com liberação pendente)](sales-order-template-mapping-direct-two-ways.md)
 - [Sincronizar fatura de venda diretamente do Finance and Operations para o Sales](sales-invoice-template-mapping-direct.md)
 
 Nas versões anteriores, a solução Prospect to cash fornece os seguintes tipos de sincronização não direta:
@@ -50,15 +54,19 @@ Nas versões anteriores, a solução Prospect to cash fornece os seguintes tipos
 - [Manter produtos no Finance and Operations e sincronizá-los para o Sales](products-template-mapping.md)
 - [Criar cotações de vendas no Sales e sincronizá-las para o Finance and Operations](sales-quotation-template-mapping.md)
 - [Criar ordens de vendas no Finance and Operations e sincronizá-las para o Sales](sales-order-template-mapping.md)
-- [Criar faturas de venda no Finance and Operations e sincronizá-las com o Sales.](sales-invoice-template-mapping.md)
+- [Criar faturas de vendas no Finance and Operations e sincronizá-las para o Sales](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Requisitos de sistema para Finance and Operations
 
-Para usar a solução Prospect to cash, instale os seguintes componentes:
+A integração Prospect to cash tem suporte nas seguintes versões:
+
+### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (dezembro de 2017)
+
+- Dynamics 365 for Finance and Operations, Enterprise Edition (dezembro de 2017) - compilação do aplicativo 7.3.11971.56116 com atualização de plataforma 12 (7.0.4709.41129)
 
 ### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations, Enterprise Edition (Julho de 2017)
 
-- Dynamics 365 for Finance and Operations, Enterprise Edition (julho de 2017) com atualização da plataforma 8 (compilação do aplicativo 7.2.11792.56024 com compilação de plataforma 7.0.4565.16212)
+- Dynamics 365 for Finance and Operations, Enterprise Edition (julho de 2017) - com atualização de plataforma 8 (compilação do aplicativo 7.2.11792.56024 com compilação de plataforma 7.0.4565.16212).
 - Os seguintes hotfixes são necessários:
 
     - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – Este hotfix permite a sincronização da ordem de venda do Sales para o Finance and Operations através do recurso de Integração de dados. Também fornece diversos outros aprimoramentos.
@@ -68,7 +76,7 @@ Para usar a solução Prospect to cash, instale os seguintes componentes:
     > [!NOTE]
     > Basta instalar o KB4045570, pois a instalação inclui as alterações dos outros hotfixes. 
 
-### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Versão 1611 do Dynamics 365 for Finance and Operations (Novembro de 2016) 
+### <a name="dynamics-365-for-finance-and-operations-version-1611-november-2016"></a>Versão 1611 do Dynamics 365 for Finance and Operations (Novembro de 2016)
 
 - Versão 1611 (Novembro de 2016) do Dynamics 365 for Finance and Operations com atualização da plataforma 8 ou superior
 
@@ -106,4 +114,6 @@ Para usar a solução Prospect to cash, instale os seguintes componentes:
     2. Selecione **Mostrar avançada**.
     3. Para uma instalação rápida, selecione uma região. Se você selecionar **Não sei**, o sistema pesquisará todas as regiões e a instalação demorará mais.
     4. Informe o nome do usuário e a senha de um usuário administrativo que tem os direitos de instalação.
+
+
 
