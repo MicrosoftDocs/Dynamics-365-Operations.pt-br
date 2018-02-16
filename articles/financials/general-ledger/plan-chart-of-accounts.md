@@ -3,14 +3,14 @@ title: Planejar seu plano de contas
 description: "Este artigo fornece informações as quais o ajudarão a planejar o gráfico para sua organização."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 01/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DimensionConfigureAccountStructure, LedgerChartOfAccounts
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 14051
 ms.assetid: 10edb129-33f0-4cf9-b2a7-4b7ffa09b229
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 038886f0a6e1c133a33ee34725eb20352e64341a
+ms.sourcegitcommit: ad55dd57483de4351c8501c5e226180fc73606aa
+ms.openlocfilehash: 3d2cdeaf2fdeb2f587f82c97249886fb8db49154
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/11/2018
 
 ---
 
@@ -45,12 +45,12 @@ Veja alguns dos fatores que você deve considerar ao planejar a estrutura do pla
 -   Os requisitos de relatórios da entidade legal
 -   O grau de especificação é necessário para as duas organizações externas e a sua organização
 
-Crie o plano de contas na página **Plano de contas**. As contas principais podem ser criadas na página **Plano de contas** ou na página **Contas principais**. Sus contas principais não devem usar caracteres especiais utilizados como delimitadores de plano de contas. Se você tiver um caractere especial igual ao delimitador do seu plano de contas, talvez experimente instabilidade ou precise sempre usar pesquisas ou o submenu ao inserir combinações de contas e de dimensões. Para saber mais, consulte [Criar uma conta principal](tasks/create-account-structures.md).
+Crie o plano de contas na página **Plano de contas**. As contas principais podem ser criadas na página **Plano de contas** ou na página **Contas principais**. Sus contas principais não devem usar caracteres especiais utilizados como delimitadores de plano de contas. Se você tiver um caractere especial igual ao delimitador do seu plano de contas, talvez experimente instabilidade ou precise sempre usar pesquisas ou o submenu ao inserir combinações de contas e de dimensões. Para saber mais, consulte [Criar uma conta principal](tasks/create-main-account.md).
 
 
 É recomendável vincular as contas principais a categorias de conta principal, de forma que você possa aproveitar as vantagens dos relatórios financeiros padrão sem ter que fazer modificações. Consequentemente, você poderá projetar e manter relatórios de forma mais rápida e fácil. 
 
-Use a página **Configurar estruturas de conta** para criar estruturas de conta. As estruturas de conta definem as combinações válidas. As combinações, juntamente com as contas principais, formam um plano de contas.  Para saber mais, consulte [Criar estruturas de conta](tasks/create-main-account.md).
+Use a página **Configurar estruturas de conta** para criar estruturas de conta. As estruturas de conta definem as combinações válidas. As combinações, juntamente com as contas principais, formam um plano de contas.  Para saber mais, consulte [Criar estruturas de conta](tasks/create-account-structures.md).
 
 **Substituições de entidade legal** 
 

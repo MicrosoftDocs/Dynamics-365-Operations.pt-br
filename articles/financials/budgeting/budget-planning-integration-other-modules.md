@@ -3,11 +3,12 @@ title: "Integração do plano de orçamento com outros módulos"
 description: "Os planos de orçamento podem ser gerados a partir de vários recursos diferentes. Os elementos básicos do processo periódico são iguais para todos os recursos."
 author: twheeloc
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7663453ddf87bcb43d2f19ebec3c9bda90eda884
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: f50e58d63a9db4d6a8b5390174e2c7b87970717d
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -110,7 +111,7 @@ Não há campo **Classe de orçamento** porque a classe de orçamento (**Despesa
 
 Você pode usar orçamentos de projeto como origem selecionando o modelo de previsão que contém os valores de orçamento do projeto. Lembre-se de que os orçamentos de projeto criam entradas de previsão do projeto à medida que elas são aprovadas.
 
-Para selecionar somente os custos ou as receitas das linhas de plano de orçamento, use o filtro para selecionar **Atualizações de orçamento: Tipo de valor = Custo**. Para selecionar somente um tipo de previsão, use o filtro para selecionar **Atualizações de orçamento: Tipo de transação = *xxx***. 
+Para selecionar somente os custos ou as receitas das linhas de plano de orçamento, use o filtro para selecionar **Atualizações de orçamento: Tipo de valor = Custo**. Para selecionar somente um tipo de previsão, use o filtro para selecionar **Atualizações de orçamento: *Tipo de transação = xxx***. 
 
 Somente um modelo de previsão pode ser usado para gerar um cenário de plano de orçamento. Se você executar o processo para um modelo de previsão e, em seguida, fizer uma atualização e tentar especificar outro modelo, o primeiro modelo será substituído se o mesmo projeto e contas contábeis forem aplicáveis. Para gerar um cenário de plano de orçamento com base em mais de um modelo de previsão, gere cenários de plano de orçamento diferentes e use as opções de alocação para uni-los em outro cenário. 
 

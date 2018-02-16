@@ -3,7 +3,7 @@ title: "Conteúdo do BI Gerenciamento de custo"
 description: "Este tópico descreve o que está incluído no conteúdo do Power BI Gerenciamento de custo."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
+ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
+ms.openlocfilehash: 1f552e1ee0286326e3a2a8bb6a7bfb84df53b45d
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 
@@ -30,10 +30,10 @@ ms.lasthandoff: 12/19/2017
 
 [!include[banner](../includes/banner.md)]
 
+> [Observação] Esse bloco de conteúdo foi substituído, conforme documentado no [Pacotes de conteúdo do Power BI publicados no PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
+
 
 Este tópico descreve o que está incluído no conteúdo do Power BI Gerenciamento de custo. 
-
-# <a name="overview"></a>Visão Geral
 
 O conteúdo do Microsoft Power BI **Gerenciamento de custo** destina-se a contadores de estoque ou indivíduos na organização que são responsáveis pelo estoque. O conteúdo do Power BI **Gerenciamento de custo** fornece uma visão administrativa sobre o estoque e estoque WIP (work-in-progress, trabalho em progresso) e como o custo flui por meio deles por categoria com o passar do tempo. As informações também podem ser usadas como um suplemento detalhado para o demonstrativo financeiro.
 

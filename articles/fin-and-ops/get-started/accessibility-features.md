@@ -1,9 +1,9 @@
 ---
 title: Recursos de acessibilidade
-description: "Este tópico descreve a funcionalidade desenvolvida para ajudar usuários com diversas deficiências. Por exemplo, há recursos para pessoas que usam tecnologias adaptativas visuais, como o Narrador do Windows."
+description: "Este tópico descreve a funcionalidade que é criada para ajudar os usuários portadores de deficiências a usarem o Dynamics 365 for Finance and Operations, Enterprise edition, Dynamics 365 for Retail e Dynamics 365 for Talent."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 11/16/2017
+ms.date: 01/23/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,16 +16,16 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 158caf6c05515069b58121a72df1b7fe16bae236
-ms.openlocfilehash: bd71d2dee7ff7984f2088a64e9943b2541c88451
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: 42b4f670dee95c073ce8dcca16afef83bbf78ff8
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/16/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
 # <a name="accessibility-features"></a>Recursos de acessibilidade
 
-Este tópico descreve a funcionalidade desenvolvida para ajudar usuários com diversas deficiências. Por exemplo, há recursos para pessoas que usam tecnologias adaptativas visuais, como o Narrador do Microsoft Windows.
+Este tópico descreve a funcionalidade que é criada para ajudar os usuários portadores de deficiências a usarem o Dynamics 365 for Finance and Operations, Enterprise edition, Dynamics 365 for Retail e Dynamics 365 for Talent. Por exemplo, há recursos para pessoas que usam tecnologias adaptativas visuais, como o Narrador do Microsoft Windows.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Acesso exclusivo pelo teclado e Narrador do Windows
 
