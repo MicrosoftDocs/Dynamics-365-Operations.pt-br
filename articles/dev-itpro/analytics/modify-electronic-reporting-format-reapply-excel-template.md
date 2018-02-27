@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a>Modificar um formato de relatório eletrônico ao reaplicar um modelo do Microsoft Excel
+
+[!include[banner](../includes/banner.md)]
+
 A ferramenta de relatório eletrônico (ER) é usada para gerar documentos comerciais em um formato eletrônico. Para gerar um documento comercial, crie um formato de ER e use o designer de ER para definir o layout do documento comercial e especificar os dados a serem incluídos nele. Você pode executar o formato de ER para gerar o documento comercial.
 
 A ferramenta de ER pode ser usada para gerar documentos comerciais como arquivos do Microsoft Excel. Você pode usar um documento Excel como um modelo para esses documentos. Para definir o layout do documento no designer de ER, você pode importar o conteúdo do documento em Excel a ser usado como um modelo no formato de ER definido. Para obter detalhes e praticar este cenário, reproduza a guia de tarefas **Criar uma configuração ER para gerar relatórios no formato OPENXML** (parte do processo comercial 7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)).

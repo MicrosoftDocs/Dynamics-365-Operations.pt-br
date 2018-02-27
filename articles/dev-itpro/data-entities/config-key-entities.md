@@ -26,6 +26,9 @@ ms.lasthandoff: 01/19/2018
 ---
 
 # <a name="configuration-keys-and-data-entities"></a>Chaves de configuração e entidades de dados
+
+[!include[banner](../includes/banner.md)]
+
 Antes de usar entidades de dados para importar ou exportar dados, recomendamos que primeiro determine o impacto de chaves de configuração nas entidades de dados que você pretende usar. 
 
 Para saber mais sobre chaves de configuração no Finance and Operations, consulte o [Relatório de códigos de licença e chaves de configuração](../sysadmin/license-codes-configuration-keys-report.md).
