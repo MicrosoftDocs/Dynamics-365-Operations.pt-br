@@ -16,14 +16,17 @@ ms.author: v-gonode
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dc47bfe0f9ba58a982c87d585727d69308f6b47d
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: 8ec3e54dc2f124b00097a24e9f1b234f24e726b3
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
 # <a name="process-electronic-payment-remittances-for-brazil"></a><span data-ttu-id="f9def-103">Processar remessas de pagamento eletrônico para o Brasil</span><span class="sxs-lookup"><span data-stu-id="f9def-103">Process electronic payment remittances for Brazil</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="f9def-104">Utilize esta funcionalidade para criar o arquivo que deve ser enviado ao banco com as instruções para o pagamento eletrônico de faturas do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="f9def-104">Use this functionality to create the file that must be sent to the bank with the instructions for electronic payment of vendor invoices.</span></span>
 
 1.  <span data-ttu-id="f9def-105">Na página **Diário de pagamentos**, clique em **Novo**.</span><span class="sxs-lookup"><span data-stu-id="f9def-105">On the **Payment journal** page, click **New**.</span></span>

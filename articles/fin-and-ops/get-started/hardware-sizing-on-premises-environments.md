@@ -18,14 +18,17 @@ ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fecffd83f32c8424e3ddcd77fb0651631f73c055
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: 32b0d71d98c64ce998acbf5cdc03645401a2be7b
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a><span data-ttu-id="21826-103">Dimensionamento de hardware para ambientes locais</span><span class="sxs-lookup"><span data-stu-id="21826-103">Hardware sizing for on-premises environments</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="21826-104">Antes de iniciar o processo de dimensionamento do hardware e da infraestrutura para um ambiente local, familiarize-se com os [Requisitos de sistema](system-requirements.md) e as [Instruções de configuração e de implantação](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) para obter um sólido conhecimento da infraestrutura subjacente.</span><span class="sxs-lookup"><span data-stu-id="21826-104">Before you begin the hardware and infrastructure sizing process for an on-premises environment, familiarize yourself with the [System requirements](system-requirements.md) and [Setup and deployment instructions](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) to gain a solid understanding off the underlying infrastructure.</span></span> 
 
   <span data-ttu-id="21826-105">**Observação:** preste muita atenção nas práticas recomendadas de configuração de sistema para obter o desempenho ideal.</span><span class="sxs-lookup"><span data-stu-id="21826-105">**Note:** Pay close attention to the system setup best practices for optimum performance.</span></span> 

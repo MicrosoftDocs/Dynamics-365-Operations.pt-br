@@ -16,14 +16,16 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 42b4f670dee95c073ce8dcca16afef83bbf78ff8
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: f0ec24555f44c6dcbc2c84fa7366ca6b48b135f6
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/05/2018
 
 ---
 
 # <a name="accessibility-features"></a><span data-ttu-id="cd65a-103">Recursos de acessibilidade</span><span class="sxs-lookup"><span data-stu-id="cd65a-103">Accessibility features</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="cd65a-104">Este tópico descreve a funcionalidade que é criada para ajudar os usuários portadores de deficiências a usarem o Dynamics 365 for Finance and Operations, Enterprise edition, Dynamics 365 for Retail e Dynamics 365 for Talent.</span><span class="sxs-lookup"><span data-stu-id="cd65a-104">This topic describes the functionality that is designed to help users who have various disabilities use Dynamics 365 for Finance and Operations, Enterprise edition, Dynamics 365 for Retail, and Dynamics 365 for Talent.</span></span> <span data-ttu-id="cd65a-105">Por exemplo, há recursos para pessoas que usam tecnologias adaptativas visuais, como o Narrador do Microsoft Windows.</span><span class="sxs-lookup"><span data-stu-id="cd65a-105">For example, there are features for people who use sight-assistive technologies such as Microsoft Windows Narrator.</span></span>
 
