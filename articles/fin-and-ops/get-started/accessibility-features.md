@@ -25,6 +25,8 @@ ms.lasthandoff: 01/23/2018
 
 # <a name="accessibility-features"></a>Recursos de acessibilidade
 
+[!include[banner](../includes/banner.md)]
+
 Este tópico descreve a funcionalidade que é criada para ajudar os usuários portadores de deficiências a usarem o Dynamics 365 for Finance and Operations, Enterprise edition, Dynamics 365 for Retail e Dynamics 365 for Talent. Por exemplo, há recursos para pessoas que usam tecnologias adaptativas visuais, como o Narrador do Microsoft Windows.
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Acesso exclusivo pelo teclado e Narrador do Windows

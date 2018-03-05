@@ -25,6 +25,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="expense-management-parameters"></a>Parâmetros de gerenciamento de despesas
+
+[!include[banner](../includes/banner.md)]
+
 -----------------------------
 
 Os parâmetros controlam o comportamento geral no Gerenciamento de despesas.

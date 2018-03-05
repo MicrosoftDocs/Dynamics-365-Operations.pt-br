@@ -27,6 +27,8 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>Comparação de recursos de nuvem e locais
 
+[!include[banner](../includes/banner.md)]
+
 Este tópico mostra se cada recurso está disponível nestes produtos:
 
 + Dynamics 365 for Finance and Operations, Enterprise Edition (nuvem)
