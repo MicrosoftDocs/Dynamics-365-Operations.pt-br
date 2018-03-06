@@ -29,6 +29,8 @@ ms.lasthandoff: 10/17/2017
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a>Layouts de tela de dados de demonstração em MPOS/CPOS
 
+[!include[banner](includes/banner.md)]
+
 Este tópico fornece informações sobre os layouts de tela que são incluídos no conjunto de dados de demonstração das experiências do ponto de venda (POS) no Microsoft Dynamics 365 for Retail.
 
 ## <a name="overview"></a>Visão Geral
