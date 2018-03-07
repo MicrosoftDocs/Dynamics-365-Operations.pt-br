@@ -26,6 +26,8 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="credit-and-collections-management-power-bi-content"></a>Conteúdo do Power BI para gerenciamento de crédito e cobranças
 
+[!include[banner](../includes/banner.md)]
+
 Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI para **Gerenciamento de crédito e cobranças**. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
 
 ## <a name="overview"></a>Visão Geral
