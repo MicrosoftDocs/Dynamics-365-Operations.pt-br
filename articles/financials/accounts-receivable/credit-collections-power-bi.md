@@ -17,14 +17,16 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: b1995bd3649b96b8457c83af101180169261b7d1
+ms.sourcegitcommit: 6ce0b7b35264c05555d8b3a18e70484202a289d6
+ms.openlocfilehash: 3832cabb11d67eda7afd7f3d5322c005b36dc1f5
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="credit-and-collections-management-power-bi-content"></a><span data-ttu-id="517fb-104">Conteúdo do Power BI para gerenciamento de crédito e cobranças</span><span class="sxs-lookup"><span data-stu-id="517fb-104">Credit and collections management Power BI content</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="517fb-105">Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI para **Gerenciamento de crédito e cobranças**.</span><span class="sxs-lookup"><span data-stu-id="517fb-105">This topic describes what is included in the **Credit and collections management** Microsoft Power BI content.</span></span> <span data-ttu-id="517fb-106">Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.</span><span class="sxs-lookup"><span data-stu-id="517fb-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 
