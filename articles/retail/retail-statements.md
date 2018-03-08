@@ -20,14 +20,17 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: f9ea6190823a5af951538e0da2760f05896ee993
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: ddceadb797af98f85670df72a335b2714fe2f01e
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 # <a name="retail-statements"></a><span data-ttu-id="f17ab-103">Demonstrativos de varejo</span><span class="sxs-lookup"><span data-stu-id="f17ab-103">Retail statements</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="f17ab-104">No Microsoft Dynamics 365 for Retail, o processo de lançamento de demonstrativo é usado para registrar contabilmente as transações que ocorrem no ponto de venda (PDV) da nuvem ou Modern POS (MPOS).</span><span class="sxs-lookup"><span data-stu-id="f17ab-104">In Microsoft Dynamics 365 for Retail, the statement posting process is used to account for the transactions that occur in Cloud point of sale (POS) or Modern POS (MPOS).</span></span> <span data-ttu-id="f17ab-105">O processos de lançamentos de demonstrativos usa a agenda de distribuição para receber um conjunto de transações PDV no cliente das sedes (HQ).</span><span class="sxs-lookup"><span data-stu-id="f17ab-105">The statement posting process uses the distribution schedule to pull a set of POS transactions into the headquarters (HQ) client.</span></span> <span data-ttu-id="f17ab-106">Os parâmetros definidos nas páginas **Parâmetros de varejo** e **Lojas** são usados para selecionar as transações que são recebidas em demonstrativos individuais.</span><span class="sxs-lookup"><span data-stu-id="f17ab-106">The parameters that are defined on the **Retail parameters** and **Stores** pages are used to select the transactions that are pulled into individual statements.</span></span>  
 
 <span data-ttu-id="f17ab-107">A ilustração a seguir mostra o processo de lançamento do demonstrativo.</span><span class="sxs-lookup"><span data-stu-id="f17ab-107">The following illustration shows the statement posting process.</span></span> <span data-ttu-id="f17ab-108">Nesse processo, as transações que são registradas no PDV são transmitidas para o cliente usando o agendador do Retail.</span><span class="sxs-lookup"><span data-stu-id="f17ab-108">In this process, transactions that are recorded in the POS are transmitted to the client by using the Retail scheduler.</span></span> <span data-ttu-id="f17ab-109">Depois que o cliente receber as transações, você poderá criar, calcular e lançar o demonstrativo de transação para a loja.</span><span class="sxs-lookup"><span data-stu-id="f17ab-109">After the client receives the transactions, you can create, calculate, and post the transaction statement for the store.</span></span> 

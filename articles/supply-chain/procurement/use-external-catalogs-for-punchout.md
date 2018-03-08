@@ -19,14 +19,17 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 24a17d3734e39815684098f694a77e96cdbc1cfe
-ms.openlocfilehash: f755c1e46d5111282bfffdf751fe98beaa081a51
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 76d0c911bdddbc5a34644dc96ec13dd8fd53a338
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/08/2018
 
 ---
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a><span data-ttu-id="b3539-103">Uso de catálogos externos para compras eletrônicas de PunchOut</span><span class="sxs-lookup"><span data-stu-id="b3539-103">Use external catalogs for PunchOut eProcurement</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="b3539-104">Ao usar catálogos externos para PunchOut e-procurement, você não precisa manter informações sobre os produtos de seus fornecedores em seus próprios dados mestre.</span><span class="sxs-lookup"><span data-stu-id="b3539-104">By using external catalogs for PunchOut e-procurement, you don't have to maintain information about your vendors' products in your own master data.</span></span> <span data-ttu-id="b3539-105">Em vez disso, o carrinho de compras no site de um fornecedor é convertido em linhas de requisição que possuem as informações corretas do produto.</span><span class="sxs-lookup"><span data-stu-id="b3539-105">Instead, the shopping cart on a vendor's website is converted to requisition lines that have the correct product information.</span></span> 
 
 <span data-ttu-id="b3539-106">Você deve evitar manter as descrições e os preços dos produtos dos seus fornecedores nos dados mestre do seu próprio produto.</span><span class="sxs-lookup"><span data-stu-id="b3539-106">You should avoid maintaining the descriptions and prices of your vendors’ products in your own product master data.</span></span> <span data-ttu-id="b3539-107">Em vez disso, use catálogos externos para PunchOut e-procurement.</span><span class="sxs-lookup"><span data-stu-id="b3539-107">Instead, use external catalogs for PunchOut e-procurement.</span></span> <span data-ttu-id="b3539-108">Então, quando os funcionários criam requisições, eles podem "ir" ao site do catálogo externo de um fornecedor (em outras palavras, eles saem do seu sistema e vão para o site do fornecedor).</span><span class="sxs-lookup"><span data-stu-id="b3539-108">Then, when employees create requisitions, they can “punch out” to a vendor’s external catalog site (in other words, they leave your system and go to the vendor’s site).</span></span> <span data-ttu-id="b3539-109">Os produtos que são adicionados ao carrinho de compras no site do fornecedor podem então ser convertidos em linhas de requisição.</span><span class="sxs-lookup"><span data-stu-id="b3539-109">The products that are added to the shopping cart on the vendor’s website can then be converted to requisition lines.</span></span> <span data-ttu-id="b3539-110">Portanto, você obtém as informações corretas do produto: identificação do produto, nome, preço e assim por diante.</span><span class="sxs-lookup"><span data-stu-id="b3539-110">Therefore, you get the correct product information: product ID, name, price, and so on.</span></span>
