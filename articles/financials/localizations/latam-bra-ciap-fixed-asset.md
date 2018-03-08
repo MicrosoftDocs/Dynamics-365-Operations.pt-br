@@ -25,6 +25,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="ciap-fixed-asset"></a>Registro do CIAP
 
+[!include[banner](../includes/banner.md)]
+
 ## <a name="acquire-a-ciap-fixed-asset"></a>Adquirir um ativo fixo CIAP
 Use esta funcionalidade para registrar no módulo Livros fiscais a aquisição de um ativo fixo controlado pelo ICMS recuperável a longo prazo.
 

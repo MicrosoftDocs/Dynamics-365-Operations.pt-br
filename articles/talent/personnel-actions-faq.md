@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="personnel-actions-faq"></a>Ações de pessoal [Perguntas frequentes]
+
+[!include[banner](includes/banner.md)]
+
 Este tópico contém respostas para as perguntas que você pode ter se a sua organização utilizar ações de pessoal. As ações de pessoal são etapas adicionais que devem ser concluídas quando você executa algumas tarefas relacionadas a pessoal. Exemplos de tarefas que podem exigir ações de pessoal são quando você cria novas posições, altera valores existentes de posição, contrata novos trabalhadores, transfere trabalhadores, altera a remuneração do trabalhador, altera as atribuições de posição, ou demite trabalhadores.
 
 **Observação:** As ações de pessoal só estão disponíveis se os campos **Habilitar ações do trabalhador** e **Habilitar ações de posição** forem definidos como **Sim**, na guia **Ações de pessoal** na página **Parâmetros compartilhados de recursos humanos**. 

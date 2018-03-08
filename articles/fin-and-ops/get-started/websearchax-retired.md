@@ -27,6 +27,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="websearchax-retired"></a>WebSearchAX desativado
 
+[!include[banner](../includes/banner.md)]
+
 Precisamos desativar a página do WebSearchAX. É recomendável usar a pesquisa do site do seu mecanismo de pesquisa favorito para substituí-lo.  Por exemplo: 
 
 site:technet.microsoft.com dynamics ax 2012 "termo de pesquisa"

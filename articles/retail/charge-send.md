@@ -28,6 +28,8 @@ ms.lasthandoff: 10/10/2017
 
 # <a name="ship-an-order-from-a-different-store"></a>Enviar uma ordem de uma loja diferente
 
+[!include[banner](includes/banner.md)]
+
 Com o recurso Envio de encargos no Dynamics 365 for Retail, as ordens de cliente podem ser feitas em uma loja e ser enviadas de outra. As ordens de clientes no cliente de PDV (ponto de venda) oferecem suporte a várias opções de atendimento. Alguns exemplos de opções de atendimento incluem:
 -   Separar na mesma loja em uma data diferente.
 -   Separar em uma loja diferente na mesma data ou em uma data diferente.

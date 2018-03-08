@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a>Gerar documentos eletrônicos e atualizar dados de aplicativo usando a ferramenta de relatórios eletrônicos
 
+[!include[banner](../includes/banner.md)]
+
 Você pode criar os formatos de Relatório eletrônico (ER) que podem ser usados no aplicativo do Finance and Operations para gerar documentos eletrônicos de saída. Você também pode criar os formatos de ER que analisam documentos eletrônicos de entrada e usam o conteúdo desses documentos para atualizar dados de aplicativo. 
 
 Com esta funcionalidade, um único formato de ER pode ser usado para gerar documentos eletrônicos de saída e, em seguida, atualizar os dados de aplicativo. Este recurso também pode ser usado nestes cenários:

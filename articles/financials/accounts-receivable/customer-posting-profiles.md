@@ -54,10 +54,6 @@ Especifique as contas contábeis que são usadas no lançamento de transações 
 Se desejar que todas as transações de clientes tenham o mesmo perfil de lançamento, configure somente um perfil de lançamento com a opção Todos no campo Código de conta. Especifique os seguintes valores para configurar o perfil de lançamento:
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>Campo</th>

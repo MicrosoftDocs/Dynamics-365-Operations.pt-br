@@ -25,6 +25,9 @@ ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="generate-affordable-care-act-reports"></a>Gerar relatórios segundo a Lei de Serviços de Saúde Acessíveis
+
+[!include[banner](includes/banner.md)]
+
 Esta funcionalidade está disponível para auxiliar empregadores que precisam rastrear as informações relatadas nos formulários 1095-B e 1095-C, em apoio à parte do **Mandato do Empregador** da Lei de Serviços de Saúde Acessíveis. Observe que esta funcionalidade está habilitada somente para entidades legais nos Estados Unidos.
 
 ## <a name="getting-started"></a>Introdução

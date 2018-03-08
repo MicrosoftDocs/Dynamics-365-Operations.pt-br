@@ -27,6 +27,8 @@ ms.lasthandoff: 12/20/2017
 
 # <a name="display-notifications-in-point-of-sale"></a>Exibir notificações no ponto de venda
 
+[!include[banner](includes/banner.md)]
+
 No ambiente de varejo moderno de hoje, são atribuídas várias tarefas aos associados da loja, como auxiliar os clientes, inserir transações, executar contagens de estoque e receber ordens na loja. O cliente do ponto de venda (PDV) capacita os associados a executarem essas tarefas e muito mais, tudo isso com um único aplicativo. Com várias tarefas ser executadas durante um dia, os associados talvez precisem ser notificados quando algo exigir sua atenção. A estrutura de notificação no PDV resolve o problema, permitindo que os fornecedores configurem notificações com base na função. Com o Dynamics 365 for Retail com atualização 5 do Aplicativo, essas notificações somente podem ser configuradas para operações PDV.
 
 Atualmente, o sistema fornece o recurso para exibir notificações para a operação de atendimento da ordem, porém, a estrutura é criada para ser extensível, de forma que no futuro, os desenvolvedores possam gravar um manipulador de notificação para qualquer operação e exibir as notificações no PDV.  

@@ -28,6 +28,8 @@ ms.lasthandoff: 01/19/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Visão geral da pesquisa de produto e de cliente no ponto de venda
 
+[!include[banner](includes/banner.md)]
+
 O Modern Point of Sale (MPOS) e o Cloud Point of Sale (CPOS) oferecem uma funcionalidade de pesquisa fácil de usar que permite armazenar pesquisa de funcionários rapidamente para produtos e clientes. A barra de pesquisa está sempre presente na parte superior do MPOS e do CPOS, de forma que os funcionários possam localizar produtos e clientes rapidamente.
 
 Os funcionários podem procurar produtos nos catálogos e classificações que estão associados ao armazenamento atual e nos catálogos e classificações que estão associados a qualquer outro armazenamento da empresa. Portanto, os caixas podem vender e devolver produtos de fora da classificação de armazenamento. Da mesma forma, os funcionários podem procurar clientes que estão associados ao armazenamento atual ou a qualquer loja da empresa. Além disso, os funcionários podem procurar clientes que estão associados a uma empresa diferente na organização pai.
