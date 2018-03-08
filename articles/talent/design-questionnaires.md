@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="design-a-questionnaire"></a>Criar um questionário
 
+[!include[banner](includes/banner.md)]
+
 Este tópico descreve o processo para criar um questionário. A primeira etapa é criar o questionário. Ao criar um questionário, você grava não apenas as perguntas e respostas, mas também pode criar a estrutura que permite que as respostas sejam registradas e tabuladas. 
 
 Um questionário cuidadosamente desenvolvido pode ajudar a aumentar a qualidade dos dados coletados. Por meio da criação cuidadosa, você pode selecionar melhor as opções adequadas no tempo apropriado de um questionário. Os seguintes pontos podem ajudá-lo a planejar um questionário eficaz:

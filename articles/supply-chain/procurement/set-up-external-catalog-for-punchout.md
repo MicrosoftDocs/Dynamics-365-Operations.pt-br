@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>Configurar um catálogo externo para compras eletrônicas de PunchOut
 
+[!include[banner](../includes/banner.md)]
+
 Ao usar o catálogo externo, você pode garantir que as informações de produtos e preços que você processar posteriormente no Dynamics 365 for Finance and Operations, Enterprise Edition julho de 2017 são precisas e atualizadas. A requisição pode então ser aprovada e convertida em uma ordem de compra e um pedido pode ser colocado no fornecedor.
 
 Quando o catálogo externo for configurado e um funcionário estiver preparando uma requisição, haverá uma opção para redirecionar para um site externo, o catálogo externo e retornar o carrinho de compras que foi criado no site externo. Esta comunicação é baseada no protocolo cXML e deve ser configurada entre os sistemas de compra e a organização de venda.

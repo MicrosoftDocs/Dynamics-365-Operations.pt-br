@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="register-material-consumption-using-a-mobile-device"></a>Registrar o consumo de materiais usando um dispositivo móvel
+
+[!include[banner](../includes/banner.md)]
+
 Este tópico descreve um fluxo de trabalho que permite o registro do consumo de matéria-prima na produção usando um dispositivo portátil.
 
 <a name="introduction"></a>Introdução

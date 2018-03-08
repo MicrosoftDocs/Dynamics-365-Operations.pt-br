@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="process-compensation"></a>Processar remuneração
+
+[!include[banner](includes/banner.md)]
+
 O processamento de remuneração permite calcular novos valores de remuneração básica para seus funcionários com base em ajustes de capital, metas de aumento de mérito e desempenho. Este tópico aborda o fluxo básico de processamento de remuneração para planos de compensação fixa sem ter em conta o desempenho de um funcionário.
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>Planeje os novos montantes e orçamentos de remuneração
