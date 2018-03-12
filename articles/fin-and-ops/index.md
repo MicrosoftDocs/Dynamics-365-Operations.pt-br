@@ -3,7 +3,7 @@ title: "Documentação do Microsoft Dynamics 365 for Finance and Operations, Ent
 description: "Documentação do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2017
+ms.date: 03/02/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
-ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
+ms.sourcegitcommit: 7142c6bcb6e98929afdb8bb982a17efc7223ab12
+ms.openlocfilehash: 0d12082a2b10ae8e83217c5451627239e6ec640b
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -43,9 +43,13 @@ Muito desse conteúdo também se aplica aos produtos relacionados: Microsoft Dyn
 <h3><a href="get-started/before-you-buy.md">Antes de comprar</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">Inscrever-se em uma assinatura Preview</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">Escolher uma opção de implantação</a></p>
-  <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
-  <p><a href="get-started/purchase-on-premises.md">Comprar o Finance and Operations (local)</a></p>
+ <p><a href="get-started/purchase-on-premises.md">Comprar o Finance and Operations (local)</a></p>
 
+<h3><a href="imp-lifecycle/implementation-lifecycle.md">Ciclo de vida da implementação</a></h3>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack para o Dynamics 365</a></p>
+<p><a href="imp-lifecycle/onboard.md">Integrando um projeto</a></p>
+<p><a href="imp-lifecycle/prepare-go-live.md">Preparando para entrar no ar</a></p>
+  
 <h3><a href="../financials/index.md">Gerenciamento financeiro</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Contas a Pagar</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Contas a Receber</a></p>
@@ -94,12 +98,13 @@ Muito desse conteúdo também se aplica aos produtos relacionados: Microsoft Dyn
 <p><a href="../dev-itpro/data-entities/data-entities.md">Gerenciamento de dados</a></p>
 
 <p><a href="../dev-itpro/office-integration/office-integration.md">Integração do Office</a></p>
-<p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Entrega contínua</a></p>
+<p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">Fornecimento contínuo</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">Plataforma móvel</a></p>
 <p><a href="get-started/demo-data.md">Dados de demonstração</a></p>
 
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">Administração</h3>
-<p><a href="../dev-itpro/deployment/choose-deployment-type.md">Implantação</a></p>
+<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">Implantação na nuvem</a></p>
+<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">Implantação local</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">Atualização</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">Manutenção</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">Estrutura de gerenciamento de dados</a></p>

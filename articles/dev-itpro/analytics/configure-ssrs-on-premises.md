@@ -26,6 +26,8 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>Configurar o SQL Server Reporting Services para uma implantação local
 
+[!include[banner](../includes/banner.md)]
+
 Use as etapas neste tópico para configurar o SQL Server Reporting Services (SSRS) para a sua implantação do Microsoft Dynamics 365 for Finance and Operations (local), edição Enterprise.
 
 1. Abra o aplicativo Gerenciador de configuração dos serviços de relatório.
