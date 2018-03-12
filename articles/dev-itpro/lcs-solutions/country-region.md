@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
+ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
+ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -217,6 +217,21 @@ As seções a seguir listam os recursos por país/região.
 -   [Métodos de depreciação de ativos fixos](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
 -   [Mover um ativo fixo para o estoque](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [Ativos fixos de baixo custo](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+
+### <a name="india"></a>Índia
+
+- [Ativos fixos](../../financials/localizations/apac-ind-fixed-assets.md)
+    - [Transferência de itens capitais para o ativo fixo](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
+    - [Anexar um calendário com base diária a um registro de ativos fixos](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
+    - [Configurar parâmetros para calcular a depreciação](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
+    - [Configurar a depreciação do grupo de ativos para os registros de depreciação](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+    - [Criar um grupo de modelo de estoque para itens capitais](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
+    - [Alternar o cálculo de depreciação para ativos fixos da Índia](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
+    - [Definir o tipo de alternância e setor para os registros e anexá-los ao ativo fixo](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
+- [Visão geral do mecanismo de cálculo de impostos](../../financials/general-ledger/tax-engine.md)
+    - [Integração do mecanismo de cálculo de impostos](../../financials/general-ledger/tax-engine-integration.md)
+    - [Perguntas frequentes sobre limites de impostos](../../financials/localizations/apac-ind-tax-thresholds.md)
+    - [Estendendo o mecanismo de cálculo de impostos](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
 ### <a name="italy"></a>Itália
 

@@ -1,7 +1,7 @@
 ---
 title: "Roteiros e operações"
 description: "Este tópico fornece informações sobre roteiros e operações."
-author: YuyuScheller
+author: sorenva
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
