@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
-ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -46,15 +46,6 @@ Na versão atual, a solução Prospect to cash fornece os seguintes tipos de sin
 - [Sincronizar ordens de venda diretamente do Finance and Operations para o Sales](sales-order-template-mapping-direct.md)
 - [Sincronizar ordens de venda diretamente entre o Sales e o Finance and Operations (modelo com liberação pendente)](sales-order-template-mapping-direct-two-ways.md)
 - [Sincronizar fatura de venda diretamente do Finance and Operations para o Sales](sales-invoice-template-mapping-direct.md)
-
-Nas versões anteriores, a solução Prospect to cash fornece os seguintes tipos de sincronização não direta:
-
-- [Manter contas no Sales e sincronizá-las para o Finance and Operations.](accounts-template-mapping.md)
-- [Manter contatos no Sales e sincronizá-los para o Finance and Operations](contacts-template-mapping.md)
-- [Manter produtos no Finance and Operations e sincronizá-los para o Sales](products-template-mapping.md)
-- [Criar cotações de vendas no Sales e sincronizá-las para o Finance and Operations](sales-quotation-template-mapping.md)
-- [Criar ordens de vendas no Finance and Operations e sincronizá-las para o Sales](sales-order-template-mapping.md)
-- [Criar faturas de vendas no Finance and Operations e sincronizá-las para o Sales](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Requisitos de sistema para Finance and Operations
 
@@ -87,7 +78,7 @@ A integração Prospect to cash tem suporte nas seguintes versões:
     - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - É necessário o suporte para integração de prospect to cash através de entidades de dados.
     
     > [!NOTE]
-    > Após a instalação dos hotfixes, você deve disparar o seguinte trabalho em lotes do formulário **SalesPopulateProspectToCash**. Este formulário fica oculto, pois você só precisa dele uma vez. Para acessar o formulário, faça logon no ambiente e adicione o seguinte ao URL em seu endereço do navegador: &mi=action:SalesPopulateProspectToCash, por exemplo, https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash. Ao abrir o formulário, clique em OK. Será preenchido um novo campo **LineCreationSequnceNumber** nas tabelas **SalesLine**, **SalesQuotationLine** e **CustInvoiceTrans** com valores exclusivos e a lista de produtos será atualizada. Isso é necessário para que a integração do Prospect to cash funcione.
+    > Após a instalação dos hotfixes, você deve disparar o seguinte trabalho em lotes do formulário **SalesPopulateProspectToCash**. Este formulário fica oculto, pois você só precisa dele uma vez. Para acessar o formulário, faça logon no ambiente e adicione o seguinte ao URL no endereço do navegador: &mi=action:SalesPopulateProspectToCash, por exemplo, `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Ao abrir o formulário, clique em OK. Será preenchido um novo campo **LineCreationSequnceNumber** nas tabelas **SalesLine**, **SalesQuotationLine** e **CustInvoiceTrans** com valores exclusivos e a lista de produtos será atualizada. Isso é necessário para que a integração do Prospect to cash funcione.
 
 
 ## <a name="system-requirements-for-sales"></a>Requisitos do sistema para Sales
@@ -96,12 +87,6 @@ Para usar a solução Prospect to cash, instale os seguintes componentes:
 
 - Dynamics 365 for Sales versão 1612 (8.2.1.207) (DB 8.2.1.207) online
 - Solução Prospect to cash para Dynamics 365 for Sales, versão 1.15.0.0 (v15) 
-
-   > [!NOTE]
-   >
-   > Os modelos com versões 1.0.0.0 e 1.0.0.1 têm suporte na solução Prospect to cash para Dynamics 365 for Sales, versão 1.14.1.0
-   >
-   > Os modelos com versões 2.0.0.0 e 2.1.0.0 têm suporte na solução Prospect to cash para Dynamics 365 for Sales, versão 1.15.0.0
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>Instale a solução Prospect to cash para Sales
 

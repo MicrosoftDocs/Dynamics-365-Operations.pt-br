@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 6b896c28f475a8f827a1db1b6dd684b6ec64e872
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 6772c1d7906db27333206ea2ecd5a0585c3eb939
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -128,7 +128,7 @@ Uma restrição de tabela definida pelo sistema representa um mapeamento entre u
 </tr>
 <tr class="even">
 <td>Subcomponentes</td>
-<td>Os subcomponentes refletem a estrutura de árvore do modelo de configuração de produto. É possível usar subcomponentes para compilar a estrutura do modelo de configuração de produto. Os subcomponentes fazem referência a componentes existentes. Portanto, os subcomponentes incentivam a reutilização de componentes em vários modelos de configuração de produto. Na página <strong>Detalhes da linha de BOM</strong> para um subcomponente, é possível selecionar um valor distinto para o subcomponente. Como alternativa, é possível selecionar um atributo para o qual o valor é selecionado quando o modelo de configuração de produto é configurado. Para incluir um produto como um componente ou um subcomponente, é necessário especificar as seguintes informações na página<strong> Criar produto</strong> quando você criar o produto:
+<td>Os subcomponentes refletem a estrutura de árvore do modelo de configuração de produto. É possível usar subcomponentes para compilar a estrutura do modelo de configuração de produto. Os subcomponentes fazem referência a componentes existentes. Portanto, os subcomponentes incentivam a reutilização de componentes em vários modelos de configuração de produto. Na página <strong>Detalhes da linha de BOM</strong> para um subcomponente, é possível selecionar um valor distinto para o subcomponente. Como alternativa, é possível selecionar um atributo para o qual o valor é selecionado quando o modelo de configuração de produto é configurado. Para incluir um produto como um componente ou um subcomponente, é necessário especificar as seguintes informações na página <strong>Criar produto</strong> quando você criar o produto:
 <ul>
 <li>No campo <strong>Tipo de produto</strong>, selecione <strong>Item</strong>.</li>
 <li>No campo <strong>Subtipo do produto</strong>, selecione <strong>Produto mestre</strong>.</li>

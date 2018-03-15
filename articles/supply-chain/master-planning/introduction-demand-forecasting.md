@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ff26974951dc75ee0c6a81b10d296b8c16b329af
+ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
+ms.openlocfilehash: 6a0455c5d86f953e270501a7f1648f7700f717d0
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 
@@ -87,6 +87,8 @@ A previsão de demanda no Finance and Operations é uma ferramenta que ajuda os
 [Monitorando a precisão da previsão](monitor-forecast-accuracy.md)
 
 [Remover exceções de dados históricos de transação ao calcular uma previsão de demanda](remove-historical-outliers-calculating-demand-forecast.md)
+
+[Estender a funcionalidade de previsão de demanda](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 
 
 

@@ -1,5 +1,5 @@
 --- 
-title: " Definir canal de call center e atributos de canal"
+title: Definir canal de call center e atributos de canal
 description: Este procedimento orienta como criar um novo canal de varejo e definir atributos do canal.
 author: mugunthanm
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c3d2f6785b9054ede7ea96ebd48c5d1f23e510e7
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 1418f04d8fb4d05756ac7a5f4b92a1950037be1d
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="define-call-center-channel-and-channel-attributes"></a> Definir canal de call center e atributos de canal
+# <a name="define-call-center-channel-and-channel-attributes"></a>Definir canal de call center e atributos de canal
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 

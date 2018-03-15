@@ -1,5 +1,5 @@
 --- 
-title: " Criar grupos de permissões de PDV"
+title: "Criar grupos de permissões de PDV"
 description: "Este procedimento mostra como criar um grupo de permissões de PDV."
 author: scott-tucker
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e924dc59c3e4cb9b6979014852512453dd3d70db
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: bcda7c3a5c2cc97fbc6e4945e4d5f0ec42a7a478
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="create-pos-permission-groups"></a> Criar grupos de permissões de PDV
+# <a name="create-pos-permission-groups"></a>Criar grupos de permissões de PDV
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 

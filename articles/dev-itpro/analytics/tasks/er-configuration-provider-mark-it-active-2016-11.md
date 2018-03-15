@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 2dfa04f280249884af2a237807fb283059444a6c
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 018aee917c13f576759ebd812d31cbc9d83e2d1a
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 # <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>Criar um provedor de configuração e marcá-lo como ativo para relatórios eletrônicos (ER)
@@ -33,11 +33,10 @@ As etapas a seguir explicam como um usuário atribuído ao Administrador do Sist
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
 2. Clique em Provedores de configuração.
 3. Clique em Novo.
-    * Um registro de fornecedor tem nome e URL exclusivos. Revise o conteúdo desta página e ignore este procedimento se um registro para Litware, Inc. (http://www.litware.com) já existir.  
+    * Um registro de fornecedor tem nome e URL exclusivos. Revise o conteúdo dessa página e ignore esse procedimento se um registro para Litware, Inc. (`http://www.litware.com`) já existir.  
 4. No campo Nome, digite 'Litware, Inc.'.
     * Litware, Inc.  
-5. No campo da internet, digite 'http://www.litware.com'.
-    * http://www.litware.com  
+5. No campo Endereço na Internet, digite `http://www.litware.com`.
 6. Clique em Salvar.
 7. Feche a página.
 

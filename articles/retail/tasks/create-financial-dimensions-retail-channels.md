@@ -1,5 +1,5 @@
 --- 
-title: " Criar dimensões financeiras para canais de varejo e configurar valores de dimensão em lojas"
+title: "Criar dimensões financeiras para canais de varejo e configurar valores de dimensão em lojas"
 description: "Este procedimento mostra a criação de uma dimensão financeira de canal de varejo com os valores de dimensão e as etapas para configurar valores de dimensão financeira em lojas de varejo."
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 56b586e971cfd4684f3c0b259270cc8b31521ac9
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 5ab4df61ab1e1346eaaf5c586f54a06b7b7432e1
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a> Criar dimensões financeiras para canais de varejo e configurar valores de dimensão em lojas
+# <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>Criar dimensões financeiras para canais de varejo e configurar valores de dimensão em lojas
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 

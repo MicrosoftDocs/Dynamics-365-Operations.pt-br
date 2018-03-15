@@ -1,6 +1,6 @@
 ---
 title: "Configurar relatório eletrônico para receber dados do Power BI"
-description: "Este tópico explica como você pode usar suas configurações de ER (Relatório eletrônico) para organizar a transferência de dados da sua instância do Finance and Operations para os serviços do Power BI. Como exemplo, este tópico usa transações intrastat como os dados comerciais que devem ser transferidos. A visualização de mapa do Power BI usa esses dados de transação intrastat para apresentar uma exibição para a análise das atividades de importação/exportação da empresa no relatório do Power BI."
+description: "Este tópico explica como você pode usar suas configurações de ER (Relatório eletrônico) para organizar a transferência de dados da sua instância do Finance and Operations para os serviços do Power BI."
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,14 +18,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 90749012c3eb4f3d1c275f0661f8cff43ec285a2
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 
-# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Configurar relatório eletrônico para receber dados do Power BI
+# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Configurar Relatório eletrônico para efetuar pull de dados no Power BI
 
 [!include[banner](../includes/banner.md)]
 
@@ -100,22 +100,38 @@ Clique no botão **Configurações** para o novo registro de destino. Em seguida
 2.  No campo **SharePoint**, selecione o tipo de documento **Compartilhado** que você criou anteriormente.
 
 ## <a name="schedule-execution-of-the-configured-er-format"></a>Programar a execução do formato ER configurado
-Na página **Configurações** (**Administração da organização** &gt; **Relatório eletrônico** &gt; **Configurações**), na árvore de configurações, selecione a configuração **Atividades de importação/exportação** que você criou anteriormente. Altere o status da versão 1.1 de **Rascunho** para **Concluído** para tornar o formato disponível para uso. [![Página de configurações](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) Selecione a versão completa da configuração **Atividades de importação/exportação** e clique em **Executar**. Observe que o destino configurado será aplicado ao resultado de saída que é gerado no formato Excel. Defina a opção **Processamento em lotes** como **Sim** para executar o relatório no modo autônomo. Clique em **Recorrência** para agendar a recorrência exigida desta execução de lote. A recorrência define a frequência com que os dados atualizados serão transferidos do Finance and Operations para o Power BI. [![Caixa de diálogo Parâmetros do relatório eletrônico](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) Após ser configurado, você pode localizar o job de execução do relatório do ER na página **Trabalhos em lote** (**Administração do sistema &gt; Consultas &gt; Trabalhos em lote**). [![Página Trabalhos em lote](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) Quando esse trabalho for executado pela primeira vez, o destino criará um novo arquivo do Excel que tem o nome configurado na pasta do SharePoint selecionada. Cada vez subsequente que o trabalho for executado, o destino criará uma nova versão desse arquivo do Excel. [![Nova versão do arquivo do Excel](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
+1. Na página **Configurações** (**Administração da organização** &gt; **Relatório eletrônico** &gt; **Configurações**), na árvore de configurações, selecione a configuração **Atividades de importação/exportação** que você criou anteriormente. 
+2. Altere o status da versão 1.1 de **Rascunho** para **Concluído** para tornar o formato disponível para uso. [![Página Configurações](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) 
+3. Selecione a versão concluída da configuração **Atividades de importação/exportação** e clique em **Executar**. Observe que o destino configurado será aplicado ao resultado de saída que é gerado no formato Excel. 
+4. Defina a opção **Processamento em lotes** como **Sim** para executar o relatório no modo autônomo. 
+5. Clique em **Recorrência** para agendar a recorrência exigida desta execução de lote. A recorrência define a frequência com que os dados atualizados serão transferidos do Finance and Operations para o Power BI. [![Caixa de diálogo Parâmetros de relatório eletrônico](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) 
+6. Após ser configurado, você poderá encontrar o trabalho de execução do relatório de ER na página **Trabalhos em lotes** (**Administração do sistema &gt; Consultas &gt; Trabalhos em lotes**). [![Página Trabalhos em lotes](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) 
+7. Quando esse trabalho for executado pela primeira vez, o destino criará um novo arquivo do Excel que tem o nome configurado na pasta do SharePoint selecionada. Cada vez subsequente que o trabalho for executado, o destino criará uma nova versão desse arquivo do Excel. [![Nova versão do arquivo do Excel](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>Criar um conjunto de dados do Power BI usando o resultado de saída do formato ER
-Entre no Power BI e abra um grupo existente do Power BI (espaço de trabalho) ou crie um novo grupo. Clique em **Adicionar** em **Arquivos** na seção **Importar ou Conectar aos Dados** ou clique no sinal de mais (**+**) próximo ao painel esquerdo **Conjuntos de dados**. [![Criando um conjunto de dados](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) Selecione a opção **SharePoint – Sites de equipe** e informe o caminho do Servidor do SharePoint que você está usando (**https://ax7partner.litware.com** em nosso exemplo). Navegue até a pasta **/Documentos compartilhados/Dados GER/PowerBI** e selecione o arquivo do Excel que você criou como a fonte de dados para o novo conjunto de dados do Power BI. [![Selecionando o arquivo do Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) Clique em **Conectar** e depois em **Importar**. Um novo conjunto de dados será criado com base no arquivo do Excel selecionado. O conjunto de dados também pode ser adicionado automaticamente ao painel recém-criado. [![Conjunto de dados no painel](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) Configure a agenda de atualização deste conjunto de dados para forçar uma atualização periódica. As atualizações periódicas habilitam o consumo de novos dados comerciais que vêm do Finance and Operations pela execução periódica do relatório de ER por meio das novas versões do arquivo do Excel que são criadas no SharePoint Server.
+1. Entre no Power BI e abra um grupo existente do Power BI (espaço de trabalho) ou crie um novo grupo. Clique em **Adicionar** em **Arquivos** na seção **Importar ou Conectar aos Dados** ou clique no sinal de mais (**+**) próximo ao painel esquerdo **Conjuntos de dados**. [![Criando um conjunto de dados](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) 
+2. Selecione a opção **SharePoint – Sites de equipe** e insira o caminho do SharePoint Server que você está usando (`https://ax7partner.litware.com` em nosso exemplo) 
+3. Navegue até a pasta **/Documentos compartilhados/Dados GER/PowerBI** e selecione o arquivo do Excel que você criou como a fonte de dados para o novo conjunto de dados do Power BI. [![Selecionando o arquivo do Excel](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) 
+4. Clique em **Conectar** e, em seguida, clique em **Importar**. Um novo conjunto de dados será criado com base no arquivo do Excel selecionado. O conjunto de dados também pode ser adicionado automaticamente ao painel recém-criado. [![Conjunto de dados no painel](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) 
+5. Configure a agenda de atualização deste conjunto de dados para forçar uma atualização periódica. As atualizações periódicas habilitam o consumo de novos dados comerciais que vêm do Finance and Operations pela execução periódica do relatório de ER por meio das novas versões do arquivo do Excel que são criadas no SharePoint Server.
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Criar um relatório do Power BI usando o novo conjunto de dados
-Para criar um novo relatório do Power BI, clique no conjunto de dados do Power BI **Detalhes de importação e exportação** que você criou. Em seguida, configure a visualização. Por exemplo, selecione a visualização **Mapa Coroplético** e configure-o da seguinte maneira:
+1. Clique no conjunto de dados do Power BI **Detalhes de importação e exportação** que você criou. 
+2. Configure a visualização. Por exemplo, selecione a visualização **Mapa Coroplético** e configure-o da seguinte maneira:
+ -   Atribua o campo do conjunto de dados **CountryOrigin** ao campo **Localização** da visualização de mapa.
+ -   Atribua o campo do conjunto de dados **Valor** ao campo **Saturação da cor** da visualização de mapa.
+ -   Adicione os campos dos conjuntos de dados **Atividade** e **Ano** à coleção de campos **Filtros** da visualização de mapa.
 
--   Atribua o campo do conjunto de dados **CountryOrigin** ao campo **Localização** da visualização de mapa.
--   Atribua o campo do conjunto de dados **Valor** ao campo **Saturação da cor** da visualização de mapa.
--   Adicione os campos dos conjuntos de dados **Atividade** e **Ano** à coleção de campos **Filtros** da visualização de mapa.
-
-Salve o relatório do Power BI como **Relatório de detalhes de importação e exportação**. [![Relatório de detalhes de importação e exportação](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Observe que o mapa mostra os países/regiões que são mencionados no arquivo do Excel (Áustria e Suíça neste exemplo.) Esses países/regiões estão coloridos para mostrar a proporção de valores faturados para cada um. Atualize a lista das transações intrastat. A transação de exportação originada da Itália será adicionada. [![Lista de transações intrastat](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) Aguarde a próxima execução do relatório de ER agendada e a próxima atualização agendada do conjunto de dados do Power BI. Em seguida, revise o relatório do Power BI (selecione a opção para mostrar as transações de importação somente). O mapa atualizado agora mostrará a Itália. [![Mapa atualizado](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
+3. Salve o relatório do Power BI como **Relatório de detalhes de importação e exportação**. [![Relatório de detalhes de importação e exportação](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Observe que o mapa mostra os países/regiões que são mencionados no arquivo do Excel (Áustria e Suíça neste exemplo.) Esses países/regiões estão coloridos para mostrar a proporção de valores faturados para cada um. 
+4. Atualize a lista das transações intrastat. A transação de exportação originada da Itália será adicionada. [![Lista de transações intrastat](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) 
+5. Aguarde a próxima execução do relatório de ER agendada e a próxima atualização agendada do conjunto de dados do Power BI. Em seguida, revise o relatório do Power BI (selecione a opção para mostrar as transações de importação somente). O mapa atualizado agora mostrará a Itália. [![Mapa atualizado](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance-and-operations"></a>Acessar o relatório do Power BI no Finance and Operations.
-Configurar a integração entre o Finance and Operations e o Power BI. Para saber mais, consulte [Configurando a integração do Power BI para espaços de trabalho](configure-power-bi-integration.md). Na página do espaço de trabalho **Relatório eletrônico** que suporta integração do Power BI (**Administração da organização** &gt; **Espaços de trabalho** &gt; **Espaço de trabalho do relatório eletrônico**), clique em **Opções** &gt; **Abrir catálogo de relatórios**. Selecione o relatório do Power BI **Detalhes de importação e exportação** que você criou para mostrar esse relatório como um item de ação na página selecionada. Clique no item de ação para abrir a página do Finance and Operations que mostra o relatório que você criou no Power BI. [![Relatório de detalhes de importação e exportação](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
+Configurar a integração entre o Finance and Operations e o Power BI. Para saber mais, consulte [Configurando a integração do Power BI para espaços de trabalho](configure-power-bi-integration.md). 
+
+1. Na página do espaço de trabalho **Relatório eletrônico** que suporta integração do Power BI (**Administração da organização** &gt; **Espaços de trabalho** &gt; **Espaço de trabalho do relatório eletrônico**), clique em **Opções** &gt; **Abrir catálogo de relatórios**. 
+2. Selecione o relatório do Power BI **Detalhes de importação e exportação** que você criou para mostrar esse relatório como um item de ação na página selecionada. 
+3. Clique no item de ação para abrir a página do Finance and Operations que mostra o relatório que você criou no Power BI. [![Relatório de detalhes de importação e exportação](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
 <a name="see-also"></a>Consulte também
 --------

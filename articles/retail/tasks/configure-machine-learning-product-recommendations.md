@@ -1,5 +1,5 @@
 --- 
-title: " Configurar recomendações de produto fornecidas pelo aprendizado de máquina"
+title: "Configurar recomendações de produto fornecidas pelo aprendizado de máquina"
 description: "Este processo atualiza os dados no Repositório de Entidades que é usado pelo sistema de aprendizado de máquina que fornece recomendações de produto e habilita as recomendações de produto nos PDV clientes."
 author: ashishmsft
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e32c7cf1283487cb7a52f7d8e261b6b587b76364
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 277ffb879b80fe57deeaa2b52c1543baaf820274
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="configure-machine-learning-powered-product-recommendations"></a> Configurar recomendações de produto fornecidas pelo aprendizado de máquina
+# <a name="configure-machine-learning-powered-product-recommendations"></a>Configurar recomendações de produto fornecidas pelo aprendizado de máquina
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 

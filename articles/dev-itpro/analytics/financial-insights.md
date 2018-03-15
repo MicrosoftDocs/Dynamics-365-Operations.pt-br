@@ -3,7 +3,7 @@ title: Insights financeiros
 description: "Os insights financeiros usam o Microsoft Power BI para reunir indicadores chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros."
 author: kweekley
 manager: AnnBe
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 3da5344ec6edec0af28aa21d45af962307231e67
+ms.sourcegitcommit: d527df21e791978b41527c01c2e6b68b393861ac
+ms.openlocfilehash: 90dc6214f1eb31440a3ec78a58c6a07394245cd2
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/28/2018
 
 ---
 
@@ -102,10 +102,15 @@ Atualmente, os dados nos relatórios do Power BI incorporados não podem ser lim
 | Exibir insights financeiros interempresariais   | •   No Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3, esta obrigação não está atribuída a uma função. • Na próxima versão, essa obrigação será atribuída à função Diretor financeiro. | •    Esta obrigação fornece acesso ao item de menu do espaço de trabalho visão geral de CFO. •   Por padrão, a empresa ativa é usada como um filtro. Entretanto, você pode adicionar todas as entidades legais, independentemente de o usuário ter acesso às outras entidades legais.             |
 
 
-## <a name="how-financial-statements-work"></a>Como funcionam os demonstrativos financeiros
-Embora os **Insights financeiros** não contenham demonstrativos financeiros, eles não são uma substituição do Relatório financeiro no Finance and Operations. Os demonstrativos financeiros padrão nos **Insights financeiros** são limitados no escopo e não incluem todos os tipos de demonstrativos financeiros. O relatório financeiro ainda é a ferramenta principal para projetar, criar e gerar demonstrativos financeiros estatutários.
+## <a name="financial-reporting-vs-finanical-insights"></a>Relatório financeiro em comparação com Insights financeiros
+Embora os **Insights financeiros** contenham demonstrativos financeiros, eles não são uma substituição do Relatório financeiro no Finance e Operations. Os demonstrativos financeiros padrão nos **Insights financeiros** são limitados no escopo e não incluem todos os tipos de demonstrativos financeiros. O relatório financeiro ainda é a ferramenta principal para projetar, criar e gerar demonstrativos financeiros estatutários.
 
-Além dos elementos visuais do espaço de trabalho **Visão geral de CFO** original, novos KPIs, gráficos e demonstrativos financeiros agora estão disponíveis. Os seguintes demonstrativos financeiros estão disponíveis:
+O gráfico de comparação a seguir ajudará a diferenciar as duas opções:
+
+|                                         | **Relatórios Financeiros**                            | **Insights financeiros**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Editar relatórios padrão**                | Sim                                                | Não                                 | | **Criar novos relatórios**                  | Sim                                                | Não                                 | | **Imprimir relatórios**                       | Sim                                                | Não                                | | **Exportar para Excel**                     | Sim          | Exporta de forma limitada dados não processados para Excel, não é um relatório formatado       | | **Oferece suporte a relatório hierárquico/hierárquico organizacional**   | Sim                               | Não                                 | | **Relatar em razão auxiliar**       | Sim. Limitado apenas a fornecedor, cliente    | Sim. Fornecedor, cliente, grupos de fornecedor/clientes, endereços de fornecedor/cliente, etc.  | | **Moeda de relatório**      | Sim. Moeda contábil e adaptação para moeda de relatório       | Não. Apenas moeda contábil      | | **Segurança**                | Sim. Adere a Finance e Operations e segurança da árvore de relatório | Relatórios de exibição limitada de todas as empresas (independentemente de segurança de Finance e Operations) ou apenas empresa ativa | | **Oferece suporte a gráfico diferente de contas e anos fiscais** | Sim                   | Não                   | | **Relatar em dados externos**                              | Não                   | Não                                   | | **Suportar consolidações**                               | Sim                          | Limitado. Pode relatar em variadas empresas, mas usa apenas moeda contábil                                     |
+
+
+Além dos elementos de interface do usuário no espaço de trabalho **Visão geral de CFO** original, novos KPIs, gráficos e demonstrativos financeiros agora estão disponíveis. Os seguintes demonstrativos financeiros estão disponíveis:
 
 •   Balancete
 

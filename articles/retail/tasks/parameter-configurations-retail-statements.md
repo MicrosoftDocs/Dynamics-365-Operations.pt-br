@@ -1,5 +1,5 @@
 --- 
-title: " Configurações de parâmetro para obter demonstrativos de varejo"
+title: "Configurações de parâmetro para obter demonstrativos de varejo"
 description: "Este procedimento demonstra configurações dos parâmetros de varejo que afetam como as instruções de varejo foram criadas e lançadas."
 author: josaw1
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 731a3ec06efa103ba663df83240c77dfe78bb7cd
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 0c93633e92221264cc6a67c74d62edaa59bdbd2f
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="parameter-configurations-for-retail-statements"></a> Configurações de parâmetro para obter demonstrativos de varejo
+# <a name="parameter-configurations-for-retail-statements"></a>Configurações de parâmetro para obter demonstrativos de varejo
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 

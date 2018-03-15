@@ -1,5 +1,5 @@
 --- 
-title: " Configurações de loja para obter demonstrativos de varejo"
+title: "Configurações de loja para obter demonstrativos de varejo"
 description: "Este procedimento mostra configurações da loja de Varejo que afetam como as instruções de Varejo foram criadas e lançadas."
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
-ms.openlocfilehash: 45aa0caf6fcef4cc49952557a251dd78f816125e
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 441ba692f559f9966f3e2512c7760ad2f732b768
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="store-configurations-for-retail-statements"></a> Configurações de loja para obter demonstrativos de varejo
+# <a name="store-configurations-for-retail-statements"></a>Configurações de loja para obter demonstrativos de varejo
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
