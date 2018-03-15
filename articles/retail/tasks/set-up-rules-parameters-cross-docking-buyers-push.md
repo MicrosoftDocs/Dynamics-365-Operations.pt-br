@@ -1,5 +1,5 @@
 --- 
-title: " Configurar regras e parâmetros para a distribuição integrada e a compra centralizada"
+title: "Configurar regras e parâmetros para a distribuição integrada e a compra centralizada"
 description: Este procedimento demonstra as etapas para criar regras de reabastecimento.
 author: josaw1
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1ff41a18be066b6f32c5172bda38c389e7f34128
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: f3a20b7bf476cae854c7f7c86d89d73e44b6749b
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a> Configurar regras e parâmetros para a distribuição integrada e a compra centralizada
+# <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a>Configurar regras e parâmetros para a distribuição integrada e a compra centralizada
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 

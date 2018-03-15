@@ -18,14 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 6aec3532a36a2c1e67ee0c189e45a352ad7670f6
+ms.sourcegitcommit: a1e539c283800035327196520f6438904c94126d
+ms.openlocfilehash: 0affc07293c886c4c65f99259eb19f1998f277f6
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/04/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar linhas de BOM e fórmula para o depósito
+
+[!include[banner](../includes/banner.md)]
 
 Este tópico descreve o processo para liberar matéria-prima para linhas de BOM e linhas de fórmula para o depósito. Quando você libera uma linha da BOM e da fórmula para o depósito, o sistema determina primeiro se o material já está disponível no local de entrada de produção no chão de fábrica em que o material será consumido para o processo de produção.
 
@@ -40,6 +42,9 @@ O método usado para liberar linhas da BOM e da fórmula é controlado pelo par�
 
 - **Liberar linhas da BOM e da fórmula como parte da liberação de uma ordem de produção ou de lote** – Neste método, as linhas da BOM e da fórmula de uma ordem de produção ou de lote são liberadas como parte do processo de liberação da ordem. Geralmente, durante a liberação de uma ordem de produção ou de lote, os trabalhos de produção são liberados a trabalhadores de chão de fábrica e os documentos de produção são impressos. Durante esse processo, o status da ordem também muda para **Liberado**.
 - **Liberar linhas da BOM e da fórmula por meio de um trabalho em lotes ou como uma interação manual** – Neste método, as linhas da BOM e da fórmula podem ser liberadas apenas através do trabalho em lotes **Versão automática das linhas da BOM e da fórmula** ou como uma interação manual. Para liberar manualmente as linhas da BOM e da fórmula, a página de listagem da ordem de produção ou de detalhes da ordem de produção, no painel de ações, selecione **Liberar para o depósito**.
+
+Para uma demonstração rápida de como liberar a BOM e as linhas de fórmula para produção usando um trabalho em lotes, assista a esse breve vídeo no YouTube:
+[!Video https://www.youtube.com/embed/8urAJn50dQ8]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Liberando as linhas da BOM e da fórmula usando um trabalho em lotes
 
@@ -79,6 +84,9 @@ Para controlar as operações nas quais o material deve ser liberado, use a pág
 A ilustração a seguir mostra uma ordem de produção que tem duas operações, 10 e 20. Neste exemplo, se você limitar a liberação para operação 10, somente o material M9203 será liberado.
 
 ![Exemplo da liberação de material por número da operação](media/two-operations.PNG)
+
+Para uma demonstração rápida de como liberar o material de acordo com a quantidade de mercadorias, assista a esse breve vídeo no YouTube:
+[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Liberar material em relação ao valor de mercadorias acabadas
 

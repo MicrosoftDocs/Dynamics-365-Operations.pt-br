@@ -1,5 +1,5 @@
 --- 
-title: " Processar ajustes dos pontos de premiação de fidelidade"
+title: "Processar ajustes dos pontos de premiação de fidelidade"
 description: "Este procedimento demonstra como procurar informações de cartão-fidelidade e ajustar pontos de recompensa de fidelidade."
 author: scott-tucker
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c0e0dc345903f9b2df0a1cd38b9b8d5a65b33afe
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 2bfb5095c1db2a5ab9fb528d08d979ec850543fc
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="process-loyalty-reward-point-adjustments"></a> Processar ajustes dos pontos de premiação de fidelidade
+# <a name="process-loyalty-reward-point-adjustments"></a>Processar ajustes dos pontos de premiação de fidelidade
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 

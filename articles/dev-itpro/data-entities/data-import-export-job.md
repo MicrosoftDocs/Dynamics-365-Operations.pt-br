@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
-ms.openlocfilehash: 3bd6eaa0518bd4752704836c04457dccd486d692
+ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
+ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/13/2018
 
 ---
 
@@ -50,6 +50,9 @@ Seguem as etapas para importar ou exportar dados.
 6. Limpar as tabelas de preparo.
 
 As seções restantes deste tópico fornecem mais detalhes sobre cada etapa do processo.
+
+> [!NOTE]
+> Para atualizar o Formulário de exportação/importação de dados para ver o progresso mais recente, use o ícone de atualização do formulário. A atualização do navegador não é recomendada porque interromperá qualquer trabalho de exportação/importação que não for executado em lotes.
 
 ## <a name="create-an-import-or-export-job"></a>Criar um trabalho de importação ou de exportação
 Um trabalho de importação ou exportação de dados pode ser executado uma ou várias vezes.
@@ -145,7 +148,7 @@ Podem baixar os dados de preparo em um arquivo para exportação de trabalho, ou
 A partir dos detalhes de execução, você também pode abrir este log de execução.
 
 ## <a name="clean-up-the-staging-tables"></a>Limpar as tabelas de preparo
-Você pode limpar as tabelas de preparo usando o recurso **Limpeza de preparo** no espaço  trabalho **Gerenciamento de dados**. Você pode usar as opções para selecionar os registros que devem ser excluídos da tabela de preparo:
+Você pode limpar as tabelas de preparo usando o recurso **Limpeza de preparo** no espaço trabalho **Gerenciamento de dados**. Você pode usar as opções para selecionar os registros que devem ser excluídos da tabela de preparo:
 
 - **Entidade** – Se apenas uma entidade for fornecida, todos os registros dessa tabela de preparo da entidade serão excluídos. Selecione esta opção para limpar todos os dados da entidade em todos os projetos de dados e de todos os trabalhos.
 - **ID de trabalho** – Se somente um ID de trabalho for fornecido, todos os registros de todas as entidades no trabalho selecionado serão excluídos das tabelas de preparo apropriadas.

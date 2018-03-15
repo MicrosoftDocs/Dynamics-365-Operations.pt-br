@@ -18,10 +18,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4e4d38c0a54972d244607d04e394e0548eb88784
+ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
+ms.openlocfilehash: 426e0f8096a65b2233cf04663c38335ee6e9bb2d
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/15/2018
 
 ---
 
@@ -127,7 +127,7 @@ Você pode anexar um documento à uma revisão na seção **Anexos** da página 
 Você pode usar o fluxo de trabalho de revisão do trabalhador para controlar a aprovação de uma revisão. Você também pode optar por ignorar o fluxo de trabalho automatizado e alterar manualmente o status da revisão, que permite criar documentos mais simples, como uma revisão individual, sem precisar usar o processo de fluxo de trabalho. O acesso a uma revisão é controlado pelo status dela.
 
 1.  Quando a revisão é criada, ela é definida como **Não iniciada**. A revisão é editável por qualquer pessoa.
-2.  Assim que o funcionário pressionar o botão **Iniciar revisão**, a revisão será definida como**Em andamento**. O funcionário então começa a adicionar conteúdo. A partir daí, o gerente não poderá mais exibir o documento de revisão.
+2.  Assim que o funcionário pressionar o botão **Iniciar revisão**, a revisão será definida como **Em andamento**. O funcionário então começa a adicionar conteúdo. A partir daí, o gerente não poderá mais exibir o documento de revisão.
 3.  O funcionário altera o status para **Pronto para Revisão**.
 4.  O gerente pode adicionar comentários e classificações. Neste momento, somente o gerente poderá ver a revisão.
 5.  O gerente altera o status para **Revisão Final**, para que o gerente e o funcionário possam ver a revisão e conversar sobre ela. Você pode especificar nos parâmetros se a revisão pode ou não ser editada a partir desse ponto. Esta etapa também é opcional se o gerente deseja apenas compartilhar a revisão com funcionário e marcá-la como **Concluída** quando terminarem.

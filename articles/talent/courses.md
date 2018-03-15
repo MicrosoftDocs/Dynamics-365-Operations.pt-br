@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e0b28c62fe586102a3fb98d77edbea2c06bcf852
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 27fbc54afca384b804f2b0468206242ff89d4031
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Os administradores e gerentes de recursos humanos podem usar os recursos dos cursos para manter informações sobre o treinamento que é oferecido aos funcionários.
 
- <a name="set-up-prerequisites"></a> Pré-requisitos de configuração
+ <a name="set-up-prerequisites"></a>Pré-requisitos de configuração
 ---------------------
 
 As informações a seguir são necessárias e devem ser configuradas antes de criar cursos.
@@ -114,7 +114,7 @@ A tabela a seguir lista os possíveis status do curso e as ações que poderão 
 <li>Registrar participantes no curso.</li>
 <li>Remover participantes do curso.</li>
 <li>Confirmar participantes no curso.</li>
-<li>Alterar o status do curso para<strong> Fechado</strong> ou <strong>Cancelado</strong>.</li>
+<li>Alterar o status do curso para <strong>Fechado</strong> ou <strong>Cancelado</strong>.</li>
 <li>Planejar questionários para participantes cujo status é <strong>Confirmado</strong>.</li>
 </ul></td>
 </tr>

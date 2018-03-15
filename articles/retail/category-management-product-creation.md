@@ -18,10 +18,10 @@ ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 98250062892e0c5f665616dc3944181a3ff8599a
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 74a8fa863736177bcf8cb4b3d90911c78122252b
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](./includes/banner.md)]
 
-Os aprimoramentos feitos em relação à experiência de gerenciamento para categorias de produto de varejo permitem que os gerentes de mercadoria tenham uma correlação entre a hierarquia de produtos de varejo e os detalhes do produto liberado. Para exibir esses aprimoramentos, no espaço de trabalho **Gerenciamento de categorias e produtos** , selecione **Hierarquia de produtos de varejo** para abrir a página **Nova estrutura de categoria de produtos de varejo** . 
+Os aprimoramentos feitos em relação à experiência de gerenciamento para categorias de produto de varejo permitem que os gerentes de mercadoria tenham uma correlação entre a hierarquia de produtos de varejo e os detalhes do produto liberado. Para exibir esses aprimoramentos, no espaço de trabalho **Gerenciamento de categorias e produtos**, selecione **Hierarquia de produtos de varejo** para abrir a página **Nova estrutura de categoria de produtos de varejo** . 
 
 Em versões anteriores, as propriedades de produtos eram divididas em Propriedades básicas do produto e Propriedades de produto de varejo, com base no escopo de sua aplicabilidade. As propriedades de produto de varejo eram *globais*. Em outras palavras, para uma determinada propriedade do produto, o mesmo valor é compartilhado em todas as entidades legais. As propriedades básicas do produto eram *específicas da entidade legal*. Em outras palavras, uma determinada propriedade do produto pode diferir nas entidades legais, com base nos requisitos de negócios individuais.
 

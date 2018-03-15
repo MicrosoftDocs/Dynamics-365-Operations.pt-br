@@ -3,7 +3,7 @@ title: "Conteúdo do Power BI"
 description: "Este tópico lista o conteúdo do Power BI que está disponível e o indica aos recursos onde você pode aprender mais sobre ele."
 author: sericks007
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b0a7adb684850a0f0b914ea89ce3af1636b3084c
-ms.openlocfilehash: 0969f9f30e50a36b667765fbe375e6c14d3412da
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: d5b1bb5f25710b7d4feea55414d68d5390c87308
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -42,6 +42,7 @@ Se você estiver usando o Microsoft Dynamics 365 for Finance and Operations, Ent
 - [Conteúdo do Power BI da análise de contabilização de custos](cost-accounting-analysis-content-pack.md) 
 - [Conteúdo do Power BI para gerenciamento de créditos e coleções](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [Conteúdo do Power BI para desenvolvimento do funcionário](employee-development-PBI.md) 
+- [Conteúdo de informações financeiras do Power BI](financial-insights.md)
 - [Conteúdo do Power BI de desempenho financeiro](financial-performance-power-bi-content-pack.md)
 - [Conteúdo do Power BI para gerenciamento de ativos fixos](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
 - [Conteúdo de aprendizagem do Power BI](learning-power-bi.md)
@@ -73,6 +74,9 @@ Se você estiver usando o Microsoft Dynamics 365 for Operations versão 1611, o 
 
 ## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Conteúdo do Power BI do Microsoft Dynamics AX
 Se você estiver usando o Microsoft Dynamics AX 7.0 ou o Microsoft Dynamics AX 7.0.1, o seguinte conteúdo do Power BI está disponível:
+
+> [!Note]
+> Esse pacote de conteúdo ficou obsoleto, conforme documentado em [Pacotes de conteúdo do Power BI publicados no PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom).
 
 - [Conteúdo do Power BI de gerenciamento de custo](cost-management-content-pack.md)    
 - [Conteúdo do Power BI de desempenho financeiro](financial-performance-power-bi-content-pack.md)

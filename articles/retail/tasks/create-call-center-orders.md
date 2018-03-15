@@ -1,5 +1,5 @@
 --- 
-title: " Criar ordens de call center"
+title: Criar ordens de call center
 description: Este procedimento orienta como pesquisar um cliente, criar uma nova ordem, pesquisar por um produto e coletar os pagamentos do cliente.
 author: josaw1
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f702690f72b3e299f6c2744da326a23d5753eb5d
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: b2e986df1e089ef2a394d0e9d9236d39f2726c77
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="create-call-center-orders"></a> Criar ordens de call center
+# <a name="create-call-center-orders"></a>Criar ordens de call center
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 

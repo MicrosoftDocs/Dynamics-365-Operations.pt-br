@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0692518afc5c8b385773dad3c44dc4e3c978362b
+ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
+ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -42,7 +42,7 @@ Os *limites de gastos* podem ser utilizados para restringir os gastos da requisi
   
 O departamento de aquisição identifica fornecedores para produtos e serviços necessários, e isso pode envolver o envio de uma *solicitação de cotação* a vários fornecedores potenciais. É possível compartilhar as especificações do produto que está sendo solicitado, e os fornecedores potenciais podem verificar se são capazes de fornecer um produto em conformidade com as especificações. Os fornecedores fazem as ofertas, que são analisadas pelo departamento de compras antes que eles escolham de qual fornecedor desejam comprar.  
 
-As ordens de compra incluem uma opção para enviar uma *consulta de compra* ao fornecedor como uma alternativa para um processo de solicitação de cotação mais abrangente. A consulta de compra pode ser usada para estabelecer condições como preços, descontos e data de entrega do pedido. Se os fornecedores forem configurados para usar o portal do **Fornecedor**, a funcionalidade de consulta de compra será desabilitada. Em vez disso, a ordem é compartilhada no portal do**Fornecedor** e, quando uma *solicitação de confirmação* é enviada, o fornecedor pode confirmar diretamente o pedido.  
+As ordens de compra incluem uma opção para enviar uma *consulta de compra* ao fornecedor como uma alternativa para um processo de solicitação de cotação mais abrangente. A consulta de compra pode ser usada para estabelecer condições como preços, descontos e data de entrega do pedido. Se os fornecedores forem configurados para usar o portal do **Fornecedor**, a funcionalidade de consulta de compra será desabilitada. Em vez disso, a ordem é compartilhada no portal do **Fornecedor** e, quando uma *solicitação de confirmação* é enviada, o fornecedor pode confirmar diretamente o pedido.  
 
 Os *catálogos do fornecedor* podem ser usados para coletar informações sobre a variedade de produtos que os fornecedores podem prover. Os fornecedores podem publicar seus próprios catálogos, tornando-os mais fácil de serem atualizados. É possível anexar uma *lista de fornecedores aprovados* a um produto. Isso pode ajudar a orientar a seleção de fornecedores quando novas ordens de compra forem abertas e evitar o uso de fornecedores não desejados.
 
@@ -87,7 +87,7 @@ Quando as *faturas do fornecedor* chegam do fornecedor, elas podem ser registrad
 
 As *distribuições contábeis* podem ser especificadas na ordem de compra para descrever como a contabilidade deverá ser feita no razão e também podem definir como a alocação de fundos de orçamento será obtida quando for incluída na configuração.  
 
-As ordens de compra faturadas registrarão o passivo na conta do fornecedor em contas a pagar, no qual o *paga**mento do fornecedor* pode ser processado.
+As ordens de compra faturadas registrarão o passivo na conta do fornecedor em contas a pagar, no qual o *pagamento do fornecedor* pode ser processado.
 
 ## <a name="vendor-performance"></a>Desempenho do fornecedor
 O suporte ao desempenho e à revisão da compra é feito por meio de *relatórios de aquisição e contas a pagar,* que inclui a análise de gastos e a análise de desempenho do fornecedor.

@@ -1,5 +1,5 @@
 --- 
-title: " Gerenciar sortimentos "
+title: Gerenciar sortimentos
 description: "Este procedimento demonstra como criar e publicar uma nova variedade de produtos e usa a empresa de dados de demonstração USRT."
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1b50b06879fa50db7d7dc652a15e1284d7b74d17
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 1c353a135559a1901f98ae6e7c9671254ab625c3
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="manage-assortments"></a> Gerenciar sortimentos  
+# <a name="manage-assortments"></a>Gerenciar sortimentos 
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 

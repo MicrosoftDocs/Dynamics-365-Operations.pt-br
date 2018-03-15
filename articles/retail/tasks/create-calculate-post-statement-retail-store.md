@@ -1,5 +1,5 @@
 --- 
-title: " Criar, calcular e lançar uma declaração para uma loja de varejo"
+title: "Criar, calcular e lançar uma declaração para uma loja de varejo"
 description: "Este procedimento orienta nas etapas manuais para criar, calcular e lançar um demonstrativo para uma loja."
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 42ab631e29a7fae1140acd41ad80c13e55ca1404
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a> Criar, calcular e lançar uma declaração para uma loja de varejo
+# <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a>Criar, calcular e lançar uma declaração para uma loja de varejo
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 

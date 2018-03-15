@@ -1,5 +1,5 @@
 --- 
-title: " Criar dimensões financeiras para registros de PDV e configurar valores de dimensão em registros"
+title: "Criar dimensões financeiras para registros de PDV e configurar valores de dimensão em registros"
 description: "Este procedimento mostra a criação de dimensões financeiras para registros de (POS) do ponto de venda e demonstra como configurar valores de dimensão financeira nos registros."
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8a3a6abc19bae20b7899628d0463cf458955671a
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: d2d34080409de25a3a1966d0898d0ecd98297891
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a> Criar dimensões financeiras para registros de PDV e configurar valores de dimensão em registros
+# <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a>Criar dimensões financeiras para registros de PDV e configurar valores de dimensão em registros
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 

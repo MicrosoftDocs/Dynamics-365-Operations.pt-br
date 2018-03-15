@@ -18,14 +18,16 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ec6cb212766dd90fa9db7719a2119419ecb935c7
-ms.openlocfilehash: e0aa0e576f88fd497472aa4141704a66d51605c3
+ms.sourcegitcommit: 997b6843fb729ed204e4e8ec5369c5a380efc25e
+ms.openlocfilehash: fb36f6ce81c5e781e3c98132f18ecbd84d0d4089
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/12/2018
 
 ---
 
 # <a name="store-order-fulfillment"></a>Atendimento da ordem na loja
+
+[!include[banner](includes/banner.md)]
 
 Vários varejistas querem otimizar o atendimento da ordem permitindo que as lojas atendam as ordens. O atendimento da ordem em nível de loja pode ajudar a amenizar os cenários de estoque excessivo de uma loja específica ou pode ser necessário de um ponto de vista logístico, nos casos em que uma loja tem capacidade extra ou está em um local mais próximo do cliente. Para tratar esta necessidade, uma operação de atendimento unificado da ordem está disponível no ponto de venda.
 
@@ -56,7 +58,7 @@ As linhas podem ser selecionadas usando a função **Selecionar** no painel de a
 
 ## <a name="line-details"></a>Detalhes da linha
 
-Os detalhes da linha podem ser exibidos usando o menu suspenso de detalhes da linha. Quando esse menu é usado, duas guias são fornecidas para mostrar informações adicionais da linha selecionada. A primeira guia, **Detalhes da linha** mostra detalhes da própria linha, como quantidade encomendada e restante. Detalhes adicionais são fornecidos incluindo a quantidade separada, embalada e faturada e também o modo de entrega e o endereço de entrega. A guia **Detalhes da ordem** fornece informações sobre cabeçalho da ordem, incluindo cliente, ID de cliente, número da ordem, total da ordem e saldo.
+Os detalhes da linha podem ser exibidos usando o menu suspenso de detalhes da linha. Quando esse menu é usado, três guias são fornecidas para mostrar informações adicionais da linha selecionada. A primeira guia, **Detalhes da linha** mostra detalhes da própria linha, como quantidade encomendada e restante. Detalhes adicionais são fornecidos incluindo a quantidade separada, embalada e faturada e também o modo de entrega e o endereço de entrega. A guia **Detalhes da ordem** fornece informações sobre cabeçalho da ordem, incluindo cliente, ID de cliente, número da ordem, total da ordem e saldo. A guia **Estoque** mostra informações da linha selecionada em relação a estoque físico disponível, estoque reservado e o estoque encomendado.
 
 Se várias linhas forem selecionadas, o menu suspenso de detalhes da linha da ordem somente indicará que várias linhas foram selecionadas. Para exibir detalhes de uma única linha, desmarque-as até que apenas uma linha permaneça. 
 

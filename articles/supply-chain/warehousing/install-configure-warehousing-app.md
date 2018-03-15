@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
-ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 02/27/2018
 
 ---
 
@@ -33,7 +33,9 @@ ms.lasthandoff: 01/15/2018
 
 
 > [!NOTE]
-> Este tópico descreve como configurar o depósito para implantações na nuvem. Se quiser saber como configurar o depósito para implantações locais, consulte [Depósito para implantações locais](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments).
+
+> Este tópico descreve como configurar o depósito para implantações na nuvem. Se quiser saber como configurar o depósito para implantações locais, consulte [Depósito para implantações locais](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).
+
 
 Este tópico descreve como instalar e configurar o Microsoft Dynamics 365 for Finance and Operations - Warehousing.
 
@@ -44,7 +46,7 @@ O aplicativo está disponível em sistemas operacionais Android e Windows. Para 
 
 | Plataforma                    | Versão                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Android                     | 4.4, 5.0, 6.0                                                                                                                                                               |
+| Android                     | 4.4, 5.0, 6.0, 7.0, 8.0                                                                                                                                                     |
 | Windows (UWP)               | Windows 10 (todas as versões)                                                                                                                                                   |
 | Finance and Operations | Microsoft Dynamics 365 for Operations, versão 1611 <br>- ou - <br>Microsoft Dynamics AX versão 7.0/7.0.1 e atualização 2 da plataforma do Microsoft Dynamics AX atualização com hotfix KB 3210014 |
 
@@ -91,9 +93,9 @@ Para habilitar o Finance and Operations para usar o aplicativo Azure AD, é nece
 2.  Desmarque o campo **Modo de demonstração**. <br>[![wh-11-app-connection-settings-demo-mode](./media/wh-11-app-connection-settings-demo-mode-169x300.png)](./media/wh-11-app-connection-settings-demo-mode.png)
 3.  Digite as seguintes informações: 
     + **ID do cliente do Azure Active Directory** - A ID do cliente é obtida na etapa 9 em "Criar um aplicativo de serviço Web no Active Directory". 
-    +  **Segredo do cliente do Azure Active Directory** - O segredo do cliente é obtido na etapa 11 em "Criar um aplicativo de serviços Web no Active Directory". 
+    + **Segredo do cliente do Azure Active Directory** - O segredo do cliente é obtido na etapa 11 em "Criar um aplicativo de serviços Web no Active Directory". 
     + **Recurso do Azure Active directory** - O recurso do Azure AD directory mostra a URL da raiz do Finance and Operations. **Nota**: Este campo não termina com um caractere de barra (/). 
-    + **Locatário do Azure Active directory** - O locatário do Azure AD directory usado com o servidor do Finance and Operations: https://login.windows.net/your-AD-tenant-ID. Por exemplo: https://login.windows.net/contosooperations.onmicrosoft.com.
+    + **Locatário do Azure Active Directory** - O locatário do Azure AD Directory usado com o servidor do Finance and Operations: `https://login.windows.net/your-AD-tenant-ID`. Por exemplo: `https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**Nota**: Este campo não termina com um caractere de barra (/). 
     + **Empresa** - Insira a entidade legal no Finance and Operations para a qual você quer conectar o aplicativo. <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  Selecione o botão **Voltar** no canto superior esquerdo do aplicativo. O aplicativo agora conectará seu servidor do Finance and Operations e a tela de logon do trabalhador do warehouse será exibida. <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)

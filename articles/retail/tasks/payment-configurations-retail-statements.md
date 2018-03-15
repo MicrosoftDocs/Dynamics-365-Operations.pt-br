@@ -1,5 +1,5 @@
 --- 
-title: " Configurações de pagamento para obter demonstrativos de varejo"
+title: "Configurações de pagamento para obter demonstrativos de varejo"
 description: "Este procedimento demonstra configurações para os métodos de pagamento da loja de varejo que afetam como as instruções de varejo foram criadas e lançadas."
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
-ms.openlocfilehash: 19f9c0b1c3a93ed9c84d66041814fd64951744b0
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 0ffd6dc5fff6d27ec3cfdcd68c53b2299c4100b9
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="payment-configurations-for-retail-statements"></a> Configurações de pagamento para obter demonstrativos de varejo
+# <a name="payment-configurations-for-retail-statements"></a>Configurações de pagamento para obter demonstrativos de varejo
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 

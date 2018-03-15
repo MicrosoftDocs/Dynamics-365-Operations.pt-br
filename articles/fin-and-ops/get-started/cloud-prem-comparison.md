@@ -3,7 +3,7 @@ title: "Comparação de recursos de nuvem e locais"
 description: "O tópico mostra quais recursos são suportados na Nuvem e locais."
 author: robinarh
 manager: AnnBe
-ms.date: 11/29/2017
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
-ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
+ms.sourcegitcommit: 4ffdc5dd54f8a069676f62c8b43f2892764dc046
+ms.openlocfilehash: 88640007ec54ed0c566e163e3dd701faeebc50ce
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -49,8 +49,9 @@ As tabelas a seguir listam as áreas do produto. O suporte à nuvem e aos locais
 | | Pacote de conteúdo do gerenciamento de custos para Power BI | Sim | Não |
 | Integração e gerenciamento de dados| | Sim | Sim |
 | | Extensão acionada pela configuração| Sim | Não |
-| | Exportar dados para seu próprio depósito de dados| Sim | Não |
+| | Exportar dados para seu próprio depósito de dados| Sim | Sim |
 | | Habilitar a exportação de atualizações incrementais para uma entidade de dados | Sim | Não |
+| | Integrações recorrentes                 |Sim | Não|
 | Gerenciamento de documentos| | Sim| Sim |
 | Gerenciamento financeiro|  | Sim | Sim |
 | Ajuda| | Sim | Não |

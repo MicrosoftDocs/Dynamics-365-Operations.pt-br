@@ -3,14 +3,14 @@ title: "Implantação local"
 description: "Este tópico fornece informações e vincula a conteúdo sobre implantações locais."
 author: kfend
 manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core
+ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: 697f5a43124aace645e0cc8c6df98a4f986ab852
+ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
+ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 03/06/2018
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>Página de aterrissagem da implementação local
@@ -31,6 +31,7 @@ ms.lasthandoff: 12/20/2017
 Você pode implantar o Microsoft Dynamics 365 for Finance and Operations, edição Enterprise (local). Quando você escolhe um tipo da implantação local, os requisitos de sistema, o dimensionamento do hardware e a funcionalidade diferem de uma implantação de nuvem. Este tópico fornece links para conteúdo que contém informações específicas de implantações locais.
 
 ## <a name="get-started"></a>Introdução
+- [Novidades ou alterações em implantações locais do Dynamics 365 for Finance and Operations, Enterprise edition 7.2 com atualização da plataforma 12 (março de 2018)](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
 - [Visão geral do Dynamics 365 for Finance and Operations, Enterprise edition (local)](on-premises-overview.md)
 - [Planejando sua implantação local](plan-onprem-deployment.md)
 - [Requisitos do sistema para implantações locais](../../fin-and-ops/get-started/system-requirements-on-prem.md)
@@ -50,6 +51,7 @@ Você pode implantar o Microsoft Dynamics 365 for Finance and Operations, ediç�
 - [Configurar gerenciamento de documentos](../../fin-and-ops/organization-administration/configure-document-management.md)
 - [Importar configurações de Relatório eletrônico](../analytics/electronic-reporting-import-ger-configurations.md)
 - [Recursos de geração, publicação e impressão de documentos em implantações locais](../analytics/printing-capabilities-on-premises.md)
+- [Configurar o proxy reverso para seu ambiente local](onprem-reverseproxy.md)
 - [Configurar o suporte técnico](../lifecycle-services/support-experience.md)
 - [Solução de problemas de conexão da Internet de cliente](../user-interface/client-disconnected.md)
 - [Aplicar atualizações a uma implantação local](apply-updates-on-premises.md)

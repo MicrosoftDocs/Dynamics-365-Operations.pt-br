@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7b283b8550bd7e5eff969d45c761d0a54d93a33e
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 3679ccf304a32385c162ba3663eba2300f028817
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -92,7 +92,7 @@ Você pode exibir todos os blocos de construção atribuídos a um grupo de bloc
 6.  No campo **Nome do Arquivo**, digite um nome para o arquivo. O designer de relatórios adiciona automaticamente um nome de arquivo com a extensão .tdbx.
 7.  Clique em **Salvar**. O grupo do bloco de construção é salvo no local que você especificou.
 
-### <a name="import-a-building-block-group"></a> Importar um grupo do bloco de construção
+### <a name="import-a-building-block-group"></a>Importar um grupo do bloco de construção
 
 Você pode importar um grupo de blocos de construção para um grupo existente de blocos de construção. Todos os grupos de bloco de construção importados mantêm seus estilos de fonte original e referências de empresa e incluem os conjuntos de dimensão relevante.
 1.  No Designer de Relatórios, no menu **Empresa**, clique em **Grupos do Bloco de Construção**.
