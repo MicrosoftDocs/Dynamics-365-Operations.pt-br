@@ -37,10 +37,11 @@
 ## [Opções de pagamento](work-with-payments.md)
 
 # Configuração e gerenciamento de canal
-## [Inicializar dados semente em um ambiente do Retail](enable-configure-retail-functionality.md)
+## [Inicializar dados de propagação em um ambiente do Retail](enable-configure-retail-functionality.md)
 ## [Definir canais de varejo](define-maintain-retail-channels.md)
+## [Gerenciamento de classificação](assortments.md)
 ## [Visão geral de loja online](online-stores.md)
-## [Configurar e instalar uma estação de hardware do Retail](retail-hardware-station-configuration-installation.md)
+## [Configurar e instalar uma Retail hardware station](retail-hardware-station-configuration-installation.md)
 ## [Horário e presença do Retail](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) e Cloud POS
@@ -54,7 +55,8 @@
 ### [Definir e manter clientes de canal, registradoras e estações de hardware](define-maintain-channel-clients-registers-hw-stations.md)
 ## Layout da tela
 ### [Configurar layouts de tela do POS](pos-screen-layouts.md)
-### [Instalar o designer de Layout de Retail POS](install-pos-layout-designer.md)
+### [Instalar o designer de Layout do Retail POS](install-pos-layout-designer.md)
+### [Escolher configurações da notificação](Notifications-POS.md)
 ### [Configurações do aplicativo de POS e de idioma do usuário](pos-application-user-language-settings.md)
 ### [Configurar imagens do MPOS](set-up-manage-images-retail-mpos.md)
 ## [Visão geral de códigos de informação](info-codes-retail.md) 
@@ -99,7 +101,8 @@
 
 # Produtos e merchandising
 ## [Visão geral das informações do produto](../supply-chain/pim/product-information.md)
-## [Hierarquias do Retail](retail-hierarchies.md)
+## [Hierarquias do varejo](retail-hierarchies.md)
+## [Visão geral dos atributos e grupos de atributos](attribute-attributegroups-lifecycle.md)
 ## [Criar e gerenciar atributos](create-manage-attributes.md)
 ## [Configurar produtos de varejo](set-up-retail-products.md)
 ## [Dimensões do produto](../supply-chain/pim/product-dimensions.md)
@@ -130,6 +133,16 @@
 # Recursos humanos
 ## [Organizar sua força de trabalho usando departamentos, trabalhos e posições](../talent/departments-jobs-positions.md)
 ## [Configurando os componentes de um trabalho](../talent/create-job.md)
+
+# Recursos de localização e regulatórios
+## Índia
+### [Integração de GST para caixas registradoras na Índia](localizations/apac-ind-cash-registers.md)
+### [Diretrizes de implantação para caixas registradoras na Índia](localizations/apac-ind-loc-deployment-guidelines.md)
+## Noruega
+### [Caixas registradoras na Noruega](localizations/emea-nor-cash-registers.md)
+### [Diretrizes de implantação para caixas registradoras na Noruega](localizations/emea-nor-loc-deployment-guidelines.md)
+## Suécia
+### [Caixas registradoras na Suécia](localizations/emea-swe-cash-registers.md)
 
 # Tarefas do Retail
 ## [Criar um produto](../supply-chain/pim/tasks/create-product.md)
@@ -247,14 +260,10 @@
 ### [Crie um instalador do Windows para um conector de pagamento](dev-itpro/create-windows-installer-payment-connector.md)
 
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
-### [Integrar o Retail SDK ao sistema de compilação contínua](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
-### [Exemplos de extensibilidade do Retail SDK](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [Caixas registradoras da Suécia](localizations/emea-swe-cash-registers.md)
-### [Exemplo para integração do Retail POS com unidades de controle na Suécia](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [Caixas registradoras na Noruega](localizations/emea-nor-cash-registers.md)
-### [Diretrizes de implantação para caixas registradoras na Noruega](localizations/emea-nor-loc-deployment-guidelines.md)
-### [Empacotamento do SDK do Retail](dev-itpro/retail-sdk/retail-sdk-packaging.md)
-### [Exemplos do SDK do Retail](dev-itpro/retail-sdk/retail-sdk-samples.md)
+### [Integrar o SDK do Retail ao sistema de compilação contínua](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
+### [Exemplos de extensibilidade do SDK do Retail](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
+### [Empacotamento do Retail SDK](dev-itpro/retail-sdk/retail-sdk-packaging.md)
+### [Exemplos do Retail SDK ](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [Extensões do banco de dados do canal](dev-itpro/channel-db-extensions.md)
 ### [Extensibilidade CDX](dev-itpro/cdx-extensibility.md)
 ### [Atributos de ordem](dev-itpro/order-attributes.md)
