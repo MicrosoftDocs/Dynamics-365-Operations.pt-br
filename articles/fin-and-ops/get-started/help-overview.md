@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 221ce80cb7520f372f38859aa392b1d559448c81
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 
@@ -52,7 +52,7 @@ Você pode acessar os tópicos de ajuda e as guias de tarefas a partir do painel
 Este tópico descreve o sistema de Ajuda e explica como você pode criar documentação personalizada e recursos de treinamento para sua organização.
 
 > [!IMPORTANT]
-> A guia **Guias de tarefas** não está disponível no Microsoft Dynamics 365 for Talent e no Microsoft Dynamics 365 for Retail. Estamos trabalhando atualmente para habilitar essa funcionalidade em uma versão futura. As guias de tarefas da experiência de Introdução ao Talent permanecerão disponíveis para a funcionalidade básica. A ajuda de procedimento também está disponível no site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md) para ambos, Retail e Talent.
+> A guia **Guias de tarefas** não está disponível no Microsoft Dynamics 365 for Talent e no Microsoft Dynamics 365 for Retail. Estamos trabalhando atualmente para habilitar essa funcionalidade em uma versão futura. As guias de tarefas da experiência de Introdução ao Talent permanecerão disponíveis para a funcionalidade básica. A ajuda de procedimento também está disponível no site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) para ambos, Retail e Talent.
 
 ## <a name="help-on-docsmicrosoftcom"></a>Ajuda no docs.microsoft.com
 
@@ -115,7 +115,7 @@ Para obter mais informações, consulte o guia do colaborador: https://github.co
 
 > [!NOTE]
 > No momento, só aceitamos contribuições de nossos repositórios em inglês.  
-> Não aceitamos relatos de problemas via GitHub, Procure usar uma solicitação de pull para enviar sugestões de conteúdo. Comentários sobre produtos e recursos são melhor abordados no portal de ideias do Dynamics 365: https://ideas.dynamics.com/ideas/. 
+> Não aceitamos relatos de problemas via GitHub, Procure usar uma solicitação de pull para enviar sugestões de conteúdo. Comentários sobre produtos e recursos são melhor abordados no portal de ideias do Dynamics 365: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Guias de tarefas

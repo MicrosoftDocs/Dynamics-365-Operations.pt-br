@@ -1,9 +1,9 @@
 ---
-title: "Exibir notificações da ordem no ponto de venda"
-description: "Este tópico descreve como habilitar notificações de ordem no ponto de venda e a estrutura de notificações, que podem ser estendidas a outras operações."
+title: "Mostrar notificações de ordem no ponto de venda"
+description: "Este tópico descreve como habilitar notificações de ordem no ponto de venda e a estrutura de notificação. Com o tempo, os desenvolvedores poderão estender essas notificações a operações além das operações de atendimento da ordem."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 03/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -18,49 +18,58 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a1206aea3f78246951581c1dc6338e39a0942ea2
+ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
+ms.openlocfilehash: a55af4c26d74cc392d3c53aacb66e0a8bc97abf2
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
-# <a name="display-notifications-in-point-of-sale"></a>Exibir notificações no ponto de venda
+# <a name="show-order-notifications-in-the-point-of-sale"></a>Mostrar notificações de ordem no ponto de venda
 
 [!include[banner](includes/banner.md)]
 
-No ambiente de varejo moderno de hoje, são atribuídas várias tarefas aos associados da loja, como auxiliar os clientes, inserir transações, executar contagens de estoque e receber ordens na loja. O cliente do ponto de venda (PDV) capacita os associados a executarem essas tarefas e muito mais, tudo isso com um único aplicativo. Com várias tarefas ser executadas durante um dia, os associados talvez precisem ser notificados quando algo exigir sua atenção. A estrutura de notificação no PDV resolve o problema, permitindo que os fornecedores configurem notificações com base na função. Com o Dynamics 365 for Retail com atualização 5 do Aplicativo, essas notificações somente podem ser configuradas para operações PDV.
+No ambiente de varejo moderno, são atribuídas várias tarefas aos associados da loja, como auxiliar os clientes, inserir transações, executar contagens de estoque e receber ordens na loja. O cliente do ponto de venda (PDV) fornece um único aplicativo no qual os associados podem executar todas essas tarefas e muitas outras. Como várias tarefas devem ser executadas durante o dia, os associados talvez precisem ser notificados quando algo exigir sua atenção. A estrutura de notificação no PDV ajuda, permitindo que os varejistas configurem notificações baseadas em funções. No Microsoft Dynamics 365 for Retail com atualização de aplicativo 5, essas notificações podem ser configuradas somente para operações de PDV.
 
-Atualmente, o sistema fornece o recurso para exibir notificações para a operação de atendimento da ordem, porém, a estrutura é criada para ser extensível, de forma que no futuro, os desenvolvedores possam gravar um manipulador de notificação para qualquer operação e exibir as notificações no PDV.  
+No momento, o sistema pode mostrar notificações somente para operações de atendimento da ordem. No entanto, como a estrutura é criada para ser extensível, os desenvolvedores poderão gravar um manipulador de notificação para qualquer operação e mostrar as notificações para essa operação no PDV.
 
 ## <a name="enable-notifications-for-order-fulfillment-operations"></a>Habilitar notificações para operações de atendimento da ordem
 
-Para habilitar notificações para as operações de atendimento da ordem, consulte as seguintes etapas:
+Para habilitar as notificações para operações de atendimento da ordem, siga estas etapas.
 
- - Vá até a página **Operações** (**Varejo** > **Configuração de canal** > **Configuração de PDV** > **PDV** > **Operações**).
- - Procure a operação de atendimento da ordem e marque a caixa de seleção **Habilitar notificações** para essa operação. Isso indica a estrutura de notificação para detectar o manipulador para a operação de atendimento da ordem. Se o manipulador for implementado, então as notificações serão exibidas no PDV, caso contrário, as notificações não serão exibidas para a operação.
-- Vá para as permissões de PDV associadas aos trabalhadores e na Guia Rápida **Notificações**, adicione a operação Atendimento da ordem com a "Ordem de exibição" 1. Quando houver mais de uma notificação configurada, a ordem de exibição será usada para organizar a notificação de cima para baixo com 1 na parte superior. Podem ser adicionadas somente as operações nas quais a caixa de seleção **Habilitar notificações** foi selecionada. Além disso, as notificações serão exibidas apenas para as operações que foram adicionadas aqui e somente para aqueles trabalhadores cujas operações foram adicionadas às permissões de PDV correspondentes. 
+1. Vá para **Varejo** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **PDV** &gt; **Operações**.
+2. Procure a operação **Atendimento da ordem** e marque a caixa de seleção **Habilitar notificações** para que ela especifique que a estrutura de notificação deve detectar o manipulador para essa operação. Se o manipulador for implementado, as notificações para essa operação serão mostradas no PDV.
+3. Vá para **Varejo** &gt; **Funcionários** &gt; **Trabalhadores** &gt;, na guia Varejo, abra as permissões de PDV associadas ao trabalhador. Expanda a Guia Rápida **Notificações**, adicione a operação **Atendimento da ordem** e defina o campo **Ordem de exibição** como **1**. Se mais de uma notificação for configurada, esse campo será usado para organizar as notificações. As notificações que têm um valor de **Ordem de exibição** mais baixo aparecem acima das notificações que têm um valor mais alto. As notificações em que o valor de **Ordem de exibição** é **1** aparecem na parte superior.
+
+    As notificações são mostradas somente para operações adicionadas na Guia Rápida **Notificações**, e você só poderá adicionar operações lá se a caixa de seleção **Habilitar notificações** para essas operações tiver sido selecionada na página **Operações de PDV**. Além disso, as notificações para uma operação são mostradas aos trabalhadores somente se a operação for adicionada às permissões de PDV para esses trabalhadores.
+
+    > [!NOTE]
+    > As notificações podem ser substituídas no nível do usuário. Abra o registro do trabalhador, selecione **Permissões do PDV** e, em seguida, edite a subscrição de notificação do usuário.
+
+4. Vá para **Varejo** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis de funcionalidade**. No campo **Intervalo de notificação**, especifique a frequência de recebimento de notificações. Para algumas notificações, o PDV deve fazer chamadas em tempo real para o aplicativo de back office. Essas chamadas consomem a capacidade de computação do seu aplicativo de back office. Portanto, ao definir o intervalo de notificação, você deve considerar suas necessidades comerciais e o impacto de chamadas em tempo real no aplicativo de back office. Um valor de **0** (zero) desativa as notificações.
+5. Vá para **Varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**. Selecione a agenda **1060** (**Equipe**) para sincronizar as configurações de subscrição de notificação e, em seguida, selecione **Executar agora**. Em seguida, selecione a agenda **1070** (**Configuração do canal**) para sincronizar o intervalo de permissão e, em seguida, selecione **Executar agora**.
+
+## <a name="view-notifications-in-the-pos"></a>Exibir notificações no PDV
+
+Depois que você concluir as etapas anteriores, os trabalhadores poderão exibir as notificações no PDV. Para exibir as notificações, pressione o ícone de notificação no canto superior direito do PDV. Um centro de notificações aparecerá e mostrará as notificações para a operação de atendimento da ordem. O centro de notificações deve mostrar os seguintes grupos na operação de atendimento da ordem:
+
+- **Retirada na loja** – Este grupo mostra a contagem de ordens que têm o modo de entrega **Retirada** e cuja retirada está agendada na loja atual. Você pode pressionar o número no grupo para abrir a página **Atendimento da ordem**. Nesse caso, a página será filtrada para mostrar somente as ordens ativas configuradas para retirada na loja atual.
+- **Remeter da loja** – Este grupo mostra a contagem de ordens que têm o modo de entrega **Remessa** e cuja remessa está agendada na loja atual. Você pode pressionar o número no grupo para abrir a página **Atendimento da ordem**. Nesse caso, a página será filtrada para mostrar somente as ordens ativas configuradas para remessa da loja atual.
+
+Quando novas ordens são atribuídas à loja para o atendimento, o ícone de notificação é alterado para indicar que há novas notificações, e a contagem dos grupos apropriados é atualizada. Embora os grupos sejam atualizados em intervalos regulares, os usuários do PDV podem atualizá-los manualmente a qualquer momento selecionando o botão **Atualizar** ao lado do grupo. Por fim, se um grupo tiver um novo item, que o trabalhador atual não viu, então o grupo mostrará um símbolo intermitente para indicar o novo conteúdo.
+
+## <a name="enable-live-content-on-pos-buttons"></a>Habilitar conteúdo ao vivo nos botões do PDV
+
+Os botões do PDV agora podem mostrar uma contagem para ajudar os trabalhadores a determinar facilmente quais tarefas exigem a sua atenção imediata. Para mostrar esse número em um botão do PDV, você deve concluir a configuração de notificação descrita anteriormente neste tópico (isto é, você deve habilitar as notificações para uma operação, configurar um intervalo de notificação e atualizar o grupo de permissões de PDV para o trabalhador). Além disso, você deve abrir o designer da grade de botões, exibir as propriedades do botão e marcar a caixa de seleção **Habilitar conteúdo ao vivo**. No campo **Alinhamento de conteúdo**, você pode selecionar se a contagem será exibida no canto superior direito do botão (**Superior direito**) ou no centro (**Centralizado**).
 
 > [!NOTE]
-> As notificações podem ser substituídas em nível de usuário, navegando para o registro do trabalhador e selecionando **Permissões PDV** e editando a assinatura de notificação do usuário.
+> O conteúdo ao vivo poderá ser habilitado para operações somente se a caixa de seleção **Habilitar notificações** tiver sido selecionada para elas na página **Operações de PDV**, conforme descrito anteriormente neste tópico.
 
- - Vá até a página **Perfil de funcionalidade** (**Varejo** > **Configuração do canal** > **Configuração de PDV** > **Perfis de PDV** > **Perfis de funcionalidade**). Atualize a propriedade **Intervalo de notificação**, para definir o intervalo em minutos no qual as notificações devem ser recebidas. Recomendamos definir esse valor como 10 minutos para evitar comunicação desnecessária para as matrizes. Definir o intervalo de notificação como “0 "desativará as notificações.  
+A ilustração a seguir mostra as configurações de conteúdo ao vivo no designer da grade de botões.
 
- - Vá para **Varejo** > **TI de Varejo** > **Agenda de distribuição**. Selecione a agenda “” 1060-Equipe para sincronizar configurações de assinatura em notificação e clique em **Executar agora**. Em seguida, sincronize o intervalo de permissão, selecionando "1070-Configuração do canal e, em seguida, clique em **Executar agora**. 
+![Configurações de conteúdo ao vivo no designer da grade de botões](./media/ButtonGridDesigner.png "Configurações de conteúdo ao vivo no designer da grade de botões")
 
-## <a name="view-notifications-in-pos"></a>Exibir notificações no PDV
+A ilustração a seguir mostra o efeito de selecionar **Superior direito** versus **Centralizado** no campo **Alinhamento de conteúdo** para botões de vários tamanhos.
 
-Depois que as etapas acima forem concluídas, os trabalhadores para quem as notificações forem configuradas poderão exibir notificações no PDV. Para exibir as notificações, clique no ícone de notificação na barra de títulos do PDV. Será exibido um centro de notificação com as notificações da operação de atendimento da ordem. O centro de notificações deve exibir os seguintes grupos na operação de atendimento da ordem: 
-
-- **Ordens pendentes** - Este grupo exibe a contagem de ordens que estão no estado pendente, como as ordens que precisam ser aceitas pelo trabalhador de PDV que têm as permissões necessárias para o atendimento da loja. Clicar no número do grupo abrirá a página **Atendimento da ordem**, filtrada para exibir somente as ordens pendentes atribuídas à loja para atendimento. Se as ordens forem aceitas automaticamente para a loja, a contagem deste grupo será zero.
-
-- **Retirada da loja** - Este grupo exibe a contagem de ordens que têm o modo de entrega **Retirada** e a retirada está agendada na loja atual. Clicar no número do grupo abrirá a página **Atendimento da ordem**, filtrada para exibir as ordens ativas que são configuradas para serem retiradas na loja atual.
-
-- **Remeter da loja** - Este grupo exibe a contagem de ordens que têm o modo de entrega **Remessa** e a remessa está agendada na loja atual. Clicar no número do grupo abrirá a página **Atendimento da ordem**, filtrada para exibir as ordens ativas que são configuradas para serem remetidas da loja atual.
-
-Quando houver novas ordens atribuídas à loja para o atendimento, o ícone de notificação será alterado para indicar que as novas notificações e a contagem de grupos correspondentes serão atualizadas. O usuário também pode clicar no ícone de atualização, ao lado do nome da operação, para atualizar imediatamente a contagem de grupos. A contagem será atualizada também em intervalo predefinido. Qualquer grupo que tenha um novo item, que não é visto pelo trabalhador atual, exibirá um ícone intermitente, indicando que esse grupo tem um novo item. Clicar nos blocos dentro das notificações abrirá a operação específica para a qual essa notificação é configurada. Nos cenários acima, clicar nas notificações abrirá a página **Atendimento da ordem** e informará os parâmetros apropriados: ordens pendentes, retirada na loja e remessa da loja. 
-
-> [!NOTE]
-> As notificações de ordens pendentes serão habilitadas em uma próxima atualização do Dynamics 365 for Retail. 
-
+![Conteúdo ao vivo nos botões do PDV](./media/ButtonsWithLiveContent.png "Conteúdo ao vivo nos botões do PDV")
 
