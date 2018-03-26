@@ -3,7 +3,7 @@ title: "Implantação local"
 description: "Este tópico fornece informações e vincula a conteúdo sobre implantações locais."
 author: kfend
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,13 +18,13 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
+ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
+ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 03/15/2018
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>Página de aterrissagem da implementação local
+# <a name="on-premises-deployment-home-page"></a>Home page da implantação local
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,13 +36,13 @@ Você pode implantar o Microsoft Dynamics 365 for Finance and Operations, ediç�
 - [Planejando sua implantação local](plan-onprem-deployment.md)
 - [Requisitos do sistema para implantações locais](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Dimensionamento de hardware para ambientes locais](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Política de ciclo de vida de software do serviço online e local](../migration-upgrade/versions-update-policy.md)
 - [Comprar Dynamics 365 for Finance and Operations, Enterprise edition (local)](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [Comparação de recursos de nuvem e locais](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Carregar
 - [Criar um projeto local no Lifecycle Services](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [Configurar e implantar ambientes locais](setup-deploy-on-premises-environments.md)
+- [Configurar e implantar ambientes locais (atualização 12 da plataforma)](setup-deploy-on-premises-pu12.md)
+- [Configurar e implantar ambientes locais (atualizações 8 e 11 da plataforma)](setup-deploy-on-premises-pu8-pu11.md)
 - [Instalar dispositivos da impressora de rede em ambientes locais](../analytics/install-network-printer-onprem.md)
 - [Configurar o SQL Server Reporting Services para uma implantação local](../analytics/configure-ssrs-on-premises.md)
 - [Desenvolver e implantar modelos personalizados para ambientes locais](develop-deploy-custom-models-on-premises.md)

@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6e83f46df30d13a8bffa5c2b0bd05f456b67e6ec
+ms.sourcegitcommit: 80374d6dce8aa5d5f2e5afc0656b42236ac974ec
+ms.openlocfilehash: 036e8079bd976087514a074529dd4593c5a2b0a5
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -62,12 +62,12 @@ Quando uma solicitação é enviada, ela será adicionada a lista **Solicitaçõ
 Antes que você possa solicitar que um novo usuário seja provisionado, ele deverá ser configurado como um contato para uma ou mais contas de fornecedor. Para criar uma solicitação para um novo usuário de colaboração do fornecedor:
 
 1.  Na página **Todos os contatos**, clique em **Provisionar o usuário fornecedor**.
-2.  Insira um endereço de email para o usuário. Esse endereço será usado pelo usuário para fazer logon no Finance and Operations. Se o endereço de email pertencer a um domínio registrado como um inquilino com Microsoft Azure, o endereço de email deverá ser uma conta do ADD (Azure Active Directory) existente para que o processo de provisionamento seja concluído com êxito. Se o endereço de email não pertencer a um domínio registrado com o Microsoft Azure, uma conta do ADD será criada como parte do processo de provisionamento e o novo usuário receberá um email de convite. Os endereços de email de consumidores com domínios como @hotmail.com, @gmail.com ou @comcast.net não poderão ser usados para registrar um usuário do Finance and Operations.
+2.  Insira um endereço de email para o usuário. Esse endereço será usado pelo usuário para fazer logon no Finance and Operations. Se o endereço de email pertencer a um domínio registrado como um inquilino com Microsoft Azure, o endereço de email deverá ser uma conta do AAD (Azure Active Directory) existente para que o processo de provisionamento seja concluído com êxito. Se o endereço de email não pertencer a um domínio registrado com o Microsoft Azure, uma conta do ADD será criada como parte do processo de provisionamento e o novo usuário receberá um email de convite. Os endereços de email de consumidores com domínios como @hotmail.com, @gmail.com ou @comcast.net não poderão ser usados para registrar um usuário do Finance and Operations.
 3.  Defina a opção **Acesso à colaboração do fornecedor permitido** como **Sim** para todas as entidades legais às quais o usuário precisa ter acesso.
 4.  Na seção **Atribuir funções de usuário**, marque a caixa de seleção **Atribuir** para as funções de segurança que o novo usuário deve ter.
 5.  Clique em **Enviar**.
 
-Quando a solicitação do usuário fornecedor é enviada, o campo **Acesso à colaboração do fornecedor permitido** é definido como **Sim** para a conta de fornecedor selecionada e um fluxo de trabalho da solicitação de usuário é iniciado. Como parte do fluxo de trabalho, um novo usuário será criado no Finance and Operations, e as funções de segurança serão atribuídas. Além disso, um serviço Azure B2B é ativado, o que inicia a interação com o portal do Azure e associa uma conta do AAD nova ou existente à conta de usuário do Finance and Operations.
+Quando a solicitação do usuário fornecedor é enviada, o campo **Acesso à colaboração do fornecedor permitido** é definido como **Sim** para a conta de fornecedor selecionada e um fluxo de trabalho da solicitação de usuário é iniciado. Como parte do fluxo de trabalho, um novo usuário será criado no Finance and Operations, e as funções de segurança serão atribuídas. Além disso, um serviço Azure B2B é ativado, o que inicia a interação com o portal do Azure e associa uma conta do AAD nova ou existente à conta de usuário do Finance and Operations. Para obter mais informações, consulte [O que é a colaboração B2B do Azure AD?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).
 
 ### <a name="inactivate-a-user"></a>Desativar um usuário
 

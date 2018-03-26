@@ -3,7 +3,7 @@ title: "Sincronização de ordens de venda diretamente entre o Sales e o Finance
 description: "O tópico discute os modelos e as tarefas subjacentes que são usados para executar a sincronização de ordens de venda diretamente entre o Microsoft Dynamics 365 for Sales e o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 03/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
+ms.sourcegitcommit: 0928f9c0af52c2e19f0669841e433423ae9db467
+ms.openlocfilehash: 09c5cd14c5948818878d3f830639abc166d7072e
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -132,6 +132,7 @@ Antes de sincronizar ordens de venda, é importante atualizar as configurações
 
     Vá para **Configurações** &gt; **Segurança** &gt; **Equipes**, selecione a equipe relevante, selecione **Gerenciar Funções** e selecione a função que tem as permissões desejadas, como **Administrador do Sistema**.
 
+- Para assegurar o cálculo correto de descontos no Sales e no Finance and Operations, o **Método de cálculo de desconto** deve ser definido como **Item de linha**.
 - Vá para **Configurações** &gt; **Administração** &gt; **Configurações do sistema** &gt; **Vendas** e certifique-se de que as seguintes configurações sejam usadas:
 
     - A opção **Usar sistema de cálculo de precificação do sistema** está definida como **Sim**.
