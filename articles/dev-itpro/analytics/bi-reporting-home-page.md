@@ -1,6 +1,6 @@
 ---
 title: "Inteligência"
-description: "Este tópico indica os recursos que você poderá usar para aprender mais sobre as ferramentas de business intelligence e relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Este tópico indica os recursos que você poderá usar para saber mais sobre as ferramentas de business intelligence e de relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,11 +29,11 @@ ms.lasthandoff: 12/18/2017
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico indica os recursos que você poderá usar para aprender mais sobre as ferramentas de BI (business intelligence) e relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Este tópico indica os recursos que você poderá usar para saber mais sobre as ferramentas de BI (business intelligence) e de relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="get-started"></a>Introdução
 - [Acesso a informações e relatório](information-access-reporting.md)
-- [Conversa sobre tecnologia: opções de relatório](https://www.youtube.com/watch?v=NzZONjKs5xA) (vídeo)
+- [Conversa com especialista: opções de relatório](https://www.youtube.com/watch?v=NzZONjKs5xA) (vídeo)
 - [Finance and Operations: business intelligence](https://blogs.msdn.microsoft.com/dynamicsaxbi/) (blog)
 
 ## <a name="analytical-workspaces"></a>Espaços de trabalho analíticos

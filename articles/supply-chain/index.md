@@ -1,6 +1,6 @@
 ---
 title: Home page do Gerenciamento da cadeia de fornecedores
-description: "Esta página oferece uma lista de tópicos de ajuda e outros recursos de gerenciamento da cadeia de fornecedores do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Esta página oferece uma lista de tópicos de ajuda e outros recursos de gerenciamento da cadeia de fornecedores do Microsoft Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
 ms.date: 02/15/2018
@@ -19,21 +19,21 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="supply-chain-management-home-page"></a>Home page de Gerenciamento da cadeia de fornecedores
+# <a name="supply-chain-management-home-page"></a>Home page do Gerenciamento da cadeia de fornecedores
 
 [!include[banner](includes/banner.md)]
 
-Este tópico oferece uma lista de tópicos da Ajuda e outros recursos de gerenciamento da cadeia de fornecedores do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. 
+Este tópico oferece uma lista de tópicos de ajuda e outros recursos de gerenciamento da cadeia de fornecedores do Microsoft Dynamics 365 for Finance and Operations. 
 
 ## <a name="whats-new-and-in-development"></a>Novidades e o que está em desenvolvimento
-Visite o <a href="https://roadmap.dynamics.com/">Roteiro do Dynamics 365</a> para conferir os novos recursos lançados e os novos recursos em desenvolvimento. 
+Acesse o <a href="https://roadmap.dynamics.com/">Roteiro do Dynamics 365</a> para conferir os novos recursos lançados e os novos recursos em desenvolvimento. 
 
 ## <a name="core-concepts-and-tasks"></a>Conceitos e tarefas principais
 
@@ -106,10 +106,10 @@ Há muitos tópicos sobre gerenciamento da fabricação e da cadeia de fornecedo
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">Laboratórios práticos de contabilização de custos</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing: capacidade de comprometimento e agendamento de trabalhos kanban</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">Cálculo de BOM usando uma folha de custos</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilidade no depósito facilitada pelo Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">Mobilidade no depósito facilitada pelo Microsoft Dynamics 365 for Finance and Operations</a>
 
 ## <a name="elearning-courses"></a>Cursos de eLearning
-Para obter informações sobre treinamento do Microsoft Dynamics 365 for Finance and Operations, consulte o <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Portal de aprendizagem do Microsoft Dynamics</a>. (requer uma conta do CustomerSource) 
+Para obter informações sobre treinamento do Microsoft Dynamics 365 for Finance and Operations, consulte o <a href="https://mbspartner.microsoft.com/AX/LearningPlans/"> Portal de aprendizagem do Microsoft Dynamics</a>. (requer uma conta do CustomerSource) 
 
 
 

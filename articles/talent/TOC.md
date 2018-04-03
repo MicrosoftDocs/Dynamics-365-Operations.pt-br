@@ -3,6 +3,8 @@
 # [Introdução](talent-get-started.md)
 ## [Requisitos do sistema e política de atualização](talent-versions-update-policy.md)
 ## [Provisionar o Microsoft Dynamics 365 for Talent](provisioning-talent.md)
+## [Remover um ambiente do Talent](remove-test-environment.md)
+## [Provisionar Aplicativos Modulares do Microsoft Dynamics 365 for Talent](modular-app-tech-faq.md)
 ## [Estender a funcionalidade do Talent](extend-talent-functionality.md)
 
 # [Desenvolver uma estratégia de recursos humanos](departments-jobs-positions.md)
@@ -39,5 +41,5 @@
 ## [Avaliar os resultados de um questionário](evaluate-questionnaire-results.md)
 
 # Segurança e conformidade do local de trabalho (Estados Unidos)
-## [Verificação de emprego do formulário I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
-## [Seguir a conformidade com a ADA](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
+## [Verificação de emprego do formulário I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json)
+## [Seguir a conformidade com a ADA](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json)
