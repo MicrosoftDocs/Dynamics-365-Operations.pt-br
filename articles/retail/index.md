@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 40d54a9a2920e87caba62c92b5ca6465fa68e3d4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/08/2018
 O Microsoft Dynamics 365 for Retail é uma solução de varejo completa que oferece comércio unificado em todos os canais. Ele abrange vendas, mobilidade, inteligência e produtividade para ajudar varejistas e trabalhadores a produzir mais de uma forma que prioriza a mobilidade e a nuvem. O Retail oferece suporte abrangente para operar uma variedade de processos comerciais, como merchandising, estoque e recursos de gerenciamento de canal. Ele também fornece experiências imersivas de cliente em todos os pontos de contato.
 
 > [!NOTE] 
-> O Dynamics 365 for Retail está estreitamente relacionado ao Dynamics 365 for Finance and Operations, Enterprise edition, e ao Dynamics 365 for Talent. A mesma funcionalidade pode aparecer nos três produtos. Como resultado, em tópicos relacionados principalmente ao Retail, o nome do produto será Microsoft Dynamics 365 for Retail; em tópicos relacionados especialmente ao produto principal (Finance and Operations), o nome do produto será Microsoft Dynamics 365 for Finance and Operations, Enterprise edition; em tópicos relacionados especialmente a recursos humanos, o nome do produto será Dynamics 365 for Talent. 
+> O Dynamics 365 for Retail está estreitamente relacionado ao Dynamics 365 for Finance and Operations e ao Dynamics 365 for Talent. A mesma funcionalidade pode aparecer nos três produtos. Como resultado, em tópicos relacionados principalmente ao Retail, o nome do produto será Microsoft Dynamics 365 for Retail; em tópicos relacionados principalmente ao produto principal (Finance and Operations), o nome do produto será Microsoft Dynamics 365 for Finance and Operations; em tópicos relacionados principalmente a recursos humanos, o nome do produto será Dynamics 365 for Talent. 
 
 No painel à esquerda, escolha uma área de recursos para saber mais a respeito.
 
@@ -50,7 +50,7 @@ Além disso, os clientes têm muitas opções para conseguir o que querem, quand
 ## <a name="hardware-and-peripherals"></a>Hardware e periféricos
 O Modern Point of Sale (MPOS) e o Cloud POS do Retail podem usar uma variedade de periféricos de hardware. O MPOS e o Cloud POS oferecem várias interfaces e opções de implantação para ajudá-lo com os diversos cenários comerciais.
 
-O simulador periférico do Retail inclui um simulador periférico virtual e um simulador do POS. O simulador periférico virtual dá suporte principalmente a testes de cenários que costumam exigir dispositivos periféricos físicos de PDV. O simulador do POS permite testar a compatibilidade de dispositivos periféricos físicos com o Retail sem precisar implantar o cliente do POS.
+O simulador periférico do Retail inclui um simulador periférico virtual e um simulador do POS. O simulador periférico virtual dá suporte principalmente a testes de cenários que costumam exigir dispositivos periféricos físicos de POS. O simulador do POS permite testar a compatibilidade de dispositivos periféricos físicos com o Retail sem precisar implantar o cliente do POS.
 
 ## <a name="intelligence"></a>Inteligência
 A análise avançada traz o aprendizado de máquina para desafios de varejo, e permite obter informações preditivas, otimizadas e personalizadas que ajudam a gerar crescimento e lucratividade. O Retail permite fornecer relatórios visuais em qualquer dispositivo, online ou offline. Além disso, você pode ajudar clientes a identificarem produtos e serviços que atendam às suas necessidades antes do momento da compra.
@@ -61,12 +61,12 @@ O Retail permite monitorar o desempenho de vendas e de margem em tempo real em v
 ## <a name="merchandising"></a>Merchandising
 Para poder oferecer produtos para venda em seus canais de varejo, você precisa criar e configurar os produtos no Retail. Você pode criar os produtos, definir as propriedades e os atributos dos produtos, e atribuir os produtos a hierarquias de categoria de varejo. Para tornar os produtos disponíveis em seus canais de varejo e adicioná-los a um sortimento ativo, libere os produtos para as entidades legais onde eles estão disponíveis.
 
-Você pode fazer ajustes de preços nos produtos e também configurar descontos para serem aplicados a um item de linha ou uma transação no PDV, em uma ordem de venda do call center ou em uma ordem online.
+Você pode fazer ajustes de preços nos produtos e também configurar descontos para serem aplicados a um item de linha ou uma transação no POS, em uma ordem de venda do call center ou em uma ordem online.
 
-## <a name="store-operations-and-pos"></a>Operações de armazenamento e PDV
-MPOS é um aplicativo de PDV para PCs, tablets e telefones. A equipe de vendas pode processar transações de vendas e ordens de clientes, executar atividades de depoimentos de clientes, executar operações diárias e gerenciamento do estoque em dispositivos móveis em qualquer lugar na loja, bem como nas registradoras baseadas em PCs. O Cloud POS é um PDV baseado em navegador que pode ser iniciado em qualquer navegador padrão.
+## <a name="store-operations-and-pos"></a>Operações de armazenamento e POS
+MPOS é um aplicativo de POS para PCs, tablets e telefones. A equipe de vendas pode processar transações de vendas e ordens de clientes, executar atividades de depoimentos de clientes, executar operações diárias e gerenciamento do estoque em dispositivos móveis em qualquer lugar na loja, bem como nas registradoras baseadas em PCs. O Cloud POS é um POS baseado em navegador que pode ser iniciado em qualquer navegador padrão.
 
-Você configurará vários componentes para definir os relacionamentos entre uma loja, as registradoras de PDV da loja e os periféricos do varejo que essas registradoras usam para processar transações. Você também definirá as características de uma instância específica do PDV. Estas características incluem o perfil ou a configuração do hardware para periféricos de varejo que serão usados na registradora, a loja para a qual a registradora é mapeada, a experiência visual do usuário que entra nessa registradora, e as funcionalidades habilitadas na registradora. Você também definirá se a registradora pode operar em um estado desconectado ou offline.
+Você configurará vários componentes para definir os relacionamentos entre uma loja, as registradoras de POS da loja e os periféricos de varejo que essas registradoras usam para processar transações. Você também definirá as características de uma instância específica do POS. Estas características incluem o perfil ou a configuração do hardware para periféricos de varejo que serão usados na registradora, a loja para a qual a registradora é mapeada, a experiência visual do usuário que entra nessa registradora, e as funcionalidades habilitadas na registradora. Você também definirá se a registradora pode operar em um estado desconectado ou offline.
 
 ## <a name="customize-and-administer-retail-environments"></a>Personalizar e administrar ambientes do Retail
 Se você foi solicitado a personalizar seu ambiente, ou se é responsável por implantar e manter o sistema, confira o conteúdo para desenvolvedores e administradores de sistema específicos ao Retail, além do conteúdo mais geral.
