@@ -1,6 +1,6 @@
 ---
 title: Fluxo de trabalho de despesas
-description: "Este tópico explica como você pode usar o sistema fluxo de trabalho no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, para configurar um processo de revisão para despesas relatório no gerenciamento de despesas."
+description: "Este tópico explica como você pode usar o sistema fluxo de trabalho no Microsoft Dynamics 365 for Finance and Operations, para configurar um processo de revisão para despesas relatório no gerenciamento de despesas."
 author: saraschi2
 manager: AnnBe
 ms.date: 09/13/2017
@@ -19,10 +19,10 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d60d2f462a1fd27d4655e68aab7f96fb28a34b77
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6ee607f723659a5b6ecd655ba4fdfca35a4c582d
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
-Você pode usar o sistema de fluxo de trabalho no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, para configurar um processo de revisão para relatório de despesas no gerenciamento de despesas. É possível configurar um fluxo de trabalho que usa os seguintes critérios para determinar quem aprova os relatórios de despesas:
+Você pode usar o sistema de fluxo de trabalho no Microsoft Dynamics 365 for Finance and Operations para configurar um processo de revisão para relatório de despesas no gerenciamento de despesas. É possível configurar um fluxo de trabalho que usa os seguintes critérios para determinar quem aprova os relatórios de despesas:
 
 - A hierarquia de relatórios de funcionários e os limites de aprovação predefinidos
 - Aprovação de vários níveis que suporta aprovadores provisórios e um aprovador final

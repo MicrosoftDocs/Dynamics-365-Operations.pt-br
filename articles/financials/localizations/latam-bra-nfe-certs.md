@@ -1,6 +1,6 @@
 ---
 title: Certificados de NF-e para o Brasil
-description: "Este tópico fornece informações sobre os certificados de NF-e para Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Isso inclui informações sobre a solução que você deve usar para a autoridade fiscal de cada estado."
+description: "Este tópico fornece informações sobre os certificados de NF-e para Microsoft Dynamics 365 for Finance and Operations. Isso inclui informações sobre a solução que você deve usar para a autoridade fiscal de cada estado."
 author: sndray
 manager: AnnBe
 ms.date: 01/31/2018
@@ -17,10 +17,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 74b848db12172242d5468a404aa010f86a7ffaa9
-ms.openlocfilehash: df977825c0a28b4af2f2bf7302e58b59f32b5ca6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 295880b9dba7957b17148fcf0d0d2d809dba3f8a
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -37,7 +37,7 @@ Antes de gerar uma NF-e, você deve concluir as seguintes tarefas:
 - Configurar um tipo de documento fiscal para NF-e.
 
 ## <a name="set-up-certificates"></a>Configurar certificados
-O processo usado para instalar certificados varia, dependendo do estado onde a nota fiscal de NF-e é emitida. Você deve usar o processo de instalação de certificado correto, para que o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition possa se conectar com os serviços Web do estado.
+O processo usado para instalar certificados varia, dependendo do estado onde a nota fiscal de NF-e é emitida. Você deve usar o processo de instalação de certificado correto, para que o Microsoft Dynamics 365 for Finance and Operations possa se conectar com os serviços Web do estado.
 
 O governo brasileiro atualizou a autoridade de certificação (CA) raiz usada para emitir o certificado necessário para estabelecer uma conexão de protocolo SSL (Secure Sockets Layer) no servidor. A versão atual da AC Raiz é a v5. Por padrão, a versão anterior (AC Raiz v2) é implantada no Microsoft Windows.
 

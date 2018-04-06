@@ -18,25 +18,25 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
-ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fa43f6683d43dfb62e8dc2c194ff2b82fe629fe3
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/15/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page da implantação local
 
 [!include[banner](../includes/banner.md)]
 
-Você pode implantar o Microsoft Dynamics 365 for Finance and Operations, edição Enterprise (local). Quando você escolhe um tipo da implantação local, os requisitos de sistema, o dimensionamento do hardware e a funcionalidade diferem de uma implantação de nuvem. Este tópico fornece links para conteúdo que contém informações específicas de implantações locais.
+Você pode implantar o Microsoft Dynamics 365 for Finance and Operations (local). Quando você escolhe um tipo da implantação local, os requisitos de sistema, o dimensionamento do hardware e a funcionalidade diferem de uma implantação de nuvem. Este tópico fornece links para conteúdo que contém informações específicas de implantações locais.
 
 ## <a name="get-started"></a>Introdução
 - [Novidades ou alterações em implantações locais do Dynamics 365 for Finance and Operations, Enterprise edition 7.2 com atualização da plataforma 12 (março de 2018)](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
-- [Visão geral do Dynamics 365 for Finance and Operations, Enterprise edition (local)](on-premises-overview.md)
-- [Planejando sua implantação local](plan-onprem-deployment.md)
+- [Visão geral do Dynamics 365 for Finance and Operations (local)](on-premises-overview.md)
+- [Planejando para sua implantação local](plan-onprem-deployment.md)
 - [Requisitos do sistema para implantações locais](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [Dimensionamento de hardware para ambientes locais](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [Comprar Dynamics 365 for Finance and Operations, Enterprise edition (local)](../../fin-and-ops/get-started/purchase-on-premises.md)
+- [Comprar Dynamics 365 for Finance and Operations (local)](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [Comparação de recursos de nuvem e locais](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Carregar
@@ -58,7 +58,7 @@ Você pode implantar o Microsoft Dynamics 365 for Finance and Operations, ediç�
 - [Reimplantar em uma implantação local](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>Outros recursos
-- [Solucionar problemas do Dynamics 365 for Finance and Operations, Enterprise edition local](troubleshoot-on-prem.md)
+- [Solucionar problemas do Dynamics 365 for Finance and Operations local](troubleshoot-on-prem.md)
 - [Recursos não implementados em implantações locais](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Recursos preteridos](../migration-upgrade/deprecated-features.md)
 - [Política de ciclo de vida de software e lista de lançamentos](../migration-upgrade/versions-update-policy.md)

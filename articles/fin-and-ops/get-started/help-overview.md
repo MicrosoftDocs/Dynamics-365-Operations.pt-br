@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 03/09/2018
 Este tópico fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations. Também explica como você pode fornecer a documentação personalizada e treinamento a sua organização. 
 
 > [!NOTE] 
-> Os produtos a seguir estão intimamente relacionados: Dynamics 365 for Finance and Operations, edição Enterprise; Dynamics 365 for Retail; and Dynamics 365 for Talent. Todos os 3 produtos podem conter a mesma funcionalidade. Como resultado, para tópicos relacionados principalmente a varejo, o nome do produto será Dynamics 365 for Retail; para tópicos relacionados principalmente a talentos, o nome do produto será Dynamics 365 for Talent; para tópicos relacionados ao produto principal, o nome do produto será Dynamics 365 for Finance and Operations. Os tópicos redigidos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
+> Os produtos a seguir estão intimamente relacionados: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail e Dynamics 365 for Talent. Todos os 3 produtos podem conter a mesma funcionalidade. Como resultado, para tópicos relacionados principalmente a varejo, o nome do produto será Dynamics 365 for Retail; para tópicos relacionados principalmente a talentos, o nome do produto será Dynamics 365 for Talent; para tópicos relacionados ao produto principal, o nome do produto será Dynamics 365 for Finance and Operations. Os tópicos redigidos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
 
 O sistema de Ajuda é compartilhado pelos seguintes produtos:
-- Dynamics 365 for Finance and Operations, edição Enterprise
+- Dynamics 365 for Finance and Operations
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
 
@@ -108,7 +108,7 @@ Ou
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Sugerir uma alteração ou contribuir com conteúdo no GitHub
 Para sugerir uma alteração, é preciso ter uma conta do GitHub, e assinar um contrato de licença de contribuinte.  Após você enviar uma solicitação de pull, examinaremos as alterações propostas. Se necessário, faremos uma análise interna e lhe daremos uma resposta.  
 
-Para começar, clique no botão **Editar** (lápis) em um tópico, ou acesse nosso repositório em https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
+Para começar, clique no botão **Editar** (lápis) em um tópico ou vá para nosso repositório em https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public. 
 
 Para obter mais informações, consulte o guia do colaborador: https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md. 
 

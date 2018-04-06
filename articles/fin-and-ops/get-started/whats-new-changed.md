@@ -3,7 +3,7 @@ title: "Novidades e alterações"
 description: "Essa página indica tópicos que podem ajudar você a conhecer os novos recursos das versões mais recentes do Microsoft Dynamics 365 for Finance and Operations."
 author: josaw1
 manager: AnnBe
-ms.date: 03/21/2018
+ms.date: 03/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: ff73fdb3e6ce97e01838228c45795ca64e888add
-ms.openlocfilehash: e00dece6a6f917028379d879ec81a5c7ab210253
+ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
+ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/25/2018
 
 ---
 
@@ -120,10 +120,10 @@ Para obter informações sobre como fazer a atualização para a versão mais re
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
-<td>Update 13 para plataforma</td>
-<td>7.0.4764</td>
-<td>Janeiro de 2018 (esta é uma versão específica disponível apenas para usuários que aceitaram o Continuous Auto-update Advantage Program (CAAP).)</td>
-<td><a href="whats-new-platform-update-13.md">O que há de novo ou diferente no Dynamics 365 for Finance and Operations, Enterprise edition com atualização 13 da plataforma (janeiro de 2018)</a></td><tbody>
+<td>Update 15 para plataforma</td>
+<td>7.0.4839</td>
+<td>Março de 2018 (esta é uma versão específica disponível apenas para usuários que aceitaram o programa contínuo de benefício da atualização (CAAP).)</td>
+<td><a href="whats-new-platform-update-15.md">O que há de novo ou diferente no Dynamics 365 for Finance and Operations, Enterprise Edition com atualização 15 da plataforma (março de 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Update 12 para plataforma</td>

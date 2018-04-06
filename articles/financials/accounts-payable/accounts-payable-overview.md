@@ -1,6 +1,6 @@
 ---
 title: Configurar contas a pagar
-description: "Este artigo descreve as páginas que você usa para configurar funcionalidades básicas e opcionais de Contas a pagar no Microsoft Dynamics 365 for Finance and Operations, edição Enterprise. Também mostra as etapas de configuração que devem ser concluídas antes de começar a configurar as contas a pagar."
+description: "Este artigo descreve as páginas que você usa para configurar funcionalidades básicas e opcionais de Contas a pagar no Microsoft Dynamics 365 para Finance and Operations. Também mostra as etapas de configuração que devem ser concluídas antes de começar a configurar as contas a pagar."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/08/2017
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2d01a85dad2582a6ab796b03616ef283e40e040b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 60313da23fdbd5a06b71c7c91a236165f8f189de
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve as páginas que você usa para configurar funcionalidades básicas e opcionais de Contas a pagar no Microsoft Dynamics 365 for Finance and Operations, edição Enterprise. Também mostra as etapas de configuração que devem ser concluídas antes de começar a configurar as contas a pagar.
+Este artigo descreve as páginas que você usa para configurar funcionalidades básicas e opcionais de Contas a pagar no Microsoft Dynamics 365 para Finance and Operations. Também mostra as etapas de configuração que devem ser concluídas antes de começar a configurar as contas a pagar.
 
 <a name="prerequisites-for-accounts-payable-setup"></a>Pré-requisitos para a configuração de contas a pagar
 ----------------------------------------

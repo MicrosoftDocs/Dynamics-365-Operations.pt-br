@@ -17,10 +17,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 335f3bd02df6022bffb5c409b01981f530d8ba3c
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: cd2da3457d556e8ae8805b09780c3caf58521ad4
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/15/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/15/2017
 
 Esse tópico mostra como os diários de pagamentos são gerados quando você importa e lança o arquivo de retorno para pagamentos eletrônicos. As linhas de pagamento aprovadas no arquivo de retorno podem ser lançadas em um diário ou em vários diários.
 
-É possível fazer pagamentos eletrônicos pela transferência de arquivos entre uma entidade legal e um banco. Primeiro, você gera e envia arquivos de remessa eletrônica para o banco. Depois, após o banco processar os arquivos exportados, é possível importar um arquivo de devolução do banco. O arquivo de devolução contém informações sobre a aceitação de uma fatura, junto com o número de pagamento fornecido pelo banco, ou informações sobre os pagamentos recebidos de um cliente ou pagos a um fornecedor. Ao importar um arquivo de devolução, o status dos pagamentos é atualizado no campo **Status de pagamento** na página **Transferências de pagamento**. O novo status depende do relacionamento entre os códigos de ocorrência de devolução bancária no arquivo de devolução e os códigos de ocorrência no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Ao lançar os pagamentos para os quais o arquivo de devolução é importado, somente os pagamentos que possuem um status **Aprovado** são lançados. Esses pagamentos podem ser lançados para o mesmo diário de pagamento ou para vários diários de pagamento.
+É possível fazer pagamentos eletrônicos pela transferência de arquivos entre uma entidade legal e um banco. Primeiro, você gera e envia arquivos de remessa eletrônica para o banco. Depois, após o banco processar os arquivos exportados, é possível importar um arquivo de devolução do banco. O arquivo de devolução contém informações sobre a aceitação de uma fatura, junto com o número de pagamento fornecido pelo banco, ou informações sobre os pagamentos recebidos de um cliente ou pagos a um fornecedor. Ao importar um arquivo de devolução, o status dos pagamentos é atualizado no campo **Status de pagamento** na página **Transferências de pagamento**. O novo status depende do relacionamento entre os códigos de ocorrência de devolução bancária no arquivo de devolução e os códigos de ocorrência de devolução no Microsoft Dynamics 365 for Finance and Operations. Ao lançar os pagamentos para os quais o arquivo de devolução é importado, somente os pagamentos que possuem um status **Aprovado** são lançados. Esses pagamentos podem ser lançados para o mesmo diário de pagamento ou para vários diários de pagamento.
 
 ## <a name="approved-payment-lines-that-are-posted-to-the-same-payment-journal"></a>Linhas de pagamento aprovadas que são lançadas no mesmo diário de pagamento
 É possível lançar todas as linhas de pagamento aprovadas que pertencem ao mesmo nome de diário em um diário de pagamento. Por exemplo, você importa um arquivo de devolução que contém seis linhas de pagamento. Três linhas de pagamento têm o status **Aprovado** e três têm o status **Rejeitado**. Duas das linhas de pagamento aprovadas para os números de diário 001 e 002, pertencem ao mesmo nome de diário, DP. A terceira linha de pagamento aprovada para o número de diário 100, pertence ao nome do diário Teste. A tabela a seguir contém informações sobre as linhas de pagamento no arquivo de devolução.

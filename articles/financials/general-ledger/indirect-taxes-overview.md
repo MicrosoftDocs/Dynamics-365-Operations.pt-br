@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1eb30ccbaa51bf794c7b3ea2be3fe749fb8ff88d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 02d28aef2316d7cfe5ad4eb45272dc1a22c96789
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -74,7 +74,7 @@ Em cada transação (linhas de documento de compra/venda, diários, e assim por 
 Em cada transação, você pode pesquisar o imposto sobre vendas calculado abrindo a página **Transação de imposto**. Você pode pesquisar os impostos sobre vendas para uma linha do documento ou para o documento todo. Para certos documentos (por exemplo, faturas de fornecedor e diários gerais), você pode ajustar o imposto sobre vendas calculado se o documento original mostrar os valores de desvio.
 
 ## <a name="sales-tax-settlement-and-reporting"></a>Liquidação e relatório de imposto sobre vendas
-O imposto sobre vendas deve ser reportado e pago às autoridades fiscais em intervalos regulares (mensal, trimestral, e assim por diante). O Microsoft Dynamics 365 for Finance and Operations, edição Enterprise fornece uma funcionalidade que permite liquidar as contas de imposto para o intervalo e compensar os saldos da conta de liquidação de impostos, conforme especificado nos grupos de lançamentos contábeis. Você pode acessar essa funcionalidade na página **Liquidar e lançar imposto**. Especifique o período de liquidação do imposto no qual o imposto deve ser liquidado. 
+O imposto sobre vendas deve ser reportado e pago às autoridades fiscais em intervalos regulares (mensal, trimestral, e assim por diante). O Microsoft Dynamics 365 for Finance and Operations fornece uma funcionalidade que permite liquidar as contas de imposto para o intervalo e compensar os saldos da conta de liquidação de impostos, conforme especificado nos grupos de lançamentos contábeis. Você pode acessar essa funcionalidade na página **Liquidar e lançar imposto**. Especifique o período de liquidação do imposto no qual o imposto deve ser liquidado. 
 
 Após os impostos sobre vendas serem pagos, o saldo na conta de liquidação de impostos sobre vendas deve ser equilibrado em relação à conta bancária. Se a autoridade fiscal que estiver especificada no período de liquidação de imposto estiver relacionada a uma conta de fornecedor, o saldo do imposto será lançado como uma fatura de fornecedor aberta e poderá ser incluído na proposta de pagamento regular.
 

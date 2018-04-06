@@ -1,6 +1,6 @@
 ---
 title: "Importar dados de modelos de entidade de dados do Excel com várias planilhas"
-description: "Este tópico descreve como importar dados usando modelos de entidade de dados do Excel no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Este tópico descreve como importar dados usando modelos de entidade de dados do Excel no Microsoft Dynamics 365 for Finance and Operations."
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: b314a649829dd14a525923802e19b847dc5a115e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/27/2018
 
 [!include[banner](../includes/banner.md)]
 
-O gerenciamento de dados no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition oferece suporte a modelos baseados no Microsoft Excel para entidades de dados. Esses modelos podem conter uma ou mais planilhas. Os modelos com várias planilhas frequentemente são usados quando é conveniente gerenciar dados em um único arquivo e os importar para várias entidades de dados. Um exemplo seria locais e depósitos.
+O gerenciamento de dados no Microsoft Dynamics 365 for Finance and Operations oferece suporte a modelos baseados no Microsoft Excel para entidades de dados. Esses modelos podem conter uma ou mais planilhas. Os modelos com várias planilhas frequentemente são usados quando é conveniente gerenciar dados em um único arquivo e os importar para várias entidades de dados. Um exemplo seria locais e depósitos.
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>Carregar um arquivo e depois mapeá-lo para todas as entidades
 Vamos ver um exemplo no qual há um arquivo do Excel com planilhas chamadas **Locais** e **Depósitos**. Para configurar o projeto de importação de dados, você adicionaria a primeira entidade de dados, **Locais** e depois carregaria o arquivo. Você pode selecionar **Locais** como a planilha a ser usada para esta entidade.

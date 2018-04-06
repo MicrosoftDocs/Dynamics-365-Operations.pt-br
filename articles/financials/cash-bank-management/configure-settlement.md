@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0069246a60f1db6297df45fa57cd52d90cdb4ab5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 89a13ad5a1d3cb7f93a469d33530ec99b39160da
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Como e quando as transações são liquidadas podem ser assuntos complexos, é essencial que você insira corretamente e defina os parâmetros para atender às suas necessidades comerciais. Este artigo descreve os parâmetros usados para pagamento de contas a pagar e contas a receber. 
 
-Os parâmetros a seguir afetam como as liquidações são processadas no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. A liquidação é o processo de liquidar uma fatura em relação a um pagamento ou nota de crédito. Esses parâmetros estão alocados na área **Liquidação** das páginas **Parâmetros de contas a receber** e das páginas **Parâmetros das contas a pagar**.
+Os parâmetros a seguir afetam como as liquidações são processadas no Microsoft Dynamics 365 for Finance and Operations. A liquidação é o processo de liquidar uma fatura em relação a um pagamento ou nota de crédito. Esses parâmetros estão alocados na área **Liquidação** das páginas **Parâmetros de contas a receber** e das páginas **Parâmetros das contas a pagar**.
 
 -   **Liquidação automática** – Defina esta opção como **Sim** se uma transação for liquidada automaticamente em relação a outras transações abertas quando ela é lançada. Se esta opção estiver definida como **Não**, os usuários podem liquidar transações ao inserir pagamentos, ou posteriormente, usando a página **Liquidar transações**.
 -   **Administração de descontos à vista** – Especifique como [o desconto à vista é realizado quando uma fatura é paga em excesso](cash-discount-handling-overpayments.md). Para um pagamento em excesso, o desconto à vista pode ser reduzido, pode ser tratada como uma diferença ou pode continuar sobre a conta do fornecedor ou cliente.

@@ -18,10 +18,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 01b5a499416f79072e6da9a95afad4d126f934ad
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b3499d074d7f762bcc3b7851fd0df06f872c32d4
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -68,7 +68,7 @@ De acordo com a lei brasileira nº 102/2000, a partir de 1º de janeiro de 2001,
 
 No Microsoft Dynamics 365 for Operations, as entradas são as seguintes:
 
-**Compra de ativo fixo** **Microsoft Dynamics 365 for Finance and Operations, edição Enterprise: Fatura de compra de ativo de recebimento**
+**Compra de ativo fixo** **Microsoft Dynamics 365 for Finance and Operations: Fatura de compra de ativo de recebimento**
 
 **Ajuste de ICMS do ano** **Finance and Operations: Comprovante de diário manual** **(R$ 12.000,00 / 48 parcelas) \* 12 (meses)**
 

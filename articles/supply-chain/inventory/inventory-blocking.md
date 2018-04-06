@@ -1,6 +1,6 @@
 ---
 title: Bloqueio de estoque
-description: "Este artigo oferece uma visão geral do bloqueio de estoque, que faz parte do processo de inspeção de qualidade no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Você pode usar o bloqueio de estoque para evitar que os itens sejam processados ou consumidos."
+description: "Este artigo oferece uma visão geral do bloqueio de estoque, que faz parte do processo de inspeção de qualidade no Microsoft Dynamics 365 for Finance and Operations. Você pode usar o bloqueio de estoque para evitar que os itens sejam processados ou consumidos."
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eb8040531ec0c2b9c13fc927e5330772ad11ee1d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 0567cdad6f9f27097f534381655e5b468884bed8
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo oferece uma visão geral do bloqueio de estoque, que faz parte do processo de inspeção de qualidade no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Você pode usar o bloqueio de estoque para evitar que os itens sejam processados ou consumidos.
+Este artigo oferece uma visão geral do bloqueio de estoque, que faz parte do processo de inspeção de qualidade no Microsoft Dynamics 365 for Finance and Operations. Você pode usar o bloqueio de estoque para evitar que os itens sejam processados ou consumidos.
 
 Você pode bloquear itens de estoque das seguintes maneiras:
 -   Manualmente
@@ -64,7 +64,7 @@ Você pode especificar quais status de estoque estão bloqueando os status usand
 <a name="see-also"></a>Consulte também
 --------
 
-[Criar e manter um bloqueio de estoque (Guia de tarefas)](tasks/create-maintain-inventory-blocking.md
+[Criar e manter um bloqueio de estoque](tasks/create-maintain-inventory-blocking.md)
 
 [Processos de gerenciamento de qualidade](quality-management-processes.md)
 

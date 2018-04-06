@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa494ab9c3b3f0540ec042f952344c15796845e6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ Ao planejar e configurar seu plano de contas, você deve considerar como os dive
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>Plano de contas e componentes de dimensão financeira
 
-O Microsoft Dynamics 365 for Finance and Operations, edição Enterprise, tem um sistema sofisticado baseado em regras para definir combinações válidas de contas principais e valores de dimensões financeiras. Esta seção fornece uma breve visão geral da funcionalidade de cada componente e explica onde você pode encontrar o componente.
+O Microsoft Dynamics 365 for Finance and Operations tem um sistema sofisticado baseado em regras para definir combinações válidas de contas principais e valores de dimensões financeiras. Esta seção fornece uma breve visão geral da funcionalidade de cada componente e explica onde você pode encontrar o componente.
 
 ### <a name="account-structures"></a>Estruturas de conta
 

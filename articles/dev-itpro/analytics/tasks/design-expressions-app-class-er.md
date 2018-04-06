@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: b0a1dba5afbd7beba45149340f637223f6ecedcf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 631fa7bae808856efb8b95700fd2a85e6d5f8725
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Criar expressões para chamar métodos de classe de aplicativo (ER)
@@ -28,13 +28,13 @@ ms.lasthandoff: 02/07/2018
 
 Este guia fornece informações sobre como reutilizar a lógica de aplicativo existente em configurações de ER (relatório eletrônico) chamando métodos necessários de classes de aplicativos em expressões de ER. Os valores de argumentos para chamar classes podem ser definidos dinamicamente no tempo de execução: por exemplo, com base em informações no documento de análise para garantir sua exatidão. Neste guia, você criará as configurações de ER necessárias para a empresa de exemplo, Litware, Inc. Esse procedimento é criado para usuários com a função atribuída de Administrador de sistema ou Desenvolvedor de relatório eletrônico. 
 
-Estas etapas podem ser concluídas usando qualquer conjunto de dados. Você também deve baixar e salvar o seguinte arquivo localmente: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
+Estas etapas podem ser concluídas usando qualquer conjunto de dados. Você também deve baixar e salvar o próximo arquivo localmente: (https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt.
 
 Para concluir essas etapas, você deve primeiro concluir as etapas do procedimento “ER Criar um provedor de configuração e marcá-lo como ativo“.
 
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
     * Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como ativo. Se não visualizar esse provedor de configuração, você deve primeiro concluir as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo".   
-    * Suponhamos que você esteja criando um processo para analisar extratos bancários de entrada para uma atualização de dados do aplicativo. Você receberá os extratos bancários de entrada como arquivos TXT que contêm códigos IBAN. Como parte do processo de importação de extratos bancários, você precisará validar a exatidão desses códigos IBAN usando a lógica que já está disponível no Dynamics 365 for Finance and Operations, Enterprise Edition.   
+    * Suponhamos que você esteja criando um processo para analisar extratos bancários de entrada para uma atualização de dados do aplicativo. Você receberá os extratos bancários de entrada como arquivos TXT que contêm códigos IBAN. Como parte do processo de importação de extratos bancários, você precisará validar a exatidão desses códigos IBAN usando a lógica que já está disponível no Dynamics 365 for Finance and Operations.   
 
 ## <a name="import-a-new-er-model-configuration"></a>Importar uma nova configuração de modelo de ER
 1. Na lista, localize e selecione o PDV desejado.

@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
-ms.openlocfilehash: 03b79816ffea649cf226408ed4660c3419103a7a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 0618d71fdb4b29bfdacd6b9e1a8ed47e03abe00d
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico descreve os recursos que foram removidos ou preteridos no Dynamics 365 for Finance and Operations, Enterprise Edition.
+Este tópico descreve os recursos que foram removidos ou preteridos no Dynamics 365 for Finance and Operations.
 
 - Um recurso *removido* não estará mais disponível no produto.
 - Um recurso *preterido* não está no desenvolvimento ativo e poderá ser removido em uma atualização futura.

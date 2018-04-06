@@ -1,6 +1,6 @@
 ---
 title: Configurar gerenciamento de despesas
-description: "Este artigo descreve as considerações e as alterações que você deve fazer durante o processo de planejamento, antes de configurar o gerenciamento de Despesa no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Este artigo descreve as considerações a serem feitas e as decisões a serem tomadas durante o processo de planejamento, antes de configurar o Gerenciamento de despesas no Microsoft Dynamics 365 for Finance and Operations."
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2017
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4fad62c5da11e88e07f4e9d4343c4ac1a487bdd8
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico descreve as considerações a serem feitas e as decisões a serem tomadas durante o processo de planejamento, antes de configurar o gerenciamento de despesa no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. No gerenciamento de Despesa, é possível armazenar informações sobre métodos de pagamento, requisições de viagem, relatórios de despesas, políticas etc.
+Este tópico descreve as considerações a serem feitas e as decisões a serem tomadas durante o processo de planejamento, antes de configurar o Gerenciamento de despesas no Microsoft Dynamics 365 for Finance and Operations. No gerenciamento de Despesa, é possível armazenar informações sobre métodos de pagamento, requisições de viagem, relatórios de despesas, políticas etc.
 
 Como muitas das decisões que você toma ao planejar sua configuração do gerenciamento de despesas são baseadas na hierarquia da sua organização e na estrutura financeira, você deve consultar os documentos de planejamento para essas áreas.
 

@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d904a2fe9411da1fd1a4e5810f7dcea782f1c2f7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ Este artigo apresenta planejamento de orçamento e contém informações para aj
 
 Você realizará o planejamento do orçamento ao preparar os orçamentos que serão implementados por uma organização. Uma organização pode configurar o planejamento de orçamento e, em seguida, definir os processos de planejamento de orçamento para atender às políticas, procedimentos e aos requisitos para preparação do orçamento. 
 
-Quando você compreende os conceitos e a terminologia usados no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, será mais fácil implementar o plano de orçamento na sua organização.
+Quando você compreende os conceitos e a terminologia usados no Microsoft Dynamics 365 for Finance and Operations, será mais fácil implementar o plano de orçamento na sua organização.
 
 ### <a name="key-terms"></a>Condições principais
 

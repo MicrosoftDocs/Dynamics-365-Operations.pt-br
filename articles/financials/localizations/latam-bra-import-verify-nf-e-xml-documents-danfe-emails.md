@@ -18,10 +18,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d9866988638ddfca8afda04b476021a269c830c
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 8e4697b57398f0ac71a7f323f4ff05832d5d80b6
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -41,7 +41,7 @@ Você pode realizar as seguintes tarefas para configurar os documentos XML de No
     -   Exibir o DANFE para um documento XML de NF-e.
     -   Use a chave de acesso para pesquisar o status atual da NF-e na Secretaria da Fazenda (SEFAZ).
 -   Insira manualmente uma chave de acesso para uma NF-e para a qual você não recebeu um documento XML.
--   Lance as notas fiscais eletrônicas que possuem as chaves de acesso que não foram validadas pela SEFAZ. Como alternativa, você pode configurar o Microsoft Dynamics 365 for Finance and Operations, Enterprise edition para lançar somente as notas fiscais eletrônicas com as chaves de acesso validadas pela SEFAZ.
+-   Lance as notas fiscais eletrônicas que possuem as chaves de acesso que não foram validadas pela SEFAZ. Como alternativa, você pode configurar o Microsoft Dynamics 365 for Finance and Operations para lançar somente as notas fiscais eletrônicas com as chaves de acesso validadas pela SEFAZ.
 -   Se você lançar as notas fiscais eletrônicas para as quais as chaves de acesso não estão disponíveis na página **Documentos XML de NF-e recebidos**, será possível atualizar as chaves de acesso ou documentos XML para as notas fiscais eletrônicas após a conclusão do lançamento. É possível exibir os seguintes documentos de NF-e lançados que requerem chaves de acesso ou documentos XML:
     -   Documentos de NF-e que possuem as chaves de acesso que não foram validadas pela SEFAZ.
     -   Documentos de NF-e para os quais o status é atualizado de **Aprovado** para **Cancelado**.

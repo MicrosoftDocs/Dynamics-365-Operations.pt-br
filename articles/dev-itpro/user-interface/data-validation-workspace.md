@@ -16,10 +16,10 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: daded9d8ef48456cbd3f97a7bae5fa75885ce9d1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ Na seção **Tarefas e status**, o status do projeto de validação geral de dad
 A última guia se refere à lista de tarefas detalhadas. É exibida a lista de tarefas completa.
 Você pode filtrar a lista de tarefas de várias maneiras. Clique em **Editar tarefa** para alterar o status de uma tarefa ou atribuir uma tarefa. Clique em **Anexos** para exibir anexos de uma tarefa.
 
-O nome da tarefa é um hiperlink para a página do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition na qual o usuário deve ir para concluir o trabalho. Você pode definir esse hiperlink usando o campo **Nome do item de menu** ao editar ou criar uma tarefa do formulário **Configurar o projeto de validação de dados**.
+O nome da tarefa é um hiperlink para a página do Microsoft Dynamics 365 for Finance and Operations na qual o usuário deve ir para concluir o trabalho. Você pode definir esse hiperlink usando o campo **Nome do item de menu** ao editar ou criar uma tarefa do formulário **Configurar o projeto de validação de dados**.
 
 Você pode anexar arquivos, notas, imagens e URLs a uma tarefa ao usar a ação **Anexos**. Por exemplo, você pode anexar um arquivo de relatório que foi impresso para a tarefa. Um ícone será exibido na coluna **Anexo** para a tarefa se um anexo estiver presente.
 

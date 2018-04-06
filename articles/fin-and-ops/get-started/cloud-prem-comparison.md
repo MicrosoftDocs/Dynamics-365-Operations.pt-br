@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 4ffdc5dd54f8a069676f62c8b43f2892764dc046
-ms.openlocfilehash: 88640007ec54ed0c566e163e3dd701faeebc50ce
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,8 +31,8 @@ ms.lasthandoff: 03/05/2018
 
 Este tópico mostra se cada recurso está disponível nestes produtos:
 
-+ Dynamics 365 for Finance and Operations, Enterprise Edition (nuvem)
-+ Dynamics 365 for Finance and Operations, Enterprise Edition (local)
++ Dynamics 365 for Finance and Operations (nuvem)
++ Dynamics 365 for Finance and Operations (locais)
 
 As tabelas a seguir listam as áreas do produto. O suporte à nuvem e aos locais é listado para o recurso como um todo. Onde os recursos específicos da área total forem diferentes, os recursos são listados em uma linha separada na coluna Recurso.
 

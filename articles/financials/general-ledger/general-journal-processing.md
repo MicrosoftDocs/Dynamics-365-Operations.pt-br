@@ -1,6 +1,6 @@
 ---
 title: "Processamento do diário geral"
-description: "Este artigo descreve os recursos do Microsoft Dynamics 365 for Finance and Operations, edição Enterprise que podem ajudar a facilitar o processamento de diário geral, bem como ajudar a garantir que os dados corretos sejam capturados e o controle interno não esteja comprometido."
+description: "Este artigos descrevem os recursos do Microsoft Dynamics 365 for Finance and Operations que podem ajudar a facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido."
 author: twheeloc
 manager: AnnBe
 ms.date: 08/01/2017
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 76386f7ab8033075f9db4cadc697f3a2a997163e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: eb46613f805999753c2ab73ffb91a6fdae04c68e
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve os recursos do Microsoft Dynamics 365 for Finance and Operations, edição Enterprise que podem ajudar a facilitar o processamento de diário geral, bem como ajudar a garantir que os dados corretos sejam capturados e o controle interno não esteja comprometido.  
+Este artigos descrevem os recursos do Microsoft Dynamics 365 for Finance and Operations que podem ajudar a facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido.  
 
 Nomes de diário
 

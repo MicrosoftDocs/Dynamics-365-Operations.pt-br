@@ -3,7 +3,7 @@ title: Campos personalizados
 description: "Este tópico mostra como o Microsoft Dynamics 365 for Finance and Operations permite que alguns usuários criem campos personalizados para adequar o aplicativo à sua empresa."
 author: jasongre
 manager: AnnBe
-ms.date: 01/19/2018
+ms.date: 03/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -14,13 +14,13 @@ ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2017-12-31
+ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: ad59346f88b7a5984e16418e2aade7ccaedf180b
-ms.openlocfilehash: 142c66c189d6401cfb3db128e45fea6c071e99bf
+ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
+ms.openlocfilehash: 4420eeb249a4d1bdac203e32d017dcebbddf95c3
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/28/2018
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -30,7 +30,9 @@ ms.lasthandoff: 02/28/2018
 
 [!include[banner](../includes/pre-release.md)] 
 
-Embora o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition forneça um conjunto extensivo de campos imediatos para gerenciar uma ampla gama de processos de negócios, às vezes uma empresa precisa rastrear informações adicionais no sistema. Para acomodar essa necessidade, o Finance and Operations permite criar campos personalizados para adequar o aplicativo à sua empresa, desde que você tenha permissões para o recurso.
+Embora o Microsoft Dynamics 365 for Finance and Operations forneça um conjunto extensivo de campos imediatos para gerenciar uma ampla gama de processos de negócios, às vezes uma empresa precisa rastrear informações adicionais no sistema. Para acomodar essa necessidade, o Finance and Operations permite criar campos personalizados para adequar o aplicativo à sua empresa, desde que você tenha permissões para o recurso. 
+
+A capacidade de adicionar campos personalizados está disponível na atualização 13 da plataforma e posteriores.
 
 Este vídeo mostra como é fácil adicionar um campo personalizado a uma página.
 

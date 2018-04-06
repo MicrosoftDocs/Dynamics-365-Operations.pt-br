@@ -1,6 +1,6 @@
 ---
 title: "Configurar o processo de importação de reconciliação bancária avançada"
-description: "O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Este artigo explica como configurar a funcionalidade de importação para seus extratos bancários."
+description: "O recurso de reconciliação bancária avançada permite importar extratos bancários eletrônicos e reconciliá-los automaticamente com as transações bancárias no Microsoft Dynamics 365 for Finance and Operations. Este artigo explica como configurar a funcionalidade de importação para seus extratos bancários."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d7bb0fc5abedcce973632434a5cc174449cdc22
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Este artigo explica como configurar a funcionalidade de importação para seus extratos bancários. 
+O recurso de reconciliação bancária avançada permite importar extratos bancários eletrônicos e reconciliá-los automaticamente com as transações bancárias no Microsoft Dynamics 365 for Finance and Operations. Este artigo explica como configurar a funcionalidade de importação para seus extratos bancários. 
 
 A configuração de importação de extrato bancário varia de acordo com o formato do seu extrato bancário eletrônico. O Finanças e Operações oferece suporte para três formatos prontos de extratos bancários: ISO20022, MT940 e BAI2.
 
@@ -49,7 +49,7 @@ Para todos os três formatos, você deve ter os arquivos que convertem o extrato
 | BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>Exemplos de formatos de extrato bancário e layouts técnicos
-Abaixo estão exemplos das definições avançadas de layout técnico de arquivo de importação de reconciliação bancária e três arquivos de exemplo de extrato bancário relacionados: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+Estes são exemplos das definições avançadas de layout técnico do arquivo de importação de reconciliação bancária e três arquivos de exemplo de extrato bancário relacionados: https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 | Definição do layout técnico                             | Arquivo de exemplo de extrato bancário          |
 |---------------------------------------------------------|--------------------------------------|

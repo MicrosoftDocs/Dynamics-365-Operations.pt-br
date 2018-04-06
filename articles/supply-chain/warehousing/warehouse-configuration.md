@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 156cd33a0216514a70229b4e23fc86c0c68cd940
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9c2f8fd846181c404492ff32907a3396beb90685
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ Este artigo explica como configurar um depósito. Ele inclui informações sobre
 **Observação:** Este artigo se aplica aos recursos no módulo de **Gerenciamento de depósito** (estoque avançado). Não se aplica aos recursos de depósito no módulo de **Gerenciamento de depósito**.
 
 ## <a name="warehouse-layout"></a>Layout do depósito
-O sistema de gerenciamento de depósito no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition fornece uma maneira flexível de definir o layout de depósito para atender às necessidades de modificação, de forma que você possa obter uma ótima eficiência de depósito.
+O sistema de gerenciamento de depósito no Microsoft Dynamics 365 for Finance and Operations fornece uma maneira flexível de definir o layout de depósito para atender às necessidades de modificação, para que você possa obter uma ótima eficiência de depósito.
 
 -   Você pode liquidar áreas de armazenamento de alta e baixa prioridade para o posicionamento ideal de mercadorias.
 -   Você pode dividir o depósito em zonas para acomodar várias necessidades de armazenamento, como requisitos de temperatura, ou várias taxas de devolução de itens.

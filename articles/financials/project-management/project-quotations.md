@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1212a46cc937b9ccc6ebfa9cc4b89b931f144130
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c7de1d7e57a2a32c339bc576f929958b9de91fcc
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 Este artigo introduz o conceito de cotações de projeto, que pode ser usado para fazer uma atraente oferta a um cliente como primeira etapa da fase do projeto. Uma cotação de projeto pode incluir os itens e os serviços que são cotados, informações básicas de contato, contratos comerciais especiais, descontos e possíveis taxas e subtaxas. 
 
-A capacidade de monitorar, revisar e controlar o canal de cotações e ordens de projeto é uma parte importante do gerenciamento do projeto. Várias ferramentas no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, podem ajudar nessas tarefas. Por exemplo, as definições corretas de dados de referência (tipos de cotação, origem da cotação, prognóstico e probabilidade) ajudam você a analisar o canal. Você pode usar essas ferramentas para categorizar os motivos que levaram uma cotação de projeto a ser ganha ou perdida, e para determinar o valor potencial de uma cotação. 
+A capacidade de monitorar, revisar e controlar o canal de cotações e ordens de projeto é uma parte importante do gerenciamento do projeto. Várias ferramentas no Microsoft Dynamics 365 for Finance and Operations podem ajudar nessas tarefas. Por exemplo, as definições corretas de dados de referência (tipos de cotação, origem da cotação, prognóstico e probabilidade) ajudam você a analisar o canal. Você pode usar essas ferramentas para categorizar os motivos que levaram uma cotação de projeto a ser ganha ou perdida, e para determinar o valor potencial de uma cotação. 
 
 Em uma cotação de projeto, você insere os serviços, informações básicas de contato, contratos comerciais especiais e descontos, além das taxas e sobretaxas estimadas para um projeto. Você também pode selecionar as atividades ou as tarefas de um projeto e criar uma hierarquia de tarefas e subtarefas. Para cada atividade, você pode inserir os detalhes sobre o tempo e a duração da atividade, as habilidades e a experiência necessárias para os trabalhadores que realizarem a atividade. 
 

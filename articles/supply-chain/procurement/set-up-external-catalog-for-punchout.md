@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2892feff0ab8845515543af1a71d8f9642113726
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/08/2018
 
 [!include[banner](../includes/banner.md)]
 
-Ao usar o catálogo externo, você pode garantir que as informações de produtos e preços que você processar posteriormente no Dynamics 365 for Finance and Operations, Enterprise Edition julho de 2017 são precisas e atualizadas. A requisição pode então ser aprovada e convertida em uma ordem de compra e um pedido pode ser colocado no fornecedor.
+Ao usar o catálogo externo, você pode garantir que as informações de produtos e preços que você processar posteriormente no Dynamics 365 for Finance and Operations, julho de 2017, são precisas e atualizadas. A requisição pode então ser aprovada e convertida em uma ordem de compra e um pedido pode ser colocado no fornecedor.
 
 Quando o catálogo externo for configurado e um funcionário estiver preparando uma requisição, haverá uma opção para redirecionar para um site externo, o catálogo externo e retornar o carrinho de compras que foi criado no site externo. Esta comunicação é baseada no protocolo cXML e deve ser configurada entre os sistemas de compra e a organização de venda.
 
