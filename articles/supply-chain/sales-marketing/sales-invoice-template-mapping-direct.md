@@ -1,6 +1,6 @@
 ---
 title: "Sincronizar cabeçalhos e linhas de fatura diretamente do Finance and Operations para o Sales"
-description: "Este tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas de fatura de venda diretamente do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, para o Microsoft Dynamics 365 for Sales."
+description: "Este tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas de fatura de venda diretamente do Microsoft Dynamics 365 for Finance and Operations para o Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
@@ -20,18 +20,18 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: 347509a9556f15e7d880508e36516f04bc6964b7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: afbf4a24b737cf7221bac4b688b8801b1bcd839c
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Sincronizar cabeçalhos e linhas de fatura diretamente do Finance and Operations para o Sales
+# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>Sincronizar cabeçalhos e linhas de fatura de venda diretamente do Finance and Operations com o Sales
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas de fatura de venda diretamente do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, para o Microsoft Dynamics 365 for Sales.
+Este tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas de fatura de venda diretamente do Microsoft Dynamics 365 for Finance and Operations para o Microsoft Dynamics 365 for Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Fluxo de dados no Prospect to cash
 

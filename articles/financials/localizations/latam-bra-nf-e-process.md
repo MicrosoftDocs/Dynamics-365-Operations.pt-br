@@ -19,10 +19,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 74b848db12172242d5468a404aa010f86a7ffaa9
-ms.openlocfilehash: 94964d062aaa25419ad1ea3e7379f30c75be8014
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e4fd60987ca8bdb7748b6fb6469097b41b8ec931
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -52,7 +52,7 @@ Depois que você gera uma NF-e, pode enviar a NF-e assinada digitalmente para a 
 
 1.  O estabelecimento fiscal lança uma nota fiscal usando um tipo de nota fiscal que é configurado para o modelo de nota fiscal 55 para gerar uma NF-e.
 2.  O processo de exportação ou de importação detecta a nota fiscal lançada para o modelo de nota fiscal 55 e gera uma mensagem XML no formato especificado. Uma mensagem XML separada é gerada para cada NF-e. A mensagem XML é transmitida à SEFAZ.
-3.  A SEFAZ processa a mensagem XML e retorna um protocolo e um status para cada NF-e. O status da NF-e e o protocolo são então atribuídos à NF-e que é usada no processo de exportação ou importação de NF-e. O status que é retornado pode ser **Aprovado**, **Negado**, **Rejeitado**, **Cancelado**, **Rejeitado sem correção** ou **Rejeitado**. Esta informação é usada para atualizar o status da nota fiscal no Microsoft Dynamics 365 for Finance and Operations, edição Enterprise.
+3.  A SEFAZ processa a mensagem XML e retorna um protocolo e um status para cada NF-e. O status da NF-e e o protocolo são então atribuídos à NF-e que é usada no processo de exportação ou importação de NF-e. O status que é retornado pode ser **Aprovado**, **Negado**, **Rejeitado**, **Cancelado**, **Rejeitado sem correção** ou **Rejeitado**. Esta informação é usada para atualizar o status da nota fiscal no Microsoft Dynamics 365 for Finance and Operations.
 
 Depois que o status da NF-e for recebido da SEFAZ, você poderá executar as seguintes tarefas, dependendo do status:
 

@@ -1,6 +1,6 @@
 ---
 title: Atalhos de teclado
-description: "Os atalhos de teclado a seguir são utilizados no Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Os atalhos de teclado a seguir são utilizados no Dynamics 365 for Finance and Operations."
 author: jasongre
 manager: AnnBe
 ms.date: 12/12/2017
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/14/2017
 [!include[banner](../includes/banner.md)]
 
 
-Os atalhos de teclado a seguir são utilizados no Dynamics 365 for Finance and Operations, Enterprise Edition. 
+Os atalhos de teclado a seguir são utilizados no Dynamics 365 for Finance and Operations. 
 
 **Observação:** As teclas de atalho descritas aqui referem-se ao layout de teclado dos Estados Unidos. As teclas de outros layouts de teclado podem não corresponder exatamente às teclas do teclado dos EUA.
 
@@ -74,7 +74,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Abra o painel Quadro de Fatos (ou mova o foco para o painel do Quadro de Fatos, se ele já estiver aberto) | Alt+M,B ou Ctrl+F2                        |
 | Fechar o painel de Quadro de Fatos (com foco no painel de Quadro de Fatos)                         | Esc                                       |
 | Mover para o Quadro de Fatos anterior/próximo (com foco no painel do Quadro de Fatos)              | Alt+Shift+Seta para baixo/Alt+Shift+Seta para cima |
-| Mover para o e&lt;n&gt;ésimo Quadro de Fatos (com foco no painel do Quadro de Fatos)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
+| Mover para o Quadro de Fatos &lt;n&gt;th (com foco no painel do Quadro de Fatos)                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | Expandir um Quadro de Fatos (com foco no cabeçalho do Quadro de Fatos)                             | Espaço ou Enter                            |
 | Recolher o Quadro de Fatos atual                                                    | Alt+0                                     |
 
@@ -115,11 +115,11 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | **Para**                                      | **Pressione**                                    |
 | Mover para o campo anterior/próximo                     | Tab / Shift+Tab                              |
 | Mover para a guia anterior/próxima                       | Alt+Shift+Seta para a direita/Alt+Shift+Seta para a esquerda |
-| Mover para a e&lt;n&gt;ésima guia                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Mover para a &lt;n&gt;th guia                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Mover para a Guia Rápida anterior/próxima                   | Alt+Shift+Seta para baixo/Alt+Shift+Seta para cima    |
-| Mover para a e&lt;n&gt;ésima Guia Rápida                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| Mover para a &lt;n&gt;th Guia Rápida                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
 | Mover para a folha seguinte/anterior (guia vertical)      | Alt+Shift+Seta para a direita/Alt+Shift+Seta para a esquerda |
-| Mover para a folha &lt;n&gt; (guia vertical)        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
+| Mover para a &lt;enésima&gt; folha (guia vertical)        | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | Expandir uma Guia Rápida (com foco no cabeçalho da Guia Rápida) | Espaço ou Enter                               |
 | Recolher a Guia Rápida atual                        | Alt+0                                        |
 | Alternar para exibição em grade                                 | Ctrl+Shift+G                                 |

@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 6a613d8b2ea1503b70efad7b14fb340faad0f62e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a3b06832112779a4b0826a51b696a1ced10711ec
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -84,8 +84,8 @@ Essa exibição lista ordens de vendas por cliente.
 ## <a name="prerequisites"></a>Pré-requisitos
 Os pré-requisitos diferem, com base da versão do Microsoft Dynamics 365 que foi implantada para sua organização.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Pré-requisitos se você usa o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
-Se o Dynamics 365 for Finance and Operations, Enterprise Edition foi implementado em sua organização, o administrador do sistema deve publicar o espaço de trabalho móvel de **Ordem de venda**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Pré-requisitos se você usa o Microsoft Dynamics 365 for Finance and Operations 
+Se o Dynamics 365 for Finance and Operations foi implantado em sua organização, o administrador do sistema deve publicar o espaço de trabalho móvel **Ordens de venda**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usar o Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior
 Se o Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior tiver sido implantado em sua organização, o administrador do sistema deve completar os seguintes pré-requisitos. 

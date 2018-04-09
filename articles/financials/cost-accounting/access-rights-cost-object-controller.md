@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2ba38ddc5c717df29462e4316dc5045d0eef8c1a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6403aabb6b029807b42ab1ccb11756dcb0dda5dc
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -96,7 +96,7 @@ As configurações da hierarquia da lista de acesso são usadas para controlar o
 - Microsoft Power BI:
 
     - Dados mostrados nas visualizações do Power BI
-    - Visualizações de dados do Power BI incorporadas no cliente Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
+    - Visualizações de Dados do Power BI inseridos no cliente Microsoft Dynamics 365 for Finance and Operations
 
 > [!IMPORTANT]
 > - Antes que a hierarquia da lista de acesso possa afetar os dados no Power BI, a hierarquia da lista de acesso e a segurança em nível de linha no Power BI devem ser emparelhadas. Para obter mais informações, consulte [Configurar segurança para o pacote de conteúdo de contabilização de custo](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md).

@@ -19,10 +19,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 6fde46c35d5efbb72ad97628d7d5a3f9eeba7c8e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/13/2018
 
 [!include[banner](includes/banner.md)]
 
-Os *Atributos* fornecem uma maneira de descrever melhor um produto e suas características por meio de campos definidos pelo usuário (como **Tamanho da memória**, **Capacidade do disco rígido**, **Compatível com Energy Star** etc). No Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, os atributos podem ser associados a várias entidades de varejo, como categorias de produto e canais de varejo; além disso, é possível definir valores padrão para eles. Os produtos então herdam os atributos e os valores padrão quando são associados às categorias de produto ou aos canais de varejo. Os valores padrão podem ser substituídos no nível do produto individual, do canal de varejo ou em um catálogo de varejo.
+Os *Atributos* fornecem uma maneira de descrever melhor um produto e suas características por meio de campos definidos pelo usuário (como **Tamanho da memória**, **Capacidade do disco rígido**, **Compatível com Energy Star** etc). No Microsoft Dynamics 365 for Finance and Operations, os atributos podem ser associados a várias entidades do Retail, como categorias de produto e canais de varejo; além disso, é possível definir valores padrão para eles. Os produtos então herdam os atributos e os valores padrão quando são associados às categorias de produto ou aos canais de varejo. Os valores padrão podem ser substituídos no nível do produto individual, do canal de varejo ou em um catálogo de varejo.
  
 Por exemplo, uma televisão típica pode ter os seguintes atributos.
 

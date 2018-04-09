@@ -1,6 +1,6 @@
 ---
 title: "Métodos e convenções de depreciação"
-description: "Este artigo oferece uma visão geral das convenções de depreciação e os métodos de depreciação com suporte no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition."
+description: "Este artigo oferece uma visão geral das convenções de depreciação e os métodos de depreciação com suporte no Microsoft Dynamics 365 for Finance and Operations."
 author: twheeloc
 manager: AnnBe
 ms.date: 04/25/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69e0decd3ffbdf1f64fa4fbfe070927990f880ad
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: eb38de1e7e39cb66d15bfe344f6f5fcd5d4fccd7
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo oferece uma visão geral das convenções de depreciação e os métodos de depreciação com suporte no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Este artigo oferece uma visão geral das convenções de depreciação e os métodos de depreciação com suporte no Microsoft Dynamics 365 for Finance and Operations.
 
 Você pode selecionar vários métodos de depreciação e convenções. A finalidade dos métodos é alocar o valor depreciável do ativo fixo em períodos fiscais. O valor depreciável do ativo fixo é o preço de aquisição, reduzido por um valor de sucata, se houver. 
 

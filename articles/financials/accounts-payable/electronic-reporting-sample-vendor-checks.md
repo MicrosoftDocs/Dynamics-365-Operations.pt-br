@@ -17,10 +17,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c9abea228cdaae84ca2b9aada9f36bbe79c1dc6b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6702ac241c41cc99d96bc46a515837235b3ae651
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ Você pode usar o ER (relatório eletrônico) para formatar cheques de fornecedo
 
 Você sempre deve acessar a biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS) e exibir a lista atual de arquivos disponíveis que possuem um tipo de ativo de **Configuração GER**. A seção a seguir, "O que eu tenho que configurar?", inclui um link para um tópico que explica como criar um repositório LCS que possibilita a você revisar as configurações disponíveis e importar as configurações selecionadas.
 
-O Microsoft Dynamics 365 for Finance and Operations, Enterprise edition inclui um formato de amostra no qual o cheque está na parte superior, seguido por duas seções de remessa. Também inclui um formato de amostra no qual o cheque está no meio, entre duas seções de remessa. Esses formatos de amostra correspondem aos formatos Deluxe Business Checks.
+O Microsoft Dynamics 365 for Finance and Operations inclui um formato de amostra no qual o cheque está na parte superior, seguido por duas seções de remessa. Também inclui um formato de amostra no qual o cheque está no meio, entre duas seções de remessa. Esses formatos de amostra correspondem aos formatos Deluxe Business Checks.
 
 ## <a name="what-do-i-have-to-set-up"></a>O que eu tenho que configurar?
 

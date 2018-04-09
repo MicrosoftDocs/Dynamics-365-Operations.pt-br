@@ -1,6 +1,6 @@
 ---
 title: "Planejamento de orçamento"
-description: "O objetivo deste laboratório é fornecer uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition na Área de planejamento de orçamento. A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.  Este laboratório focará especificamente nos processos empresariais a seguir ou tarefas -    - Criar hierarquia organizacional para planejamento de orçamento e configuração de segurança do usuário   - Definir cenários de plano de orçamento, colunas de plano de orçamento, layouts e modelos do Excel   - Criar e ativar processo de planejamento de orçamento   - Criar documento de plano de orçamento extraindo os reais de Contabilidade   - Usar alocações para ajustar dados de documento de plano de orçamento   - Editar dados de documento de plano de orçamento no Excel"
+description: "O objetivo deste laboratório é fornecer uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 for Finance and Operations na Área de planejamento de orçamento. A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.  Este laboratório focará especificamente nos processos empresariais a seguir ou tarefas -    - Criar hierarquia organizacional para planejamento de orçamento e configuração de segurança do usuário   - Definir cenários de plano de orçamento, colunas de plano de orçamento, layouts e modelos do Excel   - Criar e ativar processo de planejamento de orçamento   - Criar documento de plano de orçamento extraindo os reais de Contabilidade   - Usar alocações para ajustar dados de documento de plano de orçamento   - Editar dados de documento de plano de orçamento no Excel"
 author: twheeloc
 manager: AnnBe
 ms.date: 01/12/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c6440591f847cbbb6be352270e3629a49d71598e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-O objetivo deste laboratório é fornecer uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition na Área de planejamento de orçamento. A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.  Este laboratório focará especificamente nos processos empresariais a seguir ou tarefas -    - Criar hierarquia organizacional para planejamento de orçamento e configuração de segurança do usuário   - Definir cenários de plano de orçamento, colunas de plano de orçamento, layouts e modelos do Excel   - Criar e ativar processo de planejamento de orçamento   - Criar documento de plano de orçamento extraindo os reais de Contabilidade   - Usar alocações para ajustar dados de documento de plano de orçamento   - Editar dados de documento de plano de orçamento no Excel 
+O objetivo deste laboratório é fornecer uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 for Finance and Operations na Área de planejamento de orçamento. A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.  Este laboratório focará especificamente nos processos empresariais a seguir ou tarefas -    - Criar hierarquia organizacional para planejamento de orçamento e configuração de segurança do usuário   - Definir cenários de plano de orçamento, colunas de plano de orçamento, layouts e modelos do Excel   - Criar e ativar processo de planejamento de orçamento   - Criar documento de plano de orçamento extraindo os reais de Contabilidade   - Usar alocações para ajustar dados de documento de plano de orçamento   - Editar dados de documento de plano de orçamento no Excel 
 
 <a name="prerequisites"></a>Pré-requisitos 
 ------------------

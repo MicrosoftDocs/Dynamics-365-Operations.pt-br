@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 962b3084c5340813d1697cab680621350510d4b9
+ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
+ms.openlocfilehash: aaa8bdedc31ee03e96a0f7a5e78f25f888913e71
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -42,7 +42,7 @@ Alguns detalhes de trabalho, como o título, tipo e função do trabalho, são d
 ## <a name="job-titles"></a>Títulos de trabalho
 Antes de criar trabalhos, você deve configurar cargos para esses trabalhos. As posições herdam cargos dos trabalhos com os quais essas posições estão associadas. 
 
-Manter títulos de trabalho usando a página **Títulos**, que você pode abrir por meio da função Pesquisar. Na página **Títulos **, insira os títulos que você planeja usar em seus trabalhos.
+Manter títulos de trabalho usando a página **Títulos**, que você pode abrir por meio da função Pesquisar. Na página **Títulos**, insira os títulos que você planeja usar em seus trabalhos.
 
 ## <a name="job-types"></a>Tipos de trabalho
 Você usa tipos de trabalho para agrupar trabalhos semelhantes em categorias. Tipos de trabalhos não são necessários. Entretanto, se planeja usar tipos de trabalho ao configurar regras de qualificação para o gerenciamento de remuneração, você deve configurar tipos de trabalho antes de configurar os trabalhos. Alguns exemplos de tipos de trabalho são horário integral e meio período ou salário e pagamento por hora. Você mantém tipos de trabalho usando a página **Tipos de trabalho**. Na página **Tipos de trabalho**, insira um nome e uma breve descrição para o tipo de trabalho. No campo **Status de isenção**, selecione uma das seguintes opções para indicar o status de isenção de trabalhos FLSA (Lei de Padrões Justos de Trabalho) que tem esse tipo de trabalho.
@@ -91,6 +91,6 @@ Você mantém tarefas de trabalho usando a página **Tarefas de trabalho**. Na p
 ## <a name="areas-of-responsibility"></a>Áreas de responsabilidade
 Use as áreas de responsabilidade para indicar as funções de trabalho, os processos e os produtos pelos quais um trabalhador é responsável em um cargo do trabalho. Por exemplo, para um trabalho denominado "Contador", uma área de responsabilidade pode ser "Relatório financeiro do produto A". Você mantém áreas de responsabilidade usando a página **Áreas de responsabilidade**, que você pode encontrar por meio da função Pesquisar. Na página **Áreas de responsabilidade**, insira um nome e uma descrição para a responsabilidade. No campo **Observação**, você tem a opção de inserir informações adicionais. As observações podem ser atualizadas para um trabalho específico sem a necessidade de alteração das observações que você inseriu aqui.
 
-
-
+## <a name="steps-for-creating-a-job"></a>Etapas para criar um trabalho
+Consulte o tópico [Definir novos trabalhos](../fin-and-ops/hr/tasks/define-new-jobs.md) para obter o procedimento etapa para etapa para criar um novo trabalho. 
 

@@ -1,6 +1,6 @@
 ---
 title: Sincronizar produtos diretamente do Finance and Operations com produtos no Sales
-description: "Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, para o Microsoft Dynamics 365 for Sales."
+description: "Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos do Microsoft Dynamics 365 for Finance and Operations para o Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2017
@@ -20,21 +20,21 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: def88c291538e3ef278c51e4b87462782e222de2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>Sincronizar produtos diretamente do Finance and Operations com produtos no Sales
+# <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>Sincronizar produtos diretamente do Finance and Operations com produtos do Sales
 
 [!include[banner](../includes/banner.md)]
 
 > [!NOTE]
 > Antes de usar a solução Prospect to cash, você deve familiarizar-se com a [Integração de dados do Dynamics 365](/common-data-service/entity-reference/dynamics-365-integration).
 
-Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos diretamente do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, para o Microsoft Dynamics 365 for Sales.
+Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos diretamente do Microsoft Dynamics 365 for Finance and Operations para o Microsoft Dynamics 365 for Sales.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Fluxo de dados no Prospect to cash
 

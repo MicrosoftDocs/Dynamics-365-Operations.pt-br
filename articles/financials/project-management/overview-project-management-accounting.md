@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ Um projeto é um grupo de atividades que visa oferecer um serviço, produzir um 
 ## <a name="projects-across-industries"></a>Projetos em indústrias
 A funcionalidade de gerenciamento de projetos e de contabilidade pode ser usada em várias indústrias, conforme mostrado na ilustração. [![Projetos entre indústrias](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-Em um call center, um bilhete pode ser usado para descrever o conjunto de ações que são necessárias para resolver uma chamada. As empresas de consultoria, como organizações de gerenciamento ou consulta técnica, ou agências de publicidade, referem-se a suas atividades como projetos. Em marketing, uma campanha representa um conjunto de trabalho que deve ser entregue. Na fabricação baseada em projeto, uma ordem de produção relaciona diversos trabalhos que devem ser feitos para gerar alguns bens acabados. Seja qual for o nome usado para eles, esses projetos envolvem recursos, planejamentos e custos, e a funcionalidade de gerenciamento de projeto e de contabilidade do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition pode ajudar no planejamento, na execução e na análise desses projetos.
+Em um call center, um bilhete pode ser usado para descrever o conjunto de ações que são necessárias para resolver uma chamada. As empresas de consultoria, como organizações de gerenciamento ou consulta técnica, ou agências de publicidade, referem-se a suas atividades como projetos. Em marketing, uma campanha representa um conjunto de trabalho que deve ser entregue. Na fabricação baseada em projeto, uma ordem de produção relaciona diversos trabalhos que devem ser feitos para gerar alguns bens acabados. Seja qual for o nome usado para eles, esses projetos envolvem recursos, planejamentos e custos, e a funcionalidade de gerenciamento de projeto e contabilidade do Microsoft Dynamics 365 for Finance and Operations pode ajudar no planejamento, execução e análise desses projetos.
 
 ## <a name="project-phases"></a>Fases do projeto
 Embora o seguinte fluxo de processo destine-se a projetos externos ou projetos que são concluídos para um ou mais clientes, a funcionalidade também se aplica a projetos internos, apenas de custo. 

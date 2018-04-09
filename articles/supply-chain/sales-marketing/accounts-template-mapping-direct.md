@@ -1,6 +1,6 @@
 ---
 title: Sincronizar contas diretamente do Sales com clientes do Finance and Operations
-description: "Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar contas do Microsoft Dynamics 365 for Sales com o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar contas do Microsoft Dynamics 365 for Sales para o Microsoft Dynamics 365 for Finance and Operations."
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: 5dede6024dcd7837dd4e94ecca2ccd059b11b5b9
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fb694db32638756328623c186594cf5ba2e7d6b8
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 03/13/2018
 > [!NOTE]
 > Antes de usar a solução Prospect to cash, você deve familiarizar-se com a [Integração de dados do Dynamics 365](/common-data-service/entity-reference/dynamics-365-integration).
 
-Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar contas diretamente do Microsoft Dynamics 365 for Sales com o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar contas diretamente do Microsoft Dynamics 365 for Sales para o Microsoft Dynamics 365 for Finance and Operations.
 
 ## <a name="data-flow-in-prospect-to-cash"></a>Fluxo de dados no Prospect to cash
 

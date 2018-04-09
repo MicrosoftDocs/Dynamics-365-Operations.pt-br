@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c858cc24cbba961024a67a2477d7271f64f9a0d4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c8e24234cfa54dcbbf3638c31ced7fb83881bb9f
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -41,7 +41,7 @@ Os cenários de produção baseados em ordens de produção, o material é emiti
 
 Para reduzir prazos de entrega e o estoque excedente entre os centros de trabalho causados pela produção de lote, o lean manufacturing apresenta o reabastecimento do kanban e supermercados na fabricação e no reabastecimento do depósito. Isso geralmente interrompe a produção de ciclos parcialmente independentes do kanban. O reabastecimento de um kanban para um produto semiacabado não é mais disparado por uma ordem para um produto acabado. 
 
-Para restabelecer um contexto de produção e custo para os vários cenários do kanban propostos no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, os fluxos de produção baseados em atividade são apresentados como a base do lean manufacturing. Todas as regras kanban se referem a essa estrutura predefinida. O módulo com base em atividade suporta a configuração de uma variação maior de cenários que as versões anteriores de lean manufacturing para Dynamics AX suportavam. No entanto, este módulo não adiciona a complexidade para trabalhadores de chão de fábrica, como todos os cenários usam a mesma interface do usuário com base na atividade.
+Para restabelecer um contexto de produção e custo para os vários cenários do kanban propostos no Microsoft Dynamics 365 for Finance and Operations, os fluxos de produção baseados em atividade são apresentados como a base do lean manufacturing. Todas as regras kanban se referem a essa estrutura predefinida. O módulo com base em atividade suporta a configuração de uma variação maior de cenários que as versões anteriores de lean manufacturing para Dynamics AX suportavam. No entanto, este módulo não adiciona a complexidade para trabalhadores de chão de fábrica, como todos os cenários usam a mesma interface do usuário com base na atividade.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Produtos semiacabados (em níveis não BOM)
 O Lean Manufacturing para Dynamics AX integra os kanbans para produtos inventariados e semiacabados em uma única estrutura, oferecendo uma experiência de usuário unificada para todos os casos. Devido a essa arquitetura, os níveis adicionais de BOM não precisam ser introduzidos para habilitar os kanbans a serem usados para produtos semiconcluídos. A arquitetura também ajuda a reduzir transações de estoque para um mínimo.

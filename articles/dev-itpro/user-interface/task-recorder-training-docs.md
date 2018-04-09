@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9550faec1bbbdc233631e149c09b8e4faf25f5ff
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -85,7 +85,7 @@ Este é o painel de edição que é exibido quando você adiciona uma anotação
 
 [![tela4](./media/screen4.png)](./media/screen4.png)
 
--   **Etapa de informações**: Essas anotações são criadas clicando com o botão direito do mouse em um controle ou em qualquer lugar em um formulário &lt; **Registrador de tarefas** &lt; **Adicionar etapa de informações. **As etapas de informações aparecem como um passo numerado no ponto em que você o insere, mesmo que nenhuma ação tenha sido registrada na interface do usuário. Você pode adicionar uma etapa informativa de nível de formulário ou uma etapa informativa associada a um controle. Quando uma etapa informativa está associada a um formulário, a "bolha" do guia de tarefa irá aparecer em algum lugar do formulário, sem um ponteiro, quando o guia de tarefa for executado. Quando uma etapa de informação é associada a um controle, a guia de tarefas "bolha" aponta para o controle quando o guia de tarefas é reproduzido. No painel de Ajuda, uma anotação de passo de informações será exibida como uma etapa numerada com qualquer texto digitado. Utilize etapas informativas para preparar o usuário para as próximas etapas, para descrever etapas que devem ser feitas fora do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, ou para fazer referência a outras gravações (embora não seja possível criar hiperlinks nas anotações).
+-   **Etapa de informações**: Essas anotações são criadas clicando com o botão direito do mouse em um controle ou em qualquer lugar em um formulário &lt; **Registrador de tarefas** &lt; **Adicionar etapa de informações. **As etapas de informações aparecem como um passo numerado no ponto em que você o insere, mesmo que nenhuma ação tenha sido registrada na interface do usuário. Você pode adicionar uma etapa informativa de nível de formulário ou uma etapa informativa associada a um controle. Quando uma etapa informativa está associada a um formulário, a "bolha" do guia de tarefa irá aparecer em algum lugar do formulário, sem um ponteiro, quando o guia de tarefa for executado. Quando uma etapa de informação é associada a um controle, a guia de tarefas "bolha" aponta para o controle quando o guia de tarefas é reproduzido. No painel de Ajuda, uma anotação de passo de informações será exibida como uma etapa numerada com qualquer texto digitado. Use etapas informativas para preparar o usuário para as próximas etapas, para descrever etapas que devem ser executadas fora do Microsoft Dynamics 365 for Finance and Operations ou para fazer referência a outras gravações (embora não seja possível criar hiperlinks nas anotações).
 
 **Determine o tempo para fazer a gravação**
 

@@ -18,10 +18,10 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c17c62a415836c07327c0b1687d7ad7ddd171edd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b9752d296ae5e3b045f636d6e5ff8fe1531d924e
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -39,7 +39,7 @@ Em algumas situações, uma nota fiscal deve incluir informações de outra nota
 
 ### <a name="examples"></a>Exemplos
 
--   Caso tente fazer referência a uma nota fiscal que não esteja no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, todas as informações da nota fiscal deverão ser inseridas.
+-   Se você tentar fazer referência a uma nota fiscal que não esteja no Microsoft Dynamics 365 for Finance and Operations, todas as informações da nota fiscal devem ser inseridas.
 -   Quando você devolver um item a um fornecedor ou receber uma devolução de um cliente, uma referência ao documento original será adicionada.
 -   Insira uma nota fiscal manual, modelo 01, no sistema. Você cria uma nota fiscal que faz referência à nota fiscal original.
 -   Informe uma Ordem de Venda para Vendas de Varejo ou NF-e (modelo 55). A nota fiscal fará referência à nota fiscal de varejo original e à impressora fiscal.

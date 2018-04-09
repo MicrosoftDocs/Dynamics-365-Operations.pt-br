@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -132,7 +132,7 @@ A pessoa jurídica, pessoa jurídica A, vende widgets a outra entidade legal em 
 Todas essas transações criam transações intercompanhia lançadas em contas a vencer ou vencidas. Em adição, essas transações podem incluir valores de marcação se o valor de venda intercompanhia não for igual ao custo dos produtor que são vendidos.
 
 ## <a name="set-up-elimination-rules"></a>Configurar regras de eliminação
-Ao configurar regras de eliminação no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, recomendamos que você crie uma dimensão financeira especificamente para fins de eliminação. A maioria dos clientes a nomeia como Parceiro comercial ou algo semelhante. Se optar por não usar uma dimensão financeira, certifique-se de ter contas principais específicas para transações intercompanhia apenas. 
+Ao configurar regras de eliminação no Microsoft Dynamics 365 for Finance and Operations, recomendamos que você crie uma dimensão financeira especificamente para fins de eliminação. A maioria dos clientes a nomeia como Parceiro comercial ou algo semelhante. Se optar por não usar uma dimensão financeira, certifique-se de ter contas principais específicas para transações intercompanhia apenas. 
 
 A configuração das eliminações é encontrada na área Configuração do módulo Consolidações. Depois de digitar uma descrição para a regra, escolha a empresa na qual o diário de eliminação será lançado. Esta empresa deve ter a opção **Usar para o processo de eliminação financeira** selecionada na configuração da entidade legal. 
 

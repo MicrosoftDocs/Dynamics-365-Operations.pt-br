@@ -1,6 +1,6 @@
 ---
 title: "Exibir relatórios financeiros"
-description: "Este artigo descreve como exibir e explorar relatórios financeiros no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem."
+description: "Este artigo descreve como exibir e explorar relatórios financeiros no Microsoft Dynamics 365 for Finance and Operations. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem."
 author: kweekley
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 61763e57a54a24665d7ca899d8a26cf9e4d3984b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 055001c992e70ceacf57cf25a8bf83207d8d7334
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve como exibir e explorar relatórios financeiros no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem.
+Este artigo descreve como exibir e explorar relatórios financeiros no Microsoft Dynamics 365 for Finance and Operations. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem.
 
 <a name="financial-reporting-overview"></a>Visão geral de relatórios financeiros
 ----------------------------

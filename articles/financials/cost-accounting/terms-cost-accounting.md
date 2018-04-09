@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 957acdbbc6bba83b8b2e2b83fdf266524385141d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -40,7 +40,7 @@ A base de alocação é usada para medir e quantificar atividades, como as horas
 
 **Contabilização de custos**
 
-A contabilização de custos permite que você colete dados de várias fontes, como contabilidade, razões auxiliares, orçamentos e informações estatísticas. Com isso, é possível analisar, resumir e avaliar dados de custo a fim de que o gerenciamento possa tomar as melhores decisões possíveis em termos de atualização de preços, orçamentos, controle de custos etc. Os dados de origem usados na análise de custos são tratados de forma independente na contabilização de custos. Portanto, atualizações na contabilização de custos não afetam os dados de origem. No entanto, ao coletar dados de custo de várias origens, e especialmente ao importar as contas principais a partir da contabilidade no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, como elementos de custo, haverá redundância de dados, já que os mesmos dados existem tanto na contabilidade quanto na contabilização de custos. Essa redundância é necessária porque você usa gerenciamento financeiro para relatórios externos e contabilidade de custos para relatórios internos.
+A contabilização de custos permite que você colete dados de várias fontes, como contabilidade, razões auxiliares, orçamentos e informações estatísticas. Com isso, é possível analisar, resumir e avaliar dados de custo a fim de que o gerenciamento possa tomar as melhores decisões possíveis em termos de atualização de preços, orçamentos, controle de custos etc. Os dados de origem usados na análise de custos são tratados de forma independente na contabilização de custos. Portanto, atualizações na contabilização de custos não afetam os dados de origem. No entanto, ao coletar dados de custo de várias fontes, e especialmente ao importar as contas principais a partir da contabilidade no Microsoft Dynamics 365 for Finance and Operations como elementos de custo, haverá redundância de dados, já que os mesmos dados existem tanto na contabilidade quanto na contabilização de custos. Essa redundância é necessária porque você usa gerenciamento financeiro para relatórios externos e contabilidade de custos para relatórios internos.
 
 **Razão de contabilização de custos**
 
@@ -120,7 +120,7 @@ Há duas hierarquias dimensionais: hierarquia de categorização e hierarquia de
 A contabilização de custo suporta integração de dados de sistemas de origem por meio de um conjunto de conectores de dados. Os seguintes conectores de dados estão disponíveis:
 
 -  Transações importadas (anteriormente configuradas)
--  Dynamics 365 for Finance and Operations, Enterprise Edition (pré-configurado)
+-  Dynamics 365 for Finance and Operations (pré-configurado)
 -  Dynamics AX (configuração necessária)
 
 **Observação:** As transações importadas do conector de dados são baseadas em entidades de dados.
@@ -129,7 +129,7 @@ A contabilização de custo suporta integração de dados de sistemas de origem 
 
 A maioria de sistemas de origem pode fornecer os dados que correspondam uma ou mais origens na Contabilização de custo. Para os dados de sistemas de origem com a origem de dados na contabilização de custo, um provedor de dados precisa ser configurado. A tabela a seguir lista a disponibilidade de provedores de dados por connector e origem de dados.
 
-|  **Fontes de dados** |  **Conector de dados das transações importadas** | **Conector de dados do Dynamics 365 for Finance and Operations, Enterprise Edition**  | **Conector de dados do Dynamics AX**  |
+|  **Fontes de dados** |  **Conector de dados das transações importadas** | **Conector de dados do Dynamics 365 for Finance and Operations**  | **Conector de dados do Dynamics AX**  |
 |---|---|---|---|
 | Membros de dimensão do elemento de custo  |  Sim | Sim  | Sim  |
 |  Membros de dimensão de objeto de custo |  Sim | Sim  | Sim  |

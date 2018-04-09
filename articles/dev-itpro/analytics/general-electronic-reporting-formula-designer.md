@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 946584d8afa8937afc7a26835e05b0eecebaad35
-ms.openlocfilehash: 67558889dea03738a665d8f1e2f30833b96c4656
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/23/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ Este tópico explica como usar o designer de fórmulas no ER (Relatório Eletrô
 
 O relatório eletrônico (RE) suporta o designer de fórmulas. Consequentemente, no tempo de design, você pode configurar as expressões que podem ser usadas para as seguintes tarefas no momento da execução:
 
-- Transformar dados que são recebidos de um banco de dados do Microsoft Dynamics 365 for Finance and Operations, Enterprise edition e que devem ser inseridos em um modelo de dados de ER que foi desenvolvido para ser uma fonte de dados para formatos de ER. (Por exemplo, essas transformações podem incluir a filtragem, o agrupamento e a conversão de tipo de dados).
+- Transformar dados que são recebidos de um banco de dados do Microsoft Dynamics 365 for Finance and Operations e que devem ser inseridos em um modelo de dados de ER que foi desenvolvido para ser uma fonte de dados para formatos de ER. (Por exemplo, essas transformações podem incluir a filtragem, o agrupamento e a conversão de tipo de dados).
 - Formatar os dados que devem ser enviados para gerar um documento eletrônico, de acordo com o layout e as condições de um formato de ER específico. (Por exemplo, a formatação pode ser feita de acordo com o idioma ou cultura solicitados, ou a codificação).
 - Controlar o processo de criar documentos eletrônicos. (Por exemplo, as expressões pode habilitar ou desabilitar a saída de elementos específicos do formato de dados, dependendo dos dados de processamento. Também pode interromper o processo de criação do documento ou enviar mensagens para os usuários.)
 

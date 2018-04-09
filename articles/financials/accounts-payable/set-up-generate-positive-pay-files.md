@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: 9a36b3e7a8e496632ca7041018abe8176a2e4f25
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d7b64f8414385629acef071c47a654d56005bd
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ Este artigo explica como configurar o pagamento positivo e gerar arquivos de pag
 Configure o pagamento positivo para gerar uma lista eletrônica de cheques que é fornecida ao banco. Então, quando o cheque é apresentado ao banco, o banco o compara à lista de cheques. Se o cheque corresponder a um cheque na lista, o banco o liberará. Se o cheque não corresponder a um cheque na lista, o banco o reterá para revisão.
 
 ## <a name="security-for-positive-pay-files"></a>Segurança para arquivos de pagamento positivo
-Os arquivos de pagamento positivo podem conter dados sigilosos sobre o credor e valores de cheque. Portanto, certifique-se de usar medidas de segurança apropriadas a partir do momento em que os arquivos são geradas até o momento em que são recebidos pelo banco. Os arquivos de pagamento positivo são baixados para o local especificado pelo navegador. Como os arquivos de pagamento positivo podem conter dados sigilosos, é importante que somente os usuários autorizados tenham acesso para gerar e exibir as informações no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Use a tabela a seguir para ajudar a determinar os privilégios necessários.
+Os arquivos de pagamento positivo podem conter dados sigilosos sobre o credor e valores de cheque. Portanto, certifique-se de usar medidas de segurança apropriadas a partir do momento em que os arquivos são geradas até o momento em que são recebidos pelo banco. Os arquivos de pagamento positivo são baixados para o local especificado pelo navegador. Como os arquivos de pagamento positivo podem conter informações confidenciais, é importante que somente os usuários autorizados tenham acesso para gerar e exibir essas informações no Microsoft Dynamics 365 for Finance and Operations. Use a tabela a seguir para ajudar a determinar os privilégios necessários.
 
 <table>
 <colgroup>

@@ -1,6 +1,6 @@
 ---
 title: "Processar alocações"
-description: "Este artigo fornece informações sobre alocações, as opções para processamento no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, e como podem ser usadas no planejamento de orçamento. As alocações são usadas para distribuir valores nas várias combinações da conta contábil. Ajuda a garantir que as despesas ou a receita sejam carregadas ao objeto correto na contabilidade."
+description: "Este artigo fornece informações sobre alocações, as opções de processamento no Microsoft Dynamics 365 for Finance and Operations, e como podem ser usadas no planejamento de orçamento. As alocações são usadas para distribuir valores nas várias combinações da conta contábil. Ajuda a garantir que as despesas ou a receita sejam carregadas ao objeto correto na contabilidade."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cb12e24fcb8e8c91f90b91e2fdb3039dd1735ca3
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 26e7f607e070ac6c09a92d7809d65bac34d51f0b
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo fornece informações sobre alocações, as opções para processamento no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, e como podem ser usadas no planejamento de orçamento. As alocações são usadas para distribuir valores nas várias combinações da conta contábil. Ajuda a garantir que as despesas ou a receita sejam carregadas ao objeto correto na contabilidade.
+Este artigo fornece informações sobre alocações, as opções de processamento no Microsoft Dynamics 365 for Finance and Operations, e como podem ser usadas no planejamento de orçamento. As alocações são usadas para distribuir valores nas várias combinações da conta contábil. Ajuda a garantir que as despesas ou a receita sejam carregadas ao objeto correto na contabilidade.
 
 O Microsoft Dynamics 365 for Finance and Operations fornece os seguintes recursos para dar suporte a esse processo:
 

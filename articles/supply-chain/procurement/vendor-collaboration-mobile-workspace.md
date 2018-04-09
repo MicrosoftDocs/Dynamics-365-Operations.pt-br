@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 6028f6007cf2fd3f21c2e6cf3f5fac85c6e0da0a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bfbc0fdfcff809a7d22362961b9778355ed7317b
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ Este tópico fornece informações sobre a área de trabalho móvel **Colaboraç
 O espaço de trabalho móvel é destinado a ser usado com o Microsoft Dynamics 365 do aplicativo móvel Operações Unificadas.
 
 ## <a name="overview"></a>Visão Geral 
-A área de trabalho móvel **Colaboração de fornecedor** mantém os fornecedores informados sobre novas ordens de compra, para que possam visualizar os pedidos e depois respondê-los no Microsoft Dynamics 365 for Finance and Operations, edição Enterprise, cliente da Web. 
+O espaço de trabalho móvel **Colaboração do fornecedor** mantém os fornecedores informados sobre novas ordens de compra, para que possam visualizá-las e depois respondê-las no cliente Web do Microsoft Dynamics 365 for Finance and Operations. 
 
 >[!NOTE]
 > O espaço de trabalho móvel deve ser usado como um suplemento para a interface da Web de colaboração do fornecedor, não como uma substituição. 
@@ -60,8 +60,8 @@ A área de trabalho móvel **Colaboração de fornecedor** permite ao fornecedor
 ## <a name="prerequisites"></a>Pré-requisitos
 Os pré-requisitos variam, dependendo da versão do Microsoft Dynamics 365 que foi implantada para sua organização.
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Pré-requisitos se você usa o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 
-Se o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition foi implementado em sua organização, o administrador do sistema deve publicar no espaço de trabalho móvel **Colaboração do fornecedor**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Pré-requisitos se você usa o Microsoft Dynamics 365 for Finance and Operations 
+Se o Microsoft Dynamics 365 for Finance and Operations foi implantado em sua organização, o administrador do sistema deve publicar o espaço de trabalho móvel **Colaboração do fornecedor**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usar o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior
 Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior tiver sido implantado em sua organização, o administrador do sistema deve completar os seguintes pré-requisitos. 

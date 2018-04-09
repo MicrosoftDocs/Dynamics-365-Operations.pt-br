@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7de5fbcaa9f287752e3ae4834eb48d622d263579
-ms.openlocfilehash: 890f035a291dbec936594ceeabc5de284d160ad4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a1ccd440353e986d296de370506fb1951331e2cf
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/25/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components-for-electronic-reporting-er"></a>Definir a dependência de configurações de outros componentes para relatórios eletrônicos (ER)
@@ -28,7 +28,7 @@ ms.lasthandoff: 10/25/2017
 
 Para concluir essas etapas, primeiro você deve concluir as etapas na guia de tarefas, ER Gerenciar configurações de mapeamento de modelo, e você deverá ter acesso ao Microsoft Dynamics Lifecycle Services (LCS).
 
-Este procedimento mostra como criar uma configuração do Relatório eletrônico (ER) e especificar sua dependência de outros componentes de software, para que você possa ajudar a garantir que a configuração seja baixada corretamente para uma versão específica do Microsoft Dynamics 365 for Finance and Operations, edição Enterprise. Neste exemplo, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. 
+Este procedimento mostra como criar uma configuração do Relatório eletrônico (ER) e especificar sua dependência de outros componentes de software, para que você possa ajudar a garantir que a configuração seja baixada corretamente para uma versão específica do Microsoft Dynamics 365 for Finance and Operations. Neste exemplo, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. 
 
 Esse procedimento é destinado a usuários com a função de Administrador do sistema ou Desenvolvedor de relatório eletrônico. As etapas podem ser realizadas em qualquer empresa, porque as configurações de ER são compartilhadas entre as empresas. 
 

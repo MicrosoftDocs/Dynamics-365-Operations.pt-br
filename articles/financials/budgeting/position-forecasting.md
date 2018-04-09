@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa11f1775017dd9bada61340b4bed70ea66a4137
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -96,7 +96,7 @@ O elemento de custo de ganho selecionado no grupo de remuneração é usado quan
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>Como criar previsões de posições para posições existentes
 
-Para obter o planejamento de orçamento mais preciso, você pode criar previsões de posições usando detalhes das posições existentes no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, esteja a posição preenchida ou não no momento. 
+Para obter o planejamento de orçamento mais preciso, você pode criar previsões de posições usando detalhes das posições existentes no Microsoft Dynamics 365 for Finance and Operations, esteja a posição preenchida ou não no momento. 
 
 A função **Adicionar posições existentes** exibe todas as posições para uma organização. Ao definir a data **A partir de**, você pode mudar a lista de posições para que ela contenha as posições que existiam em uma data anterior ou posterior, que é mais comum (por exemplo, o início do próximo ciclo orçamentário). Selecione um cenário de processamento de planejamento e de plano do orçamento, selecione posições na lista e clique em **OK** para criar previsões de posições para as posições selecionadas. Observe que você pode criar apenas uma previsão de posição para cada posição existente em cenário de processamento de planejamento de orçamento. No entanto, você pode criar versões adicionais, atribuindo cenários diferentes do plano de orçamento. 
 

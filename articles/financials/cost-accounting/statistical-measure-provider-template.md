@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2c0a00b6a1956f1f22a50951308c434c3f0eefc4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: baefad4efd51661c236459493b7f02747593bbab
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -73,7 +73,7 @@ Aqui estão alguns exemplos de membros típicos da dimensão estatística.
 
 ## <a name="statistical-measure-provider-template"></a>Modelo de provedor de medidas estatísticas
 
-As medidas estatísticas podem ser originárias de vários tipos de fontes. O Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, é uma ótima fonte para extrair medidas estatísticas. Você pode usar um modelo de provador de medidas estatísticas para configurar facilmente as medidas estatísticas que deseja extrair.
+As medidas estatísticas podem ser originárias de vários tipos de fontes. O Microsoft Dynamics 365 for Finance and Operations é uma ótima fonte para extrair medidas estatísticas. Você pode usar um modelo de provador de medidas estatísticas para configurar facilmente as medidas estatísticas que deseja extrair.
 
 A definição de modelo de fornecedor de medida estatística é genérica e pode ser reutilizada em vários membros de dimensão estatística.
 
@@ -132,13 +132,13 @@ Antes de poder obter medidas estatísticas em Contabilidade de custos, você dev
 > [!NOTE]
 > Neste exemplo, criaremos uma relação apenas para **Versão atual**.
 
-Vá para **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para esse cenário, selecione o conector de dados **Dynamics 365 for Finance and Operations, Enterprise Edition - Medidas estatísticas**, pois desejamos extrair dados do Finance and Operations.
+Vá para **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para esse cenário, selecione o conector de dados **Dynamics 365 for Finance and Operations - Medidas estatísticas**, pois desejamos extrair dados do Finance and Operations.
 
 **Fonte de dados**
 
 | Nome        | Conector de dados                                                                     | Membro de dimensão estatística |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| FTEs D365FO | Dynamics 365 for Finance and Operations, Enterprise Edition - Medidas estatísticas | FTEs                         |
+| FTEs D365FO | Dynamics 365 for Finance and Operations - Medidas estatísticas | FTEs                         |
 
 **Configuração do provedor de dados**
 
@@ -220,13 +220,13 @@ Antes de poder obter medidas estatísticas em Contabilidade de custos, você dev
 > [!NOTE]
 > Neste exemplo, criaremos uma relação apenas para **Versão atual**.
 
-Vá para **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para esse cenário, selecione o conector de dados **Dynamics 365 for Finance and Operations, Enterprise Edition - Medidas estatísticas**, pois desejamos extrair dados do Finance and Operations.
+Vá para **Razão da contabilização de custo** \> **Versão atual** \> **Gerenciar** \> **Medidas estatísticas** para estabelecer a relação. Para esse cenário, selecione o conector de dados **Dynamics 365 for Finance and Operations - Medidas estatísticas**, pois desejamos extrair dados do Finance and Operations.
 
 **Fonte de dados**
 
 | Nome           | Conector de dados                                                                     | Membro de dimensão estatística |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| Pacote CC D365FO | Dynamics 365 for Finance and Operations, Enterprise Edition - Medidas estatísticas | Pacote CC                      |
+| Pacote CC D365FO | Dynamics 365 for Finance and Operations - Medidas estatísticas | Pacote CC                      |
 
 O sistema reconhece que ProdRouteTrans é uma tabela em que cada registro pertence a uma entidade legal separada. Portanto, você será solicitado a selecionar a entidade legal de onde as transações devem ser importadas.
 

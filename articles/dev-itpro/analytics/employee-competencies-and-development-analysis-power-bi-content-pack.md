@@ -1,6 +1,6 @@
 ---
-title: "Conteúdo de Competências e Desenvolvimento de Funcionários do Power BI"
-description: "Este tópico descreve o Finance and Operations - Conteúdo de Competências e Desenvolvimento de Funcionários do Power BI."
+title: "Conteúdo do Power BI de competências e desenvolvimento do funcionário"
+description: "Este tópico descreve o Finance and Operations - Conteúdo de competências e desenvolvimento de funcionários do Power BI."
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
@@ -18,19 +18,19 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 99fa6e396989e6e204d84cc776f627c7c4baf1d1
+ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
+ms.openlocfilehash: 0769596c5ebaed1f5698d596d66d6f0334d5fcc2
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
-# <a name="employee-competencies-and-development-power-bi-content"></a>Conteúdo de Competências e Desenvolvimento de Funcionários do Power BI
+# <a name="employee-competencies-and-development-power-bi-content"></a>Conteúdo do Power BI de competências e desenvolvimento do funcionário
 
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico descreve o Finance and Operations - Conteúdo de Competências e Desenvolvimento de Funcionários do Power BI. 
+Este tópico descreve o Finance and Operations - Conteúdo de competências e desenvolvimento de funcionários do Power BI. 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Relatórios incluídos no pacote de conteúdo
 Após a conexão do pacote de conteúdo aos dados do Finance and Operations, os relatórios mostrarão os dados de sua organização. Se você nunca usou o Microsoft Power BI antes, você pode saber mais sobre ele na página [Aprendizado guiado para Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Os relatórios incluídos no pacote de conteúdo têm gráficos e tabelas que contêm informações adicionais. A tabela a seguir descreve os relatórios.
@@ -44,7 +44,7 @@ Após a conexão do pacote de conteúdo aos dados do Finance and Operations, os 
 Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
-Os dados do Finance and Operations são usados para preencher os relatórios no pacote de conteúdo Desenvolvimento e Competências de Funcionários. A seguinte tabela mostra as entidades nas quais o pacote de conteúdo foi baseado.
+Os dados do Finance and Operations são usados para preencher os relatórios no pacote de conteúdo desenvolvimento e competências de Funcionários. A seguinte tabela mostra as entidades nas quais o pacote de conteúdo foi baseado.
 
 | Entidade                            | Conteúdo                                                                                                   | Relações com outras entidades                                                                                                                                                                                                                                                                       |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

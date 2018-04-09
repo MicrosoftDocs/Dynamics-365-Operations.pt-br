@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 82c2fab72923cfec135e207dfe194fda7d16e8e9
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -41,6 +41,8 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 - **Grade de botões** – A operação pode ser atribuída a botões em grades de botões PDV, que fazem parte de um layout da tela PDV.
 - **Tela de transação** – A operação pode ser invocada de grades de botões PDV configuradas na tela de transação PDV.
 - **Tela de boas-vindas** – A operação pode ser invocada de grades de botões PDV configuradas na tela de boas-vindas PDV.
+
+Observação: as operações listadas a seguir se aplicam à versão mais recente do Dynamics 365 for Retail. Algumas operações podem ter mudado ou podem não estar disponíveis nas versões anteriores.
 
 | ID | Operação | descrição | Grade de botões | Tela de transação | Tela de boas-vindas | Offline disponível | Específico de localidade |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
@@ -105,6 +107,7 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 703 | Bloquear registradora | Bloquear o registro atual, de modo que ele não possa ser usado, mas não desconectar o usuário atual. | Não | Não | Não | Sim | Não |
 | 701 | Logoff | Desconectar o usuário atual do registro. | Sim | Sim | Sim | Sim | Não |
 | 521 | Saldo de pontos do cartão-fidelidade | Mostrar o saldo dos pontos para o cartão-fidelidade especificado. | Sim | Sim | Não | Não | Não |
+| 918 | Gerenciar turnos | Mostrar uma lista de turnos ativos, suspensos e fechados em branco. | Sim | Sim | Sim | Não | Não |
 | 914 | Minimizar janela do POS | Esta operação não tem suporte. | Não Aplicável | Não Aplicável | Não Aplicável | Não Aplicável | Não |
 | 1000 | Abrir Gaveta | Executar uma operação “sem venda" e abrir a gaveta do caixa atualmente selecionada. | Sim | Sim | Sim | Sim | Não |
 | 928 | Cumprimento da ordem | Esta operação permite que os usuários escolham, embalem, enviem, ou cancelem ordens para retirada do armazenamento. | Sim | Sim | Sim | Não | Não |
@@ -162,7 +165,6 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 | 638 | Definir representante de vendas na linha | Esta operação permite ao usuário selecionar um dos grupos qualificáveis de vendas por comissão (representantes de venda) para a linha selecionada no momento. | Sim | Sim | Não | Sim | Não |
 | 630 | Remeter todos os produtos | Definir o modo de atendimento como **Enviar** para todas as linhas de item. | Sim | Sim | Não | Sim\* | Não |
 | 629 | Remeter produtos selecionados | Definir o modo de atendimento como **Enviar** para as linhas selecionadas. | Sim | Sim | Não | Sim\* | Não |
-| 918 | Mostrar turnos com fechamento em branco | Mostrar uma lista de turnos que foram fechados em branco. | Sim | Sim | Sim | Não | Não |
 | 115 | Mostrar Diário | Mostrar o diário da loja. Você pode exibir transações, reimprimir recibos e recibos de presentes, além de cancelar a devolução. | Sim | Sim | Sim | Sim\*\* | Não |
 | 802 | Contagem de Estoque | Esta operação permite ao usuário criar ou modificar diários de contagem de estoque para estoque físico ou contagens cíclicas. | Sim | Sim | Sim | Não | Não |
 | 401 | Submenu | Estas operação leva o usuário a outra grade de botões vinculados. | Sim | Sim | Sim | Sim | Não |

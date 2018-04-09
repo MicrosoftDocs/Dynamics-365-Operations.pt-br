@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 2c8570984e44499d8cc5d45ab38da43f461c61e9
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 532834b377cfb8eda4902c387a850314302b22d8
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ Este tópico descreve o conteúdo de **Benefícios** do Microsoft Power BI. Ele 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
 O conteúdo de **Benefícios** do Power BI é mostrado no espaço de trabalho **Gerenciamento de benefícios** se você usar um dos seguintes produtos:
 
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition
+- Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Relatórios incluídos no conteúdo do Power BI

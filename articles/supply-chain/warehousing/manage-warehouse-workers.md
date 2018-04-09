@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 97f70bf2f122ee06900a1a9b930d29aab5ce4b25
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 211ced007e7729265621a05c2162a228eb0023c2
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve como você pode usar o Microsoft Dynamics 365 for Finance and Operations, Enterprise edition para controlar e monitorar o trabalho realizado por funcionários em depósitos.
+Este artigo descreve como você pode usar o Microsoft Dynamics 365 for Finance and Operations para controlar e monitorar o trabalho realizado por funcionários em depósitos.
 
 Se você estiver usando a funcionalidade no Gerenciamento de depósito, todas as operações do trabalhador do depósito serão referenciadas como *trabalho*. Trabalhos como separação, movimentação e contagem de estoque disponível são registrados por meio de dispositivos móveis. Para que um trabalhador do depósito possa executar um trabalho, ele deve estar associado a um trabalhador do departamento de recursos humanos. Cada conta de **Trabalhador** pode ter vários usuários de trabalho de depósito associados a ela. Esses usuários podem trabalhar em depósitos diferentes e podem ter diferentes níveis de acesso aos vários menus de dispositivos móveis. Considere os usuários de trabalho de depósito como vários logons do trabalhador selecionado. Cada usuário de trabalho tem um depósito padrão; e os fluxos de trabalho específicos são expostos pelos itens de menus que estão disponíveis para esse usuário de trabalho. 
 

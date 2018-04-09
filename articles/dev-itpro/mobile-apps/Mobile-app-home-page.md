@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 233d91138b11905d971be90154da54e61bbe2919
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b84778bd67e8c5bad6e8858d2af71f46e0dfe145
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -39,7 +39,7 @@ Este tópico descreve o aplicativo móvel do Microsoft Dynamics 365 for Unified 
 
 O aplicativo móvel permite que sua organização disponibilize os processos empresariais nos dispositivos móveis. Depois que seu administrador de TI habilitar os espaços de trabalho de sua organização, os usuários podem entrar no aplicativo e começar imediatamente a executar os processos comerciais de seus dispositivos móveis. O aplicativo móvel inclui os seguintes recursos que podem ajudar a aumentar a produtividade:
 
-- Os usuários podem exibir, editar e atuar nos dados corporativos, mesmo se eles tiverem conectividade de rede intermitente ou seus dispositivos móveis estiverem completamente offline. Quando um dispositivo restabelece uma conexão de rede, operações de dados offline são sincronizadas automaticamente com o Dynamics 365 for Finance and Operations, edição Enterprise, ou com o Microsoft Dynamics 365 for Finance and Operations.
+- Os usuários podem exibir, editar e atuar nos dados corporativos, mesmo se eles tiverem conectividade de rede intermitente ou seus dispositivos móveis estiverem completamente offline. Quando um dispositivo restabelece uma conexão de rede, as operações de dados offline são sincronizadas automaticamente com o Dynamics 365 for Finance and Operations.
 - Os administradores de TI ou desenvolvedores podem criar e publicar espaços de trabalho móveis que foram personalizados para sua organização. O aplicativo usa seu código de ativos existente. Portanto, não é necessário reimplementar os procedimentos de validação, lógica de negócio ou configuração de segurança.
 - Os desenvolvedores ou administradores de TI podem facilmente criar espaços de trabalho móveis usando o criador de espaço de trabalho de apontar e clicar que é incluído no cliente da Web.
 - Os administradores de TI ou desenvolvedores podem, como opção, otimizar os recursos offline dos espaços de trabalho, usando a estrutura de extensibilidade da lógica de negócios. Como os dados continuam sendo processados quando um dispositivo está offline, seu cenário móvel permanece avançado e fluido, mesmo se os dispositivos não tiverem conectividade de rede constante.
@@ -90,7 +90,7 @@ A tabela a seguir inclui links para recursos que podem ajudá-lo a implementar o
 <tr class="even">
 <td>2</td>
 <td>Administrador do sistema</td>
-<td><strong>Se estiver usando o Microsoft Dynamics 365 for Finance and Operations, versão 1611:</strong> Baixe e instale os KBs que habilitam espaços de trabalho móveis fornecidos pela Microsoft.</td>
+<td><strong>Se estiver usando o Microsoft Dynamics 365 for Operations, versão 1611:</strong> Baixe e instale os KBs que habilitam espaços de trabalho móveis fornecidos pela Microsoft.</td>
 <td>Para obter mais informações, consulte os seguintes tópicos:
 <ul>
 

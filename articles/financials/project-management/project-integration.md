@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a72963f755f8eddb19b8526d2938eff039ab7df2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/17/2018
 Planejar e manter uma agenda de projeto pode ser complexo, por isso os gerentes de projeto precisam usar ferramentas que os ajudem a gerenciar essa tarefa. A integração com o Cliente do Microsoft Project fornece suporte para abrir e gerenciar a estrutura de detalhamento de trabalho de um projeto. O gerente do projeto pode publicar as alterações na estrutura de detalhamento de trabalho do projeto do Finance and Operations.
 
 > [!NOTE]
-> Se estiver usando a atualização de julho do Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, você deverá instalar o KB 4054797 e o 4055884.
+> Se estiver usando a atualização de julho do Microsoft Dynamics 365 for Finance and Operations, você deverá instalar o KB 4054797 e o 4055884.
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>Configurar o suplemento do Cliente do Microsoft Project
 Para habilitar a integração com o Cliente do Microsoft Project, um suplemento do Microsoft Dynamics 365 deve ser instalado no aplicativo do cliente do Microsoft Project do usuário. Isso é feito abrindo o **Espaço de trabalho de gerenciamento de projeto**.

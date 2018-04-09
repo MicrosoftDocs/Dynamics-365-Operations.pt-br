@@ -1,6 +1,6 @@
 ---
 title: "Home page de Administração da organização"
-description: "Este tópico aponta a recursos que ajudarão você a usar o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition em sua organização."
+description: "Este tópico aponta a recursos que ajudarão você a usar o Microsoft Dynamics 365 for Finance and Operations em sua organização."
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f1cff2388b02ff6dfd52a39b7f3ea90f10807096
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este tópico aponta ao conteúdo que o ajudará usuários avançados e administradores a configurar o Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Este conteúdo os ajudará a configurar o sistema para trabalhar de forma mais eficaz para sua organização e empresa.
+Este tópico aponta para o conteúdo que ajudará usuários avançados e administradores a configurar o Microsoft Dynamics 365 for Finance and Operations. Este conteúdo os ajudará a configurar o sistema para trabalhar de forma mais eficaz para sua organização e empresa.
 
 A maior parte do conteúdo listado aqui se aplica aos recursos no módulo **Administração da organização**. Porém, há várias tarefas, como criar e usar um modelo de registro, que podem ser executadas em qualquer módulo para ajudar sua organização a atuar de forma mais eficiente. 
 

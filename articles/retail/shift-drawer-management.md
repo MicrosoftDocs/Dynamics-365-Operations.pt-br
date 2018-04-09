@@ -3,7 +3,7 @@ title: "Gerenciamento de gaveta de pagamento e à vista"
 description: "Este artigo explica como configurar e usar os dois tipos de ponto de varejo de turnos de venda (POS): compartilhado e autônomo. Turnos compartilhados podem ser usados por vários usuários em vários locais, enquanto os turnos autônomos podem ser usados por somente um trabalhador por vez."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b8e12f3f4c2f8f5a596c8994f2a4571d8a907062
+ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
+ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/22/2018
 
 ---
 
@@ -99,7 +99,60 @@ Uma mudança compartilhada é usada em um ambiente onde vários caixas compartil
 9.  Use a operação **Declarar meio de pagamento** para declarar a quantidade total de dinheiro de todas as as registradoras que são incluídos durante a mudança compartilhada.
 10. Use a operação **Fechar turno** para fechar o turno compartilhado.
 
+## <a name="shift-operations"></a>Operações de turnos
+Várias ações podem ser tomadas para alterar o status de um turno ou para aumentar ou diminuir a quantidade de dinheiro na gaveta. A seção a seguir descreve essas operações de turnos para Modern POS e Cloud POS do Dynamics 365 for Retail.
 
+**Turno aberto**
 
+O PDV requer que um usuário tenha um turno ativo e aberto para executar qualquer operação que resulte em uma transação financeira como uma venda, uma devolução ou uma ordem de cliente.  
 
+Ao fazer logon no PDV, o sistema primeiramente verifica se o usuário tem um turno ativo disponível na caixa registradora atual. Se não tiver, o usuário poderá optar por abrir um novo turno, retomar um turno existente ou continuar para fazer logon no modo "sem gaveta”, dependendo da configuração do sistema e de suas permissões.
+
+**Declarar Valor Inicial**
+
+Essa operação geralmente é a primeira ação executada na abertura de um novo turno. O usuário especifica o valor inicial em dinheiro na gaveta para o turno. Isso é importante porque o cálculo a mais/a menos que ocorre no fechamento de um turno é feito com base nesse valor.
+
+**Entrada de flutuação**
+
+As entradas de flutuação não são transações de vendas, são executadas em um turno ativo e aumentam a quantidade de dinheiro na gaveta. Um exemplo comum de uma entrada de flutuação seria adicionar mais troco à gaveta quando ele estiver acabando.
+
+**Remoção de Meio de Pagamento**
+
+As remoções de meios de pagamento não são transações de vendas, são executadas em um turno ativo para reduzir a quantidade de dinheiro na gaveta. Elas são mais comumente usadas em conjunto com uma entrada de flutuação em um turno diferente. Por exemplo, a Caixa registradora 1 está ficando sem troco, então o usuário na Caixa registradora 2 executa uma remoção de meios de pagamento para reduzir a quantia na gaveta. Em seguida, o usuário na Caixa registradora 1 executaria uma entrada de flutuação para aumentar sua quantia.
+
+**Suspender turno**
+
+Os usuários podem suspender seus turnos ativos para liberar a caixa registradora atual para outro usuário, ou para mover o turno para uma caixa registradora diferente (isso é normalmente chamado de "gaveta do caixa flutuante"). 
+
+A suspensão do turno impede novas transações ou alterações no turno até que ele seja retomado.
+
+**Retomar turno**
+
+Essa operação permite que um usuário retome um turno suspenso anteriormente em uma caixa registradora que ainda não tenha um turno ativo.
+
+**Declaração de meios de pagamento**
+
+A declaração de meios de pagamento é uma ação que o usuário executa para especificar a quantidade total de dinheiro na gaveta, principalmente antes de fechar o turno. Essa é a quantidade que é comparada com o turno esperado para calcular o valor a mais/a menos.
+
+**Sangria para cofre**
+
+As sangrias para cofre podem ser executadas a qualquer momento em um turno ativo. Essa operação remove dinheiro da gaveta, para que possa ser transferido para um local mais seguro como um cofre na sala reservada. O valor total registrado para sangrias para cofre ainda é incluído nos totais do turno, mas não precisa ser contabilizado como parte da declaração de meios de pagamento.
+
+**Sangria para banco**
+
+Como as sangrias para cofre, as sangrias para banco também são executadas em turnos ativos. Essa operação remove dinheiro do turno para preparar para o depósito bancário.
+
+**Turno com fechamento cego**
+
+Um turno com fechamento cego é um turno que não está mais ativo, mas que não foi totalmente fechado. Turnos com fechamento cego não podem ser retomados como um turno suspenso, mas procedimentos como a declaração de valores iniciais e de meios de pagamento podem ser executados posteriormente ou a partir de uma caixa registradora diferente.
+
+Turnos com fechamento cego são frequentemente usados para liberar uma caixa registradora para um novo usuário ou turno, sem precisar contar, reconciliar e fechar totalmente esse turno. 
+
+**Fechar turno**
+
+Essa operação calcula os totais do turno, valores a mais/a menos e fecha um turno ativo ou com fechamento cego. Turnos fechados não podem ser retomados ou modificados.  
+
+**Gerenciar turnos**
+
+Essa operação permite que os usuários visualizem todos os turnos ativos, suspensos e com fechamento cego da loja. Dependendo das suas permissões, os usuários poderão realizar os procedimentos finais de fechamento como declaração de meios de pagamento e encerramento de turnos com fechamento cego. Essa operação também permitirá que os usuários visualizem e excluam turnos inválidos no evento raro de um turno ser deixado em um estado incorreto após alternar entre os modos offline e online. Esses turnos inválidos não contêm as informações financeiras ou os dados transacionais necessários para a reconciliação. 
 

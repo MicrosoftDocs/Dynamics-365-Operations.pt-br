@@ -20,10 +20,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2964083ec6cb8792e3c67722c68b038939933cbc
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 99030966587a2784f61cecbfc7f9985f75f6d779
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo fornece uma visão geral e uma descrição dos recursos de lean manufacturing no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.
+Este artigo fornece uma visão geral e uma descrição dos recursos de lean manufacturing no Microsoft Dynamics 365 for Finance and Operations.
 
 O lean manufacturing oferece ferramentas que você pode usar para modelar as operações lean. Essas ferramentas dão suporte e promovem os conceitos e atividades de negócio a seguir:
 -   Criar um fundamento te lean manufacturing modelando a fabricação e os processos logísticos de acordo com o fluxo da produção.

@@ -1,6 +1,6 @@
 ---
 title: "Alocação de dados do planejamento de orçamento"
-description: "Este artigo descreve os vários métodos de alocação disponíveis no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition e como podem ser usados."
+description: "Este artigo descreve os vários métodos de alocação disponíveis no Microsoft Dynamics 365 for Finance and Operations e como podem ser usados."
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c12b46ea68edd3d58c5b9abbc20a6ee6948b44f2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b5f262318b4defb941f1216d0bfe06961f62bad4
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo descreve os vários métodos de alocação disponíveis no Microsoft Dynamics 365 for Finance and Operations, Enterprise edition e como podem ser usados.  
+Este artigo descreve os vários métodos de alocação disponíveis no Microsoft Dynamics 365 for Finance and Operations e como podem ser usados.  
 
 Você pode distribuir os dados em um plano de orçamento de várias formas para retratar com precisão os valores projetados.
 

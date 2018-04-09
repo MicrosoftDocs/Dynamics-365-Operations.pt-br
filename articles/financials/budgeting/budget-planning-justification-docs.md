@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b033f6197e61a6030e12081a9e4f1d820bac458f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ O modelo de plano de orçamento é criado pelo gerente de orçamento no Microsof
 
 1.  Clique em **Design** no Suplemento do Microsoft Dynamics Office depois de ter feito logon.
 2.  Para informações de cabeçalho, use o botão **Adicionar campos**.
-3.  Selecione a fonte de dados da entidade de BudgetPlanJustification e clique em **Avançar**. **Observação:** essa entidade é necessária para qualquer documento. Outras entidades podem ser usadas, mas o carregamento de volta ao Microsoft Dynamics 365 for Finance and Operations, Enterprise edition falhará se essa entidade não estiver incluída.
+3.  Selecione a fonte de dados da entidade de BudgetPlanJustification e clique em **Avançar**. **Observação:** essa entidade é necessária para qualquer documento. Outras entidades podem ser usadas, mas o carregamento de volta ao Microsoft Dynamics 365 for Finance and Operations falhará se essa entidade não estiver incluída.
 4.  Adicione as etiquetas e valores BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter e DocumentNumber no documento do Word. **Observação:** é possível usar suas próprias etiquetas, em vez de etiquetas padrão, se necessário.
 5.  Clique em **Concluído** para concluir a seção de cabeçalho.
 6.  Para detalhes de nível de linha dos valores de plano de orçamento, clique em **Adicionar tabela**.

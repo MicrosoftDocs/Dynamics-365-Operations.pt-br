@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 8e5c53905b903bc5242625283f3b093144243cf9
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3ca72ab5c7ac15f3a788ea457a360d93a0b505b0
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="run-a-format-that-uses-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a>Executar um formato que usa intervalos horizontalmente expansíveis para adicionar dinamicamente colunas em relatórios do Excel para relatório eletrônico (ER)
@@ -49,6 +49,6 @@ Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynam
     * 00057..00058  
 7. Clique em OK.
 8. Clique em OK.
-    * Revise a saída gerada. Observe que o arquivo Excel recém-criado contém o mesmo número de colunas que foram selecionadas para as dimensões financeiras. O cabeçalho do relatório nessas colunas representa os nomes das dimensões financeiras. As linhas das transações nessas colunas representam as dimensões financeiras. Execute esse relatório e selecione diferentes dimensões para verificar se o relatório não é dependente do número de dimensões selecionadas ou do número de dimensões configuradas para essa instância do Dynamics 365 for Finance and Operations, edição Enterprise.  
+    * Revise a saída gerada. Observe que o arquivo Excel recém-criado contém o mesmo número de colunas que foram selecionadas para as dimensões financeiras. O cabeçalho do relatório nessas colunas representa os nomes das dimensões financeiras. As linhas das transações nessas colunas representam as dimensões financeiras. Execute esse relatório e selecione diferentes dimensões para verificar se o relatório não é dependente do número de dimensões selecionadas ou do número de dimensões configuradas para essa instância do Dynamics 365 for Finance and Operations.  
 
 

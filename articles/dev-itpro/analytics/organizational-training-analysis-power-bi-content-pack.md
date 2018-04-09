@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 1e26785b658815fcc5026d73e4d8cfe39bd246c3
+ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
+ms.openlocfilehash: 18567a3241fce02e17df368f544e545fad93e1d9
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -43,7 +43,7 @@ Após a conexão do pacote de conteúdo aos dados do Finance and Operations, os 
 Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
-Os dados do Finance and Operations são usados para preencher os relatórios no pacote de conteúdo do Treinamento organizacional. A seguinte tabela mostra as entidades nas quais o pacote de conteúdo foi baseado.
+Os dados do Finance and Operations são usados para preencher os relatórios no pacote de conteúdo do treinamento organizacional. A seguinte tabela mostra as entidades nas quais o pacote de conteúdo foi baseado.
 
 | Entidade                    | Conteúdo                                                         | Relações com outras entidades                                                                                                                                                                  |
 |---------------------------|------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

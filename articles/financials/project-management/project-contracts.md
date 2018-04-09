@@ -1,6 +1,6 @@
 ---
 title: Contratos do projeto
-description: "Este tópico fornece exemplos de contratos de projeto que você pode criar para vários tipos de projetos e fontes de financiamento, e como você pode gerenciar contratos e enviar faturas do projeto a clientes no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition."
+description: "Este tópico fornece exemplos dos contratos de projeto que você pode criar para vários tipos de projetos e fontes de financiamento, e de como gerenciar contratos e enviar faturas a clientes do projeto no Microsoft Dynamics 365 for Finance and Operations."
 author: KimANelson
 manager: AnnBe
 ms.date: 11/03/2017
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: c8328bd2d93bbe763e629248edc1b7b4576005ae
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e46393b9ac8797bf12cca12099d177980b75ba38
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-Este artigo fornece exemplos de contratos de projeto que você pode criar para vários tipos de projetos e fontes de financiamento, e como você pode gerenciar contratos e enviar faturas do projeto a clientes no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition.
+Este artigo fornece exemplos dos contratos de projeto que você pode criar para vários tipos de projetos e fontes de financiamento, e de como gerenciar contratos e enviar faturas a clientes do projeto no Microsoft Dynamics 365 for Finance and Operations.
 
 O tipo de projeto que você cria para um contrato de projeto determina o método de faturamento que é usado para os clientes de projeto. Você pode modificar um contrato de projeto e o projeto relacionado, mas não é possível alterar o tipo de projeto. 
 

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
-ms.openlocfilehash: c5aefc44adc24f9d216f9470e4307a3723690173
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: ee951d7f3f04e641f7bed767a2eebd1c180eb9f3
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="run-a-report-that-uses-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>Executar um relatório que usa dimensões financeiras como uma fonte de dados para relatório eletrônico (ER)
@@ -44,6 +44,6 @@ Para concluir essas etapas, você deve primeiro concluir as etapas no procedimen
 9. No campo Critérios, digite "00057".
 10. Clique em OK.
 11. Clique em OK.
-    * Revise a saída gerada. Observe que, para cada transação do lote selecionado, as dimensões financeiras do conjunto de dimensões correspondentes são apresentadas. Execute esse relatório e selecione diferentes dimensões para verificar se o relatório não é dependente do número de dimensões selecionadas ou do número de dimensões configuradas para essa instância do Dynamics 365 for Finance and Operations, edição Enterprise.  
+    * Revise a saída gerada. Observe que, para cada transação do lote selecionado, as dimensões financeiras do conjunto de dimensões correspondentes são apresentadas. Execute esse relatório e selecione diferentes dimensões para verificar se o relatório não é dependente do número de dimensões selecionadas ou do número de dimensões configuradas para essa instância do Dynamics 365 for Finance and Operations.  
 
 

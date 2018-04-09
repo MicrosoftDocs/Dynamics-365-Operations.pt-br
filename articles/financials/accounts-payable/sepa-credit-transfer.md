@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1335d95c8bf02d5c571d37d78eca0ee7eae32bad
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3b6ded5e5accbbdba708c8b31119429e72bd58f5
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -53,7 +53,7 @@ O EPC, que consiste em bancos europeus, desenvolve as estruturas comerciais e t�
 Uma transferência de crédito de SEPA é um pagamento de uma empresa ou pessoa para outra empresa ou pessoa. Os pagamentos devem estar em euros, e devem incluir o número de conta bancária internacional (IBAN) e o código (BIC) do banco para ambas as partes. (BIC também é conhecido como código Society for Worldwide Interbank Financial Telecommunication \[SWIFT\].) Além disso, os custos da transação devem ser compartilhados entre os participantes. As transferências de crédito que ocorrem entre as partes devem usar arquivos XML que estejam de acordo com os padrões de processamento de pagamento ISO 20022 e o formato XML, conforme especificado pelo EPC.
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>Como uma transferência de crédito é implementada?
-O formato de pagamento de transferência de crédito para países europeus é implementado usando os recursos de relatórios eletrônicos (ER) e métodos de pagamento no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Alguns formatos de transferência de crédito usados em outras regiões não usam a estrutura de pagamento herdada. Entre muitos outros formatos, existem dize formatos de arquivo de transferência de crédito ISO 20022 disponíveis. Esses formatos de exportação estão em conformidade com o padrão ISO 20022 XML do SEPA. São usados para gerar transferências de pagamento de uma moeda diferente do euro para países/regiões onde são usados e pagamentos em euro conforme especificado na versão 8.2 da Regulamentação do Esquema de Transferência de Crédito do SEPA que a EPC publica. Antes que você possa implementar a transferência de crédito, você deve entrar em contato com o banco para obter o software que é necessário para carregar arquivos eletrônicos da operação bancária. Você usará esse software para transferir os arquivos XML que contém ordens de pagamento para seu banco.
+O formato de pagamento de transferência de crédito para países europeus é implementado usando os recursos de relatórios eletrônicos (ER) e métodos de pagamento no Microsoft Dynamics 365 for Finance and Operations. Alguns formatos de transferência de crédito usados em outras regiões não usam a estrutura de pagamento herdada. Entre muitos outros formatos, existem dize formatos de arquivo de transferência de crédito ISO 20022 disponíveis. Esses formatos de exportação estão em conformidade com o padrão ISO 20022 XML do SEPA. São usados para gerar transferências de pagamento de uma moeda diferente do euro para países/regiões onde são usados e pagamentos em euro conforme especificado na versão 8.2 da Regulamentação do Esquema de Transferência de Crédito do SEPA que a EPC publica. Antes que você possa implementar a transferência de crédito, você deve entrar em contato com o banco para obter o software que é necessário para carregar arquivos eletrônicos da operação bancária. Você usará esse software para transferir os arquivos XML que contém ordens de pagamento para seu banco.
 
 ## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Quais formatos de transferência de crédito são suportados atualmente no Finanças e Operações?
 Você sempre deve ir para a biblioteca de ativos compartilhados no Microsoft Dynamics Lifecycle Services (LCS) e exibir a lista mais atualizada de arquivos disponíveis que possuem um tipo de ativo de **Configuração GER**. A seção a seguir, "O que eu tenho que configurar?", fornece um link para o tópico que explica como criar uma loja de LCS para revisar as configurações disponíveis e as configurações de importação.

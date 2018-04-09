@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: da3099a07e3084bf49d03e0f4d421aebe9b39940
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c8ea45ece05f006f1649c79fcdee427a0bc4b0b5
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -65,7 +65,7 @@ As políticas de conciliação de faturas neste exemplo ajudam as pessoas nas fu
 1.  Sammy, um funcionário no departamento de remessa na Fabrikam recebe, a quantidade total de computadores que são enviados da Contoso. Inserir uma quantidade de 5 em um recebimento de produtos. Como a ordem de compra foi totalmente recebida, o status da ordem de compra será alterado para Recebida.
 2.  Abril, coordenada de contas a pagar, na Fabrikam insere e verifica a fatura que é enviada por Contoso. Verifica as seguintes informações:
     -   Para os itens que exigem a conciliação tripla, a quantidade na linha da fatura corresponde à quantidade que foi recebida. A quantidade recebida é indicado no recibo de bens que corresponde à fatura.
-    -   Para os itens que exigem em bidirecional ou a conciliação tripla, os preços da linha da fatura estão dentro de tolerâncias definidas no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition. Isso inclui os seguintes tipos de correspondência de preço:
+    -   Para os itens que exigem conciliação dupla ou tripla, os preços na linha de fatura estão dentro das tolerâncias definidas no Microsoft Dynamics 365 for Finance and Operations. Isso inclui os seguintes tipos de correspondência de preço:
         -   Correspondência de preço unitário líquido – O preço unitário líquido da linha da fatura corresponde ao preço unitário líquido da linha da ordem de compra, na porcentagem de tolerância. Em este exemplo, a tolerância de preço líquido da unidade é +8%.
         -   Preços totais de correspondência – O valor líquido em correspondências da linha da fatura o valor líquido da linha da ordem de compra, na porcentagem de tolerância, o valor ou a porcentagem e o valor. Em este exemplo, os totais de preços que correspondem a tolerância são +15%.
 

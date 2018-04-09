@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4dbcfd31030db8e40f89f86a76cdc666ac433749
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 
 Este tópico fornece informações sobre recursos de projeto.
 
-Um desafio para gerentes de projeto e gerentes de recursos durante a fase de planejamento do projeto é a atribuição de recursos, onde eles devem determinar e reservar o recurso correto para o trabalho em um projeto. No Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition, os recursos para projetos permitem definir as funções que são tratadas como recursos temporários que podem ser reservados para compromisso específico ou parte de um compromisso. Esse tipo de recurso permite que os gerentes de projeto e gerentes de recursos concluam as seguintes tarefas:
+Um desafio para gerentes de projeto e gerentes de recursos durante a fase de planejamento do projeto é a atribuição de recursos, onde eles devem determinar e reservar o recurso correto para o trabalho em um projeto. No Microsoft Dynamics 365 for Finance and Operations, os recursos para projetos permitem definir as funções tratadas como recursos temporários que podem ser reservados para um compromisso específico ou parte de um compromisso. Esse tipo de recurso permite que os gerentes de projeto e gerentes de recursos concluam as seguintes tarefas:
 
 - Definir uma função que tenha as competências necessárias para facilitar a correspondência de recursos.
 - Usar funções para definir uma agenda de compromisso inicial baseada em recursos reservados.

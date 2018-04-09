@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b2514b6ff7500863a312ee378be008a7dcfb7438
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3eb642944a31aad983758fc28bc692800bb6b4d2
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Introdução ao Microsoft Dynamics 365 for Talent
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/08/2018
 No Microsoft Dynamics 365 for Talent, é fácil alterar a interface de usuário e definir opções que tornam o software mais intuitivo para suas necessidades. Este tópico inclui links para tópicos que fornecem informações sobre como adaptar a interface de usuário às suas preferências. O tópico também inclui links para informações que podem ajudá-lo a encontrar informações no sistema, de forma eficaz e precisa. 
 
 > [!NOTE] 
-> Os produtos a seguir estão intimamente relacionados: Dynamics 365 for Finance and Operations, edição Enterprise; Dynamics 365 for Retail; and Dynamics 365 for Talent. Todos os 3 produtos podem conter a mesma funcionalidade. Como resultado, para tópicos relacionados principalmente a varejo, o nome do produto será Dynamics 365 for Retail; para tópicos relacionados principalmente a talentos, o nome do produto será Dynamics 365 for Talent; para tópicos relacionados ao produto principal, o nome do produto será Dynamics 365 for Finance and Operations. Os tópicos redigidos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
+> Os produtos a seguir estão intimamente relacionados: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail e Dynamics 365 for Talent. Todos os 3 produtos podem conter a mesma funcionalidade. Como resultado, para tópicos relacionados principalmente a varejo, o nome do produto será Dynamics 365 for Retail; para tópicos relacionados principalmente a talentos, o nome do produto será Dynamics 365 for Talent; para tópicos relacionados ao produto principal, o nome do produto será Dynamics 365 for Finance and Operations. Os tópicos redigidos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
 
 ### <a name="personalizing-talent"></a>Personalizando o Talent 
 Os tópicos a seguir mostram como configurar vários recursos no Dynamics 365 for Talent que facilitam e agilizam seu trabalho. 

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f3d494cc83b273eef071b23d0948b283ba85c17e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: ebbd442c9f69290dc995c05462ca70b554f7d9f2
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="extend-data-model-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>Estender o modelo de dados para usar arquivos do Gerenciamento de Documentos em saídas de formato para relatório eletrônico (ER)
@@ -57,7 +57,7 @@ Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynam
 17. No campo Tipo de item, selecione 'String'.
 18. Clique em Adicionar.
 
-## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>Mapeie os novos elementos do modelo de dados para as fontes de dados do Dynamics 365 for Finance and Operations, edição Enterprise.
+## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-data-sources"></a>Mapeie os novos elementos do modelo de dados para as fontes de dados do Dynamics 365 for Finance and Operations.
 1. Clique em Mapear modelo para fonte de dados.
 2. Use o Filtro Rápido para filtrar no campo Definição com um valor de 'InvoiceCustomer'.
     * InvoiceCustomer  

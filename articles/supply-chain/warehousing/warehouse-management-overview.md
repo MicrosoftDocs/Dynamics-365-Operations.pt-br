@@ -17,17 +17,17 @@ ms.author: bis
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 43167cc36398d3f7f8d639187f67fad1bae8082f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fc039b3c35c9ff8f40bf671e523104031c598171
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="warehouse-management"></a>Gerenciamento de depósito
 
 [!include[banner](../includes/banner.md)]
 
-O módulo Gerenciamento de depósito do Dynamics 365 for Finance and Operations, Enterprise Edition permite que você gerencie processos de depósito na fabricação, distribuição e empresas de varejo. Este módulo tem uma grande variedade de recursos para suportar a instalação de depósito em nível ideal, a qualquer momento. O gerenciamento de depósito é totalmente integrado aos outros processos de negócios no Finance and Operations, como transporte, fabricação, controle de qualidade, compras, transferência, vendas e devoluções.
+O módulo Gerenciamento de depósito do Dynamics 365 for Finance and Operations permite que você gerencie processos de depósito em empresas de fabricação, distribuição e varejo. Este módulo tem uma grande variedade de recursos para suportar a instalação de depósito em nível ideal, a qualquer momento. O gerenciamento de depósito é totalmente integrado aos outros processos de negócios no Finance and Operations, como transporte, fabricação, controle de qualidade, compras, transferência, vendas e devoluções.
 
 ## <a name="get-started"></a>Introdução
 Para começar o Gerenciamento de depósito, é necessário concluir a configuração dos parâmetro gerais do depósito para suportar os processos de negócios de sua empresa.
