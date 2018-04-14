@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>Registrar e lançar um cheque pré-datado para um fornecedor
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode registrar os detalhes de um cheque pós-datado antes de emitir o cheque para um fornecedor usando o comprovante de diário. Você também pode lançar o cheque pré-datado e gerar transações financeiras. Antes de registrar e lançar um cheque pré-datado de um fornecedor, conclua a seguinte tarefa: 
 

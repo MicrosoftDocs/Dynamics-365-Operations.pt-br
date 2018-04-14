@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>Manter modelos padrão de dimensão financeira
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como configurar modelos padrão da dimensão financeira. Os modelos podem ser usados para distribuir valores rapidamente em documentos de origem.
 

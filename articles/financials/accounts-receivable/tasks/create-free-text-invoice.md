@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="create-a-free-text-invoice"></a>Criar uma fatura de texto livre
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Essa guia da tarefa demonstra a criação de uma nota fiscal de texto livre. Esta tarefa usa a empresa de demonstração USMF.
 

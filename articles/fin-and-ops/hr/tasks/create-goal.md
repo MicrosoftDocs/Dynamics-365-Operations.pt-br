@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-goal"></a>Criar uma meta
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode criar metas, adicionar atividades a meta, rastrear, medições e vincular metas a revisão. Este procedimento foi criado usando a empresa de dados de demonstração USMF. Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynamics 365 for Operations.
 

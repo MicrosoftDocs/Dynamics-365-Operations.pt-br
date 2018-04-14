@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="fulfill-sales-agreements"></a>Cumprir contratos de venda
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como atender a um contrato de venda associando ordens de venda a ele. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Antes de iniciar esta guia, certifique-se de que tem um contrato de venda efetivo do tipo "Compromisso de valor do produto". Como alternativa, você pode executar a guia de tarefas chamada "Criar contratos de venda".  
 

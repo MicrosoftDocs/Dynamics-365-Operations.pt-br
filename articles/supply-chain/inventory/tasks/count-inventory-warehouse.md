@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="count-inventory-in-a-warehouse"></a>Contar estoque em um depósito
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento aborda o processo de criação e lançamento de um diário de contagem de estoque para que um item específico em um local do depósito seja contabilizado. O procedimento é aplicado à funcionalidade de “armazenamento básico“, disponível no módulo Gerenciamento de estoque, não à funcionalidade de armazenamento que está disponível no módulo Gerenciamento de depósito. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Se estiver usando seus próprios dados, certifique-se de que os produtos e localizações estão configurados e que você criou um nome de diário de estoque para diários de contagem. A contagem de estoque costuma ser realizada por um funcionário de depósito.
 

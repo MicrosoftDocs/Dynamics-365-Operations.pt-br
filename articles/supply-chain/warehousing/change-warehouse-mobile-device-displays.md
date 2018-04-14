@@ -28,8 +28,7 @@ ms.lasthandoff: 02/05/2018
 
 # <a name="warehouse-mobile-device-display-settings"></a>Configurações de exibição de dispositivo móvel de depósito
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve como configurar a aparência de uma exibição do dispositivo móvel e como controlar teclas de atalho do teclado, como botões. 
 

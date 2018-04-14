@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-codes"></a>Configurar códigos de barras
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este artigo descreve como usar códigos de barras no Microsoft Dynamics 365 para Varejo.
 

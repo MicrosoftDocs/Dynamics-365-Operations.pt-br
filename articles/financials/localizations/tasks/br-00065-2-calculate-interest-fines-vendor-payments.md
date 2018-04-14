@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="calculate-interest-and-fines-on-vendor-payments-brazil"></a>Calcular juros e multas sobre pagamentos de fornecedores (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode aplicar juros e multas a pagamentos de fornecedor que estejam atrasados. Os valores dos juros e da multa que se aplicam a um pagamento podem ser calculados quando você faz um pagamento para um fornecedor. Antes de calcular os códigos de juros ou de multa para pagamentos de fornecedor, você deverá configurar uma lista de feriados bancários e de feriados nacionais. Uma data de feriado que é configurada na página Calendário de pagamentos será considerada como um dia que não é útil. Se uma fatura vencer em um dia que não seja útil, a data de vencimento se deslocará para o próximo dia útil no calendário, e os juros e as multas serão calculadas de acordo com essa data. Esta tarefa usa a empresa de demonstração BRMF.
 

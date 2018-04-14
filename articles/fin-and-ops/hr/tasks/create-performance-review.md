@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-performance-review"></a>Criar uma avaliação de desempenho
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão. Este procedimento foi criado usando a empresa de dados de demonstração USMF. Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynamics 365 for Operations.
 

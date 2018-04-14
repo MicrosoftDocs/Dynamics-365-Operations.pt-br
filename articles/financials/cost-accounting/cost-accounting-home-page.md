@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>Home page da contabilização de custos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Mapa de aprendizado 
 
@@ -37,6 +37,7 @@ O mapa de aprendizado a seguir mostra os principais conceitos e tarefas que comp
 [![Mapa de aprendizado para contabilização de custos](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Links Rápidos
+
 |      |   |
 |------|---|
 |  [Configurar entidades base (eLearning)](https://mbspartner.microsoft.com/Home) (requer conta do CustomerSource)  |[Criar Dimensões](cost-elements.md)  |

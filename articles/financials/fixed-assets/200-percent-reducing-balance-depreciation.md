@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>depreciação com declínio de 200%
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo oferece uma visão geral do método de saldo de reduzem de 200 de porcentagem de depreciação.
 
@@ -70,6 +69,7 @@ Quando **Fiscal** for selecionado como o ano de depreciação, as seguintes opç
 -   **Período fiscal** lança o valor total da depreciação calculada para o ano fiscal. Esse valor é acumulado nos períodos fiscais definidos na página **Calendários fiscais**.
 
 ## <a name="example-of-200-reducing-balance-depreciation"></a>Exemplo de depreciação com declínio de 200%
+
 |                                |        |
 |--------------------------------|--------|
 | Custo de Aquisição               | 11.000 |

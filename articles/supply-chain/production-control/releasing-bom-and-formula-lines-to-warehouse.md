@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar linhas de BOM e fórmula para o depósito
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve o processo para liberar matéria-prima para linhas de BOM e linhas de fórmula para o depósito. Quando você libera uma linha da BOM e da fórmula para o depósito, o sistema determina primeiro se o material já está disponível no local de entrada de produção no chão de fábrica em que o material será consumido para o processo de produção.
 
@@ -44,7 +44,7 @@ O método usado para liberar linhas da BOM e da fórmula é controlado pelo par�
 - **Liberar linhas da BOM e da fórmula por meio de um trabalho em lotes ou como uma interação manual** – Neste método, as linhas da BOM e da fórmula podem ser liberadas apenas através do trabalho em lotes **Versão automática das linhas da BOM e da fórmula** ou como uma interação manual. Para liberar manualmente as linhas da BOM e da fórmula, a página de listagem da ordem de produção ou de detalhes da ordem de produção, no painel de ações, selecione **Liberar para o depósito**.
 
 Para uma demonstração rápida de como liberar a BOM e as linhas de fórmula para produção usando um trabalho em lotes, assista a esse breve vídeo no YouTube:
-[!Video https://www.youtube.com/embed/8urAJn50dQ8]
+[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>Liberando as linhas da BOM e da fórmula usando um trabalho em lotes
 
@@ -86,7 +86,7 @@ A ilustração a seguir mostra uma ordem de produção que tem duas operações,
 ![Exemplo da liberação de material por número da operação](media/two-operations.PNG)
 
 Para uma demonstração rápida de como liberar o material de acordo com a quantidade de mercadorias, assista a esse breve vídeo no YouTube:
-[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
+[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>Liberar material em relação ao valor de mercadorias acabadas
 

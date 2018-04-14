@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>Terminologia de contabilidade de custos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico define os principais termos usados na contabilização de custos.
 
@@ -150,14 +149,14 @@ As bases de alocação da fórmula permitem definir fórmulas avançados para ob
 |  + |  Adição |
 |  – |  Subtração |
 | *  | Multiplicação  |
-    
+
 As instruções tradicionais IF não são suportadas. Porém, você pode criar instruções e validar se elas são verdadeiras.
 
 |  **Validação de extrato** | **Resultado**  |
 |---|---|
 |  a > b| Verdadeiro  |
 |  a > b |  Falso |
-    
+
 **Custos gerais indiretos**
 
 Custos gerais referem-se às despesas contínuas de operação de uma empresa. São os custos que não podem ser vinculados diretamente a atividades comerciais específicas. Eis alguns exemplos de custos gerais:

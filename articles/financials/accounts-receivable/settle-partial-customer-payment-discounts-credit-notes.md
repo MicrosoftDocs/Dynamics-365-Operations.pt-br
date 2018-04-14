@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-that-has-discounts-on-credit-notes"></a>Liquidar um pagamento parcial de cliente com descontos em notas de crédito
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo mostra um cenário onde um desconto à vista é aplicado a uma nota de crédito quando a fatura original também tinha um desconto à vista. 
 

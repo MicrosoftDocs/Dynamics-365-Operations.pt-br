@@ -28,9 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="approve-and-confirm-purchase-orders"></a>Aprovar e confirmar ordens de compra
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Este artigo descreve os status de uma ordem de compra (OC) passa após ela ter sido criada e o efeito de habilitar o gerenciamento de alterações no PDV.
 

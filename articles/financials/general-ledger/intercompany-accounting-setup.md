@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intercompany-accounting-setup"></a>Configuração de contabilidade intercompanhia
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico explica como configurar a contabilidade intercompanhia, de forma que você possa usar diários intercompanhia para alocações do razão e diários financeiros, como diários, diários de fatura de fornecedor e diários de pagamento.
 

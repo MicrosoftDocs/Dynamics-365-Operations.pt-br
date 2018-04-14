@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-and-post-tax-adjustment-transactions-brazil"></a>Inserir e lançar transações de ajuste de imposto (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimento para criar e lançar transações de ajuste de impostos. Esta tarefa usa a empresa de demonstração BRMF.
 

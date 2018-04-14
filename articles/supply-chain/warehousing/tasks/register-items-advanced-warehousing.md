@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>Registrar itens para um item avançado com armazenamento habilitado usando um diário de entrada de itens
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como registrar itens usando o diário de entrada de itens quando estiver usando processos de gerenciamento de depósito avançado. Normalmente isso é feito por um vendedor de remessa. 
 

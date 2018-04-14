@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="enter-project-timesheets"></a>Inserir folhas de ponto do projeto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento permite criar uma folha de ponto usando um formulário vazio de folha de ponto. A nova folha de ponto pode ser baseada nas informações de uma folha de ponto anterior, ou em atribuições de projeto e de atividade na página Meus favoritos. Por padrão, a página de lista Todas as folhas de ponto exibe todas as suas folhas de ponto do período atual. Você pode usar a lista suspensa do campo Mostrar na página Minhas folhas de ponto para filtrar a lista de folha de ponto por período ou por projeto, ou para exibir as folhas de ponto que foram criadas em nome de outros trabalhadores. A empresa de dados de demonstração utilizada para criar esse procedimento é a USSI. Para iniciar este procedimento, vá para Gerenciamento e contabilidade de projetos > Folhas de ponto > Minhas folhas de ponto
 

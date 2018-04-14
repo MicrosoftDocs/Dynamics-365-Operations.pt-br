@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reconcile-freight-in-transportation-management"></a>Reconciliar frete no gerenciamento de transporte
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve o processo de reconciliação de frete.
 

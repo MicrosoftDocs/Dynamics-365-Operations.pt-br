@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-a-customer-loyalty-program"></a>Configurar um programa de fidelidade do cliente
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este artigo descreve como configurar um programa de fidelidade. Os programas de fidelidade podem ajudar a aumentar a fidelidade do cliente ao recompensarem os clientes por comprarem produtos nas lojas de varejo. No Microsoft Dynamics 365 para Varejo, você pode configurar programas de fidelidade simples ou complexos que se apliquem a suas entidades legais em qualquer canal de varejo.
 

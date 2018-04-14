@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-and-manage-a-benefits-program"></a>Definir e gerenciar um programa de benefícios
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 O RH fornece um conjunto de ferramentas que podem ser usadas para configurar e manter benefícios, deduções e planos de compensação de trabalhadores que uma empresa oferece ou processa para os trabalhadores. Este tópico fornece informações sobre como configurar e gerenciar benefícios.
 

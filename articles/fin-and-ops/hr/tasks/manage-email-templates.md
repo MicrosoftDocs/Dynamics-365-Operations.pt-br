@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-email-templates"></a>Gerenciar modelos de email
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode transferir informações de base de dados da sua organização para indicadores em um novo documento e usá-las em modelos que o ajudam a eficientemente se comunicar com os candidatos. Para fazer isso, você cria um modelo que contém um texto padrão e alguns indicadores onde os dados do sistema devem ser inseridos. Por exemplo, você pode inserir as informações de endereço e contato para um candidato em um documento do Microsoft Word que você possa usar para se comunicar com o candidato. A empresa de dados demo usada para criar este procedimento é USMF.
 

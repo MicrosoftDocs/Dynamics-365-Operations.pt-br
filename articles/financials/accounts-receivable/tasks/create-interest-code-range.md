@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-interest-code-with-a-range"></a>Criar um código de juros com um intervalo
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Os códigos de juros podem ser configurados para calcular os valores diferentes de juros com base em um intervalo de valores. Este procedimento mostrará como adicionar um código de juros e adicionar um intervalo a ele.
 

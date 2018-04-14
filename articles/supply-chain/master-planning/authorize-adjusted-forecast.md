@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="authorize-an-adjusted-forecast"></a>Autorizar uma previsão ajustada
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Nem todos os dados de previsão precisam ser autorizados imediatamente. Este artigo explica como é possível especificar o período em que uma previsão estará autorizada. Ele também explica como você pode autorizar a previsão para empresas e modelos de previsão específicos.
 

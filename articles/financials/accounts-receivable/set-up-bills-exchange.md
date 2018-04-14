@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bills-of-exchange"></a>Configurar letras de câmbio
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve as etapas para configurar as letras de câmbio.
 

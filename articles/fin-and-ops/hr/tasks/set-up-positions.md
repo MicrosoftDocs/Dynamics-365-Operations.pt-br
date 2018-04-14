@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-positions"></a>Configurar posições
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Os cargos são um elemento importante do nível inferior de uma hierarquia organizacional. Um cargo é uma instância individual de um trabalho. Por exemplo, a posição, "Gerente de vendas (Leste)", é uma das posições associadas ao trabalho, "Gerente de vendas". Uma posição existe em um departamento e pode ter somente um trabalhador associado a ela. Nesta tarefa mostraremos as etapas necessárias para criar uma posição. Esse procedimento é destinado ao Especialista de recursos humanos.
 

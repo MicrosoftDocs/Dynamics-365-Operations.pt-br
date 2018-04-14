@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deliver-an-employee-benefits-program"></a>Entregar um programa de benefícios do funcionário
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Essa tarefa mostrará como criar elementos de benefício que será usado ao criar um novo benefício. A empresa de dados demo usada para criar esta tarefa é USMF. Esta tarefa está direcionada para uma compensação e beneficia o gerente.
 

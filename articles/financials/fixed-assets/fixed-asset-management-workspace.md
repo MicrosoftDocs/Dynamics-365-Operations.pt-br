@@ -27,7 +27,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-asset-management-workspace"></a>Espaço de trabalho de gerenciamento de ativos fixos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 O espaço de trabalho de **Gerenciamento de ativos fixos** mostra informações relacionadas a ativos fixos inseridos no sistema. Este espaço de trabalho inclui uma exibição resumida e uma exibição de análise. A guia **Meu trabalho** mostra os blocos de resumo, detalhes de ativos fixos e informações relacionadas sobre os ativos fixos na empresa atual. Você também pode adicionar análise à seção de análise do Power BI diretamente no espaço de trabalho. A guia **Análise – todas as empresas** usa recursos do Microsoft Power BI para mostrar os visuais relacionados a ativos fixos em todas as empresas.
 

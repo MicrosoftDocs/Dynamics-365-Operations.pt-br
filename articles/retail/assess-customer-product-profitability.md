@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-customer-and-product-profitability"></a>Avaliar a lucratividade dos clientes e dos produtos
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre clientes e lucratividade de produto com base nos dados do Microsoft Dynamics 365 for Retail. 
 

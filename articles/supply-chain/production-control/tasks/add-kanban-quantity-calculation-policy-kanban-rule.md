@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>Adicionar uma política de cálculo de quantidade de kanbans a uma regra kanban
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento foca na criação de uma política de cálculo da quantidade kanban e na sua adição à uma regra kanban visando otimizar as quantidades e tamanho kanban. A empresa de dados demo usada para criar este procedimento é USMF. Esse procedimento é destinado ao gerente de fluxo de valor. Esse procedimento é um pré-requisito para a criação do procedimento Calcular sugestões da quantidade kanban. 
 

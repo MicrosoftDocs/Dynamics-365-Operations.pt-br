@@ -27,8 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="new-or-updated-task-guides-august-2016"></a>Guias de tarefas novos ou atualizados (agosto de 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico lista os Guias de tarefas novos ou atualizados que foram lançados à Biblioteca Unificada APQC (agosto de 2016 - todos idiomas) Microsoft para Microsoft Dynamics AX. Nenhuma nova biblioteca Introdução foi lançada.
 

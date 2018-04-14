@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="costing-versions"></a>Versões de custos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre versões de custos, como mantê-las e os tipos de dados que podem estar incluídos nelas. A finalidade principal de uma versão de custo é conter registros de custo sobre itens, categorias de custo e fórmulas de cálculo para custos indiretos.
 

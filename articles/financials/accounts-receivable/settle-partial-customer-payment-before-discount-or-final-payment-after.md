@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidar um pagamento parcial de cliente antes da data do desconto com um pagamento final posterior à data do desconto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo discute o efeito de liquidar pagamentos de faturas de clientes. O cenário se concentra nos efeitos no sub-razão, e não na Contabilidade.
 

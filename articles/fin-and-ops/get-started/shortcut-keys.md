@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Atalhos de teclado
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Os atalhos de teclado a seguir são utilizados no Dynamics 365 for Finance and Operations. 
 
@@ -39,6 +38,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 
 
 ## <a name="action-shortcuts"></a>Atalhos de ação
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | **Para**                                    | **Pressione**                        |
@@ -55,6 +55,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Exibir atalhos disponíveis atualmente                | Alt+Shift+K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>Atalhos do seletor de data
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **Para**                        | **Pressione**                                 |
@@ -68,6 +69,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Escolher nunca (ou a data máxima)          | N                                         |
 
 ## <a name="factbox-shortcuts"></a>Atalhos do Quadro de Fatos
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | **Para**                                                                  | **Pressione**                                 |
@@ -79,6 +81,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Recolher o Quadro de Fatos atual                                                    | Alt+0                                     |
 
 ## <a name="filtering-shortcuts"></a>Atalhos de filtragem
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | **Para**                     | **Pressionar**                |
@@ -89,6 +92,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Abrir a filtragem/classificação avançada                                      | Ctrl+Shift+F3            | 
 
 ## <a name="form-shortcuts"></a>Atalhos do formulário
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | **Para**                                      | **Pressionar**         |
@@ -110,6 +114,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Fechar o formulário que descarta todas as alterações não salvas       | Alt+Shift+Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Atalhos de navegação do formulário
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | **Para**                                      | **Pressione**                                    |
@@ -128,6 +133,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Alternar para exibição de linhas                                | Ctrl+Shift+L                                 |
 
 ## <a name="grid-shortcuts"></a>Atalhos de grade
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | **Para**                                                                                                         | **Pressione**                       |
@@ -148,6 +154,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Abrir a filtragem de grade para a coluna atual (com foco na linha do cabeçalho)                                              | Inserir                           |
 
 ## <a name="input-control-shortcuts"></a>Atalhos do controle de entrada
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | **Para**                                                               | **Pressione**                     |
@@ -163,6 +170,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Alternar o foco entre a área de texto e a barra de ferramentas em um controle do editor de HTML | F6                            |
 
 ## <a name="messaging-shortcuts"></a>Atalhos da mensagem
+
 |                          |               |
 |--------------------------|---------------|
 | **Para**           | **Pressione**     |
@@ -170,6 +178,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Ir para a Barra de Mensagens    | Ctrl+F7       |
 
 ## <a name="navigation-shortcuts"></a>Atalhos de navegação
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | **Para**                                                                | **Pressione**                  |
@@ -191,6 +200,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Mover para o painel Quadro de Fatos (que pode incluir sua abertura)                       | Alt+M,B ou Ctrl+F2         |
 
 ## <a name="personalization-shortcuts"></a>Atalhos de personalização
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | **Para**                                                                                                         | **Pressione**                           |
@@ -219,6 +229,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Sair do modo de personalização (quando estiver no modo de personalização)                                                               | Esc                                 |
 
 ## <a name="segmented-entry-shortcuts"></a>Atalhos segmentados de entrada
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | **Para**                                                                                                          | **Pressione**                        |

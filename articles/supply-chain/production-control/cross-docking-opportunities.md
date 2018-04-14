@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Distribuição integrada de ordens de produção para docas de saída
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve como gerenciar o processo de distribuição integrada de materiais que está sendo informado como concluído de uma linha de produção para uma doca de transporte.
 
@@ -76,10 +76,10 @@ Na **política de distribuição integrada**, você define quais tipos de docume
 
 ### <a name="cross-docking-policy-name-transfer-order"></a>Nome da política de distribuição integrada: ordem de transferência
 
--   Número de sequência: 10
- -   Tipo de ordem de trabalho: Saída de transferência
--   A demanda de distribuição integrada requer localização: Falso
--   Estratégia distribuição integrada: Data e hora
+- Número de sequência: 10
+  -   Tipo de ordem de trabalho: Saída de transferência
+- A demanda de distribuição integrada requer localização: Falso
+- Estratégia distribuição integrada: Data e hora
 
 ### <a name="sequence-number"></a>Número de sequência
 

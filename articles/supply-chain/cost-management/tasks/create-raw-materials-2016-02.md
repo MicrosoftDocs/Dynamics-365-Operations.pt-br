@@ -24,7 +24,7 @@ ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-raw-materials-february-2016-only"></a>Criar matérias-primas (apenas fevereiro de 2016)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarefa tem como foco criar os componentes de produtos finalizados e semifinalizados. Trata-se da terceira tarefa na série de cálculo BOM. A empresa de dados demo usada para criar esta tarefa é USMF.
 

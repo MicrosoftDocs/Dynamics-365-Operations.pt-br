@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="close-the-fiscal-year"></a>Fechar o ano fiscal
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento aborda o processo de fechamento do exercício que transfere saldos para um novo ano fiscal.
 

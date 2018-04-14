@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a>Inscrever e remover benefícios de trabalhadores
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento demonstra como um único trabalhador pode ser inserido em um ou mais benefícios, bem como os vários trabalhadores podem ser inseridos em um benefício. A empresa de dados demo usada para criar este procedimento é USMF.
 

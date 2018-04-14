@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a>Liquidar um pagamento parcial de fornecedor antes da data do desconto com um pagamento final posterior à data do desconto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo mostra um cenário na qual vários pagamentos parciais são feitos, alguns no período de desconto à vista e outro fora do período de desconto à vista.
 

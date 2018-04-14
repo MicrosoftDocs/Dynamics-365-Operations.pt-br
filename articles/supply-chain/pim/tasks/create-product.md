@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product"></a>Criar um produto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento orienta na criação de um novo produto na hierarquia de produtos de varejo. A empresa de dados de demonstração usada para criar essa tarefa é a USRT e esta tarefa é destinada ao gerente de mercadorias e ao designer de produtos.
 

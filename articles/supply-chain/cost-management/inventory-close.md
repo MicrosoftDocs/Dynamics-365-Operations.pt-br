@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-close"></a>Fechamento de estoque
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Como parte do processo para liquidar transações de saída com transações de recebimento, você também optar por atualizar a contabilidade para refletir os ajustes feitos.
 

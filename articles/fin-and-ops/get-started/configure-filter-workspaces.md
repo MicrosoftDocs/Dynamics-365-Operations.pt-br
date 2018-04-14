@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-and-filter-workspaces"></a>Configurar e filtrar espaços de trabalho
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece uma visão geral sobre como configurar e filtrar os espaços de trabalho.
 

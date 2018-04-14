@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="retail-peripherals-overview"></a>Visão geral de periféricos do varejo
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tópico explica os conceitos relacionados aos periféricos de varejo. Descreve as várias formas que os periféricos podem ser conectados ao ponto de venda (PDV) e os componentes responsáveis por gerenciar a conexão com o PDV.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 01/12/2018
 
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>Recalcular os custos e valores segurados para grupos de ativos fixos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este processo explica o processo para atualizar os custos de substituição e os valores segurados para ativos fixos.
 

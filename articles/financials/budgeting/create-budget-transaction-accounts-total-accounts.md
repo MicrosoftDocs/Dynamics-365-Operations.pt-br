@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>Criar orçamentos de contas de transação e de contas totais
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece uma visão geral do processo para criar orçamentos com base nas contas totais. Também explica como ativar o controle de orçamento para as contas totais, se o controle de orçamento for necessário.
 

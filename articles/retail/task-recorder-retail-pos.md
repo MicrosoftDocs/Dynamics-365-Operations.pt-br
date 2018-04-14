@@ -29,7 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="task-recorder-and-help-for-pos"></a>Gravador de tarefas e Ajuda para PDV
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tópico descreve como utilizar o Gravador de tarefas no no Retail Modern POS e no Cloud POS.
 

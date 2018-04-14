@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>Suporte do quadro de transferência kanban para os scanners de código de barras
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 O Quadro de transferência do kanban oferece suporte à entrada de scanner de um scanner de código de barras de widget para Selecionar, Iniciar, Concluir e Esvaziar um trabalho kanban.
 
@@ -38,6 +37,7 @@ O Quadro de transferência do kanban oferece suporte à entrada de scanner de um
 ------------------
 
 Na Guia Rápida **Registro do scanner** você pode selecionar o modo do registro, que controla a ação quando você pesquisa um número de cartão kanban ou digita manualmente o número no campo Número do cartão kanban.
+
 | Definir o modo de registro | Descrição                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------|
 | Inicial                 | Registra um trabalho de transferência kanban como em andamento.                                                 |

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="close-the-general-ledger-at-period-end"></a>Fechar a contabilidade no fim do período
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve as tarefas geralmente concluídas durante a realização de um fechamento periódico de contabilidade. 
 

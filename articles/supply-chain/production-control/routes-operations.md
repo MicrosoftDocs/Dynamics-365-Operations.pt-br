@@ -29,8 +29,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="routes-and-operations"></a>Roteiros e operações
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre roteiros e operações. Um roteiro define o processo para produção de um produto ou grade de produto. Ele descreve cada estágio (operação) no processo de produção e a ordem em que essas etapas devem ser executadas. Para cada etapa, o roteiro também define os recursos de operações necessários, os tempos de configuração e execução necessários, e como o custo deve ser calculado.
 

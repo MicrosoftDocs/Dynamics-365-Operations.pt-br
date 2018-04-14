@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="loan-items-to-a-worker"></a>Emprestar itens a um trabalhador
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como emprestar um item a um funcionário e registrar o funcionário que retorna um item. Os operadores também podem solicitar itens de empréstimo por meio das páginas de autosserviço do funcionário. A empresa de dados demo usada para criar este procedimento é USMF.
 

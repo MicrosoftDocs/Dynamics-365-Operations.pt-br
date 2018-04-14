@@ -28,8 +28,7 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="generate-a-financial-report"></a>Gerar um relatório financeiro
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre gerar um relatório financeiro. 
 
@@ -50,13 +49,13 @@ Quando você gera um relatório, as opções especificadas nas guias Definição
 ## <a name="generate-a-financial-report"></a>Gerar um relatório financeiro
 
 Para gerar um relatório financeiro com o Microsoft Dynamics 365 for Finance and Operations, vá para **Contabilidade** > **Consultas e relatórios** > **Relatórios financeiros**. 
- - Selecione um relatório para gerar e clique em **Gerar**. 
- - Preencha o campo **Data do relatório** e clique em **OK**.
- 
- Depois que o relatório for gerado, ele estará disponível para exibição na seção **Relatórios**.
- Você pode selecionar **Exibir** ou **Excluir** o relatório.
- 
- 
+- Selecione um relatório para gerar e clique em **Gerar**. 
+- Preencha o campo **Data do relatório** e clique em **OK**.
+
+  Depois que o relatório for gerado, ele estará disponível para exibição na seção **Relatórios**.
+  Você pode selecionar **Exibir** ou **Excluir** o relatório.
+
+
 Para gerar um relatório usando o **Designer de relatórios**, abra a definição de relatório e, em seguida, clique no botão Gerar na barra de ferramentas. A janela Status da Fila de Relatórios será aberta e indicará a localização do relatório na fila. Por padrão, o relatório gerado será aberto no Visualizador da Web.
 
 > [!NOTE]
@@ -159,7 +158,7 @@ Quando você executa uma análise de conta ausente, os atalhos de teclado a segu
 | Abrir a definição de relatório selecionada  | Ctrl+R                     |
 | Abrir a definição de linha selecionada     | Ctrl+O                     |
 
- 
+
 <a name="see-also"></a>Consulte também
 --------
 

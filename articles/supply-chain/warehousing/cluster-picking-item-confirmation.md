@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Confirmação de produto para a separação do cluster
 A separação do cluster permite que você escolha itens para várias ordens simultaneamente. Quando a separação do cluster é aplicada, confirmação do item é importante para verificar os itens adicionados aos clusters. Você pode verificar os itens na separação do cluster durante o processo de separação do cluster.
@@ -37,7 +37,8 @@ A verificação do item da separação do cluster funciona da mesma maneira que 
 1.  No item de menu do dispositivo móvel, abra o formulário de configuração para a confirmação de trabalho: **Gerenciamento de depósito** > **Gerenciamento de depósito** > **Configuração** > **Dispositivo móvel** > **Itens de menu do dispositivo móvel**.
 2.  Do item de menu de dispositivo móvel, abra a **Configuração de confirmação de trabalho**.
 
-| Opção        | descrição   | 
-| ------------- | ------------- |
-|Confirmação do produto | Permite a você verificar cada peça de estoque do dispositivo móvel quando examinado.|
+|        Opção        |                                    descrição                                    |
+|----------------------|-----------------------------------------------------------------------------------|
+| Confirmação do produto | Permite a você verificar cada peça de estoque do dispositivo móvel quando examinado. |
+
 

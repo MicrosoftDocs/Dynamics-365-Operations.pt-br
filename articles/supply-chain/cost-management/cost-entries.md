@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-entries"></a>Entradas de custo
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre entradas de custo previsto e quando foram criadas. Uma entrada de custo estimada é um registro que marca a quantidade e os custos de um determinado evento.
 

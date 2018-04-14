@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Criar uma configuração para gerar relatórios no formato Microsoft Word para relatório eletrônico (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 As seguintes etapas explicam como um usuário na função de administrador do sistema ou desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico (ER) para criar relatórios como arquivos do Microsoft Word. Essas etapas podem ser executadas na empresa GBSI.
 

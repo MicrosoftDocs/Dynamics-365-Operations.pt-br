@@ -28,8 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreements"></a>Contratos de serviço
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Os contratos de serviço permitem definir os recursos usados em uma típica visita de serviços e como esses recursos são faturados para o cliente.
 

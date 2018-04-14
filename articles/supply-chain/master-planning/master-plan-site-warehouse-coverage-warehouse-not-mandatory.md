@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-planning-for-site-and-warehouse-coverage-warehouse-not-mandatory"></a>Planejamento mestre para cobertura de site e depósito, depósito não obrigatório
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve como um item que tem o local e o depósito como dimensões da cobertura é planejado. A dimensão do depósito não é obrigatória.
 
@@ -48,7 +47,7 @@ O gráfico a seguir ilustra como o planejamento mestre ocorre. Os parâmetros re
 
 ![Demanda para site e depósito, depósito não obrigatório](./media/multisitedemandexplosionscenarioforsiteandwarehousecoveragewarehousenotmandatory.jpg)
 
- 
+
 -
 
 

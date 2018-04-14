@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="safety-stock-fulfillment-for-items"></a>Atendimento de estoque de segurança para itens
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 O estoque de segurança indica uma quantidade adicional de um item mantido em estoque para reduzir o risco de que o item ficará esgotado. O estoque de segurança é usado como um estoque de reserva se as ordens de venda chegarem e o fornecedor não conseguir entregar os itens adicionais para atender à data de remessa solicitada do cliente. Quando o estoque de segurança for usado para atender a uma ordem de venda, o estoque de segurança será reduzido. Você pode usar o planejamento mestre para trazer automaticamente o estoque de volta ao nível de segurança.    
 

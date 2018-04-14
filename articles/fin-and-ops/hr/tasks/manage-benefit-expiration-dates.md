@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-benefit-expiration-dates"></a>Gerenciar datas de vencimento do benefício
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como é possível ampliar um benefício ou expirar, e gerenciar as datas de registro de funcionários que são inseridas no benefício. A empresa de dados demo usada para criar este procedimento é USMF.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-holds"></a>Bloqueios da ordem
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tópico descreve os bloqueios de ordens usando o Dynamics 365 for Retail.
 

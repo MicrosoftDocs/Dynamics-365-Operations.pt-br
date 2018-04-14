@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a>Criar tipos de solicitação e critérios de avaliação para RFQs
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este guia mostra como criar um tipo da solicitação e associar esse tipo com um método de avaliação. Ele também mostra como usar o tipo de solicitação em uma solicitação de cotação (RFQ) que então define o padrão do método de avaliação. Essas tarefas são normalmente realizadas por um Gerente de compras. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados. Você precisa ter um método de marcação disponível antes de começar.
 

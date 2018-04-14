@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-a-ciap-transaction-brazil"></a>Inserir uma transação CIAP (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode inserir uma transação CIAP de duas maneiras: lançar um documento fiscal, ou inserir uma transação. Você pode vincular manualmente a uma nota fiscal, conforme necessário. Este registro usa a empresa de dados de demonstração BRMF.
 

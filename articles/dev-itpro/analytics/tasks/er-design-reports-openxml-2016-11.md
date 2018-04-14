@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="design-a-configuration-for-generating-reports-in-openxml-format-for-electronic-reporting-er"></a>Criar uma configuração para gerar relatórios no formato OpenXML para relatório eletrônico (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma nova configuração de Relatório Eletrônico (RE) que contem um modelo para gerar os documentos eletrônicos no formato OPENXML. Essa configuração será usada para processar pagamentos do fornecedor.
 

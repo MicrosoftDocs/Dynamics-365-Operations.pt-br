@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>Configurar um processo de reabastecimento mínimo/máximo
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como configurar um novo processo de reabastecimento que usa estratégia de reabastecimento de mínimo/máximo. Se o estoque estiver abaixo do nível mínimo, o trabalho será criado para reabastecer o local. O procedimento também mostra como usar locais de separação fixos para permitir reabastecimento se o estoque ficar abaixo do mínimo, e como habilitar o processo de reabastecimento para executar regularmente usando um trabalho em lotes. Essas tarefas normalmente seriam realizadas por um gerente do depósito. Você pode executar este procedimento na empresa de dados de demonstração de USMF usando os valores das notas exemplo, ou pode executá-la em seus próprios dados. Se você estiver usando seus próprios dados, verifique se você tem um depósito que seja habilitado para os processos de gerenciamento de depósito.
 

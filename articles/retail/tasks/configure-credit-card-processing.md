@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-credit-card-processing"></a>Configurar processamento do cartão de crédito
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimento orienta como exibir a lista de provedores de serviço de pagamento e como configurar uma conta de pagamento para contas a receber. Este procedimento usa a empresa USRT nos dados de demonstração e destina-se aos administradores e profissionais de TI.
 

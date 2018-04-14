@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="correct-a-free-text-invoice"></a>Corrigir uma fatura de texto livre
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo explica como corrigir uma nota fiscal de texto livre que foi lançada e emiti-la novamente como uma nota fiscal corrigida.
 

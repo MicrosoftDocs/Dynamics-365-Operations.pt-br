@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-a-call-center-catalog"></a>Crie um catálogo de call center
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este artigo oferece uma visão geral do processo para a criação de um catálogo para um call center. 
 

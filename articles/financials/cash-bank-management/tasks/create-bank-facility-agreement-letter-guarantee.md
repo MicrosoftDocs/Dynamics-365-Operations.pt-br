@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>Criar um contrato de recursos bancários para a carta de garantia
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Essa tarefa cria um contrato de recursos bancários para processar uma carta de garantia. Esta tarefa usa a empresa de demonstração USMF. 
 

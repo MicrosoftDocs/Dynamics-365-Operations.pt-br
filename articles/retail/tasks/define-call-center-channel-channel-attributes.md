@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a>Definir canal de call center e atributos de canal
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimento orienta como criar um novo canal de varejo e definir atributos do canal. A empresa de dados de demonstração usada para criar esta tarefa é USRT. Esse procedimento é destinado para a função TI de Varejo.
 

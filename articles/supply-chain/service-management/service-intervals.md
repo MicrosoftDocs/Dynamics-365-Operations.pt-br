@@ -28,8 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="service-intervals"></a>Intervalos de serviço
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 O intervalo do contrato de serviço indica a frequência com a qual as linhas de ordem de serviço são criadas para linhas de contrato de serviço quando você cria ordens de serviço automaticamente.
 

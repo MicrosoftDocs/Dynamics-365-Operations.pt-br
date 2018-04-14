@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-effects-with-reversals"></a>Efeitos de depreciação em reversões
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo discute implicações potenciais para reverter uma transação de ativo fixo. 
 

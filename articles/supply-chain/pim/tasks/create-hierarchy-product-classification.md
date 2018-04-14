@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>Criar uma hierarquia de classificação de produto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar uma nova hierarquia de categoria e atribuir um tipo da hierarquia de código de mercadoria. A empresa de dados demo usada para criar este procedimento é USMF. Esse procedimento é destinado ao gerente de categoria.
 

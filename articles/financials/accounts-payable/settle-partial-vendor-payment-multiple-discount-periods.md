@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-multiple-discount-periods"></a>Liquidar um pagamento parcial de fornecedor com vários períodos de desconto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo mostra um cenário em que vários pagamentos parciais são feitos para um fornecedor que oferece vários descontos à vista. 
 

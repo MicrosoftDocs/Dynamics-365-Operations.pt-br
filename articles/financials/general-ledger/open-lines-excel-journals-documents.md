@@ -28,12 +28,12 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a>Publicar linhas de diário e documentos do Excel
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico explica como inserir e exibir linhas de diários gerais do Microsoft Excel. Inclui informações sobre os vários modelos que podem ser usados, dependendo do tipo de transação que você está inserindo.
 
 Os usuários podem inserir e publicar linhas para diários financeiros do Microsoft Excel. Depois que um usuário cria um diário, o botão **Abrir linhas no Excel** exibe modelos que estão disponíveis. Os modelos são criados para oferecer suporte a cenários específicos, porém nem todas combinações de tipo de conta são suportadas no diário. A tabela a seguir mostra os modelos disponíveis e os tipos de conta às quais oferecem suporte.
+
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | **Modelo**             | **Tipos de conta compatíveis**                                                                                             | **Como acessar o modelo**                                                          |

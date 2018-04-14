@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-order-cost-estimation"></a>Estimativa de custo da ordem de produção
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre a previsão de custo de produção. A estimativa de custo de produção fornece os custos projetados de consumo de capacidade e de material para produzir um item na quantidade da ordem de produção planejada. 
 

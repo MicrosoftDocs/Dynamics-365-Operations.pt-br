@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cash-discounts"></a>Descontos à vista
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Os descontos à vista são configurados compartilhados para contas a pagar e contas a receber.  O desconto à vista disponível pode ser definido na nota fiscal do cliente ou na nota fiscal de fornecedor, e será usado se a nota fiscal for paga na data do desconto à vista. 
 
@@ -65,6 +64,7 @@ A moeda contábil da pessoa jurídica é USD e as seguintes taxas de câmbio sã
 -   1 de março = 80
 
 Uma fatura de US$ 1000 com base nas condições do desconto à vista de 20D2% é lançada o 15 de fevereiro. O valor da moeda contábil da fatura é de € 1100. Um pagamento de US$ 980 é liquidado com a fatura em 1 de março. O valor do desconto à vista é de US$ 20. O valor da moeda contábil de pagamento é de US$ 490,00. O valor da moeda contábil do desconto à vista é calculado usando a taxa de câmbio de 1 de março: 20 \* 80 / 100 = € 16.
+
 | **Observação**                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Se a opção Calcular descontos à vista para pagamentos parciais for selecionada nas páginas Parâmetros de contas a receber ou Parâmetros de contas a pagar, a taxa de câmbio que está em vigor na data de cada pagamento parcial é utilizada. |

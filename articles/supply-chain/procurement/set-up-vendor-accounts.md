@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-vendor-accounts"></a>Configurar contas de fornecedor
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve os tipos de informações que você deve especificar quando cria uma nova conta de fornecedor.
 

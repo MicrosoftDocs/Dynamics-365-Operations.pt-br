@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="standard-cost-conversion-overview"></a>Visão geral da conversão em custo padrão
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece uma visão geral do processo para ajudar você a configurar e a executar uma conversão de custo padrão. As etapas listadas devem ser concluídas depois que você tiver concluído os pré-requisitos de uma conversão de custo padrão. 
 

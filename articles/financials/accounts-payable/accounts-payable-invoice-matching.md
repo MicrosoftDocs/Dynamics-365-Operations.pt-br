@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounts-payable-invoice-matching"></a>Conciliação de faturas de contas a pagar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 A conciliação de faturas de contas a pagar é o processo de conciliar as informações da fatura do fornecedor e do recebimento do produto.
 

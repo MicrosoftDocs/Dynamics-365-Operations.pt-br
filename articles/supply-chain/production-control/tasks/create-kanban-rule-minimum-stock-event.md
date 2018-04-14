@@ -23,14 +23,14 @@ ms.contentlocale: pt-br
 ms.lasthandoff: 09/29/2017
 
 ---
-# Criar uma regra kanban usando um evento de estoque mínimo
+# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>Criar uma regra kanban usando um evento de estoque mínimo
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento é centrado sobre a instalação necessária para criar uma regra kanban usando um evento do estoque mínimo para assegurar-se de que um produto específico esteja sempre disponível em um lugar específico. Uma regra kanban é criada para transferir o material ao lugar quando o nível de estoque cai abaixo de 200 partes. Ao executar o processamento do evento de vinculação, os kanbans necessários são criados. A empresa de dados demo usada para criar esta tarefa é USMF. Esta tarefa destina-se ao Engenheiro do processo ou Gerente de fluxo de valor, pois eles preparam a produção de um produto novo ou modificado em um ambiente de lean.
 
 
-## Criar uma nova regra kanban
+## <a name="create-a-new-kanban-rule"></a>Criar uma nova regra kanban
 1. Vá para Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.
 2. Clique em Novo.
 3. No campo Tipo, selecione "Retirada".
@@ -46,7 +46,7 @@ Este procedimento é centrado sobre a instalação necessária para criar uma re
 9. No campo Evento de reabastecimento de estoque, selecione "Lote".
     * Isto cria kanbans para cumprir necessidades materiais no lugar relacionado durante o processamento do evento de vinculação.  
 
-## Defina a quantidade mínima para o item
+## <a name="set-the-minimum-quantity-for-the-item"></a>Defina a quantidade mínima para o item
 1. Clique para seguir o link no campo Produto.
 2. Clique para seguir o link no campo Número de item.
 3. Expanda a imagem do produto FactBox.
@@ -58,7 +58,7 @@ Este procedimento é centrado sobre a instalação necessária para criar uma re
     * Defina Depósito como 12.  
 9. Ajuste o mínimo para “200".
 
-## Execute o trabalho de criação de evento em lotes
+## <a name="run-the-batch-event-creation-job"></a>Execute o trabalho de criação de evento em lotes
 1. Vá para Controle de produção > Tarefas periódicas > Processamento em lote de trabalhos kanban > Processamento de evento de vinculação.
 2. Clique em OK.
 3. Vá para Gerenciamento de informações dos produtos > Lean manufacturing > Regras kanban.

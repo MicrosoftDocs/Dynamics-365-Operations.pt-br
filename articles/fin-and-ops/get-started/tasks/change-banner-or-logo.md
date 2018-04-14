@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-banner-or-logo"></a>Alterar a faixa ou o logotipo
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 O procedimento a seguir lista as etapas que os administradores do sistema podem usar para atualizar a imagem da faixa ou do logotipo que é exibida para uma entidade jurídica. A empresa de dados demo usada para criar este procedimento é USMF.
 

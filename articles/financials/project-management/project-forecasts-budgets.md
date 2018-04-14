@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-forecasts-and-budgets"></a>Previsões e orçamentos de projeto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 O Microsoft Dynamics 365 for Finance and Operations fornece duas maneiras de gerenciar e controlar seus projetos: previsões e orçamentos de projetos. 
 

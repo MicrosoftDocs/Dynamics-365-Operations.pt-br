@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a>Associar um índice de combustível a uma transportadora como um encargo suplementar
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este guia mostra como criar uma atribuição suplementar, um encargo suplementar da transportadora, um mestre suplementar para sobretaxa de combustível e como associar um índice de combustível da transportadora a uma transportadora. Você precisa ter configurado um índice de combustível da transportadora antes de executar esse guia. Para isso, você pode usar o guia “Configurar um índice de combustível da transportadora“. Essas tarefas de configuração são tipicamente feitas por um gerente de logística. Os dados demonstrativos utilizados na criação desse procedimento são do conjunto USMF.
 

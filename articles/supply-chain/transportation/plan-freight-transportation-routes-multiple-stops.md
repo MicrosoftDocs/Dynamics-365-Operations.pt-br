@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>Planejar rotas de transporte de frete com várias paradas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve os vários elementos usados para planejar rotas de transporte no Microsoft Dynamics 365 for Finance and Operations.
 

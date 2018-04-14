@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-fixed-compensation-plans"></a>Criar planos de remuneração fixa.
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 A remuneração fixa se refere ao salário bruto normal ou ao salário de um funcionário. Este tópico descreve os componentes que devem ser configurados antes de criar um plano de remuneração fixo e inserir os funcionários.
 

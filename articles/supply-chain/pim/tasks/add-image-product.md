@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-an-image-to-a-product"></a>Adicionar uma imagem a um produto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como adicionar uma imagem a um produto. A empresa de dados de demonstração usada para criar esta tarefa é a USMF.
 

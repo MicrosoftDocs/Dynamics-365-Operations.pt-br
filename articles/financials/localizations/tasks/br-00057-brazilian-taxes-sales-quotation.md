@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="brazilian-tax-in-sales-quotations"></a>Impostos brasileiros nas cotações de venda
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimento para criar uma cotação de venda que usa impostos brasileiros. É possível criar uma cotação especificando as informações fiscais, como o tipo de operação e o CFOP (Código Fiscal de Operações e Prestações). Ao criar uma linha de cotação, é possível selecionar um código de CFOP no campo CFOP. Os códigos de CFOP disponíveis neste campo dependem do estabelecimento fiscal do site selecionado no campo Site. Os grupos de impostos nos campos Grupo de impostos sobre vendas e Imposto do item também são atualizados com base na matriz de imposto. Esta tarefa usa a empresa de demonstração BRMF.
 

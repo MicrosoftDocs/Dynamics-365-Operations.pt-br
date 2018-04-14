@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="call-center-catalogs"></a>Catálogos do call center
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este artigo descreve a funcionalidade específica do call center para catálogos no Microsoft Dynamics 365 for Retail.
 

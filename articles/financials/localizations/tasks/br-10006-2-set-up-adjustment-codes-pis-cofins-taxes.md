@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-adjustment-codes-for-pis-and-cofins-taxes-brazil"></a>Configurar códigos de ajuste para impostos PIS e COFINS (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode criar transações manuais de ajuste para ajustar os valores de crédito ou débito de PIS e COFINS relatados nos registros M220, M225, M620, M625, M110, M115, M510 e M515. Primeiro você deve criar os códigos de ajuste. O governo brasileiro determina os códigos de ajuste com base em critérios de ajuste e tipo de transação de ajuste. Esta tarefa usa a empresa de demonstração BRMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="develop-and-open-a-job-requisition"></a>Desenvolver e abrir um requisição de trabalho
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Os projetos de recrutamento ajudam você a gerenciar o processo de recrutamento. Para cada projeto de recrutamento, você pode configurar informações, como o trabalho para o qual você está fazendo o recrutamento, o nome de recruta, o status do projeto e o departamento que o trabalho será encontrados em. Depois de criar um projeto de recrutamento, você pode criar um anúncio de emprego para o projeto, publicar o anúncio de emprego nas páginas de autoatendimento do funcionário, associar aplicações para emprego com o projeto, e rastrear atividades para aquele projeto. A empresa de dados demo usada para criar este procedimento é USMF. Para iniciar o procedimento, vá para Recursos humanos > Recrutamento > Projetos de recrutamento > Projetos de recrutamento
 

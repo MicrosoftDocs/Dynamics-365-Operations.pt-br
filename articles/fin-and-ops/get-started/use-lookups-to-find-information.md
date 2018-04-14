@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-lookups-to-find-information"></a>Use pesquisas para encontrar informações
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 No Microsoft Dynamics 365 for Finance and Operations, vários campos possuem pesquisas que podem ajudá-lo a encontrar facilmente o valor correto ou desejado. Vários aprimoramentos foram adicionados às pesquisas tornando esses controles mais úteis e os usuários mais produtivos. Neste tópico, você aprenderá sobre esses novos recursos das pesquisas e receberá algumas dicas úteis para fazer o melhor uso possível delas no sistema.  
 

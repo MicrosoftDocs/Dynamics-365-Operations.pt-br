@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-adjustment-codes-for-icms-taxes-on-fiscal-documents-brazil"></a>Configurar códigos de ajuste para impostos ICMS em notas fiscais (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode criar códigos de ajuste de imposto para ajustar manualmente valores do ICMS em notas fiscais.
 

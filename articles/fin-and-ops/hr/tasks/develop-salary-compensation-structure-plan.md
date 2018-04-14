@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>Desenvolver estrutura e planos de remuneração/salário
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Essa guia da tarefa mostra o processo de criar um plano de remuneração fixa e de habilitar os funcionários a serem inseridos no plano com as regras de qualificação. A empresa de dados de demonstração usada para criar essa tarefa é a USMF e esta tarefa é destinada aos gerentes de Compensação e Benefícios.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>Criar e atribuir uma política de comportamento de custos para uma unidade de controle de custos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 O comportamento de custo é a classificação de custos como fixo ou variável. Uma política e as regras correspondentes precisam ser atribuídas a uma unidade de controle de custo para que a política se torne efetiva. Use esse procedimento para criar uma política e depois atribua a política a uma unidade de controle de custo.
 

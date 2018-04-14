@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="cancel-a-sales-complementary-fiscal-document-brazil"></a>Cancelar uma nota fiscal complementar de venda (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 É possível cancelar uma nota fiscal complementar de vendas incorreta e fornecer um motivo para o cancelamento. Ao cancelar uma nota fiscal complementar de vendas, é criada uma nota fiscal complementar de vendas com os preços ou valores negativos de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços), ou de IPI (Imposto Sobre Produtos Industrializados). Ao lançar a nota fiscal complementar de venda negativa, a nota fiscal complementar original é marcada como cancelada, e todas as transações do razão e as transações financeiras são revertidas. A nota fiscal complementar de venda original é relatada em livros fiscais como cancelada. A nota fiscal complementar de venda negativa não é relatada em livros fiscais. Esta tarefa usa a empresa de demonstração BRMF.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a>Processar ajustes dos pontos de premiação de fidelidade
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimento demonstra como procurar informações de cartão-fidelidade e ajustar pontos de recompensa de fidelidade. A empresa de dados de demonstração usada para criar esta tarefa é USRT. Esta tarefa se destina à função Gerente de operações de varejo ou a uma função Gerente de atendimento ao consumidor.
 

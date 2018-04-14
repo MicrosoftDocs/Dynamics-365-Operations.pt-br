@@ -28,14 +28,14 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Faturas de pagamento antecipado versus pagamentos antecipados
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve e compara os dois métodos que as organizações podem usar para pagamentos antecipados. Em um método, você cria uma fatura de pagamento antecipado que esteja associada a uma ordem de compra. No outro método, é possível criar comprovantes de diário de pagamentos antecipados criando entradas de diário e marcando-as como comprovantes de diário de pagamentos antecipados.
 
 As organizações podem emitir pagamentos antecipados a fornecedores para mercadorias ou serviços, antes que as mercadorias ou serviços sejam entregues. Dois métodos podem ser usados para emitir pagamentos antecipados aos fornecedores. Para minimizar o risco, é possível rastrear pagamentos antecipados definindo o pagamento antecipado em uma ordem de compra. Para esse método, você deve criar uma fatura de pagamento antecipado que esteja associada a uma ordem de compra. Este método é conhecido como faturação de pagamento antecipado. As organizações que não desejam controlar os pagamentos antecipados de forma tão próxima ou que não recebem uma fatura de pagamento antecipado do fornecedor podem usar comprovantes de diário de pagamentos antecipados em vez do método de faturamento de pagamento antecipado. É possível criar comprovantes de diário de pagamentos antecipados criando entradas de diário e marcando-as como comprovantes de diário de pagamentos antecipados. Nesse método, você não pode controlar quais pagamentos antecipados para um fornecedor são feitos em quais ordens de compra. No entanto, você pode marcar um pagamento antecipado para liquidação em relação a uma ordem de compra.
 
 ## <a name="when-to-use-prepayment-invoicing-vs-prepayments"></a>Quando usar o faturamento de pagamento antecipado versus pagamentos antecipados
+
 | Faturamento de pagamento antecipado                                                                | Pagamentos Antecipados                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | Defina um valor de pagamento antecipado na ordem de compra.                                    | Nenhum valor de pagamento antecipado é definido na ordem de compra.                    |

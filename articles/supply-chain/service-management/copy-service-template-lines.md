@@ -28,7 +28,7 @@ ms.lasthandoff: 02/27/2018
 
 # <a name="copy-service-templates-lines"></a>Copiar linhas de modelos de serviço 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 As informações de um modelo podem ser copiadas para um contrato de serviço ou uma ordem de serviço.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-containerization"></a>Configurar transporte em contêineres
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento descreve como automatizar o transporte de cargas em contêineres no Gerenciamento de depósito. O posicionamento em contentores automatizado cria contêiner e o trabalho de separação para remessas quando uma onda é processada e linhas do trabalho pode ser dividida nas quantidades que atendam aos contêineres. Isso ajuda trabalhadores de depósito a separarem os itens diretamente no contêiner selecionado. Em comparação com o processo manual de embalagem, as tarefas como criar contêiner, atribuir itens e fechar contêiner são automatizadas pelo sistema. Este procedimento usa a empresa de demonstração USMF e é realizado por um gerente de depósito.
 

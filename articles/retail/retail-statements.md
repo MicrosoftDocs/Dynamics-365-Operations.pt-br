@@ -29,7 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="retail-statements"></a>Demonstrativos de varejo
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 No Microsoft Dynamics 365 for Retail, o processo de lançamento de demonstrativo é usado para registrar contabilmente as transações que ocorrem no ponto de venda (PDV) da nuvem ou Modern POS (MPOS). O processos de lançamentos de demonstrativos usa a agenda de distribuição para receber um conjunto de transações PDV no cliente das sedes (HQ). Os parâmetros definidos nas páginas **Parâmetros de varejo** e **Lojas** são usados para selecionar as transações que são recebidas em demonstrativos individuais.  
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="microsoft-project-client-integration"></a>Integração do cliente do Microsoft Project
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Planejar e manter uma agenda de projeto pode ser complexo, por isso os gerentes de projeto precisam usar ferramentas que os ajudem a gerenciar essa tarefa. A integração com o Cliente do Microsoft Project fornece suporte para abrir e gerenciar a estrutura de detalhamento de trabalho de um projeto. O gerente do projeto pode publicar as alterações na estrutura de detalhamento de trabalho do projeto do Finance and Operations.
 

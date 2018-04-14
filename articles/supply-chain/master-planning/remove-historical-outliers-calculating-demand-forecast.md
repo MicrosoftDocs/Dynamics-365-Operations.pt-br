@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>Remover exceções de dados históricos de transação ao calcular uma previsão de demanda
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve como excluir exceções dos dados históricos que são usados para calcular uma previsão de demanda. Ao excluir as exceções, você pode aumentar a precisão de previsão.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-fiscal-books"></a>Configurar livros fiscais
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Os livros fiscais ajudam a criar a apuração de imposto do estabelecimento fiscal, o pagamento de imposto e o relatório de imposto por meio do Sistema Público de Escrituração Digital (SPED). Os arquivos do SPED fornecem informações detalhadas sobre as apurações e pagamentos de imposto em transações com mercadorias, ativos fixos e serviços, bem como em transações na contabilidade. 
 

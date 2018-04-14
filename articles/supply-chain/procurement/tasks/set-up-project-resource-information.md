@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-project-resource-information"></a>Configurar informações de recursos do projeto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como configurar um recurso do projeto. Essa tarefa usa o conjunto de dados de USMF.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>Práticas recomendadas para importar vouchers usando a entidade do diário Geral
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece dicas para importar dados para o diário geral usando Entidade de diário geral.  
 

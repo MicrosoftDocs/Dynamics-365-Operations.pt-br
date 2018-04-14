@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="balance-sheet-financial-reports"></a>Relatórios financeiros de balanço
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve os relatórios padrão para balanços. Também mostra os blocos de construção associados a esses relatórios. 
 
@@ -71,7 +70,7 @@ As definições da coluna contêm diferentes tipos de colunas para fornecer nív
     -   **DESC** – A descrição da definição da linha
     -   **FD** – Dados financeiros acumulados do ano para o ano atual
 
- 
+
 
 <a name="see-also"></a>Consulte também
 --------

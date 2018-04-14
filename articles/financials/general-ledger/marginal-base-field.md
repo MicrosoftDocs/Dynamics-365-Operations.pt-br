@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-tax-rates-based-on-the-marginal-base-and-calculation-methods"></a>Determinando as alíquotas de imposto com base nos campos Base marginal e Métodos de cálculo
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico explica como os valores com base no método de cálculo marginais dos campos determinam as taxas de impostos sobre vendas e as transações de compra.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning"></a>Planejamento de orçamento
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 O objetivo deste laboratório é fornecer uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 for Finance and Operations na Área de planejamento de orçamento. A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.  Este laboratório focará especificamente nos processos empresariais a seguir ou tarefas -    - Criar hierarquia organizacional para planejamento de orçamento e configuração de segurança do usuário   - Definir cenários de plano de orçamento, colunas de plano de orçamento, layouts e modelos do Excel   - Criar e ativar processo de planejamento de orçamento   - Criar documento de plano de orçamento extraindo os reais de Contabilidade   - Usar alocações para ajustar dados de documento de plano de orçamento   - Editar dados de documento de plano de orçamento no Excel 
 

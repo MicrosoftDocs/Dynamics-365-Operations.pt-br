@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-and-the-final-payment-in-full-before-the-discount-date"></a>Liquidar um pagamento parcial de fornecedor e liquidar o pagamento final em sua totalidade antes da data do desconto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo mostra um cenário no qual os pagamentos parciais são feitos para uma nota fiscal de fornecedor, e um desconto à vista será obtido.
 

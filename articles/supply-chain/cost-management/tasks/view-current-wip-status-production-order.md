@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a>Exibir status WIP atual em uma ordem de produção
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esse procedimento mostra como exibir o demonstrativo WIP em uma ordem de produção. A empresa de dados demo usada para criar este procedimento é USMF. Esse procedimento é criado para o controlador de custo.
 

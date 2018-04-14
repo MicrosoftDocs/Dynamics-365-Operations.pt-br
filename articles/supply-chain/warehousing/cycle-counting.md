@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cycle-counting"></a>Contagem cíclica
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve como você pode usar a contagem cíclica com a solução de armazenamento disponível no Gerenciamento de depósito. Este artigo não se aplica à solução de armazenamento disponível no Gerenciamento de estoque.
 

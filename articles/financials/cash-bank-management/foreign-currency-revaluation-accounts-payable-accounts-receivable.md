@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>Reavaliação de moeda estrangeira para Contas a pagar e Contas a receber
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 As flutuações nas taxas de câmbio fazem com que o valor teórico (valor contábil) de transações abertas em moedas estrangeiras varie ao longo do tempo. Este artigo oferece informações sobre o processo de reavaliação de moeda estrangeira executado para atualizar o valor de transação abertas em Contas a pagar e em Contas a receber. 
 

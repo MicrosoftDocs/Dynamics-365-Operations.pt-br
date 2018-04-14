@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Controle do consumo de matéria-prima usando princípios de liberação
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Os princípios de liberação refletem diferentes estratégias de consumo de matérias-primas usadas nos processos de produção. O consumo é o processo que deduz o material do estoque disponível e define o valor dos materiais consumidos como **Trabalho em andamento** (WIP) para ordens de produção e ordens de lote. As matérias-primas normalmente são consumidas de um local configurado para o processo que consome o material. Esse local é conhecido como o local de entrada da produção.
 

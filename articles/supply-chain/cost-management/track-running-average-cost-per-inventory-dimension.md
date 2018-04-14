@@ -29,10 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="tracking-running-average-cost-per-inventory-dimension"></a>Rastreando o custo médio por dimensão de estoque
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Um grupo de dimensões de estoque é anexado a cada item de estoque. Portanto, o preço de custo médio de um item é calculado com base nas dimensões de estoque selecionadas que estão sendo rastreadas financeiramente.
 

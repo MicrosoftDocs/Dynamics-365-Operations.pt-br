@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-scheduling"></a>Plano de operações
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre agendamento de operações. Você pode usar o plano de operações para fornecer uma estimativa geral do processo de produção ao longo do tempo.
 

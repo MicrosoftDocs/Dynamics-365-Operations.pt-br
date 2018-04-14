@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-how-to-configure-the-global-address-book-and-additional-address-books"></a>Plano para configuração do catálogo de endereços global e dos catálogos de endereços adicionais
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve as considerações e as alterações que você deve fazer durante o processo de planejamento, antes de definir e configurar o catálogo de endereços global e todos os catálogos de endereços adicionais no Microsoft Dynamics 365 for Finance and Operations. Algumas das alterações exigem que você confirme as alterações que foram feitas para outras áreas do produto, como a hierarquia organizacional.
 

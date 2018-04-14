@@ -25,7 +25,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="employee-development-power-bi-content"></a>Conteúdo do Power BI para desenvolvimento do funcionário
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve o conteúdo Microsoft Power BI para **Desenvolvimento do funcionário**.
 
@@ -45,6 +45,7 @@ Os relatórios incluídos no conteúdo de **Desenvolvimento do funcionário** do
 Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
+
 | Entidade                   | Conteúdo                                                                                                   | Relações com outras entidades |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | Calendário de compensação          | Compensações de calendário para dividir relatórios                                                                          | Atribuição da última posição, Tendência da posição, Evolução do funcionário, Funcionário demitido 

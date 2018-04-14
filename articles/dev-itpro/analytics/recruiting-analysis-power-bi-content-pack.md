@@ -28,7 +28,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="recruiting-power-bi-content"></a>Recrutamento de conteúdo do Power BI
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve o conteúdo de **Recrutamento** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
 

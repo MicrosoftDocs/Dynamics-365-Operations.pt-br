@@ -27,8 +27,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Configurar Relatório eletrônico para efetuar pull de dados no Power BI
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico explica como você pode usar suas configurações de ER (Relatório eletrônico) para organizar a transferência de dados da sua instância do Finance and Operations para os serviços do Power BI. Como exemplo, este tópico usa transações intrastat como os dados comerciais que devem ser transferidos. A visualização de mapa do Power BI usa esses dados de transação intrastat para apresentar uma exibição para a análise das atividades de importação/exportação da empresa no relatório do Power BI.
 
@@ -118,9 +117,9 @@ Clique no botão **Configurações** para o novo registro de destino. Em seguida
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>Criar um relatório do Power BI usando o novo conjunto de dados
 1. Clique no conjunto de dados do Power BI **Detalhes de importação e exportação** que você criou. 
 2. Configure a visualização. Por exemplo, selecione a visualização **Mapa Coroplético** e configure-o da seguinte maneira:
- -   Atribua o campo do conjunto de dados **CountryOrigin** ao campo **Localização** da visualização de mapa.
- -   Atribua o campo do conjunto de dados **Valor** ao campo **Saturação da cor** da visualização de mapa.
- -   Adicione os campos dos conjuntos de dados **Atividade** e **Ano** à coleção de campos **Filtros** da visualização de mapa.
+   -   Atribua o campo do conjunto de dados **CountryOrigin** ao campo **Localização** da visualização de mapa.
+   -   Atribua o campo do conjunto de dados **Valor** ao campo **Saturação da cor** da visualização de mapa.
+   -   Adicione os campos dos conjuntos de dados **Atividade** e **Ano** à coleção de campos **Filtros** da visualização de mapa.
 
 3. Salve o relatório do Power BI como **Relatório de detalhes de importação e exportação**. [![Relatório de detalhes de importação e exportação](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Observe que o mapa mostra os países/regiões que são mencionados no arquivo do Excel (Áustria e Suíça neste exemplo.) Esses países/regiões estão coloridos para mostrar a proporção de valores faturados para cada um. 
 4. Atualize a lista das transações intrastat. A transação de exportação originada da Itália será adicionada. [![Lista de transações intrastat](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) 

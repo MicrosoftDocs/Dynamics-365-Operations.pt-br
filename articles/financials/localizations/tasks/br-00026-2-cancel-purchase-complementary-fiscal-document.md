@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="cancel-a-purchase-complementary-fiscal-document-brazil"></a>Cancelar uma nota fiscal complementar de compra (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 É possível cancelar uma nota fiscal complementar de compra incorreta e fornecer um motivo para o cancelamento. Ao cancelar uma nota fiscal complementar de compra, uma nota fiscal complementar de compra é criada com os preços ou valores negativos de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços), ou de IPI (Imposto Sobre Produtos Industrializados). Ao lançar a nota fiscal complementar de compra negativa, a nota fiscal complementar original é marcada como cancelada, e todas as transações do razão e as transações financeiras são revertidas. A nota fiscal complementar de compra original é relatada em livros fiscais como cancelada. A nota fiscal complementar de compra negativa não é relatada em livros fiscais. Esta tarefa usa a empresa de demonstração BRMF.
 

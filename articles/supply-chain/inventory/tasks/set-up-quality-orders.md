@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-quality-orders"></a>Configurar ordens de qualidade
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como habilitar um processo de gerenciamento de qualidade no estoque de entrada que será inspecionado imediatamente após o registro de entrada. O procedimento será executado tipicamente por um gerente de qualidade. O processo inclui a criação de um grupo de qualidade, para definir os itens que estejam prestes a ser provados, e um grupo de teste para agrupar os testes que devem ser executados em itens no grupo de qualidade. Você pode executar este guia na empresa de dados de demonstração da USMF.
 

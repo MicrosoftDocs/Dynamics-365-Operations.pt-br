@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-channel-specific-discounts"></a>Definir descontos específicos do canal
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Os fornecedores geralmente definem descontos diferentes em canais diferentes. Este tópico examina os conceitos que você precisa saber para criar um desconto para um canal específico. 
 
@@ -61,7 +60,7 @@ O exemplo a seguir ilustra as tarefas envolvidas na configuração de um descont
 4.  Após a criação do desconto **Volta à escola**, você precisa clicar em **Grupos de preços** na parte superior da página **Desconto**. A página **Grupos de preços de desconto** será aberta. Em seguida, clique em **Novo** e selecione o grupo de preços **Houston-GP**.
 5.  Agora você pode habilitar o desconto e enviá-lo por push ao canal.
 
- 
+
 
 <a name="see-also"></a>Consulte também
 --------

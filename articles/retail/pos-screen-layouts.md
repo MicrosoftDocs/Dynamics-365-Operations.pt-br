@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-screen-layouts-for-pos"></a>Configurar layouts de tela do PDV
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tópico fornece informações sobre layouts de tela para experiências com o ponto de venda (PDV) do Microsoft Dynamics 365 for Retail.
 

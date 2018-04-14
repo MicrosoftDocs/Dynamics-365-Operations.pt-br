@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>Configurar sequências numéricas em uma base individual
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Sequências numéricas são usadas para gerar identificadores exclusivos e legíveis para registros de dados mestres e registros de transações que os exigirem. Um registro de transação ou de dados mestres que exige um identificador é conhecido como referência. Antes de criar novos registros para referência, é necessário configurar uma sequência numérica e associá-la à referência. É possível configurar todas as sequências numéricas necessárias ao mesmo tempo, usando o assistente Configurar sequências de número, ou você pode criar ou modificar sequências de número individuais usando a página Sequências de números.
 

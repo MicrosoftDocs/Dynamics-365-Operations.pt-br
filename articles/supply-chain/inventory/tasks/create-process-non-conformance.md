@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-process-a-conformance"></a>Criar e processar uma conformidade
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimento para executar o gerenciamento de não conformidades, com base em uma ordem de qualidade existente. Você pode executar esse registro na empresa de demonstração USMF e pode usar os valores sugeridos. Normalmente, esse procedimento é realizado por um encarregado de qualidade.  Como um pré-requisito, execute o registro de tarefa “Inspecionar a qualidade das mercadorias“. Para processar a aprovação de uma não conformidade, o usuário que executa o registro de tarefa deve ter um valor de “Nome“ atribuído na página Usuários. Para usar as notas do documento, o usuário também deve ter o Manuseio de documentos ativado nas opções do usuário.
 

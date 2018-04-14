@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>Enviar ordens de venda sem armazenamento
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este guia demonstra como atualizar uma ordem de venda quando produtos são enviados ao cliente. Este guia é aplicável ao fluxo de realizações que não está definido para o gerenciamento de depósito (sem armazenamento básico ou avançado) e, portanto, não requer separação de produtos que serão registrados antes da remessa. Você pode realizar esse procedimento em seus próprios dados ou na empresa USMF de dados de demonstração. Em ambos os casos, antes de começar esta tarefa, crie uma ordem de venda para um produto inventariado com uma quantidade maior que 1. Para evitar um erro de lançamento, você precisa verificar se a quantidade disponível do produto no site e o depósito que você selecionou na ordem abrangem a quantidade da ordem.
 

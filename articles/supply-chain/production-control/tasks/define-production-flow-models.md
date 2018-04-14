@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-production-flow-models"></a>Definir modelos de fluxo de produção
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Os modelos de fluxo de produção descrevem como capacidade das células de trabalho de lean manufacturing é calculada e atualizada. Entretanto, a definição de um modelo de fluxo de produção é um pré-requisito da definição das células de trabalho. A empresa de dados demo usada para criar este procedimento é USMF.
 

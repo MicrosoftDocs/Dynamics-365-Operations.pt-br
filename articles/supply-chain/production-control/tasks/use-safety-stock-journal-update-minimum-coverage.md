@@ -23,21 +23,21 @@ ms.contentlocale: pt-br
 ms.lasthandoff: 09/29/2017
 
 ---
-# Usar o diário de estoque de segurança para atualizar a cobertura mínima
+# <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a>Usar o diário de estoque de segurança para atualizar a cobertura mínima
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como calcular propostas de cobertura mínima baseadas em transações históricas e, em seguida, atualizar a cobertura do item com as propostas. Isso é feito usando o diário de estoque de segurança. A empresa de dados demo usada para criar esta tarefa é USMF. Essa tarefa é pretendida para o planejador da produção, para ajudar a manter a cobertura mínima.
 
 
-## Crie um novo nome de diário de estoque seguro
+## <a name="create-a-new-safety-stock-journal-name"></a>Crie um novo nome de diário de estoque seguro
 1. Vá para Nomes do diário de estoque de segurança.
 2. Clique em Novo.
 3. No campo Nome, digite "Material".
 4. No campo Descrição, digite "Material".
 5. Feche a página.
 
-## Criar um diário de estoque de segurança
+## <a name="create-a-safety-stock-journal"></a>Criar um diário de estoque de segurança
 1. Vá para Cálculo de estoque de segurança.
 2. Clique em Novo.
 3. No campo Nome, insira ou selecione um valor.
@@ -50,7 +50,7 @@ Este procedimento mostra como calcular propostas de cobertura mínima baseadas e
 7. Clique em OK.
     * Isso criará linhas para as dimensões que têm transações de estoque.  
 
-## Calcular proposta
+## <a name="calculate-proposal"></a>Calcular proposta
 1. Clique em Calcular proposta.
 2. Selecione a opção Usar média de saídas durante o prazo de entrega.
 3. Defina o fator de multiplicação como "10".
@@ -58,7 +58,7 @@ Este procedimento mostra como calcular propostas de cobertura mínima baseadas e
 4. Clique em OK.
     * Role para baixo para encontrar M0002 e M0003. Veja a coluna Quantidade mínima calculada.   
 
-## Atualizar quantidade mínima
+## <a name="update-minimum-quantity"></a>Atualizar quantidade mínima
 1. No campo Nova quantidade mínima, insira um número.
     * Atualize a Nova quantidade mínima para corresponder ao valor na Quantidade mínima calculada. Se o mínimo calculado for zero, você poderá inserir o valor futuro desejado. Por exemplo, você pode inserir a Quantidade mínima calculada neste campo para o M0002 que tem o armazém 12.  
 2. Na lista, localize e selecione o PDV desejado.
@@ -66,7 +66,7 @@ Este procedimento mostra como calcular propostas de cobertura mínima baseadas e
 3. No campo Nova quantidade mínima, insira um número.
     * Atualize a Nova quantidade mínima para corresponder ao valor na Quantidade mínima calculada. Se o mínimo calculado for zero, você poderá inserir o valor futuro desejado.  
 
-## Lançar a nova quantidade mínima e validar o resultado
+## <a name="post-the-new-minimum-quantity-and-validate-the-result"></a>Lançar a nova quantidade mínima e validar o resultado
 1. Clique em Lançar.
 2. Clique em OK.
 3. Clique para seguir o link no campo Número de item.

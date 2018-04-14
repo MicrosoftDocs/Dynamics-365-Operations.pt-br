@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order"></a>Crie uma ordem de compra
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar uma ordem de compra manualmente. É mais comum para ordens de compra serem criadas automaticamente como resultado de um planejamento mestre, entrega direta e outros processos. As ordens de compra geralmente são criadas com um agente de compra. O exemplo mostrado aqui pode ser usado na empresa de dados de demonstração USMF usando os valores que são sugeridos nas notas para várias etapas.
 

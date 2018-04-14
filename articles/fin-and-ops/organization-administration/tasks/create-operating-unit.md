@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-operating-unit"></a>Criar uma unidade operacional
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Uma unidade operacional é uma organização usada para dividir o controle de recursos econômicos e os processos operacionais em uma empresa. As pessoas de uma unidade operacional têm um imposto para maximizar o uso de recursos escassos, melhorar os processos e a conta para o desempenho. Os tipos de unidades operacionais incluem centros de custos, unidades de negócios, departamentos e fluxos de valor. Use o procedimento a seguir para criar uma unidade operacional. A empresa de dados demo usada para criar este procedimento é USMF.
 

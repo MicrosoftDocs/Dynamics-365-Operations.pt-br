@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="audit-policy-violations-and-cases"></a>Auditar violações de política e casos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 O artigo explica como os casos de auditoria são gerados de violações de regras de diretiva de auditoria. Também inclui informações sobre as diversas maneiras das políticas de auditoria usarem o intervalo de datas de seleção de documento.
 

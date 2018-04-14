@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="benefit-eligibility-policies"></a>Políticas de qualificação para benefícios
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tópico fornece informações sobre as diretivas de qualificação de benefício, o que ajuda a definir quem está qualificado para benefícios específicos.
 

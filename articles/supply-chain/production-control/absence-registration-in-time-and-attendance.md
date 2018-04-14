@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="absence-registration-in-time-and-attendance"></a>Registro de ausência em Horário e presença
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve os conceitos de ausência e explica como tratar ausências em Horário e presença.
 

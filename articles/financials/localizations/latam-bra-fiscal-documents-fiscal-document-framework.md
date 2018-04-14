@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fiscal-documents-and-fiscal-document-framework-for-brazil"></a>Notas fiscais e suas estruturas para o Brasil
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve as notas fiscais do Brasil.
 

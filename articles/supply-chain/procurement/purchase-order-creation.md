@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-purchase-orders"></a>Criar ordens de compra
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Este artigo descreve o processo e as opções quando você criar manualmente uma ordem de compra.
 

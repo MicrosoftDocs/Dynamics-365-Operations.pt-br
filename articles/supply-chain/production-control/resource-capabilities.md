@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="resource-capabilities"></a>Capacidades do recurso
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre os recursos de recurso. Um recurso é a capacidade de um recurso de operações de executar uma atividade específica. O artigo explica como os recursos e os conceitos relacionados, como o nível de proficiência e a prioridade, são usados para selecionar recursos apropriados para uma atividade.
 

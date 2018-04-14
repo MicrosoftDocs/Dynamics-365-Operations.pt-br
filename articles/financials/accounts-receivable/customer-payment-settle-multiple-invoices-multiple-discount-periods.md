@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>Usar um pagamento de cliente para liquidar várias faturas que abrangem vários períodos de desconto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico mostra como várias faturas são pagas quando cada fatura se qualifica para um desconto à vista. Os cenários neste artigo realçam como os descontos à vista efetuados podem variar, dependendo de quando o pagamento é efetuado.
 

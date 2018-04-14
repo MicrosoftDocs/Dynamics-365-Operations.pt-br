@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="centralized-payments-for-accounts-payable"></a>Pagamentos centralizados para Contas a pagar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal única que trate todos os pagamentos. Consequentemente, os mesmos pagamentos não precisam ser inseridos para várias entidade legais. Este artigo fornece exemplos que mostram como a postagem de pagamentos centralizados é feita em vários cenários.
 

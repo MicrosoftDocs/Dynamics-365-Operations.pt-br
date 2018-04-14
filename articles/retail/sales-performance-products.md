@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-sales-performance-by-product"></a>Avaliar o desempenho de vendas por produto
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Você pode estudar a lucratividade dos 10 principais produtos usando o Microsoft Dynamics 365 para Varejo. 
 

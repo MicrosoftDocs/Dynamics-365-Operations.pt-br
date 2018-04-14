@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>Reavaliação de moeda estrangeira da Contabilidade
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece uma visão geral dos seguintes procedimentos para o processo de reavaliação de moeda estrangeira da contabilidade: instalação, execução do processo, cálculo do processo e como reverter transações de reavaliação, se necessário. 
 

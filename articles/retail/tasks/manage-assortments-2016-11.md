@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="manage-assortments"></a>Gerenciar sortimentos 
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimento demonstra como criar e publicar uma nova variedade de produtos e usa a empresa de dados de demonstração USRT. Este procedimento requer o aplicativo Dynamics AX 7.0.1 ou posterior e a plataforma 7.1 do Dynamics AX.  
 

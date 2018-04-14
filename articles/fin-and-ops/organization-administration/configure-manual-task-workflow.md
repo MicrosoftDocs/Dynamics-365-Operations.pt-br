@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-manual-task-in-a-workflow"></a>Configurar uma tarefa manual em um fluxo de trabalho
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico explica como configurar as propriedades de uma tarefa manual.
 

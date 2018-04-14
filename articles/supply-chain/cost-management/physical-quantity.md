@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-object-values"></a>Valores de objeto de estoque
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre como os valores de um objeto do estoque são calculados. 
 

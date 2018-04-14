@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="receive-vendor-fiscal-documents-products-brazil"></a>Receber notas fiscais de fornecedor (produtos) (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 É possível lançar uma nota fiscal que você recebeu na aquisição de mercadorias de estoque, em que o ICMS, IPI e PIS/COFINS são deduzidos do pagamento de apuração de imposto. Este registro usa a empresa de dados de demonstração BRMF.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Membros estatísticos de dimensões e modelos de fornecedores de medições estatísticas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Uma dimensão estatística e seus membros são usados ​​para registrar e controlar entradas não monetárias na contabilidade de custos. Os membros da dimensão estatística podem ser utilizados para duas finalidades:
 

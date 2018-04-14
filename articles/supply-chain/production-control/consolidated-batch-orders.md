@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consolidated-batch-orders"></a>Ordens de lote consolidadas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve o conceito das ordens de lotes consolidados.
 

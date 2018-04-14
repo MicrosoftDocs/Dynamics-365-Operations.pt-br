@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="automatic-settlement-and-prioritization"></a>Liquidação e priorização automáticas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve como as transações serão liquidadas se você selecionar a Liquidação automática na página de parâmetros de Contas a receber. Também explica como a liquidação automática pode ser usada em combinação com a prioridade de pagamento.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-products-that-can-be-produced-or-procured"></a>Configurar produtos que podem ser produzidos ou obtidos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Os produtos podem ser fornecidos de várias maneiras - podem ser produzidos (manufaturados) ou comprados (adquiridos). Este artigo descreve alguns pontos típicos a serem considerados quando você configura produtos para oferecer suporte de várias fontes. 
 

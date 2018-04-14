@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="dimension-based-product-configuration"></a>Configuração de produto baseada em dimensão
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 A configuração do produto com base na dimensão representa uma solução simples para criação de diversas variantes de produtos de um único produto mestre e sua lista de materiais.
 

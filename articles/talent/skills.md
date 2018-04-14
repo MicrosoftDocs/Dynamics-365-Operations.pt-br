@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="align-workforce-skills-with-business-needs"></a>Alinhe habilidades de força de trabalho com as necessidades comerciais
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Você pode rastrear as habilidades que os trabalhadores, candidatos ou pessoas de contato têm ou devem ter, para atender suas funções efetivamente. Você também pode especificar as habilidades necessárias para um trabalho específico.
 
@@ -55,8 +54,8 @@ Você pode criar uma pesquisa de mapeamento de habilidades para encontrar um tra
 
 Os perfis de mapeamento de habilidades permitem que você encontre funcionários atuais ou candidatos com qualificações que correspondam diretamente às necessidades do negócio.  Por exemplo, você pode criar um perfil de mapeamento de habilidades para uma posição aberta na sua organização. Criando um perfil para um trabalho específico e copiando as habilidades, formação educacional e certificados desse trabalho para o perfil, é possível pesquisar rapidamente trabalhadores, candidatos e pessoas de contato que correspondem a um ou mais dos critérios inseridos no perfil e exibir uma lista dos candidatos cujas as habilidades mais correspondem às habilidades necessárias para o trabalho.
 
->**Observação** Somente os trabalhadores, os candidatos e as pessoas de contato selecionados para serem incluídos em pesquisas de mapeamento podem ser exibidos em uma lista dos resultados de um mapeamento de habilidades ou serem incluídos em um perfil de habilidades. Para incluir um trabalhador, candidato ou pessoa de contato em pesquisas de mapeamento de habilidades, defina a seleção **Incluir no mapeamento de habilidades** como Sim nas seguintes páginas:
-
+> **Observação** Somente os trabalhadores, os candidatos e as pessoas de contato selecionados para serem incluídos em pesquisas de mapeamento podem ser exibidos em uma lista dos resultados de um mapeamento de habilidades ou serem incluídos em um perfil de habilidades. Para incluir um trabalhador, candidato ou pessoa de contato em pesquisas de mapeamento de habilidades, defina a seleção **Incluir no mapeamento de habilidades** como Sim nas seguintes páginas:
+> 
 > + Trabalhador
 > + Funcionário
 > + Candidato

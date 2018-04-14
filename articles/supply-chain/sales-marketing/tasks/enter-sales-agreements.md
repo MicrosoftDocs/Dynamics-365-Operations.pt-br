@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 ---
 # <a name="enter-sales-agreements"></a>Inserir contratos de venda
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar um contrato de venda que compromete um de seus clientes a comprar um produto, com um valor acordado durante um período, em troca de descontos especiais. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
 

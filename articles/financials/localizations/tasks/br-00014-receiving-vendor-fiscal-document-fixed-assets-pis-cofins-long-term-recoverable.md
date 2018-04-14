@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="receive-vendor-fiscal-documents-fixed-assets---pis-and-cofins-long-term-recoverable-brazil"></a>Receber notas fiscais de fornecedor (ativos fixos - PIS e COFINS recuperáveis a longo prazo) (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode lançar uma nota fiscal recebida da aquisição dos ativos fixos. Você pode recuperar o ICMS ou o PIS/COFINS, ou ambos. Você também pode recuperar mensalmente prestações de reembolso. Esses valores são usados para deduzir o valor devido durante a apuração de imposto. Esta tarefa usa a empresa de demonstração BRMF.
 

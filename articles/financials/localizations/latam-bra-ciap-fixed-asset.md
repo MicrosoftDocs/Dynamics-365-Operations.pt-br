@@ -25,21 +25,21 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="ciap-fixed-asset"></a>Registro do CIAP
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="acquire-a-ciap-fixed-asset"></a>Adquirir um ativo fixo CIAP
 Use esta funcionalidade para registrar no módulo Livros fiscais a aquisição de um ativo fixo controlado pelo ICMS recuperável a longo prazo.
 
-1.  Na página **Todas as ordens de compra**, no campo **Conta de fornecedor**, selecione um fornecedor.
-2.  Clique em **Adicionar linha**.
- -  Preencha os campos **Número de item**, **CFOP**, **Quantidade**, **Preço unitário**.
-3.  Expanda a seção Detalhes da linha.
-4.  Clique na guia **Ativos fixos**.
-5.  Selecione o campo **Sim para o novo ativo fixo?**.
-6.  No campo **Grupo de ativo fixo**, selecione um grupo de ativo fixo.
-7.  Na guia **Dimensões financeiras**, preencha os campos **CostCenter** e **Filial**.
-8.  Clique em **Confirmar**.
-9.  Na página **Todas as ordens de compra**, clique no link para selecionar uma Ordem de compra.
+1. Na página **Todas as ordens de compra**, no campo **Conta de fornecedor**, selecione um fornecedor.
+2. Clique em **Adicionar linha**.
+   -  Preencha os campos **Número de item**, **CFOP**, **Quantidade**, **Preço unitário**.
+3. Expanda a seção Detalhes da linha.
+4. Clique na guia **Ativos fixos**.
+5. Selecione o campo **Sim para o novo ativo fixo?**.
+6. No campo **Grupo de ativo fixo**, selecione um grupo de ativo fixo.
+7. Na guia **Dimensões financeiras**, preencha os campos **CostCenter** e **Filial**.
+8. Clique em **Confirmar**.
+9. Na página **Todas as ordens de compra**, clique no link para selecionar uma Ordem de compra.
 10. No Painel de Ação, clique em **Fatura** > **Padrão de: Quantidade de recebimento de produtos**. No campo **Quantidade padrão para linhas**, selecione uma quantidade.
 11. Clique em **OK**.
 12. Preencha os campos **Modelo de documento**, **Chave de acesso**, **Data da fatura** e **Data de lançamento**.

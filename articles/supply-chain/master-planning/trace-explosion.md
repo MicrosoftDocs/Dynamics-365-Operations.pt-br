@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="use-tracing-for-explosion"></a>Use o rastreamento para detalhamento
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo explica como você pode usar o rastreamento para explorar as causas além do resultado de um detalhamento das ordens.
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="determine-the-bom-version"></a>Determinar a versão da BOM
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Durante um detalhamento da demanda, se um item tiver um tipo de ordem padrão, o mecanismo de planejamento localizará uma versão da BOM válida com base no site. 
 

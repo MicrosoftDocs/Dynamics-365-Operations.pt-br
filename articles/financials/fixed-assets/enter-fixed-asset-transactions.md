@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-transaction-options"></a>Opções de transações de ativo fixo
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve os métodos diferentes disponíveis para criar transações de ativo fixo.
 

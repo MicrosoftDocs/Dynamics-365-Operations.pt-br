@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>Distribuições contábeis e entradas no diário-razão auxiliar para faturas de fornecedor
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 As distribuições contábeis são usadas para definir como um valor será contabilizado, por exemplo, como a receita, os impostos ou os encargos serão contabilizados em uma fatura de fornecedor. Cada valor a ser contabilizado quando a fatura de fornecedor é lançada no diário terá uma ou várias distribuições contábeis. 
 
@@ -231,7 +230,7 @@ Quando você insere uma fatura de fornecedor, cada valor é distribuído da form
 </tbody>
 </table>
 
- 
+
 <a name="distributing-taxes"></a>Impostos de distribuição
 ------------------
 

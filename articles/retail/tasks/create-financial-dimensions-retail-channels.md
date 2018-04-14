@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>Criar dimensões financeiras para canais de varejo e configurar valores de dimensão em lojas
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimento mostra a criação de uma dimensão financeira de canal de varejo com os valores de dimensão e as etapas para configurar valores de dimensão financeira em lojas de varejo. O tópico não inclui outras etapas relacionadas, como a criação de conjuntos de dimensões e de estruturas de conta. Este procedimento usa a empresa USRT nos dados de demonstração.
 

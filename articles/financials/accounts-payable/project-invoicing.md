@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="project-invoicing"></a>Faturamento de projeto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece uma visão geral do projeto que fatura por tempo e projetos de preço fixo material. Contém informações sobre propostas de nota fiscal (nota fiscal preliminar), controle de notas fiscais, faturamento por conta, faturamento de fornecedor e notas de crédito.
 

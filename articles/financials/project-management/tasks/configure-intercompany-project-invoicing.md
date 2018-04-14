@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-intercompany-project-invoicing"></a>Configurar faturamento de projeto intercompanhia
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como configurar o faturamento de projeto entre duas empresas na sua organização. Essa tarefa usa o conjunto de dados de USSI.
 

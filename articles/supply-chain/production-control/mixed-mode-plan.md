@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>Planejamento de modo misto - Combinar discreto, processo e lean sourcing
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre planejamento de modo misto. No planejamento de modo misto, você pode modelar sua cadeia de fornecedor baseada no fluxo de material. O Microsoft Dynamics 365 for Finance and Operations garante que o fluxo material rastreie os módulos, independentemente da política da fonte que é selecionada (kanbans, ordens de produção, ordens de compra, ordens de lote ou ordens de transferência). 
 

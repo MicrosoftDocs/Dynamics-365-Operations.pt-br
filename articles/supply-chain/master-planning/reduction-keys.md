@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduction-keys"></a>Chaves de redução
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Estes artigos oferecem exemplos que mostram como configurar uma chave de redução. Eles incluem informações sobre as diversas configurações da chave de redução e os resultados de cada uma delas. Você pode usar uma chave de redução para definir como reduzir os requisitos de previsão.
 
@@ -39,17 +38,19 @@ Estes artigos oferecem exemplos que mostram como configurar uma chave de reduç�
 
 Este exemplo mostra como uma chave de redução reduz requisitos de previsão de demanda de acordo com as porcentagens e os períodos que são definidos pela chave de redução.
 
-1.  Na página **Chaves de redução**, configure as seguintes linhas.
-    | Troco | Unidade  | Percentual |
-    |--------|-------|---------|
-    | 1      | Mês | 100     |
-    | 2      | Mês | 75      |
-    | 3      | Mês | 50      |
-    | 4      | Mês | 25      |
+1. Na página **Chaves de redução**, configure as seguintes linhas.
 
-2.  Vincule a chave de redução ao grupo de cobertura do item.
-3.  Na página **Planos mestres**, no campo **Princípio de redução**, selecione **Percentual - chave de redução**.
-4.  Crie uma previsão de demanda de 1.000 peças por mês.
+   | Troco | Unidade  | Percentual |
+   |--------|-------|---------|
+   |   1    | Mês |   100   |
+   |   2    | Mês |   75    |
+   |   3    | Mês |   50    |
+   |   4    | Mês |   25    |
+
+
+2. Vincule a chave de redução ao grupo de cobertura do item.
+3. Na página **Planos mestres**, no campo **Princípio de redução**, selecione **Percentual - chave de redução**.
+4. Crie uma previsão de demanda de 1.000 peças por mês.
 
 Se você executar o plano de previsão em 1º de janeiro, os requisitos de previsão de demanda serão consumidos de acordo com as porcentagens configuradas na página **Chaves de redução**. As quantidades da requisição a seguir são transferidas para o plano mestre.
 
@@ -88,20 +89,21 @@ Se você usar a mesma previsão de demanda de 1.000 peças por mês, as quantida
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>Exemplo 3: Transações - princípio de redução de previsão do período dinâmico
 Na maioria dos casos, os sistemas são configurados de forma que as transações reduzam a previsão de demanda nos períodos de previsão específicos: semanas, meses, e assim por diante. Os períodos são definidos na chave de redução. No entanto, o tempo entre duas linhas de previsão de demanda também pode *implicar* em um período.
 
-1.  Crie uma previsão de demanda para as seguintes datas e quantidades.
-    | Data       | Previsão de demanda |
-    |------------|-----------------|
-    | 1º de janeiro  | 1.000           |
-    | 5 de janeiro  | 500             |
-    | 12 de janeiro | 1.000           |
+1. Crie uma previsão de demanda para as seguintes datas e quantidades.
 
-    Nesta previsão, não há um período desmarcado entre as datas da previsão: entre as primeiras e segundas datas há um período de quatro dias e, entre a segunda e terceira datas há um período de sete dias. Esses vários períodos são os períodos dinâmicos.
-2.  Crie linhas de ordem de venda como segue.
-    | Data                             | Quantidade da ordem de venda |
-    |----------------------------------|----------------------|
-    | 15 de dezembro do ano anterior | 500                  |
-    | 3 de janeiro                        | 100                  |
-    | 10 de janeiro                       | 200                  |
+   | Data       | Previsão de demanda |
+   |------------|-----------------|
+   | 1º de janeiro  | 1.000           |
+   | 5 de janeiro  | 500             |
+   | 12 de janeiro | 1.000           |
+
+   Nesta previsão, não há um período desmarcado entre as datas da previsão: entre as primeiras e segundas datas há um período de quatro dias e, entre a segunda e terceira datas há um período de sete dias. Esses vários períodos são os períodos dinâmicos.
+2. Crie linhas de ordem de venda como segue.
+   | Data                             | Quantidade da ordem de venda |
+   |----------------------------------|----------------------|
+   | 15 de dezembro do ano anterior | 500                  |
+   | 3 de janeiro                        | 100                  |
+   | 10 de janeiro                       | 200                  |
 
 A previsão será reduzida da seguinte maneira:
 

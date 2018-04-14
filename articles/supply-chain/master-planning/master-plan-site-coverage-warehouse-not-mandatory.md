@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>Planejamento mestre para cobertura de site, depósito não obrigatório
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve como um item com o conjunto de dimensões do local da cobertura é planejado.
 

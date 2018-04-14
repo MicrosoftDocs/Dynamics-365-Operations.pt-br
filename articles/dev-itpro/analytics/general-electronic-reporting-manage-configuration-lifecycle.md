@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>Gerenciar o ciclo de vida da configuração do Relatório eletrônico
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve como gerenciar o ciclo de vida de configurações de Relatórios eletrônicos (ER) para a solução do Microsoft Dynamics 365 for Finance and Operations.
 

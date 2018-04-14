@@ -28,8 +28,7 @@ ms.lasthandoff: 11/15/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Configurar cobranças e crédito em contas a receber
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Configurar Contas a receber e Crédito e cobranças para rastrear faturas e pagamentos recebidos dos clientes.
 
@@ -107,7 +106,7 @@ A tabela a seguir lista as páginas que dão suporte à configuração e à manu
 |                                                      | Informações NSF.                     | Configurar informações de NSF na conta bancária que será usada quando um pagamento é marcado como uma transação de NSF na página Cobranças.                                                                                                                                              |
 |                                                      | Informações do vendedor              | Configure o endereço de email para vendedores. Esses endereços serão exibidos na página Cobranças e você pode usá-los para enviar emails para um vendedor dessa página.                                                                                                                |
 
- 
+
 Para obter mais informações, consulte [Crédito e cobranças em Contas a receber](collections-credit-accounts-receivable.md).
 
 

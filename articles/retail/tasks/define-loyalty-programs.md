@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-programs"></a>Definir programas de fidelidade
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimento mostra como configurar um programa de fidelidade com as duas camadas de fidelidade. Este procedimento usa a empresa de dados de demonstração USRT.
 

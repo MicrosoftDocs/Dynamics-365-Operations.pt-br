@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>Criar uma ordem de compra com uma agenda de entrega
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento demonstra como criar uma agenda de entrega para ordem de compra. Um plano de entrega é usado quando uma quantidade em uma ordem ou diário for exigido para ser entregue em várias remessas. O exemplo mostrado neste guia pode ser usado na empresa dos dados do programa demonstrativo de USMF. Esse procedimento seria feito normalmente por um agente de compras.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>Configurar crédito e cobranças
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo explica como configurar a funcionalidade das coleções.
 
@@ -97,9 +96,9 @@ Se um representante de vendas não for especificado, o vendedor principal da org
 Para obter mais informações, consulte os seguintes tópicos:
 
  - [Criar uma sequência de cartas de cobrança](tasks/create-collection-letter-sequence.md)
- 
+
  - [Processar cartas de cobrança](tasks/process-collection-letters.md)
- 
+
  - [Revisar informações sobre cobranças](tasks/review-collections-information.md)
 
 

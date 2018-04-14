@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-accounts-payable"></a>Configurar contas a pagar
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve as páginas que você usa para configurar funcionalidades básicas e opcionais de Contas a pagar no Microsoft Dynamics 365 para Finance and Operations. Também mostra as etapas de configuração que devem ser concluídas antes de começar a configurar as contas a pagar.
 

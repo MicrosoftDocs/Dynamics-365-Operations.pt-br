@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-reporting"></a>Relatórios financeiros
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve onde acessar o relatório financeiro no Microsoft Dynamics 365 for Finance and Operations e como usar os recursos do relatório financeiro. Ele inclui uma descrição de relatórios financeiros padrão que são fornecidos.
 

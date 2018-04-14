@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-items-lent-to-workers"></a>Gerenciar itens emprestados a trabalhadores
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Os itens de empréstimo são registros que ajudam os gerentes a rastrear os itens físicos que sua empresa empresta aos trabalhadores. 
 
@@ -51,7 +50,7 @@ Os gerentes podem exibir itens emprestados para seus subordinados diretos. Eles 
 
 Se um item for danificado ou extraviado, insira um registro de devolução fictícia. Em seguida, exclua o item ou mantenha-o na visão geral e altere a descrição para indicar que ele não está disponível.
 
- 
+
 <a name="see-also"></a>Consulte também
 --------
 

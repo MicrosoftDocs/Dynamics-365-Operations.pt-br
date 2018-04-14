@@ -23,7 +23,7 @@ ms.lasthandoff: 03/12/2018
 ---
 
 # <a name="assortment-management"></a>Gerenciamento de classificação
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Visão Geral
 O Microsoft Dynamics 365 for Retail fornece *classificações* que permitem gerenciar a disponibilidade de produtos nos canais. As classificações determinam quais produtos estão disponíveis em lojas específicas e durante um período específico.

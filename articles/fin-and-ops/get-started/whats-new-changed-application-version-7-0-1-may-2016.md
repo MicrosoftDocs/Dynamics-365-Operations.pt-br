@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>O que há de novo ou diferente no Dynamics AX versão 7.0.1 (maio de 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve os recursos novos ou alterados na versão 7.0.1 do Microsoft Dynamics AX. Esta versão foi lançada em maio de 2016 e tem um número de compilação 7.0.1265.23014.
 
@@ -44,12 +43,14 @@ Este artigo descreve os recursos novos ou alterados na versão 7.0.1 do Microsof
 | Configure destinos do RE para que o resultado de saída de um formato seja direcionado para um destino específico: arquivo, e-mail ou arquivamento (pasta Microsoft SharePoint ou Microsoft Azure Storage). | Anteriormente, ao executar uma configuração de RE, uma caixa de mensagem aparecia, solicitando uma ação de usuário para salvar ou abrir um arquivo. Agora é possível pré-configurar um destino para cada configuração de formato e para cada componente de saída (uma pasta ou um arquivo) separadamente. Os usuários que têm direitos de acesso apropriados também podem modificar as configurações de destino em tempo de execução. |
 
 ## <a name="pos--microsoft-dynamics-ax-retail"></a>PDV – Microsoft Dynamics AX Retail
+
 |                                |                                                                                                                                                                                         |
 |--------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **O que você pode fazer?**           | **Por que isso é importante?**                                                                                                                                                              |
 | Use o navegador Google Chrome. | Os varejistas agora podem iniciar o Cloud POS através do navegador Chrome, podendo desfrutar de todas as funcionalidades disponíveis nas versões do Cloud POS para Microsoft Edge e Internet Explorer. |
 
 ## <a name="financial-reporting"></a>Relatórios financeiros
+
 |                                                                     |                                                                                                                                                                                                                                                                                                                    |
 |---------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **O que você pode fazer?**                                                | **Por que isso é importante?**                                                                                                                                                                                                                                                                                         |
@@ -57,12 +58,14 @@ Este artigo descreve os recursos novos ou alterados na versão 7.0.1 do Microsof
 | Não é mais possível selecionar opções de designer de relatório que não são válidas. | Diversas opções de designer de relatório que foram usadas nas versões de mercado do Relator de gerenciamento não se aplicam a esta versão do Dynamics AX. Essas opções estavam relacionadas ao projeto, saída e vinculação do relatório financeiro. Essas opções foram removidas do designer de relatório financeiro para evitar erros de usuário. |
 
 ## <a name="financial-management"></a>Gerenciamento financeiro
+
 |                                                            |                                                                  |
 |------------------------------------------------------------|------------------------------------------------------------------|
 | **O que você pode fazer?**                                       | **Por que isso é importante?**                                       |
 | Gerar arquivos de pagamento positivos para pagamentos de contas a pagar. | Arquivos de pagamento positivos podem ser gerados para ajudar a evitar fraude de cheque. |
 
 ## <a name="warehouse-and-production"></a>Depósito e produção
+
 |                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **O que você pode fazer?**                                                                                                                                                                                                                                                                                                                                                                    | **Por que isso é importante?**                                                                                                                                                                                                                                                                                                                                                                                                              |
@@ -72,7 +75,7 @@ Este artigo descreve os recursos novos ou alterados na versão 7.0.1 do Microsof
 | Ordens de produção com estruturas circulares no primeiro nível das suas BOMs são excluídas do cálculo de nível da BOM para o planejamento de recursos materiais.                                                                                                                                                                                                                                     | Não é possível atribuir níveis corretos da BOM para variantes de produto em ordens de produção que causam circularidade na hierarquia da BOM.                                                                                                                                                                                                                                                                                                  |
 | Calcular níveis de lista de materiais separados para planejamento de recursos materiais e cálculo de custos: • Para planejamento de recursos materiais, os níveis de lista técnica são calculados na nova tabela **ReqItemLevel**. Ordens de produção finalizadas são ignoradas no cálculo. • Para o cálculo do custo de produção, os níveis da BOM são calculados em **InventTable**. Ordens de produção finalizadas são incluídas no cálculo. | • Ao executar o planejamento de recurso material, por exemplo, explosão e agendamento do plano de planejamento mestre, somente os níveis da BOM usados no planejamento de recurso material precisam ser recalculados. Em outras palavras, não é necessário calcular níveis da BOM usados no cálculo de custos de produção. • Ao executar operações de custos, por exemplo, fechamento de estoque, somente os níveis da BOM usados no cálculo de custos de produção precisam ser recalculados. |
 
- 
+
 
 <a name="see-also"></a>Consulte também
 --------

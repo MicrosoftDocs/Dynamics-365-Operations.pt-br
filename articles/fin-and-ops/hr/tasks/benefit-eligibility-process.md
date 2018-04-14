@@ -24,7 +24,7 @@ ms.lasthandoff: 02/15/2018
 ---
 # <a name="benefit-eligibility-process"></a>Processo de qualificação para benefícios
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como funciona o processo de qualificação para benefícios. Ao concluir o processo é possível exibir os resultados. A empresa de dados demo usada para criar este procedimento é USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-return-order"></a>Criar uma ordem de devolução de compra
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra a você como criar uma ordem do retorno de compra usando a ação da nota de crédito para copiar linhas de um documento da fatura do vendedor a uma PO nova. Ele igualmente mostra como confirmar a ordem e processar a expedição dos bens de volta ao vendedor. O exemplo mostrado neste procedimento pode ser usado na empresa dos dados do programa demonstrativo de USMF. Normalmente essa tarefa é realizada por um agente de compras.
 

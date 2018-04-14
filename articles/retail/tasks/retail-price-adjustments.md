@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="retail-price-adjustments"></a>Ajustes de preço de varejo
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimento orienta na criação de um ajuste de preço de varejo. Um ajuste de preço de varejo pode definir o preço de venda de um item diretamente ou modificar o preço base de venda ou o preço de venda do contrato comercial. Este procedimento usa a empresa de dados de demonstração USRT.
 

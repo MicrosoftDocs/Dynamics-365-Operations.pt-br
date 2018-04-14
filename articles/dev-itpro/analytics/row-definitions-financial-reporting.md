@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="row-definitions-in-financial-report-designer"></a>Definições de linha no designer de relatório financeiro
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Uma definição de linha é um componente de relatório ou bloco de construção que especifica o conteúdo de cada linha em um relatório financeiro. Uma definição de linha pode ser combinada com as definições de coluna, definições de árvore de relatórios e as definições de relatório para criar um grupo do bloco de construção que possa ser usado por várias empresas.
 

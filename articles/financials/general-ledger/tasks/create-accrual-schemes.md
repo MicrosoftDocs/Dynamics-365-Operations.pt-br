@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-accrual-schemes"></a>Criar esquemas de competência
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este guia de tarefas aborda a criação de um esquema de competência. Esta tarefa usa a empresa de demonstração USMF.
 

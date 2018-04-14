@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="electronic-signature-overview"></a>Visão geral das assinaturas eletrônicas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo oferece uma visão geral de assinaturas eletrônicas e descreve como elas podem ser usadas no Microsoft Dynamics 365 for Finance and Operations.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="report-as-finished-to-a-plate-controlled-location"></a>Relatar como concluído para um local controlado por placa  
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta guia mostra um exemplo de tarefas do relatório de conclusão para um local que não seja controlado por placa de licença. Uma diretiva de trabalho aplicável é o pré-requisito para esta tarefa. Uma guia anterior da tarefa mostrou da instalação da diretiva de trabalho. Essa guia da tarefa requer a aplicação 7.0.1 do Dynamics AX ou posterior.
 

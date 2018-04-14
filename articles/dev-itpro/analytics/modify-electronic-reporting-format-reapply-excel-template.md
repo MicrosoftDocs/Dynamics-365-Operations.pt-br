@@ -27,7 +27,7 @@ ms.lasthandoff: 02/27/2018
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a>Modificar um formato de relatório eletrônico ao reaplicar um modelo do Microsoft Excel
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 A ferramenta de relatório eletrônico (ER) é usada para gerar documentos comerciais em um formato eletrônico. Para gerar um documento comercial, crie um formato de ER e use o designer de ER para definir o layout do documento comercial e especificar os dados a serem incluídos nele. Você pode executar o formato de ER para gerar o documento comercial.
 

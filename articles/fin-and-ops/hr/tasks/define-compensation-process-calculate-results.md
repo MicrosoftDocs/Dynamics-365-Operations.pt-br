@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>Definir processo de remuneração e calcular resultados
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Os processos de remuneração são usados para determinar os novos valores e prêmios de remuneração para os funcionários inscritos em planos de remuneração fixos e variáveis. Os processos de remuneração pode ser executados várias vezes para executar análises de hipótese para verificar se todas as alterações e definições estão corretas. Este procedimento criará um processo de remuneração, executará o processo e exibirá os resultados. A empresa de dados demo usada para criar este procedimento é USMF.
 

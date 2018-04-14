@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a>Criar dimensões financeiras para registros de PDV e configurar valores de dimensão em registros
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimento mostra a criação de dimensões financeiras para registros de (POS) do ponto de venda e demonstra como configurar valores de dimensão financeira nos registros. Este procedimento não inclui outras etapas relacionadas, como a criação de conjuntos de dimensões e de estruturas de conta. Essas tarefas podem ser encontradas em outros tópicos. Este registro usa a empresa de demonstração USRT.
 

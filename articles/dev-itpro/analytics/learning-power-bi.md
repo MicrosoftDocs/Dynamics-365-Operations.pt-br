@@ -25,7 +25,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="learning-power-bi-content"></a>Conteúdo de Aprendizagem do Power BI
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve o conteúdo de **Aprendizagem** do Microsoft Power BI.
 

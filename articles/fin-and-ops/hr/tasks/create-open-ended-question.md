@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-open-ended-question"></a>Criar uma pergunta aberta
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 As perguntas abertas permitem que os respondentes forneçam suas próprias respostas. É possível controlar se a resposta é um número, decimal, data, comentários e assim por diante. Este procedimento anda com o processo de criação de um tipo específico de pergunta, uma pergunta em aberto. Para iniciar este procedimento, vá para Questionário > Design > Questões. A empresa de dados demo usada para criar este procedimento é USMF.
 

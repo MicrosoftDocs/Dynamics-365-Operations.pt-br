@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>Visão geral da atualização do registro de depreciações
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Em versões anteriores, havia dois conceitos de avaliação para ativos fixos: modelos de valor e registros de depreciações. No Microsoft Dynamics 365 for Operations versão (1611), as funcionalidades de método de depreciação e de registro de depreciações foram mescladas em um único conceito que é conhecido como um registro. Este tópico fornece alguns aspectos a serem considerados durante a atualização. 
 

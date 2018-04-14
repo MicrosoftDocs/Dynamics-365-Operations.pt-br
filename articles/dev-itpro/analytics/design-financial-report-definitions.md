@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-definitions-in-financial-report-designer"></a>Definições de relatório no designer de relatório financeiro
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre definições de relatório. Uma definição de relatórios é um componente de relatório (ou bloco de construção) que usa uma definição de linha, uma definição de coluna e uma definição de árvore de relatórios opcional para criar um relatório. Uma definição de relatório também fornece opções e configurações para personalizar um relatório. 
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>Página inicial de gerenciamento de custos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 [Gerenciamento de custos (vídeo)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) permite que você trabalhe com a avaliação e a contabilidade de materiais não processados, bens não concluídos, bens concluídos e ativos em progresso. É o processo de definir, gerenciar e relatar [Contabilidade de estoque](cost-object.md) e [Contabilidade de fabricação](bom-calculations.md).
 

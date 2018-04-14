@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="initialize-stock-levels-in-the-warehouse"></a>Inicializar níveis de estoque no depósito
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esse procedimento mostra como obter o estoque disponível atualizado manualmente usando um diário de movimentação de estoque. (Também é possível atualizar o estoque disponível importando transações em entidades de dados.) Você pode executar esse guia na empresa de dados de demonstração USMF na qual estão disponíveis todos os pré-requisitos, como nome do diário, configuração do item, perfis de lançamento e contas. Esse guia sugere valores específicos para o item e as dimensões que são usados. Se selecionar um item diferente, você talvez precise inserir valores para diferentes dimensões.
 

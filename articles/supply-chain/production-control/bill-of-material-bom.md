@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bills-of-materials-and-formulas"></a>Listas de materiais e fórmulas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre listas de materiais (BOMs) e fórmulas, que são uma parte central da definição de produtos e grades de produtos. BOMs e fórmulas especificam os materiais ou ingredientes necessários para um produto específico. As fórmulas também especificam coprodutos e subprodutos recebidos em um contexto de produção específico. 
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-the-same-batch-for-a-sales-order"></a>Reservar o mesmo lote para uma ordem de venda
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo explica como configurar um produto para permitir a reserva de estoque em relação a um único lote de estoque.
 

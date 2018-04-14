@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Configurar restrições de transporte para um item
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento configurará uma restrição de transporte para impedir que um item selecionado seja enviado por meio de um hub selecionado. Esta tarefa será geralmente executada por um Coordenador de transporte. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.
 

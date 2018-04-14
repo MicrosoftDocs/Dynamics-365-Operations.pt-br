@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-order-overview"></a>Visão geral de ordem de compra
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Este artigo fornece informações gerais sobre as ordens de compra (POs) e links para artigos adicionais que estão relacionados aos diversos estágios que passa de uma OC.
 

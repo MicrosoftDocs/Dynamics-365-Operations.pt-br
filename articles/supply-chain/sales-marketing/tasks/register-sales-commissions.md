@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-sales-commissions"></a>Registrar comissões de vendas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como comissões de vendas são calculadas e registradas. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Antes de iniciar este guia, faça o guia chamado "Configurar regras de comissão de venda" para se certificar de que você tem toda a configuração de cálculo de comissões necessária.
 

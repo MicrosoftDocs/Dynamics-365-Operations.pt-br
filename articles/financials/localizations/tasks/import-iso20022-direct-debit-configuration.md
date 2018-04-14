@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-iso20022-direct-debit-configuration"></a>Configuração do débito direto ISO20022 de importação
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento demonstra como importar uma configuração de relatório eletrônico de pagamento de cliente. Este procedimento usa o formato de débito direto ISO 20022 como exemplo. 
 

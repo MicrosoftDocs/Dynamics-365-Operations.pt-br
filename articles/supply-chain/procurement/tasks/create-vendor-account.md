@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-vendor-account"></a>Criar uma conta de fornecedor
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar uma conta de fornecedor, e adicionar um endereço e as informações de contato. O procedimento não mostra como preencher todos os campos para fins financeiros e de compra. Para obter mais informações sobre esses campos, por favor leia as descrições dos campos. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados. As contas de fornecedor são criadas tipicamente por um profissional de aquisição ou por equipes de contas a receber.
 

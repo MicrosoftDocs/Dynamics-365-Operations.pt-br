@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-delivery-schedule"></a>Criar uma agenda de entrega
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento demonstra como criar uma agenda de entrega para ordem de venda. Um plano de entrega é usado quando uma quantidade em uma ordem ou cotação for exigido para ser entregue em várias remessas. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
 

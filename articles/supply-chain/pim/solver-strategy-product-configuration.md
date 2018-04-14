@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="solver-strategy-for-product-configuration"></a>Estratégia do agente de resolução para configuração de produto
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve como você pode usar a estratégia do agente de resolução para melhorar o desempenho da configuração de produto.
 

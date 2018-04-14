@@ -28,14 +28,14 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="financial-report-components"></a>Componentes de relatórios financeiros
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve como os componentes ou blocos de construção de definições de relatório são usados em relatórios financeiros. Esses blocos de construção incluem definições de linha, coluna e definições de árvore de relatórios. O artigo explica como organizar e bloquear blocos de construção. 
 
 A filosofia de design por trás do designer de relatórios financeiros é dividir informações no componente ou o bloco de construção, menor e, em seguida, mesclar e combinar os componentes conforme necessário. Portanto, a formatação do relatório é separada do seus dados financeiros e você pode alterar o design de um relatório sem modificar os dados financeiros no sistema Microsoft Dynamics ERP. Usando esta abordagem de bloco de construção, você pode combinar texto, valores e cálculos, para gerar os relatórios necessários. Além disso, esta flexibilidade incentiva a criatividade, facilitando a exibição de suas operações de diferentes formas. Os blocos de construção individuais de uma definição de relatório são semelhantes a uma planilha tridimensional, mas com mais potência. Uma definição de relatório especifica a definição de linha, a definição de coluna e a definição de árvore do relatório opcional a serem usadas para o relatório. Ela também inclui informações sobre onde armazenar o relatório gerado e como formatá-lo. 
 
 ## <a name="building-blocks-of-a-report"></a>Blocos de construção de um relatório
+
 | Bloquear de construção            | descrição                     | Para obter mais informações                                    |
 |---------------------------|---------------------------------|---------------------------------------------------------|
 | Definição de linha            | Uma definição de linha define as linhas descritivas em um relatório (por exemplo, salários ou vendas). Ela também lista os valores ou as dimensões de segmentos que contêm valores para cada item de linha, e inclui a formatação e os cálculos da linha.                                                    | [Definições de linha](row-definitions-financial-reporting.md)                       |

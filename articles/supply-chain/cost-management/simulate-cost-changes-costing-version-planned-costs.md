@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>Simular alterações de custo usando uma versão de custo para custos planejados
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo explica como você pode simular os efeitos de alterações de custo nos custos calculados de um item fabricado usando uma versão de custo separada para custos planejados.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-new-jobs"></a>Definir novos trabalhos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Essa tarefa se concentra na criação de um novo trabalho. Será concluída usando a entrada manual e a cópia da funcionalidade de modelo. A empresa de dados demo usada para criar esta tarefa é USMF. A tarefa é destinada ao especialista dos recursos humanos.
 

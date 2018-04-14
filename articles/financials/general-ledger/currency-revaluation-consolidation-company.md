@@ -28,10 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>Reavaliação de moeda em uma empresa de consolidação
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Após consolidar dados de uma moeda contábil para outra, você ainda deverá executar a reavaliação de moeda se houver uma alteração em taxas de câmbio, de forma que os saldos da conta sejam reavaliados corretamente. Ao consolidar originalmente os dados, use a guia **Conversão de moeda** para selecionar as taxas de câmbio iniciais para conversão durante o processo de consolidação. Após inserir uma nova taxa de câmbio (por exemplo, no mês seguinte), você deve reavaliar os saldos da conta. Os lucros não realizados ou as perdas são atualizados em conformidade, com base na nova taxa de câmbio e data. O exemplo a seguir ilustra as entradas contábeis que são criadas durante o processo.
 
@@ -52,6 +49,7 @@ Após consolidar dados de uma moeda contábil para outra, você ainda deverá ex
 | 11/10/2015 | 130100 – Contas a Receber | USD      | -500   |
 
 ## <a name="exchange-rates"></a>Taxas de câmbio
+
 | Moeda inicial | Moeda final | Data inicial | Taxa de câmbio |
 |---------------|-------------|------------|---------------|
 | EUR           | USD         | 1/10/2015  | 200           |

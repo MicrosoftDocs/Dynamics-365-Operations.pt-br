@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="tax-assessment-for-iss-tax-brazil"></a>Apuração de imposto ISS (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 É possível fazer a avaliação fiscal de ISS de um determinado período de escrituração, considerando o valor de ISS a ser recuperado e o valor de ISS a ser pago a partir das notas fiscais. Quanto ao valor devido após a avaliação fiscal, você pode fazer o pagamento do valor para a autoridade fiscal. Esta tarefa usa a empresa de demonstração BRMF.
 

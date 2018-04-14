@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="store-order-fulfillment"></a>Atendimento da ordem na loja
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Vários varejistas querem otimizar o atendimento da ordem permitindo que as lojas atendam as ordens. O atendimento da ordem em nível de loja pode ajudar a amenizar os cenários de estoque excessivo de uma loja específica ou pode ser necessário de um ponto de vista logístico, nos casos em que uma loja tem capacidade extra ou está em um local mais próximo do cliente. Para tratar esta necessidade, uma operação de atendimento unificado da ordem está disponível no ponto de venda.
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a>Configurar uma ramificação paralela em um fluxo de trabalho
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Para configurar uma ramificação paralela, execute estes procedimentos no editor de fluxo de trabalho.
 

@@ -25,8 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="data-validation-workspace"></a>Espaço de trabalho de validação de dados
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece uma visão geral do **espaço de trabalho Lista de verificação de validação** e da configuração associada.
 

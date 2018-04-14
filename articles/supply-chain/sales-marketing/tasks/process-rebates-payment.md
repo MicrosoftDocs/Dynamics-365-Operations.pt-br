@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-rebates-for-payment"></a>Processar reembolsos para pagamento
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento demonstra como converter reembolsos de cliente aprovados e processados para notas de crédito. Você pode utilizar esse guia na empresa demonstrativa USMF. A pré-condição para essa guia é ter uma ou mais reivindicações de reembolso com status Marcar. Se você estiver utilizando USMF você deve executar o guia "Gerar e processar reembolsos de cliente" antes de iniciar esse guia.
 

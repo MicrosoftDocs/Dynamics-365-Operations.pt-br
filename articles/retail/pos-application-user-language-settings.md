@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-application-and-user-language-settings"></a>Aplicativos de PDV e configurações do idioma do usuário
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tópico descreve como alterar as configurações de idioma no Retail Modern POS (MPOS) e Cloud POS.
 

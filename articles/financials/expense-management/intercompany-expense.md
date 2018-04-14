@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intercompany-expenses"></a>Despesas intercompanhia
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Um trabalhador contratado por uma entidade legal em uma organização pode executar o trabalho para outra entidade legal na mesma organização. Nessa situação, será possível usar o recurso de despesas intercompanhia para atribuir as despesas do trabalhador para a entidade legal à qual o trabalho foi realizado. A entidade legal que emprega o trabalhador é chamada de entidade legal de empréstimo. As entidade legal para a qual o trabalhador incorre as despesas é chamada de entidade legal de empréstimo. 
 

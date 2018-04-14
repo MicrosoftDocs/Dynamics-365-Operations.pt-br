@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>Restrições de tabela definidas pelo sistema e pelo usuário
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo explica os dois tipos de restrições de tabela definidas pelo usuário e pelo sistema para os componentes de um modelo de configuração de produto: definido pelo usuário e definido pelo sistema. As restrições de tabela representam matrizes das combinações de atributos permitidos, onde cada linha define um conjunto de possíveis valores de atributo.
 

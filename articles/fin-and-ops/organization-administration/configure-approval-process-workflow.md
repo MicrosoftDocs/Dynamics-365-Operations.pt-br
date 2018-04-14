@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>Configurar um processo de aprovação em um fluxo de trabalho
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Use os procedimentos a seguir para configurar as propriedades do processo de aprovação.
 
@@ -136,6 +135,7 @@ Você pode designar um aprovador final para cenários nos quais o aprovador for 
 
 ## <a name="set-a-time-limit"></a>Definir um limite de tempo
 Siga estas etapas se o processo de aprovação tiver que ser concluído em um horário específico.
+
 | **Nota**                                                                                                                                                |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | As opções selecionadas aqui substituirão as que você selecionar nas guias **Atribuição** e **Escalonamento** de cada etapa de aprovação. |

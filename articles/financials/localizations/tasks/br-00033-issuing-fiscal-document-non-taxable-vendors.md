@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="issue-fiscal-documents-for-vendors-brazil"></a>Emitir notas fiscais para fornecedores (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode criar e lançar faturas de fornecedor em nome dos fornecedores que não são contribuintes. Você deve atribuir um estabelecimento fiscal a um site. Você também deve configurar um tipo de documento fiscal para as ordens de compra que você criar e lançar no nome de fornecedores que não são contribuintes. Antes de criar e lançar faturas de fornecedores no nome de fornecedores que não são contribuintes, é necessário especificar o fornecedor como fornecedor que não é contribuinte. Esta tarefa usa a empresa de demonstração BRMF.
 

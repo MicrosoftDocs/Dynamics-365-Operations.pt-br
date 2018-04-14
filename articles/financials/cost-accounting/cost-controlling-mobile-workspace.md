@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-controlling-mobile-workspace"></a>Espaço de trabalho móvel de controle de custo
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre o espaço de trabalho móvel do **controle de custos**. Este espaço de trabalho permite que gerentes de centro de custos exibam informações sobre desempenho de centro de custo a qualquer momento e em qualquer lugar.
 

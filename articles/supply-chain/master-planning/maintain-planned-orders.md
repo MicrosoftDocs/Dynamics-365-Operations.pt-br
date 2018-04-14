@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="maintain-planned-orders"></a>Manter ordens planejadas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo oferece informações sobre como gerenciar ordens planejadas. Descreve como é possível atualizar o status de ordens planejadas, confirmá-las e filtrar ordens planejadas com o mesmo status como uma ordem planejada selecionada.
 

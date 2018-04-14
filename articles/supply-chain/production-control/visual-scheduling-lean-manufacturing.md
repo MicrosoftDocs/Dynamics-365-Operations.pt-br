@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a>Agendamento visual para lean manufacturing
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre o quadro de programação kanban, que o planejador de produção pode usar para controlar e otimizar o plano da produção de trabalhos kanban.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a>Criar um item de menu de dispositivo móvel para consolidação de placa de licença
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar um item de menu de dispositivo móvel para trabalhos de consolidação de matrícula. Isso permite funcionários do depósito para consolidar itens em uma matrícula com itens em outro local de licença no mesmo local. Por exemplo, podem usar este se as etapas subsequentes de preparo estavam as mesmas em ambas as ordens de trabalho, para que somente os trabalhos precisassem de ser executados uma vez para itens mesclados. Você pode usar este procedimento na empresa USMF de dados de demonstração. A tarefa normalmente seria realizada por um gerente do depósito. Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynamics 365 for Operations.
 

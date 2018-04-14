@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-model-mapping-configuration-er"></a>Criar uma configuração de mapeamento de modelo (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimento para criar uma nova configuração de mapeamento de modelo de Relatório eletrônico (ER) e usar funções de ER internas para obter cálculos agregados eficientes. Neste procedimento, você criará uma configuração para a empresa de exemplo, Litware, Inc. 
 

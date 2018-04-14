@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-centralized-payments"></a>Configurar pagamentos centralizados
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Siga essas etapas para se preparar para processar pagamentos em uma entidade legal em nome de outras entidades legais na sua organização. Antes de começar, a seguinte configuração deve ser concluída:
 

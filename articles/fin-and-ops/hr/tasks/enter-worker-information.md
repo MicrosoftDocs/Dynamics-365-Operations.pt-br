@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-worker-information"></a>Inserir informações do trabalhador
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Depois que um recruta criou um projeto de contratação em massa e gerou posições, a próxima etapa é inserir as informações de trabalho para os contatos que estão sendo contratados. A empresa de dados demo usada para criar este procedimento é USMF. Os dados de demonstração contêm um projeto de contratação em massa aberto. Para iniciar este procedimento, vá para Recursos humanos > Recrutamento > Projetos de contratação em massa.
 

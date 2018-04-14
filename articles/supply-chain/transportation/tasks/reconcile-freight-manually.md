@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="reconcile-freight-manually"></a>Reconciliar frete manualmente
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como reconciliar manualmente o frete. Normalmente isso é feito por um coordenador de transporte. Você pode usar este procedimento na empresa USMF de dados de demonstração.
 

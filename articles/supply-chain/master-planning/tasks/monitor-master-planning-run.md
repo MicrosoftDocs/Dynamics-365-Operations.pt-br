@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="monitor-a-master-planning-run"></a>Monitorar uma execução do planejamento mestre
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 O planejador de produção deseja ver se uma execução do planejamento mestre está em andamento. Use empresa de dados demo USMF para completar este procedimento.
 

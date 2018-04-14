@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="batch-and-license-plate-confirmation"></a>Confirmação de lote e placa de licença
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 A confirmação do lote permite que você confirme se o lote correto está sendo separado do dispositivo móvel. Na separação inicial do trabalho somente para itens acima do lote, no qual o lote acima indica que o lote é maior que a localização na hierarquia de pesquisa, você deve verificar se o lote escolhido corresponde ao lote da linha de trabalho. 
 

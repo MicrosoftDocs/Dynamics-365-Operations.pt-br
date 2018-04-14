@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="warehouse-management"></a>Gerenciamento de depósito
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 O módulo Gerenciamento de depósito do Dynamics 365 for Finance and Operations permite que você gerencie processos de depósito em empresas de fabricação, distribuição e varejo. Este módulo tem uma grande variedade de recursos para suportar a instalação de depósito em nível ideal, a qualquer momento. O gerenciamento de depósito é totalmente integrado aos outros processos de negócios no Finance and Operations, como transporte, fabricação, controle de qualidade, compras, transferência, vendas e devoluções.
 

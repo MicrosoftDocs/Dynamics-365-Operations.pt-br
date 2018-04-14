@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="demand-forecasting-overview"></a>Visão geral da previsão de demanda
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 A previsão de demanda é usada para prever a demanda independente nas ordens de venda e a demanda dependente em qualquer ponto de dissociação das ordens dos clientes. As regras aprimoradas de redução de previsão de demanda oferecem uma solução ideal para a personalização em massa.
 

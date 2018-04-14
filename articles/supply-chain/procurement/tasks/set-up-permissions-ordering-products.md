@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>Configurar permissões para solicitar produtos em nome de qualquer outra pessoa
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como conceder a trabalhadores a permissão para preparar requisições da compra em nome de outros trabalhadores. Ou seja, um "preparador" de requisição de compra pode criar uma requisição para outro "solicitante". O procedimento também mostra como conceder permissões a um trabalhador para pedir itens e serviços em diferentes entidades legais ou unidades operacionais. Geralmente, essas tarefas são realizadas por um gerente de compras. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.
 

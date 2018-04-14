@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="outbound-process"></a>Processo de saída
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece uma visão geral do processo de saída no gerenciamento de estoque.
 

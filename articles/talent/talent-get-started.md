@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Introdução ao Microsoft Dynamics 365 for Talent
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 No Microsoft Dynamics 365 for Talent, é fácil alterar a interface de usuário e definir opções que tornam o software mais intuitivo para suas necessidades. Este tópico inclui links para tópicos que fornecem informações sobre como adaptar a interface de usuário às suas preferências. O tópico também inclui links para informações que podem ajudá-lo a encontrar informações no sistema, de forma eficaz e precisa. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-dimension-based-configurations"></a>Criar configurações baseadas em dimensão
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como definir uma configuração para um produto baseado na dimensão. Este é o último procedimento da série que explica como criar combinações para configuração baseada em dimensão. A execução desse procedimento depende dos dados criados nos sete registros anteriores. A empresa de dados demo usada para criar este procedimento é USMF.
 
