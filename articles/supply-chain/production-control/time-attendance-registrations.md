@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 29040d0c96183898672bc405364ec59707bff53a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a83a3325c80eb6fc1a19371a6115413ca9b82185
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="time-and-attendance-registration"></a><span data-ttu-id="482e2-104">Registro de Horário e presença</span><span class="sxs-lookup"><span data-stu-id="482e2-104">Time and attendance registration</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="482e2-105">Os trabalhadores de registro de tempo podem inserir diferentes tipos de registros de tempo, por exemplo, registro de entrada e de saída em atividades indiretas e registro de ausência.</span><span class="sxs-lookup"><span data-stu-id="482e2-105">Time registration workers can enter different types of time registrations, for example, clock in, clock out, register indirect activities, and absence registration.</span></span> <span data-ttu-id="482e2-106">Este tópico descreve os registros, o cálculo, a aprovação e o uso do fluxo de trabalho para adicionar a estrutura e a aprovação automatizada ao processo de aprovação de folhas de ponto.</span><span class="sxs-lookup"><span data-stu-id="482e2-106">This topic describes registrations, their calculation, approval, and the use of workflow to add structure and automated approval to the process of approving timesheets.</span></span> 
 
@@ -95,7 +94,7 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="482e2-168">Total dos dias de horário e presença</span><span class="sxs-lookup"><span data-stu-id="482e2-168">Time and attendance days total</span></span>            | <span data-ttu-id="482e2-169">O fluxo de trabalho valida os registros, por exemplo, o número previsto de horas de trabalho para o dia.</span><span class="sxs-lookup"><span data-stu-id="482e2-169">The workflow validates registrations against, for example, the expected number of work hours for the day.</span></span> |                                                                                                                                                                                                                                                       |
 | <span data-ttu-id="482e2-170">Registro do diário de horário e presença.</span><span class="sxs-lookup"><span data-stu-id="482e2-170">Time and attendance journal registration.</span></span> | <span data-ttu-id="482e2-171">O fluxo de trabalho valida cada tipo de registro para a data do registro.</span><span class="sxs-lookup"><span data-stu-id="482e2-171">The workflow validates each registration type for the date of the registration.</span></span>                           | <span data-ttu-id="482e2-172">Horário e presença • Entrada • Saída • Ausência • Interrupção • Código de alternância • Projeto • Atividade de projeto • Trabalhos de produção da atividade indireta • Fila antes • Instalação • Processo • Sobreposição • Transporte • Fila • Iniciar assistência • Interromper assistência</span><span class="sxs-lookup"><span data-stu-id="482e2-172">Time and attendance • Clock-in • Clock-out • Absence • Break • Switch code • Project • Project activity • Indirect activity Production jobs • Queue before • Setup • Process • Overlap • Transport • Queue after • Start assistance • Stop assistance</span></span> |
 
- 
+
 
 ## <a name="transferring-approved-registrations"></a><span data-ttu-id="482e2-173">Transferindo registros aprovados</span><span class="sxs-lookup"><span data-stu-id="482e2-173">Transferring approved registrations</span></span>
 <span data-ttu-id="482e2-174">Após a aprovação dos registros é possível transferi-los para um trabalho de folha de pagamento periódico.</span><span class="sxs-lookup"><span data-stu-id="482e2-174">After approval of the registrations you can transfer them to a periodic payroll job.</span></span> <span data-ttu-id="482e2-175">Um registro transferido é lançado em uma atividade ou trabalho ao qual esteja relacionado, por exemplo, a uma ordem de produção ou um projeto.</span><span class="sxs-lookup"><span data-stu-id="482e2-175">A transferred registration is posted to an activity or job that it relates to, for example, a production order or a project.</span></span> <span data-ttu-id="482e2-176">As transações da folha de pagamento são geradas para cada trabalhador com base nos registros.</span><span class="sxs-lookup"><span data-stu-id="482e2-176">Payroll transactions are generated for each worker based on the registrations.</span></span>  

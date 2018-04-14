@@ -20,17 +20,16 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 533faf78e4cc9a091d64f7c6a0f82d14158710c8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d10c8846aa0c996f80206f7f788d772a874886e4
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="resource-capabilities"></a><span data-ttu-id="fd92a-105">Capacidades do recurso</span><span class="sxs-lookup"><span data-stu-id="fd92a-105">Resource capabilities</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="fd92a-106">Este artigo fornece informações sobre os recursos de recurso.</span><span class="sxs-lookup"><span data-stu-id="fd92a-106">This article provides information about resource capabilities.</span></span> <span data-ttu-id="fd92a-107">Um recurso é a capacidade de um recurso de operações de executar uma atividade específica.</span><span class="sxs-lookup"><span data-stu-id="fd92a-107">A capability is the ability of an operations resource to perform a particular activity.</span></span> <span data-ttu-id="fd92a-108">O artigo explica como os recursos e os conceitos relacionados, como o nível de proficiência e a prioridade, são usados para selecionar recursos apropriados para uma atividade.</span><span class="sxs-lookup"><span data-stu-id="fd92a-108">The article explains how capabilities and related concepts, such as proficiency level and priority, are used to select appropriate resources for an activity.</span></span>
 

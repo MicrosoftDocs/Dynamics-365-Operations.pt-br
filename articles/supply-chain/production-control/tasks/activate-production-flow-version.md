@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7f081d9d591c71cbe02e25bbdb50aa999b558ffa
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c399ad1a412d334fa3f3d06a7d37b41b168779ad
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="activate-a-production-flow-version"></a><span data-ttu-id="2e160-103">Ativar uma versão de fluxo de produção</span><span class="sxs-lookup"><span data-stu-id="2e160-103">Activate a production flow version</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2e160-104">Antes que os trabalhos de kanban possam ser criados e as atividades possam ser processadas para uma versão do fluxo da produção, você deve ativar a versão.</span><span class="sxs-lookup"><span data-stu-id="2e160-104">Before kanban jobs can be created and activities can be processed for a production flow version, you should activate the version.</span></span> <span data-ttu-id="2e160-105">Como uma melhor prática, ative a versão antes que sua data de início e tempo eficazes expirem.</span><span class="sxs-lookup"><span data-stu-id="2e160-105">As a best practice, activate the version before its effective start date and time expire.</span></span> <span data-ttu-id="2e160-106">Para terminar esta tarefa, você deve ter uma versão do fluxo da produção que tenha o estado do esboço para ativar a versão.</span><span class="sxs-lookup"><span data-stu-id="2e160-106">To complete this task, you must have a production flow version that has the Draft status in order to activate the version.</span></span> 
 

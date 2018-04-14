@@ -16,17 +16,16 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cebb9dd8147bf5082dab29099ea05ad5499d3b5a
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="data-validation-workspace"></a><span data-ttu-id="f0288-104">Espaço de trabalho de validação de dados</span><span class="sxs-lookup"><span data-stu-id="f0288-104">Data validation workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f0288-105">Este tópico fornece uma visão geral do **espaço de trabalho Lista de verificação de validação** e da configuração associada.</span><span class="sxs-lookup"><span data-stu-id="f0288-105">This topic provides an overview of the **Data validation checklist workspace** and the associated configuration.</span></span>
 

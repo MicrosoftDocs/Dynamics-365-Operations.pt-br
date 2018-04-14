@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8425387d4004e02e9b8adf9ba3b31a0b4e02b6e9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2b07f9d971dc152e9168b9867e70c59481325284
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="fixed-asset-management-workspace"></a><span data-ttu-id="bffc1-105">Espaço de trabalho de gerenciamento de ativos fixos</span><span class="sxs-lookup"><span data-stu-id="bffc1-105">Fixed asset management workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bffc1-106">O espaço de trabalho de **Gerenciamento de ativos fixos** mostra informações relacionadas a ativos fixos inseridos no sistema.</span><span class="sxs-lookup"><span data-stu-id="bffc1-106">The **Fixed asset management** workspace shows information that is related to fixed assets that are entered in the system.</span></span> <span data-ttu-id="bffc1-107">Este espaço de trabalho inclui uma exibição resumida e uma exibição de análise.</span><span class="sxs-lookup"><span data-stu-id="bffc1-107">This workspace includes a summary view and an analytics view.</span></span> <span data-ttu-id="bffc1-108">A guia **Meu trabalho** mostra os blocos de resumo, detalhes de ativos fixos e informações relacionadas sobre os ativos fixos na empresa atual.</span><span class="sxs-lookup"><span data-stu-id="bffc1-108">The **My work** tab shows summary tiles, fixed asset details, and related information about fixed assets in the current company.</span></span> <span data-ttu-id="bffc1-109">Você também pode adicionar análise à seção de análise do Power BI diretamente no espaço de trabalho.</span><span class="sxs-lookup"><span data-stu-id="bffc1-109">You can also add analytics to the Power BI analytics section directly in the workspace.</span></span> <span data-ttu-id="bffc1-110">A guia **Análise – todas as empresas** usa recursos do Microsoft Power BI para mostrar os visuais relacionados a ativos fixos em todas as empresas.</span><span class="sxs-lookup"><span data-stu-id="bffc1-110">The **Analytics – all companies** tab uses capabilities of Microsoft Power BI to show visuals that are related to fixed assets in all companies.</span></span>
 

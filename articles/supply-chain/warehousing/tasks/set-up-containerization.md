@@ -17,15 +17,15 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: c5faf926071dec5d2ddc1c9e921a98ecd0754917
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 734034776e1adb42ee5f131e91b6fd7d28f811ab
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-containerization"></a><span data-ttu-id="7b674-103">Configurar transporte em contêineres</span><span class="sxs-lookup"><span data-stu-id="7b674-103">Set up containerization</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7b674-104">Este procedimento descreve como automatizar o transporte de cargas em contêineres no Gerenciamento de depósito.</span><span class="sxs-lookup"><span data-stu-id="7b674-104">This procedure describes how to automate the containerization of loads in Warehouse management.</span></span> <span data-ttu-id="7b674-105">O posicionamento em contentores automatizado cria contêiner e o trabalho de separação para remessas quando uma onda é processada e linhas do trabalho pode ser dividida nas quantidades que atendam aos contêineres.</span><span class="sxs-lookup"><span data-stu-id="7b674-105">Automated containerization creates containers and the picking work for shipments when a wave is processed and work lines can be split into quantities that fit the containers.</span></span> <span data-ttu-id="7b674-106">Isso ajuda trabalhadores de depósito a separarem os itens diretamente no contêiner selecionado.</span><span class="sxs-lookup"><span data-stu-id="7b674-106">This helps warehouse workers to pick the items directly into the chosen container.</span></span> <span data-ttu-id="7b674-107">Em comparação com o processo manual de embalagem, as tarefas como criar contêiner, atribuir itens e fechar contêiner são automatizadas pelo sistema.</span><span class="sxs-lookup"><span data-stu-id="7b674-107">Compared to the manual packing process, tasks such as creating containers, assigning items, and closing containers are automated by the system.</span></span> <span data-ttu-id="7b674-108">Este procedimento usa a empresa de demonstração USMF e é realizado por um gerente de depósito.</span><span class="sxs-lookup"><span data-stu-id="7b674-108">This procedure uses the USMF demo company and is performed by a Warehouse manager.</span></span>
 

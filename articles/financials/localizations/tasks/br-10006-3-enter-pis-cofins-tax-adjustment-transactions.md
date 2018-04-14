@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 17cf57bed198afc7bd70d85b85ca01af218cd2e9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 03655754b3061a648ad0fb4457f04f5ec6ce0097
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-pis-and-cofins-tax-adjustment-transactions-brazil"></a><span data-ttu-id="c22ed-103">Inserir transações de ajuste de impostos PIS e COFINS (Brasil)</span><span class="sxs-lookup"><span data-stu-id="c22ed-103">Enter PIS and COFINS tax adjustment transactions (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c22ed-104">Em livros fiscais, você pode criar e lançar um diário para ajustes manuais de impostos PIS e COFINS usando os códigos de ajuste que são definidos pela autoridade fiscal.</span><span class="sxs-lookup"><span data-stu-id="c22ed-104">In Fiscal books, you can create and post a journal for manual PIS and COFINS tax adjustments by using the adjustment codes that are defined by the tax authority.</span></span> <span data-ttu-id="c22ed-105">Depois que o ajuste for lançado, ele pode ser visualizado na apuração de imposto.</span><span class="sxs-lookup"><span data-stu-id="c22ed-105">After the adjustment is posted, it can be viewed in the tax assessment.</span></span> <span data-ttu-id="c22ed-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="c22ed-106">This task uses the BRMF demo company.</span></span>
 

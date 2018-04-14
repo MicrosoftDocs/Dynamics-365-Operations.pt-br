@@ -19,16 +19,16 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: dce403032c239053159fd3e79f3dab013b620eaf
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="welcome-to-dynamics-365-for-retail"></a><span data-ttu-id="013ef-103">Bem-vindo ao Dynamics 365 for Retail</span><span class="sxs-lookup"><span data-stu-id="013ef-103">Welcome to Dynamics 365 for Retail</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="013ef-104">O Microsoft Dynamics 365 for Retail é uma solução de varejo completa que oferece comércio unificado em todos os canais.</span><span class="sxs-lookup"><span data-stu-id="013ef-104">Microsoft Dynamics 365 for Retail is an end-to-end retail solution that delivers unified commerce across all channels.</span></span> <span data-ttu-id="013ef-105">Ele abrange vendas, mobilidade, inteligência e produtividade para ajudar varejistas e trabalhadores a produzir mais de uma forma que prioriza a mobilidade e a nuvem.</span><span class="sxs-lookup"><span data-stu-id="013ef-105">It encompasses sales, mobility, intelligence, and productivity to help retailers and workers achieve more in a cloud-first, mobile-first manner.</span></span> <span data-ttu-id="013ef-106">O Retail oferece suporte abrangente para operar uma variedade de processos comerciais, como merchandising, estoque e recursos de gerenciamento de canal.</span><span class="sxs-lookup"><span data-stu-id="013ef-106">Retail offers comprehensive support to operate a wide range of business processes, such as merchandising, inventory, and channel management capabilities.</span></span> <span data-ttu-id="013ef-107">Ele também fornece experiências imersivas de cliente em todos os pontos de contato.</span><span class="sxs-lookup"><span data-stu-id="013ef-107">It also provides immersive customer experiences across all touchpoints.</span></span>
 

@@ -20,17 +20,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 87be8997e5e94efe2f0301223c91c13b12e2e34a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2b5f991c9edc1a8680a7f2f79ff46678c625f7a9
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-bar-code-masks"></a><span data-ttu-id="783a9-103">Configurar máscaras de código de barras</span><span class="sxs-lookup"><span data-stu-id="783a9-103">Set up bar code masks</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="783a9-104">Este tópico descreve como configurar caracteres de máscara de código de barras, máscaras de código de barras e como atribuir máscaras de código de barras a códigos de barras.</span><span class="sxs-lookup"><span data-stu-id="783a9-104">This topic describes how to set up bar code mask characters, bar code masks, and how to assign bar code masks to bar codes.</span></span>
 

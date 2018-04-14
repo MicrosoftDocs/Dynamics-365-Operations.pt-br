@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fa02b4fb6f309e55d0c74e477952e928ad8dfb12
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7fd7a839f5b9b3a80ad944a66cc75232a336c48f
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="search-for-vendors"></a><span data-ttu-id="c96ca-103">Procurar fornecedores</span><span class="sxs-lookup"><span data-stu-id="c96ca-103">Search for vendors</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c96ca-104">Aprenda como pesquisar fornecedores com base em critérios específicos.</span><span class="sxs-lookup"><span data-stu-id="c96ca-104">Learn how to search for vendors based on specific criteria.</span></span> <span data-ttu-id="c96ca-105">Este exemplo mostra como procurar fornecedores que estão aprovados para uma categoria de aquisição específica e têm seu endereço principal em um país específico.</span><span class="sxs-lookup"><span data-stu-id="c96ca-105">This example shows you how to search for vendors that are approved for a particular procurement category and have their primary address in a specific country.</span></span> <span data-ttu-id="c96ca-106">Você pode executar esse procedimento na empresa de dados demonstrativos USMF, ou usando seus próprios dados.</span><span class="sxs-lookup"><span data-stu-id="c96ca-106">You can run this procedure in demo data company USMF, or on your own data.</span></span> <span data-ttu-id="c96ca-107">Essa tarefa é tipicamente realizada por um profissional de aquisição.</span><span class="sxs-lookup"><span data-stu-id="c96ca-107">This task would usually be carried out by a procurement professional.</span></span>
 

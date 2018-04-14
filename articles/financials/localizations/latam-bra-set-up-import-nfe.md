@@ -17,16 +17,16 @@ ms.author: v-gonode
 ms.search.validFrom: 
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 1feea9dd1516a59c36ff1d3e5b6e7fb22ab21caa
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 511ae5f040febbc6cd41ffef649496648f90fb2e
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-import-and-verify-nf-e-xml-documents-and-danfe"></a><span data-ttu-id="bb70b-103">Configurar, importar e verificar documentos XML de NF-e e de DANFE</span><span class="sxs-lookup"><span data-stu-id="bb70b-103">Set up, import, and verify NF-e XML documents and DANFE</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bb70b-104">Você pode extrair e importar automaticamente o XML da Nota fiscal Eletrônica (NF-e) e seu DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) de e-mails enviados pelo fornecedor de sua empresa.</span><span class="sxs-lookup"><span data-stu-id="bb70b-104">You can automatically extract and import the XML from the Nota Fiscal Eletrônica (NF-e) and its DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) from emails sent by the vendor for your company.</span></span> <span data-ttu-id="bb70b-105">O fornecedor deve enviar esses emails como anexos durante o período no qual as mercadorias adquiridas estão em trânsito.</span><span class="sxs-lookup"><span data-stu-id="bb70b-105">The vendor must send these emails as file attachements during the time which the acquired goods are in transit.</span></span>
 
@@ -54,11 +54,11 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE] 
 > <span data-ttu-id="bb70b-122">O nome do emissor da Nota fiscal Eletrônica (NF-e) foi deixado em branco quando a ID de registro de impostos (CNPJ) não pode ser encontrada como um atributo de um fornecedor na página **Todos os fornecedores**.</span><span class="sxs-lookup"><span data-stu-id="bb70b-122">The name of the issuer of the Nota Fiscal Eletrônica (NF-e) is left blank when the tax registration ID (CNPJ) cannot be found as an attribute of a vendor in the **All vendors** page.</span></span>
 
- - <span data-ttu-id="bb70b-123">Para uma Nota fiscal Eletrônica (NF-e) selecionada, clique em **Documento XML** para exibir o documento XML.</span><span class="sxs-lookup"><span data-stu-id="bb70b-123">For a selected Nota Fiscal Eletrônica (NF-e), click **XML document** to view the XML document.</span></span>
- - <span data-ttu-id="bb70b-124">Para uma Nota Fiscal Eletrônica (NF-e) selecionada, clique em **DANFE** para exibir o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE).</span><span class="sxs-lookup"><span data-stu-id="bb70b-124">For a selected Nota Fiscal Eletrônica (NF-e), click **DANFE** to view the Documento Auxiliar da Nota Fiscal Eletrônica (DANFE).</span></span>
- - <span data-ttu-id="bb70b-125">Para uma Nota fiscal Eletrônica selecionada (NF-e), clique em **Consultar status** para consultar o status da NF-e na SEFAZ usando a chave de acesso.</span><span class="sxs-lookup"><span data-stu-id="bb70b-125">For a selected Nota Fiscal Eletrônica (NF-e), click **Inquire status** to inquire on the status of the NF-e at the SEFAZ using the access key.</span></span>
-> [!NOTE] 
-> <span data-ttu-id="bb70b-126">O status, a data, e as horas da consulta são atualizados no Status da SEFAZ e data e hora da última consulta.</span><span class="sxs-lookup"><span data-stu-id="bb70b-126">The status, date, and time of the inquiry are updated in the Status from SEFAZ and Date and time from the last inquiry.</span></span>
+- <span data-ttu-id="bb70b-123">Para uma Nota fiscal Eletrônica (NF-e) selecionada, clique em **Documento XML** para exibir o documento XML.</span><span class="sxs-lookup"><span data-stu-id="bb70b-123">For a selected Nota Fiscal Eletrônica (NF-e), click **XML document** to view the XML document.</span></span>
+- <span data-ttu-id="bb70b-124">Para uma Nota Fiscal Eletrônica (NF-e) selecionada, clique em **DANFE** para exibir o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE).</span><span class="sxs-lookup"><span data-stu-id="bb70b-124">For a selected Nota Fiscal Eletrônica (NF-e), click **DANFE** to view the Documento Auxiliar da Nota Fiscal Eletrônica (DANFE).</span></span>
+- <span data-ttu-id="bb70b-125">Para uma Nota fiscal Eletrônica selecionada (NF-e), clique em **Consultar status** para consultar o status da NF-e na SEFAZ usando a chave de acesso.</span><span class="sxs-lookup"><span data-stu-id="bb70b-125">For a selected Nota Fiscal Eletrônica (NF-e), click **Inquire status** to inquire on the status of the NF-e at the SEFAZ using the access key.</span></span>
+  > [!NOTE] 
+  > <span data-ttu-id="bb70b-126">O status, a data, e as horas da consulta são atualizados no Status da SEFAZ e data e hora da última consulta.</span><span class="sxs-lookup"><span data-stu-id="bb70b-126">The status, date, and time of the inquiry are updated in the Status from SEFAZ and Date and time from the last inquiry.</span></span>
 
 ## <a name="inquire-about-the-status-of-nf-e-access-keys-at-the-sefaz"></a><span data-ttu-id="bb70b-127">Pesquisa sobre o status das teclas de acesso de NF-e no SEFAZ</span><span class="sxs-lookup"><span data-stu-id="bb70b-127">Inquire about the status of NF-e access keys at the SEFAZ</span></span>
 1. <span data-ttu-id="bb70b-128">Na página **Consultar status da chave de acesso da NF-e**, no campo **Limite de cancelamento**, insira o número de horas que o fornecedor tem para cancelar a NF-e.</span><span class="sxs-lookup"><span data-stu-id="bb70b-128">On the **Inquire about NF-e access key status** page, in the **Limit of cancellation** field, enter the number of hours that the vendor has to cancel the NF-e.</span></span>

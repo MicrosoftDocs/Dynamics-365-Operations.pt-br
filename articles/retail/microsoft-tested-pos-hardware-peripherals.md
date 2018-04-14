@@ -19,17 +19,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4fbfb176f2504be8aaf67992d094da1daeefeb76
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6ecfb0d6d3884bd8c96444613afed68547e141f1
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pos-hardware-peripherals"></a><span data-ttu-id="a8ad0-103">Periféricos de hardware do PDV</span><span class="sxs-lookup"><span data-stu-id="a8ad0-103">POS hardware peripherals</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="a8ad0-104">O ponto de venda moderno manager (POS) e o retail do nuvem podem utilizar uma grande variedade de periféricos de hardware do pos, com várias opções de interfaces e implantação obter vários cenários comerciais de um fornecedor.</span><span class="sxs-lookup"><span data-stu-id="a8ad0-104">Retail Modern point of sale (POS) and Cloud POS can utilize a wide range of POS hardware peripherals, with multiple interfaces and deployment options to achieve a retailer’s various business scenarios.</span></span> 
 

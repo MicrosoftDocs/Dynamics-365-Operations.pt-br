@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c79480d844627a7eed8129515924f1f70ad04f95
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d4ea70e3cf5d0e431752e240bb984d224cbe5446
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="transfer-materials-with-kanban-jobs-february-2016-only"></a><span data-ttu-id="3ee24-103">Transferir materiais com trabalhos kanban (somente em fevereiro de 2016)</span><span class="sxs-lookup"><span data-stu-id="3ee24-103">Transfer materials with kanban jobs (February 2016 only)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3ee24-104">Esse procedimento se concentra na execução de um trabalho kanban de retirada para transferir materiais.</span><span class="sxs-lookup"><span data-stu-id="3ee24-104">This procedure focuses on executing a withdrawal kanban job to transfer materials.</span></span> <span data-ttu-id="3ee24-105">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="3ee24-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="3ee24-106">Esse procedimento é destinado ao trabalhador do depósito.</span><span class="sxs-lookup"><span data-stu-id="3ee24-106">This procedure is intended for the warehouse worker.</span></span>
 

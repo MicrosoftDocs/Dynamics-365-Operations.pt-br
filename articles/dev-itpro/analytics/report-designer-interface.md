@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69766e1bf37955bfd4d7253c1b7881780d491d1c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 674c055e680f209c3c0b74fb5ba741e0899fbfab
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="report-designer-interface"></a><span data-ttu-id="a2265-103">Interface do Designer de Relatórios</span><span class="sxs-lookup"><span data-stu-id="a2265-103">Report Designer interface</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a2265-104">Este artigo explica como navegar através do Designer de relatórios e como usar as diversas opções para atender a necessidades específicas.</span><span class="sxs-lookup"><span data-stu-id="a2265-104">This article explains how to navigate through Report Designer and how to use the various options to meet your specific requirements.</span></span> 
 

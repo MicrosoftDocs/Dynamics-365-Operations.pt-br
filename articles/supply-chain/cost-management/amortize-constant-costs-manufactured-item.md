@@ -20,17 +20,16 @@ ms.author: aevengir
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 1f3c837d601877142ac6708287a434f5afe088e6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2e9d15e35661d37036af48d4d1183e4f25012e57
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a><span data-ttu-id="9b3dc-103">Amortização de custos constantes para um item fabricado</span><span class="sxs-lookup"><span data-stu-id="9b3dc-103">Amortize constant costs for a manufactured item</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9b3dc-104">Os custos constantes de um item fabricado refletem os tempos de preparação da operação e os componentes com uma quantidade constante ou um valor de sucata constante.</span><span class="sxs-lookup"><span data-stu-id="9b3dc-104">A manufactured item’s constant costs reflect the operation setup times and the components that have a constant quantity or a constant scrap amount.</span></span> 
 

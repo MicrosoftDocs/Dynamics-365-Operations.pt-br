@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 80a882e51332d87835bdfb41a1bb1fcda2471f02
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fa40733e3f1310869ead8b0ac774bb621637e250
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="report-production-orders-as-finished"></a><span data-ttu-id="55092-104">Relatar ordens de produção como concluídas</span><span class="sxs-lookup"><span data-stu-id="55092-104">Report production orders as finished</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="55092-105">Relatar como concluído é um estágio da produção.</span><span class="sxs-lookup"><span data-stu-id="55092-105">Report as finished is a production stage.</span></span> <span data-ttu-id="55092-106">Nesta fase, um produto acabado é reportado e movido da ordem de produção para o inventário.</span><span class="sxs-lookup"><span data-stu-id="55092-106">At this stage, a finished product is reported and moved from the production order to the inventory.</span></span>
 

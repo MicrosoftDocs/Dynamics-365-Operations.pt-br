@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ba8562f01ef440dd98db242550ee0e60db7acfc5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ba4d752304f2bd2e5b53dc3353bed3df34044d12
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-cost-accounting-ledger"></a><span data-ttu-id="805f9-103">Criar um razão de contabilização de custos</span><span class="sxs-lookup"><span data-stu-id="805f9-103">Create a cost accounting ledger</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="805f9-104">Uma razão de contabilização de custos representa a unidade de relatório geral.</span><span class="sxs-lookup"><span data-stu-id="805f9-104">A cost accounting ledger represents the overall reporting unit.</span></span> <span data-ttu-id="805f9-105">É definida por uma dimensão de elemento de custo, dimensão estatística, calendário fiscal e moeda.</span><span class="sxs-lookup"><span data-stu-id="805f9-105">It is defined by a cost element dimension, statistical dimension, fiscal calendar, and currency.</span></span> <span data-ttu-id="805f9-106">É agnóstico ao conceito de entidades legais.</span><span class="sxs-lookup"><span data-stu-id="805f9-106">It is agnostic to the concept of legal entities.</span></span> <span data-ttu-id="805f9-107">Uma entidade legal e seus dados podem ser associados a muitos razões de contabilização de custos.</span><span class="sxs-lookup"><span data-stu-id="805f9-107">A legal entity and its data can be associated with many cost accounting ledgers.</span></span> <span data-ttu-id="805f9-108">Esta gravação usa os dados da empresa de demonstração USP2.</span><span class="sxs-lookup"><span data-stu-id="805f9-108">This recording uses the USP2 demo data company.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a896ff1f2bf60a12b415a270853ae25f8af0f813
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 58df4768f33bc4a98c5a229b698754692ce6edbb
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a><span data-ttu-id="8c100-103">Executar autoatendimento para baixar a estação de hardware</span><span class="sxs-lookup"><span data-stu-id="8c100-103">Perform self-service to download hardware station</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8c100-104">Este procedimento orienta como baixar uma estação de hardware predefinida.</span><span class="sxs-lookup"><span data-stu-id="8c100-104">This procedure walks through how to download a pre-defined hardware station.</span></span> <span data-ttu-id="8c100-105">A empresa de dados de demonstração usada para este procedimento é a USRT.</span><span class="sxs-lookup"><span data-stu-id="8c100-105">The demo data company used for this procedure is USRT.</span></span> <span data-ttu-id="8c100-106">É preciso ter criado um novo perfil de estação de hardware e uma estação de hardware antes de iniciar a tarefa.</span><span class="sxs-lookup"><span data-stu-id="8c100-106">You must have created a new hardware station profile and hardware station before starting this task.</span></span>
 

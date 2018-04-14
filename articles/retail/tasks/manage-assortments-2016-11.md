@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1c353a135559a1901f98ae6e7c9671254ab625c3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5caea292ebdc6766256228fd739684f622fe3ba5
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="manage-assortments"></a><span data-ttu-id="ed4b4-103">Gerenciar sortimentos</span><span class="sxs-lookup"><span data-stu-id="ed4b4-103">Manage assortments</span></span> 
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ed4b4-104">Este procedimento demonstra como criar e publicar uma nova variedade de produtos e usa a empresa de dados de demonstração USRT.</span><span class="sxs-lookup"><span data-stu-id="ed4b4-104">This procedure demonstrates how to create and publish a new product assortment and uses the demo data company USRT.</span></span> <span data-ttu-id="ed4b4-105">Este procedimento requer o aplicativo Dynamics AX 7.0.1 ou posterior e a plataforma 7.1 do Dynamics AX.</span><span class="sxs-lookup"><span data-stu-id="ed4b4-105">This procedure requires Dynamics AX application 7.0.1 or later, and Dynamics AX platform 7.1.</span></span>  
 

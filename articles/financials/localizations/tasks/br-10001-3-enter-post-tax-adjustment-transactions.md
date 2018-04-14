@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d1f1c47bab00818f82de2aab8131bc622e6915cf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: de8b6a97d5bf1a02ae7913df71c8f705cdcdb845
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-and-post-tax-adjustment-transactions-brazil"></a><span data-ttu-id="9838d-103">Inserir e lançar transações de ajuste de imposto (Brasil)</span><span class="sxs-lookup"><span data-stu-id="9838d-103">Enter and post tax adjustment transactions (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9838d-104">Use este procedimento para criar e lançar transações de ajuste de impostos.</span><span class="sxs-lookup"><span data-stu-id="9838d-104">Use this procedure to create and post tax adjustment transactions.</span></span> <span data-ttu-id="9838d-105">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="9838d-105">This task uses the BRMF demo company.</span></span>
 

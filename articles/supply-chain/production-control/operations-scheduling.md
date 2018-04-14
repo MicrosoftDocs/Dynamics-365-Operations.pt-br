@@ -20,17 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 81dec9d988b22959df5421b7b84ef532a28e1228
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3b166e265295989508363e366eb3a6e91893cb05
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="operations-scheduling"></a><span data-ttu-id="53c2d-104">Plano de operações</span><span class="sxs-lookup"><span data-stu-id="53c2d-104">Operations scheduling</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="53c2d-105">Este tópico fornece informações sobre agendamento de operações.</span><span class="sxs-lookup"><span data-stu-id="53c2d-105">This topic provides information about operations scheduling.</span></span> <span data-ttu-id="53c2d-106">Você pode usar o plano de operações para fornecer uma estimativa geral do processo de produção ao longo do tempo.</span><span class="sxs-lookup"><span data-stu-id="53c2d-106">You can use operations scheduling to provide a general estimate of the production process over time.</span></span>
 

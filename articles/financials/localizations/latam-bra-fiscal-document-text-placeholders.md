@@ -17,17 +17,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 10bf8cbdf00e6af577ab21dadc470a97ffe31ae5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f53eb210c116beb678918290d5864b7fd1f2843d
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="fiscal-document-text-placeholders-for-brazil"></a><span data-ttu-id="c668f-104">Espaços reservados em textos da nota fiscal do Brasil</span><span class="sxs-lookup"><span data-stu-id="c668f-104">Fiscal document text placeholders for Brazil</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c668f-105">Os espaços reservados de texto de nota fiscal são marcas predefinidas que representam valores específicos.</span><span class="sxs-lookup"><span data-stu-id="c668f-105">Fiscal document text placeholders are predefined tags that represent specific values.</span></span> <span data-ttu-id="c668f-106">Você poderá incluir os espaços reservados no campo <strong>Texto </strong>da página <strong>Modelos de textos da nota fiscal </strong>quando você criar um modelo de textos da nota fiscal.</span><span class="sxs-lookup"><span data-stu-id="c668f-106">You can include the placeholders in the <strong>Text </strong>field on the <strong>Fiscal document source texts </strong>page when you create a fiscal document source text.</span></span>
 
@@ -44,11 +43,13 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c668f-117">%RefProcess\_RefProcessNumber</span><span class="sxs-lookup"><span data-stu-id="c668f-117">%RefProcess\_RefProcessNumber</span></span>   | <span data-ttu-id="c668f-118">O número do processo mencionado.</span><span class="sxs-lookup"><span data-stu-id="c668f-118">The number of the referenced process.</span></span> |
 
 ## <a name="tag-that-supports-fiscal-document-text-for-suframa"></a><span data-ttu-id="c668f-119">A marca que tem suporte para texto da nota fiscal para SUFRAMA</span><span class="sxs-lookup"><span data-stu-id="c668f-119">Tag that supports fiscal document text for SUFRAMA</span></span>
+
 | <span data-ttu-id="c668f-120">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="c668f-120">Predefined tag</span></span>       | <span data-ttu-id="c668f-121">Alíquota</span><span class="sxs-lookup"><span data-stu-id="c668f-121">Value</span></span>                        |
 |----------------------|------------------------------|
 | <span data-ttu-id="c668f-122">%Suframa\_CustNumber</span><span class="sxs-lookup"><span data-stu-id="c668f-122">%Suframa\_CustNumber</span></span> | <span data-ttu-id="c668f-123">O número de cliente da SUFRAMA.</span><span class="sxs-lookup"><span data-stu-id="c668f-123">The SUFRAMA customer number.</span></span> |
 
 ## <a name="tags-that-support-fiscal-document-text-for-taxes"></a><span data-ttu-id="c668f-124">As marcas que têm suporte para texto de nota fiscal para impostos</span><span class="sxs-lookup"><span data-stu-id="c668f-124">Tags that support fiscal document text for taxes</span></span>
+
 | <span data-ttu-id="c668f-125">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="c668f-125">Predefined tag</span></span> | <span data-ttu-id="c668f-126">Alíquota</span><span class="sxs-lookup"><span data-stu-id="c668f-126">Value</span></span>                                                                                    |
 |----------------|------------------------------------------------------------------------------------------|
 | <span data-ttu-id="c668f-127">%ICMS</span><span class="sxs-lookup"><span data-stu-id="c668f-127">%ICMS</span></span>          | <span data-ttu-id="c668f-128">O valor do ICMS (Imposto Sobre Circulação de Mercadorias e Serviços).</span><span class="sxs-lookup"><span data-stu-id="c668f-128">The Imposto Sobre Circulação de Mercadorias e Serviços (ICMS) tax amount.</span></span>                |
@@ -56,6 +57,7 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c668f-131">%COFINS</span><span class="sxs-lookup"><span data-stu-id="c668f-131">%COFINS</span></span>        | <span data-ttu-id="c668f-132">O valor da contribuição de COFINS (Contribuição para Financiamento da Seguridade Social).</span><span class="sxs-lookup"><span data-stu-id="c668f-132">The Contribuição para o financiamente da securidade social (COFINS) contribution amount.</span></span> |
 
 ## <a name="tags-that-support-fiscal-document-text-for-fiscal-references"></a><span data-ttu-id="c668f-133">As marcas que têm suporte para texto da nota fiscal para referências fiscais</span><span class="sxs-lookup"><span data-stu-id="c668f-133">Tags that support fiscal document text for fiscal references</span></span>
+
 | <span data-ttu-id="c668f-134">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="c668f-134">Predefined tag</span></span>                  | <span data-ttu-id="c668f-135">Alíquota</span><span class="sxs-lookup"><span data-stu-id="c668f-135">Value</span></span>                                                                                                               |
 |---------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="c668f-136">%FiscalRef\_InvNoRef</span><span class="sxs-lookup"><span data-stu-id="c668f-136">%FiscalRef\_InvNoRef</span></span>            | <span data-ttu-id="c668f-137">O número da fatura de referência.</span><span class="sxs-lookup"><span data-stu-id="c668f-137">The number of the reference invoice.</span></span>                                                                                |
@@ -67,6 +69,7 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c668f-148">%FiscalRef\_InvAccCNPJCPFNumRef</span><span class="sxs-lookup"><span data-stu-id="c668f-148">%FiscalRef\_InvAccCNPJCPFNumRef</span></span> | <span data-ttu-id="c668f-149">O CNPJ (Cadastro Nacional da Pessoa Jurídica), ou número de inscrição do contribuinte, da conta de fatura de referência.</span><span class="sxs-lookup"><span data-stu-id="c668f-149">The Cadastro Nacional da Pessoa Jurídica (CNPJ), or taxpayer registration number, of the reference invoice account.</span></span> |
 
 ## <a name="tags-that-support-fiscal-document-text-that-involve-vendor-information"></a><span data-ttu-id="c668f-150">As marcas que têm suporte para texto da nota fiscal que envolvem informações do fornecedor</span><span class="sxs-lookup"><span data-stu-id="c668f-150">Tags that support fiscal document text that involve vendor information</span></span>
+
 | <span data-ttu-id="c668f-151">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="c668f-151">Predefined tag</span></span>     | <span data-ttu-id="c668f-152">Alíquota</span><span class="sxs-lookup"><span data-stu-id="c668f-152">Value</span></span>                                                                                                                              |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="c668f-153">%Vendor\_Name</span><span class="sxs-lookup"><span data-stu-id="c668f-153">%Vendor\_Name</span></span>      | <span data-ttu-id="c668f-154">O nome do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="c668f-154">The name of the vendor.</span></span>                                                                                                            |
@@ -75,6 +78,7 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c668f-159">%Vendor\_Address</span><span class="sxs-lookup"><span data-stu-id="c668f-159">%Vendor\_Address</span></span>   | <span data-ttu-id="c668f-160">O endereço do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="c668f-160">The address of the vendor.</span></span>                                                                                                         |
 
 ## <a name="tags-that-support-fiscal-document-text-that-involve-customer-information"></a><span data-ttu-id="c668f-161">Marcas que têm suporte para texto de nota fiscal que envolvem informações do cliente</span><span class="sxs-lookup"><span data-stu-id="c668f-161">Tags that support fiscal document text that involve customer information</span></span>
+
 | <span data-ttu-id="c668f-162">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="c668f-162">Predefined tag</span></span>       | <span data-ttu-id="c668f-163">Alíquota</span><span class="sxs-lookup"><span data-stu-id="c668f-163">Value</span></span>                         |
 |----------------------|-------------------------------|
 | <span data-ttu-id="c668f-164">%Customer\_Name</span><span class="sxs-lookup"><span data-stu-id="c668f-164">%Customer\_Name</span></span>      | <span data-ttu-id="c668f-165">O nome do cliente.</span><span class="sxs-lookup"><span data-stu-id="c668f-165">The name of the customer.</span></span>     |
@@ -83,6 +87,7 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c668f-170">%Vendor\_Address</span><span class="sxs-lookup"><span data-stu-id="c668f-170">%Vendor\_Address</span></span>     | <span data-ttu-id="c668f-171">O endereço do cliente.</span><span class="sxs-lookup"><span data-stu-id="c668f-171">The address of the customer.</span></span>  |
 
 ## <a name="tags-that-support-fiscal-document-text-for-withholding-taxes"></a><span data-ttu-id="c668f-172">As marcas que têm suporte para texto da nota fiscal para impostos retidos na fonte</span><span class="sxs-lookup"><span data-stu-id="c668f-172">Tags that support fiscal document text for withholding taxes</span></span>
+
 | <span data-ttu-id="c668f-173">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="c668f-173">Predefined tag</span></span>       | <span data-ttu-id="c668f-174">Alíquota</span><span class="sxs-lookup"><span data-stu-id="c668f-174">Value</span></span>                          |
 |----------------------|--------------------------------|
 | <span data-ttu-id="c668f-175">%TaxWithhold\_Code</span><span class="sxs-lookup"><span data-stu-id="c668f-175">%TaxWithhold\_Code</span></span>   | <span data-ttu-id="c668f-176">O código de imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="c668f-176">The withholding tax code.</span></span>      |
@@ -90,6 +95,7 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c668f-179">%TaxWithhold\_Amount</span><span class="sxs-lookup"><span data-stu-id="c668f-179">%TaxWithhold\_Amount</span></span> | <span data-ttu-id="c668f-180">O valor do imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="c668f-180">The amount of withholding tax.</span></span> |
 
 ## <a name="tags-that-support-fiscal-document-text-for-imports"></a><span data-ttu-id="c668f-181">As marcas que têm suporte para texto da nota fiscal para importações</span><span class="sxs-lookup"><span data-stu-id="c668f-181">Tags that support fiscal document text for imports</span></span>
+
 | <span data-ttu-id="c668f-182">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="c668f-182">Predefined tag</span></span> | <span data-ttu-id="c668f-183">Alíquota</span><span class="sxs-lookup"><span data-stu-id="c668f-183">Value</span></span>                                                                    |
 |----------------|--------------------------------------------------------------------------|
 | <span data-ttu-id="c668f-184">%DI\_Number</span><span class="sxs-lookup"><span data-stu-id="c668f-184">%DI\_Number</span></span>    | <span data-ttu-id="c668f-185">O identificador do documento da declaração de importação.</span><span class="sxs-lookup"><span data-stu-id="c668f-185">The identifier of the import declaration document.</span></span>                       |
@@ -101,6 +107,7 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c668f-196">%ExchRate</span><span class="sxs-lookup"><span data-stu-id="c668f-196">%ExchRate</span></span>      | <span data-ttu-id="c668f-197">A taxa de câmbio usada na importação.</span><span class="sxs-lookup"><span data-stu-id="c668f-197">The exchange rate that is used in the import.</span></span>                            |
 
 ## <a name="tags-for-icmsdif-final-consumer"></a><span data-ttu-id="c668f-198">As marcas para o consumo de ICMSDIF final</span><span class="sxs-lookup"><span data-stu-id="c668f-198">Tags for ICMSDIF final consumer</span></span>
+
 | <span data-ttu-id="c668f-199">Marca predefinida</span><span class="sxs-lookup"><span data-stu-id="c668f-199">Predefined tag</span></span>           | <span data-ttu-id="c668f-200">Alíquota</span><span class="sxs-lookup"><span data-stu-id="c668f-200">Value</span></span>                                                                          |
 |--------------------------|--------------------------------------------------------------------------------|
 | <span data-ttu-id="c668f-201">%DifICMS\_vBCUFDest</span><span class="sxs-lookup"><span data-stu-id="c668f-201">%DifICMS\_vBCUFDest</span></span>      | <span data-ttu-id="c668f-202">Valor da base de imposto usado para o tipo de imposto ICMS-DIF.</span><span class="sxs-lookup"><span data-stu-id="c668f-202">Tax base amount used for tax type ICMS-DIF.</span></span>                                    |

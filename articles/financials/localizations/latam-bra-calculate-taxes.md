@@ -17,17 +17,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 075356e1f5589c9e48bb99e4b3ba1bca7f4af57e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 246e8ac45cb06380279e9078369e3ce9a63997cb
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="brazilian-taxes"></a><span data-ttu-id="bb3a6-104">Impostos brasileiros</span><span class="sxs-lookup"><span data-stu-id="bb3a6-104">Brazilian taxes</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bb3a6-105">O Finance and Operations calcula os impostos brasileiros com base no tipo de imposto especificado para o código do imposto.</span><span class="sxs-lookup"><span data-stu-id="bb3a6-105">Finance and Operations calculates Brazilian taxes based on the tax type that you specify for the sales tax code.</span></span> <span data-ttu-id="bb3a6-106">É possível configurar e calcular os impostos sobre vendas nas vendas, nas compras, nas transferências entre estabelecimentos fiscais, na entrega de itens a um terceiro, ou no recebimento de itens de um terceiro.</span><span class="sxs-lookup"><span data-stu-id="bb3a6-106">You can set up and calculate sales taxes on sales, purchases, transfers between fiscal establishments, delivery of items to a third party, or receipt of items from a third party.</span></span>
 
@@ -62,6 +61,7 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="examples"></a><span data-ttu-id="bb3a6-146">Exemplos</span><span class="sxs-lookup"><span data-stu-id="bb3a6-146">Examples</span></span>
 <span data-ttu-id="bb3a6-147">Para o valor de uma transação de base de R$ 1.000,00 e uma taxa de imposto de 18%, o Microsoft Dynamics 365 for Finance and Operations calcula os impostos da seguinte maneira para valores fiscais diferentes.</span><span class="sxs-lookup"><span data-stu-id="bb3a6-147">For a base transaction amount of BRL 1,000.00 and a tax rate of 18 percent, Microsoft Dynamics 365 for Finance and Operations calculates the taxes as follows for the different fiscal values.</span></span>
+
 | <span data-ttu-id="bb3a6-148">Valor fiscal</span><span class="sxs-lookup"><span data-stu-id="bb3a6-148">Fiscal value</span></span>                                    | <span data-ttu-id="bb3a6-149">Origem do valor</span><span class="sxs-lookup"><span data-stu-id="bb3a6-149">Amount origin</span></span> | <span data-ttu-id="bb3a6-150">Valor real do imposto</span><span class="sxs-lookup"><span data-stu-id="bb3a6-150">Actual sales tax amount</span></span> | <span data-ttu-id="bb3a6-151">Valor base de isenção</span><span class="sxs-lookup"><span data-stu-id="bb3a6-151">Exempt base amount</span></span> | <span data-ttu-id="bb3a6-152">Outro valor base</span><span class="sxs-lookup"><span data-stu-id="bb3a6-152">Other base amount</span></span> | <span data-ttu-id="bb3a6-153">Outro valor de imposto</span><span class="sxs-lookup"><span data-stu-id="bb3a6-153">Other tax amount</span></span> |
 |-------------------------------------------------|---------------|-------------------------|--------------------|-------------------|------------------|
 | <span data-ttu-id="bb3a6-154">1. Com Crédito/Débito</span><span class="sxs-lookup"><span data-stu-id="bb3a6-154">1. with credit/debit</span></span>                            | <span data-ttu-id="bb3a6-155">R$ 1.000,00</span><span class="sxs-lookup"><span data-stu-id="bb3a6-155">BRL 1,000.00</span></span>  | <span data-ttu-id="bb3a6-156">R$ 180,00</span><span class="sxs-lookup"><span data-stu-id="bb3a6-156">BRL 180.00</span></span>              |                    |                   |                  |
@@ -69,6 +69,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="bb3a6-159">3. sem crédito/débito (outros)</span><span class="sxs-lookup"><span data-stu-id="bb3a6-159">3. without credit/debit (other)</span></span>                 |               |                         |                    | <span data-ttu-id="bb3a6-160">R$ 1.000,00</span><span class="sxs-lookup"><span data-stu-id="bb3a6-160">BRL 1,000.00</span></span>      | <span data-ttu-id="bb3a6-161">R$ 180,00</span><span class="sxs-lookup"><span data-stu-id="bb3a6-161">BRL 180.00</span></span>       |
 
 <span data-ttu-id="bb3a6-162">Para o valor de uma transação de base de R$ 1.000,00, uma taxa de imposto de 18% e uma porcentagem de redução de imposto de 40%, os impostos são calculados da seguinte maneira para valores fiscais diferentes.</span><span class="sxs-lookup"><span data-stu-id="bb3a6-162">For a base transaction amount of BRL 1,000.00, tax rate of 18 percent, and tax reduction percentage of 40 percent, taxes are calculated as follows for the different fiscal values.</span></span>
+
 | <span data-ttu-id="bb3a6-163">Valor fiscal</span><span class="sxs-lookup"><span data-stu-id="bb3a6-163">Fiscal value</span></span>                                    | <span data-ttu-id="bb3a6-164">Origem do valor</span><span class="sxs-lookup"><span data-stu-id="bb3a6-164">Amount origin</span></span> | <span data-ttu-id="bb3a6-165">Valor real do imposto</span><span class="sxs-lookup"><span data-stu-id="bb3a6-165">Actual sales tax amount</span></span> | <span data-ttu-id="bb3a6-166">Valor base de isenção</span><span class="sxs-lookup"><span data-stu-id="bb3a6-166">Exempt base amount</span></span> | <span data-ttu-id="bb3a6-167">Outro valor base</span><span class="sxs-lookup"><span data-stu-id="bb3a6-167">Other base amount</span></span> | <span data-ttu-id="bb3a6-168">Outro valor de imposto</span><span class="sxs-lookup"><span data-stu-id="bb3a6-168">Other tax amount</span></span> |
 |-------------------------------------------------|---------------|-------------------------|--------------------|-------------------|------------------|
 | <span data-ttu-id="bb3a6-169">1. Com Crédito/Débito</span><span class="sxs-lookup"><span data-stu-id="bb3a6-169">1. with credit/debit</span></span>                            | <span data-ttu-id="bb3a6-170">R$ 600,00</span><span class="sxs-lookup"><span data-stu-id="bb3a6-170">BRL 600.00</span></span>    | <span data-ttu-id="bb3a6-171">R$ 108,00</span><span class="sxs-lookup"><span data-stu-id="bb3a6-171">BRL 108.00</span></span>              | <span data-ttu-id="bb3a6-172">R$ 400,00</span><span class="sxs-lookup"><span data-stu-id="bb3a6-172">BRL 400.00</span></span>         |                   |                  |

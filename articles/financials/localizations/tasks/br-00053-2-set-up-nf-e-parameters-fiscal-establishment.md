@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a2c5c135d6681702a6b7e4652aeea191b9a0757e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0c8b305eb5ae1f9147cd93cb45451f4b2863e961
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-nf-e-parameters-for-a-fiscal-establishment-brazil"></a><span data-ttu-id="178a7-103">Configurar parâmetros de NF-e para um estabelecimento fiscal (Brasil)</span><span class="sxs-lookup"><span data-stu-id="178a7-103">Set up NF-e parameters for a fiscal establishment (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="178a7-104">Use o procedimento a seguir para configurar os parâmetros para uma Nota Fiscal eletrônica (NF-e) e para um estabelecimento fiscal.</span><span class="sxs-lookup"><span data-stu-id="178a7-104">Use the following procedure to set up the parameters for a Nota Fiscal eletrônica (NF-e) for a fiscal establishment.</span></span> <span data-ttu-id="178a7-105">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="178a7-105">This task uses the BRMF demo company.</span></span>
 

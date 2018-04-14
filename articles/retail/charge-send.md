@@ -19,16 +19,16 @@ ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: 41434614b01f9a00f2b8a56765ecb90ee07e3d90
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c873fdc2b54c8acedaf8e58bf245a13ca65a3ac2
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="ship-an-order-from-a-different-store"></a><span data-ttu-id="f44ba-103">Enviar uma ordem de uma loja diferente</span><span class="sxs-lookup"><span data-stu-id="f44ba-103">Ship an order from a different store</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="f44ba-104">Com o recurso Envio de encargos no Dynamics 365 for Retail, as ordens de cliente podem ser feitas em uma loja e ser enviadas de outra.</span><span class="sxs-lookup"><span data-stu-id="f44ba-104">With the Charge send feature in Dynamics 365 for Retail, customer orders can be placed in one store and shipped from another store.</span></span> <span data-ttu-id="f44ba-105">As ordens de clientes no cliente de PDV (ponto de venda) oferecem suporte a várias opções de atendimento.</span><span class="sxs-lookup"><span data-stu-id="f44ba-105">Customer orders in the point of sale (POS) client support multiple fulfillment options.</span></span> <span data-ttu-id="f44ba-106">Alguns exemplos de opções de atendimento incluem:</span><span class="sxs-lookup"><span data-stu-id="f44ba-106">Some examples of fulfillment options include:</span></span>
 -   <span data-ttu-id="f44ba-107">Separar na mesma loja em uma data diferente.</span><span class="sxs-lookup"><span data-stu-id="f44ba-107">Pick up from the same store on a different date.</span></span>

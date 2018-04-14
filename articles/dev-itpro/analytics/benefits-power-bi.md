@@ -17,16 +17,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 532834b377cfb8eda4902c387a850314302b22d8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c6ea6769b28158f8686a139903073337646c88bd
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="benefits-power-bi-content"></a><span data-ttu-id="29e84-104">Conteúdo de benefícios do Power BI</span><span class="sxs-lookup"><span data-stu-id="29e84-104">Benefits Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="29e84-105">Este tópico descreve o conteúdo de **Benefícios** do Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="29e84-105">This topic describes the **Benefits** Microsoft Power BI content.</span></span> <span data-ttu-id="29e84-106">Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.</span><span class="sxs-lookup"><span data-stu-id="29e84-106">It explains how to access the reports that are included, and provides information about the data model and entities that were used to build the content.</span></span>
 

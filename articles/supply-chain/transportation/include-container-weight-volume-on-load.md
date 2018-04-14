@@ -18,16 +18,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3c43a42822f291607fbc9708dd07ebf99b9d7ec4
-ms.openlocfilehash: 00f7afab0bd65519f9f05773d935c9384c583332
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bafd6129dbbf3aff5f4be0cf10a71e9039f879e2
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="include-container-weight-and-volume-on-load"></a><span data-ttu-id="00e94-103">Incluir o peso e o volume do contêiner na carga</span><span class="sxs-lookup"><span data-stu-id="00e94-103">Include container weight and volume on load</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="00e94-104">A funcionalidade para incluir o peso e volume de contêiner em uma carga fornece uma representação perfeita do peso e volume totais de contêineres e de itens que estejam prestes a serem carregados.</span><span class="sxs-lookup"><span data-stu-id="00e94-104">The functionality for including the container weight and volume on a load gives a clear representation of the total weight and volume of containers and items that are going on a load.</span></span>
 

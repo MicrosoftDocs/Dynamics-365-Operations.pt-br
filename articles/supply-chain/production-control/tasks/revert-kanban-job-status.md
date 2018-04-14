@@ -17,15 +17,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 55d359232da5f3087b1e6baed182a20da09aeff7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2bcc83c0a422ed1480f2ed41460fd710bc51ff3d
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="revert-kanban-job-status"></a><span data-ttu-id="cf53d-103">Reverter status do trabalho kanban</span><span class="sxs-lookup"><span data-stu-id="cf53d-103">Revert kanban job status</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cf53d-104">Esse procedimento se concentra em reverter um status incorreto do trabalho kanban.</span><span class="sxs-lookup"><span data-stu-id="cf53d-104">This procedure focuses on reverting an incorrect kanban job status.</span></span> <span data-ttu-id="cf53d-105">Isso é útil, se o operador da máquina atualiza o trabalho errado ou define o status errado por engano.</span><span class="sxs-lookup"><span data-stu-id="cf53d-105">This is useful in case the machine operator updates the wrong job, or sets the wrong status by mistake.</span></span> <span data-ttu-id="cf53d-106">Nesse procedimento, um trabalho kanban é registrado como preparado por engano, e o status é revertido.</span><span class="sxs-lookup"><span data-stu-id="cf53d-106">In this procedure, a kanban job is registered as prepared by mistake, and the status is reverted.</span></span> <span data-ttu-id="cf53d-107">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="cf53d-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="cf53d-108">Esse procedimento se destina ao supervisor de loja ou ao operador de máquina que trabalha em uma empresa de lean manufacturing.</span><span class="sxs-lookup"><span data-stu-id="cf53d-108">This procedure is intended for the shop supervisor or machine operator working in a lean manufacturing company.</span></span>
 

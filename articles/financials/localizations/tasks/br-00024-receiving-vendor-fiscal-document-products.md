@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a68033818ab74724d9cd9699fec00d368a3799f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1beab2e7c0e9a4ab608c74dcc802386ffcbc803d
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="receive-vendor-fiscal-documents-products-brazil"></a><span data-ttu-id="5cc11-103">Receber notas fiscais de fornecedor (produtos) (Brasil)</span><span class="sxs-lookup"><span data-stu-id="5cc11-103">Receive vendor fiscal documents (products) (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5cc11-104">É possível lançar uma nota fiscal que você recebeu na aquisição de mercadorias de estoque, em que o ICMS, IPI e PIS/COFINS são deduzidos do pagamento de apuração de imposto.</span><span class="sxs-lookup"><span data-stu-id="5cc11-104">You can post a fiscal document that you received from the acquisition of inventory goods, where the ICMS, IPI, and PIS/COFINS taxes are deducted from the tax assessment payment.</span></span> <span data-ttu-id="5cc11-105">Este registro usa a empresa de dados de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="5cc11-105">This recording uses the BRMF demo company.</span></span>
 

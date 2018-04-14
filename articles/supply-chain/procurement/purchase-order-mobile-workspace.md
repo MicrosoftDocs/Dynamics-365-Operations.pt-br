@@ -18,18 +18,18 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 96d92016a4634291c5d519a2935992b3a50b65dd
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="purchase-order-approval-mobile-workspace"></a><span data-ttu-id="4dae2-104">Área de trabalho móvel para aprovação de ordem de compra</span><span class="sxs-lookup"><span data-stu-id="4dae2-104">Purchase order approval mobile workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="4dae2-105">Este tópico fornece informações sobre a área de trabalho móvel de **Aprovação de ordem de compra**.</span><span class="sxs-lookup"><span data-stu-id="4dae2-105">This topic provides information about the **Purchase order approval** mobile workspace.</span></span> <span data-ttu-id="4dae2-106">Esta área de trabalho permite que você veja pedidos e responda através de ações.</span><span class="sxs-lookup"><span data-stu-id="4dae2-106">This workspace lets you view purchase orders and respond to them through actions.</span></span> <span data-ttu-id="4dae2-107">Por exemplo, você pode aprovar ou rejeitar uma ordem de compra.</span><span class="sxs-lookup"><span data-stu-id="4dae2-107">For example, you can approve or reject a purchase order.</span></span>
  

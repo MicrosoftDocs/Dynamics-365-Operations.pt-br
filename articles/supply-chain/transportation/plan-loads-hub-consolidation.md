@@ -20,17 +20,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: 3920bf73c51e8310c8b44bd42a4b185f6dc8ed3e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 159410e7c1f04ee9a057c7d9dc9a2527c522b85b
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="plan-loads-using-hub-consolidation"></a><span data-ttu-id="8eefa-103">Planejar cargas de consolidação de hub</span><span class="sxs-lookup"><span data-stu-id="8eefa-103">Plan loads using hub consolidation</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8eefa-104">Este artigo descreve o recurso para consolidar remessas em um hub quando entregar mercadorias em depósitos diferentes para o mesmo cliente ou quando mercadorias são recebidas de vários fornecedores no mesmo depósito.</span><span class="sxs-lookup"><span data-stu-id="8eefa-104">This article describes the feature for consolidating shipments in a hub when you deliver goods from different warehouses to the same customer, or when you receive goods from multiple vendors in the same warehouse.</span></span>
 

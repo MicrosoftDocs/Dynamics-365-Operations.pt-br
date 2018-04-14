@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b464bfe5cb863bb3356809a8fe114df60d35eaaf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ab2ffc199e198700654dee9a7fe6b8703865ac40
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="generate-emails-for-approved-nf-e-and-attach-danfe-pdf-files-and-nf-e-xml-files-to-the-emails-brazil"></a><span data-ttu-id="a7d57-103">Gerar emails para NF-e aprovada e anexar arquivos PDF do DANFE e arquivos XML da NF-e aos emails (Brasil)</span><span class="sxs-lookup"><span data-stu-id="a7d57-103">Generate emails for approved NF-e and attach DANFE PDF files and NF-e XML files to the emails (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a7d57-104">Você pode gerar o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) para uma Nota Fiscal eletrônica (NF-e) como um arquivo PDF.</span><span class="sxs-lookup"><span data-stu-id="a7d57-104">You can generate the Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) for a Nota Fiscal eletrônica (NF-e) as a PDF file.</span></span> <span data-ttu-id="a7d57-105">Você pode enviar o arquivo PDF de DANFE e o arquivo NF-e XML que são gerados para uma NF-e aprovada para um cliente ou fornecedor por e-mail.</span><span class="sxs-lookup"><span data-stu-id="a7d57-105">You can then send the DANFE PDF file and the NF-e XML file that are generated for an approved NF-e to a third-party customer or vendor via email.</span></span> <span data-ttu-id="a7d57-106">Antes de gerar mensagens de email para notas fiscais eletrônicas aprovadas, é preciso configurar um modelo de email.</span><span class="sxs-lookup"><span data-stu-id="a7d57-106">Before you can generate email messages for approved electronic fiscal documents, you must set up an email template.</span></span> <span data-ttu-id="a7d57-107">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="a7d57-107">This task uses the BRMF demo company.</span></span>
 

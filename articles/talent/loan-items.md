@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 4082facdba02cd69c6679e7f3e68e391d29e4195
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ba1b158908ac2328c29f7efe23756248be5be33c
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manage-items-lent-to-workers"></a><span data-ttu-id="bedd5-103">Gerenciar itens emprestados a trabalhadores</span><span class="sxs-lookup"><span data-stu-id="bedd5-103">Manage items lent to workers</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="bedd5-104">Os itens de empréstimo são registros que ajudam os gerentes a rastrear os itens físicos que sua empresa empresta aos trabalhadores.</span><span class="sxs-lookup"><span data-stu-id="bedd5-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
 
@@ -51,7 +50,7 @@ ms.lasthandoff: 01/31/2018
 
 <span data-ttu-id="bedd5-120">Se um item for danificado ou extraviado, insira um registro de devolução fictícia.</span><span class="sxs-lookup"><span data-stu-id="bedd5-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="bedd5-121">Em seguida, exclua o item ou mantenha-o na visão geral e altere a descrição para indicar que ele não está disponível.</span><span class="sxs-lookup"><span data-stu-id="bedd5-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
 
- 
+
 <a name="see-also"></a><span data-ttu-id="bedd5-122">Consulte também</span><span class="sxs-lookup"><span data-stu-id="bedd5-122">See also</span></span>
 --------
 

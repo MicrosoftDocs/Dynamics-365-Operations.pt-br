@@ -19,17 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6f2384155a07d17004c640160aee90b1e8bdb9f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1c867e1b5f908772d721e349ea148b7e5fc7d9fc
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a><span data-ttu-id="c4453-103">Mapear membros de dimensão de elemento de custo para um conjunto comum de membros de dimensão</span><span class="sxs-lookup"><span data-stu-id="c4453-103">Map cost element dimension members to a common set of dimension members</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c4453-104">Mapeando membros diferentes de dimensões do elemento de custo estimado na comum conjunto de elementos de custo previsto dimensões membros, você mesclam dados em um formato comum para fins de análise.</span><span class="sxs-lookup"><span data-stu-id="c4453-104">By mapping different cost element dimension members to a common set of cost element dimension members, you merge data into a common format for analysis purposes.</span></span>
 
@@ -45,7 +44,7 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="c4453-120">5030: Publicidade</span><span class="sxs-lookup"><span data-stu-id="c4453-120">5030: Advertising</span></span>                                                     | <span data-ttu-id="c4453-121">6390: Compra de estoque*\*</span><span class="sxs-lookup"><span data-stu-id="c4453-121">6390: Stock purchase\*</span></span>                                                    | <span data-ttu-id="c4453-122">7000: Limpeza de despesas</span><span class="sxs-lookup"><span data-stu-id="c4453-122">7000: Cleaning expenses</span></span>                                                 |
 | <span data-ttu-id="c4453-123">7001: Limpeza de despesas</span><span class="sxs-lookup"><span data-stu-id="c4453-123">7001: Cleaning expenses</span></span>                                               | <span data-ttu-id="c4453-124">7001: Despesa de viagens</span><span class="sxs-lookup"><span data-stu-id="c4453-124">7001: Travel expense</span></span>                                                      | <span data-ttu-id="c4453-125">7001: Despesa de viagens</span><span class="sxs-lookup"><span data-stu-id="c4453-125">7001: Travel expenses</span></span>                                                   |
 
-<span data-ttu-id="c4453-126">\***O membro francês dimensão de elemento de custo previsto de compra de estoque não é mapeado.</span><span class="sxs-lookup"><span data-stu-id="c4453-126">\*The Stock purchase French cost element dimension member isn't mapped.</span></span>
+<span data-ttu-id="c4453-126">\*\*\*O membro francês dimensão de elemento de custo previsto de compra de estoque não é mapeado.</span><span class="sxs-lookup"><span data-stu-id="c4453-126">\*The Stock purchase French cost element dimension member isn't mapped.</span></span>
 
 ## <a name="currency-conversion"></a><span data-ttu-id="c4453-127">Conversão de moeda</span><span class="sxs-lookup"><span data-stu-id="c4453-127">Currency conversion</span></span>
 <span data-ttu-id="c4453-128">Vários gráficos de contas usado podem ser definidos para usar moedas diferentes.</span><span class="sxs-lookup"><span data-stu-id="c4453-128">The various charts of accounts that you use might be set up to use different currencies.</span></span> <span data-ttu-id="c4453-129">Nesse caso, verifique especifique uma conversão de moedas, de modo que os dados de custo previsto são processados usando a moeda correta, como definido no razão da contabilização de custo estimado nos membros da dimensão do elemento de custo previsto são usados.</span><span class="sxs-lookup"><span data-stu-id="c4453-129">In this case, be sure to specify a currency conversion, so that cost data is processed by using the correct currency, as defined in the cost accounting ledger where the cost element dimension members are used.</span></span> <span data-ttu-id="c4453-130">No exemplo acima, se os dólares americanos (USD) são usados no razão da contabilização de custo previsto, você deve criar uma conversão de moeda USD em euro (EUR) para processar transações dos membros mapeados dimensão de elemento de custo previsto.</span><span class="sxs-lookup"><span data-stu-id="c4453-130">In the preceding example, if US dollars (USD) are used in the cost accounting ledger, you must create a currency conversion from USD to euros (EUR) to process transactions for the mapped cost element dimension members.</span></span>

@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: aefd075331d84fece02f67075484c7b4a3c104e6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 657718b34606d3304f97008c7b9ba81afdf8b9a8
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="issue-customer-fiscal-documents-project-brazil"></a><span data-ttu-id="8b4b3-103">Emitir notas fiscais para clientes (projeto) (Brasil)</span><span class="sxs-lookup"><span data-stu-id="8b4b3-103">Issue customer fiscal documents (project) (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8b4b3-104">É possível emitir uma nota fiscal para um projeto.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-104">You can issue a fiscal document for a project.</span></span> <span data-ttu-id="8b4b3-105">A nota fiscal pode ser uma nota fiscal de serviço ou uma nota fiscal eletrônica.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-105">The fiscal document can be either a service fiscal document or an electronic fiscal document.</span></span> <span data-ttu-id="8b4b3-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="8b4b3-106">This task uses the BRMF demo company.</span></span>
 

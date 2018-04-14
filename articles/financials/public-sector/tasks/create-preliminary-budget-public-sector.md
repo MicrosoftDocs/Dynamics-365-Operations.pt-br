@@ -17,15 +17,15 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a2c2dab44d771a7e7b662c808912940eed7473c5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 16b6510e4bc9e844e4bdda372733507937c27315
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a><span data-ttu-id="e6089-103">Criar um orçamento preliminar para o setor público</span><span class="sxs-lookup"><span data-stu-id="e6089-103">Create a preliminary budget for public sector</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e6089-104">Você pode criar entradas de registro de orçamento preliminar para um modelo de orçamento específico e valores de dimensão.</span><span class="sxs-lookup"><span data-stu-id="e6089-104">You can create preliminary budget register entries for a specific budget model and dimension values.</span></span> <span data-ttu-id="e6089-105">Depois que o orçamento real for aprovado, você pode criar entradas de registro do orçamento original.</span><span class="sxs-lookup"><span data-stu-id="e6089-105">After the actual budget is approved, you can create original budget register entries.</span></span> <span data-ttu-id="e6089-106">Este procedimento foi criado usando os dados da empresa de demonstração PSUS na partição do setor público.</span><span class="sxs-lookup"><span data-stu-id="e6089-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 

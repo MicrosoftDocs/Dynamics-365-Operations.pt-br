@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 60313da23fdbd5a06b71c7c91a236165f8f189de
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 591c71cccc5ec5f00734bef21dc9551325432020
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-accounts-payable"></a><span data-ttu-id="c0fe4-104">Configurar contas a pagar</span><span class="sxs-lookup"><span data-stu-id="c0fe4-104">Configure Accounts payable</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c0fe4-105">Este artigo descreve as páginas que você usa para configurar funcionalidades básicas e opcionais de Contas a pagar no Microsoft Dynamics 365 para Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="c0fe4-105">This article describes the pages that you use to set up basic and optional functionality for Accounts payable in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="c0fe4-106">Também mostra as etapas de configuração que devem ser concluídas antes de começar a configurar as contas a pagar.</span><span class="sxs-lookup"><span data-stu-id="c0fe4-106">It also describes setup steps that you must complete before you start to set up Accounts payable.</span></span>
 

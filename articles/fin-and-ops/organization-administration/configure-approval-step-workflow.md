@@ -18,17 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d2fc157b54401463bbabf1e3f6d5dddc6bda9631
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c142534e9e5b5f154f478889d13540dc3d47ad18
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-an-approval-step-in-a-workflow"></a><span data-ttu-id="b9dd0-103">Configurar uma etapa de aprovação em um fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="b9dd0-103">Configure an approval step in a workflow</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b9dd0-104">Este tópico explica como configurar as propriedades de uma etapa de aprovação.</span><span class="sxs-lookup"><span data-stu-id="b9dd0-104">This topic explains how to configure the properties of an approval step.</span></span>
 
@@ -145,9 +144,9 @@ ms.lasthandoff: 11/03/2017
     <span data-ttu-id="b9dd0-192">Se o usuário não executar nenhuma ação no documento no tempo alocado, o documento vencerá.</span><span class="sxs-lookup"><span data-stu-id="b9dd0-192">If the user doesn't take action on the document in the allotted time, the document is overdue.</span></span> <span data-ttu-id="b9dd0-193">Um documento vencido será escalonado, com base nas opções selecionadas na área **Escalonamento** da página.</span><span class="sxs-lookup"><span data-stu-id="b9dd0-193">A document that is overdue is escalated, based on the options that you select in the **Escalation** area of the page.</span></span>
 4.  <span data-ttu-id="b9dd0-194">Se você tiver atribuído a etapa de aprovação a vários usuários ou a um grupo de usuários, na guia **Política de conclusão**, selecione uma das seguintes opções:</span><span class="sxs-lookup"><span data-stu-id="b9dd0-194">If you assigned the approval step to multiple users or a group of users, on the **Completion policy** tab, select one of the following options:</span></span>
     -   <span data-ttu-id="b9dd0-195">**Aprovador único** – a ação que é aplicada ao documento é determinada pela primeira pessoa que responde.</span><span class="sxs-lookup"><span data-stu-id="b9dd0-195">**Single approver** – The action that is applied to the document is determined by the first person who responds.</span></span> <span data-ttu-id="b9dd0-196">Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de US$ 15.000.</span><span class="sxs-lookup"><span data-stu-id="b9dd0-196">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="b9dd0-197">O relatório de despesas está atribuído no momento à Suzana, à Joana e a Guilherme.</span><span class="sxs-lookup"><span data-stu-id="b9dd0-197">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="b9dd0-198">Se Suzana for a primeira pessoa a responder ao documento, a ação tomada por ela será aplicada.</span><span class="sxs-lookup"><span data-stu-id="b9dd0-198">If Sue is the first person who responds to the document, the action that she takes is applied to the document.</span></span> <span data-ttu-id="b9dd0-199">Se Suzana rejeitar o documento, ele será rejeitado e enviado novamente para Samuel.</span><span class="sxs-lookup"><span data-stu-id="b9dd0-199">If Sue rejects the document, it's rejected and sent back to Sam.</span></span> <span data-ttu-id="b9dd0-200">Se Suzana aprovar o documento, ele será enviado a Ana para aprovação.</span><span class="sxs-lookup"><span data-stu-id="b9dd0-200">If Sue approves the document, it's sent to Ann for approval.</span></span> 
-    
+
     ![Fluxo de trabalho que tem um processo de aprovação](./media/workflow_multipleusersinstep.gif)
-    
+
     -   <span data-ttu-id="b9dd0-202">**Maioria dos aprovadores** – a ação que é aplicada ao documento é determinada quando a maioria dos aprovadores responde.</span><span class="sxs-lookup"><span data-stu-id="b9dd0-202">**Majority of approvers** – The action that is applied to the document is determined when most of the approvers respond.</span></span> <span data-ttu-id="b9dd0-203">Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de US$ 15.000.</span><span class="sxs-lookup"><span data-stu-id="b9dd0-203">For example, Sam has submitted an expense report for USD 15,000.</span></span> <span data-ttu-id="b9dd0-204">O relatório de despesas está atribuído no momento à Suzana, à Joana e a Guilherme.</span><span class="sxs-lookup"><span data-stu-id="b9dd0-204">The expense report is currently assigned to Sue, Jo, and Bill.</span></span> <span data-ttu-id="b9dd0-205">Se Suzana e Joana forem os dois primeiros aprovadores a responder, a ação tomada por ambas será aplicada ao documento.</span><span class="sxs-lookup"><span data-stu-id="b9dd0-205">If Sue and Jo are the first two approvers who respond, the action that they take is applied to the document.</span></span>
         -   <span data-ttu-id="b9dd0-206">Se Suzana aprovar o documento, mas Joana o rejeitar, o documento será rejeitado e enviado novamente para Samuel.</span><span class="sxs-lookup"><span data-stu-id="b9dd0-206">If Sue approves the document, but Jo rejects it, the document is rejected and sent back to Sam.</span></span>
         -   <span data-ttu-id="b9dd0-207">Se Suzana e Joana aprovarem o documento, ele será enviado a Ana para aprovação.</span><span class="sxs-lookup"><span data-stu-id="b9dd0-207">If both Sue and Jo approve the document, it's sent to Ann for approval.</span></span>

@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3e75ce2f8847330bec260714449f01ba77877223
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 51aa7dc86a98360b7c16b9d113b0d5d5222f9007
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="issue-customer-fiscal-documents-for-suframa-customers-brazil"></a><span data-ttu-id="a3ed0-103">Emitir notas fiscais para clientes (para clientes SUFRAMA) (Brasil)</span><span class="sxs-lookup"><span data-stu-id="a3ed0-103">Issue customer fiscal documents (for SUFRAMA customers) (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a3ed0-104">Use esse procedimento para configurar isenções de impostos para a região da Superintendência da Zona Franca de Manaus (SUFRAMA).</span><span class="sxs-lookup"><span data-stu-id="a3ed0-104">Use this procedure to set up tax exemptions for the Superintendência da Zona Franca de Manaus (SUFRAMA) region.</span></span> <span data-ttu-id="a3ed0-105">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="a3ed0-105">This task uses the BRMF demo company.</span></span>
 

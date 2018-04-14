@@ -20,17 +20,16 @@ ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 4026fa937ddf88f006cdcd13a8eda10c326ada62
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 90a12b501b55bc6406ea13c2e643cd58f8128390
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="routes-and-operations"></a><span data-ttu-id="5fdcd-103">Roteiros e operações</span><span class="sxs-lookup"><span data-stu-id="5fdcd-103">Routes and operations</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5fdcd-104">Este tópico fornece informações sobre roteiros e operações.</span><span class="sxs-lookup"><span data-stu-id="5fdcd-104">This topic provides information about routes and operations.</span></span> <span data-ttu-id="5fdcd-105">Um roteiro define o processo para produção de um produto ou grade de produto.</span><span class="sxs-lookup"><span data-stu-id="5fdcd-105">A route defines the process for producing a product or product variant.</span></span> <span data-ttu-id="5fdcd-106">Ele descreve cada estágio (operação) no processo de produção e a ordem em que essas etapas devem ser executadas.</span><span class="sxs-lookup"><span data-stu-id="5fdcd-106">It describes each step (operation) in the production process and the order that these steps must be performed in.</span></span> <span data-ttu-id="5fdcd-107">Para cada etapa, o roteiro também define os recursos de operações necessários, os tempos de configuração e execução necessários, e como o custo deve ser calculado.</span><span class="sxs-lookup"><span data-stu-id="5fdcd-107">For each step, the route also defines the required operations resources, the required setup time and run time, and how the cost should be calculated.</span></span>
 

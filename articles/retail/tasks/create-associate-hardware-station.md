@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7a43edf71a1a77ea0d6014266bdd95d563a08cc4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 023c3b3be6544ecf25975965daf1487159c6076b
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-and-associate-a-hardware-station"></a><span data-ttu-id="516cc-103">Criar e associar uma estação de hardware</span><span class="sxs-lookup"><span data-stu-id="516cc-103">Create and associate a hardware station</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="516cc-104">Este procedimento orienta como criar uma nova estação de hardware.</span><span class="sxs-lookup"><span data-stu-id="516cc-104">This procedure walks through how to create a new hardware station.</span></span> <span data-ttu-id="516cc-105">Um novo perfil de hardware será criado e usado para adicionar novas estações de hardware a uma loja predefinida (canal).</span><span class="sxs-lookup"><span data-stu-id="516cc-105">A new hardware profile will be created and used to add new hardware stations to a pre-defined store (channel).</span></span> <span data-ttu-id="516cc-106">Este procedimento usa a empresa USRT nos dados de demonstração.</span><span class="sxs-lookup"><span data-stu-id="516cc-106">This procedure uses the USRT company in demo data.</span></span>
 

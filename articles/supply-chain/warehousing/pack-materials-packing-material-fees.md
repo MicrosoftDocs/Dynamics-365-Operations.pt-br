@@ -20,17 +20,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 46178d9da5464d8cb74b1d52142d6ad08a293349
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="packing-materials-and-fees"></a><span data-ttu-id="0a98f-105">Taxas e materiais de embalagem</span><span class="sxs-lookup"><span data-stu-id="0a98f-105">Packing materials and fees</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0a98f-106">As taxas de material de embalagem são pagas a uma empresa de reciclagem em determinados intervalos.</span><span class="sxs-lookup"><span data-stu-id="0a98f-106">Packing material fees are paid to a recycling company at certain intervals.</span></span> <span data-ttu-id="0a98f-107">Um valor é pago por unidade de peso para cada material com o qual a unidade de embalagem é feita.</span><span class="sxs-lookup"><span data-stu-id="0a98f-107">An amount is paid, per unit of weight, for each material that a packing unit consists of.</span></span> <span data-ttu-id="0a98f-108">As taxas de material de embalagem são calculadas e relatadas, mas nenhuma transação do razão é lançada, pois essas taxas não são consideradas como taxas que devam ser pagas a uma autoridade.</span><span class="sxs-lookup"><span data-stu-id="0a98f-108">Packing material fees are calculated and reported, but no ledger transactions are posted because the fees are not regarded as taxes to be paid to an authority.</span></span>
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="print-packaging-material-weights-on-invoices"></a><span data-ttu-id="0a98f-147">Imprimir os pesos do material de embalagem nas notas fiscais</span><span class="sxs-lookup"><span data-stu-id="0a98f-147">Print packaging material weights on invoices</span></span>
 <span data-ttu-id="0a98f-148">Você pode imprimir os pesos do material de embalagem na fatura e indicar quem está pagando as taxas de material de embalagem.</span><span class="sxs-lookup"><span data-stu-id="0a98f-148">You can print the packaging material weights on the invoice, and indicate who pays the packaging material fees.</span></span> <span data-ttu-id="0a98f-149">Os pesos são resumidos por código de embalagem.</span><span class="sxs-lookup"><span data-stu-id="0a98f-149">The weights are summarized by packaging code.</span></span>
- 
+
 
 
 

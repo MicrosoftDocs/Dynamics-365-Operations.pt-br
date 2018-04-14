@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ddfc7093ae2fb246f66486787e225f5b4c34ba1b
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budgeting-overview"></a><span data-ttu-id="a8b0d-104">Visão geral de orçamento </span><span class="sxs-lookup"><span data-stu-id="a8b0d-104">Budgeting overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a8b0d-105">Quase todas as companhias que usam a funcionalidade Finanças no Microsoft Dynamics 365 for Finance and Operations precisarão ser capazes de criar relatórios de orçamento em comparação a reais.</span><span class="sxs-lookup"><span data-stu-id="a8b0d-105">Almost every company that uses Financials functionality in Microsoft Dynamics 365 for Finance and Operations will have to be able to create reports of budget vs. actuals.</span></span> <span data-ttu-id="a8b0d-106">Este artigo explica a configuração mínima necessária para criar orçamentos no Finance and Operations ou carregá-los no programa de um terceiro.</span><span class="sxs-lookup"><span data-stu-id="a8b0d-106">This article explains the minimum configuration that is required in order to create budgets in Finance and Operations or load them from a third-party program.</span></span>
 

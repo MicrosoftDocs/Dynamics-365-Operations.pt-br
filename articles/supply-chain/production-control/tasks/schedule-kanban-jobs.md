@@ -16,15 +16,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f36544993a9280ae10489a19252bc105abd40ac9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 692a867eae15ac02f7042c69b9dde4f1fcbd0d54
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="schedule-kanban-jobs"></a><span data-ttu-id="ac8da-103">Agendar trabalhos kanban</span><span class="sxs-lookup"><span data-stu-id="ac8da-103">Schedule kanban jobs</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ac8da-104">Esse procedimento se concentra em trabalhos kanban do processo de agendamento para uma célula de trabalho específica.</span><span class="sxs-lookup"><span data-stu-id="ac8da-104">This procedure focuses on scheduling process kanban jobs for a specific work cell.</span></span> <span data-ttu-id="ac8da-105">O procedimento “Preparar uns trabalhos kanban de processo quando os materiais não estiverem disponíveis” é um pré-requisito para a criação deste procedimento.</span><span class="sxs-lookup"><span data-stu-id="ac8da-105">The procedure "Prepare a process kanban job when materials are not available" is a prerequisite for creating this procedure.</span></span> <span data-ttu-id="ac8da-106">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="ac8da-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="ac8da-107">Esta tarefa está direcionada para o supervisor de chão de fábrica e o planejador de produção que estão trabalhando com kanbans.</span><span class="sxs-lookup"><span data-stu-id="ac8da-107">This task is intended for the shop floor supervisor and production planner working with kanbans.</span></span>
 

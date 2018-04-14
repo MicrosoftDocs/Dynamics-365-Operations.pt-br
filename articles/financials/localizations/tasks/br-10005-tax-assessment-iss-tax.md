@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: af890a2a53a3b0497cc9a1dc8b6ff4044450194c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 307498ec376052fd15f801e92812a14a4633c131
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="tax-assessment-for-iss-tax-brazil"></a><span data-ttu-id="b25ea-103">Apuração de imposto ISS (Brasil)</span><span class="sxs-lookup"><span data-stu-id="b25ea-103">Tax assessment for ISS tax (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b25ea-104">É possível fazer a avaliação fiscal de ISS de um determinado período de escrituração, considerando o valor de ISS a ser recuperado e o valor de ISS a ser pago a partir das notas fiscais.</span><span class="sxs-lookup"><span data-stu-id="b25ea-104">You can make the tax assessment for ISS tax for a given booking period, considering the amount of ISS tax to recover and the amount of ISS tax to pay from the fiscal documents.</span></span> <span data-ttu-id="b25ea-105">Quanto ao valor devido após a avaliação fiscal, você pode fazer o pagamento do valor para a autoridade fiscal.</span><span class="sxs-lookup"><span data-stu-id="b25ea-105">For the due amount after the tax assessment, you can make the payment of the amount for the tax authority.</span></span> <span data-ttu-id="b25ea-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="b25ea-106">This task uses the BRMF demo company.</span></span>
 

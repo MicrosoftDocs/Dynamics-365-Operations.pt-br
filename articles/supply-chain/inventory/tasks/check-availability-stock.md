@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 74eaa59db44e21b3ddfae38d28f84712959cc40e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e4b08aa7376bee6526d1993ee38916b60d0e0648
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="check-the-availability-of-stock"></a><span data-ttu-id="a8798-103">Verificar a disponibilidade do estoque</span><span class="sxs-lookup"><span data-stu-id="a8798-103">Check the availability of stock</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a8798-104">Este procedimento mostra como verificar um valor disponível e o estoque físico disponível de um número de item específico.</span><span class="sxs-lookup"><span data-stu-id="a8798-104">This procedure shows you how to check on-hand and physical on-hand inventory for a specific item number.</span></span> <span data-ttu-id="a8798-105">Ele também mostra como obter informações de fornecimento relacionadas ao item.</span><span class="sxs-lookup"><span data-stu-id="a8798-105">It also shows you how to get supply information related to an item.</span></span> <span data-ttu-id="a8798-106">O estoque físico disponível é o estoque disponível que está disponível ou seja, comprado, recebido e registrado.</span><span class="sxs-lookup"><span data-stu-id="a8798-106">Physical on-hand inventory is the on-hand inventory that’s available – that is, it’s purchased, received and registered.</span></span> <span data-ttu-id="a8798-107">O estoque disponível inclui o estoque disponível, mas também o estoque que é ordenado e esperado, mas que ainda não foi recebido ou registrado.</span><span class="sxs-lookup"><span data-stu-id="a8798-107">On-hand inventory includes the available on-hand inventory, but also the inventory that’s been ordered and is expected, but not yet received or registered.</span></span> <span data-ttu-id="a8798-108">Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.</span><span class="sxs-lookup"><span data-stu-id="a8798-108">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="a8798-109">Se você estiver usando USMF você pode usar os valores de exemplo mostrados.</span><span class="sxs-lookup"><span data-stu-id="a8798-109">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="a8798-110">Essas tarefas normalmente seriam realizadas por um funcionário do depósito.</span><span class="sxs-lookup"><span data-stu-id="a8798-110">These tasks would typically be carried out by a warehouse worker.</span></span>
 

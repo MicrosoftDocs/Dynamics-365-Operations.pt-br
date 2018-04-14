@@ -18,16 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f3abbb2d124ee6c11e46e3680a342ecb12a12ec3
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personnel-actions-faq"></a><span data-ttu-id="1c47a-104">Ações de pessoal [Perguntas frequentes]</span><span class="sxs-lookup"><span data-stu-id="1c47a-104">Personnel actions [FAQ]</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="1c47a-105">Este tópico contém respostas para as perguntas que você pode ter se a sua organização utilizar ações de pessoal.</span><span class="sxs-lookup"><span data-stu-id="1c47a-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="1c47a-106">As ações de pessoal são etapas adicionais que devem ser concluídas quando você executa algumas tarefas relacionadas a pessoal.</span><span class="sxs-lookup"><span data-stu-id="1c47a-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="1c47a-107">Exemplos de tarefas que podem exigir ações de pessoal são quando você cria novas posições, altera valores existentes de posição, contrata novos trabalhadores, transfere trabalhadores, altera a remuneração do trabalhador, altera as atribuições de posição, ou demite trabalhadores.</span><span class="sxs-lookup"><span data-stu-id="1c47a-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 
@@ -64,9 +64,9 @@ ms.lasthandoff: 03/08/2018
 <span data-ttu-id="1c47a-140">Se uma solicitação de ação de pessoal falhar, siga estas etapas para resolver o erro e para reenviar a solicitação:</span><span class="sxs-lookup"><span data-stu-id="1c47a-140">If a personnel action request fails, follow these steps to resolve the error and resubmit the request:</span></span>
 
 > 1. <span data-ttu-id="1c47a-141">No **Painel de Ação**, clique no botão **Texto de erro** para exibir a mensagem de texto que descreve o problema.</span><span class="sxs-lookup"><span data-stu-id="1c47a-141">On the **Action Pane**, click the **Error text** button to view the message text that describes the problem.</span></span>
-
+> 
 > 2. <span data-ttu-id="1c47a-142">No **Painel de Ação**, clique em **Reativar** para carregar as informações mais recentes e para definir o status da ação de pessoal de volta para **Rascunho**.</span><span class="sxs-lookup"><span data-stu-id="1c47a-142">On the **Action Pane**, click **Reactivate** to load the latest information and set the status of the personnel action back to **Draft**.</span></span>
-
+> 
 > 3. <span data-ttu-id="1c47a-143">Resolva o erro, e clique em **Concluído** ou **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="1c47a-143">Resolve the error, and then click **Complete** or **Submit**.</span></span>
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a><span data-ttu-id="1c47a-144">O que acontece com uma ação da pessoal que usa o fluxo de trabalho quando a aprovação final é concluída?</span><span class="sxs-lookup"><span data-stu-id="1c47a-144">What happens to a personnel action that uses workflow when the final approval is completed?</span></span>

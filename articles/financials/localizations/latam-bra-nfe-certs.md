@@ -17,16 +17,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 295880b9dba7957b17148fcf0d0d2d809dba3f8a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 36df3a516deecc8a0d7cb6426f87254e5d86c00b
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="nf-e-certificates"></a><span data-ttu-id="b6a69-104">Certificados de NF-e</span><span class="sxs-lookup"><span data-stu-id="b6a69-104">NF-e certificates</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b6a69-105">Na localização brasileira, você deve gerar uma Nota Fiscal eletrônica (NF-e) para registrar a movimentação de itens e serviços entre duas partes.</span><span class="sxs-lookup"><span data-stu-id="b6a69-105">In the Brazilian localization, you must generate a Nota Fiscal eletrônica (NF e) to register the movement of items and services between two parties.</span></span>
 <span data-ttu-id="b6a69-106">A nota fiscal de NF-e deve ser assinada e transmitida à autoridade fiscal do estado usando um certificado de cliente que é emitido por uma autoridade de certificação (CA) brasileira.</span><span class="sxs-lookup"><span data-stu-id="b6a69-106">The NF e fiscal document must be signed and transmitted to the state tax authority using a client certificate that is issued by a Brazilian certificate authority (CA).</span></span>

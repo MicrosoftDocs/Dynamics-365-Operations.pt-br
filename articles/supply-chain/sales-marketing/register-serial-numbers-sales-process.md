@@ -20,18 +20,18 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: 061555a228d1d40f2a2d864e72f39dc27155d1bd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5034ecf6b6d8c27b2b22ce0a36c5ff5df3205e15
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="register-serial-numbers-in-the-sales-process"></a><span data-ttu-id="4ff9e-104">Registrar números de série no processo de venda</span><span class="sxs-lookup"><span data-stu-id="4ff9e-104">Register serial numbers in the sales process</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="4ff9e-105">Este tópico explica como você pode registrar números de série em guias de remessa ou em faturas durante o processo de vendas.</span><span class="sxs-lookup"><span data-stu-id="4ff9e-105">This topic explains how you can register serial numbers on packing slips or invoices during the sales process.</span></span> <span data-ttu-id="4ff9e-106">Essa funcionalidade será útil se uma empresa quiser capturar números de série para fins de serviço e de garantia, e não precisa manter os números de série no estoque do recebimento até a saída.</span><span class="sxs-lookup"><span data-stu-id="4ff9e-106">This functionality is useful if a company wants to capture serial numbers for service and warranty purposes, but doesn't have to maintain serial numbers in inventory from receipt to issue.</span></span>
 

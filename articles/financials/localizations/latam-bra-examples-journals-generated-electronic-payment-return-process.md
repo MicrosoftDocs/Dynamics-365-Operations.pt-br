@@ -17,17 +17,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cd2da3457d556e8ae8805b09780c3caf58521ad4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f5201cecbacd50235de473e312aec7b919b0898c
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="journals-generated-during-the-electronic-payment-return-process-for-brazil"></a><span data-ttu-id="e3e9d-104">Diários gerados durante o processo de devolução de pagamento eletrônico do Brasil</span><span class="sxs-lookup"><span data-stu-id="e3e9d-104">Journals generated during the electronic payment return process for Brazil</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e3e9d-105">Esse tópico mostra como os diários de pagamentos são gerados quando você importa e lança o arquivo de retorno para pagamentos eletrônicos.</span><span class="sxs-lookup"><span data-stu-id="e3e9d-105">This topic shows how payment journals are generated when you import and post the return file for electronic payments.</span></span> <span data-ttu-id="e3e9d-106">As linhas de pagamento aprovadas no arquivo de retorno podem ser lançadas em um diário ou em vários diários.</span><span class="sxs-lookup"><span data-stu-id="e3e9d-106">The approved payment lines in the return file can be posted either to one journal or multiple journals.</span></span>
 

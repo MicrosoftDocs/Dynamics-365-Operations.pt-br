@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92a981cbf9803e8adce1efc26a3fcfcb998540da
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: df8c74697251fa762520d62f7d87d82179390f80
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a><span data-ttu-id="12bd0-104">Usar um pagamento de cliente para liquidar várias faturas que abrangem vários períodos de desconto</span><span class="sxs-lookup"><span data-stu-id="12bd0-104">Use a customer payment to settle multiple invoices that span multiple discount periods</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="12bd0-105">Este tópico mostra como várias faturas são pagas quando cada fatura se qualifica para um desconto à vista.</span><span class="sxs-lookup"><span data-stu-id="12bd0-105">This topic shows how multiple invoices are paid when each invoice qualifies for a cash discount.</span></span> <span data-ttu-id="12bd0-106">Os cenários neste artigo realçam como os descontos à vista efetuados podem variar, dependendo de quando o pagamento é efetuado.</span><span class="sxs-lookup"><span data-stu-id="12bd0-106">The scenarios in his article highlight how the cash discounts that are taken vary, depending on when the payment is made.</span></span>
 

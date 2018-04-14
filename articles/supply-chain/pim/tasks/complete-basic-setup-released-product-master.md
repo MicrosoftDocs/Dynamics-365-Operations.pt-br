@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 35617f5bec877fbe8a89d015eda16a66ee14d335
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d52b337d9062fa8051e02144df5d064e54a6784d
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a><span data-ttu-id="a3ebb-103">Completar instalação básica de um produto mestre lançado</span><span class="sxs-lookup"><span data-stu-id="a3ebb-103">Complete basic setup of a released product master</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a3ebb-104">Este procedimento mostra como concluir a configuração mínima necessária antes que o produto mestre possa ser usado em versões de Listas de Materiais.</span><span class="sxs-lookup"><span data-stu-id="a3ebb-104">This procedure shows how to complete the minimum setup that is required before the product master can be used in BOM versions.</span></span>
 

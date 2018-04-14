@@ -16,30 +16,30 @@ ms.author: v-gonode
 ms.search.validfrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: d11d78aa94d6e3e3b7a8a605261a95448388f11e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cdd646cdbf784df103cc52700f834847b9b91c68
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="ciap-fixed-asset"></a><span data-ttu-id="a4801-103">Registro do CIAP</span><span class="sxs-lookup"><span data-stu-id="a4801-103">CIAP fixed asset</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="acquire-a-ciap-fixed-asset"></a><span data-ttu-id="a4801-104">Adquirir um ativo fixo CIAP</span><span class="sxs-lookup"><span data-stu-id="a4801-104">Acquire a CIAP fixed asset</span></span>
 <span data-ttu-id="a4801-105">Use esta funcionalidade para registrar no módulo Livros fiscais a aquisição de um ativo fixo controlado pelo ICMS recuperável a longo prazo.</span><span class="sxs-lookup"><span data-stu-id="a4801-105">Use this functionality to register in Fiscal books module the acquisition of a fixed asset controlled by the ICMS tax long term return.</span></span>
 
-1.  <span data-ttu-id="a4801-106">Na página **Todas as ordens de compra**, no campo **Conta de fornecedor**, selecione um fornecedor.</span><span class="sxs-lookup"><span data-stu-id="a4801-106">On the **All purchase orders** page, in the **Vendor account** field, select a vendor.</span></span>
-2.  <span data-ttu-id="a4801-107">Clique em **Adicionar linha**.</span><span class="sxs-lookup"><span data-stu-id="a4801-107">Click **Add line**.</span></span>
- -  <span data-ttu-id="a4801-108">Preencha os campos **Número de item**, **CFOP**, **Quantidade**, **Preço unitário**.</span><span class="sxs-lookup"><span data-stu-id="a4801-108">Fill in the **Item number**, **CFOP**, **Quantity**, **Unit price** fields.</span></span>
-3.  <span data-ttu-id="a4801-109">Expanda a seção Detalhes da linha.</span><span class="sxs-lookup"><span data-stu-id="a4801-109">Expand the Line details section.</span></span>
-4.  <span data-ttu-id="a4801-110">Clique na guia **Ativos fixos**.</span><span class="sxs-lookup"><span data-stu-id="a4801-110">Click the **Fixed assets** tab.</span></span>
-5.  <span data-ttu-id="a4801-111">Selecione o campo **Sim para o novo ativo fixo?**.</span><span class="sxs-lookup"><span data-stu-id="a4801-111">Select **Yes in the New fixed asset?** field.</span></span>
-6.  <span data-ttu-id="a4801-112">No campo **Grupo de ativo fixo**, selecione um grupo de ativo fixo.</span><span class="sxs-lookup"><span data-stu-id="a4801-112">In the **Fixed asset group** field, select a fixed asset group.</span></span>
-7.  <span data-ttu-id="a4801-113">Na guia **Dimensões financeiras**, preencha os campos **CostCenter** e **Filial**.</span><span class="sxs-lookup"><span data-stu-id="a4801-113">On the **Financial dimensions** tab, fill out the **CostCenter** and **Filial** fields.</span></span>
-8.  <span data-ttu-id="a4801-114">Clique em **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="a4801-114">Click **Confirm**.</span></span>
-9.  <span data-ttu-id="a4801-115">Na página **Todas as ordens de compra**, clique no link para selecionar uma Ordem de compra.</span><span class="sxs-lookup"><span data-stu-id="a4801-115">On the **All purchase orders** page, click the link to select a Purchase order.</span></span>
+1. <span data-ttu-id="a4801-106">Na página **Todas as ordens de compra**, no campo **Conta de fornecedor**, selecione um fornecedor.</span><span class="sxs-lookup"><span data-stu-id="a4801-106">On the **All purchase orders** page, in the **Vendor account** field, select a vendor.</span></span>
+2. <span data-ttu-id="a4801-107">Clique em **Adicionar linha**.</span><span class="sxs-lookup"><span data-stu-id="a4801-107">Click **Add line**.</span></span>
+   -  <span data-ttu-id="a4801-108">Preencha os campos **Número de item**, **CFOP**, **Quantidade**, **Preço unitário**.</span><span class="sxs-lookup"><span data-stu-id="a4801-108">Fill in the **Item number**, **CFOP**, **Quantity**, **Unit price** fields.</span></span>
+3. <span data-ttu-id="a4801-109">Expanda a seção Detalhes da linha.</span><span class="sxs-lookup"><span data-stu-id="a4801-109">Expand the Line details section.</span></span>
+4. <span data-ttu-id="a4801-110">Clique na guia **Ativos fixos**.</span><span class="sxs-lookup"><span data-stu-id="a4801-110">Click the **Fixed assets** tab.</span></span>
+5. <span data-ttu-id="a4801-111">Selecione o campo **Sim para o novo ativo fixo?**.</span><span class="sxs-lookup"><span data-stu-id="a4801-111">Select **Yes in the New fixed asset?** field.</span></span>
+6. <span data-ttu-id="a4801-112">No campo **Grupo de ativo fixo**, selecione um grupo de ativo fixo.</span><span class="sxs-lookup"><span data-stu-id="a4801-112">In the **Fixed asset group** field, select a fixed asset group.</span></span>
+7. <span data-ttu-id="a4801-113">Na guia **Dimensões financeiras**, preencha os campos **CostCenter** e **Filial**.</span><span class="sxs-lookup"><span data-stu-id="a4801-113">On the **Financial dimensions** tab, fill out the **CostCenter** and **Filial** fields.</span></span>
+8. <span data-ttu-id="a4801-114">Clique em **Confirmar**.</span><span class="sxs-lookup"><span data-stu-id="a4801-114">Click **Confirm**.</span></span>
+9. <span data-ttu-id="a4801-115">Na página **Todas as ordens de compra**, clique no link para selecionar uma Ordem de compra.</span><span class="sxs-lookup"><span data-stu-id="a4801-115">On the **All purchase orders** page, click the link to select a Purchase order.</span></span>
 10. <span data-ttu-id="a4801-116">No Painel de Ação, clique em **Fatura** > **Padrão de: Quantidade de recebimento de produtos**.</span><span class="sxs-lookup"><span data-stu-id="a4801-116">On the Action Pane, click **Invoice** > **Default from: Product receipt quantity**.</span></span> <span data-ttu-id="a4801-117">No campo **Quantidade padrão para linhas**, selecione uma quantidade.</span><span class="sxs-lookup"><span data-stu-id="a4801-117">In the **Default quantity for lines** field, select a quantity.</span></span>
 11. <span data-ttu-id="a4801-118">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="a4801-118">Click **OK**.</span></span>
 12. <span data-ttu-id="a4801-119">Preencha os campos **Modelo de documento**, **Chave de acesso**, **Data da fatura** e **Data de lançamento**.</span><span class="sxs-lookup"><span data-stu-id="a4801-119">Fill in the **Document model**, **Access key**, **Invoice date** and **Posting date** fields.</span></span>

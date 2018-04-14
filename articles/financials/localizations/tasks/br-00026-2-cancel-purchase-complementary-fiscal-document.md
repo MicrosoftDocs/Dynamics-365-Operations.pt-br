@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 39c107b7c9f60b2aefecb55785ef824908196002
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c3067b643740877234cd7768a419ccb3f46a7735
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="cancel-a-purchase-complementary-fiscal-document-brazil"></a><span data-ttu-id="f335c-103">Cancelar uma nota fiscal complementar de compra (Brasil)</span><span class="sxs-lookup"><span data-stu-id="f335c-103">Cancel a purchase complementary fiscal document (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f335c-104">É possível cancelar uma nota fiscal complementar de compra incorreta e fornecer um motivo para o cancelamento.</span><span class="sxs-lookup"><span data-stu-id="f335c-104">You can cancel an incorrect purchase complementary fiscal document and provide a reason for the cancellation.</span></span> <span data-ttu-id="f335c-105">Ao cancelar uma nota fiscal complementar de compra, uma nota fiscal complementar de compra é criada com os preços ou valores negativos de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços), ou de IPI (Imposto Sobre Produtos Industrializados).</span><span class="sxs-lookup"><span data-stu-id="f335c-105">When you cancel a purchase complementary fiscal document, a purchase complementary fiscal document is created that has a negative price amount, an Imposto Sobre Circulação de Mercadorias e Serviços (ICMS) amount, or an Imposto Sobre Produtos Industrializados (IPI) amount.</span></span> <span data-ttu-id="f335c-106">Ao lançar a nota fiscal complementar de compra negativa, a nota fiscal complementar original é marcada como cancelada, e todas as transações do razão e as transações financeiras são revertidas.</span><span class="sxs-lookup"><span data-stu-id="f335c-106">When you post the negative purchase complementary fiscal document, the original complementary fiscal document is marked as canceled, and all the ledger transactions and financial transactions are reversed.</span></span> <span data-ttu-id="f335c-107">A nota fiscal complementar de compra original é relatada em livros fiscais como cancelada.</span><span class="sxs-lookup"><span data-stu-id="f335c-107">The original purchase complementary fiscal document is reported in the fiscal books as canceled.</span></span> <span data-ttu-id="f335c-108">A nota fiscal complementar de compra negativa não é relatada em livros fiscais.</span><span class="sxs-lookup"><span data-stu-id="f335c-108">The negative purchase complementary fiscal document isn't reported in the fiscal books.</span></span> <span data-ttu-id="f335c-109">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="f335c-109">This task uses the BRMF demo company.</span></span>
 

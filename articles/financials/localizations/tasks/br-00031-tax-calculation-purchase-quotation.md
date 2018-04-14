@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e91799ada109a489645ba83844d20bb7fafe973e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 26a25309cddb0f3ea43375c074f0d882143aec4c
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="calculate-tax-on-purchase-quotations-brazil"></a><span data-ttu-id="df67f-103">Calcular impostos em cotações de compra (Brasil)</span><span class="sxs-lookup"><span data-stu-id="df67f-103">Calculate tax on purchase quotations (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="df67f-104">Você pode criar uma solicitação de cotação (RFQ) de compra e, ao inserir a resposta do fornecedor, você pode fornecer informações fiscais aplicáveis.</span><span class="sxs-lookup"><span data-stu-id="df67f-104">You can create a purchase request for quotation (RFQ), and when you enter the vendor reply, you can enter applicable fiscal information.</span></span> <span data-ttu-id="df67f-105">Quando a RFQ é aceita, cria-se uma ordem de compra com as mesmas informações fiscais inseridas no RFQ.</span><span class="sxs-lookup"><span data-stu-id="df67f-105">When the RFQ is accepted, a purchase order is created that has the same fiscal information that is entered in the RFQ.</span></span> <span data-ttu-id="df67f-106">Este registro usa a empresa de dados de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="df67f-106">This recording uses the BRMF demo company.</span></span>
 

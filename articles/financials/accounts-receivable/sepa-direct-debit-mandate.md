@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: b06a5385d7c33ddcfe6bfabbfda6a1f7fa99aada
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 84e4a714b1233a0fb4ebb04757ba12a5d14d6f44
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-sepa-direct-debit-mandate"></a><span data-ttu-id="2b2ab-103">Configurar carta de ordem de débito direto SEPA</span><span class="sxs-lookup"><span data-stu-id="2b2ab-103">Set up SEPA direct debit mandate</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2b2ab-104">Um débito direto de SEPA (Área Única de Pagamentos em Euros) permite que um credor colete fundos da conta bancária de um cliente, desde que um mandato assinado tenha sido concedido pelo cliente ao credor.</span><span class="sxs-lookup"><span data-stu-id="2b2ab-104">A Single Euro Payment Area (SEPA) direct debit lets a creditor collect funds from a customer's bank account, provided that the customer has granted a signed mandate to the creditor.</span></span> <span data-ttu-id="2b2ab-105">O cliente assina um mandato que autoriza o credor a cobrar um pagamento e a instruir o banco do cliente para pagar a cobrança.</span><span class="sxs-lookup"><span data-stu-id="2b2ab-105">The mandate that the customer signs authorizes the creditor to collect a payment and instructs the customer's bank to pay the collection.</span></span> <span data-ttu-id="2b2ab-106">Este tópico está organizado para mostrar o processo de criação de mandatos de débito direto da SEPA.</span><span class="sxs-lookup"><span data-stu-id="2b2ab-106">This topic is organized to show the process for setting up SEPA direct debit mandates.</span></span>
 

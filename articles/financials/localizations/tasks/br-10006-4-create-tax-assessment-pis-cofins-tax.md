@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 93ab7d67afe05165ed9d9a81e1b1efa51a50a49e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fcf7f327fb021f4a4e6de5128be205104e316a2e
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-tax-assessment---pis-and-cofins-tax-brazil"></a><span data-ttu-id="059b9-103">Criar uma apuração de imposto - PIS e COFINS (Brasil)</span><span class="sxs-lookup"><span data-stu-id="059b9-103">Create a tax assessment - PIS and COFINS tax (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="059b9-104">Você pode criar uma avaliação de imposto para contribuições de PIS/COFINS por um período de escrituração específico.</span><span class="sxs-lookup"><span data-stu-id="059b9-104">You can create the tax assessment for PIS/COFINS contributions for a given booking period.</span></span> <span data-ttu-id="059b9-105">A avaliação de imposto considera o valor da contribuição de PIS/COFINS para recuperar e o valor da contribuição de PIS/COFINS para pagar os documentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="059b9-105">The tax assessment considers the PIS/COFINS contribution amount to recover and the PIS/COFINS contribution amount to pay from the fiscal documents.</span></span> <span data-ttu-id="059b9-106">Para o valor devido após a apuração de imposto, crie o pagamento de impostos.</span><span class="sxs-lookup"><span data-stu-id="059b9-106">For the  amount that is due after the tax assessment, you can create the tax payment.</span></span> <span data-ttu-id="059b9-107">Este registro usa a empresa de dados de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="059b9-107">This recording uses the BRMF demo company.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 34e4f4c8c379afa283280bf327abe31377f4a7f0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a298ff9689b460bec0a4dcf53b3ca7de8e05fb10
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="generate-and-run-out-of-box-reports"></a><span data-ttu-id="eac6b-103">Gerar e executar relatórios prontos para uso</span><span class="sxs-lookup"><span data-stu-id="eac6b-103">Generate and run out-of-box reports</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="eac6b-104">Use este guia de tarefas para executar relatórios prontos para uso na matriz de diferentes espaços de trabalho e relatórios de Consultas e Vendas localizados em Varejo e comércio.</span><span class="sxs-lookup"><span data-stu-id="eac6b-104">Use this task guide to run out of box reports in headquarters from different workspaces and Inquiries & Sales reports located under Retail & Commerce.</span></span>
 

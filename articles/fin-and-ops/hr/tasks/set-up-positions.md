@@ -16,15 +16,15 @@ ms.author: dkrame
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 38ff9fde897136fa23a2c2951167f6507b047b2d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 110dde293fea31f82fb4b2b1c54bf96d5baa04b3
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-positions"></a><span data-ttu-id="d1505-103">Configurar posições</span><span class="sxs-lookup"><span data-stu-id="d1505-103">Set up positions</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d1505-104">Os cargos são um elemento importante do nível inferior de uma hierarquia organizacional.</span><span class="sxs-lookup"><span data-stu-id="d1505-104">Positions are an important element of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="d1505-105">Um cargo é uma instância individual de um trabalho.</span><span class="sxs-lookup"><span data-stu-id="d1505-105">A position is an individual instance of a job.</span></span> <span data-ttu-id="d1505-106">Por exemplo, a posição, "Gerente de vendas (Leste)", é uma das posições associadas ao trabalho, "Gerente de vendas".</span><span class="sxs-lookup"><span data-stu-id="d1505-106">For example, the position, “Sales manager (East),” is one of the positions that is associated with the job, “Sales manager.”</span></span> <span data-ttu-id="d1505-107">Uma posição existe em um departamento e pode ter somente um trabalhador associado a ela.</span><span class="sxs-lookup"><span data-stu-id="d1505-107">A position exists in a department and may have only one worker associated with it.</span></span> <span data-ttu-id="d1505-108">Nesta tarefa mostraremos as etapas necessárias para criar uma posição.</span><span class="sxs-lookup"><span data-stu-id="d1505-108">In this task we will walk through the steps required to create a position.</span></span> <span data-ttu-id="d1505-109">Esse procedimento é destinado ao Especialista de recursos humanos.</span><span class="sxs-lookup"><span data-stu-id="d1505-109">This procedure is intended for Human Resources Specialists.</span></span>
 

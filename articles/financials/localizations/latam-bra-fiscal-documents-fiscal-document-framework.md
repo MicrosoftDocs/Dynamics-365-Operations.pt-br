@@ -18,17 +18,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2bbb5f23b34e5665fce0310a4e5b838cb8a265d9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 17c6a3b418cb052f3a2de447bb8ce93b45450e53
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="fiscal-documents-and-fiscal-document-framework-for-brazil"></a><span data-ttu-id="8851c-103">Notas fiscais e suas estruturas para o Brasil</span><span class="sxs-lookup"><span data-stu-id="8851c-103">Fiscal documents and fiscal document framework for Brazil</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8851c-104">Este tópico descreve as notas fiscais do Brasil.</span><span class="sxs-lookup"><span data-stu-id="8851c-104">This topic describes fiscal documents for Brazil.</span></span>
 

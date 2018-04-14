@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7093338fd306e90df79a787f9de9861b3fe49dd5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 57884660fb9459c8cd918e5d1ba4df14efcf6db3
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="process-and-trace-source-data"></a><span data-ttu-id="cd6a5-103">Processar e rastrear dados de origem</span><span class="sxs-lookup"><span data-stu-id="cd6a5-103">Process and trace source data</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cd6a5-104">Todo o processamento de dados é executado por trabalhos.</span><span class="sxs-lookup"><span data-stu-id="cd6a5-104">All data processing is run by jobs.</span></span> <span data-ttu-id="cd6a5-105">Para cada trabalho e provedor de dados, é criado um diário para documentar que o processo foi executado, e que as entradas foram processadas no trabalho atual.</span><span class="sxs-lookup"><span data-stu-id="cd6a5-105">For each job and data provider, a journal is created to document that the process has been run, and that the entries were processed in the current job.</span></span> <span data-ttu-id="cd6a5-106">Use este procedimento para configurar uma fonte de dados e para rastrear a origem de uma entrada de custos específica.</span><span class="sxs-lookup"><span data-stu-id="cd6a5-106">Use this procedure to set up a data source and then  trace the origin of a specific cost entry.</span></span> <span data-ttu-id="cd6a5-107">Esta gravação usa os dados da empresa de demonstração USP2.</span><span class="sxs-lookup"><span data-stu-id="cd6a5-107">This recording uses the USP2 demo data company USP2.</span></span> <span data-ttu-id="cd6a5-108">Antes de concluir esta tarefa, certifique-se de que executou os guias de tarefas "Criar um razão de contabilização de custos" e "Definir unidades de controle de custos".</span><span class="sxs-lookup"><span data-stu-id="cd6a5-108">Before you complete this task, make sure that you play the following task guides: "Create a cost accounting ledger," "Define cost control units," and "Manage data source for the cost accounting ledger."</span></span>
 

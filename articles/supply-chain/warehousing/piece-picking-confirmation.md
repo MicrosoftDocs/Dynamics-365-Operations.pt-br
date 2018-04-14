@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: b1868851d22f41d3278cd9574a48bdf062185012
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5109bc180cedfb21dfb8b2920d71d54812e7e6cf
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="piece-picking-confirmation"></a><span data-ttu-id="0bf5d-103">Confirmação de separação de peças</span><span class="sxs-lookup"><span data-stu-id="0bf5d-103">Piece picking confirmation</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0bf5d-104">A separação de peças permite que você confirme cada peça de estoque por meio do trabalho de separação ou de contagem em um dispositivo móvel.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="0bf5d-105">Referente às separações, é possível confirmar desde a quantidade de trabalho a ser processado até a quantidade especificada no trabalho a ser separado.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="0bf5d-106">Referente ao trabalho de contagem, é possível verificar o estoque que você está contando e rastrear o valor total.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 
@@ -46,8 +46,10 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="0bf5d-122">As seguintes opções tornam-se disponíveis para seleção quando o tipo de trabalho é separação e contagem.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-122">The following options become available for selection when the work type is pick or counting.</span></span>
 
-| <span data-ttu-id="0bf5d-123">Opção</span><span class="sxs-lookup"><span data-stu-id="0bf5d-123">Option</span></span>        | <span data-ttu-id="0bf5d-124">descrição</span><span class="sxs-lookup"><span data-stu-id="0bf5d-124">Description</span></span>   | 
-| ------------- | ------------- |
-| <span data-ttu-id="0bf5d-125">Confirmação de separação de peças</span><span class="sxs-lookup"><span data-stu-id="0bf5d-125">Piece picking confirmation</span></span>   | <span data-ttu-id="0bf5d-126">Disponível para tipos de trabalho de separação e contagem.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-126">Available for pick and counting work types.</span></span> <span data-ttu-id="0bf5d-127">A confirmação de produto é selecionada automaticamente.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="0bf5d-128">Permite a você confirmar cada peça de estoque do dispositivo móvel.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> | 
-| <span data-ttu-id="0bf5d-129">Número máximo de peças</span><span class="sxs-lookup"><span data-stu-id="0bf5d-129">Maximum number of pieces</span></span>     | <span data-ttu-id="0bf5d-130">Disponível para trabalho de separação se a confirmação de separação de peças estiver habilitada.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="0bf5d-131">Define um limite para o número de peças que você deve confirmar.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-131">Sets a limit to the number of pieces that you must confirm.</span></span> |  
+
+|           <span data-ttu-id="0bf5d-123">Opção</span><span class="sxs-lookup"><span data-stu-id="0bf5d-123">Option</span></span>           |                                                                            <span data-ttu-id="0bf5d-124">descrição</span><span class="sxs-lookup"><span data-stu-id="0bf5d-124">Description</span></span>                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="0bf5d-125">Confirmação de separação de peças</span><span class="sxs-lookup"><span data-stu-id="0bf5d-125">Piece picking confirmation</span></span> | <span data-ttu-id="0bf5d-126">Disponível para tipos de trabalho de separação e contagem.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-126">Available for pick and counting work types.</span></span> <span data-ttu-id="0bf5d-127">A confirmação de produto é selecionada automaticamente.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="0bf5d-128">Permite a você confirmar cada peça de estoque do dispositivo móvel.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> |
+|  <span data-ttu-id="0bf5d-129">Número máximo de peças</span><span class="sxs-lookup"><span data-stu-id="0bf5d-129">Maximum number of pieces</span></span>  |                   <span data-ttu-id="0bf5d-130">Disponível para trabalho de separação se a confirmação de separação de peças estiver habilitada.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="0bf5d-131">Define um limite para o número de peças que você deve confirmar.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-131">Sets a limit to the number of pieces that you must confirm.</span></span>                   |
+
 

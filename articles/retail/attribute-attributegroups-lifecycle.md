@@ -19,16 +19,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad524e8d585da2140f3cdae17e3a1a2832ada3f0
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a><span data-ttu-id="1f35a-102">Atributos, grupos de atributos e suas associações com várias entidades de varejo no Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="1f35a-102">Attributes, attribute groups, and their associations with various Retail entities in Finance and Operations</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="1f35a-103">Os *Atributos* fornecem uma maneira de descrever melhor um produto e suas características por meio de campos definidos pelo usuário (como **Tamanho da memória**, **Capacidade do disco rígido**, **Compatível com Energy Star** etc).</span><span class="sxs-lookup"><span data-stu-id="1f35a-103">*Attributes* provide a way to further describe a product and its characteristics through user-defined fields (such as **Memory size**, **Hard disk capacity**, **Is Energy star compliant**, and so on).</span></span> <span data-ttu-id="1f35a-104">No Microsoft Dynamics 365 for Finance and Operations, os atributos podem ser associados a várias entidades do Retail, como categorias de produto e canais de varejo; além disso, é possível definir valores padrão para eles.</span><span class="sxs-lookup"><span data-stu-id="1f35a-104">In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</span></span> <span data-ttu-id="1f35a-105">Os produtos então herdam os atributos e os valores padrão quando são associados às categorias de produto ou aos canais de varejo.</span><span class="sxs-lookup"><span data-stu-id="1f35a-105">Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</span></span> <span data-ttu-id="1f35a-106">Os valores padrão podem ser substituídos no nível do produto individual, do canal de varejo ou em um catálogo de varejo.</span><span class="sxs-lookup"><span data-stu-id="1f35a-106">The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</span></span>
  
@@ -227,13 +227,13 @@ ms.lasthandoff: 03/26/2018
 5. <span data-ttu-id="1f35a-307">Na Guia Rápida **Produtos**, selecione o produto obrigatório e, em seguida, selecione **Atributos** acima da grade do produto.</span><span class="sxs-lookup"><span data-stu-id="1f35a-307">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
 6. <span data-ttu-id="1f35a-308">Nas seguintes Guias Rápidas, atualize os valores dos atributos obrigatórios:</span><span class="sxs-lookup"><span data-stu-id="1f35a-308">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="1f35a-309">Mídia do produto compartilhado</span><span class="sxs-lookup"><span data-stu-id="1f35a-309">Shared product media</span></span>
-    - <span data-ttu-id="1f35a-310">Atributos do produto compartilhado</span><span class="sxs-lookup"><span data-stu-id="1f35a-310">Shared product attributes</span></span>
-    - <span data-ttu-id="1f35a-311">Mídia do canal</span><span class="sxs-lookup"><span data-stu-id="1f35a-311">Channel media</span></span>
-    - <span data-ttu-id="1f35a-312">Atributos de produto do canal</span><span class="sxs-lookup"><span data-stu-id="1f35a-312">Channel product attributes</span></span>
+   - <span data-ttu-id="1f35a-309">Mídia do produto compartilhado</span><span class="sxs-lookup"><span data-stu-id="1f35a-309">Shared product media</span></span>
+   - <span data-ttu-id="1f35a-310">Atributos do produto compartilhado</span><span class="sxs-lookup"><span data-stu-id="1f35a-310">Shared product attributes</span></span>
+   - <span data-ttu-id="1f35a-311">Mídia do canal</span><span class="sxs-lookup"><span data-stu-id="1f35a-311">Channel media</span></span>
+   - <span data-ttu-id="1f35a-312">Atributos de produto do canal</span><span class="sxs-lookup"><span data-stu-id="1f35a-312">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="1f35a-313">Se a mídia de produto e os atributos de produto compartilhados forem criados no Finance and Operations, se aplicarão a todos os produtos de varejo.</span><span class="sxs-lookup"><span data-stu-id="1f35a-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="1f35a-313">Se a mídia de produto e os atributos de produto compartilhados forem criados no Finance and Operations, se aplicarão a todos os produtos de varejo.</span><span class="sxs-lookup"><span data-stu-id="1f35a-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 
 ![Grupos de atributos de produto do catálogo](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ ms.lasthandoff: 03/26/2018
 
 5. <span data-ttu-id="1f35a-321">Nas seguintes Guias Rápidas, atualize os valores dos atributos obrigatórios:</span><span class="sxs-lookup"><span data-stu-id="1f35a-321">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="1f35a-322">Mídia do produto compartilhado</span><span class="sxs-lookup"><span data-stu-id="1f35a-322">Shared product media</span></span>
-    - <span data-ttu-id="1f35a-323">Atributos do produto compartilhado</span><span class="sxs-lookup"><span data-stu-id="1f35a-323">Shared product attributes</span></span>
-    - <span data-ttu-id="1f35a-324">Mídia do canal</span><span class="sxs-lookup"><span data-stu-id="1f35a-324">Channel media</span></span>
-    - <span data-ttu-id="1f35a-325">Atributos de produto do canal</span><span class="sxs-lookup"><span data-stu-id="1f35a-325">Channel product attributes</span></span>
+   - <span data-ttu-id="1f35a-322">Mídia do produto compartilhado</span><span class="sxs-lookup"><span data-stu-id="1f35a-322">Shared product media</span></span>
+   - <span data-ttu-id="1f35a-323">Atributos do produto compartilhado</span><span class="sxs-lookup"><span data-stu-id="1f35a-323">Shared product attributes</span></span>
+   - <span data-ttu-id="1f35a-324">Mídia do canal</span><span class="sxs-lookup"><span data-stu-id="1f35a-324">Channel media</span></span>
+   - <span data-ttu-id="1f35a-325">Atributos de produto do canal</span><span class="sxs-lookup"><span data-stu-id="1f35a-325">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="1f35a-326">Se a mídia de produto e os atributos de produto compartilhados forem criados no Finance and Operations, se aplicarão a todos os produtos de varejo.</span><span class="sxs-lookup"><span data-stu-id="1f35a-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="1f35a-326">Se a mídia de produto e os atributos de produto compartilhados forem criados no Finance and Operations, se aplicarão a todos os produtos de varejo.</span><span class="sxs-lookup"><span data-stu-id="1f35a-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: v-gonode
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: bdc02db694255faba75deab97b44dd4eaea4a8bb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 51651b92803cb3fbaa3ab9a88a9ea03339364bf7
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="export-and-import-transactions-for-general-ledger-consolidation-for-brazil"></a><span data-ttu-id="04f20-103">Exportar e importar transações da consolidação de contabilidade para o Brasil</span><span class="sxs-lookup"><span data-stu-id="04f20-103">Export and import transactions for General ledger consolidation for Brazil</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="04f20-104">Você pode transferir transações de contabilidade da empresa de origem para a conta consolidada na empresa consolidada sem consolidar as transações.</span><span class="sxs-lookup"><span data-stu-id="04f20-104">You can transfer general ledger transactions from the source company to the consolidated account in the consolidated company without consolidating the transactions.</span></span>
 

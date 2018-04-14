@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 047d735d47565cae06c5d38531ed35972710adf5
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-forecasts-and-budgets"></a><span data-ttu-id="73551-103">Previsões e orçamentos de projeto</span><span class="sxs-lookup"><span data-stu-id="73551-103">Project forecasts and budgets</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="73551-104">O Microsoft Dynamics 365 for Finance and Operations fornece duas maneiras de gerenciar e controlar seus projetos: previsões e orçamentos de projetos.</span><span class="sxs-lookup"><span data-stu-id="73551-104">Microsoft Dynamics 365 for Finance and Operations provides two ways to manage and control your projects: project forecasts and project budgets.</span></span> 
 

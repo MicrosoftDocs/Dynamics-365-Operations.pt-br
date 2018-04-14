@@ -18,17 +18,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b3499d074d7f762bcc3b7851fd0df06f872c32d4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3b4f5fdc46ae7686095678b7a2b620d27b28c1bc
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="icms-tax-fiscal-documents-for-brazil"></a><span data-ttu-id="411f5-103">Notas fiscais de transferência ou apropriação de imposto ICMS para o Brasil</span><span class="sxs-lookup"><span data-stu-id="411f5-103">ICMS tax fiscal documents for Brazil</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="411f5-104">Este tópico explica o conceito de notas fiscais de transferência ou apropriação de imposto e descreve os requisitos para gerá-las.</span><span class="sxs-lookup"><span data-stu-id="411f5-104">This topic explains the concept of tax fiscal documents and describes the requirements for generating them.</span></span>
 

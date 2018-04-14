@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5dea9d7bfb1bf7b11f6c49cccaab1b73d4e58d16
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 140d9f7a48b6cb06f02d3c4e6440d0a99a9d8161
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a><span data-ttu-id="6bd8e-103">Inserir e comparar lances RFQ e contratos de prêmio</span><span class="sxs-lookup"><span data-stu-id="6bd8e-103">Enter and compare RFQ bids and award contracts</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6bd8e-104">Este procedimento mostra como inserir respostas de uma solicitação de cotação, marcar e comparar ofertas, além de conceder a oferta a um dos fornecedores.</span><span class="sxs-lookup"><span data-stu-id="6bd8e-104">This procedure shows you how to enter replies to an RFQ, score and compare bids, and then award the bid to one of the vendors.</span></span> <span data-ttu-id="6bd8e-105">Você pode usar este procedimento na empresa USMF de dados de demonstração.</span><span class="sxs-lookup"><span data-stu-id="6bd8e-105">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="6bd8e-106">Antes de começar, você deve ter uma RFQ com duas linhas que foi enviado para pelo menos dois fornecedores.</span><span class="sxs-lookup"><span data-stu-id="6bd8e-106">Before you start, you must have an RFQ with two lines that has been sent to at least two vendors.</span></span> <span data-ttu-id="6bd8e-107">Você pode executar o procedimento "Criar uma solicitação de cotação" como um pré-requisito para criar isso.</span><span class="sxs-lookup"><span data-stu-id="6bd8e-107">You can run the "Create a request for quotation" procedure as a prerequisite to create this.</span></span> <span data-ttu-id="6bd8e-108">Você precisa ter configurado critérios de pontuação antes de executar este procedimento.</span><span class="sxs-lookup"><span data-stu-id="6bd8e-108">You need to have set up scoring criteria before you can run this procedure.</span></span>
 

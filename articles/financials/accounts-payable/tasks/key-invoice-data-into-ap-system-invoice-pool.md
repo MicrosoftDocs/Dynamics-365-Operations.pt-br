@@ -16,15 +16,15 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 96040b1c1ba130f773ba0defbf7bf1dcebedfc13
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fd5f9bb94817478939eeaea5890349c138de977b
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a><span data-ttu-id="4d133-103">Dados-chave de fatura no sistema de AP usando grupo de faturas</span><span class="sxs-lookup"><span data-stu-id="4d133-103">Key invoice data into the AP system using invoice pool</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4d133-104">Esta guia da tarefa mostrará como usar o registro de nota fiscal para criar notas fiscais.</span><span class="sxs-lookup"><span data-stu-id="4d133-104">This task guide will show you how to use the invoice register to create invoices.</span></span>  <span data-ttu-id="4d133-105">Use o grupo de notas fiscais para fazer a correspondência da nota fiscal para uma ordem de compra e finalizar as despesas na página da nota fiscal do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="4d133-105">Then use the invoice pool to match the invoice to a purchase order and finalize the expense in the vendor invoice page.</span></span>
 

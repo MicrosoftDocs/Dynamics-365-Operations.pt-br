@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 6e8028689d20dd1310dfb89766db3eea3218fc90
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4d8c82998e6b19adbd67b6b5ea3d68d2fbd08d8b
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a><span data-ttu-id="5bfc4-103">Modificar as relações de subordinação de uma posição</span><span class="sxs-lookup"><span data-stu-id="5bfc4-103">Modify reporting relationships for a position</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5bfc4-104">Este procedimento mostra como alterar a relação de subordinação de um funcionário.</span><span class="sxs-lookup"><span data-stu-id="5bfc4-104">This procedure shows how to change the reporting relationship for an employee.</span></span> <span data-ttu-id="5bfc4-105">A relação de subordinação pode ser usada para documentos de roteiros com o fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="5bfc4-105">The reporting relationship can be used for routing documents through workflow.</span></span> <span data-ttu-id="5bfc4-106">O procedimento também mostra como atribuir um funcionário às hierarquias adicionais.</span><span class="sxs-lookup"><span data-stu-id="5bfc4-106">The procedure also shows how to assign the employee to additional hierarchies.</span></span> <span data-ttu-id="5bfc4-107">Por exemplo, um funcionário pode fazer parte de uma equipe de projeto com uma relação de subordinação informal a um supervisor do projeto.</span><span class="sxs-lookup"><span data-stu-id="5bfc4-107">For example, an employee might be a part of a project team with an informal reporting relationship to a project supervisor.</span></span> <span data-ttu-id="5bfc4-108">As relações de subordinação adicionais podem ser definidas na posição para acomodar vários cenários de projeto ou de matriz.</span><span class="sxs-lookup"><span data-stu-id="5bfc4-108">Additional reporting relationships can be defined on the position to accommodate various project or matrix scenarios.</span></span> <span data-ttu-id="5bfc4-109">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="5bfc4-109">The demo data company used to create this procedure is USMF.</span></span>
 

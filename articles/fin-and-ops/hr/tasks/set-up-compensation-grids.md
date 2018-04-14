@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 39655850c1d54c56737881363bf5f805079fac89
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d507224004bdf319f9bf13ba07ed07ef29cc85dc
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-compensation-grids"></a><span data-ttu-id="81b7f-103">Configurar grades de remuneração</span><span class="sxs-lookup"><span data-stu-id="81b7f-103">Set up compensation grids</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="81b7f-104">As grades de remuneração são usadas para definir e manter as estruturas de pagamento para os planos de remuneração fixa.</span><span class="sxs-lookup"><span data-stu-id="81b7f-104">Compensation grids are used to define and maintain the pay structures for fixed compensation plans.</span></span> <span data-ttu-id="81b7f-105">As grades de remuneração poderão ser compartilhadas entre vários planos ou copiadas ao criar um novo plano de remuneração.</span><span class="sxs-lookup"><span data-stu-id="81b7f-105">Compensation grids can be shared between multiple plans or copied when creating a new compensation plan.</span></span>  <span data-ttu-id="81b7f-106">Antes de criar uma grade de compensação, os níveis do pontos de Referência devem ser configurados.</span><span class="sxs-lookup"><span data-stu-id="81b7f-106">Before creating a compensation grid, Levels and Reference points must be set up.</span></span> <span data-ttu-id="81b7f-107">Este exemplo criará um novo tipo de Classificação da grade de remuneração com dados de demonstração para os níveis e os pontos de Referência.</span><span class="sxs-lookup"><span data-stu-id="81b7f-107">This example will create a new Grade type of compensation grid using demo data for the Levels and Reference points.</span></span> <span data-ttu-id="81b7f-108">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="81b7f-108">The demo data company used to create this procedure is USMF.</span></span>
 

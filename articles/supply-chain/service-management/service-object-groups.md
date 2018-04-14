@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: fa503ac82286099a0eafc7034d169e165b538e2c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e539d92753bbbc4ac0ca88cec83c4d15135c388b
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="service-object-groups"></a><span data-ttu-id="dd33d-103">Grupos de objetos de serviço</span><span class="sxs-lookup"><span data-stu-id="dd33d-103">Service object groups</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="dd33d-104">Grupos de objetos são úteis para classificar e filtrar os dados sobre objetos para relatórios e estatísticas.</span><span class="sxs-lookup"><span data-stu-id="dd33d-104">Object groups are useful for sorting and filtering the data about objects for reports and statistics.</span></span> <span data-ttu-id="dd33d-105">Por exemplo, você pode agrupar objetos por localização geográfica ou tipo.</span><span class="sxs-lookup"><span data-stu-id="dd33d-105">For example, you can group objects by geographical location or by type.</span></span>
 

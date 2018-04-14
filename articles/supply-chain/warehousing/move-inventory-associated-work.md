@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d3e81475ffdc624fccae0673fd51aa9d742c281c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7d81397ed30751f5b3dd7c46ffe6b27b8153c8f9
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a><span data-ttu-id="a5742-103">Movimento de estoque com trabalho associado no Gerenciamento de depósito</span><span class="sxs-lookup"><span data-stu-id="a5742-103">Movement of inventory with associated work in Warehouse management</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a5742-104">Ao usar o movimento de estoque, você pode decidir quais funcionários do depósito têm permissão para mover o estoque reservado.</span><span class="sxs-lookup"><span data-stu-id="a5742-104">Using movement of inventory, you can decide which warehouse workers are allowed to move reserved inventory.</span></span> <span data-ttu-id="a5742-105">Isso fornece flexibilidade em depósitos regulamentados em que você pode decidir não permitir que um trabalhador escolha um novo local de separação para o trabalho de separação já criado.</span><span class="sxs-lookup"><span data-stu-id="a5742-105">This provides a flexibility in regulated warehouses where you can decide to not allow a worker to choose a new pick location for pick work that is already created.</span></span> <span data-ttu-id="a5742-106">Também permite que o gerente de depósito controle quais recursos alguns trabalhadores menos experientes devem ter.</span><span class="sxs-lookup"><span data-stu-id="a5742-106">It also allows a warehouse manager to control which capabilities some less experienced workers should have.</span></span>
 

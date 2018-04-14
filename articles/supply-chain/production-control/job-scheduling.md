@@ -20,17 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8162797256e221192dc3e1a12aa145e28d5bc0f5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d49bea9579a54d175cf21780a97d67f2c35982e8
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="job-scheduling"></a><span data-ttu-id="b114e-104">Planejamento de trabalho</span><span class="sxs-lookup"><span data-stu-id="b114e-104">Job scheduling</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b114e-105">Este artigo fornece informações sobre o plano de trabalho, que é um formulário mais detalhado de programação do plano de operações.</span><span class="sxs-lookup"><span data-stu-id="b114e-105">This article provides information about job scheduling, which is a more detailed form of scheduling than operations scheduling.</span></span> <span data-ttu-id="b114e-106">Você pode usar o agendamento de trabalho para agendar trabalhos individuais ou ordens de fábrica e para controlar o ambiente de manufatura.</span><span class="sxs-lookup"><span data-stu-id="b114e-106">You can use job scheduling to schedule individual jobs or shop orders, and to control the manufacturing environment.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: e675c954769e07b7d0bd7a8d1fd1d66d4270d908
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a1502d90c3ed02246a056d6acc89d39166faac11
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="dbe1b-103">Criar um novo estado do ciclo de vida do produto</span><span class="sxs-lookup"><span data-stu-id="dbe1b-103">Create a new product lifecycle state</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="dbe1b-104">Este procedimento mostra como criar um novo estado do ciclo de vida do produto.</span><span class="sxs-lookup"><span data-stu-id="dbe1b-104">This procedure shows how to create a new product lifecycle state.</span></span> <span data-ttu-id="dbe1b-105">O estado do ciclo de vida de um produto documenta o estado do ciclo de vida de um produto ou grade de produto liberado.</span><span class="sxs-lookup"><span data-stu-id="dbe1b-105">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="dbe1b-106">Os estados do ciclo de vida do produto são definidos pelo usuário, geralmente um gerente de produto ou um gerente de dados mestres de produto.</span><span class="sxs-lookup"><span data-stu-id="dbe1b-106">Product lifecycle states are defined by the user, typically a product manager, or a product master data manager.</span></span> <span data-ttu-id="dbe1b-107">Processos de negócios específicos, por exemplo, o Planejamento mestre, podem ser afetados por um estado do ciclo de vida específico.</span><span class="sxs-lookup"><span data-stu-id="dbe1b-107">Specific business processes, for example, Master planning, can be affected by a specific lifecycle state.</span></span>
 

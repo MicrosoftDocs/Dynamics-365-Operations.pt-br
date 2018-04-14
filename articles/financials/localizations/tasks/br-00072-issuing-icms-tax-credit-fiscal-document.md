@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 372d5d879441a10af21e2955ca88600db67effdd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7cf97dc37cc577f93c63c3953cfcb8707ead1a68
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="issue-icms-tax-credit-fiscal-documents-brazil"></a><span data-ttu-id="8dfcf-103">Emitir notas fiscais de crédito de imposto ICMS (Brasil)</span><span class="sxs-lookup"><span data-stu-id="8dfcf-103">Issue ICMS tax credit fiscal documents (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8dfcf-104">Você pode criar uma nota fiscal de transferência ou apropriação de imposto e gerar uma nota fiscal eletrônica (NF-e).</span><span class="sxs-lookup"><span data-stu-id="8dfcf-104">You can create a new tax fiscal document and generate a Nota Fiscal eletrônica (NF-e).</span></span> <span data-ttu-id="8dfcf-105">Quando você lança o documento, uma mensagem XML da NF-e é gerada e enviada para a Secretaria da Fazenda (SEFAZ).</span><span class="sxs-lookup"><span data-stu-id="8dfcf-105">When you post the document, an NF-e XML message is generated and submitted to the Secretaria da Fazenda (SEFAZ).</span></span> <span data-ttu-id="8dfcf-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="8dfcf-106">This task uses the BRMF demo company.</span></span>
 

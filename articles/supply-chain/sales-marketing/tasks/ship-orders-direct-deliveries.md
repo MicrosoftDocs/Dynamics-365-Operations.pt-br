@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f674de4877dd2d6e6f1ff02f16a68cb4805d9864
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8691eea1f339902aa74978fa8f27151754cb3e09
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="ship-orders-as-direct-deliveries"></a><span data-ttu-id="6a4ff-103">Enviar ordens como entregas diretas</span><span class="sxs-lookup"><span data-stu-id="6a4ff-103">Ship orders as direct deliveries</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6a4ff-104">Este procedimento demonstra como criar uma entrega direta para uma ordem de venda.</span><span class="sxs-lookup"><span data-stu-id="6a4ff-104">This procedure demonstrates how to create a direct delivery for a sales order.</span></span> <span data-ttu-id="6a4ff-105">Você usa a entrega direta quando quiser enviar mercadorias para o cliente diretamente do fornecedor, em vez de enviá-las para seu próprio depósito primeiro.</span><span class="sxs-lookup"><span data-stu-id="6a4ff-105">You use direct delivery when you want to ship goods to the customer directly from your vendor, instead of shipping them to your own warehouse first.</span></span> <span data-ttu-id="6a4ff-106">Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.</span><span class="sxs-lookup"><span data-stu-id="6a4ff-106">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="6a4ff-107">Para concluir com êxito a segunda subtarefa “Criar entregas diretas de bancada”, certifique-se de que o item que você escolhe na ordem de venda tem um Fornecedor padrão especificado na Guia Rápida Compra do mestre do produto Liberado.</span><span class="sxs-lookup"><span data-stu-id="6a4ff-107">To successfully complete the second sub-task "Create direct deliveries from the workbench", make sure that the item that you choose on the sales order has a default Vendor specified on the Purchase FastTab of the Released product master.</span></span>
 

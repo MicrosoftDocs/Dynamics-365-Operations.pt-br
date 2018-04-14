@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e193428021ba24fd8878b420ef301c50abebf4fe
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a8b90047148469c4341cff346363e891af4cfaeb
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-a-ciap-transaction-brazil"></a><span data-ttu-id="a8a7d-103">Inserir uma transação CIAP (Brasil)</span><span class="sxs-lookup"><span data-stu-id="a8a7d-103">Enter a CIAP transaction (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a8a7d-104">Você pode inserir uma transação CIAP de duas maneiras: lançar um documento fiscal, ou inserir uma transação.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-104">You can enter a CIAP transaction in two ways: post a fiscal document, or enter a transaction.</span></span> <span data-ttu-id="a8a7d-105">Você pode vincular manualmente a uma nota fiscal, conforme necessário.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-105">You can  manually link to a fiscal document as you require.</span></span> <span data-ttu-id="a8a7d-106">Este registro usa a empresa de dados de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="a8a7d-106">This recording uses the BRMF demo company.</span></span>
 

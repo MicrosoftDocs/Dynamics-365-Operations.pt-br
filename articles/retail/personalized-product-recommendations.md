@@ -20,17 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: c5b9ee57b0b855766628caca239059205c103b86
-ms.openlocfilehash: 4a0586324dddc10d64ad6760222f2540f31d6bce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e6bab3de11dbd2aba8b1330284986514a6ac1dfc
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personalized-product-recommendations-overview"></a><span data-ttu-id="32af1-103">Visão geral de recomendações de produtos personalizados</span><span class="sxs-lookup"><span data-stu-id="32af1-103">Personalized product recommendations overview</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > <span data-ttu-id="32af1-104">Estamos removendo a versão atual do serviço de recomendação de produto, pois estamos remodelando esse recurso em um algoritmo melhor com recursos mais novos orientados ao varejo.</span><span class="sxs-lookup"><span data-stu-id="32af1-104">We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</span></span> <span data-ttu-id="32af1-105">Para obter mais informações consulte [Recursos removidos ou substituídos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).</span><span class="sxs-lookup"><span data-stu-id="32af1-105">For more information see [Removed or deprecated features](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).</span></span> <span data-ttu-id="32af1-106">Navegue até a parte inferior da página se estiver enfrentando problemas com recomendações de produto já habilitadas para o seu ambiente.</span><span class="sxs-lookup"><span data-stu-id="32af1-106">Navigate to the bottom of the page if you are facing issues with already-enabled product recommendations for your environment.</span></span> 
@@ -86,9 +85,9 @@ ms.lasthandoff: 03/08/2018
 -   <span data-ttu-id="32af1-145">As credenciais de modelo e ID tornam-se disponíveis ao CRT para que as chamadas de recomendações de produto do Cloud POS e MPOS no modo online podem ser liquidadas.</span><span class="sxs-lookup"><span data-stu-id="32af1-145">Model credentials and ID are made available to CRT so that calls for product recommendations from Cloud POS and MPOS in online mode can be honored.</span></span>
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a><span data-ttu-id="32af1-146">Solucionar problemas em que as Recomendações de produto já estejam habilitadas</span><span class="sxs-lookup"><span data-stu-id="32af1-146">Troubleshoot issues where you have Product recommendations already enabled</span></span> 
->- <span data-ttu-id="32af1-147">Navegue até **Parâmetros de varejo** > **Aprendizado de máquina** > **Desabilitar recomendações de produtos** e execute **Trabalho de configuração global [1110]**.</span><span class="sxs-lookup"><span data-stu-id="32af1-147">Navigate to **Retail Parameters** > **Machine learning** > **Disable product recommendations** and run **Global configuration job [1110]**.</span></span> <span data-ttu-id="32af1-148">Se não conseguir localizar a guia **Aprendizado de máquina**, entre em contato com o suporte do Dynamics.</span><span class="sxs-lookup"><span data-stu-id="32af1-148">If you are not able to locate **Machine learning** tab, please contact Dynamics Support.</span></span> 
-
->- <span data-ttu-id="32af1-149">Se você adicionou o **Controle de recomendações** à sua tela de transação usando o **Designer do layout da tela**, remova-o também.</span><span class="sxs-lookup"><span data-stu-id="32af1-149">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span> 
+> - <span data-ttu-id="32af1-147">Navegue até **Parâmetros de varejo** > **Aprendizado de máquina** > **Desabilitar recomendações de produtos** e execute **Trabalho de configuração global [1110]**.</span><span class="sxs-lookup"><span data-stu-id="32af1-147">Navigate to **Retail Parameters** > **Machine learning** > **Disable product recommendations** and run **Global configuration job [1110]**.</span></span> <span data-ttu-id="32af1-148">Se não conseguir localizar a guia **Aprendizado de máquina**, entre em contato com o suporte do Dynamics.</span><span class="sxs-lookup"><span data-stu-id="32af1-148">If you are not able to locate **Machine learning** tab, please contact Dynamics Support.</span></span> 
+> 
+> - <span data-ttu-id="32af1-149">Se você adicionou o **Controle de recomendações** à sua tela de transação usando o **Designer do layout da tela**, remova-o também.</span><span class="sxs-lookup"><span data-stu-id="32af1-149">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span> 
 
 
 

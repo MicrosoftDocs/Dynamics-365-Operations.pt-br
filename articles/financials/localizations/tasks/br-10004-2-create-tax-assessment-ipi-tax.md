@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f1106f82f6292347001fed579604847590dff2a0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 24fc8903b6be260d8201e52a716924458b646dcf
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-tax-assessment---ipi-tax-brazil"></a><span data-ttu-id="03560-103">Criar uma apuração de imposto - imposto IPI (Brasil)</span><span class="sxs-lookup"><span data-stu-id="03560-103">Create a tax assessment - IPI tax (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="03560-104">Você pode criar uma avaliação de imposto para o IPI de um período de escrituração específico.</span><span class="sxs-lookup"><span data-stu-id="03560-104">You can create a tax assessment for the IPI tax for a given booking period.</span></span> <span data-ttu-id="03560-105">A avaliação de imposto considera o valor de IPI para recuperar e o valor de IPI para pagar os documentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="03560-105">The tax assessment considers the IPI tax amount to recover and the IPI tax amount to pay from the fiscal documents.</span></span> <span data-ttu-id="03560-106">Para o valor devido após a apuração de imposto, crie o pagamento de impostos.</span><span class="sxs-lookup"><span data-stu-id="03560-106">For the amount that is due after the tax assessment, you can create the tax payment.</span></span> <span data-ttu-id="03560-107">Este registro usa a empresa de dados de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="03560-107">This recording uses the BRMF demo company.</span></span>
 

@@ -18,17 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: cf2200057053f5a6d4754d37111ebe34849bb99d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ab84dd4e5ad87c2f3176265f81b0395cfb744315
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-workflows-to-manage-employee-information"></a><span data-ttu-id="a3c44-104">Use fluxos de trabalho para gerenciar informações de funcionário</span><span class="sxs-lookup"><span data-stu-id="a3c44-104">Use workflows to manage employee information</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="a3c44-105">Este tópico explica como você pode usar o recurso de fluxo de trabalho para recursos humanos para gerenciar informações de funcionários.</span><span class="sxs-lookup"><span data-stu-id="a3c44-105">This topic explains how you can use the workflow capability for Human resources to manage employee information.</span></span> <span data-ttu-id="a3c44-106">Por exemplo, você pode associar um fluxo de trabalho a uma posição e configurar um fluxo de trabalho de aprovação que é iniciado quando os funcionários alteram seu registro.</span><span class="sxs-lookup"><span data-stu-id="a3c44-106">For example, you can associate a workflow with a position and configure an approval workflow that is started when employees change their record.</span></span>
 

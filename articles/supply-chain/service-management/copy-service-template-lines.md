@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5424442b6698b589a55611296d3f404af7707a0b
-ms.openlocfilehash: 791b97cea9f45eff41b99a9d09f399ad1e431af9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a3b8b321e1793e5959a8a8c2c32e8bdd812bc3e7
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="copy-service-templates-lines"></a><span data-ttu-id="42b73-103">Copiar linhas de modelos de serviço</span><span class="sxs-lookup"><span data-stu-id="42b73-103">Copy service templates lines</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="42b73-104">As informações de um modelo podem ser copiadas para um contrato de serviço ou uma ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="42b73-104">Template information can be copied to either a service agreement or a service order.</span></span>
 

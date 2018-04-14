@@ -17,15 +17,15 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: edfb9a1515f0af7d3272ea3fbb362bd0e6b0f129
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 191f48bc5b56bef9fe08c266db8cd49ce7cbc620
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="retail-price-adjustments"></a><span data-ttu-id="1913a-103">Ajustes de preço de varejo</span><span class="sxs-lookup"><span data-stu-id="1913a-103">Retail price adjustments</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1913a-104">Este procedimento orienta na criação de um ajuste de preço de varejo.</span><span class="sxs-lookup"><span data-stu-id="1913a-104">This procedure will walk through creating a retail price adjustment.</span></span> <span data-ttu-id="1913a-105">Um ajuste de preço de varejo pode definir o preço de venda de um item diretamente ou modificar o preço base de venda ou o preço de venda do contrato comercial.</span><span class="sxs-lookup"><span data-stu-id="1913a-105">A retail price adjustment can set an item's sale price directly, or modify its base sale price or trade agreement sale price.</span></span> <span data-ttu-id="1913a-106">Este procedimento usa a empresa de dados de demonstração USRT.</span><span class="sxs-lookup"><span data-stu-id="1913a-106">This procedure uses the USRT demo data company.</span></span>
 

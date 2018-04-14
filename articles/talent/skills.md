@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: edcb01c177a3e43cea7f0b7936a4129d27314016
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3a5b9f98b371dbad9b6b0538e0d9975dc5ed701c
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a><span data-ttu-id="64185-104">Alinhe habilidades de força de trabalho com as necessidades comerciais</span><span class="sxs-lookup"><span data-stu-id="64185-104">Align workforce skills with business needs</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="64185-105">Você pode rastrear as habilidades que os trabalhadores, candidatos ou pessoas de contato têm ou devem ter, para atender suas funções efetivamente.</span><span class="sxs-lookup"><span data-stu-id="64185-105">You can track the skills that workers, applicants, or contact persons have, or should have, to fulfill their roles effectively.</span></span> <span data-ttu-id="64185-106">Você também pode especificar as habilidades necessárias para um trabalho específico.</span><span class="sxs-lookup"><span data-stu-id="64185-106">You can also specify the skills that are required for a specific job.</span></span>
 
@@ -55,8 +54,8 @@ ms.lasthandoff: 01/31/2018
 
 <span data-ttu-id="64185-133">Os perfis de mapeamento de habilidades permitem que você encontre funcionários atuais ou candidatos com qualificações que correspondam diretamente às necessidades do negócio.</span><span class="sxs-lookup"><span data-stu-id="64185-133">Skill-mapping profiles allow you to find current employees or candidates with qualifications that directly correspond to business needs.</span></span>  <span data-ttu-id="64185-134">Por exemplo, você pode criar um perfil de mapeamento de habilidades para uma posição aberta na sua organização.</span><span class="sxs-lookup"><span data-stu-id="64185-134">For example, you could create a skill-mapping profile for an open position in your organization.</span></span> <span data-ttu-id="64185-135">Criando um perfil para um trabalho específico e copiando as habilidades, formação educacional e certificados desse trabalho para o perfil, é possível pesquisar rapidamente trabalhadores, candidatos e pessoas de contato que correspondem a um ou mais dos critérios inseridos no perfil e exibir uma lista dos candidatos cujas as habilidades mais correspondem às habilidades necessárias para o trabalho.</span><span class="sxs-lookup"><span data-stu-id="64185-135">By creating a profile for a particular job and copying the skills, education and certificates from that job to the profile, you can quickly search workers, applicants and contact persons who match one or more of the criteria entered on the profile and view a list of the candidates whose skills most closely match the skills required for the job.</span></span>
 
-><span data-ttu-id="64185-136">**Observação** Somente os trabalhadores, os candidatos e as pessoas de contato selecionados para serem incluídos em pesquisas de mapeamento podem ser exibidos em uma lista dos resultados de um mapeamento de habilidades ou serem incluídos em um perfil de habilidades.</span><span class="sxs-lookup"><span data-stu-id="64185-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="64185-137">Para incluir um trabalhador, candidato ou pessoa de contato em pesquisas de mapeamento de habilidades, defina a seleção **Incluir no mapeamento de habilidades** como Sim nas seguintes páginas:</span><span class="sxs-lookup"><span data-stu-id="64185-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
-
+> <span data-ttu-id="64185-136">**Observação** Somente os trabalhadores, os candidatos e as pessoas de contato selecionados para serem incluídos em pesquisas de mapeamento podem ser exibidos em uma lista dos resultados de um mapeamento de habilidades ou serem incluídos em um perfil de habilidades.</span><span class="sxs-lookup"><span data-stu-id="64185-136">**Note** Only workers, applicants, and contact persons who are selected to be included in skill mapping searches can be displayed in a skill-mapping results list, or included in a skill profile.</span></span> <span data-ttu-id="64185-137">Para incluir um trabalhador, candidato ou pessoa de contato em pesquisas de mapeamento de habilidades, defina a seleção **Incluir no mapeamento de habilidades** como Sim nas seguintes páginas:</span><span class="sxs-lookup"><span data-stu-id="64185-137">To include a worker, applicant, or contact person in skill mapping searches, set the **Include in skill mapping** selection to Yes in the following pages:</span></span>
+> 
 > + <span data-ttu-id="64185-138">Trabalhador</span><span class="sxs-lookup"><span data-stu-id="64185-138">Worker</span></span>
 > + <span data-ttu-id="64185-139">Funcionário</span><span class="sxs-lookup"><span data-stu-id="64185-139">Employee</span></span>
 > + <span data-ttu-id="64185-140">Candidato</span><span class="sxs-lookup"><span data-stu-id="64185-140">Applicant</span></span>

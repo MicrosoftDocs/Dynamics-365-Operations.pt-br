@@ -18,17 +18,16 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2a4717accfa7e5879ee757820c39f000fa7d3e95
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 910e954f98165eb6605f1c4055bfb0a40c81f00b
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="workflow-actions"></a><span data-ttu-id="23be4-103">Ações de fluxo de trabalho</span><span class="sxs-lookup"><span data-stu-id="23be4-103">Workflow actions</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="23be4-104">Este artigo explica as ações que cada participante em um processo de aprovação de fluxo de trabalho pode executar.</span><span class="sxs-lookup"><span data-stu-id="23be4-104">This article explains the actions that each participant in a workflow approval process can take.</span></span>
 

@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 0af9dd6c399032597b863f0fa15c58d3e094ba5b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c5d13024ba15744f81406c4c8f5d5d33de658d63
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-fixed-compensation-plans"></a><span data-ttu-id="17f92-104">Criar planos de remuneração fixa.</span><span class="sxs-lookup"><span data-stu-id="17f92-104">Create fixed compensation plans</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="17f92-105">A remuneração fixa se refere ao salário bruto normal ou ao salário de um funcionário.</span><span class="sxs-lookup"><span data-stu-id="17f92-105">Fixed compensation refers to an employee's regular gross salary or wages.</span></span> <span data-ttu-id="17f92-106">Este tópico descreve os componentes que devem ser configurados antes de criar um plano de remuneração fixo e inserir os funcionários.</span><span class="sxs-lookup"><span data-stu-id="17f92-106">This topic describes the components that must be set up before you can create a fixed compensation plan and enroll employees.</span></span>
 

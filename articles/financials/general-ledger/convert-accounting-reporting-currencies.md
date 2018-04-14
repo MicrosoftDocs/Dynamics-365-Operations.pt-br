@@ -18,17 +18,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad840f4ed2cf27615e699a13fcd8be7f3c2cd5c8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d57f3138f5a456c85550baf1eb18b4f99733a3d1
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="convert-accounting-or-reporting-currencies"></a><span data-ttu-id="d2493-103">Converter moeda contábil ou de relatório</span><span class="sxs-lookup"><span data-stu-id="d2493-103">Convert accounting or reporting currencies</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d2493-104">Uma empresa que deve alterar a moeda contábil ou moeda de relatório apresenta duas opções.</span><span class="sxs-lookup"><span data-stu-id="d2493-104">A company that must change its accounting currency or reporting currency has two options.</span></span> <span data-ttu-id="d2493-105">A primeira opção é criar uma nova empresa e iniciar a atualização.</span><span class="sxs-lookup"><span data-stu-id="d2493-105">The first option is to create a new company and start fresh.</span></span> <span data-ttu-id="d2493-106">A segunda opção é executar a contabilidade e o processo de conversão da moeda de relatório.</span><span class="sxs-lookup"><span data-stu-id="d2493-106">The second option is to run the accounting and reporting currency conversion process.</span></span> <span data-ttu-id="d2493-107">Este é um processo muito longo que modifica cada transação no sistema.</span><span class="sxs-lookup"><span data-stu-id="d2493-107">This is a very long-running process that changes every transaction in the system.</span></span> <span data-ttu-id="d2493-108">Alguma configuração também é necessária antes do processo ser executado.</span><span class="sxs-lookup"><span data-stu-id="d2493-108">Some setup is also required before the process can be run.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f4b000ab87f398633aa5dbd2075c1976c5dd9acd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: aaea5b42c34e6770d7b17485db817c31c50cd85a
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="withholding-taxes-on-vendor-payments-brazil"></a><span data-ttu-id="e193d-103">Impostos retidos na fonte em pagamentos de fornecedores (Brasil)</span><span class="sxs-lookup"><span data-stu-id="e193d-103">Withholding taxes on vendor payments (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e193d-104">Você pode usar a página Comprovante de diário para inserir e lançar pagamentos que você fizer a um fornecedor para a compra de itens ou serviços.</span><span class="sxs-lookup"><span data-stu-id="e193d-104">You can use the Journal voucher page to enter and post payments that you make to a vendor for the purchase of items or services.</span></span> <span data-ttu-id="e193d-105">Quando você lança um diário de pagamentos do fornecedor, o grupo de impostos retidos na fonte que está configurado para o fornecedor é usado para calcular o imposto retido na fonte na transação.</span><span class="sxs-lookup"><span data-stu-id="e193d-105">When you post a vendor payment journal, the withholding tax group that is set up for the vendor is used to calculate the withholding tax on the transaction.</span></span> <span data-ttu-id="e193d-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="e193d-106">This task uses the BRMF demo company.</span></span>
 

@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3988bd478cfad791b5d4c73d28a86c9cfb68288f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6ddba210ced7c7ed5fad818945765528e5b1c1d1
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="costing-sheets"></a><span data-ttu-id="55632-108">Folhas de custos</span><span class="sxs-lookup"><span data-stu-id="55632-108">Costing sheets</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="55632-109">A configuração da folha de custos envolve dois objetivos.</span><span class="sxs-lookup"><span data-stu-id="55632-109">Setting up the costing sheet involves two objectives.</span></span> <span data-ttu-id="55632-110">Como primeiro objetivo, você define o formato para exibir as informações de custo de bens vendidos sobre um item manufaturado ou ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="55632-110">As the first objective, you define the format for displaying cost of goods sold information about a manufactured item or production order.</span></span> <span data-ttu-id="55632-111">A exibição formatada é nomeada folha de custos.</span><span class="sxs-lookup"><span data-stu-id="55632-111">The formatted display is termed a costing sheet.</span></span> <span data-ttu-id="55632-112">Como segundo objetivo, você define a base para calcular custos indiretos.</span><span class="sxs-lookup"><span data-stu-id="55632-112">As the second objective, you define the basis for calculating indirect costs.</span></span> <span data-ttu-id="55632-113">A configuração de folha de custo cria no recurso de grupo de custo para exibir informações e para as fórmulas de cálculo de custo indireto.</span><span class="sxs-lookup"><span data-stu-id="55632-113">The costing sheet setup builds on the cost group feature for displaying information and for the indirect cost calculation formulas.</span></span> <span data-ttu-id="55632-114">Os dois objetivos da configuração de folha de custos são descritos neste artigo.</span><span class="sxs-lookup"><span data-stu-id="55632-114">The two objectives of costing sheet setup are described in this article.</span></span> 
 

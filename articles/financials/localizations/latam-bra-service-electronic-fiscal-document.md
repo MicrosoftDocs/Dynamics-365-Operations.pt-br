@@ -19,17 +19,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6d23c1ea23696feedfc9b9f41de3b3c0c09e1f17
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d530c18e860cb0fbe8d76913b83793dc0768e095
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-fiscal-document-for-services"></a><span data-ttu-id="449b0-103">Nota fiscal eletrônica para serviços</span><span class="sxs-lookup"><span data-stu-id="449b0-103">Electronic fiscal document for services</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="449b0-104">Este tópico oferece uma visão geral da nota fiscal eletrônica de serviço.</span><span class="sxs-lookup"><span data-stu-id="449b0-104">This topic provides an overview of the service electronic fiscal document.</span></span>
 

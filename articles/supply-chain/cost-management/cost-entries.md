@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d8a443d03f8eb2d6ff44d869964b47b6569ce4c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 39e31b7290668ae6d84b699a45fcd999c558e841
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-entries"></a><span data-ttu-id="e2be3-104">Entradas de custo</span><span class="sxs-lookup"><span data-stu-id="e2be3-104">Cost entries</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e2be3-105">Este artigo fornece informações sobre entradas de custo previsto e quando foram criadas.</span><span class="sxs-lookup"><span data-stu-id="e2be3-105">This article provides information about cost entries and when they are created.</span></span> <span data-ttu-id="e2be3-106">Uma entrada de custo estimada é um registro que marca a quantidade e os custos de um determinado evento.</span><span class="sxs-lookup"><span data-stu-id="e2be3-106">A cost entry is a record that registers the quantity and cost of a given event.</span></span>
 

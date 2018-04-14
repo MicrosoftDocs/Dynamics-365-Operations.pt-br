@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 618c0df55dbfa8535dc720434fae65ef837b5c17
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b3d96644870005437485d0ea2adb26c424cb1ccf
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-adjustment-codes-for-pis-and-cofins-taxes-brazil"></a><span data-ttu-id="d5abc-103">Configurar códigos de ajuste para impostos PIS e COFINS (Brasil)</span><span class="sxs-lookup"><span data-stu-id="d5abc-103">Set up adjustment codes for PIS and COFINS taxes (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d5abc-104">Você pode criar transações manuais de ajuste para ajustar os valores de crédito ou débito de PIS e COFINS relatados nos registros M220, M225, M620, M625, M110, M115, M510 e M515.</span><span class="sxs-lookup"><span data-stu-id="d5abc-104">You can make manual adjustment transactions to adjust the credit or debit of PIS and COFINS amounts that are reported in records M220, M225, M620, M625, M110, M115, M510, and M515.</span></span> <span data-ttu-id="d5abc-105">Primeiro você deve criar os códigos de ajuste.</span><span class="sxs-lookup"><span data-stu-id="d5abc-105">You must first create the adjustment codes.</span></span> <span data-ttu-id="d5abc-106">O governo brasileiro determina os códigos de ajuste com base em critérios de ajuste e tipo de transação de ajuste.</span><span class="sxs-lookup"><span data-stu-id="d5abc-106">The Brazilian government determines the adjustment codes, based on the adjustment criteria and the type of adjustment transaction.</span></span> <span data-ttu-id="d5abc-107">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="d5abc-107">This task uses the BRMF demo company.</span></span>
 

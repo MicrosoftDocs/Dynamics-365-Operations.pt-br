@@ -16,15 +16,15 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 754f28cd2831d8a9a57c408518d240de460b732b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ea94570ca23761195ed93bbab6c51f5df02c28bb
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-segregation-of-duties"></a><span data-ttu-id="b126c-103">Configurar a diferenciação de direitos</span><span class="sxs-lookup"><span data-stu-id="b126c-103">Set up segregation of duties</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b126c-104">Você pode definir regras para separar tarefas que devem ser executadas por usuários diferentes.</span><span class="sxs-lookup"><span data-stu-id="b126c-104">You can set up rules to separate tasks that must be performed by different users.</span></span> <span data-ttu-id="b126c-105">Este conceito é chamado de segregação de direitos.</span><span class="sxs-lookup"><span data-stu-id="b126c-105">This concept is named segregation of duties.</span></span> <span data-ttu-id="b126c-106">Por exemplo, você pode não querer que a mesma pessoa confirme o recebimento de mercadorias e processe o pagamento ao fornecedor.</span><span class="sxs-lookup"><span data-stu-id="b126c-106">For example, you might not want the same person both to acknowledge the receipt of goods and to process payment to the vendor.</span></span> <span data-ttu-id="b126c-107">Diferenciação de direitos ajuda a reduzir o risco de fraude, além de ajudar a detectar erros ou irregularidades.</span><span class="sxs-lookup"><span data-stu-id="b126c-107">Segregation of duties helps you reduce the risk of fraud, and it also helps you detect errors or irregularities.</span></span> <span data-ttu-id="b126c-108">Você também pode usar a diferenciação de direitos para garantir o cumprimento das políticas de controle interno.</span><span class="sxs-lookup"><span data-stu-id="b126c-108">You can also use segregation of duties to enforce internal control policies.</span></span> <span data-ttu-id="b126c-109">Complete o procedimento a seguir para criar uma regra.</span><span class="sxs-lookup"><span data-stu-id="b126c-109">Complete the following procedure to create a rule.</span></span> <span data-ttu-id="b126c-110">Você deve ser um administrador do sistema para concluir o procedimento.</span><span class="sxs-lookup"><span data-stu-id="b126c-110">You must be a system administrator to complete the procedure.</span></span> <span data-ttu-id="b126c-111">A empresa de dados demonstrativos utilizada para criar esse procedimento é a DAT.</span><span class="sxs-lookup"><span data-stu-id="b126c-111">The demo data company used to create this procedure is DAT.</span></span> 
 

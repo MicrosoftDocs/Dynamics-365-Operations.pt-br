@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a8789d7c5b06e83d0d1799b249b48a00e7c0ae34
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 91b862155d60f297a1278e44f58804ac385be64c
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-mass-hire-project"></a><span data-ttu-id="54691-103">Criar um projeto de contratação em massa</span><span class="sxs-lookup"><span data-stu-id="54691-103">Create a mass hire project</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="54691-104">Este procedimento anda com o processo de configuração de um projeto de contratação em massa.</span><span class="sxs-lookup"><span data-stu-id="54691-104">This procedure walks through the process of setting up a mass hire project.</span></span> <span data-ttu-id="54691-105">Um recruta pode usar projetos de contratação em massa criar facilmente várias posições e contratar um número de funcionários nas posições.</span><span class="sxs-lookup"><span data-stu-id="54691-105">A recruiter can use mass hire projects to easily create multiple positions and hire a number of workers into those positions.</span></span> <span data-ttu-id="54691-106">Para iniciar este procedimento, vá para Recursos humanos > Recrutamento > Projetos de contratação em massa.</span><span class="sxs-lookup"><span data-stu-id="54691-106">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span> <span data-ttu-id="54691-107">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="54691-107">The demo data company used to create this procedure is USMF.</span></span>
 

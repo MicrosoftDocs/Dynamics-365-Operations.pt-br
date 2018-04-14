@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 977869b15fe38e53eed149f4f2ec0268b7c1e634
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 67948c5f7434016b78c430ef7f1cdc363ee28a9d
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="service-electronic-fiscal-document-using-text-files-brazil"></a><span data-ttu-id="53399-103">Nota fiscal eletrônica de serviços usando arquivos de texto (Brasil)</span><span class="sxs-lookup"><span data-stu-id="53399-103">Service electronic fiscal document using text files (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="53399-104">Após a emissão de uma fatura de venda para um serviço na cidade de São Paulo, é possível gerar o RPS (Recibo Provisório de Serviço) de uma nota fiscal de determinado serviço que foi lançada.</span><span class="sxs-lookup"><span data-stu-id="53399-104">After a sales invoice for a service is issued in São Paulo city, you can generate the RPS (Recibo Provisorio de Serviço) for a given service fiscal document that has been posted.</span></span> <span data-ttu-id="53399-105">Este registro usa a empresa de dados de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="53399-105">This recording uses the BRMF demo company.</span></span>
 

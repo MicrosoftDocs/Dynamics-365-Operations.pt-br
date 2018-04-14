@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c8af5d3343bf8376dfec5a41cd03e1325b10b978
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning"></a><span data-ttu-id="7af1f-105">Planejamento de orçamento</span><span class="sxs-lookup"><span data-stu-id="7af1f-105">Budget planning</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7af1f-106">O objetivo deste laboratório é fornecer uma visualização guiada das atualizações de funcionalidade do Microsoft Dynamics 365 for Finance and Operations na Área de planejamento de orçamento.</span><span class="sxs-lookup"><span data-stu-id="7af1f-106">The objective of this lab is to provide a guided view of Microsoft Dynamics 365 for Finance and Operations functionality updates in Budget planning area.</span></span> <span data-ttu-id="7af1f-107">A intenção deste laboratório é ilustrar um exemplo rápido de configuração de módulo de planejamento de orçamento e exibir como o planejamento de orçamento pode ser alcançado usando esta configuração.</span><span class="sxs-lookup"><span data-stu-id="7af1f-107">The intent of this lab is to illustrate a quick configuration example of budget planning module and showcase how budget planning can be accomplished using this configuration.</span></span>  <span data-ttu-id="7af1f-108">Este laboratório focará especificamente nos processos empresariais a seguir ou tarefas -    - Criar hierarquia organizacional para planejamento de orçamento e configuração de segurança do usuário   - Definir cenários de plano de orçamento, colunas de plano de orçamento, layouts e modelos do Excel   - Criar e ativar processo de planejamento de orçamento   - Criar documento de plano de orçamento extraindo os reais de Contabilidade   - Usar alocações para ajustar dados de documento de plano de orçamento   - Editar dados de documento de plano de orçamento no Excel</span><span class="sxs-lookup"><span data-stu-id="7af1f-108">This lab will focus specifically on the following business processes or tasks -    - Creating organizational hierarchy for budget planning and configuring user security   - Defining budget plan scenarios, budget plan columns, layouts and Excel templates   - Creating and activating budget planning process   - Creating budget plan document by pulling in actuals from General ledger   - Using allocations to adjust budget plan document data   - Editing budget plan document data in Excel</span></span> 
 

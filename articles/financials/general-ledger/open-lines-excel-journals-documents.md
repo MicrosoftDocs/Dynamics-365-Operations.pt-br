@@ -19,21 +19,21 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 034e25eea8a4db3126f7f33ae0712b6f30606651
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a><span data-ttu-id="22928-104">Publicar linhas de diário e documentos do Excel</span><span class="sxs-lookup"><span data-stu-id="22928-104">Publish journal lines and documents from Excel</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="22928-105">Este tópico explica como inserir e exibir linhas de diários gerais do Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="22928-105">This topic explains how to enter and publish lines for general journals from Microsoft Excel.</span></span> <span data-ttu-id="22928-106">Inclui informações sobre os vários modelos que podem ser usados, dependendo do tipo de transação que você está inserindo.</span><span class="sxs-lookup"><span data-stu-id="22928-106">It includes information about the various templates that you can use, depending on the type of transactions that you're entering.</span></span>
 
 <span data-ttu-id="22928-107">Os usuários podem inserir e publicar linhas para diários financeiros do Microsoft Excel.</span><span class="sxs-lookup"><span data-stu-id="22928-107">Users can enter and publish lines for financial journals from Microsoft Excel.</span></span> <span data-ttu-id="22928-108">Depois que um usuário cria um diário, o botão **Abrir linhas no Excel** exibe modelos que estão disponíveis.</span><span class="sxs-lookup"><span data-stu-id="22928-108">After a user creates a journal, the **Open lines in Excel** button displays the templates that are available.</span></span> <span data-ttu-id="22928-109">Os modelos são criados para oferecer suporte a cenários específicos, porém nem todas combinações de tipo de conta são suportadas no diário.</span><span class="sxs-lookup"><span data-stu-id="22928-109">Templates are designed to support specific scenarios, however not every combination of account type is supported in the journal.</span></span> <span data-ttu-id="22928-110">A tabela a seguir mostra os modelos disponíveis e os tipos de conta às quais oferecem suporte.</span><span class="sxs-lookup"><span data-stu-id="22928-110">The following table shows the templates that are available and the account types which they support.</span></span>
+
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | <span data-ttu-id="22928-111">**Modelo**</span><span class="sxs-lookup"><span data-stu-id="22928-111">**Template**</span></span>             | <span data-ttu-id="22928-112">**Tipos de conta compatíveis**</span><span class="sxs-lookup"><span data-stu-id="22928-112">**Supported account types**</span></span>                                                                                             | <span data-ttu-id="22928-113">**Como acessar o modelo**</span><span class="sxs-lookup"><span data-stu-id="22928-113">**How to access the template**</span></span>                                                          |

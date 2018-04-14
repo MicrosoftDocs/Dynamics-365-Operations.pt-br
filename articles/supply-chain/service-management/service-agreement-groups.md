@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2a46173a3566a56a21add9d42c111d456b1ae7c1
-ms.openlocfilehash: 7a1e2b6fd4ff86a7cd0bd62a1c434073fd9c473d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6440bae664e4eac6643e480dbf60191fb0050375
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="service-agreement-groups"></a><span data-ttu-id="a39e9-103">Grupos de contratos de serviço</span><span class="sxs-lookup"><span data-stu-id="a39e9-103">Service agreement groups</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a39e9-104">Os grupos de contratos de serviço são úteis para classificar e filtrar contratos de serviço.</span><span class="sxs-lookup"><span data-stu-id="a39e9-104">Service agreement groups are useful for sorting and filtering service agreements.</span></span> <span data-ttu-id="a39e9-105">Use-os para agrupar contratos de serviço, por exemplo, por tamanho da empresa, localização geográfica ou tipo de indústria.</span><span class="sxs-lookup"><span data-stu-id="a39e9-105">Use service agreement groups to group service agreements by, for example, company size, geographical location, or industry type.</span></span> <span data-ttu-id="a39e9-106">Alternativamente, você pode usar os grupos de contrato para agrupar contratos de serviço pelo nível de serviço oferecido a um cliente.</span><span class="sxs-lookup"><span data-stu-id="a39e9-106">Alternatively, you can use agreement groups to group service agreements by the level of service offered to a customer.</span></span>
 

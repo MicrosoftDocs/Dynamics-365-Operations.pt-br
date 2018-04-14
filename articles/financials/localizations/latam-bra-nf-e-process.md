@@ -19,17 +19,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e4fd60987ca8bdb7748b6fb6469097b41b8ec931
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cc7cdacf4b071a45fbeb48cbcbdcf7e0a1f8c994
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="nf-e-process-overview-for-brazil"></a><span data-ttu-id="2eb02-103">Visão geral do processo de NF-e para o Brasil</span><span class="sxs-lookup"><span data-stu-id="2eb02-103">NF-e process overview for Brazil</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2eb02-104">Este tópico fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes.</span><span class="sxs-lookup"><span data-stu-id="2eb02-104">This topic provides an overview of the process for setting up and submitting a Nota fiscal eletrônica (NF-e) to register the movement of items and services between two parties.</span></span>
 

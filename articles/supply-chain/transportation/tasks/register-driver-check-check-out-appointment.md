@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dcafcb067717a1d0ca6f45a57628fe001d1074f2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d21a4aa035b55385c8b0ced3bfe91c7aaf064267
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a><span data-ttu-id="98a42-103">Registrar check-in e check-out do motorista para um compromisso</span><span class="sxs-lookup"><span data-stu-id="98a42-103">Register driver check-in and check-out for an appointment</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="98a42-104">Este procedimento mostra como registrar um check-in e o check-out do driver. Isso normalmente é feito por um coordenador de transporte.</span><span class="sxs-lookup"><span data-stu-id="98a42-104">This procedure shows how to register a driver check-in and a driver check-out. This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="98a42-105">Você pode usar este procedimento na empresa USMF de dados de demonstração.</span><span class="sxs-lookup"><span data-stu-id="98a42-105">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="98a42-106">Antes de começar, deve haver um compromisso configurado para um custo indireto.</span><span class="sxs-lookup"><span data-stu-id="98a42-106">Before you start, there must be an appointment set up for a load.</span></span> <span data-ttu-id="98a42-107">Para criar um compromisso, você pode executar o procedimento "Definir um compromisso para uma carga" como um pré-requisito.</span><span class="sxs-lookup"><span data-stu-id="98a42-107">To create an appointment, you can run the “Set up an appointment for a load” procedure as a prerequisite.</span></span>
 

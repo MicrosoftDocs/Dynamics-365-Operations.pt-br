@@ -19,17 +19,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a290f6f453d8440d6e68a13915339d3da31d959a
-ms.openlocfilehash: 47c97ee32c345f584c8efa7a00b7ff3ec4b70475
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e04926abca47444d06708f34278eb02bb1640cd6
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="plan-your-organizational-hierarchy"></a><span data-ttu-id="4c52d-103">Planejar sua hierarquia organizacional</span><span class="sxs-lookup"><span data-stu-id="4c52d-103">Plan your organizational hierarchy</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4c52d-104">Antes de configurar organizações e hierarquias da organização no Microsoft Dynamics 365 for Finance and Operations, certifique-se de planejar a forma como sua empresa será modelada.</span><span class="sxs-lookup"><span data-stu-id="4c52d-104">Before you set up organizations and organization hierarchies in Microsoft Dynamics 365 for Finance and Operations, make sure that you plan how your business will be modeled.</span></span> <span data-ttu-id="4c52d-105">O modelo da organização tem efeito significativo na implementação do Finance and Operations e em processos comerciais.</span><span class="sxs-lookup"><span data-stu-id="4c52d-105">The organization model has a significant effect on the implementation of Finance and Operations and on business processes.</span></span> 
 
@@ -158,7 +157,7 @@ ms.lasthandoff: 04/03/2018
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a><span data-ttu-id="4c52d-254">Se a organização for modelada como uma unidade operacional</span><span class="sxs-lookup"><span data-stu-id="4c52d-254">If the organization is modeled as an operating unit</span></span> 
 <span data-ttu-id="4c52d-255">Se as leis e as práticas de contabilidade forem as mesmas entre os países/regiões nos quais as organizações estão localizadas, será possível usar um único conjunto de procedimentos de encerramento de exercício.</span><span class="sxs-lookup"><span data-stu-id="4c52d-255">If laws and accounting practices are the same among the countries/regions where your organizations are located, you may use a single set of year-end procedures.</span></span> <span data-ttu-id="4c52d-256">Isso significa que será possível modelar as organizações como unidades operacionais.</span><span class="sxs-lookup"><span data-stu-id="4c52d-256">This means that you can model the organizations as operating units.</span></span> <span data-ttu-id="4c52d-257">Todas as unidades operacionais devem usar o mesmo procedimento de fechamento do exercício.</span><span class="sxs-lookup"><span data-stu-id="4c52d-257">All operating units must use the same year-end closing procedure.</span></span> 
-   
+
 ### <a name="number-sequences"></a><span data-ttu-id="4c52d-258">Sequências numéricas</span><span class="sxs-lookup"><span data-stu-id="4c52d-258">Number sequences</span></span>
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a><span data-ttu-id="4c52d-259">Se a organização for modelada como uma entidade legal</span><span class="sxs-lookup"><span data-stu-id="4c52d-259">If the organization is modeled as a legal entity</span></span>
 <span data-ttu-id="4c52d-260">As sequências numéricas para algumas referências podem ser configuradas por entidade legal.</span><span class="sxs-lookup"><span data-stu-id="4c52d-260">Number sequences for some references can be set up per legal entity.</span></span> <span data-ttu-id="4c52d-261">Algumas sequências numéricas podem ser compartilhadas.</span><span class="sxs-lookup"><span data-stu-id="4c52d-261">Some number sequences can be shared.</span></span> 

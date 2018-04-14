@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e27dc0623f27ee21408d14aefb93ca13c40be672
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: beed4c261b887ce545d431bbd9a413bd1745bc0c
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="hire-a-candidate-through-recruiting"></a><span data-ttu-id="7dd31-103">Contratar um candidato por meio de recrutamento</span><span class="sxs-lookup"><span data-stu-id="7dd31-103">Hire a candidate through recruiting</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7dd31-104">Este procedimento permite que um recruta contrate um candidato que envia uma solicitação de emprego em um projeto de recrutamento específico.</span><span class="sxs-lookup"><span data-stu-id="7dd31-104">This procedure enables a recruiter to hire an applicant who submitted an application through a specific recruitment project.</span></span> <span data-ttu-id="7dd31-105">Ao contratar um candidato em um projeto de recrutamento, um novo registro de funcionário será criado e o registro do candidato terá um status Empregado.</span><span class="sxs-lookup"><span data-stu-id="7dd31-105">When you hire an applicant through a recruiting project, a new worker record will be created and the applicant’s record will have a status of Employed.</span></span> <span data-ttu-id="7dd31-106">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="7dd31-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="7dd31-107">Para completar este procedimento, navegue até Recursos humanos > Recrutamento > Solicitações de emprego > Solicitações de emprego</span><span class="sxs-lookup"><span data-stu-id="7dd31-107">To complete this procedure, navigate to Human resources > Recruitment > Applications >Applications</span></span> 
 

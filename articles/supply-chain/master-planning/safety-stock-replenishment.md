@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 61c0fde1af125188e1ad1198e00af760256d7cfd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a836ce76f635fd42b0613b2abf131315b19aa5fe
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="safety-stock-fulfillment-for-items"></a><span data-ttu-id="65663-103">Atendimento de estoque de segurança para itens</span><span class="sxs-lookup"><span data-stu-id="65663-103">Safety stock fulfillment for items</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="65663-104">O estoque de segurança indica uma quantidade adicional de um item mantido em estoque para reduzir o risco de que o item ficará esgotado.</span><span class="sxs-lookup"><span data-stu-id="65663-104">Safety stock indicates an additional quantity of an item held in the inventory in order to reduce the risk that the item will be out of stock.</span></span> <span data-ttu-id="65663-105">O estoque de segurança é usado como um estoque de reserva se as ordens de venda chegarem e o fornecedor não conseguir entregar os itens adicionais para atender à data de remessa solicitada do cliente.</span><span class="sxs-lookup"><span data-stu-id="65663-105">Safety stock is used as a buffer stock in case sales orders come in and the supplier is unable to deliver the additional items to meet the customer's requested ship date.</span></span> <span data-ttu-id="65663-106">Quando o estoque de segurança for usado para atender a uma ordem de venda, o estoque de segurança será reduzido.</span><span class="sxs-lookup"><span data-stu-id="65663-106">When safety stock is used to fulfill a sales order, the safety stock will be reduced.</span></span> <span data-ttu-id="65663-107">Você pode usar o planejamento mestre para trazer automaticamente o estoque de volta ao nível de segurança.</span><span class="sxs-lookup"><span data-stu-id="65663-107">You can use Master planning to automatically bring the inventory back to the safety level.</span></span>    
 

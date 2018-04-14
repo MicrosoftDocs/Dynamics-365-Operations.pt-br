@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 62194012cfbe101d19e9de3254afb004da79a562
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 06416e3cec2915071f13acf485d21482da2eef21
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a><span data-ttu-id="d7b6b-103">Distribuição integrada de ordens de produção para docas de saída</span><span class="sxs-lookup"><span data-stu-id="d7b6b-103">Cross-docking from production orders to outbound docks</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d7b6b-104">Este tópico descreve como gerenciar o processo de distribuição integrada de materiais que está sendo informado como concluído de uma linha de produção para uma doca de transporte.</span><span class="sxs-lookup"><span data-stu-id="d7b6b-104">This topic describes how to manage the process of cross-docking material that is being reported as finished from a production line to an outbound transportation dock.</span></span>
 
@@ -76,10 +76,10 @@ ms.lasthandoff: 03/08/2018
 
 ### <a name="cross-docking-policy-name-transfer-order"></a><span data-ttu-id="d7b6b-135">Nome da política de distribuição integrada: ordem de transferência</span><span class="sxs-lookup"><span data-stu-id="d7b6b-135">Cross-docking policy name: Transfer order</span></span>
 
--   <span data-ttu-id="d7b6b-136">Número de sequência: 10</span><span class="sxs-lookup"><span data-stu-id="d7b6b-136">Sequence number: 10</span></span>
- -   <span data-ttu-id="d7b6b-137">Tipo de ordem de trabalho: Saída de transferência</span><span class="sxs-lookup"><span data-stu-id="d7b6b-137">Work order type: Transfer issue</span></span>
--   <span data-ttu-id="d7b6b-138">A demanda de distribuição integrada requer localização: Falso</span><span class="sxs-lookup"><span data-stu-id="d7b6b-138">Cross docking demand requires location: False</span></span>
--   <span data-ttu-id="d7b6b-139">Estratégia distribuição integrada: Data e hora</span><span class="sxs-lookup"><span data-stu-id="d7b6b-139">Cross docking strategy: Date and time</span></span>
+- <span data-ttu-id="d7b6b-136">Número de sequência: 10</span><span class="sxs-lookup"><span data-stu-id="d7b6b-136">Sequence number: 10</span></span>
+  -   <span data-ttu-id="d7b6b-137">Tipo de ordem de trabalho: Saída de transferência</span><span class="sxs-lookup"><span data-stu-id="d7b6b-137">Work order type: Transfer issue</span></span>
+- <span data-ttu-id="d7b6b-138">A demanda de distribuição integrada requer localização: Falso</span><span class="sxs-lookup"><span data-stu-id="d7b6b-138">Cross docking demand requires location: False</span></span>
+- <span data-ttu-id="d7b6b-139">Estratégia distribuição integrada: Data e hora</span><span class="sxs-lookup"><span data-stu-id="d7b6b-139">Cross docking strategy: Date and time</span></span>
 
 ### <a name="sequence-number"></a><span data-ttu-id="d7b6b-140">Número de sequência</span><span class="sxs-lookup"><span data-stu-id="d7b6b-140">Sequence number</span></span>
 

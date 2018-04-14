@@ -16,17 +16,16 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 01233890603f6f199b7a815eb91d1d5a7f2ae53e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ccb18a677e5d43fc0fab7646d575b13e22f47e13
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cfo-overview-power-bi-content"></a><span data-ttu-id="b2e00-103">Visão geral CFO do conteúdo do Power BI</span><span class="sxs-lookup"><span data-stu-id="b2e00-103">CFO overview Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)] 
 
 <span data-ttu-id="b2e00-104">Este tópico descreve a **visão geral CFO** do conteúdo do Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="b2e00-104">This topic describes the **CFO overview** Microsoft Power BI content.</span></span> <span data-ttu-id="b2e00-105">O Conteúdo do Power BI aplica-se àqueles usando Microsoft Dynamics 365 for Finance and Operations versão 7.2.</span><span class="sxs-lookup"><span data-stu-id="b2e00-105">This Power BI content applies to those using Microsoft Dynamics 365 for Finance and Operations version 7.2.</span></span> <span data-ttu-id="b2e00-106">Se você estiver usando a versão 7.3 ou posterior, consulte [Insights financeiros](financial-insights.md).</span><span class="sxs-lookup"><span data-stu-id="b2e00-106">If you are using version 7.3 or later, please refer to [Financial Insights](financial-insights.md).</span></span>
 

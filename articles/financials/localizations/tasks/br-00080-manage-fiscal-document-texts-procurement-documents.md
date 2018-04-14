@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f38a113b1deb8bc4c8052cd864d8d7eda50ca5a9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1357fadd378f804ffb999eff2c4ba035555e8f7d
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="manage-fiscal-document-text-in-procurement-documents-brazil"></a><span data-ttu-id="5c11f-103">Gerenciar texto da nota fiscal em notas de compras (Brasil)</span><span class="sxs-lookup"><span data-stu-id="5c11f-103">Manage fiscal document text in procurement documents (Brazil)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5c11f-104">Configurar modelos de texto da nota fiscal</span><span class="sxs-lookup"><span data-stu-id="5c11f-104">Set up fiscal document source text</span></span>
 

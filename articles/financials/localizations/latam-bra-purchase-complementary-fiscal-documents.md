@@ -18,17 +18,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b094d2549661520d2bef6b2c6a2b682868438b32
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5d0b7d3cb9fa25156c55304990d2cf21d3935fcd
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="purchase-complementary-fiscal-documents-for-brazil"></a><span data-ttu-id="ebde3-103">Notas fiscais de compra complementares do Brasil</span><span class="sxs-lookup"><span data-stu-id="ebde3-103">Purchase complementary fiscal documents for Brazil</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ebde3-104">Este tópico descreve o conceito de uma fatura complementar de compras da localização brasileira.</span><span class="sxs-lookup"><span data-stu-id="ebde3-104">This topic describes the concept of a purchase complementary invoice for the Brazilian localization.</span></span>
 

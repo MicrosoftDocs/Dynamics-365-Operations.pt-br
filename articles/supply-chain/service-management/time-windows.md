@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4ea10e4c0fbfd21538bba16d2b01deb3e4b3a10d
-ms.openlocfilehash: b7268870aa9065e4e52d936e819107094bad3663
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b215e1645c0f0f60437dc363530e2af3d262c4e
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="time-windows"></a><span data-ttu-id="591fc-103">Janelas de horas</span><span class="sxs-lookup"><span data-stu-id="591fc-103">Time windows</span></span>  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="591fc-104">Você pode usar janelas de tempo para otimizar o agendamento das linhas de ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="591fc-104">You can use time windows to optimize the scheduling of service order lines.</span></span> <span data-ttu-id="591fc-105">Você pode configurar o sistema de forma que criar automaticamente ordens de serviço.</span><span class="sxs-lookup"><span data-stu-id="591fc-105">You can set up the system so that it automatically creates service orders.</span></span> <span data-ttu-id="591fc-106">Com base nos critérios especificados por uma janela de tempo, você pode associar quantas linhas de ordem de serviço de possíveis à menor quantidade de ordens de serviço possíveis.</span><span class="sxs-lookup"><span data-stu-id="591fc-106">Based on the criteria specified by a time window, you can connect as many service order lines as possible to as few service orders as possible.</span></span>
 

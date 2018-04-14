@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: fedb9162c81b9fa115b63402fe80cd4c857e8deb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4f2dc9221b72600c928db9fd306038725c7af305
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a><span data-ttu-id="73170-103">Configurar para exibir lotes mais antigos no depósito em um dispositivo móvel</span><span class="sxs-lookup"><span data-stu-id="73170-103">Configure Display older batches within warehouse on a mobile device</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="73170-104">A configuração **Exibir lotes mais antigos no depósito** permite exibir uma lista de locais com lotes mais antigos do que o local atual da linha de trabalho.</span><span class="sxs-lookup"><span data-stu-id="73170-104">The **Display older batches within warehouse** configuration lets you display a list of locations with batches older than the current location of the work line.</span></span> <span data-ttu-id="73170-105">A lista de locais exibidos inclui informações sobre os lotes mais antigos no local com a data de vencimento e o estoque físico de cada lote.</span><span class="sxs-lookup"><span data-stu-id="73170-105">The list of locations that are displayed includes information about the older batches in the location with the expiration date and the physical inventory of each batch.</span></span> <span data-ttu-id="73170-106">Você pode optar por separar de um novo local ou por continuar separando do local atual.</span><span class="sxs-lookup"><span data-stu-id="73170-106">You can choose to pick from a new location or to continue picking from the current location.</span></span> 
 - <span data-ttu-id="73170-107">Separação de um novo local- se você selecionar um novo local de separação, a linha de trabalho atual será atualizada para usar o novo local e o trabalho continuará como de costume com o novo local.</span><span class="sxs-lookup"><span data-stu-id="73170-107">Pick from a new location - If you select a new location to pick from, the  current work line will be updated to use the new location and work will continue as usual with the new location.</span></span> <span data-ttu-id="73170-108">Para que o novo local seja válido, ele deverá ter a quantidade disponível suficiente para a linha de trabalho inteira.</span><span class="sxs-lookup"><span data-stu-id="73170-108">For the new location to be valid, it must have enough available quantity for the whole work line.</span></span> <span data-ttu-id="73170-109">Se a quantidade necessária não estiver disponível, a linha de trabalho não será atualizada, e a lista será exibida.</span><span class="sxs-lookup"><span data-stu-id="73170-109">If the required quantity is not available, the work line will not be updated, and the list will display.</span></span> 

@@ -18,16 +18,16 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 45e46e06e7c934f18f6d5406ddaafc3b09f3a98f
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="excel-templates-with-multiple-worksheets"></a><span data-ttu-id="95ea7-103">Modelos do Excel com várias planilhas</span><span class="sxs-lookup"><span data-stu-id="95ea7-103">Excel templates with multiple worksheets</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="95ea7-104">O gerenciamento de dados no Microsoft Dynamics 365 for Finance and Operations oferece suporte a modelos baseados no Microsoft Excel para entidades de dados.</span><span class="sxs-lookup"><span data-stu-id="95ea7-104">Data management in Microsoft Dynamics 365 for Finance and Operations supports Microsoft Excel-based templates for data entities.</span></span> <span data-ttu-id="95ea7-105">Esses modelos podem conter uma ou mais planilhas.</span><span class="sxs-lookup"><span data-stu-id="95ea7-105">These templates can contain one or more worksheets.</span></span> <span data-ttu-id="95ea7-106">Os modelos com várias planilhas frequentemente são usados quando é conveniente gerenciar dados em um único arquivo e os importar para várias entidades de dados.</span><span class="sxs-lookup"><span data-stu-id="95ea7-106">Templates with multiple worksheets are often used when it is convenient to manage data in a single file and import it to multiple data entities.</span></span> <span data-ttu-id="95ea7-107">Um exemplo seria locais e depósitos.</span><span class="sxs-lookup"><span data-stu-id="95ea7-107">An example would be sites and warehouses.</span></span>
 

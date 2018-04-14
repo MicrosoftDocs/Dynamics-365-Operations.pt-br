@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7fb52291f15bfe9063b2a9d4a572dcdc44286402
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6e76afac726e9b9fbfda39ec23f8be35aded60a9
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="validate-a-production-flow-and-version"></a><span data-ttu-id="da8b5-103">Validar um fluxo de produção e versão</span><span class="sxs-lookup"><span data-stu-id="da8b5-103">Validate a production flow and version</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="da8b5-104">Este procedimento mostra como criar um fluxo de produção e uma primeira versão para lean manufacturing.</span><span class="sxs-lookup"><span data-stu-id="da8b5-104">This procedure shows how to create a new production flow and a first version for lean manufacturing.</span></span> <span data-ttu-id="da8b5-105">Pré-requisitos: nesse procedimento, os parâmetros de produção para lean manufacturing e as unidades de medida para tempo de classe devem ser definidos.</span><span class="sxs-lookup"><span data-stu-id="da8b5-105">Prerequisites: The production parameters for Lean manufacturing and the units of measure for class time must be defined.</span></span> <span data-ttu-id="da8b5-106">Você também pode definir um fluxo de valor e um perfil de produção.</span><span class="sxs-lookup"><span data-stu-id="da8b5-106">You need to define a Value stream and a Production group.</span></span> <span data-ttu-id="da8b5-107">Consulte os white papers sobre Lean manufacturing para se familiarizar com os conceitos de atividades e fluxos de produção.</span><span class="sxs-lookup"><span data-stu-id="da8b5-107">Refer to the white papers on Lean manufacturing to familiarize yourself with the concepts of production flows and activities.</span></span> <span data-ttu-id="da8b5-108">Este procedimento refere-se à entidade legal USMF nos dados de demonstração.</span><span class="sxs-lookup"><span data-stu-id="da8b5-108">This procedure refers to the legal entity USMF in demo data.</span></span> <span data-ttu-id="da8b5-109">No entanto, ao assumir que a entidade legal está configurada para lean manufacturing, outras entidades legais podem ser usadas.</span><span class="sxs-lookup"><span data-stu-id="da8b5-109">However, assuming that the legal entity is configured for Lean manufacturing, other legal entities can be used.</span></span>
 

@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4aaca7f7459d7cfff4caeb23963294d8cb7a1b58
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="weighted-average-date"></a><span data-ttu-id="ce080-103">Data de média ponderada</span><span class="sxs-lookup"><span data-stu-id="ce080-103">Weighted average date</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="ce080-104">A data de média ponderada é um modelo de estoque baseado no princípio de média ponderada.</span><span class="sxs-lookup"><span data-stu-id="ce080-104">Weighted average date is an inventory model that is based on the weighted average principle.</span></span> <span data-ttu-id="ce080-105">Para o princípio de média ponderada, as saídas do estoque são avaliadas pelo valor médio dos itens recebidos no estoque para cada dia no período de fechamento de estoque.</span><span class="sxs-lookup"><span data-stu-id="ce080-105">For the weighted average principle, issues from inventory are valued at the average value of the items that are received into inventory for each day in the inventory closing period.</span></span> 
 

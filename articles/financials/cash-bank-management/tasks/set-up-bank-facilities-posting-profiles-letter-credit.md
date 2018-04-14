@@ -16,15 +16,15 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ad27eb673745d09569f6a49c8bc66132550f35
-ms.openlocfilehash: 9ad19534091bdbd8924f90174b720d818b9ed778
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e2d80ce02f45260aa364db68692ee19d813ade54
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/27/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letter-of-credit"></a><span data-ttu-id="c7433-103">Configurar recursos bancários e perfis de lançamento para carta de crédito</span><span class="sxs-lookup"><span data-stu-id="c7433-103">Set up bank facilities and posting profiles for letter of credit</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c7433-104">Este procedimento apresenta as etapas da criação de um Recurso bancário e perfil de lançamento necessários para processar Cartas de crédito.</span><span class="sxs-lookup"><span data-stu-id="c7433-104">This procedure walks through creating a Bank facility and posting profile required to process Letters of credit.</span></span> 
 

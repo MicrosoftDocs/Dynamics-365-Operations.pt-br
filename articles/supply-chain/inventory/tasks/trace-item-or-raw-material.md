@@ -17,15 +17,15 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 9054455a2a48e851d085a1b1ff8040261ce17672
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5c8126322f85b317a9737978295ec0ebd2fd7cdc
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="trace-an-item-or-raw-material"></a><span data-ttu-id="75984-103">Rastrear um item ou uma matéria-prima</span><span class="sxs-lookup"><span data-stu-id="75984-103">Trace an item or raw material</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="75984-104">Este procedimento demonstra como usar o rastreamento de itens para identificar onde itens ou matérias-primas foram usados ou estão sendo usados.</span><span class="sxs-lookup"><span data-stu-id="75984-104">This procedure demonstrates how to use item tracing to identify where items or raw materials have been used or are being used.</span></span> <span data-ttu-id="75984-105">Com esse procedimento, você pode identificar um item, rastreá-lo até sua origem e encaminhá-lo por meio da produção e venda do produto finalizado.</span><span class="sxs-lookup"><span data-stu-id="75984-105">With this procedure, you can identify an item, trace it back to the source, and then trace forward through the production and sale of the finished product.</span></span> <span data-ttu-id="75984-106">O processo pode ser usado para investigar os clientes impactados, as ordens de venda afetadas etc.</span><span class="sxs-lookup"><span data-stu-id="75984-106">The process can be used to investigate the customers impacted, the sales orders affected, and more.</span></span> <span data-ttu-id="75984-107">Este procedimento usa a empresa de dados de demonstração USP2.</span><span class="sxs-lookup"><span data-stu-id="75984-107">This procedure uses demo data company USP2.</span></span>
 

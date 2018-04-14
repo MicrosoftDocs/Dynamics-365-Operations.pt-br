@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1452c5d6f5dd8d0dd4cb08eb5cc9a48fd8f875f9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8c44579df2f844bcd4668a218df2ebdca37fa0cc
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-plan-for-a-site"></a><span data-ttu-id="539eb-103">Criar um plano para um site</span><span class="sxs-lookup"><span data-stu-id="539eb-103">Create a plan for a site</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="539eb-104">O planejador de produção calcula os requisitos de capacidade e de material para a produção de um item específico.</span><span class="sxs-lookup"><span data-stu-id="539eb-104">The production planner calculates the material and capacity requirements for the production of a specific item.</span></span> <span data-ttu-id="539eb-105">Depois que as indicações de fornecimento são criadas, ele encontra as ordens no site para o qual ele está planejando e confirma ordens a partir de ordens urgentes.</span><span class="sxs-lookup"><span data-stu-id="539eb-105">After the sourcing suggestions are created, he finds the orders at the site for which he is planning and firms the orders, starting from the urgent ones.</span></span> <span data-ttu-id="539eb-106">As ordens mais urgentes são aquelas que precisam ser confirmadas na data atual.</span><span class="sxs-lookup"><span data-stu-id="539eb-106">The most urgent orders are the ones that need to be firmed on the current date.</span></span> <span data-ttu-id="539eb-107">Use a empresa USMF de dados de demonstração para executar essas tarefas.</span><span class="sxs-lookup"><span data-stu-id="539eb-107">Use the demo data company USMF to perform these tasks.</span></span>
 

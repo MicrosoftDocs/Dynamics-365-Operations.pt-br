@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: a69fd6a1b07683383d88c7f5c7986529c7bb1875
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0f7b63393085858c5ff4c64ebdf5d64b3c3ccdef
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="service-objects"></a><span data-ttu-id="f38ba-103">Objetos de serviço</span><span class="sxs-lookup"><span data-stu-id="f38ba-103">Service objects</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f38ba-104">Objetos de serviço são os ativos e os produtos de um cliente para o qual você pode executar um serviço.</span><span class="sxs-lookup"><span data-stu-id="f38ba-104">Service objects are a customer’s assets and products for which you can perform a service.</span></span> <span data-ttu-id="f38ba-105">Dependendo do tipo de serviço fornecido, os objetos podem ser tangíveis ou intangíveis:</span><span class="sxs-lookup"><span data-stu-id="f38ba-105">Depending on the type of service you provide, objects can be tangible or intangible:</span></span>
 

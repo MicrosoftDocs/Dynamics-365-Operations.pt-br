@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f6bfa9f7c0638b0eaacf1a49bcd7d84ffab3acbf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0859eb7bf461f61396c34f4bcd89537260a536a0
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a><span data-ttu-id="0d3bb-103">Criar uma configuração para importar dados de um arquivo externo no formato CSV (ER)</span><span class="sxs-lookup"><span data-stu-id="0d3bb-103">Design a configuration to import data from an external file in CSV format (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0d3bb-104">Use esse procedimento para criar configurações de ER (relatório eletrônico) para importar dados nos aplicativos Dynamics 365 for Finance and Operations de um arquivo externo no formato CSV.</span><span class="sxs-lookup"><span data-stu-id="0d3bb-104">Use this procedure to design Electronic reporting (ER) configurations to import data in to the Dynamics 365 for Finance and Operations application from an external file in CSV format.</span></span> <span data-ttu-id="0d3bb-105">Neste procedimento, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. Para concluir estas etapas, você deverá primeiramente concluir as etapas no procedimento, "ER Criar um provedor configuração e marcá-lo como ativo".</span><span class="sxs-lookup"><span data-stu-id="0d3bb-105">In this procedure, you will create the required ER configurations for the sample company, Litware, Inc. To complete these steps, you must first complete the steps in the procedure, “ER Create a configuration provider and mark it as active.”</span></span> 
 

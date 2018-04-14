@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 3d02b2ee0ee748546158bce1094d2b343afef7c5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 82370fffe9c296ef77f3b15929a9028bcac77677
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-invoices-overview"></a><span data-ttu-id="da391-105">Visão geral das faturas de fornecedor</span><span class="sxs-lookup"><span data-stu-id="da391-105">Vendor invoices overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="da391-106">Este artigo fornece informações gerais sobre notas fiscais de fornecedor.</span><span class="sxs-lookup"><span data-stu-id="da391-106">This article provides general information about vendor invoices.</span></span> <span data-ttu-id="da391-107">As notas fiscais de fornecedor são solicitações para pagamento dos produtos e serviços recebidos.</span><span class="sxs-lookup"><span data-stu-id="da391-107">Vendor invoices are requests for payment for products and services that were received.</span></span> <span data-ttu-id="da391-108">As notas fiscais do fornecedor podem representar uma conta para serviços em andamento, ou podem se basear em ordens de compra para itens específicos e serviços.</span><span class="sxs-lookup"><span data-stu-id="da391-108">Vendor invoices can represent a bill for ongoing services, or they can be based on purchase orders for specific items and services.</span></span> 
 
@@ -87,11 +86,11 @@ ms.lasthandoff: 01/17/2018
  - [<span data-ttu-id="da391-170">Configurar políticas de fatura de fornecedores</span><span class="sxs-lookup"><span data-stu-id="da391-170">Set up vendor invoice policies</span></span>](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [<span data-ttu-id="da391-171">Dados-chave de fatura em contas a pagar usando uma fatura de fornecedor</span><span class="sxs-lookup"><span data-stu-id="da391-171">Key invoice data into accounts payable using a vendor invoice</span></span>](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [<span data-ttu-id="da391-172">Dados-chave de fatura em contas a pagar usando um diário de aprovações</span><span class="sxs-lookup"><span data-stu-id="da391-172">Key invoice data into accounts payable using an approval journal</span></span>](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [<span data-ttu-id="da391-173">Dados-chave de fatura no sistema de AP usando grupo de faturas</span><span class="sxs-lookup"><span data-stu-id="da391-173">Key invoice data into the AP system using invoice pool</span></span>](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [<span data-ttu-id="da391-174">Registrar uma fatura de fornecedor no diário de faturas</span><span class="sxs-lookup"><span data-stu-id="da391-174">Record a vendor invoice in the invoice journal</span></span>](tasks/record-vendor-invoice-invoice-journal.md)
 
 

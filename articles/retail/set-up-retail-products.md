@@ -20,17 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 0732af04386c3fc239a4d4c4d4d420975dd56f8b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: debaa44078547bd2ee6874bb6562d5b2cc631615
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-retail-products"></a><span data-ttu-id="bedf6-103">Configurar produtos de varejo</span><span class="sxs-lookup"><span data-stu-id="bedf6-103">Set up retail products</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="bedf6-104">Este artigo descreve como configurar produtos de revenda no Microsoft Dynamics 365 para Varejo.</span><span class="sxs-lookup"><span data-stu-id="bedf6-104">This article describes how to set up retail products in Microsoft Dynamics 365 for Retail.</span></span>
 

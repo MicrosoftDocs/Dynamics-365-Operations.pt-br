@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: f5fc4db479852ffac5f2b3401a0c1bd92c35a7cb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 818d7d21605ada63a29a41d3bf20ed9cbf21a178
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a><span data-ttu-id="fae52-103">Controle do consumo de matéria-prima usando princípios de liberação</span><span class="sxs-lookup"><span data-stu-id="fae52-103">Controlling raw material consumption by using flushing principles</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="fae52-104">Os princípios de liberação refletem diferentes estratégias de consumo de matérias-primas usadas nos processos de produção.</span><span class="sxs-lookup"><span data-stu-id="fae52-104">The flushing principles reflect different consumption strategies for raw materials that are used in production processes.</span></span> <span data-ttu-id="fae52-105">O consumo é o processo que deduz o material do estoque disponível e define o valor dos materiais consumidos como **Trabalho em andamento** (WIP) para ordens de produção e ordens de lote.</span><span class="sxs-lookup"><span data-stu-id="fae52-105">Consumption is the process that deducts material from the on-hand inventory and sets the value of the consumed materials to **Work in progress** (WIP) for production orders and batch orders.</span></span> <span data-ttu-id="fae52-106">As matérias-primas normalmente são consumidas de um local configurado para o processo que consome o material.</span><span class="sxs-lookup"><span data-stu-id="fae52-106">Raw materials are usually consumed from a location that is configured for the process that consumes the material.</span></span> <span data-ttu-id="fae52-107">Esse local é conhecido como o local de entrada da produção.</span><span class="sxs-lookup"><span data-stu-id="fae52-107">This location is known as the production input location.</span></span>
 

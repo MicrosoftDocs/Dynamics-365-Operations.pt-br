@@ -16,15 +16,15 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 621ad64c06a6cebff90e888ac89bba922052cf35
-ms.openlocfilehash: de2526d5c674de9505174d3f40f9ae597b8a0a6b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d90252b6c4939c1b06dd400f2fc1cb0e05f7e85b
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="customer-payment-overview"></a><span data-ttu-id="f3e81-103">Visão geral de pagamentos do cliente</span><span class="sxs-lookup"><span data-stu-id="f3e81-103">Customer payment overview</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f3e81-104">Este guia de tarefas apresenta vários métodos utilizados para inserir pagamentos de clientes.</span><span class="sxs-lookup"><span data-stu-id="f3e81-104">This task guide walks through various methods used to enter customer payments.</span></span> <span data-ttu-id="f3e81-105">Esta tarefa usa a empresa de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="f3e81-105">This task uses the USMF demo company.</span></span>
 

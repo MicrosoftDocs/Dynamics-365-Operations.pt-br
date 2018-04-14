@@ -18,16 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 838dc1e5867b8380823275aba5fc425003a54523
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 162b6d660fb5ec8df79dc44b89dea87d877c6470
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a><span data-ttu-id="f5344-103">Liberar linhas de BOM e fórmula para o depósito</span><span class="sxs-lookup"><span data-stu-id="f5344-103">Release BOM and formula lines to the warehouse</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f5344-104">Este tópico descreve o processo para liberar matéria-prima para linhas de BOM e linhas de fórmula para o depósito.</span><span class="sxs-lookup"><span data-stu-id="f5344-104">This topic describes the process for releasing raw material for bill of materials (BOM) lines and formula lines to the warehouse.</span></span> <span data-ttu-id="f5344-105">Quando você libera uma linha da BOM e da fórmula para o depósito, o sistema determina primeiro se o material já está disponível no local de entrada de produção no chão de fábrica em que o material será consumido para o processo de produção.</span><span class="sxs-lookup"><span data-stu-id="f5344-105">When you release a BOM or formula line to the warehouse, the system first determines whether material is already available at the production input location on the shop floor where the material will be consumed for the production process.</span></span>
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/08/2018
 - <span data-ttu-id="f5344-119">**Liberar linhas da BOM e da fórmula por meio de um trabalho em lotes ou como uma interação manual** – Neste método, as linhas da BOM e da fórmula podem ser liberadas apenas através do trabalho em lotes **Versão automática das linhas da BOM e da fórmula** ou como uma interação manual.</span><span class="sxs-lookup"><span data-stu-id="f5344-119">**Release BOM and formula lines via a batch job or as a manual interaction** – In this method, BOM and formula lines can be released only through the **Automatic release of BOM and formula lines** batch job or as a manual interaction.</span></span> <span data-ttu-id="f5344-120">Para liberar manualmente as linhas da BOM e da fórmula, a página de listagem da ordem de produção ou de detalhes da ordem de produção, no painel de ações, selecione **Liberar para o depósito**.</span><span class="sxs-lookup"><span data-stu-id="f5344-120">To manually release BOM and formula lines, on the production order list page or the production order details page, on the Action Pane, select **Release to warehouse**.</span></span>
 
 <span data-ttu-id="f5344-121">Para uma demonstração rápida de como liberar a BOM e as linhas de fórmula para produção usando um trabalho em lotes, assista a esse breve vídeo no YouTube:</span><span class="sxs-lookup"><span data-stu-id="f5344-121">For a quick demonstration of how to release BOM and formula lines to production by using a batch job, watch this short YouTube video:</span></span>
-[!Video https://www.youtube.com/embed/8urAJn50dQ8]
+[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a><span data-ttu-id="f5344-122">Liberando as linhas da BOM e da fórmula usando um trabalho em lotes</span><span class="sxs-lookup"><span data-stu-id="f5344-122">Releasing the BOM and formula lines by using a batch job</span></span>
 
@@ -86,7 +86,7 @@ ms.lasthandoff: 03/08/2018
 ![Exemplo da liberação de material por número da operação](media/two-operations.PNG)
 
 <span data-ttu-id="f5344-177">Para uma demonstração rápida de como liberar o material de acordo com a quantidade de mercadorias, assista a esse breve vídeo no YouTube:</span><span class="sxs-lookup"><span data-stu-id="f5344-177">For a quick demonstration of how to release material in proportion to the amount of finished goods, watch this short YouTube video:</span></span>
-[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
+[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a><span data-ttu-id="f5344-178">Liberar material em relação ao valor de mercadorias acabadas</span><span class="sxs-lookup"><span data-stu-id="f5344-178">Release material in proportion to the amount of finished goods</span></span>
 

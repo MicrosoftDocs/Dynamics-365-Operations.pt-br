@@ -20,17 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: d7ea09f1ef1c6403631520ca1b0d8fdca2d91932
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5a66cbb2051e762b0188c95d5287e2cab7a9cc53
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="retail-hierarchies"></a><span data-ttu-id="3a5b0-103">Hierarquias de varejo</span><span class="sxs-lookup"><span data-stu-id="3a5b0-103">Retail hierarchies</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="3a5b0-104">Este artigo descreve as hierarquias de varejo no Microsoft Dynamics 365 para Varejo.</span><span class="sxs-lookup"><span data-stu-id="3a5b0-104">This article describes retail hierarchies in Microsoft Dynamics 365 for Retail.</span></span>
 

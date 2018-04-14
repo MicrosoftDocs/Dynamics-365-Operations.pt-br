@@ -17,15 +17,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 07940b4eb0d6c0e455e79f437c8f3bbf5921612d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fdc9567040a2ea4e50325c98a2da19da039586bb
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-project-timesheets"></a><span data-ttu-id="9e592-103">Inserir folhas de ponto do projeto</span><span class="sxs-lookup"><span data-stu-id="9e592-103">Enter project timesheets</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9e592-104">Este procedimento permite criar uma folha de ponto usando um formulário vazio de folha de ponto.</span><span class="sxs-lookup"><span data-stu-id="9e592-104">This procedure lets you create a timesheet by using an empty timesheet form.</span></span> <span data-ttu-id="9e592-105">A nova folha de ponto pode ser baseada nas informações de uma folha de ponto anterior, ou em atribuições de projeto e de atividade na página Meus favoritos.</span><span class="sxs-lookup"><span data-stu-id="9e592-105">The new timesheet can be based on information from a previous timesheet, or from project and activity assignments in the My favorites page.</span></span> <span data-ttu-id="9e592-106">Por padrão, a página de lista Todas as folhas de ponto exibe todas as suas folhas de ponto do período atual.</span><span class="sxs-lookup"><span data-stu-id="9e592-106">By default, the All timesheets list page displays all your timesheets for the current period.</span></span> <span data-ttu-id="9e592-107">Você pode usar a lista suspensa do campo Mostrar na página Minhas folhas de ponto para filtrar a lista de folha de ponto por período ou por projeto, ou para exibir as folhas de ponto que foram criadas em nome de outros trabalhadores.</span><span class="sxs-lookup"><span data-stu-id="9e592-107">You can use the drop-down list for the Show field in the My timesheets page to filter the timesheet list by time period or project, or to view timesheets that were created on behalf of other workers.</span></span> <span data-ttu-id="9e592-108">A empresa de dados de demonstração utilizada para criar esse procedimento é a USSI.</span><span class="sxs-lookup"><span data-stu-id="9e592-108">The demo data company used to create this procedure is USSI.</span></span> <span data-ttu-id="9e592-109">Para iniciar este procedimento, vá para Gerenciamento e contabilidade de projetos > Folhas de ponto > Minhas folhas de ponto</span><span class="sxs-lookup"><span data-stu-id="9e592-109">To begin this procedure, go to Project management and accounting > Timesheets >My timesheets</span></span>
 
