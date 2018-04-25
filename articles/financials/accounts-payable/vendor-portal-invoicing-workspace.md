@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 57fc1c21394d91f6a8bd4726c9d948c8ae2cf4d0
+ms.sourcegitcommit: 8af424d1a1ce41316008649472c2b8748806c6d6
+ms.openlocfilehash: 0a76417e01b67b493b320973c14e059850ab772e
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/25/2018
 
 ---
 
@@ -52,16 +52,12 @@ ms.lasthandoff: 04/13/2018
 
 <span data-ttu-id="66336-116">Na seção **Listas Tabular**, o status do faturamento está dividido de formas semelhantes como o resumo organiza lado a lado: Rascunho, e listas enviadas não aprovadas.</span><span class="sxs-lookup"><span data-stu-id="66336-116">In the **Tabular lists** section, the status of the invoicing is broken down in similar ways as the summary tiles: Draft and Submitted, not approved lists.</span></span> <span data-ttu-id="66336-117">Quando o estado de rascunho, uma nota fiscal pode ser enviada ao fluxo de trabalho ou ser excluída.</span><span class="sxs-lookup"><span data-stu-id="66336-117">While in the Draft state, an invoice can be submitted to workflow or deleted.</span></span> <span data-ttu-id="66336-118">A última lista tabular é uma opção para encontrar faturas.</span><span class="sxs-lookup"><span data-stu-id="66336-118">The last tabular list is an option to find invoices.</span></span> <span data-ttu-id="66336-119">Você pode filtrar enquanto pesquisa, para permitir pesquisas mais rápidas.</span><span class="sxs-lookup"><span data-stu-id="66336-119">You can filter as you search, to allow for faster searches.</span></span>
 
-<a name="all-vendor-invoices-list-page"></a><span data-ttu-id="66336-120">Página Todas faturas de fornecedor</span><span class="sxs-lookup"><span data-stu-id="66336-120">All vendor invoices list page</span></span>
------------------------------
+### <a name="all-vendor-invoices-list-page"></a><span data-ttu-id="66336-120">Página Todas faturas de fornecedor</span><span class="sxs-lookup"><span data-stu-id="66336-120">All vendor invoices list page</span></span>
 
 <span data-ttu-id="66336-121">É possível exibir todas as faturas de fornecedor lançadas na página de listagem **Faturas de colaboração do fornecedor**.</span><span class="sxs-lookup"><span data-stu-id="66336-121">You can view all posted and unposted vendor invoices on the **Vendor collaboration invoices** list page.</span></span> <span data-ttu-id="66336-122">Você pode usar esta página de lista para visualizar o status de pagamento das faturas.</span><span class="sxs-lookup"><span data-stu-id="66336-122">You can use this list page to view the payment status of the invoices.</span></span> <span data-ttu-id="66336-123">Os status de pagamento inclui Não feito, e parcialmente pagas totalmente paga.</span><span class="sxs-lookup"><span data-stu-id="66336-123">The payment statuses include Unposted, Unpaid, Partially paid, and Fully paid.</span></span>
 <span data-ttu-id="66336-124">Criar uma nova fatura a partir de uma ordem de compra</span><span class="sxs-lookup"><span data-stu-id="66336-124">Creating a new invoice from a purchase order</span></span>
---------------------------------------------
 
 <span data-ttu-id="66336-125">Você pode criar uma nova nota fiscal do fornecedor selecionando **Novo** a ação **Faturamento de colaboração de fornecedor** no espaço de trabalho.</span><span class="sxs-lookup"><span data-stu-id="66336-125">You can create a new vendor invoice by selecting the **New** action on the **Vendor collaboration invoicing** workspace.</span></span> <span data-ttu-id="66336-126">A ordem de compra e o número de nota fiscal devem ser fornecidos pelo fornecedor.</span><span class="sxs-lookup"><span data-stu-id="66336-126">The purchase order number and invoice number must be provided by the vendor.</span></span> <span data-ttu-id="66336-127">Por padrão, todas as linhas de ordem de compra de fornecedores aparecerão em nova nota fiscal.</span><span class="sxs-lookup"><span data-stu-id="66336-127">By default, all of the lines from the vendor's purchase order will appear on the new invoice.</span></span> <span data-ttu-id="66336-128">A quantidade e as informações de custo podem ser editadas antes de enviar a nota fiscal de fornecedor para o fluxo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="66336-128">The quantity and cost information can be edited prior to submitting the vendor invoice to workflow.</span></span> <span data-ttu-id="66336-129">Você pode anexar arquivos, notas, imagens e URLs a uma nota fiscal antes enviá-la.</span><span class="sxs-lookup"><span data-stu-id="66336-129">You can attach files, notes, images, and URLs to an invoice before submitting it.</span></span>
-
-
 
 <span data-ttu-id="66336-130">Para obter mais informações, consulte [Colaboração de fornecedores com fornecedores externos](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)</span><span class="sxs-lookup"><span data-stu-id="66336-130">For more information, see [Vendor collaboration with external vendors](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)</span></span>
 
