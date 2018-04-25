@@ -52,16 +52,12 @@ Clique em um quadro abrirá uma exibição filtrada da página **Lista de notas 
 
 Na seção **Listas Tabular**, o status do faturamento está dividido de formas semelhantes como o resumo organiza lado a lado: Rascunho, e listas enviadas não aprovadas. Quando o estado de rascunho, uma nota fiscal pode ser enviada ao fluxo de trabalho ou ser excluída. A última lista tabular é uma opção para encontrar faturas. Você pode filtrar enquanto pesquisa, para permitir pesquisas mais rápidas.
 
-<a name="all-vendor-invoices-list-page"></a>Página Todas faturas de fornecedor
------------------------------
+### <a name="all-vendor-invoices-list-page"></a>Página Todas faturas de fornecedor
 
 É possível exibir todas as faturas de fornecedor lançadas na página de listagem **Faturas de colaboração do fornecedor**. Você pode usar esta página de lista para visualizar o status de pagamento das faturas. Os status de pagamento inclui Não feito, e parcialmente pagas totalmente paga.
 Criar uma nova fatura a partir de uma ordem de compra
---------------------------------------------
 
 Você pode criar uma nova nota fiscal do fornecedor selecionando **Novo** a ação **Faturamento de colaboração de fornecedor** no espaço de trabalho. A ordem de compra e o número de nota fiscal devem ser fornecidos pelo fornecedor. Por padrão, todas as linhas de ordem de compra de fornecedores aparecerão em nova nota fiscal. A quantidade e as informações de custo podem ser editadas antes de enviar a nota fiscal de fornecedor para o fluxo de trabalho. Você pode anexar arquivos, notas, imagens e URLs a uma nota fiscal antes enviá-la.
-
-
 
 Para obter mais informações, consulte [Colaboração de fornecedores com fornecedores externos](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 
