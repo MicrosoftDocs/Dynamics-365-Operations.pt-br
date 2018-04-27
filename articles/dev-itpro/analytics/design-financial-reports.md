@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-design-financial-reports"></a>Exibição e criação de relatórios financeiros
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece exercícios que o conduzem pela exibição e criação de relatórios financeiros do Microsoft Dynamics 365 for Finance and Operations. Os relatórios financeiros consistem de uma experiência de exibição no Finance and Operations e o designer de relatórios de clique único que permite que você crie e edite relatórios financeiros.  
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="post-periodic-journals"></a>Lançar diários periódicos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Os diários periódicos são as vezes chamados diários de devolução porque o valor, o texto, e outras informações são repetidos toda vez que o diário periódico é recuperado. Quando você cria o diário periódico, você especifica o intervalo do período para a recorrência, como dias ou meses. Essa guia da tarefa criará um diário periódico com uma recorrência mensal.
 

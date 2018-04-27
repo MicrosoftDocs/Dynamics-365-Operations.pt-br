@@ -1,5 +1,5 @@
 --- 
-title: "Modificar modelo e mapeamento para gerar documentos com atualização de dados de aplicativo para relatório eletrônico (ER)"
+title: Modificar o modelo e o mapeamento para gerar documentos com dados de aplicativo
 description: "Para concluir as etapas desse procedimento, você deve primeiramente concluir o procedimento, \"ER Gerar documentos com atualização de dados de aplicativo (Parte 2 – Gerar documentos)\"."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a29e273e5ef377826c0002a9a0a956defef6aa77
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c112b2895175bd23db313888ec1e964bdf5ed295
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="modify-model-and-mapping-to-generate-documents-with-application-data-update-for-electronic-reporting-er"></a>Modificar modelo e mapeamento para gerar documentos com atualização de dados de aplicativo para relatório eletrônico (ER)
+# <a name="modify-model-and-mapping-to-generate-documents-with-application-data"></a>Modificar o modelo e o mapeamento para gerar documentos com dados de aplicativo
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Para concluir as etapas desse procedimento, você deve primeiramente concluir o procedimento, "ER Gerar documentos com atualização de dados de aplicativo (Parte 2: Gerar documentos)". 
 

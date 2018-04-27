@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-journal-entries-and-transactions"></a>Visualizar entradas e transações de transações
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo explica as várias formas com as quais você pode exibir entradas de diário e transações. 
 
@@ -55,7 +54,7 @@ Além dos relatórios financeiros, você pode usar os relatórios do razão a se
 -   **Origem de transação** – Este relatório de transação mostra a conta por diário e por transação, conta e moeda do relatório. Também mostra cada linha do diário usado como uma compensação.
 
 
-##<a name="see-also"></a>Consulte também
+## <a name="see-also"></a>Consulte também
 - [Saldos de conta contábil](general-ledger-account-balances.md) 
 - [Gerenciador de fontes contábeis](..\accounts-payable\accounting-source-explorer.md)
 - [Relatórios financeiros](financial-reporting-getting-started.md)

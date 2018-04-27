@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Configurar automatização de reconciliação de frete
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como definir dados para reconciliação automática de frete. Isso normalmente é feito por um gerente de depósito. Você pode usar este procedimento na empresa USMF de dados de demonstração.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>Inserir e comparar lances RFQ e contratos de prêmio
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como inserir respostas de uma solicitação de cotação, marcar e comparar ofertas, além de conceder a oferta a um dos fornecedores. Você pode usar este procedimento na empresa USMF de dados de demonstração. Antes de começar, você deve ter uma RFQ com duas linhas que foi enviado para pelo menos dois fornecedores. Você pode executar o procedimento "Criar uma solicitação de cotação" como um pré-requisito para criar isso. Você precisa ter configurado critérios de pontuação antes de executar este procedimento.
 

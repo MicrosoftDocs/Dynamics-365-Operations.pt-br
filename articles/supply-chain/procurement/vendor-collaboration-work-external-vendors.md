@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 76c2b078b583a1f8f2235eef15dbba514e57b0f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-collaboration-with-external-vendors"></a>Colaboração de fornecedores com fornecedores externos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 O módulo **Colaboração do fornecedor** é destinado a fornecedores que não tenham integração EDI (Troca de dados eletrônica) com o Microsoft Dynamics 365 for Finance and Operations. Ele permite que os fornecedores trabalhem com ordens de compra (OCs), faturas, informações de estoque de consignação e solicitações de cotação (RFQs), e também os permitem acessar parte dos dados mestre de fornecedor. Este tópico explica como você pode colaborar com fornecedores externos que usam a interface de colaboração do fornecedor para trabalhar com OCs, RFQs e estoque de consignação. Ele também explica como habilitar um fornecedor específico para usar a colaboração do fornecedor e como definir as informações que todos os fornecedores verão ao responderem a uma OC.
 
@@ -94,12 +94,12 @@ A tabela a seguir mostra a troca comum de informações, dependendo da resposta 
 <tbody>
 <tr class="even">
 <td>O fornecedor <strong>aceita</strong> a ordem e o Finance and Operations é definido para confirmar OCs automaticamente que o fornecedor aceita.</td>
-<td>O status da ordem é atualizado para <strong>Confirmada</strong>. Se a ordem não puder ser atualizada por algum motivo, a resposta do fornecedor ainda é registrada como <strong>Aceita</strong>, mas o status da OC permanecerá <strong>Em Revisão externa</strong>. 
+<td>O status da ordem é atualizado para <strong>Confirmada</strong>. Se a ordem não puder ser atualizada por algum motivo, a resposta do fornecedor ainda é registrada como <strong>Aceita</strong>, mas o status da OC permanecerá <strong>Em Revisão Externa</strong>. 
 
 A OC que foi enviada ao fornecedor e que tem um status de <strong>Em revisão externa</strong> é atualizada com datas de entrega confirmadas nas linhas. Esta atualização inicia uma nova versão que é automaticamente definida para o status <strong>Confirmado</strong>. Quando a OC é confirmada, ela aparecerá na interface de colaboração do fornecedor.</td>
 </tr>
 <tr class="odd">
-<td>O fornecedor <strong>aceita</strong> a ordem, mas o Finance and Operations não está definido para confirmar OCs automaticamente que o fornecedor aceita.</td>
+<td>O fornecedor <strong>aceita</strong> a ordem, mas o Finance and Operations não está configurado para confirmar automaticamente as OCs aceitas pelo fornecedor.</td>
 <td>A resposta do fornecedor é registrada como <strong>Aceita</strong>, mas o status da OC permanece <strong>Em Revisão externa</strong>.
 
 A OC que foi enviada ao fornecedor e que tem um status de <strong>Em revisão externa</strong> é atualizada com datas de entrega confirmadas nas linhas. Esta atualização inicia uma nova versão que é automaticamente definida para o status <strong>Em revisão externa</strong>. Em seguida, você poderá confirmar a OC manualmente.</td>
@@ -115,8 +115,8 @@ A OC que foi enviada ao fornecedor e que tem um status de <strong>Em revisão ex
 <li>Dividir linhas para datas de entrega ou quantidades diferentes.</li>
 <li>Substituir um item.</li>
 </ul>
-O fornecedor não pode alterar as informações sobre preços e os encargos. Entretanto, o fornecedor pode sugerir essas alterações usando notas.</td>
-<td>A resposta do fornecedor é registrada como <strong>Aceita com alterações</strong>, e o status da PO permanece <strong>Em revisão externa</strong>. Os status mostram os tipos de alterações que o fornecedor sugeriu. Para obter informações sobre o consumo automático das alterações, consulte a seção "Atualizar a OC quando um fornecedor sugerir mudanças" posteriormente neste tópico. </td>
+O fornecedor não pode alterar as informações sobre preços e encargos. Entretanto, o fornecedor pode sugerir essas alterações usando notas.</td>
+<td>A resposta do fornecedor é registrada como <strong>Aceita com alterações</strong>, e o status da PO permanece <strong>Em revisão externa</strong>. Os status mostram os tipos de alterações que o fornecedor sugeriu. Para obter informações sobre o consumo automático das alterações, consulte a seção &quot;Atualizar a OC quando um fornecedor sugerir mudanças&quot; posteriormente neste tópico. </td>
 </tr>
 </tbody>
 </table>

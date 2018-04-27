@@ -3,7 +3,7 @@ title: "Um comprovante único"
 description: "Um comprovante único para diários financeiros (diário geral, diário de ativo fixo, diário de pagamentos do fornecedor etc) permite que você insira várias transações do razão auxiliar no contexto de apenas um comprovante."
 author: kweekley
 manager: AnnBe
-ms.date: 03/19/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3831a6b5ec458495134b4b490d33a9acd76b6d2e
-ms.openlocfilehash: 76ea8470786bd50896400a65564d698d96119d6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9f996131830f9bd4efd534143b3fb761c5ccc756
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/20/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="one-voucher"></a>Um comprovante único
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Esta funcionalidade ficará disponível no Dynamics 365 for Finance and Operations versão 8.0, que ficará disponível na versão da Primavera 18.   
@@ -38,9 +38,12 @@ ms.lasthandoff: 03/20/2018
 
 A funcionalidade existente para diários financeiros (diário geral, diário de ativo fixo, diário de pagamentos do fornecedor etc) permite que você insira várias transações do diário-razão auxiliar no contexto de apenas um comprovante. Nos referimos a esta funcionalidade como “Um comprovante único.” É possível criar Um comprovante único usando um dos seguintes métodos:
 
--   Configurar o nome do diário (**Contabilidade** \> **Configuração do diário** \>**Nomes de diário**), de forma que o campo **Novo comprovante** seja definido como **Apenas um número de comprovante**. Cada linha que você adiciona ao diário agora será incluída no mesmo comprovante. Como cada linha será adicionada ao mesmo comprovante, o comprovante poderá ser inserido como um comprovante multilinha, como uma conta/contrapartida na mesma linha, ou como uma combinação.
+-   Configurar o nome do diário (**Contabilidade** \> **Configuração do diário** \>**Nomes de diário**), de forma que o campo **Novo comprovante** seja definido como **Apenas um número de comprovante**. * Cada linha que você adiciona ao diário agora será incluída no mesmo comprovante. Como cada linha será adicionada ao mesmo comprovante, o comprovante poderá ser inserido como um comprovante multilinha, como uma conta/contrapartida na mesma linha, ou como uma combinação.
 
 [![Linha única](./media/same-line.png)](./media/same-line.png)
+ 
+> [!IMPORTANT] 
+> *  Observe que a definição de 'Um comprovante' NÃO inclui nomes de diários que são configurados como apenas **Um número de comprovante** e o usuário, em seguida, insere um comprovante que somente inclui tipos de contas contábeis.  Neste documento, 'Um comprovante' significa que há um comprovante que contém mais de um fornecedor, cliente, banco, ativo fixo ou projeto. 
 
 -   Entre em um comprovante combinado onde não haja contrapartida.
 
@@ -68,13 +71,16 @@ Em seguida, você gera o relatório **Despesas por fornecedor** no espaço de tr
 
 Devido às saídas que foram anteriormente indicadas, a funcionalidade Um comprovante único terá ficado obsoleta. Porém, como há lacunas funcionais que dependem desta funcionalidade, a funcionalidade não se tornará obsoleta de uma só vez. Em vez disso, usaremos a seguinte agenda: 
 
--   **Versão da Primavera 2018** – A funcionalidade será desativada, por padrão, através de um parâmetro da Contabilidade. Porém, você pode ativar a funcionalidade, se sua organização tiver um cenário que esteja nas lacunas do cenário de negócios listadas posteriormente neste tópico.
+- **Versão da Primavera 2018** – A funcionalidade será desativada, por padrão, através de um parâmetro da Contabilidade. Porém, você pode ativar a funcionalidade, se sua organização tiver um cenário que esteja nas lacunas do cenário de negócios listadas posteriormente neste tópico.
 
-    -   Se um cliente tiver um cenário de negócios que não requer Um comprovante único, não ative a funcionalidade. Não corrigiremos "bugs" nas áreas que foram identificadas antes neste tópico, se essa funcionalidade for usada, mesmo se houver outra solução.
+  -   Se um cliente tiver um cenário de negócios que não requer Um comprovante único, não ative a funcionalidade. Não corrigiremos "bugs" nas áreas que foram identificadas antes neste tópico, se essa funcionalidade for usada, mesmo se houver outra solução.
 
-    -   Pare de usar Um comprovante único para integrações no Microsoft Dynamics 365 Finance and Operations, a menos que a funcionalidade seja obrigatória para uma das lacunas funcionais.
+  -   Pare de usar Um comprovante único para integrações no Microsoft Dynamics 365 Finance and Operations, a menos que a funcionalidade seja obrigatória para uma das lacunas funcionais.
 
--   **Outono de 2018 e versões posteriores** – As lacunas funcionais serão preenchidas. Depois que as lacunas funcionais forem preenchidas, a funcionalidade Um comprovante único será desativada permanentemente.
+- **Outono de 2018 e versões posteriores** – As lacunas funcionais serão preenchidas. Depois que as lacunas funcionais forem preenchidas, a funcionalidade Um comprovante único será desativada permanentemente.
+
+- > [!IMPORTANT]
+  > Observe que a opção **Apenas um número de comprovante** não foi removida da configuração do nome de diário.  Esta opção ainda é suportada quando o comprovante contém apenas tipos de conta contábil.  Os clientes devem ter cuidado ao usar esta configuração porque o comprovante não será lançado, se for usada a opção **Apenas um número de comprovante**, mas, em seguida, inserir mais de um cliente, fornecedor, banco, ativo fixo ou projeto.  Além disso, os clientes ainda podem inserir uma mistura de tipos de conta contábil, como um pagamento dentro de um único comprovante que contém tipos de contas de Fornecedor/Banco.  
 
 <a name="why-use-one-voucher"></a>Por que usar Um comprovante único?
 ====================
@@ -102,13 +108,13 @@ Os cenários a seguir podem ser realizados apenas usando a funcionalidade Um com
 
 >   Se uma organização tiver que exibir as entradas contábeis de um evento de negócios juntas, ela deverá usar a funcionalidade Um comprovante único. 
 
--   **Recursos específicos de país/região**
+- **Recursos específicos de país/região**
 
- -   O recurso Documento administrativo único (SAD) para Polônia atualmente exige que apenas um comprovante seja usado. Até uma opção de agrupamento ficar disponível para este recurso, você deve continuar usando a funcionalidade Um comprovante único. Pode haver recursos específicos adicionais de país que exigem a funcionalidade Um comprovante único.
+  -   O recurso Documento administrativo único (SAD) para Polônia atualmente exige que apenas um comprovante seja usado. Até uma opção de agrupamento ficar disponível para este recurso, você deve continuar usando a funcionalidade Um comprovante único. Pode haver recursos específicos adicionais de país que exigem a funcionalidade Um comprovante único.
 
--   **Diário de pagamento antecipado de cliente com impostos em várias "linhas"**
+- **Diário de pagamento antecipado de cliente com impostos em várias "linhas"**
 
- -   Um cliente faz um pagamento antecipado de uma ordem, e as linhas da ordem têm diferentes impostos que devem ser registrados para o pagamento antecipado. O pagamento antecipado do cliente é uma transação que simula as linhas da ordem, de forma que o imposto apropriado possa ser registrado para o valor em cada linha.
+  -   Um cliente faz um pagamento antecipado de uma ordem, e as linhas da ordem têm diferentes impostos que devem ser registrados para o pagamento antecipado. O pagamento antecipado do cliente é uma transação que simula as linhas da ordem, de forma que o imposto apropriado possa ser registrado para o valor em cada linha.
 
 Neste cenário, os clientes do comprovante único são os mesmos clientes porque a transação simula as linhas de uma ordem do cliente. O pagamento antecipado deve ser inserido em um único comprovante porque o cálculo do imposto deve ser feito nas "linhas" do pagamento único que o cliente fez.
 

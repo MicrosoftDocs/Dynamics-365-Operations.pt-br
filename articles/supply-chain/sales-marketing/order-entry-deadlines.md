@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="order-entry-deadlines"></a>Prazos finais de entrada da ordem
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo oferece informações sobre prazos finais de entrada de ordem. Um prazo final de entrada de ordem é uma hora de fechamento que determina se uma ordem do cliente será tratado (e atendida) como se tivesse sido recebida no dia atual ou no dia seguinte.
 

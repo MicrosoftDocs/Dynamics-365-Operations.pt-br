@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-cost-object-balance"></a>Exibir saldo do objeto de custo
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 A empresa de dados demo usada para criar este procedimento é USMF. Esse procedimento é criado para o controlador de custo.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-templates-for-excel"></a>Modelos de planejamento de orçamento para Excel
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve como criar modelos do Microsoft Excel que podem ser usados com planos de orçamento.
 
@@ -42,11 +41,11 @@ Documentos de plano de orçamento podem ser exibidos e editados com um ou vário
 1. Abra a **Lista de planos de orçamento** (**Orçamento** &gt; **Planos de orçamento**). 
 2. Clique em **Novo** para criar um novo documento de plano de orçamento. 
 
-  [![Lista de planos de orçamento](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![Lista de planos de orçamento](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. Use a opção de linha **Adicionar** para adicionar linhas. Clique em **Layouts** para exibir a configuração de layout do documento de plano de orçamento. 
 
-  [![Adição de planos de orçamento](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![Adição de planos de orçamento](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 Você pode revisar a configuração do layout e ajustá-la quando necessário. 
 1. Vá para **Modelo** &gt; **Gerar** para criar um arquivo do Excel para esse layout. 

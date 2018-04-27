@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: ProjTable
+ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 404f7d2b050aba1532cae0955a9579e1c2f174e3
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-management-and-accounting"></a>Gerenciamento e contabilidade de projeto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 A funcionalidade de gerenciamento de projetos e da contabilidade pode ser usada em várias indústrias para proporcionar um serviço, para produzir um produto, ou para obter um resultado.  
 
@@ -83,6 +82,7 @@ Você pode usar a previsão se sua organização tiver uma perspectiva operacion
 Você pode criar seis tipos de projetos no Microsoft Finance and Operations. Cada tipo de projeto é configurado de forma distinta para reconhecimento de custos e receita. A seleção de um tipo de projeto depende da finalidade do projeto. A tabela a seguir descreve o uso típico de cada tipo de projeto.
 
                                                                                                                                                                          |
+
 | Tipo de projeto      | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Tempo e material | A projetos de tempo e material, o cliente for faturado para todos os custos que são contraídos em um projeto. Esses custos incluem custos de horas, despesas, itens e taxas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
@@ -127,10 +127,10 @@ Uma ordem de produção relacionada a um projeto pode ser vinculada a uma ordem 
 
 Com base nas combinações desses fatores, use um dos seguintes métodos:
 
--   **Item concluído/vincular a ordem** – Vincular o projeto a uma ordem de venda ou a uma requisição de item. Ao usar esse método, os custos reais do projeto são lançados quando a ordem de venda é faturada ou quando a guia de remessa é atualizada para a requisição de item. O custo é lançado como item concluído.
--   **Item concluído/sem vínculo com a ordem** – Os custos reais não podem ser lançados até que o ciclo de produção de um item tenha o status de **Concluído**. O custo do item concluído é lançado como uma única transação.
--   **Item consumido/vincular a ordem** – Vincular o projeto a uma requisição de item. Com esse método, você pode ver os custos reais do projeto quando a produção estiver com o status de **Iniciado** ou for reportada como concluída. Os custos são lançados como várias transações de item de projeto para matérias-primas e horas consumidas pela produção. Quando a guia de remessa é atualizada para a requisição de item, nenhum custo do projeto é lançado. Você também pode definir o nível de hierarquia da lista de materiais (BOM) em que os projetos da produção são controlados.
--   ****Item consumido/sem vinculo com a ordem**** – Vincular o projeto a uma requisição de item. Com esse método, você pode ver os custos reais do projeto quando a produção estiver com o status de **Iniciado** ou for reportada como concluída. Os custos são lançados como várias transações de item de projeto para matérias-primas e horas consumidas pela produção. Você também pode definir o nível de hierarquia da BOM em que os projetos da produção são controlados.
+- **Item concluído/vincular a ordem** – Vincular o projeto a uma ordem de venda ou a uma requisição de item. Ao usar esse método, os custos reais do projeto são lançados quando a ordem de venda é faturada ou quando a guia de remessa é atualizada para a requisição de item. O custo é lançado como item concluído.
+- **Item concluído/sem vínculo com a ordem** – Os custos reais não podem ser lançados até que o ciclo de produção de um item tenha o status de **Concluído**. O custo do item concluído é lançado como uma única transação.
+- **Item consumido/vincular a ordem** – Vincular o projeto a uma requisição de item. Com esse método, você pode ver os custos reais do projeto quando a produção estiver com o status de **Iniciado** ou for reportada como concluída. Os custos são lançados como várias transações de item de projeto para matérias-primas e horas consumidas pela produção. Quando a guia de remessa é atualizada para a requisição de item, nenhum custo do projeto é lançado. Você também pode definir o nível de hierarquia da lista de materiais (BOM) em que os projetos da produção são controlados.
+- *<strong><em>Item consumido/sem vínculo com a ordem</em></strong>* – Vincula o projeto a um requisito do item. Com esse método, você pode ver os custos reais do projeto quando a produção estiver com o status de <strong>Iniciado</strong> ou for reportada como concluída. Os custos são lançados como várias transações de item de projeto para matérias-primas e horas consumidas pela produção. Você também pode definir o nível de hierarquia da BOM em que os projetos da produção são controlados.
 
 ### <a name="procure-products-and-services"></a>Adquirir produtos e serviços
 
@@ -239,9 +239,8 @@ A tabela a seguir descreve os métodos para calcular o custo para conclusão de 
 <li>Comparar transações de previsão com as transações reais.</li>
 <li>Mantenha, reduza ou aumente as estimativas para o próximo período.</li>
 </ol>
-O Finance and Operations não diminui automaticamente as previsões esperadas. Portanto, recomendamos que você mantenha um modelo de previsão original no projeto de preço fixo para estabelecer uma linha de base para comparação quando o projeto for concluído. 
-> [!NOTE] Ao selecionar este método, use pelo menos dois modelos de previsão. Um modelo deve conter a previsão original. Para o outro modelo, você deve copiar transações de previsão de outro modelo. Este método é válido somente para projetos de investimento e de preço fixo.</td>
-> </tr>
+O Finance and Operations não diminui automaticamente as previsões esperadas. Portanto, recomendamos que você mantenha um modelo de previsão original no projeto de preço fixo para estabelecer uma linha de base para comparação quando o projeto for concluído. &gt; [!NOTE] &gt; Ao selecionar este método, use pelo menos dois modelos de previsão. Um modelo deve conter a previsão original. Para o outro modelo, você deve copiar transações de previsão de outro modelo. Este método é válido somente para projetos de investimento e de preço fixo.</td>
+</tr>
 <tr class="odd">
 <td>Orçamento restante</td>
 <td>Este método usa um modelo de orçamento restante para calcular o custo para a conclusão do projeto. Ao usar esse método, os custos reais e os valores previstos no modelo de orçamento restante serão adicionados em conjunto. O resultado é um custo total. Antes de usar este método, um modelo de orçamento restante deverá ser configurado para deduzir as transações com base nas transações reais que são registradas no sistema. Na página <strong>Modelos de previsão</strong>, certifique-se de que os campos estejam marcados no grupo <strong>Redução automática de previsão</strong>. Normalmente, um orçamento restante é copiado do orçamento original. Quando as transações são inseridas, as transações do orçamento restante são reduzidas. Como o projeto em andamento, se você determina que o orçamento restante será ajustado, poderá carregar transações de previsão para o orçamento restante. <strong>Observação:</strong> Este método só pode ser aplicado caso um modelo de previsão esteja anexado à previsão.</td>

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-a-product-configuration-model"></a>Aprovar um modelo da configuração do produto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Executar este procedimento exige que pelo menos um modelo de configuração do produto esteja disponível. Este procedimento usa o modelo de alto-falante avançado na empresa de dados de demonstração USMF. Observe que esse modelo já foi aprovado, mas o procedimento o conduz por todo o processo.
 

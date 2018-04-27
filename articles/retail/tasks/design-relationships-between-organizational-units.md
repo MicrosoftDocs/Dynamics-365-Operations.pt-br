@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-the-relationships-between-organizational-units"></a>Criar os relacionamentos entre as unidades organizacionais
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar a relação entre unidades organizacionais. Você deve criar uma nova finalidade da organização antes de definir a relação, ou você pode usar o objetivo existente da organização. A empresa de dados demo usada para completar este procedimento é USRT. Esta tarefa é destinada à função do administrador.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="visibility-into-material-exceptions"></a>Visibilidade de exceções materiais
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 No espaço de trabalho **Gerenciamento de piso de produção**, três blocos fornecem melhor visibilidade de exceções para matérias-primas para ordens de produção e ordens de lote:
 

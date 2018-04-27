@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Exibir e avaliar os resultados de um questionário
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tópico explica como você pode exibir e avaliar os resultados dos questionários que os entrevistados concluem. 
 

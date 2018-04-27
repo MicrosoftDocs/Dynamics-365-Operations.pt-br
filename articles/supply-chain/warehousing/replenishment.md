@@ -20,16 +20,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1b6086f7769086a9cdbb61c03882ea21d908ab4a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="replenishment"></a>Reabastecimento
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve as estratégias de reabastecimento que estão disponíveis para os depósitos que usam a funcionalidade que está disponível no Gerenciamento de depósito. As informações deste tópico não se aplicam à solução de armazenamento disponível no Gerenciamento de estoque.
 
@@ -67,13 +67,15 @@ Carregar o reabastecimento por demanda soma a demanda por várias cargas e cria 
 Em vez de ter que somar a demanda no final de um processo de alocação e fazer o reabastecimento com base na quantidade resumida, você pode aplicar a estratégia instantânea de reabastecimento. Quando você usa esta estratégia, o estoque pode ser reabastecido imediatamente após a linha da diretiva da localização falhar. Portanto, você pode configurar o reabastecimento de maneira que ele seja restrito por unidades específicas, e de forma que ele use as quantidades que são definidas para locais específicos.
 
 ## <a name="replenishment-prerequisites"></a>Pré-requisitos de reabastecimento
-| Pré-requisito            | descrição |
-|-------------------------|-------------|
-| Item                    | O item deve ser habilitado para os processos de gerenciamento de depósito. |
-| Depósito               | O depósito deve ser habilitado para os processos de gerenciamento de depósito. Para habilitar um depósito para processos de gerenciamento de depósito, na página **Depósitos**, selecione o depósito e selecione a opção **Usar processos de gerenciamento de depósito**. |
-| Modelos de reabastecimento | Pelo menos um modelo de reabastecimento deve ser configurado para reabastecimento mín./máx., reabastecimento de demanda de onda ou reabastecimento de demanda de carga. |
-| Locais               | Locais devem ser criados e conectados a um perfil de local. |
-| Perfis de localização       | Perfis de local são necessários para criar locais. |
-| Diretivas de localização     | Diretivas de localização são necessárias para orientar o trabalho para os locais onde o reabastecimento é necessário e para os locais de onde o estoque é originário. |
-| Modelos do trabalho          | Modelos de trabalho do tipo **Reabastecimento** são necessários para criar o trabalho de reabastecimento para que o estoque possa ser movido para os locais desejados. |
+
+|      Pré-requisito       |                                                                                                                                descrição                                                                                                                                 |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|          Item           |                                                                                                        O item deve ser habilitado para os processos de gerenciamento de depósito.                                                                                                        |
+|        Depósito        | O depósito deve ser habilitado para os processos de gerenciamento de depósito. Para habilitar um depósito para processos de gerenciamento de depósito, na página <strong>Depósitos</strong>, selecione o depósito e selecione a opção <strong>Usar processos de gerenciamento de depósito</strong>. |
+| Modelos de reabastecimento |                                                                   Pelo menos um modelo de reabastecimento deve ser configurado para reabastecimento mín./máx., reabastecimento de demanda de onda ou reabastecimento de demanda de carga.                                                                   |
+|        Locais        |                                                                                                       Locais devem ser criados e conectados a um perfil de local.                                                                                                       |
+|    Perfis de localização    |                                                                                                        Perfis de local são necessários para criar locais.                                                                                                        |
+|   Diretivas de localização   |                                                       Diretivas de localização são necessárias para orientar o trabalho para os locais onde o reabastecimento é necessário e para os locais de onde o estoque é originário.                                                        |
+|     Modelos do trabalho      |                                                   Modelos de trabalho do tipo <strong>Reabastecimento</strong> são necessários para criar o trabalho de reabastecimento para que o estoque possa ser movido para os locais desejados.                                                    |
+
 

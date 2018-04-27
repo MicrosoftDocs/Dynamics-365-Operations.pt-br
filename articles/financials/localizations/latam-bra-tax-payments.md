@@ -19,17 +19,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 84fa30694142fce091cb64203e9fd60f1b2c4654
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6073bb9fcd7d9e37307acabb6e664f21202745ff
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="tax-payments-in-brazil"></a>Pagamentos de impostos no Brasil
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre pagamentos de impostos no Brasil. No Brasil, os usuários podem registrar e lançar pagamentos de impostos junto com as informações fiscais relacionadas que será reportadas às autoridades fiscais.
 
@@ -68,7 +67,7 @@ A diferença entre o valor do imposto arrecadado em vendas de mercadorias e o va
 <td>Tipo de Pagamento</td>
 <td>Selecione uma das seguintes opções:
 <ul>
-<li><strong>Periódico</strong> – Cria um pagamento periódico mensal (regular). Todas as transações de impostos gerados de notas fiscais, e todos ajustes de transação (geral ou por documento fiscal) em que a configurações especiais do débito de ajuste não são marcadas, são resumidas para gerar pagamento periódico.</li>
+<li><strong>Periódico</strong> – Cria um pagamento periódico mensal (regular). Todas as transações de impostos geradas de notas fiscais, e todos ajustes de transação (geral ou por documento fiscal) em que a configurações especiais do débito de ajuste não são marcadas, são resumidas para gerar pagamento periódico.</li>
 <li><strong>Outros débitos</strong> – Faz um pagamento específico de ICMS fora do processo normal, porque o pagamento é solicitado por lei. Os exemplos incluem diferencial % do ICMS e Importação de mercadorias. Todas as transações de ajuste marcadas como <strong>Pagamento de outros débitos</strong> na configuração são resumidas para gerar um pagamento.</li>
 </ul></td>
 </tr>

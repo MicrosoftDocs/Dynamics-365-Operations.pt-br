@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="start-a-production-order"></a>Começar uma ordem de produção
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esse procedimento mostra como iniciar uma ordem de produção no chão de fábrica. Consumo de materiais e tempo são relatados nesse processo. A empresa de dados demo usada para criar este procedimento é USMF. Este é o quinto procedimento de sete que explica o ciclo de vida da ordem de produção.
 

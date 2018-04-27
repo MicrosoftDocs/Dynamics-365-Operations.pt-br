@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a>Configurar para exibir lotes mais antigos no depósito em um dispositivo móvel
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 A configuração **Exibir lotes mais antigos no depósito** permite exibir uma lista de locais com lotes mais antigos do que o local atual da linha de trabalho. A lista de locais exibidos inclui informações sobre os lotes mais antigos no local com a data de vencimento e o estoque físico de cada lote. Você pode optar por separar de um novo local ou por continuar separando do local atual. 
 - Separação de um novo local- se você selecionar um novo local de separação, a linha de trabalho atual será atualizada para usar o novo local e o trabalho continuará como de costume com o novo local. Para que o novo local seja válido, ele deverá ter a quantidade disponível suficiente para a linha de trabalho inteira. Se a quantidade necessária não estiver disponível, a linha de trabalho não será atualizada, e a lista será exibida. 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="define-coverage-rules-for-items"></a>Definir regras de cobertura para itens
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 A empresa de dados demo usada para criar este procedimento é USMF. Este procedimento mostra como criar regras de cobertura e substituir configurações de cobertura para um item específico. Também mostra como especificar as configurações padrão de estoque.
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="electronic-fiscal-document-for-services"></a>Nota fiscal eletrônica para serviços
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico oferece uma visão geral da nota fiscal eletrônica de serviço.
 

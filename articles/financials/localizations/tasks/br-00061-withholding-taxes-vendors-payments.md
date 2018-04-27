@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="withholding-taxes-on-vendor-payments-brazil"></a>Impostos retidos na fonte em pagamentos de fornecedores (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode usar a página Comprovante de diário para inserir e lançar pagamentos que você fizer a um fornecedor para a compra de itens ou serviços. Quando você lança um diário de pagamentos do fornecedor, o grupo de impostos retidos na fonte que está configurado para o fornecedor é usado para calcular o imposto retido na fonte na transação. Esta tarefa usa a empresa de demonstração BRMF.
 

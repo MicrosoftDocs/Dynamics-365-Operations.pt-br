@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>Ajustar níveis de estoque no depósito (armazenamento básico)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esse procedimento o orientará no processo de criação e lançamento de um diário de ajuste de estoque para que os níveis de estoque de produtos no depósito sejam ajustados. Você precisa definir um nome de diário de estoque para ajustes de estoque antes de criar este. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. Essas tarefas normalmente seriam realizadas por um funcionário do depósito.
 

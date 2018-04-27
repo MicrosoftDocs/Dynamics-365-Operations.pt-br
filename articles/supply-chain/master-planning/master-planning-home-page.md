@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>Home page do planejamento mestre
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Essencialmente, o Planejamento mestre permite que as empresas determinem e equilibrem a necessidade futura de matérias-primas e a capacidade de cumprir as metas da empresa. O Planejamento mestre avalia o seguinte: 
 
@@ -58,6 +57,7 @@ O mapa de aprendizado a seguir mostra os principais conceitos e tarefas que comp
 [![Mapa de aprendizado do planejamento mestre](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
 ## <a name="quick-links"></a>Links Rápidos
+
 |      |   |
 |------|---|
 |        [Planos mestres](master-plans.md)       |     [Gerar um plano restrito](./tasks/constrained-plan.md)  |

@@ -19,17 +19,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 4016fa4dccd7c58834d56f7af86e05fc0e7f3439
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f118ef38e88171ad1eac463078acf37ba4390e57
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="merge-inventory-batches"></a>Mesclar lotes de estoque
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre como consolidar dois ou mais lotes de estoque em um lote mesclado.
 
@@ -63,7 +62,7 @@ Sim, há alguns aspectos que você deve configurar antes que seja possível usar
 <td>Veja as configurações recomendadas para o item:
 <ul>
 <li>Para gerar automaticamente números de lote para os lotes mesclados, é necessário atribuir os produtos liberados a um grupo de números de lote. Também é possível inserir um número de lote manualmente ao criar um lote mesclado, ou selecionar um número de lote existente. Se você selecionar um número de lote existente, verifique se o lote selecionado não foi incluído em nenhuma transação de estoque.</li>
-<li>Se você estiver usando a vida útil ou datas de validade para os produtos liberados, as datas de um lote mesclado serão calculadas com base na seleção do campo <strong>Cálculo de data da mesclagem de lotes</strong>. As opções a seguir estão disponíveis:
+<li>Se você estiver usando as datas de validade para o produto liberado, as datas de um lote mesclado serão calculadas com base na seleção do campo <strong>Cálculo de data da mesclagem de lotes</strong>. As opções a seguir estão disponíveis:
 <ul>
 <li><strong>Mais anterior</strong> - o cálculo se baseia na primeira data especificada para um lote de origem que é selecionado para a mesclagem de lotes.</li>
 <li><strong>Mais recente</strong> - o cálculo se baseia na data mais recente especificada para um lote de origem que é selecionado para a mesclagem de lotes.</li>

@@ -18,16 +18,16 @@ ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bfbc0fdfcff809a7d22362961b9778355ed7317b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-collaboration-mobile-workspace"></a>Espaço de trabalho móvel de colaboração de fornecedores
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre a área de trabalho móvel **Colaboração de fornecedor**. Esta área de trabalho ajuda seus fornecedores a se manter atualizados sobre as ordens de compra que foram enviadas para aprovação. Eles também podem visualizar informações sobre contatos e ordens de compra novos e atualizados.
 
@@ -76,9 +76,9 @@ Se o Microsoft Dynamics 365 for Operations versão 1611 com a atualização da p
 </thead>
 <tbody>
 <tr class="odd">
-<td>O KB 3216943 deve ser implementado se você estiver usando a atualização da plataforma 3.</td>
+<td>O KB 3216943 deve ser implementado se você estiver usando a atualização da Plataforma 3.</td>
 <td>Administrador do sistema</td>
-<td>KB 3216943 é uma atualização binária que é necessária se você estiver usando a atualização da plataforma 3. Para implementar este KB, o administrador do sistema deve seguir estas etapas.
+<td>KB 3216943 é uma atualização binária que é necessária se você estiver usando a atualização da Plataforma 3. Para implementar este KB, o administrador do sistema deve seguir estas etapas.
 <ol>
 <li>Baixar o KB 3216943 do Microsoft Dynamics Lifecycle Services (LCS).</li>
 <li>Instale a atualização binária, que é entregue como um pacote implantável. Para obter informações sobre como aplicar um pacote implantável, consulte<a href="../../dev-itpro/deployment/apply-deployable-package-system.md">Aplicar um pacote implantável</a>.</li>

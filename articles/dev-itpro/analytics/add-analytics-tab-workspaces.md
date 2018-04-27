@@ -16,16 +16,16 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee95c3d79f7f401c767b9bc8415b21369c14478b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Adicionar análise a espaços de trabalho usando o Power BI Embedded
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 > Esse recurso é compatível com o Dynamics 365 for Finance and Operations (versão 7.2 e posterior).
@@ -50,7 +50,7 @@ Se você estender um espaço de trabalho de aplicativo existente ou introduzir s
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Adicionar um arquivo .pbix como um recurso
 Antes de começar, é preciso criar ou obter o relatório do Power BI que será incorporado no espaço de trabalho. Para obter informações sobre como criar relatórios analíticos, consulte [Introdução à área de trabalho do Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
- 
+
 Siga essas etapas para adicionar um arquivo .pbix como um artefato de projetos do Visual Studio.
 
 1. Crie um projeto no modelo apropriado.
@@ -63,12 +63,12 @@ Siga essas etapas para adicionar um arquivo .pbix como um artefato de projetos d
 5. Localize o arquivo .pbix que contém a definição do relatório analítico e depois clique em **Abrir**.
 
     ![Selecionar uma caixa de diálogo Arquivo de recurso](media/analytical-workspace-select-resource.png)
-  
+
 Agora que você já adicionou o arquivo .pbix como um recurso do Dynamics 365, é possível incorporar os relatórios nos espaços de trabalho e adicionar links diretos usando itens de menu.
 
 ## <a name="add-a-tab-control-to-an-application-workspace"></a>Adicionar um controle de guias a um espaço de trabalho de aplicativo
 Neste exemplo, estenderemos o espaço de trabalho **Gerenciamento de reservas** no modelo de Gerenciamento de Frota adicionando a guia **Análise** à definição do formulário **FMClerkWorkspace**.
- 
+
 A ilustração a seguir mostra a aparência do formulário **FMClerkWorkspace** no designer do Microsoft Visual Studio.
 
 ![Formulário FMClerkWorkspace antes de alterações](media/analytical-workspace-definition-before.png)
@@ -93,16 +93,16 @@ Siga essas etapas para estender a definição de formulário para o espaço de t
 16. Clique com o botão direito do mouse e depois selecione **Remover padrão**.
 17. Clique com o botão direito do mouse e depois selecione **Adicionar padrão** > **Espaço de trabalho com guias**.
 18. Execute uma compilação para verificar suas alterações.
- 
+
 A ilustração a seguir mostra a aparência do design após a aplicação dessas alterações.
 
 ![FMClerkWorkspace após as alterações](media/analytical-workspace-definition-after.png)
 
 Agora que você já adicionou os controles de formulário que serão usados para incorporar o relatório de espaço de trabalho, é preciso definir o tamanho do controle pai para que ele acomode o layout. Por padrão, as páginas **Painel de filtros** e **Guia** estarão visíveis no relatório. No entanto, você pode alterar a visibilidade desses controles conforme apropriado para o consumidor alvo do relatório.
- 
+
 > [!NOTE]
 > Para espaços de trabalho incorporados, recomendamos o uso de extensões para ocultar as páginas **Painel de filtros** e **Guia** para que haja consistência.
- 
+
 Agora você já concluiu a tarefa de estender a definição de formulário de aplicativo. Para obter mais informações sobre como usar extensões para realizar personalizações, consulte [Personalização: sobreposições e extensões](../extensibility/customization-overlayering-extensions.md).
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>Adicionar a lógica comercial X++ para incorporar um controle mais amplo
@@ -169,12 +169,13 @@ public static void initializeReportControl(
 
 #### <a name="parameters"></a>Parâmetros
 
-| Nome | descrição |
-|---|---|
-| resourceName | O nome do recurso .pbix. |
-| formGroupControl | O controle de grupo de formulário ao qual aplicar o controle de relatório do Power BI. |
-| defaultPageName | O nome de página padrão. |
-| showFilterPane | Um valor booliano que indica se o painel de filtros deve ser mostrado (**true**) ou ocultado (**false**). |
-| showNavPane | Um valor booliano que indica se o painel de navegação deve ser mostrado (**true**) ou ocultado (**false**). |
-| defaultFilters | Os filtros padrão para o relatório do Power BI. |
+|       Nome       |                                                              descrição                                                               |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|   resourceName   |                                                    O nome do recurso .pbix.                                                     |
+| formGroupControl |                                    O controle de grupo de formulário ao qual aplicar o controle de relatório do Power BI.                                     |
+| defaultPageName  |                                                         O nome de página padrão.                                                         |
+|  showFilterPane  |   Um valor booliano que indica se o painel de filtros deve ser mostrado (<strong>true</strong>) ou ocultado (<strong>false</strong>).   |
+|   showNavPane    | Um valor booliano que indica se o painel de navegação deve ser mostrado (<strong>true</strong>) ou ocultado (<strong>false</strong>). |
+|  defaultFilters  |                                              Os filtros padrão para o relatório do Power BI.                                              |
+
 

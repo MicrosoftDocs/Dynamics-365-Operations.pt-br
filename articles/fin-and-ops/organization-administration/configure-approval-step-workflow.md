@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Configurar uma etapa de aprovação em um fluxo de trabalho
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico explica como configurar as propriedades de uma etapa de aprovação.
 
@@ -145,9 +144,9 @@ Siga estas etapas para especificar a quem a etapa de aprovação deve ser atribu
     Se o usuário não executar nenhuma ação no documento no tempo alocado, o documento vencerá. Um documento vencido será escalonado, com base nas opções selecionadas na área **Escalonamento** da página.
 4.  Se você tiver atribuído a etapa de aprovação a vários usuários ou a um grupo de usuários, na guia **Política de conclusão**, selecione uma das seguintes opções:
     -   **Aprovador único** – a ação que é aplicada ao documento é determinada pela primeira pessoa que responde. Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de US$ 15.000. O relatório de despesas está atribuído no momento à Suzana, à Joana e a Guilherme. Se Suzana for a primeira pessoa a responder ao documento, a ação tomada por ela será aplicada. Se Suzana rejeitar o documento, ele será rejeitado e enviado novamente para Samuel. Se Suzana aprovar o documento, ele será enviado a Ana para aprovação. 
-    
+
     ![Fluxo de trabalho que tem um processo de aprovação](./media/workflow_multipleusersinstep.gif)
-    
+
     -   **Maioria dos aprovadores** – a ação que é aplicada ao documento é determinada quando a maioria dos aprovadores responde. Por exemplo, suponha que Samuel tenha enviado um relatório de despesas de US$ 15.000. O relatório de despesas está atribuído no momento à Suzana, à Joana e a Guilherme. Se Suzana e Joana forem os dois primeiros aprovadores a responder, a ação tomada por ambas será aplicada ao documento.
         -   Se Suzana aprovar o documento, mas Joana o rejeitar, o documento será rejeitado e enviado novamente para Samuel.
         -   Se Suzana e Joana aprovarem o documento, ele será enviado a Ana para aprovação.

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-standard-cost-updates"></a>Gerenciamento de atualizações de custo padrão
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 As atualizações de dados de custo padrão podem ser gerenciadas usando duas abordagens diferentes: a abordagem de uma versão ou a abordagem de duas versões. 
 

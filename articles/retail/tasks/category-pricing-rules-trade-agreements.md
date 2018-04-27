@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a>Regras de preços de categoria para criar contratos comerciais
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar contratos comerciais de preço de vendas usando uma regra de definição de preços de categoria. A empresa de dados de demonstração usada para criar esta tarefa é USRT. Esta tarefa é destinada à função de gerente de mercadorias de varejo.
 

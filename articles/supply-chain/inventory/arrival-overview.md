@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="arrival-overview"></a>Visão geral de entrada
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre o recurso Visão geral de entrada. A página Visão geral de entrada faz parte desse recurso e fornece uma visão geral de todos os itens que devem chegar como itens de entrada.
 

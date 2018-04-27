@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>Identificar e implantar ferramentas de seleção de candidato
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Localizar um grupo de candidatos qualificado para preencher vagas pode ser difícil, principalmente quando uma posição requer um conjunto exclusivo de habilidades.  No entanto, os candidatos com as habilidades que você precisa já estão empregadas na sua organização. Você pode procurar uma habilidade específica definida entre funcionários existentes ou novos candidatos. Isso permite que um recruta rapidamente colete e selecione os candidatos que estiverem aplicados para a posição inicial ou final no passado, candidatos ou localizar potenciais do grupo existente dos funcionários. Use essa tarefa que registra para saber como a funcionalidade de mapeamento de habilidades pode ajudar a encontrar a pessoa adequada para uma posição em aberto. A empresa de dados demo usada para criar este procedimento é USMF.
 

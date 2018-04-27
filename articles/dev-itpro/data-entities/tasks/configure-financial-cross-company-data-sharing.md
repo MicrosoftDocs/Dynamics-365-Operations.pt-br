@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-financial-cross-company-data-sharing"></a>Configurar o compartilhamento de dados financeiros entre empresas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como configurar, habilitar, validar e resolver conflitos para compartilhar dados entre empresas. A empresa usa USMF e as datas financeiras que compartilham o modelo.
 

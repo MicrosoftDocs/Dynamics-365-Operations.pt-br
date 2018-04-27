@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-dimensions-and-import-dimension-members"></a>Criar dimensões e importar membros da dimensão
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 A contabilização de custos é um módulo independente que requer dados de outros módulos. Esses dados são classificados como segue:
 

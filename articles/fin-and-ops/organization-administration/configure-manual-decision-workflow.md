@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a>Configurar uma decisão manual em um fluxo de trabalho
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico explica como configurar as propriedades de uma decisão manual.
 
@@ -252,73 +251,74 @@ Siga estas etapas para especificar a quem uma decisão manual deve ser atribuíd
 ## <a name="specify-what-happens-when-a-decision-is-overdue"></a>Especificar o que acontece quando uma decisão vence
 Se um usuário não tomar a decisão no tempo alocado, a decisão vencerá. Uma decisão vencida pode ser escalonada ou atribuída automaticamente a outro usuário. Siga estas etapas para escalonar a decisão se ela estiver vencida.
 
-1.  No painel esquerdo, clique em **Escalonamento**.
-2.  Marque a caixa de seleção **Usar caminho de escalonamento** para criar um caminho de escalonamento. O sistema atribuirá automaticamente a decisão aos usuários listados no caminho de escalonamento. Por exemplo, a tabela a seguir representa um caminho de escalonamento.
-    | Sequência | Caminho de escalonamento            |
-    |----------|----------------------------|
-    | 1        | Atribuir a: Denise           |
-    | 2        | Atribuir a: Eduardo            |
-    | 3        | Ação final: \[Opção 1\] |
+1. No painel esquerdo, clique em **Escalonamento**.
+2. Marque a caixa de seleção **Usar caminho de escalonamento** para criar um caminho de escalonamento. O sistema atribuirá automaticamente a decisão aos usuários listados no caminho de escalonamento. Por exemplo, a tabela a seguir representa um caminho de escalonamento.
 
-    Neste exemplo, o sistema atribui a decisão vencida à Denise. Se a Denise não tomar a decisão no tempo alocado, o sistema a atribuirá a Eduardo. Se Eduardo não tomar a decisão no tempo alocado, o sistema selecionará **\[Opção 1\]** como decisão.
-3.  Para adicionar um usuário ao caminho de escalonamento, clique em **Adicionar escalonamento**. Selecione uma das opções na tabela a seguir e execute as etapas adicionais dessa opção antes de passar para a etapa 4.
-    <table>
-    <colgroup>
-    <col width="33%" />
-    <col width="33%" />
-    <col width="33%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th>Opção</th>
-    <th>Usuários para os quais a decisão será escalonada</th>
-    <th>Etapas adicionais</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td>Hierarquia</td>
-    <td>Usuários em uma hierarquia organizacional específica</td>
-    <td><ol>
-    <li>Depois que você selecionar <strong>Hierarquia</strong>, na guia <strong>Seleção de hierarquia</strong>, na lista <strong>Tipo de hierarquia</strong>, selecione o tipo de hierarquia ao qual a decisão será escalonada.</li>
-    <li>O sistema deve recuperar um intervalo de nomes de usuário da hierarquia. Esses nomes representam os usuários aos quais a decisão pode ser escalonada. Siga estas etapas para especificar o ponto inicial e final do intervalo de nomes de usuário que o sistema recupera: <ol>
-    <li>Para especificar o ponto de partida, selecione uma pessoa na lista <strong>Iniciar em</strong>.</li>
-    <li>Para especificar o ponto final, clique em <strong>Adicionar condição</strong>. Em seguida, insira uma condição que determine em que ponto da hierarquia o sistema para de recuperar nomes.</li>
-    </ol></li>
-    <li>Na guia <strong>Opções de hierarquia</strong>, especifique a quais usuários no intervalo a decisão deve ser escalonada: <ul>
-    <li><strong>Atribuir a todos os usuários recuperados</strong> – A decisão é escalonada a todos os usuários do intervalo.</li>
-    <li><strong>Atribuir somente ao último usuário recuperado</strong> – A decisão é escalonada somente ao último usuário do intervalo.</li>
-    <li><strong>Excluir usuários com a seguinte condição:</strong> – A decisão não é escalonada aos usuários do intervalo que atenderem a determinada condição. Clique em <strong>Adicionar condição</strong> para especificar a condição.</li>
-    </ul></li>
-    </ol></td>
-    </tr>
-    <tr class="even">
-    <td>Usuário de fluxo de trabalho</td>
-    <td>Usuários no fluxo de trabalho atual</td>
-    <td><ul>
-    <li>Depois que você selecionar <strong>Usuário de fluxo de trabalho</strong> na guia <strong>Usuário de fluxo de trabalho</strong>, na lista <strong>Usuário de fluxo de trabalho</strong>, selecione um usuário que participa do fluxo de trabalho.</li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td>Usuário</td>
-    <td>Usuários específicos do Finance and Operations</td>
-    <td><ol>
-    <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
-    <li>A lista <strong>Usuários disponíveis</strong> tem todos os usuários do Finance and Operations. Selecione os usuários aos quais a decisão será escalonada e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
-    </ol></td>
-    </tr>
-    </tbody>
-    </table>
+   | Sequência | Caminho de escalonamento            |
+   |----------|----------------------------|
+   | 1        | Atribuir a: Denise           |
+   | 2        | Atribuir a: Eduardo            |
+   | 3        | Ação final: \[Opção 1\] |
 
-4.  Na guia **Limite de tempo**, no campo **Duração**, especifique quanto tempo o usuário tem para tomar a decisão. Selecione uma das seguintes opções:
-    -   **Horas** – Insira o número de horas que o usuário tem para tomar a decisão. Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.
-    -   **Dias** – Insira o número de dias que o usuário tem para tomar a decisão. Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.
-    -   **Semanas** – Insira o número de semanas que o usuário tem para tomar a decisão.
-    -   **Meses** – Selecione o dia e a semana até quando o usuário deve tomar a decisão. Por exemplo, talvez você queira que o usuário tome a decisão até sexta-feira da terceira semana do mês.
-    -   **Anos** – Selecione o dia, a semana e o mês até quando o usuário deve tomar a decisão. Por exemplo, talvez você queira que o usuário tome a decisão até a sexta-feira da terceira semana de dezembro.
+   Neste exemplo, o sistema atribui a decisão vencida à Denise. Se a Denise não tomar a decisão no tempo alocado, o sistema a atribuirá a Eduardo. Se Eduardo não tomar a decisão no tempo alocado, o sistema selecionará **\[Opção 1\]** como decisão.
+3. Para adicionar um usuário ao caminho de escalonamento, clique em **Adicionar escalonamento**. Selecione uma das opções na tabela a seguir e execute as etapas adicionais dessa opção antes de passar para a etapa 4.
+   <table>
+   <colgroup>
+   <col width="33%" />
+   <col width="33%" />
+   <col width="33%" />
+   </colgroup>
+   <thead>
+   <tr class="header">
+   <th>Opção</th>
+   <th>Usuários para os quais a decisão será escalonada</th>
+   <th>Etapas adicionais</th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr class="odd">
+   <td>Hierarquia</td>
+   <td>Usuários em uma hierarquia organizacional específica</td>
+   <td><ol>
+   <li>Depois que você selecionar <strong>Hierarquia</strong>, na guia <strong>Seleção de hierarquia</strong>, na lista <strong>Tipo de hierarquia</strong>, selecione o tipo de hierarquia ao qual a decisão será escalonada.</li>
+   <li>O sistema deve recuperar um intervalo de nomes de usuário da hierarquia. Esses nomes representam os usuários aos quais a decisão pode ser escalonada. Siga estas etapas para especificar o ponto inicial e final do intervalo de nomes de usuário que o sistema recupera: <ol>
+   <li>Para especificar o ponto de partida, selecione uma pessoa na lista <strong>Iniciar em</strong>.</li>
+   <li>Para especificar o ponto final, clique em <strong>Adicionar condição</strong>. Em seguida, insira uma condição que determine em que ponto da hierarquia o sistema para de recuperar nomes.</li>
+   </ol></li>
+   <li>Na guia <strong>Opções de hierarquia</strong>, especifique a quais usuários no intervalo a decisão deve ser escalonada: <ul>
+   <li><strong>Atribuir a todos os usuários recuperados</strong> – A decisão é escalonada a todos os usuários do intervalo.</li>
+   <li><strong>Atribuir somente ao último usuário recuperado</strong> – A decisão é escalonada somente ao último usuário do intervalo.</li>
+   <li><strong>Excluir usuários com a seguinte condição:</strong> – A decisão não é escalonada aos usuários do intervalo que atenderem a determinada condição. Clique em <strong>Adicionar condição</strong> para especificar a condição.</li>
+   </ul></li>
+   </ol></td>
+   </tr>
+   <tr class="even">
+   <td>Usuário de fluxo de trabalho</td>
+   <td>Usuários no fluxo de trabalho atual</td>
+   <td><ul>
+   <li>Depois que você selecionar <strong>Usuário de fluxo de trabalho</strong> na guia <strong>Usuário de fluxo de trabalho</strong>, na lista <strong>Usuário de fluxo de trabalho</strong>, selecione um usuário que participa do fluxo de trabalho.</li>
+   </ul></td>
+   </tr>
+   <tr class="odd">
+   <td>Usuário</td>
+   <td>Usuários específicos do Finance and Operations</td>
+   <td><ol>
+   <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
+   <li>A lista <strong>Usuários disponíveis</strong> tem todos os usuários do Finance and Operations. Selecione os usuários aos quais a decisão será escalonada e mova-os para a lista <strong>Usuários selecionados</strong>.</li>
+   </ol></td>
+   </tr>
+   </tbody>
+   </table>
 
-5.  Repita as etapas de 3 a 4 para cada usuário que deve ser adicionado ao caminho de escalonamento. Você pode alterar a ordem dos usuários.
-6.  Se os usuários listados no caminho de escalonamento não tomarem a decisão no tempo alocado, o sistema tomará a decisão. Para especificar a opção que o sistema selecionará, selecione a linha **Ação** e, na guia **Encerrar ação**, selecione uma opção.
+4. Na guia **Limite de tempo**, no campo **Duração**, especifique quanto tempo o usuário tem para tomar a decisão. Selecione uma das seguintes opções:
+   -   **Horas** – Insira o número de horas que o usuário tem para tomar a decisão. Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.
+   -   **Dias** – Insira o número de dias que o usuário tem para tomar a decisão. Selecione o calendário usado pela sua organização e insira informações sobre a semana de trabalho da organização.
+   -   **Semanas** – Insira o número de semanas que o usuário tem para tomar a decisão.
+   -   **Meses** – Selecione o dia e a semana até quando o usuário deve tomar a decisão. Por exemplo, talvez você queira que o usuário tome a decisão até sexta-feira da terceira semana do mês.
+   -   **Anos** – Selecione o dia, a semana e o mês até quando o usuário deve tomar a decisão. Por exemplo, talvez você queira que o usuário tome a decisão até a sexta-feira da terceira semana de dezembro.
+
+5. Repita as etapas de 3 a 4 para cada usuário que deve ser adicionado ao caminho de escalonamento. Você pode alterar a ordem dos usuários.
+6. Se os usuários listados no caminho de escalonamento não tomarem a decisão no tempo alocado, o sistema tomará a decisão. Para especificar a opção que o sistema selecionará, selecione a linha **Ação** e, na guia **Encerrar ação**, selecione uma opção.
 
 ## <a name="set-a-time-limit"></a>Definir um limite de tempo
 Siga estas etapas caso a decisão deva ser tomada em um horário específico. **Observação:** as opções selecionadas neste procedimento substituirão as que você selecionou nas áreas **Atribuição** e **Escalonamento** da página.

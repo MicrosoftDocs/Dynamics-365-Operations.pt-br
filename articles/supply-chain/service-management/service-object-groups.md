@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-groups"></a>Grupos de objetos de serviço 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Grupos de objetos são úteis para classificar e filtrar os dados sobre objetos para relatórios e estatísticas. Por exemplo, você pode agrupar objetos por localização geográfica ou tipo.
 

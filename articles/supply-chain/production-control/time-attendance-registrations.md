@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="time-and-attendance-registration"></a>Registro de Horário e presença
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Os trabalhadores de registro de tempo podem inserir diferentes tipos de registros de tempo, por exemplo, registro de entrada e de saída em atividades indiretas e registro de ausência. Este tópico descreve os registros, o cálculo, a aprovação e o uso do fluxo de trabalho para adicionar a estrutura e a aprovação automatizada ao processo de aprovação de folhas de ponto. 
 
@@ -95,7 +94,7 @@ Você pode configurar um processo de aprovação do fluxo de trabalho que aprove
 | Total dos dias de horário e presença            | O fluxo de trabalho valida os registros, por exemplo, o número previsto de horas de trabalho para o dia. |                                                                                                                                                                                                                                                       |
 | Registro do diário de horário e presença. | O fluxo de trabalho valida cada tipo de registro para a data do registro.                           | Horário e presença • Entrada • Saída • Ausência • Interrupção • Código de alternância • Projeto • Atividade de projeto • Trabalhos de produção da atividade indireta • Fila antes • Instalação • Processo • Sobreposição • Transporte • Fila • Iniciar assistência • Interromper assistência |
 
- 
+
 
 ## <a name="transferring-approved-registrations"></a>Transferindo registros aprovados
 Após a aprovação dos registros é possível transferi-los para um trabalho de folha de pagamento periódico. Um registro transferido é lançado em uma atividade ou trabalho ao qual esteja relacionado, por exemplo, a uma ordem de produção ou um projeto. As transações da folha de pagamento são geradas para cada trabalhador com base nos registros.  

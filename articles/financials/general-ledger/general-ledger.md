@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="general-ledger"></a>Contabilidade 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Use a Contabilidade para definir e gerenciar os registros financeiros da entidade legal. A contabilidade é um registro de entradas de débito e crédito. Essas entradas são classificadas usando as contas listadas em um plano de contas. 
 

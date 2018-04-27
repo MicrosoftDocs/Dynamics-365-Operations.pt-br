@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-control-overview"></a>Visão geral de controle de custos 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 O espaço de trabalho **Controle de custos** é um ponto central onde os gerentes responsáveis por controlar um objeto de custo ou um conjunto de objetos de custo dentro de uma dimensão ou nas dimensões podem acessar relatórios. Os relatórios no espaço de trabalho são gerenciados totalmente por contadores custo, de forma que o layout e os dados que são usados para relatórios possam ser consistentes na organização inteira.
 

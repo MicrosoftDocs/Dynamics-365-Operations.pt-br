@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>depreciação com declínio de 125%
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece uma visão geral do método de saldo de reduzem de 125 de porcentagem de depreciação.
 
@@ -68,6 +67,7 @@ Se você selecionar **Fiscal** como o ano de depreciação, as opções a seguir
 -   **Período fiscal** lança o valor total da depreciação calculada para o ano fiscal. Esse valor é acumulado nos períodos fiscais definidos na página **Calendários fiscais**.
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>Exemplo de depreciação com declínio de 125%
+
 |                                |        |
 |--------------------------------|--------|
 | Custo de Aquisição               | 11.000 |

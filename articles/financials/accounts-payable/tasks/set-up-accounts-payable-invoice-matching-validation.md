@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>Configurar a validação de conciliação de faturas de contas a pagar
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este registro usa a empresa de dados de demonstração USMF. A função gerente de contas a pagar ou gerente de contabilidade executaria estas etapas. Antes de começar, verifique se a configuração conciliação de faturas está marcada. Se sua entidade legal acompanha os gastos, como fretes, usando encargos, verifique se a tecla de configuração Cobranças está selecionada.  A conciliação de faturas de contas a pagar é o processo de conciliar as informações da fatura do fornecedor e do recebimento do produto. As diferenças entre esses documentos são chamadas discrepâncias de conciliação. As discrepâncias de conciliação são comparadas com as tolerâncias especificadas. Se uma discrepância de conciliação exceder a porcentagem ou valor de tolerância, os ícones de variação na correspondência são exibidos no formulário de Fatura de fornecedor e no formulário Detalhes de conciliação de faturas.
 

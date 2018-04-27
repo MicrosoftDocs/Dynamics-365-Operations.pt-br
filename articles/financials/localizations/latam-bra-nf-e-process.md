@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="nf-e-process-overview-for-brazil"></a>Visão geral do processo de NF-e para o Brasil
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece uma visão geral do processo para configurar e enviar uma Nota fiscal eletrônica de (NF-e) para registrar a movimentação de itens e de serviço entre duas partes.
 

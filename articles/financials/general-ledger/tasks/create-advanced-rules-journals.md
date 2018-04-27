@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-advanced-rules-for-journals"></a>Criar regras avançadas para diários
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento aborda a criação de regras avançadas para diários. Inclui a configuração de controle de diário e restrições de lançamento de usuário. Este procedimento usa a empresa de dados de demonstração USMF.
 

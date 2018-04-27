@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-expense-management"></a>Configurar gerenciamento de despesas
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve as considerações a serem feitas e as decisões a serem tomadas durante o processo de planejamento, antes de configurar o Gerenciamento de despesas no Microsoft Dynamics 365 for Finance and Operations. No gerenciamento de Despesa, é possível armazenar informações sobre métodos de pagamento, requisições de viagem, relatórios de despesas, políticas etc.
 

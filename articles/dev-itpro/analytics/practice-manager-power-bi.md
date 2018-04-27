@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="practice-manager-power-bi-content"></a>Conteúdo Gerente de prática do Power BI
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve o que está incluído no conteúdo **Gerente de prática** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
 
@@ -118,7 +118,9 @@ As seções a seguir descrevem as medidas agregadas usadas em cada entidade.
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entidade: ProjectAccountingCube\_TotalEstimatedCosts 
 **Fonte de dados:** ProjTable
 
-| Principal medida agregada       | Campo               | descrição |
-|---------------------------------|---------------------|-------------|
+
+|    Principal medida agregada    |        Campo        |                                          descrição                                           |
+|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
 | Custo planejado de atividade concluído | Sum(TotalCostPrice) | Total de preço de custo em estimativas para todos os tipos de transação de projeto com tarefas concluídas. |
+
 

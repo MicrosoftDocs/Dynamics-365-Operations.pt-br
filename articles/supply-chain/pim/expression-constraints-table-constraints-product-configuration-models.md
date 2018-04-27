@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3206e53c4f2659c6d9b9be64b01ac28cdd17bc88
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0235cf112b59ee86f77d26044e47eb9bff8f67db
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>Restrições de expressão e restrições de tabela nos modelos de configuração do produto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve o uso de restrições de expressão e de tabela. As restrições controlam os valores de atributo que podem ser selecionados quando você configura produtos para uma ordem de venda, cotação de venda, ordem de compra, ou uma ordem de produção. É possível usar restrições de expressão ou de tabela, dependendo de como você preferir criar as restrições. 
 
@@ -204,23 +203,24 @@ As tabelas a seguir listam os operadores e as notações de infixo que você pod
 
 Os exemplos na tabela a seguir mostram como gravar uma notação de infixo.
 
-| Notação de infixo    | descrição                                                                                   |
+
+|  Notação de infixo   |                                          descrição                                          |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| x + y + z         | Adição                                                                                      |
-| x \* y \* z       | Multiplicação                                                                                |
-| x - y             | A subtração binária é traduzida da mesma forma de uma adição binária onde há um segundo binário. |
-| x ^ y ^ z         | Exponenciação com associabilidade direta                                                   |
-| !x                | Não booliano                                                                                   |
-| x -: y            | Implicação booliana                                                                           |
-| x | y | z         | Ou booliano                                                                                    |
-| x & y & z         | E booliano                                                                                   |
-| x == y == z       | Igualdade                                                                                      |
-| x != y != z       | Distinto                                                                                      |
-| x &lt; y &lt; z   | Menor que                                                                                     |
-| x &gt; y &gt; z   | Maior que                                                                                  |
-| x &lt;= y &lt;= z | Menor que ou igual a                                                                         |
-| x &gt;= y &gt;= z | Maior que ou igual a                                                                      |
-| (x)               | Precedência padrão de sobreposição de parênteses.                                                      |
+|     x + y + z     |                                           Adição                                            |
+|    x \* y \* z    |                                        Multiplicação                                         |
+|       x - y       | A subtração binária é traduzida da mesma forma de uma adição binária onde há um segundo binário. |
+|     x ^ y ^ z     |                          Exponenciação com associabilidade direta                          |
+|        !x         |                                          Não booliano                                          |
+|      x -: y       |                                      Implicação booliana                                      |
+|         x         |                                               y                                               |
+|     x & y & z     |                                          E booliano                                          |
+|    x == y == z    |                                           Igualdade                                            |
+|    x != y != z    |                                           Distinto                                            |
+|  x &lt; y &lt; z  |                                           Menor que                                           |
+|  x &gt; y &gt; z  |                                         Maior que                                          |
+| x &lt;= y &lt;= z |                                     Menor que ou igual a                                     |
+| x &gt;= y &gt;= z |                                   Maior que ou igual a                                    |
+|        (x)        |                           Precedência padrão de sobreposição de parênteses.                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>Por que minhas restrições de expressão não são validadas corretamente?
 Não é possível usar palavras-chave reservadas como nomes de atributos, componentes ou subcomponentes em um modelo de configuração de produto. Veja agora uma lista de palavras-chave reservadas que você não deve usar:

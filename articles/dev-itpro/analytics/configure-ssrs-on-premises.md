@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>Configurar o SQL Server Reporting Services para uma implantação local
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Use as etapas neste tópico para configurar o SQL Server Reporting Services (SSRS) para a sua implantação do Microsoft Dynamics 365 for Finance and Operations (local).
 
@@ -52,13 +52,13 @@ Use as etapas neste tópico para configurar o SQL Server Reporting Services (SSR
 
     [![Guia da URL do Portal Web](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
     
-  Após a configuração do portal, a guia **Portal da Web** corresponderá ao gráfico a seguir.
+   Após a configuração do portal, a guia **Portal da Web** corresponderá ao gráfico a seguir.
     [![guia do portal web](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
     
 8. Clique na URL dos relatórios para exibir o portal Web SQL Server Reporting Services. 
-9.  Quando estiver no portal, crie uma pasta nomeada **Dynamics**.
+9. Quando estiver no portal, crie uma pasta nomeada **Dynamics**.
 
-    [![pasta do Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
+   [![pasta do Dynamics](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
     
 10. No **Gerenciador de configuração dos serviços de relatório**, clique na guia **Configurações de Email** e verifique se as configurações correspondem ao gráfico a seguir.
 
@@ -68,15 +68,15 @@ Use as etapas neste tópico para configurar o SQL Server Reporting Services (SSR
 
     [![guia da conta de execução](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
     
-  Não altere as configurações padrão na guia **Chaves de Criptografia**. [![guia chaves de criptografia](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
+    Não altere as configurações padrão na guia **Chaves de Criptografia**. [![guia chaves de criptografia](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
     
 12. Clique na guia **Configurações da assinatura** e verifique se as configurações correspondem ao gráfico a seguir.
 
     [![guia de configurações da assinatura](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
     
-  Não altere as configurações padrão na guia **Implantação em Expansão**. [![guia de implantação em expansão](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
+    Não altere as configurações padrão na guia **Implantação em Expansão**. [![guia de implantação em expansão](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
     
-  Não altere as configurações padrão na guia **Integração do Power BI**. [![guia de integração do power bi](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
+    Não altere as configurações padrão na guia **Integração do Power BI**. [![guia de integração do power bi](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
     
 13. Clique em **Sair** para fechar o **Gerenciador de configuração dos serviços de relatório**.
 

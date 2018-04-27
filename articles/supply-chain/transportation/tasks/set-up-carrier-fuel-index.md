@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>Configurar um índice de combustível da transportadora
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este guia mostra como criar uma região do índice de combustível, um índice de combustível e um índice de combustível da transportadora. A região do índice de combustível especifica em qual região o índice de combustível deve ser aplicado, e o índice de combustível especifica um preço do combustível para um determinado período de tempo. Para refletir a alteração nos preços do combustível ao longo do tempo, você pode associar múltiplos índices de combustível da transportadora.  Essas tarefas são feitas tipicamente por um coordenador de transporte. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou usando seus próprios dados.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-policies"></a>Diretivas de despesas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Você pode definir políticas que seus trabalhadores devem seguir ao inserir e enviar relatórios de despesas e requisições de viagem.         
 A implementação de diretivas de despesas pode ajudá-lo a gerenciar as despesas de forma eficiente.         
@@ -39,14 +39,14 @@ definir a política.
 Você pode definir três tipos de política:         
         
 - Aviso – permite que o trabalhador envie um relatório de despesas ou uma requisição de viagem, mas a despesa será marcada para todos os aprovadores e        
-para o relatório mais recente.        
+  para o relatório mais recente.        
 
 - Erro – exige que o trabalhador revise a despesa para cumprimento da política antes do envio do relatório de despesas ou da requisição de viagem.       
  
- - Justificativa – exige que o trabalhador ou um gerente insira uma justificativa para o excedente do valor da política antes do envio do relatório de despesas ou da requisição de viagem.        
+  - Justificativa – exige que o trabalhador ou um gerente insira uma justificativa para o excedente do valor da política antes do envio do relatório de despesas ou da requisição de viagem.        
  
- Você também pode configurar um intervalo de datas no qual as políticas de despesas estão em vigor. Por exemplo, tarifas aéreas para voos entre a Dinamarca      
- e a cidade de Nova Iorque podem ser dispendiosas durante a estação de pico de viagens de férias. É possível definir uma regra de despesas com voos que restrinja o      
- custo dos voos para a cidade de Nova Iorque a um limite de DKK 5000, e você pode especificar que essa regra esteja em vigor entre 15 de março e      
- 15 de setembro.
+  Você também pode configurar um intervalo de datas no qual as políticas de despesas estão em vigor. Por exemplo, tarifas aéreas para voos entre a Dinamarca      
+  e a cidade de Nova Iorque podem ser dispendiosas durante a estação de pico de viagens de férias. É possível definir uma regra de despesas com voos que restrinja o      
+  custo dos voos para a cidade de Nova Iorque a um limite de DKK 5000, e você pode especificar que essa regra esteja em vigor entre 15 de março e      
+  15 de setembro.
 

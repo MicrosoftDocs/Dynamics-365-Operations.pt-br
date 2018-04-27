@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="correct-inventory-tracking-information"></a>Corrigir informações de rastreamento de estoque
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento apresenta o processo de criação e lançamento de um diário de transferência de estoque para corrigir informações de rastreamento de estoque. Neste exemplo, vamos atualizar as informações de um item controlado por lote alterando um lote registrado incorretamente em outro lote. Você pode ver todo esse procedimento na empresa de dados de demonstração USPI, ou usando seus próprios dados. Se você usar seus próprios dados, precisará ter um item habilitado por lote, e não deve ser controlado por localização. Você também precisa ter um nome do diário de estoque configurado para transferências de estoque. Essas tarefas normalmente seriam realizadas por um funcionário do depósito.
 

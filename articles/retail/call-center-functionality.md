@@ -29,8 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="call-center-functionality"></a>Funcionalidade do call center
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este artigo fornece uma visão geral da funcionalidade de vendas do call center no Microsoft Dynamics 365 for Retail.
 

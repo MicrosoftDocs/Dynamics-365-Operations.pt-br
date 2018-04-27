@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7cd19340c913fcda3fb537162dfbae52b5c8e922
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3d4354316d0c37c6556c0ec3d27a3c62c5afb7b0
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="intercompany-invoicing"></a>Faturamento intercompanhia
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece informações e exemplos sobre faturamento intercompanhia para projetos no Microsoft Dynamics 365 for Finance and Operations.
 
@@ -58,20 +57,22 @@ Neste exemplo, USSI é uma entidade legal de empréstimo e seus recursos estão 
 
 Para este exemplo, a FRSI deve ser um cliente na entidade legal USSI, e a USSI deve ser um fornecedor na entidade legal FRSI. É possível configurar uma relação intercompanhia entre as duas entidades legais. O procedimento a seguir mostra como definir os parâmetros para que ambas as entidades legais possam participar do faturamento intercompanhia.
 
-1.  Configurar a FRSI como um cliente na entidade legal USSI, e configurar a USSI como um fornecedor na entidade legal FRSI. Existem três pontos de entrada para as etapas que são necessárias para essa tarefa.
-    | Etapa | Ponto de entrada                                                                       | descrição   |
-    |------|-----------------------------------------------------------------------------------|------------------|
-    | A    | Na USSI, clique em **Contas a receber** &gt; **Clientes** &gt; **Todos os clientes**. | Crie um novo registro de cliente para a FRSI, e selecione o grupo de clientes.                                                                                  |
-    | B    | Na FRSI, clique em **Contas a pagar** &gt; **Fornecedores** &gt; **Todos os fornecedores**.        | Crie um novo registro de fornecedor para a USSI, e selecione o grupo de fornecedores.                                                                                    |
-    | C    | Na FRSI, abra o registro de fornecedor que você acabou de criar.                            | No Painel de ação, na guia **Geral**, no grupo **Configurar**, clique em **Intercompanhia**. Na página **Intercompanhia**, na guia **Relação de comércio**, defina a barra deslizante **Ativo** para **Sim**. No campo **Empresa cliente**, selecione o registro de cliente que você criou na etapa A. |
+1. Configurar a FRSI como um cliente na entidade legal USSI, e configurar a USSI como um fornecedor na entidade legal FRSI. Existem três pontos de entrada para as etapas que são necessárias para essa tarefa.
 
-2.  Clique em **Gerenciamento e contabilidade de projeto** &gt; **Configuração** &gt; **Parâmetros de contabilidade de gerenciamento do projeto** e, em seguida, clique na guia **Intercompanhia**. A forma como você configura os parâmetros depende se você é a entidade legal que toma o empréstimo ou a entidade legal de empréstimo.
-    -   Se você for a entidade legal que toma o empréstimo, selecione a categoria de aquisição que deve ser usada para corresponder as faturas de fornecedor, que são geradas automaticamente.
-    -   Se você for a entidade legal de empréstimo, para cada entidade que toma o empréstimo, selecione uma categoria de projeto padrão para cada tipo de transação. Categorias de projeto são usadas para a configuração de impostos quando a categoria faturada em transações entre empresas existe somente na entidade legal que toma o empréstimo. É possível escolher acumular receita para transações entre empresas. Esse acúmulo é feito quando as transações são lançadas e, em seguida, é revertido quando a fatura intercompanhia é lançada.
+   | Etapa |                                                       Ponto de entrada                                                        |                                                                                                                                                                                               descrição                                                                                                                                                                                               |
+   |------|--------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |  A   | Na USSI, clique em <strong>Contas a receber</strong> &gt; <strong>Clientes</strong> &gt; <strong>Todos os clientes</strong>. |                                                                                                                                                                  Crie um novo registro de cliente para a FRSI, e selecione o grupo de clientes.                                                                                                                                                                  |
+   |  B   |    Na FRSI, clique em <strong>Contas a pagar</strong> &gt; <strong>Fornecedores</strong> &gt; <strong>Todos os fornecedores</strong>.     |                                                                                                                                                                    Crie um novo registro de fornecedor para a USSI, e selecione o grupo de fornecedores.                                                                                                                                                                    |
+   |  C   |                                  Na FRSI, abra o registro de fornecedor que você acabou de criar.                                  | No Painel de ação, na guia <strong>Geral</strong>, no grupo <strong>Configurar</strong>, clique em <strong>Intercompanhia</strong>. Na página <strong>Intercompanhia</strong>, na guia <strong>Relação de comércio</strong>, defina a barra deslizante <strong>Ativo</strong> para <strong>Sim</strong>. No campo <strong>Empresa cliente</strong>, selecione o registro de cliente que você criou na etapa A. |
 
-3.  Clique em **Gerenciamento e contabilidade de projeto** &gt; **Configuração** &gt; **Preços** &gt; **Preço de transferência**.
-4.  Selecione uma moeda, um tipo de transação e um modelo de preço de transferência. A moeda usada na fatura é a moeda configurada no registro de cliente da entidade legal que toma o empréstimo na entidade legal de empréstimo. A moeda é usada para corresponder entradas na tabela de preços de transferência.
-5.  Clique em **Contabilidade** &gt; **Configuração de lançamento** &gt; **Contabilidade intercompanhia**, e configure um relacionamento para a USSI e a FRSI.
+
+2. Clique em **Gerenciamento e contabilidade de projeto** &gt; **Configuração** &gt; **Parâmetros de contabilidade de gerenciamento do projeto** e, em seguida, clique na guia **Intercompanhia**. A forma como você configura os parâmetros depende se você é a entidade legal que toma o empréstimo ou a entidade legal de empréstimo.
+   -   Se você for a entidade legal que toma o empréstimo, selecione a categoria de aquisição que deve ser usada para corresponder as faturas de fornecedor, que são geradas automaticamente.
+   -   Se você for a entidade legal de empréstimo, para cada entidade que toma o empréstimo, selecione uma categoria de projeto padrão para cada tipo de transação. Categorias de projeto são usadas para a configuração de impostos quando a categoria faturada em transações entre empresas existe somente na entidade legal que toma o empréstimo. É possível escolher acumular receita para transações entre empresas. Esse acúmulo é feito quando as transações são lançadas e, em seguida, é revertido quando a fatura intercompanhia é lançada.
+
+3. Clique em **Gerenciamento e contabilidade de projeto** &gt; **Configuração** &gt; **Preços** &gt; **Preço de transferência**.
+4. Selecione uma moeda, um tipo de transação e um modelo de preço de transferência. A moeda usada na fatura é a moeda configurada no registro de cliente da entidade legal que toma o empréstimo na entidade legal de empréstimo. A moeda é usada para corresponder entradas na tabela de preços de transferência.
+5. Clique em **Contabilidade** &gt; **Configuração de lançamento** &gt; **Contabilidade intercompanhia**, e configure um relacionamento para a USSI e a FRSI.
 
 ## <a name="example-2-create-and-post-an-intercompany-timesheet"></a>Exemplo 2: Criar e lançar uma tabela de tempos intercompanhia
 A USSI, entidade legal de empréstimo, deve criar e lançar a tabela de tempos para um projeto da FRSI, a entidade legal que toma o empréstimo. Existem dois pontos de entrada para as etapas que são necessárias para essa tarefa.

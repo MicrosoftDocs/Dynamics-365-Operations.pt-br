@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: e64d4fc1a7425d38d728b11e503d3e7289312495
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 943239c7d57b4a438c405f1ad0551db29d7a8145
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-rules-for-optimization-advisor"></a>Criar regras para o Optimization advisor
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico explica como criar novas regras para o **Optimization advisor**. Por exemplo, você pode criar uma nova regra que identifique quais casos de solicitação de cotações (RFQ) possuem um título vazio. Usar títulos em casos facilita sua identificação e pesquisa. Embora relativamente simples, esse exemplo mostra o que pode ser obtido com regras de otimização. 
 

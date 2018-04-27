@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-fiscal-document-source-text-brazil"></a>Configurar texto de origem da nota fiscal (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode anexar textos de nota fiscal à ordem de venda, ordem de compra ou fatura de texto livre. Os textos de nota fiscal anexados à ordem de venda, ordem de compra ou fatura de texto livre são impressos na nota fiscal. Os textos de nota fiscal fornecem informações adicionais sobre os impostos e as leis que são aplicados à nota fiscal. Também é possível incluir os espaços reservados no texto de origem da nota fiscal. Os espaços reservados serão substituídos pelo texto predefinido quando você lança o documento fiscal ao qual o texto da nota fiscal está anexado. Esta tarefa usa a empresa de demonstração BRMF.
 

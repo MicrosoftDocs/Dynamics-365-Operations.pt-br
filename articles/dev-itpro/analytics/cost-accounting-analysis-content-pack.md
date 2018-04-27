@@ -27,7 +27,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Conteúdo do Power BI Análise de contabilização de custos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI **Análise de contabilização de custos**. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
 
@@ -111,18 +111,20 @@ A tabela a seguir mostra como as principais medidas agregadas são usadas para c
 
 As principais dimensões a seguir são usadas como filtros para cortar as medidas agregadas para obter uma granularidade maior e fornecer uma introspecção analítica mais profunda.
 
-| Entidade                             | Exemplos de atributos                                                                                               |
+
+|               Entidade               |                                                Exemplos de atributos                                                |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-| Razões de contabilização de custos            | Razão de contabilização de custos                                                                                               |
-| Unidades de controle de custo                 | Nome da unidade de controle de custo                                                                                               |
-| Dimensões do elemento de custo            | Nome da dimensão dos elementos de custo, nome de membro de dimensão do elemento de custo e descrição de membro de dimensão do elemento de custo          |
-| Dimensões de objeto de custo             | Nome da dimensão do objeto de custo, nome de membro de dimensão do objeto de custo e descrição de membro de dimensão do objeto de custo              |
-| Dimensões estatísticas             | Nome da dimensão estatística, nome de membro de dimensão estatística e descrição de membro de dimensão estatística              |
-| Hierarquias da dimensão de objeto de custo  | Nome da hierarquia de dimensão de objeto de custo, nível da hierarquia de dimensão de objeto de custo e árvore da hierarquia de dimensão de objeto de custo    |
+|      Razões de contabilização de custos       |                                                Razão de contabilização de custos                                                |
+|         Unidades de controle de custo         |                                                Nome da unidade de controle de custo                                                |
+|      Dimensões do elemento de custo       |     Nome da dimensão dos elementos de custo, nome de membro de dimensão do elemento de custo e descrição de membro de dimensão do elemento de custo      |
+|       Dimensões de objeto de custo       |       Nome da dimensão do objeto de custo, nome de membro de dimensão do objeto de custo e descrição de membro de dimensão do objeto de custo        |
+|       Dimensões estatísticas       |       Nome da dimensão estatística, nome de membro de dimensão estatística e descrição de membro de dimensão estatística        |
+| Hierarquias da dimensão de objeto de custo  |  Nome da hierarquia de dimensão de objeto de custo, nível da hierarquia de dimensão de objeto de custo e árvore da hierarquia de dimensão de objeto de custo   |
 | Hierarquias da dimensão de elemento de custo | Nome da hierarquia de dimensão de elemento de custo, nível da hierarquia de dimensão de elemento de custo e árvore da hierarquia de dimensão de elemento de custo |
-| Hierarquias da dimensão estatística  | Nome da hierarquia de dimensão estatística, nível da hierarquia de dimensão estatística e árvore da hierarquia de dimensão estatística    |
-| Versões de transação               | Nome da versão                                                                                                         |
-| Calendários fiscais                   | Calendário, descrição do calendário                                                                                       |
-| Anos fiscais                       | Ano civil                                                                                                        |
-| Períodos fiscais                     | Período de ano civil                                                                                                 |
+| Hierarquias da dimensão estatística  |  Nome da hierarquia de dimensão estatística, nível da hierarquia de dimensão estatística e árvore da hierarquia de dimensão estatística   |
+|        Versões de transação        |                                                     Nome da versão                                                     |
+|          Calendários fiscais          |                                            Calendário, descrição do calendário                                            |
+|            Anos fiscais            |                                                    Ano civil                                                     |
+|           Períodos fiscais           |                                                 Período de ano civil                                                 |
+
 

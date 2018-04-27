@@ -19,17 +19,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7e05361bf865e44ba6073198fba94d7102b1ed19
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b4e792cae66e38546b3bdfdfbd59a2e36d891c2
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-coupons-for-retail-sales"></a>Criar cupons para vendas de varejo
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a>Visão geral de cupons
 
@@ -46,9 +45,12 @@ Para criar um cupom, você cria o desconto e o cupom separadamente. Em seguida, 
 
 ### <a name="limited-use-coupons"></a>Cupons de uso limitado
 
-Os cupons podem ser configurados como cupons de uso limitado. O limite de uso pode ser definido por cliente ou canal, ou como um limite global. Este limite é aplicado quando o código ou o código de barras são inseridos ou digitalizados no POS ou durante a entrada da ordem do cliente. Um cupom é gravado como usado quando um pedido é concluído que tem o cupom associado a ele.
+Os cupons podem ser configurados como cupons de uso limitado. O limite de uso pode ser definido por cliente ou canal, ou como um limite global. Este limite é aplicado quando o código ou o código de barras são inseridos ou digitalizados no POS ou durante a entrada da ordem do cliente.
 
 O limite é aplicado por código de cupom em um cupom. Por exemplo, um cupom de uso único que possui dois códigos de cupom pode ser usado duas vezes: uma vez por cada código de cupom. Cada código em um cupom pode ser definido de forma independente como ativo.
+
+> [!NOTE]
+> Depois que um código de cupom atingiu seu limite de uso, o sistema *não* alterará automaticamente o status do código de cupom “Usado”. Entretanto, o sistema não permitirá o uso adicional de um código de cupom que atingiu seu limite de uso. Se o status de um código de cupom está definido manualmente como algo diferente de “Ativo”, o código de cupom não pode ser usado em nenhum canal.
 
 ## <a name="managing-coupons"></a>Gerenciando cupons
 
@@ -68,8 +70,8 @@ Antes de configurar um cupom, você deve configurar o código da barra de cupom 
     > [!NOTE]
     > Para ambas as sequências numéricas, você deve definir o campo **Escopo** como **Empresa**. Na maioria dos casos, você deve gerar automaticamente os números sequenciais.
 
-5.  Na página **Parâmetros compartilhados de varejo**, na guia **Códigos de barras**, selecione o código de barras criado anteriormente.
-6.  Na página **Parâmetros de varejo**, na guia **Sequências numéricas**, selecione as sequências numéricas que você criou para o número do cupom e a ID do código de cupom.
+5.  Na página **Parâmetros de varejo**, na guia **Códigos de barras**, selecione o código de barras criado anteriormente.
+6.  Na página **Parâmetros compartilhados de varejo**, na guia **Sequências numéricas**, selecione as sequências numéricas criadas para o número do cupom e a ID do código do cupom.
 7.  Agora você pode abrir a página **Cupons** e criar novos cupons.
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>O efeito das atualizações parciais nos cupons

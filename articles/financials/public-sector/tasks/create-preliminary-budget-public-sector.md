@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>Criar um orçamento preliminar para o setor público
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode criar entradas de registro de orçamento preliminar para um modelo de orçamento específico e valores de dimensão. Depois que o orçamento real for aprovado, você pode criar entradas de registro do orçamento original. Este procedimento foi criado usando os dados da empresa de demonstração PSUS na partição do setor público.
 

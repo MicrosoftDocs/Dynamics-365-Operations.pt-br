@@ -18,17 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09addfd9e4a5c601970b5c8c24a3d39b041e07e6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: be69aff98b1a3a8304461af0f38760988ac28d42
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novidades ou alterações na versão 1611 do Dynamics 365 for Operations (novembro de 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve os recursos novos ou alterados na versão 1611 do Dynamics 365 for Operations.
 
@@ -113,6 +112,7 @@ Este tópico descreve os recursos novos ou alterados na versão 1611 do Dynamics
 </table>
 
 ## <a name="expense-management"></a>Gerenciamento de despesas
+
 | O que você pode fazer                                                            | Por que isso é importante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Reatribuir transações de cartão de crédito de funcionários demitidos.                     | Ocasionalmente, no momento em que um funcionário é demitido, sua conta de serviços de domínio do Active Directory (AD DS) é desabilitada quando são importadas as transações de cartão de crédito ativas que devem ser debitadas. Antes não era possível atribuir um delegado para entrada de despesas ou associar transações de cartão de crédito a um relatório de despesas. Agora é possível usar a página **Transações de cartão de crédito** para reatribuir o funcionário a qualquer transação de cartão de crédito na qual o funcionário associado foi demitido. Após a transação de cartão de crédito ser reatribuída, ela pode ser selecionada para um relatório de despesas e paga por meio do processo usual de reembolso. |
@@ -225,6 +225,7 @@ Este tópico descreve os recursos novos ou alterados na versão 1611 do Dynamics
 </table>
 
 ## <a name="human-capital-management"></a>Gerenciamento de capital humano
+
 | O que você pode fazer                                                                                | Por que isso é importante                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
 |------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Criar um diário de desempenho.                                                                  | Após a conclusão da sua revisão, você geralmente reúne informações sobre atividades ou eventos que contribuíram para o seu sucesso como funcionário durante o período de revisão. Você pode adicionar uma entrada ao diário de desempenho para documentar essas atividades e eventos. Você também pode associar esses eventos e atividades a uma meta ou uma previsão de desempenho para fornecer mais informações ao revisor.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
@@ -573,12 +574,13 @@ Os seguintes países também precisam da localização varejo. A localização d
 </tr>
 <tr class="even">
 <td>Importar linhas de demonstrativo de ganhos de uma fonte externa utilizando a nova entidade de dados de linhas do demonstrativo de ganhos.</td>
-<td>Uma nova e importante entidade de dados possibilita integração com sistemas externos de cálculo de ganhos e tempo. A entidade de dados importa linhas de demonstrativo de ganhos e executa a mesma lógica padrão que o usuário inseriu diretamente na declaração de ganhos. Após a importação, as linhas são automaticamente associadas ao documento de declaração de ganhos apropriado. Se um documento de declaração de ganhos adequado não existir, um documento é criado automaticamente.</td>
+<td>Uma nova e importante entidade de dados possibilita integração com sistemas externos de cálculo de ganhos e tempo. A entidade de dados importa linhas de demonstrativo de ganhos e executa a mesma lógica padrão que o usuário inseriu diretamente na declaração de ganhos. Após a importação, as linhas são automaticamente associadas ao documento de declaração de ganhos apropriado. Se um documento de declaração de ganhos adequado não existir, um documento será criado automaticamente.</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="planning-and-scheduling"></a>Planejamento e agendamento
+
 | O que você pode fazer                                                                                                                                                                                                      | Por que isso é importante                                                                                                                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Definir configurações padrão de ordem de venda e compra, com base em qualquer dimensão do produto ativo no produto mestre. Portanto, você pode definir configurações padrão de ordem para a unidade de manutenção de estoque (SKU) ou uma SKU parcial. | Você pode especificar configurações de ordem padrão que se aplicam a uma dimensão do produto ou uma combinação de dimensões de produto ativas. **Exemple** Você vende um produto que é chamado de "camiseta polo". Esse produto está disponível em duas cores: verde e azul. Também está disponível em dois tamanhos: pequeno e médio. Cor e tamanho são dimensões de produto ativas para camiseta polo. É possível bloquear compras de todas as camisetas polo verdes, independentemente do tamanho. |
@@ -624,6 +626,7 @@ Os seguintes países também precisam da localização varejo. A localização d
 </table>
 
 ## <a name="project-management-and-accounting"></a>Gerenciamento e contabilidade de projeto
+
 | O que você pode fazer                                                                                                           | Por que isso é importante                                                                                                                                                                                                                                                                                                             |
 |---------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Usar seleção tardia ao lançar propostas de fatura em um lote.                                                            | Os contadores de projeto podem configurar um trabalho em lotes para selecionar automaticamente propostas para lançamento, se essas propostas atenderem ao critérios que são especificados no trabalho em lotes. Esse recurso melhora a automação do lançamento de faturas, já que o trabalho em lotes pode ser executado continuamente, e seleciona propostas para lançamento de forma automática. |

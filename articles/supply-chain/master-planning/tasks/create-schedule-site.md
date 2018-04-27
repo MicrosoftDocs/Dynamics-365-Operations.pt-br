@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-schedule-for-a-site"></a>Criar uma agenda para um site
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como planejar ordens de produção que ainda não foram iniciadas para um site.  A empresa de dados demo USMF é usada para completar este procedimento.
 

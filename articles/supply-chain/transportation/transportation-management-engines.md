@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5472d69f6d0bb7a60fb417a0d1bdc3fbc6a5e18
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-engines"></a>Mecanismos de gerenciamento de transporte
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Os mecanismos de gerenciamento de transporte definem a lógica usada para gerar e processar taxas de transporte no Gerenciamento de transporte. 
 
@@ -47,7 +46,7 @@ A tabela a seguir mostra os mecanismo de gerenciamento de transporte disponívei
 | **Mecanismo de zona**                  | Calcula a zona com base no endereço atual e calcula o número de zonas que devem ser cruzadas para viajar do endereço A ao endereço B.                                                                                                                                                                    |
 | **Tipo de nota de frete**            | Padroniza a fatura de frete e as linhas da nota de frete, e é usado para correspondência automática de nota de frete.                                                                                                                                                                                                                |
 
- 
+
 <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>Quais mecanismos devem ser configurados para avaliar uma remessa?
 ---------------------------------------------------
 
@@ -60,13 +59,13 @@ Um mecanismo de gerenciamento de transporte exige que você configure os dados d
 -   Dados simples da configuração.
 
 Na maioria dos casos, você pode clicar no botão **Parâmetros** nos formulários de configuração do mecanismo de gerenciamento de transporte para configurar os dados de inicialização. **Exemplo de configuração de um mecanismo de taxa que faz referência a um mecanismo de quilometragem** O exemplo a seguir mostra a configuração necessária para um mecanismo de taxa com base no tipo de mecanismo .NET Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine e as referências a um mecanismo de quilometragem.
-| Parâmetro             | Descrição                                                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | O tipo do .NET que interpretará os dados da atribuição de base da taxa para um esquema específico. A sintaxe do valor de parâmetro consiste em dois segmentos limitados por uma barra vertical (|). O primeiro segmento contém o nome do assembly que define o tipo de atribuidor. O segundo segmento define o nome totalmente qualificado do tipo de atribuidor. Isso inclui o namespace do tipo. |
-| *MileageEngineCode*   | Código do mecanismo de quilometragem que identifica o registro do mecanismo de quilometragem no banco de dados do Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | Código do mecanismo genérico que identifica o mecanismo de quilometragem no banco de dados do Microsoft Dynamics 365 for Finance and Operations.                                                                                                                                                                                                                                                              |
 
- 
+|          Parâmetro           |                                                                                  Descrição                                                                                  |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <em>RateBaseAssigner</em>   | O tipo do .NET que interpretará os dados da atribuição de base da taxa para um esquema específico. A sintaxe do valor de parâmetro consiste em dois segmentos limitados por uma barra vertical ( |
+|  <em>MileageEngineCode</em>  |                       Código do mecanismo de quilometragem que identifica o registro do mecanismo de quilometragem no banco de dados do Microsoft Dynamics 365 for Finance and Operations.                        |
+| <em>ApportionmentEngine</em> |                        Código do mecanismo genérico que identifica o mecanismo de quilometragem no banco de dados do Microsoft Dynamics 365 for Finance and Operations.                        |
+
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>Como os metadados são usados nos mecanismos de gerenciamento de transporte?
 ----------------------------------------------------------
 
@@ -77,6 +76,7 @@ Os dados que você usa quando calcula taxas no Microsoft Dynamics 365 for Financ
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>Todas as configurações do mecanismo exigem metadados?
 Não, os mecanismos de gerenciamento de transporte usados para recuperar os dados necessários para o cálculo da taxa de sistemas externos não necessitam de metadados. Os dados de taxa desses mecanismos podem ser recuperados de sistemas de transporte de transportadoras externas, geralmente com um serviço da Web. Por exemplo, você pode usar um mecanismo de quilometragem que recupera dados diretamente dos mapas do Bing, de forma que não precise de metadados para este mecanismo.
+
 | **Nota**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Os mecanismos de gerenciamento de transporte fornecidos com o para Finanças e Operações dependem dos dados que são recuperados pelo aplicativo. Os mecanismos que se conectam a sistemas externos não são incluídos no Operations. No entanto, o modelo de extensibilidade baseado em mecanismo permite criar extensões usando o Visual Studio Tools para Microsoft Dynamics 365 for Finance and Operations. |

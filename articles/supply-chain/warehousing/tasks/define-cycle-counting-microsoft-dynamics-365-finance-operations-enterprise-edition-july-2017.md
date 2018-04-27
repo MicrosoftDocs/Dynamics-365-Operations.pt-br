@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-cycle-counting"></a>Definir contagem cíclica  
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 A contagem cíclica é um processo de depósito que você pode usar para auditar itens de estoque disponíveis. Essa gravação de tarefa mostra como: definir a prioridade de trabalho de contagem padrão; habilitar um item de menu de dispositivo móvel para processar operações de separação e contagem; habilitar um gatilho de limite de contagem quando um local ficar vazio e habilitar um plano de contagem cíclica de um item específico em um depósito específico. Geralmente, essas tarefas são realizadas por um gerente de depósito. Você pode ver todo esse procedimento na empresa de dados de demonstração USMF ou em seus próprios dados.
 

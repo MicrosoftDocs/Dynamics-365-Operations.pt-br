@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="store-configurations-for-retail-statements"></a>Configurações de loja para obter demonstrativos de varejo
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimento mostra configurações da loja de Varejo que afetam como as instruções de Varejo foram criadas e lançadas. As dimensões financeiras em lojas de Varejo são cobertas em outro procedimento. Este procedimento usa a empresa de dados de demonstração USRT.
 

@@ -28,10 +28,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>Métodos de cálculo de imposto no campo Origem
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Este artigo explica as opções no campo Origem na página de códigos de imposto e como os impostos são calculados com base na opção selecionada para um código de imposto.
 
@@ -53,11 +52,12 @@ A autoridade de imposto impôs impostos especiais sobre um item. Os valores do i
 -   IMPOSTO = 25%, usando o método de cálculo Porcentagem do valor bruto
 
 Se o valor líquido for 10,00, o IMPOSTO 1 será 1,00 (10,00 x 10%) e o IMPOSTO 2 = 2,00 (10,00 x 20%). Os valores seriam da seguinte maneira: Valor bruto: Valor líquido + valor do IMPOSTO 1 + valor do IMPOSTO 2 (10,00 + 1,00 + 2,00) = 13,00 IMPOSTO = 13,00 x 25% = 3,25 Total de IMPOSTOS: 1,00 + 2,00 + 3,25 = 6,25 Valores totais: 10,00 + 6,25 = 16,25
+
 | **Nota**                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Somente um código de imposto a Origem = Porcentagem do valor bruto pode ser usado para uma transação. Se mais de um código de imposto for determinado por uma transação será exibido um erro informando que os impostos não podem ser calculados. |
 
- 
+
 <a name="percentage-of-sales-tax"></a>Porcentagem do imposto
 -----------------------
 
@@ -70,6 +70,7 @@ Determinado os seguintes códigos de imposto:
 -   IMPOSTO = 25%, usando o método Porcentagem do valor bruto
 
 Valor líquido: 10,00 IMPOSTO 1: 10,00 x 10% = 1,00 IMPOSTO 2: 1,00 x 20% = 0,20 Valor bruto: 10,00 + 1,00 + 0,20 = 11,20 IMPOSTO: 11,20 x 25% = 2,80 Total de IMPOSTOS: 1,00 + 0,20 + 2,80 = 4,00 Valor total: 10,00 + 4,00 = 14,00
+
 | **Nota**                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Os impostos de vários níveis nos cálculos de impostos não são possíveis. Um imposto não pode ser calculado com base em um imposto que já tenha sido calculado com base em outro imposto. Os vários impostos de nível único sobre códigos de imposto podem ser calculados em uma transação. |
@@ -79,6 +80,7 @@ Quando você seleciona Valor por unidade no campo Origem, o imposto é calculado
 ### <a name="example"></a>Exemplo
 
 O código do imposto é configurado como: R$ 1,20 por unidade = caixa Em uma linha do imposto 25 caixas de um item são vendidas O imposto é calculado como 25 x 1,20 = 30,00
+
 | **Nota**                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Se a transação for inserida na unidade diferente da especificada no código do imposto, ela será convertida automaticamente com base nas conversões de unidade que são configuradas na página Conversões de unidade. |

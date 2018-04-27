@@ -26,8 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="brazilian-taxes"></a>Impostos brasileiros
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 O Finance and Operations calcula os impostos brasileiros com base no tipo de imposto especificado para o código do imposto. É possível configurar e calcular os impostos sobre vendas nas vendas, nas compras, nas transferências entre estabelecimentos fiscais, na entrega de itens a um terceiro, ou no recebimento de itens de um terceiro.
 
@@ -62,6 +61,7 @@ Os seguintes tipos de imposto estão disponíveis na configuração de código d
 
 ## <a name="examples"></a>Exemplos
 Para o valor de uma transação de base de R$ 1.000,00 e uma taxa de imposto de 18%, o Microsoft Dynamics 365 for Finance and Operations calcula os impostos da seguinte maneira para valores fiscais diferentes.
+
 | Valor fiscal                                    | Origem do valor | Valor real do imposto | Valor base de isenção | Outro valor base | Outro valor de imposto |
 |-------------------------------------------------|---------------|-------------------------|--------------------|-------------------|------------------|
 | 1. Com Crédito/Débito                            | R$ 1.000,00  | R$ 180,00              |                    |                   |                  |
@@ -69,6 +69,7 @@ Para o valor de uma transação de base de R$ 1.000,00 e uma taxa de imposto de 
 | 3. sem crédito/débito (outros)                 |               |                         |                    | R$ 1.000,00      | R$ 180,00       |
 
 Para o valor de uma transação de base de R$ 1.000,00, uma taxa de imposto de 18% e uma porcentagem de redução de imposto de 40%, os impostos são calculados da seguinte maneira para valores fiscais diferentes.
+
 | Valor fiscal                                    | Origem do valor | Valor real do imposto | Valor base de isenção | Outro valor base | Outro valor de imposto |
 |-------------------------------------------------|---------------|-------------------------|--------------------|-------------------|------------------|
 | 1. Com Crédito/Débito                            | R$ 600,00    | R$ 108,00              | R$ 400,00         |                   |                  |

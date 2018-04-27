@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="postdated-checks"></a>Cheques pós-datados
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre o suporte para cheques pós-datados no Microsoft Dynamics 365 for Finance and Operations. Cheques pós-datados são cheques emitidos com a finalidade de fazer e receber pagamentos em uma data futura. Consequentemente, a verificação não pode ser descontada até a data especificada.
 
@@ -76,14 +75,14 @@ Se o cheque original para um fornecedor ou um cliente for perdido ou danificado,
 <td>Você pode cancelar um cheque pós-datado lançado nestas situações: - O cheque é devolvido pelo banco.
 - O cheque é aplicado a uma fatura incorreta.
 - Um pagamento à vista é feito no cheque.
-</td>
-</tr>
-<tr class="even">
-<td>Parar pagamento de um cheque pós-datado</td>
-<td>Você pode suspender o pagamento de um cheque pós-datado emitido para um fornecedor, por razões como fundos insuficientes, alterações nas condições do contrato com o fornecedor, fornecimento de mercadorias defeituosos pelo fornecedor ou devolução de mercadorias ao fornecedor. Você pode suspender o pagamento somente de cheques não desmarcados.</td>
-</tr>
-</tbody>
-</table>
+  </td>
+  </tr>
+  <tr class="even">
+  <td>Parar pagamento de um cheque pós-datado</td>
+  <td>Você pode suspender o pagamento de um cheque pós-datado emitido para um fornecedor, por razões como fundos insuficientes, alterações nas condições do contrato com o fornecedor, fornecimento de mercadorias defeituosos pelo fornecedor ou devolução de mercadorias ao fornecedor. Você pode suspender o pagamento somente de cheques não desmarcados.</td>
+  </tr>
+  </tbody>
+  </table>
 
 
 

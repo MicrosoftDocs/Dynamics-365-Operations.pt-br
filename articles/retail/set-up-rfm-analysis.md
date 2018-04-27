@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>Configurar análise RFM
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tópico explica como configurar uma análise Recente, Frequência, e Monetária (RFM) dos clientes.
 
@@ -60,25 +59,25 @@ Se sua organização usar um número agregado para a pontuação, as classifica�
     - Se cada seção de pontuação de RFM contiver uma contagem igual de clientes, marque a caixa de seleção **Distribuição por igual**. 
     - Marque a caixa de seleção **Adicionar pontuações** para agregar as três pontuações. Por exemplo, isso forneceria a um cliente uma pontuação de RFM de 13, em vez de 535. 
     - Marque a caixa de seleção **Salvar histórico** para exigir que o sistema salve os dados estatísticos para clientes, de forma que seja possível usar os dados para calcular a pontuação de RFM.
-  
+
 5.  Na Guia Rápida **Recency**, faça o seguinte: 
     - No campo **Divisões** insira o número de divisões ou grupos, que serão usados para calcular a pontuação recency dos clientes. Por exemplo, se você tiver 100 clientes, uma divisão por 5, significa que há 20 clientes para cada pontuação. Os 20 clientes que fizeram compras recentemente têm uma contagem de recency de 5. Os próximos 20 clientes possuem uma contagem de recency de 4 e assim por diante. Se você tiver 50 clientes, 10 têm uma pontuação recente de 5, 10 têm uma pontuação recente de 4, e assim por diante. 
     - No campo **Prioridade**, selecione quanto peso será fornecido no parâmetro recency em relação a outros parâmetros, quando a pontuação de RFM for calculada para um cliente. Por exemplo, é possível colocar mais valor na pontuação recente do que na pontuação monetária. 
     - No campo **Multiplicador** insira o valor pelo qual a pontuação recency será multiplicada. Se você não inserir um valor, a pontuação não será multiplicada. 
     - No campo **Período** selecione o período de tempo em que a pontuação recente será calculada. Por exemplo, semanal ou mensal.
-   
+
 6.  Na Guia Rápida **Frequência**, faça o seguinte: 
     - No campo **Divisões**, insira o número de divisões ou grupos que será usado para calcular a pontuação de frequência dos clientes. 
     - No campo **Prioridade**, selecione quanto peso será fornecido no parâmetro de frequência em relação a outros, quando a pontuação de RFM for calculada para um cliente. 
     - No campo **Multiplicador** insira o valor pelo qual a pontuação de frequência será multiplicada. Se você não inserir um valor, a pontuação não será multiplicada.
-   
+
 7.  Na Guia Rápida **Monetária**, faça o seguinte: 
     - No campo **Divisões**, insira o número de divisões ou grupos que serão usados para calcular a pontuação monetária dos clientes. 
     - No campo **Prioridade**, selecione quanto peso será fornecido no parâmetro monetário, em relação a outros, quando a pontuação de RFM for calculada para um cliente. 
     - No campo **Multiplicador** insira o valor pelo qual a pontuação monetária será multiplicada. Se você não inserir um valor, a pontuação não será multiplicada. 
     - No campo **Bruto/líquido**, selecione se a pontuação monetária do cliente deve ser calculada usando o valor bruto ou líquido da fatura. 
     - Se os valores de devolução de um cliente forem subtraídos de cálculo total da fatura do cliente, marque a caixa de seleção **Subtrair devoluções**. 
- 
+
 ## <a name="view-a-customers-rfm-score"></a>Exibir a contagem de RFM de um cliente
 Use esse procedimento para exibir a pontuação RFM de um cliente. 
 

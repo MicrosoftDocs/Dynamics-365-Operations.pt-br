@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="issue-customer-fiscal-documents-services-brazil"></a>Emitir notas fiscais para clientes (serviços) (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 É possível emitir uma nota fiscal de serviço a um cliente que adquiriu serviços do estabelecimento fiscal. Este registro usa a empresa de dados de demonstração BRMF.
 

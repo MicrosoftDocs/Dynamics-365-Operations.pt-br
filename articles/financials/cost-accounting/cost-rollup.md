@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Política de acúmulo de custos e cálculo de custos indiretos 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 A contabilização de custos permite obter informações sobre como o fluxo de custo se relaciona os produtos e serviços fornecidos em uma organização. Para ver a transparência de custo, é importante obter a alocação de custo entre objetos de custo de acordo com uma base adequada à alocação. Por padrão, a alocação de custo é obtida para o elemento de custo previsto principal, que é desejado em algumas situações, mas há algumas implicações que devem ser consideradas.
 

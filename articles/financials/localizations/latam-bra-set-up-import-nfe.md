@@ -26,7 +26,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-import-and-verify-nf-e-xml-documents-and-danfe"></a>Configurar, importar e verificar documentos XML de NF-e e de DANFE
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Você pode extrair e importar automaticamente o XML da Nota fiscal Eletrônica (NF-e) e seu DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) de e-mails enviados pelo fornecedor de sua empresa. O fornecedor deve enviar esses emails como anexos durante o período no qual as mercadorias adquiridas estão em trânsito.
 
@@ -54,11 +54,11 @@ Os arquivos XML e DANFE importados podem ser exibidos na página **Documentos XM
 > [!NOTE] 
 > O nome do emissor da Nota fiscal Eletrônica (NF-e) foi deixado em branco quando a ID de registro de impostos (CNPJ) não pode ser encontrada como um atributo de um fornecedor na página **Todos os fornecedores**.
 
- - Para uma Nota fiscal Eletrônica (NF-e) selecionada, clique em **Documento XML** para exibir o documento XML.
- - Para uma Nota Fiscal Eletrônica (NF-e) selecionada, clique em **DANFE** para exibir o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE).
- - Para uma Nota fiscal Eletrônica selecionada (NF-e), clique em **Consultar status** para consultar o status da NF-e na SEFAZ usando a chave de acesso.
-> [!NOTE] 
-> O status, a data, e as horas da consulta são atualizados no Status da SEFAZ e data e hora da última consulta.
+- Para uma Nota fiscal Eletrônica (NF-e) selecionada, clique em **Documento XML** para exibir o documento XML.
+- Para uma Nota Fiscal Eletrônica (NF-e) selecionada, clique em **DANFE** para exibir o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE).
+- Para uma Nota fiscal Eletrônica selecionada (NF-e), clique em **Consultar status** para consultar o status da NF-e na SEFAZ usando a chave de acesso.
+  > [!NOTE] 
+  > O status, a data, e as horas da consulta são atualizados no Status da SEFAZ e data e hora da última consulta.
 
 ## <a name="inquire-about-the-status-of-nf-e-access-keys-at-the-sefaz"></a>Pesquisa sobre o status das teclas de acesso de NF-e no SEFAZ
 1. Na página **Consultar status da chave de acesso da NF-e**, no campo **Limite de cancelamento**, insira o número de horas que o fornecedor tem para cancelar a NF-e.

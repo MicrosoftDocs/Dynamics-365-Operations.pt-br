@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f711ef739e8b885f2f09586f34775e826b619c82
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0033461e7cd2601993c006aba2ec7c8f6ac0c89
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móveis para trabalho de depósito
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel.
 
@@ -175,7 +174,7 @@ Você pode configurar um item de menu que cria trabalho para outro trabalhador, 
 </tr>
 <tr>
 <td>Carregamento da placa de licença:</td>
-<td>Use essa opção quando estiver configurando seu depósito pela primeira vez. Verifique todas as placas de licença em todos os locais do depósito. Os locais devem ser controlados por placa de licença. Não é possível usar esta opção se <strong>Número de série</strong> ou <strong>Número de lote</strong> for listado acima de <strong>Localização</strong> na hierarquia de reserva de estoque.</td>
+<td>Use essa opção quando você estiver configurando seu depósito pela primeira vez. Verifique todas as placas de licença em todos os locais do depósito. Os locais devem ser controlados por placa de licença. Não é possível usar essa opção se <strong>Número de série</strong> ou <strong>Número de lote</strong> estiver listado acima de <strong>Localização</strong> na hierarquia de reserva de estoque.</td>
 </tr>
 <tr>
 <td>Contagem cíclica</td>
@@ -204,12 +203,12 @@ Além de configurar itens de menu para criar o trabalho de depósito, você pode
 <thead>
 <tr class="header">
 <th>Opção</th>
-<th>Descrição</th>
+<th>descrição</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>Nenhum</td>
+<td>Nenhum(a)</td>
 <td>Esse valor padrão não processa o trabalho.</td>
 </tr>
 <tr class="even">
@@ -239,7 +238,7 @@ Além de configurar itens de menu para criar o trabalho de depósito, você pode
 <li><strong>Campo Direcionado do Usuário Validado</strong> – Selecione o campo que o trabalhador pesquisa para agrupar o trabalho.</li>
 <li><strong>Etiqueta Direcionada do Usuário Validado</strong> – Insira o texto que informará ao trabalhador sobre o que verificar quando o trabalho de separação for agrupado pelo sistema.</li>
 </ul>
-Esta opção será útil quando, por exemplo, vários paletes foram preparados para uma carga. Se você selecionar <strong>LoadId</strong> no campo <strong>Direcionado do Usuário Validado</strong>, o trabalhador poderá escolher qualquer palete que esteja associado à carga. O trabalhador receberá uma mensagem de erro se um trabalhador verificar um item que não esteja associado à carga.</td>
+Esta opção será útil quando, por exemplo, vários paletes foram preparados para uma carga. Se você selecionar <strong>LoadId</strong> no campo <strong>Direcionado do Usuário Validado</strong>, o trabalhador poderá escolher qualquer palete que esteja associado à carga. O trabalhador receberá uma mensagem de erro se ele verificar um item que não esteja associado à carga.</td>
 </tr>
 <tr class="odd">
 <td>Separação de cluster</td>
@@ -279,7 +278,7 @@ A seguinte tabela descreve as opções.
 </tr>
 <tr class="odd">
 <td>Ancorar em</td>
-<td>Se você estiver usando a ancoragem, deverá especificar se deseja ancorar por remessa ou por carga.</td>
+<td>Se estiver usando a ancoragem, você deverá especificar se deseja ancorar por remessa ou por carga.</td>
 </tr>
 <tr class="even">
 <td>ID do modelo de auditoria</td>
@@ -303,7 +302,7 @@ A seguinte tabela descreve as opções.
 </tr>
 <tr class="odd">
 <td>Desabilitar restrições de contagem cíclica</td>
-<td>Marque esta opção para ignorar os limites de contagem cíclica. Se você marcar essa opção, o trabalho de contagem cíclica não será criado quando valores limite forem excedidos.</td>
+<td>Marque esta opção para ignorar os limites de contagem cíclica. Se você marcar essa opção, o trabalho de contagem cíclica não será criado quando os valores de limite forem excedidos.</td>
 </tr>
 <tr class="even">
 <td>Exibir código de disposição em lotes</td>
@@ -355,7 +354,7 @@ A seguinte tabela descreve as opções.
 <ul>
 <li><strong>Nenhum</strong> – O trabalhador pode separar qualquer lote no local. O trabalhador não recebe nenhuma mensagem.</li>
 <li><strong>Aviso</strong> – O trabalhador pode separar qualquer lote no local, mas uma mensagem de aviso será exibida se um lote não for o mais antigo.</li>
-<li><strong>Forçar</strong> – O trabalhador deve separar o lote mais antigo no local. O trabalhador receberá uma mensagem de erro, se um lote não for o lote mais antigo. <strong>Observação:</strong> Esta opção é relevante somente se o <strong>Número do lote</strong> for menor do que a <strong>Localização</strong> na hierarquia de reserva atribuída ao item.</li>
+<li><strong>Forçar</strong> – O trabalhador deve separar o lote mais antigo no local. O trabalhador receberá uma mensagem de erro se um lote não for o lote mais antigo. <strong>Observação:</strong> Esta opção é relevante somente se o <strong>Número do lote</strong> for menor do que a <strong>Localização</strong> na hierarquia de reserva atribuída ao item.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -384,7 +383,7 @@ A seguinte tabela descreve as opções.
 </tr>
 <tr class="odd">
 <td>Código do modelo de trabalho</td>
-<td>Selecione o modelo de trabalho que criará o trabalho para um processo. Por exemplo, se você receber um item para uma ordem de compra, o trabalho de armazenamento será gerado com base no modelo de trabalho. Se você não selecionar um modelo de trabalho, o Microsoft Dynamics 365 for Finance and Operations atribui um modelo, com base nos critérios de consulta. Para obter mais informações sobre modelos de trabalho, consulte <a href="control-warehouse-location-directives.md">Controlando o trabalho do depósito com modelos de trabalho e diretivas de localização</a>.</td>
+<td>Selecione o modelo de trabalho que criará o trabalho para um processo. Por exemplo, se você receber um item para uma ordem de compra, o trabalho de armazenamento será gerado com base no modelo de trabalho. Se você não selecionar um modelo de trabalho, o Microsoft Dynamics 365 for Finance and Operations atribuirá um modelo, com base nos critérios de consulta. Para obter mais informações sobre modelos de trabalho, consulte <a href="control-warehouse-location-directives.md">Controlando o trabalho do depósito com modelos de trabalho e diretivas de localização</a>.</td>
 </tr>
 </tbody>
 </table>

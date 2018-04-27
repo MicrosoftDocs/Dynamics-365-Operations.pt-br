@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="issue-customer-fiscal-documents-project-brazil"></a>Emitir notas fiscais para clientes (projeto) (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 É possível emitir uma nota fiscal para um projeto. A nota fiscal pode ser uma nota fiscal de serviço ou uma nota fiscal eletrônica. Esta tarefa usa a empresa de demonstração BRMF.
 

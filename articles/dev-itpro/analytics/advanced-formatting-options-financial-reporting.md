@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 09a182b50917bff449f76598d61c38ae18160dd1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8652766766a557d8399e6a94088a6f9bc82ff018
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opções avançadas de formatação no relatório financeiro
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Quando você cria um relatório no relatório financeiro, funções adicionais de formatação são disponibilizadas, incluindo filtros de dimensões, restrições de colunas e unidades de relatório, linhas não imprimíveis, e instruções IF/THEN/ELSE nos cálculos. 
 
@@ -66,12 +65,13 @@ Os exemplos a seguir mostram como formatar a definição de linha e a definiçã
 
 A tabela a seguir mostra um exemplo de uma definição de linha que usa o forçamento básico.
 
-| Código de Linha | descrição                      | Código de formato | Fórmulas/linhas/unidades relacionadas | Modificador de Linha | Vincular a Dimensões Financeiras |
-|----------|----------------------------------|-------------|-----------------------------|----------------|----|
-| 100      | Dinheiro no Início do Período (NP) |             |                             | Modificador da Conta = \[/BB\] | +Segment2 = \[1100\]         |
-| 130      | Dinheiro no início do período      | CAL         | C=C.100,F=D.100             |               |     |   |
-| 160      |                                  |             |                             |              |     |   |
-| 190      |                                  |             |                             |                 |     |   |
+
+| Código de Linha |           descrição            | Código de formato | Fórmulas/linhas/unidades relacionadas |        Modificador de Linha        | Vincular a Dimensões Financeiras |
+|----------|----------------------------------|-------------|-----------------------------|----------------------------|------------------------------|
+|   100    | Dinheiro no Início do Período (NP) |             |                             | Modificador da Conta = \[/BB\] |     +Segment2 = \[1100\]     |
+|   130    |   Dinheiro no início do período    |     CAL     |       C=C.100,F=D.100       |                            |                              |
+|   160    |                                  |             |                             |                            |                              |
+|   190    |                                  |             |                             |                            |                              |
 
 > [!NOTE] 
 > As colunas vazias foram removidas da tabela anterior para fins de apresentação: as colunas Substituição de formato, Saldo normal, Controle de impressão, Restrição de coluna não foram exibidas.
@@ -180,11 +180,11 @@ A célula **Restrição de Coluna** em uma definição de linha tem várias fina
 -   A célula pode especificar a coluna dos valores a serem classificados.
 
 ## <a name="using-a-calculation-formula-in-a-row-definition"></a>Uso de uma fórmula de cálculo em uma definição linha
-Uma fórmula de cálculo em uma definição de linha pode incluir os operadores **+**, **-**, **\*** e **/** e as instruções **IF/THEN/ELSE**. Além disso, um cálculo pode envolver células individuais e valores absolutos (números reais que são incluídos na fórmula). A fórmula pode conter até 1.024 caracteres. Os cálculos não podem ser aplicados em linhas contendo células do tipo **Link para Dimensões Financeiras** (FD). No entanto, você pode incluir cálculos em linhas consecutivas, suprimir a impressão dessas linhas e totalizar as linhas de cálculo.
+Uma fórmula de cálculo em uma definição de linha pode incluir os operadores <strong>+</strong>, <strong>-</strong>, <strong>\\</strong> e **/** e as instruções <strong>IF/THEN/ELSE</strong>. Além disso, um cálculo pode envolver células individuais e valores absolutos (números reais que são incluídos na fórmula). A fórmula pode conter até 1.024 caracteres. Os cálculos não podem ser aplicados em linhas contendo células do tipo <strong>Link para Dimensões Financeiras</strong> (FD). No entanto, você pode incluir cálculos em linhas consecutivas, suprimir a impressão dessas linhas e totalizar as linhas de cálculo.
 
 ### <a name="operators-in-a-calculation-formula"></a>Operadores em uma fórmula de cálculo
 
-Uma fórmula de cálculo usa operadores mais complexos do que uma fórmula de total de linha. No entanto, você pode usar os operadores **\*** e **/** com os operadores adicionais para multiplicar (\*) e dividir (/) valores. Para usar um intervalo ou uma soma em uma fórmula de cálculo, você deve usar uma arroba (@) na frente do código de linha, a menos que esteja usando uma coluna na definição de linha. Por exemplo, para adicionar o valor da linha 100 ao valor da linha 330, você pode usar a fórmula do total de linha **100+330** ou a fórmula de cálculo **@100+@330**. **Observação:** Você deve usar uma arroba (@) antes de cada código de linha usado em uma fórmula de cálculo. Caso contrário, o número é lido como um valor absoluto. Por exemplo, a fórmula **@100+330** adiciona US$ 330 ao valor na linha 100. Quando você faz referência a uma coluna em uma fórmula de cálculo, o sinal de arroba (@) não é necessário.
+Uma fórmula de cálculo usa operadores mais complexos do que uma fórmula de total de linha. No entanto, você pode usar os operadores <strong>\\</strong>* e <strong>/</strong> com os operadores adicionais para multiplicar (\*) e dividir (/) valores. Para usar um intervalo ou uma soma em uma fórmula de cálculo, você deve usar uma arroba (@) na frente do código de linha, a menos que esteja usando uma coluna na definição de linha. Por exemplo, para adicionar o valor da linha 100 ao valor da linha 330, você pode usar a fórmula do total de linha <strong>100+330</strong> ou a fórmula de cálculo <strong>@100+@330</strong>. <strong>Observação:</strong> Você deve usar uma arroba (@) antes de cada código de linha usado em uma fórmula de cálculo. Caso contrário, o número é lido como um valor absoluto. Por exemplo, a fórmula <strong>@100+330</strong> adiciona US$ 330 ao valor na linha 100. Quando você faz referência a uma coluna em uma fórmula de cálculo, o sinal de arroba (@) não é necessário.
 
 ### <a name="create-a-calculation-formula"></a>Criar uma fórmula de cálculo
 
@@ -202,7 +202,7 @@ Neste exemplo, a fórmula de cálculo **@100+@330** significa que o valor da lin
 | 370      | Dinheiro no Início do Ano   | CAL         | @100+@330                  | NP            |              |                              |
 | 400      | Dinheiro no Início do Período | TOT         | 340+370                    |               |              |                              |
 
-Quando a linha em uma definição de linha tem um código de formato **CAL**, e você insere um cálculo matemático na célula **Fórmulas/Linhas/Unidades Relacionadas**, também deve inserir a letra da coluna e da linha associadas no relatório. Por exemplo, insira **A.120** para representar a coluna A, linha 120. Outra alternativa é usar um arroba (@) para indicar todas as colunas. Por exemplo, insira **@120** para representar todas as colunas da linha 120. Qualquer cálculo matemático sem uma letra de coluna ou um arroba (@) é considerado como um número real. **Observação:** Se você usar um código da linha de rótulo para referenciar uma linha, use um ponto (.) como separador entre a letra da coluna e o rótulo (por exemplo, **A.GROSS\_MARGIN/A.SALES**). Se você usa um arroba (a), um separador não é necessário (por exemplo, **@GROSS\_MARGIN/@SALES**).
+Quando a linha em uma definição de linha tem um código de formato <strong>CAL</strong>, e você insere um cálculo matemático na célula <strong>Fórmulas/Linhas/Unidades Relacionadas</strong>, também deve inserir a letra da coluna e da linha associadas no relatório. Por exemplo, insira <strong>A.120</strong> para representar a coluna A, linha 120. Outra alternativa é usar um arroba (@) para indicar todas as colunas. Por exemplo, insira <strong>@120</strong> para representar todas as colunas da linha 120. Qualquer cálculo matemático sem uma letra de coluna ou um arroba (@) é considerado como um número real. <strong>Observação:</strong> Se você usar um código da linha de rótulo para referenciar uma linha, use um ponto (.) como separador entre a letra da coluna e o rótulo (por exemplo, <strong>A.GROSS\_MARGIN/A.SALES</strong>). Se você usa um arroba (a), um separador não é necessário (por exemplo, <strong>@GROSS\_MARGIN/@SALES</strong>).
 
 ### <a name="example-of-a-calculation-formula-for-a-specific-column"></a>Exemplo de uma fórmula de cálculo para uma coluna específica
 
@@ -255,17 +255,17 @@ As fórmulas **THEN** e **ELSE** podem ser qualquer cálculo válido, desde atri
 
 ### <a name="restricting-a-calculation-to-a-reporting-unit-in-a-row-definition"></a>Restrição de um cálculo a uma unidade de relatório em uma definição de linha
 
-Para restringir um cálculo a uma única unidade de relatório em uma árvore de relatório, de forma que o valor resultante não seja acumulado para uma unidade de alto nível, você pode usar o código **@Unit** na célula **Fórmulas/Linhas/Unidades Relacionadas** na definição de linha. O código **@Unit** é listado na coluna B da árvore de relatório **Nome da Unidade**. Quando você usa o código **@Unit**, os valores não são acumulados, mas o cálculo é avaliado em todos os níveis da árvore de relatório. **Observação:** Para usar esta função, uma árvore de relatório deve ser associada à definição de linha. A linha de cálculo pode se referir a uma linha de cálculo ou a uma linha de dados financeiros. O cálculo é registrado na célula **Fórmulas/Linhas/Unidades Relacionadas** da definição de linha e da restrição de tipo de dados financeiros. O cálculo deve usar um cálculo condicional que inicie com uma construção **IF @Unit**. Este é um exemplo: IF @Unit(SALES) THEN @100 ELSE 0. Este cálculo inclui o valor da linha 100 em cada coluna do relatório, mas somente para a unidade SALES. Se várias unidades são denominadas SALES, o valor aparece em cada uma dessas unidades. Além disso, a linha 100 pode ser uma linha de dados financeiros e pode ser definida como não impressa. Nesse caso, o valor será impedido de aparecer em todas as unidades na árvore. Você também pode limitar o valor a uma única coluna do relatório, como a coluna H, usando uma restrição de coluna para imprimir o valor somente nessa coluna do relatório. Você pode incluir combinações **OR** em uma instrução **IF**. Este é um exemplo: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100. Você pode especificar uma unidade em uma restrição de tipo de cálculo de uma destas maneiras:
+Para restringir um cálculo a uma única unidade de relatório em uma árvore de relatório, de forma que o valor resultante não seja acumulado para uma unidade de alto nível, você pode usar o código <strong>@Unit</strong> na célula <strong>Fórmulas/Linhas/Unidades Relacionadas</strong> na definição de linha. O código <strong>@Unit</strong> é listado na coluna B da árvore de relatório <strong>Nome da Unidade</strong>. Quando você usa o código <strong>@Unit</strong>, os valores não são acumulados, mas o cálculo é avaliado em todos os níveis da árvore de relatório. <strong>Observação:</strong> Para usar esta função, uma árvore de relatório deve ser associada à definição de linha. A linha de cálculo pode se referir a uma linha de cálculo ou a uma linha de dados financeiros. O cálculo é registrado na célula <strong>Fórmulas/Linhas/Unidades Relacionadas</strong> da definição de linha e da restrição de tipo de dados financeiros. O cálculo deve usar um cálculo condicional que inicie com uma construção <strong>IF @Unit</strong>. Este é um exemplo: IF @Unit(SALES) THEN @100 ELSE 0. Este cálculo inclui o valor da linha 100 em cada coluna do relatório, mas somente para a unidade SALES. Se várias unidades são denominadas SALES, o valor aparece em cada uma dessas unidades. Além disso, a linha 100 pode ser uma linha de dados financeiros e pode ser definida como não impressa. Nesse caso, o valor será impedido de aparecer em todas as unidades na árvore. Você também pode limitar o valor a uma única coluna do relatório, como a coluna H, usando uma restrição de coluna para imprimir o valor somente nessa coluna do relatório. Você pode incluir combinações <strong>OR</strong> em uma instrução <strong>IF</strong>. Este é um exemplo: IF @Unit(SALES) OR @Unit(SALESWEST) THEN 5 ELSE @100. Você pode especificar uma unidade em uma restrição de tipo de cálculo de uma destas maneiras:
 
--   Inserir um nome de unidade para incluir unidades que coincidam. Por exemplo, **IF @Unit(SALES)** permite que o cálculo para cada unidade seja chamado de SALES, mesmo que existam várias unidades SALES na árvore de relatório.
--   Insira a empresa e o nome da unidade para restringir o cálculo a unidades específicas em uma empresa específica. Por exemplo, insira **IF @Unit(ACME:SALES**) para restringir o cálculo a unidades SALES na empresa ACME.
--   Insira o código completo da hierarquia da árvore de relatório para restringir o cálculo a uma unidade específica. Por exemplo, insira **IF @Unit(SUMMARY^ACME^WEST COAST^SALES)**. **Observação:** Para localizar o código completo da hierarquia, clique com o botão direito do mouse na definição da árvore de relatório e selecione **Copiar Identificador da Unidade de Relatório (código H)**.
+- Inserir um nome de unidade para incluir unidades que coincidam. Por exemplo, <strong>IF @Unit(SALES)</strong> permite que o cálculo para cada unidade seja chamado de SALES, mesmo que existam várias unidades SALES na árvore de relatório.
+- Insira a empresa e o nome da unidade para restringir o cálculo a unidades específicas em uma empresa específica. Por exemplo, insira <strong>IF @Unit(ACME:SALES</strong>) para restringir o cálculo a unidades SALES na empresa ACME.
+- Insira o código completo da hierarquia da árvore de relatório para restringir o cálculo a uma unidade específica. Por exemplo, insira <strong>IF @Unit(SUMMARY^ACME^WEST COAST^SALES)</strong>. <strong>Observação:</strong> Para localizar o código completo da hierarquia, clique com o botão direito do mouse na definição da árvore de relatório e selecione <strong>Copiar Identificador da Unidade de Relatório (código H)</strong>.
 
 #### <a name="restrict-a-calculation-to-a-reporting-unit"></a>Restringir um cálculo a uma unidade organizacional
 
-1.  No Report Designer, clique em **Definições de linha** e abra a definição de linha a ser modificada.
-2.  Clique duas vezes na célula **Código de Formato** e selecione **CAL**.
-3.  Clique na célula **Fórmulas/Linhas/Unidades Relacionadas** e insira um cálculo condicional que inicie com uma construção **IF @Unit**.
+1. No Report Designer, clique em **Definições de linha** e abra a definição de linha a ser modificada.
+2. Clique duas vezes na célula **Código de Formato** e selecione **CAL**.
+3. Clique na célula <strong>Fórmulas/Linhas/Unidades Relacionadas</strong> e insira um cálculo condicional que inicie com uma construção <strong>IF @Unit</strong>.
 
 ### <a name="ifthenelse-statements-in-a-column-definition"></a>Instruções IF/THEN/ELSE em uma definição de coluna
 

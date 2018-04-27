@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="navigation-search"></a>Pesquisa de navegação
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico explica como usar a funcionalidade de pesquisa para navegar para páginas no Microsoft Dynamics 365 for Finance and Operations.
 

@@ -20,17 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c8961d1c62167192fcf32d17c2941b8813ea0629
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 91cc547becfbd0c0d675d87921aed92eb2ab570d
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="quality-management-overview"></a>Visão geral do gerenciamento de qualidade
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve como você pode usar o gerenciamento de qualidade no Microsoft Dynamics 365 for Finance and Operations para ajudar a melhorar a qualidade do produto na sua cadeia de suprimentos.
 
@@ -261,7 +260,7 @@ A tabela a seguir fornece mais informações sobre como as ordens de qualidade p
 <tr>
 <td>Ordem de quarentena</td>
 <td>Antes ou depois, a ordem de quarentena é relatada como concluída ou terminada</td>
-<td>Ordens de qualidade que exigem testes destrutivos não podem ser geradas. Presume-se que a funcionalidade da ordem de quarentena controla a disposição do material que for destruída.</td>
+<td>Não é possível gerar ordens de qualidade que exigem testes destrutivos. Presume-se que a funcionalidade de quarentena da ordem cuide do descarte do material que for destruído.</td>
 <td>O requisito para uma ordem de qualidade pode refletir um site, item ou fornecedores específicos ou uma combinação destas condições.</td>
 <td>Uma ordem de qualidade gerada manualmente que se refere a uma ordem de quarentena pode usar as informações em um registro de associação, como o planejamento de amostragem de teste.</td>
 </tr>
@@ -339,7 +338,7 @@ A tabela a seguir fornece mais informações sobre como as ordens de qualidade p
 </tr>
 <tr class="even">
 <td>Grupos de qualidade de item</td>
-<td>Use esta página para configurar, editar e exibir os itens atribuídos a um grupo de qualidade ou os grupos de qualidade atribuídos a um item. Um grupo de qualidade representa requisitos de teste comuns para itens. Após definir os requisitos de teste da página <strong>Grupos de teste</strong>, você pode definir as regras para gerar automaticamente as ordens de qualidade. Para simplificar o processo, você não define regras para itens individuais. Em vez disso, defina regras para um grupo de qualidade, usando a página <strong>Associações de qualidade</strong>. Você também pode usar a página <strong>Grupos de qualidade de item</strong> para que um grupo de qualidade selecionado atribua itens relevantes ao grupo. Você também pode usar a página <strong>Grupos de qualidade de item</strong> para que um item selecionado atribua grupos de qualidade relevantes ao item.</td>
+<td>Use esta página para configurar, editar e exibir os itens atribuídos a um grupo de qualidade ou os grupos de qualidade atribuídos a um item. Um grupo de qualidade representa requisitos de teste comuns para itens. Após definir os requisitos de teste da página <strong>Grupos de teste</strong>, você pode definir as regras para gerar automaticamente as ordens de qualidade. Para simplificar o processo, não é necessário definir regras para itens individuais. Em vez disso, defina regras para um grupo de qualidade, usando a página <strong>Associações de qualidade</strong>. Você também pode usar a página <strong>Grupos de qualidade de item</strong> para que um grupo de qualidade selecionado atribua itens relevantes ao grupo. Você também pode usar a página <strong>Grupos de qualidade de item</strong> para que um item selecionado atribua grupos de qualidade relevantes ao item.</td>
 <td>Uma fábrica compra diversas matérias-primas que têm os mesmos requisitos de teste para inspeção de entrada. A empresa define um grupo de qualidade e então atribui os números de item associados com as matérias-primas ao grupo. Posteriormente, a empresa compra um novo tipo de matéria-prima que têm os mesmos requisitos de teste. Em vez de configurar novos requisitos de teste para o novo material, a empresa adiciona o número do item para o novo material no grupo de qualidade existente. A mesma fábrica também produz itens com os mesmos requisitos de teste de produção e remete os itens com o mesmo requisito para a execução de testes antes da remessa. A fábrica define dois grupos de qualidade adicionais e então atribui os números de item relevantes a cada grupo.</td>
 </tr>
 <tr class="odd">

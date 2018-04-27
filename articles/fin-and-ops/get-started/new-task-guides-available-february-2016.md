@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="new-task-guides-february-2016"></a>Novos guias de tarefas (fevereiro de 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico lista os Guias de tarefa que foram lançados nas bibliotecas do Microsoft BPM a partir de fevereiro de 2016.  As bibliotecas que foram publicadas incluem a (fevereiro de 2016) Biblioteca Unificada APQC para Microsoft Dynamics AX e (fevereiro de 2016) Introdução.
 
@@ -50,8 +49,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Configurar a Validação da conciliação de faturas de contas a pagar       | Global             |
 | Configurar políticas de fatura de fornecedores                            | Global             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a>Contas a Receber
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Revisar informações sobre cobranças                              | Global             |
 | Configurar e gerar informações de classificação por vencimento das contas a receber   | Global             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a>Gerenciamento de caixa e bancos
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Liquidar um cheque pós-datado de um cliente                             | Global             |
 | Visão geral de pagamentos do fornecedor                                              | Global             |
 
- 
 
+ 
 ### <a name="compliance"></a>Conformidade
 
 |                                            |                    |
@@ -108,8 +107,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | **Linha BPM**                               | **País/Região** |
 | Definir políticas de auditoria para documentos de origem | Global             |
 
- 
 
+ 
 ### <a name="cost-management"></a>Gerenciamento de custo
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Exibir status WIP atual em uma ordem de produção                       | Global             |
 | Exibir declaração de estoque e KPI por objeto de custo                     | Global             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a>Funcionalidade País/Região
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | GB-00009 Criar uma nota de crédito no desconto de liquidação                                               | Reino Unido                  |
 | GB-00009 Definir parâmetros para nota de crédito no desconto de pagamento imediato                                   | Reino Unido                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a>Desenvolver visão e estratégia
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Tornar uma pergunta dependente da resposta da questão anterior (questões Condicionais) | Global             |
 | Avaliar um questionário com base na Porcentagem                                                   | Global             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a>Relatório eletrônico
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | ER Mapear modelo de dados para fontes de dados selecionadas      | Global             |
 | ER Selecionar provedor de serviços                      | Global             |
 
- 
 
+ 
 ### <a name="expense-management"></a>Gerenciamento de despesas
 
 |                              |                    |
@@ -298,8 +297,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | **Linha BPM**                 | **País/Região** |
 | Configurar gerenciamento de despesas | Global             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a>Ativos fixos
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Dividir um ativo fixo                                       | Global             |
 | Transferir um ativo fixo                                    | Global             |
 
- 
 
+ 
 ### <a name="general-ledger"></a>Contabilidade
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Exibir entradas ou transações de diário                              | Global             |
 | Exibir comprovante intercompanhia relacionado do diário                    | Global             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a>Gerenciamento de capital humano
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Configurando políticas de elegibilidade aos benefícios                             | Global             |
 | Configurar tipos de documento i9                                     | Global             |
 
- 
 
+ 
 ### <a name="inventory-management"></a>Gerenciamento de estoque
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Rastrear um item ou uma matéria-prima                                                     | Global             |
 | Transferir estoque físico no depósito                                  | Global             |
 
- 
 
+ 
 ### <a name="manufacturing"></a>Fabricação
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Transferir o material com trabalhos Kanban                            | Global             |
 | Validar versões de fluxo de produção e versão                          | Global             |
 
- 
 
+ 
 ### <a name="master-planning"></a>Planejamento Mestre
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Identificar materiais críticos e capacidade do fornecedor | Global             |
 | Modificar a previsão de demanda manualmente                 | Global             |
 
- 
 
+ 
 ### <a name="organization-administration"></a>Administração da organização
 
 |                                           |                    |
@@ -501,8 +500,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Configurar assinaturas eletrônicas              | Global             |
 | Configurar sequências numéricas usando um assistente | Global             |
 
- 
 
+ 
 ### <a name="planning"></a>Planejamento
 
 |                        |                    |
@@ -510,8 +509,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | **Linha BPM**           | **País/Região** |
 | Determinar disponibilidade | Global             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a>Compras
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Procurar fornecedores                                               | Global             |
 | Configurar uma hierarquia de categorias de compras                          | Global             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a>Informação e configuração de produtos
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Lançar um ..\dimensões financeiras\produto mestre baseado em dimensão              | Global             |
 | Transferir dados para modelos de produto                      | Global             |
 
- 
 
+ 
 ### <a name="public-sector"></a>Setor público
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Configurar um fundo para o setor Público                                                         | Global             |
 | Configurar classificações de contrato de compra para o setor público                             | Global             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a>Varejo e comércio
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Ajustes de preço de varejo                                                                  | Global             |
 | Configurações de armazenamento para demonstrativos de varejo                                                | Global             |
 
- 
 
+ 
 ### <a name="sales"></a>Venda
 
 |                                            |                    |
@@ -642,8 +641,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Enviar ordens como entregas diretas           | Global             |
 | Enviar ordens de venda sem armazenamento      | Global             |
 
- 
 
+ 
 ### <a name="sales-tax"></a>Impostos
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Configurar o imposto retido na fonte                             | Global             |
 | Exibir transações de imposto lançadas                 | Global             |
 
- 
 
+ 
 ### <a name="security"></a>Segurança
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Identificar e solucionar conflitos na diferenciação de direitos | Global             |
 | Configurar a diferenciação de direitos                            | Global             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a>Depósito e transporte
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Configurar transportadoras                                                          | Global             |
 | Use a bancada de planejamento de custo indireto para planejar cargas e remessas                       | Global             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a>Guias de tarefas na (fevereiro de 2016) biblioteca de Introdução
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | **Linha BPM**                                       | **País/Região** |

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a>Comparar custos ativos, estimados e realizados em uma ordem de produção
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como exibir motivos para a variação alta de produção de uma ordem de produção. A empresa de dados demo usada para criar este procedimento é USMF. Esse procedimento é criado para o controlador de custo.
 

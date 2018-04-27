@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Designer de fórmulas no Relatório eletrônico
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico explica como usar o designer de fórmulas no ER (Relatório Eletrônico). Ao criar um formato para um documento eletrônico específico em ER, você pode usar fórmulas para transformar dados, de forma que ele atenda aos requisitos da realização e formatação desse documento. Essas fórmulas assemelham-se às fórmulas do Microsoft Excel. Vários tipos de funções são suportados nas fórmulas: texto, data e hora, matemática, lógica, informações, conversão de tipo de dados e outras (funções específicas de domínio comercial).
 
@@ -230,7 +230,7 @@ As tabelas a seguir descrevem o manuseio de dados da função que podem ser usad
 | Função | descrição | Exemplo |
 |----------|-------------|---------|
 | DATETODATETIME (data) | Converte o valor de data especificado para um valor de data/hora. | **DATETODATETIME (CompInfo. 'getCurrentDate()')** retorna a data atual da sessão do Finance and Operations, 24 de dezembro de 2015, como **12/24/2015 12:00:00 AM**. Neste exemplo, **CompInfo** é uma fonte de dados de ER do tipo **Finance and Operations/Tabela** e se refere à tabela CompanyInfo. |
-| DATEVALUE (cadeia de caracteres, formato) | Retorna uma representação de data da sequência de caracteres especificada no formato especificado. | **DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")** retorna a data 21 de dezembro de 2015 com base no formato personalizado especificado e na cultura padrão **EN-US** do aplicativo. |
+| DATEVALUE (cadeia de caracteres, formato) | Retorna uma representação de data da sequência de caracteres especificada no formato especificado. | **DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")** retorna a data 21 de dezembro de 2016 com base no formato personalizado especificado e na cultura padrão **EN-US** do aplicativo. |
 | DATEVALUE (cadeia de caracteres, formato, cultura) | Retorna uma representação de data da sequência de caracteres especificada no formato e cultura especificados. | **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "IT")** retorna a data 21 de janeiro de 2016, com base no formato personalizado e cultura especificados. Porém, **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", "EN-US")** gerará uma exceção para informar ao usuário que a sequência de caracteres especificada não é reconhecida como uma data válida. |
 | DATETIMEVALUE (cadeia de caracteres, formato) | Retorna uma representação de data/hora da sequência de caracteres especificada no formato especificado. | **DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")** retorna 2:55:00 AM em 21 de dezembro de 2016, com base no formato personalizado e na cultura **EN-US** do aplicativo padrão especificados. |
 | DATETIMEVALUE (cadeia de caracteres, formato, cultura) | Retorna uma representação de data/hora da sequência de caracteres especificada no formato e cultura especificados. | **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "IT")** retorna 2:55:00 AM em 21 de dezembro de 2016, com base no formato e cultura personalizados especificados. Porém, **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", "EN-US")** gerará uma exceção para informar ao usuário que a sequência de caracteres especificada não é reconhecida como uma data/hora válida. |
@@ -292,12 +292,12 @@ As tabelas a seguir descrevem o manuseio de dados da função que podem ser usad
 </tr>
 <tr class="odd">
 <td>FIRST (lista)</td>
-<td>Devolve o primeiro registro de lista especificada, se esse registro não estiver vazio. Caso contrário, jogue uma exceção.</td>
+<td>Devolva o primeiro registro da lista especificada se esse registro não estiver vazio. Caso contrário, jogue uma exceção.</td>
 <td></td>
 </tr>
 <tr class="even">
 <td>FIRSTORNULL (lista)</td>
-<td>Devolve o primeiro registro de lista especificada, se esse registro não estiver vazio. Caso contrário, devolve um registro <strong>null</strong>.</td>
+<td>Devolva o primeiro registro da lista especificada se esse registro não estiver vazio. Caso contrário, devolve um registro <strong>null</strong>.</td>
 <td></td>
 </tr>
 <tr class="odd">
@@ -313,12 +313,12 @@ As tabelas a seguir descrevem o manuseio de dados da função que podem ser usad
 <tr class="odd">
 <td>ORDERBY (lista [, expressão 1, expressão 2, …])</td>
 <td>Retorna a lista especificada depois que ela for classificada de acordo com os argumentos especificados. Esses argumentos podem ser definidos como expressões.</td>
-<td>Se o <strong>Fornecedor</strong> for configurado como uma fonte de dados de ER que faz referência à tabela VendTable, <strong>ORDERBY (Vendors, Vendors.'name()')</strong> retorna uma lista de fornecedores que é classificada por nome na ordem ascendente.</td>
+<td>Se o <strong>Fornecedor</strong> for configurado como uma fonte de dados de ER que faça referência à tabela VendTable, <strong>ORDERBY (Vendors, Vendors.&#39;nome()&#39;)</strong> retorna uma lista de fornecedores classificada por nome na ordem crescente.</td>
 </tr>
 <tr class="even">
 <td>REVERSE (lista)</td>
 <td>Retorna a lista especificada na ordem de classificação revertida.</td>
-<td>Se <strong>Fornecedor</strong> for configurado como uma origem de dados de ER que se refere à tabela VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> retorna uma lista de fornecedores que é classificada por nome na ordem decrescente.</td>
+<td>Se <strong>Fornecedor</strong> for configurado como uma origem de dados de ER que faça referência à tabela VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.&#39;nome()&#39;)) )</strong> retorna uma lista de fornecedores classificada por nome na ordem decrescente.</td>
 </tr>
 <tr class="odd">
 <td>WHERE (lista, condição)</td>
@@ -341,7 +341,7 @@ As tabelas a seguir descrevem o manuseio de dados da função que podem ser usad
 </tr>
 <tr class="odd">
 <td>COUNT (lista)</td>
-<td>Devolve o número de registros de lista especificada, se a lista estiver vazia. Caso contrário, devolve <strong>0</strong> (zero).</td>
+<td>Retorne o número de registros na lista especificada se a lista estiver vazia. Caso contrário, devolve <strong>0</strong> (zero).</td>
 <td><strong>COUNT (SPLIT(&quot;abcd&quot; , 3))</strong> retorna <strong>2</strong>, porque a função <strong>SPLIT</strong> cria uma lista que consiste em dois registros.</td>
 </tr>
 <tr class="even">
@@ -358,7 +358,7 @@ As tabelas a seguir descrevem o manuseio de dados da função que podem ser usad
 <li>Rótulo</li>
 <li>descrição</li>
 </ul>
-No tempo de execução, os campos <strong>Rótulo</strong> e <strong>Descrição</strong> retornam valores que são baseados nas definições de idioma do formato.</td>
+Em tempo de execução, os campos <strong>Rótulo</strong> e <strong>Descrição</strong> retornam valores que são baseados nas definições de idioma do formato.</td>
 <td>Na ilustração a seguir, uma enumeração é apresentada em um modelo de dados.
 <p><a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a></p>
 <p>A ilustração a seguir mostra estes detalhes:</p>
@@ -384,22 +384,24 @@ Com base nas configurações de idioma definidas Dos elementos de formato FILE e
 <li>descrição</li>
 <li>Traduzido(a)</li>
 </ul>
-<p>No tempo de execução, os campos <strong>Rótulo</strong> e <strong>Descrição</strong> retornam valores que são baseados nas definições de idioma do formato e no idioma especificado. O campo <strong>Traduzido</strong> indica que o campo <strong>Rótulo</strong> foi traduzido no idioma especificado.</td>
+<p>Em tempo de execução, os campos <strong>Rótulo</strong> e <strong>Descrição</strong> retornam valores que são baseados nas definições de idioma do formato e no idioma especificado. O campo <strong>Traduzido</strong> indica que o campo <strong>Rótulo</strong> foi traduzido no idioma especificado.</td>
 <td>Por exemplo, use o tipo de fonte de dados <strong>Campo calculado</strong> para configurar as fontes de dados <strong>enumType_de</strong> e <strong>enumType_deCH</strong> para a enumeração do modelo de dados <strong>enumType</strong>:
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor de enumeração em alemão suíço, se esta tradução estiver disponível. Se a tradução do alemão suíço não estiver disponível, o rótulo fica em alemão: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.</td>
+Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor de enumeração em alemão suíço, se esta tradução estiver disponível. Se a tradução do alemão suíço não estiver disponível, o rótulo ficará em alemão: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.</td>
 </tr>
 <tr class="even">
 <td>STRINGJOIN (lista, nome de campo, delimitador)</td>
 <td>Retorna uma sequência de caracteres com valores concatenados do campo especificado na lista especificada. Os valores são separados pelo delimitador especificado.</td>
-<td>Se você inserir <strong>SPLIT(&quot;abc&quot; , 1)</strong> como uma fonte de dados (DS), a expressão <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> retorna <strong>&quot;a:b:c&quot;</strong>.</td>
+
+<td>Se você inserir <strong>SPLIT(&quot;abc&quot; , 1)</strong> como uma fonte de dados (DS), a expressão <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> retornará <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>.</td>
+
 </tr>
 <tr class="odd">
 <td>SPLITLISTBYLIMIT (lista, valor de limite, fonte de limite)</td>
-<td>Divide a lista especificada em uma nova lista de sublistas e retorna o resultado no conteúdo da lista de registros. O parâmetro de valor de limite define o valor do limite para dividir a lista original. O parâmetro de fonte de limite define a etapa na qual aumenta-se a soma total. O limite não é aplicado a um único item da lista original, se a fonte do limite exceder o limite definido.</td>
+<td>Divide a lista especificada em uma nova lista de sublistas e retorna o resultado no conteúdo da lista de registros. O parâmetro de valor de limite define o valor do limite para dividir a lista original. O parâmetro de fonte de limite define a etapa na qual aumenta-se a soma total. O limite não será aplicado a um único item da lista original se a origem do limite exceder o limite definido.</td>
 <td>As ilustrações a seguir mostram um formato e as fontes de dados usadas para ele. 
 <p><a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="Format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a></p>
 <p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
@@ -411,12 +413,12 @@ Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor 
 <p>A ilustração a seguir mostra o resultado quando o formato ajustado é executado.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
 <blockquote>[!NOTE]<br>
-O limite não será aplicado ao último item da lista original porque o valor (11) da fonte de limite (peso) excede o limite definido (9). Use a função <strong>WHERE</strong> ou a expressão <strong>Enabled</strong> do elemento do formato correspondente para ignorar sublistas durante a geração do relatório, conforme necessário.</blockquote></td>
+O limite não será aplicado ao último item da lista original porque o valor (11) da origem do limite (peso) excede o limite definido (9). Use a função <strong>WHERE</strong> ou a expressão <strong>Enabled</strong> do elemento do formato correspondente para ignorar sublistas durante a geração do relatório, conforme necessário.</blockquote></td>
 </tr>
 <tr class="even">
 <td>FILTRO (lista, condição)</td>
 <td>Retorna a lista especificada depois que a consulta foi modificada para filtrar a condição especificada. Esta função difere da função <strong>WHERE</strong> porque a condição especificada é aplicada à fonte de dados do ER do tipo de <strong>Registros da tabela</strong> em nível de banco de dados. A lista e a condição podem ser definidas usando tabelas e relações.</td>
-  <td>Se <strong>Fornecedor</strong> for configurado como uma fonte de dados de ER que se refere à tabela VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> retorna uma lista de fornecedores que pertencem ao grupo do fornecedor 40. Se <strong>Fornecedor</strong> for configurado como uma fonte de dados de ER que se refere à tabela <strong>VendTable</strong> e a <strong>parmVendorBankGroup</strong> que é configurado como fonte de dados de ER retorna o valor no tipo de dados da sequência de caracteres, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> retorna uma lista de contas do fornecedor que pertence a um grupo de bancos específico.</td>
+  <td>Se <strong>Fornecedor</strong> for configurado como uma fonte de dados de ER que se refere à tabela VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> retorna uma lista de fornecedores que pertencem ao grupo do fornecedor 40. Se <strong>Fornecedor</strong> for configurado como uma fonte de dados de ER que faça referência à tabela <strong>VendTable</strong> e o <strong>parmVendorBankGroup</strong> configurado como fonte de dados de ER retorna o valor no tipo de dados da cadeia de caracteres, <strong>FILTER (Vendor.&#39;&lt;Relations&#39;.VendBankAccount, Vendor.&#39;&lt;Relations&#39;.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> retorna uma lista de contas do fornecedor que pertence a um grupo de bancos específico.</td>
 </tr>
 </tbody>
 </table>
@@ -540,7 +542,7 @@ A expressão <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> também reto
 </tr>
 <tr class="even">
 <td>FORMAT (string 1, string 2[, string 3, …])</td>
-<td>Retorna a sequência de caracteres especificada depois que for formatada, substituindo todas as ocorrências de <strong>%N</strong> pelo enésimo argumento <em>n</em>. Os argumentos são cadeias de caracteres. Se o argumento não for fornecido para um parâmetro, o parâmetro retornará como <strong>&quot;%N&quot;</strong> na cadeia. Para valores do tipo <strong>real</strong>, a conversão de cadeia de caracteres é limitada para duas casas decimais.</td>
+<td>Retorna a sequência de caracteres especificada depois que for formatada, substituindo todas as ocorrências de <strong>%N</strong> pelo enésimo argumento <em>n</em>. Os argumentos são cadeias de caracteres. Se o argumento não for fornecido para um parâmetro, o parâmetro será retornado como <strong>&quot;%N&quot;</strong> na cadeia de caracteres. Para valores do tipo <strong>real</strong>, a conversão de cadeia de caracteres é limitada para duas casas decimais.</td>
 <td>Na ilustração a seguir, a fonte de dados <strong>PaymentModel</strong> retorna a lista de registros do cliente por meio do componente <strong>Cliente</strong> e o valor da data de processamento por meio do campo <strong>ProcessingDate</strong>.
 <p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
 <p>No formato ER que é projetado para gerar um arquivo eletrônico para clientes selecionados, <strong>PaymentModel</strong> é selecionada como uma fonte de dados e controla o fluxo do processo. Uma exceção é gerada para informar ao usuário quando um cliente selecionado for interrompido na data na qual o relatório é processado. A fórmula que é criada para este tipo de controle de processamento pode usar os seguintes recursos:</p>
@@ -553,7 +555,7 @@ A expressão <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> também reto
 <li>Etiqueta SYS18389 do Finance and Operations, que tem o seguinte texto:
 <ul>
 <li><strong>Para o idioma Inglês dos EUA:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
-<li><strong>Para o idioma Alemão:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
+<li><strong>Para o idioma alemão:</strong> &quot;Debitor &#39;%1&#39; wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Veja a fórmula que pode ser criada:</p>
@@ -561,7 +563,7 @@ A expressão <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> também reto
 <p>Se um relatório for processado para o cliente <strong>Litware Retail</strong> em 17 de dezembro de 2015, na cultura <strong>EN-US</strong> e no idioma <strong>EN-US</strong>, esta fórmula retornará o seguinte texto, que pode ser apresentado como uma mensagem de exceção para o usuário.</p>
 <p>&quot;Nada para imprimir. O cliente Litware Retail é interrompido para 17/12/2015."&quot;</p>
 <p>Se o mesmo relatório for processado para o cliente <strong>Litware Retail</strong> em 17 de dezembro de 2015, na cultura <strong>DE</strong> e no idioma <strong>DE</strong>, esta fórmula retornará o seguinte texto, que usa um formato de data diferente:</p>
-<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
+<p>&quot;Nichts zu drucken. Debitor &#39;Litware Retail&#39; wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE]<br>
 A seguinte sintaxe será aplicada em fórmulas de ER para rótulos:
 <ul>
@@ -576,9 +578,9 @@ A seguinte sintaxe será aplicada em fórmulas de ER para rótulos:
 </tr>
 <tr class="even">
 <td>NUMERALSTOTEXT (número, idioma, moeda, sinalizador imprimir nome da moeda, casas decimais)</td>
-<td>Retorna o número especificado depois que for soletrado (convertido) em sequência de caracteres de texto no idioma especificado. O código do idioma é opcional. Quando definido como uma sequência de caracteres vazia, o código do idioma do contexto em execução será utilizado. (O código do idioma do contexto em execução é definido para uma pasta ou arquivo gerado). O código de moeda também é opcional. Quando for definido como sequência de caracteres vazia, a moeda da empresa será utilizada.
+<td>Retorna o número especificado depois que for soletrado (convertido) em sequência de caracteres de texto no idioma especificado. O código do idioma é opcional. Quando for definido como uma cadeia de caracteres vazia, o código do idioma do contexto em execução será utilizado. (O código do idioma do contexto em execução é definido para uma pasta ou arquivo gerado). O código de moeda também é opcional. Quando for definida como uma cadeia de caracteres vazia, a moeda da empresa será utilizada.
 <blockquote>[!NOTE]<br>
-O sinalizador imprimir nome da moeda e os parâmetros de pontos decimais são analisados somente para os seguintes códigos de idioma: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> e <strong>RU</strong>. Além disso, o parâmetro do sinalizador imprimir nome da moeda é analisado somente para empresas do Finance and Operations nas quais o contexto de país ou região suporta declinações de nomes da moeda.</blockquote></td>
+O sinalizador imprimir nome da moeda e os parâmetros de pontos decimais são analisados somente para os seguintes códigos de idioma: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> e <strong>RU</strong>. Além disso, o parâmetro do sinalizador de nome da moeda impressa é analisado somente para empresas do Finance and Operations nas quais o contexto de país ou região é compatível com declinações de nomes da moeda.</blockquote></td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> retorna <strong>&quot;Mil duzentos e trinta e quatro e 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> retorna <strong>&quot;Sto dwadzieścia&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> retorna <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
 <tr class="odd">

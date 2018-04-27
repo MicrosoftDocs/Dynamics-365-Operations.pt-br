@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>Criar uma célula de trabalho subcontratada para lean manufacturing
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Para modelar trabalho subcontratado para o lean manufacturing, você deve criar uma célula de trabalho associada ao fornecedor que fornece o trabalho. Uma célula de trabalho subcontratada é vinculada ao fornecedor por meio da associação de um recurso do tipo de fornecedor. Se fizer o registro na empresa de demonstração USMF, selecione o ID da conta do fornecedor 1002 e o site 1.
 

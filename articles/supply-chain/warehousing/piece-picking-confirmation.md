@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="piece-picking-confirmation"></a>Confirmação de separação de peças
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 A separação de peças permite que você confirme cada peça de estoque por meio do trabalho de separação ou de contagem em um dispositivo móvel. Referente às separações, é possível confirmar desde a quantidade de trabalho a ser processado até a quantidade especificada no trabalho a ser separado. Referente ao trabalho de contagem, é possível verificar o estoque que você está contando e rastrear o valor total.
 
@@ -46,8 +46,10 @@ Trabalhos de separação de peças para todos os trabalhos de contagem e para a 
 
 As seguintes opções tornam-se disponíveis para seleção quando o tipo de trabalho é separação e contagem.
 
-| Opção        | descrição   | 
-| ------------- | ------------- |
-| Confirmação de separação de peças   | Disponível para tipos de trabalho de separação e contagem. A confirmação de produto é selecionada automaticamente. Permite a você confirmar cada peça de estoque do dispositivo móvel. | 
-| Número máximo de peças     | Disponível para trabalho de separação se a confirmação de separação de peças estiver habilitada. Define um limite para o número de peças que você deve confirmar. |  
+
+|           Opção           |                                                                            descrição                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Confirmação de separação de peças | Disponível para tipos de trabalho de separação e contagem. A confirmação de produto é selecionada automaticamente. Permite a você confirmar cada peça de estoque do dispositivo móvel. |
+|  Número máximo de peças  |                   Disponível para trabalho de separação se a confirmação de separação de peças estiver habilitada. Define um limite para o número de peças que você deve confirmar.                   |
+
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="income-statement-financial-report"></a>Relatório financeiro do demonstrativo de renda
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve o relatório padrão para declarações de imposto. Também mostra os blocos de construção associados a este relatório. 
 
@@ -60,7 +59,7 @@ As definições da coluna contêm diferentes tipos de colunas para fornecer nív
     -   **DF** – Dados financeiros para o período atual
     -   **DF** – Dados financeiros acumulados do ano
 
- 
+
 
 <a name="see-also"></a>Consulte também
 --------

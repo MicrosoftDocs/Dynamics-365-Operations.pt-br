@@ -28,8 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="procurement-and-sourcing-overview"></a>Visão geral de Compras
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo oferece uma visão geral da funcionalidade que está disponível no módulo Aquisição e fornecimento.
 
@@ -39,7 +38,7 @@ A aquisição e o fornecimento abrangem todas as etapas, desde a identificação
 A necessidade de produtos ou serviços pode ser decorrente de *requisições*, por exemplo, quando um funcionário requer um produto. Os *catálogos de produtos* podem ser configurados para orientar a seleção de produtos disponíveis, ou podem ser feitas solicitações de produtos que ainda não estão disponíveis no catálogo, permitindo ao departamento de compras considerar como o produto pode ser fornecido.  
 
 Os *limites de gastos* podem ser utilizados para restringir os gastos da requisição e o *fluxo de trabalho de compras* inclui a opção de exigir aprovação antes que ocorra um pedido. Também é possível especificar a alocação de fundos de orçamento, se necessário.  
-  
+
 O departamento de aquisição identifica fornecedores para produtos e serviços necessários, e isso pode envolver o envio de uma *solicitação de cotação* a vários fornecedores potenciais. É possível compartilhar as especificações do produto que está sendo solicitado, e os fornecedores potenciais podem verificar se são capazes de fornecer um produto em conformidade com as especificações. Os fornecedores fazem as ofertas, que são analisadas pelo departamento de compras antes que eles escolham de qual fornecedor desejam comprar.  
 
 As ordens de compra incluem uma opção para enviar uma *consulta de compra* ao fornecedor como uma alternativa para um processo de solicitação de cotação mais abrangente. A consulta de compra pode ser usada para estabelecer condições como preços, descontos e data de entrega do pedido. Se os fornecedores forem configurados para usar o portal do **Fornecedor**, a funcionalidade de consulta de compra será desabilitada. Em vez disso, a ordem é compartilhada no portal do **Fornecedor** e, quando uma *solicitação de confirmação* é enviada, o fornecedor pode confirmar diretamente o pedido.  

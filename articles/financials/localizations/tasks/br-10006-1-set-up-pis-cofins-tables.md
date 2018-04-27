@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-pis-and-cofins-tables-brazil"></a>Configurar tabelas de PIS e COFINS (Brasil)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Antes da apuração de imposto PIS e COFINS ser criada, você deve configurar as tabelas da fonte de crédito e do tipo de crédito. Como referência, você deve usar as tabelas 4.3.7 e 4.3.6 que são publicadas pela autoridade fiscal. Esta tarefa usa a empresa de demonstração BRMF.
 

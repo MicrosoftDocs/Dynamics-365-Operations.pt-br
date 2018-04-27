@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="install-the-retail-pos-layout-designer"></a>Instalar o designer do layout de PDV
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Você pode usar o designer de um clique para criar diferentes layouts de Retail Modern POS (MPOS) e PDV em Nuvem, no modo Paisagem ou modo Retrato, para lojas, registradoras, caixas e gerentes.
 

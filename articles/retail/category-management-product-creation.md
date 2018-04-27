@@ -1,6 +1,6 @@
 ---
 title: Gerenciamento de categorias de produtos
-description: "Este tópico descreve como gerentes de mercadorias podem usar categorias de produtos de varejo para gerenciar relacionamentos entre a hierarquia de produtos de varejo e os detalhes de produtos liberados."
+description: "Este tópico descreve como gerentes de mercadoria podem usar categorias de produtos de varejo para gerenciar relacionamentos entre a hierarquia de produtos de varejo e os detalhes de produtos liberados."
 author: ashishmsft
 manager: AnnBe
 ms.date: 10/23/2017
@@ -20,44 +20,43 @@ ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 4b7ef962b777a31e1da238a8ec1be9a42ec5bb5f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2246024d7d70947690173f3d0768292abe43efd7
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
+# <a name="manage-retail-product-categories-and-products"></a>Gerenciar produtos e categorias de produtos de varejo
 
-# <a name="enhanced-product-and-category-management"></a>Gerenciamento avançado de categorias e produtos
+[!INCLUDE [banner](./includes/banner.md)]
 
-[!include[banner](./includes/banner.md)]
+Este tópico descreve um modo avançado de gerenciar produtos e categorias de produtos de varejo no Microsoft Dynamics 365 for Retail. Os aprimoramentos permitem que os gerentes de mercadoria visualizem uma estrutura de propriedades de produtos que é compartilhada entre a hierarquia de produtos de varejo e os detalhes de produtos liberados.
 
-Este tópico descreve um modo avançado de gerenciar categorias de produtos de varejo e produtos no Dynamics 365 for Retail. Esses aprimoramentos permitem que os gerentes de mercadorias visualizem uma estrutura comum de propriedades de produtos entre a hierarquia de produtos de varejo e os detalhes de produtos liberados.
+Para saber mais sobre como gerenciar categorias de produtos de varejo, no espaço de trabalho **Gerenciamento de categorias e produtos** , selecione o bloco **Hierarquia de produtos de varejo** .
 
-Para saber mais sobre como gerenciar categorias de produtos de varejo, vá para **Hierarquia de produtos de varejo** no espaço de trabalho **Gerenciamento de categorias e produtos** e observe a estrutura avançada da página **Categoria de produto de varejo** .
+Observe a estrutura aprimorada da página **Hierarquia de produtos de varejo** que é exibida. Em versões anteriores do Retail, as propriedades de produtos eram divididas em *Propriedades básicas do produto* e *Propriedades de produto de varejo*, com base no escopo de sua aplicabilidade. As propriedades de produto de varejo são *globais* no escopo de aplicabilidade. Em outras palavras, para uma determinada propriedade de produto de varejo, o mesmo valor é compartilhado em todas as entidades legais. Por outro lado, as Propriedades básicas de produto são *específicas da entidade legal*. Em outras palavras, para uma determinada Propriedade básica de produto, o valor pode ser diferente nas entidades legais, dependendo dos requisitos de negócios individuais de cada entidade legal.
 
-![Espaço de trabalho de gerenciamento de categorias e produtos](media/LaunchRetailProductHierarchy.png)
+Na estrutura avançada de categorias de produto de varejo, as propriedades de produto são separadas de forma lógica com base em sua aplicabilidade em um grupo, para refletir a estrutura do formulário de detalhes do produto liberado.
 
-Em versões anteriores, as propriedades de produtos eram divididas em **Propriedades básicas do produto** e **Propriedades de produto de varejo**, com base no escopo de sua aplicabilidade. As **Propriedades de produto de varejo** eram *globais* do escopo de aplicabilidade, o que significa que, para uma determinada **Propriedade de produto de varejo**, o mesmo valor é compartilhado em todas as entidades legais. As **Propriedades básicas de produto** são *específicas da entidade legal*. Em outras palavras, para uma determinada **Propriedade básica de produto**, o valor pode ser diferente em entidades legais, com base nos requisitos de negócios individuais.
+![Agrupamento de campos baseado no escopo de aplicabilidade das propriedades](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
-Na estrutura avançada de categorias de produto de varejo, as propriedades de produto são separadas de forma lógica com base em sua aplicabilidade dentro de um grupo, para refletir a estrutura de formulário de detalhes do produto liberado.
+Você pode alternar entre gerenciar propriedades específicas da entidade legal em todas as entidades legais e gerenciá-las para uma entidade legal específica.
 
-![Agrupamento de campos baseado no escopo de aplicabilidade](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+Para gerenciar propriedades em todas as entidades legais, selecione **Exibir todas as entidades legais** (ou **Editar todas as entidades legais**).
 
-Você pode alternar entre gerenciar propriedades específicas de entidade legal em todas as entidades legais gerenciá-las para uma entidade legal específica. Para fazer isso, selecione **Exibir/Editar todas as entidades legais** ou **Exibir/Editar uma entidade legal específica**.
+![Exibir/Editar todas as entidades legais](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
-![Ativar exibição entre entidades individuais e todas as entidades legais](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+Para gerenciar propriedades de uma entidade legal específica, selecione **Exibir uma entidade legal específica** (ou **Editar uma entidade legal específica**).
 
-![Ativar exibição entre entidades individuais e todas as entidades legais](media/ToggleToEditForAllLegalEntities.PNG)  
+![Exibir/Editar uma entidade legal específica](media/ToggleToEditForAllLegalEntities.PNG)
 
-Em comparação a versões anteriores, na nova estrutura de categorias de produto de varejo, um gerente de mercadorias também pode definir valores padrão para um conjunto adicional de propriedades de produto a nível de categoria individual. No momento da criação do produto, os valores de propriedades padrão de produto são herdados por um produto, com base em sua associação a uma categoria individual da hierarquia de produto de varejo. Essas propriedades de produto herdadas também podem ser modificadas para cada produto para atender a requisitos de negócios individuais.
+Além disso, na estrutura de categorias de produto de varejo aprimorada, um gerente de mercadorias agora pode definir valores padrão para um conjunto adicional de propriedades de produto no nível da categoria individual. Depois, quando os produtos forem criados, eles herdarão os valores padrão de suas propriedades de produto, com base na associação dessas propriedades a uma categoria individual da hierarquia de produto de varejo. Essas propriedades de produto herdadas também podem ser modificadas para cada produto para atender a requisitos de negócios individuais.
 
-## <a name="select-properties-to-update-products-from-the-retail-product-category-form"></a>Selecionar propriedades para atualizar os produtos do formulário Categoria de produto de varejo 
- 
-Você pode usar essa nova estrutura avançada para que as propriedades de produtos selecionem quais propriedades de produto devem ser enviadas a produtos associados. 
+## <a name="selecting-properties-to-update-products-on-the-retail-product-hierarchy-page"></a>Selecionar propriedades para atualizar os produtos na página Hierarquia de produtos de varejo
 
-![Nova exibição avançada de produtos para atualização](media/NewUpdateProductsEnhancedView.PNG) 
+Você pode usar a nova estrutura aprimorada das propriedades de produtos para selecionar as propriedades de produto que devem ser enviadas aos produtos associados. Na página **Hierarquia de produtos de varejo**, no Painel de Ação, selecione **Categoria** e depois selecione **Atualizar produtos** para abrir a caixa de diálogo **Atualizar produtos** .
 
-Os gerentes de mercadoria podem alterar essas propriedades herdadas de produto para cada produto, para atender a requisitos de negócios individuais.
+![Caixa de diálogo Atualizar produtos](media/NewUpdateProductsEnhancedView.PNG)
 
 

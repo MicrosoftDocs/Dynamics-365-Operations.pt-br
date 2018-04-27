@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>Configurar uma diretiva de localização para o armazenamento da ordem de compra
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como configurar uma diretiva de localização simples. O exemplo mostrado cria uma diretiva de localização a ser usada para determinar onde colocar os itens recebidos referentes a uma ordem de compra. Você pode executar esse guia de tarefas com os dados mencionados utilizando a empresa de dados de demonstração USMF. Pré-condições: Você deve criar um código de disposição. Nesse procedimento usamos um código de disposição chamado Relabel. Se você estiver criando uma diretiva de localização em seus próprios dados, você precisa configurar o gerenciamento de depósito avançado para o depósito e seus itens.  Esse procedimento é destinado ao gerente do depósito.
 

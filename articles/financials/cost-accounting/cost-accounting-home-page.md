@@ -3,12 +3,12 @@ title: "Pagina inicial de contabilização de custos"
 description: "Este tópico oferece uma lista de tópicos de ajuda e outros recursos disponíveis para contabilização de custos."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
+ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>Home page da contabilização de custos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>Mapa de aprendizado 
 
@@ -37,6 +37,7 @@ O mapa de aprendizado a seguir mostra os principais conceitos e tarefas que comp
 [![Mapa de aprendizado para contabilização de custos](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>Links Rápidos
+
 |      |   |
 |------|---|
 |  [Configurar entidades base (eLearning)](https://mbspartner.microsoft.com/Home) (requer conta do CustomerSource)  |[Criar Dimensões](cost-elements.md)  |

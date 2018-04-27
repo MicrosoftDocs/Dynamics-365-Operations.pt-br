@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="optimization-advisor-overview"></a>Visão geral do orientador de otimização
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve como você pode usar o Orientador de otimização para ajudar a garantir a configuração ideal do Microsoft Dynamics 365 Finance and Operations.
 

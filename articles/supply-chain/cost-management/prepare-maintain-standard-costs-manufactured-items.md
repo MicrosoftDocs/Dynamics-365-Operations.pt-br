@@ -30,7 +30,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>Preparar para manter custos padrão para itens fabricados
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve as estapas de preparação para manter custos para itens fabricados. As etapas para itens fabricados diferem levemente das etapas para itens comprados.
 

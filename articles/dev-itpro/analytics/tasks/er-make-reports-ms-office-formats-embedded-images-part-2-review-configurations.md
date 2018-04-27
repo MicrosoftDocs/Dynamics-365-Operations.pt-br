@@ -1,5 +1,5 @@
 --- 
-title: "Revisar configurações para criar relatórios nos formatos do Microsoft Office com imagens incorporadas para relatório eletrônico (ER)"
+title: "Revisar configurações para criar relatórios em formatos do Microsoft Office com imagens incorporadas"
 description: "Para concluir essas etapas, primeiro você deve concluir as etapas no guia de tarefas \"ER Criar relatórios nos formatos do MS Office com imagens incorporadas (Parte 1 – Configurar parâmetros)\"."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: dcc162a4c0ba81079eefb7564ab037c1287acd92
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fe58809c60fa27a605d84a61893ff569ded058ef
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er"></a>Revisar configurações para criar relatórios nos formatos do Microsoft Office com imagens incorporadas para relatório eletrônico (ER)
+# <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images"></a>Revisar configurações para criar relatórios em formatos do Microsoft Office com imagens incorporadas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Para completar essas etapas, primeiro você deve concluir as etapas no guia de tarefas "ER Fazer relatórios nos formatos do MS Office com imagens incorporadas (Parte 1: Configurar parâmetros)".
 

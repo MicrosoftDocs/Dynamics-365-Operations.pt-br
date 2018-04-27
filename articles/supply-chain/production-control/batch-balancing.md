@@ -19,19 +19,20 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 84e00ef62a995d37878de6b2786dbc2ee2277070
-ms.openlocfilehash: 8a1ec5a3b19d1022232527f4960617bd985bc2b3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="batch-balancing"></a>Balanceamento de lote
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
+Este tópico descreve como o processo de balanceamento de lote é suportado. 
 
-Este tópico descreve como o processo de balanceamento de lote é suportado.
+Assista a um [vídeo sobre balanceamento de lote no Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be).
 
 No processo de balanceamento de lote, a quantidade de ingredientes a ser usada em um lote de produção é calculada a partir da concentração de princípios ativos em lotes de produto selecionados.
 
@@ -179,7 +180,7 @@ Depois que as quantidades dos ingredientes forem calculadas, você poderá confi
 
 -   Se um produto estiver habilitado para os processos de gerenciamento de depósito, a linha de fórmula será liberada para o depósito de acordo com os princípios dos processos de gerenciamento de depósito. A linha de fórmula é liberada em quantidades correspondentes às quantidades balanceadas e para os lotes específicos que são selecionados para os princípios ativos.
 
->   [!NOTE]
+> [!NOTE]
 >   As linhas de fórmula podem ser liberadas para o depósito somente como parte do processo de balanceamento de lote. Embora haja outras opções para liberar materiais de produção para o depósito, essas opções não podem ser usadas para linhas de fórmula.
 
 -   Se um produto não estiver habilitado para os processos de gerenciamento de depósito, uma lista de separação de produção será criada para o produto quando você confirmar e liberar a fórmula.

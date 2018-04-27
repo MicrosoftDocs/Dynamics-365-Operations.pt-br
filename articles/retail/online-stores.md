@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="online-store-overview"></a>Visão geral de loja online
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Este artigo oferece informações sobre lojas online de Varejo e como configurá-las no Microsoft Dynamics 365 for Retail.
 

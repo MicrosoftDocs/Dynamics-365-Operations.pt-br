@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>Gerar e executar relatórios prontos para uso
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 Use este guia de tarefas para executar relatórios prontos para uso na matriz de diferentes espaços de trabalho e relatórios de Consultas e Vendas localizados em Varejo e comércio.
 

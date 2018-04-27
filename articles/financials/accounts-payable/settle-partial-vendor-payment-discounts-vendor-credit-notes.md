@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>Liquidar um pagamento parcial de fornecedor com descontos em notas de crédito de fornecedor
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo aborda um cenário onde um memorando de crédito é liquidado com relação a uma nota fiscal.
 

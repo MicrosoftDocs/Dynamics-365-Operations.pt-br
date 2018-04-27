@@ -26,8 +26,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fiscal-document-text-placeholders-for-brazil"></a>Espaços reservados em textos da nota fiscal do Brasil
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Os espaços reservados de texto de nota fiscal são marcas predefinidas que representam valores específicos. Você poderá incluir os espaços reservados no campo <strong>Texto </strong>da página <strong>Modelos de textos da nota fiscal </strong>quando você criar um modelo de textos da nota fiscal.
 
@@ -44,11 +43,13 @@ As marcas que têm suporte para texto da nota fiscal para processos mencionados
 | %RefProcess\_RefProcessNumber   | O número do processo mencionado. |
 
 ## <a name="tag-that-supports-fiscal-document-text-for-suframa"></a>A marca que tem suporte para texto da nota fiscal para SUFRAMA
+
 | Marca predefinida       | Alíquota                        |
 |----------------------|------------------------------|
 | %Suframa\_CustNumber | O número de cliente da SUFRAMA. |
 
 ## <a name="tags-that-support-fiscal-document-text-for-taxes"></a>As marcas que têm suporte para texto de nota fiscal para impostos
+
 | Marca predefinida | Alíquota                                                                                    |
 |----------------|------------------------------------------------------------------------------------------|
 | %ICMS          | O valor do ICMS (Imposto Sobre Circulação de Mercadorias e Serviços).                |
@@ -56,6 +57,7 @@ As marcas que têm suporte para texto da nota fiscal para processos mencionados
 | %COFINS        | O valor da contribuição de COFINS (Contribuição para Financiamento da Seguridade Social). |
 
 ## <a name="tags-that-support-fiscal-document-text-for-fiscal-references"></a>As marcas que têm suporte para texto da nota fiscal para referências fiscais
+
 | Marca predefinida                  | Alíquota                                                                                                               |
 |---------------------------------|---------------------------------------------------------------------------------------------------------------------|
 | %FiscalRef\_InvNoRef            | O número da fatura de referência.                                                                                |
@@ -67,6 +69,7 @@ As marcas que têm suporte para texto da nota fiscal para processos mencionados
 | %FiscalRef\_InvAccCNPJCPFNumRef | O CNPJ (Cadastro Nacional da Pessoa Jurídica), ou número de inscrição do contribuinte, da conta de fatura de referência. |
 
 ## <a name="tags-that-support-fiscal-document-text-that-involve-vendor-information"></a>As marcas que têm suporte para texto da nota fiscal que envolvem informações do fornecedor
+
 | Marca predefinida     | Alíquota                                                                                                                              |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------|
 | %Vendor\_Name      | O nome do fornecedor.                                                                                                            |
@@ -75,6 +78,7 @@ As marcas que têm suporte para texto da nota fiscal para processos mencionados
 | %Vendor\_Address   | O endereço do fornecedor.                                                                                                         |
 
 ## <a name="tags-that-support-fiscal-document-text-that-involve-customer-information"></a>Marcas que têm suporte para texto de nota fiscal que envolvem informações do cliente
+
 | Marca predefinida       | Alíquota                         |
 |----------------------|-------------------------------|
 | %Customer\_Name      | O nome do cliente.     |
@@ -83,6 +87,7 @@ As marcas que têm suporte para texto da nota fiscal para processos mencionados
 | %Vendor\_Address     | O endereço do cliente.  |
 
 ## <a name="tags-that-support-fiscal-document-text-for-withholding-taxes"></a>As marcas que têm suporte para texto da nota fiscal para impostos retidos na fonte
+
 | Marca predefinida       | Alíquota                          |
 |----------------------|--------------------------------|
 | %TaxWithhold\_Code   | O código de imposto retido na fonte.      |
@@ -90,6 +95,7 @@ As marcas que têm suporte para texto da nota fiscal para processos mencionados
 | %TaxWithhold\_Amount | O valor do imposto retido na fonte. |
 
 ## <a name="tags-that-support-fiscal-document-text-for-imports"></a>As marcas que têm suporte para texto da nota fiscal para importações
+
 | Marca predefinida | Alíquota                                                                    |
 |----------------|--------------------------------------------------------------------------|
 | %DI\_Number    | O identificador do documento da declaração de importação.                       |
@@ -101,6 +107,7 @@ As marcas que têm suporte para texto da nota fiscal para processos mencionados
 | %ExchRate      | A taxa de câmbio usada na importação.                            |
 
 ## <a name="tags-for-icmsdif-final-consumer"></a>As marcas para o consumo de ICMSDIF final
+
 | Marca predefinida           | Alíquota                                                                          |
 |--------------------------|--------------------------------------------------------------------------------|
 | %DifICMS\_vBCUFDest      | Valor da base de imposto usado para o tipo de imposto ICMS-DIF.                                    |

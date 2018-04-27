@@ -18,21 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7c3ecbfaa4e45401b8c4fffe7e7639da9e0474e6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3db07708df55c24108c66797885318486b2b1003
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-november-2016"></a>Guias de tarefas novos ou atualizados (novembro de 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico lista os Guias de tarefas novos ou atualizados que foram lançados na Biblioteca Unificada APQC (novembro de 2016 - todos idiomas) da Microsoft para Microsoft Dynamics 365 for Operations. Nenhuma nova biblioteca Introdução foi lançada.
 
-A (novembro de 2016 -- todos os idiomas) Biblioteca Unificada APQC contém as Guias de tarefa que são direcionadas a serem usadas para Ajuda no Microsoft Dynamics 365 for Operations, Plataforma do Microsoft Dynamics 365 for Operations versão 3, Plataforma do Microsoft Dynamics AX versão 2, atualização de maio de 2016 do Microsoft Dynamics AX e versão de fevereiro de 2016 do Microsoft Dynamics AX. Para mais informações sobre essas versões, consulte [Novidades ou alterações](whats-new-changed.md). Versões localizadas nas guias de tarefas estão disponíveis nesta biblioteca. Para obter mais informações sobre como conectar o sistema de ajuda à uma biblioteca de Guia de tarefas, consulte [Introdução à Ajuda](help-overview.md). **Observação:** Um asterisco (**\***) ao lado do título de uma linha de Modelador de processo de negócios (BPM) indica que o guia de tarefas desse processo de negócios foi criado para a atualização de novembro de 2016 do Microsoft Dynamics 365 for Operations e não possui suporte em versões anteriores do Microsoft Dynamics AX.
+A (novembro de 2016 -- todos os idiomas) Biblioteca Unificada APQC contém as Guias de tarefa que são direcionadas a serem usadas para Ajuda no Microsoft Dynamics 365 for Operations, Plataforma do Microsoft Dynamics 365 for Operations versão 3, Plataforma do Microsoft Dynamics AX versão 2, atualização de maio de 2016 do Microsoft Dynamics AX e versão de fevereiro de 2016 do Microsoft Dynamics AX. Para mais informações sobre essas versões, consulte [Novidades ou alterações](whats-new-changed.md). Versões localizadas nas guias de tarefas estão disponíveis nesta biblioteca. Para obter mais informações sobre como conectar o sistema de ajuda à uma biblioteca de Guia de tarefas, consulte [Introdução à Ajuda](help-overview.md). <strong>Observação:</strong> Um asterisco (<strong>\</strong>*) ao lado do título de uma linha de Modelador de processo de negócios (BPM) indica que o guia de tarefas desse processo de negócios foi criado para a atualização de novembro de 2016 do Microsoft Dynamics 365 for Operations e não possui suporte em versões anteriores do Microsoft Dynamics AX.
 
 ### <a name="accounts-payable"></a>Contas a Pagar
 
@@ -139,192 +138,192 @@ A (novembro de 2016 -- todos os idiomas) Biblioteca Unificada APQC contém as Gu
 
 ### <a name="countryregion-functionality"></a>Funcionalidade de país/região
 
-| Linha de BPM                                                                                                                             | País/região                    |
-|--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| Adicionar caixas de relatório BAS e gerar demonstrativo de atividades comerciais (BAS) da Austrália                                                    | Austrália e Nova Zelândia         |
-| Configurar códigos de motivo para o BAS da Austrália                                                                                                | Austrália e Nova Zelândia         |
-| **\***Verificar continuidade do comprovante Chinês                                                                                               | China                             |
-| **\***CN-00010 Hierarquia do gráfico de compras da China                                                                                  | China                             |
-| **\***CN-00016 Registro de operação do usuário pela regra de trabalho da China                                                                              | China                             |
-| **\***Configuração de exportação de integração de imposto dourado                                                                                            | China                             |
-| **\***Lançar comprovantes de outros módulos, como faturas de vendas                                                                          | China                             |
-| **\***Lançar comprovantes do diário geral                                                                                         | China                             |
-| **\***Configurar o perfil de integração de imposto básico para China                                                                                 | China                             |
-| **\***Configurar comprovantes Chineses                                                                                                        | China                             |
-| Criar e lançar uma fatura de cliente para um cliente do setor público                                                                      | Dinamarca                           |
-| Criar e lançar uma fatura de texto livre para um cliente do setor público                                                                     | Dinamarca                           |
-| Criar e lançar uma fatura de projeto para um cliente do setor público                                                                       | Dinamarca                           |
-| DK-00007 FIK 752 guia de transferência de dinheiro por débito direto/Lançar uma fatura de texto livre com uma guia de pagamento                                               | Dinamarca                           |
-| DK-00007 FIK 752 guia de transferência de dinheiro por débito direto/Lançar uma fatura de projeto com uma guia de pagamento                                                 | Dinamarca                           |
-| Configurações de faturação eletrônica de importação OIOUBL                                                                                    | Dinamarca                           |
-| Configurar contas de cliente para faturamento eletrônico OIOUBL                                                                             | Dinamarca                           |
-| Configurar faturamento eletrônico OIOUBL                                                                                                   | Dinamarca                           |
-| Configurar formato de guia de pagamento                                                                                                           | Dinamarca                           |
-| **\***EEU-00047 Pagamento avançado para funcionário                                                                                          | Europa Oriental                    |
-| Criar e exportar pagamentos de fornecedores usando o formato de pagamento ISO20022                                                                      | Europa                            |
-| Criar pagamentos de cliente com mandatos de débito direto                                                                          | Europa                            |
-| **\***EE-00015 Ferramenta de geração de referência de pagamento                                                                                     | Europa                            |
-| EUR-00002 Gerar uma declaração Intrastat da UE                                                                                       | Europa                            |
-| **\***EUR-00002 Especificar um endereço de embarque para uma transação dentro da comunidade                                                          | Europa                            |
-| EUR-00002 Transferir transações para o Intrastat                                                                                     | Europa                            |
-| EUR-00011 Gerar o relatório da lista de vendas da UE                                                                                          | Europa                            |
-| EUR-00011 Configurar relatórios da lista de vendas da UE                                                                                             | Europa                            |
-| EUR-00012 Emitir um certificado de entrada da UE                                                                                              | Europa                            |
-| EUR-00012 Receber um certificado de entrada da UE                                                                                            | Europa                            |
-| **\***EUR-00015 Pesquisa de participante usando ID VAT                                                                                            | Europa                            |
-| **\***EUR-00015 Registro do ID de VAT do fornecedor                                                                                        | Europa                            |
-| **\***EUR-00015 Configurar ID do VAT                                                                                                        | Europa                            |
-| **\***HU-00001 Cálculo da taxa de câmbio                                                                                             | Europa                            |
-| Configuração de transferência de crédito ISO20022 de importação                                                                                        | Europa                            |
-| Configuração do débito direto ISO20022 de importação                                                                                           | Europa                            |
-| **\***LT-00003 Documento de transferência para movimentação de mercadorias dentro da empresa/Gerar um documento de transferência para uma transferência interna de estoque   | Europa                            |
-| **\***LT-00003 Documento de transferência para movimentação de mercadorias dentro da empresa/Configurar documentos de transferência para movimentação de mercadorias dentro de uma empresa | Europa                            |
-| **\***NO-00002 Pagamento do cliente baseado em ID de pagamento                                                                                  | Europa                            |
-| Configure contas bancárias de empresa para transferências de crédito de ISO20022                                                                           | Europa                            |
-| Configure contas bancárias de empresa para débitos diretos de ISO20022                                                                              | Europa                            |
-| Configurar clientes e contas bancárias de cliente para débitos diretos de ISO20022                                                               | Europa                            |
-| Configurar método de pagamento para transferência de crédito de ISO20022                                                                                | Europa                            |
-| Configurar método de pagamento do débito direto ISO20022                                                                                   | Europa                            |
-| Configure fornecedores e contas bancárias de fornecedor para transferências de crédito de ISO20022                                                                | Europa                            |
-| Estabelecer métodos de pagamento de cliente                                                                                                | França                            |
-| FR-00002 Conta de cliente e fornecedor                                                                                                 | França                            |
-| FR-00003 Códigos NAF e números Siret                                                                                                 | França                            |
-| FR-00004 Aprovar e lançar letra de câmbio emitida                                                                                      | França                            |
-| FR-00004 Notas promissórias francesas e letras de câmbio                                                                               | França                            |
-| FR-00004 Lançar diário de letras de câmbio emitidas de protesto                                                                                  | França                            |
-| FR-00004 Lançar diário de letras de câmbio reemitidas                                                                                       | França                            |
-| FR-00004 Configurar método de pagamento                                                                                                     | França                            |
-| FR-00004 Atualizar método de pagamento de um cliente                                                                                        | França                            |
-| FR-00018 Cálculo de juros diários para pagamento e quantidade total na fatura e carta de cobrança                               | França                            |
-| Personalizar configuração de arquivo de auditoria alemão                                                                                            | Alemanha                           |
-| DE-00002 Ajustes de depreciação para aquisições adicionais no segundo ano                                                     | Alemanha                           |
-| DE-00003 Transmissão eletrônica da declaração de IVA (ELSTER)                                                                         | Alemanha                           |
-| Configurar destinos ER                                                                                                            | Alemanha                           |
-| O ER configurar o formato da contagem e soma (Parte 1: criar formato)                                                               | Alemanha                           |
-| ER Configurar formato para fazer contagem e soma (parte 2: configurar computações)                                                      | Alemanha                           |
-| O ER configurar o formato da contagem e a soma (parte 3: Usar computações para criar a saída)                                         | Alemanha                           |
-| O ER configurar o formato da contagem e soma (Parte 4: executar formato)                                                                  | Alemanha                           |
-| ER Criar um provedor de configuração e marcá-lo como ativo                                                                             | Alemanha                           |
-| ER Projetar uma configuração para gerar relatórios no formato Microsoft WORD (Novembro de 2016)                                            | Alemanha                           |
-| ER Projetar modelo de dados de domínio específico (Novembro 2016)                                                                                 | Alemanha                           |
-| Importação ER de uma configuração do Lifecycle Services                                                                                    | Alemanha                           |
-| Carregamento ER de uma configuração no Lifecycle Services                                                                                    | Alemanha                           |
-| O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 1: preparar modelo de dados)                                                      | Alemanha                           |
-| O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 2: estender modelo de dados)                                                       | Alemanha                           |
-| O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 3: criar formato)                                                           | Alemanha                           |
-| O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 4: executar formato)                                                              | Alemanha                           |
-| O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 5: Modificar e faça o formato)                                                   | Alemanha                           |
-| O ER usa dimensões financeiras como uma fonte de dados (parte 1: Modelo de dados de design)                                                             | Alemanha                           |
-| O ER usa dimensões financeiras como uma fonte de dados (parte 2: mapeamento de modelo)                                                                 | Alemanha                           |
-| O ER usa dimensões financeiras como uma fonte de dados (parte 3: criar o relatório)                                                             | Alemanha                           |
-| O ER usa dimensões financeiras como uma fonte de dados (parte 4: executar o relatório)                                                                | Alemanha                           |
-| O ER horizontalmente usar intervalos expansíveis dinamicamente para adicionar colunas em relatórios do Excel (Parte 1: criar formato)                            | Alemanha                           |
-| O ER horizontalmente usar intervalos expansíveis dinamicamente para adicionar colunas em relatórios do Excel (Parte 2: executar formato)                               | Alemanha                           |
-| Gerenciar o arquivo de auditoria Alemão                                                                                                           | Alemanha                           |
-| Importar configuração de arquivo de auditoria alemão                                                                                               | Alemanha                           |
-| **\***EUR-00018 VAT relatório de reconciliação                                                                                            | Islândia                           |
-| IS-00006 Declaração de faturas do fornecedor/Criar uma conta de fornecedor e anexar a declaração de faturas                                       | Islândia                           |
-| IS-00006 Declaração de faturas do fornecedor/Configurar uma declaração de faturas para fornecedores                                                        | Islândia                           |
-| IS-00006 Declaração de faturas do fornecedor/Atualizar declarações de fatura de fornecedor e gerar o relatório                                       | Islândia                           |
-| Manter plano de contas/Configurar referências de pagamento obrigatórias                                                                       | Islândia                           |
-| Adquirir um ativo fixo com obrigações de aposentadoria de ativo                                                                              | Japão                             |
-| Adquirir ativos fixos, reivindicar subsídio de prêmio governamental                                                                                 | Japão                             |
-| Ajuste de estimativa da obrigação de aposentadoria do ativo                                                                               | Japão                             |
-| Alocar valor contábil de ativo compartilhado e reputação da empresa para unidades geradoras de caixa                                                   | Japão                             |
-| Alterar o método de depreciação durante a vida do ativo para um ativo                                                                   | Japão                             |
-| Alterar o método de depreciação durante a vida do ativo para livro                                                                        | Japão                             |
-| Configurar parâmetros de depreciação acelerada e perfis de lançamentos                                                                   | Japão                             |
-| CN-00004 Alocação de depreciação de ativo fixo (JP-)                                                                                   | Japão                             |
-| Configurar um perfil de depreciação e perfil de lançamentos para depreciação adicional                                                   | Japão                             |
-| Configurar um perfil de depreciação e perfil de lançamentos para depreciação especial                                                      | Japão                             |
-| Configurar parâmetros de fatura consolidada e configuração de contas a pagar                                                             | Japão                             |
-| Configurar contas principais para lançamento de obrigação de aposentadoria de ativo e taxas de desconto de mercado                                            | Japão                             |
-| Criar um ativo fixo com depreciação adicional                                                                                    | Japão                             |
-| Criar um ativo fixo com perfil de depreciação especial                                                                               | Japão                             |
-| Criar um perfil de depreciação acelerada e atribui-lo ao livro                                                                        | Japão                             |
-| Criar um documento de depreciação acelerada e inserir dados de uso                                                                     | Japão                             |
-| Criar e atribuir um grupo de equipamentos                                                                                                 | Japão                             |
-| Criar e atribuir documento de entrada de redução                                                                                           | Japão                             |
-| Criar e confirmar uma fatura consolidada de fornecedor                                                                                     | Japão                             |
-| Criar e confirmar teste de reconhecimento                                                                                                  | Japão                             |
-| Criar grupos de CGUs e unidades geradoras de caixa                                                                                          | Japão                             |
-| Criar ativos de depreciação da quantidade total usando método igualmente dividido                                                                     | Japão                             |
-| Defina o período ocioso do ativo e valide o processo de depreciação                                                                           | Japão                             |
-| Depreciar e acumular a despesa de juros para obrigações de aposentadoria de ativo                                                          | Japão                             |
-| Depreciação de ativos fixos com entrada de redução lançada                                                                             | Japão                             |
-| Descarte de um ativo fixo com redução de entrada                                                                                        | Japão                             |
-| Habilitar formato JBA de arquivo de pagamento                                                                                                       | Japão                             |
-| Inserir agenda da taxa de depreciação e associá-la ao perfil de depreciação                                                               | Japão                             |
-| Gerenciar e lançar a taxa de pagamento                                                                                                        | Japão                             |
-| Gerenciar um arquivo de pagamento de TEF com o formato JBA                                                                                     | Japão                             |
-| Gerar relatório de imposto de consumo do Japão                                                                                                | Japão                             |
-| Importar um pagamento de cliente com um formato de arquivo JBA                                                                                     | Japão                             |
-| Consultar taxa de pagamento no diário                                                                                                  | Japão                             |
-| Consultar obrigação de aposentadoria de ativos relacionados a transações                                                                    | Japão                             |
-| Consultar despesas dedutivas                                                                                                       | Japão                             |
-| JP-00005 Diário de entrada no formulário de conta T (Japão)                                                                                     | Japão                             |
-| JP-00011 Fatura consolidada - AR - Criar e confirmar uma fatura consolidada de cliente                                              | Japão                             |
-| JP-00027 Formulário 26 para declaração de imposto depreciável                                                                                     | Japão                             |
-| Manter arquivos dos dados mestre do ativo fixo para despesas dedutivas                                                                       | Japão                             |
-| Manter indicadores individuais do prejuízo de ativos                                                                                  | Japão                             |
-| Pagar uma transação de fornecedor endossando uma letra de câmbio de cliente                                                                    | Japão                             |
-| Liquidação periódica de depreciação excessiva e deficitária                                                                                   | Japão                             |
-| Propor depreciação adicional                                                                                                      | Japão                             |
-| Propor e lançar depreciação acelerada                                                                                        | Japão                             |
-| Propor e lançar o valor do prejuízo pelo lote                                                                                      | Japão                             |
-| Propor e lançar o valor do prejuízo usando o diário de ativo fixo                                                                  | Japão                             |
-| Propor e lançar o valor do prejuízo em uma unidade geradora de caixa                                                                     | Japão                             |
-| Propor depreciação especial                                                                                                         | Japão                             |
-| Reabrir e editar uma fatura consolidada de cliente                                                                                      | Japão                             |
-| Reabrir e editar uma fatura consolidada de fornecedor                                                                                        | Japão                             |
-| Reverter uma letra de câmbio endossada                                                                                                 | Japão                             |
-| Executar o teste de reconhecimento e calcular o valor do prejuízo em ativos individuais                                                    | Japão                             |
-| Liquidar uma letra de câmbio endossada                                                                                                  | Japão                             |
-| Liquidar faturas consolidadas do cliente usando um diário de pagamentos                                                                     | Japão                             |
-| Liquidar faturas consolidadas do fornecedor usando um diário de pagamentos                                                                       | Japão                             |
-| Liquidar faturas consolidadas do fornecedor usando transações de liquidação                                                                     | Japão                             |
-| Liquidar faturas consolidadas do fornecedor usando transações de liquidação                                                                     | Japão                             |
-| Configurar um cliente e uma ordem de venda para serem alvos da fatura consolidada                                                               | Japão                             |
-| Configurar documentos de obrigação de aposentadoria de ativos e inserir o valor de ARO em um ativo fixo                                                   | Japão                             |
-| Configurar faturas consolidadas                                                                                                         | Japão                             |
-| Configurar parâmetros comuns de contabilidade de prejuízo e perfil de lançamento                                                                    | Japão                             |
-| Configurar pagamento do Japão endossando uma letra de câmbio do cliente                                                                         | Japão                             |
-| Configurar dados mestres para inclusão de despesas dedutivas para vários níveis de lançamento                                                  | Japão                             |
-| Configurar relatório de imposto de consumo do Japão                                                                                                   | Japão                             |
-| Configurar taxa de pagamento para o Japão                                                                                                          | Japão                             |
-| Configurar fornecedor mestre e ordem de compra para que sejam alvos da fatura consolidada                                                          | Japão                             |
-| Usar a lista de montagem de um ativo fixo                                                                                                   | Japão                             |
-| Usar lista de desmontagem para ativos fixos                                                                                                | Japão                             |
-| MX-00006 Configurar código de imposto sobre vendas                                                                                                       | México                            |
-| MX-00007 IDs de registro de cliente e outras informações                                                                             | México                            |
-| MX-00008: IDs de registro de fornecedor                                                                                                    | México                            |
-| MX-00010 Cancelar uma fatura eletrônica                                                                                                | México                            |
-| MX-00010 Faturamento eletrônico CFDI                                                                                                            | México                            |
-| MX-00010 Inserir IDs de registro de impostos para entidades legais mexicanas                                                                       | México                            |
-| MX-00010 Consultar e imprimir uma fatura eletrônica                                                                                     | México                            |
-| MX-00010 Lançar uma fatura de texto livre                                                                                                    | México                            |
-| MX-00010 Definir parâmetros para uma fatura eletrônica                                                                                    | México                            |
-| MX-00020: Produzir relatório de conta contábil mexicana versão 1.1                                                            | México                            |
-| MX-00020 Definir o plano de contas de uma entidade legal no México                                                                   | México                            |
-| MX-00020 - Especificar a ID de registro de RFC para contas bancárias mexicanas                                                                 | México                            |
-| NL-00003 Integração do XBRL Semansys                                                                                                   | Países Baixos                       |
-| NL-00010 Declarações eletrônicas de imposto (EVAT)                                                                                          | Países Baixos                       |
-| MY-00003 Gerenciar notas de débito e crédito do cliente para GST                                                                          | Cingapura, Malásia e Tailândia |
-| MY-00004 Gerenciar Notas de débito e Notas de crédito do fornecedor para GST                                                                            | Cingapura, Malásia e Tailândia |
-| MY-00005 Imprimir faturas de imposto GST                                                                                                      | Cingapura, Malásia e Tailândia |
-| MY-00006 01 Definir cláusulas de compensação GST                                                                                                | Cingapura, Malásia e Tailândia |
-| MY-00006 02 Imprimir faturas de cliente de GST com uma cláusula de compensação                                                                         | Cingapura, Malásia e Tailândia |
-| MY-00007 Faturas faturadas automaticamente                                                                                                        | Cingapura, Malásia e Tailândia |
-| MY-00010 GST - Gerenciar arquivos de GAF no formato exigido                                                                             | Cingapura, Malásia e Tailândia |
-| MY-00011 02 Gerar nota de débito do cliente para vendas de projeto                                                                           | Cingapura, Malásia e Tailândia |
-| MY-00011 03 Gerar Nota de crédito do cliente para Vendas de projeto                                                                          | Cingapura, Malásia e Tailândia |
-| Criar uma ordem de compra que inclui itens sujeitos a IVA de encargos revertidos                                                            | Reino Unido                    |
-| Criar uma ordem de vendas que inclui itens sujeitos a IVA de encargos revertidos                                                               | Reino Unido                    |
-| GB-00002 Configurar grupos, regras e parâmetros de itens de IVA de encargos revertidos                                                                | Reino Unido                    |
-| GB-00009 Criar uma nota de crédito no desconto de liquidação                                                                             | Reino Unido                    |
-| GB-00009 Definir parâmetros para nota de crédito no desconto de pagamento imediato                                                                 | Reino Unido                    |
-| Configurar grupos de impostos sobre vendas de itens para IVA de encargos revertidos                                                                                  | Reino Unido                    |
-| Configurar grupos de impostos sobre vendas para encargos revertidos de IVA                                                                                       | Reino Unido                    |
+|                                                                     Linha de BPM                                                                      |          País/região           |
+|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
+|                                 Adicionar caixas de relatório BAS e gerar demonstrativo de atividades comerciais (BAS) da Austrália                                 |     Austrália e Nova Zelândia     |
+|                                                       Configurar códigos de motivo para BAS da Austrália                                                       |     Austrália e Nova Zelândia     |
+|                                                <strong>\</strong>*Verificação de continuidade de comprovante chinês                                                |               China               |
+|                                         <strong>\</strong>*CN-00010 Hierarquia do gráfico de compras da China                                          |               China               |
+|                                       <strong>\</strong>*CN-00016 Registro de operação do usuário pela regra de trabalho da China                                        |               China               |
+|                                              <strong>\</strong>*Configuração de exportação de integração do Golden Tax chinês                                               |               China               |
+|                                     <strong>\</strong>*Lançar comprovantes de outros módulos, como notas fiscais de vendas                                      |               China               |
+|                                             <strong>\</strong>*Lançar comprovantes do diário geral                                             |               China               |
+|                                         <strong>\</strong>*Configurar o perfil de integração de imposto básico para China                                         |               China               |
+|                                                    <strong>\</strong>*Configurar comprovantes chineses                                                     |               China               |
+|                                          Criar e lançar uma fatura de cliente para um cliente do setor público                                          |              Dinamarca              |
+|                                         Criar e lançar uma fatura de texto livre para um cliente do setor público                                          |              Dinamarca              |
+|                                          Criar e lançar uma fatura de projeto para um cliente do setor público                                           |              Dinamarca              |
+|                              DK-00007 FIK 752 guia de transferência de dinheiro por débito direto/Lançar uma fatura de texto livre com uma guia de pagamento                               |              Dinamarca              |
+|                               DK-00007 FIK 752 guia de transferência de dinheiro por débito direto/Lançar uma fatura de projeto com uma guia de pagamento                                |              Dinamarca              |
+|                                                 Configurações de faturação eletrônica de importação OIOUBL                                                 |              Dinamarca              |
+|                                             Configurar contas de cliente para faturamento eletrônico OIOUBL                                              |              Dinamarca              |
+|                                                        Configurar faturamento eletrônico OIOUBL                                                         |              Dinamarca              |
+|                                                            Configurar formato de guia de pagamento                                                             |              Dinamarca              |
+|                                             <strong>\</strong>*EEU-00047 Adiantamento de salário para funcionário                                              |          Europa Oriental           |
+|                                          Criar e exportar pagamentos de fornecedores usando o formato de pagamento ISO20022                                          |              Europa               |
+|                                            Criar pagamentos de cliente com mandatos de débito direto                                            |              Europa               |
+|                                           <strong>\</strong>*EE-00015 Ferramenta de geração de referência de pagamento                                           |              Europa               |
+|                                                  EUR-00002 Gerar uma declaração Intrastat da UE                                                   |              Europa               |
+|                             <strong>\</strong>*EUR-00002 Especificar um endereço de embarque para uma transação dentro da comunidade                              |              Europa               |
+|                                                 EUR-00002 Transferir transações para o Intrastat                                                  |              Europa               |
+|                                                    EUR-00011 Gerar o relatório da lista de vendas da UE                                                    |              Europa               |
+|                                                     EUR-00011 Configurar relatórios da lista de vendas da UE                                                      |              Europa               |
+|                                                      EUR-00012 Emitir um certificado de entrada da UE                                                      |              Europa               |
+|                                                     EUR-00012 Receber um certificado de entrada da UE                                                     |              Europa               |
+|                                              <strong>\</strong>*EUR-00015 Pesquisa de participante usando ID IVA                                               |              Europa               |
+|                                            <strong>\</strong>*EUR-00015 Registro do ID de IVA do fornecedor                                             |              Europa               |
+|                                                    <strong>\</strong>*EUR-00015 Configurar ID do IVA                                                     |              Europa               |
+|                                               <strong>\</strong>*HU-00001 Cálculo da taxa de câmbio                                               |              Europa               |
+|                                                   Configuração de transferência de crédito ISO20022 de importação                                                   |              Europa               |
+|                                                    Configuração do débito direto ISO20022 de importação                                                     |              Europa               |
+|  <strong>\</strong>*LT-00003 Documento de transferência para movimentação de mercadorias dentro da empresa/Gerar um documento de transferência para uma transferência interna de estoque  |              Europa               |
+| <strong>\</strong>*LT-00003 Documento de transferência para movimentação de mercadorias dentro da empresa/Configurar documentos de transferência para movimentação de mercadorias dentro de uma empresa |              Europa               |
+|                                         <strong>\</strong>*NO-00002 Pagamento do cliente baseado em ID de pagamento                                          |              Europa               |
+|                                            Configurar contas bancárias de empresa para transferências de crédito de ISO20022                                             |              Europa               |
+|                                              Configure contas bancárias de empresa para débitos diretos de ISO20022                                              |              Europa               |
+|                                      Configurar clientes e contas bancárias de cliente para débitos diretos de ISO20022                                       |              Europa               |
+|                                               Configurar método de pagamento para transferência de crédito de ISO20022                                               |              Europa               |
+|                                                Configurar método de pagamento do débito direto ISO20022                                                 |              Europa               |
+|                                       Configure fornecedores e contas bancárias de fornecedor para transferências de crédito de ISO20022                                       |              Europa               |
+|                                                       Estabelecer métodos de pagamento de cliente                                                       |              França               |
+|                                                       FR-00002 Conta de cliente e fornecedor                                                        |              França               |
+|                                                       FR-00003 Códigos NAF e números Siret                                                        |              França               |
+|                                                  FR-00004 Aprovar e lançar letra de câmbio emitida                                                  |              França               |
+|                                              FR-00004 Notas promissórias francesas e letras de câmbio                                               |              França               |
+|                                                FR-00004 Lançar diário de letras de câmbio emitidas de protesto                                                |              França               |
+|                                                  FR-00004 Lançar diário de letras de câmbio reemitidas                                                   |              França               |
+|                                                         FR-00004 Configurar método de pagamento                                                          |              França               |
+|                                                   FR-00004 Atualizar método de pagamento de um cliente                                                   |              França               |
+|                      FR-00018 Cálculo de juros diários para pagamento e quantidade total na fatura e carta de cobrança                       |              França               |
+|                                                     Personalizar configuração de arquivo de auditoria alemão                                                     |              Alemanha              |
+|                                 DE-00002 Ajustes de depreciação para aquisições adicionais no segundo ano                                  |              Alemanha              |
+|                                           DE-00003 Transmissão eletrônica da declaração de IVA (ELSTER)                                            |              Alemanha              |
+|                                                             Configurar destinos ER                                                             |              Alemanha              |
+|                                      O ER configurar o formato da contagem e soma (Parte 1: criar formato)                                       |              Alemanha              |
+|                                  ER Configurar formato para fazer contagem e soma (parte 2: configurar computações)                                  |              Alemanha              |
+|                           O ER configurar o formato da contagem e a soma (parte 3: Usar computações para criar a saída)                            |              Alemanha              |
+|                                        O ER configurar o formato da contagem e soma (Parte 4: executar formato)                                        |              Alemanha              |
+|                                             ER Criar um provedor de configuração e marcá-lo como ativo                                              |              Alemanha              |
+|                             ER Projetar uma configuração para gerar relatórios no formato Microsoft WORD (Novembro de 2016)                             |              Alemanha              |
+|                                               ER Projetar modelo de dados de domínio específico (Novembro 2016)                                                |              Alemanha              |
+|                                                 Importação ER de uma configuração do Lifecycle Services                                                 |              Alemanha              |
+|                                                 Carregamento ER de uma configuração no Lifecycle Services                                                 |              Alemanha              |
+|                                  O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 1: preparar modelo de dados)                                  |              Alemanha              |
+|                                  O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 2: estender modelo de dados)                                   |              Alemanha              |
+|                                    O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 3: criar formato)                                     |              Alemanha              |
+|                                      O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 4: executar formato)                                      |              Alemanha              |
+|                                O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 5: Modificar e faça o formato)                                 |              Alemanha              |
+|                                     O ER usa dimensões financeiras como uma fonte de dados (parte 1: Modelo de dados de design)                                      |              Alemanha              |
+|                                       O ER usa dimensões financeiras como uma fonte de dados (parte 2: mapeamento de modelo)                                        |              Alemanha              |
+|                                     O ER usa dimensões financeiras como uma fonte de dados (parte 3: criar o relatório)                                      |              Alemanha              |
+|                                       O ER usa dimensões financeiras como uma fonte de dados (parte 4: executar o relatório)                                       |              Alemanha              |
+|                     O ER horizontalmente usar intervalos expansíveis dinamicamente para adicionar colunas em relatórios do Excel (Parte 1: criar formato)                     |              Alemanha              |
+|                      O ER horizontalmente usar intervalos expansíveis dinamicamente para adicionar colunas em relatórios do Excel (Parte 2: executar formato)                       |              Alemanha              |
+|                                                            Gerenciar o arquivo de auditoria Alemão                                                             |              Alemanha              |
+|                                                      Importar configuração de arquivo de auditoria alemão                                                       |              Alemanha              |
+|                                              <strong>\</strong>*EUR-00018 Relatório de reconciliação IVA                                               |              Islândia              |
+|                          IS-00006 Declaração de faturas do fornecedor/Criar uma conta de fornecedor e anexar a declaração de faturas                           |              Islândia              |
+|                                   IS-00006 Declaração de faturas do fornecedor/Configurar uma declaração de faturas para fornecedores                                   |              Islândia              |
+|                          IS-00006 Declaração de faturas do fornecedor/Atualizar declarações de fatura de fornecedor e gerar o relatório                           |              Islândia              |
+|                                          Manter plano de contas/Configurar referências de pagamento obrigatórias                                           |              Islândia              |
+|                                              Adquirir um ativo fixo com obrigações de aposentadoria de ativo                                              |               Japão               |
+|                                               Adquirir ativos fixos, reivindicar subsídio de prêmio governamental                                                |               Japão               |
+|                                              Ajuste de estimativa da obrigação de aposentadoria do ativo                                               |               Japão               |
+|                                Alocar valor contábil de ativo compartilhado e reputação da empresa para unidades geradoras de caixa                                 |               Japão               |
+|                                        Alterar o método de depreciação durante a vida do ativo para um ativo                                         |               Japão               |
+|                                           Alterar o método de depreciação durante a vida do ativo para livro                                           |               Japão               |
+|                                        Configurar parâmetros de depreciação acelerada e perfis de lançamentos                                         |               Japão               |
+|                                                CN-00004 Alocação de depreciação de ativo fixo (JP-)                                                 |               Japão               |
+|                                Configurar um perfil de depreciação e perfil de lançamentos para depreciação adicional                                 |               Japão               |
+|                                  Configurar um perfil de depreciação e perfil de lançamentos para depreciação especial                                  |               Japão               |
+|                                     Configurar parâmetros de fatura consolidada e configuração de contas a pagar                                      |               Japão               |
+|                             Configurar contas principais para lançamento de obrigação de aposentadoria de ativo e taxas de desconto de mercado                             |               Japão               |
+|                                                 Criar um ativo fixo com depreciação adicional                                                 |               Japão               |
+|                                              Criar um ativo fixo com perfil de depreciação especial                                               |               Japão               |
+|                                           Criar um perfil de depreciação acelerada e atribui-lo ao livro                                           |               Japão               |
+|                                         Criar um documento de depreciação acelerada e inserir dados de uso                                          |               Japão               |
+|                                                       Criar e atribuir um grupo de equipamentos                                                        |               Japão               |
+|                                                    Criar e atribuir documento de entrada de redução                                                     |               Japão               |
+|                                                 Criar e confirmar uma fatura consolidada de fornecedor                                                  |               Japão               |
+|                                                        Criar e confirmar teste de reconhecimento                                                        |               Japão               |
+|                                                    Criar grupos de CGUs e unidades geradoras de caixa                                                    |               Japão               |
+|                                         Criar ativos de depreciação da quantidade total usando método igualmente dividido                                          |               Japão               |
+|                                            Defina o período ocioso do ativo e valide o processo de depreciação                                             |               Japão               |
+|                                    Depreciar e acumular a despesa de juros para obrigações de aposentadoria de ativo                                    |               Japão               |
+|                                             Depreciação de ativos fixos com entrada de redução lançada                                              |               Japão               |
+|                                                   Descarte de um ativo fixo com redução de entrada                                                   |               Japão               |
+|                                                          Habilitar formato JBA de arquivo de pagamento                                                           |               Japão               |
+|                                      Inserir agenda da taxa de depreciação e associá-la ao perfil de depreciação                                       |               Japão               |
+|                                                           Gerenciar e lançar a taxa de pagamento                                                           |               Japão               |
+|                                                 Gerenciar um arquivo de pagamento de TEF com o formato JBA                                                  |               Japão               |
+|                                                       Gerar relatório de imposto de consumo do Japão                                                       |               Japão               |
+|                                                 Importar um pagamento de cliente com um formato de arquivo JBA                                                  |               Japão               |
+|                                                        Consultar taxa de pagamento no diário                                                        |               Japão               |
+|                                         Consultar obrigação de aposentadoria de ativos relacionados a transações                                         |               Japão               |
+|                                                          Consultar despesas dedutivas                                                           |               Japão               |
+|                                                 JP-00005 Diário de entrada no formulário de conta T (Japão)                                                  |               Japão               |
+|                              JP-00011 Fatura consolidada - AR - Criar e confirmar uma fatura consolidada de cliente                              |               Japão               |
+|                                                 JP-00027 Formulário 26 para declaração de imposto depreciável                                                  |               Japão               |
+|                                          Manter arquivos dos dados mestre do ativo fixo para despesas dedutivas                                           |               Japão               |
+|                                                Manter indicadores individuais do prejuízo de ativos                                                |               Japão               |
+|                                         Pagar uma transação de fornecedor endossando uma letra de câmbio de cliente                                         |               Japão               |
+|                                                Liquidação periódica de depreciação excessiva e deficitária                                                 |               Japão               |
+|                                                          Propor depreciação adicional                                                          |               Japão               |
+|                                                   Propor e lançar depreciação acelerada                                                   |               Japão               |
+|                                                  Propor e lançar o valor do prejuízo pelo lote                                                  |               Japão               |
+|                                        Propor e lançar o valor do prejuízo usando o diário de ativo fixo                                        |               Japão               |
+|                                         Propor e lançar o valor do prejuízo em uma unidade geradora de caixa                                          |               Japão               |
+|                                                           Propor depreciação especial                                                            |               Japão               |
+|                                                  Reabrir e editar uma fatura consolidada de cliente                                                  |               Japão               |
+|                                                   Reabrir e editar uma fatura consolidada de fornecedor                                                   |               Japão               |
+|                                                       Reverter uma letra de câmbio endossada                                                        |               Japão               |
+|                                 Executar o teste de reconhecimento e calcular o valor do prejuízo em ativos individuais                                 |               Japão               |
+|                                                        Liquidar uma letra de câmbio endossada                                                        |               Japão               |
+|                                         Liquidar faturas consolidadas do cliente usando um diário de pagamentos                                          |               Japão               |
+|                                          Liquidar faturas consolidadas do fornecedor usando um diário de pagamentos                                           |               Japão               |
+|                                         Liquidar faturas consolidadas do fornecedor usando transações de liquidação                                          |               Japão               |
+|                                         Liquidar faturas consolidadas do fornecedor usando transações de liquidação                                          |               Japão               |
+|                                      Configurar um cliente e uma ordem de venda para serem alvos da fatura consolidada                                       |               Japão               |
+|                                Configurar documentos de obrigação de aposentadoria de ativos e inserir o valor de ARO em um ativo fixo                                 |               Japão               |
+|                                                           Configurar faturas consolidadas                                                            |               Japão               |
+|                                         Configurar parâmetros comuns de contabilidade de prejuízo e perfil de lançamento                                         |               Japão               |
+|                                           Configurar pagamento do Japão endossando uma letra de câmbio do cliente                                            |               Japão               |
+|                                Configurar dados mestres para inclusão de despesas dedutivas para vários níveis de lançamento                                |               Japão               |
+|                                                        Configurar relatório de imposto de consumo do Japão                                                         |               Japão               |
+|                                                            Configurar taxa de pagamento para o Japão                                                            |               Japão               |
+|                                    Configurar fornecedor mestre e ordem de compra para que sejam alvos da fatura consolidada                                    |               Japão               |
+|                                                        Usar a lista de montagem de um ativo fixo                                                         |               Japão               |
+|                                                       Usar lista de desmontagem para ativos fixos                                                       |               Japão               |
+|                                                          MX-00006 Configurar código de imposto sobre vendas                                                           |              México               |
+|                                             MX-00007 IDs de registro de cliente e outras informações                                              |              México               |
+|                                                         MX-00008: IDs de registro de fornecedor                                                         |              México               |
+|                                                       MX-00010 Cancelar uma fatura eletrônica                                                       |              México               |
+|                                                             MX-00010 Faturamento eletrônico CFDI                                                             |              México               |
+|                                          MX-00010 Inserir IDs de registro de impostos para entidades legais mexicanas                                           |              México               |
+|                                                 MX-00010 Consultar e imprimir uma fatura eletrônica                                                  |              México               |
+|                                                         MX-00010 Lançar uma fatura de texto livre                                                         |              México               |
+|                                                 MX-00010 Definir parâmetros para uma fatura eletrônica                                                 |              México               |
+|                                     MX-00020: Produzir relatório de conta contábil mexicana versão 1.1                                     |              México               |
+|                                        MX-00020 Definir o plano de contas de uma entidade legal no México                                         |              México               |
+|                                       MX-00020 - Especificar a ID de registro de RFC para contas bancárias mexicanas                                        |              México               |
+|                                                        NL-00003 Integração do XBRL Semansys                                                         |            Países Baixos            |
+|                                                    NL-00010 Declarações eletrônicas de imposto (EVAT)                                                    |            Países Baixos            |
+|                                            MY-00003 Gerenciar notas de débito e crédito do cliente para GST                                            | Cingapura, Malásia e Tailândia |
+|                                             MY-00004 Gerenciar Notas de débito e Notas de crédito do fornecedor para GST                                             | Cingapura, Malásia e Tailândia |
+|                                                          MY-00005 Imprimir faturas de imposto GST                                                          | Cingapura, Malásia e Tailândia |
+|                                                       MY-00006 01 Definir cláusulas de compensação GST                                                       | Cingapura, Malásia e Tailândia |
+|                                           MY-00006 02 Imprimir faturas de cliente de GST com uma cláusula de compensação                                            | Cingapura, Malásia e Tailândia |
+|                                                           MY-00007 Faturas faturadas automaticamente                                                           | Cingapura, Malásia e Tailândia |
+|                                             MY-00010 GST - Gerenciar arquivos de GAF no formato exigido                                              | Cingapura, Malásia e Tailândia |
+|                                            MY-00011 02 Gerar nota de débito do cliente para vendas de projeto                                             | Cingapura, Malásia e Tailândia |
+|                                            MY-00011 03 Gerar Nota de crédito do cliente para Vendas de projeto                                            | Cingapura, Malásia e Tailândia |
+|                                     Criar uma ordem de compra que inclui itens sujeitos a IVA de encargos revertidos                                     |          Reino Unido           |
+|                                      Criar uma ordem de vendas que inclui itens sujeitos a IVA de encargos revertidos                                       |          Reino Unido           |
+|                                       GB-00002 Configurar grupos, regras e parâmetros de itens de IVA de encargos revertidos                                       |          Reino Unido           |
+|                                             GB-00009 Criar uma nota de crédito no desconto de liquidação                                              |          Reino Unido           |
+|                                       GB-00009 Definir parâmetros para nota de crédito no desconto de pagamento imediato                                        |          Reino Unido           |
+|                                                Configurar grupos de impostos sobre vendas de itens para IVA de encargos revertidos                                                |          Reino Unido           |
+|                                                  Configurar grupos de impostos sobre vendas para encargos revertidos de IVA                                                   |          Reino Unido           |
 
 ### 
 
@@ -389,11 +388,11 @@ A (novembro de 2016 -- todos os idiomas) Biblioteca Unificada APQC contém as Gu
 
 ### <a name="inbound-consignment"></a>Consignação de entrada
 
-| Linha de BPM                                                                       | País/região |
-|--------------------------------------------------------------------------------|----------------|
-| **\***Alterar a propriedade de estoque de remessa com base na demanda de produção | Global         |
-| **\***Criar uma ordem de reabastecimento de consignação                                 | Global         |
-| **\***Monitorar o estoque de remessa usando a colaboração de fornecedor                 | Global         |
+|                                          Linha de BPM                                           | País/região |
+|---------------------------------------------------------------------------------------------|----------------|
+| <strong>\</strong>*Alterar a propriedade de estoque de consignação com base na demanda de produção |     Global     |
+|                 <strong>\</strong>*Criar uma ordem de reabastecimento de consignação                 |     Global     |
+|         <strong>\</strong>*Monitorar o estoque de consignação usando a colaboração de fornecedor         |     Global     |
 
 ### 
 
@@ -412,17 +411,17 @@ A (novembro de 2016 -- todos os idiomas) Biblioteca Unificada APQC contém as Gu
 | Linha de BPM                                  | País/região |
 |-------------------------------------------|----------------|
 | Criar um plano intercompanhia               | Global         |
-| Mostrar planejamento de demanda intercompanhia de saída | Global         |
+| Exibir planejamento de demanda intercompanhia de saída | Global         |
 
 ### 
 
 ### <a name="performance-management"></a>Gerenciamento de desempenho
 
-| Linha de BPM                                                         | País/região |
-|------------------------------------------------------------------|----------------|
-| **\***Adicionar ao seu diário de desempenho e enviar elogio a alguém | Global         |
-| **\***Criar uma meta                                              | Global         |
-| **\***Criar uma revisão de desempenho                                | Global         |
+|                                   Linha de BPM                                    | País/região |
+|-------------------------------------------------------------------------------|----------------|
+| <strong>\</strong>*Adicionar ao seu diário de desempenho e enviar elogio a alguém |     Global     |
+|                       <strong>\</strong>*Criar uma nova meta                        |     Global     |
+|                <strong>\</strong>*Criar uma avaliação de desempenho                 |     Global     |
 
 ### 
 
@@ -494,25 +493,25 @@ A (novembro de 2016 -- todos os idiomas) Biblioteca Unificada APQC contém as Gu
 
 ### <a name="retail-and-commerce"></a>Varejo e comércio
 
-| Linha de BPM                                                         | País/região |
-|------------------------------------------------------------------|----------------|
-| Configurar um trabalhador                                               | Global         |
-| **\***Configuração das recomendações de produto fornecidas pelo aprendizado de máquina | Global         |
-| Configure o perfil de funcionalidade para determinado representante de vendas   | Global         |
-| **\***Criar um perfil visual de PDV (novembro de 2016)                | Global         |
-| Criar e associar caixas registradoras                                   | Global         |
-| Criar ordens de call center                                        | Global         |
-| Crie contratos comerciais usando uma regra de preços de categoria            | Global         |
-| Criar, calcular e lançar declaração de uma loja              | Global         |
-| Definir uma afiliação e atribuir um desconto                      | Global         |
-| Definir e gerenciar grupos de permissão PDV                          | Global         |
-| Definir agendas de continuidade                                       | Global         |
-| **\***Definir comunicações do canal de varejo (CDX)                 | Global         |
-| Ajustes de recompensas de fidelidade                                      | Global         |
-| Gerenciar classificações                                               | Global         |
-| Atribuição de imposto sobre vendas e substituições                                | Global         |
-| Configurar regras e parâmetros para a distribuição integrada e a compra centralizada   | Global         |
-| Usando programas de continuidade                                         | Global         |
+|                                   Linha de BPM                                    | País/região |
+|-------------------------------------------------------------------------------|----------------|
+|                               Configurar um trabalhador                               |     Global     |
+| <strong>\</strong>* Configurar recomendações de produto fornecidas pelo aprendizado de máquina |     Global     |
+|         Configurar o perfil de funcionalidade para um representante de vendas         |     Global     |
+|        <strong>\</strong>*Criar um perfil visual de PDV (novembro de 2016)         |     Global     |
+|                         Criar e associar registros                         |     Global     |
+|                           Criar ordens de call center                           |     Global     |
+|             Crie contratos comerciais usando uma regra de preços de categoria             |     Global     |
+|              Criar, calcular e lançar declaração de uma loja              |     Global     |
+|                  Definir uma afiliação e atribuir um desconto                  |     Global     |
+|                    Definir e gerenciar grupos de permissão PDV                    |     Global     |
+|                          Definir agendas de continuidade                           |     Global     |
+|         <strong>\</strong>*Definir comunicações do canal de varejo (CDX)         |     Global     |
+|                          Ajustes de recompensas de fidelidade                          |     Global     |
+|                              Gerenciar classificações                               |     Global     |
+|                       Atribuição de imposto sobre vendas e substituições                       |     Global     |
+|        Configurar regras e parâmetros para a distribuição integrada e a compra centralizada         |     Global     |
+|                           Usando programas de continuidade                            |     Global     |
 
 ### 
 
@@ -576,19 +575,17 @@ A (novembro de 2016 -- todos os idiomas) Biblioteca Unificada APQC contém as Gu
 
 ### <a name="warehouse-and-transportation"></a>Depósito e transporte
 
-| Linha de BPM                                                                    | País/região |
-|-----------------------------------------------------------------------------|----------------|
-| Criar um perfil de localização                                                   | Global         |
-| **\***Criar um item de menu de dispositivo móvel para consolidação de matrícula      | Global         |
-| Reconciliar nota de frete manualmente                                                  | Global         |
-| Registrar check-in e check-out do motorista para um compromisso                   | Global         |
-| Configurar um item de menu do dispositivo móvel para concluir o trabalho do tipo de ordem de compra | Global         |
-| Configurar um compromisso para uma carga                                            | Global         |
-| Configurar um meio de pagamento de transporte                                              | Global         |
-| Configurar reconciliação de frete automática                                     | Global         |
-| **\***Configurar realocação de item de pouca seleção                                | Global         |
-
-
+|                                      Linha de BPM                                       | País/região |
+|-------------------------------------------------------------------------------------|----------------|
+|                              Criar um perfil de localização                              |     Global     |
+| <strong>\</strong>*Criar um item de menu de dispositivo móvel para consolidação de placa de licença |     Global     |
+|                             Reconciliar nota de frete manualmente                              |     Global     |
+|              Registrar check-in e check-out do motorista para um compromisso              |     Global     |
+|     Configurar um item de menu do dispositivo móvel para concluir o trabalho do tipo de ordem de compra     |     Global     |
+|                          Configurar um compromisso para uma carga                           |     Global     |
+|                           Configurar uma proposta de transporte                            |     Global     |
+|                       Configurar automatização de reconciliação de frete                       |     Global     |
+|              <strong>\</strong>*Configurar realocação de item de pouca seleção              |     Global     |
 
 <a name="see-also"></a>Consulte também
 --------

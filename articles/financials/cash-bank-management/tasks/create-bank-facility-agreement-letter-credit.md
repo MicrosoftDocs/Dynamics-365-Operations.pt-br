@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>Criar um contrato de recursos bancários para uma carta de crédito
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Essa tarefa caminha com a criação de um contrato de recursos bancários para processar uma carta de crédito. Você desejará configurar parâmetros de recursos e perfis de lançamentos antes desta tarefa.  Este tarefa usa a empresa demo 'USMF'.  
 

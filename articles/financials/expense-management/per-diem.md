@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="per-diem-rules"></a>Regras de diárias
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Uma *diária* é uma bonificação paga a um trabalhador que esteja viajando a trabalho. No gerenciamento de despesas, é possível criar regras de diárias para várias situações de viagem. As taxas de diária podem ser definidas com base na época do ano, o local de viagem ou ambos. Quando você cria uma regra de diária, você pode especificar que uma porcentagem da taxa de diária será retida se o trabalhador receber refeições ou serviços gratuitos. Também é possível definir um número de horas mínimo e máximo para o qual uma taxa de diária pode se aplicar à viagem de um trabalhador.
 

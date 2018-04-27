@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>Criar uma ordem de compra a partir de uma ordem de venda
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar uma ordem de compra que é baseada em uma ordem de venda. As quantidades do produto na ordem de compra são designadas para atender a demanda da ordem de venda original. Atender a demanda de vendas desta forma é uma alternativa a um método mais abrangente e mais otimizado de Planejamento de requisitos de distribuição. Você pode executar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
 

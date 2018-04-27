@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="175-percent-reducing-balance-depreciation"></a>Depreciação por declínio de 175 por cento
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece uma visão geral do método de depreciação de redução de 175% do saldo.
 
@@ -68,6 +67,7 @@ Se você selecionar **Fiscal** como o ano de depreciação, as opções a seguir
 -   **Período fiscal** calcula o valor total da depreciação para o ano fiscal. Esse valor é acumulado nos períodos fiscais definidos na página **Calendários fiscais**.
 
 ## <a name="example-of-175-reducing-balance-depreciation"></a>Exemplo de depreciação com declínio de 175%
+
 |                                |        |
 |--------------------------------|--------|
 | Custo de Aquisição               | 11.000 |

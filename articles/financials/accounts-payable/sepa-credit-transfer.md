@@ -19,17 +19,16 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b6ded5e5accbbdba708c8b31119429e72bd58f5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a>Visão geral da transferência de crédito SEPA
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece informações gerais sobre as transferências de crédito ISO 20022, que incluem transferências de crédito da Área Única de Pagamentos em Euros (SEPA) e quaisquer outros pagamentos eletrônicos para fornecedores. Uma transferência de crédito de SEPA é um tipo específico de pagamento de uma empresa ou pessoa para outra empresa ou pessoa. O tópico também explica como configurar e transmitir um arquivo de pagamento de transferência de crédito.
 
@@ -93,7 +92,7 @@ A lista de parâmetros específicos depende do formato de transferência de cré
 <td>Formato</td>
 <td>Selecione o formato das informações de remessa, dependendo das necessidades do país/região ou banco:
 <ul>
-<li><strong>Strd</strong> – Selecione esta opção para usar o formato estruturado quando uma linha de pagamento é liquidada com uma fatura. Esta opção não estará disponível para os formatos de exportação específicos de país/região para França, Alemanha ou Holanda.</li>
+<li><strong>Strd</strong> – Selecione esta opção para usar o formato estruturado quando uma linha de pagamento é liquidada com uma fatura. Esta opção não está disponível para os formatos de exportação específicos do país/região para França, Alemanha ou Holanda.</li>
 <li><strong>Ustrd</strong> – Selecione esta opção para usar o formato não estruturado quando o pagamento for liquidado com diversas faturas. Os números de fatura para as faturas liquidadas são concatenados e usados como informação de remessa. Em conformidade com diretrizes de ISO 20022, as informações de remessa não estruturada são limitadas a 140 caracteres.</li>
 </ul></td>
 </tr>

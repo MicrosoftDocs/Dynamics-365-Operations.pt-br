@@ -3,7 +3,7 @@ title: Recursos preteridos
 description: "Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção."
 author: sericks007
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 0618d71fdb4b29bfdacd6b9e1a8ed47e03abe00d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="removed-or-deprecated-features"></a>Recursos removidos ou preteridos
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve os recursos que foram removidos ou preteridos no Dynamics 365 for Finance and Operations.
 
@@ -37,7 +37,10 @@ Este tópico descreve os recursos que foram removidos ou preteridos no Dynamics 
 Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovações para seu próprio planejamento. 
 
 > [!Note]
-> A partir da versão de julho de 2017 do Dynamics 365 for Finance and Operations, Enterprise Edition com atualização 8 da plataforma, os tipos de implantações são observados para cada recurso removido ou preterido. Todas as versões anteriores mencionadas neste tópico ofereciam suporte apenas a implantações em nuvem.
+> A partir da versão de julho de 2017 do Dynamics 365 for Finance and Operations com a atualização 8 da plataforma, os tipos de implantações são observados para cada recurso removido ou preterido. Todas as versões anteriores mencionadas neste tópico ofereciam suporte apenas a implantações em nuvem.
+
+## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 com atualização 15 da plataforma
+Nenhum recurso foi removido ou substituído com esta versão. A atualização 15 da plataforma é cumulativa e contém recursos novos ou alterados das atualizações 13, 14 e 15 da plataforma.
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 com atualização da plataforma 12
 
@@ -96,7 +99,7 @@ A interface de usuário padrão no gerenciamento de dados é interface de usuár
 | **Substituída por outro recurso?**   | A nova Interface do usuário chamada *Exibições avançadas* está substituindo a interface do usuário antiga.            |
 | **Áreas afetadas do produto**         | Espaço de trabalho de gerenciamento de dados                                                     |
 | **Opção de implantação**              | Todas                                                                           |
-| **Status**                         | Preterido: O período determinado de destino para a funcionalidade ser removida é T1 de 2018. |
+| **Status**                         | Preterido: o período determinado para a remoção da funcionalidade é o T2 de 2018. |
 
 ### <a name="excise-sales-tax-service-tax-for-india"></a>Imposto embutido, impostos, imposto sobre serviço na Índia
 
@@ -1033,10 +1036,11 @@ O aplicativo para tablet com Windows 8 fornece a funcionalidade da entrada e a a
 
 ### <a name="x-financial-statements"></a>Demonstrativos financeiros X++
 
-|   |  |
-|------------|--------------------|
-| **Motivo para a reprovação/remoção** | Esta funcionalidade foi substituída por outro recurso.                                    |
-| **Substituída por outro recurso?**   | Management Reporter (rotulado **Relatório financeiro** na versão atual do Dynamics AX) |
-| **Áreas afetadas do produto**         | Contabilidade                                                                              |
-| **Status**                         | Removido do Dynamics AX 2012.                                                              |
+|                                                 |                                                                                                          |
+|-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| <strong>Motivo para a reprovação/remoção</strong> |                         Esta funcionalidade foi substituída por outro recurso.                         |
+|  <strong>Substituída por outro recurso?</strong>  | Management Reporter (rotulado <strong>Relatório financeiro</strong> na versão atual do Dynamics AX) |
+|     <strong>Áreas afetadas do produto</strong>     |                                              Contabilidade                                              |
+|             <strong>Status</strong>             |                                      Removido do Dynamics AX 2012.                                      |
+
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-legal-entity"></a>Criar uma entidade legal
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Uma entidade legal é uma organização que é identificada através de um registro com uma autoridade legal. As entidades legais podem participar de contratos e são obrigadas a elaborar demonstrativos que relatam seus desempenhos. O procedimento a seguir explica como criar uma entidade legal. A empresa de dados demo usada para criar este procedimento é USMF.
 

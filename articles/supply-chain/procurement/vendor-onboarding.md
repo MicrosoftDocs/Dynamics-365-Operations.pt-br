@@ -17,15 +17,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 7265e119a8b59399db1fa35373a7b6aba52ba8e0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 325cf12345afcf531181f65a41d0e5262798c14f
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="onboard-vendors"></a>Integração de fornecedores
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
 ---
 
 Os novos fornecedores podem ser integrados e registrados como fornecedores no Microsoft Dynamics 365 for Finance and Operations com base nas informações obtidas de uma pessoa que represente o fornecedor.
@@ -164,13 +165,15 @@ Os vários status de uma solicitação de registro do fornecedor potencial forne
 
 Usando a ação **Excluir** da solicitação de registro do fornecedor potencial, você pode limpar e remover a cadeia de registros criada, e pode desativar a conta do usuário. O resultado da ação **Excluir** varia, dependendo do status de solicitação de registro do cliente potencial, conforme mostrado na tabela a seguir.
 
-| Status                   | Descrição do status | Resultado da ação de exclusão |
-|--------------------------|--------------------|-----------------------------------|
-| Nova                      | Nenhuma ação foi tomada em relação à solicitação. | A solicitação de registro do fornecedor potencial foi excluída. |
-| Solicitado pelo usuário           | Quando você selecionar **Convidar usuário**, o status será alterado para **Solicitado pelo usuário**, e uma solicitação de usuário potencial é criada e enviada a um fluxo de trabalho do usuário. | Você não pode excluir uma solicitação de registro de cliente potencial com este status, pois o fluxo de trabalho da solicitação do usuário não foi concluído. |
-| Usuário convidado             | O fluxo de trabalho da solicitaçãodo usuário foi aprovado e o usuário foi criado. | Uma solicitação para desativar o usuário foi criada e a solicitação de registro do fornecedor potencial foi excluída. |
-| Registro em andamento | O novo usuário se conectou e iniciou o assistente de registro de fornecedor. | Uma solicitação para desativar o usuário for criada e a solicitação de registro do fornecedor potencial e os dados que foram inseridos no assistente de registro do fornecedor foram excluídos. |
-| Solicitação de fornecedor criada   | O assistente de registro de fornecedor foi concluído. | Uma solicitação para desativar o usuário foi criada, e a solicitação de registro do fornecedor potencial, os dados que foram inseridos no assistente de registro do fornecedor e a solicitação de fornecedor foram excluídos.<blockquote>[!NOTE]<br>Você não pode usar a ação **Excluir** quando a solicitação do fornecedor estiver em um processo de revisão no fluxo de trabalho.</blockquote> |
-| Aprovada                 | A solicitação do fornecedor foi aprovada. | A solicitação de registro do fornecedor potencial, os dados que foram inseridos no assistente de registro do fornecedor e a solicitação do fornecedor foram excluídos. |
-| Rejeitada                 | A solicitação do fornecedor foi rejeitada. | A solicitação de registro do fornecedor potencial, os dados que foram inseridos no assistente de registro do fornecedor e a solicitação do fornecedor foram excluídos. |
+
+|          Status          |                                                                                     Descrição do status                                                                                      |                                                                                                                                                            Resultado da ação de exclusão                                                                                                                                                             |
+|--------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|           Nova            |                                                                         Nenhuma ação foi tomada em relação à solicitação.                                                                          |                                                                                                                                              A solicitação de registro do fornecedor potencial foi excluída.                                                                                                                                               |
+|      Solicitado pelo usuário      | Quando você selecionar <strong>Convidar usuário</strong>, o status será alterado para <strong>Solicitado pelo usuário</strong>, e uma solicitação de usuário potencial é criada e enviada a um fluxo de trabalho do usuário. |                                                                                                          Você não pode excluir uma solicitação de registro de cliente potencial com este status, pois o fluxo de trabalho da solicitação do usuário não foi concluído.                                                                                                          |
+|       Usuário convidado       |                                                               O fluxo de trabalho da solicitaçãodo usuário foi aprovado e o usuário foi criado.                                                               |                                                                                                                      Uma solicitação para desativar o usuário foi criada e a solicitação de registro do fornecedor potencial foi excluída.                                                                                                                      |
+| Registro em andamento |                                                         O novo usuário se conectou e iniciou o assistente de registro de fornecedor.                                                          |                                                                                     Uma solicitação para desativar o usuário for criada e a solicitação de registro do fornecedor potencial e os dados que foram inseridos no assistente de registro do fornecedor foram excluídos.                                                                                      |
+|  Solicitação de fornecedor criada  |                                                                     O assistente de registro de fornecedor foi concluído.                                                                      | Uma solicitação para desativar o usuário foi criada, e a solicitação de registro do fornecedor potencial, os dados que foram inseridos no assistente de registro do fornecedor e a solicitação de fornecedor foram excluídos.<blockquote>[!NOTE]<br>Você não pode usar a ação <strong>Excluir</strong> quando a solicitação do fornecedor estiver em um processo de revisão no fluxo de trabalho.</blockquote> |
+|         Aprovada         |                                                                               A solicitação do fornecedor foi aprovada.                                                                               |                                                                                                   A solicitação de registro do fornecedor potencial, os dados que foram inseridos no assistente de registro do fornecedor e a solicitação do fornecedor foram excluídos.                                                                                                    |
+|         Rejeitada         |                                                                               A solicitação do fornecedor foi rejeitada.                                                                               |                                                                                                   A solicitação de registro do fornecedor potencial, os dados que foram inseridos no assistente de registro do fornecedor e a solicitação do fornecedor foram excluídos.                                                                                                    |
+
 

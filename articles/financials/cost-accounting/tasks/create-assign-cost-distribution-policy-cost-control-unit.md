@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a>Criar e atribuir uma política de distribuição de custos para uma unidade de controle de custos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 As regras de distribuição de custos são usadas para distribuir custos que foram contados financeiramente em um centro de custos coletivo. O contador de custos garante que o custo é distribuído para os centros de custos, de acordo com a base de alocação selecionada. Uma política e as regras correspondentes são atribuídas a uma unidade de controle de custo. Este guia de tarefas usa um exemplo para mostrar como criar uma política de distribuição de custos e as regras correspondentes.
 

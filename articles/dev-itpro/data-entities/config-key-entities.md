@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configuration-keys-and-data-entities"></a>Chaves de configuração e entidades de dados
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Antes de usar entidades de dados para importar ou exportar dados, recomendamos que primeiro determine o impacto de chaves de configuração nas entidades de dados que você pretende usar. 
 

@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 468227e40165fa37e9ce80d5f52ded8e9094e5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a0a28ba5072d55b8133f5458f75befa752a3dcdf
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="production-parameters-in-manufacturing-execution"></a>Parâmetros de produção em Execução de fabricação
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre a configuração dos parâmetros de produção na execução da fabricação.
 
@@ -69,17 +69,17 @@ Para cada estágio, o campo **Consumo automático de BOM** permite selecionar um
 
 - **Princípio de liberação** – Esta opção é usada em combinação com uma opção definida para a lista de materiais no módulo **Produção**. Clique em **Controle de produção** &gt; **Comum** &gt; **Ordens de produção** &gt; **Todas as ordens de produção**. Na página **Todas as ordens de produção**, selecione uma ordem de produção na lista e, em seguida, no painel de ações, clique em **BOM**. Na página **BOM**, na guia **Configuração**, no campo **Princípio de liberação**, selecione uma destas opções:
 
-    - **Iniciar**
-    - **Concluir**
-    - **Manual**
-    - Em branco - nenhuma opção está selecionada.
-    - **Disponível no local**
+  - **Iniciar**
+  - **Concluir**
+  - **Manual**
+  - Em branco - nenhuma opção está selecionada.
+  - **Disponível no local**
 
     Em Execução de fabricação, se **Princípio de liberação** estiver selecionado no campo **Consumo automático de BOM** na guia **Início**, todos os materiais que estão definidos como **Início** na BOM são deduzidos do estoque quando a operação for iniciada. A opção **Disponível no local** é usada para os produtos que são habilitados para processos avançados de depósito. Se você selecionar este princípio de liberação, o material é liberado quando o trabalho do depósito para a escolha da matéria-prima estiver concluído. O material também é liberado quando uma linha de lista de materiais que usa este princípio de liberação é liberada para depósito e o material está disponível no local de entrada de produção.
-    
+
     > [!NOTE]
     > Se o campo **Princípio de liberação** for definido na guia **Iniciar** na execução de Fabricação, selecione o mesmo princípio na guia **Operações** ou na guia **Relatório de conclusão**. Este requisito ajuda a garantir que os materiais são deduzidos do estoque nas BOMs que usam **Finalizar** como princípio de liberação na ordem de produção. Se o mesmo princípio de liberação não for selecionado na guia **Operações** ou **Relatar como concluído**, os materiais podem ser deduzidos do estoque duas vezes.
- 
+
 - **Sempre** – Se você selecionar esta opção para uma fase, os materiais são deduzidos do estoque nessa fase. Por exemplo, os materiais da produção serão deduzidos quando a ordem de produção for iniciada. Esta configuração exige que **Nunca** seja selecionado nas guias **Operações** e **Relatar como concluído**. Este requisito ajuda a evitar que itens sejam deduzidos do estoque duas vezes.
 - **Nunca** – Se você selecionar esta opção para uma fase, nenhum consumo de BOM ocorrerá neste estágio. Por exemplo, se você selecionar **Nunca** em todas as três guias (**Iniciar**, **Operações**, e **Relatar como concluído**), os materiais devem ser manualmente deduzidos do estoque.
 
@@ -146,11 +146,13 @@ Com base nas seleções descritas anteriormente nesta seção, os diários de li
 
 Você pode usar as seguintes configurações se os materiais sempre devem ser deduzidos manualmente do inventário. Neste caso, os diários de lista de separação não são lançados.
 
-| Guia                | Campo                          | Configuração    |
-|--------------------|--------------------------------|------------|
-| Início              | Atualizar inicialização online           | **Status** |
-| Início              | Consumo automático de BOM      | **Nunca**  |
-| Operations         | Consumo automático de BOM      | **Nunca**  |
-| Relatório de conclusão | Consumo automático de BOM      | **Nunca**  |
-| Relatório de conclusão | Atualizar relatório concluído online | **Status** |
+
+|        Guia         |             Campo              |         Configuração         |
+|--------------------|--------------------------------|-------------------------|
+|       Início        |      Atualizar inicialização online      | <strong>Status</strong> |
+|       Início        |   Consumo automático de BOM    | <strong>Nunca</strong>  |
+|     Operations     |   Consumo automático de BOM    | <strong>Nunca</strong>  |
+| Relatório de conclusão |   Consumo automático de BOM    | <strong>Nunca</strong>  |
+| Relatório de conclusão | Atualizar relatório concluído online | <strong>Status</strong> |
+
 

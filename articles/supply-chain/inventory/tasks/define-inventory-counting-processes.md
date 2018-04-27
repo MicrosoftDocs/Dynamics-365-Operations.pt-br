@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-inventory-counting-processes"></a>Definir processos de contagem de estoque
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra a configuração dos processos de contagem básicos de estoque criando um grupo de contagem e um diário de contagem. Ele também mostra como habilitar diretivas de contagem em um nível de depósito e do item. Essas tarefas normalmente seriam realizadas por um supervisor do depósito. É um pré-requisito para alguns produtos liberados e depósitos existentes. Se você for utilizar uma empresa de dados demonstrativos, você pode executar esse procedimento na empresa USMF com qualquer item em estoque.
 

@@ -19,17 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-overview"></a>Visão geral do planejamento de orçamento
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo apresenta planejamento de orçamento e contém informações para ajudar a configurar o planejamento de orçamento e a definir os processos de planejamento de orçamento.
 
@@ -116,18 +115,18 @@ No plano do orçamento, você pode alocar os valores ou quantidades nas linhas d
 
 Os planos de agendamento alocam linhas do plano de orçamento durante o processamento do fluxo de trabalho. Você pode executar alocações ao usar um dos métodos a seguir na lista **Método de alocação**:
 
--   **Alocar entre períodos** - É possível usar uma chave de alocação para alocar as linhas do plano de orçamento do cenário do plano orçamento de origem entre períodos no cenário de destino. **Observação:** Antes que você possa alocar nos períodos, você deve definir chaves de alocação do período na página ****Categorias de alocação do período****.
--   **Alocar para dimensões** – As linhas do plano de orçamento são alocadas desde o cenário do plano de orçamento de origem nas dimensões financeiras do cenário de destino. **Observação:** Antes que você possa alocar para dimensões, é necessário configurar condições de alocação de orçamento na página ****Condições de alocação de orçamento****.
--   **Agregar** – As linhas do plano do orçamento são agregadas a partir do cenário do plano de orçamento de origem são associadas aos planos de orçamento para o cenário de destino no plano de orçamento pai.
--   **Distribuir** – As linhas do plano de orçamento são distribuídas desde o cenário do plano de orçamento de origem no plano de orçamento principal para o cenário de destino nos planos de orçamento associados.
--   **Usar regras de alocação do razão** – As linhas do plano de orçamento são distribuídas a partir do cenário do plano de orçamento de origem para o cenário de destino, com base na regra de alocação do razão selecionada.
--   **Cópia do plano de orçamento** – É possível selecionar outro plano do orçamento para usar como origem da alocação.
+- <strong>Alocar entre períodos</strong> - É possível usar uma chave de alocação para alocar as linhas do plano de orçamento do cenário do plano orçamento de origem entre períodos no cenário de destino. <strong>Observação:</strong> antes que possa alocar nos períodos, você deve definir chaves de alocação de período na página *<strong><em>Categorias de alocação de período</em></strong>*.
+- <strong>Alocar para dimensões</strong> – As linhas do plano de orçamento são alocadas desde o cenário do plano de orçamento de origem nas dimensões financeiras do cenário de destino. <strong>Observação:</strong> antes que você possa alocar para dimensões, é necessário configurar as condições de alocação de orçamento na página *<strong><em>Condições de alocação de orçamento</em></strong>*.
+- **Agregar** – As linhas do plano do orçamento são agregadas a partir do cenário do plano de orçamento de origem são associadas aos planos de orçamento para o cenário de destino no plano de orçamento pai.
+- **Distribuir** – As linhas do plano de orçamento são distribuídas desde o cenário do plano de orçamento de origem no plano de orçamento principal para o cenário de destino nos planos de orçamento associados.
+- **Usar regras de alocação do razão** – As linhas do plano de orçamento são distribuídas a partir do cenário do plano de orçamento de origem para o cenário de destino, com base na regra de alocação do razão selecionada.
+- **Cópia do plano de orçamento** – É possível selecionar outro plano do orçamento para usar como origem da alocação.
 
 ### <a name="stage-allocations"></a>Alocações de fase
 
 As alocações do estágio são usadas para alocar automaticamente as linhas do plano de orçamento durante o processamento do fluxo de trabalho. Quando as alocações do estágio são usadas, as linhas do plano de orçamento no destino podem ser criadas e modificadas sem a intervenção do preparador ou do revisor do plano de orçamento para criar as linhas.
 
-Ao configurar uma alocação de estágio, você associa o fluxo de trabalho e o estágio do planejamento de orçamento à agenda de alocação. O fluxo de trabalho do planejamento de orçamento deve estar associado a um fluxo de trabalho de orçamento que usa a tarefa de fluxo de trabalho automatizada ****Alocação do estágio de plano do orçamento****. Quando o fluxo de trabalho atingir o estágio especificado, a alocação ocorrerá automaticamente. Essa tarefa automatizada pode ser usada para criar linhas do plano de orçamento em um novo cenário. 
+Ao configurar uma alocação de estágio, você associa o fluxo de trabalho e o estágio do planejamento de orçamento à agenda de alocação. O fluxo de trabalho do planejamento de orçamento deve estar associado a um fluxo de trabalho de orçamento que use a tarefa de fluxo de trabalho automatizada *<strong><em>Alocação de fase do planejamento de orçamento</em></strong>*. Quando o fluxo de trabalho atingir o estágio especificado, a alocação ocorrerá automaticamente. Essa tarefa automatizada pode ser usada para criar linhas do plano de orçamento em um novo cenário. 
 
 No esquema do exemplo anteriormente exibido neste artigo, uma alocação será executada para transferir valores de um plano de orçamento e os cenários no estágio da linha de base da matriz para outro plano de orçamento e os cenários no estágio Estimativa do departamento de vendas. A ilustração a seguir mostra a seção relevante do esquema de exemplo.
 

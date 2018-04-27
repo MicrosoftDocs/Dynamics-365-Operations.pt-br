@@ -26,14 +26,14 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Introdução ao Microsoft Dynamics 365 for Talent
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 No Microsoft Dynamics 365 for Talent, é fácil alterar a interface de usuário e definir opções que tornam o software mais intuitivo para suas necessidades. Este tópico inclui links para tópicos que fornecem informações sobre como adaptar a interface de usuário às suas preferências. O tópico também inclui links para informações que podem ajudá-lo a encontrar informações no sistema, de forma eficaz e precisa. 
 
 > [!NOTE] 
 > Os produtos a seguir estão intimamente relacionados: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail e Dynamics 365 for Talent. Todos os 3 produtos podem conter a mesma funcionalidade. Como resultado, para tópicos relacionados principalmente a varejo, o nome do produto será Dynamics 365 for Retail; para tópicos relacionados principalmente a talentos, o nome do produto será Dynamics 365 for Talent; para tópicos relacionados ao produto principal, o nome do produto será Dynamics 365 for Finance and Operations. Os tópicos redigidos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
 
-### <a name="personalizing-talent"></a>Personalizando o Talent 
+## <a name="personalizing-talent"></a>Personalizando o Talent 
 Os tópicos a seguir mostram como configurar vários recursos no Dynamics 365 for Talent que facilitam e agilizam seu trabalho. 
 
 -   [Personalize a experiência do usuário](../fin-and-ops/get-started/personalize-user-experience.md) - Este tópico explica as formas diferentes de personalizar o Talent e adaptar partes do produto de acordo com suas preferências.
@@ -44,7 +44,7 @@ Os tópicos a seguir mostram como configurar vários recursos no Dynamics 365 fo
 
 -   [Atalhos de teclado](../fin-and-ops/get-started/shortcut-keys.md) - Este tópico lista atalhos de teclado para o layout de teclado dos Estados Unidos. 
 
-### <a name="accessing-information"></a>Acessando informações
+## <a name="accessing-information"></a>Acessando informações
 Os tópicos a seguir explicam como usar pesquisas, bem como os recursos de pesquisa e filtragem, para encontrar rapidamente informações. 
 
 -   [Use pesquisas para encontrar informações](../fin-and-ops/get-started/use-lookups-to-find-information.md) - Esse tópico mostra como as pesquisas podem ajudar a encontrar rapidamente o valor correto ou desejado. O tópico descreve como as pesquisas funcionam e inclui dicas para ajudá-lo a otimizar seu uso.

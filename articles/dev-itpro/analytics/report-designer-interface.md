@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-designer-interface"></a>Interface do Designer de Relatórios
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo explica como navegar através do Designer de relatórios e como usar as diversas opções para atender a necessidades específicas. 
 

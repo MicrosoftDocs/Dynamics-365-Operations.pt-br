@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a>Atributos, grupos de atributos e suas associações com várias entidades de varejo no Finance and Operations
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Os *Atributos* fornecem uma maneira de descrever melhor um produto e suas características por meio de campos definidos pelo usuário (como **Tamanho da memória**, **Capacidade do disco rígido**, **Compatível com Energy Star** etc). No Microsoft Dynamics 365 for Finance and Operations, os atributos podem ser associados a várias entidades do Retail, como categorias de produto e canais de varejo; além disso, é possível definir valores padrão para eles. Os produtos então herdam os atributos e os valores padrão quando são associados às categorias de produto ou aos canais de varejo. Os valores padrão podem ser substituídos no nível do produto individual, do canal de varejo ou em um catálogo de varejo.
  
@@ -227,13 +227,13 @@ Os valores padrão de atributos podem ser substituídos para produtos individuai
 5. Na Guia Rápida **Produtos**, selecione o produto obrigatório e, em seguida, selecione **Atributos** acima da grade do produto.
 6. Nas seguintes Guias Rápidas, atualize os valores dos atributos obrigatórios:
 
-    - Mídia do produto compartilhado
-    - Atributos do produto compartilhado
-    - Mídia do canal
-    - Atributos de produto do canal
+   - Mídia do produto compartilhado
+   - Atributos do produto compartilhado
+   - Mídia do canal
+   - Atributos de produto do canal
 
-    > [!NOTE]
-    > Se a mídia de produto e os atributos de produto compartilhados forem criados no Finance and Operations, se aplicarão a todos os produtos de varejo.
+     > [!NOTE]
+     > Se a mídia de produto e os atributos de produto compartilhados forem criados no Finance and Operations, se aplicarão a todos os produtos de varejo.
 
 ![Grupos de atributos de produto do catálogo](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ Os valores padrão de atributos podem ser substituídos para produtos individuai
 
 5. Nas seguintes Guias Rápidas, atualize os valores dos atributos obrigatórios:
 
-    - Mídia do produto compartilhado
-    - Atributos do produto compartilhado
-    - Mídia do canal
-    - Atributos de produto do canal
+   - Mídia do produto compartilhado
+   - Atributos do produto compartilhado
+   - Mídia do canal
+   - Atributos de produto do canal
 
-    > [!NOTE]
-    > Se a mídia de produto e os atributos de produto compartilhados forem criados no Finance and Operations, se aplicarão a todos os produtos de varejo.
+     > [!NOTE]
+     > Se a mídia de produto e os atributos de produto compartilhados forem criados no Finance and Operations, se aplicarão a todos os produtos de varejo.
 

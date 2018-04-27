@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-requisition-that-uses-an-rfq"></a>Criar uma requisição que use um RFQ
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este guia mostra como adicionar o preço e a informação do vendedor a uma requisição da compra de um processo do RFQ. O exemplo mostrado neste guia pode ser usado na empresa dos dados do programa demonstrativo de USMF, e você entrar como um Admin para terminar todas as etapas. As tarefas neste guia seriam feitas tipicamente por profissionais da obtenção.
 

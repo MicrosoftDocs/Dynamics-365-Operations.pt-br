@@ -25,7 +25,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="rename-or-modify-a-project-stage"></a>Renomear ou modificar um estágio do projeto
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 As fases do projeto podem servir como um guia do ciclo de vida do projeto. Você pode definir os estágios do projeto que deseja incluir nos projetos na área Estágio do projeto na página Parâmetros de gerenciamento e contabilidade de projetos. O Dynamics 365 for Finance and Operations fornece cinco estágios predefinidos de projeto e três estágios definidos pelo usuário. Você pode atualizar o nome de um estágio de projeto que está usando para rastrear o andamento de projetos. Você também pode fornecer nomes para nomes de status definidos pelo usuário. Essa tarefa mostra como renomear ou modificar o estágio de projeto, e usa o conjunto de dados USSI.
 

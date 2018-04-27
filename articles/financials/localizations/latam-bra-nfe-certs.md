@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="nf-e-certificates"></a>Certificados de NF-e
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Na localização brasileira, você deve gerar uma Nota Fiscal eletrônica (NF-e) para registrar a movimentação de itens e serviços entre duas partes.
 A nota fiscal de NF-e deve ser assinada e transmitida à autoridade fiscal do estado usando um certificado de cliente que é emitido por uma autoridade de certificação (CA) brasileira.

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Bases de alocação 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Uma base de alocação é a base na qual a contabilização de custo aloca custos gerais indiretos. Uma base de alocação pode ser uma quantidade, como as horas de máquina usadas, as horas de quilowatt (kWh) que são consumidos ou a, área que está ocupada. As bases de alocação são muito usadas para atribuir custos gerais indiretos ao estoque produzido. Por exemplo, um departamento de TI aloca as despesas de acordo com o número de computadores que cada departamento usa.
 
@@ -424,9 +424,11 @@ Aqui está uma análise atenta da fórmula para CC003 (TI):
 
 Aqui está um exemplo de uma regra de distribuição de custo, se a base de alocação da fórmula fixa Eletricidade for atribuída como a base de alocação nela.
 
-| Objeto de custo |  descrição  | Magnitude | Fator de alocação                |
-|-------------|----|-----------|----------------------------------|
-| CC001       | RH | 1,837.50  | (1.837,50 ÷ 18.162,50) × valor  |
-| CC002       | FI | 3,075.00  | (3.075,00 ÷ 18.162,50) × valor  |
-| CC003       | TE | 13,250.00 | (13.250,00 ÷ 18.162,50) × valor |
+
+| Objeto de custo | descrição | Magnitude |        Fator de alocação         |
+|-------------|-------------|-----------|----------------------------------|
+|    CC001    |     RH      | 1,837.50  | (1.837,50 ÷ 18.162,50) × valor  |
+|    CC002    |     FI      | 3,075.00  | (3.075,00 ÷ 18.162,50) × valor  |
+|    CC003    |     TE      | 13,250.00 | (13.250,00 ÷ 18.162,50) × valor |
+
 

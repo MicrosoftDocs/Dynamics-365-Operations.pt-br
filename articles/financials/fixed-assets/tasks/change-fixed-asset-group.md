@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-a-fixed-asset-group"></a>Alterar um grupo de ativos fixos
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Os ativos fixos devem ser atribuídos ao grupo correto de ativos fixos. O grupo de ativos fixos é usado quando você:
 

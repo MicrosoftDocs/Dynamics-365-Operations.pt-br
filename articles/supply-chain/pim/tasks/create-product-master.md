@@ -24,7 +24,7 @@ ms.lasthandoff: 10/25/2017
 ---
 # <a name="create-a-product-master"></a>Criar um produto mestre
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Crie um produto mestre para as variáveis predefinidas. A empresa de dados demo usada para criar este procedimento é USMF. Este procedimento é voltado ao designer de produtos.
 

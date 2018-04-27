@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-application-inbox-records"></a>Aprovar registros da caixa de entrada de solicitações de emprego
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como revisar solicitações de emprego recebidas nas páginas de autosserviço do funcionário. Além de examinar solicitações de emprego, é possível aprovar a solicitação de emprego nos registros de caixa selecionado. Os registros de inbox de aplicativo representam as solicitações de emprego enviadas para a empresa para consideração. Após a aprovação de um registro do candidato, um registro será criado para a pessoa que enviou a solicitação de emprego. A empresa de dados demo usada para criar este procedimento é USMF.
 

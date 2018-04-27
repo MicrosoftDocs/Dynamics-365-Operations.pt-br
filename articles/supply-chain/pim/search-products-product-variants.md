@@ -20,18 +20,18 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 08715b4c31c42dfa23d72b1035a1e7cc737c13a2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2441f7cbf95512677f62eb862be99af90f3c4b17
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>Procurar produtos e grades de produtos durante uma entrada de ordem
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 Use o campo <strong>Número de item </strong>para procurar produtos e grades de produtos ao criar manualmente uma linha de ordem de venda ou uma linha de ordem de compra.  Isso permite que você encontre rapidamente grades de produto quando você tem somente a cadeia de caracteres de configuração ou uma das dimensões de produto disponíveis.
 
@@ -72,7 +72,7 @@ Os exemplos de identificadores e dimensões de produto e grade de produto pelos 
 
 Vá para a página **Vendas e marketing &gt; Configuração &gt; Pesquisa &gt; Critérios de pesquisa**. A página **Critérios de pesquisa** permite definir os critérios para pesquisa de cliente, cliente potencial e produto. Não deixe de filtrar a página usando critérios de pesquisa de produto. Você pode fazê-lo alternando para **Produto** no menu da página.  
 
-Para adicionar o número do produto de exibição aos critérios de pesquisa, clique em **Novo** no menu da página. Isto irá adicionar um novo registro na grade **critérios de pesquisa**. Abra a pesquisa da coluna **Nome do campo** e selecione **DisplayProductNumber**. Para adicionar a configuração do produto aos critérios de pesquisa, crie um novo registro na grade **Critérios de pesquisa** e escolha **configId** na coluna **Nome do campo**. Da mesma forma, crie um registro com **Nome do campo** **InventColorId** para a dimensão de cor, **InventSizeId** para a dimensão de tamanho e **InventStyleId** para a dimensão de estilo.
+Para adicionar o número do produto de exibição aos critérios de pesquisa, clique em <strong>Novo</strong> no menu da página. Isto irá adicionar um novo registro na grade <strong>critérios de pesquisa</strong>. Abra a pesquisa da coluna <strong>Nome do campo</strong> e selecione <strong>DisplayProductNumber</strong>. Para adicionar a configuração do produto aos critérios de pesquisa, crie um novo registro na grade <strong>Critérios de pesquisa ** e escolha **configId</strong> na coluna <strong>Nome do campo</strong>. Da mesma forma, crie um registro com <strong>Nome do campo</strong> <strong>InventColorId</strong> para a dimensão de cor, <strong>InventSizeId</strong> para a dimensão de tamanho e <strong>InventStyleId</strong> para a dimensão de estilo.
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>2ª etapa: preencha o tabela de banco de dados que é usada na pesquisa de produto
 

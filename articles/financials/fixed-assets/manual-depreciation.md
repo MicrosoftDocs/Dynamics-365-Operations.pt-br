@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d7a672b80a0da7ab05acf5b5efe041f0f89c0042
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5081b3ff940167f305a6e17f97e246e5f8000185
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manual-depreciation"></a>Depreciação manual
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo fornece uma visão geral do método de depreciação manual.
 
@@ -67,7 +66,7 @@ Se você selecionar **Mensal** no campo**Frequência do período**, configurará
 | Janeiro  | (11.000 – 1.000) × 10% = 1.000 |
 | Fevereiro | (11.000 – 1.000) × 50% = 5.000 |
 
-Se você selecionar **Semestral** no campo ****Frequência do período**, você configurará dois intervalos manuais de planejamento. A tabela a seguir mostra os valores de depreciação para esses dois intervalos.
+Se você selecionar <strong>Semestral</strong> no campo *<strong><em>Frequência do período</em>*</strong>, você configurará dois intervalos manuais de agendamento. A tabela a seguir mostra os valores de depreciação para esses dois intervalos.
 
 | Intervalo    | Valor de depreciação            |
 |-------------|--------------------------------|

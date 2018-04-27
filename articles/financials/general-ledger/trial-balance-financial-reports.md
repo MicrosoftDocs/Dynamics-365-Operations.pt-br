@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="trial-balance-financial-reports"></a>Relatórios financeiros de balancete
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve os relatórios padrão para saldos de teste. Ele também descreve os blocos de construção que estão associados a esses relatórios e como você pode modificar os relatórios para atender às suas necessidades de negócios. 
 
@@ -99,7 +98,7 @@ Cada relatório do balancete usa uma definição da coluna diferente. Essas defi
     -   **DF** – Dados financeiros que contêm somente os débitos para o ano anterior
     -   **DF** – Dados financeiros que contêm somente os créditos do ano anterior
 
- 
+
 
 <a name="see-also"></a>Consulte também
 --------

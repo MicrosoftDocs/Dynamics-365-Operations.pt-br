@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reserve-inventory-quantities"></a>Reservar quantidades do estoque
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico descreve as diferentes opções disponíveis para reservar estoque.
 
@@ -50,6 +49,7 @@ Políticas de reserva de estoque estão definidas na página **Grupos de modelo 
 ### <a name="policies-on-the-item-model-groups-page"></a>Políticas na página Grupos de modelo do item
 
 A seção **Políticas de estoque** contém as seguintes políticas de reserva.
+
 |                         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Política de reserva**  | **Descrição**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -63,6 +63,7 @@ A seção **Políticas de estoque** contém as seguintes políticas de reserva.
 #### <a name="example-for-fifo-date-controlled-and-backward-from-ship-date"></a>Exemplo para Controlado por data PEPS e Voltar a partir da data de remessa
 
 Neste exemplo, o estoque disponível para o número de item A existe para três números de lote diferentes.
+
 | Nº de itens | Nº do lote | Quantidade | Data             |
 |-------------|--------------|----------|------------------|
 | A           | 1000         | 5        | 2 de fevereiro de 2016 |

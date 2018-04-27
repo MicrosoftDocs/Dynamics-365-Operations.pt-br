@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>Insira a conta e as combinações de dimensões (controle segmentado de entradas)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve como inserir a conta e as combinações de dimensões ou contas contábeis. A experiência de entrada é também conhecida como o controle segmentado de entrada.
 
@@ -112,7 +111,7 @@ A tabela a seguir descreve os atalhos de teclado que podem ser usados quando a p
 </tbody>
 </table>
 
- 
+
 
 
 

@@ -27,9 +27,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="purchase-order-approval-mobile-workspace"></a>Área de trabalho móvel para aprovação de ordem de compra
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 Este tópico fornece informações sobre a área de trabalho móvel de **Aprovação de ordem de compra**. Esta área de trabalho permite que você veja pedidos e responda através de ações. Por exemplo, você pode aprovar ou rejeitar uma ordem de compra.
  

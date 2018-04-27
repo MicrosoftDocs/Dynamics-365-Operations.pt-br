@@ -24,7 +24,7 @@ ms.lasthandoff: 02/13/2018
 ---
 # <a name="create-routes-february-2016-only"></a>Criar roteiros (apenas fevereiro de 2016)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarefa se concentra na criação dos roteiros de produção para produtos finalizados e semifinalizados. Trata-se da quinta tarefa na série de cálculo BOM. A empresa de dados demo usada para criar esta tarefa é USMF.
 

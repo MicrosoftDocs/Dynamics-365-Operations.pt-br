@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>Configurar uma hierarquia de categorias de compras
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar novos nós em uma hierarquia de categorias de aquisição e como configurar uma categoria de aquisição para ser usada em um processo de aquisição. Essas tarefas são normalmente realizadas por um Gerente de compras. Antes que você possa começar esse procedimento, é necessário que exista uma hierarquia de categoria do tipo Aquisição. Se você for utilizar uma empresa de dados demonstrativos, é possível executar esse procedimento na empresa USMF.
 

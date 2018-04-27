@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-prerequisites-for-management"></a>Configurar pré-requisitos para gerenciamento
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimento para habilitar processos de gerenciamento de não conformidade. Uma não conformidade descreve um item ou um procedimento com um problema de qualidade, na qual as informações descritivas incluem a origem e o tipo do problema. Este procedimento usa a empresa de dados de demonstração USMF. Esse procedimento geralmente é realizado por um gerente de qualidade.
 

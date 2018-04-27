@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="vendor-rebates"></a>Reembolsos de fornecedor
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Os reembolsos de fornecedor ajudam as empresas a gerenciar melhor seus programas de reembolsos do fornecedor, automatizando as tarefas que são necessárias para administrar, rastrear e solicitar reembolsos que são obtidos.
 

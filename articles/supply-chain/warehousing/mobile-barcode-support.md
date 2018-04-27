@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-bar-code-support"></a>Suporte a código de barras em dispositivos móveis
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Como o Android é um projeto de origem aberta, qualquer fabricante de hardware de scanners de código de barras de depósito pode criar um dispositivo para executar o sistema operacional do Android. Um dispositivo só é compatível com o Android quando pode executar aplicativos escritos para o ambiente de execução do Android.
 Entretanto, um fornecedor de hardware pode modificar e criar as sobreposições para a versão do Android executada em seu hardware. A Microsoft não tem responsabilidade por garantir que um aplicativo móvel de digitalização de códigos de barras para Android seja compatível com o hardware de digitalização de códigos de barras de um fabricante e a versão do Android executada nele. 

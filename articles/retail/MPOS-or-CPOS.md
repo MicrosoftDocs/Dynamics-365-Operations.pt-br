@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>Escolha entre Modern POS e PDV em Nuvem
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tópico oferece orientação, dicas e experiência adicional de implementadores sobre fatores que devem ser considerados ao implantar o Microsoft Dynamics 365 for Retail. Ao examinar e seguir essas orientações como parte do processo de implantação, os implementadores poderão evitar problemas que possam afetar o desempenho e a satisfação do usuário.
 
@@ -92,8 +92,8 @@ Considere as seguintes informações enquanto planeja sua implementação de PDV
 
     A menos que a conectividade de um dispositivo fornecido seja muito segura e resiliente, ou a menos que um determinado tempo de inatividade seja aceitável para o varejista, recomendamos uma das seguintes opções:
 
-    - Use MPOS no Windows e ative o modo offline.
-    - Implante uma RSSU local.
+  - Use MPOS no Windows e ative o modo offline.
+  - Implante uma RSSU local.
 
     Essas duas opções não são mutuamente exclusivas. Para a topologia mais confiável, os varejistas podem implantar uma RSSU local para reduzir a dependência da conectividade com a Internet ou a disponibilidade do Azure. Também é possível implantar registros de PDV onde o modo offline estiver ativado se houver um problema com o servidor ou rede local.
 

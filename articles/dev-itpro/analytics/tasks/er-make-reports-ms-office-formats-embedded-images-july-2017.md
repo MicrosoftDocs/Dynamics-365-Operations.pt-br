@@ -1,5 +1,5 @@
 --- 
-title: "Criar configurações para gerar relatórios em formatos do Microsoft Office com imagens incorporadas para relatório eletrônico (ER) (Parte 1)"
+title: "Criar configurações para gerar relatórios em formatos do Microsoft Office com imagens incorporadas"
 description: "As etapas neste tópico fornecem informações sobre como criar as configurações do relatório eletrônico (ER) que geram documentos eletrônicos nos formatos Microsoft Office (Excel e Word) que contêm imagens incorporadas."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
-ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5e3ba5c76df3dcc5042074a565d102ceaeeadfb0
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>Criar configurações para gerar relatórios em formatos do Microsoft Office com imagens incorporadas para relatório eletrônico (ER) (Parte 1) 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>Criar configurações para gerar relatórios em formatos do Microsoft Office com imagens incorporadas
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Para concluir as etapas neste procedimento, você deve primeiro concluir o procedimento, "ER Criar um provedor de configuração e marcá-lo como ativo". Este procedimento explica como criar as configurações do relatório eletrônico (ER) para gerar um documento do Microsoft Excel ou Word que contenha imagens incorporadas. Nesse procedimento, você criará as configurações de ER necessárias para a empresa de exemplo, a Litware, Inc. Essas etapas podem ser concluídas usando o conjunto de dados USMF. Este procedimento é criado para usuários com a função atribuída de administrador do sistema ou desenvolvedor de relatório eletrônico. Antes de começar, baixe e salve os arquivos listados no tópico da Ajuda [Incorporar imagens e formas em documentos comerciais gerados com a ferramenta de relatório eletrônico](../electronic-reporting-embed-images-shapes.md). Os arquivos são: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png, e Cheque template Word.docx.
 

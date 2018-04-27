@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>Atualizar planejamento de orçamento
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Há diferenças significativas no planejamento de orçamento entre o Microsoft Dynamics AX 2012 e o Microsoft Dynamics 365 for Finance and Operations. Alguns recursos não foram atualizados e, portanto, não requerem reconfiguração. Este tópico explica o que deve ser reconfigurado e também descreve os novos recursos que devem ser considerados após a conclusão da atualização.  
 
@@ -70,26 +69,27 @@ Para ajudar a determinar como configurar o sistema atualizado, o exemplo a segui
 
 ### <a name="define-columns-and-layouts"></a>Definir colunas e layouts
 
-1.  Na página **Configuração de planejamento de orçamento**, clique na guia **Colunas**. Como parte da atualização, novas colunas são criadas automaticamente com base nas suas linhas de plano de orçamento. Agora as colunas usam datas dinâmicas, quando o tempo e o ano são compensados a partir do ano fiscal definido no processo de planejamento de orçamento. **Observação:** por razões de desempenho durante a atualização, presume-se que todos os ciclos de orçamento representem anos civis, não anos fiscais. Se usar anos fiscais, você deve fazer edições para mapear corretamente as colunas para o seu ano fiscal. Por exemplo, os seguintes elementos existiam no AX 2012:
-    -   Cenários do plano de orçamento: valores reais, linha de base, solicitação de orçamento, orçamento aprovado
-    -   Linhas de plano de orçamento para todos os cenários em 2017 e valores reais para 2017 e 2016
+1. Na página **Configuração de planejamento de orçamento**, clique na guia **Colunas**. Como parte da atualização, novas colunas são criadas automaticamente com base nas suas linhas de plano de orçamento. Agora as colunas usam datas dinâmicas, quando o tempo e o ano são compensados a partir do ano fiscal definido no processo de planejamento de orçamento. **Observação:** por razões de desempenho durante a atualização, presume-se que todos os ciclos de orçamento representem anos civis, não anos fiscais. Se usar anos fiscais, você deve fazer edições para mapear corretamente as colunas para o seu ano fiscal. Por exemplo, os seguintes elementos existiam no AX 2012:
+   -   Cenários do plano de orçamento: valores reais, linha de base, solicitação de orçamento, orçamento aprovado
+   -   Linhas de plano de orçamento para todos os cenários em 2017 e valores reais para 2017 e 2016
 
-    As seguintes colunas serão criadas no Finanças e Operações:
-    | Nome da coluna    | Cenário do plano de orçamento | Período de tempo da coluna | Compensação anual |
-    |----------------|----------------------|--------------------|-------------|
-    | Cenário de Janeiro 1 | Reais              | 1                  | 0           |
-    | Cenário de Janeiro 2 | Linha de base             | 1                  | 0           |
-    | Cenário de Janeiro 3 | Solicitação de orçamento       | 1                  | 0           |
-    | Cenário de Janeiro 4 | Orçamento aprovado      | 1                  | 0           |
-    | Cenário de Janeiro 5 | Reais              | 1                  | -1          |
-    | Cenário de fevereiro 1 | Reais              | 1                  | 0           |
-    | ...            | ...                  | ...                | ...         |
+   As seguintes colunas serão criadas no Finanças e Operações:
 
-    Neste exemplo, uma coluna nomeada **Cenário de Janeiro 1** é criada para os dados de transação de plano de orçamento mais recentes encontrados quando há transações em janeiro. Uma coluna semelhante é criada para cada cenário com dados. Quando houver colunas para todos os períodos desse ano, serão criadas colunas para os anos anteriores.
-2.  Altere os nomes e as descrições da coluna e qualquer outro detalhe manualmente no cliente ou realizando atualizações em massa por meio do suplemento do Excel que indica a entidade de dados das colunas de plano de orçamento. Qualquer filtro definido anteriormente para campos de matriz agora é definido nas colunas.
-3.  Crie um layout de plano de orçamento. Um layout indica várias colunas para definir a exibição que aparece no Excel e no cliente. O layout requer primeiramente que você especifique o conjunto de dimensões contábeis para determinar quais dimensões financeiras podem ser inseridas. Após a especificação do conjunto de dimensões, clique em **Descrições** para selecionar as descrições de dimensão a serem incluídas no layout.
-4.  Na Guia Rápida **Elementos do layout**, clique em **Adicionar** para adicionar os metadados de cada linha, como uma moeda, um comentário ou uma classe de orçamento que determina as linhas de receita versus despesa. Em seguida, adicione as colunas do período de tempo e os cenários que se aplicam a esse clico e fase de orçamento. Você pode fazer essas alterações manualmente no cliente ou por meio do suplemento do Excel que indica a entidade de dados dos elementos de layout do plano de orçamento.
-5.  Para cada elemento do layout, determine se a coluna deve ser editável e se ela também deve aparecer na pasta de trabalho do Excel desse layout. **Observação:** no caso dos nossos planos históricos, talvez você deseje considerar um layout que mostre 12 colunas mensais para qualquer cenário de plano de orçamento desse processo.
+   | Nome da coluna    | Cenário do plano de orçamento | Período de tempo da coluna | Compensação anual |
+   |----------------|----------------------|--------------------|-------------|
+   | Cenário de Janeiro 1 | Reais              | 1                  | 0           |
+   | Cenário de Janeiro 2 | Linha de base             | 1                  | 0           |
+   | Cenário de Janeiro 3 | Solicitação de orçamento       | 1                  | 0           |
+   | Cenário de Janeiro 4 | Orçamento aprovado      | 1                  | 0           |
+   | Cenário de Janeiro 5 | Reais              | 1                  | -1          |
+   | Cenário de fevereiro 1 | Reais              | 1                  | 0           |
+   | ...            | ...                  | ...                | ...         |
+
+   Neste exemplo, uma coluna nomeada **Cenário de Janeiro 1** é criada para os dados de transação de plano de orçamento mais recentes encontrados quando há transações em janeiro. Uma coluna semelhante é criada para cada cenário com dados. Quando houver colunas para todos os períodos desse ano, serão criadas colunas para os anos anteriores.
+2. Altere os nomes e as descrições da coluna e qualquer outro detalhe manualmente no cliente ou realizando atualizações em massa por meio do suplemento do Excel que indica a entidade de dados das colunas de plano de orçamento. Qualquer filtro definido anteriormente para campos de matriz agora é definido nas colunas.
+3. Crie um layout de plano de orçamento. Um layout indica várias colunas para definir a exibição que aparece no Excel e no cliente. O layout requer primeiramente que você especifique o conjunto de dimensões contábeis para determinar quais dimensões financeiras podem ser inseridas. Após a especificação do conjunto de dimensões, clique em **Descrições** para selecionar as descrições de dimensão a serem incluídas no layout.
+4. Na Guia Rápida **Elementos do layout**, clique em **Adicionar** para adicionar os metadados de cada linha, como uma moeda, um comentário ou uma classe de orçamento que determina as linhas de receita versus despesa. Em seguida, adicione as colunas do período de tempo e os cenários que se aplicam a esse clico e fase de orçamento. Você pode fazer essas alterações manualmente no cliente ou por meio do suplemento do Excel que indica a entidade de dados dos elementos de layout do plano de orçamento.
+5. Para cada elemento do layout, determine se a coluna deve ser editável e se ela também deve aparecer na pasta de trabalho do Excel desse layout. **Observação:** no caso dos nossos planos históricos, talvez você deseje considerar um layout que mostre 12 colunas mensais para qualquer cenário de plano de orçamento desse processo.
 
 ### <a name="update-budget-planning-processes-to-use-the-appropriate-layout-for-each-budget-stage"></a>Atualizar processos de planejamento de orçamento para usar o layout apropriado de cada fase de orçamento
 

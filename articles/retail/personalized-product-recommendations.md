@@ -29,8 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personalized-product-recommendations-overview"></a>Visão geral de recomendações de produtos personalizados
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > Estamos removendo a versão atual do serviço de recomendação de produto, pois estamos remodelando esse recurso em um algoritmo melhor com recursos mais novos orientados ao varejo. Para obter mais informações consulte [Recursos removidos ou substituídos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). Navegue até a parte inferior da página se estiver enfrentando problemas com recomendações de produto já habilitadas para o seu ambiente. 
@@ -86,9 +85,9 @@ Quando você ativa **Habilitar recomendações** e executa os trabalhos de confi
 -   As credenciais de modelo e ID tornam-se disponíveis ao CRT para que as chamadas de recomendações de produto do Cloud POS e MPOS no modo online podem ser liquidadas.
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>Solucionar problemas em que as Recomendações de produto já estejam habilitadas 
->- Navegue até **Parâmetros de varejo** > **Aprendizado de máquina** > **Desabilitar recomendações de produtos** e execute **Trabalho de configuração global [1110]**. Se não conseguir localizar a guia **Aprendizado de máquina**, entre em contato com o suporte do Dynamics. 
-
->- Se você adicionou o **Controle de recomendações** à sua tela de transação usando o **Designer do layout da tela**, remova-o também. 
+> - Navegue até **Parâmetros de varejo** > **Aprendizado de máquina** > **Desabilitar recomendações de produtos** e execute **Trabalho de configuração global [1110]**. Se não conseguir localizar a guia **Aprendizado de máquina**, entre em contato com o suporte do Dynamics. 
+> 
+> - Se você adicionou o **Controle de recomendações** à sua tela de transação usando o **Designer do layout da tela**, remova-o também. 
 
 
 

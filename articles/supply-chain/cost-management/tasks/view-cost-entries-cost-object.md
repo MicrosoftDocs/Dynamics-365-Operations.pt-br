@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a>Exibir entradas de custo para um objeto de custo
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como exibir entradas de custo para um objeto de custo. A empresa de dados demo usada para criar este procedimento é USMF. Esse procedimento é criado para o controlador de custo.
 

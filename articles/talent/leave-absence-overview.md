@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="leave-and-absence-management-overview"></a>Visão geral do gerenciamento de licenças e ausências
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 O módulo **Gerenciamento de licenças e ausências** oferece uma estrutura flexível para definir o processo de gerenciamento de ausências. Planos de licenças e ausências podem ser criados para determinar como os funcionários acumulam ou recebem folgas. Depois que os funcionários são inscritos em um plano, eles podem enviar solicitações de folga para a aprovação dos gerentes. O rastreamento de licenças permite que gerentes de primeiro nível e gerentes de RH (Recursos Humanos) considerem quem está retirando folga e quantas folgas cada funcionário ainda tem.  
 

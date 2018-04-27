@@ -19,17 +19,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 6772c1d7906db27333206ea2ecd5a0585c3eb939
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0ddc9d43f62df937a6fb18e15c718c37442bb9b4
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-configuration-models-overview"></a>Visão geral dos modelos de configuração de produto
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Esse artigo define condições e conceitos que são relevantes para configuração de produtos. Modelos de configuração de produto permitem criar uma estrutura de produtos genérica que pode ser usada para definir diversas variantes de produto para um único produto.
 
@@ -142,7 +141,7 @@ Uma restrição de tabela definida pelo sistema representa um mapeamento entre u
 </tr>
 <tr class="even">
 <td>Linhas de BOM</td>
-<td>As linhas da BOM representam os materiais individuais dos componentes do modelo de configuração de produto. Na página <strong>Detalhes da linha de BOM</strong>, todos os itens estão disponíveis para seleção. Uma condição pode ser adicionada à linha de BOM para que as linhas de BOM selecionadas para uma variante de produto distinta possam variar, com base na seleção do usuário quando o modelo de configuração de produto é configurado. Condições são expressões que devem ser atendidas para os atributos, linhas da BOM, e as operações de roteiro a serem incluídas em um modelo de configuração de produto. Na página <strong>Detalhes da linha de BOM</strong>, selecione um valor distinto. Como alternativa, é possível mapear para um atributo para o qual o valor é selecionado quando o modelo de configuração de produto é configurado.</td>
+<td>As linhas da BOM representam os materiais individuais dos componentes do modelo de configuração de produto. Na página <strong>Detalhes da linha de BOM</strong>, todos os itens estão disponíveis para seleção. Uma condição pode ser adicionada à linha de BOM para que as linhas de BOM selecionadas para uma variante de produto distinta possam variar, com base na seleção do usuário quando o modelo de configuração de produto for configurado. Condições são expressões que devem ser atendidas para os atributos, linhas da BOM, e as operações de roteiro a serem incluídas em um modelo de configuração de produto. Na página <strong>Detalhes da linha de BOM</strong>, selecione um valor distinto. Como alternativa, é possível mapear para um atributo para o qual o valor é selecionado quando o modelo de configuração de produto é configurado.</td>
 </tr>
 <tr class="odd">
 <td>Operações de roteiro</td>

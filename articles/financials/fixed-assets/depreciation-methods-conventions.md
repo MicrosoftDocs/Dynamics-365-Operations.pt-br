@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="depreciation-methods-and-conventions"></a>Métodos e convenções de depreciação
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo oferece uma visão geral das convenções de depreciação e os métodos de depreciação com suporte no Microsoft Dynamics 365 for Finance and Operations.
 
@@ -62,7 +61,7 @@ Você pode selecionar um dos seguintes métodos de depreciação.
 -   Declínio de 150%
 -   Declínio de 125%
 
- 
+
 
 
 

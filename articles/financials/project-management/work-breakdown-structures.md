@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc2fa16a44b6421d56e9cb662cfaa26da5b1c5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="work-breakdown-structures"></a>Estruturas de detalhamento de trabalho
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Uma estrutura de detalhamento de trabalho (WBS) é uma descrição do trabalho que será feito para um projeto. É uma hierarquia de tarefas que representa a compreensão da equipe do projeto da composição do trabalho, e do tamanho, custo, e duração de cada componente ou tarefa. Uma WBS tem três fins principais:
 
@@ -115,7 +115,7 @@ Estimativa de planejamento é, geralmente, a segunda etapa da criação de uma W
 
 A data de início de uma tarefa do nó folha que não tem antecessoras é automaticamente definida como a data de início do planejamento do projeto. A duração de uma tarefa do nó folha é sempre calculada como o número de dias úteis entre suas datas de início e término. 
 
-****Regras de planejamento**** Quando a assistência automática de planejamento é ativada, as seguintes regras se aplicam ao planejamento de tarefas do nó folha:
+*<strong><em>Regras de agendamento</em></strong>* Quando a assistência automática de agendamento é ativada, as seguintes regras se aplicam ao agendamento de tarefas do nó folha:
 
 -   As datas de início e término de uma tarefa devem ser dias úteis, de acordo com o calendário de planejamento do projeto.
 -   A data de início de uma tarefa que contém antecessoras é automaticamente definida como a data de término mais distante entre suas antecessoras.

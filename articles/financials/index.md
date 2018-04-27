@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-management-home-page"></a>Home page de Gerenciamento financeiro
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Este tópico oferece uma lista de tópicos da Ajuda e outros recursos de gerenciamento financeiro do Microsoft Dynamics 365 Finance and Operations. 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/08/2018
 ---
 
 # <a name="vendor-request-configurations"></a>Configurações de solicitação de fornecedor
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Para concluir uma solicitação do fornecedor, uma pessoa de contato do fornecedor deve concluir o assistente de registro de fornecedor em potencial.
 
@@ -39,12 +39,12 @@ Por padrão, há uma configuração de fornecedor disponível no formulário de 
 
 Não é possível selecionar país/regiões para a configuração padrão, assim a seção **Países/regiões** não pode ser alterada.
 
-1.  Clique em **Compras** > **Configuração** > **Fornecedores** e depois em **Configurações de solicitação de fornecedor**.
-2.  Clique na guia **Campos** para definir o status dos campos listados.
--   Oculto (Não visível)
--   Exibido (Visível, mas não obrigatório)
--   Obrigatório (Visível e obrigatório)
-3.  Clique na guia **Conteúdo** para especificar se o texto está prestes a ser mostrado no assistente e se há uma confirmação de que o usuário do fornecedor potencial deve aceitar isso, antes de se mover para a próxima etapa no assistente. A confirmação será solicitada para os termos e as condições que o usuário deve aceitar para continuar.
+1. Clique em **Compras** > **Configuração** > **Fornecedores** e depois em **Configurações de solicitação de fornecedor**.
+2. Clique na guia **Campos** para definir o status dos campos listados.
+3. Oculto (Não visível)
+4. Exibido (Visível, mas não obrigatório)
+5. Obrigatório (Visível e obrigatório)
+6. Clique na guia **Conteúdo** para especificar se o texto está prestes a ser mostrado no assistente e se há uma confirmação de que o usuário do fornecedor potencial deve aceitar isso, antes de se mover para a próxima etapa no assistente. A confirmação será solicitada para os termos e as condições que o usuário deve aceitar para continuar.
 
 Você também pode inserir uma mensagem de confirmação que será exibida quando o assistente for finalizado, e poderá adicionar um ou mais questionários.
 
