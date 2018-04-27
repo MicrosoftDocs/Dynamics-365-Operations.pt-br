@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bd85f89917659ac9c94590bace765b2123d6e556
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="coverage-settings"></a>Configurações de cobertura
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 O planejamento mestre usa configurações de cobertura para calcular requisitos de itens. 
 
@@ -46,7 +45,7 @@ Você pode especificar as configurações de cobertura de várias formas:
 
 <!-- -->
 
--   Especifique as configurações de cobertura para um grupo de dimensões. Clique em **Gerenciamento de informações do produto &gt; Comum &gt; Produtos liberados**. Na página **Detalhes do produto liberado**, na guia **Geral**, no grupo **Administração**, clique no link **Grupo de dimensões de armazenamento**. Na página **Grupo de dimensões de armazenamento**, selecione o campo **Plano de cobertura por dimensão** para criar as configurações de cobertura de uma dimensão no grupo de dimensão de armazenamento. Todas as dimensões do produto, como a configuração, a cor, o tamanho, o estilo devem ter o campo **Plano de cobertura por dimensão** selecionado.
+- Especifique as configurações de cobertura para um grupo de dimensões. Clique em <strong>Gerenciamento de informações do produto &gt; Comum &gt; Produtos liberados</strong>. Na página <strong>Detalhes do produto liberado **, na guia **Geral</strong>, no grupo <strong>Administração</strong>, clique no link <strong>Grupo de dimensões de armazenamento</strong>. Na página <strong>Grupo de dimensões de armazenamento</strong>, selecione o campo <strong>Plano de cobertura por dimensão</strong> para criar as configurações de cobertura de uma dimensão no grupo de dimensão de armazenamento. Todas as dimensões do produto, como a configuração, a cor, o tamanho, o estilo devem ter o campo <strong>Plano de cobertura por dimensão</strong> selecionado.
 
 
 

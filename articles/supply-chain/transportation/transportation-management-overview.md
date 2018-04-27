@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 0ec45fcf7cebf530b3a5889a857214b97b3fffbb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f4dc2c15d35d93d1563c866b20ad7f2bbb5c8457
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-overview"></a>Visão geral de gerenciamento de transporte
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico fornece uma visão geral da funcionalidade de gerenciamento de transporte no Microsoft Dynamics 365 for Finance and Operations.
 
@@ -52,17 +51,17 @@ O gerenciamento de transporte permite que você gerencie o transporte de sua emp
 <td>Use o Gerenciamento de transporte para o transporte de entrada e/ou de saída.</td>
 </tr>
 <tr class="even">
-<td>A frota própria da empresa está disponível para entrega/retirada, e as taxas de entrega são passadas para os clientes.</td>
+<td>A frota própria da empresa está disponível para entrega/retirada, e as taxas de entrega são passadas para os clientes.</td>
 <td>Para os processos de saída, você pode usar o Gerenciamento de transporte para determinar os encargos de transporte e passá-los para os clientes. No entanto, o processo de reconciliação da fatura da transportadora não é necessário.</td>
 </tr>
 <tr class="odd">
-<td>A frota própria da empresa está disponível entrega/retirada, mas as taxas de entrega não são passadas para os clientes, já que os preços dos produtos incluem o transporte.</td>
-<td>Grande parte da funcionalidade do Gerenciamento de transporte não é necessária. No entanto, você pode usar o Gerenciamento de transporte para determinar as taxas de transporte e ajustar o preço de venda adequadamente.</td>
+<td>A frota própria da empresa está disponível para entrega/retirada, mas as taxas de entrega não são passadas para os clientes, já que os preços dos produtos incluem o transporte.</td>
+<td>Grande parte da funcionalidade de gerenciamento de transporte não é necessária. No entanto, você pode usar o Gerenciamento de transporte para determinar as taxas de transporte e ajustar o preço de venda adequadamente.</td>
 </tr>
 <tr class="even">
 <td>O serviço de logística é fornecido por outra entidade legal na mesma empresa.</td>
 <td><ul>
-<li>Você pode usar o Gerenciamento de transporte ai tratar a outra entidade legal como qualquer outra transportadora. Não é possível automatizar as transações econômicas entre as entidades legais. Portanto, você deve lidar com essas transações manualmente (por exemplo, criando uma ordem de compra).</li>
+<li>Você pode usar o Gerenciamento de transporte ai tratar a outra entidade legal como qualquer outra transportadora. Não é possível automatizar as transações econômicas entre entidades legais. Portanto, você deve lidar com essas transações manualmente (por exemplo, criando uma ordem de compra).</li>
 <li>Na entidade legal que fornece os serviços de logística, o Gerenciamento de transporte pode ser usado para determinar as taxas de transporte.</li>
 </ul></td>
 </tr>

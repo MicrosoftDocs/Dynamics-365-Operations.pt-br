@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: d9b61e545067db592545d5fbce7b4315c51a8bf8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4cfd017fe10bbda6eda0e3a9a045e0832b08753
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer"></a>Designer de fórmulas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico explica como usar o designer de fórmulas para analisar e manter fórmulas em um modo de exibição de árvore.
 
@@ -68,7 +68,7 @@ O filtro aplicado para que a fórmula e o roteiro sejam exibidos no cabeçalho d
 <tbody>
 <tr class="odd">
 <td>Dimensões do produto</td>
-<td>Se o produto selecionado é um produto mestre, você pode definir as dimensões de produto ativas para a seleção principal. Observe que se você abrir o designer de fórmulas para um produto que não é um produto mestre, as dimensões do produto não poderão ser selecionadas na caixa de diálogo <strong>Filtro</strong>.</p></td>
+<td>Se o produto selecionado é um produto mestre, você pode definir as dimensões de produto ativas para a seleção principal. Observe que, se você abrir o designer de fórmulas para um produto que não é um produto mestre, as dimensões do produto não poderão ser selecionadas na caixa de diálogo <strong>Filtro</strong>.</p></td>
 </tr>
 <tr class="even">
 <td>Site</td>
@@ -88,7 +88,7 @@ O filtro aplicado para que a fórmula e o roteiro sejam exibidos no cabeçalho d
 </tr>
 <tr class="odd">
 <td>Da quantidade</td>
-<td>Filtre as versões ao selecionar uma quantidade "inicial" específica. Se você definir um valor, versões diferentes de fórmula e de roteiro poderão ser selecionadas.</td>
+<td>Filtre as versões ao selecionar uma quantidade &quot;inicial&quot; específica. Se você definir um valor, versões diferentes de fórmula e de roteiro poderão ser selecionadas.</td>
 </tr>
 <tr class="even">
 <td>Mostrar somente válido</td>
@@ -116,8 +116,10 @@ Use as funções **Linhas de fórmula** ou **Fórmula** para alterar as linhas d
 ## <a name="configuring-the-tree-view"></a>Configuração do modo de exibição de árvore
 Clique em **Configuração** para personalizar as informações mostradas no modo de exibição de árvore do designer de fórmulas.
 
-| Grupo de campos | descrição |
-|-------------|-------------|
-| BOM         | Use as caixas de seleção para marcar os critérios mostrados na estrutura de árvore. O designer de fórmulas mostra os critérios selecionados na parte inferior das duas guias. |
-| Roteiro       | Use as caixas de seleção para marcar os critérios mostrados nos roteiros. |
+
+| Grupo de campos |                                                                          descrição                                                                          |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     BOM     | Use as caixas de seleção para marcar os critérios mostrados na estrutura de árvore. O designer de fórmulas mostra os critérios selecionados na parte inferior das duas guias. |
+|    Roteiro    |                                           Use as caixas de seleção para marcar os critérios mostrados nos roteiros.                                           |
+
 

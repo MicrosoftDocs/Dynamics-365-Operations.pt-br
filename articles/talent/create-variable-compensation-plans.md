@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4ced76315bb4667f84be532a703e7e9b134b829b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Criar planos de remuneração variável
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 A remuneração variável compõe o pagamento irregular de um funcionário, como bônus ou prêmios de estoque. Este artigo descreve os componentes que devem ser configurados antes de usar uma remuneração variável e inscrever um funcionário em um plano de remuneração variável.
 
@@ -78,12 +77,12 @@ Quando você estiver pronto para realizar a inscrição dos funcionários em um 
 
 **Nota:** As regras de qualificação determinam a qualificação para planos de remuneração fixa variável. As regras de qualificação usam os campos a seguir no registro de trabalho, cargo e funcionários para determinar se um funcionário está qualificado para um plano de remuneração:
 
--   Na página **Trabalho**:
-    -   O campo **Trabalho**.
-    -   Os campos **Função** e **Tipo de trabalho** na guia **Classificação do trabalho**
-    -   O campo **Nível** na guia **Remuneração**
--   Na página **Posições**: os campos **Departamento** e **Região de remuneração**.
--   Na página **Funcionários**: as informações sobre as associações de funcionários que estão associadas ao funcionário em **Informações pessoais** &gt; **Associações de funcionários** na guia ****Funcionário****
+- Na página **Trabalho**:
+  -   O campo **Trabalho**.
+  -   Os campos **Função** e **Tipo de trabalho** na guia **Classificação do trabalho**
+  -   O campo **Nível** na guia **Remuneração**
+- Na página **Posições**: os campos **Departamento** e **Região de remuneração**.
+- Na página <strong>Funcionários</strong>: as informações sobre os sindicatos que estão associados ao funcionário em <strong>Informações pessoais</strong> &gt; <strong>Sindicatos</strong> na guia *<strong><em>Trabalhador</em></strong>*
 
 ### <a name="enable-enrollment-for-the-variable-compensation-plan"></a>Habilitar a inscrição para o plano de remuneração variável.
 

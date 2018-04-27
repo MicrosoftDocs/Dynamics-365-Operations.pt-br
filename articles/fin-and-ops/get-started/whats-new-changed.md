@@ -19,23 +19,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
-ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0936ae3b8d07ef221345bda272170e1482f37cbf
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed"></a>Novidades ou alterações
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Essa página indica tópicos que podem ajudar você a conhecer os novos recursos das versões mais recentes do Microsoft Dynamics 365 for Finance and Operations, edição Enterprise.
 
 Para obter informações sobre como fazer a atualização para a versão mais recente, consulte [Processo de instalação da última atualização](../../dev-itpro/migration-upgrade/upgrade-latest-update.md).
 
 
-[!include[release notes](../includes/release-notes.md)]
+[!INCLUDE [release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>Versões do aplicativo
 
@@ -61,6 +61,13 @@ Para obter informações sobre como fazer a atualização para a versão mais re
 
 </tr>
 <tr class="even">
+<tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>8.0</td>
+<td>8.0.30</td>
+<td>2018 de abril</td>
+  <td><a href="whats-new-changed-8-0-April-2018.md">O que há de novo ou diferente no Dynamics 365 for Finance and Operations, versão 8.0 (abril de 2018)</a></td>
+</tr>
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>7.3</td>
 <td>7.3.11971.56116</td>
@@ -122,7 +129,7 @@ Para obter informações sobre como fazer a atualização para a versão mais re
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>
 <td>Update 15 para plataforma</td>
 <td>7.0.4839</td>
-<td>Março de 2018 (esta é uma versão específica disponível apenas para usuários que aceitaram o programa contínuo de benefício da atualização (CAAP).)</td>
+<td>Março de 2018 (esta é uma versão específica disponível apenas para usuários que aceitaram o programa contínuo de benefício da atualização (CAAP). A Atualização da plataforma 15 também está disponível no Dynamics 365 for Finance and Operations versão 8.0).</td>
 <td><a href="whats-new-platform-update-15.md">O que há de novo ou diferente no Dynamics 365 for Finance and Operations, Enterprise Edition com atualização 15 da plataforma (março de 2018)</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition</td>

@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 33a8bc78006ae9e7d5ca905a98886fd7af706604
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-insights"></a>Insights financeiros
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Os **Insights Financeiros** usam o Microsoft Power BI para reunir indicadores chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros. O Power BI está incorporado no Microsoft Dynamics 365 Finance and Operations.
 O foco dos **Insights Financeiros** é o relatório analítico. As pessoas de uma organização podem exibir, pesquisar, entender e atuar. 
@@ -107,8 +107,20 @@ Embora os **Insights financeiros** contenham demonstrativos financeiros, eles n�
 
 O gráfico de comparação a seguir ajudará a diferenciar as duas opções:
 
-|                                         | **Relatórios Financeiros**                            | **Insights financeiros**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **Editar relatórios padrão**                | Sim                                                | Não                                 | | **Criar novos relatórios**                  | Sim                                                | Não                                 | | **Imprimir relatórios**                       | Sim                                                | Não                                | | **Exportar para Excel**                     | Sim          | Exporta de forma limitada dados não processados para Excel, não é um relatório formatado       | | **Oferece suporte a relatório hierárquico/hierárquico organizacional**   | Sim                               | Não                                 | | **Relatar em razão auxiliar**       | Sim. Limitado apenas a fornecedor, cliente    | Sim. Fornecedor, cliente, grupos de fornecedor/clientes, endereços de fornecedor/cliente, etc.  | | **Moeda de relatório**      | Sim. Moeda contábil e adaptação para moeda de relatório       | Não. Apenas moeda contábil      | | **Segurança**                | Sim. Adere a Finance e Operations e segurança da árvore de relatório | Relatórios de exibição limitada de todas as empresas (independentemente de segurança de Finance e Operations) ou apenas empresa ativa | | **Oferece suporte a gráfico diferente de contas e anos fiscais** | Sim                   | Não                   | | **Relatar em dados externos**                              | Não                   | Não                                   | | **Suportar consolidações**                               | Sim                          | Limitado. Pode relatar em variadas empresas, mas usa apenas moeda contábil                                     |
 
+|                                                                       |               <strong>Relatórios Financeiros</strong>                |                                      <strong>Insights financeiros</strong>                                      |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+|                 <strong>Editar relatórios padrão</strong>                 |                                Sim                                |                                                      Não                                                       |
+|                  <strong>Criar novos relatórios</strong>                  |                                Sim                                |                                                      Não                                                       |
+|                    <strong>Imprimir relatórios</strong>                     |                                Sim                                |                                                      Não                                                       |
+|                   <strong>Exportar para o Excel</strong>                    |                                Sim                                |                           Limitado Exporta dados brutos para o Excel, não um relatório formatado                           |
+|  <strong>Hierarquia de relatórios com suporte/hierarquia organizacional</strong>  |                                Sim                                |                                                      Não                                                       |
+|               <strong>Relatório de dados no razão auxiliar</strong>               |               Sim Limitado somente ao fornecedor, cliente                |                 Sim Fornecedor, cliente, grupos de fornecedores/clientes, endereços de fornecedor/cliente, etc.                 |
+|                  <strong>Moeda de Relatório</strong>                  |    Sim Moeda contábil e traduz para a moeda de relatório    |                                          Não Somente moeda contábil                                          |
+|                       <strong>Segurança</strong>                       | Sim Adere ao Finance and Operations e à segurança da hierarquia organizacional | A exibição limitada relata para todas as empresas (independentemente segurança do Finance and Operations) ou somente para a empresa ativa |
+| <strong>Oferece suporte a diferentes planos de contas e anos fiscais</strong> |                                Sim                                |                                                      Não                                                       |
+|               <strong>relatório sobre dados esternos</strong>                |                                Não                                 |                                                      Não                                                       |
+|                <strong>Oferece suporte a consolidações</strong>                |                                Sim                                |                   Limitado Pode reportar sobre várias empresas mas usa somente a moeda contábil                   |
 
 Além dos elementos de interface do usuário no espaço de trabalho **Visão geral de CFO** original, novos KPIs, gráficos e demonstrativos financeiros agora estão disponíveis. Os seguintes demonstrativos financeiros estão disponíveis:
 

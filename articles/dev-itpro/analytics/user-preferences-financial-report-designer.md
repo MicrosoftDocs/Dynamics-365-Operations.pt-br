@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cabaf8a579fcd9722e409630038167afb07ffc6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0307db3a49bcdb62146b815383f744c5b8e0fde
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="user-preferences-in-financial-report-designer"></a>Preferências do usuário no designer de relatório financeiro
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo explica como definir as preferências do usuário para personalizar as interações do usuário no designer de relatório financeiro e controlar a experiência de logon inicial. Você também pode controlar como relatórios individuais, biblioteca de relatórios e os locais de arquivo padrão são exibidos. 
 
@@ -63,7 +62,7 @@ Este artigo explica como definir as preferências do usuário para personalizar 
 <td>Selecione se deseja receber uma mensagem de aviso quando você sair do aplicativo. Esta mensagem ajuda a garantir que você não saia do programa sem querer.</td>
 </tr>
 <tr class="odd">
-<td>Aplicar automaticamente sublinhado de célula em cabeçalhos da coluna</td>
+<td>Aplicar automaticamente o sublinhado de célula nos cabeçalhos da coluna</td>
 <td>Selecione se deseja inserir um sublinhado na célula de um novo cabeçalho de coluna.</td>
 </tr>
 <tr class="even">

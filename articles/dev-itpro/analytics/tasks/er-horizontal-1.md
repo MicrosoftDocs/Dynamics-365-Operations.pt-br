@@ -1,5 +1,5 @@
 --- 
-title: "Criar um formato para usar intervalos horizontalmente expansíveis para adicionar dinamicamente colunas em relatórios do Excel para relatório eletrônico (ER)"
+title: "Criar um formato para usar intervalos expansíveis horizontalmente para adicionar dinamicamente colunas em relatórios do Excel"
 description: "As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou de desenvolvedor de relatório eletrônico (ER) pode configurar um formato para gerar relatórios como arquivos OPENXML de planilhas de Excel em que as colunas exigidas possam ser criadas dinamicamente como intervalos expansíveis horizontalmente."
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1ccf3b2d81066fce80fe14428fab24020ab85496
-ms.openlocfilehash: b921b5ff51f951112031fe8b1bc2faa90cf29a28
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d9c3cf17cd406a50a9f92e78991289f9139d7c73
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a>Criar um formato para usar intervalos horizontalmente expansíveis para adicionar dinamicamente colunas em relatórios do Excel para relatório eletrônico (ER)
+# <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports"></a>Criar um formato para usar intervalos expansíveis horizontalmente para adicionar dinamicamente colunas em relatórios do Excel
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou de desenvolvedor de relatório eletrônico (ER) pode configurar um formato para gerar relatórios como arquivos OPENXML de planilhas de Excel em que as colunas exigidas possam ser criadas dinamicamente como intervalos expansíveis horizontalmente. Essas etapas podem ser executadas em qualquer empresa.
 
@@ -36,7 +36,7 @@ Para concluir essas etapas, primeiro você deve concluir essas guias de três ta
 
 "ER Usar dimensões financeiras como uma fonte de dados (Parte 2: mapeamento de modelo)"
 
-Você também deve baixar e salvar uma cópia local do modelo com um relatório de exemplo encontrado aqui, [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266). 
+Você também deve baixar e salvar uma cópia local do modelo com um relatório de exemplo, [https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266)que está aqui. 
 
 
 Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynamics 365 for Operations.

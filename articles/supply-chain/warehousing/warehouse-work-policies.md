@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="warehouse-work-policies"></a>Políticas de trabalho de depósito
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 As políticas de trabalho de depósito no Microsoft Dynamics 365 for Finance and Operations determinam se o trabalho de depósito é criado por processos de depósito na fabricação, com base em tipo de ordem de trabalho, local do estoque e produto.
 
@@ -68,14 +67,15 @@ Quando você planejar configurar uma política de trabalho de depósito para est
 
 Veja um exemplo da política de trabalho que você pode configurar com base nestas considerações.
 
-|                                         |                                                       |
-|-----------------------------------------|-------------------------------------------------------|
-|**Nome da política de trabalho**<br>                 |**Tipos de ordem de trabalho**<br>                               |
-| Nenhum armazenamento de 01                    |- Armazenamento de mercadorias acabadas<br>                           |
-|                                         |**Localizações**<br>                                      |
-|                                         |- O1   |                                               |
-|                                         |**Produtos** <br>                                      |
-|                                         |- SC1                                                  |
+
+|                                       |                                       |
+|---------------------------------------|---------------------------------------|
+| <strong>Nome da política de trabalho</strong><br> | <strong>Tipos de ordem de trabalho</strong><br> |
+|         Nenhum armazenamento de 01          |     - Armazenamento de mercadorias acabadas<br>      |
+|                                       |    <strong>Localizações</strong><br>     |
+|                                       |                 - O1                  |
+|                                       |    <strong>Produtos</strong> <br>     |
+|                                       |                 - SC1                 |
 
 Os procedimentos a seguir fornecem instruções passo a passo sobre como configurar a política de trabalho de depósito para este cenário. Uma configuração de exemplo mostrando como relatar uma ordem de produção como acabada para uma localização que não seja controlada por placa de licença também é descrita.
 
@@ -126,7 +126,7 @@ ETAPAS (25)
 <tr>
 <td></td>
 <td>2.</td>
-<td>Na lista, selecione grupo de recurso "5102".</td>
+<td>Na lista, selecione grupo de recursos &#39;5102&#39;.</td>
 </tr>
 <tr>
 <td></td>
@@ -136,17 +136,17 @@ ETAPAS (25)
 <tr>
 <td></td>
 <td>4.</td>
-<td>No campo Depósito de saída, insira "51".</td>
+<td>No campo Depósito de saída, insira &#39;51&#39;.</td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td>No campo Local de saída, insira "001".</td>
+<td>No campo Local de saída, insira &#39;001&#39;.</td>
 </tr>
 <tr>
 <td></td>
 <td>6.</td>
-<td>O local 001 não é um local controlado por placa de licença. Você pode configurar um local de saída em branco da licença não aplicável somente se uma diretiva de trabalho existir para o local.</td>
+<td>O local 001 não é um local controlado por código de licença. Você pode configurar um local de saída em branco da licença não aplicável somente se uma diretiva de trabalho existir para o local.</td>
 </tr>
 <tr>
 <td colspan="3"><strong>Subtarefa: Criar uma ordem de produção e relatar como concluída.</strong></td>
@@ -169,7 +169,7 @@ ETAPAS (25)
 <tr>
 <td></td>
 <td>4.</td>
-<td>No campo Número do item, insira "L0101".</td>
+<td>No campo Número do item, insira &#39;L0101&#39;.</td>
 </tr>
 <tr>
 <td></td>
@@ -204,7 +204,7 @@ ETAPAS (25)
 <tr>
 <td></td>
 <td>11.</td>
-<td>No campo Consumo automático de BOM, selecione 'Nunca'.</td>
+<td>No campo Consumo automático de BOM, selecione &#39;Nunca&#39;.</td>
 </tr>
 <tr>
 <td></td>
@@ -214,7 +214,7 @@ ETAPAS (25)
 <tr>
 <td></td>
 <td>13.</td>
-<td>Clique em Relatório de conclusão.</td>
+<td>Clique em Relatar como concluído.</td>
 </tr>
 <tr>
 <td></td>

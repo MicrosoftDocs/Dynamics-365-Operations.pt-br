@@ -19,16 +19,18 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f50e58d63a9db4d6a8b5390174e2c7b87970717d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>Integração do plano de orçamento com outros módulos
 
-[!include[banner](../includes/banner.md)] Os planos de orçamento podem ser gerados a partir de vários recursos diferentes. Os elementos básicos do processo periódico são iguais para todos os recursos. 
+[!INCLUDE [banner](../includes/banner.md)]
+
+ Os planos de orçamento podem ser gerados a partir de vários recursos diferentes. Os elementos básicos do processo periódico são iguais para todos os recursos. 
 
 
 
@@ -66,7 +68,7 @@ A opção **Histórico** na guia **Destino** permite que você use as datas dos 
 
 O campo **Total agregado por** na parte superior da página também determina a data utilizada. O campo totaliza os valores e, opcionalmente, define a data efetiva para o primeiro dia do ano fiscal ou do período fiscal. 
 
-Vários campos na guia **Destino** se tornam editáveis ou somente leitura, dependendo da ação selecionada. Quando você deixa de criar um novo plano de orçamento para atualizar um plano existente, o campo **Nome do plano de orçamento** se torna indisponível, e os campos relacionados à seleção de um plano existente é disponibilizado. Nas guias **Destino** e **Origem**, o campo **Razão** está sempre indisponível, porque o valor é determinado pelo processo de planejamento de orçamento selecionado. 
+Vários campos na guia <strong>Destino</strong> se tornam editáveis ou somente leitura, dependendo da ação selecionada. Quando você deixa de criar um novo plano de orçamento para atualizar um plano existente, o campo <strong>Nome do plano de orçamento</strong> se torna indisponível, e os campos relacionados à seleção de um plano existente é disponibilizado. Nas guias <strong>Destino</strong> e <strong>Origem**, o campo **Razão</strong> está sempre indisponível, porque o valor é determinado pelo processo de planejamento de orçamento selecionado. 
 
 O campo **Classe de orçamento** permite que você defina as linhas do plano de orçamento como transações de despesa ou transações de receita. Geralmente, as transações de receita são creditados em uma conta contábil e, portanto, são armazenadas como valores negativos. Normalmente, essas transações também aparecem como valores negativos no plano de orçamento. No entanto, ao adicionar a classe de orçamento como um campo no layout do plano, você poderá habilitar a receita para aparecer como valores positivos.
 
@@ -111,7 +113,7 @@ Não há campo **Classe de orçamento** porque a classe de orçamento (**Despesa
 
 Você pode usar orçamentos de projeto como origem selecionando o modelo de previsão que contém os valores de orçamento do projeto. Lembre-se de que os orçamentos de projeto criam entradas de previsão do projeto à medida que elas são aprovadas.
 
-Para selecionar somente os custos ou as receitas das linhas de plano de orçamento, use o filtro para selecionar **Atualizações de orçamento: Tipo de valor = Custo**. Para selecionar somente um tipo de previsão, use o filtro para selecionar **Atualizações de orçamento: *Tipo de transação = xxx***. 
+Para selecionar somente os custos ou as receitas das linhas de plano de orçamento, use o filtro para selecionar <strong>Atualizações de orçamento: Tipo de valor = Custo</strong>. Para selecionar somente um tipo de previsão, use o filtro para selecionar <strong>Atualizações de orçamento: Tipo de transação = *xxx</strong>*. 
 
 Somente um modelo de previsão pode ser usado para gerar um cenário de plano de orçamento. Se você executar o processo para um modelo de previsão e, em seguida, fizer uma atualização e tentar especificar outro modelo, o primeiro modelo será substituído se o mesmo projeto e contas contábeis forem aplicáveis. Para gerar um cenário de plano de orçamento com base em mais de um modelo de previsão, gere cenários de plano de orçamento diferentes e use as opções de alocação para uni-los em outro cenário. 
 

@@ -18,29 +18,29 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 27c03f7bd61ee7d4cb1d01f04af2f1821e9988e1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="enter-payroll-beginning-balances"></a>Inserir saldos iniciais de folha de pagamento
 
-[!include[banner](../../includes/banner.md)]
+[!INCLUDE [banner](../../includes/banner.md)]
 
 Este tópico descreve as etapas para inserir saldos iniciais para códigos de ganhos, deduções, benefícios e impostos. Essas informações são importantes para parceiros que transferem dados de outro sistema para uma nova implementação de folha de pagamento. Para se preparar para inserir saldos iniciais de folha de pagamento, nós verificamos as seguintes informações:
 
 > * Os registros de funcionários são inseridos e estão disponíveis no sistema
 > * Os dados a seguir estão configurados e atribuídos aos funcionários:
-
+> 
 > > * Ciclos de pagamento e períodos de pagamento
 > > * Códigos de ganhos
 > > * Impostos
 > > * Benefícios e Deduções
-
+> 
 > * A empresa deve ter escolhido uma data em que os saldos iniciais de folha de pagamento podem ser definidos.
-
+> 
 > * As informações foram coletadas sobre todos os ganhos, benefícios/deduções, contribuições de benefícios, impostos de funcionários e impostos de empregadores, bem como os seus valores acumulados no ano referente ao sistema herdado.
 
 Na medida em que você planeja inserir os saldos iniciais, considere a forma como os dados precisam ser detalhados. A maioria das empresas insere um valor acumulado único e consolidado. Entretanto caso seja necessário informações mais detalhadas, os saldos podem ser inseridos em incrementos trimestrais. Decidir o nível de detalhes necessário determina quantos demonstrativos manuais de pagamento devem ser criados para cada trabalhador. Para um único valor acumulado, somente um demonstrativo manual é necessário para cada funcionário. Para isso, use os valores acumulados do demonstrativo de pagamento final do sistema anterior como o valor inserido no novo sistema de folha de pagamento.
@@ -128,22 +128,22 @@ Depois de gerar demonstrativos de pagamento com saldos iniciais, você deve veri
 
 4. Abra a guia **Deduções de benefício** e insira o seguinte:
 
-| Campo                           | Alíquota            |
-|---------------------------------|------------------|
-| Benefício                         | Valor da dedução |
-| 401K | Participar              | 3000.00          |
-| Plano odontológico | SubSp                  | 495,00           |
-| Despesas com dependente | Participar | 2500.00          |
-| Visão | SupSp                  | 500,00           |
+|       Campo       |      Alíquota       |
+|-------------------|------------------|
+|      Benefício      | Valor da dedução |
+|       401K        |   Participar    |
+|      Plano odontológico       |      SubSp       |
+| Despesas com o dependente |   Participar    |
+|      Visão       |      SupSp       |
 
 5. Na guia **Contribuições para benefícios**, insira o seguinte:
 
-| Campo              | Alíquota               |
-|--------------------|---------------------|
-| Benefício            | Valor de contribuição |
-| 401K | Participar | 3000,00             |
-| Plano odontológico | SubSp     | 495,00              |
-| Visão | SubSp     | 500,00              |
+|  Campo  |        Alíquota        |
+|---------|---------------------|
+| Benefício | Valor de contribuição |
+|  401K   |     Participar     |
+| Plano odontológico  |        SubSp        |
+| Visão  |        SubSp        |
 
 6. Na guia **Deduções de imposto**, insira o seguinte:
 
@@ -156,8 +156,8 @@ Depois de gerar demonstrativos de pagamento com saldos iniciais, você deve veri
 7. Na guia **Contribuições de imposto**, insira o seguinte:
 
 8. Clique em **Calcular**.
-> [!IMPORTANT] 
-> Valide os totais do demonstrativo de pagamento ao trabalhador correspondentes ao acumulado do sistema herdado. Você pode querer adiar a finalização na próxima etapa para fazer uma validação geral de todos os demonstrativos de pagamento acumulados. Após a validação, reexamine todos os demonstrativos de pagamento e faça a finalização.
+   > [!IMPORTANT] 
+   > Valide os totais do demonstrativo de pagamento ao trabalhador correspondentes ao acumulado do sistema herdado. Você pode querer adiar a finalização na próxima etapa para fazer uma validação geral de todos os demonstrativos de pagamento acumulados. Após a validação, reexamine todos os demonstrativos de pagamento e faça a finalização.
 
 O mesmo processo pode ser feito em incrementos trimestrais, se necessário, para os trimestres anteriores de cada ano. Isso só é necessário se o cliente precisar conferir os dados por trimestre sem retornar ao sistema herdado.
 

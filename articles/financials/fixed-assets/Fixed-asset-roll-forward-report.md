@@ -19,15 +19,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7a81697a8e90fb6b0695a02db0868f5708fdbddf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Relatório de roll forward de ativo fixo
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 O relatório **Roll forward de ativos fixos** fornece, em um formato de leitura simples do Microsoft Excel, os dados detalhados do ativo fixo que você precisa para fechamento do período, demonstrativos financeiros e relatório de imposto. O relatório incluir saldos inicial e final de ativos fixos, com movimentações de avaliação do período e novas aquisições do ativo e alienações que ocorreram durante o período. Os dados são relatados para ativos fixos individuais e os valores também são resumidos para grupos de ativos fixos e a entidade legal.
 
@@ -41,28 +41,30 @@ Este relatório está disponível no Microsoft Dynamics 365 for Finance and Oper
 
 A tabela a seguir descreve os campos disponíveis no relatório.
 
-| Campo                                       | descrição |
-|---------------------------------------------|-------------|
-| Saldos: Iniciais                           | O valor líquido contábil do ativo fixo a partir da data "inicial" especificada no relatório. |
-| Saldos: Fechamento                           | O valor líquido contábil do ativo fixo a partir da data "final" especificada no relatório. |
-| Aquisições: Valor inicial                 | A soma de todas as transações dos tipos de **Aquisição** e **Ajuste de aquisição** até a data "inicial" especificada no relatório. |
-| Aquisições: Aquisições do período           | A soma de todas as transações dos tipos de **Aquisição** e **Ajuste de aquisição** que foram contabilizadas durante o intervalo de datas do relatório. |
-| Aquisições: Alienações do período              | A soma de todas as reversões de aquisição que foram postadas que tinham uma transação de alienação durante o intervalo de datas do relatório. |
-| Aquisições: Valor de fechamento                 | A soma de todas as transações dos tipos de **Aquisição** e **Ajuste de aquisição** até a data "final" especificada no relatório. |
-| Depreciações: Valor inicial                | A soma de todas as transações dos tipos de **Depreciação**, **Ajuste de depreciação**, **Provisão para depreciação especial** e **Depreciação extraordinária** até a data "inicial" especificada no relatório. |
-| Depreciações: depreciações do período         | A soma de todas as transações dos tipos de **Depreciação**, **Ajuste de depreciação** e **Depreciação extraordinária** que foram lançadas durante o intervalo de datas do relatório. |
-| Depreciações: Depreciações especiais do período | A soma de todas as transações do tipo **Provisão para depreciação especial** que foram lançadas durante o intervalo de datas do relatório. |
-| Depreciações: Alienações do período             | A soma de todas as reversões de depreciação que foram postadas que tinham uma transação de alienação durante o intervalo de datas do relatório. |
-| Depreciações: Valor de fechamento                | A soma de todas as transações dos tipos de **Depreciação**, **Ajuste de depreciação**, **Provisão para depreciação especial** e **Depreciação extraordinária** até a data "final" especificada no relatório. |
-| Valorizações/Desvalorizações: Valor inicial        | A soma de todas as transações dos tipos de **Ajuste de valorização**, **Ajuste de desvalorização** e **Reavaliação** até a data "inicial" que é especificada no relatório. |
-| Valorizações/Desvalorizações: Valorizações do período     | A soma de todas as transações do tipo **Ajuste de valorização** que foram lançadas durante o intervalo de datas do relatório. |
-| Valorizações/Desvalorizações: Desvalorizações do período   | A soma de todas as transações do tipo **Ajuste de desvalorização** que foram lançadas durante o intervalo de datas do relatório. |
-| Valorizações/Desvalorizações: Reavaliações do período  | A soma de todas as transações do tipo **Reavaliação** que foram lançadas durante o intervalo de datas do relatório. |
-| Valorizações/Desvalorizações: Alienações do período     | A soma de todos os estornos de valorizações, desvalorizações e reavaliações que foram lançadas que tinham uma transação de alienação durante o intervalo de datas do relatório. |
-| Valorizações/Desvalorizações: Valor de fechamento        | A soma de todas as transações dos tipos de **Ajuste de valorização**, **Ajuste de desvalorização** e **Reavaliação** até a data "final" que é especificada no relatório. |
-| Alienações: Data da alienação                    | A data de alienação do registro de ativos fixos. |
-| Alienações: Valor líquido contábil na alienação       | O valor líquido contábil do registro de ativos fixos no momento da alienação. |
-| Alienações: Valor de venda                       | O valor de venda para o registro de ativos fixos com uma alienação - transação de venda. |
-| Alienações: Valor de sucata                      | O valor de sucata para o registro de ativos fixos com uma alienação - transação de sucata. |
-| Alienações: Lucros/perdas                      | O valor de lucro ou perda calculado como parte da transação de alienação do registro de ativos fixos. |
+
+|                    Campo                    |                                                                                                                                descrição                                                                                                                                |
+|---------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|              Saldos: Iniciais              |                                                                                           O valor líquido contábil do ativo fixo a partir da data "inicial" especificada no relatório.                                                                                           |
+|              Saldos: Fechamento              |                                                                                            O valor líquido contábil do ativo fixo a partir da data "final" especificada no relatório.                                                                                            |
+|         Aquisições: Valor inicial         |                                                 A soma de todas as transações dos tipos de <strong>Aquisição</strong> e <strong>Ajuste de aquisição</strong> até a data "inicial" especificada no relatório.                                                  |
+|      Aquisições: Aquisições do período      |                                                 A soma de todas as transações dos tipos de <strong>Aquisição</strong> e <strong>Ajuste de aquisição</strong> que foram contabilizadas durante o intervalo de datas do relatório.                                                  |
+|       Aquisições: Alienações do período        |                                                                        A soma de todas as reversões de aquisição que foram postadas que tinham uma transação de alienação durante o intervalo de datas do relatório.                                                                        |
+|         Aquisições: Valor de fechamento         |                                                  A soma de todas as transações dos tipos de <strong>Aquisição</strong> e <strong>Ajuste de aquisição</strong> até a data "final" especificada no relatório.                                                   |
+|        Depreciações: Valor inicial         | A soma de todas as transações dos tipos de <strong>Depreciação</strong>, <strong>Ajuste de depreciação</strong>, <strong>Provisão para depreciação especial</strong> e <strong>Depreciação extraordinária</strong> até a data "inicial" especificada no relatório. |
+|     Depreciações: depreciações do período     |                         A soma de todas as transações dos tipos de <strong>Depreciação</strong>, <strong>Ajuste de depreciação</strong> e <strong>Depreciação extraordinária</strong> que foram lançadas durante o intervalo de datas do relatório.                          |
+| Depreciações: Depreciações especiais do período |                                                              A soma de todas as transações do tipo <strong>Provisão para depreciação especial</strong> que foram lançadas durante o intervalo de datas do relatório.                                                               |
+|       Depreciações: Alienações do período       |                                                                       A soma de todas as reversões de depreciação que foram postadas que tinham uma transação de alienação durante o intervalo de datas do relatório.                                                                        |
+|        Depreciações: Valor de fechamento         |  A soma de todas as transações dos tipos de <strong>Depreciação</strong>, <strong>Ajuste de depreciação</strong>, <strong>Provisão para depreciação especial</strong> e <strong>Depreciação extraordinária</strong> até a data "final" especificada no relatório.  |
+|    Valorizações/Desvalorizações: Valor inicial     |                              A soma de todas as transações dos tipos de <strong>Ajuste de valorização</strong>, <strong>Ajuste de desvalorização</strong> e <strong>Reavaliação</strong> até a data "inicial" que é especificada no relatório.                               |
+|   Valorizações/Desvalorizações: Valorizações do período   |                                                                    A soma de todas as transações do tipo <strong>Ajuste de valorização</strong> que foram lançadas durante o intervalo de datas do relatório.                                                                    |
+|  Valorizações/Desvalorizações: Desvalorizações do período  |                                                                   A soma de todas as transações do tipo <strong>Ajuste de desvalorização</strong> que foram lançadas durante o intervalo de datas do relatório.                                                                   |
+| Valorizações/Desvalorizações: Reavaliações do período  |                                                                        A soma de todas as transações do tipo <strong>Reavaliação</strong> que foram lançadas durante o intervalo de datas do relatório.                                                                        |
+|   Valorizações/Desvalorizações: Alienações do período   |                                                           A soma de todos os estornos de valorizações, desvalorizações e reavaliações que foram lançadas que tinham uma transação de alienação durante o intervalo de datas do relatório.                                                           |
+|    Valorizações/Desvalorizações: Valor de fechamento     |                               A soma de todas as transações dos tipos de <strong>Ajuste de valorização</strong>, <strong>Ajuste de desvalorização</strong> e <strong>Reavaliação</strong> até a data "final" que é especificada no relatório.                                |
+|          Alienações: Data da alienação           |                                                                                                                A data de alienação do registro de ativos fixos.                                                                                                                |
+|    Alienações: Valor líquido contábil na alienação    |                                                                                                    O valor líquido contábil do registro de ativos fixos no momento da alienação.                                                                                                    |
+|            Alienações: Valor de venda            |                                                                                               O valor de venda para o registro de ativos fixos com uma alienação - transação de venda.                                                                                                |
+|           Alienações: Valor de sucata            |                                                                                               O valor de sucata para o registro de ativos fixos com uma alienação - transação de sucata.                                                                                               |
+|           Alienações: Lucros/perdas            |                                                                                 O valor de lucro ou perda calculado como parte da transação de alienação do registro de ativos fixos.                                                                                 |
+
 

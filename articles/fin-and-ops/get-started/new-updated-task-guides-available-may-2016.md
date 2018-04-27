@@ -18,24 +18,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: c42a7e50d6efb6408e480b50b3e520f5812aeb56
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c301f27504f7f1545608bb214a4f1b4d4cecc47f
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-may-2016"></a>Guias de tarefas novos ou atualizados (maio de 2016)
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo lista os Guias de tarefas novos ou atualizados que foram lançados à Biblioteca Unificada APQC (maio de 2016 - todos idiomas) da Microsoft para Microsoft Dynamics AX. Nenhuma nova biblioteca Introdução foi lançada. 
 
 <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Guias de tarefas na (maio de 2016 - todos os idiomas) Biblioteca Unificada APQC para Microsoft Dynamics AX
 ------------------------------------------------------------------------------------------------
 
-A (maio de 2016) Biblioteca Unificada APQC contém os Guias de tarefas que devem ser usados para obter ajuda com a atualização de maio de 2016 do Microsoft Dynamics AX e com a versão de fevereiro de 2016 do Microsoft Dynamics AX Versões localizadas dos Guias de tarefas que foram lançados na (fevereiro de 2016) Biblioteca Unificada APQC estão disponíveis nessa biblioteca. Para obter mais informações sobre como conectar o sistema de ajuda à uma biblioteca de Guia de tarefas, consulte [Introdução à Ajuda](help-overview.md). **Observação:** Um asterisco (**\***) ao lado do título de uma linha de Modelador de processo de negócios (BPM) indica que o guia de tarefas para esse processo de negócios foi criado para a atualização de maio de 2016 do Dynamics AX e não possui suporte em versões anteriores do Microsoft Dynamics AX.
+A (maio de 2016) Biblioteca Unificada APQC contém os Guias de tarefas que devem ser usados para obter ajuda com a atualização de maio de 2016 do Microsoft Dynamics AX e com a versão de fevereiro de 2016 do Microsoft Dynamics AX Versões localizadas dos Guias de tarefas que foram lançados na (fevereiro de 2016) Biblioteca Unificada APQC estão disponíveis nessa biblioteca. Para obter mais informações sobre como conectar o sistema de ajuda à uma biblioteca de Guia de tarefas, consulte [Introdução à Ajuda](help-overview.md). <strong>Observação:</strong> Um asterisco (<strong>\</strong>*) ao lado do título de uma linha de Modelador de processos de negócios (BPM) indica que o guia de tarefas para esse processo de negócios foi criado para a atualização de maio de 2016 do Dynamics AX e não possui suporte em versões anteriores do Microsoft Dynamics AX.
 
 ### <a name="countryregion-functionality"></a>Funcionalidade de país/região
 
@@ -63,15 +62,15 @@ A (maio de 2016) Biblioteca Unificada APQC contém os Guias de tarefas que devem
 
 ### <a name="electronic-reporting"></a>Relatório eletrônico
 
-| Linha de BPM                                                                   | País/região |
+|                                  Linha de BPM                                  | País/região |
 |----------------------------------------------------------------------------|----------------|
-| Configurar destinos ER                                                  | Global         |
-| O ER cria uma configuração para gerar relatórios no formato OPENXML         | Global         |
-| Gerar documentos eletrônicos ER para pagamentos usando uma configuração de formato | Global         |
-| Importação ER de uma configuração do Lifecycle Services                          | Global         |
-| **\***ER Selecionar provedor de serviços                                           | Global         |
-| O ER atualiza seu formato adotando a nova versão base desse formato      | Global         |
-| Carregamento ER de uma configuração no Lifecycle Services                          | Global         |
+|                         Configurar destinos ER                          |     Global     |
+|     O ER cria uma configuração para gerar relatórios no formato OPENXML     |     Global     |
+| Gerar documentos eletrônicos ER para pagamentos usando uma configuração de formato |     Global     |
+|             Importação ER de uma configuração do Lifecycle Services              |     Global     |
+|               <strong>\</strong>*ER Selecionar provedor de serviços                |     Global     |
+|   O ER atualiza seu formato adotando a nova versão base desse formato    |     Global     |
+|             Carregamento ER de uma configuração no Lifecycle Services              |     Global     |
 
 ### <a name="human-capital-management"></a>Gerenciamento de capital humano
 
@@ -177,17 +176,15 @@ A (maio de 2016) Biblioteca Unificada APQC contém os Guias de tarefas que devem
 
 ### <a name="warehouse-and-transportation"></a>Depósito e transporte
 
-| Linha de BPM                                                            | País/região |
-|---------------------------------------------------------------------|----------------|
-| Configurar processamento da onda                                           | Global         |
-| **\***Reportar como finalizado para uma localização não controlada por placa veicular. | Global         |
-| Configurar um processo de reabastecimento mínimo/máximo                              | Global         |
-| Configurar transporte em contêineres                                             | Global         |
-| Configurar embalagem manual                                               | Global         |
-| Configurar restrições de transporte para um item                       | Global         |
-| **\***Configurar políticas de trabalho de depósito                                | Global         |
-
-
+|                                     Linha de BPM                                     | País/região |
+|----------------------------------------------------------------------------------|----------------|
+|                            Configurar processamento da onda                             |     Global     |
+| <strong>\</strong>*Relatar como concluído para um local não controlado por placa de licença |     Global     |
+|                      Configurar um processo de reabastecimento mínimo/máximo                      |     Global     |
+|                             Configurar transporte em contêineres                              |     Global     |
+|                              Configurar embalagem manual                               |     Global     |
+|                  Configurar restrições de transporte para um item                   |     Global     |
+|                <strong>\</strong>*Configurar políticas de trabalho de depósito                 |     Global     |
 
 <a name="see-also"></a>Consulte também
 --------

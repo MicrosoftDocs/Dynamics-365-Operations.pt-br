@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7ae0bfdc157a7e2e5b9f871dae487a6f85e889b9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c0e80bae4716d2b12f515f38d3b641de24680571
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>Configurar taxas de juros para um código de juros
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Os códigos de juros contêm configurações que determinam quando os juros são cobrados e como são calculados em contas vencidas.
 
@@ -47,17 +46,17 @@ Quando um código de juros é usado para calcular os juros, uma nota de juros se
 ## <a name="interest-rates-based-on-a-percentage"></a>Taxas de juros com base em um porcentagem
 Você pode configurar taxas de juros para calcular um percentual especificado.
 
--   O valor dos juros se aplica a todas as moedas.
--   Os limites do valor de juros opcional podem ser inseridos.
--   **Percentagem** é selecionado** **no campo **Calcular juros com base em** na página **Configurar códigos de juros**.
+- O valor dos juros se aplica a todas as moedas.
+- Os limites do valor de juros opcional podem ser inseridos.
+- <strong>Porcentagem</strong> é selecionado** <strong>no campo **Calcular juros com base em</strong> na página <strong>Configurar Códigos de juros</strong>.
 
 Por exemplo, para configurar um código de juros que avalie 5% de juros para cada dois meses, se o pagamento da fatura exceder a data de vencimento da transação, digite 2 no campo **Calcular juros a cada** e selecione **Mês**.
 
 ## <a name="interest-rates-based-on-amounts"></a>Taxas de juros baseadas em valores
 Você pode configurar taxas de juros que calculam um valor por moeda específico.
--   Um valor de juros é especificado para cada moeda no código de juros.
--   Os limites do valor de juros opcional podem ser inseridos.
--   **Valor **é selecionado no campo **Calcular juros com base em** na página **Configurar códigos de juros**.
+- Um valor de juros é especificado para cada moeda no código de juros.
+- Os limites do valor de juros opcional podem ser inseridos.
+- <strong>Valor **é selecionado no campo **Calcular juros com base em</strong> na página <strong>Configurar códigos de juros</strong>.
 
 Por exemplo, para configurar um código de juros que avalie juros de 25,00 para cada 20 dias que o pagamento da fatura excede a data de vencimento da transação, insira 20 no campo **Calcular juros a cada** e selecione **Dia**.
 
@@ -84,7 +83,7 @@ Configure as informações do intervalo conforme as informações a seguir.
 | 1,001          | 2                  |
 | 5,001          | 3                  |
 
- 
+
 ## <a name="example-2-interest-by-range--days"></a>Exemplo 2: Juros por intervalo = Dias
 --------------------------------------------------
 
@@ -105,7 +104,7 @@ Configure as informações do intervalo conforme as informações a seguir.
 | 61             | 15                 |
 | 91             | 20                 |
 
- 
+
 ## <a name="example-3-interest-by-range--months"></a>Exemplo 3: Juros por intervalo = Meses
 ----------------------------------------------------
 

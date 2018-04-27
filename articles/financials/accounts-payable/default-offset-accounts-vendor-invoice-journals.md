@@ -19,19 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bf7af869e44a60d07d66e83bfb55bd0cc7edfb91
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 90b24e8e00a78c122e0f7c712a694c9c62bd4824
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>Contrapartidas padrão para diários de faturas de fornecedor e diários de aprovação de faturas
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 As contrapartidas padrão são usadas nas seguintes páginas de diário de fatura de fornecedor:
 
@@ -87,10 +84,10 @@ Use a tabela a seguir para ajudar a decidir onde você deve atribuir contas padr
 <li>Entradas de diário em diários que usam o nome do diário</li>
 </ul></td>
 <td>Essas entradas padrão são usadas em páginas de cabeçalho de diário, e a contrapartida na página de cabeçalho de diário é usada como uma entrada padrão nas páginas de comprovante de diário. As contas padrão da página <strong>Nomes de diário </strong>só serão usadas se as contas padrão não tiverem sido configuradas para a conta de fornecedor.</td>
-<td>Use esta opção para configurar contas padrão usadas quando uma contrapartida de fornecedor padrão não tiver sido atribuída.</td>
+<td>Use esta opção para configurar contas padrão usadas quando uma contrapartida padrão de fornecedor não tiver sido atribuída.</td>
 </tr>
 <tr class="odd">
-<td><strong>Cabeçalho do diário</strong> – configure uma contrapartida padrão para um diário como uma entrada padrão nas páginas de comprovante de diário. Observe que não será possível especificar contrapartidas padrão no cabeçalho do diário se o tipo de diário dos nomes de diário for <strong>Registro de fatura</strong> ou <strong>Aprovação</strong>.</td>
+<td><strong>Cabeçalho do diário</strong> – configure uma contrapartida padrão para um diário como uma entrada padrão nas páginas de comprovante de diário. Observe que não será possível especificar contrapartidas padrão no cabeçalho do diário se o tipo de diário do nome do diário for <strong>Registro de fatura</strong> ou <strong>Aprovação</strong>.</td>
 <td>Entradas de diário no diário</td>
 <td>A contrapartida padrão para um diário é usada como a entrada padrão nas páginas de comprovante de diário.</td>
 <td>Use esta opção para ajudar a acelerar a entrada de dados caso a maioria das entradas de um diário tenha a mesma contrapartida.</td>

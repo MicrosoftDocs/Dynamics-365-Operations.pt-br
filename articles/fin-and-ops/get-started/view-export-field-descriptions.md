@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6426f208a51ffbf72c6faa8cb281aba2984052d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>Exibir e exportar descrições de campos
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve como exibir descrições dos campos e como usar a página de descrições de campo para exportação de descrições.
 
@@ -77,7 +76,7 @@ Há várias maneiras de se pesquisar uma página no campo **Selecionar uma pági
     -   Se houver mais de uma correspondência exata, não há descrições mostradas. Você deve abrir a lista suspensa e selecionar a página que você deseja.
     -   Se o nome que você digitou é parte do nome de uma outra página, você verá as descrições da sua página. No entanto, se você abrir a lista suspensa, você verá outras páginas que contêm esse nome.
 
-Por exemplo, não há descrições mostradas quando você digitar **Contagem** no campo ****Selecionar uma página****. Você abre a lista suspensa, e vê que há duas páginas que têm o nome de **Contagem** e diversas páginas que contêm a palavra "Contagem" no nome. Se você escolher a página que tem o mesmo nome da AOT **InventJournalCount**, as descrições dos campos dessa página serão mostradas. No entanto, ao abrir o menu suspenso novamente, você verá que a lista agora exibe todas as páginas que contêm “InventJournalCount” como parte do nome da página da AOT.
+Por exemplo, não há descrições mostradas quando você digita <strong>Contagem</strong> no campo *<strong><em>Selecionar uma página</em></strong>* . Você abre a lista suspensa, e vê que há duas páginas que têm o nome de <strong>Contagem</strong> e diversas páginas que contêm a palavra "Contagem" no nome. Se você escolher a página que tem o mesmo nome da AOT <strong>InventJournalCount</strong>, as descrições dos campos dessa página serão mostradas. No entanto, ao abrir o menu suspenso novamente, você verá que a lista agora exibe todas as páginas que contêm “InventJournalCount” como parte do nome da página da AOT.
 
 ## <a name="troubleshooting"></a>Solução de problemas
 Esta seção oferece informações para ajudá-lo a solucionar problemas que possam surgir durante o uso da página Descrições dos campos.

@@ -17,16 +17,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 2b3a384a3b9be686b10ce1f181664b0b9bbe9969
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 22f766b780d10d4fc615660990729f008007787a
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expense-management-parameters"></a>Parâmetros de gerenciamento de despesas
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 -----------------------------
 
@@ -87,9 +87,10 @@ Os parâmetros controlam o comportamento geral no Gerenciamento de despesas.
 
 ### <a name="anti-corruption"></a>Anticorrupção
 
-| **Campo**                             | **Descrição**      |
-|---------------------------------------|------------------------------------------------------------------------|
-|**Exibir atestado de anticorrupção**   | Selecione essa opção para exibir o texto anticorrupção ao criar um novo relatório de despesas. As categorias de despesa específicas poderão então ser habilitadas e isso exigirá que o atestado de anticorrupção esteja selecionado no relatório de despesas. Por exemplo, uma categoria de presentes relacionada a uma despesa de autoridade do governo pode exigir que o funcionário confirme se a despesa atende à política da empresa relacionada a autoridades do governo. |
-|**Mensagem de anticorrupção para emissor** | Insira texto que será exibido ao funcionário quando ele estiver criando um novo relatório de despesas. Clique no botão **Traduções** para inserir o texto do idioma específico que será exibido com base no idioma do usuário.         |
-|**Mensagem de anticorrupção para aprovador**  | Insira texto que será exibido ao aprovador quando ele estiver criando um novo relatório de despesas. Clique no botão **Traduções** para inserir o texto do idioma específico que será exibido com base no idioma do usuário.        |
+|                 <strong>Campo</strong>                 |                                                                                                                                                                                            <strong>Descrição</strong>                                                                                                                                                                                             |
+|--------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <strong>Exibir atestado de anticorrupção</strong>  | Selecione essa opção para exibir o texto anticorrupção ao criar um novo relatório de despesas. As categorias de despesa específicas poderão então ser habilitadas e isso exigirá que o atestado de anticorrupção esteja selecionado no relatório de despesas. Por exemplo, uma categoria de presentes relacionada a uma despesa de autoridade do governo pode exigir que o funcionário confirme se a despesa atende à política da empresa relacionada a autoridades do governo. |
+| <strong>Mensagem de anticorrupção para emissor</strong> |                                                                                             Insira texto que será exibido ao funcionário quando ele estiver criando um novo relatório de despesas. Clique no botão <strong>Traduções</strong> para inserir o texto do idioma específico que será exibido com base no idioma do usuário.                                                                                             |
+| <strong>Mensagem de anticorrupção para aprovador</strong>  |                                                                                             Insira texto que será exibido ao aprovador quando ele estiver criando um novo relatório de despesas. Clique no botão <strong>Traduções</strong> para inserir o texto do idioma específico que será exibido com base no idioma do usuário.                                                                                             |
+
 

@@ -18,24 +18,28 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 13d7478197c05211eda30f28b483ec68858ad464
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0f3f50061fc5b9b4cfc00000492840061fc3b386
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="distributions-on-an-expense-report"></a>Distribuições em um relatório de despesas
 
-[!include[banner](../includes/banner.md)] Ao inserir despesas em um relatório de despesas, você pode distribuir as despesas em vários projetos, dimensões financeiras ou contas de sua organização.
+[!INCLUDE [banner](../includes/banner.md)]
+
+ Ao inserir despesas em um relatório de despesas, você pode distribuir as despesas em vários projetos, dimensões financeiras ou contas de sua organização.
 
 Por exemplo, Nancy, um representante de vendas da Fabrikam, viajou de Copenhagen até Frankfurt. Em Frankfurt, encontrou-se com duas organizações para discutir projetos separados para cada organização. Nancy passou sete dias úteis trabalhando na organização A no projeto A, e três dias úteis trabalhando na organização B no projeto B.
 
 Como Nancy trabalhou em dois projetos separados quando estava em Frankfurt, quando entrar em seu relatório de despesas, ela distribuirá as despesas conforme apropriado para cada projeto. A tabela a seguir mostra como Nancy distribuiu as despesas.
 
-| **Tipo de Despesa** | **Valor total de despesas** | **Valor distribuído para o projeto A** | **Valor distribuído para o projeto B** |
-|------------------|--------------------------|-------------------------------------|-------------------------------------|
-| Passagem de trem       | DKK 578                  | DKK 405                             | DKK 173                             |
-| Hotel            | 725 EUR                  | 557 EUR                             | 168 EUR                             |
-| Refeições            | 346 EUR                  | 284 EUR                             | 62 EUR                              |
+
+| <strong>Tipo de Despesa</strong> | <strong>Valor total de despesas</strong> | <strong>Valor distribuído para o projeto A</strong> | <strong>Valor distribuído para o projeto B</strong> |
+|-------------------------------|---------------------------------------|--------------------------------------------------|--------------------------------------------------|
+|          Passagem de trem           |                DKK 578                |                     DKK 405                      |                     DKK 173                      |
+|             Hotel             |                725 EUR                |                     557 EUR                      |                     168 EUR                      |
+|             Refeições             |                346 EUR                |                     284 EUR                      |                      62 EUR                      |
+
 

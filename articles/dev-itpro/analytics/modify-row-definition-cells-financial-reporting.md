@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: dd34fb71f7a5d31a075c6475c2fe6627193d891f
-ms.openlocfilehash: 6bb405937288b46f49420a1735c32b5b7c16248e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3131173e10ff7eefeaca18285054ce2312d7ab57
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="modify-row-definition-cells"></a>Modificar células de definição de linha
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve as informações que são necessárias para cada célula em uma definição de linha em um relatório financeiro e explica como inserir essas informações. 
 
@@ -104,26 +103,26 @@ A célula **Código de Formato** oferece uma seleção de opções pré-formatad
 2.  Clique duas vezes na célula **Código de Formato**.
 3.  Selecione um código de formato na lista. A tabela a seguir descreve os códigos de formato e suas ações.
 
-| **Código de formato**               | **Interpretação do código de formato** | **Ação**                                                                                                                                                                                                     |
-|-------------------------------|---------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| (Nenhuma)                        |                                       | Desmarca a célula **Código de Formato**.                                                                                                                                                                               |
-| TOT                           | Total                                 |  Identifica uma linha que usa operadores matemáticos na coluna **Fórmulas/Linhas/Unidades Relacionadas**. Os totais contêm operadores simples, como **+** ou **-**.                                                     |
-| CAL                           | Cálculo                           | Identifica uma linha que usa operadores matemáticos na coluna **Fórmulas/Linhas/Unidades Relacionadas**. Os cálculos contêm operadores complexos, como as instruções **+**, **-**, **\***, **/** e **IF/THEN/ELSE**. |
-| DES                           | descrição                           | Identifica uma linha de título ou uma linha em branco em um relatório.                                                                                                                                                        |
-| LFT RGT CEN                   | Esquerdo Direito Centro                     |  Alinha o texto da descrição da linha na página do relatório, independente da posição do texto na definição da coluna.                                                                                              |
-| CBR                           | Alterar linha de base                       | Identifica uma linha que define a linha de base para cálculos da coluna.                                                                                                                                               |
-| COLUMN                        | Quebra de coluna                          | Inicia uma nova coluna no relatório.                                                                                                                                                                             |
-| PAGE                          | Quebra de página                            | Inicia uma nova página no relatório.                                                                                                                                                                               |
-| \---                          | Sublinhado único                      | Coloca uma única linha em todas as colunas de valor do relatório.                                                                                                                                                     |
-|  ===                          | Sublinhado duplo                      | Coloca uma linha dupla em todas as colunas de valor do relatório.                                                                                                                                                     |
-| LINE1                         | Linha fina                             | Inclui uma linha única e fina na página.                                                                                                                                                                      |
-| LINE2                         | Linha grossa                            | Inclui uma linha única e grossa na página.                                                                                                                                                                     |
-| LINE3                         | Linha pontilhada                           | Inclui uma linha única e pontilhada na página.                                                                                                                                                                    |
-| LINE4                         | Linha grossa e linha fina              | Inclui uma linha dupla na página. A linha de cima é grossa, e a linha de baixo é fina.                                                                                                                       |
-| LINE5                         | Linha fina e linha grossa              | Inclui uma linha dupla na página. A linha de cima é fina, e a linha de baixo é grossa                                                                                                                       |
-| BXB BXC                       | Linha em caixa                             | Desenha uma caixa ao redor das linhas do relatório que começam com a linha **BXB** e terminam com a linha **BXC**.                                                                                                               |
-| REM                           | Comentário                                | Identifica uma linha que é uma linha de comentários e não deve ser impressa no relatório. Por exemplo, uma linha de comentários pode explicar as técnicas de formatação.                                                            |
-| SORT ASORT SORTDESC ASORTDESC | Classificar                                  | Classifica despesas e receitas, define sequência de um relatório de variação real ou de orçamento pela variação maior ou classifica as descrições da linha em ordem alfabética.                                                                   |
+| <strong>Código de formato</strong>  | <strong>Interpretação do código de formato</strong> |                                                                                                                             <strong>Ação</strong>                                                                                                                              |
+|-------------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|            (Nenhuma)             |                                                    |                                                                                                                  Desmarca a célula <strong>Código de formato</strong>.                                                                                                                   |
+|              TOT              |                       Total                        |                                         Identifica uma linha que usa operadores matemáticos na coluna <strong>Fórmulas/Linhas/Unidades Relacionadas</strong>. Os totais contêm operadores simples, como <strong>+</strong> ou <strong>-</strong>.                                         |
+|              CAL              |                    Cálculo                     | Identifica uma linha que usa operadores matemáticos na coluna de <strong>Fórmulas/linhas/unidades relacionadas</strong>. Os cálculos contêm operadores complexos, como <strong>+</strong>, <strong>-</strong>, <strong>\</strong><em>, **/</em><em> e as instruções **IF/THEN/ELSE</em>*. |
+|              DES              |                    descrição                     |                                                                                                             Identifica uma linha de título ou uma linha em branco em um relatório.                                                                                                              |
+|          LFT RGT CEN          |                 Esquerdo Direito Centro                  |                                                                                 Alinha o texto da descrição da linha na página do relatório, independente da posição do texto na definição da coluna.                                                                                 |
+|              CBR              |                  Alterar linha de base                   |                                                                                                         Identifica uma linha que define a linha de base para cálculos da coluna.                                                                                                         |
+|            COLUMN             |                    Quebra de coluna                    |                                                                                                                        Inicia uma nova coluna no relatório.                                                                                                                        |
+|             PAGE              |                     Quebra de página                     |                                                                                                                         Inicia uma nova página no relatório.                                                                                                                         |
+|             \---              |                  Sublinhado único                  |                                                                                                            Coloca uma única linha em todas as colunas de valor do relatório.                                                                                                            |
+|              ===              |                  Sublinhado duplo                  |                                                                                                            Coloca uma linha dupla em todas as colunas de valor do relatório.                                                                                                            |
+|             LINE1             |                     Linha fina                      |                                                                                                                    Inclui uma linha única e fina na página.                                                                                                                     |
+|             LINE2             |                     Linha grossa                     |                                                                                                                    Inclui uma linha única e grossa na página.                                                                                                                    |
+|             LINE3             |                    Linha pontilhada                     |                                                                                                                   Inclui uma linha única e pontilhada na página.                                                                                                                    |
+|             LINE4             |              Linha grossa e linha fina              |                                                                                             Inclui uma linha dupla na página. A linha de cima é grossa, e a linha de baixo é fina.                                                                                             |
+|             LINE5             |              Linha fina e linha grossa              |                                                                                             Inclui uma linha dupla na página. A linha de cima é fina, e a linha de baixo é grossa                                                                                             |
+|            BXB BXC            |                     Linha em caixa                      |                                                                            Desenha uma caixa em torno das linhas do relatório que começam com a linha <strong>BXB</strong> e terminam com a linha <strong>BXC</strong>.                                                                            |
+|              REM              |                       Comentário                       |                                                               Identifica uma linha que é uma linha de comentários e não deve ser impressa no relatório. Por exemplo, uma linha de comentários pode explicar as técnicas de formatação.                                                                |
+| SORT ASORT SORTDESC ASORTDESC |                        Classificar                        |                                                                   Classifica despesas e receitas, define sequência de um relatório de variação real ou de orçamento pela variação maior ou classifica as descrições da linha em ordem alfabética.                                                                   |
 
 ## <a name="specify-related-formulasrowsunits"></a>Especificar fórmulas/linhas/unidades relacionadas
 A célula **Fórmulas/Linhas/Unidades Relacionadas** tem várias finalidades. Dependendo do tipo de linha, uma célula **Fórmulas/Linhas/Unidades Relacionadas** pode realizar uma das seguintes funções:
@@ -211,12 +210,12 @@ Os códigos de classificação classificam contas ou valores, definem um código
 
 ### <a name="select-a-sorting-code"></a>Selecionar um código de classificação
 
-1.  No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
-2.  Clique duas vezes na célula **Código do Formato** e selecione um código de classificação.
-3.  Na célula **Fórmulas/Linhas/Unidades Relacionadas**, especifique o intervalo de códigos de linha para classificação. Para especificar um intervalo, insira o primeiro código de linha, dois pontos (:), e então o último código de linha. Por exemplo, insira **160:490** para especificar que o intervalo é da linha 160 até a linha 490.
-4.  Na célula **Restrição de Coluna**, insira a letra da coluna do relatório a ser usada para a classificação. 
-> [!Note] 
-> Inclua apenas as linhas de valor em um cálculo de classificação.
+1. No Designer de Relatórios, clique em **Definições de Linha** e abra a definição de linha para modificá-la.
+2. Clique duas vezes na célula **Código do Formato** e selecione um código de classificação.
+3. Na célula **Fórmulas/Linhas/Unidades Relacionadas**, especifique o intervalo de códigos de linha para classificação. Para especificar um intervalo, insira o primeiro código de linha, dois pontos (:), e então o último código de linha. Por exemplo, insira **160:490** para especificar que o intervalo é da linha 160 até a linha 490.
+4. Na célula **Restrição de Coluna**, insira a letra da coluna do relatório a ser usada para a classificação. 
+   > [!Note] 
+   > Inclua apenas as linhas de valor em um cálculo de classificação.
 
 ### <a name="examples-of-ascending-and-descending-column-values"></a>Exemplos de valores de coluna crescentes e decrescentes
 
@@ -258,41 +257,41 @@ A célula **Substituição de Formato** especifica a formatação que é usada p
 
 A formatação de moeda se aplica a um valor fiscal e inclui o símbolo de moeda. As opções a seguir estão disponíveis:
 
--   **Símbolo de moeda** – o símbolo da moeda para o relatório. Esse valor substitui a configuração **Opções Regionais** para as informações da empresa.
--   **Números negativos** – Os números negativos podem ter um sinal de subtração (-), podem aparecer entre parênteses ou ter um triângulo (∆).
--   **Casas decimais** – O número de dígitos que aparecem após o ponto decimal.
--   **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. 
-> [!Note] 
-> Em caso de supressão da impressão de valores zero ou nenhuma atividade no período, este texto será suprimido.
+- **Símbolo de moeda** – o símbolo da moeda para o relatório. Esse valor substitui a configuração **Opções Regionais** para as informações da empresa.
+- **Números negativos** – Os números negativos podem ter um sinal de subtração (-), podem aparecer entre parênteses ou ter um triângulo (∆).
+- **Casas decimais** – O número de dígitos que aparecem após o ponto decimal.
+- **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. 
+  > [!Note] 
+  > Em caso de supressão da impressão de valores zero ou nenhuma atividade no período, este texto será suprimido.
 
 ### <a name="numeric-formatting"></a>Formatação numérica
 
 A formatação numérica se aplica a qualquer valor e não inclui um símbolo de moeda. As opções a seguir estão disponíveis:
 
--   **Números negativos** – Os números negativos podem ter um sinal de subtração (-), podem aparecer entre parênteses ou ter um triângulo (∆).
--   **Casas decimais** – O número de dígitos que aparecem após o ponto decimal.
--   **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. 
-> [!Note] 
-> Em caso de supressão da impressão de valores zero ou nenhuma atividade no período, este texto será suprimido.
+- **Números negativos** – Os números negativos podem ter um sinal de subtração (-), podem aparecer entre parênteses ou ter um triângulo (∆).
+- **Casas decimais** – O número de dígitos que aparecem após o ponto decimal.
+- **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. 
+  > [!Note] 
+  > Em caso de supressão da impressão de valores zero ou nenhuma atividade no período, este texto será suprimido.
 
 ### <a name="percentage-formatting"></a>Formatação de porcentagem
 
 A formatação de porcentagem inclui o sinal de porcentagem (%). As opções a seguir estão disponíveis:
 
--   **Números negativos** – Os números negativos podem ter um sinal de subtração (-), podem aparecer entre parênteses ou ter um triângulo (∆).
--   **Casas decimais** – O número de dígitos a serem exibidos após o ponto decimal.
--   **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. 
-> [!Note] 
-> Em caso de supressão da impressão de valores zero ou nenhuma atividade no período, este texto será suprimido.
+- **Números negativos** – Os números negativos podem ter um sinal de subtração (-), podem aparecer entre parênteses ou ter um triângulo (∆).
+- **Casas decimais** – O número de dígitos a serem exibidos após o ponto decimal.
+- **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. 
+  > [!Note] 
+  > Em caso de supressão da impressão de valores zero ou nenhuma atividade no período, este texto será suprimido.
 
 ### <a name="custom-formatting"></a>Formatação personalizada
 
 Use a categoria de formato personalizado para criar uma substituição de formato personalizado. As opções a seguir estão disponíveis:
 
--   **Tipo** – o formato personalizado.
--   **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. 
-> [!Note] 
-> Em caso de supressão da impressão de valores zero ou nenhuma atividade no período, este texto será suprimido.
+- **Tipo** – o formato personalizado.
+- **Texto de substituição de valor zero** – O texto a ser incluído no relatório quando o valor é 0 (zero). Esse texto aparece como a última linha na área **Exemplo**. 
+  > [!Note] 
+  > Em caso de supressão da impressão de valores zero ou nenhuma atividade no período, este texto será suprimido.
 
 O tipo deve representar o valor positivo e, em seguida, o valor negativo. Em geral, você insere um formato semelhante que diferencia-se entre os valores positivos e negativos. Por exemplo, para especificar que os valores positivos e negativos têm duas casas decimais, mas os valores negativos aparecem entre parênteses, insira **0,00;(0,00)**. A tabela a seguir mostra os formatos personalizadas que você pode usar para controlar o formato de seus valores. Todos os exemplos começam com o valor 1234,56.
 
@@ -387,7 +386,7 @@ Por padrão, o designer de relatórios não imprime linhas sem um saldo correspo
 3.  No menu **Arquivo**, clique em **Salvar** para salvar as alterações.
 
 ## <a name="use-wildcard-characters-and-ranges-in-a-row-definition"></a>Use caracteres curinga e variações em uma definição de linha
-Ao inserir um valor de segmento natural na caixa de diálogo **Dimensões**, você pode colocar um caractere curinga (? ou \*) em uma posição de um segmento. O Criador de relatórios extrai todos os valores das posições definidas sem considerar os caracteres curinga. Por exemplo, a definição de linha contém somente valores de segmento natural, e os segmentos naturais têm quatro caracteres. Inserindo **6???** em uma linha, você instrui o desenvolvedor de relatório para incluir todas as contas que têm um valor de segmento natural que inicia com 6. Se você inserir **6\***, os mesmos resultados são devolvidos, mas os resultados também incluem valores de largura variável como **60** e **600000**. O designer de relatórios substitui cada caractere curinga (?) pelo intervalo completo dos valores possíveis, que incluem letras e caracteres especiais. Por exemplo, no intervalo de **12?0** até **12?4**, o caractere curinga em **12?0** é substituído pelo menor valor no conjunto de caracteres, e o caractere curinga em **12?4** é substituído pelo maior valor no conjunto de caracteres. 
+Ao inserir um valor de segmento natural na caixa de diálogo <strong>Dimensões</strong>, você pode colocar um caractere curinga (? ou \*) em uma posição de um segmento. O Criador de relatórios extrai todos os valores das posições definidas sem considerar os caracteres curinga. Por exemplo, a definição de linha contém somente valores de segmento natural, e os segmentos naturais têm quatro caracteres. Inserindo <strong>6???</strong> em uma linha, você instrui o desenvolvedor de relatório para incluir todas as contas que têm um valor de segmento natural que inicia com 6. Se você digitar <strong>6\</strong><em>, os mesmos resultados são devolvidos, mas os resultados também incluem valores de largura variável como **60</em>* e <strong>600000</strong>. O designer de relatórios substitui cada caractere curinga (?) pelo intervalo completo dos valores possíveis, que incluem letras e caracteres especiais. Por exemplo, no intervalo de <strong>12?0</strong> até <strong>12?4</strong>, o caractere curinga em <strong>12?0</strong> é substituído pelo menor valor no conjunto de caracteres, e o caractere curinga em <strong>12?4</strong> é substituído pelo maior valor no conjunto de caracteres. 
 > [!Note] 
 > Você deve evitar usar caracteres curinga para as contas inicial e final nos intervalos. Se você usar caracteres curingas na conta inicial ou final, resultados inesperados poderão ser recebidos.
 
@@ -466,15 +465,15 @@ Um conjunto de valores de dimensão é um grupo nomeado de valores de dimensão.
 
 ### <a name="update-a-set-of-dimension-values"></a>Atualizar um conjunto de valores de dimensão
 
-1.  No Report Designer, abra a linha, coluna ou hierarquia de definição a ser alterada.
-2.  No menu **Editar**, clique em **Gerenciar Conjuntos de Valores de Dimensão**.
-3.  Na caixa de diálogo **Gerenciar Conjuntos de Valores de Dimensão**, no campo **Dimensão**, selecione o tipo de dimensão.
-4.  Na lista, selecione o conjunto de valores de dimensão a ser atualizado, e clique em **Modificar**.
-5.  Na caixa de diálogo **Modificar**, modifique os valores da fórmula a ser incluída no conjunto. 
-> [!Note] 
-> Se você adicionar novas contas ou dimensões, verifique se mudou os conjuntos existentes de valores de dimensão para incorporar as alterações.
-6.  Clique duas vezes na célula, e selecione o operador apropriado, a conta **De** e a conta **Até**.
-7.  Clique em **OK** para fechar a caixa de diálogo **Modificar** e salvar as alterações.
+1. No Report Designer, abra a linha, coluna ou hierarquia de definição a ser alterada.
+2. No menu **Editar**, clique em **Gerenciar Conjuntos de Valores de Dimensão**.
+3. Na caixa de diálogo **Gerenciar Conjuntos de Valores de Dimensão**, no campo **Dimensão**, selecione o tipo de dimensão.
+4. Na lista, selecione o conjunto de valores de dimensão a ser atualizado, e clique em **Modificar**.
+5. Na caixa de diálogo **Modificar**, modifique os valores da fórmula a ser incluída no conjunto. 
+   > [!Note] 
+   > Se você adicionar novas contas ou dimensões, verifique se mudou os conjuntos existentes de valores de dimensão para incorporar as alterações.
+6. Clique duas vezes na célula, e selecione o operador apropriado, a conta **De** e a conta **Até**.
+7. Clique em **OK** para fechar a caixa de diálogo **Modificar** e salvar as alterações.
 
 ### <a name="copy-a-dimension-set"></a>Copiar um conjunto de dimensões
 

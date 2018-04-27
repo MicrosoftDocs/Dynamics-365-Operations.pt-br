@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6cd1e3a1f6b5c979a4f60d97cc2203cdcd32bbbe
-ms.openlocfilehash: 6de88b82c9a663bfe6d2756fde6f1a7412a44b1e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pay-based-on-registrations"></a>Pagamento com base em registros
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este tópico explica, detalhadamente, como o pagamento é calculado com base em registros de trabalhador. Ele inclui exemplos para mostram como as várias combinações de opções de configuração disponíveis para o cálculo afetam o resultado. Estas são algumas das áreas que serão abordadas:
 
@@ -446,7 +446,7 @@ Você pode criar a ausência planejada para trabalhadores na página **Criar aus
 O trabalho se baseia em uma consulta. Assim, você pode criar a ausência planejada para vários trabalhadores, como trabalhadores que pertencem ao mesmo grupo de cálculo. Se a ausência planejada se destina a um único trabalhador, o registro pode ser inserido na página **Presença** ou na página **Trabalhadores de registro de tempo**.
 
 - Para inserir um registro de ausência da página **Presença**, selecione **Horário e presença** &gt; **Consultas e relatórios** &gt; **Presença** &gt; **Presença** e **Registro de ausência**.
-- Para inserir um registro de ausência da página ****Trabalhadores de registro de tempo****, selecione **Horário e presença** &gt; **Configuração** &gt; **Trabalhadores de registro de tempo** e, na guia **Hora**, em **Atribuição de tempo**, selecione **Registros de ausência**.
+- Para inserir um registro de ausência da página *<strong><em>Trabalhadores de registro de tempo</em></strong>*, selecione <strong>Horário e presença</strong> &gt; <strong>Configuração</strong> &gt; <strong>Trabalhadores de registro de tempo</strong> e, em seguida, na guia <strong>Hora</strong>, na <strong>Atribuição de tempo</strong>, selecione <strong>Registros de ausência</strong>.
 
 Você pode usar o relatório **Ausências planejadas** para exibir uma visão geral das ausências planejadas para trabalhadores. Para abrir esse relatório, selecione **Horário e presença** &gt; **Consultas e relatórios** &gt; **Relatórios de ausência** &gt; **Ausências planejadas**.
 

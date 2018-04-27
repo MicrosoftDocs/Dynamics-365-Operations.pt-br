@@ -19,17 +19,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1fe940d2d282a5b4468b3ba572626b5c87839e6d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4361311be0cf5c33c9b2fa4700b084a7b43f5b65
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-filtering-and-query-syntax"></a>Opções avançadas de filtragem e sintaxe de consulta
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Este artigo descreve a filtragem e as opções de consulta disponíveis quando você usa o operador "correspondências" na caixa de diálogo Filtro/Classificação Avançado.
 
@@ -68,7 +67,7 @@ Este artigo descreve a filtragem e as opções de consulta disponíveis quando v
 <td><em>-valor de</em>.<em>valor até</em> (dois pontos finais)</td>
 <td>Entre os dois valores que são separados por dois pontos finais</td>
 <td>Digite o Valor - de, os dois pontos finais e o Valor - até.</td>
-<td><strong>1..10</strong> localiza todos os valores de 1 a 10. No entanto, em um campo de string, <strong>A..C</strong> localiza todos os valores que começam com &quot;A&quot; e &quot;B&quot; e os valores exatamente iguais a &quot;C&quot;. Por exemplo, esta consulta não encontrará &quot;Ca&quot;. Para localizar todos os valores de &quot;A*&quot; a &quot;C*&quot;, digite <strong>A..D</strong>.</td>
+<td><strong>1..10</strong> localiza todos os valores de 1 a 10. No entanto, em um campo de string, <strong>A..C</strong> localiza todos os valores que começam com &quot;A&quot; e &quot;B&quot; e os valores exatamente iguais a &quot;C&quot;. Por exemplo, esta consulta não encontrará &quot;Ca&quot;. Para localizar todos os valores de &quot;A<em>&quot; a &quot;C</em>&quot;, digite <strong>A..D</strong>.</td>
 </tr>
 <tr class="even">
 <td>..<em>valor</em> (dois pontos finais)</td>
@@ -97,20 +96,20 @@ Este artigo descreve a filtragem e as opções de consulta disponíveis quando v
 <tr class="even">
 <td><em>valor</em>* (asterisco)</td>
 <td>Iniciando a partir do valor que é inserido</td>
-<td>Digite o valor inicial e, em seguida, um asterisco (<strong>*</strong>).</td>
-<td><strong>S*</strong> localiza todas as sequências de caracteres que começam com &quot;S&quot;, como &quot;Stockholm&quot;, &quot;Sydney&quot; e &quot;San Francisco&quot;.</td>
+<td>Digite o valor inicial e, em seguida, um asterisco (<strong><em></strong>).</td>
+<td><strong>S</em></strong> localiza todas as sequências de caracteres que começam com &quot;S&quot;, como &quot;Stockholm&quot;, &quot;Sydney&quot; e &quot;San Francisco&quot;.</td>
 </tr>
 <tr class="odd">
-<td>*<em>valor</em> (asterisco)</td>
+<td><em><em>valor</em> (asterisco)</td>
 <td>Terminando com o valor inserido.</td>
 <td>Digite um asterisco e, em seguida, o valor final.</td>
-<td><strong>*east</strong> localiza todas as cadeias de caracteres que terminam com &quot;east&quot; como &quot;Northeast&quot; e &quot;Southeast&quot;.</td>
+<td><strong></em>east</strong> localiza todas as cadeias de caracteres que terminam com &quot;east&quot;, como &quot;Northeast&quot; e &quot;Southeast&quot;.</td>
 </tr>
 <tr class="even">
-<td>*<em>valor</em>* (asterisco)</td>
+<td><em><em>valor</em></em> (asterisco)</td>
 <td>Contendo o valor inserido</td>
 <td>Digite um asterisco, um valor e outro asterisco.</td>
-<td><strong>*th*</strong> localiza todas as cadeias que contenham &quot;th&quot;, como &quot;Northeast&quot; e &quot;Southeast&quot;.</td>
+<td><strong><em>th</em></strong> localiza todas as cadeias que contenham &quot;th&quot;, como &quot;Northeast&quot; e &quot;Southeast&quot;.</td>
 </tr>
 <tr class="odd">
 <td>? (ponto de interrogação)</td>
@@ -131,7 +130,7 @@ Este artigo descreve a filtragem e as opções de consulta disponíveis quando v
 <td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
-<td>Q</td>
+<td>T</td>
 <td>Data atual</td>
 <td>Digite <strong>T</strong>.</td>
 <td><strong>T</strong> corresponde à data de hoje.</td>

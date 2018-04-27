@@ -18,17 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 98e32298d1c8285437adf3df9820a71e7a0d7f6c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Aprovações de fatura móvel
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Os recursos móveis no Microsoft Dynamics 365 for Finance and Operations permitem que um usuário de negócios crie experiências móveis. Para cenários avançados, a plataforma também permite que os desenvolvedores estendam as funcionalidades que desejam. A maneira mais eficaz de aprender alguns dos novos conceitos em dispositivo móvel é passar pelo processo de desenvolvimento de alguns cenários. Este tópico tem como objetivo fornecer uma abordagem prática para criar cenários móveis tirando aprovações da fatura de fornecedor do celular como um caso de uso. Esse tópico deve ajudá-lo a criar outras variações de cenários e também pode ser aplicado a outros cenários que não são relacionados a faturas de fornecedor.
 
@@ -127,7 +126,7 @@ Como regra geral, ao trabalhar com o designer móvel, certifique-se de “public
 ### <a name="create-the-workspace"></a>Criar o espaço de trabalho
 
 1.  Em um navegador, abra o Finance and Operations e faça login.
-2.  Depois de fazer login, anexe **&mode=mobile** à URL como exibido no exemplo a seguir e atualize a página: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**
+2.  Depois de fazer login, anexe **&mode=mobile** à URL como exibido no exemplo a seguir e atualize a página: https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard **&mode=mobile**
 3.  Clique no botão **Configurações** (imagem) na parte superior direita da página e clique em **Aplicativo móvel**. O designer de aplicativo móvel deve aparecer apenas enquanto o gravador de tarefas é exibido.
 4.  Clique em **Adicionar** para criar um novo espaço de trabalho. Por exemplo, nomeie o espaço de trabalho **Minhas aprovações**.
 5.  Insira uma descrição.
@@ -173,23 +172,23 @@ A primeira página móvel que você deve criar pela lista de faturas atribuídas
 
 Para criar a página de detalhes de fatura para dispositivo móvel, use a página **VendMobileInvoiceHeaderDetails** no Finance and Operations. Observe que, dependendo do número de faturas que você possui no sistema, esta página exibe fatura mais antiga (a fatura criada primeiro.) Para encontrar uma fatura específica, você pode usar o filtro à esquerda. Entretanto, não exigimos uma fatura específica para este exemplo. Nós exigimos apenas alguns dados de fatura para que possamos criar a página móvel. [![Página do fluxo de trabalho](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  Na URL do Finance and Operations, substitua o nome do item de menu por **VendMobileInvoiceHeaderDetails** para abrir o formulário
-2.  Abra o criador móvel a partir do botão **Configurações** (imagem).
-3.  Clique no botão **Editar** para iniciar o modo de edição no espaço de trabalho.
-4.  Selecione a página **Minhas fatura de fornecedor** que você criou anteriormente e clique em **Editar**.
-5.  Na guia **Campos**, clique no cabeçalho da coluna **Grade**.
-6.  Clique em **Propriedades** &gt; **Adicionar página**. **Observação:** Quando clicar no cabeçalho **Grade** e adicionar uma página, a relação com a página de detalhes é estabelecida automaticamente.
-7.  Insira um título de página, como **Detalhes de fatura**, e uma descrição, como **Exibir cabeçalho de fatura e detalhes de linha**.
-8.  Clique em **Selecionar campos**. Observe que, a ordem em que você adicionar é a ordem em que os campos serão exibidos para o usuário final. A única maneira de alterar a ordem dos campos será selecionar novamente todos os campos. 
-9.  Adicione os campos a seguir a partir do cabeçalho baseado nos requisitos deste cenário:
-    - Nome do Fornecedor
-    - Total da fatura
-    - Conta de fatura
-    - Número da fatura
-    - Data da fatura
-    - Descrição da fatura
-    - Data de Vencimento
-    - Moeda da fatura
+1. Na URL do Finance and Operations, substitua o nome do item de menu por **VendMobileInvoiceHeaderDetails** para abrir o formulário
+2. Abra o criador móvel a partir do botão **Configurações** (imagem).
+3. Clique no botão **Editar** para iniciar o modo de edição no espaço de trabalho.
+4. Selecione a página <strong>Minhas fatura de fornecedor **que você criou anteriormente e clique em **Editar</strong>.
+5. Na guia **Campos**, clique no cabeçalho da coluna **Grade**.
+6. Clique em **Propriedades** &gt; **Adicionar página**. **Observação:** Quando clicar no cabeçalho **Grade** e adicionar uma página, a relação com a página de detalhes é estabelecida automaticamente.
+7. Insira um título de página, como **Detalhes de fatura**, e uma descrição, como **Exibir cabeçalho de fatura e detalhes de linha**.
+8. Clique em **Selecionar campos**. Observe que, a ordem em que você adicionar é a ordem em que os campos serão exibidos para o usuário final. A única maneira de alterar a ordem dos campos será selecionar novamente todos os campos. 
+9. Adicione os campos a seguir a partir do cabeçalho baseado nos requisitos deste cenário:
+   - Nome do Fornecedor
+   - Total da fatura
+   - Conta de fatura
+   - Número da fatura
+   - Data da fatura
+   - Descrição da fatura
+   - Data de Vencimento
+   - Moeda da fatura
 
 10. Adicione os seguintes campos das linhas da grade na página:
     - Categoria de compras
@@ -199,7 +198,7 @@ Para criar a página de detalhes de fatura para dispositivo móvel, use a págin
     - Valor do 1099
 
 11. Depois que todos os campos das duas etapas anteriores terem sido adicionados, clique em **Concluído**. A página deve ser semelhante à ilustração a seguir.
-[![Página após os campos serem adicionados](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![Página após os campos serem adicionados](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 12. Clique em **Concluído** para sair do modo de edição.
 13. Clique em **Voltar** e depois em **Concluído** para sair da área de trabalho
 14. Clique em **Publicar espaço de trabalho** para salvar seu trabalho
@@ -296,14 +295,14 @@ Para adicionar as ações de fluxo de trabalho, use a página **VendMobileInvoic
 
 ### <a name="vendor-invoice-attachments"></a>Anexos da fatura de fornecedor
 
-1.  Clique no botão **Configurações** (imagem) na parte superior à direita da página e clique em **Aplicativo móvel**
-2.  Clique no botão **Editar** para iniciar o modo de edição no espaço de trabalho.
-3.  Selecione a página **Detalhes de fatura** criado anteriormente e clique em **Editar**.
-4.  Defina a opção **Gerenciamento de documento** para **Sim** como exibido abaixo. **Observação:** Se não houver requisitos para exibir os anexos no dispositivo móvel, você pode deixar essa opção definida como **Não**, que é a configuração padrão.
-![Gerenciamento de documentos](./media/docmanagement-216x300.png)
-6.  Clique em **Concluído** para sair do modo de edição.
-7.  Clique em **Voltar** e depois em **Concluído** para sair da área de trabalho
-8.  Clique em **Publicar espaço de trabalho** para salvar seu trabalho
+1. Clique no botão **Configurações** (imagem) na parte superior à direita da página e clique em **Aplicativo móvel**
+2. Clique no botão **Editar** para iniciar o modo de edição no espaço de trabalho.
+3. Selecione a página <strong>Detalhes da fatura **criada anteriormente e clique em **Editar</strong>.
+4. Defina a opção **Gerenciamento de documento** para **Sim** como exibido abaixo. **Observação:** Se não houver requisitos para exibir os anexos no dispositivo móvel, você pode deixar essa opção definida como **Não**, que é a configuração padrão.
+   ![Gerenciamento de documentos](./media/docmanagement-216x300.png)
+5. Clique em **Concluído** para sair do modo de edição.
+6. Clique em **Voltar** e depois em **Concluído** para sair da área de trabalho
+7. Clique em **Publicar espaço de trabalho** para salvar seu trabalho
 
 ### <a name="vendor-invoice-line-distributions"></a>Distribuições de linha de fatura de fornecedor
 
