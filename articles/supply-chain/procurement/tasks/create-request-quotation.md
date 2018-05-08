@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-request-for-quotation"></a>Criar uma solicitação de cotação
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar uma solicitação de cotação. Isso seria feito normalmente por um agente de compras. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados. Você precisa ter tipos de solicitação configurados antes de começar. Depois de concluir essa tarefa e você tiver criado e enviado uma RFQ, você pode digitar as respostas por fornecedor, compará-las e premiar o contrato.
 

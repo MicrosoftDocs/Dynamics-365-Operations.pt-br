@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="200-percent-reducing-balance-depreciation"></a>depreciação com declínio de 200%
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo oferece uma visão geral do método de saldo de reduzem de 200 de porcentagem de depreciação.
 

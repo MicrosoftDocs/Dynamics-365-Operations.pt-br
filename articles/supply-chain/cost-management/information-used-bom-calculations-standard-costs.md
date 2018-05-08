@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>Informações usadas em cálculos de BOM com custos padrão
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Os cálculos de listas de materiais (BOM) usam dados de várias fontes para calcular os custos padrão de um item fabricado. As fontes incluem informações sobre itens, roteiros de listas, fórmulas de cálculo de custos indiretos e a versão do custo.
 

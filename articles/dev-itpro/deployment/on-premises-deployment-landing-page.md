@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="on-premises-deployment-home-page"></a>Home page da implantação local
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Você pode implantar o Microsoft Dynamics 365 for Finance and Operations (local). Quando você escolhe um tipo da implantação local, os requisitos de sistema, o dimensionamento do hardware e a funcionalidade diferem de uma implantação de nuvem. Este tópico fornece links para conteúdo que contém informações específicas de implantações locais.
 

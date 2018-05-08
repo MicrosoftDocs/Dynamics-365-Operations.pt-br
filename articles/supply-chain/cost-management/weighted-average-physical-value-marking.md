@@ -29,9 +29,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="weighted-average-with-physical-value-and-marking"></a>Média ponderada com valor físico e marcação
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 A média ponderada é um modelo de estoque com base no princípio da média ponderada, no qual as saídas do estoque são avaliadas no valor médio dos itens recebidos no estoque durante o período de fechamento de estoque, mais qualquer estoque disponível do período anterior.
 

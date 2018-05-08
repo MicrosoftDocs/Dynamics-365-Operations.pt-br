@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>Categorias de custo usadas no Controle de produção e na Contabilidade e gerenciamento do projeto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Alguns tipos de trabalho de produção podem ser aplicados a estimativas de tempo de projeto e a relatórios. Este artigo oferece informações sobre as categorias de custo que você deve definir para esses tipos de trabalho de produção para fins de produção e de relatório.
 

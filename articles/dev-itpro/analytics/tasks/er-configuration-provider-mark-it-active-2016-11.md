@@ -24,7 +24,7 @@ ms.lasthandoff: 02/23/2018
 ---
 # <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>Criar um provedor de configuração e marcá-lo como ativo para relatórios eletrônicos (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 As etapas a seguir explicam como um usuário atribuído ao Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de fornecedor para Relatório eletrônico (RE). Cada configuração RE será referida ao fornecedor como o autor da configuração. Neste exemplo, será criado um provedor de configuração para a empresa de exemplo, Litware, Inc. Essas etapas podem ser executadas em toda a empresa, uma vez que prestadores de configuração de ER são compartilhados entre todas as empresas.
 

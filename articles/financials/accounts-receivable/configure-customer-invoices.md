@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-a-customer-invoice"></a>Criar uma fatura de cliente
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Uma **fatura de cliente para uma ordem de venda** é uma nota que está relacionada a uma venda, e que uma organização fornece a um cliente. Esse tipo de fatura de cliente é criado com base em uma ordem de venda, que inclui linhas de ordem e números de item. Os números de item são especificados e lançados no razão. As entradas no diário-razão auxiliar não estão disponíveis para uma fatura de cliente de uma ordem de venda. Para obter mais informações, consulte [Criar faturas de ordem de venda](tasks/create-sales-order-invoices.md).
 

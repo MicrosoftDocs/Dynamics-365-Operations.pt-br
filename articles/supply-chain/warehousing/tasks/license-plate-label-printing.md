@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enable-license-plate-label-printing"></a>Habilitar a impressão da etiqueta da placa de licença
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento permite a impressão automática de um rótulo (SSCC) do código de série do contêiner de remessa depois que o último item é separado do estoque em um processo de trabalho de separação de vendas. Você pode executar este procedimento na empresa USMF de dados de demonstração. Se sua execução está usando seus próprios dados, você precisa ter uma sequência numérica configurada para matrículas. Será preciso configurar uma impressora de rótulo antes de iniciar a tarefa. Ir para Administração de organização > Configuração > Impressoras de rede. No painel de ações, clique em Opções, depois clique no botão de instalação de download do agente de roteiro do documento. Execute o instalador e verifique se você tem uma impressora de rede trabalhando definida como ativa antes de continuar com o procedimento.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="view-an-expense-report"></a>Exibir um relatório de despesas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Quando você executa uma consulta para exibir transações na contabilidade ou em compra e fornecimento, a consulta pode retornar informações demais. Por isso, pode ser interessante refinar sua pesquisa. Para obter as informações necessárias, você pode fazer uma busca detalhada em uma transação para ver o relatório de despesas no qual ela apareceu.
 

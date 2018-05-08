@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="calculate-tax-on-purchase-quotations-brazil"></a>Calcular impostos em cotações de compra (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode criar uma solicitação de cotação (RFQ) de compra e, ao inserir a resposta do fornecedor, você pode fornecer informações fiscais aplicáveis. Quando a RFQ é aceita, cria-se uma ordem de compra com as mesmas informações fiscais inseridas no RFQ. Este registro usa a empresa de dados de demonstração BRMF.
 

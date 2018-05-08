@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mass-hire-projects"></a>Projetos de contratação em massa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Os projetos de contratação em massa permitem que especialistas em recursos humanos criem várias posições e contratem com eficiência trabalhadores para essas posições.
 

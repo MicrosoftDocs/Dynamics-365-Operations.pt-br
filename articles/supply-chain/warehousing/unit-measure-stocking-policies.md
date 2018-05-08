@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="unit-of-measure-and-stocking-policies"></a>Unidade de medida e políticas de estoque
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo descreve como as unidades padrão, as sequências de unidade e as conversões de unidade são usadas em processos de depósito.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-an-existing-activity-to-a-production-flow-version"></a>Adicionar uma atividade existente a uma versão de fluxo de produção
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Ao criar novas versões de fluxos de produção, você pode escolher adicionar atividades criadas para as versões anteriores à nova versão. Este procedimento mostra como uma nova versão é criada para um fluxo de produção existente, sem copiar as atividades. Na próxima etapa, uma atividade existente será adicionada à nova versão. 
 

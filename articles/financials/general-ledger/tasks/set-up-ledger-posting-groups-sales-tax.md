@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>Configurar grupos de lançamento contábil do imposto sobre vendas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Os impostos sobre vendas são calculados e lançados nas contas principais que são especificadas nos grupos de lançamentos contábeis. Os grupos de lançamentos contábeis são associados a cada código de imposto sobre vendas. Você pode configurar grupos de lançamentos contábeis individuais para cada código de imposto sobre vendas; também pode usar um grupo para todos os códigos ou atribuir múltiplos grupos aos códigos. Este registro usa a empresa de dados de demonstração DEMF. 
 

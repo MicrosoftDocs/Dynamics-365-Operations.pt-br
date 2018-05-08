@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-wave-processing"></a>Configurar processamento da onda
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este guia descreve como configurar os critérios que determinam que trabalho será gerado para um depósito quando uma onda for processada, e se as ondas são processadas manual ou automaticamente. Você especifica os critérios configurando modelos e consultas de onda que correspondam a uma onda com linhas liberadas em ordens de venda, ordens de produção ou ordens kanban. O processamento da onda é usado nos depósitos usando a funcionalidade no módulo de gerenciamento de depósito, e não nas que usam a funcionalidade no módulo de gerenciamento de estoque. Você pode executar este procedimento na empresa USMF de dados de demonstração.
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="define-loyalty-schemes"></a>Definir esquemas de fidelidade
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimento orienta como definir um esquema de fidelidade. Os esquemas de fidelidade são regras de ganhos e de resgate para um programa de fidelidade. Este procedimento usa a empresa de dados de demonstração USRT.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>Visão geral da atualização do registro de depreciações
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Em versões anteriores, havia dois conceitos de avaliação para ativos fixos: modelos de valor e registros de depreciações. No Microsoft Dynamics 365 for Operations versão (1611), as funcionalidades de método de depreciação e de registro de depreciações foram mescladas em um único conceito que é conhecido como um registro. Este tópico fornece alguns aspectos a serem considerados durante a atualização. 
 
@@ -62,17 +62,17 @@ Opção 2: **A sequência numérica definida por um usuário existente** - esta 
 Os parâmetros estão localizados no início da classe ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans. 
 
 *// Especifique uma abordagem de alocação de comprovantes* 
-*//true, se desejar usar um código de sequência numérica existente* 
-*// false, se quiser usar a sequência numérica definida pelo sistema (padrão)* const boolean NumberSequenceUseExistingCode = false;  
+ *//true, se desejar usar um código de sequência numérica existente* 
+ *// false, se quiser usar a sequência numérica definida pelo sistema (padrão)* const boolean NumberSequenceUseExistingCode = false;  
 
 *// Se estiver usando a abordagem de sequência numérica definida pelo sistema, especifique os parâmetros para a sequência numérica.*
-*// Uma nova sequência numérica será criada com esses parâmetros.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
+ *// Uma nova sequência numérica será criada com esses parâmetros.* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
 *// Se estiver usando a abordagem de sequência numérica existente, especifique o código de sequência numérica existente.* 
-*// A alocação do comprovante irá linha por linha para as sequências numéricas existentes.* const str NumberSequenceExistingCode = ''; *// Especifica o escopo do código de sequência numérica existente* 
-*// true, se a sequência numérica especificada for compartilhada* 
-*// false, se a sequência numérica especificada for por empresa* 
-*// A sequência numérica definida pelo sistema padrão será usada se um código de sequência numérica com o escopo especificado não for encontrado.* const boolean NumberSequenceExistingIsShared = true; 
+ *// A alocação do comprovante irá linha por linha para as sequências numéricas existentes.* const str NumberSequenceExistingCode = ''; *// Especifica o escopo do código de sequência numérica existente* 
+ *// true, se a sequência numérica especificada for compartilhada* 
+ *// false, se a sequência numérica especificada for por empresa* 
+ *// A sequência numérica definida pelo sistema padrão será usada se um código de sequência numérica com o escopo especificado não for encontrado.* const boolean NumberSequenceExistingIsShared = true; 
 
 Recrie o projeto que contém a classe depois que as constantes forem modificadas. 
 

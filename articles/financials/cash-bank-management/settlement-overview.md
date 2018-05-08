@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settlement-overview"></a>Visão geral da liquidação
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo oferece informações gerais sobre o processo de liquidação. Ele descreve os tipos de transações que podem ser liquidadas, quando e como as transações podem ser liquidadas e os resultados do processo de liquidação.
 

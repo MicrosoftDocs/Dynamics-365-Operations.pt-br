@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-cost-accounting-ledger"></a>Criar um razão de contabilização de custos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Uma razão de contabilização de custos representa a unidade de relatório geral. É definida por uma dimensão de elemento de custo, dimensão estatística, calendário fiscal e moeda. É agnóstico ao conceito de entidades legais. Uma entidade legal e seus dados podem ser associados a muitos razões de contabilização de custos. Esta gravação usa os dados da empresa de demonstração USP2.
 

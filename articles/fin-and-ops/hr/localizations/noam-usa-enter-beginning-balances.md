@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="enter-payroll-beginning-balances"></a>Inserir saldos iniciais de folha de pagamento
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 Este tópico descreve as etapas para inserir saldos iniciais para códigos de ganhos, deduções, benefícios e impostos. Essas informações são importantes para parceiros que transferem dados de outro sistema para uma nova implementação de folha de pagamento. Para se preparar para inserir saldos iniciais de folha de pagamento, nós verificamos as seguintes informações:
 

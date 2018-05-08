@@ -24,7 +24,7 @@ ms.lasthandoff: 11/20/2017
 ---
 # <a name="create-a-requisition-for-consumption"></a>Criar uma requisição para consumo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento apresenta o processo de criação de uma requisição. Mostra as diferentes formas de pesquisar por produtos no catálogo de aquisições e como adicionar um produto que não está no catálogo. Antes de iniciar esse procedimento, você deve ter uma política de compras configurada com Consumo como o tipo padrão de requisição. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados. O procedimento só pode ser realizado por um perfil de usuário configurado como funcionário.  Essa tarefa é normalmente realizada por um funcionário. O Funcionário usa função de segurança irá permitir que você realize as tarefas, ou se você estiver usando USMF, é possível se conectar como Alicia.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a>Configurar um item de menu de dispositivo móvel para executar trabalhos em uma ordem de compra
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como estabelecer um item de menu do dispositivo móvel. Neste exemplo, o item de menu é usado para realizar trabalho do tipo Ordem de compra. A classe de trabalho associada ao item de menu determina qual trabalho é válido. Você pode usar este guia na empresa USMF de dados de demonstração. Esse procedimento geralmente é realizado por um gerente de depósito.
 

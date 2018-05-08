@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="brazilian-withholding-taxes"></a>Impostos retidos na fonte no Brasil 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento configura um código de imposto retido na fonte, um tipo de imposto retido na fonte e um parâmetro de cálculo para calcular o imposto retido na fonte para pagamentos de serviços da consulta ou de serviço profissional. Este procedimento usa a empresa de dados de demonstração BRMF.
 

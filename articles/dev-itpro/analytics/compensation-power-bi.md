@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="compensation-power-bi-content"></a>Conteúdo de remuneração do Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve o conteúdo de **Remuneração** do Microsoft Power BI. Ele explica como acessar os relatórios e fornece informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
 

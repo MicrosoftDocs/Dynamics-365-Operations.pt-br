@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="record-templates"></a>Modelos de registro
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo introduz o conceito de modelos de registro e explica como podem ser usados para criar registros que compartilham informações.
 

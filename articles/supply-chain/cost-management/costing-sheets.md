@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="costing-sheets"></a>Folhas de custos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 A configuração da folha de custos envolve dois objetivos. Como primeiro objetivo, você define o formato para exibir as informações de custo de bens vendidos sobre um item manufaturado ou ordem de produção. A exibição formatada é nomeada folha de custos. Como segundo objetivo, você define a base para calcular custos indiretos. A configuração de folha de custo cria no recurso de grupo de custo para exibir informações e para as fórmulas de cálculo de custo indireto. Os dois objetivos da configuração de folha de custos são descritos neste artigo. 
 

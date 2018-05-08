@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a>Criar uma ordem de compra regida por orçamento
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimento para criar uma ordem de compra que seja verificada para o orçamento disponível. Esta gravação usa os dados da empresa de demonstração USMF.
 

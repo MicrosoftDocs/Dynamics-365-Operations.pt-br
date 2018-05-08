@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-security-for-the-cost-accounting-analysis-power-bi-content"></a>Configurar segurança para a análise de contabilidade de custos e conteúdo do Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico explica como você pode propagar a segurança de nível de acesso em Contabilidade de custos para a segurança em nível de linha no Microsoft Power BI. Essa funcionalidade ajuda a garantir que os usuários vejam apenas os dados do Power BI aos quais eles têm acesso.
 

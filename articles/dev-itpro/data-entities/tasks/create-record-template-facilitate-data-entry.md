@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>Criar um modelo de registro para facilitar a entrada de dados
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento demonstra como criar um modelo de registro para que os valores de campo usados frequentemente não tenham que ser inseridos explicitamente para cada novo registro. Neste procedimento, você criará um novo registro para novos laptops que devem ser adicionados aos ativos fixos. Este procedimento usa a empresa exemplo USMF.
 

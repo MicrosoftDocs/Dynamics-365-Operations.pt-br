@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-the-bank-journal-composite-entity"></a>Atualizar a entidade composta do diário de banco
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Siga as etapas abaixo para adicionar um campo adicional de BankTransactionType a BankJournalEntity composto.
 

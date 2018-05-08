@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-depreciation-books"></a>Configurar registros de depreciações 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esse guia da tarefa criará um novo registro de depreciações e irá associá-lo com um grupo de ativo fixo.  Ela usa a função de contador e os dados de demonstração da entidade legal de USMF.
 

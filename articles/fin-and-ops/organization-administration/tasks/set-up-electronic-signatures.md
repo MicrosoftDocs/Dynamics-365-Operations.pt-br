@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-electronic-signatures"></a>Configurar assinaturas eletrônicas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Utilize esse procedimento para configurar assinaturas eletrônicas. Uma assinatura eletrônica confirma a identidade de uma pessoa que está prestes a iniciar ou aprovar um processo de computação. A empresa de dados demonstrativos utilizada para criar esse procedimento é a DAT.
 

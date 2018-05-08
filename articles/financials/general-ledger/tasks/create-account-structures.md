@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-account-structures"></a>Criar estruturas de conta
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este guia de tarefas aborda a criação de uma estrutura de conta. As etapas usam a empresa USMF de dados de demonstração.
 

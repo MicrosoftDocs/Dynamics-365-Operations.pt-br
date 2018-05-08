@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-flow-forecasting"></a>Previsão de fluxo de caixa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 É possível usar as ferramentas de previsão de fluxo de caixa para analisar o fluxo de caixa futuro e requisitos de moeda, de forma que você possa estimar a necessidade futura de caixa da empresa. Para obter uma previsão de fluxo de caixa, você deve concluir as seguintes tarefas:
 

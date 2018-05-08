@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>Sincronizar cabeçalhos e linhas de cotação de venda diretamente do Sales para o Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 O tópico discute os modelos e as tarefas subjacentes que são usados para sincronizar cabeçalhos e linhas de cotação de venda diretamente do Microsoft Dynamics 365 for Sales para o Microsoft Dynamics 365 for Finance and Operations.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-adjustment-codes-for-icms-tax-brazil"></a>Configurar códigos de ajuste para imposto ICMS (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 No arquivo de texto fiscal do Sistema Público de Escrituração Digital (SPED), o registro C197 inclui informações sobre ajustes do Imposto sobre Circulação de Mercadorias e Serviços (ICMS) em notas fiscais. Esses ajustes podem ocorrer devido ao diferimento, à suspensão diferencial de taxas de impostos, à antecipação, e a outras situações de exceção em impostos ICMS, e isso requer um código de ajuste. Utilize esse procedimento para configurar códigos de ajuste. Este registro usa a empresa de dados de demonstração BRMF.
 

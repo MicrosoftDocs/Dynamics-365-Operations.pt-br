@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-manual-packing-february--may-2016-only"></a>Configurar a embalagem manual (somente fevereiro e maio de 2016)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 O processo de embalagem permite que você valide e empacote produtos em contêineres. Nesse processo, os trabalhadores do depósito escolhem produtos dos locais de depósito e os movem para uma estação de embalagem onde eles podem verificar as quantidades e tipos, e atribuí-los aos contêineres apropriados. Quando um contêiner é embalado totalmente, poderá fechá-lo e movê-lo para as docas de saída, e o produto está pronto para ser enviado. Este procedimento usa a empresa de dados de demonstração USMF.
 

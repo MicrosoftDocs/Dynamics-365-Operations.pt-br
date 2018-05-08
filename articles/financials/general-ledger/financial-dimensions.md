@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-dimensions"></a>Dimensões financeiras
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico explica os vários tipos de dimensões financeiras e como elas são configuradas.
 

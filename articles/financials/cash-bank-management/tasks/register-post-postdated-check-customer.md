@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>Registrar e lançar um cheque pré-datado para um cliente
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 É possível registrar os detalhes de um cheque pré-datado recebido de um cliente. Você também pode lançar o cheque pré-datado e gerar transações financeiras.   Conclua as seguintes tarefas antes de registrar e lançar um cheque pré-datado recebido de um cliente:  • Configurar cheque pré-datado na página de Gerenciamento de dinheiro e banco • Configurar um método de pagamento para cheques pré-datados   A função para esse procedimento é Tesoureiro. Este procedimento usa a empresa de dados de demonstração USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-tax-assessment---pis-and-cofins-tax-brazil"></a>Criar uma apuração de imposto - PIS e COFINS (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode criar uma avaliação de imposto para contribuições de PIS/COFINS por um período de escrituração específico. A avaliação de imposto considera o valor da contribuição de PIS/COFINS para recuperar e o valor da contribuição de PIS/COFINS para pagar os documentos fiscais. Para o valor devido após a apuração de imposto, crie o pagamento de impostos. Este registro usa a empresa de dados de demonstração BRMF.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>Opções avançadas de formatação no relatório financeiro
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Quando você cria um relatório no relatório financeiro, funções adicionais de formatação são disponibilizadas, incluindo filtros de dimensões, restrições de colunas e unidades de relatório, linhas não imprimíveis, e instruções IF/THEN/ELSE nos cálculos. 
 

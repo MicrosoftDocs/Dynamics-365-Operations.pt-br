@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="sales-orders-mobile-workspace"></a>Espaço de trabalho móvel das ordens de venda
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre a área de trabalho móvel de **Ordens de venda**. Este espaço de trabalho o ajuda a ficar atualizado sobre suas ordens de venda a qualquer momento e em qualquer lugar. 
 

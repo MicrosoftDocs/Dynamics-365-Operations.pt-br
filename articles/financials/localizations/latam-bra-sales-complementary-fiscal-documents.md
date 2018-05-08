@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sales-complementary-fiscal-documents-for-brazil"></a>Notas fiscais complementares de vendas para o Brasil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve a fatura complementar de vendas da localização brasileira.
 

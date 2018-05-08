@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>Relatar o progresso em um dispositivo de trabalho móvel
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como iniciar e relatar o progresso de um trabalho de produção no formulário de registro do dispositivo do trabalho.
 

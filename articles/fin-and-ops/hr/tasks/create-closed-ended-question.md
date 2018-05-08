@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-closed-ended-question"></a>Criar uma pergunta fechada
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 As perguntas fechadas permitem que você forneça opções para que o entrevistado escolha. Primeiro, você precisa criar o Grupo de resposta com as respostas, então criar a pergunta que irá utilizar o grupo de resposta. A empresa de dados demo usada para criar este procedimento é USMF.
 

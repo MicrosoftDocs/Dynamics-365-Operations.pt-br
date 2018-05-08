@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="position-budgeting-troubleshooting"></a>Solução de problemas para orçamento de posição
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo oferece respostas para as perguntas que você pode ter ao configurar o orçamento de posições. Aborda as perguntas mais frequentes sobre como criar elementos de custos de orçamento, grupos de remuneração, e grades de remuneração. 
 

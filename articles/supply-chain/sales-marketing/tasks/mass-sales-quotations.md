@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="mass-create-sales-quotations"></a>Criar cotações de venda em massa
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento demonstra como criar cotações de forma eficiente que oferecem um conjunto de produtos ou serviços que devem ser enviados a vários clientes. A criação de cotação em massa foi baseada em modelos de cotação. Você pode realizar esse procedimento em seus próprios dados ou na empresa USMF de dados de demonstração.
 

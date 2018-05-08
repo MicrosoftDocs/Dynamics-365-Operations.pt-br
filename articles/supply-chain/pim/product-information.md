@@ -29,9 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="product-information-overview"></a>Visão geral das informações do produto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Este tópico fornece informações sobre o gerenciamento de informações do produto. O gerenciamento de informações do produto funciona com uma definição, categorização e identificação de produtos compartilhados em todas as entidades legais, bem como configurações específicas de um produto, para se adequar aos processos de negócios. 
 

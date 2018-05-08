@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-access-rights-for-a-cost-object-controller"></a>Configurar direitos de acesso para um controlador de objeto de custo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimento para configurar direitos de acesso para um controlador de objeto de custo. Esta gravação usa os dados da empresa de demonstração USP2.
 

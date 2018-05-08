@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a>Exibir demonstrativo de estoque e KPI por objeto de custo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 A empresa de dados demo usada para criar este procedimento é USMF. Esse procedimento é criado para o controlador de custo.
 

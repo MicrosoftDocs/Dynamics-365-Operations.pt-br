@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-management-mobile-workspace"></a>Espaço de trabalho móvel de gerenciamento de despesas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre o espaço de trabalho móvel **Gerenciamento de despesas**. Este espaço de trabalho permite que os usuários capturem e carreguem um recibo, para que possam anexá-lo a um relatório de despesas posteriormente. Os usuários também podem criar rapidamente uma linha de despesa usando um recibo anexado, além de criar e gerenciar seus relatórios de despesas. Adicionalmente, os aprovadores podem usar o espaço de trabalho móvel **Gerenciamento de despesas** para exibir os relatórios de despesas atribuídos a eles, e aprová-los ou rejeitá-los.
 

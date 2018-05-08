@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="procurement-and-sourcing-overview"></a>Visão geral de Compras
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo oferece uma visão geral da funcionalidade que está disponível no módulo Aquisição e fornecimento.
 

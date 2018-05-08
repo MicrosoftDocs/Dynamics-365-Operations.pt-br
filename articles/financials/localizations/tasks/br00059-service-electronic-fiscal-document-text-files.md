@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="service-electronic-fiscal-document-using-text-files-brazil"></a>Nota fiscal eletrônica de serviços usando arquivos de texto (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Após a emissão de uma fatura de venda para um serviço na cidade de São Paulo, é possível gerar o RPS (Recibo Provisório de Serviço) de uma nota fiscal de determinado serviço que foi lançada. Este registro usa a empresa de dados de demonstração BRMF.
 

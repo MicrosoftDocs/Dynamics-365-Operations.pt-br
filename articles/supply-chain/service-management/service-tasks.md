@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-tasks"></a>Tarefas de serviço  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Use tarefas de serviço para descrever a tarefa a ser concluída durante uma ordem de serviço.
 Os técnicos e clientes podem consultar essas informações.

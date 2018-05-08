@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-and-create-depreciation-profiles"></a>Configurar e criar perfis de depreciação
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Os perfis de depreciação determinam o tipo e a frequência de depreciação de um ativo.   A empresa usa esse registro de demonstração de USMF e a função de contador.
 

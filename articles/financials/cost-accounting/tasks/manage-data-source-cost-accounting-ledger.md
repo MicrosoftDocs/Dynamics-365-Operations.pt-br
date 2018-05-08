@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>Gerenciar uma fonte de dados para o razão de contabilização de custos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimento para gerenciar a fonte de dados da contabilidade para um razão de contabilização de custos. Antes de concluir esta tarefa, certifique-se de que executou os guias de tarefas "Criar um razão de contabilização de custos" e "Definir unidades de controle de custos". Esta gravação usa os dados da empresa de demonstração USP2.
 

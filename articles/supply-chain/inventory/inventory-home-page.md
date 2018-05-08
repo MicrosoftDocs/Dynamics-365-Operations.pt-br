@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="inventory-management"></a>Gerenciamento de estoque 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 É possível usar o gerenciamento de estoque para executar as seguintes tarefas:
 

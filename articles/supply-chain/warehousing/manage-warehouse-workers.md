@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="manage-warehouse-workers"></a>Gerenciar trabalhadores de depósito
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo descreve como você pode usar o Microsoft Dynamics 365 for Finance and Operations para controlar e monitorar o trabalho realizado por funcionários em depósitos.
 

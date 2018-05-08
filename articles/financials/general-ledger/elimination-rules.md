@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="elimination-rules"></a>Regras de eliminação
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre regras de eliminação e as diversas opções para relatórios sobre eliminações.
 

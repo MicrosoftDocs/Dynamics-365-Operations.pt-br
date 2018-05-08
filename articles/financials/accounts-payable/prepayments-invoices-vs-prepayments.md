@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="prepayment-invoices-vs-prepayments"></a>Faturas de pagamento antecipado versus pagamentos antecipados
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve e compara os dois métodos que as organizações podem usar para pagamentos antecipados. Em um método, você cria uma fatura de pagamento antecipado que esteja associada a uma ordem de compra. No outro método, é possível criar comprovantes de diário de pagamentos antecipados criando entradas de diário e marcando-as como comprovantes de diário de pagamentos antecipados.
 

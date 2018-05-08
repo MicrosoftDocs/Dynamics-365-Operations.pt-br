@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="travel-requisitions"></a>Requisições de viagem
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Uma *requisição de viagem* é um documento de origem que lista as despesas que serão incorridas para a viagem. Uma requisição de viagem é enviada para revisão e pode então ser usada para autorizar despesas.
 

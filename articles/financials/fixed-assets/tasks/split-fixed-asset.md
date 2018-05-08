@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="split-a-fixed-asset"></a>Dividir um ativo fixo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este guia da tarefas dividirá uma porcentagem do registro de ativos em um novo registro de ativos.  Usa os dados de função de contador e de demonstração de USMF.
 

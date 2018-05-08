@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="immediate-replenishment"></a>Reabastecimento imediato
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 O reabastecimento imediato permite a você reabastecer o estoque imediatamente após uma linha de diretiva de local falhe ao alocar o estoque. O reabastecimento se baseia em uma única linha na configuração da diretiva de local. Se o estoque não estiver disponível na unidade de medida especificada por essa linha, o reabastecimento da unidade de medida ocorrerá imediatamente.
 

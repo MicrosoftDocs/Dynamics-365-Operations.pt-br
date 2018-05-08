@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-post-a-purchase-complementary-fiscal-document-brazil"></a>Criar e lançar uma nota fiscal complementar de compra (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimento para criar uma nota fiscal complementar de compra para ajustar uma nota fiscal de compra que foi gerada por um preço ou valor incorreto de IPI (Imposto Sobre Produtos Industrializados) ou de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços). Este registro usa a empresa de dados de demonstração BRMF.
 

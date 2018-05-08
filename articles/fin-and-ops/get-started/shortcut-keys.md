@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>Atalhos de teclado
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Os atalhos de teclado a seguir são utilizados no Dynamics 365 for Finance and Operations. 
 

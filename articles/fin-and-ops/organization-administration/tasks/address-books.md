@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-address-books"></a>Configurar catálogos de endereços
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Use esse procedimento, e as decisões feitas no tópico Planejando a configuração do catálogo de endereços global e de catálogos de endereços adicionais, para configurar catálogos de endereços adicionais para sua organização.
 

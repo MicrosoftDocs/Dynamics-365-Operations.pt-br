@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="fixed-assets-roll-forward-report"></a>Relatório de roll forward de ativo fixo
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 O relatório **Roll forward de ativos fixos** fornece, em um formato de leitura simples do Microsoft Excel, os dados detalhados do ativo fixo que você precisa para fechamento do período, demonstrativos financeiros e relatório de imposto. O relatório incluir saldos inicial e final de ativos fixos, com movimentações de avaliação do período e novas aquisições do ativo e alienações que ocorreram durante o período. Os dados são relatados para ativos fixos individuais e os valores também são resumidos para grupos de ativos fixos e a entidade legal.
 

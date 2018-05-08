@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-bar-code-masks"></a>Configurar máscaras de código de barras
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tópico descreve como configurar caracteres de máscara de código de barras, máscaras de código de barras e como atribuir máscaras de código de barras a códigos de barras.
 

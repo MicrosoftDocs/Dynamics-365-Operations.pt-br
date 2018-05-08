@@ -28,9 +28,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-journals"></a>Diários de estoque
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Este tópico descreve como você pode usar diários de estoque para lançar vários tipos de transações de estoque físico.
 

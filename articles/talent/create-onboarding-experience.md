@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="create-an-engaging-onboarding-experience"></a>Crie uma experiência de integração atrativa
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Quando feita de forma eficaz, a integração ajuda os novos funcionários a atuarem de forma eficaz, com uma sensação de pertencer à nova função. A integração pode ajudar os novos funcionários a compreenderem a nova função de forma mais rápida e precisa e eles começam a estabelecer relacionamentos que podem ajudá-los a ter sucesso. Por outro lado, uma integração ineficaz pode causar dúvidas aos funcionários, em relação a entrar na organização. Estudos realizado por Gartner em 2014 detectaram que quase um terço de 1005 entrevistados que saíram do trabalho nos primeiros seis meses, fizeram isso porque as diretrizes que receberam de seus líderes não foram claras, o treinamento não foi eficaz ou porque eles não estabeleceram relacionamentos eficazes em seu novo ambiente.
 

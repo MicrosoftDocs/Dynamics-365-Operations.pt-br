@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="common-sources-of-production-variances"></a>Fontes comuns de variações de produção
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo aborda várias fontes típicas de cada tipo de variação de produção. 
 

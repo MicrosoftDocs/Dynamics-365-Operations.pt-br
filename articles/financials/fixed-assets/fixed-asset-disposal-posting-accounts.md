@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-disposal-posting-accounts"></a>Contas de lançamento de alienação de ativos fixos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico explica como configurar contas de lançamento de contabilidade para descartar ativos.
 

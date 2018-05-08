@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-a-users-preferred-time-zone"></a>Definir o fuso horário preferencial do usuário
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 O seguinte procedimento explica como um usuário com a função Administrador do Sistema pode definir o fuso horário para um usuário.
 

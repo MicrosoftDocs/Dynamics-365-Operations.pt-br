@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>Configurar custos padrão para trabalho e despesas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como configurar custos padrão para mão de obra e despesas de um projeto. Essa tarefa usa o conjunto de dados de USSI.
 

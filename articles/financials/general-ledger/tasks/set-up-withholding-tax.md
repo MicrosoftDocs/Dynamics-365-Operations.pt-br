@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-withholding-tax"></a>Configurar imposto retido na fonte
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Imposto retido na fonte é um imposto sobre os fornecedores, o que não cria transações de imposto. O imposto retido na fonte calculado sobre os pagamentos do fornecedor é um passivo. Por isso, apenas contas de balanço ou de passivos são contas válidas para o lançamento do imposto retido na fonte. Essa guia da tarefa demonstra como definir a retenção de imposto.
 

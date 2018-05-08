@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="brazilian-taxes"></a>Impostos brasileiros
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 O Finance and Operations calcula os impostos brasileiros com base no tipo de imposto especificado para o código do imposto. É possível configurar e calcular os impostos sobre vendas nas vendas, nas compras, nas transferências entre estabelecimentos fiscais, na entrega de itens a um terceiro, ou no recebimento de itens de um terceiro.
 

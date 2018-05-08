@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-hardware-peripherals"></a>Periféricos de hardware do PDV
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 O ponto de venda moderno manager (POS) e o retail do nuvem podem utilizar uma grande variedade de periféricos de hardware do pos, com várias opções de interfaces e implantação obter vários cenários comerciais de um fornecedor. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-an-existing-employee-through-recruiting"></a>Contratar um funcionário existente por meio de recrutamento
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 As vezes, posições abertas podem ser preenchidas por candidatos que já são empregados da sua organização. Este procedimento apresenta as etapas para contratar um funcionário existente através do processo de recrutamento. Nesse procedimento, um projeto de recrutamento já foi estabelecido, e um funcionário existente já enviou uma solicitação de emprego ao projeto de recrutamento. A empresa de dados demo usada para criar este procedimento é USMF.
 

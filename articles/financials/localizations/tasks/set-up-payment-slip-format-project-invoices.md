@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>Configurar um formato da guia de pagamento para faturas de projeto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Geralmente, as empresas anexam guias de pagamento impressas a faturas para ajudar os clientes e fornecer uma referência de pagamento para lançamento e liquidação. A guia de pagamento pode ser usada para faturas de projeto ou serviço, cartas de cobrança, notas de juros e demonstrativos de conta, além das faturas de venda e faturas de texto livre. Para processar guias de pagamento, primeiro configure os formatos de número de identificação do credor e de anexo de guia de pagamento.
 

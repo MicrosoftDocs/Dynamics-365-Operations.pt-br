@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="ledger-allocation-rules"></a>Regras de alocação do razão
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo oferece informações gerais sobre as regras de alocação do razão. Ele descreve os diversos componentes dessas regras de alocação e os métodos de alocação que podem ser usados para eles.
 

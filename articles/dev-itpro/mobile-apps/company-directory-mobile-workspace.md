@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="company-directory-mobile-workspace"></a>Espaço de trabalho móvel do diretório da empresa
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre a área de trabalho móvel **diretório da empresa**. Este espaço de trabalho permite que os usuários exibam e entrem em contato com outros funcionários em sua organização.
 

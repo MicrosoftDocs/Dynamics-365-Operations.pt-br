@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="sepa-direct-debit-overview"></a>visão geral do débito direto do SEPA
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 A Área Única de Pagamentos em Euros (SEPA) é configurada pela Comissão Europeia e dita que todos os pagamentos eletrônicos são considerados como domésticos, independentemente do país/região onde o indivíduo, a empresa ou a organização e o banco estão localizados. Não há diferença entre pagamentos nacionais e internacionais. A SEPA inclui os 28 países membros da União Europeia (EU), além de Islândia, Liechtenstein, Noruega, Suíça, Mônaco e São Marinho. A SEPA ajuda a formar um mercado único para transações de pagamento na Área Econômica Europeia (EEA). Por fim, espera-se que a SEPA reduza o número de formatos de pagamento com que bancos, empresas e indivíduos devem trabalhar.   
 

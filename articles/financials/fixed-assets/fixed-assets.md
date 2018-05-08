@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-assets-home-page"></a>Home page de Ativos fixos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Os ativos fixos são itens de valor, por exemplo, imóveis, veículos, terrenos e equipamentos, que são propriedade de uma pessoa ou organização. 
 

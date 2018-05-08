@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>Configurar um modelo de trabalho para ordens de compra
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento tem como foco a configuração de um modelo de trabalho simples que será usado no armazenamento dos itens recebidos. Modelos de trabalho determinam o conjunto de instruções apresentadas ao trabalhador do depósito em um dispositivo móvel ao mover itens da área de recebimento. Você pode usar esse procedimento com os dados mencionados na empresa de dados de demonstração USMF. Antes de iniciar este guia, crie uma ID de grupo de trabalho. Neste exemplo, uma ID de grupo de trabalho chamada na Entrada é usada. Esse procedimento é destinado ao gerente do depósito.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 03/09/2018
 ---
 # <a name="use-a-model-mapping-configuration-for-aggregate-calculations-at-the-database-leveler"></a>Use uma configuração de mapeamento de modelo para cálculos agregados no nível do banco de dados (ER) 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento fornece informações sobre como criar uma nova configuração de mapeamento de modelo de Relatório eletrônico (ER) e usar funções de ER internas para obter cálculos agregados eficientes. Neste procedimento, você criará uma configuração para a empresa de exemplo, Litware, Inc. 
 

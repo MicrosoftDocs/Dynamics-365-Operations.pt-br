@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="budget-planning-overview"></a>Visão geral do planejamento de orçamento
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo apresenta planejamento de orçamento e contém informações para ajudar a configurar o planejamento de orçamento e a definir os processos de planejamento de orçamento.
 

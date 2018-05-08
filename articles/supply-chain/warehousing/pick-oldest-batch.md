@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pick-oldest-batch-on-a-mobile-device"></a>Escolher o lote mais antigo em um dispositivo móvel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Você pode acessar a configuração **Escolher lote mais antigo** em um menu de dispositivo móvel, o que permite a você forçar os trabalhadores do depósito ou orientá-los a escolher o lote mais antigo do local atual.  
 

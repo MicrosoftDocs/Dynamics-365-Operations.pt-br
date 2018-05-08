@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="establish-customer-payment-terms"></a>Estabelecer condições de pagamento de cliente
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento define uma configuração de desconto à vista e a data de vencimento. Este guia de tarefa usa a empresa demo USMF.
 

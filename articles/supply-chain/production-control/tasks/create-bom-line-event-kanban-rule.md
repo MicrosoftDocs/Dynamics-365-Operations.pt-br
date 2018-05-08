@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bom-line-event-kanban-rule"></a>Criar uma regra kanban de evento da linha BOM
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Essa tarefa se concentra na configuração necessária para criar uma regra kanban de evento e garantir a fonte para linhas BOM de produção em um ambiente de produção lean e clássico misturado. A empresa de dados demo usada para criar esta tarefa é USMF. Esta tarefa destina-se ao Engenheiro do processo ou Gerente de fluxo de valor, pois eles preparam a produção de um produto novo ou modificado.
 

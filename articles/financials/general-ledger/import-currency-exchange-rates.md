@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="import-currency-exchange-rates"></a>Importar taxas de câmbio de moeda
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Se uma entidade legal recebeu faturas em moedas estrangeiras, é necessário converter a moeda estrangeira em moeda local. Isso significa que as taxas de câmbio atualizadas para diferentes moedas são necessárias. Este tópico fornece uma visão geral das definições e de processamento necessários para importar as taxas de referência da moeda estrangeira publicadas na Internet pelos provedores de taxa de câmbio, como o Banco Central Europeu e o Banco Central da Rússia.
 

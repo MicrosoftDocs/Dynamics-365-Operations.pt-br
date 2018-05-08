@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="delivery-slips-brazil"></a>Guias de entrega (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode lançar uma guia de entrega para uma ordem de venda com várias linhas de ordem de venda com um código CFOP (Código Fiscal de Operações e Prestações). Para cada linha de ordem de venda, você deve especificar o código CFOP que tem um código CFOP de entrega atribuído a ele. Uma guia de entrega é usada quando o cliente para o qual você entrega itens difere do cliente que é faturado. (Ou seja, a conta do cliente e a conta da fatura diferem.) As guias de entrega são lançadas em ordem cronológica. É preciso anexar referências fiscais a guias de entrega antes de lançá-las. Esta tarefa usa a empresa de demonstração BRMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>Identificar e solucionar conflitos na diferenciação de direitos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode definir regras para separar tarefas que devem ser executadas por usuários diferentes. Este conceito é chamado de segregação de direitos. Quando a definição de uma função de segurança ou as atribuições de função de um usuário violam as regras, o conflito será registrado. Todos os conflitos devem ser solucionados pelo administrador. Complete o procedimento a seguir para identificar e solucionar conflitos. A empresa de dados demo usada para criar este procedimento é USMF.
 

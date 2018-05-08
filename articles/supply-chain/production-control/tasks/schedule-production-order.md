@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="schedule-a-production-order"></a>Agendar uma ordem de produção
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como agendar uma ordem de produção. A empresa de dados demo usada para criar este procedimento é USMF. Este é o terceiro procedimento de sete que explica o ciclo de vida da ordem de produção.
 

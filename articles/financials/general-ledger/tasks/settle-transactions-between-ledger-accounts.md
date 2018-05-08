@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a>Liquidar transações entre contas contábeis
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como liquidar transações entre contas contábeis e cancelar uma liquidação do razão. Este procedimento usa a empresa de dados de demonstração USMF.
 

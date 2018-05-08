@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-available-for-the-work-cell"></a>Preparar um trabalho kanban de processo quando os materiais estão disponíveis para a célula de trabalho
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarefa foca na preparação de um processo de trabalho kanban quanto todas materiais estão disponíveis para a célula de trabalho. A empresa de dados demo usada para criar esta tarefa é USMF. Essa tarefa é destinado ao operador da máquina.
 

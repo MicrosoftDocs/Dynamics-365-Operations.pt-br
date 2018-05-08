@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-continuity-schedules"></a>Definir agendas de continuidade
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Este tópico aborda a configuração de um programa de continuidade (também conhecido como pedidos recorrentes). Este tópico usa a empresa USRT nos dados de demonstração.
 

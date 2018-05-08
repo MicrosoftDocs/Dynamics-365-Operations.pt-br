@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>Atualizar planejamento de orçamento
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Há diferenças significativas no planejamento de orçamento entre o Microsoft Dynamics AX 2012 e o Microsoft Dynamics 365 for Finance and Operations. Alguns recursos não foram atualizados e, portanto, não requerem reconfiguração. Este tópico explica o que deve ser reconfigurado e também descreve os novos recursos que devem ser considerados após a conclusão da atualização.  
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="fiscal-establishment-tax-attributes-brazil"></a>Atributos de imposto de estabelecimento fiscal (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimento para criar um ou mais estabelecimentos fiscais para uma entidade legal. Um estabelecimento fiscal requer um número de inscrição fiscal no CNPJ (Cadastro Nacional da Pessoa Jurídica) ou IE (Inscrição Estadual). Você pode agrupar estabelecimentos fiscais e configurar grupos de impostos para cada grupo de estabelecimentos fiscais na página Matriz de impostos. Esta tarefa usa a empresa de demonstração BRMF.
 

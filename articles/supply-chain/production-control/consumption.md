@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="calculate-material-consumption"></a>Calcular o consumo de materiais
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo oferece informações sobre as diversas opções relacionadas ao cálculo do consumo de material. 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>Item e rastreamento de matérias-primas em estoque, em produção e em vendas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve como você pode usar o rastreamento de item para identificar onde os itens ou as matérias-primas foram usados, onde estão sendo usados ou onde serão usados em processos de produção e de vendas.
 

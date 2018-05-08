@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>Configurar análise RFM
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tópico explica como configurar uma análise Recente, Frequência, e Monetária (RFM) dos clientes.
 

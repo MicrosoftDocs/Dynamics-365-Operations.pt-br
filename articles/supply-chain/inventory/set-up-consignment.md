@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-consignment"></a>Configurando consignação
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico explica como configurar operações de estoque de entrada de consignação.
 

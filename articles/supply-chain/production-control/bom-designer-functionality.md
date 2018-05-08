@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="bom-designer-functionality"></a>Funcionalidade de designer de BOM
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve como você pode usar a página do designer de BOM para criar e trabalhar com estruturas de árvore para listas de materiais (BOMs). Você pode clicar em Configurar para selecionar diferentes configurações e especificar quais informações aparecem nas linhas da árvore.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-online-store"></a>Configurar uma loja online
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece links para tópicos que ajudarão você a configurar e gerenciar centralmente uma loja online.
 

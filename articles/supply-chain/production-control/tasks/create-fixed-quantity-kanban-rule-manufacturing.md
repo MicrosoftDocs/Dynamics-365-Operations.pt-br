@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-fixed-quantity-kanban-rule-for-manufacturing"></a>Criar uma regra kanban de quantidade fixa para fabricação
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento tem como foco a configuração necessária para criar uma regra kanban de fabricação fixa para ativação de atividades de transformação, em uma célula de trabalho, em um ambiente de lean manufacturing. A empresa de dados demo usada para criar este procedimento é USMF. Este procedimento destina-se ao Engenheiro do processo ou Gerente de fluxo de valor, pois eles preparam a produção de um produto novo ou modificado.
 

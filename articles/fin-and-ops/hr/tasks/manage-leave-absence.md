@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="manage-leave-of-absence"></a>Gerenciar licença
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra a criação de registros de licença de funcionário. Você pode rastrear tempo de licença para os motivos pelos quais incluem atividades, médicas de formação educacional, ou parentais. A empresa de dados demo usada para criar este procedimento é USMF.
 

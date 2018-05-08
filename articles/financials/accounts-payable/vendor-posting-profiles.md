@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="vendor-posting-profiles"></a>Perfis de lançamentos de fornecedores
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Os perfis de lançamentos que controlam o lançamento de transações de fornecedor na contabilidade.
 

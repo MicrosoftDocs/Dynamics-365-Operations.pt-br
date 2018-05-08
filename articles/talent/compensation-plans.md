@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="compensation-plans"></a>Planos de remuneração
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Os gerentes de remuneração e de benefícios que podem usar o gerenciamento de remuneração para manter e processar planos de compensação fixos e variáveis para os funcionários da organização.
 

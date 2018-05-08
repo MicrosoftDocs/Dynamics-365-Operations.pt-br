@@ -27,7 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="employee-competencies-and-development-power-bi-content"></a>Conteúdo do Power BI de competências e desenvolvimento do funcionário
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve o Finance and Operations - Conteúdo de competências e desenvolvimento de funcionários do Power BI. 
 

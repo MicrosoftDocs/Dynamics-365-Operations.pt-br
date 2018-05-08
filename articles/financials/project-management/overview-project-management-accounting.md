@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="project-management-and-accounting"></a>Gerenciamento e contabilidade de projeto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 A funcionalidade de gerenciamento de projetos e da contabilidade pode ser usada em várias indústrias para proporcionar um serviço, para produzir um produto, ou para obter um resultado.  
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-agreement"></a>Criar um contrato de compra
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento irá guiá-lo na criação de um contrato de compra. Isso seria feito normalmente por um gerente de compras. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados. Você precisa ter classificações do contrato de compra configuradas antes de começar. Após criar um contrato é possível usá-lo quando você criar um PO, e isso irá copiar as condições do contrato de compra para o cabeçalho e para todas as linhas da ordem que são afetadas pelo contrato.
 

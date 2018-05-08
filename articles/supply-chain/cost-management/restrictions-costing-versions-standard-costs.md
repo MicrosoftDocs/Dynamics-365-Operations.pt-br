@@ -30,7 +30,7 @@ ms.lasthandoff: 01/17/2018
 
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a>Restrições em versões de avaliação de custo para custos padrão
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve as restrições que se aplicam a uma versão de avaliação de custo para custos padrão. 
 

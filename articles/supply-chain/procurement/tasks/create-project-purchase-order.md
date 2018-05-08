@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-project-purchase-order"></a>Criar ordem de compra de projeto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar uma ordem de compra do projeto. Essa tarefa usa o conjunto de dados de USSI.
 

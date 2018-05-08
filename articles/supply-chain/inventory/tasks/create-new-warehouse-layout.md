@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-warehouse-layout"></a>Criar um novo layout de depósito
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como configurar informações sobre as localizações de um depósito. Aplica-se apenas a depósitos criados usando o "armazenamento básico” no módulo de gerenciamento de estoque, não a depósitos criados no módulo de gerenciamento de depósito. Você pode usar esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-coupons-for-retail-sales"></a>Criar cupons para vendas de varejo
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a>Visão geral de cupons
 

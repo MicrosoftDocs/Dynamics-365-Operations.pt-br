@@ -28,7 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-invoices-overview"></a>Visão geral das faturas de fornecedor
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece informações gerais sobre notas fiscais de fornecedor. As notas fiscais de fornecedor são solicitações para pagamento dos produtos e serviços recebidos. As notas fiscais do fornecedor podem representar uma conta para serviços em andamento, ou podem se basear em ordens de compra para itens específicos e serviços. 
 

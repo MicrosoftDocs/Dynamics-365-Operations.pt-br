@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-an-approval-step-in-a-workflow"></a>Configurar uma etapa de aprovação em um fluxo de trabalho
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico explica como configurar as propriedades de uma etapa de aprovação.
 

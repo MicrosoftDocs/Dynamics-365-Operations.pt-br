@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-mobile-device-menu-item-to-register-received-items"></a>Configurar um item de menu do dispositivo móvel para registrar itens recebidos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarefa tem como foco a configuração de um item de menu de dispositivo móvel. Esse item de menu é usado para registro do recibo de itens encomendados por meio de ordens de compra. 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-and-edit-sales-quotations"></a>Criar e editar cotações de venda
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento demonstrativos como criar e atualizar uma cotação de venda. Você pode realizar esse procedimento em seus próprios dados ou na empresa USMF de dados de demonstração.
 

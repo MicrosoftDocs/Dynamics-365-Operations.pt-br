@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="data-import-and-export-jobs"></a>Trabalhos de importação e exportação de dados
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Para criar e gerenciar trabalhos de importação e de exportação de dados no Microsoft Dynamics 365 for Finance and Operations use o espaço de trabalho **Gerenciamento de dados**. Por padrão, o processo de importação e exportação criar uma tabela de preparo para cada entidade no banco de dados de destino. As tabelas de preparo permitem verificar, limpar ou converter dados antes de movê-los.
 

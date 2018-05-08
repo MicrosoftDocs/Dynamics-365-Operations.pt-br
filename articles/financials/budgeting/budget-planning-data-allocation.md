@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-data-allocation"></a>Alocação de dados do plano de orçamento
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo descreve os vários métodos de alocação disponíveis no Microsoft Dynamics 365 for Finance and Operations e como podem ser usados.  
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="accounting-source-explorer"></a>Gerenciador de fontes contábeis
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre o explorador de origem da contabilidade, que pode ser usado para análise detalhada das informações de origem, além das entradas contábeis da contabilidade.
 

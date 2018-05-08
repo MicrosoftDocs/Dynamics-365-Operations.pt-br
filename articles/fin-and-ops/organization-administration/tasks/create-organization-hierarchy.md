@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-organization-hierarchy"></a>Criar uma hierarquia da organização
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Use o procedimento a seguir para criar uma hierarquia organizacional. Você pode usar hierarquias organizacionais para exibir e fazer relatórios sobre a empresa sob várias perspectivas. Por exemplo, você pode configurar uma hierarquia para relatórios de impostos, legais ou estatutários. Você pode configurar outra hierarquia para criar relatórios sobre informações financeiras que não são necessárias legalmente, mas que são usadas para fins de relatórios internos. 
 

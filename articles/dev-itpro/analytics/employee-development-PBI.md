@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="employee-development-power-bi-content"></a>Conteúdo do Power BI para desenvolvimento do funcionário
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve o conteúdo Microsoft Power BI para **Desenvolvimento do funcionário**.
 

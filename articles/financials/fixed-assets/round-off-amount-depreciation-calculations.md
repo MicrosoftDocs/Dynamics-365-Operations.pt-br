@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="round-off-amount-for-depreciation-calculations"></a>Valor de arredondamento para cálculos de depreciação
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo discute o campo Arredondar depreciação, encontrado nas páginas no registro de depreciações.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-schedule-groups"></a>Definir grupos de agendamento de lean manufacturing
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Os grupos de agendamento de lean manufacturing são definidos para agrupar e distinguir produtos na programação do kanban. O agrupamento pode ser feito como a associação genérica por empresa ou ser específico de uma célula de trabalho. Cada grupo tem um código de cor atribuído para a indicação visual na página de listagem de agendamento de kanban. A empresa de dados demo usada para criar este procedimento é USMF.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="accounts-receivable-home-page"></a>Home page de Contas a receber
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Use Contas a receber para rastrear faturas de clientes e entrada de pagamentos. 
 

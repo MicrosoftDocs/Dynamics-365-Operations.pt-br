@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="moving-average"></a>Média de movimentos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 A média de movimentos é um método de avaliação de custo perpétuo baseado no princípio da média, no qual os custos das saídas de estoque não são alterados quando os custos de compra mudam. A diferença é capitalizada e baseia-se em um cálculo proporcional. O valor restante é despesa. 
 

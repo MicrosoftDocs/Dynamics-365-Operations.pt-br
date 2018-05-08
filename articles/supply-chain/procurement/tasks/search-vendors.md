@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="search-for-vendors"></a>Procurar fornecedores
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Aprenda como pesquisar fornecedores com base em critérios específicos. Este exemplo mostra como procurar fornecedores que estão aprovados para uma categoria de aquisição específica e têm seu endereço principal em um país específico. Você pode executar esse procedimento na empresa de dados demonstrativos USMF, ou usando seus próprios dados. Essa tarefa é tipicamente realizada por um profissional de aquisição.
 

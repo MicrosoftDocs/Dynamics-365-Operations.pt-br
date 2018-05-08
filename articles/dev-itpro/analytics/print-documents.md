@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="printing-in-finance-and-operations-applications"></a>Impressão em aplicativos do Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 No Microsoft Dynamics 365 for Finance and Operations, você pode imprimir documentos usando uma impressora local ou um dispositivo conectado na rede. Este artigo fornece uma visão geral de como os documentos são impressos.
 

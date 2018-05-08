@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="create-time-windows"></a>Criar janelas de horas   
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Você pode usar janelas de tempo para otimizar o agendamento das linhas de ordem de serviço.
 

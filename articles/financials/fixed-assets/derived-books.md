@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="derived-books"></a>Registros derivados
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo oferece uma visão geral da funcionalidade de registro derivado.
 

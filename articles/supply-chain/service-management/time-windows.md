@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="time-windows"></a>Janelas de horas  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Você pode usar janelas de tempo para otimizar o agendamento das linhas de ordem de serviço. Você pode configurar o sistema de forma que criar automaticamente ordens de serviço. Com base nos critérios especificados por uma janela de tempo, você pode associar quantas linhas de ordem de serviço de possíveis à menor quantidade de ordens de serviço possíveis.
 

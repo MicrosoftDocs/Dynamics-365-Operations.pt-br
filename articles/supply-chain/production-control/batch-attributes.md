@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="batch-attributes"></a>Atributos de lote
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre atributos de lote. Os atributos de lote são características de matérias-primas e produtos acabados que compõem os lotes de estoque. O tópico também explica como atribuir atributos de lote e como você pode pesquisar neles ao reservar lotes.
 

@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fifo-with-physical-value-and-marking"></a>PEPS com marcação e valor físico
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Primeiro a entrar, Primeiro a sair (PEPS) é um modelo de estoque em que os primeiros recebimentos obtidos são emitidos primeiro. As saídas atualizadas financeiramente do estoque são liquidadas contra os primeiros recebimentos atualizados financeiramente no estoque, com base na data financeira da transação de estoque. 
 

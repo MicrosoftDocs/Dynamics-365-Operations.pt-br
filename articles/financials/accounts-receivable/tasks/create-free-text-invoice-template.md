@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-free-text-invoice-template"></a>Criar um modelo de fatura de texto livre
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este registro usa a empresa de dados de demonstração USMF. O registro é direcionado para o usuário responsável por gerenciar e processar faturas A/R.
 

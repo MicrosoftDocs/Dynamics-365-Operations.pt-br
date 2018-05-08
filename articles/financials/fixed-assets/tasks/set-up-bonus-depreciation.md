@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-bonus-depreciation"></a>Configurar depreciação extra
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar uma provisão para depreciação especial e associá-la a um registro de ativos fixos. Ela usa a função de contador e os dados de demonstração da entidade legal de USMF.
 

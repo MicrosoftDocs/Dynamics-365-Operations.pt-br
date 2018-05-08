@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-a-workflow"></a>Criar um fluxo de trabalho
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico explica como criar um fluxo de trabalho.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-filtering-and-query-syntax"></a>Opções avançadas de filtragem e sintaxe de consulta
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo descreve a filtragem e as opções de consulta disponíveis quando você usa o operador "correspondências" na caixa de diálogo Filtro/Classificação Avançado.
 

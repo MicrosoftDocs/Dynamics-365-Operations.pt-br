@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="advanced-bank-reconciliation-overview"></a>Visão geral da reconciliação bancária avançada
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo descreve o fluxo do processo de reconciliação avançado do banco. O recurso avançado de reconciliação bancária permite que você importe os extratos bancários que podem ser reconciliados automaticamente nas transações bancárias.
 

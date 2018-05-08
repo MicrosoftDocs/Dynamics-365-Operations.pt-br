@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-orders"></a>Criar ordens de venda
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar uma ordem de venda. Você pode usar o procedimento na empresa USMF de dados de demonstração. As ordens de venda são desenvolvidos tipicamente por um processador de ordens de venda. 
 

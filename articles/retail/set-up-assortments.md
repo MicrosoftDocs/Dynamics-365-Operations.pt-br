@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-assortments"></a>Configurar sortimentos
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este artigo descreve o que é um sortimento e explica como configurar sortimentos no Microsoft Dynamics 365 para Varejo.
 

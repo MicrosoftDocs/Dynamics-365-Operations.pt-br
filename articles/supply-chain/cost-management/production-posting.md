@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-posting"></a>Lançamento de produção
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre tipos diferentes de lançamento no processo de produção.
 

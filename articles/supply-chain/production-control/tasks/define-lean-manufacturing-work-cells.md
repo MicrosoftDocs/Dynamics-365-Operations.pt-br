@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Definir células de trabalho de lean manufacturing
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Uma célula de trabalho é um formulário específico dos grupos de recursos que podem ser usados em atividades do processo de lean manufacturing. As células de trabalho têm locais de entrada e de saída e uma definição de capacidade com base em um modelo de fluxo de produção. Para saber mais sobre os conceitos básicos células de trabalho de lean manufacturing e dos cálculos de capacidade, consulte os white papers sobre Lean manufacturing. A empresa de dados de demonstração usada para criar este procedimento é USMF.
 

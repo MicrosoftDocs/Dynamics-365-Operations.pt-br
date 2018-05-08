@@ -26,7 +26,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="actual-vs-budget-power-bi-content"></a>Conteúdo do Power BI real versus orçamento
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve o conteúdo do Microsoft Power BI **Real versus orçamento**. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo. 
 

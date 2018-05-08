@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>Registrar o recebimento de mercadorias na ordem de compra
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como registrar o recebimento de mercadorias diretamente em uma ordem de compra. Também é possível registrar o recebimento de produtos no depósito e, posteriormente, registrá-lo na ordem de compra. Essa tarefa é normalmente executada por um agente de compras ou um coordenador de contas a pagar. O exemplo mostrado neste guia pode ser usado na empresa dos dados do programa demonstrativo de USMF. O exemplo inclui etapas para criar uma ordem de compra simples de modo que você possa usar o procedimento como um guia da tarefa. Se você usava o procedimento em seus próprios dados, começaria na subtarefa Registrar recebimento de mercadorias.
 

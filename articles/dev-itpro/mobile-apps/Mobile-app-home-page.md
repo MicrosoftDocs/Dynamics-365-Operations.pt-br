@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="mobile-app-home-page"></a>Página inicial do aplicativo móvel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve o aplicativo móvel do Microsoft Dynamics 365 for Unified Operations e fornece links para recursos que podem ajudá-lo a implementá-lo em sua organização.
 

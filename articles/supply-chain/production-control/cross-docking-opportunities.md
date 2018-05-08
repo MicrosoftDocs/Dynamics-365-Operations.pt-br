@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>Distribuição integrada de ordens de produção para docas de saída
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve como gerenciar o processo de distribuição integrada de materiais que está sendo informado como concluído de uma linha de produção para uma doca de transporte.
 

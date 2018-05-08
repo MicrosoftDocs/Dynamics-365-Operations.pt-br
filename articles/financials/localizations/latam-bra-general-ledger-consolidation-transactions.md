@@ -25,7 +25,7 @@ ms.lasthandoff: 03/05/2018
 ---
 # <a name="export-and-import-transactions-for-general-ledger-consolidation-for-brazil"></a>Exportar e importar transações da consolidação de contabilidade para o Brasil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Você pode transferir transações de contabilidade da empresa de origem para a conta consolidada na empresa consolidada sem consolidar as transações.
 

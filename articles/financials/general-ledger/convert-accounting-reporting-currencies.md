@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>Converter moeda contábil ou de relatório
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Uma empresa que deve alterar a moeda contábil ou moeda de relatório apresenta duas opções. A primeira opção é criar uma nova empresa e iniciar a atualização. A segunda opção é executar a contabilidade e o processo de conversão da moeda de relatório. Este é um processo muito longo que modifica cada transação no sistema. Alguma configuração também é necessária antes do processo ser executado.
 

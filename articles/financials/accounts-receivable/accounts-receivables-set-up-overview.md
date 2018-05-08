@@ -28,7 +28,7 @@ ms.lasthandoff: 11/15/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>Configurar cobranças e crédito em contas a receber
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Configurar Contas a receber e Crédito e cobranças para rastrear faturas e pagamentos recebidos dos clientes.
 

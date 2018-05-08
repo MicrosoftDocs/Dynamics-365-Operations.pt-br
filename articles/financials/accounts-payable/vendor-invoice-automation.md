@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="vendor-invoice-automation"></a>Automação das faturas dos fornecedores
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico explica os recursos disponíveis para a automação ponta a ponta de notas fiscais de fornecedor, até mesmo notas fiscais que incluem anexos.
 

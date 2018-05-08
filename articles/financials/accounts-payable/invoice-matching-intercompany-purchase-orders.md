@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>Conciliação de faturas e ordens de compra intercompanhia
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 A entidade legal da compra envolvida em uma transação de comércio intercompanhia pode ser configurada para usar a conciliação de faturas de contas a pagar. Nesse caso, os requisitos de lançamento para o comércio intercompanhia e a conciliação de faturas de contas a pagar devem ser atendidos para que as faturas de fornecedor intercompanhia sejam lançadas.
 

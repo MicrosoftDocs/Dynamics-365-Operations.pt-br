@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-fraud-alerts"></a>Configurar alertas de fraude
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tópico explica como configurar critérios e regras para colocar ordens de venda potencialmente fraudulentas em espera para revisão adicional. A funcionalidade da revisão de fraude é usada para determinar a validade de informações em uma ordem de venda. Se as informações na ordem de venda parecem ser questionáveis com base em critérios e regras de fraude de uma organização, a ordem pode ser colocada em espera para revisão adicional por um administrador.
 

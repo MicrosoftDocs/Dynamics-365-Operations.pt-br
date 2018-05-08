@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>Confirmação de produto para a separação do cluster
 A separação do cluster permite que você escolha itens para várias ordens simultaneamente. Quando a separação do cluster é aplicada, confirmação do item é importante para verificar os itens adicionados aos clusters. Você pode verificar os itens na separação do cluster durante o processo de separação do cluster.

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="microsoft-dynamics-365-for-talent-system-requirements-and-update-policy"></a>Requisitos do sistema e política de atualização do Microsoft Dynamics 365 for Talent
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tópico lista os requisitos para o Microsoft Dynamics 365 for Talent. A política de atualização também está descrita.
 

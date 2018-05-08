@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="financial-dimensions-and-main-accounts-in-a-right-to-left-language"></a>Dimensões financeiras e contas principais de um idioma da direita para a esquerda
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve algumas das decisões de implementação que devem ser considerados ao usar um idioma da direita para a esquerda, e você deve configurar dimensões financeiras e contas principais.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="requests-for-quotation-rfqs"></a>Solicitações de cotação (RFQs)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece uma visão geral das solicitações de cotação (RFQs). As organizações emitem RFQs quando desejam receber ofertas competitivas de vários fornecedores para os itens ou serviços que eles compram. Em uma RFQ, você solicita que os fornecedores forneçam preços e prazos de entrega das quantidades do item que você especificar.
 Você também pode solicitar que os fornecedores especifiquem caso haja encargos incidentais, como custos de remessa, ou quaisquer descontos para grandes pedidos ou pagamento antecipado da fatura do fornecedor.

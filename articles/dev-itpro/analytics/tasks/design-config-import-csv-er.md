@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>Criar uma configuração para importar dados de um arquivo externo no formato CSV (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Use esse procedimento para criar configurações de ER (relatório eletrônico) para importar dados nos aplicativos Dynamics 365 for Finance and Operations de um arquivo externo no formato CSV. Neste procedimento, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. Para concluir estas etapas, você deverá primeiramente concluir as etapas no procedimento, "ER Criar um provedor configuração e marcá-lo como ativo". 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>Criar expressões para chamar métodos de classe de aplicativo (ER)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este guia fornece informações sobre como reutilizar a lógica de aplicativo existente em configurações de ER (relatório eletrônico) chamando métodos necessários de classes de aplicativos em expressões de ER. Os valores de argumentos para chamar classes podem ser definidos dinamicamente no tempo de execução: por exemplo, com base em informações no documento de análise para garantir sua exatidão. Neste guia, você criará as configurações de ER necessárias para a empresa de exemplo, Litware, Inc. Esse procedimento é criado para usuários com a função atribuída de Administrador de sistema ou Desenvolvedor de relatório eletrônico. 
 

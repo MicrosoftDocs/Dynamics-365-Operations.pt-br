@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="parameters-for-legal-entities-in-brazil"></a>Parâmetros para entidades legais no Brasil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Para coletar e enviar demonstrativos de imposto que relatem o desempenho, uma entidade legal brasileira requer informações fiscais específicas. Este tópico explica como definir os parâmetros para especificar estas informações.
 

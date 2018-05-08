@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fiscal-books-for-brazil"></a>Livros fiscais para o Brasil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre livros fiscais. Os livros fiscais trata-se de um dos três os projetos que compõem o SPED (Public Digital Bookkeeping System). Eles podem ajudá-lo consolidar livros fiscais e estatutários em arquivos eletrônicos para atender aos requisitos do SPED. 
 

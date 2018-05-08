@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Descartar um ativo fixo usando uma fatura de texto livre
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como adquirir um ativo fixo usando a proposta de aquisição no Diário de ativos fixos. Ela usa a função de contador e os dados de demonstração da entidade legal de USMF.
 

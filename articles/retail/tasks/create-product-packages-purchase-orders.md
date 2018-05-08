@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>Criar pacotes de produto para ordens de compra
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimento mostra a criação de um pacote de produtos e a utilização dele em uma ordem de compra. A ordem de compra será usada para criar uma ordem para um conjunto predefinido de produtos. Este procedimento usa a empresa de dados de demonstração USRT.
 

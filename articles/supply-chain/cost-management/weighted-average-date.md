@@ -29,9 +29,9 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="weighted-average-date"></a>Data de média ponderada
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 A data de média ponderada é um modelo de estoque baseado no princípio de média ponderada. Para o princípio de média ponderada, as saídas do estoque são avaliadas pelo valor médio dos itens recebidos no estoque para cada dia no período de fechamento de estoque. 
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="time-and-attendance-registration"></a>Registro de Horário e presença
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Os trabalhadores de registro de tempo podem inserir diferentes tipos de registros de tempo, por exemplo, registro de entrada e de saída em atividades indiretas e registro de ausência. Este tópico descreve os registros, o cálculo, a aprovação e o uso do fluxo de trabalho para adicionar a estrutura e a aprovação automatizada ao processo de aprovação de folhas de ponto. 
 

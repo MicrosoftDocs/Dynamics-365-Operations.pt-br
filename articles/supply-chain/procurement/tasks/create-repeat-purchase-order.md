@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-repeat-purchase-order"></a>Criar uma ordem de compra repetida
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar uma ordem de compra (PO) da repetição copiando linhas de um documento de ordem mais adiantado da compra a uma PO nova ou a uma PO existente. Há dois métodos para criar ordens da repetição. Você pode usar as ações disponíveis a nível do documento da placa da ação, ou você pode usar a linha de ações do detalhe. As ações do nível do documento estão pretendidas principalmente ao criar uma ordem de compra adicionando linhas e informação de cabeçalho de uma outra ordem, quando a linha de ação dos detalhes for principalmente adicionando linhas a uma ordem existente. O exemplo mostrado neste guia pode ser usado na empresa dos dados do programa demonstrativo de USMF. Normalmente essa tarefa é realizada por um agente de compras.
 

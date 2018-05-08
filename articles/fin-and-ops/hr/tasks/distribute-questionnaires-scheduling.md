@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a>Distribuir questionários usando agendamento
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 A programação do questionário permite que você planeje e distribua questionários para vários participantes. A empresa de dados demo usada para criar este procedimento é USMF.
 

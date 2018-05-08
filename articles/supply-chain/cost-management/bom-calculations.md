@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations"></a>Cálculos de BOM
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Os cálculos de preço de venda e de acúmulo de custo são conhecidos como cálculos de lista de materiais (BOM), e você os inicia na página Cálculos. Este tópico fornece informações sobre cálculos de BOM.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="miscellaneous-charges-on-free-text-invoices-brazil"></a>Encargos diversos sobre faturas de texto livre (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 A legislação brasileira aplica encargos diversos que incluem frete. Encargos diversos só podem ser usados em uma fatura de texto livre. Esta tarefa usa a empresa de demonstração BRMF.
 

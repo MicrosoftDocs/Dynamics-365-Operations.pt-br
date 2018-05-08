@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a>Contas de lançamento de aquisição de ativo fixo
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo explica como configurar a contabilidade para lançar a aquisição de ativos.
 

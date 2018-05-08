@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="chart-of-accounts-delimiter-must-be-unique"></a>O delimitador do plano de contas deve ser exclusivo
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 No Microsoft Dynamics AX 2012, é possível usar o mesmo delimitador para o plano de contas e para os valores de dimensão. No Dynamics 365 for Finance and Operations, você não pode ter o mesmo delimitador para o plano de contas e para os valores de dimensão. Se houver um delimitador duplicado, você poderá alterá-lo após a atualização. 
 

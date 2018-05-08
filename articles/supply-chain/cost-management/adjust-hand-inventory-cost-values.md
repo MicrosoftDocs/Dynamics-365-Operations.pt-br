@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="adjust-on-hand-inventory-cost-values"></a>Ajustar valores de custo de estoque disponível
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Use a página Ajuste de estoque disponível para ajustar o valor de custo das quantidades de estoque disponível após a execução de um processo de fechamento de estoque.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-a-product-configuration-model"></a>Criar um modelo de configuração do produto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar um modelo de configuração do produto e especificar as informações básicas, como atributos e subcomponentes. A empresa de dados demo usada para criar este procedimento é USMF.
 

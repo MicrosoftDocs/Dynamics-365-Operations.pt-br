@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="posting-definition-examples"></a>Exemplos de definições de lançamento
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo oferece exemplos que mostram como as definições de lançamento são usadas para ônus de ordem de compra e apropriações de orçamento.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-locations-in-a-wms-enabled-warehouse"></a>Configurar localizações em um depósito habilitado para WMS
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este guia mostra como definir a configuração da localização para um novo depósito habilitado para WMS (um depósito que utiliza processos avançados de gerenciamento de depósito). O processo é normalmente feito por um gerente de depósito. Você pode executar esse guia na empresa de dados demonstrativos USMF ou usando seus próprios dados. Uma pré-condição é que você tenha pelo menos um local configurado.
 

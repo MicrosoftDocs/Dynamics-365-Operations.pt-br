@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="expense-reports-and-multiple-approvers"></a>Relatórios de despesas e vários aprovadores
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Dependendo das políticas de aprovação de despesas da sua organização, talvez seja necessário que mais de uma pessoa aprove um relatório de despesas enviado por um funcionário. Ao configurar o processo de fluxo de trabalho para a aprovação do relatório de despesas, você poderá adicionar os elementos do fluxo de trabalho que incluem tarefas ou etapas para um ou mais aprovadores de relatório de despesas. Por exemplo, você pode exigir que todos os relatórios de despesas sejam aprovados primeiro pelo gerente do funcionário que enviou o relatório e, em seguida, pelo coordenador de contas a pagar.
 

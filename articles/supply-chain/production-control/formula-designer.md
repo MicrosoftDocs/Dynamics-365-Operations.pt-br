@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="formula-designer"></a>Designer de fórmulas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico explica como usar o designer de fórmulas para analisar e manter fórmulas em um modo de exibição de árvore.
 

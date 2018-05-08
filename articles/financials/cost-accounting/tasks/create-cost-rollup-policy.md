@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-cost-rollup-policy"></a>Criar uma política de acúmulo de custo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar uma política de acúmulo de custo e criar regras para a política. Os dados demonstrativos utilizados na criação desse procedimento são do conjunto USP2.
 

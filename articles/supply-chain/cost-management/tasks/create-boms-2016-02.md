@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-boms-february-2016-only"></a>Criar BOMs (apenas fevereiro de 2016)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarefa tem como foco criar a estrutura de lista de materiais para produtos finalizados e semifinalizados. Trata-se da quarta tarefa na série de cálculo BOM. A empresa de dados demo usada para criar esta tarefa é USMF.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="consumption-depreciation"></a>Depreciação de consumo
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece uma visão geral do Método de consumo de depreciação.
 

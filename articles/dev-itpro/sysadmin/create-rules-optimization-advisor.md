@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-rules-for-optimization-advisor"></a>Criar regras para o Optimization advisor
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico explica como criar novas regras para o **Optimization advisor**. Por exemplo, você pode criar uma nova regra que identifique quais casos de solicitação de cotações (RFQ) possuem um título vazio. Usar títulos em casos facilita sua identificação e pesquisa. Embora relativamente simples, esse exemplo mostra o que pode ser obtido com regras de otimização. 
 

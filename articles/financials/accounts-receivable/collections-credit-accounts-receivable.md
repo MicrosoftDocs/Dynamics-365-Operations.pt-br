@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>Crédito e cobranças em Contas a receber
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 A informações de cobranças de contas a receber são gerenciados em uma exibição central usando a página Cobranças do Finance and Operations. Os gerentes de crédito e cobranças podem usar essa visão central para gerenciar cobranças. Os agentes de cobranças podem iniciar o processo de cobranças a partir das listas de clientes que são geradas usando critérios de cobrança predefinidos ou da página Clientes.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="import-configurations-to-generate-documents-with-application-data"></a>Configurações de importação para gerar documentos com dados do aplicativo
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Para completar as etapas, neste procedimento você deve primeiro concluir o procedimento, "ER Criar um provedor de configuração e marcá-lo como ativo".
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="build-a-product-configuration-model"></a>Criar um modelo de configuração de produto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 A necessidade de configurar produtos para atender aos requisitos especiais está se tornando regra, e não exceção, em relações entre negócios e de negócio para consumidor.
 

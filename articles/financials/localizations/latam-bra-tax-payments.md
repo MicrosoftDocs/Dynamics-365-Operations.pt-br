@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="tax-payments-in-brazil"></a>Pagamentos de impostos no Brasil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre pagamentos de impostos no Brasil. No Brasil, os usuários podem registrar e lançar pagamentos de impostos junto com as informações fiscais relacionadas que será reportadas às autoridades fiscais.
 

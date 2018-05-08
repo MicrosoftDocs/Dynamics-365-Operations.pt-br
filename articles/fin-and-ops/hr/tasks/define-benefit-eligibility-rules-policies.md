@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>Definir regras e políticas de qualificação para o benefício
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 O registro mostrará como é possível criar regras de qualificação e as diretivas de benefício e regras para atribuir benefícios.  
 

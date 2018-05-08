@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>Configurar contas bancárias de empresa para débitos diretos de ISO20022
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarefa orienta como configurar com as informações de conta bancária específicas da empresa que são necessárias para gerar arquivos de pagamento de cliente. Este procedimento usa o formato de débito direto ISO 20022 como exemplo. Outros formatos podem exigir informações de configuração adicionais, como a ID da empresa ou o código de classificação.
 

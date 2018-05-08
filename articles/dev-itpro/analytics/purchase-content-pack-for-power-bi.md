@@ -28,7 +28,7 @@ ms.lasthandoff: 12/18/2017
 
 # <a name="purchase-spend-analysis-power-bi-content"></a>Conteúdo do Power BI de análise de gasto em compras
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI de **Análise de gastos da compra**. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
 

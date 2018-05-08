@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="invoice-approvals-mobile-workspace"></a>Espaço de trabalho móvel para aprovações de fatura
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre a área de trabalho móvel de **Aprovações de fatura**. Este espaço de trabalho fornece uma lista de faturas que foram atribuídas a você por meio do processo de fluxo de trabalho do cabeçalho da fatura de fornecedor. 
 

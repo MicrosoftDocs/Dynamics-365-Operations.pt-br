@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>Bem-vindo ao Microsoft Dynamics 365 for Talent
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 O Microsoft Dynamics 365 for Talent simplifica muitas tarefas de manutenção de registros e automatiza vários processos relacionados ao recrutamento de sua organização. Esses processos incluem retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações. Também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão.
 

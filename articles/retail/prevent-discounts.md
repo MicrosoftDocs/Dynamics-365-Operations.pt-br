@@ -29,7 +29,7 @@ ms.lasthandoff: 10/24/2017
 
 # <a name="prevent-discounts-for-retail-products"></a>Impedir descontos em produtos de varejo
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Há vários motivos que levam varejistas a impedir que alguns produtos tenham descontos, seja em uma promoção ou durante a venda no PDV.
 

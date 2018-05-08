@@ -27,7 +27,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>Liberar linhas de BOM e fórmula para o depósito
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve o processo para liberar matéria-prima para linhas de BOM e linhas de fórmula para o depósito. Quando você libera uma linha da BOM e da fórmula para o depósito, o sistema determina primeiro se o material já está disponível no local de entrada de produção no chão de fábrica em que o material será consumido para o processo de produção.
 

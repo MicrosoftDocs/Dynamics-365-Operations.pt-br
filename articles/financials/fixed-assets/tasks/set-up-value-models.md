@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-books"></a>Configurar registros
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra a você como criar um novo registro de ativos fixos e associá-lo a um grupo de ativos fixos. Ela usa a função de contador e os dados de demonstração da entidade legal de USMF.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a>Completar instalação básica de um produto mestre lançado
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como concluir a configuração mínima necessária antes que o produto mestre possa ser usado em versões de Listas de Materiais.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="organizational-training-power-bi-content"></a>Conteúdo do Power BI de treinamento organizacional
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve o Finance and Operations - Conteúdo do Power BI de treinamento organizacional. 
 

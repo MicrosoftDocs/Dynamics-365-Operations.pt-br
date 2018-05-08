@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a>Exibir um comprovante intercompanhia relacionado de um diário
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 A janela de comprovante relacionado mostra o comprovante da empresa de compensação ao lançar uma transação intercompanhia do diário geral.
 
