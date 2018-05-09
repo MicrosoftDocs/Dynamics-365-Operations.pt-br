@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e7ee1935c006636f8d7bfce53287229e736e2f80
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 90c16653dee0614beaad8e4693c012b67a54b297
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="service-object-relations"></a><span data-ttu-id="97d1d-103">Relações do objeto de serviço</span><span class="sxs-lookup"><span data-stu-id="97d1d-103">Service object relations</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="97d1d-104">Você pode criar relações de objeto de serviço entre um objeto de serviço e um contrato de serviço ou uma ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="97d1d-104">You can create service object relations between a service object and a service agreement or service order.</span></span> <span data-ttu-id="97d1d-105">Ao criar uma relação, você anexa o objeto de serviço ao contrato de serviço ou à ordem de serviço.</span><span class="sxs-lookup"><span data-stu-id="97d1d-105">When you create a relation, you attach the service object to the service agreement or service order.</span></span>
 

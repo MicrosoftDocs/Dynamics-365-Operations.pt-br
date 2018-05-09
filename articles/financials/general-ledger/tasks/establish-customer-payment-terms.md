@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e8b4a8f304f8d4b7323b1432413e183df74060eb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3183b00cf2ff4d882399d3f44ca8046e50eda507
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="establish-customer-payment-terms"></a><span data-ttu-id="f5881-103">Estabelecer condições de pagamento de cliente</span><span class="sxs-lookup"><span data-stu-id="f5881-103">Establish customer payment terms</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f5881-104">Este procedimento define uma configuração de desconto à vista e a data de vencimento.</span><span class="sxs-lookup"><span data-stu-id="f5881-104">This procedure defines a cash discount and due date setup.</span></span> <span data-ttu-id="f5881-105">Este guia de tarefa usa a empresa demo USMF.</span><span class="sxs-lookup"><span data-stu-id="f5881-105">This task guide uses the USMF demo company.</span></span>
 

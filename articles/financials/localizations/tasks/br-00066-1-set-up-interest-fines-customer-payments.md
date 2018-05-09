@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e62e2e960fe26a9743e95d6159f0628973702732
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fa01297e5f8f987db8f2ce1b8abff6f76d59bd0b
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-interest-and-fines-on-customer-payments-brazil"></a><span data-ttu-id="69128-103">Configurar juros e multas em pagamentos de clientes (Brasil)</span><span class="sxs-lookup"><span data-stu-id="69128-103">Set up interest and fines on customer payments (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="69128-104">Use este procedimento para configurar juros e multas em pagamentos de clientes.</span><span class="sxs-lookup"><span data-stu-id="69128-104">Use this procedure to set up interest and fines on customer payments.</span></span> <span data-ttu-id="69128-105">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="69128-105">This task uses the BRMF demo company.</span></span>
 

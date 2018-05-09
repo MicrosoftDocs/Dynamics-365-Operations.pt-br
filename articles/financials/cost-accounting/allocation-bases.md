@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d3de34eeef042cb3f283ee53579b199c6a4c9091
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="3d1ad-104">Bases de alocação</span><span class="sxs-lookup"><span data-stu-id="3d1ad-104">Allocation bases</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="3d1ad-105">Uma base de alocação é a base na qual a contabilização de custo aloca custos gerais indiretos.</span><span class="sxs-lookup"><span data-stu-id="3d1ad-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="3d1ad-106">Uma base de alocação pode ser uma quantidade, como as horas de máquina usadas, as horas de quilowatt (kWh) que são consumidos ou a, área que está ocupada.</span><span class="sxs-lookup"><span data-stu-id="3d1ad-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="3d1ad-107">As bases de alocação são muito usadas para atribuir custos gerais indiretos ao estoque produzido.</span><span class="sxs-lookup"><span data-stu-id="3d1ad-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="3d1ad-108">Por exemplo, um departamento de TI aloca as despesas de acordo com o número de computadores que cada departamento usa.</span><span class="sxs-lookup"><span data-stu-id="3d1ad-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 

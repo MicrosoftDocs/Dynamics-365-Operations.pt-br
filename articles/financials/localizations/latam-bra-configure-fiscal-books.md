@@ -17,16 +17,16 @@ ms.author: v-gonode
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 193e0a802c6a4d92097faa7b7a684153c23734ce
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7201def23a5026ad4cda2ce4b0057b578853e20f
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-fiscal-books"></a><span data-ttu-id="5c833-104">Configurar livros fiscais</span><span class="sxs-lookup"><span data-stu-id="5c833-104">Configure fiscal books</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="5c833-105">Os livros fiscais ajudam a criar a apuração de imposto do estabelecimento fiscal, o pagamento de imposto e o relatório de imposto por meio do Sistema Público de Escrituração Digital (SPED).</span><span class="sxs-lookup"><span data-stu-id="5c833-105">Fiscal books can help you create the fiscal establishment's tax assessment, tax payment, and tax reporting through Sistema Publico de Escrituração Digital (SPED), the Public Digital Bookkeeping System.</span></span> <span data-ttu-id="5c833-106">Os arquivos do SPED fornecem informações detalhadas sobre as apurações e pagamentos de imposto em transações com mercadorias, ativos fixos e serviços, bem como em transações na contabilidade.</span><span class="sxs-lookup"><span data-stu-id="5c833-106">The SPED files provide detailed information about the tax assessments and tax payments on transactions that have goods, fixed assets, and services, and also transactions in the general ledger.</span></span> 
 

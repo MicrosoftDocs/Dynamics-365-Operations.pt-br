@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bc2431a8008ce6518974e240d12dc07f097bdbb0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1047af93727f98fc0f15a82c93b388de5d9860f0
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-an-expense-report"></a><span data-ttu-id="126fb-103">Exibir um relatório de despesas</span><span class="sxs-lookup"><span data-stu-id="126fb-103">View an expense report</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="126fb-104">Quando você executa uma consulta para exibir transações na contabilidade ou em compra e fornecimento, a consulta pode retornar informações demais.</span><span class="sxs-lookup"><span data-stu-id="126fb-104">When you run a query to view transactions in General ledger or Procurement and sourcing, the query might return too much information.</span></span> <span data-ttu-id="126fb-105">Por isso, pode ser interessante refinar sua pesquisa.</span><span class="sxs-lookup"><span data-stu-id="126fb-105">Therefore, you might want to narrow your search.</span></span> <span data-ttu-id="126fb-106">Para obter as informações necessárias, você pode fazer uma busca detalhada em uma transação para ver o relatório de despesas no qual ela apareceu.</span><span class="sxs-lookup"><span data-stu-id="126fb-106">To get the information that you require, you can drill down into a transaction to see the expense report that it appeared on.</span></span>
 

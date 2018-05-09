@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1805c5972e2205cffa1a691348e5aa1e36f5f144
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d6c78c9103c5745491379703812ee9c72a72ca4c
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="customer-payments-for-a-partial-amount"></a><span data-ttu-id="d1472-105">Pagamentos de cliente de uma quantidade parcial</span><span class="sxs-lookup"><span data-stu-id="d1472-105">Customer payments for a partial amount</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d1472-106">Às vezes, os clientes fazem um pagamento inferior ao valor de uma fatura.</span><span class="sxs-lookup"><span data-stu-id="d1472-106">Sometimes, customers make a payment that is less than the amount of an invoice.</span></span> <span data-ttu-id="d1472-107">Este artigo descreve as diversas opções para controlar essa situação.</span><span class="sxs-lookup"><span data-stu-id="d1472-107">This article describes the various options for handling this situation.</span></span> <span data-ttu-id="d1472-108">As opções disponíveis dependerão dos seus requisitos empresariais e da sua configuração.</span><span class="sxs-lookup"><span data-stu-id="d1472-108">The options that are available to you depend on your business requirements and configuration.</span></span>
 

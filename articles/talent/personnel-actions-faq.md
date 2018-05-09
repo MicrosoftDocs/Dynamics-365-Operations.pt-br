@@ -18,16 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f3abbb2d124ee6c11e46e3680a342ecb12a12ec3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 71bd48736048c266603b937efb9d137b1e17b6ff
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="personnel-actions-faq"></a><span data-ttu-id="1c47a-104">Ações de pessoal [Perguntas frequentes]</span><span class="sxs-lookup"><span data-stu-id="1c47a-104">Personnel actions [FAQ]</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="1c47a-105">Este tópico contém respostas para as perguntas que você pode ter se a sua organização utilizar ações de pessoal.</span><span class="sxs-lookup"><span data-stu-id="1c47a-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="1c47a-106">As ações de pessoal são etapas adicionais que devem ser concluídas quando você executa algumas tarefas relacionadas a pessoal.</span><span class="sxs-lookup"><span data-stu-id="1c47a-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="1c47a-107">Exemplos de tarefas que podem exigir ações de pessoal são quando você cria novas posições, altera valores existentes de posição, contrata novos trabalhadores, transfere trabalhadores, altera a remuneração do trabalhador, altera as atribuições de posição, ou demite trabalhadores.</span><span class="sxs-lookup"><span data-stu-id="1c47a-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 

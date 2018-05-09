@@ -19,16 +19,16 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1198da234b9e036e22c29da3c4ab5ec8e0a44431
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c4b53775c9c11a86fcd4fa0c57c6de9d458f93bb
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="project-invoicing"></a><span data-ttu-id="aeb3f-104">Faturamento de projeto</span><span class="sxs-lookup"><span data-stu-id="aeb3f-104">Project invoicing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="aeb3f-105">Este artigo fornece uma visão geral do projeto que fatura por tempo e projetos de preço fixo material.</span><span class="sxs-lookup"><span data-stu-id="aeb3f-105">This article provides an overview of project invoicing for Time and material projects and Fixed-price projects.</span></span> <span data-ttu-id="aeb3f-106">Contém informações sobre propostas de nota fiscal (nota fiscal preliminar), controle de notas fiscais, faturamento por conta, faturamento de fornecedor e notas de crédito.</span><span class="sxs-lookup"><span data-stu-id="aeb3f-106">It includes information about invoice proposals (preliminary invoices), invoice control, on-account invoicing, vendor invoicing, and credit notes.</span></span>
 

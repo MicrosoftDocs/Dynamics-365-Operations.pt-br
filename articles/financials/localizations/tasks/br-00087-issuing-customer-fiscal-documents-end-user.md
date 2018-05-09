@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5bb2ad38a8cfd316699df198d6aeaeaa98e9d161
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a97ab00874fc1b3f827a0536a76faa62601de817
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="issue-customer-fiscal-documents-for-end-users-brazil"></a><span data-ttu-id="b67a9-103">Emitir notas fiscais para clientes (para usuários finais) (Brasil)</span><span class="sxs-lookup"><span data-stu-id="b67a9-103">Issue customer fiscal documents (for end users) (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b67a9-104">É possível emitir uma nota fiscal a um cliente que comprou mercadorias do estabelecimento fiscal.</span><span class="sxs-lookup"><span data-stu-id="b67a9-104">You can issue a fiscal document to a customer who bought goods from the fiscal establishment.</span></span> <span data-ttu-id="b67a9-105">O cálculo do valor base do imposto ICMS considera o valor do imposto IPI.</span><span class="sxs-lookup"><span data-stu-id="b67a9-105">The calculation of the ICMS tax base amount considers the IPI tax amount.</span></span> <span data-ttu-id="b67a9-106">Este registro usa a empresa de dados de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="b67a9-106">This recording uses the BRMF demo company.</span></span>
 

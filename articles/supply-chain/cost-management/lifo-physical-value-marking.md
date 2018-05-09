@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2ba1919254ffa7d08076379f5e034952d8273328
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5e66335a6cf0e7b7b73033a51b727611e4869d33
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="lifo-with-physical-value-and-marking"></a><span data-ttu-id="4629f-104">UEPS com marcação e valor físico</span><span class="sxs-lookup"><span data-stu-id="4629f-104">LIFO with physical value and marking</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="4629f-105">Último a entrar, Primeiro a sair (UEPS) é um modelo de estoque no qual os últimos (mais recentes) recebimentos são emitidos primeiro.</span><span class="sxs-lookup"><span data-stu-id="4629f-105">Last in, First out (LIFO) is an inventory model in which the last (newest) receipts are issued first.</span></span> <span data-ttu-id="4629f-106">As saídas do estoque são liquidadas em relação aos últimos recebimentos do estoque com base na data da transação de estoque.</span><span class="sxs-lookup"><span data-stu-id="4629f-106">Issues from inventory are settled against the last receipts into inventory based on the date of the inventory transaction.</span></span> 
 

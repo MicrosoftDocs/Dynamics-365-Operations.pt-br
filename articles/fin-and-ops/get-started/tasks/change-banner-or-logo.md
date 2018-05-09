@@ -16,15 +16,15 @@ ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2e44bb533c1dfbada138b9c01518f3ff55356376
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 05733706ad7623fc9253bba658ba6fd77302e5d2
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="change-the-banner-or-logo"></a><span data-ttu-id="a4a20-103">Alterar a faixa ou o logotipo</span><span class="sxs-lookup"><span data-stu-id="a4a20-103">Change the banner or logo</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a4a20-104">O procedimento a seguir lista as etapas que os administradores do sistema podem usar para atualizar a imagem da faixa ou do logotipo que é exibida para uma entidade jurídica.</span><span class="sxs-lookup"><span data-stu-id="a4a20-104">The following procedure lists the steps that system administrators can use to update the banner or logo image that is displayed for a legal entity.</span></span> <span data-ttu-id="a4a20-105">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="a4a20-105">The demo data company used to create this procedure is USMF.</span></span>
 

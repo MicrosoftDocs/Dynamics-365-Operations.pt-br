@@ -19,16 +19,16 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 662a649f20fa4e22d83d22b651ec8bcdd69f8028
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: edd72b48a640126577dd7a2add3a4891ae505fdf
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="import-currency-exchange-rates"></a><span data-ttu-id="81ce1-105">Importar taxas de câmbio de moeda</span><span class="sxs-lookup"><span data-stu-id="81ce1-105">Import currency exchange rates</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="81ce1-106">Se uma entidade legal recebeu faturas em moedas estrangeiras, é necessário converter a moeda estrangeira em moeda local.</span><span class="sxs-lookup"><span data-stu-id="81ce1-106">If a legal entity has received invoices in foreign currencies, it’s necessary to convert the foreign currency into the local currency.</span></span> <span data-ttu-id="81ce1-107">Isso significa que as taxas de câmbio atualizadas para diferentes moedas são necessárias.</span><span class="sxs-lookup"><span data-stu-id="81ce1-107">This means that up-to-date exchange rates for different currencies are required.</span></span> <span data-ttu-id="81ce1-108">Este tópico fornece uma visão geral das definições e de processamento necessários para importar as taxas de referência da moeda estrangeira publicadas na Internet pelos provedores de taxa de câmbio, como o Banco Central Europeu e o Banco Central da Rússia.</span><span class="sxs-lookup"><span data-stu-id="81ce1-108">This topic provides an overview of the required settings and processing for importing foreign exchange reference rates published over the Internet by the exchange rate providers, such as the European Central Bank and the Central Bank of Russia.</span></span>
 

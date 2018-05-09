@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f69d3fc38d989d42e724ad58c1656363d45455ba
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eec373838a2ff89e5685bdb86bd5ff2a6b3a808e
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="issue-customer-fiscal-documents-services-brazil"></a><span data-ttu-id="72c6b-103">Emitir notas fiscais para clientes (serviços) (Brasil)</span><span class="sxs-lookup"><span data-stu-id="72c6b-103">Issue customer fiscal documents (services) (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="72c6b-104">É possível emitir uma nota fiscal de serviço a um cliente que adquiriu serviços do estabelecimento fiscal.</span><span class="sxs-lookup"><span data-stu-id="72c6b-104">You can issue a service fiscal document for a customer who bought services from the fiscal establishment.</span></span> <span data-ttu-id="72c6b-105">Este registro usa a empresa de dados de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="72c6b-105">This recording uses the BRMF demo company.</span></span>
 

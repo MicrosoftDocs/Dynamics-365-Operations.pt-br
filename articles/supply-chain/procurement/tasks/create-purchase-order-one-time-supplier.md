@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e068105bcd5983220c43613569f80700922360e5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 59582e33a3a012d6f9e3f506d1f8303c07fb06a9
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-order-for-a-one-time-supplier"></a><span data-ttu-id="1a91a-103">Criar uma ordem de compra para um fornecedor ocasional</span><span class="sxs-lookup"><span data-stu-id="1a91a-103">Create a purchase order for a one-time supplier</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1a91a-104">Este procedimento mostra como criar uma ordem de compra de um fornecedor ocasional.</span><span class="sxs-lookup"><span data-stu-id="1a91a-104">This procedure shows you how to create a purchase order for a one-time supplier.</span></span> <span data-ttu-id="1a91a-105">O fornecedor é criado automaticamente com a ordem de compra, em vez de ter que criar manualmente a conta do vendedor.</span><span class="sxs-lookup"><span data-stu-id="1a91a-105">The supplier is created automatically with the purchase order, rather than having to create the vendor account manually.</span></span> <span data-ttu-id="1a91a-106">As ordens de compra geralmente são criadas com um agente de compra.</span><span class="sxs-lookup"><span data-stu-id="1a91a-106">Purchase orders are typically created by a purchasing agent.</span></span> <span data-ttu-id="1a91a-107">O exemplo mostrado neste guia pode ser usado na empresa dos dados do programa demonstrativo de USMF.</span><span class="sxs-lookup"><span data-stu-id="1a91a-107">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="1a91a-108">É uma condição prévia que uma única conta do vendedor estabeleceu na página dos parâmetros da conta a pagar.</span><span class="sxs-lookup"><span data-stu-id="1a91a-108">It is a prerequisite that a one-time vendor account has been set up in the Account payable parameters page.</span></span>
 

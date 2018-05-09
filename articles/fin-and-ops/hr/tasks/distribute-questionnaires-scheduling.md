@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6795c5ed48ef1d716ddec5cca1a2f6414bb318ce
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e0eb499367cd56e40b57796076d5a54773107df4
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a><span data-ttu-id="3905e-103">Distribuir questionários usando agendamento</span><span class="sxs-lookup"><span data-stu-id="3905e-103">Distribute questionnaires using scheduling</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3905e-104">A programação do questionário permite que você planeje e distribua questionários para vários participantes.</span><span class="sxs-lookup"><span data-stu-id="3905e-104">Questionnaire scheduling allows you to plan and distribute questionnaires to multiple respondents.</span></span> <span data-ttu-id="3905e-105">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="3905e-105">The demo data company used to create this procedure is USMF.</span></span>
 

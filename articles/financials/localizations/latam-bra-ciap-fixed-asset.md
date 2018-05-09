@@ -16,16 +16,16 @@ ms.author: v-gonode
 ms.search.validfrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cdd646cdbf784df103cc52700f834847b9b91c68
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: beaf4726e6f417a9a01cc9fcf7c78e4cbf7b2750
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="ciap-fixed-asset"></a><span data-ttu-id="a4801-103">Registro do CIAP</span><span class="sxs-lookup"><span data-stu-id="a4801-103">CIAP fixed asset</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="acquire-a-ciap-fixed-asset"></a><span data-ttu-id="a4801-104">Adquirir um ativo fixo CIAP</span><span class="sxs-lookup"><span data-stu-id="a4801-104">Acquire a CIAP fixed asset</span></span>
 <span data-ttu-id="a4801-105">Use esta funcionalidade para registrar no módulo Livros fiscais a aquisição de um ativo fixo controlado pelo ICMS recuperável a longo prazo.</span><span class="sxs-lookup"><span data-stu-id="a4801-105">Use this functionality to register in Fiscal books module the acquisition of a fixed asset controlled by the ICMS tax long term return.</span></span>

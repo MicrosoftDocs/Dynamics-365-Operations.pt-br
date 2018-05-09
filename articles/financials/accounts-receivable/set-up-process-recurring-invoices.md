@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 21efce9bb38aa5fc93d51bf34c1fe41e89513552
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ccddd60e69768362839750f07adf5293d0b16f03
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-and-process-recurring-invoices"></a><span data-ttu-id="24b45-104">Configurar e processar notas ficais recorrentes</span><span class="sxs-lookup"><span data-stu-id="24b45-104">Set up and process recurring invoices</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="24b45-105">Este artigo explica como configurar e processar notas fiscais recorrentes.</span><span class="sxs-lookup"><span data-stu-id="24b45-105">This article explains how to set up and process recurring invoices.</span></span> <span data-ttu-id="24b45-106">Você pode usar notas fiscais recorrentes se você deve cobrar clientes para a mesma quantidade regularmente.</span><span class="sxs-lookup"><span data-stu-id="24b45-106">You can use recurring invoices if you must invoice customers for the same amount on a regular basis.</span></span>
 

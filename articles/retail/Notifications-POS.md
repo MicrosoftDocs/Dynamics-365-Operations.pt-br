@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 483bb63f9fe9d88c8d5f3a6c46b372f344f90cdd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e426a90375f97d175acb10968ea278eacb211f04
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="show-order-notifications-in-the-point-of-sale"></a><span data-ttu-id="2764d-104">Mostrar notificações de ordem no ponto de venda</span><span class="sxs-lookup"><span data-stu-id="2764d-104">Show order notifications in the point of sale</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="2764d-105">No ambiente de varejo moderno, são atribuídas várias tarefas aos associados da loja, como auxiliar os clientes, inserir transações, executar contagens de estoque e receber ordens na loja.</span><span class="sxs-lookup"><span data-stu-id="2764d-105">In the modern retail environment, store associates are assigned various tasks, such as helping customers, entering transactions, doing stock counts, and receiving orders in the store.</span></span> <span data-ttu-id="2764d-106">O cliente do ponto de venda (PDV) fornece um único aplicativo no qual os associados podem executar todas essas tarefas e muitas outras.</span><span class="sxs-lookup"><span data-stu-id="2764d-106">The point of sale (POS) client provides a single application where associates can perform all these tasks and many others.</span></span> <span data-ttu-id="2764d-107">Como várias tarefas devem ser executadas durante o dia, os associados talvez precisem ser notificados quando algo exigir sua atenção.</span><span class="sxs-lookup"><span data-stu-id="2764d-107">Because various tasks must be performed during the day, associates might have to be notified when something requires their attention.</span></span> <span data-ttu-id="2764d-108">A estrutura de notificação no PDV ajuda, permitindo que os varejistas configurem notificações baseadas em funções.</span><span class="sxs-lookup"><span data-stu-id="2764d-108">The notification framework in the POS helps by letting retailers configure role-based notifications.</span></span> <span data-ttu-id="2764d-109">No Microsoft Dynamics 365 for Retail com atualização de aplicativo 5, essas notificações podem ser configuradas somente para operações de PDV.</span><span class="sxs-lookup"><span data-stu-id="2764d-109">In Microsoft Dynamics 365 for Retail with application update 5, these notifications can be configured only for POS operations.</span></span>
 

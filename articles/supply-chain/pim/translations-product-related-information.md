@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e10bd1453aef817e501fab326eb62c58a37e9825
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b5e06d7928f1ad794eed1c4cb6d2d93d87e30066
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="product-related-translations-faq"></a><span data-ttu-id="53f54-103">Perguntas frequentes sobre transações relacionadas ao produto</span><span class="sxs-lookup"><span data-stu-id="53f54-103">Product-related translations FAQ</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="53f54-104">Este tópico descreve como gerenciar traduções para produtos, valores de dimensão de produto e atributos de produto.</span><span class="sxs-lookup"><span data-stu-id="53f54-104">This topic describes how to manage translations for products, product dimension values, and product attributes.</span></span> 
 

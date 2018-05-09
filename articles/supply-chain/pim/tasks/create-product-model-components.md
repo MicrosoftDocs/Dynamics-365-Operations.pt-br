@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bfdb503a396e9d0d8b9be1a36bbae044368905c7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4703af07ac704002335dce422d0cc93f7257eb45
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-product-model-components"></a><span data-ttu-id="e1206-103">Criar componentes de modelo de produto</span><span class="sxs-lookup"><span data-stu-id="e1206-103">Create product model components</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e1206-104">Modelos de configuração de produto baseada em restrição usam componentes como blocos de construção para estabelecer a estrutura do modelo do produto.</span><span class="sxs-lookup"><span data-stu-id="e1206-104">Constraint-based product configuration models use components as building blocks to establish the product model structure.</span></span> <span data-ttu-id="e1206-105">Os componentes devem ser criados antes que um modelo de produto possa ser construído.</span><span class="sxs-lookup"><span data-stu-id="e1206-105">The components must be created before a product model can be built.</span></span> <span data-ttu-id="e1206-106">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="e1206-106">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f45aa9448837ee9588f9f9ba4593bf7c3f2e7954
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e0e7f3747980ff2fb5d055c9496167888e067f8d
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="release-production-orders"></a><span data-ttu-id="51aec-104">Liberar ordens de produção</span><span class="sxs-lookup"><span data-stu-id="51aec-104">Release production orders</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="51aec-105">Uma ordem de produção liberada é uma ordem que foi autorizada para produção.</span><span class="sxs-lookup"><span data-stu-id="51aec-105">A released production order is an order that has been authorized for production.</span></span> <span data-ttu-id="51aec-106">O termo Liberada é usado para descrever um estado no ciclo de vida da ordem de produção, no qual a ordem de produção está disponível para a execução do chão de fábrica de produção para os processos de depósito.</span><span class="sxs-lookup"><span data-stu-id="51aec-106">The term Released is used to describe a state in the production order life cycle, where the production order is available for execution on the production shop floor and for warehouse processes.</span></span> 
 

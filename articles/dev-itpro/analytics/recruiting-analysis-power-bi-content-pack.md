@@ -19,16 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1ecfe713215adbc5eec0ef69c6c5c4d95b886ceb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 63432fe5fe98b2c20ddbf9ebec6ac14b981f0106
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="recruiting-power-bi-content"></a><span data-ttu-id="36666-104">Recrutamento de conteúdo do Power BI</span><span class="sxs-lookup"><span data-stu-id="36666-104">Recruiting Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="36666-105">Este tópico descreve o conteúdo de **Recrutamento** do Microsoft Power BI.</span><span class="sxs-lookup"><span data-stu-id="36666-105">This topic describes the **Recruiting** Microsoft Power BI content.</span></span> <span data-ttu-id="36666-106">Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.</span><span class="sxs-lookup"><span data-stu-id="36666-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 

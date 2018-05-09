@@ -20,16 +20,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1c79e7f43dd239a828a549b326ea84d36d38cc3e
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="replenishment"></a><span data-ttu-id="c89e9-103">Reabastecimento</span><span class="sxs-lookup"><span data-stu-id="c89e9-103">Replenishment</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c89e9-104">Este tópico descreve as estratégias de reabastecimento que estão disponíveis para os depósitos que usam a funcionalidade que está disponível no Gerenciamento de depósito.</span><span class="sxs-lookup"><span data-stu-id="c89e9-104">This topic describes the replenishment strategies that are available for warehouses that use the functionality that is available in Warehouse management.</span></span> <span data-ttu-id="c89e9-105">As informações deste tópico não se aplicam à solução de armazenamento disponível no Gerenciamento de estoque.</span><span class="sxs-lookup"><span data-stu-id="c89e9-105">The information in this topic doesn't apply to the warehousing solution that is available in Inventory management.</span></span>
 

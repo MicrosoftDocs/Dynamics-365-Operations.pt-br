@@ -18,16 +18,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 12c346a450cadeebdc8dadcbce343d5efac83e05
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5477960bec0d44268e558ec22fdba3641feaac36
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="compensation-and-benefits-power-bi-content"></a><span data-ttu-id="699c7-103">Conteúdo de Power BI Remuneração e Benefícios</span><span class="sxs-lookup"><span data-stu-id="699c7-103">Compensation and Benefits Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="699c7-104">Este tópico descreve o Finance and Operations - Conteúdo de Remuneração e Benefícios do Power BI.</span><span class="sxs-lookup"><span data-stu-id="699c7-104">This topic describes the Finance and Operations - Compensation and Benefits Power BI content.</span></span> 
 

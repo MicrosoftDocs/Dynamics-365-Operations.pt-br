@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a33a5c9feec99737804949f29befa03bf56eea24
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5f9450872bc26583f8875d1237ed3686f2793971
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-prerequisites-for-management"></a><span data-ttu-id="64fbb-103">Configurar pré-requisitos para gerenciamento</span><span class="sxs-lookup"><span data-stu-id="64fbb-103">Set up prerequisites for management</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="64fbb-104">Use este procedimento para habilitar processos de gerenciamento de não conformidade.</span><span class="sxs-lookup"><span data-stu-id="64fbb-104">Use this procedure to enable nonconformance management processes.</span></span> <span data-ttu-id="64fbb-105">Uma não conformidade descreve um item ou um procedimento com um problema de qualidade, na qual as informações descritivas incluem a origem e o tipo do problema.</span><span class="sxs-lookup"><span data-stu-id="64fbb-105">A nonconformance describes a procedure or item that has a quality problem, where the descriptive information includes the source and type of problem.</span></span> <span data-ttu-id="64fbb-106">Este procedimento usa a empresa de dados de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="64fbb-106">This procedure uses the USMF demo data company.</span></span> <span data-ttu-id="64fbb-107">Esse procedimento geralmente é realizado por um gerente de qualidade.</span><span class="sxs-lookup"><span data-stu-id="64fbb-107">This procedure is typically performed by a quality manager.</span></span>
 

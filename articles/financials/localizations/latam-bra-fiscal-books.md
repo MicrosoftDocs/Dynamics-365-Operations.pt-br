@@ -18,16 +18,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5783ec444adcd58cc5d777c67f207cb3a3b261cd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c04642358daafd27ae924b7839b1be8244819559
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fiscal-books-for-brazil"></a><span data-ttu-id="6757e-105">Livros fiscais para o Brasil</span><span class="sxs-lookup"><span data-stu-id="6757e-105">Fiscal books for Brazil</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6757e-106">Este tópico fornece informações sobre livros fiscais.</span><span class="sxs-lookup"><span data-stu-id="6757e-106">This topic provides information about fiscal books.</span></span> <span data-ttu-id="6757e-107">Os livros fiscais trata-se de um dos três os projetos que compõem o SPED (Public Digital Bookkeeping System).</span><span class="sxs-lookup"><span data-stu-id="6757e-107">Fiscal books are one of three projects that make up the Public Digital Bookkeeping System (SPED).</span></span> <span data-ttu-id="6757e-108">Eles podem ajudá-lo consolidar livros fiscais e estatutários em arquivos eletrônicos para atender aos requisitos do SPED.</span><span class="sxs-lookup"><span data-stu-id="6757e-108">They can help you consolidate fiscal and statutory books into electronic files to fulfill the requirements for SPED.</span></span> 
 

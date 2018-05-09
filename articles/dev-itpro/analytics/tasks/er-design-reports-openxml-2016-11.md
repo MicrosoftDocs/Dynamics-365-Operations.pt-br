@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 882799e12daf9a3b7b530201c913b8f921fb2ed3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d410e49e2248e503c5935a0d7e95b63a8381a6a8
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-openxml-format-for-electronic-reporting-er"></a><span data-ttu-id="fb82f-103">Criar uma configuração para gerar relatórios no formato OpenXML para relatório eletrônico (ER)</span><span class="sxs-lookup"><span data-stu-id="fb82f-103">Design a configuration for generating reports in OpenXML format for electronic reporting (ER)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fb82f-104">As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma nova configuração de Relatório Eletrônico (RE) que contem um modelo para gerar os documentos eletrônicos no formato OPENXML.</span><span class="sxs-lookup"><span data-stu-id="fb82f-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can create a new Electronic reporting (ER) configuration that contains a template for generating electronic documents in OPENXML format.</span></span> <span data-ttu-id="fb82f-105">Essa configuração será usada para processar pagamentos do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="fb82f-105">This configuration will be used for processing vendor payments.</span></span>
 

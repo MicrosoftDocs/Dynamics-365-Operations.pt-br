@@ -16,16 +16,16 @@ ms.author: v-gonode
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e79fc6465ef7364391a03df4ec4bb44c4dfb6b58
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6d5ae99d751811986055e8161dc856530a5e0778
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="process-electronic-payment-remittances-for-brazil"></a><span data-ttu-id="25ee5-103">Processar remessas de pagamento eletrônico para o Brasil</span><span class="sxs-lookup"><span data-stu-id="25ee5-103">Process electronic payment remittances for Brazil</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="25ee5-104">Utilize esta funcionalidade para criar o arquivo que deve ser enviado ao banco com as instruções para o pagamento eletrônico de faturas do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="25ee5-104">Use this functionality to create the file that must be sent to the bank with the instructions for electronic payment of vendor invoices.</span></span>
 

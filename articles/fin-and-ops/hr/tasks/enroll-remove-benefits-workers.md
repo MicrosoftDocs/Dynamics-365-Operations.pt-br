@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 844582904f7d3c14f6d5aa425a3c9d8234c01568
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4973130622b797778c0577f9dbae2461fd176582
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a><span data-ttu-id="38257-103">Inscrever e remover benefícios de trabalhadores</span><span class="sxs-lookup"><span data-stu-id="38257-103">Enroll and remove benefits from workers</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="38257-104">Este procedimento demonstra como um único trabalhador pode ser inserido em um ou mais benefícios, bem como os vários trabalhadores podem ser inseridos em um benefício.</span><span class="sxs-lookup"><span data-stu-id="38257-104">This procedure demonstrates how a single worker can be enrolled in one or more benefits, as well as multiple workers can be enrolled in a benefit.</span></span> <span data-ttu-id="38257-105">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="38257-105">The demo data company used to create this procedure is USMF.</span></span>
 

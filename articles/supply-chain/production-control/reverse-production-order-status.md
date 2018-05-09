@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d39dfc065a01e4cac6442de44ccc556444e131ce
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 22e1aa484b8032b8780d8d9a80087a5f5295eb63
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reverse-the-production-order-status"></a><span data-ttu-id="d4e9f-103">Reverter status de ordem de produção</span><span class="sxs-lookup"><span data-stu-id="d4e9f-103">Reverse the production order status</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d4e9f-104">Este tópico descreve como reverter o status da ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="d4e9f-104">This topic describes how to reverse production order status.</span></span> 
 

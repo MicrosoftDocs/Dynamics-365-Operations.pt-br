@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5a7767433750a0f76fa234ebdba91991d3b8e947
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f6624db66a1ff6c227ab002692eea08406f38c59
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="manage-benefit-expiration-dates"></a><span data-ttu-id="589c6-103">Gerenciar datas de vencimento do benefício</span><span class="sxs-lookup"><span data-stu-id="589c6-103">Manage benefit expiration dates</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="589c6-104">Este procedimento mostra como é possível ampliar um benefício ou expirar, e gerenciar as datas de registro de funcionários que são inseridas no benefício.</span><span class="sxs-lookup"><span data-stu-id="589c6-104">This procedure shows how you can expire or extend a benefit, and manage the enrollment dates of workers that are enrolled in the benefit.</span></span> <span data-ttu-id="589c6-105">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="589c6-105">The demo data company used to create this procedure is USMF.</span></span>
 

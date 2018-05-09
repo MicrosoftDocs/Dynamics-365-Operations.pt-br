@@ -17,16 +17,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 246e8ac45cb06380279e9078369e3ce9a63997cb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8538bd33a54984e30483f8685d36575c6c3fe97c
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="brazilian-taxes"></a><span data-ttu-id="bb3a6-104">Impostos brasileiros</span><span class="sxs-lookup"><span data-stu-id="bb3a6-104">Brazilian taxes</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="bb3a6-105">O Finance and Operations calcula os impostos brasileiros com base no tipo de imposto especificado para o código do imposto.</span><span class="sxs-lookup"><span data-stu-id="bb3a6-105">Finance and Operations calculates Brazilian taxes based on the tax type that you specify for the sales tax code.</span></span> <span data-ttu-id="bb3a6-106">É possível configurar e calcular os impostos sobre vendas nas vendas, nas compras, nas transferências entre estabelecimentos fiscais, na entrega de itens a um terceiro, ou no recebimento de itens de um terceiro.</span><span class="sxs-lookup"><span data-stu-id="bb3a6-106">You can set up and calculate sales taxes on sales, purchases, transfers between fiscal establishments, delivery of items to a third party, or receipt of items from a third party.</span></span>
 

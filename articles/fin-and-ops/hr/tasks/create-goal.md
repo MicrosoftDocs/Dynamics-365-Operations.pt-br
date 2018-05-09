@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8a01506d94a12642cae1c8331f473afb76bcf2b6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 54b4c492c5112ae8f5a56227ef037ca6d016569e
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-goal"></a><span data-ttu-id="53f88-103">Criar uma meta</span><span class="sxs-lookup"><span data-stu-id="53f88-103">Create a goal</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="53f88-104">Você pode criar metas, adicionar atividades a meta, rastrear, medições e vincular metas a revisão.</span><span class="sxs-lookup"><span data-stu-id="53f88-104">You can create goals, add activities to goals, track measurements, and link the goals to a review.</span></span> <span data-ttu-id="53f88-105">Este procedimento foi criado usando a empresa de dados de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="53f88-105">This procedure was created using the USMF demo data company.</span></span> <span data-ttu-id="53f88-106">Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynamics 365 for Operations.</span><span class="sxs-lookup"><span data-stu-id="53f88-106">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

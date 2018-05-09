@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9b0bdabb9c2a4362c55251b67c491dd3779fd036
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 12df41f14973628063b11f20f7368f47b2ad3488
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-replacement-kanban-rule"></a><span data-ttu-id="79b81-103">Criar uma regra kanban de substituição</span><span class="sxs-lookup"><span data-stu-id="79b81-103">Create a replacement kanban rule</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="79b81-104">Esse procedimento se concentra em substituir uma regra kanban existente por uma nova regra kanban em uma data específica.</span><span class="sxs-lookup"><span data-stu-id="79b81-104">This procedure focuses on replacing an existing kanban rule with a new kanban rule on a specific date.</span></span> <span data-ttu-id="79b81-105">Isso é útil quando as alterações no fluxo de produção ou as regras de reabastecimento precisam ser coordenadas e programadas.</span><span class="sxs-lookup"><span data-stu-id="79b81-105">This is useful when changes in the production flow or replenishment rules need to be coordinated and scheduled.</span></span> <span data-ttu-id="79b81-106">A empresa de dados de demonstração usada para criar o procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="79b81-106">The demo data company used to create procedure is USMF.</span></span> <span data-ttu-id="79b81-107">Este procedimento destina-se ao engenheiro do processo ou gerente de fluxo de valor, pois eles preparam a produção para uma produção de fluxo ou um produto novo ou modificado.</span><span class="sxs-lookup"><span data-stu-id="79b81-107">This procedure is intended for the process engineer or the value stream manager when they prepare production for a changed production flow or a new replenishment rule.</span></span> <span data-ttu-id="79b81-108">Essa tarefa substitui a regra kanban 000022 com uma nova regra e aumenta a quantidade máxima de 48 para 100 da nova regra.</span><span class="sxs-lookup"><span data-stu-id="79b81-108">This task replaces kanban rule 000022 with a new rule and increases the maximum quantity from 48 to 100 for the new rule.</span></span>
 

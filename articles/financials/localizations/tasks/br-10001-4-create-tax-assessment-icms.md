@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fcf1c90bce2beddb7f31c67a37845d9cccb03baa
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8aa5cbc33c722da5f0afab1bce9583c9a00d6b31
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-tax-assessment---icms-brazil"></a><span data-ttu-id="cd66d-103">Criar uma apuração de imposto - ICMS (Brasil)</span><span class="sxs-lookup"><span data-stu-id="cd66d-103">Create a tax assessment - ICMS (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cd66d-104">Você pode criar uma apuração de imposto para o ICMS de um período de escrituração selecionado.</span><span class="sxs-lookup"><span data-stu-id="cd66d-104">You can create a tax assessment for the ICMS tax for a selected booking period.</span></span> <span data-ttu-id="cd66d-105">Este valor do imposto considera o valor de ICMS para recuperar e o valor de ICMS para pagar os documentos fiscais.</span><span class="sxs-lookup"><span data-stu-id="cd66d-105">This tax amount considers the amount of ICMS tax to recover and the amount of ICMS tax to pay from the fiscal documents.</span></span> <span data-ttu-id="cd66d-106">Para o valor devido após a apuração de imposto, você pode fazer o pagamento do valor para a autoridade fiscal.</span><span class="sxs-lookup"><span data-stu-id="cd66d-106">For the amount that is due after the tax assessment, you can make the tax payment to the tax authority.</span></span> <span data-ttu-id="cd66d-107">Este registro usa a empresa de dados de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="cd66d-107">This recording uses the BRMF demo company.</span></span>
 

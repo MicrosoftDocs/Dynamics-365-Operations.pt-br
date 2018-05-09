@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f2d347896cc41d68fb016b374eed046d646e3dc9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 523fbb3611550f65902792d5dce4ee0ba9c84e80
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="miscellaneous-charges-on-free-text-invoices-brazil"></a><span data-ttu-id="7ead3-103">Encargos diversos sobre faturas de texto livre (Brasil)</span><span class="sxs-lookup"><span data-stu-id="7ead3-103">Miscellaneous charges on free text invoices (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7ead3-104">A legislação brasileira aplica encargos diversos que incluem frete.</span><span class="sxs-lookup"><span data-stu-id="7ead3-104">Brazilian legislation taxes  miscellaneous charges such as freight.</span></span> <span data-ttu-id="7ead3-105">Encargos diversos só podem ser usados em uma fatura de texto livre.</span><span class="sxs-lookup"><span data-stu-id="7ead3-105">Miscellaneous charges can be used only on a free text invoice.</span></span> <span data-ttu-id="7ead3-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="7ead3-106">This task uses the BRMF demo company.</span></span>
 

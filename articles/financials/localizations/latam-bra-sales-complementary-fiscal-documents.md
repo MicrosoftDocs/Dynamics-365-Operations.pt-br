@@ -19,16 +19,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 97923bd963b06da25696ae7a821fb7ff011cabfa
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 574f06392f8cf83d51c9b3e92e7ce3bdea83026b
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-complementary-fiscal-documents-for-brazil"></a><span data-ttu-id="635e8-103">Notas fiscais complementares de vendas para o Brasil</span><span class="sxs-lookup"><span data-stu-id="635e8-103">Sales complementary fiscal documents for Brazil</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="635e8-104">Este tópico descreve a fatura complementar de vendas da localização brasileira.</span><span class="sxs-lookup"><span data-stu-id="635e8-104">This topic describes sales complementary invoice for the Brazilian localization.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d4fb8251afad657d76f4b7b1de0a53ca584477a9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 211a64162c52377a7643004416d90029a3d17ee7
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-payments-workspace"></a><span data-ttu-id="ebcd6-104">Espaço de trabalho de pagamentos dos fornecedores</span><span class="sxs-lookup"><span data-stu-id="ebcd6-104">Vendor payments workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ebcd6-105">A área de trabalho **Pagamentos de fornecedor** mostra informações relacionadas ao processamento de pagamentos de fornecedores.</span><span class="sxs-lookup"><span data-stu-id="ebcd6-105">The **Vendor payments** workspace shows information that is related to the processing of vendor payments.</span></span> <span data-ttu-id="ebcd6-106">Esta área de trabalho inclui uma visualização **Meu trabalho** e uma página **Análise**.</span><span class="sxs-lookup"><span data-stu-id="ebcd6-106">This workspace includes a **My work** view and an **Analytics** page.</span></span> <span data-ttu-id="ebcd6-107">A visualização **Meu trabalho** mostra quadros resumidos, grades de transação de fornecedor, e informações relacionadas do fornecedor.</span><span class="sxs-lookup"><span data-stu-id="ebcd6-107">The **My work** view shows summary tiles, vendor transaction grids, and related vendor information.</span></span> <span data-ttu-id="ebcd6-108">A página **Análise** usa recursos do Microsoft Power BI para mostrar os visuais relacionados a pagamentos de fornecedor.</span><span class="sxs-lookup"><span data-stu-id="ebcd6-108">The **Analytics** page uses the capabilities of Microsoft Power BI to show visuals that are related to vendor payments.</span></span>
 

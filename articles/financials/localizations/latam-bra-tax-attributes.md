@@ -19,16 +19,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e504412acce4265bca4e0b95a465aa0cbc70ae1b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 61f4a7ac4af688670b270778668611cd51f329f3
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="tax-attributes-for-brazil"></a><span data-ttu-id="49e52-104">Atributos de impostos do Brasil</span><span class="sxs-lookup"><span data-stu-id="49e52-104">Tax attributes for Brazil</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="49e52-105">Este tópico explica como configurar informações fiscais para endereços, entidades legais, clientes e fornecedores, e para os produtos que são liberados para uma entidade legal do Brasil.</span><span class="sxs-lookup"><span data-stu-id="49e52-105">This topic explains how to set up fiscal information for addresses, legal entities, customers, and vendors, and for products that are released to a Brazilian legal entity.</span></span> <span data-ttu-id="49e52-106">Essas informações são necessárias para o cálculo de imposto, e para as notas fiscais e outras instruções necessárias que você envia dos livros fiscais.</span><span class="sxs-lookup"><span data-stu-id="49e52-106">This information is required for tax calculation, and for fiscal documents and other required statements that you submit from Fiscal books.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 16e2eb864f092ef221374e3d26b2d04a93be4de4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dbab5ade75aa8999f7e91c5d27f896242f6c7604
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="lean-pegging-from-sales-orders"></a><span data-ttu-id="e9633-103">Vinculação leve de ordens de venda</span><span class="sxs-lookup"><span data-stu-id="e9633-103">Lean pegging from sales orders</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e9633-104">Esse procedimento se concentra em validar a árvore de vinculação de uma linha de venda na qual o item é gerado com kanbans.</span><span class="sxs-lookup"><span data-stu-id="e9633-104">This procedure focuses on validating the pegging tree from a sales line where the item is produced with kanbans.</span></span> <span data-ttu-id="e9633-105">Após validar a árvore de vinculação, todos os trabalhos kanban são planejados.</span><span class="sxs-lookup"><span data-stu-id="e9633-105">After validating the pegging tree, all the kanban jobs are planned.</span></span> <span data-ttu-id="e9633-106">Isso é útil para os cenários de ordem nos quais o tomador da ordem precisa garantir que possa iniciar a produção imediatamente.</span><span class="sxs-lookup"><span data-stu-id="e9633-106">This is useful for order scenarios where the order taker needs to ensure that production can start right away.</span></span> <span data-ttu-id="e9633-107">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="e9633-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="e9633-108">Esse procedimento se destina ao tomador de ordem avançada que trabalha em uma empresa de lean manufacturing.</span><span class="sxs-lookup"><span data-stu-id="e9633-108">This procedure is intended for the advanced order taker working in a lean company.</span></span>
 

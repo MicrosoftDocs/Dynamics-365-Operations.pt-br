@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5d59ec21c6b90e0e6e8a6b8a0336d2f85afcec0c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 78e29dd912ebd0f8563b5624be9e44b592d61147
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="automatic-transmission-of-nf-e-fiscal-documents-brazil"></a><span data-ttu-id="24f1f-103">Transmissão automática de notas fiscais eletrônicas (Brasil)</span><span class="sxs-lookup"><span data-stu-id="24f1f-103">Automatic transmission of NF-e fiscal documents (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="24f1f-104">Use o procedimento a seguir para configurar parâmetros de email para enviar automaticamente uma Nota Fiscal eletrônica (NF-e) a um fornecedor ou um cliente após sua aprovação ou cancelamento, ou se você gerar uma carta de correção.</span><span class="sxs-lookup"><span data-stu-id="24f1f-104">Use the following procedure to set up email parameters to automatically send a Nota Fiscal eletrônica (NF-e) to a vendor or customer after the NF-e is approved or canceled, or if you generate a correction letter.</span></span> <span data-ttu-id="24f1f-105">Você pode configurar um grupo de lotes e modelos de e-mail para uma NF-e.</span><span class="sxs-lookup"><span data-stu-id="24f1f-105">You can set up a batch group and email templates for an NF-e.</span></span> <span data-ttu-id="24f1f-106">Você deve criar modelos de e-mail separados para uma NF-e aprovada, uma NF-e cancelada e uma carta de correção.</span><span class="sxs-lookup"><span data-stu-id="24f1f-106">You must create separate email templates for an approved NF-e, a canceled NF-e, and a correction letter.</span></span> <span data-ttu-id="24f1f-107">Então será possível criar um processo em lote para enviar a NF-e por email.</span><span class="sxs-lookup"><span data-stu-id="24f1f-107">You can then create a batch process to send the NF-e by email.</span></span> <span data-ttu-id="24f1f-108">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="24f1f-108">This task uses the BRMF demo company.</span></span>
 

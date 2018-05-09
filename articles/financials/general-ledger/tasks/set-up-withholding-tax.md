@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ccaccd7b5b32431ac463925c887324a7607ae7dc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 39ebd6a1a326b0ff2943957c9606e91852d524ce
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-withholding-tax"></a><span data-ttu-id="33cd1-103">Configurar imposto retido na fonte</span><span class="sxs-lookup"><span data-stu-id="33cd1-103">Set up withholding tax</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="33cd1-104">Imposto retido na fonte é um imposto sobre os fornecedores, o que não cria transações de imposto.</span><span class="sxs-lookup"><span data-stu-id="33cd1-104">Withholding tax is a tax on vendors that does not create sales tax transactions.</span></span> <span data-ttu-id="33cd1-105">O imposto retido na fonte calculado sobre os pagamentos do fornecedor é um passivo.</span><span class="sxs-lookup"><span data-stu-id="33cd1-105">Withholding tax that is calculated on vendor payments is a liability.</span></span> <span data-ttu-id="33cd1-106">Por isso, apenas contas de balanço ou de passivos são contas válidas para o lançamento do imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="33cd1-106">Therefore, only balance sheet accounts or liability accounts are valid accounts for posting withholding tax.</span></span> <span data-ttu-id="33cd1-107">Essa guia da tarefa demonstra como definir a retenção de imposto.</span><span class="sxs-lookup"><span data-stu-id="33cd1-107">This task guide demonstrates how to set up withholding tax.</span></span>
 

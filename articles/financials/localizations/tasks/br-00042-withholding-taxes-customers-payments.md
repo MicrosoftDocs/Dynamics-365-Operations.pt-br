@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6b47655458f260c46a17655e65ecc0ca7da3d43e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a43c68b4067850cea8ca78c2cf1c03d6ee82bb8c
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="withholding-taxes-on-customer-payments-brazil"></a><span data-ttu-id="46569-103">Impostos retidos na fonte em pagamentos de clientes (Brasil)</span><span class="sxs-lookup"><span data-stu-id="46569-103">Withholding taxes on customer payments (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="46569-104">Use a página Comprovante de diário para inserir e lançar pagamentos recebidos de clientes pela venda de itens ou serviços.</span><span class="sxs-lookup"><span data-stu-id="46569-104">You use the Journal voucher page to enter and post payments that you receive from customers for the sale of items or services.</span></span> <span data-ttu-id="46569-105">Quando você lança um diário de pagamento de cliente, o grupo de impostos retidos na fonte que está configurado para o cliente é usado para calcular o imposto retido na fonte na transação.</span><span class="sxs-lookup"><span data-stu-id="46569-105">When you post a customer payment journal, the withholding tax group that is set up for the customer is used to calculate the withholding tax on the transaction.</span></span> <span data-ttu-id="46569-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="46569-106">This task uses the BRMF demo company.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 767fbe69eb918b6e37842ad1c393d08d11346e71
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5c48bdc1446b1555f76562afb7ecc3bdb0c5914c
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a><span data-ttu-id="1274f-103">Configurar uma hierarquia de categorias de compras</span><span class="sxs-lookup"><span data-stu-id="1274f-103">Set up a procurement category hierarchy</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1274f-104">Este procedimento mostra como criar novos nós em uma hierarquia de categorias de aquisição e como configurar uma categoria de aquisição para ser usada em um processo de aquisição.</span><span class="sxs-lookup"><span data-stu-id="1274f-104">This procedure shows you how to create new nodes in a procurement category hierarchy and how to configure a procurement category to be used in a procurement process.</span></span> <span data-ttu-id="1274f-105">Essas tarefas são normalmente realizadas por um Gerente de compras.</span><span class="sxs-lookup"><span data-stu-id="1274f-105">These tasks would typically be carried out by a Purchasing manager.</span></span> <span data-ttu-id="1274f-106">Antes que você possa começar esse procedimento, é necessário que exista uma hierarquia de categoria do tipo Aquisição.</span><span class="sxs-lookup"><span data-stu-id="1274f-106">Before you can start this procedure, there must be a category hierarchy of type Procurement.</span></span> <span data-ttu-id="1274f-107">Se você for utilizar uma empresa de dados demonstrativos, é possível executar esse procedimento na empresa USMF.</span><span class="sxs-lookup"><span data-stu-id="1274f-107">If you're using a demo data company, you can run this procedure in the USMF company.</span></span>
 

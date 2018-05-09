@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 40f5f5e8c6a97cfa56e1c3e5aba2fc2d6629f6dd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5e01815268dce0bae66e51302a888af92eabf54d
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="project-contracts"></a><span data-ttu-id="9e480-103">Contratos do projeto</span><span class="sxs-lookup"><span data-stu-id="9e480-103">Project contracts</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9e480-104">Este artigo fornece exemplos dos contratos de projeto que você pode criar para vários tipos de projetos e fontes de financiamento, e de como gerenciar contratos e enviar faturas a clientes do projeto no Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="9e480-104">This article provides examples of the project contracts that you can create for various types of projects and funding sources, and how you can manage contracts and invoice project customers in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

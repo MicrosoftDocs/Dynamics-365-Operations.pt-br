@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7a4d43355dd029314517ce958b78daeee3700871
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4d8afbbb95d07830e00012fc2c07426df5c9bf22
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="pis-and-cofins-fixed-assets-brazil"></a><span data-ttu-id="6a23d-103">Ativos fixos de PIS e COFINS (Brasil)</span><span class="sxs-lookup"><span data-stu-id="6a23d-103">PIS and COFINS fixed assets (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6a23d-104">Quando uma entidade legal compra um ativo fixo, o crédito fiscal de PIS e COFINS que é calculado sobre essa transação pode ser adquirido em um número de parcelas específico.</span><span class="sxs-lookup"><span data-stu-id="6a23d-104">When a legal entity purchases a fixed asset, the PIS and COFINS tax credit that is calculated on that transaction can be appropriated in a specific number of installments.</span></span> <span data-ttu-id="6a23d-105">Para ter o cálculo correto desta restituição do imposto, a entidade legal deve apresentar um livro fiscal específico ou relatar informações no arquivo Contribuições EFD SPED para demonstrar a apropriação correta do valor do crédito fiscal de PIS e COFINS.</span><span class="sxs-lookup"><span data-stu-id="6a23d-105">For the correct calculation for this tax refund, the legal entity must present a specific fiscal book or report for the information in the SPED EFD Contributions file to demonstrate correct appropriation of the PIS and COFINS tax credit amount.</span></span> <span data-ttu-id="6a23d-106">O controle de crédito apropriado no período de avaliação de imposto é detalhado em registros F120 e F130 de contribuições de EFD SPED.</span><span class="sxs-lookup"><span data-stu-id="6a23d-106">The control of credit that is appropriated in the tax assessment period is detailed in records F120 and F130 of SPED EFD Contributions.</span></span> <span data-ttu-id="6a23d-107">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="6a23d-107">This task uses the BRMF demo company.</span></span>
 

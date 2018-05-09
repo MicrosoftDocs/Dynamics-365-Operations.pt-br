@@ -20,16 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 76ae826024f6ef351fa3535cd0cb1c86f7aafdb4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fd55bf0f9956b3fead9b276559967955530724e1
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="analyze-store-performance"></a><span data-ttu-id="7d41d-103">Analisar o desempenho da loja</span><span class="sxs-lookup"><span data-stu-id="7d41d-103">Analyze store performance</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="7d41d-104">Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho do armazenamento, com base nos dados do Microsoft Dynamics 365 para Varejo.</span><span class="sxs-lookup"><span data-stu-id="7d41d-104">This article explains how you can use the in-memory and real-time analytics to access, explore, and gain insight about store performance, based on your Microsoft Dynamics 365 for Retail data.</span></span> 
 

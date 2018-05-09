@@ -20,16 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe8dd3136f14e182e261a4dce57eef0b1946d304
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 20fc9da6ce977845c32c91b9bddd9aebc69e2622
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="payment-methods-in-a-call-center"></a><span data-ttu-id="34f0f-103">Métodos de pagamento em um call center</span><span class="sxs-lookup"><span data-stu-id="34f0f-103">Payment methods in a call center</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="34f0f-104">No Microsoft Dynamics 365 for Retail, a configuração do canal de call center inclui uma configuração chamada **Habilitar a conclusão de ordem**.</span><span class="sxs-lookup"><span data-stu-id="34f0f-104">In Microsoft Dynamics 365 for Retail, the configuration of the call center channel includes a setting that is named **Enable order completion**.</span></span> <span data-ttu-id="34f0f-105">Essa configuração ajuda a garantia que todas as ordens criadas por esses usuários do canal só sejam liberadas para processamento de ordens se tiverem um pagamento antecipado ou um pagamento pré-autorizado que esteja dentro das tolerâncias aprovadas.</span><span class="sxs-lookup"><span data-stu-id="34f0f-105">This setting helps guarantee that all orders that users of the channel create are released to order processing only if they have a prepaid or pre-authorized payment that is within approved tolerances.</span></span> <span data-ttu-id="34f0f-106">Se a configuração **Habilitar a conclusão de ordem** estiver ativada, os usuários de call center poderão inserir pagamentos para ordens de venda para clientes usando os recursos de processamento de pagamento de call center.</span><span class="sxs-lookup"><span data-stu-id="34f0f-106">If the **Enable order completion** setting is turned on, call center users can enter payments against sales orders for customers by using the payment processing features of Call center.</span></span> <span data-ttu-id="34f0f-107">Se a configuração estiver desativada, os usuários de call center não poderão usar os recursos de processamento de pagamento de Call center, mas ainda poderão aplicar pagamentos antecipados a ordens de venda usando a funcionalidade Contas a receber padrão.</span><span class="sxs-lookup"><span data-stu-id="34f0f-107">If the setting is turned off, call center users can't use the Call center payment processing features, but they can still apply prepayments to sales orders by using standard Accounts receivable functionality.</span></span>
 

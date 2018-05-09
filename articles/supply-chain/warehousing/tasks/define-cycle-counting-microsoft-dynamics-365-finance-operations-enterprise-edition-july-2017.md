@@ -16,15 +16,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5a95f63efe3d78dc371cacdc09734490a601b1b8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1ef3fedaf17e25b077842491bbca0094453c1761
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-cycle-counting"></a><span data-ttu-id="d1a99-103">Definir contagem cíclica </span><span class="sxs-lookup"><span data-stu-id="d1a99-103">Define cycle counting</span></span> 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d1a99-104">A contagem cíclica é um processo de depósito que você pode usar para auditar itens de estoque disponíveis.</span><span class="sxs-lookup"><span data-stu-id="d1a99-104">Cycle counting is a warehouse process that you can use to audit on-hand inventory items.</span></span> <span data-ttu-id="d1a99-105">Essa gravação de tarefa mostra como: definir a prioridade de trabalho de contagem padrão; habilitar um item de menu de dispositivo móvel para processar operações de separação e contagem; habilitar um gatilho de limite de contagem quando um local ficar vazio e habilitar um plano de contagem cíclica de um item específico em um depósito específico.</span><span class="sxs-lookup"><span data-stu-id="d1a99-105">This task recording shows how to set up the default counting work priority, enable a mobile device menu item to process both picking and counting operations, enable a counting threshold trigger when a location becomes empty, and enable a cycle counting plan for a specific item in a specific warehouse.</span></span> <span data-ttu-id="d1a99-106">Geralmente, essas tarefas são realizadas por um gerente de depósito.</span><span class="sxs-lookup"><span data-stu-id="d1a99-106">Typically, these tasks are performed by a warehouse manager.</span></span> <span data-ttu-id="d1a99-107">Você pode ver todo esse procedimento na empresa de dados de demonstração USMF ou em seus próprios dados.</span><span class="sxs-lookup"><span data-stu-id="d1a99-107">You can go through this procedure in the USMF demo data company or in your own data.</span></span>
 

@@ -19,15 +19,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4bb3865488c7dcb5a8417d277bdae52c2abb23de
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="fixed-assets-roll-forward-report"></a><span data-ttu-id="ccf34-103">Relatório de roll forward de ativo fixo</span><span class="sxs-lookup"><span data-stu-id="ccf34-103">Fixed assets roll forward report</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ccf34-104">O relatório **Roll forward de ativos fixos** fornece, em um formato de leitura simples do Microsoft Excel, os dados detalhados do ativo fixo que você precisa para fechamento do período, demonstrativos financeiros e relatório de imposto.</span><span class="sxs-lookup"><span data-stu-id="ccf34-104">The **Fixed assets roll forward** report provides, in an easy-to-read Microsoft Excel format, the detailed fixed asset data that you require for period closing, financial statements, and tax reporting.</span></span> <span data-ttu-id="ccf34-105">O relatório incluir saldos inicial e final de ativos fixos, com movimentações de avaliação do período e novas aquisições do ativo e alienações que ocorreram durante o período.</span><span class="sxs-lookup"><span data-stu-id="ccf34-105">The report includes start and end balances for fixed assets, together with valuation movements for the period, and any new asset acquisitions and disposals that occurred during the period.</span></span> <span data-ttu-id="ccf34-106">Os dados são relatados para ativos fixos individuais e os valores também são resumidos para grupos de ativos fixos e a entidade legal.</span><span class="sxs-lookup"><span data-stu-id="ccf34-106">Data is reported for individual fixed assets, and values are also summarized for fixed asset groups and the legal entity.</span></span>
 

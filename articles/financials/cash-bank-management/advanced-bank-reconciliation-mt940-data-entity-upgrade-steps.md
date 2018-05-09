@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5619f3dda4fcfb3bc9fc5a1e69353b19243a1644
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7bb78afe2fa1b17bcec013f54f929c4181fae812
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a><span data-ttu-id="f5daa-103">Importação MT940 de reconciliação bancária avançada – Atualização de entidade de dados composta</span><span class="sxs-lookup"><span data-stu-id="f5daa-103">Advanced bank reconciliation MT940 Import – Composite data entity upgrade</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f5daa-104">Necessidades de uma sequência numérica de ser adicionada à entidade de extrato bancário para oferecer suporte ao formato MT940.</span><span class="sxs-lookup"><span data-stu-id="f5daa-104">A sequence number needs to be added to the bank statement import entity to support the MT940 format.</span></span> 
 

@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 917d632864ed959e45efeb1ae99a78ce5f8dbe6a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1a962d50fba3c65c395fc345c3d219839fd01c16
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="electronic-payment-management-for-vendor-payments-brazil"></a><span data-ttu-id="36f05-103">Gerenciamento de pagamento eletrônico para pagamentos de fornecedores (Brasil)</span><span class="sxs-lookup"><span data-stu-id="36f05-103">Electronic payment management for vendor payments (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="36f05-104">É possível fazer pagamentos eletrônicos pela transferência de arquivos entre uma entidade legal e um banco.</span><span class="sxs-lookup"><span data-stu-id="36f05-104">You can make electronic payments by transferring files between a legal entity and a bank.</span></span> <span data-ttu-id="36f05-105">É possível gerar e enviar um arquivo de remessa eletrônica para um banco.</span><span class="sxs-lookup"><span data-stu-id="36f05-105">You can generate and send an electronic remittance file to a bank.</span></span> <span data-ttu-id="36f05-106">Nesse caso, o arquivo de exportação contém informações sobre as faturas que devem ser recebidas ou pagas, as solicitações de faturas de devolução, ou as alterações nos endereços de cliente ou de fornecedor.</span><span class="sxs-lookup"><span data-stu-id="36f05-106">In this case, the export file contains information about invoices that must be received or paid, requests for return invoices, or changes to customer or vendor addresses.</span></span> <span data-ttu-id="36f05-107">Como alternativa, é possível importar um arquivo de devolução de um banco.</span><span class="sxs-lookup"><span data-stu-id="36f05-107">Alternatively, you can import a return file from a bank.</span></span> <span data-ttu-id="36f05-108">Nesse caso, o arquivo de devolução contém informações sobre a aceitação de uma fatura, junto com o número de pagamento fornecido pelo banco, ou informações sobre os pagamentos recebidos de um cliente ou pagos a um fornecedor.</span><span class="sxs-lookup"><span data-stu-id="36f05-108">In this case, the return file contains either information about the acceptance of an invoice together with the payment number that is provided by the bank, or information about the payments that are received from a customer or paid to a vendor.</span></span> <span data-ttu-id="36f05-109">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="36f05-109">This task uses the BRMF demo company.</span></span>
 

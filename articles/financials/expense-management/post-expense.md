@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4c0975cf36d87125b8184a7be8a6a8696eef2d3e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eb2c5317e5ac386bebfd7262eb9a98d559de3023
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="post-an-expense-report"></a><span data-ttu-id="7fc14-103">Lançar um relatório de despesas</span><span class="sxs-lookup"><span data-stu-id="7fc14-103">Post an expense report</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="7fc14-104">Depois que um relatório de despesas for aprovado e transferido para o diário geral, poderá ser lançado na contabilidade.</span><span class="sxs-lookup"><span data-stu-id="7fc14-104">After an expense report has been approved and transferred to the general journal, it can be posted to the general ledger.</span></span> <span data-ttu-id="7fc14-105">Quando você lança um relatório de despesas, as despesas qualificadas para a restituição do IVA (imposto sobre valor agregado) são identificadas.</span><span class="sxs-lookup"><span data-stu-id="7fc14-105">When you post an expense report, expenses that are eligible for recovery of value-added tax (VAT) are identified.</span></span> <span data-ttu-id="7fc14-106">A tarefa de verificação e restituição de pagamentos de IVA é atribuída ao funcionário responsável por verificar o relatório de despesas.</span><span class="sxs-lookup"><span data-stu-id="7fc14-106">The task of verifying and recovering VAT payments is assigned to the employee who is responsible for verifying the expense report.</span></span>
 

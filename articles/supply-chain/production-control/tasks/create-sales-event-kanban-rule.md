@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 67dc36565739b8e902334d9a55af226a0cef5b85
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d07a5a930bec42f388103f10dedf6d8456197a29
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-sales-event-kanban-rule"></a><span data-ttu-id="f79f2-103">Criar uma regra kanban de evento de vendas</span><span class="sxs-lookup"><span data-stu-id="f79f2-103">Create a sales event kanban rule</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f79f2-104">Este procedimento tem como foco a configuração necessária para criar uma regra kanban que é necessária durante a criação da ordem de vendas.</span><span class="sxs-lookup"><span data-stu-id="f79f2-104">This procedure focuses on the setup needed to create a kanban rule that is triggered during sales order creation.</span></span> <span data-ttu-id="f79f2-105">A regra kanban de evento reabastece requisitos que têm origem nas linhas de ordem de vendas.</span><span class="sxs-lookup"><span data-stu-id="f79f2-105">The event kanban rule replenishes requirements that originate from sales order lines.</span></span> <span data-ttu-id="f79f2-106">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="f79f2-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f79f2-107">Destina-se ao engenheiro do processo ou gerente de fluxo de valor, pois eles preparam a produção de um produto novo ou modificado.</span><span class="sxs-lookup"><span data-stu-id="f79f2-107">It is intended for the process engineer or the value stream manager as they prepare production of a new or modified product.</span></span>
 

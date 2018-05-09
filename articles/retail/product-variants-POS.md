@@ -20,16 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 933875f56b0f47990cb1cb767f84b23b9c9710d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ff11cf7b23c48675b108d7d03d241fcec2cb792a
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a><span data-ttu-id="c2760-103">Pesquisa de estoque no Ponto de Venda</span><span class="sxs-lookup"><span data-stu-id="c2760-103">Inventory lookup in the Point of Sale</span></span> 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="c2760-104">A Pesquisa de estoque no Ponto de Venda (PDV) ajuda os varejistas a atingirem a excelência operacional em tempo real e a obterem insights conectando lojas, o PDS e o back office.</span><span class="sxs-lookup"><span data-stu-id="c2760-104">Inventory lookup in the point of sale (POS) helps retailers achieve real-time operational excellence and gain insights by connecting stores, the POS, and the back office.</span></span> <span data-ttu-id="c2760-105">Essa funcionalidade fornece uma visão exata em tempo real de estoque do produto pelas lojas e centros de distribuição.</span><span class="sxs-lookup"><span data-stu-id="c2760-105">This functionality provides an accurate real-time view of product inventory across stores and distribution centers.</span></span> <span data-ttu-id="c2760-106">Também ajuda os varejista a determinar poupanças de gastos e eficiências adicionais melhorando o planejamento de estoque em tempo real.</span><span class="sxs-lookup"><span data-stu-id="c2760-106">It also helps retailers drive additional efficiencies and cost savings by improving inventory planning in real time.</span></span>
 

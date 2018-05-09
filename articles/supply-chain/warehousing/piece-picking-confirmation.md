@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5109bc180cedfb21dfb8b2920d71d54812e7e6cf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 31b285f06ea8b7951f2439637a4fccb83db31578
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="piece-picking-confirmation"></a><span data-ttu-id="0bf5d-103">Confirmação de separação de peças</span><span class="sxs-lookup"><span data-stu-id="0bf5d-103">Piece picking confirmation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0bf5d-104">A separação de peças permite que você confirme cada peça de estoque por meio do trabalho de separação ou de contagem em um dispositivo móvel.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="0bf5d-105">Referente às separações, é possível confirmar desde a quantidade de trabalho a ser processado até a quantidade especificada no trabalho a ser separado.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="0bf5d-106">Referente ao trabalho de contagem, é possível verificar o estoque que você está contando e rastrear o valor total.</span><span class="sxs-lookup"><span data-stu-id="0bf5d-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1c5db6c7b3b8906d97498ee99dca73214919e016
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 12b44a013864ade699e16afd41f3e0643fb16b87
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="find-support-for-microsoft-dynamics-365-for-finance-and-operations-and-dynamics-lifecycle-services"></a><span data-ttu-id="da0ea-103">Encontrar suporte para o Microsoft Dynamics 365 for Finance and Operations e o Dynamics Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="da0ea-103">Find support for Microsoft Dynamics 365 for Finance and Operations and Dynamics Lifecycle Services</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="da0ea-104">Este artigo explica como obter ajuda com o Finance and Operations ou com o LCS (Microsoft Dynamics Lifecycle Services).</span><span class="sxs-lookup"><span data-stu-id="da0ea-104">This article explains how to get help with Finance and Operations or Microsoft Dynamics Lifecycle Services (LCS).</span></span> 
 

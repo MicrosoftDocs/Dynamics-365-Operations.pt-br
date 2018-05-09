@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0f97ed1fd22f44b1089c61dc6754133ea974a1d2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5f0dcab41d8de17ed71132e9feac0ecdda0bb392
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="fiscal-establishment-tax-attributes-brazil"></a><span data-ttu-id="72f71-103">Atributos de imposto de estabelecimento fiscal (Brasil)</span><span class="sxs-lookup"><span data-stu-id="72f71-103">Fiscal establishment tax attributes (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="72f71-104">Use este procedimento para criar um ou mais estabelecimentos fiscais para uma entidade legal.</span><span class="sxs-lookup"><span data-stu-id="72f71-104">Use this procedure to create one or more fiscal establishments for a legal entity.</span></span> <span data-ttu-id="72f71-105">Um estabelecimento fiscal requer um número de inscrição fiscal no CNPJ (Cadastro Nacional da Pessoa Jurídica) ou IE (Inscrição Estadual).</span><span class="sxs-lookup"><span data-stu-id="72f71-105">A fiscal establishment requires a Cadastro Nacional da Pessoa Jurídica (CNPJ) or Inscrição Estadual (IE) tax registration number.</span></span> <span data-ttu-id="72f71-106">Você pode agrupar estabelecimentos fiscais e configurar grupos de impostos para cada grupo de estabelecimentos fiscais na página Matriz de impostos.</span><span class="sxs-lookup"><span data-stu-id="72f71-106">You can group fiscal establishments and set up tax groups for each fiscal establishment group in the Taxes matrix page.</span></span> <span data-ttu-id="72f71-107">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="72f71-107">This task uses the BRMF demo company.</span></span>
 

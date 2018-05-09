@@ -17,15 +17,15 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bdd958e84a20957586731ce4d107222545923617
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a376900e29947b75c6281406df0d7e02bddc9a09
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a><span data-ttu-id="040f3-103">Exibir demonstrativo de estoque e KPI por objeto de custo</span><span class="sxs-lookup"><span data-stu-id="040f3-103">View inventory statement and KPI by cost object</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="040f3-104">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="040f3-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="040f3-105">Esse procedimento é criado para o controlador de custo.</span><span class="sxs-lookup"><span data-stu-id="040f3-105">This procedure is intended for the cost controller.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d0d7fbc5f9b928a43870899836ead4f8adbc1a56
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6cbaaf6fcb943089886f60e72f4fbab5029b2f8d
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a><span data-ttu-id="befe8-103">Identificar e implantar ferramentas de seleção de candidato</span><span class="sxs-lookup"><span data-stu-id="befe8-103">Identify and deploy candidate selection tools</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="befe8-104">Localizar um grupo de candidatos qualificado para preencher vagas pode ser difícil, principalmente quando uma posição requer um conjunto exclusivo de habilidades.</span><span class="sxs-lookup"><span data-stu-id="befe8-104">Finding a qualified pool of candidates to fill vacancies can be difficult, especially when a position requires a unique set of skills.</span></span>  <span data-ttu-id="befe8-105">No entanto, os candidatos com as habilidades que você precisa já estão empregadas na sua organização.</span><span class="sxs-lookup"><span data-stu-id="befe8-105">However, candidates with the skills you need might already be employed in your organization.</span></span> <span data-ttu-id="befe8-106">Você pode procurar uma habilidade específica definida entre funcionários existentes ou novos candidatos.</span><span class="sxs-lookup"><span data-stu-id="befe8-106">You can search for a specific skill set among existing employees, or new applicants.</span></span> <span data-ttu-id="befe8-107">Isso permite que um recruta rapidamente colete e selecione os candidatos que estiverem aplicados para a posição inicial ou final no passado, candidatos ou localizar potenciais do grupo existente dos funcionários.</span><span class="sxs-lookup"><span data-stu-id="befe8-107">This allows a recruiter to quickly gather and screen applicants who have applied for open position now or in the past, or to find potential candidates from their existing pool of employees.</span></span> <span data-ttu-id="befe8-108">Use essa tarefa que registra para saber como a funcionalidade de mapeamento de habilidades pode ajudar a encontrar a pessoa adequada para uma posição em aberto.</span><span class="sxs-lookup"><span data-stu-id="befe8-108">Use this task recording to learn how the skill mapping functionality can help you find the right person for an open position.</span></span> <span data-ttu-id="befe8-109">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="befe8-109">The demo data company used to create this procedure is USMF.</span></span>
 

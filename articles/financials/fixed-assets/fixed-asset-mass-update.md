@@ -18,16 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 20b61a1b1b05406a57f1a50a61a25a1e613d6a0b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4e8b713469bfce5b0da8577b64e1b62a781fbd0c
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-asset-mass-update"></a><span data-ttu-id="2c154-103">Atualização em massa de ativos fixos</span><span class="sxs-lookup"><span data-stu-id="2c154-103">Fixed asset mass update</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="2c154-104">Ao usar registros, você poderá alterar as convenções de depreciação para grupos de ativos que fazem parte do mesmo registro.</span><span class="sxs-lookup"><span data-stu-id="2c154-104">If you use books, you can change the depreciation conventions for groups of assets that are part of the same book.</span></span>
 

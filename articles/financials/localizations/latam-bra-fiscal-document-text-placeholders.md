@@ -17,16 +17,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f53eb210c116beb678918290d5864b7fd1f2843d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 527cf8c14fdacb17dd255639e911fcf6869505c0
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fiscal-document-text-placeholders-for-brazil"></a><span data-ttu-id="c668f-104">Espaços reservados em textos da nota fiscal do Brasil</span><span class="sxs-lookup"><span data-stu-id="c668f-104">Fiscal document text placeholders for Brazil</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c668f-105">Os espaços reservados de texto de nota fiscal são marcas predefinidas que representam valores específicos.</span><span class="sxs-lookup"><span data-stu-id="c668f-105">Fiscal document text placeholders are predefined tags that represent specific values.</span></span> <span data-ttu-id="c668f-106">Você poderá incluir os espaços reservados no campo <strong>Texto </strong>da página <strong>Modelos de textos da nota fiscal </strong>quando você criar um modelo de textos da nota fiscal.</span><span class="sxs-lookup"><span data-stu-id="c668f-106">You can include the placeholders in the <strong>Text </strong>field on the <strong>Fiscal document source texts </strong>page when you create a fiscal document source text.</span></span>
 

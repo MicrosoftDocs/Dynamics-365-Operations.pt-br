@@ -18,16 +18,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: dea705042ad92aee6a9cd9e7a91157a90b2cc2df
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d1bd543a419ba14459bb846576cb314a9c97d842
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="referenced-fiscal-documents-for-brazil"></a><span data-ttu-id="90188-103">Notas fiscais referenciadas para o Brasil</span><span class="sxs-lookup"><span data-stu-id="90188-103">Referenced fiscal documents for Brazil</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="90188-104">Este tópico fornece uma visão geral de notas fiscais referenciadas usadas no Brasil.</span><span class="sxs-lookup"><span data-stu-id="90188-104">This topic provides an overview of referenced fiscal documents that are used in Brazil.</span></span>
 

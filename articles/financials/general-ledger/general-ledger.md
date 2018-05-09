@@ -19,16 +19,16 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f3defa29581c6c90994a673bd73d96613101a391
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cc01f7d2cec25d754263e361e5de9ad1499d9523
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="general-ledger"></a><span data-ttu-id="aa61d-103">Contabilidade</span><span class="sxs-lookup"><span data-stu-id="aa61d-103">General ledger</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="aa61d-104">Use a Contabilidade para definir e gerenciar os registros financeiros da entidade legal.</span><span class="sxs-lookup"><span data-stu-id="aa61d-104">Use General ledger to define and manage the legal entity’s financial records.</span></span> <span data-ttu-id="aa61d-105">A contabilidade é um registro de entradas de débito e crédito.</span><span class="sxs-lookup"><span data-stu-id="aa61d-105">The general ledger is a register of debit and credit entries.</span></span> <span data-ttu-id="aa61d-106">Essas entradas são classificadas usando as contas listadas em um plano de contas.</span><span class="sxs-lookup"><span data-stu-id="aa61d-106">These entries are classified using the accounts that are listed in a chart of accounts.</span></span> 
 

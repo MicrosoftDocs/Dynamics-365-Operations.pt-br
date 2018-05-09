@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 08649058faccf2aeca3a03c40c204a67c5a88976
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 08a9effcac920bfcdafe5dc682b2ca91974c19eb
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="issue-fiscal-documents-for-vendors-brazil"></a><span data-ttu-id="d58cb-103">Emitir notas fiscais para fornecedores (Brasil)</span><span class="sxs-lookup"><span data-stu-id="d58cb-103">Issue fiscal documents for vendors (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d58cb-104">Você pode criar e lançar faturas de fornecedor em nome dos fornecedores que não são contribuintes.</span><span class="sxs-lookup"><span data-stu-id="d58cb-104">You can create and post vendor invoices on behalf of nontaxpayer vendors.</span></span> <span data-ttu-id="d58cb-105">Você deve atribuir um estabelecimento fiscal a um site.</span><span class="sxs-lookup"><span data-stu-id="d58cb-105">You must assign a fiscal establishment to a site.</span></span> <span data-ttu-id="d58cb-106">Você também deve configurar um tipo de documento fiscal para as ordens de compra que você criar e lançar no nome de fornecedores que não são contribuintes.</span><span class="sxs-lookup"><span data-stu-id="d58cb-106">You must also set up a fiscal document type for purchase orders that you create and post on behalf of nontaxpayer vendors.</span></span> <span data-ttu-id="d58cb-107">Antes de criar e lançar faturas de fornecedores no nome de fornecedores que não são contribuintes, é necessário especificar o fornecedor como fornecedor que não é contribuinte.</span><span class="sxs-lookup"><span data-stu-id="d58cb-107">Before you can create and post vendor invoices on behalf of a nontaxpayer vendor, you must specify the vendor as a nontaxpayer vendor.</span></span> <span data-ttu-id="d58cb-108">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="d58cb-108">This task uses the BRMF demo company.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e32f147e6ec62a2d497129cb971a34270b7ce14b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 238ac4ec0c845e58aadb1fce1aa77bbb2c15c349
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-pis-and-cofins-tables-brazil"></a><span data-ttu-id="75dd1-103">Configurar tabelas de PIS e COFINS (Brasil)</span><span class="sxs-lookup"><span data-stu-id="75dd1-103">Set up PIS and COFINS tables (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="75dd1-104">Antes da apuração de imposto PIS e COFINS ser criada, você deve configurar as tabelas da fonte de crédito e do tipo de crédito.</span><span class="sxs-lookup"><span data-stu-id="75dd1-104">Before the PIS and COFINS tax assessment can be created, you must set up the tables for the credit source and credit type.</span></span> <span data-ttu-id="75dd1-105">Como referência, você deve usar as tabelas 4.3.7 e 4.3.6 que são publicadas pela autoridade fiscal.</span><span class="sxs-lookup"><span data-stu-id="75dd1-105">As a reference, you should use tables 4.3.7 and 4.3.6 that are published by the tax authority.</span></span> <span data-ttu-id="75dd1-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="75dd1-106">This task uses the BRMF demo company.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 74f9f16ab3dfc6e41a720d73cd62583aebbdd84e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 33e0b1da5d16372b8a3c4cd153f451166af6003f
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a><span data-ttu-id="0a19d-103">Criar dimensões financeiras para registros de PDV e configurar valores de dimensão em registros</span><span class="sxs-lookup"><span data-stu-id="0a19d-103">Create financial dimensions for POS registers and configure dimension values on registers</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0a19d-104">Este procedimento mostra a criação de dimensões financeiras para registros de (POS) do ponto de venda e demonstra como configurar valores de dimensão financeira nos registros.</span><span class="sxs-lookup"><span data-stu-id="0a19d-104">This procedure walks through creating financial dimensions for point of sale (POS) registers, and demonstrates how to configure financial dimension values on registers.</span></span> <span data-ttu-id="0a19d-105">Este procedimento não inclui outras etapas relacionadas, como a criação de conjuntos de dimensões e de estruturas de conta.</span><span class="sxs-lookup"><span data-stu-id="0a19d-105">This procedure doesn’t include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="0a19d-106">Essas tarefas podem ser encontradas em outros tópicos.</span><span class="sxs-lookup"><span data-stu-id="0a19d-106">Those tasks can be found in other topics.</span></span> <span data-ttu-id="0a19d-107">Este registro usa a empresa de demonstração USRT.</span><span class="sxs-lookup"><span data-stu-id="0a19d-107">This recording uses USRT demo company.</span></span>
 

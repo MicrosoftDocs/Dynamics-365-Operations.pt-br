@@ -20,16 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 83b15e89e87d2936cd175e05fc99e7faf4c0467e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9a9112e88464274fb544e4ba4eaae7b1a36ccd2e
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-fraud-alerts"></a><span data-ttu-id="c77a4-104">Configurar alertas de fraude</span><span class="sxs-lookup"><span data-stu-id="c77a4-104">Set up fraud alerts</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="c77a4-105">Este tópico explica como configurar critérios e regras para colocar ordens de venda potencialmente fraudulentas em espera para revisão adicional.</span><span class="sxs-lookup"><span data-stu-id="c77a4-105">This topic explains how to set up criteria and rules to place potentially fraudulent sales orders on hold for further review.</span></span> <span data-ttu-id="c77a4-106">A funcionalidade da revisão de fraude é usada para determinar a validade de informações em uma ordem de venda.</span><span class="sxs-lookup"><span data-stu-id="c77a4-106">Fraud review functionality is used to determine the validity of information in a sales order.</span></span> <span data-ttu-id="c77a4-107">Se as informações na ordem de venda parecem ser questionáveis com base em critérios e regras de fraude de uma organização, a ordem pode ser colocada em espera para revisão adicional por um administrador.</span><span class="sxs-lookup"><span data-stu-id="c77a4-107">If the information in the sales order appears to be questionable based on an organization’s fraud criteria and rules, the order may be put on hold for further review by an administrator.</span></span>
 

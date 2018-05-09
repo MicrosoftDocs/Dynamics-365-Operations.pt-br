@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 10c85eba95701f47555b9603933de1687f8dc90f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 28e416d3e9330a8a5de887d99f2fc4dd045003c6
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="transfer-data-for-product-models"></a><span data-ttu-id="d4f0c-103">Transferir dados para modelos de produto</span><span class="sxs-lookup"><span data-stu-id="d4f0c-103">Transfer data for product models</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d4f0c-104">Exportar dados para um modelo de configuração do produto requer que você tenha pelo menos um modelo de produto disponível.</span><span class="sxs-lookup"><span data-stu-id="d4f0c-104">Exporting data for a product configuration model requires that you have at least one product model available.</span></span> <span data-ttu-id="d4f0c-105">Este procedimento usa o módulo de alto-falante avançado na empresa de demonstração USMF para mostrar como exportar dados para este modelo.</span><span class="sxs-lookup"><span data-stu-id="d4f0c-105">This procedure uses the High end speaker model in the demo company USMF to show you how to export data for this model.</span></span>
 

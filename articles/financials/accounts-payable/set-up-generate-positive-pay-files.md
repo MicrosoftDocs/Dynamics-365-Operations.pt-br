@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8a4e6de009efcd5d26954751b2a638766fcee6e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 282be61f5ad789fe40529a96ea8ea8ad56d38d56
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-and-generate-positive-pay-files"></a><span data-ttu-id="f00aa-103">Configurar e gerar arquivos de pagamento positivo</span><span class="sxs-lookup"><span data-stu-id="f00aa-103">Set up and generate positive pay files</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f00aa-104">Este artigo explica como configurar o pagamento positivo e gerar arquivos de pagamento positivo.</span><span class="sxs-lookup"><span data-stu-id="f00aa-104">This article explains how to set up positive pay and generate positive pay files.</span></span> 
 

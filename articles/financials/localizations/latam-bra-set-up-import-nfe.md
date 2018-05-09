@@ -17,16 +17,16 @@ ms.author: v-gonode
 ms.search.validFrom: 
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 511ae5f040febbc6cd41ffef649496648f90fb2e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c4e1cd938a7d38e86b13bd9276d0af958f2070af
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-import-and-verify-nf-e-xml-documents-and-danfe"></a><span data-ttu-id="bb70b-103">Configurar, importar e verificar documentos XML de NF-e e de DANFE</span><span class="sxs-lookup"><span data-stu-id="bb70b-103">Set up, import, and verify NF-e XML documents and DANFE</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="bb70b-104">Você pode extrair e importar automaticamente o XML da Nota fiscal Eletrônica (NF-e) e seu DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) de e-mails enviados pelo fornecedor de sua empresa.</span><span class="sxs-lookup"><span data-stu-id="bb70b-104">You can automatically extract and import the XML from the Nota Fiscal Eletrônica (NF-e) and its DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) from emails sent by the vendor for your company.</span></span> <span data-ttu-id="bb70b-105">O fornecedor deve enviar esses emails como anexos durante o período no qual as mercadorias adquiridas estão em trânsito.</span><span class="sxs-lookup"><span data-stu-id="bb70b-105">The vendor must send these emails as file attachements during the time which the acquired goods are in transit.</span></span>
 

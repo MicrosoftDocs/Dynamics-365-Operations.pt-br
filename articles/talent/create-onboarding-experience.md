@@ -17,16 +17,16 @@ ms.author: tbisaacs
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8db1044d125820319827103182cc29808c60ee5c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0dbc3247e1a5a8134184c8fe98fa8692fbf27c94
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-an-engaging-onboarding-experience"></a><span data-ttu-id="e22cb-103">Crie uma experiência de integração atrativa</span><span class="sxs-lookup"><span data-stu-id="e22cb-103">Create an engaging onboarding experience</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="e22cb-104">Quando feita de forma eficaz, a integração ajuda os novos funcionários a atuarem de forma eficaz, com uma sensação de pertencer à nova função.</span><span class="sxs-lookup"><span data-stu-id="e22cb-104">When done effectively, onboarding helps new employees perform more effectively while also gaining a sense of belonging in their new role.</span></span> <span data-ttu-id="e22cb-105">A integração pode ajudar os novos funcionários a compreenderem a nova função de forma mais rápida e precisa e eles começam a estabelecer relacionamentos que podem ajudá-los a ter sucesso.</span><span class="sxs-lookup"><span data-stu-id="e22cb-105">Onboarding can help new employees understand their new role more quickly and accurately than they would have otherwise, and they get a head start on establishing relationships that can help them succeed.</span></span> <span data-ttu-id="e22cb-106">Por outro lado, uma integração ineficaz pode causar dúvidas aos funcionários, em relação a entrar na organização.</span><span class="sxs-lookup"><span data-stu-id="e22cb-106">Alternatively, an ineffective onboarding experience might leave employees questioning their decision to join your organization.</span></span> <span data-ttu-id="e22cb-107">Estudos realizado por Gartner em 2014 detectaram que quase um terço de 1005 entrevistados que saíram do trabalho nos primeiros seis meses, fizeram isso porque as diretrizes que receberam de seus líderes não foram claras, o treinamento não foi eficaz ou porque eles não estabeleceram relacionamentos eficazes em seu novo ambiente.</span><span class="sxs-lookup"><span data-stu-id="e22cb-107">A study conducted by Gartner in 2014 found that nearly one third of the 1,005 respondents who quit a job within the first six months, did so because the guidelines they were given by their leadership weren't clear, their training wasn't effective, or because they didn't establish effective relationships in their new environment.</span></span>
 

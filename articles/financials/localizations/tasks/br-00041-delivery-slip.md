@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e39236ce6c8acd8018569664b7f42d27c8b49047
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 431c987d07aff30f709e867f4689a779259beed9
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="delivery-slips-brazil"></a><span data-ttu-id="ce45c-103">Guias de entrega (Brasil)</span><span class="sxs-lookup"><span data-stu-id="ce45c-103">Delivery slips (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ce45c-104">Você pode lançar uma guia de entrega para uma ordem de venda com várias linhas de ordem de venda com um código CFOP (Código Fiscal de Operações e Prestações).</span><span class="sxs-lookup"><span data-stu-id="ce45c-104">You can post a delivery slip for a sales order that has multiple sales order lines that have a delivery Código Fiscal de Operações e Prestações (CFOP) code.</span></span> <span data-ttu-id="ce45c-105">Para cada linha de ordem de venda, você deve especificar o código CFOP que tem um código CFOP de entrega atribuído a ele.</span><span class="sxs-lookup"><span data-stu-id="ce45c-105">For each sales order line, you must specify the CFOP code that has a delivery CFOP code assigned to it.</span></span> <span data-ttu-id="ce45c-106">Uma guia de entrega é usada quando o cliente para o qual você entrega itens difere do cliente que é faturado.</span><span class="sxs-lookup"><span data-stu-id="ce45c-106">A delivery slip is used when the customer that you deliver items to differs from the customer that is invoiced.</span></span> <span data-ttu-id="ce45c-107">(Ou seja, a conta do cliente e a conta da fatura diferem.) As guias de entrega são lançadas em ordem cronológica.</span><span class="sxs-lookup"><span data-stu-id="ce45c-107">(In other words, the customer account and invoice account differ.) Delivery slips are posted in chronological order.</span></span> <span data-ttu-id="ce45c-108">É preciso anexar referências fiscais a guias de entrega antes de lançá-las.</span><span class="sxs-lookup"><span data-stu-id="ce45c-108">You must attach fiscal references to delivery slips before you post them.</span></span> <span data-ttu-id="ce45c-109">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="ce45c-109">This task uses the BRMF demo company.</span></span>
 

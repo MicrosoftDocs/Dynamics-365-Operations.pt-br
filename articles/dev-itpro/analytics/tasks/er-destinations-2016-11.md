@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 009f2760cdd98d9158209f2265e5423df75e8e73
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 588ad80ab5094e1e088831b1472c27a7fcd7dcd8
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="configure-destinations-for-electronic-reporting-er"></a><span data-ttu-id="cd359-103">Configurar destinos para relatório eletrônico (ER)</span><span class="sxs-lookup"><span data-stu-id="cd359-103">Configure destinations for electronic reporting (ER)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cd359-104">Este procedimento demonstra como configurar e usar os diferentes componentes de saída para eletrônicos (ER), como uma pasta ou um arquivo.</span><span class="sxs-lookup"><span data-stu-id="cd359-104">This procedure demonstrates how to set up and use different destinations for Electronic reporting (ER) output components, such as a folder or a file.</span></span> <span data-ttu-id="cd359-105">A empresa de dados demonstrativos utilizada para criar esse procedimento é a DEMF.</span><span class="sxs-lookup"><span data-stu-id="cd359-105">The demo data company used to create this procedure is DEMF.</span></span> <span data-ttu-id="cd359-106">Alemanha é o país\região de endereço principal da entidade legal; porém, você pode usar todas as entidade legais para este procedimento.</span><span class="sxs-lookup"><span data-stu-id="cd359-106">Germany is the country\region of the legal entity’s primary address, however you can use any legal entity for this procedure.</span></span> 
 

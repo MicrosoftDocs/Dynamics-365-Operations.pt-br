@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5e40b5d6eb52201985f25abd80001bdaee540188
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2006f41ff7e723fb850e928b078783bdfb9e13c2
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="cancel-a-sales-complementary-fiscal-document-brazil"></a><span data-ttu-id="0b14d-103">Cancelar uma nota fiscal complementar de venda (Brasil)</span><span class="sxs-lookup"><span data-stu-id="0b14d-103">Cancel a sales complementary fiscal document (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0b14d-104">É possível cancelar uma nota fiscal complementar de vendas incorreta e fornecer um motivo para o cancelamento.</span><span class="sxs-lookup"><span data-stu-id="0b14d-104">You can cancel an incorrect sales complementary fiscal document and provide a reason for the cancellation.</span></span> <span data-ttu-id="0b14d-105">Ao cancelar uma nota fiscal complementar de vendas, é criada uma nota fiscal complementar de vendas com os preços ou valores negativos de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços), ou de IPI (Imposto Sobre Produtos Industrializados).</span><span class="sxs-lookup"><span data-stu-id="0b14d-105">When you cancel a sales complementary fiscal document, a sales complementary fiscal document is created that has a negative price amount, an Imposto Sobre Circulação de Mercadorias e Serviços (ICMS) amount, or an Imposto Sobre Produtos Industrializados (IPI) amount.</span></span> <span data-ttu-id="0b14d-106">Ao lançar a nota fiscal complementar de venda negativa, a nota fiscal complementar original é marcada como cancelada, e todas as transações do razão e as transações financeiras são revertidas.</span><span class="sxs-lookup"><span data-stu-id="0b14d-106">When you post the negative sales complementary fiscal document, the original complementary fiscal document is marked as canceled, and all the ledger transactions and financial transactions are reversed.</span></span> <span data-ttu-id="0b14d-107">A nota fiscal complementar de venda original é relatada em livros fiscais como cancelada.</span><span class="sxs-lookup"><span data-stu-id="0b14d-107">The original sales complementary fiscal document is reported in the fiscal books as canceled.</span></span> <span data-ttu-id="0b14d-108">A nota fiscal complementar de venda negativa não é relatada em livros fiscais.</span><span class="sxs-lookup"><span data-stu-id="0b14d-108">The negative sales complementary fiscal document isn't reported in the fiscal books.</span></span> <span data-ttu-id="0b14d-109">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="0b14d-109">This task uses the BRMF demo company.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 73533bb4a30cef126f4f8322fa0b85331a53de48
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 92ad8afe8eb2943377a1a130f466b0dd833b8015
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a><span data-ttu-id="60e39-103">Configurar restrições de transporte para um item</span><span class="sxs-lookup"><span data-stu-id="60e39-103">Set up transportation constraints for an item</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="60e39-104">Este procedimento configurará uma restrição de transporte para impedir que um item selecionado seja enviado por meio de um hub selecionado.</span><span class="sxs-lookup"><span data-stu-id="60e39-104">This procedure will set up a transportation constraint to prevent a selected item from being transported through a selected hub.</span></span> <span data-ttu-id="60e39-105">Esta tarefa será geralmente executada por um Coordenador de transporte.</span><span class="sxs-lookup"><span data-stu-id="60e39-105">This task would typically be carried out by a Transportation coordinator.</span></span> <span data-ttu-id="60e39-106">Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.</span><span class="sxs-lookup"><span data-stu-id="60e39-106">You can use this procedure in the USMF demo data company or on your own data.</span></span>
 

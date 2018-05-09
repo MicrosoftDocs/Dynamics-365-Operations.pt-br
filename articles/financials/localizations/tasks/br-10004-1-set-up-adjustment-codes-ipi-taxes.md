@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 432b95bfa712401752a331e63a3650e7144e6d8e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a7b4e7949cceea481222864f6282424d7535fbc1
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-adjustment-codes-for-ipi-taxes-brazil"></a><span data-ttu-id="1439b-103">Configurar códigos de ajuste para impostos IPI (Brasil)</span><span class="sxs-lookup"><span data-stu-id="1439b-103">Set up adjustment codes for IPI taxes (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1439b-104">Use este procedimento para configurar códigos de ajuste de imposto para Imposto sobre Produtos Industrializados (IPI).</span><span class="sxs-lookup"><span data-stu-id="1439b-104">Use this procedure to set up adjustment codes for Imposto sobre Produtos Industrializados (IPI) taxes.</span></span> <span data-ttu-id="1439b-105">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="1439b-105">This task uses the BRMF demo company.</span></span>
 

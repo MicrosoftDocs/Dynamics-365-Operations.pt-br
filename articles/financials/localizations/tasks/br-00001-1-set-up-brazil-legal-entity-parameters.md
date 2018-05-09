@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 90015f69a3703253a7be9ed09e741371b5ca0340
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 327051aba5f4ae00b446a0b1fea4e25aaf9b512d
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-legal-entity-parameters-brazil"></a><span data-ttu-id="cbcfa-103">Configurar parâmetros de entidade legal (Brasil)</span><span class="sxs-lookup"><span data-stu-id="cbcfa-103">Set up legal entity parameters (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cbcfa-104">Configurar parâmetros de entidade legal do Brasil.</span><span class="sxs-lookup"><span data-stu-id="cbcfa-104">Set up Brazilian legal entity parameters.</span></span> <span data-ttu-id="cbcfa-105">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="cbcfa-105">This task uses the BRMF demo company.</span></span>
 

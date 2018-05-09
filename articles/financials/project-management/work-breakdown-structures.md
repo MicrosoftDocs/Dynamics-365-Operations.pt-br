@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ffabd11a621794e3ddd5faeb9fc5acd36c081d72
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="work-breakdown-structures"></a><span data-ttu-id="fc7dc-104">Estruturas de detalhamento de trabalho</span><span class="sxs-lookup"><span data-stu-id="fc7dc-104">Work breakdown structures</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="fc7dc-105">Uma estrutura de detalhamento de trabalho (WBS) é uma descrição do trabalho que será feito para um projeto.</span><span class="sxs-lookup"><span data-stu-id="fc7dc-105">A work breakdown structure (WBS) is a description of the work that will be done for a project.</span></span> <span data-ttu-id="fc7dc-106">É uma hierarquia de tarefas que representa a compreensão da equipe do projeto da composição do trabalho, e do tamanho, custo, e duração de cada componente ou tarefa.</span><span class="sxs-lookup"><span data-stu-id="fc7dc-106">It’s a hierarchy of tasks that represents the project team’s understanding of the composition of work, and of the size, cost, and duration of each component or task.</span></span> <span data-ttu-id="fc7dc-107">Uma WBS tem três fins principais:</span><span class="sxs-lookup"><span data-stu-id="fc7dc-107">A WBS has three major purposes:</span></span>
 

@@ -17,15 +17,15 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c9cb20294e4abbccd0016e7188a2610796e75b26
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1c2facdea21d1c2f88071a3484fcc89fb5437bc
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="end-a-production-order"></a><span data-ttu-id="cdacd-103">Finalizar uma ordem de produção</span><span class="sxs-lookup"><span data-stu-id="cdacd-103">End a production order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cdacd-104">Este procedimento mostra como finalizar uma ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="cdacd-104">This procedure shows how to end a production order.</span></span> <span data-ttu-id="cdacd-105">A empresa de dados demo usada para criar este procedimento é USMF.</span><span class="sxs-lookup"><span data-stu-id="cdacd-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="cdacd-106">Este é o último procedimento de sete que explica o ciclo de vida da ordem de produção.</span><span class="sxs-lookup"><span data-stu-id="cdacd-106">This is the final procedure out of seven which explains the production order lifecycle.</span></span>
 

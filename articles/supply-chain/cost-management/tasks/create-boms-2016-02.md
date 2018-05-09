@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0cd8d9b90cffe2794b785b2bb391e21ae3b11cf7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6c5473a0786ba0348701e8e106de46f811571f07
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-boms-february-2016-only"></a><span data-ttu-id="e3b9d-103">Criar BOMs (apenas fevereiro de 2016)</span><span class="sxs-lookup"><span data-stu-id="e3b9d-103">Create BOMs (February 2016 only)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e3b9d-104">Esta tarefa tem como foco criar a estrutura de lista de materiais para produtos finalizados e semifinalizados.</span><span class="sxs-lookup"><span data-stu-id="e3b9d-104">This task focuses on creating the bill of materials structure for a finished product and a semi-finished product.</span></span> <span data-ttu-id="e3b9d-105">Trata-se da quarta tarefa na série de cálculo BOM.</span><span class="sxs-lookup"><span data-stu-id="e3b9d-105">It is the fourth task in the BOM calculation series.</span></span> <span data-ttu-id="e3b9d-106">A empresa de dados demo usada para criar esta tarefa é USMF.</span><span class="sxs-lookup"><span data-stu-id="e3b9d-106">The demo data company used to create this task is USMF.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4bc143777526bb710be084715f08460f0c25c29
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: aa10dff0efd820771e6c45cbb9e7e9a62673380e
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-post-a-sales-complementary-fiscal-document-brazil"></a><span data-ttu-id="3d8b6-103">Criar e lançar uma nota fiscal complementar de venda (Brasil)</span><span class="sxs-lookup"><span data-stu-id="3d8b6-103">Create and post a sales complementary fiscal document (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3d8b6-104">Use este procedimento para criar uma nota fiscal complementar de vendas para ajustar uma nota fiscal de venda que foi gerada por um preço ou valor incorreto de IPI (Imposto Sobre Produtos Industrializados) ou de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços).</span><span class="sxs-lookup"><span data-stu-id="3d8b6-104">Use this procedure to create a sales complementary fiscal document to adjust a sales fiscal document that was generated for an incorrect price, Imposto Sobre Produtos Industrializados (IPI) amount, or Imposto Sobre Circulação de Mercadorias e Serviços (ICMS) amount.</span></span> <span data-ttu-id="3d8b6-105">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="3d8b6-105">This task uses the BRMF demo company.</span></span>
 

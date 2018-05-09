@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 57b73c43be6ef4dda82cb919d4eb83eeae9c3633
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8f7d033dd5a79190a2e579837d458f239bae551a
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="post-periodic-journals"></a><span data-ttu-id="3975d-103">Lançar diários periódicos</span><span class="sxs-lookup"><span data-stu-id="3975d-103">Post periodic journals</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3975d-104">Os diários periódicos são as vezes chamados diários de devolução porque o valor, o texto, e outras informações são repetidos toda vez que o diário periódico é recuperado.</span><span class="sxs-lookup"><span data-stu-id="3975d-104">Periodic journals are sometimes called recurring journals because the amount, text, and other information are repeated each time that the periodic journal is retrieved.</span></span> <span data-ttu-id="3975d-105">Quando você cria o diário periódico, você especifica o intervalo do período para a recorrência, como dias ou meses.</span><span class="sxs-lookup"><span data-stu-id="3975d-105">When you create the periodic journal, you specify the period interval for the recurrence, such as days or months.</span></span> <span data-ttu-id="3975d-106">Essa guia da tarefa criará um diário periódico com uma recorrência mensal.</span><span class="sxs-lookup"><span data-stu-id="3975d-106">This task guide will create a periodic journal with a monthly recurrence.</span></span>
 

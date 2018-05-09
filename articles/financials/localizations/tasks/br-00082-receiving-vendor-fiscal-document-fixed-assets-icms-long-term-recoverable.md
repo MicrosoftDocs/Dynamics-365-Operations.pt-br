@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8b10919780fc921f615dceb29d92198e3d84485c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6f921a69e747eb0f9c2c6517034600e76665a74f
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="receive-vendor-fiscal-documents-fixed-assets---icms-long-term-recoverable-brazil"></a><span data-ttu-id="d72d5-103">Receber notas fiscais de fornecedor (ativos fixos - ICMS recuperável de longo prazo) (Brasil)</span><span class="sxs-lookup"><span data-stu-id="d72d5-103">Receive vendor fiscal documents (fixed assets - ICMS long term recoverable) (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d72d5-104">Você pode lançar uma nota fiscal recebida da aquisição dos ativos fixos.</span><span class="sxs-lookup"><span data-stu-id="d72d5-104">You can post a fiscal document that you receive from the acquisition of fixed assets.</span></span> <span data-ttu-id="d72d5-105">Você pode recuperar o ICMS ou o PIS/COFINS, ou ambos.</span><span class="sxs-lookup"><span data-stu-id="d72d5-105">You can recover the ICMS or PIS/COFINS taxes, or both.</span></span> <span data-ttu-id="d72d5-106">Você também pode recuperar mensalmente prestações de reembolso.</span><span class="sxs-lookup"><span data-stu-id="d72d5-106">You can also recover monthly refund installments.</span></span> <span data-ttu-id="d72d5-107">Esses valores são usados para deduzir o valor devido durante a apuração de imposto.</span><span class="sxs-lookup"><span data-stu-id="d72d5-107">These amounts are used to deduct the amount that is due during the tax assessment.</span></span> <span data-ttu-id="d72d5-108">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="d72d5-108">This task uses the BRMF demo company.</span></span>
 

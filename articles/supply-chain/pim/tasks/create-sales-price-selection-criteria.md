@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8a651453fe9693fdb22875d860d7c118ea009b3e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cbc442724e85f7e03cf28471c850f034101c12c2
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-sales-price-selection-criteria"></a><span data-ttu-id="bae00-103">Criar critérios de seleção de preço de venda</span><span class="sxs-lookup"><span data-stu-id="bae00-103">Create sales price selection criteria</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="bae00-104">Este procedimento mostra como criar um critério de seleção preço de venda para modelos de preço de vendas baseado em atributo.</span><span class="sxs-lookup"><span data-stu-id="bae00-104">This procedure shows how to create a sales price selection criterion for attribute-based sales price models.</span></span> <span data-ttu-id="bae00-105">Este procedimento exige que pelo menos um modelo de preço de vendas esteja disponível.</span><span class="sxs-lookup"><span data-stu-id="bae00-105">This procedure requires that at least one sales price model be available.</span></span> <span data-ttu-id="bae00-106">Este exemplo usa o modelo de preço para o modelo de preço de vendas de solução do Palestrante na empresa de dados demo USMF.</span><span class="sxs-lookup"><span data-stu-id="bae00-106">This example uses the price model for the Speaker solution sales price model in the USMF demo data company.</span></span> <span data-ttu-id="bae00-107">Normalmente, um gerente de produto usa este procedimento.</span><span class="sxs-lookup"><span data-stu-id="bae00-107">Typically, a product manager uses this procedure.</span></span>
 

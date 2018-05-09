@@ -18,16 +18,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7a250d64ebc375cd20824dade503706bad7a5b20
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c0526168d46313f26e979443adc270ac2e534f37
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="import-and-verify-nf-e-xml-documents-and-danfe-files-for-brazil"></a><span data-ttu-id="2fca0-103">Importação e verificação de documentos XML da NF-e e os arquivos de DANFE para o Brasil</span><span class="sxs-lookup"><span data-stu-id="2fca0-103">Import and verify NF-e XML documents and DANFE files for Brazil</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="2fca0-104">Este tópico responde questões sobre o processo de importar e verificar os documentos XML da Nota fiscal eletrônica (NF-e) e o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) que você recebe por e-mail.</span><span class="sxs-lookup"><span data-stu-id="2fca0-104">This topic answers questions about the process for importing and verifying Nota fiscal eletrônica (NF-e) XML documents and Documento auxiliar da Nota fiscal eletrônica (DANFE) that you receive in emails.</span></span>
 

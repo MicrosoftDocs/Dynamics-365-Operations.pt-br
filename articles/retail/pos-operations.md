@@ -19,16 +19,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b85da42e94fe3108bc89d05fc800a9d8a06bfc97
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5aa331a6868ab468aa8b4fd30991b955ce311be1
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="pos-operations-online-and-offline"></a><span data-ttu-id="e852d-104">Operações de PDV, online e offline</span><span class="sxs-lookup"><span data-stu-id="e852d-104">POS operations, online and offline</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="e852d-105">A maioria das ações tomadas pelo usuário no ponto de venda (POS) são consideradas operações.</span><span class="sxs-lookup"><span data-stu-id="e852d-105">Most actions that user take in the point of sale (POS) are considered operations.</span></span> <span data-ttu-id="e852d-106">As operações são configuradas e gerenciadas no back office do Microsoft Dynamics 365 for Retail.</span><span class="sxs-lookup"><span data-stu-id="e852d-106">Operations are configured and managed in the Microsoft Dynamics 365 for Retail back office.</span></span> <span data-ttu-id="e852d-107">Várias operações podem ser adicionadas a botões na grade de botões PDV.</span><span class="sxs-lookup"><span data-stu-id="e852d-107">Many operations can be added to buttons in the POS button grid.</span></span> <span data-ttu-id="e852d-108">Os usuários podem selecionar os botões para chamar as operações e executar sua função.</span><span class="sxs-lookup"><span data-stu-id="e852d-108">Users can then select the buttons to invoke the operations and perform their function.</span></span> <span data-ttu-id="e852d-109">Outras operações são parte do aplicativo principal de PDV, e são invocadas de botões na tela ou como parte de outros fluxos de trabalho ou processos.</span><span class="sxs-lookup"><span data-stu-id="e852d-109">Other operations are part of the main POS application, and are invoked either from on-screen buttons or as part of other workflows or processes.</span></span>
 

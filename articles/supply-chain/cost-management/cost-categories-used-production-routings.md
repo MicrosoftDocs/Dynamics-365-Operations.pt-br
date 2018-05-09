@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1bda8d9d656f1760061599d100ca4af9186742ea
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1eb7da2ce5323fe0c06c57855435510f88f0601f
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-categories-used-in-production-routing"></a><span data-ttu-id="9a3ed-103">Categorias de custo usadas em roteiros de produção</span><span class="sxs-lookup"><span data-stu-id="9a3ed-103">Cost categories used in production routing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9a3ed-104">Este artigo oferece informações sobre as categorias de custo que se aplicam aos ambientes de fabricação que usam o roteiro.</span><span class="sxs-lookup"><span data-stu-id="9a3ed-104">This article provides information about cost categories that apply to manufacturing environments that use routing.</span></span>
 

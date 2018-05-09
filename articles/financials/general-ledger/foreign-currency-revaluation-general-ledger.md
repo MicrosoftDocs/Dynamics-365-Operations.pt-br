@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f1d88d1cad1dfc2e7c3efd90ec61c97266fee453
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 16fc19cb1e0d99eb2bbfb63a16bc96c4f1980308
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a><span data-ttu-id="bedab-103">Reavaliação de moeda estrangeira da Contabilidade</span><span class="sxs-lookup"><span data-stu-id="bedab-103">Foreign currency revaluation for General ledger</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="bedab-104">Este tópico fornece uma visão geral dos seguintes procedimentos para o processo de reavaliação de moeda estrangeira da contabilidade: instalação, execução do processo, cálculo do processo e como reverter transações de reavaliação, se necessário.</span><span class="sxs-lookup"><span data-stu-id="bedab-104">This topic provides an overview of the following for the general ledger foreign currency revaluation process -  setup, running the process, calculation for the process, and how to reverse the revaluation transactions, if necessary.</span></span> 
 

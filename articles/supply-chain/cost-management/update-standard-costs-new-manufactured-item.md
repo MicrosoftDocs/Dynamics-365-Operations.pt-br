@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f60f7932ce79b23b1656d6947fcb321f9484869d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e2385a0edd4bb277fb425f05498fc138854f920c
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a><span data-ttu-id="cd240-103">Atualizar custos padrão para um novo item fabricado</span><span class="sxs-lookup"><span data-stu-id="cd240-103">Update standard costs for a new manufactured item</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="cd240-104">Este artigo oferece diretrizes para a atualização de custos padrão para um novo item fabricado.</span><span class="sxs-lookup"><span data-stu-id="cd240-104">This article provides guidance for updating standard costs for a new manufactured item.</span></span> 
 

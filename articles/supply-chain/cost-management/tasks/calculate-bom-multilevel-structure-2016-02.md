@@ -17,15 +17,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f8190eaedf9aff7eda690542bb6b14e701d9a008
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 514cefdb78000eafc0dee7c91fc2d8181e9285e4
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016-only"></a><span data-ttu-id="cdb98-103">Calcular uma BOM usando uma estrutura de vários níveis (apenas fevereiro de 2016)</span><span class="sxs-lookup"><span data-stu-id="cdb98-103">Calculate a BOM by using a multilevel structure (February 2016 only)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cdb98-104">Este procedimento mostra como calcular o custo de um produto finalizado usando detalhamento de vários níveis baseado na folha de custos.</span><span class="sxs-lookup"><span data-stu-id="cdb98-104">This procedure shows how to calculate the cost of a finished product by using multilevel explosion that is based in the Costing sheet.</span></span> <span data-ttu-id="cdb98-105">Trata-se da sétima tarefa na série de cálculo BOM.</span><span class="sxs-lookup"><span data-stu-id="cdb98-105">It is the seventh task in the BOM calculation series.</span></span> <span data-ttu-id="cdb98-106">A empresa de dados demo usada para criar esta tarefa é USMF.</span><span class="sxs-lookup"><span data-stu-id="cdb98-106">The demo data company used to create this task is USMF.</span></span>
 

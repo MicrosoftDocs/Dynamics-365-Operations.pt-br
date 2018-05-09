@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 118986d5d70eb8fa97da84938941cfb49b650594
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: daae08668198c7f053853f7a2715e829684fbf3b
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="brazilian-tax-in-sales-quotations"></a><span data-ttu-id="29a32-103">Impostos brasileiros nas cotações de venda</span><span class="sxs-lookup"><span data-stu-id="29a32-103">Brazilian tax in sales quotations</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="29a32-104">Use este procedimento para criar uma cotação de venda que usa impostos brasileiros.</span><span class="sxs-lookup"><span data-stu-id="29a32-104">Use this procedure to create a sales quotation that uses Brazilian taxes.</span></span> <span data-ttu-id="29a32-105">É possível criar uma cotação especificando as informações fiscais, como o tipo de operação e o CFOP (Código Fiscal de Operações e Prestações).</span><span class="sxs-lookup"><span data-stu-id="29a32-105">You can create a quotation by specifying fiscal information, such as the operation type and the Código Fiscal de Operações e Prestações (CFOP) code.</span></span> <span data-ttu-id="29a32-106">Ao criar uma linha de cotação, é possível selecionar um código de CFOP no campo CFOP.</span><span class="sxs-lookup"><span data-stu-id="29a32-106">When you create a quotation line, you can select a CFOP code in the CFOP field.</span></span> <span data-ttu-id="29a32-107">Os códigos de CFOP disponíveis neste campo dependem do estabelecimento fiscal do site selecionado no campo Site.</span><span class="sxs-lookup"><span data-stu-id="29a32-107">The CFOP codes that are available in this field depend on the fiscal establishment of the site that you selected in the Site field.</span></span> <span data-ttu-id="29a32-108">Os grupos de impostos nos campos Grupo de impostos sobre vendas e Imposto do item também são atualizados com base na matriz de imposto.</span><span class="sxs-lookup"><span data-stu-id="29a32-108">The tax groups in the Sales tax group and Item sales tax group fields are also updated based on the tax matrix.</span></span> <span data-ttu-id="29a32-109">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="29a32-109">This task uses the BRMF demo company.</span></span>
 

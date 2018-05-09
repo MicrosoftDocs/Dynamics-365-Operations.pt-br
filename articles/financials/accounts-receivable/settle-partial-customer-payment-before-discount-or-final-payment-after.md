@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5938f7a439c742426e3e73a1ea6c8f66f2e0efdb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 72c522cc1be63267ab0ce2564047de84ae1870a7
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a><span data-ttu-id="3c5b8-104">Liquidar um pagamento parcial de cliente antes da data do desconto com um pagamento final posterior à data do desconto</span><span class="sxs-lookup"><span data-stu-id="3c5b8-104">Settle a partial customer payment before the discount date with a final payment after the discount date</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="3c5b8-105">Este artigo discute o efeito de liquidar pagamentos de faturas de clientes.</span><span class="sxs-lookup"><span data-stu-id="3c5b8-105">This article discusses the effect of settling payments to invoices for customers.</span></span> <span data-ttu-id="3c5b8-106">O cenário se concentra nos efeitos no sub-razão, e não na Contabilidade.</span><span class="sxs-lookup"><span data-stu-id="3c5b8-106">The scenario focuses on the effects in the subledger, not in General ledger.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 50792628cbbed944202872e9e97a36d968e58615
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e11973d884274ad853628e4d45ed80af6ff56b17
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="project-debit-notes-brazil"></a><span data-ttu-id="4d9b1-103">Notas de débito do projeto (Brasil)</span><span class="sxs-lookup"><span data-stu-id="4d9b1-103">Project debit notes (Brazil)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4d9b1-104">Você pode gerar notas de débito para projetos para obter reembolso de despesas ocorridas no projeto.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-104">You can generate debit notes for projects to get reimbursement of expenses occurred in the project.</span></span> <span data-ttu-id="4d9b1-105">A empresa de dados demo usada para criar este procedimento é BRMF.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-105">The demo data company used to create this procedure is BRMF.</span></span>
 

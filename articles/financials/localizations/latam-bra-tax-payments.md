@@ -19,16 +19,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6073bb9fcd7d9e37307acabb6e664f21202745ff
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8b71024327b2a7a69230b5eb924b0122b47f8d0c
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="tax-payments-in-brazil"></a><span data-ttu-id="a69c9-104">Pagamentos de impostos no Brasil</span><span class="sxs-lookup"><span data-stu-id="a69c9-104">Tax payments in Brazil</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a69c9-105">Este tópico fornece informações sobre pagamentos de impostos no Brasil.</span><span class="sxs-lookup"><span data-stu-id="a69c9-105">This topic provides information about tax payments in Brazil.</span></span> <span data-ttu-id="a69c9-106">No Brasil, os usuários podem registrar e lançar pagamentos de impostos junto com as informações fiscais relacionadas que será reportadas às autoridades fiscais.</span><span class="sxs-lookup"><span data-stu-id="a69c9-106">In Brazil, users can register and post tax payments together with related fiscal information that must be reported to the tax authorities.</span></span>
 
