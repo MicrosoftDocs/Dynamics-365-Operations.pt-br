@@ -25,7 +25,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="process-electronic-payment-remittances-for-brazil"></a>Processar remessas de pagamento eletrônico para o Brasil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Utilize esta funcionalidade para criar o arquivo que deve ser enviado ao banco com as instruções para o pagamento eletrônico de faturas do fornecedor.
 

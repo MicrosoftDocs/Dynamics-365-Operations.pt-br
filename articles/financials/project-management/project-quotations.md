@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-quotations"></a>Cotações do projeto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo introduz o conceito de cotações de projeto, que pode ser usado para fazer uma atraente oferta a um cliente como primeira etapa da fase do projeto. Uma cotação de projeto pode incluir os itens e os serviços que são cotados, informações básicas de contato, contratos comerciais especiais, descontos e possíveis taxas e subtaxas. 
 

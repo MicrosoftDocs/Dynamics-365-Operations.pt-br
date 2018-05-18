@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-product"></a>Criar um novo produto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Essa tarefa mostra como criar um novo produto compartilhado. Geralmente é realizado por um designer do produto. A empresa de dados demo usada para criar esta tarefa é USMF.
 

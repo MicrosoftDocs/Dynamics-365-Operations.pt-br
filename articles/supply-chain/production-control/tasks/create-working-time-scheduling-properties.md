@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-working-time-scheduling-properties"></a>Criar propriedades do agendamento de horário de trabalho
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 As propriedades de programação de horário de trabalho são usadas para categorizar intervalos de horário de trabalho e para definir as configurações que os operadores devem levar em conta. Este procedimento mostra como definir uma propriedade de programação de horário de trabalho e valores de propriedade associados. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
 

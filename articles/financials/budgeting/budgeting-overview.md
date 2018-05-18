@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budgeting-home-page"></a>Home page de Orçamento
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece uma visão geral dos componentes da funcionalidade de orçamento, ferramentas de orçamento e recursos de relatórios no Finance and Operations. 
 

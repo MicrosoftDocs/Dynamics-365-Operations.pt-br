@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="job-scheduling"></a>Planejamento de trabalho
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre o plano de trabalho, que é um formulário mais detalhado de programação do plano de operações. Você pode usar o agendamento de trabalho para agendar trabalhos individuais ou ordens de fábrica e para controlar o ambiente de manufatura.
 
@@ -68,7 +68,7 @@ O mecanismo de agendamento examina as combinações de recursos para identificar
 -   **Duração** – o mecanismo de agendamento seleciona o recurso com o prazo de entrega mais curto. **Observação:** o agendamento por duração pode reduzir o desempenho quando o mesmo grupo de recursos contiver muitos recursos e forem usadas operações secundárias. É possível planejar um máximo de 32 recursos por operação. Se você exceder essa quantidade, uma mensagem do log de informações será exibida e o agendamento de trabalho não encontrará o melhor recurso alternativo.
 -   **Prioridade** – o mecanismo de agendamento selecionará o recurso com a prioridade mais alta se dois ou mais recursos tiverem níveis e capacidades idênticos. O recurso com o valor numérico mais baixo nesse campo tem a prioridade mais alta.
 
-Quando o agendamento de trabalho é executado, o sistema planeja os recursos com base nas limitações que são definidas nos parâmetros do recurso. Você pode controlar a capacidade dos recursos usando as configurações de calendário. O sistema calcula cargas para recursos durante o processo de agendamento. **Observação:**para produções que usam a função de plano de operações, você pode executar o plano de trabalho após o plano de operações. Se não estiver usando o plano de operações, você poderá executar o plano de trabalho sozinho.
+Quando o agendamento de trabalho é executado, o sistema planeja os recursos com base nas limitações que são definidas nos parâmetros do recurso. Você pode controlar a capacidade dos recursos usando as configurações de calendário. O sistema calcula cargas para recursos durante o processo de agendamento. **Observação:** para produções que usam a função de plano de operações, você pode executar o plano de trabalho após o plano de operações. Se não estiver usando o plano de operações, você poderá executar o plano de trabalho sozinho.
 
 ## <a name="maximum-capacities-for-resources-per-job-order"></a>Capacidades máximas para recursos por ordem de trabalho
 Os recursos são atribuídos aos trabalhos por meio do agendamento de trabalho. Você pode estabelecer capacidades máximas para recursos por ordem de trabalho. Por exemplo, você pode configurar o sistema para planejar até 50% da capacidade total para uma ordem de produção. Essa configuração oferece mais controle sobre o agendamento de recursos no nível do plano de trabalho. Portanto, ela pode ajudar a impedir problemas caso não haja capacidade suficiente disponível para executar produções simultâneas.

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit"></a>Cartas de crédito
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 As cartas de crédito são documentos bancários que, normalmente, são usados para compra e venda de mercadorias entre as fronteiras internacionais. 
 

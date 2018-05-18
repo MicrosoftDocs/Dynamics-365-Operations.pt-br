@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-planning-and-multisite-functionality"></a>Planejamento mestre e funcionalidade multissite
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 O planejamento mestre leva em consideração as configurações de dimensões de estoque de local e de depósito. 
 

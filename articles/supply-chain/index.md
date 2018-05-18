@@ -3,7 +3,7 @@ title: Home page do Gerenciamento da cadeia de fornecedores
 description: "Esta página oferece uma lista de tópicos de ajuda e outros recursos de gerenciamento da cadeia de fornecedores do Microsoft Dynamics 365 for Finance and Operations."
 author: YuyuScheller
 manager: AnnBe
-ms.date: 02/15/2018
+ms.date: 05/09/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
+ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
+ms.openlocfilehash: df35f70d8297aa2a832d143217542e3d558040ea
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
 # <a name="supply-chain-management-home-page"></a>Home page do Gerenciamento da cadeia de fornecedores
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tópico oferece uma lista de tópicos de ajuda e outros recursos de gerenciamento da cadeia de fornecedores do Microsoft Dynamics 365 for Finance and Operations. 
 
@@ -40,19 +40,24 @@ Acesse o <a href="https://roadmap.dynamics.com/">Roteiro do Dynamics 365</a> par
 Escolha uma área de recursos para saber mais a respeito.
 
 - [Contabilização de custos](../financials/cost-accounting/cost-accounting-home-page.md)
-- [Gerenciamento de custos](cost-management/cost-management-home-page.md)  
+- [Gerenciamento de custo](cost-management/cost-management-home-page.md)  
 - [Gerenciamento de estoque](inventory/inventory-home-page.md)
 - [Planejamento mestre](master-planning/master-planning-home-page.md)
-- [Compras](procurement/procurement-sourcing-overview.md)
-- [Gerenciamento de informações do produto](pim/product-information.md)
+- [Compras e fornecimento](procurement/procurement-sourcing-overview.md)
+- [Gerenciamento de informações sobre produtos](pim/product-information.md)
 - [Controle de produção](production-control/production-process-overview.md)
 - [Vendas e marketing](sales-marketing/overview-sales-marketing.md)
+- [Gerenciamento de serviços](service-management/service-management-home-page.md)
 - [Gerenciamento de transporte](transportation/transportation-management-overview.md)
 - [Gerenciamento de depósito](warehousing/warehouse-configuration.md)
 
 ## <a name="videos"></a>Vídeos
 
-Estes vídeos curtos ajudam você a conhecer os novos recursos incluídos no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (dezembro de 2017).
+Estes vídeos breves ajudam você a conhecer os novos recursos incluídos no Microsoft Dynamics 365 for Finance and Operations, Enterprise versão 8.0 (abril de 2018).
+
+- [Sincronizar uma ordem de trabalho entre o Field Service e o Finance and Operations](https://youtu.be/hAB4TDVMjxU)
+
+Estes vídeos breves ajudam você a conhecer os novos recursos incluídos no Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3 (dezembro de 2017).
 
 -  [Integração do cliente potencial ao pagamento à vista](https://youtu.be/AVV9x5x-XCg) 
 -  [Orientador de otimização](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
@@ -68,7 +73,7 @@ Estes vídeos curtos ajudam você a conhecer os novos recursos incluídos no Mic
 
 Estas gravações de conferências técnicas discutem a funcionalidade do produto na versão anterior do Finance and Operations, mas os mesmos conceitos ainda se aplicam e os procedimentos são semelhantes na versão atual. 
 
-**Gerenciamento de custos**
+**Gerenciamento de custo**
 
 -  [Visão geral do gerenciamento de custos](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
 
@@ -84,7 +89,7 @@ Estas gravações de conferências técnicas discutem a funcionalidade do produt
 
 **Gerenciamento de depósito** 
 
--  [Processar ASNs de entrada no Gerenciamento de depósito](https://mix.office.com/watch/wpf78tr7rjuh)  
+<!---  [Process inbound ASNs in Warehouse management](https://mix.office.com/watch/wpf78tr7rjuh)-->  
 -  [Obter o máximo do sistema de gerenciamento de depósito](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
 -  [Gerenciamento de depósito avançado R3 - processamento de entrada e reabastecimento mínimo/máximo](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
 -  [Gerenciamento de depósito avançado R3 - um dia na vida, processamento de saída e reabastecimento de demanda](https://youtu.be/Og0gLlVp7jA)

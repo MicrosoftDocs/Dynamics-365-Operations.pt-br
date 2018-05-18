@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>Configurar políticas para hierarquias de categoria de compras
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimento para configurar regras para encomendar produtos em uma categoria. As regras são definidas para uma política de compra específica. Os controles de regra de acesso a categoria aos quais os funcionários das categorias de aquisição têm acesso quando criam uma requisição. Quando uma requisição está sendo criada, a política de compras e a regra de acesso à categoria que devem ser aplicados são determinados pela entidade legal e a unidade operacional a qual o funcionário pertence. Você pode usar este procedimento na empresa USMF de dados de demonstração. Normalmente essa tarefa é realizada por um Gerente de compras.
 

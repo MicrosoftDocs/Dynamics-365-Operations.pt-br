@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>Criar transações de imposto em documentos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Os impostos sobre vendas nos documentos são calculados fornecendo um grupo de impostos sobre vendas e um grupo de impostos sobre vendas de itens nas linhas do documento. Esses padrões derivam dos dados mestre, mas podem ser alterados manualmente, se necessário. Os impostos sobre vendas calculado podem ser feitos em um nível de linha e do documento. Esta tarefa usa a empresa de demonstração USMF.
 

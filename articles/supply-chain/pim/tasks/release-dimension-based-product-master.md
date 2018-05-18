@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="release-a-dimension-based-product-master"></a>Liberar um produto mestre baseado na dimensão
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como liberar um produto mestre, que será usado nas configurações baseadas na dimensão. A empresa de dados demo usada para criar este procedimento é USMF. É um pré-requisito que você tenha criado um produto mestre com a tecnologia de configuração baseada em dimensão. Este é o segundo procedimento dos oito que explicam como criar combinações para configuração baseada em dimensão.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>Registrar check-in e check-out do motorista para um compromisso
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como registrar um check-in e o check-out do driver. Isso normalmente é feito por um coordenador de transporte. Você pode usar este procedimento na empresa USMF de dados de demonstração. Antes de começar, deve haver um compromisso configurado para um custo indireto. Para criar um compromisso, você pode executar o procedimento "Definir um compromisso para uma carga" como um pré-requisito.
 

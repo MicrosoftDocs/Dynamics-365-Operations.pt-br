@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="one-voucher"></a>Um comprovante único
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  Esta funcionalidade ficará disponível no Dynamics 365 for Finance and Operations versão 8.0, que ficará disponível na versão da Primavera 18.   

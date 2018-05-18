@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-posted-sales-tax-transactions"></a>Exibir transações de imposto lançadas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode exibir transações de impostos sobre vendas de várias páginas dependendo do que você precisa exibir. Esta tarefa usa a empresa de demonstração USMF.
 

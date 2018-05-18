@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchase-complementary-fiscal-documents-for-brazil"></a>Notas fiscais de compra complementares do Brasil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve o conceito de uma fatura complementar de compras da localização brasileira.
 

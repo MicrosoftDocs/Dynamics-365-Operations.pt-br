@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="establish-customer-method-of-payment"></a>Estabelecer método de pagamento de clientes
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Criar um método de pagamento para pagamentos de clientes. Esta tarefa usa a empresa de demonstração USMF.
 

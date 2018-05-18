@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="formulas-and-formula-versions"></a>Fórmulas e versões de fórmulas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Uma fórmula define materiais, ingredientes e os resultados de um processo específico na fabricação de processo. Com o roteiro correspondente, a fórmula define todo o processo na manufatura do processo. As fórmulas são usados para planejar e produzir produtos na manufatura de processos.
 

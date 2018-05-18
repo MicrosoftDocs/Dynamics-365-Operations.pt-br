@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="fixed-asset-depreciation-conventions"></a>Convenções de depreciação de ativos fixos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 As convenções de depreciação são usadas para determinar quando e como a depreciação é calculada para o ano em que o ativo é adquirido e o ano em que o ativo fixo é descartado.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="compensation-and-benefits-power-bi-content"></a>Conteúdo de Power BI Remuneração e Benefícios
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve o Finance and Operations - Conteúdo de Remuneração e Benefícios do Power BI. 
 

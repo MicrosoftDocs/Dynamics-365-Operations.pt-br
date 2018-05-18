@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-license-plate-receiving"></a>Recebimento de placa de licença mista
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 O recebimento de placa de licença mista permite criar uma placa de licença que consiste em vários itens antes de você registrar e criar trabalho de armazenamento. 
 

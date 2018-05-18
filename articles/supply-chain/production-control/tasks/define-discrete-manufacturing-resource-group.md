@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-discrete-manufacturing-resource-group"></a>Definir grupo de recursos de fabricação discreta
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Um grupo de recursos é um conjunto de recursos de operações que geralmente correspondem à organização física das células de trabalho, definido pelas linhas amarelas no chão da fábrica de produção. Este procedimento aborda a definição de um grupo de recursos para uso na produção discreta. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
 

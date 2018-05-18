@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-purchasing-policies"></a>Criar políticas de compras
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra-lhe como criar políticas de compra para alinhar com seus processos de negócios de compra. Para que você possa criar políticas de compras, você deve configurar os parâmetros da política de compras. É possível criar, alterar e aposentar uma política de compra, mas você não pode suprimir uma política de compra. Normalmente essa procedimento é realizado por um Gerente de compras. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.
 

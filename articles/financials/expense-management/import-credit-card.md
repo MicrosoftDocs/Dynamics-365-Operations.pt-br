@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="import-and-maintain-credit-card-transactions"></a>Importar e manter transações de cartão de crédito
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 As transações de cartão de crédito relacionadas à despesa podem ser configuradas de forma que possam ser importadas automaticamente em uma agenda recorrente. Como alternativa, as transações podem ser importadas manualmente, conforme necessário. As transações de cartão de crédito são importadas por meio da entidade de dados das transações de cartão de crédito.
 

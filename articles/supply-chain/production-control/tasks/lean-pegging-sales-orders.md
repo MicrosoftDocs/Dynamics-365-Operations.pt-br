@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="lean-pegging-from-sales-orders"></a>Vinculação leve de ordens de venda
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esse procedimento se concentra em validar a árvore de vinculação de uma linha de venda na qual o item é gerado com kanbans. Após validar a árvore de vinculação, todos os trabalhos kanban são planejados. Isso é útil para os cenários de ordem nos quais o tomador da ordem precisa garantir que possa iniciar a produção imediatamente. A empresa de dados demo usada para criar este procedimento é USMF. Esse procedimento se destina ao tomador de ordem avançada que trabalha em uma empresa de lean manufacturing.
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="my-team-mobile-workspace"></a>Meu espaço de trabalho móvel em equipe
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre a área de trabalho móvel **Minha equipe**. Esse espaço de trabalho permite que gerentes visualizem os seus subordinados diretos e a sua equipe estendida. Eles também podem enviar elogios a indivíduos em sua cadeia de subordinação.
 

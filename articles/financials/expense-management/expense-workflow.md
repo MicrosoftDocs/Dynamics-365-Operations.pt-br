@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-workflow"></a>Fluxo de trabalho de despesas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Você pode usar o sistema de fluxo de trabalho no Microsoft Dynamics 365 for Finance and Operations para configurar um processo de revisão para relatório de despesas no gerenciamento de despesas. É possível configurar um fluxo de trabalho que usa os seguintes critérios para determinar quem aprova os relatórios de despesas:
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="use-a-record-template-to-create-a-new-record"></a>Usar um modelo de registro para criar um novo registro
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como usar um modelo de registro previamente definido para criar um novo registro. Para concluir esse procedimento, é preciso primeiro concluir o procedimento "Criar um modelo de registro para facilitar a entrada de dados".
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="post-an-expense-report"></a>Lançar um relatório de despesas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Depois que um relatório de despesas for aprovado e transferido para o diário geral, poderá ser lançado na contabilidade. Quando você lança um relatório de despesas, as despesas qualificadas para a restituição do IVA (imposto sobre valor agregado) são identificadas. A tarefa de verificação e restituição de pagamentos de IVA é atribuída ao funcionário responsável por verificar o relatório de despesas.
 

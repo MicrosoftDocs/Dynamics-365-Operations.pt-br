@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>Visão geral da pesquisa de produto e de cliente no ponto de venda
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 O Modern Point of Sale (MPOS) e o Cloud Point of Sale (CPOS) oferecem uma funcionalidade de pesquisa fácil de usar para produtos e clientes. Como a barra de pesquisa está sempre presente na parte superior das janelas MPOS e do CPOS, os funcionários podem localizar produtos e clientes rapidamente.
 

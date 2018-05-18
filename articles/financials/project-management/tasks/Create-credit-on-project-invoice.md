@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="create-a-credit-note-on-project-invoices"></a>Criar uma nota de crédito em faturas de projeto
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 1. Vá para Gerenciamento e contabilidade de projeto > Projetos > Todos os projetos. 
 2. Na lista, localize e selecione o PDV desejado. 

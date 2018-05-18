@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="analyze-questionnaire-results"></a>Analisar resultados de questionário
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 As estatísticas do questionário podem ser usadas para calcular média, totais e porcentagens, com base em um conjunto de dados demográficos. Para iniciar este procedimento, vá para Questionário > Exibir e analisar resultados > Estatísticas de questionário. A empresa de dados demo usada para criar este procedimento é USMF.
 

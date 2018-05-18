@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="revert-kanban-job-status"></a>Reverter status do trabalho kanban
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esse procedimento se concentra em reverter um status incorreto do trabalho kanban. Isso é útil, se o operador da máquina atualiza o trabalho errado ou define o status errado por engano. Nesse procedimento, um trabalho kanban é registrado como preparado por engano, e o status é revertido. A empresa de dados demo usada para criar este procedimento é USMF. Esse procedimento se destina ao supervisor de loja ou ao operador de máquina que trabalha em uma empresa de lean manufacturing.
 

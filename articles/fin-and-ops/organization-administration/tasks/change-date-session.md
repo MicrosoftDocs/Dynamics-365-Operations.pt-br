@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-date-for-the-session"></a>Alterar a data da sessão
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Por padrão, a data atual é usada ao inserir e lançar entradas do diário ou documentos de origem. Você pode alterar a data usada para sua sessão atual. Use esse recurso para pós-datar entradas do diário ou documentos de origem, conforme necessário.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="create-service-agreement-groups"></a>Criar grupos de contrato de serviço 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Os grupos de contratos de serviço são úteis para classificar e filtrar contratos de serviço.
 

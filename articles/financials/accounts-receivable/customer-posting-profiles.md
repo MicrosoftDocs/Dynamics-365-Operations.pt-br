@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="customer-posting-profiles"></a>Perfis de lançamentos de cliente
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Perfis de postagem de cliente controlam o lançamento de transações de cliente na contabilidade.
 

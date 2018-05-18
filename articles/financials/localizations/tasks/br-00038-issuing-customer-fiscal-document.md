@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="issue-customer-fiscal-documents-brazil"></a>Emitir notas fiscais para clientes (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 É possível emitir uma nota fiscal a um cliente que comprou mercadorias do estabelecimento fiscal. Este registro usa a empresa de dados de demonstração BRMF.
 

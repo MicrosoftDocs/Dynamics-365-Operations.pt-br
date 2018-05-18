@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="packing-materials-and-fees"></a>Taxas e materiais de embalagem
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 As taxas de material de embalagem são pagas a uma empresa de reciclagem em determinados intervalos. Um valor é pago por unidade de peso para cada material com o qual a unidade de embalagem é feita. As taxas de material de embalagem são calculadas e relatadas, mas nenhuma transação do razão é lançada, pois essas taxas não são consideradas como taxas que devam ser pagas a uma autoridade.
 

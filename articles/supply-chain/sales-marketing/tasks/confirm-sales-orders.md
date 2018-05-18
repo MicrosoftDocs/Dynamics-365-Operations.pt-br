@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="confirm-sales-orders"></a>Confirmar ordens de venda
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento demonstra como confirmar ordens de venda. Será mostrado a você como confirmar uma única ordem, e como confirmar várias ordens de uma só vez. Essas tarefas seriam normalmente realizadas por um processador de ordens de venda. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados. Antes de começar, verifique se existem várias ordens de venda em aberto para o mesmo cliente. Se você estiver usando USMF, é possível usar o cliente US-027.
 

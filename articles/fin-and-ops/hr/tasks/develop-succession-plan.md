@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="develop-a-succession-plan"></a>Desenvolver um plano de carreira
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Conforme sua organização cresce, e você considera o planejamento de sucessão, você pode querer encontrar alguém que tenha habilidades semelhantes a outra pessoa.  O mapeamento de habilidades permite que você analise os funcionários e candidatos existentes para ver se atendem a habilidade de um funcionário avaliado. A empresa de dados demo usada para criar este procedimento é USMF.
 

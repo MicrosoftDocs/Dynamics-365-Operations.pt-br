@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="intercompany-invoicing"></a>Faturamento intercompanhia
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece informações e exemplos sobre faturamento intercompanhia para projetos no Microsoft Dynamics 365 for Finance and Operations.
 

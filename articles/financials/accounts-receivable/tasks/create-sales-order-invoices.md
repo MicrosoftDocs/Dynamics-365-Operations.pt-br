@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-order-invoices"></a>Criar faturas de ordem de venda
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este guia descreve a tarefa de uma ordem de venda, incluindo mescla de notas fiscais e processamento em lotes. Este procedimento usa a empresa de dados de demonstração USMF.
 

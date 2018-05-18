@@ -28,7 +28,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="sell-and-return-products-outside-of-an-assortment"></a>Venda e devolução de produtos fora de um sortimento
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Um cenário comum para qualquer revendedor é vender produtos para seus clientes ou aceitar devoluções de seus clientes, mesmo que eles não transportem os produtos específicos em sua loja (em outras palavras, os produtos não são distribuídos na loja)
 Estes são alguns dos cenários típicos:

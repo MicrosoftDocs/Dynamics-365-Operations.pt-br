@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-store-performance"></a>Analisar o desempenho da loja
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho do armazenamento, com base nos dados do Microsoft Dynamics 365 para Varejo. 
 

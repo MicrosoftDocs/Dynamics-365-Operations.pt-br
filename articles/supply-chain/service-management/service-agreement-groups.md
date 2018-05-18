@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreement-groups"></a>Grupos de contratos de serviço 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Os grupos de contratos de serviço são úteis para classificar e filtrar contratos de serviço. Use-os para agrupar contratos de serviço, por exemplo, por tamanho da empresa, localização geográfica ou tipo de indústria. Alternativamente, você pode usar os grupos de contrato para agrupar contratos de serviço pelo nível de serviço oferecido a um cliente.
 

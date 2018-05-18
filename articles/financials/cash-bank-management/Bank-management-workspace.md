@@ -25,7 +25,7 @@ ms.lasthandoff: 03/05/2018
 ---
 # <a name="bank-management-workspace"></a>Espaço de trabalho de gerenciamento bancário
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 O espaço de trabalho **Gerenciamento de banco** mostra informações relacionadas a contas bancárias da empresa. Esta área de trabalho inclui uma visualização **Resumo** e uma página **Análise**. A exibição **Resumo** mostra quadros resumidos, informações de conta bancária, um gráfico do saldo e informações relacionadas. A página **Análise** usa recursos do Microsoft Power BI para mostrar os visuais relacionados a saldos da conta bancária.
 

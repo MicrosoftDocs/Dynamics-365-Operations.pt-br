@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-interest-and-fines-on-customer-payments-brazil"></a>Configurar juros e multas em pagamentos de clientes (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimento para configurar juros e multas em pagamentos de clientes. Esta tarefa usa a empresa de demonstração BRMF.
 

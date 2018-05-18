@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a>Habilitar o processo de folha de pagamento para horário e presença
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como habilitar o processo de folha de pagamento de tempo e presença. A empresa de dados demo usada para criar este procedimento é USMF.
 

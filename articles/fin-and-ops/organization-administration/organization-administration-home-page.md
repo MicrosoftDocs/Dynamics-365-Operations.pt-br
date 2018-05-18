@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="organization-administration-home-page"></a>Home page de Administração da organização
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico aponta para o conteúdo que ajudará usuários avançados e administradores a configurar o Microsoft Dynamics 365 for Finance and Operations. Este conteúdo os ajudará a configurar o sistema para trabalhar de forma mais eficaz para sua organização e empresa.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-a-finished-product-february-2016-only"></a>Criar um produto acabado (apenas fevereiro de 2016)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esta tarefa tem como foco criar um produto finalizado. Trata-se da primeira tarefa na série de cálculo BOM. A empresa de dados demo usada para criar esta tarefa é USMF.
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="workflow-actions"></a>Ações de fluxo de trabalho
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo explica as ações que cada participante em um processo de aprovação de fluxo de trabalho pode executar.
 
@@ -45,7 +45,7 @@ Uma tarefa pode ser atribuída a várias pessoas ou a uma fila de itens de traba
 
 Os membros do departamento de relatórios de despesas da Adventure Works monitoram a fila. Suponha que Julieta, membro desse departamento, tenha aceitado a tarefa de revisar o relatório de despesas e os recibos de Samuel. Agora, ela pode executar uma das seguintes ações: concluir, rejeitar, delegar, solicitar alteração, reatribuir ou liberar. 
 
-**Observação:**as ações disponíveis irão variar dependendo de como o desenvolvedor do software tiver criado a tarefa.
+**Observação:** as ações disponíveis irão variar dependendo de como o desenvolvedor do software tiver criado a tarefa.
 
 ### <a name="complete"></a>Concluir
 

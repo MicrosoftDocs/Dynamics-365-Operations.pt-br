@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-feedback"></a>Comentários sobre a produção
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo oferece informações sobre os comentários de produção, que oferece comentários de trabalhadores sobre trabalhos de produção. O artigo inclui informações sobre as diversas maneiras como os comentários de produção podem ser atualizados.
 

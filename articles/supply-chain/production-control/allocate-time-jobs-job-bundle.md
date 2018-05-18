@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>Alocar tempo para trabalhos em um pacote de trabalhos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Em Execução de fabricação, você pode agrupar trabalhos. Você poderá iniciar vários trabalhos ao mesmo tempo na página Lista de trabalhos.
 

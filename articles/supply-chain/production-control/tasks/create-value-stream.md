@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-value-stream"></a>Criar um fluxo de valor
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Fluxos de produção são unidades operacionais que agrupam um ou vários fluxos de produção. Para definir um fluxo de produção, primeiro você deve definir o fluxo de valor.
 

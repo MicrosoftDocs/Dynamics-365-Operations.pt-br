@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="set-up-injury-and-illness-information"></a>Configurar informações de ferimentos e doenças
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Os empregadores precisam saber quando os funcionários se ferem ou ficam doentes devido a perigos no local de trabalho. Você pode usar a página de ferimento e doenças para configurar as informações que auxiliam no relato de ferimentos ou doenças no local de trabalho. Você pode configurar tipos de ferimentos e doenças, incluindo tipos de tratamento, custos e resultados. A empresa de dados demo usada para criar este procedimento é USMF.
 

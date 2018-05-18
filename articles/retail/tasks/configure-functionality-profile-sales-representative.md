@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a> Configurar o perfil de funcionalidade para um representante de vendas
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimento demonstra como definir as configurações de perfil de funcionalidade de uma loja que se aplicam aos representantes de vendas. Este procedimento usa a empresa de dados de demonstração USRT.
 

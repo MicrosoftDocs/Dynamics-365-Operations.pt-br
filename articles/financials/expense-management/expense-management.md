@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="expense-management"></a>Gerenciamento de despesas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Use o gerenciamento de despesas para criar um fluxo de trabalho integrado no qual é possível armazenar informações sobre o método de pagamento, importar transações de cartão de crédito e rastrear o dinheiro que os funcionários gastam quando incorrem em despesas para sua empresa. Você também pode definir diretivas de despesas e automatizar o reembolso de despesas de viagem. 
 

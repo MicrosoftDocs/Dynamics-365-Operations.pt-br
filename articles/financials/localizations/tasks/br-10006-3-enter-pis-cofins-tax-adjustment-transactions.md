@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-pis-and-cofins-tax-adjustment-transactions-brazil"></a>Inserir transações de ajuste de impostos PIS e COFINS (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Em livros fiscais, você pode criar e lançar um diário para ajustes manuais de impostos PIS e COFINS usando os códigos de ajuste que são definidos pela autoridade fiscal. Depois que o ajuste for lançado, ele pode ser visualizado na apuração de imposto. Esta tarefa usa a empresa de demonstração BRMF.
 

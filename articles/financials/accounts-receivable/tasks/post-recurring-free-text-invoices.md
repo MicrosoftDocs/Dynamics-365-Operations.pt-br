@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>Gerar e lançar faturas de texto livre recorrentes
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Faturas recorrentes são usadas para faturar clientes regularmente com o mesmo valor. Este registro usa a empresa de dados de demonstração USMF. O registro é direcionado para a pessoa responsável por gerenciar e processar faturas A/R.
 

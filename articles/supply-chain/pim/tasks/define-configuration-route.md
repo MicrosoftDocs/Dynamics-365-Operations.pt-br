@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-configuration-routes"></a>Definir roteiros de configuração
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Esse procedimento se concentra na definição de um roteiro de configuração que determina a sequência na qual os grupos de configuração serão exibidos. A empresa de dados demo usada para criar este procedimento é USMF. Este é o sexto procedimento dos oito que explicam como criar combinações para configuração baseada em dimensão.
 

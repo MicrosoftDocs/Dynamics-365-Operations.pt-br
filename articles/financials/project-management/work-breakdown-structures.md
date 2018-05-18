@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="work-breakdown-structures"></a>Estruturas de detalhamento de trabalho
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Uma estrutura de detalhamento de trabalho (WBS) é uma descrição do trabalho que será feito para um projeto. É uma hierarquia de tarefas que representa a compreensão da equipe do projeto da composição do trabalho, e do tamanho, custo, e duração de cada componente ou tarefa. Uma WBS tem três fins principais:
 

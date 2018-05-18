@@ -26,7 +26,7 @@ ms.lasthandoff: 02/15/2018
 
 # <a name="welcome-to-human-resources"></a>Bem-vindo a recursos humanos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 O módulo de Recursos humanos simplifica muitas tarefas de manutenção de registros e automatiza vários processos relacionados ao recrutamento de sua organização. Também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão. Essas áreas incluem recrutamento e retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações.
 

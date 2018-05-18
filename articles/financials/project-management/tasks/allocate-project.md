@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>Alocar um orçamento de projeto ou uma revisão de orçamento entre períodos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
  Depois de inserir um orçamento de projeto ou uma revisão de orçamento do projeto, e antes de enviá-la para aprovação, você pode alocar os valores nos períodos. Se o orçamento ou a revisão de orçamento são rejeitados, também é possível alocar valores antes da reenviar. 
 

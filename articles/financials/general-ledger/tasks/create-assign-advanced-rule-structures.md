@@ -24,7 +24,7 @@ ms.lasthandoff: 10/27/2017
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a>Criar e atribuir estruturas de regras avançadas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este guia de tarefas aborda a criação e atribuição de uma estrutura de regra avançada a uma estrutura de conta. Este guia usa a empresa de demonstração USMF.
 

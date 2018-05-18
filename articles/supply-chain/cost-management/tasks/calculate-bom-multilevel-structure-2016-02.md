@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016-only"></a>Calcular uma BOM usando uma estrutura de vários níveis (apenas fevereiro de 2016)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como calcular o custo de um produto finalizado usando detalhamento de vários níveis baseado na folha de custos. Trata-se da sétima tarefa na série de cálculo BOM. A empresa de dados demo usada para criar esta tarefa é USMF.
 

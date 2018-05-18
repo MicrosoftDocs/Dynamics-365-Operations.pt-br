@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-standard-costs-in-a-non-manufacturing-environment"></a>Atualizar custos padrão em um ambiente que não seja de manufatura
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo oferece diretrizes para a atualização de custos padrão em um ambiente que não seja de fabricação.
 

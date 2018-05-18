@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a>Pesquisa de estoque no Ponto de Venda 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 A Pesquisa de estoque no Ponto de Venda (PDV) ajuda os varejistas a atingirem a excelência operacional em tempo real e a obterem insights conectando lojas, o PDS e o back office. Essa funcionalidade fornece uma visão exata em tempo real de estoque do produto pelas lojas e centros de distribuição. Também ajuda os varejista a determinar poupanças de gastos e eficiências adicionais melhorando o planejamento de estoque em tempo real.
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="pay-based-on-registrations"></a>Pagamento com base em registros
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico explica, detalhadamente, como o pagamento é calculado com base em registros de trabalhador. Ele inclui exemplos para mostram como as várias combinações de opções de configuração disponíveis para o cálculo afetam o resultado. Estas são algumas das áreas que serão abordadas:
 

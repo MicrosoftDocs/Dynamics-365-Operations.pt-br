@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="project-debit-notes-brazil"></a>Notas de débito do projeto (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode gerar notas de débito para projetos para obter reembolso de despesas ocorridas no projeto. A empresa de dados demo usada para criar este procedimento é BRMF.
 

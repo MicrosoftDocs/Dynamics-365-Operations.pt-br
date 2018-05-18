@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="attract-overview"></a>Visão geral do Attract
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 O Attract fornece recursos para gerenciar o processo de contratação de novo talento. Os candidatos podem ser adicionados aos trabalhos abertos e avançados, passo a passo, até uma oferta ser estendida ou a solicitação de emprego ser rejeitada. Em cada estágio, os candidatos passam por atividades como chamadas de seleção, avaliações ou programação de entrevistas. Depois que se aplicam, os candidatos recebem um email convidando-os para entrar no Attract, onde eles podem seguir o status do trabalho, sua solicitação de emprego e responder a quaisquer tarefas que foram atribuídas a eles.
 

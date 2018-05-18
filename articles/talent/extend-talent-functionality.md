@@ -26,7 +26,7 @@ ms.lasthandoff: 03/08/2018
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a>Estender a funcionalidade do Microsoft Dynamics 365 for Talent
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Se você criou um Microsoft PowerApps, poderá iniciar esses aplicativos a partir de links do Microsoft Dynamics 365 for Talent. Para configurar o acesso aos seus aplicativos, será necessário configurar as informações no Talent em uma página de configuração que você pode abrir no espaço de trabalho **Administração do sistema**.
 

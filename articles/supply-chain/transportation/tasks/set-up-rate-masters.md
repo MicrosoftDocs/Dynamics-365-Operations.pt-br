@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-rate-masters"></a>Configurar mestres de taxa
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como configurar um mestre de taxa. O gerente logístico geralmente configura os mestres de taxa, dependendo dos contratos assinados com as transportadoras. Neste cenário você irá configurar um mestre de taxa para um transportador aérea. A empresa de dados demo usada para criar este procedimento é USMF.
 

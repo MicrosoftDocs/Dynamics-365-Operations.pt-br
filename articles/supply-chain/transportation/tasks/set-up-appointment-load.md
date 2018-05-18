@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-an-appointment-for-a-load"></a>Configurar um compromisso para uma carga
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como definir e planejar um compromisso para uma doca de carga. Normalmente isso é feito por um coordenador de transporte. Você pode usar este procedimento na empresa USMF de dados de demonstração.
 

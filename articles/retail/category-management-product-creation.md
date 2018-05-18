@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="manage-retail-product-categories-and-products"></a>Gerenciar produtos e categorias de produtos de varejo
 
-[!INCLUDE [banner](./includes/banner.md)]
+[!include [banner](./includes/banner.md)]
 
 Este tópico descreve um modo avançado de gerenciar produtos e categorias de produtos de varejo no Microsoft Dynamics 365 for Retail. Os aprimoramentos permitem que os gerentes de mercadoria visualizem uma estrutura de propriedades de produtos que é compartilhada entre a hierarquia de produtos de varejo e os detalhes de produtos liberados.
 

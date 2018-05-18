@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="import-fiscal-documents-for-brazil"></a>Importar notas fiscais do Brasil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve a funcionalidade para notas fiscais de importação direta disponível da localização brasileira.
 

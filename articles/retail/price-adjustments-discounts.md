@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-adjustments-and-discounts"></a>Ajustes de preço e descontos
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este artigo oferece informações sobre ajustes de preço e descontos no Varejo e comércio no Microsoft Dynamics para Varejo.
 

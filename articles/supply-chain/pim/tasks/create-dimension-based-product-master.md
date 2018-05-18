@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-dimension-based-product-master"></a>Criar um produto mestre baseado na dimensão
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar um novo produto mestre com a tecnologia de configuração baseada em dimensão. A empresa de dados demo usada para criar este procedimento é USMF. Este é o primeiro procedimento dos oito que explicam como criar combinações para configuração baseada em dimensão.
 

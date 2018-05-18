@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="general-ledger-account-balances"></a>Saldo da conta contábil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo explica duas maneiras de exibir os saldos da conta contábil - a página de listagem do balancete e os relatórios financeiros. Também discute como atualizar os saldos do conjunto de dimensões.
 

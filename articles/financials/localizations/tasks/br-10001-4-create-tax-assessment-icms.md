@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-tax-assessment---icms-brazil"></a>Criar uma apuração de imposto - ICMS (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Você pode criar uma apuração de imposto para o ICMS de um período de escrituração selecionado. Este valor do imposto considera o valor de ICMS para recuperar e o valor de ICMS para pagar os documentos fiscais. Para o valor devido após a apuração de imposto, você pode fazer o pagamento do valor para a autoridade fiscal. Este registro usa a empresa de dados de demonstração BRMF.
 

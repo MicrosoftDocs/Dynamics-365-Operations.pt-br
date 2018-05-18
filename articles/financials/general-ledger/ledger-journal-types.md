@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="ledger-journal-types"></a>Tipos de diário-razão
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo descreve os tipos de diário que você pode configurar para diários financeiros. Use a página **Nomes de diário** para configurar os diários que você pode usar no Microsoft Dynamics 365 for Finance and Operations.
 

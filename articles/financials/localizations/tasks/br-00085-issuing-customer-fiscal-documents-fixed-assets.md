@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="issue-customer-fiscal-documents-fixed-assets-brazil"></a>Emitir notas fiscais para clientes (ativos fixos) (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 É possível emitir uma nota fiscal a um cliente que adquiriu ativo fixo do estabelecimento fiscal. Nesse caso, a nota fiscal é emitida a partir da fatura de texto livre. Este registro usa a empresa de dados de demonstração BRMF.
 

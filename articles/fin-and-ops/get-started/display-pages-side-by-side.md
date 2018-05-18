@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a>Exibir páginas lado a lado usando o ícone Abrir em Nova Janela
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo explica como exibir página lado a lado no Microsoft Dynamics 365 for Finance and Operations.
 

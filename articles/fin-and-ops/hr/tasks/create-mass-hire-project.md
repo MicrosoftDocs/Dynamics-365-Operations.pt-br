@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-mass-hire-project"></a>Criar um projeto de contratação em massa
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento anda com o processo de configuração de um projeto de contratação em massa. Um recruta pode usar projetos de contratação em massa criar facilmente várias posições e contratar um número de funcionários nas posições. Para iniciar este procedimento, vá para Recursos humanos > Recrutamento > Projetos de contratação em massa. A empresa de dados demo usada para criar este procedimento é USMF.
 

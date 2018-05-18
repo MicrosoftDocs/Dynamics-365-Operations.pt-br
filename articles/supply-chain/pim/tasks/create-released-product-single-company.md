@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>Criar um produto lançado para uma única empresa
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento demonstra como criar um único produto lançado no contexto de uma unidade legal única. Depois que o produto lançado é criado, ele está imediatamente disponível somente nessa unidade. Você pode explorar esse procedimento na empresa de dados demonstrativos USMF. Esta tarefa é executada geralmente por um designer de produto.
 

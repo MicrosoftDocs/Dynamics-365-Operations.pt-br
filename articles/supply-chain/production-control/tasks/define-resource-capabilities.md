@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-resource-capabilities"></a>Definir capacidades do recurso
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 As funcionalidade do recurso descrevem qual recursos de operações podem ser feitos. Durante a programação, os requisitos de cada trabalho e a operação são correspondentes em relação às funcionalidades de recursos disponíveis. Essa guia da tarefa irá ajudá-lo a criar uma funcionalidade de recursos e a atribui a um recurso. A empresa de dados demo usada para criar esta tarefa é USMF.
 

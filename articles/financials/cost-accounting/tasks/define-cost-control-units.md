@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-cost-control-units"></a>Definir unidades de controle de custos
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como definir unidades de controle de custo no razão da contabilização de custo. Você seleciona a dimensão de objeto de custo para a qual você quer controlar os custos do razão. Os membros da dimensão do objeto de custo são transformados em objetos de custo das unidades de controle de custo. A empresa de dados demonstrativos utilizada para criar esse procedimento é a USP2.
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="set-up-compensation-grids"></a>Configurar grades de remuneração
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 As grades de remuneração são usadas para definir e manter as estruturas de pagamento para os planos de remuneração fixa. As grades de remuneração poderão ser compartilhadas entre vários planos ou copiadas ao criar um novo plano de remuneração.  Antes de criar uma grade de compensação, os níveis do pontos de Referência devem ser configurados. Este exemplo criará um novo tipo de Classificação da grade de remuneração com dados de demonstração para os níveis e os pontos de Referência. A empresa de dados demo usada para criar este procedimento é USMF.
 

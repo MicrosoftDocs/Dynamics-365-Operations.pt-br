@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-and-bank-management-home-page"></a>Home page de Gerenciamento de caixa e bancos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Você pode usar o Gerenciamento de caixa e bancos para manter as contas bancárias de entidade legal e os instrumentos financeiros associados a essas contas bancárias. 
 

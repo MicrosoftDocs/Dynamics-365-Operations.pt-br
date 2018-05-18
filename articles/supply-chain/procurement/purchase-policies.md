@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchasing-policies"></a>Políticas de compra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre diretivas de compras. Uma política de compra é um conjunto de regras que controlam o processo da requisição. As políticas de compra ajudam administradores de compras a implementar sua estratégia de compras criando uma estrutura de política alinhada às necessidades de compras estratégicas da organização.
 

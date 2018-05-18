@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="distributions-on-an-expense-report"></a>Distribuições em um relatório de despesas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Ao inserir despesas em um relatório de despesas, você pode distribuir as despesas em vários projetos, dimensões financeiras ou contas de sua organização.
 

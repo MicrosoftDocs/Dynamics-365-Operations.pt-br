@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="non-fiscal-operations-brazil"></a>Operações não fiscais (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Use este procedimento para criar transações não fiscais de documentos que serão incluídas no arquivo de texto do Sistema Público de Escrituração Fiscal Digital (SPED EFD). Os arquivos de texto das contribuições de SPED EFD são gerados por entidades legais que já têm a obrigação de emitir o SPED Fiscal e Contábil. Os arquivos de texto fornecem informações sobre as transações que representam as receitas tributáveis ou não tributáveis do Programa de Integração Social (PIS) e da Contribuição para o Financiamento da Seguridade Social (COFINS) e o custo ou as despesas com crédito de PIS e de COFINS. As operações que não estão relacionadas aos documentos fiscais, como aluguel ou receita ou despesas relacionadas às operações, devem ser incluídas no registro F100 do arquivo de texto. Esta tarefa usa a empresa de demonstração BRMF.
 

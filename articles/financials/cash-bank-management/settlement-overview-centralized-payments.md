@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settlement-overview-for-centralized-payments"></a>Visão geral da liquidação para pagamentos centralizados
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal que trate todos os pagamentos. Isso elimina a necessidade de inserir a mesma transação em várias entidades legais e poupa tempo ao simplificar o processo de proposta de pagamento, o processo de liquidação, a edição de transações abertas e a edição de transações fechadas para pagamentos centralizados. 
 

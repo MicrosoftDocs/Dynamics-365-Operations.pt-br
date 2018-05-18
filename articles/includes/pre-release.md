@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> Este recurso está disponível somente no Dynamics 365 for Finance and Operations versão 8.0 e para usuários específicos que aceitaram o CAAP (Continuous Auto-update Advantage Program) para atualizações da plataforma. Para obter mais informações sobre versões padrão e direcionada, consulte [Versões de plataforma padrão e direcionada](../../fin-and-ops/get-started/public-preview-releases.md).
+> Este recurso estará disponível na Platform update 15 (7.0.4841) ou posterior. Esta atualização está disponível atualmente para clientes específicos mas ficará disponível para todos os usuários em junho de 2018.

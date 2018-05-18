@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="review-collections-information"></a>Revisar informações sobre cobranças
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como revisar a informações de cobranças, bem como várias opções de instalação e transações de cobranças. Este procedimento usa a empresa de dados de demonstração USMF.
 

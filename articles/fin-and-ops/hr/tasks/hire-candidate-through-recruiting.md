@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-a-candidate-through-recruiting"></a>Contratar um candidato por meio de recrutamento
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento permite que um recruta contrate um candidato que envia uma solicitação de emprego em um projeto de recrutamento específico. Ao contratar um candidato em um projeto de recrutamento, um novo registro de funcionário será criado e o registro do candidato terá um status Empregado. A empresa de dados demo usada para criar este procedimento é USMF. Para completar este procedimento, navegue até Recursos humanos > Recrutamento > Solicitações de emprego > Solicitações de emprego 
 

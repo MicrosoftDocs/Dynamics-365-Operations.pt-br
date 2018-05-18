@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-accessorial-assignments"></a>Configurar atribuições suplementares
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como iniciar uma atribuição suplementar. Normalmente isso é feito por um coordenador de transporte. Antes de você usar este guia você precisa executar o guia "Instalar hub de encargos e mestres suplementares".
 

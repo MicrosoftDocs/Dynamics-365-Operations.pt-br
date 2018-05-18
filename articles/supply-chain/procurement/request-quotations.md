@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="requests-for-quotation-rfqs"></a>Solicitações de cotação (RFQs)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece uma visão geral das solicitações de cotação (RFQs). As organizações emitem RFQs quando desejam receber ofertas competitivas de vários fornecedores para os itens ou serviços que eles compram. Em uma RFQ, você solicita que os fornecedores forneçam preços e prazos de entrega das quantidades do item que você especificar.
 Você também pode solicitar que os fornecedores especifiquem caso haja encargos incidentais, como custos de remessa, ou quaisquer descontos para grandes pedidos ou pagamento antecipado da fatura do fornecedor.
@@ -57,8 +57,8 @@ Ao receber lances por email, você deverá gerenciá-los lances na página **Sol
 
 Se é necessária uma segunda iteração de uma resposta de um fornecedor, selecione **Retornar** na página **Solicitação de cotação**. A ação de retornar gera um novo diário e um relatório que serão impressos, arquivados e enviados de acordo com as configurações de impressão.
 
-[!NOTE]
-O nome da página **Solicitação de cotação** foi alterado. Em versões anteriores do Dynamics 365 for Finance and Operations, esta página é chamada **Resposta de solicitações de cotações**.
+> [!NOTE]
+> O nome da página **Solicitação de cotação** foi alterado. Em versões anteriores do Dynamics 365 for Finance and Operations, esta página é chamada **Resposta de solicitações de cotações**.
 
 Se você adicionou critérios de pontuação ao seu caso de RFQ, a RFQ terá um painel de pontuação em que você poderá inserir as pontuações. As pontuações totais serão exibidas na RFQ e no momento em que você comparar as respostas na página **Comparar respostas**. Na página **Comparar respostas** , também é possível comparar outros dados de respostas, como preço da linha, data de entrega e o preço total.
 
@@ -126,8 +126,8 @@ Se você quiser usar os códigos de motivos em um lance para indicar o motivo de
 
 Na página **Configuração de formulário** em Compras, você pode configurar a aparência de seus documentos de RFQ impressos e armazenados.
 
-[!NOTE]
-Para configuração do setor público, você deve usar o processo de alteração para alterar uma RFQ que já foi enviada. Quando uma RFQ é enviada, os campos são bloqueados.
+> [!NOTE]
+> Para configuração do setor público, você deve usar o processo de alteração para alterar uma RFQ que já foi enviada. Quando uma RFQ é enviada, os campos são bloqueados.
 Portanto, para fazer alterações na RFQ, você deve selecionar **Criar** para iniciar o processo de alteração, como descrito anteriormente. O comportamento de bloqueio é controlado pela opção **Bloquear RFQs quando forem enviadas** na página **Parâmetros de compras**. Por padrão, este parâmetro é definido como **Sim** e para uma configuração do setor público, a definição padrão não pode ser alterada. Portanto, embora o processo de alteração possa ser tratado manualmente em uma configuração do setor não público, ele deve ser usado para uma configuração do setor público.
 
 Ao criar um caso de RFQ do tipo ordem de compra e adicionar um item de estoque à RFQ, uma transação de estoque é gerada com um status de recebimento **Recebimento de cotação**. Somente as linhas de caso de RFQ que têm esse status serão consideradas quando você usar um plano mestre para calcular os suprimentos. Se você deseja que o plano mestre inclua linhas de caso de RFQ como um recebimento esperado, configure esse comportamento na configuração do planejamento mestre.

@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="assign-users-to-security-roles"></a>Atribuir usuários a funções de segurança
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Para acessar o Microsoft Dynamics 365 for Finance and Operations, os usuários devem ser atribuídos a funções de segurança. Este processo explica como os administradores de sistemas podem atribuir usuários às funções automaticamente, com base nos dados comerciais. A empresa de dados demo usada para criar este procedimento é USMF.
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>Bases de alocação 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Uma base de alocação é a base na qual a contabilização de custo aloca custos gerais indiretos. Uma base de alocação pode ser uma quantidade, como as horas de máquina usadas, as horas de quilowatt (kWh) que são consumidos ou a, área que está ocupada. As bases de alocação são muito usadas para atribuir custos gerais indiretos ao estoque produzido. Por exemplo, um departamento de TI aloca as despesas de acordo com o número de computadores que cada departamento usa.
 

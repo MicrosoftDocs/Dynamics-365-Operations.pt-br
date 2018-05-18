@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="referenced-fiscal-documents-for-brazil"></a>Notas fiscais referenciadas para o Brasil
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece uma visão geral de notas fiscais referenciadas usadas no Brasil.
 

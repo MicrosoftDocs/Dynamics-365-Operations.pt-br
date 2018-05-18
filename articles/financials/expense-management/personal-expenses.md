@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="personal-expenses-on-an-expense-report"></a>Despesas pessoais em um relatório de despesas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Durante viagens de trabalho, os trabalhadores às vezes podem colocar despesas pessoais em seus cartões de crédito corporativos. Se você não definir um processo para lidar com despesas pessoais, o processo de aprovação de relatórios de despesas poderá ser interrompido quando os trabalhadores enviarem seus relatórios de despesas discriminadas. 
 

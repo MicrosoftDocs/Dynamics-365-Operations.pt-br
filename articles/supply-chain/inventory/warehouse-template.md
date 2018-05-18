@@ -29,7 +29,7 @@ ms.lasthandoff: 02/06/2018
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>Configurar um depósito usando um modelo de configuração de depósito
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico explica como configurar um depósito usando um modelo de configuração de depósito. Há vários modelos predefinidos de configuração que você pode usar. Para obter informações sobre como usar esses modelos, consulte [Modelos de dados de configuração](../../dev-itpro/data-entities/configuration-data-templates.md).
 

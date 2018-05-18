@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-predefined-product-variants"></a>Criar grades de produtos predefinidas
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como criar variantes de produto para um produto mestre que usam as combinações de dimensões do produto. A empresa de demonstração usada para criar este procedimento é USMF.
 

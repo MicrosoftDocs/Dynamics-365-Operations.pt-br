@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="issue-customer-fiscal-documents-for-end-users-brazil"></a>Emitir notas fiscais para clientes (para usuários finais) (Brasil)
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 É possível emitir uma nota fiscal a um cliente que comprou mercadorias do estabelecimento fiscal. O cálculo do valor base do imposto ICMS considera o valor do imposto IPI. Este registro usa a empresa de dados de demonstração BRMF.
 
