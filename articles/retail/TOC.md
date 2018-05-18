@@ -15,16 +15,17 @@
 ## [Perguntas frequentes sobre pagamentos](dev-itpro/payments-retail.md)
 
 # Ordens de compra
-## [Visão geral de ordem de compra](../supply-chain/procurement/purchase-order-overview.md)
+## [Visão geral sobre ordens de compra](../supply-chain/procurement/purchase-order-overview.md)
 ## [Criar ordens de compra](../supply-chain/procurement/purchase-order-creation.md)
 ## [Recebimento de produtos contra ordens de compra](../supply-chain/procurement/product-receipt-against-purchase-orders.md)
 ## [Aprovar e confirmar ordens de compra](../supply-chain/procurement/purchase-order-approval-confirmation.md)
 ## [Espaço de trabalho móvel de aprovação de ordem de compra](../supply-chain/procurement/purchase-order-mobile-workspace.md)
 
 # Imposto
-## [Visão geral de imposto](../financials/general-ledger/indirect-taxes-overview.md)
+## [Visão geral sobre impostos](../financials/general-ledger/indirect-taxes-overview.md)
 ## [Métodos de cálculo de impostos no campo Origem](../financials/general-ledger/sales-tax-calculation-methods-origin-field.md)
-## [Opções de cálculo do valor total e do intervalo para códigos de impostos](../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md)
+## #### [Substituições e atribuições de impostos](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md)
+## [Opções de cálculo de intervalo e valor total para códigos de impostos](../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md)
 
 # Call center
 ## [Visão geral do call center](call-center-functionality.md)
@@ -165,10 +166,11 @@
 ## [ Configurar recomendações de produto fornecidas pelo aprendizado de máquina](tasks/configure-machine-learning-product-recommendations.md)
 ## [ Criar e associar um dispositivo](tasks/create-associate-device.md)
 ## [ Criar e associar uma estação de hardware](tasks/create-associate-hardware-station.md)
-## [ Criar e associar registros](tasks/create-associate-registers.md)
-## [ Criar, calcular e lançar uma declaração para uma loja de varejo](tasks/create-calculate-post-statement-retail-store.md)
-## [ Criar ordens de call center](tasks/create-call-center-orders.md)
-## [ Criar dimensões financeiras para registros de POS e configurar valores de dimensão em registros](tasks/create-financial-dimensions-pos.md)
+## [Criar e associar registros](tasks/create-associate-registers.md)
+## [Criar, calcular e lançar um demonstrativo para uma loja de varejo](tasks/create-calculate-post-statement-retail-store.md)
+## [Aprimoramentos na postagem de demonstrativo](statement-posting-EOD.md)
+## [Criar ordens de call center](tasks/create-call-center-orders.md)
+## [Criar dimensões financeiras para registros de PDV e configurar valores de dimensão em registros](tasks/create-financial-dimensions-pos.md)
 ## [ Criar dimensões financeiras para canais do Retail e configurar valores de dimensão em lojas](tasks/create-financial-dimensions-retail-channels.md)
 ## [ Criar canais online e definir atributos de canal](tasks/create-online-channel-define-channel-attributes.md)
 ## [ Criar grupos de permissões de POS](tasks/create-pos-permission-groups.md)
@@ -289,7 +291,6 @@
 ### [Chamar uma operação ou API POS de uma extensão do POS](dev-itpro/pos-api-extension.md)
 ### [Gatilhos e impressão do Retail Modern POS](dev-itpro/pos-trigger-printing.md)
 ### [Adicionar um controle personalizado a uma exibição fora da tela com base no designer do Retail Modern POS](dev-itpro/pos-control-non-screen.md)
-### [Gerenciar o proxy do Retail para POS e comércio eletrônico](dev-itpro/pos-generate-retail-proxy.md)
 ### [Etapas da configuração para desenvolvedores do Retail que trabalham em caixas de desenvolvimento hospedadas na nuvem](dev-itpro/cloud-dev-box.md)
 
 ## Commerce Runtime
