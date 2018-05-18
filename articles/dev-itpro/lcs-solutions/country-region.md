@@ -18,18 +18,18 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c925b2e996f51b8c5d5332217643c3155cfc03c0
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>Recursos de localização e regulatórios
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-O Microsoft Dynamics 365 for Finance and Operations inclui funcionalidade para o país/regiões documentadas no [Guia de disponibilidade de produtos internacionais](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Essa funcionalidade é habilitada com base no endereço principal da entidade legal ativa. 
+O Microsoft Dynamics 365 for Finance and Operations inclui funcionalidade para o país/regiões documentadas no [Guia de disponibilidade de produtos internacionais](http://download.microsoft.com/documents/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf). Essa funcionalidade é habilitada com base no endereço principal da entidade legal ativa. 
 
 Este tópico inclui listas de recursos que podem ajudar você a aprender mais sobre soluções específicas ao país/região, atualizações, alertas e funcionalidades. 
 
@@ -154,7 +154,7 @@ As seções a seguir listam os recursos por país/região.
 - [Configurar signatários para formulários impressos](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
 - [Contabilidade de estorno](../../financials/localizations/emea-storno.md)
 - [Diretivas de imposto](../../financials/localizations/emea-tax-directives.md)
-- [Atualizar como os valores são exibidos em relatórios e documentos](../../financials/localizations/emea-amount-printing-forms.md) 
+- [Atualizar a forma como os valores são exibidos em relatórios e documentos](../../financials/localizations/emea-amount-printing-forms.md) 
 - [Taxas de câmbio de IVA](../../financials/localizations/emea-vat-exchange-rate.md)
 - [Transações de registro de IVA para a Europa Oriental](../../financials/localizations/emea-vat-register-transactions.md)
 - [Relatório de IVA](../../financials/localizations/emea-vat-reporting.md)
@@ -171,7 +171,7 @@ As seções a seguir listam os recursos por país/região.
 #### <a name="public-sector"></a>Setor público
    -   [Compromissos no setor público](../../financials/localizations/emea-fra-commitments-public-sector.md)
    -   [Mandats de paiement no setor público](../../financials/localizations/emea-fra-mandats-de-paiement.md)
-   -   [Compras](../../financials/localizations/emea-fra-procurement-sourcing-public-sector.md)
+   -   [Compras e fornecimento](../../financials/localizations/emea-fra-procurement-sourcing-public-sector.md)
    -   [Contabilidade do setor público](../../financials/localizations/emea-fra-public-sector-accounting.md)
    -   [Titres de recette](../../financials/localizations/emea-fra-titres-de-recette-public-sector.md)
    -   [Suspensões de pagamento de fatura de fornecedor](../../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md)
