@@ -1,6 +1,6 @@
 ---
 title: Criar pagamentos de fornecedor usando uma proposta de pagamento
-description: "Este tópico oferece uma visão geral das opções de proposta de pagamento e inclui alguns exemplos que mostram como as propostas de pagamento funcionam. Com frequência, as propostas de pagamento são usadas para criar pagamentos de fornecedor, já que a consulta de proposta de pagamento pode ser usada para selecionar rapidamente as faturas de fornecedor para pagamento com base em critérios como a data de vencimento e o desconto à vista."
+description: "Este tópico oferece uma visão geral das opções de proposta de pagamento e inclui alguns exemplos que mostram como as propostas de pagamento funcionam."
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1199329f7d669a291249e22e393842673a8907c3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Criar pagamentos de fornecedor usando uma proposta de pagamento
+# <a name="create-vendor-payments-by-using-a-payment-proposal"></a>Criar pagamentos de fornecedores usando uma proposta de pagamento
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico oferece uma visão geral das opções de proposta de pagamento e inclui alguns exemplos que mostram como as propostas de pagamento funcionam. Com frequência, as propostas de pagamento são usadas para criar pagamentos de fornecedor, já que a consulta de proposta de pagamento pode ser usada para selecionar rapidamente as faturas de fornecedor para pagamento com base em critérios como a data de vencimento e o desconto à vista. 
 
@@ -47,7 +47,7 @@ A consulta de proposta de pagamento contém diversas guias, cada uma com diferen
 - **Verificar saldo de fornecedor** – se essa opção for definida como **Sim**, o sistema verificará se um fornecedor não possui um saldo de débito antes de qualquer fatura ser paga. Se um fornecedor tiver um saldo de débito, nenhum pagamento será criado. Por exemplo, o fornecedor pode ter notas de crédito, ou pagamentos que foram lançados mas não liquidados. Nesses casos, o fornecedor não deve ser pago. Em vez disso, as notas de crédito ou os pagamentos devem ser liquidados em relação às faturas pendentes.
 - **Excluir pagamentos negativos** – essa opção funciona de forma diferente, dependendo de os pagamentos serem efetuados para as faturas individuais ou para a soma das faturas que atendam aos critérios de pagamento. Esse comportamento é definido no método de pagamento.
 - **Pagamento para cada fatura** – se a opção **Excluir pagamentos negativos** for definida como **Sim**, e se houver uma fatura e um pagamento não liquidados para um fornecedor, apenas a fatura será marcada para pagamento. O pagamento existente não é liquidado com a fatura. Se a opção **Excluir pagamentos negativos** for definida como **Não**, e se uma fatura e um pagamento não estiverem liquidados, a fatura e o pagamento serão selecionados para pagamento. Um pagamento foi criado para o pagamento, e um reembolso (pagamento negativo) foi criado para o pagamento.
-- <strong>Pagamento para a soma de faturas</strong> – se a opção <strong>Excluir pagamentos negativos</strong> for definida como <strong>Sim</strong>, e se houver uma fatura e um pagamento não liquidados para um fornecedor, a fatura e o pagamento não liquidados serão selecionados para pagamento e os valores serão somados para produzir o valor total do pagamento. A única exceção ocorrerá se a soma resultar em um reembolso. Nesse caso, nem a fatura nem o pagamento serão selecionados. Se a opção <strong>Excluir pagamentos negativos** estiver definida como **Não</strong>, e se não houver uma fatura e um pagamento liquidados, a fatura e o pagamento serão selecionados para pagamento e os valores serão somados para produzir o valor total do pagamento.
+- **Pagamento para a soma de faturas** – se a opção **Excluir pagamentos negativos** for definida como **Sim**, e se houver uma fatura e um pagamento não liquidados para um fornecedor, a fatura e o pagamento não liquidados serão selecionados para pagamento e os valores serão somados para produzir o valor total do pagamento. A única exceção ocorrerá se a soma resultar em um reembolso. Nesse caso, nem a fatura nem o pagamento serão selecionados. Se a opção **Excluir pagamentos negativos** for definida como **Não** e se não houver uma fatura e um pagamento liquidados, a fatura e o pagamento serão selecionados para pagamento e os valores serão somados para produzir o valor total do pagamento.
 - **Imprimir apenas o relatório** – defina essa opção como **Sim** para ver os resultados da proposta de pagamento em um relatório, mas sem criar quaisquer pagamentos.
 - **Incluir faturas de fornecedor de outras entidades legais** – se sua organização tiver um processo centralizado para pagamento, e se a proposta de pagamento tiver de incluir faturas de outras entidades legais incluídas nos critérios da pesquisa, defina essa opção como **Sim**.
 - **Propõe o pagamento de fornecedor separados por pessoa jurídica** – se essa opção for definida como **Sim**, um pagamento separado será criado para cada entidade legal por fornecedor. O fornecedor no pagamento é o fornecedor da fatura de cada entidade legal. Se essa opção for definida como **Não**, e se o mesmo fornecedor tiver faturas em várias entidades legais, um pagamento será criado para o valor total das faturas selecionadas. O fornecedor no pagamento é o fornecedor na entidade legal atual. Se a conta do fornecedor não existir na entidade legal atual, será usada a conta do fornecedor da primeira fatura que deve ser paga.
@@ -115,7 +115,8 @@ O controle de dimensão permite que você controle ao agrupar linhas gerados por
 -   O campo **Controle de dimensão** é ativado sem definir ainda mais as dimensões. A proposta de pagamento será criada sem levar em consideração dimensões. A transação não será herdado criada nenhuma dimensão de entrada aplicada.
 -   O campo **Controle de dimensão** é ativado e as dimensões adicionais são habilitadas. Agora você define como as dimensões serão copiadas para o diário. Por exemplo: • marque a caixa de seleção **BusinessUnit** para criar uma proposta de pagamento por unidade de negócios para o método de pagamento, • marque a caixa de seleção **CostCenter** para criar uma proposta de pagamento por centro de custos para o método de pagamento.
 
-**Nota:** Se você selecionar mais de uma dimensão na terceira opção, será criada uma proposta de pagamento para a combinação de dimensões.
+> [[!NOTE]
+> Se você selecionar mais de uma dimensão na terceira opção, será criada uma proposta de pagamento para a combinação de dimensões.
 
 #### <a name="bank-account-selection"></a>Seleção de conta bancária
 

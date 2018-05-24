@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7001158a498aa28028167a0f76ad610ec09b43c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c3726038d9782891988e16cb98cf04cf47b7e66c
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="gantt-chart-for-job-scheduling"></a>Gráfico de Gantt para agendamento de trabalho
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 O gráfico de Gantt foi criado para permitir que os planejadores de produção controlem e otimizem o plano da produção. O gráfico de Gantt torna o fluxo de operações transparente e facilita o ajuste da agenda de produção considerando a escassez de materiais ou de recursos. Com isso, os planejadores podem fazer o melhor uso dos recursos disponíveis, minimizar o trabalho em andamento e otimizar as horas de produtividade de ordens de produção.
 
@@ -156,7 +156,7 @@ O gráfico de Gantt pode ser aberto nas seguintes páginas.
 |           <strong>Trabalho a ser concluído</strong> (Lista no espaço de trabalho <strong>Gerenciamento de piso de produção</strong>)            |                                                                                               O espaço de trabalho <strong>Lista de trabalhos a serem concluídos no Gerenciamento de piso de produção</strong> mostra os trabalhos de ordens de produção e lote que estão em progresso nos recursos selecionados do espeço de trabalho. No item de menu <strong>Gráfico de Gantt</strong>, você pode abrir o gráfico de Gantt, no qual todos os trabalhos selecionados na lista serão carregados no gráfico.                                                                                               |
 | <strong>Ordens de produção a liberar</strong> (Aberta no espaço de trabalho <strong>Gerenciamento de piso de produção</strong>) |                                                                                                                                         A página Ordens de produção a liberar é aberta no espaço de trabalho <strong>Gerenciamento de piso de produção</strong>. Essa página mostra a liberação pendente de ordens de produção e lote agendadas. Nessa página, você pode abrir o gráfico de Gantt das ordens de produção selecionadas.                                                                                                                                          |
 
-## <a name="see-also"></a>Consulte também  
+## <a name="additional-resources"></a>Recursos adicionais  
 [Agendamento visual com gráfico de Gantt para ordens de produção e de lote (Vídeo)](https://youtu.be/BtbuShkGj4I)
 
 [Agendamento visual para produção (script de demonstração)](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)

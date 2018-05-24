@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4252112272e2f86c2c18dc399a713bf652e4228e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6ab1d60839131b3d4bb1782319754ba63d54cfd7
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-collaboration-with-customers"></a>Colaboração de fornecedores com clientes
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve como você pode usar a colaboração do fornecedor para trabalhar com clientes no Microsoft Dynamics 365 for Finance and Operations. Os fornecedores podem concluir uma série de processos de negócios dos espaços de trabalho a seguir:
 
@@ -141,7 +141,7 @@ Como um fornecedor, você poderá acessar parte de informações que o cliente m
 
 As informações acessíveis são o nome do fornecedor, endereço, informações de contato, pessoas de contato e as informações de contato, números de identificação, números de registro de imposto, categorias de compras que o fornecedor foi aprovado para vender ao cliente, e informações sobre certificações.
 
-## <a name="see-also"></a>Consulte também
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Gerenciar usuários de colaboração do fornecedor](manage-vendor-collaboration-users.md)
 

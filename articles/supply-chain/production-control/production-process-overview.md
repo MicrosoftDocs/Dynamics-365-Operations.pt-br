@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
+ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-process-overview"></a>Visão geral do processo de produção
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece uma visão geral dos processos de produção. Ele descreve as várias fases de ordens de produção, de ordens de lotes e de kanbans, desde a criação da ordem até o fechamento do período financeiro. 
 
@@ -78,12 +78,12 @@ As etapas a seguir no ciclo de vida de produção podem ocorrer para todos os ti
 12. **Fechamento do período** – Alguns princípios de contabilização de custos, como a média periódica, custos de fluxo inverso, PEPS ou UEPS, exigem atividades periódicas para fechar o estoque ou o período financeiro. Normalmente, o sistema tenta informar todo consumo de materiais e recursos, e também as correções de estoque e sucata, antes dos períodos serem fechados. Este relatório normalmente é feito usando diários de movimentos de estoque ou diários de ajuste. A meta é avaliar o desempenho econômico de unidades operacionais por período. Em alguns casos, quando são usadas ordens de produção de execução longa que se estendem pelos períodos de relatórios financeiros, os diários de produção são usados para informar o andamento da produção e o consumo de recursos até o fim do período.
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Comentários sobre a produção](production-feedback.md)
+[Comentários da produção](production-feedback.md)
 
-[Modelos de configuração do produto](../pim/product-configuration-models.md)
+[Modelos de configuração de produto](../pim/product-configuration-models.md)
 
 [Lean manufacturing](lean-manufacturing-overview.md)
 

@@ -16,30 +16,28 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7046b687f99df32a3e1410c37c9a30ca285fa08f
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="data-validation-workspace"></a>Espaço de trabalho de validação de dados
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece uma visão geral do **espaço de trabalho Lista de verificação de validação** e da configuração associada.
-
-## <a name="data-validation-checklist-workspace"></a>Espaço de trabalho da lista de verificação de validação de dados
 
 O espaço de trabalho da **Lista de verificação de validação de dados** permite acompanhar processos de validação de dados entre empresas, áreas e pessoas. A lista de verificação pode ser usada durante uma nova implementação, após uma atualização ou após uma migração. Dependendo de sua exibição do espaço de trabalho da **Lista de verificação de validação de dados**, você verá todas as tarefas e status de um projeto de validação de dados, ou apenas as tarefas atribuídas a você.
 
 Primeiro é necessário selecionar um projeto de validação de dados na parte superior do espaço de trabalho. Todos os dados mostrados no espaço de trabalho são, em seguida, filtrados pelo projeto de validação de dados selecionado.
 
-### <a name="summary-tiles"></a>Blocos do resumo
+## <a name="summary-tiles"></a>Blocos do resumo
 
 Os blocos de **Resumo** fornecem uma visão geral do processo e indicadores que o ajudam a manter o processo de validação de dados em andamento. Você pode consultar todas as tarefas restantes, tarefas concluídas, tarefas em andamento e tarefas não iniciadas para o processo. Essas informações são para todas as empresas incluídas no projeto de validação de dados selecionado.
 
-### <a name="tasks-and-status-section"></a>Seção de tarefas e status
+## <a name="tasks-and-status-section"></a>Seção de tarefas e status
 
 Na seção **Tarefas e status**, o status do projeto de validação geral de dados é exibido de várias formas: status por entidade legal, por área e por lista de tarefas. Você pode selecionar o filtro para exibir o status de uma empresa específica. Cada guia de status fornece uma divisão pela porcentagem que foi concluída e número de tarefas restantes.
 
@@ -52,11 +50,11 @@ Você pode anexar arquivos, notas, imagens e URLs a uma tarefa ao usar a ação 
 
 A opção **Concluído por** será preenchida automaticamente depois que a tarefa for concluída com o nome do trabalhador que concluiu a tarefa. Quando uma tarefa é marcada como concluída, o campo **Data de conclusão** é atualizado automaticamente para a data e hora atuais.
 
-### <a name="configure-data-validation-project-page"></a>Configurar página do projeto de validação de dados
+## <a name="configure-data-validation-project-page"></a>Configurar página do projeto de validação de dados
 
 Antes de usar o espaço de trabalho **Lista de verificação de validação de dados**, você deve configurar o processo usando a página **Configurar o projeto de validação de dados**. (Clique em **Espaços de trabalho** \> **Lista de verificação de validação de dados** \> **Configurar o projeto de validação de dados**.)
 
-### <a name="task-areas"></a>Áreas de tarefa
+## <a name="task-areas"></a>Áreas de tarefa
 
 Use áreas de tarefas para agrupar tarefas de validação de dados em áreas lógicas de propriedade na sua organização. Por exemplo, contas a pagar, contas a receber, ou contabilidade podem ser usadas como áreas de tarefa.
 

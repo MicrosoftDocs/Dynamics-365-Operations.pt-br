@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 338e58522f9b9fba3ce22b22488affbab24b1315
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>Criar planos de remuneração variável
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 A remuneração variável compõe o pagamento irregular de um funcionário, como bônus ou prêmios de estoque. Este artigo descreve os componentes que devem ser configurados antes de usar uma remuneração variável e inscrever um funcionário em um plano de remuneração variável.
 
@@ -100,7 +100,7 @@ Você pode usar a guia **Substituições** para substituir os valores específic
 
 **Substituições da organização** são usadas para basear o prêmio de um funcionário no desempenho de um ou vários departamentos. A porcentagem que está alocada entre departamentos deve totalizar 100 por cento. O desempenho individual do funcionário também é considerado. Essas configurações são usadas apenas se o **Pagamento por desempenho** estiver selecionado quando o processo de remuneração é executado.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Planos de remuneração](compensation-plans.md)

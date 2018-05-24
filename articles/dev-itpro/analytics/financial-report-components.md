@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3679ccf304a32385c162ba3663eba2300f028817
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5599135eebfcffdedaaadec86beb214c5c04cbaf
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-report-components"></a>Componentes de relatórios financeiros
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo descreve como os componentes ou blocos de construção de definições de relatório são usados em relatórios financeiros. Esses blocos de construção incluem definições de linha, coluna e definições de árvore de relatórios. O artigo explica como organizar e bloquear blocos de construção. 
 
@@ -110,9 +110,9 @@ Quando você abre um bloco de construção, outros usuários só podem acessar o
 1.  No Designer de Relatórios, no menu **Ferramentas**, clique em **Itens com Check-out**.
 2.  Na caixa de diálogo **Itens de Check-out**, selecione **Mostrar itens de todos os usuários**. A lista é atualizada para exibir todos os blocos de construção com check-out e os usuários que fizeram o check-out.
 3.  Selecione um bloco de construção e clique em **Desfazer Check-out**.
-4.  Clique em **Sim** para efetuar check-in no bloco de construção.
+4.  Clique em **Sim** para fazer check-in do bloco de construção.
 
-## <a name="see-also"></a>Consulte também
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
 

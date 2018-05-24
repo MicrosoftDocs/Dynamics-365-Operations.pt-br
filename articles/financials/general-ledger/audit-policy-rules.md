@@ -19,16 +19,16 @@ ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 04217e162090720d2a48c96aa9356cea2dbfa230
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6bebe9ce83c4b979ffbb7c86ef67ad03a650e0c2
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="audit-policy-rules"></a>Auditar regras da política
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Você pode usar as políticas para avaliar relatórios de despesas, faturas de fornecedor e ordens de compra para garantir que eles estejam em conformidade com as regras de política criadas. Todas as regras associadas a uma política de auditoria são executadas em modo de lotes de acordo com uma agenda especificada.  Cada regra de política é uma instância de um tipo de regra de política. Para cada tipo de regra de política, somente uma regra de política pode ficar ativa de cada vez. 
 
@@ -95,7 +95,7 @@ Todas as regras de política para uma política de auditoria específica compart
 
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Auditar violações de política e casos](audit-policy-violations-cases.md)

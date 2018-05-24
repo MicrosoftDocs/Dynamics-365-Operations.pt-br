@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b16f4ea27f406f3d5d5957670bd32a73d2d55529
-ms.openlocfilehash: bb616f8102c67db3f8c3e872101d61657b6b64d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-mobile-device-display-settings"></a>Configurações de exibição de dispositivo móvel de depósito
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo descreve como configurar a aparência de uma exibição do dispositivo móvel e como controlar teclas de atalho do teclado, como botões. 
 
@@ -97,7 +97,7 @@ Cada subexpressão requer um a dois dígitos para dia e mês, e um a quatro díg
 
 Você pode especificar mais de uma expressão no mesmo arquivo. Cada expressão deve estar em uma linha separada. A primeira expressão correspondente é usada para analisar a data.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Configuração de dispositivos móveis para trabalho de depósito](configure-mobile-devices-warehouse.md)

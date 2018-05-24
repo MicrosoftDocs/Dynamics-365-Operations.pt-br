@@ -20,24 +20,22 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 23683ff3b232d485d0e4386963b3dcf37cd96c6f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>Registrar números de série no processo de venda
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Este tópico explica como você pode registrar números de série em guias de remessa ou em faturas durante o processo de vendas. Essa funcionalidade será útil se uma empresa quiser capturar números de série para fins de serviço e de garantia, e não precisa manter os números de série no estoque do recebimento até a saída.
 
 Muitas empresas desejam apenas capturar números de série para fins de serviço e de garantia, e não precisam manter os números de série no estoque do recebimento até a saída. Nessas situações, o Microsoft Dynamics 365 for Finance and Operations permite que você registre os números de série nas guias de remessa ou nas faturas quando o produto for vendido. Se os produtos forem devolvidos, você poderá rastrear um produto até uma fatura para determinar se vendeu o produto e se as obrigações de serviço ou de garantia estão válidas.
-Existe algum pré-requisito?
-----------------------------
 
 Você deve habilitar números de série para o processo de vendas no grupo de dimensões de rastreamento, selecionando a opção **Ativo no processo de venda** na página **Grupos de dimensões de rastreamento**. Os seguintes eventos ocorrerão no Microsoft Dynamics 365 for Finance and Operations:
 -   Na Guia Rápida **Números de série**, a opção **Controle de números de série** é selecionada. Quando essa opção estiver selecionada, você deverá registrar um número de série para cada item na guia de remessa ou fatura.
@@ -71,8 +69,8 @@ Não, não é possível exibir os itens serializados disponíveis, pois os núme
 
 ## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>Posso registrar números de série para itens de peso variável?
 Não, você não pode registrar números de série para itens de peso variável durante o processo de venda. Além disso, se um produto for configurado como um item de peso variável, você não poderá atribuir o produto a um grupo de dimensões de rastreamento configurado para usar números de série apenas durante o processo de venda.
-Posso registrar números de série no retail POS?
-------------------------------------------------
+
+## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>Posso registrar números de série no retail POS?
 
 Sim, o Retail POS solicitará a inserção de um número de série quando o usuário vender um item que esteja atribuído a um grupo de dimensões de rastreamento configurado para usar números de série apenas durante o processo de venda.
 

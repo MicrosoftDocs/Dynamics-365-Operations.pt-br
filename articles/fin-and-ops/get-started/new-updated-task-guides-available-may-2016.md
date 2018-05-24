@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c301f27504f7f1545608bb214a4f1b4d4cecc47f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 237ff2935ab8e2dee90bd716179b45c5fca455c3
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-may-2016"></a>Guias de tarefas novos ou atualizados (maio de 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo lista os Guias de tarefas novos ou atualizados que foram lançados à Biblioteca Unificada APQC (maio de 2016 - todos idiomas) da Microsoft para Microsoft Dynamics AX. Nenhuma nova biblioteca Introdução foi lançada. 
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Guias de tarefas na (maio de 2016 - todos os idiomas) Biblioteca Unificada APQC para Microsoft Dynamics AX
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guias de tarefas na (maio de 2016 - todos os idiomas) Biblioteca Unificada APQC para Microsoft Dynamics AX
 ------------------------------------------------------------------------------------------------
 
 A (maio de 2016) Biblioteca Unificada APQC contém os Guias de tarefas que devem ser usados para obter ajuda com a atualização de maio de 2016 do Microsoft Dynamics AX e com a versão de fevereiro de 2016 do Microsoft Dynamics AX Versões localizadas dos Guias de tarefas que foram lançados na (fevereiro de 2016) Biblioteca Unificada APQC estão disponíveis nessa biblioteca. Para obter mais informações sobre como conectar o sistema de ajuda à uma biblioteca de Guia de tarefas, consulte [Introdução à Ajuda](help-overview.md). <strong>Observação:</strong> Um asterisco (<strong>\</strong>*) ao lado do título de uma linha de Modelador de processos de negócios (BPM) indica que o guia de tarefas para esse processo de negócios foi criado para a atualização de maio de 2016 do Dynamics AX e não possui suporte em versões anteriores do Microsoft Dynamics AX.
@@ -186,7 +186,7 @@ A (maio de 2016) Biblioteca Unificada APQC contém os Guias de tarefas que devem
 |                  Configurar restrições de transporte para um item                   |     Global     |
 |                <strong>\</strong>*Configurar políticas de trabalho de depósito                 |     Global     |
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Novos guias de tarefas (fevereiro de 2016)](new-task-guides-available-february-2016.md)

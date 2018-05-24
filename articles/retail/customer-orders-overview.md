@@ -20,16 +20,16 @@ ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ce6774ede836eb29e6ef2cd8d4baa9efb931020c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f46cf7d4df4a8cb0ad1846882292965aa492239b
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="customer-orders-overview"></a>Visão geral de ordens de cliente
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tópico fornece informações sobre ordens de cliente no Retail Modern POS (MPOS). Ordens de cliente também são conhecidas como ordens especiais O tópico inclui uma discussão sobre parâmetros relacionados e fluxos de transação.
 
@@ -95,10 +95,10 @@ Ordens de cliente podem ser criadas do cliente do ponto de venda (PDV) em modo s
 
 Quando a opção **Criar ordem do cliente no modo assíncrono** for definida como **Sim**, as ordens de cliente sempre serão criadas em modo assíncrono, mesmo se o Retail Transaction Service (RTS) estiver disponível. Se você definir essa opção como **Não**, as ordens de cliente sempre serão criadas em modo síncrono por meio de RTS. Quando ordens de cliente são criadas em modo assíncrono, elas são retiradas e inseridas no Retail por trabalhos de pull (P). As ordens de venda correspondentes são criadas no Retail quando **Sincronizar ordens** é executado manualmente ou por meio de um processo de lote.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Ordens de cliente híbrido](hybrid-customer-orders.md)
+[Ordens híbridas de cliente](hybrid-customer-orders.md)
 
 
 

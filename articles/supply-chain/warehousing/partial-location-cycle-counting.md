@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0e0f9d81f4d5943a89d8ac87776e05acb32cb8d9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 643d9a07681beeffe90f39e5a0dc5ed9ad71b097
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="partial-location-cycle-counting"></a>Contagem cíclica parcial do local
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Os planos de contagem cíclica guiam as operações reais de contagem. Você pode solicitar que somente produtos e grades de produtos específicos sejam contados em vez de todo o estoque disponível no local.
 
@@ -57,7 +57,7 @@ Por exemplo, somente o item número A0001 deve ser contado no depósito 61.
 
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Contagem cíclica](cycle-counting.md)

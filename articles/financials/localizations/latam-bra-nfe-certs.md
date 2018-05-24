@@ -17,16 +17,16 @@ ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 295880b9dba7957b17148fcf0d0d2d809dba3f8a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 21e2ec6e1bed2f6e490666bf8132696fedb2c795
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nf-e-certificates"></a>Certificados de NF-e
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Na localização brasileira, você deve gerar uma Nota Fiscal eletrônica (NF-e) para registrar a movimentação de itens e serviços entre duas partes.
 A nota fiscal de NF-e deve ser assinada e transmitida à autoridade fiscal do estado usando um certificado de cliente que é emitido por uma autoridade de certificação (CA) brasileira.
@@ -47,7 +47,7 @@ O governo brasileiro atualizou a autoridade de certificação (CA) raiz usada pa
 
 Certificados brasileiros devem ser instalados por meio do Azure Key Vault. O Key Vault permite armazenar chaves de criptografia, certificados e segredos (como chaves de autenticação, chaves da conta de armazenamento, chaves de criptografia de dados, arquivos .pxf e senhas) usando chaves protegidas por módulos de segurança de hardware (HSMs).
 
-Para obter mais informações sobre como usar chaves e segredos com o Key Vault, consulte [Sobre chaves, segredos e certificados](https://docs.microsoft.com/en-us/rest/api/keyvault/about-keys--secrets-and-certificates).
+Para obter mais informações sobre como usar chaves e segredos com o Key Vault, consulte [Sobre chaves, segredos e certificados](https://docs.microsoft.com/rest/api/keyvault/about-keys--secrets-and-certificates).
 A tabela a seguir lista todas as autoridades fiscais e a solução que você deve usar para instalar certificados para elas no Finance and Operations.
 
 |Autoridade fiscal| Estados| Solução|

@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1db68ea5728cc417f0e70675d9074d5b054883da
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="price-simulation"></a>Simulação de preço
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre a simulação de preço para cotações. A simulação de preço ajuda a avaliar o efeito de deduções no preço de venda futuro durante o processo de cotação, para que você confirme a um preço específico.
 
@@ -36,7 +36,7 @@ Uma simulação de preço para uma cotação mostra um novo valor total, com bas
 
 Uma simulação de preço não altera o preço da cotação. Se a simulação de preço for aplicada a uma cotação inteira, ela será tratada como um desconto especial no cabeçalho da cotação. Se a simulação de preço for aplicada a itens específicos, ela será tratada como um desconto especial nas linhas de cotação. O preço de venda unitário em uma linha de cotação criada não é alterado quando uma simulação de preço é aplicada. Em vez disso, um percentual de desconto correspondente à redução de preço da linha da cotação é aplicado. Quando uma simulação de preço é aplicada, o preço de venda unitário e o percentual de desconto são transferidos para a linha ou para o cabeçalho da cotação.  
 
-**Observação:** Ao executar uma simulação de preço, somente a moeda de venda atual é usada para criar a simulação. Entretanto, ao exibir os totais da cotação, você verá uma combinação da moeda da empresa e da moeda de venda.  
+>[Observação!] Ao executar uma simulação de preço, somente a moeda de venda atual é usada para criar a simulação. Entretanto, ao exibir os totais da cotação, você verá uma combinação da moeda da empresa e da moeda de venda.  
 
 Os itens complementares que são adicionados às linhas de cotação podem desencadear descontos de linha e descontos combinados. Eles também podem desencadear descontos totais que modificam as margens e os índices de contribuição das linhas de cotação e de desconto total.  
 

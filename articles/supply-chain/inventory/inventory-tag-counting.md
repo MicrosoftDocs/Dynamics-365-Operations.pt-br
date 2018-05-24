@@ -19,24 +19,24 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0687058bc76c3ed0dad57b76d54ad57c00987f42
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1b1281c41e3427148cdbd7bd874f3408056e3df1
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-tag-counting"></a>Contagem de etiqueta de estoque
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Este artigo fornece informações sobre a contagem de etiquetas, que pode ser usado para comparar o conteúdo real de um depósito com o estoque disponível.
 
 Ao criar linhas na página **Contagem de etiquetas**, você coloca um número de etiqueta em cada item de estoque, como um número de 1 a 500. Durante a contagem, você digita o número e a quantidade do item na respectiva etiqueta. Esta etiqueta pode ser usada como base para entrada no diário de contagem de etiquetas. Após você lançar o diário de contagem de etiquetas, um novo diário de contagem é criado na página **Contagem**. O novo diário se baseia nas linhas do diário de contagem de etiquetas que você criou. Para contar as etiquetas de itens por uma dimensão de estoque específica, selecione a dimensão na página **Dimensão de exibição** exibida quando você cria o diário de contagem de etiquetas. Por exemplo, para contar itens em um depósito específico, marque a caixa de seleção **Depósito**. Se o controle deslizante **Bloquear itens durante a contagem** na página **Parâmetros de gerenciamento de depósito e estoque** estiver selecionado, os itens não poderão ser atualizados fisicamente durante a contagem. No entanto, os itens em diários de contagem de etiquetas não são bloqueados durante a contagem. As transações de estoque não são criadas até que as linhas de contagem sejam lançadas e transferidas para um diário de contagem. Se as etiquetas forem inseridas aleatoriamente e você quiser identificar etiquetas ausentes, clique no cabeçalho da coluna **Etiqueta** para classificar as linhas por etiqueta.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Contagem cíclica](../warehousing/cycle-counting.md)

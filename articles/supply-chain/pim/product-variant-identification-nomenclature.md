@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 6a620f2a0105d578d419d3aac816c7d78fbf3e46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3baf1d7313d8ff03ae5ece035b6f3641c0f1d707
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>Nomenclatura de números e de nomes de grade de produto
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve como você pode configurar uma nomenclatura de número de produto para substituir o formato fixo [Número do produto mestre - Configuração - Tamanho - Cor - Estilo]. A nova nomenclatura tem um formato de destino que inclui o número do produto mestre, as dimensões ativas do produto e os delimitadores de texto de sua escolha. Você também pode criar uma nomenclatura para os nomes de produto. Por fim, você pode criar uma nomenclatura para identificar configurações criadas pelo configurador de produto baseado em restrições. Essas nomenclaturas podem conter os atributos de sua preferência.
 
@@ -192,10 +192,10 @@ Dependendo da nomenclatura, o sistema poderá tentar atribuir um número de grad
 
 Durante uma etapa do processo de configuração, o sistema sugere um valor de configuração de acordo com a nomenclatura. Nessa etapa, você alterará manualmente o valor da configuração. Quando você salva a configuração, o sistema verifica se o valor da configuração é exclusivo. Se o valor inserido não for exclusivo, você receberá uma mensagem de erro. Para salvar a configuração, insira um valor de configuração exclusivo.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Criar uma nomenclatura de número de produto para grades de produto predefinidas](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
+[Criar uma nomenclatura de produtos de grades de produto predefinidas](tasks/create-product-number-nomenclature-predefined-variants-2016-11.md)
 
 [Criar uma nomenclatura de número de produto para grades de produto configuradas](tasks/create-product-number-nomenclature-product-variants_2016_11.md)
 

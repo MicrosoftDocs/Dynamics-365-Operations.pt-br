@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: be69aff98b1a3a8304461af0f38760988ac28d42
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 53c51ec1be145c72ff5090666399ac4ea113e5df
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Novidades ou alterações na versão 1611 do Dynamics 365 for Operations (novembro de 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve os recursos novos ou alterados na versão 1611 do Dynamics 365 for Operations.
 
@@ -48,7 +48,7 @@ Este tópico descreve os recursos novos ou alterados na versão 1611 do Dynamics
 <tbody>
 <tr class="odd">
 <td>Definir dimensões de elemento de custo e importar membros de dimensões de elemento de custo.</td>
-<td>Elementos de custo são usados na contabilização de custos para categorizar custos e documentar o fluxo de custos. Os elementos de custo primários são importados por meio de um conector de dados do Microsoft Dynamics 365 for Operations para obtenção de contas principais diretamente do Operations ou por meio de um conector de dados genérico, no qual as contas primárias são obtidas via Microsoft Excel de qualquer tipo de sistema de origem. Após as contas principais serem importadas na contabilização de custos, elas são usadas como membros de dimensões de elementos de custo. Os elementos de custo secundários são definidos pelo usuário e usados em alocações para documentar o fluxo de custos.</td>
+<td>Elementos de custo são usados na contabilização de custos para categorizar custos e documentar o fluxo de custos. Os elementos de custo primários são importados por meio de um conector de dados do Microsoft Dynamics 365 for Operations para obtenção de contas principais diretamente do Operations ou por meio de um conector de dados genérico, no qual as contas primárias são obtidas via Microsoft Excel de qualquer tipo de sistema de origem. Após as contas principais serem importadas na contabilização de custos, elas são usadas como membros de dimensões de elementos de custo. Os elementos de custo secunDiários são definidos pelo usuário e usados em alocações para documentar o fluxo de custos.</td>
 </tr>
 <tr class="even">
 <td>Mapear dimensões de elementos de custo.</td>
@@ -854,10 +854,10 @@ Atualmente, o Retail Modern POS está disponível apenas como um aplicativo do W
 
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Novidades e alterações](whats-new-changed.md)
+[Novidades ou alterações](whats-new-changed.md)
 
 
 

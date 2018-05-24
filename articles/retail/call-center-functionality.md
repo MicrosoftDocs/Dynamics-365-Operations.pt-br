@@ -3,7 +3,7 @@ title: Funcionalidade do call center
 description: "Este tópico fornece uma visão geral da funcionalidade de vendas do call center no Microsoft Dynamics 365 for Retail."
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 04/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,35 +20,43 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: 75dc09ffc84ef8ec48f50ea410974c99aabc212e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e85b65e116b32adca09e46252d7d3bbe5101e1cf
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="call-center-functionality"></a>Funcionalidade do call center
+# <a name="call-center"></a>Call center 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-Este artigo fornece uma visão geral da funcionalidade de vendas do call center no Microsoft Dynamics 365 for Retail.
+No In Dynamics 365 for Retail, um call center é um tipo de canal de Varejo que pode ser definido no aplicativo. Definir um canal específico das entidades de call center permite que o sistema una padrões de dados específicos e padrões de processamento de ordem para ordens de vendas criadas por um usuário do canal do call center.
 
-O Dynamics 365 for Retail também oferece suporte a call centers como um tipo de canal de varejo. Em um call center, os trabalhadores recebem ordens de clientes pelo telefone e criam ordens de venda. A funcionalidade do call center inclui recursos criados para facilitar a obtenção de ordens por telefone e controlar o atendimento ao cliente durante todo o processo de preenchimento da ordem. Por exemplo, os trabalhadores do call center podem inserir informações de pagamento diretamente na ordem de venda, bem como podem exibir um resumo detalhado de encargos e pagamentos antes de enviar a ordem. Os trabalhadores têm opções para controlar a definição de preços e podem acessar vários dados sobre clientes, produtos e preços na página **Ordem de venda**. Além disso, os call centers aprimoraram a funcionalidade para controlar o histórico do cliente e o status da ordem. Cada call center pode ter seus próprios usuários, métodos de pagamento, grupos de preços, dimensões financeiras e modos de entrega. Você pode configurar essas opções ao criar o call center. Você também pode usar a página **Call center** para habilitar ou desabilitar os seguintes grupos de recursos exclusivos de call centers:
+Os recursos de call center incluem preço de varejo avançado e promoções, catálogos, cartões-presente, programas de lealdade e cupons. Ordens de call center são aproveitadas também por uma aplicação de ponto de venda (PDV) para oferecer suporte a cenários de preenchimento de ordem entre canal.
 
--   **Conclusão da ordem** – Este grupo inclui recursos relativos a pagamentos e conclusão de ordens na página **Ordem de venda**.
--   **Venda direta** – Este grupo inclui recursos relativos aos códigos fonte, scripts e solicitações de catálogo.
+É importante observar que quando o módulo de call center pode ser utilizado por outras indústrias fora de varejo, a versão atual do aplicativo de call center do Dynamics 365 for Retail foi otimizada para uso em cenários interempresariais (B2B) de processamento de ordens, ou cenários onde ordens têm uma grande quantidade de linhas de venda. Recomenda-se que os usuários que desejam utilizar os recursos do call center para processamento de ordem fora de um processamento de transação direto ao consumidor típico, levem o tempo adequado para testar e validar essa funcionalidade de call center para estar compatível com as necessidades funcional e de desempenho.
 
-Após você habilitar esses recursos nas configurações do call center, eles são disponibilizados na página **Ordem de venda** para usuários associados ao call center. A maioria desses recursos exige configuração adicional antes que eles possam ser usados. Para que os usuários possam criar ordens do call center, você deve adicionar esses usuários ao call center como usuários do call center. Esta etapa habilita a configuração e a funcionalidade específicas de canal do call center. Veja alguns exemplos da funcionalidade que é disponibilizada:
+Além da criação da ordem de atendimento, o módulo de call center também fornece um aplicativo de serviço ao cliente amigável que facilita para que os usuários encontrem contas de cliente e examina todos os dados relacionados e atributos da ordem de cliente. A tela de serviço do cliente é projetada para habilitar um usuário a acessar rapidamente os dados da ordem relacionada que permitirão que eles respondam às questões relacionadas a ordem mais comuns recebidas dos clientes.
 
--   A venda guiada fornece opções de configuração para que scripts de televendas e imagens de produtos ajudem e orientem os auxiliares de vendas quando receberem ordens.
--   As ordens só podem ser concluídas quando os auxiliares de vendas capturam pelo menos um método de pagamento.
--   Regras de venda adicional e de venda cruzada podem ser configuradas para solicitar auxiliares de vendas que promovam produtos específicos para o cliente.
--   Os auxiliares de vendas podem capturar o código de origem para o catálogo no qual um cliente faz pedidos.
--   Os auxiliares de vendas podem adicionar cupons de um varejista à ordem.
--   Os auxiliares de vendas podem vender programas de continuidade.
--   As ordens podem ser colocadas em espera, manual ou automaticamente, para indicar que a investigação adicional é necessária antes de a ordem ser processada.
+Essa página fornece links para a documentação relevante antes da instalação, a configuração, e o uso de recursos funcional de call center no Dynamics 365 for Retail.
 
+## <a name="configure-the-call-center"></a>Configurar o call center
+[Configurar opções de processamento de ordens](set-up-order-processing-options.md)
 
+## <a name="configure-order-processing"></a>Configurar processamento de ordem
+[Configurar alertas de fraude](set-up-fraud-alerts.md)
+[Pendência de ordem manual](work-with-order-holds.md)
 
+## <a name="configure-payment-processing"></a>Configurar processamento de pagamento
+[Métodos de pagamento em um call center](work-with-payments.md)
+
+## <a name="configure-direct-marketing"></a>Configurar marketing direto
+[Catálogos do call center](call-center-catalogs.md)
+
+[Configurar análise RFM](set-up-rfm-analysis.md)
+
+## <a name="configure-continuity-programs"></a>Configurar programas de continuidade
+[Configurar um programa de continuidade para um call center](set-up-continuity-program.md)
 
 

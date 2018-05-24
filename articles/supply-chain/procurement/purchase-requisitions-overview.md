@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5d379b034c996cb0eff20a44960ba1e2701af81a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-requisition-overview"></a>Visualização geral da requisição de compra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve o fluxo de trabalho de requisição de compra e os diferentes status que uma requisição de compra pode ter.
 
@@ -192,7 +192,7 @@ Para consolidar linhas de requisição de compra aprovadas, siga estas etapas:
 5.  Crie ordens de compra para as linhas de requisição consolidadas ou para linhas de requisição de compra em uma oportunidade de consolidação.
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Criar uma requisição para consumo (Guia de tarefas)](tasks/create-requisition-consumption.md)

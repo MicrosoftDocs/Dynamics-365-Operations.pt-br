@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f3891688542ac6d4f9afce026808c65992a592d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2642ced283d815ad671512cc5a17e531e9169f91
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="use-tracing-for-explosion"></a>Use o rastreamento para detalhamento
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo explica como você pode usar o rastreamento para explorar as causas além do resultado de um detalhamento das ordens.
 
@@ -42,10 +42,10 @@ Ao habilitar o rastreamento, você pode exibir informações sobre os fatores qu
 
 Você pode exibir detalhes sobre futuros e ações para uma ordem selecionada. Na página **Detalhamento**, as informações de rastreamento estão disponíveis na guia **Explicação** no painel superior. O rastreamento ocorre quando você detalha uma ordem. Para iniciar o rastreamento da ordem planejada, clique em **Atualizar** e e marque a caixa de seleção **Habilitar rastreamento**. Você pode usar o campo **Localizar texto** para pesquisar o log de informações específicas. Os resultados de pesquisa são realçados na árvore.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Planejamentos mestres](master-plans.md)
+[Planos mestres](master-plans.md)
 
 
 

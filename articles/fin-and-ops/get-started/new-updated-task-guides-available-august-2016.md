@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 838dc40fb3fa2b0de7fa131850754c3674266d73
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c7fc274bb9d942e85012211b1a7a14873447e5f3
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-august-2016"></a>Guias de tarefas novos ou atualizados (agosto de 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico lista os Guias de tarefas novos ou atualizados que foram lançados à Biblioteca Unificada APQC (agosto de 2016 - todos idiomas) Microsoft para Microsoft Dynamics AX. Nenhuma nova biblioteca Introdução foi lançada.
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Guias de tarefas na (agosto de 2016 - todos os idiomas) Biblioteca Unificada APQC para Microsoft Dynamics AX
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guias de tarefas na (agosto de 2016 - todos os idiomas) Biblioteca Unificada APQC para Microsoft Dynamics AX
 ---------------------------------------------------------------------------------------------------
 
 A (agosto de 2016 - todos idiomas) Biblioteca Unificada APQC contém os Guias de tarefas que devem ser usados para obter ajuda com a atualização 2 (agosto de 2016) da plataforma do Microsoft Dynamics AX e de maio de 2016 da plataforma do Microsoft Dynamics AX e com a atualização de aplicativo, e versão de fevereiro de 2016 do Microsoft Dynamics AX February. Para mais informações sobre essas versões, consulte [Novidades ou alterações](whats-new-changed.md). Versões localizadas nas guias de tarefas estão disponíveis nesta biblioteca. Para obter mais informações sobre como conectar o sistema de ajuda à uma biblioteca de Guia de tarefas, consulte [Introdução à Ajuda](help-overview.md).
@@ -97,7 +97,7 @@ A (agosto de 2016 - todos idiomas) Biblioteca Unificada APQC contém os Guias de
 
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Novos guias de tarefas (fevereiro de 2016)](new-task-guides-available-february-2016.md)

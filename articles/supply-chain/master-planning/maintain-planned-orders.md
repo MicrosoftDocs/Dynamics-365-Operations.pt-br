@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8931908fbf643a8154da70d2ad065ea47d2aa4e6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3d7afda9371b4d21e58f2e56de3d477b1c9950a1
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="maintain-planned-orders"></a>Manter ordens planejadas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo oferece informações sobre como gerenciar ordens planejadas. Descreve como é possível atualizar o status de ordens planejadas, confirmá-las e filtrar ordens planejadas com o mesmo status como uma ordem planejada selecionada.
 
@@ -47,10 +47,10 @@ Você pode gerenciar ordens planejados no espaço de trabalho **Planejamento mes
 
 Ao ser confirmada, uma ordem planejada é movida para a seção de ordens do módulo relevante. **Observação:** você pode clicar com o botão direito do mouse em uma ordem planejada que tenha um determinado status e filtrar outras ordens planejadas com o mesmo status. Essa funcionalidade será útil se, por exemplo, você quiser filtrar todas as ordens planejadas cujo status seja **Aprovado**, para que possa então confirmá-las.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Planejamentos mestres](master-plans.md)
+[Planos mestres](master-plans.md)
 
 
 

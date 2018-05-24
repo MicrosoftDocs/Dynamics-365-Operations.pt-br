@@ -20,16 +20,16 @@ ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 4026fa937ddf88f006cdcd13a8eda10c326ada62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 95e7f5179ac88c0cd6b2336a914c2c527d37d57f
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="routes-and-operations"></a>Roteiros e operações
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre roteiros e operações. Um roteiro define o processo para produção de um produto ou grade de produto. Ele descreve cada estágio (operação) no processo de produção e a ordem em que essas etapas devem ser executadas. Para cada etapa, o roteiro também define os recursos de operações necessários, os tempos de configuração e execução necessários, e como o custo deve ser calculado.
 
@@ -230,12 +230,12 @@ Se você não especificar um recurso de operações ou um grupo de recursos como
 -   **Lote de recursos** – Essa opção é basicamente a mesma opção que **Lote**. No entanto, o cálculo inclui o campo **Capacidade de lote** do recurso de operações. Portanto, o tempo depende do recurso.
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Lista de materiais e fórmulas](bill-of-material-bom.md)
+[Listas de materiais e fórmulas](bill-of-material-bom.md)
 
-[Categorias de custo utilizadas no roteiro de produção](../cost-management/cost-categories-used-production-routings.md)
+[Categorias de custo usadas no roteiro de produção](../cost-management/cost-categories-used-production-routings.md)
 
 [Capacidades de recurso](resource-capabilities.md)
 

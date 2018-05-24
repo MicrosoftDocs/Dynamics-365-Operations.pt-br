@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e2125b3616310196b2c5ede0ddcaab24856ddc34
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d4da2ed8d61ffae3a4a4dc24793d82de22e86e59
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-returns"></a>Devoluções de vendas
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre o processo para ordens de devolução. Ele Inclui informações sobre devoluções do cliente e o seu efeito na avaliação de custo e nas quantidades de estoque disponíveis.
 
@@ -88,7 +88,7 @@ Após concluir o cabeçalho de devolução, você pode criar linhas de devoluç�
 -   Inserir manualmente os detalhes do item, a quantidade, e outras informações para cada linha de devolução.
 -   Criar uma linha de devolução usando a função **Encontrar ordem de venda**. Recomenda-se usar esta função ao criar uma ordem de devolução. A função **Encontrar ordem de venda** estabelece uma referência a partir da linha de devolução para a linha faturada da ordem de venda, e recupera detalhes da linha como número do item, quantidade, preço, desconto e valores de custo, a partir da linha de venda. A referência ajuda a garantir que, quando um produto for devolvido à empresa, ele será avaliado com o mesmo custo unitário com o qual foi vendido. A referência também verifica se ordens de devolução não serão criadas para quantidades que excedam a quantidade vendida na fatura.
 
-**Observação:** Linhas de devolução que possuem uma referência a uma ordem de venda são tratadas como correções, ou inversões, da venda. Para obter mais informações, consulte a seção "Lançar no livro razão", posteriormente neste tópico.
+>[Observação!] Linhas de devolução que possuem uma referência a uma ordem de venda são tratadas como correções, ou inversões, da venda. Para obter mais informações, consulte a seção "Lançar no livro razão", posteriormente neste tópico.
 
 ### <a name="charges"></a>Encargos
 
@@ -193,15 +193,26 @@ Durante o processo de entrada, devoluções são integradas ao processo geral de
 
 ### <a name="identify-products-in-the-arrival-overview-list"></a>Identificar produtos na lista de Resumo de entradas.
 
-A página **Resumo de entradas** lista todas as próximas chegadas planejadas. **Observação:** Entradas de ordens de devolução devem ser processadas separadamente em relação a outros tipos de transações de entrada. Após identificar uma encomenda na página **Resumo de entradas** (por exemplo, utilizando o documento ADM acompanhante), no Painel de Ação, clique em **Iniciar entrada** para criar e inicializar um Diário de entrada que corresponda com a entrada.
+A página **Resumo de entradas** lista todas as próximas chegadas planejadas. 
+>[Observação!] Entradas de ordens de devolução devem ser processadas separadamente em relação a outros tipos de transações de entrada. Após identificar uma encomenda na página **Resumo de entradas** (por exemplo, utilizando o documento ADM acompanhante), no Painel de Ação, clique em **Iniciar entrada** para criar e inicializar um Diário de entrada que corresponda com a entrada.
 
 ### <a name="edit-the-arrival-journal"></a>Editar o Diário de entrada
 
-Ao definir a opção **Gerenciamento de quarentena** como **Sim**, você pode criar uma ordem de quarentena para a linha de devolução. Se uma linha foi enviada para quarentena para inspeção, não é possível especificar um código de disposição. **Observação:** Se você definir a opção **Gerenciamento de quarentena** como **Sim** no grupo de modelo de estoque do item, a opção **Gerenciamento de quarentena** na página **Linhas do diário** será marcada para a linha do Diário de entradas e não poderá ser alterada. Se a linha é enviada para quarentena, você deve especificar o depósito de quarentena apropriado. Se a linha de entrada não for enviada para inspeção, o auxiliar de entrada do depósito deve especificar o código de disposição diretamente na linha do Diário de entrada e depois publicar o diário. Se o mesmo código de disposição não deve ser atribuído a toda a quantidade da linha de devolução, ou se a quantidade total da linha não foi recebida, você deve dividir a linha. Ao dividir uma linha do Diário de entrada, você também divide a linha de devolução (**SalesLine**) e cria uma nova ID de lote. Você pode dividir a linha reduzindo a quantidade da linha do Diário de entrada. Quando o diário é publicado, uma nova linha de devolução é criada com o status **Esperado** para a quantidade restante. Você também pode dividir a linha clicando em **Funções** &gt; **Dividir**.
+Ao definir a opção **Gerenciamento de quarentena** como **Sim**, você pode criar uma ordem de quarentena para a linha de devolução. Se uma linha foi enviada para quarentena para inspeção, não é possível especificar um código de disposição. 
+ 
+Se você definir a opção **Gerenciamento de quarentena** como **Sim** no grupo de modelo de estoque do item, a opção **Gerenciamento de quarentena** na página **Linhas do diário** será marcada para a linha do Diário de entradas e não poderá ser alterada. Se a linha é enviada para quarentena, você deve especificar o depósito de quarentena apropriado. 
+
+Se a linha de entrada não for enviada para inspeção, o auxiliar de entrada do depósito deve especificar o código de disposição diretamente na linha do Diário de entrada e depois publicar o diário. Se o mesmo código de disposição não deve ser atribuído a toda a quantidade da linha de devolução, ou se a quantidade total da linha não foi recebida, você deve dividir a linha. Ao dividir uma linha do Diário de entrada, você também divide a linha de devolução (**SalesLine**) e cria uma nova ID de lote. Você pode dividir a linha reduzindo a quantidade da linha do Diário de entrada. Quando o diário é publicado, uma nova linha de devolução é criada com o status **Esperado** para a quantidade restante. Você também pode dividir a linha clicando em **Funções** &gt; **Dividir**.
 
 ### <a name="process-the-quarantine-order"></a>Processar a ordem de quarentena
 
-Se os produtos devolvidos são enviados para inspeção no depósito de quarentena, qualquer processamento adicional é concluído na ordem de quarentena. Uma ordem de quarentena é criada para cada linha de entrada que é enviada para quarentena. O código de disposição indica o resultado do processo de inspeção. Você pode dividir uma ordem de quarentena, do mesmo jeito que pode dividir o Diário de entrada. Se você dividir a ordem de quarentena, você irá causar uma divisão correspondente na linha de devolução. Depois que o código de disposição foi inserido, complete a ordem de quarentena usando a função **Terminar** ou a função **Relatar como concluído**. Se você selecionar **Relatar como concluído**, uma nova entrada é criada no depósito designado. Você pode então processar essa entrada utilizando a página **Resumo de entradas**. Se a entrada se origina de uma ordem de quarentena, você não poderá alterar o código de disposição atribuído durante a inspeção. Se você completar a ordem de quarentena usando a função **Terminar**, o lote é registrado automaticamente. Ocasionalmente, um item pode ser enviado da quarentena de volta para o departamento de Envio e recebimento. Por exemplo, o inspetor da quarentena pode não saber onde armazenar o item no estoque. Nesse caso, a guia de remessa correspondente deve ser atualizada para registrar e agir corretamente sobre o código de disposição especificado devido à quarentena. A notificação de recebimento pode ser enviada ao cliente quando a linha de devolução for registrada. O relatório **Notificação de devolução** é parecido com o documento da ordem de devolução. O relatório **Notificação de devolução** não é lançado ao diário, ou registrado no sistema, além de não ser uma etapa necessária no processo de ordem de devolução.
+Se os produtos devolvidos são enviados para inspeção no depósito de quarentena, qualquer processamento adicional é concluído na ordem de quarentena. Uma ordem de quarentena é criada para cada linha de entrada que é enviada para quarentena. O código de disposição indica o resultado do processo de inspeção. 
+
+Você pode dividir uma ordem de quarentena, do mesmo jeito que pode dividir o Diário de entrada. Se você dividir a ordem de quarentena, você irá causar uma divisão correspondente na linha de devolução. Depois que o código de disposição foi inserido, complete a ordem de quarentena usando a função **Terminar** ou a função **Relatar como concluído**. Se você selecionar **Relatar como concluído**, uma nova entrada é criada no depósito designado. Você pode então processar essa entrada utilizando a página **Resumo de entradas**. 
+
+Se a entrada se origina de uma ordem de quarentena, você não poderá alterar o código de disposição atribuído durante a inspeção. Se você completar a ordem de quarentena usando a função **Terminar**, o lote é registrado automaticamente. Ocasionalmente, um item pode ser enviado da quarentena de volta para o departamento de Envio e recebimento. Por exemplo, o inspetor da quarentena pode não saber onde armazenar o item no estoque. Nesse caso, a guia de remessa correspondente deve ser atualizada para registrar e agir corretamente sobre o código de disposição especificado devido à quarentena. 
+
+A notificação de recebimento pode ser enviada ao cliente quando a linha de devolução for registrada. O relatório **Notificação de devolução** é parecido com o documento da ordem de devolução. O relatório **Notificação de devolução** não é lançado ao diário, ou registrado no sistema, além de não ser uma etapa necessária no processo de ordem de devolução.
 
 ## <a name="replace-a-product"></a>Substituir um produto
 Existem dois métodos para gerenciar a substituição de produtos:
@@ -223,7 +234,9 @@ Se você enviar um item de substituição para o cliente, e utilizar a ação de
 
 ![Processo de substituição quando um código de disposição é utilizado](./media/SalesReturn05.png)
 
-O item substituto será entregue usando uma ordem de venda independente, a ordem de venda de substituição. Essa ordem de venda é criada quando a guia de remessa para a ordem de devolução é gerada. O cabeçalho da ordem usa informações do cliente referenciadas no cabeçalho da ordem de devolução. As informações da linha são coletadas das informações inseridas na página **Item de substituição**. A página **Item de substituição** deve ser preenchida para linhas que possuem ações de disposição iniciadas pela palavra "substituir". No entanto, nem a quantidade nem a identidade do item de substituição é validada ou limitada. Esse comportamento permite casos em que o cliente deseja o mesmo item mas com uma configuração ou um tamanho diferente, além de casos em que os clientes desejam um item completamente diferente. Por padrão, um item idêntico é inserido na página **Item de substituição**. No entanto, você pode selecionar um item diferente, desde que a função tenha sido configurada. **Observação:** Você pode editar e excluir a ordem de venda de substituição após sua criação.
+O item substituto será entregue usando uma ordem de venda independente, a ordem de venda de substituição. Essa ordem de venda é criada quando a guia de remessa para a ordem de devolução é gerada. O cabeçalho da ordem usa informações do cliente referenciadas no cabeçalho da ordem de devolução. As informações da linha são coletadas das informações inseridas na página **Item de substituição**. A página **Item de substituição** deve ser preenchida para linhas que possuem ações de disposição iniciadas pela palavra "substituir". No entanto, nem a quantidade nem a identidade do item de substituição é validada ou limitada. Esse comportamento permite casos em que o cliente deseja o mesmo item mas com uma configuração ou um tamanho diferente, além de casos em que os clientes desejam um item completamente diferente. Por padrão, um item idêntico é inserido na página **Item de substituição**. No entanto, você pode selecionar um item diferente, desde que a função tenha sido configurada. 
+
+>[Observação!] Você pode editar e excluir a ordem de venda de substituição após sua criação.
 
 ## <a name="generate-a-packing-slip"></a>Gerar uma guia de remessa
 Antes que os itens devolvidos possam ser recebidos no estoque, você deve atualizar a guia de remessa para a ordem a qual os itens pertencem. Assim como o processo de atualização da fatura é a atualização da transação financeira, o processo de atualização da guia de remessa é a atualização física do registro do estoque. Em outras palavras, esse processo confirma as alterações do estoque. No caso de devoluções, as etapas atribuídas à ação de disposição são implementadas durante a atualização da guia de remessa. Ao gerar a guia de remessa, os seguintes eventos ocorrem:
@@ -233,14 +246,19 @@ Antes que os itens devolvidos possam ser recebidos no estoque, você deve atuali
 -   Os itens que foram marcados com a ação de disposição **Devolver ao cliente** são recebidos e enviados ao cliente. Esses itens não afetam o estoque de maneira líquida.
 -   Uma ordem de venda de substituição é criada. Essa ordem de venda é baseada em informações da página **Item de substituição**.
 
-Você pode gerar a guia de remessa apenas para linhas com o status de devolução **Registrada**, e apenas para a quantidade total da linha de devolução. Se várias linhas da ordem de devolução possuem o status **Registrada**, você pode gerar a guia de remessa para um subconjunto de linhas, excluindo as outras linhas pela página **Lançar guia de remessa**. As devoluções parciais são definidas em termos das linhas da ordem de devolução, e não em termos dos envios da ordem de devolução. Portanto, se você receber a quantidade total indicada em uma linha da ordem de devolução, mas não receber nada das outras linhas, a entrega não é considerada uma entrega parcial. No entanto, se uma linha da ordem de devolução determina que 10 unidades de um item sejam devolvidos, mas você recebe apenas quatro unidades, a entrega é considerada uma entrega parcial. Se nem todos os itens de devolução esperados foram recebidos, você pode deixar a remessa de lado e esperar pela chegada da quantidade devolvida restante. Alternativamente, você pode registrar e lançar a quantidade parcial. Como parte do processo de lançamento das guias de remessa, é possível associar o número de referência da guia de remessa a partir dos documentos de envio do cliente com as linhas da ordem. Essa associação é opcional e serve somente como referência. Ela não cria nenhuma atualização transacional. Em geral, você pode pular o processo de guia de remessa e ir direto para o faturamento. Nesse caso, as etapas que você executaria durante a geração da guia de remessa são realizadas durante o faturamento.
+Você pode gerar a guia de remessa apenas para linhas com o status de devolução **Registrada**, e apenas para a quantidade total da linha de devolução. Se várias linhas da ordem de devolução possuem o status **Registrada**, você pode gerar a guia de remessa para um subconjunto de linhas, excluindo as outras linhas pela página **Lançar guia de remessa**. 
+
+As devoluções parciais são definidas em termos das linhas da ordem de devolução, e não em termos dos envios da ordem de devolução. Portanto, se você receber a quantidade total indicada em uma linha da ordem de devolução, mas não receber nada das outras linhas, a entrega não é considerada uma entrega parcial. No entanto, se uma linha da ordem de devolução determina que 10 unidades de um item sejam devolvidos, mas você recebe apenas quatro unidades, a entrega é considerada uma entrega parcial. Se nem todos os itens de devolução esperados foram recebidos, você pode deixar a remessa de lado e esperar pela chegada da quantidade devolvida restante. Alternativamente, você pode registrar e lançar a quantidade parcial. Como parte do processo de lançamento das guias de remessa, é possível associar o número de referência da guia de remessa a partir dos documentos de envio do cliente com as linhas da ordem. Essa associação é opcional e serve somente como referência. Ela não cria nenhuma atualização transacional. 
+
+Em geral, você pode pular o processo de guia de remessa e ir direto para o faturamento. Nesse caso, as etapas que você executaria durante a geração da guia de remessa são realizadas durante o faturamento.
 
 ## <a name="generate-an-invoice"></a>Gerar uma fatura
 Embora a página **Ordem de devolução** contenha as informações e ações necessárias para tratar os aspectos logísticos especiais da ordem de devolução, você deve usar a página **Ordem de venda** para concluir o processo de faturamento. Sua organização poderá então faturar ordens de devolução e de venda ao mesmo tempo, e a mesma pessoa pode concluir o processo de faturamento, como solicitado. Para visualizar a ordem de devolução na página **Ordem de venda**, clique no link do número da ordem de venda para abrir a ordem de venda associada. Você também pode encontrar a ordem de devolução na página **Todas as ordens de venda**. Ordens de devolução são ordens de venda que possuem o tipo de ordem **Ordem devolvida**.
 
 ### <a name="credit-correction"></a>Correção de crédito
 
-Como parte do processo de faturamento, verifique se todos os encargos diversos estão corretos. Para fazer com que os lançamentos no livro razão se tornem correções (Storno), considere usar a opção **Correção de crédito** na aba **Outros** da página **Lançar fatura** quando lançar a nota de crédito/fatura. **Observação:** Por padrão, a opção **Correção de crédito** é ativada se a opção **Nota de crédito como correção** na página **Parâmetros de contas a receber** foi habilitada. No entanto, recomendamos que você não lance devoluções com o Storno.
+Como parte do processo de faturamento, verifique se todos os encargos diversos estão corretos. Para fazer com que os lançamentos no livro razão se tornem correções (Storno), considere usar a opção **Correção de crédito** na aba **Outros** da página **Lançar fatura** quando lançar a nota de crédito/fatura. 
+>[Observação!] Por padrão, a opção **Correção de crédito** é ativada se a opção **Nota de crédito como correção** na página **Parâmetros de contas a receber** foi habilitada. No entanto, recomendamos que você não lance devoluções com o Storno.
 
 ## <a name="create-intercompany-return-orders"></a>Criar ordens de devolução intercompanhia
 Ordens de devolução podem ser concluídas entre duas empresas dentro da organização. Os seguintes cenários são suportados:
@@ -294,7 +312,7 @@ A ordem de devolução não faz referência a uma fatura de cliente. O item devo
 
 ![Ordem de devolução não faz referência a uma fatura de cliente](./media/SalesReturn09.png)  
 
-**Observação:** O preço mestre do item é usado como valor padrão para o parâmetro **Preço de custo da devolução**. O preço padrão difere do preço de custo no momento da saída de estoque. Portanto, a implicação é que uma perda de 3 foi sofrida. Além disso, a ordem de devolução não inclui o desconto dado ao cliente na ordem de compra. Portanto, ocorre um crédito em excesso.
+>[Observação!] O preço mestre do item é usado como valor padrão para o parâmetro **Preço de custo da devolução**. O preço padrão difere do preço de custo no momento da saída de estoque. Portanto, a implicação é que uma perda de 3 foi sofrida. Além disso, a ordem de devolução não inclui o desconto dado ao cliente na ordem de compra. Portanto, ocorre um crédito em excesso.
 
 ### <a name="example-2-credit-correction-is-selected-for-the-return-order"></a>Exemplo 2: Correção de crédito está selecionada para a ordem de devolução
 
@@ -302,7 +320,7 @@ O exemplo 2 é igual ao exemplo 1, mas o parâmetro **Correção de crédito** �
 
 ![Ordem de devolução em que a correção de crédito está selecionada ](./media/SalesReturn10.png)  
 
-**Observação:** Os lançamentos no livro razão são inseridos como correções negativas.
+>[Observação!] Os lançamentos no livro razão são inseridos como correções negativas.
 
 ### <a name="example-3-the-return-order-line-is-created-by-using-the-find-sales-order-function"></a>Exemplo 3: A linha da ordem de devolução é criada utilizando a função Encontrar ordem de venda
 
@@ -310,7 +328,7 @@ Nesse exemplo, a linha da ordem de devolução é criada utilizando a função *
 
 ![Linha da ordem de devolução criada utilizando Encontrar ordem de venda ](./media/SalesReturn11.png)  
 
-**Observação:** **Desconto** e **Preço de custo da devolução** estão definidos corretamente. Portanto, ocorre uma inversão exata da fatura de cliente.
+>[Observação!] **Desconto** e **Preço de custo da devolução** estão definidos corretamente. Portanto, ocorre uma inversão exata da fatura de cliente.
 
 
 

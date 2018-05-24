@@ -20,16 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 81dec9d988b22959df5421b7b84ef532a28e1228
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 660d6b2dfb5fbed58a5c28b77aac3bb4604c7d8d
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="operations-scheduling"></a>Plano de operações
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre agendamento de operações. Você pode usar o plano de operações para fornecer uma estimativa geral do processo de produção ao longo do tempo.
 
@@ -75,7 +75,7 @@ Quando você executa o agendamento de operações, você pode cancelar algumas p
 ## <a name="finite-materials"></a>material finito
 Se você estiver trabalhando com material finitos, o agendamento também depende da disponibilidade dos materiais necessários para a produção. se os componentes disponíveis não são suficientes para a produção, a produção pode ser atrasada. Você pode usar o agendamento em uso de materiais especificando o material que devem estar disponíveis para a produção. Quando você otimiza na capacidade do recurso e da disponibilidade de materiais, a produção será calculada de acordo com essas restrições. Uma ordem de produção não pode ser programadas para iniciar até a capacidade e o material está disponível ao mesmo tempo e as quantidades necessárias.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Opções de agendamento de operação](operation-scheduling-options.md)

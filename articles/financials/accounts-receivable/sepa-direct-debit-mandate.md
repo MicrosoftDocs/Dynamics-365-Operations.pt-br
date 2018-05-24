@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5b9afeb24692010ca5de33156f372d86f167161e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 242d6d3d517ad5190b96ace36bd585a5769ae994
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-sepa-direct-debit-mandate"></a>Configurar carta de ordem de débito direto SEPA
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Um débito direto de SEPA (Área Única de Pagamentos em Euros) permite que um credor colete fundos da conta bancária de um cliente, desde que um mandato assinado tenha sido concedido pelo cliente ao credor. O cliente assina um mandato que autoriza o credor a cobrar um pagamento e a instruir o banco do cliente para pagar a cobrança. Este tópico está organizado para mostrar o processo de criação de mandatos de débito direto da SEPA.
 
@@ -49,7 +49,7 @@ A tabela a seguir mostra os pré-requisitos que devem estar funcionando antes de
 -   Opcional: se você espera que cada um de seus clientes tenha vários mandatos, no campo **Período**, selecione **Fatura**. Um pagamento separado será criado para cada fatura e cada pagamento usará o mandato especificado para a fatura.
 -   Selecione a opção **Exigir mandato** para criar pagamentos usando mandatos de débito direto. A opção **Exigir mandato** só estará disponível se você selecionar **Pagamento eletrônico** no campo **Tipo de pagamento**.
 
-Consulte também
+Recursos adicionais
 
 [Visão geral do débito direto](sepa-direct-debit-overview.md) 
 

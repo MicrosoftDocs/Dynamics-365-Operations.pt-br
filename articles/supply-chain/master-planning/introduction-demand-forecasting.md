@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 6a0455c5d86f953e270501a7f1648f7700f717d0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 20eb67a341f462328bc73907fb3052b3405190d4
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-overview"></a>Visão geral da previsão de demanda
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 A previsão de demanda é usada para prever a demanda independente nas ordens de venda e a demanda dependente em qualquer ponto de dissociação das ordens dos clientes. As regras aprimoradas de redução de previsão de demanda oferecem uma solução ideal para a personalização em massa.
 
@@ -72,7 +72,7 @@ Você pode usar o Finance and Operations para visualizar e modificar as previsõ
 ## <a name="limitations"></a>Limitações
 A previsão de demanda no Finance and Operations é uma ferramenta que ajuda os clientes do setor de manufatura a criar processos de previsão. Ela oferece a funcionalidade principal de uma solução de previsão de demanda e é criada de modo que possa ser facilmente estendida. A previsão de demanda pode não ser o melhor ajuste para clientes de setores como varejo, atacado, armazenamento, transporte ou outros serviços profissionais.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Configuração da previsão de demanda](demand-forecasting-setup.md)

@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 974edd06460df4afe594b0a033a042b8c2763f7f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-setup"></a>Configuração da previsão de demanda
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve as tarefas de configuração que devem ser executadas para preparar a previsão de demanda.  
 
@@ -78,7 +78,7 @@ Para criar previsões de demanda, você pode implantar seu próprio serviço usa
 ## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>Configurações do serviço de aprendizado de máquina da previsão de demanda do Finance and Operations
 Para exibir os parâmetros que podem ser configurados para o serviço de previsão de demanda do Finance and Operations, vá para **Planejamento Mestre** &gt; **Configuração** &gt; **Previsão de demanda** &gt; **Parâmetros do algoritmo de previsão**. A pagina **Parâmetros do algoritmo de previsão** mostra os valores padrão dos parâmetros. Você pode substituir os parâmetros na página **Parâmetros de previsão de demanda**. Use a guia **Geral** para substituir os parâmetros globalmente ou use a guia **Chaves de alocação de itens** para substituir os parâmetros por chave de alocação de item. Os parâmetros que são substituídos em uma chave de alocação de item afetam apenas a previsão dos itens associados a essa chave de alocação de item.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Introdução à previsão de demanda](introduction-demand-forecasting.md)

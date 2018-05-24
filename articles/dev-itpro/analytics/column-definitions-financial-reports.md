@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 88570a8dc9da6f6a2b4d3a9499e1ea406f681451
-ms.openlocfilehash: 4608f43a3db9308881d4737e49df949190e3ede2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18ae41c3c1b19edc2d56a7e3480890c8aea28054
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/14/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="column-definitions-in-financial-reports"></a>Definições de coluna nos relatórios financeiros
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre definições de coluna. Uma definição de coluna é um componente de relatório, ou um bloco de construção, que define o conteúdo das colunas em um relatório. Assim como as definições de linha, as definições básicas de coluna podem ser usadas em vários relatórios.
 
@@ -583,7 +583,7 @@ Você pode criar uma coluna que exibe todos os valores em uma coluna especificad
 
 Você pode dividir o valor em uma coluna por um número especificado de períodos. Por exemplo, **B/Períodos** divide o valor na coluna B pelo número de períodos na coluna B. Se o cálculo abranger várias colunas, especifique o número de períodos que serão usados no cálculo. Por exemplo, a fórmula **(B+C)/Períodos** adiciona os valores na coluna B e coluna C e depois divide o resultado pelo valor do período.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Definições de linha no relatório financeiro](row-definitions-financial-reporting.md)

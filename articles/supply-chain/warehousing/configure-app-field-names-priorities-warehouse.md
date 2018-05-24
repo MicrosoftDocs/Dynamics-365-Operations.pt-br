@@ -20,16 +20,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2fbf9d84fa0fec32004936542003115cf580d91c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d029481d31a0064a193e2cb9eeaf79df28bfa159
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-app-field-names-in-warehousing-app"></a>Configurar nomes de campo de aplicativo no aplicativo de depósito
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve como definir e configurar os nomes e prioridades de campo do aplicativo de depósito no Finance and Operations. 
 
@@ -140,7 +140,7 @@ Com base na prioridade de campo do aplicativo de depósito configurada na tabela
 
 Os metadados restantes, como Local, não serão exibidos na página de tarefas, mas o serão em uma página de detalhes. Para saber mais e ver exemplos da interface do usuário, consulte a postagem do blog [Anúncio do Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/).
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Instalação e configuração do Microsoft Dynamics 365 for Finance and Operations – Warehousing](install-configure-warehousing-app.md)

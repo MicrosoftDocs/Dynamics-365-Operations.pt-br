@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ddb035eaa496a7c84f117f0523d509eccdf58505
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9da40e90982d9d4aca38890ed121782f4236712d
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cycle-counting"></a>Contagem cíclica
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo descreve como você pode usar a contagem cíclica com a solução de armazenamento disponível no Gerenciamento de depósito. Este artigo não se aplica à solução de armazenamento disponível no Gerenciamento de estoque.
 
@@ -136,7 +136,7 @@ Uma diferença de contagem cíclica ocorrerá nos cenários a seguir se a opçã
 
 Você pode ajustar as diferenças no valor contado e aceitar o valor contado na página **Revisão de contagem de ciclo pendente** na página. Você pode verificar a contagem modificada da quantidade do item na página **Disponível por local**. O valor contado será rejeitado se a diferença não puder ser aprovada.
 
-## <a name="see-also"></a>Consulte também
+## <a name="additional-resources"></a>Recursos adicionais
 [Configurar dispositivos móveis para trabalho de depósito](configure-mobile-devices-warehouse.md)
 
 

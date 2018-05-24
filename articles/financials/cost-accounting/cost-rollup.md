@@ -1,6 +1,6 @@
 ---
 title: "Política de acúmulo de custos e cálculo de custos indiretos"
-description: "Este tópico fornece informações sobre como determinar o nível correto de elementos de custo secundários e criar regras de acúmulo de custo que se ajustem no relatório da organização e na rastreabilidade de custo."
+description: "Este tópico fornece informações sobre como determinar o nível correto de elementos de custo secunDiários e criar regras de acúmulo de custo que se ajustem no relatório da organização e na rastreabilidade de custo."
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 044a943eeba91f5dbebd4dcd70bc8152c4109037
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Política de acúmulo de custos e cálculo de custos indiretos 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 A contabilização de custos permite obter informações sobre como o fluxo de custo se relaciona os produtos e serviços fornecidos em uma organização. Para ver a transparência de custo, é importante obter a alocação de custo entre objetos de custo de acordo com uma base adequada à alocação. Por padrão, a alocação de custo é obtida para o elemento de custo previsto principal, que é desejado em algumas situações, mas há algumas implicações que devem ser consideradas.
 
@@ -39,7 +39,7 @@ A contabilização de custos permite obter informações sobre como o fluxo de c
 
 -   Não é possível rastrear o fluxo de custo entre objetos de custo.
 
-Para evitar estas implicações, a contabilização de custos permite configurar a alocação de custo para ajustar-se nos requisitos de geração de relatórios gerenciais da organização. Este tópico discute como você pode determinar o nível correto de elementos de custo secundários e criar regras de acúmulo de custo que se ajustem no relatório da organização e na rastreabilidade de custo.
+Para evitar estas implicações, a contabilização de custos permite configurar a alocação de custo para ajustar-se nos requisitos de geração de relatórios gerenciais da organização. Este tópico discute como você pode determinar o nível correto de elementos de custo secunDiários e criar regras de acúmulo de custo que se ajustem no relatório da organização e na rastreabilidade de custo.
 
 > [!NOTE]
 > Você pode alterar as configurações, se os requisitos de relatórios forem alterados.
@@ -291,13 +291,13 @@ Se o mesmo exemplo tinha sido executado sem criar a **Política de acúmulo de c
 |&nbsp;&nbsp;&nbsp;&nbsp; SC-CC004                             | 0,00            | 0,00      | 0,00          | 0,00          | 0,00          |
 | **Total**                   | **0,00**        | **0,00**  | **31.082,75** | **15.717,25** | **46.800,00** |
 
-Dependendo dos requisitos de relatório e rastreabilidade de sua organização, você pode determinar o nível correto de elementos de custo secundários e criar regras de acúmulo de custo, de acordo com suas necessidades.
+Dependendo dos requisitos de relatório e rastreabilidade de sua organização, você pode determinar o nível correto de elementos de custo secunDiários e criar regras de acúmulo de custo, de acordo com suas necessidades.
 
 A separação clara entre **Alocação de custo** e **Políticas de acúmulo de custo** fornece a flexibilidade para fazer atualizações contínuas sem se afetarem.
 
 
 
-## <a name="see-also"></a>Consulte também
+## <a name="additional-resources"></a>Recursos adicionais
 -  [Dimensões de objeto de custo](cost-objects.md)
 -  [Dimensões do elemento de custo](cost-elements.md)
 -  [Hierarquias de dimensões](dimension-hierarchy.md)

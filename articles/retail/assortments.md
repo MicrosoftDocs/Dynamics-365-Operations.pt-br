@@ -3,27 +3,28 @@ title: "Gerenciamento de classificação"
 description: "Este tópico explica os conceitos básicos do gerenciamento de classificação no Microsoft Dynamics 365 for Retail e fornece considerações de implementação para o projeto."
 author: jblucher
 manager: AnnBe
-ms.date: 3/12/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.translationtype: HT
-ms.sourcegitcommit: 44b0c4e39ac7410d27ce531c898bb8c423af334a
-ms.openlocfilehash: 303f86d6a57e039cb51700744697949845239b10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="assortment-management"></a>Gerenciamento de classificação
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>Visão Geral
 O Microsoft Dynamics 365 for Retail fornece *classificações* que permitem gerenciar a disponibilidade de produtos nos canais. As classificações determinam quais produtos estão disponíveis em lojas específicas e durante um período específico.
@@ -35,25 +36,25 @@ A combinação geral de produtos de um canal é determinada pelas classificaçõ
 ### <a name="basic-assortment-setup"></a>Configuração de classificação básica
 No exemplo a seguir, uma classificação exclusiva é configurada para cada loja. Neste caso, somente o produto 1 está disponível na loja 1, e somente o produto 2 está disponível na loja 2.
 
-![Cada produto está disponível em uma loja](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure1.png?raw=true "Cada produto está disponível em uma loja")
+![Cada produto está disponível em uma loja](./media/Managing-assortments-figure1.png)
 
 Para disponibilizar o produto 2 na loja 1, você pode adicioná-lo à classificação 1.
 
-![Produto 2 adicionado à classificação 1](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure2.png?raw=true "Produto 2 adicionado à classificação 1")
+![Produto 2 adicionado à classificação 1](./media/Managing-assortments-figure2.png)
 
 Como alternativa, você pode adicionar a loja 1 à classificação 2.
 
-![Loja 1 adicionada à classificação 2](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure3.png?raw=true "Loja 1 adicionada à classificação 2")
+![Loja 1 adicionada à classificação 2](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>Hierarquias da organização
-Nas situações em que vários canais compartilham as mesmas classificações de produtos, você pode configurar as classificações usando a Hierarquia da organização de classificação de varejo. Quando os nós dessa hierarquia forem adicionados, todos os canais desse nó e seus nós secundários serão incluídos.
+Nas situações em que vários canais compartilham as mesmas classificações de produtos, você pode configurar as classificações usando a Hierarquia da organização de classificação de varejo. Quando os nós dessa hierarquia forem adicionados, todos os canais desse nó e seus nós secunDiários serão incluídos.
 
-![Hierarquia da organização](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure4.png?raw=true "Hierarquia da organização")
+![Hierarquia da organização](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>Categorias de produtos
-Da mesma forma, no lado do produto, você pode incluir grupos de produtos usando hierarquias de categoria de produto. Você pode configurar classificações incluindo um ou mais nós da hierarquia de categoria. Nesse caso, a classificação incluirá todos os produtos nesse nó de categoria e seus nós secundários.
+Da mesma forma, no lado do produto, você pode incluir grupos de produtos usando hierarquias de categoria de produto. Você pode configurar classificações incluindo um ou mais nós da hierarquia de categoria. Nesse caso, a classificação incluirá todos os produtos nesse nó de categoria e seus nós secunDiários.
 
-![Categorias de produtos](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure5.png?raw=true "Categorias de produtos")
+![Categorias de produtos](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>Categorias ou produtos excluídos
 Além de incluir produtos e categorias em classificações, você pode usar a opção Excluir para definir categorias ou produtos específicos que devem ser excluídos das classificações. No exemplo a seguir, você deseja incluir todos os produtos em uma categoria específica, exceto o produto 2. Nesse caso, você não precisa definir a classificação produto por produto ou criar nós de categoria adicionais. Em vez disso, você poderá apenas incluir a categoria, mas excluir o produto.
@@ -61,7 +62,7 @@ Além de incluir produtos e categorias em classificações, você pode usar a op
 > [!NOTE]
 > Se um produto for incluído e excluído em uma ou mais classificações por definição, ele sempre será considerado excluído.
 
-![Produto excluído](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure6.png?raw=true "Produto excluído")
+![Produtos excluídos](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>Produtos globais e liberados
 As classificações são definidas em nível global e podem conter canais de várias entidades legais. Os produtos e as categorias incluídos em classificações também são compartilhados entre entidades legais. No entanto, um produto deve ser liberado antes que possa ser efetivamente vendido, encomendado, contado ou recebido no canal (por exemplo, no ponto de venda \[PDV\]). Portanto, embora duas lojas em entidades legais diferentes possam compartilhar uma classificação que contenha os mesmos produtos, os produtos ficam disponíveis somente se tiverem sido liberados para essas entidades legais.

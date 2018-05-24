@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>Designer de fórmulas no Relatório eletrônico
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico explica como usar o designer de fórmulas no ER (Relatório Eletrônico). Ao criar um formato para um documento eletrônico específico em ER, você pode usar fórmulas para transformar dados, de forma que ele atenda aos requisitos da realização e formatação desse documento. Essas fórmulas assemelham-se às fórmulas do Microsoft Excel. Vários tipos de funções são suportados nas fórmulas: texto, data e hora, matemática, lógica, informações, conversão de tipo de dados e outras (funções específicas de domínio comercial).
 
@@ -647,7 +647,7 @@ O sinalizador imprimir nome da moeda e os parâmetros de pontos decimais são an
 
 ER deixa você estender a lista de funções que são usadas em expressões ER. Isso exige alguns esforços de engenharia. Para informações detalhadas, consulte [Estender a lista de funções do relatório eletrônico](general-electronic-reporting-formulas-list-extension.md).
 
-## <a name="see-also"></a>Consulte também
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral do Relatório Eletrônico](general-electronic-reporting.md)
 

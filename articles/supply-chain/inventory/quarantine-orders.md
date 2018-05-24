@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 515f14e72137f7299093cc6e75cb8e6eec2893fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9a05c35d2e4a9e3ad81421eac863d182e8a6b499
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quarantine-orders"></a>Ordens de quarentena
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve como as ordens de quarentena são usadas para bloquear o estoque.
 
@@ -64,7 +64,7 @@ Quando uma ordem de quarentena é finalizada, o item é movido do depósito de q
 ## <a name="quarantine-order-scrap"></a>Sucata da ordem de quarentena
 Como parte do processo da ordem de quarentena, você pode sucatear o estoque. Ao processar a sucata, o status do estoque será definido como **Vendido** por uma transação de saída no depósito de quarentena.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Bloqueio de estoque](inventory-blocking.md)

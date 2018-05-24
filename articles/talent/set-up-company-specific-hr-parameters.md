@@ -19,16 +19,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e19c0eb8f28f16ba827d5218a96ee21c976aacb7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e195f9976465a933ceaaeb0bd2cbec4f814bc5f8
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-company-specific-hr-parameters"></a>Configurar parâmetros de RH específicos da empresa
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 As configurações de alguns parâmetros de Recursos humanos (RH) são compartilhadas entre empresas, enquanto as configurações de outros parâmetros são específicas. Este artigo explica como configurar parâmetros de RH específicos da empresa.
 
@@ -57,7 +57,7 @@ As configurações na guia **FMLA** definem quantas horas um funcionário deve t
 
 **Observação:** o número de horas que será trabalhado não pode exceder 1.250 e o tempo de emprego não pode exceder 12 meses. Esses valores máximos estão de acordo com a legislação federal dos Estados Unidos. Por fim, as configurações na guia **Autoatendimento para funcionários** determinam as informações que um gerente pode inserir em nome dos funcionários.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Configurar parâmetros de RH entre entidades legais](set-up-hr-parameters-across-legal-entities.md)

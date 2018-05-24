@@ -19,16 +19,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 02daa312d74311432c0c468e3e691637dcf94157
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e7975003620d951717c66144c8d0521de0f69158
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="import-historical-data-for-demand-forecasts"></a>Importar dados históricos para previsões de demanda
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Para ajudar a garantir a precisão das previsões de demanda, será necessário ter todos os dados históricos de demanda possíveis que possam ser obtidos por item ou por chave de alocação de item. Se os dados históricos de demanda ainda não tiverem sido importados, use entidade de dados **Demanda histórica externa** (ReqDemPlanHistoricalExternalDemandEntity) no Microsoft Dynamics 365 for Finance and Operations para importá-los.
 
@@ -57,7 +57,7 @@ Você pode usar o arquivo a seguir como um exemplo. Baixe [HistoricalDemandData]
 
 Depois de importar os dados históricos de demanda, você poderá gerar uma previsão de demanda.
 
-## <a name="see-also"></a>Consulte também
+## <a name="additional-resources"></a>Recursos adicionais
 
-[Gerar uma previsão estatística de linha de base](generate-statistical-baseline-forecast.md)
+[Gerar uma previsão estatística](generate-statistical-baseline-forecast.md)
 

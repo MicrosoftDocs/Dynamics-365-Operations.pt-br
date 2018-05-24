@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fc7194e7f95a6a99587a6f7e8ab8a30957bbbd90
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d5c3e02bf5bc17db7232ccbb56e4dfbc062795b4
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="questionnaires"></a>Questionários
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tópico fornece informações gerais sobre questionários e leva a informações mais detalhadas. Um questionário é um conjunto de perguntas que é usado para coletar informações para diversas finalidades. Você pode projetar, criar, distribuir e preencher questionários e, em seguida, analisar os resultados. 
 
@@ -50,7 +50,7 @@ A tabela a seguir fornece links para informações sobre as tarefas do question�
 
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Projetar questionários](design-questionnaires.md)

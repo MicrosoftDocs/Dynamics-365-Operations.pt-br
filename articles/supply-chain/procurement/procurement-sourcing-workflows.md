@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 75daeed0d0e979165d3669e83e98cf278d7fb736
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="procurement-and-sourcing-workflows"></a>Fluxos de trabalho de compras
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Algumas organizações exigem que as requisições de compra e as ordens de compra sejam aprovadas por um usuário diferente daquele que iniciou a transação. Para configurar um processo de aprovação, você pode criar um fluxo de trabalho.
 
@@ -68,7 +68,7 @@ Você pode atribuir uma etapa de aprovação aos grupos de participantes a segui
 
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Definir fluxos de trabalho de processos de negócios para requisições de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)

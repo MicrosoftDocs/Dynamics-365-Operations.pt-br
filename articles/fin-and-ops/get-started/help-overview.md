@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="help-system-overview"></a>Visão geral do sistema de Ajuda
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations. Também explica como você pode fornecer a documentação personalizada e treinamento a sua organização. 
 
@@ -60,7 +60,7 @@ O site docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operatio
 
 -   **Acesso ao conteúdo mais atualizado**– O site fornece uma maneira mais rápida e flexível para criar, entregar e atualizar a documentação do produto. Portanto, ajuda a garantir que você tenha acesso às informações técnicas mais recentes.
 -   **Conteúdo escrito por especialistas**– O site fornece um conjunto rico de documentação do produto que pode ser aprimorado por membros da comunidade tanto de dentro quanto de fora da Microsoft.
--   **Acesso aos diferentes tipos de conteúdo** – O site permite acessar rapidamente diferentes tipos de conteúdo sobre o Finance and Operations, como apresentações em Microsoft Office Mix, guias de tarefas, vídeos e tópicos.
+-   **Acesso aos diferentes tipos de conteúdo** – O site permite acessar rapidamente diferentes tipos de conteúdo sobre o Finance and Operations, como guias de tarefas, vídeos e tópicos.
 -   **Conteúdo que oferece suporte aos seus processos comerciais**– O site inclui conteúdo focado em processo comercial que se aproveita do Modelador de Processo de Negócios (BPM) no Microsoft Dynamics Lifecycle Services (LCS).
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Pesquisa em docs.microsoft.com
@@ -204,7 +204,7 @@ A tabela a seguir lista nossos sites. Nossos sites de conteúdo são organizados
 
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 [Sistema de ajuda do Finance and Operations (planilha de fatos baixável)](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
 

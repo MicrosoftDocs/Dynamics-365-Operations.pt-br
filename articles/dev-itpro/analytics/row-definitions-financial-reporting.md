@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4fbcc83123ce11a8f9208226a67a01e43b255bab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ea1386bc06c0e91a2d1f23dd05794ca6ff99106a
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="row-definitions-in-financial-report-designer"></a>Definições de linha no designer de relatório financeiro
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Uma definição de linha é um componente de relatório ou bloco de construção que especifica o conteúdo de cada linha em um relatório financeiro. Uma definição de linha pode ser combinada com as definições de coluna, definições de árvore de relatórios e as definições de relatório para criar um grupo do bloco de construção que possa ser usado por várias empresas.
 
@@ -172,7 +172,7 @@ Para facilitar a exibição das colunas em que estiver trabalhando na definiçã
 2.  Clique com o botão direito do mouse na coluna minimizada a ser exibida. Clique em **Reexibir**.
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Relatórios financeiros](financial-reporting-intro.md)
