@@ -19,16 +19,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ba9c828efc39d45a78500d30295e5d1d6c770c99
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 77f475b0937672af268d6da938d5b2a1c9f6448b
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-peripherals-overview"></a>Visão geral de periféricos do varejo
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tópico explica os conceitos relacionados aos periféricos de varejo. Descreve as várias formas que os periféricos podem ser conectados ao ponto de venda (PDV) e os componentes responsáveis por gerenciar a conexão com o PDV.
 
@@ -786,7 +786,7 @@ Os periféricos a seguir foram estados usando uma estação de hardware IIS comp
     -   Terminal de pagamento
 
     Se o periférico não pertencer a uma dessas categorias, a estação de hardware não será designada para permitir que o periférico seja compartilhado entre vários dispositivos PDV.
--   Às vezes, os drivers de dispositivo pode fazer com que objetos comuns de controle (CCOs) parem de funcionar corretamente. Se um dispositivo tiver sido instalado recentemente, mas não estiver funcionando corretamente ou você notar outros problemas, normalmente é possível resolver o problema reinstalando os CCOs. Para baixar os CCOs, visite <http://monroecs.com/oposccos_current.htm>.
+-   Às vezes, os drivers de dispositivo pode fazer com que objetos comuns de controle (CCOs) parem de funcionar corretamente. Se um dispositivo tiver sido instalado recentemente, mas não estiver funcionando corretamente ou você notar outros problemas, normalmente é possível resolver o problema reinstalando os CCOs. Para baixar os CCOs, acesse <http://monroecs.com/oposccos_current.htm>.
 -   Se você fizer alterações periféricas frequentes durante os testes ou solução de problemas, você pode ter de redefinir o IIS em vez de esperar cache atualizar-se. Para redefinir o IIS, siga estas etapas:
     1.  No menu **Iniciar**, digite **CMD**.
     2.  Em resultados de pesquisa, clique com o botão direito em **Prompt de comando** e, em seguida, clique em **Executar como administrador**.
@@ -801,10 +801,10 @@ Os periféricos a seguir foram estados usando uma estação de hardware IIS comp
     6.  Depois que os hosts de DLL tiverem sido fechados, reinicie o PDV moderno.
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Simulador dos periféricos de varejo](dev-itpro/retail-peripheral-simulator.md)
+[Simulador de periférico de varejo](dev-itpro/retail-peripheral-simulator.md)
 
 
 

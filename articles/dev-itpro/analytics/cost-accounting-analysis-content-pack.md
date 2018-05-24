@@ -18,16 +18,16 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 2d0fb4de84838f1778625d977bdd2ceeaac61f8c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-accounting-analysis-power-bi-content"></a>Conteúdo do Power BI Análise de contabilização de custos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI **Análise de contabilização de custos**. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
 
@@ -44,12 +44,14 @@ Para saber mais sobre contabilização de custos, consulte [Pagina inicial de co
 Definindo a segurança de nível de acesso em Contabilização de custos e combinando-a com a segurança de nível de linha no Power BI, você pode conceder a todos os proprietários de objetos de custo acesso ao conteúdo do Power BI **Análise de contabilização de custos**. Todos os dados nas visualizações serão então filtrados no nível de acesso que é controlado em Contabilização de custos. Para saber mais sobre a segurança de nível de acesso e linha, consulte [Definição de segurança do conteúdo Contabilização de custos para o Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-Você pode encontrar o conteúdo do Power BI **Análise de contabilização de custos** na biblioteca de ativos compartilhados em Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). Para ver uma demonstração que mostra como implementar o conteúdo do Power BI, veja o Office Mix [Conteúdo do Power BI da Microsoft e seus parceiros no Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w).
+Você pode encontrar o conteúdo do Power BI **Análise de contabilização de custos** na biblioteca de ativos compartilhados em Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). 
+
+<!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
 Certifique-se de baixar o conteúdo de **Análise de contabilidade de custo** que se aplica à versão do Microsoft Dynamics 365 que você está usando.
 
 > [!NOTE]
-> KB 4011327 é um pré-requisito para esse conteúdo do Power BI. Depois de iniciar sessão no LCS, você pode acessar o KB aqui em <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
+> KB 4011327 é um pré-requisito para esse conteúdo do Power BI. Depois de entrar no LCS, você pode acessar o KB aqui em <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>.
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
 O conteúdo inclui um conjunto de páginas de relatório. Cada página consiste em um conjunto de métricas visualizadas, como gráficos, blocos e tabelas. A seguinte tabela fornece uma visão geral das visualizações no conteúdo do Power BI **Análise de contabilização de custos**.

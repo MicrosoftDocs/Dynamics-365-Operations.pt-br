@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 343e372ad9e29372649e975a5bee16e8913b66c8
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>Provisionar Microsoft Dynamics 365 for Talent
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tópico mostra o processo de provisionamento de um novo ambiente de produção para o Microsoft Dynamics 365 for Talent. Este tópico pressupõe que você adquiriu o Talent por meio do Provedor de Soluções na Nuvem ou do contrato de arquitetura da empresa (EA). Se você tiver uma licença existente do Microsoft Dynamics 365 que já inclua o plano do serviço do Talent e não puder concluir as etapas deste tópico, entre em contato com o Suporte.
 
@@ -54,17 +54,18 @@ Depois de criar um projeto de LCS, você pode provisionar o Talent em um ambient
     > Para exibir os ambientes existentes ou criar novos ambientes, o administrador do locatário que provisiona o Talent deve ter a licença do PowerApps P2. Se sua organização não tiver uma licença de PowerApps P2, obtenha uma do CSP ou da [página de preços do PowerApps](https://powerapps.microsoft.com/en-us/pricing/).
 
 4. Selecione **Adicionar** e depois o ambiente para provisionar o Talent.
-5. Selecione **Sim** para concordar com os termos e começar a implantação.
+5. Selecione a opção “Incluir dados de demonstração” se quiser que o ambiente inclua o mesmo conjunto de dados de demonstração usado na experiência da Unidade de teste de Talent.  Isso é interessante para ambientes de demonstração ou de treinamento de longo prazo, e nunca deve ser usado em ambientes de produção.  Observe que você deve selecionar esta opção antes da implantação inicial e não pode atualizar uma implantação existente posteriormente.
+6. Selecione **Sim** para concordar com os termos e começar a implantação.
 
     Seu novo ambiente aparece na lista de ambientes no painel de navegação à esquerda. Porém, você não pode começar a usar o ambiente enquanto o status de implantação não for atualizado para **Implantado**. Este processo normalmente leva alguns minutos. Se ocorrer uma falha no processo de provisionamento, você deve entrar em contato com o Suporte.
 
-6. Selecione **Fazer logon no Talent** para usar o novo ambiente.
+7. Selecione **Fazer logon no Talent** para usar o novo ambiente.
 
 > [!NOTE]
 > Se os requisitos finais ainda não foram aprovados, você pode implantar uma instância de teste do Talent no projeto. Você pode usar esta instância para testar a solução até que seja aprovada. Se usar o novo ambiente para teste, você deve repetir este procedimento para criar um ambiente de produção.
 
 > [!NOTE]
-> Os ambientes do Talent que são provisionados por meio do LCS não contêm dados de demonstração configurados para tarefas de Recursos humanos (RH) ou dados específicos para o Talent. Se você requer um ambiente que contenha dados de demonstração, recomendamos que você se inscreva para uma [Avaliação grátis do Talent por 60 dias](https://dynamics.microsoft.com/en-us/talent/overview/). Embora um ambiente de avaliação seja propriedade do usuário que o solicitou, outros usuários podem ser convidados por meio da experiência de administração do sistema para o Core HR. Os ambientes de avaliação contêm dados fictícios que podem ser usados para explorar o programa de forma segura. Eles não devem ser usados como ambientes de produção. Observe que, quando o ambiente de avaliação expirar após 60 dias, todos os dados nele serão excluídos e não poderão ser recuperados. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
+> Como apenas dois ambientes de LCS são permitidos como parte de uma subscrição de Talent, você também pode considerar aumentar para um período gratuito de 60 dias [Ambiente de teste de talento](https://dynamics.microsoft.com/en-us/talent/overview/). Embora um ambiente de avaliação seja propriedade do usuário que o solicitou, outros usuários podem ser convidados por meio da experiência de administração do sistema para o Core HR. Os ambientes de avaliação contêm dados fictícios que podem ser usados para explorar o programa de forma segura. Eles não devem ser usados como ambientes de produção. Observe que, quando um ambiente de avaliação expirar após 60 dias, todos os dados que estão nele serão excluídos e não poderão ser recuperados. Você pode inscrever-se para um novo ambiente de avaliação após o ambiente existente expirar.
 
 ## <a name="select-a-powerapps-environment"></a>Selecione um ambiente do PowerApps
 
@@ -104,13 +105,15 @@ Siga estas instruções para executar o script:
 
 1. Baixe o arquivo ProvisionCDSEnvironment.zip do seguinte local: [Scripts de ProvisionCDSEnvironment](https://go.microsoft.com/fwlink/?linkid=870436)  
 
-2. Descompacte todo o conteúdo do arquivo ProvisionCDSEnviroinment.zip em uma pasta.
+2. Na pasta de downloads, clique com o botão direito no arquivo ProvisionCDSEnvironment.zip que acabou de ser baixado e selecione **Propriedades**.  Se houver uma nota de Segurança na parte inferior da caixa de diálogo que diz “Esse arquivo veio de outro computador e pode estar bloqueado para ajudar a proteger este computador”, marque a caixa de seleção **Desbloquear**, clique em **Aplicar** e em **OK**.
 
-3. Execute o programa Windows PowerShell ou Windows PowerShell ISE como administrador.
+3. Descompacte todo o conteúdo do arquivo ProvisionCDSEnviroinment.zip em uma pasta diferente da sua pasta raiz.
 
-   Visite o tópico [Configurar a política de execução](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) para saber mais sobre como configurar a política de execução para que os scripts possam ser executados.
+4. Execute o programa Windows PowerShell ou Windows PowerShell ISE como administrador.
+
+   Visite o tópico [Configurar a política de execução](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6) para saber mais sobre como configurar a política de execução para que os scripts possam ser executados. Sugerimos usar o seguinte, “Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process”, mas tenha certeza de que está seguindo as políticas de segurança da empresa e feche a janela PowerShell quando finalizar. 
   
-4. No PowerShell, navegue até a pasta na qual você descompactou o arquivo e execute o seguinte comando, substituindo valores conforme direcionado abaixo:
+5. No PowerShell, navegue até a pasta na qual você descompactou o arquivo e execute o seguinte comando, substituindo valores conforme direcionado abaixo:
  
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
@@ -121,18 +124,10 @@ Siga estas instruções para executar o script:
 
    **-Detalhado** é opcional e fornecerá informações detalhadas para enviar ao suporte caso você encontre algum problema.
 
-5. Continue com o processo de provisionamento.
+6. Continue com o processo de provisionamento.
  
 
-
 ## <a name="grant-access-to-the-environment"></a>Conceder acesso ao ambiente
-Por padrão, o administrador global que criou o ambiente tem acesso a ele. Entretanto, os usuários adicionais do aplicativo devem ter acesso explicitamente. Para conceder acesso, [adicione usuários](../dev-itpro/sysadmin/tasks/create-new-users.md) e [atribua as funções adequadas a eles](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md) no ambiente do Core HR. Você também deve adicionar esses usuários ao ambiente do PowerApps, para que eles possam acessar os aplicativos do Attract e Onboard. O procedimento é descrito aqui. Se você precisar de ajuda para concluir as etapas, consulte a postagem do blog [Apresentando o centro de administração do PowerApps](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/).
+Por padrão, o administrador global que criou o ambiente tem acesso a ele. Entretanto, os usuários adicionais do aplicativo devem ter acesso explicitamente. Para conceder acesso, [adicione usuários](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users) e [atribua as funções adequadas a eles](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles) no ambiente do Core HR. O administrador global que implantou Talent também deve iniciar os aplicativos Attract and Onboard para concluir a inicialização e habilitar o acesso para outros usuários do locatário.  Até que isso ocorra, outros usuários não poderão acessar os aplicativos Attract and Onboard e receberão erros de violação.
 
-Esse procedimento será concluído pelo administrador global que implantou o ambiente do Talent.
-
-1. Abra o [Centro de Administração do PowerApps](https://preview.admin.powerapps.com/environments).
-2. Selecione os ambientes adequados:
-3. Na guia **Segurança**, adicione os usuários necessários à função **Criador de Ambiente**.
-
-    Observe que essa etapa final, em que você adiciona usuários ao ambiente do PowerApps, é temporária. Com o tempo, ela será concluída automaticamente conforme os usuários forem adicionados ao Core HR.
 

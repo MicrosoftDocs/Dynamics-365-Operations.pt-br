@@ -20,23 +20,23 @@ ms.author: crytt
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58c083b2fa76e90d10ec8a197a4743a9e315db46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 855fdd0e57a7001628b715038785379d5a986789
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="delivery-alternatives"></a>Alternativas de entrega
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-Os tomadores de ordem de venda podem usar a página de Alternativas de entrega para descobrir opções alternativos de preenchimento da ordem.
+Os tomadores de ordem de venda podem usar a página de **Alternativas de entrega** para descobrir opções alternativas de preenchimento da ordem.
 
-Na versão 1611 (novembro de 2016) do Microsoft Dynamics 365 for Operations, os tomadores de ordem de venda podem usar a página **Alternativas de entrega** para descobrir opções alternativas de preenchimento da ordem. O layout da página reprojetado apresenta uma visão geral melhor de todas as opções alternativas. Também permite que os tomadores de ordem olhe além da empresa atual para obter oportunidades de atendimento. Eles agora podem exibir as oportunidades intercompanhia e as oportunidades dos fornecedores externos. Classificando as opções por data de entrega, os tomadores de ordem de venda podem exibir uma lista inteligente de alternativas de entrega. Além disso, os parâmetros nos ajudam a gerenciar melhor as entregas sugeridas. Como o tempo de transporte pode afetar datas de entrega, os tomadores de ordem de venda podem explorar várias opções de transporte que as transportadoras oferecem. Como as informações detalhadas são mostradas para cada sugestão, os tomadores de ordem podem tomar decisões diretamente da página **Alternativas de entrega**.
+O layout da página **Alternativas de entrega** apresenta uma visão geral melhor de todas as opções alternativas. Também permite que os tomadores de ordem olhe além da empresa atual para obter oportunidades de atendimento. Eles agora podem exibir as oportunidades intercompanhia e as oportunidades dos fornecedores externos. Classificando as opções por data de entrega, os tomadores de ordem de venda podem exibir uma lista inteligente de alternativas de entrega. Além disso, os parâmetros nos ajudam a gerenciar melhor as entregas sugeridas. Como o tempo de transporte pode afetar datas de entrega, os tomadores de ordem de venda podem explorar várias opções de transporte que as transportadoras oferecem. Como as informações detalhadas são mostradas para cada sugestão, os tomadores de ordem podem tomar decisões diretamente da página **Alternativas de entrega**.
 
 ## <a name="open-the-delivery-alternatives-page"></a>Abra a página Alternativas de entrega
-Você pode abrir a página **Alternativas** **de entrega** da linha de ordem de venda.
+Você pode abrir a página **Alternativas de entrega** da linha de ordem de venda.
 
 1.  Clique em **Produtos e fornecimento** &gt; **Alternativas de entrega**.
 2.  Clique em **Detalhes da linha** &gt; **Entrega** &gt; **Alternativas de entrega.**
@@ -146,7 +146,7 @@ As informações desta guia estão relacionadas à linha de entrega alternativa 
 
 Esta guia destaca o impacto da alternativa de entrega selecionada. Se você clicar em **OK**, a linha de venda será atualizada com valores destacados nas colunas SELECIONADAS. Observe que, se a quantidade na alternativa de entrega selecionada for menor que a quantidade na linha de vendas, uma agenda de entrega será criada, e a linha da ordem será dividida em duas linhas: uma linha para a quantidade selecionada e uma linha para a quantidade pendente. Você também pode atualizar a linha comercial, de forma que ela corresponda às linhas da agenda e afete o preço.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Promessa de ordem](delivery-dates-available-promise-calculations.md)

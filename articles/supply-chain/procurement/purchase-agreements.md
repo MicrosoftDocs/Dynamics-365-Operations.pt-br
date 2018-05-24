@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a47c631b265262f78e0fb3d956a98a7c9e9f5172
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e4414ead4d2c767ecdd3e631035034b01de55b27
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-agreements"></a>Contratos de compra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre contratos de compras. Um contrato de compra é um contrato que compromete uma organização a comprar uma quantidade ou um valor especificado usando várias ordens de compra ao longo do tempo. Em troca desse compromisso, o comprador obtém preços e descontos especiais. 
 
@@ -91,7 +91,7 @@ Se você criar uma OC intercompanhia que usa o contrato de compra intercompanhia
 ## <a name="financial-dimensions-on-purchase-agreements"></a>Dimensões financeiras nos contratos de compra
 Você pode copiar as dimensões financeiras para os cabeçalhos de documento ou para as linhas individuais de um contrato de compra. Se você alterar as dimensões no cabeçalho do contrato ou na linha do contrato, a alteração não afetará nenhuma ordem liberada, mas se refletirá em todas as ordens novas.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Criar um contrato de compra (Guia de tarefas)](tasks/create-purchase-agreement.md)

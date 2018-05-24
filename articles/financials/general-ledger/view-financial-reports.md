@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 055001c992e70ceacf57cf25a8bf83207d8d7334
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d9c7bcb8cae7b17636ffc0c87bb1147b9d27a6c8
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-financial-reports"></a>Exibir relatórios financeiros
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo descreve como exibir e explorar relatórios financeiros no Microsoft Dynamics 365 for Finance and Operations. Ele inclui informações sobre as várias opções que você pode aplicar a relatórios financeiros para alterar sua aparência e os dados que eles incluem.
 
@@ -84,7 +84,7 @@ Após concluir a definição das opções de impressão, clique em **Imprimir** 
 ## <a name="export-a-financial-report"></a>Exportar um relatório financeiro
 Para exportar um relatório financeiro, no Painel de Ação, clique em **Exportar**. O relatório é exportado para o Microsoft Excel, e o navegador solicitará que abra ou salve o arquivo exportado. As configurações de exportação que estão definidas no design do relatório são aplicadas ao relatório exportado.    
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Relatório financeiro do Microsoft Dynamics AX](../../dev-itpro/analytics/financial-reporting-intro.md)

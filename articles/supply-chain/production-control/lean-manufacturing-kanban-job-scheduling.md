@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6ac4c1afecb72d4007d830a9927bd3171ddd48ec
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5f1044e6731fd757532e34292109b9d81ca38719
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Agendamento do trabalho kanban para lean manufacturing
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre o controle visual sobre a programação de trabalhos kanban e várias formas agendar trabalhos kanban.  
 
@@ -69,7 +69,7 @@ A capacidade disponível por dia ou semana é definida pelo calendário atribuí
 
 A página de listagem **Agendamento do trabalho kanban** contém um Quadro de Fatos que mostra a capacidade de período disponível e reservado para a célula de trabalho selecionada. Dependendo dos períodos de agendamento selecionados no modelo do fluxo de produção, os períodos mostram dias ou semanas.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 

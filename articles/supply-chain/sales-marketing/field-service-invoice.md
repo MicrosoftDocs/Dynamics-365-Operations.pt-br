@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 1863814d6dd645da8602495858d024fbad2e7149
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 6672e283a5e56b068e3494d53a0fd6dd08253ba9
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -95,4 +95,16 @@ Tarefa: **linhas da fatura**
 Verifique se o valor padrão do campo **Valor de Exibição da Conta Principal** do Finance and Operations foi atualizado para corresponder o valor desejado.
 
 O valor do modelo padrão é **401100**.
+
+## <a name="template-mapping-in-data-integration"></a>Mapeamento de modelo na Integração de dados
+
+As ilustrações a seguir mostram um mapeamento de modelo na Integração de dados.
+
+### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-headers"></a>Faturas de contrato (Field Service com o Fin and Ops): Cabeçalhos de fatura
+
+[![Mapeamento de modelo na Integração de dados](./media/FSFreeTextInvoice1.png)](./media/FSFreeTextInvoice1.png)
+
+### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>Faturas de contrato (Field Service com o Fin and Ops): Linhas de fatura
+
+[![Mapeamento de modelo na Integração de dados](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
 

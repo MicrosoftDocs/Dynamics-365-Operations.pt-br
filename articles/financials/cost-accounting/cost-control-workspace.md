@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7cc6ba50b8df54eadc9a23990a58d1d37365cb6a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-control-overview"></a>Visão geral de controle de custos 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 O espaço de trabalho **Controle de custos** é um ponto central onde os gerentes responsáveis por controlar um objeto de custo ou um conjunto de objetos de custo dentro de uma dimensão ou nas dimensões podem acessar relatórios. Os relatórios no espaço de trabalho são gerenciados totalmente por contadores custo, de forma que o layout e os dados que são usados para relatórios possam ser consistentes na organização inteira.
 
@@ -154,7 +154,7 @@ No exemplo a seguir, a base de alocação é do tipo **Base de alocação da fó
 
 ![Cálculos por objeto de custo](./media/cost-entries-allocation-base.png)
 
-Consulte também 
+Recursos adicionais 
 
 [Definir direitos de acesso para controladores do objeto de custo](access-rights-cost-object-controller.md)
 

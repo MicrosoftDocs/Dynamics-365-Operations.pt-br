@@ -3,7 +3,7 @@ title: Recursos preteridos
 description: "Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção."
 author: sericks007
 manager: AnnBe
-ms.date: 03/22/2018
+ms.date: 05/09/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: c935b0c14f09b0a3a738266e4c9c577c96f0ea77
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -78,13 +78,13 @@ Esses dois relatórios não têm mais suporte no Finance and Operations. Em vez 
 | **Opção de implantação**        | Todas|
 | **Status**                       | Preterido: Os itens de menu de dois relatórios foram removidos na versão 7.3. Porém, o código dos relatórios permanece no produto. O plano é remover o código em uma versão futura. |
 
-### <a name="power-bi-content-packs-published-to-powerbicom"></a>Pacotes de conteúdo do Power BI publicados no PowerBI.com
-Os pacotes de conteúdo **Gerenciamento de custo**, **Desempenho financeiro** e **Desempenho do canal de varejo**, que foram publicados no site PowerBI.com, foram preteridos em consequência de atualizações do produto no Microsoft Power BI. Os formulários de administração de sistema usados para implantar esses pacotes de conteúdo no PowerBI.com também estão sendo preteridos no Finance and Operations.
+### <a name="power-bi-content-packs-available-on-appsource"></a>Blocos de conteúdo do Power BI disponíveis em AppSource
+Os pacotes de conteúdo **Gerenciamento de custo**, **Desempenho financeiro** e **Desempenho do canal de Retail**, disponíveis no site [Microsoft AppSource](https://appsource.microsoft.com), foram preteridos em consequência de atualizações do produto no Microsoft Power BI. Os formulários de administração de sistema usados para implantar esses pacotes de conteúdo no PowerBI.com também estão sendo preteridos no Finance and Operations.
 
 |   |  |
 |------------|--------------------|
 | **Motivo para a reprovação/remoção** | As atualizações de produtos no Microsoft Power BI. |
-| **Substituída por outro recurso?**   | Os pacotes de conteúdo do Power BI (publicados no PowerBI.com) estão sendo substituídos por aplicativos analíticos que permitem integrações da solução em nível de banco de dados. Para obter mais informações sobre aplicativos analíticos, consulte [Power BI Embedded nos espaços de trabalho](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
+| **Substituída por outro recurso?**   | Os pacotes de conteúdo **Gerenciamento de custo**, **Desempenho financeiro** e **Desempenho do canal de Retail**, disponíveis no site [AppSource](https://appsource.microsoft.com), estão sendo substituídos por aplicativos analíticos que permitem integrações da solução em nível de banco de dados. Para obter mais informações sobre aplicativos analíticos, consulte [Power BI Embedded nos espaços de trabalho](../../dev-itpro/analytics/embed-power-bi-workspaces.md).    |
 | **Áreas afetadas do produto**         | Gerenciamento de custo, Finanças e Varejo                                                                                               |
 | **Opção de implantação**              | Somente nuvem (não há mais suporte para a integração com o PowerBI.com nas implantações locais).                                                                                                            |
 | **Status**                         | Preterido: O período determinado de destino para a remoção de funcionalidade é T2 de 2018.    |

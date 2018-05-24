@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d6828860d9e56dc8db80a11b4b611b9c0fdc2b62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a5dcc294b3dde7dc7e0f789d9e7678b75bc699b0
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-requisition-workflow"></a>fluxo de trabalho de requisição de compra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 O processo de fluxo de trabalho move requisições de compra pelo processo de revisão, de um status de Rascunho para um status final de Aprovado. Quando uma requisição de compra é enviada para revisão, o processo de fluxo de trabalho é iniciado. Após a aprovação de uma requisição de compra, uma ordem de compra pode ser gerada para as linhas de requisição de compra e enviadas ao fornecedor para o preenchimento da ordem.
 
@@ -106,7 +106,7 @@ Você pode configurar os revisores de despesa na página **Revisores das despesa
 
 Para usar um dos revisores de despesas que você configura em um fluxo de trabalho, você deverá definir a opção **Tipo de participante** como **Participantes de despesas** nas propriedades **Atribuição** para o elemento de fluxo de trabalho relevante.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Criar uma requisição para consumo (Guia de tarefas)](tasks/create-requisition-consumption.md)

@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c5d13024ba15744f81406c4c8f5d5d33de658d63
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cea4aec80bc0b519a6b393724835555b4d0937a8
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-fixed-compensation-plans"></a>Criar planos de remuneração fixa.
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 A remuneração fixa se refere ao salário bruto normal ou ao salário de um funcionário. Este tópico descreve os componentes que devem ser configurados antes de criar um plano de remuneração fixo e inserir os funcionários.
 
@@ -101,7 +101,7 @@ Agora, você pode atribuir um funcionário a um plano de remuneração fixa. Abr
 
 O sistema verifica se o valor de remuneração especificado para um plano de remuneração do tipo de classificação ou da faixa está dentro dos pontos de referência mínimo e máximo para o nível de remuneração no trabalho do funcionário. Se o valor de remuneração estiver fora do intervalo permitido, um aviso ou uma mensagem de erro serão exibidas, dependendo do nível de tolerância que é definido no plano de remuneração fixa.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Planos de remuneração](compensation-plans.md)

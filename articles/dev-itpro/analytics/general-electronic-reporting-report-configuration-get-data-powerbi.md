@@ -18,16 +18,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 45717bc1a7093c0282d214fc4ce5fdf153bb14a1
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Configurar Relatório eletrônico para efetuar pull de dados no Power BI
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico explica como você pode usar suas configurações de ER (Relatório eletrônico) para organizar a transferência de dados da sua instância do Finance and Operations para os serviços do Power BI. Como exemplo, este tópico usa transações intrastat como os dados comerciais que devem ser transferidos. A visualização de mapa do Power BI usa esses dados de transação intrastat para apresentar uma exibição para a análise das atividades de importação/exportação da empresa no relatório do Power BI.
 
@@ -132,12 +132,12 @@ Configurar a integração entre o Finance and Operations e o Power BI. Para sabe
 2. Selecione o relatório do Power BI **Detalhes de importação e exportação** que você criou para mostrar esse relatório como um item de ação na página selecionada. 
 3. Clique no item de ação para abrir a página do Finance and Operations que mostra o relatório que você criou no Power BI. [![Relatório de detalhes de importação e exportação](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Destinos de relatório eletrônico](electronic-reporting-destinations.md)
+[Destinos de Relatório eletrônico](electronic-reporting-destinations.md)
 
-[Visão geral do relatório eletrônico](general-electronic-reporting.md)
+[Visão geral de Relatório eletrônico](general-electronic-reporting.md)
 
 
 

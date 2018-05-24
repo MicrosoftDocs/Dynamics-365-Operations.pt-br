@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad425ab0848ab04003b7378cb5c488650f01c441
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9082c156fde52aa0c822f8e4753de816f8cc0558
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-screen-layouts-for-pos"></a>Configurar layouts de tela do PDV
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tópico fornece informações sobre layouts de tela para experiências com o ponto de venda (PDV) do Microsoft Dynamics 365 for Retail.
 
@@ -89,12 +89,12 @@ Cada tamanho do layout em um layout de tela deve ser configurado usando o design
 
 **Imagem** - O controle de imagem pode ser usado para mostrar o logotipo de armazenamento ou outra imagem de marca na tela de transação. O controle de imagem está disponível apenas para layouts completos. 
 
-**Produtos recomendados** - Se configurados para o ambiente, os controles dos produtos recomendados mostrarão sugestões de produto baseadas no aprendizado da máquina. O controle de produtos recomendados só está disponível para layouts completos no Dynamics 365 for Retail, versão 1611. **Controle personalizado **- O controle personalizado age como um substituto dentro do layout de tela para permitir que os usuários reservem espaço para conteúdo personalizado. O controle personalizado está apenas disponível para layouts completos.
+**Produtos recomendados** - Se configurados para o ambiente, os controles dos produtos recomendados mostrarão sugestões de produto baseadas no aprendizado da máquina. O controle de produtos recomendados só está disponível para layouts completos no Dynamics 365 for Retail, versão 1611. **Controle personalizado**- O controle personalizado age como um substituto dentro do layout de tela para permitir que os usuários reservem espaço para conteúdo personalizado. O controle personalizado está apenas disponível para layouts completos.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Instalar o designer do layout de PDV de varejo](install-pos-layout-designer.md)
+[Instalar o designer de Layout do Retail POS](install-pos-layout-designer.md)
 
 
 

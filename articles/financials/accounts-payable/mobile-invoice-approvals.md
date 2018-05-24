@@ -18,16 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>Aprovações de fatura móvel
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Os recursos móveis no Microsoft Dynamics 365 for Finance and Operations permitem que um usuário de negócios crie experiências móveis. Para cenários avançados, a plataforma também permite que os desenvolvedores estendam as funcionalidades que desejam. A maneira mais eficaz de aprender alguns dos novos conceitos em dispositivo móvel é passar pelo processo de desenvolvimento de alguns cenários. Este tópico tem como objetivo fornecer uma abordagem prática para criar cenários móveis tirando aprovações da fatura de fornecedor do celular como um caso de uso. Esse tópico deve ajudá-lo a criar outras variações de cenários e também pode ser aplicado a outros cenários que não são relacionados a faturas de fornecedor.
 
@@ -175,9 +175,9 @@ Para criar a página de detalhes de fatura para dispositivo móvel, use a págin
 1. Na URL do Finance and Operations, substitua o nome do item de menu por **VendMobileInvoiceHeaderDetails** para abrir o formulário
 2. Abra o criador móvel a partir do botão **Configurações** (imagem).
 3. Clique no botão **Editar** para iniciar o modo de edição no espaço de trabalho.
-4. Selecione a página <strong>Minhas fatura de fornecedor **que você criou anteriormente e clique em **Editar</strong>.
+4. Selecione a página **Minhas fatura de fornecedor** que você criou anteriormente e clique em **Editar**.
 5. Na guia **Campos**, clique no cabeçalho da coluna **Grade**.
-6. Clique em **Propriedades** &gt; **Adicionar página**. **Observação:** Quando clicar no cabeçalho **Grade** e adicionar uma página, a relação com a página de detalhes é estabelecida automaticamente.
+6. Clique em **Propriedades &gt; Adicionar página**. **Observação:** Quando clicar no cabeçalho **Grade** e adicionar uma página, a relação com a página de detalhes é estabelecida automaticamente.
 7. Insira um título de página, como **Detalhes de fatura**, e uma descrição, como **Exibir cabeçalho de fatura e detalhes de linha**.
 8. Clique em **Selecionar campos**. Observe que, a ordem em que você adicionar é a ordem em que os campos serão exibidos para o usuário final. A única maneira de alterar a ordem dos campos será selecionar novamente todos os campos. 
 9. Adicione os campos a seguir a partir do cabeçalho baseado nos requisitos deste cenário:

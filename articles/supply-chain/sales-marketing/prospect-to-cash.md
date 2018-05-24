@@ -3,7 +3,7 @@ title: Prospect to cash
 description: "Este tópico fornece uma visão geral da solução Prospect to cash entre o Microsoft Dynamics 365 for Finance and Operations e o Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 04/03/2018
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,22 +20,24 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bc0fa8fe3e20ae4be3e572932f99ccc54e3b746b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f43b3943ce27c44cc0b4756d1d5f23e3be093273
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="prospect-to-cash"></a>Prospect to cash
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 A solução Prospect to cash fornece sincronização direta entre o Dynamics 365 for Finance and Operations e o Dynamics 365 for Sales. Os modelos Prospect to cash que estão disponíveis com o recurso Integração de Dados permitem o fluxo de dados para contas, contatos, produtos, cotações de vendas, ordens de venda e faturas de vendas entre o Finance and Operations e o Sales. Apesar de os dados estarem fluindo entre o Finance and Operations e o Sales, você pode executar atividades de vendas e de marketing no Sales e pode tratar o atendimento da ordem usando o gerenciamento de estoque no Finance and Operations. 
 
 Para obter mais informações sobre a integração Prospect to cash, assista ao vídeo curto no YouTube:
 
 > [!Video https://www.youtube.com/embed/AVV9x5x-XCg]
+
+[Integração do cliente potencial ao pagamento à vista (vídeo do YouTube)](https://youtu.be/AVV9x5x-XCg) 
 
 Na versão atual, a solução Prospect to cash fornece os seguintes tipos de sincronização direta:
 
@@ -76,7 +78,7 @@ A integração Prospect to cash tem suporte nas seguintes versões:
   - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - É necessário o suporte para integração de prospect to cash através de entidades de dados.
     
     > [!NOTE]
-    > Após a instalação dos hotfixes, você deve disparar o seguinte trabalho em lotes do formulário **SalesPopulateProspectToCash**. Este formulário fica oculto, pois você só precisa dele uma vez. Para acessar o formulário, faça logon no ambiente e adicione o seguinte ao URL no endereço do navegador: &mi=action:SalesPopulateProspectToCash, por exemplo, `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Ao abrir o formulário, clique em OK. Será preenchido um novo campo **LineCreationSequnceNumber** nas tabelas **SalesLine**, **SalesQuotationLine** e **CustInvoiceTrans** com valores exclusivos e a lista de produtos será atualizada. Isso é necessário para que a integração do Prospect to cash funcione.
+    > Após a instalação dos hotfixes, você deve disparar o seguinte trabalho em lotes do formulário **SalesPopulateProspectToCash**. Este formulário fica oculto, pois você só precisa dele uma vez. Para acessar o formulário, faça logon no ambiente e adicione o seguinte ao URL no endereço do navegador: *&mi=action:SalesPopulateProspectToCash*, por exemplo, `https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`. Ao abrir o formulário, clique em OK. Será preenchido um novo campo **LineCreationSequnceNumber** nas tabelas **SalesLine**, **SalesQuotationLine** e **CustInvoiceTrans** com valores exclusivos e a lista de produtos será atualizada. Isso é necessário para que a integração do Prospect to cash funcione.
 
 
 ## <a name="system-requirements-for-sales"></a>Requisitos do sistema para Sales

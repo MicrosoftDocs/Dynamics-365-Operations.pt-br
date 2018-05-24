@@ -3,7 +3,7 @@ title: Campos personalizados
 description: "Este tópico mostra como o Microsoft Dynamics 365 for Finance and Operations permite que alguns usuários criem campos personalizados para adequar o aplicativo à sua empresa."
 author: jasongre
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 04/18/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,18 +17,18 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 4420eeb249a4d1bdac203e32d017dcebbddf95c3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6f0257d6a16d3d53953e1fbbf023109425fa6844
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="custom-fields"></a>Campos personalizados
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 Embora o Microsoft Dynamics 365 for Finance and Operations forneça um conjunto extensivo de campos imediatos para gerenciar uma ampla gama de processos de negócios, às vezes uma empresa precisa rastrear informações adicionais no sistema. Para acomodar essa necessidade, o Finance and Operations permite criar campos personalizados para adequar o aplicativo à sua empresa, desde que você tenha permissões para o recurso. 
 
@@ -139,7 +139,7 @@ Por motivos técnicos e de desempenho, apenas as tabelas que atendem às seguint
      -   Parâmetro
      -   Demonstrativo
      -   TransactionHeader
-- A tabela não pode não estender outra tabela.
+- A tabela não pode estender outra tabela.
 - A tabela não pode ser marcada como uma tabela de sistema.
 - A tabela não pode ser uma tabela temporária.
 

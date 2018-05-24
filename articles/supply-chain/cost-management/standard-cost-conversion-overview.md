@@ -20,16 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1176ce1fcd406cf363969e60ae388a83d7df210f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2985e58bd308295e1f698c391f57fc3d116835bd
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="standard-cost-conversion-overview"></a>Visão geral da conversão em custo padrão
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece uma visão geral do processo para ajudar você a configurar e a executar uma conversão de custo padrão. As etapas listadas devem ser concluídas depois que você tiver concluído os pré-requisitos de uma conversão de custo padrão. 
 
@@ -96,7 +96,7 @@ O relatório **Demonstrativo de análise de variação** permite analisar a vari
 -   Analise os movimentos de estoque de datas anteriores. Use o relatório **Data do estoque** para exibir os movimentos de estoque com datas anteriores inseridos após a conversão. A Data de início e a Data de término do relatório devem corresponder à data inicial da transição e à data de conversão, menos um dia. Os critérios de seleção do relatório devem refletir os itens convertidos. O relatório mostra os movimentos de estoque feitos ao custo padrão durante o período de transição.
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Pré-requisitos para uma conversão em custo padrão](prerequisites-standard-cost-conversion.md)

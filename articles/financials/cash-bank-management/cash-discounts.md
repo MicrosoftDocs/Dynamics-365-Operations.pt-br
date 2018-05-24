@@ -19,25 +19,24 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9960af8c4961a42e7e829077da40bcbbf3bc71c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5ccf41d1184280d3c4a000db13847733fd2cf4d2
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cash-discounts"></a>Descontos à vista
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Os descontos à vista são configurados compartilhados para contas a pagar e contas a receber.  O desconto à vista disponível pode ser definido na nota fiscal do cliente ou na nota fiscal de fornecedor, e será usado se a nota fiscal for paga na data do desconto à vista. 
 
-<a name="cash-discounts"></a>Descontos à vista
---------------
+## <a name="cash-discounts"></a>Descontos à vista
 
 Os descontos à vista para clientes ou fornecedores podem ser criados na página Descontos à vista. Você pode definir, usando o campo Próximo código de desconto, uma série de descontos à vista que se sucedem à medida que as datas de vencimento de desconto à vista anteriores se aproxima. Para obter mais informações, consulte “exemplo: série de descontos à vista” posteriormente neste tópico. Se a fatura, a transação de crédito (um pagamento ou uma nota de crédito), ou ambos forem inseridos em uma moeda diferente da moeda contábil da entidade legal, o desconto à vista é calculado usando a taxa de câmbio baseada na data de pagamento ou nota de crédito. Se a fatura e o documento de crédito forem inseridos em pessoas jurídicas diferentes, e se as moedas contábeis para a pessoa jurídica forem diferentes, a taxa de câmbio será a mesma da pessoa jurídica da fatura, a partir da data do documento de crédito. Para obter mais informações, consulte “exemplo: taxas de câmbio para descontos à vista” posteriormente neste tópico.
-Usando o padrão da ordem de conta principal do desconto à vista
-----------------------------------------------
+
+## <a name="defaulting-order-of-cash-discount-main-account"></a>Usando o padrão da ordem de conta principal do desconto à vista
 
 Se uma fatura é liquidada a tempo de obter um desconto à vista, o desconto é automaticamente lançado em uma conta principal de descontos à vista, de acordo com a seguinte prioridade padrão:
 1.  A conta principal especificada no campo Conta de desconto à vista alternativa na página Liquidar transações em aberto do cliente ou na página Liquidar transações em aberto do fornecedor.
@@ -65,15 +64,7 @@ A moeda contábil da pessoa jurídica é USD e as seguintes taxas de câmbio sã
 
 Uma fatura de US$ 1000 com base nas condições do desconto à vista de 20D2% é lançada o 15 de fevereiro. O valor da moeda contábil da fatura é de € 1100. Um pagamento de US$ 980 é liquidado com a fatura em 1 de março. O valor do desconto à vista é de US$ 20. O valor da moeda contábil de pagamento é de US$ 490,00. O valor da moeda contábil do desconto à vista é calculado usando a taxa de câmbio de 1 de março: 20 \* 80 / 100 = € 16.
 
-| **Observação**                                                                                                                                                                                                                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Se a opção Calcular descontos à vista para pagamentos parciais for selecionada nas páginas Parâmetros de contas a receber ou Parâmetros de contas a pagar, a taxa de câmbio que está em vigor na data de cada pagamento parcial é utilizada. |
-
- 
-=
-
- 
-
-
+> [!NOTE]
+> Se a opção Calcular descontos à vista para pagamentos parciais for selecionada nas páginas Parâmetros de contas a receber ou Parâmetros de contas a pagar, a taxa de câmbio que está em vigor na data de cada pagamento parcial é utilizada. 
 
 

@@ -3,7 +3,7 @@ title: "Gerenciamento de preços de vendas para varejo"
 description: "Este tópico descreve os conceitos para criar e gerenciar os preços de venda do Microsoft Dynamics 365 for Retail."
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/27/2018
+ms.date: 04/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-retail
@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a7e6babe1bfec60ece4f84a77bbd838faf7274e0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-sales-price-management"></a>Gerenciamento de preços de vendas para varejo
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 Este tópico fornece informações sobre o processo de criação e gerenciamento de preços de venda do Microsoft Dynamics 365 for Retail. Ele concentra-se nos conceitos que estão envolvidos neste processo e nos efeitos das várias opções de configuração para preços de venda.
 
@@ -198,32 +198,6 @@ O Microsoft SQL Server Express é usado frequentemente para bancos de dados do c
 Quando os preços de vendas forem definidos no Microsoft Dynamics 365, você não especifica se o valor do preço que você está definindo inclui ou exclui o imposto. O valor é apenas o preço. Porém, a configuração **Preço inclui imposto** nos canais de varejo permitem configurar canais de varejo, de forma que eles incluam ou excluam imposto de preços. Esta configuração é definida no canal e pode até mesmo mudar em uma única empresa.
 
 Se você trabalhar com tipos inclusivos e exclusivo de impostos, será muito importante que você defina preços corretamente porque a quantidade total que o cliente paga será alterada se a configuração **Preço inclui imposto** no canal for alterada.
-
-### <a name="effect-of-the-price-includes-sales-tax-setting-on-financial-postings"></a>O efeito do Preço inclui configuração do imposto nos lançamentos financeiros
-Todos os valores lançados na contabilidade para a receita e as contas de desconto são afetados pela configuração **Preço inclui o imposto** . O exemplo a seguir mostra como esta configuração afeta os lançamentos financeiros.
-
-O exemplo discute apenas os lançamentos de venda porque a configuração **Preço inclui imposto** não afeta lançamentos de custo de estoque.
-
-#### <a name="example"></a>Exemplo
-Para este exemplo, os valores de desconto são configurados de forma que sejam lançados separadamente da receita.
-
-Você vende um produto de $100 que tem uma alíquota de imposto de 10 por cento e um desconto de 5 por cento é aplicado. As seguintes contas de dados de demonstração de USRT são usadas:
-
-- **Receita:** 401100
-- **Desconto:** 403200
-- **Imposto:** 202100
-
-**Caso 1: Imposto-exclusivo (também conhecido como impostos)**
-
-- **Receita:** $100
-- **Desconto:** $5
-- **Impostos:** $9.5 (= 10 por cento de $95)
-
-**Caso 2: Imposto-inclusivo (também conhecido como imposto sobre valor agregado \[IVA\])**
-
-- **Receita:** $90
-- **Desconto:** $4.5 (= 5 por cento de $90)
-- **Imposto:** $10
 
 ## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>Diferenças entre o preço de varejo e o preço não de varejo
 Um mecanismo de única definição de preços é usado para calcular preços de varejo em todos os canais: Call center, loja de varejo e lojas online. Isso ajuda a habilitar os cenários unificados de comércio. 

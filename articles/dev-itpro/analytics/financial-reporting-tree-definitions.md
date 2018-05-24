@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 78dd1b5e0a19690ffefdb03de495061ef51f2e16
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ec1286f1f3fb75cefd40f3982ec62d5ed078299c
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="reporting-tree-definitions-in-financial-reports"></a>Definições da árvore de relatórios em relatórios financeiros
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre definições da árvore de relatório. Uma relatório definição de árvore é um componente de relatório ou bloco de construção, que ajuda a definir a estrutura e a hierarquia de sua organização.
 
@@ -145,7 +145,7 @@ Uma entrada de texto adicional é uma cadeia de texto estático, com até 255 ca
 
 ### <a name="restrict-access-to-a-reporting-unit"></a>Restringir o acesso a uma unidade de relatório
 
-Você pode impedir que certos usuários e grupos acessem uma unidade de relatório. Você também pode definir restrições para que elas se apliquem aos relatórios secundários da unidade de geração de relatórios.
+Você pode impedir que certos usuários e grupos acessem uma unidade de relatório. Você também pode definir restrições para que elas se apliquem aos relatórios secunDiários da unidade de geração de relatórios.
 
 1.  No Designer de Relatórios, abra a definição de árvore de relatório a ser modificada.
 2.  Clique duas vezes na célula **Segurança de Unidade** para a qual a linha da unidade organizacional restringe acesso.
@@ -206,7 +206,7 @@ Os exemplos a seguir mostram informações possíveis usadas em uma definição 
 
 [![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
-# <a name="see-also"></a>Consulte também
+# <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
 

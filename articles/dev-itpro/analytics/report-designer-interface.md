@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69766e1bf37955bfd4d7253c1b7881780d491d1c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 683d3de59a427df296bb0d3d644f0ec23b3a8e5e
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-designer-interface"></a>Interface do Designer de Relatórios
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo explica como navegar através do Designer de relatórios e como usar as diversas opções para atender a necessidades específicas. 
 
@@ -82,7 +82,7 @@ O menu **Editar** está disponível para usuários com a função **Designer** o
 | Inserir Coluna                          | Inserir uma coluna vazia na definição de coluna. Esse comando está disponível em uma definição de coluna.                                                                                                             |
 | Excluir Coluna                          | Exclui a coluna selecionada na definição de coluna. Esse comando está disponível em uma definição de coluna.                                                                                                         |
 | Inserir Unidades Organizacionais de Dimensões | Abra a caixa de diálogo **Inserir Unidades de Relatório de Dimensões**, na qual você pode selecionar os valores de dimensão a serem incluídos na definição de árvore de relatórios. Esse comando está disponível em uma definição de hierarquia organizacional. |
-| Importar Hierarquia do Conjunto de Dimensões         | Abra a caixa de diálogo **Hierarquia de Conjunto de Dimensões**, na qual você pode importar uma hierarquia de conjunto de dimensões dos dados financeiros. Este comando está disponível em uma definição de árvore de relatórios para um sistema baseado em dimensão.  |
+| Importar Hierarquia do Conjunto de Dimensões         | Abra a caixa de diálogo **Hierarquia de Conjunto de Dimensões**, na qual você pode importar uma hierarquia de conjunto de dimensões dos dados financeiros. Este comando está disponível em uma definição de árvore de relatórios de um sistema baseado em ..\financial-dimensions\dimension-based  |
 | Inserir Unidade de Relatórios                  | Inserir uma linha em branco na definição de árvore de relatórios. Esse comando está disponível em uma definição de hierarquia organizacional.                                                                                                |
 | Excluir Unidade Organizacional                  | Exclui a linha selecionada da unidade organizacional da definição de hierarquia organizacional. Esse comando está disponível em uma definição de hierarquia organizacional.                                                                             |
 
@@ -220,11 +220,11 @@ A barra de ferramentas do designer de relatórios fornece acesso rápido aos com
 | [![Botão Definição de coluna](./media/columnc130389.png)](./media/columnc130389.png)                 | Exibe a definição de coluna atribuída à definição de relatório ativo.                                                                                                 |
 | [![Botão Definição de árvore de relatórios](./media/treec130389.png)](./media/treec130389.png)             | Exibe a definição de hierarquia organizacional atribuída à definição de relatório ativa.                                                                                         |
 | [![Botão Visualizador de Relatórios](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | Inicia o visualizador de relatórios e mostra a versão mais recente do relatório gerado. Este botão está disponível a partir de uma definição de relatório se você gerou pelo menos um relatório. |
-| [![Botão Gerar relatório](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Gerar um relatório a partir da definição de relatório ativo. Este botão está disponível em uma definição de relatório.                                                                      |
+| [![Botão Gerar relatório](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | Gerar um relatório a partir da definição de relatório ativa. Este botão está disponível em uma definição de relatório.                                                                      |
 
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Relatórios financeiros](financial-reporting-intro.md)

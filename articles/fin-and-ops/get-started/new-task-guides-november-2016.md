@@ -18,16 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3db07708df55c24108c66797885318486b2b1003
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7708c8e091ef561c1a4205a1424a51d51d05002f
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-november-2016"></a>Guias de tarefas novos ou atualizados (novembro de 2016)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico lista os Guias de tarefas novos ou atualizados que foram lançados na Biblioteca Unificada APQC (novembro de 2016 - todos idiomas) da Microsoft para Microsoft Dynamics 365 for Operations. Nenhuma nova biblioteca Introdução foi lançada.
 
@@ -587,7 +587,7 @@ A (novembro de 2016 -- todos os idiomas) Biblioteca Unificada APQC contém as Gu
 |                       Configurar automatização de reconciliação de frete                       |     Global     |
 |              <strong>\</strong>*Configurar realocação de item de pouca seleção              |     Global     |
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Novas guias de tarefas disponíveis (fevereiro de 2016)](new-task-guides-available-february-2016.md)

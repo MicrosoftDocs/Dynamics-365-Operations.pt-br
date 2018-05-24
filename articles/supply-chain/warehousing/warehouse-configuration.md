@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9c2f8fd846181c404492ff32907a3396beb90685
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="warehouse-configuration"></a>Configuração de depósito
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo explica como configurar um depósito. Ele inclui informações sobre como habilitar um layout de depósito e processos de depósito.
 
@@ -112,7 +112,7 @@ Como o nome sugere, as diretivas de localização são usadas para direcionar as
 
 Para facilitar e agilizar a definição de ações associadas a cada linha de diretiva da localização, use uma das estratégias predefinidas. Por exemplo, você pode usar a estratégia **Esvaziar a localização sem o trabalho de entrada** para procurar locais livres em um depósito, ou você pode usar a estratégia **Reserva de lotes FEFO** para a separação de saída de vendas.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Configurar localizações em um depósito habilitado para WMS (guia de tarefas)](tasks/configure-locations-wms-enabled-warehouse.md)

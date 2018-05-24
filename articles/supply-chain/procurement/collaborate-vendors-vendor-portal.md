@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 25dd62081e4a6e196bffaa6cc72ff40ed68c736c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>Colaborar com fornecedores por meio do portal do fornecedor
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve como os agentes de compras podem usar o portal do fornecedor para colaborar com os fornecedores externos durante o processo de confirmação da ordem de compra. Estas informações só se aplicam a versões de fevereiro de 2016 &amp; maio de 2016 do Dynamics AX.
 
@@ -96,7 +96,7 @@ A tabela a seguir mostra um exemplo das alterações de status e versão pelas q
 |                           Você envia a nova versão da OC para o portal do fornecedor.                            |                                                                                                                                                                    A nova versão é registrada no portal do fornecedor e o status é alterado para <strong>Em Revisão Externa</strong>.                                                                                                                                                                     |
 |                                O fornecedor aprova a nova versão da OC.                                 |                                                                                                                                                     O status é alterado para <strong>Confirmada</strong> automaticamente ou quando você recebe a resposta do fornecedor e confirma a OC.                                                                                                                                                     |
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Configurando a segurança dos usuários de colaboração do fornecedor](configure-security-vendor-portal-users.md)

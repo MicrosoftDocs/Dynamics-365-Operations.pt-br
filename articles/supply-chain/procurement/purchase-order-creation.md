@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 22264f0d82844e63bc7fc42705184c6ecc27e28d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c71ce3045bd91a136288016cb55b460f7ac787ae
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-purchase-orders"></a>Criar ordens de compra
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 Este artigo descreve o processo e as opções quando você criar manualmente uma ordem de compra.
 
@@ -86,7 +86,7 @@ POs podem ser configurados para exigir que fundos de orçamento sejam alocados p
 
 Talvez seja necessário atrasar a conclusão de uma ordem de compra. Por exemplo, você pode requerer informações adicionais sobre produtos ou serviços, ou talvez você precise obter autorização para o gasto. Há várias maneiras de reter um pedido. Por exemplo, você pode esperar para confirmar a ordem. Como alternativa, se estiver sendo usado um fluxo de trabalho de gerenciamento de alterações, não envie o pedido de aprovação. Se você deve bloquear todos os pedidos para um determinado fornecedor, você também pode marcar o fornecedor como **Em espera** para processamento no mestre de fornecedor. Também há circunstâncias que podem impedir que o pedido esteja sendo processado. Por exemplo, o processamento poderá ser impedido se foram excedidos os limites de crédito ou se for necessário fundos de orçamento que não estão disponíveis.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Visão geral de ordem de compra](purchase-order-overview.md)

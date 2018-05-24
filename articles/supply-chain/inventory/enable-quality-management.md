@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 91cc547becfbd0c0d675d87921aed92eb2ab570d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 79b3127f726a08cc24c20145b5ad9969157a899c
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quality-management-overview"></a>Visão geral do gerenciamento de qualidade
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve como você pode usar o gerenciamento de qualidade no Microsoft Dynamics 365 for Finance and Operations para ajudar a melhorar a qualidade do produto na sua cadeia de suprimentos.
 
@@ -356,7 +356,7 @@ A tabela a seguir fornece mais informações sobre como as ordens de qualidade p
 
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Processos de gerenciamento de qualidade](quality-management-processes.md)

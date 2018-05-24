@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75508af6d6f746b56fc3df3b6b0d730f429161c5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 18920dd3490b69e9668e2d023c5ca1cc094c8126
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="quality-management-processes"></a>Processos de gerenciamento de qualidade
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre o processo de gerenciamento de qualidade para produtos que não estão em conformidade. E descreve como usar a funcionalidade de controle de qualidade, como definir e manter não conformidades, e como lidar com correções.
 
@@ -88,7 +88,7 @@ A página **Correções** permite criar uma lista de não conformidades que deve
 
 É recomendável definir um tipo de documento exclusivo para correões usando a página **Tipo de documento**. Você pode então usar a página **Configuração de relatório** para definir se os comentários para esse tipo de documento serão impressos no relatório de correção. Um relatório impresso de correção exibe informações sobre a não conformidade e as anotações relacionadas de não conformidade. O relatório também inclui informações de correção, como o tipo de diagnóstico, e as anotações de correção relacionadas.
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Habilitando o gerenciamento de qualidade](enable-quality-management.md)

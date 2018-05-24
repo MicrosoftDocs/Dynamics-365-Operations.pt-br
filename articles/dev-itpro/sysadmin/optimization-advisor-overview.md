@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core (Operations, Core)
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c055c673443255f3e6dda5e1179e1ef28d90e693
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c2a957038bfad065361b46e85b8195214779cc2d
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="optimization-advisor-overview"></a>Visão geral do orientador de otimização
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve como você pode usar o Orientador de otimização para ajudar a garantir a configuração ideal do Microsoft Dynamics 365 Finance and Operations.
 
@@ -50,8 +50,6 @@ As políticas de segurança padrão se aplicam às oportunidades de otimização
 Quando você toma a ação em algumas oportunidades de otimização, o sistema calcula o impacto de oportunidade em termos de redução no tempo de execução de processos comerciais. Infelizmente, este recurso não está disponível para todas as oportunidades de otimização.
 
 Para saber mais sobre o Orientador de otimização, assista ao vídeo curto [Orientador de otimização no Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=MRsAzgFCUSQ).
-
-> [!Video https://www.youtube.com/embed/MRsAzgFCUSQ]
 
 ## <a name="optimization-rules"></a>Regras de otimização
 
@@ -93,7 +91,7 @@ Se uma oportunidade não se aplicar à sua função, será possível selecionar 
 
 Para desativar a avaliação de regras específicas, selecione a oportunidade que foi gerada pela regra e depois selecione **Desativar análise**.
 
-## <a name="see-also"></a>Consulte também
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Criar novas regras](./create-rules-optimization-advisor.md)
 

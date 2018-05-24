@@ -38,9 +38,6 @@ Ao abrir os dados da entidade no Excel, é possível visualizar e editar facilme
 
 Para saber mais sobre o uso do suplemento do Excel, assista ao vídeo curto [Criar um modelo do Excel para padrões de cabeçalho e de linha no Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI).
 
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
-
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>Abrir dados da entidade no Excel ao iniciar do Finance and Operations
 1. Em uma página no Finance and Operations, selecione **Abrir no Microsoft Office**.
 

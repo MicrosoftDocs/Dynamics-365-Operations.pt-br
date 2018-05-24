@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 58030df8db467f754ec93ecc3f41585b20f03893
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ee130dd357b5ae678f623630165a1ab787d6ae2c
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-definitions-in-financial-report-designer"></a>Definições de relatório no designer de relatório financeiro
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este artigo fornece informações sobre definições de relatório. Uma definição de relatórios é um componente de relatório (ou bloco de construção) que usa uma definição de linha, uma definição de coluna e uma definição de árvore de relatórios opcional para criar um relatório. Uma definição de relatório também fornece opções e configurações para personalizar um relatório. 
 
@@ -79,8 +79,8 @@ A tabela a seguir descreve as guias em uma definição de relatório e como as i
 <li>Relatórios de detalhe do formato</li>
 <li>Formatar hierarquias organizacionais</li>
 <li>Gerar um relatório de exceção</li>
-<li>Especificar a conversão de moeda</li>
-<li>Detalhes de subtotal e conta de filtro</li>
+<li>Especificar conversão de moeda</li>
+<li>Gerar um subtotal e filtrar detalhes da conta</li>
 </ul></td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ A tabela a seguir descreve as guias em uma definição de relatório e como as i
 
 
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
 [Relatórios financeiros](financial-reporting-intro.md)

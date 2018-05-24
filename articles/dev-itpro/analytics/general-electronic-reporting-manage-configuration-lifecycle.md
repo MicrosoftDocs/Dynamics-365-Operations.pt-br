@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eecd53d181a086a5cf295f54f9fa72aa2960c272
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f3d6463ab07aaaf69a16aa0d59840cbe47427335
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>Gerenciar o ciclo de vida da configuração do Relatório eletrônico
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Este tópico descreve como gerenciar o ciclo de vida de configurações de Relatórios eletrônicos (ER) para a solução do Microsoft Dynamics 365 for Finance and Operations.
 
@@ -74,10 +74,10 @@ Pelos seguintes motivos relacionados a ER, é recomendável projetar configuraç
 
 As configurações de ER projetadas no ambiente de desenvolvimento podem ser carregadas no ambiente de teste da avaliação da configuração (integração adequada do processo, exatidão dos resultados e desempenho) e do controle de qualidade, como exatidão dos direitos de acesso orientados a funções e segregação de direitos. Os recursos que permitem a troca de configuração de ER podem ser usados com essa finalidade. Por fim, as configurações de ER comprovadas podem ser carregadas no LCS, onde poderão ser compartilhadas com os assinantes de serviço ou no ambiente de produção para uso interno, conforme mostrado na ilustração a seguir. ![Ciclo de vida da configuração do ER](./media/ger-configuration-lifecycle.png)
 
-<a name="see-also"></a>Consulte também
+<a name="additional-resources"></a>Recursos adicionais
 --------
 
-[Visão geral do relatório eletrônico](general-electronic-reporting.md)
+[Visão geral de Relatório eletrônico](general-electronic-reporting.md)
 
 
 

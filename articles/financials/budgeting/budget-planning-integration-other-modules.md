@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>Integração do plano de orçamento com outros módulos
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
  Os planos de orçamento podem ser gerados a partir de vários recursos diferentes. Os elementos básicos do processo periódico são iguais para todos os recursos. 
 
@@ -68,7 +68,7 @@ A opção **Histórico** na guia **Destino** permite que você use as datas dos 
 
 O campo **Total agregado por** na parte superior da página também determina a data utilizada. O campo totaliza os valores e, opcionalmente, define a data efetiva para o primeiro dia do ano fiscal ou do período fiscal. 
 
-Vários campos na guia <strong>Destino</strong> se tornam editáveis ou somente leitura, dependendo da ação selecionada. Quando você deixa de criar um novo plano de orçamento para atualizar um plano existente, o campo <strong>Nome do plano de orçamento</strong> se torna indisponível, e os campos relacionados à seleção de um plano existente é disponibilizado. Nas guias <strong>Destino</strong> e <strong>Origem**, o campo **Razão</strong> está sempre indisponível, porque o valor é determinado pelo processo de planejamento de orçamento selecionado. 
+Vários campos na guia <strong>Destino</strong> se tornam editáveis ou somente leitura, dependendo da ação selecionada. Quando você deixa de criar um novo plano de orçamento para atualizar um plano existente, o campo **Nome do plano de orçamento** se torna indisponível, e os campos relacionados à seleção de um plano existente é disponibilizado. Nas guias **Destino** e **Origem**, o campo **Razão** está sempre indisponível, porque o valor é determinado pelo processo de planejamento de orçamento selecionado. 
 
 O campo **Classe de orçamento** permite que você defina as linhas do plano de orçamento como transações de despesa ou transações de receita. Geralmente, as transações de receita são creditados em uma conta contábil e, portanto, são armazenadas como valores negativos. Normalmente, essas transações também aparecem como valores negativos no plano de orçamento. No entanto, ao adicionar a classe de orçamento como um campo no layout do plano, você poderá habilitar a receita para aparecer como valores positivos.
 
