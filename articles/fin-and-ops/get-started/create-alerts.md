@@ -3,7 +3,7 @@ title: Criar alertas
 description: "Este tópico fornece informações sobre os alertas e explica como criar uma regra de alerta para que você seja notificado sobre eventos, como uma data do evento ou uma alteração específica que ocorra."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,18 +17,16 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fbec520054ab41e3b2d92e422d1b5f5276d44e2c
+ms.sourcegitcommit: aa5eab6dbf2cc604239cac199817ead6bef6f3de
+ms.openlocfilehash: ee4e39b37da32507303ae53389c7a8bcee4ab4c7
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/08/2018
 
 ---
 
 # <a name="create-alerts"></a><span data-ttu-id="36ea7-103">Criar alertas</span><span class="sxs-lookup"><span data-stu-id="36ea7-103">Create alerts</span></span>
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="getting-started"></a><span data-ttu-id="36ea7-104">Introdução</span><span class="sxs-lookup"><span data-stu-id="36ea7-104">Getting started</span></span>
 <span data-ttu-id="36ea7-105">Antes de configurar uma regra de alerta, decida quando ou em quais situações deseja receber alertas.</span><span class="sxs-lookup"><span data-stu-id="36ea7-105">Before you set up an alert rule, decide when or in what situations you want to receive alerts.</span></span> <span data-ttu-id="36ea7-106">Quando souber qual evento deseja ser notificado, no Microsoft Dynamics 365 for Finance and Operations localize a página na qual aparecem os dados que causam o evento.</span><span class="sxs-lookup"><span data-stu-id="36ea7-106">When you know which event you want to be notified about, in Microsoft Dynamics 365 for Finance and Operations find the page where the data that causes that event appears.</span></span> <span data-ttu-id="36ea7-107">O evento pode ser uma data de ocorrência ou uma alteração específica que ocorra.</span><span class="sxs-lookup"><span data-stu-id="36ea7-107">The event can be a date that arrives or a specific change that occurs.</span></span> <span data-ttu-id="36ea7-108">Portanto, você deve encontrar a página na qual a data é especificada ou onde aparece o campo que é alterado ou o novo registro que é criado.</span><span class="sxs-lookup"><span data-stu-id="36ea7-108">Therefore, you must find the page where the date is specified, or where the field that changes or the new record that is created appears.</span></span> <span data-ttu-id="36ea7-109">Quando tiver estas informações, você poderá criar a regra de alerta.</span><span class="sxs-lookup"><span data-stu-id="36ea7-109">After you have this information, you can create the alert rule.</span></span>
