@@ -1,16 +1,16 @@
 ---
 title: "Configurar liquidação"
-description: "Como e quando as transações são liquidadas podem ser assuntos complexos, é essencial que você insira corretamente e defina os parâmetros para atender às suas necessidades comerciais. Este artigo descreve os parâmetros usados para pagamento de contas a pagar e contas a receber."
+description: "Como e quando as transações são liquidadas podem ser assuntos complexos, é essencial que você insira corretamente e defina os parâmetros para atender às suas necessidades comerciais. Este tópico descreve os parâmetros usados para pagamento de contas a pagar e contas a receber."
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 05/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ed520ce3a67fab81da24b36b042152f530d75dd
+ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
+ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Como e quando as transações são liquidadas podem ser assuntos complexos, é essencial que você insira corretamente e defina os parâmetros para atender às suas necessidades comerciais. Este artigo descreve os parâmetros usados para pagamento de contas a pagar e contas a receber. 
+Como e quando as transações são liquidadas podem ser assuntos complexos, é essencial que você insira corretamente e defina os parâmetros para atender às suas necessidades comerciais. Este tópico descreve os parâmetros usados para pagamento de contas a pagar e contas a receber. 
 
 Os parâmetros a seguir afetam como as liquidações são processadas no Microsoft Dynamics 365 for Finance and Operations. A liquidação é o processo de liquidar uma fatura em relação a um pagamento ou nota de crédito. Esses parâmetros estão alocados na área **Liquidação** das páginas **Parâmetros de contas a receber** e das páginas **Parâmetros das contas a pagar**.
 
@@ -43,7 +43,7 @@ Os parâmetros a seguir afetam como as liquidações são processadas no Microso
   -   Se o pagamento excedente ou faltante produzir uma diferença menor que a diferença definida no campo **Máxima diferença mínima**, o valor da diferença de centavos será lançado na conta de diferença de centavos.
   -   Se o pagamento excedente ou faltante produzir uma diferença maior que a diferença definida no campo **Diferença máxima de centavos**, o valor da diferença de centavos será lançado na conta de diferença selecionada para o tipo de lançamento **Desconto à vista do cliente** ou **Desconto à vista do fornecedor** na página **Contas para transações automáticas**.
 - **Calcule descontos à vista para pagamentos parciais** – Defina esta opção como **Yes** para permitir que os descontos à vista sejam calculados automaticamente para pagamentos parciais.
-  -   Este efeito dessa opção depende do campo **Usar desconto à vista** na página **Liquidar transações**. Se essa opção estiver definida como **Yes**, o desconto será executado quando o campo **Use o desconto à vista** estiver definido como **Normal**. Quando o campo **Use o desconto à vista** estiver definido como **Sempre**, o desconto à vista será sempre considerado, independente das definições deste campo. Quando o campo **Use o desconto à vista** estiver definido como **Sempre**, o desconto à vista nunca será considerado, independente das definições deste campo.
+  -   O efeito dessa opção depende do valor no campo **Usar desconto à vista** na página **Liquidar transações**. Se essa opção estiver definida como **Yes**, o desconto será executado quando o campo **Use o desconto à vista** estiver definido como **Normal**. Quando o campo **Use o desconto à vista** estiver definido como **Sempre**, o desconto à vista será sempre considerado, independente das definições deste campo. Quando o campo **Use o desconto à vista** estiver definido como **Sempre**, o desconto à vista nunca será considerado, independente das definições deste campo.
   -   Se essa opção estiver selecionada como **Sim** e um usuário alterar o valor no campo **Valor a ser liquidado** na página **Liquidar transações abertas**, o desconto será calculado automaticamente e exibido como a entrada padrão no campo **Valor do desconto à vista a ser obtido**.
   -   Se essa opção estiver definida como **Não**, e um usuário alterar o valor no campo **Valor a ser liquidado** na página **Liquidar transações**, a entrada padrão no campo **Valor do desconto à vista a ser obtido** é **0**.
 - **Calcular descontos à vista para notas de crédito** – Defina esta opção como **Yes** para calcular automaticamente um desconto à vista para notas de crédito. Em Contas a receber, uma transação de nota de crédito é uma transação negativa que tem um valor no campo **fatura** na página **fatura de texto livre** ou um retorno na página **Ordem de venda**.
@@ -58,7 +58,14 @@ Os parâmetros a seguir afetam como as liquidações são processadas no Microso
 - **Priorizar a liquidação (somente AR)** – Defina esta opção como **Sim** para permitir o botão **Marcar pro prioridade** nas páginas **Inserir pagamentos do cliente** e **Liquidar transações**. Este botão permite que os usuários atribuam a ordem predeterminada de liquidação às transações.  Depois que a ordem de pagamento foi aplicada a uma transação, a ordem e a alocação de pagamento podem ser alteradas antes do lançamento.
 - **Use a prioridade para liquidações automáticos** – Defina esta opção como **Sim** para usar a ordem de prioridade definida quando as transações forem liquidadas automaticamente. Este campo só estará disponível se as opções **Priorizar liquidação** e **Liquidação automática** estiverem definidas como **Sim**.
 
+## <a name="fixed-dimensions-on-accounts-receivableaccounts-payable-main-accounts"></a>Dimensões fixas em contas principais do contas a pagar/contas a receber
 
+Quando as dimensões fixas forem usadas em contas principais de contas a pagar/contas a receber, as entradas contábeis adicionais e duas transações adicionais do fornecedor serão lançadas pelo processo de liquidação. A liquidação compara a conta contábil de contas a receber/contas a pagar da fatura e do pagamento.  Quando o pagamento e a liquidação são concluídas juntas, o que é o cenário comum, a entrada contábil do pagamento não é lançada na contabilidade enquanto o processo de liquidação também não for concluído. Devido à ordem de processamento de eventos, a liquidação não consegue determinar a conta contábil real do contas a pagar/contas a receber da entrada contábil do pagamento. A liquidação reconstrói o que a conta contábil será para o pagamento. Isso se torna um problema quando uma dimensão fixa é usada para a conta principal de contas a receber/contas a pagar.
 
+Para reconstruir a conta contábil, a conta principal do contas a receber/contas a pagar é recuperada do perfil de lançamentos e as dimensões financeiras são recuperadas do registro de transação do fornecedor para o pagamento, conforme definido no diário de pagamento. As dimensões fixas não são usadas como padrão em diários de pagamentos, mas são aplicadas à conta principal como a última etapa do processo de lançamento. Como resultado, o valor fixo da dimensão provavelmente não está contido na transação do fornecedor, a menos que seja usado como padrão de outra origem, como o fornecedor. A conta reconstruída não incluirá a dimensão fixa. O processamento da liquidação determinará se uma entrada ajustável deverá ser criada porque a fatura é lançada com o valor de dimensão fixa e a conta de pagamento reconstruída não.  Como a liquidação continua com o lançamento da entrada ajustável, a última etapa no lançamento é para a dimensão fixa ser aplicada. Adicionando a dimensão fixa à entrada ajustável, ela é contabilizada com um débito e crédito para a mesma conta contábil. A liquidação não pode reverter a entrada contábil.
 
+Para evitar entradas contábeis adicionais, o débito e crédito para a mesma conta contábil, devem ser consideradas as seguintes soluções alternativas, dependendo de seus requisitos de negócios. 
+
+-   As organizações frequentemente usam dimensões fixas para preencher com zeros uma dimensão fixa que não é necessária. Isso geralmente ocorre para contas de balanço, como contas a receber/contas a pagar. As estruturas de conta podem ser usadas para não rastrear dimensões financeiras que geralmente são preenchidas com zero.  Você pode remover a dimensão financeira de contas de balanço, eliminando a necessidade de usar dimensões fixas.
+-   Se sua organização precisar de dimensões fixas na conta principal de contas a receber/contas a pagar, encontre uma maneira de usar a dimensão fixa como padrão no pagamento, de forma que o valor da dimensão fixa seja armazenado na transação do fornecedor para o pagamento. Isto permitirá que o sistema reconstrua a conta principal de contas a receber/contas a pagar para incluir valores fixos de dimensão. O valor da dimensão fixa pode ser definido como padrão nos fornecedores ou no nome do diário do diário de pagamento.
 

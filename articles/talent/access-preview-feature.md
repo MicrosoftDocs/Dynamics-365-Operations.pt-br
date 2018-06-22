@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2e5dd8f852ac1a6c2997a50a60f03db6adfd218c
-ms.openlocfilehash: 5500bfc1cdd1949d301ae82fad5506dfdbeb59f3
+ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
+ms.openlocfilehash: 63e0a52919e12c1f497e6809244939c6047826a7
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/01/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 
@@ -72,8 +72,6 @@ Você pode usar a configuração **Visualizar recursos** no Microsoft Dynamics 3
     > Trabalhos que são lançados estão visíveis somente para clientes que assinam um ou vários produtos de emprego do LinkedIn. Caso contrário, os clientes veem um trabalho apenas se eles procurarem explicitamente por ele. Há um atraso quando os trabalhos são postados no LinkedIn. Um trabalho pode levar algumas horas para aparecer depois de ser postado do Attract.
 
 - **Aplicação de candidato** – Os candidatos internos e externos agora podem se candidatar diretamente da página de trabalho no site de carreira.
-- **Avaliações** – Como parte do processo de contratação configurável, seja para um trabalho específico ou quando um modelo de trabalho é utilizado, agora usuários têm acesso a um novo tipo da atividade **Avaliação**. Eles podem usar o projeto: aplicativo "Gauge" no Talent para criar avaliações básicas que eles podem enviar aos candidatos. Projeto: "Gauge" também está em visualização pública. Os provedores adicionais serão adicionados no futuro.
-- **Projeto: "Gauge"** – Projeto: "Gauge" em um aplicativo em Talent que permite que os usuários criam avaliações simples ou pesquisas.
 - **Gerenciamento de oferta** – Os usuários agora podem criar cartas de oferta de modelos que incluam espaços reservados. Conforme os candidatos avançam para o estágio de oferta, os gerentes de recrutadores e contratantes podem usar a ferramenta de oferta para preparar uma oferta formal de candidato por meio de templates, enviar a oferta para aprovação interna, e, finalmente, enviar a oferta para o candidato para assinatura. Muitos recursos novos serão adicionados à ferramenta de oferta ao longo do tempo, e o recurso de exibição será atualizado com essas funcionalidades quando estivermos prontos para o liberar para visualização.
 
 ### <a name="core-hr"></a>Core HR
@@ -90,7 +88,7 @@ Independentemente se os comentários são positivos ou negativos, desejamos sabe
     - [Atrair ideias](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
     - [Core HR](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
 
-Não inclua dados pessoais (qualquer informação que pode te identificar) em seus comentários ou envios de análise do produto. Informações que são coletadas podem ser analisadas mais profundamente, e elas não serão usadas para atender a solicitações em leis aplicáveis de privacidade. Dados pessoais que são coletados separadamente nestes programas estão sujeitos à [Política de Privacidade online da Microsoft](https://privacy.microsoft.com/en-us/privacystatement).
+Não inclua dados pessoais (qualquer informação que pode te identificar) em seus comentários ou envios de análise do produto. Informações que são coletadas podem ser analisadas mais profundamente, e elas não serão usadas para atender a solicitações em leis aplicáveis de privacidade. Dados pessoais que são coletados separadamente nestes programas estão sujeitos à [Política de Privacidade online da Microsoft](https://privacy.microsoft.com/privacystatement).
 
 > [!TIP]
 > Marque esse tópico e o revise com frequência para se manter atualizado sobre novos lançamentos de recursos conforme os lançamos.

@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a05fec7b79003d5b98470d85644d70bd1dbac285
-ms.openlocfilehash: 9e0c61505a8af864d7ff38655e7e896c4f6ccb65
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: e952a2f988645ccff7617817262cbf0e90bfd8ab
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -94,10 +94,7 @@ Podem baixar um arquivo zip para o pacote de dados. Este arquivo contém todos o
 
 O log **Exibir execução** fornece informações detalhadas sobre cada entidade de dados que é importada. Você pode usar a exibição de preparação de dados para obter dados de destino rapidamente. Assim, você pode ver os dados importados nas páginas relacionadas no aplicativo. Ao usar os modelos de dados padrão, a sequência de importação de cada entidade de dados em forma predefinida, ajuda a garantir que os dados dependentes são importados primeiro. Se as entidades de dados personalizados fizerem parte do projeto, você deve garantir que a sequência correta foi definida. Para obter mais informações, consulte [Modelos de dados de configuração](../../dev-itpro/data-entities/configuration-data-templates.md).
 
-Para saber mais sobre como usar o modelo de depósito para copiar a configuração de um depósito de uma empresa para uma nova empresa na mesma a instância, assista a este vídeo de 3 minutos de duração no YouTube.
-
-> [!Video https://www.youtube.com/embed/K2WIfFlqJYs]
-
+Para saber como usar o modelo de depósito para copiar a configuração de depósito de uma empresa em uma nova empresa dentro da mesma instância, assista a este vídeo de 3 minutos no YouTube: [Use warehouse template to copy configuration in Microsoft Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=K2WIfFlqJYs).
 
 ## <a name="related-topic"></a>Tópico relacionado
 
