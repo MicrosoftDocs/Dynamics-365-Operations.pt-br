@@ -1,28 +1,28 @@
 ---
 title: "Gerenciamento de serviços"
 description: "Use Gerenciamento de serviço para estabelecer contratos de serviço e subscrições de serviço, lidar com ordens de serviço e consultas de cliente e gerenciar e analisar a entrega de serviços a clientes."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 05/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAServiceOrderTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: 236ab21b2d1c5a4e82270e5381d163e97437cb7f
+ms.sourcegitcommit: 80a3cb74279f72e8cb94f3a2c38230f409067a47
+ms.openlocfilehash: 89035687d87c674cca7fa5fd3126100c4c0ad892
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/24/2018
 
 ---
 
@@ -44,7 +44,7 @@ Você pode criar ordens de serviço para gerenciar informações sobre visitas p
 
 4.  Algumas despesas e taxas relacionadas ao serviço ou reparo
 
-Os clientes podem enviar solicitações de serviço com a Internet usando Portal Empresarial. É possível receber, processar e para despachar essas solicitações. Depois de criar uma ordem de serviço, você pode usar as fases de serviço para monitorar o andamento e especificar as regras que controlam quais ações estão habilitadas em cada fase. Quando uma ordem de serviço é concluída, você pode se desconectar da ordem para confirmar que está concluída e lançar a ordem para iniciar o processo da fatura.
+É possível receber, processar e expedir solicitações de serviços. Depois de criar uma ordem de serviço, você pode usar as fases de serviço para monitorar o andamento e especificar as regras que controlam quais ações estão habilitadas em cada fase. Quando uma ordem de serviço é concluída, você pode se desconectar da ordem para confirmar que está concluída e lançar a ordem para iniciar o processo da fatura.
 
 Use as ferramentas de relatório para monitorar transações de subscrição e margens da ordem de serviço e descrições de trabalho de impressão e recebimentos de trabalho.
 
@@ -56,47 +56,19 @@ O diagrama a seguir ilustra os processos comerciais de alto nível para **Gerenc
 
 ## <a name="service-management-at-a-glance"></a>Visão geral do gerenciamento de serviços
 
-<table>
-<col style="width: 33%" />
-</colgroup>
-<thead>
-<tr class="header">
-<th><p>Tarefas importantes</p></th>
-<th><p>Principais formulários</p></th>
-<th><p>Relatórios conhecidos</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td><p>Preencher contrato de serviço</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa617823(v=ax.60)">Contratos de serviço (formulário)</a></p></td>
-<td><p><strong>Margem de ordem de serviço</strong></p></td>
-</tr>
-<tr class="even">
-<td><p>Tratar consultas de cliente</a></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/aa554361(v=ax.60)">Ordens de serviço (formulário)</a></p></td>
-<td><p><strong>Descrição do trabalho</strong></p></td>
-</tr>
-<tr class="odd">
-<td><p></p></td>
-<td><p><a href="https://technet.microsoft.com/en-us/library/hh242789(v=ax.60)">Quadro de expedição (formulário)</a></p></td>
-<td><p><strong>Transação - Subscrição</strong></p></td>
-</tr>
-<tr class="even">
-<td><p></p></td>
-<td><p></p></td>
-<td><p><strong>Transações de taxa de subscrição</strong></p></td>
-</tr>
-</tbody>
-</table>
+|Tarefas importantes           | Páginas principais                         |Relatórios conhecidos              |
+|--------------------------|---------------------------------------|-----------------------------|
+|Cumprir contratos de serviço|Contratos de serviço                     |Margem de ordem de serviço         |
+|Tratar consultas de cliente |Ordens de serviço                         |Descrição do trabalho             |
+|                          |Quadro de expedição                         |Transação - Subscrição   |
+|                          |                                       |Transações de taxa de subscrição|
 
 
 ## <a name="integration-of-service-management"></a>Integração do gerenciamento de serviços
 
-O gerenciamento de serviço pode ser integrado aos seguintes módulos no Microsoft Dynamics 365 for Finance and Operations:
+O gerenciamento de serviços pode ser integrado aos seguintes módulos:
 
   - [Vendas e marketing](../sales-marketing/overview-sales-marketing.md)
-
   - [Recursos humanos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/index)
 
   

@@ -1,6 +1,6 @@
 ---
-title: "Conteúdo do Power BI de desempenho financeiro"
-description: "Este tópico descreve o Conteúdo do Power BI de desempenho financeiro."
+title: "Solução de desempenho financeiro do PowerBI.com"
+description: "Este tópico descreve a solução de desempenho financeiro do PowerBI.com."
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
@@ -18,26 +18,26 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: d062937d8d1cb7d8e4f4cc055eb4514fa56b4eab
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: b70d470da2160670848d2dca9c97f6d7a2d6cf60
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
-# <a name="financial-performance-power-bi-content"></a>Conteúdo do Power BI de desempenho financeiro
+# <a name="financial-performance-powerbicom-solution"></a>Solução de desempenho financeiro do PowerBI.com
 
 [!include [banner](../includes/banner.md)]
 
 > [!Note]
-> Esse bloco de conteúdo foi substituído, conforme documentado no [Pacotes de conteúdo do Power BI disponíveis no AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
+> Esta solução do PowerBI.com foi substituída, conforme documentado em [Blocos de conteúdo do Power BI disponíveis em AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
 
-Este tópico descreve o Conteúdo do Microsoft Power BI de **Desempenho financeiro**. Ele descreve o painel e os relatórios incluídos, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
+Este tópico descreve a solução de **Desempenho financeiro** do PowerBI.com. Ele descreve o painel e os relatórios incluídos, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar a solução.
 
 ## <a name="main-account-setup"></a>Configuração da conta principal
 Como as organizações querem que os valores de passivos e receitas apareçam como valores positivos nos relatórios, é importante a instalação de contas principais. Para que as contas principais apareçam como os valores positivos, o tipo de conta principal deve ser definido como **Passivo** ou **Receita**. Quando esses tipos de conta são usados, os relatórios no Power BI reverterão os sinais e mostrarão os valores como positivos.
 
-## <a name="dashboard-and-reports-that-are-included-in-the-power-bi-content"></a>Painéis e relatórios incluídos no conteúdo do Power BI
+## <a name="dashboard-and-reports-that-are-included-in-the-powerbicom-solution"></a>Painéis e relatórios incluídos na solução PowerBI.com
 O painel contém blocos de dados resumidos baseados em relatórios subjacentes. Cada bloco contém informações resumidas sobre o ano atual em todas as empresas de uma organização. Estes são alguns dos blocos:
 
 - Pagamento à vista
@@ -74,7 +74,7 @@ Cada bloco é respaldado por um relatório de suporte. Esses relatórios contêm
 Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixados no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
-As entidades a seguir foram usadas como base do conteúdo do Power BI de **Desempenho financeiro**:
+As entidades a seguir foram usadas como base da solução **Desempenho financeiro** do PowerBI.com:
 
 **Entidades de dados agregados**
 

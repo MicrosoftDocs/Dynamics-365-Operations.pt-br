@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
+ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
+ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/07/2018
 
 ---
 
@@ -158,7 +158,7 @@ A sincronização dos valores **Previsto** versus **Usado** é gerenciada por me
     - **Linha de produtos:** Qtd. Prevista = 5ea, Qtd. Usada = 6ea, Status da Linha = Usado, Alocado = Sim
     - **Linha de serviço:** Qtd. Prevista = 2h, Qtd. Usada = 1,5h, Status da Linha = Usado
 
-    Neste exemplo, o valor **Qtd Usada** do produto de **6** e o valor **Qtd Prevista** do serviço de **1,5h** são sincronizados com o Finance and Operations.
+    Neste exemplo, o valor **Qtd Usada** do produto de **6** e o valor **Qtd Usada** do serviço de **1,5h** são sincronizados com o Finance and Operations.
 
 ## <a name="sales-order-origin-and-status"></a>Origem e status da ordem de venda
 

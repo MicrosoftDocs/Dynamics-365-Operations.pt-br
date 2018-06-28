@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: da48a9eef118a7a369343c986e4b67f53266f7e1
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: 4de2ac36ec13f95c7603d097a0800b317014bbd0
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/22/2018
 
 ---
 
@@ -121,6 +121,9 @@ Uma fatura de texto livre é uma fatura que não está associada a uma ordem de 
 
 Uma nota fiscal pro forma é uma nota fiscal preparada como uma previsão dos valores da nota fiscal real antes de a nota fiscal ser lançada. Você pode imprimir uma nota fiscal pro forma de uma nota fiscal de cliente ou de uma nota fiscal de texto livre.
 
+### <a name="additional-resources"></a>Recursos adicionais
 
+#### <a name="blogs"></a>Blogs
 
+Você pode localizar uma visão geral de um processo de venda no post [Como as vendas funcionam no Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/05/15/how-sales-work-in-dynamics-365-for-finance-and-operations).
 
