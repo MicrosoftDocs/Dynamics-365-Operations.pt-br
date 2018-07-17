@@ -3,7 +3,7 @@ title: "Visão geral dos alertas"
 description: "Este tópico fornece informações gerais sobre alertas no Microsoft Dynamics 365 for Finance and Operations. Você pode usar alertas para manter-se informado sobre os eventos que deseja acompanhar durante o dia útil."
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,18 +17,16 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1232e4ec7676403c826787b724b6cca82c1e93f6
+ms.sourcegitcommit: ec005285eb561f77c005f8d84eeff69c37ce6833
+ms.openlocfilehash: a3145cad682177ae3be2450889f788d695b25df4
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 07/16/2018
 
 ---
 
 # <a name="alerts-overview"></a><span data-ttu-id="111a1-104">Visão geral dos alertas</span><span class="sxs-lookup"><span data-stu-id="111a1-104">Alerts overview</span></span>
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a><span data-ttu-id="111a1-105">Sobre alertas</span><span class="sxs-lookup"><span data-stu-id="111a1-105">About alerts</span></span>
 <span data-ttu-id="111a1-106">Alertas de um sistema de notificação para eventos críticos no Microsoft Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="111a1-106">Alerts form a notification system for critical events in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="111a1-107">Você pode usar alertas para manter-se informado sobre os eventos que deseja acompanhar durante o dia útil.</span><span class="sxs-lookup"><span data-stu-id="111a1-107">You can use alerts to stay informed about events that you want to track during the workday.</span></span> <span data-ttu-id="111a1-108">Você pode criar facilmente seu próprio conjunto de regras de alerta para ser alertado sobre entregas atrasadas, ordens excluídas, preços alterados ou outros eventos pelos quais você deve ser o responsável.</span><span class="sxs-lookup"><span data-stu-id="111a1-108">You can easily create your own set of alert rules so that you're alerted about deliveries that are overdue, orders that are deleted, prices that change, or other events that you must respond to.</span></span>

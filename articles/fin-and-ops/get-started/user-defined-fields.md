@@ -3,7 +3,7 @@ title: Campos personalizados
 description: "Este tópico mostra como o Microsoft Dynamics 365 for Finance and Operations permite que alguns usuários criem campos personalizados para adequar o aplicativo à sua empresa."
 author: jasongre
 manager: AnnBe
-ms.date: 04/18/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,18 +17,16 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: f2aa55ae4258f5ef81456b92278415297c194d66
+ms.sourcegitcommit: ec005285eb561f77c005f8d84eeff69c37ce6833
+ms.openlocfilehash: d9f64f4f92c40630c80689d11d54bfdbb2977237
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 07/16/2018
 
 ---
 
 # <a name="custom-fields"></a><span data-ttu-id="852f0-103">Campos personalizados</span><span class="sxs-lookup"><span data-stu-id="852f0-103">Custom fields</span></span>
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 <span data-ttu-id="852f0-104">Embora o Microsoft Dynamics 365 for Finance and Operations forneça um conjunto extensivo de campos imediatos para gerenciar uma ampla gama de processos de negócios, às vezes uma empresa precisa rastrear informações adicionais no sistema.</span><span class="sxs-lookup"><span data-stu-id="852f0-104">While Microsoft Dynamics 365 for Finance and Operations provides an extensive set of fields out-of-the-box for managing a broad range of business processes, sometimes there is a need for a company to track additional information in the system.</span></span> <span data-ttu-id="852f0-105">Para acomodar essa necessidade, o Finance and Operations permite criar campos personalizados para adequar o aplicativo à sua empresa, desde que você tenha permissões para o recurso.</span><span class="sxs-lookup"><span data-stu-id="852f0-105">To accommodate this need, Finance and Operations allows you to create custom fields to tailor the application to fit your business, provided you have permissions to the feature.</span></span> 
 
