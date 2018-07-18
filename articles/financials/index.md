@@ -33,16 +33,16 @@ Esta seção oferece uma lista de tópicos da Ajuda e outros recursos de gerenci
 
 Escolha uma área de recursos para saber mais a respeito.
 
-:::linha::: :::coluna::: - [Contas a pagar](accounts-payable/accounts-payable.md) 
+:::row::: :::column::: - [Contas a pagar](accounts-payable/accounts-payable.md) 
         - [Contas a receber](accounts-receivable/accounts-receivable.md)
         - [Orçamento](budgeting/budgeting-overview.md) 
         - [Gerenciamento de pagamentos à vista e bancos](cash-bank-management/cash-bank-management.md)
-        - [Contabilização de custo](cost-accounting/cost-accounting-home-page.md) :::fim-da-coluna::: :::coluna::: - [Gerenciamento de despesas](expense-management/expense-management.md)
+        - [Contabilização de custo](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [Gerenciamento de despesas](expense-management/expense-management.md)
         - [Relatório financeiro](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [Ativos fixos](fixed-assets/fixed-assets.md)
         - [Contabilidade](general-ledger/general-ledger.md) 
         - [Gerenciamento de projetos](project-management/overview-project-management-accounting.md)
-        - [Setor público](public-sector/public-sector-functionality.md) :::fim-da-coluna::: :::fim-da-linha:::
+        - [Setor público](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
 
 
 ## <a name="additional-resources"></a>Recursos adicionais

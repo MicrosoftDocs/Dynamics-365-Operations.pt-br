@@ -43,17 +43,17 @@ Você pode criar faturas de cliente com base em ordens de venda ou guias de reme
 
 Use Contas a receber para rastrear faturas de cliente e pagamentos que você recebe dos clientes. É possível definir grupos de clientes, clientes, perfis de lançamentos, notas de juros, cartas de cobrança, comissões e parâmetros referentes a clientes, encargos, entregas e destinos, letras de câmbio e outros tipos de informações de Contas a receber. 
 
-:::linha::: :::coluna::: - [Distribuições contábeis e entradas no diário-razão auxiliar para faturas em texto livre](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+:::row::: :::column::: - [Distribuições contábeis e entradas no diário-razão auxiliar para faturas em texto livre](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
         - [Perfis de lançamento de cliente](customer-posting-profiles.md)
         - [Configuração, autorização e captura de cartão de crédito](credit-card-authorizations.md)
         - [Criar uma fatura de cliente](configure-customer-invoices.md)
         - [Configurar e processar faturas recorrentes](set-up-process-recurring-invoices.md)
-        - [Corrigir uma fatura em texto livre](correct-free-text-invoice.md) :::fim-da-coluna::: :::coluna::: - [Configurar letras de câmbio](set-up-bills-exchange.md)
+        - [Corrigir uma fatura em texto livre](correct-free-text-invoice.md) :::column-end::: :::column::: - [Configurar letras de câmbio](set-up-bills-exchange.md)
         - [Configurar taxas de juros para um código de juros](set-up-interest-rates-interest-code.md)
         - [Cancelar, restabelecer ou reverter taxas de juros](waive-reinstate-reverse-interest-fees.md)
         - [Carta de ordem de débito direto SEPA](sepa-direct-debit-overview.md)
         - [Configurar Carta de ordem de débito direto SEPA](sepa-direct-debit-mandate.md)
-        - [Fechar Contas a receber](close-accounts-receivable.md) :::fim-da-coluna::: :::fim-da-linha:::
+        - [Fechar Contas a receber](close-accounts-receivable.md) :::column-end::: :::row-end:::
 
 
 ## <a name="set-up-credit-and-collections"></a>Configurar crédito e cobranças
@@ -70,13 +70,13 @@ As informações de cobranças de Contas a receber são gerenciadas em uma exibi
 
 Aceite tipos diferentes de pagamentos de clientes, como letras de câmbio, pagamento à vista, cheques, cartões de crédito e pagamentos eletrônicos. 
 
-:::linha::: :::coluna::: - [Use um pagamento de cliente para liquidar várias faturas que abrangem vários períodos de desconto](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+:::row::: :::column::: - [Use um pagamento de cliente para liquidar várias faturas que abrangem vários períodos de desconto](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
         - [Pagamentos centralizados para Contas a receber](centralized-payments-accounts-receivable.md)
         - [Liquidar um pagamento parcial de cliente e do pagamento final antes da data do desconto](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [Liquidar um pagamento parcial de cliente antes da data do desconto com um pagamento final após a data de desconto](settle-partial-customer-payment-before-discount-or-final-payment-after.md) :::fim-da-coluna::: :::coluna::: - [Liquidar um pagamento parcial de cliente com descontos em notas de crédito](settle-partial-customer-payment-discounts-credit-notes.md)
+        - [Liquidar um pagamento parcial de cliente antes da data do desconto com um pagamento final após a data de desconto](settle-partial-customer-payment-before-discount-or-final-payment-after.md) :::column-end::: :::column::: - [Liquidar um pagamento parcial de cliente com descontos em notas de crédito](settle-partial-customer-payment-discounts-credit-notes.md)
         - [Liquidar um pagamento parcial de cliente com vários períodos de desconto](settle-partial-customer-payment-multiple-discount-periods.md)
         - [Reembolsar clientes](reimburse-customers.md)
-        - [Pagamentos de cliente de um valor parcial](customer-payments-partial-amount.md) :::fim-da-coluna::: :::fim-da-linha:::
+        - [Pagamentos de cliente de um valor parcial](customer-payments-partial-amount.md) :::column-end::: :::row-end:::
 
 
 ### <a name="additional-resources"></a>Recursos adicionais
