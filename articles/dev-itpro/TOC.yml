@@ -1010,10 +1010,12 @@
       items:
         - name: ​Criar um pacote implantável​
           href: deployment/create-apply-deployable-package.md
-        - name: Aplicar atualizações a um ambiente em nuvem
+        - name: Aplicar atualizações a um ambiente de nuvem
           href: deployment/apply-deployable-package-system.md
         - name: ​Instalar um pacote implantável​
           href: deployment/install-deployable-package.md
+        - name: Desinstalar um pacote
+          href: deployment/uninstall-deployable-package.md
         - name: Solucionar problemas de aplicação do pacote
           href: deployment/deployable-package-troubleshooting.md
 - name: 'Upgrades, atualizações, e hotfixes'
