@@ -1,9 +1,9 @@
 ---
-title: "Gerenciamento de gaveta de pagamento e à vista"
-description: "Este artigo explica como configurar e usar os dois tipos de ponto de varejo de turnos de venda (POS): compartilhado e autônomo. Turnos compartilhados podem ser usados por vários usuários em vários locais, enquanto os turnos autônomos podem ser usados por somente um trabalhador por vez."
-author: rubencdelgado
+title: Gerenciamento de turnos e gaveta de dinheiro
+description: "Este tópico explica como configurar e utilizar turnos no ponto de venda (PDV) de varejo."
+author: jblucher
 manager: AnnBe
-ms.date: 02/15/2018
+ms.date: 05/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,138 +20,120 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: c1483d3240d266845cea7789b70c038cb98fdfcc
+ms.sourcegitcommit: da5519eb0746347905e3b3d3d81161850c429f57
+ms.openlocfilehash: f0856a3a36ff97773c0fadbe94fe680762c5206b
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 06/22/2018
 
 ---
 
-# <a name="shift-and-cash-drawer-management"></a>Gerenciamento de gaveta de pagamento e à vista
+# <a name="shift-and-cash-drawer-management"></a>Gerenciamento de turnos e gaveta de dinheiro
 
 [!include [banner](includes/banner.md)]
 
-Este artigo explica como configurar e usar os dois tipos de ponto de varejo de turnos de venda (POS): compartilhado e autônomo. Turnos compartilhados podem ser usados por vários usuários em vários locais, enquanto os turnos autônomos podem ser usados por somente um trabalhador por vez.
+Este tópico explica como configurar e utilizar turnos no ponto de venda (PDV) de varejo. 
 
-Há dois tipos de ponto de varejo de turnos de venda (POS): independente e compartilhado. Turnos autônomos podem ser usados por somente um trabalhador por vez. Turnos compartilhados podem ser usados por vários usuários em vários locais. Portanto, eles efetivamente criam um turno único para vários trabalhadores em uma loja.
+No Microsoft Dynamics 365 for Retail, o termo *turno* descreve o conjunto de dados transacionais e atividades de PDV entre dois momentos. Para cada turno, o valor em dinheiro esperado é comparado ao valor que foi contado e declarado.
 
-## <a name="standalone-shifts"></a>Turnos autônomos
-Turnos autônomos são usados em um cenário de POS tradicional, fixo, onde o dinheiro é reconciliado independente de cada registradora de POS. Por exemplo, em uma configuração de supermercado, normalmente existem diversos terminais de PDV fixos, e um caixa é atribuído a cada terminal. Nesse caso, cada registradora provavelmente usará um turno autônomo e o caixa é responsável pela gaveta ou físico à vista no registrador. Um turno autônomo engloba todas as atividades na registradora durante o turno de trabalho da caixa. Atividades podem incluir o valor de abertura depositado da gaveta do caixa, toda remoção e adição de pagamento à vista por meio de operações como descartes de banco e entrada de flutuação e a declaração de meio de pagamento no fim do turno.
+Normalmente, os turnos são abertos no início do dia útil. Nesse momento, um usuário declara o valor inicial que a gaveta de dinheiro contém. As transações de vendas são realizadas ao longo do dia. Por fim, ao final do dia, a gaveta é contada e os valores finais são declarados. O turno é fechado e uma redução Z é gerada. A redução Z indica se há excedente ou escassez.
 
-### <a name="set-up-a-stand-alone-shift"></a>Configurar um turno autônomo
+## <a name="typical-shift-scenarios"></a>Cenários típicos de turnos
+O Retail fornece várias opções de configuração e operações de PDV para oferecer suporte a uma grande variedade de processos comerciais de fechamento do dia para o PDV. Esta seção descreve alguns cenários típicos de turnos.
 
-Um turno autônomo é designado no nível da gaveta de dinheiro. Este procedimento explica como configurar um turno autônomo em uma registradora de POS.
+### <a name="fixed-till"></a>Gaveta do caixa fixa
+Tradicionalmente, esse cenário tem sido usado com mais frequência. Ainda é usado extensivamente. Em um turno de "gaveta do caixa fixa", o turno e a gaveta do caixa são associados a uma caixa registradora específica. Eles não são movidos de uma caixa registradora à outra. Um turno de "gaveta do caixa fixa" pode ser usado por um único usuário ou compartilhado entre vários usuários. Turnos de "gaveta do caixa fixa" não exigem nenhuma configuração especial.
 
-1.  Clique em **Varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**.
-2.  Selecione o perfil de hardware a ser usado para o turno autônomo.
-3.  Na Guia Rápida **Caixa**, confirme que a opção **Caixa registradora de turno compartilhado** está definida para **Não**.
-4.  Clique em **Salvar**.
-5.  Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Registros**.
-6.  Selecione o registro que exige uma mudança autônoma e, em seguida, clique em **Editar**.
-7.  No campo **Perfil de Hardware**, selecione o perfil de hardware que você selecionou na etapa 2.
-8.  Clique em **Salvar**.
-9.  Clique em **Varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
-10. Selecione a agenda de distribuição **1090** e clique **Executar agora** para sincronizar as alterações para o PDV.
+### <a name="floating-till"></a>Gaveta do caixa flutuante
+Em um turno de "gaveta do caixa flutuante", o turno e a gaveta de dinheiro podem ser movidos de uma caixa registradora à outra. Embora uma caixa registradora possa ter apenas um turno ativo por gaveta de dinheiro, os turnos podem ser suspensos e retomados posteriormente ou em uma caixa registradora diferente.
 
-### <a name="use-a-stand-alone-shift"></a>Usar um turno autônomo
+Por exemplo, uma loja tem duas caixas registradoras. Cada caixa registradora é aberta no início do dia quando o caixa abre um novo turno e fornece o valor inicial. Quando um caixa estiver pronto para fazer uma interrupção, ele suspenderá seu turno e removerá a gaveta do caixa da gaveta de dinheiro. Essa caixa registradora então ficará disponível para outros caixas. Outro caixa pode entrar e abrir seu próprio turno na caixa registradora. Depois do término da interrupção do primeiro caixa, este poderá retomar seu turno quando uma das outras caixas registradoras ficar disponível. Turnos de "gaveta do caixa flutuante" não exigem nenhuma configuração ou permissão especial.
 
-1.  Entrar no PDV.
-2.  Se nenhuma mudança for aberta, selecione **Abrir um novo turno**.
-3.  Vá para a operação **Declarar valor inicial** e especifique a quantidade de dinheiro que está sendo adicionado à gaveta ao iniciar o dia de trabalho.
-4.  Realizar algumas transações.
-5.  No final do dia, selecione **Declarar meio de pagamento** para declarar o valor do dinheiro que permanece na caixa registradora.
-6.  Insira o valor em dinheiro, e em seguida clique em **Salvar** para salvar a declaração de meios de pagamento.
-7.  Selecione **Fechar turno** para fechar o turno.
+### <a name="single-user"></a>Usuário único
+Muitos varejistas preferem permitir apenas um usuário por turno, para ajudar a garantir o nível mais alto de responsabilidade pelo dinheiro na gaveta de dinheiro. Se apenas um usuário tiver permissão para usar a gaveta do caixa associada a um turno, esse usuário poderá ser unicamente responsabilizado por quaisquer discrepâncias. Se um turno é usado por mais de um usuário, é difícil determinar quem cometeu um erro ou quem pode estar tentando roubar da gaveta do caixa.
 
-**Observação:** outras operações estão disponíveis durante o turno, dependendo de processos de negócios que estão em vigor. As operações **Depósito no Cofre**, **Depósito Bancário** e **Remoção de meio de pagamento** podem ser usadas para remover o dinheiro da gaveta do caixa durante o dia ou antes do turno ser encerrado. Se uma gaveta fica insuficiente de dinheiro, a operação **Entrada de flutuação** pode ser usada para adicionar dinheiro à gaveta.
+### <a name="multiple-users"></a>Vários usuários
+Alguns varejistas estão dispostos a sacrificar o nível de responsabilidade que os turnos de usuário único fornecem e permitir mais de um usuário por turno. Essa abordagem é comum quando há mais usuários do que caixas registradoras disponíveis, e a necessidade de flexibilidade e velocidade supera o potencial de perdas. Ela também é comum quando os gerentes de loja não têm seus próprios turnos, mas podem, conforme necessário, usar os turnos de qualquer um dos seus caixas. Para entrar e usar um turno aberto por outro usuário, é necessário ter a permissão de PDV **Permitir vários logons de turno**.
 
-## <a name="shared-shifts"></a>Turnos compartilhados
-Uma mudança compartilhada é usada em um ambiente onde vários caixas compartilham uma registradora ou um conjunto de registradoras durante o dia de trabalho. Normalmente, uma mudança compartilhada é usada em ambientes móveis de POS. Em um ambiente móvel, cada caixa não é responsável por uma única caixa registradora. Em vez disso, todas as caixas devem ser capazes de uma venda de meio de pagamento e adicionar dinheiro a qualquer caixa registradora aos quais assemelham-se. Nesse cenário, as registradoras são compartilhadas entre os caixas que estão incluídas em um turno compartilhado. Todas as registradoras em um turno compartilhado estão incluídas no mesmo turno para atividades que estão relacionadas ao gerenciamento de pagamento à vista para essa mudança. Portanto, o valor inicial para a mudança deve incluir a soma de todo dinheiro em todos os as registradoras que são incluídas durante a mudança compartilhada. Da mesma forma, a declaração de meios de pagamento será a soma de todo dinheiro em todos os as registradoras que são incluídas durante a mudança compartilhada. **Observação:** Apenas um turno compartilhado pode ser aberto por vez em cada loja. Turnos compartilhados e autônomos podem ser usados no mesmo armazenamento.
+### <a name="shared-shift"></a>Turno compartilhado
+Uma configuração de "turno compartilhado” permite que os varejistas tenham um único turno entre várias caixas registradoras, gavetas de dinheiro e usuários. Um turno compartilhado tem um único valor inicial e um único valor de fechamento que são resumidos em todas as gavetas de dinheiro. Turnos compartilhados são mais comuns quando dispositivos móveis são usados. Nesse cenário, uma gaveta de dinheiro separada não é reservada para cada caixa registradora. Em vez disso, todas as caixas registradoras podem compartilhar uma única gaveta de dinheiro.
 
-### <a name="set-up-a-shared-shift"></a>Definir um turno compartilhado
+Para que os turnos compartilhados sejam usados em uma loja, a gaveta de dinheiro deve ser configurada como uma "gaveta de turno compartilhado" em **Retail \> Configuração de canal \> Configuração de PDV \> Perfis de PDV \> Perfis de hardware \> Gaveta**. Além disso, os usuários devem ter uma ou ambas as permissões de turno compartilhado (Permitir gerenciar turno compartilhado e Permitir usar turno compartilhado).
 
-1.  Clique em **Varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**.
-2.  Selecione o perfil de hardware a ser usado para o turno compartilhado.
-3.  Na Guia Rápida **Caixa**, confirme que a opção **Caixa registradora de turno compartilhado** está definida para **Sim**.
-4.  Clique em **Salvar**.
-5.  Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Registros**.
-6.  Selecione o registro que exige uma mudança compartilhada e, em seguida, clique em **Editar**.
-7.  No campo **Perfil de Hardware**, selecione o perfil de hardware que você selecionou na etapa 2.
-8.  Clique em **Salvar**.
-9.  Clique em **Varejo** &gt; **TI de varejo** &gt; **Agenda de distribuição**.
-10. Selecione a agenda de distribuição **1090** e clique **Executar agora** para sincronizar as alterações para o PDV.
+> [!NOTE]
+> Apenas um turno compartilhado pode ser aberto por vez em cada loja. Turnos compartilhados e autônomos podem ser usados no mesmo armazenamento.
 
-### <a name="use-a-shared-shift"></a>Use um turno compartilhado
+## <a name="shift-and-drawer-operations"></a>Operações de turno e de gaveta
+Várias operações podem ser realizadas para alterar o estado de um turno, ou para aumentar ou diminuir a quantidade de dinheiro na gaveta. Esta seção descreve essas operações de turno para PDV Moderno e PDV em Nuvem do Microsoft Dynamics 365 for Retail.
 
-1.  Entrar no PDV.
-2.  Caso ainda não esteja conectado a uma estação de hardware do POS, selecione **Operação não sacadora** e, em seguida, selecione a operação **Selecionar a estação de hardware** para ativar uma estação de hardware para a mudança compartilhada. Essa etapa é necessária somente na primeira vez que um registro é adicionado a um ambiente de turno compartilhado.
-3.  Saia do POS e entre novamente.
-4.  Selecione **Criar um novo turno**.
-5.  Selecione **Declarar Valor Inicial**.
-6.  Insira o valor inicial de todas as registradoras na loja que fazem parte do turno compartilhado e, em seguida, clique em **Salvar**.
-    -   Para adicionar a parte do valor inicial para cada registradora subsequente, use a operação **Selecionar estação de hardware** para ativar a estação de hardware.
-    -   Para adicionar uma gaveta a uma registradora específica, use a operação **Abrir gaveta**.
-    -   Continue até que todas as registradoras em mudança compartilhada tenham sua parte do valor inicial.
+### <a name="open-shift"></a>Turno aberto
+O PDV requer que os usuários tenham um turno ativo e aberto para executar qualquer operação que produza uma transação financeira, como uma venda, uma devolução ou uma ordem de cliente.
 
-7.  No final do dia, abra cada registradora e remova o dinheiro.
-8.  Depois que você remover o dinheiro da última caixa registradora, conte o dinheiro de todas as gavetas de dinheiro.
-9.  Use a operação **Declarar meio de pagamento** para declarar a quantidade total de dinheiro de todas as as registradoras que são incluídos durante a mudança compartilhada.
-10. Use a operação **Fechar turno** para fechar o turno compartilhado.
+Quando um usuário entra no PDV, o sistema verifica primeiro se um turno ativo está disponível para esse usuário na caixa registradora atual. Se não houver um turno ativo disponível, o usuário poderá abrir um novo turno, retomar um turno existente ou entrar no modo "sem gaveta”, dependendo da configuração do sistema e das permissões do usuário.
 
-## <a name="shift-operations"></a>Operações de turnos
-Várias ações podem ser tomadas para alterar o status de um turno ou para aumentar ou diminuir a quantidade de dinheiro na gaveta. A seção a seguir descreve essas operações de turnos para Modern POS e Cloud POS do Dynamics 365 for Retail.
+### <a name="declare-start-amount"></a>Declarar Valor Inicial
+Essa operação geralmente é a primeira a ser executada na abertura de um novo turno. Nessa operação, os usuários especificam o valor inicial em dinheiro na gaveta para o turno. Essa operação é importante porque o cálculo de excedente/escassez que ocorre quando um turno é fechado considera o valor inicial.
 
-**Turno aberto**
+### <a name="float-entry"></a>Entrada de flutuação
+As *Entradas de flutuação* não são transações de vendas, são executadas em um turno ativo para aumentar a quantidade de dinheiro na gaveta. Um exemplo comum de uma entrada de flutuação é uma transação para adicionar mais troco à gaveta quando ele estiver acabando.
 
-O PDV requer que um usuário tenha um turno ativo e aberto para executar qualquer operação que resulte em uma transação financeira como uma venda, uma devolução ou uma ordem de cliente.  
+### <a name="tender-removal"></a>Remoção de Meio de Pagamento
+As *Remoções de meios de pagamento* não são transações de vendas, são executadas em um turno ativo para reduzir a quantidade de dinheiro na gaveta. Essa operação geralmente é usada em conjunto com uma operação de Entrada de flutuação em um turno diferente. Por exemplo, como a caixa registradora 1 está ficando sem troco, o usuário na caixa registradora 2 realiza uma remoção de meios de pagamento para reduzir a quantia na sua gaveta de dinheiro. Em seguida, o usuário na caixa registradora 1 realiza uma entrada de flutuação para aumentar a quantia na sua gaveta de dinheiro.
 
-Ao fazer logon no PDV, o sistema primeiramente verifica se o usuário tem um turno ativo disponível na caixa registradora atual. Se não tiver, o usuário poderá optar por abrir um novo turno, retomar um turno existente ou continuar para fazer logon no modo "sem gaveta”, dependendo da configuração do sistema e de suas permissões.
+### <a name="suspend-shift"></a>Suspender turno
+Os usuários podem suspender seus turnos ativos para liberar a caixa registradora atual para outro usuário, ou para mover o turno para uma caixa registradora diferente (nesse caso, o turno normalmente é chamado de turno de "gaveta do caixa flutuante").
 
-**Declarar Valor Inicial**
+A suspensão de um turno impede novas transações ou alterações no turno até que ele seja retomado.
 
-Essa operação geralmente é a primeira ação executada na abertura de um novo turno. O usuário especifica o valor inicial em dinheiro na gaveta para o turno. Isso é importante porque o cálculo a mais/a menos que ocorre no fechamento de um turno é feito com base nesse valor.
+### <a name="resume-shift"></a>Retomar turno
+Essa operação permite que os usuários retomem um turno suspenso anteriormente em qualquer caixa registradora que ainda não tenha um turno ativo.
 
-**Entrada de flutuação**
+### <a name="tender-declaration"></a>Declaração de meios de pagamento
+Essa operação é executada para especificar a quantidade total de dinheiro contida atualmente na gaveta. Os usuários costumam executar essa operação antes de fechar um turno. O valor especificado é comparado ao valor esperado do turno para calcular o valor de excedente/escassez.
 
-As entradas de flutuação não são transações de vendas, são executadas em um turno ativo e aumentam a quantidade de dinheiro na gaveta. Um exemplo comum de uma entrada de flutuação seria adicionar mais troco à gaveta quando ele estiver acabando.
+### <a name="safe-drop"></a>Sangria para cofre
+As sangrias para cofre podem ser realizadas em um turno ativo a qualquer momento. Essa operação remove dinheiro da gaveta, para que possa ser transferido para um local mais seguro, como um cofre na sala reservada. O valor total registrado para sangrias para cofre é incluído nos totais do turno, mas não precisa ser contabilizado como parte da declaração de meios de pagamento.
 
-**Remoção de Meio de Pagamento**
+### <a name="bank-drop"></a>Sangria para banco
+Como as sangrias para cofre, as sangrias para banco são realizadas em turnos ativos. Essa operação remove dinheiro do turno para preparar para o depósito bancário.
 
-As remoções de meios de pagamento não são transações de vendas, são executadas em um turno ativo para reduzir a quantidade de dinheiro na gaveta. Elas são mais comumente usadas em conjunto com uma entrada de flutuação em um turno diferente. Por exemplo, a Caixa registradora 1 está ficando sem troco, então o usuário na Caixa registradora 2 executa uma remoção de meios de pagamento para reduzir a quantia na gaveta. Em seguida, o usuário na Caixa registradora 1 executaria uma entrada de flutuação para aumentar sua quantia.
+### <a name="blind-close-shift"></a>Turno com fechamento cego
+*Turnos com fechamento cego* não estão mais ativos, mas não foram totalmente fechados. Diferentemente dos turnos suspensos, os turnos com fechamento cego não podem ser retomados. No entanto, operações como Declarar valor inicial e Declaração de meios de pagamento podem ser executadas neles posteriormente ou de uma caixa registradora diferente.
 
-**Suspender turno**
+Turnos com fechamento cego são frequentemente usados para liberar uma caixa registradora para um novo usuário ou turno, sem precisar contar, reconciliar e fechar totalmente o turno.
 
-Os usuários podem suspender seus turnos ativos para liberar a caixa registradora atual para outro usuário, ou para mover o turno para uma caixa registradora diferente (isso é normalmente chamado de "gaveta do caixa flutuante"). 
+### <a name="close-shift"></a>Fechar turno
+Essa operação calcula os totais do turno e os valores de excedente/escassez, e fecha um turno ativo ou com fechamento cego. Dependendo das permissões do usuário, uma redução Z também é impressa para o turno. Turnos fechados não podem ser retomados ou modificados.
 
-A suspensão do turno impede novas transações ou alterações no turno até que ele seja retomado.
+### <a name="print-x"></a>Imprimir X
+Essa operação gera e imprime um relatório X para o turno ativo atual.
 
-**Retomar turno**
+### <a name="reprint-z"></a>Reimprimir Z
+Essa operação reimprime a redução Z mais recente gerada pelo sistema quando um turno foi fechado.
 
-Essa operação permite que um usuário retome um turno suspenso anteriormente em uma caixa registradora que ainda não tenha um turno ativo.
+### <a name="manage-shifts"></a>Gerenciar turnos
+Essa operação permite que os usuários visualizem todos os turnos ativos, suspensos e com fechamento cego da loja. Dependendo das suas permissões, os usuários poderão realizar os procedimentos finais de fechamento, como Declaração de meios de pagamento e Operações de fechamento de turno para turnos com fechamento cego. Essa operação também permite que os usuários visualizem e excluam turnos inválidos, no evento raro de um turno ser deixado em um estado incorreto após uma alternação entre os modos offline e online. Esses turnos inválidos não contêm as informações financeiras nem os dados transacionais necessários para a reconciliação.
 
-**Declaração de meios de pagamento**
+## <a name="shift-and-drawer-permissions"></a>Permissões de turno e de gaveta
+As seguintes permissões de PDV afetam o que um usuário pode ou não fazer em vários cenários:
 
-A declaração de meios de pagamento é uma ação que o usuário executa para especificar a quantidade total de dinheiro na gaveta, principalmente antes de fechar o turno. Essa é a quantidade que é comparada com o turno esperado para calcular o valor a mais/a menos.
+- **Permitir fechamento cego**
+- **Permitir impressão do leitura X**
+- **Permitir impressão da redução Z**
+- **Permitir declaração de meios de pagamento**
+- **Permitir sangria/suprimento**
+- **Abrir gaveta sem venda**
+- **Permitir vários logons de turno** – Permite que o usuário entre e use um turno que foi aberto por outro usuário. Os usuários que não tiverem essa permissão poderão entrar e usar apenas os turnos que abriram.
+- **Permitir gerenciar turno compartilhado** – Os usuários devem ter essa permissão para abrir ou fechar um turno compartilhado.
+- **Permitir usar turno compartilhado** – Os usuários devem ter essa permissão para entrar e usar um turno compartilhado.
 
-**Sangria para cofre**
+## <a name="back-office-end-of-day-considerations"></a>Considerações de fechamento do dia do back office
+A maneira como os turnos e a reconciliação de gavetas de dinheiro são usados no PDV é diferente da maneira como os dados de transação são resumidos durante o cálculo de demonstrativos. É importante que você entenda essa diferença. Dependendo da configuração e dos processos comerciais, os dados do turno no PDV (a redução Z) e um demonstrativo calculado no back office podem fornecer resultados diferentes. Essa diferença não significa necessariamente que os dados do turno ou o demonstrativo calculado estejam incorretos, ou que haja um problema com os dados. Isso significa apenas que os parâmetros fornecidos podem incluir transações adicionais ou menos transações, ou que as transações foram resumidas de forma diferente.
 
-As sangrias para cofre podem ser executadas a qualquer momento em um turno ativo. Essa operação remove dinheiro da gaveta, para que possa ser transferido para um local mais seguro como um cofre na sala reservada. O valor total registrado para sangrias para cofre ainda é incluído nos totais do turno, mas não precisa ser contabilizado como parte da declaração de meios de pagamento.
+Embora cada varejista tenha necessidades comerciais diferentes, recomendamos configurar o sistema da seguinte maneira para evitar situações em que diferenças desse tipo ocorram:
 
-**Sangria para banco**
+Vá para **Retail \> Canais \> Lojas de varejo \> Todas as lojas de varejo \> Demonstrativo/fechamento** e, para cada loja, defina os campos **Método do demonstrativo** e **Método de fechamento** como **Turno**.
 
-Como as sangrias para cofre, as sangrias para banco também são executadas em turnos ativos. Essa operação remove dinheiro do turno para preparar para o depósito bancário.
+Essa configuração ajuda a garantir que os demonstrativos do back office incluam as mesmas transações que os turnos no PDV, e que os dados sejam resumidos por esse turno.
 
-**Turno com fechamento cego**
-
-Um turno com fechamento cego é um turno que não está mais ativo, mas que não foi totalmente fechado. Turnos com fechamento cego não podem ser retomados como um turno suspenso, mas procedimentos como a declaração de valores iniciais e de meios de pagamento podem ser executados posteriormente ou a partir de uma caixa registradora diferente.
-
-Turnos com fechamento cego são frequentemente usados para liberar uma caixa registradora para um novo usuário ou turno, sem precisar contar, reconciliar e fechar totalmente esse turno. 
-
-**Fechar turno**
-
-Essa operação calcula os totais do turno, valores a mais/a menos e fecha um turno ativo ou com fechamento cego. Turnos fechados não podem ser retomados ou modificados.  
-
-**Gerenciar turnos**
-
-Essa operação permite que os usuários visualizem todos os turnos ativos, suspensos e com fechamento cego da loja. Dependendo das suas permissões, os usuários poderão realizar os procedimentos finais de fechamento como declaração de meios de pagamento e encerramento de turnos com fechamento cego. Essa operação também permitirá que os usuários visualizem e excluam turnos inválidos no evento raro de um turno ser deixado em um estado incorreto após alternar entre os modos offline e online. Esses turnos inválidos não contêm as informações financeiras ou os dados transacionais necessários para a reconciliação. 
+Para obter mais informações sobre métodos de demonstrativo e de fechamento, consulte [Configurações de loja para obter demonstrativo do Retail](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements).
 

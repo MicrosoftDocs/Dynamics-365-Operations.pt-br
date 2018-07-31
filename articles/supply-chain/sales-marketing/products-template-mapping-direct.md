@@ -3,7 +3,7 @@ title: Sincronizar produtos diretamente do Finance and Operations com produtos n
 description: "Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos do Microsoft Dynamics 365 for Finance and Operations para o Microsoft Dynamics 365 for Sales."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 66506953790fd77c2105591d3211c76991eced08
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -78,7 +78,8 @@ O campo **É Mantido Externamente** ajuda a garantir que somente cotações e or
 Os Produtos mantidos externamente são adicionados de forma automática à primeira lista de preços válida com a mesma moeda. Listas de preços são organizadas em ordem alfabética por nome. O preço de venda do produto do Finance and Operations é usado como o preço na lista de preços. Então, é preciso existir uma lista de preços no Sales para cada moeda de venda de produto no Finance and Operations A moeda dos produtos liberados comercializáveis é definida como a moeda contábil da entidade legal da qual o produto é exportado.
 
 > [!NOTE]
-> A sincronização de produto só terá êxito se houver uma lista de preços com uma moeda correspondente.
+> - A sincronização de produto só terá êxito se houver uma lista de preços com uma moeda correspondente.
+> - Você pode controlar a lista de preços usada com a integração mapeando o pricelevelid.name [Lista de Preços Padrão (Nome)] no projeto de Integração de Dados. A entrada deve ser toda em letras minúsculas. Por exemplo, o padrão de uma lista de preços no “Sales” chamada 'Padrão' seria: Campo de destino: pricelevelid.name [Lista de Preços Padrão (Nome]) e Tipo de mapa: [ { "transformType": "Padrão ", "defaultValue": "padrão" } ].
 
 ## <a name="preconditions-and-mapping-setup"></a>Precondições e configuração de mapeamento
 

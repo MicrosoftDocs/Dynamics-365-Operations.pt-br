@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 404f7d2b050aba1532cae0955a9579e1c2f174e3
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: 46c8ecf8a6988c32d0202c631bef6901f467bb89
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -80,17 +80,37 @@ Você pode usar a previsão se sua organização tiver uma perspectiva operacion
 ### <a name="create-projects"></a>Criar projetos
 
 Você pode criar seis tipos de projetos no Microsoft Finance and Operations. Cada tipo de projeto é configurado de forma distinta para reconhecimento de custos e receita. A seleção de um tipo de projeto depende da finalidade do projeto. A tabela a seguir descreve o uso típico de cada tipo de projeto.
-
-                                                                                                                                                                         |
-
-| Tipo de projeto      | Descrição                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Tempo e material | A projetos de tempo e material, o cliente for faturado para todos os custos que são contraídos em um projeto. Esses custos incluem custos de horas, despesas, itens e taxas.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Preço fixo       | Em projetos de preço fixo, as faturas consistem em transações por conta. Um projeto de preço fixo é faturado de acordo com um plano de cobrança que se baseia em um contrato de projeto. A receita para um projeto de preço fixo pode ser calculada e lançada no projeto usando o método de porcentagem concluída. Como alternativa, a receita pode ser calculada e lançada quando o projeto for concluído, usando o método de contrato concluído. As empresas geralmente podem tirar proveito de usar o valor do trabalho em andamento (WIP) para calcular o nível de conclusão de um projeto ou um grupo de projetos.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| Investimento        | Projetos de investimento são os projetos que não geram ganhos imediatos. São usados nos projetos internos de longo prazo em que os custos devem estar capitalizados. Apenas o custo de itens, as horas e as despesas podem ser registrados em um projeto de investimento. Os custos em um projeto de investimento são rastreados e controlados com o recurso de previsão. Os projetos de investimento podem ser configurados com uma capitalização máxima opcional. Como um projeto de investimento em andamento, você registra os custos nas contas WIP, na qual os custos são mantidas até que o projeto foi preenchido. Quando o projeto é eliminado, transfere-se o valor do WIP a um ativo fixo, uma conta contábil ou a um novo projeto. Observação: As transações em projetos de investimento não são mostradas nas páginas **Lançar custos**, **Acumular receita** ou **Criar propostas de fatura**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| Projeto de custo      | Como projetos de investimento, os projetos de custo são usados normalmente rastrear projetos internos, e apenas as horas, despesas, e os itens podem ser registrados para projetos de custo. No entanto, os projetos de custo normalmente têm duração mais curta do que os projetos de investimento. Além disso, ao contrário dos projetos de investimento, os projetos de custo não podem ser capitalizados nas contas de balanço. Em vez disso, as transações do projeto são lançadas em contas de lucros e perdas. **OBSERVAÇÃO** As transações nos projetos de custo não são mostradas nas páginas **Lançar custos**, **Acumular receita** ou **Criar propostas de fatura**. Como os projetos de custo são usados normalmente para rastrear projetos internos, geralmente, não precisam ser associados a uma conta de cliente. No entanto, se sua configuração exigir que sejam criadas requisições de itens para ordens de compra, será necessário associar o projeto de custo a um cliente. Essa associação é necessária porque as requisições de itens são gerenciadas como linhas da ordem de venda, e o sistema requer que um cliente seja especificado. No entanto, essa configuração não resultará na criação automática de requisições de itens de uma ordem de compra. Para projetos de custo, a configuração **Criar requisição de itens** é ignorada. Se for necessária uma requisição de itens em um projeto de custo, será possível criar uma manualmente, desde que um cliente esteja associado ao projeto. |
-| Interno          | Os projetos internos são usados ao custo de controle em um projeto interno que é a sua organização. Projetos internos podem fornecer uma ferramenta de planejamento para gerenciar o consumo de recursos. **Observação:** Transações em projetos internos não são refletidas na página **Acumular receita** ou **Criar propostas de fatura**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| Hora              | Os projetos por tempo são usados para controlar os tempos associados com as atividades não cobráveis e não produtivas, como um projeto rastrear horas doentes para trabalhadores. Os projetos das transações não são lançados no tempo até o razão. Em vez disso, é incluído nos relatórios de trabalho de utilização. Apenas as transações de hora podem ser registrados no tempo projetos. Use um diário ou uma folha de ponto de horas para registrar essas horas no projeto. Após as horas serem registradas, elas aparecem como transações de projeto, mas não tem transações de comprovante correspondentes. **Observação:** As transações nos projetos de tempo não são mostradas nas páginas **Lançar custos**, **Acumular receita** ou **Criar propostas de fatura**.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+                                                                                                            
+<table>
+  <tr>
+    <td>Tipo de projeto</th>
+    <td>Descrição</th>
+  </tr>
+  <tr>
+    <td>Tempo e material</td>
+    <td>A projetos de tempo e material, o cliente for faturado para todos os custos que são contraídos em um projeto. Esses custos incluem custos de horas, despesas, itens e taxas.</td>
+  </tr>
+  <tr>
+    <td>Preço fixo</td>
+    <td>Em projetos de preço fixo, as faturas consistem em transações por conta. Um projeto de preço fixo é faturado de acordo com um plano de cobrança que se baseia em um contrato de projeto. A receita para um projeto de preço fixo pode ser calculada e lançada no projeto usando o método de porcentagem concluída. Como alternativa, a receita pode ser calculada e lançada quando o projeto for concluído, usando o método de contrato concluído. As empresas geralmente podem tirar proveito de usar o valor do trabalho em andamento (WIP) para calcular o nível de conclusão de um projeto ou um grupo de projetos.</td>
+  </tr>
+  <tr>
+    <td>Investimento</td>
+    <td>Projetos de investimento são os projetos que não geram ganhos imediatos. São usados nos projetos internos de longo prazo em que os custos devem estar capitalizados. Apenas o custo de itens, as horas e as despesas podem ser registrados em um projeto de investimento. Os custos em um projeto de investimento são rastreados e controlados com o recurso de previsão. Os projetos de investimento podem ser configurados com uma capitalização máxima opcional. Como um projeto de investimento em andamento, você registra os custos nas contas WIP, na qual os custos são mantidas até que o projeto foi preenchido. Quando o projeto é eliminado, transfere-se o valor do WIP a um ativo fixo, uma conta contábil ou a um novo projeto. <br></br> <strong>OBSERVAÇÃO:</strong> as transações em projetos de investimento não são mostradas nas páginas <strong>Lançar custos<strong>, <strong>Acumular receita</strong> ou <strong>Criar propostas de fatura</strong>.</td>
+  </tr>
+  <tr>
+    <td>Projeto de custo</td>
+    <td>Como projetos de investimento, os projetos de custo são usados normalmente rastrear projetos internos, e apenas as horas, despesas, e os itens podem ser registrados para projetos de custo. No entanto, os projetos de custo normalmente têm duração mais curta do que os projetos de investimento. Além disso, ao contrário dos projetos de investimento, os projetos de custo não podem ser capitalizados nas contas de balanço. Em vez disso, as transações do projeto são lançadas em contas de lucros e perdas. <br></br> <strong>OBSERVAÇÃO:</strong> as transações nos projetos de custo não são mostradas nas páginas <strong>Lançar custos</strong>, <strong>Acumular receita</strong> ou <strong>Criar propostas de fatura</strong>. Como os projetos de custo são usados normalmente para rastrear projetos internos, geralmente, não precisam ser associados a uma conta de cliente. No entanto, se sua configuração exigir que sejam criadas requisições de itens para ordens de compra, será necessário associar o projeto de custo a um cliente. Essa associação é necessária porque as requisições de itens são gerenciadas como linhas da ordem de venda, e o sistema requer que um cliente seja especificado. No entanto, essa configuração não resultará na criação automática de requisições de itens de uma ordem de compra. Para projetos de custo, a configuração <strong>Criar requisição de itens</strong> é ignorada. Se for necessária uma requisição de itens em um projeto de custo, será possível criar uma manualmente, desde que um cliente esteja associado ao projeto.</td>
+  </tr>
+  <tr>
+    <td>Interno</td>
+    <td>Os projetos internos são usados ao custo de controle em um projeto interno que é a sua organização. Projetos internos podem fornecer uma ferramenta de planejamento para gerenciar o consumo de recursos. <br></br><strong>OBSERVAÇÃO:<strong> as transações em projetos internos não são refletidas na página <strong>Acumular receita</strong> ou <strong>Criar propostas de fatura</strong>.</td>
+  </tr>
+  <tr>
+    <td>Hora</td>
+    <td>Os projetos por tempo são usados para controlar os tempos associados com as atividades não cobráveis e não produtivas, como um projeto rastrear horas doentes para trabalhadores. Os projetos das transações não são lançados no tempo até o razão. Em vez disso, é incluído nos relatórios de trabalho de utilização. Apenas as transações de hora podem ser registrados no tempo projetos. Use um diário ou uma folha de ponto de horas para registrar essas horas no projeto. Após as horas serem registradas, elas aparecem como transações de projeto, mas não tem transações de comprovante correspondentes. <br></br><strong>OBSERVAÇÃO:</strong> as transações nos Projetos de tempo não são refletidas nas páginas <strong>Lançar custos</strong>, <strong>Acumular receita</strong> ou <strong>Criar propostas de fatura</strong>.</td>
+  </tr>
+</table>
 
 
 ### <a name="assign-workers-categories-and-resources"></a>Atribuir funcionários, categorias, e recursos
@@ -239,11 +259,12 @@ A tabela a seguir descreve os métodos para calcular o custo para conclusão de 
 <li>Comparar transações de previsão com as transações reais.</li>
 <li>Mantenha, reduza ou aumente as estimativas para o próximo período.</li>
 </ol>
-O Finance and Operations não diminui automaticamente as previsões esperadas. Portanto, recomendamos que você mantenha um modelo de previsão original no projeto de preço fixo para estabelecer uma linha de base para comparação quando o projeto for concluído. &gt; [!NOTE] &gt; Ao selecionar este método, use pelo menos dois modelos de previsão. Um modelo deve conter a previsão original. Para o outro modelo, você deve copiar transações de previsão de outro modelo. Este método é válido somente para projetos de investimento e de preço fixo.</td>
+O Finance and Operations não diminui automaticamente as previsões esperadas. Portanto, recomendamos que você mantenha um modelo de previsão original no projeto de preço fixo para estabelecer uma linha de base para comparação quando o projeto for concluído. 
+<br></br> <strong>OBSERVAÇÃO:</strong> ao selecionar este método, use pelo menos dois modelos de previsão. Um modelo deve conter a previsão original. Para o outro modelo, você deve copiar transações de previsão de outro modelo. Este método é válido somente para projetos de investimento e de preço fixo.</td>
 </tr>
 <tr class="odd">
 <td>Orçamento restante</td>
-<td>Este método usa um modelo de orçamento restante para calcular o custo para a conclusão do projeto. Ao usar esse método, os custos reais e os valores previstos no modelo de orçamento restante serão adicionados em conjunto. O resultado é um custo total. Antes de usar este método, um modelo de orçamento restante deverá ser configurado para deduzir as transações com base nas transações reais que são registradas no sistema. Na página <strong>Modelos de previsão</strong>, certifique-se de que os campos estejam marcados no grupo <strong>Redução automática de previsão</strong>. Normalmente, um orçamento restante é copiado do orçamento original. Quando as transações são inseridas, as transações do orçamento restante são reduzidas. Como o projeto em andamento, se você determina que o orçamento restante será ajustado, poderá carregar transações de previsão para o orçamento restante. <strong>Observação:</strong> Este método só pode ser aplicado caso um modelo de previsão esteja anexado à previsão.</td>
+<td>Este método usa um modelo de orçamento restante para calcular o custo para a conclusão do projeto. Ao usar esse método, os custos reais e os valores previstos no modelo de orçamento restante serão adicionados em conjunto. O resultado é um custo total. Antes de usar este método, um modelo de orçamento restante deverá ser configurado para deduzir as transações com base nas transações reais que são registradas no sistema. Na página <strong>Modelos de previsão</strong>, certifique-se de que os campos estejam marcados no grupo <strong>Redução automática de previsão</strong>. Normalmente, um orçamento restante é copiado do orçamento original. Quando as transações são inseridas, as transações do orçamento restante são reduzidas. Como o projeto em andamento, se você determina que o orçamento restante será ajustado, poderá carregar transações de previsão para o orçamento restante. <br></br> <strong>OBSERVAÇÃO:</strong> este método só pode ser aplicado caso um modelo de previsão esteja anexado à previsão.</td>
 </tr>
 <tr class="even">
 <td>Conforme estimativa anterior</td>
@@ -318,11 +339,19 @@ A data de pagamento de custo não é calculada com base em dias de buffer. Após
 
 Quando todas as vendas e faturas de fornecedor forem concluídas, será possível exibir a relação entre os campos na página **Fluxo de caixa** e os campos da página **Demonstrativos de projeto**.
 
-| Página de fluxo de caixa | Página de demonstrativos de projeto |
-|----------------|-------------------------|
-| Entradas de Caixa   | Receita                 |
-| Saídas de Caixa  | Custo total              |
-| Fluxos de Caixa Líquidos | Margem bruta            |
+:::row::: :::column:::
+        #### Cash flow page
+        - Cash inflows 
+        - Cash outflows
+        - Net cash flows
+    :::column-end:::
+    :::column:::
+        #### Project statements page
+        - Revenue
+        - Total cost
+        - Gross margin
+    :::column-end:::
+:::row-end:::
 
 ### <a name="review-costs"></a>Analisar custos
 
@@ -409,8 +438,4 @@ Depois que o demonstrativo for calculado, você pode exibir as seguintes informa
 -   **Consumo** – Informações sobre o consumo de horas, itens, despesas, e de transações de folha de pagamento.
 -   **Fatura** – Informações sobre faturas e faturamento por conta.
 -   **Taxa horária** – Taxas horárias das horas lançadas nas contas de receita e custo.
-
-
-
-
 
