@@ -1,84 +1,87 @@
-- name: Bem-vindo ao Dynamics 365 for Talent
+- name: Dynamics 365 for Talent
   href: index.md
-- name: Introdução
-  href: talent-get-started.md
   items:
-    - name: Requisitos do sistema e política de atualização
-      href: talent-versions-update-policy.md
-    - name: Provisionar o Microsoft Dynamics 365 for Talent
-      href: provisioning-talent.md
-    - name: Remover um ambiente do Talent
-      href: remove-talent-environment.md
-    - name: Provisionar Aplicativos Modulares do Microsoft Dynamics 365 for Talent
-      href: modular-app-tech-faq.md
-    - name: Estender a funcionalidade do Talent
-      href: extend-talent-functionality.md
-    - name: Acessar os recursos de visualização no Dynamics 365 for Talent
-      href: access-preview-feature.md
-- name: Desenvolver uma estratégia de recursos humanos
-  href: departments-jobs-positions.md
-  items:
-    - name: Configurar componentes de trabalho
-      href: create-job.md
-    - name: Criar um departamento e associá-lo à hierarquia de departamentos
-      href: create-department-add-department-hierarchy.md
-    - name: Configurar parâmetros de RH entre entidades legais
-      href: set-up-hr-parameters-across-legal-entities.md
-    - name: Configurar parâmetros de RH específicos da empresa
-      href: set-up-company-specific-hr-parameters.md
-    - name: Perguntas frequentes sobre ações de pessoal
-      href: personnel-actions-faq.md
-    - name: Formalizar processos empresariais
-      href: formalize-business-processes.md
-    - name: Usar fluxo de trabalho para gerenciar informações de funcionários
-      href: workflow-manage-employee-information.md
-    - name: Visão geral de licença e ausência
-      href: leave-absence-overview.md
-- name: Recrutando a equipe de sua organização
-  items:
-    - name: Visão geral do Attract
-      href: attract-overview.md
-    - name: Visão geral do Onboard
-      href: create-onboarding-experience.md
-- name: Motivar funcionários
-  items:
-    - name: Planos de remuneração
-      href: compensation-plans.md
-    - name: Criar planos de remuneração fixa
-      href: create-fixed-compensation-plans.md
-    - name: Criar planos de remuneração variável
-      href: create-variable-compensation-plans.md
-    - name: Processar remuneração
-      href: process-compensation.md
-- name: Desenvolver e treinar funcionários
-  items:
-    - name: Visão geral de gerenciamento de desempenho
-      href: performance-management-overview.md
-    - name: Alinhar habilidades da força de trabalho com as necessidades dos negócios
-      href: skills.md
-    - name: Configurar cursos de treinamento
-      href: courses.md
-- name: Criar e manter benefícios
-  href: manage-benefit-program.md
-- name: Políticas de qualificação para benefícios
-  href: benefit-eligibility-policies.md
-  items:
-    - name: Gerenciar itens emprestados aos trabalhadores
-      href: loan-items.md
-- name: Coletar informações por meio de questionários
-  href: questionnaires.md
-  items:
-    - name: Criar um questionário
-      href: design-questionnaires.md
-    - name: Distribuir e preencher um questionário
-      href: distribute-questionnaires.md
-    - name: ​Avaliar os resultados de um questionário​
-      href: evaluate-questionnaire-results.md
-- name: Segurança e conformidade do local de trabalho (Estados Unidos)
-  items:
-    - name: ​Responder a uma solicitação de dados pessoais usando o Talent​
-      href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
-    - name: ​Verificação de emprego do formulário I-9​
-      href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
-    - name: ​Seguir a conformidade com a ADA​
-      href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
+    - name: Introdução
+      href: talent-get-started.md
+      items:
+        - name: Requisitos do sistema e política de atualização.
+          href: talent-versions-update-policy.md
+        - name: Provisionar o Microsoft Dynamics 365 for Talent
+          href: provisioning-talent.md
+        - name: Remover um ambiente do Talent
+          href: remove-talent-environment.md
+        - name: Provisionar Aplicativos Modulares do Microsoft Dynamics 365 for Talent
+          href: modular-app-tech-faq.md
+        - name: Estender a funcionalidade do Talent
+          href: extend-talent-functionality.md
+        - name: Acessar os recursos de visualização no Dynamics 365 for Talent
+          href: access-preview-feature.md
+        - name: Configuração o Talent para fornecer suporte à Integração da folha de pagamento
+          href: configure-payroll-integration.md
+    - name: Desenvolver uma estratégia de recursos humanos
+      href: departments-jobs-positions.md
+      items:
+        - name: Configurar componentes de trabalho
+          href: create-job.md
+        - name: Criar um departamento e associá-lo à hierarquia de departamentos
+          href: create-department-add-department-hierarchy.md
+        - name: Configurar parâmetros de RH entre entidades legais
+          href: set-up-hr-parameters-across-legal-entities.md
+        - name: Configurar parâmetros de RH específicos da empresa
+          href: set-up-company-specific-hr-parameters.md
+        - name: Perguntas frequentes sobre ações de pessoal
+          href: personnel-actions-faq.md
+        - name: Formalizar processos empresariais
+          href: formalize-business-processes.md
+        - name: Usar fluxo de trabalho para gerenciar informações de funcionários
+          href: workflow-manage-employee-information.md
+        - name: Visão geral de licença e ausência
+          href: leave-absence-overview.md
+    - name: Recrutar a equipe de sua organização
+      items:
+        - name: Visão geral do Attract
+          href: attract-overview.md
+        - name: Visão geral do Onboard
+          href: create-onboarding-experience.md
+    - name: Motivar funcionários
+      items:
+        - name: Planos de remuneração
+          href: compensation-plans.md
+        - name: Criar planos de remuneração fixa
+          href: create-fixed-compensation-plans.md
+        - name: Criar planos de remuneração variável
+          href: create-variable-compensation-plans.md
+        - name: Processar remuneração
+          href: process-compensation.md
+    - name: Desenvolver e treinar funcionários
+      items:
+        - name: Visão geral de gerenciamento de desempenho
+          href: performance-management-overview.md
+        - name: Alinhar habilidades da força de trabalho com as necessidades dos negócios
+          href: skills.md
+        - name: Configurar cursos de treinamento
+          href: courses.md
+    - name: Criar e manter benefícios
+      href: manage-benefit-program.md
+    - name: Políticas de qualificação para benefícios
+      href: benefit-eligibility-policies.md
+      items:
+        - name: Gerenciar itens emprestados aos trabalhadores
+          href: loan-items.md
+    - name: Coletar informações por meio de questionários
+      href: questionnaires.md
+      items:
+        - name: Criar um questionário
+          href: design-questionnaires.md
+        - name: Distribuir e preencher um questionário
+          href: distribute-questionnaires.md
+        - name: ​Avaliar os resultados de um questionário​
+          href: evaluate-questionnaire-results.md
+    - name: Segurança e conformidade do local de trabalho (Estados Unidos)
+      items:
+        - name: ​Responder a uma solicitação de dados pessoais usando o Talent​
+          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
+        - name: ​Verificação de emprego do formulário I-9​
+          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
+        - name: ​Seguir a conformidade com a ADA​
+          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json

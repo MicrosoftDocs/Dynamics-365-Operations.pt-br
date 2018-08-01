@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 86b301833f3655f7172e2d38ddca4239be71760c
-ms.openlocfilehash: bcb4af426e5967643a1c438bb19495576ce51b63
+ms.sourcegitcommit: 4961ee7fcc56af0646e421c9e040e2129cc322c4
+ms.openlocfilehash: e6d6ede65764c0b35c9ce0985af0d9f2cd6653c0
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/12/2018
 
 ---
 
@@ -58,6 +58,8 @@ Como parte das melhorias ao recurso de lançamento do demonstrativo, os três pa
 - **Desabilitar contagem necessária** – Quando esta opção está definida como **Sim**, o processo de postagem de uma instrução continua, mesmo que a diferença entre o valor contado e o valor de transação no extrato esteja fora do limite definido na Guia Rápida do **Demonstrativo** para Lojas do Retail.
 
 Além disso, o campo **Número máximo de lançamentos paralelos de demonstrativos** foi apresentado na Guia Rápida **Processamento em lotes**. Este campo define o número de tarefas de lote que deve ser executado ao mesmo tempo. Atualmente, você deve definir manualmente o valor deste campo.
+
+Além disso, com o novo processo de lançamento, é necessário definir um **Produto para o cartão-presente**​​ na Guia Rápida **Cartão-presente** na guia **Lançamento** da página **Parâmetros de varejo**. Isso se aplica mesmo que nenhum Cartão-presente seja usado pela organização. 
 
 Observe que todas as configurações e os parâmetros relacionados às postagens de demonstrativo, e definidos em lojas de Retail na página **Parâmetros de Retail**, são aplicáveis ao recurso aprimorado de postagem do demonstrativo.
 

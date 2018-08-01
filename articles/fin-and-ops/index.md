@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d1307729945494ee78c0ca6089b384d666fe5f20
+ms.sourcegitcommit: e7e10768dd1e0a441842d5b13964f49153c35be3
+ms.openlocfilehash: cced03d29bb04182a3f5bae86c3bec6d3c086cde
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 07/10/2018
 
 ---
 
@@ -55,7 +55,7 @@ Muito desse conteúdo também se aplica aos produtos relacionados: Microsoft Dyn
 <p><a href="../financials/accounts-payable/accounts-payable.md">Contas a Pagar</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Contas a Receber</a></p>
 <p><a href="../financials/budgeting/budgeting-overview.md">Orçamento</a></p>
-<p><a href="../financials/cash-bank-management/cash-bank-management.md">Gerenciamento de caixa e bancos</a></p>
+<p><a href="../financials/cash-bank-management/cash-bank-management.md">Gerenciamento de pagamentos à vista e bancos</a></p>
 <p><a href="../financials/general-ledger/audit-policy-rules.md">Conformidade</a></p>
 <p><a href="../financials/cost-accounting/cost-accounting-home-page.md">Contabilização de custos</a></p>
 <p><a href="../financials/fixed-assets/fixed-assets.md">Ativos Fixos</a></p>
@@ -114,16 +114,16 @@ Muito desse conteúdo também se aplica aos produtos relacionados: Microsoft Dyn
 </td>
 <td>
 <h3>Produtos relacionados</h3>
-<h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
-<p><a href="../talent/manage-benefit-program.md">Benefícios</a></p>
-<p><a href="../talent/performance-management-overview.md">Desenvolvimento e treinamento de funcionários</a></p>
-<p><a href="../talent/questionnaires.md">Questionário</a></p>
-
 <h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality.md">Call center</p>
 <p><a href="../retail/define-maintain-retail-channels.md">Configuração e gerenciamento de canal</p>
 <p><a href="../retail/retail-peripherals-overview.md">MPOS e Cloud POS</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page.md">Desenvolvedor do Retail e administração</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page.md">Desenvolvedor e administrador do Retail</p>
+
+<h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
+<p><a href="../talent/manage-benefit-program.md">Benefícios</a></p>
+<p><a href="../talent/performance-management-overview.md">Desenvolvimento e treinamento de funcionários</a></p>
+<p><a href="../talent/questionnaires.md">Questionário</a></p>
 
 </td>
 </tr>
