@@ -10,17 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerConsolidate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: v-gonode
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 78c7292788f9bd9e3ce4c443621b6338e03741c2
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 695fd595efaf3352c8e34feca751d64f694fe847
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="export-and-import-transactions-for-general-ledger-consolidation-for-brazil"></a><span data-ttu-id="04f20-103">Exportar e importar transações da consolidação de contabilidade para o Brasil</span><span class="sxs-lookup"><span data-stu-id="04f20-103">Export and import transactions for General ledger consolidation for Brazil</span></span>
