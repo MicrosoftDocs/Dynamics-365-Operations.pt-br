@@ -1,7 +1,7 @@
 ---
 title: "Previsão de posição"
 description: "As despesas relacionadas a trabalhadores costumam constituir uma grande proporção dos custos de uma organização. A previsão de posição permite planejar as despesas e incluí-las no planejamento de orçamentos."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmPositionForecast
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91

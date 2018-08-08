@@ -1,7 +1,7 @@
 ---
 title: "Conteúdo de desempenho de lucratividade e vendas para Power BI"
 description: "Este tópico descreve o que está incluído no conteúdo do Power BI Desempenho de vendas e lucratividade. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 --- 
 title: Classificar um produto usando hierarquias de categoria
 description: "Use as hierarquias de categoria para classificar produtos para exportação, compras, vendas ou para outras finalidades."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 09/26/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing

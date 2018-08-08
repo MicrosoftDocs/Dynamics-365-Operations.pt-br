@@ -1,7 +1,7 @@
 ---
 title: Home page do planejamento mestre
 description: "O Planejamento mestre permite que as empresas determinem e equilibrem a necessidade futura de matérias-primas e a capacidade de cumprir as metas da empresa."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 

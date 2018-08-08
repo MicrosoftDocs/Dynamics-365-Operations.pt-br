@@ -1,7 +1,7 @@
 --- 
 title: Configurar grupos de impostos e grupos de impostos do item
 description: "Esta tarefa de registro mostra a instalação do imposto sobre vendas e grupos de impostos sobre vendas do item."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/10/2015
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: vstehman

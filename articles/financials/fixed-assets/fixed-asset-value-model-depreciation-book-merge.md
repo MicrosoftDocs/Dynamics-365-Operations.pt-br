@@ -1,7 +1,7 @@
 ---
 title: "Modelo de valor e registro de depreciação de ativo fixo"
 description: "Em versões anteriores, havia dois conceitos de avaliação para ativos fixos: modelos de valor e registros de depreciações. Na versão do Microsoft Dynamics 365 for Operations (1611), as funcionalidades modelo de valor e registro de depreciação foram mescladas em um único conceito que é conhecido como registro."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 221564
 ms.assetid: 7c68eb7c-8b1a-4dd9-afb8-04b4040e305e
