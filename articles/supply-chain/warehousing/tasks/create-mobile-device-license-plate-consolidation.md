@@ -1,7 +1,7 @@
 --- 
 title: "Criar um item de menu de dispositivo móvel para consolidação de placa de licença"
 description: "Este procedimento mostra como criar um item de menu de dispositivo móvel para trabalhos de consolidação de matrícula."
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/13/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution

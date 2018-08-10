@@ -1,7 +1,7 @@
 ---
 title: "Amostra de relatório eletrônico para cheques de fornecedores"
 description: "Este tópico fornece informações gerais sobre como usar a amostra de relatório eletrônico para formatos de cheque."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/14/2017
 ms.topic: article
@@ -9,11 +9,11 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT

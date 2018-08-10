@@ -1,7 +1,7 @@
 ---
 title: "Configurar o processo de importação de reconciliação bancária avançada"
 description: "O recurso de reconciliação bancária avançada permite importar extratos bancários eletrônicos e reconciliá-los automaticamente com as transações bancárias no Microsoft Dynamics 365 for Finance and Operations. Este artigo explica como configurar a funcionalidade de importação para seus extratos bancários."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BankStatementFormat
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
