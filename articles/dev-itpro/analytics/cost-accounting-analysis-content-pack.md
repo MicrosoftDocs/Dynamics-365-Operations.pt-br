@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -33,18 +33,18 @@ Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI *
 
 ## <a name="overview"></a>Visão Geral
 
-O conteúdo do Power BI **Análise de contabilização de custos** destina-se a controladores de custo ou qualquer pessoa responsável por realizar o controle de custos de uma organização. Ele inclui as principais métricas, como custo, magnitude e taxa de custo por custo real, custo de orçamento e custo de orçamento flexível. Ele usa dados de transação do módulo **Contabilização de custos** e fornece uma visão agregada dos custos de toda a organização em uma moeda de relatório. Os gerentes podem filtrar os dados por objetos de custo para realizar o controle de custos de suas unidades organizacionais, mesmo que a organização possa ter várias entidades legais. 
+O conteúdo do Power BI **Análise de contabilização de custos** destina-se a controladores de custo ou qualquer pessoa responsável por realizar o controle de custos de uma organização. Ele inclui as principais métricas, como custo, magnitude e taxa de custo por custo real, custo de orçamento e custo de orçamento flexível. Ele usa dados de transação do módulo **Contabilização de custos** e fornece uma visão agregada dos custos de toda a organização em uma moeda de relatório. Os gerentes podem filtrar os dados por objetos de custo para realizar o controle de custos de suas unidades organizacionais, mesmo que a organização possa ter várias entidades legais.
 
-Como o conteúdo **Análise de contabilização de custos** destaca variações entre os custos reais e os custos orçados, os gerentes podem ser notificados sobre as tendências positivas e negativas de suas unidades operacionais. Os gerentes podem fazer busca detalhada em hierarquias de elementos de custo ou em elementos de custo individual. Assim, os gerentes podem ter uma ideia aprofundada de como as variações de custo ocorreram e adotar medidas eficazes. 
+Como o conteúdo **Análise de contabilização de custos** destaca variações entre os custos reais e os custos orçados, os gerentes podem ser notificados sobre as tendências positivas e negativas de suas unidades operacionais. Os gerentes podem fazer busca detalhada em hierarquias de elementos de custo ou em elementos de custo individual. Assim, os gerentes podem ter uma ideia aprofundada de como as variações de custo ocorreram e adotar medidas eficazes.
 
-O conteúdo **Análise de contabilização de custos** permite que os contadores analisem como o custo flui por meio dos objetos de custo de toda a organização. 
+O conteúdo **Análise de contabilização de custos** permite que os contadores analisem como o custo flui por meio dos objetos de custo de toda a organização.
 
-Para saber mais sobre contabilização de custos, consulte [Pagina inicial de contabilização de custos](../../financials/cost-accounting/cost-accounting-home-page.md). 
+Para saber mais sobre contabilização de custos, consulte [Pagina inicial de contabilização de custos](../../financials/cost-accounting/cost-accounting-home-page.md).
 
 Definindo a segurança de nível de acesso em Contabilização de custos e combinando-a com a segurança de nível de linha no Power BI, você pode conceder a todos os proprietários de objetos de custo acesso ao conteúdo do Power BI **Análise de contabilização de custos**. Todos os dados nas visualizações serão então filtrados no nível de acesso que é controlado em Contabilização de custos. Para saber mais sobre a segurança de nível de acesso e linha, consulte [Definição de segurança do conteúdo Contabilização de custos para o Power BI](setup-security-cost-accounting-content-pack.md).
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-Você pode encontrar o conteúdo do Power BI **Análise de contabilização de custos** na biblioteca de ativos compartilhados em Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/). 
+Você pode encontrar o conteúdo do Power BI **Análise de contabilização de custos** na biblioteca de ativos compartilhados em Microsoft Dynamics Lifecycle Services (LCS). Para obter mais informações sobre como baixar o pacote de conteúdo e implementá-lo na sua organização, consulte [Conteúdo do Power BI no LCS da Microsoft e seus parceiros](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/).
 
 <!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
@@ -75,7 +75,7 @@ O conteúdo inclui um conjunto de páginas de relatório. Cada página consiste 
 |                                  | Custo real por nome do membro de dimensão de objeto de custo e nome do membro de dimensão de elemento de custo                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
-Os seguintes dados são usados para preencher as páginas de relatório no conteúdo do Power BI **Análise de contabilidade de custo**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com a loja Entidade](power-bi-integration-entity-store.md). 
+Os seguintes dados são usados para preencher as páginas de relatório no conteúdo do Power BI **Análise de contabilidade de custo**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com a loja Entidade](power-bi-integration-entity-store.md).
 
 As principais medidas agregadas a seguir são usadas como base do conteúdo.
 
@@ -113,20 +113,18 @@ A tabela a seguir mostra como as principais medidas agregadas são usadas para c
 
 As principais dimensões a seguir são usadas como filtros para cortar as medidas agregadas para obter uma granularidade maior e fornecer uma introspecção analítica mais profunda.
 
-
-|               Entidade               |                                                Exemplos de atributos                                                |
+| Entidade                             | Exemplos de atributos                                                                                               |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-|      Razões de contabilização de custos       |                                                Razão de contabilização de custos                                                |
-|         Unidades de controle de custo         |                                                Nome da unidade de controle de custo                                                |
-|      Dimensões do elemento de custo       |     Nome da dimensão dos elementos de custo, nome de membro de dimensão do elemento de custo e descrição de membro de dimensão do elemento de custo      |
-|       Dimensões de objeto de custo       |       Nome da dimensão do objeto de custo, nome de membro de dimensão do objeto de custo e descrição de membro de dimensão do objeto de custo        |
-|       Dimensões estatísticas       |       Nome da dimensão estatística, nome de membro de dimensão estatística e descrição de membro de dimensão estatística        |
-| Hierarquias da dimensão de objeto de custo  |  Nome da hierarquia de dimensão de objeto de custo, nível da hierarquia de dimensão de objeto de custo e árvore da hierarquia de dimensão de objeto de custo   |
+| Razões de contabilização de custos            | Razão de contabilização de custos                                                                                               |
+| Unidades de controle de custo                 | Nome da unidade de controle de custo                                                                                               |
+| Dimensões do elemento de custo            | Nome da dimensão dos elementos de custo, nome de membro de dimensão do elemento de custo e descrição de membro de dimensão do elemento de custo          |
+| Dimensões de objeto de custo             | Nome da dimensão do objeto de custo, nome de membro de dimensão do objeto de custo e descrição de membro de dimensão do objeto de custo              |
+| Dimensões estatísticas             | Nome da dimensão estatística, nome de membro de dimensão estatística e descrição de membro de dimensão estatística              |
+| Hierarquias da dimensão de objeto de custo  | Nome da hierarquia de dimensão de objeto de custo, nível da hierarquia de dimensão de objeto de custo e árvore da hierarquia de dimensão de objeto de custo    |
 | Hierarquias da dimensão de elemento de custo | Nome da hierarquia de dimensão de elemento de custo, nível da hierarquia de dimensão de elemento de custo e árvore da hierarquia de dimensão de elemento de custo |
-| Hierarquias da dimensão estatística  |  Nome da hierarquia de dimensão estatística, nível da hierarquia de dimensão estatística e árvore da hierarquia de dimensão estatística   |
-|        Versões de transação        |                                                     Nome da versão                                                     |
-|          Calendários fiscais          |                                            Calendário, descrição do calendário                                            |
-|            Anos fiscais            |                                                    Ano civil                                                     |
-|           Períodos fiscais           |                                                 Período de ano civil                                                 |
-
+| Hierarquias da dimensão estatística  | Nome da hierarquia de dimensão estatística, nível da hierarquia de dimensão estatística e árvore da hierarquia de dimensão estatística    |
+| Versões de transação               | Nome da versão                                                                                                         |
+| Calendários fiscais                   | Calendário, descrição do calendário                                                                                       |
+| Anos fiscais                       | Ano civil                                                                                                        |
+| Períodos fiscais                     | Período de ano civil                                                                                                 |
 
