@@ -13,13 +13,13 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: v-gonode
-ms.search.validfrom: 2017-06-30
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: beaf4726e6f417a9a01cc9fcf7c78e4cbf7b2750
+ms.sourcegitcommit: 384c38f3e154495c882434d1c85cef63396cd897
+ms.openlocfilehash: e8a5f17c0819dde93436b0a0499c0180bfc41583
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/15/2018
 
 ---
 

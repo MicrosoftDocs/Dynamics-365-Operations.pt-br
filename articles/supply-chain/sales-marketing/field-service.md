@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 2ef7f71dc6d58108b498ed89e9175ff2ce900cda
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 31f496dccc410f8d12d99359493193853999abc6
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -45,8 +45,6 @@ ms.lasthandoff: 08/07/2018
 - [<span data-ttu-id="b013f-116">Faturas no Field Service com faturas de texto livre no Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="b013f-116">Invoices in Field Service to free text invoices in Finance and Operations</span></span>](field-service-invoice.md)
 
 <span data-ttu-id="b013f-117">Para ver um exemplo de como você pode sincronizar uma ordem de trabalho entre o Field Service e Finance and Operations , assista a um vídeo do YouTube [Sincronizar uma ordem de trabalho entre o Dynamics 365 for Field Service e Finance and Operations](https://www.youtube.com/watch?v=hAB4TDVMjxU).</span><span class="sxs-lookup"><span data-stu-id="b013f-117">To see an example of how you can synchronize a work order between Field Service and Finance and Operations, watch the short YouTube video [Synchronize a work order between Dynamics 365 for Field Service and Finance and Operations](https://www.youtube.com/watch?v=hAB4TDVMjxU).</span></span>
-
-[![](https://img.youtube.com/vi/hAB4TDVMjxU/0.jpg)](https://www.youtube.com/watch?v=hAB4TDVMjxU)
 
 ## <a name="system-requirements-for-finance-and-operations"></a><span data-ttu-id="b013f-118">Requisitos de sistema para Finance and Operations</span><span class="sxs-lookup"><span data-stu-id="b013f-118">System requirements for Finance and Operations</span></span>
 <span data-ttu-id="b013f-119">A integração do Field Service é compatível com as seguintes versões:</span><span class="sxs-lookup"><span data-stu-id="b013f-119">Field Service integration supports the following versions:</span></span>
