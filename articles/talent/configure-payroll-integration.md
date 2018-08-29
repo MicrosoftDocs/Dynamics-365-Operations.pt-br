@@ -1,0 +1,665 @@
+---
+title: "Configurar a integração da folha de pagamento entre o Talent e o Dayforce"
+description: "Este tópico explica como configurar a integração entre o Microsoft Dynamics 365 for Talent e o Ceridian Dayforce de modo que você possa processar uma execução de pagamento."
+author: jcart1106
+manager: AnnBe
+ms.date: 07/10/2018
+ms.topic: article
+ms.prod: 
+ms.service: dynamics-365-talent
+ms.technology: 
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations, Talent
+ms.search.region: Global
+ms.author: jcart
+ms.search.validFrom: 
+ms.dyn365.ops.version: 
+ms.translationtype: HT
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: fcddf82cffb9f0ba94b83eb21809b810585ebc9e
+ms.contentlocale: pt-br
+ms.lasthandoff: 08/09/2018
+
+---
+
+# <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a><span data-ttu-id="21dbf-103">Configurar a integração da folha de pagamento entre o Talent e o Dayforce</span><span class="sxs-lookup"><span data-stu-id="21dbf-103">Configure the payroll integration between Talent and Dayforce</span></span>
+
+[!include [banner](includes/banner.md)]
+
+<span data-ttu-id="21dbf-104">A integração entre o Microsoft Dynamics 365 for Talent e o Ceridian Dayforce depende de várias etapas de configuração descritas neste tópico.</span><span class="sxs-lookup"><span data-stu-id="21dbf-104">The integration between Microsoft Dynamics 365 for Talent and Ceridian Dayforce relies on several configuration steps that are described in this topic.</span></span> <span data-ttu-id="21dbf-105">Você deve configurar a integração no Talent e no Dayforce antes de poder processar uma execução de pagamento.</span><span class="sxs-lookup"><span data-stu-id="21dbf-105">You must configure the integration in both Talent and Dayforce before you can process a pay run.</span></span>
+
+<span data-ttu-id="21dbf-106">Ao usar um serviço como o Dayforce para concluir execuções de pagamento, é necessário ativar a integração no Talent.</span><span class="sxs-lookup"><span data-stu-id="21dbf-106">When you use a service such as Dayforce to complete pay runs, you must enable the integration in Talent.</span></span> <span data-ttu-id="21dbf-107">A integração requer dados específicos do Talent.</span><span class="sxs-lookup"><span data-stu-id="21dbf-107">The integration requires specific data from Talent.</span></span> <span data-ttu-id="21dbf-108">Portanto, você deve verificar se os dados mapeados para o Dayforce estão configurados no Talent de forma compatível com a integração.</span><span class="sxs-lookup"><span data-stu-id="21dbf-108">Therefore, you must verify that data that is mapped to Dayforce is configured in Talent in a manner that supports the integration.</span></span> <span data-ttu-id="21dbf-109">A integração usa as seguintes categorias amplas de dados:</span><span class="sxs-lookup"><span data-stu-id="21dbf-109">The integration uses the following broad categories of data:</span></span>
+
+- <span data-ttu-id="21dbf-110">Dados de recursos humanos</span><span class="sxs-lookup"><span data-stu-id="21dbf-110">Human resources data</span></span>
+- <span data-ttu-id="21dbf-111">Dados de remuneração</span><span class="sxs-lookup"><span data-stu-id="21dbf-111">Compensation data</span></span>
+- <span data-ttu-id="21dbf-112">Dados da folha de pagamento, como ciclos de pagamento, períodos de pagamento e códigos de ganhos</span><span class="sxs-lookup"><span data-stu-id="21dbf-112">Payroll data, such as pay cycles, pay periods, and earning codes</span></span>
+- <span data-ttu-id="21dbf-113">Dados do trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-113">Worker data</span></span>
+
+<span data-ttu-id="21dbf-114">Este tópico descreve as etapas que você deve seguir para ativar a integração.</span><span class="sxs-lookup"><span data-stu-id="21dbf-114">This topic describes the steps that you must follow to enable the integration.</span></span> <span data-ttu-id="21dbf-115">Também explica os tipos de dados e os detalhes de configuração que a integração requer.</span><span class="sxs-lookup"><span data-stu-id="21dbf-115">It also explains the types of data and the configuration details that the integration requires.</span></span>
+
+## <a name="enable-the-integration"></a><span data-ttu-id="21dbf-116">Habilitar a integração</span><span class="sxs-lookup"><span data-stu-id="21dbf-116">Enable the integration</span></span>
+
+<span data-ttu-id="21dbf-117">No Talent, você deve ativar a integração e inserir as informações de configuração para se conectar ao Dayforce.</span><span class="sxs-lookup"><span data-stu-id="21dbf-117">In Talent, you must turn on the integration and enter the configuration information to connect to Dayforce.</span></span> <span data-ttu-id="21dbf-118">Para que a transação da contabilidade produzida seja importada para o Microsoft Dynamics 365 for Finance and Operations, também será preciso configurar uma conta de armazenamento do Microsoft Azure e inserir a cadeia de conexão do Armazenamento do Azure em Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="21dbf-118">If you want the general ledger transaction that is produced to be imported into Microsoft Dynamics 365 for Finance and Operations, you must also set up a Microsoft Azure storage account and enter the Azure Storage connection string in Finance and Operations.</span></span>
+
+<span data-ttu-id="21dbf-119">Para ativar a integração no Talent, siga as etapas a seguir.</span><span class="sxs-lookup"><span data-stu-id="21dbf-119">To turn on the integration in Talent, follow these steps.</span></span>
+
+1. <span data-ttu-id="21dbf-120">Na página **Administração do sistema**, selecione **Configuração de integração**.</span><span class="sxs-lookup"><span data-stu-id="21dbf-120">On the **System administration** page, select **Integration configuration**.</span></span>
+2. <span data-ttu-id="21dbf-121">Digite o ponto de extremidade seguro do File Transfer Protocol (FTP) e o caminho seguro da pasta FTP.</span><span class="sxs-lookup"><span data-stu-id="21dbf-121">Enter the secure File Transfer Protocol (FTP) endpoint and the secure FTP folder path.</span></span>
+3. <span data-ttu-id="21dbf-122">Digite o nome e a senha do usuário que acessará o ponto de extremidade e o caminho da pasta seguros do FTP.</span><span class="sxs-lookup"><span data-stu-id="21dbf-122">Enter the user name and password of the user who will access the secure FTP endpoint and folder path.</span></span>
+4. <span data-ttu-id="21dbf-123">Teste a conexão, conforme necessário, e defina a opção **Habilitar integração da folha de pagamento** como **Sim**.</span><span class="sxs-lookup"><span data-stu-id="21dbf-123">Test the connection, as required, and set the **Enable payroll integration** option to **Yes**.</span></span>
+
+<span data-ttu-id="21dbf-124">Quando a integração é ativada, o pacote e os arquivos de exportação de dados são criados e a frequência é configurada.</span><span class="sxs-lookup"><span data-stu-id="21dbf-124">When the integration is turned on, the data export package and files are created, and the frequency is set.</span></span> <span data-ttu-id="21dbf-125">Você pode alterar essa frequência conforme necessário.</span><span class="sxs-lookup"><span data-stu-id="21dbf-125">You can change this frequency as you require.</span></span>
+
+<span data-ttu-id="21dbf-126">Para obter mais informações sobre as contas de armazenamento do Azure e as cadeias de conexão do Armazenamento do Azure, consulte os seguintes tópicos do Azure:</span><span class="sxs-lookup"><span data-stu-id="21dbf-126">For more information about Azure storage accounts and Azure Storage connection strings, see the following Azure topics:</span></span>
+
+- [<span data-ttu-id="21dbf-127">Sobre as contas de armazenamento do Azure</span><span class="sxs-lookup"><span data-stu-id="21dbf-127">About Azure storage accounts</span></span>](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
+- [<span data-ttu-id="21dbf-128">Configurar cadeias de conexão do Armazenamento do Azure</span><span class="sxs-lookup"><span data-stu-id="21dbf-128">Configure Azure Storage connection strings</span></span>](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+
+## <a name="configure-your-data"></a><span data-ttu-id="21dbf-129">Configurar seus dados</span><span class="sxs-lookup"><span data-stu-id="21dbf-129">Configure your data</span></span> 
+
+<span data-ttu-id="21dbf-130">Para processar a folha de pagamento, você deve configurar dados de RH no Talent.</span><span class="sxs-lookup"><span data-stu-id="21dbf-130">To process payroll, you must configure human resource data in Talent.</span></span> <span data-ttu-id="21dbf-131">Você deve configurar dados organizacionais, como cargos e posições, juntamente com informações sobre benefícios e remuneração.</span><span class="sxs-lookup"><span data-stu-id="21dbf-131">You must set up organizational data, such as jobs and positions, together with benefits and compensation information.</span></span> <span data-ttu-id="21dbf-132">Esses dados fornecem as informações de emprego, pagamento e dedução necessárias para gerar o pagamento do empregado.</span><span class="sxs-lookup"><span data-stu-id="21dbf-132">This information provides the employment, pay, and deduction information that is required in order to generate employee pay.</span></span>
+
+### <a name="human-resource-data"></a><span data-ttu-id="21dbf-133">Dados de RH</span><span class="sxs-lookup"><span data-stu-id="21dbf-133">Human resource data</span></span>
+
+#### <a name="benefits"></a><span data-ttu-id="21dbf-134">Benefícios</span><span class="sxs-lookup"><span data-stu-id="21dbf-134">Benefits</span></span> 
+
+<span data-ttu-id="21dbf-135">O RH fornece ferramentas para a configuração e manutenção dos benefícios, deduções e planos de remuneração do trabalhador que uma organização oferece ou processa para seus funcionários.</span><span class="sxs-lookup"><span data-stu-id="21dbf-135">Human resources provides tools for the setup and maintenance of the benefits, deductions, and worker compensation plans that an organization offers or processes for its workers.</span></span>
+
+<span data-ttu-id="21dbf-136">Ao criar benefícios, tenha em mente os dados e configurações a seguir usados no Dayforce.</span><span class="sxs-lookup"><span data-stu-id="21dbf-136">When you create benefits, keep in mind the following data and configurations that are used in Dayforce.</span></span>
+
+##### <a name="benefit-plans"></a><span data-ttu-id="21dbf-137">Planos de benefícios</span><span class="sxs-lookup"><span data-stu-id="21dbf-137">Benefit plans</span></span>
+
+- <span data-ttu-id="21dbf-138">Plano (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-138">Plan (required)</span></span>
+- <span data-ttu-id="21dbf-139">Tipo (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-139">Type (required)</span></span>
+- <span data-ttu-id="21dbf-140">Impacto da folha de pagamento (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-140">Payroll impact (required)</span></span>
+- <span data-ttu-id="21dbf-141">Recuperar atrasos de pagamento</span><span class="sxs-lookup"><span data-stu-id="21dbf-141">Recover arrears</span></span>
+- <span data-ttu-id="21dbf-142">Método de dedução</span><span class="sxs-lookup"><span data-stu-id="21dbf-142">Deduction method</span></span>
+- <span data-ttu-id="21dbf-143">Prioridade da dedução</span><span class="sxs-lookup"><span data-stu-id="21dbf-143">Deduction priority</span></span>
+- <span data-ttu-id="21dbf-144">Limitar período</span><span class="sxs-lookup"><span data-stu-id="21dbf-144">Limit period</span></span>
+- <span data-ttu-id="21dbf-145">Valor de limite</span><span class="sxs-lookup"><span data-stu-id="21dbf-145">Limit amount</span></span>
+
+##### <a name="benefits"></a><span data-ttu-id="21dbf-146">Benefícios</span><span class="sxs-lookup"><span data-stu-id="21dbf-146">Benefits</span></span>
+
+- <span data-ttu-id="21dbf-147">Plano (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-147">Plan (required)</span></span>
+- <span data-ttu-id="21dbf-148">Tipo (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-148">Type (required)</span></span>
+- <span data-ttu-id="21dbf-149">Opção (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-149">Option (required)</span></span>
+- <span data-ttu-id="21dbf-150">ID do benefício (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-150">Benefit ID (required)</span></span>
+- <span data-ttu-id="21dbf-151">Frequência</span><span class="sxs-lookup"><span data-stu-id="21dbf-151">Frequency</span></span>
+- <span data-ttu-id="21dbf-152">Base</span><span class="sxs-lookup"><span data-stu-id="21dbf-152">Basis</span></span>
+- <span data-ttu-id="21dbf-153">Valor ou taxa</span><span class="sxs-lookup"><span data-stu-id="21dbf-153">Amount or rate</span></span>
+- <span data-ttu-id="21dbf-154">Código de ganhos</span><span class="sxs-lookup"><span data-stu-id="21dbf-154">Earning code</span></span>
+
+##### <a name="supported-frequencies"></a><span data-ttu-id="21dbf-155">Frequências com suporte</span><span class="sxs-lookup"><span data-stu-id="21dbf-155">Supported frequencies</span></span> 
+
+- <span data-ttu-id="21dbf-156">Semanalmente</span><span class="sxs-lookup"><span data-stu-id="21dbf-156">Weekly</span></span>
+- <span data-ttu-id="21dbf-157">Por quinzena</span><span class="sxs-lookup"><span data-stu-id="21dbf-157">Bi-weekly</span></span>
+- <span data-ttu-id="21dbf-158">Quinzenal</span><span class="sxs-lookup"><span data-stu-id="21dbf-158">Semi-monthly</span></span>
+- <span data-ttu-id="21dbf-159">Mensalmente</span><span class="sxs-lookup"><span data-stu-id="21dbf-159">Monthly</span></span>
+
+##### <a name="supported-bases"></a><span data-ttu-id="21dbf-160">Bases com suporte</span><span class="sxs-lookup"><span data-stu-id="21dbf-160">Supported bases</span></span> 
+
+- <span data-ttu-id="21dbf-161">Valor fixo</span><span class="sxs-lookup"><span data-stu-id="21dbf-161">Fixed amount</span></span>
+- <span data-ttu-id="21dbf-162">Percentual de ganhos</span><span class="sxs-lookup"><span data-stu-id="21dbf-162">Percent of earnings</span></span>
+- <span data-ttu-id="21dbf-163">Horas produtivas</span><span class="sxs-lookup"><span data-stu-id="21dbf-163">Productive hours</span></span>
+
+<span data-ttu-id="21dbf-164">O Dayforce cria as deduções a seguir, com base no impacto da folha de pagamento definido no plano de benefícios.</span><span class="sxs-lookup"><span data-stu-id="21dbf-164">Dayforce creates the following deductions, based on the payroll impact that is defined on the benefit plan.</span></span>
+
+| <span data-ttu-id="21dbf-165">Seleção no Talent</span><span class="sxs-lookup"><span data-stu-id="21dbf-165">Selection in Talent</span></span>        | <span data-ttu-id="21dbf-166">Resultado no Dayforce</span><span class="sxs-lookup"><span data-stu-id="21dbf-166">Result in Dayforce</span></span>                            |
+|----------------------------|-----------------------------------------------|
+| <span data-ttu-id="21dbf-167">Nenhum(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-167">None</span></span>                       | <span data-ttu-id="21dbf-168">Nenhuma dedução é criada.</span><span class="sxs-lookup"><span data-stu-id="21dbf-168">No deduction is created.</span></span>                      |
+| <span data-ttu-id="21dbf-169">Somente dedução</span><span class="sxs-lookup"><span data-stu-id="21dbf-169">Deduction only</span></span>             | <span data-ttu-id="21dbf-170">Uma dedução de funcionário é criada.</span><span class="sxs-lookup"><span data-stu-id="21dbf-170">An employee deduction is created.</span></span>             |
+| <span data-ttu-id="21dbf-171">Somente contribuição</span><span class="sxs-lookup"><span data-stu-id="21dbf-171">Contribution only</span></span>          | <span data-ttu-id="21dbf-172">Uma dedução de empregador é criada.</span><span class="sxs-lookup"><span data-stu-id="21dbf-172">An employer deduction is created.</span></span>             |
+| <span data-ttu-id="21dbf-173">Dedução e contribuição</span><span class="sxs-lookup"><span data-stu-id="21dbf-173">Deduction and contribution</span></span> | <span data-ttu-id="21dbf-174">Deduções de funcionário e empregador são criadas.</span><span class="sxs-lookup"><span data-stu-id="21dbf-174">Employee and employer deductions are created.</span></span> |
+
+<span data-ttu-id="21dbf-175">Para obter mais informações sobre como definir e gerenciar um programa de benefícios, consulte os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="21dbf-175">For more information about how to define and manage a benefits program, see the following topics:</span></span>
+
+- [<span data-ttu-id="21dbf-176">Entregar um programa de benefícios do funcionário</span><span class="sxs-lookup"><span data-stu-id="21dbf-176">Deliver an employee benefits program</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/deliver-employee-benefits-program)
+- [<span data-ttu-id="21dbf-177">Criar um novo benefício</span><span class="sxs-lookup"><span data-stu-id="21dbf-177">Create a new benefit</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/create-new-benefit)
+- [<span data-ttu-id="21dbf-178">Definir regras e políticas de qualificação para o benefício</span><span class="sxs-lookup"><span data-stu-id="21dbf-178">Define benefit eligibility rules and policies</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-benefit-eligibility-rules-policies)
+- [<span data-ttu-id="21dbf-179">Inscrever e remover benefícios de trabalhadores</span><span class="sxs-lookup"><span data-stu-id="21dbf-179">Enroll and remove benefits from workers</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-remove-benefits-workers)
+
+#### <a name="compensation"></a><span data-ttu-id="21dbf-180">Remuneração</span><span class="sxs-lookup"><span data-stu-id="21dbf-180">Compensation</span></span> 
+
+<span data-ttu-id="21dbf-181">O gerenciamento de remuneração é usado para controlar o pagamento do salário base e de prêmios.</span><span class="sxs-lookup"><span data-stu-id="21dbf-181">Compensation management is used to control the delivery of base pay and awards.</span></span> <span data-ttu-id="21dbf-182">Os aumentos no salário base fixo e nos prêmios de um funcionário são controlados por meio de planos de remuneração fixos.</span><span class="sxs-lookup"><span data-stu-id="21dbf-182">An employee's fixed base pay and merit increases are controlled through fixed compensation plans.</span></span> <span data-ttu-id="21dbf-183">O pagamento de incentivos, como pagamentos de bônus, prêmios por desempenho, opções de ação e concessões, além de prêmios únicos, são controlados por meio de planos de remuneração variável.</span><span class="sxs-lookup"><span data-stu-id="21dbf-183">The payment of incentive pay, such as bonus payments, performance awards, stock options, and grants, and also one-time awards, are controlled through variable compensation plans.</span></span>
+
+<span data-ttu-id="21dbf-184">O Dayforce usa informações de remuneração para calcular a taxa por hora ou anual de um funcionário.</span><span class="sxs-lookup"><span data-stu-id="21dbf-184">Dayforce uses compensation information to calculate an employee's hourly or annual rate.</span></span> <span data-ttu-id="21dbf-185">Planos de remuneração fixa e conversões de taxa de pagamento são necessários.</span><span class="sxs-lookup"><span data-stu-id="21dbf-185">Fixed compensation plans and pay rate conversions are required.</span></span> <span data-ttu-id="21dbf-186">Os funcionários devem estar associados a um plano de remuneração fixa.</span><span class="sxs-lookup"><span data-stu-id="21dbf-186">Employees must be associated with a fixed compensation plan.</span></span>
+
+<span data-ttu-id="21dbf-187">Para obter mais informações sobre planos de remuneração, veja os tópicos a seguir:</span><span class="sxs-lookup"><span data-stu-id="21dbf-187">For more information about compensation plans, see the following topics:</span></span>
+
+- [<span data-ttu-id="21dbf-188">Criar planos de remuneração fixa</span><span class="sxs-lookup"><span data-stu-id="21dbf-188">Create fixed compensation plans</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+- [<span data-ttu-id="21dbf-189">Criar planos de remuneração variável</span><span class="sxs-lookup"><span data-stu-id="21dbf-189">Create variable compensation plans</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+- [<span data-ttu-id="21dbf-190">Desenvolver estrutura e planos de remuneração/salário</span><span class="sxs-lookup"><span data-stu-id="21dbf-190">Develop salary/compensation structure and plans</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/develop-salary-compensation-structure-plan)
+- [<span data-ttu-id="21dbf-191">Processar remuneração</span><span class="sxs-lookup"><span data-stu-id="21dbf-191">Process compensation</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/process-compensation)
+- [<span data-ttu-id="21dbf-192">Definir processo de remuneração e calcular resultados</span><span class="sxs-lookup"><span data-stu-id="21dbf-192">Define compensation process and calculate results</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-compensation-process-calculate-results)
+- [<span data-ttu-id="21dbf-193">Inscrever um funcionário em um plano de remuneração fixa</span><span class="sxs-lookup"><span data-stu-id="21dbf-193">Enroll an employee in a fixed compensation plan</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-fixed-compensation-plan)
+- [<span data-ttu-id="21dbf-194">Inscrever um funcionário em um plano de remuneração variável</span><span class="sxs-lookup"><span data-stu-id="21dbf-194">Enroll an employee in a variable compensation plan</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/enroll-employee-variable-compensation-plan)
+
+#### <a name="jobs"></a><span data-ttu-id="21dbf-195">Trabalhos</span><span class="sxs-lookup"><span data-stu-id="21dbf-195">Jobs</span></span> 
+
+<span data-ttu-id="21dbf-196">Um trabalho é um conjunto de tarefas e responsabilidades exigidas de uma pessoa que realiza um trabalho.</span><span class="sxs-lookup"><span data-stu-id="21dbf-196">A job is a collection of the tasks and responsibilities that are required of a person who performs a job.</span></span> <span data-ttu-id="21dbf-197">Para obter mais informações, consulte os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="21dbf-197">For more information, see the following topics:</span></span>
+
+- [<span data-ttu-id="21dbf-198">Configurando os componentes de um trabalho</span><span class="sxs-lookup"><span data-stu-id="21dbf-198">Setting up the components of a job</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-job)
+- [<span data-ttu-id="21dbf-199">Definir novos trabalhos</span><span class="sxs-lookup"><span data-stu-id="21dbf-199">Define new jobs</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-jobs)
+
+##### <a name="positions"></a><span data-ttu-id="21dbf-200">Posições</span><span class="sxs-lookup"><span data-stu-id="21dbf-200">Positions</span></span>
+
+<span data-ttu-id="21dbf-201">Um cargo é uma instância individual de um trabalho.</span><span class="sxs-lookup"><span data-stu-id="21dbf-201">A position is an individual instance of a job.</span></span> <span data-ttu-id="21dbf-202">Por exemplo, a posição "Gerente de vendas (Leste)" é uma das posições associadas ao trabalho "Gerente de vendas".</span><span class="sxs-lookup"><span data-stu-id="21dbf-202">For example, the "Sales manager (East)" position is one of the positions that are associated with the "Sales manager" job.</span></span> <span data-ttu-id="21dbf-203">Uma posição existe em um departamento.</span><span class="sxs-lookup"><span data-stu-id="21dbf-203">A position exists in a department.</span></span> <span data-ttu-id="21dbf-204">Apenas um trabalhador pode ser associado a cada posição.</span><span class="sxs-lookup"><span data-stu-id="21dbf-204">Only one worker can be associated with each position.</span></span>
+
+<span data-ttu-id="21dbf-205">Considere os seguintes dados e configurações ao configurar as posições:</span><span class="sxs-lookup"><span data-stu-id="21dbf-205">Keep the following data and configuration in mind when you set up positions:</span></span>
+
+- <span data-ttu-id="21dbf-206">Posição (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-206">Position (required)</span></span>
+- <span data-ttu-id="21dbf-207">Descrição (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-207">Description (required)</span></span>
+- <span data-ttu-id="21dbf-208">Trabalho (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-208">Job (required)</span></span>
+- <span data-ttu-id="21dbf-209">Departamento (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-209">Department (required)</span></span>
+- <span data-ttu-id="21dbf-210">Tipo de posição (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-210">Position type (required)</span></span>
+- <span data-ttu-id="21dbf-211">Equivalente ao horário integral</span><span class="sxs-lookup"><span data-stu-id="21dbf-211">Full-time equivalent</span></span>
+- <span data-ttu-id="21dbf-212">Horas normais anuais (obrigatórias)</span><span class="sxs-lookup"><span data-stu-id="21dbf-212">Annual regular hours (required)</span></span>
+- <span data-ttu-id="21dbf-213">Pago por entidade legal (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-213">Paid by legal entity (required)</span></span>
+- <span data-ttu-id="21dbf-214">Ciclo de pagamento (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-214">Pay cycle (required)</span></span>
+- <span data-ttu-id="21dbf-215">Dimensão financeira padrão – Centro de custo (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-215">Default financial dimension – Cost center (required)</span></span>
+- <span data-ttu-id="21dbf-216">Atribuição do trabalhador – Trabalhador, início da atribuição, fim da atribuição, código de motivo</span><span class="sxs-lookup"><span data-stu-id="21dbf-216">Worker assignment – Worker, assignment start, assignment end, reason code</span></span>
+
+<span data-ttu-id="21dbf-217">Se várias posições no mesmo departamento estiverem associadas ao mesmo trabalho, elas serão consolidadas em uma única posição no Dayforce.</span><span class="sxs-lookup"><span data-stu-id="21dbf-217">If multiple positions in the same department are associated with the same job, they are consolidated into a single position in Dayforce.</span></span>
+
+<span data-ttu-id="21dbf-218">Para obter mais informações, consulte os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="21dbf-218">For more information, see the following topics:</span></span>
+
+- [<span data-ttu-id="21dbf-219">Organizar sua força de trabalho usando departamentos, trabalhos e posições</span><span class="sxs-lookup"><span data-stu-id="21dbf-219">Organize your workforce using departments, jobs, and positions</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/departments-jobs-positions#positions)
+- [<span data-ttu-id="21dbf-220">Configurar posições</span><span class="sxs-lookup"><span data-stu-id="21dbf-220">Set up positions</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/set-up-positions)
+
+#### <a name="departments"></a><span data-ttu-id="21dbf-221">Departamentos</span><span class="sxs-lookup"><span data-stu-id="21dbf-221">Departments</span></span>
+
+<span data-ttu-id="21dbf-222">Um departamento é uma unidade operacional que representa uma categoria ou uma área funcional de uma organização.</span><span class="sxs-lookup"><span data-stu-id="21dbf-222">A department is an operating unit that represents a category or functional area of an organization.</span></span> <span data-ttu-id="21dbf-223">Um departamento é responsável por uma área específica da organização, como vendas, contabilidade ou recursos humanos.</span><span class="sxs-lookup"><span data-stu-id="21dbf-223">A department is responsible for a specific area of the organization, such as sales, accounting, or human resources.</span></span> <span data-ttu-id="21dbf-224">Você pode usar departamentos para relatar áreas funcionais.</span><span class="sxs-lookup"><span data-stu-id="21dbf-224">You can use departments to report on functional areas.</span></span> <span data-ttu-id="21dbf-225">Os departamentos podem ter a responsabilidade de lucros e perdas.</span><span class="sxs-lookup"><span data-stu-id="21dbf-225">Departments might have profit and loss responsibility.</span></span>
+
+<span data-ttu-id="21dbf-226">Para obter mais informações, consulte os seguintes tópicos:</span><span class="sxs-lookup"><span data-stu-id="21dbf-226">For more information, see the following topics:</span></span>
+
+- [<span data-ttu-id="21dbf-227">Criar um departamento e associá-lo à hierarquia de departamentos</span><span class="sxs-lookup"><span data-stu-id="21dbf-227">Create a department and associate it with the department hierarchy</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-department-add-department-hierarchy)
+- [<span data-ttu-id="21dbf-228">Definir novos departamentos</span><span class="sxs-lookup"><span data-stu-id="21dbf-228">Define new departments</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/hr/tasks/define-new-departments)
+
+#### <a name="pay-cycles-and-pay-periods"></a><span data-ttu-id="21dbf-229">Ciclos de pagamento e períodos de pagamento</span><span class="sxs-lookup"><span data-stu-id="21dbf-229">Pay cycles and pay periods</span></span>
+
+<span data-ttu-id="21dbf-230">Um ciclo de pagamento determina a frequência com que a folha de pagamento é executada e os dias específicos em que os trabalhadores são pagos.</span><span class="sxs-lookup"><span data-stu-id="21dbf-230">A pay cycle determines how often payroll is run and the specific days when workers are paid.</span></span> <span data-ttu-id="21dbf-231">Por exemplo, um ciclo de pagamento pode ser mensal e os funcionários podem ser pagos no último dia do mês.</span><span class="sxs-lookup"><span data-stu-id="21dbf-231">For example, a pay cycle might be monthly, and employees might be paid on the last day of the month.</span></span> <span data-ttu-id="21dbf-232">Como alternativa, um ciclo de pagamento pode ser semanal e os funcionários podem ser pagos na terça-feira após o término do período de pagamento.</span><span class="sxs-lookup"><span data-stu-id="21dbf-232">Alternatively, a pay cycle might be weekly, and employees might be paid on the Tuesday after the end of the pay period.</span></span> <span data-ttu-id="21dbf-233">Ciclos de pagamento são atribuídos a posições para controlar quando os trabalhadores nessas posições são pagos.</span><span class="sxs-lookup"><span data-stu-id="21dbf-233">Pay cycles are assigned to positions to control when workers in those positions are paid.</span></span>
+
+<span data-ttu-id="21dbf-234">Após a criação dos ciclos de pagamento, você pode gerar períodos de pagamento para cada ciclo.</span><span class="sxs-lookup"><span data-stu-id="21dbf-234">After you create pay cycles, you can generate pay periods for each cycle.</span></span> <span data-ttu-id="21dbf-235">Cada período de pagamento inclui uma data de pagamento padrão baseada nas informações que você fornece.</span><span class="sxs-lookup"><span data-stu-id="21dbf-235">Each pay period includes a default payment date that is based on information that you provide.</span></span> <span data-ttu-id="21dbf-236">No entanto, você pode modificar a data de pagamento padrão em um período de pagamento para permitir exceções (por exemplo, quando a data de pagamento cai em um feriado).</span><span class="sxs-lookup"><span data-stu-id="21dbf-236">However, you can modify the default payment date in a pay period to allow for exceptions, such as when the payment date falls on a holiday.</span></span>
+
+<span data-ttu-id="21dbf-237">As seguintes informações são usadas no Dayforce:</span><span class="sxs-lookup"><span data-stu-id="21dbf-237">The following information is used in Dayforce:</span></span>
+
+- <span data-ttu-id="21dbf-238">Ciclo de pagamento (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-238">Pay cycle (required)</span></span>
+- <span data-ttu-id="21dbf-239">Frequência do ciclo de pagamento (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-239">Pay cycle frequency (required)</span></span>
+- <span data-ttu-id="21dbf-240">Data de início do período (primeiro período de pagamento obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-240">Period start date (first pay period required)</span></span>
+- <span data-ttu-id="21dbf-241">Data de pagamento padrão (primeiro período de pagamento obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-241">Default payment date (first pay period required)</span></span>
+
+<span data-ttu-id="21dbf-242">Essas informações são integradas ao Dayforce como grupos de pagamento e são separadas por país ou região para cada ciclo de pagamento.</span><span class="sxs-lookup"><span data-stu-id="21dbf-242">This information is integrated with Dayforce as pay groups, and is separated by country or region for each pay cycle.</span></span> <span data-ttu-id="21dbf-243">Pelo menos um período de pagamento deve ser gerado antes da integração.</span><span class="sxs-lookup"><span data-stu-id="21dbf-243">At least one pay period must be generated before integration.</span></span> <span data-ttu-id="21dbf-244">O Dayforce gera datas de pagamento e calendários do grupo de pagamento, com base na data de início do primeiro período de pagamento e na data de pagamento padrão configurada no Talent.</span><span class="sxs-lookup"><span data-stu-id="21dbf-244">Dayforce generates pay group calendars and payment dates, based on the start date of the first pay period and the default payment date that is set up in Talent.</span></span>
+
+#### <a name="earning-codes"></a><span data-ttu-id="21dbf-245">Códigos de ganhos</span><span class="sxs-lookup"><span data-stu-id="21dbf-245">Earning codes</span></span>
+
+<span data-ttu-id="21dbf-246">Os códigos de ganhos identificam de forma exclusiva cada tipo de ganho que os trabalhadores recebem.</span><span class="sxs-lookup"><span data-stu-id="21dbf-246">Earning codes uniquely identify every type of earnings that workers receive.</span></span> <span data-ttu-id="21dbf-247">Os códigos têm vários parâmetros relacionados a ganhos, como regras contábeis, leis tributárias, requisitos de relatório e capacidade de montante bruto.</span><span class="sxs-lookup"><span data-stu-id="21dbf-247">The codes have various parameters that are related to earnings, such as accounting rules, tax laws, reporting requirements, and gross-up capability.</span></span>
+
+<span data-ttu-id="21dbf-248">As seguintes informações são usadas no Dayforce:</span><span class="sxs-lookup"><span data-stu-id="21dbf-248">The following information is used in Dayforce:</span></span>
+
+- <span data-ttu-id="21dbf-249">Código de ganhos (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-249">Earning Code (required)</span></span>
+- <span data-ttu-id="21dbf-250">descrição</span><span class="sxs-lookup"><span data-stu-id="21dbf-250">Description</span></span>
+- <span data-ttu-id="21dbf-251">Unidade de medida</span><span class="sxs-lookup"><span data-stu-id="21dbf-251">Unit of measure</span></span>
+- <span data-ttu-id="21dbf-252">Produtivo</span><span class="sxs-lookup"><span data-stu-id="21dbf-252">Productive</span></span>
+
+### <a name="worker-data"></a><span data-ttu-id="21dbf-253">Dados do trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-253">Worker data</span></span>
+
+<span data-ttu-id="21dbf-254">Os registros dos vários tipos de trabalhadores que você tem são importantes para o RH e sistemas de folha de pagamento.</span><span class="sxs-lookup"><span data-stu-id="21dbf-254">Records for the various types of workers that you have are important to your human resources and payroll systems.</span></span> <span data-ttu-id="21dbf-255">As informações inseridas podem ser usadas para rastrear trabalhadores e informações pessoais.</span><span class="sxs-lookup"><span data-stu-id="21dbf-255">The information that you enter can be used to track workers and personal information.</span></span>
+
+<span data-ttu-id="21dbf-256">Você pode manter estas informações para trabalhadores:</span><span class="sxs-lookup"><span data-stu-id="21dbf-256">You can maintain the following information for workers:</span></span>
+
+- <span data-ttu-id="21dbf-257">**Básicas** – mantenha informações básicas do trabalhador, como informações de contato, demográficas, de identificação, sobre a família, o status de serviço militar, informações de exilado, contatos pessoais e de emergência.</span><span class="sxs-lookup"><span data-stu-id="21dbf-257">**Basic** – Maintain basic information about a worker, such as contact information, demographic information, identification information, family information, military service status, expatriate information, and personal and emergency contacts.</span></span>
+- <span data-ttu-id="21dbf-258">**Emprego** – mantenha informações sobre o emprego dos trabalhadores, como a afiliação da empresa ou organização, a atribuição de posição, as datas inicial e final, a qualificação para trabalho, o contrato de trabalho, a pensão, férias e as informações de mudança.</span><span class="sxs-lookup"><span data-stu-id="21dbf-258">**Employment** – Maintain information about a worker's employment, such as company or organization affiliation, position assignment, start and end dates, work eligibility, terms of employment, pension, vacation, and relocation information.</span></span>
+- <span data-ttu-id="21dbf-259">**Licença e ausência** – mantenha informações sobre as ausências dos trabalhadores, como o calendário de trabalho, as transações de ausência e a configuração de ausência.</span><span class="sxs-lookup"><span data-stu-id="21dbf-259">**Leave and absence** – Maintain information about a worker's absences, such as working calendars, absence transactions, and absence setup.</span></span>
+- <span data-ttu-id="21dbf-260">**Remuneração e folha de pagamento** – mantenha informações sobre os planos de remuneração e as informações de folha de pagamento de trabalhadores, como o registro do plano, prêmios, o desempenho, a comissão, informações sobre impostos, aposentadoria e deduções do salário.</span><span class="sxs-lookup"><span data-stu-id="21dbf-260">**Compensation and payroll** – Maintain information about a worker's compensation plans and payroll information, such as plan enrollment, awards, performance, commission, tax information, retirement, and salary deductions.</span></span>
+
+<span data-ttu-id="21dbf-261">Ao inserir informações do trabalhador, tenha em mente os dados e configurações a seguir usados no Dayforce.</span><span class="sxs-lookup"><span data-stu-id="21dbf-261">When you enter worker information, keep in mind the following data and configurations that are used in Dayforce.</span></span>
+
+#### <a name="general-information"></a><span data-ttu-id="21dbf-262">Informações gerais</span><span class="sxs-lookup"><span data-stu-id="21dbf-262">General information</span></span>
+
+- <span data-ttu-id="21dbf-263">Número de equipe (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-263">Personnel number (required)</span></span>
+- <span data-ttu-id="21dbf-264">Nome (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-264">First name (required)</span></span>
+- <span data-ttu-id="21dbf-265">Sobrenome (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-265">Last name (required)</span></span>
+- <span data-ttu-id="21dbf-266">Nome do meio</span><span class="sxs-lookup"><span data-stu-id="21dbf-266">Middle name</span></span>
+- <span data-ttu-id="21dbf-267">Aniversário de tempo de serviço</span><span class="sxs-lookup"><span data-stu-id="21dbf-267">Seniority date</span></span>
+- <span data-ttu-id="21dbf-268">Conhecido como</span><span class="sxs-lookup"><span data-stu-id="21dbf-268">Known as</span></span>
+
+#### <a name="personal-information"></a><span data-ttu-id="21dbf-269">Informações pessoais</span><span class="sxs-lookup"><span data-stu-id="21dbf-269">Personal information</span></span>
+
+- <span data-ttu-id="21dbf-270">Estado civil (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-270">Marital status (required)</span></span>
+- <span data-ttu-id="21dbf-271">Data de nascimento (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-271">Birth date (required)</span></span>
+- <span data-ttu-id="21dbf-272">Sexo (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-272">Gender (required)</span></span>
+- <span data-ttu-id="21dbf-273">Pessoa portadora de deficiências</span><span class="sxs-lookup"><span data-stu-id="21dbf-273">Person with disabilities</span></span>
+- <span data-ttu-id="21dbf-274">Região do país de nacionalidade (somente para o México)</span><span class="sxs-lookup"><span data-stu-id="21dbf-274">Nationality country region (only for Mexico)</span></span>
+
+#### <a name="address-information"></a><span data-ttu-id="21dbf-275">Informações de endereço</span><span class="sxs-lookup"><span data-stu-id="21dbf-275">Address information</span></span>
+
+- <span data-ttu-id="21dbf-276">Principal (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-276">Primary (required)</span></span>
+- <span data-ttu-id="21dbf-277">País/região (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-277">Country/region (required)</span></span>
+- <span data-ttu-id="21dbf-278">CEP (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-278">Postal code (required)</span></span>
+- <span data-ttu-id="21dbf-279">Número da rua (obrigatório) (somente para o México)</span><span class="sxs-lookup"><span data-stu-id="21dbf-279">Street Number (required) (Only for Mexico)</span></span>
+- <span data-ttu-id="21dbf-280">Complemento do edifício (somente para o México)</span><span class="sxs-lookup"><span data-stu-id="21dbf-280">Building Complement (Only for Mexico)</span></span>
+- <span data-ttu-id="21dbf-281">Cidade (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-281">City (required)</span></span>
+- <span data-ttu-id="21dbf-282">Estado (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-282">State (required)</span></span>
+- <span data-ttu-id="21dbf-283">Município (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-283">County (required)</span></span>
+
+#### <a name="contact-information"></a><span data-ttu-id="21dbf-284">Informações de contato</span><span class="sxs-lookup"><span data-stu-id="21dbf-284">Contact information</span></span> 
+
+- <span data-ttu-id="21dbf-285">Principal (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-285">Primary (required)</span></span>
+- <span data-ttu-id="21dbf-286">Número de contato (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-286">Contact number (required)</span></span>
+- <span data-ttu-id="21dbf-287">Extensão</span><span class="sxs-lookup"><span data-stu-id="21dbf-287">Extension</span></span>
+
+#### <a name="payroll-information-and-earning-codes"></a><span data-ttu-id="21dbf-288">Informações sobre folha de pagamento e códigos de ganhos</span><span class="sxs-lookup"><span data-stu-id="21dbf-288">Payroll information and earning codes</span></span>
+
+<span data-ttu-id="21dbf-289">Os funcionários podem receber ganhos específicos com uma determinada frequência de pagamento e ter um método de pagamento preferencial.</span><span class="sxs-lookup"><span data-stu-id="21dbf-289">Employees may be assigned specific earnings at a given frequency of payment and have a preferred payment method.</span></span> <span data-ttu-id="21dbf-290">Os campos a seguir são usados no Dayforce para ajudar a garantir que essas preferências e configurações sejam usadas.</span><span class="sxs-lookup"><span data-stu-id="21dbf-290">The following fields are used in Dayforce to help guarantee that those preferences and settings are used.</span></span>
+
+##### <a name="earning-codes"></a><span data-ttu-id="21dbf-291">Códigos de ganhos</span><span class="sxs-lookup"><span data-stu-id="21dbf-291">Earning codes</span></span>
+
+- <span data-ttu-id="21dbf-292">Posição (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-292">Position (required)</span></span>
+- <span data-ttu-id="21dbf-293">Código de ganhos (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-293">Earning Code (required)</span></span>
+- <span data-ttu-id="21dbf-294">Frequência (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-294">Frequency (required)</span></span>
+- <span data-ttu-id="21dbf-295">Valor (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-295">Amount (required)</span></span>
+
+##### <a name="payroll-information"></a><span data-ttu-id="21dbf-296">Informações da folha de pagamento</span><span class="sxs-lookup"><span data-stu-id="21dbf-296">Payroll information</span></span>
+
+- <span data-ttu-id="21dbf-297">Método de Pagamento</span><span class="sxs-lookup"><span data-stu-id="21dbf-297">Payment Method</span></span>
+- <span data-ttu-id="21dbf-298">Região econômica (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-298">Economic Region (required)</span></span>
+- <span data-ttu-id="21dbf-299">ID de Benefícios do Funcionário</span><span class="sxs-lookup"><span data-stu-id="21dbf-299">Employee Benefits ID</span></span>
+- <span data-ttu-id="21dbf-300">Número de ID nacional (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-300">National ID Number (required)</span></span>
+- <span data-ttu-id="21dbf-301">Número de serviço militar</span><span class="sxs-lookup"><span data-stu-id="21dbf-301">Military Service Number</span></span>
+- <span data-ttu-id="21dbf-302">ID de turno (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-302">Shift ID (required)</span></span>
+- <span data-ttu-id="21dbf-303">Número fiscal (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-303">Tax Number (required)</span></span>
+- <span data-ttu-id="21dbf-304">ID do sindicato (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-304">Union ID (required)</span></span>
+- <span data-ttu-id="21dbf-305">ID do dia útil (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-305">Work Day ID (required)</span></span>
+- <span data-ttu-id="21dbf-306">Número de autorização de trabalho</span><span class="sxs-lookup"><span data-stu-id="21dbf-306">Work Permit Number</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="21dbf-307">Para o método de pagamento, o México permite **Pagamento à vista**, **Cheque** (o cheque físico da empresa) e **Pagamento Eletrônico**.</span><span class="sxs-lookup"><span data-stu-id="21dbf-307">For the payment method, Mexico supports **Cash**, **Check** (the company's physical check), and **Electronic Payment**.</span></span> <span data-ttu-id="21dbf-308">Se nenhum método de pagamento for especificado, **Cheque** é usado por padrão.</span><span class="sxs-lookup"><span data-stu-id="21dbf-308">If np payment method is specified, **Check** is used by default.</span></span>
+
+#### <a name="employment-details"></a><span data-ttu-id="21dbf-309">Detalhes do emprego</span><span class="sxs-lookup"><span data-stu-id="21dbf-309">Employment details</span></span>
+
+<span data-ttu-id="21dbf-310">O histórico de detalhes de emprego é usado como principal informação para derivar os status de contratação, rescisão e recontratação de um funcionário no Dayforce.</span><span class="sxs-lookup"><span data-stu-id="21dbf-310">Employment detail history is used as key information to derive an employee's hire, termination, and rehire statuses in Dayforce.</span></span> <span data-ttu-id="21dbf-311">O Dayforce suporta apenas um registro de emprego ativo de cada vez.</span><span class="sxs-lookup"><span data-stu-id="21dbf-311">Dayforce supports only one active employment record at a time.</span></span>
+
+- <span data-ttu-id="21dbf-312">Data de início do emprego (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-312">Employment start date (required)</span></span>
+- <span data-ttu-id="21dbf-313">Data final do emprego</span><span class="sxs-lookup"><span data-stu-id="21dbf-313">Employment end date</span></span>
+- <span data-ttu-id="21dbf-314">Data de início</span><span class="sxs-lookup"><span data-stu-id="21dbf-314">Start date</span></span>
+- <span data-ttu-id="21dbf-315">Data inicial ajustada</span><span class="sxs-lookup"><span data-stu-id="21dbf-315">Adjusted start date</span></span>
+- <span data-ttu-id="21dbf-316">Data de rescisão (obrigatória após a rescisão)</span><span class="sxs-lookup"><span data-stu-id="21dbf-316">Termination date (required upon termination)</span></span>
+- <span data-ttu-id="21dbf-317">Motivo da rescisão (obrigatória após a rescisão)</span><span class="sxs-lookup"><span data-stu-id="21dbf-317">Termination reason (required upon termination)</span></span>
+
+<span data-ttu-id="21dbf-318">As principais datas de um funcionário são derivadas usando-se as informações a seguir.</span><span class="sxs-lookup"><span data-stu-id="21dbf-318">An employee's key dates are derived by using the following information.</span></span>
+
+| <span data-ttu-id="21dbf-319">Talent</span><span class="sxs-lookup"><span data-stu-id="21dbf-319">Talent</span></span>                | <span data-ttu-id="21dbf-320">Dayforce</span><span class="sxs-lookup"><span data-stu-id="21dbf-320">Dayforce</span></span>                                                                                             |
+|-----------------------|------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="21dbf-321">Data de contratação mais recente</span><span class="sxs-lookup"><span data-stu-id="21dbf-321">Most recent hire date</span></span> | <span data-ttu-id="21dbf-322">Início de emprego do registro histórico de emprego atual não terminado</span><span class="sxs-lookup"><span data-stu-id="21dbf-322">Employment start of current non-terminated employment history record</span></span>                                 |
+| <span data-ttu-id="21dbf-323">Data da rescisão</span><span class="sxs-lookup"><span data-stu-id="21dbf-323">Termination date</span></span>      | <span data-ttu-id="21dbf-324">Data de rescisão do registro histórico de emprego atual não terminado</span><span class="sxs-lookup"><span data-stu-id="21dbf-324">Termination date of current non-terminated employment history record</span></span>                                 |
+| <span data-ttu-id="21dbf-325">Data de início</span><span class="sxs-lookup"><span data-stu-id="21dbf-325">Start date</span></span>            | <span data-ttu-id="21dbf-326">Data de início ajustada, data de início ou início de emprego do registro histórico de emprego não ativo atual</span><span class="sxs-lookup"><span data-stu-id="21dbf-326">Adjusted start date, start date, or employment start of current non-active employment history record</span></span> |
+| <span data-ttu-id="21dbf-327">Data original de contratação</span><span class="sxs-lookup"><span data-stu-id="21dbf-327">Original hire date</span></span>    | <span data-ttu-id="21dbf-328">Início de emprego do registro histórico de emprego mais antigo</span><span class="sxs-lookup"><span data-stu-id="21dbf-328">Employment start of earliest employment history record</span></span>                                               |
+
+#### <a name="compensation"></a><span data-ttu-id="21dbf-329">Remuneração</span><span class="sxs-lookup"><span data-stu-id="21dbf-329">Compensation</span></span>
+
+<span data-ttu-id="21dbf-330">Um plano de remuneração fixa deve estar associado à posição principal de cada funcionário durante um período de emprego.</span><span class="sxs-lookup"><span data-stu-id="21dbf-330">A fixed compensation plan must be associated with every employee's primary position throughout an employment period.</span></span> <span data-ttu-id="21dbf-331">Esse período tem início na data em que o funcionário foi contratado (ou na data de início do emprego) e continua até a rescisão.</span><span class="sxs-lookup"><span data-stu-id="21dbf-331">This period starts on the date that the employee was hired (or the employment start date) and continues until termination.</span></span>
+
+- <span data-ttu-id="21dbf-332">Data de vigência (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-332">Effective Date (required)</span></span>
+- <span data-ttu-id="21dbf-333">Data de validade</span><span class="sxs-lookup"><span data-stu-id="21dbf-333">Expiration date</span></span>
+- <span data-ttu-id="21dbf-334">Taxa de pagamento (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-334">Pay Rate (required)</span></span>
+- <span data-ttu-id="21dbf-335">Conversões de taxa de pagamento (obrigatórias)</span><span class="sxs-lookup"><span data-stu-id="21dbf-335">Pay Rate Conversions (required)</span></span>
+- <span data-ttu-id="21dbf-336">Equivalente anual (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-336">Annual equivalent (required)</span></span>
+- <span data-ttu-id="21dbf-337">Equivalente por hora (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-337">Hourly equivalent (required)</span></span>
+
+<span data-ttu-id="21dbf-338">Se um funcionário por hora tiver várias posições, a remuneração fixa da posição principal é importada para o Dayforce como a taxa base/salário do nível do funcionário.</span><span class="sxs-lookup"><span data-stu-id="21dbf-338">If an hourly employee has multiple positions, the fixed compensation of the primary position is imported into Dayforce as the employee-level base rate/salary.</span></span> <span data-ttu-id="21dbf-339">Para posições não principais, a taxa por hora é salva na posição correspondente no Dayforce.</span><span class="sxs-lookup"><span data-stu-id="21dbf-339">For non-primary positions, the hourly rate is saved to the corresponding position in Dayforce.</span></span>
+
+<span data-ttu-id="21dbf-340">Se um funcionário assalariado tiver várias posições, a taxa acumulada de horas e o salário anual em todas as posições ativas serão derivados e usados como a taxa base/salário do nível do funcionário.</span><span class="sxs-lookup"><span data-stu-id="21dbf-340">If a salaried employee has multiple positions, the cumulative hour rate and annual salary across all active positions are derived and used as the employee-level base rate/salary.</span></span>
+
+#### <a name="identification-numbers"></a><span data-ttu-id="21dbf-341">Números de identificação</span><span class="sxs-lookup"><span data-stu-id="21dbf-341">Identification numbers</span></span>
+
+##### <a name="social-security-identifier"></a><span data-ttu-id="21dbf-342">Cadastro de Pessoa Física (CPF)</span><span class="sxs-lookup"><span data-stu-id="21dbf-342">Social Security identifier</span></span> 
+
+<span data-ttu-id="21dbf-343">Todos os funcionários devem ter um identificador principal.</span><span class="sxs-lookup"><span data-stu-id="21dbf-343">Every employee must have one primary identifier.</span></span> <span data-ttu-id="21dbf-344">Esse identificador deve ser o tipo de identificação **CPF**.</span><span class="sxs-lookup"><span data-stu-id="21dbf-344">This identifier must be of **SSN** identification type.</span></span> <span data-ttu-id="21dbf-345">No Dayforce, ele é derivado automaticamente como o identificador de pessoa física do funcionário necessário para a contratação.</span><span class="sxs-lookup"><span data-stu-id="21dbf-345">In Dayforce, it's automatically derived as the employee's Social Security identifier that is required for hire.</span></span>
+
+- <span data-ttu-id="21dbf-346">Principal (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-346">Primary (required)</span></span>
+- <span data-ttu-id="21dbf-347">Tipo de identificação = "CPF"</span><span class="sxs-lookup"><span data-stu-id="21dbf-347">Identification Type = "SSN"</span></span>
+- <span data-ttu-id="21dbf-348">Data da emissão</span><span class="sxs-lookup"><span data-stu-id="21dbf-348">Issued Date</span></span>
+- <span data-ttu-id="21dbf-349">Data de Vencimento</span><span class="sxs-lookup"><span data-stu-id="21dbf-349">Expiration Date</span></span>
+
+<span data-ttu-id="21dbf-350">Os funcionários podem declarar vários números de identificação do tipo de identificação **CPF**.</span><span class="sxs-lookup"><span data-stu-id="21dbf-350">Employees can declare multiple identification numbers of the **SSN** identification type.</span></span> <span data-ttu-id="21dbf-351">No entanto, somente o registro marcado como **Principal** será integrado ao Dayforce, independentemente de o número estar ativo ou expirado.</span><span class="sxs-lookup"><span data-stu-id="21dbf-351">However, only the record that is marked as **Primary** is integrated into Dayforce, regardless of whether the number is active or expired.</span></span>
+
+#### <a name="bank-accounts-and-disbursements"></a><span data-ttu-id="21dbf-352">Contas bancárias e pagamentos</span><span class="sxs-lookup"><span data-stu-id="21dbf-352">Bank accounts and disbursements</span></span>
+
+<span data-ttu-id="21dbf-353">Informações de conta bancária válidas devem ser inseridas para qualquer funcionário que opte por ser pago por meio de transferências bancárias.</span><span class="sxs-lookup"><span data-stu-id="21dbf-353">Valid bank account information must be entered for any employee who chooses to be paid via bank account transfers.</span></span>
+
+| <span data-ttu-id="21dbf-354">Talent</span><span class="sxs-lookup"><span data-stu-id="21dbf-354">Talent</span></span>                         | <span data-ttu-id="21dbf-355">Dayforce</span><span class="sxs-lookup"><span data-stu-id="21dbf-355">Dayforce</span></span>                                                                                                    |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="21dbf-356">Número da conta bancária (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-356">Bank account number (required)</span></span> |                                                                                                             |
+| <span data-ttu-id="21dbf-357">Código SWIFT (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-357">SWIFT code (required)</span></span>          | <span data-ttu-id="21dbf-358">Campo **ID do banco** usado no processamento da folha de pagamento no México.</span><span class="sxs-lookup"><span data-stu-id="21dbf-358">**Bank ID** field used when processing payroll in Mexico.</span></span>                                                             |
+| <span data-ttu-id="21dbf-359">Número da agência (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-359">Branch number (required)</span></span>       |                                                                                                             |
+| <span data-ttu-id="21dbf-360">Tipo de conta bancária (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-360">Bank account type (required)</span></span>   | <span data-ttu-id="21dbf-361">Campo **Tipo de conta** usado no processamento da folha de pagamento no México.</span><span class="sxs-lookup"><span data-stu-id="21dbf-361">**Account type** field used when processing payroll in Mexico.</span></span> <span data-ttu-id="21dbf-362">Os valores com suporte incluem **Movimento** e **Folha de pagamento**.</span><span class="sxs-lookup"><span data-stu-id="21dbf-362">Supported values include **Checking** and **Payroll**.</span></span> |
+
+> [!NOTE]
+> <span data-ttu-id="21dbf-363">Os funcionários que optarem por serem pagos por meio de transferências bancárias deverão fornecer um link para uma conta de pendência em uma entidade legal que tenha seu endereço principal no México e esteja associada a uma conta bancária válida de um banco mexicano.</span><span class="sxs-lookup"><span data-stu-id="21dbf-363">Employees who choose to be paid via bank account transfers must provide a link to a remainder account that is under a legal entity that has its primary address in Mexico and associated with a valid bank account from a Mexican bank.</span></span> <span data-ttu-id="21dbf-364">Todas as outras contas que não são de pendência são ignoradas.</span><span class="sxs-lookup"><span data-stu-id="21dbf-364">All other non-remainder accounts are ignored.</span></span>
+
+#### <a name="address-information"></a><span data-ttu-id="21dbf-365">Informações de endereço</span><span class="sxs-lookup"><span data-stu-id="21dbf-365">Address information</span></span>
+
+<span data-ttu-id="21dbf-366">Todos os funcionários devem ter um local principal.</span><span class="sxs-lookup"><span data-stu-id="21dbf-366">Every employee must have one primary location.</span></span> <span data-ttu-id="21dbf-367">No Dayforce, esse local é usado para determinar a residência principal do funcionário para fins fiscais.</span><span class="sxs-lookup"><span data-stu-id="21dbf-367">In Dayforce, this location is used to determine the employee's primary residence for tax purposes.</span></span>
+
+- <span data-ttu-id="21dbf-368">Principal (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-368">Primary (required)</span></span>
+- <span data-ttu-id="21dbf-369">País/região (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-369">Country/region (required)</span></span>
+- <span data-ttu-id="21dbf-370">CEP (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-370">Zip/postal code (required)</span></span>
+- <span data-ttu-id="21dbf-371">Rua (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-371">Street (required)</span></span>
+- <span data-ttu-id="21dbf-372">Número da rua (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-372">Street Number (required)</span></span>
+- <span data-ttu-id="21dbf-373">Complemento do edifício</span><span class="sxs-lookup"><span data-stu-id="21dbf-373">Building Complement</span></span>
+- <span data-ttu-id="21dbf-374">Cidade (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-374">City (required)</span></span>
+- <span data-ttu-id="21dbf-375">Estado (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-375">State (required)</span></span>
+- <span data-ttu-id="21dbf-376">Município (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-376">County (required)</span></span>
+
+## <a name="configure-your-data-to-generate-payroll-in-united-states-and-canada"></a><span data-ttu-id="21dbf-377">Configurar seus dados para gerar folha de pagamento nos Estados Unidos e no Canadá</span><span class="sxs-lookup"><span data-stu-id="21dbf-377">Configure your data to generate payroll in United States and Canada</span></span>
+
+<span data-ttu-id="21dbf-378">Se você está gerando pagamento para funcionários nos Estados Unidos e no Canadá, os seguintes elementos devem ser configurados:</span><span class="sxs-lookup"><span data-stu-id="21dbf-378">If you're generating pay for employees in the United States and Canada, the following elements must be configured:</span></span>
+
+- <span data-ttu-id="21dbf-379">Departamentos são necessários em posições.</span><span class="sxs-lookup"><span data-stu-id="21dbf-379">Departments are required on positions.</span></span>
+- <span data-ttu-id="21dbf-380">Os centros de custo devem ser definidos como dimensões financeiras e ser o primeiro elemento na sequência de dimensão financeira padrão.</span><span class="sxs-lookup"><span data-stu-id="21dbf-380">Cost centers must be set as financial dimensions and must be the first element in the default financial dimension string.</span></span>
+
+### <a name="job-types"></a><span data-ttu-id="21dbf-381">Tipos de trabalho</span><span class="sxs-lookup"><span data-stu-id="21dbf-381">Job types</span></span>
+
+<span data-ttu-id="21dbf-382">Os tipos de trabalho são usados para agrupar trabalhos semelhantes em categorias.</span><span class="sxs-lookup"><span data-stu-id="21dbf-382">Job types are used to group similar jobs into categories.</span></span> <span data-ttu-id="21dbf-383">Os tipos de trabalho são necessários para processar a folha de pagamento nos Estados Unidos e no Canadá.</span><span class="sxs-lookup"><span data-stu-id="21dbf-383">Job types are required in order to process payroll in the United States and Canada.</span></span> <span data-ttu-id="21dbf-384">Os exemplos de tipos de trabalho incluem horário integral e meio período ou salário e pagamento por hora.</span><span class="sxs-lookup"><span data-stu-id="21dbf-384">Examples of job types include full-time and part-time, or salary and hourly pay.</span></span> <span data-ttu-id="21dbf-385">Os tipos de trabalho são mapeados para o Dayforce como tipos de pagamento que indicam se um funcionário é pago por hora ou assalariado.</span><span class="sxs-lookup"><span data-stu-id="21dbf-385">Job types are mapped to Dayforce as pay types that indicate whether an employee is hourly or salaried.</span></span>
+
+<span data-ttu-id="21dbf-386">Os seguintes tipos de trabalho e descrições são obrigatórios.</span><span class="sxs-lookup"><span data-stu-id="21dbf-386">The following job types and descriptions are required.</span></span>
+
+| <span data-ttu-id="21dbf-387">Tipo de trabalho</span><span class="sxs-lookup"><span data-stu-id="21dbf-387">Job type</span></span>   | <span data-ttu-id="21dbf-388">descrição</span><span class="sxs-lookup"><span data-stu-id="21dbf-388">Description</span></span> |
+|------------|-------------|
+| <span data-ttu-id="21dbf-389">Por hora</span><span class="sxs-lookup"><span data-stu-id="21dbf-389">Hourly</span></span>     | <span data-ttu-id="21dbf-390">Por hora</span><span class="sxs-lookup"><span data-stu-id="21dbf-390">Hourly</span></span>      |
+| <span data-ttu-id="21dbf-391">Assalariado</span><span class="sxs-lookup"><span data-stu-id="21dbf-391">Salaried</span></span>   | <span data-ttu-id="21dbf-392">Assalariado</span><span class="sxs-lookup"><span data-stu-id="21dbf-392">Salaried</span></span>    |
+
+### <a name="position-types"></a><span data-ttu-id="21dbf-393">Tipos de posição</span><span class="sxs-lookup"><span data-stu-id="21dbf-393">Position types</span></span> 
+
+<span data-ttu-id="21dbf-394">Você usa os tipos de posição para descrever se a posição é de tempo integral, meio período ou de outra natureza.</span><span class="sxs-lookup"><span data-stu-id="21dbf-394">You use position types to describe whether the position is full-time, part-time, or something else.</span></span> <span data-ttu-id="21dbf-395">Os tipos de posição são mapeados para o Dayforce como classes de pagamento que indicam se um funcionário é de tempo integral ou meio período.</span><span class="sxs-lookup"><span data-stu-id="21dbf-395">Position types are mapped to Dayforce as pay classes that indicate whether an employee is full-time or part-time.</span></span>
+
+<span data-ttu-id="21dbf-396">Os seguintes tipos de posição e descrições são obrigatórios.</span><span class="sxs-lookup"><span data-stu-id="21dbf-396">The following position types and descriptions are required.</span></span>
+
+| <span data-ttu-id="21dbf-397">Tipo de posição</span><span class="sxs-lookup"><span data-stu-id="21dbf-397">Position type</span></span>   | <span data-ttu-id="21dbf-398">descrição</span><span class="sxs-lookup"><span data-stu-id="21dbf-398">Description</span></span>        |
+|-----------------|--------------------|
+| <span data-ttu-id="21dbf-399">Horário integral</span><span class="sxs-lookup"><span data-stu-id="21dbf-399">Full-time</span></span>       | <span data-ttu-id="21dbf-400">Funcionário de tempo integral</span><span class="sxs-lookup"><span data-stu-id="21dbf-400">Full time employee</span></span> |
+| <span data-ttu-id="21dbf-401">Meio período</span><span class="sxs-lookup"><span data-stu-id="21dbf-401">Part-time</span></span>       | <span data-ttu-id="21dbf-402">Funcionário de meio período</span><span class="sxs-lookup"><span data-stu-id="21dbf-402">Part time employee</span></span> |
+
+### <a name="reason-codes"></a><span data-ttu-id="21dbf-403">Códigos de motivos</span><span class="sxs-lookup"><span data-stu-id="21dbf-403">Reason codes</span></span>
+
+<span data-ttu-id="21dbf-404">Códigos de motivo fornecem informações sobre o status de um funcionário.</span><span class="sxs-lookup"><span data-stu-id="21dbf-404">Reason codes provide information about the status of an employee.</span></span> <span data-ttu-id="21dbf-405">Os códigos de motivo são mapeados para o Dayforce como motivos de status que indicam o motivo das alterações na posição de um funcionário ou no status de um emprego.</span><span class="sxs-lookup"><span data-stu-id="21dbf-405">Reason codes are mapped to Dayforce as status reasons that indicate the reason for changes to an employee's position or employment status.</span></span>
+
+<span data-ttu-id="21dbf-406">Os seguintes códigos de motivo e descrições são obrigatórios.</span><span class="sxs-lookup"><span data-stu-id="21dbf-406">The following reason codes and descriptions are required.</span></span>
+
+| <span data-ttu-id="21dbf-407">Código de motivo</span><span class="sxs-lookup"><span data-stu-id="21dbf-407">Reason code</span></span>    | <span data-ttu-id="21dbf-408">descrição</span><span class="sxs-lookup"><span data-stu-id="21dbf-408">Description</span></span>      | <span data-ttu-id="21dbf-409">Cenários aplicáveis</span><span class="sxs-lookup"><span data-stu-id="21dbf-409">Applicable scenarios</span></span> |
+|----------------|------------------|----------------------|
+| <span data-ttu-id="21dbf-410">DEMISSÃO</span><span class="sxs-lookup"><span data-stu-id="21dbf-410">RESIGNATION</span></span>    | <span data-ttu-id="21dbf-411">Demissão</span><span class="sxs-lookup"><span data-stu-id="21dbf-411">Resignation</span></span>      | <span data-ttu-id="21dbf-412">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-412">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-413">TERMINATION</span><span class="sxs-lookup"><span data-stu-id="21dbf-413">TERMINATION</span></span>    | <span data-ttu-id="21dbf-414">Finalização</span><span class="sxs-lookup"><span data-stu-id="21dbf-414">Termination</span></span>      | <span data-ttu-id="21dbf-415">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-415">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-416">RETIREMENT</span><span class="sxs-lookup"><span data-stu-id="21dbf-416">RETIREMENT</span></span>     | <span data-ttu-id="21dbf-417">Aposentadoria</span><span class="sxs-lookup"><span data-stu-id="21dbf-417">Retirement</span></span>       | <span data-ttu-id="21dbf-418">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-418">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-419">OTHER</span><span class="sxs-lookup"><span data-stu-id="21dbf-419">OTHER</span></span>          | <span data-ttu-id="21dbf-420">Outros motivos</span><span class="sxs-lookup"><span data-stu-id="21dbf-420">Other Reasons</span></span>    | <span data-ttu-id="21dbf-421">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-421">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-422">DEATH</span><span class="sxs-lookup"><span data-stu-id="21dbf-422">DEATH</span></span>          | <span data-ttu-id="21dbf-423">Morte</span><span class="sxs-lookup"><span data-stu-id="21dbf-423">Death</span></span>            | <span data-ttu-id="21dbf-424">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-424">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-425">LEAVEOFABSENCE</span><span class="sxs-lookup"><span data-stu-id="21dbf-425">LEAVEOFABSENCE</span></span> | <span data-ttu-id="21dbf-426">Licença</span><span class="sxs-lookup"><span data-stu-id="21dbf-426">Leave of Absence</span></span> | <span data-ttu-id="21dbf-427">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-427">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-428">CONTRACTEND</span><span class="sxs-lookup"><span data-stu-id="21dbf-428">CONTRACTEND</span></span>    | <span data-ttu-id="21dbf-429">Fim do contrato</span><span class="sxs-lookup"><span data-stu-id="21dbf-429">End of Contract</span></span>  | <span data-ttu-id="21dbf-430">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-430">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-431">SALARYCHANGE</span><span class="sxs-lookup"><span data-stu-id="21dbf-431">SALARYCHANGE</span></span>   | <span data-ttu-id="21dbf-432">Alteração de salário</span><span class="sxs-lookup"><span data-stu-id="21dbf-432">Change of Salary</span></span> | <span data-ttu-id="21dbf-433">Remuneração</span><span class="sxs-lookup"><span data-stu-id="21dbf-433">Compensation</span></span>         |
+
+### <a name="marital-status"></a><span data-ttu-id="21dbf-434">Estado civil</span><span class="sxs-lookup"><span data-stu-id="21dbf-434">Marital status</span></span>
+
+<span data-ttu-id="21dbf-435">Os valores do estado civil são mapeados para o Dayforce e convertidos, conforme apropriado, nos valores aceitos após a integração.</span><span class="sxs-lookup"><span data-stu-id="21dbf-435">Marital status values are mapped to Dayforce and translated, as appropriate, to the accepted values upon integration.</span></span>
+
+<span data-ttu-id="21dbf-436">A tabela a seguir mostra como os valores do estado civil são mapeados para o Dayforce.</span><span class="sxs-lookup"><span data-stu-id="21dbf-436">The following table shows how marital status values are mapped to Dayforce.</span></span>
+
+| <span data-ttu-id="21dbf-437">Talent</span><span class="sxs-lookup"><span data-stu-id="21dbf-437">Talent</span></span>                 | <span data-ttu-id="21dbf-438">Dayforce</span><span class="sxs-lookup"><span data-stu-id="21dbf-438">Dayforce</span></span>             |
+|------------------------|----------------------|
+| <span data-ttu-id="21dbf-439">Casado(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-439">Married</span></span>                | <span data-ttu-id="21dbf-440">Casado(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-440">Married</span></span>              |
+| <span data-ttu-id="21dbf-441">Única</span><span class="sxs-lookup"><span data-stu-id="21dbf-441">Single</span></span>                 | <span data-ttu-id="21dbf-442">Única</span><span class="sxs-lookup"><span data-stu-id="21dbf-442">Single</span></span>               |
+| <span data-ttu-id="21dbf-443">Viúvo(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-443">Widowed</span></span>                | <span data-ttu-id="21dbf-444">Viúvo(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-444">Widowed</span></span>              |
+| <span data-ttu-id="21dbf-445">Divorciado(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-445">Divorced</span></span>               | <span data-ttu-id="21dbf-446">Divorciado(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-446">Divorced</span></span>             |
+| <span data-ttu-id="21dbf-447">Parceria Registrada</span><span class="sxs-lookup"><span data-stu-id="21dbf-447">Registered Partnership</span></span> | <span data-ttu-id="21dbf-448">Parceiro doméstico</span><span class="sxs-lookup"><span data-stu-id="21dbf-448">Domestic Partnership</span></span> |
+| <span data-ttu-id="21dbf-449">Nenhum(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-449">None</span></span>                   | <span data-ttu-id="21dbf-450">Nenhum(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-450">None</span></span>                 |
+| <span data-ttu-id="21dbf-451">Coabitando</span><span class="sxs-lookup"><span data-stu-id="21dbf-451">Cohabiting</span></span>             | <span data-ttu-id="21dbf-452">Coabitando</span><span class="sxs-lookup"><span data-stu-id="21dbf-452">Cohabiting</span></span>           |
+
+### <a name="gender"></a><span data-ttu-id="21dbf-453">Sexo</span><span class="sxs-lookup"><span data-stu-id="21dbf-453">Gender</span></span>
+
+<span data-ttu-id="21dbf-454">As designações de gênero são mapeadas para o Dayforce e convertidas, conforme apropriado, nos valores aceitos após a integração.</span><span class="sxs-lookup"><span data-stu-id="21dbf-454">Gender designations are mapped to Dayforce and translated, as appropriate, to the accepted values upon integration.</span></span>
+
+<span data-ttu-id="21dbf-455">A tabela a seguir mostra como as designações de gênero são mapeadas para o Dayforce.</span><span class="sxs-lookup"><span data-stu-id="21dbf-455">The following table shows how gender designations are mapped to Dayforce.</span></span>
+
+| <span data-ttu-id="21dbf-456">Talent</span><span class="sxs-lookup"><span data-stu-id="21dbf-456">Talent</span></span>       | <span data-ttu-id="21dbf-457">Dayforce</span><span class="sxs-lookup"><span data-stu-id="21dbf-457">Dayforce</span></span>        |
+|--------------|-----------------|
+| <span data-ttu-id="21dbf-458">Masculino</span><span class="sxs-lookup"><span data-stu-id="21dbf-458">Male</span></span>         | <span data-ttu-id="21dbf-459">Masculino</span><span class="sxs-lookup"><span data-stu-id="21dbf-459">Male</span></span>            |
+| <span data-ttu-id="21dbf-460">Feminino</span><span class="sxs-lookup"><span data-stu-id="21dbf-460">Female</span></span>       | <span data-ttu-id="21dbf-461">Feminino</span><span class="sxs-lookup"><span data-stu-id="21dbf-461">Female</span></span>          |
+| <span data-ttu-id="21dbf-462">Não específico</span><span class="sxs-lookup"><span data-stu-id="21dbf-462">Non-specific</span></span> | <span data-ttu-id="21dbf-463">*Sem suporte*</span><span class="sxs-lookup"><span data-stu-id="21dbf-463">*Not supported*</span></span> |
+
+### <a name="earning-codes"></a><span data-ttu-id="21dbf-464">Códigos de ganhos</span><span class="sxs-lookup"><span data-stu-id="21dbf-464">Earning codes</span></span>
+
+<span data-ttu-id="21dbf-465">Os códigos de ganhos identificam de forma exclusiva cada tipo de ganho que os trabalhadores recebem.</span><span class="sxs-lookup"><span data-stu-id="21dbf-465">Earning codes uniquely identify every type of earnings that workers receive.</span></span> <span data-ttu-id="21dbf-466">Os códigos abordam vários parâmetros relacionados a ganhos, como regras contábeis, leis tributárias, requisitos de relatório e capacidade de montante bruto.</span><span class="sxs-lookup"><span data-stu-id="21dbf-466">The codes cover several parameters that are related to earnings, such as accounting rules, tax laws, reporting requirements, and gross-up capability.</span></span> <span data-ttu-id="21dbf-467">Se uma frequência sem suporte for usada, a frequência **Cada pagamento** é usada por padrão para o cálculo.</span><span class="sxs-lookup"><span data-stu-id="21dbf-467">If an unsupported frequency is used, the **Every Pay** frequency is used by default for the calculation.</span></span>
+
+#### <a name="supported-frequencies"></a><span data-ttu-id="21dbf-468">Frequências com suporte</span><span class="sxs-lookup"><span data-stu-id="21dbf-468">Supported frequencies</span></span>
+
+- <span data-ttu-id="21dbf-469">Todas</span><span class="sxs-lookup"><span data-stu-id="21dbf-469">All</span></span>
+- <span data-ttu-id="21dbf-470">EVERYPAY</span><span class="sxs-lookup"><span data-stu-id="21dbf-470">EVERYPAY</span></span>
+- <span data-ttu-id="21dbf-471">EACHPAYPERIOD</span><span class="sxs-lookup"><span data-stu-id="21dbf-471">EACHPAYPERIOD</span></span>
+- <span data-ttu-id="21dbf-472">EVRYOTHRPAYODD</span><span class="sxs-lookup"><span data-stu-id="21dbf-472">EVRYOTHRPAYODD</span></span>
+- <span data-ttu-id="21dbf-473">EVRYOTHRPAYEVN</span><span class="sxs-lookup"><span data-stu-id="21dbf-473">EVRYOTHRPAYEVN</span></span>
+- <span data-ttu-id="21dbf-474">1OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-474">1OFMTH</span></span>
+- <span data-ttu-id="21dbf-475">LASTOFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-475">LASTOFMTH</span></span>
+- <span data-ttu-id="21dbf-476">2OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-476">2OFMTH</span></span>
+- <span data-ttu-id="21dbf-477">3OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-477">3OFMTH</span></span>
+- <span data-ttu-id="21dbf-478">4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-478">4OFMTH</span></span>
+- <span data-ttu-id="21dbf-479">5OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-479">5OFMTH</span></span>
+- <span data-ttu-id="21dbf-480">1N2OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-480">1N2OFMTH</span></span>
+- <span data-ttu-id="21dbf-481">3N4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-481">3N4OFMTH</span></span>
+- <span data-ttu-id="21dbf-482">1N3OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-482">1N3OFMTH</span></span>
+- <span data-ttu-id="21dbf-483">1N4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-483">1N4OFMTH</span></span>
+- <span data-ttu-id="21dbf-484">2N3OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-484">2N3OFMTH</span></span>
+- <span data-ttu-id="21dbf-485">2N4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-485">2N4OFMTH</span></span>
+- <span data-ttu-id="21dbf-486">1N2N3OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-486">1N2N3OFMTH</span></span>
+- <span data-ttu-id="21dbf-487">1N2N4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-487">1N2N4OFMTH</span></span>
+- <span data-ttu-id="21dbf-488">1N3N4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-488">1N3N4OFMTH</span></span>
+- <span data-ttu-id="21dbf-489">2N3N4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-489">2N3N4OFMTH</span></span>
+- <span data-ttu-id="21dbf-490">1N2N3N4OFMTH - 1N2N3N4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-490">1N2N3N4OFMTH - 1N2N3N4OFMTH</span></span>
+- <span data-ttu-id="21dbf-491">2N3N4N5OFMth - 2N3N4N5OFMth</span><span class="sxs-lookup"><span data-stu-id="21dbf-491">2N3N4N5OFMth - 2N3N4N5OFMth</span></span>
+- <span data-ttu-id="21dbf-492">1OFQTR - 1OFQTR</span><span class="sxs-lookup"><span data-stu-id="21dbf-492">1OFQTR - 1OFQTR</span></span>
+- <span data-ttu-id="21dbf-493">LASTOFQTR – LASTOFQTR</span><span class="sxs-lookup"><span data-stu-id="21dbf-493">LASTOFQTR – LASTOFQTR</span></span>
+- <span data-ttu-id="21dbf-494">LASTMTHOFQTR – LASTMTHOFQTR</span><span class="sxs-lookup"><span data-stu-id="21dbf-494">LASTMTHOFQTR – LASTMTHOFQTR</span></span>
+- <span data-ttu-id="21dbf-495">1OFYEAR - 1OFYEAR</span><span class="sxs-lookup"><span data-stu-id="21dbf-495">1OFYEAR - 1OFYEAR</span></span>
+- <span data-ttu-id="21dbf-496">LASTOFYEAR – LASTOFYEAR</span><span class="sxs-lookup"><span data-stu-id="21dbf-496">LASTOFYEAR – LASTOFYEAR</span></span>
+- <span data-ttu-id="21dbf-497">NOVNDECOFYEAR - NOVNDECOFYEAR</span><span class="sxs-lookup"><span data-stu-id="21dbf-497">NOVNDECOFYEAR - NOVNDECOFYEAR</span></span>
+
+### <a name="addresses"></a><span data-ttu-id="21dbf-498">Endereços</span><span class="sxs-lookup"><span data-stu-id="21dbf-498">Addresses</span></span>
+
+<span data-ttu-id="21dbf-499">A identificação de códigos específicos de país ou região, estado e município (municipalidade) exige formatos específicos que o Dayforce e os provedores no país/na região possam reconhecer.</span><span class="sxs-lookup"><span data-stu-id="21dbf-499">The identification of specific country or region, state, and county (municipality) codes requires specific formats that Dayforce and in-country/in-region providers can recognize.</span></span> <span data-ttu-id="21dbf-500">Embora o formato das cidades seja flexível, todas as cidades devem estar associadas a um estado.</span><span class="sxs-lookup"><span data-stu-id="21dbf-500">Although the format for cities is flexible, every city must be associated with a state.</span></span>
+
+| <span data-ttu-id="21dbf-501">Talent</span><span class="sxs-lookup"><span data-stu-id="21dbf-501">Talent</span></span>          | <span data-ttu-id="21dbf-502">Dayforce</span><span class="sxs-lookup"><span data-stu-id="21dbf-502">Dayforce</span></span>              |
+|-----------------|-----------------------|
+| <span data-ttu-id="21dbf-503">País/Região</span><span class="sxs-lookup"><span data-stu-id="21dbf-503">Country/Region</span></span>  | <span data-ttu-id="21dbf-504">Código do País</span><span class="sxs-lookup"><span data-stu-id="21dbf-504">Country Code</span></span>          |
+| <span data-ttu-id="21dbf-505">CEP</span><span class="sxs-lookup"><span data-stu-id="21dbf-505">Zip/Postal Code</span></span> | <span data-ttu-id="21dbf-506">CEP</span><span class="sxs-lookup"><span data-stu-id="21dbf-506">Postal Code</span></span>           |
+| <span data-ttu-id="21dbf-507">Estadual</span><span class="sxs-lookup"><span data-stu-id="21dbf-507">State</span></span>           | <span data-ttu-id="21dbf-508">Código de estado</span><span class="sxs-lookup"><span data-stu-id="21dbf-508">State Code</span></span>            |
+| <span data-ttu-id="21dbf-509">Cidade</span><span class="sxs-lookup"><span data-stu-id="21dbf-509">City</span></span>            | <span data-ttu-id="21dbf-510">Cidade</span><span class="sxs-lookup"><span data-stu-id="21dbf-510">City</span></span>                  |
+| <span data-ttu-id="21dbf-511">Região</span><span class="sxs-lookup"><span data-stu-id="21dbf-511">County</span></span>          | <span data-ttu-id="21dbf-512">Município (municipalidade)</span><span class="sxs-lookup"><span data-stu-id="21dbf-512">County (Municipality)</span></span> |
+| <span data-ttu-id="21dbf-513">Rua</span><span class="sxs-lookup"><span data-stu-id="21dbf-513">Street</span></span>          | <span data-ttu-id="21dbf-514">Linha de endereço 1</span><span class="sxs-lookup"><span data-stu-id="21dbf-514">Address Line 1</span></span>        |
+
+### <a name="tax-regions"></a><span data-ttu-id="21dbf-515">Regiões fiscais</span><span class="sxs-lookup"><span data-stu-id="21dbf-515">Tax regions</span></span>
+
+<span data-ttu-id="21dbf-516">Regiões fiscais são usadas para determinar os impostos apropriados a serem aplicados durante a geração da folha de pagamento.</span><span class="sxs-lookup"><span data-stu-id="21dbf-516">Tax regions are used to determine the appropriate tax that should be applied during payroll generation.</span></span> <span data-ttu-id="21dbf-517">As regiões fiscais são mapeadas para o Dayforce como endereços de localização.</span><span class="sxs-lookup"><span data-stu-id="21dbf-517">Tax regions are mapped to Dayforce as location addresses.</span></span> <span data-ttu-id="21dbf-518">A região fiscal padrão deve estar associada à posição ativa do trabalhador.</span><span class="sxs-lookup"><span data-stu-id="21dbf-518">The default tax region must be associated with the worker's active position.</span></span> 
+
+- <span data-ttu-id="21dbf-519">Região fiscal (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-519">Tax region (required)</span></span>
+- <span data-ttu-id="21dbf-520">País/região (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-520">Country/Region (required)</span></span>
+- <span data-ttu-id="21dbf-521">Estado (obrigatório)</span><span class="sxs-lookup"><span data-stu-id="21dbf-521">State (required)</span></span>
+- <span data-ttu-id="21dbf-522">Região</span><span class="sxs-lookup"><span data-stu-id="21dbf-522">County</span></span> 
+- <span data-ttu-id="21dbf-523">Cidade (obrigatória)</span><span class="sxs-lookup"><span data-stu-id="21dbf-523">City (required)</span></span>
+
+## <a name="configure-your-data-to-generate-payroll-in-mexico"></a><span data-ttu-id="21dbf-524">Configurar seus dados para gerar folha de pagamento no México</span><span class="sxs-lookup"><span data-stu-id="21dbf-524">Configure your data to generate payroll in Mexico</span></span>
+
+<span data-ttu-id="21dbf-525">Se você está gerando pagamento para funcionários no México, os seguintes elementos devem ser configurados:</span><span class="sxs-lookup"><span data-stu-id="21dbf-525">If you're generating pay for employees in Mexico, the following elements must be configured:</span></span>
+
+- <span data-ttu-id="21dbf-526">Departamentos são necessários em posições.</span><span class="sxs-lookup"><span data-stu-id="21dbf-526">Departments are required on positions.</span></span>
+- <span data-ttu-id="21dbf-527">Os centros de custo devem ser definidos como dimensões financeiras e ser o primeiro elemento na sequência de dimensão financeira padrão.</span><span class="sxs-lookup"><span data-stu-id="21dbf-527">Cost centers must be set as financial dimensions and must be the first element in the Default Financial Dimension string.</span></span>
+
+### <a name="job-types"></a><span data-ttu-id="21dbf-528">Tipos de trabalho</span><span class="sxs-lookup"><span data-stu-id="21dbf-528">Job types</span></span>
+
+<span data-ttu-id="21dbf-529">Os tipos de trabalho são usados para agrupar trabalhos semelhantes em categorias.</span><span class="sxs-lookup"><span data-stu-id="21dbf-529">Job types are used to group similar jobs into categories.</span></span> <span data-ttu-id="21dbf-530">Tipos de trabalho são necessários para processar a folha de pagamento no México.</span><span class="sxs-lookup"><span data-stu-id="21dbf-530">Job types are required in order to process payroll in Mexico.</span></span> <span data-ttu-id="21dbf-531">Os exemplos de tipos de trabalho incluem horário integral e meio período ou salário e pagamento por hora.</span><span class="sxs-lookup"><span data-stu-id="21dbf-531">Examples of job types include full-time and part-time, or salary and hourly pay.</span></span> <span data-ttu-id="21dbf-532">Os tipos de trabalho são mapeados para o Dayforce como tipos de pagamento que indicam se um funcionário é pago por hora ou assalariado.</span><span class="sxs-lookup"><span data-stu-id="21dbf-532">Job types are mapped to Dayforce as pay types that indicate whether an employee is hourly or salaried.</span></span>
+
+<span data-ttu-id="21dbf-533">Os seguintes tipos de trabalho e descrições são obrigatórios.</span><span class="sxs-lookup"><span data-stu-id="21dbf-533">The following job types and descriptions are required.</span></span>
+
+| <span data-ttu-id="21dbf-534">Tipo de trabalho</span><span class="sxs-lookup"><span data-stu-id="21dbf-534">Job type</span></span>   | <span data-ttu-id="21dbf-535">descrição</span><span class="sxs-lookup"><span data-stu-id="21dbf-535">Description</span></span> |
+|------------|-------------|
+| <span data-ttu-id="21dbf-536">Por hora</span><span class="sxs-lookup"><span data-stu-id="21dbf-536">Hourly</span></span>     | <span data-ttu-id="21dbf-537">MX por hora</span><span class="sxs-lookup"><span data-stu-id="21dbf-537">MX Hourly</span></span>   |
+| <span data-ttu-id="21dbf-538">Assalariado</span><span class="sxs-lookup"><span data-stu-id="21dbf-538">Salaried</span></span>   | <span data-ttu-id="21dbf-539">MX assalariado</span><span class="sxs-lookup"><span data-stu-id="21dbf-539">MX Salaried</span></span> |
+
+### <a name="position-types"></a><span data-ttu-id="21dbf-540">Tipos de posição</span><span class="sxs-lookup"><span data-stu-id="21dbf-540">Position types</span></span> 
+
+<span data-ttu-id="21dbf-541">Você usa os tipos de posição para descrever se a posição é de tempo integral, meio período ou de outra natureza.</span><span class="sxs-lookup"><span data-stu-id="21dbf-541">You use position types to describe whether the position is full-time, part-time, or something else.</span></span> <span data-ttu-id="21dbf-542">Os tipos de posição são mapeados para o Dayforce como classes de pagamento que indicam se um funcionário é de tempo integral ou meio período.</span><span class="sxs-lookup"><span data-stu-id="21dbf-542">Position types are mapped to Dayforce as pay classes that indicate whether an employee is full-time or part-time.</span></span>
+
+<span data-ttu-id="21dbf-543">Os seguintes tipos de posição e descrições são obrigatórios.</span><span class="sxs-lookup"><span data-stu-id="21dbf-543">The following position types and descriptions are required.</span></span>
+
+| <span data-ttu-id="21dbf-544">Tipo de posição</span><span class="sxs-lookup"><span data-stu-id="21dbf-544">Position type</span></span>   | <span data-ttu-id="21dbf-545">descrição</span><span class="sxs-lookup"><span data-stu-id="21dbf-545">Description</span></span>        |
+|-----------------|--------------------|
+| <span data-ttu-id="21dbf-546">Horário integral</span><span class="sxs-lookup"><span data-stu-id="21dbf-546">Full-time</span></span>       | <span data-ttu-id="21dbf-547">Funcionário de tempo integral</span><span class="sxs-lookup"><span data-stu-id="21dbf-547">Full time employee</span></span> |
+| <span data-ttu-id="21dbf-548">Meio período</span><span class="sxs-lookup"><span data-stu-id="21dbf-548">Part-time</span></span>       | <span data-ttu-id="21dbf-549">Funcionário de meio período</span><span class="sxs-lookup"><span data-stu-id="21dbf-549">Part time employee</span></span> |
+
+### <a name="reason-codes"></a><span data-ttu-id="21dbf-550">Códigos de motivos</span><span class="sxs-lookup"><span data-stu-id="21dbf-550">Reason codes</span></span>
+
+<span data-ttu-id="21dbf-551">Códigos de motivo fornecem informações sobre o status de um funcionário.</span><span class="sxs-lookup"><span data-stu-id="21dbf-551">Reason codes provide information about the status of an employee.</span></span> <span data-ttu-id="21dbf-552">Os códigos de motivo são mapeados para o Dayforce como motivos de status que indicam o motivo das alterações na posição de um funcionário ou no status de um emprego.</span><span class="sxs-lookup"><span data-stu-id="21dbf-552">Reason codes are mapped to Dayforce as status reasons that indicate the reason for changes to an employee's position or employment status.</span></span>
+
+<span data-ttu-id="21dbf-553">Os seguintes códigos de motivo e descrições são obrigatórios.</span><span class="sxs-lookup"><span data-stu-id="21dbf-553">The following reason codes and descriptions are required.</span></span>
+
+| <span data-ttu-id="21dbf-554">Código de motivo</span><span class="sxs-lookup"><span data-stu-id="21dbf-554">Reason code</span></span>            | <span data-ttu-id="21dbf-555">descrição</span><span class="sxs-lookup"><span data-stu-id="21dbf-555">Description</span></span>                    | <span data-ttu-id="21dbf-556">Cenários aplicáveis</span><span class="sxs-lookup"><span data-stu-id="21dbf-556">Applicable scenarios</span></span> |
+|------------------------|--------------------------------|----------------------|
+| <span data-ttu-id="21dbf-557">DEPARTUREBEFOREPAYMENT</span><span class="sxs-lookup"><span data-stu-id="21dbf-557">DEPARTUREBEFOREPAYMENT</span></span> | <span data-ttu-id="21dbf-558">Partida antes da primeira folha de pagamento</span><span class="sxs-lookup"><span data-stu-id="21dbf-558">Departure before first payroll</span></span> | <span data-ttu-id="21dbf-559">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-559">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-560">RESIGNATION</span><span class="sxs-lookup"><span data-stu-id="21dbf-560">RESIGNATION</span></span>            | <span data-ttu-id="21dbf-561">Demissão</span><span class="sxs-lookup"><span data-stu-id="21dbf-561">Resignation</span></span>                    | <span data-ttu-id="21dbf-562">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-562">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-563">PENSION</span><span class="sxs-lookup"><span data-stu-id="21dbf-563">PENSION</span></span>                | <span data-ttu-id="21dbf-564">Aposentadoria</span><span class="sxs-lookup"><span data-stu-id="21dbf-564">Pension</span></span>                        | <span data-ttu-id="21dbf-565">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-565">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-566">TERMINATION</span><span class="sxs-lookup"><span data-stu-id="21dbf-566">TERMINATION</span></span>            | <span data-ttu-id="21dbf-567">Finalização</span><span class="sxs-lookup"><span data-stu-id="21dbf-567">Termination</span></span>                    | <span data-ttu-id="21dbf-568">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-568">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-569">RETIREMENT</span><span class="sxs-lookup"><span data-stu-id="21dbf-569">RETIREMENT</span></span>             | <span data-ttu-id="21dbf-570">Aposentadoria</span><span class="sxs-lookup"><span data-stu-id="21dbf-570">Retirement</span></span>                     | <span data-ttu-id="21dbf-571">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-571">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-572">ABSENTEE</span><span class="sxs-lookup"><span data-stu-id="21dbf-572">ABSENTEE</span></span>               | <span data-ttu-id="21dbf-573">Absentista</span><span class="sxs-lookup"><span data-stu-id="21dbf-573">Absentee</span></span>                       | <span data-ttu-id="21dbf-574">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-574">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-575">OTHER</span><span class="sxs-lookup"><span data-stu-id="21dbf-575">OTHER</span></span>                  | <span data-ttu-id="21dbf-576">Outros motivos</span><span class="sxs-lookup"><span data-stu-id="21dbf-576">Other Reasons</span></span>                  | <span data-ttu-id="21dbf-577">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-577">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-578">CLOSURE</span><span class="sxs-lookup"><span data-stu-id="21dbf-578">CLOSURE</span></span>                | <span data-ttu-id="21dbf-579">Fechamento da empresa</span><span class="sxs-lookup"><span data-stu-id="21dbf-579">Business Closure</span></span>               | <span data-ttu-id="21dbf-580">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-580">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-581">DEATH</span><span class="sxs-lookup"><span data-stu-id="21dbf-581">DEATH</span></span>                  | <span data-ttu-id="21dbf-582">Morte</span><span class="sxs-lookup"><span data-stu-id="21dbf-582">Death</span></span>                          | <span data-ttu-id="21dbf-583">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-583">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-584">LEAVEOFABSENCE</span><span class="sxs-lookup"><span data-stu-id="21dbf-584">LEAVEOFABSENCE</span></span>         | <span data-ttu-id="21dbf-585">Licença</span><span class="sxs-lookup"><span data-stu-id="21dbf-585">Leave of Absence</span></span>               | <span data-ttu-id="21dbf-586">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-586">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-587">CONTRACTEND</span><span class="sxs-lookup"><span data-stu-id="21dbf-587">CONTRACTEND</span></span>            | <span data-ttu-id="21dbf-588">Fim do contrato</span><span class="sxs-lookup"><span data-stu-id="21dbf-588">End of Contract</span></span>                | <span data-ttu-id="21dbf-589">Demitir trabalhador</span><span class="sxs-lookup"><span data-stu-id="21dbf-589">Terminate worker</span></span>     |
+| <span data-ttu-id="21dbf-590">SALARYCHANGE</span><span class="sxs-lookup"><span data-stu-id="21dbf-590">SALARYCHANGE</span></span>           | <span data-ttu-id="21dbf-591">Alteração de salário</span><span class="sxs-lookup"><span data-stu-id="21dbf-591">Change of Salary</span></span>               | <span data-ttu-id="21dbf-592">Remuneração</span><span class="sxs-lookup"><span data-stu-id="21dbf-592">Compensation</span></span>         |
+
+### <a name="terms-of-employment"></a><span data-ttu-id="21dbf-593">Contrato de trabalho</span><span class="sxs-lookup"><span data-stu-id="21dbf-593">Terms of employment</span></span>
+
+<span data-ttu-id="21dbf-594">Termos de emprego são usados para criar categorias de termos de emprego.</span><span class="sxs-lookup"><span data-stu-id="21dbf-594">Terms of employment are used to create categories of employment terms.</span></span> <span data-ttu-id="21dbf-595">Os termos são mapeados para o Dayforce como valores de indicador de emprego.</span><span class="sxs-lookup"><span data-stu-id="21dbf-595">The terms are mapped to Dayforce as employment indicator values.</span></span>
+
+<span data-ttu-id="21dbf-596">Os termos de emprego e as descrições a seguir são obrigatórios.</span><span class="sxs-lookup"><span data-stu-id="21dbf-596">The following terms of employment and descriptions are required.</span></span>
+
+| <span data-ttu-id="21dbf-597">Contrato de trabalho</span><span class="sxs-lookup"><span data-stu-id="21dbf-597">Terms of employment</span></span>   | <span data-ttu-id="21dbf-598">descrição</span><span class="sxs-lookup"><span data-stu-id="21dbf-598">Description</span></span> |
+|-----------------------|-------------|
+| <span data-ttu-id="21dbf-599">Normal</span><span class="sxs-lookup"><span data-stu-id="21dbf-599">Regular</span></span>               | <span data-ttu-id="21dbf-600">Normal</span><span class="sxs-lookup"><span data-stu-id="21dbf-600">Regular</span></span>     |
+| <span data-ttu-id="21dbf-601">Direto</span><span class="sxs-lookup"><span data-stu-id="21dbf-601">Direct</span></span>                | <span data-ttu-id="21dbf-602">Direto</span><span class="sxs-lookup"><span data-stu-id="21dbf-602">Direct</span></span>      |
+| <span data-ttu-id="21dbf-603">Estágio</span><span class="sxs-lookup"><span data-stu-id="21dbf-603">Internship</span></span>            | <span data-ttu-id="21dbf-604">Estágio</span><span class="sxs-lookup"><span data-stu-id="21dbf-604">Internship</span></span>  |
+| <span data-ttu-id="21dbf-605">Permanente</span><span class="sxs-lookup"><span data-stu-id="21dbf-605">Permanent</span></span>             | <span data-ttu-id="21dbf-606">Permanente</span><span class="sxs-lookup"><span data-stu-id="21dbf-606">Permanent</span></span>   |
+
+### <a name="marital-status"></a><span data-ttu-id="21dbf-607">Estado civil</span><span class="sxs-lookup"><span data-stu-id="21dbf-607">Marital status</span></span>
+
+<span data-ttu-id="21dbf-608">Os valores do estado civil são mapeados para o Dayforce e convertidos, conforme apropriado, nos valores aceitos após a integração.</span><span class="sxs-lookup"><span data-stu-id="21dbf-608">Marital status values are mapped to Dayforce and translated, as appropriate, to the accepted values upon integration.</span></span>
+
+<span data-ttu-id="21dbf-609">A tabela a seguir mostra como os valores do estado civil são mapeados para o Dayforce.</span><span class="sxs-lookup"><span data-stu-id="21dbf-609">The following table shows how marital status values are mapped to Dayforce.</span></span>
+
+| <span data-ttu-id="21dbf-610">Talent</span><span class="sxs-lookup"><span data-stu-id="21dbf-610">Talent</span></span>                 | <span data-ttu-id="21dbf-611">Dayforce</span><span class="sxs-lookup"><span data-stu-id="21dbf-611">Dayforce</span></span>                  |
+|------------------------|---------------------------|
+| <span data-ttu-id="21dbf-612">Casado(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-612">Married</span></span>                | <span data-ttu-id="21dbf-613">Casado(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-613">Married</span></span>                   |
+| <span data-ttu-id="21dbf-614">Única</span><span class="sxs-lookup"><span data-stu-id="21dbf-614">Single</span></span>                 | <span data-ttu-id="21dbf-615">Única</span><span class="sxs-lookup"><span data-stu-id="21dbf-615">Single</span></span>                    |
+| <span data-ttu-id="21dbf-616">Viúvo(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-616">Widowed</span></span>                | <span data-ttu-id="21dbf-617">Viúvo(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-617">Widowed</span></span>                   |
+| <span data-ttu-id="21dbf-618">Divorciado(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-618">Divorced</span></span>               | <span data-ttu-id="21dbf-619">Divorciado(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-619">Divorced</span></span>                  |
+| <span data-ttu-id="21dbf-620">Parceria Registrada</span><span class="sxs-lookup"><span data-stu-id="21dbf-620">Registered Partnership</span></span> | <span data-ttu-id="21dbf-621">Parceiro doméstico</span><span class="sxs-lookup"><span data-stu-id="21dbf-621">Domestic Partnership</span></span>      |
+| <span data-ttu-id="21dbf-622">Nenhum(a)</span><span class="sxs-lookup"><span data-stu-id="21dbf-622">None</span></span>                   | <span data-ttu-id="21dbf-623">*Não há suporte para o México*</span><span class="sxs-lookup"><span data-stu-id="21dbf-623">*Not supported by Mexico*</span></span> |
+| <span data-ttu-id="21dbf-624">Coabitando</span><span class="sxs-lookup"><span data-stu-id="21dbf-624">Cohabiting</span></span>             | <span data-ttu-id="21dbf-625">*Não há suporte para o México*</span><span class="sxs-lookup"><span data-stu-id="21dbf-625">*Not supported by Mexico*</span></span> |
+
+### <a name="gender"></a><span data-ttu-id="21dbf-626">Sexo</span><span class="sxs-lookup"><span data-stu-id="21dbf-626">Gender</span></span>
+
+<span data-ttu-id="21dbf-627">As designações de gênero são mapeadas para o Dayforce e convertidas, conforme apropriado, nos valores aceitos após a integração.</span><span class="sxs-lookup"><span data-stu-id="21dbf-627">Gender designations are mapped to Dayforce and translated, as appropriate, to the accepted values upon integration.</span></span>
+
+<span data-ttu-id="21dbf-628">A tabela a seguir mostra como as designações de gênero são mapeadas para o Dayforce.</span><span class="sxs-lookup"><span data-stu-id="21dbf-628">The following table shows how gender designations are mapped to Dayforce.</span></span>
+
+| <span data-ttu-id="21dbf-629">Talent</span><span class="sxs-lookup"><span data-stu-id="21dbf-629">Talent</span></span>       | <span data-ttu-id="21dbf-630">Dayforce</span><span class="sxs-lookup"><span data-stu-id="21dbf-630">Dayforce</span></span>                  |
+|--------------|---------------------------|
+| <span data-ttu-id="21dbf-631">Masculino</span><span class="sxs-lookup"><span data-stu-id="21dbf-631">Male</span></span>         | <span data-ttu-id="21dbf-632">Masculino</span><span class="sxs-lookup"><span data-stu-id="21dbf-632">Male</span></span>                      |
+| <span data-ttu-id="21dbf-633">Feminino</span><span class="sxs-lookup"><span data-stu-id="21dbf-633">Female</span></span>       | <span data-ttu-id="21dbf-634">Feminino</span><span class="sxs-lookup"><span data-stu-id="21dbf-634">Female</span></span>                    |
+| <span data-ttu-id="21dbf-635">Não específico</span><span class="sxs-lookup"><span data-stu-id="21dbf-635">Non-specific</span></span> | <span data-ttu-id="21dbf-636">*Não há suporte para o México*</span><span class="sxs-lookup"><span data-stu-id="21dbf-636">*Not supported by Mexico*</span></span> |
+
+### <a name="payment-method"></a><span data-ttu-id="21dbf-637">Forma de pagamento</span><span class="sxs-lookup"><span data-stu-id="21dbf-637">Payment method</span></span>
+
+<span data-ttu-id="21dbf-638">Os métodos de pagamento dão ao funcionário e à empresa uma maneira de descrever como os funcionários serão pagos.</span><span class="sxs-lookup"><span data-stu-id="21dbf-638">Payment methods give the employee and the company a way to describe how employees will be paid.</span></span> <span data-ttu-id="21dbf-639">Os métodos de pagamento são mapeados para o Dayforce e convertidos, conforme apropriado, nos valores aceitos após a integração.</span><span class="sxs-lookup"><span data-stu-id="21dbf-639">Payment methods are mapped to Dayforce and translated, as appropriate, to the accepted values upon integration.</span></span>
+
+<span data-ttu-id="21dbf-640">A tabela a seguir mostra como os métodos de pagamento são mapeados para o Dayforce.</span><span class="sxs-lookup"><span data-stu-id="21dbf-640">The following table shows how payment methods are mapped to Dayforce.</span></span>
+
+| <span data-ttu-id="21dbf-641">Talent</span><span class="sxs-lookup"><span data-stu-id="21dbf-641">Talent</span></span>             | <span data-ttu-id="21dbf-642">Dayforce</span><span class="sxs-lookup"><span data-stu-id="21dbf-642">Dayforce</span></span>                  |
+|--------------------|---------------------------|
+| <span data-ttu-id="21dbf-643">Pagamento à vista</span><span class="sxs-lookup"><span data-stu-id="21dbf-643">Cash</span></span>               | <span data-ttu-id="21dbf-644">Pagamento à vista</span><span class="sxs-lookup"><span data-stu-id="21dbf-644">Cash</span></span>                      |
+| <span data-ttu-id="21dbf-645">Pagamento eletrônico</span><span class="sxs-lookup"><span data-stu-id="21dbf-645">Electronic Payment</span></span> | <span data-ttu-id="21dbf-646">Transferência</span><span class="sxs-lookup"><span data-stu-id="21dbf-646">Transfer</span></span>                  |
+| <span data-ttu-id="21dbf-647">Verificação</span><span class="sxs-lookup"><span data-stu-id="21dbf-647">Check</span></span>              | <span data-ttu-id="21dbf-648">Cheque</span><span class="sxs-lookup"><span data-stu-id="21dbf-648">Cheque</span></span>                    |
+| <span data-ttu-id="21dbf-649">Boleto bancário</span><span class="sxs-lookup"><span data-stu-id="21dbf-649">Bank Draft</span></span>         | <span data-ttu-id="21dbf-650">*Não há suporte para o México*</span><span class="sxs-lookup"><span data-stu-id="21dbf-650">*Not supported by Mexico*</span></span> |
+| <span data-ttu-id="21dbf-651">Outros</span><span class="sxs-lookup"><span data-stu-id="21dbf-651">Other</span></span>              | <span data-ttu-id="21dbf-652">*Não há suporte para o México*</span><span class="sxs-lookup"><span data-stu-id="21dbf-652">*Not supported by Mexico*</span></span> |
+
+### <a name="bank-account-type"></a><span data-ttu-id="21dbf-653">Tipo de conta bancária</span><span class="sxs-lookup"><span data-stu-id="21dbf-653">Bank account type</span></span>
+
+<span data-ttu-id="21dbf-654">Os tipos de conta bancária são usados para pagamentos eletrônicos aos funcionários.</span><span class="sxs-lookup"><span data-stu-id="21dbf-654">Bank account types are used for electronic payments to employees.</span></span> <span data-ttu-id="21dbf-655">Os tipos de conta bancária são mapeados para o Dayforce como informações da conta de transferência.</span><span class="sxs-lookup"><span data-stu-id="21dbf-655">Bank account types are mapped to Dayforce as transfer account information.</span></span> <span data-ttu-id="21dbf-656">Os tipos de conta bancária são convertidos, conforme apropriado, nos valores aceitos após a integração.</span><span class="sxs-lookup"><span data-stu-id="21dbf-656">The bank account types are translated, as appropriate, to the accepted values upon integration.</span></span>
+
+| <span data-ttu-id="21dbf-657">Talent</span><span class="sxs-lookup"><span data-stu-id="21dbf-657">Talent</span></span>            | <span data-ttu-id="21dbf-658">Dayforce</span><span class="sxs-lookup"><span data-stu-id="21dbf-658">Dayforce</span></span>                  |
+|-------------------|---------------------------|
+| <span data-ttu-id="21dbf-659">Conta corrente</span><span class="sxs-lookup"><span data-stu-id="21dbf-659">Checking Account</span></span>  | <span data-ttu-id="21dbf-660">CheckingAccount</span><span class="sxs-lookup"><span data-stu-id="21dbf-660">CheckingAccount</span></span>           |
+| <span data-ttu-id="21dbf-661">Conta-salário</span><span class="sxs-lookup"><span data-stu-id="21dbf-661">Payroll Account</span></span>   | <span data-ttu-id="21dbf-662">PayrollAccount</span><span class="sxs-lookup"><span data-stu-id="21dbf-662">PayrollAccount</span></span>            |
+| <span data-ttu-id="21dbf-663">Conta de poupança</span><span class="sxs-lookup"><span data-stu-id="21dbf-663">Savings Account</span></span>   | <span data-ttu-id="21dbf-664">*Não há suporte para o México*</span><span class="sxs-lookup"><span data-stu-id="21dbf-664">*Not supported by Mexico*</span></span> |
+| <span data-ttu-id="21dbf-665">Conta BankGirot</span><span class="sxs-lookup"><span data-stu-id="21dbf-665">BankGirot account</span></span> | <span data-ttu-id="21dbf-666">*Não há suporte para o México*</span><span class="sxs-lookup"><span data-stu-id="21dbf-666">*Not supported by Mexico*</span></span> |
+| <span data-ttu-id="21dbf-667">Conta PlusGirot</span><span class="sxs-lookup"><span data-stu-id="21dbf-667">PlusGirot account</span></span> | <span data-ttu-id="21dbf-668">*Não há suporte para o México*</span><span class="sxs-lookup"><span data-stu-id="21dbf-668">*Not supported by Mexico*</span></span> |
+
+### <a name="earning-codes"></a><span data-ttu-id="21dbf-669">Códigos de ganhos</span><span class="sxs-lookup"><span data-stu-id="21dbf-669">Earning codes</span></span>
+
+<span data-ttu-id="21dbf-670">Os códigos de ganhos identificam de forma exclusiva cada tipo de ganho que os trabalhadores recebem.</span><span class="sxs-lookup"><span data-stu-id="21dbf-670">Earning codes uniquely identify every type of earnings that workers receive.</span></span> <span data-ttu-id="21dbf-671">Os códigos abordam vários parâmetros relacionados a ganhos, como regras contábeis, leis tributárias, requisitos de relatório e capacidade de montante bruto.</span><span class="sxs-lookup"><span data-stu-id="21dbf-671">The codes cover several parameters that are related to earnings, such as accounting rules, tax laws, reporting requirements, and gross-up capability.</span></span> <span data-ttu-id="21dbf-672">Se uma frequência sem suporte for usada, a frequência **Cada pagamento** é usada por padrão para o cálculo.</span><span class="sxs-lookup"><span data-stu-id="21dbf-672">If an unsupported frequency is used, the **Every Pay** frequency is used by default for the calculation.</span></span>
+
+#### <a name="supported-frequencies"></a><span data-ttu-id="21dbf-673">Frequências com suporte</span><span class="sxs-lookup"><span data-stu-id="21dbf-673">Supported frequencies</span></span>
+
+- <span data-ttu-id="21dbf-674">Todas</span><span class="sxs-lookup"><span data-stu-id="21dbf-674">All</span></span>
+- <span data-ttu-id="21dbf-675">EVERYPAY</span><span class="sxs-lookup"><span data-stu-id="21dbf-675">EVERYPAY</span></span>
+- <span data-ttu-id="21dbf-676">EACHPAYPERIOD</span><span class="sxs-lookup"><span data-stu-id="21dbf-676">EACHPAYPERIOD</span></span>
+- <span data-ttu-id="21dbf-677">EVRYOTHRPAYODD</span><span class="sxs-lookup"><span data-stu-id="21dbf-677">EVRYOTHRPAYODD</span></span>
+- <span data-ttu-id="21dbf-678">EVRYOTHRPAYEVN</span><span class="sxs-lookup"><span data-stu-id="21dbf-678">EVRYOTHRPAYEVN</span></span>
+- <span data-ttu-id="21dbf-679">1OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-679">1OFMTH</span></span>
+- <span data-ttu-id="21dbf-680">LASTOFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-680">LASTOFMTH</span></span>
+- <span data-ttu-id="21dbf-681">2OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-681">2OFMTH</span></span>
+- <span data-ttu-id="21dbf-682">3OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-682">3OFMTH</span></span>
+- <span data-ttu-id="21dbf-683">4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-683">4OFMTH</span></span>
+- <span data-ttu-id="21dbf-684">5OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-684">5OFMTH</span></span>
+- <span data-ttu-id="21dbf-685">1N2OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-685">1N2OFMTH</span></span>
+- <span data-ttu-id="21dbf-686">3N4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-686">3N4OFMTH</span></span>
+- <span data-ttu-id="21dbf-687">1N3OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-687">1N3OFMTH</span></span>
+- <span data-ttu-id="21dbf-688">1N4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-688">1N4OFMTH</span></span>
+- <span data-ttu-id="21dbf-689">2N3OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-689">2N3OFMTH</span></span>
+- <span data-ttu-id="21dbf-690">2N4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-690">2N4OFMTH</span></span>
+- <span data-ttu-id="21dbf-691">1N2N3OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-691">1N2N3OFMTH</span></span>
+- <span data-ttu-id="21dbf-692">1N2N4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-692">1N2N4OFMTH</span></span>
+- <span data-ttu-id="21dbf-693">1N3N4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-693">1N3N4OFMTH</span></span>
+- <span data-ttu-id="21dbf-694">2N3N4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-694">2N3N4OFMTH</span></span>
+- <span data-ttu-id="21dbf-695">1N2N3N4OFMTH - 1N2N3N4OFMTH</span><span class="sxs-lookup"><span data-stu-id="21dbf-695">1N2N3N4OFMTH - 1N2N3N4OFMTH</span></span>
+- <span data-ttu-id="21dbf-696">2N3N4N5OFMth - 2N3N4N5OFMth</span><span class="sxs-lookup"><span data-stu-id="21dbf-696">2N3N4N5OFMth - 2N3N4N5OFMth</span></span>
+- <span data-ttu-id="21dbf-697">1OFQTR - 1OFQTR</span><span class="sxs-lookup"><span data-stu-id="21dbf-697">1OFQTR - 1OFQTR</span></span>
+- <span data-ttu-id="21dbf-698">LASTOFQTR – LASTOFQTR</span><span class="sxs-lookup"><span data-stu-id="21dbf-698">LASTOFQTR – LASTOFQTR</span></span>
+- <span data-ttu-id="21dbf-699">LASTMTHOFQTR – LASTMTHOFQTR</span><span class="sxs-lookup"><span data-stu-id="21dbf-699">LASTMTHOFQTR – LASTMTHOFQTR</span></span>
+- <span data-ttu-id="21dbf-700">1OFYEAR - 1OFYEAR</span><span class="sxs-lookup"><span data-stu-id="21dbf-700">1OFYEAR - 1OFYEAR</span></span>
+- <span data-ttu-id="21dbf-701">LASTOFYEAR – LASTOFYEAR</span><span class="sxs-lookup"><span data-stu-id="21dbf-701">LASTOFYEAR – LASTOFYEAR</span></span>
+- <span data-ttu-id="21dbf-702">NOVNDECOFYEAR - NOVNDECOFYEAR</span><span class="sxs-lookup"><span data-stu-id="21dbf-702">NOVNDECOFYEAR - NOVNDECOFYEAR</span></span>
+
+### <a name="addresses"></a><span data-ttu-id="21dbf-703">Endereços</span><span class="sxs-lookup"><span data-stu-id="21dbf-703">Addresses</span></span>
+
+<span data-ttu-id="21dbf-704">A identificação de códigos específicos de país ou região, estado e município (municipalidade) exige formatos específicos que o Dayforce e os provedores no país/na região possam reconhecer.</span><span class="sxs-lookup"><span data-stu-id="21dbf-704">The identification of specific country or region, state, and county (municipality) codes requires specific formats that Dayforce and in-country/in-region providers can recognize.</span></span> <span data-ttu-id="21dbf-705">Embora o formato das cidades seja flexível, todas as cidades devem estar associadas a um estado.</span><span class="sxs-lookup"><span data-stu-id="21dbf-705">Although the format for cities is flexible, every city must be associated with a state.</span></span>
+
+| <span data-ttu-id="21dbf-706">Talent</span><span class="sxs-lookup"><span data-stu-id="21dbf-706">Talent</span></span>              | <span data-ttu-id="21dbf-707">Dayforce</span><span class="sxs-lookup"><span data-stu-id="21dbf-707">Dayforce</span></span>              |
+|---------------------|-----------------------|
+| <span data-ttu-id="21dbf-708">País/Região</span><span class="sxs-lookup"><span data-stu-id="21dbf-708">Country/Region</span></span>      | <span data-ttu-id="21dbf-709">Código do País</span><span class="sxs-lookup"><span data-stu-id="21dbf-709">Country Code</span></span>          |
+| <span data-ttu-id="21dbf-710">CEP</span><span class="sxs-lookup"><span data-stu-id="21dbf-710">Zip/Postal Code</span></span>     | <span data-ttu-id="21dbf-711">CEP</span><span class="sxs-lookup"><span data-stu-id="21dbf-711">Postal Code</span></span>           |
+| <span data-ttu-id="21dbf-712">Estadual</span><span class="sxs-lookup"><span data-stu-id="21dbf-712">State</span></span>               | <span data-ttu-id="21dbf-713">Código de estado</span><span class="sxs-lookup"><span data-stu-id="21dbf-713">State Code</span></span>            |
+| <span data-ttu-id="21dbf-714">Cidade</span><span class="sxs-lookup"><span data-stu-id="21dbf-714">City</span></span>                | <span data-ttu-id="21dbf-715">Cidade</span><span class="sxs-lookup"><span data-stu-id="21dbf-715">City</span></span>                  |
+| <span data-ttu-id="21dbf-716">Região</span><span class="sxs-lookup"><span data-stu-id="21dbf-716">County</span></span>              | <span data-ttu-id="21dbf-717">Município (municipalidade)</span><span class="sxs-lookup"><span data-stu-id="21dbf-717">County (Municipality)</span></span> |
+| <span data-ttu-id="21dbf-718">Rua</span><span class="sxs-lookup"><span data-stu-id="21dbf-718">Street</span></span>              | <span data-ttu-id="21dbf-719">Linha de endereço 1</span><span class="sxs-lookup"><span data-stu-id="21dbf-719">Address Line 1</span></span>        |
+| <span data-ttu-id="21dbf-720">Número</span><span class="sxs-lookup"><span data-stu-id="21dbf-720">Street Number</span></span>       | <span data-ttu-id="21dbf-721">Linha de endereço 2</span><span class="sxs-lookup"><span data-stu-id="21dbf-721">Address Line 2</span></span>        |
+| <span data-ttu-id="21dbf-722">Complemento do edifício</span><span class="sxs-lookup"><span data-stu-id="21dbf-722">Building Complement</span></span> | <span data-ttu-id="21dbf-723">Linha de endereço 5</span><span class="sxs-lookup"><span data-stu-id="21dbf-723">Address Line 5</span></span>        |
+
+### <a name="passport-number"></a><span data-ttu-id="21dbf-724">Número do passaporte</span><span class="sxs-lookup"><span data-stu-id="21dbf-724">Passport number</span></span>
+
+<span data-ttu-id="21dbf-725">Os funcionários podem declarar as informações do passaporte.</span><span class="sxs-lookup"><span data-stu-id="21dbf-725">Employees can declare passport information.</span></span> <span data-ttu-id="21dbf-726">Essas informações são do tipo de identificação **Passaporte** e estão integradas ao Dayforce como parte das informações específicas do México de um funcionário.</span><span class="sxs-lookup"><span data-stu-id="21dbf-726">This information is of the **Passport** identification type and is integrated into Dayforce as part of an employee's Mexico-specific information.</span></span>
+
+- <span data-ttu-id="21dbf-727">Tipo de identificação = "Passaporte"</span><span class="sxs-lookup"><span data-stu-id="21dbf-727">Identification Type = "Passport"</span></span>
+- <span data-ttu-id="21dbf-728">Data da emissão</span><span class="sxs-lookup"><span data-stu-id="21dbf-728">Issued Date</span></span>
+- <span data-ttu-id="21dbf-729">Data de Vencimento</span><span class="sxs-lookup"><span data-stu-id="21dbf-729">Expiration Date</span></span>
+
+<span data-ttu-id="21dbf-730">Os funcionários podem declarar vários números de identificação do tipo de identificação **Passaporte**.</span><span class="sxs-lookup"><span data-stu-id="21dbf-730">Employees can declare multiple identification numbers of the **Passport** identification type.</span></span> <span data-ttu-id="21dbf-731">No entanto, apenas a entrada atual do passaporte ativo é integrada ao Dayforce.</span><span class="sxs-lookup"><span data-stu-id="21dbf-731">However, only the current active passport entry is integrated into Dayforce.</span></span> <span data-ttu-id="21dbf-732">Se todas as entradas do passaporte expirarem, o passaporte emitido mais recentemente será integrado ao Dayforce.</span><span class="sxs-lookup"><span data-stu-id="21dbf-732">If all passport entries are expired, the passport that was most recently issued is integrated into Dayforce.</span></span>
+
