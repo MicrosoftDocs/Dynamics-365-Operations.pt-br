@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
-ms.openlocfilehash: 46c8ecf8a6988c32d0202c631bef6901f467bb89
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: e927e45511c5e6c232457a76b2d1fab160fe0f5a
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -339,7 +339,8 @@ A data de pagamento de custo não é calculada com base em dias de buffer. Após
 
 Quando todas as vendas e faturas de fornecedor forem concluídas, será possível exibir a relação entre os campos na página **Fluxo de caixa** e os campos da página **Demonstrativos de projeto**.
 
-:::row::: :::column:::
+:::row:::
+    :::column:::
         #### Cash flow page
         - Cash inflows 
         - Cash outflows

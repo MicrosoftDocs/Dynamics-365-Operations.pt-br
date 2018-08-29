@@ -1,7 +1,7 @@
 ---
-title: "Atualização de reavaliação de único comprovante e de moeda"
+title: "Atualizar diários de comprovante único e reavaliações de moeda"
 description: "Algumas organizações inserem diários que contêm um único comprovante que possui mais de um cliente ou fornecedor e também executam o processo de reavaliação de Contas a Receber ou Contas a Pagar. Este tópico descreve as etapas que essas organizações devem seguir ao atualizar para o Microsoft Dynamics 365 for Operations versão 1611."
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 265364
 ms.assetid: c61391e4-c4bf-4f09-bd18-8107a1bf055e
@@ -18,14 +18,14 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7e0cd0c96ad0f30d56eefdc46a0a69160d864175
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 343fa226e1cf9072696082e9ebf0a1629e553ae9
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="single-voucher-and-currency-revaluation-upgrade"></a>Atualização de reavaliação de único comprovante e de moeda
+# <a name="upgrade-single-voucher-journals-and-currency-revaluations"></a>Atualizar diários de comprovante único e reavaliações de moeda
 
 [!include [banner](../includes/banner.md)]
 

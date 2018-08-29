@@ -1,5 +1,5 @@
 --- 
-title: "Configurar destinos para relatório eletrônico (ER)"
+title: "Configurar destinos para saída de relatórios eletrônicos (ER)"
 description: "Este procedimento demonstra como configurar e usar os diferentes componentes de saída para eletrônicos (ER), como uma pasta ou um arquivo."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: afe9d397872b9328b59f4036049ab53b3bba2aec
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 7c84464f426d6bedff092fd918fcabbc35600f3c
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="configure-destinations-for-electronic-reporting-er"></a>Configurar destinos para relatório eletrônico (ER)
+# <a name="configure-destinations-for-electronic-reporting-er-output"></a>Configurar destinos para saída de relatórios eletrônicos (ER)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

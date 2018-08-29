@@ -1,5 +1,5 @@
 --- 
-title: "Revisar configurações para criar relatórios em formatos do Microsoft Office com imagens incorporadas"
+title: "Revisar configurações para criar relatórios em formatos do Office com imagens incorporadas"
 description: "Para concluir essas etapas, primeiro você deve concluir as etapas no guia de tarefas \"ER Criar relatórios nos formatos do MS Office com imagens incorporadas (Parte 1 – Configurar parâmetros)\"."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe58809c60fa27a605d84a61893ff569ded058ef
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8f3462f16ad7638071ab0aa2175d0bc291eeae89
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images"></a>Revisar configurações para criar relatórios em formatos do Microsoft Office com imagens incorporadas
+# <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Revisar configurações para criar relatórios em formatos do Office com imagens incorporadas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

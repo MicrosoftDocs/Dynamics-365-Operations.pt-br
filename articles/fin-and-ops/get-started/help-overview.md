@@ -1,9 +1,9 @@
 ---
-title: "Visão geral da ajuda"
+title: Sistema de ajuda do Finance and Operations
 description: "Este tópico fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations. Também explica como você pode fornecer a documentação personalizada e treinamento a sua organização."
 author: margoc
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 07/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,14 +19,14 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="help-system-overview"></a>Visão geral do sistema de Ajuda
+# <a name="finance-and-operations-help-system"></a>Sistema de ajuda do Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
@@ -82,27 +82,19 @@ Para assinar um feed RSS de todas as atualizações do conteúdo de Operações 
 [Feed RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>Forneça comentários 
-Gostamos de saber a opinião dos clientes. Você pode fazer comentários, ou sugerir alterações em nosso conteúdo no GitHub.
+Gostamos de saber a opinião dos clientes. Você pode fazer comentários, ou sugerir alterações em nosso conteúdo no GitHub. Para obter mais informações sobre o nosso sistema de feedback, consulte [esta postagem de blog](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).
 
-##### <a name="leave-us-a-comment"></a>Deixe-nos um comentário. 
+##### <a name="leave-us-feedback"></a>Deixe seus comentários 
 Se você tiver dúvidas ou comentários sobre um tópico, deixe-nos um comentário na parte inferior da página.  
 
-1 Clique em **Comentários** para acessar os comentários na parte inferior da página.
+1. Clique em **Comentários** para chegar aos comentários na parte inferior da página e depois clique em **Comentários sobre o produto** ou **Entre para fazer comentários sobre a documentação**.
 
 ![Comentários](./media/comments.png)
 
-2 Comece a digitar seu comentário e clique em **Postar comentário**.
+2. Comece a digitar seu comentário e clique em **Enviar comentários**.
 
-![Postar comentário](./media/before-signin.png)
+![Postar comentário](./media/feedback.png)
 
-3 Selecione o tipo de conta com que você deseja entrar:  
-Clique em um dos ícones à esquerda para associar esse site a uma conta existente, como uma conta do Twitter, do Facebook ou da Microsoft. 
-
-Ou 
-
-À direita, insira um endereço de email e uma nova senha para criar uma nova conta para o site. 
-
-![Opções de entrada](./media/signin-options.png)
 
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Sugerir uma alteração ou contribuir com conteúdo no GitHub
@@ -115,7 +107,6 @@ Para obter mais informações, consulte o guia do colaborador: https://github.co
 
 > [!NOTE]
 > No momento, só aceitamos contribuições de nossos repositórios em inglês.  
-> Não aceitamos relatos de problemas via GitHub, Procure usar uma solicitação de pull para enviar sugestões de conteúdo. Comentários sobre produtos e recursos são melhor abordados no portal de ideias do Dynamics 365: https://experience.dynamics.com/ideas/. 
 
 
 ## <a name="task-guides"></a>Guias de tarefas

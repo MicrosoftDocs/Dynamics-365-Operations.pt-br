@@ -1,5 +1,5 @@
 ---
-title: "Configurar relatório eletrônico para receber dados do Power BI"
+title: "Configurar relatório eletrônico (ER) para efetuar pull de dados no Power BI"
 description: "Este tópico explica como você pode usar suas configurações de ER (Relatório eletrônico) para organizar a transferência de dados da sua instância do Finance and Operations para os serviços do Power BI."
 author: NickSelin
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 45717bc1a7093c0282d214fc4ce5fdf153bb14a1
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9f5a4d0c9fc4c5c9b439b4f184b25085f5d68077
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>Configurar Relatório eletrônico para efetuar pull de dados no Power BI
+# <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>Configurar relatório eletrônico (ER) para efetuar pull de dados no Power BI
 
 [!include [banner](../includes/banner.md)]
 

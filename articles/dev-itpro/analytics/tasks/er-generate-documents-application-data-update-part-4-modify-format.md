@@ -1,5 +1,5 @@
 --- 
-title: Modificar formato para gerar documentos com dados de aplicativo
+title: Modificar formatos para gerar documentos com dados de aplicativo
 description: "Para concluir as etapas desse procedimento, você deve primeiramente concluir o procedimento, \"ER Gerar documentos com atualização de dados de aplicativo (Parte 3 – Modificar modelo e mapeamento)\"."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6c7455e4293993f297aeede4d9d6a50f25ca6c07
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: a095d0326835b0ae7322d5d58307216ee828649e
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="modify-format-to-generate-documents-with-application-data"></a>Modificar formato para gerar documentos com dados de aplicativo
+# <a name="modify-formats-to-generate-documents-that-have-application-data"></a>Modificar formatos para gerar documentos com dados de aplicativo
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

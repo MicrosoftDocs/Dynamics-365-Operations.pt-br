@@ -1,5 +1,5 @@
 --- 
-title: "Executar formato para usar arquivos de Gerenciamento de Documentos em saídas de formato"
+title: "Executar formatos para usar arquivos de gerenciamento de documentos em saídas de ER"
 description: "As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico (ER) para usar arquivos de gerenciamento de documentos (anexos) na saída do ER."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 554de60fb8d2b6cb03cac5dc8d01df98390ad844
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: e0c01a44bde47860b3ad587da73dc2760e9ef4fc
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="run-format-to-use-document-management-files-in-format-outputs"></a>Executar formato para usar arquivos de Gerenciamento de Documentos em saídas de formato 
+# <a name="run-formats-to-use-document-management-files-in-er-output"></a>Executar formatos para usar arquivos de gerenciamento de documentos em saídas de ER
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

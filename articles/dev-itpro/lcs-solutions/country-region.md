@@ -3,7 +3,7 @@ title: "Recursos de localização e regulatórios"
 description: "Este tópico inclui listas de recursos que podem ajudar você a aprender mais sobre funcionalidades específicas ao país/região."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2018
+ms.date: 07/18/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4485bd6442d186e5a6bac90e0a9041566e2e26d0
-ms.openlocfilehash: efa82abcd25101fc7be772c32e6c4fee7976d4bb
+ms.sourcegitcommit: 46165351f3c9048cfbecf25a1c49d8aeac1f3e1e
+ms.openlocfilehash: 787ce11701a9df951b38af5209206902d7c98019
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -147,33 +147,9 @@ As seções a seguir listam os recursos por país/região.
 - [Relatório de IVA](../../financials/localizations/emea-vat-reporting.md)
 - [Exibir transações sobre liquidação](../../financials/localizations/emea-transactions-settlement-form.md)
 
-### <a name="france"></a>França
--   [Fatura cronológica e números de comprovantes](../../financials/localizations/emea-fra-chronological-invoices-vouchers.md)
--   [Depreciação derrogatória da França](../../financials/localizations/emea-fra-derogatory-depreciation.md)
--   [Códigos NAF e números de siret](../../financials/localizations/emea-fra-naf-codes-siret-numbers.md)
--   [Penalidades por pagamentos de clientes em atraso na França](../../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md)
--   [Imprimir texto de recuperação de quantia total em uma fatura de cliente](../../financials/localizations/emea-fra-print-lump-sum-recovery-text.md)
--   [Depreciação RB/SL](../../financials/localizations/emea-fra-rbsl-depreciation.md)
-
-#### <a name="public-sector"></a>Setor público
-   -   [Compromissos no setor público](../../financials/localizations/emea-fra-commitments-public-sector.md)
-   -   [Mandats de paiement no setor público](../../financials/localizations/emea-fra-mandats-de-paiement.md)
-   -   [Compras e fornecimento](../../financials/localizations/emea-fra-procurement-sourcing-public-sector.md)
-   -   [Contabilidade do setor público](../../financials/localizations/emea-fra-public-sector-accounting.md)
-   -   [Titres de recette](../../financials/localizations/emea-fra-titres-de-recette-public-sector.md)
-   -   [Suspensões de pagamento de fatura de fornecedor](../../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md)
-
-### <a name="germany"></a>Alemanha
--   [Depreciação adicional de aquisição](../../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
--   [Arquivo de auditoria alemão (GDPdU/GoBD)](../../financials/localizations/emea-deu-gdpdu-audit-data-export.md)
--   [Relatório de lista de diários alemão](../../financials/localizations/emea-deu-journal-list-report.md)
--   [Imprimir um rótulo separado para memorandos de crédito originários de vendas](../../financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md)
-
-### <a name="hungary"></a>Hungria
-
--   [Métodos de depreciação de ativos fixos](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
--   [Mover um ativo fixo para o estoque](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
--   [Ativos fixos de baixo custo](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+### <a name="francefinancialslocalizationsfrancemd"></a>[França](../../financials/localizations/france.md)
+### <a name="germanyfinancialslocalizationsgermanymd"></a>[Alemanha](../../financials/localizations/germany.md)
+### <a name="hungaryfinancialslocalizationshungarymd"></a>[Hungria](../../financials/localizations/hungary.md)
 
 ### <a name="india"></a>Índia
 
@@ -190,18 +166,7 @@ As seções a seguir listam os recursos por país/região.
     - [Perguntas frequentes sobre limites de impostos](../../financials/localizations/apac-ind-tax-thresholds.md)
     - [Estendendo o mecanismo de cálculo de impostos](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
-### <a name="italy"></a>Itália
-
--   [Relatório italiano de lista de bloqueios](../../financials/localizations/emea-ita-black-list-report.md)
--   [Detalhes de demonstrativos de IVA](../../financials/localizations/emea-ita-vat-statements-details.md)
--   [Data da competência de transações](../../financials/localizations/emea-ita-competence-date.md)
--   [Depreciação manual de ativos fixos](../../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
--   [Modello 770](../../financials/localizations/emea-ita-modello770.md)
--   [Verificação da data da guia de remessa em faturas da Itália](../../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
--   [Registros de imposto da Itália](../../financials/localizations/emea-ita-fiscal-books.md)
--   [Dividir pagamento de faturas emitidas para a Administração Pública](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
--   [Imposto retido na fonte](../../financials/localizations/emea-ita-withholding-tax.md)
-
+### <a name="italyfinancialslocalizationsitalymd"></a>[Itália](../../financials/localizations/italy.md)
 ### <a name="japan"></a>Japão
 
 -  [Taxas de pagamento bancário cobertas por fornecedores](../../financials/localizations/apac-jpn-bank-payment-fees-vendors.md)
@@ -216,19 +181,8 @@ As seções a seguir listam os recursos por país/região.
 -  [Pagar um fornecedor com endosso de uma letra de câmbio](../../financials/localizations/apac-jpn-endorse-bill-of-exchange.md)
 -  [Cálculo de imposto retido na fonte progressivo](../../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md)
 
-### <a name="latvia"></a>Letônia
-
--   [Contabilidade de ativos fixos para fins de tributação](../../financials/localizations/emea-lva-fixed-assets-accounting.md)
--   [Controle de alterações de localização de ativos fixos](../../financials/localizations/emea-lva-fixed-assets-location-fields-change.md)
--   [Numeração de faturas e guias de remessa](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
--   [Relatório de impostos sobre recursos naturais](../../financials/localizations/emea-lva-tax-natural-resources.md)
--   [Detalhes do demonstrativo de IVA](../../financials/localizations/emea-lva-vat-statement-details.md)
-
-### <a name="lithuania"></a>Lituânia
-
--   [Demonstrativo de reparo de ativo fixo](../../financials/localizations/emea-ltu-fixed-asset-repair-statement.md)
--   [Numeração de faturas e guias de remessa](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
--   [Detalhes do demonstrativo de IVA](../../financials/localizations/emea-ltu-vat-statement-details.md)
+### <a name="latviafinancialslocalizationslatviamd"></a>[Letônia](../../financials/localizations/latvia.md)
+### <a name="lithuaniafinancialslocalizationslithuaniamd"></a>[Lituânia](../../financials/localizations/lithuania.md)
 
 ### <a name="mexico"></a>México
 
@@ -242,29 +196,9 @@ As seções a seguir listam os recursos por país/região.
 
 -   [GST (Imposto sobre bens e serviços)](../../financials/localizations/apac-mys-gst.md)
 
-### <a name="netherlands"></a>Países Baixos
-
--   [Prazo final de emissão da fatura](../../financials/localizations/emea-invoice-issue-deadline.md)
-
-### <a name="norway"></a>Noruega
-
--   [Caixas registradoras da Noruega](../../retail/localizations/emea-nor-cash-registers.md)
--   [Diretrizes de implantação para caixas registradoras da Noruega](../../retail/localizations/emea-nor-loc-deployment-guidelines.md)
--   [Formato de importação Nets](../../financials/localizations/emea-nor-nets-import-format.md)
--   [Demonstrativo de IVA](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
-
-### <a name="poland"></a>Polônia
-
--   [Calcular descontos de linha do preço unitário](../../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
--   [Notas de correção](../../financials/localizations/emea-pol-correction-notes.md)
--   [Duplicar numeração de faturas de venda](../../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md)
--   [Depreciação de ativos fixos](../../financials/localizations/emea-pol-fixed-assets-depreciation.md)
--   [Alienação de ativos fixos](../../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md)
--   [Embalagem retornável](../../financials/localizations/emea-pol-returnable-packages.md)
--   [Relatórios de imposto](../../financials/localizations/emea-pol-sales-tax-reports.md)
--   [Arquivo de auditoria padrão (SAF)](../../financials/localizations/emea-pol-standard-audit-file-saf.md)
--   [Demonstrativo de giro e saldos](../../financials/localizations/emea-pol-turnover-balances-statement.md)
-
+### <a name="netherlandsfinancialslocalizationsnetherlandsmd"></a>[Países Baixos](../../financials/localizations/netherlands.md)
+### <a name="norwayfinancialslocalizationsnorwaymd"></a>[Noruega](../../financials/localizations/norway.md)
+### <a name="polandfinancialslocalizationspolandmd"></a>[Polônia](../../financials/localizations/poland.md)
 ### <a name="saudi-arabia"></a>Arábia Saudita
 
 -   [Relatório Zakat](../../financials/localizations/emea-sau-zakat-reporting.md)
@@ -273,29 +207,9 @@ As seções a seguir listam os recursos por país/região.
 
 -   [Gerar o relatório GST-05 de Cingapura](../../financials/localizations/apac-sgp-generate-gst-05-report.md)
 
-### <a name="spain"></a>Espanha
-
--   [Opções de letra de câmbio espanhola](../../financials/localizations/emea-esp-bill-of-exchange-options.md)
--   [O desconto à vista é aplicado no parâmetro de fatura](../../financials/localizations/emea-esp-cash-discount-applied-invoice.md)
--   [Imposto condicional](../../financials/localizations/emea-esp-conditional-sales-tax.md)
--   [Grupos de reavaliação de ativo fixo](../../financials/localizations/emea-esp-fixed-asset-group-revaluation.md)
--   [IVA da UE](../../financials/localizations/emea-esp-intra-community-vat.md)
--   [Clientes ocasionais](../../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md)
--   [Imprimir cheques usando o layout espanhol](../../financials/localizations/emea-esp-print-checks-with-spanish-layout.md)
--   [Opções de nota promissória espanhola](../../financials/localizations/emea-esp-promissory-note-options.md)
--   [Ciclos de vendas e compras](../../financials/localizations/emea-esp-sales-purchase-cycle.md)
--   [Entradas especiais e folhas de abertura](../../financials/localizations/emea-esp-opening-sheets-spain.md)
--   [Usar dados fiscais da conta da fatura](../../financials/localizations/emea-esp-fiscal-data-invoice-account.md)
-
-### <a name="sweden"></a>Suécia
-
--   [Formatos de pagamento de importação da Suécia](../../financials/localizations/emea-swe-payment-formats-import.md)
--   [Caixas registradoras da Suécia](../../retail/localizations/emea-swe-cash-registers.md)
-
-### <a name="switzerland"></a>Suíça
-
--   [Importação de pagamentos de cliente ESR](../../financials/localizations/emea-che-esr-customer-payments-import.md)
-
+### <a name="spainfinancialslocalizationsspainmd"></a>[Espanha](../../financials/localizations/spain.md)
+### <a name="swedenfinancialslocalizationsswedenmd"></a>[Suécia](../../financials/localizations/sweden.md)
+### <a name="switzerlandfinancialslocalizationsswitzerlandmd"></a>[Suíça](../../financials/localizations/switzerland.md)
 ### <a name="thailand"></a>Tailândia
 
 -   [Relatórios de fichas de estoque](../../financials/localizations/apac-tha-stock-card-reports.md)
@@ -303,10 +217,7 @@ As seções a seguir listam os recursos por país/região.
 -   [IVA não realizado](../../financials/localizations/apac-tha-unrealized-vat.md)
 -   [Imposto retido na fonte](../../financials/localizations/apac-tha-withholding-tax.md)
 
-### <a name="united-kingdom"></a>Reino Unido
-
--   [O esquema do setor de construção do Reino Unido](../../financials/localizations/emea-gbr-cis-construction-industry-scheme.md)
-
+### <a name="united-kingdomfinancialslocalizationsunited-kingdommd"></a>[Reino Unido](../../financials/localizations/united-kingdom.md)
 ### <a name="united-states"></a>Estados Unidos
 
 -   [Formulário 1099 no setor público](../../financials/localizations/noam-usa-form-1099-public-sector.md)   

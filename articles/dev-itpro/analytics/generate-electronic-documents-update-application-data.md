@@ -1,5 +1,5 @@
 ---
-title: "Gerar documentos eletrônicos e atualizar dados de aplicativo usando a ferramenta de relatórios eletrônicos"
+title: "Gerar documentos eletrônicos e atualizar dados de aplicativos usando ER"
 description: "Você pode criar os formatos de Relatório eletrônico (ER) que podem ser usados no aplicativo do Finance and Operations para gerar documentos eletrônicos de saída. Você também pode criar os formatos de ER que analisam documentos eletrônicos de entrada e usam o conteúdo desses documentos para atualizar dados de aplicativo."
 author: NickSelin
 manager: AnnBe
@@ -19,18 +19,18 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: e2447274016f517db3ec0eb8f55c6b3163822f50
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 6bb2b2480b619a8aee72c2d65052ed419c9a7c7d
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a>Gerar documentos eletrônicos e atualizar dados de aplicativo usando a ferramenta de relatórios eletrônicos
+# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>Gerar documentos eletrônicos e atualizar dados de aplicativos usando ER
 
 [!include [banner](../includes/banner.md)]
 
-Você pode criar os formatos de Relatório eletrônico (ER) que podem ser usados no aplicativo do Finance and Operations para gerar documentos eletrônicos de saída. Você também pode criar os formatos de ER que analisam documentos eletrônicos de entrada e usam o conteúdo desses documentos para atualizar dados de aplicativo. 
+Você pode criar os formatos de Relatório eletrônico (ER) que podem ser usados no aplicativo do Finance and Operations para gerar documentos eletrônicos de saída. Você também pode criar os formatos de ER que analisam documentos eletrônicos de entrada e usam o conteúdo desses documentos para atualizar dados de aplicativo.
 
 Com esta funcionalidade, um único formato de ER pode ser usado para gerar documentos eletrônicos de saída e, em seguida, atualizar os dados de aplicativo. Este recurso também pode ser usado nestes cenários:
 

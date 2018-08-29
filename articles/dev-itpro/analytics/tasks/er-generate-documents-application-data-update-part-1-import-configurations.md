@@ -1,5 +1,5 @@
 --- 
-title: "Configurações de importação para gerar documentos com dados do aplicativo"
+title: "Configurações de importação para gerar documentos com dados da solicitação de emprego"
 description: "Para completar as etapas, neste procedimento você deve primeiro concluir o procedimento, \"ER Criar um provedor de configuração e marcá-lo como ativo\"."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 87352293a78d6a356db49deffb930016a1bf836c
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 1637ba59525f5f8bd9fe41a00c34eca90f7a2751
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="import-configurations-to-generate-documents-with-application-data"></a>Configurações de importação para gerar documentos com dados do aplicativo
+# <a name="import-configurations-to-generate-documents-that-have-application-data"></a>Configurações de importação para gerar documentos com dados da solicitação de emprego
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

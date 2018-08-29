@@ -1,5 +1,5 @@
 ---
-title: Campos personalizados
+title: Criar e trabalhar com campos personalizados
 description: "Este tópico mostra como o Microsoft Dynamics 365 for Finance and Operations permite que alguns usuários criem campos personalizados para adequar o aplicativo à sua empresa."
 author: jasongre
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: f2aa55ae4258f5ef81456b92278415297c194d66
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 1ce709a4b5cce145d841b844a21a5218ba250c87
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="custom-fields"></a>Campos personalizados
+# <a name="create-and-work-with-custom-fields"></a>Criar e trabalhar com campos personalizados
 
 [!include [banner](../includes/banner.md)]
 

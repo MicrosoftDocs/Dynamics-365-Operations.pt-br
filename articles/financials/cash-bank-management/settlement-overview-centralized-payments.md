@@ -1,16 +1,16 @@
 ---
-title: "Visão geral da liquidação para pagamentos centralizados"
-description: "As organizações que incluem várias entidades legais podem criar e gerenciar pagamentos usando uma entidade legal que trate todos os pagamentos. Isso elimina a necessidade de inserir a mesma transação em várias entidades legais e poupa tempo ao simplificar o processo de proposta de pagamento, o processo de liquidação, a edição de transações abertas e a edição de transações fechadas para pagamentos centralizados."
+title: "Visão geral de liquidação para pagamentos centralizados"
+description: "Este tópico descreve a liquidação para pagamentos centralizados do Microsoft Dynamics 365 for Finance and Operations."
 author: abruer
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 222414
 ms.assetid: 610f6858-0f37-4d0f-8c68-bab5a971ef4a
@@ -19,14 +19,14 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b76b141531acfc2d1d7553a3e7a13f165373921b
+ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
+ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="settlement-overview-for-centralized-payments"></a>Visão geral da liquidação para pagamentos centralizados
+# <a name="settlement-overview-for-centralized-payments"></a>Visão geral de liquidação para pagamentos centralizados
 
 [!include [banner](../includes/banner.md)]
 
@@ -35,8 +35,8 @@ As organizações que incluem várias entidades legais podem criar e gerenciar p
 Quando o pagamento de um cliente ou fornecedor é inserido em uma entidade legal e liquidado com uma fatura inserida em outra entidade legal, as transações aplicáveis de liquidação, a vencer e vencidas são geradas automaticamente para cada entidade legal. Um registro de liquidação é criado para cada combinação de nota fiscal e pagamento na transação. Cada registro de liquidação é atribuído um novo número de comprovante, que é baseado na série de sequência numérica do comprovante de pagamento especificado na página **Parâmetros de contas a receber** para clientes e na página **Parâmetros de contas a pagar** para fornecedores. 
 
 Se outros registros adicionais de liquidação forem gerados para descontos à vista, reavaliações de moedas estrangeiras, diferenças mínimas, pagamentos a maior e a menor, eles receberão a data mais recente da transação de pagamento ou fatura. Se a liquidação ocorrer após o lançamento do pagamento, os registros de liquidação usarão a data de lançamento da liquidação especificada na página **Liquidar transações abertas**.
-Tipos de lançamento, tipos de transação e descrições padrão
-----------------------------------------------------------
+
+## <a name="posting-types-transaction-types-and-default-descriptions"></a>Tipos de lançamento, tipos de transação e descrições padrão
 
 Transações de comprovante de liquidação intercompanhia usam o tipo de postagem intercompanhia de pagamento, o pagamento intercompanhia de cliente, e os tipos de transação de pagamento de fornecedor intercompanhia. Você pode configurar informações para o tipo de transação na página **Descrições padrão**. 
 
@@ -50,8 +50,7 @@ Os tipos de transação a seguir estão disponíveis para uso em liquidações d
 
 Também é possível definir as descrições padrão para comprovantes de liquidação intercompanhia.
 
-<a name="currency-exchange-gains-or-losses"></a>Lucros ou perdas de câmbio
----------------------------------
+## <a name="currency-exchange-gains-or-losses"></a>Lucros ou perdas de câmbio
 
 A taxa de câmbio usada para transações de cliente ou de fornecedor é armazenada com a transação. Os lucros ou as perdas realizados para taxas de câmbio são lançadas para a entidade legal da fatura ou entidade legal de pagamento, dependendo da opção selecionada para o campo **Lançar ganho ou perda de câmbio de moeda** na página **Contabilidade intercompanhia** da entidade legal de pagamento. Os exemplos a seguir usam estas moedas:
 -   Moeda contábil do pagamento: EUR
@@ -59,7 +58,7 @@ A taxa de câmbio usada para transações de cliente ou de fornecedor é armazen
 -   Moeda da transação de pagamento: DKK
 -   Moeda da transação de fatura: CAD
 
-#### <a name="currency-calculations"></a>Cálculos de moeda
+### <a name="currency-calculations"></a>Cálculos de moeda
 
 Ao liquidar uma fatura inserida em uma entidade legal com um pagamento inserido em outra, a moeda da transação do pagamento (DKK) é convertida em três etapas:
 1.  Convertida na moeda contábil do pagamento (EUR), usando as taxas de câmbio da entidade legal do pagamento.
@@ -75,17 +74,15 @@ Quando a página **Liquidar transações abertas** é aberta de um diário de pa
 
 O valor do pagamento resultante será transferido para a linha do diário de pagamentos quando você fechar a página **Liquidar transações abertas**.
 
-#### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Lançando para lucro ou perda devido a moedas contábeis diferentes
+### <a name="posting-for-gain-or-loss-because-of-different-accounting-currencies"></a>Lançando para lucro ou perda devido a moedas contábeis diferentes
 
 Se houver lucro ou perda cambial, o lucro ou a perda será lançada na entidade legal especificada para o campo **Ganho ou perda de câmbio de lançamentos** na página **Contabilização intercompanhia** para a entidade legal de pagamento. O valor de lucro ou perda é convertido para a moeda contábil da entidade legal onde os ganhos ou perdas serão lançados, usando a taxa de câmbio definida para essa entidade legal.
 
-<a name="cash-discounts"></a>Descontos à vista
---------------
+## <a name="cash-discounts"></a>Descontos à vista
 
 Os descontos à vista gerados durante o processo de liquidação entre empresas são lançados na entidade legal da fatura ou do pagamento, dependendo da opção selecionada no campo **Lançar desconto à vista**, na página **Contabilidade intercompanhia**, para a entidade legal do pagamento. Uma transação de liquidação correspondente é gerada na entidade legal da fatura.
 
-<a name="overpayments-and-underpayments"></a>Pagamentos a maior e a menor
-------------------------------
+## <a name="overpayments-and-underpayments"></a>Pagamentos a maior e a menor
 
 As tolerâncias de pagamento a maior, a menor e de diferença mínima são determinadas com base na entidade legal do pagamento para pagamentos a maior e na entidade legal de faturas para pagamentos a menor. A conta de lançamento usada é determinada pela configuração no campo **Administração do desconto à vista** na página **Parâmetros de contas a receber** para clientes, e no campo **Administração do desconto à vista** na página **Parâmetros de contas a pagar** para fornecedores.
 
@@ -112,9 +109,4 @@ Para pagamentos de fornecedores, as transações a vencer e vencidas na entidade
 
 ## <a name="withholding-tax"></a>Imposto retido na fonte
 A conta de fornecedor associada à fatura é usada para determinar se o imposto retido na fonte deve ser calculado. Se ele se aplicar, será calculado na entidade legal que associada à fatura. Se a entidade legal usa moedas diferentes, a taxa de câmbio da entidade legal associadas à fatura é usada.
-
-
-
-
-
 

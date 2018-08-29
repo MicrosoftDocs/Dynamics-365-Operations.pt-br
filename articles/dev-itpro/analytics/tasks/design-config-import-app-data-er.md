@@ -1,5 +1,5 @@
 --- 
-title: "Criar configurações para avaliar a entrada de documentos para atualizações de dados de aplicativos (ER)"
+title: "Criar configurações ER para analisar documentos recebidos"
 description: "Este procedimento mostra como criar configurações de ER (relatório eletrônico) para analisar um documento eletrônico."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 96c9397c6a83d61b679492f66f4aa6661f1f8621
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>Criar configurações para avaliar a entrada de documentos para atualizações de dados de aplicativos (ER)
+# <a name="design-er-configurations-to-parse-incoming-documents"></a>Criar configurações ER para analisar documentos recebidos
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -30,7 +30,7 @@ Este procedimento mostra como criar configurações de ER (relatório eletrônic
 
 Este procedimento é criado para usuários com a função atribuída de Administrador do sistema ou Desenvolvedor de relatório eletrônico. 
 
-Estas etapas podem ser concluídas usando qualquer conjunto de dados. Antes de começar, baixe e salve os arquivos listados no tópico da Ajuda, "Analisar documentos de entrada para atualizar os dados do aplicativo" (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Os arquivos são: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
+Estas etapas podem ser concluídas usando qualquer conjunto de dados. Antes de começar, baixe e salve os arquivos listados no tópico, “Analisar documentos de entrada para atualizar os dados da solicitação de emprego” (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents). Os arquivos são: EFSTA model.xml, EFSTA format.xml, Response1.xml, Response2.xml, Response3.xml, Response4.xml.
 
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
     * Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como Ativo. Se não visualizar esse provedor de configuração, conclua as etapas do procedimento “Criar um provedor de configuração e marcá-lo como ativo“.  

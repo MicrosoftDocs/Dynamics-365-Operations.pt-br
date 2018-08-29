@@ -1,5 +1,5 @@
 --- 
-title: "Gerar documentos eletrônicos para pagamentos usando uma configuração de formato para relatório eletrônico (ER)"
+title: "Gerar documentos eletrônicos para pagamentos usando configurações de formato"
 description: "As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode usar uma nova configuração de formato de Relatório Eletrônico (RE) para gerar documentos eletrônicos para processamento de pagamentos."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a5d958d3b55bfa76f3cfbb3c1a289e4e89c49146
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 805e6f377d452e9c50240c8c9fc2ea6f5cb487e6
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="generate-electronic-documents-for-payments-using-a-format-configuration-for-electronic-reporting-er"></a>Gerar documentos eletrônicos para pagamentos usando uma configuração de formato para relatório eletrônico (ER)
+# <a name="generate-electronic-documents-for-payments-by-using-format-configurations"></a>Gerar documentos eletrônicos para pagamentos usando configurações de formato
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

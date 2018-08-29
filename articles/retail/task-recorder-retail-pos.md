@@ -1,5 +1,5 @@
 ---
-title: Gravador de tarefas e Ajuda para PDV
+title: Gravador de tarefas e ajuda para Retail Modern POS (MPOS) e Cloud POS
 description: "Este tópico descreve como utilizar o Gravador de tarefas no no Retail Modern POS e no Cloud POS."
 author: mugunthanm
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 12aa71843fa8b22eb7ae688ed3600168760d90da
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 0077bac6eef5c4b4925c9464d47a1297aa1177e4
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="task-recorder-and-help-for-pos"></a>Gravador de tarefas e Ajuda para PDV
+# <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Gravador de tarefas e ajuda para Retail Modern POS (MPOS) e Cloud POS
 
 [!include [banner](includes/banner.md)]
 

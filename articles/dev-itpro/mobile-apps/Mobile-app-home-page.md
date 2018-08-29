@@ -1,5 +1,5 @@
 ---
-title: "Página inicial do aplicativo móvel"
+title: Home page do aplicativo Dynamics 365 for Unified Operations Mobile
 description: "Este tópico descreve o aplicativo móvel do Microsoft Dynamics 365 for Unified Operations e fornece links para recursos que podem ajudá-lo a implementá-lo em sua organização."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4736a7041c746350fa073bd58929c840f7689bf
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: b9cdb2b2c2b5aaf7743cd2cd0dbfee6c602a5a46
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="mobile-app-home-page"></a>Página inicial do aplicativo móvel
+# <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Home page do aplicativo Dynamics 365 for Unified Operations Mobile
 
 [!include [banner](../includes/banner.md)]
 

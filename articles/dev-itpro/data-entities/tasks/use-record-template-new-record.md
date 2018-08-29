@@ -1,5 +1,5 @@
 --- 
-title: Usar um modelo de registro para criar um novo registro
+title: Criar registros usando modelos de registro
 description: Este procedimento mostra como usar um modelo de registro previamente definido para criar um novo registro.
 author: sericks007
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 8f8b63302dfd82910d7579d2890de8194989bb8e
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 4d2a5aa8be3d9ddebfe842ba4029933eff4c337d
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="use-a-record-template-to-create-a-new-record"></a>Usar um modelo de registro para criar um novo registro
+# <a name="create-records-by-using-record-templates"></a>Criar registros usando modelos de registro
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

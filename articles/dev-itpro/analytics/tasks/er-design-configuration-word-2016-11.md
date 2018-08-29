@@ -1,5 +1,5 @@
 --- 
-title: "Criar uma configuração para gerar relatórios no formato Microsoft Word para relatório eletrônico (ER)"
+title: "Criar configurações de ER para gerar relatórios no formato do Word"
 description: "As seguintes etapas explicam como um usuário na função de administrador do sistema ou desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico (ER) para criar relatórios como arquivos do Microsoft Word."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
-ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>Criar uma configuração para gerar relatórios no formato Microsoft Word para relatório eletrônico (ER)
+# <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Criar configurações de ER para gerar relatórios no formato do Word
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

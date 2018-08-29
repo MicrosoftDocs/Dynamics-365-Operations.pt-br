@@ -1,5 +1,5 @@
 ---
-title: Configurar e gerenciar imagens para Retail Modern POS
+title: Configurar e gerenciar imagens para Retail Modern POS (MPOS)
 description: "Este artigo explica as etapas envolvidas na configuração e no gerenciamento de imagens para as diversas entidades que aparecem no Retail Modern POS (MPOS)."
 author: athinesh99
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ed4a7044b577ed6af86f6803f6abd4f9b500b4e7
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e364cf988cc80d53605fe88bf0dc1be6021c52e7
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="set-up-and-manage-images-for-retail-modern-pos"></a>Configurar e gerenciar imagens para Retail Modern POS
+# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>Configurar e gerenciar imagens para Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
 
