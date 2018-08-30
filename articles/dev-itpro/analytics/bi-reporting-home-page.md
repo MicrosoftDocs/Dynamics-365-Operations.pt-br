@@ -1,5 +1,5 @@
 ---
-title: "Inteligência"
+title: "Home page de BI (business intelligence) e relatórios"
 description: "Este tópico indica os recursos que você poderá usar para saber mais sobre as ferramentas de business intelligence e de relatório que estão disponíveis no Microsoft Dynamics 365 for Finance and Operations."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="intelligence"></a>Inteligência
+# <a name="business-intelligence-bi-and-reporting-home-page"></a>Home page de BI (business intelligence) e relatórios
 
 [!include [banner](../includes/banner.md)]
 
@@ -43,13 +43,13 @@ Os usuários podem interagir com os dados clicando ou tocando em recursos visuai
 
 ![Exemplo do Power BI em um espaço de trabalho](./media/Power-BI-in-D365-Workspace.png)
 
- Para saber mais, consulte os seguintes tópicos:
+Para saber mais, consulte os seguintes tópicos:
 
- - [Power BI Embedded em espaços de trabalho](embed-power-bi-workspaces.md)
- - [Integração do Power BI Embedded](power-bi-embedded-integration.md)
- - [Adicionar análise a espaços de trabalho usando o Power BI Embedded](add-analytics-tab-workspaces.md)
- - [Ajudar a proteger espaços de trabalho analíticos e relatórios usando o Power BI Embedded](secure-analytical-workspaces.md)
- - [Conteúdo do Power BI para o Finance and Operations](power-bi-home-page.md)
+- [Power BI Embedded em espaços de trabalho](embed-power-bi-workspaces.md)
+- [Integração do Power BI Embedded](power-bi-embedded-integration.md)
+- [Adicionar análise a espaços de trabalho usando o Power BI Embedded](add-analytics-tab-workspaces.md)
+- [Ajudar a proteger espaços de trabalho analíticos e relatórios usando o Power BI Embedded](secure-analytical-workspaces.md)
+- [Conteúdo do Power BI para o Finance and Operations](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>Documentos e impressões comerciais
 As soluções de relatório são frequentemente usadas para capturar e comunicar os detalhes de transações comerciais. Portanto, uma solução de relatório deve ser capaz de produzir manifestações físicas de dados comerciais usando dispositivos existentes, como impressoras de rede. Exemplos de documentos comerciais incluem faturas de vendas, demonstrativos do cliente e cheques.

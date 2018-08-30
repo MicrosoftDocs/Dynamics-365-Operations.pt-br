@@ -1,7 +1,7 @@
 ---
 title: Home page de Contas a receber
 description: Use Contas a receber para rastrear faturas de clientes e entrada de pagamentos.
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 20671
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
-ms.openlocfilehash: 9fcf106b03cd1abdd135681ceefbb7877f07c773
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
 ms.contentlocale: pt-br
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -43,17 +43,24 @@ Você pode criar faturas de cliente com base em ordens de venda ou guias de reme
 
 Use Contas a receber para rastrear faturas de cliente e pagamentos que você recebe dos clientes. É possível definir grupos de clientes, clientes, perfis de lançamentos, notas de juros, cartas de cobrança, comissões e parâmetros referentes a clientes, encargos, entregas e destinos, letras de câmbio e outros tipos de informações de Contas a receber. 
 
-:::row::: :::column::: - [Distribuições contábeis e entradas no diário-razão auxiliar para faturas em texto livre](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
-        - [Perfis de lançamento de cliente](customer-posting-profiles.md)
+:::row:::
+    :::column:::
+        - [Distribuições contábeis e entradas no diário-razão auxiliar para faturas de texto livre](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+        - [Perfis de postagem de cliente](customer-posting-profiles.md)
         - [Configuração, autorização e captura de cartão de crédito](credit-card-authorizations.md)
         - [Criar uma fatura de cliente](configure-customer-invoices.md)
         - [Configurar e processar faturas recorrentes](set-up-process-recurring-invoices.md)
-        - [Corrigir uma fatura em texto livre](correct-free-text-invoice.md) :::column-end::: :::column::: - [Configurar letras de câmbio](set-up-bills-exchange.md)
+        - [Corrigir uma fatura de texto livre](correct-free-text-invoice.md)
+    :::column-end:::
+    :::column:::
+        - [Configurar letras de câmbio](set-up-bills-exchange.md)
         - [Configurar taxas de juros para um código de juros](set-up-interest-rates-interest-code.md)
-        - [Cancelar, restabelecer ou reverter taxas de juros](waive-reinstate-reverse-interest-fees.md)
-        - [Carta de ordem de débito direto SEPA](sepa-direct-debit-overview.md)
-        - [Configurar Carta de ordem de débito direto SEPA](sepa-direct-debit-mandate.md)
-        - [Fechar Contas a receber](close-accounts-receivable.md) :::column-end::: :::row-end:::
+        - [​Cancelar, restabelecer ou reverter taxas de juros​](waive-reinstate-reverse-interest-fees.md)
+        - [Visão geral do débito direto do SEPA](sepa-direct-debit-overview.md)
+        - [Carta de ordem de débito direto de instalação do SEPA](sepa-direct-debit-mandate.md)
+        - [Fechar contas a receber](close-accounts-receivable.md)
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="set-up-credit-and-collections"></a>Configurar crédito e cobranças
@@ -70,13 +77,20 @@ As informações de cobranças de Contas a receber são gerenciadas em uma exibi
 
 Aceite tipos diferentes de pagamentos de clientes, como letras de câmbio, pagamento à vista, cheques, cartões de crédito e pagamentos eletrônicos. 
 
-:::row::: :::column::: - [Use um pagamento de cliente para liquidar várias faturas que abrangem vários períodos de desconto](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-        - [Pagamentos centralizados para Contas a receber](centralized-payments-accounts-receivable.md)
-        - [Liquidar um pagamento parcial de cliente e do pagamento final antes da data do desconto](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [Liquidar um pagamento parcial de cliente antes da data do desconto com um pagamento final após a data de desconto](settle-partial-customer-payment-before-discount-or-final-payment-after.md) :::column-end::: :::column::: - [Liquidar um pagamento parcial de cliente com descontos em notas de crédito](settle-partial-customer-payment-discounts-credit-notes.md)
+:::row:::
+    :::column:::
+        - [Use um pagamento de cliente para liquidar várias faturas que incluem vários períodos de desconto](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+        - [Pagamentos centralizados para contas a receber](centralized-payments-accounts-receivable.md)
+        - [Liquidar um pagamento parcial de cliente e o pagamento final total antes da data do desconto](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+        - [Liquidar um pagamento parcial de cliente antes da data do desconto com um pagamento final após a data de desconto](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+    :::column-end:::
+    :::column:::
+        - [Liquidar um pagamento parcial de cliente com descontos em notas de crédito](settle-partial-customer-payment-discounts-credit-notes.md)
         - [Liquidar um pagamento parcial de cliente com vários períodos de desconto](settle-partial-customer-payment-multiple-discount-periods.md)
         - [Reembolsar clientes](reimburse-customers.md)
-        - [Pagamentos de cliente de um valor parcial](customer-payments-partial-amount.md) :::column-end::: :::row-end:::
+        - [Pagamentos de cliente de um valor parcial](customer-payments-partial-amount.md)
+    :::column-end:::
+:::row-end:::
 
 
 ### <a name="additional-resources"></a>Recursos adicionais

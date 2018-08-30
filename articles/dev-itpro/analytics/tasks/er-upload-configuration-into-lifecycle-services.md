@@ -1,5 +1,5 @@
 --- 
-title: "Carregar uma configuração no Lifecycle Services para relatório eletrônico (ER)"
+title: "Carregar configurações para relatórios eletrônicos no Lifecycle Services"
 description: "As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma nova configuração do Relatório eletrônico (RE) e carregá-la ao Microsoft Lifecycle Services (LCS)."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3d9c2192bac8477e9c9376aab3e3b561da777569
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 6aa6bf7e08285d18210741ba6618878955009280
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="upload-a-configuration-into-lifecycle-services-for-electronic-reporting-er"></a>Carregar uma configuração no Lifecycle Services para relatório eletrônico (ER)
+# <a name="upload-electronic-reporting-configurations-into-lifecycle-services"></a>Carregar configurações para relatórios eletrônicos no Lifecycle Services
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -92,6 +92,6 @@ Neste exemplo, você criará e carregará uma configuração para o LCS (Lifecyc
 10. Clique em Abrir.
     * Selecione a loja de LCS e a abra.  
     * Observe que a configuração selecionada será mostrada como um ativo do projeto selecionado de LCS.  
-    * Abrir LCS usando https://lcs.dynamics.com. Abra um projeto que tenha sido usado anteriormente para registro do repositório, abra a "Biblioteca de ativo" deste projeto, e expanda o conteúdo do tipo de ativo "Configuração GER" - a configuração ER carregada estará disponível. Observe que a configuração do LCS carregada pode ser importada para outra instância do Microsoft Dynamics 365 for Finance and Operations, se os fornecedores tiverem acesso a este projeto do LCS.  
+    * Abra LCS usando https://lcs.dynamics.com. Abra um projeto que tenha sido usado anteriormente para registro do repositório, abra a "Biblioteca de ativo" deste projeto, e expanda o conteúdo do tipo de ativo "Configuração GER"! - a configuração ER carregada estará disponível. Observe que a configuração do LCS carregada pode ser importada para outra instância do Microsoft Dynamics 365 for Finance and Operations, se os fornecedores tiverem acesso a este projeto do LCS.  
 
 

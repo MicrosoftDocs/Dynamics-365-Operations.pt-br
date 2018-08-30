@@ -1,5 +1,5 @@
 ---
-title: "Designer de fórmulas no relatório eletrônico"
+title: "Designer de fórmulas no relatório eletrônico (ER)"
 description: "Este tópico explica como usar o designer de fórmulas no ER (Relatório Eletrônico)."
 author: NickSelin
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="formula-designer-in-electronic-reporting"></a>Designer de fórmulas no Relatório eletrônico
+# <a name="formula-designer-in-electronic-reporting-er"></a>Designer de fórmulas no relatório eletrônico (ER)
 
 [!include [banner](../includes/banner.md)]
 
@@ -385,7 +385,7 @@ No tempo de execução, os campos <strong>Rótulo</strong> e <strong>Descrição
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>A ilustração a seguir mostra o formato o resultado quando o formato criado é executado.</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>Com base nas configurações de idioma definidas Dos elementos de formato FILE e FOLDER pais, o texto traduzido para rótulos e descrições é inserido na saída do formato ER.</blockquote>
+<blockquote>[!NOTE] Com base nas configurações de idioma definidas Dos elementos de formato FILE e FOLDER pais, o texto traduzido para rótulos e descrições é inserido na saída do formato ER.</blockquote>
 </td>
 </tr>
 <tr>
@@ -426,7 +426,7 @@ Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor 
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>A ilustração a seguir mostra o resultado quando o formato ajustado é executado.</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>O limite não será aplicado ao último item da lista original porque o valor (11) da fonte de limite (peso) excede o limite definido (9). Use a função <strong>WHERE</strong> ou a expressão <strong>Enabled</strong> do elemento do formato correspondente para ignorar sublistas durante a geração do relatório, conforme necessário.</blockquote>
+<blockquote>[!NOTE] O limite não será aplicado ao último item da lista original porque o valor (11) da fonte de limite (peso) excede o limite definido (9). Use a função <strong>WHERE</strong> ou a expressão <strong>Enabled</strong> do elemento do formato correspondente para ignorar sublistas durante a geração do relatório, conforme necessário.</blockquote>
 </td>
 </tr>
 <tr>
@@ -456,8 +456,8 @@ Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor 
 | NUMBERVALUE (cadeia de caracteres, separador decimal, separador de grupo de dígitos) | Converte a cadeia de caracteres especificada como um número. O separador decimal especificado é usado entre o inteiro e as partes fracionárias de um número decimal. O separador de agrupamento de dígito especificado é usado como o separador de milhares. | **NUMBERVALUE("1 234,56", ",", " ")** devolve o valor **1234.56**. |
 | VALUE (cadeia de caracteres) | Converte a cadeia de caracteres especificada como um número. As vírgulas e os caracteres de ponto (.) são considerados separadores decimais, e um hífen principal (-) é usado como um sinal negativo. Lança uma exceção, se a sequência de caracteres especificada contiver outros caracteres não numéricos. | **VALUE ("1 234,56")** exibe uma exceção. |
 | ROUND (número, decimais) | Retorna o número especificado depois que ele for arredondado para o número especificado de casas decimais:<ul><li>Se o valor do parâmetro **decimais** for maior que 0 (zero), o número especificado é arredondado para muitas casas decimais.</li><li>Se o valor do parâmetro **decimals** for **0** (zero), o número especificado é arredondado para o inteiro mais próximo.</li><li>Se o valor do parâmetro **decimais** for menor do que 0 (zero), o número especificado é arredondado para a esquerda do ponto decimal.</li></ul> | **ROUND (1200.767, 2)** arredonda para duas casas decimais e devolve **1200.77**. **ROUND (1200.767, -3)** arredonda para o múltiplo mais próximo de 1.000 e devolve **1000**. |
-| ROUNDDOWN (número, decimais) | Retorna o número especificado depois que ele for arredondado para baixo para o número especificado de casas decimais.<blockquote>[!NOTE]<br>Esta função comporta-se como **ROUND**, mas sempre arredonda o número especificado para baixo (para zero).</blockquote> | **ROUNDDOWN (1200.767, 2)** arredonda para baixo duas casas decimais e devolve **1200.76**. **ROUNDDOWN (1700.767, -3)** arredonda para baixo o múltiplo mais próximo de 1.000 e devolve **1000**. |
-| ROUNDUP (número, decimais) | Retorna o número especificado depois que ele for arredondado para cima para o número especificado de casas decimais.<blockquote>[!NOTE]<br>Esta função comporta-se como **ROUND**, mas sempre arredonda o número especificado para cima (longe do zero).</blockquote> | **ROUNDUP (1200.763, 2)** arredonda para cima duas casas decimais e devolve **1200.77**. **ROUNDUP (1200.767, -3)** arredonda para cima o múltiplo mais próximo de 1.000 e devolve **2000**. |
+| ROUNDDOWN (número, decimais) | Retorna o número especificado depois que ele for arredondado para baixo para o número especificado de casas decimais.<blockquote>[!NOTE] Esta função comporta-se como **ROUND**, mas sempre arredonda o número especificado para baixo (para zero).</blockquote> | **ROUNDDOWN (1200.767, 2)** arredonda para baixo duas casas decimais e devolve **1200.76**. **ROUNDDOWN (1700.767, -3)** arredonda para baixo o múltiplo mais próximo de 1.000 e devolve **1000**. |
+| ROUNDUP (número, decimais) | Retorna o número especificado depois que ele for arredondado para cima para o número especificado de casas decimais.<blockquote>[!NOTE] Esta função comporta-se como **ROUND**, mas sempre arredonda o número especificado para cima (longe do zero).</blockquote> | **ROUNDUP (1200.763, 2)** arredonda para cima duas casas decimais e devolve **1200.77**. **ROUNDUP (1200.767, -3)** arredonda para cima o múltiplo mais próximo de 1.000 e devolve **2000**. |
 
 ### <a name="data-conversion-functions"></a>Funções de conversão de dados
 
@@ -474,8 +474,8 @@ Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor 
 
 | Função | descrição | Exemplo |
 |----------|-------------|---------|
-| NULLCONTAINER (lista) | Devolve um registro **null** com a mesma estrutura que a lista de inscrição ou o registro especificado.<blockquote>[!NOTE]<br>Esta função é obsoleta. Use **EMPTYRECORD** em seu lugar.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** devolve um novo registro vazio que tem a mesma estrutura que a lista devolvida pela função **SPLIT**. |
-| EMPTYRECORD (registro) | Devolve um registro **null** com a mesma estrutura que a lista de inscrição ou o registro especificado.<blockquote>[!NOTE]<br>Um registro **nulo** é um registro no qual todos os campos tem um valor vazio. Um valor vazio é **0** (zero) para número, uma sequência de caracteres vazia para sequência de caracteres e assim por diante.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** devolve um novo registro vazio que tem a mesma estrutura que a lista devolvida pela função **SPLIT**. |
+| NULLCONTAINER (lista) | Devolve um registro **null** com a mesma estrutura que a lista de inscrição ou o registro especificado.<blockquote>[!NOTE] Esta função é obsoleta. Use **EMPTYRECORD** em seu lugar.</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** devolve um novo registro vazio que tem a mesma estrutura que a lista devolvida pela função **SPLIT**. |
+| EMPTYRECORD (registro) | Devolve um registro **null** com a mesma estrutura que a lista de inscrição ou o registro especificado.<blockquote>[!NOTE] Um registro **nulo** é um registro no qual todos os campos tem um valor vazio. Um valor vazio é **0** (zero) para número, uma sequência de caracteres vazia para sequência de caracteres e assim por diante.</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** devolve um novo registro vazio que tem a mesma estrutura que a lista devolvida pela função **SPLIT**. |
 
 ### <a name="text-functions"></a>Funções de texto
 
@@ -522,14 +522,14 @@ Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor 
 <td>CHAR (número)</td>
 <td>Retornar a cadeia de caracteres que é referida pelo número especificado por Unicode.</td>
 <td><strong>CHAR (255)</strong> retorna <strong>&quot;ÿ&quot;</strong>.
-<blockquote>[!NOTE]<br>A sequência de caracteres que esta função retorna depende da codificação que foi selecionada no elemento do formato do ARQUIVO pai. Da lista de codificações suportadas, consulte <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Classe de codificação</a>.</blockquote>
+<blockquote>[!NOTE] A sequência de caracteres que esta função retorna depende da codificação que foi selecionada no elemento do formato do ARQUIVO pai. Da lista de codificações suportadas, consulte <a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">Classe de codificação</a>.</blockquote>
 </td>
 </tr>
 <tr>
 <td>CONCATENATE (cadeia de caracteres 1 [, cadeia de caracteres 2, …])</td>
 <td>Retorna todas as sequências de caracteres de texto depois que forem adicionadas em uma sequência de caracteres.</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong> retorna <strong>&quot;abcdef&quot;</strong>.
-<blockquote>[!NOTE]<br>A expressão <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> também retorna <strong>&quot;abcdef&quot;</strong>.</blockquote>
+<blockquote>[!NOTE] A expressão <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> também retorna <strong>&quot;abcdef&quot;</strong>.</blockquote>
 </td>
 </tr>
 <tr>
@@ -571,7 +571,7 @@ Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor 
 <p>&quot;Nada para imprimir. O cliente Litware Retail é interrompido para 17/12/2015."&quot;</p>
 <p>Se o mesmo relatório for processado para o cliente <strong>Litware Retail</strong> em 17 de dezembro de 2015, na cultura <strong>DE</strong> e no idioma <strong>DE</strong>, esta fórmula retornará o seguinte texto, que usa um formato de data diferente:</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
-<blockquote>[!NOTE]<br>A seguinte sintaxe será aplicada em fórmulas de ER para rótulos:
+<blockquote>[!NOTE] A seguinte sintaxe será aplicada em fórmulas de ER para rótulos:
 <ul>
 <li><strong>Para etiquetas de recursos do Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>, onde X é a ID da etiqueta na AOT (Árvore de Objetos de Aplicativo)</li>
 <li><strong>Para as etiquetas que residem nas configurações de ER:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, onde X é a ID da etiqueta na configuração de ER</li>
@@ -587,7 +587,7 @@ Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor 
 <tr>
 <td>NUMERALSTOTEXT (número, idioma, moeda, sinalizador imprimir nome da moeda, casas decimais)</td>
 <td>Retorna o número especificado depois que for soletrado (convertido em sequência de caracteres de texto) no idioma especificado. O código do idioma é opcional. Quando definido como uma sequência de caracteres vazia, o código do idioma do contexto em execução será utilizado. (O código do idioma para o contexto em execução é definido para uma pasta ou arquivo gerado). O código de moeda também é opcional. Quando for definido como sequência de caracteres vazia, a moeda da empresa será utilizada.
-<blockquote>[!NOTE]<br>Os parâmetros <strong>sinalizador imprimir nome da moeda</strong> e <strong>pontos decimais</strong> são analisados somente para os seguintes códigos de idioma: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> e <strong>RU</strong>. Além disso, o <strong>sinalizador imprimir nome da moeda</strong> é analisado somente para empresas do Finance and Operations nas quais o contexto de país ou região suporta declinações de nomes da moeda.</blockquote>
+<blockquote>[!NOTE] Os parâmetros <strong>sinalizador imprimir nome da moeda</strong> e <strong>pontos decimais</strong> são analisados somente para os seguintes códigos de idioma: <strong>CS</strong>, <strong>ET</strong>, <strong>HU</strong>, <strong>LT</strong>, <strong>LV</strong>, <strong>PL</strong> e <strong>RU</strong>. Além disso, o <strong>sinalizador imprimir nome da moeda</strong> é analisado somente para empresas do Finance and Operations nas quais o contexto de país ou região suporta declinações de nomes da moeda.</blockquote>
 </td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> retorna <strong>&quot;Mil duzentos e trinta e quatro e 56&quot;</strong>. <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> retorna <strong>&quot;Sto dwadzieścia&quot;</strong>. <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> retorna <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>.</td>
 </tr>
@@ -656,10 +656,10 @@ Quando essas fontes de dados forem definidas, você pode usar uma expressão com
 | Função | descrição | Exemplo |
 |----------|-------------|---------|
 | CONVERTCURRENCY (valor, moeda de origem, moeda de destino, data, empresa) | Converte o valor monetário especificado da moeda de origem especificada para a moeda de destino especificada usando as configurações da empresa especificada do Finance and Operations na data especificada. | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** retorna equivalentes do euro em dólares norte-americanos na data da sessão atual, com base nas configurações da empresa de DEMF. |
-| ROUNDAMOUNT (número, decimais, regra de arredondamento) | Arredonda o valor especificado para o número especificado de casas decimais, de acordo com a regra de arredondamento especificada.<blockquote>[!NOTE]<br>A regra de arredondamento deve ser especificada como um valor de enumeração **RoundOffType** do Finance and Operations.</blockquote> | Se o parâmetro **model.RoundOff** for definido como **Para baixo**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** retorna o valor **1000.78**. Se o parâmetro **model.RoundOff** é definido para **Normal** ou **Arredondar para cima**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** devolve o valor **1000.79**. |
+| ROUNDAMOUNT (número, decimais, regra de arredondamento) | Arredonda o valor especificado para o número especificado de casas decimais, de acordo com a regra de arredondamento especificada.<blockquote>[!NOTE] A regra de arredondamento deve ser especificada como um valor de enumeração **RoundOffType** do Finance and Operations.</blockquote> | Se o parâmetro **model.RoundOff** for definido como **Para baixo**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** retorna o valor **1000.78**. Se o parâmetro **model.RoundOff** é definido para **Normal** ou **Arredondar para cima**, **ROUNDAMOUNT (1000.787, 2, model.RoundOff)** devolve o valor **1000.79**. |
 | CURCredRef (dígitos) | Devolve uma referência do credor, com base nos dígitos do número da nota fiscal especificada. | **CURCredRef ("VEND-200002")** retorna **"2200002"**. |
 | MOD\_97 (digits) | Devolve uma referência do credor como uma expressão de MOD97, com base nos dígitos do número da nota fiscal especificada. | **MOD\_97 ("VEND-200002")** retorna **"20000285"**. |
-| ISOCredRef (dígitos) | Retorna uma referência do credor de ISO (Organização Internacional de Normalização), com base nos dígitos e símbolos alfabéticos do número da fatura especificada.<blockquote>[!NOTE]<br>Para eliminar símbolos de alfabetos que não são compatíveis com ISO, o parâmetro de entrada deve ser traduzido antes de ser passado para esta função.</blockquote> | **ISOCredRef ("VEND-200002")** retorna **"RF23VEND-200002"**. |
+| ISOCredRef (dígitos) | Retorna uma referência do credor de ISO (Organização Internacional de Normalização), com base nos dígitos e símbolos alfabéticos do número da fatura especificada.<blockquote>[!NOTE] Para eliminar símbolos de alfabetos que não são compatíveis com ISO, o parâmetro de entrada deve ser traduzido antes de ser passado para esta função.</blockquote> | **ISOCredRef ("VEND-200002")** retorna **"RF23VEND-200002"**. |
 | CN\_GBT\_AdditionalDimensionID (cadeia de caracteres, número) | Obtenha a ID da dimensão financeira adicional especificada. No parâmetro **string**, as dimensões são representadas como IDs que são separadas por vírgulas. O parâmetro **number** define o código de sequência da dimensão solicitada na sequência de caracteres. | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** retorna **"CC"**. |
 | GetCurrentCompany () | Retorna a representação de texto do código para a entidade legal (empresa) à qual um usuário está conectado no momento. | **GETCURRENTCOMPANY ()** retorna **USMF** para um usuário que está conectado à empresa **Contoso Entertainment System USA** no Finance and Operations. |
 | CH\_BANK\_MOD\_10 (dígitos) | Retorna uma referência do credor como uma expressão MOD10, com base nos dígitos do número da fatura especificada. | **CH\_BANK\_MOD\_10 ("VEND-200002")** retorna **3**. |

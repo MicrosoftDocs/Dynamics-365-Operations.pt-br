@@ -1,5 +1,5 @@
 ---
-title: O delimitador do plano de contas deve ser exclusivo
+title: Tornar o delimitador do plano de contas exclusivo
 description: "No Dynamics 365 for Finance and Operations, você não pode ter o mesmo delimitador para o plano de contas e para os valores de dimensão. Você deve alterar os valores do delimitador após a atualização."
 author: ryansandness
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 265364
 ms.assetid: c61391e4-c4bf-4f09-bd18-8107a1bf055e
@@ -18,14 +18,14 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c9728714944b54f3bff1e2a8b43c7adcf5200f08
+ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
+ms.openlocfilehash: e197a1b44e038a97b8bf6db692dcc2eef2bc5f7b
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="chart-of-accounts-delimiter-must-be-unique"></a>O delimitador do plano de contas deve ser exclusivo
+# <a name="make-the-chart-of-accounts-delimiter-unique"></a>Tornar o delimitador do plano de contas exclusivo
 
 [!include [banner](../includes/banner.md)]
 

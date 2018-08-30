@@ -1,9 +1,9 @@
 ---
-title: "Implantação local"
+title: "Home page da implantações locais"
 description: "Este tópico fornece informações e vincula a conteúdo sobre implantações locais."
 author: kfend
 manager: AnnBe
-ms.date: 03/15/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,13 +18,13 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fa43f6683d43dfb62e8dc2c194ff2b82fe629fe3
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: aba11ae99393eb0d8c3e1df2276faa95ad831d29
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="on-premises-deployment-home-page"></a>Home page da implantação local
+# <a name="on-premises-deployments-home-page"></a>Home page da implantações locais
 
 [!include [banner](../includes/banner.md)]
 
@@ -61,6 +61,6 @@ Você pode implantar o Microsoft Dynamics 365 for Finance and Operations (local)
 - [Solucionar problemas do Dynamics 365 for Finance and Operations local](troubleshoot-on-prem.md)
 - [Recursos não implementados em implantações locais](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [Recursos preteridos](../migration-upgrade/deprecated-features.md)
-- [Política de ciclo de vida de software e lista de lançamentos](../migration-upgrade/versions-update-policy.md)
+- [Política de ciclo de vida do software e versões locais](../migration-upgrade/on-prem-version-update-policy.md)
  
 

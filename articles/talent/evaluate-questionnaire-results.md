@@ -1,5 +1,5 @@
 ---
-title: "Exibir e avaliar os resultados de um questionário"
+title: "Exibir e avaliar os resultados dos questionários"
 description: "Este tópico explica como você pode exibir e avaliar os resultados dos questionários que os entrevistados concluem."
 author: kherr75
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f87238b3b2f6e7cc68bf2f1a7cd3a21254f3599a
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 9fd4af5589cfab2a92c913639f1192029eb7c592
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>Exibir e avaliar os resultados de um questionário
+# <a name="view-and-evaluate-the-results-of-questionnaires"></a>Exibir e avaliar os resultados dos questionários
 
 [!include [banner](includes/banner.md)]
 

@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
 ms.openlocfilehash: 1a598d0bd053c60c3f8df6b05ecb7ff15addfaa3
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2018
 Você pode rastrear os resultados dos formatos de ER que geram documentos eletrônicos de saída. Quando a geração de rastreamento estiver ativada (parâmetro do usuário do ER **Executar em modo de depuração**), um novo registro de rastreamento será gerado no log de execução do formato de ER, cada vez que um relatório de ER for executado. Os seguintes detalhes serão armazenados em cada rastreamento gerado:
 
 - Todos os avisos gerados pelas regras de validação
-- Todos os erros gerados pelas regras de validação 
+- Todos os erros gerados pelas regras de validação
 - Todos os arquivos gerados que são armazenados como anexos do registro de rastreamento
 
 Você pode armazenar arquivos de aplicativo de linhas de base individuais para qualquer formato de ER. Os arquivos são considerados de linha de base quando descrevem os resultados esperados dos relatórios que estão em execução. Se um arquivo de linha de base estiver disponível para um formato ER que foi executado enquanto a geração de rastreamento estava ativada, o rastreamento armazena, além dos detalhes que foram mencionados anteriormente, o resultado da comparação do documento eletrônico gerado para o arquivo da linha de base. Em um clique, você também pode obter o documento eletrônico gerado e seu arquivo de linha de base em um arquivo zip único. Em seguida, você pode efetuar comparação detalhada usando uma ferramenta externa, como por exemplo, Windiff.

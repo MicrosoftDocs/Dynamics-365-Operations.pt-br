@@ -1,5 +1,5 @@
 ---
-title: "Visão geral de ordens de cliente"
+title: Ordens de cliente no Retail Modern POS (MPOS)
 description: "Este tópico fornece informações sobre ordens de cliente no Retail Modern POS (MPOS). Ordens de cliente também são conhecidas como ordens especiais O tópico inclui uma discussão sobre parâmetros relacionados e fluxos de transação."
 author: josaw1
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f46cf7d4df4a8cb0ad1846882292965aa492239b
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 8025df4f8498efa867f71892b253f71631b731c7
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="customer-orders-overview"></a>Visão geral de ordens de cliente
+# <a name="customer-orders-in-retail-modern-pos-mpos"></a>Ordens de cliente no Retail Modern POS (MPOS)
 
 [!include [banner](includes/banner.md)]
 

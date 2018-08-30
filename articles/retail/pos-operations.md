@@ -1,5 +1,5 @@
 ---
-title: "Operações de PDV, online e offline"
+title: "Operações de ponto de venda (PDV) online e offline"
 description: "Este tópico fornece detalhes sobre as operações de ponto de venda (POS) no Microsoft Dynamics 365 for Retail. Ele especifica em que ponto do aplicativo as operações podem ser invocadas, e se estão disponíveis no modo offline."
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 58653d6e991f1896673a07e3057bd516c74edd76
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="pos-operations-online-and-offline"></a>Operações de PDV, online e offline
+# <a name="online-and-offline-point-of-sale-pos-operations"></a>Operações de ponto de venda (PDV) online e offline
 
 [!include [banner](includes/banner.md)]
 

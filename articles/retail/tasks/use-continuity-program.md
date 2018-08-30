@@ -1,5 +1,5 @@
 --- 
-title: Usar um programa de continuidade
+title: Venda de programas de continuidade e processamento de ordens de venda relacionadas
 description: "Este procedimento aborda a venda de um programa de continuidade e o processamento relacionados às ordens de venda."
 author: scott-tucker
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: d2642d922fc1fa03644be8195a8c9dd3edfc3483
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 5fe1823c9b684bbc5ac5bd0871cc5c0a0e6ce678
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="use-a-continuity-program"></a>Usar um programa de continuidade
+# <a name="selling-continuity-programs-and-processing-related-sales-orders"></a>Venda de programas de continuidade e processamento de ordens de venda relacionadas
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

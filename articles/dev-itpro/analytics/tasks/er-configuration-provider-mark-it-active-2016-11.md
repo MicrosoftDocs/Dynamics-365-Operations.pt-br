@@ -1,5 +1,5 @@
 --- 
-title: "Criar um provedor de configuração e marcá-lo como ativo para relatórios eletrônicos (ER)"
+title: "Criar provedores de configuração e marcá-los como ativos"
 description: "As etapas a seguir explicam como um usuário atribuído ao Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de fornecedor para Relatório eletrônico (RE)."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 018aee917c13f576759ebd812d31cbc9d83e2d1a
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 37957f224cb57fd9f6c5014740bcea124a99a03a
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>Criar um provedor de configuração e marcá-lo como ativo para relatórios eletrônicos (ER)
+# <a name="create-configuration-providers-and-mark-them-as-active"></a>Criar provedores de configuração e marcá-los como ativos
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

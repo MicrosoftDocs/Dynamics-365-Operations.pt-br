@@ -1,5 +1,5 @@
 --- 
-title: "Criar um modelo de dados de domínio específico para relatório eletrônico (ER)"
+title: "Projetar modelos de dados de domínio específico"
 description: "As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma nova configuração de Relatório Eletrônico (RE) que contem um modelo de dados para os documentos de pagamento eletrônico."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: fadc5bc54654faf9e91e0831bdd0ff087cea3164
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: c59bdea789c4eafd2443a5d1cf802768259858c6
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="design-a-domain-specific-data-model-for-electronic-reporting-er"></a>Criar um modelo de dados de domínio específico para relatório eletrônico (ER)
+# <a name="design-domain-specific-data-models"></a>Projetar modelos de dados de domínio específico
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

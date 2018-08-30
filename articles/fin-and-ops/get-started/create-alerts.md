@@ -1,5 +1,5 @@
 ---
-title: Criar alertas
+title: Criar regras de alerta
 description: "Este tópico fornece informações sobre os alertas e explica como criar uma regra de alerta para que você seja notificado sobre eventos, como uma data do evento ou uma alteração específica que ocorra."
 author: tjvass
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 5bcd02e08a4ce5b601615b39bf95362cf92d3fec
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 78e1e6f7be04e1d4fecae080cbd4a285358590fb
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="create-alerts"></a>Criar alertas
+# <a name="create-alert-rules"></a>Criar regras de alerta
 
 [!include [banner](../includes/banner.md)]
 

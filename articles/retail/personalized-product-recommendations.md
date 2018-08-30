@@ -1,5 +1,5 @@
 ---
-title: "Visão geral de recomendações de produtos personalizados"
+title: "Recomendações personalizadas de produtos"
 description: "Este tópico contém informações sobre recomendações de produtos do Dynamics 365 for Retail que podem ser exibidas no dispositivo de ponto de venda (POS)."
 author: ashishmsft
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 006ea02d4fb10092fed82516f1d17d0da750c6a1
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 368468a1c1cd023862f1405dddf3a90574edce22
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="personalized-product-recommendations-overview"></a>Visão geral de recomendações de produtos personalizados
+# <a name="personalized-product-recommendations"></a>Recomendações personalizadas de produtos
 
 [!include [banner](includes/banner.md)]
 

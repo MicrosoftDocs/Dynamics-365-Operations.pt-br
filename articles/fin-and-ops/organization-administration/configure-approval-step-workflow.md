@@ -1,5 +1,5 @@
 ---
-title: "Configurar uma etapa de aprovação em um fluxo de trabalho"
+title: "Configurar etapas de aprovação em um fluxo de trabalho"
 description: "Este tópico explica como configurar as propriedades de uma etapa de aprovação."
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d2fc157b54401463bbabf1e3f6d5dddc6bda9631
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 813866d63f38f5865666bad96f6f3590716a93ad
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="configure-an-approval-step-in-a-workflow"></a>Configurar uma etapa de aprovação em um fluxo de trabalho
+# <a name="configure-approval-steps-in-a-workflow"></a>Configurar etapas de aprovação em um fluxo de trabalho
 
 [!include [banner](../includes/banner.md)]
 

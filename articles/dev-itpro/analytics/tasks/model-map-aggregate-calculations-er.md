@@ -1,5 +1,5 @@
 --- 
-title: "Use uma configuração de mapeamento de modelo para cálculos agregados no nível do banco de dados (ER)"
+title: "Usar configurações de mapeamento de modelo para cálculos agregados no nível do banco de dados"
 description: "Este procedimento fornece informações sobre como criar uma nova configuração de mapeamento de modelo de Relatório eletrônico (ER) e usar funções de ER internas para obter cálculos agregados eficientes."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 869a23b992f1d6dccf9327b66b3e4d611728efce
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: a462a3997644a494b5cea89c9530ddba67c32450
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="use-a-model-mapping-configuration-for-aggregate-calculations-at-the-database-leveler"></a>Use uma configuração de mapeamento de modelo para cálculos agregados no nível do banco de dados (ER) 
+# <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>Usar configurações de mapeamento de modelo para cálculos agregados no nível do banco de dados
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

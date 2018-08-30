@@ -1,5 +1,5 @@
 --- 
-title: "Regras de preços de categoria para criar contratos comerciais"
+title: "Criar contratos comerciais usando regras de definição de preços de categoria"
 description: "Este procedimento mostra como criar contratos comerciais de preço de vendas usando uma regra de definição de preços de categoria."
 author: scott-tucker
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 133ca34a0e85454dc40d4e1d36fbe8278019c7e4
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 20393f80c8f4aa12e3103cb7df214367aa35ab16
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="category-pricing-rules-to-create-trade-agreements"></a>Regras de preços de categoria para criar contratos comerciais
+# <a name="create-trade-agreements-by-using-category-pricing-rules"></a>Criar contratos comerciais usando regras de definição de preços de categoria
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

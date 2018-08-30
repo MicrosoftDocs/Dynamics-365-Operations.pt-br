@@ -13,7 +13,7 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: v-gonode
-ms.search.validfrom: 2017-06-30
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
 ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a

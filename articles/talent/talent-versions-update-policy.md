@@ -1,5 +1,5 @@
 ---
-title: "Requisitos do sistema e política de atualização do Dynamics 365 for Talent"
+title: "Requisitos do sistema e política de atualização do Talent"
 description: "Este tópico lista os requisitos para o Dynamics 365 for Talent. A política de atualização também está descrita."
 author: rschloma
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 954f6237739defe14aaa13b19641f9f9d27b5fac
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 85318332b802aace7d705289e6a298b49799b847
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
-# <a name="microsoft-dynamics-365-for-talent-system-requirements-and-update-policy"></a>Requisitos do sistema e política de atualização do Microsoft Dynamics 365 for Talent
+# <a name="talent-system-requirements-and-update-policy"></a>Requisitos do sistema e política de atualização do Talent
 
 [!include [banner](includes/banner.md)]
 

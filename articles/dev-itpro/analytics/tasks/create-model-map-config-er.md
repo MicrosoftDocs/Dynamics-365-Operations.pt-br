@@ -1,5 +1,5 @@
 --- 
-title: "Criar uma configuração de mapeamento de modelo (ER)"
+title: "Gerenciar configurações de mapeamentos de modelo para relatórios eletrônicos (ER)"
 description: "Use este procedimento para criar uma nova configuração de mapeamento de modelo de Relatório eletrônico (ER) e usar funções de ER internas para obter cálculos agregados eficientes."
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: f7206126bfa6150078f1bfb4f7e07c1cf2819ce0
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 614ef06fcf5761f1cf2afb6e7655558d2858d763
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/09/2018
 
 ---
-# <a name="create-a-model-mapping-configuration-er"></a>Criar uma configuração de mapeamento de modelo (ER)
+# <a name="create-electronic-reporting-er-model-mapping-configurations"></a>Gerenciar configurações de mapeamentos de modelo para relatórios eletrônicos (ER)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
