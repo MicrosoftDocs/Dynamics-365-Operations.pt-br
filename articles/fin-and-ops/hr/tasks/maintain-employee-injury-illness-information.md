@@ -3,23 +3,24 @@ title: "Manter informações de ferimentos e doenças de funcionários"
 description: "É recomendável concluir a primeira guia de tarefas 'Configuração de lesões e doenças', pois algumas informações de configuração são usadas aqui."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 02/16/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HRMInjuryIncident, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9c2b7e14659bd4cb744c3818df1ab39990c6dc6e
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 6f16a54f243623607ed46899173f4c6ddc604c82
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a><span data-ttu-id="76285-103">Manter informações de ferimentos e doenças de funcionários</span><span class="sxs-lookup"><span data-stu-id="76285-103">Maintain employee injury and illness information</span></span>

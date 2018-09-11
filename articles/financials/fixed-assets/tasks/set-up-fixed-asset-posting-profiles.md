@@ -3,23 +3,24 @@ title: "Configurar perfis de lançamento de ativos fixos"
 description: "Este guia de tarefa definirá os perfis de postagem de ativo fixo."
 author: saraschi2
 manager: AnnBe
-ms.date: 02/24/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetPosting
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: dd4c2d67188b6c2c34f9046a6388de292d6c291e
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: b00ad7f8dc77eb80e0ed322c1e09624398cfc4d5
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a><span data-ttu-id="45c0c-103">Configurar perfis de lançamento de ativos fixos</span><span class="sxs-lookup"><span data-stu-id="45c0c-103">Set up fixed asset posting profiles</span></span>

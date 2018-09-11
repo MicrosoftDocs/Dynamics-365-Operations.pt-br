@@ -3,23 +3,24 @@ title: Criar uma ordem de compra a partir de uma ordem de venda
 description: "Este procedimento mostra como criar uma ordem de compra que é baseada em uma ordem de venda."
 author: omulvad
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3774943e7147df88be0133c6fc983df54ca70f35
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: ca2bd03b6bd8e59fb278ba25239519b535cc8bec
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a><span data-ttu-id="f8407-103">Criar uma ordem de compra a partir de uma ordem de venda</span><span class="sxs-lookup"><span data-stu-id="f8407-103">Create a purchase order from a sales order</span></span>

@@ -3,23 +3,24 @@ title: "Propor aquisições de ativo fixo"
 description: "Este procedimento mostra como adquirir um ativo fixo usando a proposta de aquisição no Diário de ativos fixos."
 author: saraschi2
 manager: AnnBe
-ms.date: 02/23/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 4aee06918935bdbf7e684f669be55c590c4783ae
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 34638f9dc88eb3850f659e4b9741d02418213112
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="propose-fixed-asset-acquisitions"></a><span data-ttu-id="1eaa5-103">Propor aquisições de ativo fixo</span><span class="sxs-lookup"><span data-stu-id="1eaa5-103">Propose fixed asset acquisitions</span></span>

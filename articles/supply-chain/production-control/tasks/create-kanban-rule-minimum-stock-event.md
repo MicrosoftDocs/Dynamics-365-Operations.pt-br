@@ -3,24 +3,25 @@ title: "Criar uma regra kanban usando um evento de estoque mínimo"
 description: "Este procedimento é centrado sobre a instalação necessária para criar uma regra kanban usando um evento do estoque mínimo para assegurar-se de que um produto específico esteja sempre disponível em um lugar específico."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 08/24/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KanbanRules, LeanProductionFlowActivityLookup, InventItemIdLookupSimple, EcoResProductInformationDialog, EcoResProductDetailsExtended, ReqItemTable, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 97975a07d7f0a64a98595cf5dc7c8f572ded9a4d
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: b325f659ea026797205cde8408c2fb3de27bb48d
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="7119e-103">Criar uma regra kanban usando um evento de estoque mínimo</span><span class="sxs-lookup"><span data-stu-id="7119e-103">Create a kanban rule using a minimum stock event</span></span>

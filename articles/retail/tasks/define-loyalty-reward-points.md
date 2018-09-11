@@ -3,29 +3,30 @@ title: "Definir pontos de premiação de fidelidade"
 description: "Este procedimento orienta na definição de pontos de recompensa de fidelidade."
 author: scott-tucker
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailLoyaltyRewardPoints
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 07fa9b2afd40305fc95e8c49428c5b1ccb177f1d
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: a159d6699a02a5854f81963e71735582044892d5
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="define-loyalty-reward-points"></a><span data-ttu-id="aef6f-103">Definir pontos de premiação de fidelidade</span><span class="sxs-lookup"><span data-stu-id="aef6f-103">Define loyalty reward points</span></span>
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="aef6f-104">Este procedimento orienta na definição de pontos de recompensa de fidelidade.</span><span class="sxs-lookup"><span data-stu-id="aef6f-104">This procedure walks through defining loyalty reward points.</span></span> <span data-ttu-id="aef6f-105">Você deve definir pontos de recompensa de fidelidade antes de configurar um programa de fidelidade.</span><span class="sxs-lookup"><span data-stu-id="aef6f-105">You should set up loyalty reward points before you set up a loyalty program.</span></span> <span data-ttu-id="aef6f-106">Este procedimento usa a empresa de dados de demonstração USRT.</span><span class="sxs-lookup"><span data-stu-id="aef6f-106">This procedure uses the USRT demo data company.</span></span>
 

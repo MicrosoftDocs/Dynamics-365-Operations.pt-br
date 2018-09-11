@@ -3,24 +3,25 @@ title: "Copiar coprodutos de uma versão de fórmula existente"
 description: "Este procedimento mostra como copiar coprodutos de uma versão de fórmula existente para uma versão da fórmula diferente para um produto liberado."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/06/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EcoResProductDetailsExtended, BOMConsistOf, PmfFormulaCoBy, BOMRouteCopyDialog
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: a3620fe90826360616793962acb86b0aab7cefe5
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 91212851a011536f17acef57e842587be1934e3e
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a><span data-ttu-id="f533d-103">Copiar coprodutos de uma versão de fórmula existente</span><span class="sxs-lookup"><span data-stu-id="f533d-103">Copy co-products from an existing formula version</span></span>
