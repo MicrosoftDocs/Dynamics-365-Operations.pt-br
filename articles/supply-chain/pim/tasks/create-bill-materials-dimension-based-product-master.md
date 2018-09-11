@@ -3,23 +3,24 @@ title: "Criar uma lista de materiais para um produto mestre baseado na dimensão
 description: "Para esse procedimento é necessário ter concluído as 4 guias anteriores nesta sequência de oito registros."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, BOMConsistOf, BOMTable, InventItemIdLookupSimple, HcmWorkerLookUp
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8b5432addd1dd79a64dcbb751a59cf3084a63ab1
-ms.openlocfilehash: 05837c2b21957133729074f614a6d3d7b7c08dad
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 4f9f9473d0872d68571b87409b93e0cf5455364c
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>Criar uma lista de materiais para um produto mestre baseado na dimensão
@@ -68,7 +69,7 @@ Para esse procedimento é necessário ter concluído as 4 guias anteriores nesta
 19. No campo Número do item, insira ou selecione um valor.
     * Selecione o número do item M0007 StandardCabinet como a linha BOM da última vez.  
 20. No campo Grupo de configuração, insira ou selecione um valor.
-    * Selecione o Grupo de configuração do gabinete para a última linha de BOM.  
+    * Selecione o grupo de configuração do gabinete para esta última linha BOM.  
 
 ## <a name="approve-and-activate"></a>Aprovar e ativar
 1. Feche a página.

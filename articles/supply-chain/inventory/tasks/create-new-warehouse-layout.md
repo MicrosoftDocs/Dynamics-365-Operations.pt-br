@@ -1,21 +1,22 @@
----
+--- 
 title: "Criar um novo layout de depósito"
 description: "Este procedimento mostra como configurar informações sobre as localizações de um depósito."
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 253440d81edd6f71b52ae349398e3c6a895bf05c
@@ -49,7 +50,7 @@ Este procedimento mostra como configurar informações sobre as localizações d
 7. Alternar a expansão da seção Nomes de local.
     * As opções nesta seção definem o formato padrão para nomes da localização. Em nosso exemplo, incluiremos o número do corredor, o número do rack e o número da prateleira.  
 8. Definir a opção do corredor para Sim.
-9. Definir a opção do rack para Sim.
+9. Definir a opção do rack para Sim. 
 10. No campo Formato, digite o valor para o rack.
     * Por exemplo: -##  
 11. Definir a opção Incluir prateleira como Sim.
@@ -74,4 +75,5 @@ Este procedimento mostra como configurar informações sobre as localizações d
 14. Clique em Finish (Concluir).
 15. Feche a página.
 16. Atualize a página.
+
 
