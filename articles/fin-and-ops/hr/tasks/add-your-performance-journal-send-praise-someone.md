@@ -3,7 +3,7 @@ title: "Adicionar ao seu diário de desempenho e enviar elogio a alguém"
 description: "O diário de desempenho retém informações que se refere como você tiver encontrado as metas ou como você executou durante um período."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

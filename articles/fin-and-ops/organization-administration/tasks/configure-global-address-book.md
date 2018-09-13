@@ -3,7 +3,7 @@ title: "Configurar o catálogo de endereços global"
 description: "Use este procedimento para definir os valores padrão e as políticas de segurança para o catálogo de endereços global."
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Criar uma entidade legal
 description: "Uma entidade legal é uma organização que é identificada através de um registro com uma autoridade legal."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

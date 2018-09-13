@@ -3,7 +3,7 @@ title: "Criar uma avaliação de desempenho"
 description: "Este procedimento mostra como criar uma previsão dos resultados e descreve a finalidade de cada seção de revisão."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
