@@ -3,7 +3,7 @@ title: "Configurar sequências numéricas usando um assistente"
 description: "Sequências numéricas são usadas para gerar identificadores exclusivos e legíveis para registros de dados mestres e registros de transações que os exigirem."
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 1aaea94678e9ddfa771c21063f53aefa172b5e97
+ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
+ms.openlocfilehash: 1808ab9240ab291f9d203893a634bd390f16e2e7
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 # <a name="set-up-number-sequences-by-using-a-wizard"></a><span data-ttu-id="57448-103">Configurar sequências numéricas usando um assistente</span><span class="sxs-lookup"><span data-stu-id="57448-103">Set up number sequences by using a wizard</span></span>
