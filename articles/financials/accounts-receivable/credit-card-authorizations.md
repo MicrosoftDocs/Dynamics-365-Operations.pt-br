@@ -44,11 +44,13 @@ Para usar cartões de crédito, você deve configurar e ativar um serviço de pa
 
 ## <a name="adding-a-new-credit-card"></a>Adição de um novo cartão de crédito
 Você pode criar novos registros de cartão de crédito na página Clientes usando Cliente, Configurar, Cartão de crédito. Você também pode criar registros de cartão de crédito quando inserir ordens de venda na página Ordem de venda usando Gerenciar, Cliente, Cartão de crédito, Registro.
-Adição de um cartão de crédito a uma ordem de venda
+
+<a name="adding-a-credit-card-to-a-sales-order"></a>Adição de um cartão de crédito a uma ordem de venda
 -------------------------------------
 
 Você pode adicionar um cartão de crédito a uma ordem de venda selecionando um cartão de crédito na pesquisa de cartão de crédito da Guia Rápida Preço e descontos na página Ordem de venda. Para iniciar o processo de autorização, no Painel de Ação, na guia Gerenciar, selecione Cartão de crédito e Autorizar.
-Autorização de um cartão de crédito
+
+<a name="authorizing-a-credit-card"></a>Autorização de um cartão de crédito
 -------------------------
 
 Quando um cartão de crédito é autorizado, o número do cartão e o nome do titular são verificados, e a linha de crédito disponível é confirmada. Opcionalmente, o valor de verificação do cartão e o endereço do titular do cartão são verificados. A linha de crédito disponível do cliente é, então, reduzida pelo valor da fatura. O serviço de pagamento envia a informação de que o cartão de crédito foi aprovado ou rejeitado. Quando a ordem de venda é faturada, o cartão é cobrado (capturado) pelo valor da fatura.
