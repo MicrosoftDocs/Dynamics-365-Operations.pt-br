@@ -3,7 +3,7 @@ title: "Estabelecer condições de pagamento de cliente"
 description: "Este procedimento define uma configuração de desconto à vista e a data de vencimento."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

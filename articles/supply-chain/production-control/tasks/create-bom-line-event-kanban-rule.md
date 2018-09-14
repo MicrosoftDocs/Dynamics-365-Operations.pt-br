@@ -3,7 +3,7 @@ title: Criar uma regra kanban de evento da linha BOM
 description: "Essa tarefa se concentra na configuração necessária para criar uma regra kanban de evento e garantir a fonte para linhas BOM de produção em um ambiente de produção lean e clássico misturado."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Identificar e solucionar conflitos na diferenciação de direitos"
 description: "Você pode definir regras para separar tarefas que devem ser executadas por usuários diferentes."
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

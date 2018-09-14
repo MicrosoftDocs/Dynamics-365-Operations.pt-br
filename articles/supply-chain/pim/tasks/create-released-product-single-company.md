@@ -3,7 +3,7 @@ title: "Criar um produto lançado para uma única empresa"
 description: "Este procedimento demonstra como criar um único produto lançado no contexto de uma unidade legal única."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

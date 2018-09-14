@@ -3,7 +3,7 @@ title: "Criar e atribuir estruturas de regras avançadas"
 description: "Este guia de tarefas aborda a criação e atribuição de uma estrutura de regra avançada a uma estrutura de conta."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

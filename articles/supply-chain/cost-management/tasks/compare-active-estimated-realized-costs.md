@@ -3,7 +3,7 @@ title: "Comparar custos ativos, estimados e realizados em uma ordem de produçã
 description: "Este procedimento mostra como exibir motivos para a variação alta de produção de uma ordem de produção."
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

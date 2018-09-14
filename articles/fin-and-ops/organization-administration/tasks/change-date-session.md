@@ -3,7 +3,7 @@ title: "Alterar a data da sessão"
 description: "Por padrão, a data atual é usada ao inserir e lançar entradas do diário ou documentos de origem."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

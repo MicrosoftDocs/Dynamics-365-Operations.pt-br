@@ -3,7 +3,7 @@ title: Reverter status do trabalho kanban
 description: Esse procedimento se concentra em reverter um status incorreto do trabalho kanban.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

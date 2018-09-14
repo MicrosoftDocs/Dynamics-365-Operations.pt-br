@@ -3,7 +3,7 @@ title: "Identificar e implantar ferramentas de seleção de candidato"
 description: "Localizar um grupo de candidatos qualificado para preencher vagas pode ser difícil, principalmente quando uma posição requer um conjunto exclusivo de habilidades."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Configurar um formato da guia de pagamento para faturas de projeto
 description: "Geralmente, as empresas anexam guias de pagamento impressas a faturas para ajudar os clientes e fornecer uma referência de pagamento para lançamento e liquidação."
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

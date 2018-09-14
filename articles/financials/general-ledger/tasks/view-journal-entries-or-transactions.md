@@ -3,7 +3,7 @@ title: "Exibir entradas de diário ou transações"
 description: "Este procedimento mostra como usar a consulta das transações de comprovante para pesquisar por entradas de diário ou transações."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

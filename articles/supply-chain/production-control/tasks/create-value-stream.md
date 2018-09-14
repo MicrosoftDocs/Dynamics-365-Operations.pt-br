@@ -3,7 +3,7 @@ title: Criar um fluxo de valor
 description: "Fluxos de produção são unidades operacionais que agrupam um ou vários fluxos de produção."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

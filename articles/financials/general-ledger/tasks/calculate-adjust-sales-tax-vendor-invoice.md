@@ -3,7 +3,7 @@ title: Calcular e ajustar imposto na fatura do fornecedor
 description: "Se o documento de origem exibir valores de imposto diferentes como calculados, você pode ajustar os valores antes do lançamento."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

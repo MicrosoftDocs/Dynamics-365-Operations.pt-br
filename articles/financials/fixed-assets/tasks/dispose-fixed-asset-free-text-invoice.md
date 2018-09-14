@@ -3,7 +3,7 @@ title: Descartar um ativo fixo usando uma fatura de texto livre
 description: "Este procedimento mostra como adquirir um ativo fixo usando a proposta de aquisição no Diário de ativos fixos."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

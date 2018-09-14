@@ -3,7 +3,7 @@ title: "Exibir transações de imposto lançadas"
 description: "Você pode exibir transações de impostos sobre vendas de várias páginas dependendo do que você precisa exibir."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Regras de preços de categoria para criar contratos comerciais"
 description: "Este procedimento mostra como criar contratos comerciais de preço de vendas usando uma regra de definição de preços de categoria."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

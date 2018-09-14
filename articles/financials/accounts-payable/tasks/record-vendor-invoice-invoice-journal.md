@@ -3,7 +3,7 @@ title: "Registrar uma fatura de fornecedor no diário de faturas"
 description: "Este guia de tarefa mostrará como registrar as notas fiscais de fornecedor que não estão associadas às ordens de compra."
 author: abruer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

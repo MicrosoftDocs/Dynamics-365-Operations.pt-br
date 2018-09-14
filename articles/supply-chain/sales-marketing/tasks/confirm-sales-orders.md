@@ -3,7 +3,7 @@ title: Confirmar ordens de venda
 description: Este procedimento demonstra como confirmar ordens de venda.
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

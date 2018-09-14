@@ -3,7 +3,7 @@ title: "Criar tipos de solicitação e critérios de avaliação para RFQs"
 description: "Este guia mostra como criar um tipo da solicitação e associar esse tipo com um método de avaliação."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

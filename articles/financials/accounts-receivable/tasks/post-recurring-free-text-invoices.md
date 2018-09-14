@@ -3,7 +3,7 @@ title: "Gerar e lançar faturas de texto livre recorrentes"
 description: "Faturas recorrentes são usadas para faturar clientes regularmente com o mesmo valor."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

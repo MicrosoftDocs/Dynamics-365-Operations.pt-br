@@ -3,7 +3,7 @@ title: "Receber itens na ordem de compra da requisição de itens"
 description: "Este procedimento mostra como receber itens em uma ordem de compra de uma requisição de itens."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

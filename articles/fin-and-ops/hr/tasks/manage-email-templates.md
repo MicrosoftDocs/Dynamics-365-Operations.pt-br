@@ -3,7 +3,7 @@ title: Gerenciar modelos de email
 description: "Você pode transferir informações de base de dados da sua organização para indicadores em um novo documento e usá-las em modelos que o ajudam a eficientemente se comunicar com os candidatos."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

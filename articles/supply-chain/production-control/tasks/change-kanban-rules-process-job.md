@@ -3,7 +3,7 @@ title: Alterar regras kanban para um trabalho de processamento
 description: "Esse procedimento se concentra em alterar a regra kanban usada para um kanban específico."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

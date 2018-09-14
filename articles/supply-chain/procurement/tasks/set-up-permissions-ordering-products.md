@@ -3,7 +3,7 @@ title: "Configurar permissões para solicitar produtos em nome de qualquer outra
 description: "Este procedimento mostra como conceder a trabalhadores a permissão para preparar requisições da compra em nome de outros trabalhadores."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

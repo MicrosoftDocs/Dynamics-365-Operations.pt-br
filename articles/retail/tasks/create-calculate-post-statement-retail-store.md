@@ -3,7 +3,7 @@ title: "Criar, calcular e lançar uma declaração para uma loja de varejo"
 description: "Este procedimento orienta nas etapas manuais para criar, calcular e lançar um demonstrativo para uma loja."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

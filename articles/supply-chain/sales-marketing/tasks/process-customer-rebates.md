@@ -3,7 +3,7 @@ title: Gerar e processar reembolsos de cliente
 description: "Este procedimento demonstra como processar reembolsos de cliente desde a geração da reivindicação até o momento de passá-las como provisões para Contas a receber."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

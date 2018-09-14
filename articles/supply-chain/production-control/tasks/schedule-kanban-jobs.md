@@ -3,7 +3,7 @@ title: Agendar trabalhos kanban
 description: "Esse procedimento se concentra em trabalhos kanban do processo de agendamento para uma célula de trabalho específica."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

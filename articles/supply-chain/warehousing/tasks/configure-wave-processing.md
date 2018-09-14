@@ -3,7 +3,7 @@ title: Configurar processamento da onda
 description: "Este guia descreve como configurar os critérios que determinam que trabalho será gerado para um depósito quando uma onda for processada, e se as ondas são processadas manual ou automaticamente."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Configurar definição de preços com base no atributo para os produtos 
 description: "Este procedimento mostra como configurar preços baseados em atributos."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Procurar fornecedores
 description: "Aprenda como pesquisar fornecedores com base em critérios específicos."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

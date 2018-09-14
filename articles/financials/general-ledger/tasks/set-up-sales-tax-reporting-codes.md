@@ -3,7 +3,7 @@ title: "Configurar códigos de relatório de imposto"
 description: "Os códigos de relatório de imposto fazem referência a um número em um relatório de imposto."
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

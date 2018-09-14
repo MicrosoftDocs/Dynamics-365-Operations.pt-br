@@ -3,7 +3,7 @@ title: "Configuração de transferência de crédito ISO20022 de importação"
 description: "Este procedimento mostra como importar uma configuração de relatório eletrônico de pagamento de fornecedor."
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

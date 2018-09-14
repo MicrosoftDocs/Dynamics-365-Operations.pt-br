@@ -3,7 +3,7 @@ title: "Configurar um processo de reabastecimento mínimo/máximo"
 description: "Este procedimento mostra como configurar um novo processo de reabastecimento que usa estratégia de reabastecimento de mínimo/máximo."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

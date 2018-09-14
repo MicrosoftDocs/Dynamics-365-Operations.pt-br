@@ -3,7 +3,7 @@ title: "Revisar informações sobre cobranças"
 description: "Este procedimento mostra como revisar a informações de cobranças, bem como várias opções de instalação e transações de cobranças."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Criar um mandato de débito direto para um cliente"
 description: "Essa guia de tarefa demonstra como criar uma carta da ordem de débito direto e usá-la em uma nota fiscal."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

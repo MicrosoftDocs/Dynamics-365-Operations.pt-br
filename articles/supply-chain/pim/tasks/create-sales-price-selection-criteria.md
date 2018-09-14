@@ -3,7 +3,7 @@ title: "Criar critérios de seleção de preço de venda"
 description: "Este procedimento mostra como criar um critério de seleção preço de venda para modelos de preço de vendas baseado em atributo."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Criar um modelo de registro para facilitar a entrada de dados
 description: "Este procedimento demonstra como criar um modelo de registro para que os valores de campo usados frequentemente não tenham que ser inseridos explicitamente para cada novo registro."
 author: margoc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

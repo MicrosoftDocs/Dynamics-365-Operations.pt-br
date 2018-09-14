@@ -3,7 +3,7 @@ title: "Gerar um documento de transferência para uma transferência interna de 
 description: "Este procedimento mostra como criar documentos de transferência para a movimentação de mercadorias em uma empresa."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

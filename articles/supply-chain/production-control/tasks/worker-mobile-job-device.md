@@ -3,7 +3,7 @@ title: "Configurar um trabalhador usando um dispositivo de trabalho móvel"
 description: "Este procedimento mostra como atribuir as funções corretas na conta de usuário de um trabalhador e, em seguida, habilitá-lo para fazer registros de chão de fábrica."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Inserir dados do candidato e da solicitação de emprego manualmente"
 description: "Este procedimento mostra como manter manualmente as informações sobre os candidatos e a solicitação de emprego."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

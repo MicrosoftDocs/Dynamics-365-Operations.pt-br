@@ -3,7 +3,7 @@ title: "Gerenciar datas de vencimento do benefício"
 description: "Este procedimento mostra como é possível ampliar um benefício ou expirar, e gerenciar as datas de registro de funcionários que são inseridas no benefício."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

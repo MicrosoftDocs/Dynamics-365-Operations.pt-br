@@ -3,7 +3,7 @@ title: "Criar uma ordem de devolução de compra"
 description: "Este procedimento mostra a você como criar uma ordem do retorno de compra usando a ação da nota de crédito para copiar linhas de um documento da fatura do vendedor a uma PO nova."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

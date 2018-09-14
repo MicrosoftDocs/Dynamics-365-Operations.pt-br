@@ -3,7 +3,7 @@ title: "Criar um código de barra para um produto"
 description: "Este procedimento mostra como criar manualmente um código de barras usando o número de item M0001 como exemplo."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

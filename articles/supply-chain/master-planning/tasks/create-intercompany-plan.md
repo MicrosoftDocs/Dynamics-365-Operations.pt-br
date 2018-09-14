@@ -3,7 +3,7 @@ title: Criar um plano intercompanhia
 description: Este procedimento mostra como criar um plano intercompanhia.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

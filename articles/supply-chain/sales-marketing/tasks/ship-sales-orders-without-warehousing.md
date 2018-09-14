@@ -3,7 +3,7 @@ title: Enviar ordens de venda sem armazenamento
 description: "Este guia demonstra como atualizar uma ordem de venda quando produtos são enviados ao cliente."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Habilitar o processo de folha de pagamento para horário e presença"
 description: "Este procedimento mostra como habilitar o processo de folha de pagamento de tempo e presença."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Criar estruturas de conta
 description: "Este guia de tarefas aborda a criação de uma estrutura de conta."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

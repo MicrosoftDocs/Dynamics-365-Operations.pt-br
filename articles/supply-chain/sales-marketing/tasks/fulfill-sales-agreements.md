@@ -3,7 +3,7 @@ title: Cumprir contratos de venda
 description: Este procedimento mostra como atender a um contrato de venda associando ordens de venda a ele.
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

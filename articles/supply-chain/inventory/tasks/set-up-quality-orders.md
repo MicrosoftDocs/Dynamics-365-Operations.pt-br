@@ -3,7 +3,7 @@ title: Configurar ordens de qualidade
 description: "Este procedimento mostra como habilitar um processo de gerenciamento de qualidade no estoque de entrada que será inspecionado imediatamente após o registro de entrada."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Manter informações de ferimentos e doenças de funcionários"
 description: "É recomendável concluir a primeira guia de tarefas 'Configuração de lesões e doenças', pois algumas informações de configuração são usadas aqui."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

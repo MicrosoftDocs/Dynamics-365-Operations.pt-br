@@ -3,7 +3,7 @@ title: "Inscrever e remover benefícios de trabalhadores"
 description: "Este procedimento demonstra como um único trabalhador pode ser inserido em um ou mais benefícios, bem como os vários trabalhadores podem ser inseridos em um benefício."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

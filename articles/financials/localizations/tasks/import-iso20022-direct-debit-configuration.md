@@ -3,7 +3,7 @@ title: "Configuração do débito direto ISO20022 de importação"
 description: "Este procedimento demonstra como importar uma configuração de relatório eletrônico de pagamento de cliente."
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

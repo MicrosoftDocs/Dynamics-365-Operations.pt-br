@@ -3,7 +3,7 @@ title: Criar uma ordem de compra para um fornecedor ocasional
 description: Este procedimento mostra como criar uma ordem de compra de um fornecedor ocasional.
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

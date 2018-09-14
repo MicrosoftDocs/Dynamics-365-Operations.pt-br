@@ -3,7 +3,7 @@ title: Criar os relacionamentos entre as unidades organizacionais
 description: "Este procedimento mostra como criar a relação entre unidades organizacionais."
 author: mugunthanm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

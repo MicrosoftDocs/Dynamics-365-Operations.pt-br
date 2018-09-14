@@ -3,7 +3,7 @@ title: Configurar um compromisso para uma carga
 description: Este procedimento mostra como definir e planejar um compromisso para uma doca de carga.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Criar uma conta de fornecedor
 description: "Este procedimento mostra como criar uma conta de fornecedor, e adicionar um endereço e as informações de contato."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

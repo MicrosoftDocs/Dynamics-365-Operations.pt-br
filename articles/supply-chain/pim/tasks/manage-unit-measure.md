@@ -3,7 +3,7 @@ title: Gerenciar unidade de medida
 description: "Este procedimento mostra como definir uma unidade de medida, fornecer traduções para a unidade e para suas descrições, e definir regras de conversão para unidades relacionadas."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

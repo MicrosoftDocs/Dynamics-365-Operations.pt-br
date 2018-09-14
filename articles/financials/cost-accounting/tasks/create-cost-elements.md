@@ -3,7 +3,7 @@ title: 'Criar elementos de custo  '
 description: "Há várias maneiras de criar elementos de custo na Contabilização de custos."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Configurar um alias de conta contábil"
 description: "Este procedimento mostra como criar um apelido de conta que fornece um atalho para inserir um número de conta."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

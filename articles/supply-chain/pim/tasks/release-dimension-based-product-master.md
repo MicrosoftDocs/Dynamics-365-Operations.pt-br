@@ -3,7 +3,7 @@ title: "Liberar um produto mestre baseado na dimensão"
 description: "Este procedimento mostra como liberar um produto mestre, que será usado nas configurações baseadas na dimensão."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

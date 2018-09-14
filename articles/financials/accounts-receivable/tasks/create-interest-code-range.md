@@ -3,7 +3,7 @@ title: "Criar um código de juros com um intervalo"
 description: "Os códigos de juros podem ser configurados para calcular os valores diferentes de juros com base em um intervalo de valores."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

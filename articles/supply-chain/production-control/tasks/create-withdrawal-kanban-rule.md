@@ -3,7 +3,7 @@ title: Criar uma regra kanban de retirada
 description: "Este procedimento mostra a configuração necessária para criar uma regra kanban de saída para transferir o material em um ambiente de lean."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

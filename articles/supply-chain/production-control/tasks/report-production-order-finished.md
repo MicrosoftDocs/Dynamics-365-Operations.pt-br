@@ -3,7 +3,7 @@ title: "Relatar uma ordem de produção como concluída"
 description: "Este procedimento mostra como relatar uma ordem de produção como concluída."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

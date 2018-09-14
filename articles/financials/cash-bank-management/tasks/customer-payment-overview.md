@@ -3,7 +3,7 @@ title: "Visão geral de pagamentos do cliente"
 description: "Este guia de tarefas apresenta vários métodos utilizados para inserir pagamentos de clientes."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

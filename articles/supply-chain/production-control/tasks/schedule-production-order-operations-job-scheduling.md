@@ -3,7 +3,7 @@ title: "Agendar uma ordem de produção com operações e agendamento de trabalh
 description: "Este procedimento se concentra em agendar uma ordem de produção com o agendamento de operações e planejamento de trabalho."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

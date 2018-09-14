@@ -3,7 +3,7 @@ title: Executar trabalhos do processo kanban
 description: Esse procedimento se concentra em executar trabalhos de processo do kanban.
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

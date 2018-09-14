@@ -3,7 +3,7 @@ title: "Atribuir usuários a funções de segurança"
 description: "Para acessar o Microsoft Dynamics 365 for Finance and Operations, edição Enterprise, os usuários devem ser atribuídos a funções de segurança."
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

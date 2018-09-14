@@ -3,7 +3,7 @@ title: "Configurar grades de remuneração"
 description: "As grades de remuneração são usadas para definir e manter as estruturas de pagamento para os planos de remuneração fixa."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

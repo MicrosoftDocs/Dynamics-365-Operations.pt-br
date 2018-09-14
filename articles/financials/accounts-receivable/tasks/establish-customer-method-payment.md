@@ -3,7 +3,7 @@ title: "Estabelecer método de pagamento de clientes"
 description: "Criar um método de pagamento para pagamentos de clientes."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

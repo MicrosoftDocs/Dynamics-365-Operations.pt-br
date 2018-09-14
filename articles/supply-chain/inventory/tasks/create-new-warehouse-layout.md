@@ -3,7 +3,7 @@ title: "Criar um novo layout de depósito"
 description: "Este procedimento mostra como configurar informações sobre as localizações de um depósito."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

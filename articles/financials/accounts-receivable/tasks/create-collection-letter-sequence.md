@@ -3,7 +3,7 @@ title: "Criar uma sequência de cartas de cobrança"
 description: "Use esta guia para criar uma tarefa de sequência de cartas de cobrança."
 author: mikefalkner
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

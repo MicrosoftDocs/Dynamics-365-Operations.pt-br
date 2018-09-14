@@ -3,7 +3,7 @@ title: Configurar grupos de ativos fixos
 description: Este procedimento mostra como criar um novo grupo de ativos fixos.
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

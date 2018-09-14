@@ -3,7 +3,7 @@ title: Criar uma ordem de compra com uma agenda de entrega
 description: Este procedimento demonstra como criar uma agenda de entrega para ordem de compra.
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

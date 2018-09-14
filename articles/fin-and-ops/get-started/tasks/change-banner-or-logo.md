@@ -3,7 +3,7 @@ title: Alterar a faixa ou o logotipo
 description: "O procedimento a seguir lista as etapas que os administradores do sistema podem usar para atualizar a imagem da faixa ou do logotipo que é exibida para uma entidade jurídica."
 author: aneesmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

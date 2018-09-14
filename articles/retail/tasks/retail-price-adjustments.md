@@ -3,7 +3,7 @@ title: "Ajustes de preço de varejo"
 description: "Este procedimento orienta na criação de um ajuste de preço de varejo."
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

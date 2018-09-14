@@ -3,7 +3,7 @@ title: "Criar uma lista de materiais para um produto mestre baseado na dimensão
 description: "Para esse procedimento é necessário ter concluído as 4 guias anteriores nesta sequência de oito registros."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Gerar um plano restrito
 description: "Este procedimento mostra como criar um plano que leve em consideração restrições de materiais e de capacidade."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

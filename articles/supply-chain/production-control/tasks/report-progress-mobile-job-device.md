@@ -3,7 +3,7 @@ title: "Relatar o progresso em um dispositivo de trabalho móvel"
 description: "Este procedimento mostra como iniciar e relatar o progresso de um trabalho de produção no formulário de registro do dispositivo do trabalho."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Liquidar um cheque pré-datado de um cliente"
 description: "É possível liquidar um cheque pré-datado após o cheque ter sido liberado pelo banco."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

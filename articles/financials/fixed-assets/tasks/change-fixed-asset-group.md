@@ -3,7 +3,7 @@ title: Alterar um grupo de ativos fixos
 description: "Os ativos fixos devem ser atribuídos ao grupo correto de ativos fixos."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

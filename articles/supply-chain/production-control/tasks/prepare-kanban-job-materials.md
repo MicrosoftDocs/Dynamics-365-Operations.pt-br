@@ -3,7 +3,7 @@ title: "Preparar um trabalho kanban de processo quando os materiais estão dispo
 description: "Esta tarefa foca na preparação de um processo de trabalho kanban quanto todas materiais estão disponíveis para a célula de trabalho."
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

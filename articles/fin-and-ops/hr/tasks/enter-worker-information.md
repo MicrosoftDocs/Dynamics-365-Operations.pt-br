@@ -3,7 +3,7 @@ title: "Inserir informações do trabalhador"
 description: "Depois que um recruta criou um projeto de contratação em massa e gerou posições, a próxima etapa é inserir as informações de trabalho para os contatos que estão sendo contratados."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Configurar categorias de conta principal
 description: "Categorias de conta principal são usadas para os relatórios padrão em relatórios financeiros e no Power BI."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Registrar o recebimento de mercadorias na ordem de compra
 description: Este procedimento mostra como registrar o recebimento de mercadorias diretamente em uma ordem de compra.
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

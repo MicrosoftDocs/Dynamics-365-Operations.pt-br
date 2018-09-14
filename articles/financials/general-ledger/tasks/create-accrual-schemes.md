@@ -3,7 +3,7 @@ title: "Criar esquemas de competência"
 description: "Este guia de tarefas aborda a criação de um esquema de competência."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

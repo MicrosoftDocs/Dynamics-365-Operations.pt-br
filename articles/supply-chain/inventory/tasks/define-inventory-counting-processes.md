@@ -3,7 +3,7 @@ title: Definir processos de contagem de estoque
 description: "Este procedimento mostra a configuração dos processos de contagem básicos de estoque criando um grupo de contagem e um diário de contagem."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

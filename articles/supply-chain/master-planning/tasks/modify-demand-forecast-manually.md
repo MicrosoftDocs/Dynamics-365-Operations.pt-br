@@ -3,7 +3,7 @@ title: "Modificar uma previsão de demanda manualmente"
 description: "Este procedimento mostra como alterar a previsão para um item."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

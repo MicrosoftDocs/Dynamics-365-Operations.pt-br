@@ -3,7 +3,7 @@ title: Crie uma ordem de compra
 description: Este procedimento mostra como criar uma ordem de compra manualmente.
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

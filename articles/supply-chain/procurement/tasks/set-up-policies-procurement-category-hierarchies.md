@@ -3,7 +3,7 @@ title: "Configurar políticas para hierarquias de categoria de compras"
 description: Use este procedimento para configurar regras para encomendar produtos em uma categoria.
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

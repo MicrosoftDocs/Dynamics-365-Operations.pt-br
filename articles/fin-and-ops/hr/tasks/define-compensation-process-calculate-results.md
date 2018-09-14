@@ -3,7 +3,7 @@ title: "Definir processo de remuneração e calcular resultados"
 description: "Os processos de remuneração são usados para determinar os novos valores e prêmios de remuneração para os funcionários inscritos em planos de remuneração fixos e variáveis."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

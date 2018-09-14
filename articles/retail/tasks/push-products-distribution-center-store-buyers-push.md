@@ -3,7 +3,7 @@ title: "Mover produtos do centro de distribuição para a loja usando a compra c
 description: "Este procedimento orienta nas etapas para criar e processar uma compra centralizada para distribuir produtos de um localização para uma ou várias lojas."
 author: rubencdelgado
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

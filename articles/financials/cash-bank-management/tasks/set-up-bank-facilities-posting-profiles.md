@@ -3,7 +3,7 @@ title: "Configurar recursos bancários e perfis de lançamento para cartas de ga
 description: "Essa tarefa cria um Recurso bancário e um perfil de lançamento que são necessários para processar uma carta de garantia."
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

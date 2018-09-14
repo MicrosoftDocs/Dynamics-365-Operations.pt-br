@@ -3,7 +3,7 @@ title: Criar um contrato de compra
 description: "Este procedimento irá guiá-lo na criação de um contrato de compra."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

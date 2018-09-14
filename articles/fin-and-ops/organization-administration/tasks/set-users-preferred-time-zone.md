@@ -3,7 +3,7 @@ title: "Definir o fuso horário preferencial do usuário"
 description: "O seguinte procedimento explica como um usuário com a função Administrador do Sistema pode definir o fuso horário para um usuário."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Atribuição de imposto e substituições"
 description: Este procedimento demonstra como atribuir grupos dos impostos sobre venda aos canais varejos.
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

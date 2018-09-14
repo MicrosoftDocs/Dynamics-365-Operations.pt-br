@@ -3,7 +3,7 @@ title: Inserir contratos de venda
 description: "Este procedimento mostra como criar um contrato de venda que compromete um de seus clientes a comprar um produto por um valor acordado durante um período, em troca de descontos especiais."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

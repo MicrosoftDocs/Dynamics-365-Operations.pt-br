@@ -3,7 +3,7 @@ title: "Criar uma regra kanban para atividades múltiplas"
 description: "Este procedimento mostra como criar uma regra kanban que inclua atividades múltiplas de um fluxo da produção."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

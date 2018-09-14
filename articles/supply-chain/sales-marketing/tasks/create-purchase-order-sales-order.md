@@ -3,7 +3,7 @@ title: Criar uma ordem de compra a partir de uma ordem de venda
 description: "Este procedimento mostra como criar uma ordem de compra que é baseada em uma ordem de venda."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

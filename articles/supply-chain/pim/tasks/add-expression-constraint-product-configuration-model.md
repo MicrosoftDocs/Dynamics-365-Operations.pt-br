@@ -3,7 +3,7 @@ title: "Adicionar uma restrição de expressão para um modelo de configuração
 description: "Este procedimento mostra como é possível adicionar uma nova expressão de restrição a um modelo de configuração do produto."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

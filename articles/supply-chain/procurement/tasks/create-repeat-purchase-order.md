@@ -3,7 +3,7 @@ title: Criar uma ordem de compra repetida
 description: "Este procedimento mostra como criar uma ordem de compra (PO) da repetição copiando linhas de um documento de ordem mais adiantado da compra a uma PO nova ou a uma PO existente."
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

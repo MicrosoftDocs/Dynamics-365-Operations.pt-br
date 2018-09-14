@@ -3,7 +3,7 @@ title: "Criar uma fórmula copiando de uma fórmula existente"
 description: "Este procedimento mostra como criar rapidamente uma nova fórmula, copiando de uma fórmula existente."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

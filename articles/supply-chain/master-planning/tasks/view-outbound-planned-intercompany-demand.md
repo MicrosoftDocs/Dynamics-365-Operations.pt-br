@@ -3,7 +3,7 @@ title: "Exibir planejamento de demanda intercompanhia de saída"
 description: "Este procedimento mostra como exibir todas as ordens planejadas que serão cumpridas por um fornecedor intercompanhia."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

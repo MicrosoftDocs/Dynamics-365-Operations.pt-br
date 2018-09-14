@@ -3,7 +3,7 @@ title: "Manter BOM para um modelo de configuração de produtos"
 description: "Executar este procedimento exige um modelo de configuração de produto existente."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

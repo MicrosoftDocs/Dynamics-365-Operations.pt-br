@@ -3,7 +3,7 @@ title: "Configurar um item de menu do dispositivo móvel para registrar itens re
 description: "Esta tarefa tem como foco a configuração de um item de menu de dispositivo móvel."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

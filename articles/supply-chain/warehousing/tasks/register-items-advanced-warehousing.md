@@ -3,7 +3,7 @@ title: "Registrar itens para um item avançado com armazenamento habilitado usan
 description: "Este procedimento mostra como registrar itens usando o diário de entrada de itens quando estiver usando processos de gerenciamento de depósito avançado."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

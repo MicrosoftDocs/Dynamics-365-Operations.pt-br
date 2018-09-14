@@ -3,7 +3,7 @@ title: "Definir pontos de premiação de fidelidade"
 description: "Este procedimento orienta na definição de pontos de recompensa de fidelidade."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

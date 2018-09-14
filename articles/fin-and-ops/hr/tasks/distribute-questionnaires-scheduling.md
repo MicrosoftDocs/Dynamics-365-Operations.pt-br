@@ -3,7 +3,7 @@ title: "Distribuir questionários usando agendamento"
 description: "A programação do questionário permite que você planeje e distribua questionários para vários participantes."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

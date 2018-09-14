@@ -3,7 +3,7 @@ title: "Definir células de trabalho de lean manufacturing"
 description: "Uma célula de trabalho é um formulário específico dos grupos de recursos que podem ser usados em atividades do processo de lean manufacturing."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

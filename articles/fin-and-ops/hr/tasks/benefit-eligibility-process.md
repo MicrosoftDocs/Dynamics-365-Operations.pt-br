@@ -3,7 +3,7 @@ title: "Processo de qualificação para benefícios"
 description: "Este procedimento mostra como funciona o processo de qualificação para benefícios."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Fechar o ano fiscal
 description: "Este procedimento aborda o processo de fechamento do exercício que transfere saldos para um novo ano fiscal."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Criar uma ordem de venda para um produto configurável"
 description: "Esse procedimento aborda a aplicação de um modelo de configuração a um produto em uma ordem de venda."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Criar uma regra kanban de evento de vendas
 description: "Este procedimento tem como foco a configuração necessária para criar uma regra kanban que é necessária durante a criação da ordem de vendas."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

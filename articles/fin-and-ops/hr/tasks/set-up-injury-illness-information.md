@@ -3,7 +3,7 @@ title: "Configurar informações de ferimentos e doenças"
 description: "Os empregadores precisam saber quando os funcionários se ferem ou ficam doentes devido a perigos no local de trabalho."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

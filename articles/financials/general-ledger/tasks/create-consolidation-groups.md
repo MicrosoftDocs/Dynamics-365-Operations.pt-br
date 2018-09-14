@@ -3,7 +3,7 @@ title: "Criar grupos de consolidação e contas de consolidação adicionais"
 description: "Este procedimento mostra como criar um grupo de contas de consolidação e depois adicionar contas ao grupo."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

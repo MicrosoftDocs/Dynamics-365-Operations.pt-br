@@ -3,7 +3,7 @@ title: Adicionar uma imagem a um produto
 description: "Este procedimento mostra como adicionar uma imagem a um produto. A empresa de dados de demonstração usada para criar esta tarefa é a USMF."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

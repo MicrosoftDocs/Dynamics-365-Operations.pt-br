@@ -3,7 +3,7 @@ title: "Configurar perfis de lançamento de ativos fixos"
 description: "Este guia de tarefa definirá os perfis de postagem de ativo fixo."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

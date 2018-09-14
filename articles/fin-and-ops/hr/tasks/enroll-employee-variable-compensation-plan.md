@@ -3,7 +3,7 @@ title: "Inscrever um funcionário em um plano de remuneração variável"
 description: "O gerente de remuneração e benefícios pode inscrever os funcionários em planos de remuneração variável para calcular prêmios em dinheiro e que não sejam em dinheiro para os funcionários."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

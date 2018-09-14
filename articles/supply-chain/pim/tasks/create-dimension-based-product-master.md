@@ -3,7 +3,7 @@ title: "Criar um produto mestre baseado na dimensão"
 description: "Este procedimento mostra como criar um novo produto mestre com a tecnologia de configuração baseada em dimensão."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

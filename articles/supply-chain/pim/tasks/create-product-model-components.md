@@ -3,7 +3,7 @@ title: Criar componentes de modelo de produto
 description: "Modelos de configuração de produto baseada em restrição usam componentes como blocos de construção para estabelecer a estrutura do modelo do produto."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

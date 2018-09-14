@@ -3,7 +3,7 @@ title: "Adicionar um antecessor à atividade do fluxo de produção"
 description: "Em uma versão de fluxo de produção, todas as atividades devem ser sequenciadas."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

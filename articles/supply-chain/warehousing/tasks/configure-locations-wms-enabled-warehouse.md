@@ -3,7 +3,7 @@ title: "Configurar localizações em um depósito habilitado para WMS"
 description: "Este guia mostra como definir a configuração da localização para um novo depósito habilitado para WMS (um depósito que utiliza processos avançados de gerenciamento de depósito)."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Configurar faturamento de projeto intercompanhia
 description: "Este procedimento mostra como configurar o faturamento de projeto entre duas empresas na sua organização."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

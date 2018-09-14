@@ -3,7 +3,7 @@ title: "Inserir o código GTIN para um produto"
 description: "Os códigos GTIN são atribuídos pela organização GS1."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

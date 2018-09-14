@@ -3,7 +3,7 @@ title: "Processar ajustes dos pontos de premiação de fidelidade"
 description: "Este procedimento demonstra como procurar informações de cartão-fidelidade e ajustar pontos de recompensa de fidelidade."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Ativar uma versão de fluxo de produção"
 description: "Antes que os trabalhos de kanban possam ser criados e as atividades possam ser processadas para uma versão do fluxo da produção, você deve ativar a versão."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

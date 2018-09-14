@@ -3,7 +3,7 @@ title: "Criar uma regra kanban de substituição"
 description: "Esse procedimento se concentra em substituir uma regra kanban existente por uma nova regra kanban em uma data específica."
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

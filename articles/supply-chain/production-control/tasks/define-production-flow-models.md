@@ -3,7 +3,7 @@ title: "Definir modelos de fluxo de produção"
 description: "Os modelos de fluxo de produção descrevem como capacidade das células de trabalho de lean manufacturing é calculada e atualizada."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

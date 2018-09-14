@@ -3,7 +3,7 @@ title: Definir grupos de agendamento de lean manufacturing
 description: "Os grupos de agendamento de lean manufacturing são definidos para agrupar e distinguir produtos na programação do kanban."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

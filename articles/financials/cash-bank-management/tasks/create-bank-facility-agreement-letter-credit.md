@@ -3,7 +3,7 @@ title: "Criar um contrato de recursos bancários para uma carta de crédito"
 description: "Essa tarefa caminha com a criação de um contrato de recursos bancários para processar uma carta de crédito."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

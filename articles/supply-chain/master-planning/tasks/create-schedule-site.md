@@ -3,7 +3,7 @@ title: Criar uma agenda para um site
 description: "Este procedimento mostra como planejar ordens de produção que ainda não foram iniciadas para um site."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

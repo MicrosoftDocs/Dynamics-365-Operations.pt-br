@@ -3,7 +3,7 @@ title: Definir capacidades do recurso
 description: "As funcionalidade do recurso descrevem qual recursos de operações podem ser feitos."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

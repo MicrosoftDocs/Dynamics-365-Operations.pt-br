@@ -3,7 +3,7 @@ title: "Habilitar a impressão da etiqueta da placa de licença"
 description: "Este procedimento permite a impressão automática de um rótulo (SSCC) do código de série do contêiner de remessa depois que o último item é separado do estoque em um processo de trabalho de separação de vendas."
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: Definir atributos do canal
 description: "Enriqueça o canal, adicionando o canal e os atributos do produto."
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

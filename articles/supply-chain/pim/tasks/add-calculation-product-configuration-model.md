@@ -3,7 +3,7 @@ title: "Adicionar um cálculo a um modelo de configuração de produto"
 description: "Este procedimento mostra adicionar um novo cálculo a um modelo de configuração do produto."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

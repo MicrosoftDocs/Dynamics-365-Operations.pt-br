@@ -3,7 +3,7 @@ title: "Configurar documentos de transferência para movimentação de mercadori
 description: "Este procedimento mostra como criar documentos de transferência para a movimentação de mercadorias em uma empresa."
 author: v-oloski
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

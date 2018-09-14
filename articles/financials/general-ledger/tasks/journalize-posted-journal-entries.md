@@ -3,7 +3,7 @@ title: "Lançar em diário entradas de diário"
 description: "Este procedimento aborda como lançar em diário entradas de diário postadas."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

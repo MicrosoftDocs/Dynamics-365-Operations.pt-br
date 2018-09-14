@@ -3,7 +3,7 @@ title: Criar um ativo fixo
 description: Este guia de tarefa usa a empresa demo USMF.
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

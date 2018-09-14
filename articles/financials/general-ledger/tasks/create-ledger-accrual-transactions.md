@@ -3,7 +3,7 @@ title: "Criar transações de competências do razão"
 description: "Este guia de tarefas aborda a criação de transações de competências do razão que são baseadas em esquemas de competência."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

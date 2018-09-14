@@ -3,7 +3,7 @@ title: Criar uma conta principal
 description: "Este guia de tarefas aborda a adição de uma conta principal a um plano de contas existente."
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

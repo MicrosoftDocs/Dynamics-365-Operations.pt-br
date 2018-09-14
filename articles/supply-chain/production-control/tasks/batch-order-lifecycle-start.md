@@ -3,7 +3,7 @@ title: "Ciclo de vida da ordem de lotes da criação ao início"
 description: "Este procedimento o conduz através da primeira parte do ciclo de vida da ordem de lote."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

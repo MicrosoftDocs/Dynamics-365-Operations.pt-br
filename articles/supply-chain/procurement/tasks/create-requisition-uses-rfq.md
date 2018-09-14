@@ -3,7 +3,7 @@ title: "Criar uma requisição que use um RFQ"
 description: "Este guia mostra como adicionar o preço e a informação do vendedor a uma requisição da compra de um processo do RFQ."
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

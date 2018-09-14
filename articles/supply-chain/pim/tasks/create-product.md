@@ -3,7 +3,7 @@ title: Criar um produto
 description: "Este procedimento orienta na criação de um novo produto na hierarquia de produtos de varejo."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

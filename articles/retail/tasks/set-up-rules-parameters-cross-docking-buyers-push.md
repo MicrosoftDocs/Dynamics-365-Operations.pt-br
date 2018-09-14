@@ -3,7 +3,7 @@ title: "Configurar regras e parâmetros para a distribuição integrada e a comp
 description: Este procedimento demonstra as etapas para criar regras de reabastecimento.
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Registrar comissões de vendas"
 description: "Este procedimento mostra como comissões de vendas são calculadas e registradas."
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

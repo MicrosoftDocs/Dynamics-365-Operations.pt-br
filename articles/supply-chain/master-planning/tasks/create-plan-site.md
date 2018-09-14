@@ -3,7 +3,7 @@ title: Criar um plano para um site
 description: "O planejador de produção calcula os requisitos de capacidade e de material para a produção de um item específico."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

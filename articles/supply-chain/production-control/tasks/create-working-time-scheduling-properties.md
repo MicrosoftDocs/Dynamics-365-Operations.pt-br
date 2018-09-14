@@ -3,7 +3,7 @@ title: "Criar propriedades do agendamento de horário de trabalho"
 description: "As propriedades de programação de horário de trabalho são usadas para categorizar intervalos de horário de trabalho e para definir as configurações que os operadores devem levar em conta."
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
