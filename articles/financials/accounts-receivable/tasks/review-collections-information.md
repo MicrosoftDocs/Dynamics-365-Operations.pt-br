@@ -3,7 +3,7 @@ title: "Revisar informações sobre cobranças"
 description: "Este procedimento mostra como revisar a informações de cobranças, bem como várias opções de instalação e transações de cobranças."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: fa680f2b4f2c02c12caf98e06cfc283dfd9c863f
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 44d89d2bacc8f301a19bfd09d229809d492a55fb
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="review-collections-information"></a><span data-ttu-id="f6e33-103">Revisar informações sobre cobranças</span><span class="sxs-lookup"><span data-stu-id="f6e33-103">Review collections information</span></span>

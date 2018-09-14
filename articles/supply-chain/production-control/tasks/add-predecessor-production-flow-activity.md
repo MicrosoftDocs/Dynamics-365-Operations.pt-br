@@ -3,7 +3,7 @@ title: "Adicionar um antecessor à atividade do fluxo de produção"
 description: "Em uma versão de fluxo de produção, todas as atividades devem ser sequenciadas."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 176dbf03dd4769c94da69910a4a1b1ac83b54df3
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9acb1c2672af70f535f3dce1c8f5a97e8d479158
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="add-a-predecessor-to-a-production-flow-activity"></a><span data-ttu-id="855c1-103">Adicionar um antecessor à atividade do fluxo de produção</span><span class="sxs-lookup"><span data-stu-id="855c1-103">Add a predecessor to a production flow activity</span></span>

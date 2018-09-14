@@ -3,7 +3,7 @@ title: Alterar um grupo de ativos fixos
 description: "Os ativos fixos devem ser atribuídos ao grupo correto de ativos fixos."
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 15e725d409addd46973c2b6a4615c1a50ab75f4d
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 32f1daa6de6034d123b1f2cf732059759f6c10ae
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="change-a-fixed-asset-group"></a><span data-ttu-id="4dc95-103">Alterar um grupo de ativos fixos</span><span class="sxs-lookup"><span data-stu-id="4dc95-103">Change a fixed asset group</span></span>

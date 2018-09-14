@@ -3,7 +3,7 @@ title: "Regras de preços de categoria para criar contratos comerciais"
 description: "Este procedimento mostra como criar contratos comerciais de preço de vendas usando uma regra de definição de preços de categoria."
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 454f74627bd4811fa657b0c6b06003a8fdbdb599
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 8d252982cf1e4fa2f06646d0909e6f82d16f4cfc
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a><span data-ttu-id="fe84e-103">Regras de preços de categoria para criar contratos comerciais</span><span class="sxs-lookup"><span data-stu-id="fe84e-103">Category pricing rules to create trade agreements</span></span>

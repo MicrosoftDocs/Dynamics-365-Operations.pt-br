@@ -3,7 +3,7 @@ title: "Criar um projeto de contratação em massa"
 description: "Este procedimento anda com o processo de configuração de um projeto de contratação em massa."
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 21179dd81e3cff648b8db59f2c9969a993c7c827
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: f352435f8ad04f676aa786aae4669e3586a5715c
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-mass-hire-project"></a><span data-ttu-id="54691-103">Criar um projeto de contratação em massa</span><span class="sxs-lookup"><span data-stu-id="54691-103">Create a mass hire project</span></span>

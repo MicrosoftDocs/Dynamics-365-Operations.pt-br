@@ -3,7 +3,7 @@ title: "Receber itens na ordem de compra da requisição de itens"
 description: "Este procedimento mostra como receber itens em uma ordem de compra de uma requisição de itens."
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: faaea6c46e83dc85e9b7efe7a9ca5c261811a3de
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 26572a49426719fba520338a5eccd7e0af78890e
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a><span data-ttu-id="58a2a-103">Receber itens na ordem de compra da requisição de itens</span><span class="sxs-lookup"><span data-stu-id="58a2a-103">Receive items on purchase order from item requirement</span></span>

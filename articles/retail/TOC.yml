@@ -8,7 +8,7 @@
       href: get-started/before-you-buy.md
     - name: ​Inscrever-se em uma assinatura Preview​
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
-    - name: Implantar um ambiente de demonstração
+    - name: ​Implantar um ambiente de demonstração​
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Opções de implantação
       href: dev-itpro/choose-deployment.md
@@ -21,7 +21,7 @@
       href: ../fin-and-ops/imp-lifecycle/onboard.md
     - name: ​Preparando para ativação
       href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
-    - name: ​Perguntas frequentes sobre a ativação​
+    - name: ​Perguntas frequentes sobre ativação​
       href: ../fin-and-ops/imp-lifecycle/go-live-faq.md
     - name: ​Enviar uma solicitação de serviço​
       href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
@@ -99,9 +99,7 @@
       href: call-center-functionality.md
     - name: Catálogos do call center
       href: call-center-catalogs.md
-    - name: Criar um catálogo do call center​
-      href: create-call-center-catalogs.md
-    - name: ​Configurar modos de entrega e encargos​
+    - name: ​Configurar encargos e modos de entrega
       href: configure-call-center-delivery.md
     - name: Configurar e trabalhar com alertas de fraude
       href: set-up-fraud-alerts.md
@@ -129,10 +127,12 @@
       href: retail-time-attendance.md
 - name: Modern Point of Sale (MPOS) e Cloud POS
   items:
-    - name: Escolha entre MPOS e Cloud POS
+    - name: Escolher entre MPOS e Cloud POS
       href: MPOS-or-CPOS.md
     - name: Operações de PDV online e offline
       href: pos-operations.md
+    - name: Ativação de dispositivo de um Retail Modern POS
+      href: dev-itpro/retail-POS-activation-changes.md
     - name: Layouts de tela de dados de demonstração em MPOS e Cloud POS
       href: demo-data.md
     - name: Pesquisa de produtos e clientes no PDV

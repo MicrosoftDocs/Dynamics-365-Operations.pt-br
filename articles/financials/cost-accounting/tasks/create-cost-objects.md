@@ -3,7 +3,7 @@ title: 'Criar objetos de custos  '
 description: "Este procedimento mostra como criar objetos de custo importando a dimensão financeira do centro de custo do Dynamics 365 for Finance and Operations, edição Enterprise para a Contabilização de custos por meio de um conector de dados."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 52b5fe092048cd7efe7b0a697cd7061ee0f65103
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 1e12de1d51658092fb19f652cef7c1cc78b255b5
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-cost-objects"></a><span data-ttu-id="fd854-103">Criar objetos de custos  </span><span class="sxs-lookup"><span data-stu-id="fd854-103">Create cost objects</span></span> 

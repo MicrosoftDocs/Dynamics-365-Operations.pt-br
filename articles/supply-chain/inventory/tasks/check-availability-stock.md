@@ -3,7 +3,7 @@ title: Verificar a disponibilidade do estoque
 description: "Este procedimento mostra como verificar um valor disponível e o estoque físico disponível de um número de item específico."
 author: 
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author:
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 4be343a38f3f428261cf30c5b92c7a34d1f1ffa4
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 1a7c8309a121dc2adeb450d0a81f5b17820bca97
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="check-the-availability-of-stock"></a><span data-ttu-id="a8798-103">Verificar a disponibilidade do estoque</span><span class="sxs-lookup"><span data-stu-id="a8798-103">Check the availability of stock</span></span>

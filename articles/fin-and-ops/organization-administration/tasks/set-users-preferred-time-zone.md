@@ -3,7 +3,7 @@ title: "Definir o fuso horário preferencial do usuário"
 description: "O seguinte procedimento explica como um usuário com a função Administrador do Sistema pode definir o fuso horário para um usuário."
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 3d5fd3ca3c1039c67bc65865a307506ce3427f84
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: b5eac00d5054296921c3f22004f8c8e710727afc
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-a-users-preferred-time-zone"></a><span data-ttu-id="de555-103">Definir o fuso horário preferencial do usuário</span><span class="sxs-lookup"><span data-stu-id="de555-103">Set a user's preferred time zone</span></span>

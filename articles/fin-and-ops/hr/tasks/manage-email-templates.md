@@ -3,7 +3,7 @@ title: Gerenciar modelos de email
 description: "Você pode transferir informações de base de dados da sua organização para indicadores em um novo documento e usá-las em modelos que o ajudam a eficientemente se comunicar com os candidatos."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: dbe665688d9fb10ce200f25b6552f49349cfc42e
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: f8eface8fd47378e25c7baeca9a84fa41097dfbe
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="manage-email-templates"></a><span data-ttu-id="088eb-103">Gerenciar modelos de email</span><span class="sxs-lookup"><span data-stu-id="088eb-103">Manage email templates</span></span>

@@ -3,7 +3,7 @@ title: Definir grupos de agendamento de lean manufacturing
 description: "Os grupos de agendamento de lean manufacturing são definidos para agrupar e distinguir produtos na programação do kanban."
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: dcb8c82af7d3bcd95a13cef49c5606ea8781e459
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 787694b094f343445cca784d035554a8bfa25f5a
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="define-lean-schedule-groups"></a><span data-ttu-id="f42a0-103">Definir grupos de agendamento de lean manufacturing</span><span class="sxs-lookup"><span data-stu-id="f42a0-103">Define lean schedule groups</span></span>
