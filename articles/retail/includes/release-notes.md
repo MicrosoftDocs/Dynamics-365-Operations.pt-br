@@ -1,6 +1,6 @@
 > [!IMPORTANT]
-> **Anunciando as notas de versão do Dynamics 365 do segundo trimestre de 2018**
+> **Divulgando as notas de versão do Dynamics 365**
 >
-> Quer saber sobre os futuros recursos e os recursos lançados recentemente em qualquer um de nossos aplicativos de negócios ou na plataforma? 
+> Quer saber sobre os futuros recursos e as funcionalidades lançadas recentemente em nossos aplicativos de negócios ou na plataforma? 
 > 
-> [Baixe as notas de versão do Dynamics 365 do segundo trimestre de 2018](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf). Capturamos todos os detalhes, de todos os ângulos, em um único PDF que você pode usar para o planejamento. 
+> Confira [Notas de versão dos aplicativos de negócios e da plataforma](https://go.microsoft.com/fwlink/?linkid=2010158). Capturamos todos os detalhes, de todos os ângulos, em um único lugar que você pode usar para o planejamento. Dependendo da versão das notas de versão, você poderá descobrir novos serviços e funcionalidades, bem como conhecer os novos recursos que serão lançados no futuro.

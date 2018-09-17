@@ -3,31 +3,32 @@ title: "Definir grupo de recursos de fabricação discreta"
 description: "Um grupo de recursos é um conjunto de recursos de operações que geralmente correspondem à organização física das células de trabalho, definido pelas linhas amarelas no chão da fábrica de produção."
 author: sorenva
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WrkCtrResourceGroup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bd9aaf49ab34c21f7c1cb02873d0ad5141b2e5e6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c2423fe91d1531a326080e3a584195ea864f2e3e
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="define-discrete-manufacturing-resource-group"></a>Definir grupo de recursos de fabricação discreta
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Um grupo de recursos é um conjunto de recursos de operações que geralmente correspondem à organização física das células de trabalho, definido pelas linhas amarelas no chão da fábrica de produção. Este procedimento aborda a definição de um grupo de recursos para uso na produção discreta. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
+Um grupo de recursos é um conjunto de recursos de operações que geralmente correspondem à organização física das células de trabalho, definido pelas linhas amarelas no chão da fábrica de produção. Este procedimento mostra como definir um grupo de recursos para uso na produção discreta. Você pode ver todo esse procedimento na empresa USMF de dados demo, ou usando seus próprios dados.
 
 1. Ir para grupos de Recurso.
 2. Clique em Novo.

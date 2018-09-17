@@ -263,9 +263,9 @@
               href: extensibility/naming-guidelines-extensions.md
             - name: Relaxar restrições do modelo para refatorar a sobreposição de camadas em extensões
               href: extensibility/refactoring-over-layering.md
-        - name: Como posso?
+        - name: Criando extensões
           items:
-            - name: Adicionar valores a enums
+            - name: Adicionar valores a enumerações
               href: extensibility/add-enum-value.md
             - name: Modificar tipos de dados estendidos
               href: extensibility/modify-edt.md
@@ -311,15 +311,37 @@
               href: extensibility/maps-as-interfaces.md
             - name: Estender mapas de tabela usados para controle de versão
               href: extensibility/maps-with-versioning.md
+        - name: Criando soluções extensíveis
+          items:
+            - name: Escrevendo código extensível
+              href: extensibility/writing-extensible-code.md
+            - name: Classes
+              href: extensibility/extensible-classes.md
+            - name: Métodos
+              href: extensibility/extensible-methods.md
+            - name: Formulários
+              href: extensibility/extensible-forms.md
+            - name: Tipos de dados estendidos
+              href: extensibility/extensible-edts.md
+            - name: Enumerações extensíveis
+              href: extensibility/extensible-enums.md
+            - name: Delegados
+              href: extensibility/extensible-code-delegates.md
+            - name: Tabelas
+              href: extensibility/extensible-tables.md
+            - name: Atributos de extensibilidade para métodos
+              href: extensibility/extensibility-attributes.md
+            - name: Últimas alterações
+              href: extensibility/breaking-changes.md
     - name: Desempenho
       items:
-        - name: ​Fazer rastreamentos usando o Trace Parser​
+        - name: ​Fazer rastreamentos usando o analisador do Trace​
           href: perf-test/trace-trace-tutorial.md
         - name: Testes de SDK de desempenho e de multiusuários através do Visual Studio Online
           href: perf-test/perfsdk-tutorial.md
         - name: Testes de SDK de desempenho e de multiusuários em ambientes locais
           href: perf-test/perfsdk-tutorial-lbd.md
-        - name: Diagnosticar problemas e analisar o desempenho usando o Trace parser
+        - name: Diagnosticar problemas e analisar o desempenho usando o analisador do Trace
           href: perf-test/trace-parser.md
         - name: Temporizador de desempenho
           href: perf-test/performance-timer.md
@@ -1184,6 +1206,8 @@
       items:
         - name: Criar regras para o Orientador de otimização
           href: sysadmin/create-rules-optimization-advisor.md
+    - name: Relatar uma interrupção de produção
+      href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
     - name: Recursos do Lifecycle Services
@@ -1236,6 +1260,8 @@
       href: lifecycle-services/monitoring-diagnostics.md
     - name: Reiniciar serviços de ambiente
       href: lifecycle-services/restart-environment-services.md
+    - name: Relatar uma interrupção de produção
+      href: lifecycle-services/report-production-outage.md
     - name: Rastrear entradas de usuário
       href: lifecycle-services/user-logins.md
     - name: Biblioteca de ativos

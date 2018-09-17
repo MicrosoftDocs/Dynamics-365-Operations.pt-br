@@ -1,28 +1,29 @@
 --- 
-title: "Adicionar informações ao seu diário de desempenho e enviar elogio"
+title: "Adicionar ao seu diário de desempenho e enviar elogio a alguém"
 description: "O diário de desempenho retém informações que se refere como você tiver encontrado as metas ou como você executou durante um período."
 author: ShielaSogge
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 92cbb25839b8f202ba37a19ad88a54194a73c179
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="add-information-to-your-performance-journal-and-send-praise"></a>Adicionar informações ao seu diário de desempenho e enviar elogio
+# <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>Adicionar ao seu diário de desempenho e enviar elogio a alguém
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -42,7 +43,7 @@ O diário de desempenho retém informações que se refere como você tiver enco
 9. No campo Palavras-chave, digite um valor.
 10. Clique em Adicionar link externo.
 11. No campo Descrição, digite "Perspectiva".
-12. No campo Endereço na Internet, digite '<https://www.microsoft.com/en/envision/default>'.
+12. No campo Endereço de Internet, digite 'https://www.microsoft.com/en/envision/default'.
 13. Clique em sobre a legenda de botões abaixo de salvar chamado “diário” desempenho para retornar para a grade.
     * Você pode adicionar o diário ou os diários selecionados a uma meta de forma que aparece quando você abre a meta. Um link será adicionado à guia rápida Links. Se você adicionar um diário à meta e, em seguida, adicionar a meta a uma revisão, o diário aparecerá na revisão automaticamente.  
     * Você pode adicionar o diário ou os diários selecionados a uma revisão de forma que aparece quando você abre a revisão.    Um link será adicionado em links de guia rápido.  

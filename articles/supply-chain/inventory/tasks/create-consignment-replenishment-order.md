@@ -1,21 +1,22 @@
----
+--- 
 title: "Criar uma ordem de reabastecimento de consignação"
 description: Este procedimento mostra como criar uma ordem de reabastecimento de remessa que possa acompanhar a entrega esperada de um fornecedor no estoque de remessa.
 author: mkirknel
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: f7f8005ec9e723c94d53e6ab81f04ee388c83faa
@@ -60,7 +61,7 @@ Este procedimento mostra como criar uma ordem de reabastecimento de remessa que 
 ## <a name="receive-items"></a>Receber itens
 1. Clique em Recebimento de produtos.
 2. No campo Recebimento de produtos externos, digite um valor.
-3. No campo quantidade, insira um número que é menor que o número que é mostrado.
+3. No campo quantidade, insira um número que é menor que o número que é mostrado. 
 4. Clique em OK.
 
 ## <a name="check-the-on-hand-inventory"></a>Verifique o estoque disponível
@@ -70,4 +71,5 @@ Este procedimento mostra como criar uma ordem de reabastecimento de remessa que 
     * Os itens recebidos como o estoque de remessa possuído por fornecedor disponíveis disponível. A quantidade pendente na ordem de reabastecimento de remessa é mostrada no campo total de Solicitado.  
 4. Feche a página.
 5. Clique em Fechar.
+
 

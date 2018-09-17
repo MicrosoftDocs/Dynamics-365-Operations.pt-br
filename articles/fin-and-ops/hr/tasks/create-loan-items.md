@@ -3,23 +3,24 @@ title: "Criar itens de empréstimo"
 description: "Os itens de empréstimo são registros que ajudam a manter o controle dos itens físicos, como telefones ou computadores, que sua empresa empresta aos trabalhadores."
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmLoanType, DefaultDashboard, HcmLoanItem, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 429b33366ab9ab705a0f31cb9659f58b41689152
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: cef1f9b2e3d202d7eea3a967fa8a6c371c6ac3a5
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-loan-items"></a>Criar itens de empréstimo
@@ -54,7 +55,7 @@ Os itens de empréstimo são registros que ajudam a manter o controle dos itens 
 11. No campo Valor inicial, insira um número.
 12. No campo Intervalo, insira um número.
 13. No campo Formato, digite um valor.
-    * Por exemplo, se o número de início para um item de empréstimo for 10, insira dois símbolos de números no campo Formato.  
+    * Por exemplo, se o número de início por um item de empréstimo 10, insira dois símbolos de números no campo Formato.  
 14. Clique em OK.
 15. Atualize a página.
 

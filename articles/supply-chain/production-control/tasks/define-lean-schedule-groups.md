@@ -3,31 +3,32 @@ title: Definir grupos de agendamento de lean manufacturing
 description: "Os grupos de agendamento de lean manufacturing são definidos para agrupar e distinguir produtos na programação do kanban."
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LeanScheduleGroup, GanttColorTableLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3e07fa270b47be3527c572dc53ca30a7bcde5ba6
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: a5bc20c0a9e2396365caebeb3751d2090e4575a4
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="define-lean-schedule-groups"></a>Definir grupos de agendamento de lean manufacturing
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Os grupos de agendamento de lean manufacturing são definidos para agrupar e distinguir produtos na programação do kanban. O agrupamento pode ser feito como a associação genérica por empresa ou ser específico de uma célula de trabalho. Cada grupo tem um código de cor atribuído para a indicação visual na página de listagem de agendamento de kanban. A empresa de dados demo usada para criar este procedimento é USMF.
+Os grupos de agendamento de lean manufacturing são definidos para agrupar e distinguir produtos na programação do kanban. O agrupamento pode ser feito como a associação genérica por empresa ou ser específico de uma célula de trabalho. Cada grupo tem um código de cor atribuído para a indicação visual na página de lista da programação kanban. A empresa de dados demo usada para criar este procedimento é USMF.
 
 
 ## <a name="define-lean-scheduling-group"></a>Definir grupo de agendamento de lean manufacturing
@@ -46,11 +47,11 @@ Os grupos de agendamento de lean manufacturing são definidos para agrupar e dis
 2. No campo Tipo de relação de itens, selecione Item
 3. No campo Número de item, digite um valor.
 4. No campo Índice de produtividade, insira um número.
-    * O Índice de produtividade padrão é 1, o que significa que os produtos relacionados consomem exatamente a capacidade especificada em atividades de processo dos fluxos de produção. O Índice de produtividade > 1 define um consumo de recursos mais alto, e o Índice de produtividade < 1 define um consumo de recursos mais baixo. O índice é usado no cálculo do custo e no cálculo do consumo de trabalhos kanban.  
+    * O Índice de produtividade padrão é 1, o que significa que os produtos relacionados consomem exatamente a capacidade especificada em activites do processo dos fluxos de produção. O Índice de produtividade > 1 define um consumo de recursos mais alto, e o Índice de produtividade < 1 define um consumo de recursos mais baixo. O índice é usado no cálculo do custo e no cálculo do consumo de trabalhos kanban.  
 
 ## <a name="associate-item-allocation-key"></a>Associe chave de alocação de item
 1. Associe uma chave de alocação de item
-    * Adicionar uma associação a uma chave de alocação de item usando o Grupo do tipo de relação de itens.   Observe que, para esse processo, você precisa de uma chave de alocação de item de previsão definida em seus dados.  
+    * Adicionar uma associação a uma chave de alocação de item usando o Grupo do tipo de relação de itens.   Observe que para esse processo, você precisa de uma chave de alocação de item de previsão definida em seus dados.  
 2. No campo Tipo de relação de itens, selecione Grupo
 3. No campo Chave de alocação de itens, clique no botão suspenso para abrir a pesquisa.
 4. Na lista, clique no link na linha selecionada.

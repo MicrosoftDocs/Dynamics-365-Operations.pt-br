@@ -1,31 +1,32 @@
 --- 
-title: "Criar, calcular e lançar demonstrativos para uma loja de varejo"
+title: "Criar, calcular e lançar uma declaração para uma loja de varejo"
 description: "Este procedimento orienta nas etapas manuais para criar, calcular e lançar um demonstrativo para uma loja."
 author: jashanno
 manager: AnnBe
-ms.date: 11/15/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailChannelOperationsWorkspace, RetailStatementTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 1c31c849c4c72762f0fdeb3f1d256cd3529394b2
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="create-calculate-and-post-statements-for-a-retail-store"></a>Criar, calcular e lançar demonstrativos para uma loja de varejo
+# <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a>Criar, calcular e lançar uma declaração para uma loja de varejo
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 Este procedimento orienta nas etapas manuais para criar, calcular e lançar um demonstrativo para uma loja. Há também os trabalhos em lotes que podem ser configurados para as mesmas tarefas. As etapas para configurar e executar os trabalhos em lote podem ser encontradas em outros tópicos. Para concluir este procedimento, você deve ter transações que foram concluídas no PDV e recebidas pelo Dynamics AX. Esta gravação usa a empresa USRT nos dados de demonstração. Este procedimento pode fazer referência ao Microsoft Dynamics AX. Observe que o Dynamics AX agora se chama Microsoft Dynamics 365 for Operations.
 

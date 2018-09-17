@@ -3,18 +3,19 @@ title: "Criar tipos de solicitação e critérios de avaliação para RFQs"
 description: "Este guia mostra como criar um tipo da solicitação e associar esse tipo com um método de avaliação."
 author: mkirknel
 manager: AnnBe
-ms.date: 08/23/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreateRFQCase, PurchRFQCaseTable, PurchRFQScoringRFQCaseCriteria, PurchRFQScoringCriteriaCopy
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 095855d552d228375635bdbaa9fca37c47a3b952
@@ -42,6 +43,7 @@ Este guia mostra como criar um tipo da solicitação e associar esse tipo com um
 1. Vá para Aquisição e fornecimento > Solicitações de cotações > Todas as solicitações de cotações.
 2. Clique em Novo.
 3. No campo Tipo de solicitação, selecione o tipo de solicitação que você acabou de criar. 
+    *   
 4. Clique em OK.
 5. Clique em Critérios de pontuação.
     * Os critérios de avaliação que são mostrados são esses do método de avaliação que você associou com o tipo da solicitação. Você pode escolher adicionar ou suprimir critérios nesta página. É igualmente possível adicionar critérios novos copiando os de outros métodos de avaliação.  

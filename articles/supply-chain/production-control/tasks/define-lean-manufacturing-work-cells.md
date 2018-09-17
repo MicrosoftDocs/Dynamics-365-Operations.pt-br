@@ -3,24 +3,25 @@ title: "Definir células de trabalho de lean manufacturing"
 description: "Uma célula de trabalho é um formulário específico dos grupos de recursos que podem ser usados em atividades do processo de lean manufacturing."
 author: cvocph
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WrkCtrResourceGroup, InventLocationIdLookup, UnitOfMeasureLookup, DimensionLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f060f084baab055a51e390f488ca2553bd997b92
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1d2381c045f9f0f98b35912fa732f3627b038785
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>Definir células de trabalho de lean manufacturing
@@ -56,7 +57,7 @@ Uma célula de trabalho é um formulário específico dos grupos de recursos que
     * Em vários fluxos de produção da atividade ou nas linhas de produção, normalmente este é o depósito de entrada da próxima célula de trabalho ou do depósito de vendas ou em trânsito no qual um produto, geralmente é transferido após o processo de produção. Lembre-se que ao modelar processos de lean manufacturing, o transporte geralmente é de resíduos, pois está reportando transporte.  
 16. Na lista, clique no link na linha selecionada.
 17. No campo Localização de saída, clique no botão suspenso para abrir a pesquisa.
-    * Em um fluxo de produção com várias atividades do processo, geralmente essa é a localização de entrada da próxima célula de trabalho.  
+    * Em um fluxo de produção com várias atividades do processo, geralmente é a localização de entrada da próxima célula de trabalho.  
 18. Na lista, localize e selecione o PDV desejado.
 19. Na lista, clique no link na linha selecionada.
 20. Expanda ou recolha a seção Operação.
@@ -75,7 +76,7 @@ Uma célula de trabalho é um formulário específico dos grupos de recursos que
 30. Clique em Adicionar.
 31. No campo Modelo de fluxo de produção, clique no botão suspenso para abrir a pesquisa.
 32. Na lista, localize e selecione o PDV desejado.
-    * Este procedimento exige o tipo de modelo de fluxo de produção Produtividade, para mostrar a definição da capacidade de produtividade.  
+    * Este procedimentos exige o tipo de modelo do fluxo de produção Produtividade, para mostrar a definição da capacidade de produtividade.  
 33. Na lista, clique no link na linha selecionada.
 34. No campo Período de capacidade, selecione uma opção.
     * As opções incluem: Dia útil padrão - a capacidade é expressa pela duração do dia útil padrão do calendário de horas úteis para a célula de trabalho. Para cada dia, o horário de trabalho real é determinado a partir do calendário e a capacidade disponível em vigor é calculada com base nisso.   Semana - Permite uma capacidade semanal. Não há nenhum ajuste feito no horário de trabalho real.   Mês - Permite uma capacidade mensal. Não há nenhum ajuste feito na capacidade real.   Normalmente, o dia útil padrão é usado para períodos diários e capacidade semanal é usada para períodos semanais de capacidade.  
