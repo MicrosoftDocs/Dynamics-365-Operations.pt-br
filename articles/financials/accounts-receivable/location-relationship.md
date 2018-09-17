@@ -28,6 +28,8 @@ ms.lasthandoff: 06/12/2018
 
 # <a name="add-location-roles-and-party-relationship-types"></a>Adicionar funções de local e tipos de relacionamentos do participante 
 
+[!include [banner](../includes/banner.md)]
+
 ## <a name="add-location-roles"></a>Adicionar funções de localização
 
 Há duas maneiras de adicionar novas funções do local para endereço e informações de contato:

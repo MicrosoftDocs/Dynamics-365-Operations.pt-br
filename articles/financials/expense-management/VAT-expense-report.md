@@ -26,6 +26,8 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="vat-recovery-in-expense-management"></a>Restituição do IVA no gerenciamento de despesas
 
+[!include [banner](../includes/banner.md)]
+
 Para receber reembolsos em transações de IVA (imposto sobre valor agregado) qualificadas, a empresa ou organização deve identificar, coletar, verificar e enviar informações precisas. Esse processo inclui várias tarefas e, dependendo do tamanho da empresa, pode incluir vários funcionários ou funções.
 
 Para restituir o IVA usando o gerenciamento de despesas, os seguintes pré-requisitos devem ser concluídos:
