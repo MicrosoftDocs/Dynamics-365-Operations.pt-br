@@ -19,14 +19,17 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 6e2e32f6d80ba1484bbe9eeed4da41ab70863c5a
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 64b1c09b781b7bdbaf01a374e321b8dd9418f3da
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
 # <a name="powerbicom-solutions-home-page"></a><span data-ttu-id="44bd7-103">Home page de soluções do PowerBI.com</span><span class="sxs-lookup"><span data-stu-id="44bd7-103">PowerBI.com solutions home page</span></span>
+
+[!include [banner](../includes/banner.md)]
+
 <span data-ttu-id="44bd7-104">As soluções do PowerBI.com a seguir estão disponíveis para os ambientes do Dynamics 365 for Finance and Operations.</span><span class="sxs-lookup"><span data-stu-id="44bd7-104">The following PowerBI.com solutions are available for Dynamics 365 for Finance and Operations environments.</span></span>
 
 ## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a><span data-ttu-id="44bd7-105">Soluções do PowerBI.com disponíveis no Lifecycle Services (LCS)</span><span class="sxs-lookup"><span data-stu-id="44bd7-105">PowerBI.com solutions available from Lifecycle Services (LCS)</span></span>

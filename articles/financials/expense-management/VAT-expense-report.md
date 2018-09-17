@@ -17,14 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: cf5277bf90799692b4d9d43e3279dae6e1e1bdf7
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
 # <a name="vat-recovery-in-expense-management"></a><span data-ttu-id="6dde1-103">Restituição do IVA no gerenciamento de despesas</span><span class="sxs-lookup"><span data-stu-id="6dde1-103">VAT recovery in Expense management</span></span>
+
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6dde1-104">Para receber reembolsos em transações de IVA (imposto sobre valor agregado) qualificadas, a empresa ou organização deve identificar, coletar, verificar e enviar informações precisas.</span><span class="sxs-lookup"><span data-stu-id="6dde1-104">To receive refunds on eligible value-added tax (VAT) transactions, a company or organization must identify, collect, verify, and submit accurate information.</span></span> <span data-ttu-id="6dde1-105">Esse processo inclui várias tarefas e, dependendo do tamanho da empresa, pode incluir vários funcionários ou funções.</span><span class="sxs-lookup"><span data-stu-id="6dde1-105">This process includes multiple tasks and, depending on the size of your company, can include several employees or roles.</span></span>
 
