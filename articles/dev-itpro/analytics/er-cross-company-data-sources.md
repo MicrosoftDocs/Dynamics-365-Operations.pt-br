@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 201d0f1e3fddd662748008c7304d67ef6003ef02
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 3ff94c49eed378d92e995782e73d76d669b44292
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 08/09/2018
 
 Você pode criar os formatos de relatórios eletrônicos (ER) para gerar documentos de saída em vários formatos. Quando um documento é gerado, um formato de ER chama as fontes de dados que foram configuradas em um mapeamento de modelo de ER correspondente. Para configurar o acesso a tabelas de aplicativo para a recuperação do registro, você pode usar fontes de dados de ER do tipo **Registros de tabela** . Quando a tabela de acesso é uma tabela compartilhada (isto é, uma tabela na qual os dados são salvos sem um identificador da empresa), esta fonte de dados retorna todos os registros. Quando a tabela de acesso é uma tabela dependente da empresa (isto é uma tabela onde os dados são salvos por empresa), esta fonte de dados retorna somente os registros que foram salvos para a empresa atual (isto é, o contexto da empresa que o formato de ER está executando).
 
-Cada fonte de dados do tipo **Registros de tabela** em um mapeamento de modelo pode agora ser marcado como uma fonte de dados interempresariais. No entanto, você pode usar as fontes de dados do tipo **Registros da tabela** para acessar os dados interempresariais nas tabelas do aplicativo. 
+Cada fonte de dados do tipo **Registros de tabela** em um mapeamento de modelo pode agora ser marcado como uma fonte de dados interempresariais. No entanto, você pode usar as fontes de dados do tipo **Registros da tabela** para acessar os dados interempresariais nas tabelas do aplicativo.
 
 Se você marcar uma fonte de dados como interempresarial, ocorre o seguinte comportamento:
 
@@ -44,30 +44,32 @@ Na caixa de diálogo de consulta do sistema, quando a opção **Solicitar consul
 > [!IMPORTANT]
 > Como outros filtros, o filtro da empresa é persistente como o último valor usado para consultas quando você executa um formato de ER. O filtro não é alterado automaticamente se você alterar o valor interempresarial de uma fonte de dados. Para usar um valor diferente interempresarial para outra fonte de dados, exclua a seleção específica do usuário correspondente.
 
-Para cada fonte de dados que é marcada como interempresarial, selecione os registros que você deseja, usando as funções **FILTER** e **WHERE** nas expressões do ER. O campo **dataAreaID** também pode ser usado como identificador da empresa. Atualmente, o campo **dataAreaID** está limitado aos seguintes tipos de condições, quando a função **FILTER** for usada: 
+Para cada fonte de dados que é marcada como interempresarial, selecione os registros que você deseja, usando as funções **FILTER** e **WHERE** nas expressões do ER. O campo **dataAreaID** também pode ser usado como identificador da empresa. Atualmente, o campo **dataAreaID** está limitado aos seguintes tipos de condições, quando a função **FILTER** for usada:
 
 - Somente condições que têm uma única comparação do campo **dataAreaID** são suportadas.
 - Apenas as comparações com as expressões que não depende dos itens de lista de registros são permitidas.
 
 No entanto, a seguinte expressão é válida.
 
-    FILTER (MyTable, MyTable.dataAreaID = $StringUserInputParameter)
-    While shown below expressions will not pass the validation:
-    FILTER (MyTable, MyTable.dataAreaID = MyTable2RecordsList.MyField)
-    FILTER (MyTable, 
-        OR(
-            MyTable.dataAreaID = $StringUserInputParameter1,
-            MyTable.dataAreaID = $StringUserInputParameter2
-        )
+```
+FILTER (MyTable, MyTable.dataAreaID = $StringUserInputParameter)
+While shown below expressions will not pass the validation:
+FILTER (MyTable, MyTable.dataAreaID = MyTable2RecordsList.MyField)
+FILTER (MyTable, 
+    OR(
+        MyTable.dataAreaID = $StringUserInputParameter1,
+        MyTable.dataAreaID = $StringUserInputParameter2
     )
+)
+```
 
-Por padrão, o escopo inclui todas as empresas do aplicativo atual. Porém, poderá ser restrito. Para restringir o escopo de acesso a dados interempresarial para um único formato de ER, atribua uma hierarquia organizacional específica ao formato. Quando a hierarquia é definida para um formato de ER, apenas os registros das entidades legais que são apresentados na hierarquia atribuída são retornados, mesmo que o formato chame fontes de dados interempresariais. Quando uma referência a uma hierarquia que não existe é definida para um formato de ER, o escopo padrão será aplicado e o formato chama as fontes de dados interempresariais. Nessa situação, os registros de todas as empresas do aplicativo são retornadas. 
+Por padrão, o escopo inclui todas as empresas do aplicativo atual. Porém, poderá ser restrito. Para restringir o escopo de acesso a dados interempresarial para um único formato de ER, atribua uma hierarquia organizacional específica ao formato. Quando a hierarquia é definida para um formato de ER, apenas os registros das entidades legais que são apresentados na hierarquia atribuída são retornados, mesmo que o formato chame fontes de dados interempresariais. Quando uma referência a uma hierarquia que não existe é definida para um formato de ER, o escopo padrão será aplicado e o formato chama as fontes de dados interempresariais. Nessa situação, os registros de todas as empresas do aplicativo são retornadas.
 
 Observe que quando a opção **Usar o rascunho** está ativada para aquela atribuída a uma hierarquia de organização do formato de ER único, as entidades legais da versão rascunho desta hierarquia serão usadas para identificar o escopo das fontes de dados interempresariais. Se a versão de rascunho não existir, as entidades legais da última versão publicada dessa hierarquia da organização serão usadas para isso.
 
 Observe que quando a opção **Usar rascunho** estiver desativada para aquela atribuída a uma hierarquia de organização do formato de ER único, as entidades legais da última versão publicada desta hierarquia da organização serão usadas para identificar o escopo das fontes de dados interempresariais. A eficiência de data das hierarquias de organização não é suportada ainda na estrutura de ER.
 
-A hierarquia pode ser atribuída a um formato em uma página específica que pode ser acessada do espaço de trabalho de ER ou usando o item de menu **Administração da organização - > Relatório eletrônico - > Filtro de entidade legal para formatos** . Para acessar a página, o privilégio **Manter filtros de entidade legal para formatos** (ERMaintainFormatMappingLegalEntityFilters) deve ser concedido a um usuário. A restrição do escopo de entidades legais baseadas para o formato é aplicada, além das restrições que o usuário pode especificar manualmente na caixa de diálogo de consulta do sistema. A interseção dessas restrições é usada quando o formato é executado.
+A hierarquia pode ser atribuída a um formato em uma página específica que pode ser acessada do espaço de trabalho de ER ou usando o item de menu **Administração da organização \> Relatório eletrônico \> Filtro de entidade legal para formatos**. Para acessar a página, o privilégio **Manter filtros de entidade legal para formatos** (ERMaintainFormatMappingLegalEntityFilters) deve ser concedido a um usuário. A restrição do escopo de entidades legais baseadas para o formato é aplicada, além das restrições que o usuário pode especificar manualmente na caixa de diálogo de consulta do sistema. A interseção dessas restrições é usada quando o formato é executado.
 
 Para saber mais sobre este recurso, execute a guia de tarefas **ER Acessar registro de tabelas dependentes da empresa no modo interempresarial**, que faz parte do processo de negócios 7.5.4.3 Adquirir/Desenvolver componentes de serviço/solução de TI (10677) e pode ser baixada do [Centro de Download Microsoft](https://go.microsoft.com/fwlink/?linkid=874684). Este guia de tarefas o orienta por todo o processo de configuração de um mapeamento de modelos de ER e formato de ER para acessar tabelas do aplicativo no modo interempresarial.
 

@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
-ms.openlocfilehash: d58bab48c65bb891155af95c79738b019e5760bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -66,13 +66,11 @@ Você pode adicionar entidades específicas a um trabalho de importação ou de 
 ### <a name="set-the-data-format-for-the-job"></a>Definir o formato de dados para o trabalho
 Quando você seleciona uma entidade, é necessário selecionar o formato de dados que será exportado ou importado. Você define formatos usando o bloco **Configuração das fontes de dados** . Um formato de dados de origem é uma combinação de **Tipo**, **Formato de arquivo**, **Delimitador de linha** e **Delimitador de colunas**. Há outros atributos também, mas esses são os principais a serem compreendidos A tabela a seguir lista as combinações válidas.
 
-| **Formato de Arquivo**        | **Delimitador de linha/coluna**                   | **Estilo XML**             |
+| Formato de Arquivo            | Delimitador de linha/coluna                       | Estilo XML                 |
 |------------------------|--------------------------------------------|---------------------------|
 | Excel                  | Excel                                      | \-NA-                     |
 | XML                    | \-NA-                                      | Elemento XML Atributo XML |
 | Delimitado, largura fixa | Vírgula, ponto e vírgula, guia, barra vertical, dois pontos | \-NA-                     |
-
-
 
 ### <a name="sequence-the-entities"></a>Definir sequências das entidades
 As entidades podem ser sequenciadas em um modelo de dados, ou em trabalhos de importação e exportação. Quando você executa um trabalho que contém mais de uma entidade de dados, você deve garantir que as entidades de dados estão sequenciadas corretamente. Você define a sequência, de forma que possa tratar todas as dependências funcionais entre entidades. Se as entidades se não tiverem dependências funcionais, elas podem ser programadas para importação ou exportação paralela.

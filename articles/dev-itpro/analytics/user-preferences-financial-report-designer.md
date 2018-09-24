@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -30,25 +30,24 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo explica como definir as preferências do usuário para personalizar as interações do usuário no designer de relatório financeiro e controlar a experiência de logon inicial. Você também pode controlar como relatórios individuais, biblioteca de relatórios e os locais de arquivo padrão são exibidos. 
+Este artigo explica como definir as preferências do usuário para personalizar as interações do usuário no designer de relatório financeiro e controlar a experiência de logon inicial. Você também pode controlar como relatórios individuais, biblioteca de relatórios e os locais de arquivo padrão são exibidos.
 
-<a name="set-user-preferences"></a>Definir preferências do usuário
---------------------
+## <a name="set-user-preferences"></a>Definir preferências do usuário
 
-1.  No Designer de Relatórios, no menu **Ferramentas**, clique em **Opções**.
-2.  Na caixa de diálogo **Opções**, selecione suas preferências.
-3.  Clique em **OK**.
+1. No Designer de Relatórios, no menu **Ferramentas**, clique em **Opções**.
+2. Na caixa de diálogo **Opções**, selecione suas preferências.
+3. Clique em **OK**.
 
 ## <a name="options-dialog-box-options"></a>Opções da caixa de diálogo Opções
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Opção do usuário</th>
 <th>descrição</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Na inicialização</td>
 <td>Selecione o que você vê quando Designer de Relatórios é iniciado. Selecione uma das seguintes opções:
 <ul>
@@ -57,28 +56,22 @@ Este artigo explica como definir as preferências do usuário para personalizar 
 <li><strong>Mostrar ambiente vazio</strong> – Abre uma janela vazia de designer.</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>Exibir confirmação antes de sair do Designer de Relatórios</td>
 <td>Selecione se deseja receber uma mensagem de aviso quando você sair do aplicativo. Esta mensagem ajuda a garantir que você não saia do programa sem querer.</td>
 </tr>
-<tr class="odd">
-<td>Aplicar automaticamente o sublinhado de célula nos cabeçalhos da coluna</td>
+<tr>
+<td>Aplicar automaticamente sublinhado de célula em cabeçalhos da coluna</td>
 <td>Selecione se deseja inserir um sublinhado na célula de um novo cabeçalho de coluna.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Localização de arquivos do Management Reporter</td>
 <td>Especifique a localização padrão de arquivos. O aplicativo usa o local padrão quando você exporta grupos de bloco de construção.</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
-
-
-
 

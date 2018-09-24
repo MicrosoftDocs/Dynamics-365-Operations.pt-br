@@ -17,10 +17,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d59a7aef90ecef0cd947b833f1cce1e2372f3033
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
 ms.contentlocale: pt-br
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -43,7 +43,7 @@ As variações de produção são calculadas como a diferença entre o custo est
 O conteúdo do Power BI **Desempenho de produção** contém dados que se originam de ordens de produção e de ordens de lotes. Os relatórios não incluem dados relacionados às produções de Kanban.
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-O conteúdo do Power BI de **Desempenho de produção** é exibido na página **Desempenho de produção** (**Controle de produção** > **Consultas e relatórios** > **Teste de desempenho de produção** > **Desempenho de produção**). 
+O conteúdo do Power BI de **Desempenho da produção** é exibido na página **Desempenho da produção** (**Controle de produção** \> **Consultas e relatórios** \> **Análise do desempenho da produção** \> **Desempenho da produção**). 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
 
@@ -51,9 +51,9 @@ O conteúdo do Power BI **Desempenho de produção** inclui um conjunto de pági
 
 A tabela a seguir fornece uma visão geral das visualizações incluídas.
 
-| Página de relatório                                | Gráficos                                               | Blocos |
-|--------------------------------------------|------------------------------------------------------|-------|
-| Desempenho da produção                     | <ul><li>Número de produção por data</li><li>Número de produções por produto e grupo de itens</li><li>Número de produções planejadas por data</li><li>10 piores produtos por prazo & totalidade</li></ul> | <ul><li>Total de ordens</li><li>No prazo e na totalidade</li><li>Incompleto %</li><li>Antecipada %</li><li>Atrasado %</li></ul> |
+| Página de relatório                                | Gráficos | Blocos |
+|--------------------------------------------|--------|-------|
+| Desempenho da produção                     | <ul><li>Número de produção por data</li><li>Número de produções por produto e grupo de itens</li><li>Número de produções planejadas por data</li><li>10 piores produtos por prazo e totalidade</li></ul> | <ul><li>Total de ordens</li><li>No prazo e na totalidade</li><li>Incompleto %</li><li>Antecipada %</li><li>Atrasado %</li></ul> |
 | Defeitos por produto                         | <ul><li>Taxa defeituosa (ppm) por data</li><li>Taxa defeituosa (ppm) por produto e grupo de itens</li><li>Quantidade produzida por data</li><li>10 melhores produtos por taxa efetiva</li></ul> | <ul><li>Taxa defeituosa (ppm)</li><li>Quantidade com defeito</li><li>Quantidade total</li></ul> |
 | Tendência de defeitos por produto                   | Taxa de defeito (ppm) por quantidade produzida | Taxa de defeito (ppm) |
 | Defeitos por recurso                        | <ul><li>Taxa de defeito (ppm) por data</li><li>Taxa de defeito (ppm) por recurso e site</li><li>Taxa de defeito (ppm) por operação</li><li>10 principais recursos por taxa de defeito</li></ul> | Quantidade com defeito |
@@ -88,35 +88,35 @@ A tabela a seguir mostra como as principais medidas agregadas são usadas para c
 
 | Medição                  | Como a medida é calculada |
 |--------------------------|-------------------------------|
-| Variação de produção %   | SUM('Variação de produção'[Variação de produção]) / SUM('Variação de produção'[Custo estimado]) |
+| Variação de produção %   | SUM('Variação de produção'\[Variação de produção\]) / SUM('Variação de produção'\[Custo estimado\]) |
 | Todas as ordens planejadas       | COUNTROWS('Ordem de produção planejada') |
-| Antecipada                    | COUNTROWS(FILTRO('Ordem de produção planejada', Ordem de produção planejada'[Data de término planejada] \< 'Ordem de produção planejada'[Data do requisito])) |
-| Atrasada                     | COUNTROWS(FILTRO('Ordem de produção planejada', Ordem de produção planejada'[Data de término planejada] \> 'Ordem de produção planejada'[Data do requisito])) |
-| No prazo                  | COUNTROWS(FILTRO('Ordem de produção planejada', Ordem de produção planejada'[Data de término planejada] = 'Ordem de produção planejada'[Data do requisito])) |
-| No prazo %                | IF ( 'Ordem de produção planejada'[No prazo] \<\> 0, 'Ordem de produção planejada'[No prazo], IF ('Ordem de produção planejada'[Todas as ordens planejadas] \<\> 0, 0, BLANK()) ) / 'Ordem de produção planejada'[Todas as ordens planejadas] |
-| Concluídos                | COUNTROWS(FILTRO('Ordem de produção', 'Ordem de produção'[Is RAF'ed] = TRUE)) |
-| Taxa defeituosa (ppm)     | IF( 'Ordem de produção'[Quantidade total] = 0, BLANK(), (SUM('Ordem de produção'[Quantidade defeituosa]) / 'Ordem de produção'[Quantidade total]) \* 1000000) |
-| Taxa de produção em atraso  | 'Ordem de produção'[Atrasada \#] / 'Ordem de produção'[Concluída] |
-| Antecipadamente e na totalidade          | COUNTROWS(FILTRO('Ordem de produção', 'Ordem de produção'[Está na totalidade] = TRUE && 'Ordem de produção'[Está antecipada] = TRUE)) |
-| Antecipada \#                 | COUNTROWS(FILTRO('Ordem de produção', 'Ordem de produção'[Está antecipada] = TRUE)) |
-| Antecipada %                  | IFERROR( IF('Ordem de produção'[Antecipada \#] \<\> 0, 'Ordem de produção'[Antecipada \#], IF('Ordem de produção'[Total de ordens] = 0, BLANK(), 0)) / 'Ordem de produção'[Total de ordens], BLANK()) |
-| Incompleto               | COUNTROWS(FILTRO('Ordem de produção', 'Ordem de produção'[Está na totalidade] = FALSE && 'Ordem de produção'[Is RAF'ed] = TRUE)) |
-| Incompleto %             | IFERROR( IF('Ordem de produção'[Incompleta] \<\> 0, 'Ordem de produção'[Incompleta], IF('Ordem de produção'[Total de ordens] = 0, BLANK(), 0)) / 'Ordem de produção'[Total de ordens], BLANK()) |
-| Está atrasada               | 'Ordem de produção'[Is RAF'ed] = TRUE && 'Ordem de produção'[Valor atrasado] = 1 |
-| Está antecipado                 | 'Ordem de produção'[Is RAF'ed] = TRUE && 'Ordem de produção'[Dias de atraso] \< 0 |
-| Está na totalidade               | 'Ordem de produção'[Boa quantidade] \>= 'Ordem de produção'[Quantidade programada] |
-| É RAF'ed                | 'Ordem de produção'[Valor de status de produção] = 5 \|\| 'Ordem de produção'[Valor de status de produção] = 7 |
-| Atrasado e na totalidade           | COUNTROWS(FILTRO('Ordem de produção', 'Ordem de produção'[Está na totalidade] = TRUE && 'Ordem de produção'[Está atrasada] = TRUE)) |
-| Atrasado \#                  | COUNTROWS(FILTRO('Ordem de produção', 'Ordem de produção'[Está atrasada] = TRUE)) |
-| Atrasado %                   | IFERROR( IF('Ordem de produção'[Atrasada \#] \<\> 0, 'Ordem de produção'[Atrasada \#], IF('Ordem de produção'[Total de ordens] = 0, BLANK(), 0)) / 'Ordem de produção'[Total de ordens], BLANK()) |
-| No prazo e na totalidade        | COUNTROWS(FILTRO('Ordem de produção', 'Ordem de produção'[Está na totalidade] = TRUE && 'Ordem de produção'[Está atrasada] = FALSE && 'Ordem de produção'[Está antecipada] = FALSE)) |
-| No prazo e na totalidade      | IFERROR( IF('Ordem de produção'[No prazo e na totalidade] \<\> 0, 'Ordem de produção'[No prazo e na totalidade], IF('Ordem de produção'[Concluída] = 0, BLANK(), 0)) / 'Ordem de produção'[Concluída], BLANK()) |
+| Antecipada                    | COUNTROWS(FILTRO('Ordem de produção planejada', 'Ordem de produção planejada'\[Data de término planejada\] \< 'Ordem de produção planejada'\[Data do requisito\])) |
+| Em atraso                     | COUNTROWS(FILTRO('Ordem de produção planejada', 'Ordem de produção planejada'\[Data de término planejada\] \> 'Ordem de produção planejada'\[Data do requisito\])) |
+| No prazo                  | COUNTROWS(FILTER('Ordem de produção planejada', 'Ordem de produção planejada'\[Data de término planejada\] = 'Ordem de produção planejada'\[Data do requisito\])) |
+| No prazo %                | IF ( 'Ordem de produção planejada'\[No prazo\] \<\> 0, 'Ordem de produção planejada'\[No prazo\], IF ('Ordem de produção planejada'\[Todas as ordens planejadas\] \<\> 0, 0, BLANK()) ) / 'Ordem de produção planejada'\[Todas as ordens planejadas\] |
+| Concluída                | COUNTROWS(FILTRO('Ordem de produção', 'Ordem de produção'\[Is RAF'ed\] = TRUE)) |
+| Taxa defeituosa (ppm)     | IF( 'Ordem de produção'\[Quantidade total\] = 0, BLANK(), (SUM('Ordem de produção'\[Quantidade com defeito\]) / 'Ordem de produção'\[Quantidade total\]) \* 1000000) |
+| Taxa de produção em atraso  | 'Ordem de produção'\[Atrasada \#\] / 'Ordem de produção'\[Concluída\] |
+| Antecipadamente e na totalidade          | COUNTROWS(FILTRO('Ordem de produção', 'Ordem de produção'\[Is in full\] = TRUE && 'Ordem de produção'\[Está antecipada\] = TRUE)) |
+| Antecipada \#                 | COUNTROWS(FILTRO('Ordem de produção', 'Ordem de produção'\[Está antecipada\] = TRUE)) |
+| Antecipada %                  | IFERROR( IF('Ordem de produção'\[Antecipada \#\] \<\> 0, 'Ordem de produção'\[Antecipada \#\], IF('Ordem de produção'\[Total de ordens\] = 0, BLANK(), 0)) / 'Ordem de produção'\[Total de ordens\], BLANK()) |
+| Incompleto               | COUNTROWS(FILTRO('Ordem de produção', 'Ordem de produção'\[Está na totalidade\] = FALSE && 'Ordem de produção'\[Is RAF'ed\] = TRUE)) |
+| Incompleto %             | IFERROR( IF('Ordem de produção'\[Incompleta\] \<\> 0, 'Ordem de produção'\[Incompleta\], IF('Ordem de produção'\[Total de ordens\] = 0, BLANK(), 0)) / 'Ordem de produção'\[Total de ordens\], BLANK()) |
+| Está atrasada               | 'Ordem de produção'\[Is RAF'ed\] = TRUE && 'Ordem de produção'\[Valor atrasado\] = 1 |
+| Está antecipado                 | 'Ordem de produção'\[Is RAF'ed\] = TRUE && 'Ordem de produção'\[Dias de atraso\] \< 0 |
+| Está na totalidade               | 'Ordem de produção'\[Boa quantidade\] \>= 'Ordem de produção'\[Quantidade programada\] |
+| É RAF'ed                | 'Ordem de produção'\[Valor de status de produção\] = 5 \|\| 'Ordem de produção'\[Valor de status de produção\] = 7 |
+| Atrasado e na totalidade           | COUNTROWS(FILTER('Ordem de produção', 'Ordem de produção'\[Está na totalidade\] = TRUE && 'Ordem de produção'\[Está atrasada\] = TRUE)) |
+| Atrasado \#                  | COUNTROWS(FILTRO('Ordem de produção', 'Ordem de produção'\[Está atrasada\] = TRUE)) |
+| Atrasado %                   | IFERROR( IF('Ordem de produção'\[Atrasada \#\] \<\> 0, 'Ordem de produção'\[Atrasada \#\], IF('Ordem de produção'\[Total de ordens\] = 0, BLANK(), 0)) / 'Ordem de produção'\[Total de ordens\], BLANK()) |
+| No prazo e na totalidade        | COUNTROWS(FILTRO('Ordem de produção', 'Ordem de produção'\[Está na totalidade\] = TRUE && 'Ordem de produção'\[Is delayed\] = FALSE && 'Ordem de produção'\[Está antecipada\] = FALSE)) |
+| No prazo e na totalidade      | IFERROR( IF('Ordem de produção'\[No prazo e na totalidade\] \<\> 0, 'Ordem de produção'\[No prazo e na totalidade\], IF('Ordem de produção'\[Concluída\] = 0, BLANK(), 0)) / 'Ordem de produção'\[Concluída\], BLANK()) |
 | Total de ordens             | COUNTROWS('Ordem de produção') |
-| Quantidade total           | SUM('Ordem de produção'[Boa quantidade]) + SUM('Ordem de produção'[Quantidade com defeito]) |
-| Taxa de defeito (ppm)        | IF( 'Transações de roteiro'[Quantidade processada] = 0, BLANK(), (SUM('Transações de roteiro'[Quantidade com defeito]) / 'Transações de roteiro'[Quantidade processada]) \* 1000000) |
-| Taxa mista de defeitos (ppm) | IF( 'Transações de roteiro'[Quantidade total mista] = 0, BLANK(), (SUM('Transações de roteiro'[Quantidade com defeito]) / 'Transações de roteiro'[Quantidade total mista]) \* 1000000) |
-| Quantidade processada       | SUM('Transações de roteiro'[Boa quantidade]) + SUM('Transações de roteiro'[Quantidade com defeito]) |
-| Quantidade mista total     | SUM('Ordem de produção'[Boa quantidade]) + SUM('Transações de roteiro'[Quantidade com defeito]) |
+| Quantidade total           | SUM('Ordem de produção'\[Boa quantidade\]) + SUM('Ordem de produção'\[Quantidade com defeito\]) |
+| Taxa de defeito (ppm)        | IF( 'Transações de roteiro'\[Quantidade processada\] = 0, BLANK(), (SUM('Transações de roteiro'\[Quantidade com defeito\]) / 'Route transactions'\[Quantidade processada\]) \* 1000000) |
+| Taxa mista de defeitos (ppm) | IF( 'Transações de roteiro'\[Quantidade total mista\] = 0, BLANK(), (SUM('Transações de roteiro'\[Quantidade com defeito\]) / 'Transações de roteiro'\[Quantidade total mista\]) \* 1000000) |
+| Quantidade processada       | SUM('Transações de roteiro'\[Boa quantidade\]) + SUM('Transações de roteiro'\[Quantidade com defeito\]) |
+| Quantidade mista total     | SUM('Ordem de produção'\[Boa quantidade\]) + SUM('Transações de roteiro'\[Quantidade com defeito\]) |
 
 A tabela a seguir mostra as dimensões-chave que são usadas como filtros para cortar as medidas agregadas, para que você possa obter maior granularidade e obter informações analíticas mais profundas.
 
@@ -130,6 +130,4 @@ A tabela a seguir mostra as dimensões-chave que são usadas como filtros para c
 | Entidades                  | Id e nome                                                   |
 | Recursos                 | ID do recurso, nome do recurso, tipo de recurso e grupo de recursos |
 | Produtos                  | Número do produto, nome do produto, identificação do item e grupo de itens         |
-
-
 

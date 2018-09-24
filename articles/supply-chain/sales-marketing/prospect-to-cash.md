@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a57e23691a6b4d48c6b8dd6d1f61fc9730365b39
-ms.openlocfilehash: 9d20a0ba92010be17029b1b0fc826eee1cded279
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: b46ece384a28f8e78989253fcf467fbf3feaf1b7
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -33,8 +33,7 @@ ms.lasthandoff: 05/31/2018
 
 A solução Prospect to cash fornece sincronização direta entre o Dynamics 365 for Finance and Operations e o Dynamics 365 for Sales. Os modelos Prospect to cash que estão disponíveis com o recurso Integração de Dados permitem o fluxo de dados para contas, contatos, produtos, cotações de vendas, ordens de venda e faturas de vendas entre o Finance and Operations e o Sales. Apesar de os dados estarem fluindo entre o Finance and Operations e o Sales, você pode executar atividades de vendas e de marketing no Sales e pode tratar o atendimento da ordem usando o gerenciamento de estoque no Finance and Operations. 
 
-Para obter mais informações sobre a integração Prospect to cash, assista ao vídeo curto no YouTube: [![](https://img.youtube.com/vi/AVV9x5x-XCg/0.jpg)](https://www.youtube.com/watch?v=AVV9x5x-XCg)
-
+Para obter mais informações sobre a integração do cliente potencial ao pagamento à vista, assista ao vídeo curto no YouTube [Integração do cliente potencial ao pagamento à vista](https://www.youtube.com/watch?v=AVV9x5x-XCg).
 
 Na versão atual, a solução Prospect to cash fornece os seguintes tipos de sincronização direta:
 

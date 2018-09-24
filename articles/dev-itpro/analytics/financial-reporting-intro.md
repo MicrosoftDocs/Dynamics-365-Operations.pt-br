@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 3e12037f14e7e01764fd6d18f52854c35a09d196
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: ae2087cf142fc2670bda3c542b336f12978178a6
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,34 +35,31 @@ A emissão de relatórios financeiros do Finance and Operations permite que prof
 A emissão de relatórios financeiros inclui o suporte de dimensão. Portanto, segmentos de conta ou dimensões estão imediatamente disponíveis. Não há ferramentas adicionais ou etapas de configuração necessárias.
 
 ## <a name="financial-reporting-setup"></a>Configuração de relatórios financeiros
-A página **Configuração de relatórios financeiros** possui uma lista de todas as dimensões financeiras no sistema. **Contabilidade** > **Configuração do razão** > **Configuração de relatórios financeiros**. 
+A página **Configuração de relatórios financeiros** possui uma lista de todas as dimensões financeiras no sistema. **Contabilidade** \> **Configuração do razão** \> **Configuração de relatórios financeiros**.
 
 A página **Configuração de relatórios financeiros** possui duas seções que determinam os dados que você relata no Relatório financeiro:
 
-•   **Guia Dimensões** - como empresas diferentes usam dimensões e estruturas de conta diferentes, não há como determinar a ordem em que os usuários desejam exibir todas as dimensões financeiras nos relatórios. Esta página permite definir a ordem na qual você deseja que as dimensões financeiras sejam exibidas ao criar e exibir um relatório no Relatório financeiro.
-
-•   **Guia Atributos** - é onde você pode selecionar se deseja a capacidade de usar **Fornecedores** e **Clientes** como atributos para filtragem e design de relatório. O relatório de Fornecedor e Cliente será valioso apenas se você não inserir vários fornecedores ou clientes em um único comprovante ao lançar transações. Escolher o Fornecedor e/ou o Cliente adicionará um tempo extra à integração.
-
-
+- **Guia Dimensões** - como empresas diferentes usam dimensões e estruturas de conta diferentes, não há como determinar a ordem em que os usuários desejam exibir todas as dimensões financeiras nos relatórios. Esta página permite definir a ordem na qual você deseja que as dimensões financeiras sejam exibidas ao criar e exibir um relatório no Relatório financeiro.
+- **Guia Atributos** - é onde você pode selecionar se deseja a capacidade de usar **Fornecedores** e **Clientes** como atributos para filtragem e design de relatório. O relatório de Fornecedor e Cliente será valioso apenas se você não inserir vários fornecedores ou clientes em um único comprovante ao lançar transações. Escolher o Fornecedor e/ou o Cliente adicionará um tempo extra à integração.
 
 ## <a name="financial-reporting-components"></a>Componentes de relatórios financeiros
 Os componentes a seguir do relatório financeiro facilitam a criação, exibição e agendamento de relatórios.
 
-| Componente        | Funções                                                                                                                                                                                                                                                                           | Informações adicionais                                                                          |
-|------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|
-| Designer de Relatórios  | A criação dos blocos de construção do relatório que podem ser combinados para definir e gerar um relatório. O assistente de relatório orienta usuários menos experientes no processo de design. Os usuários avançados podem criar novos blocos de construção de relatório ou mudar blocos de construção existentes para atender aos seus requisitos. |                                                                                                 |
-| Agendas de relatórios | Agende um relatório único ou um grupo de relatórios para que ele seja gerado em uma base regular.                                                                                                                                                                                          | [Gerar um relatório financeiro](generate-financial-report.md) |
+| Componente        | Funções | Informações adicionais |
+|------------------|-----------|------------------------|
+| Designer de Relatórios  | A criação dos blocos de construção do relatório que podem ser combinados para definir e gerar um relatório. O assistente de relatório orienta usuários menos experientes no processo de design. Os usuários avançados podem criar novos blocos de construção de relatório ou mudar blocos de construção existentes para atender aos seus requisitos. | |
+| Agendas de relatórios | Agende um relatório único ou um grupo de relatórios para que ele seja gerado em uma base regular. | [Gerar um relatório financeiro](generate-financial-report.md) |
 
 ## <a name="features"></a>Recursos
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>Recurso</th>
 <th>descrição</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Flexibilidade na criação de relatórios</td>
 <td>O Designer de Relatórios fornece as seguintes opções de relatório quando você cria um relatório:
 <ul>
@@ -70,9 +67,10 @@ Os componentes a seguir do relatório financeiro facilitam a criação, exibiç�
 <li>Controlar como as descrições de dimensão são formatadas e exibidas.</li>
 <li>Identificar as contas ou dimensões que foram omitidas dos blocos de construção do relatório.</li>
 <li>Formatar cabeçalhos para previsões contínuas.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Colaboração de relatório financeiro</td>
 <td>Os seguintes recursos ajudam a gerenciar a geração e distribuição de relatórios:
 <ul>
@@ -80,9 +78,10 @@ Os componentes a seguir do relatório financeiro facilitam a criação, exibiç�
 <li>Exportar para o formato XPS somente leitura, que fornece a melhor segurança de documentos por meio de assinaturas digitais.</li>
 <li>Exportar para uma planilha do Microsoft Excel.</li>
 <li>Para compartilhar relatórios, você pode criar mensagens de emails contendo links para os relatórios.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>Exibição interativa de relatório</td>
 <td>Os recursos interativos permitem executar as seguintes tarefas:
 <ul>
@@ -99,8 +98,4 @@ Os componentes a seguir do relatório financeiro facilitam a criação, exibiç�
 
 ## <a name="additional-resources"></a>Recursos adicionais
 [Gerar um relatório financeiro](generate-financial-report.md)
-
-
-
-
 

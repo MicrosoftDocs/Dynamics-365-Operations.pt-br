@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 55699cb41c712b49954f9ad6b03c2e7813a3a98a
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,21 +36,21 @@ Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI *
 
 O conteúdo do Power BI **Desempenho de vendas e lucratividade** foi criado para que os gerentes de vendas possam monitorar as principais métricas de vendas de receita, lucro bruto e margens de lucro. Ele usa dados transacionais de vendas e fornece uma visão agregada dos números de vendas da empresa e uma quebra do desempenho de vendas para clientes e produtos.
 
-Os relatórios destacam as mudanças na receita e no crescimento dos lucros ao longo do tempo. Portanto, os relatórios podem ser usados para alertar os gerentes sobre tendências positivas e negativas para clientes e produtos individuais. Além disso, os gráficos comparam a receita e a rentabilidade de diferentes categorias de produtos e grupos de clientes entre si. Portanto, a categoria e os gerentes regionais podem identificar retardatários e líderes. Finalmente, um relatório abrangente representa a receita de um cliente individual versus margem de lucro. Portanto, os gerentes de contas possuem uma base de dados que podem usar para afinar seus esforços de vendas e marketing para o perfil de cada cliente. 
+Os relatórios destacam as mudanças na receita e no crescimento dos lucros ao longo do tempo. Portanto, os relatórios podem ser usados para alertar os gerentes sobre tendências positivas e negativas para clientes e produtos individuais. Além disso, os gráficos comparam a receita e a rentabilidade de diferentes categorias de produtos e grupos de clientes entre si. Portanto, a categoria e os gerentes regionais podem identificar retardatários e líderes. Por fim, um relatório abrangente representa a receita de um cliente individual em relação à margem de lucro. Portanto, os gerentes de contas têm uma base de dados que podem usar para ajustar suas iniciativas de vendas e marketing para o perfil de cada cliente.
 
 O conteúdo **Desempenho de lucratividade e vendas** permite aos gerentes de vendas analisar o desempenho das vendas das seguintes maneiras:
 
--   Receita, anual (por grupo de clientes e clientes individuais, por categorias de venda, por produtos individuais e por geografias)
--   Alteração de receita, ano a ano (por regiões de cliente e categorias de venda)
+- Receita, anual (por grupo de clientes e clientes individuais, por categorias de venda, por produtos individuais e por geografias)
+- Alteração de receita, ano a ano (por regiões de cliente e categorias de venda)
 
 A lucratividade pode ser analisado das seguintes formas:
 
--   Lucro bruto e margem de lucro (por grupos de clientes e categorias de venda de produtos)
--   Alteração de lucro bruto, ano após ano
--   Lucratividade de cliente (por receita versus margem bruta)
+- Lucro bruto e margem de lucro (por grupos de clientes e categorias de venda de produtos)
+- Alteração de lucro bruto, ano após ano
+- Lucratividade de cliente (por receita versus margem bruta)
 
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
-O conteúdo do Power BI **Desempenho de vendas e de lucratividade** é mostrado na página **Desempenho de vendas e de lucratividade** (**Vendas e marketing** > **Consultas e relatórios** > **Análise de desempenho de venda** > **Desempenho de vendas e de lucratividade**). 
+O conteúdo do Power BI **Desempenho de vendas e de lucratividade** é exibido na página **Desempenho de vendas e de lucratividade** (**Vendas e marketing** \> **Consultas e relatórios** \> **Análise de desempenho de vendas** \> **Desempenho de vendas e de lucratividade**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
 O conteúdo do Power BI **Desempenho de lucratividade e vendas** inclui um relatório que consiste em um conjunto de métricas. Estas métricas são visualizadas como gráficos, blocos e tabelas. A tabela a seguir fornece uma visão geral das visualizações no conteúdo.
@@ -77,19 +77,18 @@ O conteúdo do Power BI **Desempenho de lucratividade e vendas** inclui um relat
 
 \* Receita este ano e último ano, e crescimento por categoria de vendas.
 
-
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
-Os seguintes dados são usados para preencher o relatório no conteúdo do Power BI **Desempenho de lucratividade e vendas**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com a loja Entidade](power-bi-integration-entity-store.md). 
+Os seguintes dados são usados para preencher o relatório no conteúdo do Power BI **Desempenho de lucratividade e vendas**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com a loja Entidade](power-bi-integration-entity-store.md).
 
-As medidas agregadas neste conteúdo são o subconjunto de medidas agregadas que estavam disponíveis no Cubo de Vendas no Microsoft Dynamics AX 2012 e no Microsoft Dynamics AX 2012 R3. Para preparar as medidas agregadas do cubo na loja Entidade, você deve torná-las implementáveis. Para obter mais informações, consulte o procedimento sobre como preparar medidas agregadas na loja Entidade na postagem do blog [Integração do Power BI com a loja Entidade no Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/). 
+As medidas agregadas neste conteúdo são o subconjunto de medidas agregadas que estavam disponíveis no Cubo de Vendas no Microsoft Dynamics AX 2012 e no Microsoft Dynamics AX 2012 R3. Para preparar as medidas agregadas do cubo na loja Entidade, você deve torná-las implementáveis. Para obter mais informações, consulte o procedimento sobre como preparar medidas agregadas na loja Entidade na postagem do blog [Integração do Power BI com a loja Entidade no Dynamics](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/).
 
 As principais medidas agregadas a seguir da entidade Linhas de fatura são usadas como base do conteúdo.
 
-| Entidade        | Principais medidas agregadas                   | Fonte de dados para Dynamics 365                    | Campo                                        | descrição                                   |
-|---------------|----------------------------------------------|-------------------------------------------------|----------------------------------------------|----------------------------------------------|
-| Linhas da fatura | Receita                                      | CustInvoiceTrans                                | SUM(LineAmountMST)                           | O valor na moeda contábil.            |
-|               | Custo dos produtos vendidos                           | InventTrans                                     | SUM(CostAmountPosted + CostAmountAdjustment) | A soma o valor de custo e o ajuste.    |
-|               | Valor da linha de comissão - moeda contábil | CustInvoiceTrans                                | SUM(CommissAmountMST)                        | O valor da comissão na moeda de contabilidade. |
+| Entidade        | Principais medidas agregadas                   | Fonte de dados para Dynamics 365 | Campo                                        | descrição                                       |
+|---------------|----------------------------------------------|------------------------------|----------------------------------------------|---------------------------------------------------|
+| Linhas da fatura | Receita                                      | CustInvoiceTrans             | SUM(LineAmountMST)                           | O valor na moeda contábil.            |
+|               | Custo dos produtos vendidos                           | InventTrans                  | SUM(CostAmountPosted + CostAmountAdjustment) | A soma o valor de custo e o ajuste.    |
+|               | Valor da linha de comissão - moeda contábil | CustInvoiceTrans             | SUM(CommissAmountMST)                        | O valor da comissão na moeda de contabilidade. |
 
 A tabela a seguir mostra as principais medidas agregadas da entidade de linhas de fatura que são usadas para criar diversas medidas calculadas no conjunto de dados do conteúdo.
 

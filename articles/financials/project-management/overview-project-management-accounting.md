@@ -35,7 +35,9 @@ A funcionalidade de gerenciamento de projetos e da contabilidade pode ser usada 
 Um projeto é um grupo de atividades que visa oferecer um serviço, produzir um produto ou alcançar um resultado. Os projetos consomem recursos e geram resultados financeiros na forma de receitas ou ativos.
 
 ## <a name="projects-across-industries"></a>Projetos em indústrias
-A funcionalidade de gerenciamento de projetos e de contabilidade pode ser usada em várias indústrias, conforme mostrado na ilustração. [![Projetos entre indústrias](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+A funcionalidade de gerenciamento de projetos e de contabilidade pode ser usada em várias indústrias, conforme mostrado na ilustração.
+
+[![Projetos entre indústrias](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 Em um call center, um bilhete pode ser usado para descrever o conjunto de ações que são necessárias para resolver uma chamada. As empresas de consultoria, como organizações de gerenciamento ou consulta técnica, ou agências de publicidade, referem-se a suas atividades como projetos. Em marketing, uma campanha representa um conjunto de trabalho que deve ser entregue. Na fabricação baseada em projeto, uma ordem de produção relaciona diversos trabalhos que devem ser feitos para gerar alguns bens acabados. Seja qual for o nome usado para eles, esses projetos envolvem recursos, planejamentos e custos, e a funcionalidade de gerenciamento de projeto e contabilidade do Microsoft Dynamics 365 for Finance and Operations pode ajudar no planejamento, execução e análise desses projetos.
 

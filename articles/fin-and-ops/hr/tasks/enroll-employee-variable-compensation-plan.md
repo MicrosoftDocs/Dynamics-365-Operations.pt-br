@@ -1,6 +1,6 @@
 --- 
 title: "Inscrever um funcionário em um plano de remuneração variável"
-description: "O gerente de remuneração e benefícios pode inscrever os funcionários em planos de remuneração variável para calcular prêmios em dinheiro e que não sejam em dinheiro para os funcionários."
+description: "O gerente de remuneração e os benefícios podem inserir funcionários em planos de remuneração variável e calcular os prêmios em dinheiro e não provenientes de pagamento à vista para funcionários."
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
@@ -17,17 +17,17 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb162e22276fc19cf11999380d551b29ba6a6d45
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 58895bfd2ef5ec5e8f6f1500158376b9140775d7
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>Inscrever um funcionário em um plano de remuneração variável
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-O gerente de remuneração e benefícios pode inscrever os funcionários em planos de remuneração variável para calcular prêmios em dinheiro e que não sejam em dinheiro para os funcionários. Este procedimento pressupõe que um plano de remuneração variável tenha sido criado com o campo Habilitar inscrição definido como Sim, e que tenham sido criadas regras de qualificação para esse plano de remuneração variável. A empresa de dados demo usada para criar este procedimento é USMF. Para iniciar este procedimento, vá para Recursos humanos > Trabalhadores > Funcionários > Remuneração > Inscrição de plano variável
+O gerente de remuneração e os benefícios podem inserir funcionários em planos de remuneração variável e calcular os prêmios em dinheiro e não provenientes de pagamento à vista para funcionários. Este procedimento pressupõe que um plano de remuneração variável tenha sido criado com o campo Habilitar inscrição definido como Sim, e que tenham sido criadas regras de qualificação para esse plano de remuneração variável. A empresa de dados demo usada para criar este procedimento é USMF. Para iniciar este procedimento, vá para Recursos humanos > Trabalhadores > Funcionários > Remuneração > Inscrição de plano variável
 
 1. Clique em Novo.
 2. No campo Plano, clique no botão suspenso para abrir a pesquisa.

@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 476b53d7e5a5ee764c23034344f375fff5db47e8
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: 8021e54fdd5c4c71c016e52801d3f2f627de761b
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
@@ -38,7 +38,7 @@ Os vídeos são listados por recurso, então deslize para ver a lista completa d
 
 #### <a name="data-integration"></a>Integração de dados
 - [Integração do cliente potencial ao pagamento à vista](https://youtu.be/AVV9x5x-XCg) 
-- [Sincronizar uma ordem de trabalho entre o Dynamics 365 for Field Service e Finance and Operations](https://www.youtube.com/watch?v=hAB4TDVMjxU&t=2s)
+- [Sincronizar uma ordem de trabalho entre o Dynamics 365 for Field Service e Finance and Operations](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>Gerenciamento de dados
 - [Use entidades de dados e pacotes de dados no Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
@@ -61,6 +61,7 @@ Os vídeos são listados por recurso, então deslize para ver a lista completa d
 
 #### <a name="intelligence"></a>Inteligência
 - [Traga sua própria base de dados (BYOD) para o Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=-MaxtBJu2_o&feature=youtu.be)
+- [Como usar o conteúdo de gerenciamento de custo do Power BI no Dynamics 365](https://www.youtube.com/watch?v=5jWHnM_C7WM&feature=youtu.be)
 
 #### <a name="lifecycle-services-lcs"></a>LCS (Lifecycle Services)
 - [Biblioteca de ativos no Lifecycle Services](https://www.youtube.com/watch?v=z-2xMRa1nOs)
@@ -93,6 +94,9 @@ Os vídeos são listados por recurso, então deslize para ver a lista completa d
 - [Balanceamento de lote](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)
 - [Aprimoramentos de liberação para o processo de ordem de produção](https://www.youtube.com/watch?v=Rm3ojAz6Zu0&feature=youtu.be)
 - [Agendamento visual com gráfico de Gantt para ordens de produção e de lote](https://youtu.be/BtbuShkGj4I)
+
+#### <a name="tax-engine"></a>Mecanismo de cálculo de impostos
+- [Visão geral do mecanismo de cálculo de impostos](https://www.youtube.com/watch?v=jAFpEBOtNWI&feature=youtu.be)
 
 #### <a name="warehouse-management"></a>Gerenciamento de depósito
 - [Liberar escolha de produção para o depósito em lote](https://youtu.be/8urAJn50dQ8)

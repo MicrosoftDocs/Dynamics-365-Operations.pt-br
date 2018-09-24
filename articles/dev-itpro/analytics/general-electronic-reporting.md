@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: a271887c4d2cfe4d0ee6518482dc4ebe407ebe56
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 185d1adc88a29bc3ae722ae2c6f0a2769428bce3
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -63,8 +63,8 @@ Uma entidade comercial do modelo de dados é representada por um contêiner (reg
 
 Um único componente de modelo de dados pode conter várias hierarquias de entidades comerciais específicas de domínio. Também pode conter mapeamentos de modelo que oferecem suporte a um fluxo de dados específico do relatório em tempo de execução. As hierarquias são diferenciadas por um único registro que foi selecionado como uma raiz de mapeamento de modelo. Por exemplo, o modelo de dados da área de domínio de pagamento pode dar suporte aos seguintes mapeamentos:
 
-- Empresa > Fornecedor > Transações de pagamento de domínio AP
-- Cliente > Empresa > Transações de pagamento de domínio AR
+- Empresa \> Fornecedor \> Transações de pagamento de domínio AP
+- Cliente \> Empresa \> Transações de pagamento de domínio AR
 
 Observe que as entidades de negócios, como transações de pagamento e de empresa, são projetadas uma vez. Mapeamentos diferentes, em seguida, reutilize-os.
 
@@ -74,7 +74,7 @@ Um mapeamento de modelo que oferece suporte a documentos eletrônicos de saída 
 - Ele suporta parâmetros de entrada do usuário que podem ser definidos como fontes para um modelo de dados quando alguns dados devem ser especificados em tempo de execução.
 - Ele oferece suporte à transformação dos dados do Finance and Operations em grupos necessários. Também permite filtrar, classificar e somar dados, além de acrescentar, com lógica calculada, campos que são criados por meio de fórmulas que se assemelham às do Microsoft Excel, conforme mostrado na ilustração a seguir. Para obter mais informações, consulte [Designer de fórmulas no Relatório eletrônico](general-electronic-reporting-formula-designer.md).
 
-[![Designer de fórmulas](./media/ER-overview-01.png)](./media/ER-overview-01.png) 
+[![Designer de fórmulas](./media/ER-overview-01.png)](./media/ER-overview-01.png)
 
 Um mapeamento de modelo que oferece suporte a documentos eletrônicos de entrada tem os seguintes recursos:
 
@@ -175,7 +175,7 @@ Os repositórios do **projeto do LCS** necessários podem ser registrados indivi
 ## <a name="supported-scenarios"></a>Cenários com suporte
 ### <a name="building-a-data-model"></a>Criação de um modelo de dados
 
-O ER fornece um designer de modelo que você pode usar para criar um modelo de dados para um domínio comercial específico. Todas as entidades comerciais específicas de domínio e relações entre elas são apresentadas em um modelo de dados como uma estrutura hierárquica. A ilustração a seguir mostra um exemplo desse tipo de modelo de dados (o pagamento dados do modelo de domínio). 
+O ER fornece um designer de modelo que você pode usar para criar um modelo de dados para um domínio comercial específico. Todas as entidades comerciais específicas de domínio e relações entre elas são apresentadas em um modelo de dados como uma estrutura hierárquica. A ilustração a seguir mostra um exemplo desse tipo de modelo de dados (o pagamento dados do modelo de domínio).
 
 [![Modelo de dados de domínio de pagamento](./media/ER-overview-04.png)](./media/ER-overview-04.png)
 
@@ -185,19 +185,18 @@ Para se familiarizar com os detalhes deste cenário, rode o guia de tarefa **ER 
 
 O conteúdo do modelo de dados (rótulos e descrições) pode ser traduzido para outros idiomas para os quais o Finance and Operations oferece suporte. Talvez você queira traduzir o conteúdo do modelo de dados pelos seguintes motivos:
 
--   No momento da criação, para tornar um conteúdo mais inteligível para criadores de formato que falam outros idiomas, e que usarão o modelo de dados para mapeamento de dados de componentes de formato.
--   No tempo execução, para tornar o conteúdo mais amigável, apresentando avisos e ajuda de parâmetros em tempo de execução, bem como mensagens de validação configuradas (erros e avisos), no idioma de preferência do usuário conectado.
+- No momento da criação, para tornar um conteúdo mais inteligível para criadores de formato que falam outros idiomas, e que usarão o modelo de dados para mapeamento de dados de componentes de formato.
+- No tempo execução, para tornar o conteúdo mais amigável, apresentando avisos e ajuda de parâmetros em tempo de execução, bem como mensagens de validação configuradas (erros e avisos), no idioma de preferência do usuário conectado.
 
-A ilustração a seguir mostra um exemplo de onde o conteúdo do modelo de dados está traduzido do inglês para japonês. 
+A ilustração a seguir mostra um exemplo de onde o conteúdo do modelo de dados está traduzido do inglês para japonês.
 
 [![Conteúdo de modelo de dados em Inglês](./media/ER-overview-05.png)](./media/ER-overview-05.png)
 
 [![Conteúdo de modelo de dados traduzido para japonês](./media/ER-overview-06.png)](./media/ER-overview-06.png)
 
-
 ### <a name="configuring-data-model-mappings-for-outgoing-documents"></a>Configurando mapeamentos de modelo de dados de documentos de saída
 
-O ER fornece um designer de mapeamento do modelo que permite que os usuários mapeiem modelos de dados que eles criaram da fontes de dados específicas do Finance and Operations. Com base no mapeamento, os dados serão importados, em tempo de execução, das fontes de dados selecionadas para o modelo de dados. O modelo de dados é usado como uma fonte abstrata de dados de formatos ER que gera documentos eletrônicos de saída. O exemplo desse mapeamento de modelo de dados é mostrado na imagem a seguir (o mapeamento de modelo **Transferência de Crédito SEPA** do modelo de dados de domínio de pagamento). 
+O ER fornece um designer de mapeamento do modelo que permite que os usuários mapeiem modelos de dados que eles criaram da fontes de dados específicas do Finance and Operations. Com base no mapeamento, os dados serão importados, em tempo de execução, das fontes de dados selecionadas para o modelo de dados. O modelo de dados é usado como uma fonte abstrata de dados de formatos ER que gera documentos eletrônicos de saída. O exemplo desse mapeamento de modelo de dados é mostrado na imagem a seguir (o mapeamento de modelo **Transferência de Crédito SEPA** do modelo de dados de domínio de pagamento).
 
 [![Exemplo de mapeamento de modelo de dados](./media/ER-overview-07.png)](./media/ER-overview-07.png)
 
@@ -210,13 +209,13 @@ ER fornece um designer de mapeamento do modelo que permite que os usuários mape
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>Armazenamento do componente de modelo designado como uma configuração de modelo
 
-O ER pode armazenar um modelo de dados designado, junto com os mapeamentos de dados associados, como uma configuração de modelo da instância atual do Dynamics 365 for Finance and Operations. A ilustração a seguir mostra um exemplo desse tipo de configuração do modelo de dados (o pagamento dados do modelo de configuração). 
+O ER pode armazenar um modelo de dados designado, junto com os mapeamentos de dados associados, como uma configuração de modelo da instância atual do Dynamics 365 for Finance and Operations. A ilustração a seguir mostra um exemplo desse tipo de configuração do modelo de dados (o pagamento dados do modelo de configuração).
 
 Para se familiarizar com os detalhes deste cenário, rode o guia de tarefa **ER Mapear modelo de dados para fontes de dados selecionadas** (parte do processo de negócio **7.5.4.3 Adquirir/Desenvolver componentes de solução/serviço de TI (10677)**).
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>Como criar um formato que usa um modelo de dados como base
 
-O ER oferece suporte a um designer de formato que você pode usar para criar o formato de um documento eletrônico para o domínio comercial selecionado, escolhendo o componente modelo como base. O mesmo designer de formato de ER oferece a capacidade de mapear o formato criado para o mapeamento do modelo de dados do domínio selecionado como uma fonte de dados. A ilustração a seguir mostra um exemplo desse tipo de formato (a configuração de formato que oferece suporte a **BACS** formato de pagamento para o Brasil). 
+O ER oferece suporte a um designer de formato que você pode usar para criar o formato de um documento eletrônico para o domínio comercial selecionado, escolhendo o componente modelo como base. O mesmo designer de formato de ER oferece a capacidade de mapear o formato criado para o mapeamento do modelo de dados do domínio selecionado como uma fonte de dados. A ilustração a seguir mostra um exemplo desse tipo de formato (a configuração de formato que oferece suporte a **BACS** formato de pagamento para o Brasil).
 
 [![Exemplo de um formato que tem um modelo de dados como base](./media/ER-overview-09.png)](./media/ER-overview-09.png)
 
@@ -240,7 +239,7 @@ Para se familiarizar com os detalhes deste cenário, reproduza a guia de tarefas
 - [Modelo de relatório de pagamento (SampleVendPaymDocReport.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 - [Modelo limitado de relatório de pagamento (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
-### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Criar uma configuração para importar dados de documentos eletrônicos de entrada  
+### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>Criar uma configuração para importar dados de documentos eletrônicos de entrada
 O designer de formato ER pode ser usado para descrever um documento eletrônico planejado para importar dados em XML ou o formato de texto. O formato criado é usado para analisar um documento de entrada. O designer de mapeamento de formato ER pode ser usado para definir a associação dos elementos do formato criado com o modelo de dados. As ilustrações a seguir mostram um exemplo desse tipo de formato e mapeamento de formato. Neste exemplo, são importados extratos bancárias da NETS que incluem detalhes de pagamento do fornecedor no formato de texto.
 
 [![ER-format-designer](./media/ER-overview-12.png)](./media/ER-overview-12.png)
@@ -260,7 +259,7 @@ O ER pode armazenar um formato designado junto com os mapeamentos de dados confi
 
 ### <a name="configuring-finance-and-operations-to-start-to-use-a-created-format-internally"></a>Configuração do Finance and Operations para começar a usar o formato criado internamente
 
-O Finance and Operations pode ser configurado para começar a usar o formato criado para a geração de relatórios eletrônicos. A referência à configuração de formato criado deve ser definida em configurações específicas de um domínio. Por exemplo, para começar a usar uma configuração de formato de ER para pagamentos de fornecedores eletrônicos no formato BACS, a configuração de formato deve ser referenciada em métodos específicos de pagamento, conforme as ilustrações a seguir: 
+O Finance and Operations pode ser configurado para começar a usar o formato criado para a geração de relatórios eletrônicos. A referência à configuração de formato criado deve ser definida em configurações específicas de um domínio. Por exemplo, para começar a usar uma configuração de formato de ER para pagamentos de fornecedores eletrônicos no formato BACS, a configuração de formato deve ser referenciada em métodos específicos de pagamento, conforme as ilustrações a seguir:
 
 [![Configuração de formato BACS (Reino Unido)](./media/ER-overview-14.png)](./media/ER-overview-14.png)
 
@@ -367,15 +366,9 @@ O ER permite adotar automaticamente alterações na última versão do component
 |                                                  |                       | Declaração de faturas do fornecedor (IS)                   | Formato de declaração de fatura de fornecedor da Islândia                      |
 |                                                  |                       | Relatório de declaração de faturas de fornecedor (IS)            | Relatório de declaração de fatura de fornecedor da Islândia                      |
 
-
-
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Requisitos de localização – criar uma configuração de relatórios eletrônica](electronic-reporting-configuration.md)
 
 [Gerenciar o ciclo de vida da configuração de relatório eletrônico](general-electronic-reporting-manage-configuration-lifecycle.md)
-
-
-
 

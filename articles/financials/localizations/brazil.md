@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 0cd07788a3a408f0d359e0500be83de9a50404ea
-ms.openlocfilehash: a3bef5c4a4c7c8cb83cd28716860b45824ad3a09
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 1052947fdcece2bded9e7313e51252ca9a17a4f7
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -70,7 +70,7 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
   - [Configurar códigos de ajuste para impostos PIS e COFINS](tasks/br-10006-2-set-up-adjustment-codes-pis-cofins-taxes.md)
   - [Configurar tabelas de PIS e COFINS](tasks/br-10006-1-set-up-pis-cofins-tables.md)
   - [Apuração de imposto para ISS](tasks/br-10005-tax-assessment-iss-tax.md)
-  - [​Atributos de impostos​](/latam-bra-tax-attributes.md)
+  - [​Atributos de impostos​](latam-bra-tax-attributes.md)
   - [​Pagamentos de impostos​](latam-bra-tax-payments.md)
   - [Impostos nas cotações de venda](tasks/br-00057-brazilian-taxes-sales-quotation.md)
   - [Impostos retidos na fonte ](tasks/br-00009-brazilian-withholding-taxes.md)

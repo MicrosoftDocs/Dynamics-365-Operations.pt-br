@@ -16,10 +16,10 @@ ms.author: sndray
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
 ms.translationtype: HT
-ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
-ms.openlocfilehash: 0ff9fe5da34e769f7ce946e01387e5ae30358862
+ms.sourcegitcommit: 71623beb27f63aa457732f23d7ea177c642ddc1f
+ms.openlocfilehash: 621848ebaaa594d051df5d16eda673e62b8b5faa
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/22/2018
 
 ---
 
@@ -465,7 +465,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <tr>
 <td></td>
 <td>A localização oferece suporte à emissão dos modelos de notas fiscais 1, 1-A e 55 e à nota fiscal de serviços para a cidade de São Paulo. Os parceiros devem personalizar os requisitos ou o comportamento de modelos de notas fiscais sem suporte.
-<blockquote>[!NOTE]<br>A localização não oferece suporte à geração de arquivos FCI, operações subsequentes, envio automático de arquivos FCI e cálculo automático de composição de importação.</blockquote>
+    <blockquote><strong>OBSERVAÇÃO</strong><br>A localização não oferece suporte à geração de arquivos FCI, operações subsequentes, envio automático de arquivos FCI e cálculo automático de composição de importação.</blockquote>
 </td>
 <td>Sim</td>
 <td>Sim</td>
@@ -692,7 +692,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 </td>
 <td>Sim</td>
 <td>Sim</td>
-<td>Sim</td>
+<td>Não</td>
 </tr>
 <tr>
 <td>Retail Enterprise POS</td>
@@ -804,7 +804,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <tr>
 <td></td>
 <td>O serviço de TEF deve ser contratado diretamente do fornecedor terceirizado e não é incluído em nenhuma licença de software da Microsoft.
-<blockquote>[!NOTE]<br>Nem todas as operações do Enterprise POS são permitidas no Brasil devido a conflitos com a legislação do PAF‑ECF. Para obter mais detalhes, consulte <a href="https://www.microsoft.com/en-hk/download/details.aspx?id=42938">o white paper Retail and Enterprise POS Localization for Brazil (Localização do Retail e Enterprise POS para o Brasil).</blockquote>
+<blockquote><strong>OBSERVAÇÃO</strong><br>Nem todas as operações do Enterprise POS são permitidas no Brasil devido a conflitos com a legislação do PAF‑ECF. Para obter mais detalhes, consulte <a href="https://www.microsoft.com/en-hk/download/details.aspx?id=42938">o white paper Retail and Enterprise POS Localization for Brazil (Localização do Retail e Enterprise POS para o Brasil).</blockquote>
 </td>
 <td>Sim</td>
 <td>Sim</td>

@@ -3,7 +3,7 @@ title: Insights financeiros
 description: "Os insights financeiros usam o Microsoft Power BI para reunir indicadores chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros."
 author: kweekley
 manager: AnnBe
-ms.date: 02/28/2018
+ms.date: 08/14/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
+ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/14/2018
 
 ---
 
@@ -29,17 +29,16 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Os **Insights Financeiros** usam o Microsoft Power BI para reunir indicadores chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros. O Power BI está incorporado no Microsoft Dynamics 365 Finance and Operations.
-O foco dos **Insights Financeiros** é o relatório analítico. As pessoas de uma organização podem exibir, pesquisar, entender e atuar. 
+Os **Insights Financeiros** usam o Microsoft Power BI para reunir indicadores chave de desempenho (KPIs) financeiros, gráficos e demonstrativos financeiros. O Power BI está incorporado no Microsoft Dynamics 365 Finance and Operations. O foco dos **Insights Financeiros** é o relatório analítico. As pessoas de uma organização podem exibir, pesquisar, entender e atuar. 
 
 Os **Financial Insights** combinam dados da contabilidade e dos razões auxiliares para fornecer uma visão mais completa da saúde financeira de uma organização.
 
-> [!NOTE] 
-> Este documento usa a seguinte terminologia do Power BI:                                                                           
-**Relatório** – Um arquivo .pbix único no qual todos os recursos visuais de todas as guias são salvos.                                                          
-**Página** – Uma guia em um arquivo .pbix único. Cada página pode conter um ou mais recursos visuais.                                                     
-**Recurso Visual** – Uma única fonte de dados, como um cartão, um KPI, um gráfico, um gráfico, uma matriz ou um demonstrativo financeiro. Uma página que tem um demonstrativo financeiro como um recurso visual não pode ter outros recursos visuais devido ao volume de dados que está sendo reportado.
-
+> [!NOTE]
+> Este documento usa a seguinte terminologia do Power BI:
+> 
+> - **Relatório** – Um arquivo .pbix único no qual todos os recursos visuais de todas as guias são salvos.
+> - **Página** – Uma guia em um arquivo .pbix único. Cada página pode conter um ou mais recursos visuais.
+> - **Recurso Visual** – Uma única fonte de dados, como um cartão, um KPI, um gráfico, um gráfico, uma matriz ou um demonstrativo financeiro. Uma página que tem um demonstrativo financeiro como um recurso visual não pode ter outros recursos visuais devido ao volume de dados que está sendo reportado.
 
 Atualmente, os **Insights Financeiros** são usados para exibir dados para a entidade legal ativa ou para todas as entidades legais. Em versões futuras, o espaço de trabalho se expandirá para o local no qual você poderá usar o Power BI para editar e criar recursos visuais.
 
@@ -52,41 +51,30 @@ O tipo de conta principal e as categorias da conta principal são usados para pr
 
 Na página **Contas principais** , você deve definir a conta principal, de modo que um dos seguintes tipos seja atribuído a ela:
 
-•   Receita
-
-•   Despesa
-
-•   Ativos
-
-•   Passivo
-
-•   Capital próprio
+- Receita
+- Expense
+- Ativos
+- Passivo
+- Capital próprio
 
 Não atribua nenhum outro tipo de conta principal, como **Balanço** ou **Lucros e perdas**, às contas principais. O relatório pode determinar o tipo de conta principal no qual outros tipos de conta principais estão atribuídos porque não são granulares o suficiente. O tipo de conta principal deve ser determinado para mostrar passivos e receita como valores positivos nos relatórios financeiros.
 
 Para aparecer em demonstrativos financeiros e para ser incluída em vários outros elementos visuais, como KPIs, cada conta principal deve ser atribuída a uma categoria de conta principal. As categorias de conta principal foram aprimoradas para que tenham uma ordem de exibição. A ordem de exibição é usada especificamente em demonstrativos financeiros nos **Insights financeiros**. Depois de editar ou adicionar uma nova categoria de conta principal, você pode alterar o valor da **Ordem de exibição** para definir a ordem em que as categorias de conta principais devem ser mostradas em um demonstrativo financeiro. Se tiver que alterar a ordem de exibição de muitas categorias de conta principal, você pode usar o recurso Abrir do Excel para editar e publicar rapidamente as alterações novamente no Finance and Operations.
 
-
 ## <a name="entity-store"></a>Repositório de entidades
-Os dados de **Insights financeiros** são recebidos do repositório de entidades (**Administrador do sistema** > **Configurar** > **Repositório de entidades**). Se você abrir o espaço de trabalho **Visão geral do CFO** ou **Insights financeiros** e a seguinte mensagem de aviso for exibida nos elementos visuais, você deverá atualizar as entidades.
- 
+Os dados de **Insights financeiros** são recebidos do repositório de entidades (**Administrador do sistema** \> **Configurar** \> **Repositório de entidades**). Se você abrir o espaço de trabalho **Visão geral do CFO** ou **Insights financeiros** e a seguinte mensagem de aviso for exibida nos elementos visuais, você deverá atualizar as entidades.
+
 ![Aviso](./media/Cantdisplay.png)
 
 Você deve atualizar as seguintes entidades para ver os dados nos espaços e trabalho **Insights financeiros** e **Visão geral de CFO**:
 
-•   CustCollectionsBIMeasurements
-
-•   FinancialReportingOtherData
-
-•   FinancialReportingReferenceData
-
-•   FinancialReportingTransactionData
-
-•   LedgerCovLiquidityMeasurement
-
-•   Cubo de compras
-
-•   Cubo de vendas
+- CustCollectionsBIMeasurements
+- FinancialReportingOtherData
+- FinancialReportingReferenceData
+- FinancialReportingTransactionData
+- LedgerCovLiquidityMeasurement
+- Cubo de Compras
+- Cubo de Vendas
 
 Nas versões anteriores, as entidades LedgerActivityMeasure e VendPaymentBIMeasure foram usadas para os dados do espaço de trabalho **Visão geral de CFO**. Porém, não são mais usadas na versão atual.
 
@@ -95,71 +83,57 @@ Você pode definir um lote recorrente para atualizar regularmente os dados nas e
 ## <a name="security"></a>Segurança
 Atualmente, os dados nos relatórios do Power BI incorporados não podem ser limitados às entidades legais às quais o usuário tem acesso. Portanto, os relatórios do Power BI incorporados são controlados através de direitos na configuração de segurança. Os direitos definidos permitem acesso a dados de todas as entidades legais ou somente à empresa ativa. A tabela a seguir mostra os direitos que existem e as funções às quais eles estão atribuídos. Os direitos podem ser removidos ou atribuídos a diferentes funções, com base nos requisitos de sua organização.
 
-| **Direitos**                     | **Funções**                                       | Descrição                     |
-|------------------------------|-------------------------------------------------|-----------------|
-| Exibir espaço de trabalho de Visão geral do CFO  | Diretor financeiro                         | •    Esta obrigação fornece acesso ao espaço de trabalho visão geral de CFO. •  Por padrão, a empresa ativa é usada como um filtro. Entretanto, você pode adicionar todas as entidades legais, independentemente de o usuário ter acesso às outras entidades legais.               |
-| Exibir insights financeiros da empresa atual | •   Contador •    Gerente de contabilidade •    Supervisor de contabilidade • Auditor •   Gerente de orçamento •    Diretor executivo •   Diretor financeiro •   Controlador financeiro  |   • Esta obrigação fornece acesso aos Insights financeiros. •  Por padrão, a empresa ativa é usada como um filtro. Você não pode adicionar outras entidades legais.            |
-| Exibir insights financeiros interempresariais   | •   No Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3, esta obrigação não está atribuída a uma função. • Na próxima versão, essa obrigação será atribuída à função Diretor financeiro. | •    Esta obrigação fornece acesso ao item de menu do espaço de trabalho visão geral de CFO. •   Por padrão, a empresa ativa é usada como um filtro. Entretanto, você pode adicionar todas as entidades legais, independentemente de o usuário ter acesso às outras entidades legais.             |
+| Direitos                                    | Funções | Descrição |
+|-----------------------------------------|-------|------------|
+| Exibir espaço de trabalho de Visão geral do CFO             | Diretor financeiro | Esta obrigação fornece acesso ao espaço de trabalho visão geral de CFO. Por padrão, a empresa ativa é usada como um filtro. Entretanto, você pode adicionar todas as entidades legais, independentemente de o usuário ter acesso às outras entidades legais. |
+| Exibir insights financeiros da empresa atual | <ul><li>Contador</li><li>Gerente de contabilidade</li><li>Supervisor de contabilidade</li><li>Auditor</li><li>Gerente de orçamentos</li><li>Diretor executivo</li><li>Diretor financeiro</li><li>Controlador financeiro</li></ul> | Esta obrigação fornece acesso aos Insights financeiros. Por padrão, a empresa ativa é usada como um filtro. Você não pode adicionar outras entidades legais. |
+| Exibir insights financeiros interempresariais   | No Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3, esta obrigação não está atribuída a uma função. Na próxima versão, essa obrigação será atribuída à função Diretor financeiro. | Esta obrigação fornece acesso ao item de menu do espaço de trabalho visão geral de CFO. Por padrão, a empresa ativa é usada como um filtro. Entretanto, você pode adicionar todas as entidades legais, independentemente de o usuário ter acesso às outras entidades legais. |
 
 
 ## <a name="financial-reporting-vs-finanical-insights"></a>Relatório financeiro em comparação com Insights financeiros
-Embora os **Insights financeiros** contenham demonstrativos financeiros, eles não são uma substituição do Relatório financeiro no Finance e Operations. Os demonstrativos financeiros padrão nos **Insights financeiros** são limitados no escopo e não incluem todos os tipos de demonstrativos financeiros. O relatório financeiro ainda é a ferramenta principal para projetar, criar e gerar demonstrativos financeiros estatutários.
+Embora os **Insights financeiros** contenham demonstrativos financeiros, eles não são uma substituição do Relatório financeiro no Finance and Operations. Os demonstrativos financeiros padrão nos **Insights financeiros** são limitados no escopo e não incluem todos os tipos de demonstrativos financeiros. O relatório financeiro ainda é a ferramenta principal para projetar, criar e gerar demonstrativos financeiros estatutários.
 
 O gráfico de comparação a seguir ajudará a diferenciar as duas opções:
 
 
-|                                                                       |               <strong>Relatórios Financeiros</strong>                |                                      <strong>Insights financeiros</strong>                                      |
-|-----------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
-|                 <strong>Editar relatórios padrão</strong>                 |                                Sim                                |                                                      Não                                                       |
-|                  <strong>Criar novos relatórios</strong>                  |                                Sim                                |                                                      Não                                                       |
-|                    <strong>Imprimir relatórios</strong>                     |                                Sim                                |                                                      Não                                                       |
-|                   <strong>Exportar para o Excel</strong>                    |                                Sim                                |                           Limitado Exporta dados brutos para o Excel, não um relatório formatado                           |
-|  <strong>Hierarquia de relatórios com suporte/hierarquia organizacional</strong>  |                                Sim                                |                                                      Não                                                       |
-|               <strong>Relatório de dados no razão auxiliar</strong>               |               Sim Limitado somente ao fornecedor, cliente                |                 Sim Fornecedor, cliente, grupos de fornecedores/clientes, endereços de fornecedor/cliente, etc.                 |
-|                  <strong>Moeda de Relatório</strong>                  |    Sim Moeda contábil e traduz para a moeda de relatório    |                                          Não Somente moeda contábil                                          |
-|                       <strong>Segurança</strong>                       | Sim Adere ao Finance and Operations e à segurança da hierarquia organizacional | A exibição limitada relata para todas as empresas (independentemente segurança do Finance and Operations) ou somente para a empresa ativa |
-| <strong>Oferece suporte a diferentes planos de contas e anos fiscais</strong> |                                Sim                                |                                                      Não                                                       |
-|               <strong>relatório sobre dados esternos</strong>                |                                Não                                 |                                                      Não                                                       |
-|                <strong>Oferece suporte a consolidações</strong>                |                                Sim                                |                   Limitado Pode reportar sobre várias empresas mas usa somente a moeda contábil                   |
+|                                                          | Relatório financeiro                                               | Insights financeiros |
+|----------------------------------------------------------|-------------------------------------------------------------------|--------------------|
+| **Editar relatórios padrão**                                 | Sim                                                               | Não |
+| **Criar novos relatórios**                                   | Sim                                                               | Não |
+| **Imprimir relatórios**                                        | Sim                                                               | Não |
+| **Exportar para o Excel**                                      | Sim                                                               | Limitado Exporta dados brutos para o Excel, não um relatório formatado |
+| **Hierarquia de relatórios com suporte/hierarquia organizacional**   | Sim                                                               | Não |
+| **Relatório de dados no razão auxiliar**                             | Sim Limitado somente ao fornecedor, cliente                              | Sim Fornecedor, cliente, grupos de fornecedores/clientes, endereços de fornecedor/cliente, etc. |
+| **Moeda de Relatório**                                   | Sim Moeda contábil e traduz para a moeda de relatório       | Não Somente moeda contábil |
+| **Segurança**                                             | Sim Adere ao Finance and Operations e à segurança da hierarquia organizacional | A exibição limitada relata para todas as empresas (independentemente segurança do Finance and Operations) ou somente para a empresa ativa |
+| **Oferece suporte a diferentes planos de contas e anos fiscais** | Sim                                                               | Não |
+| **relatório sobre dados esternos**                              | Não                                                                | Não |
+| **Oferece suporte a consolidações**                               | Sim                                                               | Limitado Pode reportar sobre várias empresas mas usa somente a moeda contábil |
 
 Além dos elementos de interface do usuário no espaço de trabalho **Visão geral de CFO** original, novos KPIs, gráficos e demonstrativos financeiros agora estão disponíveis. Os seguintes demonstrativos financeiros estão disponíveis:
 
-•   Balancete
-
-•   Balanço
-
-•   Lucros e perdas por região
-
-•   Demonstração de lucros e perdas real vs. orçamento
-
-•   Demonstração de lucros e perdas com variações
-
-•   Demonstrativo de renda de tendência de 12 meses
-
-•   Tendência de três anos de despesas
-
-•   Despesas por fornecedor
-
-•   Vendas por cliente
+- Balancete
+- Balanço
+- Lucros e perdas por região
+- Demonstração de lucros e perdas real vs. orçamento
+- Demonstração de lucros e perdas com variações
+- Demonstrativo de renda de tendência de 12 meses
+- Tendência de três anos de despesas
+- Despesas por fornecedor
+- Vendas por cliente
 
 ## <a name="edit-visuals"></a>Editar elementos visuais
 Na versão inicial dos **Insights financeiros**, nenhum elemento visual pode ser editado. Nas versões futuras, os usuários que têm a segurança apropriada poderão criar novos elementos visuais, copiar elementos visuais existentes e editar elementos visuais. Embora os arquivos de .pbix que contêm os relatórios estejam disponíveis como recursos, não recomendamos que você edite os relatórios padrão. Alterações adicionais serão feitas no modelo de dados, relatórios padrão e no elemento visual do demonstrativo financeiro que são usados para criar os demonstrativos financeiros. Assim, para tirar vantagens dos novos recursos e alterações do modelo de dados na próxima versão, você terá que refazer todas as alterações executadas nos relatórios padrão através da área de trabalho do Microsoft Power BI.
 
-
 ## <a name="filtering"></a>Filtragem
-Os usuários podem filtrar o relatório usando o painel **Filtro** à esquerda. Esse painel é igual ao painel que está disponível na área de trabalho do Power BI.
-Há vários níveis de filtragem, algumas talvez não estejam disponíveis, dependendo do que você selecionou em uma página (guia) ou se você está usando os recursos de análise.
+Os usuários podem filtrar o relatório usando o painel **Filtro** à esquerda. Esse painel é igual ao painel que está disponível na área de trabalho do Power BI. Há vários níveis de filtragem, algumas talvez não estejam disponíveis, dependendo do que você selecionou em uma página (guia) ou se você está usando os recursos de análise.
 
-•   **Filtros de nível do relatório** – Esses filtros são aplicados a todos os elementos visuais em todas as páginas (guias).
-
-•   **Filtros do nível de página** – Esses filtros são aplicados a todos os elementos visuais na guia ativa. Esses filtros são aplicados na parte superior dos filtros em nível de relatório.
-
-•   **Filtros de nível visual** – Esses filtros são aplicados somente ao elemento visual selecionado. Esses filtros são aplicados na parte superior dos filtros em nível de página.
-
-•   **Filtro de análise** – Este filtro é aplicado de um elemento visual de "origem" que é aplicado ao elemento visual atual quando você analisar o elemento visual em relação ao elemento visual atual.
+- **Filtros de nível do relatório** – Esses filtros são aplicados a todos os elementos visuais em todas as páginas (guias).
+- **Filtros do nível de página** – Esses filtros são aplicados a todos os elementos visuais na guia ativa. Esses filtros são aplicados na parte superior dos filtros em nível de relatório.
+- **Filtros de nível visual** – Esses filtros são aplicados somente ao elemento visual selecionado. Esses filtros são aplicados na parte superior dos filtros em nível de página.
+- **Filtro de análise** – Este filtro é aplicado de um elemento visual de "origem" que é aplicado ao elemento visual atual quando você analisar o elemento visual em relação ao elemento visual atual.
 
 ![Filtrar](./media/filter.png)
-
 
 Para remover um valor de filtro específico, selecione o símbolo de borracha próximo a ele. Não remova um filtro selecionando o X. Se você selecionar o X, o campo que está filtrando será removido como uma opção do filtro. Se você remover acidentalmente um campo do filtro, feche o espaço de trabalho e depois reabra-o. As configurações padrão de filtros serão reaplicadas.
 
@@ -187,19 +161,13 @@ Alguns demonstrativos financeiros contêm dimensões baseadas em transações do
 
 As seguintes dimensões são usadas nos relatórios padrão. Nenhuma dessas dimensões são financeiras.
 
-•   Fornecedor
-
-•   Grupo de fornecedores
-
-•   Cliente
-
-•   Grupo de clientes
-
-•   País/região
-
-•   Estado/província
-
-•   Cidade
+- Fornecedor
+- Grupo de fornecedores
+- Cliente
+- Grupo de clientes
+- País/região
+- Estado/província
+- Cidade
 
 > [!IMPORTANT] 
 > Se você resumir transações para vários fornecedores ou clientes em um comprovante único usando os diários financeiros, os dados ficarão incorretos. O relatório não pode determinar qual fornecedor ou cliente está relacionado a uma conta contábil específica em uma entrada de diário porque essas informações não são mantidas em qualquer lugar. Portanto, não recomendamos que você insira vários fornecedores, clientes, ativos fixos ou projetos em um comprovante único.
@@ -212,28 +180,24 @@ Na ilustração a seguir, o demonstrativo **Balancete** é recolhido para o nív
 
 ![Balanço ou Balancete](./media/trial-balance.png)
 
- 
 Para exibir o próximo nível da hierarquia, as categorias de conta principal, você pode definir o campo **Detalhar** para **Linhas** e selecionar o botão **Expandir** (o terceiro botão após o campo Detalhar). Agora você verá todas as categorias contábeis principais expandidas. Atualmente, o Power BI não permite expandir somente uma linha ou coluna, mas ver todas as outras linhas ou colunas.
- 
+
 ![Balanço ou Balancete](./media/trial-balance2.png)
- 
-  
+
 Para expandir as contas principais para todas as linhas, você pode usar novamente o botão **Expandir**. Porém, para fazer busca detalhada nas contas principais para somente uma linha, primeiro selecione o botão **Busca detalhada** (a seta curva para baixo no lado direito da janela) e, em seguida, selecione a linha para fazer a busca detalhada. A ilustração a seguir mostra o resultado quando a linha **Vendas** for selecionada depois que o botão **Detalhar** for selecionado.
 
 ![Balanço ou Balancete](./media/trial-balance3.png)
 
 Depois de fazer busca detalhada em uma única linha, vários cliques são necessários para retornar ao balancete completo. O botão **Fazer drill up** (o primeiro botão depois do campo **Detalhar**) faz drill up somente no contexto da categoria de **Vendas**, conforme mostrado na ilustração a seguir.
- 
+
 ![Balanço ou Balancete](./media/trial-balance4.png)
- 
- 
+
 Você pode continuar usando o botão **Fazer drill up** para retornar ao mais alto nível de resumo das linhas.
 
 O Power BI também tem um botão que permite que você vá para o próximo nível na hierarquia (o segundo botão após o campo **Detalhar**). O efeito deste botão difere do efeito do botão **Expandir** (o terceiro botão após o campo **Detalhar**), que é usado para expandir a hierarquia. Quando você expande a hierarquia, ela é mantida no relatório. Por exemplo, como mostrado anteriormente, se expandir o tipo de conta principal, você ainda verá o tipo de conta principal no relatório. Porém, quando você avançar para o próximo nível da hierarquia, o relatório não mostrará mais o pai na hierarquia, conforme mostrado na seguinte ilustração.
 
 ![Balanço ou Balancete](./media/trial-balance5.png)
 
- 
 Para ver os detalhes da transação além dos saldos resumidos, você pode selecionar alguns valores para reverter no Financial and Operations.
 
 A reversão do demonstrativo financeiro o conduz ao ASE (Gerenciador de fontes contábeis), não às transações de comprovante. O ASE não mostrará apenas as entradas contábeis na contabilidade. Em vez disso, ele exibirá os detalhes da transação do razão auxiliar. Consequentemente, você obterá muito mais detalhes sobre a transação de origem e poderá usá-la para análise. Por exemplo, você pode ver quem era o fornecedor ou o cliente , o que o cliente comprou ou o fornecedor vendeu e, ainda qual projeto estava na transação.
@@ -242,70 +206,48 @@ Os seguintes filtros de demonstrativos financeiros são enviados ao ASE, dessa f
 
 Campos obrigatórios para filtragem:
 
-  - Pessoa jurídica em geral
- 
-  - Calendário fiscal
- 
-  - Ano
- 
-  - ID da conta principal
+- Pessoa jurídica em geral
+- Calendário fiscal
+- Ano
+- ID da conta principal
 
 Campos opcionais para filtragem:
 
-  - Trimestre
-
-  - Mês
-
-  - Período
+- Trimestre
+- Mês
+- Período
 
 Se você não expandir para baixo o suficiente de uma linha, a busca detalhada não funcionará. Por exemplo, se você apenas expandir para baixo a categoria de conta principal, você não poderá fazer busca detalhada no ASE no saldo, porque a conta principal é um campo obrigatório para filtragem no ASE.
 
 Se você expandir muito para baixo em uma linha, os filtros adicionais nos demonstrativos financeiros não serão enviados para o ASE. Portanto, você pode ver uma diferença nos seus números. Por exemplo, se você o expandir para o país ou a região nas linhas de demonstrativo de rendimentos por demonstrativo financeiro da região, o país ou a região não devem ser incluídos como filtro no ASE.
 
 > [!NOTE]
-> Você pode fazer busca detalhada nas linhas ou colunas do demonstrativo financeiro que o ASE atualmente suporta para filtragem. Portanto, em algumas situações, a soma das transações detalhadas no ASE não corresponderá ao saldo no qual você está fazendo drillback, Esta funcionalidade continuará sendo aperfeiçoada no futuro.
+> Você pode fazer busca detalhada nas linhas ou colunas do demonstrativo financeiro que o ASE atualmente suporta para filtragem. Portanto, em algumas situações, a soma das transações detalhadas no ASE não corresponderá ao saldo no qual você está fazendo drillback. Esta funcionalidade continuará sendo aperfeiçoada no futuro.
 
 ## <a name="hierarchies"></a>Hierarquias
 
-Os demonstrativos financeiros padrão usam duas hierarquias padrão para detalhar e expandir os dados. Uma hierarquia é para as linhas e outra é para as colunas. Ambas as hierarquias são predefinidas no design do demonstrativo financeiro. Para a maioria de demonstrativos financeiros, a hierarquia de linha é **Tipo de conta principal** > **Categorias de conta principais** > **Conta principal**. No entanto, alguns relatórios contêm campos adicionais, como País e Região. Os nós adicionais da hierarquia são baseado nos dados do razão auxiliar para cada transação.
+Os demonstrativos financeiros padrão usam duas hierarquias padrão para detalhar e expandir os dados. Uma hierarquia é para as linhas e outra é para as colunas. Ambas as hierarquias são predefinidas no design do demonstrativo financeiro. Para a maioria de demonstrativos financeiros, a hierarquia de linha é **Tipo de conta principal** \> **Categorias de conta principais** \> **Conta principal**. No entanto, alguns relatórios contêm campos adicionais, como País e Região. Os nós adicionais da hierarquia são baseado nos dados do razão auxiliar para cada transação.
 
-Para as colunas, a hierarquia é centrada nas entidades legais e nos períodos fiscais. Para a maioria de demonstrativos financeiros, a hierarquia de coluna é **Entidade legal** > **Calendário fiscal** > **Ano fiscal** > **Trimestre** > **Período**.
+Para as colunas, a hierarquia é centrada nas entidades legais e nos períodos fiscais. Para a maioria de demonstrativos financeiros, a hierarquia de coluna é **Entidade legal** \> **Calendário fiscal** \> **Ano fiscal** \> **Trimestre** \> **Período**.
 
 Atualmente, os demonstrativos financeiros não oferecem suporte às hierarquias organizacionais, que permitem a você agregar dados.
 
 ## <a name="data-limitations"></a>Limitações de dados
 Os elementos visuais do demonstrativo financeiro têm um limite em relação ao número de linhas que podem ser exibidas. Atualmente, o limite é definido como 30.000. Se você exceder o limite, o elemento visual terá um símbolo de advertência para notificá-lo sobre essa situação.
- 
-![Limitações de dados](./media/data-limit.png)
 
+![Limitações de dados](./media/data-limit.png)
 
 Se o máximo for excedido, os totais que aparecem no demonstrativo financeiro estarão incorretos, pois nem todas as linhas foram carregadas para o elemento visual.
 
 ### <a name="empty-rows"></a>Linhas vazias
 O Power BI não fornece uma opção para ocultar e mostrar linhas vazias. Se uma linha não tiver dados, a linha não aparecerá no elemento visual.
 
-## <a name="what-is-coming-in-future-releases"></a>O que teremos nas versões futuras?
-Os novos espaços de trabalho e demonstrativos financeiros que usam o Power BI continuarão sendo aperfeiçoados. Aqui estão alguns do recursos novos que estão sendo considerados nas versões futuras:
-
- - A capacidade de copiar, editar, excluir e criar e elementos visuais, até mesmo demonstrativos financeiros                                                  
- - Relatórios padrão adicionais                                                                                                            
-    - Suporte para dados adicionais do razão auxiliar                                                                                            
- - Suporte para uma moeda de relatório                                                                                                      
- - Adiciona cálculos personalizados para linhas e colunas                                                                                          
- - A capacidade de exportar os demonstrativos financeiro para o Microsoft Excel                                                                     
-   - Mantém o formato do demonstrativo financeiro durante a exportação.                                                                          
-   - Analisa dados no Excel criando uma Tabela Dinâmica que usa as informações no elemento visual.                                              
- - Suporte da localidade                                                                                                                        
- - A capacidade de definir hierarquias de relatório, de forma que você possa definir as hierarquias de conta principal ou uma hierarquia organizacional que podem ser usadas nos demonstrativos financeiros para o projeto, a filtragem e a segurança.                                                                    
- - Suporte para impressão
-
-Os recursos novos serão comunicados através do site de roteiro, conforme o trabalho é iniciado: https://roadmap.dynamics.com/.
 
 ## <a name="additional-resources-for-power-bi"></a>Recursos adicionais para o Power BI
 
 As informações nos seguintes recursos não são necessárias para habilitar relatórios incorporados para o espaço de trabalho **Visão geral de CFO** ou **Insights financeiros** em um ambiente de produção. Em vez disso, elas são úteis para as caixas de colaborador e se você quiser incorporar em seus próprios relatórios do Power BI para Finance and Operations.
 
-https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/
+- <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
 
-https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces
+- <https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
 

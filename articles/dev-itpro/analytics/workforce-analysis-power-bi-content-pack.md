@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 17b42ae7e177a42b732654f2952ec5fe35acb1a9
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,34 +35,34 @@ Este tópico descreve o Conteúdo do Microsoft Power BI **Métricas de força de
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
 O conteúdo do Power BI **Métricas de força de trabalho** aparece no espaço de trabalho **Gerenciamento de pessoal** se você usar um destes produtos:
 
-- Microsoft Dynamics 365 for Finance and Operations 
+- Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
 A tabela a seguir lista as métricas mostradas em cada relatório.
 
-| Relatório                                           | Métrica                                                                                                                                                                                                            |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Métricas de pessoas                                   | Resumo de outros relatórios                                                                                                                           |
-| Companhia de Análise de Pessoal, Departamento, Localização | Número de funcionários por empresa, número de funcionários por departamento, número de funcionários por local e número total de funcionários                                                                                                                           |
-| Trabalho de Análise de Headcount, Etapa, Gerente            | Número de funcionários por cargo, número de funcionários por etapa, número de funcionários por gerente e número total de funcionários                                                                                                                                      |
-| Análise de tendência de funcionários                         | O número de funcionários deste ano em relação ao ano passado pela empresa e pelo número de funcionários nos últimos 12 meses                                                                                                                        |
+| Relatório                                           | Métrica |
+|--------------------------------------------------|---------|
+| Métricas de pessoas                                   | Resumo de outros relatórios |
+| Companhia de Análise de Pessoal, Departamento, Localização | Número de funcionários por empresa, número de funcionários por departamento, número de funcionários por local e número total de funcionários |
+| Trabalho de Análise de Headcount, Etapa, Gerente            | Número de funcionários por cargo, número de funcionários por etapa, número de funcionários por gerente e número total de funcionários |
+| Análise de tendência de funcionários                         | O número de funcionários deste ano em relação ao ano passado pela empresa e pelo número de funcionários nos últimos 12 meses |
 | Análise FTE                                     | Equivalente ao horário integral (FTE) total, FTE atribuído total, FTE por departamento, FTE dos últimos 12 meses e FTE por trabalho |
 | Demografia da força de trabalho                           | Número de funcionários por idade e sexo, número de funcionários por origem étnica, número de funcionários por estado de veterano, número de funcionários por estado civil, número de estudantes em período integral, tempo médio de permanência, idade média, proporção de empregados do sexo feminino e idiomas falados pelos funcionários |
-| Análise de posição                                | Posições abertas por departamento, posições abertas a preenchidas, posições ativas a inativas, e posições por departamento                                                                                                   |
-| Análise de atrito                               | Atrito deste ano em comparação ao do ano passado, atrito, funcionários existentes por idade e gênero, tempo médio de licença dos funcionários, funcionários existentes deste mês e licença dos funcionários por razão                                                                   |
-| Pessoas por departamento                             | Funcionários com um número pessoal por departamento, posição e datas de início e término da atribuição                                                                                                                       |
-| Análise de antiguidade                               | Tempo médio, média de anos de serviço por empresa e lista de antiguidade                                                                                                                                                              |
-| Aniversários de funcionários                           | Aniversários deste mês, aniversários do mês que vem, funcionários por anos de serviço e aniversários, anos de serviço por departamento                                                                                                                                                                    |
-| Aniversários de funcionários                               | Aniversários deste mês, aniversários do mês que vem, aniversários de funcionários e aniversários por mês e departamento                                                                                                                                                                    |
-| Projetos de contratação em massa                               | Total de projetos de contratação em massa, projetos de contratação em massa por status, projetos de contratação em massa por departamento e proprietário, projetos de contratação em massa por trabalho e projetos de contratação em massa                                                                                                                                                                    |
+| Análise de posição                                | Posições abertas por departamento, posições abertas a preenchidas, posições ativas a inativas, e posições por departamento |
+| Análise de atrito                               | Atrito deste ano em comparação ao do ano passado, atrito, funcionários existentes por idade e gênero, tempo médio de licença dos funcionários, funcionários existentes deste mês e licença dos funcionários por razão |
+| Pessoas por departamento                             | Funcionários com um número pessoal por departamento, posição e datas de início e término da atribuição |
+| Análise de antiguidade                               | Tempo médio, média de anos de serviço por empresa e lista de antiguidade |
+| Aniversários de funcionários                           | Aniversários deste mês, aniversários do mês que vem, funcionários por anos de serviço e aniversários, anos de serviço por departamento |
+| Aniversários de funcionários                               | Aniversários deste mês, aniversários do mês que vem, aniversários de funcionários e aniversários por mês e departamento |
+| Projetos de contratação em massa                               | Total de projetos de contratação em massa, projetos de contratação em massa por status, projetos de contratação em massa por departamento e proprietário, projetos de contratação em massa por trabalho e projetos de contratação em massa |
 
 Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para saber mais sobre como filtrar e fixar no Power BI, veja [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 Certifique-se de baixar o conteúdo do Power BI **Métricas de força de trabalho** que se aplica à versão do Microsoft Dynamics 365 que você está usando.
 
->[!NOTE]
->Os arquivos .pbix disponíveis no Lifecycle Services aplicam-se somente ao Finance and Operations.
+> [!NOTE]
+> Os arquivos .pbix disponíveis no Lifecycle Services aplicam-se somente ao Finance and Operations.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 A seguinte tabela mostra as entidades nas quais o conteúdo foi baseado.
@@ -88,6 +88,4 @@ A seguinte tabela mostra as entidades nas quais o conteúdo foi baseado.
 | Evolução do funcionário           | Trabalhadores com o tempo, número de funcionários, empresa e posição                                 | Empresa, Localização geográfica, Nome do funcionário, Subordinado a, Calendário de compensação, Data, Cargo do funcionário, Dados demográficos, Emprego, Trabalho |
 | Projeto de contratação em massa        | Número de projetos de contratação em massa, proprietário de projeto e status de projeto                     | Empresa, linha de contratação em massa |
 | Linhas de contratação em massa           | Departamento, tipo de emprego e posição                                           | Data, trabalho, projeto de contratação em massa |
-
-
 

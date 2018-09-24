@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -39,7 +39,7 @@ Os relatórios incluídos no conteúdo de **Desenvolvimento do funcionário** do
 | Análise de nível de habilidade do funcionário | Níveis de habilidade do funcionário por departamento, funcionários por nível de habilidade e tipo de habilidade, e níveis superiores ou inferiores por habilidade |
 | Perfil de habilidades                 | O perfil de habilidades do funcionário selecionado |
 | Análise de habilidade                | Habilidades por tipo e classificação |
-| Análise de avaliação de desempenho   | Funcionários por classificação mais alta ou mais baixa por trabalho, classificação do funcionário por departamento, funcionários por tipo de posição e classificação, e mais alta ou mais baixa classificação por cargo  |
+| Análise de avaliação de desempenho   | Funcionários por classificação mais alta ou mais baixa por trabalho, classificação do funcionário por departamento, funcionários por tipo de posição e classificação, e mais alta ou mais baixa classificação por cargo |
 | Análise de desempenho do funcionário | Classificações do funcionário sobre classificação selecionada pelo gerente |
 
 Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
@@ -48,7 +48,7 @@ Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no paine
 
 | Entidade                   | Conteúdo                                                                                                   | Relações com outras entidades |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| Calendário de compensação          | Compensações de calendário para dividir relatórios                                                                          | Atribuição da última posição, Tendência da posição, Evolução do funcionário, Funcionário demitido 
+| Calendário de compensação          | Compensações de calendário para dividir relatórios                                                                          | Atribuição da última posição, Tendência da posição, Evolução do funcionário, Funcionário demitido |
 | Empresa                  | Empresas para filtrar relatórios                                                                             | Funcionário atual, Funcionário demitido, Evolução do funcionário |
 | Posição atual         | Posições a partir da data atual, equivalente ao horário integral (FTE), posições abertas e posições abertas a preenchidas | Trabalho, Posição |
 | Funcionário atual         | Trabalhadores a partir da data atual, idade e número de funcionários                                                         | Empresa, Localização geográfica, Nome do funcionário, Subordinado a, Cargo do funcionário, Dados demográficos, Trabalho, Emprego, Posição |
@@ -65,10 +65,9 @@ Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no paine
 | Nome do Funcionário            | Nome, sobrenome e nome completo                                                                       | Trabalhador atual, Funcionário demitido, Evolução do funcionário |
 | Cargo do funcionário           | Título e data de tempo de serviço                                                                                   | Funcionário atual, Funcionário demitido, Evolução do funcionário |
 | Evolução do funcionário           | Trabalhadores com o tempo, número de funcionários, empresa e posição                                                        | Empresa, Localização geográfica, Nome do funcionário, Subordinado a, Calendário de compensação, Data, Cargo do funcionário, Dados demográficos, Emprego, Trabalho |
-| Trabalho                      | Função, tipo e título                                                                                      | Funcionário atual, Posição atual, Evolução do funcionário, Habilidade preferencial no trabalho, Atribuição da última posição, Tendência da posição, Funcionário demitido |
+| Trabalho                      | Função, tipo e título                                                                                  | Funcionário atual, Posição atual, Evolução do funcionário, Habilidade preferencial no trabalho, Atribuição da última posição, Tendência da posição, Funcionário demitido |
 | Habilidade preferencial no trabalho      | Importância, classificação, habilidade e nível de habilidade                                                                 | Trabalho |
-| Análise de habilidades do funcionário  | Certificado, nível, data do nível e habilidade                                                                    | Nome do funcionário, Habilidade |  
+| Análise de habilidades do funcionário  | Certificado, nível, data do nível e habilidade                                                                    | Nome do funcionário, Habilidade |
 | Desempenho              | Classificação, descrição e modelo de classificação                                                                      | Funcionário atual, Posição atual, Evolução do funcionário, Habilidade preferencial no trabalho, Atribuição da última posição, Tendência da posição, Funcionário demitido |
-|  Habilidade                   | Habilidade, tipo de habilidade e classificação                                                                              | Análise de habilidades do funcionário, Habilidade preferencial no trabalho |                                                                                                                        
-
+| Habilidade                    | Habilidade, tipo de habilidade e classificação                                                                              | Análise de habilidades do funcionário, Habilidade preferencial no trabalho |
 

@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 5bc021ce9f0835f2eda310ef7818c9bc9be749f2
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,7 +36,7 @@ Vamos ver um exemplo no qual há um arquivo do Excel com planilhas chamadas **Lo
 
 Se adicionar a segunda entidade **Depósitos** sem deixar o formulário **Adicionar arquivo**, a pesquisa de planilha permitirá que você selecione a planilha **Depósitos** sem ter que carregar novamente o arquivo. O único motivo para carregar um novo arquivo seria se os dados dos **Depósitos** estivessem em um arquivo diferente.
 
-![Várias planilhas](./media/AddFileMultipleWorkSheets.png) 
+![Várias planilhas](./media/AddFileMultipleWorkSheets.png)
 
 ## <a name="fix-worksheet-to-entity-mapping"></a>Planilha de correção para o mapeamento de entidade
 
@@ -51,5 +51,4 @@ Nos casos em que uma nova versão do mesmo arquivo ou um arquivo completamente n
 ## <a name="upload-a-file-using-run-project"></a>Carregar um arquivo usando Executar projeto
 
 Você pode carregar um arquivo do Excel ao usar a opção **Executar projeto** para executar um projeto de importação. Tenha cautela ao carregar somente arquivos que têm as mesmas planilhas que os mapeamentos existentes nas entidades de dados no projeto de dados. Se a planilha não for encontrada no arquivo recém-carregado, o sistema exibirá um erro e interromperá a importação. Se o mapeamento para a planilha tiver que ser alterado para uma entidade, então os mapeamentos no projeto de dados devem ser atualizados primeiro dentro do projeto de dados, antes de usar o arquivo na experiência **Executar projeto**.
-
 
