@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -74,7 +74,7 @@ Também é possível localizar nosso conteúdo com qualquer mecanismo de pesquis
 Finance and Operations, Retail e Talent compartilham um sumário único no site de documentos, o qual possibilita aos clientes ver o contexto do tópico em que estão inseridos. Ele também permite usar o controle de Filtro acima do sumário para localizar os tópicos que você está procurando.
 
 ### <a name="follow-a-topic"></a>Acompanhar um tópico
-Para acompanhar um tópico, clique no botão +Seguir abaixo da caixa de comentário. Você precisará entrar para seguir o tópico. Consulte [Deixe-nos um comentário](#leave-us-a-comment) para obter detalhes.  
+Para acompanhar um tópico, clique no botão +Seguir abaixo da caixa de comentário. Você precisará entrar para seguir o tópico. Consulte [Deixe-nos um comentário](#leave-us-feedback) para obter detalhes.  
 
 ### <a name="use-an-rss-feed"></a>Use um feed RSS
 Para assinar um feed RSS de todas as atualizações do conteúdo de Operações Unificadas, use o seguinte link de um navegador com suporte a feeds RSS, como Internet Explorer, ou de um gerenciador de feed RSS: 

@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -42,7 +42,6 @@ Todos os valores no conteúdo são mostrados na moeda do sistema. Você pode def
 ## <a name="accessing-the-power-bi-content"></a>Acessando o conteúdo do Power BI
 
 O conteúdo do **Gerente de prática** do Power BI é exibido no espaço de trabalho **Gerenciamento de projetos**.
-
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>Relatórios incluídos no conteúdo do Power BI
 
@@ -85,8 +84,7 @@ As seções a seguir descrevem as medidas agregadas usadas em cada entidade.
 
 | Principal medida agregada | Campo                                             | descrição |
 |---------------------------|---------------------------------------------------|-------------|
-| Número de projetos        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | Contagem de projetos disponíveis. |
-
+| Número de projetos        | COUNTA(ProjectAccountingCube\_Projects\[PROJETOS\]) | Contagem de projetos disponíveis. |
 
 ### <a name="entity-projectaccountingcubeforecasts"></a>Entidade: ProjectAccountingCube\_Forecasts
 **Fonte de dados:** ProjTransBudget
@@ -109,18 +107,16 @@ As seções a seguir descrevem as medidas agregadas usadas em cada entidade.
 
 | Principal medida agregada    | Campo | descrição |
 |------------------------------|-------|-------------|
-| Índice de desempenho de custo       | ProjectAccountingCube\_Projects[Valor ganho] ÷ ProjectAccountingCube\_Projects[Total de custo real de tarefas concluídas] | Cálculo do total do valor ganho dividido pelo total do custo real. |
-| Índice de desempenho da agenda   | ProjectAccountingCube\_Projects[Valor ganho] ÷ ProjectAccountingCube\_Projects[Total de custo planejado de tarefas concluídas] | Cálculo do total do valor ganho dividido pelo total do custo planejado. |
-| Porcentagem de trabalho concluído | Porcentagem de trabalho concluído = ProjectAccountingCube\_Projects[Total de custo real de tarefas concluídas] ÷ (ProjectAccountingCube\_Projects[Total de custo real de tarefas concluídas] + ProjectAccountingCube\_Projects[Total do custo planejado do projeto] – ProjectAccountingCube\_Projects[Total de custo planejado de tarefas concluídas]) | O percentual total de trabalho concluído com base no total do custo real das tarefas concluídas e no custo planejado do projeto. |
-| Relação real de horas faturáveis  | ProjectAccountingCube\_Projects[Total de horas do projeto faturáveis reais utilizadas] ÷ (ProjectAccountingCube\_Projects[Total de horas do projeto faturáveis reais utilizadas] + ProjectAccountingCube\_Projects[Total de horas do projeto faturáveis reais de custo indireto]) | O total real de horas faturáveis, com base nas horas utilizadas e nas horas de custo indireto. |
-| Valor obtido                 | ProjectAccountingCube\_Projects[Total do custo planejado do projeto] × ProjectAccountingCube\_Projects[Porcentagem de trabalho concluído] | Total do custo planejado multiplicado pelo percentual do trabalho concluído. |
+| Índice de desempenho de custo       | ProjectAccountingCube\_Projects\[Valor ganho\] ÷ ProjectAccountingCube\_Projects\[Total do custo real de tarefas concluídas\] | Cálculo do total do valor ganho dividido pelo total do custo real. |
+| Índice de desempenho da agenda   | ProjectAccountingCube\_Projects\[Valor ganho\] ÷ ProjectAccountingCube\_Projects\[Total do custo planejado de tarefas concluídas\] | Cálculo do total do valor ganho dividido pelo total do custo planejado. |
+| Porcentagem de trabalho concluído | Porcentagem de trabalho concluído = ProjectAccountingCube\_Projects\[Total do custo real de tarefas concluídas\] ÷ (ProjectAccountingCube\_Projects\[Total do custo real de tarefas concluídas\] + ProjectAccountingCube\_Projects\[Total do custo planejado do projeto\] – ProjectAccountingCube\_Projects\[Total do custo planejado de tarefas concluídas\]) | O percentual total de trabalho concluído com base no total do custo real das tarefas concluídas e no custo planejado do projeto. |
+| Relação real de horas faturáveis  | ProjectAccountingCube\_Projects\[Total de horas do projeto faturáveis reais utilizadas\] ÷ (ProjectAccountingCube\_Projects\[Total de horas do projeto faturáveis reais utilizadas\] + ProjectAccountingCube\_Projects\[Total de horas do projeto faturáveis reais de custo indireto\]) | O total real de horas faturáveis, com base nas horas utilizadas e nas horas de custo indireto. |
+| Valor obtido                 | ProjectAccountingCube\_Projects\[Total do custo planejado do projeto\] × ProjectAccountingCube\_Projects\[Porcentagem de trabalho concluído\] | Total do custo planejado multiplicado pelo percentual do trabalho concluído. |
 
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>Entidade: ProjectAccountingCube\_TotalEstimatedCosts 
 **Fonte de dados:** ProjTable
 
-
-|    Principal medida agregada    |        Campo        |                                          descrição                                           |
-|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
+| Principal medida agregada       | Campo               | descrição |
+|---------------------------------|---------------------|-------------|
 | Custo planejado de atividade concluído | Sum(TotalCostPrice) | Total de preço de custo em estimativas para todos os tipos de transação de projeto com tarefas concluídas. |
-
 

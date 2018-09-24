@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/09/2018
 
 O conteúdo de **Gerenciamento de custo** Microsoft do Power BI é adequado para contadores ou pessoas na organização que sejam responsáveis ou tenham interesse no status do estoque ou do WIP (trabalho em andamento) ou que sejam responsáveis ou tenham interesse na análise das variações de custo padrão.
 
-> [!Note]
+> [!NOTE]
 > O conteúdo de **Gerenciamento custo** do Power BI descrito neste tópico se aplica ao Dynamics 365 Finance and Operations 8.0.
 > 
 > O pacote de conteúdo do Power BI de**Gerenciamento de custo**, disponível no site do AppSource, foi substituído. Para obter mais informações sobre essa substituição, consulte [Pacotes de conteúdo do Power BI disponíveis no AppSource](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource).
@@ -171,7 +171,7 @@ As tabelas a seguir fornecem uma visão geral das visualizações no conteúdo d
 |                                         | Os 10 melhores recursos por variação de produção desfavorável  |
 |                                         | Os 10 melhores recursos por variação de produção favorável    |
 
-### <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
+## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 
 Os dados do Microsoft Dynamics 365 for Finance and Operations são usados para preencher as páginas de relatório no conteúdo de **Gerenciamento de custo** do Power BI. Esses dados são representados como medidas agregadas que são preparadas no repositório de entidades, que é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Integração do Power BI com o repositório de entidades](power-bi-integration-entity-store.md).
 
@@ -188,26 +188,25 @@ A tabela a seguir mostra a principais medidas calculadas no conteúdo do Power B
 
 | Medição                            | Cálculo |
 |------------------------------------|-------------|
-| Saldo inicial                  | Saldo inicial = [Saldo final]-[Alteração líquida] |
-| Quantidade do saldo inicial             | Quantidade do saldo inicial = [Quantidade do saldo final]-[Quantidade da alteração líquida] |
-| Saldo final                     | Saldo final = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
-| Quantidade do saldo final                | Quantidade do saldo final = CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
-| Alteração líquida                         | Alteração líquida = SUM([AMOUNT]) |
-| Quantidade da alteração líquida                    | Quantidade da alteração líquida = SUM([QTY]) |
-| Índice de giro de estoque por valor | Índice de giro de estoque por valor = if(OR([Saldo médio de estoque] \<= 0, [Problemas de estoque vendido ou consumido] \>= 0), 0, ABS([Problemas de estoque vendido ou consumido])/[Saldo médio de estoque]) |
-| Saldo médio de estoque          | Saldo médio de estoque = (([Saldo final] + [Saldo inicial]) / 2) |
-| Dias de estoque disponível             | Dias de estoque disponível = 365 / CostObjectStatementEntries[Índice de giro de estoque por valor] |
-| Precisão do estoque                 | Precisão do estoque por valor = IF([Saldo final] \<= 0, IF(OR([Valor contado de estoque] \<\> 0, [Saldo final] \< 0), 0, 1), MAX(0, ([Saldo final] - ABS([Valor contado de estoque]))/[Saldo final])) |
+| Saldo inicial                  | Saldo inicial = \[Saldo final\]-\[Alteração líquida\] |
+| Quantidade do saldo inicial             | Quantidade do saldo inicial = \[Quantidade do saldo final\]-\[Quantidade da alteração líquida\] |
+| Saldo final                     | Saldo final = (CALCULATE(SUM(\[Amount\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
+| Quantidade do saldo final                | Quantidade do saldo final = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
+| Alteração líquida                         | Alteração líquida = SUM(\[AMOUNT\]) |
+| Quantidade da alteração líquida                    | Quantidade da alteração líquida = SUM(\[QTY\]) |
+| Índice de giro de estoque por valor | Índice de giro de estoque por valor = if(OR(\[Saldo médio de estoque\] \<= 0, \[Problemas de estoque vendido ou consumido\] \>= 0), 0, ABS(\[Problemas de estoque vendido ou consumido\])/\[Saldo médio de estoque\]) |
+| Saldo médio de estoque          | Saldo médio de estoque = ((\[Saldo final\] + \[Saldo inicial\]) / 2) |
+| Dias de estoque disponível             | Dias de estoque disponível = 365 / CostObjectStatementEntries\[Índice de giro de estoque por valor\] |
+| Precisão do estoque                 | Precisão do estoque por valor = IF(\[Saldo final\] \<= 0, IF(OR(\[Valor contado de estoque\] \<\> 0, \[Saldo final\] \< 0), 0, 1), MAX(0, (\[Saldo final\] - ABS(\[Valor contado de estoque\]))/\[Saldo final\])) |
 
 As principais dimensões a seguir são usadas como filtros para dividir as medidas agregadas, para que você possa obter maior granularidade e obter insights analíticos mais profundos.
 
 
-|                         Entidade                          |             Exemplos de atributos              |
+| Entidade                                                  | Exemplos de atributos                          |
 |---------------------------------------------------------|-------------------------------------------------|
-|                        Produtos                         | Número do produto, Nome do produto, Unidade, Grupos de itens |
-| Hierarquias de categoria (atribuídas à função Gerenciamento de custo) |       Hierarquia de categoria, Nível da categoria        |
-|                     Entidades legais                      |               Nomes de entidade legal                |
-|                    Calendários fiscais                     |  Calendário fiscal, Ano, Trimestre, Período, Mês  |
-|                          Site                           |        ID, Nome, Endereço, Estado, País        |
-
+| Produtos                                                | Número do produto, Nome do produto, Unidade, Grupos de itens |
+| Hierarquias de categoria (atribuídas à função Gerenciamento de custo) | Hierarquia de categoria, Nível da categoria              |
+| Entidades legais                                          | Nomes de entidade legal                              |
+| Calendários fiscais                                        | Calendário fiscal, Ano, Trimestre, Período, Mês   |
+| Site                                                    | ID, Nome, Endereço, Estado, País               |
 

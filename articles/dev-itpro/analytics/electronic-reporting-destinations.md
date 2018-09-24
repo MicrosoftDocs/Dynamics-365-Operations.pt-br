@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 3aa27b3ac263c6c952de7e4b508f48f21ba489ad
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -37,21 +37,21 @@ Configurações de formato (ER) geralmente contêm pelo menos um componente de s
 ## <a name="availability-and-general-prerequisites"></a>Disponibilidade e pré-requisitos gerais
 A funcionalidade de destinos de ER não está disponível no Microsoft Dynamics AX 7.0 (fevereiro de 2016). Portanto, você deve instalar o Microsoft Dynamics 365 for Operations, versão 1611, (novembro de 2016) para usar todas as funções que serão descritas neste tópico. Se preferir,, você pode instalar um dos seguintes pré-requisitos. Entretanto, note que essa alternativa permite uma experiência de destino de ER mais limitada.
 
--   Aplicativo Microsoft Dynamics AX versão 7.0.1 (maio de 2016)
--   Gerenciamento de destino do ER [hotfix do aplicativo](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
+- Aplicativo Microsoft Dynamics AX versão 7.0.1 (maio de 2016)
+- Gerenciamento de destino do ER [hotfix do aplicativo](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 Você pode configurar destinos somente para configurações de ER que foram importadas e para os formatos que estão disponíveis na página **Configurações de relatório eletrônicas**.
 
 ## <a name="overview"></a>Visão Geral
 A funcionalidade de gerenciamento de destino do ER está disponível em **Administração da organização** &gt; **Relatório eletrônico**. Aqui, você pode substituir o comportamento padrão para uma configuração. Configurações importadas não são mostradas aqui até que você clique em **Novo** e, em seguida, no campo **Referência**, selecione uma configuração para criar configurações de destino.
 
-[![Selecionando uma configuração no campo Referência](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg) 
+[![Selecionando uma configuração no campo Referência](./media/ger-destinations-2-1611-1024x574.jpg)](./media/ger-destinations-2-1611.jpg)
 
-Após você ter criado uma referência, você pode criar um destino de arquivo para cada pasta ou para um arquivo. 
+Após você ter criado uma referência, você pode criar um destino de arquivo para cada pasta ou para um arquivo.
 
 [![Criando um destino do arquivo](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-> [!NOTE] 
+> [!NOTE]
 > Você pode criar um destino de arquivo para cada componente de saída do mesmo formato, como uma pasta ou um arquivo que é selecionado no campo **Nome do arquivo**. Você pode ativar e desativar os destinos individuais para o destino do arquivo na caixa de diálogo **Configurações de destino**. O botão **Configurações** é usado para controlar todos os destinos de um destino de arquivo selecionado. Na caixa de diálogo **Configurações de destino**, você pode controlar cada destino separadamente, definindo a opção **Ativado** para ele.
 
 [![Caixa de diálogo de configurações de destino](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
@@ -73,7 +73,7 @@ Quando você clica em **Editar** para o campo **Para** ou **Cc**, a caixa de di�
 
 Se selecionar o tipo **Imprimir email de gerenciamento**, você pode inserir os endereços de e-mail fixos no campo **Para**. Para usar os endereços de e-mail não fixos, você deve selecionar o tipo de origem de e-mails para um destino de arquivo. Os valores a seguir são suportados: **Cliente**, **Fornecedor**, **Cliente potencial**, **Contato**, **Concorrente**, **Trabalhador**, **Candidato**, **Fornecedor potencial** e **Fornecedor não permitido**. Após selecionar um tipo de origem de email, use o botão ao lado do campo **Conta de origem do email** para abrir o formulário **Designer de fórmulas**. Você pode usar este formulário para anexar uma fórmula que representa a conta de participante selecionada para o destino de email.
 
-[![Configurar tipo de email do gerenciamento de impressão](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg) 
+[![Configurar tipo de email do gerenciamento de impressão](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg)
 
 Observe que as fórmulas são específicas da configuração de ER. Em **Fórmula**, digite uma referência específica a um tipo da parte do cliente ou fornecedor. Em vez de digitar, você pode encontrar um nó da fonte de dados que representa a conta de cliente ou fornecedor, e clicar no botão **Adicionar fonte de dados** para atualizar a fórmula. Exemplo: Se você usar a configuração da transferência de crédito ISO 20022, o nó que representa uma conta de fornecedor é **'$PaymentsForCoveringLetter'.Creditor.Identification.SourceID**. Caso contrário, insira qualquer valor da cadeia de caracteres, como **DE-001**, para salvar a fórmula.
 
@@ -87,23 +87,27 @@ Na caixa de diálogo **Email para**, clique na lixeira ao lado do campo **Conta 
 
 Use este tipo de email se a configuração que você usar tiver um nó nas fontes de dados que representam um endereço de email. Você pode usar fontes de dados e as funções no designer de fórmulas para obter um endereço de email corretamente formatado.
 
-[![Atribuindo uma fonte de dados do endereço de email para um destino de email](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
+[![Atribuindo uma fonte de dados do endereço de email para um destino de email](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg)
 
-**Observação:** um servidor Simple Mail Transfer Protocol (SMTP) deve ser configurado e disponível. Você pode especificar o servidor SMTP no Finance and Operations em **Administração do sistema** &gt; **Configuração** &gt; **E-mail** &gt; **Parâmetros de e-mail**.
+> [!NOTE]
+> Um servidor Simple Mail Transfer Protocol (SMTP) deve ser configurado e disponível. Você pode especificar o servidor SMTP no Finance and Operations em **Administração do sistema** &gt; **Configuração** &gt; **E-mail** &gt; **Parâmetros de e-mail**.
 
 ### <a name="archive-destination"></a>Local do arquivo morto
 
 Você pode usar esta opção para enviar a saída para uma pasta do Microsoft SharePoint ou Microsoft Azure Storage. Definir **Habilitado** para **Sim** para enviar a saída para um destino que é definido pelo tipo de documento selecionado. Somente tipos de documento onde o grupo está definido para **Arquivo** estão disponíveis para seleção. Você define os tipos de documentos em **Administração da organização** &gt; **Gerenciamento de documentos** &gt; **Tipos de documentos**. A configuração de destinos de ER é o mesma que a configuração para o sistema de gerenciamento de documentos.
 
-[![Página Tipos de documento](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
+[![Página Tipos de documento](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg)
 
-O local determina onde o arquivo foi salvo. Depois que o destino do **Arquivo** for ativado, os resultados da execução da configuração podem ser salvos no arquivo de trabalho. Você pode exibir os resultados em **Administração da organização** &gt; **Relatório eletrônico** &gt; **Trabalhos arquivados de relatórios eletrônicos**. **Observação:** Você pode selecionar um tipo de documento para o arquivo de trabalho no Finance and Operations, em **Administração da organização** &gt; **Espaços de trabalho** &gt; **Relatório eletrônico** &gt; **Parâmetros de relatório eletrônico**.
+O local determina onde o arquivo foi salvo. Depois que o destino do **Arquivo** for ativado, os resultados da execução da configuração podem ser salvos no arquivo de trabalho. Você pode exibir os resultados em **Administração da organização** &gt; **Relatório eletrônico** &gt; **Trabalhos arquivados de relatórios eletrônicos**.
+
+> [!NOTE]
+> Você pode selecionar um tipo de documento para o arquivo de trabalho no Finance and Operations, em **Administração da organização** &gt; **Espaços de trabalho** &gt; **Relatório eletrônico** &gt; **Parâmetros de relatório eletrônico**.
 
 #### <a name="sharepoint"></a>SharePoint
 
-Você pode salvar um arquivo em uma pasta designada do SharePoint. Você define o servidor padrão do SharePoint em **Administração da organização** &gt; **Gerenciamento de documentos** &gt; **Parâmetros de gerenciamento de documentos** na guia **SharePoint**. Depois que a pasta do SharePoint for configurada, você pode selecioná-la como a pasta onde a saída ER será salva para o tipo de documento. 
+Você pode salvar um arquivo em uma pasta designada do SharePoint. Você define o servidor padrão do SharePoint em **Administração da organização** &gt; **Gerenciamento de documentos** &gt; **Parâmetros de gerenciamento de documentos** na guia **SharePoint**. Depois que a pasta do SharePoint for configurada, você pode selecioná-la como a pasta onde a saída ER será salva para o tipo de documento.
 
-[![Selecionando uma pasta do SharePoint](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg) 
+[![Selecionando uma pasta do SharePoint](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg)
 
 #### <a name="azure-storage"></a>Armazenamento do Azure
 
@@ -119,7 +123,10 @@ Se você definir **Ativado** como **Sim**, será criada uma visualização da sa
 
 ### <a name="power-bi-destination"></a>Destino do Power BI
 
-Defina **Ativado** como **Sim** para usar sua configuração de ER para organizar a transferência de dados da sua instância do Finance and Operations para os serviços do Microsoft Power BI. Os arquivos transferidos são armazenados em uma instância do Microsoft SharePoint Server que deve ser configurada para esse fim. Para obter mais informações, consulte [Usar uma configuração de relatório eletrônico para fornecer o Power BI com dados do Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md). **Dica:** para substituir o comportamento padrão (ou seja, a caixa de diálogo para uma configuração), você pode criar uma referência de destino e um destino de arquivo para o componente de saída principal e, em seguida, desabilitar todos os destinos.
+Defina **Ativado** como **Sim** para usar sua configuração de ER para organizar a transferência de dados da sua instância do Finance and Operations para os serviços do Microsoft Power BI. Os arquivos transferidos são armazenados em uma instância do Microsoft SharePoint Server que deve ser configurada para esse fim. Para obter mais informações, consulte [Usar uma configuração de relatório eletrônico para fornecer o Power BI com dados do Finance and Operations](general-electronic-reporting-report-configuration-get-data-powerbi.md).
+
+> [!TIP]
+> Para substituir o comportamento padrão (ou seja, a caixa de diálogo para uma configuração), você pode criar uma referência de destino e um destino de arquivo para o componente de saída principal e, em seguida, desabilitar todos os destinos.
 
 ## <a name="security-considerations"></a>Considerações de segurança
 Dois tipos de direitos e privilégios são usados para destinos de ER. Um tipo controla a capacidade de manter os destinos gerais que estão configurados para uma entidade legal (isto é, controla o acesso à página **Destinos de relatório eletrônico**). O outro tipo controla a capacidade de um usuário do aplicativo para substituir, em tempo de execução, as configurações de destino são configuradas por um desenvolvedor de ER ou consultor funcional ER.
@@ -158,7 +165,4 @@ O pré-requisito é que o formato deve estar disponível nas configurações de 
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de Relatório eletrônico](general-electronic-reporting.md)
-
-
-
 

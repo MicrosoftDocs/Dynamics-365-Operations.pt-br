@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: b47c22576b3735fbc499c7ceed3f6a4637c2785c
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: b1dea07589b7fe953ec47b204441d044c19b5020
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -30,37 +30,35 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece informações sobre gerar um relatório financeiro. 
+Este tópico fornece informações sobre gerar um relatório financeiro.
 
 Para gerar um relatório, abra a definição de relatório e clique no botão Gerar na barra de ferramentas. A janela Status da Fila de Relatórios será aberta e indicará a localização do relatório na fila. Por padrão, o relatório gerado será aberto no Visualizador da Web.
 
 > [!NOTE]
 > Você pode gerar relatórios somente para pastas e locais em que você tem permissão de acesso.
 
-A tabela a seguir explica as opções disponíveis para gerar relatórios.
+As seguintes opções estão disponíveis para geração de relatórios:
 
-| Opção                                                                                | 
-|---------------------------------------------------------------------------------------|
-| Configurar um plano para gerar automaticamente um relatório ou um grupo de relatórios              |   
-| Verificar se há contas ou dados ausentes em um relatório, e validar a precisão de um relatório |   
+- Configurar um plano para gerar automaticamente um relatório ou um grupo de relatórios
+- Verificar se há contas ou dados ausentes em um relatório, e validar a precisão de um relatório
 
 Quando você gera um relatório, as opções especificadas nas guias Definição de relatório são usadas. A guia Saída e Distribuição permite especificar um local da biblioteca do relatório, que é uma maneira fácil de compartilhar o relatório.
 
 ## <a name="generate-a-financial-report"></a>Gerar um relatório financeiro
 
-Para gerar um relatório financeiro com o Microsoft Dynamics 365 for Finance and Operations, vá para **Contabilidade** > **Consultas e relatórios** > **Relatórios financeiros**. 
-- Selecione um relatório para gerar e clique em **Gerar**. 
+Para gerar um relatório financeiro com o Microsoft Dynamics 365 for Finance and Operations, vá para **Contabilidade** \> **Consultas e relatórios** \> **Relatórios financeiros**.
+
+- Selecione um relatório para gerar e clique em **Gerar**.
 - Preencha o campo **Data do relatório** e clique em **OK**.
 
-  Depois que o relatório for gerado, ele estará disponível para exibição na seção **Relatórios**.
-  Você pode selecionar **Exibir** ou **Excluir** o relatório.
+Depois que o relatório for gerado, ele estará disponível para exibição na seção **Relatórios**.
 
+Você pode selecionar **Exibir** ou **Excluir** o relatório.
 
 Para gerar um relatório usando o **Designer de relatórios**, abra a definição de relatório e, em seguida, clique no botão Gerar na barra de ferramentas. A janela Status da Fila de Relatórios será aberta e indicará a localização do relatório na fila. Por padrão, o relatório gerado será aberto no Visualizador da Web.
 
 > [!NOTE]
 > Você pode gerar relatórios somente para pastas e locais em que você tem permissão de acesso.
-
 
 ## <a name="schedule-report-generation"></a>Programar geração de relatórios
 Várias empresas têm um conjunto de relatórios principais que são executados nos intervalos programados para alinhas com processos de negócios. Você pode programar a geração de um relatório como diária, semanal, mensal ou anual. Isso pode ser um relatório exclusivo ou um grupo de relatórios que inclui várias empresas. Você deve inserir suas credenciais para cada uma das empresas especificadas, como essas em uma definição de hierarquia organizacional. Se as credenciais não forem válidas, o relatório exibirá apenas as informações que você tem permissão para acessar, como a empresa em que está registrado no momento. As informações de saída são lidas primeiro do grupo de relatórios e, depois, de relatórios individuais.
@@ -70,45 +68,48 @@ Quando agendamentos de relatório são criados e salvos, eles são exibidos no p
 > [!IMPORTANT]
 > Para criar, modificar e excluir agendas de relatórios, você deve ter a função de criador ou administrador. Quando um relatório é executado, as credenciais do usuário que criou o plano são usadas para gerar o relatório.
 
-
 ### <a name="create-a-report-schedule"></a>Criar um agendamento de relatório
 
-1.  No Designer de Relatórios, no menu Arquivo, clique em Novo e selecione Agendamento de relatório. A caixa de diálogo Novo Agendamento de Relatório é aberta.
-2.  Em Configurações, selecione um relatório individual ou um grupo de relatórios para agendar. Somente os relatórios ou grupos de relatórios para seleção de empresa ou de bloco de construção na qual você fez o logon estão disponíveis.
-3.  Selecione a caixa de seleção Ativa para ativar a agenda de relatório. Somente o criador de relatório ou um administrador pode ativar ou desativar uma agenda do relatório.
-4.  Clique no botão Permissões para inserir as credenciais da empresa. Por padrão, as informações de logon é usada para a empresa que você fez logon. Se outras empresas estiverem incluídas, como em definições da hierarquia organizacional, Usar credenciais separadas, e insira as credenciais de outra empresa incluída na agenda do relatório. Você pode selecionar Autenticação do Windows ou digite um nome de usuário e uma senha para cada empresa. Marque a caixa de seleção Salvar credenciais para salvar as credenciais dessas empresas. Depois, clique em OK para fechar a caixa de diálogo.
-5.  Em Frequência, no campo Início de recorrência, selecione a data em que o agendamento é iniciado. Por padrão, a data do sistema atual do computador do cliente é selecionada.
-6.  No campo de Executar relatório em, selecione a hora em que o relatório deve executado. Se você inserir uma hora que se seja antes da hora do sistema atual, o relatório será executado na próxima data programada.
-7.  Na área Padrão de recorrência, especifique a frequência de execução do relatório. Por padrão, Diariamente é selecionado com um valor de Intervalo (dias) de 1. Outras opções incluem Semanalmente, Mensalmente e Anualmente.
-8.  Na área Intervalo de recorrência, selecione quando o relatório deve parar de ser gerado.
-    -   Nenhuma data final – A agenda do relatório é executada de maneira indefinida.
-    -   Definir número de ocorrências – A agenda de relatório é executada para o número específico de vezes e é desativada.
-    -   Finalizado até – A agenda de relatório é finalizada na data especificada.
+1. No Designer de Relatórios, no menu Arquivo, clique em Novo e selecione Agendamento de relatório. A caixa de diálogo Novo Agendamento de Relatório é aberta.
+2. Em Configurações, selecione um relatório individual ou um grupo de relatórios para agendar. Somente os relatórios ou grupos de relatórios para seleção de empresa ou de bloco de construção na qual você fez o logon estão disponíveis.
+3. Selecione a caixa de seleção Ativa para ativar a agenda de relatório. Somente o criador de relatório ou um administrador pode ativar ou desativar uma agenda do relatório.
+4. Clique no botão Permissões para inserir as credenciais da empresa. Por padrão, as informações de logon é usada para a empresa que você fez logon. Se outras empresas estiverem incluídas, como em definições da hierarquia organizacional, Usar credenciais separadas, e insira as credenciais de outra empresa incluída na agenda do relatório. Você pode selecionar Autenticação do Windows ou digite um nome de usuário e uma senha para cada empresa. Marque a caixa de seleção Salvar credenciais para salvar as credenciais dessas empresas. Depois, clique em OK para fechar a caixa de diálogo.
+5. Em Frequência, no campo Início de recorrência, selecione a data em que o agendamento é iniciado. Por padrão, a data do sistema atual do computador do cliente é selecionada.
+6. No campo de Executar relatório em, selecione a hora em que o relatório deve executado. Se você inserir uma hora que se seja antes da hora do sistema atual, o relatório será executado na próxima data programada.
+7. Na área Padrão de recorrência, especifique a frequência de execução do relatório. Por padrão, Diariamente é selecionado com um valor de Intervalo (dias) de 1. Outras opções incluem Semanalmente, Mensalmente e Anualmente.
+8. Na área Intervalo de recorrência, selecione quando o relatório deve parar de ser gerado.
 
-9.  Clique em Salvar na barra de ferramentas. Na caixa de diálogo Salvar Como, insira um nome exclusivo e uma descrição para o agendamento de relatório.
+    - Nenhuma data final – A agenda do relatório é executada de maneira indefinida.
+    - Definir número de ocorrências – A agenda de relatório é executada para o número específico de vezes e é desativada.
+    - Finalizado até – A agenda de relatório é finalizada na data especificada.
+
+9. Clique em Salvar na barra de ferramentas. Na caixa de diálogo Salvar Como, insira um nome exclusivo e uma descrição para o agendamento de relatório.
 
 Para copiar um agendamento de relatório, você deve ter a função de designer ou administrador. Mesmo que um administrador mude o agendamento de relatório, o relatório manterá as credenciais do usuário que criou o relatório.
+
 ### <a name="copy-a-report-schedule"></a>Copiar um agendamento de relatório
 
-1.  No Designer do Relatórios, clique em Agendamentos de Relatório no painel de navegação, e abra um agendamento de relatório a ser copiado.
-2.  No menu Arquivo, clique em Salvar como e digite um novo nome e descrição para o plano na caixa de diálogo Salvar como. Clique em OK e o novo plano é exibido no painel de navegação.
-3.  Na nova agenda, modifique os campos e as informações conforme necessário. Clique em Salvar na barra de ferramentas ou em Salvar no menu Arquivo.
+1. No Designer do Relatórios, clique em Agendamentos de Relatório no painel de navegação, e abra um agendamento de relatório a ser copiado.
+2. No menu Arquivo, clique em Salvar como e digite um novo nome e descrição para o plano na caixa de diálogo Salvar como. Clique em OK e o novo plano é exibido no painel de navegação.
+3. Na nova agenda, modifique os campos e as informações conforme necessário. Clique em Salvar na barra de ferramentas ou em Salvar no menu Arquivo.
 
 Para excluir um agendamento de relatório, você deve ser proprietário do agendamento de relatório ou ter uma função administrador.
+
 ### <a name="delete-a-report-schedule"></a>Excluir um agendamento de relatório
 
-1.  No Designer de Relatórios, clique em Agendamentos de Relatórios no painel de navegação.
-2.  Selecione a agenda de relatório a ser excluída e clique em Excluir ou pressione a tecla Delete.
-3.  Na caixa de diálogo de verificação de exclusão, clique em Sim para excluir permanentemente a agenda do relatório. Se você não tiver permissão para excluir o agendamento, será exibida uma mensagem e o relatório não será excluído.
+1. No Designer de Relatórios, clique em Agendamentos de Relatórios no painel de navegação.
+2. Selecione a agenda de relatório a ser excluída e clique em Excluir ou pressione a tecla Delete.
+3. Na caixa de diálogo de verificação de exclusão, clique em Sim para excluir permanentemente a agenda do relatório. Se você não tiver permissão para excluir o agendamento, será exibida uma mensagem e o relatório não será excluído.
 
 ### <a name="credentials-and-report-schedules"></a>Credenciais e agendas de relatório
 
-Se você não inserir credenciais necessárias para todas as empresas incluídas nos relatórios, receberá a seguinte mensagem ao salvar o agendamento de relatório: “Você deve inserir suas credenciais para as empresas contidas neste agendamento de relatório. Selecione o botão de Permissões para inserir suas credenciais.
+Se você não inserir credenciais necessárias para todas as empresas incluídas nos relatórios, receberá a seguinte mensagem ao salvar o agendamento de relatório: “Você deve inserir suas credenciais para as empresas contidas neste agendamento de relatório. Selecione o botão de Permissões para inserir suas credenciais”.
 
-Por exemplo, a Phyllis faz logon na empresa A usando seu logon e senha. Ela cria uma agenda para um relatório que usa uma definição de árvore de relatório para coletar dados de várias empresas. Quando essa agenda do relatório é salva, é solicitado que Phyllis insira credenciais para outras empresas que são especificadas na definição de hierarquia organizacional. Quando suas credenciais expiram, os relatórios afetados no agendamento de relatório não são gerados até que as credenciais sejam atualizadas. Uma mensagem é exibida na fila de relatórios para indicar que as permissões devem ser atualizadas. O agendamento de relatório falha quando um destes cenários ocorre (porque eles exigem credenciais):
--   Uma nova empresa foi adicionada a uma árvore de relatório para um relatório individual.
--   Um relatório em um grupo de relatórios foi alterado.
--   Um novo relatório para uma empresa adicional foi adicionado a um grupo de relatórios.
+Por exemplo, Phyllis entra na empresa A usando seu logon e senha. Ela cria uma agenda para um relatório que usa uma definição de árvore de relatório para coletar dados de várias empresas. Quando essa agenda do relatório é salva, é solicitado que Phyllis insira credenciais para outras empresas que são especificadas na definição de hierarquia organizacional. Quando suas credenciais expiram, os relatórios afetados no agendamento de relatório não são gerados até que as credenciais sejam atualizadas. Uma mensagem é exibida na fila de relatórios para indicar que as permissões devem ser atualizadas. O agendamento de relatório falha quando um destes cenários ocorre (porque eles exigem credenciais):
+
+- Uma nova empresa foi adicionada a uma árvore de relatório para um relatório individual.
+- Um relatório em um grupo de relatórios foi alterado.
+- Um novo relatório para uma empresa adicional foi adicionado a um grupo de relatórios.
 
 Para continuar, clique no botão Permissões na caixa de diálogo Agendamento de Relatórios. Em seguida, insira as credenciais apropriadas.
 
@@ -125,22 +126,21 @@ Relatórios com intervalos de valores têm menor probabilidade de ter contas aus
 > [!NOTE]
 > Se uma nova empresa for adicionada, adicione a nova empresa às árvores de relatório em todos os relatórios existentes; senão, a empresa não será incluída na análise de conta ausente.
 
-
 ### <a name="run-missing-account-analysis"></a>Executar a análise de conta ausente
 
-1.  No Designer de Relatórios, clique em Ferramentas e em Análise de Conta Ausente.
-2.  No campo Filtro de empresa, selecione a empresa pela qual filtrar os resultados, ou selecione Tudo (sem filtro) para exibir os resultados de todas as empresas disponíveis.
-3.  No campo Filtro de dimensão, selecione a dimensão pela qual filtrar os resultados, ou selecione Tudo (sem filtro) para exibir todas as informações de dimensão de todas as dimensões disponíveis.
-4.  No campo Agrupar por, selecione uma opção para classificar os resultados. É possível classificar os resultados de acordo com o bloco de construção que é afetado, ou classificar os resultados por conjuntos de dimensões e de valor.
-5.  Revisar os resultados exibidos. Ao selecionar um item no painel superior, o painel inferior exibe as informações adicionais sobre a exceção. Isso inclui os relatórios, as dimensões, e os valores relacionados.
-6.  Para abrir o item afetado, clique no ícone associado que é exibido no painel da lista, ou clique com o botão direito do mouse no item e selecione Abrir. Para selecionar vários itens, mantenha pressionada a tecla Ctrl enquanto seleciona os itens no painel inferior.
-7.  Se algum valor, bloco de construção ou relatório for retornado que não deva ser incluído na análise, clique com o botão direito do mouse no item e selecione Excluir. Ou marque a caixa de seleção Excluir ao lado do item para removê-lo da lista. Os itens excluídos não são incluídos quando a lista é atualizada. Para selecionar vários itens, mantenha pressionada a tecla CTRL enquanto seleciona os itens no painel inferior. Para exibir todos os itens, incluindo os resultados que você selecionou anteriormente para serem excluídos da análise, marque a caixa de seleção Mostrar os blocos de construção e os valores excluídos e, em seguida, clique em Atualizar.
-8.  Clique em Atualizar para atualizar as exceções que você resolveu. Clique em Sim para executar uma atualização completa de todos os resultados, ou clique em Não para executar uma atualização parcial dos itens resolvidos.
+1. No Designer de Relatórios, clique em Ferramentas e em Análise de Conta Ausente.
+2. No campo Filtro de empresa, selecione a empresa pela qual filtrar os resultados, ou selecione Tudo (sem filtro) para exibir os resultados de todas as empresas disponíveis.
+3. No campo Filtro de dimensão, selecione a dimensão pela qual filtrar os resultados, ou selecione Tudo (sem filtro) para exibir todas as informações de dimensão de todas as dimensões disponíveis.
+4. No campo Agrupar por, selecione uma opção para classificar os resultados. É possível classificar os resultados de acordo com o bloco de construção que é afetado, ou classificar os resultados por conjuntos de dimensões e de valor.
+5. Revisar os resultados exibidos. Ao selecionar um item no painel superior, o painel inferior exibe as informações adicionais sobre a exceção. Isso inclui os relatórios, as dimensões, e os valores relacionados.
+6. Para abrir o item afetado, clique no ícone associado que é exibido no painel da lista, ou clique com o botão direito do mouse no item e selecione Abrir. Para selecionar vários itens, mantenha pressionada a tecla Ctrl enquanto seleciona os itens no painel inferior.
+7. Se algum valor, bloco de construção ou relatório for retornado que não deva ser incluído na análise, clique com o botão direito do mouse no item e selecione Excluir. Ou marque a caixa de seleção Excluir ao lado do item para removê-lo da lista. Os itens excluídos não são incluídos quando a lista é atualizada. Para selecionar vários itens, mantenha pressionada a tecla CTRL enquanto seleciona os itens no painel inferior. Para exibir todos os itens, incluindo os resultados que você selecionou anteriormente para serem excluídos da análise, marque a caixa de seleção Mostrar os blocos de construção e os valores excluídos e, em seguida, clique em Atualizar.
+8. Clique em Atualizar para atualizar as exceções que você resolveu. Clique em Sim para executar uma atualização completa de todos os resultados, ou clique em Não para executar uma atualização parcial dos itens resolvidos.
 
     > [!NOTE]
     > O formulário é atualizado automaticamente quando aberto, a menos que ele tenha sido aberto nos últimos 15 minutos.
 
-9.  Quando os problemas forem resolvidos, clique em OK para fechar a caixa de diálogo.
+9. Quando os problemas forem resolvidos, clique em OK para fechar a caixa de diálogo.
 
 ## <a name="keyboard-shortcuts-for-missing-account-analysis"></a>Atalhos de teclado para a análise de conta ausente
 Quando você executa uma análise de conta ausente, os atalhos de teclado a seguir estão disponíveis.
@@ -159,12 +159,9 @@ Quando você executa uma análise de conta ausente, os atalhos de teclado a segu
 | Abrir a definição de linha selecionada     | Ctrl+O                     |
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
 
 [Interface do Report Designer](report-designer-interface.md)
-
-
 

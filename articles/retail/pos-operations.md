@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 58653d6e991f1896673a07e3057bd516c74edd76
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -49,6 +49,8 @@ Observação: as operações listadas a seguir se aplicam à versão mais recent
 | 707 | Ativar dispositivo | Ativar o dispositivo atual para que um usuário autenticado forneça informações de conexão e atribua uma identificação do dispositivo e do registro. | Não | Não | Não | Não | Não |
 | 134 | Adicionar afiliação | Adicione uma afiliação pré-selecionada a uma transação. Selecione a afiliação na página **Propriedades do botão**. | Sim | Sim | Não | Sim | Não |
 | 135 | Adicionar afiliação da lista | Adicionar uma afiliação a uma transação selecionando-a em uma lista. | Sim | Sim | Sim | Sim | Não |
+| 137 | Adicionar afiliação ao cliente | Adicione uma afiliação a um cliente na página **Detalhes do cliente**. | Não | Não | Não | Sim | Não |
+| 138 | Remover afiliação do cliente | Remova uma afiliação na página **Detalhes do cliente**. | Não | Não | Não | Sim | Não |
 | 643 | Adicionar código do cupom | Adicionar um cupom inserindo seu código no PDV. | Sim | Sim | Não | Sim | Não |
 | 117 | Adicionar cartão de fidelidade | Solicitar que o usuário insira um número de cartão-fidelidade que será adicionado à transação atual. | Sim | Sim | Não | Sim | Não |
 | 136 | Adicionar número de série | Esta operação permite ao usuário especificar um número de série para os produtos selecionados no momento. | Sim | Sim | Não | Sim | Não |

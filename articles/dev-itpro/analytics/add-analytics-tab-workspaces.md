@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -54,7 +54,7 @@ Antes de começar, é preciso criar ou obter o relatório do Power BI que será 
 Siga essas etapas para adicionar um arquivo .pbix como um artefato de projetos do Visual Studio.
 
 1. Crie um projeto no modelo apropriado.
-2. No Gerenciador de Soluções, selecione o projeto, clique com o botão direito do mouse e depois selecione **Adicionar** > **Novo item**.
+2. No Gerenciador de Soluções, selecione o projeto, clique com o botão direito do mouse e depois selecione **Adicionar** \> **Novo Item**.
 3. Na caixa de diálogo **Adicionar novo item**, em **Artefatos do Operations**, selecione o modelo **Recurso**.
 4. Insira um nome que será usado para referenciar o relatório em metadados X++ e depois clique em **Adicionar**.
 
@@ -77,7 +77,7 @@ Siga essas etapas para estender a definição de formulário para o espaço de t
 
 1. Abra o designer de formulário para estender a definição de design.
 2. Na definição de design, selecione o elemento superior que é rotulado **Design | Pattern: Workspace Operational**.
-3. Clique com o botão direito do mouse e depois selecione **Novo** > **Guia** para adicionar um novo controle que é nomeado **FormTabControl1**.
+3. Clique com o botão direito do mouse e depois selecione **Novo** \> **Guia** para adicionar um novo controle que é chamado **FormTabControl1**.
 4. No designer de formulário, selecione **FormTabControl1**.
 5. Clique com o botão direito do mouse e depois selecione **Nova página de guia** para adicionar uma nova página de guia.
 6. Renomeie a página de guia para algo significativo, como **Espaço de trabalho**.
@@ -86,12 +86,12 @@ Siga essas etapas para estender a definição de formulário para o espaço de t
 9. Renomeie a página de guia para algo significativo, como **Análise**.
 10. No designer de formulário, selecione **Análise (Página da Guia)**.
 11. Defina a propriedade **Legenda** como **Análise**.
-12. Clique com o botão direito do mouse e depois selecione **Novo** > **Grupo** para adicionar um novo controle de grupo de formulários.
+12. Clique com o botão direito do mouse e depois selecione **Novo** \> **Grupo** para adicionar um novo controle de grupo de formulários.
 13. Renomeie o grupo do formulários para algo significativo, como **powerBIReportGroup**.
 14. No designer de formulário, selecione **PanoramaBody (Guia)** e depois arraste o controle até a guia **Espaço de trabalho**.
 15. Na definição de design, selecione o elemento superior que é rotulado **Design | Pattern: Workspace Operational**.
 16. Clique com o botão direito do mouse e depois selecione **Remover padrão**.
-17. Clique com o botão direito do mouse e depois selecione **Adicionar padrão** > **Espaço de trabalho com guias**.
+17. Clique com o botão direito do mouse e depois selecione **Adicionar padrão** \> **Espaço de trabalho com guias**.
 18. Execute uma compilação para verificar suas alterações.
 
 A ilustração a seguir mostra a aparência do design após a aplicação dessas alterações.
@@ -116,7 +116,7 @@ Siga essas etapas para adicionar a lógica comercial que inicializa o controle d
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
-        private boolean initReportControl = true;     
+        private boolean initReportControl = true;
         protected void initAnalyticalReport()
         {
             if (!initReportControl)
@@ -126,11 +126,11 @@ Siga essas etapas para adicionar a lógica comercial que inicializa o controle d
             // Note: secure entry point into the Workspace's Analytics report
             if (Global::hasMenuItemAccess(menuItemDisplayStr(FMClerkWorkspace), MenuItemType::Display))
             {
-                FMPBIWorkspaceController controller = new FMPBIWorkspaceController();
+                // initialize the PBI report control using shared helper
                 PBIReportHelper::initializeReportControl('FMPBIWorkspaces', powerBIReportGroup);
             }
             initReportControl = false;
-    }
+        }
         /// <summary>
         /// Initializes the form.
         /// </summary>
@@ -159,23 +159,22 @@ Esta seção fornece informações sobre a classe auxiliar usada para incorporar
 #### <a name="syntax"></a>Sintaxe
 ```
 public static void initializeReportControl(
-     str                 _resourceName,
-     FormGroupControl    _formGroupControl,
-     str                 _defaultPageName = '',
-     boolean             _showFilterPane = false,
-     boolean             _showNavPane = false,
-     List                _defaultFilters = new List(Types::Class))
+    str                 _resourceName,
+    FormGroupControl    _formGroupControl,
+    str                 _defaultPageName = '',
+    boolean             _showFilterPane = false,
+    boolean             _showNavPane = false,
+    List                _defaultFilters = new List(Types::Class))
 ```
 
 #### <a name="parameters"></a>Parâmetros
 
-|       Nome       |                                                              descrição                                                               |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-|   resourceName   |                                                    O nome do recurso .pbix.                                                     |
-| formGroupControl |                                    O controle de grupo de formulário ao qual aplicar o controle de relatório do Power BI.                                     |
-| defaultPageName  |                                                         O nome de página padrão.                                                         |
-|  showFilterPane  |   Um valor booliano que indica se o painel de filtros deve ser mostrado (<strong>true</strong>) ou ocultado (<strong>false</strong>).   |
-|   showNavPane    | Um valor booliano que indica se o painel de navegação deve ser mostrado (<strong>true</strong>) ou ocultado (<strong>false</strong>). |
-|  defaultFilters  |                                              Os filtros padrão para o relatório do Power BI.                                              |
-
+| Nome             | descrição                                                                                                  |
+|------------------|--------------------------------------------------------------------------------------------------------------|
+| resourceName     | O nome do recurso .pbix.                                                                              |
+| formGroupControl | O controle de grupo de formulário ao qual aplicar o controle de relatório do Power BI.                                              |
+| defaultPageName  | O nome de página padrão.                                                                                       |
+| showFilterPane   | Um valor booliano que indica se o painel de filtros deve ser mostrado (**true**) ou ocultado (**false**).     |
+| showNavPane      | Um valor booliano que indica se o painel de navegação deve ser mostrado (**true**) ou ocultado (**false**). |
+| defaultFilters   | Os filtros padrão para o relatório do Power BI.                                                                 |
 

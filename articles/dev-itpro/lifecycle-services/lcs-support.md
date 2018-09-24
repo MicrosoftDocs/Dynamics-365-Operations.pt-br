@@ -3,7 +3,7 @@ title: Obter suporte para o Finance and Operations ou o Lifecycle Services (LCS)
 description: Este artigo explica como obter ajuda com o Microsoft Dynamics 365 for Finance and Operations ou com o LCS (Microsoft Dynamics Lifecycle Services).
 author: kfend
 manager: AnnBe
-ms.date: 06/23/2017
+ms.date: 08/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 716c747957471ce2c4c919196b4fc2f9061ce6b6
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: 7061ee2e8b22d29381131815898902a482b7b730
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
@@ -54,7 +54,7 @@ Para obter suporte para o Finance and Operations ou o LCS, use os recursos na ta
 <tbody>
 <tr class="odd">
 <td>Pergunte à comunidade.</td>
-<td>Vá para a página <a href="http://go.microsoft.com/fwlink/?LinkId=221068"><span style="color: #0066cc;">Perguntar à comunidade</span></a> para ter ajuda da comunidade do Dynamics com suas dúvidas.</td>
+<td>Vá para a página <a href="https://go.microsoft.com/fwlink/?linkid=2013438"><span style="color: #0066cc;">Comunidade do Dynamics 365 for Finance and Operations</span></a> para ter ajuda da comunidade do Dynamics com suas dúvidas.</td>
 </tr>
 <tr class="even">
 <td>Use a ferramenta de Pesquisa de problemas.</td>
