@@ -3,7 +3,7 @@ title: BOMs de modelo
 description: "Uma BOM (lista de materiais) de modelo fornece uma lista padronizada de componentes de objetos de serviço que são atendidos regularmente."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/01/2018
+ms.date: 09/19/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6e3a16b9938f6d4222e0a95078356f457e71a1bb
+ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
+ms.openlocfilehash: f9c61ecd79f38301f46e3c21a33ec2801f33d19f
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -105,7 +105,7 @@ Para usar BOMs de modelo, você deve configurar duas sequências numéricas. Con
 
 
 > [!NOTE]
-> <P>As sequências numéricas são usadas em todo o Microsoft Dynamics AX para alocar identificadores para registros que os exigem. Para poder atribuir uma sequência numérica a uma BOM de modelo ou a um número da linha do histórico da BOM, você deve configurar códigos de sequências numéricas.</P>
+> <P>As sequências numéricas são usadas para alocar identificadores para registros que os exigem. Para poder atribuir uma sequência numérica a uma BOM de modelo ou a um número da linha do histórico da BOM, você deve configurar códigos de sequências numéricas.</P>
 
 
 ## <a name="set-up-number-sequences"></a>Configurar sequências numéricas

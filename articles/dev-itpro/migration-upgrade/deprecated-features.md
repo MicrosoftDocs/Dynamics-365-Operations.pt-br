@@ -3,7 +3,7 @@ title: Recursos removidos ou obsoletos
 description: "Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção."
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 884a1372c6ebdcc665a812090d75c158c1fef895
-ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
+ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
+ms.openlocfilehash: ea24d6d63edc6f3bb1bf4a99d24d348af0d6cdbf
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -41,6 +41,52 @@ Esta lista é destinada a ajudá-lo a considerar essas remoções e reprovaçõe
 
 > [!Note]
 > Informações detalhadas sobre objetos no Finance and Operations podem ser encontradas nos [Relatórios de referência técnica](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep). Você pode comparar as diferentes versões desses relatórios para aprender sobre objetos que foram alterados ou removidos em cada versão do Finance and Operations.
+
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>Dynamics 365 for Finance and Operations 8.1 com atualização 20 da plataforma
+
+### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>Regras de transferências de lote para entradas de conta no diário-razão auxiliar
+O modo de transferência Síncrono está ficando obsoleto nos parâmetros da Contabilidade.  Esse modo é substituído por lote Assíncrono e programado somente, o que já existe como opções para transferência. 
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Estamos removendo a opção síncrona devido ao impacto de desempenho ao sistema. |
+| **Substituída por outro recurso?**   | Lote assíncrono e programado são opções a serem usadas no lugar de Síncrona.   |
+| **Áreas afetadas do produto**         | Contabilidade, Contas a Pagar, Contas a Receber, Compras, Despesa    |
+| **Opção de implantação**              | Tudo  |
+| **Status**                         | Preterido - o período determinado para a funcionalidade ser removida é a versão 10.0.|
+
+### <a name="electronic-reporting-for-russia"></a>Relatório eletrônico da Rússia
+Recurso para configurar formatos de arquivo .txt e .xml de declarações. 
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído por relatório eletrônico. |
+| **Substituída por outro recurso?**   | Sim. |
+| **Áreas afetadas do produto**         | Contabilidade |
+| **Opção de implantação**              | Tudo |
+| **Status**                         | Removido a partir do Dynamics 365 for Finance and Operations 8.1 com atualização 20 da plataforma. |
+
+### <a name="financial-reports-generator-for-russia"></a>Gerador de relatórios financeiros da Rússia
+Uma ferramenta para configurar coleções de dados para contabilidade e relatórios de imposto e exportar dados para modelos de relatório XLS e DOC. Partes funcionais: Os dados de exportação para modelos de relatório, consultas, requisitos fixos de XLS e DOC foram removidos. 
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | As peças removidas foram substituídas por relatório eletrônico. |
+| **Substituída por outro recurso?**   | Sim. A interface do usuário para configuração de relatórios financeiros deve ser usada para configurar regras de coleção de dados por contas do GL ou registros de imposto. Exportar dados para vários tipos de arquivo, requisitos fixos e regras de coleção de dados de consulta devem configurados no relatório eletrônico. |
+| **Áreas afetadas do produto**         | Contabilidade. |
+| **Opção de implantação**              | Tudo |
+| **Status**                         | Removido a partir do Dynamics 365 for Finance and Operations 8.1 com atualização 20 da plataforma. |
+
+### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>Integração com provedores externos para envio de relatórios eletrônicos por meio de canais de comunicação da Rússia
+Recurso exportando arquivos eletrônicos gerados de declarações para pasta para envio posterior aos provedores oficiais de relatório eletrônico, bem como importar novamente o estado.
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Substituído por recurso configurável de mensagens eletrônicas. |
+| **Substituída por outro recurso?**   | Sim.  |
+| **Áreas afetadas do produto**         | Contabilidade, Imposto |
+| **Opção de implantação**              | Tudo |
+| **Status**                         | Removido a partir do Dynamics 365 for Finance and Operations 8.1 com atualização 20 da plataforma. |
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 com atualização 15 da plataforma
 Nenhum recurso foi removido ou substituído com esta versão. A atualização 15 da plataforma é cumulativa e contém recursos novos ou alterados das atualizações 13, 14 e 15 da plataforma.

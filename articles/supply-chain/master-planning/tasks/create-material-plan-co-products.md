@@ -3,23 +3,24 @@ title: Criar um plano de materiais para coprodutos
 description: "O planejador de produção planeja os requisitos de materiais para itens que são coprodutos de fórmula."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, SalesOrderProcessingWorkspace, SalesCreateOrder, SalesTable, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, ReqTransPo
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c8805ca02525ae001fbd5e10ad9405fe60c7473e
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 2958f1e5c2e8a0cfa9cc6312f688d3b11b8e013c
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-material-plan-for-co-products"></a>Criar um plano de materiais para coprodutos
@@ -44,27 +45,70 @@ O planejador de produção planeja os requisitos de materiais para itens que sã
 9. Clique em Salvar.
 
 ## <a name="create-a-material-plan-for-co-products"></a>Criar um plano de materiais para coprodutos
-1. Clique em Planejamento mestre.
-2. No campo Plano, clique no botão suspenso para abrir a pesquisa.
-3. Na lista, clique no link na linha selecionada.
+1. Feche a página.
+2. Feche a página.
+3. Clique em Planejamento mestre.
+4. No campo Plano, clique no botão suspenso para abrir a pesquisa.
+5. Na lista, clique no link na linha selecionada.
     * Exemplo: Plano Mestre  
-4. Clique em Executar.
-5. Expanda ou recolha a seção de Registros a serem incluídos.
-6. Clique em Filtro.
-7. Na lista, selecione a linha para Campo = Número do item.
-8. No campo Critérios, digite um valor.
+6. Clique em Executar.
+7. Expanda ou recolha a seção de Registros a serem incluídos.
+8. Clique em Filtro.
+9. Na lista, selecione a linha para Campo = Número do item.
+10. No campo Critérios, digite um valor.
     * Exemplo: P6003  
-9. Clique em OK.
-10. Clique em OK.
-11. Clique em Ordens planejadas.
-12. Use o Filtro Rápido para localizar registros. Por exemplo, filtre o campo Número do item com um valor de 'P6000'.
+11. Clique em OK.
+12. Clique em OK.
+13. Clique em Ordens planejadas.
+14. Use o Filtro Rápido para localizar registros. Por exemplo, filtre o campo Número do item com um valor de 'P6000'.
     * Filtre pelo item de fórmula que contenha uma ordem de venda como coproduto do item que você criou.  
-13. Na lista, marque a linha selecionada.
+15. Na lista, marque a linha selecionada.
     * Selecione uma das linhas retornadas pelo filtro.  
-14. Na lista, clique no link na linha selecionada.
-15. Expandir ou recolher a seção Vinculação.
 16. Na lista, clique no link na linha selecionada.
+17. Expandir ou recolher a seção Vinculação.
+18. Na lista, clique no link na linha selecionada.
     * A ordem planejada está vinculada a ordem de venda para o coproduto.  
-17. Feche a página.
+19. Feche a página.
+
+## <a name="create-requirement-for-a-co-product"></a>Criar requisito para um coproduto
+1. Ir para o painel Padrão.
+2. Clique em Consulta e processamento de ordem de venda.
+3. Clique em Novo.
+4. Clique Ordem de venda.
+5. No campo Conta de cliente, insira um valor.
+    * Exemplo: US-001  
+6. Clique em OK.
+7. No campo Número de item, digite um valor.
+    * Exemplo: P6003  
+8. No campo Quantidade, insira um número.
+    * Exemplo: 50000  
+9. Clique em Salvar.
+
+## <a name="create-a-material-plan-for-co-products"></a>Criar um plano de materiais para coprodutos
+1. No campo Plano, clique no botão suspenso para abrir a pesquisa.
+2. Na lista, clique no link na linha selecionada.
+    * Exemplo: Plano Mestre  
+3. Clique em Executar.
+4. Expanda ou recolha a seção de Registros a serem incluídos.
+5. Clique em Filtro.
+6. Na lista, selecione a linha para Campo = Número do item.
+7. No campo Critérios, digite um valor.
+    * Exemplo: P6003  
+8. Clique em OK.
+9. Clique em OK.
+10. Clique em Ordens planejadas.
+11. Use o Filtro Rápido para localizar registros. Por exemplo, filtre o campo Número do item com um valor de 'P6000'.
+    * Filtre pelo item de fórmula que contenha uma ordem de venda como coproduto do item que você criou.  
+12. Na lista, marque a linha selecionada.
+    * Selecione uma das linhas retornadas pelo filtro.  
+13. Na lista, clique no link na linha selecionada.
+14. Expandir ou recolher a seção Vinculação.
+15. Na lista, clique no link na linha selecionada.
+    * A ordem planejada está vinculada a ordem de venda para o coproduto.  
+16. Feche a página.
+17. Clique em Planejamento mestre.
+18. Vá para Planejamento mestre > Configurar > Parâmetros de planejamento mestre.
+19. Selecione Não no campo Desabilitar todos os processos de planejamento.
+20. Feche a página.
 
 

@@ -10,41 +10,35 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 24c7721a1e5467e98e6c4d245f1d8e24a973f5aa
+ms.sourcegitcommit: 92cd1ea0a6ab6039da7074e032e0f78dd7443cba
+ms.openlocfilehash: 1b1c9719f0697e9d5a51b0e769b3f850dc1690e5
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/24/2018
 
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Descartar um ativo fixo usando uma fatura de texto livre
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Este procedimento mostra como adquirir um ativo fixo usando a proposta de aquisição no Diário de ativos fixos. Ela usa a função de contador e os dados de demonstração da entidade legal de USMF.
+Este procedimento mostra como alienar um ativo fixo usando a fatura de texto livre.
 
-1. Ir para Ativos fixos > Entradas de diário > Diário de ativos fixos.
+1. Vá para Contas recebíveis > Faturas > Todas faturas de texto livre.
 2. Clique em Novo.
-3. No campo Nome, insira ou selecione um valor.
-4. Clique em Linhas.
-5. Clique em Propostas.
-6. Clique em Proposta de aquisição.
-7. Clique em Filtro.
-8. Clique em Redefinir para limpar a saída de valores anteriores.
-9. Selecione a linha de Número de ativo fixo.
-10. No campo Critérios, insira ou selecione um valor.
-    * Defina os critérios restantes para os ativos fixos que você deseja adquirir com esta proposta.  
-11. Clique em OK.
-12. Clique em OK.
-    * Verifique as linhas de transação criadas.  
-    * Somente os ativos fixos com a data de aquisição e o preço de aquisição definidos no registro serão incluídos na proposta de aquisição.  
-13. Clique na guia Registros.
-14. Clique em Lançar.
+3. No campo Conta de cliente, insira ou selecione um valor.
+4. Valide a data padrão da fatura e edite, se aplicável.
+5. Valide os campos restantes de cabeçalho padrão, como Moeda, e edite, se aplicável.
+6. Digite uma descrição na linha da fatura.
+7. Insira ou selecione a conta principal na linha da fatura.
+8. Valide o grupo de impostos padrão e o grupo de impostos do Item.
+9. Insira o preço unitário ou o valor de venda do ativo fixo.
+10. Clique em Detalhes da linha.  
+11. Selecione o número do ativo fixo a ser vendido.
+12. Clique em Lançar.
 
 

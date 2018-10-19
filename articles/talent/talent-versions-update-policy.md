@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 85318332b802aace7d705289e6a298b49799b847
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -47,7 +47,7 @@ Para localizar a versão mais recente de cada navegador, vá para o site do fabr
 > * O editor de fluxo de trabalho é iniciado como um aplicativo ClickOnce. Somente o Microsoft Edge e o Internet Explorer (em uma versão com suporte do Microsoft Windows) suportam aplicativos ClickOnce. O aplicativo Editor de fluxo de trabalho ClickOnce requer um sistema operacional compatível com 64 bits.
 > * Para visualizar os arquivos PDF, recomendamos que você use navegadores modernos como o Microsoft Edge (última versão liberada publicamente) no Windows 10 ou o Google Chrome (última versão liberada publicamente) no Windows 10, Windows 8.1, Windows 8, Windows 7 ou no tablet Google Nexus 10.
 >   Requisitos de rede
-> * O Dynamics 365 for Talent foi projetado para redes com latência entre 250 e 300 milissegundos (ms) ou menos. Esta é a latência de um cliente de navegador para o data center do Microsoft Azure que hospeda Dynamics 365 for Talent. Recomendamos que você teste a latência de rede em [www.azurespeed.com](http://www.azurespeed.com "Teste de latência do Azure").
+> * O Dynamics 365 for Talent foi projetado para redes com latência entre 250 e 300 milissegundos (ms) ou menos. Esta é a latência de um cliente de navegador para o data center do Microsoft Azure que hospeda Dynamics 365 for Talent. Recomendamos que você teste a latência de rede em [www.azurespeed.com](https://www.azurespeed.com "Teste de latência do Azure").
 > * Os requisitos de largura de banda para o Dynamics 365 for Talent dependem do seu cenário. A maioria dos cenários típicos requerem uma largura de banda de mais de 50 kilobytes por segundo (KBps).
 > 
 > [!WARNING]

@@ -38,12 +38,18 @@
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Política de ciclo de vida do software e versões locais
               href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
+            - name: Encerramento do suporte oficial para o Microsoft Dynamics AX 2009 e 2012
+              href: get-started/mainstream-support-ax-2009-2012.md
             - name: Recursos removidos ou obsoletos
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: Recursos do AX 2012 que foram adiados
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: ​Recursos não implementados em implantações locais​
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations versão 8.1 (outubro de 2018)
+              href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 20 (setembro de 2018)
+              href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operations versão 8.0 (abril de 2018)
               href: get-started/whats-new-changed-8-0-April-2018.md
             - name: Platform update 15 (março de 2018)
@@ -456,6 +462,10 @@
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: Conciliação de faturas e ordens de compra intercompanhia
               href: ../financials/accounts-payable/invoice-matching-intercompany-purchase-orders.md
+            - name: Configurar políticas de fatura de fornecedor
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: Registrar fatura de fornecedor e correlacionar com a quantidade recebida
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: Visão geral de pagamento positivo
               href: ../financials/accounts-payable/positive-pay-overview.md
             - name: Configurar e gerar arquivos de pagamento positivo
@@ -566,10 +576,6 @@
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
             - name: Processar juros
               href: ../financials/accounts-receivable/tasks/process-interest.md
-            - name: Configurar políticas de fatura de fornecedores
-              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
-            - name: Registrar fatura de fornecedor e correlacionar com a quantidade recebida
-              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: ​Criar uma fatura de cliente​
               href: ../financials/accounts-receivable/configure-customer-invoices.md
             - name: Depositar pagamentos de cliente
@@ -596,6 +602,8 @@
               href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: Configurar e gerar informações de classificação por vencimento de contas a receber
               href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: Copiar clientes usando sequências numéricas compartilhadas
+              href: ../financials/accounts-receivable/copy-customer.md
             - name: Fluxo de trabalho de cliente
               href: ../financials/accounts-receivable/customer-workflow.md
             - name: Pagamentos e liquidações
@@ -1539,12 +1547,10 @@
               href: ../financials/localizations/emea-exchange-rate-adjustments.md
             - name: Formatos de arquivo para métodos de pagamento
               href: ../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md
-            - name: Integração de serviço fiscal (ESR)
+            - name: Integração do serviço fiscal (ESR)
               href: ../financials/localizations/emea-fiscal-service-integration.md
             - name: ​Alienação de ativos fixos da Estônia e da Lituânia​
               href: ../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md
-            - name: Reavaliação de moeda estrangeira
-              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: Gerar um documento de transferência para uma transferência interna de estoque
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
             - name: Gerar um relatório de lista de vendas da UE
@@ -2104,6 +2110,8 @@
               href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
             - name: Extensão da funcionalidade de alienação de ativo fixo
               href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: Reavaliação de moeda estrangeira
+              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: ​Embalagem retornável​
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: Relatórios de imposto
@@ -2114,12 +2122,48 @@
               href: ../financials/localizations/emea-pol-interest-calculation.md
             - name: ​Demonstrativo de saldos de giro​
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
+        - name: Rússia
+          href: ../financials/localizations/russia.md
+          items:
+            - name: Titulares avançados
+              href: ../financials/localizations/rus-advance-holders.md
+              items:
+                - name: Criar titular avançado
+                  href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
+                - name: Operações diárias para titulares avançados
+                  href: ../financials/localizations/rus-advance-holders-daily-operations.md
+            - name: Ativos fixos
+              items:
+                - name: Adquirir ativos fixos e colocá-los em operação
+                  href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Criar e lançar diários de orçamento para aquisições de ativos fixos
+                  href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
+                - name: ​Contagem de ativos fixos​
+                  href: ../financials/localizations/rus-fixed-assets-counting.md
+                - name: Reavaliação de moeda para ativos fixos
+                  href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: Desmontagem parcial (liquidação) de ativos fixos
+                  href: ../financials/localizations/rus-fixed-assets-disassembly.md
+            - name: Configurar e processar ordens de pagamento
+              href: ../financials/localizations/rus-payment-order-settings-processing.md
+            - name: Configurar taxas de câmbio para transações em moeda
+              href: ../financials/localizations/rus-exchange-difference.md
+            - name: Visualizar transações do razão
+              href: ../financials/localizations/rus-ledger-transactions-preview.md
+            - name: Configurar autoridades
+              href: ../financials/localizations/rus-officials.md
+            - name: Configurar contas bancárias
+              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+            - name: Imposto sobre valor agregado (IVA) para agentes de imposto
+              href: ../financials/localizations/rus-tax-agent.md
+            - name: Configurar controle de dimensão para liquidações
+              href: ../financials/localizations/rus-transactions-settlement-date.md
         - name: Arábia Saudita
           href: ../financials/localizations/saudi-arabia.md
           items:
             - name: Imposto
               href: ../financials/localizations/apac-sau-sales-tax.md
-            - name: ​Relatório de Zakat para a Arábia Saudita​
+            - name: ​Relatório Zakat para a Arábia Saudita​
               href: ../financials/localizations/emea-sau-zakat-reporting.md
         - name: Cingapura
           href: ../financials/localizations/singapore.md
@@ -2133,6 +2177,8 @@
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: ​Opções de letra de câmbio​
               href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
+            - name: Calcular datas de vencimento e gerar relatórios sobre o período médio de pagamento
+              href: ../financials/localizations/emea-esp-invoice-due-dates.md
             - name: Imposto condicional
               href: ../financials/localizations/emea-esp-conditional-sales-tax.md
             - name: Faturamento de crédito
@@ -2857,7 +2903,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: Modificar uma previsão de demanda manualmente
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Aplicativo móvel Dynamics 365 for Unified Operations
+    - name: Aplicativo Dynamics 365 for Unified Operations Mobile
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: Espaços de trabalho móveis disponíveis

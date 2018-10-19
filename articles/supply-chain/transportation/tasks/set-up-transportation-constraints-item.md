@@ -3,24 +3,25 @@ title: "Configurar restrições de transporte para um item"
 description: "Este procedimento configurará uma restrição de transporte para impedir que um item selecionado seja enviado por meio de um hub selecionado."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/07/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TMSConstraint, InventLocationIdLookup, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f2ef71e2d4d8fa0d0af0d8cb076ca59d32934181
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 900ea1476c95d295a151125afe46aebd9642630e
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>Configurar restrições de transporte para um item
@@ -30,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 Este procedimento configurará uma restrição de transporte para impedir que um item selecionado seja enviado por meio de um hub selecionado. Esta tarefa será geralmente executada por um Coordenador de transporte. Você pode usar esse procedimento na empresa de dados demonstrativos USMF ou nos seus próprios dados.
 
 
-## <a name="create-an-item-constraint"></a>Criar uma restrição de item
+## <a name="create-an-item-constaint"></a>Criar uma restrição de item
 1. Vá para Restrições.
 2. Clique em Novo.
 3. No campo Restrições de item, digite um valor.

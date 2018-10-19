@@ -3,7 +3,7 @@ title: "Cálculo de custos indiretos"
 description: "Este tópico descreve processos comuns para calcular e alocar os custos gerais indiretos."
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 549e9b4b073a4e93dd3a1dd52dd6f43e7420a31b
+ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
+ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 10/05/2018
 
 ---
 
@@ -191,8 +191,7 @@ Em alguns casos, parte do custo é uma taxa fixa e o custos pendente é baseado 
 </tbody>
 </table>
 
-Para obter informações detalhadas sobre o comportamento de custo, consulte a política de comportamento de custo. (Observe que este tópico não está incluído, mas estará em breve).
-
+Para obter mais informações, consulte [Criar e atribuir uma política de comportamento de custos a uma unidade de controle de custos](tasks/create-assign-cost-behavior-policy-cost-control-unit.md)
 ### <a name="step-2-process-the-cost-distribution-calculation"></a>Etapa 2: Processar o cálculo de distribuição de custo
 
 A distribuição de custos é usada para redistribuir custo de um objeto de custo a um ou mais outros objetos de custo, aplicando uma base de alocação relevante. A distribuição de custos e a alocação de custo são diferentes na distribuição de custos, sempre que ocorrer em nível de elemento de custo principal do custo original.
@@ -430,7 +429,7 @@ Os custos fixos devem ser distribuídos igualmente a objetos de custo individuai
 </tbody>
 </table>
 
-Para obter informações detalhadas sobre bases de alocação e distribuição de custos, consulte a política de custo e as bases de alocação. (Observe que este tópico não está incluído, mas estará em breve).
+Para obter mais informações, consulte [Criar e atribuir uma política de distribuição de custos a uma unidade de controle de custos](tasks/create-assign-cost-distribution-policy-cost-control-unit.md) 
 
 ### <a name="step-3-process-the-overhead-rate-calculation"></a>Etapa 3: Processar o cálculo de taxa de custos indiretos
 
@@ -618,7 +617,7 @@ A tabela a seguir mostra o resultado quando projetos de RH são aplicados como b
 </tbody>
 </table>
 
-Para obter informações detalhadas sobre a política de taxa de custos indiretos, consulte a política de taxa de custos indiretos e as bases de alocação. (Observe que este tópico não está incluído, mas estará em breve).
+Para obter mais informações, consulte [Realizar cálculo de custos indiretos](cost-rollup.md#perform-overhead-calculation).
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>Etapa 4: Processar o cálculo de alocação de custo
 
@@ -725,7 +724,8 @@ O objeto de custo CC004 Embalagem contribui para vários objetos de custo. Um me
 </tbody>
 </table>
 
-**Observação:** No Finance and Operations, as medições estatísticas, como as horas de produção que um produto consome podem ser derivadas dos dados de origem. Para obter informações mais detalhadas sobre provedores de medidas estatísticas, consulte o modelo do provedor de medida estatística. (Observe que este tópico não está concluído ainda, mas estará em breve.) A tabela a seguir mostra o resultado quando os serviços de RH são aplicados como uma base de alocação de custos total (custos fixos e custos variáveis.)
+> [!NOTE]
+> No Finance and Operations, as medidas estatísticas, como as horas de produção que um produto consome, podem ser derivadas dos dados de origem. Para obter mais informações, consulte [Modelo de provedor de medidas estatísticas](statistical-measure-provider-template.md#statistical-measure-provider-template). A tabela a seguir mostra o resultado quando os serviços de RH são aplicados como base de alocação para custos totais (custos fixos e custos variáveis.)
 
 <table>
 <thead>
@@ -1412,7 +1412,7 @@ Na contabilidade financeira, um custo de 10,000.00 para a eletricidade é lança
 </table>
 
 > [!NOTE]
-> Esse tópico mostra como um elemento de custo principal, 10001 Eletricidade flui pelos objetos de custo. Portanto, esse custo geral indireto é alocado no nível mais baixo na organização. Em outras palavras, os objetos de custo no nível mais baixo assumem o custo. Se você exigir um fluxo visual de custo entre objetos de custo, é possível usar as regras de política de acúmulo de custos para visualizar o fluxo de custo. Para obter informações mais detalhadas, consulte a política de acúmulo de custos. (Observe que este tópico não está incluído, mas estará em breve).
+> Esse tópico mostra como um elemento de custo principal, 10001 Eletricidade flui pelos objetos de custo. Portanto, esse custo geral indireto é alocado no nível mais baixo na organização. Em outras palavras, os objetos de custo no nível mais baixo assumem o custo. Se você exigir um fluxo visual de custo entre objetos de custo, é possível usar as regras de política de acúmulo de custos para visualizar o fluxo de custo. Para maiores informações, consulte [Acúmulo de custo](cost-rollup.md).
 
 
 

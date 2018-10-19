@@ -1,28 +1,29 @@
 --- 
-title: "Configurar destinos para saída de relatórios eletrônicos (ER)"
+title: Configurar destinos ER
 description: "Este procedimento demonstra como configurar e usar os diferentes componentes de saída para eletrônicos (ER), como uma pasta ou um arquivo."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 7c84464f426d6bedff092fd918fcabbc35600f3c
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 83c6b8db609b83f94b51800616976eb9ce08d79b
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="configure-destinations-for-electronic-reporting-er-output"></a>Configurar destinos para saída de relatórios eletrônicos (ER)
+# <a name="er-configure-destinations"></a>Configurar destinos ER
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

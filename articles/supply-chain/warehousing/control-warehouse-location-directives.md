@@ -1,9 +1,9 @@
 ---
 title: "Controlar o trabalho do depósito por meio de modelos de trabalho e diretivas de localização"
-description: "Este artigo descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho será executado no depósito."
+description: "Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho será executado no depósito."
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 269631124e9cab89a85bf4ff6936f3cd5d1dab2a
+ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
+ms.openlocfilehash: 74e7c36fb912f35252d6e40d17477ac2962cbc23
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 09/22/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho será executado no depósito.
+Este tópico descreve como usar modelos de trabalho e diretivas de localização para determinar como e onde o trabalho será executado no depósito.
 
 As instruções que os trabalhadores de depósito recebem em um dispositivo móvel são determinadas pelos modelos de trabalho configurados no Microsoft Dynamics 365 for Finance and Operations para definir os vários processos e tarefas do depósito. Os modelos de trabalho determinam como o trabalho será executado em cada processo de depósito. Ao vincular uma diretiva de localização a modelos de trabalho, você garantirá que o trabalho ocorrerá em áreas específicas dos depósitos.
 
@@ -58,12 +58,109 @@ Linhas das diretivas definem local restrições adicionais no aplicativo do loca
 
 As diretivas da localização com o nível de detalhes adicionais: *diretiva de ações da localização*. Você pode definir várias ações de diretiva de localização para cada linha. Mais uma vez, um número sequencial é usado para determinar a ordem em que as ações serão avaliadas. Nesse nível, você pode configurar uma consulta para definir como encontrar o melhor local no depósito. Você também pode usar configurações de **estratégia** predefinidas para encontrar um local ideal.
 
+## <a name="location-directives-configuration-details"></a>Detalhes de configuração das diretivas da localização 
+
+ ### <a name="sequence-number"></a>Número de sequência
+ 
+Este número indica a sequência na qual uma diretiva de local é processada para um tipo de ordem selecionado. Pode ser alterado usando **Mover para cima** e **Mover para baixo** no menu.
+ 
+ ### <a name="work-type"></a>Tipo de trabalho
+ 
+Este é o tipo de trabalho a ser executado. O tipo de trabalho disponível é baseado no tipo de transação de estoque que você selecionou no campo **Tipo de ordem de trabalho**.
+-   **Colocado** - Um tipo de trabalho **Colocado** significa que a diretiva de localização encontrará o local ideal para colocar ou localizar o estoque do sistema, de recebimento, produção, ou de ajustes de estoque. Também pode ser usado para definir uma colocação em uma localização de fase ou em um local de remessa de baydoor final.
+-   **Separação** - Um tipo de trabalho **Separação** significa que o depósito encontrará o local ideal para reservar o estoque fisicamente (criar trabalho). A separação pode ser concluída (a linha de trabalho de separação pode ser fechada), mesmo se o trabalho não for concluído. O usuário pode concluir a separação física, que é uma etapa de separação. Em seguida, o usuário poderá cancelar de um dispositivo móvel e concluir o trabalho depois. Porém, o cabeçalho de trabalho é fechado quando a colocação final é concluída. 
+-   **Contagem, ajustes, personalização, alteração de status de estoque, criação da placa de licença, impressão, alteração de status, Empacotar em placas de licença aninhadas** - Não são usados em nenhuma configuração de diretivas de localização. É uma enumeração, então não há filtragem conectada ao tipo de ordem de trabalho. 
+
+### <a name="directive-code"></a>Código de diretiva
+
+Selecione o código de diretiva para associar a um modelo de trabalho ou a um modelo de reabastecimento. No formulário **Código diretivo** , você pode criar novos códigos que podem ser usados para conexões entre um modelo de reabastecimento e uma diretiva de localização do modelo de trabalho. Também pode ser usada para estabelecer o link entre qualquer linha de modelo de trabalho e diretiva de localização (como localização de fase ou baydoor).
+
+Observe que se o código for definido, enquanto o trabalho for gerado, o sistema não pesquisará a diretiva do local por sequência, a sequência será por código de diretiva. Isso significa que você pode ser mais específico sobre qual modelo do local será usado para uma determinada etapa em um modelo de trabalho, como o preparo de materiais. 
+
+### <a name="site"></a>Site
+
+O site é um campo obrigatório porque a diretiva do local precisa do site e do depósito que é válido. 
+
+### <a name="warehouse"></a>Depósito
+
+Depósito é um campo obrigatório porque a diretiva do local precisa do site e do depósito que é válido.
+
+### <a name="multiple-sku"></a>Várias SKUs
+
+Isso permite várias Unidades de Manutenção de Estoque (SKU) em um local, como o baydoor. Se você selecionar **Várias SKU**, o local de colocação será especificado no trabalho (que é esperado), mas ele somente poderá tratar várias colocações de item (se o trabalho tiver diferentes SKUs a serem selecionados e colocados, não uma única colocação de SKU). Se você não selecionar **Várias SKUs**, o local de colocação somente será especificado se a colocação tiver somente um tipo de SKU. Para usar as duas ações, você precisará especificar duas linhas, uma com várias SKUs ativadas e outra com várias SKUs desativadas. Elas precisam ter a mesma estrutura e configuração. Para operações de colocação, é necessário ter diretivas de local que são idênticas, mesmo que você não diferencie entre várias SKUs e SKUs únicas no ID de trabalho. Você também precisa configurar a separação, se você tiver uma ordem com mais de um item.
+
+### <a name="sequence-number"></a>Número de sequência
+
+Informe a sequência na qual a linha da diretiva do local é processada para o tipo de trabalho selecionado. Você também pode alterar a sequência, se necessário, usando **Mover para cima** e **Mover para baixo**.
+
+### <a name="fromto-quantity"></a>Quantidade De/Para
+
+Fornece a capacidade de especificar um intervalo de quantidade para o qual a sequência de grade do meio deve ser selecionada. Você pode especificar intervalo De/Até na Quantidade na respectiva unidade.
+
+### <a name="unit"></a>Unidade
+
+Você pode especificar uma quantidade mínima e máxima ao qual a diretiva deve ser aplicada; você pode especificar ainda que a diretiva se refere a uma unidade específica do estoque. O campo de unidade na linha é usado somente para avaliação de quantidade.
+
+Ao verificar se a linha da diretiva de local é aplicável, isso será baseado na quantidade da respectiva unidade especificada na linha da diretiva do local. Sempre que uma linha de diretiva do local for atingida, o sistema tentará converter a unidade de demanda em uma unidade especificada na linha. Se a conversão de UOM não existir, ela continuará na próxima linha. 
+
+### <a name="locate-quantity"></a>Localizar quantidade
+
+Esta opção é usada apenas para colocar/localizar quantidade no depósito. Só é efetuada para o tipo de trabalho de colocação. Os valores válidos são:
+
+-   **Quantidade da Placa de Licença** - Ao avaliar se a quantidade está dentro dos intervalos de quantidade "De" e "Até", use a quantidade na placa de licença que está sendo recebida.
+-   **Quantidade unitizada** - Ao avaliar se a quantidade está dentro dos intervalos de quantidade "De" e "Até", use a quantidade que está sendo unitizada durante a transação específica.
+-   **Quantidade Pendente** - Ao avaliar se a quantidade está dentro dos intervalos "De" e "Até", use a quantidade restante a ser recebida na linha da ordem de compra que está sendo registrada no momento.
+-   **Quantidade Esperada** - Ao avaliar se a quantidade está dentro dos intervalos "De" e "Até", use a quantidade total da linha da ordem de compra, independente do que já foi recebido
+
+### <a name="restrict-by-unit"></a>Restringir por unidade
+
+Isso permite que uma linha de diretiva de local seja específica para uma unidade de medida ou várias unidades de medida. Ao reservar a quantidade, se você quiser reservar paletes apenas de um conjunto específico de locais, então a sequência da grade intermediária restringiria essa sequência específica a "PL", de modo que qualquer quantidade menor que um palete não selecionaria a sequência. Selecione **Restringir por unidade** para configurar as unidades. Também é possível restringir a linha a mais de uma unidade. Isso funciona somente diretivas de local do tipo separação. 
+
+### <a name="round-up-to-unit"></a>Arredondar para a unidade
+
+Este campo trabalha em conjunto com o campo **Restringir por unidade**. Se a linha de diretiva de localização **Restringir por unidade** for definida como "caixa," selecionar **Arredondar para a unidade** indica que o trabalho gerado da diretiva de seleção de material bruto deve ser arredondada para um múltiplo de uma unidade de manuseio de material (especificada em **Restringir por unidade**). Observe que isso funciona somente para a separação de matéria-prima e somente com diretivas de local do tipo separação.
+
+### <a name="locate-packing-qty"></a>Localizar quantidade da embalagem
+
+Se a quantidade de embalagem estiver especificada em uma ordem de venda, ordem de transferência, ou em uma ordem de produção, isso restringirá o sistema para selecionar somente os locais com uma quantidade de embalagem no local. Isso funciona somente diretivas de local do tipo separação.
+
+### <a name="allow-split"></a>Permitir divisão
+
+Isso especifica se uma diretiva do local será permitida para dividir a quantidade que está sendo recebida ou a quantidade que está sendo reservada em várias localizações de depósitos, ou se a quantidade inteira deve estar localizada em um único local ou ser reservada de um único local para criar trabalhos. 
+
+### <a name="sequence-number"></a>Número de sequência
+
+Este número é a sequência na qual a diretiva de localização é processada para o tipo de trabalho selecionado. Você pode modificar a sequência, se necessário. Entretanto, seja cauteloso ao usar números sequenciais, pois o processamento sempre será executado em sequência. 
+
+### <a name="name"></a>Nome
+
+Digite um nome para a ação da diretiva de local. Seja específico ao escolher um nome.
+
+### <a name="fixed-location-usage"></a>Uso de localização fixa 
+
+-   **Localizações fixas e não fixas** - A diretiva de localização considerará todas as localizações.
+-   **Somente localizações fixas para o produto** - A diretiva de localização considerará somente as localizações fixas dos produtos.
+-   **Somente localizações fixas para a variante do produto** - A diretiva de localização considerará somente as localizações fixas das variantes do produto.
+
+### <a name="allow-negative-inventory"></a>Permitir estoque negativo
+
+Selecione esta opção para permitir estoque negativo na localização de depósito especificada em diretivas de localização. 
+
+### <a name="batch-enabled"></a>Lote habilitado 
+
+Selecione para usar estratégias de lote para os itens habilitados para lotes. Se uma linha for acessada onde **Habilitado por lote** for definida sem item de lote, o processo continuará até a próxima linha de ação. 
+
+### <a name="strategy"></a>Estratégia
+
+-   **Consolidar** - Essa estratégia é usada para consolidar itens em um local específico quando itens semelhantes já estiverem disponíveis. Isso funciona somente para o tipo de colocação da diretiva de localização. A configuração comum para o tipo Colocação será consolidada na primeira linha de ação e, em seguida, na segunda tentativa para colocar sem consolidação. A consolidação de mercadorias torna a separação posterior mais eficiente.
+-   **Fazer a correspondência da quantidade da embalagem** - Essa estratégia é usada para verificar se um local de separação tem a quantidade de embalagem especificada. Isso funciona somente para diretiva de local do tipo Separação. 
+-   **Reserva de lotes FEFO** - Esta estratégia é usada quando o estoque é localizado usando uma data de vencimento do lote e é alocado para reserva de lotes. Você só pode usar essa estratégia para itens habilitados para lote. Isso funciona somente para diretiva de local do tipo de trabalho de Separação. 
+-   **Arredondar até a LP completa** - Essa estratégia é usada para arredondar para cima a quantidade de estoque para corresponder à quantidade de placa de licença (LP) que é atribuída aos itens a serem separados. Você só pode usar essa estratégia para o tipo de reabastecimento de diretiva de localização do tipo Separação. 
+-   **Local vazio sem trabalho de entrada** - Esta estratégia é usada para detectar locais vazios. O local será considerada vazio se não houver estoque físico e nenhum trabalho de entrada esperado. Essa estratégia é usada somente em um tipo de Colocação de diretiva de localização. 
+
 ### <a name="example-of-the-use-of-location-directives"></a>Exemplo do uso de diretivas de localização
 
-Neste exemplo, consideraremos um processo de ordem de compra em que a diretiva de localização deve encontrar capacidade livre em um depósito para itens do estoque que acabaram de ser registrados na doca de recebimento. Primeiro, queremos tentar localizar a capacidade livre no depósito consolidando o estoque disponível existente. Se a consolidação não for possível, procuraremos identificar um local vazio. 
+Neste exemplo, consideraremos um processo de ordem de compra em que a diretiva de localização deve encontrar capacidade livre em um depósito para itens do estoque que acabaram de ser registrados na doca de recebimento. Primeiro, você precisa localizar a capacidade livre no depósito, consolidando o estoque disponível existente. Se a consolidação não for possível, você precisará encontrar um local vazio. 
 
-Nesse cenário, devemos definir duas ações de diretiva de localização. A primeira ação na sequência deve usar a estratégia **Consolidar** e a segunda deve usar a estratégia **Local vazio sem trabalho de entrada**. A menos que definamos uma terceira ação para lidar com um cenário de estouro de capacidade, dois resultados serão possíveis quando não houver mais capacidade no depósito: o trabalho pode ser criado mesmo que nenhum local seja definido ou o processo de criação de trabalho pode falhar. O resultado é determinado pela configuração na página **Falhas na diretiva de localização**, na qual você pode decidir se selecionará a opção **Parar de trabalhar em falha de diretiva de localização** para cada tipo de ordem de trabalho.
-
-
-
+Nesse cenário, você deve definir duas ações de diretiva de localização. A primeira ação na sequência deve usar a estratégia **Consolidar** e a segunda deve usar a estratégia **Local vazio sem trabalho de entrada**. A menos que você defina uma terceira ação para lidar com um cenário de estouro de capacidade, dois resultados serão possíveis quando não houver mais capacidade no depósito: o trabalho pode ser criado mesmo que nenhum local seja definido ou o processo de criação de trabalho pode falhar. O resultado é determinado pela configuração na página **Falhas na diretiva de localização**, na qual você pode decidir se selecionará a opção **Parar de trabalhar em falha de diretiva de localização** para cada tipo de ordem de trabalho.
 

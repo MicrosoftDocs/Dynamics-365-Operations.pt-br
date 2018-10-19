@@ -1,32 +1,33 @@
 --- 
-title: Desenvolver um plano de carreira
+title: Desenvolver plano de carreira
 description: "Conforme sua organização cresce, e você considera o planejamento de sucessão, você pode querer encontrar alguém que tenha habilidades semelhantes a outra pessoa."
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmSkillMapping
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 006f3d4b30711651e389dd76f871de1214c158d1
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 63999252fa00ba474d1e40f696029973f746ba2c
 ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="develop-a-succession-plan"></a>Desenvolver um plano de carreira
+# <a name="develop-succession-plan"></a>Desenvolver plano de carreira
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Conforme sua organização cresce, e você considera o planejamento de sucessão, você pode querer encontrar alguém que tenha habilidades semelhantes a outra pessoa.  O mapeamento de habilidades permite que você analise os funcionários e candidatos existentes para ver se atendem a habilidade de um funcionário avaliado. A empresa de dados demo usada para criar este procedimento é USMF.
+Conforme sua organização cresce, e você considera o planejamento de sucessão, você pode querer encontrar alguém que tenha habilidades semelhantes a outra pessoa.  O mapeamento de habilidades permite que você analise os funcionários e candidatos existentes para verificar se eles atendem ao conjunto de habilidades de um funcionário avaliado. A empresa de dados demo usada para criar este procedimento é USMF.
 
 1. Ir para Recursos humanos > Competências > Análise de habilidade > Perfis de mapeamento de habilidade.
 2. Clique em Novo.

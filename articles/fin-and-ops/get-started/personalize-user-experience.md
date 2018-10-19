@@ -3,7 +3,7 @@ title: "Personalizar a experiência do usuário"
 description: "Este tópico explica como é possível personalizar o Microsoft Dynamics 365 for Finance and Operations."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 05/24/2018
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 862bbf4d1d9b0dc2b6dc418ee766ed4dedef49fe
-ms.openlocfilehash: 8ad5bd607f08d4e0b266d86a96a0b7f3e352c4cd
+ms.sourcegitcommit: 7344f460fcb443a78b254e2387fbf5c9134bf674
+ms.openlocfilehash: 1860b603f789aabca1ca58848a88e11a6e08e31f
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/28/2018
 
 ---
 
@@ -64,7 +64,7 @@ A perspectiva de diferentes pessoas e empresas varia em relação aos dados que 
 ### <a name="shortcut-menu-options"></a>Opções do menu de atalho
 Os menus de atalho fornecem algumas maneiras de alterar explicitamente uma página para melhor adequação aos seus requisitos ou às necessidades da sua empresa. (Um menu de atalho também é conhecido como *menu do botão direito do mouse* ou *menu de contexto*.)
 
-Algumas das alterações mais comuns e importantes a serem feitas em uma pagina estão disponíveis diretamente como opções em um menu de atalho. Por exemplo, para adicionar ou ocultar colunas em uma grade, basta clicar com o botão direito em um cabeçalho de coluna de grade e selecionar **Adicionar colunas** ou **Ocultar esta coluna**.
+Algumas das alterações mais comuns e importantes a serem feitas em uma pagina estão disponíveis diretamente como opções em um menu de atalho. Por exemplo, a partir da atualização de plataforma 17, para adicionar ou ocultar colunas em uma grade, basta clicar com o botão direito em um cabeçalho de coluna da grade e selecionar **Adicionar colunas** ou **Ocultar esta coluna**.
 
 Além disso, para disponibilizar os tipos mais básicos de personalização explícita, clique com o botão direito em um elemento e selecione **Personalizar**. (Observe que nem todos os elementos na página podem ser personalizados.) Quando você usar esse método de personalização, aparecerá a janela de propriedades do elemento.
 
@@ -81,27 +81,38 @@ Você pode usar a janela de propriedades para personalizar um elemento das segui
 A janela de propriedades pode incluir outros recursos de personalização, dependendo do elemento. Por exemplo, a janela de propriedades para um bloco permitirá que você promova esse bloco para um painel. E a janela de propriedades para um painel permitirá que você crie um novo espaço de trabalho nesse painel.
 
 ### <a name="the-personalization-toolbar"></a>A barra de ferramentas de personalização
-Quando você desejar mover ou ocultar elementos, ou fazer várias alterações em uma página, poderá usar a barra de ferramentas **Personalização**. Para abrir a barra de ferramentas **Personalização**, selecione **Personalizar este formulário** na janela de propriedades de um elemento. Você também pode selecionar **Personalizar este formulário** no grupo **Personalizar** na guia **Opções** do Painel de Ação de cada página.
+Se deseja fazer várias alterações em uma página ou fazer alterações que não estão disponíveis por meio de outros mecanismos (como a reorganização de elementos), use a barra de ferramentas **Personalização**. Para abrir a barra de ferramentas **Personalização**, selecione **Personalizar este formulário** na janela de propriedades de um elemento. Você também pode selecionar **Personalizar este formulário** no grupo **Personalizar** na guia **Opções** do Painel de Ação de cada página.
 
 [![Barra de ferramentas de personalização](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
-Enquanto a barra de ferramentas **Personalização** estiver aberta, a página será não interativa. Então, você não poderá inserir dados nem expandir ou recolher seções. Você só poderá alterar os elementos que compõem a página.
+#### <a name="navigating-the-page"></a>Navegação na página 
+A capacidade de navegar na página enquanto a **barra de ferramentas Personalização** estiver aberta depende da versão de plataforma que está em execução. 
 
+- Antes da atualização de plataforma 19, enquanto a barra de ferramentas **Personalização** está aberta, a página é somente leitura (nada pode ser inserido) e não interativa (alterações podem ser feitas somente nos elementos visíveis da página.) Se quiser fazer alterações nos elementos em uma seção recolhida ou em uma guia diferente, será necessário fechar a barra de ferramentas **Personalização** , expandir uma seção ou alternar para a guia desejada e abrir novamente a barra de ferramentas **Personalização** .  
+
+- A partir da atualização de plataforma 19, se a barra de ferramentas **Personalização** está aberta, a página é somente leitura, mas muito mais interativa. Especificamente, é possível expandir ou recolher o painel Quadro de Fatos, alternar guias e expandir ou recolher seções enquanto barra de ferramentas **Personalização** está aberta da mesma maneira que você realiza essas ações normalmente. Para aplicar uma alteração de personalização a uma seção recolhível ou a uma guia (por exemplo, para ocultar uma FastTab), você acionará o botão exibido ao lado da seção recolhível ou da guia quando ela ganhar o foco do teclado ou quando você passar o mouse sobre ela.  
+
+#### <a name="personalization-tools"></a>Ferramentas de personalização
 Estas ferramentas estão disponíveis na barra de ferramentas **Personalização**:
 
 - Use a ferramenta **Selecionar** para selecionar e alterar as propriedades de um elemento. Use a ferramenta **Selecionar** e, depois, selecione o elemento no qual deseja modificar as propriedades. Quando você selecionar um elemento, a janela de propriedades do elemento aparecerá e você poderá modificar qualquer propriedade desse elemento. Você pode repetir o processo para outros elementos que possam ser personalizados nessa página. Entretanto, devido à forma como alguns elementos são usados, o Finance and Operations não permitirá alterar algumas das propriedades. Portanto, ao selecionar um elemento, note que algumas das propriedades não podem ser modificadas. Por exemplo, você não pode ocultar um campo obrigatório.
-- Use a ferramenta **Mover** para mover um elemento para um local diferente no grupo atual de elementos. (Você não pode mover um elemento para fora de seu grupo pai). Selecione a ferramenta **Mover** e, depois, o elemento a ser movido. Quando você seleciona um elemento, o Finance and Operations verifica a página para determinar onde o elemento pode ser movido. Depois, ele cria uma série de “zonas para soltar”. Quando você arrasta o elemento no grupo atual, cada “zona para soltar” é mostrada como uma linha colorida em negrito ao lado da área em que o elemento pode ser solto.
-- Use a ferramenta **Ocultar** para ocultar um elemento na página. Selecione a ferramenta **Ocultar** e, depois, o elemento a ser oculto. Quando você seleciona a ferramenta **Ocultar**, todos os elementos ocultos no momento ficam visíveis e são exibidos em um contêiner sombreado. Você poderá reexibi-los. Ao selecionar a ferramenta **Selecionar**, você pode ver a aparência da página quando os elementos selecionados ficam ocultos.
-- Use a ferramenta **Resumo** quando desejar que um elemento apareça na seção resumo da Guia Rápida. A ferramenta Resumo se aplica somente aos campos contidos em uma seção resumo da Guia Rápida. Quando você seleciona a ferramenta **Resumo**, todos os campos selecionados como campos resumidos são mostrados em um contêiner sombreado. Você pode interativamente adicionar campos ao resumo da Guia Rápida. Para remover campos do resumo da Guia Rápida, selecione os campos.
-- Use a ferramenta **Ignorar** para remover um elemento da sequência de guias de teclado da página. Quando você seleciona a ferramenta **Ignorar**, todos os elementos ignorados no momento são exibidos em um contêiner sombreado. Você poderá torná-los parte da sequência de guias novamente.
-- Use a ferramenta **Editar** para marcar um elemento como editável ou não editável. Quando você seleciona a ferramenta **Editar**, todos os elementos não editáveis no momento são mostrados em um contêiner sombreado. Você poderá torná-los editáveis novamente. Observe que alguns campos são obrigatórios e não podem se tornar não editáveis. Um símbolo de cadeado aparece ao lado desses campos.
-- Use o botão **Inserir** para ver uma lista de elementos que podem ser inseridos em uma página.
 
+- Use a ferramenta **Mover** para mover um elemento para um local diferente no grupo atual de elementos. (Você não pode mover um elemento para fora de seu grupo pai). Selecione a ferramenta **Mover** e, depois, o elemento a ser movido. Quando você seleciona um elemento, o Finance and Operations verifica a página para determinar onde o elemento pode ser movido. Depois, ele cria uma série de “zonas para soltar”. Quando você arrasta o elemento no grupo atual, cada “zona para soltar” é mostrada como uma linha colorida em negrito ao lado da área em que o elemento pode ser solto.
+
+- Use a ferramenta **Ocultar** para ocultar um elemento na página. Selecione a ferramenta **Ocultar** e, depois, o elemento a ser oculto. Quando você seleciona a ferramenta **Ocultar**, todos os elementos ocultos no momento ficam visíveis e são exibidos em um contêiner sombreado. Você poderá reexibi-los. Ao selecionar a ferramenta **Selecionar**, você pode ver a aparência da página quando os elementos selecionados ficam ocultos.
+    - A partir da atualização de plataforma 18, você pode ocultar os campos e seções obrigatórios que contêm campos obrigatórios. Isso permite criar uma experiência simplificada em que os campos necessários definidos como padrão pela lógica comercial não são mostrados. Os campos obrigatórios ocultados também ficam temporariamente visíveis se estiverem vazios ao tentar salvá-los. 
+
+- Use a ferramenta **Resumo** quando desejar que um elemento apareça na seção resumo da Guia Rápida. A ferramenta Resumo se aplica somente aos campos contidos em uma seção resumo da Guia Rápida. Quando você seleciona a ferramenta **Resumo**, todos os campos selecionados como campos resumidos são mostrados em um contêiner sombreado. Você pode interativamente adicionar campos ao resumo da Guia Rápida. Para remover campos do resumo da Guia Rápida, selecione os campos.
+
+- Use a ferramenta **Ignorar** para remover um elemento da sequência de guias de teclado da página. Quando você seleciona a ferramenta **Ignorar**, todos os elementos ignorados no momento são exibidos em um contêiner sombreado. Você poderá torná-los parte da sequência de guias novamente.
+
+- Use a ferramenta **Editar** para marcar um elemento como editável ou não editável. Quando você seleciona a ferramenta **Editar**, todos os elementos não editáveis no momento são mostrados em um contêiner sombreado. Você poderá torná-los editáveis novamente. Observe que alguns campos são obrigatórios e não podem se tornar não editáveis. Um símbolo de cadeado aparece ao lado desses campos.
+
+- Use o botão **Inserir** para ver uma lista de elementos que podem ser inseridos em uma página.
     - Selecione a ferramenta **Campo** em **Inserir** para adicionar um campo à página. Ao usar a ferramenta **Campo**, você poderá adicionar somente os campos que fazem parte da definição de página, mas que não aparecem na página no momento. Para obter informações sobre como criar novos campos que não fazem parte da definição de página atual, consulte [Campos personalizados](user-defined-fields.md). Após selecionar a ferramenta **Campo**, primeiro selecione o grupo ou a área em que você deseja adicionar um campo. Uma caixa de diálogo mostrará a lista de campos relacionados ao grupo ou área selecionada. Na caixa de diálogo, escolha um ou mais campos a serem adicionados e selecione **Inserir**. Para remover um campo adicionado anteriormente, repita o processo, mas desmarque a seleção do campo na caixa de diálogo.
     - Selecione a ferramenta **PowerApp** em **Inserir** para inserir um aplicativo criado usando o Microsoft PowerApps na página. Para obter informações detalhadas sobre como inserir um aplicativo PowerApps em uma página, consulte [Inserir PowerApps](embed-power-apps.md).
 
 - Selecione o botão **Gerenciar** para exibir uma lista de opções de gerenciamento relacionadas a todas personalizações da página atual.
-
     - Selecione **Limpar** para redefinir a página com seu padrão, o estado instalado. Todas as personalizações na página atual serão apagadas. Não é possível desfaz a ação. Portanto, use esta opção somente se tiver certeza de que deseja redefinir a página.
     - Selecione **Importar** para carregar a personalização de um arquivo que você ou outra pessoa criou previamente para a página. Todas as personalizações atuais da página são substituídas pelas personalizações do arquivo selecionado.
     - Selecione **Exportar** para salvar as personalizações da página em um arquivo. Você pode compartilhar as personalizações com outros usuários. Esses usuários só precisam importar o arquivo que contém as personalizações da página.
@@ -149,5 +160,5 @@ Quando você personalizar a configuração de dimensões de estoque em uma pági
 
 As configurações de **Exibição de dimensão** se aplicam a todas as páginas e substituem qualquer configuração personalizada de campos de dimensão de estoque em páginas individuais.
 
-Portanto, no exemplo anterior, se você não desejar que a coluna da dimensão Estoque do número de lote apareça, você limpe essa dimensão como parte da opção **Exibir dimensões** da tabela. Com o tempo, essa alteração se aplicará não apenas a uma página específica mas a todas as páginas.
+Como resultado, no exemplo anterior, se você não deseja que a coluna da dimensão de estoque do número de lote seja exibida, limpe essa dimensão como parte da opção **Exibir dimensões** da tabela. Com o tempo, essa alteração se aplicará não apenas a uma página específica mas a todas as páginas.
 

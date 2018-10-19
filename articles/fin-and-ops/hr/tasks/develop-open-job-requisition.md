@@ -1,28 +1,29 @@
 --- 
-title: "Desenvolver e abrir requisições de trabalho abertas"
+title: "Desenvolver e abrir requisição de trabalho aberta"
 description: "Os projetos de recrutamento ajudam você a gerenciar o processo de recrutamento."
 author: kherr75
 manager: AnnBe
-ms.date: 02/10/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 927b9125e033af8aa94523092ab2ac69b7ba868d
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: e2d0dcb2e64fa7b901cdc5e4a0469e5f6a76be58
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="develop-and-open-job-requisitions"></a>Desenvolver e abrir requisições de trabalho abertas
+# <a name="develop-and-open-job-requisition"></a>Desenvolver e abrir requisição de trabalho aberta
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
