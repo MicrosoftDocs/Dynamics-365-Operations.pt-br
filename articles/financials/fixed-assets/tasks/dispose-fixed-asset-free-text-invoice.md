@@ -10,41 +10,35 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetTable, AssetBook, LedgerJournalTable, LedgerJournalTransAsset, SysQueryForm
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: 742c7d732ff121bff841ac0149b15bef5a94c756
+ms.sourcegitcommit: 92cd1ea0a6ab6039da7074e032e0f78dd7443cba
+ms.openlocfilehash: 1b1c9719f0697e9d5a51b0e769b3f850dc1690e5
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
+ms.lasthandoff: 09/24/2018
 
 ---
-# <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a><span data-ttu-id="e412d-103">Descartar um ativo fixo usando uma fatura de texto livre</span><span class="sxs-lookup"><span data-stu-id="e412d-103">Dispose of a fixed asset using a free text invoice</span></span>
+# <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a><span data-ttu-id="4f99f-103">Descartar um ativo fixo usando uma fatura de texto livre</span><span class="sxs-lookup"><span data-stu-id="4f99f-103">Dispose of a fixed asset using a free text invoice</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="e412d-104">Este procedimento mostra como adquirir um ativo fixo usando a proposta de aquisição no Diário de ativos fixos.</span><span class="sxs-lookup"><span data-stu-id="e412d-104">This procedure shows how to acquire a fixed asset using the acquisition proposal in the Fixed assets journal.</span></span> <span data-ttu-id="e412d-105">Ela usa a função de contador e os dados de demonstração da entidade legal de USMF.</span><span class="sxs-lookup"><span data-stu-id="e412d-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
+<span data-ttu-id="4f99f-104">Este procedimento mostra como alienar um ativo fixo usando a fatura de texto livre.</span><span class="sxs-lookup"><span data-stu-id="4f99f-104">This procedure shows how to dispose of a fixed asset using the free text invoice.</span></span>
 
-1. <span data-ttu-id="e412d-106">Ir para Ativos fixos > Entradas de diário > Diário de ativos fixos.</span><span class="sxs-lookup"><span data-stu-id="e412d-106">Go to Fixed assets > Journal entries > Fixed assets journal.</span></span>
-2. <span data-ttu-id="e412d-107">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="e412d-107">Click New.</span></span>
-3. <span data-ttu-id="e412d-108">No campo Nome, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="e412d-108">In the Name field, enter or select a value.</span></span>
-4. <span data-ttu-id="e412d-109">Clique em Linhas.</span><span class="sxs-lookup"><span data-stu-id="e412d-109">Click Lines.</span></span>
-5. <span data-ttu-id="e412d-110">Clique em Propostas.</span><span class="sxs-lookup"><span data-stu-id="e412d-110">Click Proposals.</span></span>
-6. <span data-ttu-id="e412d-111">Clique em Proposta de aquisição.</span><span class="sxs-lookup"><span data-stu-id="e412d-111">Click Acquisition proposal.</span></span>
-7. <span data-ttu-id="e412d-112">Clique em Filtro.</span><span class="sxs-lookup"><span data-stu-id="e412d-112">Click Filter.</span></span>
-8. <span data-ttu-id="e412d-113">Clique em Redefinir para limpar a saída de valores anteriores.</span><span class="sxs-lookup"><span data-stu-id="e412d-113">Click Reset to clear out previous values.</span></span>
-9. <span data-ttu-id="e412d-114">Selecione a linha de Número de ativo fixo.</span><span class="sxs-lookup"><span data-stu-id="e412d-114">Select the Fixed asset number row.</span></span>
-10. <span data-ttu-id="e412d-115">No campo Critérios, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="e412d-115">In the Criteria field, enter or select a value.</span></span>
-    * <span data-ttu-id="e412d-116">Defina os critérios restantes para os ativos fixos que você deseja adquirir com esta proposta.</span><span class="sxs-lookup"><span data-stu-id="e412d-116">Set the remaining criteria for the fixed assets that you want to acquire with this proposal.</span></span>  
-11. <span data-ttu-id="e412d-117">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="e412d-117">Click OK.</span></span>
-12. <span data-ttu-id="e412d-118">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="e412d-118">Click OK.</span></span>
-    * <span data-ttu-id="e412d-119">Verifique as linhas de transação criadas.</span><span class="sxs-lookup"><span data-stu-id="e412d-119">Verify the transaction lines created.</span></span>  
-    * <span data-ttu-id="e412d-120">Somente os ativos fixos com a data de aquisição e o preço de aquisição definidos no registro serão incluídos na proposta de aquisição.</span><span class="sxs-lookup"><span data-stu-id="e412d-120">Only fixed assets with the acquisition date and acquisition price set on the book will be included in the acquisition proposal.</span></span>  
-13. <span data-ttu-id="e412d-121">Clique na guia Registros.</span><span class="sxs-lookup"><span data-stu-id="e412d-121">Click the Books tab.</span></span>
-14. <span data-ttu-id="e412d-122">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="e412d-122">Click Post.</span></span>
+1. <span data-ttu-id="4f99f-105">Vá para Contas recebíveis > Faturas > Todas faturas de texto livre.</span><span class="sxs-lookup"><span data-stu-id="4f99f-105">Go to Accounts receivable > Invoices > All free text invoices.</span></span>
+2. <span data-ttu-id="4f99f-106">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="4f99f-106">Click New.</span></span>
+3. <span data-ttu-id="4f99f-107">No campo Conta de cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="4f99f-107">In the Customer account field, enter or select a value.</span></span>
+4. <span data-ttu-id="4f99f-108">Valide a data padrão da fatura e edite, se aplicável.</span><span class="sxs-lookup"><span data-stu-id="4f99f-108">Validate the default Invoice date and edit if applicable.</span></span>
+5. <span data-ttu-id="4f99f-109">Valide os campos restantes de cabeçalho padrão, como Moeda, e edite, se aplicável.</span><span class="sxs-lookup"><span data-stu-id="4f99f-109">Validate remaining default header fields, such as Currency and edit if applicable.</span></span>
+6. <span data-ttu-id="4f99f-110">Digite uma descrição na linha da fatura.</span><span class="sxs-lookup"><span data-stu-id="4f99f-110">Enter a Description into the invoice line.</span></span>
+7. <span data-ttu-id="4f99f-111">Insira ou selecione a conta principal na linha da fatura.</span><span class="sxs-lookup"><span data-stu-id="4f99f-111">Enter or select the Main account for the invoice line.</span></span>
+8. <span data-ttu-id="4f99f-112">Valide o grupo de impostos padrão e o grupo de impostos do Item.</span><span class="sxs-lookup"><span data-stu-id="4f99f-112">Validate the default Sales tax group and Item sales tax group.</span></span>
+9. <span data-ttu-id="4f99f-113">Insira o preço unitário ou o valor de venda do ativo fixo.</span><span class="sxs-lookup"><span data-stu-id="4f99f-113">Enter the Unit price or hte Amount of the sale of the fixed asset.</span></span>
+10. <span data-ttu-id="4f99f-114">Clique em Detalhes da linha.</span><span class="sxs-lookup"><span data-stu-id="4f99f-114">Click Line details.</span></span>  
+11. <span data-ttu-id="4f99f-115">Selecione o número do ativo fixo a ser vendido.</span><span class="sxs-lookup"><span data-stu-id="4f99f-115">Select the Fixed asset number to be sold.</span></span>
+12. <span data-ttu-id="4f99f-116">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="4f99f-116">Click Post.</span></span>
 
 
