@@ -3,7 +3,7 @@ title: "Gerar relatórios financeiros"
 description: "Este tópico fornece informações sobre gerar um relatório financeiro."
 author: aprilolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: b1dea07589b7fe953ec47b204441d044c19b5020
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -34,15 +34,12 @@ Este tópico fornece informações sobre gerar um relatório financeiro.
 
 Para gerar um relatório, abra a definição de relatório e clique no botão Gerar na barra de ferramentas. A janela Status da Fila de Relatórios será aberta e indicará a localização do relatório na fila. Por padrão, o relatório gerado será aberto no Visualizador da Web.
 
-> [!NOTE]
-> Você pode gerar relatórios somente para pastas e locais em que você tem permissão de acesso.
-
 As seguintes opções estão disponíveis para geração de relatórios:
 
 - Configurar um plano para gerar automaticamente um relatório ou um grupo de relatórios
 - Verificar se há contas ou dados ausentes em um relatório, e validar a precisão de um relatório
 
-Quando você gera um relatório, as opções especificadas nas guias Definição de relatório são usadas. A guia Saída e Distribuição permite especificar um local da biblioteca do relatório, que é uma maneira fácil de compartilhar o relatório.
+Quando você gera um relatório, as opções especificadas nas guias Definição de relatório são usadas.
 
 ## <a name="generate-a-financial-report"></a>Gerar um relatório financeiro
 
@@ -56,9 +53,6 @@ Depois que o relatório for gerado, ele estará disponível para exibição na s
 Você pode selecionar **Exibir** ou **Excluir** o relatório.
 
 Para gerar um relatório usando o **Designer de relatórios**, abra a definição de relatório e, em seguida, clique no botão Gerar na barra de ferramentas. A janela Status da Fila de Relatórios será aberta e indicará a localização do relatório na fila. Por padrão, o relatório gerado será aberto no Visualizador da Web.
-
-> [!NOTE]
-> Você pode gerar relatórios somente para pastas e locais em que você tem permissão de acesso.
 
 ## <a name="schedule-report-generation"></a>Programar geração de relatórios
 Várias empresas têm um conjunto de relatórios principais que são executados nos intervalos programados para alinhas com processos de negócios. Você pode programar a geração de um relatório como diária, semanal, mensal ou anual. Isso pode ser um relatório exclusivo ou um grupo de relatórios que inclui várias empresas. Você deve inserir suas credenciais para cada uma das empresas especificadas, como essas em uma definição de hierarquia organizacional. Se as credenciais não forem válidas, o relatório exibirá apenas as informações que você tem permissão para acessar, como a empresa em que está registrado no momento. As informações de saída são lidas primeiro do grupo de relatórios e, depois, de relatórios individuais.

@@ -1,29 +1,30 @@
----
-title: Criar e manter bloqueio de estoque
+--- 
+title: Criar e manter um bloqueio de estoque
 description: "Este procedimento mostra como evitar que o estoque físico disponível seja reservado para outros documentos de origem de saída usando o bloqueio de estoque."
 author: perlynne
 manager: AnnBe
-ms.date: 12/02/2015
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7272349cf16b9459823a752b8d3df915f42606ef
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 09789dc0b89f8bd36cca9b3e5be366bf17246243
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-and-maintain-inventory-blocking"></a>Criar e manter bloqueio de estoque
+# <a name="create-and-maintain-an-inventory-blocking"></a>Criar e manter um bloqueio de estoque
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,7 @@ Este procedimento mostra como evitar que o estoque físico disponível seja rese
 1. Vá para Gerenciamento de estoque > Tarefas periódicas > Bloqueio de estoque.
 2. Clique em Novo.
 3. No campo Número de item, clique no botão suspenso para abrir a pesquisa.
-4. Na lista, selecione o item que deseja escolher.
+4. Na lista, selecione o item que deseja escolher. 
     * Selecione um número de item com estoque físico disponível que você deseja bloquear. Se você estiver usando USMF, você pode o item M9201.  
 5. No campo Quantidade, insira um número.
     * Se você estiver usando o item M9201, você precisará selecionar menos de 200.  
@@ -55,4 +56,5 @@ Este procedimento mostra como evitar que o estoque físico disponível seja rese
 1. Clique em Excluir.
 2. Clique em Sim.
 3. Feche a página.
+
 

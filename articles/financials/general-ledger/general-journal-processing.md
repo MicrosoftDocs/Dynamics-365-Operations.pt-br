@@ -1,9 +1,9 @@
 ---
 title: "Processamento do diário geral"
-description: "Este artigos descrevem os recursos do Microsoft Dynamics 365 for Finance and Operations que podem ajudar a facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido."
+description: "Este tópico descreve os recursos do Microsoft Dynamics 365 for Finance and Operations que podem ajudar a facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 09/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: eb46613f805999753c2ab73ffb91a6fdae04c68e
+ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
+ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 09/24/2018
 
 ---
 
@@ -30,23 +30,27 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-Este artigos descrevem os recursos do Microsoft Dynamics 365 for Finance and Operations que podem ajudar a facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido.  
+Este tópico descreve os recursos do Microsoft Dynamics 365 for Finance and Operations que podem ajudar a facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido.  
 
-Nomes de diário
+## <a name="journal-names"></a>Nomes de diário
 
 Uma das áreas mais importantes para a configuração é nomes de diário. Convém definir nomes do diário específicos para cada objetivo, como ajuste intercompanhia, acumulado e correção de erro. Você pode personalizar cada nome de diário para ajudar a tornar a entrada de dados fácil e segura para cada objetivo. 
 
 Na página **Nomes de diário**, você pode configurar os seguintes elementos:
 
--   **Aprovação do fluxo de trabalho** – Para aumentar o controle interno, defina fluxos de trabalho do diário que estabeleçam limites de materialidade para as etapas de análise e aprovação, com base em critérios como o valor de débito total. Você configura fluxos de trabalho para os diários gerais na página **Fluxos de trabalho de contabilidade**.
+-   **Aprovação do fluxo de trabalho** – Para aumentar o controle interno, defina fluxos de trabalho do diário que estabeleçam limites de materialidade para as etapas de análise e aprovação, com base em critérios como o valor de débito total. Você configura fluxos de trabalho para os diários gerais na página **Fluxos de trabalho da contabilidade**.
 -   **Valores padrão** – Selecione valores padrão para contrapartidas, moeda e dimensões financeiras.
 -   **Controle de diário** – Você pode configurar restrições da empresa e o tipo de conta, e também os valores do segmento. 
 
 **Exemplos**
 
-Um nome de diário pode ser usado somente para ajustes. Nesse caso, você pode especificar qual apenas o tipo de conta **Razão** é válido em todas as empresas. [![Tipos de contas de controle de diário](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+Um nome de diário pode ser usado somente para ajustes. Nesse caso, você pode especificar qual apenas o tipo de conta **Razão** é válido em todas as empresas. 
 
-Um nome de diário pode ser usado somente para um segmento específico ou para um intervalo de contas principais. [![Segmento de controle de diário](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
+[![Tipos de contas de controle de diário](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+
+Um nome de diário pode ser usado somente para um segmento específico ou para um intervalo de contas principais. 
+
+[![Segmento de controle de diário](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
 A opção **Estorno automático** está disponível em diários gerais. Por exemplo, você tem um ajuste de competência em que o documento real ainda não foi processado, conforme mostrado na ilustração.
 [![Processamento do Diário geral](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
@@ -65,20 +69,21 @@ A configuração a seguir não é específica de diários gerais, mas ajudará a
 A configuração da conta principal fornece várias opções para o processamento do diário geral:
 
 -   **Necessidade de DC/CR** – Use esta opção se uma conta principal for limitada a transações de débito ou de crédito. A configuração é verificada quando um diário é validado ou lançado.
+
 -   **Contrapartida padrão**
--   **Suspenso** – Suspender um conta principal para a entrada de dados em todas as empresas ou para uma empresa específica/entidades legais.
+-   **Suspenso** – Suspender uma conta principal para a entrada de dados em todas as empresas ou para uma empresa/entidade legal específica.
 -   **Não permitir entrada manual** – Impedir que usuários insiram manualmente um valor para a conta em diários.
 -   **Padrão/Validar moeda**
 -   **Substituição da entidade legal** – Esta configuração é específica da empresa/entidade legal definida:
     -   **Padrão/Validar imposto**
-    -   **Dimensão padrão** – **Não fixo** ou **Valor fixo**. **Valor fixo** ajudará a garantir que todas as postagens para esta conta principal usem sempre um valor de dimensão configurado como **Fixo**.
+    -   **Dimensão padrão** – **Não fixo** ou **Valor fixo**. **Valor fixo** ajudará a garantir que todos os lançamentos para esta conta principal usem qualquer valor de dimensão configurado como **Fixo**.
 -   **Validação de lançamento**
     -   **Validação do usuário** – Esta opção controla quais usuários têm permissão para lançar em uma conta principal.
     -   **Validação de tipo de lançamento** – Esta opção controla os tipos de lançamento com permissão para uma conta principal.
 
 ### <a name="accounting-structures-and-advanced-rules-structures"></a>Estruturas de contabilidade e estruturas de regras avançadas
 
-As estruturas de contabilidade e as estruturas de regras avançadas são muito importantes para garantir que os dados necessários para relatórios financeiros e rastreamento de desempenho sejam capturados durante o processamento do diário geral e em qualquer outra documentação. As estruturas de contabilidade e as estruturas de regras avançadas permitem personalizar a experiência da entrada de dados. Você pode permitir a entrada de dados somente para as dimensões financeiras que são relevantes para cada situação, e também pode forçar a exigência de captura de dados obrigatórios e corretos.
+As estruturas de contabilidade e as estruturas de regras avançadas são muito importantes para garantir que os dados necessários para relatórios financeiros e rastreamento de desempenho sejam capturados durante o processamento do diário geral e em qualquer outra documentação. As estruturas de contabilidade e as estruturas de regras avançadas permitem personalizar a experiência da entrada de dados. Você pode permitir a entrada de dados somente para as dimensões financeiras que são relevantes em cada situação, e também pode forçar a exigência de que dados precisos e obrigatórios sempre serão capturados.
 
 Para obter mais informações, consulte os seguintes tópicos:
 - [Planejamento: plano de contas](plan-chart-of-accounts.md) 
@@ -88,5 +93,8 @@ Para obter mais informações, consulte os seguintes tópicos:
 - [Lançar diários periódicos](tasks/post-periodic-journals.md)
 - [Processar diário de alocação do razão](tasks/process-ledger-allocation-journal.md)
 
+## <a name="simulate-posting"></a>Simular lançamento
+Você pode encontrar **Simular lançamento** no menu **Validar** da maioria dos diários. Quando você validar um diário usando a função **Validar** , o sistema testa o lançamento para condições de erro específicas. Se você usar a função **Simular lançamento** , o sistema executa os mesmos processos realizados durante lançamento sem realmente lançar o diário. Você poderá revisar as mensagens de lançamentos que foram exibidas, corrigir os erros detectados e clicar no menu **Lançar** para lançar o diário. 
 
+**Simular lançamento** não está disponível para processamento em lotes. Porém, há um código disponível para simular o lançamento em lote e os desenvolvedores podem ampliar o código para adicionar essa funcionalidade.  
 

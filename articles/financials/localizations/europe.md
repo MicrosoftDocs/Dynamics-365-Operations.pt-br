@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 9399df070d450b6eb89dc33ca47ddb77fe8e60b1
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 08/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico inclui informações e links para recursos que podem ajudar você a configurar o Dynamics 365 for Finance and Operations para entidades legais com endereço principal no Brasil. 
+Este tópico inclui informações e links para recursos que podem ajudá-lo a configurar o Dynamics 365 for Finance and Operations para entidades legais com endereço principal na Europa. 
 
 - [Titulares avançados](emea-advance-holders.md)
  - [Transações de titulares avançados](emea-advance-holders-transactions.md)
@@ -42,11 +42,9 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
 - [Relatórios da lista de vendas da UE](emea-eu-sales-list.md)
 - [​Ajustes cambiais​](emea-exchange-rate-adjustments.md)
 - [Formatos de arquivo para métodos de pagamento](emea-select-file-formats-for-the-method-of-payments.md)
-- [Integração de serviço fiscal (ESR)](emea-fiscal-service-integration.md)
-- [​Alienação de ativos fixos da Estônia e da Lituânia​](emea-credit-note-reverse-fixed-asset-sale.md)
-- [Reavaliação de moeda estrangeira](emea-foreign-currency-revaluation.md)
+- [Integração do serviço fiscal (ESR)](emea-fiscal-service-integration.md)
+- [Alienação de ativos fixos da Estônia e da Lituânia](emea-credit-note-reverse-fixed-asset-sale.md)
 - [Gerar um documento de transferência para uma transferência interna de estoque](tasks/transfer-document-internal-inventory-transfer.md)
-- [Gerar uma declaração EU de Intrastat](tasks/eur-00002-eu-intrastat-declaration.md)
 - [Gerar um relatório de lista de vendas da UE](tasks/eur-00011-eu-sales-list-report.md)
 - Arquivos ISO20022
   - [​Importar arquivos ISO20022​](emea-ISO20022-file-formats.md)
@@ -61,6 +59,8 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
   - [Criar e exportar pagamentos de fornecedores usando o formato de pagamento ISO20022](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [Intrastat](emea-intrastat.md)
   - [Transferir transações para o Intrastat](tasks/transfer-transactions-intrastat.md)
+  - [Especificar um endereço de embarque para uma transação dentro da comunidade](tasks/eur-00002-specify-lading-address-intra-community.md)
+  - [Gerar uma declaração EU de Intrastat](tasks/eur-00002-eu-intrastat-declaration.md)
 - [​Relatórios de diários de estoque​](emea-set-up-report-inventory-journal-names.md)
 - [​Prazos finais de emissão de fatura​](emea-invoice-issue-deadline.md)
 - [Processamento de faturas](emea-invoice-processing.md)
@@ -81,10 +81,8 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
 - [​Configurar remuneração de cliente e fornecedor​](emea-compensation-customer-vendor-transactions.md)
 - [Configurar relatórios da lista de vendas do UE](tasks/eur-00011-eu-sales-list-reporting.md)
 - [Configurar um formato da guia de pagamento para faturas de projeto](tasks/set-up-payment-slip-format-project-invoices.md)
-- [​Configurar signatários para formulários impressos​](emea-set-up-signers-for-printing-forms.md)
-- [Configurar documentos de transferência para movimentação de mercadorias dentro de uma empresa](tasks/set-up-transfer-documents-goods-movement-inside-company.md)
-- [Especificar um endereço de embarque para uma transação dentro da comunidade](tasks/eur-00002-specify-lading-address-intra-community.md)
-- [​Contabilidade de estorno​](emea-storno.md)
+- [Configurar signatários para formulários impressos](emea-set-up-signers-for-printing-forms.md)
+- [Contabilidade de estorno](emea-storno.md)
 - [Diretivas de imposto](emea-tax-directives.md)
 - [Atualizar como os valores são exibidos em relatórios e documentos](emea-amount-printing-forms.md)
 - Imposto sobre Valor Agregado (IVA)

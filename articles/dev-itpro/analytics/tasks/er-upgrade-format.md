@@ -1,28 +1,29 @@
 --- 
-title: "Atualizar formatos adotando novas versões de base"
+title: "ER Atualize seu formato adotando uma nova versão com base nesse formato"
 description: "As etapas a seguir explicam como um usuário no papel de Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode manter uma configuração de formato de Relatório eletrônico (RE)."
 author: NickSelin
 manager: AnnBe
-ms.date: 02/06/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 7a14299c3bdcc33a4441d1cc096b198af4d4ae4c
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="upgrade-formats-by-adopting-new-base-versions"></a>Atualizar formatos adotando novas versões de base
+# <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER Atualize seu formato adotando uma nova versão com base nesse formato
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -35,7 +36,7 @@ Para executar estas etapas, primeiro você deve concluir as etapas "Criar um pro
 
 ## <a name="select-format-configuration-for-customization"></a>Selecione a configuração de formato para a personalização
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
-    * Neste exemplo, a empresa exemplo, Litware, Inc. (`http://www.litware.com`), atuará como um provedor de configuração que oferece suporte a configurações de formato para pagamentos eletrônicos de um país específico.  A empresa exemplo, Proseware, Inc (`http://www.proseware.com`), atuará como um consumidor da configuração do formato fornecida pela Litware, Inc. A Proseware, Inc. usa formatos em determinadas regiões desse país.  
+    * Neste exemplo, a empresa exemplo, Litware, Inc. (http://www.litware.com), atuará como um provedor de configuração que oferece suporte a configurações de formato para pagamentos eletrônicos de um país específico.    A empresa exemplo, Proseware, Inc (http://www.proseware.com), atuará como um consumidor da configuração do formato fornecida pela Litware, Inc. A Proseware, Inc. usa formatos em determinadas regiões desse país.  
 2. Clique em Configurações de relatórios.
 3. Clique em Mostrar filtros.
 4. Aplique os seguintes filtros: insira um valor de filtro de "BACS (fictício do Reino Unido)", no campo "Nome" usando o operador de filtro "começa com"
@@ -46,7 +47,7 @@ Para executar estas etapas, primeiro você deve concluir as etapas "Criar um pro
     * A versão do formato com o status de Concluído será usada pela Proseware, Inc. para personalização.  
 
 ## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a>Crie uma nova configuração para o formato de documento personalizado eletrônico
-A Proseware, Inc. recebeu a configuração da versão 1.1 de BACS (fictício do Reino Unido) que contém o formato inicial para gerar documentos de pagamento eletrônico da Litware, Inc. em conformidade com a subscrição de serviço. A Proseware, Inc. deseja começar a usá-la como um padrão para seu país, mas algumas personalizações são necessárias para oferecer suporte a requisitos regionais específicos. A Proseware, Inc. também deseja manter a capacidade de atualizar um formato personalizado assim que uma nova versão dele (com alterações para oferecer suporte a novos requisitos específicos do país) venha da Litware, Inc. e desejam fazer essa atualização com o menor custo possível.  Para isso, a Proseware, Inc. precisa criar uma configuração usando configuração BACS (fictício do Reino Unido) da Litware, Inc. como base.  
+    * A Proseware, Inc. recebeu a configuração da versão 1.1 de BACS (fictício do Reino Unido) que contém o formato inicial para gerar documentos de pagamento eletrônico da Litware, Inc. em conformidade com a subscrição de serviço. A Proseware, Inc. deseja começar a usá-la como um padrão para seu país, mas algumas personalizações são necessárias para oferecer suporte a requisitos regionais específicos. A Proseware, Inc. também deseja manter a capacidade de atualizar um formato personalizado assim que uma nova versão dele (com alterações para oferecer suporte a novos requisitos específicos do país) venha da Litware, Inc. e desejam fazer essa atualização com o menor custo possível.  Para isso, a Proseware, Inc. precisa criar uma configuração usando configuração BACS (fictício do Reino Unido) da Litware, Inc. como base.  
 1. Feche a página.
 2. Selecione a Proseware, Inc. para torná-la um provedor ativo.
 3. Clique em Definir como ativo.
@@ -107,13 +108,11 @@ A Proseware, Inc. recebeu a configuração da versão 1.1 de BACS (fictício do 
     * Observe que a configuração criada será salva como versão 1.1.1 concluída. Isso significa que é a versão 1 do formato de costume BACS (personalizado fictício do Reino Unido), que se baseia na versão 1 do formato de BACS (fictício do Reino Unido), que se baseia na versão 1 do modelo de dados de pagamentos (modelo simplificado).  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>Testar o formato personalizado para gerar arquivos de pagamento
-Conclua as etapas no procedimento "Usar formato criado para gerar documentos eletrônicos para pagamentos" em uma sessão paralela do Dynamics 365 for Finance and Operations. Selecione o formato BACS (personalizado fictício do Reino Unido) nos parâmetros de método de pagamento eletrônico. Verifique se o arquivo de pagamento criado contém o nó recentemente introduzido ao XML que apresenta o código de IBAN no acordo das exigências regionais.  
+    * Conclua as etapas no procedimento "Usar formato criado para gerar documentos eletrônicos para pagamentos" em uma sessão paralela do Dynamics 365 for Finance and Operations, edição Enterprise. Selecione o formato BACS (personalizado fictício do Reino Unido) nos parâmetros de método de pagamento eletrônico. Verifique se o arquivo de pagamento criado contém o nó recentemente introduzido ao XML que apresenta o código de IBAN no acordo das exigências regionais.  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>Atualizar a configuração específica existente do país
-A Litware, Inc. precisa atualizar a configuração BACS (fictício do Reino Unido) e adotar novos requisitos de país para o gerenciamento do formato do documento eletrônico. Posteriormente, isso será incluído em uma nova versão dessa configuração que será oferecida para assinantes de serviço, incluindo Proseware, Inc.  
-
-Nos processos relacionados de provisão de serviço reais, cada nova versão de BACS (fictício do Reino Unido) pode ser importada pela Proseware, Inc. do repositório LCS das configurações da Litware, Inc. Nesse procedimento, simularemos isso atualizando BACS (fictício do Reino Unido) em nome de um prestador de serviço.
-
+    * A Litware, Inc. precisa atualizar a configuração BACS (fictício do Reino Unido) e adotar novos requisitos de país para o gerenciamento do formato do documento eletrônico. Posteriormente, isso será incluído em uma nova versão dessa configuração que será oferecida para assinantes de serviço, incluindo Proseware, Inc.  
+    * Nos processos relacionados de provisão de serviço reais, cada nova versão de BACS (fictício do Reino Unido) pode ser importada pela Proseware, Inc. do repositório LCS das configurações da Litware, Inc. Nesse procedimento, simularemos isso atualizando BACS (fictício do Reino Unido) em nome de um prestador de serviço.  
 1. Feche a página.
 2. Selecione o fornecedor "Litware, Inc.".
 3. Clique em Definir como ativo.
@@ -123,12 +122,9 @@ Nos processos relacionados de provisão de serviço reais, cada nova versão de 
     * A versão de rascunho de propriedade do provedor BACS (fictício do Reino Unido) da Litware, Inc. é selecionada para trazer alterações para oferecer suporte aos requisitos específicos do país.  
 
 ## <a name="localize-the-base-format-of-the-electronic-document"></a>Localizar o formato base do documento eletrônico
-Suponha que haja alguns requisitos específicos do país a serem suportados pela Litware:  
-- Um valor do código SWIFT do banco credor em cada transação de pagamento.  
-- Um limite de 100 caracteres para o comprimento do texto do nome do fornecedor no arquivo de geração.  
- 
-Selecione a versão de rascunho de configuração selecionada para apresentar alterações necessárias.  
-
+    * Suponha que haja novos requisitos específicos do país a serem aceitos pela Litware, Inc.: – um valor para o código SWIFT do banco do credor em cada transação de pagamento.  - Um limite de 100 caracteres para o comprimento do texto para o nome do fornecedor no arquivo de geração.  
+    * Novos requisitos específicos do país  
+    * Selecione a versão de rascunho de configuração selecionada para apresentar alterações necessárias.  
 1. Clique em Designer.
 2. Clique em Expandir/recolher.
 3. Clique em Expandir/recolher.
@@ -159,7 +155,7 @@ Selecione a versão de rascunho de configuração selecionada para apresentar al
 2. Feche a página.
 
 ## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a>Altere o status da versão atual da configuração do formato base
-Altere o status da configuração básica atualizada no formato de Rascunho para Concluído para tornar disponível a geração de documentos do pagamento e de atualizações das configurações do formato derivadas dela.  
+    * Altere o status da configuração básica atualizada no formato de Rascunho para Concluído para tornar disponível a geração de documentos do pagamento e de atualizações das configurações do formato derivadas dela.  
 1. Clique em Alterar status.
     * Observe que a versão atual da configuração selecionada está no status Rascunho.  
 2. Clique em Concluir.
@@ -168,8 +164,7 @@ Altere o status da configuração básica atualizada no formato de Rascunho para
 5. Na lista, localize e selecione o PDV desejado.
 
 ## <a name="change-the-base-version-for-the-custom-format-configuration"></a>Versão da alteração para a configuração do formato personalizado
-A Proseware, Inc. é informada que uma nova versão 1.2 da configuração BACS (fictício do Reino Unido) está disponível para gerar documentos de pagamento eletrônico de acordo com os novos requisitos específicos anunciados. A Proseware, Inc. deseja começar a usá-la como padrão para o país.  Para isso, a Proseware, Inc. precisa alterar a versão da configuração base para a configuração personalizada BACS (Reino Unido fictício personalizado). Em vez da versão 1.1 de BACS (fictício do Reino Unido) use a nova versão 1.2.  
-
+    * A Proseware, Inc. é informada que uma nova versão 1.2 da configuração BACS (fictício do Reino Unido) está disponível para gerar documentos de pagamento eletrônico de acordo com os novos requisitos específicos anunciados. A Proseware, Inc. deseja começar a usá-la como padrão para o país.  Para isso, a Proseware, Inc. precisa alterar a versão da configuração base para a configuração personalizada BACS (Reino Unido fictício personalizado). Em vez da versão 1.1 de BACS (fictício do Reino Unido) use a nova versão 1.2.  
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
 2. Selecione o provedor da Proseware, Inc. para marcá-lo como ativo.
 3. Clique em Definir como ativo.
@@ -203,6 +198,6 @@ A Proseware, Inc. é informada que uma nova versão 1.2 da configuração BACS (
     * Observe que a configuração criada é salva como uma versão completa 1.2.2: versão 2 do formato da base BACS (personalizado fictício do Reino Unido), que é baseado na versão 2 do formato da base BACS (fictício do Reino Unido), que é baseada na versão 1 do modelo de dados de Pagamentos (modelo simplificado).  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>Teste o formato personalizado para gerar arquivos de pagamento
-Conclua as etapas no procedimento "Usar formato criado para gerar documentos eletrônicos para pagamentos" em uma sessão paralela do Dynamics 365 for Finance and Operations. Selecione o "formato BACS criado (personalizado fictício do Reino Unido)" nos parâmetros de método de pagamento eletrônico. Verifique se o arquivo de pagamento criado contém o nó XML recentemente introduzido pela Proseware, Inc. que apresenta o código de conta IBAN de acordo com as exigências regionais. O arquivo também deve conter o nó XML introduzido recentemente pela Litware, Inc. que apresenta o código bancário SWIFT de acordo os requisitos do país.  
+    * Conclua as etapas no procedimento "Usar formato criado para gerar documentos eletrônicos para pagamentos" em uma sessão paralela do Dynamics 365 for Finance and Operations, edição Enterprise. Selecione o "formato BACS criado (personalizado fictício do Reino Unido)" nos parâmetros de método de pagamento eletrônico. Verifique se o arquivo de pagamento criado contém o nó XML recentemente introduzido pela Proseware, Inc. que apresenta o código de conta IBAN de acordo com as exigências regionais. O arquivo também deve conter o nó XML introduzido recentemente pela Litware, Inc. que apresenta o código bancário SWIFT de acordo os requisitos do país.  
 
 

@@ -3,23 +3,24 @@ title: "Criar provedores de configuração e marcá-los como ativos"
 description: "As etapas a seguir explicam como um usuário atribuído ao Administrador do Sistema ou Desenvolvedor de Relatório Eletrônico pode criar uma configuração de fornecedor para Relatório eletrônico (RE)."
 author: NickSelin
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERVendorTable
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 37957f224cb57fd9f6c5014740bcea124a99a03a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>Criar provedores de configuração e marcá-los como ativos
@@ -33,10 +34,11 @@ As etapas a seguir explicam como um usuário atribuído ao Administrador do Sist
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
 2. Clique em Provedores de configuração.
 3. Clique em Novo.
-    * Um registro de fornecedor tem nome e URL exclusivos. Revise o conteúdo dessa página e ignore esse procedimento se um registro para Litware, Inc. (`http://www.litware.com`) já existir.  
+    * Um registro de fornecedor tem nome e URL exclusivos. Revise o conteúdo dessa página e ignore esse procedimento se um registro para Litware, Inc. (http://www.litware.com) já existir.  
 4. No campo Nome, digite 'Litware, Inc.'.
     * Litware, Inc.  
-5. No campo Endereço na Internet, digite `http://www.litware.com`.
+5. No campo Endereço na Internet, digite 'http://www.litware.com'.
+    * http://www.litware.com  
 6. Clique em Salvar.
 7. Feche a página.
 

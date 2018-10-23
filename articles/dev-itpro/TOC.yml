@@ -9,7 +9,7 @@
   items:
     - name: Gerenciar dados de demonstração usando pacotes de dados
       href: data-entities/generate-demo-data-packages.md
-- name: Desenvolver e personalizar usando o Visual Studio
+- name: Desenvolver e personalizar
   href: dev-tools/developer-home-page.md
   items:
     - name: ​Pilha de aplicativos e arquitetura do servidor
@@ -25,9 +25,9 @@
           href: dev-tools/configure-developer-vm.md
         - name: Criar novos usuários em computadores de desenvolvimento
           href: dev-tools/enable-development-machine.md
-        - name: VMs de desenvolvimento e compilação que não permitem perguntas frequentes de acesso de administrador
+        - name: VMs de desenvolvimento e compilação que não permitem Perguntas Frequentes de acesso do administrador
           href: sysadmin/VMs-no-admin-access.md
-        - name: Renomear ambientes locais para acessar o Visual Studio Team Services
+        - name: Renomear ambientes locais para acessar o Azure DevOps
           href: migration-upgrade/vso-machine-renaming.md
         - name: Requisitos do sistema de desenvolvimento
           href: dev-tools/development-system-requirements.md
@@ -102,13 +102,15 @@
           items:
             - name: Referência da linguagem X++
               href: dev-ref/xpp-language-reference.md
-            - name: Variáveis e tipos de dados X++
+            - name: Variáveis e tipos de dados do X++
               href: dev-ref/xpp-variables-data-types.md
             - name: 'Instruções, loops e tratamento de exceções do X++'
               href: dev-ref/xpp-statements-loops.md
+            - name: Exceções do X++ para o erro de conexão do SQL
+              href: dev-ref/sql-connection-error.md
             - name: Operadores do X++
               href: dev-ref/xpp-operators.md
-            - name: Precedência do operador X++
+            - name: Precedência dos operadores do X++
               href: dev-ref/xpp-operator-precedence.md
             - name: Classes e métodos do X++
               href: dev-ref/xpp-classes-methods.md
@@ -251,11 +253,15 @@
               href: extensibility/extensibility-changes-802.md
             - name: Alterações de extensibilidade na versão 8.0.3
               href: extensibility/extensibility-changes-803.md
+            - name: Alterações de extensibilidade na versão 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: Alterações de extensibilidade na versão 8.1
+              href: extensibility/extensibility-changes-81.md
         - name: Conceitos básicos
           items:
             - name: Personalizações intrusivas
               href: extensibility/intrusive-customizations.md
-            - name: Modelo da extensão de classe
+            - name: Modelo da extensão de classes
               href: extensibility/class-extensions.md
             - name: Extensão de classe via disposição e cadeia de comando do método
               href: extensibility/method-wrapping-coc.md
@@ -916,10 +922,12 @@
           href: gdpr/gdpr-lcs.md
     - name: Espaço de trabalho da lista de verificação de validação de dados
       href: user-interface/data-validation-workspace.md
-- name: Fornecimento contínuo
+    - name: Descrições dos erros de gerenciamento de dados
+      href: data-entities/dm-error-descriptions.md
+- name: Entrega contínua
   href: dev-tools/continuous-delivery-home-page.md
   items:
-    - name: ​Perguntas frequentes sobre desenvolvimento e fornecimento contínuo​
+    - name: ​Perguntas frequentes sobre desenvolvimento e entrega contínua​
       href: dev-tools/continuous-delivery-faq.md
     - name: ​Excluir pacotes de teste da compilação de saída​
       href: dev-tools/exclude-test-packages.md
@@ -1107,14 +1115,29 @@
               href: migration-upgrade/in-memory-real-time-aggregate-models.md
             - name: Migrar cubos de vendas atualizados para o repositório de entidades
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
-            - name: Atualizar planejamento de orçamento
+            - name: Atualizar plano de orçamento
               href: migration-upgrade/upgrade-budget-planning.md
-    - name: Migração e atualização de código
+    - name: Migrar dados do AX 2009 para o Finance and Operations
+      href: migration-upgrade/data-migration-tool.md
+      items:
+        - name: Migração do AX 2009 – Instalar a ferramenta de migração de dados
+          href: migration-upgrade/install-dmt.md
+        - name: Migração do AX 2009 – Gerar mapas
+          href: migration-upgrade/generate-maps.md
+        - name: Migração do AX 2009 – Criar modelos
+          href: migration-upgrade/create-package-templates-dmt.md
+        - name: Migração do AX 2009 – Criar grupos de migração
+          href: migration-upgrade/create-definition.md
+        - name: Migração do AX 2009 – Exportar pacotes
+          href: migration-upgrade/ax2009-upgrade-export-package.md
+        - name: Migração do AX 2009 – Importar pacotes
+          href: migration-upgrade/ax2009-upgrade-import-package.md
+    - name: Migração e atualização de códigos
       href: migration-upgrade/code-migration-home-page.md
       items:
         - name: Preparar-se para migrar o código
           href: migration-upgrade/prepare-migration.md
-        - name: Configurar o mapeamento do Visual Studio Team Services
+        - name: Configurar mapeamento do Azure DevOps
           href: migration-upgrade/configure-vso-solution.md
         - name: Divisão de modelos
           href: dev-tools/model-split.md
@@ -1122,11 +1145,13 @@
           href: migration-upgrade/delegates-migration.md
     - name: Atualizar para uma versão recente (nuvem)
       items:
-        - name: Processo de movimentação para a última atualização
+        - name: Processo de migração para a atualização mais recente
           href: migration-upgrade/upgrade-latest-update.md
+        - name: Atualizar ambientes da versão 8.0 para 8.1
+          href: migration-upgrade/appupdate-80-81.md
         - name: Política de ciclo de vida do software e versões de nuvem
           href: migration-upgrade/versions-update-policy.md
-        - name: Aplicar a última atualização de plataforma a ambientes
+        - name: Aplicar a atualização mais recente da plataforma aos ambientes
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: Atualizar a plataforma do Dynamics AX para a versão de agosto de 2016
           href: migration-upgrade/update-platform-each-release.md
@@ -1248,9 +1273,9 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: Trabalhar com diagramas de atividades em bibliotecas do BPM
       href: lifecycle-services/using-activity-diagrams.md
-    - name: Sincronizar bibliotecas do BPM com o Visual Studio Team Services
+    - name: Sincronizar bibliotecas do BPM com o Azure DevOps
       href: lifecycle-services/synchronize-bpm-vsts.md
-    - name: Criar bibliotecas de teste de aceitação de usuário por o BPM e guias de tarefas
+    - name: Criar bibliotecas de teste de aceitação de usuário usando o BPM e os guias de tarefas
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
     - name: ​Fluxogramas no modelador de processo de negócios​
       href: lifecycle-services/flowcharts-business-process-modeler.md
@@ -1262,10 +1287,14 @@
       href: lifecycle-services/restart-environment-services.md
     - name: Relatar uma interrupção de produção
       href: lifecycle-services/report-production-outage.md
-    - name: Rastrear entradas de usuário
+    - name: Rastrear entradas dos usuários
       href: lifecycle-services/user-logins.md
     - name: Biblioteca de ativos
       href: lifecycle-services/asset-library.md
+    - name: Solução de problemas de desempenho usando as ferramentas no LCS
+      href: lifecycle-services/performancetroubleshooting.md
+    - name: Guia de consultas
+      href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:

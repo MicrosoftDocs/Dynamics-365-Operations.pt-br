@@ -1,29 +1,30 @@
----
-title: "Configurar pré-requisitos para gerenciamento"
+--- 
+title: "Configurar pré-requisitos do gerenciamento de não conformidade"
 description: "Use este procedimento para habilitar processos de gerenciamento de não conformidade."
 author: perlynne
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, InventTestReportSetup, SysUserManagement, SysUserSetup, InventTestDiagnosticType, InventTestMiscCharges, InventTestOperation, InventProblemType, InventProblemTypeSetup, InventQuarantineZone
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
-ms.openlocfilehash: 9b5b05a3c00f093066a2714964bb99146427c3bc
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 0a4062acc91e024e3a0a41c0b3cb35ff5ffe2a4a
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="set-up-prerequisites-for-management"></a>Configurar pré-requisitos para gerenciamento
+# <a name="set-up-prerequisites-for-nonconformance-management"></a>Configurar pré-requisitos do gerenciamento de não conformidade
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -101,4 +102,5 @@ Use este procedimento para habilitar processos de gerenciamento de não conformi
 3. No campo Zona de quarentena, digite um valor.
 4. No campo Descrição, digite um valor.
 5. Feche a página.
+
 

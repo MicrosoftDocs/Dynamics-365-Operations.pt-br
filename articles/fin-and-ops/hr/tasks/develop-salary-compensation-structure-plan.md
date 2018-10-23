@@ -1,32 +1,33 @@
 --- 
-title: "Desenvolver estruturas e planos de remuneração/salário"
-description: "Essa guia da tarefa mostra o processo de criar um plano de remuneração fixa e de habilitar os funcionários a serem inseridos no plano com as regras de qualificação."
+title: "Desenvolver estrutura e plano de remuneração/salário"
+description: "Essa guia da tarefa mostra o processo de criar um plano de remuneração fixa e de habilitar os funcionários a serem inseridos no plano com a qualificação."
 author: kherr75
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0514cd485c8fa0026390a22be350ff23933afd7b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="develop-salarycompensation-structures-and-plans"></a>Desenvolver estruturas e planos de remuneração/salário
+# <a name="develop-salarycompensation-structure-and-plan"></a>Desenvolver estrutura e plano de remuneração/salário
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Essa guia da tarefa mostra o processo de criar um plano de remuneração fixa e de habilitar os funcionários a serem inseridos no plano com as regras de qualificação. A empresa de dados de demonstração usada para criar essa tarefa é a USMF e esta tarefa é destinada aos gerentes de Compensação e Benefícios.
+Essa guia da tarefa mostra o processo de criar um plano de remuneração fixa e de habilitar os funcionários a serem inseridos no plano com a qualificação. A empresa de dados de demonstração usada para criar essa tarefa é a USMF e esta tarefa é destinada aos gerentes de Compensação e Benefícios.
 
 
 ## <a name="create-fixed-compensation-plan"></a>Criar planos de remuneração fixa.

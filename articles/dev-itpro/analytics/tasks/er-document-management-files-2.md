@@ -1,28 +1,29 @@
 --- 
-title: "Estender modelos de dados para usar arquivos de gerenciamento de documentos em saídas de ER"
+title: "ER Usar arquivos de gerenciamento de documentos em formato de saída (Parte 2 - Estender modelo de dados)"
 description: "As etapas a seguir explicam como um usuário atribuído à função de administrador do sistema ou desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico (ER) para usar arquivos de gerenciamento de documentos (anexos) na saída do ER."
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 8363dd2af728577175a620d7b645d90cea84803a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: cb4c58dc86a159a70634c05408a8db471ebcae4c
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="extend-data-models-to-use-document-management-files-in-er-output"></a>Estender modelos de dados para usar arquivos de gerenciamento de documentos em saídas de ER
+# <a name="er-use-document-management-files-in-format-outputs-part-2-extend-data-model"></a>O ER usar arquivos de gerenciamento de documentos em formato de saída (parte 2: estender modelo de dados)
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -57,7 +58,7 @@ Este procedimento é para um recurso que foi adicionado à versão 1611 do Dynam
 17. No campo Tipo de item, selecione 'String'.
 18. Clique em Adicionar.
 
-## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-data-sources"></a>Mapeie os novos elementos do modelo de dados para as fontes de dados do Dynamics 365 for Finance and Operations.
+## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>Mapeie os novos elementos do modelo de dados para as fontes de dados do Dynamics 365 for Finance and Operations, edição Enterprise.
 1. Clique em Mapear modelo para fonte de dados.
 2. Use o Filtro Rápido para filtrar no campo Definição com um valor de 'InvoiceCustomer'.
     * InvoiceCustomer  

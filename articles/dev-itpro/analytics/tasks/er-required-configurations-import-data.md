@@ -1,41 +1,42 @@
 --- 
-title: "Criar configurações de ER para importar dados de arquivos externos"
-description: "As etapas a seguir explicam como um usuário na função de Administrador do sistema ou Desenvolvedor de relatórios eletrônicos pode criar configurações de ER para importar dados para o aplicativo Dynamics 365 for Finance and Operations de um arquivo externo."
+title: "ER Criar configurações necessárias para importar os dados de um arquivo externo"
+description: "As etapas a seguir explicam como um usuário no papel de Administrador do sistema ou Desenvolvedor de relatórios eletrônicos pode criar configurações de ER para importar dados para o aplicativo Dynamics 365 for Finance and Operations, edição Enterprise de um arquivo externo."
 author: NickSelin
 manager: AnnBe
-ms.date: 02/22/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 70bf788b5924e382ab927fcff4c86908923e09d7
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 6675f35c9ec163a620e63af32ecdbff02197d3c3
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-er-configurations-to-import-data-from-external-files"></a>Criar configurações de ER para importar dados de arquivos externos
+# <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER Criar configurações necessárias para importar os dados de um arquivo externo
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-As etapas a seguir explicam como um usuário na função de Administrador do sistema ou Desenvolvedor de relatórios eletrônicos pode criar configurações de ER para importar dados para o aplicativo Dynamics 365 for Finance and Operations de um arquivo externo. Neste exemplo, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. Para concluir estas etapas, você deverá primeiramente concluir as etapas no Guia da tarefas, "ER Criar um provedor configuração" e marcá-lo como ativo. Estas etapas podem ser concluídas usando o conjunto de dados de USMF. Você também deve baixar e salvar os seguintes arquivos localmente usando os links do tópico da visão geral do Relatório eletrônico (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml e 1099entries.xlsx.
+As etapas a seguir explicam como um usuário no papel de Administrador do sistema ou Desenvolvedor de relatórios eletrônicos pode criar configurações de ER para importar dados para o aplicativo Dynamics 365 for Finance and Operations, edição Enterprise de um arquivo externo. Neste exemplo, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. Para concluir estas etapas, você deverá primeiramente concluir as etapas no Guia da tarefas, "ER Criar um provedor configuração" e marcá-lo como ativo. Estas etapas podem ser concluídas usando o conjunto de dados de USMF. Você também deve baixar e salvar os seguintes arquivos localmente usando os links do tópico da visão geral do Relatório eletrônico (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml e 1099entries.xlsx.
 
-    * O ER oferece aos usuários comerciais a capacidade de configurar o processo de importação de arquivos de dados externos para tabelas no Dynamics 365 for Finance and Operations no formato .XML ou .TXT. Primeiramente, um modelo de dados abstrato e uma configuração do modelo de dados de ER devem ser criados para representar os dados que você está importando. Em seguida, você precisa definir a estrutura do arquivo que você está importando e o método que usará para transferir os dados do arquivo para modelo de dados abstrato. A configuração de formato de ER que é mapeada ao modelo de dados criado deve ser criada para esse modelo de dados abstrato. Em seguida, a configuração de modelo de dados deve ser estendida com um mapeamento que descreva como os dados importados são persistentes como dados do modelo de dados abstratos e como são usados para atualizar as tabelas no Dynamics 365 for Finance and Operations.  A configuração do modelo de dados de ER deve ser acrescentada com um novo mapeamento de modelo que descreve a associação do modelo de dados a destinos do aplicativo.  
-    * O cenário a seguir mostra os recursos da importação de dados de ER. Isso inclui transações de fornecedores que são rastreadas externamente e importadas para o Dynamics 365 for Finance and Operations para serem relatadas posteriormente na liquidação do fornecedor para impostos 1099.   
+    * O ER oferece aos usuários comerciais a possibilidade de configurar o processo de importação de arquivos de dados externos para tabelas no Dynamics 365 for Finance and Operations, edição Enterprise no formato .XML ou .TXT. Primeiramente, um modelo de dados abstrato e uma configuração do modelo de dados de ER devem ser criados para representar os dados que você está importando. Em seguida, você precisa definir a estrutura do arquivo que você está importando e o método que usará para transferir os dados do arquivo para modelo de dados abstrato. A configuração de formato de ER que é mapeada ao modelo de dados criado deve ser criada para esse modelo de dados abstrato. Depois, a configuração de modelo de dados deve ser estendida com um mapeamento que descreva como os dados importados são persistidos como dados do modelo de dados abstratos e como são usados para atualizar as tabelas no Dynamics 365 for Finance and Operations, edição Enterprise.  A configuração do modelo de dados de ER deve ser acrescentada com um novo mapeamento de modelo que descreve a associação do modelo de dados a destinos do aplicativo.  
+    * O cenário a seguir mostra os recursos da importação de dados de ER. Isso inclui transações de fornecedores que são rastreadas externamente e importadas no Dynamics 365 for Finance and Operations, edição Enterprise para serem relatadas posteriormente na liquidação do Fornecedor para impostos 1099.   
 
 ## <a name="add-a-new-er-model-configuration"></a>Adicionar uma nova configuração de modelo de ER
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
     * Verifique se o provedor de configuração para a empresa exemplo 'Litware, Inc.' está disponível e marcado como ativo. Se não visualizar este provedor de configuração, você deve primeiro concluir as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo".   
 2. Clique em Configurações de relatórios.
-    * Em vez de criar um novo modelo para oferecer suporte à importação de dados, carregue o arquivo, 1099model.xml, que foi baixado anteriormente. Este arquivo contém o modelo de dados personalizado das transações de fornecedores. Esse modelo de dados é mapeado para os componentes de dados do Dynamics 365 for Finance and Operations que estão na entidade de dados da AOT.   
+    * Em vez de criar um novo modelo para oferecer suporte à importação de dados, carregue o arquivo, 1099model.xml, que foi baixado anteriormente. Este arquivo contém o modelo de dados personalizado das transações de fornecedores. Esse modelo de dados é mapeado para os componentes de dados do Dynamics 365 for Finance and Operations, edição Enterprise que estão na entidade de dados da AOT.   
 3. Clique em Trocar.
 4. Clique em Carregar de um arquivo XML.
     * Clique em Procurar e navegue até o arquivo 1099model.xml que foi baixado anteriormente.  
@@ -44,7 +45,7 @@ As etapas a seguir explicam como um usuário na função de Administrador do sis
 
 ## <a name="review-data-model-settings"></a>Examine as configurações do modelo de dados
 1. Clique em Designer.
-    * Esse modelo foi criado para representar as transações de fornecedores do ponto de vista comercial e está separado da implementação no Dynamics 365 for Finance and Operations.   
+    * Esse modelo foi criado para representar as transações de fornecedores do ponto de vista comercial e está separado da implementação no Dynamics 365 for Finance and Operations, edição Enterprise.   
 2. Na árvore, expanda "1099-MISC".
 3. Na árvore, selecione "1099-MISC\Transações".
 4. Na árvore, expanda "1099-MISC\Transações".
@@ -106,7 +107,7 @@ As etapas a seguir explicam como um usuário na função de Administrador do sis
 1. Na árvore, selecione "Modelo de pagamento 1099".
 2. Clique em Designer.
 3. Clique em Mapear modelo para fonte de dados.
-    * O mapeamento para importação de transações manuais 1099 foi definido com o tipo de direção de destino Até. Isso significa que ele foi inserido para oferecer suporte à importação de dados e contém a configuração de regras que definem como o arquivo externo importado e persistente como dados do modelo de dados abstratos é usado para atualizar tabelas do aplicativo Dynamics 365 for Finance and Operations.  
+    * O mapeamento para importação de transações manuais 1099 foi definido com o tipo de direção de destino Até. Isso significa que ele foi inserido para oferecer suporte à importação de dados e contém a configuração de regras que definem como o arquivo externo importado e persistente como dados do modelo de dados abstrato é usado para atualizar tabelas do aplicativo Dynamics 365 for Finance and Operations, edição Enterprise.  
 4. Clique em Designer.
 5. Na árvore, expanda "modelo: Modelo de dados do modelo de Pagamentos 1099".
 6. Na árvore, expanda "modelo: Modelo de dados do modelo de Pagamentos 1099\Transações: Lista de registros".
@@ -120,7 +121,7 @@ As etapas a seguir explicam como um usuário na função de Administrador do sis
 12. Na árvore, selecione "tax1099trans: Tabela "VendSettlementTax1099" registros= model.Validated".
 13. Clique em Editar destino.
     * Este destino de ER foi adicionado para especificar como os dados importados atualizarão as tabelas do aplicativo. Nesse caso, a tabela de dados VendSettlementTax1099 foi selecionada. Como a ação de registro Inserir foi marcada, as transações importadas serão inseridas na tabela VendSettlementTax1099. Observe que um mapeamento de modelo único pode conter vários destinos. Isso significa que os dados importados podem ser usados para atualizar várias tabelas do aplicativo de uma vez. As tabelas, as exibições e as entidades de dados podem ser usadas como destinos de ER.   
-    * Se o mapeamento será chamado de um ponto no aplicativo Dynamics 365 for Finance and Operations (como botão ou item de menu) que foi criado especificamente para esta ação, o destino do ER deve ser marcado como o ponto de integração. Neste exemplo, este é o ponto de ERTableDestination#VendSettlementTax1099.  
+    * Se o mapeamento será chamado de um ponto no aplicativo Dynamics 365 for Finance and Operations, edição Enterprise (como botão ou item de menu) que foi criado especificamente para esta ação, o destino do ER deve ser marcado como o ponto de integração. Neste exemplo, este é o ponto de ERTableDestination#VendSettlementTax1099.  
 14. Clique em Cancelar.
 15. Clique em Mostrar tudo.
 16. Clique em Mostrar somente mapeado.
@@ -176,15 +177,15 @@ As etapas a seguir explicam como um usuário na função de Administrador do sis
 18. Feche a página.
 19. Feche a página.
 20. Clique em Editar.
-    * Se você instalou o hotfix “Suporte KB 4012871 de mapeamentos de modelo de GER em configurações separadas com uma capacidade de especificar diferentes tipos de pré-requisitos para implantar em várias versões do Dynamics 365 for Finance and Operations" (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ), execute a próxima etapa "Ativar o sinalizador Padrão do mapeamento de modelo" para a configuração de formato inserida. Caso contrário, ignore a próxima etapa.  
+    * Se você instalou o hotfix “Suporte KB 4012871 de mapeamentos de modelo de GER em configurações separadas com uma capacidade de especificar diferentes tipos de pré-requisitos para implantar em várias versões do Dynamics 365 for Finance and Operations, Enterprise edition” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ), execute a próxima etapa "Ativar o sinalizador Padrão do mapeamento de modelo" para a configuração de formato inserida. Caso contrário, ignore a próxima etapa.  
 21. Selecione Sim no campo Padrão do mapeamento de modelo.
 22. Na árvore, selecione "Modelo de pagamento 1099".
 23. Clique em Designer.
 24. Clique em Mapear modelo para fonte de dados.
 25. Clique em Executar.
-    * Se você instalou o hotfix “Suporte KB 4012871 de mapeamentos de modelo de GER em configurações separadas com uma capacidade de especificar diferentes tipos de pré-requisitos para implantar em várias versões do Dynamics 365 for Finance and Operations (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ), selecione o mapeamento de modelo preferido no campo de pesquisa. Se você não tiver instalado o hotfix ainda, vá para a etapa seguinte, pois o mapeamento já foi selecionado pela definição da configuração do formato padrão.  
+    * Se você instalou o hotfix “Suporte KB 4012871 de mapeamentos de modelo de GER em configurações separadas com uma capacidade de especificar diferentes tipos de pré-requisitos para implantar em várias versões do Dynamics 365 for Finance and Operations, Enterprise edition (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ), selecione o mapeamento de modelo preferido no campo de pesquisa. Se você não tiver instalado o hotfix ainda, vá para a etapa seguinte, pois o mapeamento já foi selecionado pela definição da configuração do formato padrão.  
     * Se você não tiver instalado o hotfix, o KB 4012871, observe que a caixa de diálogo contém uma pergunta de mapeamento do modelo adicional que é usada para analisar o arquivo que você está importando. Em seguida, os dados são transferidos da caixa de diálogo para o modelo de dados. Atualmente, você pode escolher qual mapeamento de formato deve ser usado, dependendo do tipo de arquivo que você pretende importar.  
-    * Se você pretende chamar esse mapeamento de modelo a partir de um ponto no Dynamics 365 for Finance and Operations que é criado especificamente para a ação, o destino do ER e o mapeamento do formato devem ser marcados como parte da integração.  
+    * Se você pretende chamar esse mapeamento de modelo a partir de um ponto no Dynamics 365 for Finance and Operations, edição Enterprise que é criado especificamente para a ação, o destino do ER e o mapeamento do formato devem ser marcados como parte da integração.  
 26. Clique em Cancelar.
 27. Feche a página.
 28. Feche a página.

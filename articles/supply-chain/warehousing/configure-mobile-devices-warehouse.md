@@ -1,9 +1,9 @@
 ---
-title: "Configurar dispositivos móveis para trabalho de depósito"
-description: "Este artigo descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel."
+title: "​Configurar dispositivos móveis para trabalho de depósito​"
+description: "Este tópico descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,20 +19,20 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: bb0d6af3a17653ea33e3f84a416bda244a27507c
+ms.sourcegitcommit: 74522c97716238b62af3d65a1c23ba9e5e60a68b
+ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 10/03/2018
 
 ---
 
-# <a name="set-up-mobile-devices-for-warehouse-work"></a>Configurar dispositivos móveis para trabalho de depósito
+# <a name="set-up-mobile-devices-for-warehouse-work"></a>​Configurar dispositivos móveis para trabalho de depósito​
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel.
+Este tópico descreve como configurar os itens de menu que os trabalhadores de depósito usam para executar o trabalho em um dispositivo móvel.
 
-**Observação:** Este artigo se aplica aos recursos do Gerenciamento de depósito. Ele não se aplica aos recursos do Gerenciamento de estoque. Os itens de menu que aparecem nos menus em um dispositivo móvel do depósito são configurados na página **Itens de menu do dispositivo móvel**. Como os itens de menu podem ser inseridos em menus diferentes, é fácil configurar estruturas de menu de forma que somente os tipos específicos de trabalho sejam expostos a usuários específicos. Você pode configurar itens de menu para executar as seguintes tarefas:
+**Observação:** este tópico se aplica aos recursos do Gerenciamento de depósito. Ele não se aplica aos recursos do Gerenciamento de estoque. Os itens de menu que aparecem nos menus em um dispositivo móvel do depósito são configurados na página **Itens de menu do dispositivo móvel**. Como os itens de menu podem ser inseridos em menus diferentes, é fácil configurar estruturas de menu de forma que somente os tipos específicos de trabalho sejam expostos a usuários específicos. Você pode configurar itens de menu para executar as seguintes tarefas:
 
 -   Processar uma consulta ou executar uma atividade, como imprimir um rótulo, gerar números da placa de licença, iniciar uma ordem de produção ou pesquisar rapidamente informações sobre itens em um local.
 -   Criar o trabalho a ser executado por meio de outro processo. Por exemplo, o recebimento de um item para uma ordem de compra pode criar trabalho de armazenamento para outro trabalhador.
@@ -193,7 +193,7 @@ Você pode configurar um item de menu que cria trabalho para outro trabalhador, 
 </table>
 
 ## <a name="configure-menu-items-to-process-existing-work"></a>Configure itens de menu para processar o trabalho existente
-Além de configurar itens de menu para criar o trabalho de depósito, você pode configurar itens de menu para processar o trabalho que já foi criado. Defina o campo **Modo** como **Trabalho** e selecione a opção **Usar trabalho existente**. Algumas opções adicionais então ficam disponíveis na guia **Geral**. Você pode controlar o acesso ao item de menu atribuindo uma ou mais classes de trabalho na Guia Rápida **Classe de trabalho**. As classes de trabalho definem o trabalho que o item de menu pode processar. A classe de trabalho também pode ser usada para conceder acesso às funções de usuário específico ou ao processamento separado para tipos diferentes de operações. A tabela a seguir descreve as opções disponíveis.
+Além de configurar itens de menu para criar o trabalho de depósito, você pode configurar itens de menu para processar o trabalho que já foi criado. Defina o campo **Modo** como **Trabalho** e selecione a opção **Usar trabalho existente**. Algumas opções adicionais então ficam disponíveis na guia **Geral**. Você pode controlar o acesso ao item de menu atribuindo uma ou mais classes de trabalho na Guia Rápida **Classe de trabalho**. As classes de trabalho definem o trabalho que o item de menu pode processar. A classe de trabalho também pode ser usada para conceder acesso às funções de usuário específico ou ao processamento separado para tipos diferentes de operações. A tabela a seguir descreve as opções disponíveis. A opção pode ser escolhida no campo **Direcionado por** na página **Itens de menu do dispositivo móvel**. 
 
 <table>
 
@@ -247,6 +247,10 @@ Esta opção será útil quando, por exemplo, vários paletes foram preparados p
 <tr class="even">
 <td>Agrupamento de contagens cíclicas</td>
 <td>O trabalhador seleciona uma zona, pool de trabalho ou local e o Microsoft Dynamics 365 for Finance and Operations atribuirá o trabalho com base na seleção. Se selecionar esta opção, você poderá clicar em <strong>Contagem cíclica</strong> para especificar informações adicionais a serem exibidas, além de especificar o número de vezes que o trabalhador deverá repetir a contagem caso seja encontrada uma diferença</td>
+</tr>
+ <tr class="odd">
+<td>Carga de transporte</td>
+<td>Esse recurso permite que vários trabalhadores do depósito carreguem o estoque de cargas iguais ou diferentes para o mesmo caminhão, com cargas que foram remetidas de forma completa ou parcial.</td>
 </tr>
 </tbody>
 </table>
@@ -349,7 +353,7 @@ A seguinte tabela descreve as opções.
 <td>Selecione esta opção para permitir que trabalhadores combinem trabalho para uma ordem de venda ou para uma carga em uma única unidade de trabalho. Um trabalhador só poderá executar trabalho para a ordem de venda ou para a carga. Esta opção é útil quando, por exemplo, você precisar aumentar uma quantidade para uma ordem de venda depois que a carga, a remessa e o trabalho tiverem sido criados para a ordem de venda. Essa opção estará disponível quando o item de menu usar trabalho existente e quando o trabalho for direcionado pelo usuário ou pelo sistema.</td>
 </tr>
 <tr class="even">
-<td>Nenhum</td>
+<td>Separar lote mais antigo</td>
 <td>Indique se o trabalhador deve separar o lote mais antigo em um local primeiro. As opções a seguir estão disponíveis:
 <ul>
 <li><strong>Nenhum</strong> – O trabalhador pode separar qualquer lote no local. O trabalhador não recebe nenhuma mensagem.</li>

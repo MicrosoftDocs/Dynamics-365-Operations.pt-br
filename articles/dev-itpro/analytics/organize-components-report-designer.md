@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: c9772d45cf9d9941dd8fe0de13ce624ea3aa3b53
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -37,12 +37,9 @@ Você pode renomear pastas, relatórios, blocos de construção e outros objetos
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>Renomear uma pasta ou um bloco de construção no Designer de Relatórios
 No Report Designer, você pode renomear pastas, definições de relatórios, de linhas, de colunas e de hierarquia organizacional.
 
-> [!NOTE]
-> Quando você renomeia um bloco de construção, deve atualizar as definições de relatórios que usam o bloco de construção. Caso contrário, não é possível gerar um novo relatório.
+### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Renomear uma pasta ou bloco de construção no Report Designer
 
-### <a name="rename-a-folder-or-building-block-in-report-designer"></a>Renomear uma pasta ou um bloco de construção no Designer de Relatórios
-
-1. No Designer de Relatórios, use o painel de navegação para localizar a pasta ou ou o objeto a ser renomeado.
+1. No Report Designer, use o painel de navegação para localizar a pasta ou o objeto a ser renomeado.
 2. Clique com o botão direito do mouse na pasta ou objeto, e clique em **Renomear**. O campo **Nome** no painel de navegação torna-se disponível.
 3. Digite um novo nome e pressione Inserir.
 4. Se o bloco de construção for uma definição de linha, uma definição de coluna ou uma definição de árvore de relatórios, atualize outros blocos de construção associados a ele. Clique com o botão direito do mouse no bloco de construção que você renomeou na etapa 3, selecione **Associações** e selecione um item na lista para a atualizá-lo.
