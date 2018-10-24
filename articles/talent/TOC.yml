@@ -6,6 +6,14 @@
       items:
         - name: Novidades ou alterações
           items:
+            - name: Novidades ou alterações no Dynamics 365 for Talent Core HR (1º de outubro de 2018)
+              href: whats-new-talent-october-01.md
+            - name: Novidades ou alterações no Dynamics 365 for Talent Core HR (24 de setembro de 2018)
+              href: whats-new-talent-september-24.md
+            - name: Novidades ou alterações no Dynamics 365 for Talent Core HR (17 de setembro de 2018)
+              href: whats-new-talent-september-17-2018.md
+            - name: Novidades ou alterações no Dynamics 365 for Talent Core HR (10 de setembro de 2018)
+              href: whats-new-talent-september-10.md
             - name: Novidades ou alterações no Dynamics 365 for Talent Core HR (agosto de 2018)
               href: whats-new-talent-august2018.md
             - name: Novidades ou alterações no Dynamics 365 for Talent Core HR (julho de 2018)
@@ -18,12 +26,16 @@
           href: remove-talent-environment.md
         - name: Provisionamento para os aplicativos modulares Talent
           href: modular-app-tech-faq.md
-        - name: Inserir aplicativos PowerApps
+        - name: Aplicativos PowerApps incorporados
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Core HR e Common Data Service para Aplicativos
+          href: CoreHREntities.md
         - name: Acessar recursos de visualização
           href: access-preview-feature.md
         - name: Configurar a integração da folha de pagamento entre o Talent e o Dayforce
           href: configure-payroll-integration.md
+        - name: Obter suporte para o Talent
+          href: talent-support.md
     - name: '​Organizar sua força de trabalho usando departamentos, trabalhos e posições​'
       href: departments-jobs-positions.md
       items:
@@ -41,11 +53,16 @@
           href: formalize-business-processes.md
         - name: Usar fluxos de trabalho para gerenciar informações de funcionários
           href: workflow-manage-employee-information.md
-        - name: Gerenciamento de licença e ausência
-          href: leave-absence-overview.md
+    - name: Gerenciar licenças e ausências
+      href: leave-absence-overview.md
+      items:
+        - name: Acúmulo de folgas com base nas horas trabalhadas
+          href: leave-accrue-hours-worked.md
+        - name: Calendários de horário de trabalho
+          href: working-time-calendars.md
     - name: Recrutar a equipe de sua organização
       items:
-        - name: Atrair recursos e funcionalidades
+        - name: Recursos e funcionalidades do Attract
           href: attract-overview.md
         - name: Criar uma experiência de integração atrativa
           href: create-onboarding-experience.md
@@ -59,6 +76,8 @@
           href: create-variable-compensation-plans.md
         - name: Processar remuneração
           href: process-compensation.md
+        - name: Configurar os componentes de um trabalho
+          href: create-job.md
     - name: Desenvolver e treinar funcionários
       items:
         - name: Gerenciamento de desempenho
