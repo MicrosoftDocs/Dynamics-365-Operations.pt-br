@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 4c27e0f75a45a2e4290ec4b6f72ee67d792449a0
+ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
+ms.openlocfilehash: 0c492cd76fc9742aa4cff8fe588541cb2c6f1863
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 10/11/2018
 
 ---
 
@@ -36,11 +36,11 @@ O recurso é ativado quando você usa uma sequência numérica compartilhada par
 
 Você também pode configurar sequências numéricas de fornecedor para cada grupo de fornecedores. Essas sequências numéricas também devem ser compartilhadas. A sequência numérica é usada primeiro para um grupo de fornecedores. Se nenhuma sequência numérica for especificada para um grupo de fornecedores, será usada a sequência especificada na página **Parâmetros de contas a pagar**.
 
-Você também poderá copiar fornecedores entre entidades legais se usar as IDs manuais. Entretanto, se você tentar copiar um fornecedor para uma entidade legal em que a ID já existe, o processo de cópia não será iniciado.
+Você também poderá copiar fornecedores entre entidades legais se usar as IDs manuais. No entanto, se você tentar copiar um fornecedor para uma entidade legal em que a ID já exista, o processo de cópia não será iniciado.
 
 ## <a name="copy-a-vendor"></a>Copiar um fornecedor
 
-Para copiar um fornecedor, escolha **Novo** na página da lista **Todos os fornecedores**. Depois, a página **Todos os fornecedores, novo registro** será aberta. Observe que a nova ID de fornecedor não é atribuída imediatamente. Esse comportamento difere do comportamento de versões anteriores do Microsoft Dynamics 365 for Finance and Operations. Como você ainda não escolheu o grupo de fornecedores, o sistema não pode determinar a sequência numérica correta a ser usada. Além disso, ele não consegue determinar se você está tentando criar um fornecedor ou copiar um já existente. Portanto, a ID de fornecedor não é atribuída até que você escolha **Salvar** na parte inferior da página.
+Para copiar um fornecedor, selecione **Novo** na página da lista **Todos os fornecedores** para abrir a página **Todos os fornecedores, novo registro**. Observe que a nova ID de fornecedor não é atribuída imediatamente. Esse comportamento difere do comportamento de versões anteriores do Microsoft Dynamics 365 for Finance and Operations. Como você ainda não escolheu o grupo de fornecedores, o sistema não pode determinar a sequência numérica correta a ser usada. Além disso, ele não consegue determinar se você está tentando criar um fornecedor ou copiar um já existente. Portanto, a ID de fornecedor não é atribuída até que você escolha **Salvar** na parte inferior da página.
 
 Se você estiver criando um fornecedor, continue preenchendo todos os campos da forma usual. Depois que terminar e **Salvar**, você verá que a ID do fornecedor foi atribuída automaticamente. No caso das sequências numéricas manuais, você verá que a ID manual do fornecedor foi usada.
 
