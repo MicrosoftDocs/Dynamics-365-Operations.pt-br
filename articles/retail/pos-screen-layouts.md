@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: e4c1f8c7435a901431286960581754e5b2820dad
-ms.openlocfilehash: 34e744884b4bae890d7990103ecc7157c6883869
+ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
+ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/03/2018
+ms.lasthandoff: 11/13/2018
 
 ---
 
@@ -71,7 +71,7 @@ As configurações do layout de tela determinam as ações, conteúdo e posicion
 
 ### <a name="assignment"></a>Atribuição
 
-Os layouts da tela podem ser atribuídos na loja ou no nível do usuário. A atribuição de usuário substitui as atribuições de caixa registradora e de loja, e a atribuição de caixa registradora substitui a atribuição de loja. Em um cenário simples, em que todos os usuários usam o mesmo layout independentemente da caixa registradora ou da função, o layout da tela pode ser definido apenas no nível da loja. Em cenários em que as caixas registradoras ou usuários específicos precisam de layouts especializados, é possível atribuí-los.
+Os layouts de tela podem ser atribuídos à loja, registro ou nível de usuário. A atribuição de usuário substitui as atribuições de caixa registradora e de loja, e a atribuição de caixa registradora substitui a atribuição de loja. Em um cenário simples, em que todos os usuários usam o mesmo layout independentemente da caixa registradora ou da função, o layout da tela pode ser definido apenas no nível da loja. Em cenários em que as caixas registradoras ou usuários específicos precisam de layouts especializados, é possível atribuí-los.
 
 ### <a name="layout-sizes"></a>Tamanhos de layout
 
