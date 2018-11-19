@@ -27,7 +27,6 @@ ms.lasthandoff: 10/12/2018
 # <a name="ledger-settlements"></a>Liquidações do razão
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 Liquidações do razão permitem combinar transações de débito e crédito na contabilidade e marcá-los como liquidados. Assim, você pode garantir que as transações relacionadas sejam excluídas. Você também pode reverter se pagamentos forem feitos por engano.
 
