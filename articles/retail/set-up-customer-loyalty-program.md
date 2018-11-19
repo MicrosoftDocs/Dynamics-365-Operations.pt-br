@@ -1,9 +1,9 @@
 ---
-title: Configurar programas de fidelidade do cliente
-description: "Este artigo descreve como configurar um programa de fidelidade. Os programas de fidelidade podem ajudar a aumentar a fidelidade do cliente ao recompensarem os clientes por comprarem produtos nas lojas de varejo. No Microsoft Dynamics 365 para Varejo, você pode configurar programas de fidelidade simples ou complexos que se apliquem a suas entidades legais em qualquer canal de varejo."
+title: "Visão geral de fidelidade"
+description: "Este tópico descreve os recursos de fidelidade no Microsoft Dynamics 365 for Retail e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas programas de fidelidade."
 author: scott-tucker
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,23 +20,20 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 8aa29282f80870b93d119c095bb95c3bcfbfc682
+ms.sourcegitcommit: 11ad4168c7e5ddc63608d1c86430e4a6936d5e30
+ms.openlocfilehash: 78318849873f396c662c5250f0e86146279cc3a5
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 
-# <a name="set-up-customer-loyalty-programs"></a>Configurar programas de fidelidade do cliente
+# <a name="loyalty-overview"></a>Visão geral de fidelidade
 
 [!include [banner](includes/banner.md)]
 
-Este artigo descreve como configurar um programa de fidelidade. Os programas de fidelidade podem ajudar a aumentar a fidelidade do cliente ao recompensarem os clientes por comprarem produtos nas lojas de varejo. No Microsoft Dynamics 365 para Varejo, você pode configurar programas de fidelidade simples ou complexos que se apliquem a suas entidades legais em qualquer canal de varejo.
+Os programas de fidelidade podem ajudar a aumentar a fidelidade do cliente ao recompensarem os clientes por suas interações com a marca do Varejista. No Microsoft Dynamics 365 para Varejo, você pode configurar programas de fidelidade simples ou complexos que se apliquem a suas entidades legais em qualquer canal de varejo. Este tópico descreve os recursos de fidelidade no Microsoft Dynamics 365 for Retail e as etapas de instalação correspondentes para oferecer ao fornecedor uma introdução aos programas programas de fidelidade.
 
-<a name="loyalty-features"></a>Recursos do programa de fidelidade
-----------------
-
-Você pode configurar o programa de fidelidade de modo que ele tenha as seguintes opções:
+Você pode configurar o programa de fidelidade de modo que ele tenha as opções a seguir.
 
 -   Configure vários tipos de recompensas que você oferece em seus programas de fidelidade e controle a participação em seus programas de fidelidade.
 -   Configure programas de fidelidade que representam os diferentes incentivos de recompensa oferecidos por você. Você pode incluir camadas do programa de fidelidade para oferecer maiores incentivos e recompensas aos clientes que comprem com mais frequência ou gastem mais dinheiro em suas lojas.
@@ -45,7 +42,7 @@ Você pode configurar o programa de fidelidade de modo que ele tenha as seguinte
 -   Ajuste manualmente cartões-fidelidade ou transfira o saldo de recompensas de fidelidade de um cartão para outro para acomodar ou recompensar um cliente.
 
 ## <a name="setting-up-loyalty-programs"></a>Configurando programas de fidelidade
-Você deve configurar vários componentes para habilitar o recurso de fidelidade no Dynamics 365 para Varejo. O diagrama a seguir ilustra os componentes do programa de fidelidade e como eles se relacionam uns com os outros. ![Fluxo do processo de configuração do programa de fidelidade](./media/loyaltyprocess.gif)
+Você deve configurar vários componentes para habilitar o recurso de fidelidade no Dynamics 365 para Varejo. O diagrama a seguir ilustra os componentes do programa de fidelidade e como eles se relacionam uns com os outros. ![Fluxo de processo de configuração de fidelidade](./media/loyaltyprocess.gif "Componentes de fidelidade e como se relacionam entre si")
 
 ## <a name="loyalty-components"></a>Componentes do programa de fidelidade
 A tabela a seguir descreve cada componente e o local onde ele será usado na configuração do programa de fidelidade.
@@ -70,11 +67,63 @@ A tabela a seguir descreve os processos que devem ser executados para enviar as 
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
 | 1050 (informações de fidelidade)           | Execute este processo para enviar os dados do programa de fidelidade do Dynamics 365 para Varejo para as lojas de varejo. É recomendável agendar este processo para ser executado frequentemente, de modo que os dados do programa de fidelidade sejam transmitidos a todas as lojas.                                                                                                                                                                                               | Agenda de distribuição                |
 | Processar esquemas de fidelidade              | Execute este processo para associar os esquemas de fidelidade aos canais de varejo aos quais o esquema de fidelidade foi atribuído. Esse processo pode ser agendado para execução como um processo em lote. Você deve executar esse processo se alterar dados de configuração do programa de fidelidade, como esquemas de fidelidade, programas de fidelidade ou pontos de recompensa do programa de fidelidade.                                                                                               | Processar esquemas de fidelidade              |
-| Processar transações de fidelidade offline | Execute este processo para atualizar cartões-fidelidade, de forma que eles incluam transações processadas offline. Esse processo será aplicável somente se a caixa de seleção **Obter offline** for selecionada na página **Parâmetros compartilhados de varejo**, para que os prêmios possam ser obtidos offline.                                                                                                                                               | Processar transações de fidelidade offline |
+| Processar transações de fidelidade offline | Execute este processo para atualizar cartões-fidelidade, de forma que eles incluam transações processadas offline. Esse processo será aplicável somente se a caixa de seleção **Obter offline** for selecionada na página **Parâmetros compartilhados do Retail**, de tal modo que as recompensas possam ser obtidas offline.                                                                                                                                               | Processar transações de fidelidade offline |
 | Atualizar camadas de cartão-fidelidade            | Execute este processo para avaliar a atividade de ganhos do cliente em relação às regras de camada para um programa de fidelidade e atualize o status de camada do cliente. Este processo só será necessário se você alterar as regras da camada em programas de fidelidade e quiser que as regras atualizadas sejam aplicadas retroativamente aos cartões-fidelidade já emitidos. Este processo pode ser agendado como um processo em lote ou para cartões individuais. | Atualizar camadas de cartão-fidelidade            |
 
+## <a name="loyalty-enhancements"></a>Aprimoramentos de fidelidade
 
+O Retail tem uma nova funcionalidade de fidelidade como parte da versão de outubro de 2018. Cada um dos principais aprimoramentos será explicado abaixo.
 
+- Como parte de um esquema de fidelidade em versões anteriores, os varejistas podem criar regras diferentes de ganhos e de resgate por camadas para diferenciar as recompensas para clientes em camadas diferentes. Os varejistas agora podem incluir “afiliações” como parte de regras de ganhos e de resgate de forma que determinado grupo de clientes possa fazer parte de camadas existentes, mas ser recompensado de formas diferentes. Isso evita a necessidade de criar camadas adicionais.
+    
+    > [!NOTE]
+    > As regras de ganhos em um esquema de fidelidade são adicionais. Por exemplo, se você criar uma regra para recompensar um membro da camada ouro com 10 pontos para cada dólar americano e também criar uma regra para recompensar um cliente com afiliação de "veterano" com 5 pontos para cada dólar americano, então um veterano que também for um membro da camada ouro ganhará 15 pontos para dólar americano, já que o cliente se qualifica para as duas linhas. Entretanto, se o cliente veterano não for membro da camada ouro, então ganhará 5 pontos para cada dólar. Para refletir as alterações nos canais, execute os trabalhos **Processar esquemas de fidelidade** e **1050** (informações de fidelidade).
+    
+    ![Ganho baseado em afiliação](./media/Affiliation%20based%20earning.png "Ganhos baseados em afiliação")
 
+- Com frequência, os varejistas têm preços especiais para um determinado grupo de clientes aos quais não desejam aplicar programas de fidelidade. Por exemplo, os atacadistas ou os funcionários que obtêm preços especiais e nenhum ponto de fidelidade. Geralmente, as "afiliações" são usadas para conceder o preço especial a esses grupos de clientes. Para restringir determinados grupos de clientes de clientes dos pontos de fidelidade de ganho, o varejista pode especificar uma ou várias afiliações na seção **Afiliações excluídas** do esquema de fidelidade. Dessa forma, quando o clientes pertencentes às afiliações excluídas forem membros existentes do programa de fidelidade, eles não poderão ganhar pontos de fidelidade por suas compras. Para refletir as alterações nos canais, execute os trabalhos **Processar esquemas de fidelidade** e **1050** (informações de fidelidade).
 
+    ![Afiliações excluídas](./media/Excluded%20affiliations.png "Excluir afiliações do ganho de pontos de fidelidade")
+    
+- Os varejistas podem gerar números de cartão-fidelidade nos canais. Antes da atualização de outubro de 2018, os varejistas podiam usar cartões-fidelidade físicos ou gerar um cartão-fidelidade usando algumas informações exclusivas do cliente, como um número de telefone. Para permitir a geração automática cartões-fidelidade em lojas de varejo, ative **Gerenciar número de cartão-fidelidade** no perfil de funcionalidade associado à loja. Para os canais online, os varejistas podem usar a API IssueLoyaltyCard para emitir cartões-fidelidade para os clientes. Os varejistas também podem fornecer um número de cartão-fidelidade a essa API, que será usado para gerar o cartão-fidelidade, ou o sistema usará a sequência numérica dos cartões-fidelidade definida no Dynamics 365 for Retail. Entretanto, se a sequência numérica não estiver presente, e se o varejista não fornecer um número de cartão-fidelidade ao chamar a API, um erro será exibido.
+
+![Gerar o cartão-fidelidade](./media/Generate%20loyalty%20card.png "Gerar automaticamente o número de cartão-fidelidade")
+
+- Os pontos de fidelidade obtidos e resgatados agora são salvos para cada transação e ordens de venda em relação à linha de vendas, para que o mesmo valor possa ser reembolsado ou devolvido no caso de devoluções completas ou parciais. Além disso, ter visibilidade para pontos no nível da linha de vendas oferece o recurso de usuários de call center responderem a perguntas de clientes sobre quantos pontos foram ganhos ou resgatados para cada linha. Antes dessa alteração, os pontos de recompensa eram sempre recalculados durante as devoluções, o que resultava em um valor diferente do original caso as regras de ganhos ou de resgate fossem alteradas e se os usuários do call center não tivessem a visibilidade da divisão de pontos. Os pontos podem ser exibidos no formulário **Transações de cartão** para cada cartão-fidelidade.
+    
+- Agora, os varejistas podem definir o período de carência para cada ponto de recompensa. Uma configuração de período de carência definirá a duração da data de ganho, após a qual os pontos de recompensa seriam disponibilizados aos clientes. Os pontos sem benefício proporcional diferido podem ser exibidos na coluna **Pontos sem benefício proporcional diferido** na página **Cartões-fidelidade**. Adicionalmente, os varejistas podem definir o limite máximo de pontos de recompensa de fidelidade por cartão-fidelidade. Esse campo pode ser usado para reduzir o impacto de fraude de fidelidade. Quando o máximo de pontos de recompensa for atingido, o usuário não poderá ganhar mais pontos. O varejista pode decidir bloquear tais cartões até a conclusão da investigação de uma potencial fraude. Se o varejista determinar a fraude, ele não só poderá bloquear o cartão-fidelidade do cliente como também marcar o cliente como bloqueado. Para fazer isso, defina a propriedade **Bloquear cliente para registro de fidelidade** coo **Sim** em **Todos os clientes** na FastTab **Retail**. Os clientes bloqueados não poderão receber cartões-fidelidade em nenhum canal.
+
+![Pontos de recompensa máximos e de benefício proporcional diferido](./media/Vesting%20and%20maximum%20reward%20points.png "Definir pontos de recompensa máximos e de benefício proporcional diferido")
+
+- As afiliações são usadas para conceder preços e descontos especiais, mas há algumas afiliações que os varejistas não querem que os clientes vejam. Por exemplo, uma afiliação intitulada "Cliente com altos gastos" pode não ser bem recebida por alguns clientes. Além disso, existem algumas afiliações que não devem ser gerenciadas na loja, por exemplo, os funcionários, porque você não deseja que os caixas decidam quem é funcionário e assim concedam descontos para funcionários. Os varejistas agora podem selecionar as afiliações que devem ser ocultadas nos canais de varejo. As afiliações marcadas como **Ocultar nos canais** não podem ser exibidas, adicionadas ou removidas no PDV. Entretanto, os preços e os descontos associados à afiliação ainda serão aplicados aos produtos.
+
+![Ocultar afiliações](./media/Hide%20affiliations.png "Ocultar afiliações nos canais")
+    
+- Os usuários de call center agora podem procurar com mais facilidade um cliente usando as informações do cartão-fidelidade e navegar até as páginas do cartão-fidelidade e de transação de cartão-fidelidade do cliente desde a página **Atendimento ao cliente**. 
+
+![Atendimento ao cliente](./media/Customer%20service.png "Localizar informações de fidelidade para o cliente")
+    
+- Se um cartão-fidelidade tiver sido comprometido, será necessário gerar um cartão de substituição e transferir os pontos existentes para o novo cartão. O fluxo do cartão de substituição foi simplificado nesta versão. Adicionalmente, os clientes podem presentear os amigos e familiares com alguns ou todos os pontos de fidelidade. Quando os pontos forem transferidos, as entradas de ajuste de pontos serão criadas para cada cartão-fidelidade. A funcionalidade de cartão de substituição e transferir saldo pode ser acessada na página **Cartões-fidelidade**.
+
+![Substituir e transferir pontos](./media/Replace%20and%20transfer%20points.png "Substituir cartão-fidelidade ou transferir saldo")
+    
+- Os varejistas podem querer capturar a eficácia de um determinado canal para registrar clientes em um programa de fidelidade. A origem do registro para cartões de fidelidade agora é salva para que os varejistas possam executar relatórios sobre esses dados. A origem dos registros é automaticamente capturada para todos os cartões-fidelidade emitidos de MPOS/CPOS ou de canais de comércio eletrônico. Para os cartões-fidelidade emitidos desde o aplicativo de back office, o usuário de call center poderá selecionar um canal apropriado.
+
+- Nas versões anteriores, os varejistas podiam usar MPOS/CPOS para resgatar pontos de fidelidade para clientes em uma loja. Entretanto, nessas versões, como o saldo de fidelidade era exibido em pontos de fidelidade, o caixa não conseguia ver o valor na moeda que poderia ser aplicado à transação atual. O caixa tinha que fazer a conversão de pontos para moeda antes de pagar por pontos de fidelidade. Na versão atual, depois que as linhas são adicionadas à transação, o caixa pode ver o valor que os pontos de fidelidade podem cobrir para a transação atual, simplificando a aplicação de alguns ou de todos os pontos de fidelidade à transação. Adicionalmente, o caixa pode ver os pontos que vão expirar nos próximos 30 dias, de forma a fazer uma venda adicional ou uma venda cruzada para motivar o cliente a gastar os pontos a expirar nessa transação.
+
+![Pontos cobertos pelo saldo de fidelidade](./media/Points%20covered%20by%20loyalty%20balance.png "Mostrar saldo coberto pelos pontos de fidelidade")
+
+![Pontos a expirar](./media/Expiring%20points.png "Exibir pontos a expirar")
+    
+## <a name="upcoming-enhancements"></a>Próximos aprimoramentos
+
+Os seguintes recursos estarão disponíveis nas futuras atualizações mensais do Dynamics 365 for Retail.
+    
+- Os clientes desejam a capacidade de exibir os detalhes do saldo de fidelidade nos canais voltados ao consumidor. Da mesma forma, é importante que os caixas exibam o histórico de pontos de fidelidade do cliente no MPOS/CPOS para responderem com rapidez às dívidas do cliente. Na próxima versão mensal, os clientes e os caixas poderão ver detalhes do histórico de fidelidade.
+
+- Muitos varejistas podem conceder os pontos de fidelidade com base apenas em transações de vendas, mas os varejistas centrados nos clientes desejam recompensá-los por qualquer atividade de envolvimento com a marca. Por exemplo, eles desejam oferecer recompensas pelo preenchimento de uma pesquisa online, pela visita a uma loja, por curtidas no Facebook, tweets sobre o varejista e muito mais. Futuramente, nós adicionaremos a capacidade de conceder pontos de fidelidade para qualquer atividade de cliente. Para isso, o varejista poderá definir "Outro tipo de atividade" e definir as regras de ganhos para essas atividades. Nós também vamos expor uma API do Retail Server que poderá ser chamada quando uma atividade for identificada e que usará a regra de ganhos para conceder os pontos de fidelidade necessários.
+
+- Para habilitarmos uma verdadeira experiência de varejo de omni-canal, permitiremos que os clientes ganhem e resgatem pontos de fidelidade em todos os canais. 
+
+- A remessa grátis ou com desconto é um dos maiores fatores de motivação para os clientes comprarem online. Para habilitar os varejistas a configurar promoções de remessa, nós introduziremos um novo tipo de promoção em que o varejista pode definir os limites que, quando atendidos, qualificarão os clientes à remessa gratuita ou com desconto.
 

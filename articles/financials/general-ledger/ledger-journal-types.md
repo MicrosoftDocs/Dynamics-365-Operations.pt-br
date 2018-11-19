@@ -1,9 +1,9 @@
 ---
-title: "Tipos de diário-razão"
-description: "Este artigo descreve os tipos de diário que você pode configurar para diários financeiros. Use a página **Nomes de diário** para configurar os diários que você pode usar no Microsoft Dynamics 365 for Finance and Operations."
+title: "​Tipos de diário-razão​"
+description: "Este tópico descreve os tipos de diário que você pode configurar para diários financeiros."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9f8fc40f199b83a9e0cb36ce905163c3ed547057
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/16/2018
 
 ---
 
-# <a name="ledger-journal-types"></a>Tipos de diário-razão
+# <a name="ledger-journal-types"></a>​Tipos de diário-razão​
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve os tipos de diário que você pode configurar para diários financeiros. Use a página **Nomes de diário** para configurar os diários que você pode usar no Microsoft Dynamics 365 for Finance and Operations.
+Este tópico descreve os tipos de diário que você pode configurar para diários financeiros. Use a página **Nomes de diário** para configurar os diários que você pode usar no Microsoft Dynamics 365 for Finance and Operations.
 
 | Tipo de diário                      | Finalidade                       | Inserir transações nesta página                                |
 |-----------------------------------|-------------------------------|----------------------------------------------------------------|
@@ -53,7 +53,8 @@ Este artigo descreve os tipos de diário que você pode configurar para diários
 | Pagamento de folha de pagamento              | Emitir pagamentos que se baseiam em demonstrativos de pagamento da Folha de Pagamento. Não é possível inserir transações manualmente neste diário. Você deve gerar demonstrativos de pagamento e então enviar esses demonstrativos para pagamento.                                                                                                                                                              |                                                                |
 | Periódico                          | Criar transações periódicas para o diário periódico.                                                                                                                                                                                                                                                                                                      | Diários periódicos                                              |
 | Lançar ativos fixos                 | Lançar transações de ativo fixo.                                                                                                                                                                                                                                                                                                                              | Ativos fixos                                                   |
-| Projeto - Despesas                | Criar transações de despesas do projeto.                                                                                                                                                                                                                                                                                                                        | Despesa                                                        |
+| Projeto - Despesas                | Criar transações de despesas do projeto.                                                                                                                                                                                                                                                                                                                        | Expense                                                        |
+| Ajuste de moeda de relatório     | Criar ajustes na moeda de relatório para saldos de contas contábeis.               | Diários de ajuste de moeda de relatório                         |
 | Transações estatísticas            | Criar transações estatísticas.                                                                                                                                                                                                                                                                                                                            |                                                                |
 | Remessa bancária de fornecedor            | Criar um arquivo de remessa de nota promissória que possa ser enviado para o banco da sua organização.                                                                                                                                                                                                                                                                      | Diário de remessas                                             |
 | Pagamento de fornecedor               | Criar transações de pagamento do fornecedor.                                                                                                                                                                                                                                                                                                                    | Diário de pagamentos                                                |
