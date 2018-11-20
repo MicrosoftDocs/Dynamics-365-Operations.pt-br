@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
+ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 10/25/2018
 
 ---
 
@@ -192,7 +192,7 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 | Adicionar/remover formulário como favorito (com foco em um formulário no painel de navegação)   | Shift+F                    |
 | Mover para o Painel de ação padrão                                              | Alt+M,A ou Ctrl+F6         |
 | Mover para o painel Filtrar (que podem incluir sua abertura)                        | Alt+M,F ou Ctrl+F3         |
-| Mover o foco para a página de conteúdo (com foco na lista de navegação)            | Alt+M,M ou Ctrl+F3         |
+| Mover o foco para a página de conteúdo (com foco no painel Filtro)                | Alt+M,M ou Ctrl+F3         |
 | Mover para a lista de navegação no formulário Detalhes (que pode incluir sua abertura)    | Alt+M,S ou Ctrl+F8         |
 | Mover o foco para a página de conteúdo (com foco na lista de navegação)            | Alt+M,M ou Ctrl+F8         |
 | Fechar a lista de navegação no formulário Detalhes (com foco na lista de navegação) | Esc                        |

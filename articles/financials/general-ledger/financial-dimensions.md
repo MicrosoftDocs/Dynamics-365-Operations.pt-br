@@ -3,7 +3,7 @@ title: "Dimensões financeiras"
 description: "Este tópico descreve os vários tipos de dimensões financeiras e como elas são configuradas."
 author: aprilolson
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 10/26/2018
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
-ms.openlocfilehash: 9973d03de031ad2fa5647bb167c12b9231633a22
+ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
+ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 11/05/2018
 
 ---
 
@@ -51,9 +51,9 @@ Estas são algumas das limitações:
 
 ## <a name="custom-dimensions"></a>Dimensões personalizadas
 
-Para criar uma dimensão financeira definida pelo usuário, no campo **Usar valores de**, selecione **&lt;&nbsp;Dimensão personalizada&nbsp;&gt;**.
+Para criar uma dimensão financeira definida pelo usuário, no campo **Usar valores de**, selecione **Dimensão personalizada**.
 
-Você também pode especificar uma máscara de conta para limitar o valor e o tipo de informação que pode ser inserido para valores de dimensão. Você pode inserir os caracteres que permanecem iguais para cada valor de dimensão, como letras ou um hífen (-). Você também pode inserir sinais numéricos (\#) e o E comercial (&) como espaços reservados para caracteres que mudarão sempre que um valor de dimensão for criado. Use um sinal numérico (\#) como um espaço reservado para um número e um e comercial (&) como um espaço reservado para uma letra. O campo da máscara de formato está disponível somente quando você seleciona **&lt;&nbsp;Dimensão personalizada&nbsp;&gt;** no campo **Usar valores de** 
+Você também pode especificar uma máscara de conta para limitar o valor e o tipo de informação que pode ser inserido para valores de dimensão. Você pode inserir os caracteres que permanecem iguais para cada valor de dimensão, como letras ou um hífen (-). Você também pode inserir sinais numéricos (\#) e o E comercial (&) como espaços reservados para caracteres que mudarão sempre que um valor de dimensão for criado. Use um sinal numérico (\#) como um espaço reservado para um número e um e comercial (&) como um espaço reservado para uma letra. O campo da máscara de formato está disponível somente quando você seleciona **Dimensão personalizada** no campo **Usar valores de**.
 
 **Exemplo**
 
@@ -108,14 +108,30 @@ Você pode configurar valores derivados na página de dimensões.
 
 Insira combinações de dimensão que devem ser derivadas de dimensão na primeira coluna. Por exemplo, para usar o centro de custo como a dimensão da qual o departamento e a localização serão derivados, entre no centro de custos 10, departamento 20, e local 30. Em seguida, ao inserir o centro de custos 10 em um registro mestre ou em uma página da transação, o departamento 20 e o local 30 são inseridos por padrão.
 
-O processo de dimensão derivada não substitui valores existentes para dimensões derivadas. Por exemplo, se você inserir o centro de custos 10, e nenhuma outra dimensão for inserida, o departamento 20 e o local 30 serão inseridos por padrão. Porém, se você alterar o centro de custo, os valores que foram já foram estabelecidos não serão alterados. Portanto, você pode estabelecer dimensões padrão nos registros mestre, e essas dimensões não serão alteradas por dimensões derivadas.
+### <a name="overriding-existing-values-with-derived-dimensions"></a>Substituição de valores existentes por dimensões derivadas
+ 
+Por padrão, o processo de dimensão derivada não substitui valores existentes por dimensões derivadas. Por exemplo, se você inserir o centro de custos 10, e nenhuma outra dimensão for inserida, o departamento 20 e o local 30 serão inseridos por padrão. Porém, se você alterar o centro de custo, os valores que foram já foram estabelecidos não serão alterados. Portanto, você pode estabelecer dimensões padrão nos registros mestre, e essas dimensões não serão alteradas por dimensões derivadas.
+
+Você pode alterar o comportamento de dimensões derivados para substituir os valores existentes, marcando a caixa de seleção **Substituir valores de dimensão existentes por valores derivados** na página **Dimensões derivadas**. Se este campo for selecionado, você poderá inserir uma dimensão com valores de dimensão derivados e esses valores de dimensão derivados substituirão os valores já existentes. Usando o exemplo anterior, se você inserir o centro de custo 10 e nenhuma outra dimensão for inserida, o departamento 20 e o local 30 serão inseridos por padrão. Entretanto, se os valores já forem departamento 50 e local 60, os valores serão alterados para departamento 20 e local 30.
+ 
+As dimensões derivadas com essa configuração não substituirão automaticamente os valores existentes de dimensão padrão quando os valores de dimensão forem usados como padrão. Os valores de dimensão serão substituídos somente quando você inserir um novo valor de dimensão em uma página e houver valores derivados existentes para essa dimensão na página.
+
+### <a name="preventing-changes-with-derived-dimensions"></a>Impedindo alterações com dimensões derivadas
+ 
+Quando você usa **Adicionar segmento”** na **Página Dimensões derivadas** para adicionar um segmento como uma dimensão derivada, uma opção é fornecida na parte inferior da página **Adicionar segmento** que permite evitar alterações nessa dimensão quando ela é derivada em uma página. A configuração padrão está desativada; então, ela não evita que os valores de dimensão derivada sejam alterados. Altere a configuração para **Sim** se você quiser impedir que a dimensão seja alterada após ser derivada. Por exemplo, se o valor da dimensão Departamento for derivado do valor de dimensão Centro de custo, o valor do Departamento não poderá ser alterado caso a configuração de **Impedir alterações** seja **Sim**. 
+ 
+A configuração não impedirá alterações se o valor de dimensão for válido, mas ele não será listado na lista de dimensões derivadas. Por exemplo, se o departamento 20 derivar do Centro de custo 10 e você inserir Centro de custo 10, você não poderá editar o departamento 20. Entretanto, se você inserir o Centro de custos 20 e ele não estiver na lista de dimensões derivadas do centro de custos, você poderá editar o valor do departamento. 
+ 
+Em todos os casos, o valor da conta e todos os valores de dimensões ainda estarão validados nas estruturas de conta após a aplicação dos valores de dimensões derivadas. Se você usar dimensões derivadas e a validação falhar quando elas forem usadas em uma página, altere os valores de dimensões derivadas na página de dimensões derivadas para que você possa usá-las em transações. 
+ 
+Quando você alterar as dimensões na FastTab **Dimensões financeiras**, a dimensão marcada para impedir as alterações não será editável. Se estiver inserindo uma conta e dimensões no controle de entrada segmentada em uma página, as dimensões serão editáveis. Entretanto, quando você retira o realce do controle de entrada segmentada e move para outro campo ou adota uma medida, a conta e as dimensões são validadas na lista de dimensões derivadas e nas estruturas de conta para garantir que você insira os valores apropriados. 
 
 ### <a name="derived-dimensions-and-entities"></a>Entidades e dimensões derivadas
 
 Você pode configurar os segmentos e valores das dimensões derivadas usando as entidades.
 
 - A entidade Dimensões derivadas configura as dimensões de controle e os segmentos que são usados para essas dimensões.
-- A entidade de DerivedDimensionValue permite importar valores que devem ser derivados para cada dimensão de controle.
+- A entidade Valor de dimensões derivadas permite importar os valores que devem ser derivados para cada dimensão de controle.
 
 Quando você usa uma entidade para importar dados, se a entidade importar dimensões, regras de dimensão derivada serão aplicadas durante importação, a menos que a entidade substitua especificamente essas dimensões.
 

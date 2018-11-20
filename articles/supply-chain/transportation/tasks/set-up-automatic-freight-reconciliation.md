@@ -3,7 +3,7 @@ title: "Configurar automatização de reconciliação de frete"
 description: "Este procedimento mostra como definir dados para reconciliação automática de frete."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97f0c4d8fe06ab2fc252b9543cb688306214c79f
+ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
+ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/17/2018
 
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Configurar automatização de reconciliação de frete
@@ -36,9 +36,9 @@ Este procedimento mostra como definir dados para reconciliação automática de 
     * O tipo de conta de fretes define como as contas de frete e faturas de transportadora devem ser correspondidas.  
 2. Clique em Novo.
 3. No campo Tipo de nota de frete, digite um valor.
-4. No campo Assembly do mecanismo, digite 'Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer'.
+4. No campo Assembly do mecanismo, digite 'Microsoft.Dynamics.Ax.Tms.dll'.
     * Esta é a biblioteca de códigos do mecanismo de gerenciamento de transporte padrão.  
-5. No campo Classe do mecanismo, digite 'Microsoft.Dynamics.Ax.Tms.dll'.
+5. No campo Classe do mecanismo, digite 'Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer'.
     * Esta é a classe do mecanismo de gerenciamento de transporte padrão.  
 6. Clique em Novo.
 7. No campo Descrição, selecione o valor que deve coincidir na nota de frete e a fatura da transportadora.  

@@ -34,6 +34,8 @@
         - name: Novidades ou alterações
           href: get-started/whats-new-changed.md
           items:
+            - name: Perguntas frequentes sobre as atualizações do serviço One Version
+              href: get-started/one-version.md
             - name: Política de ciclo de vida do software e versões de nuvem
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: Política de ciclo de vida do software e versões locais
@@ -46,8 +48,16 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: ​Recursos não implementados em implantações locais​
               href: get-started/features-not-implemented-on-prem.md
+            - name: Platform update 22 (novembro de 2018)
+              href: get-started/whats-new-platform-update-22.md
+            - name: Finance and Operations versão 8.1.2 (novembro de 2018)
+              href: get-started/whats-new-changed-8-1-2.md
+            - name: Finance and Operations versão 8.1.1 (outubro de 2018)
+              href: get-started/whats-new-changed-8-1-1.md
             - name: Finance and Operations versão 8.1 (outubro de 2018)
               href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update‎ 21 (outubro de 2018)
+              href: get-started/whats-new-platform-update-21.md
             - name: Platform update 20 (setembro de 2018)
               href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operations versão 8.0 (abril de 2018)
@@ -126,7 +136,7 @@
               href: get-started/personalize-user-experience.md
             - name: Criar e trabalhar com dados personalizados
               href: get-started/user-defined-fields.md
-            - name: Inserir aplicativos PowerApps
+            - name: Incorporar aplicativos PowerApps
               href: get-started/embed-power-apps.md
             - name: Localizar informações​ usando pesquisas
               href: get-started/use-lookups-to-find-information.md
@@ -300,7 +310,7 @@
           href: ../dev-itpro/data-entities/integration-overview.md?toc=/fin-and-ops/toc.json
         - name: APIs de integração de dados
           items:
-            - name: API de pacote de gerenciamento de dados
+            - name: API REST do pacote de gerenciamento de dados
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: Pontos de extremidade de serviço
               href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
@@ -309,10 +319,12 @@
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
               href: ../dev-itpro/data-entities/odata.md?toc=/fin-and-ops/toc.json
-            - name: Serviços personalizados
+            - name: Desenvolvimento de serviço personalizado
               href: ../dev-itpro/data-entities/custom-services.md?toc=/fin-and-ops/toc.json
             - name: ​Integrações recorrentes​
               href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
+            - name: Testar serviços com utilitários de terceiros
+              href: ../dev-itpro/data-entities/third-party-service-test.md
         - name: Desenvolvimento para integração
           items:
             - name: Integração de dados usando entidades de dados
@@ -324,9 +336,9 @@
                   href: ../dev-itpro/data-entities/develop-composite-data-entities.md?toc=/fin-and-ops/toc.json
                 - name: Configurar o compartilhamento de dados financeiros entre empresas
                   href: ../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/fin-and-ops/toc.json
-                - name: Criar um modelo de registro para facilitar a entrada de dados
+                - name: Criar modelos de registros para facilitar a entrada de dados
                   href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
-                - name: Usar um modelo de registro para criar um novo registro
+                - name: Criar registros usando modelos de registros
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: Integração de dados usando o Common Data Service
               href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
@@ -383,6 +395,8 @@
             - name: Copiar dados de configuração entre empresas ou entidades legais
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: ​Pacotes de dados de configuração​
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: Pacotes de dados de configuração (somente a versão de julho de 2017)
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
             - name: ​Modelos de dados de configuração​
@@ -391,6 +405,10 @@
               href: ../dev-itpro/data-entities/entity-change-track.md?toc=/fin-and-ops/toc.json
             - name: Localizar informações sobre entidades de dados padrão
               href: ../dev-itpro/data-entities/data-entities-report.md?toc=/fin-and-ops/toc.json
+            - name: Modelos de dados com várias planilhas
+              href: ../dev-itpro/data-entities/excel-template-multiple.md
+            - name: Habilitar o controle de alterações para entidades
+              href: ../dev-itpro/data-entities/entity-change-track.md
             - name: Chaves de configuração e entidades de dados
               href: ../dev-itpro/data-entities/config-key-entities.md?toc=/fin-and-ops/toc.json
             - name: ​Pacotes de dados de configuração​
@@ -398,10 +416,12 @@
         - name: Trabalhos de importação e exportação de dados
           href: ../dev-itpro/data-entities/data-import-export-job.md?toc=/fin-and-ops/toc.json
           items:
-            - name: ​Práticas recomendadas para importar vouchers usando a entidade Diário geral​
+            - name: ​Práticas recomendadas para importar comprovantes usando a entidade Diário geral​
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: Desenvolvimento para entidades de dados
           items:
+            - name: Princípios e práticas recomendadas de Design para entidades de dados
+              href: ../dev-itpro/dev-tools/design-best-practices.md
             - name: Criar novas entidades de dados
               href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Propriedades da entidade de dados
@@ -424,16 +444,20 @@
               href: ../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json
             - name: Usar o utilitário de teste de serviço de terceiros
               href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/fin-and-ops/toc.json
+            - name: Criar entidades somente leitura que exponham dimensões financeiras
+              href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/fin-and-ops/toc.json
         - name: Trazer seu próprio banco de dados
           href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
         - name: Automação de tarefa de dados
           href: ../dev-itpro/data-entities/data-task-automation.md
-        - name: Espaço de trabalho de validação de dados
+        - name: Espaço de trabalho da lista de verificação de validação de dados
           href: ../dev-itpro/user-interface/data-validation-workspace.md
+        - name: Descrições dos erros de gerenciamento de dados
+          href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: Gerenciamento financeiro
       href: ../financials/index.md
       items:
-        - name: Contas a pagar
+        - name: Contas a Pagar
           href: ../financials/accounts-payable/accounts-payable.md
           items:
             - name: ​Visão geral de faturas de fornecedor​
@@ -1007,6 +1031,8 @@
                   href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
                 - name: Configurar estruturas de conta
                   href: ../financials/general-ledger/configure-account-structures.md
+                - name: Moeda dupla
+                  href: ../financials/general-ledger/dual-currency.md
             - name: Diários e razões
               items:
                 - name: Processamento do diário geral
@@ -1049,6 +1075,8 @@
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
                 - name: Um comprovante
                   href: ../financials/general-ledger/one-voucher.md
+                - name: Liquidações do razão
+                  href: ../financials/general-ledger/ledger-settlements.md
             - name: Fechamento de período
               items:
                 - name: ​Fechar a contabilidade ao final do período​
@@ -1799,6 +1827,10 @@
             - name: Visão geral do mecanismo de cálculo de impostos
               href: ../financials/general-ledger/tax-engine.md
               items:
+                - name: Importar configuração
+                  href: ../financials/general-ledger/tax-engine-import-configuration.md
+                - name: Aplicabilidade do mecanismo de cálculo de impostos
+                  href: ../financials/general-ledger/tax-engine-applicability.md
                 - name: Integração do mecanismo de cálculo de impostos
                   href: ../financials/general-ledger/tax-engine-integration.md
                 - name: Estendendo o mecanismo de cálculo de impostos
@@ -2100,6 +2132,8 @@
         - name: Polônia
           href: ../financials/localizations/poland.md
           items:
+            - name: Ativar contabilidade de estorno
+              href: ../financials/localizations/emea-pol-red-storno.md
             - name: ​Calcular descontos de linha do preço unitário​
               href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
             - name: ​Notas de correção​
@@ -2116,6 +2150,8 @@
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: Relatórios de imposto
               href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: Configurar sequências numéricas por depósito
+              href: ../financials/localizations/emea-pol-number-sequence-warehouses.md
             - name: Arquivo de auditoria padrão
               href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
             - name: Juros de imposto e juros livres
@@ -2132,32 +2168,60 @@
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: Operações diárias para titulares avançados
                   href: ../financials/localizations/rus-advance-holders-daily-operations.md
+                - name: Relatórios de adiantamento com controles de orçamento
+                  href: ../financials/localizations/rus-advance-holders-reports-dailyops.md
+                - name: Reavaliar a moeda estrangeira para os titulares avançados
+                  href: ../financials/localizations/rus-advance-adjustment-parameters.md
+                - name: Relatórios de titulares avançados
+                  href: ../financials/localizations/rus-local-management-reports-primary-forms.md
+            - name: Banco
+              items:
+                - name: Configurar contas bancárias
+                  href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+                - name: Configurar e processar ordens de pagamento
+                  href: ../financials/localizations/rus-payment-order-settings-processing.md
             - name: Ativos fixos
               items:
                 - name: Adquirir ativos fixos e colocá-los em operação
                   href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: Registrar aquisições de ativos fixos
+                  href: ../financials/localizations/rus-register-acquisition.md
                 - name: Criar e lançar diários de orçamento para aquisições de ativos fixos
                   href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
                 - name: ​Contagem de ativos fixos​
                   href: ../financials/localizations/rus-fixed-assets-counting.md
-                - name: Reavaliação de moeda para ativos fixos
+                - name: Reavaliação de moeda de ativos fixos
                   href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
-                - name: Desmontagem parcial (liquidação) de ativos fixos
+                - name: Reavaliar o custo e a depreciação do ativo fixo
+                  href: ../financials/localizations/rus-fixed-assets-revaluation.md
+                - name: Desmontagem parcial de ativos fixos (liquidação)
                   href: ../financials/localizations/rus-fixed-assets-disassembly.md
-            - name: Configurar e processar ordens de pagamento
-              href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: 'Venda, disposição e amortização de ativos'
+                  href: ../financials/localizations/rus-sell-dispose-write-off-fixed-assets.md
+                - name: Configurar localizações e numerações de ativos fixos
+                  href: ../financials/localizations/rus-fixed-assets-locations-numbering.md
+                - name: Configurar depreciação
+                  href: ../financials/localizations/rus-depreciation-setup.md
+                - name: Métodos de depreciação
+                  href: ../financials/localizations/rus-depreciation-methods.md
+                - name: Bônus de depreciação
+                  href: ../financials/localizations/rus-bonus-depreciation.md
+                - name: Calcular depreciação
+                  href: ../financials/localizations/rus-depreciation-calculation.md
+            - name: Divisões da empresa
+              href: ../financials/localizations/rus-company-divisions.md
             - name: Configurar taxas de câmbio para transações em moeda
               href: ../financials/localizations/rus-exchange-difference.md
             - name: Visualizar transações do razão
               href: ../financials/localizations/rus-ledger-transactions-preview.md
             - name: Configurar autoridades
               href: ../financials/localizations/rus-officials.md
-            - name: Configurar contas bancárias
-              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
             - name: Imposto sobre valor agregado (IVA) para agentes de imposto
               href: ../financials/localizations/rus-tax-agent.md
             - name: Configurar controle de dimensão para liquidações
               href: ../financials/localizations/rus-transactions-settlement-date.md
+            - name: Faturas para pagamento
+              href: ../financials/localizations/rus-invoice-payment.md
         - name: Arábia Saudita
           href: ../financials/localizations/saudi-arabia.md
           items:

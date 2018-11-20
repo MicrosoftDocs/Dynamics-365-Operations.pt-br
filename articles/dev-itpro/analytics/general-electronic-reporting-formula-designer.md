@@ -3,14 +3,14 @@ title: "Designer de fórmulas no relatório eletrônico (ER)"
 description: "Este tópico explica como usar o designer de fórmulas no ER (Relatório Eletrônico)."
 author: NickSelin
 manager: AnnBe
-ms.date: 04/04/2018
+ms.date: 10/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
+ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
+ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/23/2018
 
 ---
 
@@ -192,7 +192,7 @@ Quando a fonte de dados **System** é adicionada a um mapeamento de ER que se re
 Você pode delimitar a maneira como os valores são passados para parâmetros desse tipo de método:
 
 - Apenas as constantes podem ser aprovadas para os métodos deste tipo. Os valores das constantes são definidos no tempo de design.
-- Somente os tipos de dados primitivos (básicos) são suportados para parâmetros deste tipo. (Os tipos de dados primitivos são inteiro, real, boolianos, sequência de caracteres, e assim por diante).
+- Somente os tipos de dados primitivos (básicos) são suportados para parâmetros deste tipo. (Os tipos de dados primitivos são inteiro, real, booliano, sequência de caracteres e assim por diante).
 
 #### <a name="paths"></a>Caminhos
 
@@ -252,6 +252,12 @@ As tabelas a seguir descrevem o manuseio de dados da função que podem ser usad
 <td><strong>SPLIT (&quot;abcd&quot;, 3)</strong> retorna uma nova lista que consiste de dois registros que têm um campo <strong>STRING</strong>. O campo no primeiro registro contém o texto <strong>&quot;abc&quot;</strong> e o campo no segundo registro contém o texto <strong>&quot;d&quot;</strong>.</td>
 </tr>
 <tr>
+<td>SPLIT (entrada, delimitador)</td>
+<td>Divide a cadeia de caracteres de entrada especificada em subcadeias de caracteres, com base no delimitador especificado.</td>
+<td><strong>SPLIT (&quot;XAb aBy&quot;, &quot;aB&quot;)</strong> retorna uma nova lista que consiste em três registros que têm um campo <strong>STRING</strong>. O campo no primeiro registro contém o texto <strong>&quot;X&quot;</strong>, o campo no segundo registro contém o texto &quot;&nbsp;&quot; e o campo no terceiro registro contém o texto <strong>&quot;y&quot;</strong>. Se o delimitador estiver vazio, uma nova lista será retornada, que consiste em um registro com o campo <strong>STRING</strong> que contém o texto de entrada. Se a entrada estiver vazia, uma nova lista vazia será retornada.
+Se a entrada ou o delimitador não estiver especificado (nulo), uma exceção de aplicativo será gerada.</td>
+</tr>
+<tr>
 <td>SPLITLIST (lista, número)</td>
 <td>Divide a lista especificada em lotes, cada qual contém o número de registros especificado. Devolve o resultado como uma nova lista de lotes que contém os seguintes elementos:
 <ul>
@@ -289,12 +295,12 @@ As tabelas a seguir descrevem o manuseio de dados da função que podem ser usad
 </tr>
 <tr>
 <td>FIRST (lista)</td>
-<td>Devolva o primeiro registro da lista especificada se esse registro não estiver vazio. Caso contrário, jogue uma exceção.</td>
+<td>Devolve o primeiro registro de lista especificada, se esse registro não estiver vazio. Caso contrário, jogue uma exceção.</td>
 <td></td>
 </tr>
 <tr>
 <td>FIRSTORNULL (lista)</td>
-<td>Devolva o primeiro registro da lista especificada se esse registro não estiver vazio. Caso contrário, devolve um registro <strong>null</strong>.</td>
+<td>Devolve o primeiro registro de lista especificada, se esse registro não estiver vazio. Caso contrário, devolve um registro <strong>null</strong>.</td>
 <td></td>
 </tr>
 <tr>
@@ -323,12 +329,12 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <tr>
 <td>ORDERBY (lista [, expressão 1, expressão 2, …])</td>
 <td>Retorna a lista especificada depois que ela for classificada de acordo com os argumentos especificados. Esses argumentos podem ser definidos como expressões.</td>
-<td>Se o <strong>Fornecedor</strong> for configurado como uma fonte de dados de ER que faça referência à tabela VendTable, <strong>ORDERBY (Vendors, Vendors.&#39;nome()&#39;)</strong> retorna uma lista de fornecedores classificada por nome na ordem crescente.</td>
+<td>Se o <strong>Fornecedor</strong> for configurado como uma fonte de dados de ER que faz referência à tabela VendTable, <strong>ORDERBY (Vendors, Vendors.'name()')</strong> retorna uma lista de fornecedores que é classificada por nome na ordem ascendente.</td>
 </tr>
 <tr>
 <td>REVERSE (lista)</td>
 <td>Retorna a lista especificada na ordem de classificação revertida.</td>
-<td>Se <strong>Fornecedor</strong> for configurado como uma origem de dados de ER que faça referência à tabela VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.&#39;nome()&#39;)) )</strong> retorna uma lista de fornecedores classificada por nome na ordem decrescente.</td>
+<td>Se <strong>Fornecedor</strong> for configurado como uma origem de dados de ER que se refere à tabela VendTable, <strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> retorna uma lista de fornecedores que é classificada por nome na ordem decrescente.</td>
 </tr>
 <tr>
 <td>WHERE (lista, condição)</td>
@@ -353,7 +359,7 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 </tr>
 <tr>
 <td>COUNT (lista)</td>
-<td>Retorne o número de registros na lista especificada se a lista estiver vazia. Caso contrário, devolve <strong>0</strong> (zero).</td>
+<td>Devolve o número de registros de lista especificada, se a lista estiver vazia. Caso contrário, devolve <strong>0</strong> (zero).</td>
 <td><strong>COUNT (SPLIT(&quot;abcd&quot; , 3))</strong> retorna <strong>2</strong>, porque a função <strong>SPLIT</strong> cria uma lista que consiste em dois registros.</td>
 </tr>
 <tr>
@@ -399,12 +405,13 @@ No tempo de execução, os campos <strong>Rótulo</strong> e <strong>Descrição
 </ul>
 No tempo de execução, os campos <strong>Rótulo</strong> e <strong>Descrição</strong> retornam valores que são baseados nas definições de idioma do formato e no idioma especificado. O campo <strong>Traduzido</strong> indica que o campo <strong>Rótulo</strong> foi traduzido no idioma especificado.
 </td>
-<td>Por exemplo, use o tipo de fonte de dados <strong>Campo calculado</strong> para configurar as fontes de dados <strong>enumType_de</strong> e <strong>enumType_deCH</strong> para a enumeração do modelo de dados <strong>enumType</strong>:
+<td>Por exemplo, use o tipo de fonte de dados <strong>Campo calculado</strong> para configurar as fontes de dados <strong>enumType_de</strong> e <strong>enumType_deCH</strong> para a enumeração do modelo de dados <strong>enumType</strong>.
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor de enumeração em alemão suíço, se esta tradução estiver disponível. Se a tradução do alemão suíço não estiver disponível, o rótulo fica em alemão: <strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>.
+<p>Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor de enumeração em alemão suíço, se esta tradução estiver disponível. Se a tradução de alemão suíço não estiver disponível, o rótulo ficará em alemão.</p>
+IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 </td>
 </tr>
 <tr>
@@ -421,7 +428,7 @@ Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor 
 <p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
 <p>A ilustração a seguir mostra o resultado quando o formato é executado. Nesse caso, a saída é uma lista simples de itens de mercadoria.</p>
 <p><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="Output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a></p>
-<p>Nas ilustrações a seguir, o mesmo formato foi ajustado, de forma que apresente a lista de itens de mercadoria em lotes quando um lote único deve incluir mercadorias e o peso total não deve exceder o limite de 9.</p>
+<p>Nas ilustrações a seguir, o mesmo formato foi ajustado, de forma que apresente a lista de itens de mercadoria em lotes quando um lote único deva incluir mercadorias e o peso total não deva exceder o limite de 9.</p>
 <p><a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="Adjusted format" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a></p>
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>A ilustração a seguir mostra o resultado quando o formato ajustado é executado.</p>
@@ -432,7 +439,7 @@ Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor 
 <tr>
 <td>FILTRO (lista, condição)</td>
 <td>Retorna a lista especificada depois que a consulta foi modificada para filtrar a condição especificada. Esta função difere da função <strong>WHERE</strong> porque a condição especificada é aplicada à fonte de dados do ER do tipo de <strong>Registros da tabela</strong> em nível de banco de dados. A lista e a condição podem ser definidas usando tabelas e relações.</td>
-<td>Se <strong>Fornecedor</strong> for configurado como uma fonte de dados de ER que se refere à tabela VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> retorna uma lista de fornecedores que pertencem ao grupo do fornecedor 40. Se <strong>Fornecedor</strong> for configurado como uma fonte de dados de ER que se refere à tabela <strong>VendTable</strong> e se <strong>parmVendorBankGroup</strong> for configurado como uma fonte de dados de ER que retorna um valor do tipo de dados <strong>String</strong>, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> retorna uma lista apenas de contas do fornecedor que pertencem a um grupo de bancos específicos.</td>
+<td>Se <strong>Fornecedor</strong> for configurado como uma fonte de dados de ER que se refere à tabela VendTable, <strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> retorna uma lista de fornecedores que pertencem ao grupo do fornecedor 40. Se <strong>Fornecedor</strong> estiver configurado como uma fonte de dados de ER que se refira à tabela VendTable e se <strong>parmVendorBankGroup</strong> estiver configurado como uma fonte de dados de ER que retorne um valor do tipo de dados <strong>String</strong>, <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> retornará uma lista com apenas as contas de fornecedor que pertençam a um grupo de bancos específico.</td>
 </tr>
 </tbody>
 </table>
@@ -446,10 +453,67 @@ Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor 
 | NOT (condição) | Devolve o valor da condição lógica revertido especificado. | **NOT (TRUE)** devolve **FALSE**. |
 | AND (condition 1\[, condition 2, …\]) | Devolve **TRUE** se *todas* as condições especificadas forem verdade. Caso contrário, devolve **FALSO**. | **AND (1=1, "a"="a")** devolve **TRUE**. **AND (1=2, "a"="a")** devolve **FALSE**. |
 | OR (condition 1\[, condition 2, …\]) | Devolve **FALSE** se *todas* as condições especificadas forem falsas. Devolve **TRUE** se *quaisquer* condições especificadas forem verdade. | **OR (1=2, "a"="a")** devolve **TRUE**. |
+| VALUEIN (entrada, lista, expressão de itens da lista) | Determine se a entrada especificada corresponde a algum valor de um item na lista especificada. Retorna **TRUE** se a entrada especificada corresponder ao resultado da execução da expressão especificada para pelo menos um registro. Caso contrário, retorna **FALSE**. O parâmetro **entrada** representa o caminho de um elemento de fonte de dados. O valor desse elemento será correspondente. O parâmetro **list** representa o caminho de um elemento de fonte de dados do tipo de lista do registro como uma lista de registros que contém uma expressão. O valor desse elemento será comparado à entrada especificada. O argumento **expressão de item de lista** representa uma expressão que aponta para ou contém um único campo na lista especificada que deve ser usado na correspondência. | Para obter exemplos, consulte a seção [Exemplos: VALUEIN (entrada, lista, expressão de itens da lista)](#examples-valuein-input-list-list-item-expression) a seguir. |
+
+#### <a name="examples-valuein-input-list-list-item-expression"></a>Exemplos: VALUEIN (entrada, lista, expressão de itens da lista)
+Em geral, a função **VALUEIN** é convertida em um conjunto de condições **OR**:
+
+(input = list.item1.value) OR (input = list.item2.value) OR …
+
+##### <a name="example-1"></a>Exemplo 1
+Você define a seguinte fonte de dados no seu mapeamento de modelo: **Lista** (tipo **Campo calculado**). Essa fonte dados contém a expressão **SPLIT ("a,b,c", ",")**.
+
+Quando uma fonte de dados é chamada que é configurada como a expressão **VALUEIN ("B", List, List.Value)**, ela retorna **TRUE**. Nesse caso, a função **VALUEIN** é convertida no seguinte conjunto de condições:
+
+**(("B" = "a") ou ("B" = "b") ou ("B" = "c"))**, onde **("B" = "b")** é igual a **TRUE**
+
+Quando uma fonte de dados é chamada que é configurada como a expressão **VALUEIN ("B", List, LEFT(List.Value, 0))**, ela retorna **FALSE**. Nesse caso, a função **VALUEIN** é convertida na seguinte condição:
+
+**(“B” = "")**, que não é igual a **TRUE**
+
+Observe que o limite superior para o número de caracteres no texto dessa condição é de 32.768 caracteres. Portanto, você não deve criar fontes de dados que possam exceder esse limite no tempo de execução. Se o limite for excedido, o aplicativo interromperá a execução e uma exceção será gerada. Por exemplo, essa situação poderá ocorrer se a fonte de dados for configurada como **WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)** e as listas **List1** e **List2** contiverem muitos registros.
+
+Em alguns casos, a função **VALUEIN** é convertida em uma instrução de banco de dados usando o operador **EXISTS JOIN**. Esse comportamento ocorre quando a função **FILTER** é usada e as seguintes condições são atendidas:
+
+- A opção **SOLICITAR CONSULTA** é desativada para a fonte de dados da função **VALUEIN** que se refere à lista de registros. (Nenhuma condição adicional será aplicada a essa fonte de dados no tempo de execução.)
+- Nenhuma expressão aninhada está configurada para a fonte de dados da função **VALUEIN** que se refere à lista de registros.
+- Um item de lista da função **VALUEIN** se refere a um campo (não uma expressão ou um método) da fonte de dados especificada.
+
+Considere usar esta opção em vez da função **WHERE**, conforme descrito antes neste exemplo.
+
+##### <a name="example-2"></a>Exemplo 2
+
+Você define as seguintes fontes de dados no mapeamento de modelo:
+
+- **In** (tipo **Registros da tabela**), que se refere à tabela Intrastat
+- **Port** (tipo **Registros da tabela**), que se refere à tabela IntrastatPort
+
+Quando uma fonte de dados é chamada que é configurada como a expressão **FILTER (In, VALUEIN(In.Port, Port, Port.PortId)**, a seguinte instrução SQL é gerada para retornar registros filtrados da tabela Intrastat:
+
+```
+select … from Intrastat
+exists join TableId from IntrastatPort
+where IntrastatPort.PortId = Intrastat.Port
+```
+
+Para campos **dataAreaId**, a instrução SQL final é gerada pelo operador de utilização **IN**.
+
+##### <a name="example-3"></a>Exemplo 3
+
+Você define as seguintes fontes de dados no mapeamento de modelo:
+
+- **Le** (tipo **Campo calculado**), que contém a expressão **SPLIT ("DEMF,GBSI,USMF", ",")**
+- **In** (tipo **Registros de tabela**), que faz referência à tabela Intrastat e para o qual a opção **Interempresarial** está ativada
+
+Quando uma fonte de dados é chamada que é configurada como a expressão **FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)** , a instrução SQL final contém a seguinte condição:
+
+```
+Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
+```
 
 ### <a name="mathematical-functions"></a>Funções matemáticas
 
-| Função | Descrição | Exemplo |
+| Função | descrição | Exemplo |
 |----------|-------------|---------|
 | ABS (número) | Retorna o valor absoluto do número especificado. (Em outras palavras, retorna o número sem seu sinal). | **ABS (-1)** retorna **1**. |
 | POWER (número, potência) | Devolve o resultado de aumento do número positivo especificado para a potência especificada. | **POWER (10, 2)** devolve **100**. |
@@ -539,17 +603,17 @@ Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor 
 </tr>
 <tr>
 <td>REPLACE (cadeia de caracteres, padrão, substituição, sinalizador da expressão regular)</td>
-<td>Quando o sinalizador da expressão regular especificado for <strong>verdadeiro</strong>, retorna a sequência de caracteres especificada depois que ela foi alterada, aplicando a expressão regular que é especificada como um argumento padrão para esta função. A expressão é usada para localizar os caracteres que devem ser substituídos. Os caracteres do argumento especificado de substituição são usados para substituir os caracteres que são encontrados. Quando o sinalizador da expressão regular é <strong>false</strong> especificado, esta função comporta-se como <strong>TRANSLATE</strong>.</td>
+<td>Quando o parâmetro <strong>sinalizador da expressão regular</strong> especificado for <strong>true</strong>, ele retornará a sequência de caracteres especificada depois que ela for alterada, aplicando a expressão regular que é especificada como o argumento <strong>padrão</strong> para esta função. A expressão é usada para localizar os caracteres que devem ser substituídos. Os caracteres do argumento especificado de <strong>substituição</strong> são usados para substituir os caracteres que são encontrados. Quando o parâmetro <strong>sinalizador da expressão regular</strong> especificado é <strong>false</strong>, esta função se comporta como <strong>TRANSLATE</strong>.</td>
 <td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> aplica uma expressão comum que remove todos os símbolos não numéricos, e retorna <strong>&quot;19234564971&quot;</strong>. <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> substitui o padrão <strong>&quot;cd&quot;</strong> pela cadeia <strong>&quot;GH&quot;</strong> e retorna <strong>&quot;abGHef&quot;</strong>.</td>
 </tr>
 <tr>
 <td>TEXT (entrada)</td>
 <td>Retorna a entrada especificada depois que ela for convertida em uma sequência de caracteres de texto que é formatada de acordo com as configurações de localidade do servidor da instância atual do Finance and Operations. Para valores do tipo <strong>real</strong>, a conversão de cadeia de caracteres é limitada para duas casas decimais.</td>
-<td>Se a localidade do servidor da instância do Finance and Operations for definida como <strong>EN-US</strong>, <strong>TEXT (NOW ())</strong> retorna a data da sessão atual do Finance and Operations, 17 de dezembro de 2015, como sequência de caracteres de texto <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> retorna <strong>&quot;0.33&quot;</strong>.</td>
+<td>Se a localidade do servidor da instância do Finance and Operations for definida como <strong>EN-US</strong>, <strong>TEXT (NOW ())</strong> retornará a data da sessão atual do Finance and Operations, 17 de dezembro de 2015, como a cadeia de texto <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>. <strong>TEXT (1/3)</strong> retorna <strong>&quot;0.33&quot;</strong>.</td>
 </tr>
 <tr>
 <td>FORMAT (string 1, string 2[, string 3, …])</td>
-<td>Retorna a sequência de caracteres especificada depois que for formatada, substituindo todas as ocorrências de <strong>%N</strong> pelo enésimo argumento <em>n</em>. Os argumentos são cadeias de caracteres. Se o argumento não for fornecido para um parâmetro, o parâmetro será retornado como <strong>&quot;%N&quot;</strong> na cadeia de caracteres. Para valores do tipo <strong>real</strong>, a conversão de cadeia de caracteres é limitada para duas casas decimais.</td>
+<td>Retorna a sequência de caracteres especificada depois que for formatada, substituindo todas as ocorrências de <strong>%N</strong> pelo enésimo argumento <em>n</em>. Os argumentos são cadeias de caracteres. Se o argumento não for fornecido para um parâmetro, o parâmetro retornará como <strong>&quot;%N&quot;</strong> na cadeia. Para valores do tipo <strong>real</strong>, a conversão de cadeia de caracteres é limitada para duas casas decimais.</td>
 <td>Na ilustração a seguir, a fonte de dados <strong>PaymentModel</strong> retorna a lista de registros do cliente por meio do componente <strong>Cliente</strong> e o valor da data de processamento por meio do campo <strong>ProcessingDate</strong>.
 <p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
 <p>No formato ER que é projetado para gerar um arquivo eletrônico para clientes selecionados, <strong>PaymentModel</strong> é selecionada como uma fonte de dados e controla o fluxo do processo. Uma exceção é gerada para informar ao usuário quando um cliente selecionado for interrompido na data na qual o relatório é processado. A fórmula que é criada para este tipo de controle de processamento pode usar os seguintes recursos:</p>
@@ -562,19 +626,19 @@ Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor 
 <li>Etiqueta SYS18389 do Finance and Operations, que tem o seguinte texto:
 <ul>
 <li><strong>Para o idioma Inglês dos EUA:</strong> &quot;Customer %1 is stopped for %2.&quot;</li>
-<li><strong>Para o idioma alemão:</strong> &quot;Debitor &#39;%1&#39; wird für %2 gesperrt.&quot;</li>
+<li><strong>Para o idioma Alemão:</strong> &quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>Veja a fórmula que pode ser criada:</p>
 <p>FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;))</p>
-<p>Se um relatório for processado para o cliente <strong>Litware Retail</strong> em 17 de dezembro de 2015, na cultura <strong>EN-US</strong> e no idioma <strong>EN-US</strong>, esta fórmula retornará o seguinte texto, que pode ser apresentado como uma mensagem de exceção para o usuário.</p>
+<p>Se um relatório for processado para o cliente <strong>Litware Retail</strong> em 17 de dezembro de 2015, na cultura <strong>EN-US</strong> e no idioma <strong>EN-US</strong>, esta fórmula retornará o seguinte texto, que pode ser apresentado ao usuário como uma mensagem de exceção.</p>
 <p>&quot;Nada para imprimir. O cliente Litware Retail é interrompido para 17/12/2015."&quot;</p>
 <p>Se o mesmo relatório for processado para o cliente <strong>Litware Retail</strong> em 17 de dezembro de 2015, na cultura <strong>DE</strong> e no idioma <strong>DE</strong>, esta fórmula retornará o seguinte texto, que usa um formato de data diferente:</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE] A seguinte sintaxe será aplicada em fórmulas de ER para rótulos:
 <ul>
-<li><strong>Para etiquetas de recursos do Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>, onde X é a ID da etiqueta na AOT (Árvore de Objetos de Aplicativo)</li>
-<li><strong>Para as etiquetas que residem nas configurações de ER:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, onde X é a ID da etiqueta na configuração de ER</li>
+<li><strong>Para etiquetas de recursos do Finance and Operations:</strong> <strong>@&quot;X&quot;</strong>, onde <strong>X</strong> é a ID da etiqueta na AOT (Árvore de Objetos de Aplicativo)</li>
+<li><strong>Para as etiquetas que residem nas configurações de ER:</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>, onde <strong>X</strong> é a ID da etiqueta na configuração de ER</li>
 </ul>
 </blockquote>
 </td>
@@ -616,7 +680,7 @@ Nesse caso, você pode usar a seguinte expressão para obter o rótulo do valor 
 </tr>
 <tr>
 <td>GUIDVALUE (entrada)</td>
-<td>Converte a entrada especificada do tipo de dados <strong>String</strong> para um item de dados do tipo de dados <strong>GUID</strong>.</td>
+<td>Converte a entrada especificada do tipo de dados <strong>String</strong> para um item de dados do tipo de dados <strong>GUID</strong>.<blockquote>[!NOTE] Para fazer uma conversão na direção oposta (isto é, para converter a entrada especificada do tipo de dados <strong>GUID</strong> em um item de dados do tipo de dados <strong>Sequência de caracteres</strong>), você pode usar a função <strong>TEXT()</strong>.</blockquote></td>
 <td>Você define as seguintes fontes de dados no mapeamento de modelo:
 <ul>
 <li><strong>myID</strong> tipo (<strong>Campo calculado</strong> ), que contém a expressão <strong>(GUIDVALUE&quot;AF5CCDAC-F728-4609-8C8B- A4B30B0C0AA0&quot;)</strong></li>
@@ -637,7 +701,7 @@ Quando essas fontes de dados forem definidas, você pode usar uma expressão com
 
 | Função | descrição | Exemplo |
 |----------|-------------|---------|
-| TEXT (entrada) | Retorna a entrada especificada depois que ela for convertida em uma sequência de caracteres de texto que é formatada de acordo com as configurações de localidade do servidor da instância atual do Finance and Operations. Para valores do tipo **real**, a conversão de cadeia de caracteres é limitada para duas casas decimais. | Se a localidade do servidor da instância do Finance and Operations for definida como **EN-US**, **TEXT (NOW ())** retorna a data da sessão atual do Finance and Operations, 17 de dezembro de 2015, como a string de texto **"12/17/2015 07:59:23 AM"**. **TEXT (1/3)** devolve **"0.33"**. |
+| TEXT (entrada) | Retorna a entrada especificada depois que ela for convertida em uma sequência de caracteres de texto que é formatada de acordo com as configurações de localidade do servidor da instância atual do Finance and Operations. Para valores do tipo **real**, a conversão de cadeia de caracteres é limitada para duas casas decimais. | Se a localidade do servidor da instância do Finance and Operations for definida como **EN-US**, **TEXT (NOW ())** retornará a data da sessão atual do Finance and Operations, 17 de dezembro de 2015, como a cadeia de texto **"12/17/2015 07:59:23 AM"**. **TEXT (1/3)** devolve **"0.33"**. |
 | QRCODE (cadeia de caracteres) | Retorna uma imagem de Código de Resposta Rápida (QR code) no formato binário base64 para a sequência de caracteres especificada. | **QRCODE ("Texto de amostra")** retorna **U2FtcGxlIHRleHQ=**. |
 
 ### <a name="data-collection-functions"></a>Funções de coleta de dados
@@ -645,11 +709,11 @@ Quando essas fontes de dados forem definidas, você pode usar uma expressão com
 | Função | descrição | Exemplo |
 |----------|-------------|---------|
 | FORMATELEMENTNAME () | Retorna o nome do elemento do formato atual. Retorna uma sequência de caracteres vazia quando o sinalizador **Coletar detalhes de saída** dos arquivos atuais forem desativados. | Para saber mais sobre como usar esta função, consulte o guia de tarefas **ER Usar dados de saída do formato contagem e soma**, que faz parte do processo de negócios **Adquirir/Desenvolver componentes de solução/serviço de TI**. |
-| SUMIFS (cadeia de caracteres chave para somar, cadeia de caracteres do critério range1, cadeia de caracteres do critério value1 \[, cadeia de caracteres do critério range2, cadeia de caracteres do critério value2, …\]) | Retorna a soma de valores de nós de XML (na qual o nome é definido como uma chave) que foi coletada durante a execução do formato e que satisfaz as condições especificadas (pares de intervalos e valores). Retorna um valor **0** (zero) quando o sinalizador **Coletar detalhes de saída** dos arquivos atuais forem desativados. | |
-| SUMIF (cadeia de caracteres chave para somar, cadeia de caracteres de intervalo de critérios, cadeia de caracteres de valor de critérios) | Retorna a soma de valores de nós de XML (na qual o nome é definido como uma chave) que foi coletada durante a execução do formato e que satisfaz a condição especificada (intervalo e valor). Retorna um valor **0** (zero) quando o sinalizador **Coletar detalhes de saída** dos arquivos atuais forem desativados. | |
-| COUNTIFS (cadeia de caracteres do critério range1, cadeia de caracteres do critério value1 \[, cadeia de caracteres do critério range2, cadeia de caracteres do critério value2, …\]) | Retorna o número de nós de XML que foram coletados durante a execução do formato e que satisfazem às condições especificadas (pares de intervalos e valores). Retorna um valor **0** (zero) quando o sinalizador **Coletar detalhes de saída** dos arquivos atuais forem desativados. | |
-| COUNTIF (cadeia de caracteres de intervalo de critérios, cadeia de caracteres de valor de critérios) | Retorna o número de nós do XML que foram coletados durante a execução do formato e que atendem à condição especificada (intervalo e valor). Retorna um valor **0** (zero) quando o sinalizador **Coletar detalhes de saída** dos arquivos atuais forem desativados. | |
-| COLLECTEDLIST (cadeia de caracteres do critério range1, cadeia de caracteres do critério value1 \[, cadeia de caracteres do critério range2, cadeia de caracteres do critério value2, …\]) | Retorna a lista de valores de nós de XML do XML que foi coletado durante a execução do formato e que satisfaz às condições especificadas (intervalo e valor). Retorna uma lista vazia quando o sinalizador **Coletar detalhes de saída** dos arquivos atuais for desativado. | |
+| SUMIFS (cadeia de caracteres chave para somar, cadeia de caracteres do critério range1, cadeia de caracteres do critério value1 \[, cadeia de caracteres do critério range2, cadeia de caracteres do critério value2, …\]) | Retorna a soma de valores que foram coletados para nós XML (onde o nome é definido como uma chave) quando o formato foi executado e que atende às condições especificadas (pares de intervalos e valores). Retorna um valor **0** (zero) quando o sinalizador **Coletar detalhes de saída** dos arquivos atuais forem desativados. | |
+| SUMIF (cadeia de caracteres chave para somar, cadeia de caracteres de intervalo de critérios, cadeia de caracteres de valor de critérios) | Retorna a soma de valores que foram coletados para nós XML (onde o nome é definido como uma chave) quando o formato foi executado e que atende à condição especificada (um intervalos e um valor). Retorna um valor **0** (zero) quando o sinalizador **Coletar detalhes de saída** dos arquivos atuais forem desativados. | |
+| COUNTIFS (cadeia de caracteres do critério range1, cadeia de caracteres do critério value1 \[, cadeia de caracteres do critério range2, cadeia de caracteres do critério value2, …\]) | Retorna o número de nós XML que foram coletados quando o formato foi executado e que atendem às condições especificadas (pares de intervalos e valores). Retorna um valor **0** (zero) quando o sinalizador **Coletar detalhes de saída** dos arquivos atuais forem desativados. | |
+| COUNTIF (cadeia de caracteres de intervalo de critérios, cadeia de caracteres de valor de critérios) | Retorna o número de nós XML que foram coletados quando o formato foi executado e que atendem à condição especificada (um intervalo e um valor). Retorna um valor **0** (zero) quando o sinalizador **Coletar detalhes de saída** dos arquivos atuais forem desativados. | |
+| COLLECTEDLIST (cadeia de caracteres do critério range1, cadeia de caracteres do critério value1 \[, cadeia de caracteres do critério range2, cadeia de caracteres do critério value2, …\]) | Retorna a lista de valores coletados para nós XML quando o formato foi executado e que atendem às condições especificadas (um intervalos e um valor). Retorna uma lista vazia quando o sinalizador **Coletar detalhes de saída** dos arquivos atuais for desativado. | |
 
 ### <a name="other-business-domainspecific-functions"></a>Outras funções (específicas de domínio comercial)
 
@@ -667,6 +731,9 @@ Quando essas fontes de dados forem definidas, você pode usar uma expressão com
 | FA\_BALANCE (código do ativo fixo, código de modelo de depreciação, ano do relatório, data do relatório) | Retorna o contêiner de dados preparados do saldo do ativo fixo. O ano do relatório deve ser especificado como um valor de enumeração **AssetYear** no Finance and Operations. | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** retorna o contêiner de dados preparado dos saldos para o ativo fixo **"COMP-000001"** que tem o modelo de valor **"Atual"** na data da sessão atual do Finance and Operations. |
 | TABLENAME2ID (cadeia de caracteres) | Retorna uma representação de inteiro de uma ID de tabela para o nome da tabela especificada. | **TABLENAME2ID ("Intrastat")** retorna **1510**. |
 | ISVALIDCHARACTERISO7064 (cadeia de caracteres) | Retorna o valor booliano **TRUE** quando a sequência de caracteres especificada representa um IBAN (número de conta de banco internacional) válido. Caso contrario, retorna um valor booliano **FALSE**. | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** retorna **TRUE**. **ISVALIDCHARACTERISO7064 ("AT61")** retorna **FALSE**. |
+| NUMSEQVALUE (código de sequência numérica, escopo, ID do escopo) | Retorna o novo valor gerado de uma sequência numérica, com base no código de sequência numérica, no escopo e na ID do escopo especificada. O escopo deve ser especificado como um valor da enumeração **ERExpressionNumberSequenceScopeType** (**Compartilhado**, **Entidade legal** ou **Empresa**). Para o escopo **Compartilhado**, especifique uma cadeia de caracteres vazia como a ID do escopo. Para os escopos **Empresa** e **Entidade legal**, especifique o código da empresa como a ID do escopo. Para os escopos **Empresa** e **Entidade legal**, se você especificar uma cadeia de caracteres vazia como a ID do escopo, o código atual da empresa será usado. | Você define as seguintes fontes de dados no mapeamento de modelo:<ul><li>**enumScope** (tipo **enumeração do Dynamics 365 for Operations**), que se refere à enumeração **ERExpressionNumberSequenceScopeType**</li><li>**NumSeq** (tipo **Campo calculado**), que contém a expressão **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>Quando a fonte de dados **NumSeq** é chamada, ela retorna o novo valor gerado da sequência numérica **Gene\_1** que foi configurado para a empresa que fornece o contexto no qual o formato ER é executado. |
+| NUMSEQVALUE (código de sequência numérica) | Retorna o novo valor gerado de uma sequência numérica, com base na sequência numérica especificada, no escopo **Empresa** e (como a ID do escopo) no código da empresa que fornece o contexto em que o formato ER é executado. | Você define a seguinte fonte de dados no seu mapeamento de modelo: **NumSeq** (tipo de **Campo calculado**). Essa fonte de dados contém a expressão **NUMSEQVALUE ("Gene\_1")**. Quando a fonte de dados **NumSeq** é chamada, ela retorna o novo valor gerado da sequência numérica **Gene\_1** que foi configurado para a empresa que fornece o contexto no qual o formato ER é executado. |
+| NUMSEQVALUE (ID do registro de sequência numérica) | Retorna o novo valor gerado de uma sequência numérica, com base na ID do registro de sequência numérica especificada. | Você define as seguintes fontes de dados no mapeamento de modelo:<ul><li>**LedgerParms** (tipo **Tabela**), que se refere à tabela LedgerParameters</li><li>**NumSeq** (tipo **Campo calculado**), que contém a expressão **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)**</li></ul>Quando a fonte de dados **NumSeq** é chamada, ela retorna o novo valor gerado da sequência numérica que foi configurado em parâmetros de contabilidade para a empresa que fornece o contexto no qual o formato ER é executado. Esta sequência numérica identifica exclusivamente diários e funciona como o número de lote que vincula as transações juntas. |
 
 ### <a name="functions-list-extension"></a>Extensão da lista de funções
 
@@ -674,7 +741,6 @@ ER deixa você estender a lista de funções que são usadas em expressões ER. 
 
 ## <a name="additional-resources"></a>Recursos adicionais
 
-[Visão geral do Relatório Eletrônico](general-electronic-reporting.md)
-
-[Estender a lista de funções do ER (Relatório eletrônico)](general-electronic-reporting-formulas-list-extension.md)
+- [Visão geral do Relatório Eletrônico](general-electronic-reporting.md)
+- [Estender a lista de funções do ER (Relatório eletrônico)](general-electronic-reporting-formulas-list-extension.md)
 

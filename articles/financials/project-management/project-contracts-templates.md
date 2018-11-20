@@ -3,7 +3,7 @@ title: Sincronizar contratos de projeto e projetos diretamente no Project Servic
 description: "Este tópico descreve o modelo e as tarefas subjacentes usadas para sincronizar contratos de projeto e projetos diretamente do Microsoft Dynamics 365 for Project Service Automation para o Microsoft Dynamics 365 for Finance and Operations."
 author: KimANelson
 manager: AnnBe
-ms.date: 07/20/2018
+ms.date: 10/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
-ms.openlocfilehash: 65a274323a2d95c9c76727c9e40aa7e649e6350a
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -95,8 +95,8 @@ Quando a solução de integração do Project Service Automation para o Finance 
 ## <a name="prerequisites-and-mapping-setup"></a>Pré-requisitos e configuração de mapeamento
 
 - Antes da sincronização de contratos de projeto e de projetos, você deve sincronizar contas.
-- No conjunto de conexões, adicione um mapeamento de campo-chave de integração de **msdyn\_organizationalunits** para **msdyn\_name \[Name\]**. Talvez seja necessário primeiro adicionar um projeto ao conjunto e conexões. Para obter mais informações sobre chaves de integração, consulte a [Integração de dados do Dynamics 365](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration).
-- No conjunto de conexões, adicione um mapeamento de campo-chave de integração de **msdyn\_projects** para **msdynce\_projectnumber \[Project Number\]**. Talvez seja necessário primeiro adicionar um projeto ao conjunto e conexões. Para obter mais informações sobre chaves de integração, consulte a [Integração de dados do Dynamics 365](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration).
+- No conjunto de conexões, adicione um mapeamento de campo-chave de integração de **msdyn\_organizationalunits** para **msdyn\_name \[Name\]**. Talvez seja necessário primeiro adicionar um projeto ao conjunto e conexões. Para obter mais informações, consulte [Integrar dados em Common Data Service para Aplicativos](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
+- No conjunto de conexões, adicione um mapeamento de campo-chave de integração de **msdyn\_projects** para **msdynce\_projectnumber \[Project Number\]**. Talvez seja necessário primeiro adicionar um projeto ao conjunto e conexões. Para obter mais informações, consulte [Integrar dados em Common Data Service para Aplicativos](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator).
 - **SourceDataID** para contratos de projetos e projetos pode ser atualizado para um valor diferente ou removido do mapeamento. O valor do modelo padrão é **Project Service Automation**.
 - O mapeamento **PaymentTerms** deve ser atualizado de modo que reflita condições de pagamento válidas no Finance and Operations. Você também pode remover o mapeamento da tarefa do projeto. O mapa do valor padrão tem valores padrão para dados de demonstração. A tabela a seguir mostra os valores no Project Service Automation.
 

@@ -25,6 +25,7 @@ ms.lasthandoff: 09/24/2018
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>Descartar um ativo fixo usando uma fatura de texto livre
 
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 Este procedimento mostra como alienar um ativo fixo usando a fatura de texto livre.
 

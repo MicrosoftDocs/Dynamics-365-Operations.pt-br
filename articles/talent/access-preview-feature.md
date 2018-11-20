@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: eb99f169ada2a227ebe8e64ee56bbb38cdfda4e0
+ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
+ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -48,7 +48,8 @@ Você pode usar a configuração **Visualizar recursos** no Microsoft Dynamics 3
 1. Entre no Microsoft Dynamics 365 for Talent: Attract.
 2. No menu **Configuração** (símbolo de engrenagem) no canto superior direito, selecione **Configurações de admin**.
 3. Na guia **Gerenciamento de recursos**, selecione a opção próxima a **Recursos de visualização** para que se torne azul.
-4. Atualize seu navegador para começar a exibir os recursos novos. (Quaisquer usuários que já estão conectados verão os recursos na próxima vez que se conectarem, eles podem atualizar o navegador para consultar os recursos imediatamente.)
+4. Opcionalmente, você pode controlar recursos individuais habilitando/desabilitando recursos específicos nesta página.
+5. Atualize seu navegador para começar a exibir os recursos novos. (Quaisquer usuários que já estão conectados verão os recursos na próxima vez que se conectarem, eles podem atualizar o navegador para consultar os recursos imediatamente.)
 
 #### <a name="core-hr"></a>Core HR
 
@@ -61,12 +62,11 @@ Você pode usar a configuração **Visualizar recursos** no Microsoft Dynamics 3
 
 ## <a name="features-that-are-currently-in-preview"></a>Características que estão atualmente em exibição
 
-### <a name="attract"></a>Attract
+### <a name="attract"></a>Atrair
 
-- **Modelos de trabalho** – Agora você pode criar modelos de contratação de processo. Os usuários já podem personalizar o processo de contratação para determinado cargo. No entanto, agora eles podem criar modelos para o processo e selecionar o modelo apropriado quando um trabalho específico é criado. Portanto, este recurso ajuda a aerodinâmica do processo de configuração de trabalho.
-- **Site de carreira** – A versão atual do site de carreira apenas lista todas as posições abertas. Entretanto, mais recursos serão adicionados ao site no futuro. Trabalhos podem ser marcados como internos ou externos. Os usuários internos que se conectam ao site verão trabalhos internos e externos. Entretanto, usuários que não forem interno e usuário que não estiverem logados verão apenas trabalhos externos.
-- **Anúncio de emprego** – Agora você pode postar empregos no site de carreira.
-- **Postagem de trabalho no LinkedIn** – Agora você pode postar empregos no LinkedIn.
+- **Candidatos relevantes em um trabalho** – os recrutadores e gerentes de contratação podem facilmente ver quais candidatos podem ser os mais relevantes para os trabalhos entre todos os candidatos. Os 5 melhores candidatos são exibidos com base em na relevância de seu currículo/perfil para a descrição do trabalho.
+- **Trabalho relevantes** – agora os candidatos veem uma lista dos outros trabalhos relevantes a eles com base em seu currículo/perfil e nas descrições de trabalho.  No momento, isso é exibido para os candidatos depois que eles se candidatam como uma sugestão de outras oportunidades.
+- **Suporte a EEO/OFCCP** – os novos tipos de atividade permitem o uso de um formulário predefinido para a coleta de dados de EEO (Oportunidades Iguais de Emprego) e do OFCCP (Office of Federal Contract Compliance Program) do candidato.  Este é um formulário predefinido e não é editável.
 
     > [!NOTE]
     > Trabalhos que são lançados estão visíveis somente para clientes que assinam um ou vários produtos de emprego do LinkedIn. Caso contrário, os clientes veem um trabalho apenas se eles procurarem explicitamente por ele. Há um atraso quando os trabalhos são postados no LinkedIn. Um trabalho pode levar algumas horas para aparecer depois de ser postado do Attract.

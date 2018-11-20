@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 79479f6949c52830918598583ee91dd85d2d7ac3
+ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
+ms.openlocfilehash: 1b359939c867ba0a0c14859c83f0560afe6ba5be
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 10/12/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/01/2018
 
 ## <a name="view-settlements"></a>Exibir liquidações
 
-O botão **Exibir liquidações** no Painel de Ação fornece acesso rápido ao histórico de liquidações e mais informações sobre toda a transação de liquidação. Também é possível exibir transações adicionais relacionadas à transação selecionada, porque elas faziam parte da mesma liquidação ou porque são pagamentos criados no mesmo diário de pagamento.
+O botão **Exibir liquidações** no Painel de Ação fornece acesso rápido ao histórico de liquidações e informações detalhadas sobre a transação de liquidação. Também é possível exibir transações adicionais relacionadas à transação selecionada, porque elas faziam parte da mesma liquidação ou porque são pagamentos criados no mesmo diário de pagamento.
 
 1. Selecione **Contas a receber \> Todos os clientes**.
 2. Selecione um cliente que tem transações e, em seguida, no Painel da Ação, na guia **Cliente** , selecione **Transações**.
@@ -49,7 +49,7 @@ O botão **Exibir liquidações** no Painel de Ação fornece acesso rápido ao 
 
 ## <a name="global-transactions"></a>Transações globais
 
-O botão **Transações globais** foi adicionado à página do cliente. Este botão permite exibir todas as transações de um cliente em todas as entidades legais. A página de listagem **Transações de cliente** mostra apenas transações para entidades legais às quais o usuário tem acesso, com base nas configurações de segurança.
+O botão **Transações globais** também é exibido na página de listagem **Transações de cliente**. Este botão permite exibir todas as transações de um cliente em todas as entidades legais. A página de listagem **Transações de cliente** mostra apenas transações para entidades legais às quais o usuário tem acesso, com base nas configurações de segurança.
 
 A página de listagem mostra todas as transações de clientes que têm o mesmo ID de participante do cliente com o qual você começou. Por exemplo, se o cliente US-001 em uma entidade legal tiver o mesmo ID de participante do cliente DE-001 em outra entidade legal, todas as transações para os dois IDs do cliente serão exibidas.
 
@@ -67,13 +67,13 @@ O filtro para mostrar transações abertas foi substituído por um novo filtro q
 - **Todos** – Mostra todas as transações dos clientes selecionados (abertas e fechadas).
 - **Fechada** – Mostra somente as transações que foram completamente liquidadas e fechadas.
 - **Aberta** – Mostra somente as transações que não foram completamente liquidadas.
-- **Abrir a partir da data** – Mostra somente as transações que não foram totalmente liquidadas a partir da data especificada. Quando você selecionar esta opção, poderá alterar a data que é exibida ao lado do filtro. As transações que possuem um valor **Última data de liquidação** após a data especificada serão mostradas na lista, mesmo se essas transações forem totalmente liquidadas a partir da data atual. Porém, o saldo representa os saldos a partir da data atual, não a partir da data selecionada.
+- **Abrir incluindo a data de fechamento ou a data posterior** – mostra somente as transações que não foram totalmente liquidadas na data especificada ou depois dela. Quando você selecionar esta opção, poderá alterar a data que é exibida ao lado do filtro. As transações com um valor **Última data de liquidação** na data especificada ou depois dela serão mostradas na lista, mesmo se essas transações forem totalmente liquidadas a partir da data atual. Porém, o saldo representa os saldos a partir da data atual, não a partir da data selecionada.
 
-Um filtro também foi adicionado que permite ocultar transações de conversão de moeda. Basta marcar a a caixa de seleção **Ocultar reavaliações de moeda** .
+Marque a caixa de seleção **Ocultar reavaliações de moeda** para ocultar transações de conversão de moeda.
 
-## <a name="more-easily-modify-due-dates-and-discount-dates"></a>Modificar as datas de vencimento e as datas de desconto mais facilmente
+## <a name="modify-due-dates-and-discount-dates"></a>Modificar as datas de vencimento e as datas de desconto
 
-Você pode atualizar datas de vencimento e datas de descontos para transações de cliente abertas. Na versão 8.1, a experiência foi melhorada. Agora você pode adicionar datas de vencimento à pagina de listagem **Transações de cliente** . Ao clicar na data de vencimento da página de listagem **Transações de cliente** , você também pode modificar as datas de vencimento, datas de desconto, condições de pagamento e condições de desconto à vista na caixa de diálogo **Atualizar a data de vencimento e as datas de desconto à vista**.
+Você pode atualizar datas de vencimento e datas de descontos para transações de cliente abertas. Na versão 8.1, você pode adicionar datas de vencimento à pagina de listagem **Transações de cliente**. Ao clicar na data de vencimento da página de listagem **Transações de cliente** , você também pode modificar as datas de vencimento, datas de desconto, condições de pagamento e condições de desconto à vista na caixa de diálogo **Atualizar a data de vencimento e as datas de desconto à vista**.
 
 ### <a name="activate-the-feature"></a>Ativar o recurso
 
@@ -83,19 +83,19 @@ Para adicionar datas de vencimento à pagina de listagem **Transações de clien
 2. Na guia **Liquidações** , defina a opção **Mostrar a data de vencimento e permitir edição** como **Sim**.
 3. Para habilitar esse recurso, novos campos foram adicionados a transações de cliente. Esses campos serão preenchidos quando uma nova transação for concluída. Serão preenchidos também quando você abrir a caixa de diálogo **Atualizar a data de vencimento e as datas de desconto à vista** . Quando você definir a opção **Mostrar a data de vencimento e permitir edição** como **Sim**, você verá a caixa de diálogo **Atualizar informações de pagamento** .  Para atualizar imediatamente transações existentes, selecione **Atualizar todas as transações existentes**. Alternativamente, preencha os campos somente para novas transações, selecione **Continuar sem atualização**.
 
-A data de vencimento foi adicionada à página de listagem **Transações de cliente**, e você pode alterar as datas de vencimento e a data de desconto à vista para transações com mais facilidade.
+A data de vencimento foi adicionada à página de listagem **Transações de cliente**, para que você possa alterar com facilidade as datas de vencimento e a data de desconto à vista para transações.
 
 ### <a name="modify-the-payment-settings"></a>Alterar configurações de pagamento
 
-A página de listagem **Transações de cliente** mostra todas as transações de um cliente. Quando você seleciona a data de vencimento de uma transação, a caixa de diálogo **Atualizar a data de vencimento e as datas de desconto à vista** será exibida. Esta caixa de diálogo mostra a data base para cálculos de data de vencimento e descontos, a data de vencimento, condições de pagamento, condições de desconto à vista e as datas de desconto à vista.
+A página de listagem **Transações de cliente** mostra todas as transações de um cliente. Quando você seleciona a data de vencimento de uma transação, a caixa de diálogo **Atualizar a data de vencimento e as datas de desconto à vista** será exibida. Esta caixa de diálogo mostra a data base para cálculos de data de vencimento e descontos, a data de vencimento, as condições de pagamento, as condições de desconto à vista e as datas de desconto à vista.
 
 Cada campo tem um efeito diferente na transação ao editá-lo:
 
-- **Editar a data base:** As datas de vencimento e de desconto são alteradas como se a data base fosse a data do documento.
-- **Editar a data de vencimento:** somente a data de vencimento é alterada.
-- **Edite as datas de desconto:** Somente as datas de desconto são alteradas.
-- **Edite as condições de pagamento:** A data de vencimento é alterada, com base na data base e nas condições de pagamento.
-- **Edite as condições de desconto à vista:** Os descontos à vista são alterados, com base na data base e nas condições de desconto à vista.
+- **Editar a data base** - as datas de vencimento e de desconto são alteradas como se a data base fosse a data do documento.
+- **Editar a data de vencimento** - somente a data de vencimento é alterada.
+- **Editar as datas de desconto** - somente as datas de desconto são alteradas.
+- **Editar as condições de pagamento** - a data de vencimento é alterada, com base na data base e nas condições de pagamento.
+- **Editar as condições de desconto à vista** - os descontos à vista são alterados, com base na data base e nas condições de desconto à vista.
 
 Quando você terminar de editar as configurações de pagamento, selecione **Fechar** para salvar as alterações.
 

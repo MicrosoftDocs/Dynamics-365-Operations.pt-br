@@ -14,6 +14,8 @@
       href: dev-itpro/choose-deployment.md
     - name: Obter suporte para o Retail
       href: retail-support.md
+    - name: Perguntas frequentes sobre as atualizações do serviço One Version
+      href: ../fin-and-ops/get-started/one-version.md
 - name: ​Compreender o ciclo de vida da implementação​
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
@@ -145,8 +147,6 @@
       items:
         - name: Periféricos para varejo
           href: retail-peripherals-overview.md
-        - name: Periféricos de hardware de PDV testados pela Microsoft
-          href: microsoft-tested-pos-hardware-peripherals.md
         - name: Simulador de periférico para varejo
           href: dev-itpro/retail-peripheral-simulator.md
         - name: Conectar periféricos ao PDV
@@ -225,11 +225,13 @@
       href: assess-customer-product-profitability.md
     - name: Analisar o desempenho da loja
       href: store-performance-information.md
-    - name: 'Configurar análise de Recency, frequência e monetária (RFM)'
+    - name: 'Configurar análise de Recency, frequência e valor monetário (RFM)'
       href: set-up-rfm-analysis.md
 - name: Descontos e ajustes de preços
   items:
-    - name: Gerenciamento de preços de vendas do Retail
+    - name: Descontos de varejo
+      href: retail-discounts-overview.md
+    - name: Gerenciamento de preços de vendas de varejo
       href: price-management.md
     - name: Ajustes de preços e descontos
       href: price-adjustments-discounts.md
@@ -271,7 +273,7 @@
       href: ../supply-chain/pim/search-products-product-variants.md
 - name: Fidelidade
   items:
-    - name: Configurar programas de fidelidade do cliente
+    - name: Visão geral de fidelidade
       href: set-up-customer-loyalty-program.md
 - name: Estoque
   items:
@@ -307,6 +309,8 @@
       href: ../talent/create-job.md
 - name: Recursos regulatórios e de localização
   items:
+    - name: Integração do Canal de varejo
+      href: localizations/fiscal-integration-for-retail-channel.md
     - name: Leste Europeu
       items:
         - name: Faturas antecipadas para o Retail no Leste Europeu
@@ -315,6 +319,8 @@
           href: localizations/emea-eeu-petty-cash-for-retail.md
         - name: Faturas de clientes e ordens de venda de devolução do Retail em países do Leste Europeu
           href: localizations/emea-eeu-retail-invoices.md
+        - name: 'Diretrizes de implantação de caixas registradoras para a República Tcheca, Hungria e Polônia'
+          href: localizations/emea-eeu-deployment.md
     - name: França
       items:
         - name: Funcionalidade de caixa registradora
@@ -329,6 +335,10 @@
           href: localizations/apac-ind-loc-deployment-guidelines.md
         - name: Suporte para atualização e N-1 para a Índia
           href: localizations/apac-ind-n-1-for-india.md
+    - name: Itália
+      items:
+        - name: Integração da impressora fiscal
+          href: localizations/emea-ita-fpi-sample.md
     - name: Noruega
       items:
         - name: Funcionalidade de caixa registradora
@@ -490,6 +500,8 @@
           href: dev-itpro/pos-custom-control.md
         - name: Adicionar operações de PDV a layouts de PDV usando o designer da Grade de botões
           href: dev-itpro/add-POS-operations.md
+        - name: APIs do Retail POS
+          href: dev-itpro/POS-APIs.md
         - name: Extensão de pagamento do PDV
           href: dev-itpro/pos-payment-extension.md
         - name: Suporte a cartões-presente externos

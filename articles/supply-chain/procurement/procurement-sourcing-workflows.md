@@ -50,11 +50,12 @@ Os tipos de fluxo de trabalho a seguir estão disponíveis para Compras.
 | Fluxo de trabalho da solicitação de emprego adicionada pelo fornecedor  | Criar fluxos de trabalho da revisão e de aprovação para adicionar novos fornecedores por meio de solicitações de fornecedor. |
 
 ## <a name="creating-a-workflow"></a>Criação de um fluxo de trabalho
+
 Para criar um fluxo de trabalho, vá para Compras &gt; Configuração &gt; Fluxos de trabalho de compras e crie um novo fluxo de trabalho ao selecionar o tipo de fluxo de trabalho que deseja criar.  
 
 Na tela do fluxo de trabalho, você pode arrastar elementos de fluxo de trabalho para o designer e vincular os elementos a um fluxo. Os elementos de fluxo de trabalho devem ser configurados. Para os elementos do fluxo de trabalho de aprovação e de tarefa, você pode configurar qual participante deverá executar a ação.
-Tipos de participantes
-----------------------
+
+## <a name="types-of-participants"></a>Tipos de participantes
 
 Você pode atribuir uma etapa de aprovação aos grupos de participantes a seguir.
 
@@ -68,13 +69,12 @@ Você pode atribuir uma etapa de aprovação aos grupos de participantes a segui
 
 
 
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
-[Definir fluxos de trabalho de processos de negócios para requisições de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [Definir fluxos de trabalho de processos de negócios para requisições de compra](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Fluxo de trabalho de requisição de compra](purchase-requisitions-workflow.md)
+- [Fluxo de trabalho de requisição de compra](purchase-requisitions-workflow.md)
 
-[Integração de fornecedores](vendor-onboarding.md)
+- [Integração de fornecedores](vendor-onboarding.md)
 
 

@@ -3,7 +3,7 @@ title: Recursos de acessibilidade
 description: "Este tópico descreve a funcionalidade desenvolvida para ajudar usuários com diversas deficiências a usarem o Dynamics 365 for Finance and Operations, Dynamics 365 for Retail e Dynamics 365 for Talent."
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 01/23/2018
+ms.date: 11/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 834146c1a57cca0c02598290352c3ab8e1e4b7f5
+ms.sourcegitcommit: a67b51ced4bea11be258aed359a758d88294beb1
+ms.openlocfilehash: bc48aa5ccf50705ef0c5087608798875953fe888
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 11/05/2018
 
 ---
 
@@ -41,7 +41,7 @@ Para a maioria dos usuários, o uso diário do sistema envolve muita entrada de 
 
 Qualquer página que é acessada usando o menu Painel de Navegação, o painel à esquerda, também está disponível na caixa de **Pesquisa**. Pressione Alt+G para mover o foco para a caixa de **Pesquisa** e, em seguida, digite o nome ou a descrição da página.
 
-![“Conta bancária” inserida na caixa de Pesquisa](media/6d08b0be32808221023e2aa92d69fd70.png)
+!["Contas bancárias" inseridas na Caixa de pesquisa](media/6d08b0be32808221023e2aa92d69fd70.png  "\"contas bancárias\" inseridas na Caixa de pesquisa")
 
 Para obter mais informações, consulte [Pesquisa de navegação](navigation-search.md).
 
@@ -56,17 +56,21 @@ Cada ação que é fornecida em uma página pode ser acessada de um teclado pela
 
 Você deseja executar a ação **Log de notificação por email** exibida no grupo **Notificação por email** na guia **Ordem de venda** no Painel de Ação.
 
-![Ação Log de notificação por email no Painel de Ação](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg)
+![Ação Log de notificação por email no Painel de Ações](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg  "'Ação Log de notificação por email no Painel de Ações")
 
 Uma opção é usar o teclado. Pressione Ctrl+F6 para mover o foco para o Painel de Ação e, em seguida, pressione Tab repetidamente para se mover por todas as guias e ações, até focalizar a ação **Log de notificação por email**.
 
 No entanto, também é possível executar a ação de forma mais direta. Em qualquer lugar da página, pressione Ctrl+Apóstrofo (') para exibir a caixa de pesquisa para ações.
 
-![Caixa de pesquisa para ações](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg)
+![Caixa de pesquisa de ações](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg  "Caixa de pesquisa de ações")
 
 Na caixa de pesquisa, digite palavras que descrevam a ação. A ação será disponibilizada e você poderá executá-la diretamente. Por exemplo, digitando **email**, **notific** (uma palavra parcial) ou **log**, você pode ir para a funcionalidade de log de notificação por email.
 
-![“Email” inserido na caixa de pesquisa](media/image4.png) ![“Notific” inserido na caixa de pesquisa](media/image5.png) ![“Log” inserido na caixa de pesquisa](media/image6.png)
+!["Email" inserido na caixa de pesquisa](media/image4.png "\"email\" inserido na Caixa de pesquisa") 
+
+!["Notificação" inserida na caixa de pesquisa](media/image5.png "\"notificação\" inserida na Caixa de pesquisa")
+
+!["Log" inserido na caixa de pesquisa](media/image6.png "\"log\" inserido na Caixa de pesquisa")
 
 Quando terminar, pressione Ctrl+Apóstrofo novamente para retornar o foco para o campo com o qual você estava trabalhando antes de executar a pesquisa de ação.
 
@@ -78,7 +82,7 @@ No uso diário do sistema, nem todo campo será necessário para executar tarefa
 
 No entanto, talvez você note que alguns campos usados por você com frequência para executar tarefas não são incluídos na sequência de tabulação padrão. Nesse caso, se você usa o Narrador do Windows, pode usar as ações do teclado do Narrador do Windows para acessar esses campos e verificar seu conteúdo. Como alternativa, você pode ativar a opção **Sequência de tabulação avançada** na página **Opções**. Essa opção torna todos os campos editáveis e somente leitura parte da sequência de tabulação. Você poderá usar a personalização de página para criar uma sequência de tabulação personalizada e omitir campos que não precisam fazer parte da sequência de tabulação. Para obter mais informações sobre personalização, consulte [Personalizar a experiência do usuário](personalize-user-experience.md).
 
-![Opção de sequência de tabulação avançada](media/8c0f12bbb3f26032997ef0ba95d89b6a.png)
+![Opção "Sequência de tabulação avançada"](media/8c0f12bbb3f26032997ef0ba95d89b6a.png  "Opção \"Sequência de tabulação avançada\"")
 
 ## <a name="form-patterns"></a>Padrões de formulário
 
