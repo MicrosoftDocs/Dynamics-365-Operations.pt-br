@@ -1,0 +1,59 @@
+--- 
+title: "Criar novos usuários"
+description: "Os usuários são funcionários internos da sua organização, ou clientes e fornecedores externos, que precisam de acesso ao sistema para realizar seus trabalhos."
+author: maertenm
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: 
+ms.service: dynamics-ax-applications
+ms.technology: 
+ms.search.form: SysUserManagement, SysDataAreaSelectLookup, SysSecUserAddRoles, SysUserMSODSUserImport
+audience: Application User
+ms.reviewer: margoc
+ms.search.scope: Core, Operations
+ms.search.region: Global
+ms.author: maertenm
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 5936196d4772c8fcfcc8a00767d17268f6609cde
+ms.contentlocale: pt-br
+ms.lasthandoff: 09/29/2017
+
+---
+# <a name="create-new-users"></a>Criar novos usuários
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+Os usuários são funcionários internos da sua organização, ou clientes e fornecedores externos, que precisam de acesso ao sistema para realizar seus trabalhos. Os administradores do sistema podem realizar esse procedimento para adicionar usuários ao sistema. A empresa de dados demo usada para criar este procedimento é USMF. 
+
+
+## <a name="add-a-new-user"></a>Adicionar um novo usuário
+1. Vá para Administração do sistema > Usuários > Usuários.
+2. Clique em Novo.
+3. No campo ID de usuário, digite um valor.
+    * Insira um identificador exclusivo para o usuário. Um ID de usuário é necessário.  
+4. No campo Nome de usuário, digite um valor.
+    * Insira o nome do usuário.  
+5. No campo Domínio, digite um valor.
+    * Insira o domínio do usuário.  
+6. No campo Alias, digite um valor.
+    * Insira o alias do usuário.  
+7. No campo Empresa, clique no botão suspenso para abrir a pesquisa.
+8. Na lista, localize e selecione o PDV desejado.
+9. Na lista, clique no link na linha selecionada.
+    * Selecione a empresa do usuário  
+10. Clique em Atribuir funções.
+11. Na lista, localize e selecione o PDV desejado.
+12. Clique em OK.
+13. Clique em Salvar.
+
+## <a name="import-users"></a>Importar usuários
+1. Clique em Importar usuários.
+2. Na lista, marque a linha selecionada.
+3. Clique em Importar usuários.
+4. Clique em Fechar.
+
+
