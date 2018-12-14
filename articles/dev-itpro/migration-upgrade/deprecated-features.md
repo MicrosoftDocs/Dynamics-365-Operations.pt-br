@@ -3,7 +3,7 @@ title: Recursos removidos ou obsoletos
 description: "Este tópico descreve os recursos que já foram removidos ou foram planejados para remoção."
 author: sericks007
 manager: AnnBe
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 6750cfc62e2d151ddf760ff3dc36bab9c078b2d9
+ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
+ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -87,6 +87,19 @@ Recurso exportando arquivos eletrônicos gerados de declarações para pasta par
 | **Áreas afetadas do produto**         | Contabilidade, Imposto |
 | **Opção de implantação**              | Tudo |
 | **Status**                         | Removido a partir do Dynamics 365 for Finance and Operations 8.1 com atualização 20 da plataforma. |
+
+
+### <a name="profit-tax-register-wizard"></a>Assistente de registro de impostos de lucros
+Recurso para criar modelos para novos registros de impostos de lucro. Este recurso cria objetos X++ para os novos registros, que são criados como modelos com a lógica de cálculo adicional apropriado.
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | O recurso não é compatível com modelo de extensibilidade do Dynamics 365 for Finance and Operations. |
+| **Substituída por outro recurso?**   | Não |
+| **Áreas afetadas do produto**         | Imposto |
+| **Opção de implantação**              | Tudo |
+| **Status**                         | Removido a partir do Dynamics 365 for Finance and Operations 8.1 com atualização 20 da plataforma. |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>Dynamics 365 for Finance and Operations 8.0 com atualização 15 da plataforma
 Nenhum recurso foi removido ou substituído com esta versão. A atualização 15 da plataforma é cumulativa e contém recursos novos ou alterados das atualizações 13, 14 e 15 da plataforma.
@@ -993,6 +1006,17 @@ O configurador de produtos foi usado para configurar itens dinamicamente a parti
 | **Substituída por outro recurso?**   | Sim. A configuração baseada em restrições foi introduzida no Dynamics AX 2012 no qual já foi anunciada a depreciação do configurador de produtos nas versões futuras. A tecnologia de configuração baseada em restrições foi selecionada nos produtos mestres para ativar a configuração. Para saber mais, consulte [Criar um modelo de configuração de produto](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model). |
 | **Áreas afetadas do produto**         | Gerenciamento de informações do produto, Vendas e marketing  |
 | **Status**                         | Removido do Dynamics AX 7.0.      |
+
+### <a name="production-floor-app"></a>Aplicativo de produção de piso
+Este é o aplicativo para dispositivos de tablet executando Windows 8.1 RT e Windows 8.1 Pro.
+
+|   |  |
+|------------|--------------------|
+| **Motivo para a reprovação/remoção** | Com a mudança para um cliente baseado na Web, é possível entregar funcionalidade semelhante por meio do cliente Dynamics AX 7.0 nativo. O dispositivo Ficha de Trabalho fornece interface de usuário de piso de produção que é otimizado para fatores de formulário de toque e tablet. |
+| **Substituída por outro recurso?**   | Sim. O dispositivo da Ficha de Trabalho, que é uma peça nativa do Dynamics AX 7.0.                                                                           |
+| **Áreas afetadas do produto**         | Controle de produção                                                |
+| **Status**                         | Substituir: Uma data de remoção de armazenamento da Microsoft não foi definida para esse recurso ainda.                                                |
+
 
 ### <a name="rename-product-dimension"></a>Renomear dimensão do produto
 

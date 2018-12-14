@@ -17,14 +17,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c026a540fb7d30644d485b6a057c2c46bd7c091d
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
 # <a name="dual-currency"></a>Moeda dupla
+
+[!include [banner](../includes/banner.md)]
 
 A funcionalidade que foi introduzida no Microsoft Dynamics 365 for Finance and Operations versão 8.1 (outubro de 2018) permite que a moeda de relatório seja realocada e usada como uma segunda moeda contábil. Essa funcionalidade é chamada de *moeda dupla*. As alterações para a moeda dupla não podem ser desativadas por meio de uma chave ou de um parâmetro de configuração. Como a moeda de relatório é usada como uma segunda moeda contábil, a forma como a moeda de relatório é calculada na lógica de lançamento foi alterada.
 
@@ -67,8 +69,8 @@ Os módulos a seguir usam a moeda de relatório como uma segunda moeda contábil
 
 - [Contabilidade](#general-ledger)
 - [Relatórios financeiros](#financial-reporting)
-- [Contas a pagar](#accounts-payable/accounts-receivable)
-- [Contas a receber](#accounts-payable/accounts-receivable)
+- [Contas a pagar](#accounts-payable-and-accounts-receivable)
+- [Contas a receber](#accounts-payable-and-accounts-receivable)
 - [Gerenciamento de caixa e bancos](#cash-and-bank-management)
 - [Ativos fixos](#fixed-assets)
 
@@ -90,7 +92,7 @@ Um aprimoramento feito no módulo **Relatório financeiro** permite incluir valo
 
 Essa alteração está disponível por meio da configuração **Exibição de moeda** na definição de coluna. Se você selecionar **Moeda de relatório do razão**, os valores na coluna não serão convertidos. Em vez disso, serão relatados diretamente na contabilidade. Se quiser a coluna para mostrar os valores convertidos, selecione a opção **Converter em XXXX**, onde *XXXX* é a moeda de relatório que a coluna deverá mostrar. Nesse caso, os valores na moeda contábil serão convertidos na moeda selecionada usando a funcionalidade existente de conversão.
 
-### <a name="accounts-payableaccounts-receivable"></a>Contas a pagar/Contas a receber
+### <a name="accounts-payable-and-accounts-receivable"></a>Contas a pagar e Contas a receber
 
 Os módulos **Contas a pagar** e **Contas a receber** já acompanhavam valores de moeda de relatório. Entretanto, os valores não eram exibidos ou usados por diversos processos. Foram feitas as seguintes alterações:
 

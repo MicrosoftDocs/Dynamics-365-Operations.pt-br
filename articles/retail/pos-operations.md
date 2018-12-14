@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
+ms.sourcegitcommit: c9f9368dc3e0fb4ed63250889016d6abe7d15a8c
+ms.openlocfilehash: 557e43c05f7015b04380f45fbd69f58a7250829a
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/04/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -152,6 +152,7 @@ Observação: as operações listadas a seguir se aplicam à versão mais recent
 | 644 | Remover código do cupom | Solicitar que o usuário remova cupons selecionando-os em uma lista de cupons associados no momento à transação. | Sim | Sim | Não | Sim | Não |
 | 1057 | Reimprimir Z | Reimprimir o relatório Z do deslocamento anterior ou de um turno selecionado. | Sim | Sim | Sim | Não | Não |
 | 1216 | Insira uma nova senha | Esta operação permite ao usuário com a permissão de redefinição de senha redefinir outra senha de funcionário usando uma senha temporária. | Sim | Sim | Sim | Não | Não |
+| 1219 | Abrir URL no POS | Esta operação deixa um usuário abrir uma URL configurada por admin no POS. | Sim | Sim | Sim | Sim | Não | 
 | 109 | Devolver produto | Executar uma devolução de produtos individuais. O próximo produto verificado é mostrado como produto devolvido com quantidade e preço negativos. | Sim | Sim | Não | Sim | Não |
 | 114 | Transação de Devolução | Cancelar uma transação prévia pelo número de recibo para retornar um ou todos os produtos. | Sim | Sim | Sim | Sim§ | Não |
 | 1211 | Sangria para cofre | Realizar um depósito no cofre para mover o dinheiro da registradora para um cofre. | Sim | Sim | Sim | Sim | Não |

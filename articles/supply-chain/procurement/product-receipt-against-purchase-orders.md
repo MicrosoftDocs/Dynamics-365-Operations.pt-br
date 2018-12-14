@@ -1,9 +1,9 @@
 ---
-title: Recebimento de produtos contra ordens de compra
-description: "Este artigo descreve as diversas opções para registrar produtos como recebido."
+title: "​Recebimento de produtos contra ordens de compra​"
+description: "Este tópico descreve as diversas opções para registrar produtos como recebido."
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,20 +19,20 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
+ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
+ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
-# <a name="product-receipt-against-purchase-orders"></a>Recebimento de produtos contra ordens de compra
+# <a name="product-receipt-against-purchase-orders"></a>​Recebimento de produtos contra ordens de compra​
 
 [!include [banner](../includes/banner.md)]
 
 [!include [retail name](../includes/retail-name.md)]
 
-Este artigo descreve as diversas opções para registrar produtos como recebido.
+Este tópico descreve as diversas opções para registrar produtos como recebido.
 
 Recebimento de produtos é o processo de gravação que produtos foram pedidos foram recebidos, para que as linhas de pedido (PO) de compra podem ser processadas para faturamento. Em alguns casos, produtos passam por pré-registro, onde as informações adicionais do fornecedor são registradas antes que os produtos sejam recebidos. Quando os produtos chegam, primeiro são marcados como **Registrados**. Os produtos, em seguida, podem passar por outros processos, como gerenciamento de qualidade, antes de finalmente estarem marcados como **Recebido**.
 
@@ -46,8 +46,6 @@ Produtos que são recebidos em um depósito podem passar por inspeção de quali
 
 ## <a name="product-receipt"></a>Recebimento de produtos
 Frequentemente, a ação **Recebimento de produtos** na página **Ordens de compra** é usada para marcar os produtos como **Recebido** da OC. A página **Lançamento de recebimento de produto** tem várias opções para a quantidade que é considerada como recebido. Por exemplo, você pode definir o campo **Quantidade** para **Quantidade solicitada** ou **Receber quantidade agora**. Como alternativa, se um processo de recebimento de depósito tiver sido usado, você irá geralmente definir este campo para **Quantidade registrada**. Você pode modificar as quantidades em cada linha da ordem que será marcada como **Recebido**, para levar em conta as discrepâncias, como entrega excedente e entrega insuficiente. Durante o recebimento de produtos, você deve especificar um identificador de recebimento de produtos, que normalmente é uma referência à guia de remessa do fornecedor. Esse identificador é necessário para a contabilidade, porque ele permite verificações ou auditorias de guias contra o que foi recebido e o estoque contabilizado ou despesas de remessa do fornecedor.  
-
-Se um funcionário ordenar mercadorias usando uma requisição de compra, esse funcionário pode ser solicitado para confirmar o recebimento do produto. Você pode configurar esse comportamento usando um fluxo de trabalho. Você pode configurar as condições de fluxo de trabalho para que eles correspondam a seu processo de negócios.  
 
 POs podem ser criadas para produtos que não servem como estoque mas são considerados uma despesa. Esta categoria inclui linhas da ordem em que os produtos são marcados como **Não estocado** pelo grupo de modelos de estoque e também linhas de categorias de compras. Nesse caso, os itens não podem passar pelo registro de entrada e recebimento no depósito. Em vez disso, a ação **Remessa de produto** é usada para registrar o recebimento diretamente no pedido de compra e o recebimento é baseado na quantidade solicitada, e não uma quantidade registrada.  
 

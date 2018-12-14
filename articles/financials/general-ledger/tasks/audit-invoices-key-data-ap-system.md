@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: 70a7a1f7d7a8221a72addfbee1d21f813df4eb46
+ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
+ms.openlocfilehash: 946076d682a10becdc2c4a8baff7f52de7893119
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="audit-invoices-and-key-data-in-ap-system"></a>Auditar faturas e dados-chave no sistema de AP
@@ -35,34 +35,31 @@ Este procedimento usa a empresa de dados de demonstração USMF. A função gere
 
 
 ## <a name="create-a-purchase-order"></a>Crie uma ordem de compra
-1. Ir para Todas as ordens de compra.
-2. Clique em Novo.
-3. No campo Conta de fornecedor, clique no botão suspenso para abrir a pesquisa.
-4. No campo Conta de fornecedor, insira um valor.
-5. Clique em OK.
-6. Clique em Adicionar linha.
-7. No campo Número de item, digite um valor.
-8. No Painel de Ação, clique em Compra.
-9. Clique em Confirmar.
+1. Ir para **Todas as ordens de compra**.
+2. Clique em **Novo**.
+3. No campo **Conta de fornecedor**, insira um valor.
+4. Clique em **OK**.
+5. Clique em **Adicionar linha**.
+6. No campo **Número de item**, digite um valor.
+7. No Painel de Ação, clique em **Compra**.
+8. Clique em **Confirmar**.
 
 ## <a name="post-a-product-receipt"></a>Lançar um recebimento de produto
-1. No Painel de Ação, clique em Receber.
-2. Clique em Recebimento de produtos.
-3. Na lista, marque a linha selecionada.
-4. No campo Recebimento de produtos, digite um valor.
-5. Clique em OK.
+1. No Painel de Ação, clique em **Receber**.
+2. Clique em **Recebimento de produtos**.
+3. No campo **Recebimento de produtos**, digite um valor.
+4. Clique em **OK**.
 
 ## <a name="record-and-match-a-vendor-invoice-to-a-product-receipt"></a>Registre e a concilie uma fatura de fornecedor com um recebimento de produto
-1. No Painel de Ação, clique em Fatura.
-2. Clique em Fatura.
-3. No campo Número, digite um valor.
-4. Clique no padrão de: Quantidade encomendada para abrir a caixa de diálogo de descarte.
-5. No campo Quantidade padrão para linhas, selecione uma opção.
-6. Clique em OK.
-7. Clique em Sim.
-8. Clique em Conciliar recebimentos de produtos.
-9. Clique em OK.
-10. No Painel de Ação, clique em Revisar.
-11. Clique em Detalhes da conciliação.
+1. No Painel de Ação, clique em **Fatura > Fatura**.
+2. No campo **Número**, digite um valor.
+3. Clique no **padrão de: Quantidade encomendada** para abrir a caixa de diálogo de descarte.
+4. No campo **Quantidade padrão para linhas**, selecione uma opção.
+5. Clique em **OK**.
+6. Clique em **Sim**.
+7. Clique em **Conciliar recebimentos de produtos**.
+8. Clique em **OK**.
+9. No Painel de Ação, clique em **Revisar**.
+10. Clique em **Detalhes da conciliação**.
 
 

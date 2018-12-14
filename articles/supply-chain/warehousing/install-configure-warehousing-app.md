@@ -3,7 +3,7 @@ title: "Instalação e configuração do Microsoft Dynamics 365 for Finance and 
 description: "Este tópico descreve como instalar e configurar o Microsoft Dynamics 365 for Finance and Operations - Warehousing."
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 11/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
-ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
+ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
+ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
 ms.contentlocale: pt-br
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -74,13 +74,12 @@ Para habilitar o aplicativo a interagir com o servidor específico do Finance an
 ## <a name="create-and-configure-a-user-account-in-finance-and-operations"></a>Criar e configurar uma conta de usuário no Finance and Operations
 Para habilitar o Finance and Operations para usar o aplicativo Azure AD, é necessário concluir as seguintes etapas de configuração:
 
-1.  Criar uma nova conta de usuário no Azure Active Directory para o locatário do Finance and Operations. A finalidade dessa conta de usuário é acessar o serviço personalizado específico do aplicativo warehousing, que o servidor do Finance and Operations expõe. Após concluir esta etapa, você terá as credenciais do usuário de WMDP, que consiste em um endereço de email e senha do WMDP. Para obter mais informações sobre as etapas básicas para adicionar usuários ao Azure AD e Finance and Operations, consulte este tutorial: [Inscrever-se para uma assinatura do Finance and Operations](../../dev-itpro/dev-tools/sign-up-preview-subscription.md).
-2.  Crie um usuário do Finance and Operations que corresponda às credenciais do usuário do aplicativo warehousing.
+1.  Crie um usuário do Finance and Operations que corresponda às credenciais do usuário do aplicativo warehousing.
     1.  No Finance and Operations, vá para **Administração do sistema** &gt; **Comum** &gt; **Usuários**.
     2.  Crie um novo usuário.
     3.  Atribua o usuário do dispositivo móvel do Warehouse, conforme mostrado na seguinte captura de tela. [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
-3.  Associe o aplicativo Azure Active Directory ao usuário do aplicativo Warehousing.
+2.  Associe o aplicativo Azure Active Directory ao usuário do aplicativo Warehousing.
     1.  No Finance and Operations, vá para **Administração do sistema** &gt; **Configurar** &gt; **aplicativos Azure Active Directory**.
     2.  Crie uma nova linha.
     3.  Insira o **ID do Cliente** (obtido na última seção), forneça um nome e selecione o usuário criado anteriormente. Recomendamos que você marque todos os dispositivos, de forma que você possa remover facilmente o acesso ao Finance and Operations desta página, em caso de perda. [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)

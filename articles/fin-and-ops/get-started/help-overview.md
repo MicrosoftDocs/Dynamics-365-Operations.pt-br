@@ -1,9 +1,9 @@
 ---
 title: Sistema de ajuda do Finance and Operations
-description: "Este tópico fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations. Também explica como você pode fornecer a documentação personalizada e treinamento a sua organização."
+description: "Este tópico fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations."
 author: margoc
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 11/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 75be5c5f675885aececb8ac0b25e699882ea77ab
-ms.openlocfilehash: dc2a3d49041acf42814149eb71d4cc021bdad838
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: dc057faf3cd08ea1c939d0cc35ae404bde59e514
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/17/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/17/2018
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations. Também explica como você pode fornecer a documentação personalizada e treinamento a sua organização. 
+Este tópico fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations. 
 
 > [!NOTE] 
 > Os produtos a seguir estão intimamente relacionados: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail e Dynamics 365 for Talent. Todos os 3 produtos podem conter a mesma funcionalidade. Como resultado, para tópicos relacionados principalmente a varejo, o nome do produto será Dynamics 365 for Retail; para tópicos relacionados principalmente a talentos, o nome do produto será Dynamics 365 for Talent; para tópicos relacionados ao produto principal, o nome do produto será Dynamics 365 for Finance and Operations. Os tópicos redigidos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
@@ -48,8 +48,6 @@ Finance and Operations inclui um sistema de Ajuda baseado em dois componentes pr
 Você pode acessar a ajuda do painel de ajuda em qualquer produto que esteja usando. A captura de tela a seguir mostra o Finance and Operations.
 
 ![Painel de Ajuda](./media/help-pane-ops-task-guides.png)
-
-Este tópico descreve o sistema de Ajuda e explica como você pode criar documentação personalizada e recursos de treinamento para sua organização.
 
 > [!IMPORTANT]
 > **Guias de tarefas** não estão disponíveis no momento para Retail ou no painel da ajuda do Talent (algumas guias de tarefas estão disponíveis no painel Introdução do Talent). A ajuda de procedimento está disponível no site docs.microsoft.com ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) para o Retail e o Talent.
@@ -83,7 +81,7 @@ Para assinar um feed RSS de todas as atualizações do conteúdo de Operações 
 ### <a name="give-feedback"></a>Forneça comentários 
 Gostamos de saber a opinião dos clientes. Você pode fazer comentários, ou sugerir alterações em nosso conteúdo no GitHub. Para obter mais informações sobre o nosso sistema de feedback, consulte [esta postagem de blog](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs).
 
-##### <a name="leave-us-feedback"></a>Deixe seus comentários 
+#### <a name="leave-us-feedback"></a>Deixe seus comentários 
 Se você tiver dúvidas ou comentários sobre um tópico, deixe-nos um comentário na parte inferior da página.  
 
 1. Clique em **Comentários** para chegar aos comentários na parte inferior da página e depois clique em **Comentários sobre o produto** ou **Entre para fazer comentários sobre a documentação**.
@@ -93,8 +91,6 @@ Se você tiver dúvidas ou comentários sobre um tópico, deixe-nos um comentár
 2. Comece a digitar seu comentário e clique em **Enviar comentários**.
 
 ![Postar comentário](./media/feedback.png)
-
-
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>Sugerir uma alteração ou contribuir com conteúdo no GitHub
 Para sugerir uma alteração, é preciso ter uma conta do GitHub, e assinar um contrato de licença de contribuinte.  Após você enviar uma solicitação de pull, examinaremos as alterações propostas. Se necessário, faremos uma análise interna e lhe daremos uma resposta.  
@@ -122,22 +118,7 @@ Para iniciar a experiência guiada, interativa, clique em **Iniciar guia de tare
 > [!IMPORTANT] 
 > Os dados inseridos quando você executa um guia de tarefas são reais. Se você estiver em um ambiente de produção, os dados serão inseridos na empresa que você está usando atualmente.
 
-### <a name="it-all-begins-with-task-recorder"></a>Tudo começa com o Gravador de Tarefas
-
-Guias de tarefas são criados usando o Gravador de Tarefas. Quando você utiliza o Gravador de Tarefas, todas as ações que você realiza na IU do Finance and Operations (como clicar em menus, alterar configurações, e inserir dados) são registradas. As etapas que você registra são chamadas coletivamente de gravação de tarefa. Como explicamos na seção anterior, as gravações de tarefas podem ser exibidas no painel de Ajuda e executadas como guias de tarefas. No entanto, existem outras maneiras de utilizar gravações de tarefas:
-
--   **Salvar gravações de tarefas ao BPM** – Você pode salvar uma gravação de tarefa à uma linha de uma hierarquia em uma biblioteca do BPM em LCS. Quando você salva uma gravação de tarefa ao BPM, um fluxograma é gerado e exibido, junto com as etapas da gravação. 
-
-    > [!Note]
-    > Para exibir uma gravação de tarefas no painel de Ajuda do Finance and Operations e executá-la como um guia de tarefas, você deverá salvar a gravação em uma biblioteca do BPM.
-    
--   **Salvar gravações de tarefa como documentos Word** – Ao salvar uma gravação de tarefa como um documento Microsoft Word, você pode facilmente produzir guias de treinamento imprimíveis para sua organização.
-
-Para obter mais informações sobre o Gravador de Tarefas, consulte [Gravador de tarefas no Finance and Operations](../../dev-itpro/user-interface/task-recorder.md).
-
-### <a name="creating-customized-task-recordings"></a>Criando gravações de tarefas personalizadas
-
-Você pode criar suas próprias gravações de tarefas, ou você pode baixar e personalizar gravações de tarefas que a Microsoft oferece. Consequentemente, você pode criar Ajuda personalizada para sua organização que reflete sua implementação específica do Finance and Operations. Observação: Para exibir uma gravação de tarefas no painel de Ajuda do Finance and Operations e executá-la como um guia de tarefas, você deve salvar a gravação à uma biblioteca do LCS. Se for um parceiro e promover uma biblioteca como uma biblioteca corporativa, e incluí-la em uma solução, ela ficará disponível para os clientes. Para obter instruções completas, consulte [Utilizando gravações de tarefas para criar documentação ou treinamento](../../dev-itpro/user-interface/task-recorder.md).
+Você pode usar o Gravador de tarefas para criar suas próprias guias de tarefas personalizadas. Para obter mais informações [Criar documentação ou treinamento usando gravações de tarefas](../../dev-itpro/user-interface/task-recorder-training-docs.md).
 
 ## <a name="in-product-help"></a>Ajuda sobre produto
 Para acessar o conteúdo de Ajuda dentro do Finance and Operations, clique no ícone **Ajuda** (**?**) e escolha Ajuda ou pressione Ctrl+Shift+?. Em ambos os casos, o painel de Ajuda abre. No painel de Ajuda, você pode acessar artigos ou guias de tarefas. 
@@ -184,6 +165,11 @@ Assim que um Administrador do sistema concluir essas etapas, você pode abrir o 
 Os guias da tarefa são liberados em bibliotecas com "Todos os idiomas" no título. No Finance and Operations, para obter ajuda da guia de tarefas localizada, verifique se você está conectado à uma biblioteca apropriada. O idioma que aparece em um guia de tarefas é controlado para cada usuário pelas configurações de Idioma em **Opções** &gt; **Preferências**. 
 -   Se um guia de tarefas foi traduzido, quando você abrir esse guia de tarefas, todo o texto do guia de tarefas será exibido no idioma selecionado.
 -   Se um guia de tarefas ainda não foi traduzido, quando você abri-lo, apenas algumas partes do texto (o texto dos controles) aparecerão em seu idioma selecionado.
+
+## <a name="creating-custom-help"></a>Criando ajuda personalizada
+Você pode criar ajuda para seus usuários criando guias de tarefas personalizados, ou conectar seu próprio site ao painel de ajuda. Para obter detalhes, consulte: 
+- [Como criar um registro de tarefas para usar como documentação ou treinamento](../../dev-itpro/user-interface/task-recorder.md).
+- [Crie a ajuda personalizada para Finance and Operations (white paper)](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>Recursos adicionais
 

@@ -3,7 +3,7 @@ title: Home page do planejamento mestre
 description: "O Planejamento mestre permite que as empresas determinem e equilibrem a necessidade futura de matérias-primas e a capacidade de cumprir as metas da empresa."
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 12/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
 ms.contentlocale: pt-br
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -58,18 +58,18 @@ O mapa de aprendizado a seguir mostra os principais conceitos e tarefas que comp
 
 ## <a name="quick-links"></a>Links Rápidos
 
-|      |   |
-|------|---|
-|        [Planos mestres](master-plans.md)       |     [Gerar um plano restrito](./tasks/constrained-plan.md)  |
-| [Criar um plano de materiais para coprodutos](./tasks/create-material-plan-co-products.md)   |  [Planejamento mestre e funcionalidade multissite](master-plan-multisite-functionality.md)  |
-| [Criar um plano intercompanhia](./tasks/create-intercompany-plan.md) | [Visão geral da previsão de demanda](introduction-demand-forecasting.md)  | 
-|[Chaves de redução](reduction-keys.md)| [Fundamentos de planejamento mestre](https://mbspartner.microsoft.com/AX/CourseOverview/1275) (eLearning) (requer uma conta do CustomerSource)     |
-|  [Planejamento mestre para processos de fabricação](https://mbspartner.microsoft.com/D365E/CourseOverview/1514) (eLearning) (requer uma conta do CustomerSource) | [Planejamento mestre intercompanhia](https://mbspartner.microsoft.com/AX/CourseOverview/1276) (eLearning) (requer uma conta do CustomerSource)|
+- [Planos mestres](master-plans.md)  
+- [Gerar um plano restrito](./tasks/constrained-plan.md)
+- [Criar um plano de materiais para coprodutos](./tasks/create-material-plan-co-products.md)
+- [Planejamento mestre e funcionalidade multissite](master-plan-multisite-functionality.md)
+- [Criar um plano intercompanhia](./tasks/create-intercompany-plan.md)
+- [Visão geral da previsão de demanda](introduction-demand-forecasting.md)
+- [Chaves de redução](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>Recursos adicionais
 
 ### <a name="roadmaps"></a>Roteiros
-Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para conferir os novos recursos que foram liberados e os novos recursos em desenvolvimento.
+Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para conferir os novos recursos que foram lançados e os novos recursos em desenvolvimento.
 
 ### <a name="blogs"></a>Blogs
 Você encontra opiniões, notícias e outras informações sobre Planejamento mestre e outras soluções no [Blog da equipe de P&D de fabricação do Dynamics AX](https://blogs.msdn.microsoft.com/axmfg) e no [Blog da equipe de P&D de Gerenciamento da Cadeia de Fornecedores no Dynamics AX](https://blogs.msdn.microsoft.com/dynamicsaxscm).

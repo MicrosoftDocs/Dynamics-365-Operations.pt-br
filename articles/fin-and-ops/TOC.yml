@@ -8,7 +8,7 @@
           items:
             - name: ​Inscrever-se em uma assinatura Preview​
               href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/fin-and-ops/toc.json
-            - name: ​Implantar um ambiente de demonstração​
+            - name: Implantar um ambiente de demonstração
               href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/fin-and-ops/toc.json
             - name: Comparação de recursos de nuvem e locais
               href: get-started/cloud-prem-comparison.md
@@ -46,8 +46,12 @@
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: Recursos do AX 2012 que foram adiados
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
-            - name: ​Recursos não implementados em implantações locais​
+            - name: Recursos não implementados em implantações locais
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations versão 8.1.3 (dezembro de 2018)
+              href: get-started/whats-new-changed-8-1-3.md
+            - name: Platform update 23 (dezembro de 2018)
+              href: get-started/whats-new-platform-update-23.md
             - name: Platform update 22 (novembro de 2018)
               href: get-started/whats-new-platform-update-22.md
             - name: Finance and Operations versão 8.1.2 (novembro de 2018)
@@ -138,7 +142,7 @@
               href: get-started/user-defined-fields.md
             - name: Incorporar aplicativos PowerApps
               href: get-started/embed-power-apps.md
-            - name: Localizar informações​ usando pesquisas
+            - name: Localizar informações usando pesquisas
               href: get-started/use-lookups-to-find-information.md
             - name: Alterar a data de uma sessão
               href: organization-administration/tasks/change-date-session.md
@@ -152,6 +156,8 @@
               href: get-started/help-overview.md
             - name: Conectar o sistema de Ajuda
               href: get-started/help-connect.md
+            - name: Conectar um site de ajuda personalizado
+              href: get-started/help-custom.md
             - name: Exibir e exportar descrições de campos
               href: get-started/view-export-field-descriptions.md
             - name: Guias de tarefas e gravador de tarefas
@@ -1243,7 +1249,9 @@
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
             - name: Redefinir o data mart dos relatórios financeiros
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
-    - name: Recursos de localização e regulatórios
+        - name: Mensagens eletrônicas
+          href: ../financials/general-ledger/electronic-messaging.md
+    - name: Recursos regulatórios e de localização
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
         - name: Austrália
@@ -2222,12 +2230,16 @@
               href: ../financials/localizations/rus-transactions-settlement-date.md
             - name: Faturas para pagamento
               href: ../financials/localizations/rus-invoice-payment.md
+            - name: Relatórios financeiros
+              href: ../financials/localizations/rus-financial-reports.md
+            - name: Criar um registro de compras
+              href: ../financials/localizations/rus-sales-books-purchase-books.md
         - name: Arábia Saudita
           href: ../financials/localizations/saudi-arabia.md
           items:
             - name: Imposto
               href: ../financials/localizations/apac-sau-sales-tax.md
-            - name: ​Relatório Zakat para a Arábia Saudita​
+            - name: Relatório Zakat para a Arábia Saudita
               href: ../financials/localizations/emea-sau-zakat-reporting.md
         - name: Cingapura
           href: ../financials/localizations/singapore.md
@@ -2598,7 +2610,7 @@
               href: ../dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
         - name: Relatório e impressão de documento
           items:
-            - name: ​Visão geral dos ​Visão geral do Document Reporting Services
+            - name: ​Visão geral do Document Reporting Services
               href: ../dev-itpro/analytics/document-reporting-services.md?toc=/fin-and-ops/toc.json
             - name: Configurar o SSRS para implantações locais
               href: ../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json
@@ -2741,6 +2753,8 @@
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
                 - name: Importar configurações do Lifecycle Services
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: Importar configurações do ER (Relatório eletrônico) dos SCR (Serviços de configuração regulatória)
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md
                 - name: Baixar configurações do Lifecycle Services
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
                 - name: Importar configurações
@@ -4145,10 +4159,12 @@
               href: ../supply-chain/warehousing/change-warehouse-mobile-device-displays.md
             - name: Placa de licença misturada receptora em um dispositivo móvel
               href: ../supply-chain/warehousing/mixed-license-plate-receiving.md
-            - name: ​Configurar para exibir lotes mais antigos no depósito em um dispositivo móvel​
+            - name: Configurar para exibir lotes mais antigos no depósito em um dispositivo móvel
               href: ../supply-chain/warehousing/display-older-batches-within-warehouses.md
-            - name: ​Escolher o lote mais antigo em um dispositivo móvel​
+            - name: Escolher o lote mais antigo em um dispositivo móvel
               href: ../supply-chain/warehousing/pick-oldest-batch.md
+            - name: Processar estrutura de guia
+              href: ../supply-chain/warehousing/process-guide-framework.md
         - name: Upgrade e migração
           items:
             - name: Fazer upgrade de processos de gerenciamento de depósito do Microsoft Dynamics AX 2012 para o Finance and Operations

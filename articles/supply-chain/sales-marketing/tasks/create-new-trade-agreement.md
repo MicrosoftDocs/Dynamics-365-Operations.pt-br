@@ -3,7 +3,7 @@ title: Criar um novo contrato comercial
 description: "Este procedimento mostra como criar um contrato comercial no qual você registra um novo preço de venda de produtos que você combinou com um cliente específico."
 author: omulvad
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/16/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eb7a945243387f85ec5f38cc3b969d8d030ff25
+ms.sourcegitcommit: f7df0a91948a494465fbd55af99757e3890357ce
+ms.openlocfilehash: e132cd20437b7929e81fcaa123d70bb57fb320c8
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="create-a-new-trade-agreement"></a>Criar um novo contrato comercial
@@ -66,4 +66,7 @@ Este procedimento mostra como criar um contrato comercial no qual você registra
     * Revise os detalhes do contrato comercial de preço que acabou de criar.    
 5. Feche a página.
 
+## <a name="additional-resources"></a>Recursos adicionais
+### <a name="community-blogs"></a>Blogs da comunidade
+- [Preços de venda no Dynamics 365 for Finance and Operations](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 

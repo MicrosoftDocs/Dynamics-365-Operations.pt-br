@@ -8,7 +8,7 @@
       href: get-started/before-you-buy.md
     - name: ​Inscrever-se em uma assinatura Preview​
       href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
-    - name: ​Implantar um ambiente de demonstração​
+    - name: Implantar um ambiente de demonstração
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: Opções de implantação
       href: dev-itpro/choose-deployment.md
@@ -47,14 +47,18 @@
       href: dev-itpro/updating-environments.md
     - name: Problemas de teste e desempenho
       href: dev-itpro/retail-implementation-testing-performance.md
+- name: Gerenciamento de ordem distribuído (GOD)
+  href: dom.md
 - name: Pagamentos
   items:
     - name: Formas de pagamento
       href: payment-methods.md
     - name: 'Configuração, autorização e captura de cartão de crédito'
       href: ../financials/accounts-receivable/credit-card-authorizations.md
-    - name: Configurar denominações de caixa do POS
+    - name: Configurar denominações de caixa do PDV
       href: cash-denominations.md
+    - name: Configurar cenários de fatura de pagamento
+      href: payinvoice.md
     - name: Perguntas frequentes sobre pagamentos
       href: dev-itpro/payments-retail.md
 - name: Ordens de compra
@@ -79,7 +83,7 @@
       href: statement-posting-EOD.md
     - name: Configurar os parâmetros do Retail que afetam demonstrativos de varejo
       href: tasks/parameter-configurations-retail-statements.md
-    - name: Configurar configurações de método de pagamento que afetam demonstrativos de varejo
+    - name: Definir configurações de método de pagamento que afetam demonstrativos de varejo
       href: tasks/payment-configurations-retail-statements.md
     - name: Configurar e executar um trabalho para calcular demonstrativos
       href: tasks/run-job-calculate-statements.md
@@ -125,7 +129,7 @@
       href: assortments.md
     - name: Configurar lojas online
       href: online-stores.md
-    - name: Configurar e instalar uma Retail hardware station
+    - name: Configurar e instalar uma Estação de Hardware do Retail
       href: retail-hardware-station-configuration-installation.md
     - name: Horário e presença no Retail
       href: retail-time-attendance.md
@@ -213,6 +217,8 @@
       href: Order-fulfillment-POS-setup.md
     - name: Mostrar notificações de ordem no PDV
       href: Notifications-POS.md
+- name: Configurar e processar uma troca em uma ordem de devolução
+  href: orderexchanges.md
 - name: Monitoramento e análise
   items:
     - name: Monitorar o desempenho de vendas e margem
@@ -235,6 +241,8 @@
       href: price-management.md
     - name: Ajustes de preços e descontos
       href: price-adjustments-discounts.md
+    - name: Aplicar vários descontos de varejo em um produto
+      href: Apply-multiple-retail-discounts.md
     - name: Determinar a combinação ideal de descontos sobrepostos
       href: optimal-combination-overlapping-discounts.md
     - name: Definir descontos específicos do canal
@@ -405,7 +413,7 @@
       href: tasks/design-relationships-between-organizational-units.md
     - name: Gerenciar classificações
       href: tasks/manage-assortments-2016-11.md
-    - name: Baixar estações de hardware​ usando o autoatendimento
+    - name: Baixar estações de hardware usando o autoatendimento
       href: tasks/perform-self-service-download-hardware-station.md
     - name: Lançar vendas e pagamentos online
       href: tasks/posting-online-sales-payments.md
@@ -458,7 +466,7 @@
           href: dev-itpro/retail-device-activation.md
         - name: ​Ajuda do PDV em Nuvem seguro em ambientes compartilhados
           href: dev-itpro/secure-retail-cloud-pos.md
-        - name: Configuração e instalação da Retail Hardware Station
+        - name: Configuração e instalação da Estação de Hardware do Retail
           href: retail-hardware-station-configuration-installation.md
         - name: Implantação em massa dos componentes de autoatendimento do Retail
           href: dev-itpro/retail-mass-deployment.md
@@ -486,9 +494,11 @@
       href: dev-itpro/extension-resource-localization.md
     - name: Extensibilidade de ponto de venda
       items:
-        - name: ​Layouts de tela do Retail POS​
+        - name: Layouts de tela do Retail POS
           href: pos-screen-layouts.md
-        - name: ​Instalar o designer de layout do PDV​
+        - name: Abrir URL no POS
+          href: Open-URL-in-POS.md
+        - name: Instalar designer de layout do POS
           href: install-pos-layout-designer.md
         - name: Retail Modern POS no modo offline
           href: dev-itpro/retail-modern-pos-offline.md
@@ -508,6 +518,10 @@
           href: dev-itpro/gift-card.md
         - name: Criar e aplicar marcas ao aplicativo Retail Experience
           href: dev-itpro/create-retail-experience-app.md
+        - name: Instalar o app POS Hybrid no Android e no iOS
+          href: dev-itpro/hybridApp.md
+        - name: Substituir o manipulador de solicitação do POS
+          href: dev-itpro/pos-handler.md
     - name: Estação de hardware e extensibilidade
       href: dev-itpro/hardware-station-extensibility.md
     - name: Extensibilidade do Retail Server
@@ -534,7 +548,7 @@
           href: dev-itpro/add-customer-preference-channel.md
         - name: Adicionar propriedades a ordens de venda
           href: dev-itpro/add-properties-sales-order.md
-        - name: Extensibilidade​ e disparadores do CRT
+        - name: Extensibilidade e disparadores do CRT
           href: dev-itpro/commerce-runtime-extensibility-trigger.md
         - name: Bloquear transações usando disparadores
           href: dev-itpro/trigger-example-blocking-transaction.md
@@ -560,11 +574,15 @@
           href: dev-itpro/deploy-payment-connector.md
         - name: Criar mensagens de erro localizadas personalizadas para extensões de terminais de pagamento
           href: dev-itpro/payment-custom-error-messages.md
-        - name: ​Criar instaladores do Windows para conectores de pagamento​
+        - name: Criar instaladores do Windows para conectores de pagamentos
           href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: Uso de dados do pagamento
+          href: payment-connector-data-fields.md
     - name: SDK do Retail
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Próximas alterações no SDK do Retail
+          href: dev-itpro/UpcomingSDKChanges.md
         - name: Mesclar os sistemas de compilação do Retail e do Finance and Operations
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: Exemplos de extensibilidade do SDK do Retail
