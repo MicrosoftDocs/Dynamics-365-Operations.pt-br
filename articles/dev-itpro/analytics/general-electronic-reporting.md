@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 185d1adc88a29bc3ae722ae2c6f0a2769428bce3
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -164,13 +164,23 @@ Para aprender a registrar um novo provedor de ER, execute a guia de tarefas **ER
 
 #### <a name="repository"></a>Repositório
 
-Um repositório armazena as configurações de RE. Dois tipos de repositórios de ER têm suporte no momento, **Recursos de operações** e **Projeto de LCS**.
+Um repositório armazena as configurações de RE. Quatro tipos de repositórios ER são atualmente compatíveis: **Recursos de operação**, **Projeto LCS (LCS)**, **Sistema de arquivo** e **Serviços de configuração regulatório (RCS)**.
 
 Um repositório de **Recursos de operações** fornece acesso à lista de configurações que a Microsoft, como provedora de configuração do ER, libera como parte da solução Finance and Operations. Essas configurações podem ser importadas para a instância atual do Finance and Operations e usadas para relatórios eletrônicos. Elas também podem ser usadas para localizações e personalizações adicionais.
 
 Um repositório de **projeto do LCS** fornece acesso à lista de configurações de projeto do LCS (biblioteca de ativos do projeto do LCS) que foi selecionado na fase de registro do repositório. O ER permite carregar configurações compartilhadas da instância atual do Finance and Operations para um repositório específico do **Projeto do LCS**. Você também pode importar configurações do repositório de um **Projeto LCS** na instância do Finance and Operations atual.
 
-Os repositórios do **projeto do LCS** necessários podem ser registrados individualmente para cada provedor de configuração da instância atual do Finance and Operations. Cada repositório pode ser dedicado a um provedor de configuração específico.
+Um repositório do **Sistema de arquivos** fornece acesso à lista de definições que estão localizadas como arquivos xml na pasta específica do sistema de arquivos local do computador onde o serviço AOS está hospedado. A pasta necessária está selecionada no estágio de registro do armazenamento. Você também pode importar configurações de um repositório de **Sistema de arquivos** na instância do Finance and Operations atual. Note que esse tipo de armazenamento está acessível nos ambientes a seguir Dynamics 365 for Finance and Operations:
+- ambientes armazenados em nuvem implantados para fins de desenvolvimento (contendo modelos de teste de pacotes integrados)
+- ambientes localmente implantados (implantação LBD ou no local)
+
+Visite a página [Configurações de Importação de relatório eletrônico (ER)](/electronic-reporting-import-ger-configurations.md) para obter mais detalhes sobre isso.
+
+Um repositório de **Instância do RCS** fornece acesso à lista de configurações de uma instância RCS específica que foi selecionada na fase de registro do repositório. O ER permite a importação concluída ou configurações compartilhadas da instância selecionada de RCS na instância Finance and Operations e usado para relatório eletrônico.
+
+Visite a página [Configurações de Importação de relatório eletrônico (ER) de Serviços de Configuração Regulatória (RCS)](/rcs-download-configurations.md) para obter mais detalhes sobre isso.
+
+Os repositórios de **Projeto LCS**, **Sistema de arquivo** e **Serviços de configuração regulatória (RCS)** podem ser registrados individualmente para cada provedor de configuração da instância atual do Finance and Operations. Cada repositório pode ser dedicado a um provedor de configuração específico.
 
 ## <a name="supported-scenarios"></a>Cenários com suporte
 ### <a name="building-a-data-model"></a>Criação de um modelo de dados
