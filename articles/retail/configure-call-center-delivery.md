@@ -36,6 +36,7 @@ Quando você cria uma ordem de venda, é possível selecionar um modo de entrega
 O Retail tem recursos que permitem aos usuários limitar os modos de entrega que podem ser usados por um canal, os modos de entrega que podem ser usados para um produto e os modos de entrega que são válidos para destinos de envio específicos. Os encargos também podem ser definidos para que taxas adicionais sejam adicionadas à ordem de um cliente, com base nos modos de entrega selecionados para a ordem de venda e no valor total da ordem.
 
 ## <a name="define-delivery-modes"></a>Definir modos de entrega
+
 Antes de especificar quais modos de entrega podem ser usados para as ordens do call center e definir as regras e encargos associados, você deve definir os modos de entrega. Vá para **Vendas e marketing \> Configuração \> Distribuição \> Modos de entrega**. Selecione **Novo** para criar um novo modo de entrega. Como alternativa, selecione um modo de entrega existente na lista e, em seguida, selecione **Editar** para fazer alterações.
 
 No campo **Modo de entrega**, você pode inserir qualquer combinação de caracteres alfanuméricos, com base nos seus requisitos de negócios. Em seguida, você usar o campo **Descrição** para fornecer contexto adicional. Os campos **Grupo de encargos** e **Expedir** são opcionais e serão explicados em mais detalhes posteriormente neste tópico.
@@ -47,11 +48,13 @@ Na guia rápida **Produtos** você pode especificar quais produtos e/ou categori
 Na guia rápida **Endereços**, você pode especificar em quais países ou regiões, ou estados, o modo de entrega pode e não pode ser usado. Por exemplo, ordens que são enviados ao Havaí ou ao Alasca não estão qualificadas para entrega em terra. Portanto, esses estados devem ser excluídos de qualquer modo de entrega associado a um serviço de entrega em terra, mas incluídos em qualquer modo de entrega associado a um serviço de entrega aérea.
 
 ## <a name="validate-delivery-modes-for-a-call-center-order"></a>Valide modos de entrega para uma ordem de call center
+
 Após os modos de entrega serem definidos, você deve executar o lote de processo **Processar modos de entrega**. Esse trabalho disponibiliza os modos de entrega para que possam ser usados em processos de ordem de venda para canais de varejo. Para executar o trabalho **Processar modos de entrega**, vá para **Varejo \> TI de Varejo \> Processar modos de entrega**. Esse trabalho deve ser executado sempre que novos modos de entrega forem adicionados a um canal de varejo ou forem feitas alterações nos relacionamentos de modo/canal de entrega existentes.
 
 Após executar o trabalho em lotes **Processar modos de entrega**, você pode ir para **Varejo \> Canais \> Call centers \> Todos os call centers**. Na página **Todos os call centers**, na Página Ação, na guia **Configurar**, selecione **Modos de entrega**. A página **Modos de entrega** lista todos os modos de entrega válidos para o canal de call center selecionado. Para editar os modos de entrega existentes ou adicionar novos modos de entrega, selecione **Gerenciar modos de entrega**. Observe que o trabalho **Processar modos de entrega** deve ser executado sempre que forem feitas alterações.
 
 ## <a name="define-charges-for-delivery-services"></a>Defina encargos para serviços de entrega
+
 Quando as ordens de venda são criadas para clientes, uma empresa pode querer adicionar cobranças que são calculadas automaticamente com base nos modos de entrega selecionados para a ordem. Esses encargos podem ser configurados para que sejam iguais para todos os clientes e modos de entrega. Como alternativa, encargos podem variar, dependendo do cliente e/ou os modos de entrega selecionados para a ordem de venda.
 
 Para definir os encargos, vá para **Varejo \> Configuração de canal \> Encargos \> Encargos automáticos**. Selecione **Novo** para adicionar novos encargos. Como alternativa, selecione uma entrada existente, e selecione **Editar**.
@@ -73,6 +76,7 @@ Você pode usar uma mistura de categorias para encargos, dependendo das suas nec
 ![Exemplo de encargos diferenciados fixos](media/mixedtieredcharges.png)
 
 ## <a name="apply-delivery-modes-during-order-entry-in-a-call-center"></a>Aplicar modos de entrega durante a entrada de ordem em um call center
+
 Quando uma nova ordem de venda é criada, o valor deve ser especificado no campo **Modo de entrega** na guia rápida **Entrega** do cabeçalho da ordem de venda. Este campo poderá ser preenchido automaticamente, com base nos valores padrão do registro de cliente.
 
 O modo de entrega que é definido no cabeçalho da ordem será automaticamente copiado para as linhas de ordem de venda quando são criados. Entretanto, você pode alterar o modo de entrega de uma linha de item específica na guia **Entrega** na seção **Detalhes da linha** da página de entrada de ordem.
@@ -80,11 +84,13 @@ O modo de entrega que é definido no cabeçalho da ordem será automaticamente c
 Se o modo de entrega selecionado não for válido para produtos ou o endereço de entrega que será definido para a ordem ou linha de ordem, você receberá uma mensagem de erro. Você deve selecionar um modo de entrega definido para suportar esse produto ou configuração de endereço.
 
 ## <a name="calculation-of-delivery-charges-during-entry-of-order"></a>Cálculo de taxas de entrega durante a entrada de ordem
+
 Se a configuração **Habilitar conclusão de ordem** estiver ativada para o canal de call center, os encargos de remessa serão calculados automaticamente para ordens de venda quando os usuários selecionarem **Concluir**. A seguinte mensagem aparecerá na parte superior da página **Resumo da ordem de venda**: Encargos diferenciados calculados”. Os encargos calculados são adicionados ao valor do campo **Total de vendas** . Na guia rápida **Valor**, o campo **Encargos** mostra o valor total de todos os encargos calculados para a ordem e as linhas. Para ver uma análise mais detalhada das cobranças, selecione **Ordem** na página **Resumo da ordem de venda** e selecione a opção **Encargos** para exibir, adicionar ou editar os encargos. Observe que o cálculo de encargos de entrega no cabeçalho da ordem está baseado no modo de entrega que está vinculado ao cabeçalho. Os encargos de entrega no nível da linha são calculados com base no modo de entrega configurado para a linha de vendas. Se vários modos de entrega foram usados em linhas diferentes, vários encargos podem ser aplicados e adicionados juntos. O valor total é mostrado no campo **Encargos** na página **Resumo da ordem de venda** .
 
 Se a configuração **Habilitar conclusão de ordem** for desativada, os usuários devem acionar manualmente o cálculo de encargos. Na página **Ordem de venda**, no Painel Ação, na guia **Vender**, no grupo **Calcular**, selecione **Encargos diferenciados**. A mensagem "Encargos diferenciados calculados" é exibida. Você pode selecionar a opção **Encargos** na guia **Vender** para exibir, editar ou excluir os encargos calculados.
 
 ## <a name="use-expedited-delivery-modes-on-call-center-orders"></a>Use modos de entrega expedidos em ordens do call center
+
 Você também pode vincular um código de expedição a qualquer modo de entrega que você configurar. Esse código é usado como uma ferramenta de classificação e geração de relatórios de priorização. Atualmente, não é cobrada uma taxa adicional à ordem. Para configurar códigos de remessa, vá para **Vendas e marketing \> Configuração \> Distribuição \> Códigos de agilização**.
 
 Por exemplo, para ordens que serão enviadas pelo ar no dia seguinte, a separação deverá ser feita no depósito às 13h todos os dias. Neste caso, um código de expedição pode ser criado, e o código pode ser vinculado no dia seguinte ao modo de entrega que é configurado no sistema. Quando o depósito criar sua onda de separação, o código de expedição apropriado no campo **Expedir** pode ser usado como filtro, de forma que a separação seja executada somente para ordens que tenham os modos de entrega vinculados ao código.

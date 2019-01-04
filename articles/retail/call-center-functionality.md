@@ -42,25 +42,30 @@ Além da criação da ordem de atendimento, o módulo de call center também for
 Essa página fornece links para a documentação relevante antes da instalação, a configuração, e o uso de recursos funcional de call center no Dynamics 365 for Retail.
 
 ## <a name="configure-the-call-center"></a>Configurar o call center
+
 [Configurar opções de processamento de ordens](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>Configurar processamento de ordem
+
 [Configurar alertas de fraude](set-up-fraud-alerts.md)
 
 [Pendências de ordem manual](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>Configurar processamento de pagamento
+
 [Métodos de pagamento em um call center](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>Configurar modos de entrega
+
 [Configurar modos de entrega e encargos do call center](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>Configurar marketing direto
+
 [Catálogos do call center](call-center-catalogs.md)
 
 [Configurar análise RFM](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>Configurar programas de continuidade
-[Configurar um programa de continuidade para um call center](set-up-continuity-program.md)
 
+[Configurar um programa de continuidade para um call center](set-up-continuity-program.md)
 

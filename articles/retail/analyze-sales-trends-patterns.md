@@ -35,15 +35,13 @@ Você pode estudar tendências e padrões de venda em tempo real no Microsoft Dy
 
 Como parte do Dynamics 365 for Retail, os usuários podem estudar as tendências e os padrões de vendas em tempo real nos diferentes níveis da hierarquia organizacional durante um período de anos usando o relatório predefinido **Canal de vendas por ano**. Você pode abrir esse relatório de qualquer um dos seguintes locais:
 
--   Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de canal de vendas por ano**
--   Área de trabalho **Finanças da loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Finanças da loja de varejo** &gt; **Relatórios** &gt; **Relatório de canal de vendas por ano**
--   Seção **Consultas e relatórios** &gt; **Varejo** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de canal de vendas por ano**
+- Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de canal de vendas por ano**
+- Área de trabalho **Finanças da loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Finanças da loja de varejo** &gt; **Relatórios** &gt; **Relatório de canal de vendas por ano**
+- Seção **Consultas e relatórios** &gt; **Varejo** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de canal de vendas por ano**
 
 Os usuários também podem estudar as tendências e os padrões de vendas por hora nos diferentes níveis da hierarquia organizacional durante um período selecionado usando o relatório predefinido **Canal de vendas por hora**. Você pode abrir esse relatório de qualquer um dos seguintes locais:
 
--   Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de canal de vendas por hora**
--   Área de trabalho **Finanças da loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Finanças da loja de varejo** &gt; **Relatórios** &gt; **Relatório de canal de vendas por hora**
--   Seção **Consultas e relatórios** &gt; **Varejo** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de canal de vendas por hora**
-
-
+- Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de canal de vendas por hora**
+- Área de trabalho **Finanças da loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Finanças da loja de varejo** &gt; **Relatórios** &gt; **Relatório de canal de vendas por hora**
+- Seção **Consultas e relatórios** &gt; **Varejo** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de canal de vendas por hora**
 
