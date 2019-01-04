@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 13e99ba3a706d49affa4fd8d0f63b7c2f51b24bc
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: e2b3591f6403542c79457d12ae850ad40d9253a1
 ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -35,21 +35,19 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="da1d5-105">Como parte do Microsoft Dynamics 365 for Retail, os usuários poderão monitorar o desempenho de vendas e de margem em tempo real em diferentes níveis da hierarquia da organização para as seguintes dimensões:</span><span class="sxs-lookup"><span data-stu-id="da1d5-105">As part of Dynamics 365 for Retail, users can monitor sales and margin performance in real time across different levels of the organization hierarchy for the following dimensions:</span></span>
 
--   <span data-ttu-id="da1d5-106">Produtos</span><span class="sxs-lookup"><span data-stu-id="da1d5-106">Products</span></span>
--   <span data-ttu-id="da1d5-107">Categorias</span><span class="sxs-lookup"><span data-stu-id="da1d5-107">Categories</span></span>
--   <span data-ttu-id="da1d5-108">Descontos</span><span class="sxs-lookup"><span data-stu-id="da1d5-108">Discounts</span></span>
--   <span data-ttu-id="da1d5-109">Anos como o período de tempo</span><span class="sxs-lookup"><span data-stu-id="da1d5-109">Years as time period</span></span>
--   <span data-ttu-id="da1d5-110">Registros/terminais</span><span class="sxs-lookup"><span data-stu-id="da1d5-110">Registers/terminals</span></span>
--   <span data-ttu-id="da1d5-111">Equipe/funcionários</span><span class="sxs-lookup"><span data-stu-id="da1d5-111">Staff/employees</span></span>
--   <span data-ttu-id="da1d5-112">Clientes</span><span class="sxs-lookup"><span data-stu-id="da1d5-112">Customers</span></span>
--   <span data-ttu-id="da1d5-113">Unidades operacionais</span><span class="sxs-lookup"><span data-stu-id="da1d5-113">Operating units</span></span>
+- <span data-ttu-id="da1d5-106">Produtos</span><span class="sxs-lookup"><span data-stu-id="da1d5-106">Products</span></span>
+- <span data-ttu-id="da1d5-107">Categorias</span><span class="sxs-lookup"><span data-stu-id="da1d5-107">Categories</span></span>
+- <span data-ttu-id="da1d5-108">Descontos</span><span class="sxs-lookup"><span data-stu-id="da1d5-108">Discounts</span></span>
+- <span data-ttu-id="da1d5-109">Anos como o período de tempo</span><span class="sxs-lookup"><span data-stu-id="da1d5-109">Years as time period</span></span>
+- <span data-ttu-id="da1d5-110">Registros/terminais</span><span class="sxs-lookup"><span data-stu-id="da1d5-110">Registers/terminals</span></span>
+- <span data-ttu-id="da1d5-111">Equipe/funcionários</span><span class="sxs-lookup"><span data-stu-id="da1d5-111">Staff/employees</span></span>
+- <span data-ttu-id="da1d5-112">Clientes</span><span class="sxs-lookup"><span data-stu-id="da1d5-112">Customers</span></span>
+- <span data-ttu-id="da1d5-113">Unidades operacionais</span><span class="sxs-lookup"><span data-stu-id="da1d5-113">Operating units</span></span>
 
 <span data-ttu-id="da1d5-114">Além disso, dois relatórios exclusivos que se aproveitam da estruturação da grade hierárquica permitem que os usuários monitorem o desempenho de vendas e de margem ao fazerem uma busca detalhada no nó superior da categoria de nós folha na hierarquia de categorias de produto de varejo padrão.</span><span class="sxs-lookup"><span data-stu-id="da1d5-114">Additionally, two unique reports that take advantage of hierarchical grid structuring let users monitor sales and margin performance by drilling down from the top category node to individual leaf nodes of the category in the default retail product category hierarchy.</span></span> <span data-ttu-id="da1d5-115">Os usuários também podem fazer busca detalhada da unidade operacional superior para um canal individual na hierarquia da organização definida como a hierarquia da organização padrão para fins de hierarquia de relatórios de varejo.</span><span class="sxs-lookup"><span data-stu-id="da1d5-115">Users can also drill-down from the top operating unit to an individual channel in the organization hierarchy that is defined as the default organization hierarchy for retail reporting hierarchy purposes.</span></span> <span data-ttu-id="da1d5-116">Você pode abrir os relatórios de qualquer um dos seguintes locais:</span><span class="sxs-lookup"><span data-stu-id="da1d5-116">You can open the reports from any of the following locations:</span></span>
 
--   <span data-ttu-id="da1d5-117">**Gerenciamento de loja de varejo** espaço de trabalho &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios**</span><span class="sxs-lookup"><span data-stu-id="da1d5-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
--   <span data-ttu-id="da1d5-118">**Gerenciamento de categorias e produtos** espaço de trabalho &gt; **Varejo** &gt; **Produto e categorias** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios**</span><span class="sxs-lookup"><span data-stu-id="da1d5-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
--   <span data-ttu-id="da1d5-119">**Gerenciamento de preços e descontos** espaço de trabalho &gt; **Varejo** &gt; **Preços e descontos** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios**</span><span class="sxs-lookup"><span data-stu-id="da1d5-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
--   <span data-ttu-id="da1d5-120">**Consultas e relatórios** seção &gt; **Varejo** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas**</span><span class="sxs-lookup"><span data-stu-id="da1d5-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
-
-
+- <span data-ttu-id="da1d5-117">**Gerenciamento de loja de varejo** espaço de trabalho &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios**</span><span class="sxs-lookup"><span data-stu-id="da1d5-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
+- <span data-ttu-id="da1d5-118">**Gerenciamento de categorias e produtos** espaço de trabalho &gt; **Varejo** &gt; **Produto e categorias** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios**</span><span class="sxs-lookup"><span data-stu-id="da1d5-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
+- <span data-ttu-id="da1d5-119">**Gerenciamento de preços e descontos** espaço de trabalho &gt; **Varejo** &gt; **Preços e descontos** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios**</span><span class="sxs-lookup"><span data-stu-id="da1d5-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
+- <span data-ttu-id="da1d5-120">**Consultas e relatórios** seção &gt; **Varejo** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas**</span><span class="sxs-lookup"><span data-stu-id="da1d5-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
 
