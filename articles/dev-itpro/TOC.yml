@@ -261,11 +261,13 @@
               href: extensibility/extensibility-changes-811.md
             - name: Alterações de extensibilidade na versão 8.1.2
               href: extensibility/extensibility-changes-812.md
+            - name: Alterações de extensibilidade versão 8.1.3
+              href: extensibility/extensibility-changes-813.md
         - name: Conceitos básicos
           items:
             - name: Personalizações intrusivas
               href: extensibility/intrusive-customizations.md
-            - name: Modelo da extensão de classe
+            - name: Modelo da extensão de classes
               href: extensibility/class-extensions.md
             - name: Extensão de classe via disposição e cadeia de comando do método
               href: extensibility/method-wrapping-coc.md
@@ -875,7 +877,7 @@
   items:
     - name: Guia de desenvolvimento de controle
       href: user-interface/gantt-development-guide.md
-    - name: ​Criar um novo mecanismo de gerenciamento de transporte​
+    - name: Criar um novo mecanismo de gerenciamento de transporte
       href: ../supply-chain/transportation/create-new-transportation-management-engine.md
 - name: Implantação
   items:
@@ -883,16 +885,37 @@
       href: deployment/deploy-demo-environment.md
     - name: Implantação de nuvem
       items:
+        - name: Implantação de autoatendimento
+          href: deployment/infrastructure-stack.md
+          items:
+            - name: Implantar um novo ambiente
+              href: deployment/deployenvironment-newinfrastructure.md
+            - name: Perguntas frequentes sobre implantação
+              href: deployment/deploymentFAQ.md
+            - name: Problemas conhecidos com a implantação de autoatendimento
+              href: deployment/known-issues-new-deployment-experience.md
+            - name: Operações de manutenção para implantações
+              href: deployment/maintenanceoperationsguide-newinfrastructure.md
+            - name: Atualizar um ambiente
+              href: deployment/updateenvironment-newinfrastructure.md
+            - name: Solucionar problemas de ambientes implantados pela implantação de autoatendimento
+              href: deployment/troubleshoot-newinfrastructure.md
         - name: Integração completa do Azure Resource Manager
           href: deployment/arm-onboarding.md
-        - name: ​Azure ExpressRoute e Finance and Operations​
+        - name: Azure ExpressRoute e Finance and Operations
           href: deployment/expressroute.md
         - name: Arquitetura do Finance and Operations
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
-    - name: ​Implantação local​
+        - name: Aplicar atualizações a ambientes em nuvem
+          href: deployment/apply-deployable-package-system.md
+        - name: Aplicar atualizações e extensões para componentes do canal do Retail hospedados na nuvem
+          href: deployment/Update-retail-channel.md
+        - name: Inicializar componentes do canal do Retail hospedados na nuvem
+          href: deployment/Initialize-Retail-Channels.md
+    - name: Implantação local
       href: deployment/on-premises-deployment-landing-page.md
       items:
-        - name: Opção de implantação local​
+        - name: Opção de implantação local
           href: deployment/on-premises-overview.md
         - name: Planejar e preparar para implantações locais
           href: deployment/plan-onprem-deployment.md
@@ -931,9 +954,7 @@
       items:
         - name: Criar pacotes de modelos implantáveis
           href: deployment/create-apply-deployable-package.md
-        - name: Aplicar atualizações a ambientes em nuvem
-          href: deployment/apply-deployable-package-system.md
-        - name: Instalar pacotes implantáveis da linha de comando
+        - name: Instalar pacotes implantáveis a partir da linha de comando
           href: deployment/install-deployable-package.md
         - name: Desinstalar um pacote
           href: deployment/uninstall-deployable-package.md
@@ -1021,9 +1042,7 @@
           href: migration-upgrade/upgrade-latest-platform-update.md
         - name: Atualizar a plataforma do Dynamics AX para a versão de agosto de 2016
           href: migration-upgrade/update-platform-each-release.md
-        - name: ​Atualizar ambientes de área restrita​
-          href: migration-upgrade/upgrade-sandbox-environment.md
-        - name: '​Atualizar dados em ambientes de desenvolvimento, de demonstração​ ou de área restrita'
+        - name: 'Atualizar dados em ambientes de desenvolvimento, de demonstração ou de área restrita'
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: ​Atualizar ferramentas de desenvolvimento​
           href: dev-tools/update-development-tools.md
