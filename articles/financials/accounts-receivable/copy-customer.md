@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 08e939f87bc4a1769533b205bc5706648e1d1dce
+ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/16/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -62,7 +62,7 @@ Ao copiar um cliente, o sistema tenta salvar as novas informações dele. São e
 
 ## <a name="copy-a-customer-by-using-tax-exempt-number-search-feature"></a>Copiar um cliente usando o recurso de pesquisa do número de isenção de imposto
 
-Você também pode copiar fornecedores usando o recurso de pesquisa do número de isenção de imposto, que é encontrado no grupo **Registro** da guia **Cliente**, no Painel de Ações da página **Todos os clientes**. A caixa de diálogo **Pesquisa de número de isenção de imposto** exibida mostra os números de isenção de imposto, a ID e o nome do cliente, e a entidade legal em que a ID de isenção de imposto é usada. Você pode copiar um cliente somente se ele estiver em uma entidade legal que não a atual. Após selecionar um cliente que atende a esse critério, realize as etapas a seguir.
+Você também pode copiar clientes usando o recurso de pesquisa do número de isenção de imposto, que é encontrado no grupo **Registro** da guia **Cliente**, no Painel de Ações da página **Todos os clientes**. A caixa de diálogo **Pesquisa de número de isenção de imposto** exibida mostra os números de isenção de imposto, a ID e o nome do cliente, e a entidade legal em que a ID de isenção de imposto é usada. Você pode copiar um cliente somente se ele estiver em uma entidade legal que não a atual. Após selecionar um cliente que atende a esse critério, realize as etapas a seguir.
 
 1. A opção **Copiar cliente** é exibida. Por padrão, essa opção é definida como **Não**. Para copiar o cliente para a entidade legal atual, defina-a como **Sim**. 
 2. Escolha **Selecionar**. O cliente foi criado.
