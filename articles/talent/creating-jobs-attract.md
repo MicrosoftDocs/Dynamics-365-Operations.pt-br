@@ -3,7 +3,7 @@ title: "Criar, aprovar e lançar trabalhos no Attract"
 description: "Este tópico descreve os elementos de um trabalho no Attract. Ele também explica como criar um trabalho."
 author: josaw
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 12/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: af945042c150fff1a95cdb046f2a712cb2c2c061
+ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
+ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/23/2018
 
 ---
 
@@ -75,7 +75,25 @@ Para obter mais informações sobre as atividades que podem ser adicionadas ao p
 
 ## <a name="postings"></a>Lançamentos
 
-Após um trabalho ser ativado, ele poderá ser lançado. Somente os recrutadores e os administradores podem lançar trabalhos. O trabalho pode ser lançado no Talent Careers (site de carreiras do Microsoft Dynamics 365 for Talent) ou no LinkedIn. A equipe do Attract trabalha continuamente para fazer parceria com os agregadores do quadro de trabalho. Portanto, essa lista se expandirá com o tempo.
+Após um trabalho ser ativado, ele poderá ser lançado. Somente os recrutadores e os administradores podem lançar trabalhos. O trabalho pode ser lançado no Talent Careers (site de carreiras do Microsoft Dynamics 365 for Talent) ou no LinkedIn. 
+
+> [!NOTE]
+> Há três aspectos importantes a serem notados sobre o processo de lançamento de trabalho no LinkedIn.
+> 1. Os trabalhos lançados no LinkedIn são lançados como trabalhos de "Listagens Limitadas". Os trabalhos de listagens limitadas não podem ser promovidos no site do LinkedIn. Se desejar promover trabalhos de listagens limitadas lançados no LinkedIn a partir do Attract, você deverá trabalhar com o LinkedIn para habilitar a "Disposição de Trabalho". Consulte os links abaixo e contate o suporte do LinkedIn para obter mais detalhes.
+>
+>    [Listagens limitadas versus Slots de Trabalho de Gratificação para Disposição de Trabalho](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
+>
+>    [Perguntas Frequente sobre Disposição de Trabalho](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
+>
+> 1. Ao lançar trabalhos no LinkedIn, o Attract passa o nome do Microsoft 365 Organization em relação ao trabalho. O LinkedIn vincula os trabalhos em uma empresa no LinkedIn com base no nome da organização que é passado. Se o trabalho estiver listado na empresa errada no LinkedIn, verifique se o nome do Microsoft 365 Organization corresponde ao nome da empresa no LinkedIn.  
+>
+>    [Altere o Endereço do Contato e muito mais](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
+>
+>    Se tiver problemas após esta etapa, entre em contato com o suporte do LinkedIn. 
+> 
+> 1. Pode levar até 24 horas para os trabalhos lançados no LinkedIn ficarem visíveis para os candidatos no LinkedIn, devido ao processo atual de lançamento de trabalhos em lotes do LinkedIn.
+
+A equipe do Attract trabalha continuamente para fazer parceria com os agregadores do quadro de trabalho. Essa lista se expandirá com o tempo.
 
 Para obter mais informações sobre lançamentos de trabalho, consulte [Funcionalidade do site de carreiras no Attract](./career-site.md).
 

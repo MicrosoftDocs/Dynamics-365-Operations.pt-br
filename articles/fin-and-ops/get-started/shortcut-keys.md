@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 58551a26d9f3a55e8a6ab8b4ca0805aaca4a4c28
-ms.openlocfilehash: d9d3ace80e49b8dc29259c8c16925f474c9e74b3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 497fdb303abb9fe94caa1ebc03da005b88a40e4b
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -29,36 +29,35 @@ ms.lasthandoff: 10/25/2018
 
 [!include [banner](../includes/banner.md)]
 
-Os atalhos de teclado a seguir são utilizados no Dynamics 365 for Finance and Operations. 
+Os atalhos de teclado a seguir são utilizados no Dynamics 365 for Finance and Operations.
 
-**Observação:** As teclas de atalho descritas aqui referem-se ao layout de teclado dos Estados Unidos. As teclas de outros layouts de teclado podem não corresponder exatamente às teclas do teclado dos EUA.
+> [!NOTE]
+> As teclas de atalho descritas aqui referem-se ao layout de teclado dos Estados Unidos. As teclas de outros layouts de teclado podem não corresponder exatamente às teclas do teclado dos EUA.
 
 ## <a name="finding-a-shortcut"></a>Localizando um atalho
-A partir da atualização 11 da Plataforma, os usuários poderão descobrir atalhos disponíveis atualmente diretamente da interface do usuário. Basta clicar com o botão direito do mouse em um controle e selecione **Exibir atalhos**. Será aberta a caixa de diálogo que mostra os atalhos que você pode usar com base no local em que você está na página. 
 
+A partir da atualização 11 da Plataforma, os usuários poderão descobrir atalhos disponíveis atualmente diretamente da interface do usuário. Basta clicar com o botão direito do mouse em um controle e selecione **Exibir atalhos**. Será aberta a caixa de diálogo que mostra os atalhos que você pode usar com base no local em que você está na página.
 
 ## <a name="action-shortcuts"></a>Atalhos de ação
 
-|                                                   |                                  |
-|---------------------------------------------------|----------------------------------|
-| **Para**                                    | **Pressione**                        |
-| Abrir pesquisa de ação                                | Ctrl+ ou Alt+Q                  |
-| Mover para o Painel de ação padrão                  | Alt+M,A ou Ctrl+F6               |
-| Abrir uma guia no Painel de ações ou em um menu           | Enter ou Espaço ou Alt+Seta para Baixo |
-| Mover para a opção próxima/anterior em um menu            | Seta para Cima/Seta para Baixo            |
-| Fechar uma guia no Painel de ações ou em um menu          | Esc                              |
-| Simular um clique com o botão direito do mouse                            | Shift+F10                        |
-| Abra o menu de contexto do Finance and Operations      | Ctrl+F10                         |
-| Executar o botão padrão em um formulário/caixa de diálogo   | Alt+Enter                        |
-| Clicar em um botão ou um quadro                            | Enter ou Espaço                   |
-| Exibir informações de atualização para um bloco de contagem         | Alt+Seta para cima                     |
-| Exibir atalhos disponíveis atualmente                | Alt+Shift+K                      |                              
+| Para                                      | Pressione                            |
+|-------------------------------------------------|----------------------------------|
+| Abrir pesquisa de ação                              | Ctrl+' ou Alt+Q                  |
+| Mover para o Painel de ação padrão                | Alt+M,A ou Ctrl+F6               |
+| Abrir uma guia no Painel de ações ou em um menu         | Enter ou Espaço ou Alt+Seta para Baixo |
+| Mover para a opção próxima/anterior em um menu          | Seta para Cima/Seta para Baixo            |
+| Fechar uma guia no Painel de ações ou em um menu        | Esc                              |
+| Simular um clique com o botão direito do mouse                          | Shift+F10                        |
+| Abra o menu de contexto do Finance and Operations    | Ctrl+F10                         |
+| Executar o botão padrão em um formulário/caixa de diálogo | Alt+Enter                        |
+| Clicar em um botão ou um quadro                          | Enter ou Espaço                   |
+| Exibir informações de atualização para um bloco de contagem       | Alt+Seta para cima                     |
+| Exibir atalhos disponíveis atualmente              | Alt+Shift+K                      |
 
 ## <a name="date-picker-shortcuts"></a>Atalhos do seletor de data
 
-|                                       |                                           |
+| Para                            | Pressione                                     |
 |---------------------------------------|-------------------------------------------|
-| **Para**                        | **Pressione**                                 |
 | Abrir o seletor de data                  | Alt+Seta para baixo                            |
 | Mover entre datas no seletor de data | Ctrl+Teclas de seta                           |
 | Mover para o mês anterior/próximo       | Page Down / Page Up                       |
@@ -70,9 +69,8 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 
 ## <a name="factbox-shortcuts"></a>Atalhos do Quadro de Fatos
 
-|                                                                                 |                                           |
+| Para                                                                      | Pressione                                     |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| **Para**                                                                  | **Pressione**                                 |
 | Abra o painel Quadro de Fatos (ou mova o foco para o painel do Quadro de Fatos, se ele já estiver aberto) | Alt+M,B ou Ctrl+F2                        |
 | Fechar o painel de Quadro de Fatos (com foco no painel de Quadro de Fatos)                         | Esc                                       |
 | Mover para o Quadro de Fatos anterior/próximo (com foco no painel do Quadro de Fatos)              | Alt+Shift+Seta para baixo/Alt+Shift+Seta para cima |
@@ -82,42 +80,39 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 
 ## <a name="filtering-shortcuts"></a>Atalhos de filtragem
 
-|                                    |                          |
-|------------------------------------|--------------------------|
-| **Para**                     | **Pressionar**                |
-| Abrir filtragem de grade da coluna atual                        | Ctrl+G                   |
-| Fechar filtragem de grade da coluna atual                       | Esc                      |
+| Para                                                                                                          | Pressione                    |
+|---------------------------------------------------------------------------------------------------------------------|--------------------------|
+| Abrir filtragem de grade da coluna atual                                                                          | Ctrl+G                   |
+| Fechar filtragem de grade da coluna atual                                                                         | Esc                      |
 | Abrir o painel de Filtro (ou alternar o foco entre o painel de Filtro e o formulário principal, se o painel de Filtro já estiver aberto) | Alt+M,F ou Ctrl+F3       |
-| Fechar o painel de Filtro (com foco no painel de Filtro)             | Esc                      |
-| Abrir a filtragem/classificação avançada                                      | Ctrl+Shift+F3            | 
+| Fechar o painel de Filtro (com foco no painel de Filtro)                                                               | Esc                      |
+| Abrir a filtragem/classificação avançada                                                                                        | Ctrl+Shift+F3            |
 
 ## <a name="form-shortcuts"></a>Atalhos do formulário
 
-|                                                     |                   |
-|-----------------------------------------------------|-------------------|
-| **Para**                                      | **Pressionar**         |
-| Criar um novo registro                                 | Alt+N             |
-| Excluir um registro                                     | Alt+Del ou Alt+F9 |
-| Salvar registro                                         | Alt+S ou Ctrl+S   |
-| Reverter (restaurar)                                    | Ctrl+Shift+F5     |
-| Atualizar dados                                        | Shift+F5          |
-| Se move para o primeiro campo visível no formulário         | Alt+Shift+F       |
-| Alternar modo de edição                                    | F2                |
-| Anexar um documento                                   | Ctrl+Shift+A      |
-| Exportar para o Excel                                     | Ctrl+Shift+E      |
-| Mover para o registro anterior (saída de uma grade)        | Ctrl+Seta para cima     |
-| Mover para o próximo registro (fora de uma grade)            | Ctrl+Seta para baixo   |
-| Mover para o primeiro registro (fora de uma grade)           | Ctrl+Home         |
-| Mover para o último registro (fora de uma grade)            | Ctrl+End          |
-| Fechar o formulário (clicar em Voltar)                         | Esc               |
-| Fechar o formulário com salvar explícito                   | Shift+Esc         |
-| Fechar o formulário que descarta todas as alterações não salvas       | Alt+Shift+Q       |
+| Para                                    | Pressione             |
+|-----------------------------------------------|-------------------|
+| Criar um novo registro                           | Alt+N             |
+| Excluir um registro                               | Alt+Del ou Alt+F9 |
+| Salvar registro                                   | Alt+S ou Ctrl+S   |
+| Reverter (restaurar)                              | Ctrl+Shift+F5     |
+| Atualizar dados                                  | Shift+F5          |
+| Se move para o primeiro campo visível no formulário   | Alt+Shift+F       |
+| Alternar modo de edição                              | F2                |
+| Anexar um documento                             | Ctrl+Shift+A      |
+| Exportar para o Excel                               | Ctrl+Shift+E      |
+| Mover para o registro anterior (saída de uma grade)  | Ctrl+Seta para cima     |
+| Mover para o próximo registro (fora de uma grade)      | Ctrl+Seta para baixo   |
+| Mover para o primeiro registro (fora de uma grade)     | Ctrl+Home         |
+| Mover para o último registro (fora de uma grade)      | Ctrl+End          |
+| Fechar o formulário (clicar em Voltar)                   | Esc               |
+| Fechar o formulário com salvar explícito             | Shift+Esc         |
+| Fechar o formulário que descarta todas as alterações não salvas | Alt+Shift+Q       |
 
 ## <a name="form-navigation-shortcuts"></a>Atalhos de navegação do formulário
 
-|                                                     |                                              |
+| Para                                          | Pressione                                        |
 |-----------------------------------------------------|----------------------------------------------|
-| **Para**                                      | **Pressione**                                    |
 | Mover para o campo anterior/próximo                     | Tab / Shift+Tab                              |
 | Mover para a guia anterior/próxima                       | Alt+Shift+Seta para a direita/Alt+Shift+Seta para a esquerda |
 | Mover para a &lt;n&gt;th guia                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
@@ -134,30 +129,28 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 
 ## <a name="grid-shortcuts"></a>Atalhos de grade
 
-|                                                                                                                        |                                 |
+| Para                                                                                                             | Pressione                           |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **Para**                                                                                                         | **Pressione**                       |
 | Mover para a coluna anterior/próxima                                                                                       | Tab / Shift+Tab                 |
 | Mover para a linha anterior/próxima                                                                                          | Seta para Cima/Seta para Baixo           |
-| Mover para a linha anterior/próxima sem selecionar<br><br>**Observação:** este atalho aplica-se a cenários de seleção múltipla apenas. | Ctrl+Seta para cima/ Ctrl+Seta para baixo |
-| Selecionar/remover a linha atual<br><br>**Observação:** este atalho aplica-se a cenários de seleção múltipla apenas.                    | Ctrl+Espaço/Ctrl+Clique         |
-| Adicionar a linha anterior/próxima ao conjunto selecionado<br><br>**Observação:** este atalho aplica-se a cenários de seleção múltipla apenas.   | Shift+Espaço                     |
-| Adicionar um intervalo de linhas ao conjunto selecionado<br><br>**Observação:** este atalho aplica-se a cenários de seleção múltipla apenas.         | Shift+Clique                     |
+| Mover para a linha anterior/próxima sem selecionar<blockquote>[!NOTE] Este atalho aplica-se somente a cenários de seleção múltipla.</blockquote> | Ctrl+Seta para cima/ Ctrl+Seta para baixo |
+| Selecionar/remover a linha atual<blockquote>[!NOTE] Este atalho aplica-se somente a cenários de seleção múltipla.</blockquote>                    | Ctrl+Espaço/Ctrl+Clique         |
+| Adicionar a linha anterior/próxima ao conjunto selecionado<blockquote>[!NOTE] Este atalho aplica-se somente a cenários de seleção múltipla.</blockquote>   | Shift+Espaço                     |
+| Adicionar um intervalo de linhas ao conjunto selecionado<blockquote>[!NOTE] Este atalho aplica-se somente a cenários de seleção múltipla.</blockquote>         | Shift+Clique                     |
 | Ir para a página anterior/próxima de dados                                                                                   | Page Up / Page Down             |
 | Criar uma nova linha na parte inferior da grade                                                                             | Seta para baixo (a partir da última linha)  |
 | Selecionar ou limpar todas as linhas                                                                                               | Ctrl+Shift+M                    |
 | Mover para o primeiro registro                                                                                               | Ctrl+Home                       |
 | Mover para o último registro                                                                                                | Ctrl+End                        |
-| Executar a ação padrão em uma grade<br><br>**Observação:** este atalho é habilitado quando o foco estiver em uma célula que contém um hiperlink e todas as células nessa coluna tiverem hiperlinks.                 | Inserir                           |
+| Executar a ação padrão em uma grade<blockquote>[!NOTE] Este atalho será habilitado quando o foco estiver em uma célula que contenha um hiperlink e todas as células nessa coluna tiverem hiperlinks.</blockquote> | Inserir                           |
 | Alterna o foco entre a linha selecionada e a linha do cabeçalho                                                               | Alt+Shift+H                     |
 | Torna a coluna atual maior/menor (com foco na linha do cabeçalho)                                                  | Seta para a direita/Seta para esquerda        |
 | Abrir a filtragem de grade para a coluna atual (com foco na linha do cabeçalho)                                              | Inserir                           |
 
 ## <a name="input-control-shortcuts"></a>Atalhos do controle de entrada
 
-|                                                                              |                               |
+| Para                                                                   | Pressione                         |
 |------------------------------------------------------------------------------|-------------------------------|
-| **Para**                                                               | **Pressione**                     |
 | Abrir o hiperlink                                                           | Ctrl+Enter                    |
 | Inserir a data da sessão em um campo de data                                       | D+Tab                         |
 | Inserir a data atual em um campo de data                                       | T+Tab                         |
@@ -171,17 +164,15 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 
 ## <a name="messaging-shortcuts"></a>Atalhos da mensagem
 
-|                          |               |
+| Para               | Pressione         |
 |--------------------------|---------------|
-| **Para**           | **Pressione**     |
 | Ir para o Centro de Mensagens | Ctrl+Shift+F7 |
 | Ir para a Barra de Mensagens    | Ctrl+F7       |
 
 ## <a name="navigation-shortcuts"></a>Atalhos de navegação
 
-|                                                                               |                            |
+| Para                                                                    | Pressione                      |
 |-------------------------------------------------------------------------------|----------------------------|
-| **Para**                                                                | **Pressione**                  |
 | Ir para o painel                                                           | Alt+Shift+Home             |
 | Mover para a barra de navegação                                                    | Alt+M,N ou Alt+Shift+F1    |
 | Mover para o seletor da empresa                                                    | Ctrl+Shift+O               |
@@ -201,9 +192,8 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 
 ## <a name="personalization-shortcuts"></a>Atalhos de personalização
 
-|                                                                                                                        |                                     |
+| Para                                                                                                             | Pressione                               |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| **Para**                                                                                                         | **Pressione**                           |
 | Fazer transição da página para o modo de personalização                                                                          | Ctrl+Shift+P                        |
 | Use a ferramenta Selecionar (quando estiver no modo de personalização)                                                                     | S                                   |
 | Abrir a caixa de diálogo de personalização rápida do controle selecionado (ao usar a ferramenta Selecionar)                              | Espaço ou Enter                      |
@@ -230,19 +220,17 @@ A partir da atualização 11 da Plataforma, os usuários poderão descobrir atal
 
 ## <a name="segmented-entry-shortcuts"></a>Atalhos segmentados de entrada
 
-|                                                                                                                         |                                  |
+| Para                                                                                                              | Pressione                            |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **Para**                                                                                                          | **Pressione**                        |
 | Abrir a lista suspensa (quando a lista suspensa estiver fechada)                                                             | Alt+Seta para baixo                   |
 | Mover o foco para o campo de entrada do segmento atual na lista suspensa (quando a lista suspensa já estiver aberta) | Alt+Seta para baixo                   |
 | Fechar a lista suspensa                                                                                                | Alt+Seta para cima                     |
 | Fechar/abrir a parte direita da lista suspensa                                                                      | Alt+Seta para a esquerda / Alt+Seta para a direita |
-| Alternar entre os modos "Mostrar valores válidos" e "Mostrar tudo"                                                                        | Alt+W                            |
+| Alternar entre os modos "Mostrar válido" e "Mostrar tudo"                                                                        | Alt+W                            |
 | Selecionar o valor da lista suspensa e mover para o próximo segmento                                                       | Inserir                            |
 | Mover para o controle próximo/anterior da página (quando o foco for no controle de entrada)                                          | Tab / Shift+Tab                  |
 | Mover para o campo de entrada próximo/anterior no submenu (quando o foco estiver na lista suspensa)                               | Tab / Shift+Tab                  |
 | Mover para cima/para baixo na pesquisa                                                                                        | Seta para cima/Seta para baixo            |
 | Mover uma página para cima/para baixo na pesquisa                                                                                       | Page Up / Page Down              |
 | Mover para o topo/parte inferior da pesquisa                                                                                    | Início/Fim                       |
-
 

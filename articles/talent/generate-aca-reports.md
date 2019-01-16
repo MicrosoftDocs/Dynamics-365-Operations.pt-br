@@ -3,7 +3,7 @@ title: "Gerar relatórios segundo a Lei de Serviços de Saúde Acessíveis (ACA)
 description: "Esta funcionalidade está disponível para auxiliar empregadores que precisam rastrear as informações relatadas nos formulários 1095-B e 1095-C, em apoio à parte do Mandato do Empregador da Lei de Serviços de Saúde Acessíveis. Observe que esta funcionalidade está habilitada somente para entidades legais nos Estados Unidos."
 author: kherr75
 manager: AnnBe
-ms.date: 07/01/2017
+ms.date: 12/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 25d2b8326bba69ac627f3fa7e05a6c850bd04c91
+ms.sourcegitcommit: f1456b91d6fc29ec65d0e9382d3f5f7682a8b516
+ms.openlocfilehash: 0ea2824093d33b9f233cd992399de22198bfc27a
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/17/2018
 
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>Gerar relatórios segundo a Lei de Serviços de Saúde Acessíveis (ACA)
@@ -54,7 +54,7 @@ Na página **Gerenciador de data de cobertura de dependentes**, você pode indic
 ## <a name="generate-1095b-and-1095c-forms"></a>Gerar formulários 1095B e 1095C
 Você pode também gerar formulários 109-B e 1095-C do produto, e distribuí-los a cada um de seus funcionários. Gerando eletronicamente o 1095-C e os arquivos de transmissão 1094-C correspondentes, os quais podem ser usados para envio à IRS, eles também podem ser gerados a partir do sistema.  
 
-Ao gerar o formulário 1095-C, insira o calendário ou ano fiscal adequado, bem como se desejar imprimir o formulário de três páginas ou o de duas páginas. O formulário de três páginas só é necessário se o Empregador forneceu cobertura auto-segurada e o funcionário tem mais de seis dependentes cobertos, incluindo ele mesmo. Ao gerar o formulário de duas páginas, o sistema detectará automaticamente se o funcionário tem mais de 6 dependentes cobertos e não incluirá esse funcionário ao gerar o formulário. Além disso, ao gerar o formulário de três páginas, o sistema incluirá somente os funcionários que têm mais de seis dependentes cobertos.
+Ao gerar o formulário1095-C, insira o ano fiscal adequado e indique se os números de previdência social devem ser mascarados. Se você estiver imprimindo formulários 1095-C para mais de 500 funcionários, receberá mais de um arquivo PDF. É recomendável aumentar o **Tamanho máximo do arquivo** na janela **Parâmetros de gerenciamento de documentos** para 150 MB.
 
 ## <a name="viewing-information"></a>Visualizando informações
 Você pode usar a página **Cobertura de Serviços de Saúde Acessíveis do Trabalhador** para visualizar os funcionários que foram atribuídos a cada grupo de cobertura, os funcionários que não precisam ser incluídos em um relatório, e os funcionários que não foram atribuídos.

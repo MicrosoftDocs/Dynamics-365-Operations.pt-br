@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: e40c558e03ef230fee6726994bc94979d40493c2
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -52,8 +52,8 @@ Quantidades **Reservadas** e **Encomendas** também são mostradas para cada loc
 
 A lista de locais incluem dois tipos de entidades:
 
-- **Lojas de varejo** – A lista mostra as lojas configuradas usando o grupo de localizadores de lojas da loja atual na sede de varejo. 
-- **Centros de distribuição** – Os vários tipos de centros de distribuição (como depósitos) podem ser configurados no Microsoft Dynamics 365 for Retail. Entretanto, a lista mostra informações de disponibilidade de estoque somente para centros de distribuição do tipo **Padrão** . 
+- **Lojas de varejo** – A lista mostra as lojas configuradas usando o grupo de localizadores de lojas da loja atual na sede de varejo.
+- **Centros de distribuição** – Os vários tipos de centros de distribuição (como depósitos) podem ser configurados no Microsoft Dynamics 365 for Retail. Entretanto, a lista mostra informações de disponibilidade de estoque somente para centros de distribuição do tipo **Padrão** .
 
     > [!NOTE]
     > A disponibilidade das informações de estoque não é exibida para os depósitos dos tipos **Trânsito**, **Quarentena** e **Mercadorias no Roteiro** para o PDV.
@@ -86,7 +86,7 @@ Na exibição **Matriz com base na dimensão** , as células das grades do produ
 | **0** (zero)                             | Uma grade foi liberada para o local selecionado, mas o item não está disponível no local selecionado. Entretanto, você pode executar ações adicionais na célula. (Essas ações são descritas em mais detalhes posteriormente neste tópico). |
 | **n/a** ou uma célula inativa              | Uma grade não foi liberada para o local selecionado, e você pode não pode executar ações adicionais na célula. |
 
-Você também pode alterar a tabela dinâmica de dimensões marcando a nova dimensão a ser usada. 
+Você também pode alterar a tabela dinâmica de dimensões marcando a nova dimensão a ser usada.
 
 ![Alterando a tabela dinâmica](media/ChangePivot.png)
 
@@ -108,14 +108,12 @@ Além disso, na exibição **Matriz com base na dimensão** , mais ações podem
 
 A tabela a seguir fornece mais informações sobre ações adicionais disponíveis.
 
-
-|        Ação        |                                                                                                                    descrição                                                                                                                    |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|       Vender agora       |                               Adicionar a grade de itens selecionada para a transação e redirecionar o usuário para a tela da transação. (Esta ação não está disponível quando o local selecionado é um centro de distribuição.)                               |
-|   Retirar na loja   |      Criar uma ordem de cliente para a grade do produto que será retirada do local selecionado e redirecionar o usuário para a tela da transação. (Esta ação não está disponível quando o local selecionado é um centro de distribuição.)       |
-|     Enviar produto     |                                                 Criar uma ordem de cliente para a grade do produto que será enviada do local selecionado e redirecionar o usuário para a tela da transação.                                                 |
-|     Disponibilidade     |                                                                             Mostra as informações de ATP para a combinação de grade selecionada para o local selecionado.                                                                              |
-|  Mostrar todos os locais  | Alterne para as informações de exibição padrão de pesquisa de estoque e de disponibilidade de estoque de destaque para a grade de item em todas as lojas no grupo de localizador de loja e, também em centros de distribuição do tipo <strong>Padrão/padrão</strong>. |
-| Exibir detalhes do produto |                                                                         Redirecionar o usuário para a página <strong>Detalhes do produto</strong> do produto mestre associado.                                                                          |
-
+| Ação               | descrição |
+|----------------------|-------------|
+| Vender agora             | Adicionar a grade de itens selecionada para a transação e redirecionar o usuário para a tela da transação. (Esta ação não está disponível quando o local selecionado é um centro de distribuição.) |
+| Retirar na loja     | Criar uma ordem de cliente para a grade do produto que será retirada do local selecionado e redirecionar o usuário para a tela da transação. (Esta ação não está disponível quando o local selecionado é um centro de distribuição.) |
+| Enviar produto         | Criar uma ordem de cliente para a grade do produto que será enviada do local selecionado e redirecionar o usuário para a tela da transação. |
+| Disponibilidade         | Mostra as informações de ATP para a combinação de grade selecionada para o local selecionado. |
+| Mostrar todos os locais   | Alterne para as informações de exibição padrão de pesquisa de estoque e de disponibilidade de estoque de destaque para a grade de item em todas as lojas no grupo de localizador de loja e, também em centros de distribuição do tipo **Padrão/padrão**. |
+| Exibir detalhes do produto | Redirecionar o usuário para a página **Detalhes do produto** do produto mestre associado. |
 

@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 65e60f3e289bb68ea055548299d58bca42e84c02
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 17cd46ba9ee972c92db8950eea1cd258d67c2e92
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -28,8 +28,9 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-## <a name="overview"></a>Visão Geral 
-Com base nas configurações do Retail Headquarters, os produtos podem ser classificados como serializados ou não serializados. Quando os produtos são serializados, a cada item pode ser atribuído um número exclusivo que ajuda a rastrear garantias, rastrear itens e confirmar propriedade. Apesar da capacidade de fornecer números de série para produtos serializados existentes em nosso Ponto de Venda Moderno/Nuvem, algumas melhorias foram adicionadas para que os caixas ganhem tempo e sejam mais produtivos.  
+## <a name="overview"></a>Visão Geral
+
+Com base nas configurações do Retail Headquarters, os produtos podem ser classificados como serializados ou não serializados. Quando os produtos são serializados, a cada item pode ser atribuído um número exclusivo que ajuda a rastrear garantias, rastrear itens e confirmar propriedade. Apesar da capacidade de fornecer números de série para produtos serializados existentes em nosso Ponto de Venda Moderno/Nuvem, algumas melhorias foram adicionadas para que os caixas ganhem tempo e sejam mais produtivos.
 
 ## <a name="pos-improvements"></a>Melhorias POS
 
@@ -37,9 +38,9 @@ Com base nas configurações do Retail Headquarters, os produtos podem ser class
 
     Para cada item serializado onde o número de série é ignorado, aparecerá um comentário abaixo da linha da transação. Esse comentário indica que o número de série não foi fornecido para o item. Portanto, o caixa poderá encontrar rapidamente os itens que estão sem um número de série.
 
-    Uma nova operação **Adicionar número de série** também fornece o número de série para os itens que não têm um número de série. Depois que o número de série é fornecido, ele não pode ser editado. O caixa deve anular a linha e adicionar o produto novamente. 
+    Uma nova operação **Adicionar número de série** também fornece o número de série para os itens que não têm um número de série. Depois que o número de série é fornecido, ele não pode ser editado. O caixa deve anular a linha e adicionar o produto novamente.
     
-- **Os números de série não são necessários para gerar ordens de cliente** – As ordens do cliente podem ser substituídas em uma loja e atendidas de outra. Um caixa que gera uma ordem de cliente não precisa fornecer o número de série. O número de série será fornecido durante a etapa de separação ou de retirada. Entretanto, um número de série deve ser fornecido para todos os itens de linha no qual o tipo de entrega **Para viagem** for selecionado. Caso contrário, a transação não poderá ser concluída.    
+- **Os números de série não são necessários para gerar ordens de cliente** – As ordens do cliente podem ser substituídas em uma loja e atendidas de outra. Um caixa que gera uma ordem de cliente não precisa fornecer o número de série. O número de série será fornecido durante a etapa de separação ou de retirada. Entretanto, um número de série deve ser fornecido para todos os itens de linha no qual o tipo de entrega **Para viagem** for selecionado. Caso contrário, a transação não poderá ser concluída.
 - **Produtos serializados não são agregadas na tela da transação** – A configuração **Agregar produtos** no grupo de campos **Terminal** na página **Perfil de funcionalidade** permite que você agregue os mesmos produtos não serializados na tela da transação. Quando os mesmos produtos são agregados, é mais fácil visualizá-los na grade da transação. Porém, como números de série geralmente são exclusivos e os vendedores não precisam inserir números de série até a finalização da compra, a configuração **Agregar produtos** não se aplica aos produtos serializados. Portanto, os produtos serializados não serão agregados na tela da transação, se a configuração **Agregar produtos** for selecionada.
-- **Capacidade de pesquisar os diários por número de série** - Os diários agora também podem ser pesquisados por números de série. Para isso, abra a operação "Diários" e pressione o botão "Pesquisa avançada" na barra de aplicativos. Usando o botão “Adicionar filtro”, um filtro pode ser aplicado para pesquisar também os números de série.
+- **Capacidade de pesquisar os diários por número de série** – os diários agora também podem ser pesquisados por números de série. Para isso, abra a operação "Diários" e pressione o botão "Pesquisa avançada" na barra de aplicativos. Usando o botão “Adicionar filtro”, um filtro pode ser aplicado para pesquisar também os números de série.
 

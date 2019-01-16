@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: a0359f8312e5e3fe1349dbc89831c98c46cd61ff
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 73626ad21dfe2be7400f321a3eee272c896276f3
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -34,24 +34,22 @@ Para configurar uma ramificação paralela, execute estes procedimentos no edito
 Uma ramificação paralela é essencialmente um fluxo de trabalho executado no contexto de um fluxo de trabalho pai.
 
 ## <a name="name-a-branch"></a>Nomeie uma ramificação
+
 Siga estas etapas para inserir um nome para a ramificação paralela.
-1.  Clique com o botão direito do mouse na ramificação paralela e clique em **Propriedades**. O formulário **Propriedades** é exibido.
-2.  No painel esquerdo, clique em **Configurações Básicas**.
-3.  No campo **Nome**, insira um nome exclusivo para a ramificação paralela.
-4.  Clique em **Fechar**.
+
+1. Clique com o botão direito do mouse na ramificação paralela e clique em **Propriedades**. O formulário **Propriedades** é exibido.
+2. No painel esquerdo, clique em **Configurações Básicas**.
+3. No campo **Nome**, insira um nome exclusivo para a ramificação paralela.
+4. Clique em **Fechar**.
 
 ## <a name="design-and-configure-the-elements-of-a-branch"></a>Criar e configurar os elementos de ramificação
+
 Siga estas etapas para criar e configurar os elementos da ramificação paralela.
-1.  Clique duas vezes na ramificação paralela.
-2.  Arraste os elementos do fluxo de trabalho para a tela e configure-os como você faria para criar qualquer outro fluxo de trabalho. Para obter mais informações, consulte Criar um fluxo de trabalho.
 
+1. Clique duas vezes na ramificação paralela.
+2. Arraste os elementos do fluxo de trabalho para a tela e configure-os como você faria para criar qualquer outro fluxo de trabalho. Para obter mais informações, consulte [Criar um fluxo de trabalho](create-workflow.md).
 
-
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Criar um fluxo de trabalho](create-workflow.md)
-
-
-
 

@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c9f9368dc3e0fb4ed63250889016d6abe7d15a8c
-ms.openlocfilehash: 557e43c05f7015b04380f45fbd69f58a7250829a
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -42,7 +42,8 @@ As seguintes colunas especificam onde as operações podem ser invocados:
 - **Tela de transação** – A operação pode ser invocada de grades de botões PDV configuradas na tela de transação PDV.
 - **Tela de boas-vindas** – A operação pode ser invocada de grades de botões PDV configuradas na tela de boas-vindas PDV.
 
-Observação: as operações listadas a seguir se aplicam à versão mais recente do Dynamics 365 for Retail. Algumas operações podem ter mudado ou podem não estar disponíveis nas versões anteriores.
+> [!NOTE]
+> As operações listadas a seguir se aplicam à versão mais recente do Dynamics 365 for Retail. Algumas operações podem ter mudado ou podem não estar disponíveis nas versões anteriores.
 
 | ID | Operação | descrição | Grade de botões | Tela de transação | Tela de boas-vindas | Offline disponível | Específico de localidade |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|

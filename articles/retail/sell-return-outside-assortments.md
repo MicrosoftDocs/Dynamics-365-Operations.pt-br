@@ -19,10 +19,10 @@ ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 17981cef401085ad3af784950fff6260c2c6d9ee
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -30,15 +30,16 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-Um cenário comum para qualquer revendedor é vender produtos para seus clientes ou aceitar devoluções de seus clientes, mesmo que eles não transportem os produtos específicos em sua loja (em outras palavras, os produtos não são distribuídos na loja)
+Um cenário comum para qualquer varejista é vender produtos para seus clientes ou aceitar devoluções de seus clientes, mesmo que eles não tenham os produtos específicos em sua loja (ou seja, os produtos não são sortidos para a loja)
+
 Estes são alguns dos cenários típicos:
 
-+ Um revendedor não possui todos os seus produtos em uma loja específica. Os produtos restantes são armazenados no depósito. O associado da loja pode ajudar o cliente pesquisando ou navegando pelos produtos no depósito, adicionando-os ao carrinho e concluindo o check-out selecionando um método de entrega, como envio para um endereço do depósito ou deixando o cliente pegar o produto na loja atual ou em outra loja.
-+ Um revendedor não possui produtos específicos na loja ou não os possui em estoque na loja visitada pelo cliente, mas os produtos estão disponíveis em outras lojas. O associado da loja pode ajudar o cliente pesquisando ou navegando nos produtos na outra loja, adicione-os ao carrinho e complete o check-out selecionando um método de entrega.
-+ Um revendedor tem muitas lojas em e ao redor de uma cidade ou código postal específico e não quer forçar os clientes a devolver produtos à mesma loja em que foram comprados. Em vez disso, os clientes podem devolver o produto para qualquer loja.
-
++ Um revendedor não tem todos os seus produtos em uma loja específica. Os produtos restantes são armazenados no depósito. O associado da loja pode ajudar o cliente pesquisando ou navegando pelos produtos no depósito, adicionando-os ao carrinho e concluindo o check-out selecionando um método de entrega, como envio para um endereço do depósito ou deixando o cliente pegar o produto na loja atual ou em outra loja.
++ Um varejista não tem produtos específicos na loja ou não os possui em estoque na loja visitada pelo cliente, mas os produtos estão disponíveis em outras lojas. O associado da loja pode ajudar o cliente pesquisando ou navegando nos produtos na outra loja, adicione-os ao carrinho e complete o check-out selecionando um método de entrega.
++ Um varejista tem muitas lojas em uma cidade ou CEP e ao redor dela. Ele não quer forçar os clientes a devolver produtos à mesma loja em que fizeram a compra. Em vez disso, os clientes podem devolver o produto para qualquer loja.
 
 Esses cenários comuns estão disponíveis para varejistas usando o Dynamics 365 para Varejo. Com Varejo, você pode:
+
 + Pesquisar ou procurar produtos em outras lojas.
 + Procure ou procure todos os produtos lançados.
 + Crie transações de caixa e transporte ou ordens de clientes.

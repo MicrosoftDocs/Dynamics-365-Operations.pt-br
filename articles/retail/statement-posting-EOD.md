@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: d428da2a6fb8ce5d63c3373def879c9b32cfd492
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -59,11 +59,12 @@ Como parte das melhorias ao recurso de lançamento do demonstrativo, os três pa
 
 Além disso, o campo **Número máximo de lançamentos paralelos de demonstrativos** foi apresentado na Guia Rápida **Processamento em lotes**. Este campo define o número de tarefas de lote que deve ser executado ao mesmo tempo. Atualmente, você deve definir manualmente o valor deste campo.
 
-Além disso, com o novo processo de lançamento, é necessário definir um **Produto para o cartão-presente**​​ na Guia Rápida **Cartão-presente** na guia **Lançamento** da página **Parâmetros de varejo**. Isso se aplica mesmo que nenhum Cartão-presente seja usado pela organização. 
+Além disso, com o novo processo de lançamento, é necessário definir um **Produto para o cartão-presente**​​ na Guia Rápida **Cartão-presente** na guia **Lançamento** da página **Parâmetros de varejo**. Isso se aplica mesmo que nenhum Cartão-presente seja usado pela organização.
 
 Observe que todas as configurações e os parâmetros relacionados às postagens de demonstrativo, e definidos em lojas de Retail na página **Parâmetros de Retail**, são aplicáveis ao recurso aprimorado de postagem do demonstrativo.
 
 ## <a name="processing"></a>Processando
+
 As instruções podem ser calculadas e lançadas no lote com os itens de menu **Calcular instruções em lote** e **Lançar demonstrativos em lote**. Alternativamente, as instruções podem ser calculadas manualmente e lançadas usando o item de menu **Instruções de Retail** que o recurso aprimorado de postagem de demonstrativo fornece.
 
 O processo e as etapas para calcular e lançar demonstrativos em um lote são os mesmos no recurso herdado de postagem do demonstrativo. Entretanto, as melhorias significativas foram feitas no back-end principal processando os demonstrativos. Essas melhorias tornam o processo mais resiliente e fornecem uma melhor visibilidade nos estados e informações de erro. Portanto, os usuários podem solucionar o motivo principal dos erros e continuar o processo de postagem sem causar corrupção dos dados e sem causar a necessidade de corrigir dados.
@@ -71,6 +72,7 @@ O processo e as etapas para calcular e lançar demonstrativos em um lote são os
 As seções a seguir descrevem algumas das principais melhorias para o recurso de lançamento de demonstrativo que aparecem na interface do usuário para demonstrativos de varejo e postados.
 
 ### <a name="status-details"></a>Detalhes do status
+
 Um novo modelo de estado foi introduzido em uma rotina de lançamento de demonstrativo entre o cálculo e os processos de lançamento.
 
 A tabela a seguir descreve vários estados e a ordem durante o processo de cálculo.
@@ -109,9 +111,11 @@ Cada estado nas tabelas anteriores são independentes por natureza, e uma depend
 Além disso, o cabeçalho da segunda e terceira seções mostram o estado geral do processo relevante.
 
 ### <a name="event-logs"></a>Logs de eventos
+
 Um demonstrativo passa por várias operações (por exemplo, Criar, Calcular, Limpar e Lançar), e múltiplas instâncias da mesma operação podem ser chamadas durante o ciclo de vida do demonstrativo. Por exemplo, após um demonstrativo ser criado e calculado, um usuário pode limpar o demonstrativo e calculá-lo novamente. O botão **Logs de eventos** no grupo **Detalhes de execução** do demonstrativo fornece uma trilha de auditoria completa de várias operações que são chamadas em um demonstrativo, com informações sobre quando as operações foram chamadas.
 
 ### <a name="aggregated-transactions"></a>Transações agregadas
+
 Durante o processo de lançamento, as transações de venda são agregadas na configuração. Essas transações agregadas são armazenadas no sistema e usadas para criar ordens de vendas. Cada transação agregada cria uma ordem de venda correspondente no sistema. Você pode exibir as transações agregadas usando o botão **Transações agregadas** no grupo **Detalhes de execução** do demonstrativo.
 
 A guia **Detalhes da ordem de venda** de uma transação agregada mostra as seguintes informações:
@@ -136,11 +140,13 @@ A exibição agregada de transação a seguir fornece os benefícios:
 - O arquivo XML agregado facilita a identificação de problemas durante a criação e faturamento de ordem de venda.
 
 ### <a name="journal-vouchers"></a>Comprovantes de diário
+
 O botão **Comprovantes de diário** no grupo **Detalhes de execução** do demonstrativo mostra todas as várias transações de comprovantes que são criadas para um demonstrativo, e que são relacionadas a descontos, contas de renda/despesa, cartões-presente, e assim por diante.
 
 Atualmente, o programa exibirá somente esses dados para demonstrativos lançados.
 
 ### <a name="payment-journals"></a>Diários de pagamentos
+
 O botão **Diários de pagamento** no grupo **Detalhes de execução** do demonstrativo mostra todos vários diários de pagamento criados para um demonstrativo.
 
 Atualmente, o programa exibirá somente esses dados para demonstrativos lançados.

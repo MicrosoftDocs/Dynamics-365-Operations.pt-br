@@ -3,7 +3,7 @@ title: Criar, aprovar e assinar ofertas
 description: "Este tópico detalha como criar, aprovar e assinar uma oferta para um candidato usando o Dynamics 365 for Talent."
 author: josaw
 manager: AnnBe
-ms.date: 10/19/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: f6b17dca13431a9d674920833b4a44141fac0bd8
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -104,6 +104,11 @@ Há várias medidas que você pode adotar antes de enviar a oferta ao candidato.
 -  Você pode especificar uma data de vencimento da oferta. Espera-se que os candidatos aceitem ou rejeitem a oferta antes da data de vencimento.  O candidato receberá um lembrete 48 horas antes do vencimento da oferta.
 
 -  Talvez existam documentos adicionais a serem incluídos no processo de aceitação da oferta. Você terá a opção de listar o tipo de documento necessário.
+
+- Opção de assinatura eletrônica: Se o Adobe Sign foi escolhido como o método preferencial de assinatura eletrônica, os criadores de oferta precisam conectar a licença do Adobe Sign. Há duas maneiras de fazer isso. Vá para **Configurações** do Usuário em **Oferta**, em **Conexões** conectadas ao **Adobe Sign**. Como alternativa, você será solicitado a conectar-se à tela Enviar a oferta para o candidato se a conexão ainda não tiver sido estabelecida com base nas configurações do usuário. 
+
+> [!NOTE]
+> Os usuários só precisam conectar suas contas do Adobe Sign uma vez. A mesma licença de usuário é usada para todos os pacotes de oferta futuros que serão enviados pelo mesmo usuário. 
 
 -  Você pode exibir e editar o modelo de email conforme necessário.
 

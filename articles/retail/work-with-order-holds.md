@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 8dcba52526dd9dad1bd8b9753224f6386923f5a1
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -57,7 +57,7 @@ Depois que as informações de bloqueio forem inseridas e salvas, o usuário pod
 
 Se o sinalizador **Habilitar conclusão de ordem** for ativado no canal de call center, o pagamento não precisará ser aplicado a uma ordem que foi colocada em espera. Em contraste, para uma ordem de venda que não esteja em espera, os usuários não poderão sair da página de entrada de ordem de venda até que o pagamento seja aplicado. É claro que o pagamento deverá ser efetuado antes da liberação do bloqueio da ordem.
 
-Além disso, os usuários de call center podem bloquear manualmente ordens suspeitas de fraude por algum motivo. As ordens também podem ser colocadas em espera automaticamente quando correspondem a critérios e regras de fraude. Para saber mais sobre esse tipo de bloqueio de ordem, consulte [Configurar alertas de fraude](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-fraud-alerts).
+Além disso, os usuários de call center podem bloquear manualmente ordens suspeitas de fraude por algum motivo. As ordens também podem ser colocadas em espera automaticamente quando correspondem a critérios e regras de fraude. Para saber mais sobre esse tipo de bloqueio de ordem, consulte [Configurar alertas de fraude](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts).
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>Como exibir e gerenciar ordens que estão em espera
 

@@ -3,7 +3,7 @@ title: Atividades nos processos
 description: "Este tópico fornece informações sobre os vários tipos de atividades que podem ser usadas no processo de contratação."
 author: 
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: ccd9e2d0ff1f7fb6825c6823936b4013b3054f5d
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -62,6 +62,10 @@ A Atividade de entrevista é opcional. Essa atividade tem três componentes: dis
 - Para enviar email aos candidatos para solicitar a disponibilidade, defina a opção **Solicitar a disponibilidade do candidato** como **Ativado**. Se você definir opção como **Desativado**, a etapa não será exibida no processo de contratação no trabalho.
 - Para fazer uma transmissão ao vivo ou uma chamada em conferência usando o Skype for Business, defina o campo **Reunião online** como **Skype for Business**. O link correto **Ingressar na Reunião do Skype** será adicionado à solicitação de reunião para entrevista.
 - Para enviar emails aos candidatos para finalizar a agenda, defina a opção **Enviar email ao candidato** como **Ativado**. Se você definir a opção **Desativado**, os candidatos receberão o o agendamento de entrevista somente quando eles entrarem no Portal do candidato.
+
+>[!NOTE]
+> - Para todas as entrevistas 1:1, lembretes serão enviados para os entrevistadores a cada 24 horas eles não responderem (aceitar ou rejeitar) à solicitação de entrevista.
+> - Para todas as entrevistas de painel, não há lembretes automáticos para responder à solicitação de entrevista. Para disparar um lembrete manualmente, edite a entrevista e utilize a opção **Atualizar e Enviar** para retornar a solicitação para os entrevistadores.
 
 O componente de comentários permite que as pessoas insiram recomendações para um candidato. Eles também podem inserir outros comentários que queiram fazer. Se você ativar a opção **Herdar participantes de comentários da Equipe de Contratação**, o recrutador, o gerente de contratação e os entrevistadores serão inseridos automaticamente no componente de comentários. As organizações podem permitir que os entrevistadores exibam os comentários de outras pessoas antes que enviem seus próprios comentários. As organizações também podem permitir que os entrevistadores editem os comentários após o envio.
 

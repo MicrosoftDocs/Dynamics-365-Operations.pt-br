@@ -20,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 41930e89a7cae5cdb84e728da47de3bc5de312ca
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -41,7 +41,7 @@ Os layouts de tela exemplo incluídos com dados de demonstração do Retail forn
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>Anatomia da ID do layout de uma tela
 
-Para encontrar layouts de tela no Retail, vá até **Retail** > **Configuração de canal** > **Configuração do PDV** > **PDV** > **Layouts de tela**.
+Para encontrar layouts de tela no Retail, vá até **Retail** \> **Configuração de canal** \> **Configuração do PDV** \> **PDV** \> **Layouts da tela**.
 
 ![Página Layouts de tela no Retail](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,10 +107,8 @@ A tabela a seguir mostra os tamanhos de layout fornecidos para resoluções de t
 
 \* Esses tamanhos de layout adicionais estão disponíveis apenas nos layouts da Adventure Works e da Fabrikam.
 
-
->[!TIP]
-> O PDV seleciona automaticamente tamanhos do layout, com base no próximo tamanho disponível para resolução de tela da janela do aplicativo atual. Para localizar a ID do layout da tela e a resolução de layout usados no momento, no Retail Modern POS (MPOS) ou no Retail Cloud POS (CPOS), abra a página **Configurações**, e verifique a seção **Informações da sessão**. Você também pode consultar a resolução da janela real no quadro do aplicativo ou navegador atual. Após ter essas informações, você poderá localizar a fonte do conteúdo do layout no Retail. Vá para **Configuração de canal** > **Configuração do PDV** > **PDV** > **Layouts de tela**.
-
+> [!TIP]
+> O PDV seleciona automaticamente tamanhos do layout, com base no próximo tamanho disponível para resolução de tela da janela do aplicativo atual. Para localizar a ID do layout da tela e a resolução de layout usados no momento, no Retail Modern POS (MPOS) ou no Retail Cloud POS (CPOS), abra a página **Configurações**, e verifique a seção **Informações da sessão**. Você também pode consultar a resolução da janela real no quadro do aplicativo ou navegador atual. Após ter essas informações, você poderá localizar a fonte do conteúdo do layout no Retail. Vá para **Configuração do canal** \> **Configuração do PDV** \> **PDV** \> **Layouts da tela**.
 
 ![Layouts da tela e resoluções/tamanhos de layout no Retail e no PDV](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -126,10 +124,8 @@ Cada empresa fictícia é direcionada a um segmento de varejo diferente, e inclu
 | Fabrikam        | Houston  | Moda        | Verde  | Claro |
 | Contoso         | Boston   | Eletrônicos    | Vermelho    | Escuro  |
 
-
->[!NOTE]
+> [!NOTE]
 > A Adventure Works e a Fabrikam são duas marcas independentes. A Contoso está disponível, mas nem todos os layouts foram fornecidos.
-
 
 As ilustrações a seguir mostram exemplos da página de boas-vindas e da página de transação para as três empresas fictícias.
 
@@ -153,28 +149,26 @@ As ilustrações a seguir mostram exemplos da página de boas-vindas e da págin
 
 Os usuários receberam os vários layouts de tela. Usando esta tabela, você deve conseguir acessar qualquer tela. Basta entrar usando uma ID de operador apropriada.
 
-| Empresa         | ID do layout da tela | Persona          | IDs de Operador           |
-|-----------------|------------------|---------------   |------------------------|
-| Adventure Works | A3MGR            | Gerente da loja    | 000154, 000137, 000073 |
-| Adventure Works | A3CSH            | Caixa          | 000150, 000175, 000165 |
-| Adventure Works | A3STK            | Almoxarife      | 000155, 000181, 000152 |
-| Fabrikam        | F3MGR            | Gerente da loja    | 000160, 000168, 000163 |
-| Fabrikam        | F3CSH            | Caixa          | 000161, 000113, 000114 |
-| Fabrikam        | F3STK            | Almoxarife      | 000164, 000112, 000123 |
-| Contoso         | C3MGR            | Gerente da loja    | 000100, 000111         |
-| Contoso         | C3CSH            | Caixa          | 000110, 000120         |
-| Contoso         | Não Aplicável   | Almoxarife      | Não Aplicável         |
+| Empresa         | ID do layout da tela | Persona       | IDs de Operador           |
+|-----------------|------------------|---------------|------------------------|
+| Adventure Works | A3MGR            | Gerente da loja | 000154, 000137, 000073 |
+| Adventure Works | A3CSH            | Caixa       | 000150, 000175, 000165 |
+| Adventure Works | A3STK            | Almoxarife   | 000155, 000181, 000152 |
+| Fabrikam        | F3MGR            | Gerente da loja | 000160, 000168, 000163 |
+| Fabrikam        | F3CSH            | Caixa       | 000161, 000113, 000114 |
+| Fabrikam        | F3STK            | Almoxarife   | 000164, 000112, 000123 |
+| Contoso         | C3MGR            | Gerente da loja | 000100, 000111         |
+| Contoso         | C3CSH            | Caixa       | 000110, 000120         |
+| Contoso         | Não Aplicável   | Almoxarife   | Não Aplicável         |
 
-
->[!TIP]
+> [!TIP]
 > Para obter melhores resultados, ative um registro no local de loja correspondente, e defina a empresa como a empresa da persona que você pretende usar ao entrar. Assim, você ajuda a garantir que o perfil visual e as imagens de marcas estejam alinhados na experiência. Por exemplo, se você estiver interessado em ver um layout da Fabrikam para um caixa, ative um registro na loja de Houston.
-
 
 <!-- Hiding until the content page is available on CustomerSource -->
 
 <!-- ## Reference icons and images -->
 
-<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail > Channel setup > POS setup > POS > Images**. -->
+<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail \> Channel setup \> POS setup \> POS \> Images**. -->
 
 <!-- ![Images in Dynamics 365 for Retail](../retail/media/demo-screen-layouts-fig-5-1.png) -->
 

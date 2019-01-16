@@ -3,7 +3,7 @@ title: "Visão geral da liquidação"
 description: "Este artigo oferece informações gerais sobre o processo de liquidação. Ele descreve os tipos de transações que podem ser liquidadas, quando e como as transações podem ser liquidadas e os resultados do processo de liquidação."
 author: kweekley
 manager: AnnBe
-ms.date: 08/24/2018
+ms.date: 12/06/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2f1f11a7f1340d408374e658ae616ffa99f3c911
+ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
+ms.openlocfilehash: 9b82c6afa2812344ff8200e227ee8c5f2451584f
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/06/2018
 
 ---
 
@@ -52,5 +52,8 @@ Quando as transações são liquidadas, o saldo pendente de cada transação é 
 
 Se um pagamento [for menor do que o valor da fatura](../accounts-payable/vendor-payments-partial-amount.md) devido a um desconto à vista, baixa ou pagamento a menor, a fatura e o pagamento podem ainda ser fechados, dependendo da configuração dos parâmetros de Contas a pagar e dos parâmetros de Contas a receber. A liquidação também pode gerar transações. Por exemplo, a liquidação de uma fatura e de um pagamento pode gerar um desconto à vista, um ganho ou perda realizado, ajustes de impostos, baixas contábeis ou diferenças mínimas.
 
+
+## <a name="additional-resources"></a>Recursos adicionais
+- [Liquidar pendências](settle-remainder.md)
 
 

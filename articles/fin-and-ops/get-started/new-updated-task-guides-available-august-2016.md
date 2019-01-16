@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c7fc274bb9d942e85012211b1a7a14873447e5f3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 4fac04d1ea028bae9323b7961e64f3e49b74e482
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,8 +31,7 @@ ms.lasthandoff: 08/09/2018
 
 Este tópico lista os Guias de tarefas novos ou atualizados que foram lançados à Biblioteca Unificada APQC (agosto de 2016 - todos idiomas) Microsoft para Microsoft Dynamics AX. Nenhuma nova biblioteca Introdução foi lançada.
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guias de tarefas na (agosto de 2016 - todos os idiomas) Biblioteca Unificada APQC para Microsoft Dynamics AX
----------------------------------------------------------------------------------------------------
+## <a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guias de tarefas na (agosto de 2016 - todos os idiomas) Biblioteca Unificada APQC para Microsoft Dynamics AX
 
 A (agosto de 2016 - todos idiomas) Biblioteca Unificada APQC contém os Guias de tarefas que devem ser usados para obter ajuda com a atualização 2 (agosto de 2016) da plataforma do Microsoft Dynamics AX e de maio de 2016 da plataforma do Microsoft Dynamics AX e com a atualização de aplicativo, e versão de fevereiro de 2016 do Microsoft Dynamics AX February. Para mais informações sobre essas versões, consulte [Novidades ou alterações](whats-new-changed.md). Versões localizadas nas guias de tarefas estão disponíveis nesta biblioteca. Para obter mais informações sobre como conectar o sistema de ajuda à uma biblioteca de Guia de tarefas, consulte [Introdução à Ajuda](help-overview.md).
 
@@ -95,17 +94,11 @@ A (agosto de 2016 - todos idiomas) Biblioteca Unificada APQC contém os Guias de
 |-----------------------------------------------------------------------------|----------------|
 | Configurar um item de menu do dispositivo móvel para concluir o trabalho do tipo Ordem de compra | Global         |
 
-
-
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Novos guias de tarefas (fevereiro de 2016)](new-task-guides-available-february-2016.md)
 
 [Guias de tarefas novos ou atualizados (maio de 2016)](new-updated-task-guides-available-may-2016.md)
 
 [Guias de tarefas novos ou atualizados (novembro de 2016)](new-task-guides-november-2016.md)
-
-
-
 
