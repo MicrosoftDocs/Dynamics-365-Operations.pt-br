@@ -3,69 +3,82 @@ title: "Processar cartas de cobrança"
 description: "Este procedimento mostra como criar, imprimir e lançar cartas de cobrança."
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 12/04/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: CustPosting, SysQueryForm, CustCollectionLetterNote
+ms.search.form: CustPosting, CustCollectionLetterNote
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.search.validFrom: 2018-12-01
+ms.dyn365.ops.version: 8.1.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: a1bdf9528b52daa7bb719ea5a751a01e56a8c963
+ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
+ms.openlocfilehash: 33d9fd62a780ab109474eefa9e322a9c529f9e72
 ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
+ms.lasthandoff: 12/06/2018
 
 ---
-# <a name="process-collection-letters"></a><span data-ttu-id="e7594-103">Processar cartas de cobrança</span><span class="sxs-lookup"><span data-stu-id="e7594-103">Process collection letters</span></span>
+# <a name="process-collection-letters"></a><span data-ttu-id="b0b5a-103">Processar cartas de cobrança</span><span class="sxs-lookup"><span data-stu-id="b0b5a-103">Process collection letters</span></span>
 
-[!include [task guide banner](../../includes/task-guide-banner.md)]
+[!include [banner](../../includes/banner.md)]
+[!include [preview banner](../../includes/preview-banner.md)]
 
-<span data-ttu-id="e7594-104">Este procedimento mostra como criar, imprimir e lançar cartas de cobrança.</span><span class="sxs-lookup"><span data-stu-id="e7594-104">This procedure shows how to create, print, and post collection letters.</span></span> <span data-ttu-id="e7594-105">Esta tarefa usa a empresa de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="e7594-105">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="b0b5a-104">Este procedimento mostra como criar, imprimir e lançar cartas de cobrança.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-104">This procedure shows how to create, print, and post collection letters.</span></span> <span data-ttu-id="b0b5a-105">Esta tarefa usa a empresa de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-105">This task uses the USMF demo company.</span></span>
 
+## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a><span data-ttu-id="b0b5a-106">Configurar uma sequência de carta de cobrança no perfil de lançamento</span><span class="sxs-lookup"><span data-stu-id="b0b5a-106">Set up a collection letter sequence on the posting profile</span></span>
+1. <span data-ttu-id="b0b5a-107">Vá para **Crédito e cobranças > Configuração > Perfis de lançamentos de cliente**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-107">Go to **Credit and collections > Setup > Customer posting profiles**.</span></span>
+2. <span data-ttu-id="b0b5a-108">Clique em **Editar**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-108">Click **Edit**.</span></span>
+3. <span data-ttu-id="b0b5a-109">Selecione uma sequência de carta de cobrança na lista suspensa.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-109">Select a collection letter sequence from the drop-down list.</span></span> <span data-ttu-id="b0b5a-110">Se você não quiser gerar cartas de cobrança para transações usando este perfil de lançamento, deixe o campo em branco.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-110">If you do not want to generate collection letters for transactions using this posting profile, leave the field blank.</span></span>  
+4. <span data-ttu-id="b0b5a-111">Expanda a guia de restrição de tabela para alterar a forma como as cartas de cobrança são processadas.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-111">Expand the table restriction tab to change the way that collection letters are processed.</span></span> <span data-ttu-id="b0b5a-112">Se este campo estiver definido como **Sim**, as cartas de cobrança serão criadas para este perfil de lançamento.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-112">If this field is set to **Yes**, then collection letters will be created for this posting profile.</span></span>  
 
-## <a name="set-up-a-collection-letter-sequence-on-the-posting-profile"></a><span data-ttu-id="e7594-106">Configurar uma sequência de carta de cobrança no perfil de lançamento</span><span class="sxs-lookup"><span data-stu-id="e7594-106">Set up a collection letter sequence on the posting profile</span></span>
-1. <span data-ttu-id="e7594-107">Vá para Crédito e coleções > Configuração > Perfis de lançamento de cliente.</span><span class="sxs-lookup"><span data-stu-id="e7594-107">Go to Credit and collections > Setup > Customer posting profiles.</span></span>
-2. <span data-ttu-id="e7594-108">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="e7594-108">Click Edit.</span></span>
-    * <span data-ttu-id="e7594-109">Selecione uma sequência de carta de cobrança na lista suspensa.</span><span class="sxs-lookup"><span data-stu-id="e7594-109">Select a collection letter sequence from the drop-down list.</span></span> <span data-ttu-id="e7594-110">Se você não quiser gerar cartas de cobrança para transações usando este perfil de lançamento, deixe o campo em branco.</span><span class="sxs-lookup"><span data-stu-id="e7594-110">If you do not want generate collection letters for transactions using this posting profile, leave the field blank.</span></span>  
-    * <span data-ttu-id="e7594-111">A guia de restrição de tabela permite que você altere a forma que as cartas de cobrança são processadas.</span><span class="sxs-lookup"><span data-stu-id="e7594-111">The table restriction tab allows you to change the way that collection letters are processed.</span></span> <span data-ttu-id="e7594-112">Se este campo estiver definido como Sim, as cartas de cobrança serão criadas para este perfil de lançamento.</span><span class="sxs-lookup"><span data-stu-id="e7594-112">If this field is set to Yes, then collection letters will be created for this posting profile.</span></span>  
-3. <span data-ttu-id="e7594-113">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="e7594-113">Close the page.</span></span>
+## <a name="create-collection-letters"></a><span data-ttu-id="b0b5a-113">Criar cartas de cobrança</span><span class="sxs-lookup"><span data-stu-id="b0b5a-113">Create collection letters</span></span>
+1. <span data-ttu-id="b0b5a-114">Vá para **Crédito e cobranças > Carta de cobrança > Criar cartas de cobrança**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-114">Go to **Credit and collections > Collection letter > Create collection letters**.</span></span>
+2. <span data-ttu-id="b0b5a-115">Selecione os tipos de transação para os quais você usará cartas de cobrança.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-115">Select the transaction types for which you will collect letters.</span></span> <span data-ttu-id="b0b5a-116">Todas as transações abertas para esses tipos serão incluídas no cálculo.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-116">All of the open transactions for these types will be included in the calculation.</span></span>  
+2. <span data-ttu-id="b0b5a-117">No campo **Carta de cobrança**, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-117">In the **Collection letter** field, select an option.</span></span>
+3. <span data-ttu-id="b0b5a-118">Insira a data da carta de cobrança.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-118">Enter the date of the collection letter.</span></span>
+4. <span data-ttu-id="b0b5a-119">Selecione um perfil de lançamentos se você tiver alterado **Usar perfil de lançamento de** para **Selecionar**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-119">Select a posting profile if you changed **Use posting profile from** to **Select**.</span></span> <span data-ttu-id="b0b5a-120">Há duas opções de perfil de lançamento:</span><span class="sxs-lookup"><span data-stu-id="b0b5a-120">There are two posting profile options:</span></span>   
+   - <span data-ttu-id="b0b5a-121">**Conta** – use o perfil de lançamentos atribuído à conta de cliente para cada nota de juros.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-121">**Account** – Use the posting profile that is assigned to the customer account for each interest note.</span></span>   
+   - <span data-ttu-id="b0b5a-122">**Selecionar** - use o perfil de lançamentos selecionado no campo **Perfil de lançamentos**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-122">**Select** – Use the posting profile that you select in the **Posting profile** field.</span></span>  
+5. <span data-ttu-id="b0b5a-123">Expanda a seção **Registros a serem incluídos**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-123">Expand the **Records to include** section.</span></span>
+6. <span data-ttu-id="b0b5a-124">Clique em **Filtrar**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-124">Click **Filter**.</span></span>
+7. <span data-ttu-id="b0b5a-125">No campo **Critérios**, insira uma ID do Cliente.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-125">In the **Criteria** field, enter a Customer ID.</span></span> <span data-ttu-id="b0b5a-126">Por exemplo, insira 'US-001'.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-126">For example, enter 'US-001'.</span></span>
+8. <span data-ttu-id="b0b5a-127">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-127">Click **OK**.</span></span>
+9. <span data-ttu-id="b0b5a-128">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-128">Click **OK**.</span></span>
 
-## <a name="create-collection-letters"></a><span data-ttu-id="e7594-114">Criar cartas de cobrança</span><span class="sxs-lookup"><span data-stu-id="e7594-114">Create collection letters</span></span>
-1. <span data-ttu-id="e7594-115">Vá para Crédito e cobranças > Carta de cobrança > Criar cartas de cobrança.</span><span class="sxs-lookup"><span data-stu-id="e7594-115">Go to Credit and collections > Collection letter > Create collection letters.</span></span>
-    * <span data-ttu-id="e7594-116">Você deve selecionar os tipos de transação para os quais cobrará as cartas.</span><span class="sxs-lookup"><span data-stu-id="e7594-116">You must select the transaction types for which you will collect letters.</span></span> <span data-ttu-id="e7594-117">Todas as transações abertas para esses tipos serão incluídas no cálculo.</span><span class="sxs-lookup"><span data-stu-id="e7594-117">All of the open transactions for these types will be included in the calculation.</span></span>  
-2. <span data-ttu-id="e7594-118">No campo Carta de coleção, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="e7594-118">In the Collection letter field, select an option.</span></span>
-3. <span data-ttu-id="e7594-119">Insira a data da carta de cobrança.</span><span class="sxs-lookup"><span data-stu-id="e7594-119">Enter the date of the collection letter.</span></span>
-    * <span data-ttu-id="e7594-120">Há duas opções de perfil de lançamento: Conta – use o perfil de lançamento que é atribuído à conta do cliente para cada nota de juros.</span><span class="sxs-lookup"><span data-stu-id="e7594-120">There are two posting profile options:   Account – Use the posting profile that is assigned to the customer account for each interest note.</span></span>   <span data-ttu-id="e7594-121">Seleção - use o perfil de lançamento selecionado no campo Perfil de lançamento.</span><span class="sxs-lookup"><span data-stu-id="e7594-121">Select – Use the posting profile that you select in the Posting profile field.</span></span>  
-    * <span data-ttu-id="e7594-122">Selecione um perfil de lançamentos, se você modificou "Usar um perfil de lançamento de" para "Selecionar".</span><span class="sxs-lookup"><span data-stu-id="e7594-122">Select a posting profile if you changed "Use posting profile from" to "Select".</span></span>  
-4. <span data-ttu-id="e7594-123">Expanda os Registros para incluir a seção.</span><span class="sxs-lookup"><span data-stu-id="e7594-123">Expand the Records to include section.</span></span>
-5. <span data-ttu-id="e7594-124">Clique em Filtro.</span><span class="sxs-lookup"><span data-stu-id="e7594-124">Click Filter.</span></span>
-6. <span data-ttu-id="e7594-125">No campo Critérios, insira um ID do Cliente.</span><span class="sxs-lookup"><span data-stu-id="e7594-125">In the Criteria field, In the Criteria field, enter a Customer ID.</span></span> <span data-ttu-id="e7594-126">Por exemplo, insira 'US-001'.</span><span class="sxs-lookup"><span data-stu-id="e7594-126">For example, enter 'US-001'..</span></span>
-7. <span data-ttu-id="e7594-127">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="e7594-127">Click OK.</span></span>
-8. <span data-ttu-id="e7594-128">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="e7594-128">Click OK.</span></span>
+## <a name="print-collection-letters"></a><span data-ttu-id="b0b5a-129">Imprimir cartas de cobrança</span><span class="sxs-lookup"><span data-stu-id="b0b5a-129">Print collection letters</span></span>
+1. <span data-ttu-id="b0b5a-130">Vá para **Crédito e cobranças > Carta de cobrança > Revisar e processar cartas de cobrança**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-130">Go to **Credit and collections > Collection letter > Review and process collection letters**.</span></span>
+2. <span data-ttu-id="b0b5a-131">No campo **Status**, selecione **Criado'**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-131">In the **Status** field, select **Created**.</span></span>
+3. <span data-ttu-id="b0b5a-132">No campo **Impresso**, selecione **Não impresso'**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-132">In the **Printed** field, select **Not printed**.</span></span>
+4. <span data-ttu-id="b0b5a-133">Clique em **Imprimir**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-133">Click **Print**.</span></span>
+5. <span data-ttu-id="b0b5a-134">Clique em **Nota de carta de cobrança**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-134">Click **Collection letter note**.</span></span>
+6. <span data-ttu-id="b0b5a-135">Expanda a seção **Registros a serem incluídos**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-135">Expand the **Records to include** section.</span></span>
+7. <span data-ttu-id="b0b5a-136">Insira a data de fechamento para lançamentos.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-136">Enter the cutoff date for postings.</span></span>
+8. <span data-ttu-id="b0b5a-137">Clique em **OK** para imprimir a carta de cobrança.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-137">Click **OK** to print the collection letter.</span></span>
+9. <span data-ttu-id="b0b5a-138">Lance a carta de cobrança.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-138">Post the collection letter.</span></span>
+   1. <span data-ttu-id="b0b5a-139">Clique em **Enviar**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-139">Click **Post**.</span></span>
+   2. <span data-ttu-id="b0b5a-140">Inserir a nova data de lançamento para a carta de cobrança.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-140">Enter the posting date for the collection letter.</span></span>
+   3. <span data-ttu-id="b0b5a-141">Expanda a seção **Registros a serem incluídos**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-141">Expand the **Records to include** section.</span></span>
+   4. <span data-ttu-id="b0b5a-142">Clique em **OK**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-142">Click **OK**.</span></span>
+   5. <span data-ttu-id="b0b5a-143">No campo **Status**, selecione **Lançado'**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-143">In the **Status** field, select **Posted**.</span></span>
+   6. <span data-ttu-id="b0b5a-144">No campo **Impresso**, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-144">In the **Printed** field, select an option.</span></span>
 
-## <a name="print-collection-letters"></a><span data-ttu-id="e7594-129">Imprimir cartas de cobrança</span><span class="sxs-lookup"><span data-stu-id="e7594-129">Print collection letters</span></span>
-1. <span data-ttu-id="e7594-130">Vá para Crédito e cobranças > Carta de cobrança > Revisar e processar cartas de cobrança.</span><span class="sxs-lookup"><span data-stu-id="e7594-130">Go to Credit and collections > Collection letter > Review and process collection letters.</span></span>
-2. <span data-ttu-id="e7594-131">No campo Status, selecione 'Criado'.</span><span class="sxs-lookup"><span data-stu-id="e7594-131">In the Status field, select 'Created'.</span></span>
-3. <span data-ttu-id="e7594-132">No campo Impresso, selecione 'Não impresso'.</span><span class="sxs-lookup"><span data-stu-id="e7594-132">In the Printed field, select 'Not printed'.</span></span>
-4. <span data-ttu-id="e7594-133">Clique em Imprimir.</span><span class="sxs-lookup"><span data-stu-id="e7594-133">Click Print.</span></span>
-5. <span data-ttu-id="e7594-134">Clique em Nota de carta de cobrança.</span><span class="sxs-lookup"><span data-stu-id="e7594-134">Click Collection letter note.</span></span>
-6. <span data-ttu-id="e7594-135">Expanda os Registros para incluir a seção.</span><span class="sxs-lookup"><span data-stu-id="e7594-135">Expand the Records to include section.</span></span>
-7. <span data-ttu-id="e7594-136">Insira a data de fechamento para lançamentos</span><span class="sxs-lookup"><span data-stu-id="e7594-136">Enter the cutoff date for postings</span></span>
-8. <span data-ttu-id="e7594-137">Clique em OK para imprimir a carta de cobrança.</span><span class="sxs-lookup"><span data-stu-id="e7594-137">Click OK to print the collection letter.</span></span>
+## <a name="control-collection-letters-at-the-customer-level"></a><span data-ttu-id="b0b5a-145">Controle cartas de cobrança em nível de cliente</span><span class="sxs-lookup"><span data-stu-id="b0b5a-145">Control collection letters at the customer level</span></span>
+<span data-ttu-id="b0b5a-146">Você também pode configurar cartas de cobrança em nível de cliente para que o código da carta de cobrança para cada transação seja rastreado, mas o processamento da carta de cobrança será baseado em um único nível de carta de cobrança que é armazenado para o cliente.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-146">You can also set up collection letters at the customer level so that the collection letter code for each transaction is tracked, but the collection letter processing will be based on a single collection letter level that is stored for the customer.</span></span> <span data-ttu-id="b0b5a-147">A única carta de cobrança conterá todas as transações que estão vencidas para o cliente.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-147">The single collection letter will contain all transactions that are overdue for the customer.</span></span> <span data-ttu-id="b0b5a-148">Como os dias de carência agora são rastreados em nível de cliente, a próxima carta de cobrança não será enviada até que o número de dias de carência passe para a próxima carta de cobrança na sequência, mesmo que as transações expirem após o envio da última carta de cobrança.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-148">Because the grace days are now tracked on the customer level, the next collection letter will not be sent until the number of grace days has passed for the next collection letter in the sequence, even though transactions become overdue after the last collection letter was sent.</span></span> <span data-ttu-id="b0b5a-149">Esta opção reduz o número de cartas de cobrança enviadas por cliente.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-149">This option reduces the number of collection letters you will send per customer.</span></span> 
 
-## <a name="post-the-collection-letter"></a><span data-ttu-id="e7594-138">Lança a carta de cobrança</span><span class="sxs-lookup"><span data-stu-id="e7594-138">Post the collection letter</span></span>
-1. <span data-ttu-id="e7594-139">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="e7594-139">Click Post.</span></span>
-2. <span data-ttu-id="e7594-140">Inserir a nova data de lançamento para a carta de cobrança.</span><span class="sxs-lookup"><span data-stu-id="e7594-140">Enter the posting date for the collection letter.</span></span>
-3. <span data-ttu-id="e7594-141">Expanda os Registros para incluir a seção.</span><span class="sxs-lookup"><span data-stu-id="e7594-141">Expand the Records to include section.</span></span>
-4. <span data-ttu-id="e7594-142">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="e7594-142">Click OK.</span></span>
-5. <span data-ttu-id="e7594-143">No campo Status, selecione 'Lançado'.</span><span class="sxs-lookup"><span data-stu-id="e7594-143">In the Status field, select 'Posted'.</span></span>
-6. <span data-ttu-id="e7594-144">No campo Impresso, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="e7594-144">In the Printed field, select an option.</span></span>
+### <a name="set-up-the-customer-to-control-collection-letters-at-the-customer-level"></a><span data-ttu-id="b0b5a-150">Configure o cliente para controlar as cartas de cobrança em nível de cliente</span><span class="sxs-lookup"><span data-stu-id="b0b5a-150">Set up the customer to control collection letters at the customer level</span></span>
+1.  <span data-ttu-id="b0b5a-151">Vá para **Crédito e cobranças > Configuração > Parâmetros de contas a receber** e clique na guia **Cobranças**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-151">Go to **Credit and collections > Setup > Accounts receivable parameters** and click the **Collections** tab.</span></span> 
+2.  <span data-ttu-id="b0b5a-152">Altere o valor de **Criar carta de cobrança por** para **Cliente**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-152">Change the value of **Create collection letter per** to **Customer**.</span></span> 
+3.  <span data-ttu-id="b0b5a-153">Vá para **Crédito e cobranças > Carta de cobrança > Revisar e processar cartas de cobrança**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-153">Go to **Credit and collections > Collection letter > Review and process collection letters**.</span></span> <span data-ttu-id="b0b5a-154">Apenas uma carta de cobrança será gerada para um cliente com todas as transações vencidas.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-154">Only one collection letter will be generated for a customer with all the overdue transactions.</span></span>
 
+## <a name="ignore-payments-and-credit-memos-when-calculating-the-collection-letter-code"></a><span data-ttu-id="b0b5a-155">Ignore pagamentos e memorandos de crédito ao calcular o código da carta de cobrança</span><span class="sxs-lookup"><span data-stu-id="b0b5a-155">Ignore payments and credit memos when calculating the collection letter code</span></span>
+<span data-ttu-id="b0b5a-156">Se você incluir pagamentos e memorandos de crédito nas transações que serão incluídas nas cartas de cobrança, talvez alguns pagamentos ou memorando de crédito disparem uma carta de cobrança.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-156">If you include payments and credit memos in the transactions that will be included in the collection letters, you may have payments or credit memos that will trigger a collection letter.</span></span> <span data-ttu-id="b0b5a-157">Você pode controlar como os pagamentos e os memorandos de crédito controlam o código de carta de cobrança alterando o valor do parâmetro **Ignore pagamentos e memorandos de crédito ao calcular o código da carta de cobrança**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-157">You can control how payments and credit memos control the collection letter code by changing the value of the **Ignore payments and credit memos when calculating the collection letter code** parameter.</span></span> 
+
+<span data-ttu-id="b0b5a-158">Para ignore pagamentos e memorandos de crédito ao calcular o código da carta de cobrança, faça o seguinte:</span><span class="sxs-lookup"><span data-stu-id="b0b5a-158">To ignore payments and credit memos when calculating the collection letter code, do the following.</span></span>
+1. <span data-ttu-id="b0b5a-159">Vá para **Crédito e cobranças > Configuração > Parâmetros de contas a receber** e clique na guia **Cobranças**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-159">Go to **Credit and collections > Setup > Accounts receivable parameters** and click the **Collections** tab.</span></span> 
+2. <span data-ttu-id="b0b5a-160">Altere o valor de **Ignore pagamentos e memorandos de crédito ao calcular o código da carta de cobrança** para **Sim**.</span><span class="sxs-lookup"><span data-stu-id="b0b5a-160">Change the value of **Ignore payments and credit memos when calculating the collection letter code** to **Yes**.</span></span>
 
