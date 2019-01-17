@@ -20,10 +20,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 9952ece965f467a19c911219382da00dd25a29e7
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -33,18 +33,24 @@ ms.lasthandoff: 08/09/2018
 
 O tópico aborda como conectar periféricos ao seu Retail POS.
 
-**Observação:** para obter instruções específicas de instalação, consulte [Instalação e configuração da estação de hardware de varejo](retail-hardware-station-configuration-installation.md) e [Retail POS modernos autoatendimento download/instalação e ativação de dispositivo de POS modernos e POS de nuvem](retail-modern-pos-device-activation.md).
+> [!NOTE]
+> Para obter instruções específicas de instalação, consulte [Configuração e instalação da estação de hardware de varejo](retail-hardware-station-configuration-installation.md) e [Download/instalação de autoatendimento do Retail Modern POS e ativação de dispositivo do do Modern POS e do PDV em Nuvem](retail-modern-pos-device-activation.md).
 
 ## <a name="key-components"></a>Componentes da chave
+
 Vários componentes são usados para definir as relações entre um armazenamento, do ponto de venda (PDV) ou canais na loja e os periféricos de varejo que usam esses registros ou canais para processar transações. Esta seção descreve cada componente e explica como ele deve ser usado em uma implantação de loja de varejo.
 
 ### <a name="pos-registers"></a>Terminais de PDV
 
-Navegação: Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Registros**. O terminal de PDV é uma entidade usada para definir as características de uma instância específica do PDV. Essas características incluem o perfil ou configuração de hardware para os periféricos de varejo que serão usados no registro, a loja em que o registro está mapeado, e a experiência visual para o usuário que se conecta ao registro.
+Navegação: Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Registros**.
+
+O terminal de PDV é uma entidade usada para definir as características de uma instância específica do PDV. Essas características incluem o perfil ou configuração de hardware para os periféricos de varejo que serão usados no registro, a loja em que o registro está mapeado, e a experiência visual para o usuário que se conecta ao registro.
 
 ### <a name="devices"></a>Dispositivos
 
-Navegação: Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Dispositivos**. Um dispositivo é uma entidade que representa uma instância física de um dispositivo que é mapeado para um registro de POS. Quando um dispositivo é criado, ele é mapeado para um registro de POS. A entidade de dispositivo controla informações sobre quando uma registradora de POS é ativada, o tipo de cliente que está sendo usado e o pacote de aplicativo que foi implantado para um dispositivo específico. Os dispositivos podem ser de dois tipos: **Retail POS modernos** (MPOS) ou **Retail POS de nuvem** (POS de nuvem).
+Navegação: Clique em **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **Dispositivos**.
+
+Um dispositivo é uma entidade que representa uma instância física de um dispositivo que é mapeado para um registro de POS. Quando um dispositivo é criado, ele é mapeado para um registro de POS. A entidade de dispositivo controla informações sobre quando uma registradora de POS é ativada, o tipo de cliente que está sendo usado e o pacote de aplicativo que foi implantado para um dispositivo específico. Os dispositivos podem ser de dois tipos: **Retail POS modernos** (MPOS) ou **Retail POS de nuvem** (POS de nuvem).
 
 #### <a name="mpos"></a>MPOS
 
@@ -56,29 +62,43 @@ O PDV em nuvem é um PDV com base no navegador. Como ele é executado no navegad
 
 ### <a name="hardware-profile"></a>Perfil de hardware
 
-Navegação: Clique em **Comércio** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**. Um perfil de hardware identifica o hardware que está conectado a uma registradora de POS ou uma estação de hardware. O perfil de hardware também é usado para especificar os parâmetros de processador de pagamento que devem ser usados durante a comunicação com o kit de desenvolvimento de software (SDK) do pagamento. (O pagamento SDK é implantado como parte de uma estação de hardware).
+Navegação: Clique em **Comércio** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Perfis de PDV** &gt; **Perfis de hardware**.
+
+Um perfil de hardware identifica o hardware que está conectado a uma registradora de POS ou uma estação de hardware. O perfil de hardware também é usado para especificar os parâmetros de processador de pagamento que devem ser usados durante a comunicação com o kit de desenvolvimento de software (SDK) do pagamento. (O pagamento SDK é implantado como parte de uma estação de hardware).
 
 ### <a name="hardware-station"></a>Estação de hardware
 
-Navegação: Clique em **Varejo** &gt; **Canais** &gt; **Lojas de varejo** &gt; **Todas as lojas de varejo**. Selecione uma loja e clique na Guia Rápida **Estações de hardware**. Uma estação de hardware é uma instância da lógica de negócios que orienta periféricos de POS. Uma estação de hardware é automaticamente instalada junto com MPOS. Como alternativa, a estação de hardware pode ser instalada como um componente autônomo e então acessada pelo MPOS ou POS de nuvem por meio de um serviço da web. A estação de hardware deve ser definida no nível do canal.
+Navegação: Clique em **Varejo** &gt; **Canais** &gt; **Lojas de varejo** &gt; **Todas as lojas de varejo**. Selecione uma loja e clique na Guia Rápida **Estações de hardware**.
+
+Uma estação de hardware é uma instância da lógica de negócios que orienta periféricos de POS. Uma estação de hardware é automaticamente instalada junto com MPOS. Como alternativa, a estação de hardware pode ser instalada como um componente autônomo e então acessada pelo MPOS ou POS de nuvem por meio de um serviço da web. A estação de hardware deve ser definida no nível do canal.
 
 ### <a name="hardware-station-profile"></a>Perfil da estação de hardware
 
-Navegação: Clique em **Comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis das estações de hardware**. Enquanto a estação de hardware em si especificada no nível de canal inclui informações específicas de instância, como a URL para a estação de hardware, o perfil de estação de hardware inclui informações que podem ser estáticas ou compartilhadas entre várias estações de hardware. Informações estáticas incluem a porta que deve ser usada, o pacote de estação de hardware e o perfil de hardware. Informações estáticas também incluem uma descrição do tipo de estação de hardware que está sendo implantado, como **Check-out** ou **Retorno**, dependendo do hardware que é necessário para cada estação de hardware específico.
+Navegação: Clique em **Comércio** &gt; **Configuração de canal** &gt; **Configuração do PDV** &gt; **Perfis de PDV** &gt; **Perfis das estações de hardware**.
+
+Enquanto a estação de hardware em si especificada no nível de canal inclui informações específicas de instância, como a URL para a estação de hardware, o perfil de estação de hardware inclui informações que podem ser estáticas ou compartilhadas entre várias estações de hardware. Informações estáticas incluem a porta que deve ser usada, o pacote de estação de hardware e o perfil de hardware. Informações estáticas também incluem uma descrição do tipo de estação de hardware que está sendo implantado, como **Check-out** ou **Retorno**, dependendo do hardware que é necessário para cada estação de hardware específico.
 
 ## <a name="scenarios"></a>Cenários
+
 ### <a name="mpos-with-connected-peripheral-devices"></a>MPOS com dispositivos periféricos conectados
 
-[![Ponto de venda fixo tradicional](./media/traditional-300x279.png)](./media/traditional.png) 
+[![Ponto de venda fixo tradicional](./media/traditional-300x279.png)](./media/traditional.png)
 
-Para conectar os MPOS periféricos POS em um cenário de POS tradicional fixo, primeiro navegue até o registro em si e atribua um perfil de hardware a ele. Você pode encontrar terminais de PDV em **Varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Terminais**. Depois que você atribuiu o perfil de hardware, sincronize alterações no banco de canal usando o agendamento de distribuição "Registros". Você pode encontrar as agendas de distribuição em **Varejo** &gt; **TI de Varejo** &gt; **Agenda de distribuição**. Em seguida, defina uma estação de hardware "local" no canal. Clique em **Varejo** &gt; **Canais** &gt; **Lojas de varejo** &gt; **Todas as lojas de varejo** e selecione uma loja. Em seguida, na Guia Rápida **Estações de Hardware**, clique em **Adicionar** para adicionar uma estação de hardware. Digite uma descrição, digite **localhost** como o nome de host e sincronize as alterações para o canal usando a agenda de distribuição de "Configuração de canal". Você pode encontrar as agendas de distribuição em **Varejo** &gt; **TI de Varejo** &gt; **Agenda de distribuição**. Por fim, no MPOS, use a operação **Selecionar estação de hardware** para selecionar a estação de hardware **localhost**. Definir a estação de hardware **Ativo**. O perfil de hardware usado neste cenário deve vir da registradora do POS propriamente dito. Um perfil de estação de hardware não é necessário para esse cenário. **Observação:** algumas alterações de perfil de hardware, como alterações nas registradoras, exigem que um novo turno seja aberto depois que as alterações são sincronizadas para o canal. **Observação:** nuvem POS deve usar a estação de hardware independente para se comunicar com periféricos de varejo.
+Para conectar os MPOS periféricos POS em um cenário de POS tradicional fixo, primeiro navegue até o registro em si e atribua um perfil de hardware a ele. Você pode encontrar terminais de PDV em **Varejo** &gt; **Configuração de canal** &gt; **Configuração de PDV** &gt; **Terminais**. Após atribuir o perfil de hardware, sincronize alterações no banco de dados de canal usando o agendamento de distribuição "Registros". Você pode encontrar as agendas de distribuição em **Varejo** &gt; **TI de Varejo** &gt; **Agenda de distribuição**. Em seguida, defina uma estação de hardware "local" no canal. Clique em **Varejo** &gt; **Canais** &gt; **Lojas de varejo** &gt; **Todas as lojas de varejo** e selecione uma loja. Em seguida, na Guia Rápida **Estações de Hardware**, clique em **Adicionar** para adicionar uma estação de hardware. Digite uma descrição, digite **localhost** como o nome de host e sincronize as alterações para o canal por meio da agenda de distribuição de "Configuração de canal". Você pode encontrar as agendas de distribuição em **Varejo** &gt; **TI de Varejo** &gt; **Agenda de distribuição**. Por fim, no MPOS, use a operação **Selecionar estação de hardware** para selecionar a estação de hardware **localhost**. Definir a estação de hardware **Ativo**. O perfil de hardware usado neste cenário deve vir da registradora do POS propriamente dito. Um perfil de estação de hardware não é necessário para esse cenário.
+
+> [!NOTE]
+> Algumas alterações de perfil de hardware, como alterações nas registradoras, exigem que um novo turno seja aberto após a sincronização das alterações para o canal.
+>
+> O PDV em Nuvem deve usar a estação de hardware independente para comunica-ser com periféricos de varejo.
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>Os MPOS ou nuvem POS com uma estação de hardware independente
+
 [![Periféricos compartilhados](./media/shared-300x254.png)](./media/shared.png)
 
-Nesse cenário, uma estação de hardware independente é compartilhada entre clientes MPOS e POS de nuvem. Esse cenário requer que você crie um perfil de estação de hardware para especificar o pacote de download, a porta e o perfil de hardware que a estação de hardware usa. Você pode localizar o perfil da estação de hardware em **Varejo** &gt; **Configuração do canal** &gt; **Configuração de PDV** &gt; **Perfis de PDV** &gt; **Perfis da estação de hardware**. Depois de criar o perfil de estação de hardware, navegue até o canal de varejo específico (**Varejo** &gt; **Canais** &gt; **Lojas de varejo** &gt; **Todas as lojas de varejo**) e adicione uma nova estação de hardware. Mapeie essa nova estação de hardware para o perfil de estação de hardware que foi criado anteriormente. Em seguida, forneça uma descrição que ajudará o caixa identificar a estação de hardware. No campo **Nome do host**, insira o URL da máquina de host no seguinte formato: **https://&lt;Nome_Máquina:Porta&gt;/HardwareStation**. (Substitua **&lt;Nome_Máquina:Porta&gt;** pelo nome de máquina real da estação de hardware e pela porta especificada no perfil de estação de hardware). Para uma estação de hardware independente, você também deve especificar a transferência eletrônica de fundos (TEF) ID do terminal. Este valor identifica o terminal de TEF que é conectado à estação de hardware quando o conector de pagamento se comunica com o provedor de pagamentos. Em seguida, na máquina estação hardware real, navegue até o canal e selecione estação de hardware. Em seguida, clique em **Download** e instale a estação de hardware. Em seguida, dos MPOS ou POS de nuvem, use a operação **Selecionar estação de hardware** para selecionar estação de hardware que foi instalada anteriormente. Selecione **Par** para estabelecer uma relação de segurança entre o POS e a estação de hardware. Essa etapa deve ser concluída uma vez para cada combinação de um POS e uma estação de hardware. Depois que a estação de hardware é combinada, a mesma operação é usada para ativar a estação de hardware enquanto ele é usado. Para esse cenário, o perfil de hardware deve ser atribuído ao perfil da estação de hardware em vez de ao próprio registro. Se por algum motivo uma estação de hardware não tiver um perfil de hardware atribuído diretamente, o perfil de hardware será atribuído ao registro usado
+Nesse cenário, uma estação de hardware independente é compartilhada entre clientes MPOS e POS de nuvem. Esse cenário requer que você crie um perfil de estação de hardware para especificar o pacote de download, a porta e o perfil de hardware que a estação de hardware usa. Você pode localizar o perfil da estação de hardware em **Varejo** &gt; **Configuração do canal** &gt; **Configuração de PDV** &gt; **Perfis de PDV** &gt; **Perfis da estação de hardware**. Depois de criar o perfil de estação de hardware, navegue até o canal de varejo específico (**Varejo** &gt; **Canais** &gt; **Lojas de varejo** &gt; **Todas as lojas de varejo**) e adicione uma nova estação de hardware. Mapeie essa nova estação de hardware para o perfil de estação de hardware que foi criado anteriormente. Em seguida, forneça uma descrição que ajudará o caixa identificar a estação de hardware. No campo **Nome do host**, digite a URL do host de máquina no seguinte formato: `https://<MachineName:Port>/HardwareStation`. (Substitua **&lt;Nome_Máquina:Porta&gt;** pelo nome de máquina real da estação de hardware e pela porta especificada no perfil de estação de hardware). Para uma estação de hardware independente, você também deve especificar a transferência eletrônica de fundos (TEF) ID do terminal. Este valor identifica o terminal de TEF que é conectado à estação de hardware quando o conector de pagamento se comunica com o provedor de pagamentos. Em seguida, na máquina estação hardware real, navegue até o canal e selecione estação de hardware. Em seguida, clique em **Download** e instale a estação de hardware. Em seguida, dos MPOS ou POS de nuvem, use a operação **Selecionar estação de hardware** para selecionar estação de hardware que foi instalada anteriormente. Selecione **Par** para estabelecer uma relação de segurança entre o POS e a estação de hardware. Essa etapa deve ser concluída uma vez para cada combinação de um POS e uma estação de hardware. Depois que a estação de hardware é combinada, a mesma operação é usada para ativar a estação de hardware enquanto ele é usado. Para esse cenário, o perfil de hardware deve ser atribuído ao perfil da estação de hardware em vez de ao próprio registro. Se por algum motivo uma estação de hardware não tiver um perfil de hardware atribuído diretamente, o perfil de hardware será atribuído ao registro usado
 
 ## <a name="client-maintenance"></a>Manutenção do cliente
+
 ### <a name="registers"></a>Registradoras
 
 Terminais de PDV são gerenciados principalmente através de registradores próprios e também os perfis são atribuídos aos registros. Atributos que são específicos a um registro individual são gerenciados no nível do registro. Esses atributos incluem a loja em que o registro é usado, o número de registro, a descrição e a ID do terminal de TEF que é específica para o registro em si.
@@ -95,27 +115,36 @@ O perfil offline é definido no nível da loja. Ele é usado para especificar as
 
 O perfil de funcionalidade é definido no nível da loja. É usado para especificar configurações de loja sobre as funções que podem ser executadas no PDV. Os seguintes recursos são gerenciados com o perfil de funcionalidade. Esses recursos são organizados por Guia Rápida.
 
--   Guia Rápida **Geral**:
-    -   Organização Internacional de Normalização (ISO).
-    -   Criar cliente no modo offline.
-    -   Perfil de recibo de email.
-    -   Autenticação de logon central da equipe.
--   Guia Rápida **Funções**:
-    -   Gerenciamento de logon e logon estendido.
-    -   Aspectos financeiros e de moeda do POS, como a capacidade de chave em preços e se decimais são necessários para a moeda secundária.
-    -   Habilitando o registro de tempo por meio de PDV.
-    -   Como os produtos e pagamentos aparecem no POS e nos recebimentos.
-    -   Gerenciamento de Fechamento do Dia.
-    -   Parâmetros de retenção de transação do banco de dados do canal.
-    -   Como os clientes são pesquisados e criados pelo POS.
-    -   Como os descontos são calculados.
--   Guia Rápida **Valor**:
-    -   Preços máximo e mínimo que são permitidos.
-    -   Aplicativo e o cálculo do desconto.
--   Guia Rápida **Códigos informativos**:
-    -   Todos os aspectos como códigos informativos são gerenciados no PDV. Para obter detalhes, consulte [Códigos de informação](info-codes-retail.md).
--   Guia Rápida **Numeração de recibo**:
-    -   Especificar o recebimento de máscaras de numeração, que podem incluir segmentos para o número da loja, o número do terminal, constantes, e se as vendas e cotações, ordens de venda e retorno são impressos em sequências separadas ou se eles todos seguem a mesma sequência.
+- Guia Rápida **Geral**:
+
+    - Organização Internacional de Normalização (ISO).
+    - Criar cliente no modo offline.
+    - Perfil de recibo de email.
+    - Autenticação de logon central da equipe.
+
+- Guia Rápida **Funções**:
+
+    - Gerenciamento de logon e logon estendido.
+    - Aspectos financeiros e de moeda do POS, como a capacidade de chave em preços e se decimais são necessários para a moeda secundária.
+    - Habilitando o registro de tempo por meio de PDV.
+    - Como os produtos e pagamentos aparecem no POS e nos recebimentos.
+    - Gerenciamento de Fechamento do Dia.
+    - Parâmetros de retenção de transação do banco de dados do canal.
+    - Como os clientes são pesquisados e criados pelo POS.
+    - Como os descontos são calculados.
+
+- Guia Rápida **Valor**:
+
+    - Preços máximo e mínimo que são permitidos.
+    - Aplicativo e o cálculo do desconto.
+
+- Guia Rápida **Códigos informativos**:
+
+    - Todos os aspectos como códigos informativos são gerenciados no PDV. Para obter detalhes, consulte [Códigos de informação](info-codes-retail.md).
+
+- Guia Rápida **Numeração de recibo**:
+
+    - Especificar o recebimento de máscaras de numeração, que podem incluir segmentos para o número da loja, o número do terminal, constantes, e se as vendas e cotações, ordens de venda e retorno são impressos em sequências separadas ou se eles todos seguem a mesma sequência.
 
 #### <a name="receipt-profiles"></a>Perfis de recebimento
 
@@ -131,7 +160,7 @@ Perfis visuais são atribuídos no nível do registro. Eles são usados para esp
 
 ### <a name="custom-fields"></a>Campos personalizados
 
-Você pode criar campos personalizados para adicionar campos que não são fornecidos prontos para o PDV. Para obter mais informações sobre como usar campos personalizados, consulte a postagem do blog [Trabalhando com campos personalizados](https://blogs.msdn.microsoft.com/axsupport/2012/08/06/ax-for-retail-2012-working-with-custom-fields/).
+Você pode criar campos personalizados para adicionar campos que não sejam fornecidos prontos para o PDV. Para obter mais informações sobre como usar campos personalizados, consulte a postagem do blog [Trabalhando com campos personalizados](https://blogs.msdn.microsoft.com/axsupport/2012/08/06/ax-for-retail-2012-working-with-custom-fields/).
 
 ### <a name="language-text"></a>Texto do idioma
 
@@ -149,17 +178,14 @@ Configurar os relatórios que estão disponíveis no canal de varejo na página 
 
 Dispositivos são explicados neste artigo. Eles são usados para gerenciar a ativação de um registro de POS específico. Dispositivos também são usados para especificar o aplicativo que é usado para um registro específico e o pacote de instalação que deve ser usado para instalar o cliente MPOS. Aqui estão os estados de ativação do dispositivo:
 
--   **Pendente** – o dispositivo está pronto para ser ativado.
--   **Ativado** – o dispositivo foi ativado.
--   **Desativado** – o dispositivo foi desativado na Sede de varejo ou por meio de PDV.
--   **Desativado** – o dispositivo foi desativado.
+- **Pendente** – o dispositivo está pronto para ser ativado.
+- **Ativado** – o dispositivo foi ativado.
+- **Desativado** – o dispositivo foi desativado na Sede de varejo ou por meio de PDV.
+- **Desativado** – o dispositivo foi desativado.
 
 Informações adicionais relacionadas à ativação incluem o trabalhador que alterou o status de ativação do dispositivo, um carimbo de data/hora a ativação, e se a configuração do dispositivo foi validada.
 
 ### <a name="client-data-synchronization"></a>Sincronização de dados do cliente
 
-Todas as alterações em um cliente de POS, exceto as alterações no status de ativação do dispositivo, devem ser sincronizadas no banco de dados do canal entrem em vigor. Para sincronizar as alterações feitas no banco de dados, navegue até **Varejo** &gt; **TI de Varejo** &gt; **Agenda de distribuição** e execute a agenda de distribuição necessária. Para alterações de cliente, você deve executar as agendas de distribuição "Registros" e "Configuração dos canais".
-
-
-
+Todas as alterações em um cliente de POS, exceto as alterações no status de ativação do dispositivo, devem ser sincronizadas no banco de dados do canal entrem em vigor. Para sincronizar as alterações feitas no banco de dados, navegue até **Varejo** &gt; **TI de Varejo** &gt; **Agenda de distribuição** e execute a agenda de distribuição necessária. Para alterações de cliente, você deve executar as agendas de distribuição "Registros" e "Configuração do canal".
 

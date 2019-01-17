@@ -31,20 +31,18 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-Você pode estudar a lucratividade dos 10 principais produtos usando o Microsoft Dynamics 365 para Varejo. 
+Você pode estudar a lucratividade dos 10 principais produtos usando o Microsoft Dynamics 365 para Varejo.
 
 Como parte do Dynamics 365 para Varejo, os usuários também podem estudar a lucratividade dos melhores produtos (10 a 100) nos diferentes níveis da hierarquia organizacional, com base em um dos seguintes critérios:
 
--   Valor de venda
--   Quantidade
--   Margem de lucro bruto
--   Percentual de margem
+- Valor de venda
+- Quantidade
+- Margem de lucro bruto
+- Percentual de margem
 
 Nesta avaliação, você pode usar o relatório predefinido de **Melhores produtos**, que pode ser aberto em qualquer um destes locais:
 
--   Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de melhores produtos**
--   Área de trabalho **Gerenciamento de categorias e produto** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de melhores produtos**
--   Seção **Consultas e relatórios** &gt; **Varejo** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de melhores produtos**
-
-
+- Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de melhores produtos**
+- Área de trabalho **Gerenciamento de categorias e produto** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de melhores produtos**
+- Seção **Consultas e relatórios** &gt; **Varejo** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de melhores produtos**
 

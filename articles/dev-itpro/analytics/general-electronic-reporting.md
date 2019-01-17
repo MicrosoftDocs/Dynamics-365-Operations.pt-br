@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
-ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
+ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
+ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -174,11 +174,11 @@ Um repositório do **Sistema de arquivos** fornece acesso à lista de definiçõ
 - ambientes armazenados em nuvem implantados para fins de desenvolvimento (contendo modelos de teste de pacotes integrados)
 - ambientes localmente implantados (implantação LBD ou no local)
 
-Visite a página [Configurações de Importação de relatório eletrônico (ER)](/electronic-reporting-import-ger-configurations.md) para obter mais detalhes sobre isso.
+Visite a página [Configurações de Importação de relatório eletrônico (ER)](./electronic-reporting-import-ger-configurations.md) para obter mais detalhes sobre isso.
 
 Um repositório de **Instância do RCS** fornece acesso à lista de configurações de uma instância RCS específica que foi selecionada na fase de registro do repositório. O ER permite a importação concluída ou configurações compartilhadas da instância selecionada de RCS na instância Finance and Operations e usado para relatório eletrônico.
 
-Visite a página [Configurações de Importação de relatório eletrônico (ER) de Serviços de Configuração Regulatória (RCS)](/rcs-download-configurations.md) para obter mais detalhes sobre isso.
+Visite a página [Configurações de Importação de relatório eletrônico (ER) de Serviços de Configuração Regulatória (RCS)](./rcs-download-configurations.md) para obter mais detalhes sobre isso.
 
 Os repositórios de **Projeto LCS**, **Sistema de arquivo** e **Serviços de configuração regulatória (RCS)** podem ser registrados individualmente para cada provedor de configuração da instância atual do Finance and Operations. Cada repositório pode ser dedicado a um provedor de configuração específico.
 

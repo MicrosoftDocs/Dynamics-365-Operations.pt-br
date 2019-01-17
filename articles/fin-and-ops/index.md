@@ -51,7 +51,7 @@ Muito desse conteúdo também se aplica aos produtos relacionados: Microsoft Dyn
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack para o Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">Integrando um projeto</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">Preparando para ativação</a></p>
-  
+
 <h3><a href="../financials/index.md">Gerenciamento financeiro</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">Contas a Pagar</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">Contas a Receber</a></p>
@@ -65,7 +65,7 @@ Muito desse conteúdo também se aplica aos produtos relacionados: Microsoft Dyn
 <p><a href="../financials/public-sector/public-sector-functionality.md">Setor público</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">Recursos regulatórios regionais</a></p>
 
-<H3><a href="hr/hr-landing-page.md">Recursos humanos</a></h3>
+<h3><a href="hr/hr-landing-page.md">Recursos humanos</a></h3>
 <p><a href="../talent/manage-benefit-program.md">Benefícios</a></p>
 <p><a href="../talent/performance-management-overview.md">Desenvolvimento e treinamento de funcionários</a></p>
 <p><a href="../talent/questionnaires.md">Questionário</a></p>

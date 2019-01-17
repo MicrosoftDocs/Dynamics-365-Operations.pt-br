@@ -69,6 +69,3 @@ O serviço de logon pode ser estendido para oferecer suporte a dispositivos de l
 
 Quando o logon estendido for configurado, e um trabalhador receber um código de barras ou uma tarja magnética, o trabalhador precisará apenas passar o dedo ou digitalizar o cartão enquanto a página de logon é exibida. Se for necessário também uma senha para que o logon possa continuar, o trabalhador será solicitado a inserir a senha.
 
-
-
-

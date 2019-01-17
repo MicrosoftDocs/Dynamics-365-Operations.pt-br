@@ -3,7 +3,7 @@ title: "Dimensões financeiras"
 description: "Este tópico descreve os vários tipos de dimensões financeiras e como elas são configuradas."
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2018
+ms.date: 01/03/2019
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
-ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
+ms.sourcegitcommit: 92d1f2997ca8ea1bd47dfe47d91bf7f6234833b0
+ms.openlocfilehash: 2fb325e143eff067e1c9d0f23a1f913fc2dc36f3
 ms.contentlocale: pt-br
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -93,6 +93,8 @@ Você pode usar valores de registros mestres, como o cliente e fornecedor, como 
 Este recurso é controlado por uma configuração da dimensão. Esta configuração é chamada **Copiar valores para essa dimensão em cada novo DimensionName criado**, no qual **DimensionName** é o nome da dimensão. Por padrão, o recurso será desativado. Entretanto, ele poderá ser ativado a qualquer momento.
 
 Se já existem registros para a dimensão, os registros mestre serão atualizados quando você ativar o recurso. Porém, os documentos existentes e as transações não serão atualizados.
+
+Se estiver usando um modelo para criar um registro mestre, verifique se o valor do modelo para a dimensão mestre está em branco. Por exemplo, se você estiver criando clientes a partir de um modelo, verifique se a dimensão do cliente no modelo está em branco. O valor de dimensão do cliente será padronizado com o novo número de cliente quando você criar o novo cliente.  
 
 ## <a name="derived-dimensions"></a>Dimensões derivadas
 

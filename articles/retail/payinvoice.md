@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
-ms.openlocfilehash: 53c4b9a9c9dac1add7021d909b2c8900d11e5c0c
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
 ms.contentlocale: pt-br
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>Configurar cenários de fatura de pagamento
@@ -30,22 +30,19 @@ ms.lasthandoff: 12/04/2018
 [!include [banner](includes/banner.md)]
 
 A funcionalidade Pagar fatura no Dynamics 365 for Retail foi expandida para dar suporte a:
+
 - Pagamento de várias faturas de ordens de venda em uma única transação de PDV.
 - Pagamento de vários tipos de fatura de cliente, incluindo faturas de texto livre, faturas baseadas em projetos e notas de crédito.
 
-Para habilitar esses cenários, o perfil de funcionalidade para lojas deve ser configurado conforme definido abaixo.  
+Para habilitar esses cenários, o perfil de funcionalidade para lojas deve ser configurado conforme definido abaixo.
 
-1. Vá para **Varejo > Configuração de canal > Configuração do PDV > Perfis de PDV > Perfis de funcionalidade** e selecione um perfil vinculado às lojas para as quais deseja fazer as alterações.
+1. Vá para **Varejo \> Configuração de canal \> Configuração do PDV \> Perfis de PDV \> Perfis de funcionalidade** e selecione um perfil vinculado às lojas nas quais deseja fazer as alterações.
+2. Na guia **Funções**, configure os parâmetros a seguir conforme necessário.
 
-1. Na guia **Funções**, configure os parâmetros a seguir conforme necessário.
-
-    - **Fatura de ordem de venda** - Selecione **Sim** para permitir que os usuários paguem uma ou mais faturas baseadas em ordem de venda em uma única transação de PDV.
-
-    - **Fatura de texto livre** - Selecione **Sim** para permitir que os usuários paguem uma ou mais faturas de texto livre em uma única transação de PDV.
-
-    - **Fatura de projeto** - Selecione **Sim** para permitir que os usuários paguem uma ou mais faturas baseadas em projeto em uma única transação de PDV.
-
-    - **Nota de crédito de ordem de venda** - Selecione **Sim** para permitir que os usuários liquidem várias notas de crédito baseadas em ordem de venda de faturas em aberto ou processem um reembolso a um cliente de uma nota de crédito em aberto.
+    - **Fatura de ordem de venda** – Selecione **Sim** para permitir que os usuários paguem uma ou mais faturas baseadas em ordem de venda em uma única transação de PDV.
+    - **Fatura de texto livre** – Selecione **Sim** para permitir que os usuários paguem uma ou mais faturas de texto livre em uma única transação de PDV.
+    - **Fatura de projeto** – Selecione **Sim** para permitir que os usuários paguem uma ou mais faturas baseadas em projeto em uma única transação de PDV.
+    - **Nota de crédito de ordem de venda** – Selecione **Sim** para permitir que os usuários liquidem várias notas de crédito baseadas em ordem de venda de faturas em aberto ou processem um reembolso a um cliente de uma nota de crédito em aberto.
 
 > [!NOTE]
 > Ainda não existe suporte para o pagamento nem para a liquidação de valores parciais.

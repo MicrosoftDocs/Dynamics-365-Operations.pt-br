@@ -40,6 +40,7 @@ A ilustração a seguir mostra as relações entre as várias entidades que comp
 ![Entidades do layout da tela do PDV](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>Perfil visual
+
 Os perfis visuais são atribuídos às caixas registradoras e usados para especificar os elementos visuais que são específicos da caixa registradora e compartilhados entre os usuários. Todo usuário que entrar na caixa registradora terá o mesmo tema, cores e imagens.
 
 ![Tela de boas-vindas do PDV com tema Claro](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ Os perfis visuais são atribuídos às caixas registradoras e usados para especi
 - **Plano de fundo do aplicativo** – você pode especificar uma imagem de plano de fundo para ser usada no lugar da cor sólida do tema no aplicativo. Quanto ao segundo plano de logon, o tamanho do arquivo deve ser o menor possível.
 
 ## <a name="screen-layouts"></a>Layouts da tela
+
 As configurações do layout de tela determinam as ações, conteúdo e posicionamento dos controles de IU na tela de boas-vindas do PDV e na tela de **transação**.
 
 ![Exibição do layout da tela do PDV](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ Durante a inicialização, o aplicativo de PDV selecionará automaticamente o ta
 ![Tamanhos de layout do PDV](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>Grades de botões
+
 Para cada tamanho de layout em um layout de tela, é possível configurar e atribuir grades de botões para a tela de boas-vindas do PDV e para a tela de **transação**. As grades de botões da tela de boas-vindas são apresentadas automaticamente da esquerda para a direita, partindo do número mais baixo (Tela de boas-vindas 1) para o número mais alto.
 
 Em layouts de PDV completos, o posicionamento das grades de botões é especificado no designer de layout de tela.
@@ -104,6 +107,7 @@ Em layouts de PDV compactos, as grades de botões são apresentadas automaticame
 ![Grades de botões de layout compacto](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a>Imagens
+
 Para cada tamanho de layout em um layout de tela, é possível especificar imagens a serem incluídas na interface do usuário do PDV. Para layouts de PDV completos, uma única imagem pode ser especificada para a tela de boas-vindas. Essa imagem aparecerá como o primeiro elemento de interface do usuário à esquerda. Na tela de **transação**, as imagens podem ser usadas como imagens de guia ou como um logotipo. Os layouts de PDV compactos não usam essas imagens.
 
 ### <a name="screen-layout-designer"></a>Designer do layout da tela
@@ -141,11 +145,13 @@ O designer de layout completo permite que os usuários arrastem controles de int
     - **Controle personalizado** – o controle personalizado age como um espaço reservado no layout de tela para permitir que você reserve espaço para conteúdo personalizado. O controle personalizado está disponível somente para layouts completos.
 
 ### <a name="compact-layout-designer"></a>Designer de layout compacto
+
 Como o designer de layout, o designer de layout compacto permite que você configure o layout da tela do PDV para telefones e tablets pequenos. No entanto, nesse caso, o layout em si é fixo. Você pode configurar os controles no layout clicando com o botão direito do mouse e usando o menu de atalho. No entanto, não é possível usar operações de arrastar e soltar para o conteúdo adicional.
 
 ![Designer de layout compacto](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>Designer de grade de botões
+
 O designer de grade de botões permite que você configure grades de botões que podem ser usadas na tela de boas-vindas do PDV e na tela de **transação** nos layouts completo compacto. A mesma grade de botões pode ser usada em vários layouts e tipos de layout. Como o designer de layout de tela, o designer de grade de botões usa a tecnologia de implantação ClickOnce para baixar, instalar e iniciar a versão mais recente do aplicativo toda vez que o usuário acessá-lo. Certifique-se de verificar os requisitos do navegador para ClickOnce. Alguns navegadores, como o Google Chrome, exigem extensões.
 
 ![Designer de grade de botões](../retail/media/Button-Grid-Designer.png)

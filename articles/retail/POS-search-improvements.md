@@ -66,7 +66,7 @@ A experiência de pesquisas locais de produto agora é feita de forma mais amig�
 - Fornecedores podem agora configurar a pesquisa de produtos para mostrar sugestões de pesquisa como nomes de produto do tipo de usuário. Uma nova configuração para esta funcionalidade está disponível no perfil da funcionalidade de PDV, em um grupo chamado **Pesquisa de produto**. A configuração é chamada **Mostrar sugestões de pesquisa ao digitar**. Esta funcionalidade pode ajudar funcionários a encontrar rapidamente o produto que eles estão pesquisando, porque eles não precisam digitar o nome completo manualmente.
 - O algoritmo de pesquisa do produto agora também procura os termos pesquisados na propriedade **Pesquisar nome** do produto.
 
-![Sugestões de produto](./media/Productsuggestions.png "Sugestões de produto")
+    ![Sugestões de produto](./media/Productsuggestions.png "Sugestões de produto")
 
 ## <a name="customer-search"></a>Pesquisa de Cliente
 

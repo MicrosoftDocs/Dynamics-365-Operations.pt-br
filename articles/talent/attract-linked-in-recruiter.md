@@ -3,7 +3,7 @@ title: Fornecimento com o LinkedIn Recruiter
 description: "Este tópico fornece informações sobre o uso de machine learning para obter recomendações de trabalho e recomendações de candidatos ao trabalho."
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: 106103e2c3d8f3d89aac5140174e5794da22536f
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -83,7 +83,12 @@ Depois que os recursos do LinkedIn Recruiter forem habilitados pelo administrado
 
 Você pode exibir o perfil do LinkedIn do candidato no Attract. O widget do LinkedIn exibirá o perfil do candidato quando as informações de ATS corresponderem com as informações do LinkedIn de seus usuários.
 
-Para exibir um perfil, acesse o perfil do candidato a partir de um trabalho ou de um grupo de talentos. No perfil do candidato, selecione a guia **LinkedIn** e o widget de perfil será carregado. Usando o widget de perfil, indique se esta é a correspondência correta. Caso contrário, encontre a pessoa correta. Você também pode salvar o candidato em seus projetos do LinkedIn Recruiter a nessa página.
+Para exibir um perfil, acesse o perfil do candidato a partir de um trabalho ou de um grupo de talentos. No perfil do candidato, selecione a guia **LinkedIn** e o widget de perfil será carregado. Você também pode salvar o candidato em seus projetos do LinkedIn Recruiter a nessa página.
+1. Se o LinkedIn encontrou a correspondência com base no email e na ID de membro do LinkedIn (correspondência exata), o perfil do candidato aparecerá. O usuário ainda tem a opção de vincular/desvincular o perfil.
+
+2. Se o LinkedIn não conseguir encontrar o candidato com base no seu email ou ID de membro, ele mostrará uma lista de possíveis correspondências de candidatos com base no nome do candidato e o usuário poderá escolher uma delas e vincular o perfil.  
+
+3. Se o LinkedIn não localizar um candidato com base no nome, ele indicará que não foram encontradas correspondências.
 
 ### <a name="1-click-export"></a>Exportação em um clique 
 
@@ -117,11 +122,14 @@ Usando o LinkedIn Recruiter, você poderá rastrear se um candidato se candidato
 
 6.  Selecione a guia **Observações** para consultar as observações que foram feitas sobre o candidato no Attract.
 
+> [!NOTE]
+> O candidato e os dados do aplicativo não serão sincronizados no LinkedIn Recruiter se o candidato não passar do estágio de cliente potencial.
+
 ### <a name="inmail-history"></a>Histórico do InMail
 
 O histórico do LinkedIn InMail está disponível com o acesso no nível de contrato do LinkedIn Recruiter. Quando habilitado, você poderá exibir o histórico completo do InMail com o candidato. Você também poderá consultar quem mais em sua organização trocou InMails com o candidato, no entanto, você não poderá exibir as mensagens entre eles.
 
-Para exibir o histórico do InMail, acesse o perfil de um candidato, acesse a guia **LinkedIn** e role para a parte inferior da página para exibir o histórico. Você poderá exibir o histórico do InMail somente se o candidato tiver respondido à sua solicitação e optado por compartilhar o perfil com você no LinkedIn. As mensagens do InMail sincronizam com o Attract a cada duas horas.
+Para exibir o histórico do InMail, acesse o perfil de um candidato, acesse a guia **LinkedIn** e role para a parte inferior da página para exibir o histórico. Você poderá exibir o histórico do InMail se tiver conversado com o candidato. As mensagens do InMail serão sincronizadas com o Attract em um intervalo de algumas horas.
 
 ### <a name="notes-history"></a>Histórico de observações 
 
@@ -131,7 +139,7 @@ Para exibir o histórico de observações, acesse o perfil de um candidato, aces
 
 ### <a name="inmail-stub-profile"></a>Perfil do comprovante do InMail
 
-O perfil do comprovante do está disponível com o acesso no nível de contrato do LinkedIn Recruiter. Se os candidatos concordarem em compartilhar seus perfis do LinkedIn com qualquer usuário em sua organização, você poderá rastrear os candidatos no Attract e um novo registro de candidato será criado para cada um.
+O perfil do comprovante do está disponível com o acesso no nível de contrato do LinkedIn Recruiter. Se os candidatos concordarem em compartilhar seus perfis do LinkedIn com qualquer usuário em sua organização, você poderá rastrear os candidatos no Attract e um novo registro de candidato será criado para cada um. Você poderá exibir o endereço de email do candidato se esse candidato já existir no sistema com um endereço de e-mail ou se ele tiver optado por compartilhar seu endereço com o recrutador.
 
 Para exibir a lista de candidatos, acesse **Grupos de talentos** para exibir um grupo de talentos do LinkedIn criado pelo sistema. Esse grupo de talentos contém a lista de candidatos e seus perfis do comprovante conforme recebidos do LinkedIn, mostrando o nome e sobrenome do candidato. A ID do email do candidato será exibida se o candidato tiver optado por compartilhar o endereço de email.
 

@@ -3,7 +3,7 @@ title: Configurar o gerenciamento de ofertas
 description: "Este tópico descreve como configurar as ofertas no Talent."
 author: josaw
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fa2f2f9f67562524961352a87a7db49992776e46
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
 ms.contentlocale: pt-br
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 # <a name="set-up-offer-management"></a>Configurar o gerenciamento de ofertas 
@@ -105,7 +105,7 @@ Para carregar o arquivo de regras de dados da oferta, faça o seguinte.
 
 1.  Você pode excluir um upload de conjunto de regras existente se o espaço reservado que está sendo definida não estiver sendo usado em outro modelo de documento.
 
->[!NOTES]
+>[!NOTE]
 > - Cada espaço reservado pode ter apenas um conjunto exclusivo de colunas do qual depende. Por exemplo, se **Salário Anual** depender do **Local de Trabalho** e de **Nível**, você não poderá carregar outro conjunto de regras onde **Salário Anual** depende de um conjunto diferente de colunas.
 
 > - Você pode baixar conjuntos de dados da oferta de exemplo na guia **Exemplos** na página **Regras de dados da oferta** .
@@ -136,7 +136,7 @@ Para criar um modelo de documento da oferta, faça o seguinte.
 
     - Criando a hashtag do espaço reservado dos dados da oferta diretamente na posição. Digite **\#** e então comece a digitar o nome do espaço reservado de dados da oferta. As opções aparecerão na lista suspensa. Clique ou pressione **Enter** para inserir o espaço reservado de dados da oferta.
 
-    >[!NOTES]
+    >[!NOTE]
     > - Para associar um espaço reservado ao modelo de documento de oferta sem expor o valor ao candidato, passe o mouse sobre o espaço reservado de dados da oferta e clique no ícone **Fixar**. Isso enviará por push o espaço reservado para a seção **Dados da oferta fixados** do modelo de documento da oferta. Para desafixar, siga as mesmas etapas, mas clique em **Desafixar** na lista dos espaços reservados de dados da oferta.
 
     > - Para exibir a lista dos espaços reservados de dados da oferta ativos, alterne para a guia **Ativo** no painel direito.
@@ -175,7 +175,7 @@ Os pacotes da oferta são os artefatos da oferta compartilhados com o candidato 
 
 1.  Clique em **Adicionar modelo**.
 
-    >[!NOTES]
+    >[!NOTE]
     > - Você pode optar por criar um novo modelo ou escolher um existente.
 
     > - Se você optar por adicionar um modelo existente, precisará garantir que o modelo de documenta da oferta foi salvo, finalizado e marcado como ativo.
@@ -198,8 +198,10 @@ Há várias partes do processo de criação da oferta que podem ser configuradas
 
 - **Experiência de oferta do candidato** - como administrador, você pode optar por definir se todas as ofertas terão uma data de vencimento, e nesse caso, qual deverá ser a contrapartida padrão para a data de vencimento. Você também pode configurar se os candidatos poderão recusar uma oferta.
 
-- **Assinaturas eletrônicas** - no momento, a única opção de assinatura eletrônica disponível para que candidatos digitem seus nomes no pacote da oferta ao aceitarem a oferta. Nós introduziremos integrações de parceiros com outros provedores de assinatura eletrônica no futuro.
+- **Assinaturas eletrônicas** - como administrador, você pode escolher o método que os candidatos possam usar para assinar ofertas.
+    - Adobe Sign - todos os pacotes de ofertas serão enviados e assinados via Adobe Sign. Cada criador de oferta que publica as necessidades de oferta para ter a licença do Adobe Sign conectada ao Attract. 
 
+    - ESign - esta é a opção padrão, pronta para usar, em que o usuário pode assinar uma oferta digitando seu nome e iniciais.
 
 Para saber mais sobre o processo de criação da oferta, consulte [Criação, aprovação, e ofertas de assinatura](./creating-offers.md).
 

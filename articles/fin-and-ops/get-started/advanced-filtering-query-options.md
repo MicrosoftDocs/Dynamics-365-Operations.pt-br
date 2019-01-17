@@ -1,6 +1,6 @@
 ---
 title: "Opções avançadas de filtragem e sintaxe de consulta"
-description: "Este artigo descreve as opções de filtragem e consulta disponíveis quando você usa a caixa de diálogo Filtro/Classificação Avançada ou o operador **correspondências** no Painel de filtragem ou nos filtros de cabeçalho de coluna de grade."
+description: "Este artigo descreve as opções de filtragem e consulta disponíveis quando você usa a caixa de diálogo Filtro/Classificação Avançada ou o operador correspondências no Painel de filtragem ou nos filtros de cabeçalho de coluna de grade."
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: edff2fba7e231ae52abf7828d55c1fe4841ccd7f
-ms.openlocfilehash: 3e7127a9412dcf9324872c06fbf6cc3cf61bf063
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 01a508e97721099f92b9167dfdfa1b9669b9341c
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -30,20 +30,13 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve as opções de filtragem e consulta disponíveis quando você usa a caixa de diálogo Filtro/Classificação Avançada ou o operador **correspondências** no Painel de filtragem ou nos filtros de cabeçalho de coluna de grade. 
+Este artigo descreve as opções de filtragem e consulta disponíveis quando você usa a caixa de diálogo Filtro/Classificação Avançada ou o operador **correspondências** no Painel de filtragem ou nos filtros de cabeçalho de coluna de grade.
 
-<a name="advanced-query-syntax"></a>Sintaxe de consulta avançada
----------------------
+## <a name="advanced-query-syntax"></a>Sintaxe de consulta avançada
 
 <table>
-<colgroup>
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-<col width="25%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Sintaxe</th>
 <th>Descrição de caractere</th>
 <th>descrição</th>
@@ -51,95 +44,96 @@ Este artigo descreve as opções de filtragem e consulta disponíveis quando voc
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td><em>valor</em></td>
 <td>Igual ao valor inserido que é inserido</td>
 <td>Digite o valor para encontrar.</td>
 <td><strong>Smith</strong> localiza &quot;Smith&quot;.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>!<em>valor</em> (ponto de exclamação)</td>
 <td>Diferente do valor que é inserido</td>
 <td>Digite um ponto de exclamação e o valor a ser excluído.</td>
 <td><strong>!Smith</strong> localiza todos os valores, exceto &quot;Smith&quot;.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><em>-valor de</em>.<em>valor até</em> (dois pontos finais)</td>
 <td>Entre os dois valores que são separados por dois pontos finais</td>
 <td>Digite o Valor - de, os dois pontos finais e o Valor - até.</td>
 <td><strong>1..10</strong> localiza todos os valores de 1 a 10. No entanto, em um campo de string, <strong>A..C</strong> localiza todos os valores que começam com &quot;A&quot; e &quot;B&quot; e os valores exatamente iguais a &quot;C&quot;. Por exemplo, esta consulta não encontrará &quot;Ca&quot;. Para localizar todos os valores de &quot;A<em>&quot; a &quot;C</em>&quot;, digite <strong>A..D</strong>.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>..<em>valor</em> (dois pontos finais)</td>
 <td>Menor ou igual ao valor inserido.</td>
 <td>Digite os dois pontos finais e, em seguida, o valor.</td>
 <td><strong>..1000</strong> localiza todos os números menores ou iguais a 1000, como &quot;100&quot;, &quot;999,95&quot; e &quot;1.000&quot;.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td><em>valor</em>.. (dois pontos finais)</td>
 <td>Maior ou igual ao valor inserido.</td>
 <td>Digite o valor e, em seguida, dois pontos.</td>
 <td><strong>1000..</strong> localiza todos os números maiores ou iguais a 1000, como &quot;1.000&quot;, &quot;1.000,01&quot; e &quot;1.000.000&quot;.</td>
 </tr>
-<tr class="even">
+<tr>
 <td>&gt;<em>valor</em> (sinal maior que)</td>
 <td>Maior que o valor inserido</td>
 <td>Digite um sinal maior que (<strong>&gt;</strong>) e o valor.</td>
 <td><strong>&gt;1000</strong> localiza todos os números maiores ou iguais a 1000, como &quot;1000,01&quot;, &quot;20.000&quot; e &quot;1.000.000&quot;.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>&lt;<em>valor</em> (sinal menor que)</td>
 <td>Menor que o valor inserido</td>
 <td>Digite um sinal de menor que (<strong>&lt;</strong>) e o valor.</td>
 <td><strong>&lt;1000</strong> localiza todo número menor que 1000, como &quot;999,99&quot;, &quot;1&quot; e &quot;-200&quot;.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><em>valor</em>* (asterisco)</td>
 <td>Iniciando a partir do valor que é inserido</td>
-<td>Digite o valor inicial e, em seguida, um asterisco (<strong><em></strong>).</td>
-<td><strong>S</em></strong> localiza todas as sequências de caracteres que começam com &quot;S&quot;, como &quot;Stockholm&quot;, &quot;Sydney&quot; e &quot;San Francisco&quot;.</td>
+<td>Digite o valor inicial e, em seguida, um asterisco (<strong>*</strong>).</td>
+<td><strong>S*</strong> localiza todas as sequências de caracteres que começam com &quot;S&quot;, como &quot;Stockholm&quot;, &quot;Sydney&quot; e &quot;San Francisco&quot;.</td>
 </tr>
-<tr class="odd">
-<td><em><em>valor</em> (asterisco)</td>
+<tr>
+<td>*<em>valor</em> (asterisco)</td>
 <td>Terminando com o valor inserido.</td>
 <td>Digite um asterisco e, em seguida, o valor final.</td>
-<td><strong></em>east</strong> localiza todas as cadeias de caracteres que terminam com &quot;east&quot;, como &quot;Northeast&quot; e &quot;Southeast&quot;.</td>
+<td><strong>*east</strong> localiza todas as cadeias de caracteres que terminam com &quot;east&quot; como &quot;Northeast&quot; e &quot;Southeast&quot;.</td>
 </tr>
-<tr class="even">
-<td><em><em>valor</em></em> (asterisco)</td>
+<tr>
+<td>*<em>valor</em>* (asterisco)</td>
 <td>Contendo o valor inserido</td>
 <td>Digite um asterisco, um valor e outro asterisco.</td>
-<td><strong><em>th</em></strong> localiza todas as cadeias que contenham &quot;th&quot;, como &quot;Northeast&quot; e &quot;Southeast&quot;.</td>
+<td><strong>*th*</strong> localiza todas as cadeias que contenham &quot;th&quot;, como &quot;Northeast&quot; e &quot;Southeast&quot;.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>? (ponto de interrogação)</td>
 <td>Tendo um ou mais caracteres desconhecidos</td>
 <td>Digite um ponto de interrogação na posição de caracteres desconhecidos do valor.</td>
 <td><strong>Sm?th</strong> localiza &quot;Smith&quot; e &quot;Smyth&quot;.</td>
 </tr>
-<tr class="even">
+<tr>
 <td><em>valor</em>,<em>valor</em> (vírgula)</td>
 <td>Correspondendo aos valores separados por vírgulas</td>
 <td>Digite todos os critérios, e separe-os usando vírgulas.</td>
 <td><strong>A, D, F, G</strong> localiza exatamente &quot;A&quot;, &quot;D&quot;, &quot;F&quot; e &quot;G&quot;. <strong>10, 20, 30, 100</strong> localiza exatamente &quot;10, 20, 30, 100&quot;.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>(<span class="code">Instrução SQL</span>) (instrução SQL entre parênteses)</td>
 <td>Correspondendo a uma consulta definida</td>
 <td>Digite uma consulta como instrução SQL entre parênteses.</td>
 <td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
 </tr>
-<tr class="even">
-<td>T</td>
+<tr>
+<td>Q</td>
 <td>Data atual</td>
 <td>Digite <strong>T</strong>.</td>
 <td><strong>T</strong> corresponde à data de hoje.</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>(methodName parâmetros)) (<strong>SysQueryRangeUtil</strong> método entre parênteses)</td>
 <td>Correspondendo o valor ou o intervalo de valores especificados pelos parâmetros do método <strong>SysQueryRangeUtil</strong></td>
 <td>Digite um método <strong>SysQueryRangeUtil</strong> com parâmetros que especificam o valor ou o intervalo de valores.</td>
-<td><ol>
+<td>
+<ol>
 <li>Clique em <strong>Contas a receber</strong> &gt; <strong>Faturas</strong> &gt; <strong>Abrir faturas de cliente</strong>.</li>
 <li>Pressione Ctrl+Shift+F3 para abrir a página <strong>Consulta</strong>.</li>
 <li>Na guia <strong>Intervalo</strong>, clique em <strong>Adicionar</strong>.</li>
@@ -154,86 +148,93 @@ Consulte a tabela na seção a seguir para obter detalhes adicionais sobre os m�
 </table>
 
 ## <a name="advanced-date-queries-that-use-sysqueryrangeutil-methods"></a>As consultas avançadas de datas que usam os métodos SysQueryRangeUtil
+
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>Método</th>
 <th>Descrição</th>
 <th>Exemplo</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>Dia (_relativeDays=0)</td>
 <td>Localiza uma data em relação à data da sessão. Os valores positivos indicam as datas futuras, e os valores negativos indicam datas passadas.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Amanhã</strong> – Digite <strong>(Dia(1))</strong>.</li>
 <li><strong>Hoje</strong> – Digite <strong>(Dia(0))</strong>.</li>
 <li><strong>Ontem</strong> – Digite <strong>(Dia(-1))</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>DayRange (_relativeDaysFrom=0, _relativeDaysTo=0)</td>
 <td>Localiza um intervalo de datas em relação à data da sessão. Os valores positivos indicam as datas futuras, e os valores negativos indicam datas passadas.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Últimos 30 dias</strong> – Insira <strong>(DayRange(-30,0))</strong>.</li>
 <li><strong>30 dias anteriores e próximos 30 dias</strong> – Insira <strong>(DayRange(-30,30))</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>GreaterThanDate (_relativeDays=0) GreaterThanUtcDate (_relativeDays=0)</td>
 <td>Localiza todas as datas após a data em relação à data especificada.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Mais do que em 30 dias a partir de agora</strong> – Digite <strong>(GreaterThanDate (30))</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>GreaterThanUtcNow ()</td>
 <td>Localiza todas as entradas de data/hora após a hora atual.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Todas as data/hora futuras</strong> – Digite <strong>(GreaterThanUtcNow ())</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LessThanDate (_relativeDays=0) LessThanUtcDate (_relativeDays=0)</td>
 <td>Localiza todas as datas antes da data em relação à data especificada.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Menor do que sete dias a partir de agora</strong> – Digite <strong>(LessThanDate (7))</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LessThanUtcNow ()</td>
 <td>Localiza todas as entradas de data/hora antes da hora atual.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Todas as datas/horas anteriores</strong> – Digite <strong>(LessThanUtcNow())</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>MonthRange (_relativeFrom=0, _relativeTo=0)</td>
 <td>Localiza um intervalo de datas, com base em meses em relação ao mês atual.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Dois meses anteriores</strong> – Digite <strong>(MonthRange (- 2,0))</strong>.</li>
 <li><strong>Próximos três meses</strong> – Digite <strong>(MonthRange (0,3))</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>YearRange (_relativeFrom=0, _relativeTo=0)</td>
 <td>Localiza um intervalo de datas, com base em anos em relação ao ano atual.</td>
-<td><ul>
+<td>
+<ul>
 <li><strong>Próximo ano</strong> – Digite <strong>(YearRange (0, 1))</strong>.</li>
 <li><strong>Ano anterior</strong> – Digite <strong>(YearRange(-1,0))</strong>.</li>
-</ul></td>
+</ul>
+</td>
 </tr>
 </tbody>
 </table>
-
-
-
-
-
 

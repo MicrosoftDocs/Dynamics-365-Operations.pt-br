@@ -31,21 +31,19 @@ ms.lasthandoff: 11/03/2017
 
 [!include [banner](includes/banner.md)]
 
-Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho do armazenamento, com base nos dados do Microsoft Dynamics 365 para Varejo. 
+Este artigo explica como você pode usar a análise na memória e em tempo real para acessar, explorar e obter informações sobre o desempenho do armazenamento, com base nos dados do Microsoft Dynamics 365 para Varejo.
 
 Como parte do Dynamics 365 para Varejo, os usuários podem estudar o desempenho da loja em tempo real nos diferentes níveis da hierarquia organizacional durante um período selecionado, abrindo o relatório predefinido **Resumo do canal** em qualquer um deste locais:
 
--   Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de resumo de canal**
--   Área de trabalho **Finanças da loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Finanças da loja de varejo** &gt; **Relatórios** &gt; **Relatório de resumo de canal**
--   Seção **Consultas e relatórios** &gt; **Varejo** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de resumo do canal**
+- Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de resumo de canal**
+- Área de trabalho **Finanças da loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Finanças da loja de varejo** &gt; **Relatórios** &gt; **Relatório de resumo de canal**
+- Seção **Consultas e relatórios** &gt; **Varejo** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de resumo do canal**
 
 Este relatório apresenta um instantâneo dos seguintes resumos como parte do desempenho da loja:
 
--   Resumo das vendas brutas
--   Resumo do tipo de meio de pagamento
--   Resumo do imposto
--   Resumo de substituições de preço
--   Resumo de descontos
-
-
+- Resumo das vendas brutas
+- Resumo do tipo de meio de pagamento
+- Resumo do imposto
+- Resumo de substituições de preço
+- Resumo de descontos
 

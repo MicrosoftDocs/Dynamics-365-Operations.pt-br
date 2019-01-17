@@ -59,4 +59,3 @@ Você pode usar a nova estrutura aprimorada das propriedades de produtos para se
 
 ![Caixa de diálogo Atualizar produtos](media/NewUpdateProductsEnhancedView.PNG)
 
-

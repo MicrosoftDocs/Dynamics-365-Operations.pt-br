@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 26b03b6712c97b12e1221598de308813c7986179
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 213b47422a5e31c2cfc2d173b8c7d9efdecc7568
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -32,57 +32,67 @@ ms.lasthandoff: 08/09/2018
 [!include [banner](includes/banner.md)]
 
 > [!NOTE]
-> Estamos removendo a versão atual do serviço de recomendação de produto, pois estamos remodelando esse recurso em um algoritmo melhor com recursos mais novos orientados ao varejo. Para obter mais informações consulte [Recursos removidos ou substituídos](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features). 
+> Estamos removendo a versão atual do serviço de recomendação de produto, pois estamos remodelando esse recurso em um algoritmo melhor com recursos mais novos orientados ao varejo. Para obter mais informações consulte [Recursos removidos ou substituídos](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).
 
 Este tópico descreve como adicionar um controle de recomendações à tela de transação em um dispositivo do ponto de venda (PDV) usando o designer do layout da tela no Microsoft Dynamics 365 for Retail.
 
 Você pode exibir recomendações de produto no dispositivo do PDV ao usar o Microsoft Dynamics 365 for Retail. *Recomendações* são itens nos quais o cliente pode estar interessado com base no histórico de compras, itens em sua lista de desejos e itens que outros clientes compraram online e em lojas físicas. Para exibir recomendações de produto, é necessário adicionar um controle à tela de transação usando o designer do layout da tela.
 
 ## <a name="open-layout-designer"></a>Abrir o designer do layout
-1.  Vá para **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **PDV** &gt; **Layouts da tela**.
-2.  Use o Filtro Rápido para localizar a tela à qual você deseja adicionar o controle. Por exemplo, filtre o campo **ID do layout da tela** usando um valor de “F2CP16:9M”.
-3.  Na lista, localize e selecione o registro desejado. Por exemplo, selecione “Nome: F2CP16:9M ID do layout da tela: F2CP16:9M”.
-4.  Clique em **Designer de layout**.
-5.  Acompanhe os avisos para iniciar o designer do layout. Quando credenciais forem solicitadas, insira as mesmas credenciais usadas quando o designer do layout foi iniciado na página **Layouts da tela**.
-6.  Ao entrar, uma página semelhante à abaixo aparecerá. O layout será diferente dependendo as personalizações feitas para o armazenamento.
 
-[![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png) Escolha uma opção de exibição.
------------------------
+1. Vá para **Varejo** &gt; **Configuração do canal** &gt; **Configuração do PDV** &gt; **PDV** &gt; **Layouts da tela**.
+2. Use o Filtro Rápido para localizar a tela à qual você deseja adicionar o controle. Por exemplo, filtre o campo **ID do layout da tela** usando um valor de 'F2CP16:9M'.
+3. Na lista, localize e selecione o registro desejado. Por exemplo, selecione 'Nome: F2CP16:9M ID do layout da tela: F2CP16:9M'.
+4. Clique em **Designer de layout**.
+5. Acompanhe os avisos para iniciar o designer do layout. Quando credenciais forem solicitadas, insira as mesmas credenciais usadas quando o designer do layout foi iniciado na página **Layouts da tela**.
+6. Ao entrar, uma página semelhante à abaixo aparecerá. O layout será diferente dependendo as personalizações feitas para o armazenamento.
+
+    [![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+
+## <a name="choose-a-display-option"></a>Escolher um opção de exibição
 
 Há duas opções de configurações disponíveis. Escolha a opção que funciona melhor para o armazenamento e siga as demais instruções para concluir a configuração do controle. As duas opções são:
--   As recomendações são sempre visíveis.
--   Uma guia **Recomendações** será exibida na grade à direita da tela.
 
-#### <a name="to-make-recommendations-always-visible"></a>Para tornar as recomendações sempre visíveis
+- As recomendações são sempre visíveis.
+- Uma guia **Recomendações** será exibida na grade à direita da tela.
 
-1.  Reduza a altura da área de detalhes das linhas de transação para que ela tenha a mesma altura do painel do cliente à esquerda.[](./media/pic-2.png)[![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
-2.  No menu à esquerda, arraste e solte o controle de recomendações entre a área de detalhes de linhas de transação e a grade de botões na parte inferior do centro da tela de transação. Redimensione o controle para que ele caiba no espaço.[](./media/pic-3.png)[![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
-3.  Clique no **X** para salvar e sair do designer do layout.
-4.  No Dynamics 365 for Retail, vá para **Varejo** &gt; **TI de Varejo** &gt; **Agendas de distribuição**.
-5.  Na lista, selecione **1090 Registros**.
-6.  Clique em **Executar agora**.
+### <a name="make-recommendations-always-visible"></a>Torne as recomendações sempre visíveis
 
-#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Para adicionar uma guia Recomendações à grade de botões no lado direito da tela
+1. Reduza a altura da área de detalhes das linhas de transação para que ela tenha a mesma altura do painel do cliente à esquerda.
 
-1.  Clique com o botão direito no espaço vazio abaixo da última guia na grade de botões localizada no lado direito da página.
-2.  Clique em **Personalizar**.[![pic-5](./media/pic-5.png)](./media/pic-5.png)
-3.  Clique em **Nova guia**.
-4.  Localize a nova guia que você acabou de adicionar. Talvez você precise rolar para baixo.
-5.  No menu suspenso **Conteúdos**, selecione **Produtos recomendados**. [![pic-6](./media/pic-6.png)](./media/pic-6.png)
-6.  No campo **Etiqueta** , digite um nome para a guia das recomendações. Por exemplo, digite “Produtos recomendados”.
-7.  No campo **Imagem**, selecione a imagem que aparecerá na guia.
-8.  Clique em **OK**. A nova guia aparecerá na grade de botões.
-9.  Clique no **X** para salvar e sair do designer do layout.
+    [![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+
+2. No menu à esquerda, arraste e solte o controle de recomendações entre a área de detalhes de linhas de transação e a grade de botões na parte inferior do centro da tela de transação. Redimensione o controle para que ele caiba no espaço.
+
+    [![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+
+3. Clique no **X** para salvar e sair do designer do layout.
+4. No Dynamics 365 for Retail, vá para **Varejo** &gt; **TI de Varejo** &gt; **Agendas de distribuição**.
+5. Na lista, selecione  **1090 Registros**.
+6. Clique em **Executar agora**.
+
+### <a name="add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>Adicione uma guia Recomendações à grade de botões no lado direito da tela
+
+1. Clique com o botão direito no espaço vazio abaixo da última guia na grade de botões localizada no lado direito da página.
+2. Clique em **Personalizar**.
+
+    [![pic-5](./media/pic-5.png)](./media/pic-5.png)
+
+3. Clique em **Nova guia**.
+4. Localize a nova guia que você acabou de adicionar. Talvez você precise rolar para baixo.
+5. No menu suspenso **Conteúdos**, selecione **Produtos recomendados**.
+
+    [![pic-6](./media/pic-6.png)](./media/pic-6.png)
+
+6. No campo **Etiqueta**, digite um nome para a guia das recomendações. Por exemplo, digite 'Produtos recomendados'.
+7. No campo **Imagem**, selecione a imagem que aparecerá na guia.
+8. Clique em **OK**. A nova guia aparecerá na grade de botões.
+9. Clique no **X** para salvar e sair do designer do layout.
 10. No Dynamics 365 for Retail, vá para **Varejo** &gt; **TI de Varejo** &gt; **Agendas de distribuição**.
-11. Na lista, selecione **1090 Registros**.
+11. Na lista, selecione **1090 Registros**.
 12. Clique em **Executar agora**.
 
-
-<a name="additional-resources"></a>Recursos adicionais
---------
+## <a name="additional-resources"></a>Recursos adicionais
 
 [Visão geral de recomendações de produtos personalizados](personalized-product-recommendations.md)
-
-
-
 
