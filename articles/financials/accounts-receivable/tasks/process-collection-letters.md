@@ -26,7 +26,6 @@ ms.lasthandoff: 12/06/2018
 # <a name="process-collection-letters"></a>Processar cartas de cobrança
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 Este procedimento mostra como criar, imprimir e lançar cartas de cobrança. Esta tarefa usa a empresa de demonstração USMF.
 
