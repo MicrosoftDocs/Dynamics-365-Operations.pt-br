@@ -35,8 +35,10 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
 2. Clique em **Configurações de relatórios**.
 3. Na árvore, selecione **Pagamentos (modelo simplificado)**.
 4. Clique em **Criar configuração** para abrir a caixa de diálogo suspensa.
+
  > [!NOTE]
  > Se não aparecer **Criar configuração**, você deverá habilitar o modo de design na página **Parâmetros de relatório eletrônico**. 
+ 
 5. No campo **Novo**, insira **Formato baseado no modelo de dados PaymentModel**.
 6. No campo **Nome**, digite **BACS (Reino Unido fictício)**.
 7. No campo **Descrição**, digite **Formato de pagamento de fornecedor BACS (Reino Unido fictício)**.
@@ -44,6 +46,7 @@ As etapas a seguir explicam como um usuário no papel de Administrador do Sistem
     * Um formato específico de documento eletrônico pode ser definido. Deixe este campo em branco se desejar selecionar um formato durante a execução.  
 8. No campo **Definição do modelo de dados**, insira ou selecione um valor.
 9. Clique em **Criar configuração**. Uma nova configuração foi criada. A versão de rascunho pode ser usada para armazenar o formato de design para gerenciar documentos eletrônicos.  
+
  > [!NOTE]
  > Se não aparecer **Criar configuração**, você deverá habilitar o modo de design na página **Parâmetros de relatório eletrônico**.
 
