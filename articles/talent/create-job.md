@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
+ms.sourcegitcommit: 901ab6e309754338925c34c2cbecb3b83a0b0452
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
 ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
+ms.lasthandoff: 02/07/2019
 
 ---
 
@@ -30,7 +30,6 @@ ms.lasthandoff: 08/09/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 <span data-ttu-id="4ee39-104">Este tópico descreve os elementos conceituais que um trabalho pode incluir e fornece exemplos de como você pode usar esses elementos na sua organização.</span><span class="sxs-lookup"><span data-stu-id="4ee39-104">This topic describes the conceptual elements that a job can include and provides examples of how you can use those elements in your organization.</span></span> 
 
@@ -41,7 +40,7 @@ ms.lasthandoff: 08/09/2018
 ## <a name="job-titles"></a><span data-ttu-id="4ee39-115">Títulos de trabalho</span><span class="sxs-lookup"><span data-stu-id="4ee39-115">Job titles</span></span>
 <span data-ttu-id="4ee39-116">Antes de criar trabalhos, você deve configurar cargos para esses trabalhos.</span><span class="sxs-lookup"><span data-stu-id="4ee39-116">Before you create jobs, you must set up titles for those jobs.</span></span> <span data-ttu-id="4ee39-117">As posições herdam cargos dos trabalhos com os quais essas posições estão associadas.</span><span class="sxs-lookup"><span data-stu-id="4ee39-117">Positions inherit job titles from the jobs that the positions are associated with.</span></span> 
 
-<span data-ttu-id="4ee39-118">Manter títulos de trabalho usando a página **Títulos**, que você pode abrir por meio da função Pesquisar.</span><span class="sxs-lookup"><span data-stu-id="4ee39-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="4ee39-119">Na página **Títulos**, insira os títulos que você planeja usar em seus trabalhos.</span><span class="sxs-lookup"><span data-stu-id="4ee39-119">On the **Titles **page, enter the titles that you plan to use for your jobs.</span></span>
+<span data-ttu-id="4ee39-118">Manter títulos de trabalho usando a página **Títulos**, que você pode abrir por meio da função Pesquisar.</span><span class="sxs-lookup"><span data-stu-id="4ee39-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="4ee39-119">Na página **Títulos**, insira os títulos que você planeja usar em seus trabalhos.</span><span class="sxs-lookup"><span data-stu-id="4ee39-119">On the \*\*Titles \*\*page, enter the titles that you plan to use for your jobs.</span></span>
 
 ## <a name="job-types"></a><span data-ttu-id="4ee39-120">Tipos de trabalho</span><span class="sxs-lookup"><span data-stu-id="4ee39-120">Job types</span></span>
 <span data-ttu-id="4ee39-121">Você usa tipos de trabalho para agrupar trabalhos semelhantes em categorias.</span><span class="sxs-lookup"><span data-stu-id="4ee39-121">You use job types to group similar jobs into categories.</span></span> <span data-ttu-id="4ee39-122">Tipos de trabalhos não são necessários.</span><span class="sxs-lookup"><span data-stu-id="4ee39-122">Job types aren't required.</span></span> <span data-ttu-id="4ee39-123">Entretanto, se planeja usar tipos de trabalho ao configurar regras de qualificação para o gerenciamento de remuneração, você deve configurar tipos de trabalho antes de configurar os trabalhos.</span><span class="sxs-lookup"><span data-stu-id="4ee39-123">However, if you plan to use job types when you set up eligibility rules for compensation management, you should set up job types before you set up jobs.</span></span> <span data-ttu-id="4ee39-124">Alguns exemplos de tipos de trabalho são horário integral e meio período ou salário e pagamento por hora.</span><span class="sxs-lookup"><span data-stu-id="4ee39-124">Some examples of job types are full-time and part-time, or salary and hourly pay.</span></span> <span data-ttu-id="4ee39-125">Você mantém tipos de trabalho usando a página **Tipos de trabalho**.</span><span class="sxs-lookup"><span data-stu-id="4ee39-125">You maintain job types by using the **Job types** page.</span></span> <span data-ttu-id="4ee39-126">Na página **Tipos de trabalho**, insira um nome e uma breve descrição para o tipo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="4ee39-126">On the **Job types** page, enter a name and a brief description for the job type.</span></span> <span data-ttu-id="4ee39-127">No campo **Status de isenção**, selecione uma das seguintes opções para indicar o status de isenção de trabalhos FLSA (Lei de Padrões Justos de Trabalho) que tem esse tipo de trabalho.</span><span class="sxs-lookup"><span data-stu-id="4ee39-127">In the **Exempt status** field, select one of the following options to indicate the Fair Labor Standards Act (FLSA) exempt status of jobs that have this job type:</span></span>
