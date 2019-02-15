@@ -1,13 +1,13 @@
 ---
 title: Bem-vindo ao Dynamics 365 for Talent
-description: "O Talent simplifica muitas tarefas de manutenção de registros e automatiza vários processos relacionados ao recrutamento de sua organização. Esses processos incluem retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações."
+description: O Talent simplifica muitas tarefas rotineiras de manutenção de registros e automatiza vários processos relacionados ao recrutamento na sua organização. Esses processos incluem retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações.
 author: josaw
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301893"
 ---
-
 # <a name="welcome-to-dynamics-365-for-talent"></a>Bem-vindo ao Dynamics 365 for Talent
 
 [!include [banner](includes/banner.md)]
 
-O Microsoft Dynamics 365 for Talent simplifica muitas tarefas de manutenção de registros e automatiza vários processos relacionados ao recrutamento de sua organização. Esses processos incluem retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações. Também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão.
+O Microsoft Dynamics 365 for Talent simplifica muitas tarefas rotineiras de manutenção de registros e automatiza vários processos relacionados ao recrutamento na sua organização. Esses processos incluem retenção de funcionários, administração de benefícios, treinamento, avaliações de desempenho e gerenciamento de alterações. Também fornece uma estrutura para a equipe de recursos humanos gerenciar áreas de supervisão.
 
 Você pode usar o Talent para realizar estas tarefas:
 
@@ -46,7 +45,7 @@ Explore o Dynamics 365 for Talent assistindo ao vídeo [Como começar a usar o D
 
 
 > [!NOTE] 
-> O Dynamics 365 for Talent está estreitamente relacionado a Recursos Humanos no Dynamics 365 for Finance and Operations. A mesma funcionalidade pode aparecer nos dois produtos. Como resultado, em tópicos direcionados principalmente a Recursos Humanos, o nome do produto será Dynamics 365 for Finance and Operations; em tópicos relacionados principalmente ao Talent, o nome do produto será Dynamics 365 for Talent. Os tópicos redigidos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
+> O Dynamics 365 for Talent está estreitamente relacionado a Recursos Humanos no Dynamics 365 for Finance and Operations. A mesma funcionalidade pode aparecer nos dois produtos. Como resultado, em tópicos relacionados principalmente a Recursos Humanos, o nome do produto será Dynamics 365 for Finance and Operations; em tópicos relacionados principalmente ao Talent, o nome do produto será Dynamics 365 for Talent. Os tópicos redigidos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>Desenvolver uma estratégia para gerenciar seus recursos humanos
 ---------------------------------------------------------
@@ -80,7 +79,7 @@ O Dynamics 365 for Talent inclui o aplicativo Attract, que pode ajudá-lo a iden
 
 ## <a name="develop-and-train-employees"></a>Desenvolver e treinar funcionários
 
-Para ajudar seus funcionários a atingirem seus objetivos de carreira e, ao mesmo tempo, atender às necessidades críticas dos negócios, crie avaliações e acompanhe os comentários. Para ajudar os funcionários a desenvolverem as habilidades necessárias, você também pode definir instrutores, tipos de curso, cursos, descrições de cursos, agendas e sessões antes de atribuir um instrutor a um curso ou inscrever alguém em um curso. Os instrutores já devem existir como trabalhadores, candidatos ou contatos.
+Para ajudar os funcionários a atingir seus objetivos de carreira e, ao mesmo tempo, atender às necessidades críticas dos negócios, você pode definir metas, criar avaliações de desempenho e rastrear os comentários. Para ajudar os funcionários a desenvolver as habilidades necessárias, você também pode definir instrutores, tipos de cursos, cursos, descrições de cursos, agendas, acompanhamentos e sessões antes de atribuir um instrutor a um curso ou inscrever alguém em um. Os instrutores já devem existir como trabalhadores, candidatos ou contatos.
 
 -   [Gerenciamento de desempenho](performance-management-overview.md)
 -   [Alinhar habilidades da força de trabalho e necessidades do negócio](skills.md)
@@ -100,7 +99,7 @@ Além de remunerar sua equipe com salários e bônus, você pode desenvolver pro
 
 O Talent pode ajudar você a manter um ambiente de trabalho seguro em conformidade com a legislação aplicável, incluindo a Lei de Americanos Portadores de Deficiências e as leis de imigração e naturalização, entre outras. Por exemplo, você pode gerenciar os requisitos físicos de trabalhos específicos, bem como acompanhar solicitações para acomodações que podem ajudar sua organização a otimizar as habilidades de sua força de trabalho.
 
--   [Verificação do formulário I-9 de emprego](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
+-   [Verificação de emprego do formulário I-9](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
 -   [Seguir a Lei de Americanos Portadores de Deficiências](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
 
 ## <a name="gather-information-using-questionnaires"></a>Coletar informações por meio de questionários
@@ -111,4 +110,3 @@ Você pode criar e administrar questionários para coletar informações usadas 
 -   [Criar um questionário](design-questionnaires.md)
 -   [Distribuir e preencher um questionário](distribute-questionnaires.md)
 -   [Exibir e avaliar os resultados de um questionário](evaluate-questionnaire-results.md)
-

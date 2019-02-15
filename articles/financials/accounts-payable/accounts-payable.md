@@ -1,13 +1,13 @@
 ---
 title: Home page de Contas a pagar
-description: "Este tópico oferece uma visão geral de contas a pagar."
+description: Este tópico oferece uma visão geral de contas a pagar.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 6cc7ee98b3fabb774339dd1fc027d38d00d8b31f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7bc09cbd108949b37ea1b2207fc3e0c6961abf4b
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301907"
 ---
-
 # <a name="accounts-payable-home-page"></a>Home page de Contas a pagar
 
 [!include [banner](../includes/banner.md)]
@@ -124,15 +123,15 @@ Os seguintes tópicos fornecem informações sobre liquidações. A liquidação
 
 #### <a name="whats-new-and-in-development"></a>Novidades e o que está em desenvolvimento
 
-Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para conferir os novos recursos que foram liberados e os novos recursos em desenvolvimento. 
+Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para conferir os novos recursos que foram lançados e os novos recursos em desenvolvimento. 
 
 #### <a name="blogs"></a>Blogs
 
 Você encontra opiniões, notícias, além de informações sobre Contas a pagar e outras soluções no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Há muitas postagens sobre Contas a pagar no [blog da equipe do produto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Embora algumas dessas postagens tenham sido escritas para a versão anterior de Contas a pagar, os mesmos conceitos ainda se aplicam, e os procedimentos também são semelhantes na versão atual.
+Há muitas postagens sobre Contas a pagar no [blog da equipe do produto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Embora algumas dessas postagens tenham sido escritas para a versão anterior de Contas a pagar, os mesmos conceitos ainda se aplicam e os procedimentos também são semelhantes na versão atual.
 
-O [blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos Parceiros do Microsoft Dynamics um recurso único por meio do qual podem saber mais sobre as novidades e as tendências do MBS Operations.
+O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos Parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do MBS Operations.
 
 #### <a name="task-guides"></a>Guias de tarefas
 Há ajuda adicional disponível como guias de tarefas dentro do Finance and Operations. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.
@@ -140,7 +139,6 @@ Há ajuda adicional disponível como guias de tarefas dentro do Finance and Oper
 #### <a name="videos"></a>Vídeos
 
 Confira os vídeos de instruções que agora estão disponíveis no [canal do Microsoft Dynamics 365 no YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
 
 
 

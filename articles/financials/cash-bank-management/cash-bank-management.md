@@ -1,13 +1,13 @@
 ---
 title: Home page de Gerenciamento de caixa e bancos
-description: "Você pode usar o Gerenciamento de caixa e bancos para manter as contas bancárias de entidade legal e os instrumentos financeiros associados a essas contas bancárias."
+description: Você pode usar o Gerenciamento de caixa e bancos para manter as contas bancárias de entidade legal e os instrumentos financeiros associados a essas contas bancárias.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 944030859c26a1aadeb98a070d071e30f8b86dc4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 46eeb9cb19eed71256d38db78738c09761060c66
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301929"
 ---
-
 # <a name="cash-and-bank-management-home-page"></a>Home page de Gerenciamento de caixa e bancos
 
 [!include [banner](../includes/banner.md)]
@@ -87,15 +86,15 @@ Esses instrumentos incluem guias de depósito, cheques, letras de câmbio e nota
 
 #### <a name="whats-new-and-in-development"></a>Novidades e o que está em desenvolvimento
 
-Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para conferir os novos recursos que foram liberados e os novos recursos em desenvolvimento. 
+Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para conferir os novos recursos que foram lançados e os novos recursos em desenvolvimento. 
 
 #### <a name="blogs"></a>Blogs
 
-Você encontra opiniões, notícias, além de informações sobre o Gerenciamento de caixa e bancos e outras soluções no [blog do Microsoft Dynamics 365] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
+Você encontra opiniões, notícias, além de informações sobre Gerenciamento de caixa e bancos e outras soluções no [blog do Microsoft Dynamics 365] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Há muitas postagens sobre Gerenciamento de caixa e bancos no [blog da equipe do produto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Embora algumas dessas postagens tenham sido escritas para a versão anterior de Gerenciamento de caixa e bancos, os mesmos conceitos ainda se aplicam, e os procedimentos também são semelhantes na versão atual.
+Há muitas postagens sobre Gerenciamento de caixa e bancos no [blog da equipe do produto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Embora algumas dessas postagens tenham sido escritas para a versão anterior de Gerenciamento de caixa e bancos, os mesmos conceitos ainda se aplicam e os procedimentos também são semelhantes na versão atual.
 
-O [blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos Parceiros do Microsoft Dynamics um recurso único por meio do qual podem saber mais sobre as novidades e as tendências do MBS Operations.
+O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos Parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do MBS Operations.
 
 #### <a name="task-guides"></a>Guias de tarefas
 Há ajuda adicional disponível como guias de tarefas dentro do Finance and Operations. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.
@@ -103,4 +102,3 @@ Há ajuda adicional disponível como guias de tarefas dentro do Finance and Oper
 #### <a name="videos"></a>Vídeos
 
 Confira os vídeos de instruções que agora estão disponíveis no [canal do Microsoft Dynamics 365 no YouTube] (https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-

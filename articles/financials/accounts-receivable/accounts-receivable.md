@@ -5,9 +5,9 @@ author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301925"
 ---
-
 # <a name="accounts-receivable-home-page"></a>Home page de Contas a receber
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,7 @@ Use Contas a receber para rastrear faturas de cliente e pagamentos que você rec
 :::row:::
     :::column:::
         - [Distribuições contábeis e entradas no diário-razão auxiliar para faturas de texto livre](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
-        - [Perfis de postagem de cliente](customer-posting-profiles.md)
+        - [Perfis de lançamentos de cliente](customer-posting-profiles.md)
         - [Configuração, autorização e captura de cartão de crédito](credit-card-authorizations.md)
         - [Criar uma fatura de cliente](configure-customer-invoices.md)
         - [Configurar e processar faturas recorrentes](set-up-process-recurring-invoices.md)
@@ -55,10 +54,10 @@ Use Contas a receber para rastrear faturas de cliente e pagamentos que você rec
     :::column:::
         - [Configurar letras de câmbio](set-up-bills-exchange.md)
         - [Configurar taxas de juros para um código de juros](set-up-interest-rates-interest-code.md)
-        - [​Cancelar, restabelecer ou reverter taxas de juros​](waive-reinstate-reverse-interest-fees.md)
-        - [Visão geral do débito direto do SEPA](sepa-direct-debit-overview.md)
-        - [Carta de ordem de débito direto de instalação do SEPA](sepa-direct-debit-mandate.md)
-        - [Fechar contas a receber](close-accounts-receivable.md)
+        - [Cancelar, restabelecer ou reverter taxas de juros](waive-reinstate-reverse-interest-fees.md)
+        - [Visão geral de débito direto SEPA](sepa-direct-debit-overview.md)
+        - [Configurar carta de ordem de débito direto SEPA](sepa-direct-debit-mandate.md)
+        - [Fechar Contas a receber](close-accounts-receivable.md)
     :::column-end:::
 :::row-end:::
 
@@ -79,14 +78,14 @@ Aceite tipos diferentes de pagamentos de clientes, como letras de câmbio, pagam
 
 :::row:::
     :::column:::
-        - [Use um pagamento de cliente para liquidar várias faturas que incluem vários períodos de desconto](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
-        - [Pagamentos centralizados para contas a receber](centralized-payments-accounts-receivable.md)
-        - [Liquidar um pagamento parcial de cliente e o pagamento final total antes da data do desconto](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [Liquidar um pagamento parcial de cliente antes da data do desconto com um pagamento final após a data de desconto](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+        - [Usar um pagamento de cliente para liquidar várias faturas que abrangem vários períodos de desconto](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+        - [Pagamentos centralizados de Contas a receber](centralized-payments-accounts-receivable.md)
+        - [Liquidar um pagamento parcial de cliente e o pagamento final integralmente antes da data do desconto](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+        - [Liquidar um pagamento parcial de cliente antes da data do desconto com um pagamento final após a data do desconto](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
     :::column-end:::
     :::column:::
-        - [Liquidar um pagamento parcial de cliente com descontos em notas de crédito](settle-partial-customer-payment-discounts-credit-notes.md)
-        - [Liquidar um pagamento parcial de cliente com vários períodos de desconto](settle-partial-customer-payment-multiple-discount-periods.md)
+        - [Liquidar um pagamento parcial de cliente que tem descontos sobre notas de crédito](settle-partial-customer-payment-discounts-credit-notes.md)
+        - [Liquidar um pagamento parcial de cliente que tem vários períodos de desconto](settle-partial-customer-payment-multiple-discount-periods.md)
         - [Reembolsar clientes](reimburse-customers.md)
         - [Pagamentos de cliente de um valor parcial](customer-payments-partial-amount.md)
     :::column-end:::
@@ -103,9 +102,9 @@ Visite o [Roteiro do Microsoft Dynamics 365](https://roadmap.dynamics.com/) para
 
 Você encontra opiniões, notícias, além de informações sobre Contas a receber e outras soluções no [blog do Microsoft Dynamics 365](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).
 
-Há muitas postagens sobre Contas a receber no [blog da equipe do produto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Embora algumas dessas postagens tenham sido escritas para a versão anterior de Contas a receber, os mesmos conceitos ainda se aplicam, e os procedimentos também são semelhantes na versão atual.
+Há muitas postagens sobre Contas a receber no [blog da equipe do produto Microsoft Dynamics AX](https://blogs.msdn.microsoft.com/dax/). Embora algumas dessas postagens tenham sido escritas para a versão anterior de Contas a receber, os mesmos conceitos ainda se aplicam e os procedimentos também são semelhantes na versão atual.
 
-O [blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos Parceiros do Microsoft Dynamics um recurso único por meio do qual podem saber mais sobre as novidades e as tendências do MBS Operations.
+O [Blog da Comunidade de Parceiros do Microsoft Dynamics Operations](https://community.dynamics.com/partner/b/operationspartnercommunityblog) fornece aos Parceiros do Microsoft Dynamics um recurso único para saberem mais sobre as novidades e as tendências do MBS Operations.
 
 #### <a name="task-guides"></a>Guias de tarefas
 Há ajuda adicional disponível como guias de tarefas dentro do Finance and Operations. Para acessar os guias de tarefas, clique no botão Ajuda em qualquer página.
@@ -113,7 +112,6 @@ Há ajuda adicional disponível como guias de tarefas dentro do Finance and Oper
 #### <a name="videos"></a>Vídeos
 
 Confira os vídeos de instruções que agora estão disponíveis no [canal do Microsoft Dynamics 365 no YouTube](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).
-
 
 
 
