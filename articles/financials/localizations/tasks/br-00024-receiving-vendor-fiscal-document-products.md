@@ -1,13 +1,13 @@
---- 
+---
 title: Receber notas fiscais de fornecedor (produtos) (Brasil)
-description: "É possível lançar uma nota fiscal que você recebeu na aquisição de mercadorias de estoque, em que o ICMS, IPI e PIS/COFINS são deduzidos do pagamento de apuração de imposto."
+description: É possível lançar uma nota fiscal que você recebeu na aquisição de mercadorias de estoque, em que o ICMS, IPI e PIS/COFINS são deduzidos do pagamento de apuração de imposto.
 author: sndray
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7eaf79096fe3d6b1b6973d4b2b3fa253632d28bb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a68033818ab74724d9cd9699fec00d368a3799f8
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371626"
 ---
 # <a name="receive-vendor-fiscal-documents-products-brazil"></a>Receber notas fiscais de fornecedor (produtos) (Brasil)
 
@@ -59,5 +59,4 @@ ms.lasthandoff: 09/29/2017
 28. Clique em Lançar.
 29. Feche a página.
 30. Feche a página.
-
 

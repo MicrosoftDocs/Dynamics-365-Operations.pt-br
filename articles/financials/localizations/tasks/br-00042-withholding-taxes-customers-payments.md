@@ -1,13 +1,13 @@
---- 
+---
 title: Impostos retidos na fonte em pagamentos de clientes (Brasil)
-description: "Use a página Comprovante de diário para inserir e lançar pagamentos recebidos de clientes pela venda de itens ou serviços."
+description: Use a página Comprovante de diário para inserir e lançar pagamentos recebidos de clientes pela venda de itens ou serviços.
 author: sndray
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a43c68b4067850cea8ca78c2cf1c03d6ee82bb8c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 326e14b7b264e9a0b4ec51918dd83f7ca0ef405f
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371617"
 ---
 # <a name="withholding-taxes-on-customer-payments-brazil"></a>Impostos retidos na fonte em pagamentos de clientes (Brasil)
 
@@ -82,5 +82,4 @@ Use a página Comprovante de diário para inserir e lançar pagamentos recebidos
 51. Clique em Lançar.
 52. Feche a página.
 53. Feche a página.
-
 

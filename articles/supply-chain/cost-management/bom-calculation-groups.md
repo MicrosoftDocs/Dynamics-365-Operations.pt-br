@@ -1,13 +1,13 @@
 ---
-title: "Grupos de cálculos de BOM"
-description: "Este artigo fornece informações sobre grupos de cálculos para listas de materiais (BOMs) e como configurá-las. Para executar um cálculo de BOM, você deve configurar grupos de cálculo e atribuí-los a itens individuais ou definir um grupo de cálculo padrão. As configurações de cálculo a partir do grupo de cálculo são usadas como valores padrão na página Cálculo de BOM no momento do cálculo de BOM."
+title: Grupos de cálculos de BOM
+description: Este artigo fornece informações sobre grupos de cálculos para listas de materiais (BOMs) e como configurá-las. Para executar um cálculo de BOM, você deve configurar grupos de cálculo e atribuí-los a itens individuais ou definir um grupo de cálculo padrão. As configurações de cálculo a partir do grupo de cálculo são usadas como valores padrão na página Cálculo de BOM no momento do cálculo de BOM.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 55bca29016e06b6ed71c0f1a4aa412401976ebdd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d1bc67038c6080bb96d524a549deddbc8d4e0b
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362869"
 ---
-
 # <a name="bom-calculations-groups"></a>Grupos de cálculos de BOM
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,6 @@ Um cálculo de BOM gera mensagens de aviso. Você pode ver os avisos sobre um it
 -   Identifique um aviso quando o item em uma linha de BOM tem menos a porcentagem de lucratividade que você deseja.
 
 Você pode definir vários grupos de cálculo de BOM, dependendo dos seus requisitos para variações em mensagens de aviso. Por exemplo, um grupo de cálculo de BOM pode ser suficiente, com condições de aviso sobre uma BOM ativa, uma quantidade e custo 0 (zero) de componente. As condições de aviso aplicáveis associadas com o grupo de cálculo de BOM podem ser substituídas opcionalmente ao iniciar um cálculo de BOM. Você pode adicionar ou remover uma condição de aviso aplicável. Por exemplo, você pode remover a condição de aviso aplicável sobre um roteiro ativo quando a situação específica não envolve dados de roteiro. **Observação:** tempo e presença incluem uma página **Grupos de cálculo**, mas a página não tem relação com os grupos de cálculo de BOM. Em Horário e presença, os funcionários podem ser atribuídos a grupos de cálculo que refletem o agrupamento de trabalhadores associados com o mesmo supervisor ou gerente. O cálculo dos registros de trabalhadores pode ser feito de forma automática ou manual por um supervisor ou um gerente.
-
 
 
 

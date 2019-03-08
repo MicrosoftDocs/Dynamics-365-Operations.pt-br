@@ -1,32 +1,31 @@
 ---
-title: "Espaço de trabalho de controle de custos"
-description: "Este tópico fornece informações sobre o espaço de trabalho de controle de custos. Este espaço de trabalho é um ponto central onde os gerentes responsáveis por controlar um objeto de custo ou um conjunto de objetos de custo dentro de uma dimensão ou nas dimensões podem acessar relatórios."
+title: Espaço de trabalho de controle de custos
+description: Este tópico fornece informações sobre o espaço de trabalho de controle de custos. Este espaço de trabalho é um ponto central onde os gerentes responsáveis por controlar um objeto de custo ou um conjunto de objetos de custo dentro de uma dimensão ou nas dimensões podem acessar relatórios.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c6a196c677ed27666efec8a180f1d3b7e7ee931c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363743"
 ---
-
 # <a name="cost-control-overview"></a>Visão geral de controle de custos 
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,7 @@ Na Guia Rápida **Filtragem de dados**, você define a base de dados do relatór
 |-------------------------------------------------------------------|-------------|
 | Razão de contabilização de custos                                            | A **Razão da contabilização de custos** na qual o relatório está baseado. O valor é obtido do campo **Unidade de controle de custos**. |
 | Unidade de controle de custo                                                 | O valor que você selecionar determinará o razão de contabilização de custos e os objetos de custos no qual este relatório está baseado. |
-| Hierarquia da dimensão estatística, hierarquia da dimensão do elemento de custo | Um registro de configuração do espaço trabalho **Controle de custos** pode relatar valores monetários ou não monetários, mas não no mesmo layout. Selecione um valor no campo **Hierarquia da dimensão de elemento de custo** para relatar valores monetários. Selecione um valor no campo **Hierarquia da dimensão estatística** para relatar valores não monetários. O registro da hierarquia da dimensão selecionada determina a estrutura de relatório e os níveis agregação.<blockquote>[!NOTE]<br>Para exibir os valores monetários e não monetários lado-a-lado, você pode exportar dados para o Microsoft Excel para o pacote de conteúdo do Microsoft Power BI.</blockquote> |
+| Hierarquia da dimensão estatística, hierarquia da dimensão do elemento de custo | Um registro de configuração do espaço trabalho **Controle de custos** pode relatar valores monetários ou não monetários, mas não no mesmo layout. Selecione um valor no campo **Hierarquia da dimensão de elemento de custo** para relatar valores monetários. Selecione um valor no campo **Hierarquia da dimensão estatística** para relatar valores não monetários. O registro da hierarquia da dimensão selecionada determina a estrutura de relatório e os níveis agregação.<blockquote>[!NOTE]<br>Para exibir valores monetários e não monetários lado a lado, você pode exportar dados para o Microsoft Excel do pacote de conteúdo do Microsoft Power BI.</blockquote> |
 | Hierarquia da dimensão de objeto de custo                                   | Selecione a hierarquia de dimensões da dimensão do objeto de custo que se ajusta ao objetivo do relatório que você está definindo. |
 | Versão original do orçamento                                           | Selecione a ID da versão de orçamento que atua como o orçamento original no contexto deste relatório. |
 | Versão revisada do orçamento                                            | Selecione a ID da versão de orçamento que atua como o orçamento revisado no contexto deste relatório. |
@@ -157,6 +156,5 @@ No exemplo a seguir, a base de alocação é do tipo **Base de alocação da fó
 Recursos adicionais 
 
 [Definir direitos de acesso para controladores do objeto de custo](access-rights-cost-object-controller.md)
-
 
 

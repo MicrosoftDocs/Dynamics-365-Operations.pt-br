@@ -1,13 +1,13 @@
 ---
-title: "Regras de alocação do razão"
-description: "Este artigo oferece informações gerais sobre as regras de alocação do razão. Ele descreve os diversos componentes dessas regras de alocação e os métodos de alocação que podem ser usados para eles."
+title: Regras de alocação do razão
+description: Este artigo oferece informações gerais sobre as regras de alocação do razão. Ele descreve os diversos componentes dessas regras de alocação e os métodos de alocação que podem ser usados para eles.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAllocation, LedgerAllocationBasisRule, LedgerAllocationRequest, LedgerAllocationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: abbeb1bb4481139dff902916362a479f94fb96e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 63562cde3f2813fdcfc9df7ccbfc623aa2fbe9b1
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365721"
 ---
-
 # <a name="ledger-allocation-rules"></a>Regras de alocação do razão
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ Cada regra de alocação possui quatro componentes: geral, origem, destino e com
 -   **Destino** – Esse componente define como o resultado do cálculo de alocação deve ser distribuído e contabilizado. Por exemplo, pode haver uma linha de destino para cada departamento.
 -   **Compensação** – Esse componente define como as contas principais e as dimensões devem ser determinadas para as entradas de compensação que equilibram as entradas de destino. As opções definidas pelo usuário normalmente são usadas no lugar das contas e dimensões baseadas na origem. Quando a **Fonte de dados** for definida como **Valor fixo**, a **Origem** não poderá ser usada como padrão.
 -   **Regras de base de alocação do razão** – Essas regras usam seus próprios critérios de filtragem de origem para determinar quais saldos do razão devem ser usados para a alocação (por exemplo, a receita por departamento.) Cada regra básica de alocação pode ser usada com várias regras de alocação.
-
 
 
 

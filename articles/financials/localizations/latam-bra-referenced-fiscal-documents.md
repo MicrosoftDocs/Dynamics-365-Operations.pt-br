@@ -1,13 +1,13 @@
 ---
 title: Notas fiscais referenciadas para o Brasil
-description: "Este tópico fornece uma visão geral de notas fiscais referenciadas usadas no Brasil."
+description: Este tópico fornece uma visão geral de notas fiscais referenciadas usadas no Brasil.
 author: sndray
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FiscalDocument_BR, SalesEditLines, TmpFiscalReference_BR
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: d1bd543a419ba14459bb846576cb314a9c97d842
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b9752d296ae5e3b045f636d6e5ff8fe1531d924e
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371543"
 ---
-
 # <a name="referenced-fiscal-documents-for-brazil"></a>Notas fiscais referenciadas para o Brasil
 
 [!include [banner](../includes/banner.md)]
@@ -93,7 +92,6 @@ Os espaços reservados de texto de nota fiscal são marcas predefinidas que repr
 | %FiscalRef\_InvAccCNPJCPFNumRef       | O número de registro do contribuinte (CNPJ/CPF) da conta da fatura de referência. |
 | %FiscalRef\_FiscalPrinterSerialNumber | O número de série da impressora fiscal.                                      |
 | %FiscalRef\_ECFNumber                 | O número de impressora fiscal na fábrica.                                |
-
 
 
 

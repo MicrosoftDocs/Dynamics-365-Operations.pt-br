@@ -1,13 +1,13 @@
---- 
-title: "Criar configurações de ER para importar dados de arquivos CSV externos"
-description: "Use esse procedimento para criar configurações de ER (relatório eletrônico) para importar dados nos aplicativos Dynamics 365 for Finance and Operations de um arquivo externo no formato CSV."
+---
+title: Criar configurações de ER para importar dados de arquivos CSV externos
+description: Use este procedimento para criar configurações de ER (relatório eletrônico) para importar dados para o aplicativo Dynamics 365 for Finance and Operations de um arquivo externo no formato CSV.
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8d3ea3d797de154979eae112658cf05d1914feeb
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365215"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>Criar configurações de ER para importar dados de arquivos CSV externos
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Use esse procedimento para criar configurações de ER (relatório eletrônico) para importar dados nos aplicativos Dynamics 365 for Finance and Operations de um arquivo externo no formato CSV. Neste procedimento, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. Para concluir estas etapas, você deverá primeiramente concluir as etapas no procedimento, "ER Criar um provedor configuração e marcá-lo como ativo". 
+Use este procedimento para criar configurações de ER (relatório eletrônico) para importar dados para o aplicativo Dynamics 365 for Finance and Operations de um arquivo externo no formato CSV. Neste procedimento, você criará as configurações de ER necessárias para a empresa exemplo, Litware, Inc. Para concluir estas etapas, você deverá primeiramente concluir as etapas no procedimento, "ER Criar um provedor configuração e marcá-lo como ativo". 
 
 Este procedimento é criado para usuários com a função atribuída de Administrador do sistema ou Desenvolvedor de relatório eletrônico. Estas etapas podem ser concluídas usando o conjunto de dados de USMF. 
 
 Você também deve baixar e salvar localmente os seguintes arquivos: (https://go.microsoft.com/fwlink/?linkid=862266): 1099model.xml, 1099formatcsv.xml, 1099entriescsv.csv.
 
 1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.
-    * Você pode configurar um processo para importar arquivos externos em formato XML, TXT ou CSV para tabelas no aplicativo Dynamics 365 for Finance and Operations. Primeiro, você deve criar um modelo de dados abstrato para representar os dados importados, de um ponto de vista comercial, uma configuração do modelo de dados de ER é criada para isso. Em seguida, defina uma estrutura do arquivo importado que mapeie ao modelo de dados criado como forma de portar dados do arquivo ao modelo de dados abstrato, uma configuração de formato de ER é criada para isso. Depois, a configuração de modelo de dados de ER deve ser estendida com um novo mapeamento de modelo que descreva como os dados do arquivo importado e os dados persistentes do modelo de dados abstrato são usados para atualizar as tabelas do aplicativo ou entidades de dados.  
+    * Você pode configurar um processo para importar arquivos externos em formato XML, TXT ou CSV para as tabelas no aplicativo Dynamics 365 for Finance and Operations. Primeiro, você deve criar um modelo de dados abstrato para representar os dados importados, de um ponto de vista comercial, uma configuração do modelo de dados de ER é criada para isso. Em seguida, defina uma estrutura do arquivo importado que mapeie ao modelo de dados criado como forma de portar dados do arquivo ao modelo de dados abstrato, uma configuração de formato de ER é criada para isso. Depois, a configuração de modelo de dados de ER deve ser estendida com um novo mapeamento de modelo que descreva como os dados do arquivo importado e os dados persistentes do modelo de dados abstrato são usados para atualizar as tabelas do aplicativo ou entidades de dados.  
     * As etapas a seguir mostram como as transações de fornecedores externamente acompanhadas são importadas do arquivo CSV externo para uso posterior na liquidação de fornecedores para os formulários de 1099.   
     * Verifique se o provedor de configuração da empresa exemplo, Litware, Inc., está disponível e marcado como ativo. Se não visualizar esse provedor de configuração, você deve primeiro concluir as etapas do procedimento "Criar um provedor de configuração e marcá-lo como ativo".  
 2. Clique em Configurações de relatórios.
@@ -119,5 +119,4 @@ Para fins de teste, execute o mapeamento de formato usando o arquivo 1099entries
     * Examine a saída no formato XML, que representa os dados que foram importados do arquivo selecionado e transferidos para o modelo de dados. Observe que todas as 7 linhas do arquivo CSV importado foram processadas. A linha 1 dos títulos de campos foi ignorada, 4 transações foram devidamente analisadas e 2 transações foram reconhecidas como inválidas.   
 3. Feche a página.
 4. Feche a página.
-
 

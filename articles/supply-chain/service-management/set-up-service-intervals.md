@@ -1,31 +1,30 @@
 ---
-title: "Configurar intervalos de serviço"
-description: "O intervalo de serviço indica a frequência com a qual as linhas de ordem de serviço são criadas para linhas de contrato de serviço quando você cria ordens de serviço."
+title: Configurar intervalos de serviço
+description: O intervalo de serviço indica a frequência com a qual as linhas de ordem de serviço são criadas para linhas de contrato de serviço quando você cria ordens de serviço.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementinterval
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d9203b01f578779d45d63c18d1c1afd2fe59125b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 4ea10e4c0fbfd21538bba16d2b01deb3e4b3a10d
-ms.openlocfilehash: 03ebf4fd4615eac77e6f990a2d4e7f7326c0d257
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/20/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365813"
 ---
-
 # <a name="set-up-service-intervals"></a>Configurar intervalos de serviço  
 
 [!include [banner](../includes/banner.md)]
@@ -55,4 +54,3 @@ Você deseja criar um intervalo de serviços de 10 dias.
 ## <a name="related-topics"></a>Tópicos relacionados
 
 [Intervalos de serviço](service-intervals.md)  
-

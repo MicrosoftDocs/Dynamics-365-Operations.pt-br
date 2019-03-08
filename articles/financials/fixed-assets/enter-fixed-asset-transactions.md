@@ -1,13 +1,13 @@
 ---
-title: "Opções de transações de ativo fixo"
-description: "Este artigo descreve os métodos diferentes disponíveis para criar transações de ativo fixo."
+title: Opções de transação de ativo fixo
+description: Este tópico descreve os diferentes métodos disponíveis para criar transações de ativo fixo.
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6362a63bca43b5ac8da14becf6b966e459365ce1
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18352ad921c2e2d110a7535f979272685105662f
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377173"
 ---
-
-# <a name="fixed-asset-transaction-options"></a>Opções de transações de ativo fixo
+# <a name="fixed-asset-transaction-options"></a>Opções de transação de ativo fixo
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo descreve os métodos diferentes disponíveis para criar transações de ativo fixo.
+Este tópico descreve os diferentes métodos disponíveis para criar transações de ativo fixo.
 
 Você pode configurar ativos fixos para integração com contas a pagar, contas a receber, Compras e contabilidade. Também é possível transferir itens Gerenciamento de depósito para Ativos fixos caso você queira usar esses itens internamente.
 
@@ -66,9 +65,6 @@ Qualquer tipo de transação de ativo fixo pode ser lançado na página Diário 
 | ** **                               | Contas a Receber      | Fatura de texto livre                         |
 
 
+O valor restante dos períodos de depreciação do ativo fixo não é atualizado quando uma linha de diário do tipo de transação de depreciação é criada manualmente ou importada por meio de uma entidade de dados. Este valor é atualizado quando o processo de proposta de depreciação é usado para criar a linha do diário.
 
 Para obter mais informações, consulte [Integração de ativos fixos](fixed-asset-integration.md).
-
-
-
-

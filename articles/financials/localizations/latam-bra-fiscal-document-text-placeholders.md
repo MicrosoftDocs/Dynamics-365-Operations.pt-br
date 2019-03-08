@@ -1,13 +1,13 @@
 ---
-title: "Espaços reservados em textos da nota fiscal do Brasil"
-description: "Os espaços reservados de texto de nota fiscal são marcas predefinidas que representam valores específicos. Você poderá incluir os espaços reservados no campo <strong>Texto </strong> da página <strong>Modelos de textos da nota fiscal</strong> quando você criar um modelo de textos da nota fiscal."
+title: Espaços reservados em textos da nota fiscal do Brasil
+description: Os espaços reservados de texto de nota fiscal são marcas predefinidas que representam valores específicos. Você poderá incluir os espaços reservados no campo <strong>Texto </strong>da página <strong>Modelos de textos da nota fiscal </strong>quando você criar um modelo de textos da nota fiscal.
 author: sndray
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 527cf8c14fdacb17dd255639e911fcf6869505c0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 10bf8cbdf00e6af577ab21dadc470a97ffe31ae5
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371679"
 ---
-
 # <a name="fiscal-document-text-placeholders-for-brazil"></a>Espaços reservados em textos da nota fiscal do Brasil
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ As marcas que têm suporte para texto da nota fiscal para processos mencionados
 | %DifICMS\_pICMSInterPart | Porcentagem definida para estado federal do destinatário (baseado no ano fiscal do documento). |
 | %DifICMS\_vICMSUFDest    | Valor do imposto do estado do destinatário.                                                |
 | %DifICMS\_vICMSUFRemet   | Valor do imposto no estado de emissor.                                                   |
-
 
 
 

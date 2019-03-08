@@ -1,13 +1,13 @@
---- 
-title: "Criar e lançar uma nota fiscal complementar de venda (Brasil)"
-description: "Use este procedimento para criar uma nota fiscal complementar de vendas para ajustar uma nota fiscal de venda que foi gerada por um preço ou valor incorreto de IPI (Imposto Sobre Produtos Industrializados) ou de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços)."
+---
+title: Criar e lançar uma nota fiscal complementar de venda (Brasil)
+description: Use este procedimento para criar uma nota fiscal complementar de vendas para ajustar uma nota fiscal de venda que foi gerada por um preço ou valor incorreto de IPI (Imposto Sobre Produtos Industrializados) ou de ICMS (Imposto Sobre Circulação de Mercadorias e Serviços).
 author: sndray
 manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: aa10dff0efd820771e6c45cbb9e7e9a62673380e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5dd44f4004fe49e8f208ea561fc024119ef7604f
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371661"
 ---
 # <a name="create-and-post-a-sales-complementary-fiscal-document-brazil"></a>Criar e lançar uma nota fiscal complementar de venda (Brasil)
 
@@ -42,5 +42,4 @@ Use este procedimento para criar uma nota fiscal complementar de vendas para aju
 11. Feche a página.
 12. Vá para Contas a receber > Notas fiscais > Notas fiscais eletrônicas > Exportar/importar processo de NF-e.
 13. Clique em OK.
-
 

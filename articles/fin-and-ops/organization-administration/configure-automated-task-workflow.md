@@ -1,13 +1,13 @@
 ---
 title: Configurar tarefas automatizadas em um fluxo de trabalho
-description: "Este tópico explica como configurar as propriedades de uma tarefa automatizada."
+description: Este tópico explica como configurar as propriedades de uma tarefa automatizada.
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5a9f37228beedafa085987668d5c89b06c6c9d61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 047abbf297b3514c7f97d2baa6c0f5cab6696cde
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365100"
 ---
-
 # <a name="configure-automated-tasks-in-a-workflow"></a>Configurar tarefas automatizadas em um fluxo de trabalho
 
 [!include [banner](../includes/banner.md)]
@@ -100,7 +99,7 @@ Siga estas etapas para inserir um nome para a tarefa automatizada.
     </tr>
     <tr>
     <td>Usuário</td>
-    <td>Especificar usuários do Microsoft Dynamics 365 for Finance and Operations</td>
+    <td>Usuários específicos do Microsoft Dynamics 365 for Finance and Operations</td>
     <td>
     <ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
@@ -112,4 +111,3 @@ Siga estas etapas para inserir um nome para a tarefa automatizada.
     </table>
 
 8. Repita as etapas de 3 a 7 para cada evento selecionado na etapa 2.
-

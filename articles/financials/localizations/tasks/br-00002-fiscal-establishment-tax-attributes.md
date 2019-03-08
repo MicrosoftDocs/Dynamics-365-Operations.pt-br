@@ -1,13 +1,13 @@
---- 
+---
 title: Atributos de imposto de estabelecimento fiscal (Brasil)
 description: Use este procedimento para criar um ou mais estabelecimentos fiscais para uma entidade legal.
 author: sndray
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5f0dcab41d8de17ed71132e9feac0ecdda0bb392
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dc32abea170509f95279709526d38905fbfcc8c3
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371587"
 ---
 # <a name="fiscal-establishment-tax-attributes-brazil"></a>Atributos de imposto de estabelecimento fiscal (Brasil)
 
@@ -88,5 +88,4 @@ Use este procedimento para criar um ou mais estabelecimentos fiscais para uma en
 57. Clique em Salvar.
 58. Feche a página.
 59. Feche a página.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Conteúdo do Power BI Desempenho de depósito"
-description: "Este tópico descreve o que está incluído no conteúdo do Power BI Desempenho de depósito. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
+title: Conteúdo do Power BI Desempenho de depósito
+description: Este tópico descreve o que está incluído no conteúdo do Power BI Desempenho de depósito. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 99966a67fa1fd91fc54e7100f8e2e41b87f6a406
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365353"
 ---
-
 # <a name="warehouse-performance-power-bi-content"></a>Conteúdo do Power BI Desempenho de depósito
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI **Desempenho de depósito**. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
+Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI **Desempenho de depósito**. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -40,13 +39,13 @@ Os gerentes de estoque podem usar o conteúdo do Power BI **Desempenho de depós
 
 - **Desempenho de entrada** – mede o desempenho do fornecedor em relação aos requerimentos do cliente (ou seja, mede o desempenho de entrega) e mede o desempenho de armazenamento a fim de que você possa identificar problemas envolvendo trabalhadores ou itens durante um período. É importante saber se os fornecedores estão entregando no prazo, com antecedência ou com atraso para determinar como o desempenho do fornecedor está afetando o desempenho do armazenamento geral. Um fornecedor que entrega fora das datas acordadas cria uma pressão extra sobre o depósito, por causa do trabalho inesperado, e pode aumentar o tempo médio de armazenamento.
 - **Desempenho de remessa** – mede se o seu depósito está fazendo remessas de forma integral e no prazo para os clientes (ou seja, mede a remessa de saída e o desempenho da entrega) para que você possa identificar qualquer problema envolvendo produtos, sites, depósitos ou clientes exclusivos. Se achar que remessas a áreas ou cidades específicas estão ocorrendo com atraso, pode ser necessário prestar mais atenção ao gerenciamento de conta ou transporte.
-- **Precisão do estoque do local** – a precisão do estoque é uma importante business intelligence (BI) do depósito interno. É muito importante determinar com quão precisamente você está realizando a contagem geral. No entanto, também é importante que você determine o quão preciso você é ao armazenar itens nos locais corretos e se você destaca dados de discrepância a fim de que seja possível achar posições melhores para os itens ou iniciar uma contagem total de itens específicos. (No momento, a nova funcionalidade de contagem baseada em item é fornecida como um hotfix.) Se estiver usando esse conteúdo do Power BI para determinar a exatidão dos dados de estoque disponível por local, também é possível identificar roubos nas lojas. Você também pode determinar se qualquer local possui quantidades disponíveis que diferem dos dados de ERP (planejamento de recursos empresariais). Esses locais podem ser muito grandes ou pode ser impossível contá-los. Como alternativa, alguns dos posicionamentos físicos podem ser ruins, motivo pelo qual é difícil manter um único tipo de item em sincronia com os dados disponíveis.
+- **Precisão do estoque do local** – a precisão do estoque é uma importante business intelligence (BI) do depósito interno. É muito importante determinar com quão precisamente você está realizando a contagem geral. No entanto, também é importante que você determine o quão preciso você é ao armazenar itens nos locais corretos e se você destaca dados de discrepância a fim de que seja possível achar posições melhores para os itens ou iniciar uma contagem total de itens específicos. (No momento, a nova funcionalidade de contagem baseada em item é fornecida como um hotfix.) Se você estiver usando esse conteúdo do Power BI para determinar a exatidão dos dados de estoque disponível por local, também poderá identificar roubos nas lojas. Você também pode determinar se qualquer local possui quantidades disponíveis que diferem dos dados de ERP (planejamento de recursos empresariais). Esses locais podem ser muito grandes ou pode ser impossível contá-los. Como alternativa, alguns dos posicionamentos físicos podem ser ruins, motivo pelo qual é difícil manter um único tipo de item em sincronia com os dados disponíveis.
 
 ## <a name="accessing-the-power-bi-content-pack"></a>Acessando o pacote de conteúdo do Power BI
 O conteúdo do Power BI **Desempenho de depósito** é exibido na página **Desempenho de depósito** (**Gerenciamento de depósito** \> **Consultas e relatórios** \> **Análise de desempenho de depósito** \> **Desempenho de depósito**).
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Métricas incluídas no conteúdo do Power BI
-O conteúdo do Power BI **Desempenho de depósito** inclui um relatório. Esse relatório consiste em um conjunto de métricas visualizadas, como gráficos, blocos e tabelas. A seguinte tabela fornece uma visão geral das visualizações no conteúdo do Power BI **Desempenho de depósito**.
+O conteúdo do Power BI **Desempenho de depósito** inclui um relatório. Esse relatório consiste em um conjunto de métricas visualizadas, como gráficos, blocos e tabelas. A tabela a seguir oferece uma visão geral das visualizações no conteúdo **CustCollectionsBICrossCompany** do Power BI.
 
 | Página de relatório                 | Gráficos                                   | descrição |
 |-----------------------------|------------------------------------------|-------------|
@@ -79,7 +78,7 @@ O conteúdo do Power BI **Desempenho de depósito** inclui um relatório. Esse r
 | Desempenho de remessa        | Enviada por site/depósito              | A porcentagem enviada com antecedência, no prazo ou com atraso por site ou depósito. |
 
 ## <a name="understanding-the-data-model-and-calculations"></a>Noções básicas sobre modelo de dados e cálculos
-Os seguintes dados são usados para preencher as páginas de relatório no conteúdo do Power BI **Desempenho de depósito**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com a loja Entidade](power-bi-integration-entity-store.md).
+Os seguintes dados são usados para preencher as páginas de relatório no conteúdo do Power BI **Desempenho de depósito**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com o repositório de entidades](power-bi-integration-entity-store.md).
 
 As principais medidas agregadas a seguir são usadas como base do conteúdo.
 
@@ -113,4 +112,3 @@ As principais medidas agregadas a seguir são usadas como base do conteúdo.
 | Desempenho de remessa        | Enviada por produto                       | CustPackingSlipOnTimeStatus           | Antecipada, no prazo e atrasada (veja as descrições apresentadas anteriormente nesta tabela). |
 | Desempenho de remessa        | Enviada por cliente                      | CustPackingSlipOnTimeStatus           | Antecipada, no prazo e atrasada (veja as descrições apresentadas anteriormente nesta tabela). |
 | Desempenho de remessa        | Enviada por site/depósito              | CustPackingSlipOnTimeStatus           | Antecipada, no prazo e atrasada (veja as descrições apresentadas anteriormente nesta tabela). |
-

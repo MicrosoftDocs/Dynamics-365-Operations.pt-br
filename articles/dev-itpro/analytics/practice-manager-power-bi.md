@@ -1,35 +1,34 @@
 ---
-title: "Conteúdo Gerente de prática do Power BI"
-description: "Este tópico descreve o que está incluído no conteúdo Gerente de prática do Power BI. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo."
+title: Conteúdo de gerente de prática do Power BI
+description: Este tópico descreve o que está incluído no conteúdo Gerente de prática do Power BI. Ele explica como acessar os relatórios incluídos no conteúdo, além de fornecer informações sobre o modelo de dados e as entidades usadas para criar o conteúdo.
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367791"
 ---
-
-# <a name="practice-manager-power-bi-content"></a>Conteúdo Gerente de prática do Power BI
+# <a name="practice-manager-power-bi-content"></a>Conteúdo de gerente de prática do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o que está incluído no conteúdo **Gerente de prática** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
+Este tópico descreve o que está incluído no conteúdo **Gerente de prática** do Microsoft Power BI. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que são usados para criar o conteúdo.
 
 ## <a name="overview"></a>Visão Geral
 
@@ -55,11 +54,11 @@ A tabela a seguir fornece detalhes sobre as métricas encontradas em cada págin
 | EVM               | Índice de custo e de desempenho de agenda por projeto |
 | Horas             | <ul><li>Horas utilizadas faturáveis reais versus horas de custo indireto faturáveis reais versus horas do orçamento</li><li>Horas utilizadas faturáveis reais versus horas de custo indireto faturáveis reais por projeto</li><li>Horas utilizadas faturáveis reais versus horas de custo indireto faturáveis reais por recurso</li><li>Taxa de horas faturáveis reais por projeto</li><li>Taxa de horas faturáveis reais por recurso</li></ul> |
 
-Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixados no painel. Para saber mais sobre como filtrar e fixar no Power BI, veja [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Você também pode usar a funcionalidade Exportar dados subjacentes para exportar os dados subjacentes resumidos em uma visualização.
+Os gráficos e os blocos em todos esses relatórios podem ser filtrados e fixados no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/). Você também pode usar a funcionalidade Exportar dados subjacentes para exportar os dados subjacentes resumidos em uma visualização.
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 
-Os seguintes dados são usados para preencher as páginas de relatório no conteúdo do Power BI **Gerente de práticas**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com a loja Entidade](power-bi-integration-entity-store.md).
+Os seguintes dados são usados para preencher as páginas de relatório no conteúdo do Power BI **Gerente de práticas**. Esses dados são representadas como medições agregadas que foram preparadas no Repositório de entidades. O Repositório de entidades é um banco de dados do Microsoft SQL Server otimizado para análise. Para obter mais informações, consulte [Visão geral da integração do Power BI com o repositório de entidades](power-bi-integration-entity-store.md).
 
 As seções a seguir descrevem as medidas agregadas usadas em cada entidade.
 
@@ -119,4 +118,3 @@ As seções a seguir descrevem as medidas agregadas usadas em cada entidade.
 | Principal medida agregada       | Campo               | descrição |
 |---------------------------------|---------------------|-------------|
 | Custo planejado de atividade concluído | Sum(TotalCostPrice) | Total de preço de custo em estimativas para todos os tipos de transação de projeto com tarefas concluídas. |
-

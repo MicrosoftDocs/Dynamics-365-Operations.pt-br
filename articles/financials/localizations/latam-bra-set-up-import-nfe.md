@@ -1,29 +1,28 @@
 ---
 title: Configurar, importar e verificar documentos XML de NF-e e de DANFE
-description: "Você pode extrair e importar automaticamente o XML da Nota fiscal Eletrônica (NF-e) e seu DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) de e-mails enviados pelo fornecedor de sua empresa."
+description: Você pode extrair e importar automaticamente o XML da Nota fiscal Eletrônica (NF-e) e seu DANFE (Documento Auxiliar da Nota Fiscal Eletrônica) de e-mails enviados pelo fornecedor de sua empresa.
 author: v-gonode
 manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EFDocumentReceivedXML_BR
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: v-gonode
-ms.search.validFrom: 
+ms.search.validFrom: ''
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 6f4cc45b388e35626a8d98bbf9d2e2ad323de163
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f56eea499dec0b464d49b635af8957cdf2f1d858
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371704"
 ---
-
 # <a name="set-up-import-and-verify-nf-e-xml-documents-and-danfe"></a>Configurar, importar e verificar documentos XML de NF-e e de DANFE
 
 [!include [banner](../includes/banner.md)]
@@ -64,4 +63,3 @@ Os arquivos XML e DANFE importados podem ser exibidos na página **Documentos XM
 1. Na página **Consultar status da chave de acesso da NF-e**, no campo **Limite de cancelamento**, insira o número de horas que o fornecedor tem para cancelar a NF-e.
 2. No campo **Intervalo mínimo entre as consultas**, insira o intervalo mínimo entre as consultas em minutos da chave de acesso de NF-e recebida na SEFAZ.
 3. Se necessário, insira os parâmetros de processamento em lotes, as recorrências e a agenda.
-

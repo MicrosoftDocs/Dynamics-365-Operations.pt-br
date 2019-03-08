@@ -1,13 +1,13 @@
 ---
-title: "Configurar separação de cluster"
-description: "Este tópico descreve como configurar a separação do cluster e como aplicar a confirmação do item com a separação do cluster."
+title: Configurar separação de cluster
+description: Este tópico descreve como configurar a separação do cluster e como aplicar a confirmação do item com a separação do cluster.
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2ec0890963b2b01407acac8003453faf370894b4
-ms.openlocfilehash: 1c23421ddfda8c5f6fa27a31831a00ead6094db9
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/11/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364088"
 ---
-
 [!include[banner](../includes/banner.md)]
 
 # <a name="set-up-cluster-picking"></a>Configurar separação de cluster
@@ -35,7 +34,7 @@ Este tópico descreve como habilitar os operadores para usarem os dispositivos m
 
 Depois que as ordens de trabalho são liberadas para o depósito, o trabalhador pode usar um dispositivo móvel para atribuir as ordens a um cluster. O cluster organizará o trabalho de separação para o trabalhador. Quando uma ordem de trabalho é atribuída a um cluster, o trabalhador deve usar a separação de cluster para executar o trabalho de separação da ordem. O trabalhador não pode usar outros métodos de separação. Se uma ordem de trabalho for atribuída a um cluster por engano, o trabalhador deverá dividir o cluster e recriá-lo.
 
-Se for necessário, um trabalhador poderá passar um cluster para outro trabalhador. Isso altera o status do cluster para Aprovado. Quando o trabalhador usa um dispositivo móvel para indicar que o trabalho de separação e armazenamento foi concluído, a remessa ou a carga deve ser confirmada no cliente do Dynamics 365 for Finance and Operations.
+Se for necessário, um trabalhador poderá passar um cluster para outro trabalhador. Isso altera o status do cluster para Aprovado. Quando o trabalhador usa um dispositivo móvel para indicar que o trabalho de separação e armazenamento está concluído, a remessa ou carga deve ser confirmada no cliente do Dynamics 365 for Finance and Operations.
 
 ## <a name="set-up-cluster-picking"></a>Configurar separação de cluster
 
@@ -81,4 +80,3 @@ Quando a separação do cluster é aplicada, confirmação do item é importante
 1.  No item de menu do dispositivo móvel, abra o formulário de configuração para a confirmação de trabalho: **Gerenciamento de depósito** \> **Gerenciamento de depósito** \> **Configuração** \> **Dispositivo móvel** \> **Itens de menu do dispositivo móvel**.
 
 2.  Do item de menu de dispositivo móvel, abra a **Configuração de confirmação de trabalho**. A opção **Confirmação do produto** permite que você verifique cada peça de estoque no dispositivo móvel quando verificado.
-

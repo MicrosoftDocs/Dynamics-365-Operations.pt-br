@@ -1,13 +1,13 @@
---- 
-title: "Transmissão automática de notas fiscais eletrônicas (Brasil)"
-description: "Use o procedimento a seguir para configurar parâmetros de email para enviar automaticamente uma Nota Fiscal eletrônica (NF-e) a um fornecedor ou um cliente após sua aprovação ou cancelamento, ou se você gerar uma carta de correção."
+---
+title: Transmissão automática de notas fiscais eletrônicas (Brasil)
+description: Use o procedimento a seguir para configurar parâmetros de email para enviar automaticamente uma Nota Fiscal eletrônica (NF-e) a um fornecedor ou um cliente após sua aprovação ou cancelamento, ou se você gerar uma carta de correção.
 author: sndray
 manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 78e29dd912ebd0f8563b5624be9e44b592d61147
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 17f48e017921a8422d78f7c2bc0b7d7d8bd18ac5
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371696"
 ---
 # <a name="automatic-transmission-of-nf-e-fiscal-documents-brazil"></a>Transmissão automática de notas fiscais eletrônicas (Brasil)
 
@@ -73,5 +73,4 @@ Use o procedimento a seguir para configurar parâmetros de email para enviar aut
 42. Selecione Sim no campo Anexar DANFE em PDF ao email.
 43. Clique em Salvar.
 44. Feche a página.
-
 

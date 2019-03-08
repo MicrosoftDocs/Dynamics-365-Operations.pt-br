@@ -1,13 +1,13 @@
 ---
-title: "Conteúdo do Power BI de treinamento organizacional"
-description: "Este tópico descreve o Finance and Operations - Conteúdo do Power BI de treinamento organizacional."
+title: Conteúdo de treinamento organizacional do Power BI
+description: Este tópico descreve o conteúdo de treinamento organizacional do Finance and Operations Power BI.
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,29 +17,28 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6c1855013dc449950877f8727a5453942aeb75de
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367515"
 ---
-
-# <a name="organizational-training-power-bi-content"></a>Conteúdo do Power BI de treinamento organizacional
+# <a name="organizational-training-power-bi-content"></a>Conteúdo de treinamento organizacional do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o Finance and Operations - Conteúdo do Power BI de treinamento organizacional.
+Este tópico descreve o conteúdo de treinamento organizacional do Finance and Operations Power BI.
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>Relatórios incluídos no pacote de conteúdo
-Após a conexão do pacote de conteúdo aos dados do Finance and Operations, os relatórios mostrarão os dados de sua organização. Se você nunca usou o Microsoft Power BI antes, você pode saber mais sobre ele na página [Aprendizado guiado para Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Os relatórios incluídos no pacote de conteúdo têm gráficos e tabelas que contêm informações adicionais. A tabela a seguir descreve os relatórios.
+Após a conexão do pacote de conteúdo aos dados do Finance and Operations, os relatórios mostrarão os dados de sua organização. Se você nunca usou o Microsoft Power BI antes, pode saber mais sobre ele na [página Aprendizado guiado para Power BI](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData). Os relatórios incluídos no pacote de conteúdo têm gráficos e tabelas que contêm informações adicionais. A tabela a seguir descreve os relatórios.
 
 | Relatório          | Conteúdo                                                                    |
 |-----------------|-----------------------------------------------------------------------------|
 | Análise de curso | Registro por local, participantes de cursos por status e lista de registro |
 | Tipos de cursos    | Tipos de cursos por habilidade                                                       |
 
-Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e configurar um painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
+Você pode filtrar os gráficos e blocos nesses relatórios e fixá-los no painel. Para obter mais informações sobre como filtrar e fixar no Power BI, consulte [Criar e Configurar um Painel](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).
 
 ## <a name="understanding-the-data-model-and-entities"></a>Noções básicas sobre o modelo de dados e as entidades
 Os dados do Finance and Operations são usados para preencher os relatórios no pacote de conteúdo do treinamento organizacional. A seguinte tabela mostra as entidades nas quais o pacote de conteúdo foi baseado.
@@ -59,4 +58,3 @@ Os dados do Finance and Operations são usados para preencher os relatórios no 
 | Training\_Position        | Posição, título e tempo completo equivalente (FTE)                  | Training\_CourseAgenda, Training\_CourseAttendees |
 | Training\_WorkerName      | Nome, sobrenome e nome completo                             | Training\_CourseAttendees |
 | Training\_WorkerTitle     | Título e data de tempo de serviço                                         | Training\_CourseAttendees |
-

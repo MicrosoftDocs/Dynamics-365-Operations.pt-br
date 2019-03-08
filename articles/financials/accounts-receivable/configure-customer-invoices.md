@@ -1,13 +1,13 @@
 ---
 title: Criar uma fatura de cliente
-description: "Uma **fatura de cliente para uma ordem de venda** é uma nota que está relacionada a uma venda, e que uma organização fornece a um cliente."
+description: Uma **fatura de cliente para uma ordem de venda** é uma nota que está relacionada a uma venda, e que uma organização fornece a um cliente.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
 ms.openlocfilehash: 6d7c9a61f935503b74ac27b354c875df095d84b4
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365261"
 ---
-
 # <a name="create-a-customer-invoice"></a>Criar uma fatura de cliente
 
 [!include [banner](../includes/banner.md)]
@@ -91,16 +90,16 @@ Os seguintes campos alteram o comportamento do processo de lançamento.
 <ul>
 <li><strong>Entregar agora</strong> – Selecione todas as quantidades inseridas no campo <strong>Entregar agora</strong>. Use esta opção para confirmar ou entregar uma ordem parcial.</li>
 <li><strong>Separado</strong> – Selecione todas as quantidades que foram separadas.</li>
-<li><strong>Todas</strong> – Selecione todas quantidades na ordem de venda que ainda não foram atualizadas pelo tipo de documento atual.</li>
+<li><strong>Todas</strong> – selecione todas quantidades na ordem de venda que ainda não foram atualizadas pelo tipo de documento atual.</li>
 <li><strong>Guia de remessa</strong> – Selecione todas as quantidades que foram atualizadas por uma guia de remessa.</li>
-<li><strong>Quantidade separada e produtos que não estão em estoque</strong> – Selecione todas as quantidades que foram separadas e todas as quantidades de produto que não estão em estoque.</li>
+<li><strong>Quantidade separada e produtos não estocados</strong> – selecione todas as quantidades que foram separadas e todas as quantidades de produto que não estão armazenadas.</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>Lançamento</td>
 <td><ul>
 <li>Selecione esta opção para lançar em diário a ordem de venda.</li>
-<li>Desmarque esta opção para imprimir uma ordem de venda pro forma. <strong>Observação:</strong> se você tiver feito um acordo para um plano de pagamento, o plano de pagamento não será exibido na ordem de venda pro forma. Os planos de pagamento serão mostrados apenas nas ordens de venda reais.</li>
+<li>Desmarque esta opção para imprimir uma ordem de venda pro forma. <strong>Observação:</strong> se você fez um acordo para um plano de pagamento, o plano de pagamento não será exibido na ordem de venda pro forma. Os planos de pagamento serão mostrados apenas nas ordens de venda reais.</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -118,7 +117,7 @@ Os seguintes campos alteram o comportamento do processo de lançamento.
 <li><strong>Atual</strong> – Imprimir documentos após cada fatura ser atualizada.</li>
 <li><strong>Após</strong> – Imprimir documentos depois que todas as faturas estiverem atualizadas.</li>
 </ul>
-<strong>Observação:</strong> O campo <strong>Imprimir</strong> só ficará disponível se você selecionar a opção <strong>Imprimir fatura</strong>, <strong>Imprimir confirmação</strong>, <strong>Imprimir lista de separação</strong>, ou <strong>Imprimir guia de remessa</strong>. Por exemplo, na página <strong>Classificação de formulário</strong>, você configurou o sistema para classificar as informações por conta de fatura. Você pode então selecionar <strong>Depois</strong> para imprimir documentos em um lote que seja classificado por conta de fatura. Caso contrário, os documentos serão impressos antes que o processamento esteja completo, e os documentos não serão classificados na ordem que for especificada na página <strong>Classificação do formulário</strong>.</td>
+<strong>Observação:</strong> O campo <strong>Imprimir</strong> só ficará disponível se você selecionar a opção <strong>Imprimir fatura</strong>, <strong>Imprimir confirmação</strong>, <strong>Imprimir lista de separação</strong>, ou <strong>Imprimir guia de remessa</strong>. Por exemplo, na página <strong>Classificação de formulário</strong>, você configurou o sistema para classificar as informações por conta de fatura. Você pode então selecionar <strong>Depois</strong> para imprimir documentos em um lote que seja classificado por conta de fatura. Caso contrário, os documentos serão impressos antes de o processamento ser realizado e os documentos não serão classificados na ordem especificada na página <strong>Classificação de formulários</strong>.</td>
 </tr>
 <tr class="even">
 <td>Imprimir fatura</td>
@@ -148,22 +147,21 @@ Os seguintes campos alteram o comportamento do processo de lançamento.
 </tr>
 <tr class="odd">
 <td>Quantidade pendente de crédito</td>
-<td>Se você estiver lançando uma nota de crédito, escolha essa opção para manter a quantidade restante na ordem. Se a opção estiver desmarcada, a quantidade restante será definida como 0 (zero).</td>
+<td>Se você estiver lançando uma nota de crédito, escolha esta opção para manter a quantidade restante na ordem. Se a opção estiver desmarcada, a quantidade restante será definida como 0 (zero).</td>
 </tr>
 <tr class="even">
 <td>Atualização resumida de</td>
 <td>Selecione como várias ordens de venda devem ser resumidas:
 <ul>
-<li><strong>Nenhuma</strong> – Não resuma ordens de venda. Por exemplo, uma fatura separada será criada para cada ordem de venda.</li>
+<li><strong>Nenhum</strong> – não resuma ordens de venda. Por exemplo, uma fatura separada será criada para cada ordem de venda.</li>
 <li><strong>Conta de fatura</strong> – Resumir todas as ordens selecionadas com base nos critérios configurados na página <strong>Parâmetros de atualização resumida</strong>.</li>
 <li><strong>Ordem</strong> – resume um intervalo selecionado de ordens em uma ordem especificada. As ordens são resumidas com base nos critérios configurados na página <strong>Parâmetros de atualização resumida</strong>. Se você selecionar esta opção, será necessário selecionar um valor no campo <strong>Ordem de venda</strong>.</li>
-<li><strong>Resumo automático</strong> – Se as atualizações de resumo tiverem sido especificadas na página <strong>Atualizações de resumo</strong>, resuma todas as ordens selecionadas com base nos critérios configurados na página <strong>Parâmetros de atualização resumida</strong>. Se as atualizações de resumo não tiverem sido especificadas, a ordem será lançada separadamente.</li>
+<li><strong>Resumo automático</strong> – Se as atualizações de resumo tiverem sido especificadas na página <strong>Atualizações de resumo</strong>, resuma todas as ordens selecionadas com base nos critérios configurados na página <strong>Parâmetros de atualização resumida</strong>. Se atualizações resumidas não tiverem sido especificadas, a ordem será lançada separadamente.</li>
 <li><strong>Guia de remessa</strong> – resume um intervalo selecionado em uma fatura para cada guia de remessa. Esse botão está disponível apenas se <strong>Guia de remessa</strong> estiver selecionada no campo <strong>Quantidade</strong>.</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
-
 
 
 

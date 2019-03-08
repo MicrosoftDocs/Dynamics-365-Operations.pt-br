@@ -1,13 +1,13 @@
 ---
 title: Configurar os componentes de um trabalho
-description: "Este tópico descreve os elementos conceituais que um trabalho pode incluir e fornece exemplos de como você pode usar esses elementos na sua organização."
+description: Este tópico descreve os elementos conceituais que um trabalho pode incluir e fornece exemplos de como você pode usar esses elementos na sua organização.
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmJobFunction, HcmJobTask, HcmTitle
 audience: Application User
 ms.author: rschloma
@@ -18,19 +18,17 @@ ms.assetid: 889a8fab-0eef-45c2-91fc-ff2f4d44d54f
 ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377150"
 ---
-
 # <a name="set-up-the-components-of-a-job"></a>Configurar os componentes de um trabalho
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 Este tópico descreve os elementos conceituais que um trabalho pode incluir e fornece exemplos de como você pode usar esses elementos na sua organização. 
 
@@ -74,8 +72,8 @@ Tarefas de trabalho descrevem as tarefas básicas que devem ser realizadas por u
 <tr class="odd">
 <td>Gerente de vendas</td>
 <td><ul>
-<li><strong>Avaliação de desempenho</strong> – Avaliar o desempenho profissional de cada vendedor.</li>
-<li><strong>Avaliação de ausências</strong> – Aprovar ou rejeitar as solicitações ou os registros de ausência de cada vendedor.</li>
+<li><strong>Avaliação de desempenho</strong> – avaliar o desempenho profissional de cada vendedor.</li>
+<li><strong>Avaliação de ausências</strong> – aprovar ou rejeitar solicitações ou registros de ausência de cada vendedor.</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -92,4 +90,3 @@ Use as áreas de responsabilidade para indicar as funções de trabalho, os proc
 
 ## <a name="steps-for-creating-a-job"></a>Etapas para criar um trabalho
 Consulte o tópico [Definir novos trabalhos](../fin-and-ops/hr/tasks/define-new-jobs.md) para obter o procedimento etapa para etapa para criar um novo trabalho. 
-

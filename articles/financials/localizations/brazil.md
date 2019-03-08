@@ -1,29 +1,28 @@
 ---
 title: Brasil
-description: "Este tópico fornece links para os recursos de documentação do Microsoft Dynamics 365 for Finance and Operations para o Brasil."
+description: Este tópico fornece links para recursos da documentação do Microsoft Dynamics 365 for Finance and Operations para o Brasil.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
-ms.custom: 
+ms.custom: ''
 ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
 ms.openlocfilehash: 1052947fdcece2bded9e7313e51252ca9a17a4f7
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371701"
 ---
-
 # <a name="brazil"></a>Brasil 
 
 [!include [banner](../includes/banner.md)]
@@ -115,5 +114,4 @@ Este tópico inclui informações e links para recursos que podem ajudar você a
 
 - [Visão geral de Relatório eletrônico](../../dev-itpro/analytics/general-electronic-reporting.md)
 - [Baixar configurações de Relatório eletrônico do Lifecycle Services](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)
-- [Portal de localização do Microsoft Dynamics: relatório da Austrália (requer uma conta do CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/brazil.html)
-
+- [Portal de localização do Microsoft Dynamics: relatório da Austrália (exige uma conta CustomerSource)](https://mbs.microsoft.com/files/customer/AX/Support/supportnews/brazil.html)

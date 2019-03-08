@@ -1,13 +1,13 @@
 ---
 title: Analise documentos de entrada no formato Excel
-description: "Este tópico fornece informações sobre como criar formatos de relatórios eletrônicos (ER) para analisar o conteúdo contido em arquivos de entrada do Microsoft Excel."
+description: Este tópico fornece informações sobre como criar formatos de Relatórios eletrônicos (ER) para analisar o conteúdo contido em arquivos de entrada do Microsoft Excel.
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 490a9325be25908564a40478a1ee29feea67fc02
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 32fd82f0e46068c7ed7bfcfddc4ff84603bd20b4
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367469"
 ---
-
-# <a name="parse-incoming-documents-in-excel-format"></a>Analise documentos de entrada no formato Excel
+# <a name="parse-incoming-documents-in-excel-format"></a>Analisar documentos de entrada no formato Excel
 
 [!include[banner](../includes/banner.md)]
 
@@ -34,7 +33,7 @@ Você pode criar formatos de relatórios eletrônicos (ER) para analisar arquivo
 - Criar um novo modelo e formato e testá-los em tempo de execução. Nesse caso, o Excel simulará os dados reais do aplicativo.
 - Gerenciar dados além do aplicativo no Excel e desejar importar esses dados para enviar um relatório específico.
 
-Para saber mais sobre esse recurso, execute as guias de tarefa **Dados de ER de um arquivo do Microsoft Excel (Parte 1: Criar formato)** e **Importar dados de ER de um arquivo do Microsoft Excel (Parte 2: Importar dados)** (partes do processo comercial 7.5.4.3 Adquirir/desenvolver serviço de TI/componentes de solução (10677)). Essas guias de tarefas mostram como o arquivo de entrada do Excel pode ser analisado usando o formato de ER para importar informações de documentos de entrada e atualizar dados do aplicativo. É possível baixar os arquivos da guia de tarefas no [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684).
+Para saber mais sobre esse recurso, execute as guias de tarefa **ER Importar dados de um arquivo do Microsoft Excel (Parte 1: Criar formato)** e **Importar dados de ER de um arquivo do Microsoft Excel (Parte 2: Importar dados)** (partes do processo comercial 7.5.4.3 Adquirir/desenvolver serviço de TI/componentes de solução (10677)). Essas guias de tarefas mostram como o arquivo de entrada do Excel pode ser analisado usando o formato de ER para importar informações de documentos de entrada e atualizar dados do aplicativo. É possível baixar os arquivos da guia de tarefas no [Microsoft Download Center](https://go.microsoft.com/fwlink/?linkid=874684).
 
 Baixe os arquivos a seguir para concluir as guias de tarefas mencionadas anteriormente.
 
@@ -48,4 +47,3 @@ Se você ainda não tiver executado esta guia de tarefas, [ER Criar configuraç�
 | Descrição do conteúdo    | Arquivo                                                            |
 |------------------------|-----------------------------------------------------------------|
 | Configuração de modelo ER | [1099model.xml](https://go.microsoft.com/fwlink/?linkid=862266) |
-

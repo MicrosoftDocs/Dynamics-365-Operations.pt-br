@@ -1,13 +1,13 @@
 ---
-title: "Dimensões do elemento de custo"
-description: "Como uma colunas principal na contabilização de custo estimado, as dimensões do elemento de custo previsto são usados para categorizar e rastrear o fluxo onde os custos."
+title: Dimensões do elemento de custo
+description: Como uma colunas principal na contabilização de custo estimado, as dimensões do elemento de custo previsto são usados para categorizar e rastrear o fluxo onde os custos.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c703d1a9ae36d4342dc652d70dd82379187057c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0f47c75b6f6f4533501070f78698de82cf70f9bd
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366066"
 ---
-
 # <a name="cost-element-dimensions"></a>Dimensões do elemento de custo
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ Para facilitar o de instalação de membros da dimensão do elemento de custo es
 
 ## <a name="implementation-considerations"></a>Considerações de implementação
 Porque os elementos de custo previsto representam o nível mais baixo de detalhes de e realizado, você deve garantir que todos os elementos de custo previsto necessário para que o relatório de administração são incluídos quando ao implementar estrutura de elementos de custo previsto. Pode ser um desafio para localizar um número adequado de elementos de custo estimado para o controle de custo. Milhares de usar elementos de custo previsto pode fazê-lo difícil controlar cada elemento de custo previsto. Como alternativa, você pode agrupar os elementos de custo previsto e gerenciar o controle de custo em um nível agregado.
-
 
 
 

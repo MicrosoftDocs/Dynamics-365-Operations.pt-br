@@ -1,13 +1,13 @@
 ---
-title: "Importação e verificação de documentos XML da NF-e e os arquivos de DANFE para o Brasil"
-description: "Este tópico responde questões sobre o processo de importar e verificar os documentos XML da Nota fiscal eletrônica (NF-e) e o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) que você recebe por e-mail."
+title: Importação e verificação de documentos XML da NF-e e os arquivos de DANFE para o Brasil
+description: Este tópico responde questões sobre o processo de importar e verificar os documentos XML da Nota fiscal eletrônica (NF-e) e o Documento Auxiliar da Nota Fiscal Eletrônica (DANFE) que você recebe por e-mail.
 author: sndray
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c0526168d46313f26e979443adc270ac2e534f37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 8e4697b57398f0ac71a7f323f4ff05832d5d80b6
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371575"
 ---
-
 # <a name="import-and-verify-nf-e-xml-documents-and-danfe-files-for-brazil"></a>Importação e verificação de documentos XML da NF-e e os arquivos de DANFE para o Brasil
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Você pode realizar as seguintes tarefas para configurar os documentos XML de No
     -   Exibir o DANFE para um documento XML de NF-e.
     -   Use a chave de acesso para pesquisar o status atual da NF-e na Secretaria da Fazenda (SEFAZ).
 -   Insira manualmente uma chave de acesso para uma NF-e para a qual você não recebeu um documento XML.
--   Lance as notas fiscais eletrônicas que possuem as chaves de acesso que não foram validadas pela SEFAZ. Como alternativa, você pode configurar o Microsoft Dynamics 365 for Finance and Operations para lançar somente as notas fiscais eletrônicas com as chaves de acesso validadas pela SEFAZ.
+-   Lance as notas fiscais eletrônicas que possuem as chaves de acesso que não foram validadas pela SEFAZ. Como alternativa, você pode configurar o Microsoft Dynamics 365 for Finance and Operations para lançar somente as notas fiscais eletrônicas com as chaves de acesso validadas pelo SEFAZ.
 -   Se você lançar as notas fiscais eletrônicas para as quais as chaves de acesso não estão disponíveis na página **Documentos XML de NF-e recebidos**, será possível atualizar as chaves de acesso ou documentos XML para as notas fiscais eletrônicas após a conclusão do lançamento. É possível exibir os seguintes documentos de NF-e lançados que requerem chaves de acesso ou documentos XML:
     -   Documentos de NF-e que possuem as chaves de acesso que não foram validadas pela SEFAZ.
     -   Documentos de NF-e para os quais o status é atualizado de **Aprovado** para **Cancelado**.
@@ -64,7 +63,6 @@ Você pode usar a página **Consulta de XML recebido** para consultar o status d
 
 ## <a name="how-do-i-generate-a-list-of-nfe-documents-that-werent-posted-but-that-i-received-the-xml-documents-for"></a>Como gero uma lista de documentos de NF-e que não foram lançados, mas para os quais recebi os documentos XML?
 É possível usar a opção **Lançados** na página **Documentos XML de NF-e recebidos** para verificar os documentos da NF-e que não foram lançados, mas para os quais você recebeu os documentos XML.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Escopo da localização brasileira"
-description: "Este tópico descreve a estratégia e o escopo para leis e regulamentos tributários, financeiros e contábeis no Brasil que foram implementados como parte do Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 R3 e Microsoft Dynamics 365 for Finance and Operations."
+title: Escopo da localização brasileira
+description: Este tópico descreve a estratégia e o escopo para leis e regulamentos tributários, financeiros e contábeis no Brasil que foram implementados como parte do Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 R3 e Microsoft Dynamics 365 for Finance and Operations.
 author: sndray
 manager: AnnBe
 ms.date: 08/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,29 +15,28 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2018-4-30
 ms.dyn365.ops.version: 8
-ms.translationtype: HT
-ms.sourcegitcommit: 71623beb27f63aa457732f23d7ea177c642ddc1f
 ms.openlocfilehash: 621848ebaaa594d051df5d16eda673e62b8b5faa
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371571"
 ---
-
 # <a name="scope-of-the-brazilian-localization"></a>Escopo da localização brasileira
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve a estratégia e o escopo para leis e regulamentos tributários, financeiros e contábeis brasileiros que a Microsoft implementou como parte do software Microsoft Dynamics e disponibilizou comercialmente no Brasil. Ele se destina a parceiros de canal e usuários do Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 R3 e Microsoft Dynamics 365 for Finance and Operations. Os parceiros de canal ou usuários que usarem estas informações na implementação de outras versões do Microsoft Dynamics, farão isso por sua conta e risco.
+Este tópico descreve a estratégia e o escopo para leis e regulamentos tributários, financeiros e contábeis brasileiros que a Microsoft implementou como parte do software Microsoft Dynamics e disponibilizou comercialmente no Brasil. Ele destina-se a parceiros de canal e usuários do Microsoft Dynamics AX 2012 R2, Microsoft Dynamics AX 2012 R3 e Microsoft Dynamics 365 for Finance and Operations. Os parceiros de canal ou usuários que usarem estas informações na implementação de outras versões do Microsoft Dynamics, farão isso por sua conta e risco.
 
-De uma forma geral, a Microsoft investe recursos significativos na extensão das funcionalidades dos processos de negócios dos aplicativos do Microsoft Dynamics, desenvolvendo recursos e funcionalidades para lidar com os requisitos tributários, contábeis ou financeiros em países ou regiões onde a Microsoft disponibiliza o Microsoft Dynamics.
+De uma forma geral, a Microsoft investe recursos significativos na extensão das funcionalidades dos processos de negócios dos aplicativos do Microsoft Dynamics, desenvolvendo recursos e funcionalidades para tratar os requisitos regulamentares tributários, contábeis ou financeiros em países ou regiões onde a Microsoft disponibiliza o Microsoft Dynamics.
 
 O Microsoft Dynamics ajuda as organizações a realizarem operações de negócios enquanto gerenciam suas obrigações em conformidade com as leis, regulamentos e práticas comerciais comuns específicos ao país/região na execução de suas atividades diárias. Esse software inclui recursos e funcionalidades elaborados para atender a leis federais, regulamentos tributários, contábeis ou financeiros que normalmente afetam os negócios no Brasil.
 
-Entretanto, o Microsoft Dynamics não trata de todos os requisitos legais, regulatórios ou comerciais do Brasil, pois as leis e os regulamentos variam na forma como afetam as organizações. Detalhes adicionais estão disponíveis no [Guia de disponibilidade de localização](https://aka.ms/ax-availabilityguide).
+Porém, o Microsoft Dynamics não trata de todas as leis, regulamentos ou requisitos comerciais do Brasil, pois as leis e os regulamentos variam na forma como afetam as organizações. Detalhes adicionais estão disponíveis no [Guia de disponibilidade de localização](https://aka.ms/ax-availabilityguide).
 
 Os parceiros de canal constituem uma parte importante de nossa estratégia global de fornecer o Microsoft Dynamics para ajudar os clientes no cumprimento de requisitos legais e regulatórios do Brasil. Utilizando-se das vantagens oferecidas pela natureza extensível da arquitetura de desenvolvimento do Microsoft Dynamics, os parceiros de canal podem atender a necessidades comerciais específicas de um cliente durante a implementação, seja por meio da configuração do software (quando as opções de configuração estão disponíveis) ou por meio do desenvolvimento, pelos próprios parceiros, de personalizações ou localizações (se a personalização ou localização for necessária). Embora os parceiros de canal possam fornecer soluções que atendam a requisitos regulatórios específicos que são exclusivos a municipalidades, cidades, estados ou outras regiões no Brasil, a Microsoft não oferece nenhum tipo de garantia (expressa, implícita, legal ou de outra forma) de que as soluções criadas por parceiros estejam em conformidade com requisitos comerciais, tributários, regulatórios, legais ou outros aplicáveis.
 
-Os parceiros de canal ou clientes são os únicos responsáveis por qualquer configuração, localização ou tradução que criarem ou implementarem em nome dos clientes. Essa responsabilidade também cobre qualquer atualização para essas soluções e qualquer suporte ou outro serviço que seja fornecido aos clientes para tais soluções. Você deve entrar em contato com o parceiro de canal para obter informações sobre as soluções criadas por um parceiro de canal para versões licenciadas do Microsoft Dynamics.
+Os parceiros de canal ou clientes são os únicos responsáveis por qualquer configuração, localização ou tradução que criarem ou implementarem em nome dos clientes. Essa responsabilidade também cobre qualquer atualização para essas soluções e qualquer suporte ou outro serviço que seja fornecido aos clientes para tais soluções. Você deve contatar seu parceiro de canal para obter informações sobre as soluções que o parceiro de canal cria para versões licenciadas do Microsoft Dynamics.
 
 ## <a name="definitions"></a>Definições
 
@@ -46,17 +45,17 @@ Os parceiros de canal ou clientes são os únicos responsáveis por qualquer con
 - Qualquer configuração, modificação ou alteração que os parceiros ou clientes façam no software Microsoft Dynamics ou, quando aplicável, na documentação do software para atender às necessidades de negócios específicas de um cliente. Exemplos incluem adicionar ou renomear campos ou tabelas, criar relatórios personalizados ou integrar-se a soluções de terceiros.
 - Qualquer software que parceiros ou clientes desenvolvam para o software Microsoft Dynamics.
 
-**Localização** refere-se a qualquer modificação, adição ou adaptação no software Microsoft Dynamics para habilitar ou incluir recursos ou funcionalidades específicos para fins de conformidade com requisitos regulatórios (incluindo, sem limitação, versões e atualizações do software Microsoft Dynamics, ferramentas de assistência ao usuário e documentação do usuário final). Exemplos de leis ou requisitos regulatórios que podem exigir localização do software incluem relatórios de impostos locais (por exemplo, para imposto sobre vendas, imposto sobre valor agregado e imposto sobre bens e serviços), rastreamento de notas fiscais por uma autoridade do governo, cálculos de impostos exigidos pelo governo, regras contábeis locais, e relatórios regulatórios e legais locais.
+**Localização** refere-se a qualquer modificação, adição ou adaptação no software Microsoft Dynamics para habilitar ou incluir determinados recursos ou funcionalidades específicos no software para fins de conformidade com requisitos regulatórios (incluindo, sem limitação, versões e atualizações do software Microsoft Dynamics, ferramentas de assistência ao usuário e documentação do usuário final). Exemplos de leis ou requisitos regulatórios que podem exigir localização do software incluem relatórios de impostos locais (por exemplo, para imposto sobre vendas, imposto sobre valor agregado e imposto sobre bens e serviços), rastreamento de notas fiscais por uma autoridade do governo, cálculos de impostos exigidos pelo governo, regras contábeis locais, e relatórios regulatórios e legais locais.
 
 **Padrões nacionais** referem-se a requisitos de recursos no software que são relacionados principalmente a práticas bancárias (por exemplo, métodos de pagamento, formatos de pagamento e extratos bancários). Menos frequentemente, os requisitos estão relacionados a documentos comerciais (como documentos fiscais eletrônicos). Os padrões nacionais são requisitos locais que não são exigidos por lei ou regulamentação, mas são amplamente adotados dentro de uma região geográfica e fundamentais para a venda de licenças de software de gestão de negócios nessa região geográfica.
 
 ## <a name="brazilian-localization-strategy"></a>Estratégia de localização para o Brasil
 
-De modo geral, a estratégia da Microsoft para lidar com requerimentos tributários, financeiros, contábeis ou legais no Brasil consiste em fornecer localizações no Microsoft Dynamics com o objetivo de:
+Em geral, a estratégia da Microsoft para atender a requerimentos tributários, financeiros, contábeis ou legais no Brasil consiste em fornecer localizações para o Microsoft Dynamics que fazem o seguinte:
 
 - Implementam os requisitos tributários federais detalhados na seção [Escopo da localização brasileira](#brazilian-localization-scope) deste tópico.
 - Implementam os requisitos estaduais ou regionais detalhados na seção [Escopo da localização brasileira](#brazilian-localization-scope), para os seguintes estados: São Paulo (SP), Rio de Janeiro (RJ), Paraná (PR), Santa Catarina (SC) e Rio Grande do Sul (RS).
-- Fornecem novos recursos regulatórios específicos, por meio de configurações ou do desenvolvimento de nova funcionalidade, para implementar os requisitos federais, estaduais ou regionais que estão detalhados na seção [Escopo da localização brasileira](#brazilian-localization-scope), de acordo com as regras de negócios especificadas neste tópico e no roadmap do [Portal de localização do Microsoft Dynamics](https://mbs.microsoft.com/partnersource/deployment/resources/productreleases/gfmlocalizationportalmc.htm?printpage=false&sid=xdtafwuk1xh2l5jdjhhv0joy&stext=gfm%20localization%20portal).
+- Fornecem novos recursos regulatórios específicos, por meio de configurações ou do desenvolvimento de nova funcionalidade, para implementar os requisitos federais, estaduais ou regionais que estão detalhados na seção [Escopo da localização brasileira](#brazilian-localization-scope), de acordo com as regras de negócios especificadas neste tópico e no roteiro do Microsoft Dynamics no [Portal de localização do Microsoft Dynamics](https://mbs.microsoft.com/partnersource/deployment/resources/productreleases/gfmlocalizationportalmc.htm?printpage=false&sid=xdtafwuk1xh2l5jdjhhv0joy&stext=gfm%20localization%20portal).
 - Fornecem novos recursos regulatórios específicos no service pack mais recente disponível, ou em um novo service pack, para versões suportadas do Microsoft Dynamics.
 - Aplicam padrões nacionais e funcionalidades competitivos que a Microsoft, a seu critério exclusivo, determinar necessários ou apropriados com base nas necessidades comerciais da região.
 - Não se concentram nos requisitos de negócios, segmentos, verticais, regiões ou grandes empresas específicos, mesmo quando esses requisitos são exigidos por leis, normas ou regulamentos nos níveis federal, estadual ou municipal.
@@ -64,15 +63,15 @@ De modo geral, a estratégia da Microsoft para lidar com requerimentos tributár
 
 Há leis e requisitos específicos que estão fora do escopo do Microsoft Dynamics. Para obter uma lista, consulte a seção [Fora do escopo](#out-of-scope) deste tópico.
 
-A localização brasileira desenvolvida pela Microsoft para o Microsoft Dynamics está limitada aos recursos e funcionalidades que são descritos neste tópico. Portanto, o Microsoft Dynamics deve ser analisado pelos clientes potenciais ou por um profissional da área tributária, como um auditor contábil ou fiscal, uma firma de direito tributário ou firmas de consultoria tributária, para que avaliem se a funcionalidade é adequada para atender às necessidades comerciais do cliente, ou se são necessárias soluções personalizadas.
+A localização brasileira desenvolvida pela Microsoft para o Microsoft Dynamics está limitada aos recursos e funcionalidades descritos neste tópico. Portanto, o Microsoft Dynamics deve ser analisado pelos clientes potenciais ou por um profissional da área tributária, como um auditor contábil ou fiscal, uma firma de direito tributário ou firmas de consultoria tributária, para que avaliem se a funcionalidade é adequada para atender às necessidades comerciais do cliente, ou se são necessárias soluções personalizadas.
 
 ## <a name="brazilian-localization-scope"></a>Escopo da localização brasileira
 
-A interface do usuário (UI) e a Ajuda online do Microsoft Dynamics estão traduzidas para o português do Brasil. É possível que certas documentações adicionais, como white papers e materiais de treinamento, estejam disponíveis somente em inglês e talvez não estejam disponíveis quando o software for disponibilizado no Brasil.
+A interface do usuário (IU) e a Ajuda online do Microsoft Dynamics estão traduzidas para o português do Brasil. É possível que certas documentações adicionais, como white papers e materiais de treinamento, estejam disponíveis somente em inglês e talvez não estejam disponíveis quando o software for disponibilizado no Brasil.
 
-O escopo da localização do software Microsoft Dynamics disponível no Brasil se restringe a cálculo de impostos, transações contábeis, emissão/recebimento de notas fiscais e emissão de cupons fiscais nos quatro seguintes cenários: compras a pagar, da cotação ao pagamento à vista, varejo e relatórios regulatórios/legais.
+O escopo da localização do Microsoft Dynamics disponível no Brasil se restringe a cálculo de impostos, transações contábeis, emissão/recebimento de notas fiscais e emissão de cupons fiscais nos quatro seguintes cenários: compras a pagar, da cotação ao pagamento à vista, varejo e relatório regulatório/legal.
 
-As funcionalidades que a Microsoft fornece e às quais oferece suporte como parte da localização do Microsoft Dynamics para o Brasil são listadas na seção [Recursos da localização para o Brasil](#brazilian-localization-features) deste tópico. Os detalhes sobre cada funcionalidade podem ser encontrados na Ajuda do Microsoft Dynamics, bem como nos white papers publicados no [Portal de localização do Microsoft Dynamics](https://mbs.microsoft.com/partnersource/deployment/resources/productreleases/gfmlocalizationportalmc.htm?printpage=false&sid=xdtafwuk1xh2l5jdjhhv0joy&stext=gfm%20localization%20portal).
+As funcionalidades que a Microsoft fornece e às quais oferece suporte como parte da localização do Microsoft Dynamics para o Brasil são listadas na seção [Recursos da localização para o Brasil](#brazilian-localization-features) deste tópico. Os detalhes sobre cada uma das funcionalidades podem ser encontrados na Ajuda do Microsoft Dynamics, bem como nos white papers publicados no [Portal de Localização do Microsoft Dynamics](https://mbs.microsoft.com/partnersource/deployment/resources/productreleases/gfmlocalizationportalmc.htm?printpage=false&sid=xdtafwuk1xh2l5jdjhhv0joy&stext=gfm%20localization%20portal).
 
 ## <a name="market-availability"></a>Disponibilidade no mercado
 
@@ -96,7 +95,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 <thead>
 <tr>
 <th>Área</th>
-<th>Item</th>
+<th>Item </th>
 <th>AX 2012 RTM-R2</th>
 <th>AX 2012 R3</th>
 <th>Finance and Operations</th>
@@ -1009,7 +1008,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 </tr>
 <tr>
 <td></td>
-<td>Integração com o Microsoft Dynamics AX 2009</td>
+<td>Integração ao Microsoft Dynamics AX 2009</td>
 <td>Não</td>
 <td>Sim</td>
 <td>Não</td>
@@ -1223,7 +1222,7 @@ A Microsoft não faz representações nem oferece garantias sobre a pontualidade
 </tr>
 <tr>
 <td>Extensibilidade da obrigação fiscal</td>
-<td>A Estrutura de obrigações fiscais visa oferecer uma experiência unificada para desenvolvedores de obrigações fiscais (por exemplo, parceiros e fornecedores independentes de software [ISVs]), para que eles possam disponibilizar suas obrigações fiscais aos usuários no módulo <strong>Livros fiscais</strong> do AX 2012. A estrutura consiste em um conjunto de artefatos de base e diretrizes de design orientadas a objetos que devem ser seguidos pelos fornecedores de obrigações fiscais. A Microsoft, enquanto fornecedora de obrigações fiscais, também desenvolve suas próprias obrigações fiscais aproveitando essa estrutura.
+<td>A estrutura de obrigações fiscais visa oferecer uma experiência unificada para desenvolvedores de obrigações fiscais (por exemplo, parceiros e fornecedores independentes de software [ISVs]), para que eles possam disponibilizar suas obrigações fiscais aos usuários no módulo <strong>Livros fiscais</strong> do AX 2012. A estrutura consiste em um conjunto de artefatos de base e diretrizes de design orientadas a objetos que devem ser seguidos pelos fornecedores de obrigações fiscais. A Microsoft, enquanto fornecedora de obrigações fiscais, também desenvolve suas próprias obrigações fiscais aproveitando essa estrutura.
 <ul>
 <li>Sped Fiscal</li>
 <li>Contribuições EFD</li>
@@ -1283,7 +1282,7 @@ Os seguintes recursos e funcionalidades estão fora do escopo da localização p
 - Sistema de gerenciamento de qualidade
 - Catálogos e categorização
 - Conexão automática de linhas da fatura a linhas da guia de remessa
-- Adição de criptografia para processamento de cartões de crédito em Serviços Online para Microsoft Dynamics
+- Adição de criptografia para processamento de cartões de crédito em Serviços Online do Microsoft Dynamics
 - Correção de ordem de compra e guia de remessa
 - Portal de autoatendimento do fornecedor
 
@@ -1334,12 +1333,12 @@ Os seguintes requisitos de relatórios de impostos estão fora do escopo para li
 - Requisitos de agências ou autarquias regulatórias, como SUFRAMA, ANVISA e ANATEL
 - IN86
 - GIA para outros estados fora de São Paulo
-- Atualização dos dados dos livros fiscais do AX 2009 para o AX 2012 R3 e o Finance and Operations
-- Atualização das notas fiscais do AX 2009 para o AX 2012 R3 e o Finance and Operations
+- Atualização dos dados dos livros fiscais do AX 2009 para AX 2012 R3 e o Finance and Operations
+- Atualização das notas fiscais do AX 2009 para AX 2012 R3 e o Finance and Operations
 
 ## <a name="references"></a>Referências
 
-O [Portal de localização do Microsoft Dynamics](https://mbs.microsoft.com/partnersource/deployment/resources/productreleases/gfmlocalizationportalmc.htm?printpage=false&sid=xdtafwuk1xh2l5jdjhhv0joy&stext=gfm%20localization%20portal) fornece informações sobre os documentos e recursos de localização que foram lançados pela Microsoft, e também documentos e recursos de localização que estão planejados para lançamento.
+O [Portal de Localização do Microsoft Dynamics](https://mbs.microsoft.com/partnersource/deployment/resources/productreleases/gfmlocalizationportalmc.htm?printpage=false&sid=xdtafwuk1xh2l5jdjhhv0joy&stext=gfm%20localization%20portal) fornece informações sobre os documentos e recursos de localização que foram lançados pela Microsoft, e também os recursos de localização e documentos que estão planejados para lançamento.
 
 ## <a name="notes"></a>Observação
 
@@ -1385,4 +1384,3 @@ O [Portal de localização do Microsoft Dynamics](https://mbs.microsoft.com/part
 | SINTEGRA             | Sistema Integrado de Informações sobre Operações Interestaduais |
 | SEFAZ                | Secretaria da Fazenda |
 | SUFRAMA              | Superintendência da Zona Franca de Manaus |
-

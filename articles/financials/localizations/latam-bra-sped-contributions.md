@@ -1,28 +1,27 @@
 ---
-title: "Configurar parâmetros de SPED EFD"
-description: "Este tópico explica como configurar parâmetros do SPED EFD para o Brasil."
+title: Configurar parâmetros de SPED EFD
+description: Este tópico explica como configurar parâmetros do SPED EFD para o Brasil.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: f7d079b1dd63286911fd7a6ea4da459fa3168740
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371566"
 ---
-
 # <a name="set-up-parameters-for-sped-efd---contributions"></a>Configurar parâmetros para SPED EFD - Contribuições
 
 [!include [banner](../includes/banner.md)]
@@ -123,4 +122,3 @@ O registro é gerado com base em transações de imposto que satisfaçam aos seg
 </tr>
 </tbody>
 </table>
-

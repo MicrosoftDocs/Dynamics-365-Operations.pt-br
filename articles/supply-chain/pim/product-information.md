@@ -1,32 +1,31 @@
 ---
-title: "Visão geral das informações do produto"
-description: "Este tópico fornece informações sobre o gerenciamento de informações do produto. O gerenciamento de informações do produto funciona com uma definição, categorização e identificação de produtos compartilhados em todas as entidades legais, bem como configurações específicas de um produto, para se adequar aos processos de negócios."
+title: Visão geral das informações do produto
+description: Este tópico fornece informações sobre o gerenciamento de informações do produto. O gerenciamento de informações do produto funciona com uma definição, categorização e identificação de produtos compartilhados em todas as entidades legais, bem como configurações específicas de um produto, para se adequar aos processos de negócios.
 author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363007"
 ---
-
 # <a name="product-information-overview"></a>Visão geral das informações do produto
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,7 @@ Um produto é definido principalmente por um número de produto, nome e descriç
 
 A definição do produto pode ser criada no Microsoft Dynamics 365 for Finance and Operations. Também pode ser importado do gerenciamento do ciclo de vida do produto (PLM), do gerenciamento de dados do produto (PDM) ou dos sistemas de gerenciamento de informações do produto (PIM). Quando mais de uma instância do Finance and Operations é usada, uma instância normalmente é usada como o mestre dos dados do produto para todas as outras instâncias. Esta abordagem é suportada por um grande conjunto de entidades de dados que permitem exportar e importar dados de definição de produto de uma instância para outra.
 
-Para suportar a distribuição de dados do produto em muitas instâncias, o Finanças e Operações permite que você use o serviço comum de dados. As definições de produto podem ser exportadas de uma instância do Finance and Operations para o serviço dos dados comuns. As definições dos produtos podem então ser usadas para fornecer outros aplicativos de negócios, como o Microsoft Dynamics 365 for Sales, com dados do produto.
+Para suportar a distribuição de dados do produto em muitas instâncias, o Finance and Operations permite que você use o Common Data Service. As definições de produto podem ser exportadas de uma instância do Finance and Operations para o Common Data Service. As definições dos produtos podem então ser usadas para fornecer outros aplicativos de negócios, como o Microsoft Dynamics 365 for Sales, com dados do produto.
 
 Observe que, em organizações dinâmicas e ágeis, os dados da informação do produto são alterados todos os dias. Portanto, a manutenção de dados de produtos precisos e reais é um processo de negócios crítico por conta própria.
 
@@ -97,4 +96,3 @@ A área de trabalho consiste em um resumo dos blocos e duas listas. A lista **Ca
 ### <a name="manually-creating-a-new-released-product"></a>Criando manualmente um novo produto lançado
 
 Você pode criar manualmente um produto lançado em uma única execução, dependendo dos processos comerciais da organização e de quaisquer regras sobre se essa função deve ser usada. Esta função cria um novo produto e o libera automaticamente para a entidade legal atual. Para criar um novo produto, clique em **Produtos liberados** na área de trabalho **Manutenção do produto liberado** ou na página **Produtos lançados**.
-

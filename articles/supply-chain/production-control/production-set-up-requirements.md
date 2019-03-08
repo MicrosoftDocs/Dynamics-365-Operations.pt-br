@@ -1,13 +1,13 @@
 ---
-title: "Requisitos da configuração da produção"
-description: "Este artigo fornece informações sobre os requisitos de instalação antes que você possa trabalhar com controle de produção."
+title: Requisitos da configuração da produção
+description: Este artigo fornece informações sobre os requisitos de instalação antes que você possa trabalhar com controle de produção.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b811c11271097f4bb7910c34f7775955abba526d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 47fe11168ad2ddea2a7033eda8d8bd8220efea32
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366618"
 ---
-
 # <a name="production-setup-requirements"></a>Requisitos da configuração da produção
 
 [!include [banner](../includes/banner.md)]
@@ -78,7 +77,6 @@ Se você estiver trabalhando com roteiros, as operações deverão ser definidas
 1.  **Grupos de produção** - configure grupos de produção para estabelecer relações entre a ordem de produção e as contas contábeis. As contas contábeis são usadas para lançar ou para agrupar ordens para relatório.
 2.  **Pools de produção** - crie pools de produção para agrupar ordens de produção para processar ordens de produção urgentes ou para excluir e lançar grupos de ordens.
 3.  **Propriedades** – defina as propriedades para criar atributos especiais que podem ser atribuídos aos recursos para controlar a ordem das produções. Esses atributos estão conectados ao modelo de horário de trabalho.
-
 
 
 

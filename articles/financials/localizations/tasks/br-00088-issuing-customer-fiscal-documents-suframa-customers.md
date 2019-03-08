@@ -1,13 +1,13 @@
---- 
+---
 title: Emitir notas fiscais para clientes (para clientes SUFRAMA) (Brasil)
-description: "Use esse procedimento para configurar isenções de impostos para a região da Superintendência da Zona Franca de Manaus (SUFRAMA)."
+description: Use esse procedimento para configurar isenções de impostos para a região da Superintendência da Zona Franca de Manaus (SUFRAMA).
 author: sndray
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: af037ac3dd7591c783b0f9288fe2d7c4798cd921
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3e75ce2f8847330bec260714449f01ba77877223
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371675"
 ---
 # <a name="issue-customer-fiscal-documents-for-suframa-customers-brazil"></a>Emitir notas fiscais para clientes (para clientes SUFRAMA) (Brasil)
 
@@ -49,5 +49,4 @@ Use esse procedimento para configurar isenções de impostos para a região da S
     * Selecione o código de tributação com o valor fiscal Sem crédito/débito (outro) para especificar os impostos sem crédito fiscal.  
 18. Clique em Salvar.
 19. Feche a página.
-
 

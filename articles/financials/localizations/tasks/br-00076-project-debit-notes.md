@@ -1,13 +1,13 @@
---- 
-title: "Notas de débito do projeto (Brasil)"
-description: "Você pode gerar notas de débito para projetos para obter reembolso de despesas ocorridas no projeto."
+---
+title: Notas de débito do projeto (Brasil)
+description: Você pode gerar notas de débito para projetos para obter reembolso de despesas ocorridas no projeto.
 author: sndray
 manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e11973d884274ad853628e4d45ed80af6ff56b17
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 71dd115cbc3469ba451c5d26334a03966e0b43e1
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371652"
 ---
 # <a name="project-debit-notes-brazil"></a>Notas de débito do projeto (Brasil)
 
@@ -58,5 +58,4 @@ Você pode gerar notas de débito para projetos para obter reembolso de despesas
 27. Clique em OK.
 28. Feche a página.
 29. Feche a página.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Cheques pós-datados"
-description: "Este artigo fornece informações sobre o suporte para cheques pós-datados no Microsoft Dynamics 365 for Finance and Operations. Cheques pós-datados são cheques emitidos com a finalidade de fazer e receber pagamentos em uma data futura. Consequentemente, a verificação não pode ser descontada até a data especificada."
+title: Cheques pós-datados
+description: Este artigo fornece informações sobre o suporte para cheques pré-datados no Microsoft Dynamics 365 for Finance and Operations. Cheques pós-datados são cheques emitidos com a finalidade de fazer e receber pagamentos em uma data futura. Consequentemente, a verificação não pode ser descontada até a data especificada.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ea1cd9926f3ea55d82f9030372a15b3545ed824
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 8fd721dc3166dcd981b749c673d3c625b4e5ae36
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362915"
 ---
-
 # <a name="postdated-checks"></a>Cheques pós-datados
 
 [!include [banner](../includes/banner.md)]
 
-Este artigo fornece informações sobre o suporte para cheques pós-datados no Microsoft Dynamics 365 for Finance and Operations. Cheques pós-datados são cheques emitidos com a finalidade de fazer e receber pagamentos em uma data futura. Consequentemente, a verificação não pode ser descontada até a data especificada.
+Este artigo fornece informações sobre o suporte para cheques pré-datados no Microsoft Dynamics 365 for Finance and Operations. Cheques pós-datados são cheques emitidos com a finalidade de fazer e receber pagamentos em uma data futura. Consequentemente, a verificação não pode ser descontada até a data especificada.
 
-O Microsoft Dynamics 365 for Finance and Operations oferece suporte ao ciclo completo de gerenciamento de cheques pós-datados em contas a receber e em contas a pagar, como mostra a tabela a seguir.
+O Microsoft Dynamics 365 for Finance and Operations oferece suporte ao ciclo completo de gerenciamento de cheques pré-datados em Contas a Receber e em Contas a Pagar, como mostra a tabela a seguir.
 <table>
 <colgroup>
 <col width="50%" />
@@ -97,7 +96,6 @@ Para obter mais informações, consulte os seguintes tópicos:
 [Registrar e lançar um cheque pré-datado para um fornecedor](tasks/register-post-postdated-check-vendor.md) 
 
 [Liquidar um cheque pré-datado de um fornecedor](tasks/settle-postdated-check-vendor.md)
-
 
 
 

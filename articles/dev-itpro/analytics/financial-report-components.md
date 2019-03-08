@@ -1,13 +1,13 @@
 ---
-title: "Componentes de relatórios financeiros"
-description: "Este artigo descreve como os componentes ou blocos de construção de definições de relatório são usados em relatórios financeiros. Esses blocos de construção incluem definições de linha, coluna e definições de árvore de relatórios. Este artigo explica como organizar blocos de construção de bloqueio e como trabalhar com grupos de bloco de construção."
+title: Componentes de relatórios financeiros
+description: Este artigo descreve como os componentes ou blocos de construção de definições de relatório são usados em relatórios financeiros. Esses blocos de construção incluem definições de linha, coluna e definições de árvore de relatórios. Este artigo explica como organizar blocos de construção de bloqueio e como trabalhar com grupos de bloco de construção.
 author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0829c9eb54a8a5ca1f78bfe85de4779e541b945a
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "368136"
 ---
-
 # <a name="financial-report-components"></a>Componentes de relatórios financeiros
 
 [!include [banner](../includes/banner.md)]
 
 Este artigo descreve como os componentes ou blocos de construção de definições de relatório são usados em relatórios financeiros. Esses blocos de construção incluem definições de linha, coluna e definições de árvore de relatórios. O artigo explica como organizar e bloquear blocos de construção.
 
-A filosofia de design por trás do designer de relatórios financeiros é dividir informações no componente ou o bloco de construção, menor e, em seguida, mesclar e combinar os componentes conforme necessário. Portanto, a formatação do relatório é separada do seus dados financeiros e você pode alterar o design de um relatório sem modificar os dados financeiros no sistema Microsoft Dynamics ERP. Usando esta abordagem de bloco de construção, você pode combinar texto, valores e cálculos, para gerar os relatórios necessários. Além disso, esta flexibilidade incentiva a criatividade, facilitando a exibição de suas operações de diferentes formas. Os blocos de construção individuais de uma definição de relatório são semelhantes a uma planilha tridimensional, mas com mais potência. Uma definição de relatório especifica a definição de linha, a definição de coluna e a definição de árvore do relatório opcional a serem usadas para o relatório. Ela também inclui informações sobre onde armazenar o relatório gerado e como formatá-lo.
+A filosofia de design por trás do designer de relatórios financeiros é dividir informações no componente ou o bloco de construção, menor e, em seguida, mesclar e combinar os componentes conforme necessário. Portanto, a formatação do relatório é separada de seus dados financeiros, e você pode alterar o design de um relatório sem modificar os dados financeiros no sistema de ERP Microsoft Dynamics. Usando esta abordagem de bloco de construção, você pode combinar texto, valores e cálculos, para gerar os relatórios necessários. Além disso, esta flexibilidade incentiva a criatividade, facilitando a exibição de suas operações de diferentes formas. Os blocos de construção individuais de uma definição de relatório são semelhantes a uma planilha tridimensional, mas com mais potência. Uma definição de relatório especifica a definição de linha, a definição de coluna e a definição de árvore do relatório opcional a serem usadas para o relatório. Ela também inclui informações sobre onde armazenar o relatório gerado e como formatá-lo.
 
 ## <a name="building-blocks-of-a-report"></a>Blocos de construção de um relatório
 
@@ -82,7 +81,7 @@ Você pode exibir todos os blocos de construção atribuídos a um grupo de bloc
 
 ### <a name="export-a-building-block-group"></a>Exportar um grupo de bloco de construção
 
-É possível exportar um grupo de blocos de construção ou bloco de construção do relatório específico em um grupo de blocos de construção. Você pode usar o grupo de blocos de construção exportado como backup. Você também pode copiar os dados exportados entre as instalações do Finance and Operations. O designer de relatórios tem os estilos de fontes referenciados e os conjuntos de dimensões junto com o grupo do bloco de construção.
+É possível exportar um grupo de blocos de construção ou bloco de construção do relatório específico em um grupo de blocos de construção. Você pode usar o grupo de blocos de criação exportado como backup. Você também pode copiar os dados exportados entre as instalações do Finance and Operations. O designer de relatórios tem os estilos de fonte referenciados e os conjuntos de dimensões junto com o grupo de blocos de criação.
 
 1. No Designer de Relatórios, no menu **Empresa**, clique em **Grupos do Bloco de Construção**.
 2. Na caixa de diálogo **Grupos de Blocos de Construção**, selecione o grupo de bloco de construção a ser exportado e clique em **Exportar**.
@@ -128,4 +127,3 @@ Quando você abre um bloco de construção, outros usuários só podem acessar o
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Relatórios financeiros](financial-reporting-intro.md)
-

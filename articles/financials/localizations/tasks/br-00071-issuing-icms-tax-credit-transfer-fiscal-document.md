@@ -1,13 +1,13 @@
---- 
-title: "Emitir notas fiscais de transferência de crédito de imposto ICMS (Brasil)"
-description: "Você pode criar uma nota fiscal de transferência ou apropriação de imposto e gerar uma nota fiscal eletrônica (NF-e)."
+---
+title: Emitir notas fiscais de transferência de crédito de imposto ICMS (Brasil)
+description: Você pode criar uma nota fiscal de transferência ou apropriação de imposto e gerar uma nota fiscal eletrônica (NF-e).
 author: sndray
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1e41b3b818e4f05938418b7a6c75546ecf446282
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 743cfe8b588a558bea31dccf75892168b1ccb963
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371618"
 ---
 # <a name="issue-icms-tax-credit-transfer-fiscal-documents-brazil"></a>Emitir notas fiscais de transferência de crédito de imposto ICMS (Brasil)
 
@@ -53,5 +53,4 @@ Você pode criar uma nota fiscal de transferência ou apropriação de imposto e
 19. Clique em OK.
 20. Feche a página.
 21. Feche a página.
-
 

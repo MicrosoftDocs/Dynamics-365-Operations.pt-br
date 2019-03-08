@@ -1,13 +1,13 @@
 ---
-title: "Perguntas frequentes sobre cálculos para modelos de configuração de produto"
-description: "Este tópico descreve os cálculos para os modelos de configuração de produto e explica como usar os cálculos juntamente com as restrições."
+title: Perguntas frequentes sobre cálculos para modelos de configuração de produto
+description: Este tópico descreve os cálculos para os modelos de configuração de produto e explica como usar os cálculos juntamente com as restrições.
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCConstraintEditor, PCProductConfigurationModelDetails, PCRuntimeConfigurator
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 00e1956950154051d4a916a013c2200029772e37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: daae96502f705f05076cb351aa1baefc37957803
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363375"
 ---
-
 # <a name="calculations-for-product-configuration-models-faq"></a>Perguntas frequentes sobre cálculos para modelos de configuração de produto
 
 [!include [banner](../includes/banner.md)]
@@ -102,7 +101,6 @@ Os cálculos não são incluídos na validação. É necessário testar o modelo
 
 1.  Clique em **Gerenciamento de informações do produto** &gt; **Comum** &gt; **Modelos de configuração do produto**.
 2.  Selecione um modelo de configuração do produto e, no Painel de Ação, no grupo **Executar**, clique em **Testar**.
-
 
 
 

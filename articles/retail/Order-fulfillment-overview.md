@@ -1,13 +1,13 @@
 ---
 title: Atendimento da ordem na loja
-description: "Este tópico fornece uma visão geral do atendimento da ordem da loja."
+description: Este tópico fornece uma visão geral do atendimento da ordem da loja.
 author: rubencdelgado
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: b3eeda217e00b33962561bcb2ee6185275f52fe2
-ms.contentlocale: pt-br
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363674"
 ---
-
 # <a name="store-order-fulfillment"></a>Atendimento da ordem na loja
 
 [!include [banner](includes/banner.md)]
@@ -123,7 +122,7 @@ As linhas de ordem podem ser embaladas em qualquer ponto depois que a linha da o
 - **Status resultante:** Embalada ou parcialmente embalada
 - **Status resultante de back office:** Entregue ou parcialmente entregue
 
-Esta ação marca as linhas como embalada ou parcialmente embaladas e imprime uma guia de remessa. Uma guia de remessa poderá ser impressa para validar os produtos que são embalados juntos. O formato de guia de remessa é configurado no Dynamics 365 for Retail e adicionado ao perfil de recebimento. Para obter mais informações sobre a configuração dos perfis de recebimento, consulte [Modelos de recibo e impressão](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
+Esta ação marca as linhas como embalada ou parcialmente embaladas e imprime uma guia de remessa. Uma guia de remessa poderá ser impressa para validar os produtos que são embalados juntos. O formato da guia de remessa é configurado no Dynamics 365 for Retail e adicionado ao perfil de recebimento. Para obter mais informações sobre a configuração dos perfis de recebimento, consulte [Modelos de recibo e impressão](https://docs.microsoft.com/dynamics365/unified-operations/retail/receipt-templates-printing).
 
 **Ação: Marcar como embalada**
 
@@ -219,4 +218,3 @@ O atendimento da ordem no ponto de venda inclui filtragem para ajudar o usuário
 - Data de criação
 - Data de entrega
 - Data de recebimento
-

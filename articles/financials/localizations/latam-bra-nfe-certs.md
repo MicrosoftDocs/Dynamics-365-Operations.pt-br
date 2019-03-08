@@ -1,13 +1,13 @@
 ---
 title: Certificados de NF-e para o Brasil
-description: "Este tópico fornece informações sobre os certificados de NF-e para Microsoft Dynamics 365 for Finance and Operations. Isso inclui informações sobre a solução que você deve usar para a autoridade fiscal de cada estado."
+description: Este tópico fornece informações sobre certificados de NF-e para Microsoft Dynamics 365 for Finance and Operations. Isso inclui informações sobre a solução que você deve usar para a autoridade fiscal de cada estado.
 author: sndray
 manager: AnnBe
 ms.date: 01/31/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, EcoResProductDetails, LogisticsAddressSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 21e2ec6e1bed2f6e490666bf8132696fedb2c795
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371683"
 ---
-
 # <a name="nf-e-certificates"></a>Certificados de NF-e
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ Antes de gerar uma NF-e, você deve concluir as seguintes tarefas:
 - Configurar um tipo de documento fiscal para NF-e.
 
 ## <a name="set-up-certificates"></a>Configurar certificados
-O processo usado para instalar certificados varia, dependendo do estado onde a nota fiscal de NF-e é emitida. Você deve usar o processo de instalação de certificado correto, para que o Microsoft Dynamics 365 for Finance and Operations possa se conectar com os serviços Web do estado.
+O processo usado para instalar certificados varia, dependendo do estado onde a nota fiscal de NF-e é emitida. Você deve usar o processo de instalação de certificado correto, para que o Microsoft Dynamics 365 for Finance and Operations, possa se conectar com os serviços Web do estado.
 
 O governo brasileiro atualizou a autoridade de certificação (CA) raiz usada para emitir o certificado necessário para estabelecer uma conexão de protocolo SSL (Secure Sockets Layer) no servidor. A versão atual da AC Raiz é a v5. Por padrão, a versão anterior (AC Raiz v2) é implantada no Microsoft Windows.
 
@@ -72,6 +71,5 @@ A tabela a seguir lista todas as autoridades fiscais e a solução que você dev
 |-------------|-------|---------|
 |Sefaz Virtual de Contingência Ambiente Nacional (SVC-AN)|  AC, AL, AP, DF, ES, MG, PB, RJ, RN, RO, RR, RS, SC, SE, SP, TO| Instalar manualmente a AC Raiz v5.|
 Sefaz Virtual de Contingência Rio Grande do Sul (SVC-RS)|   AM, BA, CE, GO, MA, MS, MT, PA, PE, PI, PR| Nenhuma solução adicional é necessária|
-
 
 

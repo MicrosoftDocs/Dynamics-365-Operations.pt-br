@@ -1,13 +1,13 @@
 ---
 title: Novos guias de tarefas (fevereiro de 2016)
-description: "Este tópico lista os Guias de tarefa que foram lançados nas bibliotecas do Microsoft BPM a partir de fevereiro de 2016.  As bibliotecas que foram publicadas incluem a (fevereiro de 2016) Biblioteca Unificada APQC para Microsoft Dynamics 365 for Operations e (fevereiro de 2016) Introdução."
+description: Este tópico lista os Guias de tarefa que foram lançados nas bibliotecas do Microsoft BPM a partir de fevereiro de 2016.  As bibliotecas que foram publicadas incluem a Biblioteca Unificada APQC (fevereiro de 2016) para Microsoft Dynamics 365 for Operations, e Introdução (fevereiro de 2016).
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,23 +17,22 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 87384bae08e3fa78ef3deb3830583b16b9d9d6ac
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366434"
 ---
-
 # <a name="new-task-guides-february-2016"></a>Novos guias de tarefas (fevereiro de 2016)
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico lista os Guias de tarefa que foram lançados nas bibliotecas do Microsoft BPM a partir de fevereiro de 2016. As bibliotecas que foram publicadas incluem a (fevereiro de 2016) Biblioteca Unificada APQC para Microsoft Dynamics AX e (fevereiro de 2016) Introdução.
+Este tópico lista os Guias de tarefa que foram lançados nas bibliotecas do Microsoft BPM a partir de fevereiro de 2016. As bibliotecas que foram publicadas incluem a Biblioteca Unificada APQC para Microsoft Dynamics AX (fevereiro de 2016) e Introdução (fevereiro de 2016).
 
-## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guias de tarefas na (fevereiro de 2016) Biblioteca Unificada APQC para Microsoft Dynamics AX
+## <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Guias de tarefas na Biblioteca Unificada APQC (fevereiro de 2016) para Microsoft Dynamics AX
 
-A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que devem ser usados para obter ajuda em relação ao Dynamics AX 7.0.0. Se você precisar de versões localizadas desses guias de Tarefas, eles estão disponíveis na (maio de 2016) Biblioteca Unificada APQC para Microsoft Dynamics AX. Para obter mais informações sobre como conectar o sistema de ajuda à uma biblioteca de Guias de tarefas, consulte [Introdução à ajuda](help-overview.md).
+A Biblioteca Unificada APQC (fevereiro 2016) contém os guias de Tarefas que devem ser usados para obter ajuda em relação ao Dynamics AX versão 7.0.0. Se você precisar de versões localizadas dessas guias de Tarefas, elas estão disponíveis na Biblioteca Unificada APQC (maio 2016) para Microsoft Dynamics AX. Para obter mais informações sobre como conectar o sistema de ajuda à uma biblioteca de Guias de tarefas, consulte [Introdução à ajuda](help-overview.md).
 
 ### <a name="accounts-payable"></a>Contas a Pagar
 
@@ -633,7 +632,7 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 | Relatório eletrônico                               | Global         |
 | Autoatendimento para funcionários                              | Global         |
 | Como reduzir as vendas diárias pendentes          | Global         |
-| Introdução à funcionalidade da localização do AX      | Global         |
+| Introdução à funcionalidade de localização do AX      | Global         |
 | Introdução a recursos específicos do país para o Japão | Japão          |
 | Gerenciar preços e promoções                      | Global         |
 | Autoatendimento para gerentes                               | Global         |
@@ -647,4 +646,3 @@ A (fevereiro de 2016) Biblioteca Unificada APQC contém os guias de Tarefas que 
 [Guias de tarefas novos ou atualizados (agosto de 2016)](new-updated-task-guides-available-august-2016.md)
 
 [Guias de tarefas novos ou atualizados (novembro de 2016)](new-task-guides-november-2016.md)
-

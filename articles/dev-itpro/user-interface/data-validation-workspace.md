@@ -1,28 +1,27 @@
 ---
-title: "Espaço de trabalho da lista de verificação de validação de dados"
-description: "O espaço de trabalho Lista de verificação de validação de dados permite acompanhar processos de validação de dados entre empresas, áreas e pessoas. A lista de verificação pode ser usada durante uma nova implementação, após uma atualização ou após uma migração."
+title: Espaço de trabalho da lista de verificação de validação de dados
+description: O espaço de trabalho Lista de verificação de validação de dados permite acompanhar processos de validação de dados entre empresas, áreas e pessoas. A lista de verificação pode ser usada durante uma nova implementação, após uma atualização ou após uma migração.
 author: bking
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataValidationWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: dd758ac5698d84532c0b724485cc6f0da83bc8e0
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364180"
 ---
-
 # <a name="data-validation-checklist-workspace"></a>Espaço de trabalho da lista de verificação de validação de dados
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ Na seção **Tarefas e status**, o status do projeto de validação geral de dad
 A última guia se refere à lista de tarefas detalhadas. É exibida a lista de tarefas completa.
 Você pode filtrar a lista de tarefas de várias maneiras. Clique em **Editar tarefa** para alterar o status de uma tarefa ou atribuir uma tarefa. Clique em **Anexos** para exibir anexos de uma tarefa.
 
-O nome da tarefa é um hiperlink para a página do Microsoft Dynamics 365 for Finance and Operations na qual o usuário deve ir para concluir o trabalho. Você pode definir esse hiperlink usando o campo **Nome do item de menu** ao editar ou criar uma tarefa do formulário **Configurar o projeto de validação de dados**.
+O nome da tarefa é um hiperlink para a página do Microsoft Dynamics 365 for Finance and Operations que o usuário deve acessar para concluir o trabalho. Você pode definir esse hiperlink usando o campo **Nome do item de menu** ao editar ou criar uma tarefa do formulário **Configurar o projeto de validação de dados**.
 
 Você pode anexar arquivos, notas, imagens e URLs a uma tarefa ao usar a ação **Anexos**. Por exemplo, você pode anexar um arquivo de relatório que foi impresso para a tarefa. Um ícone será exibido na coluna **Anexo** para a tarefa se um anexo estiver presente.
 
@@ -59,4 +58,3 @@ Antes de usar o espaço de trabalho **Lista de verificação de validação de d
 Use áreas de tarefas para agrupar tarefas de validação de dados em áreas lógicas de propriedade na sua organização. Por exemplo, contas a pagar, contas a receber, ou contabilidade podem ser usadas como áreas de tarefa.
 
 O **Nome do item de menu** é associado ao compromisso de trabalho da tarefa e pode ser usado para ir diretamente à página associada no link da tarefa no espaço de trabalho. Por exemplo, uma tarefa de validação de dados para executar o relatório **Classificação por vencimento de contas a pagar** para contas a pagar pode ser vinculada à página **Relatório de classificação por vencimento de contas a pagar**.
-

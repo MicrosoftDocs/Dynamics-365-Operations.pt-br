@@ -1,13 +1,13 @@
 ---
-title: "Espaço de trabalho móvel das ordens de venda"
-description: "Este tópico fornece informações sobre a área de trabalho móvel de ordens de vendas. Este espaço de trabalho o ajuda a ficar atualizado sobre suas ordens de venda a qualquer momento e em qualquer lugar."
+title: Espaço de trabalho móvel das ordens de venda
+description: Este tópico fornece informações sobre a área de trabalho móvel de ordens de vendas. Este espaço de trabalho o ajuda a ficar atualizado sobre suas ordens de venda a qualquer momento e em qualquer lugar.
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 03e8908ecb78b4f72dae8426b0165f9350d5fe85
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a3b06832112779a4b0826a51b696a1ced10711ec
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365054"
 ---
-
 # <a name="sales-orders-mobile-workspace"></a>Espaço de trabalho móvel das ordens de venda
 
 [!include [banner](../includes/banner.md)]
 
 Este tópico fornece informações sobre a área de trabalho móvel de **Ordens de venda**. Este espaço de trabalho o ajuda a ficar atualizado sobre suas ordens de venda a qualquer momento e em qualquer lugar. 
 
-O espaço de trabalho móvel é destinado a ser usado com o Microsoft Dynamics 365 do aplicativo móvel Operações Unificadas.
+Este espaço de trabalho móvel deve ser usado com o Microsoft Dynamics 365 do aplicativo Unified Operations Mobile.
 
 ## <a name="overview"></a>Visão Geral
 A área de trabalho móvel **Ordens de venda** permite exibir informações detalhadas sobre cada ordem de venda. Essas informações incluem o status da ordem, as informações de contato do cliente e informações de contato do tomador da ordem. O espaço de trabalho móvel **Ordens de venda** fornece uma visualização instantânea das ordens de venda. Você pode exibir todas as ordens de vendas, exibir as ordens de venda por cliente ou exibir informações sobre uma ordem de venda específica. 
@@ -82,13 +81,13 @@ Essa exibição lista ordens de vendas por cliente.
         -   Remessas que mostram como e quando uma ordem de venda foi enviada
 
 ## <a name="prerequisites"></a>Pré-requisitos
-Os pré-requisitos diferem, com base da versão do Microsoft Dynamics 365 que foi implantada para sua organização.
+Os pré-requisitos variam conforme a versão do Microsoft Dynamics 365 implantada na organização.
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>Pré-requisitos se você usa o Microsoft Dynamics 365 for Finance and Operations 
 Se o Dynamics 365 for Finance and Operations foi implantado em sua organização, o administrador do sistema deve publicar o espaço de trabalho móvel **Ordens de venda**. Para obter instruções, consulte [Publicar um espaço de trabalho móvel](../../dev-itpro/mobile-apps/publish-mobile-workspace.md).
 
-### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usar o Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior
-Se o Dynamics 365 for Operations versão 1611 com a atualização da plataforma 3 ou posterior tiver sido implantado em sua organização, o administrador do sistema deve completar os seguintes pré-requisitos. 
+### <a name="prerequisites-if-you-use-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>Pré-requisitos se você usa a versão 1611 do Dynamics 365 for Operations com a atualização de plataforma 3 ou posterior
+Se o Dynamics 365 for Operations versão 1611 com a atualização de plataforma 3 ou posterior foi implantado na organização, o administrador do sistema deverá atender aos pré-requisitos a seguir. 
 
 <table>
 <thead>
@@ -143,4 +142,3 @@ Baixa e instala o aplicativo móvel Dynamics 365 for Unified Operations:
 4.  Selecione o cliente.
 5.  Selecione **Informações de contato** ou **Ordens de venda**. Se selecionar **Ordens de venda**, será mostrada uma lista de ordens de venda do cliente.
 6.  Selecione **Ordem de venda**. Agora você pode exibir informações sobre linhas de ordens de vendas, informações sobre remessas, informações de contato do cliente e informações do tomador da ordem.
-

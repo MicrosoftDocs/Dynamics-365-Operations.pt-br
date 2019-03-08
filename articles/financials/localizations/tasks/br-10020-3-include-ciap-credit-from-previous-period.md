@@ -1,13 +1,13 @@
---- 
-title: "Incluir o crédito CIAP de um período anterior (Brasil)"
-description: "Use a página Transações de ativo fixo do CIAP para criar parcelas de crédito CIAP."
+---
+title: Incluir o crédito CIAP de um período anterior (Brasil)
+description: Use a página Transações de ativo fixo do CIAP para criar parcelas de crédito CIAP.
 author: sndray
 manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 15ac1313fd2a31bccb0e2d8d5c72b78db2fae9c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 01856a6079cd30cf2f306d948d61b2e282caea25
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371610"
 ---
 # <a name="include-ciap-credit-from-a-previous-period-brazil"></a>Incluir o crédito CIAP de um período anterior (Brasil)
 
@@ -49,5 +49,4 @@ Use a página Transações de ativo fixo do CIAP para criar parcelas de crédito
 18. No campo Valor da parcela, insira um número.
 19. Clique em Salvar.
 20. Feche a página.
-
 

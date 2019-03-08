@@ -1,28 +1,27 @@
 ---
-title: "Ordens de transferência (Brasil)"
-description: "Este tópico fornece informações sobre as ordens de transferência do Brasil."
+title: Ordens de transferência (Brasil)
+description: Este tópico fornece informações sobre as ordens de transferência do Brasil.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 97b57d891fbe2246e99d6fb72ba71c37e6788b5b
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371583"
 ---
-
 # <a name="transfer-orders-brazil"></a>Ordens de transferência (Brasil)
 
 [!include [banner](../includes/banner.md)]
@@ -48,4 +47,3 @@ Você pode fazer o seguinte para transferir itens entre estabelecimentos fiscais
   - Retornar uma nota fiscal de transferência. Para obter mais informações, consulte [Retornar uma nota fiscal de transferência](https://review.docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/bra-return-a-transfer-fiscal-document?branch=master).
 
   - Cancelar uma ordem de transferência incorreta. Para obter mais informações, consulte [Cancelar uma nota fiscal de transferência](https://review.docs.microsoft.com/en-us/dynamicsax-2012/appuser-itpro/bra-cancel-a-transfer-fiscal-document?branch=master).
-

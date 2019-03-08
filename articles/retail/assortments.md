@@ -1,13 +1,13 @@
 ---
-title: "Gerenciamento de classificação"
-description: "Este tópico explica os conceitos básicos do gerenciamento de classificação no Microsoft Dynamics 365 for Retail e fornece considerações de implementação para o projeto."
+title: Gerenciamento de classificação
+description: Este tópico explica os conceitos básicos do gerenciamento de classificação no Microsoft Dynamics 365 for Retail e apresenta considerações de implementação do projeto.
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
+ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365031"
 ---
-
 # <a name="assortment-management"></a>Gerenciamento de classificação
 
 [!include [banner](../includes/banner.md)]
@@ -108,4 +107,3 @@ Considere os seguintes requisitos de implementação ao planejar e gerenciar cla
 - **Vendas e devoluções fora de classificações** – Este recurso ajuda os varejistas a gerenciar efetivamente suas classificações permitindo que eles limitem o número de produtos disponíveis para produtos que pertençam à combinação de produtos principal da loja. Esse recurso também ajuda os varejistas a lidar com situações em que um produto tenha sido omitido de uma classificação por engano, ou em que um produto tenha sido devolvido fora das datas efetivas da classificação.
 
 Se os dados do produto não existirem no banco de dados do canal, o PDV realiza chamadas em tempo real à matriz a fim de recuperar as informações necessárias, para que o produto possa ser vendido, devolvido ou colocado em uma ordem de cliente. Informações sobre produtos recuperadas dessa forma estarão disponíveis somente durante o escopo dessa transação. O produto não é adicionado à definição de classificação. Portanto, as chamadas em tempo real subsequentes serão feitas conforme necessário.
-

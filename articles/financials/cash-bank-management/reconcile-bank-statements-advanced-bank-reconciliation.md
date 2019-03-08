@@ -1,13 +1,13 @@
 ---
-title: "Reconciliar extratos bancários utilizando a reconciliação bancária avançada"
-description: "O recurso de reconciliação bancária avançada permite importar extratos bancários eletrônicos e reconciliá-los automaticamente com as transações bancárias no Microsoft Dynamics 365 for Finance and Operations. Este tópico descreve o processo de reconciliação."
+title: Reconciliar extratos bancários utilizando a reconciliação bancária avançada
+description: O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 for Finance and Operations. Este tópico descreve o processo de reconciliação.
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93b311d541ab588be82e6704dbe9ae3e43deabba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ed3a1fae6ca30b9411fde47e7ef8a08150d7d748
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364962"
 ---
-
-# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Reconciliar extratos bancários utilizando a reconciliação bancária avançada
+# <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>Reconciliar extratos bancários usando reconciliação bancária avançada
 
 [!include [banner](../includes/banner.md)]
 
-O recurso de reconciliação bancária avançada permite importar extratos bancários eletrônicos e reconciliá-los automaticamente com as transações bancárias no Microsoft Dynamics 365 for Finance and Operations. Este tópico descreve o processo de reconciliação.  
+O recurso Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias do Microsoft Dynamics 365 for Finance and Operations. Este tópico descreve o processo de reconciliação.  
 
 <a name="import-an-electronic-bank-statement"></a>Importar um extrato bancário eletrônico
 -----------------------------------
@@ -94,7 +93,6 @@ Depois de concluir seu processo de reconciliação, você deve marcar a Planilha
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>Lançar novas transações associadas à reconciliação
 As transações do extrato bancário que foram marcados como **Nova** na planilha de reconciliação são lançadas na página **Extrato bancário**. Na página **Extrato bancário**, selecione a ID do extrato para exibir os detalhes do extrato. No menu **Contabilidade**, é possível usar as opções **Exibir distribuições** e **Exibir contabilidade** para exibir os detalhes por trás das novas transações e as entradas contábeis associadas. Selecione a opção **Lançar** para lançar as linhas do extrato bancário marcadas como **Nova** à contabilidade. É importante observar que o lançamento só pode ser concluído uma única vez por extrato bancário.
-
 
 
 

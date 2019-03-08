@@ -1,13 +1,13 @@
---- 
-title: "Criar uma apuração de imposto - PIS e COFINS (Brasil)"
-description: "Você pode criar uma avaliação de imposto para contribuições de PIS/COFINS por um período de escrituração específico."
+---
+title: Criar uma apuração de imposto - PIS e COFINS (Brasil)
+description: Você pode criar uma avaliação de imposto para contribuições de PIS/COFINS por um período de escrituração específico.
 author: sndray
 manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d07723cd0d19260475e34120b2610cd6ed5acc61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 93ab7d67afe05165ed9d9a81e1b1efa51a50a49e
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371657"
 ---
 # <a name="create-a-tax-assessment---pis-and-cofins-tax-brazil"></a>Criar uma apuração de imposto - PIS e COFINS (Brasil)
 
@@ -62,5 +62,4 @@ Você pode criar uma avaliação de imposto para contribuições de PIS/COFINS p
 32. Clique em Lançar.
 33. Feche a página.
 34. Feche a página.
-
 

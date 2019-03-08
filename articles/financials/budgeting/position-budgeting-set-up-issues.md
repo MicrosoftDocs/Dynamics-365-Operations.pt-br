@@ -1,13 +1,13 @@
 ---
-title: "Solução de problemas para orçamento de posição"
-description: "Este artigo oferece respostas para as perguntas que você pode ter ao configurar o orçamento de posições. Aborda as perguntas mais frequentes sobre como criar elementos de custos de orçamento, grupos de remuneração, e grades de remuneração."
+title: Solução de problemas para orçamento de posição
+description: Este artigo oferece respostas para as perguntas que você pode ter ao configurar o orçamento de posições. Aborda as perguntas mais frequentes sobre como criar elementos de custos de orçamento, grupos de remuneração, e grades de remuneração.
 author: ryansandness
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0800a4a7c92a1a5f4d4f66bb37032eacccc4cb4e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f2ef04008a5e6339a2193f9fcc77f2e0e6643557
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367101"
 ---
-
 # <a name="position-budgeting-troubleshooting"></a>Solução de problemas para orçamento de posição
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ As datas na linha do elemento de custo da posição de previsão devem estar nos
 -   As datas de ativação e de aposentadoria da posição.
 -   As datas de ativação e de vencimento do elemento de custo de orçamento.
 -   As datas de início e fim do ciclo orçamentário associado ao processo de planejamento de orçamento da posição de previsão.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Importar notas fiscais do Brasil
-description: "Este tópico descreve a funcionalidade para notas fiscais de importação direta disponível da localização brasileira."
+description: Este tópico descreve a funcionalidade para notas fiscais de importação direta disponível da localização brasileira.
 author: sndray
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BrazilParameters, FiscalDocument_BR, PurchImportDeclaration_BR, PurchImportDeclarationList_BR, VendEditInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: f9411ca32f104fa45754c9f05ecf1db2bd438f60
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7c8ac3f3b0158efbf26e34993392ff7ee1d4a602
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371636"
 ---
-
 # <a name="import-fiscal-documents-for-brazil"></a>Importar notas fiscais do Brasil
 
 [!include [banner](../includes/banner.md)]
@@ -142,11 +141,11 @@ Para esse cenário, você deve criar e lançar uma nota fiscal de importação d
 <td><ol>
 <li>Alicia cria uma ordem de compra para um fornecedor estrangeiro. A ordem de compra usa a moeda estrangeira pela qual o preço do item foi negociado.</li>
 <li>O despachante aduaneiro notifica Alicia de que os itens chegaram no porto ou no aeroporto e fornece o valor previsto de imposto a ser pago, antes de o porto ou aeroporto liberar os itens.</li>
-<li>O April gera um pagamento antecipado na moeda da empresa do despachante aduaneiro. Ela usa o valor estimado do imposto como referência.</li>
+<li>April gera um pagamento antecipado na moeda da empresa do despachante aduaneiro. Ela usa o valor estimado do imposto como referência.</li>
 <li>O despachante aduaneiro gera um documento de declaração de importação por fornecedor. Este documento de declaração de importação é entregue ao despachante aduaneiro. É baseado nos impostos que são apresentados na declaração de importação e gera e paga os documentos de pagamento de impostos (GARE).</li>
 <li>O despachante aduaneiro envia uma cópia do documento de declaração de importação para April. April ajusta os valores de encargos diversos relacionados a frete, seguro e SISCOMEX em ordens de compra relacionadas ao processo de importação. (A distribuição de encargos diversos é criada manualmente por April).</li>
 <li>April prepara a nota fiscal de importação, selecionando as ordens de compra e os itens da ordem de compra. Em seguida, ela insere o número de declaração de importação na ordem de compra. Ela também insere o número de adição nas linhas de nota fiscal de lançamento por item de ordem de compra.</li>
-<li>April verifica o valor de impostos sobre vendas antes de lançar a nota fiscal de importação com a declaração de importação. Quando os valores de impostos da nota fiscal de importação e da declaração de importação forem correspondentes, ela lança a fatura. Se os valores não corresponderem, ela ajusta os valores de imposto da nota fiscal que devem ser lançados. <strong>Observação:</strong> Como as mercadorias ainda não estão incluídas na posse de uma empresa, um depósito diferente pode ser usado em cada linha de ordem de compra relacionada à nota fiscal de importação.</li>
+<li>April verifica o valor de impostos sobre vendas antes de lançar a nota fiscal de importação com a declaração de importação. Quando os valores de impostos da nota fiscal de importação e da declaração de importação forem correspondentes, ela lança a fatura. Se os valores não forem correspondentes, ela ajusta os valores da nota fiscal da fatura que deve ser lançada. <strong>Observação:</strong> Como as mercadorias ainda não estão incluídas na posse de uma empresa, um depósito diferente pode ser usado em cada linha de ordem de compra relacionada à nota fiscal de importação.</li>
 <li>April envia a nota fiscal de fornecedor impressa ao despachante aduaneiro.</li>
 <li>O despachante aduaneiro adiciona os documentos que são necessários para liberar as mercadorias: a declaração de importação, o GARE (impostos pagos) e a nota fiscal impressa de importação (própria nota fiscal). O despachante aduaneiro solicita que o porto ou o aeroporto libere as mercadorias.</li>
 <li>As mercadorias são transportadas para o depósito da empresa.</li>
@@ -156,7 +155,6 @@ Para esse cenário, você deve criar e lançar uma nota fiscal de importação d
 </tr>
 </tbody>
 </table>
-
 
 
 

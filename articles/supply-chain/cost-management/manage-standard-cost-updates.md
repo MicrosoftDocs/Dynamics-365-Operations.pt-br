@@ -1,13 +1,13 @@
 ---
-title: "Gerenciamento de atualizações de custo padrão"
-description: "As atualizações de dados de custo padrão podem ser gerenciadas usando duas abordagens diferentes: a abordagem de uma versão ou a abordagem de duas versões."
+title: Gerenciamento de atualizações de custo padrão
+description: 'As atualizações de dados de custo padrão podem ser gerenciadas usando duas abordagens diferentes: a abordagem de uma versão ou a abordagem de duas versões.'
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8e72d4e90ac83787ed7c58d91c2102696acfac68
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b64d9e53736fd3b81ee997ed28ccfa62ed7e9ce6
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367538"
 ---
-
 # <a name="manage-standard-cost-updates"></a>Gerenciamento de atualizações de custo padrão
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,6 @@ O exemplo a seguir ilustra como as abordagens de uma versão e de duas versões 
 -   **Abordagem de duas versões para as atualizações de dados de custo** − a abordagem de duas versões requer uma versão adicional de avaliação de custo que contenha somente as atualizações de custo. O identificador para esta versão é 2016-STD-CHANGES. As atualizações de custo são registradas em 2016-STD-CHANGES e definidas para um status de "pendente". Com a abordagem de duas versões, os cálculos de BOM dos custos pendentes para os itens fabricados precisam de uma fonte de dados de reserva. Isso ocorre devido à versão adicional de avaliação de custo 2016-STD-CHANGES conter somente um subconjunto de dados de custo. O fallback pode ser expresso como os custos ativos ou como a versão de avaliação de custo 2016-STD, pois ambos identificam a fonte dos dados de custo quando ela não estiver incluída em 2016-STD-CHANGES. Após os custos pendentes se tornarem ativos, a versão de avaliação de custo 2016-STD-CHANGES conterá os custos ativos atuais que refletem as atualizações, enquanto que a versão original de avaliação de custo 2016-STD não será alterada. Quando a abordagem de duas versões é usada, as políticas de bloqueio para a versão original de avaliação de custo devem ser configuradas para evitar atualizações. As políticas de bloqueio idênticas devem ser configuradas para a versão adicional de avaliação de custo, exceto para a data de início especificada e o uso seletivo das políticas de bloqueio para permitir atualizações. A data De especificada deve ser atualizada com cada lote de alterações para refletir a data de ativação programada.
 
 Este exemplo usou uma versão de avaliação de custo adicional para gerenciar atualizações durante o ano de 2016. Mais de uma versão de custo adicional pode ser usada, como uma versão separada para cada lote de atualizações. Quando mais de uma avaliação de custo adicional forem usadas, o fallback deve ser expresso como os custos ativos, pois os custos ativos são difundidos em diversas versões de avaliação de custos.
-
 
 
 

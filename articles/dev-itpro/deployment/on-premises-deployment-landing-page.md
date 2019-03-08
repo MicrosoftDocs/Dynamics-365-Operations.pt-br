@@ -1,28 +1,28 @@
 ---
-title: "Home page da implantações locais"
-description: "Este tópico fornece informações e vincula a conteúdo sobre implantações locais."
+title: Home page da implantações locais
+description: Este tópico fornece informações e vincula a conteúdo sobre implantações locais.
 author: kfend
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
+ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
 ms.translationtype: HT
-ms.sourcegitcommit: b8fb8c963e2bba2e6fe7cb31e71a38232f1e8a54
-ms.openlocfilehash: c80a41427db18607577b4f89c8e30fe6c8f872d3
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/02/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373268"
 ---
 # <a name="on-premises-deployments-home-page"></a>Home page da implantações locais
 
@@ -60,9 +60,10 @@ Você pode implantar o Microsoft Dynamics 365 for Finance and Operations (local)
 - [Recursos de varejo disponíveis em implantações locais](../../retail/retail-onprem.md)
 - [Etapas de instalação dos componentes do Canal de varejo em um ambiente local](deploy-retail-onprem.md)
 - [Configurar, instalar e ativar o Retail Modern POS (MPOS)](../../retail/retail-modern-pos-device-activation.md)
-- [Configurar e instalar Retail Store Scale Unit](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
+- [Configurar e instalar o Retail Store Scale Unit](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
-
+## <a name="upgrade"></a>Atualizar
+- [Processo do atualização no local de ambientes locais](../migration-upgrade/on-prem-upgrade.md)
 
 ## <a name="other-resources"></a>Outros recursos
 - [Solucionar problemas em implantações locais](troubleshoot-on-prem.md)
@@ -71,4 +72,3 @@ Você pode implantar o Microsoft Dynamics 365 for Finance and Operations (local)
 - [Recursos removidos ou obsoletos](../migration-upgrade/deprecated-features.md)
 - [Política de ciclo de vida do software e versões locais](../migration-upgrade/on-prem-version-update-policy.md)
  
-

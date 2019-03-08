@@ -1,13 +1,13 @@
 ---
 title: Atributos de impostos do Brasil
-description: "Este tópico explica como configurar informações fiscais para endereços, entidades legais, clientes e fornecedores, e para os produtos que são liberados para uma entidade legal do Brasil. Essas informações são necessárias para o cálculo de imposto, e para as notas fiscais e outras instruções necessárias que você envia dos livros fiscais."
+description: Este tópico explica como configurar informações fiscais para endereços, entidades legais, clientes e fornecedores, e para os produtos que são liberados para uma entidade legal do Brasil. Essas informações são necessárias para o cálculo de imposto, e para as notas fiscais e outras instruções necessárias que você envia dos livros fiscais.
 author: sndray
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, EcoResProductDetails, LogisticsAddressSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 61f4a7ac4af688670b270778668611cd51f329f3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9dad25d6e89d59de0f867824a258e777b02e3b52
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371702"
 ---
-
 # <a name="tax-attributes-for-brazil"></a>Atributos de impostos do Brasil
 
 [!include [banner](../includes/banner.md)]
@@ -93,7 +92,6 @@ Os seguintes campos na página **Informações sobre produtos** são necessário
 | ICMS sobre serviço                         | Os impostos ICMS aplicados em um item do tipo de serviço.                       |
 | Percentual aproximado de imposto (Carga tributária) | A alíquota usada para calcular o valor aproximado do imposto do produto. |
 | CEST (Código de substituição tributária)            | O código numérico usado se a substituição do imposto for permitida para o item.          |
-
 
 
 

@@ -1,13 +1,13 @@
 ---
 title: Notas fiscais e suas estruturas para o Brasil
-description: "Este tópico descreve as notas fiscais do Brasil."
+description: Este tópico descreve as notas fiscais do Brasil.
 author: sndray
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FiscalDocument_BR, FiscalDocumentAmounts_BR, FiscalDocumentChargesTotals_BR, FiscalDocumentElectronic_BR
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e20c020be3e95612c7a6f556fe0993ddb45d14bd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2bbb5f23b34e5665fce0310a4e5b838cb8a265d9
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371598"
 ---
-
 # <a name="fiscal-documents-and-fiscal-document-framework-for-brazil"></a>Notas fiscais e suas estruturas para o Brasil
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ Depois que uma nota fiscal for lançada, o usuário poderá ver as informações
 | **Textos das notas fiscais**         | Exibe os textos das notas fiscais associados à nota fiscal.                                                                                                                                                                                                                                                                                             |
 | **Referência fiscal**              | Exibe as referências fiscais associadas à nota fiscal.                                                                                                                                                                                                                                                                                                 |
 | **Declaração de importação**            | Exibe informações de declaração de importação para a nota fiscal.                                                                                                                                                                                                                                                                                                     |
-
 
 
 

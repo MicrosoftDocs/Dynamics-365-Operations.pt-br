@@ -1,28 +1,27 @@
 ---
 title: Arquivos fiscais SPED
-description: "Este tópico explica como configurar e gerar arquivos de exportação SPED para o Brasil."
+description: Este tópico explica como configurar e gerar arquivos de exportação SPED para o Brasil.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Brazil
 ms.author: shylaw
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: da583d4848dcdd3363b98fd42e54dde93dd8f41e
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371547"
 ---
-
 # <a name="sped-fiscal-files"></a>Arquivos fiscais SPED 
 
 [!include [banner](../includes/banner.md)]
@@ -59,4 +58,3 @@ O arquivo de texto fiscal do SPED fornece informações sobre as notas fiscais q
 7. Defina a opção **Habilitar o bloco K** como **Sim**. A definição padrão é especificada na página **Parâmetros do SPED Fiscal** .
 8. Opcional: Na Guia Rápida **Executar em segundo plano**, especifique as opções para o processamento em lotes. Você pode usar o processamento em lote se o arquivo tiver de ser gerado posteriormente ou em um servidor, e não no computador.
 9. Selecione **OK**.
-

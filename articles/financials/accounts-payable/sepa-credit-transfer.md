@@ -1,13 +1,13 @@
 ---
-title: "Visão geral da transferência de crédito SEPA"
-description: "Este artigo fornece informações gerais sobre as transferências de crédito ISO 20022, que incluem transferências de crédito da Área Única de Pagamentos em Euros (SEPA) e quaisquer outros pagamentos eletrônicos para fornecedores. Uma transferência de crédito de SEPA é um tipo específico de pagamento de uma empresa ou pessoa para outra empresa ou pessoa. O tópico também explica como configurar e transmitir um arquivo de pagamento de transferência de crédito."
+title: Visão geral da transferência de crédito SEPA
+description: Este artigo fornece informações gerais sobre as transferências de crédito ISO 20022, que incluem transferências de crédito da Área Única de Pagamentos em Euros (SEPA) e quaisquer outros pagamentos eletrônicos para fornecedores. Uma transferência de crédito de SEPA é um tipo específico de pagamento de uma empresa ou pessoa para outra empresa ou pessoa. O tópico também explica como configurar e transmitir um arquivo de pagamento de transferência de crédito.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d6081c12ea65812a15b50c627330b4566ab4c679
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363766"
 ---
-
 # <a name="sepa-credit-transfer-overview"></a>Visão geral da transferência de crédito SEPA
 
 [!include [banner](../includes/banner.md)]
@@ -92,7 +91,7 @@ A lista de parâmetros específicos depende do formato de transferência de cré
 <td>Formato</td>
 <td>Selecione o formato das informações de remessa, dependendo das necessidades do país/região ou banco:
 <ul>
-<li><strong>Strd</strong> – Selecione esta opção para usar o formato estruturado quando uma linha de pagamento é liquidada com uma fatura. Esta opção não está disponível para os formatos de exportação específicos do país/região para França, Alemanha ou Holanda.</li>
+<li><strong>Strd</strong> – Selecione esta opção para usar o formato estruturado quando uma linha de pagamento é liquidada com uma fatura. Esta opção não estará disponível para os formatos de exportação específicos de país/região para França, Alemanha ou Holanda.</li>
 <li><strong>Ustrd</strong> – Selecione esta opção para usar o formato não estruturado quando o pagamento for liquidado com diversas faturas. Os números de fatura para as faturas liquidadas são concatenados e usados como informação de remessa. Em conformidade com diretrizes de ISO 20022, as informações de remessa não estruturada são limitadas a 140 caracteres.</li>
 </ul></td>
 </tr>
@@ -124,7 +123,6 @@ O Número de Conta Bancária Internacional (IBAN) e o Código Identificador Banc
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>Como transmitir um arquivo de pagamento para o banco?
 Ao gerar pagamentos, o arquivo de pagamento é gerado, e será solicitado que você salve-o de seu navegador web em qualquer lugar disponível. A próxima etapa é enviar o arquivo XML para o banco. Esse processo é diferente de banco para banco. Siga as instruções do banco para enviar arquivos ao banco para processamento.
-
 
 
 

@@ -1,14 +1,14 @@
 ---
-title: "Gerenciamento de segurança e funções no Attract"
-description: "Este tópico fornece informações sobre a função de segurança no Microsoft Dynamics 365 for Talent - Attract."
+title: Gerenciamento de segurança e funções no Attract
+description: Este tópico fornece informações sobre a função de segurança no Microsoft Dynamics 365 for Talent - Attract.
 author: josaw1
 manager: AnnBe
 ms.date: 10/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 9eb12bd6b9fc1aa66002908e5989b3ac504ab673
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374771"
 ---
-
 # <a name="security-and-role-management-in-attract"></a>Gerenciamento de segurança e funções no Attract
 
 [!include[banner](../includes/banner.md)]
@@ -108,7 +107,7 @@ Os privilégios a seguir aplicam-se aos dados específicos do trabalho para cand
 | Avançar estágio           | Pode rejeitar se o usuário estiver em equipe de contratação | Pode avançar se o usuário estiver em equipe de contratação | Não permitido |
 | Lançar gerenciamento de ofertas | Pode iniciar o gerenciamento oferta | Há uma opção de configuração na oferta da atividade. | Não permitido |
 
-\*\* Uma configuração de opção na [configuração de atividade de comentários](./activities-attract.md#feedback-activity) controla se os entrevistadores podem ver os comentários uns dos outros.
+\*\* Uma configuração de opção na [configuração de atividade de comentários](activities-attract.md#feedback-activity) controla se os entrevistadores podem ver os comentários uns dos outros.
 
 ## <a name="process-templates"></a>Modelos de processo
 
@@ -146,4 +145,3 @@ Candidatos são os contatos que foram adicionados a um grupo de talento, mas nã
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | Perfil - detalhes do candidato | Criar, ler, atualizar e excluir | Criar, ler, atualizar e excluir | Sem acesso   |
 | Documentos                   | Criar, ler, atualizar e excluir | Criar, ler, atualizar e excluir | Sem acesso   |
-

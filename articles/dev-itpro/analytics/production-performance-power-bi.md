@@ -1,13 +1,13 @@
 ---
-title: "Conteúdo do Power BI Desempenho de produção"
-description: "Este tópico descreve o que está incluído no conteúdo do Power BI Desempenho de produção. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo."
+title: Conteúdo de desempenho da produção do Power BI
+description: Este tópico descreve o que está incluído no conteúdo do Power BI Desempenho de produção. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,29 +16,28 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365951"
 ---
-
-# <a name="production-performance-power-bi-content"></a>Conteúdo do Power BI Desempenho de produção
+# <a name="production-performance-power-bi-content"></a>Conteúdo de desempenho da produção do Power BI
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI **Desempenho de produção**. Ele explica como acessar os relatórios do Power BI, além de fornecer informações sobre o modelo de dados e as entidades usados para criar o pacote de conteúdo.
+Este tópico descreve o que está incluído no conteúdo do Microsoft Power BI **Desempenho de produção**. Ele explica como acessar os relatórios do Power BI e fornece informações sobre o modelo de dados e entidades que foram usados para criar o conteúdo.
 
 ## <a name="overview"></a>Visão Geral
 
 O conteúdo do Power BI **Desempenho de produção** destina-se a gerentes de produção ou indivíduos na organização responsáveis ​​pelo controle de produção.
 
-Os relatórios que estão incluídos permitem que você use o Power BI para monitorar o desempenho das operações de fabricação em relação à execução, qualidade e custo atempados. Os relatórios usam dados transacionais de ordens de produção e ordens por lotes e fornecem uma visão agregada das métricas de produção de toda a empresa e uma quebra de métricas por produto e recurso.
+Os relatórios que estão incluídos permitem que você use o Power BI para monitorar o desempenho das operações de fabricação em relação a execução, qualidade e custo. Os relatórios usam dados transacionais de ordens de produção e ordens por lotes e fornecem uma visão agregada das métricas de produção de toda a empresa e uma quebra de métricas por produto e recurso.
 
 O conteúdo do Power BI destaca a capacidade da organização de completar a produção a tempo e na íntegra. O desempenho futuro é projetado com base nos planos de produção. Relatórios abrangentes fornecem informações detalhadas sobre os defeitos do produto causados ​​pela produção e também as taxas de defeito para recursos e operações.
 
-As variações de produção são calculadas como a diferença entre o custo estimado e o custo realizado. A variação de produção é calculada como a diferença entre os custos ativos e os realizados. As variações de produção são calculadas quando as ordens de produção ou ordens de lote atingem o status **Finalizado**.
+O conteúdo do Power BI também permite analisar as variações de produção. A variação de produção é calculada como a diferença entre os custos ativos e os realizados. As variações de produção são calculadas quando as ordens de produção ou ordens de lote atingem o status **Finalizado**.
 
 O conteúdo do Power BI **Desempenho de produção** contém dados que se originam de ordens de produção e de ordens de lotes. Os relatórios não incluem dados relacionados às produções de Kanban.
 
@@ -130,4 +129,3 @@ A tabela a seguir mostra as dimensões-chave que são usadas como filtros para c
 | Entidades                  | Id e nome                                                   |
 | Recursos                 | ID do recurso, nome do recurso, tipo de recurso e grupo de recursos |
 | Produtos                  | Número do produto, nome do produto, identificação do item e grupo de itens         |
-

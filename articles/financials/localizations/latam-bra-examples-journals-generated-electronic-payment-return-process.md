@@ -1,13 +1,13 @@
 ---
-title: "Diários gerados durante o processo de devolução de pagamento eletrônico do Brasil"
-description: "Esse tópico mostra como os diários de pagamentos são gerados quando você importa e lança o arquivo de retorno para pagamentos eletrônicos. As linhas de pagamento aprovadas no arquivo de retorno podem ser lançadas em um diário ou em vários diários."
+title: Diários gerados durante o processo de devolução de pagamento eletrônico do Brasil
+description: Esse tópico mostra como os diários de pagamentos são gerados quando você importa e lança o arquivo de retorno para pagamentos eletrônicos. As linhas de pagamento aprovadas no arquivo de retorno podem ser lançadas em um diário ou em vários diários.
 author: sndray
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Brazil
 ms.author: sndray
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 2098a67edcc17fcbfde28e12ec80a98f7e79abf8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cd2da3457d556e8ae8805b09780c3caf58521ad4
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371621"
 ---
-
 # <a name="journals-generated-during-the-electronic-payment-return-process-for-brazil"></a>Diários gerados durante o processo de devolução de pagamento eletrônico do Brasil
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,6 @@ Ao lançar as linhas de pagamento aprovadas, as três linhas de pagamento são l
 | 002            | 1            | 5 de janeiro, 2013  | Aprovada | 1.000  |
 | 003            | 1            | 1 de janeiro, 2013  | Aprovada | 3.000  |
 | 004            | 1            | 3 de janeiro, 2013  | Aprovada | 4.000  |
-
 
 
 

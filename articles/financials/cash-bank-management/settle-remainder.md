@@ -1,13 +1,13 @@
 ---
-title: "Liquidar pendências"
-description: "Você pode liquidar o valor restante da atividade de liquidação aplicando esse valor a uma conta contábil."
+title: Liquidar pendências
+description: Você pode liquidar o valor restante da atividade de liquidação aplicando esse valor a uma conta contábil.
 author: mikefalkner
 manager: aolson
 ms.date: 10/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367193"
 ---
-
 # <a name="settle-remainder"></a>Liquidar pendências
 
 [!include [banner](../includes/banner.md)]
@@ -71,4 +70,3 @@ Para liquidar as pendências, execute estas etapas:
 7)  Você também pode decidir criar um diário de pagamento com a liquidação de pendências ou apenas lançá-lo sem um diário. Selecione **Sim** para que **Editar o diário** crie um diário de pagamento. É possível editar o diário de pagamento que você criou.
 8)  Clique em **Liquidar pendências**. Se optar por criar um diário, o botão será alterado para **Criar diário**. Clique em **Criar diário**.
 9)  Se você criar um diário de pagamento, a página do diário será aberta após você clicar em **Liquidar pendências**. Uma linha de diário será adicionada ao diário com o valor da liquidação de pendências como o valor e com a conta da liquidação de pendências como a contrapartida. Se você adicionou um cliente ou fornecedor para que possa mover o valor da liquidação para um outro cliente ou fornecedor, uma linha adicional será adicionada ao diário para mover o valor da liquidação para esse cliente ou fornecedor.
-

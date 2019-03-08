@@ -1,13 +1,13 @@
---- 
+---
 title: Configurar autoridades de imposto sobre vendas
-description: "As autoridades de impostos sobre vendas são as entidades que coletaram necessidades de impostos sobre vendas a serem informados e pagos."
+description: As autoridades de impostos sobre vendas são as entidades que coletaram necessidades de impostos sobre vendas a serem informados e pagos.
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 909433a04c1185039938f6233b30c235e7b8ed8b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f75ee28343161026a73dd889b345d65ecc345884
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366342"
 ---
 # <a name="set-up-sales-tax-authorities"></a>Configurar autoridades de imposto sobre vendas
 
@@ -40,5 +40,4 @@ As autoridades de impostos sobre vendas são as entidades que coletaram necessid
 9. Insira valores no formulário de arredondamento e nos campos redondos para especificar como o valor total do imposto a ser pago deve ser arredondado. Todas as diferenças de arredondamento serão lançadas para as transações automáticas configuradas na contabilidade.
 10. No campo Arredondar, insira um número.
 11. Clique em Salvar.
-
 

@@ -1,13 +1,13 @@
 ---
-title: "Configurar etapas de aprovação em um fluxo de trabalho"
-description: "Este tópico explica como configurar as propriedades de uma etapa de aprovação."
+title: Configurar etapas de aprovação em um fluxo de trabalho
+description: Este tópico explica como configurar as propriedades de uma etapa de aprovação.
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f52b6ffed7c1edb97c7a673cefbc8bf486ba831
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 813866d63f38f5865666bad96f6f3590716a93ad
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368044"
 ---
-
 # <a name="configure-approval-steps-in-a-workflow"></a>Configurar etapas de aprovação em um fluxo de trabalho
 
 [!include [banner](../includes/banner.md)]
@@ -135,7 +134,7 @@ Siga estas etapas para especificar a quem a etapa de aprovação deve ser atribu
     </tr>
     <tr>
     <td>Usuário</td>
-    <td>Especificar usuários do Microsoft Dynamics 365 for Finance and Operations</td>
+    <td>Usuários específicos do Microsoft Dynamics 365 for Finance and Operations</td>
     <td>
     <ol>
     <li>Após selecionar <strong>Usuário</strong>, clique na guia <strong>Usuário</strong>.</li>
@@ -278,4 +277,3 @@ Se um usuário não executar nenhuma ação em um documento no tempo alocado, o 
 
 5. Repita as etapas de 3 a 4 para cada usuário que deve ser adicionado ao caminho de escalonamento. Você pode alterar a ordem dos usuários.
 6. Se os usuários no caminho de escalonamento não responderem no tempo alocado, o sistema executará uma ação no documento automaticamente. Para especificar a ação que o sistema executará, selecione a linha **Ação** e, na guia **Encerrar ação**, selecione uma ação.
-

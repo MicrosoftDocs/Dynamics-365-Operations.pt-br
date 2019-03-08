@@ -1,13 +1,13 @@
---- 
-title: "Receber notas fiscais de fornecedor (ativos fixos - PIS e COFINS recuperáveis a longo prazo) (Brasil)"
-description: "Você pode lançar uma nota fiscal recebida da aquisição dos ativos fixos."
+---
+title: Receber notas fiscais de fornecedor (ativos fixos - PIS e COFINS recuperáveis a longo prazo) (Brasil)
+description: Você pode lançar uma nota fiscal recebida da aquisição dos ativos fixos.
 author: sndray
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b007d1df0de486fe37f0f5f031b4609547a0c92d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e2bf3bd39d48aca0b5b159d6f8fea371c7e3adaf
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371686"
 ---
 # <a name="receive-vendor-fiscal-documents-fixed-assets---pis-and-cofins-long-term-recoverable-brazil"></a>Receber notas fiscais de fornecedor (ativos fixos - PIS e COFINS recuperáveis a longo prazo) (Brasil)
 
@@ -68,5 +68,4 @@ Você pode lançar uma nota fiscal recebida da aquisição dos ativos fixos. Voc
 37. Clique em Lançar.
 38. Feche a página.
 39. Feche a página.
-
 
