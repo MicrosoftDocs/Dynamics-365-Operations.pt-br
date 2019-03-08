@@ -1,13 +1,13 @@
---- 
-title: "Notas de débito do projeto (Brasil)"
-description: "Você pode gerar notas de débito para projetos para obter reembolso de despesas ocorridas no projeto."
+---
+title: Notas de débito do projeto (Brasil)
+description: Você pode gerar notas de débito para projetos para obter reembolso de despesas ocorridas no projeto.
 author: sndray
 manager: AnnBe
 ms.date: 06/26/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,47 +16,46 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: e11973d884274ad853628e4d45ed80af6ff56b17
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371652"
 ---
-# <a name="project-debit-notes-brazil"></a><span data-ttu-id="4d9b1-103">Notas de débito do projeto (Brasil)</span><span class="sxs-lookup"><span data-stu-id="4d9b1-103">Project debit notes (Brazil)</span></span>
+# <a name="project-debit-notes-brazil"></a><span data-ttu-id="dd5e5-103">Notas de débito do projeto (Brasil)</span><span class="sxs-lookup"><span data-stu-id="dd5e5-103">Project debit notes (Brazil)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="4d9b1-104">Você pode gerar notas de débito para projetos para obter reembolso de despesas ocorridas no projeto.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-104">You can generate debit notes for projects to get reimbursement of expenses occurred in the project.</span></span> <span data-ttu-id="4d9b1-105">A empresa de dados demo usada para criar este procedimento é BRMF.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-105">The demo data company used to create this procedure is BRMF.</span></span>
+<span data-ttu-id="dd5e5-104">Você pode gerar notas de débito para projetos para obter reembolso de despesas ocorridas no projeto.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-104">You can generate debit notes for projects to get reimbursement of expenses occurred in the project.</span></span> <span data-ttu-id="dd5e5-105">A empresa de dados demo usada para criar este procedimento é BRMF.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-105">The demo data company used to create this procedure is BRMF.</span></span>
 
-1. <span data-ttu-id="4d9b1-106">Vá para Gerenciamento e contabilidade de projetos > Diários > Despesa.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-106">Go to Project management and accounting > Journals > Expense.</span></span>
-2. <span data-ttu-id="4d9b1-107">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-107">Click New.</span></span>
-3. <span data-ttu-id="4d9b1-108">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-108">In the list, mark the selected row.</span></span>
-4. <span data-ttu-id="4d9b1-109">No campo Nome, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-109">In the Name field, enter or select a value.</span></span>
-5. <span data-ttu-id="4d9b1-110">Clique em Linhas.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-110">Click Lines.</span></span>
-6. <span data-ttu-id="4d9b1-111">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-111">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="4d9b1-112">No campo Projeto, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-112">In the Project field, specify the desired values.</span></span>
-8. <span data-ttu-id="4d9b1-113">No campo Categoria, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-113">In the Category field, enter or select a value.</span></span>
-9. <span data-ttu-id="4d9b1-114">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-114">In the Description field, type a value.</span></span>
-10. <span data-ttu-id="4d9b1-115">No campo Preço de custo, insira um número.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-115">In the Cost price field, enter a number.</span></span>
-11. <span data-ttu-id="4d9b1-116">No campo Preço venda, insira um número.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-116">In the Sales price field, enter a number.</span></span>
-12. <span data-ttu-id="4d9b1-117">No campo Contrapartida, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-117">In the Offset account field, specify the desired values.</span></span>
-13. <span data-ttu-id="4d9b1-118">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-118">Click Save.</span></span>
-14. <span data-ttu-id="4d9b1-119">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-119">Click Post.</span></span>
-15. <span data-ttu-id="4d9b1-120">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-120">Click Post.</span></span>
-16. <span data-ttu-id="4d9b1-121">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-121">Close the page.</span></span>
-17. <span data-ttu-id="4d9b1-122">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-122">Close the page.</span></span>
-18. <span data-ttu-id="4d9b1-123">Vá para Gerenciamento e contabilidade de projetos > Notas de débito do projeto > Propostas de nota de débito do projeto.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-123">Go to Project management and accounting > Project debit notes > Project debit note proposals.</span></span>
-19. <span data-ttu-id="4d9b1-124">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-124">Click New.</span></span>
-20. <span data-ttu-id="4d9b1-125">Clique em Proposta de nota de débito.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-125">Click Debit note proposal.</span></span>
-21. <span data-ttu-id="4d9b1-126">No campo Contrato de Projeto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-126">In the Project contract field, enter or select a value.</span></span>
-22. <span data-ttu-id="4d9b1-127">No campo Projeto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-127">In the Project field, enter or select a value.</span></span>
-23. <span data-ttu-id="4d9b1-128">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-128">Click OK.</span></span>
-24. <span data-ttu-id="4d9b1-129">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-129">Click Post.</span></span>
-25. <span data-ttu-id="4d9b1-130">Selecione Sim no campo Imprimir fatura.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-130">Select Yes in the Print invoice field.</span></span>
-26. <span data-ttu-id="4d9b1-131">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-131">Click OK.</span></span>
-27. <span data-ttu-id="4d9b1-132">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-132">Click OK.</span></span>
-28. <span data-ttu-id="4d9b1-133">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-133">Close the page.</span></span>
-29. <span data-ttu-id="4d9b1-134">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="4d9b1-134">Close the page.</span></span>
-
+1. <span data-ttu-id="dd5e5-106">Vá para Gerenciamento e contabilidade de projetos > Diários > Despesa.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-106">Go to Project management and accounting > Journals > Expense.</span></span>
+2. <span data-ttu-id="dd5e5-107">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-107">Click New.</span></span>
+3. <span data-ttu-id="dd5e5-108">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-108">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="dd5e5-109">No campo Nome, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-109">In the Name field, enter or select a value.</span></span>
+5. <span data-ttu-id="dd5e5-110">Clique em Linhas.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-110">Click Lines.</span></span>
+6. <span data-ttu-id="dd5e5-111">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-111">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="dd5e5-112">No campo Projeto, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-112">In the Project field, specify the desired values.</span></span>
+8. <span data-ttu-id="dd5e5-113">No campo Categoria, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-113">In the Category field, enter or select a value.</span></span>
+9. <span data-ttu-id="dd5e5-114">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-114">In the Description field, type a value.</span></span>
+10. <span data-ttu-id="dd5e5-115">No campo Preço de custo, insira um número.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-115">In the Cost price field, enter a number.</span></span>
+11. <span data-ttu-id="dd5e5-116">No campo Preço venda, insira um número.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-116">In the Sales price field, enter a number.</span></span>
+12. <span data-ttu-id="dd5e5-117">No campo Contrapartida, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-117">In the Offset account field, specify the desired values.</span></span>
+13. <span data-ttu-id="dd5e5-118">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-118">Click Save.</span></span>
+14. <span data-ttu-id="dd5e5-119">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-119">Click Post.</span></span>
+15. <span data-ttu-id="dd5e5-120">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-120">Click Post.</span></span>
+16. <span data-ttu-id="dd5e5-121">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-121">Close the page.</span></span>
+17. <span data-ttu-id="dd5e5-122">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-122">Close the page.</span></span>
+18. <span data-ttu-id="dd5e5-123">Vá para Gerenciamento e contabilidade de projetos > Notas de débito do projeto > Propostas de nota de débito do projeto.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-123">Go to Project management and accounting > Project debit notes > Project debit note proposals.</span></span>
+19. <span data-ttu-id="dd5e5-124">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-124">Click New.</span></span>
+20. <span data-ttu-id="dd5e5-125">Clique em Proposta de nota de débito.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-125">Click Debit note proposal.</span></span>
+21. <span data-ttu-id="dd5e5-126">No campo Contrato de Projeto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-126">In the Project contract field, enter or select a value.</span></span>
+22. <span data-ttu-id="dd5e5-127">No campo Projeto, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-127">In the Project field, enter or select a value.</span></span>
+23. <span data-ttu-id="dd5e5-128">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-128">Click OK.</span></span>
+24. <span data-ttu-id="dd5e5-129">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-129">Click Post.</span></span>
+25. <span data-ttu-id="dd5e5-130">Selecione Sim no campo Imprimir fatura.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-130">Select Yes in the Print invoice field.</span></span>
+26. <span data-ttu-id="dd5e5-131">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-131">Click OK.</span></span>
+27. <span data-ttu-id="dd5e5-132">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-132">Click OK.</span></span>
+28. <span data-ttu-id="dd5e5-133">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-133">Close the page.</span></span>
+29. <span data-ttu-id="dd5e5-134">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="dd5e5-134">Close the page.</span></span>
 

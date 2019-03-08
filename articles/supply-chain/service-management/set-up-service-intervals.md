@@ -1,58 +1,56 @@
 ---
-title: "Configurar intervalos de serviço"
-description: "O intervalo de serviço indica a frequência com a qual as linhas de ordem de serviço são criadas para linhas de contrato de serviço quando você cria ordens de serviço."
+title: Configurar intervalos de serviço
+description: O intervalo de serviço indica a frequência com a qual as linhas de ordem de serviço são criadas para linhas de contrato de serviço quando você cria ordens de serviço.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementinterval
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: d9203b01f578779d45d63c18d1c1afd2fe59125b
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365813"
 ---
-
-# <a name="set-up-service-intervals"></a><span data-ttu-id="a1de2-103">Configurar intervalos de serviço</span><span class="sxs-lookup"><span data-stu-id="a1de2-103">Set up service intervals</span></span>  
+# <a name="set-up-service-intervals"></a><span data-ttu-id="d4719-103">Configurar intervalos de serviço</span><span class="sxs-lookup"><span data-stu-id="d4719-103">Set up service intervals</span></span>  
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="a1de2-104">O intervalo de serviço indica a frequência com a qual as linhas de ordem de serviço são criadas para linhas de contrato de serviço quando você cria ordens de serviço.</span><span class="sxs-lookup"><span data-stu-id="a1de2-104">Service interval indicates the frequency with which service order lines are created for service agreement lines when you create service orders.</span></span>
+<span data-ttu-id="d4719-104">O intervalo de serviço indica a frequência com a qual as linhas de ordem de serviço são criadas para linhas de contrato de serviço quando você cria ordens de serviço.</span><span class="sxs-lookup"><span data-stu-id="d4719-104">Service interval indicates the frequency with which service order lines are created for service agreement lines when you create service orders.</span></span>
 
-1. <span data-ttu-id="a1de2-105">Clique em **Gerenciamento de serviços** \> **Configuração** \> **Contratos de serviço** \> **Intervalos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="a1de2-105">Click **Service management** \> **Setup** \> **Service agreements** \> **Service intervals**.</span></span>
-2. <span data-ttu-id="a1de2-106">Crie um novo intervalo de serviço.</span><span class="sxs-lookup"><span data-stu-id="a1de2-106">Create a new service interval.</span></span>
-3. <span data-ttu-id="a1de2-107">Insira a ID e a descrição do intervalo de serviço.</span><span class="sxs-lookup"><span data-stu-id="a1de2-107">Enter the ID and description of the service interval.</span></span>
-4. <span data-ttu-id="a1de2-108">No campo **Intervalo**, selecione o intervalo.</span><span class="sxs-lookup"><span data-stu-id="a1de2-108">In the **Range** field, select the range.</span></span>
-5. <span data-ttu-id="a1de2-109">No campo **Frequência**, digite a frequência.</span><span class="sxs-lookup"><span data-stu-id="a1de2-109">In the **Frequency** field, type the frequency.</span></span> <span data-ttu-id="a1de2-110">A frequência é o fator pelo qual você deve multiplicar o intervalo para obter o intervalo de um contrato de serviço.</span><span class="sxs-lookup"><span data-stu-id="a1de2-110">The frequency is the factor by which you must multiply the range to obtain the interval for a service agreement.</span></span>
-6. <span data-ttu-id="a1de2-111">Pressione **Alt+S** para salvar o intervalo de serviço.</span><span class="sxs-lookup"><span data-stu-id="a1de2-111">Press **Alt+S** to save the service interval.</span></span>
+1. <span data-ttu-id="d4719-105">Clique em **Gerenciamento de serviços** \> **Configuração** \> **Contratos de serviço** \> **Intervalos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="d4719-105">Click **Service management** \> **Setup** \> **Service agreements** \> **Service intervals**.</span></span>
+2. <span data-ttu-id="d4719-106">Crie um novo intervalo de serviço.</span><span class="sxs-lookup"><span data-stu-id="d4719-106">Create a new service interval.</span></span>
+3. <span data-ttu-id="d4719-107">Insira a ID e a descrição do intervalo de serviço.</span><span class="sxs-lookup"><span data-stu-id="d4719-107">Enter the ID and description of the service interval.</span></span>
+4. <span data-ttu-id="d4719-108">No campo **Intervalo**, selecione o intervalo.</span><span class="sxs-lookup"><span data-stu-id="d4719-108">In the **Range** field, select the range.</span></span>
+5. <span data-ttu-id="d4719-109">No campo **Frequência**, digite a frequência.</span><span class="sxs-lookup"><span data-stu-id="d4719-109">In the **Frequency** field, type the frequency.</span></span> <span data-ttu-id="d4719-110">A frequência é o fator pelo qual você deve multiplicar o intervalo para obter o intervalo de um contrato de serviço.</span><span class="sxs-lookup"><span data-stu-id="d4719-110">The frequency is the factor by which you must multiply the range to obtain the interval for a service agreement.</span></span>
+6. <span data-ttu-id="d4719-111">Pressione **Alt+S** para salvar o intervalo de serviço.</span><span class="sxs-lookup"><span data-stu-id="d4719-111">Press **Alt+S** to save the service interval.</span></span>
 
-## <a name="example"></a><span data-ttu-id="a1de2-112">Exemplo</span><span class="sxs-lookup"><span data-stu-id="a1de2-112">Example</span></span>
+## <a name="example"></a><span data-ttu-id="d4719-112">Exemplo</span><span class="sxs-lookup"><span data-stu-id="d4719-112">Example</span></span>
 
-<span data-ttu-id="a1de2-113">Você deseja criar um intervalo de serviços de 10 dias.</span><span class="sxs-lookup"><span data-stu-id="a1de2-113">You want to create a service interval of 10 days.</span></span>
+<span data-ttu-id="d4719-113">Você deseja criar um intervalo de serviços de 10 dias.</span><span class="sxs-lookup"><span data-stu-id="d4719-113">You want to create a service interval of 10 days.</span></span>
 
-<span data-ttu-id="a1de2-114">**Crie um intervalo de serviços de 10 dias**</span><span class="sxs-lookup"><span data-stu-id="a1de2-114">**Create a 10-day service interval**</span></span>
+<span data-ttu-id="d4719-114">**Crie um intervalo de serviços de 10 dias**</span><span class="sxs-lookup"><span data-stu-id="d4719-114">**Create a 10-day service interval**</span></span>
 
-1. <span data-ttu-id="a1de2-115">Clique em **Gerenciamento de serviços** \> **Configuração** \> **Contratos de serviço** \> **Intervalos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="a1de2-115">Click **Service management** \> **Setup** \> **Service agreements** \> **Service intervals**.</span></span>
-2. <span data-ttu-id="a1de2-116">Crie um novo intervalo de serviço.</span><span class="sxs-lookup"><span data-stu-id="a1de2-116">Create a new service interval.</span></span>
-3. <span data-ttu-id="a1de2-117">Insira a ID e a descrição do intervalo de serviço.</span><span class="sxs-lookup"><span data-stu-id="a1de2-117">Enter the ID and description of the service interval.</span></span>
-4. <span data-ttu-id="a1de2-118">No campo **Intervalo**, selecione **Diário**.</span><span class="sxs-lookup"><span data-stu-id="a1de2-118">In the **Range** field, select **Daily**.</span></span>
-5. <span data-ttu-id="a1de2-119">No campo **Frequência**, digite 10.</span><span class="sxs-lookup"><span data-stu-id="a1de2-119">In the **Frequency** field, type 10.</span></span>
-6. <span data-ttu-id="a1de2-120">Pressione **Alt+S** para salvar o intervalo de serviço.</span><span class="sxs-lookup"><span data-stu-id="a1de2-120">Press **Alt+S** to save the service interval.</span></span>
+1. <span data-ttu-id="d4719-115">Clique em **Gerenciamento de serviços** \> **Configuração** \> **Contratos de serviço** \> **Intervalos de serviço**.</span><span class="sxs-lookup"><span data-stu-id="d4719-115">Click **Service management** \> **Setup** \> **Service agreements** \> **Service intervals**.</span></span>
+2. <span data-ttu-id="d4719-116">Crie um novo intervalo de serviço.</span><span class="sxs-lookup"><span data-stu-id="d4719-116">Create a new service interval.</span></span>
+3. <span data-ttu-id="d4719-117">Insira a ID e a descrição do intervalo de serviço.</span><span class="sxs-lookup"><span data-stu-id="d4719-117">Enter the ID and description of the service interval.</span></span>
+4. <span data-ttu-id="d4719-118">No campo **Intervalo**, selecione **Diário**.</span><span class="sxs-lookup"><span data-stu-id="d4719-118">In the **Range** field, select **Daily**.</span></span>
+5. <span data-ttu-id="d4719-119">No campo **Frequência**, digite 10.</span><span class="sxs-lookup"><span data-stu-id="d4719-119">In the **Frequency** field, type 10.</span></span>
+6. <span data-ttu-id="d4719-120">Pressione **Alt+S** para salvar o intervalo de serviço.</span><span class="sxs-lookup"><span data-stu-id="d4719-120">Press **Alt+S** to save the service interval.</span></span>
 
-## <a name="related-topics"></a><span data-ttu-id="a1de2-121">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="a1de2-121">Related topics</span></span>
+## <a name="related-topics"></a><span data-ttu-id="d4719-121">Tópicos relacionados</span><span class="sxs-lookup"><span data-stu-id="d4719-121">Related topics</span></span>
 
-[<span data-ttu-id="a1de2-122">Intervalos de serviço</span><span class="sxs-lookup"><span data-stu-id="a1de2-122">Service intervals</span></span>](service-intervals.md)  
-
+[<span data-ttu-id="d4719-122">Intervalos de serviço</span><span class="sxs-lookup"><span data-stu-id="d4719-122">Service intervals</span></span>](service-intervals.md)  

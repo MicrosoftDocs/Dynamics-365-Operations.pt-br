@@ -1,13 +1,13 @@
---- 
+---
 title: Impostos retidos na fonte em pagamentos de clientes (Brasil)
-description: "Use a página Comprovante de diário para inserir e lançar pagamentos recebidos de clientes pela venda de itens ou serviços."
+description: Use a página Comprovante de diário para inserir e lançar pagamentos recebidos de clientes pela venda de itens ou serviços.
 author: sndray
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -16,71 +16,70 @@ ms.search.industry: Manufacturing;Distribution;Service industries
 ms.author: sndray
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: a43c68b4067850cea8ca78c2cf1c03d6ee82bb8c
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371617"
 ---
-# <a name="withholding-taxes-on-customer-payments-brazil"></a><span data-ttu-id="46569-103">Impostos retidos na fonte em pagamentos de clientes (Brasil)</span><span class="sxs-lookup"><span data-stu-id="46569-103">Withholding taxes on customer payments (Brazil)</span></span>
+# <a name="withholding-taxes-on-customer-payments-brazil"></a><span data-ttu-id="8ca6a-103">Impostos retidos na fonte em pagamentos de clientes (Brasil)</span><span class="sxs-lookup"><span data-stu-id="8ca6a-103">Withholding taxes on customer payments (Brazil)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="46569-104">Use a página Comprovante de diário para inserir e lançar pagamentos recebidos de clientes pela venda de itens ou serviços.</span><span class="sxs-lookup"><span data-stu-id="46569-104">You use the Journal voucher page to enter and post payments that you receive from customers for the sale of items or services.</span></span> <span data-ttu-id="46569-105">Quando você lança um diário de pagamento de cliente, o grupo de impostos retidos na fonte que está configurado para o cliente é usado para calcular o imposto retido na fonte na transação.</span><span class="sxs-lookup"><span data-stu-id="46569-105">When you post a customer payment journal, the withholding tax group that is set up for the customer is used to calculate the withholding tax on the transaction.</span></span> <span data-ttu-id="46569-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="46569-106">This task uses the BRMF demo company.</span></span>
+<span data-ttu-id="8ca6a-104">Use a página Comprovante de diário para inserir e lançar pagamentos recebidos de clientes pela venda de itens ou serviços.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-104">You use the Journal voucher page to enter and post payments that you receive from customers for the sale of items or services.</span></span> <span data-ttu-id="8ca6a-105">Quando você lança um diário de pagamento de cliente, o grupo de impostos retidos na fonte que está configurado para o cliente é usado para calcular o imposto retido na fonte na transação.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-105">When you post a customer payment journal, the withholding tax group that is set up for the customer is used to calculate the withholding tax on the transaction.</span></span> <span data-ttu-id="8ca6a-106">Esta tarefa usa a empresa de demonstração BRMF.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-106">This task uses the BRMF demo company.</span></span>
 
-1. <span data-ttu-id="46569-107">Ir para Contas recebíveis > Clientes > Todos os clientes.</span><span class="sxs-lookup"><span data-stu-id="46569-107">Go to Accounts receivable > Customers > All customers.</span></span>
-2. <span data-ttu-id="46569-108">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="46569-108">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="46569-109">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="46569-109">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="46569-110">Expanda a seção Fatura e entrega.</span><span class="sxs-lookup"><span data-stu-id="46569-110">Expand the Invoice and delivery section.</span></span>
-5. <span data-ttu-id="46569-111">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="46569-111">Click Edit.</span></span>
-6. <span data-ttu-id="46569-112">Selecione Sim no campo Calcular imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="46569-112">Select Yes in the Calculate withholding tax field.</span></span>
-7. <span data-ttu-id="46569-113">No campo Grupo de impostos retidos na fonte, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="46569-113">In the Withholding tax group field, enter or select a value.</span></span>
-8. <span data-ttu-id="46569-114">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="46569-114">Click Save.</span></span>
-9. <span data-ttu-id="46569-115">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="46569-115">Close the page.</span></span>
-10. <span data-ttu-id="46569-116">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="46569-116">Close the page.</span></span>
-11. <span data-ttu-id="46569-117">Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.</span><span class="sxs-lookup"><span data-stu-id="46569-117">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
-12. <span data-ttu-id="46569-118">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="46569-118">Click New.</span></span>
-13. <span data-ttu-id="46569-119">No campo Conta de cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="46569-119">In the Customer account field, enter or select a value.</span></span>
-14. <span data-ttu-id="46569-120">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="46569-120">Click OK.</span></span>
-15. <span data-ttu-id="46569-121">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="46569-121">In the list, mark the selected row.</span></span>
-16. <span data-ttu-id="46569-122">No campo Número do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="46569-122">In the Item number field, enter or select a value.</span></span>
-17. <span data-ttu-id="46569-123">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="46569-123">In the Quantity field, enter a number.</span></span>
-18. <span data-ttu-id="46569-124">No campo Local, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="46569-124">In the Site field, enter or select a value.</span></span>
-19. <span data-ttu-id="46569-125">Expanda a seção Detalhes da linha.</span><span class="sxs-lookup"><span data-stu-id="46569-125">Expand the Line details section.</span></span>
-20. <span data-ttu-id="46569-126">Clique na guia Configuração.</span><span class="sxs-lookup"><span data-stu-id="46569-126">Click the Setup tab.</span></span>
-21. <span data-ttu-id="46569-127">No campo Grupo de impostos retidos na fonte do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="46569-127">In the Item withholding tax group field, enter or select a value.</span></span>
-22. <span data-ttu-id="46569-128">No campo Grupo de impostos retidos na fonte, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="46569-128">In the Withholding tax group field, enter or select a value.</span></span>
-23. <span data-ttu-id="46569-129">Clique na guia Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="46569-129">Click the Fiscal information tab.</span></span>
-24. <span data-ttu-id="46569-130">No campo Nota fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="46569-130">In the Fiscal document type field, enter or select a value.</span></span>
-25. <span data-ttu-id="46569-131">No campo Código de serviço, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="46569-131">In the Service code field, enter or select a value.</span></span>
-26. <span data-ttu-id="46569-132">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="46569-132">Click Save.</span></span>
-27. <span data-ttu-id="46569-133">Clique em Fatura.</span><span class="sxs-lookup"><span data-stu-id="46569-133">Click Invoice.</span></span>
-28. <span data-ttu-id="46569-134">No campo Quantidade, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="46569-134">In the Quantity field, select an option.</span></span>
-29. <span data-ttu-id="46569-135">Selecione Sim no campo Imprimir fatura.</span><span class="sxs-lookup"><span data-stu-id="46569-135">Select Yes in the Print invoice field.</span></span>
-30. <span data-ttu-id="46569-136">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="46569-136">Click OK.</span></span>
-31. <span data-ttu-id="46569-137">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="46569-137">Click Yes.</span></span>
-32. <span data-ttu-id="46569-138">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="46569-138">Close the page.</span></span>
-33. <span data-ttu-id="46569-139">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="46569-139">Close the page.</span></span>
-34. <span data-ttu-id="46569-140">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="46569-140">Close the page.</span></span>
-35. <span data-ttu-id="46569-141">Vá para Contas a receber > Pagamentos > Diário de pagamentos.</span><span class="sxs-lookup"><span data-stu-id="46569-141">Go to Accounts receivable > Payments > Payment journal.</span></span>
-36. <span data-ttu-id="46569-142">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="46569-142">Click New.</span></span>
-37. <span data-ttu-id="46569-143">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="46569-143">In the list, mark the selected row.</span></span>
-38. <span data-ttu-id="46569-144">No campo Nome, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="46569-144">In the Name field, enter or select a value.</span></span>
-39. <span data-ttu-id="46569-145">Clique em Linhas.</span><span class="sxs-lookup"><span data-stu-id="46569-145">Click Lines.</span></span>
-40. <span data-ttu-id="46569-146">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="46569-146">In the list, mark the selected row.</span></span>
-41. <span data-ttu-id="46569-147">No campo Conta, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="46569-147">In the Account field, specify the desired values.</span></span>
-42. <span data-ttu-id="46569-148">Clique em Liquidar transações.</span><span class="sxs-lookup"><span data-stu-id="46569-148">Click Settle transactions.</span></span>
-43. <span data-ttu-id="46569-149">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="46569-149">In the list, find and select the desired record.</span></span>
-44. <span data-ttu-id="46569-150">Marque a caixa de seleção Marcar.</span><span class="sxs-lookup"><span data-stu-id="46569-150">Select the Mark check box.</span></span>
-45. <span data-ttu-id="46569-151">Marque a caixa de seleção Marcar.</span><span class="sxs-lookup"><span data-stu-id="46569-151">Select the Mark check box.</span></span>
-46. <span data-ttu-id="46569-152">Clique na guia Imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="46569-152">Click the Withholding tax tab.</span></span>
-47. <span data-ttu-id="46569-153">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="46569-153">Click OK.</span></span>
-48. <span data-ttu-id="46569-154">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="46569-154">In the list, mark the selected row.</span></span>
-49. <span data-ttu-id="46569-155">No campo Descrição, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="46569-155">In the Description field, enter or select a value.</span></span>
-50. <span data-ttu-id="46569-156">No campo Contrapartida, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="46569-156">In the Offset account field, specify the desired values.</span></span>
-51. <span data-ttu-id="46569-157">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="46569-157">Click Post.</span></span>
-52. <span data-ttu-id="46569-158">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="46569-158">Close the page.</span></span>
-53. <span data-ttu-id="46569-159">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="46569-159">Close the page.</span></span>
-
+1. <span data-ttu-id="8ca6a-107">Ir para Contas recebíveis > Clientes > Todos os clientes.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-107">Go to Accounts receivable > Customers > All customers.</span></span>
+2. <span data-ttu-id="8ca6a-108">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-108">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="8ca6a-109">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-109">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="8ca6a-110">Expanda a seção Fatura e entrega.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-110">Expand the Invoice and delivery section.</span></span>
+5. <span data-ttu-id="8ca6a-111">Clique em Editar.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-111">Click Edit.</span></span>
+6. <span data-ttu-id="8ca6a-112">Selecione Sim no campo Calcular imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-112">Select Yes in the Calculate withholding tax field.</span></span>
+7. <span data-ttu-id="8ca6a-113">No campo Grupo de impostos retidos na fonte, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-113">In the Withholding tax group field, enter or select a value.</span></span>
+8. <span data-ttu-id="8ca6a-114">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-114">Click Save.</span></span>
+9. <span data-ttu-id="8ca6a-115">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-115">Close the page.</span></span>
+10. <span data-ttu-id="8ca6a-116">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-116">Close the page.</span></span>
+11. <span data-ttu-id="8ca6a-117">Vá para Vendas e marketing > Ordens de venda > Todas as ordens de venda.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-117">Go to Sales and marketing > Sales orders > All sales orders.</span></span>
+12. <span data-ttu-id="8ca6a-118">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-118">Click New.</span></span>
+13. <span data-ttu-id="8ca6a-119">No campo Conta de cliente, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-119">In the Customer account field, enter or select a value.</span></span>
+14. <span data-ttu-id="8ca6a-120">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-120">Click OK.</span></span>
+15. <span data-ttu-id="8ca6a-121">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-121">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="8ca6a-122">No campo Número do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-122">In the Item number field, enter or select a value.</span></span>
+17. <span data-ttu-id="8ca6a-123">No campo Quantidade, insira um número.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-123">In the Quantity field, enter a number.</span></span>
+18. <span data-ttu-id="8ca6a-124">No campo Local, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-124">In the Site field, enter or select a value.</span></span>
+19. <span data-ttu-id="8ca6a-125">Expanda a seção Detalhes da linha.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-125">Expand the Line details section.</span></span>
+20. <span data-ttu-id="8ca6a-126">Clique na guia Configuração.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-126">Click the Setup tab.</span></span>
+21. <span data-ttu-id="8ca6a-127">No campo Grupo de impostos retidos na fonte do item, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-127">In the Item withholding tax group field, enter or select a value.</span></span>
+22. <span data-ttu-id="8ca6a-128">No campo Grupo de impostos retidos na fonte, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-128">In the Withholding tax group field, enter or select a value.</span></span>
+23. <span data-ttu-id="8ca6a-129">Clique na guia Informações fiscais.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-129">Click the Fiscal information tab.</span></span>
+24. <span data-ttu-id="8ca6a-130">No campo Nota fiscal, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-130">In the Fiscal document type field, enter or select a value.</span></span>
+25. <span data-ttu-id="8ca6a-131">No campo Código de serviço, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-131">In the Service code field, enter or select a value.</span></span>
+26. <span data-ttu-id="8ca6a-132">Clique em Salvar.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-132">Click Save.</span></span>
+27. <span data-ttu-id="8ca6a-133">Clique em Fatura.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-133">Click Invoice.</span></span>
+28. <span data-ttu-id="8ca6a-134">No campo Quantidade, selecione uma opção.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-134">In the Quantity field, select an option.</span></span>
+29. <span data-ttu-id="8ca6a-135">Selecione Sim no campo Imprimir fatura.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-135">Select Yes in the Print invoice field.</span></span>
+30. <span data-ttu-id="8ca6a-136">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-136">Click OK.</span></span>
+31. <span data-ttu-id="8ca6a-137">Clique em Sim.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-137">Click Yes.</span></span>
+32. <span data-ttu-id="8ca6a-138">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-138">Close the page.</span></span>
+33. <span data-ttu-id="8ca6a-139">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-139">Close the page.</span></span>
+34. <span data-ttu-id="8ca6a-140">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-140">Close the page.</span></span>
+35. <span data-ttu-id="8ca6a-141">Vá para Contas a receber > Pagamentos > Diário de pagamentos.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-141">Go to Accounts receivable > Payments > Payment journal.</span></span>
+36. <span data-ttu-id="8ca6a-142">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-142">Click New.</span></span>
+37. <span data-ttu-id="8ca6a-143">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-143">In the list, mark the selected row.</span></span>
+38. <span data-ttu-id="8ca6a-144">No campo Nome, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-144">In the Name field, enter or select a value.</span></span>
+39. <span data-ttu-id="8ca6a-145">Clique em Linhas.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-145">Click Lines.</span></span>
+40. <span data-ttu-id="8ca6a-146">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-146">In the list, mark the selected row.</span></span>
+41. <span data-ttu-id="8ca6a-147">No campo Conta, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-147">In the Account field, specify the desired values.</span></span>
+42. <span data-ttu-id="8ca6a-148">Clique em Liquidar transações.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-148">Click Settle transactions.</span></span>
+43. <span data-ttu-id="8ca6a-149">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-149">In the list, find and select the desired record.</span></span>
+44. <span data-ttu-id="8ca6a-150">Marque a caixa de seleção Marcar.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-150">Select the Mark check box.</span></span>
+45. <span data-ttu-id="8ca6a-151">Marque a caixa de seleção Marcar.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-151">Select the Mark check box.</span></span>
+46. <span data-ttu-id="8ca6a-152">Clique na guia Imposto retido na fonte.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-152">Click the Withholding tax tab.</span></span>
+47. <span data-ttu-id="8ca6a-153">Clique em OK.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-153">Click OK.</span></span>
+48. <span data-ttu-id="8ca6a-154">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-154">In the list, mark the selected row.</span></span>
+49. <span data-ttu-id="8ca6a-155">No campo Descrição, insira ou selecione um valor.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-155">In the Description field, enter or select a value.</span></span>
+50. <span data-ttu-id="8ca6a-156">No campo Contrapartida, especifique os valores desejados.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-156">In the Offset account field, specify the desired values.</span></span>
+51. <span data-ttu-id="8ca6a-157">Clique em Lançar.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-157">Click Post.</span></span>
+52. <span data-ttu-id="8ca6a-158">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-158">Close the page.</span></span>
+53. <span data-ttu-id="8ca6a-159">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="8ca6a-159">Close the page.</span></span>
 
