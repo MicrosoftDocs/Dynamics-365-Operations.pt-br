@@ -1,13 +1,13 @@
 ---
-title: "Criar dimensões e importar membros da dimensão"
-description: "A contabilização de custos é um módulo independente que requer dados mestre de outros módulos."
+title: Criar dimensões e importar membros da dimensão
+description: A contabilização de custos é um módulo independente que requer dados mestre de outros módulos.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: josaw
@@ -18,40 +18,38 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: d48ba0a0b80d251e107baa0ceeb66d8e328f13dc
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342307"
 ---
-
-# <a name="create-dimensions-and-import-dimension-members"></a><span data-ttu-id="f5431-103">Criar dimensões e importar membros da dimensão</span><span class="sxs-lookup"><span data-stu-id="f5431-103">Create dimensions and import dimension members</span></span>
+# <a name="create-dimensions-and-import-dimension-members"></a><span data-ttu-id="44030-103">Criar dimensões e importar membros da dimensão</span><span class="sxs-lookup"><span data-stu-id="44030-103">Create dimensions and import dimension members</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="f5431-104">A contabilização de custos é um módulo independente que requer dados de outros módulos.</span><span class="sxs-lookup"><span data-stu-id="f5431-104">Cost accounting is an independent module that requires data from other modules.</span></span> <span data-ttu-id="f5431-105">Esses dados são classificados como segue:</span><span class="sxs-lookup"><span data-stu-id="f5431-105">This data is categorized into the following:</span></span>
+<span data-ttu-id="44030-104">A contabilização de custos é um módulo independente que requer dados de outros módulos.</span><span class="sxs-lookup"><span data-stu-id="44030-104">Cost accounting is an independent module that requires data from other modules.</span></span> <span data-ttu-id="44030-105">Esses dados são classificados como segue:</span><span class="sxs-lookup"><span data-stu-id="44030-105">This data is categorized into the following:</span></span>
 
--  <span data-ttu-id="f5431-106">Elementos de custo</span><span class="sxs-lookup"><span data-stu-id="f5431-106">Cost elements</span></span>
--  <span data-ttu-id="f5431-107">Objetos de custo</span><span class="sxs-lookup"><span data-stu-id="f5431-107">Cost objects</span></span>
--  <span data-ttu-id="f5431-108">Dimensões estatísticas</span><span class="sxs-lookup"><span data-stu-id="f5431-108">Statistical dimensions</span></span>
+-  <span data-ttu-id="44030-106">Elementos de custo</span><span class="sxs-lookup"><span data-stu-id="44030-106">Cost elements</span></span>
+-  <span data-ttu-id="44030-107">Objetos de custo</span><span class="sxs-lookup"><span data-stu-id="44030-107">Cost objects</span></span>
+-  <span data-ttu-id="44030-108">Dimensões estatísticas</span><span class="sxs-lookup"><span data-stu-id="44030-108">Statistical dimensions</span></span>
 
-<span data-ttu-id="f5431-109">Um **Elemento de custo** corresponde a um item relevante a custo no plano de contas.</span><span class="sxs-lookup"><span data-stu-id="f5431-109">A **Cost element** corresponds to a cost-relevant item in the chart of accounts.</span></span> <span data-ttu-id="f5431-110">Um **Objeto de custo** corresponde a qualquer tipo de dimensão financeira, como produtos, centros de custos e projetos que você deseja estimar, alocar custos ou medir diretamente.</span><span class="sxs-lookup"><span data-stu-id="f5431-110">A **Cost object** corresponds to any type of financial dimension, such as products, cost centers, and projects that you want to estimate, allocate costs to, or measure directly.</span></span> <span data-ttu-id="f5431-111">Uma **Dimensão estatística** e seus membros são usados para registrar entradas não monetárias.</span><span class="sxs-lookup"><span data-stu-id="f5431-111">A **Statistical dimension** and its members are used to register non-monetary entries.</span></span> <span data-ttu-id="f5431-112">Os membros da dimensão estatística podem ser utilizados como base de alocação na distribuição e alocação de custos</span><span class="sxs-lookup"><span data-stu-id="f5431-112">Statistical dimension members can be used as an allocation base in cost distribution and allocation</span></span> 
+<span data-ttu-id="44030-109">Um **Elemento de custo** corresponde a um item relevante a custo no plano de contas.</span><span class="sxs-lookup"><span data-stu-id="44030-109">A **Cost element** corresponds to a cost-relevant item in the chart of accounts.</span></span> <span data-ttu-id="44030-110">Um **Objeto de custo** corresponde a qualquer tipo de dimensão financeira, como produtos, centros de custos e projetos que você deseja estimar, alocar custos ou medir diretamente.</span><span class="sxs-lookup"><span data-stu-id="44030-110">A **Cost object** corresponds to any type of financial dimension, such as products, cost centers, and projects that you want to estimate, allocate costs to, or measure directly.</span></span> <span data-ttu-id="44030-111">Uma **Dimensão estatística** e seus membros são usados para registrar entradas não monetárias.</span><span class="sxs-lookup"><span data-stu-id="44030-111">A **Statistical dimension** and its members are used to register non-monetary entries.</span></span> <span data-ttu-id="44030-112">Os membros da dimensão estatística podem ser utilizados como base de alocação na distribuição e alocação de custos</span><span class="sxs-lookup"><span data-stu-id="44030-112">Statistical dimension members can be used as an allocation base in cost distribution and allocation</span></span> 
 
-<span data-ttu-id="f5431-113">O diagrama a seguir ilustra as dimensões usadas na Contabilização de custos.</span><span class="sxs-lookup"><span data-stu-id="f5431-113">The following diagram illustrates the dimensions that are used in Cost accounting.</span></span>
+<span data-ttu-id="44030-113">O diagrama a seguir ilustra as dimensões usadas na Contabilização de custos.</span><span class="sxs-lookup"><span data-stu-id="44030-113">The following diagram illustrates the dimensions that are used in Cost accounting.</span></span>
 
-<span data-ttu-id="f5431-114">[![Dimensões na contabilização de custos](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span><span class="sxs-lookup"><span data-stu-id="f5431-114">[![Cost accounting dimensions](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span></span>
+<span data-ttu-id="44030-114">[![Dimensões na contabilização de custos](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span><span class="sxs-lookup"><span data-stu-id="44030-114">[![Cost accounting dimensions](./media/cost-eos-dimensions.png)](./media/cost-eos-dimensions.png)</span></span>
 
-<span data-ttu-id="f5431-115">Depois que dados são importados para a Contabilização de custo, você pode usá-los para construir as várias perspectivas que fornecem ideias a gerentes em todos os níveis da organização.</span><span class="sxs-lookup"><span data-stu-id="f5431-115">After the data is imported into Cost accounting, you can use it to build various perspectives that provide insights to managers at all levels of the organization.</span></span> <span data-ttu-id="f5431-116">Os seguintes tópicos fornecem informações sobre a criação de dimensões e a importação de membros da dimensão.</span><span class="sxs-lookup"><span data-stu-id="f5431-116">The following topics provide information about creating dimensions and importing dimension members.</span></span> 
+<span data-ttu-id="44030-115">Depois que dados são importados para a Contabilização de custo, você pode usá-los para construir as várias perspectivas que fornecem ideias a gerentes em todos os níveis da organização.</span><span class="sxs-lookup"><span data-stu-id="44030-115">After the data is imported into Cost accounting, you can use it to build various perspectives that provide insights to managers at all levels of the organization.</span></span> <span data-ttu-id="44030-116">Os seguintes tópicos fornecem informações sobre a criação de dimensões e a importação de membros da dimensão.</span><span class="sxs-lookup"><span data-stu-id="44030-116">The following topics provide information about creating dimensions and importing dimension members.</span></span> 
 
--  [<span data-ttu-id="f5431-117">Dimensões do elemento de custo</span><span class="sxs-lookup"><span data-stu-id="f5431-117">Cost element dimensions</span></span>](cost-elements.md)
--  [<span data-ttu-id="f5431-118">Criar elementos de custo (Guia de tarefas)</span><span class="sxs-lookup"><span data-stu-id="f5431-118">Create cost elements (Task guide)</span></span>](./tasks/create-cost-elements.md)
--  [<span data-ttu-id="f5431-119">Dimensões de objeto de custo</span><span class="sxs-lookup"><span data-stu-id="f5431-119">Cost object dimensions</span></span>](cost-objects.md)
--  [<span data-ttu-id="f5431-120">Criar elementos de custo (Guia de tarefas)</span><span class="sxs-lookup"><span data-stu-id="f5431-120">Create cost elements (Task guide)</span></span>](./tasks/create-cost-objects.md)
--  [<span data-ttu-id="f5431-121">Mapear membros de dimensão de elemento de custo para um conjunto comum de membros de dimensão</span><span class="sxs-lookup"><span data-stu-id="f5431-121">Map cost element dimension members to a common set of dimension members</span></span>](map-cost-elements-dimension-members.md)
--  [<span data-ttu-id="f5431-122">Mapear uma dimensão de elemento de custo (Guia de tarefas)</span><span class="sxs-lookup"><span data-stu-id="f5431-122">Map a cost element dimension (Task guide)</span></span>](./tasks/map-cost-element-dimension.md)
--  [<span data-ttu-id="f5431-123">Membros estatísticos de dimensões e modelos de fornecedores de medições estatísticas</span><span class="sxs-lookup"><span data-stu-id="f5431-123">Statistical dimension members and statistical measure provider templates</span></span>](statistical-measure-provider-template.md)
-
+-  [<span data-ttu-id="44030-117">Dimensões do elemento de custo</span><span class="sxs-lookup"><span data-stu-id="44030-117">Cost element dimensions</span></span>](cost-elements.md)
+-  [<span data-ttu-id="44030-118">Criar elementos de custo (Guia de tarefas)</span><span class="sxs-lookup"><span data-stu-id="44030-118">Create cost elements (Task guide)</span></span>](./tasks/create-cost-elements.md)
+-  [<span data-ttu-id="44030-119">Dimensões de objeto de custo</span><span class="sxs-lookup"><span data-stu-id="44030-119">Cost object dimensions</span></span>](cost-objects.md)
+-  [<span data-ttu-id="44030-120">Criar elementos de custo (Guia de tarefas)</span><span class="sxs-lookup"><span data-stu-id="44030-120">Create cost elements (Task guide)</span></span>](./tasks/create-cost-objects.md)
+-  [<span data-ttu-id="44030-121">Mapear membros de dimensão de elemento de custo para um conjunto comum de membros de dimensão</span><span class="sxs-lookup"><span data-stu-id="44030-121">Map cost element dimension members to a common set of dimension members</span></span>](map-cost-elements-dimension-members.md)
+-  [<span data-ttu-id="44030-122">Mapear uma dimensão de elemento de custo (Guia de tarefas)</span><span class="sxs-lookup"><span data-stu-id="44030-122">Map a cost element dimension (Task guide)</span></span>](./tasks/map-cost-element-dimension.md)
+-  [<span data-ttu-id="44030-123">Membros estatísticos de dimensões e modelos de fornecedores de medições estatísticas</span><span class="sxs-lookup"><span data-stu-id="44030-123">Statistical dimension members and statistical measure provider templates</span></span>](statistical-measure-provider-template.md)
 
 
 

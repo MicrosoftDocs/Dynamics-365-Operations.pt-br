@@ -1,13 +1,13 @@
 ---
-title: "Lançar com registros de depreciações derivados"
+title: Lançar com registros de depreciações derivados
 description: Este artigo descreve como usar registros de registros derivadas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: shylaw
@@ -18,46 +18,44 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: ff1dbf67a53a5639e448da707898b55cd00cba94
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339133"
 ---
-
-# <a name="post-with-derived-books"></a><span data-ttu-id="3e7b6-103">Lançar com registros de depreciações derivados</span><span class="sxs-lookup"><span data-stu-id="3e7b6-103">Post with derived books</span></span>
+# <a name="post-with-derived-books"></a><span data-ttu-id="f335a-103">Lançar com registros de depreciações derivados</span><span class="sxs-lookup"><span data-stu-id="f335a-103">Post with derived books</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="3e7b6-104">Este artigo descreve como usar registros de registros derivadas.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-104">This article describes how to use derived books.</span></span>
+<span data-ttu-id="f335a-104">Este artigo descreve como usar registros de registros derivadas.</span><span class="sxs-lookup"><span data-stu-id="f335a-104">This article describes how to use derived books.</span></span>
 
-<span data-ttu-id="3e7b6-105">Quando você lança transações para um registro que contém registros derivados, as transações do registro de depreciações derivadas são lançadas automaticamente a partir dos diários, das ordens de compra ou do faturamento de texto livre.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-105">When you post transactions for a book that contains derived books, the derived book transactions are posted automatically in journals, purchase orders, or free text invoices.</span></span> <span data-ttu-id="3e7b6-106">Entretanto, se as transações primárias do registro forem preparadas no diário de Ativos fixos, você poderá exibir e modificar os valores das transações derivadas antes de lançá-las.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-106">However, if you prepare the primary book transactions in the Fixed assets journal, you can view and modify the amounts of the derived transactions before you post them.</span></span>
--   <span data-ttu-id="3e7b6-107">Certas contas, como as contas de impostos sobre vendas, de cliente ou de fornecedor, são atualizadas apenas uma vez pelos lançamentos do método de depreciação primário.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-107">Certain accounts, such as sales tax and customer or vendor accounts, are updated only once by postings of the primary book.</span></span> <span data-ttu-id="3e7b6-108">As transações de registro derivado são lançadas nas contas definidas para o registro derivado na página Perfis de lançamento de ativo fixo.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-108">The derived book transactions are posted to the accounts that have been defined for the derived book in the Fixed asset posting profiles page.</span></span>
--   <span data-ttu-id="3e7b6-109">A aquisição geralmente é usada como o tipo de transação para o registro derivado.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-109">Acquisition is often used as the transaction type for the derived books.</span></span> <span data-ttu-id="3e7b6-110">Use essa opção quando o registro e o registro de depreciações derivadas devem ser aplicados ao ativo fixo a partir do momento da aquisição desse ativo.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-110">You use this when the book and the derived book should be applied to the fixed asset from the time of the acquisition of the fixed asset.</span></span>
--   <span data-ttu-id="3e7b6-111">Outros valores do tipo de transação também podem ser aplicados.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-111">Other values for the transaction type can also apply.</span></span> <span data-ttu-id="3e7b6-112">Por exemplo, se o registro principal e os registros de depreciações derivadas tiverem os mesmos intervalos relativos à venda ou à alienação, todos os tipos de transação de ativo fixo estarão disponíveis para a configuração de um registro derivado.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-112">For example, if the primary book and the derived books have the same intervals regarding sale or disposal, all fixed asset transaction types are available for the setup of a derived book.</span></span>
+<span data-ttu-id="f335a-105">Quando você lança transações para um registro que contém registros derivados, as transações do registro de depreciações derivadas são lançadas automaticamente a partir dos diários, das ordens de compra ou do faturamento de texto livre.</span><span class="sxs-lookup"><span data-stu-id="f335a-105">When you post transactions for a book that contains derived books, the derived book transactions are posted automatically in journals, purchase orders, or free text invoices.</span></span> <span data-ttu-id="f335a-106">Entretanto, se as transações primárias do registro forem preparadas no diário de Ativos fixos, você poderá exibir e modificar os valores das transações derivadas antes de lançá-las.</span><span class="sxs-lookup"><span data-stu-id="f335a-106">However, if you prepare the primary book transactions in the Fixed assets journal, you can view and modify the amounts of the derived transactions before you post them.</span></span>
+-   <span data-ttu-id="f335a-107">Certas contas, como as contas de impostos sobre vendas, de cliente ou de fornecedor, são atualizadas apenas uma vez pelos lançamentos do método de depreciação primário.</span><span class="sxs-lookup"><span data-stu-id="f335a-107">Certain accounts, such as sales tax and customer or vendor accounts, are updated only once by postings of the primary book.</span></span> <span data-ttu-id="f335a-108">As transações de registro derivado são lançadas nas contas definidas para o registro derivado na página Perfis de lançamento de ativo fixo.</span><span class="sxs-lookup"><span data-stu-id="f335a-108">The derived book transactions are posted to the accounts that have been defined for the derived book in the Fixed asset posting profiles page.</span></span>
+-   <span data-ttu-id="f335a-109">A aquisição geralmente é usada como o tipo de transação para o registro derivado.</span><span class="sxs-lookup"><span data-stu-id="f335a-109">Acquisition is often used as the transaction type for the derived books.</span></span> <span data-ttu-id="f335a-110">Use essa opção quando o registro e o registro de depreciações derivadas devem ser aplicados ao ativo fixo a partir do momento da aquisição desse ativo.</span><span class="sxs-lookup"><span data-stu-id="f335a-110">You use this when the book and the derived book should be applied to the fixed asset from the time of the acquisition of the fixed asset.</span></span>
+-   <span data-ttu-id="f335a-111">Outros valores do tipo de transação também podem ser aplicados.</span><span class="sxs-lookup"><span data-stu-id="f335a-111">Other values for the transaction type can also apply.</span></span> <span data-ttu-id="f335a-112">Por exemplo, se o registro principal e os registros de depreciações derivadas tiverem os mesmos intervalos relativos à venda ou à alienação, todos os tipos de transação de ativo fixo estarão disponíveis para a configuração de um registro derivado.</span><span class="sxs-lookup"><span data-stu-id="f335a-112">For example, if the primary book and the derived books have the same intervals regarding sale or disposal, all fixed asset transaction types are available for the setup of a derived book.</span></span>
 
 > [!WARNING]
-> <span data-ttu-id="3e7b6-113">A depreciação lançada no registro de depreciações derivadas terá o mesmo valor que foi lançado para o registro principal.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-113">Depreciation posted in the derived book will be the same amount as was posted for the primary book.</span></span> <span data-ttu-id="3e7b6-114">Se os métodos de depreciação forem diferentes, as transações de registros não devem ser geradas usando o processo derivado.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-114">If the depreciation methods are different between the books, you should not generate depreciation transactions using the derived process.</span></span> |
+> <span data-ttu-id="f335a-113">A depreciação lançada no registro de depreciações derivadas terá o mesmo valor que foi lançado para o registro principal.</span><span class="sxs-lookup"><span data-stu-id="f335a-113">Depreciation posted in the derived book will be the same amount as was posted for the primary book.</span></span> <span data-ttu-id="f335a-114">Se os métodos de depreciação forem diferentes, as transações de registros não devem ser geradas usando o processo derivado.</span><span class="sxs-lookup"><span data-stu-id="f335a-114">If the depreciation methods are different between the books, you should not generate depreciation transactions using the derived process.</span></span> |
 
-## <a name="example"></a><span data-ttu-id="3e7b6-115">exemplo</span><span class="sxs-lookup"><span data-stu-id="3e7b6-115">Example</span></span> 
-<span data-ttu-id="3e7b6-116">As informações a seguir descrevem como configurar transações de aquisição com a funcionalidade do registro derivado.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-116">The following information describes how to set up acquisition transactions with the derived book functionality.</span></span>
+## <a name="example"></a><span data-ttu-id="f335a-115">exemplo</span><span class="sxs-lookup"><span data-stu-id="f335a-115">Example</span></span> 
+<span data-ttu-id="f335a-116">As informações a seguir descrevem como configurar transações de aquisição com a funcionalidade do registro derivado.</span><span class="sxs-lookup"><span data-stu-id="f335a-116">The following information describes how to set up acquisition transactions with the derived book functionality.</span></span>
 
-1.  <span data-ttu-id="3e7b6-117">Crie os registros na página de registros.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-117">Create the books on the Books page.</span></span>
-    -   <span data-ttu-id="3e7b6-118">O registro para contabilidade: VM 1, Nível de lançamento atual</span><span class="sxs-lookup"><span data-stu-id="3e7b6-118">The book for accounting: VM 1, Current posting layer</span></span>
-    -   <span data-ttu-id="3e7b6-119">O registro para fins de tributação: VM 2, Nível de lançamento de imposto</span><span class="sxs-lookup"><span data-stu-id="3e7b6-119">The book for tax purposes: VM 2, Tax posting layer</span></span>
+1.  <span data-ttu-id="f335a-117">Crie os registros na página de registros.</span><span class="sxs-lookup"><span data-stu-id="f335a-117">Create the books on the Books page.</span></span>
+    -   <span data-ttu-id="f335a-118">O registro para contabilidade: VM 1, Nível de lançamento atual</span><span class="sxs-lookup"><span data-stu-id="f335a-118">The book for accounting: VM 1, Current posting layer</span></span>
+    -   <span data-ttu-id="f335a-119">O registro para fins de tributação: VM 2, Nível de lançamento de imposto</span><span class="sxs-lookup"><span data-stu-id="f335a-119">The book for tax purposes: VM 2, Tax posting layer</span></span>
 
-2.  <span data-ttu-id="3e7b6-120">Em VM 1, clique na guia Registros derivados. Selecione VM 2 no campo Registro e Aquisição no campo Tipo de transação.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-120">On VM 1, click the Derived books tab. Select VM 2 in the Book field, and Acquisition in the Transaction type field.</span></span>
+2.  <span data-ttu-id="f335a-120">Em VM 1, clique na guia Registros derivados. Selecione VM 2 no campo Registro e Aquisição no campo Tipo de transação.</span><span class="sxs-lookup"><span data-stu-id="f335a-120">On VM 1, click the Derived books tab. Select VM 2 in the Book field, and Acquisition in the Transaction type field.</span></span>
 
-<span data-ttu-id="3e7b6-121">Em seguida, os registros poderão ser anexados a ativos fixos específicos.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-121">The books then can be attached to specific fixed assets.</span></span> 
+<span data-ttu-id="f335a-121">Em seguida, os registros poderão ser anexados a ativos fixos específicos.</span><span class="sxs-lookup"><span data-stu-id="f335a-121">The books then can be attached to specific fixed assets.</span></span> 
 
-<span data-ttu-id="3e7b6-122">Quando uma aquisição for lançada para um ativo fixo com o livro VM 1, a aquisição não será lançada somente em VM 1, mas também no registro do livro derivado VM 2.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-122">When an acquisition is posted for a fixed asset with book VM 1, the acquisition is posted not only on VM 1, but also on the derived book VM 2.</span></span> <span data-ttu-id="3e7b6-123">O status dos livros de ativo fixo é atualizado para Aberto.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-123">The status of both fixed asset books is updated to Open.</span></span>
+<span data-ttu-id="f335a-122">Quando uma aquisição for lançada para um ativo fixo com o livro VM 1, a aquisição não será lançada somente em VM 1, mas também no registro do livro derivado VM 2.</span><span class="sxs-lookup"><span data-stu-id="f335a-122">When an acquisition is posted for a fixed asset with book VM 1, the acquisition is posted not only on VM 1, but also on the derived book VM 2.</span></span> <span data-ttu-id="f335a-123">O status dos livros de ativo fixo é atualizado para Aberto.</span><span class="sxs-lookup"><span data-stu-id="f335a-123">The status of both fixed asset books is updated to Open.</span></span>
 
 > [!NOTE]                                                                                                         
-> <span data-ttu-id="3e7b6-124">Se você não usar registros derivados, será necessário lançar a aquisição do ativo fixo tanto para o método VM 1 como para o registro VM 2.</span><span class="sxs-lookup"><span data-stu-id="3e7b6-124">If you do not use derived books, you must post the acquisition of the fixed asset both for book VM 1 and book VM 2.</span></span>
+> <span data-ttu-id="f335a-124">Se você não usar registros derivados, será necessário lançar a aquisição do ativo fixo tanto para o método VM 1 como para o registro VM 2.</span><span class="sxs-lookup"><span data-stu-id="f335a-124">If you do not use derived books, you must post the acquisition of the fixed asset both for book VM 1 and book VM 2.</span></span>
 
-<span data-ttu-id="3e7b6-125">Para obter mais informações, consulte [Registros derivados](derived-books.md).</span><span class="sxs-lookup"><span data-stu-id="3e7b6-125">For more information, see [Derived books](derived-books.md)</span></span>
-
+<span data-ttu-id="f335a-125">Para obter mais informações, consulte [Registros derivados](derived-books.md).</span><span class="sxs-lookup"><span data-stu-id="f335a-125">For more information, see [Derived books](derived-books.md)</span></span>
 
 
 

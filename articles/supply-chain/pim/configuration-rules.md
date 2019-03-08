@@ -1,13 +1,13 @@
 ---
-title: "Regras de configuração"
-description: "Este artigo oferece informações gerais sobre as regras de configuração. As regras de configuração definem as relações entre os itens em uma lista de materiais (BOM) de produtos que usam a tecnologia de configuração baseada em dimensão."
+title: Regras de configuração
+description: Este artigo oferece informações gerais sobre as regras de configuração. As regras de configuração definem as relações entre os itens em uma lista de materiais (BOM) de produtos que usam a tecnologia de configuração baseada em dimensão.
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConfigRule
 audience: Application User
 ms.reviewer: josaw
@@ -18,33 +18,31 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: 13f37cb4e472e91862e963a4952adcf61e6adcea
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319353"
 ---
-
-# <a name="configuration-rules"></a><span data-ttu-id="286e0-104">Regras de configuração</span><span class="sxs-lookup"><span data-stu-id="286e0-104">Configuration rules</span></span>
+# <a name="configuration-rules"></a><span data-ttu-id="6761b-104">Regras de configuração</span><span class="sxs-lookup"><span data-stu-id="6761b-104">Configuration rules</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="286e0-105">Este artigo oferece informações gerais sobre as regras de configuração.</span><span class="sxs-lookup"><span data-stu-id="286e0-105">This article provides general information about configuration rules.</span></span> <span data-ttu-id="286e0-106">As regras de configuração definem as relações entre os itens em uma lista de materiais (BOM) de produtos que usam a tecnologia de configuração baseada em dimensão.</span><span class="sxs-lookup"><span data-stu-id="286e0-106">Configuration rules define relationships between items in a bill of materials (BOM) for products that use the dimension-based configuration technology.</span></span>
+<span data-ttu-id="6761b-105">Este artigo oferece informações gerais sobre as regras de configuração.</span><span class="sxs-lookup"><span data-stu-id="6761b-105">This article provides general information about configuration rules.</span></span> <span data-ttu-id="6761b-106">As regras de configuração definem as relações entre os itens em uma lista de materiais (BOM) de produtos que usam a tecnologia de configuração baseada em dimensão.</span><span class="sxs-lookup"><span data-stu-id="6761b-106">Configuration rules define relationships between items in a bill of materials (BOM) for products that use the dimension-based configuration technology.</span></span>
 
-<span data-ttu-id="286e0-107">As regras de configuração ficam disponíveis quando você define modelos de configuração baseada em dimensão.</span><span class="sxs-lookup"><span data-stu-id="286e0-107">Configuration rules are available when you define dimension-based configuration models.</span></span> <span data-ttu-id="286e0-108">As regras de configuração são usadas para aplicar ou proibir combinações específicas do item em uma lista de materiais (BOM).</span><span class="sxs-lookup"><span data-stu-id="286e0-108">Configuration rules are used to either enforce or prohibit specific item combinations in a bill of materials (BOM).</span></span> <span data-ttu-id="286e0-109">Depois que uma BOM for criada e os itens relevantes forem atribuídos aos seus respectivos grupos de configuração, uma ou mais regras de configuração poderão ser definidas.</span><span class="sxs-lookup"><span data-stu-id="286e0-109">After a BOM has been created and the relevant items have been assigned to their respective configuration groups, one or more configuration rules can be defined.</span></span> <span data-ttu-id="286e0-110">Se dois itens pertencem, o operador **Select** será usado para garantir a inclusão.</span><span class="sxs-lookup"><span data-stu-id="286e0-110">If two items belong together, the **Select** operator is used to ensure inclusion.</span></span> <span data-ttu-id="286e0-111">Se dois itens forem mutuamente exclusivos, o operador, **Cancelar seleção** será usado para garantir a exclusão.</span><span class="sxs-lookup"><span data-stu-id="286e0-111">If two items are mutually exclusive, the **Deselect** operator is used to ensure exclusion.</span></span>  
+<span data-ttu-id="6761b-107">As regras de configuração ficam disponíveis quando você define modelos de configuração baseada em dimensão.</span><span class="sxs-lookup"><span data-stu-id="6761b-107">Configuration rules are available when you define dimension-based configuration models.</span></span> <span data-ttu-id="6761b-108">As regras de configuração são usadas para aplicar ou proibir combinações específicas do item em uma lista de materiais (BOM).</span><span class="sxs-lookup"><span data-stu-id="6761b-108">Configuration rules are used to either enforce or prohibit specific item combinations in a bill of materials (BOM).</span></span> <span data-ttu-id="6761b-109">Depois que uma BOM for criada e os itens relevantes forem atribuídos aos seus respectivos grupos de configuração, uma ou mais regras de configuração poderão ser definidas.</span><span class="sxs-lookup"><span data-stu-id="6761b-109">After a BOM has been created and the relevant items have been assigned to their respective configuration groups, one or more configuration rules can be defined.</span></span> <span data-ttu-id="6761b-110">Se dois itens pertencem, o operador **Select** será usado para garantir a inclusão.</span><span class="sxs-lookup"><span data-stu-id="6761b-110">If two items belong together, the **Select** operator is used to ensure inclusion.</span></span> <span data-ttu-id="6761b-111">Se dois itens forem mutuamente exclusivos, o operador, **Cancelar seleção** será usado para garantir a exclusão.</span><span class="sxs-lookup"><span data-stu-id="6761b-111">If two items are mutually exclusive, the **Deselect** operator is used to ensure exclusion.</span></span>  
 
-<span data-ttu-id="286e0-112">**Observação:** Essas informações só se aplicam aos produtos mestres que usam a tecnologia de configuração baseada em dimensão.</span><span class="sxs-lookup"><span data-stu-id="286e0-112">**Note:** This information applies only to product masters that use the dimension-based configuration technology.</span></span>  
+<span data-ttu-id="6761b-112">**Observação:** Essas informações só se aplicam aos produtos mestres que usam a tecnologia de configuração baseada em dimensão.</span><span class="sxs-lookup"><span data-stu-id="6761b-112">**Note:** This information applies only to product masters that use the dimension-based configuration technology.</span></span>  
 
-<span data-ttu-id="286e0-113">As configurações existentes não são afetadas pelas alterações subsequentes às regras de configuração.</span><span class="sxs-lookup"><span data-stu-id="286e0-113">Existing configurations aren't affected by subsequent changes to the configuration rules.</span></span> <span data-ttu-id="286e0-114">Porém, é importante que você defina as regras antes de estabelecer uma nova configuração e que as verifique, caso presuma que as regras tenham sido alteradas.</span><span class="sxs-lookup"><span data-stu-id="286e0-114">However, it's important that you set the rules before you define a new configuration, and that you check the rules if you think they have been changed.</span></span>  
+<span data-ttu-id="6761b-113">As configurações existentes não são afetadas pelas alterações subsequentes às regras de configuração.</span><span class="sxs-lookup"><span data-stu-id="6761b-113">Existing configurations aren't affected by subsequent changes to the configuration rules.</span></span> <span data-ttu-id="6761b-114">Porém, é importante que você defina as regras antes de estabelecer uma nova configuração e que as verifique, caso presuma que as regras tenham sido alteradas.</span><span class="sxs-lookup"><span data-stu-id="6761b-114">However, it's important that you set the rules before you define a new configuration, and that you check the rules if you think they have been changed.</span></span>  
 
-<span data-ttu-id="286e0-115">**Observação:** Para o método **Select**, o grupo de configuração, o número do item e a configuração resultantes são automaticamente selecionados.</span><span class="sxs-lookup"><span data-stu-id="286e0-115">**Note:** For the **Select** method, the derived configuration group, item number, and configuration are automatically selected.</span></span> <span data-ttu-id="286e0-116">Para o método **Cancelar seleção**, o grupo de configurações, o número do item e a configuração resultantes não podem ser selecionados.</span><span class="sxs-lookup"><span data-stu-id="286e0-116">For the **Deselect** method, the derived configuration group, item number, and configuration can't be selected.</span></span>
+<span data-ttu-id="6761b-115">**Observação:** Para o método **Select**, o grupo de configuração, o número do item e a configuração resultantes são automaticamente selecionados.</span><span class="sxs-lookup"><span data-stu-id="6761b-115">**Note:** For the **Select** method, the derived configuration group, item number, and configuration are automatically selected.</span></span> <span data-ttu-id="6761b-116">Para o método **Cancelar seleção**, o grupo de configurações, o número do item e a configuração resultantes não podem ser selecionados.</span><span class="sxs-lookup"><span data-stu-id="6761b-116">For the **Deselect** method, the derived configuration group, item number, and configuration can't be selected.</span></span>
 
-<a name="additional-resources"></a><span data-ttu-id="286e0-117">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="286e0-117">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="6761b-117">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="6761b-117">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="286e0-118">Configuração de produto baseada em dimensão</span><span class="sxs-lookup"><span data-stu-id="286e0-118">Dimension-based product configuration</span></span>](dimension-based-product-configuration.md)
-
+[<span data-ttu-id="6761b-118">Configuração de produto baseada em dimensão</span><span class="sxs-lookup"><span data-stu-id="6761b-118">Dimension-based product configuration</span></span>](dimension-based-product-configuration.md)
 
 
 

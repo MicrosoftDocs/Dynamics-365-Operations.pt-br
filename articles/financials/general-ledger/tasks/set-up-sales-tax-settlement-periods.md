@@ -1,13 +1,13 @@
---- 
-title: "Configurar períodos de liquidação do imposto"
-description: "Períodos de liquidação de impostos contêm informações sobre os intervalos de período para os quais os impostos precisam ser relatados e pagos."
+---
+title: Configurar períodos de liquidação do imposto
+description: Períodos de liquidação de impostos contêm informações sobre os intervalos de período para os quais os impostos precisam ser relatados e pagos.
 author: twheeloc
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,49 +16,48 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
 ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
-ms.contentlocale: pt-br
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326184"
 ---
-# <a name="set-up-sales-tax-settlement-periods"></a><span data-ttu-id="ff71a-103">Configurar períodos de liquidação do imposto</span><span class="sxs-lookup"><span data-stu-id="ff71a-103">Set up sales tax settlement periods</span></span>
+# <a name="set-up-sales-tax-settlement-periods"></a><span data-ttu-id="34cf9-103">Configurar períodos de liquidação do imposto</span><span class="sxs-lookup"><span data-stu-id="34cf9-103">Set up sales tax settlement periods</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ff71a-104">Períodos de liquidação de impostos contêm informações sobre os intervalos de período para os quais os impostos precisam ser relatados e pagos.</span><span class="sxs-lookup"><span data-stu-id="ff71a-104">Sales tax settlement periods contain information about the period intervals for which sales tax needs to be reported and paid.</span></span> <span data-ttu-id="ff71a-105">Um processo de pagamento pode ser executado por um período de liquidação para um intervalo de datas específico.</span><span class="sxs-lookup"><span data-stu-id="ff71a-105">A settlement process can be run for a settlement period for a specific date interval.</span></span> <span data-ttu-id="ff71a-106">Todos os códigos de imposto associados ao período de liquidação serão liquidados.</span><span class="sxs-lookup"><span data-stu-id="ff71a-106">All tax codes associated with the settlement period will be settled.</span></span> <span data-ttu-id="ff71a-107">Dependendo da configuração da autoridade de impostos sobre vendas relacionada, a obrigação fiscal é lançada a um fornecedor ou em uma conta contábil.</span><span class="sxs-lookup"><span data-stu-id="ff71a-107">Depending on the set up of the related Sales tax authority, the tax liability is posted either to a vendor or a General ledger account.</span></span>
+<span data-ttu-id="34cf9-104">Períodos de liquidação de impostos contêm informações sobre os intervalos de período para os quais os impostos precisam ser relatados e pagos.</span><span class="sxs-lookup"><span data-stu-id="34cf9-104">Sales tax settlement periods contain information about the period intervals for which sales tax needs to be reported and paid.</span></span> <span data-ttu-id="34cf9-105">Um processo de pagamento pode ser executado por um período de liquidação para um intervalo de datas específico.</span><span class="sxs-lookup"><span data-stu-id="34cf9-105">A settlement process can be run for a settlement period for a specific date interval.</span></span> <span data-ttu-id="34cf9-106">Todos os códigos de imposto associados ao período de liquidação serão liquidados.</span><span class="sxs-lookup"><span data-stu-id="34cf9-106">All tax codes associated with the settlement period will be settled.</span></span> <span data-ttu-id="34cf9-107">Dependendo da configuração da autoridade de impostos sobre vendas relacionada, a obrigação fiscal é lançada a um fornecedor ou em uma conta contábil.</span><span class="sxs-lookup"><span data-stu-id="34cf9-107">Depending on the set up of the related Sales tax authority, the tax liability is posted either to a vendor or a General ledger account.</span></span>
 
 
 
-<span data-ttu-id="ff71a-108">Esta tarefa usa a empresa de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="ff71a-108">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="34cf9-108">Esta tarefa usa a empresa de demonstração USMF.</span><span class="sxs-lookup"><span data-stu-id="34cf9-108">This task uses the USMF demo company.</span></span>
 
 
 
-1. <span data-ttu-id="ff71a-109">Vá para Imposto > Impostos indiretos > Imposto sobre vendas > Períodos de liquidação de impostos sobre vendas.</span><span class="sxs-lookup"><span data-stu-id="ff71a-109">Go to Tax > Indirect taxes > Sales tax > Sales tax settlement periods.</span></span>
-2. <span data-ttu-id="ff71a-110">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="ff71a-110">Click New.</span></span>
-3. <span data-ttu-id="ff71a-111">No campo de Período de liquidação, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ff71a-111">In the Settlement period field, type a value.</span></span>
-4. <span data-ttu-id="ff71a-112">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="ff71a-112">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="ff71a-113">No campo Autoridade, selecione a autoridade do imposto sobre vendas que recebe os relatórios e os pagamentos relacionados que são criados para o período de liquidação.</span><span class="sxs-lookup"><span data-stu-id="ff71a-113">In the Authority field, select the sales tax authority that receives the reports and the payments that are created for the settlement period.</span></span>
-6. <span data-ttu-id="ff71a-114">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="ff71a-114">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="ff71a-115">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ff71a-115">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="ff71a-116">No campo Termos de pagamento, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="ff71a-116">In the Terms of payment field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="ff71a-117">A autoridade do imposto sobre vendas relacionada pode ser configurada como um fornecedor e a liquidação do imposto sobre vendas criará uma nota fiscal de fornecedor aberta.</span><span class="sxs-lookup"><span data-stu-id="ff71a-117">The related Sales tax authority can be set up as a vendor and the Sales tax settlement will create an open vendor invoice.</span></span> <span data-ttu-id="ff71a-118">Os Termos de pagamento definem a Data de vencimento para a fatura de fornecedor aberta.</span><span class="sxs-lookup"><span data-stu-id="ff71a-118">The Terms of payment defines the Due date for the open vendor invoice.</span></span>  
-9. <span data-ttu-id="ff71a-119">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="ff71a-119">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="ff71a-120">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ff71a-120">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="ff71a-121">Selecione o tipo de intervalos de período de liquidação.</span><span class="sxs-lookup"><span data-stu-id="ff71a-121">Select a type for the settlement period intervals.</span></span>
-12. <span data-ttu-id="ff71a-122">Insira o número das Unidades de intervalo de período por período.</span><span class="sxs-lookup"><span data-stu-id="ff71a-122">Enter the number of Period interval units per period.</span></span> <span data-ttu-id="ff71a-123">Por exemplo, um trimestre tem 3 meses.</span><span class="sxs-lookup"><span data-stu-id="ff71a-123">For example, a quarter has 3 months.</span></span>
-13. <span data-ttu-id="ff71a-124">Marque ou desmarque o processamento em lotes de uso da caixa de seleção de liquidação do imposto sobre vendas.</span><span class="sxs-lookup"><span data-stu-id="ff71a-124">Select or clear the Use batch processing for sales tax settlement check box.</span></span>
-    * <span data-ttu-id="ff71a-125">O processo de liquidação para o período de liquidação pode ser processado como trabalhos em lotes no plano de fundo.</span><span class="sxs-lookup"><span data-stu-id="ff71a-125">The settlement process for the settlement period can be processed as batch job in the background.</span></span> <span data-ttu-id="ff71a-126">Isso é recomendável para um grande número de transações de imposto em um intervalo de períodos.</span><span class="sxs-lookup"><span data-stu-id="ff71a-126">This is recommended for a large number of tax transactions within a period interval.</span></span>  
-14. <span data-ttu-id="ff71a-127">Marque ou desmarque a caixa de seleção Impedir a geração de transações de impostos de contrapartida.</span><span class="sxs-lookup"><span data-stu-id="ff71a-127">Select or clear the Prevent generating offset tax transactions check box.</span></span>
-    * <span data-ttu-id="ff71a-128">Por padrão, o sistema gera transações de impostos de contrapartida durante o processo de liquidação, o que pode causar um problema de desempenho se houver um grande número de transações de imposto durante um intervalo de período.</span><span class="sxs-lookup"><span data-stu-id="ff71a-128">By default, the system generates offset tax transactions during the settlement process, which cause can performance issue if there are a large number of tax transactions within a period interval.</span></span> <span data-ttu-id="ff71a-129">Marque essa caixa de seleção para impedir a geração de transações de impostos de contrapartida.</span><span class="sxs-lookup"><span data-stu-id="ff71a-129">Select this check box to prevent generating offset tax transactions.</span></span>
-15. <span data-ttu-id="ff71a-130">Expanda a guia dos intervalos de períodos.</span><span class="sxs-lookup"><span data-stu-id="ff71a-130">Expand the Period intervals tab.</span></span>
-16. <span data-ttu-id="ff71a-131">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="ff71a-131">Click Add.</span></span>
-17. <span data-ttu-id="ff71a-132">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="ff71a-132">In the list, mark the selected row.</span></span>
-18. <span data-ttu-id="ff71a-133">No campo De data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="ff71a-133">In the From date field, enter a date.</span></span>
-19. <span data-ttu-id="ff71a-134">No campo Para data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="ff71a-134">In the To date field, enter a date.</span></span>
-20. <span data-ttu-id="ff71a-135">Clique em Novo intervalo do período.</span><span class="sxs-lookup"><span data-stu-id="ff71a-135">Click New period interval.</span></span>
-    * <span data-ttu-id="ff71a-136">Depois que o primeiro intervalo de período tiver sido inserido, os novos períodos podem ser criados automaticamente.</span><span class="sxs-lookup"><span data-stu-id="ff71a-136">Once the first period interval has been entered, new periods can be created automatically.</span></span> <span data-ttu-id="ff71a-137">Você pode voltar e adicionar novos intervalos de período conforme necessário.</span><span class="sxs-lookup"><span data-stu-id="ff71a-137">You can come back and add new period intervals as required.</span></span>  
-21. <span data-ttu-id="ff71a-138">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="ff71a-138">Close the page.</span></span>
-
+1. <span data-ttu-id="34cf9-109">Vá para Imposto > Impostos indiretos > Imposto sobre vendas > Períodos de liquidação de impostos sobre vendas.</span><span class="sxs-lookup"><span data-stu-id="34cf9-109">Go to Tax > Indirect taxes > Sales tax > Sales tax settlement periods.</span></span>
+2. <span data-ttu-id="34cf9-110">Clique em Novo.</span><span class="sxs-lookup"><span data-stu-id="34cf9-110">Click New.</span></span>
+3. <span data-ttu-id="34cf9-111">No campo de Período de liquidação, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="34cf9-111">In the Settlement period field, type a value.</span></span>
+4. <span data-ttu-id="34cf9-112">No campo Descrição, digite um valor.</span><span class="sxs-lookup"><span data-stu-id="34cf9-112">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="34cf9-113">No campo Autoridade, selecione a autoridade do imposto sobre vendas que recebe os relatórios e os pagamentos relacionados que são criados para o período de liquidação.</span><span class="sxs-lookup"><span data-stu-id="34cf9-113">In the Authority field, select the sales tax authority that receives the reports and the payments that are created for the settlement period.</span></span>
+6. <span data-ttu-id="34cf9-114">Na lista, localize e selecione o registro desejado.</span><span class="sxs-lookup"><span data-stu-id="34cf9-114">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="34cf9-115">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="34cf9-115">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="34cf9-116">No campo Termos de pagamento, clique no botão suspenso para abrir a pesquisa.</span><span class="sxs-lookup"><span data-stu-id="34cf9-116">In the Terms of payment field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="34cf9-117">A autoridade do imposto sobre vendas relacionada pode ser configurada como um fornecedor e a liquidação do imposto sobre vendas criará uma nota fiscal de fornecedor aberta.</span><span class="sxs-lookup"><span data-stu-id="34cf9-117">The related Sales tax authority can be set up as a vendor and the Sales tax settlement will create an open vendor invoice.</span></span> <span data-ttu-id="34cf9-118">Os Termos de pagamento definem a Data de vencimento para a fatura de fornecedor aberta.</span><span class="sxs-lookup"><span data-stu-id="34cf9-118">The Terms of payment defines the Due date for the open vendor invoice.</span></span>  
+9. <span data-ttu-id="34cf9-119">Na lista, localize e selecione o PDV desejado.</span><span class="sxs-lookup"><span data-stu-id="34cf9-119">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="34cf9-120">Na lista, clique no link na linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="34cf9-120">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="34cf9-121">Selecione o tipo de intervalos de período de liquidação.</span><span class="sxs-lookup"><span data-stu-id="34cf9-121">Select a type for the settlement period intervals.</span></span>
+12. <span data-ttu-id="34cf9-122">Insira o número das Unidades de intervalo de período por período.</span><span class="sxs-lookup"><span data-stu-id="34cf9-122">Enter the number of Period interval units per period.</span></span> <span data-ttu-id="34cf9-123">Por exemplo, um trimestre tem 3 meses.</span><span class="sxs-lookup"><span data-stu-id="34cf9-123">For example, a quarter has 3 months.</span></span>
+13. <span data-ttu-id="34cf9-124">Marque ou desmarque o processamento em lotes de uso da caixa de seleção de liquidação do imposto sobre vendas.</span><span class="sxs-lookup"><span data-stu-id="34cf9-124">Select or clear the Use batch processing for sales tax settlement check box.</span></span>
+    * <span data-ttu-id="34cf9-125">O processo de liquidação para o período de liquidação pode ser processado como trabalhos em lotes no plano de fundo.</span><span class="sxs-lookup"><span data-stu-id="34cf9-125">The settlement process for the settlement period can be processed as batch job in the background.</span></span> <span data-ttu-id="34cf9-126">Isso é recomendável para um grande número de transações de imposto em um intervalo de períodos.</span><span class="sxs-lookup"><span data-stu-id="34cf9-126">This is recommended for a large number of tax transactions within a period interval.</span></span>  
+14. <span data-ttu-id="34cf9-127">Marque ou desmarque a caixa de seleção Impedir a geração de transações de impostos de contrapartida.</span><span class="sxs-lookup"><span data-stu-id="34cf9-127">Select or clear the Prevent generating offset tax transactions check box.</span></span>
+    * <span data-ttu-id="34cf9-128">Por padrão, o sistema gera transações de impostos de contrapartida durante o processo de liquidação, o que pode causar um problema de desempenho se houver um grande número de transações de imposto durante um intervalo de período.</span><span class="sxs-lookup"><span data-stu-id="34cf9-128">By default, the system generates offset tax transactions during the settlement process, which cause can performance issue if there are a large number of tax transactions within a period interval.</span></span> <span data-ttu-id="34cf9-129">Marque essa caixa de seleção para impedir a geração de transações de impostos de contrapartida.</span><span class="sxs-lookup"><span data-stu-id="34cf9-129">Select this check box to prevent generating offset tax transactions.</span></span>
+15. <span data-ttu-id="34cf9-130">Expanda a guia dos intervalos de períodos.</span><span class="sxs-lookup"><span data-stu-id="34cf9-130">Expand the Period intervals tab.</span></span>
+16. <span data-ttu-id="34cf9-131">Clique em Adicionar.</span><span class="sxs-lookup"><span data-stu-id="34cf9-131">Click Add.</span></span>
+17. <span data-ttu-id="34cf9-132">Na lista, marque a linha selecionada.</span><span class="sxs-lookup"><span data-stu-id="34cf9-132">In the list, mark the selected row.</span></span>
+18. <span data-ttu-id="34cf9-133">No campo De data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="34cf9-133">In the From date field, enter a date.</span></span>
+19. <span data-ttu-id="34cf9-134">No campo Para data, insira uma data.</span><span class="sxs-lookup"><span data-stu-id="34cf9-134">In the To date field, enter a date.</span></span>
+20. <span data-ttu-id="34cf9-135">Clique em Novo intervalo do período.</span><span class="sxs-lookup"><span data-stu-id="34cf9-135">Click New period interval.</span></span>
+    * <span data-ttu-id="34cf9-136">Depois que o primeiro intervalo de período tiver sido inserido, os novos períodos podem ser criados automaticamente.</span><span class="sxs-lookup"><span data-stu-id="34cf9-136">Once the first period interval has been entered, new periods can be created automatically.</span></span> <span data-ttu-id="34cf9-137">Você pode voltar e adicionar novos intervalos de período conforme necessário.</span><span class="sxs-lookup"><span data-stu-id="34cf9-137">You can come back and add new period intervals as required.</span></span>  
+21. <span data-ttu-id="34cf9-138">Feche a página.</span><span class="sxs-lookup"><span data-stu-id="34cf9-138">Close the page.</span></span>
 

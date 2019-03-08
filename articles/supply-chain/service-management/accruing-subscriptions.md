@@ -1,81 +1,80 @@
 ---
-title: "Acúmulo de subscrições"
-description: "Com as subscrições de serviço, você acumula a receita manualmente nos períodos após a data em que faturou uma transação de taxa."
+title: Acúmulo de subscrições
+description: Com as subscrições de serviço, você acumula a receita manualmente nos períodos após a data em que faturou uma transação de taxa.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMASubscriptionGroup
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: a183e17749c04b407eb17155ecb1363e96ade18a
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317168"
 ---
-
-# <a name="accruing-subscriptions"></a><span data-ttu-id="baccc-103">Acúmulo de subscrições</span><span class="sxs-lookup"><span data-stu-id="baccc-103">Accruing subscriptions</span></span> 
+# <a name="accruing-subscriptions"></a><span data-ttu-id="df602-103">Acúmulo de subscrições</span><span class="sxs-lookup"><span data-stu-id="df602-103">Accruing subscriptions</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="baccc-104">Com as subscrições de serviço, você acumula a receita manualmente nos períodos após a data em que faturou uma transação de taxa.</span><span class="sxs-lookup"><span data-stu-id="baccc-104">With service subscriptions, you manually accrue revenue in the periods following the date when you invoiced a fee transaction.</span></span>
+<span data-ttu-id="df602-104">Com as subscrições de serviço, você acumula a receita manualmente nos períodos após a data em que faturou uma transação de taxa.</span><span class="sxs-lookup"><span data-stu-id="df602-104">With service subscriptions, you manually accrue revenue in the periods following the date when you invoiced a fee transaction.</span></span>
 
-<span data-ttu-id="baccc-105">Os períodos de acumulação são criados para o período da nota fiscal configurado para a taxa de subscrição e se baseiam no código de período da subscrição.</span><span class="sxs-lookup"><span data-stu-id="baccc-105">Accrual periods are created for the invoice period that you set up for the subscription fee, and the accrual periods are based on the period code of the subscription.</span></span>
+<span data-ttu-id="df602-105">Os períodos de acumulação são criados para o período da nota fiscal configurado para a taxa de subscrição e se baseiam no código de período da subscrição.</span><span class="sxs-lookup"><span data-stu-id="df602-105">Accrual periods are created for the invoice period that you set up for the subscription fee, and the accrual periods are based on the period code of the subscription.</span></span>
 
-<span data-ttu-id="baccc-106">Você pode acumular e reverter a receita acumulada.</span><span class="sxs-lookup"><span data-stu-id="baccc-106">You can accrue and reverse accrued revenue.</span></span>
+<span data-ttu-id="df602-106">Você pode acumular e reverter a receita acumulada.</span><span class="sxs-lookup"><span data-stu-id="df602-106">You can accrue and reverse accrued revenue.</span></span>
 
-## <a name="reverse-accruals-of-credit-amounts"></a><span data-ttu-id="baccc-107">Reverter acúmulos dos valores de crédito</span><span class="sxs-lookup"><span data-stu-id="baccc-107">Reverse accruals of credit amounts</span></span>
+## <a name="reverse-accruals-of-credit-amounts"></a><span data-ttu-id="df602-107">Reverter acúmulos dos valores de crédito</span><span class="sxs-lookup"><span data-stu-id="df602-107">Reverse accruals of credit amounts</span></span>
 
-<span data-ttu-id="baccc-108">Se você creditar valores de subscrição faturados, poderá usar dois métodos para reverter os valores acumulados:</span><span class="sxs-lookup"><span data-stu-id="baccc-108">If you credit invoiced subscription amounts, you can use two methods to reverse the accrual amounts:</span></span>
+<span data-ttu-id="df602-108">Se você creditar valores de subscrição faturados, poderá usar dois métodos para reverter os valores acumulados:</span><span class="sxs-lookup"><span data-stu-id="df602-108">If you credit invoiced subscription amounts, you can use two methods to reverse the accrual amounts:</span></span>
 
-  - <span data-ttu-id="baccc-109">Você pode reverter cada transação de receita acumulada individualmente antes de criar a proposta de nota de crédito para a transação.</span><span class="sxs-lookup"><span data-stu-id="baccc-109">You can reverse each accrued revenue transaction individually before you create the credit note proposal for the transaction.</span></span> <span data-ttu-id="baccc-110">Esse é o método manual.</span><span class="sxs-lookup"><span data-stu-id="baccc-110">This is the manual method.</span></span> <span data-ttu-id="baccc-111">(manual)</span><span class="sxs-lookup"><span data-stu-id="baccc-111">(manual)</span></span>
+  - <span data-ttu-id="df602-109">Você pode reverter cada transação de receita acumulada individualmente antes de criar a proposta de nota de crédito para a transação.</span><span class="sxs-lookup"><span data-stu-id="df602-109">You can reverse each accrued revenue transaction individually before you create the credit note proposal for the transaction.</span></span> <span data-ttu-id="df602-110">Esse é o método manual.</span><span class="sxs-lookup"><span data-stu-id="df602-110">This is the manual method.</span></span> <span data-ttu-id="df602-111">(manual)</span><span class="sxs-lookup"><span data-stu-id="df602-111">(manual)</span></span>
 
-  - <span data-ttu-id="baccc-112">Você pode ter os valores acumulados revertidos na data em que a nota de crédito é lançada ou na data de lançamento original da competência.</span><span class="sxs-lookup"><span data-stu-id="baccc-112">You can have the accrued amounts reversed on the date where the credit note is posted or on the original posting date of the accrual.</span></span>
+  - <span data-ttu-id="df602-112">Você pode ter os valores acumulados revertidos na data em que a nota de crédito é lançada ou na data de lançamento original da competência.</span><span class="sxs-lookup"><span data-stu-id="df602-112">You can have the accrued amounts reversed on the date where the credit note is posted or on the original posting date of the accrual.</span></span>
 
-<span data-ttu-id="baccc-113">Para obter mais informações, consulte [Parâmetros de subscrição (formulário)](https://technet.microsoft.com/en-us/library/aa619615.aspx).</span><span class="sxs-lookup"><span data-stu-id="baccc-113">For more information, see [Subscription parameters (form)](https://technet.microsoft.com/en-us/library/aa619615.aspx).</span></span>
+<span data-ttu-id="df602-113">Para obter mais informações, consulte [Parâmetros de subscrição (formulário)](https://technet.microsoft.com/en-us/library/aa619615.aspx).</span><span class="sxs-lookup"><span data-stu-id="df602-113">For more information, see [Subscription parameters (form)](https://technet.microsoft.com/en-us/library/aa619615.aspx).</span></span>
 
-## <a name="setup-requirements"></a><span data-ttu-id="baccc-114">Requisitos de instalação</span><span class="sxs-lookup"><span data-stu-id="baccc-114">Setup requirements</span></span>
+## <a name="setup-requirements"></a><span data-ttu-id="df602-114">Requisitos de instalação</span><span class="sxs-lookup"><span data-stu-id="df602-114">Setup requirements</span></span>
 
-<span data-ttu-id="baccc-115">Para acumular receitas, verifique se os seguintes requisitos de dados são atendidos:</span><span class="sxs-lookup"><span data-stu-id="baccc-115">To accrue revenue, make sure that the following data requirements are met:</span></span>
+<span data-ttu-id="df602-115">Para acumular receitas, verifique se os seguintes requisitos de dados são atendidos:</span><span class="sxs-lookup"><span data-stu-id="df602-115">To accrue revenue, make sure that the following data requirements are met:</span></span>
 
-## <a name="account-setup"></a><span data-ttu-id="baccc-116">Configuração da conta</span><span class="sxs-lookup"><span data-stu-id="baccc-116">Account setup</span></span>
+## <a name="account-setup"></a><span data-ttu-id="df602-116">Configuração da conta</span><span class="sxs-lookup"><span data-stu-id="df602-116">Account setup</span></span>
 
-<span data-ttu-id="baccc-117">As contas **WIP - subscrição** e **Receita acumulada - subscrição** devem ser configuradas no módulo **Projeto**.</span><span class="sxs-lookup"><span data-stu-id="baccc-117">The **WIP - subscription** and the **Accrued revenue - subscription** accounts must be set up in the **Project** module.</span></span>
+<span data-ttu-id="df602-117">As contas **WIP - subscrição** e **Receita acumulada - subscrição** devem ser configuradas no módulo **Projeto**.</span><span class="sxs-lookup"><span data-stu-id="df602-117">The **WIP - subscription** and the **Accrued revenue - subscription** accounts must be set up in the **Project** module.</span></span>
 
-<span data-ttu-id="baccc-118">Quando você lança a receita acumulada, o valor da acumulação é debitado da conta **WIP - subscrição** e creditado na conta **Receita acumulada - Subscrição**.</span><span class="sxs-lookup"><span data-stu-id="baccc-118">When you post accrued revenue, the **WIP - subscription** account is debited with the accrual amount, and the **Accrued revenue - subscription** account is credited with the accrual amount.</span></span>
+<span data-ttu-id="df602-118">Quando você lança a receita acumulada, o valor da acumulação é debitado da conta **WIP - subscrição** e creditado na conta **Receita acumulada - Subscrição**.</span><span class="sxs-lookup"><span data-stu-id="df602-118">When you post accrued revenue, the **WIP - subscription** account is debited with the accrual amount, and the **Accrued revenue - subscription** account is credited with the accrual amount.</span></span>
 
-## <a name="set-up-accounts-for-accrual-of-subscription-revenue"></a><span data-ttu-id="baccc-119">Configurar contas para acumulação de receitas de subscrição</span><span class="sxs-lookup"><span data-stu-id="baccc-119">Set up accounts for accrual of subscription revenue</span></span>
+## <a name="set-up-accounts-for-accrual-of-subscription-revenue"></a><span data-ttu-id="df602-119">Configurar contas para acumulação de receitas de subscrição</span><span class="sxs-lookup"><span data-stu-id="df602-119">Set up accounts for accrual of subscription revenue</span></span>
 
-1.  <span data-ttu-id="baccc-120">Clique em **Gerenciamento e contabilidade de projeto** \> **Configuração** \> **Lançamento** \> **Configuração de lançamento contábil**.</span><span class="sxs-lookup"><span data-stu-id="baccc-120">Click **Project management and accounting** \> **Setup** \> **Posting** \> **Ledger posting setup**.</span></span>
+1.  <span data-ttu-id="df602-120">Clique em **Gerenciamento e contabilidade de projeto** \> **Configuração** \> **Lançamento** \> **Configuração de lançamento contábil**.</span><span class="sxs-lookup"><span data-stu-id="df602-120">Click **Project management and accounting** \> **Setup** \> **Posting** \> **Ledger posting setup**.</span></span>
 
-2.  <span data-ttu-id="baccc-121">Clique na guia **Contas de receita**, selecione **WIP - subscrição** ou **Receita acumulada - subscrição** para configurar as contas.</span><span class="sxs-lookup"><span data-stu-id="baccc-121">Click the **Revenue accounts** tab, and select **WIP - subscription** or **Accrued revenue - subscription** to set up the accounts.</span></span>
+2.  <span data-ttu-id="df602-121">Clique na guia **Contas de receita**, selecione **WIP - subscrição** ou **Receita acumulada - subscrição** para configurar as contas.</span><span class="sxs-lookup"><span data-stu-id="df602-121">Click the **Revenue accounts** tab, and select **WIP - subscription** or **Accrued revenue - subscription** to set up the accounts.</span></span>
 
-## <a name="subscription-group-setup"></a><span data-ttu-id="baccc-122">Configuração do grupo de subscrições</span><span class="sxs-lookup"><span data-stu-id="baccc-122">Subscription group setup</span></span>
+## <a name="subscription-group-setup"></a><span data-ttu-id="df602-122">Configuração do grupo de subscrições</span><span class="sxs-lookup"><span data-stu-id="df602-122">Subscription group setup</span></span>
 
-<span data-ttu-id="baccc-123">Para acumular receita de subscrições, a caixa de seleção **Acumular receita** deve ser marcada.</span><span class="sxs-lookup"><span data-stu-id="baccc-123">To be able to accrue revenue for subscriptions, the **Accrue revenue** check box must be selected.</span></span> <span data-ttu-id="baccc-124">Isso é encontrado no formulário **Grupos de subscrições** do grupo que está anexado à subscrição.</span><span class="sxs-lookup"><span data-stu-id="baccc-124">This is found on the **Subscription groups** form for the group that is attached to the subscription.</span></span> <span data-ttu-id="baccc-125">Clique em **Gerenciamento de serviço** \> **Configuração** \> **Subscrições de serviço** \> **Grupos de subscrições**.</span><span class="sxs-lookup"><span data-stu-id="baccc-125">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
+<span data-ttu-id="df602-123">Para acumular receita de subscrições, a caixa de seleção **Acumular receita** deve ser marcada.</span><span class="sxs-lookup"><span data-stu-id="df602-123">To be able to accrue revenue for subscriptions, the **Accrue revenue** check box must be selected.</span></span> <span data-ttu-id="df602-124">Isso é encontrado no formulário **Grupos de subscrições** do grupo que está anexado à subscrição.</span><span class="sxs-lookup"><span data-stu-id="df602-124">This is found on the **Subscription groups** form for the group that is attached to the subscription.</span></span> <span data-ttu-id="df602-125">Clique em **Gerenciamento de serviço** \> **Configuração** \> **Subscrições de serviço** \> **Grupos de subscrições**.</span><span class="sxs-lookup"><span data-stu-id="df602-125">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
 
-## <a name="enable-revenue-accrual-on-a-subscription-group"></a><span data-ttu-id="baccc-126">Habilitar acumulação de receita em um grupo de subscrições</span><span class="sxs-lookup"><span data-stu-id="baccc-126">Enable revenue accrual on a subscription group</span></span>
+## <a name="enable-revenue-accrual-on-a-subscription-group"></a><span data-ttu-id="df602-126">Habilitar acumulação de receita em um grupo de subscrições</span><span class="sxs-lookup"><span data-stu-id="df602-126">Enable revenue accrual on a subscription group</span></span>
 
-1.  <span data-ttu-id="baccc-127">Clique em **Gerenciamento de serviço** \> **Configuração** \> **Subscrições de serviço** \> **Grupos de subscrições**.</span><span class="sxs-lookup"><span data-stu-id="baccc-127">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
+1.  <span data-ttu-id="df602-127">Clique em **Gerenciamento de serviço** \> **Configuração** \> **Subscrições de serviço** \> **Grupos de subscrições**.</span><span class="sxs-lookup"><span data-stu-id="df602-127">Click **Service management** \> **Setup** \> **Service subscriptions** \> **Subscription groups**.</span></span>
 
-## <a name="periods"></a><span data-ttu-id="baccc-128">Períodos</span><span class="sxs-lookup"><span data-stu-id="baccc-128">Periods</span></span>
+## <a name="periods"></a><span data-ttu-id="df602-128">Períodos</span><span class="sxs-lookup"><span data-stu-id="df602-128">Periods</span></span>
 
-<span data-ttu-id="baccc-129">É necessário configurar um código de período de faturamento.</span><span class="sxs-lookup"><span data-stu-id="baccc-129">You must set up an invoicing period code.</span></span> <span data-ttu-id="baccc-130">A menos que você deseje acumular receitas nos mesmos intervalos de tempo usados no faturamento, também é necessário configurar um período de acúmulo.</span><span class="sxs-lookup"><span data-stu-id="baccc-130">Unless you want to accrue revenue in the same time intervals as you use for invoicing, you must also set up an accrual period.</span></span>
+<span data-ttu-id="df602-129">É necessário configurar um código de período de faturamento.</span><span class="sxs-lookup"><span data-stu-id="df602-129">You must set up an invoicing period code.</span></span> <span data-ttu-id="df602-130">A menos que você deseje acumular receitas nos mesmos intervalos de tempo usados no faturamento, também é necessário configurar um período de acúmulo.</span><span class="sxs-lookup"><span data-stu-id="df602-130">Unless you want to accrue revenue in the same time intervals as you use for invoicing, you must also set up an accrual period.</span></span>
 
-<span data-ttu-id="baccc-131">A seguinte tabela fornece uma visão geral dos períodos de acumulo que podem ser configurados para cada período de faturamento:</span><span class="sxs-lookup"><span data-stu-id="baccc-131">The following table provides an overview of which accrual periods can be set up for each invoicing period:</span></span>
+<span data-ttu-id="df602-131">A seguinte tabela fornece uma visão geral dos períodos de acumulo que podem ser configurados para cada período de faturamento:</span><span class="sxs-lookup"><span data-stu-id="df602-131">The following table provides an overview of which accrual periods can be set up for each invoicing period:</span></span>
 
 <table>
 <colgroup>
@@ -84,73 +83,72 @@ ms.lasthandoff: 08/07/2018
 </colgroup>
 <thead>
 <tr class="header">
-<th><p><span data-ttu-id="baccc-132">Período de faturamento</span><span class="sxs-lookup"><span data-stu-id="baccc-132">Invoicing period</span></span></p></th>
-<th><p><span data-ttu-id="baccc-133">Período de acumulação</span><span class="sxs-lookup"><span data-stu-id="baccc-133">Accrual period</span></span></p></th>
+<th><p><span data-ttu-id="df602-132">Período de faturamento</span><span class="sxs-lookup"><span data-stu-id="df602-132">Invoicing period</span></span></p></th>
+<th><p><span data-ttu-id="df602-133">Período de acumulação</span><span class="sxs-lookup"><span data-stu-id="df602-133">Accrual period</span></span></p></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><p><span data-ttu-id="baccc-134"><strong>Anos</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-134"><strong>Years</strong></span></span></p></td>
+<td><p><span data-ttu-id="df602-134"><strong>Anos</strong></span><span class="sxs-lookup"><span data-stu-id="df602-134"><strong>Years</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="baccc-135"><strong>Anos</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-135"><strong>Years</strong></span></span></p></li>
-<li><p><span data-ttu-id="baccc-136"><strong>Trimestre</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-136"><strong>Quarter</strong></span></span></p></li>
-<li><p><span data-ttu-id="baccc-137"><strong>Mês</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-137"><strong>Month</strong></span></span></p></li>
-<li><p><span data-ttu-id="baccc-138"><strong>Dia</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-138"><strong>Day</strong></span></span></p></li>
+<li><p><span data-ttu-id="df602-135"><strong>Anos</strong></span><span class="sxs-lookup"><span data-stu-id="df602-135"><strong>Years</strong></span></span></p></li>
+<li><p><span data-ttu-id="df602-136"><strong>Trimestre</strong></span><span class="sxs-lookup"><span data-stu-id="df602-136"><strong>Quarter</strong></span></span></p></li>
+<li><p><span data-ttu-id="df602-137"><strong>Mês</strong></span><span class="sxs-lookup"><span data-stu-id="df602-137"><strong>Month</strong></span></span></p></li>
+<li><p><span data-ttu-id="df602-138"><strong>Dia</strong></span><span class="sxs-lookup"><span data-stu-id="df602-138"><strong>Day</strong></span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="baccc-139"><strong>Trimestre</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-139"><strong>Quarter</strong></span></span></p></td>
+<td><p><span data-ttu-id="df602-139"><strong>Trimestre</strong></span><span class="sxs-lookup"><span data-stu-id="df602-139"><strong>Quarter</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="baccc-140"><strong>Trimestre</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-140"><strong>Quarter</strong></span></span></p></li>
-<li><p><span data-ttu-id="baccc-141"><strong>Mês</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-141"><strong>Month</strong></span></span></p></li>
-<li><p><span data-ttu-id="baccc-142"><strong>Dia</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-142"><strong>Day</strong></span></span></p></li>
+<li><p><span data-ttu-id="df602-140"><strong>Trimestre</strong></span><span class="sxs-lookup"><span data-stu-id="df602-140"><strong>Quarter</strong></span></span></p></li>
+<li><p><span data-ttu-id="df602-141"><strong>Mês</strong></span><span class="sxs-lookup"><span data-stu-id="df602-141"><strong>Month</strong></span></span></p></li>
+<li><p><span data-ttu-id="df602-142"><strong>Dia</strong></span><span class="sxs-lookup"><span data-stu-id="df602-142"><strong>Day</strong></span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="baccc-143"><strong>Mês</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-143"><strong>Month</strong></span></span></p></td>
+<td><p><span data-ttu-id="df602-143"><strong>Mês</strong></span><span class="sxs-lookup"><span data-stu-id="df602-143"><strong>Month</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="baccc-144"><strong>Mês</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-144"><strong>Month</strong></span></span></p></li>
-<li><p><span data-ttu-id="baccc-145"><strong>Dia</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-145"><strong>Day</strong></span></span></p></li>
+<li><p><span data-ttu-id="df602-144"><strong>Mês</strong></span><span class="sxs-lookup"><span data-stu-id="df602-144"><strong>Month</strong></span></span></p></li>
+<li><p><span data-ttu-id="df602-145"><strong>Dia</strong></span><span class="sxs-lookup"><span data-stu-id="df602-145"><strong>Day</strong></span></span></p></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><p><span data-ttu-id="baccc-146"><strong>Semana</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-146"><strong>Week</strong></span></span></p></td>
+<td><p><span data-ttu-id="df602-146"><strong>Semana</strong></span><span class="sxs-lookup"><span data-stu-id="df602-146"><strong>Week</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="baccc-147"><strong>Dia</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-147"><strong>Day</strong></span></span></p></li>
+<li><p><span data-ttu-id="df602-147"><strong>Dia</strong></span><span class="sxs-lookup"><span data-stu-id="df602-147"><strong>Day</strong></span></span></p></li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td><p><span data-ttu-id="baccc-148"><strong>Dia</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-148"><strong>Day</strong></span></span></p></td>
+<td><p><span data-ttu-id="df602-148"><strong>Dia</strong></span><span class="sxs-lookup"><span data-stu-id="df602-148"><strong>Day</strong></span></span></p></td>
 <td><ul>
-<li><p><span data-ttu-id="baccc-149"><strong>Dia</strong></span><span class="sxs-lookup"><span data-stu-id="baccc-149"><strong>Day</strong></span></span></p></li>
+<li><p><span data-ttu-id="df602-149"><strong>Dia</strong></span><span class="sxs-lookup"><span data-stu-id="df602-149"><strong>Day</strong></span></span></p></li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="baccc-150">Configurar o período de faturamento é uma parte obrigatória da configuração geral do grupo de subscrições.</span><span class="sxs-lookup"><span data-stu-id="baccc-150">Setting up the invoicing period is a mandatory part of the overall subscription group setup.</span></span> <span data-ttu-id="baccc-151">Você também pode optar por configurar um período de acúmulo para o grupo de subscrições.</span><span class="sxs-lookup"><span data-stu-id="baccc-151">You can decide whether to also set up an accrual period for the subscription group.</span></span> <span data-ttu-id="baccc-152">Se você configurar um período de acúmulo para o grupo de subscrições, esse período será sugerido no campo **Código de período**.</span><span class="sxs-lookup"><span data-stu-id="baccc-152">If you set up an accrual period for the subscription group, this period is suggested in the **Period code** field.</span></span> <span data-ttu-id="baccc-153">Esse campo é encontrado no formulário **Acumular receita de subscrição**, quando você acumula receita de subscrição.</span><span class="sxs-lookup"><span data-stu-id="baccc-153">This field is found in the **Accrue subscription revenue** form, when you accrue subscription revenue.</span></span> <span data-ttu-id="baccc-154">Entretanto, o período de acumulação é uma informação opcional sobre o grupo de subscrições.</span><span class="sxs-lookup"><span data-stu-id="baccc-154">However, the accrual period is optional information about the subscription group.</span></span>
+<span data-ttu-id="df602-150">Configurar o período de faturamento é uma parte obrigatória da configuração geral do grupo de subscrições.</span><span class="sxs-lookup"><span data-stu-id="df602-150">Setting up the invoicing period is a mandatory part of the overall subscription group setup.</span></span> <span data-ttu-id="df602-151">Você também pode optar por configurar um período de acúmulo para o grupo de subscrições.</span><span class="sxs-lookup"><span data-stu-id="df602-151">You can decide whether to also set up an accrual period for the subscription group.</span></span> <span data-ttu-id="df602-152">Se você configurar um período de acúmulo para o grupo de subscrições, esse período será sugerido no campo **Código de período**.</span><span class="sxs-lookup"><span data-stu-id="df602-152">If you set up an accrual period for the subscription group, this period is suggested in the **Period code** field.</span></span> <span data-ttu-id="df602-153">Esse campo é encontrado no formulário **Acumular receita de subscrição**, quando você acumula receita de subscrição.</span><span class="sxs-lookup"><span data-stu-id="df602-153">This field is found in the **Accrue subscription revenue** form, when you accrue subscription revenue.</span></span> <span data-ttu-id="df602-154">Entretanto, o período de acumulação é uma informação opcional sobre o grupo de subscrições.</span><span class="sxs-lookup"><span data-stu-id="df602-154">However, the accrual period is optional information about the subscription group.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="baccc-155">Use o seguinte caminho para abrir o formulário <STRONG>Acumular receita de subscrição</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="baccc-155">Use the following path to open the <STRONG>Accrue subscription revenue</STRONG> form.</span></span> <span data-ttu-id="baccc-156">Clique em <STRONG>Gerenciamento de serviço</STRONG> &gt; <STRONG>Periódico</STRONG> &gt; <STRONG>Subscrições de serviço</STRONG> &gt; <STRONG>Acumular receita de subscrição</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="baccc-156">Click <STRONG>Service management</STRONG> &gt; <STRONG>Periodic</STRONG> &gt; <STRONG>Service subscriptions</STRONG> &gt; <STRONG>Accrue subscription revenue</STRONG>.</span></span></P>
+> <P><span data-ttu-id="df602-155">Use o seguinte caminho para abrir o formulário <STRONG>Acumular receita de subscrição</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="df602-155">Use the following path to open the <STRONG>Accrue subscription revenue</STRONG> form.</span></span> <span data-ttu-id="df602-156">Clique em <STRONG>Gerenciamento de serviço</STRONG> &gt; <STRONG>Periódico</STRONG> &gt; <STRONG>Subscrições de serviço</STRONG> &gt; <STRONG>Acumular receita de subscrição</STRONG>.</span><span class="sxs-lookup"><span data-stu-id="df602-156">Click <STRONG>Service management</STRONG> &gt; <STRONG>Periodic</STRONG> &gt; <STRONG>Service subscriptions</STRONG> &gt; <STRONG>Accrue subscription revenue</STRONG>.</span></span></P>
 
 
-## <a name="transactions"></a><span data-ttu-id="baccc-157">Transações</span><span class="sxs-lookup"><span data-stu-id="baccc-157">Transactions</span></span>
+## <a name="transactions"></a><span data-ttu-id="df602-157">Transações</span><span class="sxs-lookup"><span data-stu-id="df602-157">Transactions</span></span>
 
-<span data-ttu-id="baccc-158">Você pode controlar o número de transações do razão que são criadas quando você lança a receita acumulada.</span><span class="sxs-lookup"><span data-stu-id="baccc-158">You can control the number of ledger transactions that are created when you post accrued revenue.</span></span> <span data-ttu-id="baccc-159">Em subscrições, defina se as transações do razão devem ser criadas como um total ou por linha.</span><span class="sxs-lookup"><span data-stu-id="baccc-159">On subscriptions, define if the ledger transactions should be created as a total or per line.</span></span>
+<span data-ttu-id="df602-158">Você pode controlar o número de transações do razão que são criadas quando você lança a receita acumulada.</span><span class="sxs-lookup"><span data-stu-id="df602-158">You can control the number of ledger transactions that are created when you post accrued revenue.</span></span> <span data-ttu-id="df602-159">Em subscrições, defina se as transações do razão devem ser criadas como um total ou por linha.</span><span class="sxs-lookup"><span data-stu-id="df602-159">On subscriptions, define if the ledger transactions should be created as a total or per line.</span></span>
 
-## <a name="specify-the-level-of-posting-details-to-display-for-accrued-transactions"></a><span data-ttu-id="baccc-160">Especificar o nível de detalhes de lançamento a serem exibidos para transações acumuladas</span><span class="sxs-lookup"><span data-stu-id="baccc-160">Specify the level of posting details to display for accrued transactions</span></span>
+## <a name="specify-the-level-of-posting-details-to-display-for-accrued-transactions"></a><span data-ttu-id="df602-160">Especificar o nível de detalhes de lançamento a serem exibidos para transações acumuladas</span><span class="sxs-lookup"><span data-stu-id="df602-160">Specify the level of posting details to display for accrued transactions</span></span>
 
-1.  <span data-ttu-id="baccc-161">Clique em **Gerenciamento e contabilidade de projetos** \> **Configurar** \> **Parâmetros de gerenciamento e contabilidade de projetos**.</span><span class="sxs-lookup"><span data-stu-id="baccc-161">Click **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.</span></span>
+1.  <span data-ttu-id="df602-161">Clique em **Gerenciamento e contabilidade de projetos** \> **Configurar** \> **Parâmetros de gerenciamento e contabilidade de projetos**.</span><span class="sxs-lookup"><span data-stu-id="df602-161">Click **Project management and accounting** \> **Setup** \> **Project management and accounting parameters**.</span></span>
 
-2.  <span data-ttu-id="baccc-162">Na guia **Financeiro**, no campo **Fatura**, selecione **Total** ou **Linha**.</span><span class="sxs-lookup"><span data-stu-id="baccc-162">On the **Financial** tab, in the **Invoice** field, select **Total** or **Line**.</span></span>
+2.  <span data-ttu-id="df602-162">Na guia **Financeiro**, no campo **Fatura**, selecione **Total** ou **Linha**.</span><span class="sxs-lookup"><span data-stu-id="df602-162">On the **Financial** tab, in the **Invoice** field, select **Total** or **Line**.</span></span>
 
 
-## <a name="see-also"></a><span data-ttu-id="baccc-163">Consulte também</span><span class="sxs-lookup"><span data-stu-id="baccc-163">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="df602-163">Consulte também</span><span class="sxs-lookup"><span data-stu-id="df602-163">See also</span></span>
 
-[<span data-ttu-id="baccc-164">Acumular receita de subscrição</span><span class="sxs-lookup"><span data-stu-id="baccc-164">Accrue subscription revenue</span></span>](accrue-subscription-revenue.md)
+[<span data-ttu-id="df602-164">Acumular receita de subscrição</span><span class="sxs-lookup"><span data-stu-id="df602-164">Accrue subscription revenue</span></span>](accrue-subscription-revenue.md)
 
   
-
 
 
