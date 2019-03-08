@@ -1,13 +1,13 @@
 ---
-title: "Monitorar precisão da previsão"
-description: "Este artigo descreve os tipos de precisão de previsão calculados pelo Microsoft Dynamics 365 for Finance and Operations e explica como é possível exibir os valores da precisão."
+title: Monitorar precisão da previsão
+description: Este artigo descreve os tipos de precisão de previsão calculados pelo Microsoft Dynamics 365 for Finance and Operations e explica como é possível exibir os valores da precisão.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanForecastDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,35 +19,33 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: d7070c15f9ee23cfdba871af68d1fc5954735651
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356406"
 ---
-
-# <a name="monitor-forecast-accuracy"></a><span data-ttu-id="581e3-103">Monitorar precisão da previsão</span><span class="sxs-lookup"><span data-stu-id="581e3-103">Monitor forecast accuracy</span></span>
+# <a name="monitor-forecast-accuracy"></a><span data-ttu-id="f69e2-103">Monitorar precisão da previsão</span><span class="sxs-lookup"><span data-stu-id="f69e2-103">Monitor forecast accuracy</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="581e3-104">Este artigo descreve os tipos de precisão de previsão calculados pelo Microsoft Dynamics 365 for Finance and Operations e explica como é possível exibir os valores da precisão.</span><span class="sxs-lookup"><span data-stu-id="581e3-104">This article describes the types of forecast accuracy that Microsoft Dynamics 365 for Finance and Operations calculates, and explains how you can view the accuracy values.</span></span>
+<span data-ttu-id="f69e2-104">Este artigo descreve os tipos de precisão de previsão calculados pelo Microsoft Dynamics 365 for Finance and Operations e explica como é possível exibir os valores da precisão.</span><span class="sxs-lookup"><span data-stu-id="f69e2-104">This article describes the types of forecast accuracy that Microsoft Dynamics 365 for Finance and Operations calculates, and explains how you can view the accuracy values.</span></span>
 
-<span data-ttu-id="581e3-105">O Finance and Operations calcula os seguintes tipos de precisão da previsão:</span><span class="sxs-lookup"><span data-stu-id="581e3-105">Finance and Operations calculates the following types of forecast accuracy:</span></span>
+<span data-ttu-id="f69e2-105">O Finance and Operations calcula os seguintes tipos de precisão da previsão:</span><span class="sxs-lookup"><span data-stu-id="f69e2-105">Finance and Operations calculates the following types of forecast accuracy:</span></span>
 
--   <span data-ttu-id="581e3-106">Precisão da previsão histórica, em comparação à previsão histórica que o Planejamento Mestre usa com a demanda histórica.</span><span class="sxs-lookup"><span data-stu-id="581e3-106">Historical forecast accuracy, by comparing the historical forecast that Master Planning uses with the historical demand.</span></span> <span data-ttu-id="581e3-107">Para exibir os valores (valores absolutos e valores percentuais) da precisão da previsão histórica, clique em **Mostrar precisão** na página **Detalhes de previsão de demanda**.</span><span class="sxs-lookup"><span data-stu-id="581e3-107">To view the values (both absolute values and percentage values) for historical forecast accuracy, click **Show accuracy** on the **Demand forecast details** page.</span></span>
--   <span data-ttu-id="581e3-108">A precisão estimada do módulo de previsão usado para gerar as previsões.</span><span class="sxs-lookup"><span data-stu-id="581e3-108">The estimated accuracy of the forecasting model that is used to generate the predictions.</span></span> <span data-ttu-id="581e3-109">Você pode exibir a porcentagem de precisão em **Detalhes do modelo - MAPE** na página **Detalhes de previsão de demanda**.</span><span class="sxs-lookup"><span data-stu-id="581e3-109">You can view the accuracy percentage under **Model details - MAPE** on the **Demand forecast details** page.</span></span> 
+-   <span data-ttu-id="f69e2-106">Precisão da previsão histórica, em comparação à previsão histórica que o Planejamento Mestre usa com a demanda histórica.</span><span class="sxs-lookup"><span data-stu-id="f69e2-106">Historical forecast accuracy, by comparing the historical forecast that Master Planning uses with the historical demand.</span></span> <span data-ttu-id="f69e2-107">Para exibir os valores (valores absolutos e valores percentuais) da precisão da previsão histórica, clique em **Mostrar precisão** na página **Detalhes de previsão de demanda**.</span><span class="sxs-lookup"><span data-stu-id="f69e2-107">To view the values (both absolute values and percentage values) for historical forecast accuracy, click **Show accuracy** on the **Demand forecast details** page.</span></span>
+-   <span data-ttu-id="f69e2-108">A precisão estimada do módulo de previsão usado para gerar as previsões.</span><span class="sxs-lookup"><span data-stu-id="f69e2-108">The estimated accuracy of the forecasting model that is used to generate the predictions.</span></span> <span data-ttu-id="f69e2-109">Você pode exibir a porcentagem de precisão em **Detalhes do modelo - MAPE** na página **Detalhes de previsão de demanda**.</span><span class="sxs-lookup"><span data-stu-id="f69e2-109">You can view the accuracy percentage under **Model details - MAPE** on the **Demand forecast details** page.</span></span> 
 
-<span data-ttu-id="581e3-110">**Observação:** se você usar o serviço de Aprendizado de Máquina do Microsoft Azure de previsão de demanda do Finance and Operations, o cálculo da precisão do modelo interno se baseará no conjunto de dados de teste.</span><span class="sxs-lookup"><span data-stu-id="581e3-110">**Note:** If you use the Finance and Operations Demand forecasting Microsoft Azure Machine Learning service, the calculation of internal model accuracy is based on the test data set.</span></span> <span data-ttu-id="581e3-111">Para especificar tamanho do conjunto de dados de teste, defina o parâmetro **TEST\_SET\_SIZE\_PERCENT** na página **Parâmetros de previsão de demanda**.</span><span class="sxs-lookup"><span data-stu-id="581e3-111">To specify the size of the test data set, set the **TEST\_SET\_SIZE\_PERCENT** parameter on the **Demand forecasting parameters** page.</span></span> <span data-ttu-id="581e3-112">Por exemplo, se você definir o valor como **20**, os últimos 20% dos dados históricos serão usado para calcular a precisão do modelo interno.</span><span class="sxs-lookup"><span data-stu-id="581e3-112">For example, if you set the value to **20**, the last 20 percent of the historical data will be used to calculate the internal model accuracy.</span></span>
+<span data-ttu-id="f69e2-110">**Observação:** se você usar o serviço de Aprendizado de Máquina do Microsoft Azure de previsão de demanda do Finance and Operations, o cálculo da precisão do modelo interno se baseará no conjunto de dados de teste.</span><span class="sxs-lookup"><span data-stu-id="f69e2-110">**Note:** If you use the Finance and Operations Demand forecasting Microsoft Azure Machine Learning service, the calculation of internal model accuracy is based on the test data set.</span></span> <span data-ttu-id="f69e2-111">Para especificar tamanho do conjunto de dados de teste, defina o parâmetro **TEST\_SET\_SIZE\_PERCENT** na página **Parâmetros de previsão de demanda**.</span><span class="sxs-lookup"><span data-stu-id="f69e2-111">To specify the size of the test data set, set the **TEST\_SET\_SIZE\_PERCENT** parameter on the **Demand forecasting parameters** page.</span></span> <span data-ttu-id="f69e2-112">Por exemplo, se você definir o valor como **20**, os últimos 20% dos dados históricos serão usado para calcular a precisão do modelo interno.</span><span class="sxs-lookup"><span data-stu-id="f69e2-112">For example, if you set the value to **20**, the last 20 percent of the historical data will be used to calculate the internal model accuracy.</span></span>
 
 
-<a name="additional-resources"></a><span data-ttu-id="581e3-113">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="581e3-113">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="f69e2-113">Recursos adicionais</span><span class="sxs-lookup"><span data-stu-id="f69e2-113">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="581e3-114">Autorizando a previsão ajustada</span><span class="sxs-lookup"><span data-stu-id="581e3-114">Authorizing the adjusted forecast</span></span>](authorize-adjusted-forecast.md)
+[<span data-ttu-id="f69e2-114">Autorizando a previsão ajustada</span><span class="sxs-lookup"><span data-stu-id="f69e2-114">Authorizing the adjusted forecast</span></span>](authorize-adjusted-forecast.md)
 
-[<span data-ttu-id="581e3-115">Remover exceções de dados históricos de transação ao calcular uma previsão de demanda</span><span class="sxs-lookup"><span data-stu-id="581e3-115">Remove outliers from historical transaction data when calculating a demand forecast</span></span>](remove-historical-outliers-calculating-demand-forecast.md)
-
+[<span data-ttu-id="f69e2-115">Remover exceções de dados históricos de transação ao calcular uma previsão de demanda</span><span class="sxs-lookup"><span data-stu-id="f69e2-115">Remove outliers from historical transaction data when calculating a demand forecast</span></span>](remove-historical-outliers-calculating-demand-forecast.md)
 
 
 
