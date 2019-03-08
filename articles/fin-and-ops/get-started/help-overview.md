@@ -1,13 +1,13 @@
 ---
 title: Sistema de ajuda do Finance and Operations
-description: "Este tópico fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations."
+description: Este tópico fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations.
 author: margoc
 manager: AnnBe
 ms.date: 11/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350725"
 ---
-
 # <a name="finance-and-operations-help-system"></a>Sistema de ajuda do Finance and Operations
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 12/18/2018
 Este tópico fornece uma visão geral dos componentes do sistema de ajuda do Microsoft Dynamics 365 for Finance and Operations.
 
 > [!NOTE]
-> Os produtos a seguir estão intimamente relacionados: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail e Dynamics 365 for Talent. Todos os 3 produtos podem conter a mesma funcionalidade. Como resultado, para tópicos relacionados principalmente a varejo, o nome do produto será Dynamics 365 for Retail; para tópicos relacionados principalmente a talentos, o nome do produto será Dynamics 365 for Talent; para tópicos relacionados ao produto principal, o nome do produto será Dynamics 365 for Finance and Operations. Os tópicos redigidos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
+> Estes três produtos estão estreitamente relacionados: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail e Dynamics 365 for Talent. Todos os 3 produtos podem conter a mesma funcionalidade. Como resultado, em tópicos relacionados principalmente ao Retail, o nome do produto será Dynamics 365 for Retail; em tópicos relacionados principalmente ao Talent, o nome do produto será Dynamics 365 for Talent; em tópicos relacionados ao produto core, o nome do produto será Dynamics 365 for Finance and Operations. Os tópicos redigidos para um produto podem se aplicar à mesma funcionalidade em um produto relacionado.
 
 O sistema de Ajuda é compartilhado pelos seguintes produtos:
 
@@ -60,7 +59,7 @@ O site docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operatio
 - **Acesso ao conteúdo mais atualizado**– O site fornece uma maneira mais rápida e flexível para criar, entregar e atualizar a documentação do produto. Portanto, ajuda a garantir que você tenha acesso às informações técnicas mais recentes.
 - **Conteúdo escrito por especialistas**– O site fornece um conjunto rico de documentação do produto que pode ser aprimorado por membros da comunidade tanto de dentro quanto de fora da Microsoft.
 - **Acesso aos diferentes tipos de conteúdo** – O site permite acessar rapidamente diferentes tipos de conteúdo sobre o Finance and Operations, como guias de tarefas, vídeos e tópicos.
-- **Conteúdo que oferece suporte aos seus processos comerciais**– O site inclui conteúdo focado em processo comercial que se aproveita do Modelador de Processo de Negócios (BPM) no Microsoft Dynamics Lifecycle Services (LCS).
+- **Conteúdo que oferece suporte aos seus processos comerciais** – O site inclui conteúdo focado em processo comercial que se aproveita do Modelador de Processo de Negócios (BPM) no Microsoft Dynamics Lifecycle Services (LCS).
 
 ### <a name="searching-on-docsmicrosoftcom"></a>Pesquisa em docs.microsoft.com
 
@@ -78,7 +77,7 @@ Para obter ajuda sobre outros produtos do Dynamics 365, você pode pesquisá-los
 
 ### <a name="use-an-rss-feed"></a>Use um feed RSS
 
-Para assinar um feed RSS de todas as atualizações do conteúdo de Operações Unificadas, use o seguinte link de um navegador com suporte a feeds RSS, como Internet Explorer, ou de um gerenciador de feed RSS:
+Para assinar um feed RSS de todas as atualizações do conteúdo de Operações Unificadas, use o seguinte link de um navegador com suporte a feeds RSS, como Internet Explorer ou de um gerenciador de feed RSS:
 
 [Feed RSS](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
@@ -194,10 +193,9 @@ A tabela a seguir lista nossos sites. Os sites que têm um asterisco (\*) ao lad
 |------------------------------------------------------------------------------------------------|-------------|
 | [Docs.microsoft.com](/dynamics365/)                                                            | Hospeda ou vincula-se a toda a documentação de produto para o Dynamics 365. |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Site de eLearning gratuito da Microsoft. |
-| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Fornece um espaço de trabalho colaborativo baseado em nuvem que clientes e parceiros podem utilizar para gerenciar projetos no Dynamics 365 for Finance and Operations desde pré-vendas até implementação e operações. Esse site é útil em todas as fases de uma implementação. |
-| [Blog de suporte](http://aka.ms/AXSupportBlog)                                                    | Fornece dicas e truques postados pela Equipe de suporte do Dynamics 365 for Finance and Operations. |
+| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | Fornece um espaço de trabalho de colaboração com base em nuvem, que os clientes e seus parceiros podem usar para gerenciar projetos do Dynamics 365 for Finance and Operations de pré-vendas para implementação e operações. Esse site é útil em todas as fases de uma implementação. |
+| [Blog de suporte](http://aka.ms/AXSupportBlog)                                                    | Fornece dicas e truques postadas pela Equipe de suporte do Dynamics 365 for Finance and Operations. |
 | [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | Hospeda conteúdo de versões anteriores. |
 | [Comunidade do Dynamics](https://community.dynamics.com/)                                          | Hospeda blogs, fóruns, e vídeos. |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | Fornece avaliação e informações de vendas. |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\*                                  | Hospeda alguns recursos de treinamento para o Finance and Operations, relatórios e white papers baixáveis, além de ser o principal site de suporte para titulares de plano de serviço. Pode exigir um plano de serviço para acessar alguns recursos do site. |
-

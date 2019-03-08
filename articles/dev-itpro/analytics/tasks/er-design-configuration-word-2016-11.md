@@ -1,13 +1,13 @@
---- 
-title: "Criar configurações de ER para gerar relatórios no formato do Word"
-description: "As seguintes etapas explicam como um usuário na função de administrador do sistema ou desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico para criar relatórios como arquivos do Microsoft Word."
+---
+title: Criar configurações de ER para gerar relatórios no formato do Word
+description: As etapas a seguir explicam como um usuário na função de administrador do sistema ou de desenvolvedor de relatórios eletrônicos pode configurar um formato de relatório eletrônico para gerar relatórios como arquivos do Microsoft Word.
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362340"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>Criar configurações de ER para gerar relatórios no formato do Word
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-As seguintes etapas explicam como um usuário na função de administrador do sistema ou desenvolvedor de relatório eletrônico pode configurar um formato de relatório eletrônico (ER) para criar relatórios como arquivos do Microsoft Word. Essas etapas podem ser executadas na empresa GBSI.
+As etapas a seguir explicam como um usuário na função de administrador do sistema ou de desenvolvedor de relatórios eletrônicos pode configurar um formato de relatório eletrônico (ER) para gerar relatórios como arquivos do Microsoft Word. Essas etapas podem ser executadas na empresa GBSI.
 
 Para completar essas etapas, você deve primeiro concluí-las na guia de tarefas "Criar uma configuração ER para gerar relatórios no formato OPENXML". Com antecedência, você também precisa baixar e salvar os seguintes modelos localmente para o modelo de relatório:
 
@@ -35,7 +35,7 @@ Para completar essas etapas, você deve primeiro concluí-las na guia de tarefas
 - [Modelo limitado de relatório de pagamento](https://go.microsoft.com/fwlink/?linkid=862266)
 
 
-Este procedimento é para um recurso que foi adicionado à versão 1611 do Microsoft Dynamics 365 for Operations.
+Este procedimento é para um recurso que foi adicionado na versão 1611 do Microsoft Dynamics 365 for Operations.
 
 
 ## <a name="select-the-existing-er-report-configuration"></a>Selecionar a configuração de relatório de ER existente
@@ -99,5 +99,4 @@ Este procedimento é para um recurso que foi adicionado à versão 1611 do Micro
 16. Clique em OK.
 17. Clique em OK.
     * Analise a saída gerada. Observe que a saída criada é apresentada no formato Word e contém os detalhes dos pagamentos processados.  
-
 

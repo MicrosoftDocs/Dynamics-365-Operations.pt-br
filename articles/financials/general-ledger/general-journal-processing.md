@@ -1,13 +1,13 @@
 ---
-title: "Processamento do diário geral"
-description: "Este tópico descreve os recursos do Microsoft Dynamics 365 for Finance and Operations que podem ajudar a facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido."
+title: Processamento do diário geral
+description: Este tópico descreve os recursos do Microsoft Dynamics 365 for Finance and Operations que podem ajudar a facilitar o processamento de diário geral e que também pode ajudar a garantir que os dados corretos são capturados e o controle interno não está comprometido.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
 ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358430"
 ---
-
 # <a name="general-journal-processing"></a>Processamento do diário geral
 
 [!include [banner](../includes/banner.md)]
@@ -97,4 +96,3 @@ Para obter mais informações, consulte os seguintes tópicos:
 Você pode encontrar **Simular lançamento** no menu **Validar** da maioria dos diários. Quando você validar um diário usando a função **Validar** , o sistema testa o lançamento para condições de erro específicas. Se você usar a função **Simular lançamento** , o sistema executa os mesmos processos realizados durante lançamento sem realmente lançar o diário. Você poderá revisar as mensagens de lançamentos que foram exibidas, corrigir os erros detectados e clicar no menu **Lançar** para lançar o diário. 
 
 **Simular lançamento** não está disponível para processamento em lotes. Porém, há um código disponível para simular o lançamento em lote e os desenvolvedores podem ampliar o código para adicionar essa funcionalidade.  
-

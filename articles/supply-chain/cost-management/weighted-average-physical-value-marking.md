@@ -1,13 +1,13 @@
 ---
-title: "Média ponderada com valor físico e marcação"
-description: "A média ponderada é um modelo de estoque com base no princípio da média ponderada, no qual as saídas do estoque são avaliadas no valor médio dos itens recebidos no estoque durante o período de fechamento de estoque, mais qualquer estoque disponível do período anterior."
+title: Média ponderada com valor físico e marcação
+description: A média ponderada é um modelo de estoque com base no princípio da média ponderada, no qual as saídas do estoque são avaliadas no valor médio dos itens recebidos no estoque durante o período de fechamento de estoque, mais qualquer estoque disponível do período anterior.
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc70b9cffd8716bc1d90cdb611076b4fc0bf6b30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355670"
 ---
-
 # <a name="weighted-average-with-physical-value-and-marking"></a>Média ponderada com valor físico e marcação
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,7 @@ O diagrama a seguir ilustra essa série de transações com os efeitos de escolh
 - As transações de estoque são representadas por setas verticais.
 - Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
 - Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantity@Unitprice.
+- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato de quantidade x preço unitário.
 - Um valor de transação de estoque envolvido por colchetes indica que a transação de estoque é lançada fisicamente no estoque.
 - Um valor de transação de estoque sem colchetes indica que a transação de estoque é lançada financeiramente no estoque.
 - Cada nova transação de recebimento ou saída é designada com uma nova etiqueta.
@@ -111,7 +110,7 @@ O diagrama a seguir ilustra essa série de transações com os efeitos de escolh
 - As transações de estoque são representadas por setas verticais.
 - Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
 - Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantity@Unitprice.
+- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato de quantidade x preço unitário.
 - Um valor de transação de estoque envolvido por colchetes indica que a transação de estoque é lançada fisicamente no estoque.
 - Um valor de transação de estoque sem colchetes indica que a transação de estoque é lançada financeiramente no estoque.
 - Cada nova transação de recebimento ou saída é designada com uma nova etiqueta.
@@ -140,7 +139,7 @@ O diagrama a seguir ilustra essa série de transações com os efeitos de escolh
 - As transações de estoque são representadas por setas verticais.
 - Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
 - Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantity@Unitprice.
+- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato de quantidade x preço unitário.
 - Um valor de transação de estoque envolvido por colchetes indica que a transação de estoque é lançada fisicamente no estoque.
 - Um valor de transação de estoque sem colchetes indica que a transação de estoque é lançada financeiramente no estoque.
 - Cada nova transação de recebimento ou saída é designada com uma nova etiqueta.
@@ -173,7 +172,7 @@ O diagrama a seguir ilustra essa série de transações com os efeitos de escolh
 - As transações de estoque são representadas por setas verticais.
 - Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
 - Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantity@Unitprice.
+- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato de quantidade x preço unitário.
 - Um valor de transação de estoque envolvido por colchetes indica que a transação de estoque é lançada fisicamente no estoque.
 - Um valor de transação de estoque sem colchetes indica que a transação de estoque é lançada financeiramente no estoque.
 - Cada nova transação de recebimento ou saída é designada com uma nova etiqueta.
@@ -221,14 +220,13 @@ O diagrama a seguir ilustra essa série de transações com os efeitos de escolh
 - As transações de estoque são representadas por setas verticais.
 - Os recebimentos no estoque são representados por setas verticais sobre a linha do tempo.
 - Saídas fora do estoque são representadas por setas verticais abaixo da linha do tempo.
-- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato Quantidade@"Unitprice".
+- Acima (ou abaixo) de cada seta vertical, o valor da transação de estoque é especificado no formato quantidade x preço unitário.
 - Um valor de transação de estoque envolvido por colchetes indica que a transação de estoque é lançada fisicamente no estoque.
 - Um valor de transação de estoque sem colchetes indica que a transação de estoque é lançada financeiramente no estoque.
 - Cada nova transação de recebimento ou saída é designada com uma nova etiqueta.
 - Cada seta vertical é rotulada com um identificador seqüencial, como *1a*. Os identificadores indicam a seqüência de lançamentos de transação de estoque na linha do tempo.
 - Os fechamentos de estoque são representados por uma linha tracejada vertical vermelha e a etiqueta Fechamento de Estoque.
 - As liquidações executadas pelo fechamento de estoque são representadas por setas vermelhas pontilhadas na diagonal de um recebimento para uma saída.
-
 
 
 

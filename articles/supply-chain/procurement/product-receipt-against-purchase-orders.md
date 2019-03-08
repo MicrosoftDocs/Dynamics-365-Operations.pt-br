@@ -1,13 +1,13 @@
 ---
-title: "​Recebimento de produtos contra ordens de compra​"
-description: "Este tópico descreve as diversas opções para registrar produtos como recebido."
+title: ​Recebimento de produtos contra ordens de compra​
+description: Este tópico descreve as diversas opções para registrar produtos como recebido.
 author: FrankDahl
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
 ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356659"
 ---
-
 # <a name="product-receipt-against-purchase-orders"></a>​Recebimento de produtos contra ordens de compra​
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,6 @@ Você pode acessar esta página a partir do grupo de ação **Recebimento** na p
 [Confirmação e aprovação da ordem de compra](purchase-order-approval-confirmation.md)
 
 [Visão geral de faturas de fornecedor](../../financials/accounts-payable/vendor-invoices-overview.md)
-
 
 
 

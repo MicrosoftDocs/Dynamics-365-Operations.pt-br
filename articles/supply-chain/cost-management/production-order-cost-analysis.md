@@ -1,13 +1,13 @@
 ---
-title: "Análise de custo da ordem de produção"
-description: "Este artigo oferece informações sobre a análise de custo que você pode fazer para as ordens de produção concluídas e atuais. Você pode analisar os custos estimados e os custos reais usando a página Cálculo de preço ou o relatório Estimativas de custo e avaliações de custo. É possível visualizar as informações sobre os custos estimados e reais (incluindo a quantidade) para cada item de componente, operação de roteiro e custo indireto."
+title: Análise de custo da ordem de produção
+description: Este artigo oferece informações sobre a análise de custo que você pode fazer para as ordens de produção concluídas e atuais. Você pode analisar os custos estimados e os custos reais usando a página Cálculo de preço ou o relatório Estimativas de custo e avaliações de custo. É possível visualizar as informações sobre os custos estimados e reais (incluindo a quantidade) para cada item de componente, operação de roteiro e custo indireto.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f027d6521d5f57a7e2d2cac1bed8dc08ae9f20f1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 40ac5108216fd6d9eb5cd6e76fefd66828a7da84
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353554"
 ---
-
 # <a name="production-order-cost-analysis"></a>Análise de custo da ordem de produção
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ Relatórios separados fornecem informações sobre cada tipo de transação. Use
 --------
 
 [Fontes comuns de variações de produção](common-sources-of-production-variances.md)
-
 
 
 

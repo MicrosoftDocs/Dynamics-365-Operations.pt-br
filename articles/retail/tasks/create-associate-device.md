@@ -1,13 +1,13 @@
---- 
+---
 title: Criar e associar um dispositivo
-description: "Este procedimento orienta como criar um novo dispositivo e associá-lo a um registro."
+description: Este procedimento orienta como criar um novo dispositivo e associá-lo a um registro.
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailDevice
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: bb199c9d7cf75827445be4aa8a18cc68698b027c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 19be7c38e9612b54fe56ef6e0fd942587dd64a69
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354037"
 ---
 # <a name="create-and-associate-a-device"></a>Criar e associar um dispositivo
 
@@ -40,5 +40,4 @@ Este procedimento orienta como criar um novo dispositivo e associá-lo a um regi
 8. Na lista, localize e selecione o registro desejado.
 9. Na lista, clique no link na linha selecionada.
 10. Clique em Salvar.
-
 

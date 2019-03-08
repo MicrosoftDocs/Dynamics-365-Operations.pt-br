@@ -1,13 +1,13 @@
 ---
-title: "Trabalhos de importação e exportação de dados"
-description: "Use o espaço de trabalho de gerenciamento de dados para criar e gerenciar trabalhos de importação e de exportação de dados."
+title: Trabalhos de importação e exportação de dados
+description: Use o espaço de trabalho de gerenciamento de dados para criar e gerenciar trabalhos de importação e de exportação de dados.
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360201"
 ---
-
 # <a name="data-import-and-export-jobs"></a>Trabalhos de importação e exportação de dados
 
 [!include [banner](../includes/banner.md)]
 
-Para criar e gerenciar trabalhos de importação e de exportação de dados no Microsoft Dynamics 365 for Finance and Operations use o espaço de trabalho **Gerenciamento de dados**. Por padrão, o processo de importação e exportação criar uma tabela de preparo para cada entidade no banco de dados de destino. As tabelas de preparo permitem verificar, limpar ou converter dados antes de movê-los.
+Para criar e gerenciar trabalhos de importação e de exportação de dados no Microsoft Dynamics 365 for Finance and Operations, use o espaço de trabalho **Gerenciamento de dados**. Por padrão, o processo de importação e exportação criar uma tabela de preparo para cada entidade no banco de dados de destino. As tabelas de preparo permitem verificar, limpar ou converter dados antes de movê-los.
 
 > [!NOTE]
 > Este tópico pressupõe que você está familiarizado com as [entidades de dados](data-entities.md).
@@ -158,4 +157,3 @@ Você pode limpar as tabelas de preparo usando o recurso **Limpeza de preparo** 
 - **Projetos de dados** – Se apenas um projeto de dados for selecionado, todos os registros de todas as entidades e em todos os trabalhos do projeto de dados selecionado serão excluídos.
 
 Você também pode combinar as opções para restringir mais o conjunto de registros que foi excluído.
-

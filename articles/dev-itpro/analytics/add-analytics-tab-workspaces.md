@@ -1,13 +1,13 @@
 ---
-title: "Adicionar análise a espaços de trabalho usando o Power BI Embedded"
-description: "Este tópico mostra como incorporar um relatório do Power BI na guia Análise de um espaço de trabalho."
+title: Adicionar análise a espaços de trabalho usando o Power BI Embedded
+description: Este tópico mostra como incorporar um relatório do Power BI na guia Análise de um espaço de trabalho.
 author: tjvass
 manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -15,27 +15,26 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355210"
 ---
-
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>Adicionar análise a espaços de trabalho usando o Power BI Embedded
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> Esse recurso é compatível com o Dynamics 365 for Finance and Operations (versão 7.2 e posterior).
+> Este recurso tem suporte no Dynamics 365 for Finance and Operations (versões 7.2 e posterior).
 
 ## <a name="introduction"></a>Introdução
 Este tópico mostra como incorporar um relatório do Microsoft Power BI na guia **Análise** de um espaço de trabalho. No exemplo dado aqui, estenderemos o espaço de trabalho **Gerenciamento de reservas** no aplicativo de Gerenciamento de Frota para incorporar um espaço de trabalho analítico em uma guia **Análise**.
 
 ## <a name="prerequisites"></a>Pré-requisitos
 + Acesso a um ambiente de desenvolvedor que executa a atualização 8 da plataforma ou posterior.
-+ Um relatório analítico (.pbix file) que foi criado por meio da área de trabalho do Microsoft Power BI e que apresenta um modelo de dados com origem no banco de dados de loja Entidade.
++ Um relatório analítico (.pbix file) que foi criado por meio usando o Microsoft Power BI Desktop e que apresenta um modelo de dados com origem no banco de dados do Repositório de entidades.
 
 ## <a name="overview"></a>Visão Geral
 Se você estender um espaço de trabalho de aplicativo existente ou introduzir seu próprio espaço de trabalho, é possível usar exibições analíticas incorporadas para fornecer exibições intuitivas e interativas de seus dados comerciais. O processo para adicionar uma guia de espaço de trabalho analítico apresenta quatro etapas.
@@ -46,10 +45,10 @@ Se você estender um espaço de trabalho de aplicativo existente ou introduzir s
 4. Opcional: adicione extensões para personalizar a exibição.
 
 > [!NOTE]
-> Para obter informações sobre como criar relatórios analíticos, consulte [Introdução à área de trabalho do Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Esta página é um grande recurso para informações que podem ajudar a criar soluções de relatório analítico atrativas.
+> Para obter informações sobre como criar relatórios analíticos, consulte [Introdução ao Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/). Esta página é um grande recurso para informações que podem ajudar a criar soluções de relatório analítico atrativas.
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>Adicionar um arquivo .pbix como um recurso
-Antes de começar, é preciso criar ou obter o relatório do Power BI que será incorporado no espaço de trabalho. Para obter informações sobre como criar relatórios analíticos, consulte [Introdução à área de trabalho do Power BI](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
+Antes de começar, é preciso criar ou obter o relatório do Power BI que será incorporado no espaço de trabalho. Para obter informações sobre como criar relatórios analíticos, consulte [Introdução ao Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).
 
 Siga essas etapas para adicionar um arquivo .pbix como um artefato de projetos do Visual Studio.
 
@@ -154,7 +153,7 @@ Agora você já concluiu a tarefa de adicionar a lógica comercial para iniciali
 ## <a name="reference"></a>Demonstrativo
 
 ### <a name="pbireporthelperinitializereportcontrol-method"></a>Método PBIReportHelper.initializeReportControl
-Esta seção fornece informações sobre a classe auxiliar usada para incorporar um relatório do Power BI (recurso .pbix) em um controle de grupo de formulário.
+Esta seção fornece informações sobre a classe auxiliar usada para incorporar um relatório do Power BI (recurso .pbix) em um controle de grupo de formulários.
 
 #### <a name="syntax"></a>Sintaxe
 ```
@@ -177,4 +176,3 @@ public static void initializeReportControl(
 | showFilterPane   | Um valor booliano que indica se o painel de filtros deve ser mostrado (**true**) ou ocultado (**false**).     |
 | showNavPane      | Um valor booliano que indica se o painel de navegação deve ser mostrado (**true**) ou ocultado (**false**). |
 | defaultFilters   | Os filtros padrão para o relatório do Power BI.                                                                 |
-

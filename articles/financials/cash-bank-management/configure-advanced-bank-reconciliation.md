@@ -1,13 +1,13 @@
 ---
-title: "Processo de configuração de reconciliação bancária avançada"
-description: "A Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias no Microsoft Dynamics 365 for Finance and Operations.  Este artigo irá explicar o processo de configuração da reconciliação."
+title: Processo de configuração de reconciliação bancária avançada
+description: A reconciliação bancária avançada permite importar extratos bancários eletrônicos e reconciliá-los automaticamente com transações bancárias no Microsoft Dynamics 365 for Finance and Operations.  Este artigo irá explicar o processo de configuração da reconciliação.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c95589b013b569f15fce80612a11eca621944f6b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
-ms.contentlocale: pt-br
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357326"
 ---
-
 # <a name="advanced-bank-reconciliation-setup-process"></a>Processo de configuração de reconciliação bancária avançada
 
 [!include [banner](../includes/banner.md)]
 
-A Reconciliação bancária avançada permite que você importe extratos bancários eletrônicos e os reconcilie automaticamente com as transações bancárias no Microsoft Dynamics 365 for Finance and Operations.  Este artigo irá explicar o processo de configuração da reconciliação.  
+A reconciliação bancária avançada permite importar extratos bancários eletrônicos e reconciliá-los automaticamente com transações bancárias no Microsoft Dynamics 365 for Finance and Operations.  Este artigo irá explicar o processo de configuração da reconciliação.  
 
 Existem diversas partes que devem ser configuradas antes que a funcionalidade de reconciliação bancária avançada seja utilizada. Para obter mais informações sobre como configurar a importação de extrato bancário, consulte [Configurar o processo de importação de extratos bancários](set-up-advanced-bank-reconciliation-import-process.md).  Os requisitos para configurar o processo de reconciliação estão detalhados abaixo.
 
@@ -59,7 +58,6 @@ A funcionalidade **Utilize extratos bancários como confirmação de pagamentos 
 O campo **Nome da conta bancária em extratos** é o nome usado para a conta bancária em seus extratos bancários eletrônicos.  Esse nome é usado ao determinar quais transações importar, para uma conta bancária, de um extrato que pode conter informação de múltiplas contas bancárias. 
 
 A opção de **Reconciliar após a importação** validará automaticamente o extrato bancário, criará uma nova reconciliação bancária e planilha e executará o conjunto de regras de correspondência padrão.  Essa funcionalidade automatiza o processo até o ponto em que as transações precisam ser combinadas manualmente.  A configuração da conta bancária será padrão durante a importação.
-
 
 
 

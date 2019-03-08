@@ -1,32 +1,31 @@
 ---
-title: "Política de acúmulo de custos e cálculo de custos indiretos"
-description: "Este tópico fornece informações sobre como determinar o nível correto de elementos de custo secunDiários e criar regras de acúmulo de custo que se ajustem no relatório da organização e na rastreabilidade de custo."
+title: Política de acúmulo de custos e cálculo de custos indiretos
+description: Este tópico fornece informações sobre como determinar o nível correto de elementos de custo secunDiários e criar regras de acúmulo de custo que se ajustem no relatório da organização e na rastreabilidade de custo.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e809cb2cadadc623134805e028de7f2e64dd662f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356130"
 ---
-
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>Política de acúmulo de custos e cálculo de custos indiretos 
 
 [!include [banner](../includes/banner.md)]
@@ -251,13 +250,13 @@ A página **Detalhes da entrada de diário de saldo de custo do objeto de custo*
 | CC003       | Montagem     | SC-CC002 | Finanças         | 11.527,75   | 31/01/2017 |
 | CC004       | Embalagem    | SC-CC002 | Finanças         | 6.207,25    | 31/01/2017 |
 
-Depois que o **Cálculo de custos indiretos** for concluído, você pode relatar os resultados usando as ferramentas como Microsoft SharePoint Workspace, Excel ou Power BI.
+Depois que o **Cálculo de custos indiretos** for concluído, você poderá informar os resultados usando ferramentas como o Microsoft SharePoint Workspace, o Excel ou o Power BI.
 
 ## <a name="view-reporting-in-excel"></a>Exibir relatório no Excel 
 
 As hierarquias da dimensão permitem que você exiba os dados em diferentes níveis de agregação.
 
-Aqui está um exemplo de relatório PowerPivot no Excel.
+Este é um exemplo de relatório do Power Pivot no Excel.
 
 | **Demonstrativo de lucros e perdas** | **Objeto de custo** |                |               |               |  **Total**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
@@ -302,4 +301,3 @@ A separação clara entre **Alocação de custo** e **Políticas de acúmulo de 
 -  [Dimensões do elemento de custo](cost-elements.md)
 -  [Hierarquias de dimensões](dimension-hierarchy.md)
 -  [Cálculo de custos indiretos](overhead-calculation.md)
-

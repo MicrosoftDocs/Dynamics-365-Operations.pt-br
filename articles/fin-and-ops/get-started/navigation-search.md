@@ -1,13 +1,13 @@
 ---
-title: "Pesquisa de navegação"
-description: "Este tópico explica como usar a funcionalidade de pesquisa para navegar para páginas no Microsoft Dynamics 365 for Finance and Operations."
+title: Pesquisa de navegação
+description: Este tópico explica como usar a funcionalidade de pesquisa para navegar até páginas do Microsoft Dynamics 365 for Finance and Operations.
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7c05098815c6b330cbb9c7f5ce886779927c6804
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353002"
 ---
-
 # <a name="navigation-search"></a>Pesquisa de navegação
 
 [!include [banner](../includes/banner.md)]
 
-Este tópico explica como usar a funcionalidade de pesquisa para navegar para páginas no Microsoft Dynamics 365 for Finance and Operations.
+Este tópico explica como usar a funcionalidade de pesquisa para navegar até páginas do Microsoft Dynamics 365 for Finance and Operations.
 
 O Finance and Operations fornece recursos para um vasto leque de indústrias e segmentos verticais. O aplicativo inclui várias áreas e páginas para ajudá-lo a executar várias tarefas. Para localizar rapidamente páginas que você precisa para concluir as tarefas, use a funcionalidade de pesquisa de navegação.
 
@@ -64,4 +63,3 @@ A lista de resultados de pesquisa é limitada a 10 itens. Se você não encontra
 ## <a name="development"></a>Desenvolvimento
 
 De uma perspectiva de desenvolvimento, é muito fácil tirar proveito do recurso de pesquisa de navegação, porque não há praticamente nenhum atraso entre a implantação dos itens de menu e a capacidade aparecer nos resultados da pesquisa. À medida que os itens de menu são vinculados ao painel de navegação ou painel de controle, eles se tornam automaticamente pesquisáveis.
-

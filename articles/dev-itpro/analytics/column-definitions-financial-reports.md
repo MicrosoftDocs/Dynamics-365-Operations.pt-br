@@ -1,13 +1,13 @@
 ---
-title: "Definições de coluna nos relatórios financeiros"
-description: "Este artigo fornece informações sobre definições de coluna. Uma definição de coluna é um componente de relatório, ou um bloco de construção, que define o conteúdo das colunas em um relatório. Assim como as definições de linha, as definições básicas de coluna podem ser usadas em vários relatórios."
+title: Definições de coluna nos relatórios financeiros
+description: Este artigo fornece informações sobre definições de coluna. Uma definição de coluna é um componente de relatório, ou um bloco de construção, que define o conteúdo das colunas em um relatório. Assim como as definições de linha, as definições básicas de coluna podem ser usadas em vários relatórios.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356337"
 ---
-
 # <a name="column-definitions-in-financial-reports"></a>Definições de coluna nos relatórios financeiros
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,7 @@ Uma definição de coluna pode conter duas a 255 colunas.
 Uma definição de coluna inclui as seguintes informações:
 
 - Uma coluna das descrições da definição de linha
-- Valor das colunas que exibem dados financeiros, de uma planilha do Excel ou os cálculos que são baseados em outros dados na definição de coluna.
+- Colunas de valores que mostram dados financeiros, de uma planilha do Microsoft Excel ou cálculos que são baseados em outros dados na definição de coluna.
 - Colunas de formatação
 - Colunas de atributos
 
@@ -121,7 +120,7 @@ A tabela a seguir descreve os códigos de restrição de colunas.
 | ADJ                     | Restringe os valores na coluna para excluir os valores de ajuste de período, se esses valores estiverem disponíveis. |
 | XAD                     | Restringe os valores na coluna para excluir os valores de ajuste de período. |
 | PT                      | Restringe os valores na coluna, para que apenas transações lançadas sejam incluídas, se essas transações estiverem disponíveis. |
-| UPT                     | Restringe os valores na coluna, para que apenas transações não lançadas sejam incluídas, se essas transações estiverem disponíveis.<blockquote>[!NOTE] Nem todos os fornecedores de dados oferecem suporte a transações não lançadas. Para obter mais informações, consulte o <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>guia de integração de dados</a> do seu sistema ERP do Microsoft Dynamics.</blockquote> |
+| UPT                     | Restringe os valores na coluna, para que apenas transações não lançadas sejam incluídas, se essas transações estiverem disponíveis.<blockquote>[!NOTE] Nem todos os fornecedores de dados oferecem suporte a transações não lançadas. Para obter mais informações, consulte o <a href='http://go.microsoft.com/fwlink/?LinkID=162565'>guia de integração de dados</a> de seu sistema ERP Microsoft Dynamics.</blockquote> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>Restringir uma coluna a uma unidade organizacional
 
@@ -171,28 +170,28 @@ Você pode usar a caixa de diálogo **Cabeçalho da coluna** para adicionar, mod
 
 ### <a name="create-an-automatically-generated-header"></a>Criar uma cabeçalho gerado automaticamente
 
-O designer de relatórios pode gerar automaticamente cabeçalhos de coluna, com base em códigos de AutoTexto. Os códigos de Autotexto são variáveis atualizadas sempre que um relatório é gerado. Qualquer cabeçalho de coluna pode incluir esses códigos para especificar informações, como número de data ou do período, que podem variar para os relatórios. Consequentemente, você pode usar uma definição de coluna para várias definições de relatório, períodos de tempo hierarquias organizacionais. Como os códigos de AutoTexto dependem de informações do calendário das linhas de detalhe da coluna de definição, eles são compatíveis apenas para as colunas **CALC**, **FD** e **WKS**. A maneira que um código de autotexto é exibida na célula do cabeçalho da coluna afeta como essas informações são exibidas no relatório. Na caixa de diálogo **Cabeçalho de coluna**, os códigos de AutoTexto aparecem em letras maiúsculas e minúsculas. Portanto, o texto aparece em letras maiúsculas e minúsculas no relatório. Por exemplo, em um ano civil padrão, **@CalMonthLong** converte o mês **7** em **julho**. Se o nome do mês precisa estar em caixa alta (por exemplo, **JULHO**), insira o código de AutoTexto em caracteres minúsculos no campo **Texto do cabeçalho da coluna**. Por exemplo, insira **@CALMONTHLONG**. Você pode combinar código e texto. Por exemplo, você insere o seguinte texto de cabeçalho: **Período @FiscalPeriod-@FiscalYear de @StartDate a @EndDate**. O título do relatório que é gerado se parece com o seguinte texto: **Período 1-02 de 01/01/02 a 31/01/02**.
+O designer de relatórios pode gerar automaticamente cabeçalhos de coluna, com base em códigos de AutoTexto. Os códigos de Autotexto são variáveis atualizadas sempre que um relatório é gerado. Qualquer cabeçalho de coluna pode incluir esses códigos para especificar informações, como número de data ou do período, que podem variar para os relatórios. Consequentemente, você pode usar uma definição de coluna para várias definições de relatório, períodos de tempo hierarquias organizacionais. Como os códigos de AutoTexto dependem de informações do calendário das linhas de detalhe da coluna de definição, eles são compatíveis apenas para as colunas **CALC**, **FD** e **WKS**. A maneira que um código de autotexto é exibida na célula do cabeçalho da coluna afeta como essas informações são exibidas no relatório. Na caixa de diálogo **Cabeçalho de coluna**, os códigos de AutoTexto aparecem em letras maiúsculas e minúsculas. Consequentemente, o texto será exibido em minúscula no relatório. Por exemplo, em um ano civil padrão, **@CalMonthLong** converte o mês **7** em **julho**. Se o nome do mês precisar estar em maiúscula (por exemplo **JULHO**), insira o código do autotexto em caracteres maiúsculos no campo **Texto do cabeçalho da coluna**. Por exemplo, insira **@CALMONTHLONG**. Você pode misturar códigos e texto. Por exemplo, você insere o seguinte texto de cabeçalho: **Period @FiscalPeriod-@FiscalYear de @StartDate para @EndDate**. O título do relatório que é gerado se parece com o seguinte texto: **Período 1-02 de 01/01/02 a 31/01/02**.
 
 > [!NOTE]
-> O formato de alguns textos, como o de data completa, depende das configurações regionais no servidor do Finance and Operations. Para alterar essas configurações, clique no botão **Início**, em **Painel de controle** e depois em **Região e idioma**. A seguinte tabela lista as opções de AutoTexto disponíveis para cabeçalhos de coluna.
+> O formato de alguns textos, como o de data completa, depende das configurações regionais no servidor do Finance and Operations. Para alterar essas configurações, clique no botão **Início**, em **Painel de controle** e depois em **Região e idioma**. A tabela a seguir lista as opções disponíveis de autotexto para cabeçalhos da coluna.
 
 
-| Opção e código de AutoTexto                | descrição |
+| Opção e código de AutoTexto                | Descrição |
 |-----------------------------------------|-------------|
-| Nome do mês (@CalMonthLong)              | Imprima o nome do mês atual no cabeçalho da coluna. Se optar por arredondar os valores no relatório para milhares, milhões ou bilhões, ou se definir o tamanho da coluna no relatório para menos do que nove caracteres, o nome do mês será abreviado para os três primeiros caracteres. |
-| Nome abreviado do mês (@CalMonthShort) | Imprima o nome abreviado do mês para o período fiscal selecionado. |
-| Número do período (@FiscalPeriod)           | Imprima a forma numérica do período fiscal que é identificado para essa coluna. Se a coluna compreender vários períodos, o último período no intervalo será impresso. |
-| Descrição do período (@FiscalPeriodName)  | Imprima a descrição do período fiscal que é identificada nos dados financeiros. |
-| Ano Fiscal (@FiscalYear)               | Imprima o ano fiscal da coluna em formato numérico. |
-| Ano civil (@CalYear)                | Imprima o ano civil da coluna em formato numérico. |
-| Data inicial (@StartDate)                 | Imprima a data inicial da coluna. |
-| Data final (@EndDate)                     | Imprima a data final da coluna. |
-| Nome da unidade da árvore (@UnitName)         | Se restringir uma coluna a uma unidade específica da árvore de relatório, imprima o nome da unidade no cabeçalho da coluna. |
-| Descrição da unidade (@UnitDesc)            | Se restringir uma coluna a uma unidade específica da árvore de relatório, imprima a descrição da unidade no cabeçalho da coluna. |
-| Código do livro (@BookCode)                   | Imprima o código do livro que é especificado na coluna. |
-| Linha em branco (@Blank)                     | Insira uma linha vazia no cabeçalho da coluna. |
+| Nome do mês (@CalMonthLong)              | Imprime o nome do mês atual no título de coluna. Se você decidir arredondar os valores no relatório para milhares, milhões ou bilhões, ou se você definir a largura da coluna no relatório para menos de nove caracteres, o nome do mês será abreviado com os três primeiros caracteres. |
+| Nome do mês abreviado (@CalMonthShort) | Imprime o nome abreviado do mês para o período fiscal selecionado. |
+| Número do período (@FiscalPeriod)           | Imprime o formato numérico do período fiscal identificado para essa coluna. Se a coluna abranger vários períodos, o último período no intervalo será impresso. |
+| Descrição do período (@FiscalPeriodName)  | Imprime a descrição do período fiscal que é identificada pelos dados financeiros. |
+| Ano fiscal (@FiscalYear)               | Imprime o ano fiscal para a coluna no formato numérico. |
+| Ano do calendário (@CalYear)                | Imprime o ano civil para a coluna no formato numérico. |
+| Data inicial (@StartDate)                 | Selecione a data inicial da coluna. |
+| Data de Término (@EndDate)                     | Selecione a data final da coluna. |
+| Nome da unidade da hierarquia (@UnitName)         | Se você restringir uma coluna a uma unidade específica da hierarquia organizacional, imprima o nome da unidade no cabeçalho da coluna. |
+| Descrição da unidade (@UnitDesc)            | Se você restringir uma coluna a uma unidade específica da hierarquia organizacional, imprima a descrição da unidade no cabeçalho da coluna. |
+| Código do Cenário (@BookCode)                   | Imprime o código do cenário especificado na coluna. |
+| Linha em branco (@Blank)                     | Insere uma linha em branco no cabeçalho da coluna. |
 
-### <a name="create-a-conditional-spanning-header"></a>Criar um cabeçalho de propagação condicional
+### <a name="create-a-conditional-spanning-header"></a>Criar um cabeçalho de medida condicional
 
 Os cabeçalhos de medida condicionais podem abranger várias colunas com base em dados específicos do período. Por exemplo, se você tiver um relatório de orçamento para o ano fiscal e desejar exibir os orçamentos reais dos meses passados junto com os orçamentos projetados dos meses futuros, é possível usar um cabeçalho de medida condicional para atualizar automaticamente o cabeçalho do relatório. Lembre-se das seguintes situações ao criar um cabeçalho de medida condicional:
 
@@ -216,13 +215,13 @@ Os cabeçalhos de medida condicionais podem abranger várias colunas com base em
 Phyllis está criando um relatório para uma previsão de seis meses dinâmica. Ela deseja que a palavra "Real" seja impressa nas colunas que contiverem dados reais, e a palavra "Orçamento" seja impressa nas colunas que contiverem previsões de orçamento. Cada mês em que o relatório é executado, há uma coluna real a mais e uma coluna de orçamento a menos. Phyllis pode alterar a definição de coluna manualmente cada vez que o relatório é gerado para ajustar os cabeçalhos, mas ela decide economizar tempo e esforço, e criar os cabeçalhos de medida condicionais que criarão automaticamente os cabeçalhos sobre as colunas apropriadas cada vez que o relatório for executado. Flávia abre o Report Designer, clica em **Definição de coluna** no painel de navegação e abre a definição de coluna do report. Ela então insere as informações a seguir. O período base na definição de relatório é 4.
 
 
-|                     |  A   | B             | C             | D             | E             | S             | G             | A             | I             | J             | K             | G             | S             |
+|                     |  A   | B             | C             | D             | E             | F             | G             | H             | I             | J             | K             | L             | M             |
 |---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
 | Cabeçalho 1            |      | Real        | Orçamento        |               |               |               |               |               |               |               |               |               |               |
 | Cabeçalho 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
 | Cabeçalho 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
 | Tipo de coluna         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
-| Código do livro/atributo |      | ACTUAL        | ORÇAMENTO2012    | ACTUAL        | ORÇAMENTO2012    | ACTUAL        | ORÇAMENTO2012    | ACTUAL        | ORÇAMENTO2012    | ACTUAL        | ORÇAMENTO2012    | ACTUAL        | ORÇAMENTO2012    |
+| Código/atributo do cenário |      | ACTUAL        | ORÇAMENTO2012    | ACTUAL        | ORÇAMENTO2012    | ACTUAL        | ORÇAMENTO2012    | ACTUAL        | ORÇAMENTO2012    | ACTUAL        | ORÇAMENTO2012    | ACTUAL        | ORÇAMENTO2012    |
 | Ano fiscal         |      | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          | BASE          |
 | Período              |      | 1             | 1             | 2             | 2             | 3             | 3             | 4             | 4             | 5             | 5             | 6             | 6             |
 | Períodos cobertos     |      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      | PERIODIC      |
@@ -299,7 +298,7 @@ A célula **Substituição de formato/moeda** especifica a formatação dos valo
 #### <a name="assign-a-format-currency-override-to-a-report-column"></a>Atribuir uma substituição de formato de moeda a uma coluna do relatório
 
 1. No Report Designer, abra a definição de coluna a ser modificada.
-2. Clique duas vezes em uma célula **Substituição de formato/moeda**em uma coluna de valor.
+2. Clique duas vezes em uma célula **Substituição de formato/moeda** em uma coluna de valor.
 3. Na caixa de diálogo **Substituição de formato**, selecione as opções de formatação.
 
 ### <a name="add-a-print-control-code"></a>Adicionar um código de controle de impressão
@@ -519,7 +518,7 @@ Você também pode usar qualquer combinação de caracteres alfanuméricos para 
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>Formatar um relatório de várias moedas em uma definição de coluna
 
-Um relatório de várias moedas pode exibir os valores na moeda natural (local), funcional (padrão), ou de relatório. A moeda funcional de uma empresa é definida no sistema Microsoft Dynamics ERP. Não confunda essa configuração de ERP com a configuração das opções regionais do sistema operacional onde você pode configurar os símbolos de moeda padrão que são usados nos relatórios. As células relacionadas a moeda a seguir estão disponíveis na definição de coluna:
+Um relatório de várias moedas pode exibir os valores na moeda natural (local), funcional (padrão), ou de relatório. A moeda funcional de uma empresa é definida no sistema ERP Microsoft Dynamics. Não confunda essa configuração de ERP com a configuração das opções regionais do sistema operacional onde você pode configurar os símbolos de moeda padrão que são usados nos relatórios. As células relacionadas a moeda a seguir estão disponíveis na definição de coluna:
 
 - **Exibição da moeda** – Especifique o tipo de moeda (natural, funcional ou de relatório) na qual as transações são exibidas. Às vezes, essa funcionalidade é chamada de "conversão de moeda". Conversão de moeda é a capacidade de relatar valores da contabilidade em uma moeda que não seja a moeda funcional da empresa, nem a moeda na qual a transação foi inserida.
 - **Filtro de moeda** – Especifique um filtro de moeda. Apenas as transações inseridas na moeda selecionada são mostradas no relatório.
@@ -612,4 +611,3 @@ Você pode dividir o valor em uma coluna por um número especificado de período
 [Definições de linha no relatório financeiro](row-definitions-financial-reporting.md)
 
 [Opções avançadas de formatação no relatório financeiro](advanced-formatting-options-financial-reporting.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Configurar fluxos de trabalho para despesa
-description: "Você pode configurar um processo de fluxo de trabalho que é usado para revisar e aprovar documentos viagem e despesas."
+description: Você pode configurar um processo de fluxo de trabalho que é usado para revisar e aprovar documentos viagem e despesas.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8294aaa344e3cb6b79fa4f33f368258ca19c8205
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cf35406b43c1ec40a7c248b970559b65fcd8a6c6
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355716"
 ---
-
 # <a name="set-up-workflows-for-expense"></a>Configurar fluxos de trabalho para despesa
 
 [!include [banner](../includes/banner.md)]
@@ -52,5 +51,4 @@ A tabela a seguir lista os tipos de fluxos de trabalho que podem ser criados em 
 |       <strong>Requisição de viagem</strong>       |          Criar fluxos de trabalho de aprovação para requisições de viagem.           |
 |      <strong>Solicitação de adiantamento de dinheiro</strong>      |         Criar fluxos de trabalho de aprovação das solicitações de adiantamento em dinheiro.          |
 |        <strong>Restituição de imposto IVA</strong>        | Criar fluxos de trabalho de aprovação para a recuperação de imposto sobre valor agregado (VAT).  |
-
 

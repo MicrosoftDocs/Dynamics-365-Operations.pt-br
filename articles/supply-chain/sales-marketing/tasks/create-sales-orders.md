@@ -1,13 +1,13 @@
---- 
+---
 title: Criar ordens de venda
 description: Este procedimento mostra como criar uma ordem de venda.
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8af0333d979ba3a4e12d4f22b1225f3b72d66a7a
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4ccd2c4ace41f07dce14498031e3cc29ecb61b1c
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "352105"
 ---
 # <a name="create-sales-orders"></a>Criar ordens de venda
 
@@ -68,5 +68,4 @@ Este procedimento mostra como criar uma ordem de venda. Você pode usar o proced
 2. Clique em Totais.
     * A página Totais exibe os detalhes sobre a ordem inteira. Isso inclui o valor do subtotal, que é a soma de todos os descontos de linha dos valores líquidos ajustados para os descontos eventuais de linha, o valor total da nota fiscal, que é um valor de subtotal ajustado para desconto, encargos diversos, impostos sobre vendas e eventuais nível de fórmula, situação de limite de crédito do cliente, etc.  O valor da nota fiscal é o valor que aparecerá no documento da nota fiscal do cliente.  
 3. Clique em OK.
-
 

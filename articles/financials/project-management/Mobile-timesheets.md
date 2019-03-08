@@ -1,13 +1,13 @@
 ---
-title: "Folhas de ponto do projeto em um dispositivo móvel"
-description: "Minhas folhas de ponto (otimizadas para dispositivo móvel) permitem que os funcionários criem e enviem folhas de ponto do projeto para registrar suas horas para um projeto específico em um dispositivo móvel."
+title: Folhas de ponto do projeto em um dispositivo móvel
+description: Minhas folhas de ponto (otimizadas para dispositivo móvel) permitem que os funcionários criem e enviem folhas de ponto do projeto para registrar suas horas para um projeto específico em um dispositivo móvel.
 author: abruer
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
+ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3e09433a9bb819cf24ee74443dd7e2d80a2b6b2e
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360937"
 ---
-
 # <a name="project-timesheets-on-a-mobile-device"></a>Folhas de ponto do projeto em um dispositivo móvel
 
 [!include [banner](../includes/banner.md)]
@@ -33,8 +32,8 @@ ms.lasthandoff: 04/13/2018
 
 **Folhas de ponto para minha revisão (otimizadas para dispositivo móvel)** permite que os gerentes de projeto, com direitos de aprovação de folha de ponto, examinem aprovem e folhas de ponto do projeto em um dispositivo móvel. A edição ou exibição de informações da dimensão financeira não é suportada para o aplicativo móvel. **Folhas de ponto para minha revisão (otimizadas para dispositivo móvel)** pode ser acessadas pelo navegador da Web em seu dispositivo móvel.
 
-Este aplicativo móvel é compatível com iPhone com Dynamics 365 for Finance and Operations 8.0 com atualização 15 da plataforma.
-Android será compatível com a atualização 16 da Plataforma, quando estiver disponível.
+Este aplicativo móvel é compatível com iPhone com atualização 15 da plataforma do Dynamics 365 for Finance and Operations.
+O Android será compatível com a atualização 16 da Plataforma, quando estiver disponível.
 
 <a name="create-a-project-timesheet-on-your-mobile-device"></a>Crie uma folha de ponto do projeto em seu dispositivo móvel
 ------------------------------------------------
@@ -66,4 +65,3 @@ Android será compatível com a atualização 16 da Plataforma, quando estiver d
 13. Opcional: Insira linhas adicionais da folha de ponto.
 
 14. Depois que você concluir a inserção das linhas da folha de ponto, selecione a ação **Enviar** \> **Fluxo de trabalho** para enviar sua planilha para o processo de aprovação do fluxo de trabalho.
-

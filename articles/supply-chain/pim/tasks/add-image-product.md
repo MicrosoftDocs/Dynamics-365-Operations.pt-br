@@ -1,13 +1,13 @@
---- 
+---
 title: Adicionar uma imagem a um produto
-description: "Este procedimento mostra como adicionar uma imagem a um produto. A empresa de dados de demonstração usada para criar esta tarefa é a USMF."
+description: Este procedimento mostra como adicionar uma imagem a um produto. A empresa de dados de demonstração usada para criar esta tarefa é a USMF.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductPerCompanyImagePart, EcoResProductImage, DocumentUpload
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c663c9f6b4f74ea20f0481632af9eef303ba27ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b6a0ffb1b5be1ecda929ad604fc39b260fa1c34c
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359465"
 ---
 # <a name="add-an-image-to-a-product"></a>Adicionar uma imagem a um produto
 
@@ -36,5 +36,4 @@ Este procedimento mostra como adicionar uma imagem a um produto. A empresa de da
 4. Clique em Alterar imagem.
 5. Clique em Novo.
     * Clique em Procurar. Encontre a imagem que deseja usar, selecione-a e depois feche a caixa de diálogo.    
-
 

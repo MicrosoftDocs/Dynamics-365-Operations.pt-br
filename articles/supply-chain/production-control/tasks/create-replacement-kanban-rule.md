@@ -1,13 +1,13 @@
---- 
-title: "Criar uma regra kanban de substituição"
-description: "Esse procedimento se concentra em substituir uma regra kanban existente por uma nova regra kanban em uma data específica."
+---
+title: Criar uma regra kanban de substituição
+description: Esse procedimento se concentra em substituir uma regra kanban existente por uma nova regra kanban em uma data específica.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c8a9367d4796999857e473bcbe36a709d534f3b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e5b27200a8d56192d473887f01076eced0f92e4c
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362271"
 ---
 # <a name="create-a-replacement-kanban-rule"></a>Criar uma regra kanban de substituição
 
@@ -55,5 +55,4 @@ Esse procedimento se concentra em substituir uma regra kanban existente por uma 
 ## <a name="modify-maximum-quantity-for-the-replacement-kanban-rule"></a>Modifique a quantidade máxima para a regra kanban de substituição
 1. Defina Quantidade máxima como '100'.
     * Expanda as quantidades FastTab para ver o campo Quantidade máxima. Alterar a quantidade máxima para 100 permitirá que até 100 kanbans sejam processados.    Esta é a última etapa da tarefa.  
-
 

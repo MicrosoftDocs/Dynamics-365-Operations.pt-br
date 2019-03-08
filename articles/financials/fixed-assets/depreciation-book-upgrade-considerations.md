@@ -1,13 +1,13 @@
 ---
-title: "Visão geral da atualização do registro de depreciações"
-description: "Em versões anteriores, havia dois conceitos de avaliação para ativos fixos: modelos de valor e registros de depreciações. No Microsoft Dynamics 365 for Operations versão (1611), as funcionalidades de método de depreciação e de registro de depreciações foram mescladas em um único conceito que é conhecido como um registro. Este tópico fornece alguns aspectos a serem considerados durante a atualização."
+title: Visão geral da atualização do registro de depreciações
+description: 'Em versões anteriores, havia dois conceitos de avaliação para ativos fixos: modelos de valor e registros de depreciações. No Microsoft Dynamics 365 for Operations (1611), as funcionalidades de modelo de valor e registro de depreciação foram mescladas em um único conceito que é conhecido como registro. Este tópico fornece alguns aspectos a serem considerados durante a atualização.'
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 805f6ab1cd1d0996e685278cc997f532213c76c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e95fa9dd15dfe5e6b26de61b5dbc1a9a6c0d768d
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359304"
 ---
-
 # <a name="depreciation-book-upgrade-overview"></a>Visão geral da atualização do registro de depreciações
 
 [!include [banner](../includes/banner.md)]
 
-Em versões anteriores, havia dois conceitos de avaliação para ativos fixos: modelos de valor e registros de depreciações. No Microsoft Dynamics 365 for Operations versão (1611), as funcionalidades de método de depreciação e de registro de depreciações foram mescladas em um único conceito que é conhecido como um registro. Este tópico fornece alguns aspectos a serem considerados durante a atualização. 
+Em versões anteriores, havia dois conceitos de avaliação para ativos fixos: modelos de valor e registros de depreciações. No Microsoft Dynamics 365 for Operations (1611), as funcionalidades de modelo de valor e registro de depreciação foram mescladas em um único conceito que é conhecido como registro. Este tópico fornece alguns aspectos a serem considerados durante a atualização. 
 
 O processo de atualização moverá suas configurações existentes e todas as transações existentes para a nova estrutura de registro. Os métodos de depreciação são permanecerá como momento, como um registro que lançar na contabilidade. Os registros de depreciação serão movidos para um registro que tenha a opção **Lançar na contabilidade** definida como **Não**. Os nomes de diário de registro de depreciações serão movidos a um nome de diário da contabilidade com o nível de lançamento definido como **Nenhum**. As transações do livro de depreciações serão movidas para as transações de ativo fixo. 
 
@@ -81,7 +80,6 @@ Ao usar a abordagem de sequência numérica gerada pelo sistema (opção 1), a a
 Ao usar a abordagem de sequência numérica existente definida pelo usuário (opção 2), a atualização de dados verifica se a sequência numérica com o escopo especificado existe no banco de dados para cada partição e empresa com transações do registro de depreciações. Caso exista, a atualização usará o processamento linha por linha para alocar os números do comprovante, conforme especificado pela sequência numérica usando a estrutura da sequência numérica. Se a sequência numérica não existir com o escopo especificado, a atualização usará a abordagem de sequência numérica definida pelo sistema padrão para alocar os números de comprovante, e criará uma nova sequência numérica com os parâmetros padrão especificados após alocação.
 
 Em ambas abordagens, o script da atualização de dados também usará a sequência numérica para o campo **Série de comprovante** nos novos nomes de diário de contabilidade criados para os antigos nomes de diário de registro de depreciações.
-
 
 
 

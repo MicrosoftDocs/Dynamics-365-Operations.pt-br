@@ -1,13 +1,13 @@
---- 
-title: "Configurar automatização de reconciliação de frete"
-description: "Este procedimento mostra como definir dados para reconciliação automática de frete."
+---
+title: Configurar automatização de reconciliação de frete
+description: Este procedimento mostra como definir dados para reconciliação automática de frete.
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/16/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSFreightBillTypeAssignment, TMSCarrierCodeLookup, DefaultDashboard, TMSAuditMaster
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
 ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
-ms.contentlocale: pt-br
-ms.lasthandoff: 10/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357464"
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>Configurar automatização de reconciliação de frete
 
@@ -71,5 +71,4 @@ Este procedimento mostra como definir dados para reconciliação automática de 
     * Se os valores monetários são diferentes na conta de frete e na nota fiscal da transportadora, os códigos de motivo de pagamento maior/menor especifica as contas que a diferença deve ser registrada sobre, como a diferença está dentro dos níveis de tolerância.  
 11. No campo Código de motivo de pagamento a menor, insira ou selecione um valor.
 12. Feche a página.
-
 

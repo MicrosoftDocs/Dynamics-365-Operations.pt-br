@@ -1,13 +1,13 @@
 ---
-title: "Analisar tendências e padrões de venda"
-description: "Você pode estudar tendências e padrões de venda em tempo real no Microsoft Dynamics 365 for Retail."
+title: Analisar tendências e padrões de vendas
+description: Você pode estudar tendências e padrões de vendas em tempo real no Microsoft Dynamics 365 for Retail.
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelReport, SysReportViewerForm, RetailStoreManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 7ea5efd1fcde233145e97aea30d312bbe70b20ac
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b2a23b6013fd9096457647142a40a6710da6ca88
-ms.contentlocale: pt-br
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357993"
 ---
-
 # <a name="analyze-sales-trends-and-patterns"></a>Analisar tendências e padrões de vendas
 
 [!include [banner](includes/banner.md)]
 
-Você pode estudar tendências e padrões de venda em tempo real no Microsoft Dynamics 365 for Retail.
+Você pode estudar tendências e padrões de vendas em tempo real no Microsoft Dynamics 365 for Retail.
 
-Como parte do Dynamics 365 for Retail, os usuários podem estudar as tendências e os padrões de vendas em tempo real nos diferentes níveis da hierarquia organizacional durante um período de anos usando o relatório predefinido **Canal de vendas por ano**. Você pode abrir esse relatório de qualquer um dos seguintes locais:
+Como parte do Dynamics 365 for Retail, os usuários podem estudar tendências e padrões de vendas em tempo real nos diferentes níveis da hierarquia organizacional durante um período de anos usando o relatório predefinido **Canal de vendas por ano**. Você pode abrir esse relatório de qualquer um dos seguintes locais:
 
 - Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de canal de vendas por ano**
 - Área de trabalho **Finanças da loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Finanças da loja de varejo** &gt; **Relatórios** &gt; **Relatório de canal de vendas por ano**
@@ -44,4 +43,3 @@ Os usuários também podem estudar as tendências e os padrões de vendas por ho
 - Área de trabalho **Gerenciamento de loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Gerenciamento de loja de varejo** &gt; **Relatórios** &gt; **Relatório de canal de vendas por hora**
 - Área de trabalho **Finanças da loja de varejo** &gt; **Varejo** &gt; **Canais** &gt; **Finanças da loja de varejo** &gt; **Relatórios** &gt; **Relatório de canal de vendas por hora**
 - Seção **Consultas e relatórios** &gt; **Varejo** &gt; **Consultas e relatórios** &gt; **Relatórios de vendas** &gt; **Relatório de canal de vendas por hora**
-

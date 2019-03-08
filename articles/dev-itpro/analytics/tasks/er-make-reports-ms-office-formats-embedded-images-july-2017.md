@@ -1,13 +1,13 @@
---- 
-title: "Criar configurações para gerar relatórios em formatos do Office com imagens incorporadas"
-description: "As etapas neste tópico fornecem informações sobre como criar as configurações do relatório eletrônico (ER) que geram documentos eletrônicos nos formatos Microsoft Office (Excel e Word) que contêm imagens incorporadas."
+---
+title: Criar configurações para gerar relatórios em formatos do Office com imagens incorporadas
+description: As etapas neste tópico fornecem informações sobre como criar configurações de relatório eletrônico (ER) que geram documentos eletrônicos nos formatos do Microsoft Office (Excel e Word) contendo imagens incorporadas.
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,18 +15,18 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 1fb02e561f6792c57b924ba64a5ca3d3974289ee
-ms.contentlocale: pt-br
-ms.lasthandoff: 08/09/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358085"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>Criar configurações para gerar relatórios em formatos do Office com imagens incorporadas
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-Para concluir as etapas neste procedimento, você deve primeiro concluir o procedimento, "ER Criar um provedor de configuração e marcá-lo como ativo". Este procedimento explica como criar as configurações do relatório eletrônico (ER) para gerar um documento do Microsoft Excel ou Word que contenha imagens incorporadas. Nesse procedimento, você criará as configurações de ER necessárias para a empresa de exemplo, a Litware, Inc. Essas etapas podem ser concluídas usando o conjunto de dados USMF. Este procedimento é criado para usuários com a função atribuída de administrador do sistema ou desenvolvedor de relatório eletrônico. Antes de começar, baixe e salve os arquivos listados no tópico da Ajuda [Incorporar imagens e formas em documentos comerciais gerados com a ferramenta de relatório eletrônico](../electronic-reporting-embed-images-shapes.md). Os arquivos são: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png, e Cheque template Word.docx.
+Para concluir as etapas neste procedimento, você deve primeiro concluir o procedimento, "ER Criar um provedor de configuração e marcá-lo como ativo". Este procedimento explica como criar configurações de relatório eletrônico (ER) para gerar um documento do Microsoft Excel ou do Word contendo imagens incorporadas. Nesse procedimento, você criará as configurações de ER necessárias para a empresa de exemplo, a Litware, Inc. Essas etapas podem ser concluídas usando o conjunto de dados USMF. Este procedimento é criado para usuários com a função atribuída de administrador do sistema ou desenvolvedor de relatório eletrônico. Antes de começar, baixe e salve os arquivos listados no tópico da Ajuda [Incorporar imagens e formas em documentos comerciais gerados com a ferramenta de relatório eletrônico](../electronic-reporting-embed-images-shapes.md). Os arquivos são: Model for cheques.xml, Cheques printing format.xml, Company logo.png, Signature image.png, Signature image 2.png, e Cheque template Word.docx.
 
 ## <a name="verify-prerequisites"></a>Verificar pré-requisitos  
  1. Ir para Administração da organização > Espaços de trabalho > Relatório eletrônico.  
@@ -34,7 +34,7 @@ Para concluir as etapas neste procedimento, você deve primeiro concluir o proce
  3. Clique em Configurações de relatórios.  
  
 ## <a name="add-a-new-er-model-configuration"></a>Adicionar uma nova configuração de modelo de ER  
- 1. Em vez de criar um novo modelo, você pode carregar o arquivo de configuração do modelo de ER (Model for cheques.xml) que salvou anteriormente. Esse arquivo contém o modelo de dados de exemplo para cheques de pagamento e o mapeamento do modelo de dados para o aplicativo do Dynamics 365 for Operations.   
+ 1. Em vez de criar um novo modelo, você pode carregar o arquivo de configuração do modelo de ER (Model for cheques.xml) que salvou anteriormente. Este arquivo contém o modelo de dados de amostra para cheques de pagamento e o mapeamento do modelo de dados para os componentes de dados do aplicativo Dynamics 365 for Operations.   
  2. Na Guia Rápida Versões, clique em Troca.   
  3. Clique em Carregar de um arquivo XML.  
  4. Clique em Procurar e selecione Model for cheques.xml.   
@@ -91,4 +91,3 @@ Para concluir as etapas neste procedimento, você deve primeiro concluir o proce
  30. Selecione Sim no campo Permitir a criação do pré-registro em contas bancárias inativas:.  
  31. Clique em Salvar.  
  32. Feche a página.  
-

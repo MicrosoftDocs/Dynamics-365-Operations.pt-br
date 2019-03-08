@@ -1,37 +1,36 @@
 ---
 title: Sincronizar produtos com unidade de estoque do Finance and Operations no Field Service
-description: "Este tópico discute os modelos e a tarefa subjacente usados para sincronizar produtos com a unidade de estoque do Microsoft Dynamics 365 for Finance and Operations para o Microsoft Dynamics 365 for Field Service."
+description: Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos com unidades de estoque do Microsoft Dynamics 365 for Finance and Operations para o Microsoft Dynamics 365 for Field Service.
 author: ChristianRytt
 manager: AnnBe
 ms.date: 12/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
 ms.openlocfilehash: 5d3767c1a499f3d888d8fc2ce06c2837442e39f0
-ms.contentlocale: pt-br
-ms.lasthandoff: 12/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359235"
 ---
-
 # <a name="synchronize-products-with-inventory-unit-from-finance-and-operations-to-field-service"></a>Sincronizar produtos com unidade de estoque do Finance and Operations no Field Service
 
 [!include[banner](../includes/banner.md)]
 
-Este tópico discute os modelos e a tarefa subjacente usados para sincronizar produtos com a unidade de estoque do Microsoft Dynamics 365 for Finance and Operations para o Microsoft Dynamics 365 for Field Service.
+Este tópico discute os modelos e as tarefas subjacentes usadas para sincronizar produtos com unidades de estoque do Microsoft Dynamics 365 for Finance and Operations para o Microsoft Dynamics 365 for Field Service.
 
 [![Sincronização de processos empresariais entre o Finance and Operations e o Field Service](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
@@ -62,4 +61,3 @@ As ilustrações a seguir mostram um mapeamento de modelo na Integração de dad
 ### <a name="field-service-products-with-inventory-unit-finance-and-operations-to-field-service-products"></a>Produtos do Field Service com a unidade de estoque (Finance and Operations para Field Service): Produtos
 
 [![Mapeamento de modelo na Integração de dados](./media/FSProduct1.png)](./media/FSProduct1.png)
-

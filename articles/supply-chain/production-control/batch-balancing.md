@@ -1,13 +1,13 @@
 ---
 title: Balanceamento de lote
-description: "Este tópico descreve o processo de balanceamento de lote."
+description: Este tópico descreve o processo de balanceamento de lote.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 63b986f9f3a1505dba4c2f64f872b9472e1aca87
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
-ms.contentlocale: pt-br
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358614"
 ---
-
 # <a name="batch-balancing"></a>Balanceamento de lote
 
 [!include [banner](../includes/banner.md)]
@@ -194,4 +193,3 @@ Há uma exceção à regra de que as ordens de lote são aplicáveis ao balancea
 Se uma fórmula contiver um princípio ativo para um produto habilitado para os processos de gerenciamento de depósito, mas o Número de lote estiver abaixo da Localização na hierarquia de reservas, a ordem de lote não será aplicável ao balanceamento de lote.
 
 Uma ordem de lote não aplicável ao balanceamento de lote passa pelo ciclo de processo normal para ordens de lote.
-

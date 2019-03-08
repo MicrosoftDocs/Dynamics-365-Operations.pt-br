@@ -1,13 +1,13 @@
 ---
-title: "Monitorar precisão da previsão"
-description: "Este artigo descreve os tipos de precisão de previsão calculados pelo Microsoft Dynamics 365 for Finance and Operations e explica como é possível exibir os valores da precisão."
+title: Monitorar precisão da previsão
+description: Este artigo descreve os tipos de precisão de previsão calculados pelo Microsoft Dynamics 365 for Finance and Operations e explica como é possível exibir os valores da precisão.
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanForecastDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d7070c15f9ee23cfdba871af68d1fc5954735651
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1f54251b6f6937c59293bd44a0fc27272ffd3d55
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356406"
 ---
-
 # <a name="monitor-forecast-accuracy"></a>Monitorar precisão da previsão
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ O Finance and Operations calcula os seguintes tipos de precisão da previsão:
 [Autorizando a previsão ajustada](authorize-adjusted-forecast.md)
 
 [Remover exceções de dados históricos de transação ao calcular uma previsão de demanda](remove-historical-outliers-calculating-demand-forecast.md)
-
 
 
 

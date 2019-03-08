@@ -1,14 +1,14 @@
 ---
 title: Adicionar local e tipos de relacionamento do participante
-description: "Este tópico explica como adicionar um novo local e tipo de relacionamento do participante."
+description: Este tópico explica como adicionar um novo local e tipo de relacionamento do participante.
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 543784e8072f88c10f63e1b44921b9f2d37308c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e0ab9c9894fdd5fba224c166941abbf52172ae46
-ms.openlocfilehash: 27819c922832a30eb0b20db6bffdbd4504e6d5e6
-ms.contentlocale: pt-br
-ms.lasthandoff: 06/12/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357487"
 ---
-
 # <a name="add-location-roles-and-party-relationship-types"></a>Adicionar funções de local e tipos de relacionamentos do participante 
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ Há duas maneiras de adicionar novas funções do local para endereço e informa
 
         ![Preenchimento de dados](media/Dirdata.PNG)
 
-    4.  Para testar o preenchimento da nova função do local, você pode criar uma classe executável e chamar DirDataPopulation::insertLogisticsLocationRoles() em Main(). Depois que esse processo for concluído, você deverá ver a nova função preenchida na tabela **LogisticsLocationRole** com tipo \> 0. A nova função será exibida na página **Finalidade das informações de endereço e de contato**.
+    4.  Para testar o preenchimento da nova função do local, você pode criar uma classe executável e chamar DirDataPopulation::insertLogisticsLocationRoles() in Main(). Depois que esse processo for concluído, você deverá ver a nova função preenchida na tabela **LogisticsLocationRole** com tipo \> 0. A nova função será exibida na página **Finalidade das informações de endereço e de contato**.
 
         ![Inserir novo local](media/InsertNewLocation.PNG)
 
@@ -72,7 +71,6 @@ Há duas maneiras de adicionar um novo tipo de relacionamento:
     
     ![DirRelationshipChild](media/DirRelationship.PNG)
 
-    3.  Para testar o preenchimento do novo tipo de relacionamento você pode criar uma classe executável e chamar DirDataPopulation::insertDirRelationshipTypes() em Main(). Você deve verificar o novo tipo de relacionamento na **DirRelationshipTypeTable** e o novo tipo de relacionamento estará disponível na página **Tipos de relacionamento** .
+    3.  Para testar o preenchimento do novo tipo de relacionamento você pode criar uma classe executável e chamar DirDataPopulation::insertDirRelationshipTypes() in Main(). Você deve verificar o novo tipo de relacionamento na **DirRelationshipTypeTable** e o novo tipo de relacionamento estará disponível na página **Tipos de relacionamento** .
 
         ![Classe executável](media/Runnable.PNG)
-

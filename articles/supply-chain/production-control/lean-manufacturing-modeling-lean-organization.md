@@ -1,13 +1,13 @@
 ---
-title: "Modelagem da organização de lean manufacturing"
-description: "O artigo fornece informações sobre os conceitos principais modelagem em uma organização simples."
+title: Modelagem da organização de lean manufacturing
+description: O artigo fornece informações sobre os conceitos principais modelagem em uma organização simples.
 author: cvocph
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 92cd1ea0a6ab6039da7074e032e0f78dd7443cba
 ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350978"
 ---
-
 # <a name="modeling-a-lean-organization"></a>Modelagem da organização de lean manufacturing
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ Os cenários de produção baseados em ordens de produção, o material é emiti
 
 Para reduzir prazos de entrega e o estoque excedente entre os centros de trabalho causados pela produção de lote, o lean manufacturing apresenta o reabastecimento do kanban e supermercados na fabricação e no reabastecimento do depósito. Isso geralmente interrompe a produção de ciclos parcialmente independentes do kanban. O reabastecimento de um kanban para um produto semiacabado não é mais disparado por uma ordem para um produto acabado. 
 
-Para restabelecer um contexto de produção e custo para os vários cenários do kanban propostos no Microsoft Dynamics 365 for Finance and Operations, os fluxos de produção baseados em atividade são apresentados como a base do lean manufacturing. Todas as regras kanban se referem a essa estrutura predefinida. O modelo com base na atividade suporta a configuração de uma variedade de cenários. No entanto, este módulo não adiciona a complexidade para trabalhadores de chão de fábrica, como todos os cenários usam a mesma interface do usuário com base na atividade.
+Para restabelecer um contexto de produção e custo para os vários cenários kanban propostos no Microsoft Dynamics 365 for Finance and Operations, os fluxos de produção baseados em atividade são apresentados como a base do lean manufacturing. Todas as regras kanban se referem a essa estrutura predefinida. O modelo com base na atividade suporta a configuração de uma variedade de cenários. No entanto, este módulo não adiciona a complexidade para trabalhadores de chão de fábrica, como todos os cenários usam a mesma interface do usuário com base na atividade.
 
 ## <a name="semi-finished-products-non-bom-levels"></a>Produtos semiacabados (em níveis não BOM)
 O Lean Manufacturing Integra os kanbans para produtos inventariados e semiacabados em uma única estrutura e, portanto, oferece uma experiência de usuário unificada para todos os casos. Devido a essa arquitetura, os níveis adicionais de BOM não precisam ser introduzidos para habilitar os kanbans a serem usados para produtos semiconcluídos. A arquitetura também ajuda a reduzir transações de estoque para um mínimo.
@@ -65,7 +64,6 @@ Para apoiar o aperfeiçoamento contínuo, os fluxos de produção são implement
 
 ## <a name="simplicity"></a>Simplicidade
 Para a implementação de Lean manufacturing, escolhemos uma abordagem de fluxo de produção e atividade que permite modelar cenários de produção simples e complexos em uma única arquitetura escalonável. Uma análise atenta do conceito de atividade revela uma nova simplicidade para aqueles usuários que realmente precisam dela: o chão de fábrica e o pessoal de logística. Ao relatar trabalhos com base em atividades, e não em transações de estoque, uma interface do usuário unificada para todas as variantes de lean manufacturing transfere a complexidade dos negócios da interface do usuário ao qual pertence: o fluxo de produção como a base do lean manufacturing.
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Visão geral de Compras"
-description: "Este artigo oferece uma visão geral da funcionalidade que está disponível no módulo Aquisição e fornecimento."
+title: Visão geral de Compras
+description: Este artigo oferece uma visão geral da funcionalidade que está disponível no módulo Aquisição e fornecimento.
 author: FrankDahl
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1fc824a308d17c75d9c16391778570272e160699
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351622"
 ---
-
 # <a name="procurement-and-sourcing-overview"></a>Visão geral de Compras
 
 [!include [banner](../includes/banner.md)]
@@ -86,11 +85,10 @@ Quando as *faturas do fornecedor* chegam do fornecedor, elas podem ser registrad
 
 As *distribuições contábeis* podem ser especificadas na ordem de compra para descrever como a contabilidade deverá ser feita no razão e também podem definir como a alocação de fundos de orçamento será obtida quando for incluída na configuração.  
 
-As ordens de compra faturadas registrarão o passivo na conta do fornecedor em contas a pagar, no qual o *pagamento do fornecedor* pode ser processado.
+As ordens de compra faturadas registrarão o passivo na conta do fornecedor em contas a pagar, no qual o *p*a*gamento do fornecedor* pode ser processado.
 
 ## <a name="vendor-performance"></a>Desempenho do fornecedor
 O suporte ao desempenho e à revisão da compra é feito por meio de *relatórios de aquisição e contas a pagar,* que inclui a análise de gastos e a análise de desempenho do fornecedor.
-
 
 
 

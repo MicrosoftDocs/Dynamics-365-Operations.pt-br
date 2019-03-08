@@ -1,32 +1,31 @@
 ---
-title: "Membros estatísticos de dimensões e modelos de fornecedores de medições estatísticas"
-description: "Este tópico fornece informações sobre membros da dimensão estatística e modelos de provedores de medidas estatísticas. Os membros da dimensão estatística podem ser utilizados como base de alocação em políticas como distribuição de custos e alocação de custos. Eles também podem ser usados ​​para relatar o consumo de custos não monetários."
+title: Membros estatísticos de dimensões e modelos de fornecedores de medições estatísticas
+description: Este tópico fornece informações sobre membros da dimensão estatística e modelos de provedores de medidas estatísticas. Os membros da dimensão estatística podem ser utilizados como base de alocação em políticas como distribuição de custos e alocação de custos. Eles também podem ser usados ​​para relatar o consumo de custos não monetários.
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cc9170f10fe2be0446b1c974a50dbdf1cb5fe236
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
-ms.contentlocale: pt-br
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360293"
 ---
-
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>Membros estatísticos de dimensões e modelos de fornecedores de medições estatísticas
 
 [!include [banner](../includes/banner.md)]
@@ -73,7 +72,7 @@ Aqui estão alguns exemplos de membros típicos da dimensão estatística.
 
 ## <a name="statistical-measure-provider-template"></a>Modelo de provedor de medidas estatísticas
 
-As medidas estatísticas podem ser originárias de vários tipos de fontes. O Microsoft Dynamics 365 for Finance and Operations é uma ótima fonte para extrair medidas estatísticas. Você pode usar um modelo de provador de medidas estatísticas para configurar facilmente as medidas estatísticas que deseja extrair.
+As medidas estatísticas podem ser originárias de vários tipos de fontes. O Microsoft Dynamics 365 for Finance and Operations é uma grande fonte de extração de estatísticas de medição. Você pode usar um modelo de provador de medidas estatísticas para configurar facilmente as medidas estatísticas que deseja extrair.
 
 A definição de modelo de fornecedor de medida estatística é genérica e pode ser reutilizada em vários membros de dimensão estatística.
 
@@ -347,4 +346,3 @@ Se a base de atribuição de membros de dimensão predefinida de eletricidade fo
 ## <a name="additional-resources"></a>Recursos adicionais
 
 [Bases de alocação](allocation-bases.md)
-

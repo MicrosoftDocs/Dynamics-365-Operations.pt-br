@@ -1,13 +1,13 @@
 ---
-title: "Princípios de liberação"
-description: "Este tópico descreve os quatro princípios de liberação usados para o consumo de matéria-prima."
+title: Princípios de liberação
+description: Este tópico descreve os quatro princípios de liberação usados para o consumo de matéria-prima.
 author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e4b9cd918bec9a094744b208821285c57f01798a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: f5fc4db479852ffac5f2b3401a0c1bd92c35a7cb
-ms.contentlocale: pt-br
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358292"
 ---
-
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>Controle do consumo de matéria-prima usando princípios de liberação
 
 [!include [banner](../includes/banner.md)]
@@ -64,4 +63,3 @@ O princípio de liberação Final indica se o material será automaticamente con
 
 ### <a name="available-at-location"></a>Disponível no local
 O princípio de liberação Disponível no local indica se o material será automaticamente consumido quando for registrado como separado para produção. O material é registrado como separado do local quando o trabalho da separação de matéria-prima é concluído ou quando o material está disponível no local de entrada de produção e a linha de material é liberada para o depósito. A lista de separação gerada durante o processo é lançada em um trabalho em lotes. Esse princípio será relevante se, por exemplo, você tiver diversas atividades de separação em uma ordem de produção. Nesse caso, você não precisará atualizar a lista de separação manualmente e poderá obter uma exibição atual do saldo WIP.
-

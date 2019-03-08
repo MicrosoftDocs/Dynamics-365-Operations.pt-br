@@ -1,13 +1,13 @@
---- 
+---
 title: Transferir um ativo fixo
-description: "Este guia da tarefa transfere as informações financeiras para um registro de ativo fixo de um conjunto de dimensões financeiras para um novo conjunto de dimensões financeiras."
+description: Este guia da tarefa transfere as informações financeiras para um registro de ativo fixo de um conjunto de dimensões financeiras para um novo conjunto de dimensões financeiras.
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetTransfer, DimensionLookup, AssetTransferConfirmation
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: bb8a5b94d9a0bb510daa2a698524e0c380597991
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b193cf6fbed810f0d5234514573d0f5c23c7b2c8
-ms.contentlocale: pt-br
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: pt-BR
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357188"
 ---
 # <a name="transfer-a-fixed-asset"></a>Transferir um ativo fixo
 
@@ -46,5 +46,4 @@ Este guia da tarefa transfere as informações financeiras para um registro de a
     * Você tem a oportunidade de visualizar as alterações antes de finalizar a transferência.  
     * Revise os resultados antes de transferir os registros de ativo fixo.  
 10. Clique em Transferir.
-
 
